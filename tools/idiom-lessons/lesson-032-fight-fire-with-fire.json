@@ -1,0 +1,1465 @@
+{
+  "lesson": {
+    "id": "idiom-32",
+    "order": 32,
+    "slug": "fight-fire-with-fire",
+    "version": "1",
+    "title": "以相同手法反擊／以同樣策略應對對手",
+    "titleEn": "fight fire with fire",
+    "titleZh": "以相同手法反擊／以同樣策略應對對手",
+    "source": {
+      "file": "Idiom 32 -“Fight Fire with Fire”.pdf",
+      "pageCount": 29,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "exercisePdfPages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "answerKeyPdfPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "fight fire with fire",
+        "highlight": "fight fire with fire"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The team fought fire with fire.",
+        "zh": "那支隊伍以相同手法反擊。",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "en": "The café fought fire with fire by offering free delivery too.",
+        "zh": "咖啡店也提供免費送餐，以相同策略競爭。",
+        "highlight": "fought fire with fire"
+      }
+    ],
+    "meaning": {
+      "en": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+      "zh": "以對方所使用的相同或相近手法作出回應、反擊或競爭；以其人之道還治其人之身。",
+      "naturalZh": [
+        "以相同手法反擊",
+        "以同樣策略應對對手",
+        "以其人之道還治其人之身",
+        "以牙還牙(語氣較強，並非每個語境都適合)"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "The expression is generally informal to neutral. It is natural in conversation, sports discussion, workplace communication, news commentary and general writing. Because it presents the situation as a contest between two sides, it often sounds determined, competitive or critical. Collins likewise explains it as using the same tactics or force as an opponent.",
+      "summaryZh": "這個表達一般屬於非正式至中性語域，常見於日常對話、體育討論、工作溝通、新聞評論及一般文章。 由於它把情況描寫成雙方的較量，語氣通常帶有堅定、競爭或批判色彩。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "It is not automatically rude. However, it can sound confrontational when the original tactic is dishonest, insulting or aggressive. In highly formal legal, technical or academic writing, a plain expression such as “respond using the same method” may be clearer.",
+      "formalZh": "這個表達本身不一定粗魯。 不過，如果對方原本使用的是不誠實、侮辱性或具攻擊性的手法，這個慣用語便可能帶有對抗意味。 在非常正式的法律、技術或學術文章中，直接使用「以相同方法回應」有時會更清楚。"
+    },
+    "fixedVariable": {
+      "fixed": "fight fire with fire",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + fight(s) / fought + fire with fire.",
+          "example": "The team fought fire with fire.",
+          "highlight": "fought fire with fire"
+        },
+        {
+          "form": "Subject + fight fire with fire + by + verb-ing.",
+          "example": "The café fought fire with fire by offering free delivery too.",
+          "highlight": "fought fire with fire"
+        },
+        {
+          "form": "Subject + fight fire with fire + against + opponent.",
+          "example": "Our team fought fire with fire against its opponent.",
+          "highlight": "fought fire with fire"
+        },
+        {
+          "form": "Subject + can / could / should / may / might / will + fight fire with fire.",
+          "example": "We could fight fire with fire by posting a reply.",
+          "highlight": "fight fire with fire"
+        },
+        {
+          "form": "Subject + action + to fight fire with fire.",
+          "example": "Our club posted a video to fight fire with fire.",
+          "highlight": "fight fire with fire"
+        },
+        {
+          "form": "To fight fire with fire, + subject + action.",
+          "example": "To fight fire with fire, our shop lowered its prices too.",
+          "highlight": "fight fire with fire"
+        },
+        {
+          "form": "Fighting fire with fire, + subject + response.",
+          "example": "Fighting fire with fire, the speaker replied with facts of her own.",
+          "highlight": "Fighting fire with fire"
+        },
+        {
+          "form": "Action + be + somebody’s way of fighting fire with fire.",
+          "example": "Offering the same discount was the shop’s way of fighting fire with fire.",
+          "highlight": "fighting fire with fire"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Form",
+        "titleZh": "句式一：基本形式",
+        "formula": "Subject + fight(s) / fought + fire with fire.",
+        "descriptionEn": "This form identifies the person, group or organisation that uses the matching tactic.",
+        "descriptionZh": "這個句式指出是誰或哪個團體採取與對方相同的策略。",
+        "examples": [
+          {
+            "en": "The team fought fire with fire.",
+            "zh": "那支隊伍以相同手法反擊。",
+            "highlight": "fought fire with fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Explaining the Method",
+        "titleZh": "句式二：說明回應方法",
+        "formula": "Subject + fight fire with fire + by + verb-ing.",
+        "descriptionEn": "Source grammar frame: Subject + fight fire with fire + by + verb-ing.",
+        "descriptionZh": "原檔列出的句法框架：Subject + fight fire with fire + by + verb-ing。",
+        "examples": [
+          {
+            "en": "The café fought fire with fire by offering free delivery too.",
+            "zh": "咖啡店也提供免費送餐，以相同策略競爭。",
+            "highlight": "fought fire with fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Naming the Opponent or Situation",
+        "titleZh": "句式三：指出對手或情境",
+        "formula": "Subject + fight fire with fire + against + opponent.",
+        "descriptionEn": "Source grammar frame: Subject + fight fire with fire + against + opponent.",
+        "descriptionZh": "原檔列出的句法框架：Subject + fight fire with fire + against + opponent。",
+        "examples": [
+          {
+            "en": "Our team fought fire with fire against its opponent.",
+            "zh": "我們的隊伍以相同策略應對對手。",
+            "highlight": "fought fire with fire"
+          },
+          {
+            "en": "She fought fire with fire in the debate.",
+            "zh": "她在辯論中以相同手法反擊。",
+            "highlight": "fought fire with fire"
+          },
+          {
+            "en": "They fought fire with fire at the match.",
+            "zh": "他們在比賽中採取同樣打法應對。",
+            "highlight": "fought fire with fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Using a Modal Verb",
+        "titleZh": "句式四：配合情態動詞",
+        "formula": "Subject + can / could / should / may / might / will + fight fire with fire.",
+        "descriptionEn": "Source grammar frame: Subject + can / could / should / may / might / will + fight fire with fire.",
+        "descriptionZh": "原檔列出的句法框架：Subject + can / could / should / may / might / will + fight fire with fire。",
+        "examples": [
+          {
+            "en": "We could fight fire with fire by posting a reply.",
+            "zh": "我們可以發布回應，以相同手法反擊。",
+            "highlight": "fight fire with fire"
+          },
+          {
+            "en": "The shop may have to fight fire with fire.",
+            "zh": "店舖可能需要以相同策略應對。",
+            "highlight": "fight fire with fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Infinitive of Purpose",
+        "titleZh": "句式五：以不定式說明目的",
+        "formula": "Subject + action + to fight fire with fire.",
+        "descriptionEn": "This form places the matching action before the idiom.",
+        "descriptionZh": "這個句式先說明具體行動，再以慣用語指出採取該行動的策略目的。",
+        "examples": [
+          {
+            "en": "Our club posted a video to fight fire with fire.",
+            "zh": "我們的學會發布短片，以相同手法作出回應。",
+            "highlight": "fight fire with fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Fronted Purpose",
+        "titleZh": "句式六：把目的放在句首",
+        "formula": "To fight fire with fire, + subject + action.",
+        "descriptionEn": "Place a comma after the opening phrase.",
+        "descriptionZh": "開首短語後應使用逗號。",
+        "examples": [
+          {
+            "en": "To fight fire with fire, our shop lowered its prices too.",
+            "zh": "為了以相同策略應對，我們的店舖也降低了價格。",
+            "highlight": "fight fire with fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“Fighting” Form",
+        "titleZh": "句式七：使用 fighting",
+        "formula": "Fighting fire with fire, + subject + response.",
+        "descriptionEn": "The -ing form can describe the strategy used in the main action.",
+        "descriptionZh": "形式可以說明主要行動所採用的策略。",
+        "examples": [
+          {
+            "en": "Fighting fire with fire, the speaker replied with facts of her own.",
+            "zh": "講者以相同手法反擊，並以自己的事實作出回應。",
+            "highlight": "Fighting fire with fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "“A Way of Fighting...”",
+        "titleZh": "句式八：a way of fighting",
+        "formula": "Action + be + somebody’s way of fighting fire with fire.",
+        "descriptionEn": "Source grammar frame: Action + be + somebody’s way of fighting fire with fire.",
+        "descriptionZh": "原檔列出的句法框架：Action + be + somebody’s way of fighting fire with fire。",
+        "examples": [
+          {
+            "en": "Offering the same discount was the shop’s way of fighting fire with fire.",
+            "zh": "提供相同折扣，是店舖以同樣策略競爭的方法。",
+            "highlight": "fighting fire with fire"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Connects an Opponent’s Method with the Response",
+        "titleZh": "把對方的手法與自己的回應連繫起來",
+        "en": "The expression shows not only that somebody responded, but also that the response matched the other side’s tactic.",
+        "zh": "這個表達不只說明某人作出回應，還清楚指出該回應採用了與對方相同或相近的策略。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "把較長的解釋濃縮",
+        "en": "Our shop fought fire with fire by cutting its prices too.",
+        "zh": "慣用語把「對方先使用某種手法」和「我方以同樣手法回應」兩層意思集中在一個表達之中。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Highlights Strategy, Not Mere Imitation",
+        "titleZh": "突出策略，而非單純模仿",
+        "en": "The expression presents the repeated method as a deliberate response to competition or attack.",
+        "zh": "這個表達把相同做法描述為有意識的策略回應，而不是沒有目的地模仿別人。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful in Competitive Situations",
+        "titleZh": "適合競爭情境",
+        "en": "elections; games; advertising; prices and customer service; public arguments.",
+        "zh": "它可以用來描述辯論、體育、選舉、遊戲、宣傳、價格競爭、顧客服務及公開爭論中的回應。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Describe or Question a Strong Response",
+        "titleZh": "可以描述或質疑強硬回應",
+        "en": "The company fought fire with fire, but the argument became worse.",
+        "zh": "說話者可以用這個慣用語客觀描述策略，而不代表認為該策略明智。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Adds a Determined, Competitive Tone",
+        "titleZh": "帶出堅定及競爭語氣",
+        "en": "sounds more determined and presents the situation as a direct contest. An idiom is not automatically better than a plain expression. Use fight fire with fire only when one side is responding to another side’s method. It may be unsuitable when a calm, fair or de-escalating response is more appropriate.",
+        "zh": "我們會採用同樣的方法語氣較中性； 「我們會以其人之道還治其人之身」則更能帶出堅定及競爭意味。 慣用語並非一定比普通表達更好。 只有在一方確實以相同或相近手法回應另一方時，才應使用 fight fire with fire。 當冷靜、公平或避免衝突升級的回應較合適時，便不應把這個策略說成值得採用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "A close earlier image appears in Shakespeare’s King John. A character advises others to “be fire with fire” and meet a threat with equal boldness. However, this is not the exact modern wording. A phrase-history source reports an 1852 printed example of fight fire with fire connected with prairie fire-fighting. Since that is an earliest located example rather than proof of the first use, the exact origin remains uncertain.",
+          "zh": "莎士比亞的《約翰王》中已出現相近意象。 劇中人物勸人以「火」回應「火」，以同樣強硬的態度面對威脅。 不過，該句並不是現代的確切說法。 有短語歷史資料找到一個1852年的 fight fire with fire 書面例子，內容與草原滅火有關； 但這只是目前找到的早期例子，不能證明它就是第一次使用，因此確切來源仍未能確認。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical image developed into a general metaphor: when an opponent uses a certain force or tactic, the other side answers with the same kind of force or tactic.",
+          "zh": "這個實際的滅火畫面逐漸演變成一般比喻：當對手採用某種力量或策略時，另一方也以同類力量或策略回應。"
+        }
+      ],
+      "memoryEn": "A fire is met with another fire; one tactic is met with the same kind of tactic.",
+      "memoryZh": "以另一團火對付原來的火；以同類策略回應對方的策略。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Fixed Words in Order",
+        "titleZh": "規則一：固定部分的次序不可改變",
+        "en": "The incorrect forms may be possible in literal sentences, but they are not the target idiom.",
+        "zh": "以上形式在某些字面語境中可能成立，但並不是本課教授的慣用語。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use “Fought” for the Past",
+        "titleZh": "規則二：過去式使用 fought",
+        "en": "Use “Fought” for the Past",
+        "zh": "過去式使用 fought",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use “By + -ing” to Explain the Method",
+        "titleZh": "規則三：使用 by + -ing 說明方法",
+        "en": "Use “By + -ing” to Explain the Method",
+        "zh": "使用 by + -ing 說明方法",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Subject Must Make the Matching Response",
+        "titleZh": "規則四：主語必須是採取相同回應的人或事物",
+        "en": "The subject our club performs the matching action.",
+        "zh": "主語 our club 是採取相同回應的一方。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The Other Side Must Act First",
+        "titleZh": "規則五：必須先有另一方採取某種手法",
+        "en": "The second sentence does not identify what method is being answered.",
+        "zh": "第二句沒有交代我方正在回應甚麼手法。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "The Method May Be Similar Rather Than Completely Identical",
+        "titleZh": "規則六：回應方法可以相近，不一定完全相同",
+        "en": "An opponent may use an aggressive advertisement, while the other side answers with an equally direct advertisement. The two actions need not be word-for-word copies, but they must belong to the same kind of tactic.",
+        "zh": "對手可能使用具攻擊性的廣告，而另一方則以同樣直接的廣告回應。 兩個行動不必完全一樣，但必須屬於同一類策略。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則七：保留時態及確定程度",
+        "en": "Do not change might fight into fought. That would turn a possibility into a completed fact.",
+        "zh": "不要把 might fight 改成 fought，否則會把可能性變成已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Use the Literal Meaning in This Exercise",
+        "titleZh": "規則八：本練習不使用字面意思",
+        "en": "The company used the rival’s advertising method to fight fire with fire.",
+        "zh": "本練習中的所有答案都必須使用比喻意思，而不是描述真正的火災。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "It Does Not Simply Mean “Respond Strongly”",
+        "titleZh": "規則九：它並不只是解作「強硬回應」",
+        "en": "A strong response is not enough. The response must copy or closely match the other side’s method.",
+        "zh": "單是回應強硬並不足夠； 回應方法必須與對方所用的方法相同或十分相近。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "It Describes a Strategy; It Does Not Automatically Approve It",
+        "titleZh": "規則十：它描述一種策略，不一定表示贊成",
+        "en": "They made the best choice.",
+        "zh": "他們以相同手法反擊並不等於「他們作出了最佳選擇」。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Avoid Harmful or Illegal Matching Actions",
+        "titleZh": "規則十一：避免以有害或違法行為作為相同回應",
+        "en": "Do not use the idiom to recommend violence, bullying, lies, threats or illegal acts. Safer exercise contexts include prices, sport, debates, advertising, public replies and service offers.",
+        "zh": "不要使用這個慣用語鼓勵暴力、欺凌、說謊、威脅或違法行為。 較安全的練習情境包括價格競爭、 體育、辯論、宣傳、公開回應及服務優惠。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則十二：自然使用，不要過度使用",
+        "en": "If there is no opposing side or matching method, ordinary words such as respond, copy, match, answer or compete may be better.",
+        "zh": "如果語境中沒有對手，也沒有相同或相近的回應方法，直接使用 respond、copy、match、answer 或 compete 可能會更自然。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using fight fire with fire. Every answer must use the target expression in its correct grammatical form.",
+      "zh": "使用 fight fire with fire 改寫句子或完成回應。 每題答案均須以正確文法形式使用目標慣用語。"
+    },
+    "questions": [
+      {
+        "id": "idiom-32-q01",
+        "number": 1,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The other side used specific facts in the debate, so Aaron answered with specific facts of his own.",
+        "promptZh": "對方在辯論中提出具體事實，因此亞倫也以自己的具體事實作出回應。",
+        "starter": "Aaron",
+        "answer": "Aaron fought fire with fire in the debate by using specific facts of his own.",
+        "answerZh": "亞倫在辯論中以同樣手法反擊，提出了自己的具體事實。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q02",
+        "number": 2,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A nearby shop cut its prices. Our shop responded by cutting its prices too.",
+        "promptZh": "附近一間店舖減價。我們的店舖也以減價作出回應。",
+        "starter": "Our",
+        "answer": "Our shop fought fire with fire against the nearby shop and cut its prices too.",
+        "answerZh": "我們的店舖以同樣策略應對附近的店舖，也降低了價格。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q03",
+        "number": 3,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "How did our team answer the other football team's fast attack? It attacked quickly too.",
+        "promptZh": "我們的球隊如何應對另一支足球隊的快速進攻？我們也加快了進攻速度。",
+        "starter": "Our",
+        "answer": "Our team fought fire with fire against the other football team, attacking quickly too.",
+        "answerZh": "我們的球隊也採取快速進攻，以同樣方式應對另一支足球隊。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q04",
+        "number": 4,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Our club replied to the rival club's funny videos by posting funny videos of its own.",
+        "promptZh": "競爭學會發布有趣短片，我們的學會也發布自己的有趣短片作回應。",
+        "starter": "Our",
+        "answer": "Our club posted funny videos of its own to fight fire with fire against its rival.",
+        "answerZh": "我們的學會發布自己的有趣短片，以同樣手法應對競爭對手。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q05",
+        "number": 5,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The other school-election candidate put up many posters. Chloe decided to use the same method.",
+        "promptZh": "另一名校內選舉候選人張貼了大量海報。克洛伊決定採用同樣的方法。",
+        "starter": "In",
+        "answer": "In the school election, Chloe fought fire with fire by putting up many posters too.",
+        "answerZh": "在學生會選舉中，克洛伊也張貼了很多海報，以相同策略應對。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q06",
+        "number": 6,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "How did Daniel respond to the other player's strong defence in the online game? He built a strong defence too.",
+        "promptZh": "丹尼爾如何應對網上遊戲中另一名玩家的強大防守？他也建立了強大的防守。",
+        "starter": "Daniel",
+        "answer": "Daniel fought fire with fire in the online game, building a strong defence of his own.",
+        "answerZh": "丹尼爾在網上遊戲中建立自己的強大防線，以同樣方法應對。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q07",
+        "number": 7,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The café across the road offered free delivery, so our café offered free delivery too.",
+        "promptZh": "馬路對面的咖啡店提供免費送餐，因此我們的咖啡店也提供免費送餐。",
+        "starter": "Our",
+        "answer": "Our café fought fire with fire against the café across the road by offering free delivery too.",
+        "answerZh": "我們的咖啡店以相同策略應對對面的咖啡店，也提供免費送餐。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q08",
+        "number": 8,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Eva's opponent served the ball very hard. Eva answered with powerful serves of her own.",
+        "promptZh": "伊娃的對手大力發球。伊娃也以自己的強力發球回應。",
+        "starter": "Eva",
+        "answer": "Eva fought fire with fire against her opponent, using powerful serves of her own.",
+        "answerZh": "伊娃也使用自己的強力發球，以同樣方式應對對手。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q09",
+        "number": 9,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The other quiz team answered very quickly, so Felix's team answered just as quickly.",
+        "promptZh": "另一支問答比賽隊伍回答得很快，因此費利克斯的隊伍也同樣迅速作答。",
+        "starter": "Felix's",
+        "answer": "Felix's team fought fire with fire in the quiz and answered just as quickly.",
+        "answerZh": "費利克斯的隊伍在問答比賽中以同樣方式應對，也迅速作答。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q10",
+        "number": 10,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Grace answered the other speaker's direct questions with direct questions of her own.",
+        "promptZh": "格蕾絲以自己的直接問題，回應另一名講者提出的直接問題。",
+        "starter": "Grace",
+        "answer": "Grace used direct questions of her own to fight fire with fire in the discussion.",
+        "answerZh": "格蕾絲在討論中也提出直接問題，以同樣手法作出回應。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q11",
+        "number": 11,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Whenever a rival shop offers a weekend deal, this shop offers a weekend deal too.",
+        "promptZh": "每當競爭店舖推出週末優惠，這間店舖也會推出週末優惠。",
+        "starter": "Whenever",
+        "answer": "Whenever a rival offers a weekend deal, this shop fights fire with fire by offering one too.",
+        "answerZh": "每當競爭店舖推出週末優惠，這間店也會推出同類優惠，以相同策略競爭。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fights fire with fire"
+      },
+      {
+        "id": "idiom-32-q12",
+        "number": 12,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A competing language school began giving live online lessons. Our school has now begun giving them too.",
+        "promptZh": "一間競爭語言學校開始提供網上直播課堂。我們的學校現在也開始提供這類課堂。",
+        "starter": "Our",
+        "answer": "Our language school has begun fighting fire with fire and now offers live online lessons too.",
+        "answerZh": "我們的語言學校開始以相同策略應對，現在也提供網上直播課堂。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fighting fire with fire"
+      },
+      {
+        "id": "idiom-32-q13",
+        "number": 13,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The hotel next door plans to offer free breakfast. Our hotel will offer it too.",
+        "promptZh": "隔壁酒店計劃提供免費早餐。我們的酒店也會提供免費早餐。",
+        "starter": "To",
+        "answer": "To fight fire with fire against the hotel next door, our hotel will offer free breakfast too.",
+        "answerZh": "為了以同樣策略應對隔壁酒店，我們的酒店也會提供免費早餐。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q14",
+        "number": 14,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The other team is answering the quiz questions very quickly. We can answer just as quickly.",
+        "promptZh": "另一支隊伍正在迅速回答問答比賽的問題。我們也可以同樣迅速作答。",
+        "starter": "We",
+        "answer": "We can fight fire with fire in the quiz by answering just as quickly.",
+        "answerZh": "我們可以在問答比賽中以同樣方式應對，也迅速作答。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q15",
+        "number": 15,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Our opponents are using short passes. We should use short passes too.",
+        "promptZh": "對手正在使用短傳。我們也應使用短傳。",
+        "starter": "We",
+        "answer": "We should use short passes too and fight fire with fire against our opponents.",
+        "answerZh": "我們也應採用短傳，以同樣策略應對對手。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q16",
+        "number": 16,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: The other club has posted a video criticising our event. B: Could we post a response video?",
+        "promptZh": "甲：另一個學會發布了一段批評我們活動的短片。 乙：我們可以發布回應短片嗎？",
+        "starter": "Could",
+        "answer": "Could our club fight fire with fire by posting a response video of its own?",
+        "answerZh": "我們的學會可以發布自己的回應短片，以同樣方式反擊嗎？",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q17",
+        "number": 17,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: The other candidate is visiting every class to speak to students. B: Nora should visit every class too.",
+        "promptZh": "甲：另一名候選人正到每一班與學生交談。 乙：諾拉也應到每一班。",
+        "starter": "To",
+        "answer": "To fight fire with fire in the school election, Nora should visit every class too.",
+        "answerZh": "為了在學生會選舉中以同樣策略應對，諾拉也應到每一班與學生交談。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q18",
+        "number": 18,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A rival store stayed open later each evening, so our store decided to stay open later as well.",
+        "promptZh": "一間競爭店舖每晚延長營業時間，因此我們的店舖也決定延長營業時間。",
+        "starter": "Our",
+        "answer": "Our store decided to stay open later each evening to fight fire with fire.",
+        "answerZh": "我們的店舖決定每晚延長營業時間，以同樣策略應對競爭。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q19",
+        "number": 19,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A competing app offered users a free trial. Our app company has now begun offering one too.",
+        "promptZh": "一個競爭應用程式向用戶提供免費試用。我們的應用程式公司現在也開始提供免費試用。",
+        "starter": "Our",
+        "answer": "Our app company has begun fighting fire with fire by offering a free trial too.",
+        "answerZh": "我們的應用程式公司開始以相同策略應對，也提供免費試用。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fighting fire with fire"
+      },
+      {
+        "id": "idiom-32-q20",
+        "number": 20,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The rival shop offered a large discount, so our shop answered with the same discount.",
+        "promptZh": "競爭店舖提供大額折扣，因此我們的店舖也以相同折扣回應。",
+        "starter": "Offering",
+        "answer": "Offering the same large discount was our shop's way of fighting fire with fire against its rival.",
+        "answerZh": "提供同樣的大額折扣，是我們的店舖以相同策略應對競爭對手的方法。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fighting fire with fire"
+      },
+      {
+        "id": "idiom-32-q21",
+        "number": 21,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: The rival club is attracting students with funny videos. B: Then we will make a funny video of our own.",
+        "promptZh": "甲：競爭學會正以有趣短片吸引學生。 乙：那麼我們也會製作自己的有趣短片。",
+        "starter": "Our",
+        "answer": "Our club will make a funny video of its own to fight fire with fire.",
+        "answerZh": "我們的學會會製作自己的有趣短片，以同樣手法應對。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q22",
+        "number": 22,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Leo made a long list of reasons in the family discussion. I decided to make a list of reasons too.",
+        "promptZh": "里奧在家庭討論中列出了一長串理由。我決定也列出一份理由清單。",
+        "starter": "To",
+        "answer": "To fight fire with fire in the family discussion, I'll make a list of reasons too.",
+        "answerZh": "為了在家庭討論中以同樣方式回應，我也會列出一份理由清單。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q23",
+        "number": 23,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: The other company emailed its complaint to every worker. B: Could our manager email our reply to every worker too?",
+        "promptZh": "甲：另一間公司把投訴以電郵發給每名員工。 乙：我們的經理也可以把回應以電郵發給每名員工嗎？",
+        "starter": "Could",
+        "answer": "Could our manager fight fire with fire by emailing our reply to every worker too?",
+        "answerZh": "我們的經理也可以把回應以電郵發給每名員工，以相同手法作出反擊嗎？",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q24",
+        "number": 24,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Their team is playing very fast and giving us no time to rest. B: Our team can play just as fast.",
+        "promptZh": "甲：他們的球隊打得很快，完全不給我們休息時間。 乙：我們的球隊也可以打得同樣快。",
+        "starter": "Our",
+        "answer": "Our team can fight fire with fire at the match by playing just as fast.",
+        "answerZh": "我們的球隊可以在比賽中以同樣快速的打法應對對手。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q25",
+        "number": 25,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A nearby bakery began giving customers a small free gift, so our bakery did the same.",
+        "promptZh": "附近一間麵包店開始向顧客贈送小禮物，因此我們的麵包店也這樣做。",
+        "starter": "To",
+        "answer": "To fight fire with fire against the nearby bakery, our bakery gave customers a small free gift too.",
+        "answerZh": "為了以同樣策略應對附近的麵包店，我們的麵包店也向顧客贈送小禮物。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q26",
+        "number": 26,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The first speaker used lines from the book to support her opinion. Iris used lines from the book too.",
+        "promptZh": "第一名講者引用書中句子支持自己的意見。艾莉絲也引用了書中句子。",
+        "starter": "Iris",
+        "answer": "Iris fought fire with fire in the book-club debate, using lines from the book too.",
+        "answerZh": "艾莉絲在讀書會辯論中也引用書中句子，以同樣方法回應。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q27",
+        "number": 27,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The other debate team kept asking our side difficult questions, so Owen's team began asking difficult questions back.",
+        "promptZh": "另一支辯論隊不斷向我方提出困難問題，因此歐文的隊伍也開始提出困難問題回應。",
+        "starter": "Owen's",
+        "answer": "Owen's team fought fire with fire in the debate and asked difficult questions of its own.",
+        "answerZh": "歐文的隊伍在辯論中以同樣手法反擊，也向對方提出自己的困難問題。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q28",
+        "number": 28,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: The host is making jokes about the comedian. B: She is answering with jokes of her own.",
+        "promptZh": "甲：主持人正在拿那位喜劇演員開玩笑。 乙：她正以自己的笑話回應。",
+        "starter": "The",
+        "answer": "The comedian is fighting fire with fire, answering the host's jokes with jokes of her own.",
+        "answerZh": "那位喜劇演員正以自己的笑話回應主持人的笑話，以同樣手法反擊。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fighting fire with fire"
+      },
+      {
+        "id": "idiom-32-q29",
+        "number": 29,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The other school-election candidate posts an update every day. Karen has decided to post one every day too.",
+        "promptZh": "另一名學生會選舉候選人每天發布近況。凱倫也決定每天發布一次。",
+        "starter": "Karen",
+        "answer": "Karen has decided to fight fire with fire in the school election by posting an update every day too.",
+        "answerZh": "凱倫決定在學生會選舉中以相同策略應對，每天也發布近況。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q30",
+        "number": 30,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A competing company began calling customers directly, so our company began calling customers directly as well.",
+        "promptZh": "一間競爭公司開始直接致電顧客，因此我們的公司也開始直接致電顧客。",
+        "starter": "To",
+        "answer": "To fight fire with fire, our company began calling customers directly too.",
+        "answerZh": "為了以相同策略應對競爭，我們的公司也開始直接致電顧客。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q31",
+        "number": 31,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Although our players prefer a slower style, the other team played very fast, so our players did the same.",
+        "promptZh": "雖然我們的球員較喜歡慢一點的風格，但另一支球隊打得很快，因此我們的球員也採取相同速度。",
+        "starter": "Although",
+        "answer": "Although our players prefer a slower style, they fought fire with fire against the other team, playing fast too.",
+        "answerZh": "雖然我們的球員較喜歡慢一點的風格，但他們仍加快比賽節奏，以同樣方式應對對手。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q32",
+        "number": 32,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The rival café lowered its prices. Because of this, our café lowered its prices too.",
+        "promptZh": "競爭咖啡店降低了價格。因此，我們的咖啡店也降低了價格。",
+        "starter": "Because",
+        "answer": "Because the rival café lowered its prices, our café fought fire with fire by lowering ours too.",
+        "answerZh": "因為競爭咖啡店減價，我們的咖啡店也降低價格，以同樣策略應對。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q33",
+        "number": 33,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: The rival club attacked our plan in a public post. B: We will not stay silent; we will post a direct reply.",
+        "promptZh": "甲：競爭學會在公開帖文中批評我們的計劃。 乙：我們不會保持沉默；我們會發布直接回應。",
+        "starter": "Instead",
+        "answer": "Instead of staying silent, our club will post a direct reply online to fight fire with fire.",
+        "answerZh": "我們的學會不會保持沉默，而會在網上發布直接回應，以同樣手法反擊。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q34",
+        "number": 34,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The rival shop offered same-day delivery, and our shop then offered it too.",
+        "promptZh": "競爭店舖提供即日送貨，而我們的店舖其後也提供這項服務。",
+        "starter": "After",
+        "answer": "After its rival offered same-day delivery, our shop fought fire with fire and offered it too.",
+        "answerZh": "競爭店舖提供即日送貨後，我們的店舖也提供同樣服務，以相同策略應對。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q35",
+        "number": 35,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The coach said that if the other side used personal stories in the debate, our side should use personal stories too.",
+        "promptZh": "教練表示，如果對方在辯論中使用個人故事，我方也應使用個人故事。",
+        "starter": "If",
+        "answer": "If the other side uses personal stories, we should fight fire with fire and use personal stories too.",
+        "answerZh": "如果對方使用個人故事，我們也應採取相同做法，以同樣策略應對。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q36",
+        "number": 36,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The manager dislikes public arguments, but the rival company attacked us online, so our company answered online.",
+        "promptZh": "經理不喜歡公開爭論，但競爭公司在網上批評我們，因此我們的公司也在網上回應。",
+        "starter": "Even",
+        "answer": "Even though the manager dislikes public arguments, our company fought fire with fire by answering the rival company's attack online.",
+        "answerZh": "雖然經理不喜歡公開爭論，我們的公司仍在網上回應競爭公司的攻擊，以同樣手法反擊。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q37",
+        "number": 37,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A false restaurant review used photos as proof, so the restaurant replied with photos of its own.",
+        "promptZh": "一則不實的餐廳評論以照片作證，因此餐廳也以自己的照片回應。",
+        "starter": "The",
+        "answer": "The restaurant answered the false review with photos of its own to fight fire with fire.",
+        "answerZh": "餐廳以自己的照片回應失實評論，以相同手法作出反擊。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q38",
+        "number": 38,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The first shop began staying open until 10 p.m. The second shop has now begun staying open until 10 p.m. too.",
+        "promptZh": "第一間店舖開始營業至晚上十時。第二間店舖現在也開始營業至晚上十時。",
+        "starter": "To",
+        "answer": "To fight fire with fire, the second shop has begun staying open until 10 p.m. too.",
+        "answerZh": "為了以相同策略應對，第二間店舖也開始營業至晚上十時。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q39",
+        "number": 39,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The other quiz team was answering at great speed, so our team answered at the same speed.",
+        "promptZh": "另一支問答比賽隊伍以很快速度作答，因此我們的隊伍也以相同速度作答。",
+        "starter": "To",
+        "answer": "To fight fire with fire in the quiz, our team answered just as quickly.",
+        "answerZh": "為了在問答比賽中以同樣方式應對，我們的隊伍也迅速作答。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q40",
+        "number": 40,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A rival company released a short video advertisement, so the small company released a short video of its own.",
+        "promptZh": "一間競爭公司發布了短片廣告，因此那間小公司也發布了自己的短片。",
+        "starter": "By",
+        "answer": "By releasing a short video of its own, the small company fought fire with fire against its rival.",
+        "answerZh": "那間小公司發布自己的短片，以相同手法應對競爭對手。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q41",
+        "number": 41,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Another school may attract more visitors by offering guided tours on open day. Our school may offer guided tours too.",
+        "promptZh": "另一間學校可能透過開放日導賞吸引更多訪客。我們的學校也可能提供導賞。",
+        "starter": "Our",
+        "answer": "Our school may fight fire with fire against the other school and offer guided tours on open day too.",
+        "answerZh": "我們的學校也可能在開放日提供導賞，以相同策略與另一間學校競爭。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q42",
+        "number": 42,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Other hotels are offering late check-out, and our hotel might offer it as well to remain competitive.",
+        "promptZh": "其他酒店正提供延遲退房，而我們的酒店也可能提供這項服務，以保持競爭力。",
+        "starter": "To",
+        "answer": "To fight fire with fire, our hotel might offer late check-out too.",
+        "answerZh": "為了以相同策略應對，我們的酒店也可能提供延遲退房。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q43",
+        "number": 43,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A nearby community centre attracted families by holding a fun day. The second centre could hold one too.",
+        "promptZh": "附近一間社區中心舉辦同樂日，吸引了不少家庭。另一間中心也可以舉辦同類活動。",
+        "starter": "The",
+        "answer": "The second community centre could fight fire with fire by holding a family fun day too.",
+        "answerZh": "另一間社區中心也可以舉辦家庭同樂日，以相同策略作出競爭。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q44",
+        "number": 44,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "How has our company answered the competing company's visits to customers? It has started visiting customers in person too.",
+        "promptZh": "我們的公司如何回應競爭公司親自探訪顧客的做法？我們也開始親自探訪顧客。",
+        "starter": "Our",
+        "answer": "Our company has started fighting fire with fire and now visits customers in person too.",
+        "answerZh": "我們的公司開始以相同策略應對，現在也親身探訪顧客。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fighting fire with fire"
+      },
+      {
+        "id": "idiom-32-q45",
+        "number": 45,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The other speaker used a clear chart to support his point, so the next speaker showed a clear chart of her own.",
+        "promptZh": "另一名講者用清楚的圖表支持自己的觀點，因此下一名講者也展示了自己的清楚圖表。",
+        "starter": "By",
+        "answer": "By showing a clear chart of her own, the next speaker fought fire with fire in the public discussion.",
+        "answerZh": "下一名講者展示自己的清楚圖表，在公開討論中以相同方式回應。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fought fire with fire"
+      },
+      {
+        "id": "idiom-32-q46",
+        "number": 46,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "An article used numbers from a student vote to criticise the new lunch plan. The school leaders replied with numbers from another student vote.",
+        "promptZh": "一篇文章引用學生投票的數字批評新午餐計劃。學校主管以另一項學生投票的數字作出回應。",
+        "starter": "Fighting",
+        "answer": "Fighting fire with fire, the school leaders replied with numbers from another student vote.",
+        "answerZh": "學校主管以另一項學生投票的數字作出回應，採用相同方法反駁批評。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "Fighting fire with fire"
+      },
+      {
+        "id": "idiom-32-q47",
+        "number": 47,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A competing bus company will add more evening buses. Our bus company will add more evening buses too.",
+        "promptZh": "一間競爭巴士公司將增加晚間巴士班次。我們的巴士公司也會增加晚間班次。",
+        "starter": "To",
+        "answer": "To fight fire with fire, our bus company will add more evening buses too.",
+        "answerZh": "為了以相同策略應對，我們的巴士公司也會增加晚間巴士班次。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q48",
+        "number": 48,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "After seeing the other group choose one strong speaker, our group decided to do the same.",
+        "promptZh": "看到另一組選出一名有力的講者後，我們的小組決定採用同樣做法。",
+        "starter": "After",
+        "answer": "After seeing the other group's plan, our group decided to fight fire with fire by choosing one strong speaker too.",
+        "answerZh": "看到另一組的安排後，我們的小組決定也選出一名有力的講者，以相同策略應對。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q49",
+        "number": 49,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The other company may continue using very low prices. If it does, we may have to lower ours for a short time.",
+        "promptZh": "另一間公司可能繼續使用非常低的價格。如果它這樣做，我們可能需要在短時間內降低價格。",
+        "starter": "If",
+        "answer": "If the other company keeps using very low prices, our company may have to fight fire with fire by lowering its prices for a short time.",
+        "answerZh": "如果另一間公司繼續以極低價格競爭，我們的公司可能需要短暫減價，以相同策略應對。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      },
+      {
+        "id": "idiom-32-q50",
+        "number": 50,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The other club is attracting students by posting a short video every day. B: Although this may become tiring, our club plans to post one every day too.",
+        "promptZh": "甲：另一個學會每天發布一段短片，藉此吸引學生。 乙：雖然這可能令人疲累，但我們的學會也計劃每天發布一段短片。",
+        "starter": "Although",
+        "answer": "Although daily posting may become tiring, our club plans to fight fire with fire by posting a short video every day too.",
+        "answerZh": "雖然每天發布內容可能令人疲累，但我們的學會仍計劃每天發布短片，以相同策略應對。",
+        "targetForm": "fight fire with fire",
+        "targetMeaning": "To respond to an opponent, attack, criticism or competitive move by using the same or a very similar method.",
+        "highlight": "fight fire with fire"
+      }
+    ]
+  }
+}

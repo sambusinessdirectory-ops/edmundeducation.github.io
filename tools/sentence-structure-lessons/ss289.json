@@ -1,0 +1,1224 @@
+{
+  "id": "ss289",
+  "order": 289,
+  "slug": "it-was-only-after-x-that-y",
+  "title": "「It was only after X that Y」直到……之後才……",
+  "titleZh": "「It was only after X that Y」直到……之後才……",
+  "titleEn": "Using “It was only after X that Y”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 288 -「It was only after X that Y」直到……之後才…….pdf",
+    "pageCount": 28,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exercisePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "answerPages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "sha256": "8ad2c688903a89555537116fc45bf0b03a5164e7064f3399cd6a7c22ea31e654",
+    "sourceNumber": 288,
+    "systemOrder": 289,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 288 maps to ss289: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "It was only after + X + that + complete clause",
+  "formulas": [
+    {
+      "id": "ss289-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "It was only after + X + that + complete clause"
+    }
+  ],
+  "example": "It was only after I moved out that I learned how much my parents had done for me.",
+  "exampleZh": "直到我搬出去住之後，我才明白父母為我付出了多少。",
+  "examples": [
+    {
+      "id": "ss289-example-01",
+      "en": "It was only after I moved out that I learned how much my parents had done for me.",
+      "zh": "直到我搬出去住之後，我才明白父母為我付出了多少。",
+      "highlight": "It was only after I moved out that I learned how much my parents had done for me."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss289-rule-01",
+      "zh": "在 It was only after X that Y 結構中，that 子句使用正常陳述句語序，即主語在前、動詞在後；不可在 that 後使用疑問句倒裝。",
+      "en": "Do Not Use Inversion after “that” It was only after the meeting that I understood the problem. It was only after the meeting that did I understand the problem. subject + verb that I realised that she understood that they changed the policy",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss289-rule-02",
+      "zh": "以下句子同樣正確：【Only after the meeting did I understand the problem.】 直到會議結束後，我才明白問題所在。 但是它使用另一個句型：【Only after X + auxiliary verb + subject + main verb】 比較：【It was only after the meeting that I understood the problem.】 本練習的目標是第一種：【It was only after X that Y.】",
+      "en": "The Inverted Alternative Is a Different Structure Only after the meeting did I understand the problem. Only after X + auxiliary verb + subject + main verb It was only after the meeting that I understood the problem. Only after the meeting did I understand the problem. It was only after X that Y.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss289-rule-03",
+      "zh": "比較：【It was after the meeting that I understood the problem.】 我是在會議結束後明白問題的。 直到會議結束後，我才明白問題。 加入 only 後，句子表示：在會議結束之前，我一直未能明白。",
+      "en": "“Only” Is Essential It was after the meeting that I understood the problem. It was only after the meeting that I understood the problem.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss289-rule-04",
+      "zh": "這句在文法上會令人以為 the medicine 與醫生說話。較清楚的版本是：【It was only after the patient spoke to the doctor that the medicine was changed.】 直到病人與醫生交談後，藥物才被更換。",
+      "en": "Check the Subject of an -ing Phrase It was only after speaking to the doctor that Emma felt less worried. Emma spoke to the doctor. Emma felt less worried. Incorrect or illogical: It was only after speaking to the doctor that the medicine was changed. It was only after the patient spoke to the doctor that the medicine was changed.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss289-rule-05",
+      "zh": "這個句型常用於描述：後來才明白的道理；過了一段時間才注意到的問題；經歷某件事後才改變的看法；某個條件完成後才出現的行動；一個令事情改變的關鍵時刻。",
+      "en": "The Structure Usually Shows a Turning Point",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss289-benefit-01",
+      "zh": "清楚指出事情的轉捩點這個句型能清楚告訴讀者，哪一件事令後來的理解、決定或行動出現。直到遺失錢包後，本才開始減少攜帶現金。 讀者可以立即看到：轉捩點：losing his wallet 後來的改變：started carrying less cash",
+      "en": "It Makes the Turning Point Clear This structure tells the reader exactly which event caused a later realisation, decision or action. It was only after losing his wallet that Ben started carrying less cash.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss289-benefit-02",
+      "zh": "強調某件事到很後期才發生普通的 after 句只交代事情的先後次序。還會強調某件事遲遲未有發生。我在會議後明白了問題。 直到會議結束後，我才明白問題。 第二句更能表達「在此之前一直不明白」。",
+      "en": "It Emphasises That Something Happened Late A simple after-sentence only gives the order of events. It was only after…that… also emphasises the delay. It was only after…that… Compare: I understood the problem after the meeting. It was only after the meeting that I understood the problem.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss289-benefit-03",
+      "zh": "把「之前未發生」和「後來才發生」合併起來你不需要用兩句分別解釋事情前後的變化，也可以在一句內完整表達。",
+      "en": "It Combines the “Before” and “After” Ideas Instead of explaining the timeline in two sentences, you can present the whole change in one sentence. Longer: Before I joined the company, I did not understand how difficult the job was. After I joined, I understood it. More organised: It was only after joining the company that I understood how difficult the job was.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss289-benefit-04",
+      "zh": "適合反思及個人經歷寫作這個句型特別適合用來描述：後來學到的道理；個人成長；從錯誤中得到的教訓；看法的改變；重要經歷。直到我搬出去住之後，我才明白父母為我付出了多少。",
+      "en": "It Is Useful for Reflective Writing This structure is especially useful when writing about: lessons learned personal growth mistakes changes of opinion important experiences. It was only after I moved out that I learned how much my parents had done for me.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss289-benefit-05",
+      "zh": "增加句式變化學生經常重複使用：【I did not realise…until…；After…, I…；Then I…；I finally realised…】 目標表達【It was only after…that…】能提供另一種組織句子的方法，令寫作不會過於重複。",
+      "en": "It Adds Sentence Variety Students often repeatedly use: I did not realise…until… After…, I… Then I… I finally realised… It was only after…that… gives you another way to organise the same idea. I finally realised… It was only after…that…",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 288 maps to ss289: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence so that the answer contains the structure:",
+      "it was only after…that…",
+      "it was only after…that…",
+      "The target structure may appear at the beginning or later in the answer. Follow the first-word",
+      "hint carefully.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用以下句型改寫各題：",
+      "目標句型可以出現在答案的開首或較後位置。請仔細留意每題提供的第一個字。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss289-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I did not learn how much my parents had done for me until I moved out.",
+      "promptZh": "直到我搬出去住，我才明白父母為我付出了多少。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was only after I moved out that I learned how much my parents had done for me.",
+      "answerZh": "直到我搬出去住之後，我才明白父母為我付出了多少。",
+      "answerZhSource": "pdf",
+      "highlight": "It was only after I moved out that I learned how much my parents had done for me."
+    },
+    {
+      "id": "ss289-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I realised that I had studied the wrong chapter only when the exam was over.",
+      "promptZh": "直到考試結束後，我才發現自己讀錯了章節。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was only after the exam that I realised I had studied the wrong chapter.",
+      "answerZh": "直到考試結束後，我才發現自己讀錯了章節。",
+      "answerZhSource": "pdf",
+      "highlight": "It was only after the exam that I realised I had studied the wrong chapter."
+    },
+    {
+      "id": "ss289-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before I joined the company, I did not understand how challenging the job was.",
+      "promptZh": "在加入公司之前，我並不明白這份工作有多具挑戰性。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was only after joining the company that I understood how challenging the job was.",
+      "answerZh": "直到加入公司後，我才明白這份工作有多具挑戰性。",
+      "answerZhSource": "pdf",
+      "highlight": "It was only after joining the company that I understood how challenging the job was."
+    },
+    {
+      "id": "ss289-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We did not notice how quiet the building was until the lights went out.",
+      "promptZh": "直到燈熄滅後，我們才注意到大樓有多安靜。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was only after the lights went out that we noticed how quiet the building was.",
+      "answerZh": "直到燈熄滅後，我們才注意到大樓有多安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "It was only after the lights went out that we noticed how quiet the building was."
+    },
+    {
+      "id": "ss289-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Daniel had to read the instructions twice before he understood how to use the machine.",
+      "promptZh": "丹尼爾要把指示閱讀兩次，才明白如何使用那部機器。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was only after reading the instructions twice that Daniel understood how to use the machine.",
+      "answerZh": "直到把指示閱讀兩次後，丹尼爾才明白如何使用那部機器。",
+      "answerZhSource": "pdf",
+      "highlight": "It was only after reading the instructions twice that Daniel understood how to use the machine."
+    },
+    {
+      "id": "ss289-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Chloe began to enjoy the subject only after her first lesson.",
+      "promptZh": "克洛伊直到上完第一課後才開始喜歡這個科目。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was only after her first lesson that Chloe began to enjoy the subject.",
+      "answerZh": "直到上完第一課後，克洛伊才開始喜歡這個科目。",
+      "answerZhSource": "pdf",
+      "highlight": "It was only after her first lesson that Chloe began to enjoy the subject."
+    },
+    {
+      "id": "ss289-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Ben did not start carrying less cash until he lost his wallet.",
+      "promptZh": "本直到遺失錢包後才開始減少攜帶現金。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was only after losing his wallet that Ben started carrying less cash.",
+      "answerZh": "直到遺失錢包後，本才開始減少攜帶現金。",
+      "answerZhSource": "pdf",
+      "highlight": "It was only after losing his wallet that Ben started carrying less cash."
+    },
+    {
+      "id": "ss289-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The children waited until the rain stopped before they went outside.",
+      "promptZh": "孩子們等到雨停後才到外面去。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was only after the rain stopped that the children went outside.",
+      "answerZh": "直到雨停後，孩子們才到外面去。",
+      "answerZhSource": "pdf",
+      "highlight": "It was only after the rain stopped that the children went outside."
+    },
+    {
+      "id": "ss289-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Emma felt less worried only when she had spoken to the doctor.",
+      "promptZh": "艾瑪直到與醫生交談後才感到沒有那麼擔心。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was only after speaking to the doctor that Emma felt less worried.",
+      "answerZh": "直到與醫生交談後，艾瑪才感到沒有那麼擔心。",
+      "answerZhSource": "pdf",
+      "highlight": "It was only after speaking to the doctor that Emma felt less worried."
+    },
+    {
+      "id": "ss289-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The class did not understand the rule until the teacher gave an example.",
+      "promptZh": "直到老師舉出例子後，全班才明白那項規則。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was only after the teacher gave an example that the class understood the rule.",
+      "answerZh": "直到老師舉出例子後，全班才明白那項規則。",
+      "answerZhSource": "pdf",
+      "highlight": "It was only after the teacher gave an example that the class understood the rule."
+    },
+    {
+      "id": "ss289-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Sarah later admitted that she had not noticed the mistake on her CV until the interview was over.",
+      "promptZh": "莎拉後來承認，直到面試結束後，她才注意到履歷表上的錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah later admitted that it was only after the interview that she noticed the mistake on her CV.",
+      "answerZh": "莎拉後來承認，直到面試結束後，她才注意到履歷表上的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah later admitted that it was only after the interview that she noticed the mistake on her CV."
+    },
+    {
+      "id": "ss289-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "According to the report, the company did not change its policy until it had received several complaints.",
+      "promptZh": "根據報告，公司直到收到多宗投訴後才更改政策。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report explains that it was only after several complaints had been received that the company changed its policy.",
+      "answerZh": "報告解釋，公司直到收到多宗投訴後才更改政策。",
+      "answerZhSource": "pdf",
+      "highlight": "The report explains that it was only after several complaints had been received that the company changed its policy."
+    },
+    {
+      "id": "ss289-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "He told us that he learned to plan his meals only after living alone for a month.",
+      "promptZh": "他告訴我們，直到獨自生活了一個月後，他才學會安排自己的膳食。",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He told us that it was only after living alone for a month that he learned to plan his meals.",
+      "answerZh": "他告訴我們，直到獨自生活了一個月後，他才學會安排自己的膳食。",
+      "answerZhSource": "pdf",
+      "highlight": "He told us that it was only after living alone for a month that he learned to plan his meals."
+    },
+    {
+      "id": "ss289-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The coach said that the players recognised their defensive mistakes only after watching the recording.",
+      "promptZh": "教練表示，球員直到觀看比賽錄影後才發現自己的防守錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach said that it was only after watching the recording that the players recognised their defensive mistakes.",
+      "answerZh": "教練表示，球員直到觀看比賽錄影後才發現自己的防守錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach said that it was only after watching the recording that the players recognised their defensive mistakes."
+    },
+    {
+      "id": "ss289-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Julia did not realise that she had left her umbrella inside until the shop had closed. She later described what happened.",
+      "promptZh": "直到商店關門後，茱莉亞才發現自己把雨傘留在店內。她後來講述了事情的經過。",
+      "promptZhSource": "pdf",
+      "starter": "Julia",
+      "answer": "Julia later said that it was only after the shop had closed that she realised she had left her umbrella inside.",
+      "answerZh": "茱莉亞後來表示，直到商店關門後，她才發現自己把雨傘留在店內。",
+      "answerZhSource": "pdf",
+      "highlight": "Julia later said that it was only after the shop had closed that she realised she had left her umbrella inside."
+    },
+    {
+      "id": "ss289-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The survey found that many customers did not understand the app’s main advantage until they had used it.",
+      "promptZh": "調查發現，很多顧客直到使用該應用程式後，才明白它的主要優點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The survey found that it was only after using the new app that many customers understood its main advantage.",
+      "answerZh": "調查發現，很多顧客直到使用新的應用程式後，才明白它的主要優點。",
+      "answerZhSource": "pdf",
+      "highlight": "The survey found that it was only after using the new app that many customers understood its main advantage."
+    },
+    {
+      "id": "ss289-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Our neighbour said that he did not discover the damage to his roof until the storm had passed.",
+      "promptZh": "我們的鄰居表示，直到暴風雨過後，他才發現屋頂受損。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbour said that it was only after the storm had passed that he discovered the damage to his roof.",
+      "answerZh": "我們的鄰居表示，直到暴風雨過後，他才發現屋頂受損。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbour said that it was only after the storm had passed that he discovered the damage to his roof."
+    },
+    {
+      "id": "ss289-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The manager later acknowledged that she had not understood the problem until she spoke to the new employee.",
+      "promptZh": "經理後來承認，直到與新僱員交談後，她才明白問題所在。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager acknowledged that it was only after talking to the new employee that she understood the problem.",
+      "answerZh": "經理承認，直到與新僱員交談後，她才明白問題所在。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager acknowledged that it was only after talking to the new employee that she understood the problem."
+    },
+    {
+      "id": "ss289-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The students reported that they became interested in local history only after visiting the museum.",
+      "promptZh": "學生表示，他們直到參觀博物館後才對本地歷史產生興趣。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students reported that it was only after visiting the museum that they became interested in local history.",
+      "answerZh": "學生表示，他們直到參觀博物館後才對本地歷史產生興趣。",
+      "answerZhSource": "pdf",
+      "highlight": "The students reported that it was only after visiting the museum that they became interested in local history."
+    },
+    {
+      "id": "ss289-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Kevin later remembered that he had not noticed he was carrying the wrong bag until he boarded the train.",
+      "promptZh": "凱文後來想起，直到登上火車後，他才發現自己拿錯了袋子。",
+      "promptZhSource": "pdf",
+      "starter": "Kevin",
+      "answer": "Kevin remembered that it was only after boarding the train that he noticed he was carrying the wrong bag.",
+      "answerZh": "凱文記起，直到登上火車後，他才發現自己拿錯了袋子。",
+      "answerZhSource": "pdf",
+      "highlight": "Kevin remembered that it was only after boarding the train that he noticed he was carrying the wrong bag."
+    },
+    {
+      "id": "ss289-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "I had always taken clean water for granted. Only when the supply was cut off did I understand its value.",
+      "promptZh": "我一直把清潔食水視為理所當然。直到供水中斷後，我才明白它的價值。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I had always taken clean water for granted, and it was only after the supply was cut off that I understood its value.",
+      "answerZh": "我一直把清潔食水視為理所當然，直到供水中斷後，我才明白它的價值。",
+      "answerZhSource": "pdf",
+      "highlight": "I had always taken clean water for granted, and it was only after the supply was cut off that I understood its value."
+    },
+    {
+      "id": "ss289-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The team had ignored the warning signs. They did not take the problem seriously until the system failed.",
+      "promptZh": "團隊一直忽視警告跡象。直到系統故障後，他們才認真看待問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team had ignored the warning signs, and it was only after the system failed that they took the problem seriously.",
+      "answerZh": "團隊一直忽視警告跡象，直到系統故障後，他們才認真看待問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The team had ignored the warning signs, and it was only after the system failed that they took the problem seriously."
+    },
+    {
+      "id": "ss289-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Priya had never enjoyed cooking. She discovered how satisfying it could be only after preparing a meal for her friends.",
+      "promptZh": "普里婭以前從不喜歡烹飪。直到為朋友準備了一頓飯後，她才發現烹飪可以帶來滿足感。",
+      "promptZhSource": "pdf",
+      "starter": "Priya",
+      "answer": "Priya had never enjoyed cooking, but it was only after preparing a meal for her friends that she discovered how satisfying it could be.",
+      "answerZh": "普里婭以前從不喜歡烹飪，但直到為朋友準備了一頓飯後，她才發現烹飪可以帶來滿足感。",
+      "answerZhSource": "pdf",
+      "highlight": "Priya had never enjoyed cooking, but it was only after preparing a meal for her friends that she discovered how satisfying it could be."
+    },
+    {
+      "id": "ss289-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The residents had complained for months, but the council did not respond until the newspaper reported the issue.",
+      "promptZh": "居民已投訴了數月，但直到報章報道事件後，區議會才作出回應。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The residents had complained for months, yet it was only after the newspaper reported the issue that the council responded.",
+      "answerZh": "居民已投訴了數月，但直到報章報道事件後，區議會才作出回應。",
+      "answerZhSource": "pdf",
+      "highlight": "The residents had complained for months, yet it was only after the newspaper reported the issue that the council responded."
+    },
+    {
+      "id": "ss289-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Oliver had read about the disease. Only after meeting a patient did he understand its human impact.",
+      "promptZh": "奧利弗曾經讀過這種疾病的資料。直到親身接觸一名病人後，他才明白疾病對人的影響。",
+      "promptZhSource": "pdf",
+      "starter": "Oliver",
+      "answer": "Oliver had read about the disease, but it was only after meeting a patient that he understood its human impact.",
+      "answerZh": "奧利弗曾經讀過這種疾病的資料，但直到親身接觸一名病人後，他才明白疾病對人的影響。",
+      "answerZhSource": "pdf",
+      "highlight": "Oliver had read about the disease, but it was only after meeting a patient that he understood its human impact."
+    },
+    {
+      "id": "ss289-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "We had used the old process for years. We did not realise how inefficient it was until we compared the results.",
+      "promptZh": "我們使用舊流程已有多年。直到比較結果後，我們才發現它效率很低。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We had used the old process for years, and it was only after comparing the results that we realised how inefficient it was.",
+      "answerZh": "我們使用舊流程已有多年，直到比較結果後，我們才發現它效率很低。",
+      "answerZhSource": "pdf",
+      "highlight": "We had used the old process for years, and it was only after comparing the results that we realised how inefficient it was."
+    },
+    {
+      "id": "ss289-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The organisers thought the signs were clear. They did not add more directions until several visitors got lost.",
+      "promptZh": "主辦人員以為指示牌十分清楚。直到數名訪客迷路後，他們才增加更多方向指示。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisers thought the signs were clear, but it was only after several visitors got lost that they added more directions.",
+      "answerZh": "主辦人員以為指示牌十分清楚，但直到數名訪客迷路後，他們才增加更多方向指示。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers thought the signs were clear, but it was only after several visitors got lost that they added more directions."
+    },
+    {
+      "id": "ss289-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Farah had heard the song many times, but she understood its meaning only after reading the lyrics.",
+      "promptZh": "法拉曾聽過這首歌很多次，但直到閱讀歌詞後，她才明白歌曲的意思。",
+      "promptZhSource": "pdf",
+      "starter": "Farah",
+      "answer": "Farah had heard the song many times, yet it was only after reading the lyrics that she understood its meaning.",
+      "answerZh": "法拉曾聽過這首歌很多次，但直到閱讀歌詞後，她才明白歌曲的意思。",
+      "answerZhSource": "pdf",
+      "highlight": "Farah had heard the song many times, yet it was only after reading the lyrics that she understood its meaning."
+    },
+    {
+      "id": "ss289-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The school had planned to replace the equipment later. The work did not become urgent until a minor accident occurred.",
+      "promptZh": "學校原本打算稍後更換設備。直到發生一宗輕微意外後，這項工作才變得緊急。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school had planned to replace the equipment later, but it was only after a minor accident that the work became urgent.",
+      "answerZh": "學校原本打算稍後更換設備，但直到發生一宗輕微意外後，這項工作才變得緊急。",
+      "answerZhSource": "pdf",
+      "highlight": "The school had planned to replace the equipment later, but it was only after a minor accident that the work became urgent."
+    },
+    {
+      "id": "ss289-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Ryan had believed the task was simple. He did not appreciate the skill involved until he attempted it himself.",
+      "promptZh": "瑞安原本以為這項工作很簡單。直到親自嘗試後，他才明白當中需要的技巧。",
+      "promptZhSource": "pdf",
+      "starter": "Ryan",
+      "answer": "Ryan had believed the task was simple, and it was only after attempting it himself that he appreciated the skill involved.",
+      "answerZh": "瑞安原本以為這項工作很簡單，直到親自嘗試後，他才明白當中需要的技巧。",
+      "answerZhSource": "pdf",
+      "highlight": "Ryan had believed the task was simple, and it was only after attempting it himself that he appreciated the skill involved."
+    },
+    {
+      "id": "ss289-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "When the interviewers asked Hannah about the turning point, she said that she had not known how to improve until she received detailed feedback.",
+      "promptZh": "當面試人員問漢娜甚麼是轉捩點時，她表示，直到收到詳細意見後，她才知道如何改善。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When asked about the turning point, Hannah said it was only after receiving detailed feedback that she knew how to improve.",
+      "answerZh": "當被問及轉捩點時，漢娜表示，直到收到詳細意見後，她才知道如何改善。",
+      "answerZhSource": "pdf",
+      "highlight": "When asked about the turning point, Hannah said it was only after receiving detailed feedback that she knew how to improve."
+    },
+    {
+      "id": "ss289-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Looking back, George believes that he did not understand the pressure managers faced until he was promoted.",
+      "promptZh": "回想起來，喬治認為自己直到獲得晉升後，才明白經理所面對的壓力。",
+      "promptZhSource": "pdf",
+      "starter": "Looking",
+      "answer": "Looking back, George believes it was only after being promoted that he understood the pressure managers faced.",
+      "answerZh": "回想起來，喬治認為自己直到獲得晉升後，才明白經理所面對的壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "Looking back, George believes it was only after being promoted that he understood the pressure managers faced."
+    },
+    {
+      "id": "ss289-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "According to the nurse, the patient’s pain did not begin to ease until he had rested for several hours.",
+      "promptZh": "據護士所說，病人休息了數小時後，痛楚才開始減輕。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the nurse, it was only after the patient had rested for several hours that the pain began to ease.",
+      "answerZh": "據護士所說，直到病人休息了數小時後，痛楚才開始減輕。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the nurse, it was only after the patient had rested for several hours that the pain began to ease."
+    },
+    {
+      "id": "ss289-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "In her speech, Sofia said that she changed her approach only after failing twice.",
+      "promptZh": "蘇菲亞在演說中表示，她直到失敗兩次後才改變方法。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In her speech, Sofia explained that it was only after failing twice that she changed her approach.",
+      "answerZh": "蘇菲亞在演說中解釋，她直到失敗兩次後才改變方法。",
+      "answerZhSource": "pdf",
+      "highlight": "In her speech, Sofia explained that it was only after failing twice that she changed her approach."
+    },
+    {
+      "id": "ss289-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The records show that the road remained closed until the bridge had been inspected.",
+      "promptZh": "紀錄顯示，道路一直封閉，直到大橋完成檢查後才重新開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The records show that it was only after the bridge had been inspected that the road was reopened.",
+      "answerZh": "紀錄顯示，直到大橋完成檢查後，道路才重新開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The records show that it was only after the bridge had been inspected that the road was reopened."
+    },
+    {
+      "id": "ss289-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The actors did not feel confident until the final rehearsal, which surprised us.",
+      "promptZh": "演員直到最後一次綵排後才感到有信心，這令我們感到意外。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What surprised us was that it was only after the final rehearsal that the actors felt confident.",
+      "answerZh": "令我們感到意外的是，演員直到最後一次綵排後才感到有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised us was that it was only after the final rehearsal that the actors felt confident."
+    },
+    {
+      "id": "ss289-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The team did not begin to question the plan until the budget was reduced. That was the truth.",
+      "promptZh": "團隊直到預算被削減後才開始質疑計劃。這就是實情。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The truth is that it was only after the budget was reduced that the team began to question the plan.",
+      "answerZh": "實情是，團隊直到預算被削減後才開始質疑計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The truth is that it was only after the budget was reduced that the team began to question the plan."
+    },
+    {
+      "id": "ss289-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "His family later learned that he did not start to miss home until he had worked abroad for several months.",
+      "promptZh": "他的家人後來得知，他在海外工作數月後才開始掛念家鄉。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His family later learned that it was only after he had worked abroad for several months that he started to miss home.",
+      "answerZh": "他的家人後來得知，他在海外工作數月後才開始掛念家鄉。",
+      "answerZhSource": "pdf",
+      "highlight": "His family later learned that it was only after he had worked abroad for several months that he started to miss home."
+    },
+    {
+      "id": "ss289-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The article argues that the result did not become convincing until the data had been checked independently.",
+      "promptZh": "文章指出，直到數據經過獨立核實後，結果才變得有說服力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The article argues that it was only after the data had been checked independently that the result became convincing.",
+      "answerZh": "文章指出，直到數據經過獨立核實後，結果才變得有說服力。",
+      "answerZhSource": "pdf",
+      "highlight": "The article argues that it was only after the data had been checked independently that the result became convincing."
+    },
+    {
+      "id": "ss289-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The director admitted that she changed the schedule only after listening to the staff.",
+      "promptZh": "總監承認，她直到聽取職員的意見後才更改時間表。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The director admitted that it was only after listening to the staff that she changed the schedule.",
+      "answerZh": "總監承認，她直到聽取職員的意見後才更改時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "The director admitted that it was only after listening to the staff that she changed the schedule."
+    },
+    {
+      "id": "ss289-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Although the warning had been sent earlier, William did not realise that the matter was urgent until the second message arrived.",
+      "promptZh": "雖然警告早已發出，但威廉直到第二則訊息送達後，才發現事情十分緊急。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the warning had been sent earlier, it was only after the second message arrived that William realised the matter was urgent.",
+      "answerZh": "雖然警告早已發出，但直到第二則訊息送達後，威廉才發現事情十分緊急。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the warning had been sent earlier, it was only after the second message arrived that William realised the matter was urgent."
+    },
+    {
+      "id": "ss289-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Because the first explanation was unclear, Vera did not understand what to do until the technician demonstrated the process.",
+      "promptZh": "由於最初的解釋不清楚，維拉直到技術人員示範整個程序後，才明白應該怎樣做。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the first explanation was unclear, it was only after the technician demonstrated the process that Vera understood what to do.",
+      "answerZh": "由於最初的解釋不清楚，直到技術人員示範整個程序後，維拉才明白應該怎樣做。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the first explanation was unclear, it was only after the technician demonstrated the process that Vera understood what to do."
+    },
+    {
+      "id": "ss289-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Despite having years of experience, the accountant did not introduce a checking system until she made a costly error.",
+      "promptZh": "儘管擁有多年經驗，會計師直到犯下一個代價高昂的錯誤後，才設立覆核制度。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite years of experience, it was only after making a costly error that the accountant introduced a checking system.",
+      "answerZh": "儘管擁有多年經驗，會計師直到犯下一個代價高昂的錯誤後，才設立覆核制度。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite years of experience, it was only after making a costly error that the accountant introduced a checking system."
+    },
+    {
+      "id": "ss289-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Months of discussion passed before both sides accepted the main principles, and the contract could not be completed before that agreement.",
+      "promptZh": "雙方經過數月討論才接受主要原則，而合約在達成該協議前一直無法完成。",
+      "promptZhSource": "pdf",
+      "starter": "Months",
+      "answer": "Months of discussion passed, and it was only after both sides accepted the main principles that the contract could be completed.",
+      "answerZh": "雙方經過數月討論，直到共同接受主要原則後，合約才得以完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Months of discussion passed, and it was only after both sides accepted the main principles that the contract could be completed."
+    },
+    {
+      "id": "ss289-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Even though the guide had mentioned the risk, the hikers did not understand why special equipment was needed until they saw the narrow path.",
+      "promptZh": "即使導遊曾提及風險，遠足人士直到看到狹窄的小徑後，才明白為甚麼需要特殊裝備。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though the guide had mentioned the risk, it was only after seeing the narrow path that the hikers understood why special equipment was needed.",
+      "answerZh": "即使導遊曾提及風險，遠足人士直到看到狹窄的小徑後，才明白為甚麼需要特殊裝備。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though the guide had mentioned the risk, it was only after seeing the narrow path that the hikers understood why special equipment was needed."
+    },
+    {
+      "id": "ss289-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The committee had reviewed the figures several times. Only after an outside expert questioned them did the members find the calculation error.",
+      "promptZh": "委員會曾多次覆核數字。直到一名外部專家提出質疑後，成員才發現計算錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee had reviewed the figures several times; however, it was only after an outside expert questioned them that the members found the calculation error.",
+      "answerZh": "委員會曾多次覆核數字；然而，直到一名外部專家提出質疑後，成員才發現計算錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee had reviewed the figures several times; however, it was only after an outside expert questioned them that the members found the calculation error."
+    },
+    {
+      "id": "ss289-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Yasmin had always assumed that the service was simple. She later explained that she did not see how much planning it required until she worked behind the scenes.",
+      "promptZh": "雅絲敏一直以為這項服務很簡單。她後來解釋，直到參與幕後工作後，她才明白當中需要多少規劃。",
+      "promptZhSource": "pdf",
+      "starter": "Yasmin",
+      "answer": "Yasmin had always assumed that the service was simple, but she later explained that it was only after working behind the scenes that she saw how much planning it required.",
+      "answerZh": "雅絲敏一直以為這項服務很簡單，但她後來解釋，直到參與幕後工作後，她才明白當中需要多少規劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Yasmin had always assumed that the service was simple, but she later explained that it was only after working behind the scenes that she saw how much planning it required."
+    },
+    {
+      "id": "ss289-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The hospital had received similar comments before. However, the director admitted that she did not understand the emotional effect of the delays until she met the patients’ families.",
+      "promptZh": "醫院過往曾收到類似意見。然而，總監承認，直到與病人的家屬會面後，她才明白延誤所造成的情緒影響。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital had received similar comments before, yet the director acknowledged that it was only after meeting the patients’ families that she understood the emotional effect of the delays.",
+      "answerZh": "醫院過往曾收到類似意見，但總監承認，直到與病人的家屬會面後，她才明白延誤所造成的情緒影響。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital had received similar comments before, yet the director acknowledged that it was only after meeting the patients’ families that she understood the emotional effect of the delays."
+    },
+    {
+      "id": "ss289-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 21,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The company believed that its instructions were clear until new users tested them. The designers rewrote the guide only after observing the users’ difficulties.",
+      "promptZh": "公司一直以為指示十分清楚，直到新用戶進行測試。設計人員在觀察到用戶遇到的困難後，才重寫指南。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company believed that its instructions were clear until new users tested them, and it was only after observing their difficulties that the designers rewrote the guide.",
+      "answerZh": "公司一直以為指示十分清楚，直到新用戶進行測試；設計人員在觀察到用戶遇到的困難後，才重寫指南。",
+      "answerZhSource": "pdf",
+      "highlight": "The company believed that its instructions were clear until new users tested them, and it was only after observing their difficulties that the designers rewrote the guide."
+    },
+    {
+      "id": "ss289-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The team eventually accepted that they could identify the real cause of the conflict only after sharing information openly.",
+      "promptZh": "團隊最後承認，他們只有在公開分享資訊後，才能找出衝突的真正原因。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the team eventually accepted was that it was only after sharing information openly that they could identify the real cause of the conflict.",
+      "answerZh": "團隊最後接受的事實是，他們只有在公開分享資訊後，才能找出衝突的真正原因。",
+      "answerZhSource": "pdf",
+      "highlight": "What the team eventually accepted was that it was only after sharing information openly that they could identify the real cause of the conflict."
+    }
+  ]
+}

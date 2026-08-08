@@ -1,0 +1,1334 @@
+{
+  "lesson": {
+    "id": "idiom-63",
+    "order": 63,
+    "slug": "kill-two-birds-with-one-stone",
+    "version": "1",
+    "title": "一石二鳥／一舉兩得",
+    "titleEn": "kill two birds with one stone",
+    "titleZh": "一石二鳥／一舉兩得",
+    "source": {
+      "file": "Idiom 63 - 「Kill Two Birds with One Stone」.pdf",
+      "pageCount": 32,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "exercisePdfPages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "answerKeyPdfPages": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "kill two birds with one stone",
+        "highlight": "kill two birds with one stone"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Ella killed two birds with one stone by walking to the supermarket.",
+        "zh": "步行到超級市場，一舉兩得。",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "en": "Ella killed two birds with one stone by walking to the supermarket: she bought the groceries and got some exercise.",
+        "zh": "Ella 步行到超級市場，一舉兩得：既買了日用品，也做了運動。",
+        "highlight": "killed two birds with one stone"
+      }
+    ],
+    "meaning": {
+      "en": "To achieve two useful goals or results through one action, plan or decision.",
+      "zh": "透過一個行動、計劃或決定，同時達成兩個有用的目標或取得兩項成果；即「一舉兩得」或「一石二鳥」。",
+      "naturalZh": [
+        "透過一個行動、計劃或決定，同時達成兩個有用的目標或取得兩項成果",
+        "即「一舉兩得」或「一石二鳥」。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversations; workplace discussions; meetings and presentations; general articles and informal writing; advice and suggestions.",
+      "summaryZh": "這個表達屬於中性至非正式語氣，常見於：",
+      "contextsEn": [
+        "everyday conversations",
+        "workplace discussions",
+        "meetings and presentations",
+        "general articles and informal writing",
+        "advice and suggestions",
+        "kill two birds with one stone",
+        "kill two bird with one stone",
+        "kill two birds by one stone",
+        "kill two birds with a stone",
+        "kill one bird with two stones",
+        "kill the two birds with one stone",
+        "kill — We often kill two birds with one stone"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "工作討論",
+        "會議及簡報",
+        "一般文章及非正式寫作",
+        "建議和意見。"
+      ],
+      "formalEn": "The idiom contains an image of killing birds. Although most speakers understand it figuratively, a plain alternative may be more suitable in animal-welfare contexts or when the listener dislikes violent imagery.",
+      "formalZh": "以上字詞必須按照原有次序使用。"
+    },
+    "fixedVariable": {
+      "fixed": "kill two birds with one stone",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + kill(s) / killed + two birds with one stone + by + verb-ing.",
+          "example": "Ella killed two birds with one stone by walking to the supermarket.",
+          "highlight": "killed two birds with one stone"
+        },
+        {
+          "form": "Subject + kill + two birds with one stone + by + verb-ing: result 1 + and + result 2.",
+          "example": "Ella killed two birds with one stone by walking to the supermarket: she bought the groceries and got some exercise.",
+          "highlight": "killed two birds with one stone"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Explaining the Shared Action",
+        "titleZh": "句式一：說明帶來兩項成果的共同行動",
+        "formula": "Subject + kill(s) / killed + two birds with one stone + by + verb-ing.",
+        "descriptionEn": "Source grammar frame: Subject + kill(s) / killed + two birds with one stone + by + verb-ing.",
+        "descriptionZh": "原檔列出的句法框架：Subject + kill(s) / killed + two birds with one stone + by + verb-ing。",
+        "examples": [
+          {
+            "en": "Ella killed two birds with one stone by walking to the supermarket.",
+            "zh": "步行到超級市場，一舉兩得。",
+            "highlight": "killed two birds with one stone"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Naming Both Results",
+        "titleZh": "句式二：清楚指出兩項成果",
+        "formula": "Subject + kill + two birds with one stone + by + verb-ing: result 1 + and + result 2.",
+        "descriptionEn": "Source grammar frame: Subject + kill + two birds with one stone + by + verb-ing: result 1 + and + result 2.",
+        "descriptionZh": "原檔列出的句法框架：Subject + kill + two birds with one stone + by + verb-ing: result 1 + and + result 2。",
+        "examples": [
+          {
+            "en": "Ella killed two birds with one stone by walking to the supermarket: she bought the groceries and got some exercise.",
+            "zh": "Ella 步行到超級市場，一舉兩得：既買了日用品，也做了運動。",
+            "highlight": "killed two birds with one stone"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "把較長的解釋濃縮",
+        "en": "It Compresses a Longer Explanation",
+        "zh": "這個慣用語能把「同一行動帶來兩項成果」濃縮成一個簡潔表達。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Highlights Efficiency",
+        "titleZh": "突出做事效率",
+        "en": "It Highlights Efficiency",
+        "zh": "突出做事效率",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful for Suggestions",
+        "titleZh": "適合用來提出建議",
+        "en": "We could kill two birds with one stone by discussing both problems at the same meeting.",
+        "zh": "我們可以在同一個會議中討論兩個問題，一舉兩得。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Connects One Action with Two Benefits",
+        "titleZh": "把一個行動與兩項好處連繫起來",
+        "en": "It Connects One Action with Two Benefits",
+        "zh": "把一個行動與兩項好處連繫起來",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Helps Students Understand Authentic English",
+        "titleZh": "幫助學生理解真實英語",
+        "en": "The expression frequently appears in conversations, interviews, workplace discussions and general media. The idiom is a useful option, but it is not automatically better than a plain expression. Use it only when one action genuinely produces two separate results.",
+        "zh": "這個表達常見於日常對話、訪問、工作討論及一般媒體內容。 這個慣用語是一個實用的表達選擇，但並非在任何情況下都比直接說法更好。 只有當一個行動確實帶來兩項不同成果時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Early Written Use Well Documented",
+      "statusZh": "確切來源不明；早期書面用法有可靠記錄",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "An early documented English example appears in Thomas Hobbes’s 1656 work The Questions Concerning Liberty, Necessity, and Chance. Hobbes used the image figuratively while arguing that one answer could deal with two separate arguments. This is an early surviving record, but it does not prove that Hobbes invented the expression.",
+          "zh": "現存較早的英語書面例子出現在 Thomas Hobbes 於 1656 年出版的 The Questions Concerning Liberty, Necessity, and Chance。 Hobbes 以比喻方式使用這個意象，表示一個答案可以同時處理兩項不同論點。 這是一項早期留存記錄，但不能證明 Hobbes 創造了這個表達。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical image naturally became a metaphor for efficiency. Just as one imagined throw achieves two results, one plan or action can satisfy two needs.",
+          "zh": "這個具體畫面後來自然演變成表示效率的比喻。 正如想像中的一次投擲能帶來兩項成果，一個計劃或行動也可以同時滿足兩項需要。"
+        }
+      ],
+      "memoryEn": "One stone represents one action; the two birds represent the two results.",
+      "memoryZh": "一塊石頭代表一個行動；兩隻鳥代表兩項成果。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "One Action Must Produce Two Results",
+        "titleZh": "規則一：一個行動必須帶來兩項成果",
+        "en": "The students made a video that completed their science project and taught them how to edit. The students made a video and later bought lunch.",
+        "zh": "學生製作一段影片，既完成科學專題，也學會剪輯。 製作影片和購買午餐是兩項分開的行動，沒有共同的效率關係。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "The Two “Birds” Must Be Distinct",
+        "titleZh": "規則二：兩項成果必須有所不同",
+        "en": "The walk allowed her to return the books and get some exercise. The walk helped her exercise and become more active.",
+        "zh": "步行讓她既能歸還書本，也能做運動。 兩項成果過於相似，未必足以構成清晰的「一舉兩得」。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則三：保留時態及確定程度",
+        "en": "Do not change could kill into killed. This would turn a possibility into a completed fact.",
+        "zh": "不要把 could kill 改成 killed，否則會把一個可能性變成已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use “By + -ing” Correctly",
+        "titleZh": "規則四：正確使用 By + -ing",
+        "en": "Use “By + -ing” Correctly",
+        "zh": "正確使用 By + -ing",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The Subject Must Cause the Two Results",
+        "titleZh": "規則五：主語必須帶來兩項成果",
+        "en": "The Subject Must Cause the Two Results",
+        "zh": "新時間表同時縮短等候時間，並讓員工有較長休息時間。 主語和因果關係不合理。",
+        "examples": [
+          {
+            "en": "The new timetable killed two birds with one stone by reducing waiting time and giving staff longer breaks.",
+            "zh": "新時間表同時縮短等候時間，並讓員工有較長休息時間。",
+            "highlight": "killed two birds with one stone"
+          },
+          {
+            "en": "The waiting time killed two birds with one stone by changing the timetable.",
+            "zh": "主語和因果關係不合理。",
+            "highlight": "killed two birds with one stone"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Use the Figurative Meaning",
+        "titleZh": "規則六：使用比喻意思",
+        "en": "The hunter tried to hit two birds with one stone. The trip allowed her to attend the meeting and visit her family. Every answer in this exercise must use the figurative meaning.",
+        "zh": "獵人嘗試用一塊石頭擊中兩隻鳥。 這次行程讓她既能出席會議，也能探望家人。 本練習中的所有答案都必須使用比喻意思。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Use It for Only One Result",
+        "titleZh": "規則七：只有一項成果時不要使用",
+        "en": "Do Not Use It for Only One Result",
+        "zh": "句子只提及完成家課一項成果。 在圖書館做家課，既完成工作，也歸還書本。",
+        "examples": [
+          {
+            "en": "I killed two birds with one stone by finishing my homework.",
+            "zh": "句子只提及完成家課一項成果。",
+            "highlight": "killed two birds with one stone"
+          },
+          {
+            "en": "I killed two birds with one stone by doing my homework at the library: I completed the work and returned my books.",
+            "zh": "在圖書館做家課，既完成工作，也歸還書本。",
+            "highlight": "killed two birds with one stone"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Add the Literal Explanation Again",
+        "titleZh": "規則八：使用慣用語後不要重複解釋相同意思",
+        "en": "Do Not Add the Literal Explanation Again",
+        "zh": "慣用語本身已表達「一個行動帶來兩項成果」，毋須再次解釋。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則九：自然使用，不要過度使用",
+        "en": "1. there are two clear needs or goals; 2. one shared action deals with both; 3. the speaker wishes to emphasise efficiency.",
+        "zh": "這個慣用語最適合用於兩項需要或目標能透過同一行動完成，而說話者希望強調效率的情況。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using kill two birds with one stone.",
+      "zh": "使用 kill two birds with one stone 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-63-q01",
+        "number": 1,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Ella walked to the supermarket. She bought the groceries and got some exercise.",
+        "promptZh": "Ella 步行到超級市場。她既買了日用品，也做了運動。",
+        "starter": "Ella",
+        "answer": "Ella killed two birds with one stone by walking to the supermarket: she bought the groceries and got some exercise.",
+        "answerZh": "Ella 步行到超級市場，一舉兩得：既買了日用品，也做了運動。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q02",
+        "number": 2,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Ben listened to an English lesson while travelling to work. He practised his English and used the journey well.",
+        "promptZh": "Ben 上班途中聽英語課程。他既練習了英語，也充分利用了乘車時間。",
+        "starter": "Ben",
+        "answer": "Ben killed two birds with one stone by listening to an English lesson on the way to work: he practised his English and used the journey well.",
+        "answerZh": "Ben 上班途中聽英語課程，一舉兩得：既練習了英語，也充分利用了乘車時間。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q03",
+        "number": 3,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Clara made one trip to the library. She returned her books and met her friend there.",
+        "promptZh": "Clara 到圖書館一趟。她既歸還了書本，也在那裏見了朋友。",
+        "starter": "Clara",
+        "answer": "Clara killed two birds with one stone on her trip to the library: she returned her books and met her friend.",
+        "answerZh": "Clara 到圖書館一趟，一舉兩得：既歸還了書本，也見了朋友。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q04",
+        "number": 4,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Daniel cooked twice as much dinner as the family needed. He fed everyone that evening and prepared lunch for the next day.",
+        "promptZh": "Daniel 煮了家人所需兩倍份量的晚餐。他既準備了當晚的食物，也預備了翌日的午餐。",
+        "starter": "Daniel",
+        "answer": "Daniel killed two birds with one stone by cooking extra dinner: he fed the family that evening and prepared lunch for the next day.",
+        "answerZh": "Daniel 多煮了一些晚餐，一舉兩得：既準備了家人當晚的食物，也預備了翌日的午餐。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q05",
+        "number": 5,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Grace walked to her grandmother’s home to return a book. The walk also gave her some exercise.",
+        "promptZh": "Grace 步行到祖母家歸還一本書。這段路程也讓她做了運動。",
+        "starter": "Grace",
+        "answer": "Grace killed two birds with one stone by walking to her grandmother’s home: she returned the book and got some exercise.",
+        "answerZh": "Grace 步行到祖母家，一舉兩得：既歸還了書本，也做了運動。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q06",
+        "number": 6,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Henry cycled to school. He travelled there without paying a bus fare and exercised at the same time.",
+        "promptZh": "Henry 騎單車上學。他既不用支付巴士車費，也同時做了運動。",
+        "starter": "Henry",
+        "answer": "Henry killed two birds with one stone by cycling to school: he saved the bus fare and got some exercise.",
+        "answerZh": "Henry 騎單車上學，一舉兩得：既節省了巴士車費，也做了運動。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q07",
+        "number": 7,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Iris washed the windows. This removed the dirt and let more sunlight into the room.",
+        "promptZh": "Iris 清洗了窗戶。這既清除了污垢，也讓更多陽光進入房間。",
+        "starter": "Iris",
+        "answer": "Iris killed two birds with one stone by washing the windows: she removed the dirt and let more sunlight into the room.",
+        "answerZh": "Iris 清洗窗戶，一舉兩得：既清除了污垢，也讓更多陽光進入房間。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q08",
+        "number": 8,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Jack joined the school football club. It helped him exercise and make new friends.",
+        "promptZh": "Jack 參加了學校足球會。這既讓他做運動，也幫助他結交新朋友。",
+        "starter": "Jack",
+        "answer": "Jack killed two birds with one stone by joining the school football club: he got exercise and made new friends.",
+        "answerZh": "Jack 參加學校足球會，一舉兩得：既做了運動，也結交了新朋友。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q09",
+        "number": 9,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Karen bought a desk with shelves underneath. It gave her a place to work and extra space for her books.",
+        "promptZh": "Karen 買了一張下面設有層架的書桌。她既有了工作的地方，也獲得額外空間存放書本。",
+        "starter": "Karen",
+        "answer": "Karen killed two birds with one stone by buying a desk with shelves: she gained a place to work and extra space for her books.",
+        "answerZh": "Karen 購買設有層架的書桌，一舉兩得：既有了工作的地方，也獲得額外空間存放書本。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q10",
+        "number": 10,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Leo planted a tree beside the living-room window. It will provide shade and make the room more private.",
+        "promptZh": "Leo 在客廳窗戶旁種了一棵樹。它既能遮蔭，也能提高房間的私隱度。",
+        "starter": "Leo",
+        "answer": "Leo killed two birds with one stone by planting a tree beside the living-room window: it will provide shade and make the room more private.",
+        "answerZh": "Leo 在客廳窗戶旁種樹，一舉兩得：既能遮蔭，也能提高房間的私隱度。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q11",
+        "number": 11,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Every Friday, Ella walks to the market instead of taking the bus. She buys fresh food and gets some exercise.",
+        "promptZh": "每逢星期五，Ella 都會步行到市場而不乘搭巴士。她既購買新鮮食物，也做了運動。",
+        "starter": "Ella",
+        "answer": "Ella kills two birds with one stone every Friday by walking to the market: she buys fresh food and gets some exercise.",
+        "answerZh": "Ella 每逢星期五都步行到市場，一舉兩得：既購買新鮮食物，也做了運動。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kills two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q12",
+        "number": 12,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Taking the stairs helps Ben stay fit and means that he does not have to wait for the lift.",
+        "promptZh": "走樓梯既能幫助 Ben 保持健康，也讓他不用等候升降機。",
+        "starter": "Taking",
+        "answer": "Taking the stairs kills two birds with one stone for Ben: it helps him stay fit and saves him from waiting for the lift.",
+        "answerZh": "走樓梯讓 Ben 一舉兩得：既能保持健康，也不用等候升降機。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kills two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q13",
+        "number": 13,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Clara has put all the class notes into one shared file. Everyone can find the notes easily, and the class needs fewer paper copies.",
+        "promptZh": "Clara 已把所有課堂筆記放進一個共享檔案。大家可以更容易找到筆記，而全班所需的紙本副本也減少了。",
+        "starter": "Clara",
+        "answer": "Clara has killed two birds with one stone by putting the class notes into one shared file: everyone can find them easily, and the class needs fewer paper copies.",
+        "answerZh": "Clara 把課堂筆記放進一個共享檔案，一舉兩得：大家可以輕易找到筆記，而全班所需的紙本副本也減少了。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q14",
+        "number": 14,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Daniel will hold his birthday picnic in the park. His family can celebrate together, and the children can play outside.",
+        "promptZh": "Daniel 將在公園舉行生日野餐。家人可以一起慶祝，而孩子也可以在戶外玩耍。",
+        "starter": "Daniel",
+        "answer": "Daniel will kill two birds with one stone by holding his birthday picnic in the park: his family can celebrate together, and the children can play outside.",
+        "answerZh": "Daniel 在公園舉行生日野餐將會一舉兩得：家人可以一起慶祝，而孩子也可以在戶外玩耍。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q15",
+        "number": 15,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "You can study at the library while your phone is charging there. This will help you finish your work and charge your phone.",
+        "promptZh": "你可以在圖書館為手機充電時溫習。這樣既能完成工作，也能為手機充電。",
+        "starter": "You",
+        "answer": "You can kill two birds with one stone by studying at the library while your phone charges: you can finish your work and charge your phone.",
+        "answerZh": "你在圖書館為手機充電時溫習，便可以一舉兩得：既完成工作，也為手機充電。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q16",
+        "number": 16,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "We should offer customers small pieces of the new cake. They can try it, and we can learn what they think.",
+        "promptZh": "我們應該讓顧客試吃小塊的新蛋糕。他們可以試味，而我們也可以了解他們的意見。",
+        "starter": "We",
+        "answer": "We should kill two birds with one stone by offering customers small pieces of the new cake: they can try it, and we can learn what they think.",
+        "answerZh": "我們應該讓顧客試吃小塊的新蛋糕，一舉兩得：他們可以試味，而我們也可以了解他們的意見。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q17",
+        "number": 17,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: I need to buy stamps and send this parcel. B: The post office can help you do both during one visit.",
+        "promptZh": "甲：我需要購買郵票和寄出這個包裹。 乙：你到郵政局一次便可以完成兩件事。",
+        "starter": "You",
+        "answer": "You can kill two birds with one stone by going to the post office: you can buy the stamps and send the parcel during one visit.",
+        "answerZh": "你到郵政局一次便可以一舉兩得：既購買郵票，也寄出包裹。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q18",
+        "number": 18,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Rachel has a dental appointment near her aunt’s home. She could return her aunt’s bag during the same trip.",
+        "promptZh": "Rachel 要到姨母家附近看牙醫。她可以在同一次行程中歸還姨母的手袋。",
+        "starter": "Rachel",
+        "answer": "Rachel could kill two birds with one stone on the same trip by attending her dental appointment and returning her aunt’s bag.",
+        "answerZh": "Rachel 可以在同一次行程中一舉兩得：既看牙醫，也歸還姨母的手袋。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q19",
+        "number": 19,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The students made a short video for their science project. They completed the project and learnt how to edit a video.",
+        "promptZh": "學生為科學專題製作了一段短片。他們既完成了專題，也學會如何剪輯影片。",
+        "starter": "The",
+        "answer": "The students killed two birds with one stone by making a short video: they completed their science project and learnt how to edit a video.",
+        "answerZh": "學生製作短片，一舉兩得：既完成了科學專題，也學會如何剪輯影片。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q20",
+        "number": 20,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The manager will use one meeting to teach staff how to use the new booking system and to test whether the system works properly.",
+        "promptZh": "經理將利用一個會議教導員工使用新的預約系統，並測試系統是否運作正常。",
+        "starter": "The",
+        "answer": "The manager will kill two birds with one stone by using one meeting to train the staff and test the new booking system.",
+        "answerZh": "經理將利用一個會議培訓員工及測試新的預約系統，一舉兩得。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q21",
+        "number": 21,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: I need some exercise, but I also have to return these library books. B: Why not walk to the library?",
+        "promptZh": "甲：我需要做點運動，但也要歸還這些圖書館書本。 乙：為甚麼不步行到圖書館？",
+        "starter": "You",
+        "answer": "You could kill two birds with one stone by walking to the library: you would get some exercise and return the books.",
+        "answerZh": "你可以步行到圖書館，一舉兩得：既做運動，也歸還書本。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q22",
+        "number": 22,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Sam says lights that use less electricity will make the building entrance safer and reduce the power bill.",
+        "promptZh": "Sam 說，較省電的燈既能令大廈入口更安全，也能減少電費。",
+        "starter": "Sam",
+        "answer": "Sam thinks the new lights will kill two birds with one stone by making the entrance safer and reducing the power bill.",
+        "answerZh": "Sam 認為新燈具會一舉兩得：既令入口更安全，也減少電費。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q23",
+        "number": 23,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The teacher asked the pupils to write about their favourite meal. The task gave them writing practice and helped the teacher learn more about their lives.",
+        "promptZh": "老師請學生寫一篇有關自己最喜愛食物的文章。這項工作既讓學生練習寫作，也幫助老師進一步了解他們的生活。",
+        "starter": "The",
+        "answer": "The teacher killed two birds with one stone by asking the pupils to write about their favourite meal: they practised writing, and the teacher learnt more about their lives.",
+        "answerZh": "老師請學生寫自己最喜愛的食物，一舉兩得：學生練習了寫作，而老師也進一步了解了他們的生活。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q24",
+        "number": 24,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: We need to check how much stock we have and tidy the storeroom. B: We can do both while we organise the shelves.",
+        "promptZh": "甲：我們需要點算存貨，也要整理儲物室。 乙：我們整理層架時便可以同時完成兩件事。",
+        "starter": "We",
+        "answer": "We can kill two birds with one stone by organising the shelves: we can check the stock and tidy the storeroom.",
+        "answerZh": "我們可以在整理層架時一舉兩得：既點算存貨，也整理儲物室。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q25",
+        "number": 25,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The new bus route helps workers reach the office and reduces the number of cars on the road.",
+        "promptZh": "新的巴士路線既幫助員工前往辦公室，也減少路上的汽車數量。",
+        "starter": "The",
+        "answer": "The new bus route kills two birds with one stone by helping workers reach the office and reducing the number of cars on the road.",
+        "answerZh": "新的巴士路線一舉兩得：既幫助員工前往辦公室，也減少路上的汽車數量。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kills two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q26",
+        "number": 26,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Alice travelled to London for a work conference. While she was there, she also visited her cousin.",
+        "promptZh": "Alice 前往倫敦出席工作會議。她在當地期間也探望了表親。",
+        "starter": "Alice",
+        "answer": "Alice killed two birds with one stone on her trip to London: she attended the work conference and visited her cousin.",
+        "answerZh": "Alice 前往倫敦一趟，一舉兩得：既出席了工作會議，也探望了表親。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q27",
+        "number": 27,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: You only went to the café to meet Ben. B: No, I also finished my report while I was there.",
+        "promptZh": "甲：你去咖啡店只是為了見 Ben。 乙：不是，我在那裏也完成了報告。",
+        "starter": "Actually",
+        "answer": "Actually, I killed two birds with one stone by going to the café: I met Ben and finished my report.",
+        "answerZh": "其實，我到咖啡店一舉兩得：既見了 Ben，也完成了報告。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q28",
+        "number": 28,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: We need to test the signs for the school open day and let the pupils practise giving directions. B: We can ask the pupils to guide the teachers around the school.",
+        "promptZh": "甲：我們需要測試學校開放日的指示牌，也要讓學生練習指路。 乙：我們可以請學生帶領老師參觀校園。",
+        "starter": "We",
+        "answer": "We can kill two birds with one stone by asking the pupils to guide the teachers: we can test the signs and let the pupils practise giving directions.",
+        "answerZh": "我們請學生帶領老師參觀校園，便可以一舉兩得：既測試指示牌，也讓學生練習指路。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q29",
+        "number": 29,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The roof window makes the room brighter and allows hot air to escape.",
+        "promptZh": "屋頂窗戶既能令房間更光亮，也能讓熱空氣排出。",
+        "starter": "The",
+        "answer": "The roof window kills two birds with one stone by bringing more light into the room and allowing hot air to escape.",
+        "answerZh": "屋頂窗戶一舉兩得：既讓更多光線進入房間，也讓熱空氣排出。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kills two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q30",
+        "number": 30,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The company has moved staff training online. This has reduced travel costs and allowed workers from different offices to join.",
+        "promptZh": "公司已把員工培訓轉到網上進行。這既減少了交通費用，也讓不同辦公室的員工參加。",
+        "starter": "The",
+        "answer": "The company has killed two birds with one stone by moving staff training online: it has reduced travel costs and allowed workers from different offices to join.",
+        "answerZh": "公司把員工培訓轉到網上進行，一舉兩得：既減少了交通費用，也讓不同辦公室的員工參加。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q31",
+        "number": 31,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Although Priya had little free time, she walked to the bank during lunch. She paid a bill and got some fresh air.",
+        "promptZh": "雖然 Priya 沒有多少空閒時間，但她在午飯期間步行到銀行。她既繳付了帳單，也呼吸到新鮮空氣。",
+        "starter": "Although",
+        "answer": "Although Priya had little free time, she killed two birds with one stone by walking to the bank: she paid a bill and got some fresh air.",
+        "answerZh": "雖然 Priya 沒有多少空閒時間，但她步行到銀行，一舉兩得：既繳付了帳單，也呼吸到新鮮空氣。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q32",
+        "number": 32,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The hotel needed to use less water and reduce its bills, so it replaced the old shower heads.",
+        "promptZh": "酒店需要減少用水量和開支，因此更換了舊有的花灑頭。",
+        "starter": "The",
+        "answer": "The hotel killed two birds with one stone by replacing the old shower heads: it used less water and reduced its bills.",
+        "answerZh": "酒店更換舊有的花灑頭，一舉兩得：既減少用水量，也降低了開支。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q33",
+        "number": 33,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: We need to welcome the new workers and review the safety rules. B: Let us do both in tomorrow morning’s meeting.",
+        "promptZh": "甲：我們需要歡迎新員工，也要重溫安全規則。 乙：讓我們在明早的會議中同時完成兩件事。",
+        "starter": "Let’s",
+        "answer": "Let’s kill two birds with one stone in tomorrow morning’s meeting by welcoming the new workers and reviewing the safety rules.",
+        "answerZh": "讓我們在明早的會議中歡迎新員工並重溫安全規則，一舉兩得。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q34",
+        "number": 34,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A school created a vegetable garden beside the science room. Pupils can learn about plants and grow food for cooking lessons.",
+        "promptZh": "一間學校在科學室旁建立了菜園。學生既可以學習植物知識，也可以為烹飪課種植食物。",
+        "starter": "By",
+        "answer": "By creating a vegetable garden beside the science room, the school killed two birds with one stone: pupils can learn about plants and grow food for cooking lessons.",
+        "answerZh": "學校在科學室旁建立菜園，一舉兩得：學生既能學習植物知識，也能為烹飪課種植食物。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q35",
+        "number": 35,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The doctor says walking meetings may help office workers move more and keep meetings shorter.",
+        "promptZh": "醫生說，步行會議可能既能讓辦公室員工增加活動量，也能縮短會議時間。",
+        "starter": "The",
+        "answer": "The doctor says walking meetings may kill two birds with one stone by helping office workers move more and keeping meetings shorter.",
+        "answerZh": "醫生說，步行會議可能一舉兩得：既讓辦公室員工增加活動量，也能縮短會議時間。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q36",
+        "number": 36,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "If we send one email to all the parents, we can tell them the event date and ask them to volunteer.",
+        "promptZh": "如果我們向所有家長發出同一封電郵，便可以通知他們活動日期，並邀請他們擔任義工。",
+        "starter": "If",
+        "answer": "If we send one email to all the parents, we can kill two birds with one stone by sharing the event date and asking for volunteers.",
+        "answerZh": "如果我們向所有家長發出同一封電郵，便可以一舉兩得：既通知活動日期，也邀請他們擔任義工。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q37",
+        "number": 37,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: I want to practise French and help the new student feel welcome. B: Sit with him at lunch and speak French with him.",
+        "promptZh": "甲：我想練習法語，也想讓新同學感到受歡迎。 乙：午飯時與他一起坐，並用法語跟他交談吧。",
+        "starter": "You",
+        "answer": "You could kill two birds with one stone by sitting with the new student at lunch: you could practise French and help him feel welcome.",
+        "answerZh": "你可以在午飯時與新同學一起坐，一舉兩得：既練習法語，也讓他感到受歡迎。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q38",
+        "number": 38,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Liam went into town to collect his repaired laptop. He also bought a birthday card from a nearby shop.",
+        "promptZh": "Liam 到市中心領取修理好的手提電腦。他也在附近商店購買了一張生日卡。",
+        "starter": "Liam",
+        "answer": "Liam killed two birds with one stone on his trip into town: he collected his repaired laptop and bought a birthday card.",
+        "answerZh": "Liam 到市中心一趟，一舉兩得：既領取了修理好的手提電腦，也購買了生日卡。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q39",
+        "number": 39,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The first-aid course taught the workers what to do in an emergency and made them feel more confident.",
+        "promptZh": "急救課程既教導員工在緊急情況下應如何處理，也令他們更有信心。",
+        "starter": "The",
+        "answer": "The first-aid course killed two birds with one stone by teaching the workers what to do in an emergency and making them feel more confident.",
+        "answerZh": "急救課程一舉兩得：既教導員工在緊急情況下應如何處理，也令他們更有信心。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q40",
+        "number": 40,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Could one shared delivery day lower delivery costs and reduce the number of vans on the road?",
+        "promptZh": "安排同一個送貨日，是否可以同時降低送貨成本和減少路上的貨車數量？",
+        "starter": "A",
+        "answer": "A shared delivery day could kill two birds with one stone by lowering delivery costs and reducing the number of vans on the road.",
+        "answerZh": "安排同一個送貨日可以一舉兩得：既降低送貨成本，也減少路上的貨車數量。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q41",
+        "number": 41,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The local centre now holds evening classes in a school building. Adults can attend useful lessons, and the building is used after school hours.",
+        "promptZh": "本地中心現在於一座學校建築物內舉辦晚間課程。成年人可以參加實用課堂，而校舍在放學後也能得到使用。",
+        "starter": "The",
+        "answer": "The evening classes kill two birds with one stone by giving adults useful lessons and making use of the school building after school hours.",
+        "answerZh": "晚間課程一舉兩得：既為成年人提供實用課堂，也讓校舍在放學後得到使用。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q42",
+        "number": 42,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: I need to replace my broken phone and move all my data to the new one. B: The shop can do both for you today.",
+        "promptZh": "甲：我需要更換損壞了的手機，也要把所有資料轉移到新手機。 乙：商店今天可以替你同時完成兩件事。",
+        "starter": "You",
+        "answer": "You can kill two birds with one stone at the phone shop by replacing your broken phone and moving your data to the new one.",
+        "answerZh": "你可以在手機店一舉兩得：既更換損壞了的手機，也把資料轉移到新手機。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q43",
+        "number": 43,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The town is considering turning an empty piece of land into a small park with a rain garden. The plan may give people a place to relax and reduce flooding after heavy rain.",
+        "promptZh": "鎮上正考慮把一塊空地改建成設有雨水花園的小型公園。這項計劃可能既為居民提供休憩地方，也減少大雨後的水浸情況。",
+        "starter": "The",
+        "answer": "The plan may kill two birds with one stone by giving people a place to relax and reducing flooding after heavy rain.",
+        "answerZh": "這項計劃可能一舉兩得：既為居民提供休憩地方，也減少大雨後的水浸情況。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q44",
+        "number": 44,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "When the school changed its lunch menu, it offered healthier meals and began using more food grown by nearby farms.",
+        "promptZh": "學校更改午餐餐單後，既提供了較健康的膳食，也開始使用更多由附近農場種植的食物。",
+        "starter": "The",
+        "answer": "The school killed two birds with one stone by changing its lunch menu: it offered healthier meals and used more food grown by nearby farms.",
+        "answerZh": "學校更改午餐餐單，一舉兩得：既提供了較健康的膳食，也使用更多由附近農場種植的食物。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q45",
+        "number": 45,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "One online form lets patients book an appointment and update their contact details.",
+        "promptZh": "一份網上表格讓病人既能預約診症，也能更新聯絡資料。",
+        "starter": "By",
+        "answer": "By using one online form, patients can kill two birds with one stone: they can book an appointment and update their contact details.",
+        "answerZh": "病人使用一份網上表格便可以一舉兩得：既預約診症，也更新聯絡資料。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q46",
+        "number": 46,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: We need to train the new staff and test the video system before next week. B: We can use the training meeting to do both.",
+        "promptZh": "甲：我們需要在下星期前培訓新員工，也要測試視像系統。 乙：我們可以利用培訓會議同時完成兩件事。",
+        "starter": "We",
+        "answer": "We can kill two birds with one stone by using the training meeting to train the new staff and test the video system.",
+        "answerZh": "我們可以利用培訓會議訓練新員工及測試視像系統，一舉兩得。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q47",
+        "number": 47,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Although rain stopped the outdoor fair, the organisers moved the stalls into the hall. They kept the fair open and tested whether the hall could hold a large event.",
+        "promptZh": "雖然下雨令戶外市集無法繼續，但主辦者把攤位移到禮堂內。他們既讓市集繼續開放，也測試了禮堂能否容納大型活動。",
+        "starter": "Although",
+        "answer": "Although rain stopped the outdoor fair, the organisers killed two birds with one stone by moving the stalls into the hall: they kept the fair open and tested the hall for a large event.",
+        "answerZh": "雖然下雨令戶外市集無法繼續，但主辦者把攤位移到禮堂內，一舉兩得：既讓市集繼續開放，也測試了禮堂能否舉辦大型活動。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "killed two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q48",
+        "number": 48,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "If the library runs a homework club in its computer room, pupils will get help and the room will be used in the evenings.",
+        "promptZh": "如果圖書館在電腦室舉辦功課輔導小組，學生可以獲得協助，而房間在晚上也能得到使用。",
+        "starter": "If",
+        "answer": "If the library runs a homework club in its computer room, it can kill two birds with one stone by helping pupils and making use of the room in the evenings.",
+        "answerZh": "如果圖書館在電腦室舉辦功課輔導小組，便可以一舉兩得：既協助學生，也讓房間在晚上得到使用。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q49",
+        "number": 49,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: We need to meet our new business partner and see their factory before signing the agreement. B: We could visit them instead of having a video call.",
+        "promptZh": "甲：在簽署協議前，我們需要與新的商業伙伴見面，也要參觀他們的工廠。 乙：我們可以親自探訪他們，而不只進行視像通話。",
+        "starter": "We",
+        "answer": "We could kill two birds with one stone by visiting our new business partner: we could meet them and see their factory before signing the agreement.",
+        "answerZh": "我們可以親自探訪新的商業伙伴，一舉兩得：既與他們見面，也在簽署協議前參觀工廠。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      },
+      {
+        "id": "idiom-63-q50",
+        "number": 50,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The company wants its staff to understand the new safety plan and find any weak points before using it. It will run a practice day.",
+        "promptZh": "公司希望員工在正式使用新安全計劃前了解計劃內容，並找出任何弱點。公司將舉行一次演習日。",
+        "starter": "By",
+        "answer": "By running a practice day, the company will kill two birds with one stone: it will teach the staff the new safety plan and find any weak points before using it.",
+        "answerZh": "公司舉行演習日將會一舉兩得：既讓員工了解新的安全計劃，也在正式使用前找出任何弱點。",
+        "targetForm": "kill two birds with one stone",
+        "targetMeaning": "To achieve two useful goals or results through one action, plan or decision.",
+        "highlight": "kill two birds with one stone"
+      }
+    ]
+  }
+}

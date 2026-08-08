@@ -1,0 +1,1234 @@
+{
+  "id": "ss337",
+  "order": 337,
+  "slug": "x-boils-down-to-noun-v-ing-noun-clause",
+  "title": "「X boils down to + 名詞／V-ing／名詞子句」",
+  "titleZh": "「X boils down to + 名詞／V-ing／名詞子句」",
+  "titleEn": "Using “X boils down to + noun / V-ing / noun clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 335 -「X boils down to + 名詞／V-ing／名詞子句」.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sha256": "868e9253e74e69a70cf041589c18c493485025f502072f6b62f5986134b09540",
+    "sourceNumber": 335,
+    "systemOrder": 337,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 335 maps to ss337: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "X + boil(s) down to + noun / V-ing / noun clause The choice boils down to price",
+  "formulas": [
+    {
+      "id": "ss337-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "X + boil(s) down to + noun / V-ing / noun clause The choice boils down to price"
+    }
+  ],
+  "example": "The decision ultimately boils down to how much risk we are willing to accept.",
+  "exampleZh": "這項決定說到底取決於我們願意承受多大的風險。",
+  "examples": [
+    {
+      "id": "ss337-example-01",
+      "en": "The decision ultimately boils down to how much risk we are willing to accept.",
+      "zh": "這項決定說到底取決於我們願意承受多大的風險。",
+      "highlight": "The decision ultimately boils down to how much risk we are willing to accept."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss337-rule-01",
+      "zh": "核心表達只是 “boil down to” 以下字詞可以加入句子，但並不是固定表達的一部分：【all；really；simply；ultimately；finally；in the end；at its heart；in practical terms】 這個選擇說到底取決於價格。 這個選擇最終取決於價格。 說到底，這個選擇取決於價格。 三句都包含完整的核心表達。",
+      "en": "all really simply ultimately finally in the end at its heart in practical terms Core sentence: The choice boils down to price. With an optional adverb: The choice ultimately boils down to price. With an optional opening phrase: In the end, the choice boils down to price.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss337-rule-02",
+      "zh": "目標表達【“To”】是介詞，不是不定詞標記在 boil down to 中，to 是介詞。因此，後面可以接：名詞（Noun）；代名詞（Pronoun）；動名詞（V-ing）；名詞子句不能直接使用動詞原形：【The decision boils down to choose the cheaper option.】",
+      "en": "“To” The choice boils down to price. It all boils down to this. The job boils down to helping people. Noun clause The decision boils down to whether we have enough time. The decision boils down to choose the cheaper option. The decision boils down to choosing the cheaper option.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss337-rule-03",
+      "zh": "動詞要配合主語使用 does、did 或情態動詞後，要使用原形 boil。",
+      "en": "Singular subject: The problem boils down to poor planning. Plural subject: The problems boil down to poor planning. Modal verb: The problem may boil down to poor planning. Question: What does the problem boil down to?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss337-rule-04",
+      "zh": "這個句型用來指出「最核心的部分」目標表達【Boil down to】並不只是普通地表示「與……有關」。它通常表示：已經考慮過很多細節；事情看來可能很複雜；但最後只有一個或幾個因素最重要。野餐能否進行取決於天氣。 考慮過地點、費用和交通後，這項決定說到底取決於天氣。 第二句強調天氣是考慮所有事情後的核心因素。",
+      "en": "Boil down to Ordinary dependence: The picnic depends on the weather. Essential deciding factor: After considering the location, cost and transport, the decision boils down to the weather.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss337-rule-05",
+      "zh": "目標表達【“What X boils down to is…”】可以把重點放在答案上第二種結構先製造期待，再在 is 後面說出真正重點。",
+      "en": "“What X boils down to is…” Ordinary structure: The discussion boils down to safety. Emphatic structure: What the discussion boils down to is safety.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss337-rule-06",
+      "zh": "在使用 boil down to 時，可把它放進多種自然句框：主語可直接接 boils down to，也可加入 all、In the end、情態動詞或 seems to；還可使用 What...boils down to is... 的聚焦句、直接問句或否定句。核心意思和介詞 to 後的內容保持不變。",
+      "en": "The choice boils down to price. It all boils down to price. In the end, the choice boils down to price. The choice may boil down to price. The choice seems to boil down to price. What the choice boils down to is price. What does the choice boil down to? The choice does not boil down to price alone.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss337-rule-07",
+      "zh": "不要混淆另一種 “boil something down to” 以下結構表示「把某些內容濃縮成……」：【She boiled the report down to three main points.】 她把報告濃縮成三個重點。 這是：【Subject + boil + object + down to + result】 本課的主要句型則是：【X + boil down to + essential point；The report boils down to three main points.】 這份報告歸根究柢只有三個重點。 兩種結構意思相關，但文法結構不同。本練習集中訓練第二種。",
+      "en": "She boiled the report down to three main points. Subject + boil + object + down to + result X + boil down to + essential point The report boils down to three main points.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss337-benefit-01",
+      "zh": "幫助你指出真正的核心問題這個句型能幫助你略過次要細節，直接告訴對方甚麼才是最重要的事情。有很多細節需要討論，但這項決定說到底取決於成本。",
+      "en": "It helps you identify the real issue This structure helps you move past minor details and tell the listener what matters most. There are many details to discuss, but the decision boils down to cost.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss337-benefit-02",
+      "zh": "可以總結一段較長的討論解釋多項事實或意見後，你可以使用這個句型作出清楚的總結。我們討論過價錢、地點和時間表。說到底，一切都取決於是否方便。",
+      "en": "It can summarise a long discussion After explaining several facts or opinions, you can use this structure to give a clear conclusion. We have discussed the price, location and timetable. In the end, it all boils down to convenience.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss337-benefit-03",
+      "zh": "清楚說明最終決定因素這個句型能告訴對方，哪一項事實最終會決定結果。結果可能最終取決於最後一次面試。",
+      "en": "It makes the deciding factor clear The structure tells the listener which fact will finally determine the result. The result may boil down to one final interview.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss337-benefit-04",
+      "zh": "提供多種自然句式你不需要每次都以 The decision 開始，也不需要把目標表達放在完全相同的位置。這些變化可以令說話和寫作不會過於機械或重複。",
+      "en": "It gives you several natural sentence patterns You do not always need to begin with “The decision” or place the expression in exactly the same position. You can say: It all boils down to trust. What the problem boils down to is trust. The result may boil down to trust. What does the decision boil down to?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss337-benefit-05",
+      "zh": "適合分析和總結這個句型適合用來分析決定、問題、分歧、政策和可能的解決方法。它可以自然地用於：日常對話作文議論文報告會議簡報商業溝通",
+      "en": "It is useful for analysis and conclusions This structure is useful when discussing decisions, problems, disagreements, policies and possible solutions.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 335 maps to ss337: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using boil down to.",
+      "You may need to use a noun, a V-ing phrase or a noun clause after to. You may also need to",
+      "change the sentence order.",
+      "Preserve the original meaning, tense, degree of certainty and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 boil down to 改寫以下句子。",
+      "你可能需要在 to 後面使用名詞、V-ing 詞組或名詞子句，亦可能需要改變句子次序。",
+      "請保留原句的意思、時態、肯定程度及重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss337-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Price is the only factor that really matters in the choice.",
+      "promptZh": "價格是這個選擇中唯一真正重要的因素。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The choice boils down to price.",
+      "answerZh": "這個選擇說到底取決於價格。",
+      "answerZhSource": "pdf",
+      "highlight": "The choice boils down to price."
+    },
+    {
+      "id": "ss337-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In the end, our weekend plan depends entirely on the weather.",
+      "promptZh": "說到底，我們的週末計劃完全取決於天氣。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our weekend plan boils down to the weather.",
+      "answerZh": "我們的週末計劃說到底取決於天氣。",
+      "answerZhSource": "pdf",
+      "highlight": "Our weekend plan boils down to the weather."
+    },
+    {
+      "id": "ss337-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Poor communication is the real cause of the problems.",
+      "promptZh": "溝通不良是這些問題的真正成因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problems boil down to poor communication.",
+      "answerZh": "這些問題歸根究柢在於溝通不良。",
+      "answerZhSource": "pdf",
+      "highlight": "The problems boil down to poor communication."
+    },
+    {
+      "id": "ss337-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Regular practice is the main reason for his success.",
+      "promptZh": "定期練習是他成功的主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His success boils down to regular practice.",
+      "answerZh": "他的成功歸根究柢在於定期練習。",
+      "answerZhSource": "pdf",
+      "highlight": "His success boils down to regular practice."
+    },
+    {
+      "id": "ss337-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Timing is the only important issue in the decision.",
+      "promptZh": "時機是這項決定中唯一重要的問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision boils down to timing.",
+      "answerZh": "這項決定說到底取決於時機。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision boils down to timing."
+    },
+    {
+      "id": "ss337-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Money is at the heart of their disagreement.",
+      "promptZh": "金錢是他們分歧的核心。",
+      "promptZhSource": "pdf",
+      "starter": "Their",
+      "answer": "Their disagreement boils down to money.",
+      "answerZh": "他們的分歧說到底在於金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "Their disagreement boils down to money."
+    },
+    {
+      "id": "ss337-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Preparation is the main factor that determines the result.",
+      "promptZh": "準備工作是決定結果的主要因素。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The result boils down to preparation.",
+      "answerZh": "結果歸根究柢取決於準備工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The result boils down to preparation."
+    },
+    {
+      "id": "ss337-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Helping customers is the essential part of the job.",
+      "promptZh": "幫助顧客是這份工作的核心部分。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The job boils down to helping customers.",
+      "answerZh": "這份工作說到底就是幫助顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "The job boils down to helping customers."
+    },
+    {
+      "id": "ss337-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After all the details are considered, trust is the only thing that matters.",
+      "promptZh": "考慮過所有細節後，信任是唯一真正重要的事情。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything boils down to trust.",
+      "answerZh": "一切歸根究柢都在於信任。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything boils down to trust."
+    },
+    {
+      "id": "ss337-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In the end, the trip plan depends on finding an affordable hotel.",
+      "promptZh": "說到底，這項旅遊計劃取決於能否找到一間負擔得起的酒店。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trip plan boils down to finding an affordable hotel.",
+      "answerZh": "這項旅遊計劃說到底取決於能否找到一間負擔得起的酒店。",
+      "answerZhSource": "pdf",
+      "highlight": "The trip plan boils down to finding an affordable hotel."
+    },
+    {
+      "id": "ss337-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After all the discussion, we simply need to make a clear choice.",
+      "promptZh": "經過所有討論後，我們其實只需要作出一個清楚的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It all boils down to making a clear choice.",
+      "answerZh": "說到底，一切就是要作出一個清楚的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "It all boils down to making a clear choice."
+    },
+    {
+      "id": "ss337-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After every detail is considered, one fact gives us the final answer: the deadline cannot be moved.",
+      "promptZh": "考慮過每項細節後，有一個事實能給我們最終答案：限期無法更改。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final answer boils down to one simple fact: the deadline cannot be moved.",
+      "answerZh": "最終答案歸結為一個簡單事實：限期無法更改。",
+      "answerZhSource": "pdf",
+      "highlight": "The final answer boils down to one simple fact: the deadline cannot be moved."
+    },
+    {
+      "id": "ss337-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The amount of funding available will ultimately determine our next step.",
+      "promptZh": "可動用的資金數額最終會決定我們下一步怎樣做。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our next step ultimately boils down to how much funding is available.",
+      "answerZh": "我們下一步怎樣做，最終取決於有多少資金可供使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Our next step ultimately boils down to how much funding is available."
+    },
+    {
+      "id": "ss337-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The final issue is whether everyone agrees.",
+      "promptZh": "最終的問題是每個人是否都同意。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The matter really boils down to whether everyone agrees.",
+      "answerZh": "這件事說到底取決於每個人是否都同意。",
+      "answerZhSource": "pdf",
+      "highlight": "The matter really boils down to whether everyone agrees."
+    },
+    {
+      "id": "ss337-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Safety is the essential point in the discussion.",
+      "promptZh": "安全是這場討論的核心重點。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the discussion boils down to is safety.",
+      "answerZh": "這場討論歸根究柢談的是安全。",
+      "answerZhSource": "pdf",
+      "highlight": "What the discussion boils down to is safety."
+    },
+    {
+      "id": "ss337-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What is the essential issue behind the decision?",
+      "promptZh": "這項決定背後的核心問題是甚麼？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What does the decision boil down to?",
+      "answerZh": "這項決定說到底取決於甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "What does the decision boil down to?"
+    },
+    {
+      "id": "ss337-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In practical terms, the whole plan depends on getting permission.",
+      "promptZh": "實際上，整個計劃取決於能否取得許可。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The whole plan boils down to getting permission.",
+      "answerZh": "整個計劃說到底取決於能否取得許可。",
+      "answerZhSource": "pdf",
+      "highlight": "The whole plan boils down to getting permission."
+    },
+    {
+      "id": "ss337-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The main differences between the two courses are their teaching style and assessment.",
+      "promptZh": "這兩個課程的主要分別在於教學方式和評核方法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The differences between the two courses boil down to teaching style and assessment.",
+      "answerZh": "這兩個課程的分別歸根究柢在於教學方式和評核方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The differences between the two courses boil down to teaching style and assessment."
+    },
+    {
+      "id": "ss337-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "For most buyers, cost and quality are the two main deciding factors.",
+      "promptZh": "對大部分買家而言，成本和質素是兩個主要決定因素。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For most buyers, the choice boils down to cost and quality.",
+      "answerZh": "對大部分買家而言，這個選擇說到底取決於成本和質素。",
+      "answerZhSource": "pdf",
+      "highlight": "For most buyers, the choice boils down to cost and quality."
+    },
+    {
+      "id": "ss337-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In the end, the main question is how much time we have.",
+      "promptZh": "說到底，主要問題是我們有多少時間。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the end, the question boils down to how much time we have.",
+      "answerZh": "說到底，問題取決於我們有多少時間。",
+      "answerZhSource": "pdf",
+      "highlight": "In the end, the question boils down to how much time we have."
+    },
+    {
+      "id": "ss337-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "One final interview may determine the outcome.",
+      "promptZh": "最後一次面試可能會決定結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The outcome may boil down to one final interview.",
+      "answerZh": "結果可能最終取決於最後一次面試。",
+      "answerZhSource": "pdf",
+      "highlight": "The outcome may boil down to one final interview."
+    },
+    {
+      "id": "ss337-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Careful planning and teamwork will be the decisive factors in the project's success.",
+      "promptZh": "周詳規劃和團隊合作將會是決定項目能否成功的因素。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project's success will boil down to careful planning and teamwork.",
+      "answerZh": "項目能否成功，最終將取決於周詳規劃和團隊合作。",
+      "answerZhSource": "pdf",
+      "highlight": "The project's success will boil down to careful planning and teamwork."
+    },
+    {
+      "id": "ss337-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Who owns the land appears to be the central issue in the dispute at present.",
+      "promptZh": "目前，土地屬於誰似乎是這場爭議的核心問題。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, the dispute seems to boil down to who owns the land.",
+      "answerZh": "目前，這場爭議似乎歸根究柢在於土地屬於誰。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, the dispute seems to boil down to who owns the land."
+    },
+    {
+      "id": "ss337-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A small number of votes could ultimately decide the election.",
+      "promptZh": "少量選票最終可能會決定選舉結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The election could ultimately boil down to a small number of votes.",
+      "answerZh": "選舉結果最終可能取決於少量選票。",
+      "answerZhSource": "pdf",
+      "highlight": "The election could ultimately boil down to a small number of votes."
+    },
+    {
+      "id": "ss337-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "After weeks of discussion, the debate now centres on one question: is the rule fair?",
+      "promptZh": "經過數星期的討論後，辯論現在集中於一個問題：這項規則是否公平？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The debate has boiled down to whether the rule is fair.",
+      "answerZh": "這場辯論最終歸結為這項規則是否公平。",
+      "answerZhSource": "pdf",
+      "highlight": "The debate has boiled down to whether the rule is fair."
+    },
+    {
+      "id": "ss337-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In the end, they made their decision because protecting the children mattered most.",
+      "promptZh": "說到底，他們作出這項決定，是因為保護兒童最為重要。",
+      "promptZhSource": "pdf",
+      "starter": "Their",
+      "answer": "Their decision boiled down to protecting the children.",
+      "answerZh": "他們的決定說到底是為了保護兒童。",
+      "answerZhSource": "pdf",
+      "highlight": "Their decision boiled down to protecting the children."
+    },
+    {
+      "id": "ss337-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Relevant experience is likely to be the deciding factor in the final choice.",
+      "promptZh": "相關經驗很可能是最終選擇的決定因素。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final choice is likely to boil down to relevant experience.",
+      "answerZh": "最終選擇很可能取決於相關經驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The final choice is likely to boil down to relevant experience."
+    },
+    {
+      "id": "ss337-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The central problem is that we do not have reliable information.",
+      "promptZh": "核心問題是我們沒有可靠的資料。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the problem boils down to is a lack of reliable information.",
+      "answerZh": "這個問題歸根究柢在於缺乏可靠資料。",
+      "answerZhSource": "pdf",
+      "highlight": "What the problem boils down to is a lack of reliable information."
+    },
+    {
+      "id": "ss337-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The disagreement involves money, but money is not the only essential issue.",
+      "promptZh": "這場分歧涉及金錢，但金錢並不是唯一的核心問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The disagreement does not boil down to money alone.",
+      "answerZh": "這場分歧並不單單歸結為金錢問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The disagreement does not boil down to money alone."
+    },
+    {
+      "id": "ss337-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The final decision may depend on whether we choose speed or accuracy.",
+      "promptZh": "最終決定可能取決於我們選擇速度還是準確度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final decision may ultimately boil down to choosing between speed and accuracy.",
+      "answerZh": "這項最終決定可能歸根究柢就是要在速度與準確度之間作出選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "The final decision may ultimately boil down to choosing between speed and accuracy."
+    },
+    {
+      "id": "ss337-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Many details affect the decision, but public safety is the final deciding factor.",
+      "promptZh": "很多細節都會影響這項決定，但公共安全才是最終決定因素。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although many details affect the decision, it boils down to public safety.",
+      "answerZh": "雖然很多細節都會影響這項決定，但說到底，公共安全才是核心。",
+      "answerZhSource": "pdf",
+      "highlight": "Although many details affect the decision, it boils down to public safety."
+    },
+    {
+      "id": "ss337-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "After hours of discussion, one question remained: could we meet the deadline?",
+      "promptZh": "經過數小時的討論後，只剩下一個問題：我們能否趕及限期？",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After hours of discussion, it all boiled down to whether we could meet the deadline.",
+      "answerZh": "經過數小時的討論後，一切最終歸結為我們能否趕及限期。",
+      "answerZhSource": "pdf",
+      "highlight": "After hours of discussion, it all boiled down to whether we could meet the deadline."
+    },
+    {
+      "id": "ss337-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Our real disagreement is about how the work should be shared.",
+      "promptZh": "我們真正的分歧在於工作應該如何分配。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What our disagreement really boils down to is how the work should be shared.",
+      "answerZh": "我們的分歧說到底在於工作應該如何分配。",
+      "answerZhSource": "pdf",
+      "highlight": "What our disagreement really boils down to is how the work should be shared."
+    },
+    {
+      "id": "ss337-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Attracting enough volunteers could determine whether the event succeeds.",
+      "promptZh": "能否吸引足夠的義工，可能會決定活動能否成功。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The success of the event could boil down to attracting enough volunteers.",
+      "answerZh": "活動能否成功，可能取決於能否吸引足夠的義工。",
+      "answerZhSource": "pdf",
+      "highlight": "The success of the event could boil down to attracting enough volunteers."
+    },
+    {
+      "id": "ss337-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "For the hospital, the final issue will be whether the new system is safe.",
+      "promptZh": "對醫院而言，最終問題將會是新系統是否安全。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the hospital, the decision will boil down to whether the new system is safe.",
+      "answerZh": "對醫院而言，這項決定最終將取決於新系統是否安全。",
+      "answerZhSource": "pdf",
+      "highlight": "For the hospital, the decision will boil down to whether the new system is safe."
+    },
+    {
+      "id": "ss337-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The problem seems to come from people receiving different instructions.",
+      "promptZh": "問題似乎源於不同的人收到不同的指示。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem appears to boil down to people receiving different instructions.",
+      "answerZh": "問題似乎歸根究柢在於不同的人收到不同的指示。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem appears to boil down to people receiving different instructions."
+    },
+    {
+      "id": "ss337-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The policy should not simply be about cutting costs at any price.",
+      "promptZh": "這項政策不應只關乎不惜代價削減成本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy should not boil down to cutting costs at any price.",
+      "answerZh": "這項政策不應歸結為不惜代價削減成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy should not boil down to cutting costs at any price."
+    },
+    {
+      "id": "ss337-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What was the argument essentially about?",
+      "promptZh": "這場爭論說到底是關於甚麼？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What did the argument boil down to?",
+      "answerZh": "這場爭論說到底是關於甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "What did the argument boil down to?"
+    },
+    {
+      "id": "ss337-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The final choice is now between staying here and moving abroad.",
+      "promptZh": "最終選擇現在只剩下留在這裏或移居海外。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final choice has boiled down to staying here or moving abroad.",
+      "answerZh": "最終選擇如今已歸結為留在這裏或移居海外。",
+      "answerZhSource": "pdf",
+      "highlight": "The final choice has boiled down to staying here or moving abroad."
+    },
+    {
+      "id": "ss337-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Several options are available, but personal preference may be the final deciding factor.",
+      "promptZh": "雖然有數個選項，但個人偏好可能是最終決定因素。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even with several options available, the decision may boil down to personal preference.",
+      "answerZh": "即使有數個選項，這項決定最終也可能取決於個人偏好。",
+      "answerZhSource": "pdf",
+      "highlight": "Even with several options available, the decision may boil down to personal preference."
+    },
+    {
+      "id": "ss337-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The committee realised that balancing cost against long-term value was the essential issue behind the decision.",
+      "promptZh": "委員會明白，這項決定背後的核心問題是如何在成本與長遠價值之間取得平衡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee realised that the decision boiled down to balancing cost against long-term value.",
+      "answerZh": "委員會明白，這項決定說到底取決於如何在成本與長遠價值之間取得平衡。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee realised that the decision boiled down to balancing cost against long-term value."
+    },
+    {
+      "id": "ss337-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "For local residents, the final issue is whether the development will improve daily life.",
+      "promptZh": "對本區居民而言，最終問題是這項發展能否改善日常生活。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For local residents, the issue ultimately boils down to whether the development will improve daily life.",
+      "answerZh": "對本區居民而言，這個問題最終取決於這項發展能否改善日常生活。",
+      "answerZhSource": "pdf",
+      "highlight": "For local residents, the issue ultimately boils down to whether the development will improve daily life."
+    },
+    {
+      "id": "ss337-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The company's future depends mainly on adapting quickly without losing customer trust.",
+      "promptZh": "公司的未來主要取決於能否迅速適應，同時不失去顧客的信任。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the company's future boils down to is adapting quickly without losing customer trust.",
+      "answerZh": "公司的未來說到底取決於能否迅速適應，同時不失去顧客的信任。",
+      "answerZhSource": "pdf",
+      "highlight": "What the company's future boils down to is adapting quickly without losing customer trust."
+    },
+    {
+      "id": "ss337-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "In the end, how much each side is willing to compromise could decide the negotiations.",
+      "promptZh": "說到底，雙方願意作出多少讓步，可能會決定談判結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The negotiations could boil down to how much each side is willing to compromise.",
+      "answerZh": "談判結果可能歸根究柢取決於雙方願意作出多少讓步。",
+      "answerZhSource": "pdf",
+      "highlight": "The negotiations could boil down to how much each side is willing to compromise."
+    },
+    {
+      "id": "ss337-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "In practical terms, the new policy simply gives managers more responsibility.",
+      "promptZh": "實際上，這項新政策只是給予經理更多責任。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In practical terms, the new policy boils down to giving managers more responsibility.",
+      "answerZh": "實際上，這項新政策說到底就是給予經理更多責任。",
+      "answerZhSource": "pdf",
+      "highlight": "In practical terms, the new policy boils down to giving managers more responsibility."
+    },
+    {
+      "id": "ss337-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The case involves more than proving that a mistake was made.",
+      "promptZh": "這宗個案涉及的事情，不只是證明有人犯了錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The case does not simply boil down to proving that a mistake was made.",
+      "answerZh": "這宗個案的核心並不只是要證明有人犯了錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The case does not simply boil down to proving that a mistake was made."
+    },
+    {
+      "id": "ss337-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "After all the technical details are considered, the deciding factor will be which system is easier to maintain.",
+      "promptZh": "考慮過所有技術細節後，決定因素將會是哪一個系統較容易維護。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After all the technical details are considered, the choice will boil down to which system is easier to maintain.",
+      "answerZh": "考慮過所有技術細節後，最終選擇將取決於哪一個系統較容易維護。",
+      "answerZhSource": "pdf",
+      "highlight": "After all the technical details are considered, the choice will boil down to which system is easier to maintain."
+    },
+    {
+      "id": "ss337-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "After months of argument, the whole debate now centres on one question: do short-term savings justify the long-term risks?",
+      "promptZh": "經過數月的爭論後，整場辯論現在集中於一個問題：短期節省是否值得承受長期風險？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the entire debate has boiled down to is whether short-term savings justify the long-term risks.",
+      "answerZh": "整場辯論如今歸根究柢在於短期節省是否值得承受長期風險。",
+      "answerZhSource": "pdf",
+      "highlight": "What the entire debate has boiled down to is whether short-term savings justify the long-term risks."
+    },
+    {
+      "id": "ss337-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The partnership may ultimately succeed only if both organisations share information openly.",
+      "promptZh": "這項合作最終可能只有在兩個機構公開分享資料的情況下才能成功。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The success of the partnership may ultimately boil down to both organisations sharing information openly.",
+      "answerZh": "這項合作能否成功，最終可能取決於兩個機構是否公開分享資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The success of the partnership may ultimately boil down to both organisations sharing information openly."
+    },
+    {
+      "id": "ss337-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The situation may appear complex, but the essential task is making a decision that people can trust.",
+      "promptZh": "情況看來可能很複雜，但核心任務是作出一項人們可以信任的決定。",
+      "promptZhSource": "pdf",
+      "starter": "However",
+      "answer": "However complex the situation appears, it all boils down to making a decision that people can trust.",
+      "answerZh": "無論情況看來多麼複雜，說到底，一切在於作出一項人們可以信任的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "However complex the situation appears, it all boils down to making a decision that people can trust."
+    }
+  ]
+}

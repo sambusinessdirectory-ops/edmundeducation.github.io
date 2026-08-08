@@ -1,0 +1,1553 @@
+{
+  "lesson": {
+    "id": "idiom-93",
+    "order": 93,
+    "slug": "not-just-a-pretty-face",
+    "version": "1",
+    "title": "不只外表漂亮／有才有貌",
+    "titleEn": "not just a pretty face",
+    "titleZh": "不只外表漂亮／有才有貌",
+    "source": {
+      "file": "Idiom 93 - “Not Just a Pretty Face”.pdf",
+      "pageCount": 38,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "exercisePdfPages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "answerKeyPdfPages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "not just a pretty face",
+        "highlight": "not just a pretty face"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Ava is not just a pretty face.",
+        "zh": "艾娃並非徒有其表。",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "en": "I am not just a pretty face.",
+        "zh": "我可不只是外表好看。",
+        "highlight": "not just a pretty face"
+      }
+    ],
+    "meaning": {
+      "en": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+      "zh": "如果某人 is not just a pretty face，意思是這個人不但外表吸引，還有才智、才能、技術、能力或其他重要優點。",
+      "naturalZh": [
+        "如果某人 is not just a pretty face，意思是這個人不但外表吸引，還有才智、才能、技術、能力或其他重要優點。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "informal speeches; light-hearted introductions.",
+      "summaryZh": "這個表達屬於非正式及幽默語域，尤其適合用於：",
+      "contextsEn": [
+        "friendly conversation",
+        "playful replies",
+        "interviews",
+        "entertainment writing",
+        "magazine profiles",
+        "informal speeches",
+        "light-hearted introductions",
+        "humorous self-description",
+        "a playful reply between close friends",
+        "warm praise when the relationship is comfortable",
+        "discussion of how somebody overcame an unfair appearance-based assumption",
+        "in formal staff evaluations"
+      ],
+      "contextsZh": [
+        "朋友之間的對話",
+        "帶玩笑意味的回應",
+        "訪問",
+        "娛樂文章",
+        "雜誌人物介紹",
+        "較輕鬆的演說",
+        "幽默的人物介紹。",
+        "以幽默方式形容自己",
+        "親密朋友之間的玩笑回應",
+        "在雙方關係自然的情況下作出友善稱讚",
+        "討論某人如何打破以貌取人的不公平假設。",
+        "正式員工評核"
+      ],
+      "formalEn": "in formal staff evaluations; in serious academic writing; when speaking to a stranger about their appearance; when commenting on a pupil’s appearance; when attractiveness is irrelevant; when the listener may feel objectified or patronised.",
+      "formalZh": "正式員工評核； 嚴肅學術文章； 評論陌生人的外表； 評論學生或兒童的外表； 外表與情境完全無關； 對方可能感到被物化或被輕視。"
+    },
+    "fixedVariable": {
+      "fixed": "not just a pretty face",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + am / is / are + not just a pretty face.",
+          "example": "Ava is not just a pretty face.",
+          "highlight": "not just a pretty face"
+        },
+        {
+          "form": "Subject + was / were + not just a pretty face.",
+          "example": "The actor was not just a pretty face.",
+          "highlight": "not just a pretty face"
+        },
+        {
+          "form": "Subject + may / might / could + not be + just a pretty face.",
+          "example": "The new presenter may not be just a pretty face.",
+          "highlight": "not be just a pretty face"
+        },
+        {
+          "form": "Subject + show / prove + that + subject + be + not just a pretty face.",
+          "example": "Mei proved that she was not just a pretty face.",
+          "highlight": "not just a pretty face"
+        },
+        {
+          "form": "Subject + realise / discover / learn / see + that + person + be + not just a pretty face.",
+          "example": "The team realised that Emma was not just a pretty face.",
+          "highlight": "not just a pretty face"
+        },
+        {
+          "form": "Subject + be + not just a pretty face + but also + quality / role.",
+          "example": "She is not just a pretty face but also a skilled engineer.",
+          "highlight": "not just a pretty face"
+        },
+        {
+          "form": "Not just a pretty face, + subject + also + verb / complement.",
+          "example": "“I’m not just a pretty face, you know.”",
+          "highlight": "not just a pretty face"
+        },
+        {
+          "form": "Person, who + be + not just a pretty face, + main clause.",
+          "example": "The chef, who is not just a pretty face, created the restaurant’s most popular dish.",
+          "highlight": "not just a pretty face"
+        },
+        {
+          "form": "It became clear that + subject + be + not just a pretty face.",
+          "example": "It became clear that Finn was not just a pretty face.",
+          "highlight": "not just a pretty face"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Present Form",
+        "titleZh": "句式一：一般現在式",
+        "formula": "Subject + am / is / are + not just a pretty face.",
+        "descriptionEn": "This pattern gives a present judgement about somebody’s qualities.",
+        "descriptionZh": "這個句式用來對某人現時的能力及特質作出評價。",
+        "examples": [
+          {
+            "en": "Ava is not just a pretty face.",
+            "zh": "艾娃並非徒有其表。",
+            "highlight": "not just a pretty face"
+          },
+          {
+            "en": "I am not just a pretty face.",
+            "zh": "我可不只是外表好看。",
+            "highlight": "not just a pretty face"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Basic Past Form",
+        "titleZh": "句式二：一般過去式",
+        "formula": "Subject + was / were + not just a pretty face.",
+        "descriptionEn": "This pattern is used when describing somebody at an earlier time or discussing a completed event.",
+        "descriptionZh": "這個句式用來描述某人在過去的情況，或評論一件已完成的事情。",
+        "examples": [
+          {
+            "en": "The actor was not just a pretty face.",
+            "zh": "這名演員並非只有外表。",
+            "highlight": "not just a pretty face"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "句式三：配合情態動詞",
+        "formula": "Subject + may / might / could + not be + just a pretty face.",
+        "descriptionEn": "The modal preserves uncertainty. It does not claim that the person’s ability has already been fully proved.",
+        "descriptionZh": "情態動詞會保留不確定程度，並不表示這個人的能力已經完全得到證明。",
+        "examples": [
+          {
+            "en": "The new presenter may not be just a pretty face.",
+            "zh": "這名新主持人可能不只是外表吸引。",
+            "highlight": "not be just a pretty face"
+          },
+          {
+            "en": "The candidate might not be just a pretty face.",
+            "zh": "這名候選人可能並非徒有其表。",
+            "highlight": "not be just a pretty face"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Show” or “Prove”",
+        "titleZh": "句式四：配合 show 或 prove",
+        "formula": "Subject + show / prove + that + subject + be + not just a pretty face.",
+        "descriptionEn": "The verb show or prove introduces the evidence that changes another person’s opinion.",
+        "descriptionZh": "或 prove 用來引出改變他人看法的證據。",
+        "examples": [
+          {
+            "en": "Mei proved that she was not just a pretty face.",
+            "zh": "梅證明了自己並非徒有其表。",
+            "highlight": "not just a pretty face"
+          },
+          {
+            "en": "His work showed that he was not just a pretty face.",
+            "zh": "他的工作表現顯示他並非只有外表。",
+            "highlight": "not just a pretty face"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After a Reporting or Discovery Verb",
+        "titleZh": "句式五：配合認知或發現動詞",
+        "formula": "Subject + realise / discover / learn / see + that + person + be + not just a pretty face.",
+        "descriptionEn": "This pattern focuses on another person’s changing judgement.",
+        "descriptionZh": "這個句式着重別人如何改變對該人物的看法。",
+        "examples": [
+          {
+            "en": "The team realised that Emma was not just a pretty face.",
+            "zh": "團隊發現艾瑪並非徒有其表。",
+            "highlight": "not just a pretty face"
+          },
+          {
+            "en": "The audience soon saw that he was not just a pretty face.",
+            "zh": "觀眾很快便發現他不只是外表吸引。",
+            "highlight": "not just a pretty face"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "With an Optional “But Also” Extension",
+        "titleZh": "句式六：配合可省略的 but also 延伸部分",
+        "formula": "Subject + be + not just a pretty face + but also + quality / role.",
+        "descriptionEn": "What other quality, skill or role does the person have?",
+        "descriptionZh": "並不是固定慣用語的一部分。",
+        "examples": [
+          {
+            "en": "She is not just a pretty face but also a skilled engineer.",
+            "zh": "她不只是外表吸引，還是一名技術出色的工程師。",
+            "highlight": "not just a pretty face"
+          },
+          {
+            "en": "He was not just a pretty face but also a thoughtful writer.",
+            "zh": "他不只外表俊俏，還是一名有思想的作家。",
+            "highlight": "not just a pretty face"
+          },
+          {
+            "en": "She is not just a pretty face.",
+            "zh": "她並非徒有其表。",
+            "highlight": "not just a pretty face"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Direct Humorous Response",
+        "titleZh": "句式七：直接幽默回應",
+        "formula": "Not just a pretty face, + subject + also + verb / complement.",
+        "descriptionEn": "This is especially natural when somebody is surprised that the speaker can do something intelligent, practical or difficult.",
+        "descriptionZh": "當別人對說話者能夠完成一件聰明、實際或困難的事情感到意外時，這個回應尤其自然。",
+        "examples": [
+          {
+            "en": "“I’m not just a pretty face, you know.”",
+            "zh": "「我可不只是外表好看，你知道的。」",
+            "highlight": "not just a pretty face"
+          },
+          {
+            "en": "Not just a pretty face, Marcus is also a skilled photographer.",
+            "zh": "馬庫斯不只有吸引的外表，還是一名技術出色的攝影師。",
+            "highlight": "Not just a pretty face"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Inside a Relative Clause",
+        "titleZh": "句式九：置於關係子句內",
+        "formula": "Person, who + be + not just a pretty face, + main clause.",
+        "descriptionEn": "The expression provides additional information about the subject rather than forming the whole main statement.",
+        "descriptionZh": "這個表達在這裏用來補充主語的資料，而不是構成整句的主要陳述。",
+        "examples": [
+          {
+            "en": "The chef, who is not just a pretty face, created the restaurant’s most popular dish.",
+            "zh": "這名廚師並非徒有其表；她創作了餐廳最受歡迎的菜式。",
+            "highlight": "not just a pretty face"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "After a Conclusion Frame",
+        "titleZh": "句式十：置於結論框架後",
+        "formula": "It became clear that + subject + be + not just a pretty face.",
+        "descriptionEn": "These patterns place the idiom later in the sentence and help the learner integrate it into a fuller message.",
+        "descriptionZh": "這些句式把慣用語放在句子較後的位置，訓練學習者把它自然融入完整信息之中。",
+        "examples": [
+          {
+            "en": "It became clear that Finn was not just a pretty face.",
+            "zh": "大家逐漸明白芬恩並非徒有其表。",
+            "highlight": "not just a pretty face"
+          },
+          {
+            "en": "Her message was clear: she was not just a pretty face.",
+            "zh": "她的信息十分清楚：她並非只有外表。",
+            "highlight": "not just a pretty face"
+          },
+          {
+            "en": "The result left no doubt that he was not just a pretty face.",
+            "zh": "這項結果令人毫不懷疑他並非徒有其表。",
+            "highlight": "not just a pretty face"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Corrects an Appearance-Based Assumption",
+        "titleZh": "糾正以貌取人的假設",
+        "en": "The idiom compresses the contrast between appearance and real ability.",
+        "zh": "這個慣用語可以濃縮「外表受到注意，但能力也應受到重視」的對比。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Can Create Playful Self-Confidence",
+        "titleZh": "帶出幽默而自信的語氣",
+        "en": "The speaker lightly jokes about their appearance while drawing attention to their ability.",
+        "zh": "電腦是我自己修好的。 我可不只是外表好看，你知道的。 說話者以輕鬆玩笑方式提及自己的外表，同時強調自己的能力。",
+        "examples": [
+          {
+            "en": "“I fixed the computer myself. I’m not just a pretty face, you know.”",
+            "zh": "「電腦是我自己修好的。我可不只是外表好看，你知道的。」",
+            "highlight": "not just a pretty face"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Introduces a Less Obvious Skill",
+        "titleZh": "引出較不明顯的能力",
+        "en": "The expression prepares the listener to hear about an ability they may not have expected.",
+        "zh": "這個表達讓聽者準備接收一項原本可能沒有預料到的能力或成就。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Works with Different Evidence Structures",
+        "titleZh": "可以配合不同證據句式",
+        "en": "but also + quality; a semicolon + skill; when + clause; after + noun or V-ing; by + V-ing; a relative clause; a reported conclusion.",
+        "zh": "這個表達可以配合多種句式，而不需要永遠出現在相同位置。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Helps Learners Understand Humorous Profiles and Interviews",
+        "titleZh": "有助理解幽默人物介紹及訪問",
+        "en": "The expression often appears in playful interviews, profiles and headlines that contrast appearance with intelligence or achievement.",
+        "zh": "這個表達常見於帶幽默意味的訪問、人物介紹及標題，用來對比外表與才智或成就。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Teaches Pragmatic Caution",
+        "titleZh": "訓練語用判斷",
+        "en": "A grammatically correct idiom may still be socially unsuitable.; who is speaking; who is being described; whether the tone is playful; whether appearance is relevant; whether the comment may sound patronising.",
+        "zh": "即使慣用語在文法上完全正確，也可能在社交語境中並不合適。 學習者必須判斷說話者、被評論者、語氣、人物關係，以及這句話會否令人感到被輕視。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "not just a pretty face = attractive, but also intelligent, talented, skilled or capable",
+          "zh": "加入 not 後，原本的評價被反轉："
+        }
+      ],
+      "memoryEn": "The appearance may attract attention first, but the person has much more to offer.",
+      "memoryZh": "外表可能首先吸引注意，但這個人真正擁有的遠不止外表。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Change “Be” Naturally",
+        "titleZh": "規則一：按照文法自然改變 be",
+        "en": "Change “Be” Naturally",
+        "zh": "按照文法自然改變 be",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep “A” Before “Pretty Face”",
+        "titleZh": "規則二：pretty face 前必須保留 a",
+        "en": "Face is a singular countable noun in the target expression.",
+        "zh": "在目標表達中，face 是單數可數名詞，因此必須使用 a。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Keep the Singular Target Form",
+        "titleZh": "規則三：保留單數目標形式",
+        "en": "The plural form not just pretty faces may occur naturally with plural subjects, but it is excluded from this exercise. She is not just a pretty face.",
+        "zh": "本練習的每題答案都使用一名單數人物： Not just pretty faces 可以自然地配合複數主語，但不屬於本練習的目標形式。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "“But Also” Is Optional",
+        "titleZh": "規則四：but also 可以省略",
+        "en": "Do not treat but also as though it must appear in every answer.",
+        "zh": "不要以為每題都必須使用 but also。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve the Specific Ability",
+        "titleZh": "規則五：保留具體能力",
+        "en": "The weak answer gives the general idiomatic meaning but deletes the specific ability supplied by the source.",
+        "zh": "較弱的答案只保留慣用語的一般意思，卻刪除了原句所提供的具體能力。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "The Source Must Establish an Appearance Contrast",
+        "titleZh": "規則六：原句必須建立外表與能力之間的對比",
+        "en": "The second source says nothing about appearance or an appearance-based assumption. The idiom would therefore be unsupported.",
+        "zh": "第二個原句沒有提及外表，也沒有建立任何以貌取人的假設，因此不足以支持這個慣用語。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Use It Merely to Mean “Intelligent”",
+        "titleZh": "規則七：不要把它當作 intelligent 的普通同義詞",
+        "en": "1. the person is attractive or is being judged mainly by appearance; 2. the person also has meaningful intelligence, talent or ability.",
+        "zh": "這個表達結合兩個意思：",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Use It as a Neutral Formal Compliment",
+        "titleZh": "規則八：不要把它當作中性的正式稱讚",
+        "en": "This sounds patronising and places unnecessary attention on her appearance. Ms Lee has demonstrated excellent leadership and technical ability.",
+        "zh": "這句話帶有居高臨下的感覺，而且不必要地把注意力放在她的外表上。 李女士展現了出色的領導及技術能力。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Men and Women Can Both Be Described This Way",
+        "titleZh": "規則九：男女均可使用這個表達",
+        "en": "The idiom may be used about any gender. When used about a man, pretty often sounds deliberately playful. However, appropriateness depends on the relationship and context—not merely on grammatical correctness.",
+        "zh": "這個慣用語可以形容任何性別。 形容男性時，pretty 通常會帶有刻意的玩笑語氣。 不過，用法是否合適取決於人物關係及語境，而不只是文法是否正確。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Change the Certainty",
+        "titleZh": "規則十：不要改變確定程度",
+        "en": "The incorrect answer changes a possibility into a proven fact.",
+        "zh": "錯誤答案把一個可能性改成已經得到證明的事實。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Repeat the Same Meaning Mechanically",
+        "titleZh": "規則十一：不要機械式重複相同意思",
+        "en": "The second clause supplies a specific independent ability.",
+        "zh": "較佳的句子以具體能力補充資料，而不是再次解釋慣用語本身。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Use “Pretty Face” Literally",
+        "titleZh": "規則十二：不要使用字面意思",
+        "en": "The drawing shows a pretty face.",
+        "zh": "這幅畫展示了一張漂亮的臉。 這名設計師並非徒有其表； 整個系列都是由她創作的。",
+        "examples": [
+          {
+            "en": "The designer is not just a pretty face; she created the whole collection.",
+            "zh": "這名設計師並非徒有其表；整個系列都是由她創作的。",
+            "highlight": "not just a pretty face"
+          }
+        ]
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using an approved form of not be just a pretty face.",
+      "zh": "使用 not be just a pretty face 的適當文法形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-93-q01",
+        "number": 1,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Ava is often praised for her looks, but she can also solve difficult maths problems.",
+        "promptZh": "艾娃經常因外表受到稱讚，但她也能解答困難的數學問題。",
+        "starter": "Ava",
+        "answer": "Ava is not just a pretty face; she can also solve difficult maths problems.",
+        "answerZh": "艾娃並非徒有其表；她也能解答困難的數學問題。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q02",
+        "number": 2,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Noah is known for his good looks, but he can also repair computers.",
+        "promptZh": "諾亞以俊俏外表為人所知，但他也懂得維修電腦。",
+        "starter": "Noah",
+        "answer": "Noah is not just a pretty face; he can also repair computers.",
+        "answerZh": "諾亞不只是外表俊俏；他也懂得維修電腦。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q03",
+        "number": 3,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "People mainly noticed the actor’s appearance, but he also wrote the film.",
+        "promptZh": "大家主要留意這名演員的外表，但這部電影也是由他編寫的。",
+        "starter": "The",
+        "answer": "The actor was not just a pretty face; he wrote the film too.",
+        "answerZh": "這名演員並非只有外表；這部電影也是由他編寫的。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q04",
+        "number": 4,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Everyone talked about Clara’s appearance, but she designed the winning bridge model.",
+        "promptZh": "所有人都在談論克拉拉的外表，但勝出的橋樑模型其實是由她設計的。",
+        "starter": "Clara",
+        "answer": "Clara is not just a pretty face; she designed the winning bridge model.",
+        "answerZh": "克拉拉並非徒有其表；勝出的橋樑模型是由她設計的。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q05",
+        "number": 5,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "People assumed Ravi had been chosen only because he looked good, but he knew how to lead the team.",
+        "promptZh": "大家以為拉維只是因為外表吸引而獲選，但他其實十分懂得帶領團隊。",
+        "starter": "Ravi",
+        "answer": "Ravi was not just a pretty face; he knew how to lead the team.",
+        "answerZh": "拉維不只是外表吸引；他也十分懂得帶領團隊。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q06",
+        "number": 6,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The class first noticed Elise’s looks. Then she won the debate.",
+        "promptZh": "同學起初只留意埃莉絲的外表，後來她贏得了辯論。",
+        "starter": "The",
+        "answer": "The class learned that Elise was not just a pretty face when she won the debate.",
+        "answerZh": "埃莉絲贏得辯論後，同學發現她並非徒有其表。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q07",
+        "number": 7,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Daniel’s photographs made him popular, but he also speaks three languages.",
+        "promptZh": "丹尼爾因照片而受到歡迎，但他也能說三種語言。",
+        "starter": "Daniel",
+        "answer": "Daniel is not just a pretty face; he also speaks three languages.",
+        "answerZh": "丹尼爾不只是外表俊俏；他還能說三種語言。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q08",
+        "number": 8,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The model is famous for her appearance, but she also runs her own shop.",
+        "promptZh": "這名模特兒以外表聞名，但她也經營自己的店舖。",
+        "starter": "The",
+        "answer": "The model is not just a pretty face; she also runs her own shop.",
+        "answerZh": "這名模特兒並非只有外表；她也經營自己的店舖。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q09",
+        "number": 9,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Theo looked good in the advert, so some people doubted his ability. He then solved the difficult puzzle.",
+        "promptZh": "西奧在廣告中的外表十分吸引，因此有些人懷疑他的能力。後來他解決了那道困難的難題。",
+        "starter": "Theo",
+        "answer": "Theo proved that he was not just a pretty face when he solved the difficult puzzle.",
+        "answerZh": "西奧解決了那道困難的難題，證明自己並非徒有其表。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q10",
+        "number": 10,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: You built that shelf yourself? B: Yes. People notice my looks, but I can make things too.",
+        "promptZh": "甲：那個架子是你自己製作的嗎？ 乙：是的。大家只留意我的外表，但我也懂得製作東西。",
+        "starter": "I’m",
+        "answer": "I’m not just a pretty face, you know—I built that shelf myself.",
+        "answerZh": "我可不只是外表好看，你知道的——那個架子是我自己製作的。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q11",
+        "number": 11,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "People first noticed Lena’s looks, but she is also an excellent programmer.",
+        "promptZh": "大家最初只留意蓮娜的外表，但她也是一名出色的程式員。",
+        "starter": "Although",
+        "answer": "Although people first noticed Lena’s looks, she is not just a pretty face; she is also an excellent programmer.",
+        "answerZh": "雖然大家首先留意蓮娜的外表，但她並非徒有其表；她也是一名出色的程式員。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q12",
+        "number": 12,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Hugo was chosen to present the school video partly because he looked good. He then explained the science experiment clearly.",
+        "promptZh": "雨果獲選主持學校影片，部分原因是他的外表吸引。後來他清楚解釋了科學實驗。",
+        "starter": "The",
+        "answer": "The class soon realised that Hugo was not just a pretty face after he explained the science experiment clearly.",
+        "answerZh": "雨果清楚解釋科學實驗後，同學很快便發現他不只是外表吸引。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q13",
+        "number": 13,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Mei was well known for her appearance, but she also won the school chess title.",
+        "promptZh": "梅以外表為人所知，但她也贏得了校內棋藝冠軍。",
+        "starter": "Mei",
+        "answer": "Mei has shown that she is not just a pretty face by winning the school chess title.",
+        "answerZh": "梅贏得校內棋藝冠軍，證明自己並非徒有其表。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q14",
+        "number": 14,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The new presenter looks good on camera, and her carefully researched questions suggest that she has more ability than people expected.",
+        "promptZh": "這名新主持人在鏡頭前十分好看，而她經過仔細資料搜集的問題顯示，她的能力可能比大家預期更高。",
+        "starter": "The",
+        "answer": "The new presenter may not be just a pretty face; her questions show careful research.",
+        "answerZh": "這名新主持人可能不只是外表吸引；她的問題顯示她曾仔細搜集資料。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not be just a pretty face"
+      },
+      {
+        "id": "idiom-93-q15",
+        "number": 15,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "People thought Leo had been included in the music show mainly because of his looks. The judges then learned that he had written the song himself.",
+        "promptZh": "大家以為里奧主要因為外表而獲安排參加音樂表演。後來評判發現那首歌是由他親自創作的。",
+        "starter": "What",
+        "answer": "What surprised the judges was that Leo was not just a pretty face; he had written the song himself.",
+        "answerZh": "令評判意外的是，里奧並非只有外表；那首歌是由他親自創作的。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q16",
+        "number": 16,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: You cooked all this food? B: Yes. Why do you look so surprised?",
+        "promptZh": "甲：所有食物都是你煮的嗎？ 乙：是的。你為甚麼看來那麼驚訝？",
+        "starter": "Don’t",
+        "answer": "Don’t look so shocked. I’m not just a pretty face—I can cook too.",
+        "answerZh": "不要那麼驚訝。我可不只是外表好看——我也懂得烹飪。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q17",
+        "number": 17,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The magazine photographs focused on Priya’s appearance, but the interview explained that she had designed the machine herself.",
+        "promptZh": "雜誌照片集中展示普莉雅的外表，但訪問也說明了那部機器是由她親自設計的。",
+        "starter": "The",
+        "answer": "The interview showed that Priya was not just a pretty face; she had designed the machine herself.",
+        "answerZh": "訪問顯示普莉雅並非徒有其表；那部機器是由她親自設計的。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q18",
+        "number": 18,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Marcus is attractive, and he is also a skilled photographer.",
+        "promptZh": "馬庫斯外表吸引，而且也是一名技術出色的攝影師。",
+        "starter": "Not",
+        "answer": "Not just a pretty face, Marcus is also a skilled photographer.",
+        "answerZh": "馬庫斯不只有吸引的外表，還是一名技術出色的攝影師。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "Not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q19",
+        "number": 19,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Zoe looked like a model, so some people expected little from her in the meeting. She then led the discussion with confidence.",
+        "promptZh": "佐伊看來像一名模特兒，因此有些人沒有對她在會議上的表現抱有很大期望。後來她自信地帶領了討論。",
+        "starter": "Everyone",
+        "answer": "Everyone could see that Zoe was not just a pretty face once she began leading the discussion.",
+        "answerZh": "佐伊開始帶領討論後，大家都看得出她並非徒有其表。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q20",
+        "number": 20,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Kim gave detailed answers and made one point clear: people should judge her ideas, not only her appearance.",
+        "promptZh": "金給出了詳細答案，並清楚表明一點：大家應該評價她的想法，而不只是她的外表。",
+        "starter": "Her",
+        "answer": "Her message was clear: she was not just a pretty face and deserved to be judged for her ideas.",
+        "answerZh": "她的信息十分清楚：她並非只有外表，大家也應該評價她的想法。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q21",
+        "number": 21,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: The photographer only talked about your looks. How did you know how to fix the lights? B: I studied engineering.",
+        "promptZh": "甲：攝影師只談論你的外表。你怎麼會知道如何修理燈光？ 乙：我讀過工程學。",
+        "starter": "I’m",
+        "answer": "I’m not just a pretty face, you know; I studied engineering.",
+        "answerZh": "我可不只是外表好看，你知道的；我讀過工程學。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q22",
+        "number": 22,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The players thought the new coach had been hired mainly because he looked good in publicity photographs. His clever training plan changed their minds.",
+        "promptZh": "球員以為新教練主要因為宣傳照片中的外表吸引而獲聘。他聰明的訓練計劃改變了他們的看法。",
+        "starter": "The",
+        "answer": "The players discovered that the new coach was not just a pretty face when they saw his clever training plan.",
+        "answerZh": "球員看到新教練聰明的訓練計劃後，發現他不只是外表俊俏。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q23",
+        "number": 23,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The camera first focused on Nia’s appearance. During the interview, she explained how she had started two successful projects.",
+        "promptZh": "鏡頭起初集中拍攝妮雅的外表。在訪問期間，她解釋了自己如何創立兩個成功項目。",
+        "starter": "Although",
+        "answer": "Although the camera first focused on Nia’s appearance, the interview made it clear that she was not just a pretty face; she had started two successful projects.",
+        "answerZh": "雖然鏡頭最初集中拍攝妮雅的外表，但訪問清楚顯示她並非徒有其表；她曾創立兩個成功項目。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q24",
+        "number": 24,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Owen wants people to judge him for more than his appearance because he has years of nursing experience.",
+        "promptZh": "歐文希望大家不要只按外表評價他，因為他擁有多年護理經驗。",
+        "starter": "Owen",
+        "answer": "Owen wants people to understand that he is not just a pretty face; he has years of nursing experience.",
+        "answerZh": "歐文希望大家明白他並非只有外表；他擁有多年護理經驗。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q25",
+        "number": 25,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: The singer only became famous because she looks good. B: That is unfair. She writes her own music.",
+        "promptZh": "甲：這名歌手只是因為外表好看才成名。 乙：這樣說並不公平。她會親自創作歌曲。",
+        "starter": "That",
+        "answer": "That is unfair. She is not just a pretty face; she writes her own music.",
+        "answerZh": "這樣說並不公平。她並非徒有其表；她會親自創作歌曲。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q26",
+        "number": 26,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The candidate is known for his good looks, but his answers suggest that he understands the town’s problems.",
+        "promptZh": "這名候選人以俊俏外表為人所知，但他的答案顯示他可能十分了解鎮上的問題。",
+        "starter": "The",
+        "answer": "The candidate may not be just a pretty face; his answers suggest that he understands the town’s problems.",
+        "answerZh": "這名候選人可能不只是外表俊俏；他的答案顯示他了解鎮上的問題。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not be just a pretty face"
+      },
+      {
+        "id": "idiom-93-q27",
+        "number": 27,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Sara’s appearance attracted attention, but her clear business plan showed the judges that she was capable.",
+        "promptZh": "莎拉的外表吸引了大家注意，但她清晰的商業計劃向評判顯示了她的能力。",
+        "starter": "By",
+        "answer": "By presenting a clear business plan, Sara proved that she was not just a pretty face.",
+        "answerZh": "莎拉提出清晰的商業計劃，證明自己並非徒有其表。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q28",
+        "number": 28,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The chef is often photographed for magazines, but she also created the restaurant’s most popular dish.",
+        "promptZh": "這名廚師經常為雜誌拍照，但餐廳最受歡迎的菜式也是由她創作的。",
+        "starter": "The",
+        "answer": "The chef, who is not just a pretty face, also created the restaurant’s most popular dish.",
+        "answerZh": "這名廚師並非徒有其表；餐廳最受歡迎的菜式也是由她創作的。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q29",
+        "number": 29,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: You were chosen for the event poster because you photograph well. B: Maybe, but I also organised the whole event.",
+        "promptZh": "甲：你獲選成為活動海報人物，是因為你拍照時很好看。 乙：也許吧，但整個活動也是由我籌辦的。",
+        "starter": "I",
+        "answer": "I may look good in the poster, but I’m not just a pretty face; I organised the whole event.",
+        "answerZh": "我在海報中也許很好看，但我可不只是外表吸引；整個活動也是由我籌辦的。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q30",
+        "number": 30,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "People noticed Finn’s appearance when he entered the quiz. He then answered every difficult question correctly.",
+        "promptZh": "芬恩參加問答比賽時，大家首先留意他的外表。後來他答對了每一道困難問題。",
+        "starter": "It",
+        "answer": "It became obvious during the quiz that Finn was not just a pretty face when he answered every difficult question correctly.",
+        "answerZh": "芬恩在問答比賽中答對每一道困難問題後，大家都明白他並非徒有其表。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q31",
+        "number": 31,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The advert mainly showed Yara’s appearance. It did not mention that she had invented the product.",
+        "promptZh": "廣告主要展示雅拉的外表，卻沒有提及產品是由她發明的。",
+        "starter": "Although",
+        "answer": "Although the advert mainly showed Yara’s appearance, she was not just a pretty face; she had invented the product.",
+        "answerZh": "雖然廣告主要展示雅拉的外表，但她並非徒有其表；產品是由她發明的。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q32",
+        "number": 32,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The team assumed Lucas knew little about business because he had appeared in the company photographs. He then found a serious mistake in the budget.",
+        "promptZh": "團隊因為盧卡斯曾出現在公司的宣傳照片中，便以為他不太懂商業。後來他在預算中發現了一個嚴重錯誤。",
+        "starter": "The",
+        "answer": "The serious mistake he found in the budget proved that Lucas was not just a pretty face.",
+        "answerZh": "盧卡斯在預算中找出的嚴重錯誤，證明他不只是外表俊俏。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q33",
+        "number": 33,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: Why are you asking Emma to fix the booking system? She is mainly known from the company’s adverts. B: She understands the system better than any of us.",
+        "promptZh": "甲：你為甚麼請艾瑪修理預約系統？大家主要因公司的廣告而認識她。 乙：她比我們任何人都更了解這套系統。",
+        "starter": "Because",
+        "answer": "Because Emma is not just a pretty face; she understands the booking system better than any of us.",
+        "answerZh": "因為艾瑪並非徒有其表；她比我們任何人都更了解預約系統。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q34",
+        "number": 34,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The young actor is widely praised for his looks, and he has also become a respected director.",
+        "promptZh": "這名年輕演員的外表廣受稱讚，而他也已成為一名備受尊重的導演。",
+        "starter": "Not",
+        "answer": "Not just a pretty face, the young actor has also become a respected director.",
+        "answerZh": "這名年輕演員不只有吸引的外表，還已成為一名備受尊重的導演。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "Not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q35",
+        "number": 35,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A profile of Jay explained that he was attractive, thoughtful and able to write very well.",
+        "promptZh": "一篇有關傑伊的人物介紹指出，他不但外表吸引，而且思想細膩，寫作能力也十分出色。",
+        "starter": "The",
+        "answer": "The article presented Jay as someone who was not just a pretty face but also a thoughtful writer.",
+        "answerZh": "文章把傑伊描寫成一個不只有吸引外表、同時也是思想細膩作家的人。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q36",
+        "number": 36,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The audience expected Hana to provide glamour, not useful ideas. Her confident speech changed their opinion.",
+        "promptZh": "觀眾以為哈娜只會帶來亮麗外表，不會提出實用意見。她充滿自信的演說改變了他們的看法。",
+        "starter": "The",
+        "answer": "The audience discovered that Hana was not just a pretty face when she gave her confident speech.",
+        "answerZh": "哈娜發表充滿自信的演說後，觀眾發現她並非徒有其表。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q37",
+        "number": 37,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Ruby’s colleagues mostly talked about her appearance. She then found the error in the accounts.",
+        "promptZh": "魯比的同事主要談論她的外表。後來她找出了帳目中的錯誤。",
+        "starter": "To",
+        "answer": "To her colleagues’ surprise, Ruby was not just a pretty face; she found the error in the accounts.",
+        "answerZh": "令同事意外的是，魯比並非只有外表；她找出了帳目中的錯誤。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q38",
+        "number": 38,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Before the television interview, Arun had already built the booking app himself, although viewers mainly knew him for his looks.",
+        "promptZh": "在電視訪問前，阿倫已經親自製作了預約應用程式，雖然觀眾主要因他的外表而認識他。",
+        "starter": "Arun",
+        "answer": "Arun had already proved that he was not just a pretty face by building the booking app himself before the television interview.",
+        "answerZh": "阿倫在電視訪問前已親自製作預約應用程式，證明自己並非徒有其表。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q39",
+        "number": 39,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: People only talk about Jayden’s appearance in his travel photographs. B: They forget that he also writes excellent articles.",
+        "promptZh": "甲：大家只談論傑登在旅遊照片中的外表。 乙：他們忘記了他也會撰寫出色的文章。",
+        "starter": "They",
+        "answer": "They should remember that Jayden is not just a pretty face; he also writes excellent travel articles.",
+        "answerZh": "他們應該記得傑登並非只有外表；他也會撰寫出色的旅遊文章。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q40",
+        "number": 40,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Layla’s friends knew she could design well, but the public mainly knew her as a model. Winning the award confirmed her ability.",
+        "promptZh": "萊拉的朋友知道她設計能力出色，但公眾主要視她為模特兒。贏得獎項證實了她的能力。",
+        "starter": "The",
+        "answer": "The award confirmed what Layla’s friends already knew: she was not just a pretty face but also a talented designer.",
+        "answerZh": "這個獎項證實了萊拉的朋友早已知道的事情：她不但外表吸引，還是一名才華出眾的設計師。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q41",
+        "number": 41,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The company used Ben’s looks in its adverts, so some clients assumed he had little to do with the work. In fact, he had planned the entire advertising project.",
+        "promptZh": "公司在廣告中利用本的外表，因此有些客戶以為他沒有參與多少實際工作。事實上，整個廣告項目都是由他策劃的。",
+        "starter": "While",
+        "answer": "While the company had used Ben’s looks in its adverts, the project showed that he was not just a pretty face; he had planned the entire advertising project.",
+        "answerZh": "雖然公司曾在廣告中利用本的外表，但這個項目顯示他並非徒有其表；整個廣告項目都是由他策劃的。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q42",
+        "number": 42,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Alina is often praised for her appearance, but she can explain difficult ideas very clearly. A full interview may change how people see her.",
+        "promptZh": "阿莉娜經常因外表受到稱讚，但她能夠非常清楚地解釋困難概念。一次完整訪問可能會改變大家對她的看法。",
+        "starter": "The",
+        "answer": "The interview could help people see that Alina is not just a pretty face, because she explains difficult ideas very clearly.",
+        "answerZh": "這次訪問可以讓大家看出阿莉娜並非只有外表，因為她能夠非常清楚地解釋困難概念。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q43",
+        "number": 43,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: The host seems to think Kai is here only to look good. B: He should lead the discussion and show what he knows.",
+        "promptZh": "甲：主持人似乎以為凱伊來到這裏只是為了讓畫面好看。 乙：他應該帶領討論，展示自己的知識。",
+        "starter": "Then",
+        "answer": "Then Kai should show them that he is not just a pretty face by leading the discussion.",
+        "answerZh": "那麼凱伊便應該帶領討論，向他們證明自己並非徒有其表。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q44",
+        "number": 44,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Sonia is often photographed for the company’s website, but she also has the knowledge needed to manage the repair team.",
+        "promptZh": "索妮雅經常為公司網站拍照，但她也擁有管理維修團隊所需的知識。",
+        "starter": "Not",
+        "answer": "Not just a pretty face, Sonia also has the knowledge needed to manage the repair team.",
+        "answerZh": "索妮雅不只有吸引的外表，也擁有管理維修團隊所需的知識。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "Not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q45",
+        "number": 45,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Omar had always been praised for his looks. He then solved a problem that had troubled the team for weeks.",
+        "promptZh": "奧馬爾一直因外表受到稱讚。後來他解決了一個困擾團隊數星期的問題。",
+        "starter": "The",
+        "answer": "The final result left no doubt that Omar was not just a pretty face: he had solved a problem that had troubled the team for weeks.",
+        "answerZh": "最終結果令人毫不懷疑奧馬爾並非徒有其表：他解決了一個困擾團隊數星期的問題。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q46",
+        "number": 46,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The public first knew Celia from fashion photographs, but she later built a successful company and became a strong business leader.",
+        "promptZh": "公眾最初因時裝照片而認識西莉亞，但她後來建立了一間成功公司，並成為出色的商業領袖。",
+        "starter": "Although",
+        "answer": "Although the public first knew Celia from fashion photographs, she has proved that she is not just a pretty face but also a strong business leader.",
+        "answerZh": "雖然公眾最初因時裝照片而認識西莉亞，但她已證明自己不只有吸引的外表，還是一名出色的商業領袖。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q47",
+        "number": 47,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The teacher first assumed Ella was mainly concerned with fashion and appearance. He changed his mind after reading the best research report in the class.",
+        "promptZh": "老師起初以為埃拉主要只關心時裝和外表。他讀過班上最出色的研究報告後改變了看法。",
+        "starter": "The",
+        "answer": "The teacher’s first impression changed once he realised that Ella was not just a pretty face; she had written the best research report in the class.",
+        "answerZh": "老師發現埃拉並非只有外表，而且寫出了班上最出色的研究報告後，便改變了最初的印象。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q48",
+        "number": 48,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: You thought I only knew about clothes, didn’t you? B: I rebuilt the bicycle myself.",
+        "promptZh": "甲：你以為我只懂得衣服，對吧？ 乙：那輛單車是我自己重新裝好的。",
+        "starter": "Well",
+        "answer": "Well, I’m not just a pretty face; I rebuilt the bicycle myself.",
+        "answerZh": "嗯，我可不只是外表好看；那輛單車是我自己重新裝好的。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q49",
+        "number": 49,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The actor’s new profile should explain that he created the charity project himself, instead of focusing only on his appearance.",
+        "promptZh": "這名演員的新人物介紹應該說明慈善項目是由他親自創立的，而不是只集中描寫他的外表。",
+        "starter": "The",
+        "answer": "The profile should make clear that the actor is not just a pretty face but also the person who created the charity project.",
+        "answerZh": "人物介紹應該清楚說明，這名演員不只有吸引的外表，還是慈善項目的創立者。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      },
+      {
+        "id": "idiom-93-q50",
+        "number": 50,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "For years, Adam had been judged mainly by his appearance. At the final interview, he presented the strongest plan and won the job.",
+        "promptZh": "多年來，亞當主要受到外表評價。在最後的面試中，他提出了最出色的計劃，並成功獲聘。",
+        "starter": "Despite",
+        "answer": "Despite years of being judged mainly by his appearance, Adam finally convinced the judges that he was not just a pretty face when he presented the strongest plan.",
+        "answerZh": "儘管多年來主要受到外表評價，亞當最終以最出色的計劃說服評審，證明自己並非徒有其表。",
+        "targetForm": "not just a pretty face",
+        "targetMeaning": "If somebody is not just a pretty face, they are attractive but also intelligent, talented, skilled, capable or valuable in another important way.",
+        "highlight": "not just a pretty face"
+      }
+    ]
+  }
+}

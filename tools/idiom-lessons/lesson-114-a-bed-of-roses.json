@@ -1,0 +1,1490 @@
+{
+  "lesson": {
+    "id": "idiom-114",
+    "order": 114,
+    "slug": "a-bed-of-roses",
+    "version": "1",
+    "title": "輕鬆愉快的生活／舒適順利的處境",
+    "titleEn": "a bed of roses",
+    "titleZh": "輕鬆愉快的生活／舒適順利的處境",
+    "source": {
+      "file": "Idiom 114 - 「A Bed of Roses」.pdf",
+      "pageCount": 37,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "exercisePdfPages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "answerKeyPdfPages": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a bed of roses",
+        "highlight": "a bed of roses"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+        "zh": "他的家人負責大部分艱苦工作，因此他在農場的生活輕鬆舒適。",
+        "highlight": "a bed of roses"
+      },
+      {
+        "en": "Running the café is not a bed of roses.",
+        "zh": "經營這間咖啡店並不輕鬆。",
+        "highlight": "a bed of roses"
+      }
+    ],
+    "meaning": {
+      "en": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+      "zh": "一個輕鬆、愉快、舒適，而且大致沒有困難或煩惱的處境或生活。",
+      "naturalZh": [
+        "輕鬆愉快的生活",
+        "舒適順利的處境",
+        "稱心如意的日子",
+        "沒有甚麼困難的生活",
+        "安逸舒適的環境",
+        "一帆風順的處境"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "A bed of roses is a common idiomatic noun phrase. It is natural in conversation, general writing, interviews, articles and informal workplace communication.",
+      "summaryZh": "A bed of roses 是一個常見的慣用名詞短語，適合用於日常對話、一般文章、訪問、報道及非正式工作溝通。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "Both are correct, but the first is more direct and formal.",
+      "formalZh": "也可以使用子句："
+    },
+    "fixedVariable": {
+      "fixed": "a bed of roses",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + a bed of roses.",
+          "example": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+          "highlight": "a bed of roses"
+        },
+        {
+          "form": "Subject + be + not / never / hardly + a bed of roses.",
+          "example": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+          "highlight": "a bed of roses"
+        },
+        {
+          "form": "Subject + modal + be / become + a bed of roses.",
+          "example": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+          "highlight": "a bed of roses"
+        },
+        {
+          "form": "Subject + seem / look / sound like + a bed of roses.",
+          "example": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+          "highlight": "a bed of roses"
+        },
+        {
+          "form": "Subject + expect / imagine + object + to be + a bed of roses.",
+          "example": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+          "highlight": "a bed of roses"
+        },
+        {
+          "form": "Subject + think / believe / say + clause containing a bed of roses.",
+          "example": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+          "highlight": "a bed of roses"
+        },
+        {
+          "form": "Subject + describe / present / portray + object + as + a bed of roses.",
+          "example": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+          "highlight": "a bed of roses"
+        },
+        {
+          "form": "Subject + make + object + a bed of roses.",
+          "example": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+          "highlight": "a bed of roses"
+        },
+        {
+          "form": "Calling + object + a bed of roses + verb.",
+          "example": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+          "highlight": "a bed of roses"
+        },
+        {
+          "form": "because + clause",
+          "example": "Running the café is not a bed of roses.",
+          "highlight": "a bed of roses"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Subject + be + a bed of roses",
+        "titleZh": "句式一",
+        "formula": "Subject + be + a bed of roses.",
+        "descriptionEn": "Source grammar frame: Subject + be + a bed of roses.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + a bed of roses。",
+        "examples": [
+          {
+            "en": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+            "zh": "他的家人負責大部分艱苦工作，因此他在農場的生活輕鬆舒適。",
+            "highlight": "a bed of roses"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Subject + be + not / never / hardly + a bed of roses",
+        "titleZh": "句式二",
+        "formula": "Subject + be + not / never / hardly + a bed of roses.",
+        "descriptionEn": "Source grammar frame: Subject + be + not / never / hardly + a bed of roses.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + not / never / hardly + a bed of roses。",
+        "examples": [
+          {
+            "en": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+            "zh": "他的家人負責大部分艱苦工作，因此他在農場的生活輕鬆舒適。",
+            "highlight": "a bed of roses"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Subject + modal + be / become + a bed of roses",
+        "titleZh": "句式三",
+        "formula": "Subject + modal + be / become + a bed of roses.",
+        "descriptionEn": "Source grammar frame: Subject + modal + be / become + a bed of roses.",
+        "descriptionZh": "原檔列出的句法框架：Subject + modal + be / become + a bed of roses。",
+        "examples": [
+          {
+            "en": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+            "zh": "他的家人負責大部分艱苦工作，因此他在農場的生活輕鬆舒適。",
+            "highlight": "a bed of roses"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Subject + seem / look / sound like + a bed of roses",
+        "titleZh": "句式四",
+        "formula": "Subject + seem / look / sound like + a bed of roses.",
+        "descriptionEn": "Source grammar frame: Subject + seem / look / sound like + a bed of roses.",
+        "descriptionZh": "原檔列出的句法框架：Subject + seem / look / sound like + a bed of roses。",
+        "examples": [
+          {
+            "en": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+            "zh": "他的家人負責大部分艱苦工作，因此他在農場的生活輕鬆舒適。",
+            "highlight": "a bed of roses"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Subject + expect / imagine + object + to be + a bed of roses",
+        "titleZh": "句式五",
+        "formula": "Subject + expect / imagine + object + to be + a bed of roses.",
+        "descriptionEn": "Source grammar frame: Subject + expect / imagine + object + to be + a bed of roses.",
+        "descriptionZh": "原檔列出的句法框架：Subject + expect / imagine + object + to be + a bed of roses。",
+        "examples": [
+          {
+            "en": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+            "zh": "他的家人負責大部分艱苦工作，因此他在農場的生活輕鬆舒適。",
+            "highlight": "a bed of roses"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Subject + think / believe / say + clause containing a bed of roses",
+        "titleZh": "句式六",
+        "formula": "Subject + think / believe / say + clause containing a bed of roses.",
+        "descriptionEn": "Source grammar frame: Subject + think / believe / say + clause containing a bed of roses.",
+        "descriptionZh": "原檔列出的句法框架：Subject + think / believe / say + clause containing a bed of roses。",
+        "examples": [
+          {
+            "en": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+            "zh": "他的家人負責大部分艱苦工作，因此他在農場的生活輕鬆舒適。",
+            "highlight": "a bed of roses"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Subject + describe / present / portray + object + as + a bed of roses",
+        "titleZh": "句式七",
+        "formula": "Subject + describe / present / portray + object + as + a bed of roses.",
+        "descriptionEn": "Source grammar frame: Subject + describe / present / portray + object + as + a bed of roses.",
+        "descriptionZh": "原檔列出的句法框架：Subject + describe / present / portray + object + as + a bed of roses。",
+        "examples": [
+          {
+            "en": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+            "zh": "他的家人負責大部分艱苦工作，因此他在農場的生活輕鬆舒適。",
+            "highlight": "a bed of roses"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Subject + make + object + a bed of roses",
+        "titleZh": "句式八",
+        "formula": "Subject + make + object + a bed of roses.",
+        "descriptionEn": "Source grammar frame: Subject + make + object + a bed of roses.",
+        "descriptionZh": "原檔列出的句法框架：Subject + make + object + a bed of roses。",
+        "examples": [
+          {
+            "en": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+            "zh": "他的家人負責大部分艱苦工作，因此他在農場的生活輕鬆舒適。",
+            "highlight": "a bed of roses"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Calling + object + a bed of roses + verb",
+        "titleZh": "句式九",
+        "formula": "Calling + object + a bed of roses + verb.",
+        "descriptionEn": "Source grammar frame: Calling + object + a bed of roses + verb.",
+        "descriptionZh": "原檔列出的句法框架：Calling + object + a bed of roses + verb。",
+        "examples": [
+          {
+            "en": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+            "zh": "他的家人負責大部分艱苦工作，因此他在農場的生活輕鬆舒適。",
+            "highlight": "a bed of roses"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "anything but / far from + a bed of roses",
+        "titleZh": "可以加入以下可選資料：",
+        "formula": "because + clause",
+        "descriptionEn": "Source grammar frame: because + clause.",
+        "descriptionZh": "原檔列出的句法框架：because + clause。",
+        "examples": [
+          {
+            "en": "Running the café is not a bed of roses.",
+            "zh": "經營這間咖啡店並不輕鬆。",
+            "highlight": "a bed of roses"
+          },
+          {
+            "en": "Running the café is not a bed of roses because we must begin work at five every morning.",
+            "zh": "經營這間咖啡店並不輕鬆，因為我們每天早上五時便要開始工作。",
+            "highlight": "a bed of roses"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Gives a Compact Overall Evaluation",
+        "titleZh": "作出簡潔的整體評價",
+        "en": "The idiom compresses several difficulties into one overall judgement.",
+        "zh": "這個慣用語把多項困難濃縮成一個整體評價。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Contrasts Expectation and Reality",
+        "titleZh": "對比期望與現實",
+        "en": "She thought working from home would be a bed of roses, but she now attends online meetings all day. The expression is useful when something looked easy before the speaker experienced it.",
+        "zh": "她以為在家工作會十分輕鬆，但現在整天都要參加網上會議。 當某件事情在親身經歷前看來十分輕鬆時，這個表達尤其實用。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Works in Both Positive and Negative Statements",
+        "titleZh": "可用於肯定句和否定句",
+        "en": "It Works in Both Positive and Negative Statements",
+        "zh": "可用於肯定句和否定句",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Adds Variety to Opinions and Reflections",
+        "titleZh": "增加表達意見及反思的變化",
+        "en": "A speaker may say:",
+        "zh": "說話者可以說：",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful for Warnings and Advice",
+        "titleZh": "適合用於提醒及建議",
+        "en": "The expression can gently correct unrealistic expectations.",
+        "zh": "這個表達可以較婉轉地糾正不切實際的期望。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Idiomatic Use Uncertain",
+      "statusZh": "逐漸形成；確切首次比喻用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster dates its first known use of bed of roses in the present sense to 1576. Another historical idiom reference dates the metaphorical expression to 1635. These dates refer to located written evidence, not necessarily the first time anyone spoke the expression.",
+          "zh": "Merriam-Webster 把目前意思的 bed of roses 最早已知用法追溯至1576年。 另一項歷史慣用語資料則把比喻用法追溯至1635年。 這些年份代表現時找到的書面記錄，並不一定是人們首次說出這個表達的時間。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Because roses were connected with beauty, pleasant smells, romance and luxury, a bed covered with roses became a natural image of an easy and delightful existence. The image gradually developed into a fixed expression for any comfortable or trouble-free situation.",
+          "zh": "由於玫瑰令人聯想到美麗、芳香、浪漫和奢華，鋪滿玫瑰的睡床自然成為輕鬆愉快生活的象徵。 這個畫面逐漸演變成固定表達，用來形容任何舒適而沒有太多煩惱的處境。"
+        }
+      ],
+      "memoryEn": "A soft bed covered in beautiful roses represents comfort without struggle.",
+      "memoryZh": "鋪滿美麗玫瑰的柔軟睡床，象徵沒有艱苦的舒適生活。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Article “A”",
+        "titleZh": "冠詞 a 通常是目標表達的一部分",
+        "en": "The article a is normally part of the target expression.",
+        "zh": "冠詞 a 通常是目標表達的一部分。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep “Bed” Singular",
+        "titleZh": "規則二",
+        "en": "Keep “Bed” Singular",
+        "zh": "規則二",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use the Figurative Meaning",
+        "titleZh": "花園內有一大片種植玫瑰的花圃",
+        "en": "The garden contains a large bed of roses. The exercise uses only the idiomatic meaning.",
+        "zh": "花園內有一大片種植玫瑰的花圃。 她的新生活看來十分舒適寫意。 本練習只使用比喻意思。",
+        "examples": [
+          {
+            "en": "Her new life seemed like a bed of roses.",
+            "zh": "她的新生活看來十分舒適寫意。",
+            "highlight": "a bed of roses"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "Do Not Use It for One Small Easy Task",
+        "titleZh": "規則四",
+        "en": "The expression usually describes a situation, period of life, job, relationship, process or general experience. For one easy task, say:",
+        "zh": "這個表達通常描述一個處境、一段生活、工作、關係、過程或整體經歷。 項目的第一年並不順利。 打開這個瓶子是一段輕鬆愉快的生活。 對於一項簡單工作，可以說：",
+        "examples": [
+          {
+            "en": "The first year of the project was not a bed of roses.",
+            "zh": "項目的第一年並不順利。",
+            "highlight": "a bed of roses"
+          },
+          {
+            "en": "Opening this bottle was a bed of roses.",
+            "zh": "打開這個瓶子是一段輕鬆愉快的生活。",
+            "highlight": "a bed of roses"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Degree and Certainty",
+        "titleZh": "規則五",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把可能發生的情況變成已經發生的事實。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Overstate a Minor Difficulty",
+        "titleZh": "規則六",
+        "en": "A bed of roses normally describes general ease and comfort. A single small problem may not justify a negative idiomatic judgement of the entire experience. The source does not establish enough difficulty.",
+        "zh": "A bed of roses 通常描述整體上的輕鬆和舒適。 單一的小問題未必足以把整段經歷形容為困難。 原句沒有交代足夠困難。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“No Bed of Roses” Is a Related Variant",
+        "titleZh": "自然英語也有以下形式：",
+        "en": "Natural English also includes: However, this exercise trains the exact target: The questions therefore use forms such as:",
+        "zh": "不過，本練習只訓練以下確切形式： 因此，題目會使用以下形式：",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Positive Use Is Possible",
+        "titleZh": "規則八",
+        "en": "The expression is often negative, but positive use is also correct when a situation genuinely is easy, pleasant and comfortable. Do not force every answer into a negative form.",
+        "zh": "這個表達經常用於否定句，但如果一個處境確實輕鬆、愉快和舒適，肯定用法也是正確的。 清還債務後，一家人的生活變得舒適順利。 不要把所有答案都勉強寫成否定形式。",
+        "examples": [
+          {
+            "en": "After the debts were paid, life became a bed of roses for the family.",
+            "zh": "清還債務後，一家人的生活變得舒適順利。",
+            "highlight": "a bed of roses"
+          }
+        ]
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a bed of roses.",
+      "zh": "使用 a bed of roses 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-114-q01",
+        "number": 1,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "His family does nearly all the difficult work on the farm, so his daily life there is easy and comfortable.",
+        "promptZh": "他的家人負責農場上幾乎所有艱苦工作，因此他在那裏的日常生活輕鬆舒適。",
+        "starter": "Life",
+        "answer": "Life on the farm is a bed of roses for him because his family handles most of the hard work.",
+        "answerZh": "他的家人負責大部分艱苦工作，因此他在農場的生活輕鬆舒適。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q02",
+        "number": 2,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "During her first month at the new job, she had short working hours, friendly colleagues and almost no pressure.",
+        "promptZh": "在新工作的第一個月，她工時短、同事友善，而且幾乎沒有壓力。",
+        "starter": "The",
+        "answer": "The first month at her new job was a bed of roses.",
+        "answerZh": "她在新工作的第一個月過得輕鬆愉快。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q03",
+        "number": 3,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Looking after three young children involves sleepless nights, constant cleaning and very little rest.",
+        "promptZh": "照顧三名年幼孩子需要面對失眠的晚上、不停清潔和很少休息。",
+        "starter": "Caring",
+        "answer": "Caring for three young children is not a bed of roses.",
+        "answerZh": "照顧三名年幼孩子並不是一件輕鬆的事情。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q04",
+        "number": 4,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Her family had little money during her childhood, and they had to move home many times.",
+        "promptZh": "她童年時家境貧困，而且一家人需要多次搬家。",
+        "starter": "Her",
+        "answer": "Her childhood was not a bed of roses because her family moved often and had little money.",
+        "answerZh": "她的童年並不安逸，因為一家人經常搬家，而且家境貧困。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q05",
+        "number": 5,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "They expected retirement to be relaxing, but the first few months brought health problems and loneliness.",
+        "promptZh": "他們以為退休生活會十分悠閒，但最初幾個月卻帶來健康問題和孤獨感。",
+        "starter": "Retirement",
+        "answer": "Retirement was not a bed of roses for them at first.",
+        "answerZh": "最初，他們的退休生活並不輕鬆愉快。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q06",
+        "number": 6,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Owning a small café means beginning work early, dealing with complaints and checking the money every evening.",
+        "promptZh": "經營一間小型咖啡店，意味著要早早開始工作、處理投訴，並在每天晚上核對帳目。",
+        "starter": "Running",
+        "answer": "Running a small café is not a bed of roses.",
+        "answerZh": "經營一間小型咖啡店並不輕鬆。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q07",
+        "number": 7,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The first lessons were easy, but the course became difficult when the major assignments began.",
+        "promptZh": "最初幾課十分容易，但開始進行大型習作後，課程便變得困難。",
+        "starter": "The",
+        "answer": "The course was not a bed of roses once the difficult work began.",
+        "answerZh": "困難的工作開始後，這個課程便不再輕鬆。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q08",
+        "number": 8,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Kay had difficulty finding a flat, making friends and getting used to her new city.",
+        "promptZh": "Kay 很難找到住所、結交朋友及適應新城市。",
+        "starter": "Moving",
+        "answer": "Moving to a new city was not a bed of roses for Kay.",
+        "answerZh": "對 Kay 來說，搬到新城市生活並不順利。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q09",
+        "number": 9,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Caring for a sick parent can involve worry, hospital visits and very little sleep.",
+        "promptZh": "照顧患病的父母可能涉及憂慮、到醫院探望和很少睡眠。",
+        "starter": "Looking",
+        "answer": "Looking after an ill parent is not a bed of roses.",
+        "answerZh": "照顧患病的父母並不是一件輕鬆的事情。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q10",
+        "number": 10,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "People who work throughout the night often feel tired and miss time with their families.",
+        "promptZh": "通宵工作的人經常感到疲倦，也會錯過與家人相處的時間。",
+        "starter": "Working",
+        "answer": "Working night shifts is hardly a bed of roses.",
+        "answerZh": "上夜班絕不是輕鬆舒適的生活。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q11",
+        "number": 11,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Her online photographs show holidays and expensive meals, but they do not show her debts or family problems.",
+        "promptZh": "她的網上照片展示假期和昂貴的膳食，卻沒有展示她的債務或家庭問題。",
+        "starter": "Her",
+        "answer": "Her life may look like a bed of roses online, but she still faces many problems.",
+        "answerZh": "她的生活在網上看來十分稱心如意，但她仍面對許多問題。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q12",
+        "number": 12,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Once the business has paid all its debts and gained regular customers, running it could become easy and comfortable.",
+        "promptZh": "這盤生意清還所有債務並有穩定顧客後，經營工作可能會變得輕鬆舒適。",
+        "starter": "The",
+        "answer": "The business could become a bed of roses once its debts are paid.",
+        "answerZh": "清還債務後，經營這盤生意可能會變得輕鬆得多。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q13",
+        "number": 13,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The school trip could become difficult if heavy rain causes delays and outdoor activities are cancelled.",
+        "promptZh": "如果大雨造成延誤及戶外活動取消，學校旅行可能會變得困難。",
+        "starter": "The",
+        "answer": "The school trip may not be a bed of roses if the weather turns bad.",
+        "answerZh": "如果天氣轉壞，學校旅行可能不會十分順利。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q14",
+        "number": 14,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "University includes deadlines, difficult classes, cooking and managing your own money. Do not assume that it will always be easy.",
+        "promptZh": "大學生活包括限期、困難的課堂、煮食和自行管理金錢。不要以為一切都會很輕鬆。",
+        "starter": "You",
+        "answer": "You should not expect university life to be a bed of roses.",
+        "answerZh": "你不應以為大學生活會事事稱心如意。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q15",
+        "number": 15,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Nobody told us that our first year in another country would be easy and free from difficulties.",
+        "promptZh": "沒有人告訴我們，在另一個國家生活的第一年會輕鬆而沒有困難。",
+        "starter": "No",
+        "answer": "No one promised that the first year abroad would be a bed of roses.",
+        "answerZh": "沒有人承諾海外生活的第一年會輕鬆順利。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q16",
+        "number": 16,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Daniel thought that working from home would be completely relaxing, but he now attends online meetings throughout the day.",
+        "promptZh": "Daniel 以為在家工作會十分輕鬆，但他現在整天都要參加網上會議。",
+        "starter": "Daniel",
+        "answer": "Daniel imagined that working from home would be a bed of roses.",
+        "answerZh": "Daniel 以為在家工作會十分輕鬆愉快。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q17",
+        "number": 17,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The course information mentioned only easy lessons, friendly teachers and enjoyable activities.",
+        "promptZh": "課程資料只提到容易的課堂、友善的老師和愉快的活動。",
+        "starter": "The",
+        "answer": "The brochure made the course sound like a bed of roses.",
+        "answerZh": "課程小冊子把這個課程形容得輕鬆又理想。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q18",
+        "number": 18,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Her new position offered high pay and a private office, so people outside the company thought it was easy and comfortable.",
+        "promptZh": "她的新職位提供高薪和私人辦公室，因此公司以外的人以為這份工作輕鬆舒適。",
+        "starter": "From",
+        "answer": "From the outside, her new role seemed like a bed of roses.",
+        "answerZh": "從外人的角度看，她的新職位似乎十分輕鬆理想。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q19",
+        "number": 19,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The manager said the transfer would bring shorter hours, easier work and no serious problems.",
+        "promptZh": "經理表示調職後工時會更短、工作會更容易，而且不會有嚴重問題。",
+        "starter": "The",
+        "answer": "The manager presented the transfer as a bed of roses.",
+        "answerZh": "經理把這次調職描繪得十分輕鬆理想。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q20",
+        "number": 20,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The family can make the move much easier by arranging the new home, school and jobs before leaving.",
+        "promptZh": "這個家庭可以在離開前安排新居、學校和工作，令搬遷過程容易得多。",
+        "starter": "Good",
+        "answer": "Good planning can make the move a bed of roses for the whole family.",
+        "answerZh": "周詳的計劃可以令整個家庭的搬遷過程變得輕鬆順利。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q21",
+        "number": 21,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: You said this job would be relaxing. B: I know, but I now work twelve hours on some days.",
+        "promptZh": "甲：你曾說這份工作會很輕鬆。 乙：我知道，但有些日子我現在要工作十二小時。",
+        "starter": "I",
+        "answer": "I thought this job would be a bed of roses, but the hours are exhausting.",
+        "answerZh": "我曾以為這份工作會十分輕鬆，但工時令人筋疲力盡。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q22",
+        "number": 22,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Professional athletes follow strict diets, train for many hours and sometimes continue despite injuries.",
+        "promptZh": "職業運動員需要遵守嚴格飲食、訓練多個小時，有時甚至帶傷繼續。",
+        "starter": "Anyone",
+        "answer": "Anyone who thinks professional sport is a bed of roses should watch the athletes train.",
+        "answerZh": "任何以為職業運動生涯十分輕鬆的人，都應看看運動員如何訓練。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q23",
+        "number": 23,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "During the first few months of their marriage, they faced money problems, a sick baby and frequent disagreements.",
+        "promptZh": "婚後最初幾個月，他們面對金錢問題、患病的嬰兒和頻繁的爭執。",
+        "starter": "The",
+        "answer": "The first few months of their marriage were anything but a bed of roses.",
+        "answerZh": "他們婚後最初幾個月一點也不輕鬆順利。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q24",
+        "number": 24,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Rebuilding the house brought our family delays, unexpected costs and months of noise.",
+        "promptZh": "重建房屋令我們一家面對延誤、意外開支和數月的噪音。",
+        "starter": "For",
+        "answer": "For our family, rebuilding the house was far from a bed of roses.",
+        "answerZh": "對我們一家來說，重建房屋遠非一件輕鬆的事情。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q25",
+        "number": 25,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Our bags disappeared, the hotel was closed and it rained throughout the holiday.",
+        "promptZh": "我們的行李不見了、酒店關門，而且整個假期都在下雨。",
+        "starter": "The",
+        "answer": "The holiday was not exactly a bed of roses after our bags went missing.",
+        "answerZh": "我們的行李不見後，這個假期並不算輕鬆愉快。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q26",
+        "number": 26,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The old house looked beautiful and easy to care for, but we later discovered serious repair problems and large bills.",
+        "promptZh": "這間舊屋看來美麗又容易打理，但我們後來發現嚴重的維修問題和高昂帳單。",
+        "starter": "What",
+        "answer": "What looked like a bed of roses became stressful when the bills arrived.",
+        "answerZh": "原本看似輕鬆理想的生活，在帳單寄來後變得充滿壓力。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q27",
+        "number": 27,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "She always warned the members that running the club would require time, patience and difficult decisions.",
+        "promptZh": "她一直提醒會員，管理社團需要時間、耐性和艱難決定。",
+        "starter": "She",
+        "answer": "She never said that running the club would be a bed of roses.",
+        "answerZh": "她從來沒有說過管理社團會輕鬆順利。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q28",
+        "number": 28,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Students lose sleep, face several deadlines and feel great pressure during the examination period.",
+        "promptZh": "學生在考試期間會睡眠不足、面對多個限期和承受巨大壓力。",
+        "starter": "Calling",
+        "answer": "Calling the examination period a bed of roses would be dishonest.",
+        "answerZh": "把考試期間形容得輕鬆愉快並不誠實。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q29",
+        "number": 29,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The company said the new system would make everyone’s work easier, but staff soon received several extra duties.",
+        "promptZh": "公司表示新系統會令所有人的工作更容易，但員工很快便收到多項額外職務。",
+        "starter": "The",
+        "answer": "The company described the change as a bed of roses, but staff soon faced extra work.",
+        "answerZh": "公司把這項改變形容得十分理想，但員工很快便要面對額外工作。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q30",
+        "number": 30,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The advertisement promised a relaxed job with good pay, but the workers received long hours and low wages.",
+        "promptZh": "廣告承諾工作輕鬆而且薪金優厚，但員工得到的卻是長工時和低工資。",
+        "starter": "A",
+        "answer": "A bed of roses was what the advertisement promised, not what the workers received.",
+        "answerZh": "廣告承諾的是輕鬆理想的工作，但員工實際得到的並非如此。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "A bed of roses"
+      },
+      {
+        "id": "idiom-114-q31",
+        "number": 31,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The salary is good, but the job includes weekend work, angry customers and constant pressure.",
+        "promptZh": "薪金雖然優厚，但這份工作包括週末上班、應付憤怒的顧客和持續的壓力。",
+        "starter": "Although",
+        "answer": "Although the pay is good, the job is not a bed of roses.",
+        "answerZh": "雖然薪金優厚，但這份工作並不輕鬆。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q32",
+        "number": 32,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The roads were closed, our train was cancelled and we had to wait outside in the cold.",
+        "promptZh": "道路封閉、火車取消，而且我們需要在寒冷的戶外等候。",
+        "starter": "Because",
+        "answer": "Because the roads were closed, the journey was anything but a bed of roses.",
+        "answerZh": "由於道路封閉，這段旅程一點也不順利。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q33",
+        "number": 33,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The project appeared easy during the first week, but several serious problems soon developed.",
+        "promptZh": "項目在第一星期看來十分容易，但多項嚴重問題很快便出現。",
+        "starter": "At",
+        "answer": "At first, the project seemed like a bed of roses, but several problems soon appeared.",
+        "answerZh": "最初，這個項目看來十分輕鬆，但多項問題很快便出現。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q34",
+        "number": 34,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The introduction to the course was easy, but the later group projects and weekly tests were demanding.",
+        "promptZh": "課程介紹部分十分容易，但後來的小組項目和每週測驗要求很高。",
+        "starter": "Once",
+        "answer": "Once the easy part ended, the course no longer seemed like a bed of roses.",
+        "answerZh": "容易的部分結束後，這個課程便不再看似輕鬆。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q35",
+        "number": 35,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A single parent may face sleepless nights, money worries, school problems and little personal time.",
+        "promptZh": "單親家長可能面對失眠的晚上、金錢憂慮、學校問題和很少私人時間。",
+        "starter": "To",
+        "answer": "To describe single parenting as a bed of roses would ignore the sleepless nights and daily pressure.",
+        "answerZh": "把單親生活形容得輕鬆舒適，便會忽略失眠的晚上和日常壓力。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q36",
+        "number": 36,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The guide explained that mountain life was beautiful but also involved cold winters and long journeys to the nearest town.",
+        "promptZh": "導遊解釋，山區生活雖然美好，但也要面對寒冷的冬天和前往最近城鎮的漫長路程。",
+        "starter": "The",
+        "answer": "The guide did not pretend that life in the mountains was a bed of roses.",
+        "answerZh": "導遊沒有假裝山區生活會輕鬆而沒有困難。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q37",
+        "number": 37,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "She thought fame would bring only money, parties and praise. Instead, she lost much of her privacy.",
+        "promptZh": "她以為成名只會帶來金錢、派對和讚美。相反，她失去了大部分私人空間。",
+        "starter": "She",
+        "answer": "She expected fame to be a bed of roses; instead, she lost much of her privacy.",
+        "answerZh": "她以為成名會帶來舒適愉快的生活；相反，她失去了大部分私人空間。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q38",
+        "number": 38,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "He was rich, but he still faced poor health, loneliness and serious family problems.",
+        "promptZh": "他雖然富有，但仍面對健康欠佳、孤獨和嚴重家庭問題。",
+        "starter": "Money",
+        "answer": "Money alone did not make his life a bed of roses.",
+        "answerZh": "單靠金錢並沒有令他的生活變得事事稱心。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q39",
+        "number": 39,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Even with extra helpers, preparing the festival will involve long hours, difficult weather decisions and large crowds.",
+        "promptZh": "即使有額外助手，籌備節日活動仍涉及長工時、困難的天氣決定和大量人群。",
+        "starter": "Organising",
+        "answer": "Organising the festival will not be a bed of roses, even with extra helpers.",
+        "answerZh": "即使有額外助手，籌辦節日活動仍不會輕鬆。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q40",
+        "number": 40,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The website described the position as flexible and relaxing, but employees later discovered long hours and low pay.",
+        "promptZh": "網站把這個職位形容得有彈性而且輕鬆，但員工後來發現工時很長，而且工資很低。",
+        "starter": "What",
+        "answer": "What the website presented as a bed of roses turned out to involve long hours and low pay.",
+        "answerZh": "網站所描繪的輕鬆理想工作，結果卻涉及長工時和低工資。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q41",
+        "number": 41,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Someone who assumes that opening a shop will be simple may be shocked by the first month of poor sales and high bills.",
+        "promptZh": "以為開店十分容易的人，可能會被首月的低銷量和高昂帳單嚇倒。",
+        "starter": "If",
+        "answer": "If you assume that opening a shop will be a bed of roses, the first bad month may shock you.",
+        "answerZh": "如果你以為開店會一帆風順，第一個生意欠佳的月份可能會令你震驚。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q42",
+        "number": 42,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: Is nursing an easy job? B: No. It can be tiring and emotionally difficult, although it is also meaningful.",
+        "promptZh": "甲：護理是一份輕鬆的工作嗎？ 乙：不是。這份工作可能令人疲倦，在情緒上也很困難，儘管它同時很有意義。",
+        "starter": "No",
+        "answer": "No, nursing is not a bed of roses, but the work can be deeply meaningful.",
+        "answerZh": "不，護理工作並不輕鬆，但這份工作可以十分有意義。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q43",
+        "number": 43,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The new app may make trip planning easy by choosing routes, comparing hotels and keeping all bookings in one place.",
+        "promptZh": "新的應用程式可以選擇路線、比較酒店及集中保存所有預訂資料，可能令行程規劃變得輕鬆。",
+        "starter": "The",
+        "answer": "The new app may make planning the trip a bed of roses for less experienced travellers.",
+        "answerZh": "新的應用程式可能令經驗較少的旅客可以輕鬆規劃行程。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q44",
+        "number": 44,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "After years of debt and uncertainty, the family finally had a safe home, steady income and enough time to rest.",
+        "promptZh": "經過多年債務和不安後，這個家庭終於擁有安全的住所、穩定收入和足夠時間休息。",
+        "starter": "After",
+        "answer": "After years of hard work, life finally became a bed of roses for the family.",
+        "answerZh": "經過多年努力後，這個家庭終於過上舒適順利的生活。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q45",
+        "number": 45,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The speaker talked only about beaches, free time and friendly people when describing life abroad, although she had personally faced many difficulties.",
+        "promptZh": "講者形容海外生活時只提到海灘、空閒時間和友善的人，儘管她自己曾面對許多困難。",
+        "starter": "The",
+        "answer": "The speaker portrayed life abroad as a bed of roses, although she had faced many difficulties herself.",
+        "answerZh": "講者把海外生活描繪得十分舒適寫意，儘管她自己曾面對許多困難。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q46",
+        "number": 46,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "My new position still involves complaints and difficult decisions, although it gives me greater control over my time.",
+        "promptZh": "我的新職位仍涉及投訴和困難決定，儘管它令我可以更自由地控制自己的時間。",
+        "starter": "Not",
+        "answer": "Not that the new position is a bed of roses, but it gives me more control over my time.",
+        "answerZh": "新職位並非毫無困難，但它令我可以更自由地控制自己的時間。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q47",
+        "number": 47,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "During the project’s first year, delays, disagreements and money problems tested everyone’s patience.",
+        "promptZh": "在項目的第一年，延誤、意見分歧和金錢問題考驗了所有人的耐性。",
+        "starter": "Far",
+        "answer": "Far from being a bed of roses, the first year of the project tested everyone’s patience.",
+        "answerZh": "項目的第一年遠非一帆風順，並考驗了所有人的耐性。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q48",
+        "number": 48,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "She believed that caring for rescued animals would be pleasant and peaceful, but it required early mornings, constant cleaning and great courage.",
+        "promptZh": "她以為照顧獲救動物會愉快而平靜，但這份工作需要早起、不停清潔和很大勇氣。",
+        "starter": "What",
+        "answer": "What she had expected to be a bed of roses required more courage than she had imagined.",
+        "answerZh": "她原以為會輕鬆愉快的工作，實際上需要比她想像中更多的勇氣。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q49",
+        "number": 49,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The job advertisement promised high pay, short hours and simple duties. Many people applied, but the real work was much harder.",
+        "promptZh": "招聘廣告承諾高薪、短工時和簡單職務。許多人作出申請，但實際工作困難得多。",
+        "starter": "The",
+        "answer": "The promise of a bed of roses attracted many applicants, but the job was much harder than advertised.",
+        "answerZh": "輕鬆理想工作的承諾吸引了許多申請人，但實際工作比廣告所說困難得多。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      },
+      {
+        "id": "idiom-114-q50",
+        "number": 50,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "At the beginning, the film shows city life as parties, new friends and exciting opportunities. Later scenes reveal high rent, loneliness and exhausting work.",
+        "promptZh": "電影開首把城市生活展示成派對、新朋友和刺激的機會。後來的場景卻揭示高昂租金、孤獨和令人疲倦的工作。",
+        "starter": "The",
+        "answer": "The film begins with city life looking like a bed of roses, but every later scene reveals another difficulty.",
+        "answerZh": "電影開首把城市生活描繪得輕鬆美好，但其後每個場景都揭示另一項困難。",
+        "targetForm": "a bed of roses",
+        "targetMeaning": "A situation or way of life that is easy, pleasant, comfortable and largely free from problems.",
+        "highlight": "a bed of roses"
+      }
+    ]
+  }
+}

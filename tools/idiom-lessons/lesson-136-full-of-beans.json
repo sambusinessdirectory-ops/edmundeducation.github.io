@@ -1,0 +1,1665 @@
+{
+  "lesson": {
+    "id": "idiom-136",
+    "order": 136,
+    "slug": "full-of-beans",
+    "version": "1",
+    "title": "精力充沛／活力十足",
+    "titleEn": "full of beans",
+    "titleZh": "精力充沛／活力十足",
+    "source": {
+      "file": "Idiom 136 - “Full of Beans”.pdf",
+      "pageCount": 37,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "exercisePdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "answerKeyPdfPages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "full of beans",
+        "highlight": "full of beans"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The children are full of beans.",
+        "zh": "孩子們活力十足。",
+        "highlight": "full of beans"
+      },
+      {
+        "en": "Jack was full of beans this morning.",
+        "zh": "今早精神奕奕。",
+        "highlight": "full of beans"
+      }
+    ],
+    "meaning": {
+      "en": "To be very lively, energetic and enthusiastic.",
+      "zh": "形容一個人或動物精力充沛、活力十足、精神奕奕，通常還帶有興奮、開朗或熱情的感覺。",
+      "naturalZh": [
+        "形容一個人或動物精力充沛、活力十足、精神奕奕，通常還帶有興奮、開朗或熱情的感覺。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "It normally sounds cheerful, friendly or mildly humorous. It is not rude.",
+      "summaryZh": "full of beans 屬於非正式表達，特別適合用於：",
+      "contextsEn": [
+        "everyday conversation",
+        "friendly messages",
+        "family situations",
+        "school and workplace conversation",
+        "informal descriptions and stories",
+        "light-hearted comments about children or animals",
+        "energetic",
+        "active",
+        "enthusiastic",
+        "in good health",
+        "showing increased energy"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "朋友之間的訊息",
+        "家庭情境",
+        "學校及工作場合的輕鬆對話",
+        "非正式描述及故事",
+        "對孩子或動物作出的輕鬆評論。"
+      ],
+      "formalEn": "everyday conversation; friendly messages; family situations; school and workplace conversation; informal descriptions and stories; light-hearted comments about children or animals.",
+      "formalZh": "在正式醫療報告、學術文章或官方文件中，直接使用 energetic、active、enthusiastic 或 showing increased energy 通常更合適。"
+    },
+    "fixedVariable": {
+      "fixed": "full of beans",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + full of beans.",
+          "example": "The children are full of beans.",
+          "highlight": "full of beans"
+        },
+        {
+          "form": "Subject + modal + be + full of beans.",
+          "example": "The players may be full of beans again tomorrow.",
+          "highlight": "full of beans"
+        },
+        {
+          "form": "Subject + look / seem / sound / feel + full of beans.",
+          "example": "You look full of beans today.",
+          "highlight": "full of beans"
+        },
+        {
+          "form": "Subject + remain / stay + full of beans.",
+          "example": "The puppy remained full of beans after an hour in the park.",
+          "highlight": "full of beans"
+        },
+        {
+          "form": "Subject + come / arrive / return + full of beans.",
+          "example": "Nora came into the office full of beans.",
+          "highlight": "full of beans"
+        },
+        {
+          "form": "Subject + see / find + person + full of beans.",
+          "example": "It was wonderful to see Leo full of beans again.",
+          "highlight": "full of beans"
+        },
+        {
+          "form": "Full of beans, + subject + verb.",
+          "example": "Full of beans after the break, the pupils ran back into class.",
+          "highlight": "Full of beans"
+        },
+        {
+          "form": "full of beans",
+          "example": "The child was so full of beans that he could hardly sit still.",
+          "highlight": "full of beans"
+        },
+        {
+          "form": "full of beans",
+          "example": "How are you so full of beans before breakfast?",
+          "highlight": "full of beans"
+        },
+        {
+          "form": "Subject + be + not + full of beans.",
+          "example": "He is not full of beans today.",
+          "highlight": "full of beans"
+        },
+        {
+          "form": "With + person + full of beans, + main clause.",
+          "example": "With everyone full of beans after the break, the group finished the game quickly.",
+          "highlight": "full of beans"
+        },
+        {
+          "form": "Subject + be + adjective + and + full of beans.",
+          "example": "We were young and full of beans.",
+          "highlight": "full of beans"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “Be”",
+        "titleZh": "用於 be 之後",
+        "formula": "Subject + be + full of beans.",
+        "descriptionEn": "am; is; are; was; were; has been; have been; will be",
+        "descriptionZh": "只有 be 會因應主語及時間而改變； full of beans 保持不變。",
+        "examples": [
+          {
+            "en": "The children are full of beans.",
+            "zh": "孩子們活力十足。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "Jack was full of beans this morning.",
+            "zh": "今早精神奕奕。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "The baby has been full of beans all day.",
+            "zh": "嬰兒整天都精力充沛。",
+            "highlight": "full of beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "用於情態動詞之後",
+        "formula": "Subject + modal + be + full of beans.",
+        "descriptionEn": "The modal verb must preserve the original degree of certainty.",
+        "descriptionZh": "情態動詞必須保留原句的確定程度。",
+        "examples": [
+          {
+            "en": "The players may be full of beans again tomorrow.",
+            "zh": "球員明天可能會再次精神飽滿。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "You will be full of beans after a good rest.",
+            "zh": "你好好休息後便會精力充沛。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "The children could still be full of beans at bedtime.",
+            "zh": "孩子們到了睡覺時間仍可能十分活躍。",
+            "highlight": "full of beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “Look”, “Seem”, “Sound” or “Feel”",
+        "titleZh": "用於 look、seem、sound 或 feel 之後",
+        "formula": "Subject + look / seem / sound / feel + full of beans.",
+        "descriptionEn": "I feel full of beans after a good night’s sleep.",
+        "descriptionZh": "睡了一晚好覺後，我感到精力充沛。",
+        "examples": [
+          {
+            "en": "You look full of beans today.",
+            "zh": "你今天看來精神奕奕。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "She sounds full of beans on the phone.",
+            "zh": "她在電話裏聽來活力十足。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "Ben seems full of beans after his holiday.",
+            "zh": "度假後看來精神飽滿。",
+            "highlight": "full of beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Remain” or “Stay”",
+        "titleZh": "用於 remain 或 stay 之後",
+        "formula": "Subject + remain / stay + full of beans.",
+        "descriptionEn": "These verbs emphasise that the energetic condition continues.",
+        "descriptionZh": "這些動詞強調精力充沛的狀態持續不變。",
+        "examples": [
+          {
+            "en": "The puppy remained full of beans after an hour in the park.",
+            "zh": "小狗在公園玩了一小時後，仍然活力十足。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "The children stayed full of beans throughout the party.",
+            "zh": "孩子們在整個派對期間都精力充沛。",
+            "highlight": "full of beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After a Movement Verb",
+        "titleZh": "用於移動動詞之後",
+        "formula": "Subject + come / arrive / return + full of beans.",
+        "descriptionEn": "Here, full of beans describes the subject’s condition while they perform the movement.",
+        "descriptionZh": "在這個句式中，full of beans 描述主語進行移動時的狀態。",
+        "examples": [
+          {
+            "en": "Nora came into the office full of beans.",
+            "zh": "精神奕奕地走進辦公室。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "The dancers returned full of beans.",
+            "zh": "舞蹈員精神飽滿地回來。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "The visitors arrived full of beans.",
+            "zh": "訪客抵達時仍然精神奕奕。",
+            "highlight": "full of beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "After “See” or “Find”",
+        "titleZh": "用於 see 或 find 之後",
+        "formula": "Subject + see / find + person + full of beans.",
+        "descriptionEn": "The person after see or find is the person whose energetic condition is being described.",
+        "descriptionZh": "或 find 後面的人，就是被形容為精力充沛的人。",
+        "examples": [
+          {
+            "en": "It was wonderful to see Leo full of beans again.",
+            "zh": "看到 Leo 再次精神奕奕，實在令人高興。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "We found Owen full of beans and ready to help.",
+            "zh": "我們發現 Owen 精神飽滿，並已準備好幫忙。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "The nurse was pleased to find the patient full of beans again.",
+            "zh": "護士很高興看到病人再次精神奕奕。",
+            "highlight": "full of beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "At the Beginning of a Sentence",
+        "titleZh": "置於句首",
+        "formula": "Full of beans, + subject + verb.",
+        "descriptionEn": "Use a comma after the opening phrase.",
+        "descriptionZh": "句首短語後應使用逗號。",
+        "examples": [
+          {
+            "en": "Full of beans after the break, the pupils ran back into class.",
+            "zh": "學生休息後精神充沛，跑回課室。",
+            "highlight": "Full of beans"
+          },
+          {
+            "en": "Full of beans and ready to begin, the volunteers entered the hall.",
+            "zh": "義工精神飽滿，準備好開始工作，走進禮堂。",
+            "highlight": "Full of beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "With Degree and Comparison",
+        "titleZh": "配合程度及比較表達",
+        "formula": "full of beans",
+        "descriptionEn": "I have not seen you this full of beans for months.",
+        "descriptionZh": "我已經幾個月沒有見過你這麼精神奕奕了。",
+        "examples": [
+          {
+            "en": "The child was so full of beans that he could hardly sit still.",
+            "zh": "這個孩子精力旺盛得幾乎坐不定。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "Henry is as full of beans as ever.",
+            "zh": "仍像以往一樣精神奕奕。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "The baby was still full of beans at bedtime.",
+            "zh": "到了睡覺時間，嬰兒仍然精力充沛。",
+            "highlight": "full of beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "In Questions and Exclamations",
+        "titleZh": "用於問句及感嘆句",
+        "formula": "full of beans",
+        "descriptionEn": "These forms are useful when expressing surprise, amusement or admiration.",
+        "descriptionZh": "這些句式適合用來表達驚訝、覺得有趣或欣賞。",
+        "examples": [
+          {
+            "en": "How are you so full of beans before breakfast?",
+            "zh": "你怎會還未吃早餐便這麼精神奕奕？",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "How can the children still be full of beans?",
+            "zh": "孩子們怎麼仍然有這麼多精力？",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "You’re certainly full of beans this morning!",
+            "zh": "你今早真的精神奕奕！",
+            "highlight": "full of beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "In Negative and Limited Statements",
+        "titleZh": "用於否定及有限程度的陳述",
+        "formula": "Subject + be + not + full of beans.",
+        "descriptionEn": "Negative forms express the absence or limited presence of the energetic state. They should appear only after students understand the positive meaning.",
+        "descriptionZh": "否定形式表示某人缺乏或尚未完全恢復充沛精力。 學生應先掌握肯定意思，才練習否定形式。",
+        "examples": [
+          {
+            "en": "He is not full of beans today.",
+            "zh": "他今天沒有甚麼精神。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "The children are not exactly full of beans after staying up late.",
+            "zh": "孩子們熬夜後，今天不算精神奕奕。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "She may not be full of beans yet, but she is improving.",
+            "zh": "她可能尚未恢復充沛精力，但情況正在改善。",
+            "highlight": "full of beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "In a “With” Clause",
+        "titleZh": "用於 with 結構",
+        "formula": "With + person + full of beans, + main clause.",
+        "descriptionEn": "This pattern describes the condition surrounding the main event.",
+        "descriptionZh": "這個句式說明主要事情發生時的整體狀態。",
+        "examples": [
+          {
+            "en": "With everyone full of beans after the break, the group finished the game quickly.",
+            "zh": "所有人休息後都精力充沛，因此小組很快便完成了遊戲。",
+            "highlight": "full of beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Coordinated with Another Adjective",
+        "titleZh": "與另一個形容詞並列",
+        "formula": "Subject + be + adjective + and + full of beans.",
+        "descriptionEn": "The second adjective should add separate information rather than repeat energetic.",
+        "descriptionZh": "另一個形容詞應提供額外意思，不應只是重複 energetic 的意思。",
+        "examples": [
+          {
+            "en": "We were young and full of beans.",
+            "zh": "我們當時年輕而且充滿活力。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "The players were rested and full of beans.",
+            "zh": "球員休息充足，精神飽滿。",
+            "highlight": "full of beans"
+          },
+          {
+            "en": "The children are full of beans.",
+            "zh": "孩子們活力十足。",
+            "highlight": "full of beans"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Describes More Than Physical Energy",
+        "titleZh": "不只形容身體精力",
+        "en": "energy; enthusiasm; cheerfulness; eagerness to act.;",
+        "zh": "往往同時包含： 精力；",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Creates a Friendly and Lively Tone",
+        "titleZh": "營造親切而生動的語氣",
+        "en": "It Creates a Friendly and Lively Tone",
+        "zh": "你今早真的精神奕奕！",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Expresses Pleasant Surprise",
+        "titleZh": "表達正面的驚訝",
+        "en": "It Expresses Pleasant Surprise",
+        "zh": "過了這麼忙碌的一天，孩子們怎麼仍然精力充沛？",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful When Describing Recovery",
+        "titleZh": "適合形容恢復精神",
+        "en": "It Is Useful When Describing Recovery",
+        "zh": "看到他再次精神奕奕，實在令人高興。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Supports Several Natural Grammar Shells",
+        "titleZh": "能夠配合多種自然句法",
+        "en": "It Supports Several Natural Grammar Shells",
+        "zh": "能夠配合多種自然句法",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Helps Students Understand Authentic Informal",
+        "titleZh": "有助理解真實的非正式英語",
+        "en": "It Helps Students Understand Authentic Informal",
+        "zh": "有助理解真實的非正式英語",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Uncertain",
+      "statusZh": "確切來源不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, the established British informal meaning is to be energetic, lively and enthusiastic.",
+          "zh": "今天，它在英式非正式英語中的既定意思是精力充沛、活力十足和興致勃勃。"
+        }
+      ],
+      "memoryEn": "Think of a lively horse after a good meal: it has plenty of energy and is ready to move.",
+      "memoryZh": "想像一匹吃飽後充滿活力、隨時準備奔跑的馬，便能記住這個表達形容精神飽滿。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Preserve the Exact Fixed Words",
+        "titleZh": "規則一：保留完整固定字詞",
+        "en": "Correct target: full of beans. Incorrect target forms: full with beans ✗; full of bean ✗; full beans ✗; fully of beans ✗.",
+        "zh": "保留完整固定字詞",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use “Beans” in the Plural",
+        "titleZh": "規則二：beans 必須使用複數",
+        "en": "Use “Beans” in the Plural",
+        "zh": "beans 必須使用複數",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Translate It Literally",
+        "titleZh": "規則三：不要按字面翻譯",
+        "en": "Incorrect idiomatic translation: Natural translations:",
+        "zh": "錯誤的字面理解：「她裝滿了豆子。」正確的慣用意思：「她精力充沛、活力十足、精神奕奕或生龍活虎。」",
+        "examples": [
+          {
+            "en": "The jar is full of beans.",
+            "zh": "瓶子裏裝滿了豆子。",
+            "highlight": "full of beans"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "The Subject Is Normally a Person, Group or Lively",
+        "titleZh": "規則四：主語通常是人、群體或活潑動物",
+        "en": "Animal",
+        "zh": "主語通常是人、群體或活潑動物",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The Energy Should Be Visible or Noticeable",
+        "titleZh": "規則五：精力應該是可觀察或明顯的",
+        "en": "Being awake does not necessarily mean being unusually energetic or enthusiastic.",
+        "zh": "單純清醒並不足以表示 full of beans。 語境應顯示明顯的活力、興奮或熱情。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Use It for Calm Happiness Alone",
+        "titleZh": "規則六：不要只因為某人平靜地開心便使用",
+        "en": "She looked very happy.",
+        "zh": "如果某人只是平靜地感到開心，沒有表現出明顯活力，使用 full of beans 未必自然。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Use It Merely to Mean Physically Strong",
+        "titleZh": "規則七",
+        "en": "Full of beans focuses on lively, visible energy and enthusiasm, not simply strength.",
+        "zh": "不要把它當作 physically strong 的同義詞強調活躍、外顯的精力及熱情，而不只是身體強壯。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Tense",
+        "titleZh": "規則八：保留時態",
+        "en": "Preserve Tense",
+        "zh": "保留時態",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve Modality and Certainty",
+        "titleZh": "規則九：保留情態及確定程度",
+        "en": "Preserve Modality and Certainty",
+        "zh": "保留情態及確定程度",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Use Negative Forms Carefully",
+        "titleZh": "規則十：小心使用否定形式",
+        "en": "Use Negative Forms Carefully",
+        "zh": "小心使用否定形式",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Keep the Described Person Clear",
+        "titleZh": "規則十一：被形容的人必須清楚",
+        "en": "Keep the Described Person Clear",
+        "zh": "被形容的人必須清楚",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Avoid the Separate American Meaning",
+        "titleZh": "規則十二：避免混入另一個美式意思",
+        "en": "Avoid the Separate American Meaning",
+        "zh": "避免混入另一個美式意思",
+        "examples": []
+      },
+      {
+        "number": 13,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則十三：自然使用，不要過度使用",
+        "en": "Use It Naturally, Not Everywhere",
+        "zh": "自然使用，不要過度使用",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using full of beans.",
+      "zh": "使用 full of beans 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-136-q01",
+        "number": 1,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The children woke up from their afternoon nap and immediately began running around and asking to play.",
+        "promptZh": "孩子午睡醒來後，立即四處跑動，還嚷着要玩耍。",
+        "starter": "The",
+        "answer": "The children are full of beans after their afternoon nap.",
+        "answerZh": "孩子午睡後精力充沛。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q02",
+        "number": 2,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Jack arrived at school this morning talking, laughing and eager to begin every activity.",
+        "promptZh": "Jack 今早回到學校時不停說笑，還急不及待想參加每項活動。",
+        "starter": "Jack",
+        "answer": "Jack was full of beans when he arrived at school this morning.",
+        "answerZh": "Jack 今早回到學校時活力十足。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q03",
+        "number": 3,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Our puppy has been running around the garden and trying to play with everyone.",
+        "promptZh": "我們的小狗一直在花園裏跑來跑去，還想跟每個人玩。",
+        "starter": "Our",
+        "answer": "Our puppy is full of beans and keeps running around the garden.",
+        "answerZh": "我們的小狗活力十足，不停在花園裏跑來跑去。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q04",
+        "number": 4,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Sophie has just heard that she was chosen for the team. She is now excited, active and unable to sit still.",
+        "promptZh": "Sophie 剛得知自己獲選入隊。她現在十分興奮、活躍，完全坐不定。",
+        "starter": "Sophie",
+        "answer": "Sophie is full of beans after hearing that she was chosen for the team.",
+        "answerZh": "Sophie 得知自己獲選入隊後，顯得活力十足。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q05",
+        "number": 5,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The twins danced, played games and talked excitedly throughout the birthday party.",
+        "promptZh": "這對雙胞胎在整個生日會上又跳舞、又玩遊戲，還興奮地不停說話。",
+        "starter": "The",
+        "answer": "The twins were full of beans at the birthday party.",
+        "answerZh": "這對雙胞胎在生日會上精力充沛。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q06",
+        "number": 6,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "You are unusually energetic and cheerful today.",
+        "promptZh": "你今天異常精神奕奕，而且心情十分開朗。",
+        "starter": "You",
+        "answer": "You look full of beans today.",
+        "answerZh": "你今天看來精神奕奕。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q07",
+        "number": 7,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "It is only seven in the morning, but Grandad is already ready for a long walk and an hour of gardening.",
+        "promptZh": "現在只是早上七時，但爺爺已準備好去散步，再做一小時園藝。",
+        "starter": "Even",
+        "answer": "Even at seven in the morning, Grandad is full of beans.",
+        "answerZh": "即使在早上七時，爺爺仍然精神奕奕。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q08",
+        "number": 8,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The class cheered, asked many questions and volunteered for every job after hearing the good news.",
+        "promptZh": "全班聽到好消息後歡呼起來，不停發問，還主動請纓做每項工作。",
+        "starter": "The",
+        "answer": "The class was full of beans after the good news.",
+        "answerZh": "全班聽到好消息後都活力十足。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q09",
+        "number": 9,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Ben returned from his holiday looking rested, cheerful and ready to do a lot of work.",
+        "promptZh": "Ben 度假回來後看來精神飽滿、心情開朗，還準備做很多事情。",
+        "starter": "Ben",
+        "answer": "Ben seems full of beans after his holiday.",
+        "answerZh": "Ben 度假後看來精神奕奕。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q10",
+        "number": 10,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "I slept very well last night, and I now have plenty of energy for the day.",
+        "promptZh": "我昨晚睡得很好，現在有充足精力應付今天。",
+        "starter": "I",
+        "answer": "I feel full of beans after a good night’s sleep.",
+        "answerZh": "睡了一晚好覺後，我感到精力充沛。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q11",
+        "number": 11,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Ava is tired now, but a good night’s rest should give her plenty of energy tomorrow.",
+        "promptZh": "Ava 現在很累，但睡一晚好覺後，明天應該會精神充沛。",
+        "starter": "Ava",
+        "answer": "Ava will be full of beans after she has rested.",
+        "answerZh": "Ava 休息過後便會精神充沛。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q12",
+        "number": 12,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The players are tired this evening, but they may have all their energy back by tomorrow.",
+        "promptZh": "球員今晚十分疲倦，但到了明天，他們可能會恢復充沛精力。",
+        "starter": "The",
+        "answer": "The players may be full of beans again by tomorrow.",
+        "answerZh": "球員到了明天可能會再次精力充沛。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q13",
+        "number": 13,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Daniel has been cheerful, active and eager to help since breakfast.",
+        "promptZh": "Daniel 從早餐後便一直心情開朗、十分活躍，而且很樂意幫忙。",
+        "starter": "Daniel",
+        "answer": "Daniel has been full of beans since breakfast.",
+        "answerZh": "Daniel 從早餐後便一直活力十足。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q14",
+        "number": 14,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "It was already bedtime, but the baby was still laughing, kicking and trying to play.",
+        "promptZh": "當時已到了睡覺時間，但嬰兒仍在笑、踢動雙腳，還想繼續玩。",
+        "starter": "The",
+        "answer": "The baby was still full of beans at bedtime.",
+        "answerZh": "到了睡覺時間，嬰兒仍然精力充沛。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q15",
+        "number": 15,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Nora returned from her holiday and entered the office smiling, talking quickly and offering many new ideas.",
+        "promptZh": "Nora 度假回來後，笑着走進辦公室，說話十分起勁，還提出了許多新想法。",
+        "starter": "Nora",
+        "answer": "Nora came into the office full of beans after her holiday.",
+        "answerZh": "Nora 度假後精神奕奕地回到辦公室。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q16",
+        "number": 16,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The dancers rested for fifteen minutes. When they came back, they were lively and ready to continue.",
+        "promptZh": "舞蹈員休息了十五分鐘。他們回來時充滿活力，準備繼續練習。",
+        "starter": "After",
+        "answer": "After a short break, the dancers returned full of beans.",
+        "answerZh": "短暫休息後，舞蹈員精神飽滿地回來。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q17",
+        "number": 17,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: I have already cleaned the kitchen, walked the dog and planned our afternoon. B: You have a surprising amount of energy this morning!",
+        "promptZh": "甲：我已經清潔了廚房、帶狗散步，還計劃好了下午的活動。 乙：你今早竟然有這麼多精力！",
+        "starter": "You’re",
+        "answer": "You’re certainly full of beans this morning!",
+        "answerZh": "你今早真的精神奕奕！",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q18",
+        "number": 18,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: I have packed my bag, made breakfast and watered the plants. B: How do you have so much energy before eating anything?",
+        "promptZh": "甲：我已收拾好背包、準備好早餐，還替植物澆了水。 乙：你還未吃東西，怎會有這麼多精力？",
+        "starter": "How",
+        "answer": "How are you so full of beans before breakfast?",
+        "answerZh": "你怎會還未吃早餐便這麼精神奕奕？",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q19",
+        "number": 19,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Ethan has recently recovered from being ill, but he is already as lively and active as he used to be.",
+        "promptZh": "Ethan 最近才病癒，但已經像以前一樣活躍和充滿朝氣。",
+        "starter": "Ethan",
+        "answer": "Ethan is as full of beans as ever after his illness.",
+        "answerZh": "Ethan 病癒後仍像以往一樣精神奕奕。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q20",
+        "number": 20,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Leo had been unwell for several days. Today, he was cheerful, active and eager to play again.",
+        "promptZh": "Leo 病了幾天。今天，他再次變得開朗活躍，還急不及待想玩耍。",
+        "starter": "It",
+        "answer": "It was wonderful to see Leo full of beans again.",
+        "answerZh": "看到 Leo 再次精神奕奕，實在令人高興。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q21",
+        "number": 21,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The pupils had spent the whole day on a school trip, yet they talked excitedly throughout the journey home.",
+        "promptZh": "學生參加了一整天的學校旅行，但回程時仍一路興奮地說個不停。",
+        "starter": "Full",
+        "answer": "Full of beans after the school trip, the pupils talked all the way home.",
+        "answerZh": "學生參加學校旅行後仍然精力充沛，在回程途中一直說個不停。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "Full of beans"
+      },
+      {
+        "id": "idiom-136-q22",
+        "number": 22,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: How does Chloe seem on the phone? B: She is speaking quickly, laughing and making plans for the whole weekend.",
+        "promptZh": "甲：Chloe 在電話裏聽來怎樣？ 乙：她說話很快、不停笑，還在計劃整個週末的活動。",
+        "starter": "She",
+        "answer": "She sounds full of beans on the phone.",
+        "answerZh": "她在電話裏聽來活力十足。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q23",
+        "number": 23,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Priya slept for only six hours, but she was still lively and energetic during training.",
+        "promptZh": "Priya 只睡了六小時，但訓練時仍然充滿活力。",
+        "starter": "Although",
+        "answer": "Although she slept for only six hours, Priya was full of beans at training.",
+        "answerZh": "雖然 Priya 只睡了六小時，但她在訓練時仍然精力充沛。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q24",
+        "number": 24,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The puppy had already spent an hour running in the park, but it was still eager to play.",
+        "promptZh": "小狗已在公園跑了一小時，但仍然急不及待想繼續玩。",
+        "starter": "The",
+        "answer": "The puppy remained full of beans even after an hour in the park.",
+        "answerZh": "即使已在公園玩了一小時，小狗仍然活力十足。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q25",
+        "number": 25,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: Why are you dancing around the room? B: I have just heard some wonderful news, and I have more energy than I know what to do with.",
+        "promptZh": "甲：你為甚麼在房間裏跳來跳去？ 乙：我剛聽到一個好消息，現在精力多得不知如何是好。",
+        "starter": "I’m",
+        "answer": "I’m full of beans because I’ve just heard the good news.",
+        "answerZh": "我剛聽到好消息，所以現在活力十足。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q26",
+        "number": 26,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The children have walked, played games and visited a museum all day, but they are still running around.",
+        "promptZh": "孩子們整天又走路、又玩遊戲、又參觀博物館，但現在仍在四處跑動。",
+        "starter": "How",
+        "answer": "How can those children still be full of beans after such a busy day?",
+        "answerZh": "過了這麼忙碌的一天，那些孩子怎麼仍然精力充沛？",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q27",
+        "number": 27,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "When we opened the door, Owen was cheerful, energetic and ready to help with every job.",
+        "promptZh": "我們打開門時，Owen 心情開朗、精力充沛，還準備好幫忙處理每項工作。",
+        "starter": "We",
+        "answer": "We found Owen full of beans and ready to help.",
+        "answerZh": "我們發現 Owen 精神奕奕，並已準備好幫忙。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q28",
+        "number": 28,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: Henry looks exhausted today. B: Yes. He has very little energy now, but some rest should help.",
+        "promptZh": "甲：Henry 今天看來筋疲力盡。 乙：是的。他現在沒有甚麼精力，但休息一下應該會有幫助。",
+        "starter": "He",
+        "answer": "He may not be full of beans now, but he should feel better after some rest.",
+        "answerZh": "他現在可能並非精力充沛，但休息過後應該會好一點。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q29",
+        "number": 29,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "During the warm-up, the players ran quickly, joked with one another and called for the ball.",
+        "promptZh": "熱身時，球員跑得很快，互相說笑，還不停要求隊友傳球。",
+        "starter": "The",
+        "answer": "The team looked full of beans during the warm-up.",
+        "answerZh": "球隊在熱身時看來充滿活力。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q30",
+        "number": 30,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Zoe returned from lunch smiling and talking excitedly about the work she wanted to begin.",
+        "promptZh": "Zoe 午飯後回來時面帶笑容，還興奮地談論她想開始的工作。",
+        "starter": "Zoe",
+        "answer": "Zoe came back from lunch full of beans and eager to begin.",
+        "answerZh": "Zoe 午飯後精神飽滿地回來，急不及待想開始工作。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q31",
+        "number": 31,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The child had so much energy that he could hardly remain in his seat.",
+        "promptZh": "這個孩子精力旺盛得幾乎無法坐在座位上。",
+        "starter": "The",
+        "answer": "The child was so full of beans that he could hardly sit still.",
+        "answerZh": "這個孩子精力旺盛得幾乎坐不定。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q32",
+        "number": 32,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Grace normally needs coffee before she becomes active in the morning. Today, however, she surprised us by beginning work early.",
+        "promptZh": "Grace 通常要喝過咖啡，早上才會變得有精神；可是，她今天一早便開始工作，令我們十分意外。",
+        "starter": "Not",
+        "answer": "Not usually full of beans before coffee, Grace surprised us by starting work early.",
+        "answerZh": "Grace 通常喝咖啡前都不會精神奕奕，但她今天一早便開始工作，令我們十分意外。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q33",
+        "number": 33,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Everyone returned from the break with plenty of energy, so the group finished the game quickly.",
+        "promptZh": "所有人休息後都精力充沛，因此小組很快便完成了遊戲。",
+        "starter": "With",
+        "answer": "With everyone full of beans after the break, the group finished the game quickly.",
+        "answerZh": "所有人休息後都精力充沛，因此小組很快便完成了遊戲。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q34",
+        "number": 34,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: I have already answered twelve emails and prepared the meeting room. B: You are not normally this energetic on a Monday.",
+        "promptZh": "甲：我已經回覆了十二封電郵，還準備好了會議室。 乙：你星期一通常不會這麼有精神。",
+        "starter": "You",
+        "answer": "You don’t normally sound so full of beans on a Monday.",
+        "answerZh": "你星期一聽來通常不會這麼精神奕奕。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q35",
+        "number": 35,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The visitors had travelled for ten hours, but they arrived smiling, talking and ready to explore the city.",
+        "promptZh": "訪客乘車十小時後抵達，但仍面帶笑容、談笑風生，還準備探索這座城市。",
+        "starter": "Despite",
+        "answer": "Despite the long journey, the visitors arrived full of beans.",
+        "answerZh": "儘管旅途漫長，訪客抵達時仍然精神奕奕。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q36",
+        "number": 36,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The patient had been weak for several days. The nurse was happy to see him cheerful and active again.",
+        "promptZh": "病人幾天來一直十分虛弱。護士看到他再次變得開朗活躍，感到很高興。",
+        "starter": "The",
+        "answer": "The nurse was pleased to find the patient full of beans again.",
+        "answerZh": "護士很高興看到病人再次精神奕奕。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q37",
+        "number": 37,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Henry was as energetic as usual and led the children through three different games.",
+        "promptZh": "Henry 像往常一樣精力充沛，帶領孩子玩了三個不同的遊戲。",
+        "starter": "As",
+        "answer": "As full of beans as ever, Henry led the children through three games.",
+        "answerZh": "Henry 像往常一樣精神奕奕，帶領孩子玩了三個遊戲。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q38",
+        "number": 38,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The coach said that the players had plenty of energy and were ready for the match.",
+        "promptZh": "教練表示，球員精力充沛，已準備好參加比賽。",
+        "starter": "The",
+        "answer": "The coach said the players were full of beans and ready for the match.",
+        "answerZh": "教練表示，球員精神飽滿，已準備好參加比賽。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q39",
+        "number": 39,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "I had felt tired throughout the week, but on Saturday I finally woke up energetic and cheerful.",
+        "promptZh": "我整個星期都感到疲倦，但星期六終於精神飽滿、心情開朗地醒來。",
+        "starter": "After",
+        "answer": "After feeling tired all week, I was finally full of beans on Saturday.",
+        "answerZh": "疲倦了一整個星期後，我在星期六終於恢復充沛精力。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q40",
+        "number": 40,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The children stayed up very late last night, so they have much less energy than usual today.",
+        "promptZh": "孩子們昨晚很晚才睡，所以今天的精力遠不及平日。",
+        "starter": "The",
+        "answer": "The children are not exactly full of beans today after staying up late.",
+        "answerZh": "孩子們昨晚很晚才睡，今天不算精神奕奕。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q41",
+        "number": 41,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Mr Lee led the morning walk, but he remained energetic and cheerful throughout lunch.",
+        "promptZh": "李先生帶領了早上的步行活動，但整個午飯時間仍然精神飽滿、心情開朗。",
+        "starter": "Even",
+        "answer": "Even after leading the morning walk, Mr Lee remained full of beans throughout lunch.",
+        "answerZh": "即使帶領了早上的步行活動，李先生整個午飯時間仍然精神奕奕。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q42",
+        "number": 42,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: I feel energetic enough to run up the hill now. B: That is good, but remember that we still have a long hike ahead.",
+        "promptZh": "甲：我現在精力充沛得可以跑上山。 乙：這很好，但記住我們接下來還要走一段很長的山路。",
+        "starter": "You",
+        "answer": "You may be full of beans now, but save some energy for the hike.",
+        "answerZh": "你現在可能精力充沛，但也要為遠足保留一點體力。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q43",
+        "number": 43,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "It is a rainy afternoon, yet every pupil is unusually lively and eager to take part.",
+        "promptZh": "現在是下雨的下午，但每名學生都異常活躍，還很想參與活動。",
+        "starter": "It",
+        "answer": "It is unusual to find the whole class so full of beans on a rainy afternoon.",
+        "answerZh": "在下雨的下午看到全班如此精神奕奕，實在少見。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q44",
+        "number": 44,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Clara was lively and excited, but she listened quietly as soon as the teacher began giving instructions.",
+        "promptZh": "Clara 十分活躍興奮，但老師一開始講解指示，她便安靜地聆聽。",
+        "starter": "Full",
+        "answer": "Full of beans though she was, Clara listened quietly when the teacher began giving instructions.",
+        "answerZh": "Clara 雖然活力十足，但老師開始講解指示時，她仍安靜地聆聽。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "Full of beans"
+      },
+      {
+        "id": "idiom-136-q45",
+        "number": 45,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The manager returned from holiday energetic and enthusiastic, and she began the meeting with three new ideas.",
+        "promptZh": "經理度假回來後精神飽滿、熱情十足，並以三個新想法開始會議。",
+        "starter": "Back",
+        "answer": "Back from holiday and full of beans, the manager began the meeting with three new ideas.",
+        "answerZh": "經理度假回來後精神飽滿，並以三個新想法開始會議。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q46",
+        "number": 46,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The young dog had just as much energy at the end of the walk as it had at the beginning.",
+        "promptZh": "這隻小狗散步結束時的精力，竟然跟出發時一樣充沛。",
+        "starter": "The",
+        "answer": "The young dog was as full of beans at the end of the walk as it had been at the start.",
+        "answerZh": "這隻小狗散步結束時，竟然仍像出發時一樣精力充沛。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q47",
+        "number": 47,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The runner looked tired before the race, so nobody expected her to cross the finish line still lively and energetic.",
+        "promptZh": "跑手比賽前看來很疲倦，所以沒有人預料她衝線時仍然精神飽滿、充滿活力。",
+        "starter": "Nobody",
+        "answer": "Nobody expected the tired-looking runner to finish the race full of beans.",
+        "answerZh": "沒有人預料這位看來疲倦的跑手會精神飽滿地完成比賽。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q48",
+        "number": 48,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: I have cleaned the whole flat, cooked dinner and arranged tomorrow’s trip. B: You have not had this much energy for a very long time.",
+        "promptZh": "甲：我已經清潔了整間住所、煮好晚餐，還安排了明天的行程。 乙：你已經很久沒有這麼精力充沛了。",
+        "starter": "I",
+        "answer": "I haven’t seen you this full of beans for months.",
+        "answerZh": "我已經幾個月沒有見過你這麼精神奕奕了。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q49",
+        "number": 49,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Perhaps the music gave everyone energy, or perhaps it was the good news. By the end of lunch, the whole team was lively and excited.",
+        "promptZh": "可能是音樂令大家充滿活力，也可能是那個好消息。午飯結束時，整個團隊都十分活躍興奮。",
+        "starter": "Whether",
+        "answer": "Whether it was the music or the good news, the whole team was full of beans by the end of lunch.",
+        "answerZh": "無論是因為音樂還是好消息，午飯結束時，整個團隊都活力十足。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "full of beans"
+      },
+      {
+        "id": "idiom-136-q50",
+        "number": 50,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The volunteers began the long day with a cheer. They were energetic, enthusiastic and ready for any task.",
+        "promptZh": "義工以歡呼聲開始漫長的一天。他們精力充沛、熱情十足，準備好應付任何工作。",
+        "starter": "Full",
+        "answer": "Full of beans and ready for anything, the volunteers began the long day with a cheer.",
+        "answerZh": "義工精神飽滿，準備好應付任何事情，以歡呼聲開始漫長的一天。",
+        "targetForm": "full of beans",
+        "targetMeaning": "To be very lively, energetic and enthusiastic.",
+        "highlight": "Full of beans"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1671 @@
+{
+  "lesson": {
+    "id": "idiom-82",
+    "order": 82,
+    "slug": "walk-on-eggs-walk-on-eggshells",
+    "version": "1",
+    "title": "小心翼翼／如履薄冰",
+    "titleEn": "Walk on Eggs / Walk on Eggshells",
+    "titleZh": "小心翼翼／如履薄冰",
+    "source": {
+      "file": "Idiom 82 - 「Walk on Eggs _ Walk on Eggshells」.pdf",
+      "pageCount": 38,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "exercisePdfPages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "answerKeyPdfPages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "Walk on Eggs / Walk on Eggshells",
+        "highlight": "Walk on Eggs / Walk on Eggshells"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Daniel walks on eggshells around his uncle.",
+        "zh": "丹尼爾在叔叔面前說話處處小心。",
+        "highlight": "walks on eggshells"
+      },
+      {
+        "en": "We walked on eggshells throughout the meeting.",
+        "zh": "整場會議期間，我們都戰戰兢兢。",
+        "highlight": "walked on eggshells"
+      }
+    ],
+    "meaning": {
+      "en": "walk on eggshells",
+      "zh": "Accepted Alternative 可接受變體",
+      "naturalZh": [
+        "Accepted Alternative 可接受變體"
+      ]
+    },
+    "register": {
+      "labelEn": "Source-Guided Register",
+      "labelZh": "按原檔語域使用",
+      "summaryEn": "news reports; writing about relationships or group atmosphere.",
+      "summaryZh": "walk on eggshells 屬於非正式至中性的表達，常見於日常對話、個人敘述、工作討論、訪問、新聞報道，以及描述關係或團隊氣氛的文章。",
+      "contextsEn": [
+        "everyday conversation",
+        "personal accounts",
+        "workplace discussions",
+        "interviews",
+        "news reports",
+        "writing about relationships or group atmosphere",
+        "nervousness",
+        "fear",
+        "tension",
+        "uncertainty",
+        "an unhealthy lack of open communication"
+      ],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "在較嚴重的語境中，長期需要在伴侶或家人面前步步為營，可能表示某人感到害怕或受到控制。 使用這個表達時，不應把責任歸咎於感到害怕的人。"
+    },
+    "fixedVariable": {
+      "fixed": "Walk on Eggs / Walk on Eggshells",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + walk(s) / walked + on eggshells.",
+          "example": "Daniel walks on eggshells around his uncle.",
+          "highlight": "walks on eggshells"
+        },
+        {
+          "form": "Subject + be + walking on eggshells.",
+          "example": "Everyone is walking on eggshells today.",
+          "highlight": "walking on eggshells"
+        },
+        {
+          "form": "Subject + have / has / had + walked on eggshells.",
+          "example": "The team has been walking on eggshells all week.",
+          "highlight": "walking on eggshells"
+        },
+        {
+          "form": "Subject + may / might / can / could / should / must / will + walk on eggshells.",
+          "example": "You may have to walk on eggshells during the discussion.",
+          "highlight": "walk on eggshells"
+        },
+        {
+          "form": "Subject + verb + to walk on eggshells.",
+          "example": "I do not want to walk on eggshells any longer.",
+          "highlight": "walk on eggshells"
+        },
+        {
+          "form": "Walking on eggshells + verb.",
+          "example": "Walking on eggshells all day is exhausting.",
+          "highlight": "Walking on eggshells"
+        },
+        {
+          "form": "preposition + walking on eggshells",
+          "example": "I am tired of walking on eggshells.",
+          "highlight": "walking on eggshells"
+        },
+        {
+          "form": "Subject + keep / have / leave + object + walking on eggshells.",
+          "example": "His sudden anger keeps everyone walking on eggshells.",
+          "highlight": "walking on eggshells"
+        },
+        {
+          "form": "Subject + feel + like + walking on eggshells.",
+          "example": "Every conversation felt like walking on eggshells.",
+          "highlight": "walking on eggshells"
+        },
+        {
+          "form": "noun + where / in which + subject + walk(s) on eggshells",
+          "example": "It is an office where everyone walks on eggshells.",
+          "highlight": "walks on eggshells"
+        },
+        {
+          "form": "After walking on eggshells all morning, Ryan was relieved when the meeting ended.",
+          "example": "Walking on eggshells around the manager, the staff avoided difficult questions.",
+          "highlight": "Walking on eggshells"
+        },
+        {
+          "form": "If + subject + be + walking on eggshells, + result.",
+          "example": "If you are always walking on eggshells around a friend, the friendship may not feel safe.",
+          "highlight": "walking on eggshells"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Ordinary Finite Verb",
+        "titleZh": "句式一：一般限定動詞",
+        "formula": "Subject + walk(s) / walked + on eggshells.",
+        "descriptionEn": "Source grammar frame: Subject + walk(s) / walked + on eggshells.",
+        "descriptionZh": "原檔列出的句法框架：Subject + walk(s) / walked + on eggshells。",
+        "examples": [
+          {
+            "en": "Daniel walks on eggshells around his uncle.",
+            "zh": "丹尼爾在叔叔面前說話處處小心。",
+            "highlight": "walks on eggshells"
+          },
+          {
+            "en": "We walked on eggshells throughout the meeting.",
+            "zh": "整場會議期間，我們都戰戰兢兢。",
+            "highlight": "walked on eggshells"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Continuous Form",
+        "titleZh": "句式二：進行式",
+        "formula": "Subject + be + walking on eggshells.",
+        "descriptionEn": "Source grammar frame: Subject + be + walking on eggshells.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + walking on eggshells。",
+        "examples": [
+          {
+            "en": "Everyone is walking on eggshells today.",
+            "zh": "今天所有人都說話小心翼翼。",
+            "highlight": "walking on eggshells"
+          },
+          {
+            "en": "The staff were walking on eggshells during the call.",
+            "zh": "通話期間，職員都戰戰兢兢。",
+            "highlight": "walking on eggshells"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Perfect and Perfect Continuous Forms",
+        "titleZh": "句式三：完成式及完成進行式",
+        "formula": "Subject + have / has / had + walked on eggshells.",
+        "descriptionEn": "Source grammar frame: Subject + have / has / had + walked on eggshells.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have / has / had + walked on eggshells。",
+        "examples": [
+          {
+            "en": "The team has been walking on eggshells all week.",
+            "zh": "整個星期，團隊成員都說話處處小心。",
+            "highlight": "walking on eggshells"
+          },
+          {
+            "en": "We had walked on eggshells around him for months.",
+            "zh": "我們已經有幾個月在他面前步步為營。",
+            "highlight": "walked on eggshells"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After a Modal or Similar Verb",
+        "titleZh": "句式四：放在情態動詞或類似結構後",
+        "formula": "Subject + may / might / can / could / should / must / will + walk on eggshells.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / can / could / should / must / will + walk on eggshells.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / can / could / should / must / will + walk on eggshells。",
+        "examples": [
+          {
+            "en": "You may have to walk on eggshells during the discussion.",
+            "zh": "討論期間，你可能需要非常小心。",
+            "highlight": "walk on eggshells"
+          },
+          {
+            "en": "Nobody should have to walk on eggshells at home.",
+            "zh": "任何人都不應該需要在自己家中戰戰兢兢。",
+            "highlight": "walk on eggshells"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After “To”",
+        "titleZh": "句式五：放在 to 後",
+        "formula": "Subject + verb + to walk on eggshells.",
+        "descriptionEn": "The infinitive marker to is part of the surrounding grammar. It is not part of the fixed idiom.",
+        "descriptionZh": "不定式標記 to 屬於外圍句法，並不是固定慣用語的一部分。",
+        "examples": [
+          {
+            "en": "I do not want to walk on eggshells any longer.",
+            "zh": "我不想再處處小心。",
+            "highlight": "walk on eggshells"
+          },
+          {
+            "en": "They were forced to walk on eggshells around the director.",
+            "zh": "他們被迫在主管面前步步為營。",
+            "highlight": "walk on eggshells"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“Walking on Eggshells” as a Gerund Phrase",
+        "titleZh": "句式六",
+        "formula": "Walking on eggshells + verb.",
+        "descriptionEn": "Source grammar frame: Walking on eggshells + verb.",
+        "descriptionZh": "原檔列出的句法框架：Walking on eggshells + verb。",
+        "examples": [
+          {
+            "en": "Walking on eggshells all day is exhausting.",
+            "zh": "整天說話處處小心令人筋疲力盡。",
+            "highlight": "Walking on eggshells"
+          },
+          {
+            "en": "Walking on eggshells cannot solve the real problem.",
+            "zh": "處處小心並不能解決真正的問題。",
+            "highlight": "Walking on eggshells"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After a Preposition",
+        "titleZh": "句式七：放在介詞後",
+        "formula": "preposition + walking on eggshells",
+        "descriptionEn": "Source grammar frame: preposition + walking on eggshells.",
+        "descriptionZh": "原檔列出的句法框架：preposition + walking on eggshells。",
+        "examples": [
+          {
+            "en": "I am tired of walking on eggshells.",
+            "zh": "我厭倦了說話時處處小心。",
+            "highlight": "walking on eggshells"
+          },
+          {
+            "en": "We spoke openly instead of walking on eggshells.",
+            "zh": "我們坦誠地說話，而不是步步為營。",
+            "highlight": "walking on eggshells"
+          },
+          {
+            "en": "They should be able to disagree without walking on eggshells.",
+            "zh": "他們應該能夠提出不同意見，而不需要戰戰兢兢。",
+            "highlight": "walking on eggshells"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Causative and Result Structures",
+        "titleZh": "句式八：使役及結果結構",
+        "formula": "Subject + keep / have / leave + object + walking on eggshells.",
+        "descriptionEn": "Source grammar frame: Subject + keep / have / leave + object + walking on eggshells.",
+        "descriptionZh": "原檔列出的句法框架：Subject + keep / have / leave + object + walking on eggshells。",
+        "examples": [
+          {
+            "en": "His sudden anger keeps everyone walking on eggshells.",
+            "zh": "他突然發怒的行為令所有人都戰戰兢兢。",
+            "highlight": "walking on eggshells"
+          },
+          {
+            "en": "The warning left the whole team walking on eggshells.",
+            "zh": "這項警告令整個團隊都變得處處小心。",
+            "highlight": "walking on eggshells"
+          },
+          {
+            "en": "The new rule has everyone walking on eggshells.",
+            "zh": "新規則令所有人都戰戰兢兢。",
+            "highlight": "walking on eggshells"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "“Feel Like / As If”",
+        "titleZh": "句式九：feel like/as if",
+        "formula": "Subject + feel + like + walking on eggshells.",
+        "descriptionEn": "Source grammar frame: Subject + feel + like + walking on eggshells.",
+        "descriptionZh": "原檔列出的句法框架：Subject + feel + like + walking on eggshells。",
+        "examples": [
+          {
+            "en": "Every conversation felt like walking on eggshells.",
+            "zh": "每場對話都令人感到步步為營。",
+            "highlight": "walking on eggshells"
+          },
+          {
+            "en": "I felt as though I was walking on eggshells around her.",
+            "zh": "我覺得自己在她身邊說話時處處小心。",
+            "highlight": "walking on eggshells"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Relative Clause",
+        "titleZh": "句式十：關係子句",
+        "formula": "noun + where / in which + subject + walk(s) on eggshells",
+        "descriptionEn": "Source grammar frame: noun + where / in which + subject + walk(s) on eggshells.",
+        "descriptionZh": "原檔列出的句法框架：noun + where / in which + subject + walk(s) on eggshells。",
+        "examples": [
+          {
+            "en": "It is an office where everyone walks on eggshells.",
+            "zh": "這是一間所有人都說話小心翼翼的辦公室。",
+            "highlight": "walks on eggshells"
+          },
+          {
+            "en": "Nobody wants to live in a home where people walk on eggshells.",
+            "zh": "沒有人希望住在一個人人都戰戰兢兢的家中。",
+            "highlight": "walk on eggshells"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Fronted Phrase",
+        "titleZh": "句式十一：前置短語",
+        "formula": "After walking on eggshells all morning, Ryan was relieved when the meeting ended.",
+        "descriptionEn": "Source grammar frame: After walking on eggshells all morning, Ryan was relieved when the meeting ended.",
+        "descriptionZh": "原檔列出的句法框架：After walking on eggshells all morning, Ryan was relieved when the meeting ended。",
+        "examples": [
+          {
+            "en": "Walking on eggshells around the manager, the staff avoided difficult questions.",
+            "zh": "職員在經理面前步步為營，因此避開了難以回答的問題。",
+            "highlight": "Walking on eggshells"
+          },
+          {
+            "en": "After walking on eggshells all morning, Ryan was relieved when the meeting ended.",
+            "zh": "小心翼翼地應對了一整個早上後，賴恩在會議結束時鬆了一口氣。",
+            "highlight": "walking on eggshells"
+          },
+          {
+            "en": "Rather than walk on eggshells, we should discuss the problem honestly.",
+            "zh": "與其步步為營，我們應該坦誠討論問題。",
+            "highlight": "walk on eggshells"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Conditional and Contrast Structures",
+        "titleZh": "句式十二：條件及對比結構",
+        "formula": "If + subject + be + walking on eggshells, + result.",
+        "descriptionEn": "Optional Extensions",
+        "descriptionZh": "可選延伸部分 The core expression is simply:",
+        "examples": [
+          {
+            "en": "If you are always walking on eggshells around a friend, the friendship may not feel safe.",
+            "zh": "如果你在朋友身邊總是戰戰兢兢，這段友誼可能不會令你感到安心。",
+            "highlight": "walking on eggshells"
+          },
+          {
+            "en": "Although we were walking on eggshells around her, she still became upset.",
+            "zh": "雖然我們在她身邊已經非常小心，她仍然感到不高興。",
+            "highlight": "walking on eggshells"
+          },
+          {
+            "en": "We walk on eggshells around the owner.",
+            "zh": "我們在店主面前處處小心。",
+            "highlight": "walk on eggshells"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses More Than Ordinary Care",
+        "titleZh": "不只是表示一般小心",
+        "en": "The idiomatic version suggests fear, tension and concern about another person’s reaction.",
+        "zh": "慣用語版本不只表示小心，還帶出害怕、緊張及擔心另一個人反應的意思。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Describes a Tense Atmosphere Efficiently",
+        "titleZh": "簡潔地形容緊張氣氛",
+        "en": "Everyone was walking on eggshells around the manager.",
+        "zh": "你可以用較簡短的方式形容一個人人害怕觸怒經理的環境。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Connects Caution with Its Emotional Cause",
+        "titleZh": "把小心行事與背後情緒連繫起來",
+        "en": "The expression communicates that caution is caused by nervousness or fear, not merely good manners.",
+        "zh": "這個表達說明小心行事是由緊張或害怕造成，而不只是有禮貌。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Criticise an Unhealthy Environment",
+        "titleZh": "可以批評不健康的環境",
+        "en": "This sentence criticises an environment where people do not feel safe speaking openly.",
+        "zh": "任何僱員都不應該只為了提出問題而戰戰兢兢。 這句話批評一個令人無法安心坦誠發言的環境。",
+        "examples": [
+          {
+            "en": "No employee should have to walk on eggshells simply to ask a question.",
+            "zh": "任何僱員都不應該只為了提出問題而戰戰兢兢。",
+            "highlight": "walk on eggshells"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Be Used with Many Grammar Structures",
+        "titleZh": "可以配合多種句法結構",
+        "en": "It Can Be Used with Many Grammar Structures",
+        "zh": "可以配合多種句法結構",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Should Not Replace “Be Careful” Everywhere",
+        "titleZh": "不應在所有「小心」語境中使用",
+        "en": "Use walk on eggshells when caution is connected with fear of a reaction or a sensitive atmosphere.",
+        "zh": "只有當小心行事與害怕別人的反應或敏感氣氛有關時，才適合使用 walk on eggshells。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Unknown",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Related egg-treading imagery has existed in English for centuries. Robert Burton’s The Anatomy of Melancholy, first published in 1621, includes the related wording “Going as if he trod upon eggs.” This is an early related form rather than the exact modern expression walk on eggshells.",
+          "zh": "幾個世紀以來，英語一直有與小心踩在雞蛋上有關的意象。 Robert Burton 於1621年首次出版的《 The Anatomy of Melancholy》收錄了意思相關的說法：「像踩在雞蛋上一樣行走。」這是較早期的相關形式，而不是現代完整說法 walk on eggshells。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, both walk on eggs and walk on eggshells describe speaking or behaving with extreme caution, especially because somebody may become upset or react harshly.",
+          "zh": "今天，walk on eggs 和 walk on eggshells 都表示說話或行事時極度小心，尤其因為某人可能會不高興或作出強烈反應。"
+        }
+      ],
+      "memoryEn": "One careless step could break an egg; one careless word could upset the person.",
+      "memoryZh": "一步不小心便可能踩破雞蛋；一句說話不小心便可能觸怒對方。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “On”",
+        "titleZh": "規則一：保留 on",
+        "en": "Keep “On”",
+        "zh": "保留 on",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use the Plural “Eggshells”",
+        "titleZh": "規則二：使用複數 eggshells",
+        "en": "Use the Plural “Eggshells”",
+        "zh": "使用複數 eggshells",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Change “Walk”, Not “On Eggshells”",
+        "titleZh": "規則三：改變 walk，不改變 on eggshells",
+        "en": "Change “Walk”, Not “On Eggshells”",
+        "zh": "改變 walk，不改變 on eggshells",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Usually Concerns a Person’s Reaction",
+        "titleZh": "規則四：通常涉及某人的反應",
+        "en": "The person may be stated directly or understood from the context.",
+        "zh": "我們在他身邊說話處處小心，因為他很容易發怒。 引起這種小心反應的人可以直接說明，也可以從語境得知。",
+        "examples": [
+          {
+            "en": "We walk on eggshells around him because he becomes angry easily.",
+            "zh": "我們在他身邊說話處處小心，因為他很容易發怒。",
+            "highlight": "walk on eggshells"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Use It for Ordinary Physical Care",
+        "titleZh": "規則五：不要用於一般身體上的小心",
+        "en": "The sentence concerns literal physical care, not fear of upsetting someone. I carried the glass very carefully.",
+        "zh": "這句話只是表示拿着玻璃杯時小心，並不涉及害怕令某人不高興。 我非常小心地拿着玻璃杯。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Use It for Every Polite Conversation",
+        "titleZh": "規則六：不要用於每場有禮貌的對話",
+        "en": "Ordinary politeness does not necessarily mean somebody is walking on eggshells. The expression requires stronger tension, nervousness or fear.",
+        "zh": "一般的禮貌並不代表某人在戰戰兢兢地說話。 這個表達需要較強的緊張、不安或害怕情緒。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“Around + Person” Is Optional",
+        "titleZh": "規則七：around + person 是可選部分",
+        "en": "Both are grammatically complete.",
+        "zh": "我們當時說話處處小心。 我們當時在經理面前說話處處小心。 兩句在文法上都完整。",
+        "examples": [
+          {
+            "en": "We were walking on eggshells.",
+            "zh": "我們當時說話處處小心。",
+            "highlight": "walking on eggshells"
+          },
+          {
+            "en": "We were walking on eggshells around the manager.",
+            "zh": "我們當時在經理面前說話處處小心。",
+            "highlight": "walking on eggshells"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "“By + V-ing” Is Optional",
+        "titleZh": "規則八：by + V-ing 是可選部分",
+        "en": "The by phrase explains how she showed caution. It is not part of the idiom.",
+        "zh": "她說話時處處小心。 她避免提及爭執，說話時處處小心。 短語只是說明她如何小心行事，並不是慣用語的一部分。",
+        "examples": [
+          {
+            "en": "She walked on eggshells.",
+            "zh": "她說話時處處小心。",
+            "highlight": "walked on eggshells"
+          },
+          {
+            "en": "She walked on eggshells by avoiding any mention of the argument.",
+            "zh": "她避免提及爭執，說話時處處小心。",
+            "highlight": "walked on eggshells"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve Tense",
+        "titleZh": "規則九：保留時態",
+        "en": "Preserve Tense",
+        "zh": "保留時態",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Preserve Modality",
+        "titleZh": "規則十：保留情態",
+        "en": "The incorrect answer changes a possibility into a completed past event.",
+        "zh": "錯誤答案把一個可能性改成已完成的過去事件。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Confuse It with “Walk on Thin Ice”",
+        "titleZh": "規則十一：不要與 walk on thin ice 混淆",
+        "en": "Walk on eggshells usually focuses on being careful not to upset somebody. Walk on thin ice usually means being in a risky position where one may soon face trouble. The expressions can overlap, but they are not freely interchangeable.",
+        "zh": "walk on eggshells 通常強調小心避免令某人不高興。 walk on thin ice 通常表示某人正處於危險處境，可能很快便會遇上麻煩。 兩個表達可能有部分重疊，但不能在所有情況下自由互換。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "A Healthy Situation Should Not Require Constant Fear",
+        "titleZh": "規則十二：健康環境不應令人長期害怕",
+        "en": "It should not be taught as though fear-based communication were normal or desirable.",
+        "zh": "僱員不應該只為了提出合理問題而戰戰兢兢。 教學時不應把這種由害怕造成的溝通方式說成正常或理想。",
+        "examples": [
+          {
+            "en": "Employees should not have to walk on eggshells simply to ask a reasonable question.",
+            "zh": "僱員不應該只為了提出合理問題而戰戰兢兢。",
+            "highlight": "walk on eggshells"
+          }
+        ]
+      }
+    ],
+    "instructions": {
+      "en": "Walk on eggs may also receive full credit.",
+      "zh": "使用 walk on eggs 亦可獲得滿分。"
+    },
+    "questions": [
+      {
+        "id": "idiom-82-q01",
+        "number": 1,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Everyone speaks very carefully around Owen because he becomes upset over small comments.",
+        "promptZh": "大家在歐文身邊說話都非常小心，因為一些小評論也會令他不高興。",
+        "starter": "Everyone",
+        "answer": "Everyone walks on eggshells around Owen because he becomes upset over small comments.",
+        "answerZh": "大家在歐文身邊說話都處處小心，因為一些小評論也會令他不高興。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walks on eggshells"
+      },
+      {
+        "id": "idiom-82-q02",
+        "number": 2,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "I choose every word carefully when I speak to my sister because she is still upset about yesterday’s argument.",
+        "promptZh": "我與妹妹說話時小心選擇每一個字，因為她仍然為昨天的爭執感到不高興。",
+        "starter": "I",
+        "answer": "I walk on eggshells when I speak to my sister because she is still upset about yesterday’s argument.",
+        "answerZh": "我與妹妹說話時處處小心，因為她仍然為昨天的爭執感到不高興。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q03",
+        "number": 3,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The staff are being extremely careful not to upset the manager today.",
+        "promptZh": "職員今天都非常小心，以免令經理不高興。",
+        "starter": "The",
+        "answer": "The staff are walking on eggshells around the manager today.",
+        "answerZh": "職員今天在經理面前都戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q04",
+        "number": 4,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "We had to be very careful throughout dinner because Dad was in a bad mood.",
+        "promptZh": "爸爸心情不好，因此整頓晚飯期間我們都必須非常小心。",
+        "starter": "We",
+        "answer": "We had to walk on eggshells throughout dinner because Dad was in a bad mood.",
+        "answerZh": "爸爸心情不好，因此整頓晚飯期間我們都必須步步為營。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q05",
+        "number": 5,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Grace speaks very carefully whenever she discusses money with her flatmate, who easily feels criticised.",
+        "promptZh": "Grace 每次與容易覺得受批評的室友討論金錢時，說話都非常小心。",
+        "starter": "Grace",
+        "answer": "Grace walks on eggshells whenever she discusses money with her flatmate, who easily feels criticised.",
+        "answerZh": "Grace 每次與容易覺得受批評的室友討論金錢時，說話都處處小心。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walks on eggshells"
+      },
+      {
+        "id": "idiom-82-q06",
+        "number": 6,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "For several weeks, the children have been careful not to make their coach angry during practice.",
+        "promptZh": "幾個星期以來，孩子們練習時都小心避免令教練發怒。",
+        "starter": "The",
+        "answer": "The children have been walking on eggshells around their coach during practice for several weeks.",
+        "answerZh": "幾個星期以來，孩子們練習時在教練面前都戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q07",
+        "number": 7,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "You need to speak very carefully when asking the customer about the missing payment.",
+        "promptZh": "向顧客詢問失蹤款項時，你需要非常小心地說話。",
+        "starter": "You",
+        "answer": "You need to walk on eggshells when asking the customer about the missing payment.",
+        "answerZh": "向顧客詢問失蹤款項時，你需要說話非常小心。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q08",
+        "number": 8,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "I felt that one wrong word could upset Clara during our conversation.",
+        "promptZh": "與 Clara 交談時，我覺得一句說錯的話也可能令她不高興。",
+        "starter": "I",
+        "answer": "I felt as though I was walking on eggshells during my conversation with Clara.",
+        "answerZh": "與 Clara 交談時，我覺得自己每句說話都要非常小心。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q09",
+        "number": 9,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "After the argument, the team must be extremely careful with every comment.",
+        "promptZh": "爭執過後，團隊每說一句話都必須非常小心。",
+        "starter": "The",
+        "answer": "The team must walk on eggshells with every comment after the argument.",
+        "answerZh": "爭執過後，團隊每說一句話都必須小心翼翼。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q10",
+        "number": 10,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Everyone in the shop chooses their words carefully because the owner treats every suggestion as a personal criticism.",
+        "promptZh": "店內所有人都小心選擇措辭，因為店主把每項建議都視為對自己的批評。",
+        "starter": "Everyone",
+        "answer": "Everyone in the shop walks on eggshells around the owner because he treats every suggestion as a personal criticism.",
+        "answerZh": "店內所有人在店主面前都說話處處小心，因為他把每項建議都視為對自己的批評。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walks on eggshells"
+      },
+      {
+        "id": "idiom-82-q11",
+        "number": 11,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "At every family meeting, Daniel is careful not to upset his uncle.",
+        "promptZh": "每次家庭聚會，Daniel 都小心避免令叔叔不高興。",
+        "starter": "Daniel",
+        "answer": "Daniel walks on eggshells around his uncle at every family meeting.",
+        "answerZh": "每次家庭聚會，Daniel 在叔叔面前都說話處處小心。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walks on eggshells"
+      },
+      {
+        "id": "idiom-82-q12",
+        "number": 12,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "We were extremely careful when we told Lucy that the trip had been cancelled.",
+        "promptZh": "我們告訴 Lucy 旅程已經取消時，說話非常小心。",
+        "starter": "We",
+        "answer": "We walked on eggshells when we told Lucy that the trip had been cancelled.",
+        "answerZh": "我們告訴 Lucy 旅程已經取消時，說話戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walked on eggshells"
+      },
+      {
+        "id": "idiom-82-q13",
+        "number": 13,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The new assistant will need to be very careful when discussing the mistake with the director tomorrow.",
+        "promptZh": "新助理明天與主管討論錯誤時，需要非常小心。",
+        "starter": "The",
+        "answer": "The new assistant will have to walk on eggshells when discussing the mistake with the director tomorrow.",
+        "answerZh": "新助理明天與主管討論錯誤時，將需要非常小心。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q14",
+        "number": 14,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The whole office has been choosing every word carefully since the manager shouted at a worker on Monday.",
+        "promptZh": "經理星期一向一名職員大吼後，整間辦公室的人說話都一直非常小心。",
+        "starter": "The",
+        "answer": "The whole office has been walking on eggshells since the manager shouted at a worker on Monday.",
+        "answerZh": "經理星期一向一名職員大吼後，整間辦公室的人說話都一直處處小心。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q15",
+        "number": 15,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "You may need to be extremely careful when you ask Ryan why he missed the deadline.",
+        "promptZh": "你詢問 Ryan 為何錯過限期時，可能需要非常小心。",
+        "starter": "You",
+        "answer": "You may have to walk on eggshells when you ask Ryan why he missed the deadline.",
+        "answerZh": "你詢問 Ryan 為何錯過限期時，可能需要步步為營。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q16",
+        "number": 16,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A healthy team should allow disagreement without making people afraid of every reaction.",
+        "promptZh": "健康的團隊應該容許不同意見，而不會令人害怕其他人的每個反應。",
+        "starter": "A",
+        "answer": "A healthy team should allow disagreement without making people walk on eggshells.",
+        "answerZh": "健康的團隊應該容許不同意見，而不會令人戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q17",
+        "number": 17,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: The customer is still angry. Do I need to choose every word very carefully around her?",
+        "promptZh": "甲：顧客仍然很生氣。我在她面前是否需要每句說話都非常小心？",
+        "starter": "Do",
+        "answer": "Do I have to walk on eggshells around the angry customer?",
+        "answerZh": "我在憤怒的顧客面前是否必須每句說話都非常小心？",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q18",
+        "number": 18,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "His sudden changes of mood make everyone in the office remain extremely careful.",
+        "promptZh": "他突然轉變的情緒令辦公室內所有人一直非常小心。",
+        "starter": "His",
+        "answer": "His sudden changes of mood keep everyone in the office walking on eggshells.",
+        "answerZh": "他突然轉變的情緒令辦公室內所有人一直戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q19",
+        "number": 19,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The fear of upsetting the client caused us to speak with extreme care throughout the call.",
+        "promptZh": "由於害怕令客戶不高興，我們整段通話期間都說話非常小心。",
+        "starter": "The",
+        "answer": "The fear of upsetting the client left us walking on eggshells throughout the call.",
+        "answerZh": "由於害怕令客戶不高興，我們整段通話期間都說話處處小心。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q20",
+        "number": 20,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "It is exhausting to watch every word around a person all day.",
+        "promptZh": "整天在一個人身邊每句說話都要小心，實在令人疲倦。",
+        "starter": "Walking",
+        "answer": "Walking on eggshells around someone all day is exhausting.",
+        "answerZh": "整天在一個人身邊說話處處小心，實在令人疲倦。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "Walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q21",
+        "number": 21,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: I am tired of watching every word because you become angry so easily.",
+        "promptZh": "甲：我厭倦了每句說話都要小心，因為你實在太容易發怒。",
+        "starter": "I’m",
+        "answer": "I’m tired of walking on eggshells around you because you become angry so easily.",
+        "answerZh": "我厭倦了在你面前每句說話都要小心，因為你實在太容易發怒。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q22",
+        "number": 22,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "We should speak honestly instead of being afraid that every sentence will upset him.",
+        "promptZh": "我們應該坦誠地說話，而不是害怕每句說話都會令他不高興。",
+        "starter": "Rather",
+        "answer": "Rather than walk on eggshells around him, we should speak honestly.",
+        "answerZh": "與其在他面前步步為營，我們應該坦誠地說話。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q23",
+        "number": 23,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "I want meetings where people can disagree openly and do not need to fear upsetting the manager.",
+        "promptZh": "我希望會議容許大家公開提出不同意見，而不需要害怕令經理不高興。",
+        "starter": "I",
+        "answer": "I want meetings where people can disagree openly without having to walk on eggshells around the manager.",
+        "answerZh": "我希望會議容許大家公開提出不同意見，而不需要在經理面前戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q24",
+        "number": 24,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Having to watch every word around the coach is making the players anxious.",
+        "promptZh": "球員在教練身邊每句說話都要小心，令他們感到焦慮。",
+        "starter": "The",
+        "answer": "The need to walk on eggshells around the coach is making the players anxious.",
+        "answerZh": "球員需要在教練面前處處小心，令他們感到焦慮。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q25",
+        "number": 25,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "In this office, everyone becomes extremely careful whenever the director visits.",
+        "promptZh": "在這間辦公室，每當主管到訪時，所有人都變得非常小心。",
+        "starter": "It",
+        "answer": "It is an office where everyone walks on eggshells whenever the director visits.",
+        "answerZh": "這是一間每當主管到訪時，所有人都變得戰戰兢兢的辦公室。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walks on eggshells"
+      },
+      {
+        "id": "idiom-82-q26",
+        "number": 26,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Clara spoke very slowly and carefully because she was afraid of offending her guest.",
+        "promptZh": "Clara 說話非常緩慢和小心，因為她害怕冒犯客人。",
+        "starter": "Clara",
+        "answer": "Clara spoke as though she were walking on eggshells because she was afraid of offending her guest.",
+        "answerZh": "Clara 說話時彷彿步步為營，因為她害怕冒犯客人。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q27",
+        "number": 27,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Ben spent the whole morning choosing his words carefully around the angry customer. He felt relieved when the meeting ended.",
+        "promptZh": "Ben 整個早上在憤怒的顧客面前都小心選擇措辭。會議結束時，他感到如釋重負。",
+        "starter": "Having",
+        "answer": "Having walked on eggshells around the angry customer all morning, Ben felt relieved when the meeting ended.",
+        "answerZh": "Ben 整個早上在憤怒的顧客面前都小心翼翼，因此會議結束時感到如釋重負。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walked on eggshells"
+      },
+      {
+        "id": "idiom-82-q28",
+        "number": 28,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Without meaning to, we began choosing every word carefully after the chairperson criticised the first speaker.",
+        "promptZh": "主席批評第一名發言者後，我們不自覺地開始小心選擇每一句說話。",
+        "starter": "We",
+        "answer": "We found ourselves walking on eggshells after the chairperson criticised the first speaker.",
+        "answerZh": "主席批評第一名發言者後，我們發現自己開始說話處處小心。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q29",
+        "number": 29,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: Everyone is speaking as carefully as possible around Henry. B: He became angry at the last meeting.",
+        "promptZh": "甲：所有人在 Henry 身邊說話都盡量小心。 乙：他在上次會議發了脾氣。",
+        "starter": "Why",
+        "answer": "Why is everyone walking on eggshells around Henry after he became angry at the last meeting?",
+        "answerZh": "Henry 在上次會議發怒後，為甚麼所有人在他身邊都說話處處小心？",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q30",
+        "number": 30,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The new rule is unclear, and the punishment is harsh, so every worker is extremely careful.",
+        "promptZh": "新規則並不清楚，而且懲罰嚴厲，因此每名職員都非常小心。",
+        "starter": "The",
+        "answer": "The new rule has every worker walking on eggshells because it is unclear and the punishment is harsh.",
+        "answerZh": "新規則並不清楚，而且懲罰嚴厲，因此令每名職員都戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q31",
+        "number": 31,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Although we were extremely careful not to upset Grace, she still misunderstood our question.",
+        "promptZh": "雖然我們已非常小心避免令 Grace 不高興，但她仍然誤解了我們的問題。",
+        "starter": "Although",
+        "answer": "Although we were walking on eggshells around Grace, she still misunderstood our question.",
+        "answerZh": "雖然我們在 Grace 身邊已經非常小心，但她仍然誤解了我們的問題。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q32",
+        "number": 32,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Since the complaint, the receptionist has been very careful whenever she speaks to the customer.",
+        "promptZh": "自從投訴發生後，接待員每次與顧客說話都非常小心。",
+        "starter": "Ever",
+        "answer": "Ever since the complaint, the receptionist has been walking on eggshells whenever she speaks to the customer.",
+        "answerZh": "自從投訴發生後，接待員每次與顧客說話都處處小心。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q33",
+        "number": 33,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The manager has not explained what went wrong. Until he does, we will keep choosing our words very carefully when discussing the missing money.",
+        "promptZh": "經理仍未解釋出了甚麼問題。在他作出解釋前，我們討論失蹤款項時會繼續非常小心地選擇措辭。",
+        "starter": "Until",
+        "answer": "Until the manager explains what went wrong, we will continue to walk on eggshells when discussing the missing money.",
+        "answerZh": "在經理解釋出了甚麼問題前，我們討論失蹤款項時會繼續步步為營。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q34",
+        "number": 34,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "During the interview, every sentence felt dangerous because the guest might take offence.",
+        "promptZh": "訪問期間，每句說話都像有危險一樣，因為嘉賓可能會感到受冒犯。",
+        "starter": "It",
+        "answer": "It felt like walking on eggshells throughout the interview because the guest might take offence.",
+        "answerZh": "整場訪問都令人感到步步為營，因為嘉賓可能會感到受冒犯。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q35",
+        "number": 35,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The director’s habit of becoming angry at small questions made me feel extremely nervous and careful.",
+        "promptZh": "主管連聽到小問題也會發怒的習慣，令我感到極度緊張和小心。",
+        "starter": "What",
+        "answer": "What made me feel as if I were walking on eggshells was the director’s habit of becoming angry at small questions.",
+        "answerZh": "令我感到說話時步步為營的，是主管連聽到小問題也會發怒的習慣。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q36",
+        "number": 36,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Being extremely careful may prevent one argument tonight, but it cannot solve the real communication problem.",
+        "promptZh": "極度小心可能可以避免今晚的一場爭執，但不能解決真正的溝通問題。",
+        "starter": "Walking",
+        "answer": "Walking on eggshells may prevent one argument tonight, but it cannot solve the real communication problem.",
+        "answerZh": "步步為營可能可以避免今晚的一場爭執，但不能解決真正的溝通問題。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "Walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q37",
+        "number": 37,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The supervisor told the staff to stop being overly afraid of upsetting the customer and to answer honestly.",
+        "promptZh": "主管叫職員不要過分害怕令顧客不高興，並應坦誠回答問題。",
+        "starter": "The",
+        "answer": "The supervisor told the staff not to walk on eggshells around the customer, but to answer honestly.",
+        "answerZh": "主管叫職員不要在顧客面前過分戰戰兢兢，而應坦誠回答問題。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q38",
+        "number": 38,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "People should not have to watch every word in their own home because they fear another person’s reaction.",
+        "promptZh": "任何人都不應該因為害怕另一個人的反應，而在自己家中每句說話都要小心。",
+        "starter": "No",
+        "answer": "No one should have to walk on eggshells in their own home because they fear another person’s reaction.",
+        "answerZh": "任何人都不應該因為害怕另一個人的反應，而在自己家中戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q39",
+        "number": 39,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "If you constantly fear that a friend will become angry over a small disagreement, the friendship may not feel safe.",
+        "promptZh": "如果你經常害怕朋友會因小小的意見分歧而發怒，這段友誼可能不會令你感到安心。",
+        "starter": "If",
+        "answer": "If you are always walking on eggshells around a friend, the friendship may not feel safe.",
+        "answerZh": "如果你在朋友身邊總是戰戰兢兢，這段友誼可能不會令你感到安心。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q40",
+        "number": 40,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Everyone’s extreme caution shows that the atmosphere in the meeting is tense.",
+        "promptZh": "所有人都極度小心，顯示會議的氣氛十分緊張。",
+        "starter": "The",
+        "answer": "The fact that everyone is walking on eggshells shows that the atmosphere in the meeting is tense.",
+        "answerZh": "所有人都小心翼翼這個事實，顯示會議的氣氛十分緊張。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q41",
+        "number": 41,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: Why is nobody speaking freely today? B: Yesterday’s argument made everyone afraid of upsetting the chairperson.",
+        "promptZh": "甲：為甚麼今天沒有人敢暢所欲言？ 乙：昨天的爭執令所有人都害怕觸怒主席。",
+        "starter": "Everyone",
+        "answer": "Everyone has been walking on eggshells around the chairperson since yesterday’s argument.",
+        "answerZh": "自從昨天的爭執後，所有人在主席面前都說話處處小心。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q42",
+        "number": 42,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The director reacts differently each time. Staff must therefore guess which comments will upset him, and they remain extremely careful.",
+        "promptZh": "主管每次的反應都不同，因此職員必須猜測哪些評論會令他不高興，而且一直非常小心。",
+        "starter": "By",
+        "answer": "By reacting differently each time, the director keeps the staff walking on eggshells as they try to guess which comments will upset him.",
+        "answerZh": "主管每次都有不同反應，令職員猜測哪些評論會觸怒他，並一直戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q43",
+        "number": 43,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "As her reactions became less predictable, we had to speak more carefully around her.",
+        "promptZh": "隨着她的反應變得更難預測，我們在她身邊說話也必須更加小心。",
+        "starter": "The",
+        "answer": "The more unpredictable her reactions became, the more we had to walk on eggshells around her.",
+        "answerZh": "她的反應越難預測，我們在她身邊便越需要步步為營。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q44",
+        "number": 44,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "We did not realise until the manager left how long we had been choosing our words carefully around him.",
+        "promptZh": "直至經理離開後，我們才發現自己在他身邊小心選擇措辭已經很久。",
+        "starter": "Only",
+        "answer": "Only after the manager left did we realise how long we had been walking on eggshells around him.",
+        "answerZh": "直至經理離開後，我們才發現自己在他身邊戰戰兢兢已有很長時間。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q45",
+        "number": 45,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The teacher did not welcome questions, so the pupils felt that every small comment might upset him.",
+        "promptZh": "老師不歡迎學生提問，因此學生覺得每個小評論都可能令他不高興。",
+        "starter": "Had",
+        "answer": "Had the teacher welcomed questions, the pupils would not have had to walk on eggshells around him.",
+        "answerZh": "如果老師當時歡迎學生提問，學生便不需要在他面前戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q46",
+        "number": 46,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The group no longer wanted to speak with extreme care, so they asked the leader to set clear rules.",
+        "promptZh": "小組不想再說話時處處小心，因此要求領袖制定清楚規則。",
+        "starter": "Not",
+        "answer": "Not wanting to walk on eggshells any longer, the group asked the leader to set clear rules.",
+        "answerZh": "小組不想再說話時處處小心，因此要求領袖制定清楚規則。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q47",
+        "number": 47,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "We had become so used to choosing every word carefully that we did not notice how tense the office had become.",
+        "promptZh": "我們已經習慣每句說話都小心翼翼，以致沒有察覺辦公室的氣氛已變得多麼緊張。",
+        "starter": "So",
+        "answer": "So used were we to walking on eggshells that we did not notice how tense the office had become.",
+        "answerZh": "我們已經太習慣每句說話都小心翼翼，以致沒有察覺辦公室的氣氛已變得多麼緊張。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q48",
+        "number": 48,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "We may disagree, but we should still be able to ask a fair question without fearing an angry reaction.",
+        "promptZh": "我們可能意見不同，但仍應能夠提出合理問題，而不用害怕對方發怒。",
+        "starter": "Whether",
+        "answer": "Whether we agree or not, we should not have to walk on eggshells to ask a fair question.",
+        "answerZh": "不論我們是否意見一致，都不應該只為了提出合理問題而戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walk on eggshells"
+      },
+      {
+        "id": "idiom-82-q49",
+        "number": 49,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "At first, the staff were simply polite. Later, they began watching every word whenever the owner entered the room.",
+        "promptZh": "起初，職員只是保持禮貌。後來，每當店主進入房間時，他們每句說話都變得非常小心。",
+        "starter": "What",
+        "answer": "What began as simple politeness turned into walking on eggshells whenever the owner entered the room.",
+        "answerZh": "原本只是一般禮貌的行為，後來變成每當店主進入房間時，職員都戰戰兢兢。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      },
+      {
+        "id": "idiom-82-q50",
+        "number": 50,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The team had chosen every word carefully for months. Finally, they agreed that a workplace should not make people fear every small comment.",
+        "promptZh": "團隊幾個月來每句說話都非常小心。最後，他們同意工作場所不應令人害怕每個小評論。",
+        "starter": "After",
+        "answer": "After months of walking on eggshells at work, the team finally agreed that no workplace should make people fear every small comment.",
+        "answerZh": "在工作場所戰戰兢兢了幾個月後，團隊終於同意任何工作環境都不應令人害怕每個小評論。",
+        "targetForm": "Walk on Eggs / Walk on Eggshells",
+        "targetMeaning": "walk on eggshells",
+        "highlight": "walking on eggshells"
+      }
+    ]
+  }
+}

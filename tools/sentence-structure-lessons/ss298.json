@@ -1,0 +1,1262 @@
+{
+  "id": "ss298",
+  "order": 298,
+  "slug": "what-is-stopping-person-from-v-ing",
+  "title": "「What is stopping + person + from + V-ing?」詢問障礙",
+  "titleZh": "「What is stopping + person + from + V-ing?」詢問障礙",
+  "titleEn": "Using “What is stopping + person + from + V-ing?”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 297 -「What is stopping + person + from + V-ing_」詢問障礙.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sha256": "dee0b779dea45c4a414809cfde08491cdddaf31e01f66666bfee07b2fe8f2d41",
+    "sourceNumber": 297,
+    "systemOrder": 298,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 297 maps to ss298: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "What + is stopping + person + from + V-ing + other information?",
+  "formulas": [
+    {
+      "id": "ss298-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "What + is stopping + person + from + V-ing + other information?"
+    }
+  ],
+  "example": "What is stopping us from starting today?",
+  "exampleZh": "究竟是甚麼令我們無法今天開始？",
+  "examples": [
+    {
+      "id": "ss298-example-01",
+      "en": "What is stopping us from starting today?",
+      "zh": "究竟是甚麼令我們無法今天開始？",
+      "highlight": "What is stopping us from starting today?"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss298-rule-01",
+      "zh": "核心表達是完整的「what is stopping + person + from + V-ing」核心表達是：某人 + from + V-ing 以下引入語只是可選的文法外框，並不是核心表達的一部分：【Can you explain what is stopping...?】 是甚麼令團隊無法繼續？ 你可以解釋是甚麼令團隊無法繼續嗎？ 我們需要找出是甚麼令團隊無法繼續。 三句都包含相同的核心表達，但這個表達在句中的位置和功能不同。",
+      "en": "The fixed core is: what is stopping + person + from + V-ing what is stopping + The following introductory expressions are optional grammatical shells. They are not part of the fixed core: Can you explain what is stopping...? Do you know what is stopping...? I wonder what is stopping... We need to find out what is stopping... The question is what is stopping... The report should explain what is stopping... Compare: What is stopping the team from continuing? Can you explain what is stopping the team from continuing? We need to find out what is stopping the team from continuing. All three sentences contain the same core expression, but it appears in different grammatical positions.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-rule-02",
+      "zh": "目標表達【From】是必要部分使用：某人 + from + V-ing（stop +；是甚麼令你無法申請？）",
+      "en": "From Use: stop + person + from + V-ing What is stopping you from applying? What is stopping you to apply? What is stopping you apply?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-rule-03",
+      "zh": "在 What is stopping...from...? 結構中，from 是介詞，因此後面的動詞必須使用 -ing 形式，例如 from asking；不可寫成 from ask。",
+      "en": "From After from, use the -ing form of the verb. from starting from applying from joining from speaking from attending from sharing What is stopping him from asking for help? What is stopping him from ask for help?",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss298-rule-04",
+      "zh": "後使用受詞形式在【Stopping】後面的人是動詞的受詞，因此有需要時應使用受詞代名詞。",
+      "en": "Stopping The person after stopping is the object of the verb, so use an object pronoun when necessary. stopping me stopping us stopping you stopping him stopping her stopping them What is stopping her from joining us? What is stopping she from joining us?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-rule-05",
+      "zh": "目標表達【What】本身是疑問詞，不需要 do 或 does 以【What】為例：本身已經引出疑問，不需要在 is stopping 前加入 do 或 does。",
+      "en": "What Do not add do or does before is stopping. What is stopping them from leaving? What does is stopping them from leaving?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-rule-06",
+      "zh": "直接問句和間接問句的標點不同直接問句以問號結尾：【What is stopping you from continuing?】 包含間接問句的陳述句一般以句號結尾：【I wonder what is stopping you from continuing.】 包含這個結構的禮貌問句仍以問號結尾：【Can you explain what is stopping you from continuing?】",
+      "en": "A direct question ends with a question mark: What is stopping you from continuing? A statement containing an embedded question normally ends with a full stop: I wonder what is stopping you from continuing. A polite question containing the structure still ends with a question mark: Can you explain what is stopping you from continuing?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-rule-07",
+      "zh": "通常表示目前存在的障礙一般用來詢問目前正在影響事情的障礙。目前是甚麼令克拉拉無法申請？ 指過去的情況，並不是本練習的目標句型。",
+      "en": "Is stopping What is stopping... normally asks about an obstacle affecting the situation now. What is stopping... What is stopping Clara from applying? What stopped Clara from applying? refers to a past situation and is not the target of this exercise.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-rule-08",
+      "zh": "可以使用較婉轉的外框在較敏感的對話中，直接提問有時會顯得較強硬。加入引入語可以令語氣較婉轉。是甚麼令你無法與經理溝通？ 你可以告訴我，是甚麼令你無法與經理溝通嗎？",
+      "en": "A direct question may sound firm in a sensitive conversation. Introductory expressions can make it gentler. Direct: What is stopping you from speaking to your manager? Gentler: Could you tell me what is stopping you from speaking to your manager?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-rule-09",
+      "zh": "目標表達【What’s】是口語縮寫在日常對話中，What is 可以縮寫為 What’s：【What’s stopping you from applying?】 為保持一致，本練習的參考答案全部使用完整形式 What is。作為直接問句是甚麼令你無法今天開始？ 接在禮貌問句後你可以解釋是甚麼令團隊無法繼續嗎？ 接在 Do you know 後你知道是甚麼令丹尼爾無法求助嗎？ 接在 I wonder 後我想知道是甚麼令他們無法作出決定。 接在調查或發現類動詞後我們需要找出是甚麼令居民無法使用該服務。",
+      "en": "What’s In conversation, What is may be shortened to What’s: What’s stopping you from applying? For consistency, this exercise uses the full form What is in all model answers. 1. As a direct question What is stopping + person + from + V-ing? What is stopping you from starting today? 2. After a polite question frame Can / Could you explain + what is stopping...? Can you explain what is stopping the team from continuing? 3. After “Do you know” Do you know + what is stopping...? Do you know what is stopping Daniel from asking for help? 4. After “I wonder” I wonder + what is stopping... I wonder what is stopping them from making a decision. 5. After investigation or discovery verbs Subject + find out / discover / identify / determine / investigate + what is stopping... We need to find out what is stopping the residents from using the service.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-rule-09a",
+      "zh": "接在報告或思考類動詞後報告應解釋是甚麼令年輕人無法參與。 接在連繫動詞後主要問題是：究竟甚麼令奧莉花無法填妥表格。 放在引語內教練問：「是甚麼令球員無法定期訓練？」",
+      "en": "After reporting or thinking verbs Subject + explain / understand / know / discuss + what is stopping... The report should explain what is stopping young people from taking part. 7. After a linking verb The question / problem / task + is + what is stopping... The main question is what is stopping Olivia from completing the form. 8. Inside a quotation Subject + reporting verb + “What is stopping...?” The coach asked, “What is stopping the players from training regularly?”",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss298-benefit-01",
+      "zh": "把焦點放在真正的障礙上這個句型把焦點放在造成困難的因素上，而不是單純責怪某人沒有採取行動。你為甚麼還沒有申請？ 是甚麼令你無法申請？ 第二個問句清楚邀請對方說明自己遇到的問題或障礙。",
+      "en": "This structure asks about the factor causing the difficulty instead of simply blaming the person for not taking action. Compare: Why haven’t you applied? What is stopping you from applying? The second question clearly invites the person to describe a problem or obstacle.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-benefit-02",
+      "zh": "幫助找出可以解決的問題回答者可以指出具體障礙，例如缺乏時間、金錢、資料、信心或支援。障礙變得清楚後，雙方便更容易商討解決方法。",
+      "en": "The answer may identify a specific barrier such as a lack of time, money, information, confidence or support. Once the obstacle is clear, it becomes easier to discuss a solution.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-benefit-03",
+      "zh": "適合用於工作、輔導和問題解決這個句型適合用於會議、指導對話、訪問、輔導和項目檢討。",
+      "en": "This structure is useful in meetings, coaching conversations, interviews, counselling and project reviews. What is stopping the team from meeting the deadline? What is stopping residents from using the service? What is stopping you from asking for help?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-benefit-04",
+      "zh": "避免在未了解情況前作出假設你不需要猜測某人為何尚未行動，而可以提出開放式問題，讓對方自行解釋。這通常能帶來更準確、更有用的答案。",
+      "en": "Instead of guessing why someone has not acted, you can ask an open question and allow the person to explain. This often produces a more accurate and useful answer.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-benefit-05",
+      "zh": "可以調整語氣核心表達既可以直接使用，也可以放在較婉轉的引入語後。這讓說話者可以按照情況選擇合適的語氣。",
+      "en": "The core expression can be used directly or placed after a softer introductory expression. Direct: What is stopping you from joining the course? Gentler: Could you tell me what is stopping you from joining the course? This allows the speaker to choose a tone that suits the situation.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss298-benefit-06",
+      "zh": "可以放在句中不同位置這個表達可以作為完整問句、動詞的受詞內容，或放在連繫動詞後補充資料。這讓學習者可以用更多不同方式組織問題、報告和解釋。",
+      "en": "The expression can function as a complete question, the object of a verb or the information after a linking verb. This gives learners more ways to organise questions, reports and explanations.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 297 maps to ss298: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the core expression:",
+      "what is stopping + person + from + V-ing",
+      "Preserve the introductory or reporting structure provided in the question. Do not place the core",
+      "expression at the beginning unless the meaning and first-word hint require it.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用以下核心表達改寫句子：",
+      "what is stopping + 某人 + from + V-ing",
+      "保留題目提供的引入語或報告結構。除非句意和第一個字要求，否則不要一律把核心表達放在句",
+      "首。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss298-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What is preventing you from starting today?",
+      "promptZh": "是甚麼妨礙你今天開始？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What is stopping you from starting today?",
+      "answerZh": "究竟是甚麼令你無法今天開始？",
+      "answerZhSource": "pdf",
+      "highlight": "What is stopping you from starting today?"
+    },
+    {
+      "id": "ss298-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which obstacle is preventing Ben from joining the club?",
+      "promptZh": "哪一項障礙令本無法加入該會社？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What is stopping Ben from joining the club?",
+      "answerZh": "究竟是甚麼令本無法加入該會社？",
+      "answerZhSource": "pdf",
+      "highlight": "What is stopping Ben from joining the club?"
+    },
+    {
+      "id": "ss298-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Can you tell me which difficulty is keeping the children from going outside?",
+      "promptZh": "你可以告訴我，是哪一項困難令孩子們無法到戶外嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can you tell me what is stopping the children from going outside?",
+      "answerZh": "你可以告訴我，是甚麼令孩子們無法到戶外嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can you tell me what is stopping the children from going outside?"
+    },
+    {
+      "id": "ss298-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Which problem is preventing your sister from applying for the job?",
+      "promptZh": "哪一個問題令你的姐姐無法申請這份工作？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What is stopping your sister from applying for the job?",
+      "answerZh": "究竟是甚麼令你的姐姐無法申請這份工作？",
+      "answerZhSource": "pdf",
+      "highlight": "What is stopping your sister from applying for the job?"
+    },
+    {
+      "id": "ss298-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I wonder which barrier is keeping us from making a decision.",
+      "promptZh": "我想知道是哪一項障礙令我們無法作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I wonder what is stopping us from making a decision.",
+      "answerZh": "我想知道是甚麼令我們無法作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "I wonder what is stopping us from making a decision."
+    },
+    {
+      "id": "ss298-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What is preventing the students from finishing the project?",
+      "promptZh": "是甚麼妨礙學生完成這個項目？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What is stopping the students from finishing the project?",
+      "answerZh": "究竟是甚麼令學生無法完成這個項目？",
+      "answerZhSource": "pdf",
+      "highlight": "What is stopping the students from finishing the project?"
+    },
+    {
+      "id": "ss298-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Do you know which concern is keeping Daniel from asking for help?",
+      "promptZh": "你知道是哪一項憂慮令丹尼爾不敢求助嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you know what is stopping Daniel from asking for help?",
+      "answerZh": "你知道是甚麼令丹尼爾無法求助嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you know what is stopping Daniel from asking for help?"
+    },
+    {
+      "id": "ss298-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Which obstacle is preventing the passengers from boarding the bus?",
+      "promptZh": "哪一項障礙令乘客無法登上巴士？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What is stopping the passengers from boarding the bus?",
+      "answerZh": "究竟是甚麼令乘客無法登上巴士？",
+      "answerZhSource": "pdf",
+      "highlight": "What is stopping the passengers from boarding the bus?"
+    },
+    {
+      "id": "ss298-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The question is which difficulty is keeping your parents from moving house.",
+      "promptZh": "問題是：哪一項困難令你的父母無法搬屋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The question is what is stopping your parents from moving house.",
+      "answerZh": "問題是：究竟是甚麼令你的父母無法搬屋。",
+      "answerZhSource": "pdf",
+      "highlight": "The question is what is stopping your parents from moving house."
+    },
+    {
+      "id": "ss298-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Can you explain which obstacle is preventing Leo from practising every day?",
+      "promptZh": "你可以解釋是哪一項障礙令里奧無法每天練習嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can you explain what is stopping Leo from practising every day?",
+      "answerZh": "你可以解釋是甚麼令里奧無法每天練習嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can you explain what is stopping Leo from practising every day?"
+    },
+    {
+      "id": "ss298-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Do you know what is preventing the team from booking the venue?",
+      "promptZh": "你知道是甚麼令團隊無法預訂場地嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you know what is stopping the team from booking the venue?",
+      "answerZh": "你知道是甚麼令團隊無法預訂場地嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you know what is stopping the team from booking the venue?"
+    },
+    {
+      "id": "ss298-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I wonder what is keeping Emma from replying to the email.",
+      "promptZh": "我想知道是甚麼令艾瑪無法回覆電郵。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I wonder what is stopping Emma from replying to the email.",
+      "answerZh": "我想知道是甚麼令艾瑪無法回覆電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "I wonder what is stopping Emma from replying to the email."
+    },
+    {
+      "id": "ss298-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We need to find out which barrier is preventing the residents from using the new service.",
+      "promptZh": "我們需要找出是哪一項障礙令居民無法使用新服務。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to find out what is stopping the residents from using the new service.",
+      "answerZh": "我們需要找出是甚麼令居民無法使用新服務。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to find out what is stopping the residents from using the new service."
+    },
+    {
+      "id": "ss298-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The teacher wants to know which problem is preventing the students from speaking English in class.",
+      "promptZh": "老師想知道是哪一個問題令學生無法在課堂上說英語。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher wants to know what is stopping the students from speaking English in class.",
+      "answerZh": "老師想知道是甚麼令學生無法在課堂上說英語。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher wants to know what is stopping the students from speaking English in class."
+    },
+    {
+      "id": "ss298-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The main question is which obstacle is preventing Olivia from completing the form.",
+      "promptZh": "主要問題是：哪一項障礙令奧莉花無法填妥表格。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The main question is what is stopping Olivia from completing the form.",
+      "answerZh": "主要問題是：究竟是甚麼令奧莉花無法填妥表格。",
+      "answerZhSource": "pdf",
+      "highlight": "The main question is what is stopping Olivia from completing the form."
+    },
+    {
+      "id": "ss298-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Could you tell me what is preventing your brother from attending the meeting?",
+      "promptZh": "你可以告訴我，是甚麼令你的弟弟無法出席會議嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could you tell me what is stopping your brother from attending the meeting?",
+      "answerZh": "你可以告訴我，是甚麼令你的弟弟無法出席會議嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Could you tell me what is stopping your brother from attending the meeting?"
+    },
+    {
+      "id": "ss298-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No one has explained which barrier is keeping the volunteers from beginning the clean-up.",
+      "promptZh": "沒有人解釋是哪一項障礙令義工無法開始清潔工作。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one has explained what is stopping the volunteers from beginning the clean-up.",
+      "answerZh": "沒有人解釋是甚麼令義工無法開始清潔工作。",
+      "answerZhSource": "pdf",
+      "highlight": "No one has explained what is stopping the volunteers from beginning the clean-up."
+    },
+    {
+      "id": "ss298-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before we change the plan, we should identify the problem preventing the group from continuing.",
+      "promptZh": "在我們更改計劃前，應先找出令小組無法繼續的問題。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we change the plan, we should identify what is stopping the group from continuing.",
+      "answerZh": "在我們更改計劃前，應先找出是甚麼令小組無法繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "Before we change the plan, we should identify what is stopping the group from continuing."
+    },
+    {
+      "id": "ss298-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "At this stage, which obstacle is preventing the company directors from hiring more staff?",
+      "promptZh": "現階段，哪一項障礙令公司董事無法聘請更多員工？",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, what is stopping the company directors from hiring more staff?",
+      "answerZh": "現階段，究竟是甚麼令公司董事無法聘請更多員工？",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, what is stopping the company directors from hiring more staff?"
+    },
+    {
+      "id": "ss298-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The coach asked, “What is preventing the players from training regularly?”",
+      "promptZh": "教練問：「是甚麼令球員無法定期訓練？」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach asked, “What is stopping the players from training regularly?”",
+      "answerZh": "教練問：「究竟是甚麼令球員無法定期訓練？」",
+      "answerZhSource": "pdf",
+      "highlight": "The coach asked, “What is stopping the players from training regularly?”"
+    },
+    {
+      "id": "ss298-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Can the doctor determine which condition is preventing the patient from sleeping well?",
+      "promptZh": "醫生能否確定是哪一種情況令病人無法安睡？",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can the doctor determine what is stopping the patient from sleeping well?",
+      "answerZh": "醫生能否確定是甚麼令病人無法安睡？",
+      "answerZhSource": "pdf",
+      "highlight": "Can the doctor determine what is stopping the patient from sleeping well?"
+    },
+    {
+      "id": "ss298-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Our first task is to discover the barrier preventing new customers from using the website.",
+      "promptZh": "我們的首要任務是找出令新顧客無法使用網站的障礙。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our first task is to discover what is stopping new customers from using the website.",
+      "answerZh": "我們的首要任務是找出是甚麼令新顧客無法使用網站。",
+      "answerZhSource": "pdf",
+      "highlight": "Our first task is to discover what is stopping new customers from using the website."
+    },
+    {
+      "id": "ss298-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The report should explain which factors are preventing young people from taking part in the programme.",
+      "promptZh": "報告應解釋哪些因素令年輕人無法參與這項活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report should explain what is stopping young people from taking part in the programme.",
+      "answerZh": "報告應解釋是甚麼令年輕人無法參與這項活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The report should explain what is stopping young people from taking part in the programme."
+    },
+    {
+      "id": "ss298-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Do the organisers understand which problem is keeping families from registering online?",
+      "promptZh": "主辦者是否明白是哪一個問題令家庭無法在網上登記？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do the organisers understand what is stopping families from registering online?",
+      "answerZh": "主辦者是否明白是甚麼令家庭無法在網上登記？",
+      "answerZhSource": "pdf",
+      "highlight": "Do the organisers understand what is stopping families from registering online?"
+    },
+    {
+      "id": "ss298-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager has asked us to investigate the barrier preventing the staff from sharing information.",
+      "promptZh": "經理已要求我們調查令員工無法分享資料的障礙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager has asked us to investigate what is stopping the staff from sharing information.",
+      "answerZh": "經理已要求我們調查是甚麼令員工無法分享資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager has asked us to investigate what is stopping the staff from sharing information."
+    },
+    {
+      "id": "ss298-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Which obstacle is preventing Clara from saving enough money for the course?",
+      "promptZh": "哪一項障礙令克拉拉無法為課程儲存足夠金錢？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What is stopping Clara from saving enough money for the course?",
+      "answerZh": "究竟是甚麼令克拉拉無法為課程儲存足夠金錢？",
+      "answerZhSource": "pdf",
+      "highlight": "What is stopping Clara from saving enough money for the course?"
+    },
+    {
+      "id": "ss298-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We cannot solve the problem until we know which issue is preventing the neighbours from cooperating.",
+      "promptZh": "在知道是哪一個問題令鄰居無法合作前，我們不能解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We cannot solve the problem until we know what is stopping the neighbours from cooperating.",
+      "answerZh": "在知道是甚麼令鄰居無法合作前，我們不能解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "We cannot solve the problem until we know what is stopping the neighbours from cooperating."
+    },
+    {
+      "id": "ss298-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee is discussing the barriers preventing older residents from attending the evening classes.",
+      "promptZh": "委員會正在討論令年長居民無法參加夜間課程的障礙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee is discussing what is stopping older residents from attending the evening classes.",
+      "answerZh": "委員會正在討論是甚麼令年長居民無法參加夜間課程。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee is discussing what is stopping older residents from attending the evening classes."
+    },
+    {
+      "id": "ss298-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Could the survey reveal which factors are keeping commuters from cycling to work?",
+      "promptZh": "這項調查能否顯示哪些因素令通勤人士無法踏單車上班？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could the survey reveal what is stopping commuters from cycling to work?",
+      "answerZh": "這項調查能否顯示是甚麼令通勤人士無法踏單車上班？",
+      "answerZhSource": "pdf",
+      "highlight": "Could the survey reveal what is stopping commuters from cycling to work?"
+    },
+    {
+      "id": "ss298-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "What I want to understand is which obstacle is preventing school leaders from introducing the change.",
+      "promptZh": "我想了解的是：哪一項障礙令學校領導層無法推行這項改變。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What I want to understand is what is stopping school leaders from introducing the change.",
+      "answerZh": "我想了解的是：究竟是甚麼令學校領導層無法推行這項改變。",
+      "answerZhSource": "pdf",
+      "highlight": "What I want to understand is what is stopping school leaders from introducing the change."
+    },
+    {
+      "id": "ss298-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although the application is simple, no one knows which issue is preventing Marcus from submitting it.",
+      "promptZh": "雖然申請程序很簡單，但沒有人知道是哪一個問題令馬庫斯無法提交申請。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the application is simple, no one knows what is stopping Marcus from submitting it.",
+      "answerZh": "雖然申請程序很簡單，但沒有人知道是甚麼令馬庫斯無法提交申請。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the application is simple, no one knows what is stopping Marcus from submitting it."
+    },
+    {
+      "id": "ss298-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The counsellor gently asks which concern is keeping the student from speaking to her parents.",
+      "promptZh": "輔導員溫和地詢問，是哪一項憂慮令該學生無法與父母傾談。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The counsellor gently asks what is stopping the student from speaking to her parents.",
+      "answerZh": "輔導員溫和地詢問，是甚麼令該學生無法與父母傾談。",
+      "answerZhSource": "pdf",
+      "highlight": "The counsellor gently asks what is stopping the student from speaking to her parents."
+    },
+    {
+      "id": "ss298-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "If the equipment is ready, which obstacle is preventing the technicians from carrying out the test?",
+      "promptZh": "如果設備已經準備好，哪一項障礙令技術人員無法進行測試？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the equipment is ready, what is stopping the technicians from carrying out the test?",
+      "answerZh": "如果設備已經準備好，究竟是甚麼令技術人員無法進行測試？",
+      "answerZhSource": "pdf",
+      "highlight": "If the equipment is ready, what is stopping the technicians from carrying out the test?"
+    },
+    {
+      "id": "ss298-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The council is trying to identify the barriers preventing local shop owners from reducing plastic waste.",
+      "promptZh": "市議會正嘗試找出令本地店主無法減少塑膠廢物的障礙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council is trying to identify what is stopping local shop owners from reducing plastic waste.",
+      "answerZh": "市議會正嘗試找出是甚麼令本地店主無法減少塑膠廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "The council is trying to identify what is stopping local shop owners from reducing plastic waste."
+    },
+    {
+      "id": "ss298-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We should not assume the answer before asking which concern is preventing the workers from reporting the safety problem.",
+      "promptZh": "在詢問是哪一項憂慮令工人無法報告安全問題前，我們不應妄下判斷。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should not assume the answer before asking what is stopping the workers from reporting the safety problem.",
+      "answerZh": "在詢問是甚麼令工人無法報告安全問題前，我們不應妄下判斷。",
+      "answerZhSource": "pdf",
+      "highlight": "We should not assume the answer before asking what is stopping the workers from reporting the safety problem."
+    },
+    {
+      "id": "ss298-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The interview may help us understand which factors are keeping some graduates from accepting jobs abroad.",
+      "promptZh": "這次訪問可能有助我們了解哪些因素令部分畢業生無法接受海外工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The interview may help us understand what is stopping some graduates from accepting jobs abroad.",
+      "answerZh": "這次訪問可能有助我們了解是甚麼令部分畢業生無法接受海外工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The interview may help us understand what is stopping some graduates from accepting jobs abroad."
+    },
+    {
+      "id": "ss298-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Her parents want to know which difficulty is preventing Sophia from returning to university.",
+      "promptZh": "她的父母想知道是哪一項困難令蘇菲亞無法重返大學。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her parents want to know what is stopping Sophia from returning to university.",
+      "answerZh": "她的父母想知道是甚麼令蘇菲亞無法重返大學。",
+      "answerZhSource": "pdf",
+      "highlight": "Her parents want to know what is stopping Sophia from returning to university."
+    },
+    {
+      "id": "ss298-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The question we must answer is which barrier is preventing the charity workers from reaching remote villages.",
+      "promptZh": "我們必須回答的問題是：哪一項障礙令慈善機構人員無法到達偏遠村落。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The question we must answer is what is stopping the charity workers from reaching remote villages.",
+      "answerZh": "我們必須回答的問題是：究竟是甚麼令慈善機構人員無法到達偏遠村落。",
+      "answerZhSource": "pdf",
+      "highlight": "The question we must answer is what is stopping the charity workers from reaching remote villages."
+    },
+    {
+      "id": "ss298-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "After hearing both sides, the mediator wants to know which issue is preventing the two groups from reaching an agreement.",
+      "promptZh": "聽取雙方意見後，調解員想知道是哪一個問題令兩個小組無法達成協議。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After hearing both sides, the mediator wants to know what is stopping the two groups from reaching an agreement.",
+      "answerZh": "聽取雙方意見後，調解員想知道是甚麼令兩個小組無法達成協議。",
+      "answerZhSource": "pdf",
+      "highlight": "After hearing both sides, the mediator wants to know what is stopping the two groups from reaching an agreement."
+    },
+    {
+      "id": "ss298-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Since the budget has been approved, which obstacle is preventing the department heads from launching the programme?",
+      "promptZh": "既然預算已獲批准，哪一項障礙令部門主管無法推出計劃？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the budget has been approved, what is stopping the department heads from launching the programme?",
+      "answerZh": "既然預算已獲批准，究竟是甚麼令部門主管無法推出計劃？",
+      "answerZhSource": "pdf",
+      "highlight": "Since the budget has been approved, what is stopping the department heads from launching the programme?"
+    },
+    {
+      "id": "ss298-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The research aims to uncover the barriers preventing low-income families from seeking financial advice.",
+      "promptZh": "這項研究旨在揭示令低收入家庭無法尋求理財意見的障礙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research aims to uncover what is stopping low-income families from seeking financial advice.",
+      "answerZh": "這項研究旨在揭示是甚麼令低收入家庭無法尋求理財意見。",
+      "answerZhSource": "pdf",
+      "highlight": "The research aims to uncover what is stopping low-income families from seeking financial advice."
+    },
+    {
+      "id": "ss298-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Rather than guessing, the school should ask which concerns are keeping quieter students from contributing to group discussions.",
+      "promptZh": "與其猜測，學校應詢問是哪些憂慮令較沉默的學生無法在小組討論中發言。",
+      "promptZhSource": "pdf",
+      "starter": "Rather",
+      "answer": "Rather than guessing, the school should ask what is stopping quieter students from contributing to group discussions.",
+      "answerZh": "與其猜測，學校應詢問是甚麼令較沉默的學生無法在小組討論中發言。",
+      "answerZhSource": "pdf",
+      "highlight": "Rather than guessing, the school should ask what is stopping quieter students from contributing to group discussions."
+    },
+    {
+      "id": "ss298-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The review panel has not yet established which problems are preventing several applicants from providing the required documents.",
+      "promptZh": "審核小組尚未確定是哪些問題令數名申請人無法提供所需文件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The review panel has not yet established what is stopping several applicants from providing the required documents.",
+      "answerZh": "審核小組尚未確定是甚麼令數名申請人無法提供所需文件。",
+      "answerZhSource": "pdf",
+      "highlight": "The review panel has not yet established what is stopping several applicants from providing the required documents."
+    },
+    {
+      "id": "ss298-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What the director needs to know is which issue is keeping experienced employees from applying for promotion.",
+      "promptZh": "董事需要知道的是：哪一個問題令有經驗的員工無法申請晉升。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the director needs to know is what is stopping experienced employees from applying for promotion.",
+      "answerZh": "董事需要知道的是：究竟是甚麼令有經驗的員工無法申請晉升。",
+      "answerZhSource": "pdf",
+      "highlight": "What the director needs to know is what is stopping experienced employees from applying for promotion."
+    },
+    {
+      "id": "ss298-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Even after the timetable was changed, the principal still cannot explain which concerns are preventing some teachers from joining the training.",
+      "promptZh": "即使時間表已經更改，校長仍無法解釋是哪些憂慮令部分教師無法參加培訓。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after the timetable was changed, the principal still cannot explain what is stopping some teachers from joining the training.",
+      "answerZh": "即使時間表已經更改，校長仍無法解釋是甚麼令部分教師無法參加培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "Even after the timetable was changed, the principal still cannot explain what is stopping some teachers from joining the training."
+    },
+    {
+      "id": "ss298-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The public consultation is intended to identify the barriers preventing residents with disabilities from accessing the new facilities.",
+      "promptZh": "公眾諮詢旨在找出令殘疾居民無法使用新設施的障礙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public consultation is intended to identify what is stopping residents with disabilities from accessing the new facilities.",
+      "answerZh": "公眾諮詢旨在找出是甚麼令殘疾居民無法使用新設施。",
+      "answerZhSource": "pdf",
+      "highlight": "The public consultation is intended to identify what is stopping residents with disabilities from accessing the new facilities."
+    },
+    {
+      "id": "ss298-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Unless we understand which issues are keeping employees in the two departments from sharing data, the delays will continue.",
+      "promptZh": "除非我們明白是哪些問題令兩個部門的員工無法分享數據，否則延誤將會持續。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless we understand what is stopping employees in the two departments from sharing data, the delays will continue.",
+      "answerZh": "除非我們明白是甚麼令兩個部門的員工無法分享數據，否則延誤將會持續。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless we understand what is stopping employees in the two departments from sharing data, the delays will continue."
+    },
+    {
+      "id": "ss298-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The journalist asks the minister which factor is preventing government officials from publishing the full report.",
+      "promptZh": "記者詢問部長，是哪一項因素令政府官員無法公布完整報告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The journalist asks the minister what is stopping government officials from publishing the full report.",
+      "answerZh": "記者詢問部長，是甚麼令政府官員無法公布完整報告。",
+      "answerZhSource": "pdf",
+      "highlight": "The journalist asks the minister what is stopping government officials from publishing the full report."
+    },
+    {
+      "id": "ss298-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "One purpose of the interview is to discover the barriers preventing the young entrepreneur from expanding her business overseas.",
+      "promptZh": "這次訪問的其中一個目的是找出令年輕企業家無法把業務拓展至海外的障礙。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One purpose of the interview is to discover what is stopping the young entrepreneur from expanding her business overseas.",
+      "answerZh": "這次訪問的其中一個目的是找出是甚麼令年輕企業家無法把業務拓展至海外。",
+      "answerZhSource": "pdf",
+      "highlight": "One purpose of the interview is to discover what is stopping the young entrepreneur from expanding her business overseas."
+    },
+    {
+      "id": "ss298-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Before any solution is proposed, the investigation must determine which problems are preventing frontline workers from raising concerns openly.",
+      "promptZh": "在提出任何解決方法前，調查必須確定是哪些問題令前線員工無法公開提出憂慮。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before any solution is proposed, the investigation must determine what is stopping frontline workers from raising concerns openly.",
+      "answerZh": "在提出任何解決方法前，調查必須確定是甚麼令前線員工無法公開提出憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "Before any solution is proposed, the investigation must determine what is stopping frontline workers from raising concerns openly."
+    }
+  ]
+}

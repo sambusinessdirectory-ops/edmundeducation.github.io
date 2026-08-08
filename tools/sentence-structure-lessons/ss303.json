@@ -1,0 +1,1286 @@
+{
+  "id": "ss303",
+  "order": 303,
+  "slug": "since-when",
+  "title": "「Since when...?」追問事情由何時開始",
+  "titleZh": "「Since when...?」追問事情由何時開始",
+  "titleEn": "Using “Since when...?”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 302 -「Since when..._」追問事情由何時開始.pdf",
+    "pageCount": 27,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "exercisePages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "answerPages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "sha256": "9d4dfa2e3d62834478a7fb7b0db84ea4ef9c35ee084b706f6f394ba683bb894b",
+    "sourceNumber": 302,
+    "systemOrder": 303,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 302 maps to ss303: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Since when + auxiliary verb / modal verb / be + subject + verb / complement?",
+  "formulas": [
+    {
+      "id": "ss303-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Since when + auxiliary verb / modal verb / be + subject + verb / complement?"
+    }
+  ],
+  "example": "Since when did you become an expert on education?",
+  "exampleZh": "你從甚麼時候起成了教育專家？",
+  "examples": [
+    {
+      "id": "ss303-example-01",
+      "en": "Since when did you become an expert on education?",
+      "zh": "你從甚麼時候起成了教育專家？",
+      "highlight": "Since when did you become an expert on education?"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss303-rule-01",
+      "zh": "核心句式是 Since when 固定的開首只是：【Since when】 後面的結構須按照問題的時態、語態及意思而決定。不要把某一個完整句式誤當成唯一用法。",
+      "en": "The core expression is “Since when” The fixed opening is simply: Since when The words following it depend on the tense, voice and meaning of the question. Since when Do not treat one complete sentence shell as the only possible form.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-02",
+      "zh": "與 do、does 及 did 連用你從甚麼時候起會在早餐前喝咖啡？ 這間咖啡店從甚麼時候起會收取自來水費？ 你從甚麼時候起成了教育專家？ 遲到從甚麼時候起變得可以接受？ 在 do、does 或 did 後，主要動詞必須使用原形。",
+      "en": "With “do”, “does” and “did” Present habit or current claim Since when + do / does + subject + base verb? Since when do you drink coffee before breakfast? Since when does the café charge for tap water? Past change or event Since when + did + subject + base verb? Since when did you become an expert on education? Since when did being late become acceptable? After do, does or did, use the base form of the main verb. Since when does he work here? Since when does he works here?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-03",
+      "zh": "與現在完成式連用這個形式適合描述一種在過去開始，並延續至現在的情況。你從甚麼時候起認識新經理？ 學校從甚麼時候起提供夜間課程？",
+      "en": "With the present perfect Since when + have / has + subject + past participle? This form is useful when a situation began in the past and continues to the present. Since when have you known the new manager? Since when has the school offered evening classes?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-04",
+      "zh": "與現在完成進行式連用這個形式適合描述較早開始，而且仍然持續的活動。你從甚麼時候起一直在家工作？ 以 Noah 為例：Noah 從甚麼時候起一直在學韓語？",
+      "en": "With the present perfect continuous Since when + have / has + subject + been + V-ing? Use this form for an activity that began earlier and is still continuing. Since when have you been working from home? Since when has Noah been learning Korean?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-05",
+      "zh": "與 be 動詞連用這間商店從甚麼時候起星期日也營業？ 本區居民從甚麼時候起被排除在這些會議之外？ 義工從甚麼時候起被要求自行支付制服費用？",
+      "en": "With “be” Since when + is / are / was / were + subject + complement? Since when is this shop open on Sundays? Since when are local residents excluded from these meetings? Since when were volunteers expected to pay for their own uniforms?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-06",
+      "zh": "與情態動詞連用學生從甚麼時候起可以在課堂上使用平板電腦？ 乘客從甚麼時候起必須出示身分證明文件？ 家長從甚麼時候起應該在網上預約？ 情態動詞須移到主語前。",
+      "en": "With modal verbs Since when + modal verb + subject + base verb? Possible modal verbs include: can could should must will would. Since when can students use tablets in class? Since when must passengers show identification? Since when should parents book appointments online? The modal verb moves before the subject.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-07",
+      "zh": "與被動句連用這個房間從甚麼時候起被用作工作室？ 顧客從甚麼時候起獲准退回已開封的產品？ 改寫時不得刪去原句的被動意思。",
+      "en": "With passive structures Since when + have / has + subject + been + past participle? Since when has this room been used as a studio? Since when have customers been allowed to return opened products? Do not remove the passive meaning during the transformation.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-08",
+      "zh": "與 there 連用停車場從甚麼時候起開始收費？ 在這個句式中，there 放在助動詞後面。",
+      "en": "With “there” Since when + has / have + there + been + noun phrase? Since when has there been a charge for using the car park? In this pattern, there comes after the auxiliary verb.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-09",
+      "zh": "以動名詞短語作主語主語不一定是人物。在午飯時間繼續工作從甚麼時候起在這裏變得正常？ 拒絕回答問題從甚麼時候起被視為有罪的證明？",
+      "en": "With a gerund phrase as the subject The subject does not have to be a person. Since when has working through lunch been normal here? Since when has refusing to answer a question counted as proof of guilt?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-10",
+      "zh": "附加資料並非核心句式的一部分你從甚麼時候起在家工作？ 你從甚麼時候起逢星期五在家工作？ 你從甚麼時候起在沒有通知經理的情況下在家工作？ 和 without informing the manager 是附加資料，並非固定句式的一部分。",
+      "en": "Optional extensions are not part of the core expression The core question may be complete without extra information: Since when have you worked from home? Extra information may be added: Since when have you worked from home on Fridays? Since when have you worked from home without informing the manager? The phrases on Fridays and without informing the manager are optional extensions. They are not part of the fixed expression. on Fridays",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-11",
+      "zh": "保留原句詞彙本練習測試如何組成 Since when...? 問句。除非文法上有需要，否則不得把原句的主要動詞或重要詞語換成近義詞。不要無故把 care about 改成 be concerned about。",
+      "en": "Preserve the original vocabulary This exercise tests the construction of a Since when...? question. Do not replace the original main verb or other important words with synonyms unless a grammatical change is necessary. Source: You care about office rules now. When did that begin? Answer: Since when do you care about office rules? Do not unnecessarily change care about into be concerned about.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-12",
+      "zh": "所有答案都必須以 Since when 開始由於 Since when 是固定的疑問句開首，因此不能自然地移到其他位置。真正的文法挑戰在於選擇 Since when 後面的正確結構，而不是猜測它在句中的位置。",
+      "en": "All answers must begin with “Since when” Because Since when is a fixed question opener, it cannot naturally be moved to different positions. The grammatical challenge lies in choosing the correct structure after it: did + subject + base verb do / does + subject + base verb have / has + subject + past participle have / has + subject + been + V-ing be + subject + complement modal verb + subject + base verb passive structures there + be different types of subjects.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-rule-13",
+      "zh": "注意語氣目標表達【Since when...?】可以帶有驚訝、懷疑或質問的語氣。這項規則何時開始？ 這項規則將由哪一天起生效？ 你在這裏工作了多久？ 只應在較強烈的語氣符合情境時使用 Since when...?。",
+      "en": "Be careful with tone Since when...? can sound surprised, doubtful or confrontational. Since when...? For a neutral or polite enquiry, the following may be more suitable: When did this rule begin? From what date will this rule apply? How long have you worked here? Use Since when...? when its stronger tone fits the situation.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss303-benefit-01",
+      "zh": "能清楚追問事情由何時開始聽者會立即明白，你正在追問一種習慣、情況、規則或想法的開始時間。",
+      "en": "It asks clearly when something began The listener immediately understands that you are asking for the starting point of a habit, situation, rule or belief.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-benefit-02",
+      "zh": "能表達驚訝或懷疑這個句式不只可以詢問時間，亦可以顯示新資料令人意外或難以相信。你甚麼時候開始提供職業建議？ 你從甚麼時候起竟然一直在提供職業建議？ 第二個問題帶有較強烈的反應。",
+      "en": "It can show surprise or disbelief Instead of merely asking for a date, the structure can show that the new information is unexpected or difficult to believe. Compare: When did you start giving career advice? Since when have you been giving career advice? The second question carries a stronger reaction.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-benefit-03",
+      "zh": "能質疑缺乏根據的說法當某人突然聲稱自己擁有權力、專業知識或許可時，可以使用這個句式提出質疑。你從甚麼時候起有權取消別人的預約？",
+      "en": "It helps challenge an unsupported claim You can use the structure when someone suddenly claims to have authority, expertise or permission. Since when have you had the authority to cancel other people’s bookings?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-benefit-04",
+      "zh": "能配合多種文法形式同一個開首可以配合：現在式及過去式；完成式及進行式；情態動詞；主動句及被動句；人物、事物及活動主語。因此，它是一個靈活的說話及寫作框架。",
+      "en": "It works with many different grammar forms The same opening can be used with: present and past forms perfect and continuous forms modal verbs active and passive sentences people, things and activities as subjects. This makes it a flexible speaking and writing frame.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-benefit-05",
+      "zh": "能更直接地表達不同意未經證實的傳聞從甚麼時候起可以當作證據？ 說話者並非單純詢問日期，而是在質疑這項說法是否合理。",
+      "en": "It can make disagreement more direct Since when can an unverified rumour count as evidence? The speaker is not simply asking for a date. The speaker is questioning the logic of the claim.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss303-benefit-06",
+      "zh": "能增加問句變化學生不需要反覆使用 When did...? 或 How long have...?，而可以用另一種方式追問事情的開始時間。",
+      "en": "It helps vary question structures Instead of repeatedly using When did...? or How long have...?, learners gain another way to ask about the beginning of a situation.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 302 maps to ss303: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt as one question beginning with Since when.",
+      "Preserve the original meaning, tense, voice, modal meaning and important vocabulary.",
+      "Do not replace the main verb with an unnecessary synonym.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "把每組句子改寫成一條以 Since when 開始的問句。",
+      "答案必須保留原句的意思、時態、語態、情態意思及重要詞彙。",
+      "不得把主要動詞換成不必要的近義詞。",
+      "每題已提供答案的第一個字。",
+      "基礎練習"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss303-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "You became an expert on education? When did that happen?",
+      "promptZh": "你成為了教育專家？這是甚麼時候發生的？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when did you become an expert on education?",
+      "answerZh": "你從甚麼時候起成了教育專家？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when did you become an expert on education?"
+    },
+    {
+      "id": "ss303-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "You drink coffee before breakfast now. When did this habit begin?",
+      "promptZh": "你現在會在早餐前喝咖啡。這個習慣從何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when do you drink coffee before breakfast?",
+      "answerZh": "你從甚麼時候起會在早餐前喝咖啡？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when do you drink coffee before breakfast?"
+    },
+    {
+      "id": "ss303-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Aaron walks to work now. When did he start doing that?",
+      "promptZh": "Aaron 現在步行上班。他從甚麼時候開始這樣做？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when does Aaron walk to work?",
+      "answerZh": "Aaron 從甚麼時候起步行上班？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when does Aaron walk to work?"
+    },
+    {
+      "id": "ss303-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "You have been interested in gardening for some time. When did that begin?",
+      "promptZh": "你對園藝感興趣已有一段時間。這是從何時開始的？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have you been interested in gardening?",
+      "answerZh": "你從甚麼時候起一直對園藝感興趣？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have you been interested in gardening?"
+    },
+    {
+      "id": "ss303-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "This shop is open on Sundays now. When did that begin?",
+      "promptZh": "這間商店現在星期日也營業。這是從何時開始的？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when is this shop open on Sundays?",
+      "answerZh": "這間商店從甚麼時候起星期日也營業？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when is this shop open on Sundays?"
+    },
+    {
+      "id": "ss303-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "You have known the new manager for some time. When did that begin?",
+      "promptZh": "你認識新經理已有一段時間。這是從何時開始的？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have you known the new manager?",
+      "answerZh": "你從甚麼時候起認識新經理？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have you known the new manager?"
+    },
+    {
+      "id": "ss303-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Ella has been playing in the school orchestra. When did she begin doing so?",
+      "promptZh": "Ella 一直在學校樂團演奏。她從甚麼時候開始這樣做？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when has Ella been playing in the school orchestra?",
+      "answerZh": "Ella 從甚麼時候起一直在學校樂團演奏？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when has Ella been playing in the school orchestra?"
+    },
+    {
+      "id": "ss303-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Students can use tablets in class now. When was this first allowed?",
+      "promptZh": "學生現在可以在課堂上使用平板電腦。這項安排最初何時獲准？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when can students use tablets in class?",
+      "answerZh": "學生從甚麼時候起可以在課堂上使用平板電腦？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when can students use tablets in class?"
+    },
+    {
+      "id": "ss303-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "These meetings have been held online for some time. When did this arrangement begin?",
+      "promptZh": "這些會議改為在網上舉行已有一段時間。這項安排何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have these meetings been held online?",
+      "answerZh": "這些會議從甚麼時候起一直在網上舉行？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have these meetings been held online?"
+    },
+    {
+      "id": "ss303-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "They have lived next door for some time. When did they begin living there?",
+      "promptZh": "他們住在隔壁已有一段時間。他們何時開始住在那裏？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have they lived next door?",
+      "answerZh": "他們從甚麼時候起住在隔壁？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have they lived next door?"
+    },
+    {
+      "id": "ss303-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Your brother started supporting that team at some point. When did he start?",
+      "promptZh": "你哥哥在某個時候開始支持那支球隊。他何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when did your brother start supporting that team?",
+      "answerZh": "你哥哥從甚麼時候起開始支持那支球隊？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when did your brother start supporting that team?"
+    },
+    {
+      "id": "ss303-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The café charges for tap water now. When was this charge introduced?",
+      "promptZh": "這間咖啡店現在會收取自來水費。這項收費何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when does the café charge for tap water?",
+      "answerZh": "這間咖啡店從甚麼時候起會收取自來水費？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when does the café charge for tap water?"
+    },
+    {
+      "id": "ss303-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "You care about office rules now. When did that attitude begin?",
+      "promptZh": "你現在很在意辦公室規則。這種態度從何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when do you care about office rules?",
+      "answerZh": "你從甚麼時候起這麼在意辦公室規則？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when do you care about office rules?"
+    },
+    {
+      "id": "ss303-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The library closes at six now. When did this timetable begin?",
+      "promptZh": "圖書館現在六時關門。這個時間安排何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when does the library close at six?",
+      "answerZh": "圖書館從甚麼時候起六時關門？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when does the library close at six?"
+    },
+    {
+      "id": "ss303-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Employees are required to wear badges now. When was this rule introduced?",
+      "promptZh": "僱員現在必須佩戴識別證。這項規則何時開始實施？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when are employees required to wear badges?",
+      "answerZh": "僱員從甚麼時候起被要求佩戴識別證？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when are employees required to wear badges?"
+    },
+    {
+      "id": "ss303-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "This room has been used as a studio for some time. When did that use begin?",
+      "promptZh": "這個房間被用作工作室已有一段時間。這種用途從何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when has this room been used as a studio?",
+      "answerZh": "這個房間從甚麼時候起被用作工作室？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when has this room been used as a studio?"
+    },
+    {
+      "id": "ss303-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Visitors can enter through this gate now. When was this first allowed?",
+      "promptZh": "訪客現在可以從這道閘門進入。這項安排最初何時獲准？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when can visitors enter through this gate?",
+      "answerZh": "訪客從甚麼時候起可以從這道閘門進入？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when can visitors enter through this gate?"
+    },
+    {
+      "id": "ss303-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Parents should book appointments online now. When did this advice begin?",
+      "promptZh": "家長現在應該在網上預約。這項建議從何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when should parents book appointments online?",
+      "answerZh": "家長從甚麼時候起應該在網上預約？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when should parents book appointments online?"
+    },
+    {
+      "id": "ss303-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Passengers must show identification now. When did this requirement begin?",
+      "promptZh": "乘客現在必須出示身分證明文件。這項要求從何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when must passengers show identification?",
+      "answerZh": "乘客從甚麼時候起必須出示身分證明文件？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when must passengers show identification?"
+    },
+    {
+      "id": "ss303-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "You agree with that policy now. When did your opinion change?",
+      "promptZh": "你現在認同那項政策。你的看法何時改變？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when do you agree with that policy?",
+      "answerZh": "你從甚麼時候起認同那項政策？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when do you agree with that policy?"
+    },
+    {
+      "id": "ss303-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "You have been working from home. When did you begin doing so?",
+      "promptZh": "你一直在家工作。你從甚麼時候開始這樣做？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have you been working from home?",
+      "answerZh": "你從甚麼時候起一直在家工作？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have you been working from home?"
+    },
+    {
+      "id": "ss303-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Noah has been learning Korean. When did he begin?",
+      "promptZh": "Noah 一直在學韓語。他從甚麼時候開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when has Noah been learning Korean?",
+      "answerZh": "Noah 從甚麼時候起一直在學韓語？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when has Noah been learning Korean?"
+    },
+    {
+      "id": "ss303-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "These delivery companies have been charging a delivery fee. When did the charge begin?",
+      "promptZh": "這些速遞公司一直收取送貨費。這項收費何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have these delivery companies been charging a delivery fee?",
+      "answerZh": "這些速遞公司從甚麼時候起一直收取送貨費？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have these delivery companies been charging a delivery fee?"
+    },
+    {
+      "id": "ss303-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The local council has been collecting food waste. When did the service begin?",
+      "promptZh": "本區議會一直收集廚餘。這項服務何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when has the local council been collecting food waste?",
+      "answerZh": "本區議會從甚麼時候起一直收集廚餘？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when has the local council been collecting food waste?"
+    },
+    {
+      "id": "ss303-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "You have owned a motorbike for some time. When did you buy it?",
+      "promptZh": "你擁有一輛電單車已有一段時間。你何時買下它？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have you owned a motorbike?",
+      "answerZh": "你從甚麼時候起擁有一輛電單車？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have you owned a motorbike?"
+    },
+    {
+      "id": "ss303-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "These schools have offered evening classes for some time. When did the programme begin?",
+      "promptZh": "這些學校提供夜間課程已有一段時間。這項課程何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have these schools offered evening classes?",
+      "answerZh": "這些學校從甚麼時候起提供夜間課程？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have these schools offered evening classes?"
+    },
+    {
+      "id": "ss303-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "These buildings have required visitors to sign in for some time. When was this requirement introduced?",
+      "promptZh": "這些大廈要求訪客登記已有一段時間。這項要求何時開始實施？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have these buildings required visitors to sign in?",
+      "answerZh": "這些大廈從甚麼時候起要求訪客登記？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have these buildings required visitors to sign in?"
+    },
+    {
+      "id": "ss303-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Customers have been allowed to return opened products. When did this policy begin?",
+      "promptZh": "顧客獲准退回已開封的產品。這項政策何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have customers been allowed to return opened products?",
+      "answerZh": "顧客從甚麼時候起獲准退回已開封的產品？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have customers been allowed to return opened products?"
+    },
+    {
+      "id": "ss303-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "These parks have been closed at night for some time. When did the closures begin?",
+      "promptZh": "這些公園在晚間關閉已有一段時間。這項安排何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have these parks been closed at night?",
+      "answerZh": "這些公園從甚麼時候起在晚間關閉？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have these parks been closed at night?"
+    },
+    {
+      "id": "ss303-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "These buses have been stopping at the hospital. When was this stop added to the route?",
+      "promptZh": "這些巴士一直會在醫院停站。這個站何時加入路線？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have these buses been stopping at the hospital?",
+      "answerZh": "這些巴士從甚麼時候起一直會在醫院停站？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have these buses been stopping at the hospital?"
+    },
+    {
+      "id": "ss303-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The editor has approved articles without checking the sources. When did this practice begin?",
+      "promptZh": "編輯沒有核實資料來源便批准文章。這種做法從何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when has the editor approved articles without checking the sources?",
+      "answerZh": "編輯從甚麼時候起沒有核實資料來源便批准文章？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when has the editor approved articles without checking the sources?"
+    },
+    {
+      "id": "ss303-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Your team holds meetings on Saturdays now. When did this schedule begin?",
+      "promptZh": "你的團隊現在星期六也舉行會議。這個安排何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when does your team hold meetings on Saturdays?",
+      "answerZh": "你的團隊從甚麼時候起星期六也舉行會議？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when does your team hold meetings on Saturdays?"
+    },
+    {
+      "id": "ss303-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "You consider yourself a fitness expert now. When did that begin?",
+      "promptZh": "你現在認為自己是健身專家。這是從何時開始的？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have you considered yourself a fitness expert?",
+      "answerZh": "你從甚麼時候起認為自己是健身專家？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have you considered yourself a fitness expert?"
+    },
+    {
+      "id": "ss303-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The company has expected staff to answer messages at night. When did this expectation begin?",
+      "promptZh": "公司一直要求職員在晚上回覆訊息。這項要求從何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when has the company expected staff to answer messages at night?",
+      "answerZh": "公司從甚麼時候起要求職員在晚上回覆訊息？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when has the company expected staff to answer messages at night?"
+    },
+    {
+      "id": "ss303-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "One person can now make decisions for the whole group. When was this allowed?",
+      "promptZh": "現在一個人可以替整個群體作決定。這項安排何時獲准？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when can one person make decisions for the whole group?",
+      "answerZh": "從甚麼時候起，一個人可以替整個群體作決定？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when can one person make decisions for the whole group?"
+    },
+    {
+      "id": "ss303-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Local residents are now excluded from these meetings. When did this rule begin?",
+      "promptZh": "本區居民現在被排除在這些會議之外。這項規則何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when are local residents excluded from these meetings?",
+      "answerZh": "本區居民從甚麼時候起被排除在這些會議之外？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when are local residents excluded from these meetings?"
+    },
+    {
+      "id": "ss303-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "There has been a charge for using the car park. When was it introduced?",
+      "promptZh": "使用停車場需要付費。這項收費何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when has there been a charge for using the car park?",
+      "answerZh": "使用停車場從甚麼時候起需要付費？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when has there been a charge for using the car park?"
+    },
+    {
+      "id": "ss303-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Being late became acceptable at some point. When did that happen?",
+      "promptZh": "遲到在某個時候變得可以接受。這是甚麼時候發生的？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when did being late become acceptable?",
+      "answerZh": "遲到從甚麼時候起變得可以接受？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when did being late become acceptable?"
+    },
+    {
+      "id": "ss303-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Working through lunch has been normal here for some time. When did that begin?",
+      "promptZh": "在午飯時間繼續工作在這裏已經正常了一段時間。這是從何時開始的？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when has working through lunch been normal here?",
+      "answerZh": "在午飯時間繼續工作從甚麼時候起在這裏變得正常？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when has working through lunch been normal here?"
+    },
+    {
+      "id": "ss303-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "During the old programme, volunteers were expected to pay for their own uniforms. From what point did this rule apply?",
+      "promptZh": "在舊計劃中，義工被要求自行支付制服費用。這項規則由何時開始實施？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when were volunteers expected to pay for their own uniforms?",
+      "answerZh": "義工從甚麼時候起被要求自行支付制服費用？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when were volunteers expected to pay for their own uniforms?"
+    },
+    {
+      "id": "ss303-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "You have been speaking on behalf of the entire department. When did you begin doing that?",
+      "promptZh": "你一直代表整個部門發言。你從甚麼時候開始這樣做？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have you been speaking on behalf of the entire department?",
+      "answerZh": "你從甚麼時候起一直代表整個部門發言？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have you been speaking on behalf of the entire department?"
+    },
+    {
+      "id": "ss303-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The museum has been permitted to display private letters. When was permission first granted?",
+      "promptZh": "博物館獲准展示私人信件。這項許可最初何時批出？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when has the museum been permitted to display private letters?",
+      "answerZh": "博物館從甚麼時候起獲准展示私人信件？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when has the museum been permitted to display private letters?"
+    },
+    {
+      "id": "ss303-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "An unverified rumour can now count as evidence. When did that become acceptable?",
+      "promptZh": "未經證實的傳聞現在可以當作證據。這是從何時開始被接受的？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when can an unverified rumour count as evidence?",
+      "answerZh": "未經證實的傳聞從甚麼時候起可以當作證據？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when can an unverified rumour count as evidence?"
+    },
+    {
+      "id": "ss303-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Committee members have treated silence as agreement. When did this practice begin?",
+      "promptZh": "委員會成員一直把沉默視為同意。這種做法從何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have committee members treated silence as agreement?",
+      "answerZh": "委員會成員從甚麼時候起把沉默視為同意？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have committee members treated silence as agreement?"
+    },
+    {
+      "id": "ss303-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Applicants must now provide three separate references. When was this requirement introduced?",
+      "promptZh": "申請人現在必須提供三份不同的推薦人資料。這項要求何時開始實施？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when must applicants provide three separate references?",
+      "answerZh": "申請人從甚麼時候起必須提供三份不同的推薦人資料？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when must applicants provide three separate references?"
+    },
+    {
+      "id": "ss303-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Residents have been required to sort food waste separately. When did this rule begin?",
+      "promptZh": "居民一直被要求把廚餘分開處理。這項規則何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have residents been required to sort food waste separately?",
+      "answerZh": "居民從甚麼時候起被要求把廚餘分開處理？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have residents been required to sort food waste separately?"
+    },
+    {
+      "id": "ss303-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The station has allowed bicycles on peak-hour trains. When did this policy begin?",
+      "promptZh": "車站一直准許乘客把單車帶上繁忙時段的列車。這項政策何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when has the station allowed bicycles on peak-hour trains?",
+      "answerZh": "車站從甚麼時候起准許乘客把單車帶上繁忙時段的列車？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when has the station allowed bicycles on peak-hour trains?"
+    },
+    {
+      "id": "ss303-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "A personal preference became an official rule at some point. When did that happen?",
+      "promptZh": "個人偏好在某個時候變成了正式規則。這是甚麼時候發生的？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when did a personal preference become an official rule?",
+      "answerZh": "個人偏好從甚麼時候起變成了正式規則？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when did a personal preference become an official rule?"
+    },
+    {
+      "id": "ss303-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "You have had the authority to cancel other people’s bookings. When was this authority given to you?",
+      "promptZh": "你一直有權取消其他人的預約。你何時獲得這項權力？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when have you had the authority to cancel other people’s bookings?",
+      "answerZh": "你從甚麼時候起有權取消其他人的預約？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when have you had the authority to cancel other people’s bookings?"
+    },
+    {
+      "id": "ss303-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Refusing to answer a question has counted as proof of guilt. When did this idea begin?",
+      "promptZh": "拒絕回答問題一直被視為有罪的證明。這種想法從何時開始？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since when has refusing to answer a question counted as proof of guilt?",
+      "answerZh": "拒絕回答問題從甚麼時候起被視為有罪的證明？",
+      "answerZhSource": "pdf",
+      "highlight": "Since when has refusing to answer a question counted as proof of guilt?"
+    }
+  ]
+}

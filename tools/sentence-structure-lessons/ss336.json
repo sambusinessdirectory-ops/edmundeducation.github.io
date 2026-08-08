@@ -1,0 +1,1237 @@
+{
+  "id": "ss336",
+  "order": 336,
+  "slug": "come-at-the-cost-of-noun-v-ing",
+  "title": "「come at the cost of + 名詞／V-ing」表示「以……為代價」",
+  "titleZh": "「come at the cost of + 名詞／V-ing」表示「以……為代價」",
+  "titleEn": "Using “come at the cost of + noun / V-ing”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 334 -「come at the cost of + 名詞／V-ing」表示「以……為代價」.pdf",
+    "pageCount": 26,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exercisePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "sha256": "85dbbaf65ebffbfe203a69eca1e6fcbebf52125e534d240d51e0db7ead66c889",
+    "sourceNumber": 334,
+    "systemOrder": 336,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 334 maps to ss336: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Does / Did + X + come at the cost of + noun / V-ing?",
+  "formulas": [
+    {
+      "id": "ss336-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Does / Did + X + come at the cost of + noun / V-ing?"
+    }
+  ],
+  "example": "Faster production often comes at the cost of lower quality.",
+  "exampleZh": "更快的生產速度往往以質素下降為代價。",
+  "examples": [
+    {
+      "id": "ss336-example-01",
+      "en": "Faster production often comes at the cost of lower quality.",
+      "zh": "更快的生產速度往往以質素下降為代價。",
+      "highlight": "Faster production often comes at the cost of lower quality."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss336-rule-01",
+      "zh": "在 come at the cost of 中，of 是介詞，後面可接表示品質、私隱、公眾信任或工人安全的名詞和名詞片語；也可接動詞的 -ing 形式，表示失去顧客、削減培訓或忽略細節。不可直接接動詞原形，也不可改成不定詞或刪去介詞。",
+      "en": "“of” at the cost of quality at the cost of privacy at the cost of public trust at the cost of workers’ safety at the cost of losing customers at the cost of reducing staff training at the cost of working longer hours at the cost of ignoring important details at the cost of lose customers at the cost of to lose customers at the cost to lose customers",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss336-rule-02",
+      "zh": "通常代表得到的好處或成果在以下句子中：【Faster production comes at the cost of lower quality.】 得到的好處：faster production 被犧牲的事物：quality 兩者的位置不可隨意倒轉。這句並非原句的另一種寫法，而是表達了不同的取捨關係。",
+      "en": "X Faster production comes at the cost of lower quality. Lower quality comes at the cost of faster production",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss336-rule-03",
+      "zh": "這個句型不只表示金錢上的代價詞語【“cost”】可以是：金錢（money）；時間（time）；健康（health）；質素（quality）；安全（safety）；私隱（privacy）；自由（freedom）；信任（trust）；人際關係（relationships）；機會（opportunities）。",
+      "en": "Cost is not limited to money. It may refer to time, health, quality, safety, privacy, freedom, trust, relationships or opportunities.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss336-rule-04",
+      "zh": "必須存在真正的取捨關係這個句型並不只是表示兩件事情同時發生。不適合：【The shop opened at nine, and it rained in the afternoon.】 商店九時開門，而下午下雨。 兩件事情之間沒有明顯的犧牲或取捨關係。適合：【The shop extended its opening hours, but the staff had less time to rest.】 商店延長了營業時間，但員工的休息時間減少了。 延長營業時間是以減少員工休息時間為代價。",
+      "en": "The shop opened at nine, and it rained in the afternoon. The shop extended its opening hours, but the staff had less time to rest. The longer opening hours came at the cost of giving the staff less time to rest.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss336-rule-05",
+      "zh": "保留原句的可能性和語氣原句使用 may，答案也不應變成肯定事實。錯誤答案把「可能」變成了「必然」。",
+      "en": "Source: Greater safety may require people to give up some freedom. Greater safety may come at the cost of some freedom. Greater safety comes at the cost of some freedom.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss336-rule-06",
+      "zh": "不一定緊接在第一個主語後面目標表達可以出現在：主句疑問句條件子句關係子句子句（that）；子句（whether）；詞語【seem to】或 be likely to 之後因此，不應只尋找一個固定答案位置。",
+      "en": "The target expression need not immediately follow the first subject. It may occur in a main clause, question, conditional or relative clause, a that- or whether-clause, or after seem to and be likely to.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss336-benefit-01",
+      "zh": "清楚表達「有得必有失」這個句型可以立即告訴讀者，一項改善或好處並非毫無代價。快速送貨以減少仔細檢查為代價。 讀者可以清楚看到：得到了甚麼；同時犧牲了甚麼。",
+      "en": "Faster delivery comes at the cost of careful checking.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss336-benefit-02",
+      "zh": "比單純使用 but 更準確一般說法：【The service is faster, but it is less reliable.】 服務更快，但可靠性較低。 使用目標句型：【Faster service comes at the cost of reliability.】 更快的服務以可靠性為代價。 第二句不只表示兩項事實相反，還清楚說明兩者存在取捨關係。",
+      "en": "The service is faster, but it is less reliable. Faster service comes at the cost of reliability.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss336-benefit-03",
+      "zh": "適合分析決定和政策在作文、報告、辯論和簡報中，學生經常需要分析一項決定的利弊。這個句型可以幫助你解釋：公司為了降低成本而犧牲了甚麼；科技為了增加便利而犧牲了甚麼；政策為了提高安全而限制了甚麼；個人為了取得成功而放棄了甚麼。",
+      "en": "The structure supports analysis of decisions and policies by identifying what a company, technology, policy or individual sacrifices in order to reduce costs, increase convenience, improve safety or achieve success.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss336-benefit-04",
+      "zh": "令論點更完整學生有時只會說：【This is good.】 使用這個句型，可以直接把好處和代價連接起來：【The lower price comes at the cost of poorer materials.】 較低的價格以較差的物料為代價。 論點會更加具體，也更容易理解。",
+      "en": "This is good. However, there is a disadvantage. The lower price comes at the cost of poorer materials.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss336-benefit-05",
+      "zh": "可以用來反對錯誤的「二選一」否定形式可以表示兩項好處不一定互相衝突：【Efficiency does not have to come at the cost of fairness.】 提升效率不一定要以犧牲公平為代價。 這類句子適合用來提出更平衡的意見，而不是假設所有改善都必須造成損失。",
+      "en": "Efficiency does not have to come at the cost of fairness.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss336-benefit-06",
+      "zh": "能靈活放入不同句型你可以使用：【comes；came；has come；may come；should not come；Does... come?；If... comes...；which comes...】 因此，學生不只是記住一句固定句子，而是可以在不同說話和寫作情境中運用同一個核心表達。",
+      "en": "comes came has come may come should not come Does... come? If... comes... which comes... whether...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 334 maps to ss336: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using an appropriate form of come at the cost of + noun/V-ing.",
+      "Preserve the original meaning, tense, modality, subject relationships and important details.",
+      "The target expression may appear in a main clause, question, conditional clause, relative clause",
+      "or embedded clause.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用適當形式的 come at the cost of + 名詞／V-ing 改寫以下句子。",
+      "答案須保留原句的意思、時態、語氣、主語關係及重要資料。",
+      "目標表達可以出現在主句、疑問句、條件子句、關係子句或嵌入式子句中。",
+      "每題已提供答案的第一個字。",
+      "寫"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss336-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Companies often produce goods faster only by accepting lower quality.",
+      "promptZh": "公司往往只有接受較低的質素，才能更快生產貨品。",
+      "promptZhSource": "pdf",
+      "starter": "Faster",
+      "answer": "Faster production often comes at the cost of lower quality.",
+      "answerZh": "更快的生產速度往往以質素下降為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Faster production often comes at the cost of lower quality."
+    },
+    {
+      "id": "ss336-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Greater convenience is sometimes possible only when users give up some personal privacy.",
+      "promptZh": "用戶有時只有放棄部分個人私隱，才能享有更大的便利。",
+      "promptZhSource": "pdf",
+      "starter": "Greater",
+      "answer": "Greater convenience sometimes comes at the cost of personal privacy.",
+      "answerZh": "更大的便利有時以犧牲個人私隱為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Greater convenience sometimes comes at the cost of personal privacy."
+    },
+    {
+      "id": "ss336-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "People may achieve more by working longer hours, but their health may suffer.",
+      "promptZh": "人們延長工時或許能完成更多工作，但健康可能受損。",
+      "promptZhSource": "pdf",
+      "starter": "Working",
+      "answer": "Working longer hours can come at the cost of good health.",
+      "answerZh": "延長工時可能以健康為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Working longer hours can come at the cost of good health."
+    },
+    {
+      "id": "ss336-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The seller achieved the lower price only by using poorer materials.",
+      "promptZh": "賣方只有使用較差的物料，才能提供較低的價格。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lower price came at the cost of using poorer materials.",
+      "answerZh": "較低的價格是以使用較差的物料為代價換來的。",
+      "answerZhSource": "pdf",
+      "highlight": "The lower price came at the cost of using poorer materials."
+    },
+    {
+      "id": "ss336-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A classroom is sometimes quieter only because students discuss less.",
+      "promptZh": "課室有時變得較安靜，只是因為學生減少了討論。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A quieter classroom sometimes comes at the cost of less student discussion.",
+      "answerZh": "較安靜的課室有時以學生減少討論為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "A quieter classroom sometimes comes at the cost of less student discussion."
+    },
+    {
+      "id": "ss336-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Orders are often delivered rapidly only because workers spend less time checking them carefully.",
+      "promptZh": "訂單往往能快速送達，只是因為員工減少了仔細檢查的時間。",
+      "promptZhSource": "pdf",
+      "starter": "Rapid",
+      "answer": "Rapid delivery often comes at the cost of careful checking.",
+      "answerZh": "快速送貨往往以減少仔細檢查為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Rapid delivery often comes at the cost of careful checking."
+    },
+    {
+      "id": "ss336-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The team succeeded early, but only by exhausting its best players.",
+      "promptZh": "球隊早段取得成功，但代價是令最優秀的球員筋疲力盡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team’s early success came at the cost of exhausting its best players.",
+      "answerZh": "球隊早段的成功是以令最優秀的球員筋疲力盡為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The team’s early success came at the cost of exhausting its best players."
+    },
+    {
+      "id": "ss336-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Greater safety may require people to give up some freedom.",
+      "promptZh": "更高的安全程度可能需要人們放棄部分自由。",
+      "promptZhSource": "pdf",
+      "starter": "Greater",
+      "answer": "Greater safety may come at the cost of some freedom.",
+      "answerZh": "更高的安全程度可能以犧牲部分自由為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Greater safety may come at the cost of some freedom."
+    },
+    {
+      "id": "ss336-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We can have the larger house only if we accept a longer journey to work.",
+      "promptZh": "我們只有接受更長的上班路程，才能入住較大的房子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The larger house comes at the cost of a longer journey to work.",
+      "answerZh": "較大的房子是以更長的上班路程為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The larger house comes at the cost of a longer journey to work."
+    },
+    {
+      "id": "ss336-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "People sometimes save time only by accepting that they will make more mistakes.",
+      "promptZh": "人們有時只有接受自己會犯更多錯誤，才能節省時間。",
+      "promptZhSource": "pdf",
+      "starter": "Saving",
+      "answer": "Saving time sometimes comes at the cost of making more mistakes.",
+      "answerZh": "節省時間有時以犯更多錯誤為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Saving time sometimes comes at the cost of making more mistakes."
+    },
+    {
+      "id": "ss336-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Online shopping is convenient, but it often reduces support for local shops.",
+      "promptZh": "網上購物十分方便，但往往會減少人們對本地商店的支持。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The convenience of online shopping often comes at the cost of reduced support for local shops.",
+      "answerZh": "網上購物的便利往往以減少對本地商店的支持為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The convenience of online shopping often comes at the cost of reduced support for local shops."
+    },
+    {
+      "id": "ss336-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "He gained a promotion, but he had to spend less time with his family.",
+      "promptZh": "他獲得了晉升，但與家人相處的時間減少了。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His promotion came at the cost of spending less time with his family.",
+      "answerZh": "他獲得晉升，代價是與家人相處的時間減少了。",
+      "answerZhSource": "pdf",
+      "highlight": "His promotion came at the cost of spending less time with his family."
+    },
+    {
+      "id": "ss336-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "They have improved their results only by accepting considerable stress.",
+      "promptZh": "他們只有承受相當大的壓力，才能改善成績。",
+      "promptZhSource": "pdf",
+      "starter": "Their",
+      "answer": "Their improved results have come at the cost of considerable stress.",
+      "answerZh": "他們改善了成績，卻承受了相當大的壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "Their improved results have come at the cost of considerable stress."
+    },
+    {
+      "id": "ss336-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The flat has extra storage space because part of the living area has been reduced.",
+      "promptZh": "這個單位增加了儲物空間，因為部分生活空間被縮小了。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This extra storage space comes at the cost of a smaller living area.",
+      "answerZh": "額外的儲物空間是以縮小生活空間為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "This extra storage space comes at the cost of a smaller living area."
+    },
+    {
+      "id": "ss336-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Does working faster require us to sacrifice accuracy?",
+      "promptZh": "加快工作速度是否需要我們犧牲準確性？",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does greater speed come at the cost of accuracy?",
+      "answerZh": "更快的速度是否以準確性為代價？",
+      "answerZhSource": "pdf",
+      "highlight": "Does greater speed come at the cost of accuracy?"
+    },
+    {
+      "id": "ss336-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The company believes that it should never increase profits by risking workers’ safety.",
+      "promptZh": "公司認為，增加利潤時絕不應危及工人的安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company believes that higher profits should not come at the cost of workers’ safety.",
+      "answerZh": "公司認為，增加利潤不應以工人的安全為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The company believes that higher profits should not come at the cost of workers’ safety."
+    },
+    {
+      "id": "ss336-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We can shorten the meeting without reducing the amount of discussion.",
+      "promptZh": "我們可以縮短會議，而不減少討論的內容。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A shorter meeting need not come at the cost of a full discussion.",
+      "answerZh": "縮短會議不一定要以犧牲完整討論為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "A shorter meeting need not come at the cost of a full discussion."
+    },
+    {
+      "id": "ss336-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "This design is simple, but it offers less flexibility in return.",
+      "promptZh": "這個設計十分簡潔，但相對地欠缺靈活性。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this design, simplicity comes at the cost of flexibility.",
+      "answerZh": "在這個設計中，簡潔性是以靈活性為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "In this design, simplicity comes at the cost of flexibility."
+    },
+    {
+      "id": "ss336-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Many families can afford cheaper housing only by living farther from the city centre.",
+      "promptZh": "許多家庭只有住得離市中心更遠，才能負擔較便宜的住房。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For many families, cheaper housing comes at the cost of living farther from the city centre.",
+      "answerZh": "對許多家庭而言，較便宜的住房是以住得離市中心更遠為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "For many families, cheaper housing comes at the cost of living farther from the city centre."
+    },
+    {
+      "id": "ss336-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We enjoyed a beautiful view, but first we had to climb a very steep path.",
+      "promptZh": "我們欣賞到美麗的景色，但首先要走上一條非常陡峭的小徑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The beautiful view came at the cost of climbing a very steep path.",
+      "answerZh": "欣賞美麗景色的代價，是走上一條非常陡峭的小徑。",
+      "answerZhSource": "pdf",
+      "highlight": "The beautiful view came at the cost of climbing a very steep path."
+    },
+    {
+      "id": "ss336-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The company should slow down if growing faster requires it to sacrifice financial stability.",
+      "promptZh": "如果加快增長需要公司犧牲財政穩定，它便應放慢步伐。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If faster growth comes at the cost of financial stability, the company should slow down.",
+      "answerZh": "如果加快增長要以財政穩定為代價，公司便應放慢步伐。",
+      "answerZhSource": "pdf",
+      "highlight": "If faster growth comes at the cost of financial stability, the company should slow down."
+    },
+    {
+      "id": "ss336-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The new system achieves its efficiency only by using a design that is difficult to repair.",
+      "promptZh": "新系統只有採用難以維修的設計，才能達到這種效率。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the new system is efficient, that efficiency comes at the cost of a design that is difficult to repair.",
+      "answerZh": "雖然新系統十分高效，但這種效率是以採用難以維修的設計為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the new system is efficient, that efficiency comes at the cost of a design that is difficult to repair."
+    },
+    {
+      "id": "ss336-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Performance seems to be improving, but only because employee morale is being damaged.",
+      "promptZh": "表現似乎有所改善，但這只是以打擊員工士氣換來的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The apparent improvement in performance seems to come at the cost of lower employee morale.",
+      "answerZh": "表面上的表現改善，似乎是以員工士氣下降為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The apparent improvement in performance seems to come at the cost of lower employee morale."
+    },
+    {
+      "id": "ss336-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Which benefits require us to give up control over our data?",
+      "promptZh": "哪些好處需要我們放棄對自己數據的控制？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What benefits come at the cost of losing control over our data?",
+      "answerZh": "哪些好處是以失去對自己數據的控制為代價？",
+      "answerZhSource": "pdf",
+      "highlight": "What benefits come at the cost of losing control over our data?"
+    },
+    {
+      "id": "ss336-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The plan may succeed only if two community centres are closed.",
+      "promptZh": "這項計劃可能只有關閉兩個社區中心才能成功。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan’s success may come at the cost of closing two community centres.",
+      "answerZh": "這項計劃的成功可能以關閉兩個社區中心為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan’s success may come at the cost of closing two community centres."
+    },
+    {
+      "id": "ss336-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "She has become independent, but she has had to handle every problem alone.",
+      "promptZh": "她變得獨立，但同時必須獨自處理每個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her independence has come at the cost of handling every problem alone.",
+      "answerZh": "她的獨立是以獨自處理每個問題為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Her independence has come at the cost of handling every problem alone."
+    },
+    {
+      "id": "ss336-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The museum will probably offer free entry only by reducing its opening hours.",
+      "promptZh": "博物館很可能只有縮短開放時間，才能提供免費入場。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum’s free entry is likely to come at the cost of shorter opening hours.",
+      "answerZh": "博物館提供免費入場，很可能要以縮短開放時間為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum’s free entry is likely to come at the cost of shorter opening hours."
+    },
+    {
+      "id": "ss336-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Many residents fear that the area will be redeveloped only by sacrificing its character.",
+      "promptZh": "許多居民擔心，這個地區只有犧牲原有特色才能進行重建。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many residents fear that redevelopment will come at the cost of losing the area’s character.",
+      "answerZh": "許多居民擔心，重建會以失去這個地區的原有特色為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Many residents fear that redevelopment will come at the cost of losing the area’s character."
+    },
+    {
+      "id": "ss336-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The service is convenient, but users must accept constant advertising. This trade-off may not be worthwhile.",
+      "promptZh": "這項服務十分方便，但用戶必須接受不斷出現的廣告。這種取捨可能並不值得。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The convenience, which comes at the cost of constant advertising, may not be worthwhile.",
+      "answerZh": "這項便利是以不斷看到廣告為代價，可能並不值得。",
+      "answerZhSource": "pdf",
+      "highlight": "The convenience, which comes at the cost of constant advertising, may not be worthwhile."
+    },
+    {
+      "id": "ss336-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Customers are unhappy because the company saves money by providing poorer service.",
+      "promptZh": "顧客感到不滿，因為公司透過降低服務質素來節省開支。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the savings come at the cost of poorer service, customers are unhappy.",
+      "answerZh": "由於節省開支是以服務質素下降為代價，顧客感到不滿。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the savings come at the cost of poorer service, customers are unhappy."
+    },
+    {
+      "id": "ss336-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Can automating decisions require us to sacrifice valuable human judgement?",
+      "promptZh": "把決定自動化會否要求我們犧牲寶貴的人類判斷力？",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can automation come at the cost of valuable human judgement?",
+      "answerZh": "自動化會否以寶貴的人類判斷力為代價？",
+      "answerZhSource": "pdf",
+      "highlight": "Can automation come at the cost of valuable human judgement?"
+    },
+    {
+      "id": "ss336-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "We reached our destination sooner, but we had to pay a higher toll.",
+      "promptZh": "我們較早抵達目的地，但必須支付較高的道路收費。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The quicker route came at the cost of paying a higher toll.",
+      "answerZh": "選擇較快的路線，是以支付較高的道路收費為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The quicker route came at the cost of paying a higher toll."
+    },
+    {
+      "id": "ss336-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "What looks like progress may be achieved only by excluding vulnerable people.",
+      "promptZh": "看似是進步的改變，可能只有排除弱勢人士才能實現。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What looks like progress may actually come at the cost of excluding vulnerable people.",
+      "answerZh": "看似是進步的改變，實際上可能以排除弱勢人士為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "What looks like progress may actually come at the cost of excluding vulnerable people."
+    },
+    {
+      "id": "ss336-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The company has kept prices low only by reducing staff training.",
+      "promptZh": "公司只有削減員工培訓，才能一直維持低價。",
+      "promptZhSource": "pdf",
+      "starter": "Keeping",
+      "answer": "Keeping prices low has come at the cost of reducing staff training.",
+      "answerZh": "維持低價一直以削減員工培訓為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Keeping prices low has come at the cost of reducing staff training."
+    },
+    {
+      "id": "ss336-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The report warns that services may become more convenient only when users are given fewer meaningful choices.",
+      "promptZh": "報告警告，服務可能只有在用戶獲得較少有實際意義的選擇時，才會變得更加方便。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report warns that greater convenience can come at the cost of having fewer meaningful choices.",
+      "answerZh": "報告警告，更大的便利可能以減少有實際意義的選擇為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The report warns that greater convenience can come at the cost of having fewer meaningful choices."
+    },
+    {
+      "id": "ss336-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "A lower fee is not a genuine saving if customers must accept hidden charges in return.",
+      "promptZh": "如果顧客要接受隱藏收費，較低的費用便不是真正的節省。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the lower fee comes at the cost of hidden charges, it is not a genuine saving.",
+      "answerZh": "如果較低的費用是以隱藏收費為代價，那便不是真正的節省。",
+      "answerZhSource": "pdf",
+      "highlight": "If the lower fee comes at the cost of hidden charges, it is not a genuine saving."
+    },
+    {
+      "id": "ss336-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The organisation insists that it can become more efficient without treating people less fairly.",
+      "promptZh": "該機構堅稱，它可以提高效率，而不需要減少對人的公平待遇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation insists that efficiency does not have to come at the cost of fairness.",
+      "answerZh": "該機構堅稱，提升效率不一定要以犧牲公平為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation insists that efficiency does not have to come at the cost of fairness."
+    },
+    {
+      "id": "ss336-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Some schools seem to improve examination results only by reducing creative learning.",
+      "promptZh": "有些學校似乎只有減少創意學習，才能改善考試成績。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In some schools, better examination results seem to come at the cost of creative learning.",
+      "answerZh": "在有些學校，較佳的考試成績似乎是以創意學習為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "In some schools, better examination results seem to come at the cost of creative learning."
+    },
+    {
+      "id": "ss336-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The extra security is reassuring, but it makes everyone wait longer.",
+      "promptZh": "額外的保安措施令人安心，但令所有人等候更長時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The extra security, while reassuring, comes at the cost of longer waiting times.",
+      "answerZh": "額外的保安措施雖然令人安心，卻以更長的等候時間為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The extra security, while reassuring, comes at the cost of longer waiting times."
+    },
+    {
+      "id": "ss336-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "It remains unclear whether the organisation can expand without reducing service quality.",
+      "promptZh": "該機構能否在不降低服務質素的情況下擴展，目前仍不清楚。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether expansion comes at the cost of service quality remains unclear.",
+      "answerZh": "擴展會否以服務質素為代價，目前仍不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether expansion comes at the cost of service quality remains unclear."
+    },
+    {
+      "id": "ss336-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The policy was implemented, but public trust was sacrificed. It is now being reviewed.",
+      "promptZh": "這項政策得以實施，但公眾信任卻被犧牲。當局現正檢討這項政策。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy, which has come at the cost of public trust, is now being reviewed.",
+      "answerZh": "這項政策是以公眾信任為代價，現正接受檢討。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy, which has come at the cost of public trust, is now being reviewed."
+    },
+    {
+      "id": "ss336-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Any increase in the city’s speed may require sacrificing quiet public spaces.",
+      "promptZh": "城市任何速度上的提升，都可能需要犧牲寧靜的公共空間。",
+      "promptZhSource": "pdf",
+      "starter": "Any",
+      "answer": "Any gains the city makes in speed may come at the cost of losing quiet public spaces.",
+      "answerZh": "城市在速度方面取得的任何提升，都可能以失去寧靜的公共空間為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Any gains the city makes in speed may come at the cost of losing quiet public spaces."
+    },
+    {
+      "id": "ss336-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The committee must decide whether saving money now will weaken the organisation in the long term.",
+      "promptZh": "委員會必須決定，現在節省金錢會否削弱機構的長遠應變能力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee must decide whether short-term savings will come at the cost of long-term resilience.",
+      "answerZh": "委員會必須決定，短期節省會否以長遠應變能力為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee must decide whether short-term savings will come at the cost of long-term resilience."
+    },
+    {
+      "id": "ss336-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Remote work offers flexibility, but this advantage may require teams to accept weaker relationships.",
+      "promptZh": "遙距工作帶來靈活性，但這項好處可能需要團隊接受較薄弱的人際關係。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although remote work offers flexibility, that flexibility can come at the cost of weaker team relationships.",
+      "answerZh": "雖然遙距工作帶來靈活性，但這種靈活性可能以較薄弱的團隊關係為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "Although remote work offers flexibility, that flexibility can come at the cost of weaker team relationships."
+    },
+    {
+      "id": "ss336-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The proposal looks simple only because it ignores important details.",
+      "promptZh": "這項建議看似簡單，只是因為它忽略了重要細節。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The apparent simplicity of the proposal may come at the cost of ignoring important details.",
+      "answerZh": "這項建議表面上的簡單，可能是以忽略重要細節為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The apparent simplicity of the proposal may come at the cost of ignoring important details."
+    },
+    {
+      "id": "ss336-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "We should never improve a system by silencing the people most affected by it.",
+      "promptZh": "我們絕不應透過令受影響最深的人噤聲來改善制度。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No improvement should come at the cost of silencing the people most affected by it.",
+      "answerZh": "任何改善都不應以令受影響最深的人噤聲為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "No improvement should come at the cost of silencing the people most affected by it."
+    },
+    {
+      "id": "ss336-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The new timetable seems to work only because teachers have been given less preparation time.",
+      "promptZh": "新時間表似乎能夠運作，只是因為教師獲得的備課時間減少了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable seems to have come at the cost of giving teachers less preparation time.",
+      "answerZh": "新時間表似乎是以減少教師的備課時間為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable seems to have come at the cost of giving teachers less preparation time."
+    },
+    {
+      "id": "ss336-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Users need to understand the trade-off when a convenient service requires them to sacrifice security.",
+      "promptZh": "當便利的服務要求用戶犧牲安全時，用戶需要明白其中的取捨。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When convenience comes at the cost of security, users need to understand the trade-off.",
+      "answerZh": "當便利要以安全為代價時，用戶需要明白其中的取捨。",
+      "answerZhSource": "pdf",
+      "highlight": "When convenience comes at the cost of security, users need to understand the trade-off."
+    },
+    {
+      "id": "ss336-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The hospital must not serve patients faster by treating them less carefully.",
+      "promptZh": "醫院絕不能透過降低照顧病人的細心程度來加快服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital’s faster service must not come at the cost of treating patients less carefully.",
+      "answerZh": "醫院加快服務絕不能以降低照顧病人的細心程度為代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital’s faster service must not come at the cost of treating patients less carefully."
+    },
+    {
+      "id": "ss336-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "We should seriously discuss whether the technology has produced its benefits only by weakening human skills.",
+      "promptZh": "我們應認真討論，這項科技是否只有削弱人類技能，才能帶來種種好處。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the technology’s benefits have come at the cost of weakening human skills deserves serious discussion.",
+      "answerZh": "這項科技帶來的好處是否以削弱人類技能為代價，值得認真討論。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the technology’s benefits have come at the cost of weakening human skills deserves serious discussion."
+    }
+  ]
+}

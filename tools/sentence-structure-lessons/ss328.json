@@ -1,0 +1,1276 @@
+{
+  "id": "ss328",
+  "order": 328,
+  "slug": "x-is-not-without-its-merits-problems-risks",
+  "title": "「X is not without its + merits / problems / risks」保留式評價句",
+  "titleZh": "「X is not without its + merits / problems / risks」保留式評價句",
+  "titleEn": "Using “X is not without its + merits / problems / risks”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 326 - 「X is not without its + merits _ problems _ risks」保留式評價句.pdf",
+    "pageCount": 26,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "exercisePages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "answerPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "sha256": "6fc121ba0359ad4cccdbaa91ff525cb79c9cb39cc7ba0e5a5100bbda956b55a1",
+    "sourceNumber": 326,
+    "systemOrder": 328,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 326 maps to ss328: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "X is not without its merits",
+  "formulas": [
+    {
+      "id": "ss328-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "X is not without its merits"
+    }
+  ],
+  "example": "The proposal is not without its risks.",
+  "exampleZh": "這項建議並非毫無風險。",
+  "examples": [
+    {
+      "id": "ss328-example-01",
+      "en": "The proposal is not without its risks.",
+      "zh": "這項建議並非毫無風險。",
+      "highlight": "The proposal is not without its risks."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss328-rule-01",
+      "zh": "固定核心是 be + not without + possessive + noun 核心句型是：【Subject + be + not without + possessive determiner + noun phrase；The plan is not without its problems.】 這個計劃並不是完全沒有問題。 以下部分可以加入句子，但並不是固定結構的一部分：【although / even though / while；but / yet / nevertheless；according to experts；since it was introduced；despite its high cost；reporting verbs such as agree, admit and conclude；relative clauses beginning with that or which】 例如：【Although the plan is not without its problems, it may still succeed.】 雖然這個計劃並不是完全沒有問題，但仍有可能成功。 核心結構仍然只是：【the plan is not without its problems】 詞語【Although】和後面的主句都是額外的句子組織方式。",
+      "en": "Subject + be + not without + possessive determiner + noun phrase The plan is not without its problems. although / even though / while but / yet / nevertheless according to experts since it was introduced despite its high cost reporting verbs such as agree, admit and conclude relative clauses beginning with that or which Although the plan is not without its problems, it may still succeed. the plan is not without its problems",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-rule-02",
+      "zh": "不等於 without 這個計劃沒有風險。 這個計劃並非毫無風險。 形成含蓄的肯定意思，表示某項特點確實存在。",
+      "en": "Not without Without The plan is without risk. Not without The plan is not without its risks. not + without",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-rule-03",
+      "zh": "動詞要配合主語和時態一般現在時這項建議並非毫無可取之處。 這些建議並非毫無可取之處。 一般過去時這段旅程並非毫無困難。 這些討論並不是完全沒有問題。",
+      "en": "Be Present simple The proposal is not without its merits. The proposals are not without their merits. Past simple The journey was not without its difficulties. The discussions were not without their problems.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-rule-04",
+      "zh": "在 not without 後面的所有格必須回指主語：單數事物用 its，複數事物用 their，人物按語境用 his 或 her，we 則配 our。例如 The plans... 必須接 their risks，不可因前一個例句使用 its 而照抄錯誤。",
+      "en": "the plan its The plan is not without its risks. the plans their The plans are not without their risks. the candidate his / her The candidate is not without her strengths. we our We are not without our weaknesses. the company its The company is not without its problems. Incorrect The plans are not without its risks. ✗ Correct The plans are not without their risks.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss328-rule-05",
+      "zh": "情態動詞放在 be 前面這項建議可能並非毫無風險。 這項改變可能並非毫無好處。 這個解決方法將無可避免地帶來一些代價。 不要寫成：【The proposal may be not without its risks. △】 這個語序有時可以出現，但一般學習者應優先使用更自然的：【The proposal may not be without its risks.】",
+      "en": "Subject + modal verb + not be without + possessive + noun The proposal may not be without its risks. The change might not be without its advantages. The solution will not be without its costs. The proposal may be not without its risks. △ The proposal may not be without its risks.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-rule-06",
+      "zh": "完成時使用 has / have not been without 這項服務一直並不是完全沒有問題。 這些討論一直並非毫無困難。 這種形式表示相關問題、優點或困難在截至目前的一段時間內曾經出現。",
+      "en": "Subject + has / have not been without + possessive + noun The service has not been without its problems. The discussions have not been without their difficulties.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-rule-07",
+      "zh": "目標表達【Merits】表示「可取之處」，語氣通常有所保留這表示說話者承認這個想法有一些優點，但不一定表示完全贊成。它的語氣通常比以下句子保守：【The idea is excellent.】 這個想法非常好。 這個想法有很多優點。 因此，not without its merits 很適合用來作平衡而審慎的評價。",
+      "en": "Merits The idea is not without its merits. The idea is excellent. The idea has many advantages.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-rule-08",
+      "zh": "和 drawbacks 表示保留或警告這套系統並不是完全沒有問題。 這項投資並非毫無風險。 這個方法並非毫無缺點。 這些句子承認相關方案有一定價值，但提醒讀者不要忽略其負面部分。",
+      "en": "Problems, risks The system is not without its problems. The investment is not without its risks. The method is not without its drawbacks.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-rule-09",
+      "zh": "後面不使用 of 以【without】為例：本身已經是介詞，後面直接接名詞短語。",
+      "en": "Without Correct The plan is not without its risks. Incorrect The plan is not without of its risks. ✗",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-rule-10",
+      "zh": "表示保留式評價時，not without its 可配搭表示優點或價值的名詞，例如 merits 和 benefits；也可配搭表示缺點、風險或代價的名詞，例如 problems、risks 和 costs。",
+      "en": "Positive evaluation not without its merits not without its advantages not without its benefits not without its strengths not without its appeal not without its charm not without its value Negative evaluation not without its problems not without its risks not without its drawbacks not without its limitations not without its difficulties not without its complications not without its flaws not without its costs",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss328-rule-11",
+      "zh": "與【not without reason】等結構的分別：他感到擔心，而且不是毫無理由的。 這是相關的 not without 結構，但它沒有使用：【possessive determiner + noun referring back to the subject】 本課的核心目標是：【The plan is not without its risks.】 不是：【He was worried, not without reason.】。一般現在時或過去時：這套系統並不是完全沒有問題。 這段旅程並非毫無困難。 情態動詞：這項建議可能並非毫無風險。 完成時：這項服務一直並不是完全沒有問題。 報告句：專家同意這項建議並非毫無可取之處。 關係子句：委員會選擇了一個並非毫無風險的方案。 讓步從句：雖然這個方法並非毫無弱點，但它能產生穩定的結果。",
+      "en": "He was worried, and not without reason. possessive determiner + noun referring back to the subject The plan is not without its risks. He was worried, not without reason. Subject + is / are / was / were not without + possessive + noun The system is not without its problems. The journey was not without its difficulties. Subject + may / might / could / will + not be without + possessive + noun The proposal may not be without its risks. Subject + has / have not been without + possessive + noun The service has not been without its problems. Experts agree that + subject + be not without... Experts agree that the proposal is not without its merits. a plan / system / method + that / which + be not without... The committee selected an option that is not without its risks. Although / Even though / While + subject + be not without... Although the method is not without its weaknesses, it produces consistent results.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-rule-11a",
+      "zh": "與 but、yet 或 nevertheless 連用這個想法並非毫無吸引力，但需要更多證據。 加入時間、情況或觀點短語乍看之下，這個計劃並非毫無優點。 自從推出以來，這項服務一直並不是完全沒有問題。 這些開首或結尾部分只提供額外背景，並不是固定句型的一部分。",
+      "en": "Subject + be not without..., but / yet / nevertheless... The idea is not without its appeal, but it needs more evidence. At first sight, the plan is not without its advantages. Since it was introduced, the service has not been without its problems.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss328-benefit-01",
+      "zh": "作出平衡而審慎的評價這個句型讓你承認一件事有優點或缺點，而不需要作出過於絕對的判斷。這項建議並非毫無可取之處。 這比直接說：【The proposal is excellent.】 更加審慎，也保留了進一步討論的空間。",
+      "en": "The proposal is not without its merits. The proposal is excellent.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-benefit-02",
+      "zh": "同時表達認同和保留你可以先承認一個計劃有可取之處，再指出仍然存在的問題。這項建議並非毫無可取之處，但仍需要大幅修改。 這種寫法特別適合評論、議論文、報告和會議討論。",
+      "en": "The proposal is not without its merits, but it still needs substantial revision.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-benefit-03",
+      "zh": "避免使用過於強烈的語氣第二句的批評較為含蓄，適合需要保持客觀或禮貌的情況。",
+      "en": "Instead of: The system has many serious problems. You can say: The system is not without its problems.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-benefit-04",
+      "zh": "讓論點顯得更成熟真實情況通常不是完全好或完全壞。這個句型能幫助你表達：某個方法有優點，但並不完美；某項決定有風險，但仍可能值得考慮；某個計劃有問題，但並不代表應該完全放棄。因此，它有助於建立較有層次的論點。",
+      "en": "This structure creates a more mature, nuanced argument. It recognises that a method may have merits without being perfect, that a risky decision may still deserve consideration, or that a flawed plan need not be rejected completely.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss328-benefit-05",
+      "zh": "這個句式可避免反覆使用 has some。與其連續寫計劃有一些優點、問題和風險，可以改用 is not without its advantages、problems 或 risks。意思仍是承認相關特點，但句式更有變化，語氣也較審慎。",
+      "en": "Instead of repeatedly writing: The plan has some advantages. The plan has some problems. The plan has some risks. You can vary your language: The plan is not without its advantages. The plan is not without its problems. The plan is not without its risks.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss328-benefit-06",
+      "zh": "適合正式但自然的評價這個句型常用於：作文（essays）；報告（reports）；評論（reviews）；簡報（presentations）；會議（meetings）；討論（discussions）；專業通訊它的語氣較有分寸，但不會顯得過分生硬。",
+      "en": "professional correspondence",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 326 maps to ss328: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item using be not without + a suitable possessive determiner + noun phrase.",
+      "Preserve all the original information. The target structure may appear at the beginning, middle",
+      "or end of the answer.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 be not without＋合適的所有格限定詞＋名詞短語 改寫以下句子。",
+      "保留原句所有資料。目標句型可能出現在答案的開首、中間或結尾。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss328-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The proposal involves some risks.",
+      "promptZh": "這項建議涉及一些風險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal is not without its risks.",
+      "answerZh": "這項建議並非毫無風險。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal is not without its risks."
+    },
+    {
+      "id": "ss328-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "There are some problems with the new timetable.",
+      "promptZh": "新的時間表有一些問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable is not without its problems.",
+      "answerZh": "新的時間表並不是完全沒有問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable is not without its problems."
+    },
+    {
+      "id": "ss328-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This approach has some good points.",
+      "promptZh": "這個方法有一些可取之處。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This approach is not without its merits.",
+      "answerZh": "這個方法並非毫無可取之處。",
+      "answerZhSource": "pdf",
+      "highlight": "This approach is not without its merits."
+    },
+    {
+      "id": "ss328-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Our plan offers several advantages.",
+      "promptZh": "我們的計劃有幾項優點。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our plan is not without its advantages.",
+      "answerZh": "我們的計劃並非毫無優點。",
+      "answerZhSource": "pdf",
+      "highlight": "Our plan is not without its advantages."
+    },
+    {
+      "id": "ss328-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The device has some limitations, but it is useful for basic tasks.",
+      "promptZh": "這部裝置有一些局限，但適合處理基本工作。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the device is not without its limitations, it is useful for basic tasks.",
+      "answerZh": "雖然這部裝置並非毫無局限，但適合處理基本工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the device is not without its limitations, it is useful for basic tasks."
+    },
+    {
+      "id": "ss328-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The idea is attractive in some ways, but it needs more evidence.",
+      "promptZh": "這個想法在某些方面具有吸引力，但需要更多證據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea is not without its appeal, but it needs more evidence.",
+      "answerZh": "這個想法並非毫無吸引力，但需要更多證據。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea is not without its appeal, but it needs more evidence."
+    },
+    {
+      "id": "ss328-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The route involved several dangers.",
+      "promptZh": "這條路線涉及幾項危險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The route was not without its dangers.",
+      "answerZh": "這條路線並非毫無危險。",
+      "answerZhSource": "pdf",
+      "highlight": "The route was not without its dangers."
+    },
+    {
+      "id": "ss328-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Some problems occurred during the event, but the staff handled them calmly.",
+      "promptZh": "活動期間出現了一些問題，但工作人員冷靜地處理了。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the event was not without its problems, the staff handled them calmly.",
+      "answerZh": "雖然活動並不是完全沒有問題，但工作人員冷靜地處理了。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the event was not without its problems, the staff handled them calmly."
+    },
+    {
+      "id": "ss328-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The old building has a certain charm.",
+      "promptZh": "這座舊建築具有某種魅力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old building is not without its charm.",
+      "answerZh": "這座舊建築並非毫無魅力。",
+      "answerZhSource": "pdf",
+      "highlight": "The old building is not without its charm."
+    },
+    {
+      "id": "ss328-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Even this simple method carries some risks.",
+      "promptZh": "即使這個簡單的方法也帶有一些風險。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even this simple method is not without its risks.",
+      "answerZh": "即使這個簡單的方法也並非毫無風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Even this simple method is not without its risks."
+    },
+    {
+      "id": "ss328-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "It is possible that the new policy has some problems.",
+      "promptZh": "新政策可能存在一些問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new policy may not be without its problems.",
+      "answerZh": "新政策可能並不是完全沒有問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy may not be without its problems."
+    },
+    {
+      "id": "ss328-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Experts agree that the proposal has some good points.",
+      "promptZh": "專家同意這項建議有一些可取之處。",
+      "promptZhSource": "pdf",
+      "starter": "Experts",
+      "answer": "Experts agree that the proposal is not without its merits.",
+      "answerZh": "專家同意這項建議並非毫無可取之處。",
+      "answerZhSource": "pdf",
+      "highlight": "Experts agree that the proposal is not without its merits."
+    },
+    {
+      "id": "ss328-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The committee selected an option with some risks.",
+      "promptZh": "委員會選擇了一個帶有一些風險的方案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee selected an option that is not without its risks.",
+      "answerZh": "委員會選擇了一個並非毫無風險的方案。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee selected an option that is not without its risks."
+    },
+    {
+      "id": "ss328-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The programme would cost money, but it could help many families.",
+      "promptZh": "這項計劃需要一定開支，但可以幫助很多家庭。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the programme is not without its costs, it could help many families.",
+      "answerZh": "雖然這項計劃並非毫無成本，但可以幫助很多家庭。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the programme is not without its costs, it could help many families."
+    },
+    {
+      "id": "ss328-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The journey involved some difficulties, but everyone arrived safely.",
+      "promptZh": "旅程中遇到了一些困難，但所有人都安全抵達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The journey was not without its difficulties, but everyone arrived safely.",
+      "answerZh": "這段旅程並非毫無困難，但所有人都安全抵達。",
+      "answerZhSource": "pdf",
+      "highlight": "The journey was not without its difficulties, but everyone arrived safely."
+    },
+    {
+      "id": "ss328-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The candidate has some strengths.",
+      "promptZh": "這名候選人有一些優點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The candidate is not without her strengths.",
+      "answerZh": "這名候選人並非毫無優點。",
+      "answerZhSource": "pdf",
+      "highlight": "The candidate is not without her strengths."
+    },
+    {
+      "id": "ss328-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The revised plans have several drawbacks, yet they remain popular.",
+      "promptZh": "修訂後的計劃有幾項缺點，但仍然受歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The revised plans are not without their drawbacks, yet they remain popular.",
+      "answerZh": "修訂後的計劃並非毫無缺點，但仍然受歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "The revised plans are not without their drawbacks, yet they remain popular."
+    },
+    {
+      "id": "ss328-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The solution looks easy, but it contains some complications.",
+      "promptZh": "這個解決方法看似簡單，但當中有一些複雜之處。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What looks like an easy solution is not without its complications.",
+      "answerZh": "這個看似簡單的解決方法並非毫無複雜之處。",
+      "answerZhSource": "pdf",
+      "highlight": "What looks like an easy solution is not without its complications."
+    },
+    {
+      "id": "ss328-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The experiment had some flaws, but its main finding was useful.",
+      "promptZh": "這項實驗有一些缺陷，但其主要發現仍然有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The experiment was not without its flaws, but its main finding was useful.",
+      "answerZh": "這項實驗並非毫無缺陷，但其主要發現仍然有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The experiment was not without its flaws, but its main finding was useful."
+    },
+    {
+      "id": "ss328-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "At first sight, the plan appears to have some advantages.",
+      "promptZh": "乍看之下，這個計劃似乎有一些優點。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At first sight, the plan is not without its advantages.",
+      "answerZh": "乍看之下，這個計劃並非毫無優點。",
+      "answerZhSource": "pdf",
+      "highlight": "At first sight, the plan is not without its advantages."
+    },
+    {
+      "id": "ss328-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "These services have experienced some problems since they were launched.",
+      "promptZh": "這些服務自推出以來曾經出現一些問題。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These services have not been without their problems since they were launched.",
+      "answerZh": "這些服務自推出以來一直並不是完全沒有問題。",
+      "answerZhSource": "pdf",
+      "highlight": "These services have not been without their problems since they were launched."
+    },
+    {
+      "id": "ss328-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Online learning has some limitations, but it can improve access to education.",
+      "promptZh": "網上學習有一些限制，但可以讓更多人獲得教育機會。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although online learning is not without its limitations, it can improve access to education.",
+      "answerZh": "雖然網上學習並非毫無限制，但可以讓更多人獲得教育機會。",
+      "answerZhSource": "pdf",
+      "highlight": "Although online learning is not without its limitations, it can improve access to education."
+    },
+    {
+      "id": "ss328-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The board approved a strategy which involved some risks.",
+      "promptZh": "董事會批准了一項涉及若干風險的策略。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The board approved a strategy that was not without its risks.",
+      "answerZh": "董事會批准了一項並非毫無風險的策略。",
+      "answerZhSource": "pdf",
+      "highlight": "The board approved a strategy that was not without its risks."
+    },
+    {
+      "id": "ss328-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Researchers believe that the treatment causes some side effects.",
+      "promptZh": "研究人員相信這種治療會引起一些副作用。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers believe that the treatment is not without its side effects.",
+      "answerZh": "研究人員相信這種治療並非毫無副作用。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers believe that the treatment is not without its side effects."
+    },
+    {
+      "id": "ss328-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The proposal may involve some legal difficulties.",
+      "promptZh": "這項建議可能涉及一些法律上的困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal may not be without its legal difficulties.",
+      "answerZh": "這項建議可能並非毫無法律上的困難。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal may not be without its legal difficulties."
+    },
+    {
+      "id": "ss328-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The festival was enjoyable, although some organisational problems occurred.",
+      "promptZh": "這個節慶活動很愉快，雖然期間出現了一些組織問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The festival was enjoyable, although it was not without its organisational problems.",
+      "answerZh": "這個節慶活動很愉快，雖然並不是完全沒有組織問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The festival was enjoyable, although it was not without its organisational problems."
+    },
+    {
+      "id": "ss328-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The new system offers some benefits to smaller teams.",
+      "promptZh": "新系統為規模較小的團隊帶來一些好處。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system is not without its benefits for smaller teams.",
+      "answerZh": "新系統對規模較小的團隊並非毫無好處。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system is not without its benefits for smaller teams."
+    },
+    {
+      "id": "ss328-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The method has some weaknesses, but it produces consistent results.",
+      "promptZh": "這個方法有一些弱點，但能產生穩定的結果。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though the method is not without its weaknesses, it produces consistent results.",
+      "answerZh": "即使這個方法並非毫無弱點，它仍能產生穩定的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though the method is not without its weaknesses, it produces consistent results."
+    },
+    {
+      "id": "ss328-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The report identifies two approaches with some practical merits.",
+      "promptZh": "報告提出了兩個具有實際可取之處的方法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report identifies two approaches that are not without their practical merits.",
+      "answerZh": "報告提出了兩個並非毫無實際可取之處的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The report identifies two approaches that are not without their practical merits."
+    },
+    {
+      "id": "ss328-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Beginner learners faced some challenges during the course.",
+      "promptZh": "初學者在課程期間面對了一些挑戰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course was not without its challenges for beginner learners.",
+      "answerZh": "這個課程對初學者而言並非毫無挑戰。",
+      "answerZhSource": "pdf",
+      "highlight": "The course was not without its challenges for beginner learners."
+    },
+    {
+      "id": "ss328-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The company admitted that the expansion plan involved some financial risks.",
+      "promptZh": "公司承認擴展計劃涉及一些財務風險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company admitted that the expansion plan was not without its financial risks.",
+      "answerZh": "公司承認擴展計劃並非毫無財務風險。",
+      "answerZhSource": "pdf",
+      "highlight": "The company admitted that the expansion plan was not without its financial risks."
+    },
+    {
+      "id": "ss328-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The software has some strengths, but it remains difficult to navigate.",
+      "promptZh": "這個軟件有一些優點，但操作起來仍然困難。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While the software is not without its strengths, it remains difficult to navigate.",
+      "answerZh": "雖然這個軟件並非毫無優點，但操作起來仍然困難。",
+      "answerZhSource": "pdf",
+      "highlight": "While the software is not without its strengths, it remains difficult to navigate."
+    },
+    {
+      "id": "ss328-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Public museums have faced some funding problems in recent years.",
+      "promptZh": "近年公共博物館面對了一些資金問題。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public museums have not been without their funding problems in recent years.",
+      "answerZh": "近年公共博物館一直並不是完全沒有資金問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Public museums have not been without their funding problems in recent years."
+    },
+    {
+      "id": "ss328-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The committee may choose a proposal with some disadvantages.",
+      "promptZh": "委員會可能會選擇一項帶有若干缺點的建議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee may choose a proposal that is not without its disadvantages.",
+      "answerZh": "委員會可能會選擇一項並非毫無缺點的建議。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee may choose a proposal that is not without its disadvantages."
+    },
+    {
+      "id": "ss328-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The redevelopment project has some environmental risks, so it requires further study.",
+      "promptZh": "這項重建工程存在一些環境風險，因此需要進一步研究。",
+      "promptZhSource": "pdf",
+      "starter": "Further",
+      "answer": "Further study is required because the redevelopment project is not without its environmental risks.",
+      "answerZh": "由於這項重建工程並非毫無環境風險，因此需要進一步研究。",
+      "answerZhSource": "pdf",
+      "highlight": "Further study is required because the redevelopment project is not without its environmental risks."
+    },
+    {
+      "id": "ss328-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The speaker’s argument had some strong points, although some evidence was weak.",
+      "promptZh": "講者的論點有一些可取之處，儘管部分證據較為薄弱。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker’s argument was not without its merits, although some evidence was weak.",
+      "answerZh": "講者的論點並非毫無可取之處，儘管部分證據較為薄弱。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker’s argument was not without its merits, although some evidence was weak."
+    },
+    {
+      "id": "ss328-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Whichever option we choose, the solution will involve some costs.",
+      "promptZh": "無論我們選擇哪個方案，這個解決方法都會帶來一些代價。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The solution will not be without its costs, whichever option we choose.",
+      "answerZh": "無論我們選擇哪個方案，這個解決方法都無可避免地會帶來一些代價。",
+      "answerZhSource": "pdf",
+      "highlight": "The solution will not be without its costs, whichever option we choose."
+    },
+    {
+      "id": "ss328-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Even the cheaper model has some maintenance problems.",
+      "promptZh": "即使價格較低的型號也有一些維修問題。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even the cheaper model is not without its maintenance problems.",
+      "answerZh": "即使價格較低的型號也並不是完全沒有維修問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Even the cheaper model is not without its maintenance problems."
+    },
+    {
+      "id": "ss328-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The team missed the deadline, but its work still had some merits.",
+      "promptZh": "團隊錯過了限期，但其工作仍有一些可取之處。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the team achieved was not without its merits, despite the missed deadline.",
+      "answerZh": "儘管錯過了限期，團隊所取得的成果仍並非毫無可取之處。",
+      "answerZhSource": "pdf",
+      "highlight": "What the team achieved was not without its merits, despite the missed deadline."
+    },
+    {
+      "id": "ss328-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Both sides have acknowledged that the agreement has some weaknesses.",
+      "promptZh": "雙方都承認這項協議有一些弱點。",
+      "promptZhSource": "pdf",
+      "starter": "Both",
+      "answer": "Both sides have acknowledged that the agreement is not without its weaknesses.",
+      "answerZh": "雙方都承認這項協議並非毫無弱點。",
+      "answerZhSource": "pdf",
+      "highlight": "Both sides have acknowledged that the agreement is not without its weaknesses."
+    },
+    {
+      "id": "ss328-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The regional plan has some economic benefits, but its environmental effects require closer examination.",
+      "promptZh": "這項地區計劃有一些經濟效益，但其環境影響需要更仔細地研究。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the regional plan is not without its economic benefits, its environmental effects require closer examination.",
+      "answerZh": "雖然這項地區計劃並非毫無經濟效益，但其環境影響需要更仔細地研究。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the regional plan is not without its economic benefits, its environmental effects require closer examination."
+    },
+    {
+      "id": "ss328-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The university has adopted a system with some administrative difficulties.",
+      "promptZh": "大學採用了一套帶有一些行政困難的制度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The university has adopted a system that is not without its administrative difficulties.",
+      "answerZh": "大學採用了一套並非毫無行政困難的制度。",
+      "answerZhSource": "pdf",
+      "highlight": "The university has adopted a system that is not without its administrative difficulties."
+    },
+    {
+      "id": "ss328-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The public transport proposal has a high initial cost, but it may offer some long-term advantages.",
+      "promptZh": "這項公共交通建議的初期成本很高，但可能帶來一些長遠優點。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite its high initial cost, the public transport proposal may not be without its long-term advantages.",
+      "answerZh": "儘管初期成本很高，這項公共交通建議可能並非毫無長遠優點。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite its high initial cost, the public transport proposal may not be without its long-term advantages."
+    },
+    {
+      "id": "ss328-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The pilot programme had some early problems, and several of them were later corrected.",
+      "promptZh": "試行計劃初期出現了一些問題，其中幾項後來得到修正。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The pilot programme was not without its early problems, several of which were later corrected.",
+      "answerZh": "試行計劃初期並不是完全沒有問題，其中幾項後來得到修正。",
+      "answerZhSource": "pdf",
+      "highlight": "The pilot programme was not without its early problems, several of which were later corrected."
+    },
+    {
+      "id": "ss328-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Analysts have concluded that the merger involves some commercial risks.",
+      "promptZh": "分析員認為這項合併涉及一些商業風險。",
+      "promptZhSource": "pdf",
+      "starter": "Analysts",
+      "answer": "Analysts have concluded that the merger is not without its commercial risks.",
+      "answerZh": "分析員認為這項合併並非毫無商業風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Analysts have concluded that the merger is not without its commercial risks."
+    },
+    {
+      "id": "ss328-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The revised design has some aesthetic appeal, but it is less practical than the original.",
+      "promptZh": "修訂後的設計具有一定美感，但不及原來的設計實用。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While the revised design is not without its aesthetic appeal, it is less practical than the original.",
+      "answerZh": "雖然修訂後的設計並非毫無美感，但不及原來的設計實用。",
+      "answerZhSource": "pdf",
+      "highlight": "While the revised design is not without its aesthetic appeal, it is less practical than the original."
+    },
+    {
+      "id": "ss328-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The organisation’s new funding arrangements have experienced some unexpected complications.",
+      "promptZh": "該組織的新資金安排曾經出現一些意料之外的複雜問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation’s new funding arrangements have not been without their unexpected complications.",
+      "answerZh": "該組織的新資金安排一直並非毫無意料之外的複雜問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation’s new funding arrangements have not been without their unexpected complications."
+    },
+    {
+      "id": "ss328-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The recommendation has some good points. Nevertheless, it depends on several uncertain assumptions.",
+      "promptZh": "這項建議有一些可取之處。儘管如此，它依賴數項不確定的假設。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the recommendation is not without its merits, it depends on several uncertain assumptions.",
+      "answerZh": "雖然這項建議並非毫無可取之處，但它依賴數項不確定的假設。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the recommendation is not without its merits, it depends on several uncertain assumptions."
+    },
+    {
+      "id": "ss328-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Even though the strategy has some risks, rejecting every change would create problems of its own.",
+      "promptZh": "即使這項策略帶有一些風險，拒絕所有改變也會造成其他問題。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though the strategy is not without its risks, rejecting every change would create problems of its own.",
+      "answerZh": "即使這項策略並非毫無風險，拒絕所有改變也會造成其他問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though the strategy is not without its risks, rejecting every change would create problems of its own."
+    },
+    {
+      "id": "ss328-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The final proposal has some strengths, but its weaknesses must be weighed against the available alternatives.",
+      "promptZh": "最終建議有一些優點，但必須把它的弱點與現有的其他選擇作比較。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final proposal is not without its strengths, but its weaknesses must be weighed against the available alternatives.",
+      "answerZh": "最終建議並非毫無優點，但必須把它的弱點與現有的其他選擇作比較。",
+      "answerZhSource": "pdf",
+      "highlight": "The final proposal is not without its strengths, but its weaknesses must be weighed against the available alternatives."
+    }
+  ]
+}

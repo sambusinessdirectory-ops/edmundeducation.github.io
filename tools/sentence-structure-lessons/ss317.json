@@ -1,0 +1,1282 @@
+{
+  "id": "ss317",
+  "order": 317,
+  "slug": "let-me-put-it-this-way-clause",
+  "title": "「Let me put it this way: + clause」換個方式說明觀點",
+  "titleZh": "「Let me put it this way: + clause」換個方式說明觀點",
+  "titleEn": "Using “Let me put it this way: + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 315 -「Let me put it this way_ + clause」換個方式說明觀點.pdf",
+    "pageCount": 28,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "answerPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "sha256": "18c73b2010dd0b62365e098e58b177dbdf7c5a69b177a3f2b470eefdd697c94b",
+    "sourceNumber": 315,
+    "systemOrder": 317,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 315 maps to ss317: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Let me put it this way: + complete clause",
+  "formulas": [
+    {
+      "id": "ss317-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Let me put it this way: + complete clause"
+    }
+  ],
+  "example": "Let me put it this way: we can delay the launch, but we cannot ignore the defects.",
+  "exampleZh": "讓我這樣說吧：我們可以延遲推出產品，但不能忽視產品的缺陷。",
+  "examples": [
+    {
+      "id": "ss317-example-01",
+      "en": "Let me put it this way: we can delay the launch, but we cannot ignore the defects.",
+      "zh": "讓我這樣說吧：我們可以延遲推出產品，但不能忽視產品的缺陷。",
+      "highlight": "Let me put it this way: we can delay the launch, but we cannot ignore the defects."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss317-rule-01",
+      "zh": "核心固定表達是【Let me put it this way:】。前面或外圍的字詞可以改變，但這個固定表達本身應保持完整。讓我這樣說吧：這個計劃可以實行，但需要更多時間。 嗯，讓我這樣說吧：房間雖小，但我們需要的東西一應俱全。 經理說：「讓我這樣說吧：數字正在改善，但風險仍然存在。」 經理停頓了一下。讓我這樣說吧：數字正在改善，但風險仍然存在。",
+      "en": "Core Expression The core expression is: Let me put it this way: Let me put it this way: The words before or around it may change, but the expression itself should remain complete. Let me put it this way: the plan is possible, but it needs more time. Well, let me put it this way: the room is small, but it has everything we need. The manager said, “Let me put it this way: the figures are improving, but the risks remain.” The manager paused. Let me put it this way: the figures are improving, but the risks remain.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-rule-02",
+      "zh": "前面的字詞並非固定部分。以下字詞可以放在固定表達前：【Well,】、【Frankly,】、【To be honest,】、【If I may,】、【In practical terms,】和【For the sake of clarity,】。例句【To be honest, let me put it this way: the meal was acceptable, but I would not order it again.】 老實說，讓我這樣說吧：這頓飯可以接受，但我不會再次點選。 為免產生誤解，讓我這樣說吧：期限可以調整，但安全標準不能降低。 這些開首字詞只是可以選擇加入的延伸部分，並不屬於固定表達本身。",
+      "en": "The Words Before It Are Optional Words such as the following may appear before the expression: Well, Frankly, To be honest, If I may, In practical terms, For the sake of clarity, To be honest, let me put it this way: the meal was acceptable, but I would not order it again. For the sake of clarity, let me put it this way: the deadline is flexible, but the safety standard is not. These opening expressions are optional additions. They are not part of the fixed expression.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-rule-03",
+      "zh": "冒號後須有完整子句冒號後通常應接一個包含主語和動詞的完整陳述。讓我這樣說吧：產品可以運作，但並不可靠。 冒號後只有名詞詞組，並非完整子句。",
+      "en": "A Complete Clause Must Follow the Colon The words after the colon should normally form a complete statement containing a subject and a verb. Let me put it this way: the product works, but it is not reliable. The clause contains: subject: the product verb: works Let me put it this way: an unreliable product. The words after the colon are only a noun phrase, not a complete clause.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-rule-04",
+      "zh": "以【Shells】為例：句型可放入不同語法框架讓我這樣說吧：巴士較便宜，但火車較快。 嗯，讓我這樣說吧：這份工作很困難，但能提供寶貴經驗。 我不能簡單地回答是或不是。讓我這樣說吧：這項建議很有潛力，但仍有幾項細節並不清楚。 醫生回答：「讓我這樣說吧：康復的機會很高，但過程不會很快。 讓我這樣說吧：天分或許能為你打開大門，但練習才能令大門保持開啟。」教練回答。 以上五種形式都包含相同的核心固定表達。",
+      "en": "The Expression Can Appear in Different Grammar At the beginning of the answer Let me put it this way: the bus is cheaper, but the train is faster. After an opening expression Well, let me put it this way: the job is difficult, but it offers valuable experience. After a context sentence I cannot give a simple yes or no. Let me put it this way: the proposal has promise, but several details remain unclear. After a reporting clause The doctor replied, “Let me put it this way: recovery is likely, but it will not be quick.” Before a reporting clause “Let me put it this way: talent may open the door, but practice keeps it open,” the coach replied. All five patterns contain the same core expression.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-rule-05",
+      "zh": "它用來換個方式說明，而非突然轉換話題這個表達後面的內容，應以另一種方式重新表達、簡化、澄清或加強正在討論的觀點。這項建議有數項優點，但亦帶來嚴重風險。讓我這樣說吧：它很有潛力，但尚未準備妥當。 我們正在討論建議。讓我這樣說吧：我的弟弟買了一輛新單車。 第二個觀點與原本的討論沒有關係。",
+      "en": "It Introduces a Reformulation, Not an Unrelated Idea The clause after the expression should restate, simplify, clarify or sharpen the idea being discussed. Natural: The proposal has several advantages, but it also carries serious risks. Let me put it this way: it has promise, but it is not ready. Unnatural: We were discussing the proposal. Let me put it this way: my brother bought a new bicycle. The second idea is unrelated to the discussion.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-rule-06",
+      "zh": "語氣通常直接但有所緩和以【Let me】為例：令整個表達比 Put it this way 較為緩和，沒有那麼生硬。這樣說吧：如果沒有更多資金，計劃將會失敗。 讓我這樣說吧：如果沒有更多資金，計劃將會失敗。 第二句稍為有禮，因為說話者表示自己正在提供另一種解釋方式。",
+      "en": "The Tone Is Often Direct but Controlled Let me makes the expression less abrupt than Put it this way. Compare: Put it this way: the plan will fail without more funding. Let me put it this way: the plan will fail without more funding. The second version sounds slightly more polite because the speaker signals that they are offering another explanation.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-rule-07",
+      "zh": "在 Let me put it this way 後面，可按意思使用現在、過去、未來、情態動詞或條件句；本課考核的是固定引導語，而不是某一特定時態。它可以說明系統現在的表現、活動過去的結果、延誤將造成的問題、可做與不可做的事，或忽視警號的條件後果。後續比較部分另作補充，不改變這個核心原則。",
+      "en": "Different Tenses and Clause Types May Follow the Present: Let me put it this way: the system works, but it is slow. Past: Let me put it this way: the campaign attracted attention, but it did not change public opinion. Future: Let me put it this way: delaying the decision will create more problems. Modal: Let me put it this way: we can replace the machine, but we cannot recover the lost data. Conditional: Let me put it this way: if we ignore the warning signs, the problem will become more serious. The target is the introductory expression, not one particular tense. Differences from Similar Expressions",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss317-rule-07a",
+      "zh": "與 In other words 通常用來直接重述或總結前面的意思。維修費用將高於機器本身的價值。換句話說，我們應該更換機器。 除了重述意思，也可以引出更明確的判斷、比較或容易令人記住的說法。讓我這樣說吧：維修並非不可能，但更換會比較安全。 與 To put it another way 通常緊接前面剛說過的內容，表示換一種方式重述。公司的支出高於收入。換句話說，公司正在虧蝕經營。 較為着重說話者本身，語氣亦通常較為口語化。",
+      "en": "Let me put it this way In other words normally gives a direct restatement or summary. In other words The repair will cost more than the machine is worth. In other words, we should replace it. Let me put it this way may also introduce a firmer judgement, a comparison or a more memorable explanation. Let me put it this way Let me put it this way: repairing it is possible, but replacing it is safer. Let me put it this way To put it another way usually connects closely to a statement that has just been made. To put it another way The company has spent more than it has earned. To put it another way, it is operating at a loss. Let me put it this way is more speaker-centred and often sounds more conversational. Let me put it this way",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-rule-07b",
+      "zh": "與 Let me be clear 強調接下來的訊息不應被誤解。我要說清楚：員工必須立即報告所有安全問題。 目標表達【Let me put it this way】表示說話者將以另一種或更清楚的方式表達觀點。讓我這樣說吧：及早報告問題可以保障所有人。 與 Put it this way 較短，語氣可以較強硬或直接。這樣說吧：你比我們更需要對方。 一般較為緩和，因為 let me 以較有禮的方式引入另一種說法。本練習須使用完整目標句型：【Let me put it this way:】",
+      "en": "Let me put it this way Let me be clear emphasises that the following message must not be misunderstood. Let me be clear Let me be clear: staff must report all safety problems immediately. Let me put it this way signals that the speaker will express the idea in another or clearer form. Let me put it this way Let me put it this way: reporting a problem early protects everyone. Let me put it this way Put it this way is shorter and can sound more forceful or abrupt. Put it this way Put it this way: you need us more than we need you. Let me put it this way is generally softer because let me introduces the reformulation more politely. Let me put it this way For this exercise, use the complete target expression: Let me put it this way:",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss317-benefit-01",
+      "zh": "當原本的解釋過於複雜，或對方未能掌握你的重點時，你可以使用這個句型重新說明。讓我這樣說吧：我們仍能按照時間表完成工作，但幾項重要細節仍未確定。",
+      "en": "It Helps You Explain a Difficult Idea More Clearly You can use the expression when your first explanation is too complicated or when another person does not understand your main point. Complicated explanation: The timetable remains operationally achievable, although several dependencies have yet to be confirmed. Simpler explanation: Let me put it this way: we can still meet the timetable, but several important details remain uncertain.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-benefit-02",
+      "zh": "這個句型可以提醒聽者，接下來便是整個解釋中最重要的部分。讓我這樣說吧：問題不在能力不足，而在缺乏方向。",
+      "en": "It Helps You Present the Main Point Directly The expression tells listeners that the most important part of the explanation is coming next. Let me put it this way: the problem is not a lack of ability it is a lack of direction.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-benefit-03",
+      "zh": "說話者在提出批評、拒絕要求或說出令人不舒服的事實前，可以使用這個句型稍為緩和語氣。讓我這樣說吧：我明白你為甚麼提出這項要求，但預算無法負擔。",
+      "en": "It Can Make a Difficult Message Sound Less Abrupt A speaker can use the expression before giving criticism, refusing a request or presenting an uncomfortable truth. Let me put it this way: I understand why you are asking, but the budget cannot support it.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-benefit-04",
+      "zh": "這個句型可以引出比喻、對比或簡短有力的說法，令觀點更容易記住。讓我這樣說吧：高強度密碼是一把鎖，但隨便分享密碼便等於把門打開。",
+      "en": "It Helps You Introduce a Comparison or Memorable Image The expression can prepare the listener for an analogy, contrast or short statement that makes the idea easier to remember. Let me put it this way: a strong password is a lock, but careless sharing leaves the door open.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-benefit-05",
+      "zh": "這個固定表達可以成為實用的口語框架。你在說出這句話時，可以同時整理接下來較清楚的解釋。它特別適合用於：討論；面試；會議；簡報；辯論；較難處理的對話。",
+      "en": "It Gives You Time to Organise a Spoken Answer The fixed expression acts as a useful speaking frame. While saying it, you can prepare the clearer explanation that comes next. It is especially useful in: discussions interviews meetings presentations debates difficult conversations.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss317-benefit-06",
+      "zh": "除了反覆使用 I think、In my opinion 或 In other words，你也可以使用這個句型引出重新整理過的觀點，使說話和寫作更有變化。",
+      "en": "It Gives You More Varied Sentence Openings Instead of repeatedly beginning answers with I think, In my opinion or In other words, you can use this expression to introduce a reformulated point.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 315 maps to ss317: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the complete expression Let me put it this way: while preserving the",
+      "original meaning.",
+      "The target expression may:",
+      "begin the whole answer.",
+      "follow an opening expression.",
+      "appear after a context sentence.",
+      "appear inside direct speech after a reporting clause.",
+      "appear before a reporting clause.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用完整表達 Let me put it this way: 改寫以下內容，並保留原句意思。",
+      "目標句型可以：",
+      "放在整個答案的開首。",
+      "放在其他開首表達之後。",
+      "放在一個背景句之後。",
+      "放在引述句內，並置於引述動詞之後。",
+      "放在引述句內，並置於引述動詞之前。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss317-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What I mean is that the plan is possible, but we need more time.",
+      "promptZh": "我的意思是，這個計劃可以實行，但我們需要更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: the plan is possible, but it needs more time.",
+      "answerZh": "讓我這樣說吧：這個計劃可以實行，但需要更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: the plan is possible, but it needs more time."
+    },
+    {
+      "id": "ss317-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "To state the choice clearly, we can cut costs or protect quality, but we cannot do both immediately.",
+      "promptZh": "清楚來說，我們可以削減成本，或者保障質素，但不能立即同時做到兩者。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: we can cut costs, or we can protect quality, but we cannot do both immediately.",
+      "answerZh": "讓我這樣說吧：我們可以削減成本，或者保障質素，但不能立即同時做到兩者。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: we can cut costs, or we can protect quality, but we cannot do both immediately."
+    },
+    {
+      "id": "ss317-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "Well, the fairest way to describe the room is that it is small but contains everything we need.",
+      "promptZh": "嗯，最準確的說法是，房間雖小，但我們需要的東西一應俱全。",
+      "promptZhSource": "pdf",
+      "starter": "Well",
+      "answer": "Well, let me put it this way: the room is small, but it has everything we need.",
+      "answerZh": "嗯，讓我這樣說吧：房間雖小，但我們需要的東西一應俱全。",
+      "answerZhSource": "pdf",
+      "highlight": "Well, let me put it this way: the room is small, but it has everything we need."
+    },
+    {
+      "id": "ss317-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The teacher paused before explaining the point more simply: “Effort matters more than one bad result.”",
+      "promptZh": "老師停頓了一下，然後以較簡單的方式解釋：「努力比一次不理想的結果更重要。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher paused and said, “Let me put it this way: effort matters more than one bad result.”",
+      "answerZh": "老師停頓了一下，然後說：「讓我這樣說吧：努力比一次不理想的結果更重要。」",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher paused and said, “Let me put it this way: effort matters more than one bad result.”"
+    },
+    {
+      "id": "ss317-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In other words, the bus costs less, whereas the train is much faster.",
+      "promptZh": "換句話說，巴士較便宜，而火車則快得多。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: the bus is cheap, but the train is much faster.",
+      "answerZh": "讓我這樣說吧：巴士較便宜，但火車快得多。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: the bus is cheap, but the train is much faster."
+    },
+    {
+      "id": "ss317-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before answering, Daniel explained his position more plainly: “I trust the idea, but I do not trust the current timetable.”",
+      "promptZh": "回答前，丹尼爾更直接地解釋自己的立場：「我相信這個構思，但不相信目前的時間表。」",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before answering, Daniel said, “Let me put it this way: I trust the idea, but not the current timetable.”",
+      "answerZh": "回答前，丹尼爾說：「讓我這樣說吧：我相信這個構思，但不相信目前的時間表。」",
+      "answerZhSource": "pdf",
+      "highlight": "Before answering, Daniel said, “Let me put it this way: I trust the idea, but not the current timetable.”"
+    },
+    {
+      "id": "ss317-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Perhaps I can explain my view more clearly: the job is demanding, but it offers valuable experience.",
+      "promptZh": "或許我可以更清楚地解釋自己的看法：這份工作要求很高，但能提供寶貴經驗。",
+      "promptZhSource": "pdf",
+      "starter": "Perhaps",
+      "answer": "Perhaps I can explain it more clearly. Let me put it this way: the job is demanding, but it offers valuable experience.",
+      "answerZh": "或許我可以解釋得更清楚。讓我這樣說吧：這份工作要求很高，但能提供寶貴經驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Perhaps I can explain it more clearly. Let me put it this way: the job is demanding, but it offers valuable experience."
+    },
+    {
+      "id": "ss317-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I cannot answer with a simple yes or no. My view is that the proposal has promise, although several details remain unclear.",
+      "promptZh": "我不能簡單地回答是或不是。我的看法是，這項建議很有潛力，但仍有幾項細節並不清楚。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I cannot give a simple yes or no. Let me put it this way: the proposal has promise, but several details remain unclear.",
+      "answerZh": "我不能簡單地回答是或不是。讓我這樣說吧：這項建議很有潛力，但仍有幾項細節並不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "I cannot give a simple yes or no. Let me put it this way: the proposal has promise, but several details remain unclear."
+    },
+    {
+      "id": "ss317-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "To be clear, we are moving the event to a safer date rather than cancelling it.",
+      "promptZh": "說清楚一點，我們並非取消活動，而是把活動改到一個較安全的日期舉行。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: we are not cancelling the event; we are moving it to a safer date.",
+      "answerZh": "讓我這樣說吧：我們並非取消活動，而是把活動改到一個較安全的日期舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: we are not cancelling the event; we are moving it to a safer date."
+    },
+    {
+      "id": "ss317-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The coach replied with a simple comparison: “Talent may open the door, but practice keeps it open.”",
+      "promptZh": "教練以一個簡單的比喻回答：「天分或許能打開大門，但練習才能令大門保持開啟。」",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "“Let me put it this way: talent may open the door, but practice keeps it open,” the coach replied.",
+      "answerZh": "「讓我這樣說吧：天分或許能打開大門，但練習才能令大門保持開啟。」教練回答。",
+      "answerZhSource": "pdf",
+      "highlight": "“Let me put it this way: talent may open the door, but practice keeps it open,” the coach replied.",
+      "acceptedAnswers": [
+        "Let me put it this way: talent may open the door, but practice keeps it open, the coach replied."
+      ]
+    },
+    {
+      "id": "ss317-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "To be honest, the meal was acceptable, but I would not order it again. That is the most accurate description.",
+      "promptZh": "老實說，這頓飯可以接受，但我不會再次點選。這是最準確的形容。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To be honest, let me put it this way: the meal was acceptable, but I would not order it again.",
+      "answerZh": "老實說，讓我這樣說吧：這頓飯可以接受，但我不會再次點選。",
+      "answerZhSource": "pdf",
+      "highlight": "To be honest, let me put it this way: the meal was acceptable, but I would not order it again."
+    },
+    {
+      "id": "ss317-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "In simple terms, the device works, but it is not reliable enough for daily use.",
+      "promptZh": "簡單來說，這部裝置可以運作，但並不足以可靠地供日常使用。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: the device works, but it is not reliable enough for daily use.",
+      "answerZh": "讓我這樣說吧：這部裝置可以運作，但並不足以可靠地供日常使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: the device works, but it is not reliable enough for daily use."
+    },
+    {
+      "id": "ss317-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The guide smiled and gave a direct assessment: “The climb is difficult, but the view is worth it.”",
+      "promptZh": "導遊微笑着作出直接評價：「攀登過程很困難，但景色值得你付出努力。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide smiled before saying, “Let me put it this way: the climb is difficult, but the view is worth it.”",
+      "answerZh": "導遊微笑着說：「讓我這樣說吧：攀登過程很困難，但景色值得你付出努力。」",
+      "answerZhSource": "pdf",
+      "highlight": "The guide smiled before saying, “Let me put it this way: the climb is difficult, but the view is worth it.”"
+    },
+    {
+      "id": "ss317-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I considered the question carefully. My conclusion is that the course is useful for beginners, but not for advanced learners.",
+      "promptZh": "我仔細考慮了這個問題。我的結論是，這個課程適合初學者，但不適合高階學習者。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I considered the question carefully. Let me put it this way: the course is useful for beginners, not for advanced learners.",
+      "answerZh": "我仔細考慮了這個問題。讓我這樣說吧：這個課程適合初學者，但不適合高階學習者。",
+      "answerZhSource": "pdf",
+      "highlight": "I considered the question carefully. Let me put it this way: the course is useful for beginners, not for advanced learners."
+    },
+    {
+      "id": "ss317-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The flat is affordable for one main reason: it is far from the city centre.",
+      "promptZh": "這個單位價格可以負擔，主要原因是它遠離市中心。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: the flat is affordable because it is far from the city centre.",
+      "answerZh": "讓我這樣說吧：這個單位價格可以負擔，是因為它遠離市中心。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: the flat is affordable because it is far from the city centre."
+    },
+    {
+      "id": "ss317-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "In practical terms, each hour of delay will increase the final cost.",
+      "promptZh": "實際而言，每延誤一小時，最終成本便會增加。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In practical terms, let me put it this way: every hour we delay will increase the final cost.",
+      "answerZh": "實際而言，讓我這樣說吧：我們每延誤一小時，最終成本便會增加。",
+      "answerZhSource": "pdf",
+      "highlight": "In practical terms, let me put it this way: every hour we delay will increase the final cost."
+    },
+    {
+      "id": "ss317-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The doctor answered gently and made the situation clear: “Recovery is likely, but it will not be quick.”",
+      "promptZh": "醫生溫和地回答，並清楚說明情況：「病人很可能康復，但過程不會很快。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor answered gently, “Let me put it this way: recovery is likely, but it will not be quick.”",
+      "answerZh": "醫生溫和地回答：「讓我這樣說吧：病人很可能康復，但過程不會很快。」",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor answered gently, “Let me put it this way: recovery is likely, but it will not be quick.”"
+    },
+    {
+      "id": "ss317-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "In other words, the software saves time only after staff learn how to use it.",
+      "promptZh": "換句話說，職員學會如何使用軟件後，軟件才可以節省時間。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: the software saves time only after staff learn how to use it.",
+      "answerZh": "讓我這樣說吧：職員學會如何使用軟件後，軟件才可以節省時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: the software saves time only after staff learn how to use it."
+    },
+    {
+      "id": "ss317-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After reading the report, the director summarised the situation: “The figures are improving, but the risks have not disappeared.”",
+      "promptZh": "看過報告後，董事總結情況：「數字正在改善，但風險尚未消失。」",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "“Let me put it this way: the figures are improving, but the risks have not disappeared,” the director said after reading the report.",
+      "answerZh": "「讓我這樣說吧：數字正在改善，但風險尚未消失。」董事看過報告後說。",
+      "answerZhSource": "pdf",
+      "highlight": "“Let me put it this way: the figures are improving, but the risks have not disappeared,” the director said after reading the report.",
+      "acceptedAnswers": [
+        "Let me put it this way: the figures are improving, but the risks have not disappeared, the director said after reading the report."
+      ]
+    },
+    {
+      "id": "ss317-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I would explain the difference by saying that knowledge tells you what to do, while judgement tells you when to do it.",
+      "promptZh": "我會這樣解釋兩者的分別：知識告訴你應該做甚麼，而判斷力則告訴你應該何時行動。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would explain the difference like this. Let me put it this way: knowledge tells you what to do; judgement tells you when to do it.",
+      "answerZh": "我會這樣解釋兩者的分別。讓我這樣說吧：知識告訴你應該做甚麼，而判斷力則告訴你應該何時行動。",
+      "answerZhSource": "pdf",
+      "highlight": "I would explain the difference like this. Let me put it this way: knowledge tells you what to do; judgement tells you when to do it."
+    },
+    {
+      "id": "ss317-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Here is the simplest way to express the point: a promise without action is only a sentence.",
+      "promptZh": "最簡單的說法是：沒有行動的承諾只是一句說話。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: a promise without action is only a sentence.",
+      "answerZh": "讓我這樣說吧：沒有行動的承諾只是一句說話。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: a promise without action is only a sentence."
+    },
+    {
+      "id": "ss317-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If I may be direct, your idea solves one problem but creates two others.",
+      "promptZh": "容我直接一點說，你的構思解決了一個問題，卻製造了另外兩個問題。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, let me put it this way: your idea solves one problem but creates two others.",
+      "answerZh": "容我這樣說吧：你的構思解決了一個問題，卻製造了另外兩個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, let me put it this way: your idea solves one problem but creates two others."
+    },
+    {
+      "id": "ss317-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The customer asked for a direct answer. The assistant explained: “The cheaper model costs less now, but it costs more to maintain.”",
+      "promptZh": "顧客要求得到直接答案。助理解釋：「較便宜的型號現在價格較低，但日後的保養費較高。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customer asked for a direct answer. The assistant replied, “Let me put it this way: the cheaper model costs less now, but more to maintain.”",
+      "answerZh": "顧客要求得到直接答案。助理回答：「讓我這樣說吧：較便宜的型號現在價格較低，但日後的保養費較高。」",
+      "answerZhSource": "pdf",
+      "highlight": "The customer asked for a direct answer. The assistant replied, “Let me put it this way: the cheaper model costs less now, but more to maintain.”"
+    },
+    {
+      "id": "ss317-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "To put the problem plainly, the policy appears fair on paper, although not everyone can use it equally.",
+      "promptZh": "直接說明問題，這項政策表面上公平，但並非所有人都能同樣使用它。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: the policy looks fair on paper, but not everyone can use it equally.",
+      "answerZh": "讓我這樣說吧：這項政策表面上公平，但並非所有人都能同樣使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: the policy looks fair on paper, but not everyone can use it equally."
+    },
+    {
+      "id": "ss317-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "During the interview, Helena described her ability honestly: “I do not know everything, but I know how to find reliable answers.”",
+      "promptZh": "面試期間，海倫娜如實描述自己的能力：「我並非甚麼都知道，但我知道如何尋找可靠答案。」",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the interview, Helena said, “Let me put it this way: I do not know everything, but I know how to find reliable answers.”",
+      "answerZh": "面試期間，海倫娜說：「讓我這樣說吧：我並非甚麼都知道，但我知道如何尋找可靠答案。」",
+      "answerZhSource": "pdf",
+      "highlight": "During the interview, Helena said, “Let me put it this way: I do not know everything, but I know how to find reliable answers.”"
+    },
+    {
+      "id": "ss317-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "In other words, social media spreads useful information and harmful rumours equally quickly.",
+      "promptZh": "換句話說，社交媒體傳播有用資訊和有害謠言的速度同樣快。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: social media can spread useful information and harmful rumours with equal speed.",
+      "answerZh": "讓我這樣說吧：社交媒體可以以同樣速度傳播有用資訊和有害謠言。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: social media can spread useful information and harmful rumours with equal speed."
+    },
+    {
+      "id": "ss317-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Rather than give a long explanation, I will state the main problem directly: the team lacks direction, not ability.",
+      "promptZh": "與其作出冗長解釋，我會直接說出主要問題：團隊缺乏的不是能力，而是方向。",
+      "promptZhSource": "pdf",
+      "starter": "Rather",
+      "answer": "Rather than give a long explanation, let me put it this way: the team lacks direction, not ability.",
+      "answerZh": "與其作出冗長解釋，讓我這樣說吧：團隊缺乏的不是能力，而是方向。",
+      "answerZhSource": "pdf",
+      "highlight": "Rather than give a long explanation, let me put it this way: the team lacks direction, not ability."
+    },
+    {
+      "id": "ss317-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The engineer studied the damaged part and gave a clear judgement: “Repairing it is possible, but replacing it is safer.”",
+      "promptZh": "工程師檢查損壞的零件後作出明確判斷：「維修並非不可能，但更換會比較安全。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineer studied the damaged part and said, “Let me put it this way: repairing it is possible, but replacing it is safer.”",
+      "answerZh": "工程師檢查損壞的零件後說：「讓我這樣說吧：維修並非不可能，但更換會比較安全。」",
+      "answerZhSource": "pdf",
+      "highlight": "The engineer studied the damaged part and said, “Let me put it this way: repairing it is possible, but replacing it is safer.”"
+    },
+    {
+      "id": "ss317-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The practical lesson is that saving ten minutes today may cost us ten hours tomorrow.",
+      "promptZh": "實際的教訓是，今天節省十分鐘，明天可能令我們損失十小時。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: saving ten minutes today may cost us ten hours tomorrow.",
+      "answerZh": "讓我這樣說吧：今天節省十分鐘，明天可能令我們損失十小時。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: saving ten minutes today may cost us ten hours tomorrow."
+    },
+    {
+      "id": "ss317-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The head teacher gave the parents a simple explanation: “Rules protect students only when everyone follows them.”",
+      "promptZh": "校長向家長作出簡單解釋：「只有所有人都遵守規則，規則才能保障學生。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The head teacher gave the parents a simpler explanation: “Let me put it this way: rules protect students only when everyone follows them.”",
+      "answerZh": "校長向家長作出較簡單的解釋：「讓我這樣說吧：只有所有人都遵守規則，規則才能保障學生。」",
+      "answerZhSource": "pdf",
+      "highlight": "The head teacher gave the parents a simpler explanation: “Let me put it this way: rules protect students only when everyone follows them.”"
+    },
+    {
+      "id": "ss317-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "For the sake of clarity, the deadline is flexible, but the safety standard is not.",
+      "promptZh": "為免產生誤解，期限可以調整，但安全標準不能降低。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the sake of clarity, let me put it this way: the deadline is flexible, but the safety standard is not.",
+      "answerZh": "為免產生誤解，讓我這樣說吧：期限可以調整，但安全標準不能降低。",
+      "answerZhSource": "pdf",
+      "highlight": "For the sake of clarity, let me put it this way: the deadline is flexible, but the safety standard is not."
+    },
+    {
+      "id": "ss317-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "To summarise the result, the advertisement attracted attention, but it did not build trust.",
+      "promptZh": "總結結果，廣告吸引了注意力，但未能建立信任。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: the advertisement attracted attention, but it did not build trust.",
+      "answerZh": "讓我這樣說吧：廣告吸引了注意力，但未能建立信任。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: the advertisement attracted attention, but it did not build trust."
+    },
+    {
+      "id": "ss317-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "After a long silence, the witness gave a careful answer: “I saw the car, but I could not identify the driver.”",
+      "promptZh": "經過一段長時間的沉默後，證人小心地回答：「我看見了那輛車，但無法認出司機。」",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "“Let me put it this way: I saw the car, but I could not identify the driver,” the witness said after a long silence.",
+      "answerZh": "「讓我這樣說吧：我看見了那輛車，但無法認出司機。」證人經過一段長時間的沉默後說。",
+      "answerZhSource": "pdf",
+      "highlight": "“Let me put it this way: I saw the car, but I could not identify the driver,” the witness said after a long silence.",
+      "acceptedAnswers": [
+        "Let me put it this way: I saw the car, but I could not identify the driver, the witness said after a long silence."
+      ]
+    },
+    {
+      "id": "ss317-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "There is a simple way to understand the situation: demand has grown faster than our ability to supply it.",
+      "promptZh": "可以用一個簡單方法理解情況：需求的增長速度高於我們的供應能力。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is a simple way to understand the situation. Let me put it this way: demand has grown faster than our ability to supply it.",
+      "answerZh": "可以用一個簡單方法理解情況。讓我這樣說吧：需求的增長速度高於我們的供應能力。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a simple way to understand the situation. Let me put it this way: demand has grown faster than our ability to supply it."
+    },
+    {
+      "id": "ss317-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The scholarship removes the tuition fee, but it does not remove every cost of studying. That is the key distinction.",
+      "promptZh": "獎學金可以免除學費，但不能免除所有學習開支。這是兩者的重要分別。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: the scholarship removes the tuition fee, not every cost of studying.",
+      "answerZh": "讓我這樣說吧：獎學金免除的是學費，而不是所有學習開支。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: the scholarship removes the tuition fee, not every cost of studying."
+    },
+    {
+      "id": "ss317-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The adviser replied carefully and explained the trade-off: “Borrowing may solve the immediate problem, but it creates a future obligation.”",
+      "promptZh": "顧問小心地回答，並解釋當中的取捨：「借款或許能解決眼前問題，但會帶來日後的責任。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The adviser replied carefully, “Let me put it this way: borrowing may solve the immediate problem, but it creates a future obligation.”",
+      "answerZh": "顧問小心地回答：「讓我這樣說吧：借款或許能解決眼前問題，但會帶來日後的責任。」",
+      "answerZhSource": "pdf",
+      "highlight": "The adviser replied carefully, “Let me put it this way: borrowing may solve the immediate problem, but it creates a future obligation.”"
+    },
+    {
+      "id": "ss317-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Frankly, the meeting produced many opinions but no decision. That is the main point.",
+      "promptZh": "坦白說，會議提出了很多意見，卻沒有作出任何決定。這才是重點。",
+      "promptZhSource": "pdf",
+      "starter": "Frankly",
+      "answer": "Frankly, let me put it this way: the meeting produced many opinions but no decision.",
+      "answerZh": "坦白說，讓我這樣說吧：會議提出了很多意見，卻沒有作出任何決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Frankly, let me put it this way: the meeting produced many opinions but no decision."
+    },
+    {
+      "id": "ss317-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The old system was slow because three approvals were required for every small change.",
+      "promptZh": "舊制度運作緩慢，因為每項小改動都需要得到三次批准。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: the old system was slow because every small change required three approvals.",
+      "answerZh": "讓我這樣說吧：舊制度運作緩慢，是因為每項小改動都需要得到三次批准。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: the old system was slow because every small change required three approvals."
+    },
+    {
+      "id": "ss317-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The scientist avoided technical language and explained: “The treatment slows the illness, but it does not cure it.”",
+      "promptZh": "科學家避免使用技術用語，並解釋：「這種治療可以減慢病情發展，但不能治癒疾病。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The scientist avoided technical language and said, “Let me put it this way: the treatment slows the illness; it does not cure it.”",
+      "answerZh": "科學家避免使用技術用語，並說：「讓我這樣說吧：這種治療可以減慢病情發展，但不能治癒疾病。」",
+      "answerZhSource": "pdf",
+      "highlight": "The scientist avoided technical language and said, “Let me put it this way: the treatment slows the illness; it does not cure it.”"
+    },
+    {
+      "id": "ss317-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "I will use an everyday comparison: a strong password is a lock, but careless sharing leaves the door open.",
+      "promptZh": "我會使用一個日常比喻：高強度密碼是一把鎖，但隨便分享密碼便等於把門打開。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will use an everyday comparison. Let me put it this way: a strong password is a lock, but careless sharing leaves the door open.",
+      "answerZh": "我會使用一個日常比喻。讓我這樣說吧：高強度密碼是一把鎖，但隨便分享密碼便等於把門打開。",
+      "answerZhSource": "pdf",
+      "highlight": "I will use an everyday comparison. Let me put it this way: a strong password is a lock, but careless sharing leaves the door open."
+    },
+    {
+      "id": "ss317-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The company can recover from a poor quarter, but it cannot recover from losing its customers’ trust. That is the reality.",
+      "promptZh": "公司可以從一個表現欠佳的季度中恢復過來，但無法輕易挽回顧客失去的信任。這就是現實。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: the company can recover from a poor quarter, but not from losing its customers’ trust.",
+      "answerZh": "讓我這樣說吧：公司可以從一個表現欠佳的季度中恢復過來，但無法輕易挽回顧客失去的信任。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: the company can recover from a poor quarter, but not from losing its customers’ trust."
+    },
+    {
+      "id": "ss317-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "When the committee asked whether the plan was ready, the chair gave a precise answer: “The structure is complete, but the supporting evidence is not.”",
+      "promptZh": "委員會詢問計劃是否已經準備妥當時，主席作出準確回答：「整體架構已經完成，但支持證據尚未齊全。」",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the committee asked whether the plan was ready, the chair replied, “Let me put it this way: the structure is complete, but the supporting evidence is not.”",
+      "answerZh": "委員會詢問計劃是否已經準備妥當時，主席回答：「讓我這樣說吧：整體架構已經完成，但支持證據尚未齊全。」",
+      "answerZhSource": "pdf",
+      "highlight": "When the committee asked whether the plan was ready, the chair replied, “Let me put it this way: the structure is complete, but the supporting evidence is not.”"
+    },
+    {
+      "id": "ss317-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "To avoid any misunderstanding, flexible working changes where people work, not what they are expected to achieve.",
+      "promptZh": "為免產生任何誤解，彈性工作改變的是人們工作的地點，而不是他們需要達成的成果。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To avoid any misunderstanding, let me put it this way: flexible working changes where people work, not what they are expected to achieve.",
+      "answerZh": "為免產生任何誤解，讓我這樣說吧：彈性工作改變的是人們工作的地點，而不是他們需要達成的成果。",
+      "answerZhSource": "pdf",
+      "highlight": "To avoid any misunderstanding, let me put it this way: flexible working changes where people work, not what they are expected to achieve."
+    },
+    {
+      "id": "ss317-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 27
+      },
+      "prompt": "The lawyer chose a less technical explanation: “Signing the document creates a duty, not merely an intention.”",
+      "promptZh": "律師選擇了較少技術用語的解釋：「簽署文件會產生責任，而不只代表一個意向。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lawyer chose a less technical explanation and said, “Let me put it this way: signing the document creates a duty, not merely an intention.”",
+      "answerZh": "律師選擇了較少技術用語的解釋，並說：「讓我這樣說吧：簽署文件會產生責任，而不只代表一個意向。」",
+      "answerZhSource": "pdf",
+      "highlight": "The lawyer chose a less technical explanation and said, “Let me put it this way: signing the document creates a duty, not merely an intention.”"
+    },
+    {
+      "id": "ss317-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "In simple terms, a large amount of data is useless unless someone can turn it into a sensible decision.",
+      "promptZh": "簡單來說，除非有人能把大量數據轉化成合理決定，否則數據並沒有用處。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: a large amount of data is useless unless someone can turn it into a sensible decision.",
+      "answerZh": "讓我這樣說吧：除非有人能把大量數據轉化成合理決定，否則數據並沒有用處。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: a large amount of data is useless unless someone can turn it into a sensible decision."
+    },
+    {
+      "id": "ss317-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "After reviewing both offers, Priya explained the difference: “One company is buying our product; the other is investing in our future.”",
+      "promptZh": "審視兩項提議後，普麗雅解釋兩者的分別：「一家公司正在購買我們的產品；另一家公司則正在投資我們的未來。」",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "“Let me put it this way: one company is buying our product; the other is investing in our future,” Priya said after reviewing both offers.",
+      "answerZh": "「讓我這樣說吧：一家公司正在購買我們的產品；另一家公司則正在投資我們的未來。」普麗雅審視兩項提議後說。",
+      "answerZhSource": "pdf",
+      "highlight": "“Let me put it this way: one company is buying our product; the other is investing in our future,” Priya said after reviewing both offers.",
+      "acceptedAnswers": [
+        "Let me put it this way: one company is buying our product; the other is investing in our future, Priya said after reviewing both offers."
+      ]
+    },
+    {
+      "id": "ss317-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The new road may shorten journeys for drivers, but it may also make the neighbourhood less pleasant for residents. This is the trade-off.",
+      "promptZh": "新道路或許能縮短駕駛者的行程，但也可能令居民的社區環境變得較不舒適。這就是當中的取捨。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me put it this way: the new road may shorten journeys for drivers while making the neighbourhood less pleasant for residents.",
+      "answerZh": "讓我這樣說吧：新道路或許能縮短駕駛者的行程，卻可能令居民的社區環境變得較不舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me put it this way: the new road may shorten journeys for drivers while making the neighbourhood less pleasant for residents."
+    },
+    {
+      "id": "ss317-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The manager did not reject the request directly. Instead, she explained: “I understand why you are asking, but the budget cannot support it this year.”",
+      "promptZh": "經理沒有直接拒絕要求。她反而解釋：「我明白你為甚麼提出要求，但今年的預算無法負擔。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager did not reject the request directly. Instead, she said, “Let me put it this way: I understand why you are asking, but the budget cannot support it this year.”",
+      "answerZh": "經理沒有直接拒絕要求。她反而說：「讓我這樣說吧：我明白你為甚麼提出要求，但今年的預算無法負擔。」",
+      "answerZhSource": "pdf",
+      "highlight": "The manager did not reject the request directly. Instead, she said, “Let me put it this way: I understand why you are asking, but the budget cannot support it this year.”"
+    },
+    {
+      "id": "ss317-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "If a single sentence will help, leadership is not about having every answer; it is about helping the group find the right one.",
+      "promptZh": "如果一句說話能幫助你理解，領導並非掌握所有答案，而是協助團隊找到正確答案。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If a single sentence will help, let me put it this way: leadership is not about having every answer; it is about helping the group find the right one.",
+      "answerZh": "如果一句說話能幫助你理解，讓我這樣說吧：領導並非掌握所有答案，而是協助團隊找到正確答案。",
+      "answerZhSource": "pdf",
+      "highlight": "If a single sentence will help, let me put it this way: leadership is not about having every answer; it is about helping the group find the right one."
+    },
+    {
+      "id": "ss317-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 28
+      },
+      "prompt": "The minister was pressed to explain the delay. After a pause, he used a simple contrast: “Announcing a date is easy; meeting it responsibly is much harder.”",
+      "promptZh": "部長被要求解釋延誤。停頓了一下後，他使用一個簡單對比：「公布日期很容易；負責任地如期完成則困難得多。」",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "“Let me put it this way: announcing a date is easy; meeting it responsibly is much harder,” the minister said after a pause.",
+      "answerZh": "「讓我這樣說吧：公布日期很容易；負責任地如期完成則困難得多。」部長停頓了一下後說。",
+      "answerZhSource": "pdf",
+      "highlight": "“Let me put it this way: announcing a date is easy; meeting it responsibly is much harder,” the minister said after a pause.",
+      "acceptedAnswers": [
+        "Let me put it this way: announcing a date is easy; meeting it responsibly is much harder, the minister said after a pause."
+      ]
+    }
+  ]
+}

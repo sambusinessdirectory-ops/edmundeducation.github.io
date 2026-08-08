@@ -1,0 +1,1671 @@
+{
+  "lesson": {
+    "id": "idiom-115",
+    "order": 115,
+    "slug": "cost-the-earth",
+    "version": "1",
+    "title": "花費一大筆錢／價錢高昂",
+    "titleEn": "cost the earth",
+    "titleZh": "花費一大筆錢／價錢高昂",
+    "source": {
+      "file": "Idiom 115 - “Cost the Earth”.pdf",
+      "pageCount": 34,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "exercisePdfPages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "answerKeyPdfPages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "cost the earth",
+        "highlight": "cost the earth"
+      }
+    ],
+    "examples": [
+      {
+        "en": "That sofa costs the earth.",
+        "zh": "那張梳化貴得驚人。",
+        "highlight": "costs the earth"
+      },
+      {
+        "en": "Concert tickets in the front row cost the earth.",
+        "zh": "音樂會前排座位的門票貴得驚人。",
+        "highlight": "cost the earth"
+      }
+    ],
+    "meaning": {
+      "en": "To be extremely expensive or require a very large amount of money.",
+      "zh": "非常昂貴；需要花費一大筆錢；價錢高得驚人。",
+      "naturalZh": [
+        "花費一大筆錢",
+        "價錢高昂",
+        "貴得驚人",
+        "貴得離譜",
+        "索價極高"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "advertising language; general journalism.",
+      "summaryZh": "cost the earth 屬於非正式而帶有強調作用的表達，特別適合用於：",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "In formal financial reports, precise wording such as extremely expensive, financially unworkable or estimated to cost £500,000 may be clearer.",
+      "formalZh": "在正式財務報告中，使用 extremely expensive、financially unworkable 或列明實際預計金額，通常會更清楚。"
+    },
+    "fixedVariable": {
+      "fixed": "cost the earth",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + cost(s) the earth.",
+          "example": "That sofa costs the earth.",
+          "highlight": "costs the earth"
+        },
+        {
+          "form": "Subject + cost the earth.",
+          "example": "The repairs cost the earth.",
+          "highlight": "cost the earth"
+        },
+        {
+          "form": "It + cost(s) / cost + the earth + to + verb.",
+          "example": "It cost the earth to repair the roof.",
+          "highlight": "cost the earth"
+        },
+        {
+          "form": "Subject + may / might / could / will / would + cost the earth.",
+          "example": "The repairs may cost the earth.",
+          "highlight": "cost the earth"
+        },
+        {
+          "form": "Subject + has / have / had + cost the earth.",
+          "example": "The trip has cost the earth.",
+          "highlight": "cost the earth"
+        },
+        {
+          "form": "Subject + be + costing the earth.",
+          "example": "The hotel stay is costing us the earth.",
+          "highlight": "costing us the earth"
+        },
+        {
+          "form": "Subject + end(s) / ended up + costing the earth.",
+          "example": "The small repair ended up costing the earth.",
+          "highlight": "costing the earth"
+        },
+        {
+          "form": "Subject + does / did / will + not + cost the earth.",
+          "example": "The meal does not cost the earth.",
+          "highlight": "cost the earth"
+        },
+        {
+          "form": "Subject + expect / seem / appear / be likely + to cost the earth.",
+          "example": "They expect the new windows to cost the earth.",
+          "highlight": "cost the earth"
+        },
+        {
+          "form": "Subject + cost + person + the earth.",
+          "example": "The repairs cost us the earth.",
+          "highlight": "cost us the earth"
+        },
+        {
+          "form": "Does + subject + cost the earth?",
+          "example": "Does parking here cost the earth?",
+          "highlight": "cost the earth"
+        },
+        {
+          "form": "that + subject + may cost the earth",
+          "example": "I cannot recommend anything that costs the earth.",
+          "highlight": "costs the earth"
+        },
+        {
+          "form": "If + condition, subject + may / will / would + cost the earth.",
+          "example": "If we choose the largest room, the stay will cost the earth.",
+          "highlight": "cost the earth"
+        },
+        {
+          "form": "Subject + action + without it costing the earth.",
+          "example": "You can improve the room without it costing the earth.",
+          "highlight": "costing the earth"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Ordinary Finite Verb Phrase",
+        "titleZh": "一般限定動詞短語",
+        "formula": "Subject + cost(s) the earth.",
+        "descriptionEn": "This is the most direct form. The subject names the expensive product, service, activity or situation.",
+        "descriptionZh": "這是最直接的形式。 主語指出價格高昂的物品、服務、活動或情況。",
+        "examples": [
+          {
+            "en": "That sofa costs the earth.",
+            "zh": "那張梳化貴得驚人。",
+            "highlight": "costs the earth"
+          },
+          {
+            "en": "Concert tickets in the front row cost the earth.",
+            "zh": "音樂會前排座位的門票貴得驚人。",
+            "highlight": "cost the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Past Form",
+        "titleZh": "過去式",
+        "formula": "Subject + cost the earth.",
+        "descriptionEn": "The past form is cost, not costed.",
+        "descriptionZh": "過去式是 cost，而不是 costed。",
+        "examples": [
+          {
+            "en": "The repairs cost the earth.",
+            "zh": "維修花費極為高昂。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "Her new laptop cost the earth.",
+            "zh": "她的新手提電腦貴得驚人。",
+            "highlight": "cost the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "“It + Cost the Earth + To-infinitive”",
+        "titleZh": "不定詞",
+        "formula": "It + cost(s) / cost + the earth + to + verb.",
+        "descriptionEn": "The to-infinitive explains which action is extremely expensive. It is an optional extension, not part of the fixed expression.",
+        "descriptionZh": "不定詞說明哪一項行動極為昂貴。 它是可選延伸部分，並不是固定表達的一部分。",
+        "examples": [
+          {
+            "en": "It cost the earth to repair the roof.",
+            "zh": "修理屋頂花費極為高昂。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "It will cost the earth to replace every window.",
+            "zh": "更換所有窗戶將會花費一大筆錢。",
+            "highlight": "cost the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Modal and Future Forms",
+        "titleZh": "情態動詞及將來形式",
+        "formula": "Subject + may / might / could / will / would + cost the earth.",
+        "descriptionEn": "The modal must preserve the original degree of certainty.",
+        "descriptionZh": "情態動詞必須保留原句的確定程度。",
+        "examples": [
+          {
+            "en": "The repairs may cost the earth.",
+            "zh": "維修可能會花費一大筆錢。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "The wedding could cost the earth.",
+            "zh": "婚禮可能會花費一大筆錢。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "A larger room will cost the earth.",
+            "zh": "較大的房間將會貴得驚人。",
+            "highlight": "cost the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Perfect and Modal-Perfect Forms",
+        "titleZh": "完成式及情態完成式",
+        "formula": "Subject + has / have / had + cost the earth.",
+        "descriptionEn": "The work had cost the earth before it was finished.",
+        "descriptionZh": "工程尚未完成，花費已經極為高昂。",
+        "examples": [
+          {
+            "en": "The trip has cost the earth.",
+            "zh": "這次旅行已花費了一大筆錢。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "That kitchen must have cost the earth.",
+            "zh": "那個廚房一定造價高昂。",
+            "highlight": "cost the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Progressive Form",
+        "titleZh": "進行形式",
+        "formula": "Subject + be + costing the earth.",
+        "descriptionEn": "The progressive form highlights a large expense that is continuing or growing. Collins corpus examples include forms such as is costing the earth.",
+        "descriptionZh": "進行形式突出一項正在持續或增加的巨額開支。",
+        "examples": [
+          {
+            "en": "The hotel stay is costing us the earth.",
+            "zh": "這次酒店住宿正令我們花費一大筆錢。",
+            "highlight": "costing us the earth"
+          },
+          {
+            "en": "The repairs were costing the company the earth.",
+            "zh": "維修工程當時正令公司花費一大筆錢。",
+            "highlight": "costing the company the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“End Up Costing the Earth”",
+        "titleZh": "這項小型維修最後花費極為高昂",
+        "formula": "Subject + end(s) / ended up + costing the earth.",
+        "descriptionEn": "End up is an external grammar frame. The core target remains costing the earth.",
+        "descriptionZh": "這項小型維修最後花費極為高昂。 end up 是外圍句法。 核心目標仍然是 costing the earth。",
+        "examples": [
+          {
+            "en": "The small repair ended up costing the earth.",
+            "zh": "這項小型維修最後花費極為高昂。",
+            "highlight": "costing the earth"
+          },
+          {
+            "en": "The party could end up costing the earth.",
+            "zh": "派對最後可能會花費一大筆錢。",
+            "highlight": "costing the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Negative Forms",
+        "titleZh": "否定形式",
+        "formula": "Subject + does / did / will + not + cost the earth.",
+        "descriptionEn": "The work need not cost the earth.",
+        "descriptionZh": "這項工程不必花費一大筆錢。",
+        "examples": [
+          {
+            "en": "The meal does not cost the earth.",
+            "zh": "這頓飯並不昂貴。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "The repair will not cost the earth.",
+            "zh": "維修不會花費一大筆錢。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "A good holiday does not have to cost the earth.",
+            "zh": "愉快的旅行不一定要花費一大筆錢。",
+            "highlight": "cost the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "After Verbs and Adjectives",
+        "titleZh": "接在動詞或形容詞後",
+        "formula": "Subject + expect / seem / appear / be likely + to cost the earth.",
+        "descriptionEn": "The infinitive marker to belongs to the surrounding grammar. The target itself remains cost the earth.",
+        "descriptionZh": "不定詞標記 to 屬於外圍句法。 目標表達本身仍然是 cost the earth。",
+        "examples": [
+          {
+            "en": "They expect the new windows to cost the earth.",
+            "zh": "他們預計新窗戶會花費一大筆錢。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "The service seems to cost the earth.",
+            "zh": "這項服務似乎貴得驚人。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "The repairs are likely to cost the earth.",
+            "zh": "維修很可能會花費一大筆錢。",
+            "highlight": "cost the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Optional Affected-Person Slot",
+        "titleZh": "可選的費用承擔者",
+        "formula": "Subject + cost + person + the earth.",
+        "descriptionEn": "This optional slot identifies who bears the expense. It is not present in the basic expression. Cambridge Business English records the wider pattern cost somebody a fortune, a bomb or the earth.",
+        "descriptionZh": "這個可選位置指出誰承擔費用。 基本表達本身不一定需要加入人物。",
+        "examples": [
+          {
+            "en": "The repairs cost us the earth.",
+            "zh": "維修令我們花費了一大筆錢。",
+            "highlight": "cost us the earth"
+          },
+          {
+            "en": "The course has cost the family the earth.",
+            "zh": "這個課程令那個家庭花費了一大筆錢。",
+            "highlight": "cost the family the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Questions",
+        "titleZh": "疑問句",
+        "formula": "Does + subject + cost the earth?",
+        "descriptionEn": "Source grammar frame: Does + subject + cost the earth?.",
+        "descriptionZh": "原檔列出的句法框架：Does + subject + cost the earth?。",
+        "examples": [
+          {
+            "en": "Does parking here cost the earth?",
+            "zh": "在這裏泊車是否貴得驚人？",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "Why should a basic repair cost the earth?",
+            "zh": "為甚麼一項基本維修要花費一大筆錢？",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "How did the course come to cost the earth?",
+            "zh": "這個課程為甚麼會變得如此昂貴？",
+            "highlight": "cost the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Relative and Embedded Clauses",
+        "titleZh": "關係子句及嵌入子句",
+        "formula": "that + subject + may cost the earth",
+        "descriptionEn": "Source grammar frame: that + subject + may cost the earth.",
+        "descriptionZh": "原檔列出的句法框架：that + subject + may cost the earth。",
+        "examples": [
+          {
+            "en": "I cannot recommend anything that costs the earth.",
+            "zh": "我不能推薦任何貴得驚人的東西。",
+            "highlight": "costs the earth"
+          },
+          {
+            "en": "I am worried that the repairs may cost the earth.",
+            "zh": "我擔心維修可能會花費一大筆錢。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "Whether the party costs the earth depends on the venue.",
+            "zh": "派對會否花費一大筆錢，取決於場地。",
+            "highlight": "costs the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 13,
+        "titleEn": "Conditional Forms",
+        "titleZh": "條件句",
+        "formula": "If + condition, subject + may / will / would + cost the earth.",
+        "descriptionEn": "I would buy it if it did not cost the earth.",
+        "descriptionZh": "如果它不是貴得驚人，我便會購買。",
+        "examples": [
+          {
+            "en": "If we choose the largest room, the stay will cost the earth.",
+            "zh": "如果我們選擇最大的房間，住宿便會花費一大筆錢。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "If we had replaced everything, it would have cost the earth.",
+            "zh": "如果我們更換了所有東西，便會花費一大筆錢。",
+            "highlight": "cost the earth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 14,
+        "titleEn": "“Without It Costing the Earth”",
+        "titleZh": "你可以改善房間，而不用花費一大筆錢",
+        "formula": "Subject + action + without it costing the earth.",
+        "descriptionEn": "They wanted a special wedding without it costing the earth.",
+        "descriptionZh": "你可以改善房間，而不用花費一大筆錢。 他們希望婚禮感覺特別，同時不用花費一大筆錢。",
+        "examples": [
+          {
+            "en": "You can improve the room without it costing the earth.",
+            "zh": "你可以改善房間，而不用花費一大筆錢。",
+            "highlight": "costing the earth"
+          },
+          {
+            "en": "They wanted a special wedding without it costing the earth.",
+            "zh": "他們希望婚禮感覺特別，同時不用花費一大筆錢。",
+            "highlight": "costing the earth"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Emphasises an Extremely High Price",
+        "titleZh": "它強調價格極為高昂",
+        "en": "The idiomatic version expresses stronger surprise or criticism.",
+        "zh": "慣用版本帶有更強烈的驚訝或批評語氣。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "它濃縮較長的解釋",
+        "en": "Replacing the roof cost the earth.",
+        "zh": "它可以用較短的方式表達「需要支付一筆極為龐大的金額」。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful for Complaints",
+        "titleZh": "它適合用來抱怨費用",
+        "en": "A cup of coffee in that hotel costs the earth.",
+        "zh": "這種說法能自然表達說話者認為價格過高或不合理。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Negative Forms Can Reassure",
+        "titleZh": "否定形式可以令人安心",
+        "en": "A stylish home does not have to cost the earth.",
+        "zh": "這個句子說明，即使預算有限，仍然可以作出理想的選擇。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Supports Predictions and Warnings",
+        "titleZh": "它可用於預測和警告",
+        "en": "The project may cost the earth if we keep adding new features.",
+        "zh": "這個表達可以警告別人，某項計劃可能變得難以負擔。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Creates Natural Contrast",
+        "titleZh": "它可以自然建立對比",
+        "en": "The first option cost the earth, whereas the second was reasonably priced. The idiom is not automatically better than stating an exact price. When precision matters, a real figure is clearer. Model Examples Source: Answer: Model 2: Negative Form Source: Answer: Model 3: Optional Extension Source: Answer: The core relationship is cost the earth. Us and to replace all the windows provide additional information.",
+        "zh": "這個表達可以清楚對比昂貴和可以負擔的選項。 慣用語並非一定比實際金額更好。 需要精確資料時，列出真正價錢會更清楚。 Model Examples 示範例子 Model 1: Direct Form 新梳化貴得難以置信。 新梳化貴得驚人。 示範二：否定形式你不用花費一大筆錢，也可以享受家庭旅行。 家庭旅行不一定要花費一大筆錢。 示範三：可選延伸部分更換所有窗戶令我們需要支付一筆巨款。 更換所有窗戶令我們花費了一大筆錢。 核心關係是 cost the earth。 us 和 to replace all the windows 只是提供額外資料。",
+        "examples": [
+          {
+            "en": "The new sofa costs the earth.",
+            "zh": "新梳化貴得驚人。",
+            "highlight": "costs the earth"
+          },
+          {
+            "en": "A family holiday does not have to cost the earth.",
+            "zh": "家庭旅行不一定要花費一大筆錢。",
+            "highlight": "cost the earth"
+          },
+          {
+            "en": "It cost us the earth to replace all the windows.",
+            "zh": "更換所有窗戶令我們花費了一大筆錢。",
+            "highlight": "cost us the earth"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Probable Gradual Development",
+      "statusZh": "確切來源不明；很可能是逐漸形成",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, cost the earth is an informal and emphatic way of saying that something is extremely expensive.",
+          "zh": "今天，cost the earth 是一種非正式而帶有強調作用的說法，表示某件事情價格極為高昂。"
+        }
+      ],
+      "memoryEn": "Imagine a price so high that even all the money in the world would not seem enough.",
+      "memoryZh": "想像價錢高得彷彿用盡世上所有金錢仍然不夠。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “the Earth” Fixed",
+        "titleZh": "規則一：保留 the earth",
+        "en": "Keep “the Earth” Fixed",
+        "zh": "保留 the earth",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use “Costs” with a Singular Present Subject",
+        "titleZh": "規則二：現在式單數主語使用 costs",
+        "en": "The second sentence is possible only when the intended time is past.",
+        "zh": "只有在表達過去時間時，The room cost the earth 才正確。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "The Past Form Is “Cost”",
+        "titleZh": "規則三：過去式是 cost",
+        "en": "The Past Form Is “Cost”",
+        "zh": "過去式是 cost",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve Modality",
+        "titleZh": "規則四：保留情態",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把可能性改成已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Negation",
+        "titleZh": "規則五：保留否定意思",
+        "en": "Preserve Negation",
+        "zh": "保留否定意思",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Use the Idiom Only for a Very High Price",
+        "titleZh": "規則六：只用於極高價格",
+        "en": "Use the Idiom Only for a Very High Price",
+        "zh": "只用於極高價格",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Translate It Literally",
+        "titleZh": "規則七：不要直譯",
+        "en": "Incorrect Chinese: Natural Chinese:",
+        "zh": "花費整個地球花費一大筆錢貴得驚人價錢極為高昂",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "A Person Slot Is Optional",
+        "titleZh": "規則八：人物位置是可選的",
+        "en": "Both are complete. Us merely identifies who paid.",
+        "zh": "兩句都完整。 us 只是補充指出誰承擔費用。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "An Added To-infinitive Is Optional",
+        "titleZh": "規則九：後接不定詞是可選的",
+        "en": "The second sentence gives more information, but to replace the roof is not part of the idiom.",
+        "zh": "第二句提供更多資料，但 to replace the roof 並不是慣用語的一部分。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Force One Grammar Position",
+        "titleZh": "規則十：不要強迫使用單一句法位置",
+        "en": "A strong exercise must train these different grammatical routes.",
+        "zh": "優質練習必須訓練以上不同句法途徑，而不是反覆使用同一個位置。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Every answer must contain the exact target expression in an approved grammatical form.",
+      "zh": "使用 cost the earth 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-115-q01",
+        "number": 1,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "This simple-looking chair is extremely expensive.",
+        "promptZh": "這張看似簡單的椅子貴得驚人。",
+        "starter": "This",
+        "answer": "This simple-looking chair costs the earth.",
+        "answerZh": "這張看似簡單的椅子貴得驚人。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costs the earth"
+      },
+      {
+        "id": "idiom-115-q02",
+        "number": 2,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Having this old watch repaired requires a huge amount of money.",
+        "promptZh": "修理這隻舊手錶需要花費一大筆錢。",
+        "starter": "Having",
+        "answer": "Having this old watch repaired costs the earth.",
+        "answerZh": "修理這隻舊手錶要花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costs the earth"
+      },
+      {
+        "id": "idiom-115-q03",
+        "number": 3,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The tickets for that front row are unbelievably expensive.",
+        "promptZh": "那一排前座的門票貴得難以置信。",
+        "starter": "The",
+        "answer": "The tickets for that front row cost the earth.",
+        "answerZh": "那一排前座的門票貴得驚人。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q04",
+        "number": 4,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Buying fresh flowers from this shop is extremely expensive.",
+        "promptZh": "在這間店購買鮮花非常昂貴。",
+        "starter": "Buying",
+        "answer": "Buying fresh flowers from this shop costs the earth.",
+        "answerZh": "在這間店購買鮮花要花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costs the earth"
+      },
+      {
+        "id": "idiom-115-q05",
+        "number": 5,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "We paid a huge amount of money to replace the broken windows.",
+        "promptZh": "我們花了一大筆錢更換損壞的窗戶。",
+        "starter": "It",
+        "answer": "It cost the earth to replace the broken windows.",
+        "answerZh": "更換損壞的窗戶花費極為高昂。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q06",
+        "number": 6,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "That designer coat was unbelievably expensive.",
+        "promptZh": "那件名牌外套貴得難以置信。",
+        "starter": "That",
+        "answer": "That designer coat cost the earth.",
+        "answerZh": "那件名牌外套貴得驚人。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q07",
+        "number": 7,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A room at that seaside hotel is extremely expensive in summer.",
+        "promptZh": "夏天入住那間海邊酒店的房間非常昂貴。",
+        "starter": "A",
+        "answer": "A room at that seaside hotel costs the earth in summer.",
+        "answerZh": "夏天入住那間海邊酒店的房間要花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costs the earth"
+      },
+      {
+        "id": "idiom-115-q08",
+        "number": 8,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The imported cheese is far more expensive than most people expect.",
+        "promptZh": "這款進口芝士遠比大多數人預期的昂貴。",
+        "starter": "The",
+        "answer": "The imported cheese costs the earth.",
+        "answerZh": "這款進口芝士貴得驚人。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costs the earth"
+      },
+      {
+        "id": "idiom-115-q09",
+        "number": 9,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Getting the piano moved upstairs required a huge payment.",
+        "promptZh": "把鋼琴搬上樓需要支付一大筆費用。",
+        "starter": "Getting",
+        "answer": "Getting the piano moved upstairs cost the earth.",
+        "answerZh": "把鋼琴搬上樓花費極為高昂。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q10",
+        "number": 10,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Renting a small flat near the station is extremely expensive.",
+        "promptZh": "在車站附近租一個小單位非常昂貴。",
+        "starter": "Renting",
+        "answer": "Renting a small flat near the station costs the earth.",
+        "answerZh": "在車站附近租一個小單位要花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costs the earth"
+      },
+      {
+        "id": "idiom-115-q11",
+        "number": 11,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The company says that installing a new roof will be extremely expensive.",
+        "promptZh": "公司表示，安裝新屋頂將會非常昂貴。",
+        "starter": "The",
+        "answer": "The new roof will cost the earth.",
+        "answerZh": "新屋頂將會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q12",
+        "number": 12,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The complete repairs may require a huge amount of money.",
+        "promptZh": "全面維修可能需要花費一大筆錢。",
+        "starter": "The",
+        "answer": "The complete repairs may cost the earth.",
+        "answerZh": "全面維修可能會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q13",
+        "number": 13,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "If we choose the largest hall, the party may become extremely expensive.",
+        "promptZh": "如果我們選擇最大的禮堂，派對可能會變得非常昂貴。",
+        "starter": "The",
+        "answer": "The party might cost the earth if we choose the largest hall.",
+        "answerZh": "如果我們選擇最大的禮堂，派對可能會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q14",
+        "number": 14,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Judging by all the fine materials, that kitchen must have been extremely expensive.",
+        "promptZh": "從所有優質材料來看，那個廚房一定造價非常高昂。",
+        "starter": "That",
+        "answer": "That kitchen must have cost the earth.",
+        "answerZh": "那個廚房一定造價高昂。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q15",
+        "number": 15,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The family has spent an enormous amount on the course.",
+        "promptZh": "那個家庭已在課程上花了一筆巨款。",
+        "starter": "The",
+        "answer": "The course has cost the family the earth.",
+        "answerZh": "這個課程令那個家庭花費了一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the family the earth"
+      },
+      {
+        "id": "idiom-115-q16",
+        "number": 16,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The garden work became far more expensive than anyone had expected.",
+        "promptZh": "花園工程最後遠比任何人預期的昂貴。",
+        "starter": "The",
+        "answer": "The garden work ended up costing the earth.",
+        "answerZh": "花園工程最後花費極為高昂。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costing the earth"
+      },
+      {
+        "id": "idiom-115-q17",
+        "number": 17,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The hotel bill is using up a huge amount of our money every day.",
+        "promptZh": "酒店帳單每天都花掉我們一大筆錢。",
+        "starter": "The",
+        "answer": "The hotel stay is costing us the earth.",
+        "answerZh": "這次酒店住宿正令我們花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costing us the earth"
+      },
+      {
+        "id": "idiom-115-q18",
+        "number": 18,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "I feared that the replacement part would be extremely expensive.",
+        "promptZh": "我擔心替換零件會非常昂貴。",
+        "starter": "I",
+        "answer": "I was afraid the replacement part would cost the earth.",
+        "answerZh": "我擔心替換零件會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q19",
+        "number": 19,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "They believed that the new windows would require a huge amount of money.",
+        "promptZh": "他們認為新窗戶會需要花費一大筆錢。",
+        "starter": "They",
+        "answer": "They expected the new windows to cost the earth.",
+        "answerZh": "他們預計新窗戶會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q20",
+        "number": 20,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Does private parking here require a huge payment every day?",
+        "promptZh": "這裏的私人停車位每天都要支付一大筆費用嗎？",
+        "starter": "Does",
+        "answer": "Does private parking here always cost the earth?",
+        "answerZh": "這裏的私人停車位是否每天都貴得驚人？",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q21",
+        "number": 21,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Must we spend a huge amount on the meal? B: No. A simple meal can still be enjoyable.",
+        "promptZh": "甲：我們一定要在這頓飯上花一大筆錢嗎？ 乙：不用。簡單的一餐仍然可以令人享受。",
+        "starter": "No.",
+        "answer": "No. The meal does not have to cost the earth.",
+        "answerZh": "不用。這頓飯不一定要花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q22",
+        "number": 22,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "We wanted a reliable printer at a reasonable price, and we found one.",
+        "promptZh": "我們想找一部價格合理而且可靠的打印機，最後找到了。",
+        "starter": "We",
+        "answer": "We found a reliable printer that does not cost the earth.",
+        "answerZh": "我們找到了一部可靠而且不會貴得驚人的打印機。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q23",
+        "number": 23,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "You can make the room look smart without spending a huge amount.",
+        "promptZh": "你可以不用花費一大筆錢，也能令房間看起來美觀。",
+        "starter": "You",
+        "answer": "You can make the room look smart without it costing the earth.",
+        "answerZh": "你可以令房間看起來美觀，而不用花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costing the earth"
+      },
+      {
+        "id": "idiom-115-q24",
+        "number": 24,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: This is just an ordinary school bag. B: I know. Why is it priced so unbelievably high?",
+        "promptZh": "甲：這只是一個普通書包。 乙：我知道。為甚麼它的價格會高得如此驚人？",
+        "starter": "Why",
+        "answer": "Why should an ordinary school bag cost the earth?",
+        "answerZh": "為甚麼一個普通書包要貴得如此驚人？",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q25",
+        "number": 25,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The lamp looks very basic, but its price is extremely high.",
+        "promptZh": "這盞燈看起來非常普通，但價格卻極高。",
+        "starter": "The",
+        "answer": "The lamp looks basic, but it costs the earth.",
+        "answerZh": "這盞燈看起來很普通，但貴得驚人。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costs the earth"
+      },
+      {
+        "id": "idiom-115-q26",
+        "number": 26,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The coat is extremely expensive, but it may last for many years.",
+        "promptZh": "這件外套非常昂貴，但可能可以穿很多年。",
+        "starter": "Although",
+        "answer": "Although the coat costs the earth, it may last for years.",
+        "answerZh": "雖然這件外套貴得驚人，但可能可以穿很多年。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costs the earth"
+      },
+      {
+        "id": "idiom-115-q27",
+        "number": 27,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The family cancelled the private tour because it would have required a huge payment.",
+        "promptZh": "那個家庭取消了私人旅行團，因為費用會非常高昂。",
+        "starter": "The",
+        "answer": "The family cancelled the private tour because it would have cost the earth.",
+        "answerZh": "那個家庭取消了私人旅行團，因為它會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q28",
+        "number": 28,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "If we use local workers, the repair will be reasonably priced rather than extremely expensive.",
+        "promptZh": "如果我們聘用本地工人，維修費會較合理，而不會極為昂貴。",
+        "starter": "The",
+        "answer": "The repair will not cost the earth if we use local workers.",
+        "answerZh": "如果我們聘用本地工人，維修便不會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q29",
+        "number": 29,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Every custom-made suit in that shop seems extremely expensive.",
+        "promptZh": "那間店每套度身訂造的西裝似乎都非常昂貴。",
+        "starter": "Every",
+        "answer": "Every custom-made suit in that shop seems to cost the earth.",
+        "answerZh": "那間店每套度身訂造的西裝似乎都貴得驚人。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q30",
+        "number": 30,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Why do you not order the table online? B: The delivery fee alone is unbelievably high.",
+        "promptZh": "甲：你為甚麼不在網上訂購桌子？ 乙：單是送貨費已經高得難以置信。",
+        "starter": "The",
+        "answer": "The problem is that delivery alone costs the earth.",
+        "answerZh": "問題是，單是送貨已經要花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costs the earth"
+      },
+      {
+        "id": "idiom-115-q31",
+        "number": 31,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "I am worried that installing the new floor may require a huge amount of money.",
+        "promptZh": "我擔心安裝新地板可能需要花費一大筆錢。",
+        "starter": "What",
+        "answer": "What worries me is that the new floor may cost the earth.",
+        "answerZh": "令我擔心的是，新地板可能會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q32",
+        "number": 32,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The builders say that choosing simple materials can keep the price from becoming extremely high.",
+        "promptZh": "建築工人表示，選擇簡單的材料可以避免價格變得極高。",
+        "starter": "The",
+        "answer": "The builders say the work need not cost the earth if we choose simple materials.",
+        "answerZh": "建築工人表示，如果我們選擇簡單的材料，工程不必花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q33",
+        "number": 33,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The first repair option was extremely expensive, whereas the second was reasonably priced.",
+        "promptZh": "第一個維修選項極為昂貴，第二個則價格合理。",
+        "starter": "The",
+        "answer": "The first repair option cost the earth, whereas the second was reasonably priced.",
+        "answerZh": "第一個維修選項貴得驚人，第二個則價格合理。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q34",
+        "number": 34,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "We were shocked to discover that one night at the resort required a huge payment.",
+        "promptZh": "我們發現度假村住一晚竟然需要支付一大筆費用，感到十分震驚。",
+        "starter": "We",
+        "answer": "We had no idea that one night at the resort would cost the earth.",
+        "answerZh": "我們完全不知道在度假村住一晚會貴得如此驚人。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q35",
+        "number": 35,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The party may be reasonably priced or extremely expensive; the number of imported decorations will decide.",
+        "promptZh": "派對費用可能合理，也可能非常高昂；這取決於我們會進口多少裝飾品。",
+        "starter": "Whether",
+        "answer": "Whether the party costs the earth depends on how many decorations we import.",
+        "answerZh": "派對會否花費一大筆錢，取決於我們進口多少裝飾品。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costs the earth"
+      },
+      {
+        "id": "idiom-115-q36",
+        "number": 36,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The trip is already using up a huge amount of our money, so we should stay for fewer days.",
+        "promptZh": "這次旅行已經花掉我們一大筆錢，所以我們應該縮短行程。",
+        "starter": "The",
+        "answer": "The trip is already costing us the earth, so we should shorten our stay.",
+        "answerZh": "這次旅行已經令我們花費一大筆錢，所以我們應該縮短住宿時間。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costing us the earth"
+      },
+      {
+        "id": "idiom-115-q37",
+        "number": 37,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Having the old clock repaired may be extremely expensive, so we should ask for a price first.",
+        "promptZh": "修理這個舊鐘可能會非常昂貴，所以我們應先查詢價錢。",
+        "starter": "Having",
+        "answer": "Having the old clock repaired might cost the earth, so let’s ask for a price first.",
+        "answerZh": "修理這個舊鐘可能會花費一大筆錢，所以我們先查詢價錢吧。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q38",
+        "number": 38,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: They used marble floors, handmade furniture and gold taps. B: The whole place was probably extremely expensive.",
+        "promptZh": "甲：他們用了雲石地板、手製傢俬和金色水龍頭。 乙：整個地方大概造價非常高昂。",
+        "starter": "It",
+        "answer": "It must have cost the earth.",
+        "answerZh": "那裏一定造價高昂。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q39",
+        "number": 39,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The shop sells beautiful lamps, but most of them are unbelievably expensive.",
+        "promptZh": "這間店售賣漂亮的燈，但大部分都貴得難以置信。",
+        "starter": "The",
+        "answer": "The shop sells beautiful lamps, but most of them cost the earth.",
+        "answerZh": "這間店售賣漂亮的燈，但大部分都貴得驚人。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q40",
+        "number": 40,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "I would buy the camera if it were not extremely expensive.",
+        "promptZh": "如果這部相機不是貴得驚人，我便會購買。",
+        "starter": "I",
+        "answer": "I would buy the camera if it did not cost the earth.",
+        "answerZh": "如果這部相機不是貴得驚人，我便會購買。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q41",
+        "number": 41,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Many people think that every family holiday must be extremely expensive, but that is not true.",
+        "promptZh": "很多人以為每次家庭旅行都必定非常昂貴，但這並不正確。",
+        "starter": "Not",
+        "answer": "Not every family holiday has to cost the earth.",
+        "answerZh": "並非每次家庭旅行都一定要花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q42",
+        "number": 42,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Was the change expensive? B: It looked small at first, but the final bill was huge.",
+        "promptZh": "甲：這項改動昂貴嗎？ 乙：最初看起來只是一項小改動，但最後的帳單十分高昂。",
+        "starter": "What",
+        "answer": "What seemed like a small change ended up costing the earth.",
+        "answerZh": "原本看似小小的改動，最後卻花費極為高昂。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costing the earth"
+      },
+      {
+        "id": "idiom-115-q43",
+        "number": 43,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "If we choose the private room, the total price may eventually become extremely high.",
+        "promptZh": "如果我們選擇私人房間，總費用最後可能會變得極高。",
+        "starter": "If",
+        "answer": "If we choose the private room, the stay could end up costing the earth.",
+        "answerZh": "如果我們選擇私人房間，這次住宿最後可能會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costing the earth"
+      },
+      {
+        "id": "idiom-115-q44",
+        "number": 44,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A basic repair should not require such a huge amount of money.",
+        "promptZh": "一項基本維修不應需要花費如此大筆金錢。",
+        "starter": "There",
+        "answer": "There is no reason for a basic repair to cost the earth.",
+        "answerZh": "一項基本維修沒有理由要花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q45",
+        "number": 45,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Will the redesign be too expensive? B: The designer promised that it would be stylish but reasonably priced.",
+        "promptZh": "甲：重新設計會否過於昂貴？ 乙：設計師承諾，新設計會很時尚，但價格仍然合理。",
+        "starter": "The",
+        "answer": "The designer promised that the new look would not cost the earth.",
+        "answerZh": "設計師承諾，新設計不會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q46",
+        "number": 46,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The service is useful, but I cannot recommend any option that is extremely expensive.",
+        "promptZh": "這項服務很有用，但我不能推薦任何價格極高的選項。",
+        "starter": "The",
+        "answer": "The service is useful, but I cannot recommend anything that costs the earth.",
+        "answerZh": "這項服務很有用，但我不能推薦任何貴得驚人的選項。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costs the earth"
+      },
+      {
+        "id": "idiom-115-q47",
+        "number": 47,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "We repaired the chairs instead of replacing every one of them. Replacing them all would have required a huge amount of money.",
+        "promptZh": "我們選擇修理椅子，而不是全部更換；全部更換會需要花費一大筆錢。",
+        "starter": "If",
+        "answer": "If we had replaced every chair, it would have cost the earth.",
+        "answerZh": "如果我們更換了所有椅子，便會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q48",
+        "number": 48,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "They nearly chose the first plan, but then they realised that it would be extremely expensive.",
+        "promptZh": "他們差點選擇第一個方案，但後來發現它會非常昂貴。",
+        "starter": "They",
+        "answer": "They nearly chose the first plan before realising that it would cost the earth.",
+        "answerZh": "他們差點選擇第一個方案，後來才發現它會花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q49",
+        "number": 49,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "How did such a simple two-day course become unbelievably expensive?",
+        "promptZh": "一個如此簡單的兩天課程，為甚麼會變得貴得難以置信？",
+        "starter": "How",
+        "answer": "How did a simple two-day course come to cost the earth?",
+        "answerZh": "一個簡單的兩天課程，為甚麼會變得如此昂貴？",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "cost the earth"
+      },
+      {
+        "id": "idiom-115-q50",
+        "number": 50,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: What did the couple want from their wedding? B: They wanted it to feel special, but they did not want to spend a huge amount.",
+        "promptZh": "甲：這對新人希望婚禮是怎樣的？ 乙：他們希望婚禮感覺特別，但不想花費一大筆錢。",
+        "starter": "The",
+        "answer": "The couple wanted the wedding to feel special without it costing the earth.",
+        "answerZh": "這對新人希望婚禮感覺特別，同時不用花費一大筆錢。",
+        "targetForm": "cost the earth",
+        "targetMeaning": "To be extremely expensive or require a very large amount of money.",
+        "highlight": "costing the earth"
+      }
+    ]
+  }
+}

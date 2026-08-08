@@ -1,0 +1,1253 @@
+{
+  "id": "ss320",
+  "order": 320,
+  "slug": "there-is-no-telling-wh-clause",
+  "title": "「There is no telling + wh-clause」表示無法得知或預料",
+  "titleZh": "「There is no telling + wh-clause」表示無法得知或預料",
+  "titleEn": "Using “There is no telling + wh-clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 318 -「There is no telling + wh-clause」表示無法得知或預料.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sha256": "48cafedb2aa653101012825444d29ec9a638630856935420379c15ba5c1fe006",
+    "sourceNumber": 318,
+    "systemOrder": 320,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 318 maps to ss320: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Subject + verb + that there is / was no telling + wh-clause",
+  "formulas": [
+    {
+      "id": "ss320-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Subject + verb + that there is / was no telling + wh-clause"
+    }
+  ],
+  "example": "There is no telling how long the repairs will take.",
+  "exampleZh": "維修工程需要多長時間，實在無法預料。",
+  "examples": [
+    {
+      "id": "ss320-example-01",
+      "en": "There is no telling how long the repairs will take.",
+      "zh": "維修工程需要多長時間，實在無法預料。",
+      "highlight": "There is no telling how long the repairs will take."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss320-rule-01",
+      "zh": "核心表達是 There is no telling 以下部分才是固定核心：【There is no telling】 後面的 how、when、where 等內容，說明「哪一項資料無法得知」。會議會持續多久，實在無法預料。",
+      "en": "There is no telling There is no telling how long the meeting will last.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-rule-02",
+      "zh": "可以使用不同的 wh-words 常見形式包括：【what；who；where；when；why；which；how；how long】 無法預料會發生甚麼事。 無法得知火車何時到達。 無法預料計劃能否成功。",
+      "en": "what who where when why which how how long how much how many how quickly whether There is no telling what will happen. There is no telling when the train will arrive. There is no telling whether the plan will succeed.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-rule-03",
+      "zh": "使用陳述句語序後面接的是嵌入式問句，不是直接問句。正確：【There is no telling when the train will arrive.】 錯誤：【There is no telling when will the train arrive.】 正確：【There is no telling why the machine stopped.】 錯誤：【There is no telling why did the machine stop.】",
+      "en": "Wh-clause There is no telling There is no telling when the train will arrive. There is no telling when will the train arrive. There is no telling why the machine stopped. There is no telling why did the machine stop.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-rule-04",
+      "zh": "整句通常不是問題這是一個陳述句，所以句末使用句號，而不是問號。",
+      "en": "There is no telling when the train will arrive.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-rule-05",
+      "zh": "過去情況使用 There was no telling 無法得知他現在身在何處。 當時無法得知他去了哪裏。 時態必須配合句子的時間背景。",
+      "en": "Present: There is no telling where he is now. Past: There was no telling where he had gone.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-rule-06",
+      "zh": "前置短語不是固定表達的一部分以下句子中的 At present、Without more evidence 和 Until Friday 都只是提供背景：【At present, there is no telling when the work will finish.】 刪去前置短語後，核心句子仍然完整：【There is no telling when the work will finish.】",
+      "en": "At present, there is no telling when the work will finish. Without more evidence, there is no telling who caused the damage. Until Friday, there is no telling whether the event will proceed. There is no telling when the work will finish. There is no telling who caused the damage. There is no telling whether the event will proceed.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-rule-07",
+      "zh": "可以放在較大的句子裏問題是，我們無法得知升降機何時修好。 導遊警告我們，當時無法預料天氣會以多快的速度轉變。 這些外層結構增加句式變化，但 There is / was no telling 仍然是核心表達。",
+      "en": "The problem is that there is no telling when the lift will be repaired. The guide warned us that there was no telling how quickly the weather might change.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-rule-08",
+      "zh": "它通常比 I do not know 語氣更強我不知道火車何時到達。 這句只表示說話者本人不知道。火車何時到達，實在無法得知。 這句表示目前沒有可靠方法可以知道或預測答案。因此，不應把每一個 I do not know 都機械地改成 There is no telling。",
+      "en": "I do not know when the train will arrive. There is no telling when the train will arrive.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-rule-09",
+      "zh": "常用於未來發展、不確定原因和未知結果這個句型特別適合談論：未來會發生甚麼；某件事何時發生；某個過程需要多久；誰會作出某項決定；某件事為甚麼發生；某個計劃能否成功；數量、費用或程度會是多少。",
+      "en": "The structure is especially useful for unknown future developments, causes and outcomes: what or when something will happen, how long it will take, who will decide, why it happened, whether a plan will succeed, or what a quantity, cost or degree will be.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss320-benefit-01",
+      "zh": "自然地表達無法預測的情況這個句型可以清楚表示，目前沒有人能確定答案。局勢會如何發展，實在無法預料。 它特別適合談論天氣、市場、交通、調查和未來計劃。",
+      "en": "There is no telling how the situation will develop.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-benefit-02",
+      "zh": "避免重複使用 I do not know 較普通：【I do not know when the repairs will finish.】 較自然地表達整體不確定性：【There is no telling when the repairs will finish.】 使用這個句型可以令說話和寫作不會不斷重複 I do not know。",
+      "en": "I do not know when the repairs will finish. There is no telling when the repairs will finish.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-benefit-03",
+      "zh": "清楚指出哪一項資料無法確定目標表達【Wh-clause】可以精確指出未知的是時間、人物、地點、原因、數量還是結果。無法預料誰會領導這個項目。 無法預料這個項目需要多少費用。 讀者能立即知道哪一項資料仍然不確定。",
+      "en": "Wh-clause There is no telling who will lead the project. There is no telling how much the project will cost.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-benefit-04",
+      "zh": "幫助你避免作出過分肯定的預測當證據不足時，這個句型可以提醒讀者，某個結果仍然無法確定。新政策能否奏效，目前仍無法預料。 這比直接聲稱政策一定成功或失敗更準確。",
+      "en": "There is no telling whether the new policy will work.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-benefit-05",
+      "zh": "可以配合不同句子框架你可以把核心句型放在不同位置：【At this stage, there is no telling what will happen.】 這能增加句式變化，不需要讓每一句都以 There 開始。",
+      "en": "At this stage, there is no telling what will happen. The problem is that there is no telling what will happen. Officials admitted that there was no telling what would happen.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss320-benefit-06",
+      "zh": "適合日常對話和正式寫作這個句型可用於：日常對話；作文；新聞報道；報告；商業分析；簡報；對未來發展的評論。它既能表達自然的口語語氣，也能在較正式的內容中表示審慎和不確定性。",
+      "en": "It works in both everyday conversation and formal writing, including essays, news reports, business analysis, presentations and commentary on future developments. It expresses uncertainty naturally while remaining appropriately cautious.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 318 maps to ss320: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using there is / was no telling + wh-clause.",
+      "You may retain or add an appropriate introductory phrase or outer sentence frame when",
+      "required.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 there is / was no telling + wh-clause 改寫以下句子，表示某項資料無法得知、判斷或預料。",
+      "如有需要，你可以保留或加入適當的前置短語或外層句子框架。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss320-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Nobody knows how long the repairs will take.",
+      "promptZh": "沒有人知道維修工程需要多長時間。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is no telling how long the repairs will take.",
+      "answerZh": "維修工程需要多長時間，實在無法預料。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no telling how long the repairs will take."
+    },
+    {
+      "id": "ss320-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "At the moment, nobody can say when the rain will stop.",
+      "promptZh": "目前沒有人能說準雨會在何時停下來。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the moment, there is no telling when the rain will stop.",
+      "answerZh": "目前無法預料雨會在何時停下來。",
+      "answerZhSource": "pdf",
+      "highlight": "At the moment, there is no telling when the rain will stop."
+    },
+    {
+      "id": "ss320-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Without more information, we cannot work out where the missing key is.",
+      "promptZh": "如果沒有更多資料，我們便無法確定遺失的鎖匙在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without more information, there is no telling where the missing key is.",
+      "answerZh": "如果沒有更多資料，便無法確定遺失的鎖匙在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "Without more information, there is no telling where the missing key is."
+    },
+    {
+      "id": "ss320-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Even now, nobody has been able to discover who left the door open.",
+      "promptZh": "即使到了現在，仍然沒有人能查出是誰把門打開了。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even now, there is no telling who left the door open.",
+      "answerZh": "即使到了現在，仍然無法得知是誰把門打開了。",
+      "answerZhSource": "pdf",
+      "highlight": "Even now, there is no telling who left the door open."
+    },
+    {
+      "id": "ss320-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "From the short message alone, nobody can know what will happen next.",
+      "promptZh": "單憑這則簡短訊息，沒有人能知道接下來會發生甚麼事。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the short message alone, there is no telling what will happen next.",
+      "answerZh": "單憑這則簡短訊息，無法知道接下來會發生甚麼事。",
+      "answerZhSource": "pdf",
+      "highlight": "From the short message alone, there is no telling what will happen next."
+    },
+    {
+      "id": "ss320-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "So far, no one can explain why the lights went out.",
+      "promptZh": "到目前為止，沒有人能解釋燈為甚麼熄滅。",
+      "promptZhSource": "pdf",
+      "starter": "So",
+      "answer": "So far, there is no telling why the lights went out.",
+      "answerZh": "到目前為止，仍然無法得知燈為甚麼熄滅。",
+      "answerZhSource": "pdf",
+      "highlight": "So far, there is no telling why the lights went out."
+    },
+    {
+      "id": "ss320-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We cannot know how much the trip will cost before we receive the final bill.",
+      "promptZh": "在收到最後帳單之前，我們無法知道這次旅程需要多少費用。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we receive the final bill, there is no telling how much the trip will cost.",
+      "answerZh": "在收到最後帳單之前，無法得知這次旅程需要多少費用。",
+      "answerZhSource": "pdf",
+      "highlight": "Before we receive the final bill, there is no telling how much the trip will cost."
+    },
+    {
+      "id": "ss320-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Both teams are playing well, so it is impossible to predict which team will win.",
+      "promptZh": "兩支球隊都表現出色，因此無法預測哪一隊會勝出。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With both teams playing well, there is no telling which team will win.",
+      "answerZh": "兩支球隊都表現出色，實在無法預料哪一隊會勝出。",
+      "answerZhSource": "pdf",
+      "highlight": "With both teams playing well, there is no telling which team will win."
+    },
+    {
+      "id": "ss320-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Right now, nobody can say whether the shop will reopen today.",
+      "promptZh": "目前沒有人能說準商店今天會否重新營業。",
+      "promptZhSource": "pdf",
+      "starter": "Right",
+      "answer": "Right now, there is no telling whether the shop will reopen today.",
+      "answerZh": "目前無法預料商店今天會否重新營業。",
+      "answerZhSource": "pdf",
+      "highlight": "Right now, there is no telling whether the shop will reopen today."
+    },
+    {
+      "id": "ss320-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We cannot know how many people will attend until registration closes.",
+      "promptZh": "在報名截止之前，我們無法知道會有多少人出席。",
+      "promptZhSource": "pdf",
+      "starter": "Until",
+      "answer": "Until registration closes, there is no telling how many people will attend.",
+      "answerZh": "在報名截止之前，無法得知會有多少人出席。",
+      "answerZhSource": "pdf",
+      "highlight": "Until registration closes, there is no telling how many people will attend."
+    },
+    {
+      "id": "ss320-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The problem is that nobody knows when the lift will be repaired.",
+      "promptZh": "問題是，沒有人知道升降機何時會修好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem is that there is no telling when the lift will be repaired.",
+      "answerZh": "問題是，我們無法得知升降機何時會修好。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem is that there is no telling when the lift will be repaired."
+    },
+    {
+      "id": "ss320-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We can prepare several plans, but we cannot know which one we will need.",
+      "promptZh": "我們可以準備幾個計劃，但無法知道最終需要哪一個。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can prepare several plans, but there is no telling which one we will need.",
+      "answerZh": "我們可以準備幾個計劃，但無法知道最終需要哪一個。",
+      "answerZhSource": "pdf",
+      "highlight": "We can prepare several plans, but there is no telling which one we will need."
+    },
+    {
+      "id": "ss320-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After the signal disappeared, nobody could know where the boat had gone.",
+      "promptZh": "訊號消失後，沒有人能知道船隻去了哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the signal disappeared, there was no telling where the boat had gone.",
+      "answerZh": "訊號消失後，當時無法得知船隻去了哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "After the signal disappeared, there was no telling where the boat had gone."
+    },
+    {
+      "id": "ss320-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "At that point, it was impossible to know who had taken the documents.",
+      "promptZh": "在那個時候，根本無法知道是誰取走了文件。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At that point, there was no telling who had taken the documents.",
+      "answerZh": "在那個時候，根本無法得知是誰取走了文件。",
+      "answerZhSource": "pdf",
+      "highlight": "At that point, there was no telling who had taken the documents."
+    },
+    {
+      "id": "ss320-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The guide warned us that nobody could predict how quickly the weather might change.",
+      "promptZh": "導遊警告我們，沒有人能預測天氣可能會以多快的速度轉變。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide warned us that there was no telling how quickly the weather might change.",
+      "answerZh": "導遊警告我們，當時無法預料天氣可能會以多快的速度轉變。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide warned us that there was no telling how quickly the weather might change."
+    },
+    {
+      "id": "ss320-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Even with a map, it is impossible to know which path is the safest.",
+      "promptZh": "即使有地圖，也無法知道哪條小徑最安全。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even with a map, there is no telling which path is the safest.",
+      "answerZh": "即使有地圖，也無法知道哪條小徑最安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Even with a map, there is no telling which path is the safest."
+    },
+    {
+      "id": "ss320-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "For now, no one can explain why the machine keeps stopping.",
+      "promptZh": "目前沒有人能解釋這部機器為甚麼不斷停止運作。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For now, there is no telling why the machine keeps stopping.",
+      "answerZh": "目前無法得知這部機器為甚麼不斷停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "For now, there is no telling why the machine keeps stopping."
+    },
+    {
+      "id": "ss320-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The truth is that nobody can say whether the rumour is accurate.",
+      "promptZh": "事實是，沒有人能說準這項傳聞是否屬實。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The truth is that there is no telling whether the rumour is accurate.",
+      "answerZh": "事實是，我們無法判斷這項傳聞是否屬實。",
+      "answerZhSource": "pdf",
+      "highlight": "The truth is that there is no telling whether the rumour is accurate."
+    },
+    {
+      "id": "ss320-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We cannot know what is inside the box without opening it.",
+      "promptZh": "如果不打開箱子，我們便無法知道裏面有甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without opening the box, there is no telling what is inside.",
+      "answerZh": "如果不打開箱子，便無法知道裏面有甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Without opening the box, there is no telling what is inside."
+    },
+    {
+      "id": "ss320-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before the interview begins, it is impossible to know how difficult the questions will be.",
+      "promptZh": "在面試開始之前，我們無法知道問題會有多困難。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the interview begins, there is no telling how difficult the questions will be.",
+      "answerZh": "在面試開始之前，無法知道問題會有多困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the interview begins, there is no telling how difficult the questions will be."
+    },
+    {
+      "id": "ss320-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Only limited evidence is available, so no one can determine how the fire started.",
+      "promptZh": "現時只有有限證據，因此沒有人能確定火災是如何發生的。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given the limited evidence, there is no telling how the fire started.",
+      "answerZh": "鑑於證據有限，無法確定火災是如何發生的。",
+      "answerZhSource": "pdf",
+      "highlight": "Given the limited evidence, there is no telling how the fire started."
+    },
+    {
+      "id": "ss320-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The doctors explained that they could not say when the patient would fully recover.",
+      "promptZh": "醫生解釋，他們無法說準病人何時會完全康復。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctors explained that there was no telling when the patient would fully recover.",
+      "answerZh": "醫生解釋，當時無法說準病人何時會完全康復。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctors explained that there was no telling when the patient would fully recover."
+    },
+    {
+      "id": "ss320-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Even after checking the records, no one could determine how many items were missing.",
+      "promptZh": "即使檢查了紀錄，仍然沒有人能確定有多少件物品遺失。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after checking the records, there was no telling how many items were missing.",
+      "answerZh": "即使檢查了紀錄，仍然無法確定有多少件物品遺失。",
+      "answerZhSource": "pdf",
+      "highlight": "Even after checking the records, there was no telling how many items were missing."
+    },
+    {
+      "id": "ss320-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The forecast may change again, so experts cannot predict where the storm will make landfall.",
+      "promptZh": "天氣預報可能再次改變，因此專家無法預測風暴會在哪裏登陸。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The forecast may change again, so there is no telling where the storm will make landfall.",
+      "answerZh": "天氣預報可能再次改變，因此無法預測風暴會在哪裏登陸。",
+      "answerZhSource": "pdf",
+      "highlight": "The forecast may change again, so there is no telling where the storm will make landfall."
+    },
+    {
+      "id": "ss320-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "One uncertainty is that nobody knows which supplier will offer the best price.",
+      "promptZh": "其中一項不明朗因素是，沒有人知道哪個供應商會提供最優惠的價格。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One uncertainty is that there is no telling which supplier will offer the best price.",
+      "answerZh": "其中一項不明朗因素是，無法預料哪個供應商會提供最優惠的價格。",
+      "answerZhSource": "pdf",
+      "highlight": "One uncertainty is that there is no telling which supplier will offer the best price."
+    },
+    {
+      "id": "ss320-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Until the results are published, nobody can tell whether the new treatment works.",
+      "promptZh": "在結果公布之前，沒有人能判斷新療法是否有效。",
+      "promptZhSource": "pdf",
+      "starter": "Until",
+      "answer": "Until the results are published, there is no telling whether the new treatment works.",
+      "answerZh": "在結果公布之前，無法判斷新療法是否有效。",
+      "answerZhSource": "pdf",
+      "highlight": "Until the results are published, there is no telling whether the new treatment works."
+    },
+    {
+      "id": "ss320-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "From the photograph alone, nobody can tell how old the building is.",
+      "promptZh": "單憑這張照片，沒有人能判斷這座建築物有多久歷史。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the photograph alone, there is no telling how old the building is.",
+      "answerZh": "單憑這張照片，無法判斷這座建築物有多久歷史。",
+      "answerZhSource": "pdf",
+      "highlight": "From the photograph alone, there is no telling how old the building is."
+    },
+    {
+      "id": "ss320-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager admitted that nobody could explain why the figures did not match.",
+      "promptZh": "經理承認，沒有人能解釋這些數字為甚麼不相符。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager admitted that there was no telling why the figures did not match.",
+      "answerZh": "經理承認，當時無法解釋這些數字為甚麼不相符。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager admitted that there was no telling why the figures did not match."
+    },
+    {
+      "id": "ss320-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "Even if the road reopens, no one can predict how long the journey will take.",
+      "promptZh": "即使道路重新開放，也沒有人能預測旅程需要多長時間。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if the road reopens, there is no telling how long the journey will take.",
+      "answerZh": "即使道路重新開放，也無法預測旅程需要多長時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the road reopens, there is no telling how long the journey will take."
+    },
+    {
+      "id": "ss320-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "At this stage, nobody can know who will be responsible for the final decision.",
+      "promptZh": "在這個階段，沒有人能知道誰會負責作出最終決定。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, there is no telling who will be responsible for the final decision.",
+      "answerZh": "在這個階段，無法得知誰會負責作出最終決定。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, there is no telling who will be responsible for the final decision."
+    },
+    {
+      "id": "ss320-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The weather service warned that nobody could predict when visibility would improve.",
+      "promptZh": "氣象部門警告，沒有人能預測能見度何時會改善。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The weather service warned that there was no telling when visibility would improve.",
+      "answerZh": "氣象部門警告，當時無法預測能見度何時會改善。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather service warned that there was no telling when visibility would improve."
+    },
+    {
+      "id": "ss320-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Without testing the water, no one can know whether it is safe to drink.",
+      "promptZh": "如果不檢驗這些水，沒有人能知道它是否適合飲用。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without testing the water, there is no telling whether it is safe to drink.",
+      "answerZh": "如果不檢驗這些水，便無法知道它是否適合飲用。",
+      "answerZhSource": "pdf",
+      "highlight": "Without testing the water, there is no telling whether it is safe to drink."
+    },
+    {
+      "id": "ss320-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The residents are concerned because nobody knows how high the river will rise.",
+      "promptZh": "居民感到憂慮，因為沒有人知道河水會上升至多高。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What concerns the residents is that there is no telling how high the river will rise.",
+      "answerZh": "令居民憂慮的是，沒有人能預料河水會上升至多高。",
+      "answerZhSource": "pdf",
+      "highlight": "What concerns the residents is that there is no telling how high the river will rise."
+    },
+    {
+      "id": "ss320-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The files are incomplete, and nobody can determine which version is correct.",
+      "promptZh": "檔案並不完整，而且沒有人能確定哪個版本才正確。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The files are incomplete, and there is no telling which version is correct.",
+      "answerZh": "檔案並不完整，因此無法確定哪個版本才正確。",
+      "answerZhSource": "pdf",
+      "highlight": "The files are incomplete, and there is no telling which version is correct."
+    },
+    {
+      "id": "ss320-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Even after several meetings, no one could predict what the committee would decide.",
+      "promptZh": "即使舉行了幾次會議，仍然沒有人能預測委員會會作出甚麼決定。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after several meetings, there was no telling what the committee would decide.",
+      "answerZh": "即使舉行了幾次會議，當時仍然無法預測委員會會作出甚麼決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Even after several meetings, there was no telling what the committee would decide."
+    },
+    {
+      "id": "ss320-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "For customers, the main difficulty is that nobody knows when the website will work again.",
+      "promptZh": "對顧客而言，主要困難是沒有人知道網站何時會恢復運作。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For customers, the main difficulty is that there is no telling when the website will work again.",
+      "answerZh": "對顧客而言，主要困難是無法得知網站何時會恢復運作。",
+      "answerZhSource": "pdf",
+      "highlight": "For customers, the main difficulty is that there is no telling when the website will work again."
+    },
+    {
+      "id": "ss320-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We cannot know why the alarm failed until the investigation ends.",
+      "promptZh": "在調查結束之前，我們無法知道警報系統為甚麼失靈。",
+      "promptZhSource": "pdf",
+      "starter": "Until",
+      "answer": "Until the investigation ends, there is no telling why the alarm failed.",
+      "answerZh": "在調查結束之前，無法知道警報系統為甚麼失靈。",
+      "answerZhSource": "pdf",
+      "highlight": "Until the investigation ends, there is no telling why the alarm failed."
+    },
+    {
+      "id": "ss320-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The market is changing so quickly that nobody can predict how much the materials will cost next month.",
+      "promptZh": "市場變化得非常快，沒有人能預測這些物料下個月會售多少錢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The market is changing so quickly that there is no telling how much the materials will cost next month.",
+      "answerZh": "市場變化得非常快，實在無法預測這些物料下個月會售多少錢。",
+      "answerZhSource": "pdf",
+      "highlight": "The market is changing so quickly that there is no telling how much the materials will cost next month."
+    },
+    {
+      "id": "ss320-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "From outside the building, nobody could determine how serious the damage was.",
+      "promptZh": "從建築物外面，沒有人能判斷損毀情況有多嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From outside the building, there was no telling how serious the damage was.",
+      "answerZh": "從建築物外面，當時無法判斷損毀情況有多嚴重。",
+      "answerZhSource": "pdf",
+      "highlight": "From outside the building, there was no telling how serious the damage was."
+    },
+    {
+      "id": "ss320-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Although the first test looked promising, it was impossible to know whether the result could be repeated.",
+      "promptZh": "雖然第一次測試的結果看來理想，但無法知道同樣的結果能否再次出現。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the first test looked promising, there was no telling whether the result could be repeated.",
+      "answerZh": "雖然第一次測試的結果看來理想，但當時無法知道同樣的結果能否再次出現。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the first test looked promising, there was no telling whether the result could be repeated."
+    },
+    {
+      "id": "ss320-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The hospital prepared extra beds because staff could not predict how many patients might arrive overnight.",
+      "promptZh": "醫院準備了額外病床，因為職員無法預測一夜之間可能會有多少病人到來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital prepared extra beds because there was no telling how many patients might arrive overnight.",
+      "answerZh": "醫院準備了額外病床，因為無法預料一夜之間可能會有多少病人到來。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital prepared extra beds because there was no telling how many patients might arrive overnight."
+    },
+    {
+      "id": "ss320-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Before the full survey is completed, no one can determine which neighbourhood needs the service most.",
+      "promptZh": "在完整調查完成之前，沒有人能確定哪個社區最需要這項服務。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the full survey is completed, there is no telling which neighbourhood needs the service most.",
+      "answerZh": "在完整調查完成之前，無法確定哪個社區最需要這項服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the full survey is completed, there is no telling which neighbourhood needs the service most."
+    },
+    {
+      "id": "ss320-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The research team acknowledged that nobody could predict how the two chemicals would react under extreme heat.",
+      "promptZh": "研究團隊承認，沒有人能預測兩種化學物質在極高溫下會如何產生反應。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team acknowledged that there was no telling how the two chemicals would react under extreme heat.",
+      "answerZh": "研究團隊承認，當時無法預測兩種化學物質在極高溫下會如何產生反應。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team acknowledged that there was no telling how the two chemicals would react under extreme heat."
+    },
+    {
+      "id": "ss320-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Even with detailed plans, it is impossible to know what problems may arise during construction.",
+      "promptZh": "即使有詳細計劃，也無法知道施工期間可能會出現甚麼問題。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even with detailed plans, there is no telling what problems may arise during construction.",
+      "answerZh": "即使有詳細計劃，也無法知道施工期間可能會出現甚麼問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Even with detailed plans, there is no telling what problems may arise during construction."
+    },
+    {
+      "id": "ss320-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "One reason for delaying the launch is that nobody knows whether the payment system can handle heavy demand.",
+      "promptZh": "延遲推出服務的其中一個原因，是沒有人知道付款系統能否應付大量需求。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One reason for delaying the launch is that there is no telling whether the payment system can handle heavy demand.",
+      "answerZh": "延遲推出服務的其中一個原因，是無法確定付款系統能否應付大量需求。",
+      "answerZhSource": "pdf",
+      "highlight": "One reason for delaying the launch is that there is no telling whether the payment system can handle heavy demand."
+    },
+    {
+      "id": "ss320-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The rescue team continued searching because nobody could know where the missing hikers might have taken shelter.",
+      "promptZh": "救援隊繼續搜索，因為沒有人能知道失蹤遠足者可能躲在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rescue team continued searching because there was no telling where the missing hikers might have taken shelter.",
+      "answerZh": "救援隊繼續搜索，因為無法得知失蹤遠足者可能躲在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team continued searching because there was no telling where the missing hikers might have taken shelter."
+    },
+    {
+      "id": "ss320-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "From the available data, no one can predict how quickly public attitudes will change.",
+      "promptZh": "根據現有數據，沒有人能預測公眾態度會以多快的速度改變。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the available data, there is no telling how quickly public attitudes will change.",
+      "answerZh": "根據現有數據，無法預測公眾態度會以多快的速度改變。",
+      "answerZhSource": "pdf",
+      "highlight": "From the available data, there is no telling how quickly public attitudes will change."
+    },
+    {
+      "id": "ss320-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Officials have announced the new timetable, but nobody can yet say when normal service will resume.",
+      "promptZh": "當局已公布新時間表，但仍然沒有人能說準正常服務何時恢復。",
+      "promptZhSource": "pdf",
+      "starter": "Officials",
+      "answer": "Officials have announced the new timetable, but there is still no telling when normal service will resume.",
+      "answerZh": "當局已公布新時間表，但仍然無法說準正常服務何時恢復。",
+      "answerZhSource": "pdf",
+      "highlight": "Officials have announced the new timetable, but there is still no telling when normal service will resume."
+    },
+    {
+      "id": "ss320-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The decision is difficult because nobody knows which option will create fewer long-term problems.",
+      "promptZh": "這項決定十分困難，因為沒有人知道哪個選項會造成較少長遠問題。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes the decision difficult is that there is no telling which option will create fewer long-term problems.",
+      "answerZh": "令這項決定變得困難的是，無法知道哪個選項會造成較少長遠問題。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the decision difficult is that there is no telling which option will create fewer long-term problems."
+    },
+    {
+      "id": "ss320-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Until the final inspection is finished, nobody can say whether the building will be ready to reopen next week.",
+      "promptZh": "在最終檢查完成之前，沒有人能說準這座建築物下星期能否重新開放。",
+      "promptZhSource": "pdf",
+      "starter": "Until",
+      "answer": "Until the final inspection is finished, there is no telling whether the building will be ready to reopen next week.",
+      "answerZh": "在最終檢查完成之前，無法確定這座建築物下星期能否重新開放。",
+      "answerZhSource": "pdf",
+      "highlight": "Until the final inspection is finished, there is no telling whether the building will be ready to reopen next week."
+    }
+  ]
+}

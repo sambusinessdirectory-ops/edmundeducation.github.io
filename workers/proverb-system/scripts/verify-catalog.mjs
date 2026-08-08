@@ -1,14 +1,15 @@
 import { ACCEPTED_ANSWERS } from "../src/catalog.js";
 
-const expectedIds = Array.from(
+const lessonIds = ["proverb-01", "proverb-02", "proverb-03"];
+const expectedIds = lessonIds.flatMap(lessonId => Array.from(
   { length: 50 },
-  (_, index) => `proverb-01-q${String(index + 1).padStart(2, "0")}`
-);
+  (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
+));
 const actualIds = Object.keys(ACCEPTED_ANSWERS);
 const failures = [];
 
 if (actualIds.length !== expectedIds.length) {
-  failures.push(`expected 50 question entries, found ${actualIds.length}`);
+  failures.push(`expected 150 question entries, found ${actualIds.length}`);
 }
 
 if (actualIds.length) {
@@ -44,5 +45,5 @@ if (failures.length) {
   for (const failure of failures) console.error(`- ${failure}`);
   process.exitCode = 1;
 } else {
-  console.log("Proverb answer catalogue verified: 50 protected questions ready.");
+  console.log("Proverb answer catalogue verified: 150 protected questions ready.");
 }

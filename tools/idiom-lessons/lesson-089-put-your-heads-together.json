@@ -1,0 +1,1695 @@
+{
+  "lesson": {
+    "id": "idiom-89",
+    "order": 89,
+    "slug": "put-your-heads-together",
+    "version": "1",
+    "title": "集思廣益",
+    "titleEn": "put your heads together",
+    "titleZh": "集思廣益",
+    "source": {
+      "file": "Idiom 89 - “Put Your Heads Together”.pdf",
+      "pageCount": 34,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "exercisePdfPages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "answerKeyPdfPages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "put your heads together",
+        "highlight": "put your heads together"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The pupils put their heads together.",
+        "zh": "學生們一起集思廣益。",
+        "highlight": "put their heads together"
+      },
+      {
+        "en": "We put our heads together.",
+        "zh": "我們共同商量。",
+        "highlight": "put our heads together"
+      }
+    ],
+    "meaning": {
+      "en": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+      "zh": "當兩人或以上 put their heads together，意思是他們一起分享想法、討論問題或制訂計劃，通常是為了解決問題或作出決定。",
+      "naturalZh": [
+        "集思廣益"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "In highly formal academic, legal or technical writing, expressions such as discuss the matter jointly, consult one another or work collaboratively may sometimes be more suitable.",
+      "summaryZh": "Put your heads together 屬於非正式至中性用語，適合用於日常對話、課堂、團隊會議、家庭討論、工作溝通、社區活動及一般文章。",
+      "contextsEn": [
+        "everyday conversation",
+        "classrooms",
+        "team meetings",
+        "family discussions",
+        "workplace communication",
+        "community activities",
+        "general-interest writing"
+      ],
+      "contextsZh": [],
+      "formalEn": "In highly formal academic, legal or technical writing, expressions such as discuss the matter jointly, consult one another or work collaboratively may sometimes be more suitable.",
+      "formalZh": "在非常正式的學術、法律或技術文章中，使用 discuss the matter jointly、consult one another 或 work collaboratively 有時會更加合適。"
+    },
+    "fixedVariable": {
+      "fixed": "put your heads together",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Plural subject + put + possessive + heads together.",
+          "example": "The pupils put their heads together.",
+          "highlight": "put their heads together"
+        },
+        {
+          "form": "Subject + can / could / should / must / will + put + possessive + heads together.",
+          "example": "We should put our heads together.",
+          "highlight": "put our heads together"
+        },
+        {
+          "form": "Subject + need / decide / agree / try / be asked + to put + possessive + heads together.",
+          "example": "The teachers decided to put their heads together.",
+          "highlight": "put their heads together"
+        },
+        {
+          "form": "Put your heads together + optional extension.",
+          "example": "Put your heads together.",
+          "highlight": "Put your heads together"
+        },
+        {
+          "form": "Let’s + put our heads together + optional extension.",
+          "example": "Let’s put our heads together.",
+          "highlight": "put our heads together"
+        },
+        {
+          "form": "If / when / once + subject + put + possessive + heads together, ...",
+          "example": "If we put our heads together, we can solve this.",
+          "highlight": "put our heads together"
+        },
+        {
+          "form": "After + putting + possessive + heads together, ...",
+          "example": "After putting their heads together, the friends reached a decision.",
+          "highlight": "putting their heads together"
+        },
+        {
+          "form": "By + putting + possessive + heads together, ...",
+          "example": "By putting our heads together, we can find a better solution.",
+          "highlight": "putting our heads together"
+        },
+        {
+          "form": "Subject + put + possessive + heads together + with + person or group.",
+          "example": "We should put our heads together with the design team.",
+          "highlight": "put our heads together"
+        },
+        {
+          "form": "Subject + have / has + put + possessive + heads together.",
+          "example": "The organisers have put their heads together and prepared a new plan.",
+          "highlight": "put their heads together"
+        },
+        {
+          "form": "Subject + do / did / have + not + put + possessive + heads together.",
+          "example": "The two departments did not put their heads together.",
+          "highlight": "put their heads together"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作為一般限定動詞短語",
+        "formula": "Plural subject + put + possessive + heads together.",
+        "descriptionEn": "Source grammar frame: Plural subject + put + possessive + heads together.",
+        "descriptionZh": "原檔列出的句法框架：Plural subject + put + possessive + heads together。",
+        "examples": [
+          {
+            "en": "The pupils put their heads together.",
+            "zh": "學生們一起集思廣益。",
+            "highlight": "put their heads together"
+          },
+          {
+            "en": "We put our heads together.",
+            "zh": "我們共同商量。",
+            "highlight": "put our heads together"
+          },
+          {
+            "en": "The two teams put their heads together.",
+            "zh": "兩個團隊一起想辦法。",
+            "highlight": "put their heads together"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "接在情態動詞後",
+        "formula": "Subject + can / could / should / must / will + put + possessive + heads together.",
+        "descriptionEn": "Source grammar frame: Subject + can / could / should / must / will + put + possessive + heads together.",
+        "descriptionZh": "原檔列出的句法框架：Subject + can / could / should / must / will + put + possessive + heads together。",
+        "examples": [
+          {
+            "en": "We should put our heads together.",
+            "zh": "我們應該集思廣益。",
+            "highlight": "put our heads together"
+          },
+          {
+            "en": "The two groups could put their heads together.",
+            "zh": "兩個小組可以一起想辦法。",
+            "highlight": "put their heads together"
+          },
+          {
+            "en": "You must put your heads together.",
+            "zh": "你們必須共同商量。",
+            "highlight": "put your heads together"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “To”",
+        "titleZh": "接在不定式 to 後",
+        "formula": "Subject + need / decide / agree / try / be asked + to put + possessive + heads together.",
+        "descriptionEn": "Source grammar frame: Subject + need / decide / agree / try / be asked + to put + possessive + heads together.",
+        "descriptionZh": "原檔列出的句法框架：Subject + need / decide / agree / try / be asked + to put + possessive + heads together。",
+        "examples": [
+          {
+            "en": "The teachers decided to put their heads together.",
+            "zh": "老師們決定一起商量。",
+            "highlight": "put their heads together"
+          },
+          {
+            "en": "The parents were asked to put their heads together.",
+            "zh": "家長們獲邀共同想辦法。",
+            "highlight": "put their heads together"
+          },
+          {
+            "en": "The two teams need to put their heads together.",
+            "zh": "兩個團隊需要集思廣益。",
+            "highlight": "put their heads together"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "As an Imperative",
+        "titleZh": "作為祈使句",
+        "formula": "Put your heads together + optional extension.",
+        "descriptionEn": "Source grammar frame: Put your heads together + optional extension.",
+        "descriptionZh": "原檔列出的句法框架：Put your heads together + optional extension。",
+        "examples": [
+          {
+            "en": "Put your heads together.",
+            "zh": "大家一起想辦法。",
+            "highlight": "Put your heads together"
+          },
+          {
+            "en": "Put your heads together and choose one answer.",
+            "zh": "大家集思廣益，選出一個答案。",
+            "highlight": "Put your heads together"
+          },
+          {
+            "en": "Put your heads together before you decide.",
+            "zh": "作決定前，大家先共同商量。",
+            "highlight": "Put your heads together"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With “Let’s”",
+        "titleZh": "配合 Let’s",
+        "formula": "Let’s + put our heads together + optional extension.",
+        "descriptionEn": "Source grammar frame: Let’s + put our heads together + optional extension.",
+        "descriptionZh": "原檔列出的句法框架：Let’s + put our heads together + optional extension。",
+        "examples": [
+          {
+            "en": "Let’s put our heads together.",
+            "zh": "讓我們一起集思廣益。",
+            "highlight": "put our heads together"
+          },
+          {
+            "en": "Let’s put our heads together and make a plan.",
+            "zh": "讓我們一起商量，制訂一個計劃。",
+            "highlight": "put our heads together"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "In a Conditional or Time Clause",
+        "titleZh": "用於條件或時間子句",
+        "formula": "If / when / once + subject + put + possessive + heads together, ...",
+        "descriptionEn": "Source grammar frame: If / when / once + subject + put + possessive + heads together,.",
+        "descriptionZh": "原檔列出的句法框架：If / when / once + subject + put + possessive + heads together,。",
+        "examples": [
+          {
+            "en": "If we put our heads together, we can solve this.",
+            "zh": "如果我們集思廣益，便能解決這件事。",
+            "highlight": "put our heads together"
+          },
+          {
+            "en": "When the pupils put their heads together, they notice more details.",
+            "zh": "學生共同思考時，會留意到更多細節。",
+            "highlight": "put their heads together"
+          },
+          {
+            "en": "Once you put your heads together, the answer may become clearer.",
+            "zh": "你們一起想辦法後，答案可能會變得更清楚。",
+            "highlight": "put your heads together"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After “After”",
+        "titleZh": "接在 After 後",
+        "formula": "After + putting + possessive + heads together, ...",
+        "descriptionEn": "Putting is required because after is followed here by a gerund phrase.",
+        "descriptionZh": "由於 after 後面接動名詞短語，因此必須使用 putting。",
+        "examples": [
+          {
+            "en": "After putting their heads together, the friends reached a decision.",
+            "zh": "朋友們共同商量後，作出了決定。",
+            "highlight": "putting their heads together"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "After “By”",
+        "titleZh": "接在 By 後",
+        "formula": "By + putting + possessive + heads together, ...",
+        "descriptionEn": "How can the people solve or improve the situation?",
+        "descriptionZh": "說明人們可以透過甚麼方法解決或改善情況。",
+        "examples": [
+          {
+            "en": "By putting our heads together, we can find a better solution.",
+            "zh": "只要集思廣益，我們便能找到更好的解決方法。",
+            "highlight": "putting our heads together"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "With Another Person or Group",
+        "titleZh": "指出另一個合作對象",
+        "formula": "Subject + put + possessive + heads together + with + person or group.",
+        "descriptionEn": "The with phrase is optional. It identifies the additional people involved.",
+        "descriptionZh": "短語屬於可選部分，用來指出其他參與討論的人。",
+        "examples": [
+          {
+            "en": "We should put our heads together with the design team.",
+            "zh": "我們應該與設計團隊集思廣益。",
+            "highlight": "put our heads together"
+          },
+          {
+            "en": "The teachers put their heads together with the parents.",
+            "zh": "老師與家長共同商量。",
+            "highlight": "put their heads together"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "In the Present Perfect",
+        "titleZh": "用於現在完成式",
+        "formula": "Subject + have / has + put + possessive + heads together.",
+        "descriptionEn": "Source grammar frame: Subject + have / has + put + possessive + heads together.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have / has + put + possessive + heads together。",
+        "examples": [
+          {
+            "en": "The organisers have put their heads together and prepared a new plan.",
+            "zh": "主辦者已集思廣益，制訂了一個新計劃。",
+            "highlight": "put their heads together"
+          },
+          {
+            "en": "We have not put our heads together yet.",
+            "zh": "我們還未一起商量。",
+            "highlight": "put our heads together"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "With a Negative Form",
+        "titleZh": "用於否定形式",
+        "formula": "Subject + do / did / have + not + put + possessive + heads together.",
+        "descriptionEn": "This normally suggests a lack of cooperation or joint discussion.",
+        "descriptionZh": "這通常表示各方尚未合作或共同討論。",
+        "examples": [
+          {
+            "en": "The two departments did not put their heads together.",
+            "zh": "兩個部門沒有共同商量。",
+            "highlight": "put their heads together"
+          },
+          {
+            "en": "We haven’t put our heads together yet.",
+            "zh": "我們還未集思廣益。",
+            "highlight": "put our heads together"
+          },
+          {
+            "en": "The engineers put their heads together to solve the problem.",
+            "zh": "工程師們集思廣益，以解決問題。",
+            "highlight": "put their heads together"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Highlights Collective Thinking",
+        "titleZh": "突出集體思考",
+        "en": "The idiom clearly presents the group as combining its ideas and thinking ability.",
+        "zh": "這個慣用語能清楚突出整個小組正在結合彼此的想法和思考能力。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Encourages Cooperation",
+        "titleZh": "鼓勵合作",
+        "en": "The imperative can encourage people to stop working separately and begin cooperating.",
+        "zh": "大家集思廣益，看看能有甚麼發現。 這個祈使句可以鼓勵人們停止各自處理，改為共同合作。",
+        "examples": [
+          {
+            "en": "Put your heads together and see what you can discover.",
+            "zh": "大家集思廣益，看看能有甚麼發現。",
+            "highlight": "Put your heads together"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Provides a Natural Team Expression",
+        "titleZh": "提供自然的團隊用語",
+        "en": "It Provides a Natural Team Expression",
+        "zh": "讓我們一起想辦法。 我們需要集思廣益。 你們可以一起商量嗎？",
+        "examples": [
+          {
+            "en": "Let’s put our heads together.",
+            "zh": "讓我們一起想辦法。",
+            "highlight": "put our heads together"
+          },
+          {
+            "en": "We need to put our heads together.",
+            "zh": "我們需要集思廣益。",
+            "highlight": "put our heads together"
+          },
+          {
+            "en": "Could you put your heads together?",
+            "zh": "你們可以一起商量嗎？",
+            "highlight": "put your heads together"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Connects Different People’s Knowledge",
+        "titleZh": "結合不同人士的知識",
+        "en": "This structure is useful when different groups have different information or experience.",
+        "zh": "老師與家長共同商量。 當不同群體各自掌握不同資料或經驗時，這個句式十分實用。",
+        "examples": [
+          {
+            "en": "The teachers put their heads together with the parents.",
+            "zh": "老師與家長共同商量。",
+            "highlight": "put their heads together"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Introduce Either a Purpose or a Result",
+        "titleZh": "可以連接目的或結果",
+        "en": "The two extensions perform different jobs and should not be treated as fixed parts of the expression.",
+        "zh": "團隊集思廣益，以解決問題。 團隊集思廣益，找到了解決方法。 兩個延伸部分具有不同功能，不能視為固定表達的一部分。",
+        "examples": [
+          {
+            "en": "The team put their heads together to solve the problem.",
+            "zh": "團隊集思廣益，以解決問題。",
+            "highlight": "put their heads together"
+          },
+          {
+            "en": "The team put their heads together and found a solution.",
+            "zh": "團隊集思廣益，找到了解決方法。",
+            "highlight": "put their heads together"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Does Not Require an Immediate Answer",
+        "titleZh": "不表示必須立即得到答案",
+        "en": "The expression focuses on cooperation rather than guaranteed success.",
+        "zh": "我們一起商量過，但仍需要更多資料。 這個表達的重點是合作，而不是保證成功。",
+        "examples": [
+          {
+            "en": "We put our heads together, but we still need more information.",
+            "zh": "我們一起商量過，但仍需要更多資料。",
+            "highlight": "put our heads together"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Historical references trace the related expression lay their heads together, meaning to consult or plan together, to the late fourteenth century. Shakespeare later used lay their heads together in Henry VI, Part 2 to describe people planning something together. Reference works report that the modern put form became established much later.",
+          "zh": "歷史資料顯示，較早期的相關表達 lay their heads together 在十四世紀後期已用來表示共同商量或策劃。 莎士比亞後來亦在《亨利六世》第二部使用 lay their heads together，描述人們共同策劃事情。 現代使用 put 的形式則在較後期才逐漸確立。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical image naturally became a metaphor for combining several people’s thoughts. The people do not need to place their heads physically next to one another; they need to exchange ideas and think as a group.",
+          "zh": "這個實際畫面逐漸成為比喻，表示把幾個人的想法結合起來。 人們不需要真的把頭靠在一起； 重點是分享想法並以小組形式共同思考。"
+        }
+      ],
+      "memoryEn": "Several heads represent several minds: when the heads come together, the ideas come together.",
+      "memoryZh": "幾個頭代表幾個人的思想；大家把「頭腦」集合起來，便能把想法集合起來。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Normally Use the Expression for Two or More People",
+        "titleZh": "規則一：通常用於兩人或以上",
+        "en": "The idiom describes collective thinking. One person acting completely alone cannot normally put heads together.",
+        "zh": "兩名學生共同想辦法。 我們的團隊一起集思廣益。 這個慣用語表示集體思考。 一個人完全獨自思考時，通常不能使用這個表達。",
+        "examples": [
+          {
+            "en": "The two pupils put their heads together.",
+            "zh": "兩名學生共同想辦法。",
+            "highlight": "put their heads together"
+          },
+          {
+            "en": "Our team put their heads together.",
+            "zh": "我們的團隊一起集思廣益。",
+            "highlight": "put their heads together"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "Use the Plural “Heads”",
+        "titleZh": "規則二：使用複數 heads",
+        "en": "Use the Plural “Heads”",
+        "zh": "使用複數 heads",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Match the Possessive to the Participants",
+        "titleZh": "規則三：物主限定詞必須與參與者一致",
+        "en": "Match the Possessive to the Participants",
+        "zh": "物主限定詞必須與參與者一致",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Past Form Is “Put”, Not “Putted”",
+        "titleZh": "規則四：過去式是 put，不是 putted",
+        "en": "The Past Form Is “Put”, Not “Putted”",
+        "zh": "過去式是 put，不是 putted",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Remove “Together”",
+        "titleZh": "規則五：不能刪去 together",
+        "en": "Do Not Remove “Together”",
+        "zh": "不能刪去 together",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Replace “Heads” with “Minds” in This Exercise",
+        "titleZh": "規則六：本練習不能以 minds 取代 heads",
+        "en": "Do Not Replace “Heads” with “Minds” in This Exercise",
+        "zh": "本練習不能以 minds 取代 heads",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“To + Verb” Is Optional",
+        "titleZh": "規則七：to + 動詞是不定式延伸，並非固定部分",
+        "en": "Both sentences contain the complete idiom. The second sentence simply explains the purpose.",
+        "zh": "兩句都已包含完整慣用語。 第二句只是進一步說明目的。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "“And + Result” Is Optional",
+        "titleZh": "規則八：and + 結果是可選延伸",
+        "en": "The words and found a solution are not part of the idiom.",
+        "zh": "並非慣用語的一部分。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "“With + Group” Is Optional",
+        "titleZh": "規則九：with + 團體是可選延伸",
+        "en": "The second sentence names an additional group of participants.",
+        "zh": "第二句進一步指出另一組參與商討的人。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Use It Merely Because People Are Physically Close",
+        "titleZh": "規則十：不能只因人們靠得很近便使用",
+        "en": "The exercise tests only the figurative meaning.",
+        "zh": "孩子們拍照時把頭靠在一起。 孩子們集思廣益，解開謎題。 本練習只測試比喻意思。",
+        "examples": [
+          {
+            "en": "The children put their heads together for the photograph.",
+            "zh": "孩子們拍照時把頭靠在一起。",
+            "highlight": "put their heads together"
+          },
+          {
+            "en": "The children put their heads together to solve the puzzle.",
+            "zh": "孩子們集思廣益，解開謎題。",
+            "highlight": "put their heads together"
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "titleEn": "The People Must Share Ideas or Think Together",
+        "titleZh": "規則十一：參與者必須分享想法或共同思考",
+        "en": "They may be sitting together without discussing anything.",
+        "zh": "四名學生坐在同一張桌子旁，不代表他們正在共同思考。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "The Idiom Does Not Guarantee Success",
+        "titleZh": "規則十二：這個慣用語不保證一定成功",
+        "en": "The expression describes collaborative thinking, not necessarily a successful result.",
+        "zh": "我們一起想辦法，但仍未能解決問題。 這個表達表示共同思考，但不一定表示最後成功。",
+        "examples": [
+          {
+            "en": "We put our heads together, but we still could not solve the problem.",
+            "zh": "我們一起想辦法，但仍未能解決問題。",
+            "highlight": "put our heads together"
+          }
+        ]
+      },
+      {
+        "number": 13,
+        "titleEn": "Avoid the Passive Form",
+        "titleZh": "規則十三：避免使用被動形式",
+        "en": "The passive sentence is likely to sound literal or unnatural.",
+        "zh": "被動句容易令人理解成字面意思，也不符合這個慣用語的自然用法。",
+        "examples": []
+      },
+      {
+        "number": 14,
+        "titleEn": "Preserve Modality and Certainty",
+        "titleZh": "規則十四：保留情態及確定程度",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把可能性改成已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 15,
+        "titleEn": "Use It Naturally, Not Mechanically",
+        "titleZh": "規則十五：自然使用，不要機械式套用",
+        "en": "combine knowledge or experience.",
+        "zh": "如果人們只是一起吃飯、一起乘車或站在同一個地方，便不一定適合使用這個慣用語。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "put our / your / their heads together",
+      "zh": "使用以下表達的適當形式改寫句子或完成回應："
+    },
+    "questions": [
+      {
+        "id": "idiom-89-q01",
+        "number": 1,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Two pupils shared their ideas and found the missing number together.",
+        "promptZh": "兩名學生分享彼此的想法，一起找出了缺少的數字。",
+        "starter": "The",
+        "answer": "The two pupils put their heads together and found the missing number.",
+        "answerZh": "兩名學生集思廣益，找出了缺少的數字。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q02",
+        "number": 2,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The teacher wants each group to discuss the choices and select the best title.",
+        "promptZh": "老師希望每組一起討論各個選擇，然後選出最合適的標題。",
+        "starter": "Put",
+        "answer": "Put your heads together and choose the best title.",
+        "answerZh": "大家一起集思廣益，選出最合適的標題。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "Put your heads together"
+      },
+      {
+        "id": "idiom-89-q03",
+        "number": 3,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "We planned the class poster by sharing our ideas.",
+        "promptZh": "我們分享彼此的想法，一起設計了班級海報。",
+        "starter": "We",
+        "answer": "We put our heads together and planned the class poster.",
+        "answerZh": "我們集思廣益，一起設計了班級海報。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put our heads together"
+      },
+      {
+        "id": "idiom-89-q04",
+        "number": 4,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The twins should work together to solve the puzzle.",
+        "promptZh": "這對雙胞胎應該一起想辦法解開謎題。",
+        "starter": "The",
+        "answer": "The twins should put their heads together to solve the puzzle.",
+        "answerZh": "這對雙胞胎應該集思廣益，解開謎題。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q05",
+        "number": 5,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "We need to think together and choose a birthday gift for Dad.",
+        "promptZh": "我們需要一起想想，為爸爸挑選一份生日禮物。",
+        "starter": "Let’s",
+        "answer": "Let’s put our heads together and choose a birthday gift for Dad.",
+        "answerZh": "讓我們一起集思廣益，為爸爸挑選一份生日禮物。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put our heads together"
+      },
+      {
+        "id": "idiom-89-q06",
+        "number": 6,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Ava and Noah discussed their ideas and planned a new playground game.",
+        "promptZh": "艾娃和諾亞一起討論想法，設計了一個新的操場遊戲。",
+        "starter": "Ava",
+        "answer": "Ava and Noah put their heads together and planned a new playground game.",
+        "answerZh": "艾娃和諾亞集思廣益，設計了一個新的操場遊戲。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q07",
+        "number": 7,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "If we think about the problem together, we can find a cheaper way.",
+        "promptZh": "如果我們一起想辦法，便能找出一個較便宜的做法。",
+        "starter": "If",
+        "answer": "If we put our heads together, we can find a cheaper way.",
+        "answerZh": "如果我們集思廣益，便能找出一個較便宜的做法。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put our heads together"
+      },
+      {
+        "id": "idiom-89-q08",
+        "number": 8,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The team needs to discuss all the ideas before choosing one.",
+        "promptZh": "團隊需要先共同討論所有想法，才選出其中一個。",
+        "starter": "The",
+        "answer": "The team needs to put their heads together before choosing one idea.",
+        "answerZh": "團隊需要先集思廣益，才選出其中一個想法。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q09",
+        "number": 9,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The children discussed the matter together and then agreed on three rules.",
+        "promptZh": "孩子們一起討論事情，然後就三項規則達成共識。",
+        "starter": "After",
+        "answer": "After putting their heads together, the children agreed on three rules.",
+        "answerZh": "孩子們集思廣益後，就三項規則達成了共識。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "putting their heads together"
+      },
+      {
+        "id": "idiom-89-q10",
+        "number": 10,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Everyone worked together to think of a name for the club.",
+        "promptZh": "大家一起動腦筋，為學會想出一個名稱。",
+        "starter": "Everyone",
+        "answer": "Everyone put their heads together to think of a name for the club.",
+        "answerZh": "大家集思廣益，為學會想出一個名稱。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q11",
+        "number": 11,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The class leaders regularly discuss their ideas together before meetings.",
+        "promptZh": "班長們經常在會議前一起討論想法。",
+        "starter": "The",
+        "answer": "The class leaders often put their heads together before meetings.",
+        "answerZh": "班長們經常在會議前集思廣益。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q12",
+        "number": 12,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "We will meet tomorrow and plan the trip together.",
+        "promptZh": "我們明天會見面，一起規劃旅程。",
+        "starter": "We",
+        "answer": "We will put our heads together tomorrow to plan the trip.",
+        "answerZh": "我們明天會集思廣益，一起規劃旅程。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put our heads together"
+      },
+      {
+        "id": "idiom-89-q13",
+        "number": 13,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The two cooks have worked together and created a new dish.",
+        "promptZh": "兩名廚師共同構思，創作了一道新菜式。",
+        "starter": "The",
+        "answer": "The two cooks have put their heads together and created a new dish.",
+        "answerZh": "兩名廚師集思廣益，創作了一道新菜式。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q14",
+        "number": 14,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Could all of you discuss the problem together and check this answer?",
+        "promptZh": "你們可以一起討論問題，並核對這個答案嗎？",
+        "starter": "Could",
+        "answer": "Could you put your heads together and check this answer?",
+        "answerZh": "你們可以集思廣益，核對這個答案嗎？",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put your heads together"
+      },
+      {
+        "id": "idiom-89-q15",
+        "number": 15,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The parents were asked to work together to solve the transport problem.",
+        "promptZh": "家長們獲邀一起想辦法，解決交通安排問題。",
+        "starter": "The",
+        "answer": "The parents were asked to put their heads together to solve the transport problem.",
+        "answerZh": "家長們獲邀集思廣益，解決交通安排問題。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q16",
+        "number": 16,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Working together will help us finish the plan tonight.",
+        "promptZh": "只要大家共同商量，我們今晚便能完成計劃。",
+        "starter": "By",
+        "answer": "By putting our heads together, we can finish the plan tonight.",
+        "answerZh": "只要集思廣益，我們今晚便能完成計劃。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "putting our heads together"
+      },
+      {
+        "id": "idiom-89-q17",
+        "number": 17,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The design team should discuss the new package with the sales team before changing it.",
+        "promptZh": "設計團隊在更改新包裝前，應先與銷售團隊共同商量。",
+        "starter": "The",
+        "answer": "The design team should put their heads together with the sales team before changing the package.",
+        "answerZh": "設計團隊在更改包裝前，應先與銷售團隊集思廣益。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q18",
+        "number": 18,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Although the friends disagreed at first, they discussed the matter together and found a fair answer.",
+        "promptZh": "雖然朋友們起初意見不同，但他們一起商量，找出了一個公平的答案。",
+        "starter": "Although",
+        "answer": "Although they disagreed at first, the friends put their heads together and found a fair answer.",
+        "answerZh": "雖然朋友們起初意見不同，但他們集思廣益，找出了一個公平的答案。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q19",
+        "number": 19,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The volunteers did not discuss the plan together until the last meeting.",
+        "promptZh": "義工們直到最後一次會議才一起討論計劃。",
+        "starter": "The",
+        "answer": "The volunteers did not put their heads together until the last meeting.",
+        "answerZh": "義工們直到最後一次會議才一起集思廣益。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q20",
+        "number": 20,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Once the members think together, they may notice a simple solution.",
+        "promptZh": "一旦成員們共同思考，便可能會發現一個簡單的解決方法。",
+        "starter": "Once",
+        "answer": "Once the members put their heads together, they may notice a simple solution.",
+        "answerZh": "一旦成員們集思廣益，便可能會發現一個簡單的解決方法。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q21",
+        "number": 21,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: We do not know how to fit all the chairs into the room. B: Let us draw a floor plan together.",
+        "promptZh": "甲：我們不知道怎樣把所有椅子放進房間。 乙：讓我們一起畫一張平面圖吧。",
+        "starter": "Let’s",
+        "answer": "Let’s put our heads together and draw a floor plan.",
+        "answerZh": "讓我們集思廣益，一起畫一張平面圖。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put our heads together"
+      },
+      {
+        "id": "idiom-89-q22",
+        "number": 22,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The two shop owners need to work together to find a way to share delivery costs.",
+        "promptZh": "兩名店主需要共同想辦法，分擔送貨費用。",
+        "starter": "The",
+        "answer": "The two shop owners need to put their heads together to find a way to share delivery costs.",
+        "answerZh": "兩名店主需要集思廣益，找出分擔送貨費用的方法。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q23",
+        "number": 23,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: How did the science group solve the problem? B: They discussed every step together.",
+        "promptZh": "甲：科學小組如何解決問題？ 乙：他們一起討論並核對每一個步驟。",
+        "starter": "They",
+        "answer": "They put their heads together and checked every step.",
+        "answerZh": "他們集思廣益，核對了每一個步驟。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q24",
+        "number": 24,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Before we spend more money, we should discuss what we already have.",
+        "promptZh": "在花更多錢之前，我們應先一起看看現有的物品。",
+        "starter": "Before",
+        "answer": "Before we spend more money, let’s put our heads together and see what we already have.",
+        "answerZh": "在花更多錢之前，讓我們先集思廣益，看看現有的物品。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put our heads together"
+      },
+      {
+        "id": "idiom-89-q25",
+        "number": 25,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The nurse and receptionist worked with the booking team to find ways to reduce waiting time.",
+        "promptZh": "護士和接待員與預約團隊共同商量，找出縮短等候時間的方法。",
+        "starter": "The",
+        "answer": "The nurse and receptionist put their heads together with the booking team to reduce waiting time.",
+        "answerZh": "護士和接待員與預約團隊集思廣益，以縮短等候時間。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q26",
+        "number": 26,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "If the two clubs plan the event together, they could hold one larger event.",
+        "promptZh": "如果兩個學會共同籌劃，便可以合辦一個較大型的活動。",
+        "starter": "If",
+        "answer": "If the two clubs put their heads together, they could hold one larger event.",
+        "answerZh": "如果兩個學會集思廣益，便可以合辦一個較大型的活動。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q27",
+        "number": 27,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The family discussed the choices for half an hour and then chose a smaller flat.",
+        "promptZh": "這家人一起討論了半小時，然後選擇了一個較小的單位。",
+        "starter": "After",
+        "answer": "After putting their heads together for half an hour, the family chose a smaller flat.",
+        "answerZh": "這家人集思廣益半小時後，選擇了一個較小的單位。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "putting their heads together"
+      },
+      {
+        "id": "idiom-89-q28",
+        "number": 28,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The teacher told the four pupils to discuss the task together instead of working alone.",
+        "promptZh": "老師吩咐四名學生共同討論任務，而不是各自完成。",
+        "starter": "The",
+        "answer": "The teacher told the four pupils to put their heads together instead of working alone.",
+        "answerZh": "老師吩咐四名學生集思廣益，而不是各自完成。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q29",
+        "number": 29,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "We have not discussed the matter together yet, so no final decision has been made.",
+        "promptZh": "我們還未一起討論這件事，因此尚未作出最後決定。",
+        "starter": "We",
+        "answer": "We haven’t put our heads together yet, so no final decision has been made.",
+        "answerZh": "我們還未集思廣益，因此尚未作出最後決定。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put our heads together"
+      },
+      {
+        "id": "idiom-89-q30",
+        "number": 30,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The teacher wants groups of three to discuss why the plant died.",
+        "promptZh": "老師希望學生三人一組，共同討論植物枯死的原因。",
+        "starter": "Put",
+        "answer": "Put your heads together in groups of three and explain why the plant died.",
+        "answerZh": "大家三人一組集思廣益，解釋植物枯死的原因。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "Put your heads together"
+      },
+      {
+        "id": "idiom-89-q31",
+        "number": 31,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The deadline is close, so the writers must work together and finish the ending today.",
+        "promptZh": "限期將至，因此幾名作者必須共同商量，今天完成結局。",
+        "starter": "Because",
+        "answer": "Because the deadline is close, the writers must put their heads together and finish the ending today.",
+        "answerZh": "因為限期將至，幾名作者必須集思廣益，今天完成結局。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q32",
+        "number": 32,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Each worker had a different idea, but they discussed them together and built one clear plan.",
+        "promptZh": "每名員工都有不同想法，但他們共同討論，制定了一個清晰的計劃。",
+        "starter": "Although",
+        "answer": "Although each worker had a different idea, they put their heads together and built one clear plan.",
+        "answerZh": "雖然每名員工都有不同想法，但他們集思廣益，制定了一個清晰的計劃。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q33",
+        "number": 33,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The website problem may be easier if the website team and customer-service staff work on it together.",
+        "promptZh": "如果網站團隊和顧客服務員共同想辦法，網站問題可能會較容易解決。",
+        "starter": "The",
+        "answer": "The website problem may be easier if the website team and customer-service staff put their heads together.",
+        "answerZh": "如果網站團隊和顧客服務員集思廣益，網站問題可能會較容易解決。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q34",
+        "number": 34,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Before the managers reject the idea, they should discuss it with the younger staff.",
+        "promptZh": "經理們在否決這個想法前，應先與較年輕的員工商量。",
+        "starter": "Before",
+        "answer": "Before rejecting the idea, the managers should put their heads together with the younger staff.",
+        "answerZh": "在否決這個想法前，經理們應先與較年輕的員工集思廣益。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q35",
+        "number": 35,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The neighbours discussed the shared garden, created a weekly schedule and kept it clean.",
+        "promptZh": "鄰居們共同商量共享花園的安排，制定每週時間表，並保持花園整潔。",
+        "starter": "The",
+        "answer": "The neighbours put their heads together, worked out a weekly schedule and kept the shared garden clean.",
+        "answerZh": "鄰居們集思廣益，制定每週時間表，並保持共享花園整潔。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q36",
+        "number": 36,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The discussion began as an argument, but both sides later worked together and changed the plan.",
+        "promptZh": "討論最初演變成爭論，但雙方後來共同商量，並修改了計劃。",
+        "starter": "What",
+        "answer": "What began as an argument ended well after both sides put their heads together and changed the plan.",
+        "answerZh": "事情最初演變成爭論，但雙方集思廣益並修改計劃後，最終得到妥善解決。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The two departments need to discuss the work together before starting, or they may repeat the same jobs.",
+        "promptZh": "兩個部門開始工作前需要共同商量，否則可能會重複處理相同工作。",
+        "starter": "To",
+        "answer": "To avoid repeating the same work, the two departments need to put their heads together before starting.",
+        "answerZh": "為免重複處理相同工作，兩個部門開始前需要集思廣益。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q38",
+        "number": 38,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "When the students discussed the questions together, they realised that two of them had the same answer.",
+        "promptZh": "學生一起討論題目時，發現其中兩題的答案相同。",
+        "starter": "When",
+        "answer": "When the students put their heads together, they realised that two questions had the same answer.",
+        "answerZh": "學生集思廣益時，發現其中兩題的答案相同。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q39",
+        "number": 39,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The school may solve the lunch problem if teachers, parents and cooks discuss it together.",
+        "promptZh": "如果老師、家長和廚師共同商量，學校或能解決午膳問題。",
+        "starter": "The",
+        "answer": "The school may solve the lunch problem if teachers, parents and cooks put their heads together.",
+        "answerZh": "如果老師、家長和廚師集思廣益，學校或能解決午膳問題。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q40",
+        "number": 40,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The volunteers worked with staff from the local centre and found enough space for the event.",
+        "promptZh": "義工與本地中心的職員共同商量，為活動找到足夠的地方。",
+        "starter": "By",
+        "answer": "By putting their heads together with staff from the local centre, the volunteers found enough space for the event.",
+        "answerZh": "義工與本地中心的職員集思廣益，為活動找到足夠的地方。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "putting their heads together"
+      },
+      {
+        "id": "idiom-89-q41",
+        "number": 41,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The hospital has asked doctors, nurses and booking staff to work together and reduce missed appointments.",
+        "promptZh": "醫院已要求醫生、護士和預約職員共同商量，減少病人錯過預約的情況。",
+        "starter": "The",
+        "answer": "The hospital has asked doctors, nurses and booking staff to put their heads together and reduce missed appointments.",
+        "answerZh": "醫院已要求醫生、護士和預約職員集思廣益，減少病人錯過預約的情況。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Instead of buying an expensive new system, the office team worked together and improved the old one.",
+        "promptZh": "辦公室團隊沒有購買昂貴的新系統，而是共同想辦法改善舊系統。",
+        "starter": "Rather",
+        "answer": "Rather than buying an expensive new system, the office team put their heads together and improved the old one.",
+        "answerZh": "辦公室團隊沒有購買昂貴的新系統，而是集思廣益，改善了舊系統。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q43",
+        "number": 43,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Only after the two families discussed the problem together did they find a way to share childcare.",
+        "promptZh": "兩個家庭一起商量問題後，才找到共同照顧孩子的方法。",
+        "starter": "It",
+        "answer": "It was only after the two families put their heads together that they found a way to share childcare.",
+        "answerZh": "兩個家庭集思廣益後，才找到共同照顧孩子的方法。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q44",
+        "number": 44,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: The school wants to change the bus route next month. B: We should discuss the plan with the bus company first.",
+        "promptZh": "甲：學校想在下個月更改巴士路線。 乙：我們應先與巴士公司共同商量。",
+        "starter": "We",
+        "answer": "We should put our heads together with the bus company before changing the school route.",
+        "answerZh": "更改校巴路線前，我們應先與巴士公司集思廣益。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put our heads together"
+      },
+      {
+        "id": "idiom-89-q45",
+        "number": 45,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The plan will remain weak unless the sports group and music group discuss it together.",
+        "promptZh": "除非體育組和音樂組共同商量，否則這個計劃仍會不夠完善。",
+        "starter": "The",
+        "answer": "The plan will remain weak unless the sports and music groups put their heads together.",
+        "answerZh": "除非體育組和音樂組集思廣益，否則這個計劃仍會不夠完善。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q46",
+        "number": 46,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The three shop workers discussed the storage problem together and suggested a safer way to keep the boxes.",
+        "promptZh": "三名店員共同商量存放問題，並提出一個更安全的箱子存放方法。",
+        "starter": "After",
+        "answer": "After the three shop workers put their heads together, they suggested a safer way to store the boxes.",
+        "answerZh": "三名店員集思廣益後，提出了一個更安全的箱子存放方法。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "One expert could not solve the problem alone, so several experts had to work on it together.",
+        "promptZh": "一名專家無法獨自解決問題，因此幾名專家必須共同想辦法。",
+        "starter": "The",
+        "answer": "The problem was not solved by one expert; several experts had to put their heads together.",
+        "answerZh": "這個問題並非由一名專家解決；幾名專家必須集思廣益。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q48",
+        "number": 48,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Even if we think together, we may not find a perfect answer today, but we can begin.",
+        "promptZh": "即使我們共同思考，今天也未必能找到完美答案，但至少可以開始。",
+        "starter": "Even",
+        "answer": "Even if we put our heads together, we may not find a perfect answer today, but we can make a start.",
+        "answerZh": "即使我們集思廣益，今天也未必能找到完美答案，但至少可以開始。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put our heads together"
+      },
+      {
+        "id": "idiom-89-q49",
+        "number": 49,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Pupils from three classes discussed and shared their best ideas before producing the school article.",
+        "promptZh": "三個班別的學生共同討論並分享最佳想法，然後才完成校內文章。",
+        "starter": "The",
+        "answer": "The school article was produced after pupils from three classes put their heads together and shared their best ideas.",
+        "answerZh": "三個班別的學生集思廣益並分享最佳想法後，完成了校內文章。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      },
+      {
+        "id": "idiom-89-q50",
+        "number": 50,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The library opening day is only a week away. The staff, volunteers and local teachers must work together to create a simple plan.",
+        "promptZh": "圖書館開放日只剩一星期。職員、義工和本地老師必須共同商量，制定一個簡單的計劃。",
+        "starter": "With",
+        "answer": "With the opening day only a week away, the library staff, volunteers and local teachers must put their heads together to create a simple plan.",
+        "answerZh": "圖書館開放日只剩一星期，職員、義工和本地老師必須集思廣益，制定一個簡單的計劃。",
+        "targetForm": "put your heads together",
+        "targetMeaning": "When two or more people put their heads together, they share ideas, discuss a question or plan something together, usually in order to solve a problem or make a decision.",
+        "highlight": "put their heads together"
+      }
+    ]
+  }
+}

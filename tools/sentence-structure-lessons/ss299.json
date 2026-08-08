@@ -1,0 +1,1228 @@
+{
+  "id": "ss299",
+  "order": 299,
+  "slug": "what-makes-you-think-clause",
+  "title": "「What makes you think + clause?」詢問想法的根據",
+  "titleZh": "「What makes you think + clause?」詢問想法的根據",
+  "titleEn": "Using “What makes you think + clause?”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 298 -「What makes you think + clause_」詢問想法的根據.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "sha256": "ef062fe29056a7f4f08e015871ffdf13594eb63f681e8ee838372c736a80646f",
+    "sourceNumber": 298,
+    "systemOrder": 299,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 298 maps to ss299: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "What makes you think + clause?",
+  "formulas": [
+    {
+      "id": "ss299-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "What makes you think + clause?"
+    }
+  ],
+  "example": "What makes you think the plan will work?",
+  "exampleZh": "甚麼令你認為這個計劃會成功？",
+  "examples": [
+    {
+      "id": "ss299-example-01",
+      "en": "What makes you think the plan will work?",
+      "zh": "甚麼令你認為這個計劃會成功？",
+      "highlight": "What makes you think the plan will work?"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss299-rule-01",
+      "zh": "在 What makes + 人物 + think...? 中，make 後面要接人物，再直接接動詞原形；不可在動詞前加入 to。",
+      "en": "make What makes you think the plan will work? What makes you to think the plan will work? make + person + base verb makes you think made him believe could make them change",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss299-rule-02",
+      "zh": "目標表達【What】是 makes 的主語因此，直接問句不需要加入 do、does 或 did。本課不教授帶有特殊強調語氣的 What does make...，以免與核心句型混淆。",
+      "en": "What What makes you think she is ready? What does make you think she is ready? What made you think the shop was closed? What did make you think the shop was closed?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss299-rule-03",
+      "zh": "後面的 clause 使用陳述句語序外層是問句，但 think 後面的內容仍然使用：【subject + verb】",
+      "en": "think What makes you think the plan will work? What makes you think will the plan work? What makes you think Daniel knows the answer? What makes you think does Daniel know the answer? subject + verb",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss299-rule-04",
+      "zh": "目標表達【that】可以省略本練習統一省略 that，使句子更簡潔自然。",
+      "en": "that Both are correct: What makes you think the plan will work? What makes you think that the plan will work?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss299-rule-05",
+      "zh": "注意 makes、made 和 make 目前甚麼令你認為……？ 當時甚麼令你認為……？ 發生了甚麼，令你現在認為……？ 情態動詞後面使用原形 make，不使用 makes。",
+      "en": "Present: What makes you think...? Past: What made you think...? Present perfect: What has made you think...? After a modal: What would make you think...? What could make you think...?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss299-rule-06",
+      "zh": "這個問句有時帶有懷疑或挑戰語氣甚麼令你認為自己是對的？ 這句可能表示說話者不完全同意對方。如需要較柔和的語氣，可以使用：【Could you explain what makes you think you are right?】 你可以解釋甚麼令你認為自己是對的嗎？ 我想了解甚麼令你認為自己是對的。",
+      "en": "What makes you think you are right? Could you explain what makes you think you are right? I would like to understand what makes you think you are right.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss299-benefit-01",
+      "zh": "這個句型不只是詢問對方有甚麼看法，而是進一步詢問哪項事實、跡象或經歷令對方產生該看法。你為甚麼認為這個計劃會成功？ 甚麼令你認為這個計劃會成功？ 第二句更集中詢問支持該想法的根據。",
+      "en": "It asks for the evidence behind an opinion This structure does not merely ask what someone thinks. It asks what fact, sign or experience caused that belief. Compare: Why do you think the plan will work? What makes you think the plan will work?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss299-benefit-02",
+      "zh": "人們有時會在未核實資料前作出判斷。這個句型能幫助你詢問對方是如何得出結論的。甚麼令你認為商店已經關門？ 店內的燈已關掉。 這樣便可以找出對方判斷背後的理由。",
+      "en": "It helps you examine assumptions People sometimes make a decision before checking whether their information is correct. This structure helps you ask how they reached their conclusion. What makes you think the shop is closed? The lights are off.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss299-benefit-03",
+      "zh": "你不需要只說「我不同意」，而可以請對方解釋其想法的根據，令討論可以繼續下去。甚麼令你認為新規則會引起問題？ 這個問法可以引導對方提供例子、資料或經驗。",
+      "en": "It helps continue a discussion Instead of simply saying “I disagree”, you can ask the other person to explain the basis of the idea. What makes you think the new rule will cause problems?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss299-benefit-04",
+      "zh": "當對方提出令人意外的說法，或似乎誤解了某件事時，你可以使用這個句型核實情況。甚麼令你認為會議已被取消？ 訊息只是說會議改到另一個房間舉行。",
+      "en": "It is useful for checking claims and misunderstandings You can use the structure when someone makes a surprising claim or appears to have misunderstood something. What makes you think the meeting has been cancelled? The message says it has only been moved to another room.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss299-benefit-05",
+      "zh": "核心句型可以直接放在句首，也可以放在禮貌開場語之後，使語氣較柔和。甚麼令你認為這些數字有錯？ 你可以解釋甚麼令你認為這些數字有錯嗎？",
+      "en": "It can be made direct or polite The core structure can be placed at the beginning for a direct question, or after a polite opening for a softer tone. Direct: What makes you think the figures are wrong? Polite: Could you explain what makes you think the figures are wrong?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss299-benefit-06",
+      "zh": "同一個核心句型可以用於直接問句、禮貌問句、陳述句及轉述問句，讓說話和寫作不會只重複同一種句式。",
+      "en": "It gives you useful sentence variety You can use the same central structure in direct questions, polite questions, statements and reported speech. What makes you think...? Can you explain what makes you think...? I wonder what makes you think.... She asked what made him think....",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 298 maps to ss299: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using make + person + think. Preserve the original meaning and use the",
+      "sentence opening provided.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 make + 人 + think 改寫以下句子。請保留原句意思，並使用題目提供的句首。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss299-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why do you believe the plan will work?",
+      "promptZh": "你為甚麼相信這個計劃會成功？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes you think the plan will work?",
+      "answerZh": "甚麼令你認為這個計劃會成功？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes you think the plan will work?"
+    },
+    {
+      "id": "ss299-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What evidence suggests that Daniel knows the answer?",
+      "promptZh": "有甚麼證據顯示丹尼爾知道答案？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes you think Daniel knows the answer?",
+      "answerZh": "甚麼令你認為丹尼爾知道答案？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes you think Daniel knows the answer?"
+    },
+    {
+      "id": "ss299-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which sign tells you that the shop is still open?",
+      "promptZh": "哪個跡象令你認為商店仍然營業？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes you think the shop is still open?",
+      "answerZh": "甚麼令你認為商店仍然營業？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes you think the shop is still open?"
+    },
+    {
+      "id": "ss299-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What led you to believe that the bus had already left?",
+      "promptZh": "甚麼令你相信巴士已經開走？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What made you think the bus had already left?",
+      "answerZh": "甚麼令你當時認為巴士已經開走？",
+      "answerZhSource": "pdf",
+      "highlight": "What made you think the bus had already left?"
+    },
+    {
+      "id": "ss299-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "On what basis do you believe this route is safer?",
+      "promptZh": "你根據甚麼認為這條路線較安全？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes you think this route is safer?",
+      "answerZh": "甚麼令你認為這條路線較安全？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes you think this route is safer?"
+    },
+    {
+      "id": "ss299-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why are you under the impression that Emma needs help?",
+      "promptZh": "你為甚麼會認為艾瑪需要幫助？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes you think Emma needs help?",
+      "answerZh": "甚麼令你認為艾瑪需要幫助？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes you think Emma needs help?"
+    },
+    {
+      "id": "ss299-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What caused you to assume that the keys were in the drawer?",
+      "promptZh": "甚麼令你以為鎖匙在抽屜裏？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What made you think the keys were in the drawer?",
+      "answerZh": "甚麼令你當時認為鎖匙在抽屜裏？",
+      "answerZhSource": "pdf",
+      "highlight": "What made you think the keys were in the drawer?"
+    },
+    {
+      "id": "ss299-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why are you so sure that the test will be difficult?",
+      "promptZh": "你為甚麼如此肯定測驗會很困難？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes you think the test will be difficult?",
+      "answerZh": "甚麼令你認為測驗會很困難？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes you think the test will be difficult?"
+    },
+    {
+      "id": "ss299-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Which sign suggests that the food is ready?",
+      "promptZh": "哪個跡象顯示食物已經準備好？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes you think the food is ready?",
+      "answerZh": "甚麼令你認為食物已經準備好？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes you think the food is ready?"
+    },
+    {
+      "id": "ss299-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What led you to believe that the meeting started at nine?",
+      "promptZh": "甚麼令你相信會議在九時開始？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What made you think the meeting started at nine?",
+      "answerZh": "甚麼令你當時認為會議在九時開始？",
+      "answerZhSource": "pdf",
+      "highlight": "What made you think the meeting started at nine?"
+    },
+    {
+      "id": "ss299-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Can you explain why you believe the laptop is broken?",
+      "promptZh": "你可以解釋為甚麼你認為這部手提電腦壞了嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can you explain what makes you think the laptop is broken?",
+      "answerZh": "你可以解釋甚麼令你認為這部手提電腦壞了嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can you explain what makes you think the laptop is broken?"
+    },
+    {
+      "id": "ss299-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What evidence gives you the impression that Olivia does not trust the report?",
+      "promptZh": "有甚麼證據令你覺得奧莉花不信任這份報告？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes you think Olivia does not trust the report?",
+      "answerZh": "甚麼令你認為奧莉花不信任這份報告？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes you think Olivia does not trust the report?"
+    },
+    {
+      "id": "ss299-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I would like to know what led you to believe that the road would be quiet.",
+      "promptZh": "我想知道甚麼令你相信這條路會很寧靜。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like to know what made you think the road would be quiet.",
+      "answerZh": "我想知道甚麼令你當時認為這條路會很寧靜。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like to know what made you think the road would be quiet."
+    },
+    {
+      "id": "ss299-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why do you believe the team can win?",
+      "promptZh": "你為甚麼相信這支球隊能夠勝出？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes you think the team can win?",
+      "answerZh": "甚麼令你認為這支球隊能夠勝出？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes you think the team can win?"
+    },
+    {
+      "id": "ss299-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Which part of the message gives you the impression that Leo is upset?",
+      "promptZh": "訊息中的哪一部分令你覺得里奧感到不快？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What in the message makes you think Leo is upset?",
+      "answerZh": "訊息中的甚麼內容令你認為里奧感到不快？",
+      "answerZhSource": "pdf",
+      "highlight": "What in the message makes you think Leo is upset?"
+    },
+    {
+      "id": "ss299-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Could you tell me what evidence suggests that the price will fall?",
+      "promptZh": "你可以告訴我有甚麼證據顯示價格會下跌嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could you tell me what makes you think the price will fall?",
+      "answerZh": "你可以告訴我甚麼令你認為價格會下跌嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Could you tell me what makes you think the price will fall?"
+    },
+    {
+      "id": "ss299-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why did you believe the child was lost?",
+      "promptZh": "你當時為甚麼認為那個孩子迷路了？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What made you think the child was lost?",
+      "answerZh": "甚麼令你當時認為那個孩子迷路了？",
+      "answerZhSource": "pdf",
+      "highlight": "What made you think the child was lost?"
+    },
+    {
+      "id": "ss299-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Do you know which sign has led the doctor to believe that the medicine is working?",
+      "promptZh": "你知道哪個跡象令醫生相信藥物正在發揮作用嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you know what has made the doctor think the medicine is working?",
+      "answerZh": "你知道甚麼令醫生認為藥物正在發揮作用嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you know what has made the doctor think the medicine is working?"
+    },
+    {
+      "id": "ss299-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Which part of his answer gives you the impression that he is hiding something?",
+      "promptZh": "他答案中的哪一部分令你覺得他有所隱瞞？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What about his answer makes you think he is hiding something?",
+      "answerZh": "他的答案有甚麼地方令你認為他有所隱瞞？",
+      "answerZhSource": "pdf",
+      "highlight": "What about his answer makes you think he is hiding something?"
+    },
+    {
+      "id": "ss299-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "She wants to know why you believe the train has been cancelled.",
+      "promptZh": "她想知道你為甚麼相信火車班次已被取消。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She wants to know what makes you think the train has been cancelled.",
+      "answerZh": "她想知道甚麼令你認為火車班次已被取消。",
+      "answerZhSource": "pdf",
+      "highlight": "She wants to know what makes you think the train has been cancelled."
+    },
+    {
+      "id": "ss299-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Please explain why you believe the figures are wrong.",
+      "promptZh": "請解釋你為甚麼認為這些數字有錯。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please explain what makes you think the figures are wrong.",
+      "answerZh": "請解釋甚麼令你認為這些數字有錯。",
+      "answerZhSource": "pdf",
+      "highlight": "Please explain what makes you think the figures are wrong."
+    },
+    {
+      "id": "ss299-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We cannot understand why he believes the rule does not apply to him.",
+      "promptZh": "我們不明白他為甚麼認為這條規則不適用於他。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We cannot understand what makes him think the rule does not apply to him.",
+      "answerZh": "我們不明白甚麼令他認為這條規則不適用於他。",
+      "answerZhSource": "pdf",
+      "highlight": "We cannot understand what makes him think the rule does not apply to him."
+    },
+    {
+      "id": "ss299-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Could you tell me which sign suggests that the room is unsafe?",
+      "promptZh": "你可以告訴我哪個跡象顯示這個房間不安全嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could you tell me what makes you think the room is unsafe?",
+      "answerZh": "你可以告訴我甚麼令你認為這個房間不安全嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Could you tell me what makes you think the room is unsafe?"
+    },
+    {
+      "id": "ss299-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Do you know why they believe the event will be cancelled?",
+      "promptZh": "你知道他們為甚麼相信活動會被取消嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you know what makes them think the event will be cancelled?",
+      "answerZh": "你知道甚麼令他們認為活動會被取消嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you know what makes them think the event will be cancelled?"
+    },
+    {
+      "id": "ss299-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The teacher asked why the students believed the answer was correct.",
+      "promptZh": "老師問學生為甚麼相信答案是正確的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher asked what made the students think the answer was correct.",
+      "answerZh": "老師問甚麼令學生認為答案是正確的。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher asked what made the students think the answer was correct."
+    },
+    {
+      "id": "ss299-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I wonder why she believes the customer will complain.",
+      "promptZh": "我想知道她為甚麼相信顧客會投訴。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I wonder what makes her think the customer will complain.",
+      "answerZh": "我想知道甚麼令她認為顧客會投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "I wonder what makes her think the customer will complain."
+    },
+    {
+      "id": "ss299-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Can you identify which part of the report gives the committee the impression that costs will rise?",
+      "promptZh": "你能指出報告中哪一部分令委員會認為成本會上升嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can you identify what in the report makes the committee think costs will rise?",
+      "answerZh": "你能指出報告中的甚麼內容令委員會認為成本會上升嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can you identify what in the report makes the committee think costs will rise?"
+    },
+    {
+      "id": "ss299-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager asked what led us to believe the deadline could be changed.",
+      "promptZh": "經理問甚麼令我們相信截止日期可以更改。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager asked what made us think the deadline could be changed.",
+      "answerZh": "經理問甚麼令我們認為截止日期可以更改。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager asked what made us think the deadline could be changed."
+    },
+    {
+      "id": "ss299-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I would like to know which recent event has led you to believe that the package has arrived.",
+      "promptZh": "我想知道最近哪件事令你相信包裹已經送到。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like to know what has made you think the package has arrived.",
+      "answerZh": "我想知道甚麼令你認為包裹已經送到。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like to know what has made you think the package has arrived."
+    },
+    {
+      "id": "ss299-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Please tell us why you believe this solution is practical.",
+      "promptZh": "請告訴我們你為甚麼認為這個解決方法實際可行。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please tell us what makes you think this solution is practical.",
+      "answerZh": "請告訴我們甚麼令你認為這個解決方法實際可行。",
+      "answerZhSource": "pdf",
+      "highlight": "Please tell us what makes you think this solution is practical."
+    },
+    {
+      "id": "ss299-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Clara asked me what had led me to believe that the file had been deleted.",
+      "promptZh": "克拉拉問甚麼令我相信檔案已被刪除。",
+      "promptZhSource": "pdf",
+      "starter": "Clara",
+      "answer": "Clara asked me what had made me think the file had been deleted.",
+      "answerZh": "克拉拉問甚麼令我當時認為檔案已被刪除。",
+      "answerZhSource": "pdf",
+      "highlight": "Clara asked me what had made me think the file had been deleted."
+    },
+    {
+      "id": "ss299-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The doctor asked him why he believed the pain was getting worse.",
+      "promptZh": "醫生問他為甚麼相信痛楚正在加劇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor asked him what made him think the pain was getting worse.",
+      "answerZh": "醫生問他甚麼令他認為痛楚正在加劇。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor asked him what made him think the pain was getting worse."
+    },
+    {
+      "id": "ss299-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "They wanted to know what had led us to believe that the road was closed.",
+      "promptZh": "他們想知道甚麼令我們相信道路已經封閉。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They wanted to know what had made us think the road was closed.",
+      "answerZh": "他們想知道甚麼令我們當時認為道路已經封閉。",
+      "answerZhSource": "pdf",
+      "highlight": "They wanted to know what had made us think the road was closed."
+    },
+    {
+      "id": "ss299-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The interviewer asked why the candidate believed she was suitable for the role.",
+      "promptZh": "面試官問求職者為甚麼相信自己適合這個職位。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The interviewer asked what made the candidate think she was suitable for the role.",
+      "answerZh": "面試官問甚麼令求職者認為自己適合這個職位。",
+      "answerZhSource": "pdf",
+      "highlight": "The interviewer asked what made the candidate think she was suitable for the role."
+    },
+    {
+      "id": "ss299-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "His parents asked him what gave him the confidence to believe he could travel alone.",
+      "promptZh": "他的父母問他甚麼令他有信心相信自己可以獨自旅行。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His parents asked him what made him think he could travel alone.",
+      "answerZh": "他的父母問他甚麼令他認為自己可以獨自旅行。",
+      "answerZhSource": "pdf",
+      "highlight": "His parents asked him what made him think he could travel alone."
+    },
+    {
+      "id": "ss299-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The officer wanted to know what had led the witness to believe that the bag contained something dangerous.",
+      "promptZh": "警員想知道甚麼令目擊者相信袋內有危險物品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The officer wanted to know what had made the witness think the bag contained something dangerous.",
+      "answerZh": "警員想知道甚麼令目擊者認為袋內有危險物品。",
+      "answerZhSource": "pdf",
+      "highlight": "The officer wanted to know what had made the witness think the bag contained something dangerous."
+    },
+    {
+      "id": "ss299-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We asked the guide why she believed the weather would improve.",
+      "promptZh": "我們問導遊為甚麼相信天氣會好轉。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We asked the guide what made her think the weather would improve.",
+      "answerZh": "我們問導遊甚麼令她認為天氣會好轉。",
+      "answerZhSource": "pdf",
+      "highlight": "We asked the guide what made her think the weather would improve."
+    },
+    {
+      "id": "ss299-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The director asked why they believed the budget was sufficient.",
+      "promptZh": "主管問他們為甚麼相信預算足夠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The director asked them what made them think the budget was sufficient.",
+      "answerZh": "主管問他們甚麼令他們認為預算足夠。",
+      "answerZhSource": "pdf",
+      "highlight": "The director asked them what made them think the budget was sufficient."
+    },
+    {
+      "id": "ss299-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The coach wanted to know what had led the players to believe the match was over.",
+      "promptZh": "教練想知道甚麼令球員相信比賽已經結束。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach wanted to know what had made the players think the match was over.",
+      "answerZh": "教練想知道甚麼令球員當時認為比賽已經結束。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach wanted to know what had made the players think the match was over."
+    },
+    {
+      "id": "ss299-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "She asked which part of the email had led me to believe that the booking was confirmed.",
+      "promptZh": "她問電郵中的哪一部分令我相信預約已獲確認。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She asked what in the email had made me think the booking was confirmed.",
+      "answerZh": "她問電郵中的甚麼內容令我當時認為預約已獲確認。",
+      "answerZhSource": "pdf",
+      "highlight": "She asked what in the email had made me think the booking was confirmed."
+    },
+    {
+      "id": "ss299-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Which recent signs have led you to believe that the situation is improving?",
+      "promptZh": "最近有哪些跡象令你相信情況正在改善？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What has made you think the situation is improving?",
+      "answerZh": "甚麼令你認為情況正在改善？",
+      "answerZhSource": "pdf",
+      "highlight": "What has made you think the situation is improving?"
+    },
+    {
+      "id": "ss299-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Under what circumstances would you believe that the apology was sincere?",
+      "promptZh": "在甚麼情況下，你會相信這次道歉是真誠的？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What would make you think the apology was sincere?",
+      "answerZh": "甚麼會令你認為這次道歉是真誠的？",
+      "answerZhSource": "pdf",
+      "highlight": "What would make you think the apology was sincere?"
+    },
+    {
+      "id": "ss299-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What possible evidence could lead anyone to believe that this information is reliable?",
+      "promptZh": "有甚麼可能的證據會令任何人相信這項資料可靠？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What could make anyone think this information is reliable?",
+      "answerZh": "甚麼可能令任何人認為這項資料可靠？",
+      "answerZhSource": "pdf",
+      "highlight": "What could make anyone think this information is reliable?"
+    },
+    {
+      "id": "ss299-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Which part of the survey gives the committee the impression that residents support the change?",
+      "promptZh": "調查中的哪一部分令委員會認為居民支持這項改變？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What in the survey makes the committee think residents support the change?",
+      "answerZh": "調查中的甚麼內容令委員會認為居民支持這項改變？",
+      "answerZhSource": "pdf",
+      "highlight": "What in the survey makes the committee think residents support the change?"
+    },
+    {
+      "id": "ss299-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Can you identify which part of the contract gives you the impression that the fee is refundable?",
+      "promptZh": "你能指出合約中哪一部分令你認為費用可以退還嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can you identify what in the contract makes you think the fee is refundable?",
+      "answerZh": "你能指出合約中的甚麼內容令你認為費用可以退還嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can you identify what in the contract makes you think the fee is refundable?"
+    },
+    {
+      "id": "ss299-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The report does not explain why the researchers believed the change was permanent.",
+      "promptZh": "報告沒有解釋研究人員為甚麼相信這項改變是永久的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report does not explain what made the researchers think the change was permanent.",
+      "answerZh": "報告沒有解釋甚麼令研究人員認為這項改變是永久的。",
+      "answerZhSource": "pdf",
+      "highlight": "The report does not explain what made the researchers think the change was permanent."
+    },
+    {
+      "id": "ss299-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I would be interested to know what recent evidence has led the board to believe that the project is affordable.",
+      "promptZh": "我想知道最近有甚麼證據令董事會相信這個項目在財政上可負擔。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would be interested to know what has made the board think the project is affordable.",
+      "answerZh": "我想知道甚麼令董事會認為這個項目在財政上可負擔。",
+      "answerZhSource": "pdf",
+      "highlight": "I would be interested to know what has made the board think the project is affordable."
+    },
+    {
+      "id": "ss299-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Why do you believe we should accept the offer without further discussion?",
+      "promptZh": "你為甚麼相信我們應該在不作進一步討論的情況下接受這項提議？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What makes you think we should accept the offer without further discussion?",
+      "answerZh": "甚麼令你認為我們應該在不作進一步討論的情況下接受這項提議？",
+      "answerZhSource": "pdf",
+      "highlight": "What makes you think we should accept the offer without further discussion?"
+    },
+    {
+      "id": "ss299-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The chairperson asked which evidence had led the members to believe that the policy would reduce costs.",
+      "promptZh": "主席問哪項證據令成員相信這項政策會降低成本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chairperson asked what evidence had made the members think the policy would reduce costs.",
+      "answerZh": "主席問哪項證據令成員認為這項政策會降低成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The chairperson asked what evidence had made the members think the policy would reduce costs."
+    },
+    {
+      "id": "ss299-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Before we proceed, could you explain why you believe this is the best solution for everyone?",
+      "promptZh": "在我們繼續之前，你可以解釋為甚麼你相信這是對所有人最好的解決方法嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we proceed, could you explain what makes you think this is the best solution for everyone?",
+      "answerZh": "在我們繼續之前，你可以解釋甚麼令你認為這是對所有人最好的解決方法嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Before we proceed, could you explain what makes you think this is the best solution for everyone?"
+    }
+  ]
+}

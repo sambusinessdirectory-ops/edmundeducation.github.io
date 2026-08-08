@@ -1,0 +1,1531 @@
+{
+  "lesson": {
+    "id": "idiom-86",
+    "order": 86,
+    "slug": "go-cold-turkey",
+    "version": "1",
+    "title": "突然完全戒掉／一下子徹底停止",
+    "titleEn": "go cold turkey",
+    "titleZh": "突然完全戒掉／一下子徹底停止",
+    "source": {
+      "file": "Idiom 86 - 「Go Cold Turkey」.pdf",
+      "pageCount": 34,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "exercisePdfPages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "answerKeyPdfPages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "go cold turkey",
+        "highlight": "go cold turkey"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Nora decided to go cold turkey.",
+        "zh": "決定突然完全戒掉這個習慣。",
+        "highlight": "go cold turkey"
+      },
+      {
+        "en": "He tried to go cold turkey.",
+        "zh": "他嘗試一下子徹底戒掉這個習慣。",
+        "highlight": "go cold turkey"
+      }
+    ],
+    "meaning": {
+      "en": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+      "zh": "突然並完全停止使用、進食、飲用或進行某件事，而不是逐步減少。",
+      "naturalZh": [
+        "突然完全戒掉",
+        "一下子徹底停止",
+        "不經逐步減量便完全停止",
+        "說戒就戒",
+        "立即斷絕某種習慣"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "everyday conversation; personal stories; interviews; informal articles; discussions about habits; friendly advice; light-hearted comments about technology or food.",
+      "summaryZh": "帶有較口語的色彩，但普遍容易理解，常見於日常對話、個人故事、訪問、非正式文章和有關習慣的討論",
+      "contextsEn": [
+        "everyday conversation",
+        "personal stories",
+        "interviews",
+        "informal articles",
+        "discussions about habits",
+        "friendly advice",
+        "light-hearted comments about technology or food"
+      ],
+      "contextsZh": [],
+      "formalEn": "In formal medical, scientific or professional writing, a clearer expression may be more suitable:",
+      "formalZh": "在正式醫療、科學或專業文章中，直接說明「突然完全停止」通常會更加清楚。"
+    },
+    "fixedVariable": {
+      "fixed": "go cold turkey",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + decide / try / choose / plan / want + to go cold turkey.",
+          "example": "Nora decided to go cold turkey.",
+          "highlight": "go cold turkey"
+        },
+        {
+          "form": "Subject + can / could / may / might / will + go cold turkey.",
+          "example": "Marcus can go cold turkey during exam week.",
+          "highlight": "go cold turkey"
+        },
+        {
+          "form": "Subject + go / goes / went + cold turkey.",
+          "example": "Leo goes cold turkey for one month every year.",
+          "highlight": "goes cold turkey"
+        },
+        {
+          "form": "Subject + have / has / had + gone cold turkey.",
+          "example": "Grace has gone cold turkey on late-night snacks.",
+          "highlight": "gone cold turkey"
+        },
+        {
+          "form": "Subject + be + going cold turkey.",
+          "example": "The two flatmates are going cold turkey this week.",
+          "highlight": "going cold turkey"
+        },
+        {
+          "form": "Going cold turkey + verb",
+          "example": "Going cold turkey was Ryan’s own decision.",
+          "highlight": "Going cold turkey"
+        },
+        {
+          "form": "a decision / attempt / plan / choice + to go cold turkey",
+          "example": "Her decision to go cold turkey surprised her family.",
+          "highlight": "go cold turkey"
+        },
+        {
+          "form": "Did + subject + go cold turkey?",
+          "example": "Did Owen go cold turkey?",
+          "highlight": "go cold turkey"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “to”",
+        "titleZh": "接在 to 之後",
+        "formula": "Subject + decide / try / choose / plan / want + to go cold turkey.",
+        "descriptionEn": "The complete expression is go cold turkey. The verb before to explains the person’s decision, intention or attempt.",
+        "descriptionZh": "完整表達是 go cold turkey，而前面的動詞則說明決定、意圖或嘗試。",
+        "examples": [
+          {
+            "en": "Nora decided to go cold turkey.",
+            "zh": "決定突然完全戒掉這個習慣。",
+            "highlight": "go cold turkey"
+          },
+          {
+            "en": "He tried to go cold turkey.",
+            "zh": "他嘗試一下子徹底戒掉這個習慣。",
+            "highlight": "go cold turkey"
+          },
+          {
+            "en": "They have chosen to go cold turkey.",
+            "zh": "他們已選擇立即完全停止。",
+            "highlight": "go cold turkey"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "接在情態動詞之後",
+        "formula": "Subject + can / could / may / might / will + go cold turkey.",
+        "descriptionEn": "The modal verb controls possibility, ability, prediction or willingness.",
+        "descriptionZh": "情態動詞表示可能性、能力、預測或意願。",
+        "examples": [
+          {
+            "en": "Marcus can go cold turkey during exam week.",
+            "zh": "Marcus 可以在考試週徹底戒掉這個習慣。",
+            "highlight": "go cold turkey"
+          },
+          {
+            "en": "She might go cold turkey next month.",
+            "zh": "她可能會在下個月突然完全停止。",
+            "highlight": "go cold turkey"
+          },
+          {
+            "en": "Daniel will go cold turkey on Friday.",
+            "zh": "將於星期五一下子徹底停止。",
+            "highlight": "go cold turkey"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作為一般限定動詞短語",
+        "formula": "Subject + go / goes / went + cold turkey.",
+        "descriptionEn": "Source grammar frame: Subject + go / goes / went + cold turkey.",
+        "descriptionZh": "原檔列出的句法框架：Subject + go / goes / went + cold turkey。",
+        "examples": [
+          {
+            "en": "Leo goes cold turkey for one month every year.",
+            "zh": "每年都會徹底停止一個月。",
+            "highlight": "goes cold turkey"
+          },
+          {
+            "en": "Ruby went cold turkey last week.",
+            "zh": "上星期一下子完全戒掉了。",
+            "highlight": "went cold turkey"
+          },
+          {
+            "en": "Many people go cold turkey instead of cutting down slowly.",
+            "zh": "很多人選擇立即完全停止，而不是逐步減少。",
+            "highlight": "go cold turkey"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "In Perfect Forms",
+        "titleZh": "完成時態",
+        "formula": "Subject + have / has / had + gone cold turkey.",
+        "descriptionEn": "The perfect form shows that the complete stop happened before the present or another past event.",
+        "descriptionZh": "完成時表示這個徹底停止的行動發生在現在或另一個過去事件之前。",
+        "examples": [
+          {
+            "en": "Grace has gone cold turkey on late-night snacks.",
+            "zh": "已徹底戒掉深夜吃零食的習慣。",
+            "highlight": "gone cold turkey"
+          },
+          {
+            "en": "Ben had gone cold turkey before the race.",
+            "zh": "Ben 在比賽前已突然完全戒掉那種飲品。",
+            "highlight": "gone cold turkey"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "In Progressive Forms",
+        "titleZh": "進行時態",
+        "formula": "Subject + be + going cold turkey.",
+        "descriptionEn": "Source grammar frame: Subject + be + going cold turkey.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + going cold turkey。",
+        "examples": [
+          {
+            "en": "The two flatmates are going cold turkey this week.",
+            "zh": "兩名室友本星期正徹底停止這個習慣。",
+            "highlight": "going cold turkey"
+          },
+          {
+            "en": "He was going cold turkey during the holiday.",
+            "zh": "他在假期期間正完全戒掉這個習慣。",
+            "highlight": "going cold turkey"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "As a Gerund or Infinitive Clause",
+        "titleZh": "作為動名詞或不定式子句",
+        "formula": "Going cold turkey + verb",
+        "descriptionEn": "The target can therefore appear at the beginning of a sentence rather than always following the subject.",
+        "descriptionZh": "因此，目標表達可以放在句首，不必每次都放在主語之後。",
+        "examples": [
+          {
+            "en": "Going cold turkey was Ryan’s own decision.",
+            "zh": "突然完全戒掉這個習慣是 Ryan 自己的決定。",
+            "highlight": "Going cold turkey"
+          },
+          {
+            "en": "To go cold turkey, Aisha removed the drinks from her fridge.",
+            "zh": "為了徹底戒掉這些飲品，Aisha 把它們從雪櫃拿走。",
+            "highlight": "go cold turkey"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After a Noun",
+        "titleZh": "接在名詞之後",
+        "formula": "a decision / attempt / plan / choice + to go cold turkey",
+        "descriptionEn": "Source grammar frame: a decision / attempt / plan / choice + to go cold turkey.",
+        "descriptionZh": "原檔列出的句法框架：a decision / attempt / plan / choice + to go cold turkey。",
+        "examples": [
+          {
+            "en": "Her decision to go cold turkey surprised her family.",
+            "zh": "她突然完全戒掉這個習慣的決定令家人感到驚訝。",
+            "highlight": "go cold turkey"
+          },
+          {
+            "en": "His first attempt to go cold turkey lasted two days.",
+            "zh": "他第一次嘗試突然完全戒掉，只維持了兩天。",
+            "highlight": "go cold turkey"
+          },
+          {
+            "en": "The group’s plan was to go cold turkey for a week.",
+            "zh": "小組計劃徹底停止一星期。",
+            "highlight": "go cold turkey"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "In Questions and Negative Statements",
+        "titleZh": "疑問句及否定句",
+        "formula": "Did + subject + go cold turkey?",
+        "descriptionEn": "Sophie was not ready to go cold turkey.",
+        "descriptionZh": "尚未準備好突然完全停止。",
+        "examples": [
+          {
+            "en": "Did Owen go cold turkey?",
+            "zh": "Owen 是否一下子完全戒掉了？",
+            "highlight": "go cold turkey"
+          },
+          {
+            "en": "Could you go cold turkey for a month?",
+            "zh": "你可以徹底停止一個月嗎？",
+            "highlight": "go cold turkey"
+          },
+          {
+            "en": "Lucas did not go cold turkey.",
+            "zh": "沒有一下子完全戒掉。",
+            "highlight": "go cold turkey"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Emphasises Sudden and Complete Change",
+        "titleZh": "突出突然及徹底的改變",
+        "en": "The idiomatic version makes it clear that she stopped completely and did not reduce her use gradually.",
+        "zh": "慣用語版本清楚表示她立即完全停用社交媒體，而不是逐步減少。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Creates a Clear Contrast with “Cut Down”",
+        "titleZh": "與 cut down 形成清楚對比",
+        "en": "cut down go cold turkey",
+        "zh": "逐步減少突然完全停止沒有一下子戒掉咖啡，而是每次少喝一杯。",
+        "examples": [
+          {
+            "en": "Rather than go cold turkey on coffee, Priya cut down one cup at a time.",
+            "zh": "沒有一下子戒掉咖啡，而是每次少喝一杯。",
+            "highlight": "go cold turkey"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Describes a Strong Decision Concisely",
+        "titleZh": "簡潔描述一個需要決心的決定",
+        "en": "He decided to go cold turkey on the app.",
+        "zh": "這個慣用語可以把「決定立即完全停止」濃縮成一個自然的表達。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Supports Many Grammar Patterns",
+        "titleZh": "可以配合多種句式",
+        "en": "statements; questions; negative sentences; modal structures; perfect tenses; conditional sentences; reported speech; gerund clauses; infinitive clauses.",
+        "zh": "學生不只需要記住 went cold turkey，也應掌握 go、goes、gone 和 going 等不同形式。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful Beyond Substance-Related Contexts",
+        "titleZh": "可延伸至日常習慣",
+        "en": "It Is Useful Beyond Substance-Related Contexts",
+        "zh": "可延伸至日常習慣",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is Not Automatically Better Than Plain English",
+        "titleZh": "並非一定比普通表達更好",
+        "en": "If the method of stopping is unimportant, simply saying stop may be clearer.",
+        "zh": "只有當「突然」和「完全」是重要意思時，才需要使用 go cold turkey。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Disputed Origin; Exact Development Uncertain",
+      "statusZh": "來源有爭議；確切演變過程不明",
+      "history": [
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "Disputed Origin; Exact Development Uncertain",
+          "zh": "來源有爭議； 確切演變過程不明"
+        },
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "Earlier Uses",
+          "zh": "較早期用法"
+        },
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "Cold turkey was used before it became strongly connected with stopping addictive substances. Merriam-Webster reports an example from 1910 in which cold turkey meant doing something outright, while a 1920 newspaper cartoon used it in the sense of speaking plainly. A drug-withdrawal use is documented by 1921.",
+          "zh": "cold turkey 在與戒除成癮物質產生密切聯繫之前，已有其他用法。 Merriam-Webster 指出，1910 年的例子中，cold turkey 表示直接或徹底地做某事； 1920年的報章漫畫則把它用於坦率說話。 到了1921年，已有與突然戒除毒品相關的書面記錄。"
+        }
+      ],
+      "memoryEn": "Think of one immediate, complete break: no gradual reduction and no middle stage.",
+      "memoryZh": "把它想像成一次即時而徹底的中斷：沒有逐步減少，也沒有中間階段。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "The Stop Must Be Complete",
+        "titleZh": "規則一：必須完全停止",
+        "en": "Ella gradually cut down on coffee.",
+        "zh": "一下子完全戒掉咖啡。 每天少喝一杯咖啡。",
+        "examples": [
+          {
+            "en": "Ella went cold turkey on coffee.",
+            "zh": "一下子完全戒掉咖啡。",
+            "highlight": "went cold turkey"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "The Stop Must Be Sudden",
+        "titleZh": "規則二：必須突然停止",
+        "en": "The Stop Must Be Sudden",
+        "zh": "他在星期一突然完全停用該應用程式。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "“On + Noun” Is Optional",
+        "titleZh": "規則三：on+名詞是可選部分",
+        "en": "“On + Noun” Is Optional",
+        "zh": "on+名詞是可選部分",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Change “Go”, Not “Cold Turkey”",
+        "titleZh": "規則四：只改變 go，不改變 cold turkey",
+        "en": "Change “Go”, Not “Cold Turkey”",
+        "zh": "只改變 go，不改變 cold turkey",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Use the Correct Past Participle",
+        "titleZh": "規則五：使用正確的過去分詞",
+        "en": "Use the Correct Past Participle",
+        "zh": "使用正確的過去分詞",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Confuse It with “Quit Cold Turkey”",
+        "titleZh": "規則六：不要與 quit cold turkey 混合",
+        "en": "Do Not Confuse It with “Quit Cold Turkey”",
+        "zh": "不要與 quit cold turkey 混合",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Add a Literal Turkey",
+        "titleZh": "規則七：不要理解成真正的火雞",
+        "en": "Do Not Add a Literal Turkey",
+        "zh": "不要理解成真正的火雞",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則八：保留時態及確定程度",
+        "en": "Preserve Tense and Certainty",
+        "zh": "保留時態及確定程度",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Repeat the Idiom’s Meaning",
+        "titleZh": "規則九：不要重複慣用語已表達的意思",
+        "en": "Do Not Repeat the Idiom’s Meaning",
+        "zh": "一下子完全戒掉朱古力。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Use It for a Meaningful Habit",
+        "titleZh": "規則十：用於有一定持續性的習慣",
+        "en": "Use It for a Meaningful Habit",
+        "zh": "用於有一定持續性的習慣",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using go cold turkey.",
+      "zh": "使用 go cold turkey 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-86-q01",
+        "number": 1,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Ethan drank energy drinks every day, but he stopped completely and suddenly after his final exam.",
+        "promptZh": "Ethan 每天都喝能量飲品，但他在期末考試後突然完全停止飲用。",
+        "starter": "Ethan",
+        "answer": "Ethan went cold turkey on energy drinks after his final exam.",
+        "answerZh": "Ethan 在期末考試後一下子戒掉了能量飲品。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "went cold turkey"
+      },
+      {
+        "id": "idiom-86-q02",
+        "number": 2,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Nora chose to stop using social media completely during the holiday instead of reducing her use slowly.",
+        "promptZh": "Nora 選擇在假期期間完全停止使用社交媒體，而不是逐步減少使用時間。",
+        "starter": "Nora",
+        "answer": "Nora decided to go cold turkey on social media during the holiday.",
+        "answerZh": "Nora 決定在假期期間突然完全停用社交媒體。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q03",
+        "number": 3,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Since Monday, Grace has completely stopped eating snacks late at night.",
+        "promptZh": "自星期一起，Grace 已完全停止在深夜吃零食。",
+        "starter": "Grace",
+        "answer": "Grace has gone cold turkey on late-night snacks since Monday.",
+        "answerZh": "Grace 自星期一起已徹底戒掉深夜吃零食的習慣。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "gone cold turkey"
+      },
+      {
+        "id": "idiom-86-q04",
+        "number": 4,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Leo completely stops eating sweets for one month every year rather than cutting down slowly.",
+        "promptZh": "Leo 每年都會完全停止吃甜食一個月，而不是逐步減少。",
+        "starter": "Leo",
+        "answer": "Leo goes cold turkey on sweets for one month every year.",
+        "answerZh": "Leo 每年都會一下子完全戒甜食一個月。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "goes cold turkey"
+      },
+      {
+        "id": "idiom-86-q05",
+        "number": 5,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "This week, the two flatmates have suddenly and completely stopped buying takeaway coffee.",
+        "promptZh": "本星期，兩名室友突然完全停止購買外賣咖啡。",
+        "starter": "The",
+        "answer": "The two flatmates are going cold turkey on takeaway coffee this week.",
+        "answerZh": "兩名室友本星期正徹底戒掉外賣咖啡。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "going cold turkey"
+      },
+      {
+        "id": "idiom-86-q06",
+        "number": 6,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Would you like some coffee? B: No, thanks. I drank coffee for years, but I stopped completely last Monday.",
+        "promptZh": "甲：你想喝咖啡嗎？ 乙：不用了，謝謝。我喝了多年咖啡，但上星期一已突然完全停止。",
+        "starter": "After",
+        "answer": "After years of drinking coffee, I went cold turkey last Monday.",
+        "answerZh": "喝了多年咖啡後，我在上星期一一下子完全戒掉了。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "went cold turkey"
+      },
+      {
+        "id": "idiom-86-q07",
+        "number": 7,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Ryan made his own choice to stop playing video games suddenly and completely.",
+        "promptZh": "Ryan 自己決定突然完全停止玩電子遊戲。",
+        "starter": "Going",
+        "answer": "Going cold turkey on video games was Ryan’s own decision.",
+        "answerZh": "突然完全戒掉電子遊戲是 Ryan 自己的決定。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "Going cold turkey"
+      },
+      {
+        "id": "idiom-86-q08",
+        "number": 8,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Aisha wanted to stop drinking fizzy drinks completely at once, so she removed them from her fridge.",
+        "promptZh": "Aisha 想一下子完全停止喝汽水，因此把雪櫃內的汽水全部拿走。",
+        "starter": "To",
+        "answer": "To go cold turkey on fizzy drinks, Aisha removed them from her fridge.",
+        "answerZh": "為了徹底戒掉汽水，Aisha 把雪櫃內的汽水全部拿走。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q09",
+        "number": 9,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Did Owen stop smoking cigarettes completely at once, or did he cut down gradually?",
+        "promptZh": "Owen 是一下子完全戒煙，還是逐步減少吸煙？",
+        "starter": "Did",
+        "answer": "Did Owen go cold turkey on cigarettes, or did he cut down gradually?",
+        "answerZh": "Owen 是突然完全戒煙，還是逐步減少吸煙？",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q10",
+        "number": 10,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Chloe’s family were surprised by her decision to stop online shopping suddenly and completely.",
+        "promptZh": "Chloe 的家人對她突然完全停止網上購物的決定感到驚訝。",
+        "starter": "Her",
+        "answer": "Her decision to go cold turkey on online shopping surprised Chloe’s family.",
+        "answerZh": "Chloe 決定突然完全停止網上購物，令家人感到驚訝。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q11",
+        "number": 11,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Marcus is able to stop playing mobile games completely during exam week.",
+        "promptZh": "Marcus 能夠在考試週完全停止玩手機遊戲。",
+        "starter": "Marcus",
+        "answer": "Marcus can go cold turkey on mobile games during exam week.",
+        "answerZh": "Marcus 可以在考試週徹底戒掉手機遊戲。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q12",
+        "number": 12,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Ella may stop drinking coffee all at once instead of reducing it slowly.",
+        "promptZh": "Ella 可能會一下子完全停止喝咖啡，而不是逐步減少。",
+        "starter": "Ella",
+        "answer": "Ella might go cold turkey on coffee instead of reducing it slowly.",
+        "answerZh": "Ella 可能會突然完全戒掉咖啡，而不是逐步減少。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q13",
+        "number": 13,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Daniel has used social media every day for months, but he plans to stop completely this Friday.",
+        "promptZh": "Daniel 已連續數月每天使用社交媒體，但他計劃在本星期五完全停用。",
+        "starter": "After",
+        "answer": "After months of daily social media use, Daniel will go cold turkey this Friday.",
+        "answerZh": "連續數月每天使用社交媒體後，Daniel 將於本星期五突然完全停用。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q14",
+        "number": 14,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Sophie did not feel ready to stop drinking sugary drinks suddenly and completely.",
+        "promptZh": "Sophie 覺得自己尚未準備好突然完全停止喝含糖飲品。",
+        "starter": "Sophie",
+        "answer": "Sophie was not ready to go cold turkey on sugary drinks.",
+        "answerZh": "Sophie 尚未準備好一下子戒掉含糖飲品。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q15",
+        "number": 15,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The twins have agreed to stop playing games late at night suddenly and completely together.",
+        "promptZh": "這對雙胞胎已同意一起突然完全停止在深夜玩遊戲。",
+        "starter": "The",
+        "answer": "The twins have decided to go cold turkey on late-night gaming together.",
+        "answerZh": "這對雙胞胎已決定一起徹底戒掉深夜打機的習慣。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q16",
+        "number": 16,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Could completely stopping online shopping for a month help you break the habit?",
+        "promptZh": "完全停止網上購物一個月，能否幫助你戒掉這個習慣？",
+        "starter": "Could",
+        "answer": "Could going cold turkey for a month help you break your online-shopping habit?",
+        "answerZh": "徹底停止網上購物一個月，能否幫助你戒掉這個習慣？",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "going cold turkey"
+      },
+      {
+        "id": "idiom-86-q17",
+        "number": 17,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Aaron tried to stop drinking coffee completely and suddenly, but he began again after two days.",
+        "promptZh": "Aaron 嘗試突然完全停止喝咖啡，但兩天後又再喝。",
+        "starter": "Aaron’s",
+        "answer": "Aaron’s first attempt to go cold turkey on coffee lasted only two days.",
+        "answerZh": "Aaron 第一次嘗試一下子戒掉咖啡，只維持了兩天。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q18",
+        "number": 18,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Ruby did not reduce the amount of chocolate she ate slowly; she stopped eating it all at once.",
+        "promptZh": "Ruby 沒有逐步減少吃朱古力，而是一下子完全停止。",
+        "starter": "Instead",
+        "answer": "Instead of cutting down slowly, Ruby went cold turkey on chocolate.",
+        "answerZh": "Ruby 沒有逐步減少，而是一下子完全戒掉朱古力。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "went cold turkey"
+      },
+      {
+        "id": "idiom-86-q19",
+        "number": 19,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Isaac completely stopped watching short videos. Afterwards, he stopped opening the app automatically.",
+        "promptZh": "Isaac 完全停止觀看短片。其後，他不再不自覺地打開該應用程式。",
+        "starter": "After",
+        "answer": "After going cold turkey on short videos, Isaac stopped opening the app automatically.",
+        "answerZh": "Isaac 徹底戒掉短片後，不再不自覺地打開該應用程式。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "going cold turkey"
+      },
+      {
+        "id": "idiom-86-q20",
+        "number": 20,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Lena chose to reduce her coffee slowly rather than stop drinking it suddenly and completely.",
+        "promptZh": "Lena 選擇逐步減少咖啡，而不是突然完全停止飲用。",
+        "starter": "Lena",
+        "answer": "Lena chose not to go cold turkey on coffee and reduced it slowly instead.",
+        "answerZh": "Lena 選擇不一下子戒掉咖啡，而是逐步減少。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q21",
+        "number": 21,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Oscar admitted that he could not completely stop using his phone for the whole weekend.",
+        "promptZh": "Oscar 承認自己無法在整個週末完全停止使用手機。",
+        "starter": "I",
+        "answer": "“I can’t go cold turkey for the whole weekend,” Oscar admitted about his phone use.",
+        "answerZh": "Oscar 談到使用手機時承認：「我無法在整個週末徹底停用手機。」",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q22",
+        "number": 22,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Tessa stopped all online games at once before the tournament because she wanted more time to practise.",
+        "promptZh": "Tessa 在比賽前一下子完全停止玩網上遊戲，因為她想有更多時間練習。",
+        "starter": "Tessa",
+        "answer": "Tessa went cold turkey on online games before the tournament to make more time for practice.",
+        "answerZh": "Tessa 在比賽前徹底戒掉網上遊戲，以騰出更多時間練習。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "went cold turkey"
+      },
+      {
+        "id": "idiom-86-q23",
+        "number": 23,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The coach said that Ben had completely stopped drinking energy drinks before the race.",
+        "promptZh": "教練說，Ben 在比賽前已完全停止喝能量飲品。",
+        "starter": "The",
+        "answer": "The coach said that Ben had gone cold turkey on energy drinks before the race.",
+        "answerZh": "教練說，Ben 在比賽前已一下子戒掉能量飲品。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "gone cold turkey"
+      },
+      {
+        "id": "idiom-86-q24",
+        "number": 24,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Ava and Lily have agreed to stop reading gossip websites suddenly and completely for a month.",
+        "promptZh": "Ava 和 Lily 已同意突然完全停止瀏覽八卦網站一個月。",
+        "starter": "Ava",
+        "answer": "Ava and Lily have agreed to go cold turkey on gossip websites for a month.",
+        "answerZh": "Ava 和 Lily 已同意徹底停止瀏覽八卦網站一個月。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q25",
+        "number": 25,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Would completely stopping late-night messages at once help Noah sleep earlier?",
+        "promptZh": "一下子完全停止在深夜傳訊息，會否幫助 Noah 早點睡覺？",
+        "starter": "Could",
+        "answer": "Could going cold turkey on late-night messages help Noah sleep earlier?",
+        "answerZh": "徹底停止在深夜傳訊息，會否幫助 Noah 早點睡覺？",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "going cold turkey"
+      },
+      {
+        "id": "idiom-86-q26",
+        "number": 26,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The family completely stopped using food-delivery apps and deleted them from every phone.",
+        "promptZh": "這個家庭完全停止使用外賣應用程式，並從每部手機刪除它們。",
+        "starter": "By",
+        "answer": "By deleting the apps from every phone, the family went cold turkey on food delivery.",
+        "answerZh": "這個家庭從每部手機刪除外賣應用程式，徹底停止使用外賣服務。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "went cold turkey"
+      },
+      {
+        "id": "idiom-86-q27",
+        "number": 27,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Priya reduced her coffee one cup at a time rather than stopping it completely at once.",
+        "promptZh": "Priya 每次少喝一杯咖啡，而不是一下子完全停止。",
+        "starter": "Rather",
+        "answer": "Rather than go cold turkey on coffee, Priya reduced it one cup at a time.",
+        "answerZh": "Priya 沒有一下子戒掉咖啡，而是每次少喝一杯。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q28",
+        "number": 28,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Felix suggested that everyone completely stop unnecessary online shopping until they had saved enough money.",
+        "promptZh": "Felix 建議大家完全停止不必要的網上購物，直至儲夠金錢。",
+        "starter": "Let’s",
+        "answer": "“Let’s go cold turkey on unnecessary online shopping until we save enough,” Felix suggested.",
+        "answerZh": "Felix 建議：「讓我們徹底停止不必要的網上購物，直至儲夠金錢。」",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q29",
+        "number": 29,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Jasmine completely stopped eating sweet snacks because she wanted to change her daily habit.",
+        "promptZh": "Jasmine 完全停止吃甜食，因為她想改變自己的日常習慣。",
+        "starter": "The",
+        "answer": "The reason Jasmine went cold turkey on sweet snacks was that she wanted to change her daily habit.",
+        "answerZh": "Jasmine 徹底戒掉甜食，是因為她想改變自己的日常習慣。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "went cold turkey"
+      },
+      {
+        "id": "idiom-86-q30",
+        "number": 30,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Lucas did not stop watching television completely; he watched a little less each day.",
+        "promptZh": "Lucas 沒有完全停止看電視；他只是每天少看一點。",
+        "starter": "Lucas",
+        "answer": "Lucas did not go cold turkey on television; he watched a little less each day.",
+        "answerZh": "Lucas 沒有一下子完全戒掉電視；他只是每天少看一點。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q31",
+        "number": 31,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Hannah had planned to reduce her coffee slowly, but she stopped drinking it completely at once.",
+        "promptZh": "Hannah 原本計劃逐步減少咖啡，但後來一下子完全停止飲用。",
+        "starter": "Although",
+        "answer": "Although Hannah had planned to cut down slowly, she went cold turkey on coffee.",
+        "answerZh": "雖然 Hannah 原本計劃逐步減少，但她最後一下子戒掉了咖啡。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "went cold turkey"
+      },
+      {
+        "id": "idiom-86-q32",
+        "number": 32,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Kai wanted a complete break from social media, so he chose to stop using it suddenly and completely.",
+        "promptZh": "Kai 想完全離開社交媒體一段時間，因此選擇突然徹底停用。",
+        "starter": "Because",
+        "answer": "Because Kai wanted a complete break, he chose to go cold turkey on social media.",
+        "answerZh": "因為 Kai 想完全休息一下，所以他選擇徹底停用社交媒體。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q33",
+        "number": 33,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "If you suddenly and completely stop playing games late at night, the first few evenings may feel unusual.",
+        "promptZh": "如果你突然完全停止在深夜玩遊戲，最初幾個晚上可能會感到不習慣。",
+        "starter": "If",
+        "answer": "If you go cold turkey on late-night gaming, the first few evenings may feel unusual.",
+        "answerZh": "如果你一下子戒掉深夜打機的習慣，最初幾個晚上可能會感到不習慣。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q34",
+        "number": 34,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Before Zoe completely stopped reading online news, she checked it every few minutes.",
+        "promptZh": "Zoe 在完全停止閱讀網上新聞前，每隔幾分鐘便會查看一次。",
+        "starter": "Before",
+        "answer": "Before going cold turkey on online news, Zoe checked it every few minutes.",
+        "answerZh": "Zoe 在徹底戒掉網上新聞前，每隔幾分鐘便會查看一次。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "going cold turkey"
+      },
+      {
+        "id": "idiom-86-q35",
+        "number": 35,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The class completely stopped using phones during lunch. Afterwards, the students spent more time talking.",
+        "promptZh": "全班在午膳時完全停止使用手機。其後，學生花更多時間交談。",
+        "starter": "After",
+        "answer": "After the class went cold turkey on phones during lunch, the students spent more time talking.",
+        "answerZh": "全班在午膳時徹底停用手機後，學生花更多時間交談。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "went cold turkey"
+      },
+      {
+        "id": "idiom-86-q36",
+        "number": 36,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Keeping only water at home helped Ethan stop drinking fizzy drinks completely at once.",
+        "promptZh": "家中只留下清水，幫助 Ethan 一下子完全停止喝汽水。",
+        "starter": "What",
+        "answer": "What helped Ethan go cold turkey on fizzy drinks was keeping only water at home.",
+        "answerZh": "幫助 Ethan 徹底戒掉汽水的方法，是家中只留下清水。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q37",
+        "number": 37,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The office team decided that completely stopping work messages after 8 p.m. was easier than setting many small rules.",
+        "promptZh": "辦公室團隊認為，晚上八時後完全停止傳送工作訊息，比制定許多小規則容易。",
+        "starter": "The",
+        "answer": "The office team decided that going cold turkey on work messages after 8 p.m. was easier than setting many small rules.",
+        "answerZh": "辦公室團隊認為，晚上八時後徹底停止工作訊息，比制定許多小規則容易。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "going cold turkey"
+      },
+      {
+        "id": "idiom-86-q38",
+        "number": 38,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Nora deleted every shopping app and succeeded in completely stopping online shopping.",
+        "promptZh": "Nora 刪除所有購物應用程式，成功完全停止網上購物。",
+        "starter": "By",
+        "answer": "By deleting every shopping app, Nora managed to go cold turkey on online shopping.",
+        "answerZh": "Nora 刪除所有購物應用程式，成功徹底停止網上購物。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q39",
+        "number": 39,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Ryan had completely stopped playing video games, but he still watched his friends play.",
+        "promptZh": "Ryan 已完全停止玩電子遊戲，但仍會觀看朋友玩。",
+        "starter": "Even",
+        "answer": "Even though Ryan had gone cold turkey on video games, he still watched his friends play.",
+        "answerZh": "雖然 Ryan 已徹底戒掉電子遊戲，但仍會觀看朋友玩。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "gone cold turkey"
+      },
+      {
+        "id": "idiom-86-q40",
+        "number": 40,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Grace’s ability to stop drinking coffee completely at once depends on how busy her week is.",
+        "promptZh": "Grace 能否一下子完全停止喝咖啡，視乎她本星期有多忙。",
+        "starter": "Whether",
+        "answer": "Whether Grace can go cold turkey on coffee depends on how busy her week is.",
+        "answerZh": "Grace 能否一下子戒掉咖啡，視乎她本星期有多忙。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q41",
+        "number": 41,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The school challenge encouraged students to stop watching short videos completely for seven days.",
+        "promptZh": "學校挑戰鼓勵學生完全停止觀看短片七天。",
+        "starter": "The",
+        "answer": "The school challenge encouraged students to go cold turkey on short videos for seven days.",
+        "answerZh": "學校挑戰鼓勵學生徹底停止觀看短片七天。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q42",
+        "number": 42,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Aisha said she preferred to stop drinking sugary drinks completely at once rather than count every glass.",
+        "promptZh": "Aisha 說，她寧願一下子完全停止喝含糖飲品，也不想計算每一杯。",
+        "starter": "Aisha",
+        "answer": "Aisha said she would rather go cold turkey on sugary drinks than count every glass.",
+        "answerZh": "Aisha 說，她寧願一下子戒掉含糖飲品，也不想計算每一杯。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q43",
+        "number": 43,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The group planned to stop complaining completely for one full day.",
+        "promptZh": "小組計劃完全停止抱怨一整天。",
+        "starter": "The",
+        "answer": "The group’s plan was to go cold turkey on complaining for one full day.",
+        "answerZh": "小組的計劃是徹底停止抱怨一整天。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q44",
+        "number": 44,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Not everyone who tries to stop using social media completely at once succeeds on the first attempt.",
+        "promptZh": "並非每個嘗試一下子完全停用社交媒體的人，都能在第一次成功。",
+        "starter": "Not",
+        "answer": "Not everyone who tries to go cold turkey on social media succeeds on the first attempt.",
+        "answerZh": "並非每個嘗試徹底停用社交媒體的人，都能在第一次成功。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q45",
+        "number": 45,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Since the flatmates completely stopped ordering takeaway meals, they have cooked at home every evening.",
+        "promptZh": "自從室友完全停止訂購外賣後，他們每晚都在家煮食。",
+        "starter": "Since",
+        "answer": "Since the flatmates went cold turkey on takeaway meals, they have cooked at home every evening.",
+        "answerZh": "自從室友徹底停止訂購外賣後，他們每晚都在家煮食。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "went cold turkey"
+      },
+      {
+        "id": "idiom-86-q46",
+        "number": 46,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A friend told Sophie that she did not have to stop drinking coffee suddenly and completely because she could reduce it gradually.",
+        "promptZh": "朋友告訴 Sophie，她不必突然完全停止喝咖啡，也可以逐步減少。",
+        "starter": "You",
+        "answer": "“You don’t have to go cold turkey on coffee; you can reduce it gradually,” Sophie’s friend said.",
+        "answerZh": "Sophie 的朋友說：「你不必一下子戒掉咖啡，也可以逐步減少。」",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q47",
+        "number": 47,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Owen gave his game console to his cousin for a month so that he could completely stop playing online games at once.",
+        "promptZh": "Owen 把遊戲機交給表親一個月，讓自己可以一下子完全停止玩網上遊戲。",
+        "starter": "To",
+        "answer": "To go cold turkey on online games, Owen gave his game console to his cousin for a month.",
+        "answerZh": "為了徹底戒掉網上遊戲，Owen 把遊戲機交給表親一個月。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q48",
+        "number": 48,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The writer described her month without social media as an attempt to stop following constant updates completely at once.",
+        "promptZh": "那位作家把一個月不用社交媒體，形容為嘗試完全停止追看不斷更新的資訊。",
+        "starter": "The",
+        "answer": "The writer described her month without social media as an attempt to go cold turkey on constant updates.",
+        "answerZh": "那位作家把一個月不用社交媒體，形容為嘗試徹底停止追看不斷更新的資訊。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q49",
+        "number": 49,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Although her habit was strong, Chloe succeeded in completely stopping phone use during meals.",
+        "promptZh": "雖然這個習慣很強，Chloe 仍成功在用餐時完全停止使用手機。",
+        "starter": "Although",
+        "answer": "Although the habit was strong, Chloe managed to go cold turkey on phone use during meals.",
+        "answerZh": "雖然這個習慣很強，Chloe 仍成功在用餐時徹底停用手機。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      },
+      {
+        "id": "idiom-86-q50",
+        "number": 50,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "What began as a one-day test became a decision to stop using shopping apps completely for the rest of the month.",
+        "promptZh": "原本為期一天的測試，後來變成在該月餘下時間完全停用購物應用程式的決定。",
+        "starter": "What",
+        "answer": "What began as a one-day test became a decision to go cold turkey on shopping apps for the rest of the month.",
+        "answerZh": "原本為期一天的測試，後來變成在該月餘下時間徹底停用購物應用程式的決定。",
+        "targetForm": "go cold turkey",
+        "targetMeaning": "To stop using, consuming or doing something suddenly and completely, instead of reducing it gradually.",
+        "highlight": "go cold turkey"
+      }
+    ]
+  }
+}

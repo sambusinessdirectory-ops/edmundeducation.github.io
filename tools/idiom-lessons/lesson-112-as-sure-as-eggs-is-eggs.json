@@ -1,0 +1,1464 @@
+{
+  "lesson": {
+    "id": "idiom-112",
+    "order": 112,
+    "slug": "as-sure-as-eggs-is-eggs",
+    "version": "1",
+    "title": "千真萬確／毫無疑問",
+    "titleEn": "as sure as eggs is eggs",
+    "titleZh": "千真萬確／毫無疑問",
+    "source": {
+      "file": "Idiom 112 - “As Sure as Eggs Is Eggs”.pdf",
+      "pageCount": 31,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "exercisePdfPages": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "answerKeyPdfPages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "as sure as eggs is eggs",
+        "highlight": "as sure as eggs is eggs"
+      }
+    ],
+    "examples": [
+      {
+        "en": "As sure as eggs is eggs, Daniel will forget his key.",
+        "zh": "毫無疑問，丹尼爾一定會忘記帶鎖匙。",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "en": "Daniel will forget his key, as sure as eggs is eggs.",
+        "zh": "丹尼爾肯定會忘記帶鎖匙。",
+        "highlight": "as sure as eggs is eggs"
+      }
+    ],
+    "meaning": {
+      "en": "Used to say that something is completely certain or will definitely happen.",
+      "zh": "用來表示某件事完全肯定、毫無疑問，或某件事必定會發生。",
+      "naturalZh": [
+        "用來表示某件事完全肯定、毫無疑問，或某件事必定會發生。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "British; informal; old-fashioned; strongly emphatic; sometimes deliberately playful.",
+      "summaryZh": "固定部分 as sure as eggs is eggs",
+      "contextsEn": [
+        "British",
+        "informal",
+        "old-fashioned",
+        "strongly emphatic",
+        "sometimes deliberately playful",
+        "as certain as eggs is eggs",
+        "as sure like eggs is eggs",
+        "as sure as egg is egg",
+        "as sure as eggs are eggs",
+        "as surely as eggs is eggs",
+        "sure as eggs is eggs"
+      ],
+      "contextsZh": [
+        "英式英語",
+        "非正式用語",
+        "較老式的說法",
+        "語氣十分肯定",
+        "有時會刻意帶出詼諧或懷舊感。"
+      ],
+      "formalEn": "It is most natural in conversation, storytelling, humorous comments and deliberately old-fashioned speech. It is normally unsuitable for formal reports, academic essays, official notices and neutral business correspondence. Cambridge and Oxford both label it old-fashioned, while Oxford also marks it informal and British.",
+      "formalZh": "慣用語本身維持不變，但前後的子句可以使用不同文法。"
+    },
+    "fixedVariable": {
+      "fixed": "as sure as eggs is eggs",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "As sure as eggs is eggs, + complete clause.",
+          "example": "As sure as eggs is eggs, Daniel will forget his key.",
+          "highlight": "As sure as eggs is eggs"
+        },
+        {
+          "form": "Complete clause + , as sure as eggs is eggs.",
+          "example": "Daniel will forget his key, as sure as eggs is eggs.",
+          "highlight": "as sure as eggs is eggs"
+        },
+        {
+          "form": "Subject + auxiliary verb + , as sure as eggs is eggs, + main verb.",
+          "example": "Daniel will, as sure as eggs is eggs, forget his key.",
+          "highlight": "as sure as eggs is eggs"
+        },
+        {
+          "form": "If / When / Although / Before + clause, + main clause + , as sure as eggs is eggs.",
+          "example": "If you tell Oliver, everyone will know by lunchtime, as sure as eggs is eggs.",
+          "highlight": "as sure as eggs is eggs"
+        },
+        {
+          "form": "And / But + as sure as eggs is eggs, + complete clause.",
+          "example": "But as sure as eggs is eggs, the neighbours will complain.",
+          "highlight": "as sure as eggs is eggs"
+        },
+        {
+          "form": "Introductory statement + : + as sure as eggs is eggs, + clause.",
+          "example": "Here is what will happen: as sure as eggs is eggs, the team will arrive late.",
+          "highlight": "as sure as eggs is eggs"
+        },
+        {
+          "form": "Speaker + said, “As sure as eggs is eggs, + clause.”",
+          "example": "Grandmother said, “As sure as eggs is eggs, the clock will stop at midnight.”",
+          "highlight": "As sure as eggs is eggs"
+        },
+        {
+          "form": "as sure as eggs is eggs",
+          "example": "As sure as eggs is eggs, he will complain.",
+          "highlight": "As sure as eggs is eggs"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "At the Beginning of a Sentence",
+        "titleZh": "句式一：置於句首",
+        "formula": "As sure as eggs is eggs, + complete clause.",
+        "descriptionEn": "A comma normally follows the expression.",
+        "descriptionZh": "表達置於句首時，後面通常要加逗號。",
+        "examples": [
+          {
+            "en": "As sure as eggs is eggs, Daniel will forget his key.",
+            "zh": "毫無疑問，丹尼爾一定會忘記帶鎖匙。",
+            "highlight": "As sure as eggs is eggs"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "At the End of a Sentence",
+        "titleZh": "句式二：置於句末",
+        "formula": "Complete clause + , as sure as eggs is eggs.",
+        "descriptionEn": "The comma separates the main message from the emphatic comment.",
+        "descriptionZh": "逗號把主要訊息和表示肯定的附加評論分開。",
+        "examples": [
+          {
+            "en": "Daniel will forget his key, as sure as eggs is eggs.",
+            "zh": "丹尼爾肯定會忘記帶鎖匙。",
+            "highlight": "as sure as eggs is eggs"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "As a Parenthetical Expression",
+        "titleZh": "句式三：作插入語",
+        "formula": "Subject + auxiliary verb + , as sure as eggs is eggs, + main verb.",
+        "descriptionEn": "Two commas normally mark the expression as additional emphasis.",
+        "descriptionZh": "通常使用兩個逗號，把這個表達標示為插入式的強調語。",
+        "examples": [
+          {
+            "en": "Daniel will, as sure as eggs is eggs, forget his key.",
+            "zh": "丹尼爾毫無疑問會忘記帶鎖匙。",
+            "highlight": "as sure as eggs is eggs"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After a Condition, Time or Contrast Clause",
+        "titleZh": "句式四：接在條件、時間或對比子句之後",
+        "formula": "If / When / Although / Before + clause, + main clause + , as sure as eggs is eggs.",
+        "descriptionEn": "The if-clause provides the condition. It is not part of the idiom.",
+        "descriptionZh": "子句只是提供條件，並不是慣用語的一部分。",
+        "examples": [
+          {
+            "en": "If you tell Oliver, everyone will know by lunchtime, as sure as eggs is eggs.",
+            "zh": "如果你告訴奧利弗，毫無疑問，所有人在午膳前都會知道。",
+            "highlight": "as sure as eggs is eggs"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After “And” or “But”",
+        "titleZh": "句式五：接在 And 或 But 之後",
+        "formula": "And / But + as sure as eggs is eggs, + complete clause.",
+        "descriptionEn": "Source grammar frame: And / But + as sure as eggs is eggs, + complete clause.",
+        "descriptionZh": "原檔列出的句法框架：And / But + as sure as eggs is eggs, + complete clause。",
+        "examples": [
+          {
+            "en": "But as sure as eggs is eggs, the neighbours will complain.",
+            "zh": "不過，鄰居肯定會投訴。",
+            "highlight": "as sure as eggs is eggs"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "After a Colon",
+        "titleZh": "句式六：置於冒號之後",
+        "formula": "Introductory statement + : + as sure as eggs is eggs, + clause.",
+        "descriptionEn": "The colon introduces the confident prediction.",
+        "descriptionZh": "冒號用來引出其後非常肯定的預測。",
+        "examples": [
+          {
+            "en": "Here is what will happen: as sure as eggs is eggs, the team will arrive late.",
+            "zh": "事情將會這樣發展：毫無疑問，團隊一定會遲到。",
+            "highlight": "as sure as eggs is eggs"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Inside Direct Speech",
+        "titleZh": "句式七：用於直接引語",
+        "formula": "Speaker + said, “As sure as eggs is eggs, + clause.”",
+        "descriptionEn": "The capital letter and comma follow the normal rules for direct speech.",
+        "descriptionZh": "大寫字母、逗號及引號須依照直接引語的一般規則使用。",
+        "examples": [
+          {
+            "en": "Grandmother said, “As sure as eggs is eggs, the clock will stop at midnight.”",
+            "zh": "祖母說：「毫無疑問，這個鐘一定會在午夜停下來。」",
+            "highlight": "As sure as eggs is eggs"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "With Different Clause Forms",
+        "titleZh": "句式八：配合不同子句形式",
+        "formula": "as sure as eggs is eggs",
+        "descriptionEn": "By tomorrow, he will have changed his mind, as sure as eggs is eggs.",
+        "descriptionZh": "到了明天，他肯定已經改變主意。",
+        "examples": [
+          {
+            "en": "As sure as eggs is eggs, he will complain.",
+            "zh": "他肯定會投訴。",
+            "highlight": "As sure as eggs is eggs"
+          },
+          {
+            "en": "As sure as eggs is eggs, it is going to rain.",
+            "zh": "天肯定快要下雨。",
+            "highlight": "As sure as eggs is eggs"
+          },
+          {
+            "en": "Every summer, as sure as eggs is eggs, the station fills with tourists.",
+            "zh": "每年夏天，車站必定擠滿遊客。",
+            "highlight": "as sure as eggs is eggs"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Complete Certainty Compactly",
+        "titleZh": "簡潔地表達完全肯定",
+        "en": "Daniel will forget his key again, as sure as eggs is eggs.",
+        "zh": "這個表達可以把「我完全沒有任何懷疑」濃縮成一個固定而有力的說法。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Adds Humorous Emphasis",
+        "titleZh": "增加帶點幽默的強調效果",
+        "en": "The expression is useful when somebody behaves in the same predictable way again and again.",
+        "zh": "當某人一次又一次作出相同而容易預料的行為時，這個表達尤其適合。 奧利弗肯定會告訴所有人。",
+        "examples": [
+          {
+            "en": "Oliver will tell everyone, as sure as eggs is eggs.",
+            "zh": "奧利弗肯定會告訴所有人。",
+            "highlight": "as sure as eggs is eggs"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Helps Learners Understand Older British Speech",
+        "titleZh": "幫助學生理解較老式的英式說話",
+        "en": "Students may encounter the expression in older books, films, television programmes or deliberately old-fashioned dialogue.",
+        "zh": "學生可能會在舊書、電影、電視節目或刻意模仿舊式語氣的對話中遇到這個表達。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Strengthen Predictions and Warnings",
+        "titleZh": "加強預測及警告",
+        "en": "If you leave the biscuits there, the dog will find them, as sure as eggs is eggs.",
+        "zh": "如果你把餅乾留在那裏，狗肯定會找到。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Provides Flexible Sentence Placement",
+        "titleZh": "可以靈活放在不同句子位置",
+        "en": "at the beginning; at the end; parenthetically in the middle; after a condition or contrast; inside direct speech.",
+        "zh": "這種位置變化能讓學生練習不同的標點、語序及句子組織方式。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is Not Automatically Better Than “Definitely”",
+        "titleZh": "並不一定比 Definitely 更好",
+        "en": "The idiom is marked and old-fashioned. Definitely, certainly or there is no doubt may be clearer in ordinary modern communication.",
+        "zh": "這個表達帶有明顯的老式語氣。 在一般現代溝通中，definitely、certainly 或 there is no doubt 有時會更清楚自然。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Well-Documented Early Forms; Exact Origin Unknown",
+      "statusZh": "早期形式有充分記錄；確切來源不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, the expression is used to emphasise that something is definitely true or certain to happen. It remains recognisable in British English but has a clearly old-fashioned tone.",
+          "zh": "今天，這個表達用來強調某件事肯定屬實，或某件事必定會發生。 英式英語使用者一般仍能理解它，但其語氣明顯較為老式。"
+        }
+      ],
+      "memoryEn": "If eggs are obviously eggs, the prediction is obviously certain.",
+      "memoryZh": "既然「雞蛋就是雞蛋」是明顯不過的事，說話者的預測也同樣毫無疑問。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “Is”",
+        "titleZh": "規則一：保留 Is",
+        "en": "In ordinary grammar, eggs normally takes are. However, is belongs to the traditional fixed wording taught in this set. Oxford and Cambridge both list the idiom with is.",
+        "zh": "在一般文法中，eggs 通常配合 are。 不過，本課教授的傳統固定說法使用 is，因此不能按一般主謂一致規則自行修改。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Change Any Fixed Word",
+        "titleZh": "規則二：不要改動任何固定字詞",
+        "en": "Do Not Change Any Fixed Word",
+        "zh": "不要改動任何固定字詞",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "The Expression Shows Very Strong Certainty",
+        "titleZh": "規則三：這個表達表示非常強烈的肯定",
+        "en": "I am completely certain that the bus will be late. The bus might be late. The idiom would make the statement much more certain than the source.",
+        "zh": "我完全肯定巴士會遲到。 巴士毫無疑問會遲到。 巴士可能會遲到。 使用這個慣用語會把原本只是「可能」的意思錯誤地加強成「肯定」。",
+        "examples": [
+          {
+            "en": "The bus will be late, as sure as eggs is eggs.",
+            "zh": "巴士毫無疑問會遲到。",
+            "highlight": "as sure as eggs is eggs"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "Do Not Keep “Definitely” or “Certainly”",
+        "titleZh": "規則四",
+        "en": "The idiom must replace the longer certainty wording rather than stand beside it.",
+        "zh": "不要保留 Definitely 或 Certainly 毫無疑問，巴士會遲到。 慣用語應取代原本表示肯定的較長說法，而不是與 definitely 或 certainly 一同重複相同意思。",
+        "examples": [
+          {
+            "en": "As sure as eggs is eggs, the bus will be late.",
+            "zh": "毫無疑問，巴士會遲到。",
+            "highlight": "As sure as eggs is eggs"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Use It for an Honest Possibility",
+        "titleZh": "規則五：不能用來表達真正的不確定性",
+        "en": "The source expresses possibility, but the answer expresses certainty.",
+        "zh": "原句表示「可能」，但答案卻變成「肯定」，因此意思並不相同。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Interpret the Eggs Literally",
+        "titleZh": "規則六：不要按雞蛋的字面意思理解",
+        "en": "The expression is about certainty. It is not describing eggs, cooking or farming.",
+        "zh": "這個表達與「肯定」有關，並不是在形容雞蛋、烹飪或農業。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Use Natural Punctuation",
+        "titleZh": "規則七：使用自然標點",
+        "en": "Use Natural Punctuation",
+        "zh": "使用自然標點",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Avoid It in Formal Neutral Writing",
+        "titleZh": "規則八：避免用於正式而中性的文章",
+        "en": "The results are expected to improve next year.",
+        "zh": "在正式報告中，較中性的預測通常會比這個老式慣用語更合適。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Use It Only When the Speaker Is Genuinely",
+        "titleZh": "規則九：只有在說話者非常肯定時才使用",
+        "en": "Certain The second sentence gives no reason for such strong certainty.",
+        "zh": "只有在說話者非常肯定時才使用 Natural: 第二句沒有提供任何理由支持如此肯定的語氣。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "as sure as eggs is eggs",
+      "zh": "使用以下目標表達改寫句子或完成回應："
+    },
+    "questions": [
+      {
+        "id": "idiom-112-q01",
+        "number": 1,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The bus has been late every morning this week. I am completely certain that it will be late again.",
+        "promptZh": "巴士本星期每天早上都遲到。我完全肯定它又會遲到。",
+        "starter": "As",
+        "answer": "As sure as eggs is eggs, the bus will be late again.",
+        "answerZh": "毫無疑問，巴士又會遲到。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q02",
+        "number": 2,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Daniel forgets his key almost every day. There is no doubt that he will forget it again.",
+        "promptZh": "丹尼爾幾乎每天都忘記帶鎖匙。毫無疑問，他又會忘記。",
+        "starter": "Daniel",
+        "answer": "Daniel will forget his key again, as sure as eggs is eggs.",
+        "answerZh": "丹尼爾肯定又會忘記帶鎖匙。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q03",
+        "number": 3,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "I have just placed a clean shirt on the bed. I know for certain that the cat will sit on it.",
+        "promptZh": "我剛把一件乾淨恤衫放在床上。我完全肯定貓會坐在上面。",
+        "starter": "The",
+        "answer": "The cat will, as sure as eggs is eggs, sit on your clean shirt.",
+        "answerZh": "貓毫無疑問會坐在你的乾淨恤衫上。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q04",
+        "number": 4,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The clouds are very dark, and the wind is getting stronger. The rain will certainly start before the match ends.",
+        "promptZh": "雲層十分陰暗，風勢亦愈來愈強。比賽結束前肯定會下雨。",
+        "starter": "As",
+        "answer": "As sure as eggs is eggs, the rain will start before the match ends.",
+        "answerZh": "毫無疑問，比賽結束前便會開始下雨。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q05",
+        "number": 5,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The old printer always stops at the worst possible time. I am certain that it will stop when we need it.",
+        "promptZh": "舊打印機總是在最不適當的時間停止運作。我肯定我們需要它時，它便會停下來。",
+        "starter": "The",
+        "answer": "The old printer will, as sure as eggs is eggs, stop just when we need it.",
+        "answerZh": "毫無疑問，這部舊打印機偏偏會在我們需要它時停止運作。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q06",
+        "number": 6,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Chloe orders the chocolate cake every time she visits this café. There is no doubt that she will choose it tonight.",
+        "promptZh": "克洛伊每次來這間咖啡店都會點朱古力蛋糕。她今晚肯定也會選它。",
+        "starter": "As",
+        "answer": "As sure as eggs is eggs, Chloe is going to choose the chocolate cake.",
+        "answerZh": "克洛伊毫無疑問會選擇朱古力蛋糕。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q07",
+        "number": 7,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Dad asks about our homework whenever we come home. He will definitely ask about it today.",
+        "promptZh": "爸爸每次見我們回家都會問功課。他今天肯定也會問。",
+        "starter": "As",
+        "answer": "As sure as eggs is eggs, Dad will ask about the homework.",
+        "answerZh": "爸爸肯定會問起功課。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q08",
+        "number": 8,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The queue always becomes longer at lunchtime. I know that today will be the same.",
+        "promptZh": "隊伍在午膳時間總會變長。我知道今天也不會例外。",
+        "starter": "The",
+        "answer": "The queue will, as sure as eggs is eggs, get longer at lunchtime.",
+        "answerZh": "隊伍在午膳時間肯定會變得更長。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q09",
+        "number": 9,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The baby wakes up whenever dinner is ready. I am certain that the same thing will happen tonight.",
+        "promptZh": "每當晚餐準備好時，嬰兒便會醒來。我肯定今晚也會發生同樣的事情。",
+        "starter": "The",
+        "answer": "The baby will, as sure as eggs is eggs, wake up when dinner is ready.",
+        "answerZh": "晚餐準備好時，嬰兒肯定會醒來。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q10",
+        "number": 10,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Our team has arrived late at every event this year. I am certain that we will arrive just after the doors close again.",
+        "promptZh": "我們的團隊今年每次參加活動都遲到。我肯定我們又會在大門剛關上後才到達。",
+        "starter": "Here",
+        "answer": "Here is what will happen: as sure as eggs is eggs, our team will arrive just after the doors close.",
+        "answerZh": "事情肯定會這樣發展：我們的團隊會在大門剛關上後才到達。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q11",
+        "number": 11,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Every time Ben washes the car, it rains the next day. I am certain that this time will be no different.",
+        "promptZh": "每次本洗車，第二天都會下雨。我肯定今次也不會例外。",
+        "starter": "Every",
+        "answer": "Every time Ben washes the car, it rains the next day, as sure as eggs is eggs.",
+        "answerZh": "每次本洗車，第二天都必定下雨。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q12",
+        "number": 12,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "If you leave the biscuits on the table, the dog will definitely find them.",
+        "promptZh": "如果你把餅乾留在桌上，狗肯定會找到它們。",
+        "starter": "If",
+        "answer": "If you leave the biscuits there, the dog will find them, as sure as eggs is eggs.",
+        "answerZh": "如果你把餅乾留在那裏，狗肯定會找到它們。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q13",
+        "number": 13,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The lift has stopped twice this week and has not been repaired. There is no doubt that it will stop again.",
+        "promptZh": "升降機本星期已停過兩次，而且尚未維修。它肯定會再次停止運作。",
+        "starter": "As",
+        "answer": "As sure as eggs is eggs, the lift is going to stop again before it is repaired.",
+        "answerZh": "升降機在維修前肯定會再次停止運作。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q14",
+        "number": 14,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Oliver never keeps a secret. If you tell him now, everyone will certainly know by lunchtime.",
+        "promptZh": "奧利弗從來不能保守秘密。如果你現在告訴他，所有人在午膳前肯定都會知道。",
+        "starter": "Oliver",
+        "answer": "Oliver will, as sure as eggs is eggs, tell everyone by lunchtime if you tell him.",
+        "answerZh": "如果你告訴奧利弗，他毫無疑問會在午膳前告訴所有人。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q15",
+        "number": 15,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Priya says she is staying home, but she usually changes her mind. I am certain that she will join us later.",
+        "promptZh": "普里亞說她會留在家中，但她通常都會改變主意。我肯定她稍後會加入我們。",
+        "starter": "Although",
+        "answer": "Although Priya says she is staying home, she will join us later, as sure as eggs is eggs.",
+        "answerZh": "雖然普里亞說她會留在家中，但她稍後肯定會加入我們。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q16",
+        "number": 16,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "We will not arrive until nine, and the shop always closes at eight. It will certainly be closed.",
+        "promptZh": "我們要到九時才到達，而店舖一向在八時關門。店舖肯定已經關門。",
+        "starter": "As",
+        "answer": "As sure as eggs is eggs, the shop will be closed when we arrive.",
+        "answerZh": "我們到達時，店舖肯定已經關門。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q17",
+        "number": 17,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The school has changed the timetable three times this term. I am certain that it will change it again before the week is over.",
+        "promptZh": "學校今個學期已三次更改時間表。我肯定本星期結束前，它又會再改。",
+        "starter": "Before",
+        "answer": "Before the week is over, the school will change the timetable again, as sure as eggs is eggs.",
+        "answerZh": "本星期結束前，學校肯定又會更改時間表。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q18",
+        "number": 18,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The children always ask for another story after the first one. They will definitely ask again tonight.",
+        "promptZh": "孩子聽完第一個故事後總會再要求聽一個。他們今晚肯定又會提出要求。",
+        "starter": "As",
+        "answer": "As sure as eggs is eggs, the children are going to ask for another story.",
+        "answerZh": "孩子肯定會要求再聽一個故事。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q19",
+        "number": 19,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The storm is becoming stronger, and this old house always loses power during bad weather. The lights will certainly go out.",
+        "promptZh": "暴風雨愈來愈強，而這間舊屋在惡劣天氣下總會停電。電燈肯定會熄滅。",
+        "starter": "And",
+        "answer": "And as sure as eggs is eggs, the lights will go out during the storm.",
+        "answerZh": "而且毫無疑問，電燈會在暴風雨期間熄滅。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q20",
+        "number": 20,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Leo usually changes his mind after sleeping on an important choice. I have no doubt that he will have changed his mind by tomorrow morning.",
+        "promptZh": "里奧通常睡一晚後便會改變對重要選擇的看法。我毫不懷疑他到了明早已經改變主意。",
+        "starter": "By",
+        "answer": "By tomorrow morning, Leo will have changed his mind, as sure as eggs is eggs.",
+        "answerZh": "到了明天早上，里奧肯定已經改變主意。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q21",
+        "number": 21,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Do you think my brother will ask to borrow my charger again? B: Yes. He asks almost every day, so I am completely certain that he will ask before dinner.",
+        "promptZh": "甲：你認為我哥哥又會要求借用我的充電器嗎？ 乙：會。他幾乎每天都會問，所以我完全肯定他會在晚飯前提出要求。",
+        "starter": "As",
+        "answer": "As sure as eggs is eggs, your brother will ask to borrow your charger before dinner.",
+        "answerZh": "毫無疑問，你哥哥會在晚飯前要求借用你的充電器。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q22",
+        "number": 22,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Those clouds are getting very dark. B: I am certain that it will rain heavily before we get home.",
+        "promptZh": "甲：那些雲愈來愈陰暗。 乙：我肯定我們回家前會下大雨。",
+        "starter": "As",
+        "answer": "As sure as eggs is eggs, it will rain heavily before we get home.",
+        "answerZh": "我們回家前肯定會下大雨。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q23",
+        "number": 23,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Is the printer working properly now? B: It works at the moment, but I am certain that it will jam during the meeting.",
+        "promptZh": "甲：打印機現在運作正常嗎？ 乙：目前正常，但我肯定它會在會議期間卡紙。",
+        "starter": "The",
+        "answer": "The printer will, as sure as eggs is eggs, jam during the meeting.",
+        "answerZh": "打印機肯定會在會議期間卡紙。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q24",
+        "number": 24,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Ella says she will arrive early today. B: She has been late every other time. She will certainly arrive ten minutes late again.",
+        "promptZh": "甲：埃拉說她今天會提早到達。 乙：她之前每次都遲到。她肯定又會遲到十分鐘。",
+        "starter": "Ella",
+        "answer": "Ella will arrive ten minutes late, as sure as eggs is eggs.",
+        "answerZh": "埃拉肯定會遲到十分鐘。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q25",
+        "number": 25,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Will Coach Harris choose some different players this week? B: No. I am certain that he will choose the same three players again.",
+        "promptZh": "甲：哈里斯教練本星期會選擇一些不同的球員嗎？ 乙：不會。我肯定他又會選擇相同的三名球員。",
+        "starter": "As",
+        "answer": "As sure as eggs is eggs, Coach Harris will choose the same three players again.",
+        "answerZh": "哈里斯教練毫無疑問又會選擇相同的三名球員。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q26",
+        "number": 26,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Grandmother was completely certain that the old clock would stop at midnight.",
+        "promptZh": "祖母完全肯定這個舊鐘會在午夜停下來。",
+        "starter": "Grandmother",
+        "answer": "Grandmother said, “The old clock will stop at midnight, as sure as eggs is eggs.”",
+        "answerZh": "祖母說：「這個舊鐘肯定會在午夜停下來。」",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q27",
+        "number": 27,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Ryan always takes the final biscuit when nobody is looking. I am certain that he will take this one too.",
+        "promptZh": "賴恩總會在人們沒有留意時拿走最後一塊餅乾。我肯定他也會拿走這一塊。",
+        "starter": "I",
+        "answer": "I tell you, as sure as eggs is eggs, Ryan will eat the last biscuit.",
+        "answerZh": "我敢肯定，賴恩一定會吃掉最後一塊餅乾。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q28",
+        "number": 28,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The teacher was completely certain that half the class would forget their forms.",
+        "promptZh": "老師完全肯定班上一半學生會忘記帶表格。",
+        "starter": "The",
+        "answer": "The teacher said, “Half the class will forget their forms, as sure as eggs is eggs.”",
+        "answerZh": "老師說：「班上一半學生肯定會忘記帶表格。」",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q29",
+        "number": 29,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Noor was certain that the smaller team would surprise everyone.",
+        "promptZh": "努爾肯定較小的團隊會令所有人感到驚訝。",
+        "starter": "Noor",
+        "answer": "Noor said, “The smaller team will surprise everyone, as sure as eggs is eggs.”",
+        "answerZh": "努爾說：「較小的團隊肯定會令所有人感到驚訝。」",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q30",
+        "number": 30,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The neighbours say they will not mind the music. B: They have complained about every other party. I am certain that they will complain once the music starts.",
+        "promptZh": "甲：鄰居說他們不會介意音樂聲。 乙：他們之前每次聚會都曾投訴。我肯定音樂一開始，他們便會投訴。",
+        "starter": "But",
+        "answer": "But as sure as eggs is eggs, the neighbours will complain once the music starts.",
+        "answerZh": "不過，音樂一開始，鄰居肯定便會投訴。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q31",
+        "number": 31,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Although the road looks clear now, it is Friday afternoon. I am certain that traffic will build up by five.",
+        "promptZh": "雖然道路現在看來十分暢通，但今天是星期五下午。我肯定到了五時交通便會擠塞。",
+        "starter": "Although",
+        "answer": "Although the road looks clear now, traffic will build up by five, as sure as eggs is eggs.",
+        "answerZh": "雖然道路現在看來暢通，但到了五時肯定會出現擠塞。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q32",
+        "number": 32,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The sky is becoming darker, and thunder can already be heard. The referee will certainly stop the match.",
+        "promptZh": "天空愈來愈陰暗，而且已經聽到雷聲。球證肯定會中止比賽。",
+        "starter": "Because",
+        "answer": "Because the sky is getting darker, the referee will stop the match, as sure as eggs is eggs.",
+        "answerZh": "由於天空愈來愈陰暗，球證肯定會中止比賽。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q33",
+        "number": 33,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The café received complaints the last time it placed tables outside. If it does the same thing again, somebody will certainly complain.",
+        "promptZh": "咖啡店上次把桌子放在外面時曾收到投訴。如果它再次這樣做，肯定會有人投訴。",
+        "starter": "If",
+        "answer": "If the café puts tables outside, someone will complain, as sure as eggs is eggs.",
+        "answerZh": "如果咖啡店把桌子放在外面，肯定會有人投訴。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q34",
+        "number": 34,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The new rule is simple, but people are always confused when a rule is first introduced. It will certainly confuse some people at first.",
+        "promptZh": "新規則十分簡單，但規則剛推出時，人們總會感到困惑。它最初肯定會令一些人混亂。",
+        "starter": "The",
+        "answer": "The new rule will, as sure as eggs is eggs, confuse people at first, even though it is simple.",
+        "answerZh": "新規則雖然簡單，但最初肯定會令一些人感到困惑。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q35",
+        "number": 35,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The station has filled with tourists every summer for many years. I know this summer will be the same.",
+        "promptZh": "多年來，車站每年夏天都擠滿遊客。我知道今年夏天也會一樣。",
+        "starter": "Every",
+        "answer": "Every summer, as sure as eggs is eggs, the station fills with tourists.",
+        "answerZh": "每年夏天，車站都必定擠滿遊客。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q36",
+        "number": 36,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The telephone always rings just as the family sits down for dinner. I am certain that it will happen again tonight.",
+        "promptZh": "每當家人剛坐下吃晚飯，電話便會響起。我肯定今晚又會發生。",
+        "starter": "The",
+        "answer": "The moment we sit down, the phone will ring, as sure as eggs is eggs.",
+        "answerZh": "我們一坐下來，電話肯定便會響起。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q37",
+        "number": 37,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The parcel has been delayed several times, and nobody will be home on Wednesday. I am certain that Wednesday is exactly when it will arrive.",
+        "promptZh": "包裹已多次延誤，而星期三家中沒有人。我肯定它偏偏會在星期三送到。",
+        "starter": "After",
+        "answer": "After all these delays, the parcel will arrive on the only day no one is home, as sure as eggs is eggs.",
+        "answerZh": "經過多次延誤後，包裹肯定偏偏會在家中沒人的那一天送到。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q38",
+        "number": 38,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Jamie has forgotten lunch three times this week. I am certain that the same thing will happen tomorrow.",
+        "promptZh": "傑米本星期已三次忘記帶午餐。我肯定明天又會發生同樣的事。",
+        "starter": "But",
+        "answer": "But as sure as eggs is eggs, Jamie will forget lunch again tomorrow.",
+        "answerZh": "不過，傑米明天肯定又會忘記帶午餐。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q39",
+        "number": 39,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The dog can hear a biscuit packet from another room. I know that it will hear us open this one.",
+        "promptZh": "狗即使在另一個房間也能聽到餅乾包裝袋的聲音。我知道我們打開這一包時，牠肯定會聽見。",
+        "starter": "Here",
+        "answer": "Here is what the dog will do: as sure as eggs is eggs, it will hear the biscuit packet open.",
+        "answerZh": "狗肯定會有這個反應：牠會聽到餅乾包裝袋被打開的聲音。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q40",
+        "number": 40,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Eleanor completely trusted her brother’s promise. She had no doubt that he would return before dark.",
+        "promptZh": "埃莉諾完全相信哥哥的承諾。她毫不懷疑他會在天黑前回來。",
+        "starter": "Eleanor",
+        "answer": "Eleanor knew, as sure as eggs is eggs, that her brother would return before dark.",
+        "answerZh": "埃莉諾毫不懷疑哥哥會在天黑前回來。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q41",
+        "number": 41,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The park becomes crowded on every sunny Saturday. The weather report says that this Saturday will be bright and warm.",
+        "promptZh": "公園在每個天晴的星期六都會十分擠迫。天氣報告表示本星期六將會晴朗溫暖。",
+        "starter": "The",
+        "answer": "The first sunny Saturday will, as sure as eggs is eggs, bring a crowd to the park.",
+        "answerZh": "第一個天晴的星期六肯定會令公園擠滿人群。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q42",
+        "number": 42,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The phones sold out within an hour during the last three price reductions. I am certain that the same thing will happen once the price drops again.",
+        "promptZh": "過去三次減價時，這些手機都在一小時內售罄。我肯定價格再次下降時，同樣的事情又會發生。",
+        "starter": "Once",
+        "answer": "Once the price drops, the phones will sell out within an hour, as sure as eggs is eggs.",
+        "answerZh": "價格一下降，這些手機肯定會在一小時內售罄。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q43",
+        "number": 43,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Noah promises to be careful before every art lesson, but he always spills some paint. I am certain that today will be no different.",
+        "promptZh": "諾亞每次美術課前都承諾會小心，但他總會弄翻一些顏料。我肯定今天也不會例外。",
+        "starter": "Even",
+        "answer": "Even if Noah promises to be careful, he will spill the paint, as sure as eggs is eggs.",
+        "answerZh": "即使諾亞承諾會小心，他肯定還是會弄翻顏料。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q44",
+        "number": 44,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "One costume for the school play is still missing. I am completely certain that the performance will start late because of it.",
+        "promptZh": "學校話劇仍欠缺一套服裝。我完全肯定表演會因此延遲開始。",
+        "starter": "The",
+        "answer": "The school play will, as sure as eggs is eggs, start late because one costume will be missing.",
+        "answerZh": "學校話劇肯定會因為欠缺一套服裝而延遲開始。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q45",
+        "number": 45,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The new app always asks us to update it when we are busiest. I am certain that it will do the same thing again.",
+        "promptZh": "新的應用程式總是在我們最忙碌時要求更新。我肯定它又會這樣做。",
+        "starter": "And",
+        "answer": "And as sure as eggs is eggs, the new app will ask us to update it on the busiest morning.",
+        "answerZh": "而且毫無疑問，新的應用程式會在最忙碌的早上要求我們更新。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q46",
+        "number": 46,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Only one bus will be running tomorrow morning, but hundreds of workers use this stop. It will certainly be crowded before eight.",
+        "promptZh": "明天早上只有一班巴士行駛，但數百名員工都會使用這個車站。八時前這裏肯定會十分擠迫。",
+        "starter": "With",
+        "answer": "With only one bus running, the stop will be crowded before eight, as sure as eggs is eggs.",
+        "answerZh": "由於只有一班巴士行駛，這個車站在八時前肯定會十分擠迫。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q47",
+        "number": 47,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A long queue forms outside the ice-cream shop after the first warm day every year. I am certain that it will happen again this year.",
+        "promptZh": "每年第一個溫暖日子過後，雪糕店外都會出現長龍。我肯定今年也會再次發生。",
+        "starter": "After",
+        "answer": "After the first warm day, the ice-cream shop will have a long queue, as sure as eggs is eggs.",
+        "answerZh": "第一個溫暖日子過後，雪糕店外肯定會出現長龍。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q48",
+        "number": 48,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The children always ask to swim as soon as they see the water. I am completely certain that they will ask today.",
+        "promptZh": "孩子每次一看到水便會要求游泳。我完全肯定他們今天也會提出要求。",
+        "starter": "As",
+        "answer": "As sure as eggs is eggs, once the children see the water, they will want to swim.",
+        "answerZh": "毫無疑問，孩子一看到水便會想游泳。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "As sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q49",
+        "number": 49,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The two teams have argued about the money at every meeting. I am certain that they will argue about it again before the month ends.",
+        "promptZh": "兩個團隊在每次會議上都會為金錢問題爭論。我肯定本月結束前，他們又會為此爭論。",
+        "starter": "Before",
+        "answer": "Before the month is over, the two teams will argue about the money again, as sure as eggs is eggs.",
+        "answerZh": "本月結束前，兩個團隊肯定又會為金錢問題爭論。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      },
+      {
+        "id": "idiom-112-q50",
+        "number": 50,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Everyone has promised to remain calm during the family game. However, every previous game has ended in a noisy argument, so the same result is certain tonight.",
+        "promptZh": "所有人都承諾在家庭遊戲期間保持冷靜。不過，過往每次遊戲都以吵鬧的爭論告終，因此今晚肯定也會有相同結果。",
+        "starter": "Although",
+        "answer": "Although everyone has promised to stay calm, as sure as eggs is eggs, the family game will end in a noisy argument.",
+        "answerZh": "雖然所有人都承諾保持冷靜，但家庭遊戲肯定會以吵鬧的爭論告終。",
+        "targetForm": "as sure as eggs is eggs",
+        "targetMeaning": "Used to say that something is completely certain or will definitely happen.",
+        "highlight": "as sure as eggs is eggs"
+      }
+    ]
+  }
+}

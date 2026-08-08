@@ -1,0 +1,1624 @@
+{
+  "lesson": {
+    "id": "idiom-120",
+    "order": 120,
+    "slug": "spill-the-beans",
+    "version": "1",
+    "title": "把原本應該保密的消息說出來／洩露秘密",
+    "titleEn": "spill the beans",
+    "titleZh": "把原本應該保密的消息說出來／洩露秘密",
+    "source": {
+      "file": "Idiom 120 - “Spill the Beans”.pdf",
+      "pageCount": 41,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "exercisePdfPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "answerKeyPdfPages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "spill the beans",
+        "highlight": "spill the beans"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Ava spilled the beans.",
+        "zh": "艾娃說漏嘴了。",
+        "highlight": "spilled the beans"
+      },
+      {
+        "en": "Leo always spills the beans.",
+        "zh": "里奧總是會洩露秘密。",
+        "highlight": "spills the beans"
+      }
+    ],
+    "meaning": {
+      "en": "To reveal information that was supposed to remain secret or private.",
+      "zh": "把原本應該保密的消息說出來；洩露秘密；說漏嘴。",
+      "naturalZh": [
+        "把原本應該保密的消息說出來",
+        "洩露秘密",
+        "說漏嘴。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "informal workplace discussions; stories involving surprises or secrets.",
+      "summaryZh": "spill the beans 屬於非正式表達，常見於日常對話、朋友之間的訊息、訪問、娛樂新聞、非正式工作討論，以及涉及秘密或驚喜的故事。",
+      "contextsEn": [
+        "everyday conversation",
+        "friendly messages",
+        "interviews",
+        "entertainment news",
+        "informal workplace discussions",
+        "stories involving surprises or secrets",
+        "about + topic",
+        "on + topic",
+        "to + recipient",
+        "by + V-ing",
+        "time, reason, contrast or condition clauses",
+        "about +"
+      ],
+      "contextsZh": [
+        "秘密的內容",
+        "秘密的內容",
+        "接收消息的人",
+        "說明洩密的方式",
+        "時間、原因、對比或條件子句。"
+      ],
+      "formalEn": "Oxford and Collins both label the expression informal. Collins also describes it as revealing something secret, private or confidential.",
+      "formalZh": "spill the beans 屬於非正式表達，常見於日常對話、朋友之間的訊息、訪問、娛樂新聞、非正式工作討論，以及涉及秘密或驚喜的故事。"
+    },
+    "fixedVariable": {
+      "fixed": "spill the beans",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + spill(s) / spilled + the beans.",
+          "example": "Ava spilled the beans.",
+          "highlight": "spilled the beans"
+        },
+        {
+          "form": "Subject + verb + to spill the beans.",
+          "example": "She refused to spill the beans.",
+          "highlight": "spill the beans"
+        },
+        {
+          "form": "Subject + may / might / can / could / will / would / should / must + spill the beans.",
+          "example": "Ruby may spill the beans.",
+          "highlight": "spill the beans"
+        },
+        {
+          "form": "Subject + be + spilling the beans.",
+          "example": "People are spilling the beans online.",
+          "highlight": "spilling the beans"
+        },
+        {
+          "form": "Subject + verb + spilling the beans.",
+          "example": "She admitted spilling the beans.",
+          "highlight": "spilling the beans"
+        },
+        {
+          "form": "Before / after / without / instead of / by + spilling the beans.",
+          "example": "Before spilling the beans, check whether the news is public.",
+          "highlight": "spilling the beans"
+        },
+        {
+          "form": "Who spilled the beans?",
+          "example": "Did Oliver spill the beans?",
+          "highlight": "spill the beans"
+        },
+        {
+          "form": "Subject + accuse someone of + spilling the beans.",
+          "example": "They accused Ben of spilling the beans.",
+          "highlight": "spilling the beans"
+        },
+        {
+          "form": "about + topic",
+          "example": "She spilled the beans about the wedding.",
+          "highlight": "spilled the beans"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Ordinary Finite Verb Phrase",
+        "titleZh": "句式一：一般限定動詞形式",
+        "formula": "Subject + spill(s) / spilled + the beans.",
+        "descriptionEn": "an email; a photograph; a careless comment.",
+        "descriptionZh": "主語可以是人物、團體、訊息、電郵、照片或無意中的說話。",
+        "examples": [
+          {
+            "en": "Ava spilled the beans.",
+            "zh": "艾娃說漏嘴了。",
+            "highlight": "spilled the beans"
+          },
+          {
+            "en": "Leo always spills the beans.",
+            "zh": "里奧總是會洩露秘密。",
+            "highlight": "spills the beans"
+          },
+          {
+            "en": "The email spilled the beans.",
+            "zh": "那封電郵意外公開了秘密。",
+            "highlight": "spilled the beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After “To”",
+        "titleZh": "句式二：接在 to 後",
+        "formula": "Subject + verb + to spill the beans.",
+        "descriptionEn": "Source grammar frame: Subject + verb + to spill the beans.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb + to spill the beans。",
+        "examples": [
+          {
+            "en": "She refused to spill the beans.",
+            "zh": "她拒絕透露秘密。",
+            "highlight": "spill the beans"
+          },
+          {
+            "en": "He promised not to spill the beans.",
+            "zh": "他答應不會洩密。",
+            "highlight": "spill the beans"
+          },
+          {
+            "en": "The reporter tried to persuade him to spill the beans.",
+            "zh": "記者企圖說服他透露內情。",
+            "highlight": "spill the beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "句式三：接在情態動詞後",
+        "formula": "Subject + may / might / can / could / will / would / should / must + spill the beans.",
+        "descriptionEn": "The modal verb must preserve the original degree of certainty, permission, possibility or obligation.",
+        "descriptionZh": "情態動詞必須保留原句的可能性、允許程度、確定程度或責任。",
+        "examples": [
+          {
+            "en": "Ruby may spill the beans.",
+            "zh": "露比可能會說漏嘴。",
+            "highlight": "spill the beans"
+          },
+          {
+            "en": "You must not spill the beans.",
+            "zh": "你絕對不可洩露秘密。",
+            "highlight": "spill the beans"
+          },
+          {
+            "en": "Would he spill the beans if we asked him?",
+            "zh": "如果我們問他，他會透露秘密嗎？",
+            "highlight": "spill the beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Continuous and Perfect Forms",
+        "titleZh": "句式四：進行式及完成式",
+        "formula": "Subject + be + spilling the beans.",
+        "descriptionEn": "Source grammar frame: Subject + be + spilling the beans.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + spilling the beans。",
+        "examples": [
+          {
+            "en": "People are spilling the beans online.",
+            "zh": "人們正在網上洩露消息。",
+            "highlight": "spilling the beans"
+          },
+          {
+            "en": "Someone has already spilled the beans.",
+            "zh": "已經有人說漏嘴了。",
+            "highlight": "spilled the beans"
+          },
+          {
+            "en": "He had spilled the beans before the meeting began.",
+            "zh": "會議開始前，他已經洩露了秘密。",
+            "highlight": "spilled the beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After a Gerund-Taking Verb",
+        "titleZh": "句式五：接在需要動名詞的動詞後",
+        "formula": "Subject + verb + spilling the beans.",
+        "descriptionEn": "Source grammar frame: Subject + verb + spilling the beans.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb + spilling the beans。",
+        "examples": [
+          {
+            "en": "She admitted spilling the beans.",
+            "zh": "她承認曾經洩密。",
+            "highlight": "spilling the beans"
+          },
+          {
+            "en": "He denied spilling the beans.",
+            "zh": "他否認曾經洩密。",
+            "highlight": "spilling the beans"
+          },
+          {
+            "en": "We avoided spilling the beans.",
+            "zh": "我們避免把秘密說出來。",
+            "highlight": "spilling the beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "After a Preposition",
+        "titleZh": "句式六：接在介詞後",
+        "formula": "Before / after / without / instead of / by + spilling the beans.",
+        "descriptionEn": "How did the person reveal the secret?",
+        "descriptionZh": "只是可選延伸，用來回答：",
+        "examples": [
+          {
+            "en": "Before spilling the beans, check whether the news is public.",
+            "zh": "在透露消息前，先確認消息是否已公開。",
+            "highlight": "spilling the beans"
+          },
+          {
+            "en": "He left without spilling the beans.",
+            "zh": "他離開時沒有透露秘密。",
+            "highlight": "spilling the beans"
+          },
+          {
+            "en": "By mentioning the hotel, she accidentally spilled the beans.",
+            "zh": "她提到酒店，因而意外說漏了嘴。",
+            "highlight": "spilled the beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Questions and Imperatives",
+        "titleZh": "句式七：問句及祈使句",
+        "formula": "Who spilled the beans?",
+        "descriptionEn": "Source grammar frame: Who spilled the beans?.",
+        "descriptionZh": "原檔列出的句法框架：Who spilled the beans?。",
+        "examples": [
+          {
+            "en": "Did Oliver spill the beans?",
+            "zh": "奧利弗有沒有說漏嘴？",
+            "highlight": "spill the beans"
+          },
+          {
+            "en": "Why did you spill the beans?",
+            "zh": "你為甚麼要洩露秘密？",
+            "highlight": "spill the beans"
+          },
+          {
+            "en": "Come on, spill the beans!",
+            "zh": "來吧，把秘密說出來！",
+            "highlight": "spill the beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Reporting, Persuading and Causing",
+        "titleZh": "句式八：轉述、勸說及使令句式",
+        "formula": "Subject + accuse someone of + spilling the beans.",
+        "descriptionEn": "The reporter tried to get her to spill the beans.",
+        "descriptionZh": "記者企圖令她透露內情。",
+        "examples": [
+          {
+            "en": "They accused Ben of spilling the beans.",
+            "zh": "他們指控本洩露秘密。",
+            "highlight": "spilling the beans"
+          },
+          {
+            "en": "The host encouraged the actor to spill the beans.",
+            "zh": "主持人鼓勵演員透露內情。",
+            "highlight": "spill the beans"
+          },
+          {
+            "en": "The questions finally made him spill the beans.",
+            "zh": "連番追問最終令他說出秘密。",
+            "highlight": "spill the beans"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Optional Topic and Recipient Extensions",
+        "titleZh": "句式九：可選內容及接收者延伸",
+        "formula": "about + topic",
+        "descriptionEn": "On is especially common when somebody reveals details about a subject during an interview or discussion.",
+        "descriptionZh": "尤其常用於訪問或討論中，表示透露某個主題的內情。",
+        "examples": [
+          {
+            "en": "She spilled the beans about the wedding.",
+            "zh": "她洩露了婚禮的消息。",
+            "highlight": "spilled the beans"
+          },
+          {
+            "en": "The actor would not spill the beans on the new film.",
+            "zh": "演員不肯透露新電影的內情。",
+            "highlight": "spill the beans"
+          },
+          {
+            "en": "He spilled the beans to his classmates.",
+            "zh": "他向同學說出了秘密。",
+            "highlight": "spilled the beans"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "把較長解釋濃縮",
+        "en": "It Compresses a Longer Explanation",
+        "zh": "艾娃向丹尼爾洩露了派對的秘密。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Shows That the Information Was Supposed to Be",
+        "titleZh": "顯示消息原本應該保密",
+        "en": "Spill the beans immediately adds that meaning.",
+        "zh": "不一定表示消息需要保密； spill the beans 則會立即帶出這層意思。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Express Carelessness or Broken Trust",
+        "titleZh": "可以表達不小心或辜負信任",
+        "en": "The second sentence carries a clearer negative judgement.",
+        "zh": "他把原本應該保密的消息洩露了。 第二句帶有較明顯的負面評價。",
+        "examples": [
+          {
+            "en": "He spilled the beans.",
+            "zh": "他把原本應該保密的消息洩露了。",
+            "highlight": "spilled the beans"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful in Interviews and Friendly Questions",
+        "titleZh": "適合訪問及朋友之間追問消息",
+        "en": "The expression makes the request sound informal and lively.",
+        "zh": "這個表達令追問秘密的語氣更加口語化及生動。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Adds Variety but Is Not Always Better",
+        "titleZh": "增加表達變化，但並非任何時候都更好",
+        "en": "In informal conversation, spill the beans may sound more natural and memorable.",
+        "zh": "在正式報告中，reveal confidential information 可能更加準確； 在非正式對話中，spill the beans 則可能更加自然。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact Origin Unknown",
+      "statusZh": "逐漸形成；確切來源不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "English in the early twentieth century. Early examples found by Merriam-Webster used it in sport to mean spoiling or upsetting an expected result. By 1911, it was being used in a context much closer to revealing information.",
+          "zh": "為何成為這個表達的一部分，確切原因仍然不明。 一個流行說法把它與古希臘使用不同顏色豆子投票的方式連繫起來，但可靠語言證據並未證實這個解釋。 這個表達在二十世紀初的美式英語中出現。 早期例子曾在體育語境中表示破壞原有結果； 到了 1911 年，其用法已較接近今天的 「透露消息」。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The older idea of upsetting or spoiling a situation gradually became connected with revealing information that changed or ruined a plan. At the same time, spill had long been capable of meaning letting information out. Together, these ideas produced the modern meaning of revealing a secret, often too early or carelessly.",
+          "zh": "較早期的「破壞局面」意思，逐漸與透露消息、令原有計劃受到影響或破壞連繫起來。 同時，spill 早已有「把消息說出來」的比喻用法。 這些意思最終形成今天的「洩露秘密」，而且往往帶有過早公開或不小心的語氣。"
+        }
+      ],
+      "memoryEn": "When the beans fall out, they cannot easily be hidden again. When a secret is revealed, it cannot easily become secret again.",
+      "memoryZh": "豆子倒出來後，很難重新藏起來；秘密說出來後，也很難再次變回秘密。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “the Beans” Fixed",
+        "titleZh": "規則一：the beans 必須保持不變",
+        "en": "Keep “the Beans” Fixed",
+        "zh": "the beans 必須保持不變",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Spill”, Not “the Beans”",
+        "titleZh": "規則二：只改變 spill，不改變 the beans",
+        "en": "Change “Spill”, Not “the Beans”",
+        "zh": "只改變 spill，不改變 the beans",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "“About”, “On” and “To” Are Optional",
+        "titleZh": "規則三：about、on 及 to 均屬可選部分",
+        "en": "Do not teach spill the beans about as though about were permanently fixed inside the idiom.",
+        "zh": "妮娜說漏嘴了。 不要把 spill the beans about 當作不可分割的完整慣用語教授。",
+        "examples": [
+          {
+            "en": "Nina spilled the beans.",
+            "zh": "妮娜說漏嘴了。",
+            "highlight": "spilled the beans"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It Only for Information That Was Not",
+        "titleZh": "規則四：只用於原本不應公開的消息",
+        "en": "Supposed to Be Public If the lesson time is already public, no secret has been revealed.",
+        "zh": "只用於原本不應公開的消息 Suitable: 他洩露了驚喜派對的地點。 如果上課時間本來已經公開，便不適合使用 spill the beans。",
+        "examples": [
+          {
+            "en": "He spilled the beans about the surprise-party location.",
+            "zh": "他洩露了驚喜派對的地點。",
+            "highlight": "spilled the beans"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "The Person Who Reveals the Secret Must Remain",
+        "titleZh": "規則五：洩密者不可改變",
+        "en": "the Same The incorrect answer reverses the actor and recipient.",
+        "zh": "錯誤答案把洩密者和接收消息的人倒轉了。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Whether the Revelation Was Accidental",
+        "titleZh": "規則六：保留有意或無意的語氣",
+        "en": "or Deliberate Do not remove accidentally when it affects the speaker’s judgement.",
+        "zh": "他意外提到餐廳，因而說漏了嘴。 如果 accidentally 會影響說話者對事件的判斷，便不可刪除。",
+        "examples": [
+          {
+            "en": "He accidentally spilled the beans by mentioning the restaurant.",
+            "zh": "他意外提到餐廳，因而說漏了嘴。",
+            "highlight": "spilled the beans"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Negation and Modality",
+        "titleZh": "規則七：保留否定及情態",
+        "en": "The second answer changes a possibility into a completed event.",
+        "zh": "第二個答案把可能發生的事情變成已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Repeat the Idiom’s Meaning",
+        "titleZh": "規則八：不要重複慣用語已表達的意思",
+        "en": "The idiom must replace the longer explanation rather than stand beside it.",
+        "zh": "里奧洩露了驚喜安排。 慣用語應取代較長的意思解釋，而不是放在相同解釋旁邊。",
+        "examples": [
+          {
+            "en": "Leo spilled the beans about the surprise.",
+            "zh": "里奧洩露了驚喜安排。",
+            "highlight": "spilled the beans"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Confuse It with a Literal Accident",
+        "titleZh": "規則九：不要與字面上的倒瀉豆子混淆",
+        "en": "The exercise uses only the figurative meaning.",
+        "zh": "袋子破了，艾娃把豆子倒瀉了一地。 艾娃洩露了派對的秘密。 本練習只教授比喻意思。",
+        "examples": [
+          {
+            "en": "The bag broke, and Ava spilled the beans across the floor.",
+            "zh": "袋子破了，艾娃把豆子倒瀉了一地。",
+            "highlight": "spilled the beans"
+          },
+          {
+            "en": "Ava spilled the beans about the party.",
+            "zh": "艾娃洩露了派對的秘密。",
+            "highlight": "spilled the beans"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Confuse It with “Spill Your Guts”",
+        "titleZh": "規則十：不要與 spill your guts 混淆",
+        "en": "reveal secret or hidden information tell somebody a great deal about your personal feelings or experiences",
+        "zh": "洩露秘密或尚未公開的消息把自己的感受或經歷全部說出來",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "“Spill the Tea” Is Not This Exercise’s Target",
+        "titleZh": "規則十一：spill the tea 並非本練習的目標",
+        "en": "spill the beans",
+        "zh": "雖然 spill the tea 是相關非正式表達，但本練習的所有答案都必須使用 spill the beans。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Use It Naturally, Not for Every Act of Speaking",
+        "titleZh": "規則十二：自然使用，不可用於所有「說話」情境",
+        "en": "1. information is secret or private; 2. the information becomes known; 3. somebody was not supposed to reveal it; 4. the revelation affects a surprise, plan or private matter.",
+        "zh": "如果只是分享普通資料、回答公開問題或重複人人已知的消息，使用 tell、say、explain 或 announce 通常更加自然。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using spill the beans.",
+      "zh": "使用 spill the beans 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-120-q01",
+        "number": 1,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Ava told Daniel about the surprise party before Friday.",
+        "promptZh": "艾娃在星期五前把驚喜派對的消息告訴了丹尼爾。",
+        "starter": "Ava",
+        "answer": "Ava spilled the beans about the surprise party to Daniel before Friday.",
+        "answerZh": "艾娃在星期五前向丹尼爾洩露了驚喜派對的消息。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q02",
+        "number": 2,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Ben revealed the baby’s name to his friends before the parents announced it.",
+        "promptZh": "本在孩子父母公布前，向朋友透露了嬰兒的名字。",
+        "starter": "Ben",
+        "answer": "Ben spilled the beans about the baby’s name to his friends before the parents announced it.",
+        "answerZh": "本在孩子父母公布前，向朋友透露了嬰兒的名字。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q03",
+        "number": 3,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Chloe told her classmates about the teacher’s plan for the school show.",
+        "promptZh": "克洛伊向同學透露了老師為學校表演所作的安排。",
+        "starter": "Chloe",
+        "answer": "Chloe spilled the beans about the teacher’s plan for the school show to her classmates.",
+        "answerZh": "克洛伊向同學洩露了老師為學校表演所作的安排。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q04",
+        "number": 4,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Leo announced the winner before the ceremony.",
+        "promptZh": "里奧在典禮前公開了得獎者。",
+        "starter": "Before",
+        "answer": "Before the ceremony, Leo spilled the beans about the winner.",
+        "answerZh": "在典禮前，里奧已透露得獎者。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q05",
+        "number": 5,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Nina accidentally mentioned the holiday destination to the children.",
+        "promptZh": "妮娜意外向孩子提到了度假地點。",
+        "starter": "Without",
+        "answer": "Without meaning to, Nina spilled the beans about the holiday destination to the children.",
+        "answerZh": "妮娜無意中向孩子洩露了度假地點。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q06",
+        "number": 6,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Oscar told everyone what the birthday gift was.",
+        "promptZh": "奧斯卡把生日禮物是甚麼告訴了所有人。",
+        "starter": "Oscar",
+        "answer": "Oscar spilled the beans about the birthday gift to everyone.",
+        "answerZh": "奧斯卡把生日禮物的秘密告訴了所有人。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q07",
+        "number": 7,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Sophie revealed the date of the band’s new song online.",
+        "promptZh": "蘇菲在網上透露了樂隊新歌的推出日期。",
+        "starter": "Sophie",
+        "answer": "Sophie spilled the beans about the band’s new song date online.",
+        "answerZh": "蘇菲在網上透露了樂隊新歌的推出日期。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q08",
+        "number": 8,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Ethan told the rival team about his team’s practice plan.",
+        "promptZh": "伊森把自己球隊的練習計劃告訴了對手。",
+        "starter": "Ethan",
+        "answer": "Ethan spilled the beans about his team’s practice plan to the rival team.",
+        "answerZh": "伊森把自己球隊的練習計劃洩露給對手。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q09",
+        "number": 9,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Grace told people the special ingredient in the café’s recipe.",
+        "promptZh": "格蕾絲把咖啡店食譜中的特別材料告訴了別人。",
+        "starter": "Grace",
+        "answer": "Grace spilled the beans about the special ingredient in the café’s recipe.",
+        "answerZh": "格蕾絲洩露了咖啡店食譜中的特別材料。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q10",
+        "number": 10,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Ryan revealed the office move before the company sent its official message.",
+        "promptZh": "賴恩在公司發出正式消息前透露了搬遷辦公室的安排。",
+        "starter": "Ryan",
+        "answer": "Ryan spilled the beans about the office move before the company sent its official message.",
+        "answerZh": "賴恩在公司發出正式消息前透露了搬遷辦公室的安排。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q11",
+        "number": 11,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Marcus often reveals the group’s private plans.",
+        "promptZh": "馬庫斯經常洩露小組的私人計劃。",
+        "starter": "Marcus",
+        "answer": "Marcus often spills the beans about the group’s private plans.",
+        "answerZh": "馬庫斯經常洩露小組的私人計劃。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spills the beans"
+      },
+      {
+        "id": "idiom-120-q12",
+        "number": 12,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Ella is just about to reveal the party theme.",
+        "promptZh": "艾拉正準備說出派對主題。",
+        "starter": "Ella",
+        "answer": "Ella is about to spill the beans about the party theme.",
+        "answerZh": "艾拉正準備說出派對主題。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q13",
+        "number": 13,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The design team has already revealed the name of the new app.",
+        "promptZh": "設計團隊已經公開了新應用程式的名稱。",
+        "starter": "The",
+        "answer": "The design team has already spilled the beans about the new app’s name.",
+        "answerZh": "設計團隊已經透露了新應用程式的名稱。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q14",
+        "number": 14,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Aaron had revealed the result before the head teacher arrived.",
+        "promptZh": "校長到達前，亞倫已經透露了結果。",
+        "starter": "Before",
+        "answer": "Before the head teacher arrived, Aaron had spilled the beans about the result.",
+        "answerZh": "校長到達前，亞倫已經透露了結果。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q15",
+        "number": 15,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Ruby may reveal the ending if you ask her.",
+        "promptZh": "如果你問露比，她可能會說出結局。",
+        "starter": "Ruby",
+        "answer": "Ruby may spill the beans about the ending if you ask her.",
+        "answerZh": "如果你問露比，她可能會說出結局。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q16",
+        "number": 16,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "I will not reveal the surprise.",
+        "promptZh": "我不會洩露這個驚喜。",
+        "starter": "I",
+        "answer": "I will not spill the beans about the surprise.",
+        "answerZh": "我不會洩露這個驚喜。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q17",
+        "number": 17,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "We must not tell customers about the new price yet.",
+        "promptZh": "我們暫時絕對不能向顧客透露新價格。",
+        "starter": "We",
+        "answer": "We must not spill the beans about the new price to customers yet.",
+        "answerZh": "我們暫時絕對不能向顧客透露新價格。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q18",
+        "number": 18,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Noah promised that he would not reveal the proposal.",
+        "promptZh": "諾亞答應不會透露這項提議。",
+        "starter": "Noah",
+        "answer": "Noah promised not to spill the beans about the proposal.",
+        "answerZh": "諾亞答應不會透露這項提議。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q19",
+        "number": 19,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The actor refused to tell the reporter any private details about the new film.",
+        "promptZh": "演員拒絕向記者透露新電影的任何私人資料。",
+        "starter": "The",
+        "answer": "The actor refused to spill the beans to the reporter about the new film.",
+        "answerZh": "演員拒絕向記者透露新電影的內情。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q20",
+        "number": 20,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The reporter tried to persuade the singer to reveal the city of her next concert.",
+        "promptZh": "記者企圖說服歌手透露下一場演唱會在哪個城市舉行。",
+        "starter": "The",
+        "answer": "The reporter tried to get the singer to spill the beans about the city of her next concert.",
+        "answerZh": "記者企圖令歌手透露下一場演唱會在哪個城市舉行。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q21",
+        "number": 21,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: You know who the new captain is. Please tell us. B: I promised to keep it secret.",
+        "promptZh": "甲：你知道新隊長是誰，告訴我們吧。 乙：我答應過要保守秘密。",
+        "starter": "Come",
+        "answer": "Come on, spill the beans—who is the new captain?",
+        "answerZh": "來吧，把秘密說出來——誰是新隊長？",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q22",
+        "number": 22,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Someone revealed the surprise plan. Ask who did it.",
+        "promptZh": "有人洩露了驚喜計劃。請詢問是誰做的。",
+        "starter": "Who",
+        "answer": "Who spilled the beans about the surprise plan?",
+        "answerZh": "是誰洩露了驚喜計劃？",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q23",
+        "number": 23,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Do not tell Grandma and Grandpa about our visit.",
+        "promptZh": "不要把我們探望他們的安排告訴祖父母。",
+        "starter": "Don’t",
+        "answer": "Don’t spill the beans to Grandma and Grandpa about our visit.",
+        "answerZh": "不要向祖父母洩露我們探望他們的安排。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q24",
+        "number": 24,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Ask whether Oliver told the class the answer.",
+        "promptZh": "請詢問奧利弗有沒有把答案告訴全班。",
+        "starter": "Did",
+        "answer": "Did Oliver spill the beans about the answer to the class?",
+        "answerZh": "奧利弗有沒有把答案透露給全班？",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q25",
+        "number": 25,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Priya admitted that she had revealed the meeting place.",
+        "promptZh": "普麗雅承認自己透露了會面地點。",
+        "starter": "Priya",
+        "answer": "Priya admitted spilling the beans about the meeting place.",
+        "answerZh": "普麗雅承認自己透露了會面地點。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilling the beans"
+      },
+      {
+        "id": "idiom-120-q26",
+        "number": 26,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Jacob denied telling the journalist about the project.",
+        "promptZh": "雅各否認曾向記者透露項目消息。",
+        "starter": "Jacob",
+        "answer": "Jacob denied spilling the beans to the journalist about the project.",
+        "answerZh": "雅各否認曾向記者透露項目消息。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilling the beans"
+      },
+      {
+        "id": "idiom-120-q27",
+        "number": 27,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "We successfully avoided revealing the guest’s name.",
+        "promptZh": "我們成功避免透露嘉賓的名字。",
+        "starter": "We",
+        "answer": "We avoided spilling the beans about the guest’s name.",
+        "answerZh": "我們避免透露嘉賓的名字。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilling the beans"
+      },
+      {
+        "id": "idiom-120-q28",
+        "number": 28,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Check with the teacher before revealing the result.",
+        "promptZh": "在透露結果前，先向老師確認。",
+        "starter": "Before",
+        "answer": "Before spilling the beans about the result, check with the teacher.",
+        "answerZh": "在透露結果前，先向老師確認。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilling the beans"
+      },
+      {
+        "id": "idiom-120-q29",
+        "number": 29,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Clara described the event but did not reveal the winner.",
+        "promptZh": "克拉拉介紹了活動，但沒有透露得獎者。",
+        "starter": "Clara",
+        "answer": "Clara described the event without spilling the beans about the winner.",
+        "answerZh": "克拉拉介紹了活動，但沒有透露得獎者。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilling the beans"
+      },
+      {
+        "id": "idiom-120-q30",
+        "number": 30,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Liam said, “See you at the beach,” and accidentally revealed where the class was going.",
+        "promptZh": "利亞姆說：「海灘見。」結果意外透露了全班將前往的地點。",
+        "starter": "By",
+        "answer": "By saying, “See you at the beach,” Liam accidentally spilled the beans about the class trip.",
+        "answerZh": "利亞姆說「海灘見」，因而意外洩露了班級旅行的地點。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q31",
+        "number": 31,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Although Zara had promised to keep the engagement private, she told her aunt about it.",
+        "promptZh": "雖然扎拉曾答應不公開訂婚消息，但她仍把事情告訴了姨母。",
+        "starter": "Although",
+        "answer": "Although Zara had promised to keep the engagement private, she spilled the beans about it to her aunt.",
+        "answerZh": "雖然扎拉曾答應不公開訂婚消息，但她仍向姨母透露了此事。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q32",
+        "number": 32,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The company would announce the news the next day, so Paul refused to reveal it.",
+        "promptZh": "公司將於翌日公布消息，因此保羅拒絕提前透露。",
+        "starter": "Because",
+        "answer": "Because the company would announce the news the next day, Paul refused to spill the beans about it.",
+        "answerZh": "由於公司將於翌日公布消息，保羅拒絕提前透露。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q33",
+        "number": 33,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Hannah revealed the prize and then apologised to the organiser.",
+        "promptZh": "漢娜透露了獎品，其後向主辦人道歉。",
+        "starter": "After",
+        "answer": "After spilling the beans about the prize, Hannah apologised to the organiser.",
+        "answerZh": "漢娜透露獎品後，向主辦人道歉。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilling the beans"
+      },
+      {
+        "id": "idiom-120-q34",
+        "number": 34,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "If you reveal the date, the surprise will be ruined.",
+        "promptZh": "如果你說出日期，這個驚喜便會被破壞。",
+        "starter": "If",
+        "answer": "If you spill the beans about the date, the surprise will be ruined.",
+        "answerZh": "如果你說出日期，這個驚喜便會被破壞。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q35",
+        "number": 35,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The winner’s name will remain secret until Friday unless somebody reveals it.",
+        "promptZh": "除非有人洩露消息，否則得獎者的名字會保密至星期五。",
+        "starter": "Unless",
+        "answer": "Unless someone spills the beans about the winner’s name, it will remain a secret until Friday.",
+        "answerZh": "除非有人洩露得獎者的名字，否則消息會保密至星期五。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spills the beans"
+      },
+      {
+        "id": "idiom-120-q36",
+        "number": 36,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "I was going to reveal the plan, but I stopped when the manager entered.",
+        "promptZh": "我正準備透露計劃，但經理進來時我便停下來。",
+        "starter": "I",
+        "answer": "I was about to spill the beans about the plan, but I stopped when the manager entered.",
+        "answerZh": "我正準備透露計劃，但經理進來時我便停下來。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q37",
+        "number": 37,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "During the interview, the host encouraged the chef to reveal the special ingredient.",
+        "promptZh": "在訪問中，主持人鼓勵廚師透露特別材料。",
+        "starter": "During",
+        "answer": "During the interview, the host encouraged the chef to spill the beans about the special ingredient.",
+        "answerZh": "在訪問中，主持人鼓勵廚師透露特別材料。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q38",
+        "number": 38,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Lucas’s friends persuaded him to reveal where he planned to propose.",
+        "promptZh": "盧卡斯的朋友說服他透露打算在哪裏求婚。",
+        "starter": "Lucas’s",
+        "answer": "Lucas’s friends persuaded him to spill the beans about where he planned to propose.",
+        "answerZh": "盧卡斯的朋友說服他透露打算在哪裏求婚。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q39",
+        "number": 39,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Ask what caused the person to tell the others about your plan.",
+        "promptZh": "請詢問是甚麼令那個人把你們的計劃告訴其他人。",
+        "starter": "What",
+        "answer": "What made you spill the beans about our plan to them?",
+        "answerZh": "是甚麼令你把我們的計劃告訴他們？",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q40",
+        "number": 40,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "One member of the student team revealed the new school rule before its announcement.",
+        "promptZh": "學生團隊的一名成員在正式公布前透露了新校規。",
+        "starter": "The",
+        "answer": "The person who spilled the beans about the new school rule was a member of the student team.",
+        "answerZh": "洩露新校規的人是學生團隊的一名成員。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q41",
+        "number": 41,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Employees have been told not to reveal the new product before Monday.",
+        "promptZh": "員工已被告知星期一前不可透露新產品的消息。",
+        "starter": "Until",
+        "answer": "Until Monday, employees must avoid spilling the beans about the new product.",
+        "answerZh": "星期一前，員工必須避免洩露新產品的消息。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilling the beans"
+      },
+      {
+        "id": "idiom-120-q42",
+        "number": 42,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Reporters asked the nurse about the actor’s visit, but she refused to reveal it.",
+        "promptZh": "記者向護士查問該演員到訪醫院的消息，但她拒絕透露。",
+        "starter": "Even",
+        "answer": "Even when reporters asked, the nurse refused to spill the beans about the actor’s visit.",
+        "answerZh": "即使記者追問，護士仍拒絕透露該演員到訪醫院的消息。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q43",
+        "number": 43,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "An email was sent too early and revealed the competition winner before the school assembly.",
+        "promptZh": "一封電郵過早發出，在學校集會前公開了比賽得獎者。",
+        "starter": "The",
+        "answer": "The early email spilled the beans about the competition winner before the school assembly.",
+        "answerZh": "過早發出的電郵在學校集會前公開了比賽得獎者。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q44",
+        "number": 44,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A photograph of the menu revealed the restaurant’s new dish before opening day.",
+        "promptZh": "一張餐牌照片在開業日前公開了餐廳的新菜式。",
+        "starter": "A",
+        "answer": "A photograph of the menu spilled the beans about the restaurant’s new dish before opening day.",
+        "answerZh": "一張餐牌照片在開業日前公開了餐廳的新菜式。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q45",
+        "number": 45,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Dad nearly revealed the family trip, but he changed the subject in time.",
+        "promptZh": "爸爸差點透露了家庭旅行的安排，但及時轉換了話題。",
+        "starter": "Dad",
+        "answer": "Dad nearly spilled the beans about the family trip, but he changed the subject in time.",
+        "answerZh": "爸爸差點透露了家庭旅行的安排，但及時轉換了話題。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q46",
+        "number": 46,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The club leader believed that somebody had revealed the plan, but she had no proof.",
+        "promptZh": "會所負責人相信有人洩露了計劃，但她沒有證據。",
+        "starter": "The",
+        "answer": "The club leader believed that somebody had spilled the beans about the plan, but she had no proof.",
+        "answerZh": "會所負責人相信有人洩露了計劃，但她沒有證據。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q47",
+        "number": 47,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The city leader would not reveal details of the new park until the plan was ready.",
+        "promptZh": "在計劃準備好前，市內主管不肯透露新公園的詳情。",
+        "starter": "The",
+        "answer": "The city leader would not spill the beans about the new park until the plan was ready.",
+        "answerZh": "在計劃準備好前，市內主管不肯透露新公園的詳情。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q48",
+        "number": 48,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A message saying, “I can’t wait to see you in Paris,” accidentally revealed the holiday destination.",
+        "promptZh": "一則寫着「我很期待在巴黎見到你」的訊息，意外透露了度假地點。",
+        "starter": "The",
+        "answer": "The message accidentally spilled the beans about the holiday destination.",
+        "answerZh": "那則訊息意外洩露了度假地點。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      },
+      {
+        "id": "idiom-120-q49",
+        "number": 49,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Even if the interviewer asks, the singer will not reveal the new album’s title.",
+        "promptZh": "即使訪問者追問，歌手也不會透露新專輯的名稱。",
+        "starter": "Even",
+        "answer": "Even if the interviewer asks, the singer will not spill the beans about the new album’s title.",
+        "answerZh": "即使訪問者追問，歌手也不會透露新專輯的名稱。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spill the beans"
+      },
+      {
+        "id": "idiom-120-q50",
+        "number": 50,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The director says the assistant told the newspaper the shop’s opening date. However, three employees knew the date, so the director should first discover who really revealed it.",
+        "promptZh": "總監說助理把店舖開業日期告訴了報章。不過，有三名員工知道該日期，因此總監應先查明真正洩露消息的人。",
+        "starter": "Before",
+        "answer": "Before accusing the assistant, the director should find out who actually spilled the beans about the shop’s opening date to the newspaper.",
+        "answerZh": "在指責助理前，總監應先查明真正向報章洩露店舖開業日期的人。",
+        "targetForm": "spill the beans",
+        "targetMeaning": "To reveal information that was supposed to remain secret or private.",
+        "highlight": "spilled the beans"
+      }
+    ]
+  }
+}

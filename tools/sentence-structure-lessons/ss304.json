@@ -1,0 +1,1245 @@
+{
+  "id": "ss304",
+  "order": 304,
+  "slug": "who-would-have-thought-that-clause",
+  "title": "「Who would have thought that + clause?」表達意想不到的結果",
+  "titleZh": "「Who would have thought that + clause?」表達意想不到的結果",
+  "titleEn": "Using “Who would have thought that + clause?”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence structure 303 -「Who would have thought that + clause_」表達意想不到的結果.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sha256": "e796c81c94594f230c85b87a67e8500f62862ea3c6c0d0d3c0f597e59ffc162f",
+    "sourceNumber": 303,
+    "systemOrder": 304,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 303 maps to ss304: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Who + would + have + thought + that + complete clause?",
+  "formulas": [
+    {
+      "id": "ss304-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Who + would + have + thought + that + complete clause?"
+    }
+  ],
+  "example": "Who would have thought that such a small idea could become so successful?",
+  "exampleZh": "誰會想到這麼小的一個構思竟然可以變得如此成功？",
+  "examples": [
+    {
+      "id": "ss304-example-01",
+      "en": "Who would have thought that such a small idea could become so successful?",
+      "zh": "誰會想到這麼小的一個構思竟然可以變得如此成功？",
+      "highlight": "Who would have thought that such a small idea could become so successful?"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss304-rule-01",
+      "zh": "固定部分必須使用：【Who + would + have + thought；Who would have thought that the small shop would become so popular?】 誰會想到這間小店竟然會變得如此受歡迎？ 在 have 後面必須使用過去分詞 thought。",
+      "en": "The fixed expression begins with “Who would have thought” Who + would + have + thought Who would have thought that the small shop would become so popular? Who would thought that the small shop would become so popular? Who would have think that the small shop would become so popular? After have, use the past participle thought.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss304-rule-02",
+      "zh": "在【That】後面必須接完整子句，包括主語和動詞。誰會想到這個計劃竟然會成功？",
+      "en": "“That” must be followed by a complete clause Who would have thought that the plan would work? The clause is: the plan + would work",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss304-rule-03",
+      "zh": "在【That】後面的子句可以根據意思使用不同時態。誰會想到這部舊電腦現在仍然可以運作？ 誰會想到這支隊伍竟然勝出了比賽？ 誰會想到這支隊伍後來竟然會勝出比賽？ 誰會想到這個小鎮竟然已經有這麼大的改變？",
+      "en": "The clause may use different tenses Present situation: Who would have thought that the old computer still works? Past result: Who would have thought that the team won the competition? Future result viewed from the past: Who would have thought that the team would win the competition? Present perfect: Who would have thought that the town has changed so much?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss304-rule-04",
+      "zh": "誰會想到這個構思後來竟然會成功？ 詞語【Would】表示後來實際出現的意外結果。誰會想到這麼簡單的構思竟然可以成功？ 以【Could】為例：強調這種可能性本身令人意想不到。",
+      "en": "“Would” and “could” inside the clause have different meanings Who would have thought that the idea would succeed? Would describes the unexpected result that later happened. Who would have thought that such a simple idea could succeed? Could emphasises that the possibility itself is surprising.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss304-rule-05",
+      "zh": "你可以在核心句型前加入時間、背景或從屬子句。當時，誰會想到這個構思後來竟然會成功？ 現在回想起來，誰會想到這個構思後來竟然會成功？ 項目開始時，誰會想到它後來竟然會如此成功？ 然而，誰會想到這個構思後來竟然會成功？ 和 Yet 都不是固定句型的一部分。",
+      "en": "Introductory expressions are optional You may place a time phrase, background phrase or dependent clause before the core expression. At the time, who would have thought that the idea would succeed? Looking back, who would have thought that the idea would succeed? When the project began, who would have thought that it would become so successful? Yet who would have thought that the idea would succeed? The expressions At the time, Looking back, When the project began and Yet are not part of the fixed expression. At the time, Looking back, When the project began",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss304-rule-06",
+      "zh": "誰又會想到這個構思竟然會變得如此成功？ 不過，ever 只是可選的加強詞，本練習不要求使用。",
+      "en": "“Ever” is an optional intensifier You may sometimes add ever to make the surprise stronger: Who would ever have thought that the idea would become so successful? However, ever is optional and is not required in this exercise.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss304-rule-07",
+      "zh": "說話者通常知道這個結果是大家都沒有預料到的。這句通常不是要求別人提供一個人名，而是表示：【It was extremely surprising that the quietest student won.】 最安靜的學生竟然勝出辯論，實在令人意想不到。",
+      "en": "It is normally a rhetorical question The speaker usually knows that nobody expected the result. Who would have thought that the quietest student would win the debate? It was extremely surprising that the quietest student won.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss304-rule-08",
+      "zh": "由於這個句型採用問句形式，句末通常使用問號。誰會想到這座舊建築竟然會變成酒店？",
+      "en": "Use a question mark Because the expression has the form of a question, it normally ends with a question mark. Who would have thought that the old building would become a hotel?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss304-benefit-01",
+      "zh": "自然地表達強烈驚訝這個句型讓你自然地表示某個事實或結果完全出乎意料。誰會想到這間小企業竟然會變得如此成功？",
+      "en": "It expresses strong surprise naturally This structure gives you a natural way to show that a fact or result was completely unexpected. Instead of: Nobody expected the small business to become successful. Its success was surprising. You can say: Who would have thought that the small business would become so successful?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss304-benefit-02",
+      "zh": "把以前的預期和後來的結果連接起來這個句型能把人們以前的想法和後來實際發生的結果放在一起比較。起初，這個計劃似乎不切實際。誰會想到它後來竟然會如此成功？",
+      "en": "It connects an earlier expectation with the actual result The structure helps you contrast what people believed before with what actually happened later. At first, the plan seemed unrealistic. Who would have thought that it would work so well?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss304-benefit-03",
+      "zh": "製造吸引讀者或聽眾的開場以這個反問句開始，可以吸引讀者或聽眾留意接下來的意外發展。誰會想到一個普通的學校項目竟然可以改變整個社區？ 這種開場適合用於故事、演說、簡報和反思文章。",
+      "en": "It creates an engaging opening Beginning with this rhetorical question can attract attention because the reader naturally wants to discover what surprising event happened. Who would have thought that an ordinary school project could change an entire community? This is useful in stories, speeches, presentations and reflective writing.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss304-benefit-04",
+      "zh": "幫助你回顧事情的轉變你可以配合 Looking back、At the time 和 Years ago 等表達，比較過去和現在。現在回想起來，誰會想到我們的小型會社竟然會發展成全國性組織？",
+      "en": "It helps you reflect on change You can combine it with phrases such as Looking back, At the time and Years ago to compare the past with the present. Looking back, who would have thought that our small club would grow into a national organisation?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss304-benefit-05",
+      "zh": "在不顯得咄咄逼人的情況下挑戰固有想法這個句型可以指出以前的看法並不正確，但不需要直接責怪持有該看法的人。誰會想到較便宜的方法竟然可以同樣有效？",
+      "en": "It can challenge an assumption without sounding aggressive The structure can show that an earlier assumption was wrong without directly blaming the people who held it. Who would have thought that the cheaper method could be just as effective?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 303 maps to ss304: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using:",
+      "Who would have thought that + clause?",
+      "You may place an introductory phrase, time expression, dependent clause or linking word",
+      "before the core expression when appropriate.",
+      "Not every answer begins directly with Who.",
+      "Preserve the original people, events, time, result, degree and meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用以下句型改寫每題：",
+      "Who would have thought that + 完整子句？",
+      "如情況適合，你可以在核心句型前保留或加入題目提供的時間、背景、從屬子句或連接詞。",
+      "並非所有答案都直接以 Who 開始。",
+      "保留原句中的人物、事件、時間、結果、程度和意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss304-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Nobody expected the tiny bakery to become the busiest shop in the neighbourhood.",
+      "promptZh": "沒有人預料到這間小型麵包店會成為區內最繁忙的商店。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the tiny bakery would become the busiest shop in the neighbourhood?",
+      "answerZh": "誰會想到這間小型麵包店竟然會成為區內最繁忙的商店？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the tiny bakery would become the busiest shop in the neighbourhood?"
+    },
+    {
+      "id": "ss304-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Everyone was surprised that this old phone still worked perfectly.",
+      "promptZh": "這部舊電話現在仍然運作良好，令所有人感到驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that this old phone would still work perfectly?",
+      "answerZh": "誰會想到這部舊電話現在仍然可以運作得如此良好？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that this old phone would still work perfectly?"
+    },
+    {
+      "id": "ss304-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Few people expected the quietest student in the class to win the debate.",
+      "promptZh": "很少人預料到班上最安靜的學生會勝出辯論。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the quietest student in the class would win the debate?",
+      "answerZh": "誰會想到班上最安靜的學生竟然會勝出辯論？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the quietest student in the class would win the debate?"
+    },
+    {
+      "id": "ss304-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It was amazing that such a tiny seed grew into a tree taller than the house.",
+      "promptZh": "這麼小的種子竟然長成一棵比房屋更高的樹，實在令人驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that such a tiny seed could grow into a tree taller than the house?",
+      "answerZh": "誰會想到這麼小的種子竟然可以長成一棵比房屋更高的樹？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that such a tiny seed could grow into a tree taller than the house?"
+    },
+    {
+      "id": "ss304-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We did not expect a rainy afternoon to give us our best photographs.",
+      "promptZh": "我們沒有預料到一個下雨的下午會讓我們拍到最好的照片。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that a rainy afternoon could give us our best photographs?",
+      "answerZh": "誰會想到一個下雨的下午竟然可以讓我們拍到最好的照片？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that a rainy afternoon could give us our best photographs?"
+    },
+    {
+      "id": "ss304-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "At first, no one believed that such a simple idea could solve the problem.",
+      "promptZh": "起初，沒有人相信這麼簡單的構思可以解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At first, who would have thought that such a simple idea could solve the problem?",
+      "answerZh": "起初，誰會想到這麼簡單的構思竟然可以解決問題？",
+      "answerZhSource": "pdf",
+      "highlight": "At first, who would have thought that such a simple idea could solve the problem?"
+    },
+    {
+      "id": "ss304-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Years ago, online lessons becoming part of daily life seemed impossible.",
+      "promptZh": "多年前，網上課堂成為日常生活的一部分似乎是不可能的。",
+      "promptZhSource": "pdf",
+      "starter": "Years",
+      "answer": "Years ago, who would have thought that online lessons would become part of daily life?",
+      "answerZh": "多年前，誰會想到網上課堂竟然會成為日常生活的一部分？",
+      "answerZhSource": "pdf",
+      "highlight": "Years ago, who would have thought that online lessons would become part of daily life?"
+    },
+    {
+      "id": "ss304-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Everyone was surprised when the broken chair became a work of art.",
+      "promptZh": "那張破椅子竟然變成一件藝術品，令所有人感到驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the broken chair would become a work of art?",
+      "answerZh": "誰會想到那張破椅子竟然會變成一件藝術品？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the broken chair would become a work of art?"
+    },
+    {
+      "id": "ss304-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "People were amazed that the quiet cat became an internet star.",
+      "promptZh": "那隻安靜的貓竟然成為網絡明星，令人感到驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the quiet cat would become an internet star?",
+      "answerZh": "誰會想到那隻安靜的貓竟然會成為網絡明星？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the quiet cat would become an internet star?"
+    },
+    {
+      "id": "ss304-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When the team began the season, nobody expected them to win the championship.",
+      "promptZh": "球季開始時，沒有人預料到這支隊伍會勝出錦標賽。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the team began the season, who would have thought that they would win the championship?",
+      "answerZh": "球季開始時，誰會想到這支隊伍竟然會勝出錦標賽？",
+      "answerZhSource": "pdf",
+      "highlight": "When the team began the season, who would have thought that they would win the championship?"
+    },
+    {
+      "id": "ss304-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Looking back, no one could have predicted that the shy child would become such a confident speaker.",
+      "promptZh": "現在回想起來，沒有人能預料到那個害羞的孩子會成為如此自信的講者。",
+      "promptZhSource": "pdf",
+      "starter": "Looking",
+      "answer": "Looking back, who would have thought that the shy child would become such a confident speaker?",
+      "answerZh": "現在回想起來，誰會想到那個害羞的孩子竟然會成為如此自信的講者？",
+      "answerZhSource": "pdf",
+      "highlight": "Looking back, who would have thought that the shy child would become such a confident speaker?"
+    },
+    {
+      "id": "ss304-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Few passengers expected the new bus route to become the most popular route in the district.",
+      "promptZh": "很少乘客預料到新巴士路線會成為區內最受歡迎的路線。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the new bus route would become the most popular route in the district?",
+      "answerZh": "誰會想到新巴士路線竟然會成為區內最受歡迎的路線？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the new bus route would become the most popular route in the district?"
+    },
+    {
+      "id": "ss304-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Tests unexpectedly showed that the cheapest material was also the strongest.",
+      "promptZh": "測試出乎意料地顯示，最便宜的材料同時也是最堅固的。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the cheapest material would also be the strongest?",
+      "answerZh": "誰會想到最便宜的材料竟然同時也是最堅固的？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the cheapest material would also be the strongest?"
+    },
+    {
+      "id": "ss304-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At the time, nobody imagined that the two strangers would later become business partners.",
+      "promptZh": "當時，沒有人想像到這兩名陌生人後來會成為生意夥伴。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the time, who would have thought that the two strangers would later become business partners?",
+      "answerZh": "當時，誰會想到這兩名陌生人後來竟然會成為生意夥伴？",
+      "answerZhSource": "pdf",
+      "highlight": "At the time, who would have thought that the two strangers would later become business partners?"
+    },
+    {
+      "id": "ss304-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The old market was expected to close. Today, it is one of the town’s busiest attractions.",
+      "promptZh": "人們原本預期舊市場會結業。今天，它已成為鎮內最繁忙的景點之一。",
+      "promptZhSource": "pdf",
+      "starter": "Today",
+      "answer": "Today, who would have thought that the old market would be one of the town’s busiest attractions?",
+      "answerZh": "今天，誰會想到這個原本可能結業的舊市場竟然會成為鎮內最繁忙的景點之一？",
+      "answerZhSource": "pdf",
+      "highlight": "Today, who would have thought that the old market would be one of the town’s busiest attractions?"
+    },
+    {
+      "id": "ss304-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When Clara first started baking, even her friends doubted that her business would succeed.",
+      "promptZh": "Clara 最初開始烘焙時，連她的朋友也懷疑她的生意能否成功。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When Clara first started baking, who would have thought that her business would become successful?",
+      "answerZh": "Clara 最初開始烘焙時，誰會想到她的生意後來竟然會成功？",
+      "answerZhSource": "pdf",
+      "highlight": "When Clara first started baking, who would have thought that her business would become successful?"
+    },
+    {
+      "id": "ss304-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No one anticipated that a single email would completely change Daniel’s career.",
+      "promptZh": "沒有人預料到一封電郵會徹底改變 Daniel 的事業。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that a single email would completely change Daniel’s career?",
+      "answerZh": "誰會想到一封電郵竟然會徹底改變 Daniel 的事業？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that a single email would completely change Daniel’s career?"
+    },
+    {
+      "id": "ss304-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The song had been forgotten for years, so its return to the charts surprised everyone.",
+      "promptZh": "這首歌曲被遺忘多年，因此它重返排行榜令所有人感到驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "Years",
+      "answer": "Years later, who would have thought that the forgotten song would return to the charts?",
+      "answerZh": "多年後，誰會想到這首被遺忘的歌曲竟然會重返排行榜？",
+      "answerZhSource": "pdf",
+      "highlight": "Years later, who would have thought that the forgotten song would return to the charts?"
+    },
+    {
+      "id": "ss304-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Against all expectations, the smallest school won the regional science competition.",
+      "promptZh": "出乎所有人意料，規模最小的學校勝出了地區科學比賽。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although it was the smallest school, who would have thought that it would win the regional science competition?",
+      "answerZh": "雖然它是規模最小的學校，但誰會想到它竟然會勝出地區科學比賽？",
+      "answerZhSource": "pdf",
+      "highlight": "Although it was the smallest school, who would have thought that it would win the regional science competition?"
+    },
+    {
+      "id": "ss304-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Ten years ago, electric buses travelling along nearly every major road seemed unbelievable.",
+      "promptZh": "十年前，電動巴士行駛於幾乎每條主要道路似乎令人難以置信。",
+      "promptZhSource": "pdf",
+      "starter": "Ten",
+      "answer": "Ten years ago, who would have thought that electric buses would travel along nearly every major road?",
+      "answerZh": "十年前，誰會想到電動巴士竟然會行駛於幾乎每條主要道路？",
+      "answerZhSource": "pdf",
+      "highlight": "Ten years ago, who would have thought that electric buses would travel along nearly every major road?"
+    },
+    {
+      "id": "ss304-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "By the end of its first month, the new app had already attracted one million users. Everyone was astonished.",
+      "promptZh": "在推出後第一個月結束前，這個新應用程式已經吸引了一百萬名用戶。所有人都感到驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of its first month, who would have thought that the new app had already attracted one million users?",
+      "answerZh": "在推出後第一個月結束前，誰會想到這個新應用程式竟然已經吸引了一百萬名用戶？",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of its first month, who would have thought that the new app had already attracted one million users?"
+    },
+    {
+      "id": "ss304-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Even after the first attempt failed, nobody expected the second attempt to succeed so quickly.",
+      "promptZh": "即使第一次嘗試失敗，也沒有人預料到第二次嘗試會如此迅速成功。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after the first attempt failed, who would have thought that the second attempt would succeed so quickly?",
+      "answerZh": "即使第一次嘗試失敗，誰會想到第二次嘗試竟然會如此迅速成功？",
+      "answerZhSource": "pdf",
+      "highlight": "Even after the first attempt failed, who would have thought that the second attempt would succeed so quickly?"
+    },
+    {
+      "id": "ss304-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The doctors were surprised that the patient recovered so rapidly.",
+      "promptZh": "病人康復得如此迅速，令醫生感到驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the patient would recover so rapidly?",
+      "answerZh": "誰會想到病人竟然會康復得如此迅速？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the patient would recover so rapidly?"
+    },
+    {
+      "id": "ss304-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "People found it difficult to imagine that such a remote village could produce a world-class athlete.",
+      "promptZh": "人們很難想像這麼偏遠的村莊可以培育出一名世界級運動員。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that such a remote village could produce a world-class athlete?",
+      "answerZh": "誰會想到這麼偏遠的村莊竟然可以培育出一名世界級運動員？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that such a remote village could produce a world-class athlete?"
+    },
+    {
+      "id": "ss304-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At the beginning of the project, nobody expected recycled plastic to become stylish furniture.",
+      "promptZh": "項目開始時，沒有人預料到回收塑膠會變成時尚家具。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the beginning of the project, who would have thought that recycled plastic would become stylish furniture?",
+      "answerZh": "項目開始時，誰會想到回收塑膠竟然會變成時尚家具？",
+      "answerZhSource": "pdf",
+      "highlight": "At the beginning of the project, who would have thought that recycled plastic would become stylish furniture?"
+    },
+    {
+      "id": "ss304-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager expected the new system to slow the staff down. Surprisingly, it increased their efficiency.",
+      "promptZh": "經理原本預期新系統會拖慢員工的工作速度。令人意外的是，它提高了員工的效率。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the new system would increase the staff’s efficiency instead of slowing them down?",
+      "answerZh": "誰會想到新系統不但沒有拖慢員工，反而會提高他們的工作效率？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the new system would increase the staff’s efficiency instead of slowing them down?"
+    },
+    {
+      "id": "ss304-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Before the experiment, few researchers believed that plants could grow so well under artificial light.",
+      "promptZh": "實驗開始前，很少研究人員相信植物可以在人造光下生長得如此良好。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the experiment, who would have thought that plants could grow so well under artificial light?",
+      "answerZh": "實驗開始前，誰會想到植物竟然可以在人造光下生長得如此良好？",
+      "answerZhSource": "pdf",
+      "highlight": "Before the experiment, who would have thought that plants could grow so well under artificial light?"
+    },
+    {
+      "id": "ss304-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "No one imagined that the child who disliked reading would one day write a novel.",
+      "promptZh": "沒有人想像到那個不喜歡閱讀的孩子有一天會寫一本小說。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the child who disliked reading would one day write a novel?",
+      "answerZh": "誰會想到那個不喜歡閱讀的孩子有一天竟然會寫一本小說？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the child who disliked reading would one day write a novel?"
+    },
+    {
+      "id": "ss304-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After so many delays, everyone expected the bridge to open late. Instead, it opened ahead of schedule.",
+      "promptZh": "經歷多次延誤後，所有人都預期大橋會延遲啟用。結果，它竟然提早開放。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After so many delays, who would have thought that the bridge would open ahead of schedule?",
+      "answerZh": "經歷多次延誤後，誰會想到大橋竟然會提早開放？",
+      "answerZhSource": "pdf",
+      "highlight": "After so many delays, who would have thought that the bridge would open ahead of schedule?"
+    },
+    {
+      "id": "ss304-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When the team designed the simple poster, they expected it to attract very little attention. It later spread rapidly across social media.",
+      "promptZh": "團隊設計這張簡單海報時，預期它不會引起太大注意。後來，它迅速在社交媒體上流傳。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the team designed the simple poster, who would have thought that it would spread so rapidly across social media?",
+      "answerZh": "團隊設計這張簡單海報時，誰會想到它竟然會如此迅速地在社交媒體上流傳？",
+      "answerZhSource": "pdf",
+      "highlight": "When the team designed the simple poster, who would have thought that it would spread so rapidly across social media?"
+    },
+    {
+      "id": "ss304-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "What surprised the residents most was that the abandoned station was turned into a busy community centre.",
+      "promptZh": "最令居民驚訝的是，廢棄車站竟然被改建成一個繁忙的社區中心。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the abandoned station would be turned into a busy community centre?",
+      "answerZh": "誰會想到廢棄車站竟然會被改建成一個繁忙的社區中心？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the abandoned station would be turned into a busy community centre?"
+    },
+    {
+      "id": "ss304-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Back then, it seemed impossible that a company with only two employees would one day employ hundreds of people.",
+      "promptZh": "當時，一間只有兩名員工的公司有一天會聘用數百人，似乎是不可能的。",
+      "promptZhSource": "pdf",
+      "starter": "Back",
+      "answer": "Back then, who would have thought that a company with only two employees would one day employ hundreds of people?",
+      "answerZh": "當時，誰會想到一間只有兩名員工的公司有一天竟然會聘用數百人？",
+      "answerZhSource": "pdf",
+      "highlight": "Back then, who would have thought that a company with only two employees would one day employ hundreds of people?"
+    },
+    {
+      "id": "ss304-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Even the engineer did not expect such a simple repair to extend the machine’s life by another ten years.",
+      "promptZh": "連工程師也沒有預料到如此簡單的維修可以把機器的壽命延長十年。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even the engineer would not have thought that such a simple repair could extend the machine’s life by another ten years.",
+      "answerZh": "連工程師也不會想到如此簡單的維修竟然可以把機器的壽命延長十年。",
+      "answerZhSource": "pdf",
+      "highlight": "Even the engineer would not have thought that such a simple repair could extend the machine’s life by another ten years."
+    },
+    {
+      "id": "ss304-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The book had been rejected by several publishers. Nobody imagined that it would become an international bestseller.",
+      "promptZh": "這本書曾被多間出版社拒絕。沒有人想像到它後來會成為國際暢銷書。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the book had been rejected by several publishers, who would have thought that it would become an international bestseller?",
+      "answerZh": "這本書被多間出版社拒絕後，誰會想到它竟然會成為國際暢銷書？",
+      "answerZhSource": "pdf",
+      "highlight": "After the book had been rejected by several publishers, who would have thought that it would become an international bestseller?"
+    },
+    {
+      "id": "ss304-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "No one foresaw that the storm would bring the neighbours together and create a stronger community.",
+      "promptZh": "沒有人預見到這場暴風雨會令鄰居團結起來，建立一個更緊密的社區。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the storm would bring the neighbours together and create a stronger community?",
+      "answerZh": "誰會想到這場暴風雨竟然會令鄰居團結起來，建立一個更緊密的社區？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the storm would bring the neighbours together and create a stronger community?"
+    },
+    {
+      "id": "ss304-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Looking back on the first lesson, the teacher had not expected the weakest class to achieve the best results.",
+      "promptZh": "現在回想第一課時，老師當時沒有預料到能力最弱的班別會取得最好的成績。",
+      "promptZhSource": "pdf",
+      "starter": "Looking",
+      "answer": "Looking back on the first lesson, who would have thought that the weakest class would achieve the best results?",
+      "answerZh": "現在回想第一課時，誰會想到能力最弱的班別竟然會取得最好的成績？",
+      "answerZhSource": "pdf",
+      "highlight": "Looking back on the first lesson, who would have thought that the weakest class would achieve the best results?"
+    },
+    {
+      "id": "ss304-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The old rule was considered essential, but the service improved after the rule was removed.",
+      "promptZh": "人們原本認為舊規則必不可少，但取消規則後，服務反而有所改善。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the old rule was removed, who would have thought that the service would improve?",
+      "answerZh": "取消舊規則後，誰會想到服務竟然會有所改善？",
+      "answerZhSource": "pdf",
+      "highlight": "After the old rule was removed, who would have thought that the service would improve?"
+    },
+    {
+      "id": "ss304-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When the researchers began their study, they did not expect ordinary soil to contain such a rare organism.",
+      "promptZh": "研究人員開始研究時，沒有預料到普通泥土中會含有如此罕見的生物。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the researchers began their study, who would have thought that ordinary soil would contain such a rare organism?",
+      "answerZh": "研究人員開始研究時，誰會想到普通泥土中竟然會含有如此罕見的生物？",
+      "answerZhSource": "pdf",
+      "highlight": "When the researchers began their study, who would have thought that ordinary soil would contain such a rare organism?"
+    },
+    {
+      "id": "ss304-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The song was released without any promotion. Nobody imagined that it would be streamed millions of times.",
+      "promptZh": "這首歌曲在沒有任何宣傳的情況下推出。沒有人想像到它會被播放數百萬次。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the song was released without any promotion, who would have thought that it would be streamed millions of times?",
+      "answerZh": "這首歌曲在沒有任何宣傳的情況下推出時，誰會想到它竟然會被播放數百萬次？",
+      "answerZhSource": "pdf",
+      "highlight": "When the song was released without any promotion, who would have thought that it would be streamed millions of times?"
+    },
+    {
+      "id": "ss304-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "People dismissed the proposal as unrealistic, yet the council later approved it unanimously.",
+      "promptZh": "人們認為這項建議不切實際，但議會後來竟然一致通過它。",
+      "promptZhSource": "pdf",
+      "starter": "Yet",
+      "answer": "Yet who would have thought that the council would approve the supposedly unrealistic proposal unanimously?",
+      "answerZh": "然而，誰會想到議會竟然會一致通過這項被指不切實際的建議？",
+      "answerZhSource": "pdf",
+      "highlight": "Yet who would have thought that the council would approve the supposedly unrealistic proposal unanimously?"
+    },
+    {
+      "id": "ss304-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "At the start of the crisis, nobody expected a small group of local volunteers to build a nationwide support network.",
+      "promptZh": "危機開始時，沒有人預料到一小群本地義工會建立一個全國性的支援網絡。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the start of the crisis, who would have thought that a small group of local volunteers would build a nationwide support network?",
+      "answerZh": "危機開始時，誰會想到一小群本地義工竟然會建立一個全國性的支援網絡？",
+      "answerZhSource": "pdf",
+      "highlight": "At the start of the crisis, who would have thought that a small group of local volunteers would build a nationwide support network?"
+    },
+    {
+      "id": "ss304-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Even though the first prototype looked crude, few people imagined that it would eventually transform the entire industry.",
+      "promptZh": "雖然第一個原型看起來很粗糙，但很少人想像到它最終會改變整個行業。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though the first prototype looked crude, who would have thought that it would eventually transform the entire industry?",
+      "answerZh": "雖然第一個原型看起來很粗糙，但誰會想到它最終竟然會改變整個行業？",
+      "answerZhSource": "pdf",
+      "highlight": "Even though the first prototype looked crude, who would have thought that it would eventually transform the entire industry?"
+    },
+    {
+      "id": "ss304-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Twenty years ago, people would have laughed at the idea of attending important meetings through their phones.",
+      "promptZh": "二十年前，人們可能會嘲笑透過電話參加重要會議這個想法。",
+      "promptZhSource": "pdf",
+      "starter": "Twenty",
+      "answer": "Twenty years ago, who would have thought that people would attend important meetings through their phones?",
+      "answerZh": "二十年前，誰會想到人們竟然會透過電話參加重要會議？",
+      "answerZhSource": "pdf",
+      "highlight": "Twenty years ago, who would have thought that people would attend important meetings through their phones?"
+    },
+    {
+      "id": "ss304-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A single brief conversation unexpectedly developed into a partnership that established a charity helping thousands of families.",
+      "promptZh": "一次簡短的交談出乎意料地發展成一段合作關係，並成立了一間幫助數千個家庭的慈善機構。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From one brief conversation, who would have thought that a partnership would grow into a charity helping thousands of families?",
+      "answerZh": "由一次簡短的交談開始，誰會想到一段合作關係竟然會發展成一間幫助數千個家庭的慈善機構？",
+      "answerZhSource": "pdf",
+      "highlight": "From one brief conversation, who would have thought that a partnership would grow into a charity helping thousands of families?"
+    },
+    {
+      "id": "ss304-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "When the hospital trial began, the researchers did not predict that a simple reminder system would reduce missed appointments by half.",
+      "promptZh": "醫院試驗開始時，研究人員沒有預測到一個簡單的提示系統會把缺席預約的數目減少一半。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the hospital trial began, who would have thought that a simple reminder system would reduce missed appointments by half?",
+      "answerZh": "醫院試驗開始時，誰會想到一個簡單的提示系統竟然會把缺席預約的數目減少一半？",
+      "answerZhSource": "pdf",
+      "highlight": "When the hospital trial began, who would have thought that a simple reminder system would reduce missed appointments by half?"
+    },
+    {
+      "id": "ss304-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The town nearly demolished the old theatre. Today, the restored building is one of its most important cultural landmarks.",
+      "promptZh": "小鎮差點拆卸那座舊劇院。今天，經修復的建築已成為鎮內最重要的文化地標之一。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the town nearly demolished the old theatre, who would have thought that the restored building would become one of its most important cultural landmarks?",
+      "answerZh": "小鎮差點拆卸那座舊劇院時，誰會想到經修復的建築竟然會成為鎮內最重要的文化地標之一？",
+      "answerZhSource": "pdf",
+      "highlight": "When the town nearly demolished the old theatre, who would have thought that the restored building would become one of its most important cultural landmarks?"
+    },
+    {
+      "id": "ss304-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "To everyone’s surprise, the trainee whom the other employees had overlooked eventually became the head of the department.",
+      "promptZh": "令所有人驚訝的是，那名一直被其他員工忽視的實習人員最終成為部門主管。",
+      "promptZhSource": "pdf",
+      "starter": "Among",
+      "answer": "Among all the trainees, who would have thought that the person whom the other employees had overlooked would become the head of the department?",
+      "answerZh": "在所有實習人員之中，誰會想到那名一直被其他員工忽視的人最終竟然會成為部門主管？",
+      "answerZhSource": "pdf",
+      "highlight": "Among all the trainees, who would have thought that the person whom the other employees had overlooked would become the head of the department?"
+    },
+    {
+      "id": "ss304-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After the company lost its largest client, nobody expected the setback to lead to a stronger business model.",
+      "promptZh": "公司失去最大客戶後，沒有人預料到這次挫折會帶來一個更穩健的商業模式。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the company lost its largest client, who would have thought that the setback would lead to a stronger business model?",
+      "answerZh": "公司失去最大客戶後，誰會想到這次挫折竟然會帶來一個更穩健的商業模式？",
+      "answerZhSource": "pdf",
+      "highlight": "After the company lost its largest client, who would have thought that the setback would lead to a stronger business model?"
+    },
+    {
+      "id": "ss304-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The scientist’s original question sounded strange, and nobody expected it to open an entirely new field of research.",
+      "promptZh": "這名科學家最初提出的問題聽起來很奇怪，沒有人預料到它會開創一個全新的研究領域。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who would have thought that the scientist’s strange original question would open an entirely new field of research?",
+      "answerZh": "誰會想到這名科學家最初提出的奇怪問題竟然會開創一個全新的研究領域？",
+      "answerZhSource": "pdf",
+      "highlight": "Who would have thought that the scientist’s strange original question would open an entirely new field of research?"
+    },
+    {
+      "id": "ss304-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Looking back at that ordinary first day, nobody imagined that the students would create a project later adopted by schools across the country.",
+      "promptZh": "現在回想那個平凡的第一天，沒有人想像到學生會創作出一個後來被全國學校採用的項目。",
+      "promptZhSource": "pdf",
+      "starter": "Looking",
+      "answer": "Looking back at that ordinary first day, who would have thought that the students would create a project later adopted by schools across the country?",
+      "answerZh": "現在回想那個平凡的第一天，誰會想到學生竟然會創作出一個後來被全國學校採用的項目？",
+      "answerZhSource": "pdf",
+      "highlight": "Looking back at that ordinary first day, who would have thought that the students would create a project later adopted by schools across the country?"
+    }
+  ]
+}

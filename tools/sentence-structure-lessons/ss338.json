@@ -1,0 +1,1255 @@
+{
+  "id": "ss338",
+  "order": 338,
+  "slug": "x-translates-into-noun",
+  "title": "「X translates into + noun」表示「X 會帶來／轉化為某種結果」",
+  "titleZh": "「X translates into + noun」表示「X 會帶來／轉化為某種結果」",
+  "titleEn": "Using “X translates into + noun”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 336 -「X translates into + noun」表示「X 會帶來／轉化為某種結果」.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sha256": "aabf76578da9aa332162efe2e48dd0c5f280a6c110c12f3ac5f1b0b0c6b3dc4a",
+    "sourceNumber": 336,
+    "systemOrder": 338,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 336 maps to ss338: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Subject + translate(s) into + noun phrase",
+  "formulas": [
+    {
+      "id": "ss338-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Subject + translate(s) into + noun phrase"
+    }
+  ],
+  "example": "Better training usually translates into fewer mistakes.",
+  "exampleZh": "更好的培訓通常會帶來較少錯誤。",
+  "examples": [
+    {
+      "id": "ss338-example-01",
+      "en": "Better training usually translates into fewer mistakes.",
+      "zh": "更好的培訓通常會帶來較少錯誤。",
+      "highlight": "Better training usually translates into fewer mistakes."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss338-rule-01",
+      "zh": "這裏的 translate into 表示「帶來實際結果」更好的培訓會帶來較少錯誤。 這項投資帶來了更高的銷售額。 這個用法常用於談論：改善帶來的成果投資帶來的回報政策帶來的改變資料所反映的實際影響技能在現實環境中的應用抽象概念所產生的具體結果",
+      "en": "Better training translates into fewer mistakes. The investment translated into higher sales.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-rule-02",
+      "zh": "不要與「翻譯語言」的用法混淆語言翻譯：【The translator translated the report into English.】 翻譯員把報告翻譯成英文。 結構：【Subject + translate + object + into + language】 表示實際結果：【Better planning translates into fewer delays.】 更好的規劃會帶來較少延誤。 結構：【Subject + translate into + result】 第二種用法通常沒有直接受詞。",
+      "en": "The translator translated the report into English. Subject + translate + object + into + language Better planning translates into fewer delays. Subject + translate into + result",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-rule-03",
+      "zh": "後面接名詞或名詞短語正確：【translate into fewer mistakes；translate into higher sales；translate into better performance；translate into real progress；translate into practical benefits】 本課不使用完整子句接在 into 後面。避免：【The training translates into employees make fewer mistakes.】 應改為：【The training translates into fewer mistakes.】 培訓會帶來較少錯誤。",
+      "en": "Into translate into fewer mistakes translate into higher sales translate into better performance translate into real progress translate into practical benefits The training translates into employees make fewer mistakes. The training translates into fewer mistakes.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-rule-04",
+      "zh": "主語通常是能夠產生結果的事情常見主語包括：【better training；regular practice；higher costs；improved technology；greater public awareness；a new policy；additional investment；lower prices】 主語不一定是人。它通常是一項改變、行動、條件、政策、投資或抽象概念。",
+      "en": "better training regular practice higher costs improved technology greater public awareness a new policy additional investment lower prices stronger teamwork reliable information",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-rule-05",
+      "zh": "不一定表示結果必然發生說話者可以利用情態動詞和副詞控制語氣。更好的培訓會帶來較少錯誤。 這個說法較肯定。更好的培訓可以帶來較少錯誤。 這個說法表示可能性。更好的培訓通常會帶來較少錯誤。 這個說法表示結果經常發生，但並非每次都必然發生。更好的培訓並不一定每次都會帶來較少錯誤。 這個說法清楚保留限制。",
+      "en": "Translate into Better training translates into fewer mistakes. Better training can translate into fewer mistakes. Better training usually translates into fewer mistakes. Better training does not always translate into fewer mistakes.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-rule-06",
+      "zh": "必須使用 into，而不是 to 正確：【Better service translates into greater customer loyalty.】 錯誤：【Better service translates to greater customer loyalty.】 在本課所教的「帶來實際結果」用法中，使用 translate into。",
+      "en": "Better service translates into greater customer loyalty. Better service translates to greater customer loyalty.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-rule-07",
+      "zh": "其他資料只是可選延伸，不是固定表達的一部分；核心句型是：【X translates into + noun phrase】 完整句子：【More visitors translate into more sales.】 更多訪客會帶來更多銷售。 可以加入額外資料：【For local shops, more visitors often translate into more sales.】 對本地商店而言，更多訪客往往會帶來更多銷售。 長遠而言，更好的習慣可以帶來重大改善。 短語 for local shops 和 over time 只是補充資料，不是固定句型的一部分。一般現在式：定期練習會帶來更大的自信。 一般過去式：較低成本帶來了更高利潤。 完成式：這些改革已帶來更安全的工作環境。 情態動詞：新制度可能會帶來較短的輪候時間。 否定句：額外努力並沒有帶來更好的成果。 疑問句：較高薪金是否一定會帶來更強的工作動力？",
+      "en": "X translates into + noun phrase More visitors translate into more sales. For local shops, more visitors often translate into more sales. Over time, better habits can translate into major improvements. Subject + translate(s) into + noun phrase Regular practice translates into greater confidence. Subject + translated into + noun phrase The lower costs translated into greater profits. Subject + has / have translated into + noun phrase The reforms have translated into safer working conditions. Subject + can / may / might / could / should / will + translate into + noun phrase The new system may translate into shorter waiting times. Subject + does / did not translate into + noun phrase The extra effort did not translate into better results. Does / Can / Will + subject + translate into + noun phrase? Does a higher salary always translate into stronger motivation?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-rule-07a",
+      "zh": "這些改變預計會帶來更好的公共服務。",
+      "en": "Be likely / expected / beginning to Subject + be + likely / expected / beginning + to translate into + noun phrase The changes are expected to translate into better public services.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-rule-08",
+      "zh": "在條件句、讓步句和 whether 從句中如果計劃能帶來實質進展，公眾支持便會增加。",
+      "en": "If X translates into Y,... Although X did not translate into Y,... Whether X translates into Y depends on... If the plan translates into real progress, public support will increase.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-rule-09",
+      "zh": "在關係子句中我們需要能帶來實際好處的改善。",
+      "en": "noun + that / which + translate(s) into + noun phrase We need improvements that translate into real benefits.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss338-benefit-01",
+      "zh": "清楚連接「改變」和「實際結果」這個句型可以把一項行動、政策或改善與它所產生的結果直接連接起來。更好的培訓通常會帶來較少錯誤。 讀者可以立即看出：起因：better training 實際結果：fewer mistakes",
+      "en": "Better training usually translates into fewer mistakes.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-benefit-02",
+      "zh": "把抽象概念變成具體成果有些詞語比較抽象，例如：【investment；awareness；efficiency；training；technology；planning】 使用 translate into，可以說明這些抽象概念在現實中帶來甚麼具體成果。更高效率可以帶來較短的輪候隊伍。 這樣比只說 “Efficiency is important” 更具體。",
+      "en": "investment awareness efficiency training technology planning Greater efficiency can translate into shorter queues.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-benefit-03",
+      "zh": "適合分析、報告和商業寫作這個句型特別適合用於：報告數據分析商業建議簡報學術寫作政策討論工作表現評估例如：【The lower production costs should translate into lower prices for customers.】 較低的生產成本應會為顧客帶來較低價格。 句子清楚說明成本改變會產生甚麼實際影響。",
+      "en": "The lower production costs should translate into lower prices for customers.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-benefit-04",
+      "zh": "幫助控制說法的強弱你可以加入：【can；may；should；often；usually；not always；not necessarily；automatically】 來避免把不確定的結果說成必然事實。更高的公眾意識不會自動帶來行為上的改變。",
+      "en": "can may should often usually not always not necessarily automatically Greater awareness does not automatically translate into changes in behaviour.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss338-benefit-05",
+      "zh": "避免重複使用 lead to 和 result in 不用每次都寫：【leads to；results in；causes；produces】 你可以使用 translate into，增加句式變化。兩句意思相近，但第二句特別強調投資產生了可觀察的實際成果。",
+      "en": "leads to results in causes produces The investment led to higher sales. The investment translated into higher sales.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 336 maps to ss338: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using an appropriate form of translate into.",
+      "You may change the word order, but you must preserve the original meaning, tense, degree of",
+      "certainty and negative meaning.",
+      "The target expression may appear in the main clause, a question, a negative structure, a",
+      "relative clause or another dependent clause.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用適當形式的 translate into 改寫以下句子。",
+      "你可以改變詞序，但必須保留原句的意思、時態、肯定程度和否定意思。",
+      "目標句型可以出現在主要子句、疑問句、否定結構、關係子句或其他從屬子句中。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss338-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Better training usually leads to fewer mistakes.",
+      "promptZh": "更好的培訓通常會帶來較少錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Better",
+      "answer": "Better training usually translates into fewer mistakes.",
+      "answerZh": "更好的培訓通常會帶來較少錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Better training usually translates into fewer mistakes."
+    },
+    {
+      "id": "ss338-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Reading regularly often gives learners a wider vocabulary.",
+      "promptZh": "定期閱讀往往能令學習者掌握更多詞彙。",
+      "promptZhSource": "pdf",
+      "starter": "Regular",
+      "answer": "Regular reading often translates into a wider vocabulary.",
+      "answerZh": "定期閱讀往往會帶來更豐富的詞彙量。",
+      "answerZhSource": "pdf",
+      "highlight": "Regular reading often translates into a wider vocabulary."
+    },
+    {
+      "id": "ss338-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Getting more sleep can improve your concentration.",
+      "promptZh": "睡眠時間增加可以改善你的專注力。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More sleep can translate into better concentration.",
+      "answerZh": "更多睡眠可以帶來更好的專注力。",
+      "answerZhSource": "pdf",
+      "highlight": "More sleep can translate into better concentration."
+    },
+    {
+      "id": "ss338-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Lower prices may lead to higher sales.",
+      "promptZh": "較低價格可能會帶來較高銷售額。",
+      "promptZhSource": "pdf",
+      "starter": "Lower",
+      "answer": "Lower prices may translate into higher sales.",
+      "answerZh": "較低價格可能會帶來較高銷售額。",
+      "answerZhSource": "pdf",
+      "highlight": "Lower prices may translate into higher sales."
+    },
+    {
+      "id": "ss338-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Clear instructions usually help people work faster.",
+      "promptZh": "清晰的指示通常能幫助人們更快完成工作。",
+      "promptZhSource": "pdf",
+      "starter": "Clear",
+      "answer": "Clear instructions usually translate into faster work.",
+      "answerZh": "清晰的指示通常會帶來更高的工作速度。",
+      "answerZhSource": "pdf",
+      "highlight": "Clear instructions usually translate into faster work."
+    },
+    {
+      "id": "ss338-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A shorter journey means that people have more time at home.",
+      "promptZh": "較短的行程意味着人們有更多時間留在家中。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A shorter journey translates into more time at home.",
+      "answerZh": "較短的行程意味着人們有更多時間留在家中。",
+      "answerZhSource": "pdf",
+      "highlight": "A shorter journey translates into more time at home."
+    },
+    {
+      "id": "ss338-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Daily practice can give learners greater confidence.",
+      "promptZh": "每天練習可以令學習者更有自信。",
+      "promptZhSource": "pdf",
+      "starter": "Daily",
+      "answer": "Daily practice can translate into greater confidence.",
+      "answerZh": "每天練習可以帶來更大的自信。",
+      "answerZhSource": "pdf",
+      "highlight": "Daily practice can translate into greater confidence."
+    },
+    {
+      "id": "ss338-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Better lighting often reduces the number of accidents.",
+      "promptZh": "更好的照明往往能減少意外數目。",
+      "promptZhSource": "pdf",
+      "starter": "Better",
+      "answer": "Better lighting often translates into fewer accidents.",
+      "answerZh": "更好的照明往往會帶來較少意外。",
+      "answerZhSource": "pdf",
+      "highlight": "Better lighting often translates into fewer accidents."
+    },
+    {
+      "id": "ss338-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Strong teamwork usually produces better results.",
+      "promptZh": "良好的團隊合作通常能產生更好的成果。",
+      "promptZhSource": "pdf",
+      "starter": "Strong",
+      "answer": "Strong teamwork usually translates into better results.",
+      "answerZh": "良好的團隊合作通常會帶來更好的成果。",
+      "answerZhSource": "pdf",
+      "highlight": "Strong teamwork usually translates into better results."
+    },
+    {
+      "id": "ss338-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Saving a small amount each week can eventually create a useful emergency fund.",
+      "promptZh": "每星期儲起一小筆金錢，最終可以建立一筆實用的應急基金。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small weekly savings can eventually translate into a useful emergency fund.",
+      "answerZh": "每星期儲起的小額金錢，最終可以累積成一筆實用的應急基金。",
+      "answerZhSource": "pdf",
+      "highlight": "Small weekly savings can eventually translate into a useful emergency fund."
+    },
+    {
+      "id": "ss338-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new timetable should result in shorter waiting times.",
+      "promptZh": "新時間表應會令輪候時間縮短。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable should translate into shorter waiting times.",
+      "answerZh": "新時間表應會帶來較短的輪候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable should translate into shorter waiting times."
+    },
+    {
+      "id": "ss338-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This improvement is likely to result in higher customer satisfaction.",
+      "promptZh": "這項改善很可能會提高顧客滿意度。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This improvement is likely to translate into higher customer satisfaction.",
+      "answerZh": "這項改善很可能會帶來較高的顧客滿意度。",
+      "answerZhSource": "pdf",
+      "highlight": "This improvement is likely to translate into higher customer satisfaction."
+    },
+    {
+      "id": "ss338-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Higher fuel costs could make deliveries more expensive.",
+      "promptZh": "較高燃料成本可能會令送貨費用上升。",
+      "promptZhSource": "pdf",
+      "starter": "Higher",
+      "answer": "Higher fuel costs could translate into more expensive deliveries.",
+      "answerZh": "較高燃料成本可能會帶來更高的送貨費用。",
+      "answerZhSource": "pdf",
+      "highlight": "Higher fuel costs could translate into more expensive deliveries."
+    },
+    {
+      "id": "ss338-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The extra practice did not lead to a victory.",
+      "promptZh": "額外練習並沒有帶來勝利。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The extra practice did not translate into a victory.",
+      "answerZh": "額外練習並沒有帶來勝利。",
+      "answerZhSource": "pdf",
+      "highlight": "The extra practice did not translate into a victory."
+    },
+    {
+      "id": "ss338-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Does having more choices always make people happier?",
+      "promptZh": "擁有更多選擇是否一定會令人民更加快樂？",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does greater choice always translate into greater happiness?",
+      "answerZh": "更多選擇是否一定會帶來更大的快樂？",
+      "answerZhSource": "pdf",
+      "highlight": "Does greater choice always translate into greater happiness?"
+    },
+    {
+      "id": "ss338-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new system has led to fewer complaints.",
+      "promptZh": "新制度已令投訴減少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system has translated into fewer complaints.",
+      "answerZh": "新制度已帶來較少投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system has translated into fewer complaints."
+    },
+    {
+      "id": "ss338-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "What practical result will the new rule have for students?",
+      "promptZh": "這項新規則會為學生帶來甚麼實際結果？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What will the new rule translate into for students?",
+      "answerZh": "這項新規則會為學生帶來甚麼實際結果？",
+      "answerZhSource": "pdf",
+      "highlight": "What will the new rule translate into for students?"
+    },
+    {
+      "id": "ss338-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the campaign succeeds, it may bring in more donations.",
+      "promptZh": "如果宣傳活動成功，便可能會帶來更多捐款。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the campaign succeeds, it may translate into more donations.",
+      "answerZh": "如果宣傳活動成功，便可能會帶來更多捐款。",
+      "answerZhSource": "pdf",
+      "highlight": "If the campaign succeeds, it may translate into more donations."
+    },
+    {
+      "id": "ss338-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the team worked longer hours, its output did not increase.",
+      "promptZh": "雖然團隊延長了工作時間，但工作產出並沒有增加。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the team worked longer hours, this did not translate into higher output.",
+      "answerZh": "雖然團隊延長了工作時間，但這並沒有帶來更高的工作產出。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the team worked longer hours, this did not translate into higher output."
+    },
+    {
+      "id": "ss338-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The savings created by digital forms will reduce printing costs.",
+      "promptZh": "電子表格所節省的金錢將會降低印刷成本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The savings from digital forms will translate into lower printing costs.",
+      "answerZh": "電子表格所節省的金錢將會帶來較低的印刷成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The savings from digital forms will translate into lower printing costs."
+    },
+    {
+      "id": "ss338-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Better access to bus services can create more job opportunities.",
+      "promptZh": "更方便的巴士服務可以創造更多就業機會。",
+      "promptZhSource": "pdf",
+      "starter": "Better",
+      "answer": "Better access to bus services can translate into more job opportunities.",
+      "answerZh": "更方便的巴士服務可以帶來更多就業機會。",
+      "answerZhSource": "pdf",
+      "highlight": "Better access to bus services can translate into more job opportunities."
+    },
+    {
+      "id": "ss338-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The skills learnt in class should improve performance in the workplace.",
+      "promptZh": "課堂上學到的技能應能改善職場表現。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The skills learnt in class should translate into stronger workplace performance.",
+      "answerZh": "課堂上學到的技能應能帶來更好的職場表現。",
+      "answerZhSource": "pdf",
+      "highlight": "The skills learnt in class should translate into stronger workplace performance."
+    },
+    {
+      "id": "ss338-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Even a small rise in temperature can cause a large increase in electricity use.",
+      "promptZh": "即使氣溫只是輕微上升，也可能令用電量大幅增加。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A small rise in temperature can translate into a large increase in electricity use.",
+      "answerZh": "氣溫輕微上升也可能帶來用電量的大幅增加。",
+      "answerZhSource": "pdf",
+      "highlight": "A small rise in temperature can translate into a large increase in electricity use."
+    },
+    {
+      "id": "ss338-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Experts expect the policy changes to create safer working conditions.",
+      "promptZh": "專家預計政策改變會創造更安全的工作環境。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy changes are expected to translate into safer working conditions.",
+      "answerZh": "這些政策改變預計會帶來更安全的工作環境。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy changes are expected to translate into safer working conditions."
+    },
+    {
+      "id": "ss338-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Not every technological improvement produces a better user experience.",
+      "promptZh": "並非每項科技改善都能帶來更好的使用者體驗。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not every technological improvement translates into a better user experience.",
+      "answerZh": "並非每項科技改善都會帶來更好的使用者體驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Not every technological improvement translates into a better user experience."
+    },
+    {
+      "id": "ss338-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "When more people visit local shops, the shops often make more sales.",
+      "promptZh": "當更多人光顧本地商店時，商店的銷售額通常會增加。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For local shops, more visitors often translate into more sales.",
+      "answerZh": "對本地商店而言，更多訪客往往會帶來更多銷售。",
+      "answerZhSource": "pdf",
+      "highlight": "For local shops, more visitors often translate into more sales."
+    },
+    {
+      "id": "ss338-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although the budget has increased, public services have not improved yet.",
+      "promptZh": "雖然預算有所增加，但公共服務至今仍未改善。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The increased budget has not yet translated into better public services.",
+      "answerZh": "增加的預算至今仍未帶來更好的公共服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The increased budget has not yet translated into better public services."
+    },
+    {
+      "id": "ss338-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Whether the plan produces real progress will depend on careful management.",
+      "promptZh": "計劃能否帶來實質進展，將取決於審慎的管理。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the plan translates into real progress will depend on careful management.",
+      "answerZh": "計劃能否帶來實質進展，將取決於審慎的管理。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the plan translates into real progress will depend on careful management."
+    },
+    {
+      "id": "ss338-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The confidence gained through practice can make presentations clearer.",
+      "promptZh": "透過練習所得的自信可以令簡報更加清晰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The confidence gained through practice can translate into clearer presentations.",
+      "answerZh": "透過練習所得的自信可以帶來更清晰的簡報。",
+      "answerZhSource": "pdf",
+      "highlight": "The confidence gained through practice can translate into clearer presentations."
+    },
+    {
+      "id": "ss338-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In rural areas, reliable internet access may create wider educational opportunities.",
+      "promptZh": "在鄉郊地區，可靠的互聯網服務可能會創造更多元的教育機會。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In rural areas, reliable internet access may translate into wider educational opportunities.",
+      "answerZh": "在鄉郊地區，可靠的互聯網服務可能會帶來更多元的教育機會。",
+      "answerZhSource": "pdf",
+      "highlight": "In rural areas, reliable internet access may translate into wider educational opportunities."
+    },
+    {
+      "id": "ss338-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If paperwork were reduced, staff would have more time to care for patients.",
+      "promptZh": "如果文書工作減少，員工便會有更多時間照顧病人。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A reduction in paperwork would translate into more time for patient care.",
+      "answerZh": "減少文書工作，將會令員工有更多時間照顧病人。",
+      "answerZhSource": "pdf",
+      "highlight": "A reduction in paperwork would translate into more time for patient care."
+    },
+    {
+      "id": "ss338-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Improvements are easier to justify when they produce real benefits.",
+      "promptZh": "當改善能帶來實際好處時，便較容易證明它們是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "Improvements",
+      "answer": "Improvements that translate into real benefits are easier to justify.",
+      "answerZh": "能帶來實際好處的改善，較容易證明是合理的。",
+      "answerZhSource": "pdf",
+      "highlight": "Improvements that translate into real benefits are easier to justify."
+    },
+    {
+      "id": "ss338-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The manager hopes that the additional training will lead to better service.",
+      "promptZh": "經理希望額外培訓能帶來更好的服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager wants the additional training to translate into better service.",
+      "answerZh": "經理希望額外培訓能帶來更好的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager wants the additional training to translate into better service."
+    },
+    {
+      "id": "ss338-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We need to make sure that the new equipment improves productivity.",
+      "promptZh": "我們需要確保新設備能提高生產力。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to ensure that the new equipment translates into greater productivity.",
+      "answerZh": "我們需要確保新設備能帶來更高的生產力。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to ensure that the new equipment translates into greater productivity."
+    },
+    {
+      "id": "ss338-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Can a higher salary create stronger motivation?",
+      "promptZh": "較高薪金能否帶來更強的工作動力？",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can a higher salary translate into stronger motivation?",
+      "answerZh": "較高薪金能否帶來更強的工作動力？",
+      "answerZhSource": "pdf",
+      "highlight": "Can a higher salary translate into stronger motivation?"
+    },
+    {
+      "id": "ss338-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The fall in material costs should eventually lead to lower prices for customers.",
+      "promptZh": "材料成本下降，最終應會令顧客享有較低價格。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fall in material costs should eventually translate into lower prices for customers.",
+      "answerZh": "材料成本下降，最終應會為顧客帶來較低價格。",
+      "answerZhSource": "pdf",
+      "highlight": "The fall in material costs should eventually translate into lower prices for customers."
+    },
+    {
+      "id": "ss338-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Without proper support, the new policy may not produce meaningful change.",
+      "promptZh": "沒有適當支援，新政策可能無法帶來有意義的改變。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without proper support, the new policy may not translate into meaningful change.",
+      "answerZh": "沒有適當支援，新政策可能無法帶來有意義的改變。",
+      "answerZhSource": "pdf",
+      "highlight": "Without proper support, the new policy may not translate into meaningful change."
+    },
+    {
+      "id": "ss338-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A delay may look minor, but it can cause major losses later.",
+      "promptZh": "延誤看起來可能很輕微，但日後可以造成重大損失。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What looks like a minor delay can translate into major losses later.",
+      "answerZh": "看起來輕微的延誤，日後可以帶來重大損失。",
+      "answerZhSource": "pdf",
+      "highlight": "What looks like a minor delay can translate into major losses later."
+    },
+    {
+      "id": "ss338-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The reforms have produced measurable improvements in safety.",
+      "promptZh": "這些改革已在安全方面帶來可量度的改善。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reforms have translated into measurable improvements in safety.",
+      "answerZh": "這些改革已在安全方面帶來可量度的改善。",
+      "answerZhSource": "pdf",
+      "highlight": "The reforms have translated into measurable improvements in safety."
+    },
+    {
+      "id": "ss338-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Any increase in efficiency will benefit the public if it results in shorter queues.",
+      "promptZh": "任何效率上的提升，只要能縮短輪候隊伍，便會令公眾受惠。",
+      "promptZhSource": "pdf",
+      "starter": "Any",
+      "answer": "Any increase in efficiency that translates into shorter queues will benefit the public.",
+      "answerZh": "任何能縮短輪候隊伍的效率提升，都會令公眾受惠。",
+      "answerZhSource": "pdf",
+      "highlight": "Any increase in efficiency that translates into shorter queues will benefit the public."
+    },
+    {
+      "id": "ss338-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The company expects its investment in staff development to lead to a higher employee-retention rate.",
+      "promptZh": "公司預期對員工發展的投資會帶來較高的員工留任率。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company expects its investment in staff development to translate into a higher employee-retention rate.",
+      "answerZh": "公司預期對員工發展的投資會帶來較高的員工留任率。",
+      "answerZhSource": "pdf",
+      "highlight": "The company expects its investment in staff development to translate into a higher employee-retention rate."
+    },
+    {
+      "id": "ss338-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If the research findings produce practical solutions, the project will have real value.",
+      "promptZh": "如果研究結果能產生實際解決方法，這個項目便會具有真正價值。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the research findings translate into practical solutions, the project will have real value.",
+      "answerZh": "如果研究結果能轉化為實際解決方法，這個項目便會具有真正價值。",
+      "answerZhSource": "pdf",
+      "highlight": "If the research findings translate into practical solutions, the project will have real value."
+    },
+    {
+      "id": "ss338-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Greater public awareness does not automatically cause changes in behaviour.",
+      "promptZh": "更高的公眾意識不會自動引起行為上的改變。",
+      "promptZhSource": "pdf",
+      "starter": "Greater",
+      "answer": "Greater public awareness does not automatically translate into changes in behaviour.",
+      "answerZh": "更高的公眾意識不會自動帶來行為上的改變。",
+      "answerZhSource": "pdf",
+      "highlight": "Greater public awareness does not automatically translate into changes in behaviour."
+    },
+    {
+      "id": "ss338-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The reduction in energy use resulted in substantial savings over the year.",
+      "promptZh": "能源使用量下降，在全年帶來了可觀的節省。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reduction in energy use translated into substantial savings over the year.",
+      "answerZh": "能源使用量下降，在全年帶來了可觀的節省。",
+      "answerZhSource": "pdf",
+      "highlight": "The reduction in energy use translated into substantial savings over the year."
+    },
+    {
+      "id": "ss338-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Students must use what they learn online to communicate confidently in real situations.",
+      "promptZh": "學生必須把網上所學的內容運用於真實情況，並有自信地溝通。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the students learn online must translate into confident real-world communication.",
+      "answerZh": "學生在網上所學的內容，必須轉化為在真實環境中有自信的溝通能力。",
+      "answerZhSource": "pdf",
+      "highlight": "What the students learn online must translate into confident real-world communication."
+    },
+    {
+      "id": "ss338-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A policy may sound impressive, but it may not produce better outcomes.",
+      "promptZh": "一項政策可能聽起來令人印象深刻，但未必能帶來更好的結果。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A policy may sound impressive, but it may not translate into better outcomes.",
+      "answerZh": "一項政策可能聽起來令人印象深刻，但未必能帶來更好的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "A policy may sound impressive, but it may not translate into better outcomes."
+    },
+    {
+      "id": "ss338-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The agreement will matter only if people turn its promises into concrete action.",
+      "promptZh": "只有當人們把協議中的承諾化為具體行動時，協議才有意義。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The agreement will matter only if its promises translate into concrete action.",
+      "answerZh": "只有當協議中的承諾轉化為具體行動時，協議才有意義。",
+      "answerZhSource": "pdf",
+      "highlight": "The agreement will matter only if its promises translate into concrete action."
+    },
+    {
+      "id": "ss338-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The extra resources are starting to produce visible improvements.",
+      "promptZh": "額外資源正開始帶來明顯改善。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The extra resources are beginning to translate into visible improvements.",
+      "answerZh": "額外資源正開始帶來明顯改善。",
+      "answerZhSource": "pdf",
+      "highlight": "The extra resources are beginning to translate into visible improvements."
+    },
+    {
+      "id": "ss338-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A high test score by itself does not always show practical ability.",
+      "promptZh": "單憑高測驗分數並不一定能反映實際能力。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By itself, a high test score does not necessarily translate into practical ability.",
+      "answerZh": "單憑高測驗分數並不一定能轉化為實際能力。",
+      "answerZhSource": "pdf",
+      "highlight": "By itself, a high test score does not necessarily translate into practical ability."
+    },
+    {
+      "id": "ss338-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When better planning leads to fewer delays, both staff and customers benefit.",
+      "promptZh": "當更好的規劃能減少延誤時，員工和顧客都會受惠。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When better planning translates into fewer delays, both staff and customers benefit.",
+      "answerZh": "當更好的規劃能帶來較少延誤時，員工和顧客都會受惠。",
+      "answerZhSource": "pdf",
+      "highlight": "When better planning translates into fewer delays, both staff and customers benefit."
+    }
+  ]
+}

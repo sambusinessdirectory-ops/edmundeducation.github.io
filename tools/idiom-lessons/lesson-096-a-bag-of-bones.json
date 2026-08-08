@@ -1,0 +1,1638 @@
+{
+  "lesson": {
+    "id": "idiom-96",
+    "order": 96,
+    "slug": "a-bag-of-bones",
+    "version": "1",
+    "title": "瘦骨嶙峋／皮包骨",
+    "titleEn": "a bag of bones",
+    "titleZh": "瘦骨嶙峋／皮包骨",
+    "source": {
+      "file": "Idiom 96 - “A Bag of Bones”.pdf",
+      "pageCount": 38,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "exercisePdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "answerKeyPdfPages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a bag of bones",
+        "highlight": "a bag of bones"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The rescued dog was a bag of bones.",
+        "zh": "那隻獲救的狗瘦得只剩皮包骨。",
+        "highlight": "a bag of bones"
+      },
+      {
+        "en": "Peter is little more than a bag of bones.",
+        "zh": "彼得瘦得幾乎只剩下骨頭。",
+        "highlight": "a bag of bones"
+      }
+    ],
+    "meaning": {
+      "en": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+      "zh": "一個瘦骨嶙峋的人或動物；瘦得全身骨頭清晰可見，彷彿只剩下皮和骨頭。",
+      "naturalZh": [
+        "一個瘦骨嶙峋的人或動物",
+        "瘦得全身骨頭清晰可見，彷彿只剩下皮和骨頭。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "The expression is informal and very strong.",
+      "summaryZh": "這個表達屬於非正式用語，而且語氣十分強烈。",
+      "contextsEn": [
+        "concern",
+        "pity",
+        "shock",
+        "criticism of poor treatment",
+        "cruel humour or mockery",
+        "describing an animal that has been rescued from neglect",
+        "expressing genuine concern about a fictional or absent person",
+        "describing a serious change caused by illness or lack of food",
+        "analysing the expression in a language lesson"
+      ],
+      "contextsZh": [
+        "擔心",
+        "同情",
+        "震驚",
+        "對疏忽照顧的批評",
+        "殘酷的玩笑或嘲諷。",
+        "描述一隻從疏忽照顧中獲救的動物",
+        "真誠地擔心一名虛構人物或不在場的人",
+        "描述疾病或缺乏食物造成的嚴重變化",
+        "在語言課堂上分析這個表達。"
+      ],
+      "formalEn": "Safer uses include:",
+      "formalZh": "在醫療、護理或正式文件中，使用 severely underweight 或 has experienced serious weight loss 等準確表達通常會更合適。"
+    },
+    "fixedVariable": {
+      "fixed": "a bag of bones",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + a bag of bones.",
+          "example": "The rescued dog was a bag of bones.",
+          "highlight": "a bag of bones"
+        },
+        {
+          "form": "Subject + look / seem + like + a bag of bones.",
+          "example": "Daniel looked like a bag of bones after the illness.",
+          "highlight": "a bag of bones"
+        },
+        {
+          "form": "Subject + become + a bag of bones.",
+          "example": "The stray cat had become a bag of bones.",
+          "highlight": "a bag of bones"
+        },
+        {
+          "form": "Subject + turn into + a bag of bones.",
+          "example": "The long journey turned him into a bag of bones.",
+          "highlight": "a bag of bones"
+        },
+        {
+          "form": "Cause + reduce + person or animal + to + a bag of bones.",
+          "example": "The illness reduced Henry to a bag of bones.",
+          "highlight": "a bag of bones"
+        },
+        {
+          "form": "Cause + leave + person or animal + a bag of bones.",
+          "example": "Poor care left the donkey a bag of bones.",
+          "highlight": "a bag of bones"
+        },
+        {
+          "form": "Subject + arrive / return / come home + as or looking like + a bag of bones.",
+          "example": "The dog arrived as a bag of bones.",
+          "highlight": "a bag of bones"
+        },
+        {
+          "form": "Subject + be + modifier + a bag of bones.",
+          "example": "The rescued horse was nothing but a bag of bones.",
+          "highlight": "a bag of bones"
+        },
+        {
+          "form": "Noun, a bag of bones + additional information, + main clause.",
+          "example": "The old cat, a bag of bones when first rescued, now has a healthy coat.",
+          "highlight": "a bag of bones"
+        },
+        {
+          "form": "Subject + may / might / could + become or end up as + a bag of bones.",
+          "example": "The pony might have become a bag of bones without help.",
+          "highlight": "a bag of bones"
+        },
+        {
+          "form": "from + earlier condition + to + a bag of bones.",
+          "example": "When it arrived at the animal home, the rescued dog was a bag of bones.",
+          "highlight": "a bag of bones"
+        },
+        {
+          "form": "Fronted time, contrast, cause or condition + main clause containing a bag of bones.",
+          "example": "When it arrived at the animal home, the rescued dog was a bag of bones.",
+          "highlight": "a bag of bones"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “Be”",
+        "titleZh": "句式一：置於 be 之後",
+        "formula": "Subject + be + a bag of bones.",
+        "descriptionEn": "The verb be changes according to the subject and tense. The idiom does not change.",
+        "descriptionZh": "動詞需要按照主語和時態改變。 慣用語本身不會改變。",
+        "examples": [
+          {
+            "en": "The rescued dog was a bag of bones.",
+            "zh": "那隻獲救的狗瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "Peter is little more than a bag of bones.",
+            "zh": "彼得瘦得幾乎只剩下骨頭。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "The horse might soon be a bag of bones.",
+            "zh": "那匹馬可能很快便會瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After “Look Like” or “Seem Like”",
+        "titleZh": "句式二",
+        "formula": "Subject + look / seem + like + a bag of bones.",
+        "descriptionEn": "Look like describes visible appearance. Seem like describes the speaker’s impression.",
+        "descriptionZh": "置於 look like 或 seem like 之後描述看得見的外表； seem like 描述說話者形成的印象。",
+        "examples": [
+          {
+            "en": "Daniel looked like a bag of bones after the illness.",
+            "zh": "丹尼爾病後瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "The fox seemed like a bag of bones by the end of winter.",
+            "zh": "到了冬季末，那隻狐狸看起來瘦骨嶙峋。",
+            "highlight": "a bag of bones"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “Become”",
+        "titleZh": "句式三：置於 become 之後",
+        "formula": "Subject + become + a bag of bones.",
+        "descriptionEn": "Become focuses on a change from an earlier condition.",
+        "descriptionZh": "強調由以前的狀況轉變成現在的狀況。",
+        "examples": [
+          {
+            "en": "The stray cat had become a bag of bones.",
+            "zh": "那隻流浪貓已經瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "Nobody expected him to become a bag of bones.",
+            "zh": "沒有人料到他會變得如此消瘦。",
+            "highlight": "a bag of bones"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Turn Into”",
+        "titleZh": "句式四：置於 turn into 之後",
+        "formula": "Subject + turn into + a bag of bones.",
+        "descriptionEn": "Turn into presents the change more vividly than become.",
+        "descriptionZh": "比 become 更生動地突出轉變。",
+        "examples": [
+          {
+            "en": "The long journey turned him into a bag of bones.",
+            "zh": "漫長的旅程令他瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "He had turned into a bag of bones.",
+            "zh": "他已經變得瘦骨嶙峋。",
+            "highlight": "a bag of bones"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After “Reduce Someone to”",
+        "titleZh": "句式五：置於 reduce someone to 之後",
+        "formula": "Cause + reduce + person or animal + to + a bag of bones.",
+        "descriptionEn": "By the illness is optional supporting information. It is not part of the idiom.",
+        "descriptionZh": "By the illness 是可選的補充資料，並不是慣用語的一部分。",
+        "examples": [
+          {
+            "en": "The illness reduced Henry to a bag of bones.",
+            "zh": "疾病令亨利瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "Months without enough food had reduced the horse to a bag of bones.",
+            "zh": "幾個月缺乏足夠食物，令那匹馬瘦骨嶙峋。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "Henry was reduced to a bag of bones by the illness.",
+            "zh": "亨利因疾病而瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "After “Leave Someone”",
+        "titleZh": "句式六：置於 leave someone 之後",
+        "formula": "Cause + leave + person or animal + a bag of bones.",
+        "descriptionEn": "In this pattern, leave means cause someone or something to remain in a particular condition.",
+        "descriptionZh": "在這個句式中，leave 表示令某人或某物處於某種狀況。",
+        "examples": [
+          {
+            "en": "Poor care left the donkey a bag of bones.",
+            "zh": "疏忽照顧令那頭驢瘦得皮包骨。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "The illness left George a bag of bones.",
+            "zh": "疾病令佐治變得瘦骨嶙峋。",
+            "highlight": "a bag of bones"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After “Arrive”, “Return” or “Come Home”",
+        "titleZh": "句式七",
+        "formula": "Subject + arrive / return / come home + as or looking like + a bag of bones.",
+        "descriptionEn": "These patterns describe the person or animal’s condition upon arrival.",
+        "descriptionZh": "置於 arrive、return 或 come home 之後這些句式描述某人或動物抵達時的狀況。",
+        "examples": [
+          {
+            "en": "The dog arrived as a bag of bones.",
+            "zh": "那隻狗抵達時瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "Rosa returned from hospital looking like a bag of bones.",
+            "zh": "羅莎出院回來時瘦骨嶙峋。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "The sailor came home a bag of bones.",
+            "zh": "那名水手回家時已瘦得不成人形。",
+            "highlight": "a bag of bones"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "With Degree Modifiers",
+        "titleZh": "句式八：配合程度修飾語",
+        "formula": "Subject + be + modifier + a bag of bones.",
+        "descriptionEn": "just a bag of bones; almost a bag of bones; practically a bag of bones; nothing but a bag of bones; little more than a bag of bones.",
+        "descriptionZh": "常見修飾語包括：",
+        "examples": [
+          {
+            "en": "The rescued horse was nothing but a bag of bones.",
+            "zh": "那匹獲救的馬瘦得幾乎只剩下一副骨頭。",
+            "highlight": "a bag of bones"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "As an Appositive Description",
+        "titleZh": "句式九：作同位語描述",
+        "formula": "Noun, a bag of bones + additional information, + main clause.",
+        "descriptionEn": "This pattern places the idiom away from the ordinary final complement position.",
+        "descriptionZh": "這個句式不把慣用語固定放在一般的句末補語位置。",
+        "examples": [
+          {
+            "en": "The old cat, a bag of bones when first rescued, now has a healthy coat.",
+            "zh": "那隻老貓初獲救時瘦得只剩皮包骨，現在已長出健康的毛。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "A bag of bones when first found, the dog slowly became stronger.",
+            "zh": "那隻狗最初被發現時瘦得只剩皮包骨，後來逐漸變得強壯。",
+            "highlight": "A bag of bones"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "With Modal or Conditional Grammar",
+        "titleZh": "句式十：配合情態動詞或條件句",
+        "formula": "Subject + may / might / could + become or end up as + a bag of bones.",
+        "descriptionEn": "The modal verb must preserve uncertainty. Do not change might become into became.",
+        "descriptionZh": "情態動詞必須保留不確定程度。 不要把 might become 改成 became。",
+        "examples": [
+          {
+            "en": "The pony might have become a bag of bones without help.",
+            "zh": "如果沒有得到幫助，那匹小馬可能已經瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "The neglected sheep could end up as a bag of bones.",
+            "zh": "那隻被疏忽照顧的羊可能最終會變得瘦骨嶙峋。",
+            "highlight": "a bag of bones"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "from + earlier condition + to + a bag of bones",
+        "titleZh": "句式十一",
+        "formula": "from + earlier condition + to + a bag of bones.",
+        "descriptionEn": "Source grammar frame: from + earlier condition + to + a bag of bones.",
+        "descriptionZh": "原檔列出的句法框架：from + earlier condition + to + a bag of bones。",
+        "examples": [
+          {
+            "en": "When it arrived at the animal home, the rescued dog was a bag of bones.",
+            "zh": "那隻獲救的狗抵達動物之家時瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "No one grammar shell should dominate all 50 questions",
+        "titleZh": "五十題不應全部採用相同的句法框架",
+        "formula": "Fronted time, contrast, cause or condition + main clause containing a bag of bones.",
+        "descriptionEn": "Source grammar frame: Fronted time, contrast, cause or condition + main clause containing a bag of bones.",
+        "descriptionZh": "原檔列出的句法框架：Fronted time, contrast, cause or condition + main clause containing a bag of bones。",
+        "examples": [
+          {
+            "en": "When it arrived at the animal home, the rescued dog was a bag of bones.",
+            "zh": "那隻獲救的狗抵達動物之家時瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Communicates a Strong Degree Clearly",
+        "titleZh": "清楚表達強烈程度",
+        "en": "The idiomatic version expresses a much more serious degree of thinness.",
+        "zh": "慣用語版本表達的消瘦程度遠比 very thin 嚴重。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Creates a Memorable Visual Image",
+        "titleZh": "帶出鮮明畫面",
+        "en": "It Creates a Memorable Visual Image",
+        "zh": "帶出鮮明畫面",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Express Concern or Shock",
+        "titleZh": "可以表達擔心或震驚",
+        "en": "The expression communicates not only appearance but also the speaker’s emotional reaction.",
+        "zh": "這個表達不只描述外表，也傳達說話者的情緒反應。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Shows a Serious Change",
+        "titleZh": "突出嚴重變化",
+        "en": "The expression is useful in before-and-after descriptions.",
+        "zh": "這個表達適合用於前後狀況對比。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Criticise Neglect",
+        "titleZh": "可以批評疏忽照顧",
+        "en": "The sentence makes the harmful result vivid.",
+        "zh": "句子生動地呈現了疏忽照顧造成的嚴重後果。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Must Be Used Sensitively",
+        "titleZh": "必須謹慎使用",
+        "en": "An idiom is not automatically better than a plain description. When speaking directly to someone or writing formally, a neutral description may be kinder and more accurate.",
+        "zh": "慣用語並不一定比直接描述更好。 當面對別人說話或撰寫正式內容時，中性描述可能會更有禮貌和更準確。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Unknown",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The expression does not appear to come from one known event or inventor. A historical slang reference records related wording such as bedfull of bones in 1621. Charles Dickens later used the description “little bag o’ bones” in Oliver Twist, published in 1838. This is an early documented literary example, not proof that Dickens created the expression.",
+          "zh": "這個表達似乎並非源自一件可以確認的事件或某一位創作者。 歷史俚語資料記錄了1621年出現的相關說法 bedfull of bones。 Charles Dickens 後來在1838年出版的《孤雛淚》中使用了 “little bag o’ bones” 這個描述。 這是較早期的文學記錄，但不能證明 Dickens 創造了這個表達。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical image is direct: if a person or animal has lost a great deal of weight, the body may appear to contain bones with very little flesh around them. Speakers gradually used this picture as a fixed description of extreme thinness.",
+          "zh": "這個身體意象十分直接：如果一個人或動物大幅消瘦，身體看起來便可能只剩下骨頭，周圍幾乎沒有肌肉。 說話者逐漸把這個畫面固定用作描述極度消瘦。"
+        }
+      ],
+      "memoryEn": "Imagine a body with so little flesh that it seems to be only a bag holding bones.",
+      "memoryZh": "想像一個幾乎沒有肌肉的身體，彷彿只是一個裝着骨頭的袋。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Article “A”",
+        "titleZh": "規則一：保留冠詞 a",
+        "en": "A is part of the fixed noun phrase.",
+        "zh": "A 是固定名詞短語的一部分。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep “Bones” Plural",
+        "titleZh": "規則二：bones 必須使用複數",
+        "en": "The image is of a body containing many bones.",
+        "zh": "這個意象是一個身體內包含多塊骨頭。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Change “Of”",
+        "titleZh": "規則三：不可改變 of",
+        "en": "Do Not Change “Of”",
+        "zh": "不可改變 of",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It Only for Extreme Thinness",
+        "titleZh": "規則四：只用於極度消瘦",
+        "en": "The idiom is much stronger than slim or thin.",
+        "zh": "那隻獲救的狗瘦得每根肋骨都清晰可見。 這個慣用語的程度遠強於 slim 或 thin。",
+        "examples": [
+          {
+            "en": "The rescued dog was a bag of bones.",
+            "zh": "那隻獲救的狗瘦得每根肋骨都清晰可見。",
+            "highlight": "a bag of bones"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "People and Animals Are Both Possible",
+        "titleZh": "規則五：人和動物都可以使用",
+        "en": "People and Animals Are Both Possible",
+        "zh": "病後，他看起來瘦得只剩皮包骨。 那匹獲救的馬瘦骨嶙峋。",
+        "examples": [
+          {
+            "en": "After the illness, he looked like a bag of bones.",
+            "zh": "病後，他看起來瘦得只剩皮包骨。",
+            "highlight": "a bag of bones"
+          },
+          {
+            "en": "The rescued horse was a bag of bones.",
+            "zh": "那匹獲救的馬瘦骨嶙峋。",
+            "highlight": "a bag of bones"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve the Cause When It Matters",
+        "titleZh": "規則六：在重要時保留原因",
+        "en": "The weak answer removes the cause supplied by the source.",
+        "zh": "較弱的答案刪除了原句提供的原因。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Change Over Time",
+        "titleZh": "規則七：保留隨時間出現的變化",
+        "en": "Do not remove the contrast between his earlier and later condition.",
+        "zh": "不要刪除他以前和後來狀況之間的對比。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Add a Second Explanation",
+        "titleZh": "規則八：不要再次解釋相同意思",
+        "en": "The second part largely repeats the meaning of the idiom. The visible ribs provide evidence that licenses the idiom rather than repeating it afterwards.",
+        "zh": "後半部分大致上重複了慣用語的意思。 肋骨清晰可見是支持使用這個慣用語的證據，而不是在慣用語之後再次解釋。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Use It as a Medical Diagnosis",
+        "titleZh": "規則九：不要把它當作醫療診斷",
+        "en": "The idiom is not precise clinical language.",
+        "zh": "這個慣用語並不是準確的臨床用語。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Avoid Direct Personal Insults",
+        "titleZh": "規則十：避免直接侮辱別人",
+        "en": "Avoid Direct Personal Insults",
+        "zh": "他的家人十分擔心，因為他病後瘦得只剩皮包骨。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Distinguish “A Bag of Bones” from Skin and",
+        "titleZh": "規則十一",
+        "en": "Both expressions can describe extreme thinness, but they are grammatically different. Every answer in this exercise must use a bag of bones.",
+        "zh": "分辨 a bag of bones 和 skin and bones 兩者都可以描述極度消瘦，但文法結構不同。 本練習的所有答案都必須使用 a bag of bones。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Avoid Literal Contexts",
+        "titleZh": "規則十二：避免字面語境",
+        "en": "The neglected horse had become a bag of bones.",
+        "zh": "本練習中的所有答案都必須使用比喻意思。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a bag of bones.",
+      "zh": "使用 a bag of bones 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-96-q01",
+        "number": 1,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The rescued dog was extremely thin when it arrived at the animal home.",
+        "promptZh": "那隻獲救的狗抵達動物之家時極度消瘦。",
+        "starter": "When",
+        "answer": "When it arrived at the animal home, the rescued dog was a bag of bones.",
+        "answerZh": "那隻獲救的狗抵達動物之家時瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q02",
+        "number": 2,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Daniel was so thin after his long illness that his bones were clearly visible.",
+        "promptZh": "丹尼爾大病後瘦得全身骨頭清晰可見。",
+        "starter": "After",
+        "answer": "After the long illness, Daniel looked like a bag of bones.",
+        "answerZh": "丹尼爾大病後看起來瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q03",
+        "number": 3,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The poor horse had almost no flesh on its body, and it could barely stand.",
+        "promptZh": "那匹可憐的馬身上幾乎沒有肉，而且勉強才能站立。",
+        "starter": "Little",
+        "answer": "Little more than a bag of bones, the poor horse could barely stand.",
+        "answerZh": "那匹可憐的馬瘦得幾乎只剩下骨頭，勉強才能站立。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q04",
+        "number": 4,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "By the time someone helped the stray cat, it had lost so much weight that its bones showed clearly.",
+        "promptZh": "有人幫助那隻流浪貓時，牠已經消瘦得骨頭清晰可見。",
+        "starter": "By",
+        "answer": "By the time someone helped it, the stray cat had become a bag of bones.",
+        "answerZh": "有人幫助那隻流浪貓時，牠已經瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q05",
+        "number": 5,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The hikers found Oliver after he had been missing for several days. He was extremely thin.",
+        "promptZh": "奧利弗失蹤數日後被遠足人士找到。他當時極度消瘦。",
+        "starter": "When",
+        "answer": "When the hikers found Oliver after he had been missing for several days, he was a bag of bones.",
+        "answerZh": "奧利弗失蹤數日後被遠足人士找到，當時已瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q06",
+        "number": 6,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The old dog had gone for months without enough food and had become extremely thin.",
+        "promptZh": "那隻老狗幾個月來都沒有足夠食物，已變得極度消瘦。",
+        "starter": "After",
+        "answer": "After months without enough food, the old dog had turned into a bag of bones.",
+        "answerZh": "幾個月沒有足夠食物後，那隻老狗已變得瘦骨嶙峋。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q07",
+        "number": 7,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "When Rosa returned from hospital, she looked extremely thin.",
+        "promptZh": "羅莎出院回來時看起來極度消瘦。",
+        "starter": "Rosa",
+        "answer": "Rosa returned from hospital looking like a bag of bones.",
+        "answerZh": "羅莎出院回來時看起來瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q08",
+        "number": 8,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The neglected pony’s thick coat hid how extremely thin it was. It could hardly walk.",
+        "promptZh": "那匹被疏忽照顧的小馬有厚厚的毛，遮蓋了牠極度消瘦的身體。牠幾乎無法走路。",
+        "starter": "Just",
+        "answer": "Just a bag of bones under its thick coat, the neglected pony could hardly walk.",
+        "answerZh": "那匹被疏忽照顧的小馬在厚毛之下瘦得只剩皮包骨，幾乎無法走路。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q09",
+        "number": 9,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "By the end of winter, the fox was so thin that its bones seemed clearly visible.",
+        "promptZh": "到了冬季末，那隻狐狸瘦得骨頭彷彿清晰可見。",
+        "starter": "By",
+        "answer": "By the end of winter, the fox seemed like a bag of bones.",
+        "answerZh": "到了冬季末，那隻狐狸看起來瘦骨嶙峋。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q10",
+        "number": 10,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Peter used to be strong and healthy, but he was now extremely thin.",
+        "promptZh": "彼得以前強壯健康，但現在已經極度消瘦。",
+        "starter": "Once",
+        "answer": "Once strong and healthy, Peter was now a bag of bones.",
+        "answerZh": "彼得以前強壯健康，現在卻瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q11",
+        "number": 11,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The long illness made Henry lose so much weight that his bones showed clearly.",
+        "promptZh": "長期患病令亨利大幅消瘦，身上的骨頭清晰可見。",
+        "starter": "Henry",
+        "answer": "Henry had been reduced to a bag of bones by the long illness.",
+        "answerZh": "長期患病令亨利瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q12",
+        "number": 12,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "When the horse was rescued, it was extremely thin and could hardly stand.",
+        "promptZh": "那匹馬獲救時極度消瘦，而且幾乎無法站立。",
+        "starter": "Nothing",
+        "answer": "Nothing but a bag of bones when it was rescued, the horse could hardly stand.",
+        "answerZh": "那匹馬獲救時瘦得幾乎只剩下一副骨頭，而且幾乎無法站立。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q13",
+        "number": 13,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "No one expected the previously strong athlete to become extremely thin.",
+        "promptZh": "沒有人料到這名以前身體強壯的運動員會變得極度消瘦。",
+        "starter": "No",
+        "answer": "No one expected the once-strong athlete to become a bag of bones.",
+        "answerZh": "沒有人料到這名以前身體強壯的運動員會變得瘦骨嶙峋。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q14",
+        "number": 14,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The missing sailor came home extremely thin after spending months with very little food.",
+        "promptZh": "失蹤的水手在幾個月缺乏食物後回到家中，當時已經極度消瘦。",
+        "starter": "After",
+        "answer": "After months with little food, the missing sailor came home a bag of bones.",
+        "answerZh": "在幾個月缺乏食物後，那名失蹤水手回家時已瘦得不成人形。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q15",
+        "number": 15,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The dog’s wet fur lay flat against its body, showing how extremely thin it was.",
+        "promptZh": "那隻狗濕透的毛緊貼身體，顯示牠極度消瘦。",
+        "starter": "Beneath",
+        "answer": "Beneath its wet fur, the dog looked like a bag of bones.",
+        "answerZh": "在濕透的毛下，那隻狗看起來瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q16",
+        "number": 16,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "After the difficult winter, the farmer found that the sheep was extremely thin.",
+        "promptZh": "艱難的冬季過後，農夫發現那隻羊極度消瘦。",
+        "starter": "After",
+        "answer": "After the difficult winter, the farmer found the sheep looking like a bag of bones.",
+        "answerZh": "艱難的冬季過後，農夫發現那隻羊看起來瘦骨嶙峋。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q17",
+        "number": 17,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Several years of poor care had made the donkey extremely thin.",
+        "promptZh": "多年的疏忽照顧令那頭驢變得極度消瘦。",
+        "starter": "Poor",
+        "answer": "Poor care over several years had left the donkey a bag of bones.",
+        "answerZh": "多年的疏忽照顧令那頭驢瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q18",
+        "number": 18,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The rescued animal was extremely thin and could hardly stand.",
+        "promptZh": "那隻獲救的動物極度消瘦，而且幾乎無法站立。",
+        "starter": "Practically",
+        "answer": "Practically a bag of bones, the rescued animal could hardly stand.",
+        "answerZh": "那隻獲救的動物實際上已瘦得只剩皮包骨，而且幾乎無法站立。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q19",
+        "number": 19,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "For the final scene, the actor needed to appear extremely thin.",
+        "promptZh": "為了最後一幕，演員需要看起來極度消瘦。",
+        "starter": "For",
+        "answer": "For the final scene, the actor had to look like a bag of bones.",
+        "answerZh": "為了最後一幕，演員需要看起來瘦骨嶙峋。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q20",
+        "number": 20,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Eric had once been broad and strong, but he had become extremely thin.",
+        "promptZh": "埃里克以前身形健壯，但後來變得極度消瘦。",
+        "starter": "Eric",
+        "answer": "Eric had once been broad and strong, but he had turned into a bag of bones.",
+        "answerZh": "埃里克以前身形健壯，但後來卻變得瘦骨嶙峋。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q21",
+        "number": 21,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: What condition was the animal in when the volunteers found it? B: It was extremely thin and could hardly stand.",
+        "promptZh": "甲：義工找到那隻動物時，牠的狀況如何？ 乙：牠極度消瘦，而且幾乎無法站立。",
+        "starter": "When",
+        "answer": "When the volunteers found it, the animal was a bag of bones and could hardly stand.",
+        "answerZh": "義工找到那隻動物時，牠已瘦得只剩皮包骨，而且幾乎無法站立。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q22",
+        "number": 22,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A volunteer described the rescued cat as extremely thin.",
+        "promptZh": "一名義工形容那隻獲救的貓極度消瘦。",
+        "starter": "According",
+        "answer": "According to the volunteer, the rescued cat looked like a bag of bones.",
+        "answerZh": "據義工所說，那隻獲救的貓看起來瘦骨嶙峋。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q23",
+        "number": 23,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The animal had once been a healthy working horse, but poor care had made it extremely thin.",
+        "promptZh": "那隻動物以前是一匹健康的工作馬，但疏忽照顧令牠變得極度消瘦。",
+        "starter": "Once",
+        "answer": "Once a healthy working horse, the animal had been reduced to a bag of bones.",
+        "answerZh": "那隻動物以前是一匹健康的工作馬，後來卻被折磨得瘦骨嶙峋。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q24",
+        "number": 24,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Leo became extremely thin during his long illness, which shocked everyone.",
+        "promptZh": "里奧長期患病期間變得極度消瘦，令所有人感到震驚。",
+        "starter": "During",
+        "answer": "During his long illness, Leo had become a bag of bones, which shocked everyone.",
+        "answerZh": "里奧長期患病期間已變得瘦骨嶙峋，令所有人感到震驚。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q25",
+        "number": 25,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The dog was extremely thin when it arrived at the animal home, but it slowly became healthy.",
+        "promptZh": "那隻狗抵達動物之家時極度消瘦，但後來逐漸恢復健康。",
+        "starter": "A",
+        "answer": "A bag of bones when it arrived, the dog slowly grew healthy at the animal home.",
+        "answerZh": "那隻狗抵達時瘦得只剩皮包骨，後來在動物之家逐漸恢復健康。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "A bag of bones"
+      },
+      {
+        "id": "idiom-96-q26",
+        "number": 26,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The traveller who returned was extremely thin and looked very different from the man who had left.",
+        "promptZh": "回來的旅人極度消瘦，與當初離開時判若兩人。",
+        "starter": "Compared",
+        "answer": "Compared with the man who had left, the traveller who returned was a bag of bones.",
+        "answerZh": "與當初離開的人相比，回來的旅人已瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q27",
+        "number": 27,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Every rib on the stray dog was clearly visible.",
+        "promptZh": "那隻流浪狗的每根肋骨都清晰可見。",
+        "starter": "With",
+        "answer": "With every rib showing, the stray dog was clearly a bag of bones.",
+        "answerZh": "那隻流浪狗的每根肋骨都清晰可見，明顯已經瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q28",
+        "number": 28,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The horse’s heavy coat made it look large, but underneath it was extremely thin.",
+        "promptZh": "那匹馬厚重的毛令牠看起來體形很大，但毛下的身體其實極度消瘦。",
+        "starter": "Beneath",
+        "answer": "Beneath the heavy coat, the horse was a bag of bones.",
+        "answerZh": "在厚重的毛下，那匹馬瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q29",
+        "number": 29,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The illness did more than make George a little thinner. It made him extremely thin.",
+        "promptZh": "疾病不只是令佐治稍為變瘦，而是令他變得極度消瘦。",
+        "starter": "The",
+        "answer": "The illness did not merely make George thinner; it left him a bag of bones.",
+        "answerZh": "疾病不只是令佐治變瘦，而是令他瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q30",
+        "number": 30,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "After weeks without enough food, the rescued man was far thinner than the word slim would suggest.",
+        "promptZh": "幾星期缺乏足夠食物後，那名獲救男子的消瘦程度遠超過 slim 所能表達。",
+        "starter": "After",
+        "answer": "After weeks without enough food, the rescued man was not merely slim; he was a bag of bones.",
+        "answerZh": "幾星期缺乏足夠食物後，那名獲救男子並不只是纖瘦，而是瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q31",
+        "number": 31,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The horse had once been a powerful farm animal, but months of neglect left it extremely thin.",
+        "promptZh": "那匹馬以前是一隻強壯的農場動物，但幾個月的疏忽照顧令牠變得極度消瘦。",
+        "starter": "Once",
+        "answer": "Once a powerful farm animal, the horse was now a bag of bones after months of neglect.",
+        "answerZh": "那匹馬以前是一隻強壯的農場動物，但經過幾個月的疏忽照顧後，現在已瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q32",
+        "number": 32,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "By the time help arrived, hunger had made the stranded man extremely thin.",
+        "promptZh": "救援到達時，飢餓已令那名被困男子極度消瘦。",
+        "starter": "By",
+        "answer": "By the time help arrived, hunger had reduced the stranded man to a bag of bones.",
+        "answerZh": "救援到達時，飢餓已令那名被困男子瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q33",
+        "number": 33,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The dog was extremely thin when it arrived, but it was now gaining weight steadily.",
+        "promptZh": "那隻狗抵達時極度消瘦，但現在正穩定地增加體重。",
+        "starter": "To",
+        "answer": "To everyone’s relief, the dog that had arrived as a bag of bones was gaining weight steadily.",
+        "answerZh": "令所有人感到安慰的是，那隻抵達時瘦得只剩皮包骨的狗正在穩定地增加體重。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q34",
+        "number": 34,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The old cat was extremely thin when first rescued. It now had a healthy coat and plenty of energy.",
+        "promptZh": "那隻老貓初獲救時極度消瘦。牠現在已長出健康的毛，而且充滿活力。",
+        "starter": "The",
+        "answer": "The old cat, a bag of bones when first rescued, now had a healthy coat and plenty of energy.",
+        "answerZh": "那隻老貓初獲救時瘦得只剩皮包骨，現在已長出健康的毛，而且充滿活力。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q35",
+        "number": 35,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The rescue team arrived just in time. If it had arrived later, the pony might have become extremely thin.",
+        "promptZh": "救援隊及時到達。如果再遲一點，那匹小馬可能會變得極度消瘦。",
+        "starter": "If",
+        "answer": "If the rescue team had arrived any later, the pony might have become a bag of bones.",
+        "answerZh": "如果救援隊再遲一點到達，那匹小馬可能已經瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q36",
+        "number": 36,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Simon had lost so much weight that he no longer resembled the lively teacher his friends knew.",
+        "promptZh": "西蒙消瘦了很多，已不像朋友所熟悉的那名充滿活力的老師。",
+        "starter": "After",
+        "answer": "After losing so much weight, Simon seemed more like a bag of bones than the lively teacher his friends knew.",
+        "answerZh": "西蒙大幅消瘦後，看起來與其說是朋友熟悉的活潑老師，不如說是瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q37",
+        "number": 37,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "She did not realise how extremely thin the dog was until she removed the thick blanket.",
+        "promptZh": "她直至移開厚毛毯後，才發現那隻狗極度消瘦。",
+        "starter": "Not",
+        "answer": "Not until she removed the thick blanket did she realise that the dog was a bag of bones.",
+        "answerZh": "她直至移開厚毛毯後，才發現那隻狗已經瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q38",
+        "number": 38,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The horse became extremely thin because it had gone for a long period without proper food.",
+        "promptZh": "那匹馬長時間沒有得到適當食物，因此變得極度消瘦。",
+        "starter": "It",
+        "answer": "It was the long period without proper food that turned the horse into a bag of bones.",
+        "answerZh": "正是長時間缺乏適當食物，令那匹馬瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q39",
+        "number": 39,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The stray dog was extremely thin when first found, but it slowly became strong enough to run.",
+        "promptZh": "那隻流浪狗最初被發現時極度消瘦，但後來逐漸強壯得可以奔跑。",
+        "starter": "A",
+        "answer": "A bag of bones when first found, the stray dog slowly became strong enough to run.",
+        "answerZh": "那隻流浪狗最初被發現時瘦得只剩皮包骨，後來逐漸強壯得可以奔跑。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "A bag of bones"
+      },
+      {
+        "id": "idiom-96-q40",
+        "number": 40,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The journey left the man so thin that his bones were clearly visible.",
+        "promptZh": "這段旅程令那名男子消瘦得骨頭清晰可見。",
+        "starter": "After",
+        "answer": "After the journey, the man was so thin that he looked like a bag of bones.",
+        "answerZh": "旅程過後，那名男子消瘦得看起來只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q41",
+        "number": 41,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The horse had once won races, but it returned extremely thin after months of poor care.",
+        "promptZh": "那匹馬以前曾經勝出比賽，但在幾個月的疏忽照顧後回來時已極度消瘦。",
+        "starter": "After",
+        "answer": "After months of poor care, the horse that had once won races returned as a bag of bones.",
+        "answerZh": "經過幾個月的疏忽照顧後，那匹以前曾經勝出比賽的馬回來時已瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q42",
+        "number": 42,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The dog was extremely thin when it arrived at the animal home, but six weeks of good care changed it completely.",
+        "promptZh": "那隻狗抵達動物之家時極度消瘦，但六星期的良好照顧令牠完全改變。",
+        "starter": "Although",
+        "answer": "Although the dog had arrived at the animal home as a bag of bones, six weeks of good care changed it completely.",
+        "answerZh": "雖然那隻狗抵達動物之家時瘦得只剩皮包骨，但六星期的良好照顧令牠完全改變。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q43",
+        "number": 43,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The nurse remembered the patient as a strong man, but the person standing before her was now extremely thin.",
+        "promptZh": "護士記得病人以前是一名強壯男子，但現在站在她面前的人已極度消瘦。",
+        "starter": "The",
+        "answer": "The nurse remembered a strong patient, but the man standing before her was a bag of bones.",
+        "answerZh": "護士記得病人以前是一名強壯男子，但現在站在她面前的人已瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q44",
+        "number": 44,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The family were most shocked by how their previously strong uncle had become extremely thin.",
+        "promptZh": "最令家人震驚的是，他們以前身體強壯的叔叔已變得極度消瘦。",
+        "starter": "What",
+        "answer": "What shocked the family most was that their once-strong uncle had become a bag of bones.",
+        "answerZh": "最令家人震驚的是，他們以前身體強壯的叔叔已變得瘦骨嶙峋。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q45",
+        "number": 45,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The photographs showed that their friend had lost weight, but they did not prepare them for how extremely thin he looked in person.",
+        "promptZh": "照片顯示朋友消瘦了，但仍未能讓他們預料到親眼看見他時會如此瘦骨嶙峋。",
+        "starter": "No",
+        "answer": "No photograph prepared them for seeing their friend reduced to a bag of bones.",
+        "answerZh": "沒有任何照片能令他們預料到，親眼看見朋友時，他已經瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q46",
+        "number": 46,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The rescued horse was not merely a little thin. It was extremely thin.",
+        "promptZh": "那匹獲救的馬並不只是稍為消瘦，而是極度消瘦。",
+        "starter": "Far",
+        "answer": "Far from being merely a little thin, the rescued horse was a bag of bones.",
+        "answerZh": "那匹獲救的馬絕不只是稍為消瘦，而是瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q47",
+        "number": 47,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The frightened and weak dog was extremely thin, but the animal home promised that it would recover.",
+        "promptZh": "那隻受驚而虛弱的狗極度消瘦，但動物之家承諾牠會康復。",
+        "starter": "Frightened",
+        "answer": "Frightened and weak, the dog was a bag of bones, but the animal home promised it would recover.",
+        "answerZh": "那隻狗既受驚又虛弱，而且瘦得只剩皮包骨，但動物之家承諾牠會康復。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q48",
+        "number": 48,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The volunteers could not see how extremely thin the dog was until they had washed it.",
+        "promptZh": "義工直至替那隻狗清洗後，才看出牠極度消瘦。",
+        "starter": "Only",
+        "answer": "Only after the dog was washed could the volunteers see that it was a bag of bones.",
+        "answerZh": "義工直至替那隻狗清洗後，才看出牠已瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q49",
+        "number": 49,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A fit young worker left home. When he returned years later, he looked extremely thin.",
+        "promptZh": "一名健壯的年輕工人離開家鄉。多年後回來時，他看起來極度消瘦。",
+        "starter": "Years",
+        "answer": "Years later, the fit young worker came home looking like a bag of bones.",
+        "answerZh": "多年後，這名原本健壯的年輕工人回家時看起來瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      },
+      {
+        "id": "idiom-96-q50",
+        "number": 50,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The farmer called for help in time. Without that call, the neglected sheep might eventually have become extremely thin.",
+        "promptZh": "農夫及時求助。如果沒有那次求助，那隻被疏忽照顧的羊最終可能會變得極度消瘦。",
+        "starter": "Without",
+        "answer": "Without the farmer’s call for help, the neglected sheep might have ended up as a bag of bones.",
+        "answerZh": "如果農夫沒有求助，那隻被疏忽照顧的羊最終可能會瘦得只剩皮包骨。",
+        "targetForm": "a bag of bones",
+        "targetMeaning": "A person or animal that is extremely thin, often to the point that their bones appear clearly visible.",
+        "highlight": "a bag of bones"
+      }
+    ]
+  }
+}

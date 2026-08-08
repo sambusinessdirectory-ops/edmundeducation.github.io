@@ -1,0 +1,1249 @@
+{
+  "id": "ss339",
+  "order": 339,
+  "slug": "it-was-not-long-before-clause",
+  "title": "「It was not long before + clause」表示「不久便……」",
+  "titleZh": "「It was not long before + clause」表示「不久便……」",
+  "titleEn": "Using “It was not long before + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 337 -「It was not long before + clause」表示「不久便……」.pdf",
+    "pageCount": 27,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "sha256": "1c0dbb5a89d683ae3c94b3e7f420d44f15ff0e07a1a9d283dac39133d2a6891a",
+    "sourceNumber": 337,
+    "systemOrder": 339,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 337 maps to ss339: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "It was not long before + subject + past verb + other information",
+  "formulas": [
+    {
+      "id": "ss339-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "It was not long before + subject + past verb + other information"
+    }
+  ],
+  "example": "It was not long before the team discovered another problem.",
+  "exampleZh": "沒過多久，團隊便發現了另一個問題。",
+  "examples": [
+    {
+      "id": "ss339-example-01",
+      "en": "It was not long before the team discovered another problem.",
+      "zh": "沒過多久，團隊便發現了另一個問題。",
+      "highlight": "It was not long before the team discovered another problem."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss339-rule-01",
+      "zh": "後面必須接完整子句正確：【It was not long before the train arrived.】 沒過多久，列車便到達。 錯誤：【It was not long before the train’s arrival.】 本課的目標句型要求 before 後面有主語和動詞：主語 arrived = 動詞",
+      "en": "Before It was not long before the train arrived. It was not long before the train’s arrival. the train =",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-rule-02",
+      "zh": "的真正意思是「時間很短」不是指「列車沒有到達」。它表示：【The train arrived soon.】 列車很快便到達。 因此，整個結構雖然有 not，但它表達的是某件事很快發生。",
+      "en": "Not long It was not long before the train arrived. The train arrived soon.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-rule-03",
+      "zh": "兩件事有先後次序事情的次序是：會議開始；過了很短時間；兩名成員出現分歧。學生必須保留兩件事的正確先後次序。",
+      "en": "After the meeting began, it was not long before two members disagreed.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-rule-04",
+      "zh": "子句通常使用過去式因為 It was not long 建立了過去時間，後面的事件通常也使用過去式。",
+      "en": "Before It was not long before the baby fell asleep. It was not long before the error appeared again. It was not long before the roads were closed.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-rule-05",
+      "zh": "可使用縮寫，但答案統一使用完整形式日常說話中常見：【It wasn’t long before the baby fell asleep.】 本練習的參考答案統一使用：【It was not long before the baby fell asleep.】 兩者意思相同，但完整形式較方便學生辨認句型。",
+      "en": "It wasn’t long before the baby fell asleep. It was not long before the baby fell asleep.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-rule-06",
+      "zh": "與 Before long 的分別沒過多久，團隊便發現了另一個問題。 不久，團隊便發現了另一個問題。 兩者意思相近，但語法不同：目標表達【It was not long before】是完整的時間句型；目標表達【Before long】是副詞詞組，意思近似 soon。本練習要求使用：【It was not long before + clause】",
+      "en": "It was not long before + clause It was not long before the team discovered another problem. Before long, + clause Before long, the team discovered another problem. It was not long before Before long It was not long before + clause",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-rule-07",
+      "zh": "與 It was not until 的分別團隊很快便發現了錯誤。 重點：事情很快發生。直到星期五，團隊才發現錯誤。 重點：事情到了某個較遲的時間才發生。簡單分辨：很快便發生直到某時才發生",
+      "en": "It was not long before It was not long before the team found the error. It was not until It was not until Friday that the team found the error. not long before = not until =",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-rule-08",
+      "zh": "本課不包括未來式變化未來情況可以使用：【It will not be long before + present-tense clause.】 天氣很快便會好轉。 不過，本練習只集中訓練過去式：【It was not long before + past-tense clause.】",
+      "en": "It will not be long before + present-tense clause. It will not be long before the weather improves. It was not long before + past-tense clause.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss339-benefit-01",
+      "zh": "清楚顯示兩件事相隔時間很短這個句型不只表示兩件事先後發生，還能讓讀者知道第二件事很快便出現。這兩句只交代事情的次序。這句進一步說明第一名顧客很快便到達。",
+      "en": "The shop opened. The first customer arrived. Once the shop opened, it was not long before the first customer arrived.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-benefit-02",
+      "zh": "適合敘述事件的發展你可以用這個句型說明一件事如何迅速引出另一件事，例如：問題很快出現；顧客很快作出反應；情況很快改善；門票很快售罄；某人很快發現錯誤。因此，它很適合故事、新聞、報告和事件摘要。",
+      "en": "This structure clearly narrates how one event quickly led to another—for example, a problem appeared, customers reacted, conditions improved, tickets sold out or someone discovered an error. It suits stories, news, reports and event summaries.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-benefit-03",
+      "zh": "把兩個短句連成一個有明確關係的句子較簡單的寫法：【The alarm sounded. Everyone soon left the building.】 使用目標句型：【When the alarm sounded, it was not long before everyone left the building.】 第二個版本能更清楚地連接兩件事。",
+      "en": "The alarm sounded. Everyone soon left the building. When the alarm sounded, it was not long before everyone left the building.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-benefit-04",
+      "zh": "避免重複使用 soon 和 shortly after 學生經常使用：【soon；shortly afterwards；shortly after；a few minutes later】 提供另一種自然的表達方式，令說話和寫作不會過度重複。",
+      "en": "soon shortly afterwards shortly after a few minutes later It was not long before",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-benefit-05",
+      "zh": "可以改變句子的開首和組織你可以使用不同方法開始句子：【It was not long before...；After..., it was not long before...；Once..., it was not long before...；When..., it was not long before...；Following..., it was not long before...；With..., it was not long before...】 這些變化能令文章的句子開首更多樣化。",
+      "en": "It was not long before... After..., it was not long before... Once..., it was not long before... When..., it was not long before... Following..., it was not long before... With..., it was not long before...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss339-benefit-06",
+      "zh": "可以配合主動和被動語態主動：【It was not long before customers demanded refunds.】 沒過多久，顧客便要求退款。 被動：【It was not long before all the tickets were booked.】 沒過多久，所有門票便被預訂了。 因此，這個句型可以靈活地描述人物的行動或事情受到的影響。",
+      "en": "It was not long before customers demanded refunds. It was not long before all the tickets were booked.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 337 maps to ss339: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using it was not long before + clause.",
+      "You may need to place the target structure at the beginning, in the middle or after an earlier",
+      "event.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 it was not long before ＋子句 改寫以下句子。",
+      "你可能需要把目標句型放在句首、句中，或較早發生的事件之後。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss339-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Only a short time passed before the baby fell asleep.",
+      "promptZh": "只過了很短時間，嬰兒便睡着了。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not long before the baby fell asleep.",
+      "answerZh": "沒過多久，嬰兒便睡着了。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not long before the baby fell asleep."
+    },
+    {
+      "id": "ss339-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Shortly after the lesson began, a student asked the first question.",
+      "promptZh": "課堂開始後不久，便有學生提出第一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the lesson began, it was not long before a student asked the first question.",
+      "answerZh": "課堂開始後不久，便有學生提出第一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "After the lesson began, it was not long before a student asked the first question."
+    },
+    {
+      "id": "ss339-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The rain started. Soon, the streets became wet.",
+      "promptZh": "開始下雨了。不久，街道便濕了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain started, and it was not long before the streets became wet.",
+      "answerZh": "開始下雨後不久，街道便濕了。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain started, and it was not long before the streets became wet."
+    },
+    {
+      "id": "ss339-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The shop had only just opened when the first customer arrived.",
+      "promptZh": "商店剛剛開門，第一名顧客便到達了。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the shop opened, it was not long before the first customer arrived.",
+      "answerZh": "商店開門後不久，第一名顧客便到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the shop opened, it was not long before the first customer arrived."
+    },
+    {
+      "id": "ss339-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Ben switched on the kettle, and it began to boil a few minutes later.",
+      "promptZh": "本開啟電熱水壺，幾分鐘後水壺便開始沸騰。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not long before the kettle began to boil after Ben switched it on.",
+      "answerZh": "本開啟電熱水壺後不久，水壺便開始沸騰。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not long before the kettle began to boil after Ben switched it on."
+    },
+    {
+      "id": "ss339-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The film started. Within a few minutes, everyone became quiet.",
+      "promptZh": "電影開始了。幾分鐘內，所有人都安靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the film started, it was not long before everyone became quiet.",
+      "answerZh": "電影開始後不久，所有人便安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "When the film started, it was not long before everyone became quiet."
+    },
+    {
+      "id": "ss339-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What happened soon after the dog heard the front door open? It began barking.",
+      "promptZh": "狗隻聽到前門打開後不久發生了甚麼事？牠開始吠叫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dog heard the front door open, and it was not long before it began barking.",
+      "answerZh": "狗隻聽到前門打開後不久，便開始吠叫。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog heard the front door open, and it was not long before it began barking."
+    },
+    {
+      "id": "ss339-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Shortly after the bus left, Emma realised that her bag was missing.",
+      "promptZh": "巴士開出後不久，艾瑪便發現自己的袋子不見了。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the bus left, it was not long before Emma realised that her bag was missing.",
+      "answerZh": "巴士開出後不久，艾瑪便發現自己的袋子不見了。",
+      "answerZhSource": "pdf",
+      "highlight": "After the bus left, it was not long before Emma realised that her bag was missing."
+    },
+    {
+      "id": "ss339-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The children began playing outside, and before long their clothes were covered in mud.",
+      "promptZh": "孩子們開始在戶外玩耍，不久後他們的衣服便沾滿泥濘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children began playing outside, and it was not long before their clothes were covered in mud.",
+      "answerZh": "孩子們開始在戶外玩耍後不久，衣服便沾滿泥濘。",
+      "answerZhSource": "pdf",
+      "highlight": "The children began playing outside, and it was not long before their clothes were covered in mud."
+    },
+    {
+      "id": "ss339-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We had only just sat down when the waiter brought the menus.",
+      "promptZh": "我們剛剛坐下，侍應便拿來餐牌。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We sat down, and it was not long before the waiter brought the menus.",
+      "answerZh": "我們坐下後不久，侍應便拿來餐牌。",
+      "answerZhSource": "pdf",
+      "highlight": "We sat down, and it was not long before the waiter brought the menus."
+    },
+    {
+      "id": "ss339-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The new café opened on Monday. A long queue soon formed outside.",
+      "promptZh": "新咖啡店在星期一開業。不久，店外便排起長龍。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new café opened on Monday; it was not long before a long queue formed outside.",
+      "answerZh": "新咖啡店在星期一開業後不久，店外便排起長龍。",
+      "answerZhSource": "pdf",
+      "highlight": "The new café opened on Monday; it was not long before a long queue formed outside."
+    },
+    {
+      "id": "ss339-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Soon after the teacher handed out the test papers, the room became silent.",
+      "promptZh": "老師派發試卷後不久，課室便安靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the teacher handed out the test papers, it was not long before the room became silent.",
+      "answerZh": "老師派發試卷後不久，課室便安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "After the teacher handed out the test papers, it was not long before the room became silent."
+    },
+    {
+      "id": "ss339-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The computer had barely restarted when the same error appeared again.",
+      "promptZh": "電腦剛剛重新啟動，同一個錯誤便再次出現。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not long before the same error appeared after the computer restarted.",
+      "answerZh": "電腦重新啟動後不久，同一個錯誤便再次出現。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not long before the same error appeared after the computer restarted."
+    },
+    {
+      "id": "ss339-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "What happened shortly after the concert began? The audience started singing along.",
+      "promptZh": "音樂會開始後不久發生了甚麼事？觀眾開始跟着唱。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the concert began, it was not long before the audience started singing along.",
+      "answerZh": "音樂會開始後不久，觀眾便開始跟着唱。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the concert began, it was not long before the audience started singing along."
+    },
+    {
+      "id": "ss339-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The first drops of rain fell, and the match was stopped shortly afterwards.",
+      "promptZh": "最初幾滴雨落下後不久，比賽便被中止。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first drops of rain fell; it was not long before the match was stopped.",
+      "answerZh": "最初幾滴雨落下後不久，比賽便被中止。",
+      "answerZhSource": "pdf",
+      "highlight": "The first drops of rain fell; it was not long before the match was stopped."
+    },
+    {
+      "id": "ss339-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 22
+      },
+      "prompt": "Shortly after the school introduced the new rule, several parents complained.",
+      "promptZh": "學校推出新規則後不久，數名家長便作出投訴。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the introduction of the new rule, it was not long before several parents complained.",
+      "answerZh": "新規則推出後不久，數名家長便作出投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the introduction of the new rule, it was not long before several parents complained."
+    },
+    {
+      "id": "ss339-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What happened shortly after the lift doors closed? A warning light came on.",
+      "promptZh": "升降機門關上後不久發生了甚麼事？警告燈亮了起來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lift doors closed, and it was not long before a warning light came on.",
+      "answerZh": "升降機門關上後不久，警告燈便亮了起來。",
+      "answerZhSource": "pdf",
+      "highlight": "The lift doors closed, and it was not long before a warning light came on."
+    },
+    {
+      "id": "ss339-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The nurse gave Daniel the medicine. His fever began to fall within an hour.",
+      "promptZh": "護士給丹尼爾服藥。他的體溫在一小時內開始下降。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the nurse gave Daniel the medicine, it was not long before his fever began to fall.",
+      "answerZh": "護士給丹尼爾服藥後不久，他的體溫便開始下降。",
+      "answerZhSource": "pdf",
+      "highlight": "After the nurse gave Daniel the medicine, it was not long before his fever began to fall."
+    },
+    {
+      "id": "ss339-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The website was updated in the morning, and users noticed the new feature before lunchtime.",
+      "promptZh": "網站在早上完成更新，而用戶在午膳前便注意到新功能。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website was updated in the morning, and it was not long before users noticed the new feature.",
+      "answerZh": "網站在早上完成更新後不久，用戶便注意到新功能。",
+      "answerZhSource": "pdf",
+      "highlight": "The website was updated in the morning, and it was not long before users noticed the new feature."
+    },
+    {
+      "id": "ss339-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "How long did Ava wait after sending the message before she received a reply? Only a few minutes.",
+      "promptZh": "艾娃發出訊息後等了多久才收到回覆？只有幾分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava sent the message, and it was not long before she received a reply.",
+      "answerZh": "艾娃發出訊息後不久，便收到回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava sent the message, and it was not long before she received a reply."
+    },
+    {
+      "id": "ss339-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The company launched the product, and it sold out soon afterwards.",
+      "promptZh": "公司推出產品後不久，產品便售罄。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not long before the product sold out after the company launched it.",
+      "answerZh": "公司推出產品後不久，產品便售罄。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not long before the product sold out after the company launched it."
+    },
+    {
+      "id": "ss339-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Soon after the alarm sounded, everyone left the building.",
+      "promptZh": "警鐘響起後不久，所有人便離開了大樓。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the alarm sounded, it was not long before everyone left the building.",
+      "answerZh": "警鐘響起後不久，所有人便離開了大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "When the alarm sounded, it was not long before everyone left the building."
+    },
+    {
+      "id": "ss339-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The council planted new trees along the road. Local residents soon noticed more birds in the area.",
+      "promptZh": "市議會沿路種植新樹。不久，當地居民便注意到區內有更多雀鳥。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the council planted new trees along the road, it was not long before local residents noticed more birds in the area.",
+      "answerZh": "市議會沿路種植新樹後不久，當地居民便注意到區內有更多雀鳥。",
+      "answerZhSource": "pdf",
+      "highlight": "After the council planted new trees along the road, it was not long before local residents noticed more birds in the area."
+    },
+    {
+      "id": "ss339-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The mechanic had barely started the engine when he heard an unusual noise.",
+      "promptZh": "機械技師剛剛啟動引擎，便聽到異常聲響。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The mechanic started the engine, and it was not long before he heard an unusual noise.",
+      "answerZh": "機械技師啟動引擎後不久，便聽到異常聲響。",
+      "answerZhSource": "pdf",
+      "highlight": "The mechanic started the engine, and it was not long before he heard an unusual noise."
+    },
+    {
+      "id": "ss339-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "How soon after the team began using the new system was a serious problem discovered? Within a few days.",
+      "promptZh": "團隊開始使用新系統後多久便發現嚴重問題？數天之內。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the team began using the new system, it was not long before a serious problem was discovered.",
+      "answerZh": "團隊開始使用新系統後不久，便發現了一個嚴重問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the team began using the new system, it was not long before a serious problem was discovered."
+    },
+    {
+      "id": "ss339-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The patient started the new treatment, and her condition improved shortly afterwards.",
+      "promptZh": "病人開始接受新療程後不久，病情便有所改善。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient started the new treatment; it was not long before her condition improved.",
+      "answerZh": "病人開始接受新療程後不久，病情便有所改善。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient started the new treatment; it was not long before her condition improved."
+    },
+    {
+      "id": "ss339-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The museum announced the special exhibition. All the weekend tickets were soon booked.",
+      "promptZh": "博物館公布特別展覽後，所有週末門票很快便被預訂了。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the museum’s announcement of the special exhibition, it was not long before all the weekend tickets were booked.",
+      "answerZh": "博物館公布特別展覽後不久，所有週末門票便被預訂了。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the museum’s announcement of the special exhibition, it was not long before all the weekend tickets were booked."
+    },
+    {
+      "id": "ss339-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The heavy snow began during the night. Several roads were closed by morning.",
+      "promptZh": "晚上開始下大雪。到了早上，多條道路已經封閉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The heavy snow began during the night, and it was not long before several roads were closed.",
+      "answerZh": "晚上開始下大雪後不久，多條道路便被封閉。",
+      "answerZhSource": "pdf",
+      "highlight": "The heavy snow began during the night, and it was not long before several roads were closed."
+    },
+    {
+      "id": "ss339-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 24
+      },
+      "prompt": "It took only a short time after the new coach arrived for the players to become more confident.",
+      "promptZh": "新教練到任後只過了很短時間，球員便變得更有信心。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not long before the players became more confident after the new coach arrived.",
+      "answerZh": "新教練到任後不久，球員便變得更有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not long before the players became more confident after the new coach arrived."
+    },
+    {
+      "id": "ss339-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The app became available for download. Thousands of people installed it during the first few hours.",
+      "promptZh": "應用程式開放下載後，數以千計的人在最初數小時內安裝了它。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With the app available for download, it was not long before thousands of people installed it.",
+      "answerZh": "應用程式開放下載後不久，數以千計的人便安裝了它。",
+      "answerZhSource": "pdf",
+      "highlight": "With the app available for download, it was not long before thousands of people installed it."
+    },
+    {
+      "id": "ss339-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "No sooner had the meeting begun than two members disagreed about the budget.",
+      "promptZh": "會議剛開始，兩名成員便在預算問題上出現分歧。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting began, and it was not long before two members disagreed about the budget.",
+      "answerZh": "會議開始後不久，兩名成員便在預算問題上出現分歧。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting began, and it was not long before two members disagreed about the budget."
+    },
+    {
+      "id": "ss339-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The researchers opened the sample container. A strong smell was noticed almost at once.",
+      "promptZh": "研究人員打開樣本容器後，幾乎立即便有人聞到強烈氣味。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the researchers opened the sample container, it was not long before a strong smell was noticed.",
+      "answerZh": "研究人員打開樣本容器後不久，便有人聞到強烈氣味。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the researchers opened the sample container, it was not long before a strong smell was noticed."
+    },
+    {
+      "id": "ss339-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The reporter published the article in the morning. Later that morning, the company issued a response.",
+      "promptZh": "記者在早上發表文章。同日上午稍後時間，公司便作出回應。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reporter published the article in the morning; it was not long before the company issued a response later that morning.",
+      "answerZh": "記者在早上發表文章後不久，公司便在同日上午較後時間作出回應。",
+      "answerZhSource": "pdf",
+      "highlight": "The reporter published the article in the morning; it was not long before the company issued a response later that morning."
+    },
+    {
+      "id": "ss339-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The electricity went off, and within minutes the emergency lights came on.",
+      "promptZh": "電力中斷後數分鐘內，緊急照明燈便亮了起來。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the electricity went off, it was not long before the emergency lights came on.",
+      "answerZh": "電力中斷後不久，緊急照明燈便亮了起來。",
+      "answerZhSource": "pdf",
+      "highlight": "When the electricity went off, it was not long before the emergency lights came on."
+    },
+    {
+      "id": "ss339-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The new timetable was introduced. Passengers soon began reporting shorter waiting times.",
+      "promptZh": "新時間表推出後，乘客很快便開始表示候車時間有所縮短。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the introduction of the new timetable, it was not long before passengers began reporting shorter waiting times.",
+      "answerZh": "新時間表推出後不久，乘客便開始表示候車時間有所縮短。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the introduction of the new timetable, it was not long before passengers began reporting shorter waiting times."
+    },
+    {
+      "id": "ss339-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The hikers entered the forest. They realised shortly afterwards that they had taken the wrong path.",
+      "promptZh": "遠足人士進入森林後不久，便發現自己走錯了路。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not long before the hikers realised that they had taken the wrong path after entering the forest.",
+      "answerZh": "遠足人士進入森林後不久，便發現自己走錯了路。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not long before the hikers realised that they had taken the wrong path after entering the forest."
+    },
+    {
+      "id": "ss339-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The restaurant posted the special offer online. All the tables were booked within an hour.",
+      "promptZh": "餐廳在網上發布特別優惠後，所有餐桌在一小時內便被預訂了。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the restaurant posted the special offer online, it was not long before all the tables were booked.",
+      "answerZh": "餐廳在網上發布特別優惠後不久，所有餐桌便被預訂了。",
+      "answerZhSource": "pdf",
+      "highlight": "After the restaurant posted the special offer online, it was not long before all the tables were booked."
+    },
+    {
+      "id": "ss339-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Hardly had the speaker begun the presentation when the fire alarm interrupted her.",
+      "promptZh": "講者剛開始簡報，火警鐘便打斷了她。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker began the presentation, and it was not long before the fire alarm interrupted her.",
+      "answerZh": "講者開始簡報後不久，火警鐘便打斷了她。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker began the presentation, and it was not long before the fire alarm interrupted her."
+    },
+    {
+      "id": "ss339-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The river rose rapidly after the storm. Several nearby paths soon became unsafe.",
+      "promptZh": "暴風雨後河水迅速上漲。不久，附近數條小徑便變得不安全。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With the river rising rapidly after the storm, it was not long before several nearby paths became unsafe.",
+      "answerZh": "暴風雨後河水迅速上漲，不久附近數條小徑便變得不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "With the river rising rapidly after the storm, it was not long before several nearby paths became unsafe."
+    },
+    {
+      "id": "ss339-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The school began offering free breakfast. Attendance improved soon afterwards.",
+      "promptZh": "學校開始提供免費早餐後不久，出席率便有所改善。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not long before attendance improved after the school began offering free breakfast.",
+      "answerZh": "學校開始提供免費早餐後不久，出席率便有所改善。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not long before attendance improved after the school began offering free breakfast."
+    },
+    {
+      "id": "ss339-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The hospital opened an online booking system. Many patients soon stopped calling the reception desk.",
+      "promptZh": "醫院推出網上預約系統後，很多病人很快便不再致電接待處。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the hospital opened an online booking system, it was not long before many patients stopped calling the reception desk.",
+      "answerZh": "醫院推出網上預約系統後不久，很多病人便不再致電接待處。",
+      "answerZhSource": "pdf",
+      "highlight": "After the hospital opened an online booking system, it was not long before many patients stopped calling the reception desk."
+    },
+    {
+      "id": "ss339-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The factory installed the new machines in June. Production increased noticeably in early July.",
+      "promptZh": "工廠在六月安裝新機器。到了七月初，產量便明顯增加。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The factory installed the new machines in June; it was not long before production increased noticeably in early July.",
+      "answerZh": "工廠在六月安裝新機器後，沒過多久產量便在七月初明顯增加。",
+      "answerZhSource": "pdf",
+      "highlight": "The factory installed the new machines in June; it was not long before production increased noticeably in early July."
+    },
+    {
+      "id": "ss339-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The committee released its findings. Several departments changed their procedures soon afterwards.",
+      "promptZh": "委員會公布調查結果後不久，數個部門便更改了程序。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the release of the committee’s findings, it was not long before several departments changed their procedures.",
+      "answerZh": "委員會公布調查結果後不久，數個部門便更改了程序。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the release of the committee’s findings, it was not long before several departments changed their procedures."
+    },
+    {
+      "id": "ss339-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The storm damaged the main power line. Parts of the town lost electricity within minutes.",
+      "promptZh": "暴風雨破壞主要電纜後數分鐘內，鎮內部分地區便停電。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the storm damaged the main power line, it was not long before parts of the town lost electricity.",
+      "answerZh": "暴風雨破壞主要電纜後不久，鎮內部分地區便停電。",
+      "answerZhSource": "pdf",
+      "highlight": "When the storm damaged the main power line, it was not long before parts of the town lost electricity."
+    },
+    {
+      "id": "ss339-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The university introduced the scholarship. Applications soon began arriving from across the region.",
+      "promptZh": "大學推出獎學金後不久，區內各地的申請便開始送達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The university introduced the scholarship, and it was not long before applications began arriving from across the region.",
+      "answerZh": "大學推出獎學金後不久，區內各地的申請便開始送達。",
+      "answerZhSource": "pdf",
+      "highlight": "The university introduced the scholarship, and it was not long before applications began arriving from across the region."
+    },
+    {
+      "id": "ss339-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The company admitted that the product had a fault. Customers soon demanded refunds.",
+      "promptZh": "公司承認產品存在問題後不久，顧客便要求退款。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company admitted that the product had a fault, and it was not long before customers demanded refunds.",
+      "answerZh": "公司承認產品存在問題後不久，顧客便要求退款。",
+      "answerZhSource": "pdf",
+      "highlight": "The company admitted that the product had a fault, and it was not long before customers demanded refunds."
+    },
+    {
+      "id": "ss339-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The community centre opened. Before long, every evening class became full.",
+      "promptZh": "社區中心開幕後不久，所有夜間課程便滿額。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not long before every evening class became full after the community centre opened.",
+      "answerZh": "社區中心開幕後不久，所有夜間課程便滿額。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not long before every evening class became full after the community centre opened."
+    },
+    {
+      "id": "ss339-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The research team shared its early results at a conference. Other scientists began questioning the method shortly afterwards.",
+      "promptZh": "研究團隊在會議上分享初步結果後不久，其他科學家便開始質疑其研究方法。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the research team shared its early results at a conference, it was not long before other scientists began questioning the method.",
+      "answerZh": "研究團隊在會議上分享初步結果後不久，其他科學家便開始質疑其研究方法。",
+      "answerZhSource": "pdf",
+      "highlight": "After the research team shared its early results at a conference, it was not long before other scientists began questioning the method."
+    },
+    {
+      "id": "ss339-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The city introduced a charge for disposable cups. Many cafés soon started offering discounts for reusable cups.",
+      "promptZh": "市政府開始向即棄杯收費後不久，很多咖啡店便開始為使用可重用杯的顧客提供折扣。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the city introduced a charge for disposable cups, it was not long before many cafés started offering discounts for reusable cups.",
+      "answerZh": "市政府開始向即棄杯收費後不久，很多咖啡店便開始為使用可重用杯的顧客提供折扣。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the city introduced a charge for disposable cups, it was not long before many cafés started offering discounts for reusable cups."
+    },
+    {
+      "id": "ss339-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The board approved the rescue plan late on Friday. Work began at all three sites on Monday morning.",
+      "promptZh": "董事會在星期五較後時間批准救援計劃。到了星期一早上，三個地點均已開始工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The board approved the rescue plan late on Friday; it was not long before work began at all three sites on Monday morning.",
+      "answerZh": "董事會在星期五較後時間批准救援計劃後，沒過多久三個地點便在星期一早上開始工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The board approved the rescue plan late on Friday; it was not long before work began at all three sites on Monday morning."
+    }
+  ]
+}

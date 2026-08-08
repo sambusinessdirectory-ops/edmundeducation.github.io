@@ -1,0 +1,1595 @@
+{
+  "lesson": {
+    "id": "idiom-84",
+    "order": 84,
+    "slug": "have-a-lot-of-bottle",
+    "version": "1",
+    "title": "很有膽量／勇氣十足",
+    "titleEn": "Have a Lot of Bottle",
+    "titleZh": "很有膽量／勇氣十足",
+    "source": {
+      "file": "Idiom 84 - 「Have a Lot of Bottle」.pdf",
+      "pageCount": 38,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "exercisePdfPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "answerKeyPdfPages": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "Have a Lot of Bottle",
+        "highlight": "Have a Lot of Bottle"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She has a lot of bottle.",
+        "zh": "她很有膽量。",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "en": "Those young players have a lot of bottle.",
+        "zh": "那些年輕球員很有膽量。",
+        "highlight": "have a lot of bottle"
+      }
+    ],
+    "meaning": {
+      "en": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+      "zh": "很有勇氣或膽量，願意做一件困難、令人害怕、令人不安或需要勇氣面對他人的事情。",
+      "naturalZh": [
+        "很有膽量",
+        "勇氣十足",
+        "很有勇氣",
+        "膽量過人",
+        "夠膽面對困難",
+        "有勇氣挺身而出"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "usually approving; natural in conversation, interviews, sports discussion and informal messages; less suitable for formal reports, academic essays or official letters.",
+      "summaryZh": "雖然這個表達通常帶有稱讚語氣，但實際意思仍取決於語調及語境。 在某些帶有衝突的情境中， 類似說法可能帶有諷刺意味，或暗示某人過分大膽。 本練習只教授表示真正勇氣的正面意思。",
+      "contextsEn": [
+        "British English",
+        "informal or slang",
+        "usually approving",
+        "natural in conversation, interviews, sports discussion and informal messages",
+        "less suitable for formal reports, academic essays or official letters"
+      ],
+      "contextsZh": [
+        "屬於英式英語",
+        "屬非正式或俚語用法",
+        "通常帶有欣賞或稱讚語氣",
+        "適合日常對話、訪問、體育討論及非正式訊息",
+        "較不適合正式報告、學術文章或官方信件。"
+      ],
+      "formalEn": "Informal British version:",
+      "formalZh": "屬於英式英語； 屬非正式或俚語用法； 通常帶有欣賞或稱讚語氣； 適合日常對話、訪問、體育討論及非正式訊息； 較不適合正式報告、學術文章或官方信件。"
+    },
+    "fixedVariable": {
+      "fixed": "Have a Lot of Bottle",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + have / has + a lot of bottle.",
+          "example": "She has a lot of bottle.",
+          "highlight": "has a lot of bottle"
+        },
+        {
+          "form": "Subject + had + a lot of bottle.",
+          "example": "He had a lot of bottle when he admitted his mistake.",
+          "highlight": "had a lot of bottle"
+        },
+        {
+          "form": "Subject + may / might / must / would + have + a lot of bottle.",
+          "example": "She must have a lot of bottle to perform alone.",
+          "highlight": "have a lot of bottle"
+        },
+        {
+          "form": "Subject + seem / appear + to have + a lot of bottle.",
+          "example": "He seems to have a lot of bottle.",
+          "highlight": "have a lot of bottle"
+        },
+        {
+          "form": "Subject + must have had + a lot of bottle + past action.",
+          "example": "She must have had a lot of bottle to continue after the audience became angry.",
+          "highlight": "had a lot of bottle"
+        },
+        {
+          "form": "Subject + be + said / thought / believed + to have + a lot of bottle.",
+          "example": "The reporter was said to have a lot of bottle.",
+          "highlight": "have a lot of bottle"
+        },
+        {
+          "form": "someone / anyone / a person + who + has / had + a lot of bottle",
+          "example": "We need someone who has a lot of bottle.",
+          "highlight": "has a lot of bottle"
+        },
+        {
+          "form": "Action + show / prove + that + subject + have / has / had + a lot of bottle.",
+          "example": "Her decision showed that she had a lot of bottle.",
+          "highlight": "had a lot of bottle"
+        },
+        {
+          "form": "Do / Does / Did + subject + have + a lot of bottle?",
+          "example": "Does he have a lot of bottle?",
+          "highlight": "have a lot of bottle"
+        },
+        {
+          "form": "“To + Verb” Is Not Part of the Fixed Expression",
+          "example": "To have a lot of bottle does not mean being careless.",
+          "highlight": "have a lot of bottle"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Ordinary Present Form",
+        "titleZh": "句式一：一般現在式",
+        "formula": "Subject + have / has + a lot of bottle.",
+        "descriptionEn": "Source grammar frame: Subject + have / has + a lot of bottle.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have / has + a lot of bottle。",
+        "examples": [
+          {
+            "en": "She has a lot of bottle.",
+            "zh": "她很有膽量。",
+            "highlight": "has a lot of bottle"
+          },
+          {
+            "en": "Those young players have a lot of bottle.",
+            "zh": "那些年輕球員很有膽量。",
+            "highlight": "have a lot of bottle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Past Form",
+        "titleZh": "句式二：過去式",
+        "formula": "Subject + had + a lot of bottle.",
+        "descriptionEn": "Source grammar frame: Subject + had + a lot of bottle.",
+        "descriptionZh": "原檔列出的句法框架：Subject + had + a lot of bottle。",
+        "examples": [
+          {
+            "en": "He had a lot of bottle when he admitted his mistake.",
+            "zh": "他承認自己的錯誤時，表現得很有勇氣。",
+            "highlight": "had a lot of bottle"
+          },
+          {
+            "en": "The reporter had a lot of bottle during the interview.",
+            "zh": "那名記者在訪問期間十分有膽量。",
+            "highlight": "had a lot of bottle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "句式三：接在情態動詞後",
+        "formula": "Subject + may / might / must / would + have + a lot of bottle.",
+        "descriptionEn": "The modal verb is followed by the base form have.",
+        "descriptionZh": "情態動詞後必須使用原形 have。",
+        "examples": [
+          {
+            "en": "She must have a lot of bottle to perform alone.",
+            "zh": "她敢獨自表演，一定很有膽量。",
+            "highlight": "have a lot of bottle"
+          },
+          {
+            "en": "You would need to have a lot of bottle to ask that question.",
+            "zh": "要提出那條問題，你必須很有膽量。",
+            "highlight": "have a lot of bottle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "With “Seem” or “Appear”",
+        "titleZh": "句式四：配合 seem 或 appear",
+        "formula": "Subject + seem / appear + to have + a lot of bottle.",
+        "descriptionEn": "This structure presents an impression rather than a completely certain fact.",
+        "descriptionZh": "這個句式表達說話者的觀感，而不是完全肯定的事實。",
+        "examples": [
+          {
+            "en": "He seems to have a lot of bottle.",
+            "zh": "他看來很有膽量。",
+            "highlight": "have a lot of bottle"
+          },
+          {
+            "en": "The new player appears to have a lot of bottle.",
+            "zh": "那名新球員看來很有膽量。",
+            "highlight": "have a lot of bottle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Perfect Inference",
+        "titleZh": "句式五：對過去情況作出推斷",
+        "formula": "Subject + must have had + a lot of bottle + past action.",
+        "descriptionEn": "Here, must have had expresses a strong conclusion about past courage.",
+        "descriptionZh": "在這裏，must have had 表示說話者對某人過去的勇氣作出很有把握的推斷。",
+        "examples": [
+          {
+            "en": "She must have had a lot of bottle to continue after the audience became angry.",
+            "zh": "觀眾變得憤怒後，她仍繼續下去，一定很有膽量。",
+            "highlight": "had a lot of bottle"
+          },
+          {
+            "en": "The guide must have had a lot of bottle to remain calm during the storm.",
+            "zh": "那名嚮導在暴風雨中仍保持冷靜，一定很有膽量。",
+            "highlight": "had a lot of bottle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Reporting Structure",
+        "titleZh": "句式六：報道句式",
+        "formula": "Subject + be + said / thought / believed + to have + a lot of bottle.",
+        "descriptionEn": "This structure reports other people’s opinion.",
+        "descriptionZh": "這個句式用來轉述其他人的看法。",
+        "examples": [
+          {
+            "en": "The reporter was said to have a lot of bottle.",
+            "zh": "據說那名記者很有膽量。",
+            "highlight": "have a lot of bottle"
+          },
+          {
+            "en": "She is thought to have a lot of bottle.",
+            "zh": "人們認為她很有膽量。",
+            "highlight": "have a lot of bottle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Relative Clause",
+        "titleZh": "句式七：關係子句",
+        "formula": "someone / anyone / a person + who + has / had + a lot of bottle",
+        "descriptionEn": "Source grammar frame: someone / anyone / a person + who + has / had + a lot of bottle.",
+        "descriptionZh": "原檔列出的句法框架：someone / anyone / a person + who + has / had + a lot of bottle。",
+        "examples": [
+          {
+            "en": "We need someone who has a lot of bottle.",
+            "zh": "我們需要一名很有膽量的人。",
+            "highlight": "has a lot of bottle"
+          },
+          {
+            "en": "The coach chose a player who had a lot of bottle.",
+            "zh": "教練選擇了一名很有膽量的球員。",
+            "highlight": "had a lot of bottle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Evidence or Evaluation Clause",
+        "titleZh": "句式八：證據或評價子句",
+        "formula": "Action + show / prove + that + subject + have / has / had + a lot of bottle.",
+        "descriptionEn": "Source grammar frame: Action + show / prove + that + subject + have / has / had + a lot of bottle.",
+        "descriptionZh": "原檔列出的句法框架：Action + show / prove + that + subject + have / has / had + a lot of bottle。",
+        "examples": [
+          {
+            "en": "Her decision showed that she had a lot of bottle.",
+            "zh": "她的決定顯示她很有膽量。",
+            "highlight": "had a lot of bottle"
+          },
+          {
+            "en": "What he did proved that he had a lot of bottle.",
+            "zh": "他的行動證明他很有膽量。",
+            "highlight": "had a lot of bottle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Questions",
+        "titleZh": "句式九：問句",
+        "formula": "Do / Does / Did + subject + have + a lot of bottle?",
+        "descriptionEn": "After do, does or did, use the base form have.",
+        "descriptionZh": "在 do、does 或 did 後，必須使用原形 have。",
+        "examples": [
+          {
+            "en": "Does he have a lot of bottle?",
+            "zh": "他是否很有膽量？",
+            "highlight": "have a lot of bottle"
+          },
+          {
+            "en": "Did she have a lot of bottle when she was younger?",
+            "zh": "她年輕時是否很有膽量？",
+            "highlight": "have a lot of bottle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "“Having” or “To Have” as an Idea",
+        "titleZh": "句式十：以 having 或 to have 表達概念",
+        "formula": "“To + Verb” Is Not Part of the Fixed Expression",
+        "descriptionEn": "These forms treat courage as a quality or general idea.",
+        "descriptionZh": "這些形式把勇氣視為一項特質或一般概念。",
+        "examples": [
+          {
+            "en": "To have a lot of bottle does not mean being careless.",
+            "zh": "有膽量並不代表可以魯莽行事。",
+            "highlight": "have a lot of bottle"
+          },
+          {
+            "en": "She has a lot of bottle.",
+            "zh": "她很有膽量。",
+            "highlight": "has a lot of bottle"
+          },
+          {
+            "en": "She must have a lot of bottle to speak in front of such a large crowd.",
+            "zh": "她敢在這麼多人面前發言，一定很有膽量。",
+            "highlight": "have a lot of bottle"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Praises Courage in a Lively Way",
+        "titleZh": "以生動方式稱讚勇氣",
+        "en": "The idiomatic version sounds more conversational and strongly British.",
+        "zh": "那名年輕球員很有膽量。 慣用語版本較具對話感，也帶有明顯的英式色彩。",
+        "examples": [
+          {
+            "en": "The young player had a lot of bottle.",
+            "zh": "那名年輕球員很有膽量。",
+            "highlight": "had a lot of bottle"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Evaluates Behaviour Under Pressure",
+        "titleZh": "評價某人在壓力下的行為",
+        "en": "admits a mistake; asks a difficult question; speaks before a large audience; challenges an unfair decision; continues after something goes wrong; protects or supports another person.;",
+        "zh": "這個表達適合形容某人： 承認錯誤；",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Express an Impression or Judgement",
+        "titleZh": "表達觀感或判斷",
+        "en": "The grammar allows the speaker to control certainty precisely.",
+        "zh": "她很有膽量。 她看來很有膽量。 她當時一定很有膽量。 這些句式讓說話者能準確控制確定程度。",
+        "examples": [
+          {
+            "en": "She has a lot of bottle.",
+            "zh": "她很有膽量。",
+            "highlight": "has a lot of bottle"
+          },
+          {
+            "en": "She seems to have a lot of bottle.",
+            "zh": "她看來很有膽量。",
+            "highlight": "have a lot of bottle"
+          },
+          {
+            "en": "She must have had a lot of bottle.",
+            "zh": "她當時一定很有膽量。",
+            "highlight": "had a lot of bottle"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Creates Grammatical Variety",
+        "titleZh": "提供多種句法變化",
+        "en": "modal constructions; reported opinions; relative clauses; questions; emphatic statements; clauses beginning with although, if or because.",
+        "zh": "這個表達可以用於：",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Helps Learners Understand British Conversation",
+        "titleZh": "幫助學習者理解英式對話",
+        "en": "Learners may encounter bottle meaning courage in British conversations, sports reports, television programmes and interviews. The meaning cannot be understood by interpreting the physical container literally. The expression is useful, but it is not automatically better than brave or courageous. Choose the wording that suits the situation and level of formality.",
+        "zh": "學習者可能會在英式對話、體育報道、電視節目及訪問中遇到以 bottle 表示勇氣的用法。 這個意思不能透過「瓶子」的字面意思理解。 這個表達十分實用，但並非一定比 brave 或 courageous 更好。 應按照情境及正式程度選擇合適說法。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown",
+      "statusZh": "確切來源不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, have a lot of bottle means to possess considerable courage or nerve, especially when doing something difficult or uncomfortable.",
+          "zh": "今天，have a lot of bottle 表示擁有相當大的勇氣或膽量，尤其是在進行困難或令人不安的事情時。"
+        }
+      ],
+      "memoryEn": "Do not picture many physical bottles. Picture somebody with enough courage to act when others hesitate.",
+      "memoryZh": "不要想像很多實體瓶子。應想像一個人在其他人猶豫時，仍有足夠勇氣採取行動。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “a Lot of Bottle” Fixed",
+        "titleZh": "規則一：保持 a lot of bottle 不變",
+        "en": "Keep “a Lot of Bottle” Fixed",
+        "zh": "保持 a lot of bottle 不變",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Have” Correctly",
+        "titleZh": "規則二：正確改變 have",
+        "en": "Change “Have” Correctly",
+        "zh": "正確改變 have",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "“Bottle” Is Uncountable Here",
+        "titleZh": "規則三：這裏的 bottle 是不可數名詞",
+        "en": "In this meaning, bottle does not refer to a glass or plastic container. There are several bottles on the table.",
+        "zh": "在這個意思中，bottle 並不是指玻璃或膠製容器。 桌上有幾個瓶子。 那名年輕記者很有膽量。",
+        "examples": [
+          {
+            "en": "The young reporter has a lot of bottle.",
+            "zh": "那名年輕記者很有膽量。",
+            "highlight": "has a lot of bottle"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "The Subject Must Possess the Courage",
+        "titleZh": "規則四：主語必須是擁有勇氣的人",
+        "en": "The decision is not the person showing courage.",
+        "zh": "那項決定並不是表現勇氣的人。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則五：保留時態及確定程度",
+        "en": "Do not turn may have into had unless the source establishes a completed past fact.",
+        "zh": "除非原句清楚表示已完成的過去事實，否則不要把 may have 改成 had。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Courage Is Not Recklessness",
+        "titleZh": "規則六：勇氣並不等於魯莽",
+        "en": "Dangerous or careless behaviour should not automatically be praised as courage.",
+        "zh": "她冷靜報告危險故障時十分有勇氣。 他遠超速駕駛，所以很有膽量。 危險或不顧後果的行為，不應自動被稱讚為有勇氣。",
+        "examples": [
+          {
+            "en": "She had a lot of bottle when she calmly reported the dangerous fault.",
+            "zh": "她冷靜報告危險故障時十分有勇氣。",
+            "highlight": "had a lot of bottle"
+          },
+          {
+            "en": "He drove far above the speed limit, so he had a lot of bottle.",
+            "zh": "他遠超速駕駛，所以很有膽量。",
+            "highlight": "had a lot of bottle"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve the Courageous Action",
+        "titleZh": "規則七：保留表現勇氣的行動",
+        "en": "This may be too vague in a standalone answer key. The answer should normally preserve the situation that demonstrates the courage.",
+        "zh": "這個答案放在獨立答案頁時可能過於空泛。 她質疑那項不公平的決定時很有膽量。 答案通常應保留能夠顯示勇氣的情境。",
+        "examples": [
+          {
+            "en": "She had a lot of bottle when she questioned the unfair decision.",
+            "zh": "她質疑那項不公平的決定時很有膽量。",
+            "highlight": "had a lot of bottle"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Repeat the Same Meaning Mechanically",
+        "titleZh": "規則八：不要機械式重複同一意思",
+        "en": "The second half simply defines the idiom again. The action provides evidence rather than repeating the definition.",
+        "zh": "後半部分只是再次解釋慣用語的意思。 嘉賓變得憤怒後，她仍繼續訪問，十分有膽量。 這項行動提供了勇氣的證據，而不是再次重複定義。",
+        "examples": [
+          {
+            "en": "She had a lot of bottle when she continued the interview after the guest became angry.",
+            "zh": "嘉賓變得憤怒後，她仍繼續訪問，十分有膽量。",
+            "highlight": "had a lot of bottle"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Use It in Suitable Relationships",
+        "titleZh": "規則九：在合適的人際關係中使用",
+        "en": "The employee demonstrated considerable courage.",
+        "zh": "你真的很有膽量。 一名隊員對另一名隊員說。 該員工展現了相當大的勇氣。",
+        "examples": [
+          {
+            "en": "“You have a lot of bottle,” one teammate told another.",
+            "zh": "「你真的很有膽量。」一名隊員對另一名隊員說。",
+            "highlight": "have a lot of bottle"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Confuse It with “Bottle Up”",
+        "titleZh": "規則十：不要與 bottle up 混淆",
+        "en": "= possess considerable courage = bottle up one’s feelings These expressions have different meanings and grammar.",
+        "zh": "很有膽量 = prevent oneself from expressing feelings = 把感受抑壓在心裏這兩個表達的意思及文法都不同。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "have; has; had; having; to have; may have; must have; must have had.",
+      "zh": "使用 have a lot of bottle 的認可形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-84-q01",
+        "number": 1,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Lena felt nervous, but she still gave a speech to the whole school.",
+        "promptZh": "莉娜感到緊張，但仍在全校師生面前發表演說。",
+        "starter": "Lena",
+        "answer": "Lena has a lot of bottle; she gave the speech even though she was nervous.",
+        "answerZh": "莉娜很有膽量；即使感到緊張，她仍完成了演說。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q02",
+        "number": 2,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Owen knew the manager might be angry, but he admitted that the mistake was his.",
+        "promptZh": "歐文知道經理可能會生氣，但仍承認錯誤是自己造成的。",
+        "starter": "Owen",
+        "answer": "Owen had a lot of bottle when he admitted his mistake to the manager.",
+        "answerZh": "歐文很有勇氣，向經理承認了自己的錯誤。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q03",
+        "number": 3,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "It requires great courage to ask that difficult question in front of everyone.",
+        "promptZh": "在所有人面前提出那條難答的問題，需要很大勇氣。",
+        "starter": "You",
+        "answer": "You have a lot of bottle if you can ask that difficult question in front of everyone.",
+        "answerZh": "如果你能在所有人面前提出那條難答的問題，你的確很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q04",
+        "number": 4,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The new goalkeeper volunteered to face the final penalty, although the pressure was very high.",
+        "promptZh": "雖然壓力很大，新守門員仍自願面對最後一個十二碼。",
+        "starter": "The",
+        "answer": "The new goalkeeper has a lot of bottle; she volunteered to face the final penalty.",
+        "answerZh": "這名新守門員很有膽量；她自願面對最後一個十二碼。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q05",
+        "number": 5,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Sam calmly told the rude customer to stop shouting at the new worker.",
+        "promptZh": "森姆冷靜地要求那名無禮的顧客停止向新員工大叫。",
+        "starter": "I",
+        "answer": "I think Sam has a lot of bottle because he calmly told the rude customer to stop.",
+        "answerZh": "我認為森姆很有膽量，因為他冷靜地要求那名無禮的顧客停下來。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q06",
+        "number": 6,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Nora agreed to sing alone on stage, even though it was her first solo performance.",
+        "promptZh": "雖然這是諾拉第一次獨唱表演，她仍答應獨自在台上唱歌。",
+        "starter": "Nora",
+        "answer": "Nora must have a lot of bottle to sing alone on stage.",
+        "answerZh": "諾拉敢獨自在台上唱歌，一定很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q07",
+        "number": 7,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Everyone else stayed silent, but the boy told the truth.",
+        "promptZh": "其他人都保持沉默，但那名男孩說出了真相。",
+        "starter": "The",
+        "answer": "The boy had a lot of bottle when he told the truth while everyone else stayed silent.",
+        "answerZh": "其他人都保持沉默時，那名男孩仍說出真相，實在很有勇氣。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q08",
+        "number": 8,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Chloe entered a competition even though she did not know anybody there.",
+        "promptZh": "雖然克洛伊在比賽中一個人也不認識，她仍報名參加。",
+        "starter": "Chloe",
+        "answer": "Chloe clearly has a lot of bottle; she entered the competition without knowing anyone there.",
+        "answerZh": "克洛伊顯然很有膽量；即使在比賽中一個人也不認識，她仍參加了。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q09",
+        "number": 9,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The meeting was tense and nobody wanted to speak first. Only a very brave person would do it.",
+        "promptZh": "會議氣氛緊張，沒有人願意先發言。只有非常勇敢的人才會這樣做。",
+        "starter": "It",
+        "answer": "It takes someone who has a lot of bottle to speak first in such a tense meeting.",
+        "answerZh": "要在如此緊張的會議中率先發言，必須是很有膽量的人。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q10",
+        "number": 10,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Amir reported his own mistake instead of trying to hide it.",
+        "promptZh": "阿米爾沒有嘗試隱瞞，而是主動報告自己的錯誤。",
+        "starter": "Amir",
+        "answer": "Amir showed that he had a lot of bottle when he reported his own mistake.",
+        "answerZh": "阿米爾主動報告自己的錯誤，顯示他很有勇氣。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q11",
+        "number": 11,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Rachel is a brave climber, but she still checks all her equipment carefully.",
+        "promptZh": "瑞秋是一名勇敢的攀爬者，但仍會仔細檢查所有裝備。",
+        "starter": "Rachel",
+        "answer": "Rachel may have a lot of bottle, but she still prepares carefully before every climb.",
+        "answerZh": "瑞秋或許很有膽量，但每次攀爬前仍會仔細準備。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q12",
+        "number": 12,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The actor performs live, knowing that he cannot stop and begin the scene again.",
+        "promptZh": "這名演員進行現場表演，知道自己不能停下來重新開始一幕。",
+        "starter": "The",
+        "answer": "The actor seems to have a lot of bottle; he performs live with no chance to start again.",
+        "answerZh": "這名演員看來很有膽量；他進行現場表演，沒有重新開始的機會。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q13",
+        "number": 13,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A person would need great courage to question the head teacher’s unfair decision in front of the whole school.",
+        "promptZh": "要在全校師生面前質疑校長不公平的決定，需要很大勇氣。",
+        "starter": "You",
+        "answer": "You would have to have a lot of bottle to question the head teacher’s unfair decision in front of the whole school.",
+        "answerZh": "要在全校師生面前質疑校長不公平的決定，你必須很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q14",
+        "number": 14,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "People praised the reporter for daring to ask the minister several hard questions.",
+        "promptZh": "人們稱讚那名記者有勇氣向部長提出幾條尖銳問題。",
+        "starter": "The",
+        "answer": "The reporter was said to have a lot of bottle because she asked the minister several hard questions.",
+        "answerZh": "那名記者被形容為很有膽量，因為她向部長提出了幾條尖銳問題。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q15",
+        "number": 15,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The debate has not begun. Any brave person may volunteer to speak first.",
+        "promptZh": "辯論尚未開始。任何有勇氣的人都可以自願率先發言。",
+        "starter": "Anyone",
+        "answer": "Anyone who has a lot of bottle can volunteer to open the debate.",
+        "answerZh": "任何很有膽量的人都可以自願為辯論作開場。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q16",
+        "number": 16,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Grace was normally quiet, but she calmly led the rescue drill when the teacher was absent.",
+        "promptZh": "嘉莉絲平日很安靜，但老師不在時，她冷靜地帶領了救援演習。",
+        "starter": "I",
+        "answer": "I never realised that Grace had a lot of bottle until she led the rescue drill.",
+        "answerZh": "直至嘉莉絲帶領救援演習，我才發現她原來很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q17",
+        "number": 17,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Leo was nervous, but his courage helped him tell the managers honestly that the plan would fail.",
+        "promptZh": "里奧感到緊張，但勇氣令他向經理坦白指出計劃會失敗。",
+        "starter": "Having",
+        "answer": "Having a lot of bottle helped Leo tell the managers honestly that the plan would fail.",
+        "answerZh": "里奧很有勇氣，因此能向經理坦白指出計劃會失敗。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "Having a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q18",
+        "number": 18,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Priya can make difficult decisions and speak calmly when the team is under pressure. This makes her a strong captain.",
+        "promptZh": "團隊受壓時，普莉雅能作出困難決定並冷靜發言，令她成為出色的隊長。",
+        "starter": "The",
+        "answer": "The fact that Priya has a lot of bottle under pressure makes her a strong team captain.",
+        "answerZh": "普莉雅在壓力下仍很有膽量，這令她成為一名出色的隊長。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q19",
+        "number": 19,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "He forgot his lines, but he found the courage to return to the stage and continue.",
+        "promptZh": "他忘記了台詞，但仍鼓起勇氣返回舞台繼續表演。",
+        "starter": "He",
+        "answer": "He does have a lot of bottle; he returned to the stage after forgetting his lines.",
+        "answerZh": "他的確很有膽量；忘記台詞後仍返回舞台。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q20",
+        "number": 20,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: Aaron volunteered for the hardest part of the school play. B: Would you call that brave?",
+        "promptZh": "甲：亞倫自願演出學校話劇中最困難的部分。 乙：你會說這是勇敢的表現嗎？",
+        "starter": "Do",
+        "answer": "Do you think Aaron has a lot of bottle after he volunteered for the hardest part of the school play?",
+        "answerZh": "亞倫自願演出學校話劇中最困難的部分後，你認為他是否很有膽量？",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q21",
+        "number": 21,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Eva was brave enough to lead the project, but she still asked an expert to check the plan.",
+        "promptZh": "伊娃有勇氣領導項目，但仍請專家檢查計劃。",
+        "starter": "Although",
+        "answer": "Although Eva had a lot of bottle, she still asked an expert to check the plan.",
+        "answerZh": "雖然伊娃很有膽量，但仍請專家檢查計劃。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q22",
+        "number": 22,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Ben will prove that he is brave if he tells the group that the plan is unfair.",
+        "promptZh": "如果本告訴小組這個計劃並不公平，便能證明自己有勇氣。",
+        "starter": "If",
+        "answer": "If Ben has a lot of bottle, he will tell the group that the plan is unfair.",
+        "answerZh": "如果本真的很有膽量，他便會告訴小組這個計劃並不公平。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q23",
+        "number": 23,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The youngest speaker surprised us by answering every question calmly and without fear.",
+        "promptZh": "最年輕的講者毫不畏懼地冷靜回答每條問題，令我們十分驚訝。",
+        "starter": "What",
+        "answer": "What impressed us was that the youngest speaker had a lot of bottle and answered every question calmly.",
+        "answerZh": "最令我們佩服的是，最年輕的講者很有膽量，而且冷靜地回答每條問題。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q24",
+        "number": 24,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "For the final round of the debating competition, the coach wanted a player who would not be frightened by pressure.",
+        "promptZh": "在辯論比賽的最後一輪，教練希望派出一名不會被壓力嚇倒的隊員。",
+        "starter": "The",
+        "answer": "The coach wanted a player who had a lot of bottle for the final round of the debating competition.",
+        "answerZh": "教練希望在辯論比賽最後一輪派出一名很有膽量的隊員。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q25",
+        "number": 25,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Brave people are often willing to speak when everybody else remains silent.",
+        "promptZh": "勇敢的人往往願意在其他人都保持沉默時發言。",
+        "starter": "People",
+        "answer": "People who have a lot of bottle are often willing to speak when others remain silent.",
+        "answerZh": "很有膽量的人往往願意在其他人保持沉默時發言。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q26",
+        "number": 26,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Iris politely challenged an unfair school rule. Her teacher praised her courage afterwards.",
+        "promptZh": "艾莉絲有禮貌地質疑一項不公平的校規。老師其後稱讚了她的勇氣。",
+        "starter": "You",
+        "answer": "“You have a lot of bottle,” the teacher told Iris after she challenged the unfair rule politely.",
+        "answerZh": "艾莉絲有禮貌地質疑不公平的規則後，老師對她說：「你真的很有膽量。」",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q27",
+        "number": 27,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The guest became angry, but the interviewer found the courage to continue asking questions.",
+        "promptZh": "嘉賓變得憤怒，但訪問者仍鼓起勇氣繼續提問。",
+        "starter": "She",
+        "answer": "She must have had a lot of bottle to continue the interview after the guest became angry.",
+        "answerZh": "嘉賓變得憤怒後，她仍繼續訪問，一定很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q28",
+        "number": 28,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Daniel defended the new student when several classmates were laughing at him. Everyone agreed that this was brave.",
+        "promptZh": "幾名同學取笑新生時，丹尼爾為他辯護。全班都認為這是勇敢的表現。",
+        "starter": "The",
+        "answer": "The whole class agreed that Daniel had a lot of bottle when he defended the new student.",
+        "answerZh": "全班都認為丹尼爾為新生辯護時很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q29",
+        "number": 29,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "He looks brave enough to volunteer, although I am not sure whether he can remain calm under pressure.",
+        "promptZh": "他看來有足夠勇氣自願參與，但我不肯定他在壓力下能否保持冷靜。",
+        "starter": "He",
+        "answer": "He appears to have a lot of bottle, but I do not know whether he can stay calm under pressure.",
+        "answerZh": "他看來很有膽量，但我不知道他在壓力下能否保持冷靜。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q30",
+        "number": 30,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Being brave is different from taking an unsafe risk without thinking.",
+        "promptZh": "勇敢與未經思考便冒不安全的風險並不相同。",
+        "starter": "To",
+        "answer": "To have a lot of bottle does not mean taking foolish risks.",
+        "answerZh": "很有膽量並不代表要作出愚蠢的冒險行為。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q31",
+        "number": 31,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Aisha was brave enough to volunteer for the most difficult part of the project presentation.",
+        "promptZh": "艾莎有勇氣自願講解項目簡報中最困難的部分。",
+        "starter": "Because",
+        "answer": "Because Aisha has a lot of bottle, she volunteered to present the difficult part of the project.",
+        "answerZh": "艾莎很有膽量，因此自願講解項目中最困難的部分。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q32",
+        "number": 32,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "In a live interview, only a very brave person would ask the company owner that question.",
+        "promptZh": "在現場訪問中，只有非常勇敢的人才會向公司老闆提出那條問題。",
+        "starter": "Only",
+        "answer": "Only someone who has a lot of bottle would ask the company owner that question in a live interview.",
+        "answerZh": "只有很有膽量的人，才會在現場訪問中向公司老闆提出那條問題。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q33",
+        "number": 33,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "One of the young comedian’s jokes failed, but she continued the show instead of leaving the stage.",
+        "promptZh": "那名年輕喜劇演員有一個笑話未能引起反應，但她沒有離開舞台，反而繼續表演。",
+        "starter": "The",
+        "answer": "The audience could tell that the young comedian had a lot of bottle when she continued after a joke failed.",
+        "answerZh": "年輕喜劇演員在笑話失敗後仍繼續表演，觀眾看得出她很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q34",
+        "number": 34,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Marcus spoke against the unfair decision even though several senior managers were present.",
+        "promptZh": "即使多名高級經理在場，馬克斯仍公開反對那項不公平的決定。",
+        "starter": "No",
+        "answer": "No one can deny that Marcus has a lot of bottle after he spoke against the unfair decision.",
+        "answerZh": "馬克斯公開反對那項不公平的決定後，沒有人可以否認他很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q35",
+        "number": 35,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "During the storm, the guide remained calm and led everyone safely back to shelter.",
+        "promptZh": "暴風雨期間，嚮導保持冷靜，帶領所有人安全返回避風處。",
+        "starter": "The",
+        "answer": "The guide must have had a lot of bottle to remain calm and lead everyone back to shelter during the storm.",
+        "answerZh": "嚮導在暴風雨中保持冷靜，並帶領所有人返回避風處，一定很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q36",
+        "number": 36,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Helen seems quiet, but she speaks bravely whenever an important issue must be discussed.",
+        "promptZh": "海倫看來很安靜，但每當需要討論重要問題時，她都會勇敢發言。",
+        "starter": "Although",
+        "answer": "Although she seems quiet, Helen has a lot of bottle when something important needs to be said.",
+        "answerZh": "雖然海倫看來很安靜，但有重要事情需要說出時，她很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q37",
+        "number": 37,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The team needed somebody brave to speak to a difficult client, so they chose Rosa.",
+        "promptZh": "團隊需要一名有勇氣的人與難以應付的客戶交談，因此選擇了羅莎。",
+        "starter": "The",
+        "answer": "The team knew that Rosa had a lot of bottle, so they asked her to speak to the difficult client.",
+        "answerZh": "團隊知道羅莎很有膽量，所以請她與那名難以應付的客戶交談。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q38",
+        "number": 38,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Jamal entered the national speaking contest even though he knew that winning would be difficult. His courage deserves respect whatever the result is.",
+        "promptZh": "賈馬爾知道勝出並不容易，仍參加全國演講比賽。無論結果如何，他的勇氣都值得尊重。",
+        "starter": "Whether",
+        "answer": "Whether or not he wins, Jamal has shown that he has a lot of bottle by entering the national speaking contest.",
+        "answerZh": "無論能否勝出，賈馬爾參加全國演講比賽，已顯示他很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q39",
+        "number": 39,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The crowd asked angry questions, but the volunteer answered them calmly. In my opinion, that was very brave.",
+        "promptZh": "群眾提出憤怒的問題，但那名義工仍冷靜回答。我認為這是非常勇敢的表現。",
+        "starter": "I",
+        "answer": "I would say that the volunteer has a lot of bottle, especially after answering the crowd’s angry questions.",
+        "answerZh": "我會說那名義工很有膽量，尤其是他回答了群眾憤怒的問題之後。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q40",
+        "number": 40,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Courage is useful, but a brave person must still know when to act carefully.",
+        "promptZh": "勇氣很有用，但勇敢的人仍必須知道何時應小心行事。",
+        "starter": "Having",
+        "answer": "Having a lot of bottle is useful, but knowing when to be careful matters just as much.",
+        "answerZh": "很有膽量固然有用，但知道何時應小心也同樣重要。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "Having a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q41",
+        "number": 41,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The quietest student offered to speak to the whole school. The head teacher had not expected such courage from her.",
+        "promptZh": "全班最安靜的學生自願向全校發言。校長沒有預期她會有這樣的勇氣。",
+        "starter": "The",
+        "answer": "The head teacher was surprised to discover that the quietest student had a lot of bottle when she offered to address the whole school.",
+        "answerZh": "最安靜的學生自願向全校發言時，校長驚訝地發現她原來很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q42",
+        "number": 42,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "During the fire drill, the new monitor calmly guided the younger pupils outside. Only then did we understand how brave he was.",
+        "promptZh": "火警演習期間，新班長冷靜地帶領年幼學生到室外。直至那時，我們才明白他有多勇敢。",
+        "starter": "It",
+        "answer": "It was only after he guided the younger pupils out calmly during the fire drill that we realised the new monitor had a lot of bottle.",
+        "answerZh": "直至新班長在火警演習中冷靜地帶領年幼學生離開，我們才發現他很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q43",
+        "number": 43,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The company needed a brave worker to explain an unpopular change to the staff.",
+        "promptZh": "公司需要一名有勇氣的員工，向其他員工解釋一項不受歡迎的改動。",
+        "starter": "The",
+        "answer": "The company chose a worker who had a lot of bottle to explain the unpopular change to the staff.",
+        "answerZh": "公司選擇了一名很有膽量的員工，向其他員工解釋那項不受歡迎的改動。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q44",
+        "number": 44,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "She will show real courage if she admits to the group that the mistake was hers.",
+        "promptZh": "如果她向小組承認錯誤是自己造成的，便能顯示真正的勇氣。",
+        "starter": "If",
+        "answer": "If she really has a lot of bottle, she will admit that the mistake was hers.",
+        "answerZh": "如果她真的很有膽量，便會承認錯誤是自己造成的。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q45",
+        "number": 45,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Mei questioned the decision in public even though several powerful people supported it. Her courage is impossible to deny.",
+        "promptZh": "即使多名有權勢的人支持那項決定，美仍公開提出質疑。她的勇氣不容否認。",
+        "starter": "You",
+        "answer": "You cannot deny that Mei has a lot of bottle after she questioned the decision in public.",
+        "answerZh": "美公開質疑那項決定後，你不能否認她很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "has a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q46",
+        "number": 46,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The presenter may be very brave, but courage does not remove the need to prepare.",
+        "promptZh": "講者可能非常勇敢，但勇氣不會令準備工作變得不再必要。",
+        "starter": "The",
+        "answer": "The presenter may have a lot of bottle, but even brave people need time to prepare.",
+        "answerZh": "講者可能很有膽量，但即使是勇敢的人也需要時間準備。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q47",
+        "number": 47,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A nurse noticed that the wrong medicine was about to be given to a patient and immediately warned the team. This took real courage.",
+        "promptZh": "一名護士發現病人即將獲發錯誤藥物，便立即提醒團隊。這需要真正的勇氣。",
+        "starter": "What",
+        "answer": "What the nurse did proved that she had a lot of bottle: she spoke up when the wrong medicine was about to be given to a patient.",
+        "answerZh": "護士在病人即將獲發錯誤藥物時立即提出警告，證明她很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q48",
+        "number": 48,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "People believe that the reporter is very brave because she often works in places affected by floods and storms.",
+        "promptZh": "人們認為那名記者非常勇敢，因為她經常在受水災和暴風雨影響的地方工作。",
+        "starter": "She",
+        "answer": "She is thought to have a lot of bottle because she often reports from places affected by floods and storms.",
+        "answerZh": "人們認為她很有膽量，因為她經常在受水災和暴風雨影響的地方進行報道。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q49",
+        "number": 49,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Leading the staff discussion about new working hours would require both courage and excellent listening skills.",
+        "promptZh": "帶領員工討論新的工作時間，需要勇氣和出色的聆聽技巧。",
+        "starter": "To",
+        "answer": "To lead the staff discussion about new working hours, you would need to have a lot of bottle and excellent listening skills.",
+        "answerZh": "要帶領員工討論新的工作時間，你既要很有膽量，也要有出色的聆聽技巧。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "have a lot of bottle"
+      },
+      {
+        "id": "idiom-84-q50",
+        "number": 50,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "He forgot part of his speech and left the microphone for a moment. Then he returned and finished the speech. That showed real courage.",
+        "promptZh": "他忘記了部分演說內容，並一度離開咪高峰。其後他返回並完成演說，顯示了真正的勇氣。",
+        "starter": "After",
+        "answer": "After seeing him return to the microphone and finish the speech, I knew he had a lot of bottle.",
+        "answerZh": "看到他返回咪高峰並完成演說後，我知道他真的很有膽量。",
+        "targetForm": "Have a Lot of Bottle",
+        "targetMeaning": "To be very brave, confident or willing to do something difficult, frightening, uncomfortable or socially risky.",
+        "highlight": "had a lot of bottle"
+      }
+    ]
+  }
+}

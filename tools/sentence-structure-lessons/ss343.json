@@ -1,0 +1,1249 @@
+{
+  "id": "ss343",
+  "order": 343,
+  "slug": "gone-are-the-days-when-clause",
+  "title": "「Gone are the days when + clause」表達「昔日已成過去」",
+  "titleZh": "「Gone are the days when + clause」表達「昔日已成過去」",
+  "titleEn": "Using “Gone are the days when + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 341 -「Gone are the days when + clause」表達「昔日已成過去」.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sha256": "9bcd7b6bff2910215d59914ac91ba8876ffb0a98f631cd20e680b7f8a57e1824",
+    "sourceNumber": 341,
+    "systemOrder": 343,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 341 maps to ss343: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Gone are the days when + clause",
+  "formulas": [
+    {
+      "id": "ss343-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Gone are the days when + clause"
+    }
+  ],
+  "example": "Gone are the days when people waited weeks for an overseas letter.",
+  "exampleZh": "人們要等候數星期才收到海外信件的年代已經過去了。",
+  "examples": [
+    {
+      "id": "ss343-example-01",
+      "en": "Gone are the days when people waited weeks for an overseas letter.",
+      "zh": "人們要等候數星期才收到海外信件的年代已經過去了。",
+      "highlight": "Gone are the days when people waited weeks for an overseas letter."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss343-rule-01",
+      "zh": "倒裝句 Gone are the days when... 要把 Gone 放在 be 動詞之前，再接主語 the days；不可把主語移到 are 前面。",
+      "en": "“Gone” is placed before the verb Gone are the days when people wrote every message by hand. Gone the days are when people wrote every message by hand. Gone + are + the days",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss343-rule-02",
+      "zh": "真正的主語是複數名詞 the days，因此要使用 are。",
+      "en": "The verb must be “are” The true subject is the plural noun the days, so the verb is are. Gone are the days when... Gone is the days when...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss343-rule-03",
+      "zh": "在這個句型中，gone 表示「已成過去」或「已經消失」。它並不是一個被動語態，也不是表示某些日子「去了某個地方」。",
+      "en": "“Gone” describes the condition of “the days”",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss343-rule-04",
+      "zh": "在【when】後面的子句說明我們所指的是哪一段日子或哪一個年代。這裏的 when employees wrote every report by hand 修飾 the days。詞語【when】並不是用來提出問題，因此句末不使用問號。",
+      "en": "“When” describes which days Gone are the days when employees wrote every report by hand.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss343-rule-05",
+      "zh": "在 Gone are the days when... 中，when 子句通常描述過去情況。可用一般過去式說明昔日習慣，用 used to 表示過往常態，用 had to 表示當時的必要，用 could／could not 表示能力或限制，也可用 was／were expected to 說明過去的社會期望。",
+      "en": "The “when” clause normally describes a past situation past simple when people paid every bill in cash used to + base verb when people used to store every photograph in an album had to + base verb when passengers had to wait without any travel information could / could not + base verb when students could pass by memorising facts alone was / were expected to + base verb when junior employees were expected to remain silent",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss343-rule-06",
+      "zh": "以【when】為例：子句直接修飾 the days，因此兩者之間不加逗號。",
+      "en": "Do not place a comma before “when” Gone are the days when every document was sent by fax. Gone are the days, when every document was sent by fax.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss343-rule-07",
+      "zh": "前置範圍語或語氣副詞後面通常使用逗號。",
+      "en": "Use a comma after an introductory phrase In many workplaces, gone are the days when staff wore formal clothes every day. Thankfully, gone are the days when pupils were punished for asking questions.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss343-rule-08",
+      "zh": "目標表達【Gone are the days when...】表示某種情況已經結束，或已不再是正常做法。如果某種情況只是略為減少，卻仍然十分普遍，便不應隨意使用這個句型。這句可能過於絕對，因為很多人仍然使用現金。對很多購物者而言，每次購物都攜帶現金的日子已成過去。 加入 For many shoppers 可以更準確地限制適用範圍。",
+      "en": "The expression makes a strong claim Gone are the days when... Too broad: Gone are the days when people use cash. More accurate: For many shoppers, gone are the days when they carried cash for every purchase. Gone are the days when + clause. In / At / Within + place, gone are the days when + clause. For + group, gone are the days when + clause. With + new development, gone are the days when + clause. Long gone are the days when + clause. For + group, long gone are the days when + clause. Thankfully / Fortunately / Sadly, gone are the days when + clause. For better or worse, gone are the days when + clause.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss343-benefit-01",
+      "zh": "讀者可以立即明白，某種舊有習慣或情況現在已經不再普遍。",
+      "en": "It makes a change between the past and present immediately clear The reader can immediately understand that an old habit or situation is no longer normal today.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss343-benefit-02",
+      "zh": "你不需要分開兩句描述昔日情況和今天的改變，也可以把兩者合併成一句。第二句直接把「昔日的做法已經結束」放在同一句中，關係更清楚。",
+      "en": "It combines the old situation and the present change Instead of explaining the past and present in two separate sentences, you can present the whole change in one sentence. Compare: People once had to visit a bank counter to pay every bill. They no longer need to do this. Gone are the days when people had to visit a bank counter to pay every bill.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss343-benefit-03",
+      "zh": "以 Gone 開始句子，可以突出某個舊時代或舊做法已經結束。這特別適合用來討論：科技（technology）；教育（education）；工作模式交通（transport）；社會觀念公共服務",
+      "en": "It gives strong emphasis to social or technological change Beginning with Gone draws attention to the fact that an old period has ended. working life social attitudes public services",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss343-benefit-04",
+      "zh": "你可以加入 thankfully、fortunately 或 sadly，表達你認為這項改變值得高興還是令人惋惜。值得慶幸的是，職場欺凌被置之不理的日子已經過去了。 令人惋惜的是，全家人每晚一起吃晚飯的日子已經過去了。",
+      "en": "It allows you to show your attitude towards the change You can add thankfully, fortunately or sadly to show whether you see the change as positive or negative. Thankfully, gone are the days when workplace bullying was simply ignored. Sadly, gone are the days when the whole family ate dinner together every evening.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss343-benefit-05",
+      "zh": "很多學習者經常以 People、Workers 或 Students 等主語開始句子。這個倒裝句能提供另一種句首寫法，使文章不會過於重複。",
+      "en": "It gives you more varied sentence openings Many learners begin most sentences with the subject: People no longer... Workers no longer... Students no longer... Gone are the days when... gives you another way to organise and begin the sentence.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss343-benefit-06",
+      "zh": "這個句型可以先提出一項重要轉變，然後再解釋轉變的原因、影響或重要性，因此適合用於作文、報告、演說和討論。",
+      "en": "It is useful in essays, reports, speeches and discussions The structure helps you introduce a major change before explaining its causes, effects or importance.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 341 maps to ss343: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Gone are the days when + clause.",
+      "You may need to use an introductory phrase, an attitude adverb or long gone according to the",
+      "meaning and first-word hint.",
+      "Preserve the original meaning and scope. Do not make the statement broader or stronger than",
+      "the source.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Gone are the days when + 子句 改寫以下句子。",
+      "你可能需要按照原句意思和第一字提示，使用前置範圍語、語氣副詞或 long gone。",
+      "保留原句的意思和適用範圍，不要令答案比原句更廣泛或更絕對。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss343-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The days when people wrote every message by hand are gone.",
+      "promptZh": "人們用手寫每一則訊息的年代已經過去了。",
+      "promptZhSource": "pdf",
+      "starter": "Gone",
+      "answer": "Gone are the days when people wrote every message by hand.",
+      "answerZh": "人們用手寫每一則訊息的年代已經一去不返。",
+      "answerZhSource": "pdf",
+      "highlight": "Gone are the days when people wrote every message by hand."
+    },
+    {
+      "id": "ss343-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Children no longer have to share one computer with an entire class.",
+      "promptZh": "孩子們不再需要全班共用一部電腦。",
+      "promptZhSource": "pdf",
+      "starter": "Gone",
+      "answer": "Gone are the days when children had to share one computer with an entire class.",
+      "answerZh": "孩子們需要全班共用一部電腦的日子已經過去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Gone are the days when children had to share one computer with an entire class."
+    },
+    {
+      "id": "ss343-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is no longer common for families to wait several weeks for news from relatives overseas.",
+      "promptZh": "家庭等候數星期才收到海外親友消息的情況已不再常見。",
+      "promptZhSource": "pdf",
+      "starter": "Gone",
+      "answer": "Gone are the days when families waited several weeks for news from relatives overseas.",
+      "answerZh": "家庭要等候數星期才收到海外親友消息的年代已經過去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Gone are the days when families waited several weeks for news from relatives overseas."
+    },
+    {
+      "id": "ss343-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Most travellers now use digital maps instead of carrying a paper map for every journey.",
+      "promptZh": "大部分旅客現在使用電子地圖，而不是每次出行都攜帶紙本地圖。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For most travellers, gone are the days when they carried a paper map for every journey.",
+      "answerZh": "對大部分旅客而言，每次出行都攜帶紙本地圖的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "For most travellers, gone are the days when they carried a paper map for every journey."
+    },
+    {
+      "id": "ss343-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At our school, copying every note from the board has become a thing of the past.",
+      "promptZh": "在我們學校，把黑板上的每項筆記全部抄下來已成為過去。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At our school, gone are the days when students copied every note from the board.",
+      "answerZh": "在我們學校，學生把黑板上的每項筆記全部抄下來的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "At our school, gone are the days when students copied every note from the board."
+    },
+    {
+      "id": "ss343-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "People once queued at a bank counter to pay every bill, but that period is over.",
+      "promptZh": "人們以往要在銀行櫃位排隊繳付每張帳單，但那個年代已經過去了。",
+      "promptZhSource": "pdf",
+      "starter": "Gone",
+      "answer": "Gone are the days when people queued at a bank counter to pay every bill.",
+      "answerZh": "人們要在銀行櫃位排隊繳付每張帳單的年代已經過去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Gone are the days when people queued at a bank counter to pay every bill."
+    },
+    {
+      "id": "ss343-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Workers at this factory no longer handle dangerous chemicals without protective equipment.",
+      "promptZh": "這間工廠的工人不再於沒有防護裝備的情況下處理危險化學品。",
+      "promptZhSource": "pdf",
+      "starter": "Thankfully",
+      "answer": "Thankfully, gone are the days when workers at this factory handled dangerous chemicals without protective equipment.",
+      "answerZh": "值得慶幸的是，這間工廠的工人在沒有防護裝備下處理危險化學品的日子已經過去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Thankfully, gone are the days when workers at this factory handled dangerous chemicals without protective equipment."
+    },
+    {
+      "id": "ss343-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The period when our town had no late-night bus service has ended.",
+      "promptZh": "本鎮沒有深夜巴士服務的時期已經結束。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In our town, gone are the days when there was no late-night bus service.",
+      "answerZh": "在我們鎮，沒有深夜巴士服務的日子已經成為過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In our town, gone are the days when there was no late-night bus service."
+    },
+    {
+      "id": "ss343-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is no longer normal for office staff to send every document by fax.",
+      "promptZh": "辦公室職員用傳真發送每份文件的做法已不再普遍。",
+      "promptZhSource": "pdf",
+      "starter": "Gone",
+      "answer": "Gone are the days when office staff sent every document by fax.",
+      "answerZh": "辦公室職員用傳真發送每份文件的年代已經過去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Gone are the days when office staff sent every document by fax."
+    },
+    {
+      "id": "ss343-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Most homes once had only one telephone, but that era has ended.",
+      "promptZh": "大部分家庭以往只有一部電話，但那個年代已經結束。",
+      "promptZhSource": "pdf",
+      "starter": "Long",
+      "answer": "Long gone are the days when most homes had only one telephone.",
+      "answerZh": "大部分家庭只有一部電話的年代早已一去不返。",
+      "answerZhSource": "pdf",
+      "highlight": "Long gone are the days when most homes had only one telephone."
+    },
+    {
+      "id": "ss343-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A single textbook used to be the class’s only source of information. This is no longer true in most classrooms.",
+      "promptZh": "一本課本以往是全班唯一的資料來源。這種情況在大部分課室已不再存在。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In most classrooms, gone are the days when a single textbook was the class’s only source of information.",
+      "answerZh": "在大部分課室，一本課本是全班唯一資料來源的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In most classrooms, gone are the days when a single textbook was the class’s only source of information."
+    },
+    {
+      "id": "ss343-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 19
+      },
+      "prompt": "In this village, neighbours once knew almost every family on their street, but that closeness has largely disappeared.",
+      "promptZh": "在這條村裏，鄰居以往幾乎認識街上的每個家庭，但這種親密關係已大致消失。",
+      "promptZhSource": "pdf",
+      "starter": "Sadly",
+      "answer": "Sadly, gone are the days when neighbours in this village knew almost every family on their street.",
+      "answerZh": "令人惋惜的是，這條村的鄰居幾乎認識街上每個家庭的日子已經過去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Sadly, gone are the days when neighbours in this village knew almost every family on their street."
+    },
+    {
+      "id": "ss343-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Employees in this company once had to ask for permission to work from home. That policy has ended.",
+      "promptZh": "這間公司的僱員以往必須先取得批准才可以在家工作。這項政策已經結束。",
+      "promptZhSource": "pdf",
+      "starter": "Within",
+      "answer": "Within this company, gone are the days when employees had to ask for permission to work from home.",
+      "answerZh": "在這間公司，僱員必須先取得批准才可以在家工作的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "Within this company, gone are the days when employees had to ask for permission to work from home."
+    },
+    {
+      "id": "ss343-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is now unusual for shoppers to carry cash for every purchase.",
+      "promptZh": "購物者每次購物都攜帶現金的情況現在已不常見。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For many shoppers, gone are the days when they carried cash for every purchase.",
+      "answerZh": "對很多購物者而言，每次購物都攜帶現金的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "For many shoppers, gone are the days when they carried cash for every purchase."
+    },
+    {
+      "id": "ss343-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Parents once had no way to contact the school during the day. That period is over.",
+      "promptZh": "家長以往在日間無法聯絡學校。那個時期已經結束。",
+      "promptZhSource": "pdf",
+      "starter": "Gone",
+      "answer": "Gone are the days when parents had no way to contact the school during the day.",
+      "answerZh": "家長在日間無法聯絡學校的日子已經過去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Gone are the days when parents had no way to contact the school during the day."
+    },
+    {
+      "id": "ss343-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Film photographers used to wait several days before seeing their pictures. That is now largely a thing of the past.",
+      "promptZh": "使用菲林相機的攝影者以往要等數天才能看到照片。這種情況現在大致已成過去。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For most photographers, gone are the days when they waited several days to see their pictures.",
+      "answerZh": "對大部分攝影者而言，要等數天才能看到照片的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "For most photographers, gone are the days when they waited several days to see their pictures."
+    },
+    {
+      "id": "ss343-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Residents here no longer need to store large amounts of water at home because the supply is now reliable.",
+      "promptZh": "這裏的居民不再需要在家儲存大量食水，因為供水現在已經穩定。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this district, gone are the days when residents had to store large amounts of water at home.",
+      "answerZh": "在這個地區，居民必須在家儲存大量食水的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In this district, gone are the days when residents had to store large amounts of water at home."
+    },
+    {
+      "id": "ss343-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before the new system was introduced, patients filled in the same form at every visit. They no longer need to do so.",
+      "promptZh": "新系統推出前，病人每次求診都要填寫同一份表格。他們現在已不需要這樣做。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this clinic, gone are the days when patients filled in the same form at every visit.",
+      "answerZh": "在這間診所，病人每次求診都要填寫同一份表格的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "At this clinic, gone are the days when patients filled in the same form at every visit."
+    },
+    {
+      "id": "ss343-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "People once believed that a successful career meant staying with one employer for life. This belief is far less common now.",
+      "promptZh": "人們以往認為成功的事業等於一生只為同一僱主工作。這種信念現在已遠不如以往普遍。",
+      "promptZhSource": "pdf",
+      "starter": "Gone",
+      "answer": "Gone are the days when a successful career meant staying with one employer for life.",
+      "answerZh": "成功的事業等於一生只為同一僱主工作的年代已經過去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Gone are the days when a successful career meant staying with one employer for life."
+    },
+    {
+      "id": "ss343-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Staff no longer need to be in the office to attend every meeting because video conferencing is available.",
+      "promptZh": "由於可以使用視像會議，職員不再需要身處辦公室才能出席每次會議。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With video conferencing, gone are the days when staff had to be in the office to attend every meeting.",
+      "answerZh": "有了視像會議，職員必須身處辦公室才能出席每次會議的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "With video conferencing, gone are the days when staff had to be in the office to attend every meeting."
+    },
+    {
+      "id": "ss343-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In many homes, one person used to control the television schedule for everyone. Streaming services have changed that.",
+      "promptZh": "在很多家庭，以往由一個人決定所有人的電視收看時間。串流服務已改變了這種情況。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In many homes, gone are the days when one person controlled the television schedule for everyone.",
+      "answerZh": "在很多家庭，由一個人決定所有人電視收看時間的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In many homes, gone are the days when one person controlled the television schedule for everyone."
+    },
+    {
+      "id": "ss343-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Teachers at this school no longer mark every exercise on paper.",
+      "promptZh": "這間學校的老師不再以紙本方式批改每份練習。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this school, gone are the days when teachers marked every exercise on paper.",
+      "answerZh": "在這間學校，老師以紙本方式批改每份練習的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "At this school, gone are the days when teachers marked every exercise on paper."
+    },
+    {
+      "id": "ss343-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Small businesses once needed a large advertising budget to reach many customers. Social media has changed this.",
+      "promptZh": "小型企業以往需要龐大的廣告預算才能接觸大量顧客。社交媒體已改變了這種情況。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For many small businesses, gone are the days when reaching many customers required a large advertising budget.",
+      "answerZh": "對很多小型企業而言，需要龐大廣告預算才能接觸大量顧客的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "For many small businesses, gone are the days when reaching many customers required a large advertising budget."
+    },
+    {
+      "id": "ss343-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It was once impossible to compare prices without visiting several shops. Online tools have ended that limitation.",
+      "promptZh": "以往如果不親身前往數間商店，便無法比較價格。網上工具已消除這項限制。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With online price-comparison tools, gone are the days when shoppers had to visit several shops to compare prices.",
+      "answerZh": "有了網上價格比較工具，購物者必須親身前往數間商店才能比較價格的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "With online price-comparison tools, gone are the days when shoppers had to visit several shops to compare prices."
+    },
+    {
+      "id": "ss343-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Drivers in this city used to search for coins before parking. The new payment system has removed that need.",
+      "promptZh": "這個城市的司機以往泊車前要尋找硬幣。新的付款系統已消除了這項需要。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this city, gone are the days when drivers had to search for coins before parking.",
+      "answerZh": "在這個城市，司機泊車前必須尋找硬幣的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In this city, gone are the days when drivers had to search for coins before parking."
+    },
+    {
+      "id": "ss343-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Passengers on this route no longer stand outside without knowing when the next bus will arrive.",
+      "promptZh": "這條路線的乘客不再要站在戶外，卻不知道下一班巴士何時到達。",
+      "promptZhSource": "pdf",
+      "starter": "Fortunately",
+      "answer": "Fortunately, gone are the days when passengers on this route stood outside without knowing when the next bus would arrive.",
+      "answerZh": "幸好，這條路線的乘客站在戶外卻不知道下一班巴士何時到達的日子已經過去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Fortunately, gone are the days when passengers on this route stood outside without knowing when the next bus would arrive."
+    },
+    {
+      "id": "ss343-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The library used to close at six, leaving users without access to its information until the next day. Online access has changed this.",
+      "promptZh": "圖書館以往在六時關門，令使用者要到翌日才能再次查閱館內資料。網上服務已改變了這種情況。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For library users, gone are the days when access to the library’s information ended at six o’clock.",
+      "answerZh": "對圖書館使用者而言，六時後便無法查閱圖書館資料的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "For library users, gone are the days when access to the library’s information ended at six o’clock."
+    },
+    {
+      "id": "ss343-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "It is no longer acceptable here for managers to ignore reports of workplace bullying.",
+      "promptZh": "在這裏，經理忽視職場欺凌舉報的做法已不再被接受。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this organisation, gone are the days when managers could ignore reports of workplace bullying.",
+      "answerZh": "在這個機構，經理可以忽視職場欺凌舉報的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In this organisation, gone are the days when managers could ignore reports of workplace bullying."
+    },
+    {
+      "id": "ss343-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Many learners once depended on printed dictionaries whenever they met an unfamiliar word. This is no longer necessary.",
+      "promptZh": "很多學習者以往每逢遇到不熟悉的字詞，都要依賴紙本字典。現在已不再需要這樣做。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For many learners, gone are the days when every unfamiliar word required a printed dictionary.",
+      "answerZh": "對很多學習者而言，每遇到一個不熟悉的字詞便需要查閱紙本字典的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "For many learners, gone are the days when every unfamiliar word required a printed dictionary."
+    },
+    {
+      "id": "ss343-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The local council used to make major decisions without consulting residents. The new rules have ended that practice.",
+      "promptZh": "地方議會以往在沒有諮詢居民的情況下作出重大決定。新規則已終止這種做法。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this community, gone are the days when the local council made major decisions without consulting residents.",
+      "answerZh": "在這個社區，地方議會在沒有諮詢居民的情況下作出重大決定的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In this community, gone are the days when the local council made major decisions without consulting residents."
+    },
+    {
+      "id": "ss343-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Doctors once had to wait for paper records to arrive before reviewing a patient’s history. Digital records have changed the process.",
+      "promptZh": "醫生以往必須等候紙本紀錄送達，才能查閱病人的病歷。電子紀錄已改變這個流程。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In many hospitals, gone are the days when doctors had to wait for paper records before reviewing a patient’s history.",
+      "answerZh": "在很多醫院，醫生必須等候紙本紀錄才能查閱病人病歷的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In many hospitals, gone are the days when doctors had to wait for paper records before reviewing a patient’s history."
+    },
+    {
+      "id": "ss343-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "International teams once delayed decisions because documents travelled slowly between offices. Shared platforms now provide immediate access.",
+      "promptZh": "國際團隊以往因文件在辦公室之間傳送緩慢而延遲決定。共享平台現在可以提供即時存取。",
+      "promptZhSource": "pdf",
+      "starter": "Across",
+      "answer": "Across many international teams, gone are the days when decisions had to wait for documents to arrive from other offices.",
+      "answerZh": "在很多國際團隊之中，決定必須等候其他辦公室的文件送達的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "Across many international teams, gone are the days when decisions had to wait for documents to arrive from other offices."
+    },
+    {
+      "id": "ss343-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Job applicants used to post several printed copies of the same application. Most employers now accept digital forms.",
+      "promptZh": "求職者以往要郵寄多份相同的紙本申請。大部分僱主現在都接受電子表格。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For most job applicants, gone are the days when they posted several printed copies of the same application.",
+      "answerZh": "對大部分求職者而言，郵寄多份相同紙本申請的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "For most job applicants, gone are the days when they posted several printed copies of the same application."
+    },
+    {
+      "id": "ss343-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "There was a time when students could pass the course by memorising facts alone. The assessment now requires explanation and application.",
+      "promptZh": "學生以往只靠背誦資料便可以通過課程。現在的評核要求學生解釋和應用知識。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this college, gone are the days when students could pass the course by memorising facts alone.",
+      "answerZh": "在這所學院，學生只靠背誦資料便可以通過課程的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "At this college, gone are the days when students could pass the course by memorising facts alone."
+    },
+    {
+      "id": "ss343-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Many commuters no longer buy a separate monthly paper ticket because they can use one electronic travel card.",
+      "promptZh": "很多通勤人士不再購買獨立的紙本月票，因為他們可以使用一張電子交通卡。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For many commuters, gone are the days when they had to buy a separate monthly paper ticket.",
+      "answerZh": "對很多通勤人士而言，必須購買獨立紙本月票的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "For many commuters, gone are the days when they had to buy a separate monthly paper ticket."
+    },
+    {
+      "id": "ss343-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Long-distance relatives once had to plan expensive telephone calls carefully. Internet calling has removed much of that difficulty.",
+      "promptZh": "相隔很遠的親友以往要仔細安排昂貴的長途電話。網絡通話已消除了大部分困難。",
+      "promptZhSource": "pdf",
+      "starter": "Long",
+      "answer": "Long gone are the days when distant relatives had to plan every telephone call around its cost.",
+      "answerZh": "相隔很遠的親友必須因應通話費用安排每次電話的日子早已一去不返。",
+      "answerZhSource": "pdf",
+      "highlight": "Long gone are the days when distant relatives had to plan every telephone call around its cost."
+    },
+    {
+      "id": "ss343-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The design team once worked in separate rooms and rarely shared early ideas. The new studio is open and collaborative.",
+      "promptZh": "設計團隊以往在不同房間工作，很少分享初步構思。新的工作室採用開放和協作式設計。",
+      "promptZhSource": "pdf",
+      "starter": "Within",
+      "answer": "Within the design team, gone are the days when people worked in separate rooms and rarely shared early ideas.",
+      "answerZh": "在設計團隊內，成員各自在不同房間工作，而且很少分享初步構思的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "Within the design team, gone are the days when people worked in separate rooms and rarely shared early ideas."
+    },
+    {
+      "id": "ss343-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Shops used to throw away unsold food at the end of every day. New donation partnerships have largely ended that practice.",
+      "promptZh": "商店以往每天結束營業時都會丟棄未售出的食物。新的食物捐贈合作計劃已大致終止這種做法。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In many participating shops, gone are the days when unsold food was thrown away at the end of every day.",
+      "answerZh": "在很多參與計劃的商店，未售出的食物每天結束營業時被丟棄的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In many participating shops, gone are the days when unsold food was thrown away at the end of every day."
+    },
+    {
+      "id": "ss343-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Scientists once needed months to process certain sets of data. Modern software can now complete the work much faster.",
+      "promptZh": "科學家以往需要數月處理某些數據組。現代軟件現在可以更快完成這項工作。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In many laboratories, gone are the days when scientists needed months to process certain sets of data.",
+      "answerZh": "在很多實驗室，科學家需要數月處理某些數據組的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In many laboratories, gone are the days when scientists needed months to process certain sets of data."
+    },
+    {
+      "id": "ss343-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Some schools once punished pupils for asking questions that challenged the textbook. That attitude has changed.",
+      "promptZh": "有些學校以往會懲罰提出問題、質疑課本內容的學生。這種態度已經改變。",
+      "promptZhSource": "pdf",
+      "starter": "Thankfully",
+      "answer": "Thankfully, gone are the days when pupils were punished for asking questions that challenged the textbook.",
+      "answerZh": "值得慶幸的是，學生因提出質疑課本內容的問題而受到懲罰的日子已經過去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Thankfully, gone are the days when pupils were punished for asking questions that challenged the textbook."
+    },
+    {
+      "id": "ss343-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "In the past, customers had to explain the same problem again whenever a support call was transferred. The new system keeps a shared record.",
+      "promptZh": "以往每當支援電話被轉駁時，顧客都要再次解釋同一個問題。新系統會保留共享紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With the new support system, gone are the days when customers had to explain the same problem after every transfer.",
+      "answerZh": "有了新的支援系統，顧客每次被轉駁後都要再次解釋同一個問題的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "With the new support system, gone are the days when customers had to explain the same problem after every transfer."
+    },
+    {
+      "id": "ss343-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Remote communities once lost contact with medical specialists whenever bad weather blocked the roads. Telemedicine has greatly reduced that problem.",
+      "promptZh": "偏遠社區以往每逢惡劣天氣令道路受阻，便會與專科醫生失去聯繫。遙距醫療已大大減少這個問題。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For many remote communities, gone are the days when bad weather completely cut them off from medical specialists.",
+      "answerZh": "對很多偏遠社區而言，惡劣天氣令他們完全無法聯絡專科醫生的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "For many remote communities, gone are the days when bad weather completely cut them off from medical specialists."
+    },
+    {
+      "id": "ss343-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Junior employees here were once expected to agree silently with every senior colleague. The culture now encourages respectful disagreement.",
+      "promptZh": "這裏的初級僱員以往被要求默默同意每位資深同事的意見。現在的文化鼓勵員工以尊重的方式提出不同意見。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this workplace, gone are the days when junior employees were expected to agree silently with every senior colleague.",
+      "answerZh": "在這個工作場所，初級僱員被要求默默同意每位資深同事意見的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In this workplace, gone are the days when junior employees were expected to agree silently with every senior colleague."
+    },
+    {
+      "id": "ss343-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "People once accepted that public buildings could be difficult for wheelchair users to enter. Modern access standards reject that idea.",
+      "promptZh": "人們以往接受公共建築物可能令輪椅使用者難以進入。現代無障礙標準已否定這種觀念。",
+      "promptZhSource": "pdf",
+      "starter": "Thankfully",
+      "answer": "Thankfully, gone are the days when it was considered acceptable for public buildings to be difficult for wheelchair users to enter.",
+      "answerZh": "值得慶幸的是，公共建築物令輪椅使用者難以進入仍被視為可以接受的日子已經過去了。",
+      "answerZhSource": "pdf",
+      "highlight": "Thankfully, gone are the days when it was considered acceptable for public buildings to be difficult for wheelchair users to enter."
+    },
+    {
+      "id": "ss343-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Local artists previously needed a gallery’s approval before a large audience could see their work. Digital platforms have created other routes.",
+      "promptZh": "本地藝術家以往必須獲得畫廊批准，作品才能被大量觀眾看見。數碼平台已提供其他途徑。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For many local artists, gone are the days when reaching a large audience depended entirely on a gallery’s approval.",
+      "answerZh": "對很多本地藝術家而言，要接觸大量觀眾完全取決於畫廊批准的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "For many local artists, gone are the days when reaching a large audience depended entirely on a gallery’s approval."
+    },
+    {
+      "id": "ss343-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Before automatic translation improved, travellers often carried several phrasebooks and still struggled with basic signs. That situation is now far less common.",
+      "promptZh": "自動翻譯技術改善前，旅客經常攜帶數本常用語手冊，卻仍難以理解基本標示。這種情況現在已遠不如以往常見。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For many travellers, long gone are the days when they carried several phrasebooks and still struggled with basic signs.",
+      "answerZh": "對很多旅客而言，攜帶數本常用語手冊卻仍難以理解基本標示的日子早已一去不返。",
+      "answerZhSource": "pdf",
+      "highlight": "For many travellers, long gone are the days when they carried several phrasebooks and still struggled with basic signs."
+    },
+    {
+      "id": "ss343-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A company’s environmental claims once went largely unquestioned because detailed data was difficult to obtain. Today, investors and the public can examine far more evidence.",
+      "promptZh": "公司的環保聲明以往大多不受質疑，因為詳細數據難以取得。現在，投資者和公眾可以查閱更多證據。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In many markets, gone are the days when a company’s environmental claims went largely unquestioned.",
+      "answerZh": "在很多市場，公司的環保聲明大多不受質疑的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In many markets, gone are the days when a company’s environmental claims went largely unquestioned."
+    },
+    {
+      "id": "ss343-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "There was a time when a single national broadcast decided what almost everyone watched at the same hour. On-demand services have broken up that shared schedule.",
+      "promptZh": "以往一個全國廣播節目會決定幾乎所有人在同一時間收看甚麼。點播服務已打破這種共同收看時間表。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For better or worse, gone are the days when a single national broadcast decided what almost everyone watched at the same hour.",
+      "answerZh": "不論好壞，一個全國廣播節目決定幾乎所有人在同一時間收看甚麼的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "For better or worse, gone are the days when a single national broadcast decided what almost everyone watched at the same hour."
+    },
+    {
+      "id": "ss343-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "In some organisations, career progress once depended more on being seen at a desk than on the quality of the work produced. Outcome-based assessment has replaced that approach.",
+      "promptZh": "在某些機構，事業發展以往更取決於是否被看見坐在辦公桌前，而不是工作成果的質素。以成果為本的評核已取代這種方式。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In those organisations, gone are the days when career progress depended more on being seen at a desk than on the quality of the work produced.",
+      "answerZh": "在那些機構，事業發展更取決於是否被看見坐在辦公桌前，而不是工作成果質素的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In those organisations, gone are the days when career progress depended more on being seen at a desk than on the quality of the work produced."
+    },
+    {
+      "id": "ss343-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "People in much of this region no longer simply accept severe flooding as an unavoidable part of every rainy season because new drainage systems have greatly reduced the risk.",
+      "promptZh": "這個地區很多地方的居民不再把嚴重水浸視為每個雨季都無法避免的事情，因為新的排水系統已大大降低風險。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In much of this region, gone are the days when severe flooding was simply accepted as an unavoidable part of every rainy season.",
+      "answerZh": "在這個地區很多地方，嚴重水浸被視為每個雨季都無法避免的日子已成過去。",
+      "answerZhSource": "pdf",
+      "highlight": "In much of this region, gone are the days when severe flooding was simply accepted as an unavoidable part of every rainy season."
+    }
+  ]
+}

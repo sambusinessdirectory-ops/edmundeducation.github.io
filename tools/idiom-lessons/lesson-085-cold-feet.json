@@ -1,0 +1,1661 @@
+{
+  "lesson": {
+    "id": "idiom-85",
+    "order": 85,
+    "slug": "cold-feet",
+    "version": "1",
+    "title": "臨陣退縮／打退堂鼓",
+    "titleEn": "cold feet",
+    "titleZh": "臨陣退縮／打退堂鼓",
+    "source": {
+      "file": "Idiom 85 - 「Cold Feet」.pdf",
+      "pageCount": 33,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "exercisePdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "answerKeyPdfPages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "cold feet",
+        "highlight": "cold feet"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Ava got cold feet before the speech.",
+        "zh": "Ava 在演講前臨陣退縮。",
+        "highlight": "cold feet"
+      },
+      {
+        "en": "People sometimes get cold feet before making a major decision.",
+        "zh": "人們有時會在作出重大決定前突然膽怯。",
+        "highlight": "cold feet"
+      }
+    ],
+    "meaning": {
+      "en": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+      "zh": "對原本計劃或答應要做的事情突然感到緊張、害怕或不確定，因而猶豫、拖延或臨陣退縮。",
+      "naturalZh": [
+        "臨陣退縮",
+        "打退堂鼓",
+        "事到臨頭失去勇氣",
+        "突然膽怯",
+        "開始動搖",
+        "因害怕而不敢繼續"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "everyday conversation; workplace discussion; interviews; news reports; general writing; discussions about decisions, performances, travel, purchases and commitments.",
+      "summaryZh": "Cold feet 屬於非正式但十分常見的表達，可自然用於日常對話、工作討論、訪問、新聞報道及一般文章。",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace discussion",
+        "interviews",
+        "news reports",
+        "general writing",
+        "discussions about decisions, performances, travel, purchases and commitments",
+        "sympathetic",
+        "lightly critical",
+        "humorous",
+        "concerned",
+        "encouraging"
+      ],
+      "contextsZh": [],
+      "formalEn": "Cold feet is informal but widely understood. It is natural in:",
+      "formalZh": "Cold feet 屬於非正式但十分常見的表達，可自然用於日常對話、工作討論、訪問、新聞報道及一般文章。"
+    },
+    "fixedVariable": {
+      "fixed": "cold feet",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + get(s) / got + cold feet.",
+          "example": "Ava got cold feet before the speech.",
+          "highlight": "cold feet"
+        },
+        {
+          "form": "Subject + have / has / had + cold feet.",
+          "example": "Ben has cold feet about changing jobs.",
+          "highlight": "cold feet"
+        },
+        {
+          "form": "Subject + be + getting cold feet.",
+          "example": "Karen is getting cold feet about moving abroad.",
+          "highlight": "cold feet"
+        },
+        {
+          "form": "Subject + may / might / could / will + get cold feet.",
+          "example": "The team may get cold feet when it sees the final cost.",
+          "highlight": "cold feet"
+        },
+        {
+          "form": "Subject + get / have cold feet + about + noun or verb-ing.",
+          "example": "Leo has cold feet about the contract.",
+          "highlight": "cold feet"
+        },
+        {
+          "form": "cold feet",
+          "example": "Chloe had cold feet before her driving test.",
+          "highlight": "cold feet"
+        },
+        {
+          "form": "Did + subject + get cold feet?",
+          "example": "Did Tessa get cold feet before the wedding?",
+          "highlight": "cold feet"
+        },
+        {
+          "form": "cold feet",
+          "example": "Cold feet stopped Ella from applying for the job.",
+          "highlight": "Cold feet"
+        },
+        {
+          "form": "cold feet",
+          "example": "It was a clear case of cold feet.",
+          "highlight": "cold feet"
+        },
+        {
+          "form": "Something + give(s) / gave / has given + somebody + cold feet.",
+          "example": "The high cost gave the buyers cold feet.",
+          "highlight": "cold feet"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Get Cold Feet",
+        "titleZh": "當某人開始感到緊張或突然失去勇氣時，可使用 get",
+        "formula": "Subject + get(s) / got + cold feet.",
+        "descriptionEn": "Source grammar frame: Subject + get(s) / got + cold feet.",
+        "descriptionZh": "原檔列出的句法框架：Subject + get(s) / got + cold feet。",
+        "examples": [
+          {
+            "en": "Ava got cold feet before the speech.",
+            "zh": "Ava 在演講前臨陣退縮。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "People sometimes get cold feet before making a major decision.",
+            "zh": "人們有時會在作出重大決定前突然膽怯。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "The buyers got cold feet at the last minute.",
+            "zh": "買家在最後一刻打退堂鼓。",
+            "highlight": "cold feet"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Have Cold Feet",
+        "titleZh": "當某人已經處於緊張或動搖的狀態時，可使用 have",
+        "formula": "Subject + have / has / had + cold feet.",
+        "descriptionEn": "Source grammar frame: Subject + have / has / had + cold feet.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have / has / had + cold feet。",
+        "examples": [
+          {
+            "en": "Ben has cold feet about changing jobs.",
+            "zh": "對轉工一事感到猶豫。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "She had cold feet before the interview.",
+            "zh": "她在面試前感到膽怯。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "They have had cold feet about the plan all week.",
+            "zh": "他們整個星期都對這項計劃感到猶豫。",
+            "highlight": "cold feet"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Be Getting Cold Feet",
+        "titleZh": "這個句式描述逐漸發生的變化：某人開始愈來愈緊張或動搖",
+        "formula": "Subject + be + getting cold feet.",
+        "descriptionEn": "Source grammar frame: Subject + be + getting cold feet.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + getting cold feet。",
+        "examples": [
+          {
+            "en": "Karen is getting cold feet about moving abroad.",
+            "zh": "開始對移居外地感到動搖。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "The team seems to be getting cold feet.",
+            "zh": "團隊似乎開始打退堂鼓。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "Are you getting cold feet?",
+            "zh": "你是否開始感到膽怯？",
+            "highlight": "cold feet"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "團隊看到最終費用時，可能會打退堂鼓",
+        "formula": "Subject + may / might / could / will + get cold feet.",
+        "descriptionEn": "The modal verb must preserve the original degree of certainty.",
+        "descriptionZh": "團隊看到最終費用時，可能會打退堂鼓。 情態動詞必須保留原句的確定程度。",
+        "examples": [
+          {
+            "en": "The team may get cold feet when it sees the final cost.",
+            "zh": "團隊看到最終費用時，可能會打退堂鼓。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "He might get cold feet before the live interview.",
+            "zh": "他可能會在直播訪問前臨陣退縮。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "Will the investors get cold feet?",
+            "zh": "投資者會否開始動搖？",
+            "highlight": "cold feet"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "About + Noun or Verb-ing",
+        "titleZh": "用來指出令人緊張或動搖的計劃或承諾",
+        "formula": "Subject + get / have cold feet + about + noun or verb-ing.",
+        "descriptionEn": "What is the person nervous or uncertain about?",
+        "descriptionZh": "用來指出令人緊張或動搖的計劃或承諾。 名詞或動名詞只是選用的延伸部分，用來回答：",
+        "examples": [
+          {
+            "en": "Leo has cold feet about the contract.",
+            "zh": "對這份合約感到猶豫。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "Leo has cold feet about signing the contract.",
+            "zh": "對簽署這份合約感到猶豫。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "Karen is getting cold feet about moving to another city.",
+            "zh": "開始對搬到另一個城市感到動搖。",
+            "highlight": "cold feet"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Before, When and at the Last Minute",
+        "titleZh": "這些表達用來指出某人在甚麼時候失去勇氣",
+        "formula": "cold feet",
+        "descriptionEn": "The time phrase is not part of the idiom.",
+        "descriptionZh": "這些表達用來指出某人在甚麼時候失去勇氣。 時間短語並不是慣用語的一部分。",
+        "examples": [
+          {
+            "en": "Chloe had cold feet before her driving test.",
+            "zh": "Chloe 在駕駛考試前感到膽怯。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "Daniel got cold feet when his name was called.",
+            "zh": "Daniel 在被叫到名字時突然失去勇氣。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "The singer got cold feet at the last minute.",
+            "zh": "歌手在最後一刻臨陣退縮。",
+            "highlight": "cold feet"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Questions, Negatives and Encouragement",
+        "titleZh": "Tessa 是否在婚禮前臨陣退縮",
+        "formula": "Did + subject + get cold feet?",
+        "descriptionEn": "Source grammar frame: Did + subject + get cold feet?.",
+        "descriptionZh": "原檔列出的句法框架：Did + subject + get cold feet?。",
+        "examples": [
+          {
+            "en": "Did Tessa get cold feet before the wedding?",
+            "zh": "Tessa 是否在婚禮前臨陣退縮？",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "Isla did not get cold feet before the presentation.",
+            "zh": "Isla 在簡報前並沒有臨陣退縮。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "Don’t get cold feet now.",
+            "zh": "現在不要臨陣退縮。",
+            "highlight": "cold feet"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Cold Feet as an Ordinary Noun Phrase",
+        "titleZh": "也可以作為一般複數名詞短語使用",
+        "formula": "cold feet",
+        "descriptionEn": "Source grammar frame: cold feet.",
+        "descriptionZh": "原檔列出的句法框架：cold feet。",
+        "examples": [
+          {
+            "en": "Cold feet stopped Ella from applying for the job.",
+            "zh": "膽怯令 Ella 沒有申請那份工作。",
+            "highlight": "Cold feet"
+          },
+          {
+            "en": "Frank’s cold feet surprised his friends.",
+            "zh": "突然退縮，令朋友感到意外。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "Because of her cold feet, Yara rejected the offer.",
+            "zh": "因為突然膽怯而拒絕了這項邀請。",
+            "highlight": "cold feet"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "A Case or Sign of Cold Feet",
+        "titleZh": "這明顯是臨陣退縮",
+        "formula": "cold feet",
+        "descriptionEn": "The article a belongs to case, not to cold feet.",
+        "descriptionZh": "這明顯是臨陣退縮。 冠詞 a 是配合 case，而不是配合 cold feet。",
+        "examples": [
+          {
+            "en": "It was a clear case of cold feet.",
+            "zh": "這明顯是臨陣退縮。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "There was no sign of cold feet.",
+            "zh": "完全沒有臨陣退縮的跡象。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "What looked like a delay was actually a case of cold feet.",
+            "zh": "表面上看似只是延誤，實際上卻是有人打退堂鼓。",
+            "highlight": "cold feet"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Give Somebody Cold Feet",
+        "titleZh": "這個選用的使役句式表示某件事情令人或團體開始緊張或動搖",
+        "formula": "Something + give(s) / gave / has given + somebody + cold feet.",
+        "descriptionEn": "The core expression remains cold feet. Give is part of the surrounding grammar shell.",
+        "descriptionZh": "這個選用的使役句式表示某件事情令人或團體開始緊張或動搖。 固定核心仍然是 cold feet。 give 只是外圍句法的一部分。",
+        "examples": [
+          {
+            "en": "The high cost gave the buyers cold feet.",
+            "zh": "高昂的費用令買家開始動搖。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "The warning has given investors cold feet.",
+            "zh": "這項警告令投資者開始打退堂鼓。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "The thought of speaking to 500 people gave Priya cold feet.",
+            "zh": "一想到要向五百人發言，Priya 便開始膽怯。",
+            "highlight": "cold feet"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Sudden Hesitation Clearly",
+        "titleZh": "清楚表達突然動搖",
+        "en": "Cold feet does more than say that somebody feels nervous. It suggests that the nervousness may prevent a planned action.",
+        "zh": "不只是表示某人緊張，還暗示這種緊張可能令原定行動無法繼續。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Explains Last-Minute Withdrawal Concisely",
+        "titleZh": "簡潔解釋最後一刻退出",
+        "en": "The buyer got cold feet before signing the agreement.",
+        "zh": "這個慣用語可以把「原本答應了，但突然因害怕而退出」濃縮成一句自然的表達。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Works in Several Grammar Positions",
+        "titleZh": "可以自然放在多種句法位置",
+        "en": "after get or have; inside a continuous form; after a modal verb; as the subject of a sentence; after a possessive; inside a case of or sign of phrase; after give somebody.",
+        "zh": "這個表達並不只限於一種固定句型，可以在多種自然句法位置出現。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful for Decisions and Commitments",
+        "titleZh": "適合描述決定及承諾",
+        "en": "performances; interviews; job changes; journeys; weddings; large purchases; contracts; public events; important projects.",
+        "zh": "它尤其適合描述表演、面試、轉工、旅程、婚禮、大額購買、合約、公開活動及重要項目。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Describe Both Individuals and Groups",
+        "titleZh": "可以描述個人及團體",
+        "en": "It Can Describe Both Individuals and Groups",
+        "zh": "Ben 在面試前臨陣退縮。 投資者開始對這個項目感到動搖。",
+        "examples": [
+          {
+            "en": "Ben got cold feet before the interview.",
+            "zh": "Ben 在面試前臨陣退縮。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "The investors are getting cold feet about the project.",
+            "zh": "投資者開始對這個項目感到動搖。",
+            "highlight": "cold feet"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Can Encourage Somebody Naturally",
+        "titleZh": "可以自然鼓勵他人",
+        "en": "This is a short, natural way to encourage somebody who is becoming nervous before an important action.",
+        "zh": "現在不要臨陣退縮。 這是一種簡短自然的鼓勵方式，適合對即將採取重要行動但開始感到膽怯的人使用。",
+        "examples": [
+          {
+            "en": "Don’t get cold feet now.",
+            "zh": "現在不要臨陣退縮。",
+            "highlight": "cold feet"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Late-Nineteenth-Century Development",
+      "statusZh": "確切來源不明；於十九世紀末逐漸形成",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The words cold feet were used literally for a long time before the modern idiom appeared. Older writing often mentioned people whose feet were physically cold because of weather, illness or wet clothing.",
+          "zh": "在現代慣用語出現前，cold feet 長期只按字面意思使用。 較早期的文字經常描述人們因天氣、疾病或衣物濕透而雙腳冰冷。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "By the late nineteenth century, cold feet was being used to describe a loss of courage strong enough to stop a person from continuing with a plan.",
+          "zh": "到了十九世紀末，cold feet 已被用來描述某人突然失去勇氣，以致無法繼續原定計劃。"
+        }
+      ],
+      "memoryEn": "A person with cold feet is no longer ready to step forward.",
+      "memoryZh": "有 cold feet 的人，已經不再敢踏出下一步。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “Cold Feet” Plural",
+        "titleZh": "規則一：cold feet 必須保持複數",
+        "en": "Keep “Cold Feet” Plural",
+        "zh": "cold feet 必須保持複數",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Say “Be Cold Feet”",
+        "titleZh": "規則二：不可說 be cold feet",
+        "en": "Do Not Say “Be Cold Feet”",
+        "zh": "原因是臨陣退縮，而不是時間不足。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Understand the Difference Between “Get” and “Have”",
+        "titleZh": "規則三：分辨 get 和 have",
+        "en": "become nervous or lose courage already feel nervous or uncertain",
+        "zh": "開始感到緊張； 突然失去勇氣已經感到緊張或動搖她走到門前時突然膽怯。 她整個早上都感到猶豫不安。",
+        "examples": [
+          {
+            "en": "She got cold feet when she reached the door.",
+            "zh": "她走到門前時突然膽怯。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "She had cold feet all morning.",
+            "zh": "她整個早上都感到猶豫不安。",
+            "highlight": "cold feet"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "The Plan Must Already Exist",
+        "titleZh": "規則四：必須已有原定計劃",
+        "en": "planned to do; agreed to do; intended to do; was expected to do; had already begun arranging. The second person has not lost courage about an existing plan. He simply has no plan or desire to perform.",
+        "zh": "這個慣用語通常描述某人對已計劃、已答應、原本打算或預期要做的事情突然感到膽怯。 他答應表演，卻在演出前臨陣退縮。 第二個人並不是對原定計劃失去勇氣； 他根本沒有表演的計劃或意願。",
+        "examples": [
+          {
+            "en": "He agreed to perform but got cold feet before the show.",
+            "zh": "他答應表演，卻在演出前臨陣退縮。",
+            "highlight": "cold feet"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Stronger Than Ordinary Nervousness",
+        "titleZh": "規則五：語氣比一般緊張更強",
+        "en": "Cold feet normally suggests that the nervousness may affect whether the person continues.",
+        "zh": "cold feet 通常表示緊張可能影響某人會否繼續原定行動。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Confuse Fear with an Ordinary Change of Mind",
+        "titleZh": "規則六：不要把普通改變主意當成 cold feet",
+        "en": "Not every change of plan is caused by fear. He cancelled the picnic because heavy rain made it impossible. He cancelled the picnic because he suddenly became frightened about leading such a large group.",
+        "zh": "並非每次改變計劃都是因為膽怯。 他取消野餐，是因為大雨令活動無法進行。 他因為突然害怕帶領這麼大的團體而取消野餐。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“About + Verb-ing” Is Optional",
+        "titleZh": "規則七：about + 動名詞只是選用部分",
+        "en": "Both sentences are grammatically complete. The second identifies the planned action.",
+        "zh": "她臨陣退縮了。 她對公開演講感到膽怯。 兩句的文法都完整。 第二句只是進一步指出原定行動。",
+        "examples": [
+          {
+            "en": "She got cold feet.",
+            "zh": "她臨陣退縮了。",
+            "highlight": "cold feet"
+          },
+          {
+            "en": "She got cold feet about speaking in public.",
+            "zh": "她對公開演講感到膽怯。",
+            "highlight": "cold feet"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則八：保留時態及確定程度",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把可能發生的事情改成了已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Use “Got”, Not “Gotten”, in This British English Set",
+        "titleZh": "規則九：本英式英語練習使用 got，而非 gotten",
+        "en": "Every answer in this exercise follows British English.",
+        "zh": "本練習的所有答案均採用英式英語。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "People and Organisations Can Get Cold Feet",
+        "titleZh": "規則十：個人及機構都可以 get cold feet",
+        "en": "People and Organisations Can Get Cold Feet",
+        "zh": "公司開始對這個項目感到動搖。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Avoid Accidental Literal Meanings",
+        "titleZh": "規則十一：避免意外產生字面意思",
+        "en": "Her feet were cold because her shoes were wet. The surrounding context must establish nervousness, fear or uncertainty—not temperature.",
+        "zh": "她的鞋濕了，所以雙腳感到寒冷。 她在比賽前臨陣退縮。 周圍語境必須清楚表示緊張、恐懼或動搖，而不是身體溫度。",
+        "examples": [
+          {
+            "en": "She got cold feet before the competition.",
+            "zh": "她在比賽前臨陣退縮。",
+            "highlight": "cold feet"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Repeat the Meaning Unnecessarily",
+        "titleZh": "規則十二：不要重複相同意思",
+        "en": "The idiom should replace the longer explanation rather than stand beside it.",
+        "zh": "慣用語應取代較長的意思解釋，而不是與相同意思並排出現。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using cold feet in a natural grammatical form.",
+      "zh": "使用 cold feet，以自然的句法形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-85-q01",
+        "number": 1,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Ava intended to give a speech at school, but she became too nervous when her name was called and did not go on stage.",
+        "promptZh": "Ava 原本打算在學校發表演講，但被叫到名字時突然過分緊張，沒有走上台。",
+        "starter": "Ava",
+        "answer": "Ava got cold feet before the school speech.",
+        "answerZh": "Ava 在學校演講前臨陣退縮。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q02",
+        "number": 2,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Ben signed up for a diving class, but he suddenly became too frightened and cancelled his place.",
+        "promptZh": "Ben 報名參加潛水課程，卻突然因為太害怕而取消名額。",
+        "starter": "Ben",
+        "answer": "Ben got cold feet about joining the diving class.",
+        "answerZh": "Ben 對參加潛水課程一事突然感到膽怯。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q03",
+        "number": 3,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Chloe felt very nervous before her driving test and was unsure whether she could go through with it.",
+        "promptZh": "Chloe 在駕駛考試前感到非常緊張，不肯定自己是否有勇氣繼續。",
+        "starter": "Chloe",
+        "answer": "Chloe had cold feet before her driving test.",
+        "answerZh": "Chloe 在駕駛考試前感到膽怯。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q04",
+        "number": 4,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Daniel had agreed to sing at the party, but he lost his courage just before his turn.",
+        "promptZh": "Daniel 原本答應在派對上唱歌，卻在輪到自己前突然失去勇氣。",
+        "starter": "At",
+        "answer": "At the last minute, Daniel got cold feet about singing at the party.",
+        "answerZh": "Daniel 在最後一刻對派對上的演唱臨陣退縮。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q05",
+        "number": 5,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Ella planned to ask for a promotion, but fear prevented her from speaking to her manager.",
+        "promptZh": "Ella 原本打算要求升職，但因為害怕而沒有向經理開口。",
+        "starter": "Cold",
+        "answer": "Cold feet stopped Ella from asking for the promotion.",
+        "answerZh": "膽怯令 Ella 沒有提出升職要求。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "Cold feet"
+      },
+      {
+        "id": "idiom-85-q06",
+        "number": 6,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Frank became so nervous about the interview that he cancelled it.",
+        "promptZh": "Frank 對面試感到非常緊張，最後把面試取消了。",
+        "starter": "Frank’s",
+        "answer": "Frank’s cold feet made him cancel the interview.",
+        "answerZh": "Frank 因為突然膽怯而取消了面試。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q07",
+        "number": 7,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Grace had agreed to go camping, but she cancelled the trip just before everyone was due to leave because she became frightened.",
+        "promptZh": "Grace 原本答應去露營，卻因為突然害怕而在大家出發前取消行程。",
+        "starter": "It",
+        "answer": "It was a case of cold feet when Grace cancelled the camping trip at the last minute.",
+        "answerZh": "Grace 在最後一刻取消露營行程，明顯是臨陣退縮。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q08",
+        "number": 8,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Henry had planned to make a difficult phone call, but he became too nervous and did not make it.",
+        "promptZh": "Henry 原本打算打一通困難的電話，卻因為過分緊張而沒有致電。",
+        "starter": "Because",
+        "answer": "Because Henry got cold feet, he did not make the difficult phone call he had planned.",
+        "answerZh": "Henry 因為突然膽怯，沒有打出原定的困難電話。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q09",
+        "number": 9,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "You may become nervous before the race. If that happens, remember how much you have trained.",
+        "promptZh": "你可能會在比賽前突然感到膽怯。如果出現這種情況，請記住自己已付出多少訓練。",
+        "starter": "If",
+        "answer": "If you get cold feet before the race, remember how much you have trained.",
+        "answerZh": "如果你在比賽前突然膽怯，請記住自己已付出多少訓練。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q10",
+        "number": 10,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Isla remained calm and gave the presentation exactly as planned.",
+        "promptZh": "Isla 保持冷靜，按照原定計劃完成了簡報。",
+        "starter": "Isla",
+        "answer": "Isla showed no sign of cold feet and gave the presentation as planned.",
+        "answerZh": "Isla 完全沒有臨陣退縮，並按照計劃完成簡報。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q11",
+        "number": 11,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Jack often becomes too nervous to continue before he performs in public.",
+        "promptZh": "Jack 每次公開表演前都經常突然緊張得不敢繼續。",
+        "starter": "Jack",
+        "answer": "Jack often gets cold feet before performing in public.",
+        "answerZh": "Jack 經常在公開表演前臨陣退縮。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q12",
+        "number": 12,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Karen has begun to feel nervous and uncertain about moving to another city.",
+        "promptZh": "Karen 開始對搬到另一個城市感到緊張和動搖。",
+        "starter": "Karen",
+        "answer": "Karen is getting cold feet about moving to another city.",
+        "answerZh": "Karen 開始對搬到另一個城市感到動搖。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q13",
+        "number": 13,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Leo has felt nervous and uncertain about signing the contract throughout the week.",
+        "promptZh": "Leo 整個星期都對簽署合約感到緊張和猶豫。",
+        "starter": "Leo",
+        "answer": "Leo has had cold feet about signing the contract all week.",
+        "answerZh": "Leo 整個星期都對簽署合約感到猶豫。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q14",
+        "number": 14,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The team may become too worried to continue when it sees the final cost.",
+        "promptZh": "團隊看到最終費用時，可能會因為過分擔心而不敢繼續。",
+        "starter": "The",
+        "answer": "The team may get cold feet when it sees the final cost.",
+        "answerZh": "團隊看到最終費用時，可能會打退堂鼓。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q15",
+        "number": 15,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "It is possible that we will lose our courage before our first live show.",
+        "promptZh": "我們可能會在第一次現場演出前失去勇氣。",
+        "starter": "We",
+        "answer": "We could get cold feet before our first live show.",
+        "answerZh": "我們可能會在第一次現場演出前臨陣退縮。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q16",
+        "number": 16,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Do you think Oliver will lose his courage before asking the difficult question?",
+        "promptZh": "你認為 Oliver 會否在提出那條困難問題前失去勇氣？",
+        "starter": "Will",
+        "answer": "Will Oliver get cold feet before asking the difficult question?",
+        "answerZh": "Oliver 會否在提出那條困難問題前失去勇氣？",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q17",
+        "number": 17,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The audition starts in five minutes, but I am so nervous that I want to leave. B: Do not lose your courage now.",
+        "promptZh": "甲：試鏡將於五分鐘後開始，但我緊張得想離開。 乙：現在不要失去勇氣。",
+        "starter": "Don’t",
+        "answer": "Don’t get cold feet now; the audition starts in five minutes.",
+        "answerZh": "現在不要臨陣退縮；試鏡將於五分鐘後開始。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The thought of speaking in front of 500 people made Priya feel too nervous to continue with her plan.",
+        "promptZh": "一想到要在五百人面前發言，Priya 便緊張得不敢繼續原定計劃。",
+        "starter": "The",
+        "answer": "The thought of speaking to 500 people gave Priya cold feet.",
+        "answerZh": "一想到要向五百人發言，Priya 便開始膽怯。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q19",
+        "number": 19,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Quinn walked onto the stage calmly despite the very large audience.",
+        "promptZh": "儘管觀眾人數眾多，Quinn 仍然冷靜地走上舞台。",
+        "starter": "There",
+        "answer": "There was no sign of cold feet when Quinn walked onto the stage.",
+        "answerZh": "Quinn 走上舞台時，完全沒有臨陣退縮的跡象。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q20",
+        "number": 20,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Rosa had prepared for months, so everyone was surprised when she suddenly became nervous and said she might not take part.",
+        "promptZh": "Rosa 已準備了數月，因此她突然感到膽怯並表示可能不參加時，所有人都十分意外。",
+        "starter": "Rosa’s",
+        "answer": "Rosa’s sudden cold feet surprised everyone because she had prepared for months.",
+        "answerZh": "Rosa 已準備了數月，因此她突然打退堂鼓令所有人都十分意外。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q21",
+        "number": 21,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Why did you not ask your manager for a transfer? B: I suddenly became too nervous to ask.",
+        "promptZh": "甲：你為甚麼沒有向經理申請調職？ 乙：我突然緊張得不敢提出。",
+        "starter": "I",
+        "answer": "I got cold feet about asking for a transfer.",
+        "answerZh": "我對申請調職一事臨陣退縮。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Are you still going to do the bungee jump? B: I am not sure. I am becoming increasingly frightened.",
+        "promptZh": "甲：你仍然打算玩笨豬跳嗎？ 乙：我不肯定。我開始愈來愈害怕。",
+        "starter": "I’m",
+        "answer": "I’m getting cold feet about the bungee jump.",
+        "answerZh": "我開始對玩笨豬跳感到膽怯。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q23",
+        "number": 23,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The coach said that Sam had lost his courage immediately before the final and had asked not to play.",
+        "promptZh": "教練說，Sam 在決賽前突然失去勇氣，並要求不要出場。",
+        "starter": "The",
+        "answer": "The coach said Sam had got cold feet before the final.",
+        "answerZh": "教練說 Sam 在決賽前臨陣退縮。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q24",
+        "number": 24,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Why did Tessa cancel the wedding so suddenly? B: Do you think she became too frightened at the last moment?",
+        "promptZh": "甲：Tessa 為甚麼突然取消婚禮？ 乙：你認為她是否在最後一刻感到過分害怕？",
+        "starter": "Did",
+        "answer": "Did Tessa get cold feet before the wedding?",
+        "answerZh": "Tessa 是否在婚禮前臨陣退縮？",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q25",
+        "number": 25,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Feeling very nervous before an important choice does not always mean that the choice itself is wrong.",
+        "promptZh": "在作出重要選擇前感到非常緊張，並不一定表示這個選擇本身是錯的。",
+        "starter": "Having",
+        "answer": "Having cold feet does not necessarily mean you have made the wrong choice.",
+        "answerZh": "在重要決定前感到膽怯，並不一定表示你作出了錯誤選擇。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q26",
+        "number": 26,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Why is Omar still working at the same company? B: He wanted to leave, but fear stopped him from accepting another job.",
+        "promptZh": "甲：Omar 為甚麼仍在同一間公司工作？ 乙：他原本想離開，但因為害怕而沒有接受另一份工作。",
+        "starter": "Omar’s",
+        "answer": "Omar’s cold feet about leaving a safe job kept him at the company.",
+        "answerZh": "Omar 因為不敢離開穩定的工作，所以繼續留在公司。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q27",
+        "number": 27,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Two buyers had agreed to complete the deal, but both became too nervous and withdrew.",
+        "promptZh": "兩名買家原本答應完成交易，卻同時因為過分緊張而退出。",
+        "starter": "The",
+        "answer": "The deal failed after both buyers got cold feet.",
+        "answerZh": "兩名買家同時打退堂鼓，令交易告吹。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q28",
+        "number": 28,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Uma looked very nervous before she boarded the plane. B: Yes, but she still went ahead with the journey.",
+        "promptZh": "甲：Uma 登機前看來非常緊張。 乙：是的，但她仍然繼續行程。",
+        "starter": "Although",
+        "answer": "Although Uma had cold feet, she still boarded the plane.",
+        "answerZh": "雖然 Uma 感到膽怯，但她仍然登上飛機。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q29",
+        "number": 29,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Victor was close to losing his courage, but his friend encouraged him to continue.",
+        "promptZh": "Victor 幾乎失去勇氣，但朋友鼓勵他繼續。",
+        "starter": "Victor",
+        "answer": "Victor was starting to get cold feet, but his friend encouraged him to continue.",
+        "answerZh": "Victor 開始感到膽怯，但朋友鼓勵他繼續。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q30",
+        "number": 30,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Wendy cancelled the course one day before it began. B: Was sudden fear the reason?",
+        "promptZh": "甲：Wendy 在課程開始前一天取消了報名。 乙：她是否因為突然害怕而取消？",
+        "starter": "Was",
+        "answer": "Was it cold feet that made Wendy cancel the course?",
+        "answerZh": "Wendy 是否因為臨陣退縮而取消課程？",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q31",
+        "number": 31,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Alex had practised for several weeks, but he suddenly lost his courage when his name was called.",
+        "promptZh": "Alex 已練習了數星期，卻在被叫到名字時突然失去勇氣。",
+        "starter": "Even",
+        "answer": "Even though Alex had practised for weeks, he got cold feet when his name was called.",
+        "answerZh": "雖然 Alex 已練習了數星期，但被叫到名字時仍突然失去勇氣。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q32",
+        "number": 32,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Beth became too nervous and delayed the interview twice. On her third attempt, she finally completed it.",
+        "promptZh": "Beth 曾兩次因過分緊張而延遲面試，第三次終於完成了。",
+        "starter": "After",
+        "answer": "After getting cold feet twice, Beth finally completed the interview.",
+        "answerZh": "Beth 兩次臨陣退縮後，終於完成面試。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q33",
+        "number": 33,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "As the opening night came closer, Carlos became increasingly nervous and uncertain about performing.",
+        "promptZh": "隨着首演之夜愈來愈接近，Carlos 對演出感到愈來愈緊張和動搖。",
+        "starter": "As",
+        "answer": "As opening night approached, Carlos began to get cold feet.",
+        "answerZh": "隨着首演之夜接近，Carlos 開始感到膽怯。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q34",
+        "number": 34,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Denise had enough skill to enter the competition, but fear prevented her from taking part.",
+        "promptZh": "Denise 有足夠能力參加比賽，但恐懼令她沒有參賽。",
+        "starter": "Cold",
+        "answer": "Cold feet, rather than a lack of skill, kept Denise out of the competition.",
+        "answerZh": "令 Denise 沒有參加比賽的是膽怯，而不是能力不足。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "Cold feet"
+      },
+      {
+        "id": "idiom-85-q35",
+        "number": 35,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The manager wondered whether the staff were becoming nervous and uncertain about using the new system.",
+        "promptZh": "經理想知道員工是否開始對使用新系統感到緊張和動搖。",
+        "starter": "The",
+        "answer": "The manager wondered whether the staff were getting cold feet about the new system.",
+        "answerZh": "經理想知道員工是否開始對新系統感到動搖。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q36",
+        "number": 36,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "If the company loses its courage now and withdraws, several months of planning will be wasted.",
+        "promptZh": "如果公司現在失去勇氣並退出，數個月的籌備便會白費。",
+        "starter": "If",
+        "answer": "If the company gets cold feet now, months of planning will be wasted.",
+        "answerZh": "如果公司現在打退堂鼓，數個月的籌備便會白費。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Eric remained calm and signed the agreement despite pressure from several people.",
+        "promptZh": "儘管受到多人的壓力，Eric 仍保持冷靜並簽署協議。",
+        "starter": "There",
+        "answer": "There was no sign of cold feet as Eric signed the agreement.",
+        "answerZh": "Eric 簽署協議時，完全沒有臨陣退縮的跡象。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q38",
+        "number": 38,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Fiona felt very nervous before speaking, but she became confident once she began.",
+        "promptZh": "Fiona 發言前感到非常緊張，但開始說話後便變得有信心。",
+        "starter": "Fiona",
+        "answer": "Fiona stopped having cold feet once she began speaking.",
+        "answerZh": "Fiona 開始說話後便不再感到膽怯。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q39",
+        "number": 39,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "If the team became too nervous to continue at this stage, the whole project would be delayed.",
+        "promptZh": "如果團隊在這個階段突然膽怯而不敢繼續，整個項目便會延誤。",
+        "starter": "Getting",
+        "answer": "Getting cold feet at this stage would delay the whole project.",
+        "answerZh": "在這個階段臨陣退縮，會令整個項目延誤。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q40",
+        "number": 40,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The organisers were worried that the lead singer might lose her courage immediately before the show.",
+        "promptZh": "主辦單位擔心主音歌手可能會在演出前一刻失去勇氣。",
+        "starter": "The",
+        "answer": "The organisers feared that the lead singer might get cold feet at the last minute.",
+        "answerZh": "主辦單位擔心主音歌手可能會在最後一刻臨陣退縮。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q41",
+        "number": 41,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "After seeing that the project would cost much more than expected, the investors began to hesitate and consider withdrawing.",
+        "promptZh": "投資者發現項目成本遠高於預期後，開始猶豫並考慮退出。",
+        "starter": "Higher",
+        "answer": "Higher costs have given investors cold feet about the new housing project.",
+        "answerZh": "成本上升令投資者開始對這個新住宅項目感到動搖。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The committee is nervous about holding the public event. Its concern may be reasonable, but it has not made a final decision.",
+        "promptZh": "委員會對舉行公開活動感到不安。這份擔心可能合理，但委員會尚未作出最後決定。",
+        "starter": "The",
+        "answer": "The committee’s cold feet about the public event may be understandable, but no final decision has been made.",
+        "answerZh": "委員會對公開活動的猶豫可能可以理解，但目前尚未作出最後決定。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q43",
+        "number": 43,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The interview guest had agreed to appear live, but became too nervous and left before the cameras arrived.",
+        "promptZh": "訪問嘉賓原本答應現場亮相，卻因為過分緊張而在攝影機到達前離開。",
+        "starter": "By",
+        "answer": "By the time the cameras arrived, the interview guest had got cold feet about appearing live.",
+        "answerZh": "攝影機到達時，訪問嘉賓已對現場亮相臨陣退縮。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q44",
+        "number": 44,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Everyone thought the buyers merely needed more time, but they were actually becoming too frightened to complete the purchase.",
+        "promptZh": "所有人都以為買家只是需要更多時間，但他們其實是害怕得不敢完成交易。",
+        "starter": "What",
+        "answer": "What looked like a simple delay was actually a case of cold feet among the buyers.",
+        "answerZh": "表面上看似只是普通延誤，實際上卻是買家打退堂鼓。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q45",
+        "number": 45,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The school may cancel the entire trip if it becomes too nervous after receiving only one complaint.",
+        "promptZh": "如果學校只收到一宗投訴便開始感到膽怯，整個旅程可能會被取消。",
+        "starter": "If",
+        "answer": "If the school gets cold feet after one complaint, the whole trip may be cancelled.",
+        "answerZh": "如果學校只收到一宗投訴便打退堂鼓，整個旅程可能會被取消。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q46",
+        "number": 46,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The new actor received a great deal of encouragement, but still became too nervous before the live show.",
+        "promptZh": "這名新演員得到很多鼓勵，卻仍在現場演出前感到過分緊張。",
+        "starter": "No",
+        "answer": "No amount of encouragement could stop the new actor from getting cold feet before the live show.",
+        "answerZh": "無論得到多少鼓勵，這名新演員仍在現場演出前臨陣退縮。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Everyone knows that the team feels nervous. The real issue is whether it will continue despite that fear.",
+        "promptZh": "所有人都知道團隊感到緊張。真正的問題是團隊會否克服恐懼並繼續。",
+        "starter": "The",
+        "answer": "The question is not whether the team has cold feet, but whether it will continue despite its fear.",
+        "answerZh": "問題不在於團隊是否感到膽怯，而在於它會否克服恐懼並繼續。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q48",
+        "number": 48,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Yara had wanted the overseas job, but fear made her reject the offer.",
+        "promptZh": "Yara 原本很想得到那份海外工作，但恐懼令她拒絕了聘用邀請。",
+        "starter": "Because",
+        "answer": "Because of her cold feet, Yara turned down the overseas job she had wanted.",
+        "answerZh": "Yara 因為突然膽怯，拒絕了自己原本想要的海外工作。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q49",
+        "number": 49,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The seller suddenly asked for much more money, and the buyers now appear nervous about completing the deal.",
+        "promptZh": "賣方突然要求大幅增加款項，而買家現在似乎對完成交易感到動搖。",
+        "starter": "The",
+        "answer": "The sudden request for more money seems to have given the buyers cold feet.",
+        "answerZh": "突然要求增加款項，似乎令買家開始打退堂鼓。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      },
+      {
+        "id": "idiom-85-q50",
+        "number": 50,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The local centre received several complaints about the outdoor festival, but it confidently confirmed that the event would continue.",
+        "promptZh": "本地中心收到數宗有關戶外節日活動的投訴，但仍有信心地確認活動會繼續舉行。",
+        "starter": "With",
+        "answer": "With no sign of cold feet, the local centre confirmed that the outdoor festival would continue.",
+        "answerZh": "本地中心完全沒有打退堂鼓，並確認戶外節日活動會繼續舉行。",
+        "targetForm": "cold feet",
+        "targetMeaning": "To become or feel suddenly nervous, frightened or uncertain about something that you had planned or agreed to do, often causing you to hesitate, delay or withdraw.",
+        "highlight": "cold feet"
+      }
+    ]
+  }
+}

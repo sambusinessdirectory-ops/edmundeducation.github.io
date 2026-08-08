@@ -1,0 +1,1589 @@
+{
+  "lesson": {
+    "id": "idiom-108",
+    "order": 108,
+    "slug": "it-takes-two-to-tango",
+    "version": "1",
+    "title": "一個巴掌拍不響／雙方都有責任",
+    "titleEn": "it takes two to tango",
+    "titleZh": "一個巴掌拍不響／雙方都有責任",
+    "source": {
+      "file": "Idiom 108 - 「It Takes Two to Tango」.pdf",
+      "pageCount": 43,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "exercisePdfPages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "answerKeyPdfPages": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "it takes two to tango",
+        "highlight": "it takes two to tango"
+      }
+    ],
+    "examples": [
+      {
+        "en": "A: Why are both of them being asked to apologise? B: It takes two to tango.",
+        "zh": "甲：為甚麼他們兩個都要道歉？ 乙：一個巴掌拍不響。",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "en": "It takes two to tango, so both partners need to attend the meeting.",
+        "zh": "事情需要雙方配合，因此兩名合夥人都需要出席會議。",
+        "highlight": "It takes two to tango"
+      }
+    ],
+    "meaning": {
+      "en": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+      "zh": "一件涉及兩個人或雙方的事情，通常不能單靠其中一方發生、成功、改善或得到解決。",
+      "naturalZh": [
+        "一個巴掌拍不響",
+        "雙方都有責任",
+        "事情需要雙方配合",
+        "單靠一方並不足夠",
+        "雙方都必須願意參與",
+        "這是雙方的事"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; friendly advice; workplace discussions; interviews; news commentary; general articles; discussions about relationships, teamwork or agreements.",
+      "summaryZh": "it takes two to tango 屬於口語至中性的諺語式表達，常見於日常對話、友善勸告、工作討論、訪問、新聞評論及一般文章。",
+      "contextsEn": [
+        "everyday conversation",
+        "friendly advice",
+        "workplace discussions",
+        "interviews",
+        "news commentary",
+        "general articles",
+        "discussions about relationships, teamwork or agreements",
+        "reasonable",
+        "corrective",
+        "mildly critical",
+        "practical",
+        "encouraging"
+      ],
+      "contextsZh": [
+        "標點符號",
+        "句子位置",
+        "引述或轉述結構",
+        "話語標記",
+        "原因或結果子句",
+        "慣用語前後所交代的具體情境。"
+      ],
+      "formalEn": "In highly formal academic, legal or technical writing, expressions such as both parties share responsibility or cooperation from both sides is required may be clearer.",
+      "formalZh": "它與一般動詞短語不同，通常應作為一個完整句子單位記憶及使用："
+    },
+    "fixedVariable": {
+      "fixed": "it takes two to tango",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "it takes two to tango",
+          "example": "A: Why are both of them being asked to apologise? B: It takes two to tango.",
+          "highlight": "It takes two to tango"
+        },
+        {
+          "form": "It takes two to tango, so + result.",
+          "example": "It takes two to tango, so both partners need to attend the meeting.",
+          "highlight": "It takes two to tango"
+        },
+        {
+          "form": "Situation + ; / — + it takes two to tango.",
+          "example": "Nora cannot repair the friendship alone—it takes two to tango.",
+          "highlight": "it takes two to tango"
+        },
+        {
+          "form": "After all, it takes two to tango.",
+          "example": "As everyone knows, it takes two to tango.",
+          "highlight": "it takes two to tango"
+        },
+        {
+          "form": "Subject + reporting or reminder verb + that + it takes two to tango.",
+          "example": "The manager reminded them that it takes two to tango.",
+          "highlight": "it takes two to tango"
+        },
+        {
+          "form": "it takes two to tango",
+          "example": "The truth is that it takes two to tango.",
+          "highlight": "it takes two to tango"
+        },
+        {
+          "form": "In + situation, it takes two to tango.",
+          "example": "In a shared project, it takes two to tango.",
+          "highlight": "it takes two to tango"
+        },
+        {
+          "form": "Because / Since + it takes two to tango, + result.",
+          "example": "Because it takes two to tango, both players should apologise.",
+          "highlight": "it takes two to tango"
+        },
+        {
+          "form": "“It takes two to tango,” + speaker + said.",
+          "example": "“It takes two to tango,” the coach reminded the players.",
+          "highlight": "It takes two to tango"
+        },
+        {
+          "form": "2. It takes two to tango, so + result.",
+          "example": "It takes two to tango; Leo should not place all the blame on Sara for their argument.",
+          "highlight": "It takes two to tango"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Complete Standalone Sentence",
+        "titleZh": "句式一：獨立完整句子",
+        "formula": "it takes two to tango",
+        "descriptionEn": "Source grammar frame: it takes two to tango.",
+        "descriptionZh": "原檔列出的句法框架：it takes two to tango。",
+        "examples": [
+          {
+            "en": "A: Why are both of them being asked to apologise? B: It takes two to tango.",
+            "zh": "甲：為甚麼他們兩個都要道歉？ 乙：一個巴掌拍不響。",
+            "highlight": "It takes two to tango"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Expression First, Result Afterwards",
+        "titleZh": "句式二：先使用慣用語，再交代結果",
+        "formula": "It takes two to tango, so + result.",
+        "descriptionEn": "The phrase after so is an optional result. It is not part of the fixed expression.",
+        "descriptionZh": "後面的內容只是補充結果，並不是固定慣用語的一部分。",
+        "examples": [
+          {
+            "en": "It takes two to tango, so both partners need to attend the meeting.",
+            "zh": "事情需要雙方配合，因此兩名合夥人都需要出席會議。",
+            "highlight": "It takes two to tango"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Situation First, Expression Afterwards",
+        "titleZh": "句式三：先交代情況，再使用慣用語",
+        "formula": "Situation + ; / — + it takes two to tango.",
+        "descriptionEn": "The semicolon or dash connects the specific situation with the idiomatic conclusion.",
+        "descriptionZh": "分號或破折號把具體情境與慣用語總結連接起來。",
+        "examples": [
+          {
+            "en": "Nora cannot repair the friendship alone—it takes two to tango.",
+            "zh": "諾拉無法獨力修補這段友誼；這需要雙方共同努力。",
+            "highlight": "it takes two to tango"
+          },
+          {
+            "en": "Neither side should place all the blame on the other; it takes two to tango.",
+            "zh": "任何一方都不應把所有責任推給另一方；一個巴掌拍不響。",
+            "highlight": "it takes two to tango"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After a Discourse Marker",
+        "titleZh": "句式四：置於話語標記之後",
+        "formula": "After all, it takes two to tango.",
+        "descriptionEn": "The opening expression is optional. It helps show how the speaker is presenting the point.",
+        "descriptionZh": "開首的話語標記屬於可選部分，用來顯示說話者如何提出這個觀點。",
+        "examples": [
+          {
+            "en": "As everyone knows, it takes two to tango.",
+            "zh": "大家都知道，事情需要雙方配合。",
+            "highlight": "it takes two to tango"
+          },
+          {
+            "en": "Put simply, it takes two to tango.",
+            "zh": "簡單來說，雙方都需要參與。",
+            "highlight": "it takes two to tango"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Embedded After “That”",
+        "titleZh": "句式五：置於 that 之後",
+        "formula": "Subject + reporting or reminder verb + that + it takes two to tango.",
+        "descriptionEn": "The word that belongs to the surrounding clause. It is not part of the fixed idiom.",
+        "descriptionZh": "that 屬於外圍句子結構，並不是固定慣用語的一部分。",
+        "examples": [
+          {
+            "en": "The manager reminded them that it takes two to tango.",
+            "zh": "經理提醒他們，事情需要雙方配合。",
+            "highlight": "it takes two to tango"
+          },
+          {
+            "en": "The adviser explained that it takes two to tango.",
+            "zh": "顧問解釋，協議需要雙方共同努力。",
+            "highlight": "it takes two to tango"
+          },
+          {
+            "en": "Remember that it takes two to tango.",
+            "zh": "記住，一個巴掌拍不響。",
+            "highlight": "it takes two to tango"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Framing Clause",
+        "titleZh": "句式六：配合引導觀點的子句",
+        "formula": "it takes two to tango",
+        "descriptionEn": "These clauses introduce the expression as an important conclusion.",
+        "descriptionZh": "這些子句把目標表達作為重要結論引出。",
+        "examples": [
+          {
+            "en": "The truth is that it takes two to tango.",
+            "zh": "事實是，單靠一方並不足夠。",
+            "highlight": "it takes two to tango"
+          },
+          {
+            "en": "The lesson is simple: it takes two to tango.",
+            "zh": "道理很簡單：一個巴掌拍不響。",
+            "highlight": "it takes two to tango"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Scope Phrase",
+        "titleZh": "句式七：先指出適用範圍",
+        "formula": "In + situation, it takes two to tango.",
+        "descriptionEn": "The opening phrase shows which situation the saying applies to.",
+        "descriptionZh": "開首短語指出這個表達適用於哪一種情況。",
+        "examples": [
+          {
+            "en": "In a shared project, it takes two to tango.",
+            "zh": "在共同項目中，事情需要雙方配合。",
+            "highlight": "it takes two to tango"
+          },
+          {
+            "en": "When it comes to rebuilding trust, it takes two to tango.",
+            "zh": "要重新建立信任，雙方都需要付出努力。",
+            "highlight": "it takes two to tango"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Reason Clause",
+        "titleZh": "句式八：作為原因子句",
+        "formula": "Because / Since + it takes two to tango, + result.",
+        "descriptionEn": "Because and since are optional conjunctions outside the fixed expression.",
+        "descriptionZh": "及 since 是固定表達以外的連接詞。",
+        "examples": [
+          {
+            "en": "Because it takes two to tango, both players should apologise.",
+            "zh": "因為一個巴掌拍不響，兩名球員都應該道歉。",
+            "highlight": "it takes two to tango"
+          },
+          {
+            "en": "Since it takes two to tango, neither team should expect the other to do everything.",
+            "zh": "既然事情需要雙方配合，任何一隊都不應期望另一隊完成所有工作。",
+            "highlight": "it takes two to tango"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Quoted Speech",
+        "titleZh": "句式九：直接引語",
+        "formula": "“It takes two to tango,” + speaker + said.",
+        "descriptionEn": "as a complete quotation; after a speaker’s first statement; inside a longer response; after a reporting clause.",
+        "descriptionZh": "目標表達可以：",
+        "examples": [
+          {
+            "en": "“It takes two to tango,” the coach reminded the players.",
+            "zh": "教練提醒球員：「一個巴掌拍不響。」",
+            "highlight": "It takes two to tango"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Traditional-Saying Frame",
+        "titleZh": "句式十：諺語引述框架",
+        "formula": "2. It takes two to tango, so + result.",
+        "descriptionEn": "This frame explicitly presents the expression as a familiar saying.",
+        "descriptionZh": "這個句式清楚表明說話者正在引用一句常見諺語。",
+        "examples": [
+          {
+            "en": "It takes two to tango; Leo should not place all the blame on Sara for their argument.",
+            "zh": "一個巴掌拍不響；里奧不應把爭吵的全部責任推給莎拉。",
+            "highlight": "It takes two to tango"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Rejects Unfair One-Sided Blame",
+        "titleZh": "拒絕不公平的單方面歸咎",
+        "en": "The idiomatic version gives a compact and memorable response to one-sided blame.",
+        "zh": "里奧不應只責怪莎拉； 一個巴掌拍不響。 慣用語版本能以簡潔而容易記憶的方式反駁單方面歸咎。",
+        "examples": [
+          {
+            "en": "Leo should not blame only Sara—it takes two to tango.",
+            "zh": "里奧不應只責怪莎拉；一個巴掌拍不響。",
+            "highlight": "it takes two to tango"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Explains Why One Person’s Effort Is Not Enough",
+        "titleZh": "解釋為甚麼單靠一方並不足夠",
+        "en": "The expression is useful when a relationship, agreement or shared project requires cooperation.",
+        "zh": "諾拉無法獨力修補友誼； 這需要雙方共同努力。 當關係、協議或共同項目需要合作時，這個表達十分實用。",
+        "examples": [
+          {
+            "en": "Nora cannot repair the friendship alone—it takes two to tango.",
+            "zh": "諾拉無法獨力修補友誼；這需要雙方共同努力。",
+            "highlight": "it takes two to tango"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Gives Advice Without a Long Explanation",
+        "titleZh": "以較短方式提出勸告",
+        "en": "It Gives Advice Without a Long Explanation",
+        "zh": "不要再互相指責了。 一個巴掌拍不響。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Works Naturally as a Response",
+        "titleZh": "適合用作自然回應",
+        "en": "The expression allows the speaker to respond without building a long sentence from the beginning.",
+        "zh": "這個表達讓說話者無須每次由零開始組織一個很長的句子。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Encourage Cooperation",
+        "titleZh": "可以鼓勵合作",
+        "en": "The saying can move a discussion away from blame and towards shared action.",
+        "zh": "這句話可以把討論由互相指責轉向共同採取行動。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Can Summarise a Complicated Situation",
+        "titleZh": "可以總結複雜情況",
+        "en": "The expression packages the ideas of two-sided involvement, shared responsibility and mutual participation into one familiar sentence.",
+        "zh": "道理很簡單：一個巴掌拍不響。 這個表達把雙方參與、共同責任及互相配合等意思濃縮成一句常見說法。",
+        "examples": [
+          {
+            "en": "The lesson is simple: it takes two to tango.",
+            "zh": "道理很簡單：一個巴掌拍不響。",
+            "highlight": "it takes two to tango"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Well-Documented Popularisation; Exact Earlier Development Uncertain",
+      "statusZh": "普及過程有較充分記錄；更早期的確切演變仍未完全確定",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The wording became widely known through the 1952 American song “Takes Two to Tango”, written by Al Hoffman and Dick Manning. Pearl Bailey recorded a successful version, and Louis Armstrong also performed the song. Merriam-Webster connects the familiar expression with this 1952 song and explains that its sound pattern helped make it memorable.",
+          "zh": "這個說法因1952年的美國歌曲《Takes Two to Tango》而廣為人知。 歌曲由 Al Hoffman 及 Dick Manning 創作，Pearl Bailey 錄製了廣受歡迎的版本，Louis Armstrong 亦曾演唱。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The dance image was soon extended beyond romance and dancing. Speakers began using it for any situation in which two people or groups had to participate, cooperate or share responsibility.",
+          "zh": "探戈的雙人舞畫面很快被延伸至愛情及舞蹈以外的情況。 人們開始用它形容任何需要兩個人或兩個群體參與、合作或共同承擔責任的事情。"
+        }
+      ],
+      "memoryEn": "A partner dance cannot work through one dancer alone; a two-sided situation cannot work through only one side.",
+      "memoryZh": "雙人舞不能單靠一名舞者完成；涉及雙方的事情也不能只靠其中一方。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Complete Clause Fixed",
+        "titleZh": "規則一：保持完整子句不變",
+        "en": "Do not change takes according to another person or subject. The expression already has its fixed subject it.",
+        "zh": "不要因其他人物或主語而改變 takes。 這個表達本身已有固定主語 it。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Treat It as an Ordinary Tense Exercise",
+        "titleZh": "規則二：不要把它當作一般時態變化練習",
+        "en": "These forms might be created in a literal or highly unusual context, but they are not the familiar fixed saying taught here.",
+        "zh": "在本練習中，不使用以上形式。 它們可能出現在字面或非常特殊的語境中，但並不是本課教授的常見固定說法。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Change “Two”",
+        "titleZh": "規則三：不要改變 two",
+        "en": "Changing the number usually creates a joke, parody or literal statement rather than the standard idiom.",
+        "zh": "改變數字通常會變成笑話、仿作或字面陳述，而不再是標準慣用語。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It Only for a Truly Two-Sided Situation",
+        "titleZh": "規則四：只用於真正涉及雙方的情況",
+        "en": "The situation is not meaningfully two-sided.",
+        "zh": "兩位朋友都發出了傷人的訊息，卻互相指責。 一個巴掌拍不響。 如果只有一方作出錯誤行為，而另一方沒有參與，使用這個慣用語便不準確。",
+        "examples": [
+          {
+            "en": "It takes two to tango.",
+            "zh": "兩位朋友都發出了傷人的訊息，卻互相指責。一個巴掌拍不響。",
+            "highlight": "It takes two to tango"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Use It to Blame a Victim",
+        "titleZh": "規則五：不要用來責怪受害者",
+        "en": "abuse; harassment; bullying; threats; fraud; an attack; a serious power imbalance; a person who had no meaningful choice or participation. The saying should never be used automatically to suggest that every victim shares responsibility.",
+        "zh": "在涉及虐待、騷擾、欺凌、威脅、詐騙、襲擊、嚴重權力不平等，或其中一方根本沒有選擇或參與的情況下，不應使用這個表達來分散責任。 不應自動使用這句話暗示每位受害者都需要承擔責任。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Shared Responsibility Does Not Always Mean",
+        "titleZh": "規則六：雙方有責任不等於責任必定完全相等",
+        "en": "It does not scientifically calculate that each side is exactly fifty per cent responsible. The exercise uses clear situations in which both sides have made a meaningful contribution to the problem.",
+        "zh": "這個表達通常表示雙方都對情況有所影響，但並不表示雙方的責任在所有情況下都必定完全相等。 本練習只使用雙方都明顯對問題有所影響的情境。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Distinguish Responsibility from Cooperation",
+        "titleZh": "規則七：分辨共同責任與共同合作",
+        "en": "Both uses share the same central idea: the situation cannot be explained or completed through only one side.",
+        "zh": "兩名同事都隱瞞資料，令項目失敗； 雙方都有責任。 其中一個部門無法在另一個部門不參與的情況下完成共同項目； 事情需要雙方配合。 兩種用法的核心都相同：不能只從單方面解釋或完成整件事情。",
+        "examples": [
+          {
+            "en": "It takes two to tango.",
+            "zh": "兩名同事都隱瞞資料，令項目失敗；雙方都有責任。",
+            "highlight": "It takes two to tango"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Repeat the Full Meaning Unnecessarily",
+        "titleZh": "規則八：不要不必要地重複完整意思",
+        "en": "The improved sentence lets the idiom carry the shared-responsibility meaning.",
+        "zh": "任何一方都不應只責怪另一方； 一個巴掌拍不響。 改良句讓慣用語本身承擔「雙方都有責任」的意思。",
+        "examples": [
+          {
+            "en": "Neither person should blame the other alone; it takes two to tango.",
+            "zh": "任何一方都不應只責怪另一方；一個巴掌拍不響。",
+            "highlight": "it takes two to tango"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve the Specific Situation",
+        "titleZh": "規則九：保留具體情境",
+        "en": "the people; the relationship; the problem; the reason the saying is relevant.",
+        "zh": "諾拉無法獨力修補與埃里克的友誼； 這需要雙方共同努力。 答案清楚保留了人物、關係、問題，以及慣用語適用的原因。",
+        "examples": [
+          {
+            "en": "Nora cannot repair her friendship with Eric alone—it takes two to tango.",
+            "zh": "諾拉無法獨力修補與埃里克的友誼；這需要雙方共同努力。",
+            "highlight": "it takes two to tango"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "“It Takes Two” Is Related but Excluded Here",
+        "titleZh": "規則十",
+        "en": "“It Takes Two” Is Related but Excluded Here",
+        "zh": "it takes two 是相關縮略形式，但本課不採用",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "it takes two to tango",
+      "zh": "使用以下表達改寫句子或完成回應："
+    },
+    "questions": [
+      {
+        "id": "idiom-108-q01",
+        "number": 1,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Leo blamed Sara for their argument, but he also shouted at her and refused to listen.",
+        "promptZh": "里奧把爭吵歸咎於莎拉，但他也向她大叫，而且拒絕聆聽。",
+        "starter": "It",
+        "answer": "It takes two to tango; Leo should not place all the blame on Sara for their argument.",
+        "answerZh": "一個巴掌拍不響；里奧不應把爭吵的全部責任推給莎拉。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q02",
+        "number": 2,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Nora wants to repair her friendship with Eric, but Eric refuses to speak to her. Her effort alone is not enough.",
+        "promptZh": "諾拉希望修補與埃里克的友誼，但埃里克拒絕與她交談。單靠她一個人的努力並不足夠。",
+        "starter": "Nora",
+        "answer": "Nora cannot repair her friendship with Eric alone—it takes two to tango.",
+        "answerZh": "諾拉無法獨力修補與埃里克的友誼；這需要雙方共同努力。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q03",
+        "number": 3,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The seller has accepted a lower price, but the buyer still refuses to sign. The seller cannot complete the deal alone.",
+        "promptZh": "賣方已接受較低價格，但買方仍拒絕簽署。賣方無法獨力完成交易。",
+        "starter": "The",
+        "answer": "The seller’s effort alone cannot complete the deal with the buyer; it takes two to tango.",
+        "answerZh": "單靠賣方的努力無法與買方完成交易；交易需要雙方同意。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q04",
+        "number": 4,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: Red Club is ready to arrange the match. B: Blue Club must agree to the date as well.",
+        "promptZh": "甲：紅隊已準備安排比賽。 乙：藍隊也必須同意比賽日期。",
+        "starter": "After",
+        "answer": "After all, it takes two to tango, so one club leader cannot arrange the match without the other.",
+        "answerZh": "畢竟，事情需要雙方配合，因此其中一名球會領袖無法在另一人不同意的情況下安排比賽。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q05",
+        "number": 5,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Both neighbours shouted during the dispute, but everyone is blaming only Mr Lee.",
+        "promptZh": "兩名鄰居在爭執期間都曾大叫，但所有人只責怪李先生。",
+        "starter": "Remember",
+        "answer": "Remember that it takes two to tango before blaming only Mr Lee for the dispute.",
+        "answerZh": "在只責怪李先生之前，記住一個巴掌拍不響。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q06",
+        "number": 6,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Ava and Noah each failed to do their part of the project, but they are blaming each other.",
+        "promptZh": "艾娃和諾亞都沒有完成自己負責的項目工作，但二人正在互相指責。",
+        "starter": "Neither",
+        "answer": "Neither Ava nor Noah should blame the other for their failed project; it takes two to tango.",
+        "answerZh": "艾娃和諾亞都不應把項目失敗歸咎於對方；雙方都有責任。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q07",
+        "number": 7,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The teacher asked several questions, but the students remained silent. The teacher could not create a discussion alone.",
+        "promptZh": "老師提出了幾條問題，但學生一直保持沉默。老師無法獨力帶動討論。",
+        "starter": "The",
+        "answer": "The teacher asked several questions, but the students remained silent; as the saying goes, it takes two to tango.",
+        "answerZh": "老師提出了幾條問題，但學生一直保持沉默；正如俗語所說，事情需要雙方配合。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q08",
+        "number": 8,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "One shop owner is doing all the work while the other rarely helps. The business cannot succeed this way.",
+        "promptZh": "一名店主正在完成所有工作，另一名店主卻很少幫忙。生意無法以這種方式成功。",
+        "starter": "It",
+        "answer": "It takes two to tango, so the shop cannot succeed while one owner leaves all the work to the other.",
+        "answerZh": "事情需要雙方配合，因此如果其中一名店主把所有工作留給另一人，店舖便無法成功。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q09",
+        "number": 9,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "During the argument, both friends interrupted and insulted each other. Neither can honestly describe it as one-sided.",
+        "promptZh": "爭吵期間，兩位朋友都曾打斷及侮辱對方。任何一方都不能誠實地說事情只是單方面造成的。",
+        "starter": "No",
+        "answer": "No one should pretend the argument was one-sided; when a conversation goes wrong, it takes two to tango.",
+        "answerZh": "任何人都不應假裝這場爭吵只是單方面造成的；對話出現問題時，往往一個巴掌拍不響。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q10",
+        "number": 10,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The two players insulted each other after the match, but each blamed only the other. Their coach reminded them that both had contributed to the disagreement.",
+        "promptZh": "兩名球員在比賽後互相侮辱，但每人都只責怪對方。教練提醒他們，兩人都對爭執有所影響。",
+        "starter": "It",
+        "answer": "“It takes two to tango,” the coach reminded the two players after their disagreement.",
+        "answerZh": "兩名球員發生分歧後，教練提醒他們：「一個巴掌拍不響。」",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q11",
+        "number": 11,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Both teams missed important deadlines, but each team says the other caused the problem. The manager tells them to stop blaming each other.",
+        "promptZh": "兩個團隊都錯過了重要限期，但每隊都表示問題由另一隊造成。經理要求他們停止互相指責。",
+        "starter": "The",
+        "answer": "The manager reminded both teams that it takes two to tango and asked them to stop blaming each other.",
+        "answerZh": "經理提醒兩個團隊雙方都有責任，並要求他們停止互相指責。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q12",
+        "number": 12,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Kim is trying to save the partnership, but her business partner refuses to attend any meetings.",
+        "promptZh": "金正嘗試挽救合作關係，但她的生意夥伴拒絕出席任何會議。",
+        "starter": "Even",
+        "answer": "Even if Kim wants to save the partnership, she cannot do it alone; it takes two to tango.",
+        "answerZh": "即使金希望挽救合作關係，她也無法獨力做到；這需要雙方共同努力。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q13",
+        "number": 13,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The school wants to change the bus route, but the bus company has not agreed. The school cannot make the change alone.",
+        "promptZh": "學校希望更改巴士路線，但巴士公司尚未同意。學校無法單方面作出改動。",
+        "starter": "The",
+        "answer": "The point is that it takes two to tango; the school cannot change the route without the bus company.",
+        "answerZh": "重點是事情需要雙方配合；沒有巴士公司的參與，學校無法更改路線。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q14",
+        "number": 14,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The twins both said hurtful things during their argument. They should each apologise.",
+        "promptZh": "雙胞胎在爭吵期間都說了傷人的話。他們每人都應該道歉。",
+        "starter": "Because",
+        "answer": "Because it takes two to tango, the twins should both apologise for the argument.",
+        "answerZh": "因為一個巴掌拍不響，雙胞胎二人都應該為爭吵道歉。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q15",
+        "number": 15,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Raj’s partner blamed him for the failed project, even though both of them had ignored important work. Raj said that he would not accept all the blame.",
+        "promptZh": "拉傑的夥伴把項目失敗歸咎於他，儘管兩人都忽略了重要工作。拉傑表示自己不會承擔全部責任。",
+        "starter": "Raj",
+        "answer": "Raj refused to accept all the blame for the failed project, saying that it takes two to tango.",
+        "answerZh": "拉傑拒絕承擔項目失敗的全部責任，並表示雙方都有責任。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q16",
+        "number": 16,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The parents have made a plan, but their teenager refuses to cooperate. The plan cannot work through the parents’ effort alone.",
+        "promptZh": "父母已制訂計劃，但他們的孩子拒絕合作。單靠父母的努力，計劃無法成功。",
+        "starter": "It",
+        "answer": "It takes two to tango, and the parents’ plan will go nowhere unless their teenager cooperates.",
+        "answerZh": "事情需要雙方配合；除非孩子願意合作，否則父母的計劃不會有任何進展。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q17",
+        "number": 17,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "One country wants to begin peace talks, but the other refuses to meet. Both must be willing to talk.",
+        "promptZh": "一個國家希望展開和平對話，但另一個國家拒絕會面。雙方都必須願意談判。",
+        "starter": "As",
+        "answer": "As the saying goes, it takes two to tango; the two countries must both be willing to talk.",
+        "answerZh": "正如俗語所說，事情需要雙方配合；兩個國家都必須願意展開對話。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q18",
+        "number": 18,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The team leader has offered several solutions, but the other department will not reply. One side cannot solve the problem alone.",
+        "promptZh": "團隊主管已提出幾個解決方法，但另一個部門拒絕回覆。單靠一方無法解決問題。",
+        "starter": "The",
+        "answer": "The team leader cannot solve the problem while the other department refuses to answer—after all, it takes two to tango.",
+        "answerZh": "如果另一個部門拒絕回覆，團隊主管便無法解決問題；畢竟，事情需要雙方配合。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q19",
+        "number": 19,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A: Ben, you must repair the friendship by yourself. B: That is unfair. Both of us helped create the problem.",
+        "promptZh": "甲：本，你必須獨力修補這段友誼。 乙：這並不公平。我們兩人都對問題有所影響。",
+        "starter": "You",
+        "answer": "“You cannot expect only me to fix this,” Ben said. “It takes two to tango.”",
+        "answerZh": "本說：「你不能期望只有我一個人解決這件事。一個巴掌拍不響。」",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q20",
+        "number": 20,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Two partners are working on a shared project. The project will suffer if only one of them keeps their promises.",
+        "promptZh": "兩名夥伴正在進行共同項目。如果只有其中一人遵守承諾，項目便會受到影響。",
+        "starter": "In",
+        "answer": "In any shared project, it takes two to tango, so both partners need to keep their promises.",
+        "answerZh": "在任何共同項目中，事情都需要雙方配合，因此兩名夥伴都需要遵守承諾。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q21",
+        "number": 21,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The adviser explained that the agreement was not moving forward because only one side was willing to change.",
+        "promptZh": "顧問解釋，協議沒有進展，是因為只有其中一方願意作出改變。",
+        "starter": "Because",
+        "answer": "“Because it takes two to tango, the agreement will not move forward while only one side is willing to change,” the adviser explained.",
+        "answerZh": "顧問解釋：「由於協議需要雙方配合，如果只有一方願意改變，事情便不會有進展。」",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q22",
+        "number": 22,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Lily has apologised and offered to meet, but Chloe refuses to answer. Lily cannot repair their friendship alone.",
+        "promptZh": "莉莉已道歉並提出見面，但克洛伊拒絕回覆。莉莉無法獨力修補兩人的友誼。",
+        "starter": "Lily’s",
+        "answer": "Lily’s effort alone will not repair her friendship with Chloe; it takes two to tango.",
+        "answerZh": "單靠莉莉的努力無法修補她與克洛伊的友誼；這需要雙方共同努力。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q23",
+        "number": 23,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The customer wants one design, while the builder wants another. They must settle the final design together.",
+        "promptZh": "顧客希望採用一個設計，建築商則希望採用另一個設計。他們必須共同決定最終方案。",
+        "starter": "It",
+        "answer": "It takes two to tango, so the customer and the builder must settle the final design together.",
+        "answerZh": "事情需要雙方配合，因此顧客和建築商必須共同決定最終設計。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q24",
+        "number": 24,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "One actor has practised carefully, but the other refuses to practise or listen. The scene cannot work through one actor’s effort.",
+        "promptZh": "一名演員已認真練習，但另一名演員拒絕練習或聆聽。單靠一名演員的努力，這場戲無法成功。",
+        "starter": "After",
+        "answer": "After all, it takes two to tango; the two actors must trust each other for the scene to work.",
+        "answerZh": "畢竟，事情需要雙方配合；兩名演員必須互相信任，這場戲才能成功。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q25",
+        "number": 25,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Both members of the couple interrupt each other, but each insists that the other causes every problem. The counsellor asks them to listen.",
+        "promptZh": "這對伴侶互相打斷對方，但每人都堅稱所有問題由另一人造成。輔導員要求他們聆聽對方。",
+        "starter": "The",
+        "answer": "The counsellor reminded the couple that it takes two to tango before asking each person to listen.",
+        "answerZh": "輔導員先提醒這對伴侶一個巴掌拍不響，然後要求二人聆聽對方。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q26",
+        "number": 26,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Owen says that Ruby causes every argument, but he often interrupts her and refuses to listen.",
+        "promptZh": "歐文表示每次爭吵都是露比造成的，但他經常打斷她，也拒絕聆聽。",
+        "starter": "When",
+        "answer": "When Owen blames only Ruby for their repeated arguments, remind him that it takes two to tango.",
+        "answerZh": "當歐文把多次爭吵只歸咎於露比時，提醒他一個巴掌拍不響。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q27",
+        "number": 27,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The class leader sent the wrong meeting time, but the other students also ignored the corrected message. The head teacher refuses to blame only the class leader.",
+        "promptZh": "班長發出了錯誤的會議時間，但其他學生亦忽略了更正訊息。校長拒絕只責怪班長。",
+        "starter": "It",
+        "answer": "“It takes two to tango,” the head teacher said, refusing to blame only the class leader for the confusion.",
+        "answerZh": "校長拒絕把混亂只歸咎於班長，並說：「一個巴掌拍不響。」",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q28",
+        "number": 28,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The buyer keeps asking for a much lower price, while the seller refuses every small reduction. They cannot reach a fair price because neither will compromise.",
+        "promptZh": "買方不斷要求大幅減價，賣方則拒絕任何小幅減價。由於雙方都不願讓步，他們無法達成公平價格。",
+        "starter": "The",
+        "answer": "The two sides will not reach a fair price unless both are willing to compromise; as everyone knows, it takes two to tango.",
+        "answerZh": "除非雙方都願意讓步，否則他們無法達成公平價格；大家都知道，事情需要雙方配合。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q29",
+        "number": 29,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "One department expects the other department to complete every part of their shared project.",
+        "promptZh": "一個部門期望另一個部門完成共同項目的所有工作。",
+        "starter": "Since",
+        "answer": "Since it takes two to tango, neither department can expect the other to do all the work.",
+        "answerZh": "既然事情需要雙方配合，任何一個部門都不能期望另一個部門完成所有工作。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q30",
+        "number": 30,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Two writers agreed to produce a book together, but one of them now refuses to write anything. The other writer cannot finish a joint book alone.",
+        "promptZh": "兩名作家同意共同創作一本書，但其中一人現在拒絕寫作。另一名作家無法獨力完成一本合著作品。",
+        "starter": "The",
+        "answer": "The truth is that it takes two to tango: one writer cannot finish a joint book while the other refuses to work.",
+        "answerZh": "事實是，合作需要雙方參與：如果其中一名作家拒絕工作，另一人便無法獨力完成合著作品。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q31",
+        "number": 31,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The manager blamed the sales team for the poor product launch. However, the product team had ignored several warnings about serious problems.",
+        "promptZh": "經理把產品推出不成功歸咎於銷售團隊。不過，產品團隊曾忽略幾項有關嚴重問題的警告。",
+        "starter": "Although",
+        "answer": "Although the manager blamed the sales team, the product team had ignored several warnings; it takes two to tango.",
+        "answerZh": "雖然經理責怪銷售團隊，但產品團隊曾忽略幾項警告；雙方都對失敗有所影響。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q32",
+        "number": 32,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The landlord chose a repair date without asking the tenant. The tenant then became angry and refused every alternative date. They need to discuss the repair calmly.",
+        "promptZh": "業主沒有詢問租客便選定維修日期。租客其後感到憤怒，並拒絕所有其他日期。雙方需要冷靜討論維修安排。",
+        "starter": "It",
+        "answer": "It takes two to tango, which is why the landlord and the tenant must discuss the repair calmly.",
+        "answerZh": "事情需要雙方配合，因此業主和租客必須冷靜討論維修安排。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q33",
+        "number": 33,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Two groups are organising the event, but each group is waiting for the other to do all the work. The organiser asks them to divide the jobs fairly.",
+        "promptZh": "兩個小組正在籌辦活動，但每組都等待另一組完成所有工作。主辦人要求他們公平分配工作。",
+        "starter": "The",
+        "answer": "The organiser told the two groups, “It takes two to tango, so please divide the jobs fairly.”",
+        "answerZh": "主辦人對兩個小組說：「事情需要雙方配合，所以請公平分配工作。」",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q34",
+        "number": 34,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The school wants parents to support a new rule, but it has refused to listen to any of their concerns.",
+        "promptZh": "學校希望家長支持一項新規則，但一直拒絕聆聽他們的任何疑慮。",
+        "starter": "If",
+        "answer": "If the school wants parents to support the new rule, it must listen to their concerns too—after all, it takes two to tango.",
+        "answerZh": "如果學校希望家長支持新規則，便也必須聆聽他們的疑慮；畢竟，事情需要雙方配合。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q35",
+        "number": 35,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "One country is ready to begin peace talks, but the other refuses to attend. One country cannot create a peace agreement alone.",
+        "promptZh": "一個國家已準備展開和平對話，但另一個國家拒絕出席。單靠一個國家無法達成和平協議。",
+        "starter": "The",
+        "answer": "The peace talks cannot succeed through one country’s effort alone; as the saying goes, it takes two to tango.",
+        "answerZh": "單靠一個國家的努力，和平對話無法成功；正如俗語所說，事情需要雙方配合。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q36",
+        "number": 36,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Someone accused Sam of completely ruining a friendship. Ana knew that Sam and his friend had both stopped replying to each other.",
+        "promptZh": "有人指責山姆完全破壞了一段友誼。安娜知道山姆和朋友都曾停止回覆對方。",
+        "starter": "Before",
+        "answer": "“Before you accuse Sam of ruining the friendship,” Ana said, “remember that it takes two to tango.”",
+        "answerZh": "安娜說：「在你指責山姆破壞友誼之前，記住一個巴掌拍不響。」",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q37",
+        "number": 37,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Olivia and her project partner both stopped sharing important information. The project later failed.",
+        "promptZh": "奧莉維亞和項目夥伴都停止分享重要資料。項目其後失敗。",
+        "starter": "The",
+        "answer": "The project failed after both partners stopped sharing information; in situations like this, it takes two to tango.",
+        "answerZh": "兩名夥伴停止分享資料後，項目以失敗告終；在這種情況下，雙方都有責任。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q38",
+        "number": 38,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Two people both damaged their relationship, but their friends are placing all the blame on only one of them.",
+        "promptZh": "兩個人都對關係造成了傷害，但他們的朋友正把所有責任推給其中一人。",
+        "starter": "It",
+        "answer": "It takes two to tango, so blaming only one person will not help repair the relationship.",
+        "answerZh": "一個巴掌拍不響，因此只責怪其中一人無助於修補關係。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q39",
+        "number": 39,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Two companies want an agreement, but each expects the other company to accept every condition. The adviser warns them against expecting a one-sided agreement.",
+        "promptZh": "兩間公司都希望達成協議，但每間公司都期望對方接受所有條件。顧問警告他們不要期望達成單方面的協議。",
+        "starter": "The",
+        "answer": "The adviser explained that it takes two to tango and warned the two companies against expecting a one-sided agreement.",
+        "answerZh": "顧問解釋協議需要雙方配合，並警告兩間公司不要期望達成單方面的協議。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q40",
+        "number": 40,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Each side demands complete trust from the other, but neither side shows any trust in return.",
+        "promptZh": "雙方都要求對方完全信任自己，但任何一方都沒有以信任回應。",
+        "starter": "Neither",
+        "answer": "Neither side can demand trust without showing trust in return; the lesson is simple: it takes two to tango.",
+        "answerZh": "任何一方都不能只要求別人信任自己，卻不以信任回應；道理很簡單：事情需要雙方配合。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q41",
+        "number": 41,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A buyer repeatedly lowers the price, while the seller refuses every offer. When the deal fails, each person blames only the other.",
+        "promptZh": "買方不斷降低出價，賣方則拒絕所有提議。交易失敗後，二人都只責怪對方。",
+        "starter": "When",
+        "answer": "When a buyer keeps lowering the price and a seller refuses every offer, neither should blame the other alone; it takes two to tango.",
+        "answerZh": "當買方不斷降低出價，而賣方拒絕所有提議時，任何一方都不應只責怪對方；一個巴掌拍不響。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q42",
+        "number": 42,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The school answered the parents’ first email very late. The parents then ignored all the school’s later messages. Both contributed to the communication problem.",
+        "promptZh": "學校很遲才回覆家長的第一封電郵。家長其後忽略了學校所有後續訊息。雙方都對溝通問題有所影響。",
+        "starter": "The",
+        "answer": "The school answered late, and the parents ignored later messages; the head teacher noted that it takes two to tango.",
+        "answerZh": "學校遲了回覆，而家長又忽略後續訊息；校長指出雙方都對溝通問題有所影響。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q43",
+        "number": 43,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A mediator is trying to help two sides reach an agreement, but each side refuses to listen to the other.",
+        "promptZh": "一名調解員正嘗試協助雙方達成協議，但雙方都拒絕聆聽對方。",
+        "starter": "As",
+        "answer": "As the mediator reminded them, it takes two to tango: no settlement is possible while either side refuses to listen.",
+        "answerZh": "正如調解員提醒他們，事情需要雙方配合：只要任何一方拒絕聆聽，便不可能達成和解。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q44",
+        "number": 44,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Two players allowed a small disagreement to become a serious argument. Afterwards, each player tried to blame only the other.",
+        "promptZh": "兩名球員令一個小分歧演變成嚴重爭吵。其後，每名球員都試圖只責怪對方。",
+        "starter": "The",
+        "answer": "The coach rejected each player’s attempt to blame the other, adding, “It takes two to tango.”",
+        "answerZh": "教練不接受任何一名球員把責任推給對方，並補充說：「一個巴掌拍不響。」",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q45",
+        "number": 45,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Two families say that they want peace, but both continue sending angry messages to each other.",
+        "promptZh": "兩個家庭都表示希望和解，但雙方仍繼續向對方發出憤怒的訊息。",
+        "starter": "The",
+        "answer": "The two families may want peace, but nothing will change unless both stop sending angry messages; after all, it takes two to tango.",
+        "answerZh": "兩個家庭可能都希望和解，但除非雙方停止發出憤怒訊息，否則事情不會改變；畢竟，一個巴掌拍不響。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q46",
+        "number": 46,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "One department placed all the blame for a delay on another department, although both had missed important deadlines. The director responded.",
+        "promptZh": "一個部門把延誤的所有責任推給另一個部門，儘管兩個部門都錯過了重要限期。主管作出回應。",
+        "starter": "It",
+        "answer": "“It takes two to tango,” the director replied when one department tried to place all the blame on the other.",
+        "answerZh": "當一個部門試圖把所有責任推給另一個部門時，主管回應說：「一個巴掌拍不響。」",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "It takes two to tango"
+      },
+      {
+        "id": "idiom-108-q47",
+        "number": 47,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "An app company wants to improve its service. However, users complain without giving clear details about the problems.",
+        "promptZh": "一間應用程式公司希望改善服務。不過，用戶只是投訴，卻沒有清楚說明問題。",
+        "starter": "The",
+        "answer": "The app company cannot improve the service without honest feedback from users; in this case, it takes two to tango.",
+        "answerZh": "沒有用戶提供真實意見，應用程式公司便無法改善服務；在這種情況下，事情需要雙方配合。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q48",
+        "number": 48,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Two sides are trying to solve a dispute, but they do not even agree on the main facts. They should settle those facts first.",
+        "promptZh": "雙方正嘗試解決爭議，但他們甚至未能就主要事實達成共識。他們應先釐清這些事實。",
+        "starter": "Because",
+        "answer": "Because it takes two to tango, the two sides should agree on the main facts before discussing a solution.",
+        "answerZh": "由於事情需要雙方配合，雙方應先就主要事實達成共識，然後才討論解決方法。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q49",
+        "number": 49,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "One team has offered to change several conditions, but the other team refuses to make any change. One team’s offer cannot secure the final agreement.",
+        "promptZh": "一個團隊已提出更改幾項條件，但另一個團隊拒絕作出任何改變。單靠其中一隊的提議無法達成最終協議。",
+        "starter": "The",
+        "answer": "The offer from one team is not enough to secure the final agreement; put simply, it takes two to tango.",
+        "answerZh": "單靠其中一隊提出改變，並不足以達成最終協議；簡單來說，協議需要雙方共同努力。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      },
+      {
+        "id": "idiom-108-q50",
+        "number": 50,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "A skilled mediator is helping two neighbours, but neither neighbour is willing to listen. The dispute is therefore continuing.",
+        "promptZh": "一名經驗豐富的調解員正協助兩名鄰居，但任何一方都不願聆聽。因此，爭議仍在繼續。",
+        "starter": "Even",
+        "answer": "Even with a skilled mediator, the dispute will continue if neither neighbour is willing to listen—it takes two to tango.",
+        "answerZh": "即使有經驗豐富的調解員協助，如果兩名鄰居都不願聆聽，爭議仍會繼續；事情需要雙方配合。",
+        "targetForm": "it takes two to tango",
+        "targetMeaning": "1. both people contributed to a disagreement or difficult situation; or 2. both people must be willing to take part for a shared activity, agreement or relationship to work.",
+        "highlight": "it takes two to tango"
+      }
+    ]
+  }
+}

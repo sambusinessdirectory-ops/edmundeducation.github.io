@@ -1,0 +1,1513 @@
+{
+  "lesson": {
+    "id": "idiom-71",
+    "order": 71,
+    "slug": "a-house-of-cards",
+    "version": "1",
+    "title": "脆弱的體系／紙牌屋",
+    "titleEn": "a house of cards",
+    "titleZh": "脆弱的體系／紙牌屋",
+    "source": {
+      "file": "Idiom 71 - “A House of Cards”.pdf",
+      "pageCount": 33,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "exercisePdfPages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "answerKeyPdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a house of cards",
+        "highlight": "a house of cards"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The booking system is a house of cards.",
+        "zh": "這個預約系統十分脆弱。",
+        "highlight": "a house of cards"
+      },
+      {
+        "en": "The project was a house of cards from the beginning.",
+        "zh": "這個項目從一開始便十分脆弱。",
+        "highlight": "a house of cards"
+      }
+    ],
+    "meaning": {
+      "en": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+      "zh": "一個表面上看似完整或成功，實際上卻十分脆弱的計劃、系統、組織、論點或情況；其中一個部分一旦出錯，整體便可能迅速瓦解。",
+      "naturalZh": [
+        "一個表面上看似完整或成功，實際上卻十分脆弱的計劃、系統、組織、論點或情況",
+        "其中一個部分一旦出錯，整體便可能迅速瓦解。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "For teaching purposes, a house of cards is best treated as a neutral-to-informal figurative expression with a strongly critical or warning tone.",
+      "summaryZh": "在教學上，a house of cards 可視為中性至非正式的比喻表達，通常帶有明顯的批評或警告語氣。",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace discussions",
+        "presentations",
+        "interviews",
+        "news and general-interest writing",
+        "business and public discussions",
+        "explanations of weak arguments or systems",
+        "a house of cards",
+        "the house of card",
+        "a house of card",
+        "a card of houses",
+        "a home of cards"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "工作討論",
+        "簡報",
+        "訪問",
+        "新聞及一般文章",
+        "商業及公共議題討論",
+        "分析基礎薄弱的論點或系統。"
+      ],
+      "formalEn": "For teaching purposes, a house of cards is best treated as a neutral-to-informal figurative expression with a strongly critical or warning tone.",
+      "formalZh": "最後的名詞 cards 必須使用複數形式。"
+    },
+    "fixedVariable": {
+      "fixed": "a house of cards",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + a house of cards.",
+          "example": "The booking system is a house of cards.",
+          "highlight": "a house of cards"
+        },
+        {
+          "form": "Subject + was / were + a house of cards.",
+          "example": "The project was a house of cards from the beginning.",
+          "highlight": "a house of cards"
+        },
+        {
+          "form": "Subject + become / became / has become + a house of cards.",
+          "example": "The service has become a house of cards.",
+          "highlight": "a house of cards"
+        },
+        {
+          "form": "Subject + look(s) / seem(s) + like + a house of cards.",
+          "example": "The system is starting to look like a house of cards.",
+          "highlight": "a house of cards"
+        },
+        {
+          "form": "Subject + may / might / could / will / would + be + a house of cards.",
+          "example": "The plan may be a house of cards.",
+          "highlight": "a house of cards"
+        },
+        {
+          "form": "Subject + collapse / fall apart + like + a house of cards.",
+          "example": "The whole system collapsed like a house of cards.",
+          "highlight": "a house of cards"
+        },
+        {
+          "form": "Subject + build / create + a house of cards + by + verb-ing.",
+          "example": "The owner built a house of cards by borrowing more and more money.",
+          "highlight": "a house of cards"
+        },
+        {
+          "form": "a house of cards",
+          "example": "Although X appears strong, it is a house of cards.",
+          "highlight": "a house of cards"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Linking-Verb Form",
+        "titleZh": "句式一：基本連繫動詞句式",
+        "formula": "Subject + be + a house of cards.",
+        "descriptionEn": "This is the most direct and common teaching frame.",
+        "descriptionZh": "這是最直接和最基本的教學句式。",
+        "examples": [
+          {
+            "en": "The booking system is a house of cards.",
+            "zh": "這個預約系統十分脆弱。",
+            "highlight": "a house of cards"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Past Form",
+        "titleZh": "句式二：過去式",
+        "formula": "Subject + was / were + a house of cards.",
+        "descriptionEn": "Source grammar frame: Subject + was / were + a house of cards.",
+        "descriptionZh": "原檔列出的句法框架：Subject + was / were + a house of cards。",
+        "examples": [
+          {
+            "en": "The project was a house of cards from the beginning.",
+            "zh": "這個項目從一開始便十分脆弱。",
+            "highlight": "a house of cards"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Become or Turn Into",
+        "titleZh": "句式三：become 或 turn into",
+        "formula": "Subject + become / became / has become + a house of cards.",
+        "descriptionEn": "Source grammar frame: Subject + become / became / has become + a house of cards.",
+        "descriptionZh": "原檔列出的句法框架：Subject + become / became / has become + a house of cards。",
+        "examples": [
+          {
+            "en": "The service has become a house of cards.",
+            "zh": "這項服務已變得十分脆弱。",
+            "highlight": "a house of cards"
+          },
+          {
+            "en": "The programme might turn into a house of cards.",
+            "zh": "這個計劃可能會變成一個極不穩固的體系。",
+            "highlight": "a house of cards"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Look or Seem Like",
+        "titleZh": "句式四：look 或 seem like",
+        "formula": "Subject + look(s) / seem(s) + like + a house of cards.",
+        "descriptionEn": "The use of like creates a comparison with a physical structure made from cards.",
+        "descriptionZh": "使用 like 會把某個系統與用紙牌搭成的脆弱結構作比較。",
+        "examples": [
+          {
+            "en": "The system is starting to look like a house of cards.",
+            "zh": "這個系統開始顯得十分脆弱。",
+            "highlight": "a house of cards"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Modal Verb",
+        "titleZh": "句式五：配合情態動詞",
+        "formula": "Subject + may / might / could / will / would + be + a house of cards.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / could / will / would + be + a house of cards.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / could / will / would + be + a house of cards。",
+        "examples": [
+          {
+            "en": "The plan may be a house of cards.",
+            "zh": "這個計劃可能十分脆弱。",
+            "highlight": "a house of cards"
+          },
+          {
+            "en": "Without emergency savings, the plan would be a house of cards.",
+            "zh": "假如沒有應急儲蓄，這個計劃便會十分脆弱。",
+            "highlight": "a house of cards"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Collapse Like a House of Cards",
+        "titleZh": "句式六：像紙牌屋一樣崩潰",
+        "formula": "Subject + collapse / fall apart + like + a house of cards.",
+        "descriptionEn": "This frame focuses on the actual or possible collapse rather than only describing the weak condition.",
+        "descriptionZh": "這個句式把重點放在實際或可能發生的崩潰，而不只是描述系統本身脆弱。",
+        "examples": [
+          {
+            "en": "The whole system collapsed like a house of cards.",
+            "zh": "整個系統像紙牌屋一樣迅速崩潰。",
+            "highlight": "a house of cards"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Build a House of Cards",
+        "titleZh": "句式七：建立一個脆弱體系",
+        "formula": "Subject + build / create + a house of cards + by + verb-ing.",
+        "descriptionEn": "This frame describes the actions that created the unstable situation.",
+        "descriptionZh": "這個句式說明甚麼行動造成了不穩固的情況。",
+        "examples": [
+          {
+            "en": "The owner built a house of cards by borrowing more and more money.",
+            "zh": "店主不斷借入更多款項，建立了一個極不穩固的財務體系。",
+            "highlight": "a house of cards"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Contrast or Revelation",
+        "titleZh": "句式八：對比或揭示真相",
+        "formula": "a house of cards",
+        "descriptionEn": "Source grammar frame: a house of cards.",
+        "descriptionZh": "原檔列出的句法框架：a house of cards。",
+        "examples": [
+          {
+            "en": "Although X appears strong, it is a house of cards.",
+            "zh": "雖然某事看似穩固，實際上卻十分脆弱。",
+            "highlight": "a house of cards"
+          },
+          {
+            "en": "What appears to be X may actually be a house of cards.",
+            "zh": "表面看似某種穩固安排的事物，實際上可能十分脆弱。",
+            "highlight": "a house of cards"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Describes Hidden Weakness Clearly",
+        "titleZh": "清楚指出隱藏的脆弱之處",
+        "en": "The expression contrasts appearance with reality.",
+        "zh": "這個表達可以對比表面和實際情況。 這個計劃看似完整，實際上卻十分脆弱。",
+        "examples": [
+          {
+            "en": "The plan is a house of cards.",
+            "zh": "這個計劃看似完整，實際上卻十分脆弱。",
+            "highlight": "a house of cards"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Connects One Weak Part with Wider Failure",
+        "titleZh": "把一個薄弱環節與整體失敗連繫起來",
+        "en": "The idiom helps speakers explain that one problem may affect an entire connected system.",
+        "zh": "這個慣用語有助說明一個問題可能影響整個互相連繫的系統。 這份時間表十分脆弱，因為每項活動都依賴第一項活動準時開始。",
+        "examples": [
+          {
+            "en": "The schedule is a house of cards because every activity depends on the first one starting on time.",
+            "zh": "這份時間表十分脆弱，因為每項活動都依賴第一項活動準時開始。",
+            "highlight": "a house of cards"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Gives a Strong Warning",
+        "titleZh": "作出有力警告",
+        "en": "The expression can warn listeners that apparent success should not make them feel too confident.",
+        "zh": "這個表達可以提醒聽者，不要因表面上的成功而過分放心。 假如沒有後備安排，整項服務可能會像紙牌屋一樣崩潰。",
+        "examples": [
+          {
+            "en": "Without a backup, the whole service could collapse like a house of cards.",
+            "zh": "假如沒有後備安排，整項服務可能會像紙牌屋一樣崩潰。",
+            "highlight": "a house of cards"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Evaluates Plans and Arguments Efficiently",
+        "titleZh": "簡潔評價計劃及論點",
+        "en": "Instead of listing every weakness again, a speaker can give one clear overall judgement.",
+        "zh": "說話者不需要重新列出所有弱點，也可以作出一個清晰的整體評價。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Works with Present, Past and Future Situations",
+        "titleZh": "可以描述現在、過去及未來情況",
+        "en": "It Works with Present, Past and Future Situations",
+        "zh": "可以描述現在、過去及未來情況",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is Vivid but Should Not Be Overused",
+        "titleZh": "形象鮮明，但不應過度使用",
+        "en": "The idiom is not automatically better than weak, unstable or badly planned. Use it when the image of connected parts and possible total collapse genuinely fits the situation.",
+        "zh": "這個慣用語並非必定比 weak、unstable 或 badly planned 更好。 只有當「多個部分互相支撐，並可能全面瓦解」的畫面確實符合情況時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Well Documented; Exact First Spoken Use Unknown",
+      "statusZh": "有較充分記錄；確切首次口語用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster dates the first known figurative use to 1645. The Online Etymology Dictionary similarly records the figurative sense in the 1640s and connects it with the familiar activity of building card structures. These dates refer to surviving written records, not necessarily the first time anybody spoke the expression.",
+          "zh": "根據 Merriam-Webster，現時已知最早的比喻用法可追溯至1645年。 《Online Etymology Dictionary》同樣把比喻意思記錄於十七世紀四十年代，並把它與搭建紙牌結構的活動連繫起來。 這些日期代表目前保存下來的文字記錄，不一定是人們首次在口語中使用這個表達的時間。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical structure provided a natural image for any plan or system whose parts appear organised but do not have strong support. Just as one card can affect the whole structure, one failed part can destroy the wider arrangement.",
+          "zh": "紙牌結構自然成為一個比喻，用來形容部分看似排列完整、實際上卻缺乏穩固支撐的計劃或系統。 正如一張紙牌可能影響整個結構，一個部分失效也可能破壞整體安排。"
+        }
+      ],
+      "memoryEn": "One weak card can bring down the whole house; one weak part can bring down the whole system.",
+      "memoryZh": "一張不穩的紙牌可以令整座紙牌屋倒下；一個薄弱環節也可以令整個系統瓦解。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Indefinite Article “A”",
+        "titleZh": "規則一：保留不定冠詞 a",
+        "en": "The expression normally uses a when classifying a particular plan or system as one example of this type of weak structure.",
+        "zh": "當我們把某個計劃或系統歸類為這種脆弱結構時，通常必須使用 a。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep “Cards” Plural",
+        "titleZh": "規則二：cards 必須使用複數",
+        "en": "A physical card structure is made from several playing cards, so the fixed expression retains the plural noun.",
+        "zh": "實際的紙牌屋由多張紙牌組成，因此固定表達保留複數名詞 cards。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use It for a Whole Plan, System or Situation",
+        "titleZh": "規則三：用來描述整體計劃、系統或情況",
+        "en": "a business; an organisation; an argument; a budget; a schedule; a project; an arrangement; a claim. The expression normally evaluates an organised whole, not one small object or isolated action.",
+        "zh": "合適的主語包括計劃、系統、生意、組織、論點、預算、時間表、項目、安排或說法。 這個表達通常用來評價一個有多個部分的整體，而不是一件小物件或一次獨立行動。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Weakness Must Be Serious",
+        "titleZh": "規則四：脆弱程度必須相當嚴重",
+        "en": "A small imperfection does not normally justify the strength of the idiom.",
+        "zh": "一次延遲付款便可能令整個項目停頓。 這個項目極不穩固。 項目有一個串字錯誤。 一個小錯誤通常不足以支持這個慣用語所表達的強烈程度。",
+        "examples": [
+          {
+            "en": "The project is a house of cards.",
+            "zh": "一次延遲付款便可能令整個項目停頓。這個項目極不穩固。",
+            "highlight": "a house of cards"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "The Parts Often Depend on One Another",
+        "titleZh": "規則五：不同部分通常互相依賴",
+        "en": "1. several parts depend on one weak part; 2. one failure would affect everything else; 3. there is no backup plan; 4. success depends on many uncertain conditions; 5. the system only appears stable.",
+        "zh": "在以下情況中，這個表達尤其自然：",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Certainty and Time",
+        "titleZh": "規則六：保留確定程度及時間",
+        "en": "The incorrect answer changes a present possibility into a completed past fact.",
+        "zh": "錯誤答案把現在的可能性改成了已確定的過去事實。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“Be a House of Cards” and Collapse Like a",
+        "titleZh": "規則七",
+        "en": "Focus: The system is weak now. Focus: The system failed quickly and completely.",
+        "zh": "be a house of cards 和 collapse like a house of cards 的重點不同重點：系統目前十分脆弱。 重點：系統迅速而全面地崩潰。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Repeat the Same Meaning",
+        "titleZh": "規則八：不要重複相同意思",
+        "en": "The final words merely explain the idiom again. The reason is preserved, but the meaning of weakness is expressed only once.",
+        "zh": "後半句只是再次解釋慣用語的意思。 這個計劃十分脆弱，因為它依賴一個未經測試的想法。 原因得以保留，但「十分脆弱」這個意思只表達一次。",
+        "examples": [
+          {
+            "en": "The plan is a house of cards because it depends on one untested idea.",
+            "zh": "這個計劃十分脆弱，因為它依賴一個未經測試的想法。",
+            "highlight": "a house of cards"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Confuse the Literal and Figurative",
+        "titleZh": "規則九：不要混淆字面和比喻意思",
+        "en": "Every answer in this exercise must use the figurative meaning.",
+        "zh": "孩子在桌上用紙牌搭了一座小屋。 這盤生意十分脆弱，因為它只依賴一名顧客。 本練習中的所有答案都必須使用比喻意思。",
+        "examples": [
+          {
+            "en": "The children built a house of cards on the table.",
+            "zh": "孩子在桌上用紙牌搭了一座小屋。",
+            "highlight": "a house of cards"
+          },
+          {
+            "en": "The business was a house of cards because it depended on one customer.",
+            "zh": "這盤生意十分脆弱，因為它只依賴一名顧客。",
+            "highlight": "a house of cards"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Use It Merely for Something Complicated",
+        "titleZh": "規則十：不能只因事情複雜便使用",
+        "en": "A complicated plan may still be strong and carefully prepared. The idiom is licensed only when the source shows serious instability or a real danger of wider failure.",
+        "zh": "一個複雜的計劃仍然可能十分穩固和周全。 只有當原句顯示嚴重不穩定或整體失敗的真正風險時，才適合使用這個慣用語。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a house of cards.",
+      "zh": "使用 a house of cards 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-71-q01",
+        "number": 1,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The booking system depends on one old computer. If that computer stops working, the whole system stops.",
+        "promptZh": "預約系統完全依賴一部舊電腦。假如那部電腦停止運作，整個系統便會停下來。",
+        "starter": "The",
+        "answer": "The booking system is a house of cards because it depends on one old computer.",
+        "answerZh": "這個預約系統十分脆弱，因為它完全依賴一部舊電腦。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q02",
+        "number": 2,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The school trip plan will fail if the only bus is unavailable.",
+        "promptZh": "假如唯一一輛旅遊巴無法使用，學校旅行計劃便會失敗。",
+        "starter": "The",
+        "answer": "The school trip plan is a house of cards because it depends on one bus.",
+        "answerZh": "學校旅行計劃十分脆弱，因為它依賴唯一一輛旅遊巴。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q03",
+        "number": 3,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The business depends on one customer for almost all its income.",
+        "promptZh": "這盤生意幾乎所有收入都來自同一名顧客。",
+        "starter": "The",
+        "answer": "The business is a house of cards because it depends on one customer.",
+        "answerZh": "這盤生意的基礎十分脆弱，因為它依賴同一名顧客。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q04",
+        "number": 4,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The budget works only if every ticket is sold.",
+        "promptZh": "這份預算只有在所有門票都售出的情況下才行得通。",
+        "starter": "The",
+        "answer": "The budget is a house of cards because it depends on every ticket being sold.",
+        "answerZh": "這份預算十分脆弱，因為它建基於所有門票都能售出。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q05",
+        "number": 5,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The whole event will fail if any one of the five volunteers is absent.",
+        "promptZh": "五名義工之中只要有一人缺席，整個活動便會失敗。",
+        "starter": "The",
+        "answer": "The event plan is a house of cards because it needs all five volunteers.",
+        "answerZh": "這個活動計劃十分脆弱，因為五名義工缺一不可。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q06",
+        "number": 6,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Her argument depends entirely on one fact that nobody has checked.",
+        "promptZh": "她的論點完全依賴一項沒有人核實過的事實。",
+        "starter": "Her",
+        "answer": "Her argument is a house of cards because it depends on one fact that nobody has checked.",
+        "answerZh": "她的論點基礎十分脆弱，因為它完全依賴一項未經核實的事實。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q07",
+        "number": 7,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The timetable works only when every train arrives exactly on time.",
+        "promptZh": "這份時間表只有在每班列車都準時抵達時才行得通。",
+        "starter": "The",
+        "answer": "The timetable is a house of cards because every train must arrive on time.",
+        "answerZh": "這份時間表十分脆弱，因為每班列車都必須準時抵達。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q08",
+        "number": 8,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "One student is doing almost all the work. If she leaves, the group project will stop.",
+        "promptZh": "一名學生幾乎負責所有工作。假如她退出，小組專題便會停下來。",
+        "starter": "The",
+        "answer": "The group project is a house of cards because one student is doing almost all the work.",
+        "answerZh": "這個小組專題十分脆弱，因為幾乎所有工作都由一名學生負責。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q09",
+        "number": 9,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The savings plan works only if there are no unexpected costs.",
+        "promptZh": "這個儲蓄計劃只有在沒有突如其來的開支時才行得通。",
+        "starter": "The",
+        "answer": "The savings plan is a house of cards because it works only when there are no unexpected costs.",
+        "answerZh": "這個儲蓄計劃十分脆弱，因為它只有在沒有突如其來的開支時才行得通。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q10",
+        "number": 10,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The restaurant can remain open only if one large weekend event takes place.",
+        "promptZh": "這間餐廳只有在一項大型週末活動如期舉行時才能繼續營業。",
+        "starter": "The",
+        "answer": "The restaurant’s plan is a house of cards because it depends on one weekend event.",
+        "answerZh": "這間餐廳的計劃十分脆弱，因為它依賴一項週末活動。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q11",
+        "number": 11,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The project had no spare money, no extra time and no second plan. It was weak from the beginning.",
+        "promptZh": "這個項目沒有備用資金、額外時間或第二個方案，一開始便十分脆弱。",
+        "starter": "The",
+        "answer": "The project was a house of cards from the beginning.",
+        "answerZh": "這個項目從一開始便像紙牌屋一樣脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q12",
+        "number": 12,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The team was once stable, but several workers have left and no one has replaced them.",
+        "promptZh": "這個團隊以往運作穩定，但幾名員工已離職，而且沒有人接替他們。",
+        "starter": "The",
+        "answer": "The team has become a house of cards since several workers left.",
+        "answerZh": "幾名員工離職後，這個團隊已變得十分脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q13",
+        "number": 13,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The plan may look safe, but it depends on receiving one payment next week.",
+        "promptZh": "這個計劃可能看來穩妥，但它依賴下星期收到的一筆款項。",
+        "starter": "The",
+        "answer": "The plan may be a house of cards because it depends on one payment.",
+        "answerZh": "這個計劃可能十分脆弱，因為它依賴一筆款項。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q14",
+        "number": 14,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "If the main player leaves, the whole team may fail very quickly.",
+        "promptZh": "假如主力球員離隊，整支球隊可能會很快失去運作能力。",
+        "starter": "The",
+        "answer": "The team could collapse like a house of cards if the main player leaves.",
+        "answerZh": "假如主力球員離隊，整支球隊可能會像紙牌屋一樣迅速崩潰。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q15",
+        "number": 15,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Unless the organisers add another source of power, one broken cable could stop the whole show.",
+        "promptZh": "除非主辦人增加另一個電力來源，否則一條電線損壞便可能令整場表演停頓。",
+        "starter": "The",
+        "answer": "The show will be a house of cards unless the organisers add another source of power.",
+        "answerZh": "除非主辦人增加另一個電力來源，否則整場表演的安排會十分脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q16",
+        "number": 16,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Everyone thought the plan was strong, but one small delay caused every later step to fail.",
+        "promptZh": "所有人都以為計劃很穩妥，但一次小小延誤令其後每個步驟都無法進行。",
+        "starter": "The",
+        "answer": "The plan looked strong, but it was a house of cards.",
+        "answerZh": "這個計劃看似穩妥，實際上卻十分脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q17",
+        "number": 17,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "More and more parts of the service now depend on one worker.",
+        "promptZh": "這項服務有愈來愈多部分依賴同一名員工。",
+        "starter": "The",
+        "answer": "The service is starting to look like a house of cards.",
+        "answerZh": "這項服務開始顯得像紙牌屋一樣脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The school keeps adding new activities but has not added any more teachers.",
+        "promptZh": "學校不斷增加新活動，卻沒有增聘教師。",
+        "starter": "The",
+        "answer": "The school programme might turn into a house of cards if no more teachers are added.",
+        "answerZh": "假如學校不增聘教師，這個活動計劃可能會變得十分脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q19",
+        "number": 19,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Without the emergency savings, one large repair bill would destroy the family plan.",
+        "promptZh": "假如沒有應急儲蓄，一筆大型維修費便會破壞整個家庭計劃。",
+        "starter": "Without",
+        "answer": "Without the emergency savings, the family plan would be a house of cards.",
+        "answerZh": "假如沒有應急儲蓄，這個家庭計劃便會十分脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q20",
+        "number": 20,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The owner keeps borrowing new money to pay old bills.",
+        "promptZh": "店主不斷借入新的款項，以清還舊帳單。",
+        "starter": "The",
+        "answer": "The owner has built a house of cards by borrowing new money to pay old bills.",
+        "answerZh": "店主靠借入新的款項清還舊帳，建立了一個極不穩固的財務安排。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q21",
+        "number": 21,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Why are you worried about the outdoor event? B: Every activity depends on good weather.",
+        "promptZh": "甲：你為甚麼擔心這個戶外活動？ 乙：每項活動都依賴良好天氣。",
+        "starter": "The",
+        "answer": "The outdoor event is a house of cards because everything depends on good weather.",
+        "answerZh": "這個戶外活動的安排十分脆弱，因為所有項目都依賴良好天氣。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The online shop is run from one person’s phone, and there is no copy of the records anywhere else.",
+        "promptZh": "這間網店完全由一個人的電話管理，所有紀錄也沒有其他副本。",
+        "starter": "The",
+        "answer": "The online shop is a house of cards because one phone holds all its records.",
+        "answerZh": "這間網店的運作十分脆弱，因為所有紀錄都只儲存在一部電話內。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q23",
+        "number": 23,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The family holiday depends on Leo driving, but he may have to work that week.",
+        "promptZh": "家庭旅行依賴里奧駕車，但他那個星期可能需要工作。",
+        "starter": "The",
+        "answer": "The family holiday plan is a house of cards because it depends on Leo being free.",
+        "answerZh": "家庭旅行計劃十分脆弱，因為它完全取決於里奧是否有空。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q24",
+        "number": 24,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The club has announced a large event, but it has not booked the hall, the food or the music.",
+        "promptZh": "社團已宣布舉辦大型活動，但仍未預訂場地、食物或音樂表演。",
+        "starter": "The",
+        "answer": "The club’s event plan is a house of cards because nothing important has been booked.",
+        "answerZh": "社團的活動計劃十分脆弱，因為所有重要安排都尚未預訂。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q25",
+        "number": 25,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The training plan assumes that every member will attend every lesson.",
+        "promptZh": "這個訓練計劃假設每名成員都會出席每一堂課。",
+        "starter": "The",
+        "answer": "The training plan is a house of cards because it assumes perfect attendance.",
+        "answerZh": "這個訓練計劃十分脆弱，因為它假設所有人每堂都會出席。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q26",
+        "number": 26,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The new app looks impressive, but all its information is kept in one file.",
+        "promptZh": "這個新應用程式看來令人印象深刻，但所有資料都儲存在同一個檔案內。",
+        "starter": "The",
+        "answer": "The new app looks impressive, but it is a house of cards.",
+        "answerZh": "這個新應用程式看來令人印象深刻，但其系統其實十分脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q27",
+        "number": 27,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A manager says the factory plan is safe. However, one late delivery would stop all the work.",
+        "promptZh": "一名經理說工場計劃很穩妥，但一批貨物遲到便會令所有工作停頓。",
+        "starter": "The",
+        "answer": "The factory plan is a house of cards because one late delivery could stop all the work.",
+        "answerZh": "這個工場計劃十分脆弱，因為一批貨物遲到便可能令所有工作停頓。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q28",
+        "number": 28,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Every point in the argument comes from the same weak source.",
+        "promptZh": "這個論點中的每一項理據都來自同一個不可靠的資料來源。",
+        "starter": "The",
+        "answer": "The argument is a house of cards because every point comes from the same weak source.",
+        "answerZh": "這個論點的基礎十分脆弱，因為每一項理據都來自同一個不可靠的資料來源。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q29",
+        "number": 29,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Almost every scene in the school show depends on one student being present.",
+        "promptZh": "學校表演中幾乎每一幕都需要同一名學生在場。",
+        "starter": "The",
+        "answer": "The school show is a house of cards because almost every scene depends on one student.",
+        "answerZh": "這場學校表演的安排十分脆弱，因為幾乎每一幕都依賴同一名學生。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q30",
+        "number": 30,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Can we trust this event budget? B: It works only if the rent does not rise and every ticket is sold.",
+        "promptZh": "甲：我們可以相信這份活動預算嗎？ 乙：它只有在租金不增加及所有門票都售出時才行得通。",
+        "starter": "No.",
+        "answer": "No. The event budget is a house of cards because it works only if the rent stays the same and every ticket is sold.",
+        "answerZh": "不可以。這份活動預算十分脆弱，因為它只有在租金不變及所有門票都售出的情況下才行得通。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q31",
+        "number": 31,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The plan appears detailed, but every part depends on one idea that has never been tested.",
+        "promptZh": "這個計劃看來十分詳細，但每個部分都依賴一個從未測試過的想法。",
+        "starter": "Although",
+        "answer": "Although the plan appears detailed, it is a house of cards because its main idea has never been tested.",
+        "answerZh": "雖然這個計劃看來十分詳細，但它的基礎十分脆弱，因為主要想法從未經過測試。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q32",
+        "number": 32,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Each step depends on the one before it, and the first step is not ready. The whole schedule could therefore fail.",
+        "promptZh": "每個步驟都依賴前一個步驟，而第一個步驟尚未準備好，因此整個時間表可能會失敗。",
+        "starter": "Because",
+        "answer": "Because the first step is not ready, the schedule could collapse like a house of cards.",
+        "answerZh": "由於第一個步驟尚未準備好，整個時間表可能會像紙牌屋一樣崩潰。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q33",
+        "number": 33,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The system works at present, but there is no second server if the main one fails.",
+        "promptZh": "這個系統目前運作正常，但主要伺服器一旦故障，便沒有第二部伺服器可用。",
+        "starter": "The",
+        "answer": "The system may work now, but without a second server it is a house of cards.",
+        "answerZh": "這個系統目前可能運作正常，但沒有第二部伺服器作後備，其實十分脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q34",
+        "number": 34,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The business relies completely on one experienced worker. If she leaves, it could fail quickly.",
+        "promptZh": "這盤生意完全依賴一名資深員工。假如她離職，生意可能會很快失去運作能力。",
+        "starter": "If",
+        "answer": "If the experienced worker leaves, the business could collapse like a house of cards.",
+        "answerZh": "假如那名資深員工離職，這盤生意可能會像紙牌屋一樣迅速崩潰。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q35",
+        "number": 35,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The first large payment did not arrive. Every later payment depended on it, so the project failed immediately.",
+        "promptZh": "第一筆大額款項沒有到帳，而其後每筆付款都依賴這筆款項，因此項目立即失敗。",
+        "starter": "When",
+        "answer": "When the first large payment did not arrive, the project collapsed like a house of cards.",
+        "answerZh": "第一筆大額款項沒有到帳時，整個項目便像紙牌屋一樣崩潰。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q36",
+        "number": 36,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The organisers depend on temporary helpers for every important job.",
+        "promptZh": "主辦人所有重要工作都依賴臨時幫手。",
+        "starter": "By",
+        "answer": "By depending on temporary helpers for every important job, the organisers have built a house of cards.",
+        "answerZh": "主辦人把所有重要工作都交由臨時幫手負責，因而建立了一個十分脆弱的安排。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q37",
+        "number": 37,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The plan seems flexible, but changing one lesson affects every other lesson.",
+        "promptZh": "這個計劃看似靈活，但更改一堂課便會影響其他所有課堂。",
+        "starter": "What",
+        "answer": "What seems like a flexible plan is actually a house of cards because one change affects every lesson.",
+        "answerZh": "這個看似靈活的計劃其實十分脆弱，因為一項改動便會影響所有課堂。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q38",
+        "number": 38,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The trip uses only one bus. Unless the school finds another one, the plan will remain very weak.",
+        "promptZh": "旅行只使用一輛旅遊巴。除非學校找到另一輛，否則計劃仍會十分脆弱。",
+        "starter": "Unless",
+        "answer": "Unless the school finds another bus, the trip plan will remain a house of cards.",
+        "answerZh": "除非學校找到另一輛旅遊巴，否則旅行計劃仍會十分脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q39",
+        "number": 39,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Only one person knows all the passwords. If that person is absent, nobody can use the system.",
+        "promptZh": "只有一個人知道所有密碼。假如那個人缺席，便沒有人能夠使用系統。",
+        "starter": "Since",
+        "answer": "Since only one person knows all the passwords, the system is a house of cards.",
+        "answerZh": "由於只有一個人知道所有密碼，這個系統十分脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q40",
+        "number": 40,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The claim depends on one photograph. If the photograph is shown to be false, the entire claim may fail.",
+        "promptZh": "這項說法完全依賴一張相片。假如相片被證實是假的，整項說法可能會失去根據。",
+        "starter": "If",
+        "answer": "If the photograph is shown to be false, the claim may fall apart like a house of cards.",
+        "answerZh": "假如相片被證實是假的，整項說法可能會像紙牌屋一樣瓦解。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q41",
+        "number": 41,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The hospital’s new appointment plan appears efficient, but every booking must pass through one telephone line.",
+        "promptZh": "醫院的新預約安排看來很有效率，但每個預約都必須經過同一條電話線。",
+        "starter": "What",
+        "answer": "What appears to be an efficient appointment plan may actually be a house of cards because every booking uses one telephone line.",
+        "answerZh": "這個看似有效率的預約安排，實際上可能十分脆弱，因為每個預約都使用同一條電話線。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q42",
+        "number": 42,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The hotel schedule works only if every worker agrees to stay late whenever needed.",
+        "promptZh": "酒店的更表只有在每名員工都同意有需要時留下加班的情況下才行得通。",
+        "starter": "The",
+        "answer": "The hotel schedule is a house of cards because it depends on every worker staying late.",
+        "answerZh": "酒店的更表十分脆弱，因為它依賴每名員工都願意加班。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q43",
+        "number": 43,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The local delivery service has one driver and one van. Losing either would stop the service.",
+        "promptZh": "本地送貨服務只有一名司機和一輛貨車。失去其中任何一項，服務便會停頓。",
+        "starter": "By",
+        "answer": "By depending on one driver and one van, the delivery service has become a house of cards.",
+        "answerZh": "這項送貨服務依賴一名司機和一輛貨車，因此已變得十分脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q44",
+        "number": 44,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The school’s message plan assumes that every parent checks the app every day. Some parents rarely use it.",
+        "promptZh": "學校的訊息安排假設每名家長每天都會查看應用程式，但部分家長很少使用它。",
+        "starter": "The",
+        "answer": "The school’s message plan may be a house of cards because not every parent checks the app.",
+        "answerZh": "學校的訊息安排可能十分脆弱，因為並非每名家長都會查看應用程式。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q45",
+        "number": 45,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The company can pay this month’s bills only if the next customer pays early.",
+        "promptZh": "公司只有在下一名顧客提早付款的情況下，才有能力支付本月帳單。",
+        "starter": "The",
+        "answer": "The company has built a house of cards by depending on the next customer’s early payment.",
+        "answerZh": "公司依賴下一名顧客提早付款，建立了一個極不穩固的財務安排。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q46",
+        "number": 46,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The sports club plans to buy expensive players with prize money that it may never win.",
+        "promptZh": "體育會計劃使用可能永遠無法贏得的獎金，購買身價高昂的球員。",
+        "starter": "The",
+        "answer": "The sports club’s plan is a house of cards because it depends on prize money it may never receive.",
+        "answerZh": "體育會的計劃十分脆弱，因為它依賴可能永遠無法取得的獎金。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q47",
+        "number": 47,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "All the records were linked to one central file. When that file was deleted, the entire system failed at once.",
+        "promptZh": "所有紀錄都連接至同一個中央檔案。該檔案被刪除後，整個系統立即失效。",
+        "starter": "When",
+        "answer": "When the central file was deleted, the system fell apart like a house of cards.",
+        "answerZh": "中央檔案被刪除後，整個系統便像紙牌屋一樣瓦解。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q48",
+        "number": 48,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Five activities at the town festival use the same source of power. If it fails, all five activities will stop.",
+        "promptZh": "鎮上節慶的五項活動使用同一個電力來源。假如電力來源故障，五項活動都會停頓。",
+        "starter": "The",
+        "answer": "The festival plan is a house of cards because five activities depend on one source of power.",
+        "answerZh": "節慶計劃十分脆弱，因為五項活動都依賴同一個電力來源。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q49",
+        "number": 49,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The teacher keeps every pupil’s marks in one online tool and has made no copy.",
+        "promptZh": "老師把每名學生的分數都儲存在同一個網上工具內，而且沒有製作副本。",
+        "starter": "Without",
+        "answer": "Without a copy of the marks, the teacher’s marking system is a house of cards.",
+        "answerZh": "沒有分數副本，老師的評分系統十分脆弱。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      },
+      {
+        "id": "idiom-71-q50",
+        "number": 50,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Why should we delay the product launch? B: One late delivery would stop everything, and we have no other company ready to send the parts.",
+        "promptZh": "甲：為甚麼我們應該延遲推出產品？ 乙：一批貨物遲到便會令所有事情停頓，而且沒有另一間公司可以隨時供應零件。",
+        "starter": "The",
+        "answer": "The launch plan is a house of cards because one late delivery could stop everything.",
+        "answerZh": "產品推出計劃十分脆弱，因為一批貨物遲到便可能令所有事情停頓。",
+        "targetForm": "a house of cards",
+        "targetMeaning": "A plan, system, organisation, argument or situation that appears complete or successful but is actually very weak and could easily fail if one part goes wrong.",
+        "highlight": "a house of cards"
+      }
+    ]
+  }
+}

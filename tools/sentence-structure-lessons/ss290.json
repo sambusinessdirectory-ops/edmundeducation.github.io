@@ -1,0 +1,1248 @@
+{
+  "id": "ss290",
+  "order": 290,
+  "slug": "what-gives-person-the-right-to-verb",
+  "title": "「What gives + person + the right to + verb?」質問某人憑甚麼有權做某事",
+  "titleZh": "「What gives + person + the right to + verb?」質問某人憑甚麼有權做某事",
+  "titleEn": "Using “What gives + person + the right to + verb?”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 289 - 「What gives + person + the right to + verb_」質問某人憑甚麼有權做某事.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "sha256": "548c13f1d07dc7e0bd4959c41b8d4d756bcef6b86210d0d58a1ee3c6f36efbbc",
+    "sourceNumber": 289,
+    "systemOrder": 290,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 289 maps to ss290: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "What gives + person / group + the right to + base verb + other information?",
+  "formulas": [
+    {
+      "id": "ss290-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "What gives + person / group + the right to + base verb + other information?"
+    }
+  ],
+  "example": "What gives you the right to speak for everyone?",
+  "exampleZh": "你憑甚麼有權代表所有人發言？",
+  "examples": [
+    {
+      "id": "ss290-example-01",
+      "en": "What gives you the right to speak for everyone?",
+      "zh": "你憑甚麼有權代表所有人發言？",
+      "highlight": "What gives you the right to speak for everyone?"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss290-rule-01",
+      "zh": "句子的文法主語是 What，因此通常要使用 gives，而不是 give。",
+      "en": "Use gives, not give The grammatical subject is What, so the verb is normally gives. What gives you the right to decide? ✓ What give you the right to decide? ✗",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss290-rule-02",
+      "zh": "在 gives 後要使用賓格代名詞，例如 me、him、her、us 和 them。以【You】為例：在主格和賓格中的形式相同。",
+      "en": "Use an object pronoun after gives Use me, him, her, us or them after gives. What gives he the right to decide? ✗ What gives him the right to decide? ✓ You remains the same in subject and object positions.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss290-rule-03",
+      "zh": "固定表達是 What gives + 人物 + the right to...?，right 前必須保留定冠詞 the，不可省略或改用其他冠詞。",
+      "en": "Use the right The target expression uses the definite article the: What gives you the right to complain?",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss290-rule-04",
+      "zh": "在 the right to 後面要使用動詞原形，例如 decide；不可改用現在分詞 deciding 或過去式 decided。",
+      "en": "Use a base verb after to What gives them the right to decide? ✓ What gives them the right to deciding? ✗ What gives them the right to decided? ✗",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss290-rule-05",
+      "zh": "直接問題的句末要使用問號。",
+      "en": "End the direct question with a question mark What gives the landlord the right to enter without asking?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss290-rule-06",
+      "zh": "說話者通常不是真的要求對方提供資料，而是在強烈暗示對方沒有合理權力或充分理由這樣做。",
+      "en": "The structure is often rhetorical The speaker usually does not expect a factual answer. The question strongly suggests that the other person has no acceptable authority or justification.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss290-rule-07",
+      "zh": "這個句型可能帶有憤怒、指責或對抗的語氣。它適合用於爭論、投訴、戲劇對白或強烈辯論，但在一般對話中可能顯得不禮貌。",
+      "en": "Use it carefully This structure can sound angry, accusatory or confrontational. It may be suitable in an argument, complaint, dramatic dialogue or strong debate, but it can sound impolite in an ordinary conversation.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss290-rule-08",
+      "zh": "是甚麼令他當時有權作決定？ 她問是甚麼令他有權作決定。 以上形式在文法上可行，但本練習只集中訓練直接的現在式問題。",
+      "en": "Other forms are possible but excluded from this exercise What gave him the right to decide? She asked what gave him the right to decide. These are grammatically possible, but this exercise focuses on the direct present-tense form: What gives + person + the right to + base verb?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss290-benefit-01",
+      "zh": "你不只是表示不同意，而是可以直接質問對方的行為究竟有甚麼權力或理據支持。你不應作出那個決定。 你憑甚麼有權作出那個決定？ 第二個版本直接質疑對方聲稱擁有的決定權。",
+      "en": "It challenges authority precisely Instead of merely saying that you disagree, you can question the authority or justification behind another person’s action. Compare: You should not make that decision. What gives you the right to make that decision? The second version directly challenges the person’s claimed authority.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss290-benefit-02",
+      "zh": "這個句型能清楚指出受到質問的人，以及說話者反對的具體行為。",
+      "en": "It makes the exact objection clear The structure identifies both the person being challenged and the particular action being questioned.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss290-benefit-03",
+      "zh": "掌握這個框架後，你只需代入不同人物和行為，便能較流暢地提出完整問題。",
+      "en": "It provides a ready-made speaking frame Once you know the pattern, you can insert different people and actions without planning the whole question from the beginning.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss290-benefit-04",
+      "zh": "學生可能經常重複使用 You have no right to…。這個句型提供另一種有力的表達方法，令說話和寫作不會過於單調。",
+      "en": "It gives you an alternative to “You have no right to…” Students may repeatedly use: You have no right to do that. This structure provides another forceful way to express the same general objection.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss290-benefit-05",
+      "zh": "這個問題直接針對對方，因此能令辯論、投訴、故事或戲劇對白更有力量和畫面。",
+      "en": "It can make arguments and dialogue more powerful The question directly addresses the other person and can make a debate, complaint, story or dramatic conversation more vivid.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss290-benefit-06",
+      "zh": "我憑甚麼有權批評他們？ 我們憑甚麼有權干涉？ 在這些例子中，說話者是在反思自己的權力或資格，而不是指責別人。",
+      "en": "It can also support self-reflection The person in the question can be me or us: What gives me the right to judge them? What gives us the right to interfere? In these cases, the speaker questions their own authority rather than attacking another person.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 289 maps to ss290: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or set of sentences using the exact expression:",
+      "What gives + person / group + the right to + base verb?",
+      "The target expression may be used as a stand-alone question or inside direct speech after a",
+      "reporting clause.",
+      "Preserve the original speaker, person, action and meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用以下指定句型改寫每條句子或句子組合：",
+      "What gives + 某人／某個群體 + the right to + 動詞原形？",
+      "目標句型可以獨立成為問題，也可以放在引述句後的直接引語之中。",
+      "保留原句的說話者、人物、行為和意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss290-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You cannot speak for everyone as though you represent us all.",
+      "promptZh": "你不能自稱代表我們所有人發言。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives you the right to speak for everyone?",
+      "answerZh": "你憑甚麼有權代表所有人發言？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives you the right to speak for everyone?"
+    },
+    {
+      "id": "ss290-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Lena said to her brother, “You had no permission to read my private messages.”",
+      "promptZh": "莉娜對她的弟弟說：「你沒有得到許可閱讀我的私人訊息。」",
+      "promptZhSource": "pdf",
+      "starter": "Lena",
+      "answer": "Lena asked her brother, “What gives you the right to read my private messages?”",
+      "answerZh": "莉娜問她的弟弟：「你憑甚麼有權閱讀我的私人訊息？」",
+      "answerZhSource": "pdf",
+      "highlight": "Lena asked her brother, “What gives you the right to read my private messages?”"
+    },
+    {
+      "id": "ss290-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Who authorised him to cancel our meeting?",
+      "promptZh": "誰授權他取消我們的會議？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives him the right to cancel our meeting?",
+      "answerZh": "他憑甚麼有權取消我們的會議？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives him the right to cancel our meeting?"
+    },
+    {
+      "id": "ss290-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A student said to the teacher, “You have no authority to discuss my marks in front of the class.”",
+      "promptZh": "一名學生對老師說：「你無權在全班面前討論我的成績。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The student protested, “What gives you the right to discuss my marks in front of the class?”",
+      "answerZh": "該名學生抗議道：「你憑甚麼有權在全班面前討論我的成績？」",
+      "answerZhSource": "pdf",
+      "highlight": "The student protested, “What gives you the right to discuss my marks in front of the class?”"
+    },
+    {
+      "id": "ss290-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "How can they decide what everyone must wear?",
+      "promptZh": "他們怎可以決定所有人必須穿甚麼？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives them the right to decide what everyone must wear?",
+      "answerZh": "他們憑甚麼有權決定所有人必須穿甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives them the right to decide what everyone must wear?"
+    },
+    {
+      "id": "ss290-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel said to the team leader, “You are acting as though you control the whole project.”",
+      "promptZh": "丹尼爾對組長說：「你的行為就像你控制着整個項目一樣。」",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel challenged the team leader, “What gives you the right to control the whole project?”",
+      "answerZh": "丹尼爾質問組長：「你憑甚麼有權控制整個項目？」",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel challenged the team leader, “What gives you the right to control the whole project?”"
+    },
+    {
+      "id": "ss290-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is not the landlord’s decision how we decorate our home.",
+      "promptZh": "我們怎樣佈置自己的家，並不應由業主決定。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives the landlord the right to decide how we decorate our home?",
+      "answerZh": "業主憑甚麼有權決定我們怎樣佈置自己的家？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives the landlord the right to decide how we decorate our home?"
+    },
+    {
+      "id": "ss290-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A customer said to the guard, “On whose authority are you stopping me from entering?”",
+      "promptZh": "一名顧客對保安員說：「你憑誰的授權阻止我進入？」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The customer demanded to know, “What gives you the right to stop me from entering?”",
+      "answerZh": "該名顧客質問道：「你憑甚麼有權阻止我進入？」",
+      "answerZhSource": "pdf",
+      "highlight": "The customer demanded to know, “What gives you the right to stop me from entering?”"
+    },
+    {
+      "id": "ss290-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Your brother should not assume that he can use your laptop without asking.",
+      "promptZh": "你的弟弟不應以為自己可以未經詢問便使用你的手提電腦。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives your brother the right to use your laptop without asking?",
+      "answerZh": "你的弟弟憑甚麼有權未經詢問便使用你的手提電腦？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives your brother the right to use your laptop without asking?"
+    },
+    {
+      "id": "ss290-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A neighbour objected, “The company has no authority to cut down these trees.”",
+      "promptZh": "一名居民反對道：「公司無權砍伐這些樹木。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbour asked, “What gives the company the right to cut down these trees?”",
+      "answerZh": "該名居民問：「公司憑甚麼有權砍伐這些樹木？」",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbour asked, “What gives the company the right to cut down these trees?”"
+    },
+    {
+      "id": "ss290-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You are not entitled to tell me who my friends should be.",
+      "promptZh": "你沒有資格告訴我應該和誰做朋友。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives you the right to tell me who my friends should be?",
+      "answerZh": "你憑甚麼有權告訴我應該和誰做朋友？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives you the right to tell me who my friends should be?"
+    },
+    {
+      "id": "ss290-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Priya said to her colleague, “Who authorised you to change my report?”",
+      "promptZh": "普里雅對同事說：「誰授權你更改我的報告？」",
+      "promptZhSource": "pdf",
+      "starter": "Priya",
+      "answer": "Priya asked her colleague, “What gives you the right to change my report?”",
+      "answerZh": "普里雅問她的同事：「你憑甚麼有權更改我的報告？」",
+      "answerZhSource": "pdf",
+      "highlight": "Priya asked her colleague, “What gives you the right to change my report?”"
+    },
+    {
+      "id": "ss290-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is not for the committee to hide the results from members.",
+      "promptZh": "委員會不應向會員隱瞞結果。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives the committee the right to hide the results from members?",
+      "answerZh": "委員會憑甚麼有權向會員隱瞞結果？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives the committee the right to hide the results from members?"
+    },
+    {
+      "id": "ss290-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A journalist told the minister, “You cannot simply avoid answering this question.”",
+      "promptZh": "一名記者對部長說：「你不能就這樣逃避回答這條問題。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The journalist asked the minister, “What gives you the right to avoid answering this question?”",
+      "answerZh": "該名記者問部長：「你憑甚麼有權逃避回答這條問題？」",
+      "answerZhSource": "pdf",
+      "highlight": "The journalist asked the minister, “What gives you the right to avoid answering this question?”"
+    },
+    {
+      "id": "ss290-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No one elected those advisers to make laws for the public.",
+      "promptZh": "沒有人選出那些顧問為公眾制定法律。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives those unelected advisers the right to make laws for the public?",
+      "answerZh": "那些並非由選民選出的顧問憑甚麼有權為公眾制定法律？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives those unelected advisers the right to make laws for the public?"
+    },
+    {
+      "id": "ss290-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A passenger told the driver, “You should not decide which customers deserve help.”",
+      "promptZh": "一名乘客對司機說：「你不應決定哪些乘客值得獲得協助。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A passenger demanded to know, “What gives you the right to decide which customers deserve help?”",
+      "answerZh": "一名乘客質問道：「你憑甚麼有權決定哪些乘客值得獲得協助？」",
+      "answerZhSource": "pdf",
+      "highlight": "A passenger demanded to know, “What gives you the right to decide which customers deserve help?”"
+    },
+    {
+      "id": "ss290-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why does this app think it can collect our location data without permission?",
+      "promptZh": "這個應用程式為甚麼認為自己可以未經許可收集我們的位置資料？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives this app the right to collect our location data without permission?",
+      "answerZh": "這個應用程式憑甚麼有權未經許可收集我們的位置資料？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives this app the right to collect our location data without permission?"
+    },
+    {
+      "id": "ss290-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Residents asked, “Who allowed the developer to block this public path?”",
+      "promptZh": "居民問：「誰容許發展商封閉這條公眾通道？」",
+      "promptZhSource": "pdf",
+      "starter": "Residents",
+      "answer": "Residents demanded to know, “What gives the developer the right to block this public path?”",
+      "answerZh": "居民質問道：「發展商憑甚麼有權封閉這條公眾通道？」",
+      "answerZhSource": "pdf",
+      "highlight": "Residents demanded to know, “What gives the developer the right to block this public path?”"
+    },
+    {
+      "id": "ss290-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Your manager cannot expect you to answer work messages at midnight.",
+      "promptZh": "你的經理不能要求你在午夜回覆工作訊息。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives your manager the right to expect you to answer work messages at midnight?",
+      "answerZh": "你的經理憑甚麼有權要求你在午夜回覆工作訊息？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives your manager the right to expect you to answer work messages at midnight?"
+    },
+    {
+      "id": "ss290-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our coach said to the referee, “You have no basis for removing our captain from the match.”",
+      "promptZh": "我們的教練對球證說：「你沒有理據把我們的隊長逐出比賽。」",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our coach challenged the referee: “What gives you the right to remove our captain from the match?”",
+      "answerZh": "我們的教練質問球證：「你憑甚麼有權把我們的隊長逐出比賽？」",
+      "answerZhSource": "pdf",
+      "highlight": "Our coach challenged the referee: “What gives you the right to remove our captain from the match?”"
+    },
+    {
+      "id": "ss290-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Who authorised the school to search students’ lockers without warning?",
+      "promptZh": "誰授權學校在沒有預先通知的情況下搜查學生的儲物櫃？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives the school the right to search students’ lockers without warning?",
+      "answerZh": "學校憑甚麼有權在沒有預先通知的情況下搜查學生的儲物櫃？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives the school the right to search students’ lockers without warning?"
+    },
+    {
+      "id": "ss290-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Fatima told the photographer, “You did not ask before posting my picture online.”",
+      "promptZh": "法蒂瑪對攝影師說：「你把我的照片上載到網上之前並沒有詢問我。」",
+      "promptZhSource": "pdf",
+      "starter": "Fatima",
+      "answer": "Fatima asked the photographer, “What gives you the right to post my picture online without asking me?”",
+      "answerZh": "法蒂瑪問攝影師：「你憑甚麼有權未經詢問便把我的照片上載到網上？」",
+      "answerZhSource": "pdf",
+      "highlight": "Fatima asked the photographer, “What gives you the right to post my picture online without asking me?”"
+    },
+    {
+      "id": "ss290-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I should not assume that I am entitled to judge how another family spends its money.",
+      "promptZh": "我不應以為自己有資格批評另一個家庭怎樣使用金錢。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives me the right to judge how another family spends its money?",
+      "answerZh": "我憑甚麼有權批評另一個家庭怎樣使用金錢？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives me the right to judge how another family spends its money?"
+    },
+    {
+      "id": "ss290-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A nurse said to the visitor, “You are ignoring the patient’s request for privacy.”",
+      "promptZh": "一名護士對訪客說：「你正在漠視病人對私隱的要求。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A nurse challenged the visitor, “What gives you the right to ignore the patient’s request for privacy?”",
+      "answerZh": "一名護士質問訪客：「你憑甚麼有權漠視病人對私隱的要求？」",
+      "answerZhSource": "pdf",
+      "highlight": "A nurse challenged the visitor, “What gives you the right to ignore the patient’s request for privacy?”"
+    },
+    {
+      "id": "ss290-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The board is not entitled to spend members’ fees on private travel.",
+      "promptZh": "董事會無權把會員繳付的費用花在私人旅程上。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives the board the right to spend members’ fees on private travel?",
+      "answerZh": "董事會憑甚麼有權把會員繳付的費用花在私人旅程上？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives the board the right to spend members’ fees on private travel?"
+    },
+    {
+      "id": "ss290-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Workers protested that management could not change the agreed shifts overnight.",
+      "promptZh": "工人抗議管理層不能突然更改已經商定的更次。",
+      "promptZhSource": "pdf",
+      "starter": "Workers",
+      "answer": "Workers demanded to know, “What gives management the right to change the agreed shifts overnight?”",
+      "answerZh": "工人質問道：「管理層憑甚麼有權突然更改已經商定的更次？」",
+      "answerZhSource": "pdf",
+      "highlight": "Workers demanded to know, “What gives management the right to change the agreed shifts overnight?”"
+    },
+    {
+      "id": "ss290-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Who put a private company in charge of deciding who may use a public beach?",
+      "promptZh": "誰讓一間私人公司負責決定哪些人可以使用公眾泳灘？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives a private company the right to decide who may use a public beach?",
+      "answerZh": "一間私人公司憑甚麼有權決定哪些人可以使用公眾泳灘？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives a private company the right to decide who may use a public beach?"
+    },
+    {
+      "id": "ss290-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A tenant told the agent, “You cannot enter this flat whenever you like.”",
+      "promptZh": "一名租客對代理說：「你不能隨時進入這個單位。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The tenant asked the agent, “What gives you the right to enter this flat whenever you like?”",
+      "answerZh": "該名租客問代理：「你憑甚麼有權隨時進入這個單位？」",
+      "answerZhSource": "pdf",
+      "highlight": "The tenant asked the agent, “What gives you the right to enter this flat whenever you like?”"
+    },
+    {
+      "id": "ss290-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The editor has no authority to change an author’s conclusion without consulting her.",
+      "promptZh": "編輯無權在沒有諮詢作者的情況下更改她的結論。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives the editor the right to change an author’s conclusion without consulting her?",
+      "answerZh": "編輯憑甚麼有權在沒有諮詢作者的情況下更改她的結論？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives the editor the right to change an author’s conclusion without consulting her?"
+    },
+    {
+      "id": "ss290-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Several parents told the school, “You cannot punish the whole class for one student’s mistake.”",
+      "promptZh": "幾名家長對校方說：「你們不能因為一名學生的錯誤而懲罰全班。」",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several parents demanded to know, “What gives the school the right to punish the whole class for one student’s mistake?”",
+      "answerZh": "幾名家長質問道：「校方憑甚麼有權因為一名學生的錯誤而懲罰全班？」",
+      "answerZhSource": "pdf",
+      "highlight": "Several parents demanded to know, “What gives the school the right to punish the whole class for one student’s mistake?”"
+    },
+    {
+      "id": "ss290-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why should one wealthy donor control the museum’s entire programme?",
+      "promptZh": "為甚麼一名富有的捐款者可以控制博物館的整個節目安排？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives one wealthy donor the right to control the museum’s entire programme?",
+      "answerZh": "一名富有的捐款者憑甚麼有權控制博物館的整個節目安排？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives one wealthy donor the right to control the museum’s entire programme?"
+    },
+    {
+      "id": "ss290-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "An employee told her supervisor, “You should not discuss my health with other staff.”",
+      "promptZh": "一名僱員對主管說：「你不應和其他職員討論我的健康狀況。」",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An employee asked her supervisor, “What gives you the right to discuss my health with other staff?”",
+      "answerZh": "一名僱員問主管：「你憑甚麼有權和其他職員討論我的健康狀況？」",
+      "answerZhSource": "pdf",
+      "highlight": "An employee asked her supervisor, “What gives you the right to discuss my health with other staff?”"
+    },
+    {
+      "id": "ss290-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Who authorised the algorithm to reject applicants without giving a reason?",
+      "promptZh": "誰授權演算法在沒有提供理由的情況下拒絕申請人？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives the algorithm the right to reject applicants without giving a reason?",
+      "answerZh": "演算法憑甚麼有權在沒有提供理由的情況下拒絕申請人？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives the algorithm the right to reject applicants without giving a reason?"
+    },
+    {
+      "id": "ss290-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "One shop owner objected, “The council cannot remove our signs without consulting us.”",
+      "promptZh": "一名店主反對道：「區議會不能在沒有諮詢我們的情況下移除我們的招牌。」",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One shop owner challenged the council: “What gives you the right to remove our signs without consulting us?”",
+      "answerZh": "一名店主質問區議會：「你們憑甚麼有權在沒有諮詢我們的情況下移除我們的招牌？」",
+      "answerZhSource": "pdf",
+      "highlight": "One shop owner challenged the council: “What gives you the right to remove our signs without consulting us?”"
+    },
+    {
+      "id": "ss290-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It is not the media’s role to decide that a person is guilty before the trial.",
+      "promptZh": "傳媒不應在審訊前判定一個人有罪。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives the media the right to decide that a person is guilty before the trial?",
+      "answerZh": "傳媒憑甚麼有權在審訊前判定一個人有罪？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives the media the right to decide that a person is guilty before the trial?"
+    },
+    {
+      "id": "ss290-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A student representative said, “The principal cannot cancel the debate without hearing either side.”",
+      "promptZh": "一名學生代表說：「校長不能在沒有聽取任何一方意見的情況下取消辯論。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A student representative demanded to know, “What gives the principal the right to cancel the debate without hearing either side?”",
+      "answerZh": "一名學生代表質問道：「校長憑甚麼有權在沒有聽取任何一方意見的情況下取消辯論？」",
+      "answerZhSource": "pdf",
+      "highlight": "A student representative demanded to know, “What gives the principal the right to cancel the debate without hearing either side?”"
+    },
+    {
+      "id": "ss290-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We should not assume that we may decide how another community must organise its traditions.",
+      "promptZh": "我們不應以為自己可以決定另一個社群必須怎樣安排其傳統活動。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives us the right to decide how another community must organise its traditions?",
+      "answerZh": "我們憑甚麼有權決定另一個社群必須怎樣安排其傳統活動？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives us the right to decide how another community must organise its traditions?"
+    },
+    {
+      "id": "ss290-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A client told the consultant, “You had no permission to share these figures with another company.”",
+      "promptZh": "一名客戶對顧問說：「你沒有得到許可把這些數字交給另一間公司。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A client asked the consultant, “What gives you the right to share these figures with another company?”",
+      "answerZh": "一名客戶問顧問：「你憑甚麼有權把這些數字交給另一間公司？」",
+      "answerZhSource": "pdf",
+      "highlight": "A client asked the consultant, “What gives you the right to share these figures with another company?”"
+    },
+    {
+      "id": "ss290-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Why does the university think it can monitor students’ private social-media accounts?",
+      "promptZh": "大學為甚麼認為自己可以監察學生的私人社交媒體帳戶？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives the university the right to monitor students’ private social-media accounts?",
+      "answerZh": "大學憑甚麼有權監察學生的私人社交媒體帳戶？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives the university the right to monitor students’ private social-media accounts?"
+    },
+    {
+      "id": "ss290-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "An actor said to the interviewer, “Who allowed you to ask questions about my children?”",
+      "promptZh": "一名演員對訪問者說：「誰容許你問有關我孩子的問題？」",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An actor demanded to know, “What gives you the right to ask questions about my children?”",
+      "answerZh": "一名演員質問道：「你憑甚麼有權問有關我孩子的問題？」",
+      "answerZhSource": "pdf",
+      "highlight": "An actor demanded to know, “What gives you the right to ask questions about my children?”"
+    },
+    {
+      "id": "ss290-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The council was not elected to decide which peaceful opinions may be expressed in the square.",
+      "promptZh": "市議會並不是由選民選出來決定哪些和平意見可以在廣場上表達的。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives the council the right to decide which peaceful opinions may be expressed in the square?",
+      "answerZh": "市議會憑甚麼有權決定哪些和平意見可以在廣場上表達？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives the council the right to decide which peaceful opinions may be expressed in the square?"
+    },
+    {
+      "id": "ss290-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "One research participant said, “Signing one consent form does not allow you to use my data for every future study.”",
+      "promptZh": "一名研究參與者說：「簽署一份同意書並不代表你們可以在日後每項研究中使用我的資料。」",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One research participant asked the researchers, “What gives you the right to use my data for every future study?”",
+      "answerZh": "一名研究參與者問研究人員：「你們憑甚麼有權在日後每項研究中使用我的資料？」",
+      "answerZhSource": "pdf",
+      "highlight": "One research participant asked the researchers, “What gives you the right to use my data for every future study?”"
+    },
+    {
+      "id": "ss290-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Who authorised an overseas corporation with no local representatives to control access to the village’s water supply?",
+      "promptZh": "誰授權一間沒有本地代表的海外企業控制村莊供水的使用權？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives an overseas corporation with no local representatives the right to control access to the village’s water supply?",
+      "answerZh": "一間沒有本地代表的海外企業憑甚麼有權控制村莊供水的使用權？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives an overseas corporation with no local representatives the right to control access to the village’s water supply?"
+    },
+    {
+      "id": "ss290-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Concerned parents told the technology company, “You cannot collect children’s voices simply because your device is switched on.”",
+      "promptZh": "憂慮的家長對科技公司說：「你們不能只因裝置已開啟便收集兒童的聲音。」",
+      "promptZhSource": "pdf",
+      "starter": "Concerned",
+      "answer": "Concerned parents demanded to know, “What gives the technology company the right to collect children’s voices simply because its device is switched on?”",
+      "answerZh": "憂慮的家長質問道：「科技公司憑甚麼有權只因裝置已開啟便收集兒童的聲音？」",
+      "answerZhSource": "pdf",
+      "highlight": "Concerned parents demanded to know, “What gives the technology company the right to collect children’s voices simply because its device is switched on?”"
+    },
+    {
+      "id": "ss290-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The chairperson cannot silence a member merely because that member disagrees with the majority.",
+      "promptZh": "主席不能只因一名成員不同意大多數人的意見便禁止他發言。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives the chairperson the right to silence a member merely because that member disagrees with the majority?",
+      "answerZh": "主席憑甚麼有權只因一名成員不同意大多數人的意見便禁止他發言？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives the chairperson the right to silence a member merely because that member disagrees with the majority?"
+    },
+    {
+      "id": "ss290-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The author told the publisher, “Buying my manuscript does not allow you to change its message completely.”",
+      "promptZh": "作者對出版社說：「購買我的原稿並不代表你可以徹底改變作品的信息。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The author asked the publisher, “What gives you the right to change my manuscript’s message completely?”",
+      "answerZh": "作者問出版社：「你憑甚麼有權徹底改變我原稿的信息？」",
+      "answerZhSource": "pdf",
+      "highlight": "The author asked the publisher, “What gives you the right to change my manuscript’s message completely?”"
+    },
+    {
+      "id": "ss290-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Why should officials who will not be affected by the policy decide how local families must live?",
+      "promptZh": "不會受到政策影響的官員為甚麼可以決定本地家庭必須怎樣生活？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives officials who will not be affected by the policy the right to decide how local families must live?",
+      "answerZh": "不會受到政策影響的官員憑甚麼有權決定本地家庭必須怎樣生活？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives officials who will not be affected by the policy the right to decide how local families must live?"
+    },
+    {
+      "id": "ss290-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Local residents said, “Owning the land does not allow the developer to ignore every promise made to the community.”",
+      "promptZh": "本地居民說：「擁有土地並不代表發展商可以漠視向社區作出的所有承諾。」",
+      "promptZhSource": "pdf",
+      "starter": "Local",
+      "answer": "Local residents demanded to know, “What gives the developer the right to ignore every promise made to the community?”",
+      "answerZh": "本地居民質問道：「發展商憑甚麼有權漠視向社區作出的所有承諾？」",
+      "answerZhSource": "pdf",
+      "highlight": "Local residents demanded to know, “What gives the developer the right to ignore every promise made to the community?”"
+    },
+    {
+      "id": "ss290-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "No institution should be able to keep a person’s records forever without explaining why they are still needed.",
+      "promptZh": "任何機構都不應在沒有解釋為甚麼仍然需要有關紀錄的情況下，永久保存一個人的紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What gives any institution the right to keep a person’s records forever without explaining why they are still needed?",
+      "answerZh": "任何機構憑甚麼有權在沒有解釋為甚麼仍然需要有關紀錄的情況下，永久保存一個人的紀錄？",
+      "answerZhSource": "pdf",
+      "highlight": "What gives any institution the right to keep a person’s records forever without explaining why they are still needed?"
+    },
+    {
+      "id": "ss290-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Our committee chair told the outside adviser, “You were invited to give advice, not to make the final decision for the people who will bear the consequences.”",
+      "promptZh": "我們的委員會主席對外來顧問說：「你獲邀提供意見，而不是替承擔後果的人作最終決定。」",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our committee chair asked the outside adviser, “What gives you the right to make the final decision for the people who will bear the consequences?”",
+      "answerZh": "我們的委員會主席問外來顧問：「你憑甚麼有權替承擔後果的人作最終決定？」",
+      "answerZhSource": "pdf",
+      "highlight": "Our committee chair asked the outside adviser, “What gives you the right to make the final decision for the people who will bear the consequences?”"
+    }
+  ]
+}

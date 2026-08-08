@@ -1,0 +1,1716 @@
+{
+  "lesson": {
+    "id": "idiom-99",
+    "order": 99,
+    "slug": "lick-your-wounds",
+    "version": "1",
+    "title": "休整／平復打擊",
+    "titleEn": "lick your wounds",
+    "titleZh": "休整／平復打擊",
+    "source": {
+      "file": "Idiom 99 - “Lick Your Wounds”.pdf",
+      "pageCount": 41,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "exercisePdfPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "answerKeyPdfPages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "lick one’s wounds",
+        "highlight": "lick one’s wounds"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The players licked their wounds after the defeat.",
+        "zh": "球員落敗後休整了一段時間。",
+        "highlight": "licked their wounds"
+      },
+      {
+        "en": "The company usually licks its wounds quietly after a failed plan.",
+        "zh": "計劃失敗後，公司通常會低調休整。",
+        "highlight": "licks its wounds"
+      }
+    ],
+    "meaning": {
+      "en": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+      "zh": "在失敗、落敗、失望或其他令人難受的經歷後，花時間休整、平復心情或重拾信心。",
+      "naturalZh": [
+        "休整",
+        "平復打擊",
+        "重拾信心",
+        "重整旗鼓",
+        "暫時退下來恢復",
+        "從挫敗中恢復過來"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; sports discussion; news and commentary; workplace conversation; descriptions of personal disappointment; discussions of failed plans or public criticism.",
+      "summaryZh": "這個表達帶有比喻色彩，語氣一般屬於中性至非正式。 它常見於日常對話、體育評論、新聞報道、 工作場合及描述個人挫敗的語境。",
+      "contextsEn": [
+        "everyday conversation",
+        "sports discussion",
+        "news and commentary",
+        "workplace conversation",
+        "descriptions of personal disappointment",
+        "discussions of failed plans or public criticism"
+      ],
+      "contextsZh": [],
+      "formalEn": "The expression is figurative and generally neutral to informal. It is common in:",
+      "formalZh": "這個表達帶有比喻色彩，語氣一般屬於中性至非正式。 它常見於日常對話、體育評論、新聞報道、 工作場合及描述個人挫敗的語境。"
+    },
+    "fixedVariable": {
+      "fixed": "lick one’s wounds",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + lick(s) / licked + possessive + wounds.",
+          "example": "The players licked their wounds after the defeat.",
+          "highlight": "licked their wounds"
+        },
+        {
+          "form": "Subject + be + licking + possessive + wounds.",
+          "example": "The team is still licking its wounds.",
+          "highlight": "licking its wounds"
+        },
+        {
+          "form": "Subject + have / has / had + licked + possessive + wounds.",
+          "example": "The group has licked its wounds and is ready to return.",
+          "highlight": "licked its wounds"
+        },
+        {
+          "form": "Subject + may / might / can / could / should / will + lick + possessive + wounds.",
+          "example": "The company may need to lick its wounds.",
+          "highlight": "lick its wounds"
+        },
+        {
+          "form": "Subject + verb + to lick + possessive + wounds.",
+          "example": "The team went home to lick its wounds.",
+          "highlight": "lick its wounds"
+        },
+        {
+          "form": "Subject + spend + time + licking + possessive + wounds.",
+          "example": "The singer spent the weekend licking her wounds.",
+          "highlight": "licking her wounds"
+        },
+        {
+          "form": "after / before / while / instead of + licking + possessive + wounds",
+          "example": "After licking his wounds, Aaron tried again.",
+          "highlight": "licking his wounds"
+        },
+        {
+          "form": "Event + leave + person + licking + possessive + wounds.",
+          "example": "The bad review left the writer licking her wounds.",
+          "highlight": "licking her wounds"
+        },
+        {
+          "form": "Subject + give + person + time + to lick + possessive + wounds.",
+          "example": "The coach gave the players two days to lick their wounds.",
+          "highlight": "lick their wounds"
+        },
+        {
+          "form": "All + subject + can / could do + is / was + lick + possessive + wounds.",
+          "example": "All the team could do was lick its wounds.",
+          "highlight": "lick its wounds"
+        },
+        {
+          "form": "Licking + possessive + wounds + verb.",
+          "example": "Licking your wounds after a failure is understandable.",
+          "highlight": "Licking your wounds"
+        },
+        {
+          "form": "Having licked + possessive + wounds, + main clause.",
+          "example": "Having licked his wounds, the actor tried another audition.",
+          "highlight": "licked his wounds"
+        },
+        {
+          "form": "Is / Are + subject + licking + possessive + wounds?",
+          "example": "Is the team still licking its wounds?",
+          "highlight": "licking its wounds"
+        },
+        {
+          "form": "lick one’s wounds",
+          "example": "The team went home to lick its wounds after the heavy defeat.",
+          "highlight": "lick its wounds"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作為一般限定動詞短語",
+        "formula": "Subject + lick(s) / licked + possessive + wounds.",
+        "descriptionEn": "Source grammar frame: Subject + lick(s) / licked + possessive + wounds.",
+        "descriptionZh": "原檔列出的句法框架：Subject + lick(s) / licked + possessive + wounds。",
+        "examples": [
+          {
+            "en": "The players licked their wounds after the defeat.",
+            "zh": "球員落敗後休整了一段時間。",
+            "highlight": "licked their wounds"
+          },
+          {
+            "en": "The company usually licks its wounds quietly after a failed plan.",
+            "zh": "計劃失敗後，公司通常會低調休整。",
+            "highlight": "licks its wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "In the Progressive Form",
+        "titleZh": "使用進行式",
+        "formula": "Subject + be + licking + possessive + wounds.",
+        "descriptionEn": "Source grammar frame: Subject + be + licking + possessive + wounds.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + licking + possessive + wounds。",
+        "examples": [
+          {
+            "en": "The team is still licking its wounds.",
+            "zh": "球隊仍在平復落敗的打擊。",
+            "highlight": "licking its wounds"
+          },
+          {
+            "en": "The two partners were licking their wounds after the deal failed.",
+            "zh": "交易失敗後，兩位合夥人當時正在休整並重新部署。",
+            "highlight": "licking their wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "In Perfect Tenses",
+        "titleZh": "使用完成時態",
+        "formula": "Subject + have / has / had + licked + possessive + wounds.",
+        "descriptionEn": "The perfect form suggests that the recovery period has been completed or has reached an important stage.",
+        "descriptionZh": "完成時態表示休整期已經完成，或已到達一個重要階段。",
+        "examples": [
+          {
+            "en": "The group has licked its wounds and is ready to return.",
+            "zh": "小組已從挫折中恢復過來，準備重新出發。",
+            "highlight": "licked its wounds"
+          },
+          {
+            "en": "He had licked his wounds before he applied again.",
+            "zh": "他再次申請前，已經平復了被拒的打擊。",
+            "highlight": "licked his wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "置於情態動詞後",
+        "formula": "Subject + may / might / can / could / should / will + lick + possessive + wounds.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / can / could / should / will + lick + possessive + wounds.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / can / could / should / will + lick + possessive + wounds。",
+        "examples": [
+          {
+            "en": "The company may need to lick its wounds.",
+            "zh": "公司可能需要暫時休整。",
+            "highlight": "lick its wounds"
+          },
+          {
+            "en": "The players should lick their wounds and prepare for the next match.",
+            "zh": "球員應先平復落敗的打擊，再準備下一場比賽。",
+            "highlight": "lick their wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "As an Infinitive",
+        "titleZh": "作為不定式",
+        "formula": "Subject + verb + to lick + possessive + wounds.",
+        "descriptionEn": "Source grammar frame: Subject + verb + to lick + possessive + wounds.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb + to lick + possessive + wounds。",
+        "examples": [
+          {
+            "en": "The team went home to lick its wounds.",
+            "zh": "球隊回家休整並平復落敗的打擊。",
+            "highlight": "lick its wounds"
+          },
+          {
+            "en": "She needs a few days to lick her wounds.",
+            "zh": "她需要幾天時間平復心情。",
+            "highlight": "lick her wounds"
+          },
+          {
+            "en": "The director stayed out of public view to lick her wounds.",
+            "zh": "導演暫時沒有公開露面，讓自己平復負面評論的打擊。",
+            "highlight": "lick her wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "With “Spend Time”",
+        "titleZh": "配合 spend time",
+        "formula": "Subject + spend + time + licking + possessive + wounds.",
+        "descriptionEn": "Source grammar frame: Subject + spend + time + licking + possessive + wounds.",
+        "descriptionZh": "原檔列出的句法框架：Subject + spend + time + licking + possessive + wounds。",
+        "examples": [
+          {
+            "en": "The singer spent the weekend licking her wounds.",
+            "zh": "歌手整個週末都在休整並平復失望。",
+            "highlight": "licking her wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After a Preposition or Linking Word",
+        "titleZh": "置於介詞或連接詞後",
+        "formula": "after / before / while / instead of + licking + possessive + wounds",
+        "descriptionEn": "After a preposition or linking word of this kind, use the -ing form.",
+        "descriptionZh": "在這類介詞或連接詞後，應使用 licking。",
+        "examples": [
+          {
+            "en": "After licking his wounds, Aaron tried again.",
+            "zh": "亞倫從挫敗中恢復過來後，再次嘗試。",
+            "highlight": "licking his wounds"
+          },
+          {
+            "en": "While licking her wounds, Grace avoided public meetings.",
+            "zh": "格蕾絲在休整期間避開了公開會議。",
+            "highlight": "licking her wounds"
+          },
+          {
+            "en": "Instead of licking your wounds forever, learn from the mistake.",
+            "zh": "與其一直沉溺於挫敗之中，不如從錯誤中學習。",
+            "highlight": "licking your wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "In a Result Construction",
+        "titleZh": "作為結果結構",
+        "formula": "Event + leave + person + licking + possessive + wounds.",
+        "descriptionEn": "Source grammar frame: Event + leave + person + licking + possessive + wounds.",
+        "descriptionZh": "原檔列出的句法框架：Event + leave + person + licking + possessive + wounds。",
+        "examples": [
+          {
+            "en": "The bad review left the writer licking her wounds.",
+            "zh": "那篇負面評論令作家受挫，需要休整並重拾信心。",
+            "highlight": "licking her wounds"
+          },
+          {
+            "en": "The unexpected defeat left the champions licking their wounds.",
+            "zh": "這場意外敗仗令冠軍隊伍受到打擊，需要休整。",
+            "highlight": "licking their wounds"
+          },
+          {
+            "en": "The rejection sent Aaron away to lick his wounds.",
+            "zh": "被拒令亞倫暫時退下來休整。",
+            "highlight": "lick his wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "After “Give Someone Time”",
+        "titleZh": "置於 give someone time 後",
+        "formula": "Subject + give + person + time + to lick + possessive + wounds.",
+        "descriptionEn": "Source grammar frame: Subject + give + person + time + to lick + possessive + wounds.",
+        "descriptionZh": "原檔列出的句法框架：Subject + give + person + time + to lick + possessive + wounds。",
+        "examples": [
+          {
+            "en": "The coach gave the players two days to lick their wounds.",
+            "zh": "教練給球員兩天時間休整。",
+            "highlight": "lick their wounds"
+          },
+          {
+            "en": "Give her some time to lick her wounds.",
+            "zh": "給她一點時間平復心情。",
+            "highlight": "lick her wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "After “All Someone Can Do Is”",
+        "titleZh": "置於 all someone can do is 後",
+        "formula": "All + subject + can / could do + is / was + lick + possessive + wounds.",
+        "descriptionEn": "Source grammar frame: All + subject + can / could do + is / was + lick + possessive + wounds.",
+        "descriptionZh": "原檔列出的句法框架：All + subject + can / could do + is / was + lick + possessive + wounds。",
+        "examples": [
+          {
+            "en": "All the team could do was lick its wounds.",
+            "zh": "球隊當時只能休整並平復落敗的打擊。",
+            "highlight": "lick its wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "As a Gerund Subject",
+        "titleZh": "作為動名詞主語",
+        "formula": "Licking + possessive + wounds + verb.",
+        "descriptionEn": "Source grammar frame: Licking + possessive + wounds + verb.",
+        "descriptionZh": "原檔列出的句法框架：Licking + possessive + wounds + verb。",
+        "examples": [
+          {
+            "en": "Licking your wounds after a failure is understandable.",
+            "zh": "失敗後休整並平復心情是可以理解的。",
+            "highlight": "Licking your wounds"
+          },
+          {
+            "en": "Licking their wounds may take the players several days.",
+            "zh": "球員可能需要數天時間平復落敗的打擊。",
+            "highlight": "Licking their wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "In a Perfect Participial Clause",
+        "titleZh": "使用完成分詞子句",
+        "formula": "Having licked + possessive + wounds, + main clause.",
+        "descriptionEn": "This structure shows that the recovery happened before the next action.",
+        "descriptionZh": "這個結構表示休整發生在下一個行動之前。",
+        "examples": [
+          {
+            "en": "Having licked his wounds, the actor tried another audition.",
+            "zh": "這名演員從挫敗中恢復過來後，參加了另一次試鏡。",
+            "highlight": "licked his wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 13,
+        "titleEn": "In Questions",
+        "titleZh": "使用問句",
+        "formula": "Is / Are + subject + licking + possessive + wounds?",
+        "descriptionEn": "Source grammar frame: Is / Are + subject + licking + possessive + wounds?.",
+        "descriptionZh": "原檔列出的句法框架：Is / Are + subject + licking + possessive + wounds?。",
+        "examples": [
+          {
+            "en": "Is the team still licking its wounds?",
+            "zh": "球隊仍在平復落敗的打擊嗎？",
+            "highlight": "licking its wounds"
+          },
+          {
+            "en": "How long will you need to lick your wounds?",
+            "zh": "你需要多長時間平復這次挫敗？",
+            "highlight": "lick your wounds"
+          },
+          {
+            "en": "Did he go away to lick his wounds?",
+            "zh": "他是否暫時離開，讓自己平復心情？",
+            "highlight": "lick his wounds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 14,
+        "titleEn": "Question forms containing the expression",
+        "titleZh": "句式十四",
+        "formula": "lick one’s wounds",
+        "descriptionEn": "Source grammar frame: lick one’s wounds.",
+        "descriptionZh": "原檔列出的句法框架：lick one’s wounds。",
+        "examples": [
+          {
+            "en": "The team went home to lick its wounds after the heavy defeat.",
+            "zh": "球隊慘敗後回家休整，慢慢平復失望。",
+            "highlight": "lick its wounds"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Compresses a Longer Recovery Process",
+        "titleZh": "濃縮較長的恢復過程",
+        "en": "After the defeat, the players went somewhere quiet to lick their wounds.",
+        "zh": "這個慣用語能把「暫時退下來、平復心情及重拾信心」濃縮成一個表達。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Connects a Setback with a Period of Recovery",
+        "titleZh": "把挫折與休整期連繫起來",
+        "en": "1. something disappointing happened; 2. the person or group now needs time to recover.",
+        "zh": "這個表達同時帶出兩個概念：先發生挫折，之後需要休整。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Describe Individuals and Groups",
+        "titleZh": "可以描述個人及團體",
+        "en": "It Can Describe Individuals and Groups",
+        "zh": "亞倫暫時離開，讓自己平復心情。 球員正在平復落敗的打擊。 產品推出失敗後，公司正在休整並重新部署。",
+        "examples": [
+          {
+            "en": "Aaron went away to lick his wounds.",
+            "zh": "亞倫暫時離開，讓自己平復心情。",
+            "highlight": "lick his wounds"
+          },
+          {
+            "en": "The players are licking their wounds.",
+            "zh": "球員正在平復落敗的打擊。",
+            "highlight": "licking their wounds"
+          },
+          {
+            "en": "The company is licking its wounds after the failed launch.",
+            "zh": "產品推出失敗後，公司正在休整並重新部署。",
+            "highlight": "licking its wounds"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Sound Sympathetic or Critical",
+        "titleZh": "可以表達同情或批評",
+        "en": "The tone depends on the surrounding words.",
+        "zh": "給她一點時間平復心情。 你不能永遠沉溺於這次挫敗之中。 語氣取決於前後文。",
+        "examples": [
+          {
+            "en": "Give her time to lick her wounds.",
+            "zh": "給她一點時間平復心情。",
+            "highlight": "lick her wounds"
+          },
+          {
+            "en": "You cannot keep licking your wounds forever.",
+            "zh": "你不能永遠沉溺於這次挫敗之中。",
+            "highlight": "licking your wounds"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful in Sports and Performance Contexts",
+        "titleZh": "適合體育及表演情境",
+        "en": "It Is Useful in Sports and Performance Contexts",
+        "zh": "適合體育及表演情境",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Allows Genuine Grammatical Variety",
+        "titleZh": "容許真正的文法變化",
+        "en": "The expression remains the same lexical target while its grammatical position changes naturally.",
+        "zh": "慣用語仍是同一個學習目標，但它在句子中的文法位置可以自然改變。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Metaphorical Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成的比喻用法；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Related wording involving licking oneself clean or whole has been traced by reference works to the sixteenth century, although the precise first use of the modern expression is uncertain. John Dryden’s 1677 play All for Love contains an early figurative example in which defeated forces withdraw and lick their wounds. This shows that the image was already being used metaphorically in the seventeenth century, but it does not prove who first created the expression.",
+          "zh": "有參考資料把較早期的相關說法追溯至十六世紀，但現代形式的確切首次用法仍未能確認。 John Dryden 在1677年的劇作《All for Love》中，已使用「敗方退下來舔舐傷口」的比喻畫面。 這證明相關比喻在十七世紀已經出現，但不能證明是誰最先創造這個表達。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "A wounded animal temporarily withdraws and attends to its injuries. Speakers extended this physical image to people, teams and organisations recovering emotionally or practically after defeat, embarrassment, rejection or failure.",
+          "zh": "受傷動物會暫時退下來處理傷處。 後來，人們把這個身體畫面延伸至個人、球隊或組織在落敗、 尷尬、被拒或失敗後休整。"
+        }
+      ],
+      "memoryEn": "The animal withdraws to recover from an injury; the person withdraws to recover from a setback.",
+      "memoryZh": "動物退下來養傷；人則退下來平復挫敗。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Match the Possessive",
+        "titleZh": "規則一：所有格必須配合主語",
+        "en": "Match the Possessive",
+        "zh": "所有格必須配合主語",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep “Wounds” Plural",
+        "titleZh": "規則二：wounds 必須使用複數",
+        "en": "The singular form may describe a real injury, but it is not the standard form of this idiom.",
+        "zh": "單數形式可能描述真正的傷口，但不是這個慣用語的標準形式。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Inflect “Lick” Normally",
+        "titleZh": "規則三：lick 按一般規則變化",
+        "en": "Inflect “Lick” Normally",
+        "zh": "lick 按一般規則變化",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It After a Setback",
+        "titleZh": "規則四：必須先有挫折或負面經歷",
+        "en": "The context must contain a genuine setback.",
+        "zh": "語境必須包含真正的失敗、落敗、拒絕或令人難受的經歷。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Use It for an Ordinary Rest",
+        "titleZh": "規則五：不要用來表示一般休息",
+        "en": "The speaker is merely tired. No defeat or upsetting experience has occurred.",
+        "zh": "說話者只是疲倦，並沒有經歷失敗或打擊。 我的建議被拒，因此我會回家休整一下。",
+        "examples": [
+          {
+            "en": "My proposal was rejected, so I am going home to lick my wounds.",
+            "zh": "我的建議被拒，因此我會回家休整一下。",
+            "highlight": "lick my wounds"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Confuse It with Physical Treatment",
+        "titleZh": "規則六：不要與真正的傷口處理混淆",
+        "en": "The injured dog licked its wound.",
+        "zh": "受傷的狗舔自己的傷口。 落敗的球隊回家休整。",
+        "examples": [
+          {
+            "en": "The defeated team went home to lick its wounds.",
+            "zh": "落敗的球隊回家休整。",
+            "highlight": "lick its wounds"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則七：保留時態及確定程度",
+        "en": "Preserve Tense and Certainty",
+        "zh": "保留時態及確定程度",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve the Setback",
+        "titleZh": "規則八：保留造成打擊的事件",
+        "en": "When the answer must stand alone, the setback should normally remain visible.",
+        "zh": "當答案需要獨立理解時，通常應保留造成打擊的事件。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Repeat the Idiom’s Meaning",
+        "titleZh": "規則九：不要再次解釋相同意思",
+        "en": "The source explains the recovery. The idiom replaces that explanation.",
+        "zh": "原句負責解釋「恢復」； 答案則以慣用語濃縮這個意思，不應再次重複。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Be Careful with Serious Situations",
+        "titleZh": "規則十：嚴重情況下要小心使用",
+        "en": "In sensitive contexts, recover, grieve, receive support or take time to heal may be more appropriate.",
+        "zh": "在涉及死亡、嚴重創傷、重病或重大個人危機時，這個慣用語可能顯得過於輕率。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "“Still Licking Your Wounds” May Sound Critical",
+        "titleZh": "規則十一",
+        "en": "“Still Licking Your Wounds” May Sound Critical",
+        "zh": "still licking your wounds 可能帶有批評意味她正在花幾天時間休整。 幾個月後，她仍在為那次挫敗而自怨自艾。",
+        "examples": [
+          {
+            "en": "She is taking a few days to lick her wounds.",
+            "zh": "她正在花幾天時間休整。",
+            "highlight": "lick her wounds"
+          },
+          {
+            "en": "She is still licking her wounds months later.",
+            "zh": "幾個月後，她仍在為那次挫敗而自怨自艾。",
+            "highlight": "licking her wounds"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Use “One’s” in a Normal Personal",
+        "titleZh": "規則十二：一般句子中不要直接使用 one’s",
+        "en": "Do Not Use “One’s” in a Normal Personal",
+        "zh": "一般句子中不要直接使用 one’s",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using the correct form of lick one’s wounds.",
+      "zh": "使用 lick one’s wounds 的正確形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-99-q01",
+        "number": 1,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The team lost the final badly and went home to recover from the disappointment.",
+        "promptZh": "球隊在決賽中大敗，之後回家平復失望的情緒。",
+        "starter": "The",
+        "answer": "The team went home to lick its wounds after the heavy defeat.",
+        "answerZh": "球隊慘敗後回家休整，慢慢平復失望。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick its wounds"
+      },
+      {
+        "id": "idiom-99-q02",
+        "number": 2,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "After her idea was rejected, Chloe took a few days to rebuild her confidence.",
+        "promptZh": "克洛伊的想法被否決後，她用了幾天時間重拾信心。",
+        "starter": "Chloe",
+        "answer": "Chloe took a few days to lick her wounds after her idea was rejected.",
+        "answerZh": "克洛伊的想法被否決後，她用了幾天時間休整並重拾信心。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick her wounds"
+      },
+      {
+        "id": "idiom-99-q03",
+        "number": 3,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The player stayed away from interviews while he recovered from the embarrassing loss.",
+        "promptZh": "這名球員在平復那場尷尬敗仗帶來的打擊期間，沒有接受訪問。",
+        "starter": "The",
+        "answer": "The player stayed away from interviews while he licked his wounds after the embarrassing loss.",
+        "answerZh": "這名球員在那場尷尬敗仗後休整期間，沒有接受訪問。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licked his wounds"
+      },
+      {
+        "id": "idiom-99-q04",
+        "number": 4,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "We failed to win the school contest, so we need some time to get over the disappointment.",
+        "promptZh": "我們未能在校內比賽中勝出，因此需要一些時間平復失望。",
+        "starter": "We",
+        "answer": "We need some time to lick our wounds after losing the school contest.",
+        "answerZh": "我們在校內比賽落敗後，需要一些時間休整並平復心情。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick our wounds"
+      },
+      {
+        "id": "idiom-99-q05",
+        "number": 5,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The shop owner lost an important customer and spent the weekend recovering from the setback.",
+        "promptZh": "店主失去了一位重要顧客，整個週末都在平復這次挫折。",
+        "starter": "The",
+        "answer": "The shop owner spent the weekend licking her wounds after losing an important customer.",
+        "answerZh": "店主失去一位重要顧客後，整個週末都在休整並重新部署。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licking her wounds"
+      },
+      {
+        "id": "idiom-99-q06",
+        "number": 6,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "After failing the audition, Oliver went somewhere quiet to regain his confidence.",
+        "promptZh": "試鏡失敗後，奧利弗到一個安靜的地方重拾信心。",
+        "starter": "After",
+        "answer": "After failing the audition, Oliver went somewhere quiet to lick his wounds.",
+        "answerZh": "試鏡失敗後，奧利弗到一個安靜的地方休整並重拾信心。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick his wounds"
+      },
+      {
+        "id": "idiom-99-q07",
+        "number": 7,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The players are still trying to recover emotionally from Saturday’s defeat.",
+        "promptZh": "球員仍在努力平復星期六敗仗帶來的情緒打擊。",
+        "starter": "The",
+        "answer": "The players are still licking their wounds after Saturday’s defeat.",
+        "answerZh": "球員在星期六落敗後，仍在休整並平復情緒。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licking their wounds"
+      },
+      {
+        "id": "idiom-99-q08",
+        "number": 8,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "After losing the debate, Hannah stayed at home for a day to get her confidence back.",
+        "promptZh": "辯論落敗後，漢娜留在家中一天，讓自己重拾信心。",
+        "starter": "After",
+        "answer": "After losing the debate, Hannah stayed at home for a day to lick her wounds.",
+        "answerZh": "辯論落敗後，漢娜留在家中一天休整並重拾信心。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick her wounds"
+      },
+      {
+        "id": "idiom-99-q09",
+        "number": 9,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The two friends were disappointed by the failed plan and needed time to feel better.",
+        "promptZh": "兩位朋友因計劃失敗而感到失望，需要時間平復心情。",
+        "starter": "The",
+        "answer": "The two friends needed time to lick their wounds after their plan failed.",
+        "answerZh": "計劃失敗後，兩位朋友需要時間休整並平復心情。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick their wounds"
+      },
+      {
+        "id": "idiom-99-q10",
+        "number": 10,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: Is the team training today? B: No. The players need a day to recover from yesterday’s loss.",
+        "promptZh": "甲：球隊今天會訓練嗎？ 乙：不會。球員需要一天時間平復昨天落敗的打擊。",
+        "starter": "No.",
+        "answer": "No. The players need a day to lick their wounds after yesterday’s loss.",
+        "answerZh": "不會。球員在昨天落敗後，需要一天時間休整並平復心情。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick their wounds"
+      },
+      {
+        "id": "idiom-99-q11",
+        "number": 11,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The singer has spent the past week getting over the disappointment of losing the contest.",
+        "promptZh": "這名歌手過去一星期都在平復比賽落敗的失望。",
+        "starter": "The",
+        "answer": "The singer has spent the past week licking her wounds after losing the contest.",
+        "answerZh": "這名歌手比賽落敗後，過去一星期都在休整並平復心情。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licking her wounds"
+      },
+      {
+        "id": "idiom-99-q12",
+        "number": 12,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The company may need time to recover after its new product failed.",
+        "promptZh": "新產品失敗後，公司可能需要時間重整。",
+        "starter": "The",
+        "answer": "The company may need time to lick its wounds after its new product failed.",
+        "answerZh": "新產品失敗後，公司可能需要時間休整並重新部署。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick its wounds"
+      },
+      {
+        "id": "idiom-99-q13",
+        "number": 13,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Ryan had recovered from the rejection before he applied for another job.",
+        "promptZh": "賴恩在申請另一份工作前，已從被拒的打擊中恢復過來。",
+        "starter": "Ryan",
+        "answer": "Ryan had licked his wounds after the rejection before he applied for another job.",
+        "answerZh": "賴恩在申請另一份工作前，已從被拒的打擊中恢復過來。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licked his wounds"
+      },
+      {
+        "id": "idiom-99-q14",
+        "number": 14,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The defeated team will take a short break to rebuild its confidence.",
+        "promptZh": "落敗的球隊會短暫休息，重新建立信心。",
+        "starter": "The",
+        "answer": "The defeated team will take a short break to lick its wounds.",
+        "answerZh": "落敗的球隊會短暫休息，休整並重新建立信心。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick its wounds"
+      },
+      {
+        "id": "idiom-99-q15",
+        "number": 15,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "You should give yourself a little time to recover from this disappointment.",
+        "promptZh": "你應該給自己一點時間，從這次失望中恢復過來。",
+        "starter": "You",
+        "answer": "You should give yourself a little time to lick your wounds after this disappointment.",
+        "answerZh": "這次失望過後，你應該給自己一點時間休整並平復心情。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick your wounds"
+      },
+      {
+        "id": "idiom-99-q16",
+        "number": 16,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The coach gave the players two quiet days to get over the heavy loss.",
+        "promptZh": "教練給球員兩天安靜時間，讓他們平復大敗的打擊。",
+        "starter": "The",
+        "answer": "The coach gave the players two quiet days to lick their wounds after the heavy loss.",
+        "answerZh": "教練在球隊大敗後給球員兩天安靜時間休整。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick their wounds"
+      },
+      {
+        "id": "idiom-99-q17",
+        "number": 17,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: Why has Isaac stopped answering messages? B: He is taking some time to recover after his proposal was refused.",
+        "promptZh": "甲：艾薩克為甚麼不再回覆訊息？ 乙：他的建議被拒後，正在花點時間平復心情。",
+        "starter": "He",
+        "answer": "He is taking some time to lick his wounds after his proposal was refused.",
+        "answerZh": "他的建議被拒後，他正在花點時間休整並平復心情。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick his wounds"
+      },
+      {
+        "id": "idiom-99-q18",
+        "number": 18,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The runners could recover for a few days before beginning training again.",
+        "promptZh": "跑手可以休整幾天，然後重新開始訓練。",
+        "starter": "The",
+        "answer": "The runners could lick their wounds for a few days before beginning training again.",
+        "answerZh": "跑手可以休整幾天，然後重新開始訓練。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick their wounds"
+      },
+      {
+        "id": "idiom-99-q19",
+        "number": 19,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "After the business deal failed, the two partners have been quietly rebuilding their confidence.",
+        "promptZh": "生意交易失敗後，兩位合夥人一直低調地重整信心。",
+        "starter": "After",
+        "answer": "After the business deal failed, the two partners have been quietly licking their wounds.",
+        "answerZh": "生意交易失敗後，兩位合夥人一直低調休整並重新部署。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licking their wounds"
+      },
+      {
+        "id": "idiom-99-q20",
+        "number": 20,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The captain said the team would recover from the defeat and return stronger.",
+        "promptZh": "隊長表示，球隊會從敗仗中恢復過來，並以更強姿態回歸。",
+        "starter": "The",
+        "answer": "The captain said the team would lick its wounds after the defeat and return stronger.",
+        "answerZh": "隊長表示，球隊會在落敗後休整，並以更強姿態回歸。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick its wounds"
+      },
+      {
+        "id": "idiom-99-q21",
+        "number": 21,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: Are you going to apply again immediately? B: No. I need a few days to get over being rejected.",
+        "promptZh": "甲：你會立即再次申請嗎？ 乙：不會。我需要幾天時間平復被拒的打擊。",
+        "starter": "No.",
+        "answer": "No. I need a few days to lick my wounds after being rejected.",
+        "answerZh": "不會。我被拒後需要幾天時間休整並平復心情。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick my wounds"
+      },
+      {
+        "id": "idiom-99-q22",
+        "number": 22,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The bad review left the writer upset and trying to rebuild her confidence.",
+        "promptZh": "那篇負面評論令作家感到難過，需要重新建立信心。",
+        "starter": "The",
+        "answer": "The bad review left the writer licking her wounds.",
+        "answerZh": "那篇負面評論令作家受挫，需要休整並重拾信心。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licking her wounds"
+      },
+      {
+        "id": "idiom-99-q23",
+        "number": 23,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Instead of replying angrily after the criticism, Nathan took time to calm down and recover.",
+        "promptZh": "受到批評後，彌敦沒有憤怒回應，而是花時間冷靜下來並平復心情。",
+        "starter": "Instead",
+        "answer": "Instead of replying angrily after the criticism, Nathan took time to lick his wounds.",
+        "answerZh": "受到批評後，彌敦沒有憤怒回應，而是花時間冷靜休整。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick his wounds"
+      },
+      {
+        "id": "idiom-99-q24",
+        "number": 24,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The school team lost by one point. All the players could do that evening was quietly recover from the disappointment.",
+        "promptZh": "校隊以一分之差落敗。當晚，球員只能安靜地平復失望。",
+        "starter": "After",
+        "answer": "After losing by one point, all the school players could do that evening was lick their wounds.",
+        "answerZh": "校隊以一分之差落敗後，當晚球員只能安靜休整並平復失望。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick their wounds"
+      },
+      {
+        "id": "idiom-99-q25",
+        "number": 25,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: Why did Sofia cancel dinner? B: She did not get the role and wants to be alone while she gets over the rejection.",
+        "promptZh": "甲：索菲婭為甚麼取消晚餐？ 乙：她沒有獲得那個角色，想獨處一下，平復被拒的打擊。",
+        "starter": "She",
+        "answer": "She wants to be alone for a while to lick her wounds after the rejection.",
+        "answerZh": "她被拒後想獨處一會，休整並平復心情。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick her wounds"
+      },
+      {
+        "id": "idiom-99-q26",
+        "number": 26,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The team cannot spend the whole month feeling sorry for itself after one defeat.",
+        "promptZh": "球隊不能因為一次落敗，整個月都沉溺於失望之中。",
+        "starter": "The",
+        "answer": "The team cannot spend the whole month licking its wounds after one defeat.",
+        "answerZh": "球隊不能因為一次落敗，整個月都只顧休整和自怨自艾。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licking its wounds"
+      },
+      {
+        "id": "idiom-99-q27",
+        "number": 27,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Give the students a day to recover from losing the final before discussing their mistakes.",
+        "promptZh": "先給學生一天時間平復決賽落敗的打擊，然後才討論他們的錯誤。",
+        "starter": "Give",
+        "answer": "Give the students a day to lick their wounds after losing the final before discussing their mistakes.",
+        "answerZh": "先給學生一天時間在決賽落敗後休整，然後才討論他們的錯誤。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick their wounds"
+      },
+      {
+        "id": "idiom-99-q28",
+        "number": 28,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The rejected candidate went away for the weekend so that he could regain his confidence.",
+        "promptZh": "落選的候選人週末離開了一下，讓自己重拾信心。",
+        "starter": "The",
+        "answer": "The rejected candidate went away for the weekend to lick his wounds.",
+        "answerZh": "落選的候選人週末離開了一下，讓自己休整並重拾信心。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick his wounds"
+      },
+      {
+        "id": "idiom-99-q29",
+        "number": 29,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "After recovering from their first failed attempt, the group tried the project again.",
+        "promptZh": "小組從第一次失敗的嘗試中恢復過來後，再次進行該項目。",
+        "starter": "After",
+        "answer": "After licking their wounds following their first failed attempt, the group tried the project again.",
+        "answerZh": "小組從第一次失敗的嘗試中休整過來後，再次進行該項目。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licking their wounds"
+      },
+      {
+        "id": "idiom-99-q30",
+        "number": 30,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: Is Lucas ready to speak to the manager again? B: Not yet. He is still recovering from the criticism.",
+        "promptZh": "甲：盧卡斯準備好再次與經理交談了嗎？ 乙：還沒有。他仍在平復受到批評的打擊。",
+        "starter": "Not",
+        "answer": "Not yet. Lucas is still licking his wounds after the criticism.",
+        "answerZh": "還沒有。盧卡斯受到批評後，仍在休整並平復心情。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licking his wounds"
+      },
+      {
+        "id": "idiom-99-q31",
+        "number": 31,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Although the players were deeply disappointed by the defeat, they took two days to recover and then returned to training.",
+        "promptZh": "雖然球員對落敗深感失望，但他們休整了兩天，之後重返訓練。",
+        "starter": "Although",
+        "answer": "Although the players were deeply disappointed by the defeat, they took two days to lick their wounds and then returned to training.",
+        "answerZh": "雖然球員對落敗深感失望，但他們休整了兩天，之後重返訓練。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick their wounds"
+      },
+      {
+        "id": "idiom-99-q32",
+        "number": 32,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Because her business idea was rejected, Grace stayed away from the next meeting while she rebuilt her confidence.",
+        "promptZh": "由於她的商業構思被否決，格蕾絲在重拾信心期間沒有出席下一次會議。",
+        "starter": "Because",
+        "answer": "Because her business idea was rejected, Grace stayed away from the next meeting while licking her wounds.",
+        "answerZh": "由於她的商業構思被否決，格蕾絲在休整並重拾信心期間沒有出席下一次會議。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licking her wounds"
+      },
+      {
+        "id": "idiom-99-q33",
+        "number": 33,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The surprise defeat caused the champions to withdraw for a while and recover.",
+        "promptZh": "這場意外敗仗令冠軍隊伍暫時退下來休整。",
+        "starter": "The",
+        "answer": "The surprise defeat sent the champions away to lick their wounds.",
+        "answerZh": "這場意外敗仗令冠軍隊伍暫時退下來休整。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick their wounds"
+      },
+      {
+        "id": "idiom-99-q34",
+        "number": 34,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The failed presentation left us disappointed, but we will take time to recover before trying again.",
+        "promptZh": "簡報失敗令我們感到失望，但我們會先休整，然後再次嘗試。",
+        "starter": "The",
+        "answer": "The failed presentation left us licking our wounds, but we will try again.",
+        "answerZh": "簡報失敗令我們受挫，需要先休整，但我們會再次嘗試。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licking our wounds"
+      },
+      {
+        "id": "idiom-99-q35",
+        "number": 35,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "You may feel hurt after the public criticism, but do not spend too long feeling sorry for yourself.",
+        "promptZh": "受到公開批評後，你可能會感到受傷，但不要用太長時間自怨自艾。",
+        "starter": "You",
+        "answer": "You may need to lick your wounds after the public criticism, but do not spend too long doing so.",
+        "answerZh": "受到公開批評後，你可能需要休整一下，但不要長時間自怨自艾。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick your wounds"
+      },
+      {
+        "id": "idiom-99-q36",
+        "number": 36,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The actor recovered from the failed audition before agreeing to try for another role.",
+        "promptZh": "這名演員從試鏡失敗的打擊中恢復過來後，才答應競逐另一個角色。",
+        "starter": "Having",
+        "answer": "Having licked his wounds after the failed audition, the actor agreed to try for another role.",
+        "answerZh": "這名演員在試鏡失敗後休整過來，然後答應競逐另一個角色。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licked his wounds"
+      },
+      {
+        "id": "idiom-99-q37",
+        "number": 37,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "While the other team celebrated, our players quietly dealt with the disappointment of losing.",
+        "promptZh": "另一支球隊慶祝之際，我們的球員安靜地平復落敗的失望。",
+        "starter": "While",
+        "answer": "While the other team celebrated, our players quietly licked their wounds.",
+        "answerZh": "另一支球隊慶祝之際，我們的球員安靜地休整並平復失望。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licked their wounds"
+      },
+      {
+        "id": "idiom-99-q38",
+        "number": 38,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Taking time to recover after failure is understandable, but you must eventually move forward.",
+        "promptZh": "失敗後花時間恢復是可以理解的，但最終仍要向前走。",
+        "starter": "Licking",
+        "answer": "Licking your wounds after failure is understandable, but you must eventually move forward.",
+        "answerZh": "失敗後休整並平復心情是可以理解的，但最終仍要向前走。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "Licking your wounds"
+      },
+      {
+        "id": "idiom-99-q39",
+        "number": 39,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The club gave its young goalkeeper a week away from the news so that she could regain her confidence after the mistake.",
+        "promptZh": "球會讓年輕守門員遠離新聞報道一星期，讓她在犯錯後重拾信心。",
+        "starter": "The",
+        "answer": "The club gave its young goalkeeper a week away from the news to lick her wounds after the mistake.",
+        "answerZh": "球會讓年輕守門員遠離新聞報道一星期，讓她在犯錯後休整並重拾信心。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick her wounds"
+      },
+      {
+        "id": "idiom-99-q40",
+        "number": 40,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Only after the team had recovered from the first loss did it begin preparing for the next match.",
+        "promptZh": "球隊從第一場敗仗中恢復過來後，才開始準備下一場比賽。",
+        "starter": "Only",
+        "answer": "Only after the team had licked its wounds following the first loss did it begin preparing for the next match.",
+        "answerZh": "球隊從第一場敗仗中休整過來後，才開始準備下一場比賽。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licked its wounds"
+      },
+      {
+        "id": "idiom-99-q41",
+        "number": 41,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The company’s plan failed in public. It may stay quiet for a while as it rebuilds confidence.",
+        "promptZh": "公司的計劃公開失敗。公司可能會低調一段時間，重新建立信心。",
+        "starter": "After",
+        "answer": "After its plan failed in public, the company may stay quiet for a while to lick its wounds.",
+        "answerZh": "計劃公開失敗後，公司可能會低調一段時間，休整並重新建立信心。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick its wounds"
+      },
+      {
+        "id": "idiom-99-q42",
+        "number": 42,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: Why has the winning candidate not criticised his opponent? B: He says the defeated side should have time to recover first.",
+        "promptZh": "甲：勝出的候選人為甚麼沒有批評對手？ 乙：他認為落敗一方應先有時間平復心情。",
+        "starter": "He",
+        "answer": "He says the defeated side should have time to lick its wounds first.",
+        "answerZh": "他認為落敗一方應先有時間休整並平復心情。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick its wounds"
+      },
+      {
+        "id": "idiom-99-q43",
+        "number": 43,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The poor sales results have left several shop owners upset and unsure about what to do next.",
+        "promptZh": "欠佳的銷售結果令數名店主感到受挫，不知道下一步應怎樣做。",
+        "starter": "The",
+        "answer": "The poor sales results have left several shop owners licking their wounds.",
+        "answerZh": "欠佳的銷售結果令數名店主受挫，需要休整並重新部署。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licking their wounds"
+      },
+      {
+        "id": "idiom-99-q44",
+        "number": 44,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The team had no choice but to quietly recover after losing its third match in a row.",
+        "promptZh": "球隊連續第三場落敗後，只能安靜休整。",
+        "starter": "After",
+        "answer": "After losing its third match in a row, the team had no choice but to lick its wounds.",
+        "answerZh": "球隊連續第三場落敗後，只能安靜休整。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick its wounds"
+      },
+      {
+        "id": "idiom-99-q45",
+        "number": 45,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: Will the director answer the harsh reviews today? B: Probably not. She needs time to get over them before speaking in public.",
+        "promptZh": "甲：導演今天會回應那些嚴厲評論嗎？ 乙：大概不會。她需要先平復心情，才會公開發言。",
+        "starter": "Probably",
+        "answer": "Probably not. She needs time to lick her wounds before speaking in public.",
+        "answerZh": "大概不會。她需要先休整並平復心情，才會公開發言。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick her wounds"
+      },
+      {
+        "id": "idiom-99-q46",
+        "number": 46,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Recovering from the defeat may take the players a few days, but they cannot avoid discussing what went wrong.",
+        "promptZh": "球員可能需要幾天時間平復敗仗的打擊，但不能逃避討論問題所在。",
+        "starter": "Licking",
+        "answer": "Licking their wounds after the defeat may take the players a few days, but they cannot avoid discussing what went wrong.",
+        "answerZh": "球員在落敗後可能需要幾天時間休整，但不能逃避討論問題所在。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "Licking their wounds"
+      },
+      {
+        "id": "idiom-99-q47",
+        "number": 47,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The rejection was painful enough to make Aaron withdraw for several days before trying again.",
+        "promptZh": "被拒令亞倫十分難受，他退下來休整了數天，然後才再次嘗試。",
+        "starter": "The",
+        "answer": "The rejection sent Aaron away to lick his wounds for several days before trying again.",
+        "answerZh": "被拒令亞倫十分難受，他退下來休整了數天，然後才再次嘗試。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick his wounds"
+      },
+      {
+        "id": "idiom-99-q48",
+        "number": 48,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "After the first plan failed, the group recovered and returned with a simpler idea.",
+        "promptZh": "第一個計劃失敗後，小組休整過來，並帶着一個較簡單的構思回來。",
+        "starter": "Once",
+        "answer": "Once the group had licked its wounds after the first plan failed, it returned with a simpler idea.",
+        "answerZh": "第一個計劃失敗後，小組休整過來，並帶着一個較簡單的構思回來。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "licked its wounds"
+      },
+      {
+        "id": "idiom-99-q49",
+        "number": 49,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The captain accepts that the team needs time to recover, but she refuses to let one defeat destroy its confidence.",
+        "promptZh": "隊長明白球隊需要時間平復心情，但她不會讓一次落敗摧毀球隊的信心。",
+        "starter": "The",
+        "answer": "The captain accepts that the team needs time to lick its wounds, but she refuses to let one defeat destroy its confidence.",
+        "answerZh": "隊長明白球隊需要時間休整，但她不會讓一次落敗摧毀球隊的信心。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick its wounds"
+      },
+      {
+        "id": "idiom-99-q50",
+        "number": 50,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: What will you do after losing the final in front of everyone? B: I will take a short break, regain my confidence and then begin training again.",
+        "promptZh": "甲：在眾人面前輸掉決賽後，你會怎樣做？ 乙：我會短暫休息，重拾信心，然後重新開始訓練。",
+        "starter": "I",
+        "answer": "I will lick my wounds for a short time after losing the final, and then I will begin training again.",
+        "answerZh": "在眾人面前輸掉決賽後，我會短暫休整，然後重新開始訓練。",
+        "targetForm": "lick one’s wounds",
+        "targetMeaning": "To spend time recovering your strength, confidence or happiness after a defeat, disappointment, failure or other upsetting experience.",
+        "highlight": "lick my wounds"
+      }
+    ]
+  }
+}

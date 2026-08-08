@@ -2,7 +2,7 @@ import { ACCEPTED_ANSWERS } from "./catalog.js";
 
 const SERVICE_NAME = "edmund-proverb-system";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const LESSON_IDS = new Set(["proverb-01"]);
+const LESSON_IDS = new Set(["proverb-01", "proverb-02", "proverb-03"]);
 const CONTENT_VERSION = "1";
 const QUESTIONS_PER_LESSON = 50;
 const SECTION_BOOKMARK_ID = "__section__";
@@ -11,7 +11,7 @@ const MAX_LOGIN_BODY_BYTES = 4096;
 const MAX_ATTEMPT_BODY_BYTES = 128 * 1024;
 const MAX_ATTEMPT_RESULT_BYTES = 96 * 1024;
 const MAX_BOOKMARK_BODY_BYTES = 64 * 1024;
-const MAX_BOOKMARKS = 51;
+const MAX_BOOKMARKS = 153;
 const BOOKMARK_PAGE_SIZE = 100;
 const MAX_PAGE_SIZE = 100;
 const MAX_ADMIN_ATTEMPTS = 100;
@@ -46,10 +46,10 @@ const SPELLING_EQUIVALENTS = Object.freeze({
 });
 
 function answerCatalogReadiness() {
-  const expectedIds = Array.from(
+  const expectedIds = [...LESSON_IDS].flatMap(lessonId => Array.from(
     { length: QUESTIONS_PER_LESSON },
-    (_, index) => `proverb-01-q${String(index + 1).padStart(2, "0")}`
-  );
+    (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
+  ));
   const actualIds = Object.keys(ACCEPTED_ANSWERS);
   const expectedSet = new Set(expectedIds);
   const validQuestionIds = actualIds.filter(questionId => {
@@ -580,7 +580,7 @@ function postgresJsonbTextByteLength(value) {
 
 function validQuestionId(lessonId, questionId) {
   if (!LESSON_IDS.has(lessonId) || typeof questionId !== "string") return false;
-  const match = questionId.match(/^(proverb-01)-q(\d{2})$/);
+  const match = questionId.match(/^(proverb-\d{2})-q(\d{2})$/);
   if (!match || match[1] !== lessonId) return false;
   const number = Number(match[2]);
   return number >= 1 && number <= QUESTIONS_PER_LESSON;

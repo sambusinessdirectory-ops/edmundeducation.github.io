@@ -1,0 +1,1240 @@
+{
+  "id": "ss296",
+  "order": 296,
+  "slug": "leave-it-to-person-to-verb",
+  "title": "「Leave it to + person + to + verb」",
+  "titleZh": "「Leave it to + person + to + verb」",
+  "titleEn": "Using “Leave it to + person + to + verb”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 295 -「Leave it to + person + to + verb」.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sha256": "dd26f2de2703fc4a41cfd4b5c6934457a94f0908b9c6a42eb185a4fff580cc99",
+    "sourceNumber": 295,
+    "systemOrder": 296,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 295 maps to ss296: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Leave it to + person + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss296-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Leave it to + person + to + base verb + other information"
+    }
+  ],
+  "example": "Leave it to Maria to explain the process clearly.",
+  "exampleZh": "把清楚解釋這個流程的工作交給瑪麗亞吧。",
+  "examples": [
+    {
+      "id": "ss296-example-01",
+      "en": "Leave it to Maria to explain the process clearly.",
+      "zh": "把清楚解釋這個流程的工作交給瑪麗亞吧。",
+      "highlight": "Leave it to Maria to explain the process clearly."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss296-rule-01",
+      "zh": "第一個 to 後面是負責的人在這句中，負責修理機器的人是 the technician。",
+      "en": "Leave it to the technician to repair the machine.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss296-rule-02",
+      "zh": "第二個 to 後面是要完成的動作第二個 to 後面使用動詞原形：【to explain；to organise；to repair；to answer；to investigate】",
+      "en": "Leave it to the technician to repair the machine. to explain to organise to repair to answer to investigate",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss296-rule-03",
+      "zh": "人稱代名詞要使用受詞形式交給我跟經理談吧。 把準備數字資料的工作交給他吧。 把接待客人的工作交給她吧。 把解決問題的工作交給我們吧。 把作出安排的工作交給他們吧。 不應使用：【Leave it to I ✘；Leave it to he ✘；Leave it to she ✘；Leave it to we ✘；Leave it to they ✘】",
+      "en": "Leave it to me to speak to the manager. Leave it to him to prepare the figures. Leave it to her to welcome the guests. Leave it to us to solve the problem. Leave it to them to make the arrangements. Leave it to I ✘ Leave it to he ✘ Leave it to she ✘ Leave it to we ✘ Leave it to they ✘",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss296-rule-04",
+      "zh": "必須清楚指出由誰完成第二個動作選擇菜單的人是廚師。準備海報的人是設計師。",
+      "en": "Leave it to the chef to choose the menu. Leave it to the designer to prepare the poster.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss296-rule-05",
+      "zh": "不要混淆以下兩個結構把完成報告的工作交給艾瑪。 讓艾瑪獨自完成報告，不要打擾她。 第二句沒有 it，意思較接近「不要干涉她」或「讓她自行處理」，並不是本課的目標句型。",
+      "en": "Leave it to Emma to complete the report. Leave Emma to complete the report.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss296-rule-06",
+      "zh": "目標表達【Leave it up to someone to...】是相關句型，但不屬於本課核心形式這個句型正確，但本練習只集中訓練：【leave it to + person + to + verb】",
+      "en": "Leave it up to someone to... Leave it up to the committee to decide. leave it to + person + to + verb",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss296-rule-07",
+      "zh": "目標表達【Leave it to someone】本身可以完整，但本練習要求加入動作交給我吧。 這句正確，但本練習要求學生清楚說出要負責的動作：【Leave it to me to contact the supplier.】 把聯絡供應商的工作交給我吧。",
+      "en": "Leave it to someone Leave it to me. Leave it to me to contact the supplier.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss296-benefit-01",
+      "zh": "清楚說明由誰負責這個句型能把負責的人和要完成的工作放在同一句中。把聯絡客人的工作交給接待員。 讀者可以立即知道：誰負責：the receptionist 負責做甚麼：contact the guests",
+      "en": "Leave it to the receptionist to contact the guests.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss296-benefit-02",
+      "zh": "表示對某人的能力有信心這個句型經常表示說話者相信某人有能力完成工作。你可以放心把整理檔案的工作交給克拉拉。 這句不只是說克拉拉會做，也帶有「她能夠處理好」的意思。",
+      "en": "You can leave it to Clara to organise the files.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss296-benefit-03",
+      "zh": "把較長的解釋說得更直接與其說「技術員應該負責修理機器」，你可以直接說「把修理機器的工作交給技術員」，語氣更自然直接。",
+      "en": "Instead of: The technician should be responsible for repairing the machine. You can say: Leave it to the technician to repair the machine.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss296-benefit-04",
+      "zh": "適合分配團隊工作這個句型可以用於會議、活動、工作項目和日常安排，清楚分配不同責任。把準備海報的工作交給設計團隊。 把檢查成本的工作交給財務主任。",
+      "en": "Leave it to the design team to prepare the poster. Leave it to the finance officer to check the costs.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss296-benefit-05",
+      "zh": "可以表達建議、決定或警告使用不同的語法外殼，可以改變句子的語氣。我們應該把決定交給專家。 他們把選擇路線的工作交給導遊。 不要把修理電線的工作交給未受訓練的人。",
+      "en": "We should leave it to the experts to decide. They left it to the guide to choose the route. Do not leave it to an untrained person to repair the wires.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss296-benefit-06",
+      "zh": "讓說話和寫作不再只依賴簡單的「X should do it」學生經常只會使用：【The manager should do it.】 使用本句型後，可以更清楚地說明責任分配：【Leave it to the manager to make the announcement.】 把公布消息的工作交給經理。 這使句式更有變化，也更適合真實的工作和團隊溝通。",
+      "en": "The manager should do it. The teacher should do it. The technician should do it. Leave it to the manager to make the announcement.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 295 maps to ss296: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using leave it to + person + to + verb.",
+      "You may place the target structure inside an imperative, modal sentence, tense form, question,",
+      "conditional or longer sentence.",
+      "Preserve the original meaning, tense, responsibility and degree of certainty.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 leave it to + person + to + verb 改寫以下句子。",
+      "你可以把目標句型放進祈使句、情態動詞句、不同時態、疑問句、條件句或較長句子中。",
+      "改寫時須保留原句的意思、時態、責任分配及確定程度。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss296-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You do not need to explain the process to the new staff. I will do it.",
+      "promptZh": "你不需要向新職員解釋流程。我會負責解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Leave",
+      "answer": "Leave it to me to explain the process to the new staff.",
+      "answerZh": "把向新職員解釋流程的工作交給我吧。",
+      "answerZhSource": "pdf",
+      "highlight": "Leave it to me to explain the process to the new staff."
+    },
+    {
+      "id": "ss296-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Clara can be trusted to carry the boxes carefully.",
+      "promptZh": "我們可以信任克拉拉小心搬運箱子。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can leave it to Clara to carry the boxes carefully.",
+      "answerZh": "你可以放心把小心搬運箱子的工作交給克拉拉。",
+      "answerZhSource": "pdf",
+      "highlight": "You can leave it to Clara to carry the boxes carefully."
+    },
+    {
+      "id": "ss296-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "The receptionist should be responsible for booking the meeting room.",
+      "promptZh": "接待員應該負責預訂會議室。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should leave it to the receptionist to book the meeting room.",
+      "answerZh": "我們應該把預訂會議室的工作交給接待員。",
+      "answerZhSource": "pdf",
+      "highlight": "We should leave it to the receptionist to book the meeting room."
+    },
+    {
+      "id": "ss296-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I have decided that Omar will check the final numbers.",
+      "promptZh": "我已決定由奧馬爾核對最終數字。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will leave it to Omar to check the final numbers.",
+      "answerZh": "我會把核對最終數字的工作交給奧馬爾。",
+      "answerZhSource": "pdf",
+      "highlight": "I will leave it to Omar to check the final numbers."
+    },
+    {
+      "id": "ss296-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The team asked Priya to contact all the clients.",
+      "promptZh": "團隊請普里雅聯絡所有客戶。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They left it to Priya to contact all the clients.",
+      "answerZh": "他們把聯絡所有客戶的工作交給普里雅。",
+      "answerZhSource": "pdf",
+      "highlight": "They left it to Priya to contact all the clients."
+    },
+    {
+      "id": "ss296-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The head chef should choose tonight’s menu.",
+      "promptZh": "今晚的菜單應該由主廚選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please leave it to the head chef to choose tonight’s menu.",
+      "answerZh": "請把選擇今晚菜單的工作交給主廚。",
+      "answerZhSource": "pdf",
+      "highlight": "Please leave it to the head chef to choose tonight’s menu."
+    },
+    {
+      "id": "ss296-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The teacher does not need to collect every worksheet herself. Ethan can do it.",
+      "promptZh": "老師不需要親自收集每一份工作紙。伊森可以負責。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher can leave it to Ethan to collect the worksheets.",
+      "answerZh": "老師可以把收集工作紙的工作交給伊森。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher can leave it to Ethan to collect the worksheets."
+    },
+    {
+      "id": "ss296-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In our family, Aunt May is usually responsible for planning birthday meals.",
+      "promptZh": "在我們家中，梅姨通常負責安排生日聚餐。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our family usually leaves it to Aunt May to plan birthday meals.",
+      "answerZh": "我們家通常把安排生日聚餐的工作交給梅姨。",
+      "answerZhSource": "pdf",
+      "highlight": "Our family usually leaves it to Aunt May to plan birthday meals."
+    },
+    {
+      "id": "ss296-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The mechanic should inspect the strange noise from the engine.",
+      "promptZh": "引擎發出的奇怪聲音應該由機械技工檢查。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let us leave it to the mechanic to inspect the strange noise from the engine.",
+      "answerZh": "讓我們把檢查引擎奇怪聲音的工作交給機械技工。",
+      "answerZhSource": "pdf",
+      "highlight": "Let us leave it to the mechanic to inspect the strange noise from the engine."
+    },
+    {
+      "id": "ss296-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ruby understands the software best, so she should demonstrate it to us.",
+      "promptZh": "露比最了解這套軟件，所以應該由她向我們示範。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why not leave it to Ruby to demonstrate the software to us?",
+      "answerZh": "為甚麼不把向我們示範軟件的工作交給露比？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not leave it to Ruby to demonstrate the software to us?"
+    },
+    {
+      "id": "ss296-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Daniel decided that the guide would choose the safest route.",
+      "promptZh": "丹尼爾決定由導遊選擇最安全的路線。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel decided to leave it to the guide to choose the safest route.",
+      "answerZh": "丹尼爾決定把選擇最安全路線的工作交給導遊。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel decided to leave it to the guide to choose the safest route."
+    },
+    {
+      "id": "ss296-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The club has made Zoe responsible for posting the weekly updates.",
+      "promptZh": "會方已安排佐伊負責發布每週最新消息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The club has left it to Zoe to post the weekly updates.",
+      "answerZh": "會方已把發布每週最新消息的工作交給佐伊。",
+      "answerZhSource": "pdf",
+      "highlight": "The club has left it to Zoe to post the weekly updates."
+    },
+    {
+      "id": "ss296-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The youngest child should not be responsible for locking all the doors.",
+      "promptZh": "不應由年紀最小的孩子負責鎖上所有門。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not leave it to the youngest child to lock all the doors.",
+      "answerZh": "不要把鎖上所有門的工作交給年紀最小的孩子。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not leave it to the youngest child to lock all the doors."
+    },
+    {
+      "id": "ss296-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The manager may ask Nora to prepare the sales figures.",
+      "promptZh": "經理可能會請諾拉準備銷售數字。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager may leave it to Nora to prepare the sales figures.",
+      "answerZh": "經理可能會把準備銷售數字的工作交給諾拉。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager may leave it to Nora to prepare the sales figures."
+    },
+    {
+      "id": "ss296-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We have agreed that the design team will create the new poster.",
+      "promptZh": "我們已同意由設計團隊製作新海報。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have agreed to leave it to the design team to create the new poster.",
+      "answerZh": "我們已同意把製作新海報的工作交給設計團隊。",
+      "answerZhSource": "pdf",
+      "highlight": "We have agreed to leave it to the design team to create the new poster."
+    },
+    {
+      "id": "ss296-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the printer stops working, do not try to repair it yourself. The technician should handle it.",
+      "promptZh": "如果打印機停止運作，不要自行修理。應該由技術員處理。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the printer stops working, leave it to the technician to repair it.",
+      "answerZh": "如果打印機停止運作，便把修理工作交給技術員。",
+      "answerZhSource": "pdf",
+      "highlight": "If the printer stops working, leave it to the technician to repair it."
+    },
+    {
+      "id": "ss296-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Marcus is being given responsibility for introducing the speakers.",
+      "promptZh": "馬庫斯正獲安排負責介紹講者。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisers are leaving it to Marcus to introduce the speakers.",
+      "answerZh": "主辦單位正把介紹講者的工作交給馬庫斯。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers are leaving it to Marcus to introduce the speakers."
+    },
+    {
+      "id": "ss296-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The pharmacist is the right person to explain how to take the medicine.",
+      "promptZh": "藥劑師最適合解釋服用藥物的方法。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should leave it to the pharmacist to explain how to take the medicine.",
+      "answerZh": "你應該把解釋服用藥物方法的工作交給藥劑師。",
+      "answerZhSource": "pdf",
+      "highlight": "You should leave it to the pharmacist to explain how to take the medicine."
+    },
+    {
+      "id": "ss296-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council plans to ask local engineers to inspect the bridge.",
+      "promptZh": "市議會計劃請本地工程師檢查大橋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council will leave it to local engineers to inspect the bridge.",
+      "answerZh": "市議會會把檢查大橋的工作交給本地工程師。",
+      "answerZhSource": "pdf",
+      "highlight": "The council will leave it to local engineers to inspect the bridge."
+    },
+    {
+      "id": "ss296-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Alice can answer the parents’ questions for us. Could we ask her to do it?",
+      "promptZh": "愛麗絲可以代我們回答家長的問題。我們可否請她負責？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could we leave it to Alice to answer the parents’ questions?",
+      "answerZh": "我們可否把回答家長問題的工作交給愛麗絲？",
+      "answerZhSource": "pdf",
+      "highlight": "Could we leave it to Alice to answer the parents’ questions?"
+    },
+    {
+      "id": "ss296-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The legal adviser is better qualified than us to examine the contract.",
+      "promptZh": "法律顧問比我們更具資格審閱合約。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It would be wiser to leave it to the legal adviser to examine the contract.",
+      "answerZh": "把審閱合約的工作交給法律顧問會較明智。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be wiser to leave it to the legal adviser to examine the contract."
+    },
+    {
+      "id": "ss296-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The captain decided that one player should not choose the final strategy alone.",
+      "promptZh": "隊長決定不應由一名球員獨自選擇最終策略。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The captain refused to leave it to one player to choose the final strategy alone.",
+      "answerZh": "隊長拒絕把獨自選擇最終策略的責任交給一名球員。",
+      "answerZhSource": "pdf",
+      "highlight": "The captain refused to leave it to one player to choose the final strategy alone."
+    },
+    {
+      "id": "ss296-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital has decided that the senior nurses will train the new staff.",
+      "promptZh": "醫院已決定由資深護士培訓新職員。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital has decided to leave it to the senior nurses to train the new staff.",
+      "answerZh": "醫院已決定把培訓新職員的工作交給資深護士。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital has decided to leave it to the senior nurses to train the new staff."
+    },
+    {
+      "id": "ss296-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We should not guess what caused the fault. A specialist should identify it.",
+      "promptZh": "我們不應猜測故障原因，應該由專家找出原因。",
+      "promptZhSource": "pdf",
+      "starter": "Rather",
+      "answer": "Rather than guessing, leave it to a specialist to identify what caused the fault.",
+      "answerZh": "與其猜測，不如把找出故障原因的工作交給專家。",
+      "answerZhSource": "pdf",
+      "highlight": "Rather than guessing, leave it to a specialist to identify what caused the fault."
+    },
+    {
+      "id": "ss296-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When the visitors arrive, the reception team will welcome and register them.",
+      "promptZh": "訪客到達時，接待團隊會歡迎他們並為他們登記。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the visitors arrive, we can leave it to the reception team to welcome and register them.",
+      "answerZh": "訪客到達時，我們可以把歡迎和登記工作交給接待團隊。",
+      "answerZhSource": "pdf",
+      "highlight": "When the visitors arrive, we can leave it to the reception team to welcome and register them."
+    },
+    {
+      "id": "ss296-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "After a long discussion, the committee asked the finance officer to explain the missing costs.",
+      "promptZh": "經過長時間討論後，委員會請財務主任解釋未能交代的成本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee eventually left it to the finance officer to explain the missing costs.",
+      "answerZh": "委員會最終把解釋未能交代成本的工作交給財務主任。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee eventually left it to the finance officer to explain the missing costs."
+    },
+    {
+      "id": "ss296-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I prefer the editor to check the tone before the article is published.",
+      "promptZh": "我寧願由編輯在文章發布前檢查語氣。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would rather leave it to the editor to check the tone before the article is published.",
+      "answerZh": "我寧願把文章發布前檢查語氣的工作交給編輯。",
+      "answerZhSource": "pdf",
+      "highlight": "I would rather leave it to the editor to check the tone before the article is published."
+    },
+    {
+      "id": "ss296-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Students should not be expected to manage the entire open day alone.",
+      "promptZh": "不應要求學生獨自管理整個開放日。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school should not leave it to the students to manage the entire open day alone.",
+      "answerZh": "學校不應把獨自管理整個開放日的責任交給學生。",
+      "answerZhSource": "pdf",
+      "highlight": "The school should not leave it to the students to manage the entire open day alone."
+    },
+    {
+      "id": "ss296-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The operations manager is the right person to arrange the transport.",
+      "promptZh": "營運經理最適合安排交通。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We ought to leave it to the operations manager to arrange the transport.",
+      "answerZh": "我們應該把安排交通的工作交給營運經理。",
+      "answerZhSource": "pdf",
+      "highlight": "We ought to leave it to the operations manager to arrange the transport."
+    },
+    {
+      "id": "ss296-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The caretaker can lock the hall after everyone leaves.",
+      "promptZh": "所有人離開後，管理員可以負責鎖上禮堂。",
+      "promptZhSource": "pdf",
+      "starter": "Perhaps",
+      "answer": "Perhaps you could leave it to the caretaker to lock the hall after everyone leaves.",
+      "answerZh": "或許你可以把所有人離開後鎖上禮堂的工作交給管理員。",
+      "answerZhSource": "pdf",
+      "highlight": "Perhaps you could leave it to the caretaker to lock the hall after everyone leaves."
+    },
+    {
+      "id": "ss296-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After discussing the complaint, the board appointed an independent investigator to examine the evidence.",
+      "promptZh": "董事會討論投訴後，委任了一名獨立調查員審查證據。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having discussed the complaint, the board left it to an independent investigator to examine the evidence.",
+      "answerZh": "董事會討論投訴後，把審查證據的工作交給一名獨立調查員。",
+      "answerZhSource": "pdf",
+      "highlight": "Having discussed the complaint, the board left it to an independent investigator to examine the evidence."
+    },
+    {
+      "id": "ss296-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The museum plans for the curator to describe each object in the audio recording.",
+      "promptZh": "博物館計劃由館長在錄音中介紹每件展品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum intends to leave it to the curator to describe each object in the audio recording.",
+      "answerZh": "博物館打算把在錄音中介紹每件展品的工作交給館長。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum intends to leave it to the curator to describe each object in the audio recording."
+    },
+    {
+      "id": "ss296-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If you are not trained, a qualified electrician should replace the damaged wire.",
+      "promptZh": "如果你沒有受過訓練，便應該由合資格電工更換損壞的電線。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless you are trained, leave it to a qualified electrician to replace the damaged wire.",
+      "answerZh": "除非你受過訓練，否則應把更換損壞電線的工作交給合資格電工。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless you are trained, leave it to a qualified electrician to replace the damaged wire."
+    },
+    {
+      "id": "ss296-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Everyone does not need to contact the supplier. The coordinator can make the call for us.",
+      "promptZh": "不需要每個人都聯絡供應商。統籌員可以代我們致電。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need not all contact the supplier; leave it to the coordinator to make the call for us.",
+      "answerZh": "我們不需要全部人都聯絡供應商；把代我們致電的工作交給統籌員吧。",
+      "answerZhSource": "pdf",
+      "highlight": "We need not all contact the supplier; leave it to the coordinator to make the call for us."
+    },
+    {
+      "id": "ss296-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before the meeting, the producer had already assigned the final edit to Sara.",
+      "promptZh": "會議前，製作人已把最終剪輯工作交給莎拉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The producer had already left it to Sara to complete the final edit before the meeting.",
+      "answerZh": "製作人在會議前已把完成最終剪輯的工作交給莎拉。",
+      "answerZhSource": "pdf",
+      "highlight": "The producer had already left it to Sara to complete the final edit before the meeting."
+    },
+    {
+      "id": "ss296-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The volunteers were instructed not to park the buses themselves. Trained drivers would do it.",
+      "promptZh": "義工獲指示不要自行停泊巴士。這項工作會由受訓駕駛員負責。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The volunteers were told to leave it to the trained drivers to park the buses.",
+      "answerZh": "義工獲指示把停泊巴士的工作交給受訓駕駛員。",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteers were told to leave it to the trained drivers to park the buses."
+    },
+    {
+      "id": "ss296-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Lena stepped back because she wanted Carlos to lead the discussion.",
+      "promptZh": "莉娜退居一旁，因為她想由卡洛斯主持討論。",
+      "promptZhSource": "pdf",
+      "starter": "Lena",
+      "answer": "Lena wanted to leave it to Carlos to lead the discussion.",
+      "answerZh": "莉娜想把主持討論的工作交給卡洛斯。",
+      "answerZhSource": "pdf",
+      "highlight": "Lena wanted to leave it to Carlos to lead the discussion."
+    },
+    {
+      "id": "ss296-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "It seems that the department has asked the IT team to protect the online records.",
+      "promptZh": "部門似乎已安排資訊科技團隊保護網上紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The department appears to have left it to the IT team to protect the online records.",
+      "answerZh": "部門似乎已把保護網上紀錄的工作交給資訊科技團隊。",
+      "answerZhSource": "pdf",
+      "highlight": "The department appears to have left it to the IT team to protect the online records."
+    },
+    {
+      "id": "ss296-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Nobody objected when the librarian was made responsible for selecting the new books.",
+      "promptZh": "當圖書館員獲安排負責挑選新書時，沒有人反對。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one objected when we left it to the librarian to select the new books.",
+      "answerZh": "當我們把挑選新書的工作交給圖書館員時，沒有人反對。",
+      "answerZhSource": "pdf",
+      "highlight": "No one objected when we left it to the librarian to select the new books."
+    },
+    {
+      "id": "ss296-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The safest choice is to ask a qualified electrician to test the damaged socket.",
+      "promptZh": "最安全的選擇是請合資格電工檢查損壞的插座。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The safest option is to leave it to a qualified electrician to test the damaged socket.",
+      "answerZh": "最安全的選擇是把檢查損壞插座的工作交給合資格電工。",
+      "answerZhSource": "pdf",
+      "highlight": "The safest option is to leave it to a qualified electrician to test the damaged socket."
+    },
+    {
+      "id": "ss296-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 22
+      },
+      "prompt": "Although the members had different ideas, the chair chose the secretary to write the final statement.",
+      "promptZh": "雖然成員有不同意見，但主席選擇由秘書撰寫最終聲明。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the members had different ideas, the chair chose to leave it to the secretary to write the final statement.",
+      "answerZh": "雖然成員有不同意見，但主席選擇把撰寫最終聲明的工作交給秘書。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the members had different ideas, the chair chose to leave it to the secretary to write the final statement."
+    },
+    {
+      "id": "ss296-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If you need medical advice, online strangers should not decide what treatment you need.",
+      "promptZh": "如果你需要醫療意見，不應由網上陌生人決定你需要甚麼治療。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you need medical advice, do not leave it to online strangers to decide what treatment you need.",
+      "answerZh": "如果你需要醫療意見，不要把決定所需治療的責任交給網上陌生人。",
+      "answerZhSource": "pdf",
+      "highlight": "If you need medical advice, do not leave it to online strangers to decide what treatment you need."
+    },
+    {
+      "id": "ss296-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Before the reporters arrived, we had already asked the official spokesperson to answer their questions.",
+      "promptZh": "記者到達前，我們已請官方發言人回答他們的問題。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the reporters arrived, we had left it to the official spokesperson to answer their questions.",
+      "answerZh": "記者到達時，我們已把回答問題的工作交給官方發言人。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the reporters arrived, we had left it to the official spokesperson to answer their questions."
+    },
+    {
+      "id": "ss296-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The company will probably ask the human resources manager to settle the disagreement.",
+      "promptZh": "公司很可能會請人力資源經理解決這場爭議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company is likely to leave it to the human resources manager to settle the disagreement.",
+      "answerZh": "公司很可能會把解決這場爭議的工作交給人力資源經理。",
+      "answerZhSource": "pdf",
+      "highlight": "The company is likely to leave it to the human resources manager to settle the disagreement."
+    },
+    {
+      "id": "ss296-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If the fire spreads, the emergency services should coordinate the evacuation.",
+      "promptZh": "如果火勢蔓延，便應該由緊急服務人員協調疏散工作。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should the fire spread, leave it to the emergency services to coordinate the evacuation.",
+      "answerZh": "如果火勢蔓延，便把協調疏散工作的責任交給緊急服務人員。",
+      "answerZhSource": "pdf",
+      "highlight": "Should the fire spread, leave it to the emergency services to coordinate the evacuation."
+    },
+    {
+      "id": "ss296-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The director clearly stated that the research team would verify every figure before publication.",
+      "promptZh": "主管清楚表示，會由研究團隊在發布前核實每個數字。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The director made it clear that she would leave it to the research team to verify every figure before publication.",
+      "answerZh": "主管清楚表示，她會把發布前核實每個數字的工作交給研究團隊。",
+      "answerZhSource": "pdf",
+      "highlight": "The director made it clear that she would leave it to the research team to verify every figure before publication."
+    },
+    {
+      "id": "ss296-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "For many years, the neighbours have relied on Mr Wong to organise the annual clean-up.",
+      "promptZh": "多年來，鄰居一直依靠黃先生籌辦每年的清潔活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbours have always left it to Mr Wong to organise the annual clean-up.",
+      "answerZh": "鄰居一直把籌辦每年清潔活動的工作交給黃先生。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbours have always left it to Mr Wong to organise the annual clean-up."
+    },
+    {
+      "id": "ss296-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Junior staff should not handle the final contract. The senior negotiator should manage the discussions.",
+      "promptZh": "初級職員不應處理最終合約，相關磋商應該由資深談判員負責。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We ought to leave it to the senior negotiator to manage the discussions rather than expect the junior staff to handle the final contract.",
+      "answerZh": "我們應該把管理磋商的工作交給資深談判員，而不是要求初級職員處理最終合約。",
+      "answerZhSource": "pdf",
+      "highlight": "We ought to leave it to the senior negotiator to manage the discussions rather than expect the junior staff to handle the final contract."
+    },
+    {
+      "id": "ss296-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Who was chosen to speak to the union? Farah was given responsibility for the discussion.",
+      "promptZh": "誰獲選與工會商談？法拉獲安排負責這次討論。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They left it to Farah to speak to the union.",
+      "answerZh": "他們把與工會商談的工作交給法拉。",
+      "answerZhSource": "pdf",
+      "highlight": "They left it to Farah to speak to the union."
+    },
+    {
+      "id": "ss296-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After reviewing all the evidence, the panel unanimously agreed that local scientists would explain the findings to the public.",
+      "promptZh": "審閱所有證據後，專家小組一致同意由本地科學家向公眾解釋研究結果。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After reviewing all the evidence, the panel unanimously agreed to leave it to local scientists to explain the findings to the public.",
+      "answerZh": "審閱所有證據後，專家小組一致同意把向公眾解釋研究結果的工作交給本地科學家。",
+      "answerZhSource": "pdf",
+      "highlight": "After reviewing all the evidence, the panel unanimously agreed to leave it to local scientists to explain the findings to the public."
+    }
+  ]
+}

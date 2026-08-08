@@ -1,0 +1,1402 @@
+{
+  "lesson": {
+    "id": "idiom-42",
+    "order": 42,
+    "slug": "turn-a-blind-eye-to",
+    "version": "1",
+    "title": "視而不見／隻眼開、隻眼閉",
+    "titleEn": "turn a blind eye to",
+    "titleZh": "視而不見／隻眼開、隻眼閉",
+    "source": {
+      "file": "Idiom 42 - “Turn a Blind Eye To”.pdf",
+      "pageCount": 25,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "exercisePdfPages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "answerKeyPdfPages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "turn a blind eye to",
+        "highlight": "turn a blind eye to"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The manager turned a blind eye to the broken door.",
+        "zh": "經理對損壞的門視而不見。",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "en": "The teacher turned a blind eye to pupils sharing answers.",
+        "zh": "老師對學生互相傳答案一事視而不見。",
+        "highlight": "turned a blind eye to"
+      }
+    ],
+    "meaning": {
+      "en": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+      "zh": "對明知有問題、不公平、不安全、令人不快或違反規則的事情故意視而不見，通常是因為不想採取行動。這個慣用語不是指某人意外地沒有留意到事情。",
+      "naturalZh": [
+        "視而不見",
+        "隻眼開，隻眼閉",
+        "明知而不理",
+        "裝作沒有看見",
+        "聽之任之"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral to Formal",
+      "labelZh": "中性至正式",
+      "summaryEn": "The expression is neutral to moderately formal and is natural in conversation, news reports, workplace discussion, school discussion and general writing. It usually carries criticism or disapproval rather than a fully neutral description.",
+      "summaryZh": "這個表達屬中性至較正式，可自然用於日常對話、新聞報道、工作討論、學校討論和一般寫作。 它通常帶有批評或不認同的語氣，而不是完全中性的描述。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "Merriam-Webster labels the idiom “sometimes offensive” and notes that some people object to negative figurative uses of blind. In disability-focused, highly inclusive or especially sensitive contexts, alternatives such as knowingly ignore, deliberately overlook or choose not to act may be safer.",
+      "formalZh": "這個表達屬中性至較正式，可自然用於日常對話、新聞報道、工作討論、學校討論和一般寫作。 它通常帶有批評或不認同的語氣，而不是完全中性的描述。"
+    },
+    "fixedVariable": {
+      "fixed": "turn a blind eye to",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + turn(s) / turned + a blind eye to + noun phrase.",
+          "example": "The manager turned a blind eye to the broken door.",
+          "highlight": "turned a blind eye to"
+        },
+        {
+          "form": "Subject + turn(s) / turned + a blind eye to + person + verb-ing.",
+          "example": "The teacher turned a blind eye to pupils sharing answers.",
+          "highlight": "turned a blind eye to"
+        },
+        {
+          "form": "Subject + has / have / had + turned a blind eye to + complement.",
+          "example": "The club has turned a blind eye to the problem for weeks.",
+          "highlight": "turned a blind eye to"
+        },
+        {
+          "form": "Subject + can / could / may / might / will / should not / must not + turn a blind eye to +",
+          "example": "We must not turn a blind eye to bullying.",
+          "highlight": "turn a blind eye to"
+        },
+        {
+          "form": "Subject + be + turning a blind eye to + complement.",
+          "example": "The school may be turning a blind eye to the problem.",
+          "highlight": "turning a blind eye to"
+        },
+        {
+          "form": "Subject + turn(s) / turned a blind eye to + what + clause.",
+          "example": "Everyone turned a blind eye to what was happening.",
+          "highlight": "turned a blind eye to"
+        },
+        {
+          "form": "By turning a blind eye to + problem, subject + result.",
+          "example": "By turning a blind eye to the problem, the manager allowed it to continue.",
+          "highlight": "turning a blind eye to"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Direct Object or Problem",
+        "titleZh": "句式一：直接接事物或問題",
+        "formula": "Subject + turn(s) / turned + a blind eye to + noun phrase.",
+        "descriptionEn": "Source grammar frame: Subject + turn(s) / turned + a blind eye to + noun phrase.",
+        "descriptionZh": "原檔列出的句法框架：Subject + turn(s) / turned + a blind eye to + noun phrase。",
+        "examples": [
+          {
+            "en": "The manager turned a blind eye to the broken door.",
+            "zh": "經理對損壞的門視而不見。",
+            "highlight": "turned a blind eye to"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Person Performing an Action",
+        "titleZh": "句式二：接人物及其行動",
+        "formula": "Subject + turn(s) / turned + a blind eye to + person + verb-ing.",
+        "descriptionEn": "Source grammar frame: Subject + turn(s) / turned + a blind eye to + person + verb-ing.",
+        "descriptionZh": "原檔列出的句法框架：Subject + turn(s) / turned + a blind eye to + person + verb-ing。",
+        "examples": [
+          {
+            "en": "The teacher turned a blind eye to pupils sharing answers.",
+            "zh": "老師對學生互相傳答案一事視而不見。",
+            "highlight": "turned a blind eye to"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Perfect Tenses",
+        "titleZh": "句式三：完成時態",
+        "formula": "Subject + has / have / had + turned a blind eye to + complement.",
+        "descriptionEn": "Source grammar frame: Subject + has / have / had + turned a blind eye to + complement.",
+        "descriptionZh": "原檔列出的句法框架：Subject + has / have / had + turned a blind eye to + complement。",
+        "examples": [
+          {
+            "en": "The club has turned a blind eye to the problem for weeks.",
+            "zh": "會所幾星期來一直對問題視而不見。",
+            "highlight": "turned a blind eye to"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Modal Verbs",
+        "titleZh": "句式四：情態動詞",
+        "formula": "Subject + can / could / may / might / will / should not / must not + turn a blind eye to +",
+        "descriptionEn": "Source grammar frame: Subject + can / could / may / might / will / should not / must not + turn a blind eye to +.",
+        "descriptionZh": "原檔列出的句法框架：Subject + can / could / may / might / will / should not / must not + turn a blind eye to +。",
+        "examples": [
+          {
+            "en": "We must not turn a blind eye to bullying.",
+            "zh": "我們絕不能對欺凌視而不見。",
+            "highlight": "turn a blind eye to"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Progressive Form",
+        "titleZh": "句式五：進行形式",
+        "formula": "Subject + be + turning a blind eye to + complement.",
+        "descriptionEn": "Source grammar frame: Subject + be + turning a blind eye to + complement.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + turning a blind eye to + complement。",
+        "examples": [
+          {
+            "en": "The school may be turning a blind eye to the problem.",
+            "zh": "學校可能正對問題視而不見。",
+            "highlight": "turning a blind eye to"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "What-Clause",
+        "titleZh": "句式六：接 what 子句",
+        "formula": "Subject + turn(s) / turned a blind eye to + what + clause.",
+        "descriptionEn": "Source grammar frame: Subject + turn(s) / turned a blind eye to + what + clause.",
+        "descriptionZh": "原檔列出的句法框架：Subject + turn(s) / turned a blind eye to + what + clause。",
+        "examples": [
+          {
+            "en": "Everyone turned a blind eye to what was happening.",
+            "zh": "所有人都對正在發生的事情視而不見。",
+            "highlight": "turned a blind eye to"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Fronted -ing Phrase",
+        "titleZh": "句式七：以 -ing 短語開首",
+        "formula": "By turning a blind eye to + problem, subject + result.",
+        "descriptionEn": "Source grammar frame: By turning a blind eye to + problem, subject + result.",
+        "descriptionZh": "原檔列出的句法框架：By turning a blind eye to + problem, subject + result。",
+        "examples": [
+          {
+            "en": "By turning a blind eye to the problem, the manager allowed it to continue.",
+            "zh": "經理由於對問題視而不見，令問題持續下去。",
+            "highlight": "turning a blind eye to"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "它把較長的解釋濃縮起來",
+        "en": "The manager turned a blind eye to workers breaking the rule.",
+        "zh": "這個慣用語把「知道問題存在」和「故意不採取行動」濃縮成一個固定表達。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Highlights Responsibility",
+        "titleZh": "它突出責任",
+        "en": "The expression shows that the person was not merely uninformed. The person knew and made a choice.",
+        "zh": "這個表達清楚指出，當事人並非不知情，而是在知道後作出不處理的選擇。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Distinguishes Deliberate Ignoring from Accidental Non-Notice",
+        "titleZh": "它區分故意忽視和意外沒有留意",
+        "en": "This distinction is useful when discussing fairness, safety, rules and leadership.",
+        "zh": "在討論公平、安全、規則和領導責任時，這個分別十分重要。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Supports Both Criticism and Refusal",
+        "titleZh": "它既可用作批評，也可表明拒絕不作為",
+        "en": "We cannot turn a blind eye to the unsafe door.",
+        "zh": "批評形式指出別人沒有處理問題； 否定形式則表明說話者拒絕忽視問題。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Works in Many Real Situations",
+        "titleZh": "它適用於多種真實情境",
+        "en": "It is useful in discussions about school, work, family, public services, safety and community behaviour. The idiom is not automatically better than plain language. Use it only when the person knows about a problem and deliberately chooses not to act.",
+        "zh": "它可用於討論學校、工作、家庭、公共服務、安全和社區行為。 慣用語並非一定比普通說法更好。 只有當某人知道問題存在，卻故意選擇不處理時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Earlier Form Documented",
+      "statusZh": "確切來源不明；較早期形式有文獻記錄",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "A related longer expression appeared in John Norris’s Practical Discourses in 1698: “turn the deaf Ear, and the blind Eye.” A source citing the Oxford English Dictionary identifies this as an early recorded occurrence. The shorter form turn a blind eye is documented in an 1823 letter by Martha Wilmot.",
+          "zh": "一個較長的相關表達早於 1698 年已見於 John Norris 的 Practical Discourses，當中使用了「turn the deaf Ear, and the blind Eye」。 引用 Oxford English Dictionary 的資料把它列作早期書面記錄。 較短的 turn a blind eye 則見於 Martha Wilmot 在 1823 年寫的一封信。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The earlier image joined deliberate refusal to hear with deliberate refusal to see. Over time, the visual half became a separate fixed expression. Because the 1698 wording predates Nelson’s 1801 action, the Nelson story should be treated as a memorable association, not the proven invention of the idiom.",
+          "zh": "較早期的畫面把「故意不聽」和「故意不看」放在一起。 後來，有關視覺的部分逐漸獨立成為固定表達。 由於 1698 年的文字記錄早於 Nelson 在 1801 年的行動，因此 Nelson 的故事應被視為一個容易記憶的相關故事，而不是這個慣用語已獲證實的起源。"
+        }
+      ],
+      "memoryEn": "The problem is visible, but the person chooses the eye that will not “see” it.",
+      "memoryZh": "問題明明存在，但那個人故意選擇「看不見」它。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use to, not on",
+        "titleZh": "使用 to，而不是 on",
+        "en": "Use to, not on.",
+        "zh": "使用 to，而不是 on。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep a and eye singular",
+        "titleZh": "保留冠詞 a，而且 eye 必須使用單數",
+        "en": "Keep a and eye singular.",
+        "zh": "保留冠詞 a，而且 eye 必須使用單數。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "The person must know about the situation",
+        "titleZh": "主語必須知道事情存在",
+        "en": "The person must know about the situation. If the person genuinely did not know, the idiom is normally unsuitable.",
+        "zh": "主語必須知道事情存在。 如果某人真的不知情，通常不應使用這個慣用語。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The inaction must be deliberate",
+        "titleZh": "不採取行動必須是有意的",
+        "en": "The inaction must be deliberate.",
+        "zh": "不採取行動必須是有意的。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The complement normally concerns a problem",
+        "titleZh": "後面的補語通常涉及問題",
+        "en": "The complement normally concerns a problem. Natural topics include rule-breaking, bullying, unfair treatment, unsafe behaviour, cheating, dishonesty and repeated bad behaviour.",
+        "zh": "後面的補語通常涉及問題。 自然題材包括違規、欺凌、不公平對待、不安全行為、作弊、不誠實和重複出現的不當行為。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "To is a preposition here",
+        "titleZh": "這裏的 to 是介詞",
+        "en": "To is a preposition here.",
+        "zh": "這裏的 to 是介詞。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve tense and certainty",
+        "titleZh": "保留時態及確定程度",
+        "en": "Preserve tense and certainty.",
+        "zh": "保留時態及確定程度。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Negative forms often express responsibility",
+        "titleZh": "否定形式通常用來表達責任",
+        "en": "Negative forms often express responsibility.",
+        "zh": "否定形式通常用來表達責任。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "The idiom normally sounds critical",
+        "titleZh": "這個慣用語通常帶有批評意味",
+        "en": "The idiom normally sounds critical.",
+        "zh": "這個慣用語通常帶有批評意味。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do not use it literally",
+        "titleZh": "不要把它當作字面意思使用",
+        "en": "Do not use it literally. Literal eye movement or a person’s visual condition is not the target meaning of this exercise.",
+        "zh": "不要把它當作字面意思使用。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using turn a blind eye to. Preserve the actor, action, tense, certainty, attitude and essential context. Every answer must contain the target expression. The first word of the canonical answer has been provided.",
+      "zh": "使用 turn a blind eye to 改寫句子或完成回應。 保留人物、行動、時態、確定程度、態度和必要情境。 每個答案都必須包含目標慣用語。 每題已提供參考答案的第一個字。"
+    },
+    "questions": [
+      {
+        "id": "idiom-42-q01",
+        "number": 1,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The teacher knew that Leo was copying his friend’s homework, but she chose not to stop him.",
+        "promptZh": "老師知道里奧正在抄朋友的功課，但她選擇不阻止他。",
+        "starter": "The",
+        "answer": "The teacher turned a blind eye to Leo copying his friend’s homework.",
+        "answerZh": "老師對里奧抄朋友功課一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q02",
+        "number": 2,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The shop manager saw an employee give free drinks to his friends, but he did nothing.",
+        "promptZh": "店舖經理看見一名員工免費送飲品給朋友，但沒有採取行動。",
+        "starter": "The",
+        "answer": "The shop manager turned a blind eye to the employee giving free drinks to his friends.",
+        "answerZh": "店舖經理對員工免費送飲品給朋友一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q03",
+        "number": 3,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Anna’s parents knew that she stayed up very late every night, but they pretended not to notice.",
+        "promptZh": "安娜的父母知道她每晚都很遲睡，但裝作沒有留意。",
+        "starter": "Anna’s",
+        "answer": "Anna’s parents turned a blind eye to her staying up very late every night.",
+        "answerZh": "安娜的父母明知她每晚都很遲睡，卻視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q04",
+        "number": 4,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The coach knew that several players were skipping the warm-up, but he said nothing.",
+        "promptZh": "教練知道幾名球員沒有做熱身，但沒有出聲。",
+        "starter": "The",
+        "answer": "The coach turned a blind eye to several players skipping the warm-up.",
+        "answerZh": "教練對幾名球員不做熱身一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q05",
+        "number": 5,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The guard saw a resident park in a no-parking area, but he decided not to report it.",
+        "promptZh": "保安員看見一名住客把車停在禁區，但決定不作報告。",
+        "starter": "The",
+        "answer": "The guard turned a blind eye to the resident parking in a no-parking area.",
+        "answerZh": "保安員對住客把車停在禁區一事隻眼開隻眼閉。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q06",
+        "number": 6,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The café owner knew that some workers took food home without asking, but she allowed it.",
+        "promptZh": "咖啡店東主知道有些員工未經同意便把食物帶回家，但她沒有阻止。",
+        "starter": "The",
+        "answer": "The café owner turned a blind eye to some workers taking food home without asking.",
+        "answerZh": "咖啡店東主對部分員工未經同意把食物帶回家一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q07",
+        "number": 7,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Several classmates knew that a younger pupil was being bullied, but they stayed silent.",
+        "promptZh": "幾名同學知道一名年幼學生正被欺凌，但他們保持沉默。",
+        "starter": "Several",
+        "answer": "Several classmates turned a blind eye to a younger pupil being bullied.",
+        "answerZh": "幾名同學對一名年幼學生被欺凌一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q08",
+        "number": 8,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The company knew that some staff arrived late almost every day, but it never dealt with the problem.",
+        "promptZh": "公司知道有些員工幾乎每天都遲到，但一直沒有處理問題。",
+        "starter": "The",
+        "answer": "The company turned a blind eye to some staff arriving late almost every day.",
+        "answerZh": "公司對部分員工幾乎每天遲到一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q09",
+        "number": 9,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The bus driver noticed that a passenger had not paid the fare. However, he let the passenger stay on the bus.",
+        "promptZh": "巴士司機留意到一名乘客沒有付車資，但仍讓該乘客留在車上。",
+        "starter": "The",
+        "answer": "The bus driver turned a blind eye to the passenger not paying the fare.",
+        "answerZh": "巴士司機對乘客沒有付車資一事隻眼開隻眼閉。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q10",
+        "number": 10,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The school knew that pupils were leaving rubbish in the playground, but it did not take action.",
+        "promptZh": "學校知道學生在操場留下垃圾，但沒有採取行動。",
+        "starter": "The",
+        "answer": "The school turned a blind eye to pupils leaving rubbish in the playground.",
+        "answerZh": "學校對學生在操場亂拋垃圾一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q11",
+        "number": 11,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "For months, the restaurant manager knew that workers were not washing their hands properly, but he did nothing.",
+        "promptZh": "幾個月來，餐廳經理一直知道員工沒有正確洗手，但沒有採取行動。",
+        "starter": "For",
+        "answer": "For months, the restaurant manager turned a blind eye to workers not washing their hands properly.",
+        "answerZh": "幾個月來，餐廳經理一直對員工沒有正確洗手一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q12",
+        "number": 12,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Jack often talks during lessons. The teacher notices but chooses not to stop him.",
+        "promptZh": "傑克經常在課堂上說話。老師留意到，卻選擇不阻止他。",
+        "starter": "The",
+        "answer": "The teacher often turns a blind eye to Jack talking during lessons.",
+        "answerZh": "老師經常對傑克在課堂上說話一事隻眼開隻眼閉。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turns a blind eye to"
+      },
+      {
+        "id": "idiom-42-q13",
+        "number": 13,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The sports club has known about members sharing entry cards for weeks, but it has not stopped them.",
+        "promptZh": "運動會所幾星期前已知道會員共用入場證，但一直沒有阻止。",
+        "starter": "The",
+        "answer": "The sports club has turned a blind eye to members sharing entry cards for weeks.",
+        "answerZh": "運動會所幾星期來一直對會員共用入場證一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q14",
+        "number": 14,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Before the accident happened, the factory owner had known about the broken safety door but had done nothing.",
+        "promptZh": "意外發生前，工廠東主早已知道安全門損壞，但一直沒有處理。",
+        "starter": "Before",
+        "answer": "Before the accident happened, the factory owner had turned a blind eye to the broken safety door.",
+        "answerZh": "意外發生前，工廠東主早已對損壞的安全門視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q15",
+        "number": 15,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "If nobody complains, the manager will probably keep ignoring workers who use their phones during work.",
+        "promptZh": "如果沒有人投訴，經理大概會繼續不理會上班時使用手機的員工。",
+        "starter": "If",
+        "answer": "If nobody complains, the manager will probably keep turning a blind eye to workers using their phones during work.",
+        "answerZh": "如果沒有人投訴，經理大概會繼續對上班時使用手機的員工視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turning a blind eye to"
+      },
+      {
+        "id": "idiom-42-q16",
+        "number": 16,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The coach may know that some players arrive late for training, but he may choose not to act.",
+        "promptZh": "教練可能知道有些球員訓練遲到，但可能選擇不採取行動。",
+        "starter": "The",
+        "answer": "The coach may turn a blind eye to some players arriving late for training.",
+        "answerZh": "教練可能會對有些球員訓練遲到一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turn a blind eye to"
+      },
+      {
+        "id": "idiom-42-q17",
+        "number": 17,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The school knows that some pupils are being bullied. It should not ignore the problem.",
+        "promptZh": "學校知道有些學生正被欺凌，不應忽視這個問題。",
+        "starter": "The",
+        "answer": "The school should not turn a blind eye to pupils being bullied.",
+        "answerZh": "學校不應對學生被欺凌一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turn a blind eye to"
+      },
+      {
+        "id": "idiom-42-q18",
+        "number": 18,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "I know that the old man is being treated unfairly, so I cannot simply do nothing.",
+        "promptZh": "我知道那名老人受到不公平對待，所以不能甚麼都不做。",
+        "starter": "I",
+        "answer": "I cannot turn a blind eye to the old man being treated unfairly.",
+        "answerZh": "我不能對那名老人受到不公平對待一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turn a blind eye to"
+      },
+      {
+        "id": "idiom-42-q19",
+        "number": 19,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Why did the guard not report the damaged fire door? He knew about it but chose not to act.",
+        "promptZh": "為甚麼保安員沒有報告防火門損壞？他知道這件事，但選擇不採取行動。",
+        "starter": "The",
+        "answer": "The guard turned a blind eye to the damaged fire door.",
+        "answerZh": "保安員對損壞的防火門視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q20",
+        "number": 20,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Did the manager know that staff were changing the prices? B: Yes, but she decided not to stop them.",
+        "promptZh": "甲：經理知道員工正在更改價格嗎？ 乙：知道，但她決定不阻止他們。",
+        "starter": "Yes.",
+        "answer": "Yes. The manager turned a blind eye to staff changing the prices.",
+        "answerZh": "知道。經理對員工更改價格一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q21",
+        "number": 21,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: We all know that Eric is being bullied. Are we just going to do nothing? B: No. We need to tell a teacher.",
+        "promptZh": "甲：我們都知道埃里克正被欺凌。難道我們甚麼都不做嗎？ 乙：不。我們需要告訴老師。",
+        "starter": "No.",
+        "answer": "No. We cannot turn a blind eye to Eric being bullied; we need to tell a teacher.",
+        "answerZh": "不。我們不能對埃里克被欺凌一事視而不見；我們需要告訴老師。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turn a blind eye to"
+      },
+      {
+        "id": "idiom-42-q22",
+        "number": 22,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Clara forgot her staff card for the first time. B: The guard knew her well, so he chose not to report it that day.",
+        "promptZh": "甲：克拉拉第一次忘記帶員工證。 乙：保安員很熟悉她，所以當天決定不作報告。",
+        "starter": "Because",
+        "answer": "Because the guard knew Clara well and it was her first time, he turned a blind eye to her not having her staff card that day.",
+        "answerZh": "因為保安員很熟悉克拉拉，而且她是第一次忘記帶證，他當天便對她沒有帶員工證一事隻眼開隻眼閉。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q23",
+        "number": 23,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: I do not think the teacher knew that the answers were being shared. B: She did know, but she pretended not to notice.",
+        "promptZh": "甲：我認為老師不知道有人正在互相傳答案。 乙：她其實知道，只是裝作沒有留意。",
+        "starter": "The",
+        "answer": "The teacher knew and turned a blind eye to the answers being shared.",
+        "answerZh": "老師其實知道有人互相傳答案，卻選擇視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q24",
+        "number": 24,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Staff members say that the owner knows about the broken lift but keeps refusing to deal with it.",
+        "promptZh": "員工表示，東主知道升降機損壞，卻一直拒絕處理。",
+        "starter": "Staff",
+        "answer": "Staff members say that the owner is turning a blind eye to the broken lift.",
+        "answerZh": "員工表示，東主正對損壞的升降機視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turning a blind eye to"
+      },
+      {
+        "id": "idiom-42-q25",
+        "number": 25,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Customers kept receiving damaged goods because the shop manager knew about the problem but did not act.",
+        "promptZh": "顧客不斷收到損壞的貨品，因為店舖經理知道問題卻沒有採取行動。",
+        "starter": "Customers",
+        "answer": "Customers kept receiving damaged goods because the shop manager turned a blind eye to the problem.",
+        "answerZh": "顧客不斷收到損壞的貨品，因為店舖經理對問題視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q26",
+        "number": 26,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Pupils talk loudly in class. The teacher hears them but usually chooses not to stop them.",
+        "promptZh": "學生在課堂上大聲說話。老師聽到他們，但通常選擇不加阻止。",
+        "starter": "The",
+        "answer": "The teacher usually turns a blind eye to pupils talking loudly in class.",
+        "answerZh": "老師通常對學生在課堂上大聲說話一事隻眼開隻眼閉。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turns a blind eye to"
+      },
+      {
+        "id": "idiom-42-q27",
+        "number": 27,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "If the parents keep pretending not to notice their son taking money from their wallets, the problem may become worse.",
+        "promptZh": "如果父母繼續裝作沒有留意兒子從他們的銀包拿錢，問題可能會惡化。",
+        "starter": "If",
+        "answer": "If the parents keep turning a blind eye to their son taking money from their wallets, the problem may become worse.",
+        "answerZh": "如果父母繼續對兒子從他們的銀包拿錢一事視而不見，問題可能會惡化。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turning a blind eye to"
+      },
+      {
+        "id": "idiom-42-q28",
+        "number": 28,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "It is possible that the school knows some pupils are selling snacks without permission but is choosing not to act.",
+        "promptZh": "學校可能知道有些學生未經許可售賣零食，卻選擇不採取行動。",
+        "starter": "The",
+        "answer": "The school may be turning a blind eye to pupils selling snacks without permission.",
+        "answerZh": "學校可能正對學生未經許可售賣零食一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turning a blind eye to"
+      },
+      {
+        "id": "idiom-42-q29",
+        "number": 29,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "After the accident, the company stopped ignoring workers who broke safety rules.",
+        "promptZh": "意外發生後，公司不再忽視違反安全規則的員工。",
+        "starter": "After",
+        "answer": "After the accident, the company stopped turning a blind eye to workers breaking safety rules.",
+        "answerZh": "意外發生後，公司不再對違反安全規則的員工視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turning a blind eye to"
+      },
+      {
+        "id": "idiom-42-q30",
+        "number": 30,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: I saw Daniel copying answers during the test. Should we stay silent? B: No. This is not something we should ignore.",
+        "promptZh": "甲：我看見丹尼爾在測驗期間抄答案。我們應該保持沉默嗎？ 乙：不。這不是我們應該忽視的事情。",
+        "starter": "No.",
+        "answer": "No. We must not turn a blind eye to Daniel copying answers during the test.",
+        "answerZh": "不。我們絕不能對丹尼爾在測驗期間抄答案一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turn a blind eye to"
+      },
+      {
+        "id": "idiom-42-q31",
+        "number": 31,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Although the manager had warned everyone about being honest, he knew that one worker was stealing small amounts of money and did nothing.",
+        "promptZh": "雖然經理曾提醒所有人要誠實，但他知道一名員工正在偷取小額金錢，卻沒有採取行動。",
+        "starter": "Although",
+        "answer": "Although the manager had warned everyone about being honest, he turned a blind eye to one worker stealing small amounts of money.",
+        "answerZh": "雖然經理曾提醒所有人要誠實，但他對一名員工偷取小額金錢一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q32",
+        "number": 32,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The owner knew that workers were breaking the same rule but did not stop them, so they continued doing it.",
+        "promptZh": "東主知道員工一再違反同一規則，卻沒有阻止，因此他們繼續這樣做。",
+        "starter": "Because",
+        "answer": "Because the owner turned a blind eye to the workers breaking the rule, they continued doing it.",
+        "answerZh": "由於東主對員工違反規則一事視而不見，他們便繼續這樣做。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q33",
+        "number": 33,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "For years, local officers often saw drivers park on the pavement but usually took no action.",
+        "promptZh": "多年來，當區人員經常看見司機把車停在人行道上，但通常沒有採取行動。",
+        "starter": "For",
+        "answer": "For years, local officers often turned a blind eye to drivers parking on the pavement.",
+        "answerZh": "多年來，當區人員經常對司機把車停在人行道上一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q34",
+        "number": 34,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Parents believe the school knows that older pupils are taking lunch money from younger ones but is not dealing with it.",
+        "promptZh": "家長認為學校知道年長學生正拿走年幼學生的午膳錢，卻沒有處理。",
+        "starter": "Parents",
+        "answer": "Parents believe the school is turning a blind eye to older pupils taking lunch money from younger ones.",
+        "answerZh": "家長認為學校正對年長學生拿走年幼學生午膳錢一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turning a blind eye to"
+      },
+      {
+        "id": "idiom-42-q35",
+        "number": 35,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A rule has little value when leaders know it is being broken and do nothing.",
+        "promptZh": "如果負責人明知規則被違反卻甚麼都不做，這項規則便沒有多大作用。",
+        "starter": "A",
+        "answer": "A rule has little value when leaders turn a blind eye to people breaking it.",
+        "answerZh": "如果負責人對違反規則的人視而不見，這項規則便沒有多大作用。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turn a blind eye to"
+      },
+      {
+        "id": "idiom-42-q36",
+        "number": 36,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The old manager knew that staff took long breaks but ignored it. The new manager refuses to do the same.",
+        "promptZh": "舊經理知道員工休息時間過長，卻一直不理會；新經理拒絕再這樣做。",
+        "starter": "The",
+        "answer": "The old manager turned a blind eye to staff taking long breaks, but the new manager refuses to do so.",
+        "answerZh": "舊經理對員工休息時間過長一事視而不見，但新經理拒絕再這樣做。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q37",
+        "number": 37,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Everyone knew exactly what was happening in the back room, but they pretended not to notice.",
+        "promptZh": "所有人都清楚知道後房正在發生甚麼事，但他們裝作沒有留意。",
+        "starter": "Everyone",
+        "answer": "Everyone turned a blind eye to what was happening in the back room.",
+        "answerZh": "所有人都對後房正在發生的事情視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q38",
+        "number": 38,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The teacher knew that pupils were sharing answers through a chat group but chose not to stop them.",
+        "promptZh": "老師知道學生正透過聊天群組互相傳答案，但選擇不阻止。",
+        "starter": "The",
+        "answer": "The teacher turned a blind eye to pupils sharing answers through a chat group.",
+        "answerZh": "老師對學生透過聊天群組互相傳答案一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q39",
+        "number": 39,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The café lost money because its owner had known that staff were giving away food but had not stopped them.",
+        "promptZh": "咖啡店出現虧損，因為東主一直知道員工把食物免費送人，卻沒有阻止。",
+        "starter": "The",
+        "answer": "The café lost money because its owner had turned a blind eye to staff giving away food.",
+        "answerZh": "咖啡店出現虧損，因為東主一直對員工把食物免費送人一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q40",
+        "number": 40,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The manager knowingly ignored several small problems, and this allowed them to continue.",
+        "promptZh": "經理明知有幾個小問題，卻選擇不理會，令問題持續下去。",
+        "starter": "By",
+        "answer": "By turning a blind eye to several small problems, the manager allowed them to continue.",
+        "answerZh": "經理對幾個小問題視而不見，令問題持續下去。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turning a blind eye to"
+      },
+      {
+        "id": "idiom-42-q41",
+        "number": 41,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The hospital knows that some workers are not washing their hands before helping patients. It cannot ignore this behaviour.",
+        "promptZh": "醫院知道有些員工在協助病人前沒有洗手，不能忽視這種行為。",
+        "starter": "The",
+        "answer": "The hospital cannot turn a blind eye to some workers not washing their hands before helping patients.",
+        "answerZh": "醫院不能對有些員工在協助病人前沒有洗手一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turn a blind eye to"
+      },
+      {
+        "id": "idiom-42-q42",
+        "number": 42,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: We have received three reports about bullying. B: Then we will not pretend that nothing is happening.",
+        "promptZh": "甲：我們已收到三份有關欺凌的報告。 乙：那麼我們不會再裝作甚麼事都沒有發生。",
+        "starter": "We",
+        "answer": "We will not turn a blind eye to the reported bullying.",
+        "answerZh": "我們不會對已被舉報的欺凌事件視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turn a blind eye to"
+      },
+      {
+        "id": "idiom-42-q43",
+        "number": 43,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Nobody is certain, but the coach might know that players are using another team’s equipment without permission and might be choosing not to act.",
+        "promptZh": "沒有人能夠確定，但教練可能知道球員未經許可使用另一隊的器材，卻可能選擇不採取行動。",
+        "starter": "The",
+        "answer": "The coach might be turning a blind eye to players using another team’s equipment without permission.",
+        "answerZh": "教練可能正對球員未經許可使用另一隊器材一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turning a blind eye to"
+      },
+      {
+        "id": "idiom-42-q44",
+        "number": 44,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The checks are so weak that managers can easily know about false work records and still choose not to deal with them.",
+        "promptZh": "檢查制度十分寬鬆，經理即使知道工作記錄不實，也可以輕易選擇不處理。",
+        "starter": "The",
+        "answer": "The weak checks make it easy for managers to turn a blind eye to false work records.",
+        "answerZh": "寬鬆的檢查制度令經理容易對不實的工作記錄視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turn a blind eye to"
+      },
+      {
+        "id": "idiom-42-q45",
+        "number": 45,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: The shop knew that several prices on the shelves were wrong. B: Yes. The manager admitted that nobody corrected them for days.",
+        "promptZh": "甲：店舖知道貨架上有幾個價格是錯的。 乙：知道。經理承認幾天來都沒有人更正。",
+        "starter": "The",
+        "answer": "The manager admitted that the shop had turned a blind eye to the wrong prices for days.",
+        "answerZh": "經理承認店舖連續幾天對錯誤價格視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q46",
+        "number": 46,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Unless the school stops knowingly ignoring pupils who threaten others, parents will lose trust in the school.",
+        "promptZh": "除非學校不再明知而忽視威嚇他人的學生，否則家長會對學校失去信任。",
+        "starter": "Unless",
+        "answer": "Unless the school stops turning a blind eye to pupils threatening others, parents will lose trust in the school.",
+        "answerZh": "除非學校不再對威嚇他人的學生視而不見，否則家長會對學校失去信任。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turning a blind eye to"
+      },
+      {
+        "id": "idiom-42-q47",
+        "number": 47,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The town leaders say that they will stop ignoring people who leave rubbish beside the river.",
+        "promptZh": "鎮上的負責人表示，他們將不再忽視在河邊留下垃圾的人。",
+        "starter": "The",
+        "answer": "The town leaders say that they will no longer turn a blind eye to people leaving rubbish beside the river.",
+        "answerZh": "鎮上的負責人表示，他們將不再對在河邊留下垃圾的人視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turn a blind eye to"
+      },
+      {
+        "id": "idiom-42-q48",
+        "number": 48,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Several workers broke the same rule in front of the supervisor. He smiled, walked away and made no report.",
+        "promptZh": "幾名員工在主管面前違反同一規則。主管只是微笑、離開，並沒有作出報告。",
+        "starter": "The",
+        "answer": "The supervisor turned a blind eye to the workers breaking the rule in front of him.",
+        "answerZh": "主管對員工在他面前違反規則一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      },
+      {
+        "id": "idiom-42-q49",
+        "number": 49,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "I used to see my friend insulting younger pupils, but I always stayed silent. I regret that now.",
+        "promptZh": "我以前看見朋友侮辱年幼學生時，總是保持沉默；我現在對此感到後悔。",
+        "starter": "I",
+        "answer": "I now regret turning a blind eye to my friend insulting younger pupils.",
+        "answerZh": "我現在後悔當初對朋友侮辱年幼學生一事視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turning a blind eye to"
+      },
+      {
+        "id": "idiom-42-q50",
+        "number": 50,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Were the leaders unaware of the problem? B: No. They had received complaints for months but had chosen not to act.",
+        "promptZh": "甲：負責人不知道這個問題嗎？ 乙：不。他們幾個月來一直收到投訴，卻選擇不採取行動。",
+        "starter": "No.",
+        "answer": "No. The leaders had turned a blind eye to the problem for months despite receiving complaints.",
+        "answerZh": "不。負責人幾個月來一直收到投訴，卻對問題視而不見。",
+        "targetForm": "turn a blind eye to",
+        "targetMeaning": "To deliberately ignore something that you know is wrong, unfair, unsafe, unpleasant or against a rule, usually because you do not want to take action. It does not mean that somebody simply failed to notice something by accident. Cambridge defines the idiom as ignoring something known to be wrong, while Collins stresses pretending not to notice something bad or illegal so that no action has to be taken.",
+        "highlight": "turned a blind eye to"
+      }
+    ]
+  }
+}

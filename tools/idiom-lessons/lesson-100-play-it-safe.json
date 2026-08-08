@@ -1,0 +1,1645 @@
+{
+  "lesson": {
+    "id": "idiom-100",
+    "order": 100,
+    "slug": "play-it-safe",
+    "version": "1",
+    "title": "謹慎行事／採取較穩妥的做法",
+    "titleEn": "play it safe",
+    "titleZh": "謹慎行事／採取較穩妥的做法",
+    "source": {
+      "file": "Idiom 100 - 「play it safe」.pdf",
+      "pageCount": 33,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "exercisePdfPages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "answerKeyPdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "play it safe",
+        "highlight": "play it safe"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I decided to play it safe.",
+        "zh": "我決定採取較穩妥的做法。",
+        "highlight": "play it safe"
+      },
+      {
+        "en": "The school chose to play it safe.",
+        "zh": "學校選擇了較穩妥的做法。",
+        "highlight": "play it safe"
+      }
+    ],
+    "meaning": {
+      "en": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+      "zh": "謹慎行事；採取較穩妥的做法；避免不必要的風險、危險或失敗",
+      "naturalZh": [
+        "謹慎行事",
+        "採取較穩妥的做法",
+        "避免不必要的風險、危險或失敗"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "play it safe is generally informal and is especially natural in conversation, personal messages, interviews and accessible general writing. Cambridge labels the expression informal, while Collins records it in a wide range of ordinary spoken and written contexts.",
+      "summaryZh": "play it safe 通常屬於非正式表達，特別適合用於：",
+      "contextsEn": [],
+      "contextsZh": [
+        "日常對話",
+        "私人訊息",
+        "朋友或同事之間的建議",
+        "訪問",
+        "一般報章及網上文章",
+        "較輕鬆的工作場合。"
+      ],
+      "formalEn": "play it safe is generally informal and is especially natural in conversation, personal messages, interviews and accessible general writing. Cambridge labels the expression informal, while Collins records it in a wide range of ordinary spoken and written contexts.",
+      "formalZh": "play it safe 通常屬於非正式表達，特別適合用於："
+    },
+    "fixedVariable": {
+      "fixed": "play it safe",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + verb + to play it safe.",
+          "example": "I decided to play it safe.",
+          "highlight": "play it safe"
+        },
+        {
+          "form": "Subject + can / could / should / might / may / will / would + play it safe.",
+          "example": "You should play it safe.",
+          "highlight": "play it safe"
+        },
+        {
+          "form": "Subject + play(s) / played + it safe.",
+          "example": "Ben usually plays it safe.",
+          "highlight": "plays it safe"
+        },
+        {
+          "form": "Subject + be + playing it safe.",
+          "example": "The manager may be playing it safe.",
+          "highlight": "playing it safe"
+        },
+        {
+          "form": "Play it safe + additional action.",
+          "example": "Play it safe and take a spare key.",
+          "highlight": "Play it safe"
+        },
+        {
+          "form": "Let’s + play it safe + additional action.",
+          "example": "Let’s play it safe and leave early.",
+          "highlight": "play it safe"
+        },
+        {
+          "form": "To play it safe, + complete clause.",
+          "example": "To play it safe, Ava saved the file in two places.",
+          "highlight": "play it safe"
+        },
+        {
+          "form": "Playing it safe + verb.",
+          "example": "Playing it safe can be sensible.",
+          "highlight": "Playing it safe"
+        },
+        {
+          "form": "noun + to play it safe",
+          "example": "Her decision to play it safe prevented a problem.",
+          "highlight": "play it safe"
+        },
+        {
+          "form": "A. “and + Action”",
+          "example": "Are we playing it safe, or are we being too cautious?",
+          "highlight": "playing it safe"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “to”",
+        "titleZh": "接在 to 之後",
+        "formula": "Subject + verb + to play it safe.",
+        "descriptionEn": "Source grammar frame: Subject + verb + to play it safe.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb + to play it safe。",
+        "examples": [
+          {
+            "en": "I decided to play it safe.",
+            "zh": "我決定採取較穩妥的做法。",
+            "highlight": "play it safe"
+          },
+          {
+            "en": "The school chose to play it safe.",
+            "zh": "學校選擇了較穩妥的做法。",
+            "highlight": "play it safe"
+          },
+          {
+            "en": "We plan to play it safe until the weather improves.",
+            "zh": "我們計劃在天氣改善前保持謹慎。",
+            "highlight": "play it safe"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "接在情態動詞之後",
+        "formula": "Subject + can / could / should / might / may / will / would + play it safe.",
+        "descriptionEn": "Source grammar frame: Subject + can / could / should / might / may / will / would + play it safe.",
+        "descriptionZh": "原檔列出的句法框架：Subject + can / could / should / might / may / will / would + play it safe。",
+        "examples": [
+          {
+            "en": "You should play it safe.",
+            "zh": "你應該謹慎一點。",
+            "highlight": "play it safe"
+          },
+          {
+            "en": "We might play it safe and take the earlier train.",
+            "zh": "我們可能會採取較穩妥的做法，乘搭較早的火車。",
+            "highlight": "play it safe"
+          },
+          {
+            "en": "The organiser could have played it safe.",
+            "zh": "主辦人本來可以採取較穩妥的做法。",
+            "highlight": "played it safe"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作為一般限定動詞短語",
+        "formula": "Subject + play(s) / played + it safe.",
+        "descriptionEn": "Source grammar frame: Subject + play(s) / played + it safe.",
+        "descriptionZh": "原檔列出的句法框架：Subject + play(s) / played + it safe。",
+        "examples": [
+          {
+            "en": "Ben usually plays it safe.",
+            "zh": "本通常會採取較穩妥的做法。",
+            "highlight": "plays it safe"
+          },
+          {
+            "en": "The chef played it safe with a familiar dish.",
+            "zh": "廚師選擇了一道熟悉的菜式，以免冒險。",
+            "highlight": "played it safe"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "In Progressive and Perfect Forms",
+        "titleZh": "用於進行式及完成式",
+        "formula": "Subject + be + playing it safe.",
+        "descriptionEn": "Source grammar frame: Subject + be + playing it safe.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + playing it safe。",
+        "examples": [
+          {
+            "en": "The manager may be playing it safe.",
+            "zh": "經理可能正在採取較保守的做法。",
+            "highlight": "playing it safe"
+          },
+          {
+            "en": "The team has played it safe throughout the project.",
+            "zh": "團隊在整個項目中一直採取穩妥做法。",
+            "highlight": "played it safe"
+          },
+          {
+            "en": "She admitted that she had played it safe.",
+            "zh": "她承認自己採取了較保守的做法。",
+            "highlight": "played it safe"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "As an Imperative",
+        "titleZh": "用於祈使句",
+        "formula": "Play it safe + additional action.",
+        "descriptionEn": "Source grammar frame: Play it safe + additional action.",
+        "descriptionZh": "原檔列出的句法框架：Play it safe + additional action。",
+        "examples": [
+          {
+            "en": "Play it safe and take a spare key.",
+            "zh": "穩妥起見，帶上一條後備鎖匙。",
+            "highlight": "Play it safe"
+          },
+          {
+            "en": "Play it safe until you know more.",
+            "zh": "在掌握更多資料前，先採取穩妥做法。",
+            "highlight": "Play it safe"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "With “Let’s”",
+        "titleZh": "配合 Let’s",
+        "formula": "Let’s + play it safe + additional action.",
+        "descriptionEn": "Source grammar frame: Let’s + play it safe + additional action.",
+        "descriptionZh": "原檔列出的句法框架：Let’s + play it safe + additional action。",
+        "examples": [
+          {
+            "en": "Let’s play it safe and leave early.",
+            "zh": "我們還是穩妥一點，提早出發吧。",
+            "highlight": "play it safe"
+          },
+          {
+            "en": "Let’s play it safe until the storm passes.",
+            "zh": "我們還是謹慎一點，等暴風雨過去吧。",
+            "highlight": "play it safe"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "At the Beginning with “To”",
+        "titleZh": "以 To 開首",
+        "formula": "To play it safe, + complete clause.",
+        "descriptionEn": "The opening phrase explains the purpose of the action in the main clause.",
+        "descriptionZh": "這個開首短語說明主句行動的目的。",
+        "examples": [
+          {
+            "en": "To play it safe, Ava saved the file in two places.",
+            "zh": "為求穩妥，艾娃把檔案儲存在兩個地方。",
+            "highlight": "play it safe"
+          },
+          {
+            "en": "To play it safe, shall we call before leaving?",
+            "zh": "為求穩妥，我們出發前先致電確認好嗎？",
+            "highlight": "play it safe"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "“Playing It Safe” as a Noun-Like -ing Form",
+        "titleZh": "以 Playing it safe 作名詞化 -ing 形式",
+        "formula": "Playing it safe + verb.",
+        "descriptionEn": "They criticised her for playing it safe.",
+        "descriptionZh": "他們批評她過分保守。",
+        "examples": [
+          {
+            "en": "Playing it safe can be sensible.",
+            "zh": "採取穩妥做法可以是明智的。",
+            "highlight": "Playing it safe"
+          },
+          {
+            "en": "Playing it safe does not always guarantee success.",
+            "zh": "採取穩妥做法不一定保證成功。",
+            "highlight": "Playing it safe"
+          },
+          {
+            "en": "His habit of playing it safe annoyed the rest of the team.",
+            "zh": "他凡事採取保守做法的習慣令其他隊員感到不滿。",
+            "highlight": "playing it safe"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "After a Noun",
+        "titleZh": "接在名詞之後",
+        "formula": "noun + to play it safe",
+        "descriptionEn": "Source grammar frame: noun + to play it safe.",
+        "descriptionZh": "原檔列出的句法框架：noun + to play it safe。",
+        "examples": [
+          {
+            "en": "Her decision to play it safe prevented a problem.",
+            "zh": "她採取穩妥做法的決定避免了一個問題。",
+            "highlight": "play it safe"
+          },
+          {
+            "en": "Our plan to play it safe may save time later.",
+            "zh": "我們採取穩妥做法的計劃，日後可能可以節省時間。",
+            "highlight": "play it safe"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "In Questions, Negatives and Conditionals",
+        "titleZh": "用於疑問句、否定句及條件句",
+        "formula": "A. “and + Action”",
+        "descriptionEn": "Optional Extensions",
+        "descriptionZh": "Optional Extensions 可選延伸部分",
+        "examples": [
+          {
+            "en": "Are we playing it safe, or are we being too cautious?",
+            "zh": "我們是在謹慎行事，還是過分保守？",
+            "highlight": "playing it safe"
+          },
+          {
+            "en": "The team did not play it safe.",
+            "zh": "團隊沒有採取穩妥做法。",
+            "highlight": "play it safe"
+          },
+          {
+            "en": "If the weather gets worse, we’ll play it safe and stay indoors.",
+            "zh": "如果天氣惡化，我們便會穩妥一點，留在室內。",
+            "highlight": "play it safe"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Connects a Risk with a Decision",
+        "titleZh": "把風險與決定連繫起來",
+        "en": "The idiomatic version highlights that the earlier train was a deliberate low-risk choice.",
+        "zh": "使用慣用語的版本更能突出：乘搭較早的火車是一個有意作出的低風險選擇。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Gives Concise Advice",
+        "titleZh": "簡潔地提出建議",
+        "en": "It Gives Concise Advice",
+        "zh": "穩妥一點吧。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Works in Both Positive and Critical Comments",
+        "titleZh": "可用於稱讚或批評",
+        "en": "It Works in Both Positive and Critical Comments",
+        "zh": "她採取了穩妥做法，在那種天氣下是明智的。 情況需要新構思時，她卻採取了保守做法。",
+        "examples": [
+          {
+            "en": "She played it safe, which was sensible in that weather.",
+            "zh": "她採取了穩妥做法，在那種天氣下是明智的。",
+            "highlight": "played it safe"
+          },
+          {
+            "en": "She played it safe when the situation required a fresh idea.",
+            "zh": "情況需要新構思時，她卻採取了保守做法。",
+            "highlight": "played it safe"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful for Group Decisions",
+        "titleZh": "適合用於團隊決策",
+        "en": "The expression allows a speaker to suggest caution without giving a long explanation.",
+        "zh": "我們還是穩妥一點，保留一份後備副本吧。 這個表達讓說話者毋須作出冗長解釋，也能建議團隊保持謹慎。",
+        "examples": [
+          {
+            "en": "Let’s play it safe and keep a backup copy.",
+            "zh": "我們還是穩妥一點，保留一份後備副本吧。",
+            "highlight": "play it safe"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Creates Grammatical Variety",
+        "titleZh": "提供多種句法選擇",
+        "en": "decide to play it safe; should play it safe; played it safe; be playing it safe; playing it safe; Play it safe; To play it safe,...; If necessary, play it safe.",
+        "zh": "學生可以把同一慣用語自然地放入多種句式，而不需要把所有答案寫成同一結構。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Helps Learners Understand Authentic English",
+        "titleZh": "幫助學生理解真實英語",
+        "en": "The expression appears frequently in conversations, advice, interviews, sport, travel, work and general discussions of decision-making. Current dictionary examples show it in imperatives, questions, conditionals, infinitives, ordinary finite verbs and compound modifiers.",
+        "zh": "這個表達常見於對話、建議、訪問、運動、旅行、工作及一般決策討論之中。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Use Around 1900 Documented",
+      "statusZh": "確切來源不明；約1900年的用法已有記錄",
+      "history": [
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "Exact Origin Unknown; Use Around 1900 Documented",
+          "zh": "確切來源不明； 約1900年的用法已有記錄"
+        },
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "The exact first use of play it safe has not been firmly identified. The American Heritage Idioms Dictionary, reproduced by Dictionary.com, dates play it safe and the related play safe to approximately 1900.",
+          "zh": "play it safe 的確切首次用法尚未能確認。 《American Heritage Idioms Dictionary》把 play it safe 及相關形式 play safe 的使用時期追溯至約1900年。"
+        },
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "The wording uses play in a broader sense of behaving or conducting oneself in a particular way. Merriam-Webster still records this sense through the example play safe. In play it safe, the words therefore describe acting cautiously rather than literally taking part in a game.",
+          "zh": "這個表達中的 play 採用較廣泛的意思，表示以某種方式行事。 因此，play it safe 指的是採取謹慎做法，而不是字面上的參與遊戲。"
+        }
+      ],
+      "memoryEn": "Imagine that a decision is like a move in a game: instead of making the risky move, you choose the safer one.",
+      "memoryZh": "想像每個決定都像遊戲中的一步：你沒有選擇高風險的一步，而是選擇較穩妥的一步。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “It”",
+        "titleZh": "規則一：必須保留 it",
+        "en": "Although play safe exists in natural English, it is not the selected target form.",
+        "zh": "雖然 play safe 在真實英語中存在，但並不是本練習指定的形式。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Inflect “Play”, Not “Safe”",
+        "titleZh": "規則二：改變 play，不要改變 safe",
+        "en": "Inflect “Play”, Not “Safe”",
+        "zh": "改變 play，不要改變 safe",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "The Subject Must Make or Represent the Cautious Choice",
+        "titleZh": "規則三：主語必須作出或代表謹慎選擇",
+        "en": "The Subject Must Make or Represent the Cautious Choice",
+        "zh": "司機穩妥起見，等到霧散去。 提早離開的決定有助我們避免冒險。 霧本身不會作出謹慎選擇。",
+        "examples": [
+          {
+            "en": "The driver played it safe and waited for the fog to clear.",
+            "zh": "司機穩妥起見，等到霧散去。",
+            "highlight": "played it safe"
+          },
+          {
+            "en": "The decision to leave early helped us play it safe.",
+            "zh": "提早離開的決定有助我們避免冒險。",
+            "highlight": "play it safe"
+          },
+          {
+            "en": "The fog played it safe and made the driver wait.",
+            "zh": "霧本身不會作出謹慎選擇。",
+            "highlight": "played it safe"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "There Must Be a Real Risk or Uncertainty",
+        "titleZh": "規則四：語境必須存在真正的風險或不確定性",
+        "en": "There Must Be a Real Risk or Uncertainty",
+        "zh": "火車可能會延誤，所以我會提早出發，以策安全。 普通地喝水通常不涉及需要避免的風險。",
+        "examples": [
+          {
+            "en": "The train might be delayed, so I’ll play it safe and leave early.",
+            "zh": "火車可能會延誤，所以我會提早出發，以策安全。",
+            "highlight": "play it safe"
+          },
+          {
+            "en": "I played it safe and drank some water because I was thirsty.",
+            "zh": "普通地喝水通常不涉及需要避免的風險。",
+            "highlight": "played it safe"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Does Not Mean “Guarantee Complete Safety”",
+        "titleZh": "規則五：它不表示「保證絕對安全」",
+        "en": "Playing it safe means choosing a cautious option. The result may still be uncertain.",
+        "zh": "play it safe 表示選擇較謹慎的方案，但結果仍然可能存在不確定性。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Can Be Positive or Negative",
+        "titleZh": "規則六：它可以帶有正面或負面意思",
+        "en": "The surrounding context must show whether the caution is sensible or excessive.",
+        "zh": "暴風雨期間採取謹慎做法是明智的。 主管採取保守做法，結果又製作了一個沉悶的廣告。 上下文必須顯示這種謹慎是明智，還是過分保守。",
+        "examples": [
+          {
+            "en": "It was wise to play it safe during the storm.",
+            "zh": "暴風雨期間採取謹慎做法是明智的。",
+            "highlight": "play it safe"
+          },
+          {
+            "en": "The director played it safe and produced another boring advertisement.",
+            "zh": "主管採取保守做法，結果又製作了一個沉悶的廣告。",
+            "highlight": "played it safe"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Modality and Certainty",
+        "titleZh": "規則七：保留情態及確定程度",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把一種可能性改成了已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Time",
+        "titleZh": "規則八：保留時態",
+        "en": "Preserve Time",
+        "zh": "保留時態",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "“By + V-ing” Is Optional",
+        "titleZh": "規則九：by + V-ing 只是可選延伸",
+        "en": "Do not assume that every answer requires by + V-ing. The appropriate form depends on the source sentence and the intended focus.",
+        "zh": "不要以為每個答案都必須使用 by + V-ing。 應選用哪個句式，取決於原句內容及需要突出的重點。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Avoid Unnecessary Repetition",
+        "titleZh": "規則十：避免重複相同意思",
+        "en": "The idiom already communicates the idea of avoiding risk.",
+        "zh": "慣用語本身已經表達「避免風險」，不需要再次重複解釋。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Confuse It with Literal Play",
+        "titleZh": "規則十一：不要與字面上的 play 混淆",
+        "en": "The children played safely in the garden.",
+        "zh": "孩子們安全地在花園玩耍。 父母穩妥起見，在暴風雨期間讓孩子留在室內。",
+        "examples": [
+          {
+            "en": "The parents played it safe and kept the children indoors during the storm.",
+            "zh": "父母穩妥起見，在暴風雨期間讓孩子留在室內。",
+            "highlight": "played it safe"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Use It Automatically Whenever “Safety” Appears",
+        "titleZh": "規則十二：不要在看見「安全」題材時自動使用",
+        "en": "The expression describes a cautious decision between possible courses of action. It is not merely a general instruction to follow every safety rule.",
+        "zh": "這個表達描述的是：當事人在多個做法之間選擇了較謹慎的一個。 它並不單純表示遵守所有安全規則。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using the exact expression play it safe.",
+      "zh": "使用指定慣用語 play it safe 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-100-q01",
+        "number": 1,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The later bus might make me late, so I took the earlier one.",
+        "promptZh": "較遲的巴士可能令我遲到，所以我乘搭了較早的一班。",
+        "starter": "I",
+        "answer": "I played it safe and took the earlier bus.",
+        "answerZh": "我為求穩妥，乘搭了較早的一班巴士。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q02",
+        "number": 2,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The booking details might not open on our phones, so we printed a copy.",
+        "promptZh": "預訂資料可能無法在電話上開啟，所以我們列印了一份副本。",
+        "starter": "We",
+        "answer": "We played it safe and printed a copy of the booking details.",
+        "answerZh": "我們為求穩妥，列印了一份預訂資料。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q03",
+        "number": 3,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Ben did not know whether the shortcut was muddy, so he took the familiar path.",
+        "promptZh": "本不知道捷徑是否滿是泥濘，所以他選擇了熟悉的路線。",
+        "starter": "Ben",
+        "answer": "Ben played it safe and took the familiar path.",
+        "answerZh": "本為免冒險，選擇了熟悉的路線。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q04",
+        "number": 4,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Ava was worried that her computer might stop working, so she saved her work in two places.",
+        "promptZh": "艾娃擔心電腦可能停止運作，所以她把功課儲存在兩個地方。",
+        "starter": "To",
+        "answer": "To play it safe, Ava saved her work in two places.",
+        "answerZh": "為求穩妥，艾娃把功課儲存在兩個地方。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q05",
+        "number": 5,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The roads may become busy later, so let us leave now.",
+        "promptZh": "道路稍後可能變得繁忙，所以我們現在出發吧。",
+        "starter": "Let’s",
+        "answer": "Let’s play it safe and leave before the roads become busy.",
+        "answerZh": "我們還是穩妥一點，在道路變得繁忙前出發吧。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q06",
+        "number": 6,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "You are not certain that you wrote the house number correctly. Check the address again.",
+        "promptZh": "你不肯定門牌號碼是否寫得正確。再核對一次地址吧。",
+        "starter": "You",
+        "answer": "You can play it safe by checking the address again.",
+        "answerZh": "你可以再核對一次地址，以策安全。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q07",
+        "number": 7,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The cook did not know what the guests liked, so he chose a simple, familiar dish.",
+        "promptZh": "廚師不知道客人喜歡甚麼，所以他選擇了一道簡單而熟悉的菜式。",
+        "starter": "The",
+        "answer": "The cook played it safe with a simple, familiar dish.",
+        "answerZh": "廚師為求穩妥，選擇了一道簡單而熟悉的菜式。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q08",
+        "number": 8,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The weather may turn cold this evening. Pack a light jacket.",
+        "promptZh": "今晚的天氣可能轉冷。帶上一件薄外套吧。",
+        "starter": "Play",
+        "answer": "Play it safe and pack a light jacket.",
+        "answerZh": "穩妥起見，帶上一件薄外套吧。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "Play it safe"
+      },
+      {
+        "id": "idiom-100-q09",
+        "number": 9,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The 8:20 train is sometimes delayed, so Emma is taking the 7:45 train.",
+        "promptZh": "8時20分的火車有時會延誤，所以艾瑪會乘搭7時45分的火車。",
+        "starter": "Emma",
+        "answer": "Emma wants to play it safe, so she is taking the 7:45 train.",
+        "answerZh": "艾瑪想穩妥一點，所以會乘搭7時45分的火車。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q10",
+        "number": 10,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The refund has not arrived yet, so the safest choice is to keep the receipt.",
+        "promptZh": "退款尚未到帳，所以最穩妥的做法是保留收據。",
+        "starter": "Playing",
+        "answer": "Playing it safe means keeping the receipt until the refund arrives.",
+        "answerZh": "為求穩妥，應保留收據直至退款到帳。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "Playing it safe"
+      },
+      {
+        "id": "idiom-100-q11",
+        "number": 11,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Rain was possible, so the school moved sports day indoors.",
+        "promptZh": "天氣可能下雨，所以學校把運動日移到室內舉行。",
+        "starter": "The",
+        "answer": "The school chose to play it safe and move sports day indoors.",
+        "answerZh": "學校選擇了較穩妥的做法，把運動日移到室內舉行。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q12",
+        "number": 12,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Daniel is unsure about the paint colour, so he is testing it on a small area first.",
+        "promptZh": "丹尼爾不肯定油漆顏色是否合適，所以他先在一小塊地方測試。",
+        "starter": "Daniel",
+        "answer": "Daniel is playing it safe by testing the paint on a small area first.",
+        "answerZh": "丹尼爾先在小範圍測試油漆，以免冒險。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "playing it safe"
+      },
+      {
+        "id": "idiom-100-q13",
+        "number": 13,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "We did not want the seats to sell out, so we booked them before travelling.",
+        "promptZh": "我們不想座位售罄，所以在出發前已經訂位。",
+        "starter": "We",
+        "answer": "We played it safe and booked the seats before travelling.",
+        "answerZh": "我們為求穩妥，在出發前已經訂好座位。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q14",
+        "number": 14,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "I made a backup because I did not want to lose all my work.",
+        "promptZh": "我製作了後備副本，因為我不想失去所有工作成果。",
+        "starter": "I",
+        "answer": "I would rather play it safe and make a backup than lose all my work.",
+        "answerZh": "我寧願穩妥一點，製作後備副本，也不願失去所有工作成果。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q15",
+        "number": 15,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Cards may not work at the small market. B: Then it may be wise to carry some cash.",
+        "promptZh": "甲：那個小市集可能無法使用付款卡。 乙：那麼，帶備一些現金可能會較穩妥。",
+        "starter": "You",
+        "answer": "You might want to play it safe and carry some cash.",
+        "answerZh": "你可能應該穩妥一點，帶備一些現金。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q16",
+        "number": 16,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The team ignored the cautious option and used the untested design.",
+        "promptZh": "團隊沒有採用較謹慎的方案，而是使用了未經測試的設計。",
+        "starter": "The",
+        "answer": "The team did not play it safe; they used the untested design.",
+        "answerZh": "團隊沒有採取穩妥做法，而是使用了未經測試的設計。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q17",
+        "number": 17,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Leo took a spare key before leaving. Did this help him avoid an unnecessary risk?",
+        "promptZh": "里奧出發前帶了一條後備鎖匙。這是否有助他避免不必要的風險？",
+        "starter": "Did",
+        "answer": "Did Leo play it safe by taking a spare key?",
+        "answerZh": "里奧帶備後備鎖匙，是否採取了較穩妥的做法？",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Her careful decision to leave extra time prevented her from missing the flight.",
+        "promptZh": "她謹慎地預留額外時間，因此沒有錯過航班。",
+        "starter": "Her",
+        "answer": "Her decision to play it safe by leaving extra time prevented her from missing the flight.",
+        "answerZh": "她為求穩妥而預留額外時間，因此沒有錯過航班。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q19",
+        "number": 19,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "If the forecast remains uncertain, we will cancel the picnic rather than risk getting caught in a storm.",
+        "promptZh": "如果天氣預報仍然不明朗，我們會取消野餐，以免遇上暴風雨。",
+        "starter": "If",
+        "answer": "If the forecast remains uncertain, we’ll play it safe and cancel the picnic.",
+        "answerZh": "如果天氣預報仍然不明朗，我們便會穩妥一點，取消野餐。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q20",
+        "number": 20,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "To avoid a misunderstanding, ask the company to confirm the instructions in writing.",
+        "promptZh": "為免產生誤會，請公司以書面確認指示。",
+        "starter": "One",
+        "answer": "One way to play it safe is to ask the company to confirm the instructions in writing.",
+        "answerZh": "其中一個穩妥做法，是請公司以書面確認指示。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q21",
+        "number": 21,
+        "sourcePage": 20,
+        "sourcePages": [
+          20,
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The 8:00 train should arrive on time, but delays are possible. B: Then I will take the 7:30 train.",
+        "promptZh": "甲：8時的火車應該可以準時到達，但仍有可能延誤。 乙：那麼，我會乘搭7時30分的火車。",
+        "starter": "I’d",
+        "answer": "I’d play it safe and take the 7:30 train.",
+        "answerZh": "我會穩妥一點，乘搭7時30分的火車。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The laptop update should be fine. B: We should still make a backup first.",
+        "promptZh": "甲：手提電腦的更新應該不會有問題。 乙：我們仍然應該先製作後備副本。",
+        "starter": "Why",
+        "answer": "Why don’t we play it safe and make a backup first?",
+        "answerZh": "我們何不穩妥一點，先製作後備副本？",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q23",
+        "number": 23,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The director rejected every new idea and chose the familiar plan to avoid criticism. His colleagues said he was being too cautious.",
+        "promptZh": "主管拒絕了所有新構思，並選擇熟悉的方案，以免受到批評。他的同事認為他過分保守。",
+        "starter": "He",
+        "answer": "He was accused of playing it safe instead of considering a bolder plan.",
+        "answerZh": "他被指只顧採取保守做法，沒有考慮較大膽的方案。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "playing it safe"
+      },
+      {
+        "id": "idiom-100-q24",
+        "number": 24,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The hikers chose the marked path because nobody knew the condition of the other route.",
+        "promptZh": "遠足人士選擇了有標記的路徑，因為沒有人知道另一條路線的情況。",
+        "starter": "By",
+        "answer": "By choosing the marked path, the hikers played it safe.",
+        "answerZh": "遠足人士選擇有標記的路徑，採取了較穩妥的做法。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q25",
+        "number": 25,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The shop owner orders only a small amount of each new product until she knows whether customers want it.",
+        "promptZh": "店主每次只會少量訂購新產品，直至她知道顧客是否喜歡為止。",
+        "starter": "The",
+        "answer": "The shop owner usually plays it safe with new products and orders only a small amount at first.",
+        "answerZh": "店主處理新產品時通常較為保守，最初只會少量訂購。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "plays it safe"
+      },
+      {
+        "id": "idiom-100-q26",
+        "number": 26,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The idea has been tested carefully. Do not reject it only because it is new; consider the results first.",
+        "promptZh": "這個構思已經經過仔細測試。不要只因它是新的便拒絕它；應先考慮測試結果。",
+        "starter": "Don’t",
+        "answer": "Don’t play it safe just because the idea is new; consider the results first.",
+        "answerZh": "不要只因這個構思是新的便過分保守；應先考慮測試結果。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q27",
+        "number": 27,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: We have chosen the same familiar plan again because we fear making a mistake. B: Are we being sensible, or are we being too cautious?",
+        "promptZh": "甲：因為害怕犯錯，我們再次選擇了同一個熟悉的方案。 乙：我們是做法明智，還是過分保守？",
+        "starter": "Are",
+        "answer": "Are we playing it safe, or are we being unnecessarily cautious?",
+        "answerZh": "我們是在謹慎行事，還是過分保守？",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "playing it safe"
+      },
+      {
+        "id": "idiom-100-q28",
+        "number": 28,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The warning light had appeared twice, so I stopped the car.",
+        "promptZh": "警告燈已經亮起兩次，所以我停下了汽車。",
+        "starter": "I",
+        "answer": "I played it safe and stopped the car because the warning light had appeared twice.",
+        "answerZh": "由於警告燈已經亮起兩次，我為免冒險而停下了汽車。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q29",
+        "number": 29,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: We are not sure whether the venue is open. B: Shall we call before we leave?",
+        "promptZh": "甲：我們不肯定場地是否開放。 乙：我們出發前先致電確認好嗎？",
+        "starter": "To",
+        "answer": "To play it safe, shall we call the venue before leaving?",
+        "answerZh": "為求穩妥，我們出發前先致電場地確認好嗎？",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q30",
+        "number": 30,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The parents kept the children indoors until the storm had passed because they wanted to avoid danger.",
+        "promptZh": "父母為免發生危險，讓孩子留在室內，直至暴風雨過去。",
+        "starter": "The",
+        "answer": "The parents agreed to play it safe and keep the children indoors until the storm had passed.",
+        "answerZh": "父母決定採取穩妥做法，讓孩子留在室內，直至暴風雨過去。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q31",
+        "number": 31,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The first printer was cheaper, but nobody knew whether it was reliable, so we chose the tested model.",
+        "promptZh": "第一部打印機較便宜，但沒有人知道它是否可靠，因此我們選擇了經過測試的型號。",
+        "starter": "Although",
+        "answer": "Although the first printer was cheaper, we played it safe and chose the tested model.",
+        "answerZh": "雖然第一部打印機較便宜，但我們為求穩妥，選擇了經過測試的型號。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q32",
+        "number": 32,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Nobody knew whether the mountain path was open, so the guide used the main road.",
+        "promptZh": "沒有人知道山路是否開放，所以領隊使用了主要道路。",
+        "starter": "Since",
+        "answer": "Since nobody knew whether the mountain path was open, the guide decided to play it safe and use the main road.",
+        "answerZh": "由於沒有人知道山路是否開放，領隊決定採取穩妥做法，使用主要道路。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q33",
+        "number": 33,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "One mistake would ruin the whole project, so a cautious approach may be sensible.",
+        "promptZh": "一個錯誤便會破壞整個項目，因此採取謹慎做法可能是明智的。",
+        "starter": "Playing",
+        "answer": "Playing it safe can be sensible when one mistake would ruin the whole project.",
+        "answerZh": "如果一個錯誤便會破壞整個項目，採取穩妥做法可以是明智的。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "Playing it safe"
+      },
+      {
+        "id": "idiom-100-q34",
+        "number": 34,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The result is still unclear, so the manager may be acting cautiously by asking for one more test.",
+        "promptZh": "結果仍然不明朗，因此經理要求再進行一次測試，可能只是採取謹慎做法。",
+        "starter": "The",
+        "answer": "The manager may be playing it safe by asking for one more test.",
+        "answerZh": "經理要求再進行一次測試，可能只是在採取謹慎做法。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "playing it safe"
+      },
+      {
+        "id": "idiom-100-q35",
+        "number": 35,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The customer’s number was unclear, so I asked for confirmation instead of guessing.",
+        "promptZh": "顧客提供的數字並不清楚，所以我沒有猜測，而是要求對方確認。",
+        "starter": "Rather",
+        "answer": "Rather than guess, I chose to play it safe and asked the customer to confirm the number.",
+        "answerZh": "我沒有猜測，而是採取穩妥做法，請顧客確認數字。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q36",
+        "number": 36,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "We kept the original copy in case something went wrong while we edited the document.",
+        "promptZh": "我們保留了原有副本，以防編輯文件時出現問題。",
+        "starter": "It",
+        "answer": "It was sensible to play it safe and keep the original copy.",
+        "answerZh": "採取穩妥做法並保留原有副本是明智的。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Some people criticised the cautious plan, but it may simply have been good planning.",
+        "promptZh": "有些人批評這個謹慎的方案，但它可能只是良好的規劃。",
+        "starter": "What",
+        "answer": "What looked like playing it safe may simply have been good planning.",
+        "answerZh": "看似過分保守的做法，可能只是良好的規劃。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "playing it safe"
+      },
+      {
+        "id": "idiom-100-q38",
+        "number": 38,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "We intended to avoid risk by using the main road, but it closed before we left.",
+        "promptZh": "我們原本打算使用主要道路，以免冒險，但那條道路在我們出發前關閉了。",
+        "starter": "We",
+        "answer": "We had planned to play it safe by using the main road, but it closed before we left.",
+        "answerZh": "我們原本計劃使用主要道路以免冒險，但那條道路在我們出發前關閉了。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q39",
+        "number": 39,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The driver entered the thick fog instead of waiting. A cautious driver would have waited for it to clear.",
+        "promptZh": "司機沒有等待，而是駛進濃霧。謹慎的司機本來會等待霧氣散去。",
+        "starter": "Had",
+        "answer": "Had the driver played it safe, he would have waited for the fog to clear.",
+        "answerZh": "如果司機當時採取穩妥做法，他便會等待霧氣散去。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q40",
+        "number": 40,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "There was a lightning warning, so the teacher postponed the outdoor lesson.",
+        "promptZh": "當時發出了雷電警告，所以老師押後了戶外課堂。",
+        "starter": "Given",
+        "answer": "Given the lightning warning, the teacher chose to play it safe and postpone the outdoor lesson.",
+        "answerZh": "鑑於當時發出了雷電警告，老師選擇穩妥一點，押後戶外課堂。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q41",
+        "number": 41,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The client wanted something unusual, but only one day remained, so the designer chose a clean, simple layout.",
+        "promptZh": "顧客希望設計較為特別，但只剩下一天時間，所以設計師選擇了整潔而簡單的版面。",
+        "starter": "Even",
+        "answer": "Even though the client wanted something unusual, the designer played it safe with a clean, simple layout.",
+        "answerZh": "雖然顧客希望設計較為特別，但設計師採取了保守做法，使用整潔而簡單的版面。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Every change suggested by the team has already been tested successfully somewhere else, so the team appears cautious.",
+        "promptZh": "團隊提出的每項改動都已經在其他地方成功測試，因此團隊看來採取了謹慎做法。",
+        "starter": "The",
+        "answer": "The team seems to be playing it safe, since every suggested change has already been tested elsewhere.",
+        "answerZh": "團隊看來正在採取謹慎做法，因為每項建議改動都已經在其他地方測試。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "playing it safe"
+      },
+      {
+        "id": "idiom-100-q43",
+        "number": 43,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: I cannot tell whether the website sent my form. B: Send a brief confirmation message so that you do not risk missing the deadline.",
+        "promptZh": "甲：我無法確定網站是否已經送出我的表格。 乙：發送一則簡短訊息確認吧，以免錯過限期。",
+        "starter": "If",
+        "answer": "If you are unsure whether the website sent your form, play it safe and send a brief confirmation message.",
+        "answerZh": "如果你不肯定網站是否已經送出表格，穩妥起見，應發送一則簡短訊息確認。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q44",
+        "number": 44,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "We chose an earlier internal deadline in case the final check took longer than expected.",
+        "promptZh": "我們選擇了較早的內部限期，以防最後檢查所需的時間比預期長。",
+        "starter": "Choosing",
+        "answer": "Choosing an earlier deadline was our way of playing it safe in case the final check took longer.",
+        "answerZh": "我們選擇較早的限期，是為了穩妥一點，以防最後檢查需時較長。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "playing it safe"
+      },
+      {
+        "id": "idiom-100-q45",
+        "number": 45,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The organiser kept no extra seats free, and several unexpected guests had nowhere to sit. Keeping a few extra seats would have avoided the problem.",
+        "promptZh": "主辦人沒有預留額外座位，結果幾名意外到場的客人沒有座位。預留幾個額外座位本可避免這個問題。",
+        "starter": "The",
+        "answer": "The organiser could have played it safe by keeping a few extra seats free.",
+        "answerZh": "主辦人本來可以預留幾個額外座位，採取較穩妥的做法。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q46",
+        "number": 46,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Some people wanted the familiar route, while others wanted to try the new shortcut. They disagreed about whether caution was best.",
+        "promptZh": "有些人希望使用熟悉的路線，另一些人則希望嘗試新的捷徑。他們對採取謹慎做法是否最好意見不一。",
+        "starter": "Not",
+        "answer": "Not everyone agreed that playing it safe was the right choice; some wanted to try the new route.",
+        "answerZh": "並非所有人都同意採取穩妥做法才是正確選擇；有些人希望嘗試新路線。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "playing it safe"
+      },
+      {
+        "id": "idiom-100-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Why did you check the sender before opening the attachment? B: I did not recognise the file and did not want to take a risk.",
+        "promptZh": "甲：你為甚麼在開啟附件前先核對寄件人？ 乙：我不認得那個檔案，也不想冒險。",
+        "starter": "Before",
+        "answer": "Before opening the attachment, I played it safe and checked who had sent it.",
+        "answerZh": "開啟附件前，我為求穩妥，先核對了寄件人。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q48",
+        "number": 48,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Our choice between the cautious option and the risky option depends on how serious the cost of a delay would be.",
+        "promptZh": "我們應選擇謹慎方案還是冒險方案，取決於延誤會造成多嚴重的損失。",
+        "starter": "Whether",
+        "answer": "Whether we play it safe or take the risk depends on how much a delay would cost us.",
+        "answerZh": "我們應採取穩妥做法還是承擔風險，取決於延誤會令我們付出多大代價。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "play it safe"
+      },
+      {
+        "id": "idiom-100-q49",
+        "number": 49,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The director admitted that she had chosen the familiar plan because the team had only one day to prepare.",
+        "promptZh": "主管承認，由於團隊只有一天準備時間，她選擇了熟悉的方案。",
+        "starter": "The",
+        "answer": "The director admitted that she had played it safe because the team had only one day to prepare.",
+        "answerZh": "主管承認，由於團隊只有一天準備時間，她採取了較保守的做法。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "played it safe"
+      },
+      {
+        "id": "idiom-100-q50",
+        "number": 50,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "When the evidence is unclear, choosing the cautious option may be responsible rather than fearful.",
+        "promptZh": "當證據並不明確時，選擇謹慎做法可能是負責任，而不是膽怯。",
+        "starter": "When",
+        "answer": "When the evidence is unclear, playing it safe is not necessarily fear; it can be responsible judgement.",
+        "answerZh": "當證據並不明確時，採取穩妥做法不一定是膽怯，也可以是負責任的判斷。",
+        "targetForm": "play it safe",
+        "targetMeaning": "to behave carefully and avoid unnecessary risk, danger or possible failure",
+        "highlight": "playing it safe"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1231 @@
+{
+  "id": "ss330",
+  "order": 330,
+  "slug": "x-leaves-much-to-be-desired",
+  "title": "「X leaves much to be desired：表示某事物很不理想」",
+  "titleZh": "「X leaves much to be desired：表示某事物很不理想」",
+  "titleEn": "Using “X leaves much to be desired”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 328 -「X leaves much to be desired：表示某事物很不理想」.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sha256": "6724c1df0c5806a76c6cfc87bbba56d8be723042e71d090b8f908781483ae3f6",
+    "sourceNumber": 328,
+    "systemOrder": 330,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 328 maps to ss330: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "leave much to be desired",
+  "formulas": [
+    {
+      "id": "ss330-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "leave much to be desired"
+    }
+  ],
+  "example": "The quality of the final report leaves much to be desired.",
+  "exampleZh": "最終報告的質素很不理想。",
+  "examples": [
+    {
+      "id": "ss330-example-01",
+      "en": "The quality of the final report leaves much to be desired.",
+      "zh": "最終報告的質素很不理想。",
+      "highlight": "The quality of the final report leaves much to be desired."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss330-rule-01",
+      "zh": "必須配合主語和時態這項設計很不理想。 這些設施很不理想。 這項服務當時很不理想。 維修工作的質素一直未如理想。",
+      "en": "Leave The design leaves much to be desired. The facilities leave much to be desired. The service left much to be desired. The repairs have left much to be desired.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss330-rule-02",
+      "zh": "使用 much，不使用 many 以【Much】為例：在這裏表示「很多仍未達到理想的地方」。",
+      "en": "The service leaves much to be desired. The service leaves many to be desired.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss330-rule-03",
+      "zh": "固定部分是 to be desired，不可改成 to desire、to be desiring 或 to have desired；整個結構表示實際表現仍未達理想水平。",
+      "en": "to desire to be desiring to have desired The result leaves much to be desired.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss330-rule-04",
+      "zh": "這是一個相當強烈但較含蓄的批評這句比：【The report is terrible.】 語氣較克制和專業，但仍然表示報告存在明顯問題。",
+      "en": "The report leaves much to be desired. The report is terrible.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss330-rule-05",
+      "zh": "主語通常是事物、表現、質素或處理方式常見主語包括：【the service；the quality；the arrangements；the design；the explanation；the results；the way something was handled】 直接用一個人作主語有時會顯得過分籠統或針對個人。較清楚的寫法是指出其具體表現：【His attitude leaves much to be desired.】 他的態度很不理想。 他與顧客溝通的方式很不理想。 第二句更加具體。",
+      "en": "the service the quality the arrangements the design the explanation the results the way something was handled His attitude leaves much to be desired. The way he communicates with customers leaves much to be desired.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss330-rule-06",
+      "zh": "目標表達【A lot to be desired】是常見變體，但本課不使用這句在日常英語中很常見，但本練習統一使用：【leave much to be desired】",
+      "en": "A lot to be desired The service leaves a lot to be desired. leave much to be desired",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss330-rule-07",
+      "zh": "目標表達【Leaves nothing to be desired】表示相反意思這項服務無可挑剔。 這與本課所學的意思相反，因此不包括在答案中。",
+      "en": "Leaves nothing to be desired The service leaves nothing to be desired.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss330-benefit-01",
+      "zh": "這個句型讓你以較克制的方式提出批評。你不需要直接說某事物「非常差」，也能清楚指出它有明顯不足。第二句仍然是負面評價，但更加適合報告、評論、電郵及正式討論。",
+      "en": "It lets you criticise something in a controlled way. Instead of using a blunt sentence such as “The report is terrible”, you can give strong criticism in a more measured form. Compare: The report is terrible. The report leaves much to be desired.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss330-benefit-02",
+      "zh": "當某件事有多項不足時，你可以先用這個句型作整體評價，不必立即逐一列出所有問題。活動安排有很多不足之處。 之後可以再補充場地、時間安排、設備或溝通方面的問題。",
+      "en": "It summarises several weaknesses at once. You can use the expression when something has a number of problems but you do not need to list every problem immediately. The organisation of the event left much to be desired.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss330-benefit-03",
+      "zh": "這個句型可以讓你先承認優點，再指出不足，使評論更加平衡。雖然酒店位置方便，但其顧客服務很不理想。",
+      "en": "It helps you balance praise and criticism. You can recognise a positive point before identifying the weaker aspect. Although the hotel is conveniently located, its customer service leaves much to be desired.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss330-benefit-04",
+      "zh": "這個句型很適合用於產品評論、工作報告、學術評語、顧客投訴及專業反饋。",
+      "en": "It is useful in reviews, reports and professional feedback. The expression can describe weak quality, poor performance, inadequate planning or unsatisfactory service.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss330-benefit-05",
+      "zh": "這個固定說法可以配合簡單句、問句、從句、引述句及焦點句式，讓學生不必反覆使用完全相同的句子排列。",
+      "en": "It gives you several sentence-building choices. The fixed expression can appear in simple sentences, questions, subordinate clauses, reporting structures and focus structures.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 328 maps to ss330: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the appropriate form of leave much to be desired.",
+      "You may need to change the tense, subject–verb agreement or sentence organisation.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 leave much to be desired 的適當形式改寫以下句子。",
+      "你可能需要改變時態、主謂配合或句子組織。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss330-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The final report is very unsatisfactory.",
+      "promptZh": "最終報告很不理想。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final report leaves much to be desired.",
+      "answerZh": "最終報告很不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "The final report leaves much to be desired."
+    },
+    {
+      "id": "ss330-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hotel service is far from satisfactory, although the rooms are clean.",
+      "promptZh": "酒店服務遠未如理想，儘管房間十分整潔。",
+      "promptZhSource": "pdf",
+      "starter": "Hotel",
+      "answer": "Hotel service leaves much to be desired, although the rooms are clean.",
+      "answerZh": "酒店服務遠未如理想，儘管房間十分整潔。",
+      "answerZhSource": "pdf",
+      "highlight": "Hotel service leaves much to be desired, although the rooms are clean."
+    },
+    {
+      "id": "ss330-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The search function on this website needs considerable improvement.",
+      "promptZh": "這個網站的搜尋功能大有改善空間。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This website’s search function leaves much to be desired.",
+      "answerZh": "這個網站的搜尋功能大有改善空間。",
+      "answerZhSource": "pdf",
+      "highlight": "This website’s search function leaves much to be desired."
+    },
+    {
+      "id": "ss330-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "These instructions have many weaknesses, so users often become confused.",
+      "promptZh": "這些指示有很多不足，因此用戶經常感到困惑。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These instructions leave much to be desired, so users often become confused.",
+      "answerZh": "這些指示有很多不足，因此用戶經常感到困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "These instructions leave much to be desired, so users often become confused."
+    },
+    {
+      "id": "ss330-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school lunches have been below expectations this term.",
+      "promptZh": "本學期的學校午餐一直低於預期。",
+      "promptZhSource": "pdf",
+      "starter": "School",
+      "answer": "School lunches leave much to be desired this term.",
+      "answerZh": "本學期的學校午餐一直低於預期。",
+      "answerZhSource": "pdf",
+      "highlight": "School lunches leave much to be desired this term."
+    },
+    {
+      "id": "ss330-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Communication within the team is not nearly as effective as it should be.",
+      "promptZh": "團隊內部的溝通遠未達到應有水平。",
+      "promptZhSource": "pdf",
+      "starter": "Team",
+      "answer": "Team communication leaves much to be desired.",
+      "answerZh": "團隊內部的溝通遠未達到應有水平。",
+      "answerZhSource": "pdf",
+      "highlight": "Team communication leaves much to be desired."
+    },
+    {
+      "id": "ss330-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The location is convenient, but the cleanliness of the toilets is unacceptable.",
+      "promptZh": "地點很方便，但洗手間的清潔情況令人難以接受。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the location is convenient, the cleanliness of the toilets leaves much to be desired.",
+      "answerZh": "雖然地點很方便，但洗手間的清潔情況很不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the location is convenient, the cleanliness of the toilets leaves much to be desired."
+    },
+    {
+      "id": "ss330-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Several parts of the new timetable have serious problems.",
+      "promptZh": "新時間表有幾個部分存在嚴重問題。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several parts of the new timetable leave much to be desired.",
+      "answerZh": "新時間表有幾個部分存在嚴重不足。",
+      "answerZhSource": "pdf",
+      "highlight": "Several parts of the new timetable leave much to be desired."
+    },
+    {
+      "id": "ss330-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The sound quality is poor despite the expensive equipment.",
+      "promptZh": "儘管設備昂貴，音質仍然很差。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite the expensive equipment, the sound quality leaves much to be desired.",
+      "answerZh": "儘管設備昂貴，音質仍然很不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the expensive equipment, the sound quality leaves much to be desired."
+    },
+    {
+      "id": "ss330-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Customer support is far from ideal at weekends.",
+      "promptZh": "週末的顧客服務遠未如理想。",
+      "promptZhSource": "pdf",
+      "starter": "Customer",
+      "answer": "Customer support leaves much to be desired at weekends.",
+      "answerZh": "週末的顧客服務遠未如理想。",
+      "answerZhSource": "pdf",
+      "highlight": "Customer support leaves much to be desired at weekends."
+    },
+    {
+      "id": "ss330-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The staff uniforms look smart, but the service is unsatisfactory.",
+      "promptZh": "職員制服看起來很整齊，但服務並不理想。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the staff uniforms look smart, the service leaves much to be desired.",
+      "answerZh": "雖然職員制服看起來很整齊，但服務並不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the staff uniforms look smart, the service leaves much to be desired."
+    },
+    {
+      "id": "ss330-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organisation of last night’s event was poor.",
+      "promptZh": "昨晚活動的安排很差。",
+      "promptZhSource": "pdf",
+      "starter": "Last",
+      "answer": "Last night’s event organisation left much to be desired.",
+      "answerZh": "昨晚活動的安排很不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "Last night’s event organisation left much to be desired."
+    },
+    {
+      "id": "ss330-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Both the lighting and the seating are below the expected standard.",
+      "promptZh": "燈光和座位均低於預期標準。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lighting and seating both leave much to be desired.",
+      "answerZh": "燈光和座位均低於預期標準。",
+      "answerZhSource": "pdf",
+      "highlight": "The lighting and seating both leave much to be desired."
+    },
+    {
+      "id": "ss330-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The repairs completed since March have been unsatisfactory.",
+      "promptZh": "三月以來完成的維修工作一直未如理想。",
+      "promptZhSource": "pdf",
+      "starter": "Repairs",
+      "answer": "Repairs completed since March have left much to be desired.",
+      "answerZh": "三月以來完成的維修工作一直未如理想。",
+      "answerZhSource": "pdf",
+      "highlight": "Repairs completed since March have left much to be desired."
+    },
+    {
+      "id": "ss330-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The first draft remains seriously inadequate.",
+      "promptZh": "第一稿仍然有嚴重不足。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first draft still leaves much to be desired.",
+      "answerZh": "第一稿仍然有嚴重不足。",
+      "answerZhSource": "pdf",
+      "highlight": "The first draft still leaves much to be desired."
+    },
+    {
+      "id": "ss330-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The mobile application may be disappointing unless it receives further updates.",
+      "promptZh": "除非這個流動應用程式得到進一步更新，否則它可能會令人失望。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without further updates, the mobile application may leave much to be desired.",
+      "answerZh": "如果沒有進一步更新，這個流動應用程式可能會令人失望。",
+      "answerZhSource": "pdf",
+      "highlight": "Without further updates, the mobile application may leave much to be desired."
+    },
+    {
+      "id": "ss330-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The old booking system was highly unsatisfactory before it was replaced.",
+      "promptZh": "舊預約系統在被更換前非常不理想。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before it was replaced, the old booking system left much to be desired.",
+      "answerZh": "舊預約系統在被更換前非常不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "Before it was replaced, the old booking system left much to be desired."
+    },
+    {
+      "id": "ss330-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The inspectors found the safety arrangements inadequate.",
+      "promptZh": "檢查人員認為安全安排並不足夠。",
+      "promptZhSource": "pdf",
+      "starter": "Inspectors",
+      "answer": "Inspectors found that the safety arrangements left much to be desired.",
+      "answerZh": "檢查人員認為安全安排有很多不足之處。",
+      "answerZhSource": "pdf",
+      "highlight": "Inspectors found that the safety arrangements left much to be desired."
+    },
+    {
+      "id": "ss330-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Is the after-sales service below an acceptable standard?",
+      "promptZh": "售後服務是否低於可接受水平？",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does the after-sales service leave much to be desired?",
+      "answerZh": "售後服務是否低於可接受水平？",
+      "answerZhSource": "pdf",
+      "highlight": "Does the after-sales service leave much to be desired?"
+    },
+    {
+      "id": "ss330-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Why was the explanation so unsatisfactory?",
+      "promptZh": "為甚麼這項解釋如此不理想？",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why did the explanation leave much to be desired?",
+      "answerZh": "為甚麼這項解釋如此不理想？",
+      "answerZhSource": "pdf",
+      "highlight": "Why did the explanation leave much to be desired?"
+    },
+    {
+      "id": "ss330-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The report looks attractive, but its supporting evidence is weak.",
+      "promptZh": "報告看起來很吸引，但支持理據十分薄弱。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the report looks attractive, its supporting evidence leaves much to be desired.",
+      "answerZh": "雖然報告看起來很吸引，但其支持理據十分薄弱。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the report looks attractive, its supporting evidence leaves much to be desired."
+    },
+    {
+      "id": "ss330-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The course is popular. However, its practical training is inadequate.",
+      "promptZh": "這個課程很受歡迎。然而，其實務訓練並不足夠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course is popular, but its practical training leaves much to be desired.",
+      "answerZh": "這個課程很受歡迎，但其實務訓練有很多不足之處。",
+      "answerZhSource": "pdf",
+      "highlight": "The course is popular, but its practical training leaves much to be desired."
+    },
+    {
+      "id": "ss330-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The most unsatisfactory aspect is the accuracy of the figures.",
+      "promptZh": "最不理想的方面是數字的準確性。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What leaves much to be desired is the accuracy of the figures.",
+      "answerZh": "最不理想的是數字的準確性。",
+      "answerZhSource": "pdf",
+      "highlight": "What leaves much to be desired is the accuracy of the figures."
+    },
+    {
+      "id": "ss330-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The response time is the most disappointing part of the service.",
+      "promptZh": "回應時間是這項服務最令人失望的部分。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is the response time that leaves much to be desired.",
+      "answerZh": "最令人失望的是服務的回應時間。",
+      "answerZhSource": "pdf",
+      "highlight": "It is the response time that leaves much to be desired."
+    },
+    {
+      "id": "ss330-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The building is poorly designed in terms of accessibility.",
+      "promptZh": "這座建築物在無障礙設計方面很不理想。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of accessibility, the building leaves much to be desired.",
+      "answerZh": "這座建築物在無障礙設計方面很不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of accessibility, the building leaves much to be desired."
+    },
+    {
+      "id": "ss330-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Many reviewers believe the camera’s battery life is disappointing.",
+      "promptZh": "很多評論者認為這部相機的電池續航力令人失望。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many reviewers believe that the camera’s battery life leaves much to be desired.",
+      "answerZh": "很多評論者認為這部相機的電池續航力令人失望。",
+      "answerZhSource": "pdf",
+      "highlight": "Many reviewers believe that the camera’s battery life leaves much to be desired."
+    },
+    {
+      "id": "ss330-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The revised plan is more detailed, but its control of costs is still weak.",
+      "promptZh": "修訂後的計劃更加詳細，但成本控制仍然不足。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The revised plan, while more detailed, still leaves much to be desired in terms of cost control.",
+      "answerZh": "修訂後的計劃雖然更加詳細，但在成本控制方面仍然有很多不足。",
+      "answerZhSource": "pdf",
+      "highlight": "The revised plan, while more detailed, still leaves much to be desired in terms of cost control."
+    },
+    {
+      "id": "ss330-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The system is generally regarded as highly unsatisfactory in terms of privacy.",
+      "promptZh": "這個系統在私隱保障方面普遍被認為很不理想。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The system is generally considered to leave much to be desired in terms of privacy.",
+      "answerZh": "這個系統在私隱保障方面普遍被認為很不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "The system is generally considered to leave much to be desired in terms of privacy."
+    },
+    {
+      "id": "ss330-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The survey showed that the area’s transport links were very unsatisfactory.",
+      "promptZh": "調查顯示，該區的交通連接很不理想。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The survey showed that the area’s transport links left much to be desired.",
+      "answerZh": "調查顯示，該區的交通連接很不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "The survey showed that the area’s transport links left much to be desired."
+    },
+    {
+      "id": "ss330-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The complaint procedure is unclear and incomplete, so many customers give up.",
+      "promptZh": "投訴程序既不清晰又不完整，因此很多顧客選擇放棄。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the complaint procedure leaves much to be desired, many customers give up.",
+      "answerZh": "由於投訴程序既不清晰又不完整，很多顧客選擇放棄。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the complaint procedure leaves much to be desired, many customers give up."
+    },
+    {
+      "id": "ss330-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The revised handbook still has serious weaknesses, even though several sections were rewritten.",
+      "promptZh": "雖然手冊有數個部分經過重寫，但修訂版本仍有嚴重不足。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though several sections were rewritten, the revised handbook still leaves much to be desired.",
+      "answerZh": "雖然手冊有數個部分經過重寫，但修訂版本仍有嚴重不足。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though several sections were rewritten, the revised handbook still leaves much to be desired."
+    },
+    {
+      "id": "ss330-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The quality of the translation remains poor after two rounds of editing.",
+      "promptZh": "經過兩輪編輯後，翻譯質素仍然很差。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After two rounds of editing, the quality of the translation still leaves much to be desired.",
+      "answerZh": "經過兩輪編輯後，翻譯質素仍然很不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "After two rounds of editing, the quality of the translation still leaves much to be desired."
+    },
+    {
+      "id": "ss330-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The way the manager handled the dispute was highly unsatisfactory.",
+      "promptZh": "經理處理爭議的方式非常不理想。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The way the manager handled the dispute left much to be desired.",
+      "answerZh": "經理處理爭議的方式非常不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "The way the manager handled the dispute left much to be desired."
+    },
+    {
+      "id": "ss330-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The laboratory equipment is modern, but the maintenance standards are poor.",
+      "promptZh": "實驗室設備很現代化，但保養標準很差。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the laboratory equipment is modern, the maintenance standards leave much to be desired.",
+      "answerZh": "雖然實驗室設備很現代化，但保養標準很不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the laboratory equipment is modern, the maintenance standards leave much to be desired."
+    },
+    {
+      "id": "ss330-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The proposal is ambitious. However, its explanation of the costs is inadequate.",
+      "promptZh": "這項建議很有抱負。然而，它對成本的解釋並不足夠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal is ambitious; however, its explanation of the costs leaves much to be desired.",
+      "answerZh": "這項建議很有抱負；然而，它對成本的解釋有很多不足。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal is ambitious; however, its explanation of the costs leaves much to be desired."
+    },
+    {
+      "id": "ss330-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The council’s response has repeatedly failed to meet public expectations.",
+      "promptZh": "市議會的回應一再未能達到公眾期望。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council’s response has repeatedly left much to be desired.",
+      "answerZh": "市議會的回應一再未能達到公眾期望。",
+      "answerZhSource": "pdf",
+      "highlight": "The council’s response has repeatedly left much to be desired."
+    },
+    {
+      "id": "ss330-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Unless the software is redesigned, its usability will remain highly unsatisfactory.",
+      "promptZh": "除非軟件重新設計，否則其易用性仍會非常不理想。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless the software is redesigned, its usability will continue to leave much to be desired.",
+      "answerZh": "除非軟件重新設計，否則其易用性仍會非常不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless the software is redesigned, its usability will continue to leave much to be desired."
+    },
+    {
+      "id": "ss330-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A training programme can be disappointing when it offers theory without practical experience.",
+      "promptZh": "當培訓課程只提供理論而沒有實際經驗時，它可能會令人失望。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training programme can leave much to be desired when it offers theory without practical experience.",
+      "answerZh": "當培訓課程只提供理論而沒有實際經驗時，它可能會令人失望。",
+      "answerZhSource": "pdf",
+      "highlight": "The training programme can leave much to be desired when it offers theory without practical experience."
+    },
+    {
+      "id": "ss330-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Could the hospital’s appointment system be described as far from satisfactory?",
+      "promptZh": "醫院的預約系統是否可以被形容為遠未如理想？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could the hospital’s appointment system be said to leave much to be desired?",
+      "answerZh": "醫院的預約系統是否可以被形容為遠未如理想？",
+      "answerZhSource": "pdf",
+      "highlight": "Could the hospital’s appointment system be said to leave much to be desired?"
+    },
+    {
+      "id": "ss330-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The panel concluded that the report was unsatisfactory in both structure and evidence.",
+      "promptZh": "評審小組認為，這份報告在結構和理據方面均不理想。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The panel concluded that the report left much to be desired in both structure and evidence.",
+      "answerZh": "評審小組認為，這份報告在結構和理據方面均不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "The panel concluded that the report left much to be desired in both structure and evidence."
+    },
+    {
+      "id": "ss330-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The revised policy is clearer than the original, but its explanation of how complaints will be investigated is still inadequate.",
+      "promptZh": "修訂後的政策比原本的版本清晰，但對投訴調查方式的解釋仍然不足。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the revised policy is clearer than the original, its explanation of how complaints will be investigated still leaves much to be desired.",
+      "answerZh": "雖然修訂後的政策比原本的版本清晰，但對投訴調查方式的解釋仍然不足。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the revised policy is clearer than the original, its explanation of how complaints will be investigated still leaves much to be desired."
+    },
+    {
+      "id": "ss330-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The company has improved delivery speed, but order accuracy remains disappointing.",
+      "promptZh": "公司改善了送貨速度，但訂單準確度仍然令人失望。",
+      "promptZhSource": "pdf",
+      "starter": "Delivery",
+      "answer": "Delivery speed has improved, but order accuracy still leaves much to be desired.",
+      "answerZh": "送貨速度已經改善，但訂單準確度仍然令人失望。",
+      "answerZhSource": "pdf",
+      "highlight": "Delivery speed has improved, but order accuracy still leaves much to be desired."
+    },
+    {
+      "id": "ss330-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The committee excluded part-time staff and remote workers, so its consultation process was inadequate.",
+      "promptZh": "委員會沒有讓兼職員工和遙距工作人員參與，因此其諮詢程序並不足夠。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By excluding part-time staff and remote workers, the committee’s consultation process left much to be desired.",
+      "answerZh": "委員會沒有讓兼職員工和遙距工作人員參與，因此其諮詢程序並不足夠。",
+      "answerZhSource": "pdf",
+      "highlight": "By excluding part-time staff and remote workers, the committee’s consultation process left much to be desired."
+    },
+    {
+      "id": "ss330-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The idea itself was not the main problem. The way it was introduced was highly unsatisfactory.",
+      "promptZh": "構思本身並非主要問題；真正不理想的是介紹構思的方式。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the way the idea was introduced, rather than the idea itself, that left much to be desired.",
+      "answerZh": "真正不理想的是介紹構思的方式，而不是構思本身。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the way the idea was introduced, rather than the idea itself, that left much to be desired."
+    },
+    {
+      "id": "ss330-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Experts say that the building’s energy performance is still below an acceptable standard despite recent renovations.",
+      "promptZh": "專家表示，儘管建築物最近經過翻新，其能源效益仍低於可接受水平。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite recent renovations, the building’s energy performance is said to leave much to be desired.",
+      "answerZh": "儘管建築物最近經過翻新，其能源效益據稱仍低於可接受水平。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite recent renovations, the building’s energy performance is said to leave much to be desired."
+    },
+    {
+      "id": "ss330-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "If the final version remains as weak as the draft, the board will reject it.",
+      "promptZh": "如果最終版本仍然像草稿一樣薄弱，董事會便會拒絕它。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the final version continues to leave much to be desired, the board will reject it.",
+      "answerZh": "如果最終版本仍然有明顯不足，董事會便會拒絕它。",
+      "answerZhSource": "pdf",
+      "highlight": "If the final version continues to leave much to be desired, the board will reject it."
+    },
+    {
+      "id": "ss330-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The service was so unsatisfactory that several long-term customers cancelled their accounts.",
+      "promptZh": "這項服務非常不理想，以致數名長期顧客取消了戶口。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the service left much to be desired, several long-term customers cancelled their accounts.",
+      "answerZh": "由於這項服務很不理想，數名長期顧客取消了戶口。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the service left much to be desired, several long-term customers cancelled their accounts."
+    },
+    {
+      "id": "ss330-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The revised safety plan is still inadequate in several important areas, so it should not yet be approved.",
+      "promptZh": "修訂後的安全計劃在數個重要範疇仍然不足，因此暫時不應獲得批准。",
+      "promptZhSource": "pdf",
+      "starter": "Still",
+      "answer": "Still leaving much to be desired in several important areas, the revised safety plan should not yet be approved.",
+      "answerZh": "修訂後的安全計劃在數個重要範疇仍然不足，因此暫時不應獲得批准。",
+      "answerZhSource": "pdf",
+      "highlight": "Still leaving much to be desired in several important areas, the revised safety plan should not yet be approved."
+    },
+    {
+      "id": "ss330-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The audit found major weaknesses in record-keeping, staff training and data security.",
+      "promptZh": "審計發現，檔案管理、員工培訓和數據保安均存在重大不足。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the audit, record-keeping, staff training and data security all left much to be desired.",
+      "answerZh": "根據審計結果，檔案管理、員工培訓和數據保安均存在重大不足。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the audit, record-keeping, staff training and data security all left much to be desired."
+    },
+    {
+      "id": "ss330-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Although the project met its deadline and budget, its long-term planning, risk control and public communication were all unsatisfactory.",
+      "promptZh": "雖然項目按時完成並符合預算，但其長遠規劃、風險控制和公眾溝通均不理想。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite meeting its deadline and budget, the project still left much to be desired in long-term planning, risk control and public communication.",
+      "answerZh": "儘管項目按時完成並符合預算，但其長遠規劃、風險控制和公眾溝通仍然很不理想。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite meeting its deadline and budget, the project still left much to be desired in long-term planning, risk control and public communication."
+    }
+  ]
+}

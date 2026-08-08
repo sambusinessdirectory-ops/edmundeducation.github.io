@@ -50,7 +50,7 @@ declare
   v_key_count integer;
   v_has_correction_state boolean;
 begin
-  if p_lesson_id !~ '^ss([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-6][0-9]|27[0-5])$'
+  if p_lesson_id !~ '^ss([1-9]|[1-9][0-9]|[12][0-9]{2}|3[0-3][0-9]|34[0-5])$'
     or p_result is null
     or jsonb_typeof(p_result) <> 'object'
     or octet_length(p_result::text) > 98304
@@ -239,7 +239,7 @@ declare
 begin
   if p_bookmarks is null
     or jsonb_typeof(p_bookmarks) <> 'array'
-    or jsonb_array_length(p_bookmarks) > 16000
+    or jsonb_array_length(p_bookmarks) > 20000
     or octet_length(p_bookmarks::text) > 2097152
   then
     return false;
@@ -257,7 +257,7 @@ begin
         where key_name not in ('lessonId', 'questionId', 'includeAnswer')
       )
       or jsonb_typeof(v_item -> 'lessonId') <> 'string'
-      or coalesce(v_item ->> 'lessonId', '') !~ '^ss([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-6][0-9]|27[0-5])$'
+      or coalesce(v_item ->> 'lessonId', '') !~ '^ss([1-9]|[1-9][0-9]|[12][0-9]{2}|3[0-3][0-9]|34[0-5])$'
       or jsonb_typeof(v_item -> 'questionId') <> 'string'
       or (
         coalesce(v_item ->> 'questionId', '') <> '__section__'
@@ -335,7 +335,7 @@ create table if not exists public.sentence_structure_attempts (
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   constraint sentence_structure_attempts_lesson_id_check
-    check (lesson_id ~ '^ss([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-6][0-9]|27[0-5])$'),
+    check (lesson_id ~ '^ss([1-9]|[1-9][0-9]|[12][0-9]{2}|3[0-3][0-9]|34[0-5])$'),
   check (lesson_version = '1'),
   check (status in ('in_progress', 'completed')),
   check (round_number between 1 and 1000),
@@ -370,7 +370,7 @@ create table if not exists public.sentence_structure_bookmarks (
   updated_at timestamptz not null default now(),
   primary key (student_id, lesson_id, question_id),
   constraint sentence_structure_bookmarks_lesson_id_check
-    check (lesson_id ~ '^ss([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-6][0-9]|27[0-5])$'),
+    check (lesson_id ~ '^ss([1-9]|[1-9][0-9]|[12][0-9]{2}|3[0-3][0-9]|34[0-5])$'),
   constraint sentence_structure_bookmarks_question_id_check
     check (
       (question_id = '__section__' and include_answer = false)
@@ -680,7 +680,7 @@ begin
   end if;
 
   if p_id is null
-    or p_lesson_id !~ '^ss([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-6][0-9]|27[0-5])$'
+    or p_lesson_id !~ '^ss([1-9]|[1-9][0-9]|[12][0-9]{2}|3[0-3][0-9]|34[0-5])$'
     or p_lesson_version <> '1'
     or p_status not in ('in_progress', 'completed')
     or p_round_number not between 1 and 1000
@@ -1041,7 +1041,7 @@ security definer
 set search_path = ''
 as $$
 begin
-  if p_offset not between 0 and 16000
+  if p_offset not between 0 and 20000
     or p_limit not between 1 and 1000
   then
     raise exception 'Invalid bookmark page' using errcode = '22023';
@@ -1226,7 +1226,7 @@ begin
   if public._sentence_structure_admin_id(p_admin_token) is null then
     return;
   end if;
-  if p_offset not between 0 and 16000
+  if p_offset not between 0 and 20000
     or p_limit not between 1 and 1000
   then
     raise exception 'Invalid bookmark page' using errcode = '22023';

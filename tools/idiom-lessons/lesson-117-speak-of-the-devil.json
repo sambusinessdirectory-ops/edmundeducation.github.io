@@ -1,0 +1,1503 @@
+{
+  "lesson": {
+    "id": "idiom-117",
+    "order": 117,
+    "slug": "speak-of-the-devil",
+    "version": "1",
+    "title": "說曹操，曹操到／剛提起便出現",
+    "titleEn": "speak of the devil",
+    "titleZh": "說曹操，曹操到／剛提起便出現",
+    "source": {
+      "file": "Idiom 117 - “Speak of the Devil”.pdf",
+      "pageCount": 33,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "exercisePdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "answerKeyPdfPages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "speak of the devil",
+        "highlight": "speak of the devil"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Speak of the devil—Leo has just walked into the café!",
+        "zh": "說到 Leo,Leo 就走進咖啡店了！",
+        "highlight": "Speak of the devil"
+      }
+    ],
+    "meaning": {
+      "en": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+      "zh": "當你剛剛談及某人，而那個人突然或意外出現時所說的話",
+      "naturalZh": [
+        "當你剛剛談及某人，而那個人突然或意外出現時所說的話"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "The expression is informal and mainly spoken.",
+      "summaryZh": "這個表達屬於非正式用語，主要用於口語。",
+      "contextsEn": [
+        "friends",
+        "relatives",
+        "classmates",
+        "familiar colleagues",
+        "people taking part in a relaxed social conversation",
+        "playful surprise",
+        "amusement",
+        "friendliness",
+        "light teasing",
+        "a sense of coincidence",
+        "somebody who does not know the expression",
+        "a person in a highly formal setting"
+      ],
+      "contextsZh": [],
+      "formalEn": "In formal writing, a plain description is usually more suitable:",
+      "formalZh": "雖然大部分說話者都沒有侮辱對方的意思，但如果對方不熟悉這個慣用語、身處非常正式的場合、對宗教字眼較敏感，或可能誤以為你把他比作魔鬼，便應避免使用。"
+    },
+    "fixedVariable": {
+      "fixed": "speak of the devil",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "speak of the devil",
+          "example": "Speak of the devil—Leo has just walked into the café!",
+          "highlight": "Speak of the devil"
+        },
+        {
+          "form": "speak of the devil",
+          "example": "Speak of the devil—Leo has just walked into the café!",
+          "highlight": "Speak of the devil"
+        },
+        {
+          "form": "speak of the devil",
+          "example": "Speak of the devil—Leo has just walked into the café!",
+          "highlight": "Speak of the devil"
+        },
+        {
+          "form": "Speak of the devil + appearance or contact clause.",
+          "example": "Speak of the devil—Leo has just walked into the café!",
+          "highlight": "Speak of the devil"
+        },
+        {
+          "form": "speak of the devil",
+          "example": "Speak of the devil—Leo has just walked into the café!",
+          "highlight": "Speak of the devil"
+        },
+        {
+          "form": "Context + when—speak of the devil—person appears.",
+          "example": "Speak of the devil—Leo has just walked into the café!",
+          "highlight": "Speak of the devil"
+        },
+        {
+          "form": "“Speak of the devil!” + reporting clause.",
+          "example": "Speak of the devil—Leo has just walked into the café!",
+          "highlight": "Speak of the devil"
+        },
+        {
+          "form": "speak of the devil",
+          "example": "Speak of the devil—Leo has just walked into the café!",
+          "highlight": "Speak of the devil"
+        },
+        {
+          "form": "Dialogue turn + Speak of the devil!",
+          "example": "Speak of the devil—Leo has just walked into the café!",
+          "highlight": "Speak of the devil"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Speak of the devil",
+        "titleZh": "句式一",
+        "formula": "speak of the devil",
+        "descriptionEn": "Source grammar frame: speak of the devil.",
+        "descriptionZh": "原檔列出的句法框架：speak of the devil。",
+        "examples": [
+          {
+            "en": "Speak of the devil—Leo has just walked into the café!",
+            "zh": "說到 Leo,Leo 就走進咖啡店了！",
+            "highlight": "Speak of the devil"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Oh / Well / And, speak of the devil",
+        "titleZh": "句式二",
+        "formula": "speak of the devil",
+        "descriptionEn": "Source grammar frame: speak of the devil.",
+        "descriptionZh": "原檔列出的句法框架：speak of the devil。",
+        "examples": [
+          {
+            "en": "Speak of the devil—Leo has just walked into the café!",
+            "zh": "說到 Leo,Leo 就走進咖啡店了！",
+            "highlight": "Speak of the devil"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Speak of the devil—here he or she is",
+        "titleZh": "句式三",
+        "formula": "speak of the devil",
+        "descriptionEn": "Source grammar frame: speak of the devil.",
+        "descriptionZh": "原檔列出的句法框架：speak of the devil。",
+        "examples": [
+          {
+            "en": "Speak of the devil—Leo has just walked into the café!",
+            "zh": "說到 Leo,Leo 就走進咖啡店了！",
+            "highlight": "Speak of the devil"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Speak of the devil + appearance or contact clause",
+        "titleZh": "句式四",
+        "formula": "Speak of the devil + appearance or contact clause.",
+        "descriptionEn": "Source grammar frame: Speak of the devil + appearance or contact clause.",
+        "descriptionZh": "原檔列出的句法框架：Speak of the devil + appearance or contact clause。",
+        "examples": [
+          {
+            "en": "Speak of the devil—Leo has just walked into the café!",
+            "zh": "說到 Leo,Leo 就走進咖啡店了！",
+            "highlight": "Speak of the devil"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Context clause—speak of the devil",
+        "titleZh": "句式五",
+        "formula": "speak of the devil",
+        "descriptionEn": "Source grammar frame: speak of the devil.",
+        "descriptionZh": "原檔列出的句法框架：speak of the devil。",
+        "examples": [
+          {
+            "en": "Speak of the devil—Leo has just walked into the café!",
+            "zh": "說到 Leo,Leo 就走進咖啡店了！",
+            "highlight": "Speak of the devil"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Context + when—speak of the devil—person appears",
+        "titleZh": "句式六",
+        "formula": "Context + when—speak of the devil—person appears.",
+        "descriptionEn": "Source grammar frame: Context + when—speak of the devil—person appears.",
+        "descriptionZh": "原檔列出的句法框架：Context + when—speak of the devil—person appears。",
+        "examples": [
+          {
+            "en": "Speak of the devil—Leo has just walked into the café!",
+            "zh": "說到 Leo,Leo 就走進咖啡店了！",
+            "highlight": "Speak of the devil"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“Speak of the devil!” + reporting clause",
+        "titleZh": "句式七",
+        "formula": "“Speak of the devil!” + reporting clause.",
+        "descriptionEn": "Source grammar frame: “Speak of the devil!” + reporting clause.",
+        "descriptionZh": "原檔列出的句法框架：“Speak of the devil! ” + reporting clause。",
+        "examples": [
+          {
+            "en": "Speak of the devil—Leo has just walked into the café!",
+            "zh": "說到 Leo,Leo 就走進咖啡店了！",
+            "highlight": "Speak of the devil"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Appearance clause. Speak of the devil",
+        "titleZh": "句式八",
+        "formula": "speak of the devil",
+        "descriptionEn": "Source grammar frame: speak of the devil.",
+        "descriptionZh": "原檔列出的句法框架：speak of the devil。",
+        "examples": [
+          {
+            "en": "Speak of the devil—Leo has just walked into the café!",
+            "zh": "說到 Leo,Leo 就走進咖啡店了！",
+            "highlight": "Speak of the devil"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Dialogue turn + Speak of the devil",
+        "titleZh": "句式九",
+        "formula": "Dialogue turn + Speak of the devil!",
+        "descriptionEn": "Source grammar frame: Dialogue turn + Speak of the devil!.",
+        "descriptionZh": "原檔列出的句法框架：Dialogue turn + Speak of the devil!。",
+        "examples": [
+          {
+            "en": "Speak of the devil—Leo has just walked into the café!",
+            "zh": "說到 Leo,Leo 就走進咖啡店了！",
+            "highlight": "Speak of the devil"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Marks an Amusing Coincidence",
+        "titleZh": "指出有趣的巧合",
+        "en": "The second version expresses the speaker’s surprise and amusement rather than merely reporting two facts.",
+        "zh": "第二個版本不只是報告兩件事，還表達說話者對巧合的驚訝和趣味。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Provides an Immediate Conversational Reaction",
+        "titleZh": "提供即時的對話反應",
+        "en": "The expression is a ready-made response. A speaker can react immediately without creating a long explanation.",
+        "zh": "這是一個現成的對話回應。 說話者可以即時作出反應，不需要先組織一段很長的解釋。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Helps Welcome the Arriving Person into the Conversation",
+        "titleZh": "讓剛到場的人加入對話",
+        "en": "The expression can direct everyone’s attention towards the newly arrived person.",
+        "zh": "真巧！ 我們剛剛才在討論你的想法。 這個表達可以把大家的注意力轉向剛到場的人。",
+        "examples": [
+          {
+            "en": "Speak of the devil! We were just discussing your idea.",
+            "zh": "真巧！我們剛剛才在討論你的想法。",
+            "highlight": "Speak of the devil"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Adds Playful Surprise",
+        "titleZh": "加入輕鬆的驚訝語氣",
+        "en": "The second sentence shows that Daniel’s arrival is surprising because he was being discussed.",
+        "zh": "第二句表示 Daniel 的出現十分巧合，因為大家剛才正在談論他。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful for Calls and Messages",
+        "titleZh": "適合用於來電及訊息",
+        "en": "The speaker connects the unexpected message with the earlier conversation.",
+        "zh": "真巧！ Ava 剛剛傳訊息給我！ 說話者把突如其來的訊息與之前的對話連繫起來。",
+        "examples": [
+          {
+            "en": "Oh, speak of the devil—Ava has just messaged me!",
+            "zh": "真巧！Ava 剛剛傳訊息給我！",
+            "highlight": "speak of the devil"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Should Not Replace Every Statement of Surprise",
+        "titleZh": "不應取代所有表示驚訝的說法",
+        "en": "The expression works only when the person has just been mentioned. What a surprise! I didn’t expect to see you here!",
+        "zh": "只有在剛剛提及某人的情況下，才適合使用這個表達。 真令人意外！ 我沒有想過會在這裏見到你！",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The original warning gradually lost its serious and superstitious force. Speakers shortened the proverb and began using it humorously when an ordinary person appeared just after being mentioned.",
+          "zh": "原來帶有警告及迷信色彩的意思逐漸減弱。 說話者把諺語縮短，並開始在剛被提及的普通人突然出現時，以玩笑方式使用這個表達。"
+        }
+      ],
+      "memoryEn": "In the old proverb, naming someone caused an appearance; in the modern idiom, mentioning a person is immediately followed by that person’s arrival.",
+      "memoryZh": "在古老諺語中，說出名字會令對方出現；在現代慣用語中，剛提起某人，那個人便立即到來。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use the Exact Fixed Form",
+        "titleZh": "規則一：使用完整固定形式",
+        "en": "Use the Exact Fixed Form",
+        "zh": "使用完整固定形式",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Change the Verb Form",
+        "titleZh": "規則二：不要改變動詞形式",
+        "en": "Speaking of Daniel means changing or returning to the topic of Daniel. It does not necessarily mean that Daniel has appeared.",
+        "zh": "Speaking of Daniel 表示轉到或重新談及 Daniel，並不一定表示 Daniel 已經出現。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "The Person Must Have Just Been Mentioned",
+        "titleZh": "規則三：必須剛剛提及那個人",
+        "en": "Ruby walked into the room, but nobody had been talking about her. ✗ What a surprise!",
+        "zh": "我們正在談 Ruby，而她剛剛走進來。 真是說到誰，誰就到！ 走進房間，但沒有人剛剛談及她。 真令人意外！",
+        "examples": [
+          {
+            "en": "We were talking about Ruby, and she has just walked in. Speak of the devil!",
+            "zh": "我們正在談 Ruby，而她剛剛走進來。真是說到誰，誰就到！",
+            "highlight": "Speak of the devil"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "The Arrival or Contact Should Be Unexpected or Well-Timed",
+        "titleZh": "規則四：對方的出現或聯絡應帶有意外或巧合",
+        "en": "We mentioned Ethan, and he immediately called. We invited Ethan to arrive at exactly three o’clock, and he arrived at three o’clock. A completely planned arrival does not usually create the same amusing coincidence.",
+        "zh": "我們剛提起 Ethan，他便立即來電。 我們請 Ethan 準時三時到達，而他亦在三時到達。 完全按計劃發生的到達，一般不會形成相同的有趣巧合。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Use It Mainly for a Person",
+        "titleZh": "規則五：主要用於人物",
+        "en": "We were talking about Chloe, and Chloe appeared. We were discussing rain, and it started raining. ✗ Some speakers may extend the expression to things or events, but this exercise teaches only the clear person-related meaning.",
+        "zh": "我們正在談 Chloe，而 Chloe 出現了。 我們正在談下雨，而天便開始下雨。 部分說話者可能把這個表達延伸至事物或事件，但本練習只教授與人物有關的清楚用法。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“Here He Is” Is Optional",
+        "titleZh": "規則六：Here he is 是可選部分",
+        "en": "Here he is identifies the person. It is not part of the fixed idiom.",
+        "zh": "用來指出出現的是誰，並不是固定慣用語的一部分。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Discourse Markers Are Optional",
+        "titleZh": "規則七：話語標記是可選部分",
+        "en": "The fixed target remains speak of the devil.",
+        "zh": "固定目標仍然只是 speak of the devil。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve the Person and Event",
+        "titleZh": "規則八：保留人物及事件",
+        "en": "The person being discussed and the person appearing must match.",
+        "zh": "被談及的人與出現的人必須相同。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Make It a Real Insult",
+        "titleZh": "規則九：不要把它變成真正的侮辱",
+        "en": "The second example changes the expression from a playful reaction into a personal attack.",
+        "zh": "真巧！ 我們剛剛才在談你。 說到魔鬼。 你真的很邪惡。 第二個例子把輕鬆反應變成了人身攻擊。",
+        "examples": [
+          {
+            "en": "Speak of the devil! We were just talking about you.",
+            "zh": "真巧！我們剛剛才在談你。",
+            "highlight": "Speak of the devil"
+          },
+          {
+            "en": "Speak of the devil. You really are evil. ✗",
+            "zh": "說到魔鬼。你真的很邪惡。",
+            "highlight": "Speak of the devil"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Be Careful in Formal or Sensitive Situations",
+        "titleZh": "規則十：在正式或敏感場合小心使用",
+        "en": "formal letters; official reports; serious religious discussions; conversations in which the arriving person may misunderstand the joke.",
+        "zh": "在正式信件、官方報告、嚴肅宗教討論，以及對方可能誤解玩笑的情況中，應避免使用。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "“Talk of the Devil” Is a Real Variant but Not This Exercise’s Target",
+        "titleZh": "規則十一",
+        "en": "Collins notes that talk of the devil is especially associated with British English. speak of the devil",
+        "zh": "Talk of the devil 是真實變體，但不是本練習的目標字典同時收錄 speak of the devil 和 talk of the devil，而 Collins 指出 talk of the devil 特別常見於英式英語。 不過，本練習中的所有答案都必須使用 speak。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Use the Full Historical Proverb in the Answers",
+        "titleZh": "規則十二：答案不要使用完整歷史諺語",
+        "en": "The historical proverb helps explain the origin, but the shorter modern formula is the target of this exercise.",
+        "zh": "完整歷史諺語有助解釋來源，但本練習的目標是較短的現代公式。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using speak of the devil.",
+      "zh": "使用 speak of the devil 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-117-q01",
+        "number": 1,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "We were talking about Leo when he suddenly walked into the café.",
+        "promptZh": "我們正在談論 Leo，而他突然走進咖啡店。",
+        "starter": "Speak",
+        "answer": "Speak of the devil—Leo has just walked into the café!",
+        "answerZh": "說到 Leo,Leo 就走進咖啡店了！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "Speak of the devil"
+      },
+      {
+        "id": "idiom-117-q02",
+        "number": 2,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Do you know where Hannah is? B: Wait—she has just come through the door.",
+        "promptZh": "甲：你知道 Hannah 在哪裏嗎？ 乙：等等——她剛剛從門口進來了。",
+        "starter": "Speak",
+        "answer": "Speak of the devil! Hannah has just come through the door.",
+        "answerZh": "說到 Hannah,Hannah 就從門口進來了！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "Speak of the devil"
+      },
+      {
+        "id": "idiom-117-q03",
+        "number": 3,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "We had just mentioned Mr Chan’s new class when he appeared beside us.",
+        "promptZh": "我們剛剛提及陳先生的新課堂，他便在我們身旁出現。",
+        "starter": "We",
+        "answer": "We had just mentioned Mr Chan’s new class—speak of the devil! Here he is.",
+        "answerZh": "我們剛剛才提及陳先生的新課堂，說到他，他就到了！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q04",
+        "number": 4,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "I was telling my sister about Omar when he called me.",
+        "promptZh": "我正在向姐姐談及 Omar，而他突然打電話給我。",
+        "starter": "Speak",
+        "answer": "Speak of the devil—Omar is calling me now!",
+        "answerZh": "說到 Omar,Omar 現在就打電話給我了！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "Speak of the devil"
+      },
+      {
+        "id": "idiom-117-q05",
+        "number": 5,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "I asked where Zoe was. Before anyone answered, she entered the room.",
+        "promptZh": "我問 Zoe 在哪裏。還未有人回答，她便走進房間。",
+        "starter": "As",
+        "answer": "As soon as I asked where Zoe was, she entered the room—speak of the devil!",
+        "answerZh": "我剛問 Zoe 在哪裏，她便走進房間，真是說到誰，誰就到！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q06",
+        "number": 6,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: I wonder whether Noah will join us. B: Look—he has just arrived.",
+        "promptZh": "甲：不知道 Noah 會不會加入我們。 乙：看——他剛剛到了。",
+        "starter": "Well",
+        "answer": "Well, speak of the devil! Noah has just arrived.",
+        "answerZh": "真巧，說到 Noah,Noah 就到了！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q07",
+        "number": 7,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "We were discussing Mrs Patel’s homework when she walked past us.",
+        "promptZh": "我們正在討論 Patel 老師的功課，而她剛巧從我們身旁走過。",
+        "starter": "We",
+        "answer": "We were discussing Mrs Patel’s homework when—speak of the devil—she walked past us.",
+        "answerZh": "我們正在討論 Patel 老師的功課，說時遲那時快，她便從我們身旁走過。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q08",
+        "number": 8,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "I said Ben’s name, and then he appeared at the gate.",
+        "promptZh": "我剛說出 Ben 的名字，他便在大門出現。",
+        "starter": "Speak",
+        "answer": "Speak of the devil! Ben has just appeared at the gate.",
+        "answerZh": "說到 Ben,Ben 就在大門出現了！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "Speak of the devil"
+      },
+      {
+        "id": "idiom-117-q09",
+        "number": 9,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Chloe sent me a message just as you asked about her.",
+        "promptZh": "你剛問起 Chloe，她便傳送訊息給我。",
+        "starter": "Oh",
+        "answer": "Oh, speak of the devil—Chloe has just sent me a message!",
+        "answerZh": "真巧！Chloe 剛剛傳訊息給我！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q10",
+        "number": 10,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "I told them that we had not seen Isaac for weeks. Then he entered the shop.",
+        "promptZh": "我告訴他們，我們已有幾星期沒有見 Isaac。之後他便走進店舖。",
+        "starter": "I",
+        "answer": "I had just said that we had not seen Isaac for weeks—speak of the devil! Here he is.",
+        "answerZh": "我剛說我們已有幾星期沒有見 Isaac，說到他，他就到了！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q11",
+        "number": 11,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "We were talking about Ava’s new job. A moment later, she came over to our table.",
+        "promptZh": "我們正在談論 Ava 的新工作。片刻後，她便走到我們的桌旁。",
+        "starter": "We",
+        "answer": "We were talking about Ava’s new job when she came over—speak of the devil!",
+        "answerZh": "我們正在談論 Ava 的新工作，而她便走過來了，真是說到誰，誰就到！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q12",
+        "number": 12,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "We were wondering whether Ethan could help us when he entered the office.",
+        "promptZh": "我們正在想 Ethan 能否幫助我們，而他剛好走進辦公室。",
+        "starter": "We",
+        "answer": "We were wondering whether Ethan could help when—speak of the devil—he entered the office.",
+        "answerZh": "我們正在想 Ethan 能否幫助我們，說時遲那時快，他便走進辦公室。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q13",
+        "number": 13,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "During dinner, Priya said that Daniel might visit. At that moment, Daniel appeared at the door.",
+        "promptZh": "晚餐期間，Priya 說 Daniel 可能會來。就在那一刻，Daniel 在門口出現。",
+        "starter": "Speak",
+        "answer": "“Speak of the devil!” Priya said when Daniel appeared at the door.",
+        "answerZh": "Daniel 在門口出現時，Priya 說：「真是說到誰，誰就到！」",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "Speak of the devil"
+      },
+      {
+        "id": "idiom-117-q14",
+        "number": 14,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "We were describing Ruby’s cake when Ruby arrived carrying it.",
+        "promptZh": "我們正在形容 Ruby 的蛋糕，而 Ruby 剛巧拿着蛋糕到達。",
+        "starter": "Ruby",
+        "answer": "Ruby arrived with the cake while we were describing it—speak of the devil!",
+        "answerZh": "我們正在形容 Ruby 的蛋糕，而她剛巧拿着蛋糕到達，真巧！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q15",
+        "number": 15,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: I haven’t heard from Felix today. B: My phone is ringing—it’s Felix.",
+        "promptZh": "甲：我今天還沒有收到 Felix 的消息。 乙：我的電話響了——是 Felix。",
+        "starter": "Well",
+        "answer": "Well, speak of the devil—Felix is calling now!",
+        "answerZh": "真是說到 Felix,Felix 就打電話來了！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q16",
+        "number": 16,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The coach had just asked about Jasmine when Jasmine came onto the field.",
+        "promptZh": "教練剛剛問起 Jasmine，而 Jasmine 便走到運動場上。",
+        "starter": "The",
+        "answer": "The coach had just asked about Jasmine when she came onto the field—speak of the devil!",
+        "answerZh": "教練剛剛問起 Jasmine，她便走到運動場上，真是說到誰，誰就到！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q17",
+        "number": 17,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "I was telling my colleague about Ms Ho when she opened the office door.",
+        "promptZh": "我正在向同事談及何女士，而她剛好打開辦公室的門。",
+        "starter": "I",
+        "answer": "I was telling my colleague about Ms Ho when—speak of the devil—she opened the office door.",
+        "answerZh": "我正在向同事談及何女士，說時遲那時快，她便打開辦公室的門。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Do you think Lucas remembers today’s meeting? B: There is Lucas at reception now.",
+        "promptZh": "甲：你認為 Lucas 記得今天的會議嗎？ 乙：Lucas 現在就在接待處。",
+        "starter": "Speak",
+        "answer": "Speak of the devil—Lucas is at reception now!",
+        "answerZh": "說到 Lucas,Lucas 現在就在接待處！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "Speak of the devil"
+      },
+      {
+        "id": "idiom-117-q19",
+        "number": 19,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "We were talking about how kind Aisha had been. Then she sat down beside us.",
+        "promptZh": "我們正在談論 Aisha 有多友善。之後她便在我們身旁坐下。",
+        "starter": "We",
+        "answer": "We were praising Aisha when she sat down beside us—speak of the devil!",
+        "answerZh": "我們正在稱讚 Aisha，而她便在我們身旁坐下，真巧！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q20",
+        "number": 20,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The children asked whether Uncle Ray would visit. At once, his car stopped outside.",
+        "promptZh": "孩子們問 Ray 叔叔會不會來探望他們。他的車隨即停在門外。",
+        "starter": "As",
+        "answer": "As soon as the children mentioned Uncle Ray, his car stopped outside—speak of the devil!",
+        "answerZh": "孩子們剛提起 Ray 叔叔，他的車便停在門外，真是說到誰，誰就到！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q21",
+        "number": 21,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Eva was telling Sam’s friends about his cooking. At that moment, Sam walked into the kitchen.",
+        "promptZh": "Eva 正在向 Sam 的朋友談論他的廚藝。就在那一刻，Sam 走進廚房。",
+        "starter": "Speak",
+        "answer": "“Speak of the devil!” Eva said as Sam walked into the kitchen.",
+        "answerZh": "Sam 走進廚房時，Eva 說：「說到你，你就到了！」",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "Speak of the devil"
+      },
+      {
+        "id": "idiom-117-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Has Farah answered your email? B: No—wait, a new reply from Farah has just appeared.",
+        "promptZh": "甲：Farah 回覆你的電郵了嗎？ 乙：還沒有——等等，Farah 剛剛傳來一封新回覆。",
+        "starter": "Oh",
+        "answer": "Oh, speak of the devil—Farah has just replied!",
+        "answerZh": "真巧！Farah 剛剛回覆了！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q23",
+        "number": 23,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "We were deciding whether to invite George when he unexpectedly joined the video call.",
+        "promptZh": "我們正在決定是否邀請 George，而他突然加入了視像通話。",
+        "starter": "We",
+        "answer": "We were deciding whether to invite George when—speak of the devil—he joined the video call.",
+        "answerZh": "我們正在決定是否邀請 George，說時遲那時快，他便加入了視像通話。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q24",
+        "number": 24,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Elena recommended this book to me. B: Really? Elena is standing at the library desk now.",
+        "promptZh": "甲：Elena 向我推薦了這本書。 乙：真的嗎？Elena 現在正站在圖書館櫃位。",
+        "starter": "And",
+        "answer": "And speak of the devil—Elena is standing at the library desk!",
+        "answerZh": "而且真巧，Elena 現在正站在圖書館櫃位！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q25",
+        "number": 25,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Our team was asking where the new intern was. The door opened, and she walked in.",
+        "promptZh": "我們的團隊正在問新實習生在哪裏。門打開了，她走了進來。",
+        "starter": "The",
+        "answer": "The team was asking where the new intern was—speak of the devil! Here she is.",
+        "answerZh": "團隊正在問新實習生在哪裏，說到她，她就到了！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q26",
+        "number": 26,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "I had just mentioned my dentist when the dentist unexpectedly called me.",
+        "promptZh": "我剛剛提起我的牙醫，而牙醫突然打電話給我。",
+        "starter": "I",
+        "answer": "I had just mentioned my dentist when—speak of the devil—the dentist called me.",
+        "answerZh": "我剛剛提起牙醫，說時遲那時快，牙醫便打電話給我。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q27",
+        "number": 27,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: When will Mr Wong inspect the room? B: Someone is knocking—it’s Mr Wong.",
+        "promptZh": "甲：黃先生甚麼時候會來檢查房間？ 乙：有人正在敲門——是黃先生。",
+        "starter": "Speak",
+        "answer": "Speak of the devil! Mr Wong is at the door.",
+        "answerZh": "說到黃先生，黃先生就在門外！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "Speak of the devil"
+      },
+      {
+        "id": "idiom-117-q28",
+        "number": 28,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The interviewer had just asked about the famous actor when the actor entered the building.",
+        "promptZh": "訪問者剛剛問起那名著名演員，而演員便走進大樓。",
+        "starter": "The",
+        "answer": "The interviewer had just asked about the actor when he entered the building—speak of the devil!",
+        "answerZh": "訪問者剛剛問起那名演員，他便走進大樓，真是說到誰，誰就到！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q29",
+        "number": 29,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: We should ask Nadia to join the project. B: She has just sent us a message about it.",
+        "promptZh": "甲：我們應該邀請 Nadia 加入項目。 乙：她剛剛傳訊息給我們，問起這個項目。",
+        "starter": "Well",
+        "answer": "Well, speak of the devil—Nadia has just messaged us about the project!",
+        "answerZh": "真巧！Nadia 剛剛傳訊息給我們，問起這個項目！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q30",
+        "number": 30,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "I told my friend that I had not seen Karim since school. Karim then passed us in the street.",
+        "promptZh": "我告訴朋友，自學生時代後便沒有見過 Karim。之後 Karim 剛巧在街上經過我們身旁。",
+        "starter": "I",
+        "answer": "I had just said that I had not seen Karim since school when he passed us—speak of the devil!",
+        "answerZh": "我剛說自學生時代後便沒有見過 Karim，他便從我們身旁經過，真巧！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q31",
+        "number": 31,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "We expected Sara to be late. However, she appeared exactly as we began discussing her.",
+        "promptZh": "我們原本預計 Sara 會遲到。不過，我們剛開始談及她，她便出現了。",
+        "starter": "Although",
+        "answer": "Although we expected Sara to be late, she arrived as we began discussing her—speak of the devil!",
+        "answerZh": "雖然我們預計 Sara 會遲到，但我們剛開始談及她，她便到了，真是說到誰，誰就到！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q32",
+        "number": 32,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The manager had just asked why Theo had not answered. Then Theo’s face appeared on the video screen.",
+        "promptZh": "經理剛剛問 Theo 為甚麼沒有回覆。之後 Theo 的臉便出現在視像螢幕上。",
+        "starter": "The",
+        "answer": "The manager had just asked about Theo when—speak of the devil—his face appeared on the screen.",
+        "answerZh": "經理剛剛問起 Theo，說時遲那時快，他的臉便出現在螢幕上。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q33",
+        "number": 33,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "We were discussing Priyanka’s travel photographs. Before we finished, she came around the corner.",
+        "promptZh": "我們正在討論 Priyanka 的旅行照片。還未談完，她便從街角走來。",
+        "starter": "Before",
+        "answer": "Before we finished talking about Priyanka’s travel photographs, she came around the corner—speak of the devil!",
+        "answerZh": "我們還未談完 Priyanka 的旅行照片，她便從街角走來，真巧！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q34",
+        "number": 34,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "I said that I needed Simon’s help. A few seconds later, Simon knocked on the office door.",
+        "promptZh": "我說自己需要 Simon 的幫助。幾秒後，Simon 便敲辦公室的門。",
+        "starter": "Just",
+        "answer": "Just after I said that I needed Simon’s help, he knocked on the office door—speak of the devil!",
+        "answerZh": "我剛說自己需要 Simon 的幫助，他便敲辦公室的門，真是說到誰，誰就到！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q35",
+        "number": 35,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A journalist was discussing a chef with the camera team. The chef then walked into the studio.",
+        "promptZh": "一名記者正在與攝影團隊談論一名廚師。之後那名廚師便走進錄影室。",
+        "starter": "Speak",
+        "answer": "“Speak of the devil—the chef is here!” the journalist said as the chef entered the studio.",
+        "answerZh": "那名廚師走進錄影室時，記者說：「說到這位廚師，他就到了！」",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "Speak of the devil"
+      },
+      {
+        "id": "idiom-117-q36",
+        "number": 36,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "We were wondering whether Lila would attend. Her name suddenly appeared as she joined the online meeting.",
+        "promptZh": "我們正在猜 Lila 會不會出席。她加入網上會議時，名字突然出現在螢幕上。",
+        "starter": "We",
+        "answer": "We were wondering whether Lila would attend when—speak of the devil—her name appeared on the screen.",
+        "answerZh": "我們正在猜 Lila 會不會出席，說時遲那時快，她的名字便出現在螢幕上。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "I had not finished saying Aaron’s name when he called from the airport.",
+        "promptZh": "我還未說完 Aaron 的名字，他便從機場打電話來。",
+        "starter": "I",
+        "answer": "I had not even finished saying Aaron’s name when he called from the airport—speak of the devil!",
+        "answerZh": "我還未說完 Aaron 的名字，他便從機場打電話來，真巧！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q38",
+        "number": 38,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The class was discussing Mei’s absence when Mei returned to the classroom.",
+        "promptZh": "全班正在討論 Mei 缺席的事情，而 Mei 剛好回到課室。",
+        "starter": "The",
+        "answer": "The class was discussing Mei’s absence when she returned—speak of the devil!",
+        "answerZh": "全班正在討論 Mei 缺席的事情，而她便回來了，真是說到誰，誰就到！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q39",
+        "number": 39,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: I heard Rosa may apply for a job here. B: Look at the visitor list—she is already waiting outside.",
+        "promptZh": "甲：我聽說 Rosa 可能會申請這裏的工作。 乙：看看訪客名單——她已經在外面等候。",
+        "starter": "Oh",
+        "answer": "Oh, speak of the devil—Rosa is already waiting outside!",
+        "answerZh": "真巧！說到 Rosa,Rosa 已經在外面等候！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q40",
+        "number": 40,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The parents were talking about the music teacher when she came over to their table.",
+        "promptZh": "家長們正在談論音樂老師，而她剛好走到他們的桌旁。",
+        "starter": "While",
+        "answer": "While the parents were talking about the music teacher, she came to their table—speak of the devil!",
+        "answerZh": "家長們正在談論音樂老師，而她便走到桌旁，真是說到誰，誰就到！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q41",
+        "number": 41,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "At an office lunch, an employee began telling a funny story about Colin. Colin walked in before the story had ended.",
+        "promptZh": "在辦公室午餐期間，一名員工開始講述一個關於 Colin 的有趣故事。故事還未講完，Colin 便走了進來。",
+        "starter": "The",
+        "answer": "The employee had not finished his story about Colin when Colin walked in—speak of the devil!",
+        "answerZh": "那名員工還未講完關於 Colin 的故事，Colin 便走進來，真巧！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Asha and her friend were guessing why Grace had left their group chat. A notification then showed that Grace had rejoined it.",
+        "promptZh": "Asha 和朋友正在猜 Grace 為甚麼離開群組對話。之後通知顯示 Grace 已重新加入。",
+        "starter": "Asha",
+        "answer": "Asha and her friend were discussing Grace when—speak of the devil—a notification showed that she had rejoined the group.",
+        "answerZh": "Asha 和朋友正在談論 Grace，說時遲那時快，通知便顯示她已重新加入群組。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q43",
+        "number": 43,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The host asked whether Dr Lam would arrive on time. Before the producer could answer, the door opened and Dr Lam entered.",
+        "promptZh": "主持人問林醫生會否準時到達。製作人還未回答，門便打開，林醫生走了進來。",
+        "starter": "The",
+        "answer": "The host had just asked about Dr Lam when the door opened—speak of the devil! Here she is.",
+        "answerZh": "主持人剛剛問起林醫生，門便打開了，說到她，她就到了！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q44",
+        "number": 44,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A customer was telling the manager how helpful a shop worker had been. The worker then returned with the customer’s receipt.",
+        "promptZh": "一名顧客正在告訴經理某名店員有多樂於助人。之後那名店員拿着顧客的收據回來。",
+        "starter": "While",
+        "answer": "While the customer was praising the shop worker, the worker returned with the receipt—speak of the devil!",
+        "answerZh": "顧客正在稱讚那名店員，而店員便拿着收據回來，真是說到誰，誰就到！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q45",
+        "number": 45,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: We need somebody who understands the old computer system. B: Didn’t Kevin work on it? Look—Kevin has just walked in.",
+        "promptZh": "甲：我們需要一個熟悉舊電腦系統的人。 乙：Kevin 以前不是負責這個系統嗎？看——Kevin 剛剛走進來了。",
+        "starter": "Kevin",
+        "answer": "Kevin might know the old system and—speak of the devil—he has just walked in.",
+        "answerZh": "Kevin 可能熟悉舊系統，而且說時遲那時快，他剛剛走進來了。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q46",
+        "number": 46,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "At a family dinner, Grandmother was telling the children about their cousin Ravi. The doorbell rang, and Ravi was outside holding a cake.",
+        "promptZh": "在家庭晚餐期間，祖母正在向孩子們談及表哥 Ravi。門鈴響起，而 Ravi 正拿着蛋糕站在門外。",
+        "starter": "Grandmother",
+        "answer": "Grandmother was telling the children about Ravi when the doorbell rang—speak of the devil! He is outside with a cake.",
+        "answerZh": "祖母正在向孩子們談及 Ravi，門鈴便響起了。說到他，他就在門外，還拿着一個蛋糕！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The presenters had just questioned whether the singer would accept the award. The camera then showed her arriving at the theatre.",
+        "promptZh": "主持人剛剛討論那名歌手會否接受獎項。之後鏡頭便拍到她抵達劇院。",
+        "starter": "The",
+        "answer": "The presenters had just mentioned the singer when—speak of the devil—the camera showed her arriving.",
+        "answerZh": "主持人剛剛提起那名歌手，說時遲那時快，鏡頭便拍到她抵達。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q48",
+        "number": 48,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "I was explaining to a new employee that Ms Chen often visited without warning. At that moment, she stepped out of the lift.",
+        "promptZh": "我正在向一名新員工解釋，陳女士經常沒有預先通知便到訪。就在那一刻，她從升降機走出來。",
+        "starter": "I",
+        "answer": "I was explaining that Ms Chen often visited without warning when she stepped out of the lift—speak of the devil!",
+        "answerZh": "我正在解釋陳女士經常沒有通知便到訪，她便從升降機走出來，真是說到誰，誰就到！",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q49",
+        "number": 49,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "During a podcast, the hosts mentioned that an actor had not appeared in public for months. The actor then joined the programme as a surprise guest.",
+        "promptZh": "在一個網上節目中，主持人提到某名演員已有數月沒有公開露面。之後那名演員突然以神秘嘉賓身分加入節目。",
+        "starter": "The",
+        "answer": "The hosts had just mentioned the actor’s long absence when—speak of the devil—he joined the programme as a surprise guest.",
+        "answerZh": "主持人剛剛提到那名演員已有很久沒有公開露面，說時遲那時快，他便以神秘嘉賓身分加入節目。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "speak of the devil"
+      },
+      {
+        "id": "idiom-117-q50",
+        "number": 50,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "During a school event, the students wondered whether their retired teacher, Mr Ng, still remembered them. A voice behind them suddenly said, “How could I forget?”",
+        "promptZh": "在一個學校活動中，學生們正在猜退休老師吳先生是否仍然記得他們。身後突然有一把聲音說： 「我怎會忘記？」",
+        "starter": "The",
+        "answer": "The students were wondering whether Mr Ng remembered them when a voice behind them said, “How could I forget?” Speak of the devil—it was Mr Ng.",
+        "answerZh": "學生們正在猜吳先生是否仍然記得他們，身後便傳來一句：「我怎會忘記？」真是說到誰，誰就到 ——原來是吳先生。",
+        "targetForm": "speak of the devil",
+        "targetMeaning": "something you say when a person you have just been talking about suddenly or unexpectedly appears",
+        "highlight": "Speak of the devil"
+      }
+    ]
+  }
+}

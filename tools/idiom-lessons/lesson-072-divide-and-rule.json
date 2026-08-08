@@ -1,0 +1,1163 @@
+{
+  "lesson": {
+    "id": "idiom-72",
+    "order": 72,
+    "slug": "divide-and-rule",
+    "version": "1",
+    "title": "分而治之／分化統治",
+    "titleEn": "Divide and Rule",
+    "titleZh": "分而治之／分化統治",
+    "source": {
+      "file": "Idiom 72 - “Divide and Rule”.pdf",
+      "pageCount": 20,
+      "contentPdfPages": [],
+      "exercisePdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "answerKeyPdfPages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted.",
+        "The supplied PDF contains only revised exercise material and an answer key; missing learning-page fields are explicitly marked as source-coverage notes.",
+        "No separate Important Rules section was supplied; the source exercise instruction is retained as the rule.",
+        "No separate Benefits section was supplied; the benefit is conservatively derived from the rewrite exercise."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "Divide and Rule",
+        "highlight": "Divide and Rule"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The manager tried to divide and rule by giving the two teams different stories about the new timetable.",
+        "zh": "經理向兩個團隊提供有關新時間表的不同說法，企圖分而治之。",
+        "highlight": "divide and rule"
+      }
+    ],
+    "meaning": {
+      "en": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+      "zh": "按原檔示範答案所顯示的意思及用法，運用這個目標慣用語",
+      "naturalZh": []
+    },
+    "register": {
+      "labelEn": "Source-Guided Register",
+      "labelZh": "按原檔語域使用",
+      "summaryEn": "Source-Guided Register",
+      "summaryZh": "按原檔語域使用",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "Divide and Rule",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Divide and Rule",
+          "example": "The manager tried to divide and rule by giving the two teams different stories about the new timetable.",
+          "highlight": "divide and rule"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Source Exercise Pattern",
+        "titleZh": "原檔練習句式",
+        "formula": "Divide and Rule",
+        "descriptionEn": "The source focuses on applying this expression in complete sentences.",
+        "descriptionZh": "原檔集中練習在完整句子中運用這個表達。",
+        "examples": [
+          {
+            "en": "The manager tried to divide and rule by giving the two teams different stories about the new timetable.",
+            "zh": "經理向兩個團隊提供有關新時間表的不同說法，企圖分而治之。",
+            "highlight": "divide and rule"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "Concise Idiomatic Expression",
+        "titleZh": "簡潔地運用慣用語",
+        "en": "The source exercises show how the idiom can replace a longer literal explanation.",
+        "zh": "原檔練習展示如何以慣用語取代較長的字面解釋。",
+        "examples": [
+          {
+            "en": "The manager tried to divide and rule by giving the two teams different stories about the new timetable.",
+            "zh": "經理向兩個團隊提供有關新時間表的不同說法，企圖分而治之。",
+            "highlight": "divide and rule"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "No separate origin status supplied",
+      "statusZh": "原檔沒有另列來源可信度",
+      "history": [
+        {
+          "titleEn": "Origin Status",
+          "titleZh": "來源可信度",
+          "en": "No separate origin status supplied",
+          "zh": "原檔沒有另列來源可信度"
+        }
+      ],
+      "memoryEn": "Use the source meaning and examples as the memory link.",
+      "memoryZh": "以原檔的核心意思及例句作為記憶提示。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Follow the Source Exercise Meaning",
+        "titleZh": "按照原檔練習意思運用",
+        "en": "Preserve the actor, tense, certainty and important context shown in the source.",
+        "zh": "保留原檔題目中的行動者、時態、確定程度及重要情境。",
+        "examples": [
+          {
+            "en": "The manager tried to divide and rule by giving the two teams different stories about the new timetable.",
+            "zh": "經理向兩個團隊提供有關新時間表的不同說法，企圖分而治之。",
+            "highlight": "divide and rule"
+          }
+        ]
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using divide and rule.",
+      "zh": "使用 divide and rule 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-72-q01",
+        "number": 1,
+        "sourcePage": 2,
+        "sourcePages": [
+          2
+        ],
+        "answerSourcePage": 13,
+        "answerSourcePages": [
+          13
+        ],
+        "prompt": "The manager gave the two teams different stories about the new timetable. The teams argued with each other instead of questioning him together.",
+        "promptZh": "經理向兩個團隊提供有關新時間表的不同說法。兩個團隊互相爭執，而沒有共同向他提出質疑。",
+        "starter": "The",
+        "answer": "The manager tried to divide and rule by giving the two teams different stories about the new timetable.",
+        "answerZh": "經理向兩個團隊提供有關新時間表的不同說法，企圖分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q02",
+        "number": 2,
+        "sourcePage": 2,
+        "sourcePages": [
+          2
+        ],
+        "answerSourcePage": 13,
+        "answerSourcePages": [
+          13
+        ],
+        "prompt": "The club leader gave the two groups different rules so that they would remain separated and would not challenge him together.",
+        "promptZh": "學會領袖向兩個小組訂立不同規則，使他們保持分裂，無法共同質疑他。",
+        "starter": "The",
+        "answer": "The club leader followed a policy of divide and rule to keep the two groups from acting together.",
+        "answerZh": "學會領袖採取分而治之的政策，使兩個小組無法共同採取行動。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q03",
+        "number": 3,
+        "sourcePage": 2,
+        "sourcePages": [
+          2
+        ],
+        "answerSourcePage": 13,
+        "answerSourcePages": [
+          13
+        ],
+        "prompt": "The king kept the two towns quarrelling so that they could not oppose him together. This was his main method of controlling them.",
+        "promptZh": "國王使兩個城鎮持續爭吵，使他們無法團結起來反對他。這是他控制兩個城鎮的主要手段。",
+        "starter": "Divide",
+        "answer": "Divide and rule was the king’s main method of controlling the two towns.",
+        "answerZh": "分而治之是國王控制兩個城鎮的主要手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "Divide and rule"
+      },
+      {
+        "id": "idiom-72-q04",
+        "number": 4,
+        "sourcePage": 2,
+        "sourcePages": [
+          2
+        ],
+        "answerSourcePage": 13,
+        "answerSourcePages": [
+          13
+        ],
+        "prompt": "The coach praised one group of players and blamed the other group, preventing the players from complaining together.",
+        "promptZh": "教練稱讚其中一批球員，卻指責另一批球員，使所有球員無法共同提出投訴。",
+        "starter": "The",
+        "answer": "The coach’s praise for one group and blame for the other was a clear example of divide and rule.",
+        "answerZh": "教練稱讚其中一批球員，卻指責另一批球員，明顯是一種分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q05",
+        "number": 5,
+        "sourcePage": 3,
+        "sourcePages": [
+          3
+        ],
+        "answerSourcePage": 13,
+        "answerSourcePages": [
+          13
+        ],
+        "prompt": "The landlord blamed one group of tenants for the rent rise. This made the tenants accuse one another instead of making a joint complaint.",
+        "promptZh": "業主把租金上升歸咎於其中一批租客，令租客互相指責，而沒有共同提出投訴。",
+        "starter": "The",
+        "answer": "The landlord made an attempt to divide and rule, blaming one group of tenants for the rent rise.",
+        "answerZh": "業主把租金上升歸咎於其中一批租客，企圖分化租客。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q06",
+        "number": 6,
+        "sourcePage": 3,
+        "sourcePages": [
+          3
+        ],
+        "answerSourcePage": 13,
+        "answerSourcePages": [
+          13
+        ],
+        "prompt": "The company gave different groups of workers different information about pay. The workers began arguing with one another.",
+        "promptZh": "公司向不同組別的員工提供不同薪酬資訊。員工於是開始互相爭執。",
+        "starter": "The",
+        "answer": "The company used divide and rule when it gave different pay information to different groups of workers.",
+        "answerZh": "公司向不同組別的員工提供不同薪酬資訊，採取了分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q07",
+        "number": 7,
+        "sourcePage": 3,
+        "sourcePages": [
+          3
+        ],
+        "answerSourcePage": 13,
+        "answerSourcePages": [
+          13
+        ],
+        "prompt": "The governor kept the regions separate and encouraged them to distrust one another. This was his main strategy.",
+        "promptZh": "總督使各個地區保持分隔，並鼓勵他們互不信任。這是他的主要策略。",
+        "starter": "The",
+        "answer": "The governor’s strategy was divide and rule: he kept the regions separate and suspicious of one another.",
+        "answerZh": "總督的策略是分而治之：他使各個地區保持分隔並互相猜疑。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q08",
+        "number": 8,
+        "sourcePage": 3,
+        "sourcePages": [
+          3
+        ],
+        "answerSourcePage": 14,
+        "answerSourcePages": [
+          14
+        ],
+        "prompt": "The class captain may have spread different rumours among the two groups to keep them apart.",
+        "promptZh": "班長可能曾在兩個小組之間散播不同謠言，以使他們保持分裂。",
+        "starter": "The",
+        "answer": "The class captain may have been trying to divide and rule through different rumours spread among the two groups.",
+        "answerZh": "班長可能曾透過在兩個小組之間散播不同謠言，企圖分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q09",
+        "number": 9,
+        "sourcePage": 3,
+        "sourcePages": [
+          3
+        ],
+        "answerSourcePage": 14,
+        "answerSourcePages": [
+          14
+        ],
+        "prompt": "The manager made different private promises to each team. The workers realised that he was deliberately keeping them apart.",
+        "promptZh": "經理私下向每個團隊作出不同承諾。員工發現他正刻意使他們保持分裂。",
+        "starter": "The",
+        "answer": "The workers recognised the use of divide and rule in the manager’s private promises to each team.",
+        "answerZh": "員工從經理私下向每個團隊作出的不同承諾中，辨識出分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q10",
+        "number": 10,
+        "sourcePage": 4,
+        "sourcePages": [
+          4
+        ],
+        "answerSourcePage": 14,
+        "answerSourcePages": [
+          14
+        ],
+        "prompt": "The ruler encouraged the villages to quarrel so that they could not act together against him.",
+        "promptZh": "統治者鼓勵各條村互相爭吵，使他們無法聯手反對他。",
+        "starter": "To",
+        "answer": "To divide and rule, the ruler encouraged the villages to quarrel.",
+        "answerZh": "為了分而治之，統治者鼓勵各條村互相爭吵。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q11",
+        "number": 11,
+        "sourcePage": 4,
+        "sourcePages": [
+          4
+        ],
+        "answerSourcePage": 14,
+        "answerSourcePages": [
+          14
+        ],
+        "prompt": "At every meeting, the supervisor gives each team a different version of the plan to keep the teams suspicious of one another.",
+        "promptZh": "在每次會議中，主管都會向每個團隊提供不同版本的計劃，使各個團隊互相猜疑。",
+        "starter": "At",
+        "answer": "At every meeting, the supervisor seeks to divide and rule through different versions of the plan for each team.",
+        "answerZh": "在每次會議中，主管都向每個團隊提供不同版本的計劃，企圖分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q12",
+        "number": 12,
+        "sourcePage": 4,
+        "sourcePages": [
+          4
+        ],
+        "answerSourcePage": 14,
+        "answerSourcePages": [
+          14
+        ],
+        "prompt": "Before the staff compared their messages, the owner had kept the groups apart through different secret promises.",
+        "promptZh": "在員工比較彼此收到的訊息前，老闆曾透過不同的秘密承諾使各個小組保持分裂。",
+        "starter": "Before",
+        "answer": "Before the staff compared their messages, the owner had used a system of divide and rule through different secret promises to each group.",
+        "answerZh": "在員工比較彼此收到的訊息前，老闆曾透過不同的秘密承諾，採用一套分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q13",
+        "number": 13,
+        "sourcePage": 4,
+        "sourcePages": [
+          4
+        ],
+        "answerSourcePage": 14,
+        "answerSourcePages": [
+          14
+        ],
+        "prompt": "The new leader may offer better working hours to only one group, hoping that the workers will compete with one another.",
+        "promptZh": "新領袖可能只向其中一組員工提供較好的工作時間，希望員工互相競爭。",
+        "starter": "The",
+        "answer": "The new leader may use divide and rule, offering better working hours to only one group.",
+        "answerZh": "新領袖可能只向其中一組員工提供較好的工作時間，採取分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q14",
+        "number": 14,
+        "sourcePage": 4,
+        "sourcePages": [
+          4
+        ],
+        "answerSourcePage": 14,
+        "answerSourcePages": [
+          14
+        ],
+        "prompt": "The chairperson meets each group in secret and gives them different messages. The committee should prevent this behaviour.",
+        "promptZh": "主席秘密與每個小組會面，並向他們提供不同訊息。委員會應阻止這種行為。",
+        "starter": "The",
+        "answer": "The committee should stop the chairperson from trying to divide and rule through separate secret meetings and different messages to each group.",
+        "answerZh": "委員會應阻止主席透過分開進行的秘密會議及不同訊息，企圖分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q15",
+        "number": 15,
+        "sourcePage": 5,
+        "sourcePages": [
+          5
+        ],
+        "answerSourcePage": 15,
+        "answerSourcePages": [
+          15
+        ],
+        "prompt": "A: Why does the manager never allow the two departments to meet? B: Perhaps he wants them to blame each other instead of questioning him.",
+        "promptZh": "甲：為甚麼經理從不容許兩個部門會面？ 乙：也許他希望他們互相指責，而不是向他提出質疑。",
+        "starter": "Perhaps",
+        "answer": "Perhaps the manager wants to divide and rule by keeping the two departments apart.",
+        "answerZh": "經理可能希望使兩個部門保持分隔，以分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q16",
+        "number": 16,
+        "sourcePage": 5,
+        "sourcePages": [
+          5
+        ],
+        "answerSourcePage": 15,
+        "answerSourcePages": [
+          15
+        ],
+        "prompt": "People claimed that the head of the club had promised different rewards to different teams in order to keep them apart.",
+        "promptZh": "有人聲稱，學會主管向不同團隊承諾不同獎勵，以使他們保持分裂。",
+        "starter": "The",
+        "answer": "The head of the club was accused of trying to divide and rule through different promises to different teams.",
+        "answerZh": "學會主管被指控向不同團隊作出不同承諾，企圖分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q17",
+        "number": 17,
+        "sourcePage": 5,
+        "sourcePages": [
+          5
+        ],
+        "answerSourcePage": 15,
+        "answerSourcePages": [
+          15
+        ],
+        "prompt": "The parent tells each child that the other child caused the family problem. The children therefore argue with each other.",
+        "promptZh": "這名家長告訴每個孩子，是另一名孩子造成家庭問題。因此，兩名孩子互相爭吵。",
+        "starter": "The",
+        "answer": "The parent is using divide and rule, telling each child that the other caused the family problem.",
+        "answerZh": "這名家長告訴每個孩子，是另一名孩子造成家庭問題，正在採取分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q18",
+        "number": 18,
+        "sourcePage": 5,
+        "sourcePages": [
+          5
+        ],
+        "answerSourcePage": 15,
+        "answerSourcePages": [
+          15
+        ],
+        "prompt": "Before the staff compared their messages, the owner had repeatedly made different promises to different groups.",
+        "promptZh": "在員工比較彼此收到的訊息前，老闆曾多次向不同小組作出不同承諾。",
+        "starter": "Before",
+        "answer": "Before the staff compared their messages, the owner’s different promises had created a pattern of divide and rule.",
+        "answerZh": "在員工比較彼此收到的訊息前，老闆所作出的不同承諾已形成分而治之的模式。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q19",
+        "number": 19,
+        "sourcePage": 5,
+        "sourcePages": [
+          5
+        ],
+        "answerSourcePage": 15,
+        "answerSourcePages": [
+          15
+        ],
+        "prompt": "If the members stopped sharing information, the leader could use their misunderstandings to keep them apart.",
+        "promptZh": "如果成員停止分享資訊，領袖便可以利用他們之間的誤會，使他們保持分裂。",
+        "starter": "The",
+        "answer": "The leader could divide and rule more easily if the members stopped sharing information.",
+        "answerZh": "如果成員停止分享資訊，領袖便可以更容易地分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q20",
+        "number": 20,
+        "sourcePage": 6,
+        "sourcePages": [
+          6
+        ],
+        "answerSourcePage": 15,
+        "answerSourcePages": [
+          15
+        ],
+        "prompt": "The workers stopped the manager’s plan when they shared every message and met as one group.",
+        "promptZh": "員工分享所有訊息，並以一個整體共同開會，阻止了經理的計劃。",
+        "starter": "The",
+        "answer": "The workers defeated an attempt to divide and rule when they shared every message and met as one group.",
+        "answerZh": "員工分享所有訊息並共同開會，挫敗了分而治之的企圖。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q21",
+        "number": 21,
+        "sourcePage": 6,
+        "sourcePages": [
+          6
+        ],
+        "answerSourcePage": 15,
+        "answerSourcePages": [
+          15
+        ],
+        "prompt": "A: Ethan told the music club that the sports club had changed the event date. He told the sports club the opposite. B: He clearly wants the two clubs to blame each other.",
+        "promptZh": "甲：伊森告訴音樂學會，是體育學會更改了活動日期；他卻向體育學會作出相反說法。 乙：他明顯希望兩個學會互相指責。",
+        "starter": "He",
+        "answer": "He is clearly trying to divide and rule: he gave the two clubs opposite stories about the event date.",
+        "answerZh": "他明顯正在企圖分而治之：他向兩個學會提供了互相矛盾的活動日期說法。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q22",
+        "number": 22,
+        "sourcePage": 6,
+        "sourcePages": [
+          6
+        ],
+        "answerSourcePage": 16,
+        "answerSourcePages": [
+          16
+        ],
+        "prompt": "The town leader gave one street new lights but blamed another street for the cost, making the two streets argue.",
+        "promptZh": "鎮上領袖為其中一條街安裝新燈，卻把費用問題歸咎於另一條街，令兩條街的居民互相爭執。",
+        "starter": "The",
+        "answer": "The town leader’s actions showed divide and rule: he favoured one street and blamed another.",
+        "answerZh": "鎮上領袖的行為顯示他正在分而治之：他偏袒其中一條街，卻指責另一條街。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q23",
+        "number": 23,
+        "sourcePage": 6,
+        "sourcePages": [
+          6
+        ],
+        "answerSourcePage": 16,
+        "answerSourcePages": [
+          16
+        ],
+        "prompt": "The manager asked each team to report the other team’s mistakes so that the teams would blame one another instead of questioning him.",
+        "promptZh": "經理要求每個團隊舉報另一個團隊的錯誤，使他們互相指責，而不是向他提出質疑。",
+        "starter": "The",
+        "answer": "The manager’s request that each team report the other team’s mistakes was divide and rule.",
+        "answerZh": "經理要求每個團隊舉報另一個團隊的錯誤，是一種分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q24",
+        "number": 24,
+        "sourcePage": 7,
+        "sourcePages": [
+          7
+        ],
+        "answerSourcePage": 16,
+        "answerSourcePages": [
+          16
+        ],
+        "prompt": "The coach gave different private warnings to different players because he wanted them to suspect one another.",
+        "promptZh": "教練私下向不同球員發出不同警告，因為他希望球員互相猜疑。",
+        "starter": "The",
+        "answer": "The coach was using divide and rule when he gave the players different private warnings.",
+        "answerZh": "教練私下向不同球員發出不同警告時，正在採取分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q25",
+        "number": 25,
+        "sourcePage": 7,
+        "sourcePages": [
+          7
+        ],
+        "answerSourcePage": 16,
+        "answerSourcePages": [
+          16
+        ],
+        "prompt": "The ruler offered lower taxes to one region after it stopped supporting the other regions. This helped him keep the regions separated.",
+        "promptZh": "其中一個地區停止支持其他地區後，統治者便向該區提供較低稅率，藉此使各地區保持分裂。",
+        "starter": "The",
+        "answer": "The ruler’s reward for one region was part of a wider policy of divide and rule.",
+        "answerZh": "統治者向其中一個地區提供的利益，是更廣泛的分而治之政策的一部分。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q26",
+        "number": 26,
+        "sourcePage": 7,
+        "sourcePages": [
+          7
+        ],
+        "answerSourcePage": 16,
+        "answerSourcePages": [
+          16
+        ],
+        "prompt": "Journalists said the mayor had encouraged two neighbourhoods to fight over the same public space so that they would not question his decision together.",
+        "promptZh": "記者表示，市長鼓勵兩個社區爭奪同一個公共空間，使他們不會共同質疑他的決定。",
+        "starter": "Journalists",
+        "answer": "Journalists said the mayor was seeking to divide and rule by setting the two neighbourhoods against each other.",
+        "answerZh": "記者表示，市長正挑起兩個社區互相爭鬥，企圖分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q27",
+        "number": 27,
+        "sourcePage": 7,
+        "sourcePages": [
+          7
+        ],
+        "answerSourcePage": 16,
+        "answerSourcePages": [
+          16
+        ],
+        "prompt": "The school leader appeared to give the sports club and the music club different explanations of who had caused the loss of their funding.",
+        "promptZh": "校方主管似乎向體育學會及音樂學會提供不同解釋，說明是誰導致他們失去資助。",
+        "starter": "The",
+        "answer": "The school leader appeared to be using divide and rule in the way she explained the lost funding to the two clubs.",
+        "answerZh": "校方主管向兩個學會解釋失去資助一事時，似乎正在採取分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q28",
+        "number": 28,
+        "sourcePage": 7,
+        "sourcePages": [
+          7
+        ],
+        "answerSourcePage": 16,
+        "answerSourcePages": [
+          16
+        ],
+        "prompt": "The siblings compared their messages and discovered that their aunt had told each of them a different story about the family money.",
+        "promptZh": "兄弟姊妹比較所得訊息後，發現姨母曾向每個人講述有關家庭金錢的不同說法。",
+        "starter": "The",
+        "answer": "The siblings discovered an attempt to divide and rule when they compared their aunt’s different stories about the family money.",
+        "answerZh": "兄弟姊妹比較姨母所講述的不同說法後，發現了分而治之的企圖。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q29",
+        "number": 29,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "A: Our two teams keep arguing about which one received the better shifts. B: That may be exactly what the manager wants.",
+        "promptZh": "甲：我們兩個團隊一直爭論哪一方獲得較好的更份。 乙：這可能正是經理希望見到的情況。",
+        "starter": "The",
+        "answer": "The manager may be relying on divide and rule through the different shifts given to the two teams.",
+        "answerZh": "經理可能正透過向兩個團隊安排不同更份，採用分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q30",
+        "number": 30,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "The club refused separate private deals and demanded one open meeting for every member.",
+        "promptZh": "學會拒絕接受分開進行的秘密協議，並要求所有成員共同出席一次公開會議。",
+        "starter": "The",
+        "answer": "The club rejected divide and rule and demanded one open meeting for every member.",
+        "answerZh": "學會拒絕分而治之，並要求所有成員共同出席一次公開會議。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q31",
+        "number": 31,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "Although the director claimed that he wanted teamwork, he gave each department a different story about the planned cuts.",
+        "promptZh": "雖然總監聲稱希望各部門合作，但他卻向每個部門提供有關削減計劃的不同說法。",
+        "starter": "Although",
+        "answer": "Although the director spoke about teamwork, his different stories to each department were a form of divide and rule.",
+        "answerZh": "雖然總監談論團隊合作，但他向每個部門提供不同說法，是一種分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q32",
+        "number": 32,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "Because the tenants rarely spoke to one another, the owner could blame each group for the building’s problems and keep them separated.",
+        "promptZh": "由於租客很少互相交談，業主可以把大廈問題歸咎於不同組別，使他們保持分裂。",
+        "starter": "Because",
+        "answer": "Because the tenants rarely spoke to one another, the owner was able to divide and rule, blaming each group for the building’s problems.",
+        "answerZh": "由於租客很少互相交談，業主能夠把大廈問題歸咎於不同組別，從而分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q33",
+        "number": 33,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "Before the staff formed one group, management kept the office and warehouse workers arguing over their bonuses.",
+        "promptZh": "在員工組成一個共同團體前，管理層一直使辦公室及倉庫員工為獎金問題互相爭執。",
+        "starter": "Before",
+        "answer": "Before the staff formed one group, management had relied on divide and rule, keeping the office and warehouse workers arguing over their bonuses.",
+        "answerZh": "在員工組成共同團體前，管理層一直使辦公室及倉庫員工為獎金問題爭執，採取分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q34",
+        "number": 34,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "The captain gave one player more time on the field and told the others that she had demanded it. This was more than simple favouritism.",
+        "promptZh": "隊長給予其中一名球員較多上場時間，並告訴其他人是她主動要求。這不只是普通的偏袒。",
+        "starter": "The",
+        "answer": "The captain’s unfair treatment of the players was not simple favouritism; it was divide and rule.",
+        "answerZh": "隊長對球員的不公平待遇不只是普通偏袒，而是分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q35",
+        "number": 35,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "The head teacher did not answer the shared complaint. Instead, she asked each class to prove that the other classes were responsible.",
+        "promptZh": "校長沒有回應各班共同提出的投訴，反而要求每個班別證明是其他班別需要負責。",
+        "starter": "Rather",
+        "answer": "Rather than answer the shared complaint, the head teacher chose to divide and rule by asking each class to blame the others.",
+        "answerZh": "校長沒有回應共同投訴，反而要求每個班別指責其他班別，選擇分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q36",
+        "number": 36,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "The leader’s method worked only while the two groups failed to compare the messages he had sent them.",
+        "promptZh": "只有在兩個小組沒有比較領袖向他們發出的訊息時，他的手段才能奏效。",
+        "starter": "Divide",
+        "answer": "Divide and rule worked only while the two groups failed to compare the leader’s messages.",
+        "answerZh": "只有在兩個小組沒有比較領袖所發出的訊息時，分而治之的手段才能奏效。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "Divide and rule"
+      },
+      {
+        "id": "idiom-72-q37",
+        "number": 37,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "The manager offered one team a small reward to separate it from the others. His plan failed because the teams shared the reward and stayed united.",
+        "promptZh": "經理向其中一個團隊提供小額獎勵，企圖使它與其他團隊分裂。由於各團隊分享了獎勵並保持團結，他的計劃失敗了。",
+        "starter": "The",
+        "answer": "The manager’s attempt to divide and rule failed because the teams shared the reward and stayed united.",
+        "answerZh": "由於各團隊分享了獎勵並保持團結，經理分而治之的企圖失敗了。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q38",
+        "number": 38,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "The owner made each branch believe that the other branches were receiving more money.",
+        "promptZh": "老闆使每間分店都相信其他分店獲得了更多金錢。",
+        "starter": "By",
+        "answer": "By making each branch believe that the others received more money, the owner created a system of divide and rule.",
+        "answerZh": "老闆使每間分店都相信其他分店獲得更多金錢，建立了一套分而治之的制度。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q39",
+        "number": 39,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "The governor spoke about unity in public, but his private messages encouraged the regions to distrust one another.",
+        "promptZh": "總督公開談論團結，但他的私人訊息卻鼓勵各個地區互不信任。",
+        "starter": "The",
+        "answer": "The governor spoke of unity in public but relied on divide and rule in private through messages that encouraged distrust between the regions.",
+        "answerZh": "總督公開談論團結，私下卻透過鼓勵各地區互不信任的訊息，採取分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q40",
+        "number": 40,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "If the members continue meeting separately, the chairperson may turn their differences into personal fights.",
+        "promptZh": "如果成員繼續分開會面，主席可能會把他們之間的分歧變成私人爭鬥。",
+        "starter": "If",
+        "answer": "If the members continue meeting separately, the chairperson may be able to divide and rule, turning their differences into personal fights.",
+        "answerZh": "如果成員繼續分開會面，主席可能會把他們的分歧變成私人爭鬥，從而分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q41",
+        "number": 41,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "The community centre manager seems to be asking the youth group and the parent group to make separate complaints about each other rather than discuss their shared problem.",
+        "promptZh": "社區中心經理似乎正要求青年小組及家長小組分別投訴對方，而不是討論他們共同面對的問題。",
+        "starter": "The",
+        "answer": "The community centre manager seems to be using divide and rule, asking the youth and parent groups to complain about each other separately.",
+        "answerZh": "社區中心經理似乎正要求青年小組及家長小組分別投訴對方，採取分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q42",
+        "number": 42,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The hospital administrator may have told the day team that the night team lost the equipment, while telling the night team the opposite.",
+        "promptZh": "醫院行政人員可能曾告訴日間團隊，是夜間團隊弄失了器材；同時又向夜間團隊作出相反說法。",
+        "starter": "The",
+        "answer": "The hospital administrator may have tried to divide and rule through opposite stories given to the day and night teams.",
+        "answerZh": "醫院行政人員可能曾向日間及夜間團隊提供相反說法，企圖分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q43",
+        "number": 43,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "After the hotel workers asked the same question about working hours, the manager met each floor separately and promised each group a different change.",
+        "promptZh": "酒店員工就工作時間提出同一問題後，經理分別與每一層的員工會面，並向每組承諾不同的改變。",
+        "starter": "After",
+        "answer": "After the hotel workers raised the same question about working hours, the manager’s response was divide and rule: he made different promises to each floor.",
+        "answerZh": "酒店員工提出相同的工作時間問題後，經理以分而治之作回應，向每一層的員工作出不同承諾。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q44",
+        "number": 44,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "A history article explains that the governors dealt with local leaders separately instead of allowing them to form one council.",
+        "promptZh": "一篇歷史文章解釋，總督分別與各地領袖交涉，而沒有讓他們組成一個共同議會。",
+        "starter": "The",
+        "answer": "The history article describes the governors’ separate dealings with local leaders as a policy of divide and rule.",
+        "answerZh": "這篇歷史文章把總督分別與各地領袖交涉的做法，形容為分而治之的政策。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q45",
+        "number": 45,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "A: The principal says the two clubs must compete for one room, even though another room is empty. B: She may want them to fight each other instead of questioning the rule.",
+        "promptZh": "甲：校長說兩個學會必須競爭同一個房間，儘管另一個房間正空置。 乙：她可能希望他們互相爭鬥，而不是質疑這項規定。",
+        "starter": "She",
+        "answer": "She may be trying to divide and rule by making the two clubs compete for one room.",
+        "answerZh": "她可能正迫使兩個學會競爭同一個房間，企圖分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q46",
+        "number": 46,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The two work groups had different needs, but they realised that management was using those differences to stop them making a joint request.",
+        "promptZh": "兩個工作小組有不同需要，但他們發現管理層正在利用這些差異，阻止他們提出共同要求。",
+        "starter": "Even",
+        "answer": "Even though the two work groups had different needs, they recognised divide and rule in management’s attempt to stop a joint request.",
+        "answerZh": "雖然兩個工作小組有不同需要，但他們辨識出管理層企圖阻止共同要求的分而治之手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q47",
+        "number": 47,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The leader’s plan would succeed only if the villages continued blaming one another for the water shortage.",
+        "promptZh": "只有在各條村繼續為缺水問題互相指責時，領袖的計劃才能成功。",
+        "starter": "The",
+        "answer": "The leader’s policy of divide and rule would succeed only if the villages continued blaming one another for the water shortage.",
+        "answerZh": "只有在各條村繼續為缺水問題互相指責時，領袖的分而治之政策才能成功。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q48",
+        "number": 48,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "An online group moderator privately told each side that the other side had refused a fair discussion. The members revealed the method by sharing images of the different messages.",
+        "promptZh": "一個網上群組的管理員私下告訴雙方，是對方拒絕進行公平討論。成員分享不同訊息的截圖，揭露了這種手段。",
+        "starter": "The",
+        "answer": "The members exposed divide and rule when they shared images of the moderator’s different private messages.",
+        "answerZh": "成員分享管理員所發出的不同私人訊息截圖，揭露了分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q49",
+        "number": 49,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The committee could not tell whether the chairperson was simply confused or was deliberately sending conflicting instructions to keep the groups apart.",
+        "promptZh": "委員會無法確定主席只是感到混亂，還是刻意發出互相矛盾的指示，使不同小組保持分裂。",
+        "starter": "The",
+        "answer": "The committee could not tell whether the chairperson was confused or was deliberately trying to divide and rule with conflicting instructions.",
+        "answerZh": "委員會無法確定主席只是感到混亂，還是正刻意透過互相矛盾的指示企圖分而治之。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      },
+      {
+        "id": "idiom-72-q50",
+        "number": 50,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "A public report concluded that the agency had given different communities conflicting explanations for the same decision, causing the communities to fight one another instead of questioning the agency.",
+        "promptZh": "一份公開報告總結指出，該機構就同一項決定向不同社區提供互相矛盾的解釋，令各社區互相爭鬥，而沒有向機構提出質疑。",
+        "starter": "The",
+        "answer": "The public report concluded that the agency had used divide and rule, giving different communities conflicting explanations for the same decision.",
+        "answerZh": "公開報告總結指出，該機構就同一項決定向不同社區提供互相矛盾的解釋，採取了分而治之的手段。",
+        "targetForm": "Divide and Rule",
+        "targetMeaning": "the meaning and usage of the expression Divide and Rule, as demonstrated by the supplied model answers",
+        "highlight": "divide and rule"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1266 @@
+{
+  "id": "ss324",
+  "order": 324,
+  "slug": "x-is-anything-but-adjective",
+  "title": "「X is anything but + adjective」表示「X 絕非……／一點也不……」",
+  "titleZh": "「X is anything but + adjective」表示「X 絕非……／一點也不……」",
+  "titleEn": "Using “X is anything but + adjective”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 322 -「X is anything but + adjective」表示「X 絕非……／一點也不……」.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exercisePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "sha256": "787fdde506353fdb9954bc2662c9c4fba80ffaf44d68adf703dd3b5de39a3165",
+    "sourceNumber": 322,
+    "systemOrder": 324,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 322 maps to ss324: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "anything but + adjective",
+  "formulas": [
+    {
+      "id": "ss324-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "anything but + adjective"
+    }
+  ],
+  "example": "The new procedure is anything but simple.",
+  "exampleZh": "新程序一點也不簡單。",
+  "examples": [
+    {
+      "id": "ss324-example-01",
+      "en": "The new procedure is anything but simple.",
+      "zh": "新程序一點也不簡單。",
+      "highlight": "The new procedure is anything but simple."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss324-rule-01",
+      "zh": "目標表達【anything but】表示強烈否定在這個句型中，anything but 並不是指「任何東西」，而是表示：【not at all；far from；certainly not】 一點也不……絕非……遠非……這個房間一點也不安靜。 這句通常暗示房間非常嘈吵，而不只是「不太安靜」。",
+      "en": "anything but not at all far from certainly not The room is anything but quiet.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-rule-02",
+      "zh": "比 not very 強烈這個程序不太簡單。 這句只表示程序有一點困難。這個程序一點也不簡單。 這句表示程序肯定不簡單，而且可能非常複雜。因此，anything but 不應用來表達輕微或不肯定的否定。",
+      "en": "anything but The procedure is not very simple. The procedure is anything but simple.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-rule-03",
+      "zh": "核心固定結構只有 anything but + adjective 以下都是完整的核心結構：【anything but simple；anything but reliable；anything but pleasant；anything but practical】 句子前後的其他部分只是句法外殼或補充資料，並不是固定結構的一部分。三句使用的核心結構都是：【anything but practical】 目標表達【Although, after the costs were calculated】等部分只是提供額外資料。",
+      "en": "anything but simple anything but reliable anything but pleasant anything but practical The plan is anything but practical. Although the plan looks attractive, it is anything but practical. The plan was anything but practical after the costs were calculated. anything but practical Although, after the costs were calculated",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-rule-04",
+      "zh": "動詞可以配合不同時態和主語改變。現在式：這個方法一點也不可靠。這些指示一點也不清楚。過去式：這段旅程一點也不舒適。這些討論一點也不簡短。完成式：談判進展一直一點也不順利。這個過程一直一點也不透明。未來式：最後階段絕不會簡單直接。",
+      "en": "be The method is anything but reliable. The instructions are anything but clear. The journey was anything but comfortable. The discussions were anything but brief. The negotiations have been anything but smooth. The process had been anything but transparent. The final stage will be anything but straightforward.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-rule-05",
+      "zh": "可以放在情態動詞後面未來幾個月可能非常難以預測。 這項任務可能一點也不容易。 這段旅程絕不會舒適。 情態動詞本身表達可能性、預測或判斷；anything but + adjective 仍然是核心結構。",
+      "en": "Subject + modal verb + be + anything but + adjective. The next few months may be anything but predictable. The task could be anything but easy. The journey will be anything but comfortable.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-rule-06",
+      "zh": "可以跟在其他連繫動詞後面除了 be，anything but + adjective 亦可跟在表示觀感、狀態或結果的連繫動詞後面。這個計劃看來一點也不實際。 情況看來一點也不穩定。 這個房間看來一點也不舒適宜人。 這個解釋聽起來一點也不具說服力。 這個道歉讓人感到一點也不真誠。 這座大樓仍然一點也不安全。 這項任務結果一點也不簡單。 較便宜的選擇結果一點也不合乎經濟效益。 這些連繫動詞是可用的句法外殼，但核心表達仍然是：【anything but + adjective】",
+      "en": "seem The plan seems anything but practical. appear The situation appears anything but stable. look The room looks anything but welcoming. sound The explanation sounds anything but convincing. feel The apology felt anything but sincere. remain The building remains anything but safe. prove The task proved anything but simple. turn out to be The cheaper choice turned out to be anything but economical. anything but + adjective",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-rule-07",
+      "zh": "形容詞前不要使用副詞形式後面需要形容詞，用來描述主語。",
+      "en": "The procedure is anything but simple. The procedure is anything but simply. anything but",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-rule-08",
+      "zh": "遇上否定形容詞時，要小心雙重否定職員絕非沒有幫助，換言之，他們非常樂於幫忙。 目標表達【anything but】會否定後面的形容詞：【anything but friendly】 一點也不友善絕非不友善，通常暗示十分友善初學者應先集中練習 positive adjective，例如 simple、clear、safe 和 reliable，以免混淆。",
+      "en": "The staff were anything but unhelpful. anything but anything but friendly anything but unfriendly",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-rule-09",
+      "zh": "不要與「except」的用法混淆這項任務一點也不容易。 除了魚以外，我甚麼都會吃。 第二句中的 anything but 表示「除了……以外的任何東西」，並不是本課的目標結構。",
+      "en": "Anything but + adjective: The task was anything but easy. Anything but + noun: I will eat anything but fish.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-rule-10",
+      "zh": "不要與 nothing but 混淆這個答案一點幫助也沒有。 盒子裏只有舊文件。 兩個結構的意思完全不同。",
+      "en": "anything but + adjective ＝ definitely not The answer was anything but helpful. nothing but + noun ＝ only The box contained nothing but old papers.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-rule-11",
+      "zh": "不要混淆【anything but impossible】和【all but impossible】：前者表示「絕非不可能」，後者表示「幾乎不可能」。這個計劃絕非不可能。這個計劃幾乎不可能實行。這個程序一點也不簡單。 這段旅程可能一點也不舒適。 這些討論一直毫無成果。 這個解決方法看來一點也不實際。 雖然這部裝置外表現代化，但一點也不方便使用。 由於這條道路一點也不安全，居民都會避開它。",
+      "en": "anything but impossible all but impossible The plan is anything but impossible. The plan is all but impossible. After be Subject + be + anything but + adjective. The procedure is anything but simple. After a modal verb Subject + modal + be + anything but + adjective. The journey may be anything but comfortable. With perfect tenses Subject + has / have / had been + anything but + adjective. The discussions have been anything but productive. After another linking verb Subject + seem / appear / look / sound / feel / remain / prove + anything but + adjective. The solution seems anything but practical. Inside a subordinate clause Although / Because / If + subject + linking verb + anything but + adjective, main clause. Although the device looks modern, it is anything but user-friendly. Because the road is anything but safe, residents avoid it.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-rule-11a",
+      "zh": "檢查人員認為，這個出口一點也不方便到達。 這通看似普通的電話一點也不普通。 一項排斥兼職員工的政策一點也不具包容性。 這篇演說一點也不鼓舞人心，令觀眾感到失望。 這是較高階的可選延伸，並不是最基本的句式。初學者應先掌握：【Subject + be + anything but + adjective.】",
+      "en": "Inside a reported or embedded clause Subject + reporting verb + that + subject + be + anything but + adjective. The inspectors concluded that the exit was anything but accessible. After a longer subject Long noun phrase / noun clause + be + anything but + adjective. What appeared to be a routine call was anything but routine. A policy that excludes part-time workers is anything but inclusive. Fronted adjective phrase Anything but + adjective, + subject + verb. Anything but inspiring, the speech left the audience disappointed. Subject + be + anything but + adjective.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss324-benefit-01",
+      "zh": "表達強烈而清楚的否定這個句型能明確告訴讀者，某事物完全不具備某種特質。這項服務一點也不可靠。 讀者會明白服務並非只是偶爾出錯，而是非常不可靠。",
+      "en": "The service is anything but reliable.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-benefit-02",
+      "zh": "把較長的說法縮短你可以用較少字數表達相同的強烈意思。",
+      "en": "Instead of: The new procedure is not simple in any way. You can write: The new procedure is anything but simple.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-benefit-03",
+      "zh": "適合指出現實與預期不同這個句型經常用來說明某事物看似具有某種特質，但實際情況完全不同。這項據說容易的任務一點也不容易。 它特別適合用於評論、故事、報告和議論文。",
+      "en": "The supposedly easy task was anything but easy.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-benefit-04",
+      "zh": "讓評價更有力度相比普通的 not，anything but 能使意見更明確。這個解釋不清楚。 這個解釋一點也不清楚。 第二句的批評更強烈。",
+      "en": "The explanation was not clear. The explanation was anything but clear.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss324-benefit-05",
+      "zh": "提供多種自然句法選擇掌握核心表達後，你可以把它放在不同句法外殼中：【is anything but clear；may be anything but clear；seems anything but clear；has been anything but clear；although it is anything but clear；a report that is anything but clear】 這能令說話和寫作的句式更有變化，而不是每句都使用相同開頭。",
+      "en": "is anything but clear may be anything but clear seems anything but clear has been anything but clear although it is anything but clear a report that is anything but clear",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 322 maps to ss324: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using anything but + adjective. Preserve the original meaning and all",
+      "important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 anything but + 形容詞 改寫以下句子。答案必須保留原句的意思及所有重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss324-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new procedure is not simple at all.",
+      "promptZh": "新程序一點也不簡單。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new procedure is anything but simple.",
+      "answerZh": "新程序一點也不簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "The new procedure is anything but simple."
+    },
+    {
+      "id": "ss324-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The room was far from quiet.",
+      "promptZh": "房間一點也不安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room was anything but quiet.",
+      "answerZh": "房間一點也不安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The room was anything but quiet."
+    },
+    {
+      "id": "ss324-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This explanation is certainly not clear.",
+      "promptZh": "這個解釋絕不清楚。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This explanation is anything but clear.",
+      "answerZh": "這個解釋一點也不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "This explanation is anything but clear."
+    },
+    {
+      "id": "ss324-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The journey was not comfortable in the least.",
+      "promptZh": "這段旅程一點也不舒適。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The journey was anything but comfortable.",
+      "answerZh": "這段旅程一點也不舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "The journey was anything but comfortable."
+    },
+    {
+      "id": "ss324-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "No one could reasonably describe the service as reliable.",
+      "promptZh": "沒有人可以合理地形容這項服務可靠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The service is anything but reliable.",
+      "answerZh": "這項服務一點也不可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The service is anything but reliable."
+    },
+    {
+      "id": "ss324-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Our new neighbour is by no means reserved.",
+      "promptZh": "我們的新鄰居一點也不拘謹。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our new neighbour is anything but reserved.",
+      "answerZh": "我們的新鄰居一點也不拘謹。",
+      "answerZhSource": "pdf",
+      "highlight": "Our new neighbour is anything but reserved."
+    },
+    {
+      "id": "ss324-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The test was far from easy.",
+      "promptZh": "測驗一點也不容易。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The test was anything but easy.",
+      "answerZh": "測驗一點也不容易。",
+      "answerZhSource": "pdf",
+      "highlight": "The test was anything but easy."
+    },
+    {
+      "id": "ss324-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "His answer was so rude that it could hardly be called polite.",
+      "promptZh": "他的回答十分粗魯，很難稱得上有禮貌。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His answer was anything but polite.",
+      "answerZh": "他的回答一點也不禮貌。",
+      "answerZhSource": "pdf",
+      "highlight": "His answer was anything but polite."
+    },
+    {
+      "id": "ss324-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Today's weather is certainly not pleasant.",
+      "promptZh": "今天的天氣絕不宜人。",
+      "promptZhSource": "pdf",
+      "starter": "Today's",
+      "answer": "Today's weather is anything but pleasant.",
+      "answerZh": "今天的天氣一點也不宜人。",
+      "answerZhSource": "pdf",
+      "highlight": "Today's weather is anything but pleasant."
+    },
+    {
+      "id": "ss324-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The meeting was not brief at all.",
+      "promptZh": "會議一點也不簡短。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting was anything but brief.",
+      "answerZh": "會議一點也不簡短。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting was anything but brief."
+    },
+    {
+      "id": "ss324-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The last few weeks have been far from calm.",
+      "promptZh": "過去幾星期一點也不平靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The last few weeks have been anything but calm.",
+      "answerZh": "過去幾星期一點也不平靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The last few weeks have been anything but calm."
+    },
+    {
+      "id": "ss324-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "There is a real possibility that the task will be far from simple.",
+      "promptZh": "這項任務很可能一點也不簡單。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The task may be anything but simple.",
+      "answerZh": "這項任務可能一點也不簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "The task may be anything but simple."
+    },
+    {
+      "id": "ss324-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "After closer study, the plan seems far from practical.",
+      "promptZh": "仔細研究後，這個計劃看來一點也不實際。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After closer study, the plan seems anything but practical.",
+      "answerZh": "仔細研究後，這個計劃看來一點也不實際。",
+      "answerZhSource": "pdf",
+      "highlight": "After closer study, the plan seems anything but practical."
+    },
+    {
+      "id": "ss324-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The situation appears to be completely unstable.",
+      "promptZh": "情況看來完全不穩定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The situation appears anything but stable.",
+      "answerZh": "情況看來一點也不穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "The situation appears anything but stable."
+    },
+    {
+      "id": "ss324-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The proposal does not sound reasonable in the least.",
+      "promptZh": "這項建議聽起來一點也不合理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal sounds anything but reasonable.",
+      "answerZh": "這項建議聽起來一點也不合理。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal sounds anything but reasonable."
+    },
+    {
+      "id": "ss324-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "After the long delay, the apology did not feel sincere at all.",
+      "promptZh": "經過長時間延誤後，這個道歉讓人感到一點也不真誠。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the long delay, the apology felt anything but sincere.",
+      "answerZh": "經過長時間延誤後，這個道歉讓人感到一點也不真誠。",
+      "answerZhSource": "pdf",
+      "highlight": "After the long delay, the apology felt anything but sincere."
+    },
+    {
+      "id": "ss324-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Despite the repairs, the building remains far from safe.",
+      "promptZh": "儘管進行了維修，這座大樓仍然一點也不安全。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite the repairs, the building remains anything but safe.",
+      "answerZh": "儘管進行了維修，這座大樓仍然一點也不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the repairs, the building remains anything but safe."
+    },
+    {
+      "id": "ss324-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The supposedly simple task proved far from simple.",
+      "promptZh": "這項據說簡單的任務結果一點也不簡單。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The supposedly simple task proved anything but simple.",
+      "answerZh": "這項據說簡單的任務結果一點也不簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "The supposedly simple task proved anything but simple."
+    },
+    {
+      "id": "ss324-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The cheap option turned out not to be economical at all.",
+      "promptZh": "這個廉價選擇結果一點也不合乎經濟效益。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cheap option turned out to be anything but economical.",
+      "answerZh": "這個廉價選擇結果一點也不合乎經濟效益。",
+      "answerZhSource": "pdf",
+      "highlight": "The cheap option turned out to be anything but economical."
+    },
+    {
+      "id": "ss324-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The final stage will certainly not be straightforward.",
+      "promptZh": "最後階段肯定不會簡單直接。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final stage will be anything but straightforward.",
+      "answerZh": "最後階段絕不會簡單直接。",
+      "answerZhSource": "pdf",
+      "highlight": "The final stage will be anything but straightforward."
+    },
+    {
+      "id": "ss324-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Residents avoid the road because it is far from safe at night.",
+      "promptZh": "居民避開這條道路，因為它在晚上很不安全。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the road is anything but safe at night, residents avoid it.",
+      "answerZh": "由於這條道路在晚上一點也不安全，居民都會避開它。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the road is anything but safe at night, residents avoid it."
+    },
+    {
+      "id": "ss324-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The device looks modern, but it is not user-friendly at all.",
+      "promptZh": "這部裝置外表現代化，但一點也不方便使用。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the device looks modern, it is anything but user-friendly.",
+      "answerZh": "雖然這部裝置外表現代化，但一點也不方便使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the device looks modern, it is anything but user-friendly."
+    },
+    {
+      "id": "ss324-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Many people expected the report to be balanced, but it was far from objective.",
+      "promptZh": "很多人原本預期報告會保持平衡，但它一點也不客觀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report, which many people expected to be balanced, was anything but objective.",
+      "answerZh": "這份很多人原本預期會保持平衡的報告，一點也不客觀。",
+      "answerZhSource": "pdf",
+      "highlight": "The report, which many people expected to be balanced, was anything but objective."
+    },
+    {
+      "id": "ss324-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What seemed like a routine call was not routine at all.",
+      "promptZh": "這通看似普通的電話一點也不普通。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What seemed like a routine call was anything but routine.",
+      "answerZh": "這通看似普通的電話一點也不普通。",
+      "answerZhSource": "pdf",
+      "highlight": "What seemed like a routine call was anything but routine."
+    },
+    {
+      "id": "ss324-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Were the audience members calm? No. They were extremely restless.",
+      "promptZh": "觀眾平靜嗎？不。他們非常不安。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The audience members were anything but calm.",
+      "answerZh": "觀眾一點也不平靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The audience members were anything but calm."
+    },
+    {
+      "id": "ss324-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The new rules were described as simple, but they were actually far from simple.",
+      "promptZh": "新規則被形容為簡單，但實際上一點也不簡單。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the new rules were described as simple, they were anything but simple.",
+      "answerZh": "雖然新規則被形容為簡單，但實際上一點也不簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the new rules were described as simple, they were anything but simple."
+    },
+    {
+      "id": "ss324-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The next few months may be far from predictable.",
+      "promptZh": "未來幾個月可能非常難以預測。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The next few months may be anything but predictable.",
+      "answerZh": "未來幾個月可能一點也不可預測。",
+      "answerZhSource": "pdf",
+      "highlight": "The next few months may be anything but predictable."
+    },
+    {
+      "id": "ss324-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Did the instructions seem helpful? No. They seemed completely unhelpful.",
+      "promptZh": "這些指示看來有幫助嗎？不。它們看來完全沒有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions seemed anything but helpful.",
+      "answerZh": "這些指示看來一點幫助也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions seemed anything but helpful."
+    },
+    {
+      "id": "ss324-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "No one would describe the response as generous.",
+      "promptZh": "沒有人會形容這個回應慷慨。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The response was anything but generous.",
+      "answerZh": "這個回應一點也不慷慨。",
+      "answerZhSource": "pdf",
+      "highlight": "The response was anything but generous."
+    },
+    {
+      "id": "ss324-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The film was advertised as relaxing, but it was not relaxing at all.",
+      "promptZh": "這部電影被宣傳為輕鬆寫意，但實際上一點也不輕鬆。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the film was advertised as relaxing, it was anything but relaxing.",
+      "answerZh": "雖然這部電影被宣傳為輕鬆寫意，但實際上一點也不輕鬆。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the film was advertised as relaxing, it was anything but relaxing."
+    },
+    {
+      "id": "ss324-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If the sea is far from calm, the ferry may be delayed.",
+      "promptZh": "如果海面很不平靜，渡輪可能會延誤。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the sea is anything but calm, the ferry may be delayed.",
+      "answerZh": "如果海面一點也不平靜，渡輪可能會延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "If the sea is anything but calm, the ferry may be delayed."
+    },
+    {
+      "id": "ss324-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "We rejected the timetable because it was far from practical.",
+      "promptZh": "我們拒絕了這份時間表，因為它一點也不實際。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We rejected the timetable because it was anything but practical.",
+      "answerZh": "我們拒絕了這份時間表，因為它一點也不實際。",
+      "answerZhSource": "pdf",
+      "highlight": "We rejected the timetable because it was anything but practical."
+    },
+    {
+      "id": "ss324-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The speech was far from inspiring, and it left the audience disappointed.",
+      "promptZh": "這篇演說一點也不鼓舞人心，令觀眾感到失望。",
+      "promptZhSource": "pdf",
+      "starter": "Anything",
+      "answer": "Anything but inspiring, the speech left the audience disappointed.",
+      "answerZh": "這篇演說一點也不鼓舞人心，令觀眾感到失望。",
+      "answerZhSource": "pdf",
+      "highlight": "Anything but inspiring, the speech left the audience disappointed."
+    },
+    {
+      "id": "ss324-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The restaurant was not affordable at all, so few students ate there.",
+      "promptZh": "這間餐廳一點也不便宜，因此很少學生到那裏用膳。",
+      "promptZhSource": "pdf",
+      "starter": "Few",
+      "answer": "Few students ate at the restaurant because it was anything but affordable.",
+      "answerZh": "很少學生到這間餐廳用膳，因為它一點也不便宜。",
+      "answerZhSource": "pdf",
+      "highlight": "Few students ate at the restaurant because it was anything but affordable."
+    },
+    {
+      "id": "ss324-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The inspectors concluded that the emergency exit was far from accessible.",
+      "promptZh": "檢查人員認為，這個緊急出口一點也不方便到達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The inspectors concluded that the emergency exit was anything but accessible.",
+      "answerZh": "檢查人員認為，這個緊急出口一點也不方便到達。",
+      "answerZhSource": "pdf",
+      "highlight": "The inspectors concluded that the emergency exit was anything but accessible."
+    },
+    {
+      "id": "ss324-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The witness said that the street had not been empty at all.",
+      "promptZh": "目擊者表示，當時街道一點也不空。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The witness said that the street had been anything but empty.",
+      "answerZh": "目擊者表示，當時街道一點也不空。",
+      "answerZhSource": "pdf",
+      "highlight": "The witness said that the street had been anything but empty."
+    },
+    {
+      "id": "ss324-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Have the negotiations been smooth? No. They have been extremely difficult.",
+      "promptZh": "談判進展順利嗎？不。談判一直非常困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The negotiations have been anything but smooth.",
+      "answerZh": "談判進展一點也不順利。",
+      "answerZhSource": "pdf",
+      "highlight": "The negotiations have been anything but smooth."
+    },
+    {
+      "id": "ss324-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Once new staff use the filing system, it no longer seems simple at all.",
+      "promptZh": "新職員一使用這套檔案系統，便會發現它一點也不簡單。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once new staff use the filing system, it seems anything but simple.",
+      "answerZh": "新職員一使用這套檔案系統，便會覺得它一點也不簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "Once new staff use the filing system, it seems anything but simple."
+    },
+    {
+      "id": "ss324-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The project was presented as safe, but it proved far from safe.",
+      "promptZh": "這個項目被形容為安全，但結果一點也不安全。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the project was presented as safe, it proved anything but safe.",
+      "answerZh": "雖然這個項目被形容為安全，但結果一點也不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the project was presented as safe, it proved anything but safe."
+    },
+    {
+      "id": "ss324-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The decision benefited only one department. It was therefore far from fair.",
+      "promptZh": "這項決定只惠及一個部門，因此一點也不公平。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision, which benefited only one department, was anything but fair.",
+      "answerZh": "這項只惠及一個部門的決定，一點也不公平。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision, which benefited only one department, was anything but fair."
+    },
+    {
+      "id": "ss324-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "One thing the campaign was not was subtle.",
+      "promptZh": "這場宣傳活動絕不含蓄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The campaign was anything but subtle.",
+      "answerZh": "這場宣傳活動一點也不含蓄。",
+      "answerZhSource": "pdf",
+      "highlight": "The campaign was anything but subtle."
+    },
+    {
+      "id": "ss324-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Far from being accidental, the timing seemed carefully planned.",
+      "promptZh": "這個時機看來經過精心安排，絕非偶然。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The timing seemed anything but accidental.",
+      "answerZh": "這個時機看來絕非偶然。",
+      "answerZhSource": "pdf",
+      "highlight": "The timing seemed anything but accidental."
+    },
+    {
+      "id": "ss324-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The debate lasted three hours, so no one could call it brief.",
+      "promptZh": "辯論持續了三小時，因此沒有人可以稱它為簡短。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The debate, which lasted three hours, was anything but brief.",
+      "answerZh": "這場持續了三小時的辯論，一點也不簡短。",
+      "answerZhSource": "pdf",
+      "highlight": "The debate, which lasted three hours, was anything but brief."
+    },
+    {
+      "id": "ss324-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The office looked organised from outside, but inside it was far from orderly.",
+      "promptZh": "辦公室從外面看來井然有序，但內部一點也不整齊。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the office looked organised from outside, it was anything but orderly inside.",
+      "answerZh": "雖然辦公室從外面看來井然有序，但內部一點也不整齊。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the office looked organised from outside, it was anything but orderly inside."
+    },
+    {
+      "id": "ss324-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The solution was supposed to be permanent, but it lasted only two weeks.",
+      "promptZh": "這個解決方法本應是永久的，但只維持了兩星期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The solution was anything but permanent, lasting only two weeks.",
+      "answerZh": "這個解決方法一點也不持久，只維持了兩星期。",
+      "answerZhSource": "pdf",
+      "highlight": "The solution was anything but permanent, lasting only two weeks."
+    },
+    {
+      "id": "ss324-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The review could not be considered independent because every reviewer reported directly to the manager.",
+      "promptZh": "由於每名評審員都直接向經理匯報，這項審查不能視為獨立。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With every reviewer reporting directly to the manager, the review was anything but independent.",
+      "answerZh": "由於每名評審員都直接向經理匯報，這項審查一點也不獨立。",
+      "answerZhSource": "pdf",
+      "highlight": "With every reviewer reporting directly to the manager, the review was anything but independent."
+    },
+    {
+      "id": "ss324-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The final report did not reassure investors at all; its vague conclusions created more uncertainty.",
+      "promptZh": "最終報告完全未能令投資者安心；含糊的結論反而帶來更多不確定性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final report was anything but reassuring, as its vague conclusions created more uncertainty.",
+      "answerZh": "最終報告一點也不能令人安心，因為含糊的結論帶來更多不確定性。",
+      "answerZhSource": "pdf",
+      "highlight": "The final report was anything but reassuring, as its vague conclusions created more uncertainty."
+    },
+    {
+      "id": "ss324-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Several basic weaknesses were found within hours, showing that the software was far from secure.",
+      "promptZh": "數小時內便發現了幾個基本弱點，顯示這套軟件一點也不安全。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With several basic weaknesses found within hours, the software was anything but secure.",
+      "answerZh": "由於數小時內便發現了幾個基本弱點，這套軟件一點也不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "With several basic weaknesses found within hours, the software was anything but secure."
+    },
+    {
+      "id": "ss324-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "A policy that excludes part-time workers from every benefit cannot reasonably be called inclusive.",
+      "promptZh": "一項把兼職員工排除在所有福利之外的政策，不能合理地稱為具包容性。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A policy that excludes part-time workers from every benefit is anything but inclusive.",
+      "answerZh": "一項把兼職員工排除在所有福利之外的政策，一點也不具包容性。",
+      "answerZhSource": "pdf",
+      "highlight": "A policy that excludes part-time workers from every benefit is anything but inclusive."
+    },
+    {
+      "id": "ss324-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The process was not transparent at all: key documents were withheld, and decisions were made in secret.",
+      "promptZh": "這個過程一點也不透明：重要文件被扣起，而決定亦在秘密情況下作出。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With key documents withheld and decisions made in secret, the process was anything but transparent.",
+      "answerZh": "由於重要文件被扣起，而決定亦在秘密情況下作出，這個過程一點也不透明。",
+      "answerZhSource": "pdf",
+      "highlight": "With key documents withheld and decisions made in secret, the process was anything but transparent."
+    }
+  ]
+}

@@ -1,0 +1,1351 @@
+{
+  "lesson": {
+    "id": "idiom-76",
+    "order": 76,
+    "slug": "pigs-might-fly",
+    "version": "1",
+    "title": "幾乎不可能／才怪",
+    "titleEn": "pigs might fly",
+    "titleZh": "幾乎不可能／才怪",
+    "source": {
+      "file": "Idiom 76 - 「pigs might fly _ pigs can fly」.pdf",
+      "pageCount": 33,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "exercisePdfPages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "answerKeyPdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "pigs might fly",
+        "highlight": "pigs might fly"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Pigs might fly!",
+        "zh": "才不可能呢！",
+        "highlight": "Pigs might fly"
+      },
+      {
+        "en": "And pigs might fly!",
+        "zh": "那才怪呢！",
+        "highlight": "pigs might fly"
+      }
+    ],
+    "meaning": {
+      "en": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+      "zh": "這是一個帶有幽默、而且通常帶有諷刺意味的表達，用來表示某件事幾乎完全不可能發生。",
+      "naturalZh": [
+        "這是一個帶有幽默、而且通常帶有諷刺意味的表達，用來表示某件事幾乎完全不可能發生。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "conversations between friends; family conversations; light workplace conversations; fictional dialogue; humorous comments; informal messages.",
+      "summaryZh": "pigs might fly 屬英式、非正式和幽默的表達。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "conversations between friends; family conversations; light workplace conversations; fictional dialogue; humorous comments; informal messages.",
+      "formalZh": "可使用的開首包括："
+    },
+    "fixedVariable": {
+      "fixed": "pigs might fly",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Frame 2: And + Target Expression",
+          "example": "Pigs might fly!",
+          "highlight": "Pigs might fly"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Core Grammar Bank",
+        "titleZh": "核心句式庫",
+        "formula": "Frame 2: And + Target Expression",
+        "descriptionEn": "This is a complete response.",
+        "descriptionZh": "這本身已經是一個完整回應。",
+        "examples": [
+          {
+            "en": "Pigs might fly!",
+            "zh": "才不可能呢！",
+            "highlight": "Pigs might fly"
+          },
+          {
+            "en": "And pigs might fly!",
+            "zh": "那才怪呢！",
+            "highlight": "pigs might fly"
+          },
+          {
+            "en": "Yes, and pigs might fly.",
+            "zh": "是啊，才怪呢。",
+            "highlight": "pigs might fly"
+          },
+          {
+            "en": "Sure, and pigs can fly.",
+            "zh": "當然啦，才怪呢。",
+            "highlight": "pigs can fly"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It expresses strong disbelief concisely",
+        "titleZh": "簡潔表達強烈不相信",
+        "en": "And pigs might fly!",
+        "zh": "這個慣用語能把「我認為你的承諾根本沒有實現的可能」濃縮成一句簡短回應。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It adds humorous sarcasm",
+        "titleZh": "加入幽默諷刺",
+        "en": "The idiomatic version creates a vivid and humorous impossible image.",
+        "zh": "普通說法只是直接表示不相信； 慣用語則加入一個生動而幽默的不可能畫面。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It responds naturally to repeated empty promises",
+        "titleZh": "自然回應屢次落空的承諾",
+        "en": "When the history of failure makes the new promise unbelievable, the idiom can express that reaction quickly.",
+        "zh": "如果某人多次作出相同承諾，卻從未履行，這個慣用語可以迅速表達說話者的不相信。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It shows mock agreement",
+        "titleZh": "表達假裝同意",
+        "en": "begins like an agreement, but its true meaning is the opposite.",
+        "zh": "Yes, and pigs might fly 表面上像是同意，實際上卻表示完全不相信。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It helps learners recognise sarcasm",
+        "titleZh": "幫助學生理解諷刺",
+        "en": "The literal words appear to describe a possibility, but the actual meaning rejects the possibility.",
+        "zh": "字面上，句子似乎說豬可能會飛； 實際上，它是利用不可能的畫面來否定之前的說法。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It develops awareness of regional English",
+        "titleZh": "認識英式和美式英語差異",
+        "en": "Learning both forms helps students recognise the expression in conversations, films and online communication. Important Reminder only when humorous or sarcastic disbelief is socially appropriate. I do not think that is realistic. And pigs might fly! Model 1: British English B: I do not believe that has any chance of happening. Model 2: American English B: That is completely unbelievable. Model 3: Repeating the Claim Your brother has never admitted that he was wrong. A friend says that he may apologise tomorrow. Non-Use Example A student has studied hard and hopes to pass an examination. Passing is realistically possible, and the student needs encouragement rather than sarcasm.",
+        "zh": "學習兩種形式，有助學生在對話、電影及網上交流中辨認這個表達。 重要提醒這個慣用語很實用，但不一定比直接說法更好。 只有在幽默或諷刺式不相信符合社交場合時，才使用： Model Examples 示範例子示範一：英式英語甲：賴恩說，他今晚會完成整個項目，儘管他還未開始。 乙：那才怪呢！ 示範二：美式英語甲：艾瑪說，她明天會提早到達，儘管她本月每天都遲到。 乙：那才怪呢！ 示範三：重複對方說法你的哥哥從未承認自己有錯。 一位朋友說，他明天可能會道歉。 他可能會道歉——才怪呢。 不應使用的例子有一名學生努力溫習，希望考試合格。 才怪呢！ 不適合的原因：",
+        "examples": [
+          {
+            "en": "B: And pigs might fly!",
+            "zh": "乙：那才怪呢！",
+            "highlight": "pigs might fly"
+          },
+          {
+            "en": "B: And pigs can fly!",
+            "zh": "乙：那才怪呢！",
+            "highlight": "pigs can fly"
+          },
+          {
+            "en": "He might apologise, and pigs might fly.",
+            "zh": "他可能會道歉——才怪呢。",
+            "highlight": "pigs might fly"
+          },
+          {
+            "en": "Pigs might fly!",
+            "zh": "才怪呢！",
+            "highlight": "Pigs might fly"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Unknown",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The exact origin is uncertain. English has used impossible images involving flying pigs for centuries. A 1639 proverb collection contained a related saying about pigs flying through the air, while a 1732 collection compared an unlikely event with seeing a hog fly. These are earlier relatives of the modern idiom, not proof that either writer invented its exact present form.",
+          "zh": "這個表達的確切來源尚未能確認。 數百年來，英語一直使用飛豬的荒誕畫面來表示不可能。 一本 1639年的諺語集收錄了與豬在空中飛行有關的說法； 一本1732年的諺語集則把不大可能發生的事情與看見豬飛行作比較。 這些都是現代慣用語的早期相關形式，但不能證明任何一名作者創造了今天的確切說法。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "In Lewis Carroll’s Alice’s Adventures in Wonderland, published in 1865, the Duchess compares Alice’s right to think with the right of pigs to fly. This shows that the flying-pig image was already understandable as an impossibility comparison in nineteenth-century Britain.",
+          "zh": "在1865年出版的 Lewis Carroll 作品 Alice’s Adventures in Wonderland 中，公爵夫人把愛麗絲思考的權利與豬飛行的權利作比較。 這顯示在十九世紀的英國，人們已能理解飛豬畫面是表示不可能的比較。"
+        }
+      ],
+      "memoryEn": "If the promise is as believable as a pig flying through the sky, the speaker does not believe it at all.",
+      "memoryZh": "如果某項承諾的可信程度與豬在天空飛行一樣，便表示說話者完全不相信。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “pigs” plural",
+        "titleZh": "規則一：pigs 必須使用複數",
+        "en": "Although a single pig can appear in a literal sentence, the target idiom uses the plural pigs.",
+        "zh": "雖然字面句子可以談及一隻豬，但目標慣用語必須使用複數 pigs。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use the base verb after the modal",
+        "titleZh": "規則二：情態動詞後使用動詞原形",
+        "en": "Might and can must be followed by the base form fly.",
+        "zh": "might 和 can 後面必須接動詞原形 fly。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do not mix the two regional forms",
+        "titleZh": "規則三：不要混合兩個地區形式",
+        "en": "pigs might can fly pigs can might fly",
+        "zh": "英式和美式形式均正確，但不可把 might 和 can 同時放入一句。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use it for extreme improbability",
+        "titleZh": "規則四：只用於極不可能發生的事情",
+        "en": "A man who has broken the same promise twenty times says he will definitely keep it tomorrow. It may rain tomorrow. Rain tomorrow is an ordinary possibility. The idiom would normally be too strong.",
+        "zh": "適合： 不適合： 明天下雨只是一般可能性，使用這個慣用語通常過於強烈。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The source must contain a claim, promise or prediction",
+        "titleZh": "規則五：語境必須包含說法、承諾或預測",
+        "en": "The expression normally responds to something that another person has said or suggested.",
+        "zh": "這個表達通常用來回應另一個人提出的說法、承諾或預測。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“Yes” and “sure” may be sarcastic",
+        "titleZh": "規則六：Yes 和 sure 可以帶諷刺意味",
+        "en": "I do not believe that at all.",
+        "zh": "並不表示真正同意，而是表示「我完全不相信」。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do not use it to encourage somebody",
+        "titleZh": "規則七：不要用它鼓勵別人",
+        "en": "This response would sound cruel and discouraging.",
+        "zh": "不適合的回應：",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do not use it in serious formal communication",
+        "titleZh": "規則八：不要用於嚴肅正式溝通",
+        "en": "The deadline appears highly unrealistic.",
+        "zh": "避免在正式報告、法律文件、正式投訴回覆、醫療建議、正式客戶服務電郵及學術文章中使用這個表達。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do not confuse it with a literal statement",
+        "titleZh": "規則九：不要與字面意思混淆",
+        "en": "The exercise teaches only the figurative response.",
+        "zh": "這些豬被空運，因此牠們可以乘飛機飛行。 他說五分鐘內會完成工作——才怪呢。 本練習只教授比喻式回應。",
+        "examples": [
+          {
+            "en": "The pigs can fly in the aircraft because they are being transported by air.",
+            "zh": "這些豬被空運，因此牠們可以乘飛機飛行。",
+            "highlight": "pigs can fly"
+          },
+          {
+            "en": "He says he will finish the work in five minutes—and pigs might fly.",
+            "zh": "他說五分鐘內會完成工作——才怪呢。",
+            "highlight": "pigs might fly"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "“When pigs fly” is related but not the target",
+        "titleZh": "規則十：when pigs fly 意思相關，但不是本課目標",
+        "en": "When pigs fly has a different grammatical frame. Do not use it in the answers.",
+        "zh": "使用不同的句法框架，因此不可在本練習的答案中使用。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "“Pigs may fly” is not the selected form",
+        "titleZh": "規則十一：pigs may fly 不是本課指定形式",
+        "en": "pigs might fly pigs can fly",
+        "zh": "本練習不接受 pigs may fly，因為指定訓練的形式是 pigs might fly 和 pigs can fly。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Use the sarcasm carefully",
+        "titleZh": "規則十二：小心使用諷刺語氣",
+        "en": "a serious personal hope; a sensitive family problem; someone who needs encouragement; a polite professional suggestion.",
+        "zh": "當你與熟悉的朋友談論明顯不可能實現的承諾時，這個表達可能很自然。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "The first word of each preferred answer has been provided.",
+      "zh": "所有沒有標記的題目均使用 pigs might fly。"
+    },
+    "questions": [
+      {
+        "id": "idiom-76-q01",
+        "number": 1,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Liam says he will clean his room before anyone asks, but he has never done so. His friend answers with humorous disbelief.",
+        "promptZh": "利亞姆說，他會在任何人開口前主動整理房間，但他從未這樣做過。他的朋友以幽默而不相信的方式回應。",
+        "starter": "And",
+        "answer": "And pigs might fly!",
+        "answerZh": "那才怪呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q02",
+        "number": 2,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Ava is late every day, yet she claims that she will arrive before everyone else tomorrow.",
+        "promptZh": "艾娃每天都遲到，卻聲稱自己明天會比所有人更早到達。",
+        "starter": "Pigs",
+        "answer": "Pigs might fly!",
+        "answerZh": "才不可能呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "Pigs might fly"
+      },
+      {
+        "id": "idiom-76-q03",
+        "number": 3,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Ben has broken the same promise six times. He now says he will return all the borrowed money tomorrow.",
+        "promptZh": "本已六次違背同一個承諾，現在卻說明天會歸還所有借款。",
+        "starter": "Yes",
+        "answer": "Yes, and pigs might fly.",
+        "answerZh": "是啊，才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q04",
+        "number": 4,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Noah says he will finish a 400-page book tonight, although he has not started reading it.",
+        "promptZh": "諾亞說，他今晚會讀完一本四百頁的書，儘管他還未開始閱讀。",
+        "starter": "And",
+        "answer": "And pigs might fly!",
+        "answerZh": "那才怪呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q05",
+        "number": 5,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "[US] Ethan says he will stop using his phone for a whole month, but he cannot even put it down during dinner.",
+        "promptZh": "【美式】伊森說，他會整整一個月不用手機，但他連吃飯時也無法把手機放下。",
+        "starter": "Sure",
+        "answer": "Sure, and pigs can fly.",
+        "answerZh": "當然啦，才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs can fly"
+      },
+      {
+        "id": "idiom-76-q06",
+        "number": 6,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Your younger brother has complained all morning. He now promises that he will never complain again.",
+        "promptZh": "你的弟弟整個早上都在抱怨，現在卻承諾以後再也不會抱怨。",
+        "starter": "Perhaps",
+        "answer": "Perhaps—and pigs might fly.",
+        "answerZh": "也許吧——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q07",
+        "number": 7,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The shop owner has never given anyone a refund. He says every unhappy customer will receive one tomorrow.",
+        "promptZh": "店主從未向任何人退款，卻說所有不滿的顧客明天都會獲得退款。",
+        "starter": "And",
+        "answer": "And pigs might fly!",
+        "answerZh": "那才怪呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q08",
+        "number": 8,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Leo cannot even boil an egg, but he says he will cook a five-course dinner tonight.",
+        "promptZh": "里奧連雞蛋也不懂得煮，卻說今晚會烹調五道菜的晚餐。",
+        "starter": "I",
+        "answer": "I suppose pigs might fly too.",
+        "answerZh": "我看這也根本不可能吧。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q09",
+        "number": 9,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Tina says the old bus in her garden will take her to the moon tomorrow.",
+        "promptZh": "蒂娜說，花園裡的舊巴士明天會載她到月球。",
+        "starter": "Pigs",
+        "answer": "Pigs might fly!",
+        "answerZh": "根本不可能！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "Pigs might fly"
+      },
+      {
+        "id": "idiom-76-q10",
+        "number": 10,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "[US] A player who never trains says he will win the national race next week.",
+        "promptZh": "【美式】一名從不訓練的運動員說，他下星期會贏得全國賽事。",
+        "starter": "Right",
+        "answer": "Right, and pigs can fly.",
+        "answerZh": "對啊，才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs can fly"
+      },
+      {
+        "id": "idiom-76-q11",
+        "number": 11,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Do you think your brother might apologise? B: He has never admitted that he was wrong.",
+        "promptZh": "甲：你認為你的哥哥可能會道歉嗎？ 乙：他從未承認自己有錯。",
+        "starter": "He",
+        "answer": "He might apologise, and pigs might fly.",
+        "answerZh": "他可能會道歉——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q12",
+        "number": 12,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The teacher says our class will remain completely silent for three hours, although it is usually the noisiest class in the school.",
+        "promptZh": "老師說，我們班會連續三小時完全保持安靜，儘管它通常是全校最嘈吵的班別。",
+        "starter": "And",
+        "answer": "And pigs might fly!",
+        "answerZh": "那才怪呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q13",
+        "number": 13,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Rosa claims that she will repay everyone this week, although she has ignored their messages for a year.",
+        "promptZh": "羅莎聲稱本星期會還錢給所有人，儘管她已整整一年不理會他們的訊息。",
+        "starter": "Rosa",
+        "answer": "Rosa may repay everyone this week, and pigs might fly.",
+        "answerZh": "羅莎本星期可能會還錢給所有人——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q14",
+        "number": 14,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The office computers have failed every Monday for two months. A colleague says they will all work perfectly next Monday.",
+        "promptZh": "辦公室電腦已連續兩個月逢星期一故障。一名同事說，下星期一所有電腦都會運作得非常順利。",
+        "starter": "Perhaps",
+        "answer": "Perhaps they will—and pigs might fly.",
+        "answerZh": "或許真的會吧——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q15",
+        "number": 15,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "[US] Mark says he will volunteer every weekend, although he has never helped at a single event.",
+        "promptZh": "【美式】馬克說，他每個週末都會做義工，儘管他從未在任何活動中幫忙。",
+        "starter": "Sure",
+        "answer": "Sure, Mark will volunteer every weekend—and pigs can fly.",
+        "answerZh": "當然啦，馬克真的會每個週末做義工——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs can fly"
+      },
+      {
+        "id": "idiom-76-q16",
+        "number": 16,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "When Joe promised to be on time, Ana laughed and replied that this was impossible.",
+        "promptZh": "喬承諾會準時到達時，安娜笑了起來，並以一句表示這根本不可能的說話回應。",
+        "starter": "Pigs",
+        "answer": "“Pigs might fly,” Ana replied.",
+        "answerZh": "「才怪呢。」安娜回答。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "Pigs might fly"
+      },
+      {
+        "id": "idiom-76-q17",
+        "number": 17,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The children say their dog will learn to wash all the dishes tonight.",
+        "promptZh": "孩子們說，他們的狗今晚會學會清洗所有碗碟。",
+        "starter": "And",
+        "answer": "And pigs might fly!",
+        "answerZh": "那才怪呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Could the old manager suddenly accept every new idea? B: He has refused every change for twenty years.",
+        "promptZh": "甲：那位老經理會不會突然接受所有新想法？ 乙：二十年來，他拒絕了每一次改變。",
+        "starter": "He",
+        "answer": "He could, and pigs might fly.",
+        "answerZh": "他是可能會啊——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q19",
+        "number": 19,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Karen buys new shoes almost every week. She now says she will never buy another pair.",
+        "promptZh": "凱倫差不多每星期都買新鞋，現在卻說以後再也不會買。",
+        "starter": "Karen",
+        "answer": "Karen might stop buying shoes, and pigs might fly.",
+        "answerZh": "凱倫可能真的會停止買鞋——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q20",
+        "number": 20,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "[US] A: Our team will score ten goals in the first five minutes. B: It has never scored ten goals in a whole match.",
+        "promptZh": "【美式】甲：我們的球隊會在開賽首五分鐘射入十球。 乙：球隊從未在整場比賽中射入十球。",
+        "starter": "And",
+        "answer": "And pigs can fly!",
+        "answerZh": "那才怪呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs can fly"
+      },
+      {
+        "id": "idiom-76-q21",
+        "number": 21,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A man who lies every day promises that he will never lie again. His friend responds with humorous disbelief.",
+        "promptZh": "一名每天都說謊的人承諾以後再也不會說謊。他的朋友以幽默而不相信的方式回應。",
+        "starter": "And",
+        "answer": "And pigs might fly!",
+        "answerZh": "那才怪呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A supervisor who rejects almost every holiday request says he will approve a worker’s request for a whole month off.",
+        "promptZh": "一名幾乎拒絕所有休假申請的主管說，他會批准一名員工休假整整一個月。",
+        "starter": "Pigs",
+        "answer": "Pigs might fly!",
+        "answerZh": "根本不可能！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "Pigs might fly"
+      },
+      {
+        "id": "idiom-76-q23",
+        "number": 23,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A parent says her teenage son will put his phone away willingly for the entire weekend.",
+        "promptZh": "一名家長說，她十多歲的兒子會自願在整個週末把手機收起來。",
+        "starter": "He",
+        "answer": "He might—and pigs might fly.",
+        "answerZh": "他可能會吧——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q24",
+        "number": 24,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A colleague says the broken computer system will repair itself overnight without anyone doing any work.",
+        "promptZh": "一名同事說，損壞的電腦系統會在沒有人處理的情況下於一夜之間自行修復。",
+        "starter": "Yes",
+        "answer": "Yes, and pigs might fly.",
+        "answerZh": "是啊，才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q25",
+        "number": 25,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "[US] Your friend says a famous actor whom she has never met will telephone her tonight.",
+        "promptZh": "【美式】你的朋友說，一位她從未見過的著名演員今晚會致電給她。",
+        "starter": "Sure",
+        "answer": "Sure, and pigs can fly.",
+        "answerZh": "當然啦，才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs can fly"
+      },
+      {
+        "id": "idiom-76-q26",
+        "number": 26,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Nina heard a man promise that he would repay twenty people by lunchtime. She smiled and expressed complete disbelief.",
+        "promptZh": "妮娜聽見一名男子承諾會在午飯前向二十個人還錢。她笑着表示完全不相信。",
+        "starter": "And",
+        "answer": "“And pigs might fly,” Nina said.",
+        "answerZh": "「那才怪呢。」妮娜說。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q27",
+        "number": 27,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A student who has not begun his group project says he will complete the whole thing alone before lunch.",
+        "promptZh": "一名尚未開始小組項目的學生說，他會在午飯前獨自完成整個項目。",
+        "starter": "He",
+        "answer": "He might finish it before lunch, and pigs might fly.",
+        "answerZh": "他可能會在午飯前完成——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q28",
+        "number": 28,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Sam has never admitted a mistake in public, but a friend predicts that he will do so at tomorrow’s meeting.",
+        "promptZh": "森姆從未公開承認錯誤，但一位朋友預測他會在明天的會議上這樣做。",
+        "starter": "Sam",
+        "answer": "Sam might admit it tomorrow—and pigs might fly.",
+        "answerZh": "森姆明天可能會承認錯誤——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q29",
+        "number": 29,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A salesman claims that a cheap plastic watch will continue working perfectly for a hundred years.",
+        "promptZh": "一名售貨員聲稱，一隻廉價膠手錶可以完美運作一百年。",
+        "starter": "And",
+        "answer": "And pigs might fly!",
+        "answerZh": "那才怪呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q30",
+        "number": 30,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "[US] A local team has lost every match this year, but its captain says it will win the league without any further practice.",
+        "promptZh": "【美式】一支本地球隊今年輸掉了所有比賽，但隊長說球隊不用再練習也會贏得聯賽冠軍。",
+        "starter": "Yes",
+        "answer": "Yes, they will—and pigs can fly.",
+        "answerZh": "是啊，他們當然會贏——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs can fly"
+      },
+      {
+        "id": "idiom-76-q31",
+        "number": 31,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The printer breaks down every week. The manager now claims that it will work for ever without being repaired.",
+        "promptZh": "打印機每星期都會故障。經理現在卻聲稱，即使不維修，它也會永遠正常運作。",
+        "starter": "The",
+        "answer": "The printer might work for ever without repair, and pigs might fly.",
+        "answerZh": "打印機可能不用維修也能永遠運作——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q32",
+        "number": 32,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Jade says she will wake up at five o’clock every morning, although she normally sleeps through three alarms.",
+        "promptZh": "潔德說，她每天早上五時都會起床，儘管她通常連三個鬧鐘也聽不到。",
+        "starter": "Jade",
+        "answer": "Jade might wake up at five every day, and pigs might fly.",
+        "answerZh": "潔德可能真的每天五時起床——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q33",
+        "number": 33,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Only one of the project’s twenty tasks is complete, but the director claims that everything will be finished by Friday.",
+        "promptZh": "項目二十項工作中只有一項完成，但主管聲稱星期五前所有工作都會完成。",
+        "starter": "The",
+        "answer": "The project might be finished by Friday—and pigs might fly.",
+        "answerZh": "項目可能會在星期五前完成——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q34",
+        "number": 34,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A dishonest local leader promises that he will never break another promise. A listener responds sarcastically.",
+        "promptZh": "一名不誠實的地方領袖承諾，以後再也不會違背承諾。一名聽眾以諷刺方式回應。",
+        "starter": "And",
+        "answer": "And pigs might fly!",
+        "answerZh": "那才怪呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q35",
+        "number": 35,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "[US] When Max said that he would stop interrupting people, his sister laughed because he had interrupted her five times in the previous minute.",
+        "promptZh": "【美式】馬克斯說自己會停止打斷別人，但他在之前一分鐘內已五次打斷姊姊，因此姊姊笑了起來。",
+        "starter": "Pigs",
+        "answer": "“Pigs can fly,” his sister replied.",
+        "answerZh": "「才怪呢。」他的姊姊回答。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "Pigs can fly"
+      },
+      {
+        "id": "idiom-76-q36",
+        "number": 36,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Although Peter can change, he has refused every suggestion for years. His friend now claims that he will become completely different overnight.",
+        "promptZh": "雖然彼得並非不可能改變，但多年來他拒絕了所有建議。朋友現在卻聲稱，他會在一夜之間徹底改變。",
+        "starter": "He",
+        "answer": "He might change overnight, and pigs might fly.",
+        "answerZh": "他可能會在一夜之間徹底改變——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Olivia has returned none of the eighteen books she borrowed. She says she will return all of them tomorrow morning.",
+        "promptZh": "奧莉維亞借了十八本書，卻一本也沒有歸還。她說明天早上會全部還清。",
+        "starter": "She",
+        "answer": "She might return them all tomorrow, and pigs might fly.",
+        "answerZh": "她明天可能會全部歸還——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q38",
+        "number": 38,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The coach says the team can win without attending any training sessions. A player responds with humorous disbelief.",
+        "promptZh": "教練說，球隊即使不參加任何訓練也能勝出。一名球員以幽默而不相信的方式回應。",
+        "starter": "Yes",
+        "answer": "Yes, we can win without training, and pigs might fly.",
+        "answerZh": "是啊，我們不用訓練也能勝出——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q39",
+        "number": 39,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The company has delayed the app twelve times, but it says there will be no further delay.",
+        "promptZh": "公司已十二次延遲推出應用程式，現在卻說不會再有任何延誤。",
+        "starter": "There",
+        "answer": "There might be no further delay, and pigs might fly.",
+        "answerZh": "之後可能真的不會再延誤——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q40",
+        "number": 40,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "[US] A: The lift has been broken for six months, but the landlord says it will repair itself tonight. B: No engineer is even coming.",
+        "promptZh": "【美式】甲：升降機已損壞六個月，但業主說它今晚會自行修復。 乙：甚至根本沒有工程人員前來。",
+        "starter": "Sure",
+        "answer": "Sure, and pigs can fly.",
+        "answerZh": "當然啦，才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs can fly"
+      },
+      {
+        "id": "idiom-76-q41",
+        "number": 41,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A man who never repays his debts tells his cousin not to worry because he will return the money before breakfast.",
+        "promptZh": "一名從不還債的男子叫表親不用擔心，因為他會在早餐前把錢歸還。",
+        "starter": "He’ll",
+        "answer": "He’ll repay me before breakfast, and pigs might fly.",
+        "answerZh": "他會在早餐前還錢給我——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: We need a realistic plan. B: The owner says customers will happily pay twice as much for exactly the same service.",
+        "promptZh": "甲：我們需要一個實際可行的計劃。 乙：老闆說，顧客會樂意為完全相同的服務付出雙倍價錢。",
+        "starter": "And",
+        "answer": "And pigs might fly!",
+        "answerZh": "那才怪呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q43",
+        "number": 43,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Although every earlier promise about short meetings has failed, the chairperson claims that today’s meeting will last only five minutes.",
+        "promptZh": "雖然過往每次有關短會議的承諾都沒有實現，主席仍聲稱今天的會議只會持續五分鐘。",
+        "starter": "The",
+        "answer": "The meeting might last only five minutes—and pigs might fly.",
+        "answerZh": "會議可能真的只會持續五分鐘——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q44",
+        "number": 44,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A teacher asks how likely it is that a student who has missed every deadline will submit three assignments early.",
+        "promptZh": "老師詢問，一名每次都錯過限期的學生提早提交三份功課的可能性有多大。",
+        "starter": "He",
+        "answer": "He might submit all three early, and pigs might fly.",
+        "answerZh": "他可能真的會提早提交三份功課——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q45",
+        "number": 45,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "[US] Your friend says the internet will repair itself if nobody touches the router for long enough.",
+        "promptZh": "【美式】你的朋友說，只要大家有足夠長時間不碰路由器，互聯網便會自行修復。",
+        "starter": "Maybe",
+        "answer": "Maybe it will, and pigs can fly.",
+        "answerZh": "也許真的會吧——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs can fly"
+      },
+      {
+        "id": "idiom-76-q46",
+        "number": 46,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A rumour says a famous singer whom you have never met will move into your spare room tomorrow.",
+        "promptZh": "有傳聞說，一位你從未見過的著名歌手明天會搬進你的空房。",
+        "starter": "Yes",
+        "answer": "Yes, and pigs might fly.",
+        "answerZh": "是啊，才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The shop claims that a badly damaged machine will become completely new if a customer taps it twice.",
+        "promptZh": "店方聲稱，只要顧客輕拍一部嚴重損壞的機器兩次，它便會變成全新的機器。",
+        "starter": "And",
+        "answer": "And pigs might fly!",
+        "answerZh": "那才怪呢！",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q48",
+        "number": 48,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "During a meeting, someone says a project with no money and no workers will be completed by lunchtime. A colleague expresses humorous disbelief without insulting the speaker personally.",
+        "promptZh": "會議期間，有人說一個既沒有資金也沒有工作人員的項目會在午飯前完成。一名同事以幽默方式表示不相信，但沒有直接侮辱說話者。",
+        "starter": "We",
+        "answer": "We might finish it by lunchtime, and pigs might fly.",
+        "answerZh": "我們可能會在午飯前完成——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q49",
+        "number": 49,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "After refusing to cook for twenty years, Uncle Henry promises to prepare the whole Christmas dinner. The family exchange doubtful looks.",
+        "promptZh": "亨利叔叔二十年來一直拒絕下廚，現在卻承諾準備整頓聖誕晚餐。家人互相投以懷疑的目光。",
+        "starter": "Uncle",
+        "answer": "Uncle Henry might cook Christmas dinner, and pigs might fly.",
+        "answerZh": "亨利叔叔可能真的會準備聖誕晚餐——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs might fly"
+      },
+      {
+        "id": "idiom-76-q50",
+        "number": 50,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "[US] A man who learnt the rules of chess yesterday says he will become the world champion next week.",
+        "promptZh": "【美式】一名昨天才學懂國際象棋規則的男子說，他下星期會成為世界冠軍。",
+        "starter": "Sure",
+        "answer": "Sure, he’ll become the world champion next week—and pigs can fly.",
+        "answerZh": "當然啦，他下星期真的會成為世界冠軍——才怪呢。",
+        "targetForm": "pigs might fly",
+        "targetMeaning": "It does not merely mean that an event is uncertain. It shows that the speaker considers the claim, promise or prediction extremely unlikely or effectively impossible. Cambridge identifies pigs might fly as the British form and pigs can fly as its American counterpart.",
+        "highlight": "pigs can fly"
+      }
+    ]
+  }
+}

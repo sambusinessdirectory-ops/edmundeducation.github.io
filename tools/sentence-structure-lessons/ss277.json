@@ -1,0 +1,1229 @@
+{
+  "id": "ss277",
+  "order": 277,
+  "slug": "when-it-comes-to-noun-v-ing",
+  "title": "「When it comes to + noun / V-ing」表示「說到／談到……方面」",
+  "titleZh": "「When it comes to + noun / V-ing」表示「說到／談到……方面」",
+  "titleEn": "Using “When it comes to + noun / V-ing”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 276 -「When it comes to + noun _ V-ing」表示「說到／談到……方面」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "sha256": "880969a4c9983c79aea72d2df0666ecc32c547de4198a252678a00e6c74b32e8",
+    "sourceNumber": 276,
+    "systemOrder": 277,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 276 maps to ss277: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "when it comes to + noun / V-ing",
+  "formulas": [
+    {
+      "id": "ss277-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "when it comes to + noun / V-ing"
+    }
+  ],
+  "example": "When it comes to safety, speed should not be the priority.",
+  "exampleZh": "說到安全，速度不應該是首要考慮。",
+  "examples": [
+    {
+      "id": "ss277-example-01",
+      "en": "When it comes to safety, speed should not be the priority.",
+      "zh": "說到安全，速度不應該是首要考慮。",
+      "highlight": "When it comes to safety, speed should not be the priority."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss277-rule-01",
+      "zh": "後面使用名詞或 V-ing 這個句型中的 to 是介詞，因此後面不能直接使用原形動詞。正確：【when it comes to safety】 說到安全 說到金錢 談到選擇學校 談到節約能源 錯誤：【when it comes to choose a school；when it comes to save energy】",
+      "en": "to when it comes to safety when it comes to money when it comes to choosing a school when it comes to saving energy when it comes to choose a school when it comes to save energy",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss277-rule-02",
+      "zh": "和 comes 是固定部分必須使用：【when it comes to】 不能寫成：【when it come to；when comes to；when this comes to】 這裏的 it 並不是指前文的某一件物件，而是固定表達的一部分。",
+      "en": "it when it comes to when it come to when comes to when this comes to",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss277-rule-03",
+      "zh": "這個句型引出的是「範疇，不是時間在以下句子中：【When it comes to safety, speed should not be the priority.】 意思並不是「當安全來到時」。真正意思是：在安全這個範疇中，速度不應該是首要考慮。」",
+      "en": "When it comes to safety, speed should not be the priority.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss277-rule-04",
+      "zh": "主句的位置可以改變以下兩句的核心意思相近：【When it comes to money, Daniel is careful.】 第一句先強調話題「金錢」。第二句先說明 Daniel 的特點，再指出這個特點適用於金錢方面。",
+      "en": "When it comes to money, Daniel is careful. Daniel is careful when it comes to money.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss277-rule-05",
+      "zh": "不要在每一句中都使用這個表達目標表達【when it comes to】是很實用的話題框架，但不應在同一段中過度重複。它特別適合：引出一個新範疇；比較不同方面的表現；說明某人在某方面的態度；指出某個範疇中的原則；由一般討論收窄至特定話題。",
+      "en": "when it comes to",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss277-rule-06",
+      "zh": "本練習只使用 comes 過去式 when it came to 在文法上是可能的：【When it came to difficult decisions, the former manager was cautious.】 不過，本練習的目標固定為：【when it comes to + noun / V-ing】 因此，所有標準答案均使用 comes。",
+      "en": "When it came to difficult decisions, the former manager was cautious. when it comes to + noun / V-ing",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss277-benefit-01",
+      "zh": "這個句型可以先指出話題，讓讀者或聽者立即知道接下來的內容屬於哪一個範疇。說到安全，速度不應該是首要考慮。 讀者能立即知道，這個意見只是在「安全」這個範疇中提出。",
+      "en": "It clearly tells the listener what topic you are discussing When it comes to safety, speed should not be the priority.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss277-benefit-02",
+      "zh": "你可以先談論一個較大的主題，再使用這個句型收窄討論範圍。這間公司在多個方面表現良好。談到顧客服務，它尤其可靠。 這樣可以令解釋更有層次。",
+      "en": "It helps you move from a general discussion to one specific area The company performs well in several areas. When it comes to customer service, it is especially reliable.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss277-benefit-03",
+      "zh": "這個句型很適合說明某人在特定方面的能力、習慣或態度。艾娃在財務決定方面很少冒險。 我們的團隊在壓力下工作方面表現良好。",
+      "en": "It is useful for describing strengths, weaknesses and personal attitudes Ava rarely takes risks when it comes to financial decisions. Our team performs well when it comes to working under pressure.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss277-benefit-04",
+      "zh": "說話時，你可以使用這個框架整理答案：【When it comes to ______, I think ______.】 談到學習英語，我認為定期練習比只在某一天長時間溫習更重要。 這個框架能讓你較快組織意見，不需要每次都從零開始設計句子。",
+      "en": "It gives you a ready-made speaking frame When it comes to ______, I think ______. When it comes to learning English, I think regular practice is more important than studying for many hours on one day.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss277-benefit-05",
+      "zh": "如果每一句都使用 about、regarding 或 in terms of，文章可能顯得重複。第二種寫法提供另一種自然引出話題的方法。",
+      "en": "It helps you avoid repeatedly using “about” or “regarding” Regarding public transport, convenience matters to many passengers. When it comes to public transport, convenience matters to many passengers.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss277-benefit-06",
+      "zh": "這個表達可以放在句首、句末，或另一個開首片語之後。因此，學生不需要把五十個答案都寫成相同的句子形狀，亦可以練習更多元的句子開首和資料排列方式。",
+      "en": "It can appear in different positions",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 276 maps to ss277: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using when it comes to + noun / V-ing.",
+      "Preserve the original meaning. The target expression may appear at the beginning, in the",
+      "middle or at the end of the sentence.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 when it comes to + 名詞／V-ing 改寫以下句子。",
+      "保留原句意思。目標表達可以放在句首、句中或句末。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss277-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Regarding safety, speed should not be the priority.",
+      "promptZh": "在安全方面，速度不應該是首要考慮。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to safety, speed should not be the priority.",
+      "answerZh": "說到安全，速度不應該是首要考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to safety, speed should not be the priority."
+    },
+    {
+      "id": "ss277-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our teacher shows great patience while explaining difficult ideas.",
+      "promptZh": "我們的老師在解釋困難的概念時十分有耐性。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher shows great patience when it comes to explaining difficult ideas.",
+      "answerZh": "談到解釋困難的概念，我們的老師十分有耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher shows great patience when it comes to explaining difficult ideas."
+    },
+    {
+      "id": "ss277-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In terms of healthy eating, small changes can make a difference.",
+      "promptZh": "在健康飲食方面，小改變也可以帶來影響。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to healthy eating, small changes can make a difference.",
+      "answerZh": "談到健康飲食，小改變也可以帶來影響。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to healthy eating, small changes can make a difference."
+    },
+    {
+      "id": "ss277-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel is careful about his personal spending.",
+      "promptZh": "丹尼爾對自己的個人消費十分謹慎。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel is careful when it comes to personal spending.",
+      "answerZh": "丹尼爾在個人消費方面十分謹慎。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel is careful when it comes to personal spending."
+    },
+    {
+      "id": "ss277-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In teamwork, listening is as important as speaking.",
+      "promptZh": "在團隊合作中，聆聽和說話同樣重要。",
+      "promptZhSource": "pdf",
+      "starter": "Listening",
+      "answer": "Listening is as important as speaking when it comes to teamwork.",
+      "answerZh": "談到團隊合作，聆聽和說話同樣重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Listening is as important as speaking when it comes to teamwork."
+    },
+    {
+      "id": "ss277-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As far as on-time delivery is concerned, this shop is reliable.",
+      "promptZh": "就準時送貨而言，這間商店十分可靠。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to on-time delivery, this shop is reliable.",
+      "answerZh": "談到準時送貨，這間商店十分可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to on-time delivery, this shop is reliable."
+    },
+    {
+      "id": "ss277-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Regular practice is helpful for learning vocabulary.",
+      "promptZh": "定期練習對學習詞彙很有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "Regular",
+      "answer": "Regular practice is helpful when it comes to learning vocabulary.",
+      "answerZh": "談到學習詞彙，定期練習很有幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "Regular practice is helpful when it comes to learning vocabulary."
+    },
+    {
+      "id": "ss277-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My brother becomes competitive over board games.",
+      "promptZh": "我的弟弟玩桌上遊戲時會變得好勝。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My brother becomes competitive when it comes to board games.",
+      "answerZh": "談到桌上遊戲，我的弟弟會變得好勝。",
+      "answerZhSource": "pdf",
+      "highlight": "My brother becomes competitive when it comes to board games."
+    },
+    {
+      "id": "ss277-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Regarding public transport, convenience matters to many passengers.",
+      "promptZh": "在公共交通方面，方便程度對很多乘客都很重要。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to public transport, convenience matters to many passengers.",
+      "answerZh": "談到公共交通，方便程度對很多乘客都很重要。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to public transport, convenience matters to many passengers."
+    },
+    {
+      "id": "ss277-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We should stay calm while dealing with everyday problems.",
+      "promptZh": "我們處理日常問題時應該保持冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should stay calm when it comes to everyday problems.",
+      "answerZh": "面對日常問題時，我們應該保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "We should stay calm when it comes to everyday problems."
+    },
+    {
+      "id": "ss277-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Battery life is important when choosing a laptop.",
+      "promptZh": "選擇手提電腦時，電池壽命十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to laptops, battery life is important.",
+      "answerZh": "談到手提電腦，電池壽命十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to laptops, battery life is important."
+    },
+    {
+      "id": "ss277-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school’s rules on bullying are strict.",
+      "promptZh": "學校對欺凌行為有嚴格的規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school has strict rules when it comes to bullying.",
+      "answerZh": "談到欺凌行為，學校有嚴格的規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has strict rules when it comes to bullying."
+    },
+    {
+      "id": "ss277-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "People have different priorities regarding housing.",
+      "promptZh": "人們對住屋有不同的優先考慮。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People have different priorities when it comes to housing.",
+      "answerZh": "談到住屋，人們有不同的優先考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "People have different priorities when it comes to housing."
+    },
+    {
+      "id": "ss277-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "For Grace, careful planning is essential whenever she cooks for guests.",
+      "promptZh": "對格蕾絲而言，每當她為客人下廚時，仔細規劃都十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For Grace, when it comes to cooking for guests, careful planning is essential.",
+      "answerZh": "對格蕾絲而言，談到為客人下廚，仔細規劃十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "For Grace, when it comes to cooking for guests, careful planning is essential."
+    },
+    {
+      "id": "ss277-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "File sharing is one area in which this app is easy to use.",
+      "promptZh": "檔案分享是這個應用程式容易使用的其中一個範疇。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This app is easy to use when it comes to file sharing.",
+      "answerZh": "談到檔案分享，這個應用程式很容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "This app is easy to use when it comes to file sharing."
+    },
+    {
+      "id": "ss277-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "There is no single correct answer concerning parenting.",
+      "promptZh": "在教養子女方面，沒有單一的正確答案。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to parenting, there is no single correct answer.",
+      "answerZh": "談到教養子女，沒有單一的正確答案。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to parenting, there is no single correct answer."
+    },
+    {
+      "id": "ss277-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "At this company, the new manager expects high standards in customer service.",
+      "promptZh": "在這間公司，新任經理對顧客服務有很高的要求。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this company, when it comes to customer service, the new manager expects high standards.",
+      "answerZh": "在這間公司，談到顧客服務，新任經理有很高的要求。",
+      "answerZhSource": "pdf",
+      "highlight": "At this company, when it comes to customer service, the new manager expects high standards."
+    },
+    {
+      "id": "ss277-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ava rarely takes risks with financial decisions.",
+      "promptZh": "艾娃在財務決定方面很少冒險。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava rarely takes risks when it comes to financial decisions.",
+      "answerZh": "艾娃在財務決定方面很少冒險。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava rarely takes risks when it comes to financial decisions."
+    },
+    {
+      "id": "ss277-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Experience can be valuable in handling complaints.",
+      "promptZh": "處理投訴時，經驗可以十分有用。",
+      "promptZhSource": "pdf",
+      "starter": "Experience",
+      "answer": "Experience can be valuable when it comes to complaint handling.",
+      "answerZh": "談到處理投訴，經驗可以十分有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Experience can be valuable when it comes to complaint handling."
+    },
+    {
+      "id": "ss277-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Regarding environmental protection, individual choices still matter.",
+      "promptZh": "在環境保護方面，個人選擇仍然十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to environmental protection, individual choices still matter.",
+      "answerZh": "談到環境保護，個人選擇仍然十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to environmental protection, individual choices still matter."
+    },
+    {
+      "id": "ss277-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach is demanding about punctuality.",
+      "promptZh": "教練對守時有嚴格要求。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach is demanding when it comes to punctuality.",
+      "answerZh": "教練在守時方面有嚴格要求。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach is demanding when it comes to punctuality."
+    },
+    {
+      "id": "ss277-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Getting enough sleep can help to reduce stress.",
+      "promptZh": "獲得充足睡眠有助減輕壓力。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to stress reduction, getting enough sleep can help.",
+      "answerZh": "談到減輕壓力，獲得充足睡眠可以帶來幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to stress reduction, getting enough sleep can help."
+    },
+    {
+      "id": "ss277-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our team performs well under pressure.",
+      "promptZh": "我們的團隊在壓力下表現良好。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team performs well when it comes to working under pressure.",
+      "answerZh": "我們的團隊在壓力下工作方面表現良好。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team performs well when it comes to working under pressure."
+    },
+    {
+      "id": "ss277-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Regarding information found online, not every source can be trusted.",
+      "promptZh": "對於網上找到的資訊，並非每個來源都可信。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to online information, not every source can be trusted.",
+      "answerZh": "談到網上資訊，並非每個來源都可信。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to online information, not every source can be trusted."
+    },
+    {
+      "id": "ss277-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company is now more flexible about home working than it was before.",
+      "promptZh": "公司現在對在家工作比以往更加有彈性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company is more flexible than before when it comes to home working.",
+      "answerZh": "公司在居家工作方面比以往更加有彈性。",
+      "answerZhSource": "pdf",
+      "highlight": "The company is more flexible than before when it comes to home working."
+    },
+    {
+      "id": "ss277-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Salary should not be the only consideration in choosing a career.",
+      "promptZh": "選擇職業時，薪金不應該是唯一的考慮因素。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to career choice, salary should not be the only consideration.",
+      "answerZh": "談到選擇職業，薪金不應該是唯一的考慮因素。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to career choice, salary should not be the only consideration."
+    },
+    {
+      "id": "ss277-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Children may need guidance on the safe use of social media.",
+      "promptZh": "兒童可能需要有人指導他們如何安全使用社交媒體。",
+      "promptZhSource": "pdf",
+      "starter": "Children",
+      "answer": "Children may need guidance when it comes to social media safety.",
+      "answerZh": "談到社交媒體安全，兒童可能需要指導。",
+      "answerZhSource": "pdf",
+      "highlight": "Children may need guidance when it comes to social media safety."
+    },
+    {
+      "id": "ss277-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At home, we ask a qualified technician for help with electrical repairs.",
+      "promptZh": "在家中，我們會請合資格的技術人員協助進行電力維修。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At home, when it comes to electrical repairs, we ask a qualified technician for help.",
+      "answerZh": "在家中，談到電力維修，我們會請合資格的技術人員協助。",
+      "answerZhSource": "pdf",
+      "highlight": "At home, when it comes to electrical repairs, we ask a qualified technician for help."
+    },
+    {
+      "id": "ss277-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our neighbourhood has made progress in keeping public spaces clean.",
+      "promptZh": "我們的社區在保持公共空間清潔方面已有進步。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbourhood has made progress when it comes to keeping public spaces clean.",
+      "answerZh": "我們的社區在保持公共空間清潔方面已有進步。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbourhood has made progress when it comes to keeping public spaces clean."
+    },
+    {
+      "id": "ss277-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Practising common questions can build confidence during interview preparation.",
+      "promptZh": "準備面試時，練習常見問題可以增強信心。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to interview preparation, practising common questions can build confidence.",
+      "answerZh": "談到面試準備，練習常見問題可以增強信心。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to interview preparation, practising common questions can build confidence."
+    },
+    {
+      "id": "ss277-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The committee remains cautious about approving costly projects.",
+      "promptZh": "委員會對批准高成本項目仍然十分謹慎。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee remains cautious when it comes to approving costly projects.",
+      "answerZh": "委員會在批准高成本項目方面仍然十分謹慎。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee remains cautious when it comes to approving costly projects."
+    },
+    {
+      "id": "ss277-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Clear instructions are essential in supporting new employees.",
+      "promptZh": "支援新僱員時，清晰的指示十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to support for new employees, clear instructions are essential.",
+      "answerZh": "談到支援新僱員，清晰的指示十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to support for new employees, clear instructions are essential."
+    },
+    {
+      "id": "ss277-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The old system handles large amounts of data inefficiently.",
+      "promptZh": "舊系統處理大量數據時效率很低。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old system is inefficient when it comes to handling large amounts of data.",
+      "answerZh": "舊系統在處理大量數據方面效率很低。",
+      "answerZhSource": "pdf",
+      "highlight": "The old system is inefficient when it comes to handling large amounts of data."
+    },
+    {
+      "id": "ss277-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When assessing a proposal, we should consider both cost and long-term value.",
+      "promptZh": "評估一項建議時，我們應該同時考慮成本和長遠價值。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to proposal assessment, we should consider both cost and long-term value.",
+      "answerZh": "談到評估建議，我們應該同時考慮成本和長遠價值。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to proposal assessment, we should consider both cost and long-term value."
+    },
+    {
+      "id": "ss277-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The museum has made progress in improving access for visitors with disabilities.",
+      "promptZh": "博物館在改善殘疾訪客的無障礙設施方面已有進展。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum has made progress when it comes to access for visitors with disabilities.",
+      "answerZh": "博物館在殘疾訪客的無障礙設施方面已有進展。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum has made progress when it comes to access for visitors with disabilities."
+    },
+    {
+      "id": "ss277-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In conflict management, speaking privately is often better than arguing in public.",
+      "promptZh": "處理衝突時，私下交談通常比公開爭論更好。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to conflict management, speaking privately is often better than arguing in public.",
+      "answerZh": "談到處理衝突，私下交談通常比公開爭論更好。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to conflict management, speaking privately is often better than arguing in public."
+    },
+    {
+      "id": "ss277-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Even experienced drivers can misjudge distance in heavy rain.",
+      "promptZh": "即使是有經驗的司機，也可能在大雨中錯誤判斷距離。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even experienced drivers can make mistakes when it comes to judging distance in heavy rain.",
+      "answerZh": "即使是有經驗的司機，在大雨中判斷距離時也可能犯錯。",
+      "answerZhSource": "pdf",
+      "highlight": "Even experienced drivers can make mistakes when it comes to judging distance in heavy rain."
+    },
+    {
+      "id": "ss277-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "On social media, strong passwords are only one part of protecting personal information.",
+      "promptZh": "在社交媒體上，強密碼只是保護個人資料的其中一個部分。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On social media, when it comes to personal information, strong passwords are only one part of the solution.",
+      "answerZh": "在社交媒體上，談到個人資料，強密碼只是解決方法的其中一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "On social media, when it comes to personal information, strong passwords are only one part of the solution."
+    },
+    {
+      "id": "ss277-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council has been slow to repair damaged pavements.",
+      "promptZh": "市政當局一直未能迅速維修損壞的行人路。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council has been slow when it comes to repairing damaged pavements.",
+      "answerZh": "市政當局在維修損壞的行人路方面一直進展緩慢。",
+      "answerZhSource": "pdf",
+      "highlight": "The council has been slow when it comes to repairing damaged pavements."
+    },
+    {
+      "id": "ss277-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To decide whether evidence is reliable, both the source and date matter.",
+      "promptZh": "要判斷證據是否可靠，資料來源和日期都十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to deciding whether evidence is reliable, both the source and date matter.",
+      "answerZh": "談到判斷證據是否可靠，資料來源和日期都十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to deciding whether evidence is reliable, both the source and date matter."
+    },
+    {
+      "id": "ss277-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organisation needs a clearer policy for handling public complaints.",
+      "promptZh": "這個機構需要一套更清晰的政策來處理公眾投訴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation needs a clearer policy when it comes to handling public complaints.",
+      "answerZh": "這個機構在處理公眾投訴方面需要一套更清晰的政策。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation needs a clearer policy when it comes to handling public complaints."
+    },
+    {
+      "id": "ss277-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Early support can prevent bigger problems for students who are falling behind.",
+      "promptZh": "及早提供支援，可以避免學習進度落後的學生出現更嚴重的問題。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to students who are falling behind, early support can prevent bigger problems.",
+      "answerZh": "談到學習進度落後的學生，及早提供支援可以避免更嚴重的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to students who are falling behind, early support can prevent bigger problems."
+    },
+    {
+      "id": "ss277-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Managers should apply workplace rules consistently.",
+      "promptZh": "經理應該一致地執行工作場所的規則。",
+      "promptZhSource": "pdf",
+      "starter": "Managers",
+      "answer": "Managers should be consistent when it comes to workplace rules.",
+      "answerZh": "經理在執行工作場所規則方面應該保持一致。",
+      "answerZhSource": "pdf",
+      "highlight": "Managers should be consistent when it comes to workplace rules."
+    },
+    {
+      "id": "ss277-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Simple solutions are rare in balancing economic growth with environmental protection.",
+      "promptZh": "要平衡經濟增長和環境保護，簡單的解決方法並不常見。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to balancing economic growth with environmental protection, simple solutions are rare.",
+      "answerZh": "談到平衡經濟增長和環境保護，簡單的解決方法並不常見。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to balancing economic growth with environmental protection, simple solutions are rare."
+    },
+    {
+      "id": "ss277-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The research team is especially careful about protecting participants’ privacy.",
+      "promptZh": "研究團隊對保護參加者的私隱尤其謹慎。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team is especially careful when it comes to participants’ privacy.",
+      "answerZh": "研究團隊在參加者私隱方面尤其謹慎。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team is especially careful when it comes to participants’ privacy."
+    },
+    {
+      "id": "ss277-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "With regard to public spending, decision-makers in public institutions should explain their reasons clearly.",
+      "promptZh": "在公共開支方面，公共機構的決策者應該清楚解釋其理由。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In public institutions, when it comes to public spending, decision-makers should explain their reasons clearly.",
+      "answerZh": "在公共機構中，談到公共開支，決策者應該清楚解釋其理由。",
+      "answerZhSource": "pdf",
+      "highlight": "In public institutions, when it comes to public spending, decision-makers should explain their reasons clearly."
+    },
+    {
+      "id": "ss277-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Small businesses can compete effectively in the area of personal service.",
+      "promptZh": "小型企業可以在個人化服務方面有效競爭。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small businesses can compete effectively when it comes to personal service.",
+      "answerZh": "小型企業在個人化服務方面可以有效競爭。",
+      "answerZhSource": "pdf",
+      "highlight": "Small businesses can compete effectively when it comes to personal service."
+    },
+    {
+      "id": "ss277-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Proper training is just as important as the equipment itself when new technology is introduced.",
+      "promptZh": "引入新科技時，適當培訓與設備本身同樣重要。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to introducing new technology, proper training is just as important as the equipment itself.",
+      "answerZh": "談到引入新科技，適當培訓與設備本身同樣重要。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to introducing new technology, proper training is just as important as the equipment itself."
+    },
+    {
+      "id": "ss277-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The report provides useful data, but its explanation of why the figures changed is limited.",
+      "promptZh": "報告提供了有用數據，但對數字變化原因的解釋有限。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report provides useful data but remains limited when it comes to explaining why the figures changed.",
+      "answerZh": "報告提供了有用數據，但在解釋數字變化的原因方面仍然有限。",
+      "answerZhSource": "pdf",
+      "highlight": "The report provides useful data but remains limited when it comes to explaining why the figures changed."
+    },
+    {
+      "id": "ss277-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Honest communication and consistent action are both necessary for rebuilding trust after a serious mistake.",
+      "promptZh": "在嚴重犯錯後，要重建信任，坦誠溝通和持續一致的行動都十分必要。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When it comes to rebuilding trust after a serious mistake, honest communication and consistent action are both necessary.",
+      "answerZh": "談到在嚴重犯錯後重建信任，坦誠溝通和持續一致的行動都十分必要。",
+      "answerZhSource": "pdf",
+      "highlight": "When it comes to rebuilding trust after a serious mistake, honest communication and consistent action are both necessary."
+    }
+  ]
+}

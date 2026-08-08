@@ -1,0 +1,1546 @@
+{
+  "lesson": {
+    "id": "idiom-137",
+    "order": 137,
+    "slug": "which-way-the-wind-blows",
+    "version": "1",
+    "title": "看清風向／探清形勢",
+    "titleEn": "Which Way the Wind Blows",
+    "titleZh": "看清風向／探清形勢",
+    "source": {
+      "file": "Idiom 137 - “Which Way the Wind Blows”.pdf",
+      "pageCount": 43,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "exercisePdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "answerKeyPdfPages": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "Which Way the Wind Blows",
+        "highlight": "Which Way the Wind Blows"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The manager wants to see which way the wind blows before changing the plan.",
+        "zh": "經理希望先看清大家的取向，再修改計劃。",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "en": "We can already see which way the wind blows among the younger customers.",
+        "zh": "我們已經可以看出年輕顧客的整體取向。",
+        "highlight": "which way the wind blows"
+      }
+    ],
+    "meaning": {
+      "en": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+      "zh": "了解某個情況、輿論或一群人的取向正朝哪個方向發展，尤其是在作出決定前先探清形勢。",
+      "naturalZh": [
+        "看清風向",
+        "探清形勢",
+        "了解大多數人的取向"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "journalism; general-interest writing; discussions about public opinion; decisions involving a group; comments about changing trends.",
+      "summaryZh": "日常對話； 職場討論； 會議； 新聞報道； 一般文章； 討論公眾意見； 涉及群體的決定； 評論不斷轉變的趨勢。",
+      "contextsEn": [
+        "conversation",
+        "workplace discussions",
+        "meetings",
+        "journalism",
+        "general-interest writing",
+        "discussions about public opinion",
+        "decisions involving a group",
+        "comments about changing trends",
+        "neutral and careful",
+        "practical",
+        "politically aware",
+        "mildly doubtful"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "職場討論",
+        "會議",
+        "新聞報道",
+        "一般文章",
+        "討論公眾意見",
+        "涉及群體的決定",
+        "評論不斷轉變的趨勢。",
+        "中性而謹慎",
+        "實際",
+        "對形勢敏感",
+        "略帶懷疑"
+      ],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "這個表達屬於中性至非正式語域。"
+    },
+    "fixedVariable": {
+      "fixed": "Which Way the Wind Blows",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + see(s) / saw / can see + which way the wind blows.",
+          "example": "The manager wants to see which way the wind blows before changing the plan.",
+          "highlight": "which way the wind blows"
+        },
+        {
+          "form": "Subject + know(s) / knew / wants to know + which way the wind blows.",
+          "example": "The chairperson wants to know which way the wind blows before calling a vote.",
+          "highlight": "which way the wind blows"
+        },
+        {
+          "form": "Subject + can / cannot + tell / sense / judge + which way the wind blows.",
+          "example": "Can you tell which way the wind blows from these comments?",
+          "highlight": "which way the wind blows"
+        },
+        {
+          "form": "Subject + find(s) out / work(s) out / discover(s) + which way the wind blows.",
+          "example": "The organiser sent a survey to find out which way the wind blows among the volunteers.",
+          "highlight": "which way the wind blows"
+        },
+        {
+          "form": "Subject + wait(s) / waited / will wait + to see + which way the wind blows.",
+          "example": "We should wait to see which way the wind blows before choosing a date.",
+          "highlight": "which way the wind blows"
+        },
+        {
+          "form": "a sign / sense / idea / picture + of + which way the wind blows",
+          "example": "The first vote gave us an idea of which way the wind blows.",
+          "highlight": "which way the wind blows"
+        },
+        {
+          "form": "Subject + depend(s) / may depend + on + which way the wind blows.",
+          "example": "The final decision may depend on which way the wind blows in tomorrow’s vote.",
+          "highlight": "which way the wind blows"
+        },
+        {
+          "form": "Which way the wind blows + verb",
+          "example": "Which way the wind blows is still unclear.",
+          "highlight": "Which way the wind blows"
+        },
+        {
+          "form": "Before / Once / After / Depending on + clause containing the target",
+          "example": "Before we know which way the wind blows, we should avoid announcing a final decision.",
+          "highlight": "which way the wind blows"
+        },
+        {
+          "form": "by + V-ing is an optional extension. It is not part of the fixed expression.",
+          "example": "The coach tried to find out which way the wind blows by speaking to each player privately.",
+          "highlight": "which way the wind blows"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “See”",
+        "titleZh": "一、放在 see 之後",
+        "formula": "Subject + see(s) / saw / can see + which way the wind blows.",
+        "descriptionEn": "What trend or opinion does the person observe?",
+        "descriptionZh": "後面的表達說明：",
+        "examples": [
+          {
+            "en": "The manager wants to see which way the wind blows before changing the plan.",
+            "zh": "經理希望先看清大家的取向，再修改計劃。",
+            "highlight": "which way the wind blows"
+          },
+          {
+            "en": "We can already see which way the wind blows among the younger customers.",
+            "zh": "我們已經可以看出年輕顧客的整體取向。",
+            "highlight": "which way the wind blows"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After “Know”",
+        "titleZh": "二、放在 know 之後",
+        "formula": "Subject + know(s) / knew / wants to know + which way the wind blows.",
+        "descriptionEn": "Source grammar frame: Subject + know(s) / knew / wants to know + which way the wind blows.",
+        "descriptionZh": "原檔列出的句法框架：Subject + know(s) / knew / wants to know + which way the wind blows。",
+        "examples": [
+          {
+            "en": "The chairperson wants to know which way the wind blows before calling a vote.",
+            "zh": "主席希望在進行表決前先了解大家的取向。",
+            "highlight": "which way the wind blows"
+          },
+          {
+            "en": "Nobody yet knows which way the wind blows among the undecided members.",
+            "zh": "目前仍沒有人知道尚未表態的成員傾向哪一方。",
+            "highlight": "which way the wind blows"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “Tell”, “Sense” or “Judge”",
+        "titleZh": "三、放在 tell、sense 或 judge 之後",
+        "formula": "Subject + can / cannot + tell / sense / judge + which way the wind blows.",
+        "descriptionEn": "Source grammar frame: Subject + can / cannot + tell / sense / judge + which way the wind blows.",
+        "descriptionZh": "原檔列出的句法框架：Subject + can / cannot + tell / sense / judge + which way the wind blows。",
+        "examples": [
+          {
+            "en": "Can you tell which way the wind blows from these comments?",
+            "zh": "你可以從這些評論判斷大家的取向嗎？",
+            "highlight": "which way the wind blows"
+          },
+          {
+            "en": "It is difficult to judge which way the wind blows from only three replies.",
+            "zh": "單憑三個回覆，很難判斷整體意見的方向。",
+            "highlight": "which way the wind blows"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Find Out”, “Work Out” or “Discover”",
+        "titleZh": "句式四",
+        "formula": "Subject + find(s) out / work(s) out / discover(s) + which way the wind blows.",
+        "descriptionEn": "Source grammar frame: Subject + find(s) out / work(s) out / discover(s) + which way the wind blows.",
+        "descriptionZh": "原檔列出的句法框架：Subject + find(s) out / work(s) out / discover(s) + which way the wind blows。",
+        "examples": [
+          {
+            "en": "The organiser sent a survey to find out which way the wind blows among the volunteers.",
+            "zh": "主辦人發出問卷，以了解義工的整體取向。",
+            "highlight": "which way the wind blows"
+          },
+          {
+            "en": "She is trying to work out which way the wind blows before announcing her decision.",
+            "zh": "她正嘗試探清形勢，再公布決定。",
+            "highlight": "which way the wind blows"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After “Wait to See”",
+        "titleZh": "五、放在 wait to see 之後",
+        "formula": "Subject + wait(s) / waited / will wait + to see + which way the wind blows.",
+        "descriptionEn": "The expression wait to see often suggests that the speaker is delaying a decision until the situation becomes clearer.",
+        "descriptionZh": "wait to see 通常表示說話者暫緩決定，直至形勢變得更明朗。",
+        "examples": [
+          {
+            "en": "We should wait to see which way the wind blows before choosing a date.",
+            "zh": "我們應先看看大家傾向哪個日期，再作選擇。",
+            "highlight": "which way the wind blows"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "After a Noun",
+        "titleZh": "六、放在名詞之後",
+        "formula": "a sign / sense / idea / picture + of + which way the wind blows",
+        "descriptionEn": "The phrase of which way the wind blows describes what the sign, idea or picture reveals.",
+        "descriptionZh": "說明某個跡象、概念或整體畫面反映了甚麼。",
+        "examples": [
+          {
+            "en": "The first vote gave us an idea of which way the wind blows.",
+            "zh": "第一次表決讓我們初步了解大家的取向。",
+            "highlight": "which way the wind blows"
+          },
+          {
+            "en": "The comments provide a clear picture of which way the wind blows among customers.",
+            "zh": "這些評論清楚反映顧客的整體取向。",
+            "highlight": "which way the wind blows"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After “Depend On”",
+        "titleZh": "七、放在 depend on 之後",
+        "formula": "Subject + depend(s) / may depend + on + which way the wind blows.",
+        "descriptionEn": "Source grammar frame: Subject + depend(s) / may depend + on + which way the wind blows.",
+        "descriptionZh": "原檔列出的句法框架：Subject + depend(s) / may depend + on + which way the wind blows。",
+        "examples": [
+          {
+            "en": "The final decision may depend on which way the wind blows in tomorrow’s vote.",
+            "zh": "最終決定可能視乎明天表決時大家的取向。",
+            "highlight": "which way the wind blows"
+          },
+          {
+            "en": "The manager’s response often depends on which way the wind blows among senior staff.",
+            "zh": "經理的回應往往取決於高級員工的整體取向。",
+            "highlight": "which way the wind blows"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "As the Subject of a Sentence",
+        "titleZh": "八、作為句子的主語",
+        "formula": "Which way the wind blows + verb",
+        "descriptionEn": "This pattern is grammatically correct but less conversational. It is most suitable for later questions and written discussion.",
+        "descriptionZh": "這個句式文法正確，但口語感較低，較適合後段題目及一般書面討論。",
+        "examples": [
+          {
+            "en": "Which way the wind blows is still unclear.",
+            "zh": "大家的取向仍未明朗。",
+            "highlight": "Which way the wind blows"
+          },
+          {
+            "en": "Which way the wind blows may determine whether the plan continues.",
+            "zh": "大家的取向可能會決定計劃是否繼續。",
+            "highlight": "Which way the wind blows"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Inside a Fronted Clause",
+        "titleZh": "九、放在句首從屬結構中",
+        "formula": "Before / Once / After / Depending on + clause containing the target",
+        "descriptionEn": "Source grammar frame: Before / Once / After / Depending on + clause containing the target.",
+        "descriptionZh": "原檔列出的句法框架：Before / Once / After / Depending on + clause containing the target。",
+        "examples": [
+          {
+            "en": "Before we know which way the wind blows, we should avoid announcing a final decision.",
+            "zh": "在了解整體取向前，我們不應公布最終決定。",
+            "highlight": "which way the wind blows"
+          },
+          {
+            "en": "Once we see which way the wind blows, we can choose the more suitable plan.",
+            "zh": "看清大家的取向後，我們便可以選擇較合適的計劃。",
+            "highlight": "which way the wind blows"
+          },
+          {
+            "en": "Depending on which way the wind blows, the club may keep or cancel the event.",
+            "zh": "視乎會員的整體取向，會方可能保留或取消活動。",
+            "highlight": "which way the wind blows"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "With “By + V-ing”",
+        "titleZh": "十、配合 by + V-ing",
+        "formula": "by + V-ing is an optional extension. It is not part of the fixed expression.",
+        "descriptionEn": "How did the person discover which way the wind blows?",
+        "descriptionZh": "它回答：",
+        "examples": [
+          {
+            "en": "The coach tried to find out which way the wind blows by speaking to each player privately.",
+            "zh": "教練逐一私下與球員交談，嘗試了解他們的整體取向。",
+            "highlight": "which way the wind blows"
+          },
+          {
+            "en": "The coach tried to find out which way the wind blows.",
+            "zh": "教練嘗試了解球員的整體取向。",
+            "highlight": "which way the wind blows"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Connects Opinion with Decision-Making",
+        "titleZh": "把群體意見與決策連繫起來",
+        "en": "The idiom packages the ideas of observation, changing opinion and later action into one expression.",
+        "zh": "這個慣用語把「觀察」、「意見變化」和「其後行動」集中在一個表達之中。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Expresses Uncertainty Naturally",
+        "titleZh": "自然表達形勢未明",
+        "en": "This sounds natural when there is not yet enough evidence to reach a conclusion.",
+        "zh": "當證據仍然不足以得出結論時，這種說法十分自然。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful for Group Decisions",
+        "titleZh": "適合討論群體決定",
+        "en": "surveys; votes; customer reactions; staff views; class preferences; public opinion; changing trends.",
+        "zh": "這個表達適合用來討論：",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Describe Strategic Caution",
+        "titleZh": "表達策略上的謹慎",
+        "en": "The speaker avoids acting too early.",
+        "zh": "說話者避免過早採取行動。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Criticise Weak Principles",
+        "titleZh": "可以批評立場不堅定",
+        "en": "He supports whichever plan is popular because he always waits to see which way the wind blows. The expression can suggest that somebody follows public opinion for personal advantage. The idiom is not automatically better than a plain expression. Use it only when the situation genuinely involves a changing trend, wider opinion or likely direction.",
+        "zh": "他總是先看哪個方案較受歡迎，然後才表示支持，因此他的立場並不堅定。 這個表達可以暗示某人為了個人利益而跟隨主流意見。 慣用語並不一定比一般表達更好。 只有當情境真正涉及轉變中的趨勢、群體意見或可能的發展方向時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact Origin Unknown",
+      "statusZh": "逐漸形成；確切來源不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "A close form appears in John Heywood’s sixteenth-century writing, which refers to knowing which way the wind “blew” and would blow. This shows that the image had been connected with understanding circumstances for centuries.",
+          "zh": "十六世紀作家 John Heywood 的作品中已出現相近形式，提到知道風過往及將來會向哪邊吹。 這顯示人們數百年前已把風向意象與了解形勢連繫起來。"
+        }
+      ],
+      "memoryEn": "A small sign shows the direction of an invisible wind; people’s reactions show the direction of an uncertain situation.",
+      "memoryZh": "一個小跡象可以顯示看不見的風向；人們的反應則可以顯示尚未明朗的形勢。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use Statement Word Order Inside the Target",
+        "titleZh": "規則一：目標表達內使用陳述句語序",
+        "en": "the wind + blows",
+        "zh": "完整句子可以是問句，但嵌入式子句仍保留陳述句語序：",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "The Target Normally Needs a Larger Sentence",
+        "titleZh": "規則二：目標表達通常需要放在較大的句子內",
+        "en": "The target is normally a clause inside a complete statement or question.",
+        "zh": "目標表達通常是一個放在完整陳述句或問句內的子句。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Confuse the Target with a Direct Weather",
+        "titleZh": "規則三：不要把目標表達與真正的天氣問題混淆",
+        "en": "Question Which way does the wind blow in winter? Every answer in this exercise must use the figurative meaning.",
+        "zh": "不要把目標表達與真正的天氣問題混淆 Literal weather question: 冬天時風向哪邊吹？ 經理希望了解員工的整體取向。 本練習中的所有答案都必須使用比喻意思。",
+        "examples": [
+          {
+            "en": "The manager wants to know which way the wind blows among the staff.",
+            "zh": "經理希望了解員工的整體取向。",
+            "highlight": "which way the wind blows"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve Uncertainty",
+        "titleZh": "規則四：保留不確定程度",
+        "en": "The source only expresses possibility, not certainty.",
+        "zh": "原句只表示可能性，並沒有表示確定。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve the Decision or Situation",
+        "titleZh": "規則五：保留其後的決定或情境",
+        "en": "whose opinion matters; what decision is being considered; why the manager needs the information.",
+        "zh": "第二個句子指出：",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Repeat the Idiomatic Meaning",
+        "titleZh": "規則六：不要重複慣用語已表達的意思",
+        "en": "The final clause merely explains the idiom again.",
+        "zh": "最後的子句只是再次解釋慣用語。 經理先了解大家的取向，再更改時間表。",
+        "examples": [
+          {
+            "en": "The manager waited to see which way the wind blows before changing the timetable.",
+            "zh": "經理先了解大家的取向，再更改時間表。",
+            "highlight": "which way the wind blows"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "The Group or Issue May Be Added",
+        "titleZh": "規則七：可以補充群體或議題",
+        "en": "among the staff; among local residents; in the class; within the committee; on the proposed change; before the final vote. These details are not fixed parts of the idiom.",
+        "zh": "自然的延伸部分包括： 這些資料並不是慣用語的固定部分。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "A Common Variant Exists, but It Is Not This",
+        "titleZh": "規則八",
+        "en": "A Common Variant Exists, but It Is Not This",
+        "zh": "規則八",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond using the target idiom.",
+      "zh": "使用目標慣用語改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-137-q01",
+        "number": 1,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Chloe has not chosen Saturday or Sunday for the picnic. She wants to ask all her friends which date they prefer first.",
+        "promptZh": "克洛伊尚未決定在星期六還是星期日舉行野餐。她希望先詢問所有朋友較喜歡哪個日期。",
+        "starter": "Chloe",
+        "answer": "Chloe wants to see which way the wind blows among her friends before choosing the picnic date.",
+        "answerZh": "克洛伊想先了解朋友們較傾向哪個日期，再決定野餐日期。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q02",
+        "number": 2,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The manager is considering a new staff uniform. She will read the employees’ comments before making the change.",
+        "promptZh": "經理正考慮採用新的員工制服。她會先閱讀員工的意見，再作出改動。",
+        "starter": "Before",
+        "answer": "Before changing the uniform, the manager will wait to see which way the wind blows among the staff.",
+        "answerZh": "經理會先了解員工的整體取向，再更改制服。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q03",
+        "number": 3,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Dad has found two possible places for the family holiday. He wants to learn which place most family members prefer before booking.",
+        "promptZh": "爸爸找到了兩個家庭旅行的地點。他希望先了解大部分家庭成員較喜歡哪一個，再作預訂。",
+        "starter": "Dad",
+        "answer": "Dad wants to know which way the wind blows among the family before booking either holiday.",
+        "answerZh": "爸爸希望先了解家庭成員較傾向哪個旅行地點，再作預訂。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q04",
+        "number": 4,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The teacher has three possible topics for the class project. She is asking the students for their views before choosing one.",
+        "promptZh": "老師為課堂項目準備了三個可能的題目。她正先詢問學生的意見，再選出其中一個。",
+        "starter": "The",
+        "answer": "The teacher is trying to find out which way the wind blows in the class before choosing the project topic.",
+        "answerZh": "老師正嘗試了解班內的整體取向，再選擇項目題目。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q05",
+        "number": 5,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Only four club members have replied about moving the weekly meeting to Saturday. The leader cannot yet judge the general opinion.",
+        "promptZh": "目前只有四名會員回覆了有關把每週會議改到星期六的建議。負責人仍無法判斷整體意見。",
+        "starter": "At",
+        "answer": "At this stage, the club leader cannot tell which way the wind blows on moving the meeting to Saturday.",
+        "answerZh": "現階段，會方負責人仍無法判斷會員對把會議改到星期六的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q06",
+        "number": 6,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The shop has introduced a new drink. The owner will study the first customer comments before ordering a larger amount.",
+        "promptZh": "店舖推出了一款新飲品。店主會先研究第一批顧客評論，再決定是否大量入貨。",
+        "starter": "Early",
+        "answer": "Early customer comments should show which way the wind blows before the shop orders more of the new drink.",
+        "answerZh": "第一批顧客評論應能反映整體取向，讓店舖決定是否增加新飲品的入貨量。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q07",
+        "number": 7,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The café owner is thinking of removing an old lunch set. She will first ask regular customers whether they still order it.",
+        "promptZh": "咖啡店店主正考慮取消一款舊午餐。她會先詢問熟客是否仍會點選這款午餐。",
+        "starter": "Before",
+        "answer": "Before removing the old lunch set, the café owner wants to know which way the wind blows among regular customers.",
+        "answerZh": "在取消舊午餐前，咖啡店店主希望先了解熟客的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q08",
+        "number": 8,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The team captain is considering a 7 a.m. training time. He will ask the players what they think before suggesting it officially.",
+        "promptZh": "隊長正考慮把訓練時間改為早上七時。他會先詢問球員的意見，再正式提出建議。",
+        "starter": "The",
+        "answer": "The captain will see which way the wind blows in the team before proposing a 7 a.m. training time.",
+        "answerZh": "隊長會先了解隊內的整體取向，再建議把訓練時間改為早上七時。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q09",
+        "number": 9,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Our class must choose between visiting a museum and spending a day at the beach. We should hear everyone’s preference first.",
+        "promptZh": "我們班需要在參觀博物館和到海灘活動之間作出選擇。我們應先聽取所有人的取向。",
+        "starter": "We",
+        "answer": "We should wait to see which way the wind blows in the class before choosing between the museum and the beach.",
+        "answerZh": "我們應先了解班內的整體取向，再在博物館和海灘之間作出選擇。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q10",
+        "number": 10,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The local centre may open an evening class. It has placed a sign-up form online to measure interest before making the final decision.",
+        "promptZh": "本地中心可能開辦夜間課程。中心已在網上放置報名表，以在作出最終決定前了解大家的興趣。",
+        "starter": "The",
+        "answer": "The sign-up form should reveal which way the wind blows among local families before the centre opens an evening class.",
+        "answerZh": "報名表應能反映本地家庭的整體取向，讓中心決定是否開辦夜間課程。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q11",
+        "number": 11,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The librarian has finished reading a survey about longer weekend opening hours. She now understands what most library users want.",
+        "promptZh": "圖書館員已閱讀完有關延長週末開放時間的問卷。她現在明白大部分使用者的取向。",
+        "starter": "After",
+        "answer": "After reading the survey, the librarian now knows which way the wind blows among library users and can decide whether to extend the weekend hours.",
+        "answerZh": "閱讀問卷後，圖書館員現在已了解使用者的整體取向，可以決定是否延長週末開放時間。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q12",
+        "number": 12,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Several committee members have not expressed an opinion. Nobody can yet predict which side they are likely to support.",
+        "promptZh": "數名委員尚未表達意見。目前沒有人能預測他們較可能支持哪一方。",
+        "starter": "No",
+        "answer": "No one yet knows which way the wind blows among the undecided committee members.",
+        "answerZh": "目前仍沒有人知道尚未表態的委員傾向哪一方。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q13",
+        "number": 13,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Parents have given their first reactions to a new homework plan. Ask whether those reactions are enough to show the general opinion.",
+        "promptZh": "家長已對新的功課計劃作出初步反應。請詢問這些反應是否足以顯示整體意見。",
+        "starter": "Can",
+        "answer": "Can you tell which way the wind blows from the parents’ first reactions to the new homework plan?",
+        "answerZh": "你可以從家長對新功課計劃的初步反應，判斷他們的整體取向嗎？",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q14",
+        "number": 14,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Ravi believes most of his colleagues support working from home on Fridays. However, he has spoken to only two people.",
+        "promptZh": "拉維認為大部分同事都支持星期五在家工作。然而，他只與兩個人談過。",
+        "starter": "Ravi",
+        "answer": "Ravi thinks he knows which way the wind blows in the office, but he has spoken to only two colleagues.",
+        "answerZh": "拉維認為自己知道辦公室內的整體取向，但他只與兩名同事談過。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q15",
+        "number": 15,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The coach will speak to every player privately before deciding whether to appoint a new captain.",
+        "promptZh": "教練會逐一私下與球員交談，再決定是否委任新隊長。",
+        "starter": "By",
+        "answer": "By speaking to every player privately, the coach hopes to find out which way the wind blows before deciding whether to appoint a new captain.",
+        "answerZh": "教練會逐一私下與球員交談，希望在決定是否委任新隊長前了解他們的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q16",
+        "number": 16,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Local residents discussed the proposed parking rules at yesterday’s meeting. Their comments helped us understand the general attitude more clearly.",
+        "promptZh": "本地居民在昨天的會議上討論了建議中的泊車規則。他們的意見令我們更清楚了解整體態度。",
+        "starter": "Yesterday’s",
+        "answer": "Yesterday’s meeting gave us a clearer idea of which way the wind blows among residents on the proposed parking rules.",
+        "answerZh": "昨天的會議令我們更清楚了解居民對建議中泊車規則的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q17",
+        "number": 17,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The shop is considering whether to continue opening late. Its choice may be influenced by the opinions of customers who visit in the evening.",
+        "promptZh": "店舖正考慮是否繼續延長營業時間。這項選擇可能會受到晚間顧客意見的影響。",
+        "starter": "Whether",
+        "answer": "Whether the shop keeps its late opening hours may depend on which way the wind blows among its evening customers.",
+        "answerZh": "店舖是否保留延長營業時間，可能取決於晚間顧客的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q18",
+        "number": 18,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The student council has not yet shown clear support for either plan. After its preference becomes clear, we can decide whether to arrange a formal vote.",
+        "promptZh": "學生會尚未明確支持任何一個方案。了解其整體取向後，我們便可以決定是否安排正式表決。",
+        "starter": "Once",
+        "answer": "Once we know which way the wind blows in the student council, we can decide whether to put the plan to a formal vote.",
+        "answerZh": "了解學生會的整體取向後，我們便可以決定是否把計劃交付正式表決。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q19",
+        "number": 19,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The television channel may keep or cancel its new programme. The decision will be influenced by the general reaction of viewers.",
+        "promptZh": "電視頻道可能保留或取消新節目。這項決定將受到觀眾整體反應的影響。",
+        "starter": "Depending",
+        "answer": "Depending on which way the wind blows among viewers, the channel may keep or cancel the new programme.",
+        "answerZh": "視乎觀眾的整體取向，頻道可能保留或取消新節目。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q20",
+        "number": 20,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Only five club members have replied to the proposed fee increase. Their general position therefore remains uncertain.",
+        "promptZh": "目前只有五名會員回覆了建議中的會費加幅。因此，會員的整體取向仍未明朗。",
+        "starter": "Which",
+        "answer": "Which way the wind blows among club members is still unclear from the first five replies.",
+        "answerZh": "單憑首五個回覆，會員的整體取向仍未明朗。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "Which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q21",
+        "number": 21,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A: Should we announce Friday as the date of the class party? B: Only six students have replied. We should hear from more people first.",
+        "promptZh": "甲：我們應該宣布在星期五舉行班級派對嗎？ 乙：目前只有六名學生回覆。我們應該先聽取更多人的意見。",
+        "starter": "I",
+        "answer": "I think we should wait to see which way the wind blows in the class before announcing the party date.",
+        "answerZh": "我認為我們應該先了解班內的整體取向，再公布派對日期。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q22",
+        "number": 22,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A: Nora originally opposed a longer lunch break. B: Why does she support it now? A: Most students have said they want it.",
+        "promptZh": "甲：諾拉原本反對延長午膳時間。 乙：為甚麼她現在支持了？ 甲：大部分學生都表示希望延長。",
+        "starter": "She",
+        "answer": "She changes her position whenever she sees which way the wind blows among the students.",
+        "answerZh": "她每次看清學生的主流意見後，便會改變自己的立場。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q23",
+        "number": 23,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The school is considering a weekend fair, but it needs enough parent volunteers. The first twenty replies may show whether families are generally willing to help.",
+        "promptZh": "學校正考慮舉辦週末嘉年華，但需要足夠家長義工。首二十個回覆可能會顯示家庭是否普遍願意幫忙。",
+        "starter": "The",
+        "answer": "The first twenty replies should show which way the wind blows among parents before the school commits to the weekend fair.",
+        "answerZh": "首二十個回覆應能反映家長的整體取向，讓學校決定是否正式舉辦週末嘉年華。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q24",
+        "number": 24,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A company is testing a new version of its app. It will study the early reviews before deciding whether to keep the new design.",
+        "promptZh": "一間公司正在測試應用程式的新版本。公司會先研究初期評價，再決定是否保留新設計。",
+        "starter": "Early",
+        "answer": "Early user reviews may reveal which way the wind blows before the company decides whether to keep the new app design.",
+        "answerZh": "初期使用者評價可能會反映整體取向，讓公司決定是否保留應用程式的新設計。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q25",
+        "number": 25,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A: Should we turn the club room into a quiet reading room or an area for group activities? B: We should ask the members before redesigning it.",
+        "promptZh": "甲：我們應該把會室改成安靜的閱覽室，還是小組活動區？ 乙：我們應該在重新設計前先詢問會員。",
+        "starter": "Before",
+        "answer": "Before redesigning the club room, the leader needs to find out which way the wind blows among the members.",
+        "answerZh": "在重新設計會室前，負責人需要先了解會員的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q26",
+        "number": 26,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Daniel has not said whether he supports the proposed phone-use rule. He wants to learn which position is more popular among the students first.",
+        "promptZh": "丹尼爾尚未表示是否支持建議中的手機使用規則。他希望先了解哪種立場在學生之間較受歡迎。",
+        "starter": "Daniel",
+        "answer": "Daniel is waiting to see which way the wind blows on the phone-use rule before saying whether he supports it.",
+        "answerZh": "丹尼爾正在等待了解大家對手機使用規則的取向，再表示自己是否支持。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q27",
+        "number": 27,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The office has sent every employee an anonymous form about working from home. The overall opinion will be clear after everyone has replied.",
+        "promptZh": "辦公室已向每名員工發出有關在家工作的匿名表格。所有人回覆後，整體意見便會變得明朗。",
+        "starter": "We",
+        "answer": "We will know which way the wind blows in the office once everyone has completed the anonymous form.",
+        "answerZh": "所有人完成匿名表格後，我們便會知道辦公室內的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q28",
+        "number": 28,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A restaurant is testing a delivery service for one month. The owner will use the number of orders and customer comments when deciding whether to continue it.",
+        "promptZh": "一間餐廳正在試行為期一個月的送餐服務。店主會根據訂單數量和顧客意見，決定是否繼續服務。",
+        "starter": "The",
+        "answer": "The first month of orders should tell the owner which way the wind blows before she decides whether to keep the delivery service.",
+        "answerZh": "首月的訂單情況應能讓店主了解顧客的整體取向，再決定是否保留送餐服務。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q29",
+        "number": 29,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: Seven members have replied to our survey. B: Is that enough to judge the opinion of the whole club?",
+        "promptZh": "甲：有七名會員回覆了我們的問卷。 乙：這足以判斷整個會的意見嗎？",
+        "starter": "Can",
+        "answer": "Can anyone tell which way the wind blows in the whole club from only seven replies?",
+        "answerZh": "單憑七個回覆，有人能判斷整個會的整體取向嗎？",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q30",
+        "number": 30,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Most messages in the group chat support holding the trip in December rather than January.",
+        "promptZh": "群組對話中的大部分訊息都支持在十二月而不是一月舉行旅行。",
+        "starter": "From",
+        "answer": "From the group chat, it is already easy to see which way the wind blows on holding the trip in December.",
+        "answerZh": "從群組對話中，已經很容易看出大家對十二月舉行旅行的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q31",
+        "number": 31,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The chairperson personally prefers the morning plan. Nevertheless, she will hear the rest of the committee’s views before supporting it officially.",
+        "promptZh": "主席個人較喜歡早上的方案。儘管如此，她會先聽取其他委員的意見，再正式表示支持。",
+        "starter": "Although",
+        "answer": "Although the chairperson prefers the morning plan, she will wait to see which way the wind blows among the rest of the committee.",
+        "answerZh": "雖然主席較喜歡早上的方案，但她會先了解其他委員的取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q32",
+        "number": 32,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Nearly every customer comment supports keeping the shop open on Sundays. The general direction of opinion is already obvious.",
+        "promptZh": "幾乎每則顧客評論都支持店舖在星期日營業。整體意見的方向已經十分明顯。",
+        "starter": "Because",
+        "answer": "Because nearly every comment supports the change, it is already clear which way the wind blows among customers.",
+        "answerZh": "由於幾乎每則評論都支持這項改動，顧客的整體取向已經十分明顯。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q33",
+        "number": 33,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A local representative opposed the market plan when residents disliked it. After public support increased, he began praising the same plan.",
+        "promptZh": "一名本地代表在居民不喜歡市集計劃時表示反對。公眾支持增加後，他卻開始稱讚同一個計劃。",
+        "starter": "His",
+        "answer": "His position on the market plan changes depending on which way the wind blows among local residents, which is why some colleagues question his principles.",
+        "answerZh": "他對市集計劃的立場會隨本地居民的主流意見而改變，因此部分同事質疑他是否有堅定原則。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q34",
+        "number": 34,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The manager has now read every staff email about the proposed four-day working week. She therefore understands the general opinion.",
+        "promptZh": "經理現在已閱讀每封有關建議中四天工作週的員工電郵。因此，她已了解整體意見。",
+        "starter": "Having",
+        "answer": "Having read all the staff emails, the manager now understands which way the wind blows on the proposed four-day working week.",
+        "answerZh": "閱讀所有員工電郵後，經理現在已了解大家對建議中四天工作週的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q35",
+        "number": 35,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Most confident employees have spoken, but several quieter workers have not. Their views are also needed before the department’s real position can be judged.",
+        "promptZh": "大部分較有自信的員工已發言，但數名較沉默的員工尚未表態。要判斷部門的真正取向，也需要聽取他們的意見。",
+        "starter": "Before",
+        "answer": "Before anyone can tell which way the wind blows in the whole department, the quieter employees must also be heard.",
+        "answerZh": "在判斷整個部門的真正取向前，也必須聽取較沉默員工的意見。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q36",
+        "number": 36,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Forty students took part in a trial vote about the new timetable. Their result may offer an early sign of the opinion across the whole school.",
+        "promptZh": "四十名學生參與了有關新時間表的試行表決。結果可能會初步反映全校的整體意見。",
+        "starter": "The",
+        "answer": "The small trial vote may be a useful sign of which way the wind blows across the wider school.",
+        "answerZh": "這次小型試行表決可能會初步顯示全校的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q37",
+        "number": 37,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Several undecided members will speak at tomorrow’s meeting. Until then, the likely result of the vote will remain uncertain.",
+        "promptZh": "數名尚未表態的成員會在明天的會議上發言。在此之前，表決的可能結果仍然未明。",
+        "starter": "We",
+        "answer": "We will not know which way the wind blows at the meeting until the undecided members speak.",
+        "answerZh": "在尚未表態的成員發言前，我們不會知道會議上的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q38",
+        "number": 38,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The organiser did not want to guess what the volunteers preferred. She therefore sent a simple form to everyone.",
+        "promptZh": "主辦人不希望猜測義工的取向。因此，她向所有人發出了一份簡單表格。",
+        "starter": "Instead",
+        "answer": "Instead of guessing which way the wind blows, the organiser sent a simple form to all the volunteers.",
+        "answerZh": "主辦人沒有猜測義工的取向，而是向所有義工發出了一份簡單表格。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q39",
+        "number": 39,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The manager wants to attract younger customers. Before changing the products, she must understand their present tastes and preferences.",
+        "promptZh": "經理希望吸引較年輕的顧客。在改變產品前，她必須了解他們目前的喜好和取向。",
+        "starter": "The",
+        "answer": "The question is whether the manager understands which way the wind blows among younger customers before changing the product range.",
+        "answerZh": "問題在於經理能否在改變產品種類前，了解年輕顧客的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q40",
+        "number": 40,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A: Thomas refused to comment on the plan last week. B: Why did he suddenly support it yesterday? A: The majority announced their support on Monday.",
+        "promptZh": "甲：托馬斯上星期拒絕評論這項計劃。 乙：為甚麼他昨天突然表示支持？ 甲：大多數人在星期一宣布了自己的支持。",
+        "starter": "He",
+        "answer": "He appears to have waited to see which way the wind blows before giving his opinion on the plan.",
+        "answerZh": "他似乎先等待看清主流意見，才表達自己對計劃的看法。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q41",
+        "number": 41,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Two groups of hospital staff will try the proposed work timetable for two weeks. Their experience should make the wider staff opinion clearer.",
+        "promptZh": "兩組醫院員工會試用建議中的工作時間表兩星期。他們的經驗應能令員工的整體取向變得更清楚。",
+        "starter": "Which",
+        "answer": "Which way the wind blows among hospital staff will become clearer after both groups have tried the new timetable.",
+        "answerZh": "兩組員工試用新時間表後，醫院員工的整體取向將會變得更清楚。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "Which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q42",
+        "number": 42,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The company leaders are divided over the new plan. Tomorrow’s anonymous vote may strongly influence their final decision.",
+        "promptZh": "公司主管對新計劃意見不一。明天的匿名表決可能會強烈影響他們的最終決定。",
+        "starter": "The",
+        "answer": "The company’s final decision could depend on which way the wind blows in tomorrow’s anonymous vote.",
+        "answerZh": "公司的最終決定可能取決於明天匿名表決時的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q43",
+        "number": 43,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The head teacher will speak separately to parents and teachers before deciding whether to reduce the amount of homework.",
+        "promptZh": "校長會分別與家長和老師交談，再決定是否減少功課量。",
+        "starter": "By",
+        "answer": "By speaking separately to parents and teachers, the head teacher hopes to find out which way the wind blows on reducing homework.",
+        "answerZh": "校長會分別與家長和老師交談，希望了解他們對減少功課量的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q44",
+        "number": 44,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A gym has increased its membership price. The number of members who cancel during the first month may reveal the general reaction.",
+        "promptZh": "一間健身中心提高了會費。首月取消會籍的人數可能會反映整體反應。",
+        "starter": "The",
+        "answer": "The first few cancellations may tell the gym manager which way the wind blows on the new membership price.",
+        "answerZh": "首批取消會籍的情況可能會讓健身中心經理了解會員對新會費的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q45",
+        "number": 45,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The town leaders have heard only from the people who strongly support the new road. They should not announce a final decision before listening to the wider community.",
+        "promptZh": "鎮上主管目前只聽取了強烈支持新道路的人士的意見。在聆聽更廣泛的社區意見前，他們不應公布最終決定。",
+        "starter": "No",
+        "answer": "No final decision should be announced until the town leaders understand which way the wind blows among local residents.",
+        "answerZh": "在鎮上主管了解本地居民的整體取向前，不應公布最終決定。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q46",
+        "number": 46,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The event organiser wanted to understand what visitors preferred. However, she also considered safety, cost and available space instead of following popularity alone.",
+        "promptZh": "活動主辦人希望了解訪客的取向。不過，她也有考慮安全、成本和可用空間，而不是只跟隨受歡迎程度。",
+        "starter": "The",
+        "answer": "The organiser wanted to know which way the wind blows among visitors, but she also considered cost and safety before choosing the event plan.",
+        "answerZh": "主辦人希望了解訪客的整體取向，但她在選擇活動方案前也有考慮成本和安全。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q47",
+        "number": 47,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A leader should understand changes in public opinion. However, that does not mean abandoning every principle whenever the popular view changes.",
+        "promptZh": "領導者應了解公眾意見的變化。不過，這並不表示每逢主流意見改變便要放棄所有原則。",
+        "starter": "A",
+        "answer": "A good leader may need to know which way the wind blows without changing every principle to match the crowd.",
+        "answerZh": "一位良好的領導者可能需要了解公眾的取向，但不應為了迎合大眾而改變所有原則。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q48",
+        "number": 48,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A company has combined sales figures, customer interviews and thousands of online comments. It now has its clearest understanding of younger customers’ preferences.",
+        "promptZh": "一間公司綜合了銷售數字、顧客訪問和數千則網上評論。公司現在對年輕顧客的取向有了最清楚的了解。",
+        "starter": "This",
+        "answer": "This report gives the company its clearest picture yet of which way the wind blows among younger customers.",
+        "answerZh": "這份報告讓公司至今最清楚地了解年輕顧客的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q49",
+        "number": 49,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Teachers and parents remain divided over the new timetable. Their final meeting may determine whether the plan continues next year.",
+        "promptZh": "老師與家長對新時間表仍然意見不一。他們的最終會面可能會決定計劃明年是否繼續。",
+        "starter": "Whether",
+        "answer": "Whether the new timetable survives may depend on which way the wind blows when the teachers and parents finally meet.",
+        "answerZh": "新時間表能否繼續實行，可能取決於老師與家長最終會面時的整體取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      },
+      {
+        "id": "idiom-137-q50",
+        "number": 50,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A: Should we send another survey about the plan? B: Nearly nine out of ten people have already rejected it. A: Then another survey probably will not tell us anything new.",
+        "promptZh": "甲：我們應該就這項計劃發出另一份問卷嗎？ 乙：接近九成的人已經表示反對。 甲：那麼，另一份問卷大概不會告訴我們任何新資料。",
+        "starter": "You",
+        "answer": "You do not need another survey to know which way the wind blows on the plan.",
+        "answerZh": "你不需要另一份問卷，也已經能夠看清大家對這項計劃的取向。",
+        "targetForm": "Which Way the Wind Blows",
+        "targetMeaning": "To understand the general direction in which a situation, public opinion or a group’s preference is developing, especially before deciding what to do.",
+        "highlight": "which way the wind blows"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1819 @@
+{
+  "lesson": {
+    "id": "idiom-81",
+    "order": 81,
+    "slug": "a-sacred-cow",
+    "version": "1",
+    "title": "不容質疑的人或事物／不可批評的制度",
+    "titleEn": "a sacred cow",
+    "titleZh": "不容質疑的人或事物／不可批評的制度",
+    "source": {
+      "file": "Idiom 81 - “A Sacred Cow”.pdf",
+      "pageCount": 45,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "exercisePdfPages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "answerKeyPdfPages": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "sacred cow",
+        "highlight": "sacred cow"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The old rule is a sacred cow.",
+        "zh": "舊規則是不容質疑的制度。",
+        "highlight": "sacred cow"
+      },
+      {
+        "en": "The manager was a sacred cow in his former company.",
+        "zh": "那名經理在前公司是一個沒有人敢批評的人物。",
+        "highlight": "sacred cow"
+      }
+    ],
+    "meaning": {
+      "en": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+      "zh": "某個人物、信念、習俗、規則、制度、組織或機構受到過分保護，以致人們不敢質疑、批評或改變它，而且這種特殊待遇往往缺乏合理理由。",
+      "naturalZh": [
+        "不容質疑的人或事物",
+        "不可批評的制度",
+        "不容挑戰的傳統",
+        "被視為神聖不可侵犯的觀念",
+        "受到過分保護的人物或做法",
+        "沒有人敢改動的慣例"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "workplace discussions; public speeches; opinion writing; political and social commentary; discussions about schools, companies and organisations.",
+      "summaryZh": "這個表達屬於較口語至中性的用語，而且明顯帶有批評意味。",
+      "contextsEn": [
+        "conversation",
+        "interviews",
+        "newspaper and magazine writing",
+        "workplace discussions",
+        "public speeches",
+        "opinion writing",
+        "political and social commentary",
+        "discussions about schools, companies and organisations"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "訪問",
+        "報章及雜誌文章",
+        "工作討論",
+        "公開演說",
+        "意見文章",
+        "政治及社會評論",
+        "有關學校、公司和組織的討論。"
+      ],
+      "formalEn": "In a highly formal report, a more direct expression may sometimes be clearer:",
+      "formalZh": "在非常正式的報告中，直接說明問題有時會更加清楚。 只有當作者有意表達批評，而不只是陳述中立事實時，這個慣用語才特別合適。"
+    },
+    "fixedVariable": {
+      "fixed": "sacred cow",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + am / is / are / was / were + a sacred cow.",
+          "example": "The old rule is a sacred cow.",
+          "highlight": "sacred cow"
+        },
+        {
+          "form": "Subject + become / becomes / became / has become + a sacred cow.",
+          "example": "The old system has become a sacred cow.",
+          "highlight": "sacred cow"
+        },
+        {
+          "form": "Subject + be + treated / regarded / seen / viewed / considered + as + a sacred cow.",
+          "example": "The old policy is treated as a sacred cow.",
+          "highlight": "sacred cow"
+        },
+        {
+          "form": "Subject + treat / regard / see / view + object + as + a sacred cow.",
+          "example": "Staff treat the Monday meeting as a sacred cow.",
+          "highlight": "sacred cow"
+        },
+        {
+          "form": "Subject + make / makes / made / has made + object + a sacred cow.",
+          "example": "The manager made his favourite plan a sacred cow.",
+          "highlight": "sacred cow"
+        },
+        {
+          "form": "Call + Object + a Sacred Cow",
+          "example": "Some writers call the programme a sacred cow.",
+          "highlight": "sacred cow"
+        },
+        {
+          "form": "X + be + possessive + sacred cow.",
+          "example": "The old logo is the company’s sacred cow.",
+          "highlight": "sacred cow"
+        },
+        {
+          "form": "Subject + challenge / question / criticise / protect + a sacred cow or sacred cows.",
+          "example": "We should challenge this sacred cow.",
+          "highlight": "sacred cow"
+        },
+        {
+          "form": "Sacred cows + verb.",
+          "example": "Sacred cows can prevent honest discussion.",
+          "highlight": "Sacred cows"
+        },
+        {
+          "form": "There + be + no / several / too many + sacred cows.",
+          "example": "There are no sacred cows in this classroom.",
+          "highlight": "sacred cows"
+        },
+        {
+          "form": "Noun phrase + , + a sacred cow + , + rest of sentence.",
+          "example": "The old rule, a sacred cow for years, may finally be changed.",
+          "highlight": "sacred cow"
+        },
+        {
+          "form": "Is + subject + really + a sacred cow?",
+          "example": "Is the coach’s plan really a sacred cow?",
+          "highlight": "sacred cow"
+        },
+        {
+          "form": "sacred-cow + noun",
+          "example": "The old programme has been given sacred-cow status.",
+          "highlight": "sacred-cow"
+        },
+        {
+          "form": "By + V-ing is not part of the fixed expression.",
+          "example": "The manager made the old plan a sacred cow.",
+          "highlight": "sacred cow"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Subject + Be + a Sacred Cow",
+        "titleZh": "句式一：主語 + be + a sacred cow",
+        "formula": "Subject + am / is / are / was / were + a sacred cow.",
+        "descriptionEn": "This is the most direct identifying pattern, but it is only one of several natural grammar shells.",
+        "descriptionZh": "這是最直接的識別句式，但只是多種自然句法框架的其中一種。",
+        "examples": [
+          {
+            "en": "The old rule is a sacred cow.",
+            "zh": "舊規則是不容質疑的制度。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The manager was a sacred cow in his former company.",
+            "zh": "那名經理在前公司是一個沒有人敢批評的人物。",
+            "highlight": "sacred cow"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Become or Remain + a Sacred Cow",
+        "titleZh": "句式二",
+        "formula": "Subject + become / becomes / became / has become + a sacred cow.",
+        "descriptionEn": "The rule should not remain a sacred cow.",
+        "descriptionZh": "become 或 remain + a sacred cow 這項規則不應繼續成為不可質疑的制度。",
+        "examples": [
+          {
+            "en": "The old system has become a sacred cow.",
+            "zh": "舊制度已成為不容質疑的制度。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The annual event remains a sacred cow.",
+            "zh": "每年的活動仍然不容質疑。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The tradition may become a sacred cow.",
+            "zh": "這項傳統可能會成為不容質疑的慣例。",
+            "highlight": "sacred cow"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Passive “Be Treated as”",
+        "titleZh": "句式三：被動式 be treated as",
+        "formula": "Subject + be + treated / regarded / seen / viewed / considered + as + a sacred cow.",
+        "descriptionEn": "Source grammar frame: Subject + be + treated / regarded / seen / viewed / considered + as + a sacred cow.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + treated / regarded / seen / viewed / considered + as + a sacred cow。",
+        "examples": [
+          {
+            "en": "The old policy is treated as a sacred cow.",
+            "zh": "舊政策被視為不可質疑的制度。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The famous player was regarded as a sacred cow.",
+            "zh": "那名著名球員被視為不可批評的人物。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The programme has long been viewed as a sacred cow.",
+            "zh": "該計劃長期被視為不容質疑的制度。",
+            "highlight": "sacred cow"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Active “Treat Something as”",
+        "titleZh": "句式四：主動式 treat something as",
+        "formula": "Subject + treat / regard / see / view + object + as + a sacred cow.",
+        "descriptionEn": "The person who gives the special protection becomes the subject. The protected person or thing becomes the object.",
+        "descriptionZh": "給予特殊保護的人或群體成為主語； 受到保護的人或事物則成為賓語。",
+        "examples": [
+          {
+            "en": "Staff treat the Monday meeting as a sacred cow.",
+            "zh": "員工把星期一例會視為不可質疑的慣例。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The team regards its star player as a sacred cow.",
+            "zh": "球隊把明星球員視為不可批評的人物。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "Many people see the old tradition as a sacred cow.",
+            "zh": "許多人把舊傳統視為不容挑戰的習俗。",
+            "highlight": "sacred cow"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Make + Object + a Sacred Cow",
+        "titleZh": "句式五：make + 賓語 + a sacred cow",
+        "formula": "Subject + make / makes / made / has made + object + a sacred cow.",
+        "descriptionEn": "This pattern focuses on the action or situation that gives something protected status.",
+        "descriptionZh": "這個句式着重說明某個行動或情況如何令一件事物獲得特殊保護。",
+        "examples": [
+          {
+            "en": "The manager made his favourite plan a sacred cow.",
+            "zh": "經理令自己最喜愛的計劃變成不容質疑的計劃。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The founder’s support has made the old logo a sacred cow.",
+            "zh": "創辦人的支持令舊標誌變成不容批評的事物。",
+            "highlight": "sacred cow"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Call or Describe Something a Sacred Cow",
+        "titleZh": "句式六：call 或 describe",
+        "formula": "Call + Object + a Sacred Cow",
+        "descriptionEn": "Source grammar frame: Call + Object + a Sacred Cow.",
+        "descriptionZh": "原檔列出的句法框架：Call + Object + a Sacred Cow。",
+        "examples": [
+          {
+            "en": "Some writers call the programme a sacred cow.",
+            "zh": "有些作者把該計劃稱為不容質疑的制度。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The journalist described the parade as a sacred cow.",
+            "zh": "記者把巡遊形容為不容質疑的傳統。",
+            "highlight": "sacred cow"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Possessive and “Of” Forms",
+        "titleZh": "句式七：所有格及 of 結構",
+        "formula": "X + be + possessive + sacred cow.",
+        "descriptionEn": "Source grammar frame: X + be + possessive + sacred cow.",
+        "descriptionZh": "原檔列出的句法框架：X + be + possessive + sacred cow。",
+        "examples": [
+          {
+            "en": "The old logo is the company’s sacred cow.",
+            "zh": "舊標誌是公司不容批評的事物。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The homework rule is one of the school’s sacred cows.",
+            "zh": "功課規定是學校其中一項不容質疑的制度。",
+            "highlight": "sacred cows"
+          },
+          {
+            "en": "Speed has become the sacred cow of that department.",
+            "zh": "速度已成為該部門不容質疑的原則。",
+            "highlight": "sacred cow"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Sacred Cow as the Object of Another Verb",
+        "titleZh": "句式八：作為另一動詞的賓語",
+        "formula": "Subject + challenge / question / criticise / protect + a sacred cow or sacred cows.",
+        "descriptionEn": "The target is a noun phrase. It does not always need to follow a linking verb.",
+        "descriptionZh": "目標表達是一個名詞短語，不一定要放在連繫動詞後面。",
+        "examples": [
+          {
+            "en": "We should challenge this sacred cow.",
+            "zh": "我們應該挑戰這項不容質疑的制度。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The committee questioned one of the school’s sacred cows.",
+            "zh": "委員會質疑學校其中一項不容質疑的規定。",
+            "highlight": "sacred cows"
+          },
+          {
+            "en": "The company continues to protect its sacred cows.",
+            "zh": "公司繼續保護其不容批評的做法。",
+            "highlight": "sacred cows"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Sacred Cows as the Subject",
+        "titleZh": "句式九：sacred cows 作主語",
+        "formula": "Sacred cows + verb.",
+        "descriptionEn": "Source grammar frame: Sacred cows + verb.",
+        "descriptionZh": "原檔列出的句法框架：Sacred cows + verb。",
+        "examples": [
+          {
+            "en": "Sacred cows can prevent honest discussion.",
+            "zh": "不容質疑的觀念可能妨礙坦誠討論。",
+            "highlight": "Sacred cows"
+          },
+          {
+            "en": "Sacred cows should still be questioned.",
+            "zh": "即使是不容質疑的觀念，也應受到質疑。",
+            "highlight": "Sacred cows"
+          },
+          {
+            "en": "No sacred cow should be protected from fair criticism.",
+            "zh": "任何所謂不可質疑的人或事物，都不應逃避合理批評。",
+            "highlight": "sacred cow"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Existential “There”",
+        "titleZh": "句式十：存在句 there",
+        "formula": "There + be + no / several / too many + sacred cows.",
+        "descriptionEn": "Source grammar frame: There + be + no / several / too many + sacred cows.",
+        "descriptionZh": "原檔列出的句法框架：There + be + no / several / too many + sacred cows。",
+        "examples": [
+          {
+            "en": "There are no sacred cows in this classroom.",
+            "zh": "這個課室裏沒有任何不容質疑的規則或做法。",
+            "highlight": "sacred cows"
+          },
+          {
+            "en": "There may be several sacred cows in the organisation.",
+            "zh": "該組織可能有幾項不容質疑的做法。",
+            "highlight": "sacred cows"
+          },
+          {
+            "en": "There should not be any sacred cows in an honest review.",
+            "zh": "坦誠的檢討中不應有任何不容質疑的事物。",
+            "highlight": "sacred cows"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Apposition",
+        "titleZh": "句式十一：同位語結構",
+        "formula": "Noun phrase + , + a sacred cow + , + rest of sentence.",
+        "descriptionEn": "This structure allows the idiom to add a short description without always occupying the final position.",
+        "descriptionZh": "這個句式讓慣用語作為簡短補充說明，不必每次都放在句末。",
+        "examples": [
+          {
+            "en": "The old rule, a sacred cow for years, may finally be changed.",
+            "zh": "這項多年來不容質疑的舊規則，現在可能終於會作出改動。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The food ban—a sacred cow for years—may finally be reviewed.",
+            "zh": "禁帶食物的規定多年來一直不容質疑，現在可能終於會受到檢討。",
+            "highlight": "sacred cow"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Questions",
+        "titleZh": "句式十二：疑問句",
+        "formula": "Is + subject + really + a sacred cow?",
+        "descriptionEn": "Source grammar frame: Is + subject + really + a sacred cow?.",
+        "descriptionZh": "原檔列出的句法框架：Is + subject + really + a sacred cow?。",
+        "examples": [
+          {
+            "en": "Is the coach’s plan really a sacred cow?",
+            "zh": "教練的計劃真的不容質疑嗎？",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "Why has the old website design become a sacred cow?",
+            "zh": "為甚麼舊有的網站設計已變成不容質疑的安排？",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "Which of these rules is treated as a sacred cow?",
+            "zh": "這些規則中，哪一項被視為不可質疑？",
+            "highlight": "sacred cow"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 13,
+        "titleEn": "Compound Modifier",
+        "titleZh": "句式十三：複合修飾語",
+        "formula": "sacred-cow + noun",
+        "descriptionEn": "The hyphen shows that sacred and cow work together to modify status.",
+        "descriptionZh": "連字號表示 sacred 和 cow 共同修飾 status。",
+        "examples": [
+          {
+            "en": "The old programme has been given sacred-cow status.",
+            "zh": "舊計劃被賦予了不可質疑的地位。",
+            "highlight": "sacred-cow"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 14,
+        "titleEn": "Optional “By + V-ing” Extension",
+        "titleZh": "句式十四：可選的 by + V-ing 延伸",
+        "formula": "By + V-ing is not part of the fixed expression.",
+        "descriptionEn": "How did the manager give the plan its protected status?",
+        "descriptionZh": "說明：",
+        "examples": [
+          {
+            "en": "The manager made the old plan a sacred cow.",
+            "zh": "經理令舊計劃變成不容質疑的計劃。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The manager made the old plan a sacred cow by linking it closely to the founder’s name.",
+            "zh": "經理把舊計劃與創辦人的名字緊密連繫起來，使它變成不容質疑的計劃。",
+            "highlight": "sacred cow"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Identifies Unreasonable Protection Compactly",
+        "titleZh": "簡潔指出不合理的特殊保護",
+        "en": "The idiom compresses the longer explanation into one noun phrase.",
+        "zh": "這項規則已成為學校不容質疑的制度。 這個慣用語把較長的解釋濃縮成一個名詞短語。",
+        "examples": [
+          {
+            "en": "The rule has become a sacred cow at the school.",
+            "zh": "這項規則已成為學校不容質疑的制度。",
+            "highlight": "sacred cow"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Clearly Communicates Disapproval",
+        "titleZh": "清楚表達不認同",
+        "en": "The old system is respected. The second sentence suggests that the respect has become excessive.",
+        "zh": "舊制度受到尊重。 舊制度被視為不容質疑的制度。 第二句表示這種尊重已變得過分。",
+        "examples": [
+          {
+            "en": "The old system is treated as a sacred cow.",
+            "zh": "舊制度被視為不容質疑的制度。",
+            "highlight": "sacred cow"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful When Calling for Change",
+        "titleZh": "適合用於要求改變",
+        "en": "The expression helps the speaker argue that every rule, custom or policy should remain open to review.",
+        "zh": "任何校規都不應成為不可質疑的制度。 這個表達有助說話者主張每項規則、習俗或政策都應接受檢討。",
+        "examples": [
+          {
+            "en": "No school rule should be a sacred cow.",
+            "zh": "任何校規都不應成為不可質疑的制度。",
+            "highlight": "sacred cow"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Works in Both Singular and Plural Forms",
+        "titleZh": "可靈活使用單數及複數",
+        "en": "This allows the speaker to discuss one protected item or a wider culture of avoiding criticism.",
+        "zh": "舊標誌是不容批評的事物。 公司有幾項不容質疑的做法。 說話者可以用它描述一項受到保護的事物，或一種普遍逃避批評的文化。",
+        "examples": [
+          {
+            "en": "The old logo is a sacred cow.",
+            "zh": "舊標誌是不容批評的事物。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The company has several sacred cows.",
+            "zh": "公司有幾項不容質疑的做法。",
+            "highlight": "sacred cows"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Supports Varied Grammar",
+        "titleZh": "可以配合多種句法",
+        "en": "a subject complement; an object complement; the object of a verb; the subject of a sentence; part of a possessive phrase; an appositive noun phrase; a plural noun phrase; a compound modifier.",
+        "zh": "這個表達可以用作：",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Helps Learners Understand Commentary and Debate",
+        "titleZh": "有助理解評論及辯論語言",
+        "en": "old rules; powerful people; protected institutions; long-standing beliefs; traditions that resist change; plans that leaders refuse to review. The idiom is useful, but it is not automatically better than a plain explanation. Use it only when the context genuinely involves excessive protection from criticism or change. Model Examples Nobody at the school dares to question the old uniform rule. The company protects its old logo from all criticism. The director says that every tradition and practice may be questioned.",
+        "zh": "學生理解這個慣用語後，便更容易理解有關舊規則、有權勢人物、受保護機構、長期信念及抗拒改變的傳統的評論。 這個慣用語十分實用，但不一定比直接解釋更好。 只有當語境真正涉及過分保護、不容批評或拒絕改變時，才應使用。 學校裏沒有人敢質疑舊有的校服規定。 學校把舊有的校服規定視為不可質疑的制度。 公司不容任何人批評舊標誌。 公司把舊標誌視為不可批評的事物。 總監表示，每項傳統和做法都可以受到質疑。 總監表示，不應有任何不容質疑的傳統或做法。",
+        "examples": [
+          {
+            "en": "The old uniform rule is a sacred cow at the school.",
+            "zh": "學校把舊有的校服規定視為不可質疑的制度。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The company treats its old logo as a sacred cow.",
+            "zh": "公司把舊標誌視為不可批評的事物。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The director says that there should be no sacred cows.",
+            "zh": "總監表示，不應有任何不容質疑的傳統或做法。",
+            "highlight": "sacred cows"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Well-Documented Allusion; Exact First Speaker Unknown",
+      "statusZh": "典故來源有較充分記錄；確切首次說話者不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster dates its first known figurative use to 1910 and explains the phrase as coming from the veneration of cows by Hindus. Collins gives a similar dating of approximately 1905–1910 and also connects the expression with the traditional protected status of cattle in Hinduism. These dates refer to early documented English uses; they do not prove that one identifiable person invented the expression at that exact moment.",
+          "zh": "Merriam-Webster 把目前已知的早期比喻用法定於1910年，並指出這個短語與印度教徒對牛的尊崇有關。 Collins 提供相近的1905至1910年時期，並同樣把這個表達與印度教傳統中牛受到保護的地位連繫起來。 這些年份只代表目前找到的早期英語書面記錄，並不能證明某一個人在該年確切創造了這個表達。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "English speakers transferred the image of a specially protected animal to people, beliefs, customs and institutions. A person or idea that nobody dared to attack, question or change could therefore be described figuratively as a sacred cow.",
+          "zh": "英語使用者把受到特殊保護的動物這個意象，引申到人物、信念、習俗和機構之上。 因此，若沒有人敢批評、質疑或改變某個人物或觀念，便可以把它比喻為 a sacred cow。"
+        }
+      ],
+      "memoryEn": "A literally protected cow becomes the image of an idea or institution that people are afraid to touch, question or criticise.",
+      "memoryZh": "一隻受到特殊保護的牛，成為一個比喻畫面，用來代表人們不敢觸碰、質疑或批評的觀念或機構。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “Sacred Cow” Together",
+        "titleZh": "規則一：sacred cow 必須連在一起",
+        "en": "Keep “Sacred Cow” Together",
+        "zh": "sacred cow 必須連在一起",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use “A” Only with a Singular Indefinite Form",
+        "titleZh": "規則二：a 只用於單數不定形式",
+        "en": "Use “A” Only with a Singular Indefinite Form",
+        "zh": "a 只用於單數不定形式",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use the Plural When Referring to Several Items",
+        "titleZh": "規則三：多於一項時使用複數",
+        "en": "Use the Plural When Referring to Several Items",
+        "zh": "該組織有幾項不容質疑的做法。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Do Not Automatically Keep the Article “A”",
+        "titleZh": "規則四：不要在所有句式中機械地保留 a",
+        "en": "The common form a sacred cow is not the only grammatical form.",
+        "zh": "常見形式 a sacred cow 並不是唯一正確形式。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The Expression Usually Shows Disapproval",
+        "titleZh": "規則五：這個表達通常帶有批評意味",
+        "en": "He is respected by everyone. This suggests that the protection is excessive or unfair.",
+        "zh": "所有人都尊重他。 他被視為不可批評的人物。 第二句表示說話者認為這種保護過分或不公平。",
+        "examples": [
+          {
+            "en": "He is treated as a sacred cow.",
+            "zh": "他被視為不可批評的人物。",
+            "highlight": "sacred cow"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Respect Is Not Enough",
+        "titleZh": "規則六：受到尊重並不足夠",
+        "en": "Everyone respects the teacher because she works hard. Nothing suggests that people are afraid to question or criticise her. Everyone is afraid to criticise the teacher, even when she makes a mistake.",
+        "zh": "大家都尊重那名老師，因為她工作努力。 句子並沒有表示人們不敢質疑或批評她。 即使那名老師犯錯，所有人仍不敢批評她。 那名老師被視為不可批評的人物。",
+        "examples": [
+          {
+            "en": "The teacher is treated as a sacred cow.",
+            "zh": "那名老師被視為不可批評的人物。",
+            "highlight": "sacred cow"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Being Old Is Not Enough",
+        "titleZh": "規則七：歷史悠久並不足夠",
+        "en": "The festival is one hundred years old. The festival is one hundred years old, and nobody is willing to discuss changing it.",
+        "zh": "這個節慶活動已有一百年歷史。 這個節慶活動已有一百年歷史，而且沒有人願意討論作出改動。 這個節慶活動已成為不容改動的傳統。",
+        "examples": [
+          {
+            "en": "The festival has become a sacred cow.",
+            "zh": "這個節慶活動已成為不容改動的傳統。",
+            "highlight": "sacred cow"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Identify Who or What Receives Protection",
+        "titleZh": "規則八：清楚指出誰或甚麼受到保護",
+        "en": "The second sentence may be natural when the earlier context is clear, but a standalone answer key should identify the protected person, rule, idea or institution.",
+        "zh": "公司把舊標誌視為不可批評的事物。 第二句在已有清楚上文時可以自然使用，但獨立的參考答案應清楚指出受到保護的人物、規則、 想法或機構。",
+        "examples": [
+          {
+            "en": "The company treats its old logo as a sacred cow.",
+            "zh": "公司把舊標誌視為不可批評的事物。",
+            "highlight": "sacred cow"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve Degree",
+        "titleZh": "規則九：保留程度",
+        "en": "The source describes a developing situation, not an established fact.",
+        "zh": "這個計劃可能正逐漸成為不容質疑的計劃。 這個計劃是不容質疑的計劃。 原句描述的是正在形成的情況，而不是已確立的事實。",
+        "examples": [
+          {
+            "en": "The plan may be turning into a sacred cow.",
+            "zh": "這個計劃可能正逐漸成為不容質疑的計劃。",
+            "highlight": "sacred cow"
+          },
+          {
+            "en": "The plan is a sacred cow.",
+            "zh": "這個計劃是不容質疑的計劃。",
+            "highlight": "sacred cow"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Preserve Time",
+        "titleZh": "規則十：保留時間",
+        "en": "Do not change the time merely to create variety.",
+        "zh": "不要只是為了製造變化而改變原句的時間。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Repeat the Meaning Unnecessarily",
+        "titleZh": "規則十一：不要不必要地重複意思",
+        "en": "The final clause simply explains the idiom again. The idiom itself carries the protected-from-criticism meaning.",
+        "zh": "句末部分只是再次解釋慣用語的意思。 這項規則是學校不容質疑的制度。 慣用語本身已經包含「不容批評或質疑」的意思。",
+        "examples": [
+          {
+            "en": "The rule is a sacred cow at the school.",
+            "zh": "這項規則是學校不容質疑的制度。",
+            "highlight": "sacred cow"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Avoid Literal Chinese Translation",
+        "titleZh": "規則十二：避免逐字翻譯",
+        "en": "Do not translate the idiom as: In figurative contexts, translate the intended meaning:",
+        "zh": "一隻神聖的牛不容質疑的制度； 不可批評的人物； 不容改動的傳統； 受到過分保護的觀念",
+        "examples": []
+      },
+      {
+        "number": 13,
+        "titleEn": "Do Not Confuse It with “Holy Cow”",
+        "titleZh": "規則十三：不要與 holy cow 混淆",
+        "en": "A person, belief or institution protected from criticism. An expression of surprise. They are not interchangeable.",
+        "zh": "不容批評的人物、信念或機構。 表達驚訝的感嘆語。 兩者不能互換。",
+        "examples": []
+      },
+      {
+        "number": 14,
+        "titleEn": "Use the Historical Image Respectfully",
+        "titleZh": "規則十四：尊重地理解歷史意象",
+        "en": "The modern English idiom comes from a real religious and cultural association. It should not be used to mock Hindu people, Hindu beliefs or religious practices.",
+        "zh": "這個現代英語慣用語源自真實的宗教及文化聯想。 不應利用這個表達取笑印度教徒、印度教信仰或宗教習俗。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "a sacred cow; the sacred cow; sacred cows; one of... sacred cows; treat... as a sacred cow; become or remain a sacred cow; sacred-cow status; another approved grammar pattern shown above.",
+      "zh": "使用 sacred cow 的適當形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-81-q01",
+        "number": 1,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "No one at the school is willing to question the old uniform rule.",
+        "promptZh": "學校裏沒有人願意質疑舊有的校服規定。",
+        "starter": "The",
+        "answer": "The old uniform rule is a sacred cow at the school.",
+        "answerZh": "學校把舊有的校服規定視為不可質疑的制度。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q02",
+        "number": 2,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Staff accept the Monday meeting without asking whether it is still useful.",
+        "promptZh": "員工一直接受星期一例會，沒有人敢問它是否仍然有用。",
+        "starter": "Staff",
+        "answer": "Staff treat the Monday meeting as a sacred cow.",
+        "answerZh": "員工把星期一例會視為不可質疑的慣例。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q03",
+        "number": 3,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Their grandmother’s cake recipe sometimes produces a poor result. Even so, the family refuses to change it.",
+        "promptZh": "祖母的蛋糕食譜有時效果不理想。即使如此，家人仍拒絕作出改動。",
+        "starter": "Their",
+        "answer": "Their grandmother’s cake recipe has become a sacred cow in the family.",
+        "answerZh": "祖母的蛋糕食譜已成為家中不容改動的傳統。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q04",
+        "number": 4,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Club members protect the old membership rule from all criticism.",
+        "promptZh": "俱樂部成員不容任何人批評舊有的會員規定。",
+        "starter": "The",
+        "answer": "The old membership rule remains a sacred cow at the club.",
+        "answerZh": "舊有的會員規定仍是俱樂部不容質疑的制度。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q05",
+        "number": 5,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The founder designed the company logo. Workers are therefore afraid to criticise it.",
+        "promptZh": "公司標誌由創辦人設計。因此，員工都不敢批評它。",
+        "starter": "The",
+        "answer": "The company logo is seen as a sacred cow because the founder designed it.",
+        "answerZh": "由於公司標誌由創辦人設計，它被視為不可批評的事物。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q06",
+        "number": 6,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "No one dares to suggest removing the head teacher’s yearly speech.",
+        "promptZh": "沒有人敢建議取消校長每年的演說。",
+        "starter": "The",
+        "answer": "The head teacher’s yearly speech is one of the school’s sacred cows.",
+        "answerZh": "校長每年的演說是學校其中一項不容質疑的傳統。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cows"
+      },
+      {
+        "id": "idiom-81-q07",
+        "number": 7,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The old bus route causes problems for some passengers. People in the town still refuse to discuss changing it.",
+        "promptZh": "舊巴士路線為部分乘客帶來問題，但鎮上的人仍拒絕討論作出改動。",
+        "starter": "The",
+        "answer": "The old bus route has become the town’s sacred cow.",
+        "answerZh": "舊巴士路線已成為鎮上不容改動的安排。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q08",
+        "number": 8,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Team members will criticise everyone except their star player.",
+        "promptZh": "隊員會批評所有人，唯獨不會批評明星球員。",
+        "starter": "The",
+        "answer": "The team regards its star player as a sacred cow.",
+        "answerZh": "球隊把明星球員視為不可批評的人物。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q09",
+        "number": 9,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "In this classroom, every rule and teaching method may be discussed.",
+        "promptZh": "在這個課室裏，每項規則和教學方法都可以討論。",
+        "starter": "There",
+        "answer": "There are no sacred cows in this classroom.",
+        "answerZh": "這個課室裏沒有任何不可質疑的規則或做法。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cows"
+      },
+      {
+        "id": "idiom-81-q10",
+        "number": 10,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "No policy should be considered too important to question.",
+        "promptZh": "任何政策都不應被視為重要得不能受到質疑。",
+        "starter": "No",
+        "answer": "No policy should be treated as a sacred cow.",
+        "answerZh": "任何政策都不應被視為不可質疑的制度。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q11",
+        "number": 11,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "In the past, no one in the office was allowed to criticise the old dress code.",
+        "promptZh": "過去，辦公室裏沒有人可以批評舊有的衣着規定。",
+        "starter": "The",
+        "answer": "The old dress code was a sacred cow in the office.",
+        "answerZh": "舊有的衣着規定以往是辦公室裏不容質疑的制度。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q12",
+        "number": 12,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The old filing system is slow. For years, managers have protected it from any review.",
+        "promptZh": "舊有的文件存檔制度十分緩慢。多年來，經理一直不容任何人檢討它。",
+        "starter": "Managers",
+        "answer": "Managers have long treated the old filing system as a sacred cow.",
+        "answerZh": "經理長期把舊有的文件存檔制度視為不可質疑的安排。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q13",
+        "number": 13,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The daily assembly takes a long time. People are becoming afraid to question it.",
+        "promptZh": "每天的早會需時甚長。人們正逐漸變得不敢質疑它。",
+        "starter": "The",
+        "answer": "The daily assembly may be turning into a sacred cow.",
+        "answerZh": "每天的早會可能正逐漸成為不容質疑的慣例。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q14",
+        "number": 14,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The new head teacher says that every tradition will remain open to discussion.",
+        "promptZh": "新校長表示，每項傳統都會繼續接受討論。",
+        "starter": "No",
+        "answer": "No tradition will be treated as a sacred cow under the new head teacher.",
+        "answerZh": "在新校長領導下，任何傳統都不會被視為不可質疑的事物。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q15",
+        "number": 15,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A: Why has the restaurant never changed its original menu? B: The owners will not allow anyone to question it.",
+        "promptZh": "甲：為甚麼這間餐廳從未改動原有餐牌？ 乙：店主不容任何人質疑它。",
+        "starter": "The",
+        "answer": "The original menu is a sacred cow at this restaurant.",
+        "answerZh": "原有餐牌是這間餐廳不容質疑的傳統。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q16",
+        "number": 16,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The yearly parade costs more money each year. A journalist wrote that it receives too much respect and is never questioned.",
+        "promptZh": "每年的巡遊開支逐年增加。一名記者寫道，它受到過分尊重，而且從未受到質疑。",
+        "starter": "The",
+        "answer": "The journalist described the yearly parade as a sacred cow.",
+        "answerZh": "該記者把每年的巡遊形容為不容質疑的傳統。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q17",
+        "number": 17,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A: The school has reviewed nearly every rule except the old homework rule. B: Then that is the next rule we should question.",
+        "promptZh": "甲：學校幾乎檢討了所有規則，唯獨沒有檢討舊有的功課規定。 乙：那麼，我們下一步便應該質疑這項規定。",
+        "starter": "We",
+        "answer": "We should challenge one of the school’s sacred cows: the old homework rule.",
+        "answerZh": "我們應該挑戰學校其中一項不容質疑的規定：舊有的功課規定。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cows"
+      },
+      {
+        "id": "idiom-81-q18",
+        "number": 18,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "In that department, people never question the belief that faster work is always better.",
+        "promptZh": "在那個部門，人們從不質疑「工作越快便一定越好」這個看法。",
+        "starter": "The",
+        "answer": "The belief that faster work is always better has become the sacred cow of that department.",
+        "answerZh": "「工作越快便一定越好」這個看法已成為該部門不容質疑的信念。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q19",
+        "number": 19,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Even ideas that people have protected from criticism for years should still be examined occasionally.",
+        "promptZh": "即使某些觀念多年來一直不受批評，也仍應偶爾接受檢視。",
+        "starter": "Sacred",
+        "answer": "Sacred cows should still be questioned from time to time.",
+        "answerZh": "即使是長期不受質疑的觀念，也應不時受到檢視。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "Sacred cows"
+      },
+      {
+        "id": "idiom-81-q20",
+        "number": 20,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Is the coach’s plan really so important that nobody may criticise it?",
+        "promptZh": "教練的計劃真的重要得沒有人可以批評嗎？",
+        "starter": "Is",
+        "answer": "Is the coach’s plan really a sacred cow?",
+        "answerZh": "教練的計劃真的不容任何人質疑嗎？",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q21",
+        "number": 21,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A: Everyone is afraid to criticise the annual school show. B: We need to stop protecting it in that way.",
+        "promptZh": "甲：大家都不敢批評每年的學校表演。 乙：我們不能再以這種方式保護它。",
+        "starter": "We",
+        "answer": "We need to stop treating the annual school show as a sacred cow.",
+        "answerZh": "我們不能再把每年的學校表演視為不容批評的傳統。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q22",
+        "number": 22,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A: Must our family dinner always follow exactly the same plan? B: No. We are allowed to change a tradition.",
+        "promptZh": "甲：我們的家庭晚餐一定要永遠遵照完全相同的安排嗎？ 乙：不用。我們可以改變傳統。",
+        "starter": "Sunday",
+        "answer": "Sunday dinner does not have to be a sacred cow in our family.",
+        "answerZh": "星期日晚餐不必成為我們家中不可改動的傳統。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q23",
+        "number": 23,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The manager connected his favourite sales plan closely with the founder’s name. After that, no one dared to question it.",
+        "promptZh": "經理把自己最喜愛的銷售計劃與創辦人的名字緊密連繫起來。此後，沒有人敢質疑該計劃。",
+        "starter": "By",
+        "answer": "By linking his favourite sales plan to the founder’s name, the manager made it a sacred cow.",
+        "answerZh": "經理把自己最喜愛的銷售計劃與創辦人的名字連繫起來，使它成為不容質疑的計劃。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q24",
+        "number": 24,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Many customers dislike the no-refund rule. However, the shop still refuses to discuss changing it.",
+        "promptZh": "許多顧客不喜歡不設退款的規定，但店舖仍拒絕討論作出改動。",
+        "starter": "The",
+        "answer": "The no-refund rule is still treated as a sacred cow, even though many customers dislike it.",
+        "answerZh": "即使許多顧客不喜歡，不設退款的規定仍被視為不可質疑的制度。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q25",
+        "number": 25,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The programme has operated for many years. Some writers say that it receives too much respect and is never properly examined.",
+        "promptZh": "這個計劃已推行多年。有些作者認為，它受到過分尊重，而且從未得到適當檢討。",
+        "starter": "Some",
+        "answer": "Some writers have called the long-running programme a sacred cow.",
+        "answerZh": "有些作者把這個長期推行的計劃稱為不容質疑的制度。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q26",
+        "number": 26,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A: No one wants to question the school’s exam system. B: Then we should be the first group to do so.",
+        "promptZh": "甲：沒有人願意質疑學校的考試制度。 乙：那麼，我們應該成為第一個提出質疑的小組。",
+        "starter": "Let",
+        "answer": "Let us be the first group to challenge the exam system, a sacred cow at the school.",
+        "answerZh": "讓我們成為第一個挑戰考試制度的小組；這項制度一直是學校不容質疑的制度。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q27",
+        "number": 27,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "For years, nobody could discuss changing the festival’s no-food rule. The rule may finally be reviewed.",
+        "promptZh": "多年來，沒有人可以討論改動節慶活動的禁帶食物規定。這項規定現在可能終於會受到檢討。",
+        "starter": "The",
+        "answer": "The festival’s no-food rule, once a sacred cow, may finally be reviewed.",
+        "answerZh": "節慶活動的禁帶食物規定以往不容質疑，現在可能終於會受到檢討。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q28",
+        "number": 28,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A custom should not become impossible to question simply because it is old.",
+        "promptZh": "一項習俗不應僅因歷史悠久，便變得完全不容質疑。",
+        "starter": "Not",
+        "answer": "Not every old custom should become a sacred cow.",
+        "answerZh": "並非每項古老習俗都應成為不容質疑的傳統。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q29",
+        "number": 29,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "If nobody is allowed to question the founder’s ideas, the company will find it difficult to improve.",
+        "promptZh": "如果沒有人可以質疑創辦人的想法，公司便很難作出改善。",
+        "starter": "If",
+        "answer": "If the founder’s ideas become sacred cows, the company will find it difficult to improve.",
+        "answerZh": "如果創辦人的想法成為不容質疑的信念，公司便很難作出改善。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cows"
+      },
+      {
+        "id": "idiom-81-q30",
+        "number": 30,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "A: The manager criticises every plan except his own. B: It seems that only his plan is protected.",
+        "promptZh": "甲：經理會批評每個計劃，唯獨不會批評自己的計劃。 乙：看來只有他的計劃受到保護。",
+        "starter": "His",
+        "answer": "His own plan appears to be the only sacred cow in the office.",
+        "answerZh": "他自己的計劃似乎是辦公室裏唯一不容質疑的計劃。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q31",
+        "number": 31,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The school says that it welcomes new ideas, but nobody may question the date of sports day.",
+        "promptZh": "學校聲稱歡迎新想法，但沒有人可以質疑陸運會的日期。",
+        "starter": "Although",
+        "answer": "Although the school welcomes new ideas, the date of sports day remains a sacred cow.",
+        "answerZh": "雖然學校歡迎新想法，但陸運會的日期仍然不容質疑。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q32",
+        "number": 32,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The founder created the company slogan, so workers are afraid to suggest changing it.",
+        "promptZh": "公司標語由創辦人創作，因此員工不敢建議作出改動。",
+        "starter": "Because",
+        "answer": "Because the founder created it, the company slogan is treated as a sacred cow.",
+        "answerZh": "由於公司標語由創辦人創作，它被視為不可改動的事物。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q33",
+        "number": 33,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The senior worker is protected from all criticism, and this is unfair to the rest of the team.",
+        "promptZh": "那名資深員工不受任何批評，這對其他隊員並不公平。",
+        "starter": "Treating",
+        "answer": "Treating the senior worker as a sacred cow is unfair to the rest of the team.",
+        "answerZh": "把那名資深員工視為不可批評的人物，對其他隊員並不公平。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q34",
+        "number": 34,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "It is dangerous to believe that a leader should never be questioned.",
+        "promptZh": "認為領袖永遠不應受到質疑，是一種危險的做法。",
+        "starter": "To",
+        "answer": "To regard any leader as a sacred cow is dangerous.",
+        "answerZh": "把任何領袖視為不可質疑的人物都十分危險。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q35",
+        "number": 35,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "People in the book club have always considered its first rule too important to criticise.",
+        "promptZh": "讀書會的成員一直認為第一項規則重要得不能受到批評。",
+        "starter": "The",
+        "answer": "The book club’s first rule has always been considered a sacred cow.",
+        "answerZh": "讀書會的第一項規則一直被視為不容質疑的規定。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q36",
+        "number": 36,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The school will review every part of its budget. Even the popular music programme will be examined.",
+        "promptZh": "學校將會檢討預算的每個部分。即使是深受歡迎的音樂計劃也會受到檢視。",
+        "starter": "No",
+        "answer": "No sacred cow, including the popular music programme, will be safe from the school budget review.",
+        "answerZh": "學校檢討預算時，任何不容質疑的項目都不會獲得特別保護，包括深受歡迎的音樂計劃。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q37",
+        "number": 37,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "The theatre director says that every old practice must remain open to discussion.",
+        "promptZh": "劇院總監表示，每項舊有做法都必須繼續接受討論。",
+        "starter": "The",
+        "answer": "The theatre director insists that there must be no sacred cows.",
+        "answerZh": "劇院總監堅持不應有任何不容質疑的做法。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cows"
+      },
+      {
+        "id": "idiom-81-q38",
+        "number": 38,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "For many years, no one at the radio station has dared to change its morning programme.",
+        "promptZh": "多年來，電台裏沒有人敢改動早晨節目。",
+        "starter": "The",
+        "answer": "The morning programme has long been one of the station’s sacred cows.",
+        "answerZh": "早晨節目長期以來一直是電台其中一個不容改動的節目。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cows"
+      },
+      {
+        "id": "idiom-81-q39",
+        "number": 39,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "The museum’s ban on outside food could not be questioned for years, but it may finally be changed.",
+        "promptZh": "博物館的禁帶外來食物規定多年來不容質疑，但現在可能終於會作出改動。",
+        "starter": "The",
+        "answer": "The ban on outside food—a sacred cow for years—may finally be changed.",
+        "answerZh": "禁帶外來食物的規定多年來一直不容質疑，現在可能終於會作出改動。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q40",
+        "number": 40,
+        "sourcePage": 37,
+        "sourcePages": [
+          37
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "Why has nobody reviewed the old website design for so many years?",
+        "promptZh": "為甚麼多年來一直沒有人檢討舊有的網站設計？",
+        "starter": "Why",
+        "answer": "Why has the old website design become a sacred cow?",
+        "answerZh": "為甚麼舊有的網站設計已變成不容質疑的安排？",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q41",
+        "number": 41,
+        "sourcePage": 37,
+        "sourcePages": [
+          37
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "The new head teacher says that every school policy will be open to criticism and change.",
+        "promptZh": "新校長表示，每項學校政策都可以受到批評和改動。",
+        "starter": "Under",
+        "answer": "Under the new head teacher, no school policy will be a sacred cow.",
+        "answerZh": "在新校長領導下，任何學校政策都不會成為不可質疑的制度。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q42",
+        "number": 42,
+        "sourcePage": 37,
+        "sourcePages": [
+          37
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "A: We can criticise everything except the founder’s speech. B: Then this is not really an open discussion.",
+        "promptZh": "甲：除了創辦人的演說外，我們可以批評任何事情。 乙：那麼，這根本不是真正開放的討論。",
+        "starter": "The",
+        "answer": "The founder’s speech has clearly been given sacred-cow status.",
+        "answerZh": "創辦人的演說顯然被賦予了不可質疑的地位。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred-cow"
+      },
+      {
+        "id": "idiom-81-q43",
+        "number": 43,
+        "sourcePage": 37,
+        "sourcePages": [
+          37
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "At the company, nobody questions the belief that people who work longer hours care more about their jobs.",
+        "promptZh": "在公司裏，沒有人質疑「工作時間越長便代表越重視工作」這個看法。",
+        "starter": "The",
+        "answer": "The belief that people who work longer hours care more remains a sacred cow in the company.",
+        "answerZh": "「工作時間越長便代表越重視工作」這個看法仍是公司不容質疑的信念。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q44",
+        "number": 44,
+        "sourcePage": 38,
+        "sourcePages": [
+          38
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "A: Every meeting must still be held in person, but nobody can explain why. B: The committee should question that rule.",
+        "promptZh": "甲：每次會議仍必須親身舉行，但沒有人能解釋原因。 乙：委員會應該質疑這項規定。",
+        "starter": "The",
+        "answer": "The rule that every meeting must be held in person is one sacred cow the committee should question.",
+        "answerZh": "每次會議都必須親身舉行的規定，是委員會應該質疑的一項不可動搖的慣例。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q45",
+        "number": 45,
+        "sourcePage": 38,
+        "sourcePages": [
+          38
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "Some workers worry that the presenter’s opinions are slowly becoming impossible to criticise.",
+        "promptZh": "有些員工擔心，主持人的意見正逐漸變得不容批評。",
+        "starter": "The",
+        "answer": "The presenter’s opinions may be becoming sacred cows at the station.",
+        "answerZh": "主持人的意見可能正逐漸成為電台裏不容批評的看法。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cows"
+      },
+      {
+        "id": "idiom-81-q46",
+        "number": 46,
+        "sourcePage": 38,
+        "sourcePages": [
+          38
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "A: How can the company encourage honest discussion? B: Every plan, including the manager’s plan, must be open to criticism.",
+        "promptZh": "甲：公司可以如何鼓勵坦誠討論？ 乙：每個計劃，包括經理的計劃，都必須接受批評。",
+        "starter": "If",
+        "answer": "If the company wants honest discussion, there can be no sacred cows.",
+        "answerZh": "如果公司希望有坦誠的討論，便不能有任何不容質疑的計劃。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cows"
+      },
+      {
+        "id": "idiom-81-q47",
+        "number": 47,
+        "sourcePage": 38,
+        "sourcePages": [
+          38
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "A new worker asked why the old poster had never been changed. Everyone in the room suddenly became silent.",
+        "promptZh": "一名新員工問為甚麼舊海報從未更換。房內所有人突然沉默下來。",
+        "starter": "The",
+        "answer": "The silence told her that the old poster was a sacred cow in the office.",
+        "answerZh": "眾人的沉默令她明白，那張舊海報是辦公室裏不容質疑的事物。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q48",
+        "number": 48,
+        "sourcePage": 38,
+        "sourcePages": [
+          38
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "The director said that the famous actor was not protected from fair criticism.",
+        "promptZh": "總監表示，那名著名演員並非不受合理批評。",
+        "starter": "The",
+        "answer": "The director denied that the famous actor was a sacred cow at the theatre.",
+        "answerZh": "總監否認那名著名演員是劇院裏不可批評的人物。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q49",
+        "number": 49,
+        "sourcePage": 39,
+        "sourcePages": [
+          39
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "A tradition can be respected without being placed beyond all criticism.",
+        "promptZh": "我們可以尊重傳統，而不必令它完全不受批評。",
+        "starter": "A",
+        "answer": "A respected tradition does not have to become a sacred cow.",
+        "answerZh": "受人尊重的傳統不必成為不容質疑的事物。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      },
+      {
+        "id": "idiom-81-q50",
+        "number": 50,
+        "sourcePage": 39,
+        "sourcePages": [
+          39
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "Every other department reviewed its old habits. The finance team alone refused to discuss replacing its paper forms.",
+        "promptZh": "其他所有部門都檢討了舊有習慣，唯獨財務團隊拒絕討論取代紙本表格。",
+        "starter": "Although",
+        "answer": "Although every other department reviewed its old habits, paper forms remained the finance team’s last sacred cow.",
+        "answerZh": "雖然其他所有部門都檢討了舊有習慣，但紙本表格仍是財務團隊最後一項不容質疑的做法。",
+        "targetForm": "sacred cow",
+        "targetMeaning": "A person, belief, custom, rule, system, organisation or institution that people treat as too important to question, criticise or change, often without a good reason.",
+        "highlight": "sacred cow"
+      }
+    ]
+  }
+}

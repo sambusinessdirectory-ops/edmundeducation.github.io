@@ -1,0 +1,1459 @@
+{
+  "lesson": {
+    "id": "idiom-65",
+    "order": 65,
+    "slug": "two-way-street",
+    "version": "1",
+    "title": "是雙向的／需要雙方付出",
+    "titleEn": "Two-Way Street",
+    "titleZh": "是雙向的／需要雙方付出",
+    "source": {
+      "file": "Idiom 65 - “Two-Way Street”.pdf",
+      "pageCount": 35,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "exercisePdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "answerKeyPdfPages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "Two-Way Street",
+        "highlight": "Two-Way Street"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Respect is a two-way street.",
+        "zh": "尊重是雙向的。",
+        "highlight": "two-way street"
+      },
+      {
+        "en": "Their friendship was a two-way street.",
+        "zh": "他們的友誼由雙方共同維繫。",
+        "highlight": "two-way street"
+      }
+    ],
+    "meaning": {
+      "en": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+      "zh": "一段需要雙方付出、溝通、合作或承擔責任的關係或情況；不能只依靠其中一方。",
+      "naturalZh": [
+        "是雙向的",
+        "需要雙方付出",
+        "需要互相配合",
+        "需要雙方共同維持",
+        "不能只靠其中一方",
+        "有來有往",
+        "彼此都需要承擔責任"
+      ]
+    },
+    "register": {
+      "labelEn": "Formal",
+      "labelZh": "正式",
+      "summaryEn": "everyday conversations; workplace discussions; school settings; interviews; presentations; advice; newspaper and general-interest writing; discussions about relationships and responsibility.",
+      "summaryZh": "這個表達可以顯得友善而合理，但有時也帶有輕微的糾正語氣：",
+      "contextsEn": [
+        "everyday conversations",
+        "workplace discussions",
+        "school settings",
+        "interviews",
+        "presentations",
+        "advice",
+        "newspaper and general-interest writing",
+        "discussions about relationships and responsibility"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "職場討論",
+        "學校情境",
+        "訪問",
+        "簡報",
+        "給予建議",
+        "新聞及一般文章",
+        "討論人際關係及共同責任。"
+      ],
+      "formalEn": "In highly formal legal, academic or technical writing, expressions such as mutual responsibility, reciprocal communication or cooperation from both parties may be more precise.",
+      "formalZh": "在非常正式的法律、學術或技術文章中，使用 mutual responsibility、reciprocal communication 或 cooperation from both parties 可能更為準確。"
+    },
+    "fixedVariable": {
+      "fixed": "Two-Way Street",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + a two-way street.",
+          "example": "Respect is a two-way street.",
+          "highlight": "two-way street"
+        },
+        {
+          "form": "Subject + should / must / has to / needs to + be + a two-way street.",
+          "example": "Feedback should be a two-way street.",
+          "highlight": "two-way street"
+        },
+        {
+          "form": "Subject + will need to be + a two-way street.",
+          "example": "Communication during the project will need to be a two-way street.",
+          "highlight": "two-way street"
+        },
+        {
+          "form": "Subject + become + a two-way street.",
+          "example": "The manager wants office planning to become a two-way street.",
+          "highlight": "two-way street"
+        },
+        {
+          "form": "Person + believes / says / explains / reminds somebody + that + subject + be + a two-way",
+          "example": "The coach believes feedback should be a two-way street.",
+          "highlight": "two-way street"
+        },
+        {
+          "form": "Because / Since / If / Although + clause, + subject + be + a two-way street.",
+          "example": "If the partnership is going to work, cooperation must be a two-way street.",
+          "highlight": "two-way street"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Form",
+        "titleZh": "句式一：基本形式",
+        "formula": "Subject + be + a two-way street.",
+        "descriptionEn": "Source grammar frame: Subject + be + a two-way street.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + a two-way street。",
+        "examples": [
+          {
+            "en": "Respect is a two-way street.",
+            "zh": "尊重是雙向的。",
+            "highlight": "two-way street"
+          },
+          {
+            "en": "Their friendship was a two-way street.",
+            "zh": "他們的友誼由雙方共同維繫。",
+            "highlight": "two-way street"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Modal or Necessary Condition",
+        "titleZh": "句式二：配合情態動詞或必要條件",
+        "formula": "Subject + should / must / has to / needs to + be + a two-way street.",
+        "descriptionEn": "Source grammar frame: Subject + should / must / has to / needs to + be + a two-way street.",
+        "descriptionZh": "原檔列出的句法框架：Subject + should / must / has to / needs to + be + a two-way street。",
+        "examples": [
+          {
+            "en": "Feedback should be a two-way street.",
+            "zh": "意見交流應該是雙向的。",
+            "highlight": "two-way street"
+          },
+          {
+            "en": "For the plan to work, cooperation has to be a two-way street.",
+            "zh": "要令計劃成功，合作就必須由雙方共同參與。",
+            "highlight": "two-way street"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Future Situation",
+        "titleZh": "句式三：將來情況",
+        "formula": "Subject + will need to be + a two-way street.",
+        "descriptionEn": "Source grammar frame: Subject + will need to be + a two-way street.",
+        "descriptionZh": "原檔列出的句法框架：Subject + will need to be + a two-way street。",
+        "examples": [
+          {
+            "en": "Communication during the project will need to be a two-way street.",
+            "zh": "項目進行期間，溝通將需要雙向進行。",
+            "highlight": "two-way street"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Becoming More Balanced",
+        "titleZh": "句式四：逐漸變成雙向互動",
+        "formula": "Subject + become + a two-way street.",
+        "descriptionEn": "Source grammar frame: Subject + become + a two-way street.",
+        "descriptionZh": "原檔列出的句法框架：Subject + become + a two-way street。",
+        "examples": [
+          {
+            "en": "The manager wants office planning to become a two-way street.",
+            "zh": "經理希望辦公室的規劃變成雙向交流。",
+            "highlight": "two-way street"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Reporting an Opinion",
+        "titleZh": "句式五：轉述觀點",
+        "formula": "Person + believes / says / explains / reminds somebody + that + subject + be + a two-way",
+        "descriptionEn": "Source grammar frame: Person + believes / says / explains / reminds somebody + that + subject + be + a two-way.",
+        "descriptionZh": "原檔列出的句法框架：Person + believes / says / explains / reminds somebody + that + subject + be + a two-way。",
+        "examples": [
+          {
+            "en": "The coach believes feedback should be a two-way street.",
+            "zh": "教練認為意見交流應該是雙向的。",
+            "highlight": "two-way street"
+          },
+          {
+            "en": "The teacher reminded us that learning is a two-way street.",
+            "zh": "老師提醒我們，學習需要師生雙方共同參與。",
+            "highlight": "two-way street"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Giving a Reason or Condition",
+        "titleZh": "句式六：說明原因或條件",
+        "formula": "Because / Since / If / Although + clause, + subject + be + a two-way street.",
+        "descriptionEn": "Source grammar frame: Because / Since / If / Although + clause, + subject + be + a two-way street.",
+        "descriptionZh": "原檔列出的句法框架：Because / Since / If / Although + clause, + subject + be + a two-way street。",
+        "examples": [
+          {
+            "en": "If the partnership is going to work, cooperation must be a two-way street.",
+            "zh": "如果合作關係要成功，雙方都必須共同參與。",
+            "highlight": "two-way street"
+          },
+          {
+            "en": "Their friendship remained strong because it was a two-way street.",
+            "zh": "他們的友誼一直穩固，因為雙方都願意付出。",
+            "highlight": "two-way street"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Shared Responsibility Clearly",
+        "titleZh": "清楚表達共同責任",
+        "en": "The idiom expresses the idea of shared responsibility in a compact form.",
+        "zh": "這個慣用語能以較簡潔的方式表達「雙方都需要承擔責任」。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Corrects One-Sided Expectations",
+        "titleZh": "糾正單方面的期望",
+        "en": "You cannot expect your colleagues to help you if you never help them. Teamwork is a two-way street. The expression allows the speaker to challenge an unfair expectation without necessarily sounding aggressive.",
+        "zh": "如果你從不幫助同事，就不能期望他們幫助你。 團隊合作需要互相付出。 這個表達可以指出對方的期望並不公平，而不一定會顯得具有攻擊性。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful in Many Relationships",
+        "titleZh": "適用於不同關係",
+        "en": "friendship; respect; trust; communication; teamwork; cooperation; feedback; learning; loyalty; business relationships.",
+        "zh": "常見主語包括：",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Gives Advice in a Memorable Way",
+        "titleZh": "以容易記憶的方式提出建議",
+        "en": "This is shorter and more memorable than explaining every responsibility held by each person.",
+        "zh": "尊重應該是雙向的。 這種說法比逐一解釋雙方的責任更加簡潔，也更容易記憶。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Helps Students Understand Authentic English",
+        "titleZh": "幫助學生理解真實英語",
+        "en": "The expression frequently appears in conversations about relationships, work, leadership, education and customer service. However, the idiom is not automatically better than a plain expression. Use it only when the situation genuinely involves mutual responsibility or action.",
+        "zh": "這個表達經常出現在有關人際關係、工作、領導、教育及顧客服務的對話中。 不過，慣用語並非一定比一般表達更好。 只有當情境真正涉及雙方的責任或行動時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Figurative Use Uncertain",
+      "statusZh": "逐漸形成；確切首次比喻用法仍未能完全確認",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The literal traffic expression was already being used in the mid-twentieth century. For example, a 1948 Purdue Road School paper was entitled “One-Way Street Movement vs. Two-Way Street Movement.” Merriam-Webster also dates the earliest known use of the expression to 1948.",
+          "zh": "這個字面交通用語在二十世紀中期已經有人使用。 例如，普渡大學一份1948年的道路研究文章以 「單程道路交通與雙程道路交通」為題。 Merriam-Webster 亦把目前確認的最早用法追溯至1948 年。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The image developed naturally: just as traffic on a two-way street moves in both directions, information, effort, respect and support in a healthy relationship should also move between both sides.",
+          "zh": "原檔說明了這個意思的演變。"
+        }
+      ],
+      "memoryEn": "Traffic moves in both directions; effort and communication should also move in both directions.",
+      "memoryZh": "交通向兩個方向流動；努力和溝通也應該在雙方之間流動。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Article “A”",
+        "titleZh": "規則一：保留冠詞 a",
+        "en": "The noun street is singular and countable, so the idiomatic noun phrase normally requires a.",
+        "zh": "street 是單數可數名詞，因此這個慣用語通常必須使用冠詞 a。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep the Hyphen",
+        "titleZh": "規則二：保留連字號",
+        "en": "The words two and way work together as one adjective before street, so they are normally joined with a hyphen.",
+        "zh": "two 和 way 在 street 前共同組成一個形容詞，因此通常需要使用連字號。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Pluralise “Street”",
+        "titleZh": "規則三：不要把 street 改成複數",
+        "en": "Even when the subject is plural, the fixed complement normally remains a two-way street.",
+        "zh": "即使主語是複數，固定補語通常仍然是 a two-way street。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "There Must Be Genuine Mutual Action",
+        "titleZh": "規則四：情境必須涉及真正的雙向互動",
+        "en": "The presence of two people does not automatically create a reciprocal relationship.",
+        "zh": "兩位朋友互相聆聽和支持。 友誼需要雙方共同維繫。 兩個人同時出現，並不代表他們正在進行雙向互動。",
+        "examples": [
+          {
+            "en": "Friendship is a two-way street.",
+            "zh": "兩位朋友互相聆聽和支持。友誼需要雙方共同維繫。",
+            "highlight": "two-way street"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Does Not Mean “Two Choices”",
+        "titleZh": "規則五：它不表示「兩個選擇」",
+        "en": "The speaker has two choices, but there is no mutual exchange between two sides.",
+        "zh": "說話者雖然有兩個選擇，但雙方之間並不存在互相付出或交流。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Avoid Accidental Literal Meaning",
+        "titleZh": "規則六：避免意外使用字面意思",
+        "en": "Every answer in this exercise must use the figurative meaning.",
+        "zh": "這是一條雙程行車道路，因此車輛可以向任何一個方向行駛。 良好溝通需要雙方共同參與。 本練習中的所有答案都必須使用比喻意思。",
+        "examples": [
+          {
+            "en": "This is a two-way street, so cars may travel in either direction.",
+            "zh": "這是一條雙程行車道路，因此車輛可以向任何一個方向行駛。",
+            "highlight": "two-way street"
+          },
+          {
+            "en": "Good communication is a two-way street.",
+            "zh": "良好溝通需要雙方共同參與。",
+            "highlight": "two-way street"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "The Effort Does Not Need to Be Exactly Equal",
+        "titleZh": "規則七：雙方不必在每一刻付出完全相同",
+        "en": "A two-way street means that both sides contribute to the relationship. It does not necessarily mean that they perform exactly the same action or give exactly the same amount at every moment.",
+        "zh": "a two-way street 表示雙方都需要為關係作出貢獻，但不代表雙方必須在每一刻採取完全相同的行動或付出完全相同的程度。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則八：保留時態及確定程度",
+        "en": "Do not change should be into is if the source only gives advice rather than describing an existing fact.",
+        "zh": "如果原句只是在提出建議，不要把 should be 改成 is，否則會把建議變成已存在的事實。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Be Careful with the Tone",
+        "titleZh": "規則九：注意語氣",
+        "en": "The expression often corrects somebody who expects too much from another person.",
+        "zh": "這個表達經常用來糾正只懂得要求別人的人。 你希望朋友支持你，但友誼需要雙方共同維繫。 請記住，良好溝通需要雙方共同參與。",
+        "examples": [
+          {
+            "en": "You want your friends to support you, but friendship is a two-way street.",
+            "zh": "你希望朋友支持你，但友誼需要雙方共同維繫。",
+            "highlight": "two-way street"
+          },
+          {
+            "en": "Please remember that good communication is a two-way street.",
+            "zh": "請記住，良好溝通需要雙方共同參與。",
+            "highlight": "two-way street"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則十：自然使用，不要過度使用",
+        "en": "1. two sides are involved; 2. both sides have a role or responsibility; 3. one side cannot reasonably expect everything from the other; 4. some form of mutual effort, communication or support is needed. A plain expression may be clearer when no reciprocal relationship is involved.",
+        "zh": "這個慣用語最適合用於以下情況： 如果情況並不涉及雙向關係，使用一般表達可能會更加清楚。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "The first word of each model answer has been provided.",
+      "zh": "每題答案都必須包含完整的目標表達："
+    },
+    "questions": [
+      {
+        "id": "idiom-65-q01",
+        "number": 1,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A good friendship only works when both people make an effort.",
+        "promptZh": "一段良好的友誼只有在雙方都願意付出時才能維持。",
+        "starter": "Friendship",
+        "answer": "Friendship is a two-way street.",
+        "answerZh": "友誼需要雙方共同付出。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q02",
+        "number": 2,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "You cannot demand respect from other people if you never respect them.",
+        "promptZh": "如果你從不尊重別人，就不能要求別人尊重你。",
+        "starter": "Respect",
+        "answer": "Respect is a two-way street.",
+        "answerZh": "尊重是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q03",
+        "number": 3,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Both people must be honest and dependable for trust to grow.",
+        "promptZh": "雙方都必須誠實可靠，信任才能建立。",
+        "starter": "Trust",
+        "answer": "Trust is a two-way street.",
+        "answerZh": "信任需要雙方共同建立。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q04",
+        "number": 4,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A conversation works best when both people speak and listen.",
+        "promptZh": "雙方都願意說話和聆聽，對話才會有良好效果。",
+        "starter": "Good",
+        "answer": "Good communication is a two-way street.",
+        "answerZh": "良好溝通需要雙方共同參與。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q05",
+        "number": 5,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A team cannot succeed if only one person helps and everyone else waits.",
+        "promptZh": "如果只有一個人出力，其他人都在等待，團隊便不可能成功。",
+        "starter": "Teamwork",
+        "answer": "Teamwork is a two-way street.",
+        "answerZh": "團隊合作需要各方共同付出。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q06",
+        "number": 6,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A healthy relationship needs care and effort from both partners.",
+        "promptZh": "一段健康的關係需要雙方的關心和努力。",
+        "starter": "A",
+        "answer": "A healthy relationship is a two-way street.",
+        "answerZh": "健康的關係需要雙方共同經營。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q07",
+        "number": 7,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Both groups need to work together; one group cannot do everything.",
+        "promptZh": "兩個小組都需要合作，不能由其中一組包辦所有事情。",
+        "starter": "Cooperation",
+        "answer": "Cooperation is a two-way street.",
+        "answerZh": "合作需要雙方共同參與。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q08",
+        "number": 8,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Teachers need to explain clearly, and students need to take part.",
+        "promptZh": "老師需要清楚講解，學生也需要投入參與。",
+        "starter": "Learning",
+        "answer": "Learning is a two-way street.",
+        "answerZh": "學習需要師生雙方共同參與。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q09",
+        "number": 9,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Friends should help each other instead of one person always giving.",
+        "promptZh": "朋友應該互相幫助，而不是永遠只有一方付出。",
+        "starter": "Support",
+        "answer": "Support is a two-way street.",
+        "answerZh": "支持應該是互相的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q10",
+        "number": 10,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "You cannot expect someone to stand by you if you never stand by them.",
+        "promptZh": "如果你從不支持對方，就不能期望對方一直支持你。",
+        "starter": "Loyalty",
+        "answer": "Loyalty is a two-way street.",
+        "answerZh": "忠誠需要雙方共同維持。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q11",
+        "number": 11,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Staff need to listen, and the customer needs to explain the problem clearly.",
+        "promptZh": "員工需要聆聽，顧客也需要清楚說明問題。",
+        "starter": "Solving",
+        "answer": "Solving a customer problem has to be a two-way street.",
+        "answerZh": "解決顧客問題需要雙方配合。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q12",
+        "number": 12,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The coach gives advice to the players, but she also listens to their concerns.",
+        "promptZh": "教練會給球員建議，也會聆聽他們的顧慮。",
+        "starter": "The",
+        "answer": "The coach believes feedback should be a two-way street.",
+        "answerZh": "教練認為意見交流應該是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q13",
+        "number": 13,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Since the two businesses started working together, each has helped the other.",
+        "promptZh": "自兩間公司開始合作以來，雙方一直互相幫助。",
+        "starter": "This",
+        "answer": "This partnership has always been a two-way street.",
+        "answerZh": "這段合作關係一直由雙方共同付出。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q14",
+        "number": 14,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The project will only succeed if both teams share the work.",
+        "promptZh": "只有兩個團隊共同分擔工作，這個項目才會成功。",
+        "starter": "If",
+        "answer": "If the project is going to work, cooperation must be a two-way street.",
+        "answerZh": "如果這個項目要成功，合作就必須由雙方共同參與。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q15",
+        "number": 15,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Even when we lived far apart, both of us stayed in touch and supported each other.",
+        "promptZh": "即使我們相隔很遠，雙方仍一直保持聯絡和互相支持。",
+        "starter": "Our",
+        "answer": "Our friendship was a two-way street even when we lived far apart.",
+        "answerZh": "即使我們相隔很遠，這段友誼仍由雙方共同維繫。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q16",
+        "number": 16,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A teacher can guide students and also learn from their questions and ideas.",
+        "promptZh": "老師可以引導學生，也可以從學生的問題和想法中學習。",
+        "starter": "Good",
+        "answer": "Good teaching can be a two-way street.",
+        "answerZh": "良好的教學可以是師生互相學習的過程。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q17",
+        "number": 17,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Both departments should give each other the information they need.",
+        "promptZh": "兩個部門都應向對方提供所需資料。",
+        "starter": "Sharing",
+        "answer": "Sharing information should be a two-way street.",
+        "answerZh": "分享資料應該是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q18",
+        "number": 18,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "During the move to the new office, managers will need to explain changes, and staff will need to ask questions and share concerns.",
+        "promptZh": "搬往新辦公室期間，經理需要解釋各項改動，員工也需要提出問題和表達顧慮。",
+        "starter": "Communication",
+        "answer": "Communication will need to be a two-way street during the move to the new office.",
+        "answerZh": "搬往新辦公室期間，溝通需要雙向進行。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q19",
+        "number": 19,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The manager used to make every plan alone, but now she wants staff to share ideas before decisions are made.",
+        "promptZh": "經理以往獨自制訂所有計劃，但現在她希望在作出決定前聽取員工的想法。",
+        "starter": "The",
+        "answer": "The manager wants office planning to become a two-way street.",
+        "answerZh": "經理希望辦公室的規劃變成雙向交流。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q20",
+        "number": 20,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Parents want teenagers to listen, but teenagers also need to feel that their views are heard.",
+        "promptZh": "父母希望青少年聽從他們，但青少年也需要感到自己的意見受到聆聽。",
+        "starter": "For",
+        "answer": "For respect to grow between parents and teenagers, it has to be a two-way street.",
+        "answerZh": "要在父母與青少年之間建立尊重，雙方都必須願意聆聽和配合。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q21",
+        "number": 21,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: I always listen to Ella, but she never listens to me. B: Then she cannot expect the friendship to remain strong.",
+        "promptZh": "甲：我總會聆聽艾拉，但她從不聽我說話。 乙：那麼，她就不能期望這段友誼一直穩固。",
+        "starter": "Your",
+        "answer": "Your friendship with Ella should be a two-way street.",
+        "answerZh": "你和艾拉的友誼應該由雙方共同維繫。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q22",
+        "number": 22,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Our teacher wants us to take part, but should she listen to our ideas too? B: Of course.",
+        "promptZh": "甲：老師希望我們投入參與，但她也應該聆聽我們的想法嗎？ 乙：當然應該。",
+        "starter": "Yes.",
+        "answer": "Yes. Good teaching is a two-way street.",
+        "answerZh": "是的。良好的教學需要師生雙方共同參與。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q23",
+        "number": 23,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: I want the team to help me, but I do not have time to help them. B: That is not how a team works.",
+        "promptZh": "甲：我希望團隊幫助我，但我沒有時間幫助他們。 乙：團隊合作不是這樣的。",
+        "starter": "Teamwork",
+        "answer": "Teamwork is a two-way street.",
+        "answerZh": "團隊合作需要互相付出。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q24",
+        "number": 24,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The customer complained that the company took days to reply. The staff said the customer often gave incomplete details.",
+        "promptZh": "顧客投訴公司需要多天才回覆。員工則表示顧客經常提供不完整的資料。",
+        "starter": "Good",
+        "answer": "Good communication is a two-way street, even in customer service.",
+        "answerZh": "即使在顧客服務中，良好溝通也需要雙方配合。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q25",
+        "number": 25,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Nora says workers should keep their promises to the company, and the company should keep its promises to workers.",
+        "promptZh": "諾拉表示，員工應該信守對公司的承諾，公司也應信守對員工的承諾。",
+        "starter": "Nora",
+        "answer": "Nora believes loyalty at work is a two-way street.",
+        "answerZh": "諾拉認為，職場上的忠誠需要雙方共同維持。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q26",
+        "number": 26,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The club members told the leader what they needed, and the leader regularly shared important information with them.",
+        "promptZh": "會內成員向領袖說明自己的需要，而領袖也定期與他們分享重要資料。",
+        "starter": "Communication",
+        "answer": "Communication in the club was a two-way street.",
+        "answerZh": "會內的溝通是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q27",
+        "number": 27,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Ethan wanted his sister to apologise after their argument, but he refused to admit his own mistake.",
+        "promptZh": "伊頓在爭執後希望妹妹道歉，但他拒絕承認自己的錯誤。",
+        "starter": "Making",
+        "answer": "Making peace after an argument is a two-way street.",
+        "answerZh": "爭執後修補關係需要雙方共同努力。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q28",
+        "number": 28,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The new worker asked for clear instructions and also shared useful updates with her manager.",
+        "promptZh": "新員工要求獲得清楚指示，也向經理提供有用的最新情況。",
+        "starter": "Communication",
+        "answer": "Communication between the new worker and her manager was a two-way street.",
+        "answerZh": "新員工與經理之間的溝通是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q29",
+        "number": 29,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: The school wants parents to support its rules. B: Then the school must listen to parents’ concerns as well.",
+        "promptZh": "甲：學校希望家長支持校規。 乙：那麼，學校也必須聆聽家長的顧慮。",
+        "starter": "The",
+        "answer": "The relationship between the school and parents has to be a two-way street.",
+        "answerZh": "學校與家長之間的關係需要雙方共同配合。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q30",
+        "number": 30,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Do mentors only give advice? B: No. They can also learn from the people they guide.",
+        "promptZh": "甲：導師只會給予建議嗎？ 乙：不是。他們也可以向自己指導的人學習。",
+        "starter": "Mentoring",
+        "answer": "Mentoring can be a two-way street.",
+        "answerZh": "師友指導可以是互相學習的過程。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q31",
+        "number": 31,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Leaders need to guide their teams, but they also need to listen.",
+        "promptZh": "領導者需要帶領團隊，但也需要聆聽團隊成員。",
+        "starter": "Although",
+        "answer": "Although leaders guide their teams, workplace communication is a two-way street.",
+        "answerZh": "雖然領導者需要帶領團隊，但職場溝通仍然是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q32",
+        "number": 32,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Both neighbours offered help whenever the other needed it, so their friendship remained strong.",
+        "promptZh": "兩位鄰居在對方有需要時都會伸出援手，因此他們的友誼一直穩固。",
+        "starter": "Their",
+        "answer": "Their friendship remained strong because it was a two-way street.",
+        "answerZh": "他們的友誼一直穩固，因為雙方都願意付出。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q33",
+        "number": 33,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Staff cannot expect managers to explain every change if they never ask questions or share concerns.",
+        "promptZh": "如果員工從不提出問題或表達顧慮，就不能期望經理解釋每項改動。",
+        "starter": "Since",
+        "answer": "Since communication at work is a two-way street, staff need to ask questions and share concerns too.",
+        "answerZh": "由於職場溝通是雙向的，員工也需要提出問題和表達顧慮。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q34",
+        "number": 34,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The parents listened carefully to the teacher, and the teacher took their worries seriously. As a result, the meeting went well.",
+        "promptZh": "家長仔細聆聽老師，而老師也認真看待他們的憂慮，因此會面十分順利。",
+        "starter": "The",
+        "answer": "The parent-teacher meeting worked well because communication was a two-way street.",
+        "answerZh": "家長與老師的會面十分順利，因為雙方都有聆聽和回應。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q35",
+        "number": 35,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "One friend may be busier than the other, but the relationship still needs effort from both people.",
+        "promptZh": "其中一位朋友可能比較忙碌，但這段關係仍需要雙方付出。",
+        "starter": "Even",
+        "answer": "Even if one friend is busier, friendship is still a two-way street.",
+        "answerZh": "即使其中一位朋友比較忙碌，友誼仍需要雙方共同維繫。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q36",
+        "number": 36,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The company wants customers to give honest reviews, so it must also respond openly to criticism.",
+        "promptZh": "公司希望顧客提供真實評價，因此也必須坦誠回應批評。",
+        "starter": "If",
+        "answer": "If the company wants honest reviews, feedback has to be a two-way street.",
+        "answerZh": "如果公司希望得到真實評價，意見交流就必須是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q37",
+        "number": 37,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The coach said that players should accept advice, but coaches should also be ready to hear concerns.",
+        "promptZh": "教練表示，球員應接受建議，而教練也應願意聆聽他們的顧慮。",
+        "starter": "The",
+        "answer": "The coach reminded everyone that feedback is a two-way street.",
+        "answerZh": "教練提醒大家，意見交流是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q38",
+        "number": 38,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "When both the nurse and the patient share clear information, it is easier to choose the right next step.",
+        "promptZh": "當護士與病人都提供清楚資料時，便較容易決定下一步。",
+        "starter": "Good",
+        "answer": "Good communication between a nurse and a patient is a two-way street.",
+        "answerZh": "護士與病人之間的良好溝通需要雙方共同參與。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q39",
+        "number": 39,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The two groups blamed each other for the delay, but neither had shared the information the other needed.",
+        "promptZh": "兩個小組互相指責對方造成延誤，但雙方都沒有提供對方所需的資料。",
+        "starter": "The",
+        "answer": "The delay showed that communication between the two groups has to be a two-way street.",
+        "answerZh": "這次延誤顯示，兩個小組之間的溝通必須是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q40",
+        "number": 40,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Our manager says we should be open to feedback, but does she accept feedback from us? B: She should.",
+        "promptZh": "甲：經理說我們應該願意接受意見，但她會接受我們的意見嗎？ 乙：她也應該接受。",
+        "starter": "Feedback",
+        "answer": "Feedback should be a two-way street, even between a manager and staff.",
+        "answerZh": "即使在經理與員工之間，意見交流也應該是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q41",
+        "number": 41,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A local centre asked families what classes they wanted. The families later helped the centre run those classes.",
+        "promptZh": "一間本地中心先詢問家庭希望參加甚麼課程。這些家庭其後也協助中心開辦那些課程。",
+        "starter": "The",
+        "answer": "The programme succeeded because the relationship between the centre and local families was a two-way street.",
+        "answerZh": "這項計劃能夠成功，是因為中心與本地家庭之間互相配合。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q42",
+        "number": 42,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The hotel asks guests to report problems politely and promises that staff will listen and respond.",
+        "promptZh": "酒店請住客有禮貌地報告問題，並承諾員工會聆聽和回應。",
+        "starter": "At",
+        "answer": "At the hotel, respectful communication is a two-way street.",
+        "answerZh": "在酒店裡，有禮貌的溝通需要雙方配合。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q43",
+        "number": 43,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: The school sends parents weekly updates. Do parents tell the school when their children need help? B: Yes, and that is why the system works.",
+        "promptZh": "甲：學校每星期都向家長發放最新消息。當子女需要幫助時，家長也會通知學校嗎？ 乙：會，這就是制度運作良好的原因。",
+        "starter": "The",
+        "answer": "The system works because communication between the school and parents is a two-way street.",
+        "answerZh": "這套制度運作良好，因為學校與家長之間的溝通是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q44",
+        "number": 44,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The charity does not only ask volunteers for their time; it also gives them training and listens to their ideas.",
+        "promptZh": "慈善機構不只要求義工付出時間，也會提供培訓和聆聽他們的想法。",
+        "starter": "The",
+        "answer": "The relationship between the charity and its volunteers is a two-way street.",
+        "answerZh": "慈善機構與義工之間的關係需要雙方共同付出。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q45",
+        "number": 45,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Customers expect the shop to correct mistakes, but they also need to give accurate details about the order.",
+        "promptZh": "顧客期望店舖更正錯誤，但他們也需要提供準確的訂單資料。",
+        "starter": "If",
+        "answer": "If order problems are to be solved quickly, communication has to be a two-way street.",
+        "answerZh": "如果要迅速解決訂單問題，溝通就必須是雙向的。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q46",
+        "number": 46,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The town leaders want local people to follow the new recycling rules. They also need to explain the rules clearly and listen when people report problems.",
+        "promptZh": "鎮上的主管希望市民遵守新的回收規則。他們也需要清楚解釋規則，並聆聽市民反映的問題。",
+        "starter": "Cooperation",
+        "answer": "Cooperation between the town leaders and local people has to be a two-way street.",
+        "answerZh": "鎮上主管與市民之間的合作需要雙方共同配合。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q47",
+        "number": 47,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The interviewer did not simply ask questions; she also allowed the guest’s answers to guide the conversation.",
+        "promptZh": "訪問者不只是提問，也讓嘉賓的回答帶動對話方向。",
+        "starter": "A",
+        "answer": "A good interview is a two-way street.",
+        "answerZh": "良好的訪問需要訪問者與嘉賓雙方共同參與。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q48",
+        "number": 48,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The online class worked best when the teacher gave clear tasks and students reported which parts confused them.",
+        "promptZh": "網上課堂在老師給予清楚任務，而學生說明自己不明白哪些部分時，效果最好。",
+        "starter": "The",
+        "answer": "The online class showed that learning is a two-way street.",
+        "answerZh": "這堂網上課顯示，學習需要師生雙方共同參與。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q49",
+        "number": 49,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A café wants a long-term relationship with the company that delivers its food, so both sides must be honest about prices, dates and problems.",
+        "promptZh": "一間咖啡店希望與送貨的食品公司建立長期關係，因此雙方都必須如實說明價格、日期和問題。",
+        "starter": "A",
+        "answer": "A long-term business relationship has to be a two-way street.",
+        "answerZh": "長期商業關係需要雙方坦誠合作。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      },
+      {
+        "id": "idiom-65-q50",
+        "number": 50,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: You keep saying your friends should understand your busy schedule, but do you make time for them when they need you? B: I see your point.",
+        "promptZh": "甲：你總說朋友應該體諒你很忙，但他們需要你時，你會抽時間陪伴他們嗎？ 乙：我明白你的意思了。",
+        "starter": "I",
+        "answer": "I need to remember that friendship is a two-way street.",
+        "answerZh": "我需要記住，友誼需要雙方共同維繫。",
+        "targetForm": "Two-Way Street",
+        "targetMeaning": "A relationship, exchange or situation in which both sides must contribute, communicate, cooperate or accept responsibility.",
+        "highlight": "two-way street"
+      }
+    ]
+  }
+}

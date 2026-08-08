@@ -1,0 +1,1677 @@
+{
+  "lesson": {
+    "id": "idiom-102",
+    "order": 102,
+    "slug": "the-beautiful-people",
+    "version": "1",
+    "title": "上流名人／時尚名流",
+    "titleEn": "the beautiful people",
+    "titleZh": "上流名人／時尚名流",
+    "source": {
+      "file": "Idiom 102 - “The Beautiful People”.pdf",
+      "pageCount": 41,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "exercisePdfPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "answerKeyPdfPages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "the beautiful people",
+        "highlight": "the beautiful people"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The beautiful people gather here every summer.",
+        "zh": "上流社會的時髦人物每年夏天都會在這裏聚集。",
+        "highlight": "The beautiful people"
+      },
+      {
+        "en": "The beautiful people were arriving at the hotel.",
+        "zh": "上流社會名流當時正陸續抵達酒店。",
+        "highlight": "The beautiful people"
+      }
+    ],
+    "meaning": {
+      "en": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+      "zh": "一群時尚、富有、著名或具有社會地位的人；他們過着奢華而引人注目的生活，經常受到公眾及傳媒關注。",
+      "naturalZh": [
+        "一群時尚、富有、著名或具有社會地位的人",
+        "他們過着奢華而引人注目的生活，經常受到公眾及傳媒關注。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "The expression is generally neutral to informal.",
+      "summaryZh": "這個表達一般屬中性至非正式語域。",
+      "contextsEn": [
+        "conversation",
+        "newspapers and magazines",
+        "entertainment reporting",
+        "fashion writing",
+        "travel writing",
+        "social commentary",
+        "informal presentations",
+        "admiring",
+        "curious",
+        "humorous",
+        "lightly ironic",
+        "critical"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "報章及雜誌",
+        "娛樂新聞",
+        "時尚文章",
+        "旅遊文章",
+        "社會評論",
+        "非正式簡報。",
+        "欣賞",
+        "好奇",
+        "幽默",
+        "輕微諷刺",
+        "批評"
+      ],
+      "formalEn": "conversation; newspapers and magazines; entertainment reporting; fashion writing; travel writing; social commentary; informal presentations.",
+      "formalZh": "日常對話； 報章及雜誌； 娛樂新聞； 時尚文章； 旅遊文章； 社會評論； 非正式簡報。"
+    },
+    "fixedVariable": {
+      "fixed": "the beautiful people",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "The beautiful people + plural verb",
+          "example": "The beautiful people gather here every summer.",
+          "highlight": "The beautiful people"
+        },
+        {
+          "form": "Subject + verb + the beautiful people",
+          "example": "The new club attracts the beautiful people.",
+          "highlight": "the beautiful people"
+        },
+        {
+          "form": "preposition + the beautiful people",
+          "example": "She spent the evening with the beautiful people.",
+          "highlight": "the beautiful people"
+        },
+        {
+          "form": "Subject + be + past participle + by the beautiful people",
+          "example": "The new label is worn by the beautiful people.",
+          "highlight": "the beautiful people"
+        },
+        {
+          "form": "one of + the beautiful people",
+          "example": "She became one of the beautiful people.",
+          "highlight": "the beautiful people"
+        },
+        {
+          "form": "Subject + be/become + a favourite + of/among the beautiful people",
+          "example": "The restaurant is a favourite of the beautiful people.",
+          "highlight": "the beautiful people"
+        },
+        {
+          "form": "Subject + verb + clause containing the beautiful people",
+          "example": "The magazine shows where the beautiful people travel.",
+          "highlight": "the beautiful people"
+        },
+        {
+          "form": "Question word + auxiliary + the beautiful people + verb?",
+          "example": "Where do the beautiful people spend the summer?",
+          "highlight": "the beautiful people"
+        },
+        {
+          "form": "place/thing + where/that + the beautiful people + verb",
+          "example": "This is the café where the beautiful people meet.",
+          "highlight": "the beautiful people"
+        },
+        {
+          "form": "It + be + the beautiful people + who/that...",
+          "example": "It was the beautiful people who made the café famous.",
+          "highlight": "the beautiful people"
+        },
+        {
+          "form": "the beautiful people’s + noun",
+          "example": "The beautiful people’s favourite beach is now very crowded.",
+          "highlight": "The beautiful people"
+        },
+        {
+          "form": "the beautiful people",
+          "example": "The club is not only for the beautiful people.",
+          "highlight": "the beautiful people"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As the Subject",
+        "titleZh": "句式一：用作主語",
+        "formula": "The beautiful people + plural verb",
+        "descriptionEn": "Grammar Point",
+        "descriptionZh": "文法重點",
+        "examples": [
+          {
+            "en": "The beautiful people gather here every summer.",
+            "zh": "上流社會的時髦人物每年夏天都會在這裏聚集。",
+            "highlight": "The beautiful people"
+          },
+          {
+            "en": "The beautiful people were arriving at the hotel.",
+            "zh": "上流社會名流當時正陸續抵達酒店。",
+            "highlight": "The beautiful people"
+          },
+          {
+            "en": "The beautiful people have made the area fashionable.",
+            "zh": "時尚名流令這個地區變得流行。",
+            "highlight": "The beautiful people"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "As the Object of a Verb",
+        "titleZh": "句式二：用作動詞的受詞",
+        "formula": "Subject + verb + the beautiful people",
+        "descriptionEn": "Source grammar frame: Subject + verb + the beautiful people.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb + the beautiful people。",
+        "examples": [
+          {
+            "en": "The new club attracts the beautiful people.",
+            "zh": "這間新會所吸引上流社會名流。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "Reporters photographed the beautiful people.",
+            "zh": "記者拍攝了那些時尚名流。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "The magazine follows the beautiful people.",
+            "zh": "這本雜誌追蹤報道上流社會名流的生活。",
+            "highlight": "the beautiful people"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After a Preposition",
+        "titleZh": "句式三：置於介詞之後",
+        "formula": "preposition + the beautiful people",
+        "descriptionEn": "The designer received support from the beautiful people.",
+        "descriptionZh": "這名設計師得到時尚名流的支持。",
+        "examples": [
+          {
+            "en": "She spent the evening with the beautiful people.",
+            "zh": "她與上流社會名流共度晚上。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "The restaurant is popular among the beautiful people.",
+            "zh": "這間餐廳深受時尚名流歡迎。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "The hotel was designed for the beautiful people.",
+            "zh": "這間酒店是為富有而時髦的名流而設計的。",
+            "highlight": "the beautiful people"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "In a Passive Construction",
+        "titleZh": "句式四：用於被動結構",
+        "formula": "Subject + be + past participle + by the beautiful people",
+        "descriptionEn": "The phrase after by identifies the people performing the action.",
+        "descriptionZh": "後面的短語指出執行動作的人。",
+        "examples": [
+          {
+            "en": "The new label is worn by the beautiful people.",
+            "zh": "這個新品牌受到上流社會名流穿着。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "The hotel has been visited by the beautiful people for years.",
+            "zh": "多年來，許多上流社會名流都曾到訪這間酒店。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "The private beach was used mainly by the beautiful people.",
+            "zh": "這個私人海灘主要由富有的時尚名流使用。",
+            "highlight": "the beautiful people"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "“One of the Beautiful People”",
+        "titleZh": "句式五",
+        "formula": "one of + the beautiful people",
+        "descriptionEn": "Although the target phrase is plural, the full subject one of the beautiful people is singular.",
+        "descriptionZh": "one of the beautiful people 雖然目標短語本身是複數，但完整主語 one of the beautiful people 是單數。",
+        "examples": [
+          {
+            "en": "She became one of the beautiful people.",
+            "zh": "她成為了時尚名人圈的一員。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "He wanted to be accepted as one of the beautiful people.",
+            "zh": "他希望獲時尚名人圈接納，成為其中一員。",
+            "highlight": "the beautiful people"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“A Favourite of/Among the Beautiful People”",
+        "titleZh": "句式六：深受名流歡迎",
+        "formula": "Subject + be/become + a favourite + of/among the beautiful people",
+        "descriptionEn": "This structure describes a place, product or activity that is especially popular with the group.",
+        "descriptionZh": "這個結構用來描述特別受到這群名流歡迎的地方、產品或活動。",
+        "examples": [
+          {
+            "en": "The restaurant is a favourite of the beautiful people.",
+            "zh": "這間餐廳是上流社會名流喜愛的地方。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "The island became a favourite among the beautiful people.",
+            "zh": "這個島嶼成為了時尚名流喜愛的地方。",
+            "highlight": "the beautiful people"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "In an Embedded Clause",
+        "titleZh": "句式七：置於從句之中",
+        "formula": "Subject + verb + clause containing the beautiful people",
+        "descriptionEn": "Source grammar frame: Subject + verb + clause containing the beautiful people.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb + clause containing the beautiful people。",
+        "examples": [
+          {
+            "en": "The magazine shows where the beautiful people travel.",
+            "zh": "這本雜誌報道上流社會名流前往哪些地方旅遊。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "The manager hopes the beautiful people will return.",
+            "zh": "經理希望那些時尚名流會再次到訪。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "Nobody knows why the beautiful people prefer this hotel.",
+            "zh": "沒有人知道為甚麼時尚名流偏愛這間酒店。",
+            "highlight": "the beautiful people"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "In a Question",
+        "titleZh": "句式八：用於疑問句",
+        "formula": "Question word + auxiliary + the beautiful people + verb?",
+        "descriptionEn": "Source grammar frame: Question word + auxiliary + the beautiful people + verb?.",
+        "descriptionZh": "原檔列出的句法框架：Question word + auxiliary + the beautiful people + verb?。",
+        "examples": [
+          {
+            "en": "Where do the beautiful people spend the summer?",
+            "zh": "上流社會名流會到哪裏度過夏天？",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "Why are the beautiful people interested in this small town?",
+            "zh": "為甚麼上流社會名流會對這個小鎮感興趣？",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "Have the beautiful people stopped visiting the island?",
+            "zh": "時尚名流是否已不再到訪這個島嶼？",
+            "highlight": "the beautiful people"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "In a Relative-Clause Structure",
+        "titleZh": "句式九：用於關係從句",
+        "formula": "place/thing + where/that + the beautiful people + verb",
+        "descriptionEn": "Source grammar frame: place/thing + where/that + the beautiful people + verb.",
+        "descriptionZh": "原檔列出的句法框架：place/thing + where/that + the beautiful people + verb。",
+        "examples": [
+          {
+            "en": "This is the café where the beautiful people meet.",
+            "zh": "這就是上流社會名流聚會的咖啡店。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "The clothes that the beautiful people wear are often copied.",
+            "zh": "上流社會名流穿着的服裝經常被模仿。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "The town that attracts the beautiful people has become very expensive.",
+            "zh": "這個吸引時尚名流的小鎮已變得非常昂貴。",
+            "highlight": "the beautiful people"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "In a Cleft or Focus Structure",
+        "titleZh": "句式十：用於強調結構",
+        "formula": "It + be + the beautiful people + who/that...",
+        "descriptionEn": "This structure places special emphasis on the group.",
+        "descriptionZh": "這個結構特別強調這個群體。",
+        "examples": [
+          {
+            "en": "It was the beautiful people who made the café famous.",
+            "zh": "正是上流社會的時髦人物令這間咖啡店成名。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "It is the beautiful people that the new hotel hopes to attract.",
+            "zh": "這間新酒店希望吸引的正是上流社會名流。",
+            "highlight": "the beautiful people"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "As a Possessive Noun Phrase",
+        "titleZh": "句式十一：用作所有格名詞短語",
+        "formula": "the beautiful people’s + noun",
+        "descriptionEn": "Because people is already plural, the possessive form is people’s.",
+        "descriptionZh": "本身已是複數，因此所有格形式是 people’s。",
+        "examples": [
+          {
+            "en": "The beautiful people’s favourite beach is now very crowded.",
+            "zh": "時尚名流最喜愛的海灘現在非常擠迫。",
+            "highlight": "The beautiful people"
+          },
+          {
+            "en": "The article examined the beautiful people’s expensive habits.",
+            "zh": "這篇文章探討了上流社會名流的奢華習慣。",
+            "highlight": "the beautiful people"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "With Contrast, Negation or Modality",
+        "titleZh": "句式十二：配合轉折、否定或情態",
+        "formula": "the beautiful people",
+        "descriptionEn": "possibility; certainty; time; contrast; negation; the speaker’s attitude.",
+        "descriptionZh": "外圍句法必須保留原句的可能性、確定程度、時間、轉折、否定及說話者態度。",
+        "examples": [
+          {
+            "en": "The club is not only for the beautiful people.",
+            "zh": "這間會所並非只供上流社會名流使用。",
+            "highlight": "the beautiful people"
+          },
+          {
+            "en": "The beautiful people may return next summer.",
+            "zh": "時尚名流明年夏天可能會再次到訪。",
+            "highlight": "The beautiful people"
+          },
+          {
+            "en": "Although the party was organised for the beautiful people, local residents were also invited.",
+            "zh": "雖然派對是為上流社會名流而舉辦，但當地居民也獲得邀請。",
+            "highlight": "the beautiful people"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Identifies a Particular Social Group",
+        "titleZh": "指出一個特定社交群體",
+        "en": "The expression does more than say rich people.; wealth; fame; fashion; luxury; public attention; glamorous social life.",
+        "zh": "這個表達不只是表示「有錢人」。 它把財富、名氣、時尚、奢華生活、傳媒關注及社交地位等意思集中在一個表達之中。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Makes Social Commentary More Concise",
+        "titleZh": "令社會評論更加簡潔",
+        "en": "The idiomatic version communicates the social image more concisely.",
+        "zh": "這間咖啡店深受上流社會名流歡迎。 慣用語版本能以更簡潔的方式表達這種社會形象。",
+        "examples": [
+          {
+            "en": "The café is popular with the beautiful people.",
+            "zh": "這間咖啡店深受上流社會名流歡迎。",
+            "highlight": "the beautiful people"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Carry Attitude",
+        "titleZh": "可以表達態度",
+        "en": "admiration; fascination; distance; humour; criticism; irony.",
+        "zh": "它不只指出一個群體，也可以顯示說話者對這個群體的態度。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful in Media and Lifestyle Topics",
+        "titleZh": "適合傳媒及生活方式題材",
+        "en": "expensive restaurants; private parties; film festivals; social media; public image.",
+        "zh": "它特別適合用於時尚、名人文化、奢華旅遊、高級餐廳、私人派對、電影節及公眾形象等題材。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Allows Different Grammar Structures",
+        "titleZh": "可以配合多種句法結構",
+        "en": "a subject; an object; the object of a preposition; part of a passive sentence; part of a question; part of a relative clause; part of one of the beautiful people; a possessive expression.",
+        "zh": "學生可以在不同位置自然運用同一個固定表達，而不必把五十個答案寫成同一種句式。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Helps Students Understand Implied Meaning",
+        "titleZh": "幫助學生理解隱含意思",
+        "en": "The phrase often implies more than the individual words state directly. Students must understand that beautiful refers to a glamorous public image, not simply physical attractiveness.",
+        "zh": "這個短語的意思往往超越單字的表面意思。 學生需要理解，beautiful 在這裏代表奢華而引人注目的公眾形象，而不只是外表漂亮。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact Coinage Uncertain",
+      "statusZh": "逐漸形成；確切創始者不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster dates its first known use in the modern sense to 1950. Etymonline records the expression meaning “the fashionable set” by 1964 in Vogue. These records suggest that the modern social-group meaning became established during the mid-twentieth century, especially in writing about fashion, fame and glamorous social life. The exact first speaker or writer has not been established.",
+          "zh": "Merriam-Webster 把這個表達現代意思的最早已知用法追溯至1950年。 Etymonline 則記錄它在 1964年的 Vogue 中已用來表示時尚社交圈。 這些記錄顯示，這個現代意思很可能在二十世紀中期逐漸固定下來，並與時尚、名氣及奢華社交生活產生密切關係。 確切的首位使用者仍未能確認。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, the expression refers mainly to rich, fashionable or famous people with glamorous and highly visible lifestyles. It does not necessarily mean that every member is physically attractive.",
+          "zh": "今天，這個表達主要指富有、時尚或著名，而且過着奢華而受人注目的生活的人。 它不一定表示每一名成員的外表都十分漂亮。"
+        }
+      ],
+      "memoryEn": "Think of people whose wealth, fashion and public image make their lives appear “beautiful” from the outside.",
+      "memoryZh": "想像一群人的財富、時尚作風及公眾形象，令他們的生活從外表看來十分「美麗」。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Do Not Interpret “Beautiful” Literally",
+        "titleZh": "規則一：不要把 beautiful 單純理解為外表漂亮",
+        "en": "In the target expression, beautiful does not merely describe physical appearance. The five students are very attractive. This sentence contains no information about wealth, fashion, fame or a glamorous social circle.",
+        "zh": "在目標表達中，beautiful 並不只是形容外表漂亮。 這五名學生的外表十分漂亮。 這個句子沒有提及財富、時尚、名氣或奢華社交圈，因此不足以使用目標表達。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep “The”",
+        "titleZh": "規則二：保留 the",
+        "en": "They are beautiful people. Without the, beautiful people can be an ordinary adjective-and-noun combination.",
+        "zh": "他們是很好的人/他們都是漂亮的人。 他們是時尚名人圈的一部分。 沒有 the 時，beautiful people 可以只是普通的形容詞加名詞結構。",
+        "examples": [
+          {
+            "en": "They are part of the beautiful people.",
+            "zh": "他們是時尚名人圈的一部分。",
+            "highlight": "the beautiful people"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "Use a Plural Verb When the Phrase Is the Subject",
+        "titleZh": "規則三：用作主語時配合複數動詞",
+        "en": "Use a Plural Verb When the Phrase Is the Subject",
+        "zh": "時尚名流正在抵達。 時尚名流已經離開。",
+        "examples": [
+          {
+            "en": "The beautiful people are arriving.",
+            "zh": "時尚名流正在抵達。",
+            "highlight": "The beautiful people"
+          },
+          {
+            "en": "The beautiful people have left.",
+            "zh": "時尚名流已經離開。",
+            "highlight": "The beautiful people"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "Do Not Assume That Every Rich Person Belongs",
+        "titleZh": "規則四",
+        "en": "to the Group; wealth or fame; fashion; glamour; social visibility; an expensive and public lifestyle. A private business owner who avoids attention would not automatically be described as one of the beautiful people.",
+        "zh": "不要假設所有富人都是 the beautiful people 這個表達通常不只是表示「有錢」，還帶有時尚、名氣、奢華社交生活及公眾關注等意思。 一名生活低調、不受公眾關注的富有商人，未必適合被形容為時尚名人圈的一員。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Tone",
+        "titleZh": "規則五：保留語氣",
+        "en": "The answer should not become strongly hostile. Likewise, a critical source should not become admiring.",
+        "zh": "原句只是輕鬆地取笑富有而時髦的賓客，答案不應突然變成強烈攻擊。 同樣地，帶批評意味的原句也不應被改寫成欣賞語氣。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則六：保留確定程度",
+        "en": "The second sentence changes a possibility into an established fact.",
+        "zh": "第二個句子把可能性變成了已確定的事實。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Overuse It",
+        "titleZh": "規則七：不要過度使用",
+        "en": "The expression is useful when the social identity of the group matters.; guests; customers; actors; visitors; rich people; famous people.",
+        "zh": "當這群人的時尚、財富、名氣及社會地位與語境有關時，這個表達才特別有用。 如果句子不需要強調這種名流身份，使用普通名詞可能更加準確。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Be Careful with Social Judgement",
+        "titleZh": "規則八：小心社會評價",
+        "en": "The expression can sound as though the speaker is admiring or mocking a privileged social group. Use the surrounding sentence to make the attitude clear.",
+        "zh": "這個表達可能令人感到說話者正在欣賞或取笑一群享有特權的名流。 應利用上下文清楚表達說話者的態度。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Use It for Morally Good People",
+        "titleZh": "規則九：不要用來表示品格善良的人",
+        "en": "normally refers to a fashionable, wealthy or famous social group.",
+        "zh": "兩個句子的意思並不相同。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "The Target Can Move",
+        "titleZh": "規則十：目標表達的位置可以改變",
+        "en": "The target does not need to appear at the beginning of every answer. A strong exercise should vary these positions naturally.",
+        "zh": "目標表達不必在每個答案中都放在句首。 高質素練習應自然改變目標表達在句中的位置。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using the beautiful people.",
+      "zh": "使用 the beautiful people 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-102-q01",
+        "number": 1,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Rich and fashionable guests often spend their evenings at this famous café.",
+        "promptZh": "富有而時髦的賓客經常在這間著名咖啡店度過晚上。",
+        "starter": "The",
+        "answer": "The beautiful people often spend their evenings at this famous café.",
+        "answerZh": "上流社會的時髦人物經常在這間著名咖啡店度過晚上。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "The beautiful people"
+      },
+      {
+        "id": "idiom-102-q02",
+        "number": 2,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "This new beach club attracts wealthy celebrities and fashionable social figures every summer.",
+        "promptZh": "這間新的海灘會所每年夏天都吸引富有的名人及時尚社交人物。",
+        "starter": "This",
+        "answer": "This new beach club attracts the beautiful people every summer.",
+        "answerZh": "這間新的海灘會所每年夏天都吸引時尚名流。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q03",
+        "number": 3,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Reporters waited outside the hotel to photograph the rich and famous guests as they arrived.",
+        "promptZh": "記者在酒店外等候，拍攝抵達的富有名人。",
+        "starter": "Reporters",
+        "answer": "Reporters waited outside the hotel to photograph the beautiful people as they arrived.",
+        "answerZh": "記者在酒店外等候，拍攝抵達的上流社會名流。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q04",
+        "number": 4,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "At the private party, several young actors mixed with wealthy and fashionable members of high society.",
+        "promptZh": "在私人派對上，幾名年輕演員與富有而時髦的上流社會人物交際。",
+        "starter": "At",
+        "answer": "At the private party, several young actors mixed with the beautiful people.",
+        "answerZh": "在私人派對上，幾名年輕演員與時尚名流交際。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q05",
+        "number": 5,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The small island has become popular with rich celebrities who enjoy expensive holidays.",
+        "promptZh": "這個小島已深受喜歡奢華假期的富有名人歡迎。",
+        "starter": "The",
+        "answer": "The small island has become popular with the beautiful people.",
+        "answerZh": "這個小島已深受上流社會名流歡迎。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q06",
+        "number": 6,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Many designers want rich and famous trendsetters to wear their clothes.",
+        "promptZh": "許多設計師都希望富有而著名的潮流人物穿着他們的服裝。",
+        "starter": "Many",
+        "answer": "Many designers want their clothes to be worn by the beautiful people.",
+        "answerZh": "許多設計師都希望時尚名流穿着他們的服裝。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q07",
+        "number": 7,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "He began attending every famous party because he wanted to join the fashionable social elite.",
+        "promptZh": "他開始出席每一場著名派對，因為他希望加入時尚名流圈。",
+        "starter": "To",
+        "answer": "To become one of the beautiful people, he began attending every famous party.",
+        "answerZh": "為了成為時尚名人圈的一員，他開始出席每一場著名派對。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q08",
+        "number": 8,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The restaurant is especially popular with rich, fashionable and famous customers.",
+        "promptZh": "這間餐廳特別受到富有、時尚而著名的顧客歡迎。",
+        "starter": "The",
+        "answer": "The restaurant is a favourite of the beautiful people.",
+        "answerZh": "這間餐廳是上流社會名流喜愛的地方。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q09",
+        "number": 9,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "One magazine regularly reports on the lives of wealthy and glamorous social figures.",
+        "promptZh": "一本雜誌定期報道富有而生活奢華的社交名流。",
+        "starter": "One",
+        "answer": "One magazine regularly reports on the lives of the beautiful people.",
+        "answerZh": "一本雜誌定期報道上流社會名流的生活。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q10",
+        "number": 10,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The wealthy and fashionable guests were already gathering on the hotel roof.",
+        "promptZh": "富有而時髦的賓客當時已經在酒店天台聚集。",
+        "starter": "The",
+        "answer": "The beautiful people were already gathering on the hotel roof.",
+        "answerZh": "時尚名流當時已經在酒店天台聚集。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "The beautiful people"
+      },
+      {
+        "id": "idiom-102-q11",
+        "number": 11,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "This expensive shop sells designer clothes mainly to rich celebrities and fashionable social figures.",
+        "promptZh": "這間昂貴商店主要向富有的名人及時尚社交人物售賣名牌服裝。",
+        "starter": "This",
+        "answer": "This expensive shop sells designer clothes mainly to the beautiful people.",
+        "answerZh": "這間昂貴商店主要向時尚名流售賣名牌服裝。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q12",
+        "number": 12,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Rich and fashionable visitors have made the old street popular again.",
+        "promptZh": "富有而時髦的訪客令這條舊街再次流行起來。",
+        "starter": "The",
+        "answer": "The beautiful people have made the old street popular again.",
+        "answerZh": "時尚名流令這條舊街再次流行起來。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "The beautiful people"
+      },
+      {
+        "id": "idiom-102-q13",
+        "number": 13,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "She was invited to spend the weekend with a group of wealthy celebrities and social leaders.",
+        "promptZh": "她獲邀與一群富有的名人及社交圈領袖共度週末。",
+        "starter": "She",
+        "answer": "She was invited to spend the weekend with the beautiful people.",
+        "answerZh": "她獲邀與上流社會名流共度週末。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q14",
+        "number": 14,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The film festival attracts rich and fashionable celebrities from many countries.",
+        "promptZh": "這個電影節吸引來自多個國家的富有時尚名人。",
+        "starter": "The",
+        "answer": "The film festival attracts the beautiful people from many countries.",
+        "answerZh": "這個電影節吸引來自多個國家的時尚名流。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q15",
+        "number": 15,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "During the film awards week, the luxury hotel was full of wealthy stars and fashionable guests.",
+        "promptZh": "電影頒獎禮舉行的一星期內，這間豪華酒店住滿富有的明星及時尚賓客。",
+        "starter": "The",
+        "answer": "The luxury hotel was full of the beautiful people during the film awards week.",
+        "answerZh": "電影頒獎禮舉行的一星期內，這間豪華酒店住滿時尚名流。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q16",
+        "number": 16,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "He may soon be accepted as a member of the rich and fashionable social elite.",
+        "promptZh": "他可能很快便會獲富有而時髦的名流圈接納，成為其中一員。",
+        "starter": "He",
+        "answer": "He may soon be accepted as one of the beautiful people.",
+        "answerZh": "他可能很快便會獲時尚名人圈接納，成為其中一員。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q17",
+        "number": 17,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The new restaurant could become a place where wealthy celebrities regularly meet.",
+        "promptZh": "這間新餐廳可能會成為富有名人經常聚會的地方。",
+        "starter": "The",
+        "answer": "The new restaurant could become a meeting place for the beautiful people.",
+        "answerZh": "這間新餐廳可能會成為上流社會名流的聚會地點。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q18",
+        "number": 18,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Why do wealthy celebrities and fashion leaders keep choosing this quiet town for their holidays?",
+        "promptZh": "為甚麼富有的名人及時尚領袖不斷選擇這個寧靜小鎮度假？",
+        "starter": "Why",
+        "answer": "Why do the beautiful people keep choosing this quiet town for their holidays?",
+        "answerZh": "為甚麼時尚名流不斷選擇這個寧靜小鎮度假？",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q19",
+        "number": 19,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The club is not only intended for rich and fashionable guests; local residents are welcome too.",
+        "promptZh": "這間會所並非只供富有而時髦的賓客使用；當地居民也同樣受到歡迎。",
+        "starter": "The",
+        "answer": "The club is not only for the beautiful people; local residents are welcome too.",
+        "answerZh": "這間會所並非只供上流社會名流使用；當地居民也同樣受到歡迎。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q20",
+        "number": 20,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Fashion magazines often show where wealthy and glamorous social figures eat and travel.",
+        "promptZh": "時尚雜誌經常報道富有而生活奢華的社交人物到哪些地方用膳及旅遊。",
+        "starter": "Fashion",
+        "answer": "Fashion magazines often show where the beautiful people eat and travel.",
+        "answerZh": "時尚雜誌經常報道上流社會名流到哪些地方用膳及旅遊。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q21",
+        "number": 21,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: Who normally sits in the restaurant’s private room? B: The rich celebrities and fashionable guests usually sit there.",
+        "promptZh": "甲：通常是甚麼人坐在餐廳的私人房間？ 乙：富有的名人及時尚賓客通常坐在那裏。",
+        "starter": "The",
+        "answer": "The beautiful people usually sit in the restaurant’s private room.",
+        "answerZh": "上流社會名流通常坐在餐廳的私人房間。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "The beautiful people"
+      },
+      {
+        "id": "idiom-102-q22",
+        "number": 22,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Although she is famous, she does not enjoy spending time with wealthy and fashionable social figures.",
+        "promptZh": "雖然她很有名，但她並不喜歡與富有而時髦的社交人物相處。",
+        "starter": "Although",
+        "answer": "Although she is famous, she does not enjoy spending time with the beautiful people.",
+        "answerZh": "雖然她很有名，但她並不喜歡與時尚名流相處。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q23",
+        "number": 23,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The hotel manager hopes that its rich and famous guests will return next year.",
+        "promptZh": "酒店經理希望那些富有而著名的賓客明年會再次到訪。",
+        "starter": "The",
+        "answer": "The hotel manager hopes the beautiful people will return next year.",
+        "answerZh": "酒店經理希望那些時尚名流明年會再次到訪。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q24",
+        "number": 24,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The wealthy and fashionable visitors were the people who turned the small café into a famous place.",
+        "promptZh": "正是那些富有而時髦的訪客令這間小咖啡店成為著名場所。",
+        "starter": "It",
+        "answer": "It was the beautiful people who turned the small café into a famous place.",
+        "answerZh": "正是上流社會名流令這間小咖啡店成為著名場所。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q25",
+        "number": 25,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The photographers were waiting outside the theatre for the rich and fashionable guests.",
+        "promptZh": "攝影師正在劇院外等候那些富有而時髦的賓客。",
+        "starter": "The",
+        "answer": "The photographers were waiting outside the theatre for the beautiful people.",
+        "answerZh": "攝影師正在劇院外等候那些時尚名流。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q26",
+        "number": 26,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "While working at the hotel, he used to watch the lives of rich celebrities from behind the front desk.",
+        "promptZh": "他在酒店工作時，經常從接待處後方觀察富有名人的生活。",
+        "starter": "He",
+        "answer": "He used to watch the beautiful people from behind the hotel’s front desk.",
+        "answerZh": "他以往經常從酒店接待處後方觀察時尚名流。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q27",
+        "number": 27,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The party was organised for wealthy celebrities and fashionable members of high society, not for the general public.",
+        "promptZh": "這場派對是為富有的名人及時髦的上流社會人物而舉辦，並非為一般市民而設。",
+        "starter": "The",
+        "answer": "The party was organised for the beautiful people, not for the general public.",
+        "answerZh": "這場派對是為時尚名流而舉辦，並非為一般市民而設。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q28",
+        "number": 28,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Among the rich and fashionable guests, her simple clothes made her easy to notice.",
+        "promptZh": "在富有而時髦的賓客之中，她樸素的服裝令她特別顯眼。",
+        "starter": "Among",
+        "answer": "Among the beautiful people, her simple clothes made her easy to notice.",
+        "answerZh": "在上流社會名流之中，她樸素的服裝令她特別顯眼。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q29",
+        "number": 29,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The singer was once a member of the rich and fashionable social elite, but she now avoids that world.",
+        "promptZh": "這名歌手曾經是富有而時髦的名流圈成員，但她現在避開那個世界。",
+        "starter": "The",
+        "answer": "The singer was once one of the beautiful people, but she now avoids that world.",
+        "answerZh": "這名歌手曾經是時尚名人圈的一員，但她現在避開那個世界。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q30",
+        "number": 30,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The island’s privacy is what attracts wealthy celebrities and fashionable social figures.",
+        "promptZh": "這個島嶼的私隱度正是吸引富有名人及時尚社交人物的原因。",
+        "starter": "What",
+        "answer": "What attracts the beautiful people is the island’s privacy.",
+        "answerZh": "吸引時尚名流的是這個島嶼所提供的私隱。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q31",
+        "number": 31,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The new café became famous after wealthy and fashionable people began meeting there regularly.",
+        "promptZh": "富有而時髦的人開始定期在那裏聚會後，這間新咖啡店便成名了。",
+        "starter": "The",
+        "answer": "The new café became famous after the beautiful people began meeting there regularly.",
+        "answerZh": "時尚名流開始定期在那裏聚會後，這間新咖啡店便成名了。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q32",
+        "number": 32,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Because many rich and fashionable guests were arriving, the hotel closed the front entrance to the public.",
+        "promptZh": "由於許多富有而時髦的賓客正在抵達，酒店向公眾關閉了正門。",
+        "starter": "Because",
+        "answer": "Because the beautiful people were arriving, the hotel closed the front entrance to the public.",
+        "answerZh": "由於時尚名流正在抵達，酒店向公眾關閉了正門。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q33",
+        "number": 33,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The district is changing quickly because more shops are trying to attract wealthy celebrities and fashionable customers.",
+        "promptZh": "這個地區正在迅速改變，因為愈來愈多商店正嘗試吸引富有名人及時尚顧客。",
+        "starter": "The",
+        "answer": "The district is changing quickly because more shops are trying to attract the beautiful people.",
+        "answerZh": "這個地區正在迅速改變，因為愈來愈多商店正嘗試吸引時尚名流。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q34",
+        "number": 34,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "She knows how to speak to rich and famous social figures without appearing nervous.",
+        "promptZh": "她懂得如何與富有而著名的社交人物交談，而不會顯得緊張。",
+        "starter": "She",
+        "answer": "She knows how to speak to the beautiful people without appearing nervous.",
+        "answerZh": "她懂得如何與上流社會名流交談，而不會顯得緊張。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q35",
+        "number": 35,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The magazine often discusses the expensive habits of wealthy and fashionable celebrities.",
+        "promptZh": "這本雜誌經常討論富有而時髦的名人的奢華習慣。",
+        "starter": "The",
+        "answer": "The beautiful people’s expensive habits are often discussed in the magazine.",
+        "answerZh": "這本雜誌經常討論上流社會名流的奢華習慣。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "The beautiful people"
+      },
+      {
+        "id": "idiom-102-q36",
+        "number": 36,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "This is the kind of fashionable place where rich celebrities go because they want other people to notice them.",
+        "promptZh": "這類時尚場所是富有名人希望受到注意時會前往的地方。",
+        "starter": "This",
+        "answer": "This is the kind of place where the beautiful people come to be seen.",
+        "answerZh": "這類場所是時尚名流希望受到注意時會前往的地方。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q37",
+        "number": 37,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Although the event was designed for wealthy and fashionable guests, ordinary visitors bought most of the tickets.",
+        "promptZh": "雖然這項活動是為富有而時髦的賓客而設，但大部分門票都是由普通訪客購買的。",
+        "starter": "Even",
+        "answer": "Even though the event was designed for the beautiful people, ordinary visitors bought most of the tickets.",
+        "answerZh": "雖然這項活動是為上流社會名流而設，但大部分門票都是由普通訪客購買的。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q38",
+        "number": 38,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The writer questioned whether rich and fashionable social figures were truly as happy as they appeared.",
+        "promptZh": "作者質疑那些富有而時髦的社交人物，是否真的像外表看來那麼快樂。",
+        "starter": "The",
+        "answer": "The writer questioned whether the beautiful people were truly as happy as they appeared.",
+        "answerZh": "作者質疑那些時尚名流是否真的像外表看來那麼快樂。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q39",
+        "number": 39,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "No one expected the simple food stall to become especially popular among wealthy celebrities.",
+        "promptZh": "沒有人預料到這個簡單的食物攤檔會深受富有名人歡迎。",
+        "starter": "No",
+        "answer": "No one expected the simple food stall to become a favourite among the beautiful people.",
+        "answerZh": "沒有人預料到這個簡單的食物攤檔會深受時尚名流歡迎。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q40",
+        "number": 40,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The town welcomed its rich and fashionable visitors, but local people worried that prices would rise.",
+        "promptZh": "這個小鎮歡迎富有而時髦的訪客，但當地人擔心物價會上升。",
+        "starter": "The",
+        "answer": "The town welcomed the beautiful people, but local residents worried that prices would rise.",
+        "answerZh": "這個小鎮歡迎時尚名流，但當地居民擔心物價會上升。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q41",
+        "number": 41,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Several luxury shops may close if the rich and fashionable visitors stop coming to the town.",
+        "promptZh": "如果富有而時髦的訪客不再前往這個小鎮，幾間高級商店可能會倒閉。",
+        "starter": "If",
+        "answer": "If the beautiful people stop visiting, several luxury shops may close.",
+        "answerZh": "如果時尚名流不再到訪，幾間高級商店可能會倒閉。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q42",
+        "number": 42,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The hotel does not advertise widely because it depends on private recommendations from wealthy celebrities and social leaders.",
+        "promptZh": "這間酒店沒有廣泛宣傳，因為它依靠富有名人及社交圈領袖私下推薦。",
+        "starter": "The",
+        "answer": "The hotel does not advertise widely because it depends on recommendations from the beautiful people.",
+        "answerZh": "這間酒店沒有廣泛宣傳，因為它依靠時尚名流私下推薦。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q43",
+        "number": 43,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "By the end of the week, even the wealthy celebrities and fashionable guests were tired of being photographed.",
+        "promptZh": "到了星期末，即使是富有的名人及時尚賓客，也已厭倦不斷被拍攝。",
+        "starter": "By",
+        "answer": "By the end of the week, even the beautiful people were tired of being photographed.",
+        "answerZh": "到了星期末，即使是時尚名流，也已厭倦不斷被拍攝。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q44",
+        "number": 44,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The charity dinner attracted many wealthy and fashionable celebrities, although several guests seemed more interested in the cameras than the cause.",
+        "promptZh": "這場慈善晚宴吸引了許多富有而時髦的名人，雖然幾名賓客似乎對鏡頭的興趣大於對慈善工作的興趣。",
+        "starter": "The",
+        "answer": "The charity dinner attracted the beautiful people, although several guests seemed more interested in the cameras than the cause.",
+        "answerZh": "這場慈善晚宴吸引了時尚名流，雖然幾名賓客似乎對鏡頭的興趣大於對慈善工作的興趣。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q45",
+        "number": 45,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "She entered the private room as though she had always belonged in the fashionable social elite.",
+        "promptZh": "她走進私人房間時，表現得彷彿自己一直都是時尚名流圈的一員。",
+        "starter": "She",
+        "answer": "She entered the private room as though she had always belonged among the beautiful people.",
+        "answerZh": "她走進私人房間時，表現得彷彿自己一直都屬於時尚名人圈。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q46",
+        "number": 46,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Not every famous or physically attractive person belongs to the wealthy and fashionable social group described by this expression.",
+        "promptZh": "並非每一個有名或外表漂亮的人，都屬於這個表達所指的富有時尚社交群體。",
+        "starter": "Not",
+        "answer": "Not every famous or physically attractive person is part of the beautiful people.",
+        "answerZh": "並非每一個有名或外表漂亮的人，都屬於時尚名人圈。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q47",
+        "number": 47,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The article presents wealthy and fashionable social figures as confident and carefree, but its interviews reveal a different picture.",
+        "promptZh": "這篇文章把富有而時髦的社交人物描寫成自信而無憂無慮，但訪問內容卻呈現出不同的景象。",
+        "starter": "The",
+        "answer": "The article presents the beautiful people as confident and carefree, but its interviews reveal a different picture.",
+        "answerZh": "這篇文章把時尚名流描寫成自信而無憂無慮，但訪問內容卻呈現出不同的景象。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q48",
+        "number": 48,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Expensive shops usually appear nearby wherever wealthy celebrities and fashionable social figures begin gathering.",
+        "promptZh": "無論富有名人及時尚社交人物開始在哪裏聚集，附近通常很快便會出現昂貴商店。",
+        "starter": "Wherever",
+        "answer": "Wherever the beautiful people gather, expensive shops usually appear nearby.",
+        "answerZh": "無論時尚名流在哪裏聚集，附近通常都會出現昂貴商店。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q49",
+        "number": 49,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The mayor wanted rich and fashionable visitors to come to the town, but he also wanted local homes to remain affordable.",
+        "promptZh": "市長希望富有而時髦的訪客前往這個小鎮，但也希望當地居民仍然負擔得起住屋。",
+        "starter": "The",
+        "answer": "The mayor wanted the beautiful people to visit, but he also wanted local homes to remain affordable.",
+        "answerZh": "市長希望時尚名流到訪，但也希望當地居民仍然負擔得起住屋。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      },
+      {
+        "id": "idiom-102-q50",
+        "number": 50,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The museum plans to keep its ticket prices low, whether or not wealthy celebrities and fashionable social leaders approve.",
+        "promptZh": "無論富有名人及時尚社交領袖是否贊成，博物館都計劃維持低廉票價。",
+        "starter": "Whether",
+        "answer": "Whether the beautiful people approve or not, the museum plans to keep its ticket prices low.",
+        "answerZh": "無論時尚名流是否贊成，博物館都計劃維持低廉票價。",
+        "targetForm": "the beautiful people",
+        "targetMeaning": "A fashionable group of rich, famous or socially important people whose expensive and glamorous lives receive public attention.",
+        "highlight": "the beautiful people"
+      }
+    ]
+  }
+}

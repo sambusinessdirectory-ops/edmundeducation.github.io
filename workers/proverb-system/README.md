@@ -1,8 +1,8 @@
 # Edmund Proverb System Worker
 
 This Worker is the private browser-facing boundary for the Proverb System. It
-stores attempts and bookmarks for the single `proverb-01` lesson and provides a
-dedicated Proverb System administrator login.
+stores attempts and bookmarks for three lessons (`proverb-01` through
+`proverb-03`) and provides a dedicated Proverb System administrator login.
 
 Student authentication is shared with the existing Flashcard, Writing
 Practice, Speaking, Homework, and Sentence Structure portals. A student uses
@@ -24,12 +24,17 @@ First apply `../../supabase-shared-student-accounts.sql` if the shared account
 bridge is not already installed. Then apply
 `../../supabase-proverb-system.sql` in a private Supabase SQL session.
 
+For an existing Proverb System database that already has lesson 1, apply
+`../../supabase-proverb-system-lessons-2-3.sql` instead. The forward migration
+preserves existing attempts and bookmarks while extending the lesson contract.
+
 The migration creates:
 
 - hash-only administrator accounts and SHA-256-digested, eight-hour sessions;
-- account-isolated attempts for `proverb-01` and `proverb-01-q01` through
-  `proverb-01-q50`;
-- normalized bookmarks for the lesson card plus its 50 questions; and
+- account-isolated attempts for `proverb-01` through `proverb-03`, with 50
+  questions in each lesson;
+- normalized bookmarks for all three lesson cards plus their 150 questions;
+  and
 - service-role-only student, attempt, bookmark, and administrator RPCs.
 
 ### 2. Install the canonical answer catalogue
@@ -38,7 +43,8 @@ The migration creates:
 from `../../proverb-system-data.js`. When the canonical browser content
 changes, update the protected server-side object at the same time:
 
-- use exactly `proverb-01-q01` through `proverb-01-q50`;
+- use exactly `proverb-01-q01` through `proverb-03-q50`, with 50 questions in
+  each lesson;
 - put the canonical English answer first in each answer array;
 - append only deliberately approved `acceptedAnswers` variants; and
 - never invent or retain placeholder strings.
@@ -46,7 +52,7 @@ changes, update the protected server-side object at the same time:
 Do not import the public browser data file at Worker runtime. The catalogue is
 an independent server-side trust boundary. Tests compare both catalogues and
 pin their canonical-answer SHA-256 digest. `GET /v1/health` returns `503` with
-`catalog.ready: false` if any of the 50 protected entries becomes invalid. With
+`catalog.ready: false` if any of the 150 protected entries becomes invalid. With
 the catalogue incomplete or invalid, every claimed-correct answer returns
 `ANSWER_CATALOG_NOT_READY` before an attempt can be credited. Wrong-answer
 progress and bookmarks remain usable while the catalogue is being prepared.
@@ -171,9 +177,9 @@ The exact top-level `PUT` shape is:
 }
 ```
 
-Only content version `1`, lesson `proverb-01`, and question IDs `proverb-01-q01`
-through `proverb-01-q50` are accepted. Once populated, claimed correct answers
-are checked against the protected 50-answer server catalogue derived from the
+Only content version `1`, lessons `proverb-01` through `proverb-03`, and their
+question IDs `q01` through `q50` are accepted. Once populated, claimed correct
+answers are checked against the protected 150-answer server catalogue derived from the
 canonical browser data. Progress cannot lose previously correct IDs, and
 completed attempts are immutable, so a
 retry after a lost response is safe. Result JSON is capped at 96 KiB and 250
@@ -187,8 +193,8 @@ round summaries; the database retains at most 1,000 attempts per student.
 `PUT` atomically replaces the student's list. Each item has exactly
 `lessonId`, `questionId`, and boolean `includeAnswer`. The optional lesson-card
 bookmark uses question ID `__section__` and must set `includeAnswer` to `false`.
-The maximum is 51 unique items: one lesson card plus 50 questions. Existing
-creation timestamps survive updates.
+The maximum is 153 unique items: three lesson cards plus 150 questions.
+Existing creation timestamps survive updates.
 
 ### Administrator progress view
 

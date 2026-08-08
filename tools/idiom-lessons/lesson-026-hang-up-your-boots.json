@@ -1,0 +1,1466 @@
+{
+  "lesson": {
+    "id": "idiom-26",
+    "order": 26,
+    "slug": "hang-up-your-boots",
+    "version": "1",
+    "title": "掛靴／退役",
+    "titleEn": "hang up your boots",
+    "titleZh": "掛靴／退役",
+    "source": {
+      "file": "idiom 26 - “Hang Up Your Boots” .pdf",
+      "pageCount": 31,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "exercisePdfPages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "answerKeyPdfPages": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "hang up one’s boots",
+        "highlight": "hang up one’s boots"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The captain hung up her boots last year.",
+        "zh": "隊長去年掛靴。",
+        "highlight": "hung up her boots"
+      },
+      {
+        "en": "The goalkeeper plans to hang up his boots after the final.",
+        "zh": "守門員打算在決賽後掛靴。",
+        "highlight": "hang up his boots"
+      }
+    ],
+    "meaning": {
+      "en": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+      "zh": "永久停止參與某項運動並結束球員生涯，尤其常用於足球。",
+      "naturalZh": [
+        "掛靴",
+        "退役",
+        "結束球員生涯",
+        "告別球壇"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "sports conversations; interviews with players; sports news; reports about football or rugby; conversations between players, coaches and supporters.",
+      "summaryZh": "「Hang up your boots」 屬於非正式至中性表達，主要見於英式英語。 它在體育訪問、體育新聞、足球或欖球相關報道，以及球員、教練和球迷之間的對話中十分自然。",
+      "contextsEn": [
+        "sports conversations",
+        "interviews with players",
+        "sports news",
+        "reports about football or rugby",
+        "conversations between players, coaches and supporters"
+      ],
+      "contextsZh": [],
+      "formalEn": "In a highly formal announcement, retire or end one’s playing career may sometimes be safer.",
+      "formalZh": "在非常正式的公告中，使用 retire 或 end one’s playing career 有時會較為穩妥。"
+    },
+    "fixedVariable": {
+      "fixed": "hang up one’s boots",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + hang / hangs / hung up + possessive + boots.",
+          "example": "The captain hung up her boots last year.",
+          "highlight": "hung up her boots"
+        },
+        {
+          "form": "Subject + decide / plan / intend + to hang up + possessive + boots.",
+          "example": "The goalkeeper plans to hang up his boots after the final.",
+          "highlight": "hang up his boots"
+        },
+        {
+          "form": "Subject + may / might / could / should / will + hang up + possessive + boots.",
+          "example": "The injury may force him to hang up his boots.",
+          "highlight": "hang up his boots"
+        },
+        {
+          "form": "Subject + be thinking about / of + hanging up + possessive + boots.",
+          "example": "She is thinking about hanging up her boots.",
+          "highlight": "hanging up her boots"
+        },
+        {
+          "form": "Subject + be ready / not ready + to hang up + possessive + boots.",
+          "example": "I am not ready to hang up my boots yet.",
+          "highlight": "hang up my boots"
+        },
+        {
+          "form": "Before / After + hanging up + possessive + boots, + clause.",
+          "example": "After hanging up her boots, she became a coach.",
+          "highlight": "hanging up her boots"
+        },
+        {
+          "form": "When will + subject + hang up + possessive + boots?",
+          "example": "When will you hang up your boots?",
+          "highlight": "hang up your boots"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Statement",
+        "titleZh": "句式一：基本陳述",
+        "formula": "Subject + hang / hangs / hung up + possessive + boots.",
+        "descriptionEn": "Source grammar frame: Subject + hang / hangs / hung up + possessive + boots.",
+        "descriptionZh": "原檔列出的句法框架：Subject + hang / hangs / hung up + possessive + boots。",
+        "examples": [
+          {
+            "en": "The captain hung up her boots last year.",
+            "zh": "隊長去年掛靴。",
+            "highlight": "hung up her boots"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Decision or Plan",
+        "titleZh": "句式二：決定或計劃",
+        "formula": "Subject + decide / plan / intend + to hang up + possessive + boots.",
+        "descriptionEn": "Source grammar frame: Subject + decide / plan / intend + to hang up + possessive + boots.",
+        "descriptionZh": "原檔列出的句法框架：Subject + decide / plan / intend + to hang up + possessive + boots。",
+        "examples": [
+          {
+            "en": "The goalkeeper plans to hang up his boots after the final.",
+            "zh": "守門員打算在決賽後掛靴。",
+            "highlight": "hang up his boots"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Modal Verb",
+        "titleZh": "句式三：配合情態動詞",
+        "formula": "Subject + may / might / could / should / will + hang up + possessive + boots.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / could / should / will + hang up + possessive + boots.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / could / should / will + hang up + possessive + boots。",
+        "examples": [
+          {
+            "en": "The injury may force him to hang up his boots.",
+            "zh": "這次受傷可能迫使他掛靴。",
+            "highlight": "hang up his boots"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Thinking About Retirement",
+        "titleZh": "句式四：考慮退役",
+        "formula": "Subject + be thinking about / of + hanging up + possessive + boots.",
+        "descriptionEn": "Source grammar frame: Subject + be thinking about / of + hanging up + possessive + boots.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be thinking about / of + hanging up + possessive + boots。",
+        "examples": [
+          {
+            "en": "She is thinking about hanging up her boots.",
+            "zh": "她正在考慮掛靴。",
+            "highlight": "hanging up her boots"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Readiness or Intention",
+        "titleZh": "句式五：準備或意向",
+        "formula": "Subject + be ready / not ready + to hang up + possessive + boots.",
+        "descriptionEn": "Source grammar frame: Subject + be ready / not ready + to hang up + possessive + boots.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be ready / not ready + to hang up + possessive + boots。",
+        "examples": [
+          {
+            "en": "I am not ready to hang up my boots yet.",
+            "zh": "我還未準備好掛靴。",
+            "highlight": "hang up my boots"
+          },
+          {
+            "en": "He has no intention of hanging up his boots.",
+            "zh": "他無意掛靴。",
+            "highlight": "hanging up his boots"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Before or After Retirement",
+        "titleZh": "句式六：退役之前或之後",
+        "formula": "Before / After + hanging up + possessive + boots, + clause.",
+        "descriptionEn": "Source grammar frame: Before / After + hanging up + possessive + boots, + clause.",
+        "descriptionZh": "原檔列出的句法框架：Before / After + hanging up + possessive + boots, + clause。",
+        "examples": [
+          {
+            "en": "After hanging up her boots, she became a coach.",
+            "zh": "掛靴後，她成為了教練。",
+            "highlight": "hanging up her boots"
+          },
+          {
+            "en": "He wants to win one more cup before he hangs up his boots.",
+            "zh": "他希望在掛靴前再贏得一項盃賽。",
+            "highlight": "hangs up his boots"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Question Form",
+        "titleZh": "句式七：問句形式",
+        "formula": "When will + subject + hang up + possessive + boots?",
+        "descriptionEn": "Source grammar frame: When will + subject + hang up + possessive + boots?.",
+        "descriptionZh": "原檔列出的句法框架：When will + subject + hang up + possessive + boots?。",
+        "examples": [
+          {
+            "en": "When will you hang up your boots?",
+            "zh": "你會在甚麼時候掛靴？",
+            "highlight": "hang up your boots"
+          },
+          {
+            "en": "Are they planning to hang up their boots?",
+            "zh": "他們是否打算掛靴？",
+            "highlight": "hang up their boots"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Sporting Retirement Concisely",
+        "titleZh": "簡潔表達球員退役",
+        "en": "The captain has decided to hang up his boots.",
+        "zh": "這個慣用語能把「永久停止比賽並結束球員生涯」濃縮成一個簡潔表達。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Creates a Clear Sporting Image",
+        "titleZh": "帶出清晰的體育畫面",
+        "en": "The expression creates the image of a player putting away the boots used throughout a sporting career.",
+        "zh": "這個表達令人聯想到球員收起多年比賽時所穿的球靴，象徵球員生涯正式結束。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Sounds Natural in Sports Interviews and Reports",
+        "titleZh": "適合體育訪問及報道",
+        "en": "It Sounds Natural in Sports Interviews and Reports",
+        "zh": "你打算甚麼時候掛靴？ 我還未準備好掛靴。",
+        "examples": [
+          {
+            "en": "When do you plan to hang up your boots?",
+            "zh": "你打算甚麼時候掛靴？",
+            "highlight": "hang up your boots"
+          },
+          {
+            "en": "I am not ready to hang up my boots yet.",
+            "zh": "我還未準備好掛靴。",
+            "highlight": "hang up my boots"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Preserve Different Levels of Certainty",
+        "titleZh": "可以保留不同確定程度",
+        "en": "It Can Preserve Different Levels of Certainty",
+        "zh": "這名球員可能會掛靴。 這名球員將會掛靴。 這名球員已經掛靴。",
+        "examples": [
+          {
+            "en": "The player may hang up his boots.",
+            "zh": "這名球員可能會掛靴。",
+            "highlight": "hang up his boots"
+          },
+          {
+            "en": "The player will hang up his boots.",
+            "zh": "這名球員將會掛靴。",
+            "highlight": "hang up his boots"
+          },
+          {
+            "en": "The player has hung up his boots.",
+            "zh": "這名球員已經掛靴。",
+            "highlight": "hung up his boots"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Express Reflection, Reluctance or Finality",
+        "titleZh": "可以表達回顧、不捨或最終決定",
+        "en": "is ready to retire; does not want to retire; may be forced to retire; wants one final achievement; is looking back on a long career. The idiom is useful, but it is not automatically better than retire. Use it when the sporting image and conversational tone are suitable.",
+        "zh": "語境可以表達球員已準備退役、不願退役、被迫退役、希望取得最後一項成就，或正在回顧漫長的球員生涯。 這個慣用語十分實用，但並非在所有情況下都比 retire 更好。 只有在體育畫面及語氣合適時才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Unknown",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The expression appears to belong to a wider English pattern in which people “hang up” equipment connected with an activity when they stop doing it. Cambridge gives comparable examples involving boxing gloves, golf clubs and ballet shoes. In British sport, boots are closely associated with football and rugby. The phrase therefore developed naturally as a vivid way of describing a player ending a sporting career. Collins identifies hang up your boots as British and particularly associated with retiring from football. The exact first speaker and date have not been reliably established in the sources consulted, so the expression should be treated as a gradual metaphorical development rather than the result of one proven historical event.",
+          "zh": "這個表達似乎屬於英語中一個較廣泛的模式：當人們不再從事某項活動時，便會把與該活動有關的用具「掛起來」或收起。 Cambridge 提供的相近例子包括拳擊手套、高爾夫球桿及芭蕾舞鞋。 在英國體育文化中，球靴與足球及欖球關係密切，因此這個短語逐漸成為描述球員結束運動生涯的生動畫面。 Collins 把 hang up your boots 列為英式表達，尤其常用於足球員退役。 現有可靠資料未能確認第一位使用者及確切日期，因此較穩妥的說法是：這個表達經過逐漸的比喻演變，而不是源自一件已獲證實的單一歷史事件。"
+        }
+      ],
+      "memoryEn": "When the boots are put away for the final time, the player’s career has ended.",
+      "memoryZh": "當球靴最後一次被收起，球員生涯也正式結束。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use the Correct Past Form",
+        "titleZh": "規則一：使用正確過去式",
+        "en": "Use the Correct Past Form",
+        "zh": "使用正確過去式",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep “Boots” Plural",
+        "titleZh": "規則二：boots 必須使用複數",
+        "en": "Keep “Boots” Plural",
+        "zh": "boots 必須使用複數",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Match the Possessive to the Player",
+        "titleZh": "規則三：所有格必須與球員配合",
+        "en": "Match the Possessive to the Player",
+        "zh": "所有格必須與球員配合",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Normally Means Permanent Retirement",
+        "titleZh": "規則四：通常表示永久退役",
+        "en": "A two-week absence is temporary, so the idiom is unsuitable.",
+        "zh": "這名前鋒結束二十年的職業生涯並正式掛靴。 前鋒會「掛靴」兩星期，等待腳踝康復。 缺席兩星期只是暫時情況，因此不適合使用這個慣用語。",
+        "examples": [
+          {
+            "en": "The striker ended his twenty-year career and hung up his boots.",
+            "zh": "這名前鋒結束二十年的職業生涯並正式掛靴。",
+            "highlight": "hung up his boots"
+          },
+          {
+            "en": "The striker will hang up his boots for two weeks while his ankle heals.",
+            "zh": "前鋒會「掛靴」兩星期，等待腳踝康復。",
+            "highlight": "hang up his boots"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Leaving One Team Is Not Necessarily Retirement",
+        "titleZh": "規則五：離開一支球隊不一定等於退役",
+        "en": "A player who leaves one club but joins another club has not hung up their boots.",
+        "zh": "球員離開一支球會後轉投另一支球會，並不代表已經掛靴。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Use It Mainly for Sport",
+        "titleZh": "規則六：主要用於體育情境",
+        "en": "The expression is especially associated with football and other sports in which players wear boots. Do not automatically use it whenever an office worker, teacher or shop manager retires.",
+        "zh": "這個表達尤其常用於足球，以及其他球員會穿着球靴的運動。 不要在一般文職人員、教師或店舖經理退休時自動使用這個表達。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則七：保留確定程度",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把一個可能性變成了已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Negation",
+        "titleZh": "規則八：保留否定意思",
+        "en": "Preserve Negation",
+        "zh": "保留否定意思",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Repeat the Same Meaning",
+        "titleZh": "規則九：不要重複相同意思",
+        "en": "The idiom already means that the player is retiring. The player decided to hang up his boots.",
+        "zh": "較佳寫法： 使用慣用語後，不應再次加入 retire from football，重複表達相同意思。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Avoid Accidental Literal Meanings",
+        "titleZh": "規則十：避免意外產生字面意思",
+        "en": "He washed his football boots and hung them up to dry.",
+        "zh": "他清洗球靴後，把它們掛起晾乾。 作賽二十個球季後，他正式掛靴。",
+        "examples": [
+          {
+            "en": "After twenty seasons, he hung up his boots.",
+            "zh": "作賽二十個球季後，他正式掛靴。",
+            "highlight": "hung up his boots"
+          }
+        ]
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using the correct form of hang up one’s boots.",
+      "zh": "使用 hang up one’s boots 的正確形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-26-q01",
+        "number": 1,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "After fifteen years as a football player, Ethan has decided to end his playing career.",
+        "promptZh": "擔任足球員十五年後，伊森決定結束球員生涯。",
+        "starter": "After",
+        "answer": "After fifteen years as a football player, Ethan has decided to hang up his boots.",
+        "answerZh": "擔任足球員十五年後，伊森決定掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q02",
+        "number": 2,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The rugby captain will stop playing after Saturday’s match.",
+        "promptZh": "欖球隊長會在星期六的比賽後退役。",
+        "starter": "The",
+        "answer": "The rugby captain will hang up his boots after Saturday’s match.",
+        "answerZh": "欖球隊長會在星期六的比賽後掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q03",
+        "number": 3,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Leah ended her football career after last season.",
+        "promptZh": "莉雅在上一個球季結束後告別足球生涯。",
+        "starter": "Leah",
+        "answer": "Leah hung up her boots after last season.",
+        "answerZh": "莉雅在上一個球季結束後掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hung up her boots"
+      },
+      {
+        "id": "idiom-26-q04",
+        "number": 4,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The goalkeeper is retiring at the end of the season.",
+        "promptZh": "守門員會在球季結束時退役。",
+        "starter": "The",
+        "answer": "The goalkeeper is hanging up his boots at the end of the season.",
+        "answerZh": "守門員會在球季結束時掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hanging up his boots"
+      },
+      {
+        "id": "idiom-26-q05",
+        "number": 5,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "After the final game, our oldest player ended his playing career.",
+        "promptZh": "最後一場比賽後，我們年紀最大的球員結束了球員生涯。",
+        "starter": "After",
+        "answer": "After the final game, our oldest player hung up his boots.",
+        "answerZh": "最後一場比賽後，我們年紀最大的球員掛靴了。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hung up his boots"
+      },
+      {
+        "id": "idiom-26-q06",
+        "number": 6,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "I will end my football career when I turn 35.",
+        "promptZh": "我三十五歲時會結束足球生涯。",
+        "starter": "I",
+        "answer": "I will hang up my boots when I turn 35.",
+        "answerZh": "我三十五歲時會掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up my boots"
+      },
+      {
+        "id": "idiom-26-q07",
+        "number": 7,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "We are not ready to retire from rugby yet.",
+        "promptZh": "我們還未準備好從欖球界退役。",
+        "starter": "We",
+        "answer": "We are not ready to hang up our boots yet.",
+        "answerZh": "我們還未準備好掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up our boots"
+      },
+      {
+        "id": "idiom-26-q08",
+        "number": 8,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The two brothers played football together for years. They ended their careers on the same day.",
+        "promptZh": "兩兄弟一起踢足球多年，並在同一天結束球員生涯。",
+        "starter": "The",
+        "answer": "The two brothers hung up their boots on the same day after years of playing football together.",
+        "answerZh": "兩兄弟一起踢足球多年後，在同一天掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hung up their boots"
+      },
+      {
+        "id": "idiom-26-q09",
+        "number": 9,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The coach believes his star player should retire now.",
+        "promptZh": "教練認為他的明星球員現在應該退役。",
+        "starter": "The",
+        "answer": "The coach believes his star player should hang up his boots now.",
+        "answerZh": "教練認為他的明星球員現在應該掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q10",
+        "number": 10,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Do you plan to retire after this season? B: Yes. This will be my final year as a footballer.",
+        "promptZh": "甲：你打算在這個球季後退役嗎？ 乙：是的。這會是我擔任足球員的最後一年。",
+        "starter": "I",
+        "answer": "I plan to hang up my boots after this season.",
+        "answerZh": "我打算在這個球季後掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up my boots"
+      },
+      {
+        "id": "idiom-26-q11",
+        "number": 11,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "At every interview, Daniel says that he will retire at the end of the year.",
+        "promptZh": "在每次訪問中，丹尼爾都說自己會在年底退役。",
+        "starter": "At",
+        "answer": "At every interview, Daniel says that he will hang up his boots at the end of the year.",
+        "answerZh": "在每次訪問中，丹尼爾都說自己會在年底掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q12",
+        "number": 12,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Aisha wants more time with her family. She has now ended her professional football career.",
+        "promptZh": "艾莎希望有更多時間陪伴家人。她現在已結束職業足球生涯。",
+        "starter": "Aisha",
+        "answer": "Aisha has now hung up her boots because she wants more time with her family.",
+        "answerZh": "艾莎因為希望有更多時間陪伴家人，現在已經掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hung up her boots"
+      },
+      {
+        "id": "idiom-26-q13",
+        "number": 13,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The defender will end his playing career after the cup final.",
+        "promptZh": "後衛會在盃賽決賽後結束球員生涯。",
+        "starter": "The",
+        "answer": "The defender will hang up his boots after the cup final.",
+        "answerZh": "後衛會在盃賽決賽後掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q14",
+        "number": 14,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The injury may force the player to retire earlier than planned.",
+        "promptZh": "這次受傷可能迫使該名球員提早退役。",
+        "starter": "The",
+        "answer": "The injury may force the player to hang up his boots earlier than planned.",
+        "answerZh": "這次受傷可能迫使該名球員提早掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q15",
+        "number": 15,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The captain has no intention of retiring this year.",
+        "promptZh": "隊長無意在今年退役。",
+        "starter": "The",
+        "answer": "The captain has no intention of hanging up his boots this year.",
+        "answerZh": "隊長無意在今年掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hanging up his boots"
+      },
+      {
+        "id": "idiom-26-q16",
+        "number": 16,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Marcus wants to win one last trophy before he retires.",
+        "promptZh": "馬庫斯希望在退役前再贏得一座獎盃。",
+        "starter": "Marcus",
+        "answer": "Marcus wants to win one last trophy before he hangs up his boots.",
+        "answerZh": "馬庫斯希望在掛靴前再贏得一座獎盃。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hangs up his boots"
+      },
+      {
+        "id": "idiom-26-q17",
+        "number": 17,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Priya ended her football career last month. She has now begun coaching young players.",
+        "promptZh": "普里雅上個月結束足球生涯，現在已開始訓練年輕球員。",
+        "starter": "After",
+        "answer": "After hanging up her boots last month, Priya began coaching young players.",
+        "answerZh": "普里雅上個月掛靴後，開始訓練年輕球員。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hanging up her boots"
+      },
+      {
+        "id": "idiom-26-q18",
+        "number": 18,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Is Noah still playing professionally? B: No. He retired at the end of last season.",
+        "promptZh": "甲：諾亞仍在參加職業賽事嗎？ 乙：沒有。他在上一個球季結束時退役了。",
+        "starter": "He",
+        "answer": "He hung up his boots at the end of last season.",
+        "answerZh": "他在上一個球季結束時掛靴了。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hung up his boots"
+      },
+      {
+        "id": "idiom-26-q19",
+        "number": 19,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Why will the rugby player not return next season? He has chosen to end his playing career.",
+        "promptZh": "為甚麼這名欖球員下季不會回來？他已選擇結束球員生涯。",
+        "starter": "He",
+        "answer": "He will not return next season because he has chosen to hang up his boots.",
+        "answerZh": "他下季不會回來，因為他已選擇掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q20",
+        "number": 20,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The club made an announcement. Its captain would end his playing career after the final.",
+        "promptZh": "球會作出公布：隊長會在決賽後結束球員生涯。",
+        "starter": "The",
+        "answer": "The club announced that its captain would hang up his boots after the final.",
+        "answerZh": "球會公布隊長會在決賽後掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q21",
+        "number": 21,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Will you play another season? B: No. Sunday’s final will be my last match.",
+        "promptZh": "甲：你會再踢一個球季嗎？ 乙：不會。星期日的決賽會是我的最後一場比賽。",
+        "starter": "I’ll",
+        "answer": "I’ll hang up my boots after Sunday’s final.",
+        "answerZh": "我會在星期日的決賽後掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up my boots"
+      },
+      {
+        "id": "idiom-26-q22",
+        "number": 22,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The footballer has had several injuries. She is thinking about ending her career.",
+        "promptZh": "這名足球員曾多次受傷。她正在考慮結束球員生涯。",
+        "starter": "After",
+        "answer": "After several injuries, the footballer is thinking about hanging up her boots.",
+        "answerZh": "多次受傷後，這名足球員正在考慮掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hanging up her boots"
+      },
+      {
+        "id": "idiom-26-q23",
+        "number": 23,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "At 39, the captain still enjoys playing and says he is not planning to retire.",
+        "promptZh": "這名三十九歲的隊長仍然享受比賽，並表示自己沒有退役的打算。",
+        "starter": "At",
+        "answer": "At 39, the captain still enjoys playing and says he is not planning to hang up his boots.",
+        "answerZh": "這名三十九歲的隊長仍然享受比賽，並表示自己沒有掛靴的打算。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q24",
+        "number": 24,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Supporters expected the striker to retire. However, she signed a new one-year contract.",
+        "promptZh": "球迷原本以為這名前鋒會退役，但她簽了一份新的，一年期合約。",
+        "starter": "Supporters",
+        "answer": "Supporters expected the striker to hang up her boots, but she signed a new one-year contract.",
+        "answerZh": "球迷原本以為這名前鋒會掛靴，但她簽了一份新的，一年期合約。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up her boots"
+      },
+      {
+        "id": "idiom-26-q25",
+        "number": 25,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The player says he may end his football career if his knee does not improve.",
+        "promptZh": "這名球員表示，如果膝傷沒有好轉，他可能會結束足球生涯。",
+        "starter": "The",
+        "answer": "The player says he may hang up his boots if his knee does not improve.",
+        "answerZh": "這名球員表示，如果膝傷沒有好轉，他可能會掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q26",
+        "number": 26,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "An interviewer asks a footballer: “When do you expect to end your playing career?”",
+        "promptZh": "一名訪問者問足球員：「你預計甚麼時候會結束球員生涯？」",
+        "starter": "When",
+        "answer": "When do you expect to hang up your boots?",
+        "answerZh": "你預計甚麼時候會掛靴？",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up your boots"
+      },
+      {
+        "id": "idiom-26-q27",
+        "number": 27,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The manager believes three senior players could retire this summer.",
+        "promptZh": "領隊認為三名資深球員可能會在今年夏天退役。",
+        "starter": "The",
+        "answer": "The manager believes three senior players could hang up their boots this summer.",
+        "answerZh": "領隊認為三名資深球員可能會在今年夏天掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up their boots"
+      },
+      {
+        "id": "idiom-26-q28",
+        "number": 28,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "I used to think I would retire at 30, but I now want to play for longer.",
+        "promptZh": "我以前以為自己會在三十歲退役，但現在希望多踢幾年。",
+        "starter": "I",
+        "answer": "I used to think I would hang up my boots at 30, but I now want to play for longer.",
+        "answerZh": "我以前以為自己會在三十歲掛靴，但現在希望多踢幾年。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up my boots"
+      },
+      {
+        "id": "idiom-26-q29",
+        "number": 29,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The rugby captain said last month that this season would be his last. He has now decided to continue playing.",
+        "promptZh": "這名欖球隊長上個月表示今季會是他的最後一季，但現在已決定繼續作賽。",
+        "starter": "The",
+        "answer": "The rugby captain has now decided not to hang up his boots after saying last month that this season would be his last.",
+        "answerZh": "這名欖球隊長上個月表示今季會是他的最後一季，但現在已決定不掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q30",
+        "number": 30,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: What will Emma do after she ends her football career? B: She wants to become a coach.",
+        "promptZh": "甲：艾瑪結束足球生涯後會做甚麼？ 乙：她希望成為教練。",
+        "starter": "After",
+        "answer": "After Emma hangs up her boots, she wants to become a coach.",
+        "answerZh": "艾瑪掛靴後，希望成為教練。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hangs up her boots"
+      },
+      {
+        "id": "idiom-26-q31",
+        "number": 31,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The club offered the defender another year. However, he decided to end his playing career.",
+        "promptZh": "球會向這名後衛提供多一年合約，但他決定結束球員生涯。",
+        "starter": "Although",
+        "answer": "Although the club offered him another year, the defender decided to hang up his boots.",
+        "answerZh": "雖然球會向他提供多一年合約，這名後衛仍決定掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q32",
+        "number": 32,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Training is now causing her too much pain, so the rugby player will retire in June.",
+        "promptZh": "訓練現在令她承受太多痛楚，因此這名欖球員會在六月退役。",
+        "starter": "Because",
+        "answer": "Because training is now causing her too much pain, the rugby player will hang up her boots in June.",
+        "answerZh": "由於訓練現在令她承受太多痛楚，這名欖球員會在六月掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up her boots"
+      },
+      {
+        "id": "idiom-26-q33",
+        "number": 33,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The goalkeeper hopes to help his team win the cup before he retires.",
+        "promptZh": "守門員希望在退役前協助球隊贏得盃賽。",
+        "starter": "Before",
+        "answer": "Before hanging up his boots, the goalkeeper hopes to help his team win the cup.",
+        "answerZh": "守門員希望在掛靴前協助球隊贏得盃賽。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hanging up his boots"
+      },
+      {
+        "id": "idiom-26-q34",
+        "number": 34,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The striker denied reports that he would retire at the end of the season.",
+        "promptZh": "這名前鋒否認有關他會在球季結束時退役的報道。",
+        "starter": "The",
+        "answer": "The striker denied reports that he would hang up his boots at the end of the season.",
+        "answerZh": "這名前鋒否認有關他會在球季結束時掛靴的報道。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q35",
+        "number": 35,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "If the pain in my ankle returns, I may have to end my football career.",
+        "promptZh": "如果我的腳踝再次疼痛，我可能不得不結束足球生涯。",
+        "starter": "If",
+        "answer": "If the pain in my ankle returns, I may have to hang up my boots.",
+        "answerZh": "如果我的腳踝再次疼痛，我可能不得不掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up my boots"
+      },
+      {
+        "id": "idiom-26-q36",
+        "number": 36,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Even after twenty seasons, the captain says she is not ready to retire.",
+        "promptZh": "即使已作賽二十個球季，這名隊長仍表示自己未準備好退役。",
+        "starter": "Even",
+        "answer": "Even after twenty seasons, the captain says she is not ready to hang up her boots.",
+        "answerZh": "即使已作賽二十個球季，這名隊長仍表示自己未準備好掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up her boots"
+      },
+      {
+        "id": "idiom-26-q37",
+        "number": 37,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The club wants the player to stay, but he feels this is the right time to retire.",
+        "promptZh": "球會希望這名球員留下，但他認為現在是退役的合適時候。",
+        "starter": "The",
+        "answer": "The club wants the player to stay, but he feels this is the right time to hang up his boots.",
+        "answerZh": "球會希望這名球員留下，但他認為現在是掛靴的合適時候。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q38",
+        "number": 38,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The former captain has ended her playing career and now trains young players.",
+        "promptZh": "這名前隊長已結束球員生涯，現在訓練年輕球員。",
+        "starter": "Having",
+        "answer": "Having hung up her boots, the former captain now trains young players.",
+        "answerZh": "掛靴後，這名前隊長現在訓練年輕球員。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hung up her boots"
+      },
+      {
+        "id": "idiom-26-q39",
+        "number": 39,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "He announced that he would retire, and many fans were shocked.",
+        "promptZh": "他宣布自己會退役，令許多球迷感到震驚。",
+        "starter": "Many",
+        "answer": "Many fans were shocked when he announced that he would hang up his boots.",
+        "answerZh": "他宣布自己會掛靴時，許多球迷都感到震驚。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q40",
+        "number": 40,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Leaving the national team does not mean the player will retire from football.",
+        "promptZh": "離開國家隊並不代表這名球員會從足球界退役。",
+        "starter": "Leaving",
+        "answer": "Leaving the national team does not mean the player will hang up his boots.",
+        "answerZh": "離開國家隊並不代表這名球員會掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q41",
+        "number": 41,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A reporter asked whether the 37-year-old striker would retire if his club won the league.",
+        "promptZh": "記者問這名三十七歲的前鋒，如果球會贏得聯賽，他會否退役。",
+        "starter": "A",
+        "answer": "A reporter asked whether the 37-year-old striker would hang up his boots if his club won the league.",
+        "answerZh": "記者問這名三十七歲的前鋒，如果球會贏得聯賽，他會否掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q42",
+        "number": 42,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The footballer said she would not decide whether to retire until she had spoken to her family.",
+        "promptZh": "這名足球員表示，她會先與家人商量，之後才決定是否退役。",
+        "starter": "The",
+        "answer": "The footballer said she would not decide whether to hang up her boots until she had spoken to her family.",
+        "answerZh": "這名足球員表示，她會先與家人商量，之後才決定是否掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up her boots"
+      },
+      {
+        "id": "idiom-26-q43",
+        "number": 43,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "After one final season with his first club, the defender plans to end his playing career.",
+        "promptZh": "在最初效力的球會再踢最後一季後，這名後衛打算結束球員生涯。",
+        "starter": "After",
+        "answer": "After one final season with his first club, the defender plans to hang up his boots.",
+        "answerZh": "在最初效力的球會再踢最後一季後，這名後衛打算掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q44",
+        "number": 44,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The player is expected to retire. However, the club has not confirmed the news.",
+        "promptZh": "外界預計這名球員會退役，但球會尚未證實消息。",
+        "starter": "The",
+        "answer": "The player is expected to hang up his boots, although the club has not confirmed the news.",
+        "answerZh": "外界預計這名球員會掛靴，但球會尚未證實消息。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q45",
+        "number": 45,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Why did the captain turn down a new contract? B: She has decided that last night’s final was her last match.",
+        "promptZh": "甲：隊長為甚麼拒絕新合約？ 乙：她已決定昨晚的決賽是自己的最後一場比賽。",
+        "starter": "She",
+        "answer": "She turned down the new contract because she has decided to hang up her boots after last night’s final.",
+        "answerZh": "她拒絕新合約，因為她已決定在昨晚的決賽後掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up her boots"
+      },
+      {
+        "id": "idiom-26-q46",
+        "number": 46,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The coach said the player should not retire just because of one bad season.",
+        "promptZh": "教練表示，這名球員不應只因一個表現欠佳的球季便退役。",
+        "starter": "The",
+        "answer": "The coach said the player should not hang up his boots just because of one bad season.",
+        "answerZh": "教練表示，這名球員不應只因一個表現欠佳的球季便掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q47",
+        "number": 47,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The footballer decided to retire only after he failed to recover from his injury.",
+        "promptZh": "這名足球員在未能從傷患中康復後，才決定退役。",
+        "starter": "It",
+        "answer": "It was only after he failed to recover from his injury that the footballer decided to hang up his boots.",
+        "answerZh": "這名足球員在未能從傷患中康復後，才決定掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up his boots"
+      },
+      {
+        "id": "idiom-26-q48",
+        "number": 48,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The former captain said that ending his playing career had been difficult, but he knew he had chosen the right time.",
+        "promptZh": "這名前隊長表示，結束球員生涯並不容易，但他知道自己選對了時機。",
+        "starter": "The",
+        "answer": "The former captain said that hanging up his boots had been difficult, but he knew he had chosen the right time.",
+        "answerZh": "這名前隊長表示，掛靴並不容易，但他知道自己選對了時機。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hanging up his boots"
+      },
+      {
+        "id": "idiom-26-q49",
+        "number": 49,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The player has not officially retired, but this may have been his final season.",
+        "promptZh": "這名球員尚未正式退役，但這可能已是他的最後一個球季。",
+        "starter": "The",
+        "answer": "The player has not officially hung up his boots, but this may have been his final season.",
+        "answerZh": "這名球員尚未正式掛靴，但這可能已是他的最後一個球季。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hung up his boots"
+      },
+      {
+        "id": "idiom-26-q50",
+        "number": 50,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: You have played for twenty-two years. What would make you retire now? B: I would retire only if I could no longer help the team.",
+        "promptZh": "甲：你已作賽二十二年。甚麼情況會令你現在退役？ 乙：只有在我再也無法幫助球隊時，我才會退役。",
+        "starter": "I",
+        "answer": "I would hang up my boots only if I could no longer help the team.",
+        "answerZh": "只有在我再也無法幫助球隊時，我才會掛靴。",
+        "targetForm": "hang up one’s boots",
+        "targetMeaning": "To stop playing a sport permanently and end one’s playing career, especially in football.",
+        "highlight": "hang up my boots"
+      }
+    ]
+  }
+}

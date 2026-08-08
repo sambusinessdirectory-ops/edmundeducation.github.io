@@ -1,0 +1,1609 @@
+{
+  "lesson": {
+    "id": "idiom-113",
+    "order": 113,
+    "slug": "at-sixes-and-sevens",
+    "version": "1",
+    "title": "亂七八糟／混亂無序",
+    "titleEn": "At Sixes and Sevens",
+    "titleZh": "亂七八糟／混亂無序",
+    "source": {
+      "file": "Idiom 113 - 「At Sixes and Sevens」.pdf",
+      "pageCount": 43,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "exercisePdfPages": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "answerKeyPdfPages": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "At Sixes and Sevens",
+        "highlight": "At Sixes and Sevens"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The office is at sixes and sevens.",
+        "zh": "辦公室亂成一團。",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "en": "The wedding plans were at sixes and sevens.",
+        "zh": "婚禮安排一片混亂。",
+        "highlight": "at sixes and sevens"
+      }
+    ],
+    "meaning": {
+      "en": "; what is happening; what they should do; who is responsible; which plan or instruction to follow; how something should be organised.",
+      "zh": "處於混亂、無組織或無所適從的狀態，尤其是人們不知道：",
+      "naturalZh": [
+        "處於混亂、無組織或無所適從的狀態，尤其是人們不知道："
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "At sixes and sevens is informal and especially associated with British English. Cambridge notes that it can sound old-fashioned in American English, while Collins labels it informal and mainly British.",
+      "summaryZh": "at sixes and sevens 屬於非正式表達，尤其常與英式英語聯繫。 它在美式英語中可能顯得較舊式，但在英式對話、一般文章、新聞評論和故事中仍然容易理解。",
+      "contextsEn": [
+        "conversation",
+        "personal messages",
+        "informal workplace discussion",
+        "stories",
+        "interviews",
+        "general-interest writing",
+        "light journalistic commentary",
+        "confused",
+        "disorganised",
+        "poorly coordinated",
+        "unclear about their responsibilities",
+        "lacking a clear plan"
+      ],
+      "contextsZh": [],
+      "formalEn": "In a highly formal report, clearer alternatives may include:",
+      "formalZh": "at sixes and sevens 屬於非正式表達，尤其常與英式英語聯繫。 它在美式英語中可能顯得較舊式，但在英式對話、一般文章、新聞評論和故事中仍然容易理解。"
+    },
+    "fixedVariable": {
+      "fixed": "At Sixes and Sevens",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + at sixes and sevens.",
+          "example": "The office is at sixes and sevens.",
+          "highlight": "at sixes and sevens"
+        },
+        {
+          "form": "Subject + may / might / could / will + be + at sixes and sevens.",
+          "example": "The team may be at sixes and sevens for several days.",
+          "highlight": "at sixes and sevens"
+        },
+        {
+          "form": "Subject + remain + at sixes and sevens.",
+          "example": "The office remained at sixes and sevens all morning.",
+          "highlight": "at sixes and sevens"
+        },
+        {
+          "form": "Subject + seem / seems / seemed + to be + at sixes and sevens.",
+          "example": "The project team seems to be at sixes and sevens.",
+          "highlight": "at sixes and sevens"
+        },
+        {
+          "form": "Subject + end up / ended up + at sixes and sevens.",
+          "example": "Without a clear plan, the volunteers could end up at sixes and sevens.",
+          "highlight": "at sixes and sevens"
+        },
+        {
+          "form": "Cause + leave + person, group, place or plan + at sixes and sevens.",
+          "example": "The sudden change left everyone at sixes and sevens.",
+          "highlight": "at sixes and sevens"
+        },
+        {
+          "form": "Subject + find + oneself / object + at sixes and sevens.",
+          "example": "The students found themselves at sixes and sevens.",
+          "highlight": "at sixes and sevens"
+        },
+        {
+          "form": "With + noun + at sixes and sevens, + main clause.",
+          "example": "With the timetable at sixes and sevens, several pupils went to the wrong rooms.",
+          "highlight": "at sixes and sevens"
+        },
+        {
+          "form": "At sixes and sevens + optional information, + subject + verb.",
+          "example": "At sixes and sevens after the power cut, the staff did not know which orders had been sent.",
+          "highlight": "At sixes and sevens"
+        },
+        {
+          "form": "Be + subject + at sixes and sevens?",
+          "example": "Are the arrangements still at sixes and sevens?",
+          "highlight": "at sixes and sevens"
+        },
+        {
+          "form": "Subject + reporting verb + that + subject + be + at sixes and sevens.",
+          "example": "The director admitted that the department was at sixes and sevens.",
+          "highlight": "at sixes and sevens"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “Be”",
+        "titleZh": "句式一：放在 be 之後",
+        "formula": "Subject + be + at sixes and sevens.",
+        "descriptionEn": "This is the most familiar and important grammar frame.",
+        "descriptionZh": "這是最常見和最重要的句式。",
+        "examples": [
+          {
+            "en": "The office is at sixes and sevens.",
+            "zh": "辦公室亂成一團。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "The wedding plans were at sixes and sevens.",
+            "zh": "婚禮安排一片混亂。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "Everyone has been at sixes and sevens since Monday.",
+            "zh": "自星期一起，所有人都一直無所適從。",
+            "highlight": "at sixes and sevens"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb and “Be”",
+        "titleZh": "句式二：情態動詞加 be",
+        "formula": "Subject + may / might / could / will + be + at sixes and sevens.",
+        "descriptionEn": "The modal verb expresses possibility, prediction or uncertainty. It is not part of the fixed expression.",
+        "descriptionZh": "情態動詞表示可能性、預測或不確定程度，並不是固定表達的一部分。",
+        "examples": [
+          {
+            "en": "The team may be at sixes and sevens for several days.",
+            "zh": "團隊可能會一連數天陷入混亂。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "Without a leader, the office could be at sixes and sevens.",
+            "zh": "沒有領導，辦公室可能會亂成一團。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "The plans will be at sixes and sevens unless someone takes control.",
+            "zh": "除非有人接手處理，否則計劃將會一片混亂。",
+            "highlight": "at sixes and sevens"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “Remain”",
+        "titleZh": "句式三：放在 remain 之後",
+        "formula": "Subject + remain + at sixes and sevens.",
+        "descriptionEn": "Remain emphasises that the confusion continues.",
+        "descriptionZh": "強調混亂的狀態持續不變。",
+        "examples": [
+          {
+            "en": "The office remained at sixes and sevens all morning.",
+            "zh": "辦公室整個早上仍然一片混亂。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "The arrangements may remain at sixes and sevens until Friday.",
+            "zh": "有關安排可能要到星期五前仍然十分混亂。",
+            "highlight": "at sixes and sevens"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Seem to Be”",
+        "titleZh": "句式四：放在 seem to be 之後",
+        "formula": "Subject + seem / seems / seemed + to be + at sixes and sevens.",
+        "descriptionEn": "Source grammar frame: Subject + seem / seems / seemed + to be + at sixes and sevens.",
+        "descriptionZh": "原檔列出的句法框架：Subject + seem / seems / seemed + to be + at sixes and sevens。",
+        "examples": [
+          {
+            "en": "The project team seems to be at sixes and sevens.",
+            "zh": "項目團隊看來十分混亂。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "The organisers seemed to be at sixes and sevens over the timetable.",
+            "zh": "主辦人看來對時間表毫無頭緒。",
+            "highlight": "at sixes and sevens"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After “End Up”",
+        "titleZh": "句式五：放在 end up 之後",
+        "formula": "Subject + end up / ended up + at sixes and sevens.",
+        "descriptionEn": "End up describes the final and usually unwanted result.",
+        "descriptionZh": "end up 表示最後出現的結果，而這個結果通常並非人們所期望。",
+        "examples": [
+          {
+            "en": "Without a clear plan, the volunteers could end up at sixes and sevens.",
+            "zh": "沒有清晰計劃，義工最終可能會亂成一團。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "The repair team ended up at sixes and sevens after receiving two different plans.",
+            "zh": "維修團隊收到兩套不同計劃後，最終陷入一片混亂。",
+            "highlight": "at sixes and sevens"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“Leave + Object” Result Structure",
+        "titleZh": "句式六：leave 加受詞的結果句式",
+        "formula": "Cause + leave + person, group, place or plan + at sixes and sevens.",
+        "descriptionEn": "Here, at sixes and sevens describes the resulting state of the object.",
+        "descriptionZh": "在這個句式中，at sixes and sevens 描述受詞最後陷入的狀態。",
+        "examples": [
+          {
+            "en": "The sudden change left everyone at sixes and sevens.",
+            "zh": "突然的改動令所有人無所適從。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "The unclear instructions left the whole office at sixes and sevens.",
+            "zh": "不清晰的指示令整間辦公室亂成一團。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "The new timetable has left the pupils at sixes and sevens.",
+            "zh": "新時間表令學生全都不知所措。",
+            "highlight": "at sixes and sevens"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After “Find”",
+        "titleZh": "句式七：放在 find 之後",
+        "formula": "Subject + find + oneself / object + at sixes and sevens.",
+        "descriptionEn": "This structure describes what somebody discovers about a situation.",
+        "descriptionZh": "這個句式描述某人發現自己或某個地方正處於甚麼狀態。",
+        "examples": [
+          {
+            "en": "The students found themselves at sixes and sevens.",
+            "zh": "學生發現自己完全無所適從。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "The manager returned to find the shop at sixes and sevens.",
+            "zh": "經理回來時發現店舖亂成一團。",
+            "highlight": "at sixes and sevens"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "“With + Noun” Structure",
+        "titleZh": "句式八：with 加名詞的句式",
+        "formula": "With + noun + at sixes and sevens, + main clause.",
+        "descriptionEn": "The with phrase supplies the background or reason for the main event.",
+        "descriptionZh": "短語提供主要事件的背景或原因。",
+        "examples": [
+          {
+            "en": "With the timetable at sixes and sevens, several pupils went to the wrong rooms.",
+            "zh": "由於時間表混亂，有幾名學生去了錯誤的課室。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "With everyone at sixes and sevens, the manager called a short meeting.",
+            "zh": "由於所有人都無所適從，經理召開了一次短會議。",
+            "highlight": "at sixes and sevens"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Fronted Position",
+        "titleZh": "句式九：放在句首",
+        "formula": "At sixes and sevens + optional information, + subject + verb.",
+        "descriptionEn": "This is a later-stage structure. The person or group described by the opening phrase must be clear.",
+        "descriptionZh": "這是較後階段的句式。 句首短語所描述的人或團體必須十分清楚。",
+        "examples": [
+          {
+            "en": "At sixes and sevens after the power cut, the staff did not know which orders had been sent.",
+            "zh": "停電後員工一片混亂，不知道哪些訂單已經寄出。",
+            "highlight": "At sixes and sevens"
+          },
+          {
+            "en": "At sixes and sevens over the guest list, the family could not send the invitations.",
+            "zh": "這個家庭對賓客名單毫無頭緒，因此無法發出邀請。",
+            "highlight": "At sixes and sevens"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Questions",
+        "titleZh": "句式十：問句",
+        "formula": "Be + subject + at sixes and sevens?",
+        "descriptionEn": "Source grammar frame: Be + subject + at sixes and sevens?.",
+        "descriptionZh": "原檔列出的句法框架：Be + subject + at sixes and sevens?。",
+        "examples": [
+          {
+            "en": "Are the arrangements still at sixes and sevens?",
+            "zh": "有關安排是否仍然十分混亂？",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "Why is everyone at sixes and sevens?",
+            "zh": "為甚麼所有人都無所適從？",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "What left the whole team at sixes and sevens?",
+            "zh": "甚麼事情令整個團隊陷入混亂？",
+            "highlight": "at sixes and sevens"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Embedded and Reported Clauses",
+        "titleZh": "句式十一：嵌入及轉述子句",
+        "formula": "Subject + reporting verb + that + subject + be + at sixes and sevens.",
+        "descriptionEn": "The target can therefore appear inside a longer sentence rather than always occupying the final position.",
+        "descriptionZh": "因此，目標表達可以出現在較長句子的中間，並不需要每次都放在整句末尾。",
+        "examples": [
+          {
+            "en": "The director admitted that the department was at sixes and sevens.",
+            "zh": "總監承認部門當時亂成一團。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "The report said that the team had been left at sixes and sevens.",
+            "zh": "報告表示，團隊被弄得無所適從。",
+            "highlight": "at sixes and sevens"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Summarises Several Forms of Confusion",
+        "titleZh": "概括多種混亂情況",
+        "en": "Everyone was at sixes and sevens.",
+        "zh": "較長的句子需要逐一說明人們不知道發生甚麼事、誰人負責和下一步應做甚麼； 慣用語可以把這些意思簡潔地概括起來。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Describes People and Arrangements",
+        "titleZh": "同時適用於人和安排",
+        "en": "It can therefore describe both confused people and badly organised situations.",
+        "zh": "新員工全都無所適從。 活動計劃一片混亂。 因此，它既可以描述感到混亂的人，也可以描述組織欠佳的情況。",
+        "examples": [
+          {
+            "en": "The new workers were at sixes and sevens.",
+            "zh": "新員工全都無所適從。",
+            "highlight": "at sixes and sevens"
+          },
+          {
+            "en": "The event plans were at sixes and sevens.",
+            "zh": "活動計劃一片混亂。",
+            "highlight": "at sixes and sevens"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Connects a Cause with Its Result",
+        "titleZh": "連繫原因和結果",
+        "en": "This sentence clearly connects the unclear message with the confusion that followed.",
+        "zh": "這個句子清楚連繫不清晰的訊息和隨後出現的混亂。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Criticise Poor Organisation",
+        "titleZh": "批評組織不善",
+        "en": "The expression can indirectly suggest that leadership, instructions or planning have been inadequate.",
+        "zh": "這個表達可以間接指出領導、指示或規劃存在不足。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Adds Character to Informal British English",
+        "titleZh": "增添英式口語特色",
+        "en": "The idiom gives the sentence a more colourful and conversational quality than simply saying confused or disorganised. However, it is not automatically better than plain English. In formal or international communication, confused or poorly organised may sometimes be clearer.",
+        "zh": "與直接使用 confused 或 disorganised 相比，這個慣用語令句子更具畫面和口語特色。 不過，它並不一定比直接的英語更好。 在正式或國際溝通中，confused 或 poorly organised 有時會更加清晰。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Most Likely Origin: Medieval Dice Language and Gradual Development",
+      "statusZh": "最可能的來源：中世紀擲骰子用語及逐漸演變",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "1. taking a reckless risk; 2. leaving matters unsettled; 3. creating disorder; 4. being in confusion or disorder.",
+          "zh": "這個表達大致經歷了以下意思演變："
+        }
+      ],
+      "memoryEn": "The numbers no longer describe an actual calculation. Think of them as representing a situation in which everything has become mixed up and nobody knows the correct order.",
+      "memoryZh": "這些數字已不再表示真正的計算。可以把它們想像成所有事情次序大亂，沒有人知道正確安排的情況。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep All Four Words",
+        "titleZh": "規則一：保留全部四個字",
+        "en": "The preposition at is an essential part of the idiom.",
+        "zh": "介詞 at 是這個慣用語不可缺少的部分。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Change the Numbers",
+        "titleZh": "規則二：不可改變數字形式",
+        "en": "The plural forms sixes and sevens are fixed.",
+        "zh": "複數形式 sixes 和 sevens 都是固定部分。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Add the Correct Linking Verb",
+        "titleZh": "規則三：加入正確的連繫動詞",
+        "en": "At sixes and sevens is not normally a complete sentence by itself.",
+        "zh": "本身通常不能構成完整句子。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Make the Verb Agree with the Subject",
+        "titleZh": "規則四：動詞必須與主語一致",
+        "en": "Make the Verb Agree with the Subject",
+        "zh": "動詞必須與主語一致",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Keep Optional Information Outside the Target",
+        "titleZh": "規則五：補充資訊放在固定表達之外",
+        "en": "Over, after, because and since provide additional information. They are not part of the idiom.",
+        "zh": "over、after、because 和 since 提供額外資訊，但並不是慣用語的一部分。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Use “Over” for the Matter Causing Confusion",
+        "titleZh": "規則六：使用 over 指出令人困惑的事項",
+        "en": "Use “Over” for the Matter Causing Confusion",
+        "zh": "這個家庭對搬屋日期感到十分混亂。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Use It for One Small Mistake",
+        "titleZh": "規則七：不要用於一個小錯誤",
+        "en": "I received three different dates and did not know which one was correct, so I was at sixes and sevens.",
+        "zh": "如果只是一個小錯誤，通常不需要使用這個慣用語。 它較適合描述較全面或持續的混亂。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Confuse Disorder with Disagreement",
+        "titleZh": "規則八：不要混淆「混亂」和「意見不合」",
+        "en": "The team does not know what to do. The two teams strongly disagree with each other.",
+        "zh": "團隊不知道應做甚麼。 兩隊彼此嚴重意見不合。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Interpret the Numbers Literally",
+        "titleZh": "規則九：不要按字面解讀數字",
+        "en": "at six or seven o’clock; in groups of six and seven; between the numbers six and seven; receiving marks of six and seven.",
+        "zh": "這個表達與六時或七時、六人或七人一組、數字六和七之間，以及取得六分或七分都沒有關係。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Preserve Tense and Modality",
+        "titleZh": "規則十：保留時態及情態",
+        "en": "Do not change may be into was. That would change a possibility into a past fact.",
+        "zh": "不要把 may be 改為 was，否則會把可能情況改成過去的事實。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Keep the Cause When It Matters",
+        "titleZh": "規則十一：保留重要原因",
+        "en": "The cause is an independent part of the message and should normally remain.",
+        "zh": "原因屬於句子的獨立重要資訊，因此通常應該保留。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Repeat the Meaning",
+        "titleZh": "規則十二：不要重複相同意思",
+        "en": "At sixes and sevens already communicates the general state of confusion. Do not immediately add another clause that merely repeats the same meaning.",
+        "zh": "已經表達整體混亂，因此不要立即加入另一個只是重複相同意思的子句。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond using the target idiom.",
+      "zh": "使用目標慣用語改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-113-q01",
+        "number": 1,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "After the manager left suddenly, nobody in the office knew who was responsible for each job.",
+        "promptZh": "經理突然離職後，辦公室裡沒有人知道每項工作應由誰負責。",
+        "starter": "After",
+        "answer": "After the manager left suddenly, the office was at sixes and sevens.",
+        "answerZh": "經理突然離職後，辦公室亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q02",
+        "number": 2,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The meeting time changed twice, and everyone became confused about when to arrive.",
+        "promptZh": "會議時間改了兩次，大家都不清楚應該何時到達。",
+        "starter": "Everyone",
+        "answer": "Everyone was at sixes and sevens after the meeting time changed twice.",
+        "answerZh": "會議時間改了兩次後，大家都無所適從。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q03",
+        "number": 3,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Our flight was cancelled, so we no longer knew where to stay or how to continue the journey.",
+        "promptZh": "航班取消後，我們不知道應該住在哪裡，也不知道如何繼續行程。",
+        "starter": "After",
+        "answer": "After the flight was cancelled, our travel plans were at sixes and sevens.",
+        "answerZh": "航班取消後，我們的旅行計劃變得一片混亂。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q04",
+        "number": 4,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "On the morning of the wedding, the food was late, the flowers were missing, and nobody knew where the rings were.",
+        "promptZh": "婚禮當天早上，食物遲遲未到，鮮花不見了，也沒有人知道戒指放在哪裡。",
+        "starter": "On",
+        "answer": "On the morning of the wedding, the whole house was at sixes and sevens.",
+        "answerZh": "婚禮當天早上，整間屋都亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q05",
+        "number": 5,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Nobody had explained my new job, so I did not know what to do first.",
+        "promptZh": "沒有人向我解釋新工作，所以我不知道應該先做甚麼。",
+        "starter": "I",
+        "answer": "I was at sixes and sevens because nobody had explained my new job.",
+        "answerZh": "由於沒有人向我解釋新工作，我完全不知所措。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q06",
+        "number": 6,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Three teachers became ill, and the school no longer knew which classes should go to which rooms.",
+        "promptZh": "三名教師生病後，學校不知道各班應到哪一個課室上課。",
+        "starter": "After",
+        "answer": "After three teachers became ill, the school timetable was at sixes and sevens.",
+        "answerZh": "三名教師生病後，學校時間表亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q07",
+        "number": 7,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Since its leader resigned, the team has not known who should make decisions.",
+        "promptZh": "自隊長辭職後，團隊一直不知道應由誰作決定。",
+        "starter": "Since",
+        "answer": "Since its leader resigned, the team has been at sixes and sevens.",
+        "answerZh": "自隊長辭職後，團隊一直無所適從。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q08",
+        "number": 8,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The moving company changed the date, and for several days the family did not know when to pack or leave.",
+        "promptZh": "搬運公司更改了日期，令這個家庭一連數天都不知道應何時收拾和搬走。",
+        "starter": "For",
+        "answer": "For several days after the company changed the date, their moving plans were at sixes and sevens.",
+        "answerZh": "搬運公司更改日期後，他們的搬屋安排一連數天都十分混亂。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q09",
+        "number": 9,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "We had no clear idea who should welcome the guests, prepare the room or check the food.",
+        "promptZh": "我們完全不知道應由誰接待賓客、準備場地和檢查食物。",
+        "starter": "We",
+        "answer": "We were at sixes and sevens over who should do each task.",
+        "answerZh": "我們對每項工作應由誰負責仍然毫無頭緒。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q10",
+        "number": 10,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "During our first week in the new office, the computers did not work, the boxes had no labels, and none of us knew where anything was.",
+        "promptZh": "搬進新辦公室的第一星期，電腦不能使用，箱子又沒有標籤，沒有人知道物品放在哪裡。",
+        "starter": "We",
+        "answer": "We were all at sixes and sevens during our first week in the new office.",
+        "answerZh": "搬進新辦公室的第一星期，我們全都手忙腳亂。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q11",
+        "number": 11,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The office may remain badly organised until a new manager arrives.",
+        "promptZh": "在新經理到任前，辦公室可能會繼續處於混亂狀態。",
+        "starter": "Until",
+        "answer": "Until a new manager arrives, the office may remain at sixes and sevens.",
+        "answerZh": "在新經理到任前，辦公室可能仍會一片混亂。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q12",
+        "number": 12,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "If the volunteers begin without a clear plan, they may become confused and badly organised.",
+        "promptZh": "如果義工在沒有清晰計劃的情況下開始工作，他們可能會變得混亂，不知道應做甚麼。",
+        "starter": "Without",
+        "answer": "Without a clear plan, the volunteers could end up at sixes and sevens.",
+        "answerZh": "沒有清晰計劃，義工可能最終會亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q13",
+        "number": 13,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The couple changed the guest list and the room at the last minute, leaving their wedding plans confused and disorganised.",
+        "promptZh": "這對新人臨時更改賓客名單和場地，令婚禮安排變得混亂。",
+        "starter": "The",
+        "answer": "The last-minute changes left the wedding plans at sixes and sevens.",
+        "answerZh": "這些臨時改動令婚禮安排亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q14",
+        "number": 14,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The new staff received an unclear email, so they do not know where to report or what to bring.",
+        "promptZh": "新員工收到一封內容不清的電郵，因此不知道應到哪裡報到，也不知道要帶甚麼。",
+        "starter": "Because",
+        "answer": "Because the email was unclear, the new staff have been left at sixes and sevens.",
+        "answerZh": "由於電郵內容不清，新員工都被弄得無所適從。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q15",
+        "number": 15,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Are the rooms and times for the classes still confused and badly organised?",
+        "promptZh": "課堂的房間和時間安排是否仍然混亂不清？",
+        "starter": "Are",
+        "answer": "Are the class arrangements still at sixes and sevens?",
+        "answerZh": "課堂安排是否仍然一片混亂？",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q16",
+        "number": 16,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Why is the shop team confused about the new opening hours?",
+        "promptZh": "為甚麼店舖團隊對新的營業時間感到混亂？",
+        "starter": "Why",
+        "answer": "Why is the shop team at sixes and sevens over the new opening hours?",
+        "answerZh": "為甚麼店舖團隊對新的營業時間仍然毫無頭緒？",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q17",
+        "number": 17,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The director admitted that the department was confused and badly organised.",
+        "promptZh": "總監承認部門當時十分混亂，組織欠佳。",
+        "starter": "The",
+        "answer": "The director admitted that the department was at sixes and sevens.",
+        "answerZh": "總監承認部門當時亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q18",
+        "number": 18,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "By Friday, the repair team still did not know which part of the lift to fix first.",
+        "promptZh": "到了星期五，維修團隊仍然不知道應先修理升降機的哪一部分。",
+        "starter": "By",
+        "answer": "By Friday, the repair team was still at sixes and sevens over which part to fix first.",
+        "answerZh": "到了星期五，維修團隊對應先修理哪一部分仍然毫無頭緒。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q19",
+        "number": 19,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Two members left the project without explaining their work, and the remaining team now seems confused.",
+        "promptZh": "兩名成員離開時沒有交代自己的工作，餘下的項目團隊現在看來十分混亂。",
+        "starter": "After",
+        "answer": "After two members left, the project team seemed to be at sixes and sevens.",
+        "answerZh": "兩名成員離開後，項目團隊看來仍然一片混亂。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q20",
+        "number": 20,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "No one should be left confused and unsure what to do without any help.",
+        "promptZh": "沒有人應在沒有任何支援下，被弄得混亂而不知所措。",
+        "starter": "No",
+        "answer": "No one should be left at sixes and sevens without support.",
+        "answerZh": "沒有人應在毫無支援下被弄得無所適從。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q21",
+        "number": 21,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: Nobody knows where to stand or when to speak. B: Yes, the whole group is completely confused.",
+        "promptZh": "甲：沒有人知道應站在哪裡，也不知道何時發言。 乙：對，整個小組都完全不知所措。",
+        "starter": "Yes,",
+        "answer": "Yes, the whole group is at sixes and sevens.",
+        "answerZh": "對，整個小組都亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q22",
+        "number": 22,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: Why has no one called the customers? B: The computer system stopped working, and the office has been badly organised ever since.",
+        "promptZh": "甲：為甚麼還沒有人致電顧客？ 乙：電腦系統停止運作後，辦公室一直十分混亂。",
+        "starter": "The",
+        "answer": "The office has been at sixes and sevens since the computer system stopped working.",
+        "answerZh": "電腦系統停止運作後，辦公室一直亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q23",
+        "number": 23,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: Has the family decided when to move? B: No. They are still uncertain and confused about the date.",
+        "promptZh": "甲：這個家庭決定何時搬屋了嗎？ 乙：還沒有。他們仍然不確定日期，感到十分混亂。",
+        "starter": "No.",
+        "answer": "No. They are still at sixes and sevens over the moving date.",
+        "answerZh": "還沒有。他們對搬屋日期仍然毫無頭緒。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q24",
+        "number": 24,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: The food is ready, but the tables are not, and nobody knows who is serving each area. B: The restaurant is completely disorganised tonight.",
+        "promptZh": "甲：食物已準備好，但餐桌還未佈置好，也沒有人知道由誰負責每一區。 乙：餐廳今晚完全亂成一團。",
+        "starter": "Tonight,",
+        "answer": "Tonight, the restaurant is at sixes and sevens.",
+        "answerZh": "今晚餐廳一片混亂。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q25",
+        "number": 25,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "After receiving three different sets of instructions, the students did not know which one to follow.",
+        "promptZh": "學生收到三套不同的指示後，不知道應該跟從哪一套。",
+        "starter": "After",
+        "answer": "After receiving three different sets of instructions, the students found themselves at sixes and sevens.",
+        "answerZh": "學生收到三套不同的指示後，發現自己完全無所適從。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q26",
+        "number": 26,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The room for Class A was changed without warning, and both classes became confused about where to go.",
+        "promptZh": "A班的課室在沒有預先通知下更改，令兩班學生都不知道應到哪裡。",
+        "starter": "The",
+        "answer": "The sudden room change left both classes at sixes and sevens.",
+        "answerZh": "突然更改課室令兩班學生都無所適從。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q27",
+        "number": 27,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The timetable was confused and badly organised, so several pupils went to the wrong lessons.",
+        "promptZh": "時間表混亂不清，因此有幾名學生去了錯誤的課堂。",
+        "starter": "With",
+        "answer": "With the timetable at sixes and sevens, several pupils went to the wrong lessons.",
+        "answerZh": "由於時間表亂成一團，有幾名學生去了錯誤的課堂。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q28",
+        "number": 28,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "After the power cut, the staff were confused and did not know which orders had already been sent.",
+        "promptZh": "停電後，員工十分混亂，不知道哪些訂單已經寄出。",
+        "starter": "At",
+        "answer": "At sixes and sevens after the power cut, the staff did not know which orders had already been sent.",
+        "answerZh": "停電後員工一片混亂，不知道哪些訂單已經寄出。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "At sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q29",
+        "number": 29,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "When the manager returned from leave, she discovered that the shop was badly organised and nobody knew the new routine.",
+        "promptZh": "經理放假回來時，發現店舖組織混亂，也沒有人清楚新的工作流程。",
+        "starter": "When",
+        "answer": "When she returned from leave, the manager found the shop at sixes and sevens.",
+        "answerZh": "經理放假回來時，發現店舖亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q30",
+        "number": 30,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The sudden change in the hospital visiting rules caused the whole family to become confused.",
+        "promptZh": "醫院突然更改探訪規則，令整個家庭無所適從。",
+        "starter": "What",
+        "answer": "What left the whole family at sixes and sevens was the sudden change in the hospital visiting rules.",
+        "answerZh": "令整個家庭無所適從的，是醫院突然更改探訪規則。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q31",
+        "number": 31,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "At first, the team was confused and badly organised, but it finished the task on time.",
+        "promptZh": "團隊起初十分混亂，但仍能按時完成任務。",
+        "starter": "Although",
+        "answer": "Although the team was at sixes and sevens at first, it finished the task on time.",
+        "answerZh": "雖然團隊起初亂成一團，但仍能按時完成任務。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q32",
+        "number": 32,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The instructions kept changing, so the new workers remained confused for most of the morning.",
+        "promptZh": "指示不斷改變，因此新員工在大半個早上都十分混亂。",
+        "starter": "Because",
+        "answer": "Because the instructions kept changing, the new workers remained at sixes and sevens for most of the morning.",
+        "answerZh": "由於指示不斷改變，新員工在大半個早上都無所適從。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q33",
+        "number": 33,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The office did not know where the missing files were or who had moved them, so the manager stopped the meeting.",
+        "promptZh": "辦公室不知道遺失的檔案在哪裡，也不知道是誰移動了它們，因此經理中止了會議。",
+        "starter": "The",
+        "answer": "The office was at sixes and sevens over the missing files, so the manager stopped the meeting.",
+        "answerZh": "辦公室因遺失的檔案而亂成一團，因此經理中止了會議。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q34",
+        "number": 34,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The school was already confused and disorganised when another teacher called in sick.",
+        "promptZh": "學校本來已經十分混亂，這時又有一名教師請病假。",
+        "starter": "When",
+        "answer": "When another teacher called in sick, the school was already at sixes and sevens.",
+        "answerZh": "又有一名教師請病假時，學校早已亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q35",
+        "number": 35,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The organisers may still be confused tomorrow. If so, the event may have to start late.",
+        "promptZh": "主辦人明天可能仍然十分混亂。如果情況如此，活動可能要延遲開始。",
+        "starter": "If",
+        "answer": "If the organisers are still at sixes and sevens tomorrow, the event may have to start late.",
+        "answerZh": "如果主辦人明天仍然亂成一團，活動可能要延遲開始。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q36",
+        "number": 36,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The new booking system was meant to help, but it confused both the staff and the customers.",
+        "promptZh": "新預約系統原本是為了提供協助，卻令員工和顧客都感到混亂。",
+        "starter": "Although",
+        "answer": "Although it was meant to help, the new booking system left both staff and customers at sixes and sevens.",
+        "answerZh": "雖然新預約系統原本是為了提供協助，卻令員工和顧客都無所適從。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q37",
+        "number": 37,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "I am worried because the care team still seems confused about the new working hours.",
+        "promptZh": "護理團隊對新的工作時間仍然感到混亂，令我十分擔心。",
+        "starter": "What",
+        "answer": "What worries me is that the care team still seems to be at sixes and sevens over the new working hours.",
+        "answerZh": "令我擔心的是，護理團隊對新的工作時間看來仍然毫無頭緒。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q38",
+        "number": 38,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The family could not send the invitations because it was confused about the final guest list.",
+        "promptZh": "這個家庭對最終賓客名單感到混亂，因此無法發出邀請。",
+        "starter": "At",
+        "answer": "At sixes and sevens over the final guest list, the family could not send the invitations.",
+        "answerZh": "這個家庭對最終賓客名單毫無頭緒，因此無法發出邀請。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "At sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q39",
+        "number": 39,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The manager said that the office had been confused and badly organised before she took control.",
+        "promptZh": "經理表示，在她接管前，辦公室一直十分混亂。",
+        "starter": "According",
+        "answer": "According to the manager, the office had been at sixes and sevens before she took control.",
+        "answerZh": "據經理所說，她接管前辦公室一直亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q40",
+        "number": 40,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Everyone was confused after the alarm, so the teacher calmly explained where to go.",
+        "promptZh": "警報響起後，所有人都感到混亂，因此老師冷靜地說明應到哪裡。",
+        "starter": "With",
+        "answer": "With everyone at sixes and sevens after the alarm, the teacher calmly explained where to go.",
+        "answerZh": "警報響起後，所有人都無所適從，老師便冷靜地說明應到哪裡。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q41",
+        "number": 41,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A: Why did the centre’s first day go so badly? B: It opened before the staff had clearly agreed on their roles, so they were still confused.",
+        "promptZh": "甲：為甚麼中心開放第一天的情況如此糟糕？ 乙：中心在員工尚未清楚自己的職責前便開放，因此他們仍然十分混亂。",
+        "starter": "The",
+        "answer": "The centre opened while the staff were still at sixes and sevens over their roles.",
+        "answerZh": "中心開放時，員工對自己的職責仍然毫無頭緒。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q42",
+        "number": 42,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A: Should we announce the new date now? B: Not yet. The organisers still do not know which hall is available.",
+        "promptZh": "甲：我們現在應該公布新日期嗎？ 乙：還不應該。主辦人仍不知道哪一個禮堂可以使用。",
+        "starter": "Not",
+        "answer": "Not yet; the organisers are at sixes and sevens over which hall is available.",
+        "answerZh": "還不應該；主辦人對哪一個禮堂可以使用仍然毫無頭緒。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q43",
+        "number": 43,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The report did not say that the team lacked effort. It said that unclear orders had left the team confused and unable to organise its work.",
+        "promptZh": "報告並沒有說團隊不努力，而是說不清晰的命令令團隊混亂，無法組織工作。",
+        "starter": "According",
+        "answer": "According to the report, unclear orders had left the team at sixes and sevens; the problem was not a lack of effort.",
+        "answerZh": "根據報告，不清晰的命令令團隊亂成一團，問題並非他們不努力。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q44",
+        "number": 44,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Until one person is put in charge, the work will probably remain confused and badly organised.",
+        "promptZh": "在委任一人負責前，工作很可能會繼續處於混亂狀態。",
+        "starter": "Until",
+        "answer": "Until one person is put in charge, the work is likely to remain at sixes and sevens.",
+        "answerZh": "在委任一人負責前，工作很可能會繼續亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q45",
+        "number": 45,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The school sent parents three different times for the same event. It is not surprising that they became confused.",
+        "promptZh": "學校就同一活動向家長發出三個不同時間，難怪他們感到混亂。",
+        "starter": "No",
+        "answer": "No wonder the parents were at sixes and sevens: the school had sent them three different times for the same event.",
+        "answerZh": "家長亂成一團並不出奇：學校就同一活動向他們發出三個不同時間。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q46",
+        "number": 46,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "Two nurses left suddenly, and the clinic was confused and badly organised for the rest of the day.",
+        "promptZh": "兩名護士突然離職，令診所在當天餘下時間都十分混亂。",
+        "starter": "After",
+        "answer": "After two nurses left suddenly, the clinic was at sixes and sevens for the rest of the day.",
+        "answerZh": "兩名護士突然離職後，診所在當天餘下時間都亂成一團。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q47",
+        "number": 47,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The room looked calm, but the people running the interview did not know who should ask each question.",
+        "promptZh": "房間看來十分平靜，但負責面試的人不知道應由誰提出每一條問題。",
+        "starter": "Even",
+        "answer": "Even though the room looked calm, the interview team was at sixes and sevens over who should ask each question.",
+        "answerZh": "雖然房間看來十分平靜，面試團隊卻對應由誰提出每一條問題毫無頭緒。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q48",
+        "number": 48,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The repair team followed two different plans. By the time the customer arrived, its work had become completely confused.",
+        "promptZh": "維修團隊跟從了兩套不同的計劃。顧客到達時，整項工作已變得十分混亂。",
+        "starter": "By",
+        "answer": "By the time the customer arrived, the repair team had ended up at sixes and sevens after following two different plans.",
+        "answerZh": "顧客到達時，維修團隊因跟從兩套不同計劃而陷入一片混亂。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q49",
+        "number": 49,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The instructions were unclear, so the volunteers became confused. Clearer instructions would have prevented this.",
+        "promptZh": "指示不清，所以義工變得十分混亂。如果指示較清晰，便不會出現這個情況。",
+        "starter": "Had",
+        "answer": "Had the instructions been clearer, the volunteers would not have been at sixes and sevens.",
+        "answerZh": "如果指示較清晰，義工便不會無所適從。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      },
+      {
+        "id": "idiom-113-q50",
+        "number": 50,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "A small change was introduced without any explanation. As a result, the whole organisation became confused about how the new system worked.",
+        "promptZh": "一項小改動在沒有解釋的情況下推出，結果整個機構都不明白新系統如何運作。",
+        "starter": "What",
+        "answer": "What began as a small change left the entire organisation at sixes and sevens because no one explained how the new system would work.",
+        "answerZh": "原本只是一項小改動，卻令整個機構亂成一團，因為沒有人解釋新系統如何運作。",
+        "targetForm": "At Sixes and Sevens",
+        "targetMeaning": "● what is happening; ● what they should do; ● who is responsible; ● which plan or instruction to follow; ● how something should be organised.",
+        "highlight": "at sixes and sevens"
+      }
+    ]
+  }
+}

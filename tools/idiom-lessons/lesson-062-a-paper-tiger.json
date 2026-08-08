@@ -1,0 +1,1427 @@
+{
+  "lesson": {
+    "id": "idiom-62",
+    "order": 62,
+    "slug": "a-paper-tiger",
+    "version": "1",
+    "title": "紙老虎／外強中乾",
+    "titleEn": "a paper tiger",
+    "titleZh": "紙老虎／外強中乾",
+    "source": {
+      "file": "Idiom 62 - “A Paper Tiger”.pdf",
+      "pageCount": 27,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "exercisePdfPages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "answerKeyPdfPages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a paper tiger",
+        "highlight": "a paper tiger"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The rule is a paper tiger.",
+        "zh": "這項規則形同虛設。",
+        "highlight": "a paper tiger"
+      },
+      {
+        "en": "The powerful-looking organisation turned out to be a paper tiger.",
+        "zh": "這個看似強大的組織結果只是外強中乾。",
+        "highlight": "a paper tiger"
+      }
+    ],
+    "meaning": {
+      "en": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+      "zh": "一個看似或聲稱強大、危險、嚴厲或有效，但實際上缺乏真正實力、權力或作用的人、團體、組織、規則、威脅、制度或情況。",
+      "naturalZh": [
+        "一個看似或聲稱強大、危險、嚴厲或有效，但實際上缺乏真正實力、權力或作用的人、團體、組織、規則、威脅、制度或情況。"
+      ]
+    },
+    "register": {
+      "labelEn": "Source-Guided Register",
+      "labelZh": "按原檔語域使用",
+      "summaryEn": "The expression is common in conversation, journalism, presentations and general commentary. Its tone is normally critical, disapproving or dismissive. It is not a swear word, but calling a person a paper tiger directly may sound insulting because it suggests that the person’s confidence or power is largely false. Cambridge specifically labels the expression as disapproving.",
+      "summaryZh": "這個表達常見於對話、新聞報道、簡報和一般評論。 語氣通常帶有批評、不認同或輕視意味。 它不是粗俗用語，但直接把一個人稱為 a paper tiger 可能帶有侮辱性，因為這暗示對方的自信或權力大部分只是表象。",
+      "contextsEn": [
+        "a",
+        "paper",
+        "tiger",
+        "The threat is a paper tiger",
+        "The organisation proved to be a paper tiger",
+        "paper tiger without an article ✗",
+        "a tiger of paper ✗",
+        "a papered tiger ✗",
+        "a tiger on paper ✗",
+        "a paper tigers ✗",
+        "the subject",
+        "the linking or reporting verb"
+      ],
+      "contextsZh": [
+        "主語",
+        "連繫或報告動詞",
+        "時態",
+        "情態動詞",
+        "only、just、probably 和 actually 等副詞",
+        "解釋實際弱點的原因",
+        "對比表面形象和實際情況的子句。"
+      ],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "a paper tiger",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "X + be + a paper tiger.",
+          "example": "The rule is a paper tiger.",
+          "highlight": "a paper tiger"
+        },
+        {
+          "form": "X + seem / appear / turn out / prove + to be + a paper tiger.",
+          "example": "The powerful-looking organisation turned out to be a paper tiger.",
+          "highlight": "a paper tiger"
+        },
+        {
+          "form": "X + may / might / could / will + be / become / remain + a paper tiger.",
+          "example": "Without proper checks, the rule may become a paper tiger.",
+          "highlight": "a paper tiger"
+        },
+        {
+          "form": "Subject + see / describe / treat + X + as + a paper tiger.",
+          "example": "Staff saw the new system as a paper tiger.",
+          "highlight": "a paper tiger"
+        },
+        {
+          "form": "Subject + call + X + a paper tiger.",
+          "example": "Even its supporters began to call the campaign a paper tiger.",
+          "highlight": "a paper tiger"
+        },
+        {
+          "form": "X + be + not + a paper tiger.",
+          "example": "The coach was not a paper tiger; he had the power to carry out his decision.",
+          "highlight": "a paper tiger"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Linking-Verb Form",
+        "titleZh": "句式一：基本連繫動詞句式",
+        "formula": "X + be + a paper tiger.",
+        "descriptionEn": "Source grammar frame: X + be + a paper tiger.",
+        "descriptionZh": "原檔列出的句法框架：X + be + a paper tiger。",
+        "examples": [
+          {
+            "en": "The rule is a paper tiger.",
+            "zh": "這項規則形同虛設。",
+            "highlight": "a paper tiger"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Appearance and Discovery",
+        "titleZh": "句式二：表面形象及後來發現",
+        "formula": "X + seem / appear / turn out / prove + to be + a paper tiger.",
+        "descriptionEn": "Source grammar frame: X + seem / appear / turn out / prove + to be + a paper tiger.",
+        "descriptionZh": "原檔列出的句法框架：X + seem / appear / turn out / prove + to be + a paper tiger。",
+        "examples": [
+          {
+            "en": "The powerful-looking organisation turned out to be a paper tiger.",
+            "zh": "這個看似強大的組織結果只是外強中乾。",
+            "highlight": "a paper tiger"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Modal or Future Form",
+        "titleZh": "句式三：情態或未來句式",
+        "formula": "X + may / might / could / will + be / become / remain + a paper tiger.",
+        "descriptionEn": "Source grammar frame: X + may / might / could / will + be / become / remain + a paper tiger.",
+        "descriptionZh": "原檔列出的句法框架：X + may / might / could / will + be / become / remain + a paper tiger。",
+        "examples": [
+          {
+            "en": "Without proper checks, the rule may become a paper tiger.",
+            "zh": "如果沒有適當檢查，這項規則可能會變得形同虛設。",
+            "highlight": "a paper tiger"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Evaluation with “As”",
+        "titleZh": "句式四：使用 as 作出評價",
+        "formula": "Subject + see / describe / treat + X + as + a paper tiger.",
+        "descriptionEn": "Source grammar frame: Subject + see / describe / treat + X + as + a paper tiger.",
+        "descriptionZh": "原檔列出的句法框架：Subject + see / describe / treat + X + as + a paper tiger。",
+        "examples": [
+          {
+            "en": "Staff saw the new system as a paper tiger.",
+            "zh": "員工認為新制度只是虛有其表。",
+            "highlight": "a paper tiger"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Calling Something a Paper Tiger",
+        "titleZh": "句式五：把某人或某事稱為紙老虎",
+        "formula": "Subject + call + X + a paper tiger.",
+        "descriptionEn": "Source grammar frame: Subject + call + X + a paper tiger.",
+        "descriptionZh": "原檔列出的句法框架：Subject + call + X + a paper tiger。",
+        "examples": [
+          {
+            "en": "Even its supporters began to call the campaign a paper tiger.",
+            "zh": "就連支持者也開始認為這項運動只是空有聲勢。",
+            "highlight": "a paper tiger"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Negative Contrast",
+        "titleZh": "句式六：否定及對比",
+        "formula": "X + be + not + a paper tiger.",
+        "descriptionEn": "Source grammar frame: X + be + not + a paper tiger.",
+        "descriptionZh": "原檔列出的句法框架：X + be + not + a paper tiger。",
+        "examples": [
+          {
+            "en": "The coach was not a paper tiger; he had the power to carry out his decision.",
+            "zh": "這位教練並非外強中乾；他有能力執行自己的決定。",
+            "highlight": "a paper tiger"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses a Strong Appearance–Reality Contrast",
+        "titleZh": "清楚表達表象與現實的落差",
+        "en": "The expression immediately tells the listener that something impressive or frightening lacks real strength.",
+        "zh": "這個表達可以立即說明某人或某事雖然看來強大或可怕，實際上卻缺乏真正力量。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "把較長的解釋濃縮",
+        "en": "The rule is a paper tiger.",
+        "zh": "慣用語把「表面嚴格但實際沒有作用」濃縮成一個容易記憶的表達。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Helps Evaluate Rules and Organisations",
+        "titleZh": "有助評價規則及組織",
+        "en": "The expression is useful when discussing a rule, policy, system or organisation that has an impressive appearance but lacks action, money, staff or authority.",
+        "zh": "當一項規則、政策、制度或組織看來氣勢十足，卻缺乏行動、資金、人手或權力時，這個表達十分實用。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Reduce Unnecessary Fear",
+        "titleZh": "可以減輕不必要的恐懼",
+        "en": "It Can Reduce Unnecessary Fear",
+        "zh": "這個團體看來很可怕，但可能只是一隻紙老虎。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Communicates Criticism Efficiently",
+        "titleZh": "簡潔表達批評",
+        "en": "Calling a warning or system a paper tiger communicates that it has failed to produce the effect it promised.",
+        "zh": "把警告或制度稱為 a paper tiger，可以簡潔指出它沒有產生原先承諾的作用。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Supports Authentic Comprehension",
+        "titleZh": "有助理解真實英語",
+        "en": "Students may meet the expression in news reports, interviews, discussions and commentary. Understanding its critical tone prevents a literal misunderstanding.",
+        "zh": "學生可能會在新聞報道、訪問、討論和評論中遇到這個表達。 理解其批評語氣，可以避免把它誤解為字面上的紙製老虎。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Well-Documented English Use; Exact First Use Uncertain",
+      "statusZh": "英語用法有較充分記錄；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The same metaphor is established in Chinese as 「紙老虎」, meaning a person or group that has an impressive show of power but lacks real strength. Merriam-Webster records the first known English use in 1836. This date identifies an early surviving record; it does not prove when the expression was first created.",
+          "zh": "中文早已有「紙老虎」這個比喻，形容空有威勢而沒有真正實力的人或集團。 Merriam-Webster 把目前所知的早期英語用法追溯至1836年。 這個年份代表現存的早期記錄，並不能證明表達正是在該年創造。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical contrast between a frightening tiger and weak paper naturally came to represent the contrast between apparent power and actual weakness.",
+          "zh": "可怕的老虎與脆弱的紙張形成鮮明對比，逐漸被用來表示「表面強大、實際薄弱」。"
+        }
+      ],
+      "memoryEn": "A real tiger has strength; a paper tiger has only the appearance of strength.",
+      "memoryZh": "真正的老虎擁有力量；紙老虎只有強大的外表。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Both Sides of the Contrast Must Be Present",
+        "titleZh": "規則一：必須包含對比的兩面",
+        "en": "1. appears powerful, frightening, strict or effective; 2. is actually weak, harmless, powerless or ineffective.",
+        "zh": "只有在某人或某事表面強大、可怕、嚴厲或有效，但實際上薄弱、無害、無權或無效時，才適合使用這個慣用語。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Use It Simply to Mean “Weak”",
+        "titleZh": "規則二：不要把它當作 weak 的普通同義詞",
+        "en": "One defeat alone does not show that the team previously appeared powerful but was actually weak.",
+        "zh": "單純弱小或一次失敗並不足以構成 a paper tiger。 語境必須先建立強大的表象。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Keep the Article “A”",
+        "titleZh": "規則三：保留冠詞 a",
+        "en": "Keep the Article “A”",
+        "zh": "保留冠詞 a",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Suitable Subjects Must Be Capable of Appearing Powerful",
+        "titleZh": "規則四：主語必須能夠呈現強大表象",
+        "en": "Suitable Subjects Must Be Capable of Appearing Powerful",
+        "zh": "主語必須能夠呈現強大表象",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Give Evidence of the Weakness Where Necessary",
+        "titleZh": "規則五：在有需要時提供實際弱點的證據",
+        "en": "Give Evidence of the Weakness Where Necessary",
+        "zh": "新規則形同虛設，因為沒有人檢查大家有沒有遵守。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則六：保留確定程度",
+        "en": "Preserve Certainty",
+        "zh": "保留確定程度",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Time",
+        "titleZh": "規則七：保留時間",
+        "en": "Preserve Time",
+        "zh": "保留時間",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "“Not a Paper Tiger” Has the Opposite Meaning",
+        "titleZh": "規則八：not a paper tiger 表示相反意思",
+        "en": "This means that the rule has real force and will genuinely be applied.",
+        "zh": "這表示規則並非只是表面強硬，而是真正具有作用並會得到執行。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Use It Carefully About People",
+        "titleZh": "規則九：形容人物時要小心使用",
+        "en": "Calling somebody a paper tiger suggests that their strength, confidence or authority is false or exaggerated. Use it carefully in professional or polite situations.",
+        "zh": "把某人稱為 a paper tiger，暗示對方的實力、自信或權威只是誇大表象。 在專業或禮貌場合應小心使用。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Avoid Literal Paper Animals",
+        "titleZh": "規則十：不要混淆字面上的紙老虎",
+        "en": "Literal: Idiomatic:",
+        "zh": "孩子在美術課製作了一隻紙老虎。 這個看似可怕的組織其實外強中乾。",
+        "examples": [
+          {
+            "en": "The child made a paper tiger in art class.",
+            "zh": "孩子在美術課製作了一隻紙老虎。",
+            "highlight": "a paper tiger"
+          },
+          {
+            "en": "The frightening organisation was actually a paper tiger.",
+            "zh": "這個看似可怕的組織其實外強中乾。",
+            "highlight": "a paper tiger"
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Overuse It",
+        "titleZh": "規則十一：不要過度使用",
+        "en": "A plain word such as weak, ineffective, powerless or empty may be clearer when there is no meaningful contrast between appearance and reality.",
+        "zh": "如果語境沒有「表面強大、實際薄弱」的明顯對比，使用 weak、ineffective、powerless 或 empty 可能更加清楚自然。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a paper tiger.",
+      "zh": "使用 a paper tiger 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-62-q01",
+        "number": 1,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Ryan frightens younger pupils and talks as if he is powerful. However, he backs down whenever someone answers him calmly.",
+        "promptZh": "Ryan 會恐嚇年幼學生，說話時好像很有勢力；可是，每當有人冷靜回應，他便會退縮。",
+        "starter": "Ryan",
+        "answer": "Ryan is a paper tiger: he frightens younger pupils but backs down when anyone answers him calmly.",
+        "answerZh": "Ryan 其實只是一隻紙老虎；他會恐嚇年幼學生，但只要有人冷靜回應，他便會退縮。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q02",
+        "number": 2,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The club rule looks very strict, but nobody checks whether members follow it.",
+        "promptZh": "這項會所規則看來十分嚴格，但沒有人檢查會員有沒有遵守。",
+        "starter": "This",
+        "answer": "This strict-looking club rule is a paper tiger because nobody checks whether members follow it.",
+        "answerZh": "這項看似嚴格的會所規則其實形同虛設，因為沒有人檢查會員有沒有遵守。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q03",
+        "number": 3,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The online message sounded threatening, but the sender did nothing afterwards.",
+        "promptZh": "那則網上訊息語帶威嚇，但發訊息的人之後甚麼也沒有做。",
+        "starter": "That",
+        "answer": "That threatening online message was a paper tiger because the sender did nothing afterwards.",
+        "answerZh": "那則帶有威嚇意味的網上訊息其實只是虛張聲勢，因為發訊息的人之後甚麼也沒有做。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q04",
+        "number": 4,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The shop called its notice a “final warning”, but no action followed.",
+        "promptZh": "店舖把通告稱為「最後警告」，但之後沒有採取任何行動。",
+        "starter": "In",
+        "answer": "In reality, the shop’s “final warning” was a paper tiger because no action followed.",
+        "answerZh": "實際上，店舖的「最後警告」只是一項空洞威嚇，因為之後沒有採取任何行動。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q05",
+        "number": 5,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The rival team looked extremely strong before the match, but it played badly and lost easily.",
+        "promptZh": "對手在比賽前看來非常強勁，但實際表現很差，輕易便落敗。",
+        "starter": "Although",
+        "answer": "Although the rival team looked extremely strong, it was a paper tiger once the match began.",
+        "answerZh": "雖然對手看來非常強勁，但比賽一開始便顯出它外強中乾。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q06",
+        "number": 6,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The old security system looked impressive, but it could not stop anyone from entering.",
+        "promptZh": "舊有保安系統看來十分厲害，但根本無法阻止任何人進入。",
+        "starter": "Because",
+        "answer": "Because it could not stop anyone from entering, the impressive old security system was a paper tiger.",
+        "answerZh": "這套看似厲害的舊保安系統根本無法阻止任何人進入，因此只是虛有其表。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q07",
+        "number": 7,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The manager threatened to close the project, but she did not have permission to do so.",
+        "promptZh": "經理威脅要終止項目，但她其實沒有權限這樣做。",
+        "starter": "Her",
+        "answer": "Her threat to close the project was a paper tiger because she had no permission to do so.",
+        "answerZh": "她威脅要終止項目，其實只是虛張聲勢，因為她根本沒有權限這樣做。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q08",
+        "number": 8,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The organisation had an impressive name and website, but it had almost no staff or money.",
+        "promptZh": "這個組織有一個響亮的名稱和精美的網站，但幾乎沒有員工或資金。",
+        "starter": "What",
+        "answer": "What appeared to be a powerful organisation was a paper tiger with almost no staff or money.",
+        "answerZh": "這個看似強大的組織其實外強中乾，幾乎沒有員工或資金。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q09",
+        "number": 9,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The school announced a tough punishment rule, but teachers never used it.",
+        "promptZh": "學校公布了一項嚴厲的懲罰規則，但老師從來沒有執行。",
+        "starter": "The",
+        "answer": "The school’s punishment rule proved to be a paper tiger because teachers never used it.",
+        "answerZh": "學校的懲罰規則結果形同虛設，因為老師從來沒有執行。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q10",
+        "number": 10,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The local group had an impressive name, but it had no real influence in the community.",
+        "promptZh": "這個地區團體名稱響亮，但在社區內其實沒有真正影響力。",
+        "starter": "Behind",
+        "answer": "Behind its impressive name, the local group was only a paper tiger.",
+        "answerZh": "在響亮名稱背後，這個地區團體其實有名無實。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q11",
+        "number": 11,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "At first, the committee seemed powerful. We later learnt that it could not make any decisions.",
+        "promptZh": "起初，這個委員會看來很有權力；後來我們才知道，它根本不能作出任何決定。",
+        "starter": "At",
+        "answer": "At first, the committee seemed powerful, but it proved to be a paper tiger when we learnt that it could not make any decisions.",
+        "answerZh": "起初，這個委員會看來很有權力；但當我們得知它不能作出任何決定時，便發現它有名無實。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q12",
+        "number": 12,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The centre once checked this ban carefully, but it has now stopped checking it.",
+        "promptZh": "這間中心以往會仔細檢查人們有沒有遵守禁令，但現在已停止檢查。",
+        "starter": "The",
+        "answer": "The ban became a paper tiger when the centre stopped checking it.",
+        "answerZh": "中心停止檢查後，這項禁令便變得形同虛設。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q13",
+        "number": 13,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The new rule looks strict, but it may have no real effect if nobody makes people follow it.",
+        "promptZh": "新規則看來很嚴格，但如果沒有人要求大家遵守，它可能完全沒有實際作用。",
+        "starter": "Without",
+        "answer": "Without anyone to make people follow it, the new rule may become a paper tiger.",
+        "answerZh": "如果沒有人要求大家遵守，新規則可能會變得形同虛設。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q14",
+        "number": 14,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The customer has threatened to take us to court, but no lawyer has contacted us. His threat may not be as powerful as it sounds.",
+        "promptZh": "顧客威脅要控告我們，但至今沒有律師聯絡我們。他的威脅可能沒有聽起來那麼有力。",
+        "starter": "Perhaps",
+        "answer": "Perhaps the customer’s legal threat is a paper tiger, since no lawyer has contacted us.",
+        "answerZh": "顧客的法律威脅或許只是虛張聲勢，因為至今沒有律師聯絡我們。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q15",
+        "number": 15,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The company has issued several strong warnings, but it has never taken action on any of them.",
+        "promptZh": "公司曾發出多次強硬警告，但從來沒有就任何一次警告採取行動。",
+        "starter": "After",
+        "answer": "After failing to act on any of its warnings, the company has shown that it is a paper tiger.",
+        "answerZh": "公司從未就任何警告採取行動，已顯示自己外強中乾。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q16",
+        "number": 16,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The mayor’s plan sounds bold, but it will have no real effect unless the town provides money and workers.",
+        "promptZh": "市長的計劃聽來很有魄力，但除非市內提供資金和人手，否則不會產生實際作用。",
+        "starter": "Unless",
+        "answer": "Unless the town provides money and workers, the mayor’s plan will remain a paper tiger.",
+        "answerZh": "除非市內提供資金和人手，否則市長的計劃只會徒具聲勢，缺乏實效。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q17",
+        "number": 17,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: That message sounds frightening. Is the sender really able to harm us? B: Maybe not. The message may only look powerful.",
+        "promptZh": "甲：那則訊息聽來很可怕。發訊息的人真的有能力傷害我們嗎？ 乙：未必。那則訊息可能只是看來很有威力。",
+        "starter": "It",
+        "answer": "It may simply be a paper tiger.",
+        "answerZh": "它可能只是一隻紙老虎。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q18",
+        "number": 18,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Some people thought the coach only looked powerful. In fact, he had the power and support to carry out his decision.",
+        "promptZh": "有些人以為教練只是表面強勢；事實上，他有權力和支持去執行自己的決定。",
+        "starter": "The",
+        "answer": "The coach was not a paper tiger; he had the power and support to carry out his decision.",
+        "answerZh": "這位教練並非外強中乾；他有權力和支持去執行自己的決定。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q19",
+        "number": 19,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The new policy looks strong, but it could lose all real effect if managers continue to ignore it.",
+        "promptZh": "新政策看來很有力度，但如果經理繼續不理會，它可能會失去所有實際作用。",
+        "starter": "If",
+        "answer": "If managers continue to ignore it, the new policy could turn into a paper tiger.",
+        "answerZh": "如果經理繼續不理會，新政策可能會變得形同虛設。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q20",
+        "number": 20,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The protection system looked strong, but it failed the first simple test.",
+        "promptZh": "這套防護系統看來很可靠，但在第一次簡單測試中便失效。",
+        "starter": "What",
+        "answer": "What looked like a strong protection system was actually a paper tiger because it failed the first simple test.",
+        "answerZh": "這套看似強大的防護系統其實只是虛有其表，因為它在第一次簡單測試中便失效。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q21",
+        "number": 21,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "My friend was frightened by the group’s strong image. I explained that it had very few members and no clear plan.",
+        "promptZh": "朋友被這個團體的強勢形象嚇倒；我向他解釋，這個團體其實成員很少，也沒有清晰計劃。",
+        "starter": "I",
+        "answer": "I told my friend that the frightening group might be a paper tiger because it had few members and no clear plan.",
+        "answerZh": "我告訴朋友，這個看來可怕的團體可能只是一隻紙老虎，因為它成員很少，也沒有清晰計劃。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q22",
+        "number": 22,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The student council had an impressive office and title. After speaking to its members, we discovered that it could not change anything.",
+        "promptZh": "學生會有一間氣派的辦公室和響亮的名銜；與成員交談後，我們才發現它根本無法改變任何事情。",
+        "starter": "After",
+        "answer": "After we spoke to the student council, we realised that it was a paper tiger with no power to change anything.",
+        "answerZh": "我們與學生會交談後，才發現它有名無實，根本沒有權力改變任何事情。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q23",
+        "number": 23,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: The seller says he will take us to court. B: He has made the same threat before, but he has never done anything.",
+        "promptZh": "甲：賣家說要控告我們。 乙：他以前也作出過同樣威脅，但從來沒有採取任何行動。",
+        "starter": "He",
+        "answer": "He has made the same empty threat before; he is probably a paper tiger.",
+        "answerZh": "他以前也作出過同樣的空洞威脅；他大概只是一隻紙老虎。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q24",
+        "number": 24,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: Is this rule really strict? B: No. Nobody checks it, and there is no punishment for breaking it.",
+        "promptZh": "甲：這項規則真的很嚴格嗎？ 乙：不是。沒有人檢查，也沒有違規懲罰。",
+        "starter": "No",
+        "answer": "No. Without checks or punishment, it is just a paper tiger.",
+        "answerZh": "不是。沒有檢查或懲罰，這項規則只會形同虛設。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q25",
+        "number": 25,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The team had a famous name, so everyone expected it to be strong. Its easy defeat showed how weak it really was.",
+        "promptZh": "這支隊伍名氣很大，所以大家都以為它很強；它輕易落敗，顯示實際實力十分薄弱。",
+        "starter": "Its",
+        "answer": "Its famous name hid the fact that the team was a paper tiger, as the easy defeat showed.",
+        "answerZh": "這支隊伍的名氣掩蓋了它外強中乾的事實，而輕易落敗正好證明了這一點。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q26",
+        "number": 26,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The warning sounded serious, but nobody took any action after it was issued.",
+        "promptZh": "警告聽來十分嚴重，但發出警告後，沒有人採取任何行動。",
+        "starter": "Although",
+        "answer": "Although the warning sounded serious, it proved to be a paper tiger when no action followed.",
+        "answerZh": "雖然警告聽來十分嚴重，但之後沒有任何行動，證明它只是虛張聲勢。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q27",
+        "number": 27,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "People once feared the local gang. The police later showed that it had very few members and little real power.",
+        "promptZh": "人們以往很害怕這個地區幫派；警方後來證實，它成員很少，實際勢力也十分有限。",
+        "starter": "People",
+        "answer": "People once feared the local gang, but the police later showed that it was a paper tiger with very few members.",
+        "answerZh": "人們以往很害怕這個地區幫派，但警方後來證實，它成員很少，只是一隻紙老虎。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q28",
+        "number": 28,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: The website makes the training programme look very powerful. B: In fact, it has only one video and no teacher.",
+        "promptZh": "甲：網站把這個培訓課程說得非常厲害。 乙：事實上，它只有一段影片，也沒有老師。",
+        "starter": "In",
+        "answer": "In practice, the training programme is a paper tiger with only one video and no teacher.",
+        "answerZh": "實際上，這個培訓課程只是虛有其表，只有一段影片，也沒有老師。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q29",
+        "number": 29,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The company advertised its new complaints system as strong and effective. However, nobody answered the reports sent by staff.",
+        "promptZh": "公司宣稱新的投訴制度強而有效；可是，沒有人回覆員工提交的報告。",
+        "starter": "Staff",
+        "answer": "Staff saw the new complaints system as a paper tiger because nobody answered their reports.",
+        "answerZh": "員工認為新的投訴制度形同虛設，因為沒有人回覆他們的報告。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q30",
+        "number": 30,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: That leader speaks as if he controls the whole group. B: But the members ignore every order he gives.",
+        "promptZh": "甲：那位領袖說話時，好像能控制整個團體。 乙：但成員完全不理會他的任何命令。",
+        "starter": "No",
+        "answer": "No. Without his group’s support, he will look like a paper tiger.",
+        "answerZh": "不是。沒有團體成員的支持，他看來只會像一隻紙老虎。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q31",
+        "number": 31,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The advertisements made the product guarantee sound very strong. However, the guarantee covered almost nothing.",
+        "promptZh": "廣告令產品保證聽來十分有力；可是，這項保證幾乎甚麼也不包括。",
+        "starter": "Despite",
+        "answer": "Despite the strong promises in its advertisements, the product guarantee was a paper tiger because it covered almost nothing.",
+        "answerZh": "儘管廣告作出強而有力的承諾，這項產品保證幾乎甚麼也不包括，只是虛有其表。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q32",
+        "number": 32,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The rule sounds tough, but it will have little effect unless teachers apply it fairly.",
+        "promptZh": "這項規則聽來嚴厲，但除非老師公平執行，否則作用有限。",
+        "starter": "The",
+        "answer": "The rule sounds tough, but unless teachers apply it fairly, it will be a paper tiger.",
+        "answerZh": "這項規則聽來嚴厲，但除非老師公平執行，否則只會形同虛設。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q33",
+        "number": 33,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "From the outside, the company looks powerful. In fact, it has only two workers and no real product.",
+        "promptZh": "從外表看，這間公司似乎很有實力；事實上，它只有兩名員工，也沒有真正的產品。",
+        "starter": "From",
+        "answer": "From the outside, the company seems powerful; however, its tiny team and lack of a real product suggest that it is a paper tiger.",
+        "answerZh": "從外表看，這間公司似乎很有實力；可是，它團隊極小，也沒有真正產品，顯示它可能外強中乾。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q34",
+        "number": 34,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The leaders promised strong action, but nothing happened. The public then began to view the warning as empty.",
+        "promptZh": "領導人承諾會採取強硬行動，但最後甚麼也沒有發生；公眾於是開始認為這項警告只是空話。",
+        "starter": "When",
+        "answer": "When the promised action never came, the public began to see the warning as a paper tiger.",
+        "answerZh": "承諾中的行動一直沒有出現，公眾因而開始把這項警告視為空洞威嚇。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q35",
+        "number": 35,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Some teachers said the new rule only looked strong. The head teacher answered by explaining exactly how it would be checked and what punishment would follow.",
+        "promptZh": "有些老師說新規則只是表面強硬；校長回應時，清楚解釋了檢查方法和違規後的懲罰。",
+        "starter": "To",
+        "answer": "To prove that the new rule was not a paper tiger, the head teacher explained how teachers would check it and what punishment would follow.",
+        "answerZh": "為了證明新規則並非形同虛設，校長解釋了老師會如何檢查，以及違規後會有甚麼懲罰。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q36",
+        "number": 36,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The organisation had an impressive title, but it had no money, no staff and no clear plan.",
+        "promptZh": "這個組織名銜響亮，但沒有資金、沒有員工，也沒有清晰計劃。",
+        "starter": "With",
+        "answer": "With no money, no staff and no clear plan, the impressive organisation was a paper tiger.",
+        "answerZh": "這個看似氣派的組織沒有資金、沒有員工，也沒有清晰計劃，實際上外強中乾。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q37",
+        "number": 37,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "They expected the opposing team to be very difficult to beat, but they won easily.",
+        "promptZh": "他們原以為對手很難擊敗，但最後卻輕易勝出。",
+        "starter": "They",
+        "answer": "They expected a hard fight, but their easy win showed that the opposing team was a paper tiger.",
+        "answerZh": "他們原以為會有一場硬仗，但輕鬆取勝顯示對手外強中乾。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q38",
+        "number": 38,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The new safety policy sounds strict. If nobody checks it, workers may stop taking it seriously.",
+        "promptZh": "新的安全政策聽來很嚴格；如果沒有人檢查，員工可能不再認真看待。",
+        "starter": "If",
+        "answer": "If nobody checks whether workers follow the new safety policy, they may see it as a paper tiger.",
+        "answerZh": "如果沒有人檢查員工有沒有遵守新的安全政策，員工可能會認為它形同虛設。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q39",
+        "number": 39,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The speaker made frightening claims in a confident voice, but he had no evidence or power to act.",
+        "promptZh": "講者以自信的語氣作出令人害怕的聲稱，但沒有證據，也沒有能力採取行動。",
+        "starter": "His",
+        "answer": "His lack of evidence and real power made the confident speaker seem like a paper tiger.",
+        "answerZh": "這位講者雖然語氣自信，但缺乏證據和真正力量，令他看來像一隻紙老虎。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q40",
+        "number": 40,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The organisation may look strong in public, but its lack of results suggests that it has little real power.",
+        "promptZh": "這個組織在公眾面前可能看來很強大，但一直沒有成果，顯示它的實際力量十分有限。",
+        "starter": "In",
+        "answer": "In practice, the organisation may be a paper tiger, however strong it looks in public.",
+        "answerZh": "實際上，無論這個組織在公眾面前看來多麼強大，它都可能外強中乾。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q41",
+        "number": 41,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The newspaper said the new law looked strong but might have no real effect unless enough staff were given the power to make people follow it.",
+        "promptZh": "報章指出，新法例看來很有力度，但除非有足夠人員獲授權要求人們遵守，否則可能沒有實際作用。",
+        "starter": "The",
+        "answer": "The newspaper warned that the new law could become a paper tiger unless enough staff were given the power to make people follow it.",
+        "answerZh": "報章警告，除非有足夠人員獲授權要求人們遵守，否則新法例可能會變得形同虛設。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q42",
+        "number": 42,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: The company has announced another rule that it calls “very strict”. B: It has ignored its own rules before. Unless it acts this time, this one will also have no real force.",
+        "promptZh": "甲：公司又公布了一項聲稱「非常嚴格」的規則。 乙：公司以前也沒有執行自己的規則。除非今次採取行動，否則這項規則同樣不會有真正效力。",
+        "starter": "Unless",
+        "answer": "Unless it acts this time, the rule will be no more than a paper tiger.",
+        "answerZh": "除非公司今次採取行動，否則這項規則只會形同虛設。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q43",
+        "number": 43,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The group gave confident speeches and claimed to have great influence, but it could not organise even one event.",
+        "promptZh": "這個團體發表了充滿自信的演說，並聲稱很有影響力，但連一項活動也無法舉辦。",
+        "starter": "By",
+        "answer": "By failing to organise even one event, the group showed itself to be a paper tiger.",
+        "answerZh": "這個團體連一項活動也無法舉辦，顯示自己外強中乾。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q44",
+        "number": 44,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The app displays many security signs and claims to be safe. Experts say those signs mean little if users’ information is not truly protected.",
+        "promptZh": "這個應用程式顯示許多保安標誌，並聲稱十分安全；專家表示，如果用戶資料沒有真正受到保護，這些標誌便沒有多大意義。",
+        "starter": "Although",
+        "answer": "Although the app shows many security signs, experts say its security system may be a paper tiger if users’ information is not actually protected.",
+        "answerZh": "雖然這個應用程式顯示許多保安標誌，但專家表示，如果用戶資料沒有真正受到保護，它的保安系統可能只是虛有其表。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q45",
+        "number": 45,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Some people said the town’s plan only looked strong. The town leaders answered by showing the money, workers and timetable behind it.",
+        "promptZh": "有些人說鎮上的計劃只是表面有力；鎮上領導人則展示計劃背後的資金、人手和時間表作回應。",
+        "starter": "The",
+        "answer": "The town leaders rejected the claim that their plan was a paper tiger by showing the money, workers and timetable behind it.",
+        "answerZh": "鎮上領導人展示計劃背後的資金、人手和時間表，反駁它只是有名無實的說法。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q46",
+        "number": 46,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The written threat looks serious, but the speaker may not have the power to carry it out.",
+        "promptZh": "書面威脅看來很嚴重，但說話者可能沒有能力把威脅付諸實行。",
+        "starter": "The",
+        "answer": "The threat looks serious in writing, but it could still be a paper tiger if the speaker lacks the power to carry it out.",
+        "answerZh": "這項書面威脅看來很嚴重；但如果說話者沒有能力把它付諸實行，它仍可能只是虛張聲勢。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q47",
+        "number": 47,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The campaign made bold promises for months but produced no results. Even its supporters began to doubt its real strength.",
+        "promptZh": "這項運動數月來作出大膽承諾，卻沒有帶來任何成果；就連支持者也開始懷疑它的真正實力。",
+        "starter": "After",
+        "answer": "After months of bold promises and no results, even supporters began to call the campaign a paper tiger.",
+        "answerZh": "經過數月的大膽承諾而毫無成果後，就連支持者也開始認為這項運動只是空有聲勢。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q48",
+        "number": 48,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Should we obey the warning? B: We should take it seriously for now, although it may later prove to have less power than it appears to have.",
+        "promptZh": "甲：我們應該服從這項警告嗎？ 乙：目前應該認真看待，但它後來可能會證明沒有表面上那麼有力。",
+        "starter": "Take",
+        "answer": "Take it seriously for now, but remember that it may turn out to be a paper tiger.",
+        "answerZh": "目前先認真看待，但要記住，它最終可能證明只是虛張聲勢。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q49",
+        "number": 49,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The new office has an important name, but it cannot make any decisions. It may therefore have little real power.",
+        "promptZh": "這個新辦事處名稱顯得十分重要，但不能作出任何決定，因此可能沒有多少實際權力。",
+        "starter": "Without",
+        "answer": "Without the power to make decisions, the new office may become a paper tiger.",
+        "answerZh": "如果沒有作出決定的權力，這個新辦事處可能會變得有名無實。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      },
+      {
+        "id": "idiom-62-q50",
+        "number": 50,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "An organisation may have a strong name and a frightening image. However, these things mean little when it has no real power.",
+        "promptZh": "一個組織可能有響亮的名稱和令人畏懼的形象；可是，如果沒有真正力量，這些表面特徵便沒有多大意義。",
+        "starter": "A",
+        "answer": "A strong name and a frightening image are not enough; an organisation without real power is still a paper tiger.",
+        "answerZh": "響亮的名稱和令人畏懼的形象並不足夠；沒有真正力量的組織仍然外強中乾。",
+        "targetForm": "a paper tiger",
+        "targetMeaning": "A person, group, organisation, rule, threat, system or situation that appears or claims to be powerful, dangerous, strict or effective but actually has little real strength, power or effect.",
+        "highlight": "a paper tiger"
+      }
+    ]
+  }
+}

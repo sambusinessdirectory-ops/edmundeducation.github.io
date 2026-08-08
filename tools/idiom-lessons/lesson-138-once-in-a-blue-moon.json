@@ -1,0 +1,1555 @@
+{
+  "lesson": {
+    "id": "idiom-138",
+    "order": 138,
+    "slug": "once-in-a-blue-moon",
+    "version": "1",
+    "title": "極少／非常罕有",
+    "titleEn": "once in a blue moon",
+    "titleZh": "極少／非常罕有",
+    "source": {
+      "file": "Idiom 138 - 「once in a blue moon」.pdf",
+      "pageCount": 33,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "exercisePdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "answerKeyPdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "once in a blue moon",
+        "highlight": "once in a blue moon"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Ella visits her old school once in a blue moon.",
+        "zh": "極少回訪以前就讀的學校。",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "en": "We eat at that restaurant once in a blue moon.",
+        "zh": "我們極少到那間餐廳用膳。",
+        "highlight": "once in a blue moon"
+      }
+    ],
+    "meaning": {
+      "en": "Very rarely; almost never.",
+      "zh": "極少；非常罕有；幾乎從不。",
+      "naturalZh": [
+        "極少",
+        "非常罕有",
+        "幾乎從不。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "The expression is informal but widely understood. It is natural in everyday conversation, interviews, stories, informal workplace communication and general-interest writing. Oxford and Collins both mark it as informal.",
+      "summaryZh": "這是一個非正式但非常常見的慣用語，適合用於日常對話、訪問、故事、一般職場溝通及通俗文章。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "In highly formal reports, academic writing or legal documents, rarely, very seldom or only on rare occasions may be more suitable.",
+      "formalZh": "倒裝句中使用的助動詞"
+    },
+    "fixedVariable": {
+      "fixed": "once in a blue moon",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + verb + object/complement + once in a blue moon.",
+          "example": "Ella visits her old school once in a blue moon.",
+          "highlight": "once in a blue moon"
+        },
+        {
+          "form": "Once in a blue moon, + subject + verb.",
+          "example": "Once in a blue moon, our teacher ends the lesson early.",
+          "highlight": "Once in a blue moon"
+        },
+        {
+          "form": "Opening phrase/clause + subject + verb + once in a blue moon.",
+          "example": "Because she lives overseas, my cousin visits us once in a blue moon.",
+          "highlight": "once in a blue moon"
+        },
+        {
+          "form": "Subject + usual situation + and/but, once in a blue moon, + rare action.",
+          "example": "Our dog usually ignores strangers but, once in a blue moon, barks at one.",
+          "highlight": "once in a blue moon"
+        },
+        {
+          "form": "Subject + verb + only once in a blue moon.",
+          "example": "The hotel offers free upgrades only once in a blue moon.",
+          "highlight": "once in a blue moon"
+        },
+        {
+          "form": "Only once in a blue moon + do/does/did + subject + base verb.",
+          "example": "Only once in a blue moon does the head teacher teach our class.",
+          "highlight": "once in a blue moon"
+        },
+        {
+          "form": "It + is/was + only once in a blue moon + that + clause.",
+          "example": "It is only once in a blue moon that the theatre shows silent films.",
+          "highlight": "once in a blue moon"
+        },
+        {
+          "form": "Event/opportunity + happens/occurs/comes along + once in a blue moon.",
+          "example": "A chance like this comes along once in a blue moon.",
+          "highlight": "once in a blue moon"
+        },
+        {
+          "form": "Subject + may/can/could/will + verb + once in a blue moon.",
+          "example": "The school may close early once in a blue moon.",
+          "highlight": "once in a blue moon"
+        },
+        {
+          "form": "Subject + do/does not + verb + once in a blue moon; + frequent reality.",
+          "example": "These mistakes do not happen once in a blue moon; they happen every week.",
+          "highlight": "once in a blue moon"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Sentence-Final Position",
+        "titleZh": "句末位置",
+        "formula": "Subject + verb + object/complement + once in a blue moon.",
+        "descriptionEn": "This is the most common and easiest teaching position.",
+        "descriptionZh": "這是最常見，亦最適合初學者掌握的位置。",
+        "examples": [
+          {
+            "en": "Ella visits her old school once in a blue moon.",
+            "zh": "極少回訪以前就讀的學校。",
+            "highlight": "once in a blue moon"
+          },
+          {
+            "en": "We eat at that restaurant once in a blue moon.",
+            "zh": "我們極少到那間餐廳用膳。",
+            "highlight": "once in a blue moon"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Sentence-Initial Position",
+        "titleZh": "句首位置",
+        "formula": "Once in a blue moon, + subject + verb.",
+        "descriptionEn": "Use a comma after the opening expression.",
+        "descriptionZh": "慣用語放在句首時，後面應使用逗號。",
+        "examples": [
+          {
+            "en": "Once in a blue moon, our teacher ends the lesson early.",
+            "zh": "老師極少會提早下課。",
+            "highlight": "Once in a blue moon"
+          },
+          {
+            "en": "Once in a blue moon, the town gets snow.",
+            "zh": "這個小鎮極少下雪。",
+            "highlight": "Once in a blue moon"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After a Time, Reason or Contrast Phrase",
+        "titleZh": "放在時間、原因或對比內容之後",
+        "formula": "Opening phrase/clause + subject + verb + once in a blue moon.",
+        "descriptionEn": "The opening phrase carries separate information and must remain in the sentence.",
+        "descriptionZh": "句首部分提供額外的原因或時間資料，因此不能因加入慣用語而刪除。",
+        "examples": [
+          {
+            "en": "Because she lives overseas, my cousin visits us once in a blue moon.",
+            "zh": "由於表妹居於海外，她極少探望我們。",
+            "highlight": "once in a blue moon"
+          },
+          {
+            "en": "Since leaving the company, he sees his former colleagues once in a blue moon.",
+            "zh": "離開公司後，他極少再見以前的同事。",
+            "highlight": "once in a blue moon"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Parenthetical Medial Position",
+        "titleZh": "句中插入位置",
+        "formula": "Subject + usual situation + and/but, once in a blue moon, + rare action.",
+        "descriptionEn": "This position highlights a rare exception to a normal pattern. It is useful, but it should not dominate a beginner exercise.",
+        "descriptionZh": "這個位置用來突出日常規律中的罕有例外。 它十分實用，但不應在初階練習中過度使用。",
+        "examples": [
+          {
+            "en": "Our dog usually ignores strangers but, once in a blue moon, barks at one.",
+            "zh": "我們的狗通常不理會陌生人，但極少數情況下會向陌生人吠叫。",
+            "highlight": "once in a blue moon"
+          },
+          {
+            "en": "She normally travels alone and, once in a blue moon, takes her brother with her.",
+            "zh": "她通常獨自旅行，但極少會帶弟弟同行。",
+            "highlight": "once in a blue moon"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With “Only” in Ordinary Word Order",
+        "titleZh": "配合 only 的一般語序",
+        "formula": "Subject + verb + only once in a blue moon.",
+        "descriptionEn": "Only is optional. It adds emphasis but is not part of the fixed expression.",
+        "descriptionZh": "only 是可選的強調詞，並不是固定慣用語的一部分。",
+        "examples": [
+          {
+            "en": "The hotel offers free upgrades only once in a blue moon.",
+            "zh": "酒店只有極少數情況才會提供免費客房升級。",
+            "highlight": "once in a blue moon"
+          },
+          {
+            "en": "I wear a suit only once in a blue moon.",
+            "zh": "我極少穿西裝。",
+            "highlight": "once in a blue moon"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Fronted “Only” with Inversion",
+        "titleZh": "句首 only 及倒裝",
+        "formula": "Only once in a blue moon + do/does/did + subject + base verb.",
+        "descriptionEn": "When only once in a blue moon is moved to the front, the auxiliary verb comes before the subject.",
+        "descriptionZh": "當 only once in a blue moon 放在句首時，助動詞必須移到主語之前。",
+        "examples": [
+          {
+            "en": "Only once in a blue moon does the head teacher teach our class.",
+            "zh": "校長極少親自教我們這一班。",
+            "highlight": "once in a blue moon"
+          },
+          {
+            "en": "Only once in a blue moon did the former manager praise the staff.",
+            "zh": "以前那位經理極少稱讚員工。",
+            "highlight": "once in a blue moon"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "It-Cleft Emphasis",
+        "titleZh": "強調句",
+        "formula": "It + is/was + only once in a blue moon + that + clause.",
+        "descriptionEn": "This pattern places strong focus on the rarity of the event.",
+        "descriptionZh": "這個句式會強烈突出事情發生得非常罕有。",
+        "examples": [
+          {
+            "en": "It is only once in a blue moon that the theatre shows silent films.",
+            "zh": "這間戲院極少放映默片。",
+            "highlight": "once in a blue moon"
+          },
+          {
+            "en": "It was only once in a blue moon that our former manager joined us for lunch.",
+            "zh": "以前那位經理極少與我們一起吃午飯。",
+            "highlight": "once in a blue moon"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "An Event or Opportunity as the Subject",
+        "titleZh": "以事件或機會作主語",
+        "formula": "Event/opportunity + happens/occurs/comes along + once in a blue moon.",
+        "descriptionEn": "The subject does not have to be a person.",
+        "descriptionZh": "主語不一定是人，也可以是一件事件、問題或機會。",
+        "examples": [
+          {
+            "en": "A chance like this comes along once in a blue moon.",
+            "zh": "這種機會極為罕有。",
+            "highlight": "once in a blue moon"
+          },
+          {
+            "en": "A problem like this occurs once in a blue moon.",
+            "zh": "這類問題極少發生。",
+            "highlight": "once in a blue moon"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "With a Modal or Future Form",
+        "titleZh": "配合情態動詞或將來式",
+        "formula": "Subject + may/can/could/will + verb + once in a blue moon.",
+        "descriptionEn": "The modal verb expresses possibility. The idiom expresses frequency. Neither replaces the other.",
+        "descriptionZh": "情態動詞表示可能性； 慣用語表示頻率。 兩者的功能不同，不能互相取代。",
+        "examples": [
+          {
+            "en": "The school may close early once in a blue moon.",
+            "zh": "學校極少數情況下可能會提早關門。",
+            "highlight": "once in a blue moon"
+          },
+          {
+            "en": "You may see the owner here once in a blue moon.",
+            "zh": "你極少會在這裏見到店主。",
+            "highlight": "once in a blue moon"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Negative or Corrective Use",
+        "titleZh": "否定或糾正用法",
+        "formula": "Subject + do/does not + verb + once in a blue moon; + frequent reality.",
+        "descriptionEn": "This advanced pattern denies that an event is rare.",
+        "descriptionZh": "這個較進階的句式用來否定某件事十分罕有。",
+        "examples": [
+          {
+            "en": "These mistakes do not happen once in a blue moon; they happen every week.",
+            "zh": "這些錯誤並非極少發生，而是每星期都會出現。",
+            "highlight": "once in a blue moon"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Extreme Rarity Clearly",
+        "titleZh": "清楚表達極低頻率",
+        "en": "The idiomatic version packages the meaning into one memorable expression.",
+        "zh": "我極少到那個地區。 慣用語版本能以一個容易記憶的表達，濃縮「幾乎從不」的意思。",
+        "examples": [
+          {
+            "en": "I visit that area once in a blue moon.",
+            "zh": "我極少到那個地區。",
+            "highlight": "once in a blue moon"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Highlights an Unusual Exception",
+        "titleZh": "突出罕有例外",
+        "en": "The expression clearly separates the normal pattern from the unusual exception.",
+        "zh": "她通常拒絕邀請，但極少數情況下會加入我們。 這個表達能清楚區分平常規律和極少出現的例外。",
+        "examples": [
+          {
+            "en": "She normally refuses invitations but, once in a blue moon, joins us.",
+            "zh": "她通常拒絕邀請，但極少數情況下會加入我們。",
+            "highlight": "once in a blue moon"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Adds Conversational Emphasis",
+        "titleZh": "增加口語強調效果",
+        "en": "Once in a blue moon is more vivid and conversational.",
+        "zh": "準確而中性； once in a blue moon 則較生動，亦較有日常對話色彩。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Describes Rare Opportunities Naturally",
+        "titleZh": "自然描述罕有機會",
+        "en": "The expression is useful when encouraging someone not to waste an unusual opportunity.",
+        "zh": "這種機會十分難得。 當說話者希望勸告別人不要錯過罕有機會時，這個表達十分實用。",
+        "examples": [
+          {
+            "en": "A chance like this comes along once in a blue moon.",
+            "zh": "這種機會十分難得。",
+            "highlight": "once in a blue moon"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Supports Several Sentence Structures",
+        "titleZh": "可以配合多種句式",
+        "en": "inside an it-cleft sentence.",
+        "zh": "這個慣用語可以：",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Helps Correct Frequency Claims",
+        "titleZh": "有助糾正頻率說法",
+        "en": "This use allows the speaker to challenge the claim that something is rare. The idiom is useful, but it is not automatically better than rarely. Use it when the informal tone and strong emphasis genuinely suit the context.",
+        "zh": "這些問題並非極少發生，而是每天都會出現。 這種用法讓說話者反駁「某件事十分罕有」的說法。 這個慣用語十分實用，但不一定比 rarely 更好。 只有當非正式語氣和強調效果適合相關語境時， 才應使用。",
+        "examples": [
+          {
+            "en": "These problems do not happen once in a blue moon; they happen every day.",
+            "zh": "這些問題並非極少發生，而是每天都會出現。",
+            "highlight": "once in a blue moon"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact Origin Unknown",
+      "statusZh": "逐漸形成；確切來源不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster identifies an 1821 London example in which blue moon referred to a very long period of time. A note in that work explained that the expression suggested a long interval, indicating that it was already used as London slang. Its earlier development remains uncertain.",
+          "zh": "找到一個1821年的倫敦例子，當中的 blue moon 表示一段很長的時間。 該作品的註釋亦解釋這個說法表示長時間，可見當時它已是倫敦口語，但更早期的演變仍不清楚。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The idea of waiting through an extremely long and unusual “blue moon” interval naturally developed into the meaning “very rarely”. The full form once in a blue moon then became a conventional way of describing actions and events that almost never happen.",
+          "zh": "等待極為漫長而罕有的「藍月」時刻，自然可以引申為「極少發生」。 完整說法 once in a blue moon 後來逐漸固定，用來描述幾乎不會發生的行動和事件。"
+        }
+      ],
+      "memoryEn": "A blue-looking moon would be highly unusual; an action that happens once in a blue moon is also highly unusual.",
+      "memoryZh": "藍色月亮是罕有景象；once in a blue moon 所描述的事情同樣極少發生。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Complete Expression",
+        "titleZh": "規則一",
+        "en": "blue moon once once in a blue moon",
+        "zh": "保留完整慣用語錯誤：",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "“Only” Is Optional",
+        "titleZh": "規則二：only 是可選的",
+        "en": "Both are complete sentences. I visit the area only once in a blue moon.",
+        "zh": "兩句都是完整句子。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "The Idiom Means “Very Rarely”",
+        "titleZh": "規則三：慣用語表示「極少」",
+        "en": "from time to time This may simply mean that she swims from time to time. She occasionally goes swimming. She goes swimming once in a blue moon. She almost never goes swimming.",
+        "zh": "較弱的原句： 這句可能只表示她間中游泳，未必罕有至適合使用目標慣用語。 較強的原句： 自然答案：",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It for Repeatable Events or Recognisable Types of Opportunity",
+        "titleZh": "規則四",
+        "en": "Being born is not a repeated personal habit or a recurring type of event. A chance like this comes along once in a blue moon. I was born once in a blue moon.",
+        "zh": "用於可以重複的事情或某一類罕有機會不適合： 出生並不是個人會重複進行的習慣，也不是在這個語境中反覆出現的一類事件。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Treat It as an Exact Timetable",
+        "titleZh": "規則五：不要把它理解為準確時間表",
+        "en": "It communicates general rarity rather than a mathematically exact interval.",
+        "zh": "不要把它理解為準確時間表",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Use Inversion After Fronted “Only”",
+        "titleZh": "規則六：句首 only 後必須使用倒裝",
+        "en": "Only once in a blue moon he arrives early. Only once in a blue moon does he arrive early.",
+        "zh": "錯誤：",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Use the Base Verb After Do, Does or Did",
+        "titleZh": "規則七",
+        "en": "Only once in a blue moon did she cooked. Only once in a blue moon does she cook. Only once in a blue moon did she cook. Only once in a blue moon does she cooks.",
+        "zh": "do、does 或 did 後使用動詞原形正確： 錯誤： 錯誤：",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Use Commas According to Position",
+        "titleZh": "規則八",
+        "en": "No comma is normally required before a simple sentence-final expression. Once in a blue moon, we eat outside. We usually stay home but, once in a blue moon, eat outside. We eat outside once in a blue moon.",
+        "zh": "按照位置使用逗號句中插入： 句末： 慣用語簡單放在句末時，前面通常不需要逗號。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Confuse the Idiom with the Astronomical Noun",
+        "titleZh": "我們極少露營",
+        "en": "There will be a Blue Moon this month. The astronomical expression is a separate noun phrase. NASA currently explains a monthly Blue Moon as the second full moon appearing within one calendar month.",
+        "zh": "我們極少露營。 本月將出現一次天文學上所稱的「藍月」。 不要把慣用語與天文名詞混淆",
+        "examples": [
+          {
+            "en": "We go camping once in a blue moon.",
+            "zh": "我們極少露營。",
+            "highlight": "once in a blue moon"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Related Forms Are Not the Target of This Exercise",
+        "titleZh": "規則十：相關形式不是本練習的目標",
+        "en": "once in a blue moon every once in a blue moon",
+        "zh": "every once in a blue moon 在真實英語中可以出現，但 every 並不是本練習所選目標的一部分。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using once in a blue moon.",
+      "zh": "使用 once in a blue moon 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-138-q01",
+        "number": 1,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Ella visits her old primary school very rarely.",
+        "promptZh": "Ella 很少回訪以前就讀的小學。",
+        "starter": "Ella",
+        "answer": "Ella visits her old primary school once in a blue moon.",
+        "answerZh": "Ella 極少回訪以前就讀的小學。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q02",
+        "number": 2,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Our family almost never orders takeaway food.",
+        "promptZh": "我們一家幾乎從不叫外賣。",
+        "starter": "Once",
+        "answer": "Once in a blue moon, our family orders takeaway food.",
+        "answerZh": "我們一家極少叫外賣。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "Once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q03",
+        "number": 3,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The last bus almost never arrives early.",
+        "promptZh": "尾班巴士幾乎從不提早到達。",
+        "starter": "The",
+        "answer": "The last bus arrives early once in a blue moon.",
+        "answerZh": "尾班巴士極少提早到達。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q04",
+        "number": 4,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Ben is extremely busy, so he hardly ever plays computer games.",
+        "promptZh": "Ben 非常忙碌，因此幾乎從不玩電腦遊戲。",
+        "starter": "Because",
+        "answer": "Because he is extremely busy, Ben plays computer games once in a blue moon.",
+        "answerZh": "由於 Ben 非常忙碌，他極少玩電腦遊戲。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q05",
+        "number": 5,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The old lift now breaks down only very rarely.",
+        "promptZh": "這部舊升降機現在極少發生故障。",
+        "starter": "The",
+        "answer": "The old lift breaks down only once in a blue moon now.",
+        "answerZh": "這部舊升降機現在極少發生故障。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q06",
+        "number": 6,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Our cat almost never sleeps on my bed.",
+        "promptZh": "我家的貓幾乎從不睡在我的床上。",
+        "starter": "Once",
+        "answer": "Once in a blue moon, our cat sleeps on my bed.",
+        "answerZh": "我家的貓極少睡在我的床上。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "Once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q07",
+        "number": 7,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "I wear formal clothes very rarely.",
+        "promptZh": "我極少穿正式服裝。",
+        "starter": "I",
+        "answer": "I wear formal clothes once in a blue moon.",
+        "answerZh": "我極少穿正式服裝。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q08",
+        "number": 8,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The teacher very seldom ends the lesson early.",
+        "promptZh": "老師極少提早下課。",
+        "starter": "The",
+        "answer": "The teacher ends the lesson early once in a blue moon.",
+        "answerZh": "老師極少提早下課。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q09",
+        "number": 9,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Snow is extremely rare in our town.",
+        "promptZh": "我們居住的小鎮極少下雪。",
+        "starter": "Once",
+        "answer": "Once in a blue moon, it snows in our town.",
+        "answerZh": "我們居住的小鎮極少下雪。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "Once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q10",
+        "number": 10,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "My parents almost never eat at expensive restaurants.",
+        "promptZh": "我的父母幾乎從不到昂貴的餐廳用膳。",
+        "starter": "My",
+        "answer": "My parents eat at expensive restaurants once in a blue moon.",
+        "answerZh": "我的父母極少到昂貴的餐廳用膳。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q11",
+        "number": 11,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Martin used to see his colleagues every day, but he sees them very rarely now.",
+        "promptZh": "Martin 以前每天都會見到同事，但現在已很少見到他們。",
+        "starter": "Martin",
+        "answer": "Martin used to see his colleagues every day, but now he sees them once in a blue moon.",
+        "answerZh": "Martin 以前每天都會見到同事，但現在已極少見到他們。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q12",
+        "number": 12,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The library almost never receives a book with missing pages.",
+        "promptZh": "圖書館極少收到缺頁的圖書。",
+        "starter": "The",
+        "answer": "The library receives a book with missing pages once in a blue moon.",
+        "answerZh": "圖書館極少收到缺頁的圖書。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q13",
+        "number": 13,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Do you still go swimming? B: Hardly ever.",
+        "promptZh": "甲：你現在仍會去游泳嗎？ 乙：幾乎不會。",
+        "starter": "I",
+        "answer": "I go swimming once in a blue moon.",
+        "answerZh": "我極少去游泳。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q14",
+        "number": 14,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "It is extremely rare for all three buses to arrive at the same time.",
+        "promptZh": "三輛巴士極少會同時到達。",
+        "starter": "Once",
+        "answer": "Once in a blue moon, all three buses arrive at the same time.",
+        "answerZh": "三輛巴士極少會同時到達。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "Once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q15",
+        "number": 15,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The hotel offers a free room upgrade only on extremely rare occasions.",
+        "promptZh": "這間酒店只有在極少數情況下才會免費升級客房。",
+        "starter": "The",
+        "answer": "The hotel offers a free room upgrade only once in a blue moon.",
+        "answerZh": "這間酒店只有在極少數情況下才會免費升級客房。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q16",
+        "number": 16,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Since moving abroad, Tara has returned home very rarely.",
+        "promptZh": "Tara 移居海外後，極少回家。",
+        "starter": "Since",
+        "answer": "Since moving abroad, Tara has returned home only once in a blue moon.",
+        "answerZh": "Tara 移居海外後，極少回家。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q17",
+        "number": 17,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Our manager very seldom joins us for lunch.",
+        "promptZh": "我們的經理極少與我們一起吃午飯。",
+        "starter": "Once",
+        "answer": "Once in a blue moon, our manager joins us for lunch.",
+        "answerZh": "我們的經理極少與我們一起吃午飯。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "Once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Does your brother ever admit that he is wrong? B: Almost never.",
+        "promptZh": "甲：你的弟弟會承認自己錯了嗎？ 乙：幾乎從不。",
+        "starter": "My",
+        "answer": "My brother admits that he is wrong once in a blue moon.",
+        "answerZh": "我的弟弟極少承認自己錯了。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q19",
+        "number": 19,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The school may sometimes close early, but this happens extremely rarely.",
+        "promptZh": "學校有時可能會提早關門，但這種情況極少發生。",
+        "starter": "Once",
+        "answer": "Once in a blue moon, the school may close early.",
+        "answerZh": "學校只有在極少數情況下才可能提早關門。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "Once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q20",
+        "number": 20,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The train used to be late frequently, but delays are extremely rare now.",
+        "promptZh": "這班火車以前經常誤點，但現在已極少延誤。",
+        "starter": "The",
+        "answer": "The train used to be late frequently, but now it is late once in a blue moon.",
+        "answerZh": "這班火車以前經常誤點，但現在已極少延誤。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q21",
+        "number": 21,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: How often does your cousin visit you? B: Very rarely, because she lives overseas.",
+        "promptZh": "甲：你的表妹多久探望你一次？ 乙：很少，因為她居於海外。",
+        "starter": "Because",
+        "answer": "Because she lives overseas, my cousin visits us once in a blue moon.",
+        "answerZh": "由於表妹居於海外，她極少探望我們。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The school team almost never plays in the city’s main stadium.",
+        "promptZh": "校隊幾乎從不在市內的主要運動場比賽。",
+        "starter": "Once",
+        "answer": "Once in a blue moon, the school team plays in the city’s main stadium.",
+        "answerZh": "校隊極少在市內的主要運動場比賽。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "Once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q23",
+        "number": 23,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The manager said that serious customer complaints were extremely rare.",
+        "promptZh": "經理表示，嚴重的顧客投訴極少出現。",
+        "starter": "The",
+        "answer": "The manager said that serious customer complaints came in once in a blue moon.",
+        "answerZh": "經理表示，嚴重的顧客投訴極少出現。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q24",
+        "number": 24,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Our dog usually ignores strangers, but on very rare occasions it barks at one.",
+        "promptZh": "我們的狗通常不理會陌生人，但極少數情況下會向陌生人吠叫。",
+        "starter": "Our",
+        "answer": "Our dog usually ignores strangers but, once in a blue moon, barks at one.",
+        "answerZh": "我們的狗通常不理會陌生人，但極少數情況下會向陌生人吠叫。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q25",
+        "number": 25,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Do you usually pay with cash? B: Almost never. I normally use my phone.",
+        "promptZh": "甲：你通常使用現金付款嗎？ 乙：幾乎不會。我通常使用手機付款。",
+        "starter": "I",
+        "answer": "I pay with cash once in a blue moon because I normally use my phone.",
+        "answerZh": "我極少使用現金付款，因為我通常使用手機。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q26",
+        "number": 26,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The twins nearly always choose different films. On very rare occasions, they agree on the same one.",
+        "promptZh": "這對雙胞胎幾乎總會選擇不同的電影。他們極少會同意觀看同一套電影。",
+        "starter": "Once",
+        "answer": "Once in a blue moon, the twins agree on the same film.",
+        "answerZh": "這對雙胞胎極少會同意觀看同一套電影。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "Once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q27",
+        "number": 27,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Rain is extremely rare in this village during summer.",
+        "promptZh": "這條村在夏季極少下雨。",
+        "starter": "During",
+        "answer": "During summer, rain falls in this village once in a blue moon.",
+        "answerZh": "這條村在夏季極少下雨。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q28",
+        "number": 28,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Does your neighbour often complain about noise? B: Almost never. He is usually very patient.",
+        "promptZh": "甲：你的鄰居經常投訴噪音嗎？ 乙：幾乎不會。他通常十分有耐性。",
+        "starter": "My",
+        "answer": "My neighbour complains about noise once in a blue moon.",
+        "answerZh": "我的鄰居極少投訴噪音。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q29",
+        "number": 29,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The café normally closes at six, but it stays open for a music night on very rare occasions.",
+        "promptZh": "咖啡店通常在六時關門，但極少數情況下會因音樂之夜而延長營業。",
+        "starter": "The",
+        "answer": "The café normally closes at six but, once in a blue moon, stays open for a music night.",
+        "answerZh": "咖啡店通常在六時關門，但極少數情況下會因音樂之夜而延長營業。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q30",
+        "number": 30,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The quietest pupil in the class almost never volunteers to speak first.",
+        "promptZh": "班上最安靜的學生幾乎從不主動率先發言。",
+        "starter": "The",
+        "answer": "The quietest pupil in the class volunteers to speak first once in a blue moon.",
+        "answerZh": "班上最安靜的學生極少主動率先發言。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q31",
+        "number": 31,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Although Sam loves cooking, he very rarely makes a large meal just for himself.",
+        "promptZh": "雖然 Sam 喜歡烹飪，但他極少只為自己準備豐富的一餐。",
+        "starter": "Although",
+        "answer": "Although Sam loves cooking, he makes a large meal just for himself once in a blue moon.",
+        "answerZh": "雖然 Sam 喜歡烹飪，但他極少只為自己準備豐富的一餐。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q32",
+        "number": 32,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "My aunt usually travels alone, but on very rare occasions she takes her brother with her.",
+        "promptZh": "我的姨母通常獨自旅行，但極少數情況下會帶弟弟同行。",
+        "starter": "My",
+        "answer": "My aunt usually travels alone and, once in a blue moon, takes her brother with her.",
+        "answerZh": "我的姨母通常獨自旅行，但極少會帶弟弟同行。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q33",
+        "number": 33,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Leo works on most weekends, so we almost never see him at the family lunch.",
+        "promptZh": "Leo 大部分週末都要工作，因此我們極少在家庭午餐中見到他。",
+        "starter": "Because",
+        "answer": "Because Leo works on most weekends, we see him at the family lunch once in a blue moon.",
+        "answerZh": "由於 Leo 大部分週末都要工作，我們極少在家庭午餐中見到他。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q34",
+        "number": 34,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The technician said that this software problem occurred extremely rarely.",
+        "promptZh": "技術人員表示，這個軟件問題極少出現。",
+        "starter": "According",
+        "answer": "According to the technician, this software problem occurs once in a blue moon.",
+        "answerZh": "據技術人員所說，這個軟件問題極少出現。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q35",
+        "number": 35,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "An opportunity to sing with a professional orchestra is extremely rare.",
+        "promptZh": "與專業樂團一同演唱的機會極為罕有。",
+        "starter": "An",
+        "answer": "An opportunity to sing with a professional orchestra comes along once in a blue moon.",
+        "answerZh": "與專業樂團一同演唱的機會極為罕有。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q36",
+        "number": 36,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "I have lived here for years, but I almost never see the street completely empty.",
+        "promptZh": "我已在這裏居住多年，但極少看見街道完全沒有行人。",
+        "starter": "Even",
+        "answer": "Even after living here for years, I see the street completely empty once in a blue moon.",
+        "answerZh": "即使已在這裏居住多年，我也極少看見街道完全沒有行人。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "It is extremely rare for the weather to be warm enough for us to eat outside during winter.",
+        "promptZh": "冬天天氣極少暖和得足以讓我們在戶外用膳。",
+        "starter": "Once",
+        "answer": "Once in a blue moon, the weather is warm enough for us to eat outside during winter.",
+        "answerZh": "冬天天氣極少暖和得足以讓我們在戶外用膳。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "Once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q38",
+        "number": 38,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The shop alarm almost never goes off by mistake.",
+        "promptZh": "店舖的警鐘幾乎從不錯誤鳴響。",
+        "starter": "The",
+        "answer": "The shop alarm goes off by mistake once in a blue moon.",
+        "answerZh": "店舖的警鐘極少錯誤鳴響。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q39",
+        "number": 39,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The coach may change the captain, but only in extremely unusual situations.",
+        "promptZh": "教練可能會更換隊長，但只會在極不尋常的情況下這樣做。",
+        "starter": "The",
+        "answer": "The coach may change the captain once in a blue moon, but only in extremely unusual situations.",
+        "answerZh": "教練極少會更換隊長，而且只會在極不尋常的情況下這樣做。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q40",
+        "number": 40,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Since moving overseas, Sana has attended family parties very rarely.",
+        "promptZh": "Sana 移居海外後，極少出席家庭聚會。",
+        "starter": "Since",
+        "answer": "Since moving overseas, Sana has attended family parties only once in a blue moon.",
+        "answerZh": "Sana 移居海外後，極少出席家庭聚會。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q41",
+        "number": 41,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The head teacher almost never teaches our class personally.",
+        "promptZh": "校長幾乎從不親自教授我們這一班。",
+        "starter": "Only",
+        "answer": "Only once in a blue moon does the head teacher teach our class personally.",
+        "answerZh": "校長極少親自教授我們這一班。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "It is extremely rare for all five friends to have the same evening free.",
+        "promptZh": "五名朋友極少會在同一個晚上都有空。",
+        "starter": "Only",
+        "answer": "Only once in a blue moon do all five friends have the same evening free.",
+        "answerZh": "五名朋友極少會在同一個晚上都有空。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q43",
+        "number": 43,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The old theatre shows silent films only on extremely rare occasions.",
+        "promptZh": "這間舊戲院極少放映默片。",
+        "starter": "It",
+        "answer": "It is only once in a blue moon that the old theatre shows silent films.",
+        "answerZh": "這間舊戲院極少放映默片。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q44",
+        "number": 44,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The former manager almost never praised the staff.",
+        "promptZh": "以前那位經理幾乎從不稱讚員工。",
+        "starter": "It",
+        "answer": "It was only once in a blue moon that the former manager praised the staff.",
+        "answerZh": "以前那位經理極少稱讚員工。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q45",
+        "number": 45,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Chances like this are extremely rare, so we should accept the offer.",
+        "promptZh": "這種機會極為罕有，因此我們應該接受這項提議。",
+        "starter": "Because",
+        "answer": "Because a chance like this comes along once in a blue moon, we should accept the offer.",
+        "answerZh": "由於這種機會極為罕有，我們應該接受這項提議。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q46",
+        "number": 46,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Lena normally refuses our invitations, but she agrees to join us on very rare occasions.",
+        "promptZh": "Lena 通常拒絕我們的邀請，但極少數情況下會答應加入我們。",
+        "starter": "Lena",
+        "answer": "Lena normally refuses our invitations but, once in a blue moon, agrees to join us.",
+        "answerZh": "Lena 通常拒絕我們的邀請，但極少數情況下會答應加入我們。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q47",
+        "number": 47,
+        "sourcePage": 25,
+        "sourcePages": [
+          25,
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: These errors are extremely rare. B: That is not true. They happen every week.",
+        "promptZh": "甲：這些錯誤極少發生。 乙：這並不正確。它們每星期都會出現。",
+        "starter": "These",
+        "answer": "These errors do not happen once in a blue moon; they happen every week.",
+        "answerZh": "這些錯誤並非極少發生，而是每星期都會出現。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q48",
+        "number": 48,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The museum opens its oldest room to the public only on extremely rare occasions.",
+        "promptZh": "博物館只有在極少數情況下才會向公眾開放最古老的展覽室。",
+        "starter": "Once",
+        "answer": "Once in a blue moon, the museum opens its oldest room to the public.",
+        "answerZh": "博物館只有在極少數情況下才會向公眾開放最古老的展覽室。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "Once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q49",
+        "number": 49,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Our office almost never has an entire day without receiving any emails.",
+        "promptZh": "我們的辦公室幾乎從不會一整天都收不到任何電郵。",
+        "starter": "A",
+        "answer": "A day with no emails comes along once in a blue moon at our office.",
+        "answerZh": "我們的辦公室極少會有一整天收不到任何電郵。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      },
+      {
+        "id": "idiom-138-q50",
+        "number": 50,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: You never take a complete day off. B: I do, but extremely rarely.",
+        "promptZh": "甲：你從不休息一整天。 乙：我會，只是極少這樣做。",
+        "starter": "Only",
+        "answer": "Only once in a blue moon do I allow myself to take a complete day off.",
+        "answerZh": "我極少容許自己休息一整天。",
+        "targetForm": "once in a blue moon",
+        "targetMeaning": "Very rarely; almost never.",
+        "highlight": "once in a blue moon"
+      }
+    ]
+  }
+}

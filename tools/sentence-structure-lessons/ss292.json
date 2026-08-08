@@ -1,0 +1,1267 @@
+{
+  "id": "ss292",
+  "order": 292,
+  "slug": "far-be-it-from-person-to-verb",
+  "title": "「Far be it from + person + to + verb」禮貌否認與自我抽離句",
+  "titleZh": "「Far be it from + person + to + verb」禮貌否認與自我抽離句",
+  "titleEn": "Using “Far be it from + person + to + verb”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 291 -「Far be it from + person + to + verb」禮貌否認與自我抽離句.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "sha256": "4535a310efc723cd425f6fdfa02c7c36693b6cca3c284a6c4f473dcefe82bd39",
+    "sourceNumber": 291,
+    "systemOrder": 292,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 291 maps to ss292: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Far be it from + person / group + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss292-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Far be it from + person / group + to + base verb + other information"
+    }
+  ],
+  "example": "Far be it from me to question your motives.",
+  "exampleZh": "我絕不敢質疑你的動機。",
+  "examples": [
+    {
+      "id": "ss292-example-01",
+      "en": "Far be it from me to question your motives.",
+      "zh": "我絕不敢質疑你的動機。",
+      "highlight": "Far be it from me to question your motives."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss292-rule-01",
+      "zh": "固定表達 Far be it from... 採用倒裝語序，當中的 be 永遠不變。無論 from 後面是 me、them、manager 或其他人物，都仍然使用 be；不可因人物和時態改成 is、was 或 are。這是慣用語內部的固定形式，不按一般主謂配合變化。",
+      "en": "“Be” never changes The fixed expression always uses be. Far be it from me to complain. Far be it from them to interfere. Far be it from the manager to blame the staff. Far is it from me to complain. Far was it from him to complain. Far are it from them to interfere. The form be remains unchanged even when the person after from changes.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss292-rule-02",
+      "zh": "在 from 後面要用受格代名詞。單數可用 me、you、him 或 her，複數可用 us 或 them；不可改用主格代名詞 I、we、he、she 或 they。",
+      "en": "Use an object pronoun after “from” from me from us from you from him from her from them from I from we from he from she from they",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss292-rule-03",
+      "zh": "在 to 後面要用動詞原形；可以表達質疑、批評、干預、指責或決定等動作，不可改用過去式、現在分詞、第三人稱單數或過去分詞。",
+      "en": "Use the base form after “to” to question to criticise to interfere to accuse to decide to questioned to criticising to interferes to accused",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss292-rule-04",
+      "zh": "此句式本身已帶否定和自我抽離的意思，當中不可再加入 not；否則會造成雙重否定並改變原意。",
+      "en": "Do not add “not” inside the fixed expression The expression already carries a negative meaning. Far be it from me to complain. Far be it from me not to complain. The correct sentence means: I would not presume to complain.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss292-rule-05",
+      "zh": "在這個句式中，from 後的人或團體通常就是 to 後動作的執行者。例如句中出現 me，表示由說話者提出質疑；出現 the committee，則表示由委員會採取動作。",
+      "en": "The person after “from” normally performs the action after “to” Far be it from me to question your decision. Who would question the decision? Me. Far be it from the committee to ignore these concerns. Who would ignore the concerns? The committee.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss292-rule-06",
+      "zh": "這個固定句式中的 far 並不表示實際的空間距離；它是 Far be it from... 慣用結構不可分割的一部分。",
+      "en": "“Far” does not describe physical distance In this expression, far does not mean that something is physically far away. It forms part of a fixed idiomatic structure.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss292-rule-07",
+      "zh": "句式內部的語序必須保持「Far be it from + 人物 + to + 動詞原形」；far、be、it 及 from 的先後次序都不可調換。",
+      "en": "The internal word order must remain fixed Far be it from us to interfere. Be it far from us to interfere. Far from us be it to interfere. Far it be from us to interfere.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss292-rule-08",
+      "zh": "補充資料可以放在整個句式之前或之後，也可以把句式放進引語；但無論位置如何改變，Far be it from + 人物 + to + 動詞原形 的內部結構都不能改動。",
+      "en": "Additional information may appear before or after the expression As a guest, far be it from me to complain. I respect your experience far be it from me to dismiss your advice. “Far be it from me to lecture an expert,” the reporter said. The expression may appear in different positions within the complete answer, but its own internal structure does not change.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss292-rule-09",
+      "zh": "這個表達通常帶有正式語氣，適合審慎提出異議、會議、公開聲明、正式討論、文章、演說、專業溝通及外交對話；在親密朋友的隨意交談中可能顯得過於正式。",
+      "en": "The expression is generally formal It is useful in: careful disagreements meetings public statements formal discussions essays speeches professional communication diplomatic conversations. It may sound unusually formal in very casual conversation.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss292-rule-10",
+      "zh": "我絕不敢質疑你的專業判斷。 他當然「絕不會」為任何事道歉。",
+      "en": "It can be sincere or ironic Sincere: Far be it from me to question your professional judgement. Ironic: Far be it from him to apologise for anything. The surrounding context determines the tone.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss292-benefit-01",
+      "zh": "這個句型能在提出質疑或不同意見之前，先表示尊重，令語氣不會過分直接。",
+      "en": "It softens criticism Instead of directly saying: You are wrong. You can introduce your concern more carefully: Far be it from me to question your judgement, but have we considered the possible risks?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss292-benefit-02",
+      "zh": "身為新來的人，我哪敢改變整套制度。 這能清楚表明你知道自己的角色和權限。",
+      "en": "It shows that you understand your limits You can use the structure to show that you do not believe you have the authority, experience or right to control another person’s decision. As a newcomer, far be it from me to change the entire system.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss292-benefit-03",
+      "zh": "這個句式讓說話者可以較有禮貌地討論敏感事情，例如動機、專業判斷、私人決定、責任、錯誤、領導方式及個人選擇，避免一開始便顯得敵對。",
+      "en": "It helps you discuss sensitive matters politely The structure is useful when discussing: motives professional judgement private decisions responsibility mistakes leadership personal choices. It allows you to approach these matters without sounding immediately hostile.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss292-benefit-04",
+      "zh": "這個句式提供一個適合正式討論的審慎異議框架：先用 Far be it from me to...表明無意冒犯或批評，再用 but 提出真正的保留。這能幫助學生在口語和寫作中有條理地表達不同意見，同時保持克制和禮貌。",
+      "en": "It gives you a formal disagreement frame A learner can use the ready-made frame: Far be it from me to ___, but ___. Far be it from me to criticise the plan, but the cost may be higher than expected. This frame helps students organise a careful disagreement while speaking or writing.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss292-benefit-05",
+      "zh": "在正式或需要措辭謹慎的情境中，這個句式可取代反覆使用 I do not want to criticise、I do not want to interfere 或 I do not want to question，使表達更精確而不累贅。",
+      "en": "It avoids repeated use of “I do not want to” Instead of repeatedly writing: I do not want to criticise... I do not want to interfere... I do not want to question... You can use a more precise alternative when the situation is formal or delicate.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss292-benefit-06",
+      "zh": "在合適語境中，這個句式可帶出克制的反諷，間接指出某人的行為一向可以預料；使用時要謹慎，因為語氣可能顯得諷刺。",
+      "en": "It can create controlled irony In the right context, the expression can point out someone’s predictable behaviour: Far be it from him to admit a mistake. This allows a speaker or writer to express criticism indirectly. However, this use should be handled carefully because it may sound sarcastic.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 291 maps to ss292: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using:",
+      "Far be it from + person / group + to + base verb",
+      "Preserve the original meaning, person, tone and surrounding information.",
+      "The complete target expression may appear at the beginning, in the middle, after an",
+      "introductory phrase or inside a direct quotation.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Far be it from + person / group + to + verb 改寫以下句子。",
+      "保留原句的意思、人物、語氣及其他資料。",
+      "完整目標句型可能出現在句首、句中、引入語之後或直接引語之內。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss292-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I would not presume to question your judgement.",
+      "promptZh": "我不敢妄自質疑你的判斷。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far be it from me to question your judgement.",
+      "answerZh": "我絕不敢質疑你的判斷。",
+      "answerZhSource": "pdf",
+      "highlight": "Far be it from me to question your judgement."
+    },
+    {
+      "id": "ss292-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is not our place to tell you how to raise your children.",
+      "promptZh": "我們無權告訴你應該怎樣教養子女。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far be it from us to tell you how to raise your children.",
+      "answerZh": "我們哪敢告訴你應該怎樣教養子女。",
+      "answerZhSource": "pdf",
+      "highlight": "Far be it from us to tell you how to raise your children."
+    },
+    {
+      "id": "ss292-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "He would never presume to criticise anyone’s accent.",
+      "promptZh": "他絕不敢批評任何人的口音。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far be it from him to criticise anyone’s accent.",
+      "answerZh": "他絕不敢批評任何人的口音。",
+      "answerZhSource": "pdf",
+      "highlight": "Far be it from him to criticise anyone’s accent."
+    },
+    {
+      "id": "ss292-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "She has no intention of interfering in a private family matter.",
+      "promptZh": "她絕無意干涉別人的家庭私事。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far be it from her to interfere in a private family matter.",
+      "answerZh": "她絕無意干涉別人的家庭私事。",
+      "answerZhSource": "pdf",
+      "highlight": "Far be it from her to interfere in a private family matter."
+    },
+    {
+      "id": "ss292-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "They do not claim the right to take all the credit.",
+      "promptZh": "他們不敢聲稱所有功勞都屬於自己。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far be it from them to take all the credit.",
+      "answerZh": "他們絕不敢把所有功勞歸於自己。",
+      "answerZhSource": "pdf",
+      "highlight": "Far be it from them to take all the credit."
+    },
+    {
+      "id": "ss292-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As a guest, I would not presume to complain about the arrangements.",
+      "promptZh": "身為客人，我不敢妄自抱怨這些安排。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As a guest, far be it from me to complain about the arrangements.",
+      "answerZh": "身為客人，我哪敢抱怨這些安排。",
+      "answerZhSource": "pdf",
+      "highlight": "As a guest, far be it from me to complain about the arrangements."
+    },
+    {
+      "id": "ss292-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After receiving so much help, we have no right to demand more.",
+      "promptZh": "得到這麼多幫助後，我們無權再提出更多要求。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After receiving so much help, far be it from us to demand more.",
+      "answerZh": "得到這麼多幫助後，我們哪敢再提出更多要求。",
+      "answerZhSource": "pdf",
+      "highlight": "After receiving so much help, far be it from us to demand more."
+    },
+    {
+      "id": "ss292-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is not for the assistant to overrule the director.",
+      "promptZh": "助理不應越權推翻主管的決定。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far be it from the assistant to overrule the director.",
+      "answerZh": "助理哪敢越權推翻主管的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Far be it from the assistant to overrule the director."
+    },
+    {
+      "id": "ss292-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In this matter, I am not in a position to speak for everyone.",
+      "promptZh": "在這件事上，我沒有資格代表所有人發言。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this matter, far be it from me to speak for everyone.",
+      "answerZh": "在這件事上，我哪敢代表所有人發言。",
+      "answerZhSource": "pdf",
+      "highlight": "In this matter, far be it from me to speak for everyone."
+    },
+    {
+      "id": "ss292-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Whatever my concerns, it would be wrong for me to accuse anyone without evidence.",
+      "promptZh": "無論我有甚麼憂慮，我也不應在沒有證據的情況下指控任何人。",
+      "promptZhSource": "pdf",
+      "starter": "Whatever",
+      "answer": "Whatever my concerns, far be it from me to accuse anyone without evidence.",
+      "answerZh": "無論我有甚麼憂慮，我也絕不敢在沒有證據的情況下指控任何人。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever my concerns, far be it from me to accuse anyone without evidence."
+    },
+    {
+      "id": "ss292-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I respect your experience, and I would not presume to dismiss your advice.",
+      "promptZh": "我尊重你的經驗，也不敢妄自輕視你的建議。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I respect your experience; far be it from me to dismiss your advice.",
+      "answerZh": "我尊重你的經驗；我絕不敢輕視你的建議。",
+      "answerZhSource": "pdf",
+      "highlight": "I respect your experience; far be it from me to dismiss your advice."
+    },
+    {
+      "id": "ss292-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The decision is yours, and we do not intend to pressure you.",
+      "promptZh": "決定權在你手上，我們無意向你施壓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision is yours, and far be it from us to pressure you.",
+      "answerZh": "決定權在你手上，我們絕無意向你施壓。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision is yours, and far be it from us to pressure you."
+    },
+    {
+      "id": "ss292-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although he disagreed, he did not consider it his place to question the chair’s authority.",
+      "promptZh": "雖然他不同意，但他認為自己無權質疑主席的權威。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although he disagreed, far be it from him to question the chair’s authority.",
+      "answerZh": "雖然他不同意，但他哪敢質疑主席的權威。",
+      "answerZhSource": "pdf",
+      "highlight": "Although he disagreed, far be it from him to question the chair’s authority."
+    },
+    {
+      "id": "ss292-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctor had explained the risks, so I had no intention of second-guessing her judgement.",
+      "promptZh": "醫生已經解釋風險，因此我無意事後質疑她的判斷。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor had explained the risks, so far be it from me to second-guess her judgement.",
+      "answerZh": "醫生已經解釋風險，因此我絕不敢事後質疑她的判斷。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor had explained the risks, so far be it from me to second-guess her judgement."
+    },
+    {
+      "id": "ss292-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Grace said, “I certainly do not deserve to take all the credit.”",
+      "promptZh": "Grace 說：「我當然不敢把所有功勞歸於自己。」",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "“Far be it from me to take all the credit,” Grace said.",
+      "answerZh": "Grace 說：「我哪敢把所有功勞歸於自己。」",
+      "answerZhSource": "pdf",
+      "highlight": "“Far be it from me to take all the credit,” Grace said.",
+      "acceptedAnswers": [
+        "Far be it from me to take all the credit, Grace said."
+      ]
+    },
+    {
+      "id": "ss292-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The spokesperson replied, “We are certainly not denying that mistakes were made.”",
+      "promptZh": "發言人回答：「我們當然不會否認曾經出錯。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The spokesperson replied, “Far be it from us to deny that mistakes were made.”",
+      "answerZh": "發言人回答：「我們絕不會否認曾經出錯。」",
+      "answerZhSource": "pdf",
+      "highlight": "The spokesperson replied, “Far be it from us to deny that mistakes were made.”"
+    },
+    {
+      "id": "ss292-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "She smiled and said, “I would never dream of spoiling your surprise.”",
+      "promptZh": "她微笑着說：「我絕不會破壞你的驚喜。」",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She smiled and said, “Far be it from me to spoil your surprise.”",
+      "answerZh": "她微笑着說：「我哪會破壞你的驚喜。」",
+      "answerZhSource": "pdf",
+      "highlight": "She smiled and said, “Far be it from me to spoil your surprise.”"
+    },
+    {
+      "id": "ss292-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After all, it is not for the interns to rewrite the entire policy on their first day.",
+      "promptZh": "畢竟，實習生不應在第一天便重寫整套政策。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After all, far be it from the interns to rewrite the entire policy on their first day.",
+      "answerZh": "畢竟，實習生哪敢在第一天便重寫整套政策。",
+      "answerZhSource": "pdf",
+      "highlight": "After all, far be it from the interns to rewrite the entire policy on their first day."
+    },
+    {
+      "id": "ss292-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Even in private, she would never presume to mock a colleague’s mistake.",
+      "promptZh": "即使在私下，她也絕不敢嘲笑同事的錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even in private, far be it from her to mock a colleague’s mistake.",
+      "answerZh": "即使在私下，她也絕不敢嘲笑同事的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Even in private, far be it from her to mock a colleague’s mistake."
+    },
+    {
+      "id": "ss292-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You are certainly not the sort of person who would admit that the plan was flawed.",
+      "promptZh": "你當然不是那種會承認計劃有缺陷的人。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far be it from you to admit that the plan was flawed.",
+      "answerZh": "你當然「絕不會」承認這個計劃有缺陷。",
+      "answerZhSource": "pdf",
+      "highlight": "Far be it from you to admit that the plan was flawed."
+    },
+    {
+      "id": "ss292-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I may be disappointed, but I do not claim the right to question your choice.",
+      "promptZh": "我可能感到失望，但我無權質疑你的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I may be disappointed, but far be it from me to question your choice.",
+      "answerZh": "我可能感到失望，但我絕不敢質疑你的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "I may be disappointed, but far be it from me to question your choice."
+    },
+    {
+      "id": "ss292-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report raises serious concerns; nevertheless, we do not claim the authority to declare the project a failure.",
+      "promptZh": "報告提出了嚴重憂慮；然而，我們無權宣布這個項目失敗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report raises serious concerns; nevertheless, far be it from us to declare the project a failure.",
+      "answerZh": "報告提出了嚴重憂慮；然而，我們哪敢宣布這個項目失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "The report raises serious concerns; nevertheless, far be it from us to declare the project a failure."
+    },
+    {
+      "id": "ss292-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Since we were not present, we do not claim the right to judge what happened.",
+      "promptZh": "由於我們當時不在場，我們無權判斷發生了甚麼事。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since we were not present, far be it from us to judge what happened.",
+      "answerZh": "由於我們當時不在場，我們哪敢判斷發生了甚麼事。",
+      "answerZhSource": "pdf",
+      "highlight": "Since we were not present, far be it from us to judge what happened."
+    },
+    {
+      "id": "ss292-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As only one side has been heard, the panel does not claim the right to reach a final conclusion.",
+      "promptZh": "由於目前只聽取了其中一方的說法，小組無權作出最終結論。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As only one side has been heard, far be it from the panel to reach a final conclusion.",
+      "answerZh": "由於目前只聽取了其中一方的說法，小組哪敢作出最終結論。",
+      "answerZhSource": "pdf",
+      "highlight": "As only one side has been heard, far be it from the panel to reach a final conclusion."
+    },
+    {
+      "id": "ss292-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The editor noted the error but added, “I am not blaming a junior colleague.”",
+      "promptZh": "編輯指出了錯誤，但補充說：「我並非要責怪一名資歷較淺的同事。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The editor noted the error but added, “Far be it from me to blame a junior colleague.”",
+      "answerZh": "編輯指出了錯誤，但補充說：「我絕無意責怪一名資歷較淺的同事。」",
+      "answerZhSource": "pdf",
+      "highlight": "The editor noted the error but added, “Far be it from me to blame a junior colleague.”"
+    },
+    {
+      "id": "ss292-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "He accepted the apology and said, “I would not hold one mistake against you forever.”",
+      "promptZh": "他接受了道歉，並說：「我不會因為一次錯誤而永遠怪責你。」",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He accepted the apology and said, “Far be it from me to hold one mistake against you forever.”",
+      "answerZh": "他接受了道歉，並說：「我哪會因為一次錯誤而永遠怪責你。」",
+      "answerZhSource": "pdf",
+      "highlight": "He accepted the apology and said, “Far be it from me to hold one mistake against you forever.”"
+    },
+    {
+      "id": "ss292-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "She had strong views; still, she had no wish to silence the other speakers.",
+      "promptZh": "她有強烈的看法；儘管如此，她無意令其他發言者收聲。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She had strong views; still, far be it from her to silence the other speakers.",
+      "answerZh": "她有強烈的看法；儘管如此，她絕無意令其他發言者收聲。",
+      "answerZhSource": "pdf",
+      "highlight": "She had strong views; still, far be it from her to silence the other speakers."
+    },
+    {
+      "id": "ss292-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We can offer suggestions, but it is not our place to make the decision for you.",
+      "promptZh": "我們可以提出建議，但無權替你作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can offer suggestions, but far be it from us to make the decision for you.",
+      "answerZh": "我們可以提出建議，但絕不敢替你作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "We can offer suggestions, but far be it from us to make the decision for you."
+    },
+    {
+      "id": "ss292-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "With so little information available, no one is in a position to make confident predictions.",
+      "promptZh": "現有資料這麼少，任何人都沒有條件作出有把握的預測。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With so little information available, far be it from anyone to make confident predictions.",
+      "answerZh": "現有資料這麼少，任何人哪敢作出有把握的預測。",
+      "answerZhSource": "pdf",
+      "highlight": "With so little information available, far be it from anyone to make confident predictions."
+    },
+    {
+      "id": "ss292-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee would never claim the right to ignore the people most affected by the proposal.",
+      "promptZh": "委員會絕不會聲稱自己有權忽視最受這項建議影響的人。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far be it from the committee to ignore the people most affected by the proposal.",
+      "answerZh": "委員會絕不敢忽視最受這項建議影響的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Far be it from the committee to ignore the people most affected by the proposal."
+    },
+    {
+      "id": "ss292-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager may prefer another approach, but he has no intention of obstructing an approved plan.",
+      "promptZh": "經理可能較喜歡另一種方法，但他無意阻撓一項已獲批准的計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager may prefer another approach, but far be it from him to obstruct an approved plan.",
+      "answerZh": "經理可能較喜歡另一種方法，但他絕無意阻撓一項已獲批准的計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager may prefer another approach, but far be it from him to obstruct an approved plan."
+    },
+    {
+      "id": "ss292-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Whatever their private opinions, the judges would never presume to favour one contestant.",
+      "promptZh": "無論評判私下有甚麼看法，他們也絕不敢偏袒其中一名參賽者。",
+      "promptZhSource": "pdf",
+      "starter": "Whatever",
+      "answer": "Whatever their private opinions, far be it from the judges to favour one contestant.",
+      "answerZh": "無論評判私下有甚麼看法，他們也絕不敢偏袒其中一名參賽者。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever their private opinions, far be it from the judges to favour one contestant."
+    },
+    {
+      "id": "ss292-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The reporter began, “I am not going to lecture an expert, but could you explain that point?”",
+      "promptZh": "記者開始說：「我並非要教訓一名專家，但你可以解釋那一點嗎？」",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "“Far be it from me to lecture an expert,” the reporter began, “but could you explain that point?”",
+      "answerZh": "記者開始說：「我哪敢教訓一名專家，但你可以解釋那一點嗎？」",
+      "answerZhSource": "pdf",
+      "highlight": "“Far be it from me to lecture an expert,” the reporter began, “but could you explain that point?”",
+      "acceptedAnswers": [
+        "Far be it from me to lecture an expert, the reporter began, but could you explain that point?"
+      ]
+    },
+    {
+      "id": "ss292-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The coach paused before saying, “I am not trying to excuse poor behaviour.”",
+      "promptZh": "教練停頓了一會，然後說：「我並非企圖為不當行為開脫。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach paused before saying, “Far be it from me to excuse poor behaviour.”",
+      "answerZh": "教練停頓了一會，然後說：「我絕無意為不當行為開脫。」",
+      "answerZhSource": "pdf",
+      "highlight": "The coach paused before saying, “Far be it from me to excuse poor behaviour.”"
+    },
+    {
+      "id": "ss292-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The residents were frustrated; even so, they had no intention of threatening the workers.",
+      "promptZh": "居民感到十分沮喪；儘管如此，他們無意威脅工人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The residents were frustrated; even so, far be it from them to threaten the workers.",
+      "answerZh": "居民感到十分沮喪；儘管如此，他們絕無意威脅工人。",
+      "answerZhSource": "pdf",
+      "highlight": "The residents were frustrated; even so, far be it from them to threaten the workers."
+    },
+    {
+      "id": "ss292-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In raising this concern, we do not mean to suggest that the entire system is unsafe.",
+      "promptZh": "我們提出這項憂慮，並不是要表示整套系統都不安全。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In raising this concern, far be it from us to suggest that the entire system is unsafe.",
+      "answerZh": "我們提出這項憂慮，絕不是要表示整套系統都不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "In raising this concern, far be it from us to suggest that the entire system is unsafe."
+    },
+    {
+      "id": "ss292-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The review is critical, but the authors do not deny the programme’s achievements.",
+      "promptZh": "這份評估報告提出了批評，但作者並沒有否定該計劃的成果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The review is critical, but far be it from the authors to deny the programme’s achievements.",
+      "answerZh": "這份評估報告提出了批評，但作者絕無意否定該計劃的成果。",
+      "answerZhSource": "pdf",
+      "highlight": "The review is critical, but far be it from the authors to deny the programme’s achievements."
+    },
+    {
+      "id": "ss292-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "She knew the tradition mattered, and she would not presume to remove it without consultation.",
+      "promptZh": "她知道這項傳統十分重要，也不敢在未經諮詢的情況下取消它。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She knew the tradition mattered; far be it from her to remove it without consultation.",
+      "answerZh": "她知道這項傳統十分重要；她哪敢在未經諮詢的情況下取消它。",
+      "answerZhSource": "pdf",
+      "highlight": "She knew the tradition mattered; far be it from her to remove it without consultation."
+    },
+    {
+      "id": "ss292-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A newcomer should not assume that long-standing procedures are pointless.",
+      "promptZh": "新來的人不應假設沿用已久的程序毫無意義。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far be it from a newcomer to assume that long-standing procedures are pointless.",
+      "answerZh": "新來的人哪敢假設沿用已久的程序毫無意義。",
+      "answerZhSource": "pdf",
+      "highlight": "Far be it from a newcomer to assume that long-standing procedures are pointless."
+    },
+    {
+      "id": "ss292-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before we criticise the result, we have no wish to forget the conditions under which the team worked.",
+      "promptZh": "在批評結果之前，我們無意忽視團隊當時的工作條件。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we criticise the result, far be it from us to forget the conditions under which the team worked.",
+      "answerZh": "在批評結果之前，我們絕不應忘記團隊當時的工作條件。",
+      "answerZhSource": "pdf",
+      "highlight": "Before we criticise the result, far be it from us to forget the conditions under which the team worked."
+    },
+    {
+      "id": "ss292-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I do not share his conclusion; however, I would not presume to doubt his honesty.",
+      "promptZh": "我不同意他的結論；然而，我不敢妄自懷疑他的誠信。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do not share his conclusion; however, far be it from me to doubt his honesty.",
+      "answerZh": "我不同意他的結論；然而，我絕不敢懷疑他的誠信。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not share his conclusion; however, far be it from me to doubt his honesty."
+    },
+    {
+      "id": "ss292-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although the evidence is incomplete, the newspaper has no intention of presenting speculation as fact.",
+      "promptZh": "雖然證據並不完整，但報章無意把猜測當作事實報道。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the evidence is incomplete, far be it from the newspaper to present speculation as fact.",
+      "answerZh": "雖然證據並不完整，但報章絕不應把猜測當作事實報道。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the evidence is incomplete, far be it from the newspaper to present speculation as fact."
+    },
+    {
+      "id": "ss292-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The union may challenge the timetable, but it has no wish to dismiss the safety concerns behind the delay.",
+      "promptZh": "工會可能會質疑時間表，但無意輕視導致延誤的安全憂慮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The union may challenge the timetable, but far be it from the union to dismiss the safety concerns behind the delay.",
+      "answerZh": "工會可能會質疑時間表，但絕無意輕視導致延誤的安全憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The union may challenge the timetable, but far be it from the union to dismiss the safety concerns behind the delay."
+    },
+    {
+      "id": "ss292-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "After benefiting from the community’s support, the company has no right to ignore local concerns.",
+      "promptZh": "公司得到社區的支持後，無權忽視本地居民的憂慮。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After benefiting from the community’s support, far be it from the company to ignore local concerns.",
+      "answerZh": "公司得到社區的支持後，哪敢忽視本地居民的憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "After benefiting from the community’s support, far be it from the company to ignore local concerns."
+    },
+    {
+      "id": "ss292-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The professor welcomed debate, saying, “I would never dream of discouraging students from challenging an argument.”",
+      "promptZh": "教授歡迎辯論，並說：「我絕不會阻止學生質疑一項論點。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The professor welcomed debate, saying, “Far be it from me to discourage students from challenging an argument.”",
+      "answerZh": "教授歡迎辯論，並說：「我絕不會阻止學生質疑一項論點。」",
+      "answerZhSource": "pdf",
+      "highlight": "The professor welcomed debate, saying, “Far be it from me to discourage students from challenging an argument.”"
+    },
+    {
+      "id": "ss292-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "No final decision has been made, and we have no intention of creating false expectations.",
+      "promptZh": "目前尚未作出最終決定，我們無意令人產生不切實際的期望。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No final decision has been made, and far be it from us to create false expectations.",
+      "answerZh": "目前尚未作出最終決定，我們絕無意令人產生不切實際的期望。",
+      "answerZhSource": "pdf",
+      "highlight": "No final decision has been made, and far be it from us to create false expectations."
+    },
+    {
+      "id": "ss292-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Whatever criticism the policy deserves, I would not presume to question the good faith of those who proposed it.",
+      "promptZh": "無論這項政策應受到甚麼批評，我也不敢妄自質疑提出政策的人是否出於善意。",
+      "promptZhSource": "pdf",
+      "starter": "Whatever",
+      "answer": "Whatever criticism the policy deserves, far be it from me to question the good faith of those who proposed it.",
+      "answerZh": "無論這項政策應受到甚麼批評，我也絕不敢質疑提出政策的人是否出於善意。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever criticism the policy deserves, far be it from me to question the good faith of those who proposed it."
+    },
+    {
+      "id": "ss292-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The chair acknowledged the tension before adding, “I will not pretend that this discussion will be easy.”",
+      "promptZh": "主席承認現場氣氛緊張，然後補充說：「我不會假裝這場討論會很容易。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chair acknowledged the tension before adding, “Far be it from me to pretend that this discussion will be easy.”",
+      "answerZh": "主席承認現場氣氛緊張，然後補充說：「我絕不會假裝這場討論會很容易。」",
+      "answerZhSource": "pdf",
+      "highlight": "The chair acknowledged the tension before adding, “Far be it from me to pretend that this discussion will be easy.”"
+    },
+    {
+      "id": "ss292-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Because every case is different, the adviser would not presume to promise that one solution will work for everyone.",
+      "promptZh": "由於每宗個案都不同，顧問不敢保證同一個方法對所有人都有效。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because every case is different, far be it from the adviser to promise that one solution will work for everyone.",
+      "answerZh": "由於每宗個案都不同，顧問哪敢保證同一個方法對所有人都有效。",
+      "answerZhSource": "pdf",
+      "highlight": "Because every case is different, far be it from the adviser to promise that one solution will work for everyone."
+    },
+    {
+      "id": "ss292-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We may disagree strongly with the outcome; even so, we would never presume to undermine the process simply because we lost.",
+      "promptZh": "我們可能非常不同意這個結果；儘管如此，我們絕不會只因為落敗而破壞整個程序。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We may disagree strongly with the outcome; even so, far be it from us to undermine the process simply because we lost.",
+      "answerZh": "我們可能非常不同意這個結果；儘管如此，我們絕不會只因為落敗而破壞整個程序。",
+      "answerZhSource": "pdf",
+      "highlight": "We may disagree strongly with the outcome; even so, far be it from us to undermine the process simply because we lost."
+    }
+  ]
+}

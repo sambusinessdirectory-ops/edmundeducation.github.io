@@ -18,7 +18,7 @@ for (const lesson of content.lessons) {
     throw new Error(`${lesson.id || "Unknown lesson"} must contain exactly 50 questions`);
   }
   for (const question of lesson.questions) {
-    if (!/^idiom-(?:0[1-9]|1[0-9]|2[0-5])-q(?:0[1-9]|[1-4][0-9]|50)$/.test(question.id || "")) {
+    if (!/^idiom-(?:0[1-9]|[1-9][0-9]|1[0-2][0-9]|13[0-8])-q(?:0[1-9]|[1-4][0-9]|50)$/.test(question.id || "")) {
       throw new Error(`Invalid Idiom question ID: ${question.id || "(missing)"}`);
     }
     const answers = [question.answer, ...(Array.isArray(question.acceptedAnswers) ? question.acceptedAnswers : [])]
@@ -31,8 +31,8 @@ for (const lesson of content.lessons) {
   }
 }
 
-if (Object.keys(catalog).length !== 1250) {
-  throw new Error(`Expected 1,250 protected answers, found ${Object.keys(catalog).length}`);
+if (Object.keys(catalog).length !== 6900) {
+  throw new Error(`Expected 6,900 protected answers, found ${Object.keys(catalog).length}`);
 }
 
 const output = `// Generated from the visually verified Idiom lesson PDFs.\n`

@@ -1,0 +1,1248 @@
+{
+  "id": "ss295",
+  "order": 295,
+  "slug": "it-falls-to-person-to-verb",
+  "title": "「It falls to + person + to + verb」",
+  "titleZh": "「It falls to + person + to + verb」",
+  "titleEn": "Using “It falls to + person + to + verb”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structuere 294 -「It falls to + person + to + verb」 責任落在.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sha256": "338bdf6d9b867b48e49ef9fe824f2c3c88a16d071dd10f220fac11c113894784",
+    "sourceNumber": 294,
+    "systemOrder": 295,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 294 maps to ss295: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "It falls to + responsible person / group + to + base verb",
+  "formulas": [
+    {
+      "id": "ss295-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "It falls to + responsible person / group + to + base verb"
+    }
+  ],
+  "example": "It falls to the class monitor to collect the worksheets.",
+  "exampleZh": "收集工作紙的責任落在班長身上。",
+  "examples": [
+    {
+      "id": "ss295-example-01",
+      "en": "It falls to the class monitor to collect the worksheets.",
+      "zh": "收集工作紙的責任落在班長身上。",
+      "highlight": "It falls to the class monitor to collect the worksheets."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss295-rule-01",
+      "zh": "第一個 to 後面接負責的人、團體或機構。檢查報告的責任落在主管身上。",
+      "en": "The first “to” introduces the responsible party It falls to the supervisor to check the report.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss295-rule-02",
+      "zh": "第二個 to 後面必須使用原形動詞。",
+      "en": "The second “to” is followed by a base verb It falls to the supervisor to check the report. It falls to the supervisor to checking the report. It falls to the supervisor to checks the report.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss295-rule-03",
+      "zh": "在 It falls to 後面若使用人稱代名詞，必須用受格形式 me、him、her、us 或 them，再接第二個 to 和動詞原形。例如 It falls to me to explain... 正確，不可寫成 It falls to I to explain...。",
+      "en": "Use object pronouns after the first “to” It falls to me to explain the problem. It falls to him to contact the client. It falls to her to prepare the documents. It falls to us to make the arrangements. It falls to them to choose a new leader. Do not write: It falls to I to explain the problem.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss295-rule-04",
+      "zh": "負責者不一定是單一人物，也可以是團體或機構。審核申請的責任落在委員會身上。 執行這項規則的責任落在地方當局身上。",
+      "en": "The responsible party does not have to be one person It falls to the committee to review the application. It falls to local authorities to enforce the rule.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss295-rule-05",
+      "zh": "在這個句型中，fall 並非表示「跌下」。意思是：主席負有作出決定的責任。",
+      "en": "“Fall” does not describe physical movement here It falls to the chairperson to decide. The meaning is: The chairperson has the responsibility to decide.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss295-rule-06",
+      "zh": "改寫時要保留原句的時間和可能程度：現在責任用 falls，過去責任用 fell，可能在未來承擔可用 may fall，確定的未來責任則用 will fall。不可把所有情況一律改成現在式。",
+      "en": "The tense and modal verb must match the original meaning Present responsibility: It falls to the manager to respond. Past responsibility: It fell to the manager to respond. Possible future responsibility: It may fall to the manager to respond. Future responsibility: It will fall to the manager to respond.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss295-rule-07",
+      "zh": "時間、條件、原因或對比資料可以放在核心句型之前。固定句型不一定要出現在每句的開首。",
+      "en": "Other information may come before the core expression Once the interviews are complete, it will fall to the panel to select the successful candidate. The fixed expression does not have to appear at the beginning of every sentence.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss295-rule-08",
+      "zh": "若只看意思，另有多種說法可以表示責任落在某人身上，但它們的結構不同。本練習要求使用 it falls to + 人物 + to + 動詞的適當時態，不可用這些近義說法代替目標答案。",
+      "en": "Do not replace the target with a similar expression The following expressions have similar meanings, but they are not the target answers in this exercise: It is up to the manager to decide. The manager is responsible for deciding. The responsibility lies with the manager. The manager has to decide.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss295-benefit-01",
+      "zh": "這個句型能清楚指出某項工作或決定應由誰負責。檢查大樓的責任落在安全主任身上。",
+      "en": "It clearly identifies who has the responsibility This structure tells the reader exactly who must complete a task or make a decision. It falls to the safety officer to inspect the building.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss295-benefit-02",
+      "zh": "這個句型不只是表示某人有能力完成工作，而是強調責任正式落在該人身上。",
+      "en": "It places emphasis on duty rather than ability The sentence does not merely say that someone can perform the task. It shows that the responsibility belongs to that person.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss295-benefit-03",
+      "zh": "這個句型特別適合用於領導、正式決定、工作職責、公共服務和法律責任等情境。",
+      "en": "It is useful in formal situations The structure is particularly useful when discussing leadership, official decisions, workplace duties, public services and legal responsibilities.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss295-benefit-04",
+      "zh": "你不需要在每句都重複使用 must。有時可以用 it falls to，以較正式和沉穩的方式表達責任。最終決定須由主席作出。 第二句更能突出最終責任落在誰身上。",
+      "en": "It can sound more controlled than repeatedly using “must” Instead of writing many sentences with must, you can sometimes use it falls to to express responsibility in a more formal and measured way. Compare: The chairperson must make the final decision. It falls to the chairperson to make the final decision. The second sentence draws greater attention to where the final responsibility lies.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss295-benefit-05",
+      "zh": "你可以把 falls 改為 fell、has fallen、will fall、may fall 或 would fall，以表達過去、現在、將來或可能出現的責任。",
+      "en": "It allows useful changes in tense and possibility You can change falls to fell, has fallen, will fall, may fall or would fall to show past, present, future or possible responsibility.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss295-benefit-06",
+      "zh": "你可以在核心句型之前加入時間、條件、原因或對比，使句子結構更加多樣。雖然每個人都可以提供意見，但作出決定的責任落在主管身上。",
+      "en": "It helps you build more varied sentences You can place a time, condition, reason or contrast before the core expression. Although everyone may offer advice, it falls to the director to decide.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 294 maps to ss295: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using an appropriate form of:",
+      "It falls to + responsible party + to + base verb",
+      "Preserve the original tense, degree of possibility, time information and meaning.",
+      "The target expression may appear after an opening phrase or clause.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用以下句型的適當形式改寫句子：",
+      "It falls to + 負責者 + to + 原形動詞",
+      "保留原句的時態、可能性、時間資料和意思。",
+      "目標句型可以放在開首片語或子句之後。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss295-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The class monitor is responsible for collecting the worksheets.",
+      "promptZh": "班長負責收集工作紙。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It falls to the class monitor to collect the worksheets.",
+      "answerZh": "收集工作紙的責任落在班長身上。",
+      "answerZhSource": "pdf",
+      "highlight": "It falls to the class monitor to collect the worksheets."
+    },
+    {
+      "id": "ss295-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Today, welcoming the visitors is the receptionist’s responsibility.",
+      "promptZh": "今天，接待訪客是接待員的責任。",
+      "promptZhSource": "pdf",
+      "starter": "Today",
+      "answer": "Today, it falls to the receptionist to welcome the visitors.",
+      "answerZh": "今天，由接待員負責接待訪客。",
+      "answerZhSource": "pdf",
+      "highlight": "Today, it falls to the receptionist to welcome the visitors."
+    },
+    {
+      "id": "ss295-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "At this stage, the technician must check the equipment.",
+      "promptZh": "在這個階段，技術員必須檢查設備。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, it falls to the technician to check the equipment.",
+      "answerZh": "在這個階段，檢查設備的責任落在技術員身上。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, it falls to the technician to check the equipment."
+    },
+    {
+      "id": "ss295-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In this situation, the team leader is the person who must explain the plan.",
+      "promptZh": "在這種情況下，組長必須負責解釋計劃。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this situation, it falls to the team leader to explain the plan.",
+      "answerZh": "在這種情況下，由組長負責解釋計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "In this situation, it falls to the team leader to explain the plan."
+    },
+    {
+      "id": "ss295-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ultimately, the judge has final responsibility for making the decision.",
+      "promptZh": "最終，法官負有作出決定的最後責任。",
+      "promptZhSource": "pdf",
+      "starter": "Ultimately",
+      "answer": "Ultimately, it falls to the judge to make the final decision.",
+      "answerZh": "最終決定始終須由法官作出。",
+      "answerZhSource": "pdf",
+      "highlight": "Ultimately, it falls to the judge to make the final decision."
+    },
+    {
+      "id": "ss295-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "For now, we are responsible for organising the files.",
+      "promptZh": "目前，我們負責整理文件。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For now, it falls to us to organise the files.",
+      "answerZh": "目前，由我們負責整理文件。",
+      "answerZhSource": "pdf",
+      "highlight": "For now, it falls to us to organise the files."
+    },
+    {
+      "id": "ss295-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When a customer makes a complaint, the manager is responsible for responding.",
+      "promptZh": "當顧客提出投訴時，經理負責作出回應。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When a customer makes a complaint, it falls to the manager to respond.",
+      "answerZh": "當顧客提出投訴時，便由經理負責作出回應。",
+      "answerZhSource": "pdf",
+      "highlight": "When a customer makes a complaint, it falls to the manager to respond."
+    },
+    {
+      "id": "ss295-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After the lesson, the students must return the books.",
+      "promptZh": "課堂結束後，學生必須歸還書本。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the lesson, it falls to the students to return the books.",
+      "answerZh": "課堂結束後，歸還書本是學生的責任。",
+      "answerZhSource": "pdf",
+      "highlight": "After the lesson, it falls to the students to return the books."
+    },
+    {
+      "id": "ss295-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "In the end, each voter must make an informed choice.",
+      "promptZh": "最終，每名選民都必須在掌握資料後作出選擇。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the end, it falls to each voter to make an informed choice.",
+      "answerZh": "最終，每名選民都要自行在掌握資料後作出選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "In the end, it falls to each voter to make an informed choice."
+    },
+    {
+      "id": "ss295-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The parents remain responsible for signing the consent form.",
+      "promptZh": "家長仍然負責簽署同意書。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It still falls to the parents to sign the consent form.",
+      "answerZh": "簽署同意書仍然是家長的責任。",
+      "answerZhSource": "pdf",
+      "highlight": "It still falls to the parents to sign the consent form."
+    },
+    {
+      "id": "ss295-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The oldest sister was given responsibility for contacting the relatives.",
+      "promptZh": "聯絡親屬的責任當時交給了長姊。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It fell to the oldest sister to contact the relatives.",
+      "answerZh": "聯絡親屬的責任當時落在長姊身上。",
+      "answerZhSource": "pdf",
+      "highlight": "It fell to the oldest sister to contact the relatives."
+    },
+    {
+      "id": "ss295-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After the lights went out, the caretaker had to check the fuse box.",
+      "promptZh": "停電後，管理員必須檢查保險絲箱。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the lights went out, it fell to the caretaker to check the fuse box.",
+      "answerZh": "停電後，檢查保險絲箱的責任落在管理員身上。",
+      "answerZhSource": "pdf",
+      "highlight": "After the lights went out, it fell to the caretaker to check the fuse box."
+    },
+    {
+      "id": "ss295-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "During the meeting, recording the decisions was the secretary’s duty.",
+      "promptZh": "會議期間，記錄各項決定是秘書的職責。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the meeting, it fell to the secretary to record the decisions.",
+      "answerZh": "會議期間，由秘書負責記錄各項決定。",
+      "answerZhSource": "pdf",
+      "highlight": "During the meeting, it fell to the secretary to record the decisions."
+    },
+    {
+      "id": "ss295-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In the end, the captain had final responsibility for choosing the last player.",
+      "promptZh": "最終，隊長負責選出最後一名球員。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the end, it fell to the captain to choose the last player.",
+      "answerZh": "最終，由隊長負責選出最後一名球員。",
+      "answerZhSource": "pdf",
+      "highlight": "In the end, it fell to the captain to choose the last player."
+    },
+    {
+      "id": "ss295-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new director has been given the task of rebuilding public confidence.",
+      "promptZh": "重建公眾信任的任務已交給新任主管。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It has fallen to the new director to rebuild public confidence.",
+      "answerZh": "重建公眾信任的責任如今落在新任主管身上。",
+      "answerZhSource": "pdf",
+      "highlight": "It has fallen to the new director to rebuild public confidence."
+    },
+    {
+      "id": "ss295-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Since the accountant resigned, Daniel has had to prepare the monthly report.",
+      "promptZh": "自從會計師辭職後，Daniel 一直需要負責準備每月報告。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the accountant resigned, it has fallen to Daniel to prepare the monthly report.",
+      "answerZh": "自從會計師辭職後，準備每月報告的責任便落在 Daniel 身上。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the accountant resigned, it has fallen to Daniel to prepare the monthly report."
+    },
+    {
+      "id": "ss295-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The committee will be responsible for approving the revised budget.",
+      "promptZh": "委員會將負責批准修訂預算。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It will fall to the committee to approve the revised budget.",
+      "answerZh": "批准修訂預算的責任將落在委員會身上。",
+      "answerZhSource": "pdf",
+      "highlight": "It will fall to the committee to approve the revised budget."
+    },
+    {
+      "id": "ss295-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Once the interviews are complete, the panel will have to select the successful candidate.",
+      "promptZh": "面試完成後，評審小組必須選出獲選申請人。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the interviews are complete, it will fall to the panel to select the successful candidate.",
+      "answerZh": "面試完成後，便由評審小組負責選出獲選申請人。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the interviews are complete, it will fall to the panel to select the successful candidate."
+    },
+    {
+      "id": "ss295-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Tomorrow, the guide’s duty will be to brief the visitors on safety.",
+      "promptZh": "明天，導遊將負責向訪客講解安全事項。",
+      "promptZhSource": "pdf",
+      "starter": "Tomorrow",
+      "answer": "Tomorrow, it will fall to the guide to brief the visitors on safety.",
+      "answerZh": "明天，將由導遊負責向訪客講解安全事項。",
+      "answerZhSource": "pdf",
+      "highlight": "Tomorrow, it will fall to the guide to brief the visitors on safety."
+    },
+    {
+      "id": "ss295-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After the final inspection, the engineer will be responsible for confirming that the bridge is safe.",
+      "promptZh": "完成最後檢查後，工程師將負責確認橋樑安全。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the final inspection, it will fall to the engineer to confirm that the bridge is safe.",
+      "answerZh": "完成最後檢查後，便由工程師負責確認橋樑安全。",
+      "answerZhSource": "pdf",
+      "highlight": "After the final inspection, it will fall to the engineer to confirm that the bridge is safe."
+    },
+    {
+      "id": "ss295-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The vice-principal may have to handle the complaint.",
+      "promptZh": "副校長可能需要處理這宗投訴。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may fall to the vice-principal to handle the complaint.",
+      "answerZh": "這宗投訴可能要由副校長處理。",
+      "answerZhSource": "pdf",
+      "highlight": "It may fall to the vice-principal to handle the complaint."
+    },
+    {
+      "id": "ss295-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the chairperson is absent, the vice-chairperson might have to lead the meeting.",
+      "promptZh": "如果主席缺席，副主席可能需要主持會議。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the chairperson is absent, it might fall to the vice-chairperson to lead the meeting.",
+      "answerZh": "如果主席缺席，主持會議的責任可能會落在副主席身上。",
+      "answerZhSource": "pdf",
+      "highlight": "If the chairperson is absent, it might fall to the vice-chairperson to lead the meeting."
+    },
+    {
+      "id": "ss295-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Without a clear agreement, the court could be required to settle the dispute.",
+      "promptZh": "如果沒有明確協議，法院可能需要解決這項爭議。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without a clear agreement, it could fall to the court to settle the dispute.",
+      "answerZh": "如果沒有明確協議，這項爭議可能要由法院解決。",
+      "answerZhSource": "pdf",
+      "highlight": "Without a clear agreement, it could fall to the court to settle the dispute."
+    },
+    {
+      "id": "ss295-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the two teams remained tied, the referee would have to decide the winner.",
+      "promptZh": "如果兩隊仍然打成平手，裁判便需要決定勝方。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the two teams remained tied, it would fall to the referee to decide the winner.",
+      "answerZh": "如果兩隊仍然打成平手，決定勝方的責任便會落在裁判身上。",
+      "answerZhSource": "pdf",
+      "highlight": "If the two teams remained tied, it would fall to the referee to decide the winner."
+    },
+    {
+      "id": "ss295-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The responsibility for confidential records should belong to trained staff.",
+      "promptZh": "機密紀錄應由受過訓練的職員負責處理。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It should fall to trained staff to deal with confidential records.",
+      "answerZh": "處理機密紀錄的責任應由受過訓練的職員承擔。",
+      "answerZhSource": "pdf",
+      "highlight": "It should fall to trained staff to deal with confidential records."
+    },
+    {
+      "id": "ss295-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "One junior employee should not be expected to solve the entire problem.",
+      "promptZh": "不應期望一名初級員工解決整個問題。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It should not fall to one junior employee to solve the entire problem.",
+      "answerZh": "解決整個問題的責任不應落在一名初級員工身上。",
+      "answerZhSource": "pdf",
+      "highlight": "It should not fall to one junior employee to solve the entire problem."
+    },
+    {
+      "id": "ss295-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Eventually, local residents may have to maintain the community garden.",
+      "promptZh": "最終，當地居民可能需要負責保養社區花園。",
+      "promptZhSource": "pdf",
+      "starter": "Eventually",
+      "answer": "Eventually, it may fall to local residents to maintain the community garden.",
+      "answerZh": "最終，保養社區花園的責任可能會落在當地居民身上。",
+      "answerZhSource": "pdf",
+      "highlight": "Eventually, it may fall to local residents to maintain the community garden."
+    },
+    {
+      "id": "ss295-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If no buyer comes forward, the bank may have to manage the property.",
+      "promptZh": "如果沒有買家提出收購，銀行可能需要管理該物業。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If no buyer comes forward, it may fall to the bank to manage the property.",
+      "answerZh": "如果沒有買家提出收購，管理該物業的責任可能會落在銀行身上。",
+      "answerZhSource": "pdf",
+      "highlight": "If no buyer comes forward, it may fall to the bank to manage the property."
+    },
+    {
+      "id": "ss295-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Unless the departments reach an agreement, the director could be required to choose between the two plans.",
+      "promptZh": "除非各部門達成協議，否則主管可能需要在兩個計劃之間作出選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless the departments reach an agreement, it could fall to the director to choose between the two plans.",
+      "answerZh": "除非各部門達成協議，否則可能要由主管在兩個計劃之間作出選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless the departments reach an agreement, it could fall to the director to choose between the two plans."
+    },
+    {
+      "id": "ss295-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Depending on the test results, the doctor may have to recommend further treatment.",
+      "promptZh": "視乎檢查結果，醫生可能需要建議進一步治療。",
+      "promptZhSource": "pdf",
+      "starter": "Depending",
+      "answer": "Depending on the test results, it may fall to the doctor to recommend further treatment.",
+      "answerZh": "視乎檢查結果，建議進一步治療的責任可能會落在醫生身上。",
+      "answerZhSource": "pdf",
+      "highlight": "Depending on the test results, it may fall to the doctor to recommend further treatment."
+    },
+    {
+      "id": "ss295-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although everyone can offer suggestions, the editor remains responsible for approving the final version.",
+      "promptZh": "雖然每個人都可以提出建議，但批准最終版本仍是編輯的責任。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although everyone can offer suggestions, it still falls to the editor to approve the final version.",
+      "answerZh": "雖然每個人都可以提出建議，但批准最終版本仍是編輯的責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Although everyone can offer suggestions, it still falls to the editor to approve the final version."
+    },
+    {
+      "id": "ss295-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Because the original organiser is ill, Priya is now responsible for arranging the event.",
+      "promptZh": "由於原本的活動負責人生病了，現在由 Priya 負責安排活動。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the original organiser is ill, it now falls to Priya to arrange the event.",
+      "answerZh": "由於原本的活動負責人生病了，現在由 Priya 負責安排活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the original organiser is ill, it now falls to Priya to arrange the event."
+    },
+    {
+      "id": "ss295-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Until a permanent manager is appointed, the assistant manager is responsible for supervising the branch.",
+      "promptZh": "在常任經理獲委任之前，助理經理負責監督分店。",
+      "promptZhSource": "pdf",
+      "starter": "Until",
+      "answer": "Until a permanent manager is appointed, it falls to the assistant manager to supervise the branch.",
+      "answerZh": "在常任經理獲委任之前，由助理經理負責監督分店。",
+      "answerZhSource": "pdf",
+      "highlight": "Until a permanent manager is appointed, it falls to the assistant manager to supervise the branch."
+    },
+    {
+      "id": "ss295-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Whenever the alarm sounds, the safety officer’s duty is to check whether the building must be evacuated.",
+      "promptZh": "每當警報響起，安全主任都須檢查是否需要疏散大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Whenever",
+      "answer": "Whenever the alarm sounds, it falls to the safety officer to check whether the building must be evacuated.",
+      "answerZh": "每當警報響起，便由安全主任負責檢查是否需要疏散大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Whenever the alarm sounds, it falls to the safety officer to check whether the building must be evacuated."
+    },
+    {
+      "id": "ss295-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In cases where the evidence is unclear, the responsibility for deciding whether further investigation is needed lies with the review panel.",
+      "promptZh": "在證據不明確的情況下，是否需要進一步調查須由審查小組決定。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In cases where the evidence is unclear, it falls to the review panel to decide whether further investigation is needed.",
+      "answerZh": "在證據不明確的情況下，是否需要進一步調查須由審查小組決定。",
+      "answerZhSource": "pdf",
+      "highlight": "In cases where the evidence is unclear, it falls to the review panel to decide whether further investigation is needed."
+    },
+    {
+      "id": "ss295-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Once the data have been checked, the research team is responsible for explaining what the results mean.",
+      "promptZh": "資料核對後，研究團隊負責解釋結果的意思。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the data have been checked, it falls to the research team to explain what the results mean.",
+      "answerZh": "資料核對後，便由研究團隊負責解釋結果的意思。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the data have been checked, it falls to the research team to explain what the results mean."
+    },
+    {
+      "id": "ss295-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Even if outside experts give advice, the board remains responsible for accepting or rejecting the proposal.",
+      "promptZh": "即使外部專家提供意見，接納或拒絕建議仍是董事會的責任。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if outside experts give advice, it still falls to the board to accept or reject the proposal.",
+      "answerZh": "即使外部專家提供意見，接納或拒絕建議仍是董事會的責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if outside experts give advice, it still falls to the board to accept or reject the proposal."
+    },
+    {
+      "id": "ss295-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "If both parents are unavailable, the legal guardian must give permission.",
+      "promptZh": "如果父母雙方都未能處理，法定監護人必須給予許可。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If both parents are unavailable, it falls to the legal guardian to give permission.",
+      "answerZh": "如果父母雙方都未能處理，便由法定監護人負責給予許可。",
+      "answerZhSource": "pdf",
+      "highlight": "If both parents are unavailable, it falls to the legal guardian to give permission."
+    },
+    {
+      "id": "ss295-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "In the absence of the head chef, the sous-chef is responsible for managing the kitchen.",
+      "promptZh": "主廚不在場時，副主廚負責管理廚房。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the absence of the head chef, it falls to the sous-chef to manage the kitchen.",
+      "answerZh": "主廚不在場時，由副主廚負責管理廚房。",
+      "answerZhSource": "pdf",
+      "highlight": "In the absence of the head chef, it falls to the sous-chef to manage the kitchen."
+    },
+    {
+      "id": "ss295-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Rather than leaving the matter unresolved, the mediator is responsible for helping both sides reach an agreement.",
+      "promptZh": "調解員負責幫助雙方達成協議，而不是讓事情懸而未決。",
+      "promptZhSource": "pdf",
+      "starter": "Rather",
+      "answer": "Rather than leaving the matter unresolved, it falls to the mediator to help both sides reach an agreement.",
+      "answerZh": "調解員須幫助雙方達成協議，而不是讓事情懸而未決。",
+      "answerZhSource": "pdf",
+      "highlight": "Rather than leaving the matter unresolved, it falls to the mediator to help both sides reach an agreement."
+    },
+    {
+      "id": "ss295-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "After all the evidence has been reviewed, the jury will have final responsibility for deciding whether the accused is guilty.",
+      "promptZh": "審閱所有證據後，陪審團將負責最終決定被告是否有罪。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After all the evidence has been reviewed, it will ultimately fall to the jury to decide whether the accused is guilty.",
+      "answerZh": "審閱所有證據後，最終將由陪審團決定被告是否有罪。",
+      "answerZhSource": "pdf",
+      "highlight": "After all the evidence has been reviewed, it will ultimately fall to the jury to decide whether the accused is guilty."
+    },
+    {
+      "id": "ss295-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Although advisers may recommend several options, the minister is responsible for choosing which policy to adopt.",
+      "promptZh": "雖然顧問可以建議多個方案，但選擇採用哪項政策是部長的責任。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although advisers may recommend several options, it falls to the minister to choose which policy to adopt.",
+      "answerZh": "雖然顧問可以建議多個方案，但選擇採用哪項政策是部長的責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Although advisers may recommend several options, it falls to the minister to choose which policy to adopt."
+    },
+    {
+      "id": "ss295-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If the two companies cannot settle the disagreement privately, the court may eventually have to interpret the contract.",
+      "promptZh": "如果兩間公司無法私下解決分歧，法院最終可能需要解釋合約。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the two companies cannot settle the disagreement privately, it may eventually fall to the court to interpret the contract.",
+      "answerZh": "如果兩間公司無法私下解決分歧，解釋合約的責任最終可能會落在法院身上。",
+      "answerZhSource": "pdf",
+      "highlight": "If the two companies cannot settle the disagreement privately, it may eventually fall to the court to interpret the contract."
+    },
+    {
+      "id": "ss295-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Since the previous committee was dissolved, the school board has been given responsibility for designing a new admissions policy.",
+      "promptZh": "自從原有委員會解散後，設計新收生政策的責任已交給校董會。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the previous committee was dissolved, it has fallen to the school board to design a new admissions policy.",
+      "answerZh": "自從原有委員會解散後，設計新收生政策的責任便落在校董會身上。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the previous committee was dissolved, it has fallen to the school board to design a new admissions policy."
+    },
+    {
+      "id": "ss295-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 23
+      },
+      "prompt": "When national rules leave room for local judgement, local authorities will have to decide how the policy is applied.",
+      "promptZh": "當全國規則容許地方自行判斷時，地方當局將需要決定如何執行政策。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When national rules leave room for local judgement, it will fall to local authorities to decide how the policy is applied.",
+      "answerZh": "當全國規則容許地方自行判斷時，便由地方當局決定如何執行政策。",
+      "answerZhSource": "pdf",
+      "highlight": "When national rules leave room for local judgement, it will fall to local authorities to decide how the policy is applied."
+    },
+    {
+      "id": "ss295-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "In the final stage of the project, the quality-control team has responsibility for determining whether the product is ready for release.",
+      "promptZh": "在項目的最後階段，品質控制團隊負責判斷產品是否適合推出。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the final stage of the project, it falls to the quality-control team to determine whether the product is ready for release.",
+      "answerZh": "在項目的最後階段，判斷產品是否適合推出是品質控制團隊的責任。",
+      "answerZhSource": "pdf",
+      "highlight": "In the final stage of the project, it falls to the quality-control team to determine whether the product is ready for release."
+    },
+    {
+      "id": "ss295-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Even where software provides an automatic recommendation, a qualified professional remains responsible for making the final assessment.",
+      "promptZh": "即使軟件提供自動建議，最終評估仍須由合資格專業人士作出。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even where software provides an automatic recommendation, it still falls to a qualified professional to make the final assessment.",
+      "answerZh": "即使軟件提供自動建議，最終評估仍須由合資格專業人士作出。",
+      "answerZhSource": "pdf",
+      "highlight": "Even where software provides an automatic recommendation, it still falls to a qualified professional to make the final assessment."
+    },
+    {
+      "id": "ss295-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Because neither side would accept the proposed compromise, an independent mediator would have to suggest another way forward.",
+      "promptZh": "由於雙方都不願接受建議的妥協方案，獨立調解員便需要提出另一個解決方向。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because neither side would accept the proposed compromise, it would fall to an independent mediator to suggest another way forward.",
+      "answerZh": "由於雙方都不願接受建議的妥協方案，提出另一個解決方向的責任便會落在獨立調解員身上。",
+      "answerZhSource": "pdf",
+      "highlight": "Because neither side would accept the proposed compromise, it would fall to an independent mediator to suggest another way forward."
+    },
+    {
+      "id": "ss295-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If the emergency plan fails, ordinary residents may have to support neighbours who need immediate help.",
+      "promptZh": "如果應急計劃失效，一般居民可能需要支援急需協助的鄰居。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the emergency plan fails, it may fall to ordinary residents to support neighbours who need immediate help.",
+      "answerZh": "如果應急計劃失效，支援急需協助的鄰居這項責任可能會落在一般居民身上。",
+      "answerZhSource": "pdf",
+      "highlight": "If the emergency plan fails, it may fall to ordinary residents to support neighbours who need immediate help."
+    },
+    {
+      "id": "ss295-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Whatever advice other people provide, each individual has final responsibility for deciding which risks they are willing to accept.",
+      "promptZh": "無論其他人提供甚麼建議，每個人最終都要自行決定願意承受哪些風險。",
+      "promptZhSource": "pdf",
+      "starter": "Whatever",
+      "answer": "Whatever advice other people provide, it ultimately falls to each individual to decide which risks they are willing to accept.",
+      "answerZh": "無論其他人提供甚麼建議，最終仍由每個人自行決定願意承受哪些風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever advice other people provide, it ultimately falls to each individual to decide which risks they are willing to accept."
+    }
+  ]
+}

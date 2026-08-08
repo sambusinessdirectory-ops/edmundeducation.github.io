@@ -1,0 +1,1363 @@
+{
+  "lesson": {
+    "id": "idiom-52",
+    "order": 52,
+    "slug": "meet-trouble-halfway",
+    "version": "1",
+    "title": "杞人憂天／自尋煩惱",
+    "titleEn": "meet trouble halfway",
+    "titleZh": "杞人憂天／自尋煩惱",
+    "source": {
+      "file": "Idiom 52 - 「Meet Trouble Halfway」.pdf",
+      "pageCount": 29,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "exercisePdfPages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "answerKeyPdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "meet trouble halfway",
+        "highlight": "meet trouble halfway"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Ava is meeting trouble halfway by assuming that she has failed.",
+        "zh": "艾娃在未知道結果前便認定自己不合格，實在是過早擔心。",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "en": "Daniel meets trouble halfway whenever he expects an angry reply.",
+        "zh": "丹尼爾每次都預期會收到憤怒的回覆，經常過早擔心。",
+        "highlight": "meets trouble halfway"
+      }
+    ],
+    "meaning": {
+      "en": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+      "zh": "在問題尚未發生、證據仍然不足時，便預先擔心可能出現的麻煩；即杞人憂天、過早作最壞打算或自尋煩惱。",
+      "naturalZh": [
+        "在問題尚未發生、證據仍然不足時，便預先擔心可能出現的麻煩",
+        "即杞人憂天、過早作最壞打算或自尋煩惱。"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "This lesson treats the expression as neutral but traditional. It is most natural in advice, reassurance, reflective comments and mild criticism. It may sound slightly old-fashioned in very casual modern conversation, but it is not slang or rude. Historical records and present-day reference material both show the expression in advisory or proverbial use.",
+      "summaryZh": "本課把這個表達視為中性但較傳統的說法。 它最適合用於勸告、安慰、反思及溫和批評。 它在現代非常隨意的對話中可能略帶舊式色彩，但並不粗俗。",
+      "contextsEn": [
+        "meet trouble halfway",
+        "meets trouble halfway",
+        "met trouble halfway",
+        "meeting trouble halfway",
+        "has met trouble halfway",
+        "had met trouble halfway",
+        "will meet trouble halfway",
+        "meet the trouble halfway",
+        "meet troubles halfway",
+        "meet trouble in halfway",
+        "meet trouble half of the way",
+        "halfway meet trouble"
+      ],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "meet trouble halfway",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + meeting trouble halfway + by + verb-ing",
+          "example": "Ava is meeting trouble halfway by assuming that she has failed.",
+          "highlight": "meeting trouble halfway"
+        },
+        {
+          "form": "Subject + meet(s) trouble halfway + whenever / by...",
+          "example": "Daniel meets trouble halfway whenever he expects an angry reply.",
+          "highlight": "meets trouble halfway"
+        },
+        {
+          "form": "Do not / Don’t + meet trouble halfway + by...",
+          "example": "Don’t meet trouble halfway by assuming that the event has been cancelled.",
+          "highlight": "meet trouble halfway"
+        },
+        {
+          "form": "Subject + should not / need not / may / might / would + meet trouble halfway",
+          "example": "We should not meet trouble halfway before the school makes an announcement.",
+          "highlight": "meet trouble halfway"
+        },
+        {
+          "form": "There is no point in / It is no good + meeting trouble halfway",
+          "example": "There is no point in meeting trouble halfway before the result is known.",
+          "highlight": "meeting trouble halfway"
+        },
+        {
+          "form": "Subject + would be meeting trouble halfway + if...",
+          "example": "You would be meeting trouble halfway if you treated one mistake as proof of failure.",
+          "highlight": "meeting trouble halfway"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Describing the Unnecessary Assumption",
+        "titleZh": "句式一：指出過早作出的負面假設",
+        "formula": "Subject + be + meeting trouble halfway + by + verb-ing",
+        "descriptionEn": "Source grammar frame: Subject + be + meeting trouble halfway + by + verb-ing.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + meeting trouble halfway + by + verb-ing。",
+        "examples": [
+          {
+            "en": "Ava is meeting trouble halfway by assuming that she has failed.",
+            "zh": "艾娃在未知道結果前便認定自己不合格，實在是過早擔心。",
+            "highlight": "meeting trouble halfway"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Describing a Habit",
+        "titleZh": "句式二：形容經常出現的習慣",
+        "formula": "Subject + meet(s) trouble halfway + whenever / by...",
+        "descriptionEn": "Source grammar frame: Subject + meet(s) trouble halfway + whenever / by.",
+        "descriptionZh": "原檔列出的句法框架：Subject + meet(s) trouble halfway + whenever / by。",
+        "examples": [
+          {
+            "en": "Daniel meets trouble halfway whenever he expects an angry reply.",
+            "zh": "丹尼爾每次都預期會收到憤怒的回覆，經常過早擔心。",
+            "highlight": "meets trouble halfway"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Giving Advice",
+        "titleZh": "句式三：提出勸告",
+        "formula": "Do not / Don’t + meet trouble halfway + by...",
+        "descriptionEn": "Source grammar frame: Do not / Don’t + meet trouble halfway + by.",
+        "descriptionZh": "原檔列出的句法框架：Do not / Don’t + meet trouble halfway + by。",
+        "examples": [
+          {
+            "en": "Don’t meet trouble halfway by assuming that the event has been cancelled.",
+            "zh": "不要在未有消息前便認定活動已取消，自尋煩惱。",
+            "highlight": "meet trouble halfway"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Using a Modal Verb",
+        "titleZh": "句式四：配合情態動詞",
+        "formula": "Subject + should not / need not / may / might / would + meet trouble halfway",
+        "descriptionEn": "Source grammar frame: Subject + should not / need not / may / might / would + meet trouble halfway.",
+        "descriptionZh": "原檔列出的句法框架：Subject + should not / need not / may / might / would + meet trouble halfway。",
+        "examples": [
+          {
+            "en": "We should not meet trouble halfway before the school makes an announcement.",
+            "zh": "校方公布消息前，我們不應預先擔心。",
+            "highlight": "meet trouble halfway"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Using a Gerund",
+        "titleZh": "句式五：使用動名詞形式",
+        "formula": "There is no point in / It is no good + meeting trouble halfway",
+        "descriptionEn": "Source grammar frame: There is no point in / It is no good + meeting trouble halfway.",
+        "descriptionZh": "原檔列出的句法框架：There is no point in / It is no good + meeting trouble halfway。",
+        "examples": [
+          {
+            "en": "There is no point in meeting trouble halfway before the result is known.",
+            "zh": "結果公布前，過早擔心並沒有意義。",
+            "highlight": "meeting trouble halfway"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Using a Conditional",
+        "titleZh": "句式六：使用條件句",
+        "formula": "Subject + would be meeting trouble halfway + if...",
+        "descriptionEn": "Source grammar frame: Subject + would be meeting trouble halfway + if.",
+        "descriptionZh": "原檔列出的句法框架：Subject + would be meeting trouble halfway + if。",
+        "examples": [
+          {
+            "en": "You would be meeting trouble halfway if you treated one mistake as proof of failure.",
+            "zh": "如果你因一次錯誤便認定自己會失敗，就是在杞人憂天。",
+            "highlight": "meeting trouble halfway"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Premature Worry Compactly",
+        "titleZh": "簡潔表達「過早擔心」",
+        "en": "Ava is meeting trouble halfway.",
+        "zh": "這個慣用語可以把「結果尚未公布，卻已經擔心最壞情況」濃縮成一個較簡潔的表達。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Separates Evidence from Assumption",
+        "titleZh": "區分證據與假設",
+        "en": "The expression reminds the listener that a feared conclusion has not yet been proved.",
+        "zh": "這個表達提醒聽者，他所害怕的結論仍然未有證據證實。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Provides Gentle Reassurance",
+        "titleZh": "提供溫和安慰",
+        "en": "You are worrying too much.",
+        "zh": "這種說法有時比直接說「你擔心得太多」更溫和。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful for Reflective Comments",
+        "titleZh": "適合用於反思",
+        "en": "The expression helps speakers look back and recognise that their earlier fear was unnecessary.",
+        "zh": "這個表達有助說話者回顧事情，承認自己先前的恐懼並沒有必要。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Adds Variety When the Situation Genuinely Fits",
+        "titleZh": "在合適語境中增加表達變化",
+        "en": "Plain expressions such as worry too soon or assume the worst are often clearer in everyday speech. Meet trouble halfway provides another option when the speaker wishes to use a more traditional or figurative expression.",
+        "zh": "或 assume the worst 在日常英語中往往更加直接。 只有在語境合適時，才應使用 meet trouble halfway 作為較傳統和具比喻色彩的說法。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Long-Established Metaphorical Saying",
+      "statusZh": "確切來源不明；歷史悠久的比喻說法",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The exact first use has not been identified. One early record located for this worksheet is an 1890 American newspaper heading, “Meeting Trouble Half Way”. A 1911 newspaper later printed the advice “Do not meet trouble half-way” beside the contrasting saying “Prepare for a rainy day”. An Irish folklore collection also recorded “Never meet trouble half-way” as an old saying. These records show that the figurative idea was established by the late nineteenth and early twentieth centuries, but they do not identify its inventor or exact starting point. Today, the expression advises people not to create unnecessary anxiety by assuming that a possible problem has already become real.",
+          "zh": "這個表達的確切首次用法尚未能確認。 本教材找到的一項較早記錄，是一份1890年的美國報章以 Meeting Trouble Half Way 作為標題。 1911年的另一份報章把 Do not meet trouble half-way 與 Prepare for a rainy day 並列。 愛爾蘭民俗資料庫亦把 Never meet trouble half-way 記錄為一句古老說法。 這些資料顯示，這個比喻在十九世紀末至二十世紀初已經有人使用，但並不能證明由誰創造，亦無法確定它首次出現的時間。 今天，這個表達用來勸告別人不要把尚未確定的問題當成已經發生，以免產生不必要的焦慮。"
+        }
+      ],
+      "memoryEn": "Do not walk towards trouble before you know that it is really coming.",
+      "memoryZh": "在確定麻煩真的會來之前，不要先走上前迎接它。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "The Trouble Must Still Be Uncertain",
+        "titleZh": "規則一：麻煩必須仍未確定",
+        "en": "The expression is used when somebody is worrying before enough facts are available. The problem is now confirmed, so the expression is no longer the best description.",
+        "zh": "只有當某人在事實尚未清楚前已開始擔心，才適合使用這個表達。 老師尚未批改我的功課，我卻已經認定自己不合格，實在是過早擔心。 老師已經告訴我不合格。 問題已經得到確認，因此這個慣用語不再是最合適的描述。",
+        "examples": [
+          {
+            "en": "I am meeting trouble halfway.",
+            "zh": "老師尚未批改我的功課，我卻已經認定自己不合格，實在是過早擔心。",
+            "highlight": "meeting trouble halfway"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Use It for Sensible Preparation",
+        "titleZh": "規則二：不要用來形容合理準備",
+        "en": "A serious storm warning has been issued, so the school has moved the event indoors. This is sensible preparation based on evidence.",
+        "zh": "政府已發出嚴重暴風警告，因此學校把活動移到室內。 這是根據實際證據作出的合理安排。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "State the Feared Outcome Clearly",
+        "titleZh": "規則三：清楚指出當事人害怕甚麼結果",
+        "en": "The second sentence explains the exact unsupported conclusion.",
+        "zh": "第二句清楚指出本在沒有回覆前，已認定請假申請遭到拒絕。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use “By + -ing” Correctly",
+        "titleZh": "規則四：正確使用 by + -ing",
+        "en": "Use “By + -ing” Correctly",
+        "zh": "正確使用 by + -ing",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Confuse Two Different Expressions",
+        "titleZh": "規則五：不要混淆兩個不同表達",
+        "en": "= worry before trouble actually arrives = compromise or make an effort to reach agreement",
+        "zh": "在麻煩真正出現前便預先擔心與某人互相讓步或作出妥協",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Use It for Every Future Concern",
+        "titleZh": "規則六：並非所有對未來的擔心都適用",
+        "en": "1. the negative outcome has not been confirmed; 2. the person is assuming more than the evidence shows; 3. the worry is arriving earlier than the actual problem.",
+        "zh": "最自然的使用情況是：",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using meet trouble halfway.",
+      "zh": "使用 meet trouble halfway 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-52-q01",
+        "number": 1,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Ava has not received her test mark, but she is already sure she has failed.",
+        "promptZh": "艾娃尚未收到測驗分數，但她已經認定自己不合格。",
+        "starter": "Ava",
+        "answer": "Ava is meeting trouble halfway by assuming that she has failed before receiving her test mark.",
+        "answerZh": "艾娃在收到測驗分數前便認定自己不合格，實在是過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q02",
+        "number": 2,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Noah has not checked the train update, but he already believes the train will be cancelled.",
+        "promptZh": "諾亞尚未查看列車的最新消息，但他已經認定列車會取消。",
+        "starter": "Noah",
+        "answer": "Noah is meeting trouble halfway by assuming that the train will be cancelled before checking the update.",
+        "answerZh": "諾亞尚未查看最新消息便認定列車會取消，實在是杞人憂天。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q03",
+        "number": 3,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The weather forecast is not ready, but Ella is certain that the picnic will be cancelled.",
+        "promptZh": "天氣預報尚未完成，但艾拉已經肯定野餐會取消。",
+        "starter": "Ella",
+        "answer": "Ella is meeting trouble halfway by assuming that the picnic will be cancelled before the forecast is ready.",
+        "answerZh": "天氣預報尚未完成，艾拉便認定野餐會取消，實在是過早作最壞打算。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q04",
+        "number": 4,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Ben’s manager has not answered his leave request, but Ben already thinks it was refused.",
+        "promptZh": "本的經理尚未回覆他的請假申請，但本已經認為申請遭到拒絕。",
+        "starter": "Ben",
+        "answer": "Ben is meeting trouble halfway by assuming that his leave request was refused before his manager replies.",
+        "answerZh": "經理尚未回覆，本便認定請假申請遭到拒絕，是在自尋煩惱。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q05",
+        "number": 5,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The shop has not checked Grace’s order, but she is sure it has been lost.",
+        "promptZh": "店舖尚未檢查格蕾絲的訂單，但她已經肯定訂單遺失了。",
+        "starter": "Grace",
+        "answer": "Grace is meeting trouble halfway by assuming that her order has been lost before the shop checks it.",
+        "answerZh": "店舖尚未檢查訂單，格蕾絲便認定訂單已遺失，實在是過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q06",
+        "number": 6,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Leo has not taken the driving test, but he is already imagining that he will fail.",
+        "promptZh": "里奧尚未參加駕駛考試，但他已經想像自己會不合格。",
+        "starter": "Leo",
+        "answer": "Leo is meeting trouble halfway by assuming that he will fail before taking the driving test.",
+        "answerZh": "里奧尚未參加駕駛考試便認定自己會不合格，是在杞人憂天。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q07",
+        "number": 7,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The team has not played the match, but the players already believe they will lose.",
+        "promptZh": "球隊尚未參加比賽，但球員已經認定自己會落敗。",
+        "starter": "The",
+        "answer": "The team is meeting trouble halfway by assuming that it will lose before the match begins.",
+        "answerZh": "比賽尚未開始，球隊便認定自己會落敗，實在是過早作負面假設。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q08",
+        "number": 8,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Amy’s computer is installing an update normally, but she thinks all her files will disappear.",
+        "promptZh": "艾美的電腦正在正常安裝更新，但她認為所有檔案都會消失。",
+        "starter": "Amy",
+        "answer": "Amy is meeting trouble halfway by assuming that the update will remove all her files.",
+        "answerZh": "艾美認定正常進行的更新會刪除所有檔案，實在是過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q09",
+        "number": 9,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Jack’s family has not discussed the trip, but he is sure they will cancel it.",
+        "promptZh": "積克的家人尚未討論旅行，但他已經肯定家人會取消行程。",
+        "starter": "Jack",
+        "answer": "Jack is meeting trouble halfway by assuming that his family will cancel the trip before discussing it.",
+        "answerZh": "家人尚未討論行程，積克便認定旅行會取消，是在自尋煩惱。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q10",
+        "number": 10,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "It has not started raining, but Lily already believes sports day will be ruined.",
+        "promptZh": "雨尚未開始下，但莉莉已經認定陸運會會被破壞。",
+        "starter": "Lily",
+        "answer": "Lily is meeting trouble halfway by assuming that the rain will ruin sports day before it starts.",
+        "answerZh": "雨尚未開始下，莉莉便認定陸運會會被破壞，實在是杞人憂天。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q11",
+        "number": 11,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Whenever Daniel sends an email to his teacher, he immediately expects an angry reply.",
+        "promptZh": "每當丹尼爾向老師發出電郵，他都立即預期會收到憤怒的回覆。",
+        "starter": "Daniel",
+        "answer": "Daniel meets trouble halfway whenever he assumes that his teacher will reply angrily.",
+        "answerZh": "丹尼爾每次都認定老師會憤怒回覆，經常過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meets trouble halfway"
+      },
+      {
+        "id": "idiom-52-q12",
+        "number": 12,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Yesterday, Chloe decided that her presentation would go badly before she entered the room.",
+        "promptZh": "昨天，高兒尚未進入房間，便認定自己的簡報會表現失準。",
+        "starter": "Chloe",
+        "answer": "Chloe met trouble halfway by deciding that her presentation would go badly before she entered the room.",
+        "answerZh": "高兒尚未進入房間便認定簡報會表現失準，當時實在是過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "met trouble halfway"
+      },
+      {
+        "id": "idiom-52-q13",
+        "number": 13,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Since Ryan applied for the course, he has repeatedly imagined that he will not be accepted, although no decision has been made.",
+        "promptZh": "賴恩申請課程後，一直想像自己不會獲取錄，儘管校方尚未作出決定。",
+        "starter": "Ryan",
+        "answer": "Ryan has been meeting trouble halfway by assuming that he will not be accepted before a decision is made.",
+        "answerZh": "賴恩在校方作出決定前一直認定自己不會獲取錄，不斷為未確定的事情擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q14",
+        "number": 14,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "You plan to spend all weekend expecting Monday’s meeting to go badly, although the topic has not been announced.",
+        "promptZh": "會議主題尚未公布，但你打算整個週末都擔心星期一的會議會出問題。",
+        "starter": "You",
+        "answer": "You will meet trouble halfway if you spend the weekend assuming that Monday’s meeting will go badly.",
+        "answerZh": "如果你整個週末都認定星期一的會議會出問題，就是在過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meet trouble halfway"
+      },
+      {
+        "id": "idiom-52-q15",
+        "number": 15,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "We do not know whether the flight will be delayed, so we should not act as though our holiday is ruined.",
+        "promptZh": "我們尚不知道航班會否延誤，因此不應當作整個假期已經被破壞。",
+        "starter": "We",
+        "answer": "We shouldn’t meet trouble halfway by acting as though our holiday is ruined before we know whether the flight is delayed.",
+        "answerZh": "在知道航班會否延誤前，我們不應當作整個假期已被破壞，自尋煩惱。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meet trouble halfway"
+      },
+      {
+        "id": "idiom-52-q16",
+        "number": 16,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The school has not said the event is cancelled. There is no reason for us to assume that it is.",
+        "promptZh": "學校沒有表示活動已取消，我們沒有理由作出這個假設。",
+        "starter": "We",
+        "answer": "We needn’t meet trouble halfway by assuming that the event is cancelled before the school says so.",
+        "answerZh": "學校正式公布前，我們毋須預先認定活動已取消。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meet trouble halfway"
+      },
+      {
+        "id": "idiom-52-q17",
+        "number": 17,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Why are you preparing an apology when nobody has complained?",
+        "promptZh": "沒有人提出投訴，你為甚麼已經在準備道歉？",
+        "starter": "Why",
+        "answer": "Why meet trouble halfway by preparing an apology before anybody has complained?",
+        "answerZh": "尚未有人投訴，為甚麼要預先準備道歉，令自己白白擔心？",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meet trouble halfway"
+      },
+      {
+        "id": "idiom-52-q18",
+        "number": 18,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The test is next month, and the teacher has not explained it yet. Assuming that you will fail now will not help.",
+        "promptZh": "測驗下個月才舉行，而且老師尚未作出講解。現在便認定自己會不合格並沒有幫助。",
+        "starter": "It’s",
+        "answer": "It’s no good meeting trouble halfway by assuming that you will fail before the test has even been explained.",
+        "answerZh": "老師連測驗內容都尚未講解，現在便認定自己會不合格並沒有用。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q19",
+        "number": 19,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Before the shop checks the payment, do not decide that your order has failed.",
+        "promptZh": "店舖檢查付款情況前，不要認定你的訂單已經失敗。",
+        "starter": "Avoid",
+        "answer": "Avoid meeting trouble halfway by deciding that your order has failed before the shop checks the payment.",
+        "answerZh": "店舖檢查付款情況前，不要認定訂單已經失敗，免得過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q20",
+        "number": 20,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Ella expects every small noise in the car to mean a costly repair, although the mechanic has not checked it.",
+        "promptZh": "技工尚未檢查汽車，但艾拉認為每一下細小聲響都代表需要進行昂貴維修。",
+        "starter": "Instead",
+        "answer": "Instead of meeting trouble halfway by assuming that the car needs a costly repair, Ella should wait for the mechanic’s check.",
+        "answerZh": "艾拉不應在技工檢查前便認定汽車需要昂貴維修，而應先等待檢查結果。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q21",
+        "number": 21,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: The train app has not updated. B: I am sure the train has been cancelled.",
+        "promptZh": "甲：列車應用程式尚未更新。 乙：我肯定列車已經取消。",
+        "starter": "Don’t",
+        "answer": "Don’t meet trouble halfway by assuming that the train has been cancelled; let’s wait for the update.",
+        "answerZh": "不要在未有最新消息前便認定列車已取消；我們先等待更新吧。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meet trouble halfway"
+      },
+      {
+        "id": "idiom-52-q22",
+        "number": 22,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: The head teacher wants to see me tomorrow. I must be in serious trouble. B: You do not know why she wants to see you.",
+        "promptZh": "甲：校長明天想見我。我一定闖了大禍。 乙：你並不知道她為甚麼想見你。",
+        "starter": "Don’t",
+        "answer": "Don’t meet trouble halfway by assuming that the head teacher’s meeting is about something bad.",
+        "answerZh": "不要在知道原因前便認定校長約見你是因為壞事，自尋煩惱。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meet trouble halfway"
+      },
+      {
+        "id": "idiom-52-q23",
+        "number": 23,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: The customer has not replied. She probably hates the design. B: She may simply be busy.",
+        "promptZh": "甲：顧客尚未回覆。她大概很討厭這個設計。 乙：她可能只是在忙。",
+        "starter": "You",
+        "answer": "You may be meeting trouble halfway by assuming that the customer hates the design.",
+        "answerZh": "你認定顧客討厭這個設計，可能只是在過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q24",
+        "number": 24,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: What if it rains, the food runs out and nobody comes? B: We have not even sent the party invitations yet.",
+        "promptZh": "甲：如果下雨、食物不夠，而且沒有人來，怎麼辦？ 乙：我們連派對邀請函都尚未發出。",
+        "starter": "Let’s",
+        "answer": "Let’s not meet trouble halfway by imagining that the party will fail before we have sent the invitations.",
+        "answerZh": "邀請函尚未發出，我們不要便想像派對會失敗，令自己白白擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meet trouble halfway"
+      },
+      {
+        "id": "idiom-52-q25",
+        "number": 25,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: The doctor asked me to come back, so something must be seriously wrong. B: It may just be a normal follow-up visit.",
+        "promptZh": "甲：醫生叫我再回去，所以一定有嚴重問題。 乙：這可能只是一次普通覆診。",
+        "starter": "Try",
+        "answer": "Try not to meet trouble halfway by assuming that the follow-up visit means something serious.",
+        "answerZh": "盡量不要認定覆診代表出現了嚴重問題，以免過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meet trouble halfway"
+      },
+      {
+        "id": "idiom-52-q26",
+        "number": 26,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Q: Why is Oliver already looking for a new flat? A: He only heard that the owner might review the rent.",
+        "promptZh": "問：奧利弗為甚麼已經在尋找新住所？ 答：他只是聽說業主可能會調整租金。",
+        "starter": "Oliver",
+        "answer": "Oliver is meeting trouble halfway by looking for a new flat before he knows whether the rent will change.",
+        "answerZh": "奧利弗尚未知道租金會否改變便開始尋找新住所，實在是過早作最壞打算。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q27",
+        "number": 27,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Nora says the project will fail because one team member was ten minutes late.",
+        "promptZh": "諾拉認為項目會失敗，原因只是一名隊員遲到了十分鐘。",
+        "starter": "Nora",
+        "answer": "Nora is meeting trouble halfway by treating one late arrival as proof that the project will fail.",
+        "answerZh": "諾拉把一名隊員遲到當成項目必定失敗的證明，實在是杞人憂天。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q28",
+        "number": 28,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The website opened slowly once, so Mark now believes it will stop working during tomorrow’s lesson.",
+        "promptZh": "網站曾經有一次開啟得很慢，因此馬克現在認為它會在明天的課堂上停止運作。",
+        "starter": "Mark",
+        "answer": "Mark is meeting trouble halfway by assuming that one slow opening means the website will fail tomorrow.",
+        "answerZh": "馬克因網站曾經一次開啟較慢，便認定它明天會失靈，實在是過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q29",
+        "number": 29,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The hotel has not confirmed our room yet, but Dad has already decided that we will have nowhere to stay.",
+        "promptZh": "酒店尚未確認我們的房間，但爸爸已經認定我們會沒有地方住宿。",
+        "starter": "Dad",
+        "answer": "Dad is meeting trouble halfway by assuming that we will have nowhere to stay before the hotel replies.",
+        "answerZh": "酒店尚未回覆，爸爸便認定我們會沒有地方住宿，是在自尋煩惱。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q30",
+        "number": 30,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: The school has asked parents to attend a meeting. They must be closing the library. B: The message did not say that.",
+        "promptZh": "甲：學校要求家長出席會議。他們一定準備關閉圖書館。 乙：訊息並沒有這樣說。",
+        "starter": "We",
+        "answer": "We would be meeting trouble halfway if we assumed that the school was closing the library.",
+        "answerZh": "如果我們在訊息沒有這樣說的情況下，便認定學校會關閉圖書館，就是在杞人憂天。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q31",
+        "number": 31,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Although the interview date has not been set, Priya is already sure she will say the wrong thing.",
+        "promptZh": "雖然面試日期尚未確定，普莉雅已經肯定自己會說錯話。",
+        "starter": "Although",
+        "answer": "Although the interview date has not been set, Priya is meeting trouble halfway by assuming that she will say the wrong thing.",
+        "answerZh": "雖然面試日期尚未確定，普莉雅已認定自己會說錯話，實在是過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q32",
+        "number": 32,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Because one parcel arrived a day late last time, George now believes every future order will be lost.",
+        "promptZh": "因為上一次有一件包裹遲了一天送到，佐治現在認為日後每張訂單都會遺失。",
+        "starter": "George",
+        "answer": "George is meeting trouble halfway because one late parcel has made him assume that every future order will be lost.",
+        "answerZh": "佐治因一次包裹遲到便認定日後所有訂單都會遺失，是在過早作最壞打算。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q33",
+        "number": 33,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Before the school announces the teams, Kai has decided that he will be left out.",
+        "promptZh": "學校尚未公布分隊結果，啟已經認定自己不會入選。",
+        "starter": "Kai",
+        "answer": "Kai is meeting trouble halfway by deciding that he will be left out before the school announces the teams.",
+        "answerZh": "學校尚未公布分隊結果，啟便認定自己不會入選，實在是杞人憂天。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q34",
+        "number": 34,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The family could wait for the weather report, but they are already discussing how to cancel the trip.",
+        "promptZh": "這家人本來可以等待天氣報告，但他們已經在討論如何取消旅行。",
+        "starter": "Instead",
+        "answer": "Instead of meeting trouble halfway by discussing cancellation, the family could wait for the weather report.",
+        "answerZh": "這家人不應過早討論取消行程，而可以先等待天氣報告。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q35",
+        "number": 35,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "If you assume the new teacher will dislike you before meeting her, you are worrying without evidence.",
+        "promptZh": "如果你在見新老師前便認定她會討厭你，你就是在沒有證據下擔心。",
+        "starter": "You",
+        "answer": "You are meeting trouble halfway if you assume that the new teacher will dislike you before meeting her.",
+        "answerZh": "如果你尚未見新老師便認定她會討厭你，就是在沒有證據下預先擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q36",
+        "number": 36,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "No one has complained about the meal, yet the cook keeps imagining that the guests are unhappy.",
+        "promptZh": "沒有人投訴膳食，但廚師仍然不斷想像賓客感到不滿。",
+        "starter": "The",
+        "answer": "The cook is meeting trouble halfway by imagining that the guests are unhappy without any complaint from them.",
+        "answerZh": "賓客沒有提出任何投訴，廚師卻想像他們感到不滿，實在是自尋煩惱。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q37",
+        "number": 37,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The company has only said that it will review working hours. Treating that as proof of job losses would be premature.",
+        "promptZh": "公司只是表示會檢討工作時間。把這件事當作裁員的證明實在言之過早。",
+        "starter": "It",
+        "answer": "It would be meeting trouble halfway to treat a review of working hours as proof of job losses.",
+        "answerZh": "把檢討工作時間當成裁員的證明，就是在過早作最壞打算。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q38",
+        "number": 38,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The result will be known tomorrow, so spending tonight imagining every bad outcome will not change anything.",
+        "promptZh": "結果明天便會公布，因此今晚想像每一個壞結果也不會改變任何事情。",
+        "starter": "There",
+        "answer": "There is no point in meeting trouble halfway by imagining every bad outcome before tomorrow’s result.",
+        "answerZh": "在明天公布結果前便想像所有壞結果，白白預先擔心並沒有意義。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q39",
+        "number": 39,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The coach told the players not to assume the match would be cancelled just because the sky was dark.",
+        "promptZh": "教練叫球員不要只因天色陰暗便認定比賽會取消。",
+        "starter": "The",
+        "answer": "The coach told the players not to meet trouble halfway by assuming that the match would be cancelled because of the dark sky.",
+        "answerZh": "教練叫球員不要只因天色陰暗便認定比賽會取消，以免杞人憂天。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meet trouble halfway"
+      },
+      {
+        "id": "idiom-52-q40",
+        "number": 40,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "At the end of the week, I realised that I had spent several days expecting a difficult conversation that never happened.",
+        "promptZh": "到了週末，我才發現自己花了數天擔心一場根本沒有發生的困難對話。",
+        "starter": "I",
+        "answer": "I realised that I had met trouble halfway by expecting a difficult conversation that never happened.",
+        "answerZh": "我發現自己曾為一場根本沒有發生的困難對話過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "met trouble halfway"
+      },
+      {
+        "id": "idiom-52-q41",
+        "number": 41,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A staff email says that the office will test a new timetable for one week. Colin immediately tells everyone that permanent night work is coming.",
+        "promptZh": "員工電郵表示辦公室會試行一星期的新時間表。哥連立即告訴所有人，公司將永久安排夜班工作。",
+        "starter": "Colin",
+        "answer": "Colin is meeting trouble halfway by treating a one-week timetable test as proof that permanent night work is coming.",
+        "answerZh": "哥連把一星期的時間表測試當成永久夜班即將實施的證明，實在是過早作最壞打算。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q42",
+        "number": 42,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: The sign says road repairs may begin next month. B: Then our bus route will disappear for ever.",
+        "promptZh": "甲：告示表示道路維修工程可能在下個月開始。 乙：那麼我們的巴士路線一定會永遠消失。",
+        "starter": "You",
+        "answer": "You are meeting trouble halfway by assuming that the bus route will disappear because repairs may begin.",
+        "answerZh": "你只因道路維修可能開始便認定巴士路線會消失，實在是杞人憂天。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q43",
+        "number": 43,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "There is a small chance that the outdoor show may move indoors, but it is too early to say that the whole event is ruined.",
+        "promptZh": "戶外表演有小機會移到室內舉行，但現在便說整項活動已被破壞仍然言之過早。",
+        "starter": "We",
+        "answer": "We might be meeting trouble halfway if we called the whole event ruined because it may move indoors.",
+        "answerZh": "如果我們只因活動可能移到室內便說整項活動已被破壞，我們可能是在過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q44",
+        "number": 44,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "One quiet day at the café led the owner to predict that it would have to close, even though sales had been normal all month.",
+        "promptZh": "咖啡店只有一天生意較淡，店主便預測店舖將被迫結業，儘管整個月的銷情一直正常。",
+        "starter": "The",
+        "answer": "The owner met trouble halfway by treating one quiet day as a sign that the café would have to close.",
+        "answerZh": "店主把一天生意較淡視為咖啡店將被迫結業的跡象，當時實在是過早作最壞打算。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "met trouble halfway"
+      },
+      {
+        "id": "idiom-52-q45",
+        "number": 45,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The exam rules have not changed. Lian has nevertheless bought three new guidebooks because she is sure the old ones are now useless.",
+        "promptZh": "考試規則沒有改變，但莉安仍然買了三本新參考書，因為她肯定舊書已經沒有用。",
+        "starter": "Lian",
+        "answer": "Lian is meeting trouble halfway by assuming that her old guidebooks are useless before any exam rule has changed.",
+        "answerZh": "考試規則尚未改變，莉安便認定舊參考書沒有用，實在是自尋煩惱。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q46",
+        "number": 46,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: The manager corrected one number in my report. She must think all my work is poor. B: That conclusion is much bigger than the evidence.",
+        "promptZh": "甲：經理改正了我報告中的一個數字。她一定認為我所有工作都很差。 乙：這個結論遠遠超出了現有證據。",
+        "starter": "You",
+        "answer": "You are meeting trouble halfway by taking one correction as proof that the manager thinks all your work is poor.",
+        "answerZh": "你把一次改正當成經理認為你所有工作都很差的證明，實在是過早作負面結論。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q47",
+        "number": 47,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Even if the first lesson was difficult, it does not mean that the whole course will be impossible.",
+        "promptZh": "即使第一課很困難，也不代表整個課程都不可能完成。",
+        "starter": "You",
+        "answer": "You would be meeting trouble halfway if you treated one difficult lesson as proof that the whole course would be impossible.",
+        "answerZh": "如果你把一課的困難當成整個課程都不可能完成的證明，就是在杞人憂天。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q48",
+        "number": 48,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "By imagining that every unanswered message means a broken friendship, Erin creates anxiety before she knows why the other person has not replied.",
+        "promptZh": "艾琳把每一個未獲回覆的訊息都想像成友誼破裂，在知道對方沒有回覆的原因前便令自己焦慮。",
+        "starter": "By",
+        "answer": "By assuming that every unanswered message means a broken friendship, Erin is meeting trouble halfway.",
+        "answerZh": "艾琳把每一個未獲回覆的訊息都當成友誼破裂，實在是在沒有證據下過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q49",
+        "number": 49,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The school has asked for ideas about next year’s lunch menu. Some parents are already saying that all familiar dishes will be removed.",
+        "promptZh": "學校正就明年的午餐餐單徵詢意見。一些家長已經表示所有大家熟悉的菜式都會被取消。",
+        "starter": "Some",
+        "answer": "Some parents are meeting trouble halfway by assuming that the school will remove all familiar dishes simply because it has asked for ideas.",
+        "answerZh": "一些家長只因學校徵詢意見，便認定所有熟悉的菜式都會被取消，實在是過早擔心。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      },
+      {
+        "id": "idiom-52-q50",
+        "number": 50,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The landlord inspects every flat once a year, and our visit is next week. B: Then he must be planning to make us leave.",
+        "promptZh": "甲：業主每年都會檢查每個單位一次，下星期輪到我們。 乙：那麼他一定正計劃要求我們搬走。",
+        "starter": "You",
+        "answer": "You would be meeting trouble halfway if you assumed that the yearly inspection meant the landlord was planning to make us leave.",
+        "answerZh": "如果你把每年一次的例行檢查當成業主準備要求我們搬走，就是在杞人憂天。",
+        "targetForm": "meet trouble halfway",
+        "targetMeaning": "To worry about a possible problem before it happens, especially when there is not yet enough evidence that it will happen.",
+        "highlight": "meeting trouble halfway"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1222 @@
+{
+  "id": "ss311",
+  "order": 311,
+  "slug": "do-not-get-me-wrong-but-clause",
+  "title": "「Do not get me wrong, but + clause」句",
+  "titleZh": "「Do not get me wrong, but + clause」句",
+  "titleEn": "Using “Do not get me wrong, but + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 310 -「Do not get me wrong, but + clause」句.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "sha256": "c69577c49978252ee21e0a9793ba843dd01a0665010b0b343e0ddb682393cf5f",
+    "sourceNumber": 310,
+    "systemOrder": 311,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 310 maps to ss311: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Do not get me wrong, but + complete clause",
+  "formulas": [
+    {
+      "id": "ss311-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Do not get me wrong, but + complete clause"
+    }
+  ],
+  "example": "Do not get me wrong, but enthusiasm alone is not enough.",
+  "exampleZh": "不要誤會我的意思，但單靠熱誠並不足夠。",
+  "examples": [
+    {
+      "id": "ss311-example-01",
+      "en": "Do not get me wrong, but enthusiasm alone is not enough.",
+      "zh": "不要誤會我的意思，但單靠熱誠並不足夠。",
+      "highlight": "Do not get me wrong, but enthusiasm alone is not enough."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss311-rule-01",
+      "zh": "在 Do not get me wrong, but 後面，內容必須是完整子句，即同時有主語和限定動詞。只有 too expensive 之類的形容詞片語並不足以構成完整子句。",
+      "en": "Use a complete clause after but Do not get me wrong, but the plan needs more work. “the plan needs more work” Do not get me wrong, but too expensive. “too expensive”",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss311-rule-02",
+      "zh": "它通常不是用來完全收回前面的正面評價，而是補充一項限制或不同意見。",
+      "en": "The expression normally introduces a qualification I like the design. However, it is difficult to use. Do not get me wrong, but the design is difficult to use even though I like it.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss311-rule-03",
+      "zh": "除非前文可能令人誤解說話者對其兄弟或足球的看法，否則這句缺乏清楚的溝通目的。",
+      "en": "Do not use it before a completely unrelated idea Unnatural: Do not get me wrong, but my brother plays football.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss311-rule-04",
+      "zh": "在日常對話中十分常見。本練習統一使用完整形式：【Do not get me wrong, but...】",
+      "en": "The full form is required in this exercise The contraction Don’t get me wrong is common in conversation. “Don’t get me wrong” However, this exercise consistently practises: Do not get me wrong, but... Do not get me wrong, but...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss311-rule-05",
+      "zh": "在 wrong 後使用逗號。當句型出現在直接引語內，需要使用引號。",
+      "en": "Punctuation When the expression begins the sentence, place a comma after wrong: Do not get me wrong, but I understand your concern. When it appears inside direct speech, use quotation marks: The coach said, “Do not get me wrong, but the players made several mistakes.”",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss311-rule-06",
+      "zh": "這個句型適合在可能出現誤會時使用，但不應在每次提出不同意見時都使用。過度使用可能令人覺得說話者過於防衛。",
+      "en": "It can sound defensive if it is overused",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss311-benefit-01",
+      "zh": "這個句型提醒聽者，不要把你接下來的意見理解成完全否定、攻擊或拒絕。",
+      "en": "It prevents unnecessary misunderstanding This structure tells the listener that your next comment should not be taken as a completely negative opinion.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss311-benefit-02",
+      "zh": "你不需要一開始便直接批評對方，而可以先表明自己的立場並非完全負面。比較：你的計劃行不通。不要誤會我的意思，但我認為這個計劃以目前的形式並不可行。第二句聽起來較有分寸，也清楚顯示說話者正在評論計劃，而不一定是在攻擊提出計劃的人。",
+      "en": "It helps you disagree without sounding immediately hostile Instead of beginning directly with a criticism, you can first show that your position is more balanced. Compare: Your plan will not work. Do not get me wrong, but I do not think the plan will work in its present form.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss311-benefit-03",
+      "zh": "你可以先承認某項優點，再提出限制或憂慮。不要誤會我的意思，但這個構思雖然有創意，卻太昂貴。",
+      "en": "It allows you to recognise a good point before adding a concern You can acknowledge something positive and then explain its limitation. Do not get me wrong, but although the idea is creative, it is too expensive.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss311-benefit-04",
+      "zh": "聽者可以明白你的看法並不是單純的「支持」或「反對」，而是包含條件、限制或保留。",
+      "en": "It makes your real position clearer The listener can understand that your opinion contains more than a simple yes or no.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss311-benefit-05",
+      "zh": "這個句型可以作為現成的口語框架，讓你在說話時更有條理地提出不同意見或批評。",
+      "en": "It is a useful speaking frame The expression gives you time to organise a careful disagreement or criticism while speaking.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 310 maps to ss311: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item using the exact expression Do not get me wrong, but + clause.",
+      "Preserve the original meaning. Some answers place the expression inside a quotation or",
+      "another sentence.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用完整句型 Do not get me wrong, but + clause 改寫以下句子。",
+      "保留原意。部分答案會把目標句型放在引語或另一個句子之內。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss311-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I like the café, but the service is too slow. Please do not misunderstand my criticism.",
+      "promptZh": "我喜歡這間咖啡店，但服務太慢。請不要誤會我的批評。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but I like the café even though the service is too slow.",
+      "answerZh": "不要誤會我的意思，但我喜歡這間咖啡店，雖然服務太慢。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but I like the café even though the service is too slow."
+    },
+    {
+      "id": "ss311-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I am grateful for your help. However, I still need more time. Please do not think that I am ungrateful.",
+      "promptZh": "我很感激你的幫助。不過，我仍然需要更多時間。請不要以為我不懂感恩。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but I am grateful for your help; I still need more time.",
+      "answerZh": "不要誤會我的意思，但我很感激你的幫助；我仍然需要更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but I am grateful for your help; I still need more time."
+    },
+    {
+      "id": "ss311-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I enjoyed the film, although it was too long. This is not meant as a completely negative comment.",
+      "promptZh": "我很享受這部電影，雖然它太長。這並不是完全負面的評語。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but I enjoyed the film even though it was too long.",
+      "answerZh": "不要誤會我的意思，但我很享受這部電影，雖然它太長。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but I enjoyed the film even though it was too long."
+    },
+    {
+      "id": "ss311-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I respect the teacher, but I disagree with this decision. Please do not misunderstand my position.",
+      "promptZh": "我尊重這位老師，但我不同意這項決定。請不要誤會我的立場。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but I disagree with this decision even though I respect the teacher.",
+      "answerZh": "不要誤會我的意思，但即使我尊重這位老師，我仍不同意這項決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but I disagree with this decision even though I respect the teacher."
+    },
+    {
+      "id": "ss311-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The room is comfortable, but it is too small for six people. I am not saying that it is a bad room.",
+      "promptZh": "這個房間很舒適，但對六個人來說太小。我並不是說這是一個差劣的房間。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but the room is too small for six people, although it is comfortable.",
+      "answerZh": "不要誤會我的意思，但這個房間雖然舒適，對六個人來說卻太小。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but the room is too small for six people, although it is comfortable."
+    },
+    {
+      "id": "ss311-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We support the event, but the date is inconvenient. Our concern should not be misunderstood as opposition.",
+      "promptZh": "我們支持這項活動，但日期並不方便。我們的憂慮不應被誤解為反對活動。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but the date is inconvenient even though we support the event.",
+      "answerZh": "不要誤會我的意思，但即使我們支持這項活動，日期仍然並不方便。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but the date is inconvenient even though we support the event."
+    },
+    {
+      "id": "ss311-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ben said, “I enjoyed the class, but the pace was simply too fast. Please do not misunderstand me.”",
+      "promptZh": "本說：「我很享受這課，但進度實在太快。請不要誤會我的意思。」",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben said, “Do not get me wrong, but I enjoyed the class; the pace was simply too fast.”",
+      "answerZh": "本說：「不要誤會我的意思，但我很享受這課；進度實在太快。」",
+      "answerZhSource": "pdf",
+      "highlight": "Ben said, “Do not get me wrong, but I enjoyed the class; the pace was simply too fast.”"
+    },
+    {
+      "id": "ss311-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The reviewer wrote, “The acting was excellent, but the ending was weak. This is not a completely negative review.”",
+      "promptZh": "評論員寫道：「演技十分出色，但結局較弱。這並不是完全負面的評論。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reviewer wrote, “Do not get me wrong, but the acting was excellent; the ending was weak.”",
+      "answerZh": "評論員寫道：「不要誤會我的意思，但演技十分出色；結局則較弱。」",
+      "answerZhSource": "pdf",
+      "highlight": "The reviewer wrote, “Do not get me wrong, but the acting was excellent; the ending was weak.”"
+    },
+    {
+      "id": "ss311-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The plan is useful, but it is simply too expensive for us. Please do not misunderstand my point.",
+      "promptZh": "這個計劃很有用，但對我們來說實在太昂貴。請不要誤會我的重點。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but the plan is useful; it is simply too expensive for us.",
+      "answerZh": "不要誤會我的意思，但這個計劃很有用；對我們來說只是太昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but the plan is useful; it is simply too expensive for us."
+    },
+    {
+      "id": "ss311-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel said, “The meal was well prepared, but it was just too salty. I do not mean that the whole meal was bad.”",
+      "promptZh": "丹尼爾說：「這頓飯準備得很好，但實在太鹹。我並不是說整頓飯都很差。」",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel said, “Do not get me wrong, but the meal was well prepared; it was just too salty.”",
+      "answerZh": "丹尼爾說：「不要誤會我的意思，但這頓飯準備得很好；只是太鹹。」",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel said, “Do not get me wrong, but the meal was well prepared; it was just too salty.”"
+    },
+    {
+      "id": "ss311-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I want to help, but I cannot stay after six. Please do not take this as a refusal to help.",
+      "promptZh": "我想幫忙，但我不能在六時後留下。請不要把這理解成我拒絕幫忙。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but I want to help; I cannot stay after six.",
+      "answerZh": "不要誤會我的意思，但我想幫忙；我不能在六時後留下。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but I want to help; I cannot stay after six."
+    },
+    {
+      "id": "ss311-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The coach said, “The players worked hard, but they also made several avoidable mistakes. I am not denying their effort.”",
+      "promptZh": "教練說：「球員很努力，但他們亦犯了幾個本可避免的錯誤。我並不是否定他們的付出。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach began, “Do not get me wrong, but the players worked hard; they also made several avoidable mistakes.”",
+      "answerZh": "教練首先說：「不要誤會我的意思，但球員很努力；他們亦犯了幾個本可避免的錯誤。」",
+      "answerZhSource": "pdf",
+      "highlight": "The coach began, “Do not get me wrong, but the players worked hard; they also made several avoidable mistakes.”"
+    },
+    {
+      "id": "ss311-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I understand your reason, but I do not agree with your choice. Please do not think that I ignored your explanation.",
+      "promptZh": "我明白你的理由，但我不同意你的選擇。請不要以為我忽略了你的解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but I understand your reason; I do not agree with your choice.",
+      "answerZh": "不要誤會我的意思，但我明白你的理由；我並不同意你的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but I understand your reason; I do not agree with your choice."
+    },
+    {
+      "id": "ss311-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In her message, Chloe wrote, “I enjoyed the trip, but the schedule was too crowded. I hope this comment will not be misunderstood.”",
+      "promptZh": "克洛伊在訊息中寫道：「我很享受這次旅程，但行程太緊密。我希望這項意見不會被誤解。」",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In her message, Chloe wrote, “Do not get me wrong, but I enjoyed the trip; the schedule was too crowded.”",
+      "answerZh": "克洛伊在訊息中寫道：「不要誤會我的意思，但我很享受這次旅程；行程太緊密。」",
+      "answerZhSource": "pdf",
+      "highlight": "In her message, Chloe wrote, “Do not get me wrong, but I enjoyed the trip; the schedule was too crowded.”"
+    },
+    {
+      "id": "ss311-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The phone works well, but it is not worth that price. I am not saying that it is a bad phone.",
+      "promptZh": "這部電話運作良好，但並不值得這個價錢。我並不是說它是一部差劣的電話。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but the phone works well; it is not worth that price.",
+      "answerZh": "不要誤會我的意思，但這部電話運作良好；它並不值得這個價錢。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but the phone works well; it is not worth that price."
+    },
+    {
+      "id": "ss311-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager said, “I trust the team, but we still need clearer records. This request does not mean that I doubt everyone.”",
+      "promptZh": "經理說：「我信任團隊，但我們仍需要更清晰的紀錄。這項要求並不代表我懷疑所有人。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager explained, “Do not get me wrong, but I trust the team; we still need clearer records.”",
+      "answerZh": "經理解釋說：「不要誤會我的意思，但我信任團隊；我們仍需要更清晰的紀錄。」",
+      "answerZhSource": "pdf",
+      "highlight": "The manager explained, “Do not get me wrong, but I trust the team; we still need clearer records.”"
+    },
+    {
+      "id": "ss311-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The idea has promise, but it needs more testing. We should make clear that we are not rejecting it.",
+      "promptZh": "這個構思有潛力，但需要更多測試。我們應表明自己並非拒絕它。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can say, “Do not get me wrong, but the idea has promise; it needs more testing.”",
+      "answerZh": "我們可以說：「不要誤會我的意思，但這個構思有潛力；它需要更多測試。」",
+      "answerZhSource": "pdf",
+      "highlight": "We can say, “Do not get me wrong, but the idea has promise; it needs more testing.”"
+    },
+    {
+      "id": "ss311-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I am pleased with the progress, but I am also concerned about the delay. Please do not misunderstand me.",
+      "promptZh": "我對進展感到滿意，但同時亦擔心延誤。請不要誤會我的意思。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but I am pleased with the progress; I am also concerned about the delay.",
+      "answerZh": "不要誤會我的意思，但我對進展感到滿意；我同時亦擔心延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but I am pleased with the progress; I am also concerned about the delay."
+    },
+    {
+      "id": "ss311-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The doctor said, “The treatment is helping, but recovery will still take time. I do not want you to think that the treatment has failed.”",
+      "promptZh": "醫生說：「治療正在發揮作用，但康復仍需要時間。我不希望你以為治療已經失敗。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor added, “Do not get me wrong, but the treatment is helping; recovery will still take time.”",
+      "answerZh": "醫生補充說：「不要誤會我的意思，但治療正在發揮作用；康復仍需要時間。」",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor added, “Do not get me wrong, but the treatment is helping; recovery will still take time.”"
+    },
+    {
+      "id": "ss311-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "His exact words were, “I support the goal, but I question the method. My criticism is not directed at the goal itself.”",
+      "promptZh": "他的原話是：「我支持這個目標，但我質疑所採用的方法。我的批評並不是針對目標本身。」",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His exact words were, “Do not get me wrong, but I support the goal; I question the method.”",
+      "answerZh": "他的原話是：「不要誤會我的意思，但我支持這個目標；我質疑的是所採用的方法。」",
+      "answerZhSource": "pdf",
+      "highlight": "His exact words were, “Do not get me wrong, but I support the goal; I question the method.”"
+    },
+    {
+      "id": "ss311-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new timetable is convenient for teachers, but it is difficult for some students. This observation is not an attack on the teachers.",
+      "promptZh": "新時間表對老師很方便，但對部分學生來說很困難。這項觀察並不是對老師的攻擊。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but the new timetable is convenient for teachers and difficult for some students.",
+      "answerZh": "不要誤會我的意思，但新時間表對老師很方便，對部分學生來說卻很困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but the new timetable is convenient for teachers and difficult for some students."
+    },
+    {
+      "id": "ss311-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The guide warned us, “The path is beautiful, but it can be dangerous after rain. I am not trying to discourage you from visiting it.”",
+      "promptZh": "導遊警告我們：「這條小徑很美麗，但下雨後可能很危險。我並不是想阻止你們前往。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide warned us, “Do not get me wrong, but the path is beautiful; it can be dangerous after rain.”",
+      "answerZh": "導遊警告我們：「不要誤會我的意思，但這條小徑很美麗；下雨後可能很危險。」",
+      "answerZhSource": "pdf",
+      "highlight": "The guide warned us, “Do not get me wrong, but the path is beautiful; it can be dangerous after rain.”"
+    },
+    {
+      "id": "ss311-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I replied, “I appreciate the offer, but I cannot accept it today. Please do not think that I am ungrateful.”",
+      "promptZh": "我回答說：「我很感激這項提議，但今天不能接受。請不要以為我不懂感恩。」",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I replied, “Do not get me wrong, but I appreciate the offer; I cannot accept it today.”",
+      "answerZh": "我回答說：「不要誤會我的意思，但我很感激這項提議；今天卻不能接受。」",
+      "answerZhSource": "pdf",
+      "highlight": "I replied, “Do not get me wrong, but I appreciate the offer; I cannot accept it today.”"
+    },
+    {
+      "id": "ss311-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The shop has improved, but it still needs better customer service. This does not mean that no progress has been made.",
+      "promptZh": "這間商店已有改善，但仍需要提供更好的顧客服務。這並不代表它完全沒有進步。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but the shop has improved; it still needs better customer service.",
+      "answerZh": "不要誤會我的意思，但這間商店已有改善；它仍需要提供更好的顧客服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but the shop has improved; it still needs better customer service."
+    },
+    {
+      "id": "ss311-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The report’s author said, “The figures are encouraging, but they do not yet prove long-term growth. This should not be treated as a negative assessment.”",
+      "promptZh": "報告作者說：「這些數字令人鼓舞，但尚未證明出現長期增長。這不應被視為負面評估。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report’s author said, “Do not get me wrong, but the figures are encouraging; they do not yet prove long-term growth.”",
+      "answerZh": "報告作者說：「不要誤會我的意思，但這些數字令人鼓舞；它們尚未證明出現長期增長。」",
+      "answerZhSource": "pdf",
+      "highlight": "The report’s author said, “Do not get me wrong, but the figures are encouraging; they do not yet prove long-term growth.”"
+    },
+    {
+      "id": "ss311-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Before rejecting the suggestion, Ava said, “The suggestion is creative, but it is not practical within our budget. I do recognise its strengths.”",
+      "promptZh": "艾娃在拒絕建議前說：「這項建議很有創意，但在我們的預算內並不可行。我確實認同它的優點。」",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before rejecting the suggestion, Ava said, “Do not get me wrong, but the suggestion is creative; it is not practical within our budget.”",
+      "answerZh": "艾娃在拒絕建議前說：「不要誤會我的意思，但這項建議很有創意；在我們的預算內卻並不可行。」",
+      "answerZhSource": "pdf",
+      "highlight": "Before rejecting the suggestion, Ava said, “Do not get me wrong, but the suggestion is creative; it is not practical within our budget.”"
+    },
+    {
+      "id": "ss311-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I value experience, but I think fresh ideas also matter. My opinion should not be understood as criticism of experienced workers.",
+      "promptZh": "我重視經驗，但我認為新想法亦很重要。我的意見不應被理解為批評有經驗的員工。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but I value experience; I think fresh ideas also matter.",
+      "answerZh": "不要誤會我的意思，但我重視經驗；我認為新想法亦很重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but I value experience; I think fresh ideas also matter."
+    },
+    {
+      "id": "ss311-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The organiser wrote, “We welcome families, but this particular activity is designed for adults. This is not intended to be an unfriendly message.”",
+      "promptZh": "主辦人寫道：「我們歡迎家庭參與，但這項特定活動是為成年人而設。這並不是不友善的訊息。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organiser wrote, “Do not get me wrong, but we welcome families; this particular activity is designed for adults.”",
+      "answerZh": "主辦人寫道：「不要誤會我的意思，但我們歡迎家庭參與；這項特定活動則是為成年人而設。」",
+      "answerZhSource": "pdf",
+      "highlight": "The organiser wrote, “Do not get me wrong, but we welcome families; this particular activity is designed for adults.”"
+    },
+    {
+      "id": "ss311-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The complaint is understandable, but the staff followed the stated rules. We should acknowledge both points without sounding dismissive.",
+      "promptZh": "這項投訴可以理解，但職員遵守了列明的規則。我們應同時承認這兩點，而不應顯得漠視投訴。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should respond, “Do not get me wrong, but the complaint is understandable; the staff followed the stated rules.”",
+      "answerZh": "我們應回應說：「不要誤會我的意思，但這項投訴可以理解；職員亦遵守了列明的規則。」",
+      "answerZhSource": "pdf",
+      "highlight": "We should respond, “Do not get me wrong, but the complaint is understandable; the staff followed the stated rules.”"
+    },
+    {
+      "id": "ss311-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Working from home saves travel time, but it does not suit every task. This is not an argument against working from home.",
+      "promptZh": "在家工作可以節省交通時間，但並不適合每項工作。這並不是反對在家工作的論點。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but working from home saves travel time; it does not suit every task.",
+      "answerZh": "不要誤會我的意思，但在家工作可以節省交通時間；它並不適合每項工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but working from home saves travel time; it does not suit every task."
+    },
+    {
+      "id": "ss311-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The chairperson said, “The proposal addresses a real problem, but it needs a clearer budget. I am not dismissing the proposal.”",
+      "promptZh": "主席說：「這項提案處理了一個實際問題，但需要更清晰的預算。我並不是否定這項提案。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chairperson said, “Do not get me wrong, but the proposal addresses a real problem; it needs a clearer budget.”",
+      "answerZh": "主席說：「不要誤會我的意思，但這項提案處理了一個實際問題；它需要更清晰的預算。」",
+      "answerZhSource": "pdf",
+      "highlight": "The chairperson said, “Do not get me wrong, but the proposal addresses a real problem; it needs a clearer budget.”"
+    },
+    {
+      "id": "ss311-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In the interview, Noah said, “I enjoy public attention, but I also need some privacy. I do not want to appear ungrateful to my supporters.”",
+      "promptZh": "諾亞在訪問中說：「我享受公眾關注，但亦需要一些私人空間。我不希望看起來不感激支持者。」",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the interview, Noah said, “Do not get me wrong, but I enjoy public attention; I also need some privacy.”",
+      "answerZh": "諾亞在訪問中說：「不要誤會我的意思，但我享受公眾關注；我亦需要一些私人空間。」",
+      "answerZhSource": "pdf",
+      "highlight": "In the interview, Noah said, “Do not get me wrong, but I enjoy public attention; I also need some privacy.”"
+    },
+    {
+      "id": "ss311-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The machine is faster, but it may not be safer. I am not saying that the machine has no advantages.",
+      "promptZh": "這部機器速度較快，但未必較安全。我並不是說這部機器毫無優點。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but the machine is faster; it may not be safer.",
+      "answerZh": "不要誤會我的意思，但這部機器速度較快；它卻未必較安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but the machine is faster; it may not be safer."
+    },
+    {
+      "id": "ss311-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The designer said, “Simple designs can be effective, but this one lacks important information. My criticism is not directed at simple design itself.”",
+      "promptZh": "設計師說：「簡單的設計可以很有效，但這項設計缺少重要資訊。我的批評並不是針對簡單設計本身。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The designer explained, “Do not get me wrong, but simple designs can be effective; this one lacks important information.”",
+      "answerZh": "設計師解釋說：「不要誤會我的意思，但簡單的設計可以很有效；這項設計卻缺少重要資訊。」",
+      "answerZhSource": "pdf",
+      "highlight": "The designer explained, “Do not get me wrong, but simple designs can be effective; this one lacks important information.”"
+    },
+    {
+      "id": "ss311-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I would answer, “The rule protects customers, but it places a heavy burden on small shops. Please do not misunderstand my concern.”",
+      "promptZh": "我會回答：「這項規則保障顧客，但為小型商店帶來沉重負擔。請不要誤會我的憂慮。」",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would answer, “Do not get me wrong, but the rule protects customers; it places a heavy burden on small shops.”",
+      "answerZh": "我會回答：「不要誤會我的意思，但這項規則保障顧客；它亦為小型商店帶來沉重負擔。」",
+      "answerZhSource": "pdf",
+      "highlight": "I would answer, “Do not get me wrong, but the rule protects customers; it places a heavy burden on small shops.”"
+    },
+    {
+      "id": "ss311-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team deserved praise, but it should learn from the final mistake. Recognising the mistake does not cancel the team’s achievement.",
+      "promptZh": "這支團隊值得讚賞，但應從最後的錯誤中學習。承認錯誤並不會抹煞團隊的成就。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but the team deserved praise; it should learn from the final mistake.",
+      "answerZh": "不要誤會我的意思，但這支團隊值得讚賞；它亦應從最後的錯誤中學習。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but the team deserved praise; it should learn from the final mistake."
+    },
+    {
+      "id": "ss311-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The head teacher told parents, “Homework has value, but too much of it can reduce time for rest. I am not suggesting that homework should disappear.”",
+      "promptZh": "校長對家長說：「家課有其價值，但過多家課會減少休息時間。我並不是建議取消家課。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The head teacher told parents, “Do not get me wrong, but homework has value; too much of it can reduce time for rest.”",
+      "answerZh": "校長對家長說：「不要誤會我的意思，但家課有其價值；過多家課會減少休息時間。」",
+      "answerZhSource": "pdf",
+      "highlight": "The head teacher told parents, “Do not get me wrong, but homework has value; too much of it can reduce time for rest.”"
+    },
+    {
+      "id": "ss311-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Her email ended with, “I respect the deadline, but I cannot produce reliable work by Friday. This is not an excuse for avoiding the task.”",
+      "promptZh": "她的電郵最後寫道：「我尊重限期，但無法在星期五前完成可靠的工作。這並不是逃避工作的藉口。」",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her email ended with, “Do not get me wrong, but I respect the deadline; I cannot produce reliable work by Friday.”",
+      "answerZh": "她的電郵最後寫道：「不要誤會我的意思，但我尊重限期；我無法在星期五前完成可靠的工作。」",
+      "answerZhSource": "pdf",
+      "highlight": "Her email ended with, “Do not get me wrong, but I respect the deadline; I cannot produce reliable work by Friday.”"
+    },
+    {
+      "id": "ss311-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The app is easy to use, but it collects more personal data than necessary. This does not mean that the whole app is badly designed.",
+      "promptZh": "這個應用程式容易使用，但收集了多於所需的個人資料。這並不代表整個應用程式設計差劣。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but the app is easy to use; it collects more personal data than necessary.",
+      "answerZh": "不要誤會我的意思，但這個應用程式容易使用；它收集了多於所需的個人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but the app is easy to use; it collects more personal data than necessary."
+    },
+    {
+      "id": "ss311-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The engineer said, “The repair is possible, but replacing the part may be safer. I am not saying that the repair cannot be done.”",
+      "promptZh": "工程師說：「維修是可行的，但更換零件可能較安全。我並不是說無法進行維修。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineer said, “Do not get me wrong, but the repair is possible; replacing the part may be safer.”",
+      "answerZh": "工程師說：「不要誤會我的意思，但維修是可行的；更換零件可能較安全。」",
+      "answerZhSource": "pdf",
+      "highlight": "The engineer said, “Do not get me wrong, but the repair is possible; replacing the part may be safer.”"
+    },
+    {
+      "id": "ss311-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Before raising his concern, Marcus said, “The charity does valuable work, but its spending should still be transparent. I am not attacking its purpose.”",
+      "promptZh": "馬庫斯在提出憂慮前說：「這間慈善機構進行有價值的工作，但其開支仍應保持透明。我並不是攻擊它的宗旨。」",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before raising his concern, Marcus said, “Do not get me wrong, but the charity does valuable work; its spending should still be transparent.”",
+      "answerZh": "馬庫斯在提出憂慮前說：「不要誤會我的意思，但這間慈善機構進行有價值的工作；其開支仍應保持透明。」",
+      "answerZhSource": "pdf",
+      "highlight": "Before raising his concern, Marcus said, “Do not get me wrong, but the charity does valuable work; its spending should still be transparent.”"
+    },
+    {
+      "id": "ss311-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Higher sales are encouraging, but they do not automatically mean that the business is healthy. This is not meant to dismiss the improvement.",
+      "promptZh": "銷售額上升令人鼓舞，但並不自動代表企業狀況良好。這並不是要否定有關改善。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but higher sales are encouraging; they do not automatically mean the business is healthy.",
+      "answerZh": "不要誤會我的意思，但銷售額上升令人鼓舞；這並不自動代表企業狀況良好。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but higher sales are encouraging; they do not automatically mean the business is healthy."
+    },
+    {
+      "id": "ss311-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee’s statement read, “We support wider access, but the current plan may reduce service quality. This concern should not be mistaken for opposition to wider access.”",
+      "promptZh": "委員會的聲明寫道：「我們支持擴大服務使用機會，但目前的計劃可能降低服務質素。這項憂慮不應被誤解為反對擴大服務使用機會。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee’s statement read, “Do not get me wrong, but we support wider access; the current plan may reduce service quality.”",
+      "answerZh": "委員會的聲明寫道：「不要誤會我的意思，但我們支持擴大服務使用機會；目前的計劃可能降低服務質素。」",
+      "answerZhSource": "pdf",
+      "highlight": "The committee’s statement read, “Do not get me wrong, but we support wider access; the current plan may reduce service quality.”"
+    },
+    {
+      "id": "ss311-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I would put it this way: “The research is carefully designed, but its sample is too small for a firm conclusion. I am not rejecting the entire study.”",
+      "promptZh": "我會這樣說：「這項研究設計嚴謹，但樣本太小，未能得出確切結論。我並不是否定整項研究。」",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would put it this way: “Do not get me wrong, but the research is carefully designed; its sample is too small for a firm conclusion.”",
+      "answerZh": "我會這樣說：「不要誤會我的意思，但這項研究設計嚴謹；其樣本太小，未能得出確切結論。」",
+      "answerZhSource": "pdf",
+      "highlight": "I would put it this way: “Do not get me wrong, but the research is carefully designed; its sample is too small for a firm conclusion.”"
+    },
+    {
+      "id": "ss311-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Speed matters, but accuracy must come first in this situation. This does not mean that efficiency is unimportant.",
+      "promptZh": "速度很重要，但在這種情況下，準確性必須放在首位。這並不代表效率不重要。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but speed matters; accuracy must come first in this situation.",
+      "answerZh": "不要誤會我的意思，但速度很重要；在這種情況下，準確性必須放在首位。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but speed matters; accuracy must come first in this situation."
+    },
+    {
+      "id": "ss311-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The consultant said, “Cutting costs may help in the short term, but it could damage staff morale. I am not arguing against all attempts to control spending.”",
+      "promptZh": "顧問說：「削減成本在短期內可能有幫助，但可能損害員工士氣。我並不是反對所有控制開支的措施。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The consultant advised, “Do not get me wrong, but cutting costs may help in the short term; it could damage staff morale.”",
+      "answerZh": "顧問建議說：「不要誤會我的意思，但削減成本在短期內可能有幫助；這樣做卻可能損害員工士氣。」",
+      "answerZhSource": "pdf",
+      "highlight": "The consultant advised, “Do not get me wrong, but cutting costs may help in the short term; it could damage staff morale.”"
+    },
+    {
+      "id": "ss311-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "During the meeting, Grace said, “I support the environmental goal, but the proposed deadline is unrealistic. My concern is about the timetable, not the goal.”",
+      "promptZh": "格蕾絲在會議上說：「我支持這項環保目標，但建議的限期並不切實際。我的憂慮在於時間表，而不是目標。」",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the meeting, Grace said, “Do not get me wrong, but I support the environmental goal; the proposed deadline is unrealistic.”",
+      "answerZh": "格蕾絲在會議上說：「不要誤會我的意思，但我支持這項環保目標；建議的限期並不切實際。」",
+      "answerZhSource": "pdf",
+      "highlight": "During the meeting, Grace said, “Do not get me wrong, but I support the environmental goal; the proposed deadline is unrealistic.”"
+    },
+    {
+      "id": "ss311-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The policy treats everyone equally on paper, but it may affect low-income families more severely. This observation does not mean that equality is unimportant.",
+      "promptZh": "這項政策在條文上平等對待所有人，但可能對低收入家庭造成較嚴重影響。這項觀察並不代表平等並不重要。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not get me wrong, but the policy treats everyone equally on paper; it may affect low-income families more severely.",
+      "answerZh": "不要誤會我的意思，但這項政策在條文上平等對待所有人；它可能對低收入家庭造成較嚴重影響。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not get me wrong, but the policy treats everyone equally on paper; it may affect low-income families more severely."
+    },
+    {
+      "id": "ss311-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The spokesperson replied, “The organisation accepts responsibility, but several claims in the article are inaccurate. Correcting those claims does not mean that we are avoiding responsibility.”",
+      "promptZh": "發言人回答說：「機構接受責任，但文章中的幾項聲稱並不準確。糾正這些聲稱並不代表我們逃避責任。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The spokesperson replied, “Do not get me wrong, but the organisation accepts responsibility; several claims in the article are inaccurate.”",
+      "answerZh": "發言人回答說：「不要誤會我的意思，但機構接受責任；文章中的幾項聲稱並不準確。」",
+      "answerZhSource": "pdf",
+      "highlight": "The spokesperson replied, “Do not get me wrong, but the organisation accepts responsibility; several claims in the article are inaccurate.”"
+    },
+    {
+      "id": "ss311-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In his final comment, Ethan said, “Technology can improve learning, but it cannot replace good teaching. I am not rejecting the use of technology in education.”",
+      "promptZh": "伊森在最後的評論中說：「科技可以改善學習，但不能取代良好的教學。我並不是反對在教育中使用科技。」",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In his final comment, Ethan said, “Do not get me wrong, but technology can improve learning; it cannot replace good teaching.”",
+      "answerZh": "伊森在最後的評論中說：「不要誤會我的意思，但科技可以改善學習；它不能取代良好的教學。」",
+      "answerZhSource": "pdf",
+      "highlight": "In his final comment, Ethan said, “Do not get me wrong, but technology can improve learning; it cannot replace good teaching.”"
+    }
+  ]
+}

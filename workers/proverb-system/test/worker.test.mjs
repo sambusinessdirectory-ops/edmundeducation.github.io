@@ -11,12 +11,17 @@ const ORIGIN = "https://edmundeducation.github.io";
 const STUDENT_TOKEN = "11111111-1111-4111-8111-111111111111";
 const STUDENT_ID = "22222222-2222-4222-8222-222222222222";
 const ATTEMPT_ID = "33333333-3333-4333-8333-333333333333";
-const LESSON_ID = "proverb-01";
+const LESSON_IDS = ["proverb-01", "proverb-02", "proverb-03"];
+const LESSON_ID = LESSON_IDS[0];
 const QUESTION_IDS = Array.from(
   { length: 50 },
   (_, index) => `${LESSON_ID}-q${String(index + 1).padStart(2, "0")}`
 );
-const CANONICAL_CATALOG_SHA256 = "18644e516c372d0fcb3a578f980754c2fcbdb28fa479180da11f36cd3bad84ce";
+const ALL_QUESTION_IDS = LESSON_IDS.flatMap(lessonId => Array.from(
+  { length: 50 },
+  (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
+));
+const CANONICAL_CATALOG_SHA256 = "49768240a6cd3494d4f554665b811e0081eeafd79a885986593295340272343f";
 
 function environment(overrides = {}) {
   return {
@@ -136,9 +141,9 @@ function installFetch(t, implementation) {
   globalThis.fetch = implementation;
 }
 
-test("the protected answer catalogue contains all 50 validated entries", () => {
+test("the protected answer catalogue contains all 150 validated entries", () => {
   const ids = Object.keys(ACCEPTED_ANSWERS);
-  assert.deepEqual(ids, QUESTION_IDS);
+  assert.deepEqual(ids, ALL_QUESTION_IDS);
   for (const [questionId, answers] of Object.entries(ACCEPTED_ANSWERS)) {
     assert.ok(Array.isArray(answers) && answers.length >= 1, `${questionId} needs a canonical answer`);
     for (const answer of answers) {
@@ -163,26 +168,26 @@ test("the protected catalogue exactly matches the canonical browser answers", ()
   const data = sandbox.window.EDMUND_PROVERB_SYSTEM_DATA;
   assert.equal(data?.system, "proverb");
   assert.equal(data?.version, "1");
-  assert.equal(data?.lessonCount, 1);
-  assert.equal(data?.questionCount, 50);
-  assert.equal(data?.lessons?.length, 1);
+  assert.equal(data?.lessonCount, 3);
+  assert.equal(data?.questionCount, 150);
+  assert.equal(data?.lessons?.length, 3);
 
-  const lesson = data.lessons[0];
-  assert.equal(lesson.id, LESSON_ID);
-  assert.equal(lesson.version, "1");
-  assert.equal(lesson.questions?.length, 50);
-
-  const canonicalRows = lesson.questions.map((question, index) => {
-    const questionId = QUESTION_IDS[index];
-    assert.equal(question.id, questionId);
-    assert.equal(question.number, index + 1);
-    assert.equal(typeof question.answer, "string");
-    assert.ok(question.answer.length >= 1);
-    const variants = Array.isArray(question.acceptedAnswers)
-      ? Array.from(question.acceptedAnswers)
-      : [];
-    assert.ok(variants.every(answer => typeof answer === "string" && answer.length >= 1));
-    return [questionId, [question.answer, ...variants]];
+  const canonicalRows = data.lessons.flatMap((lesson, lessonIndex) => {
+    assert.equal(lesson.id, LESSON_IDS[lessonIndex]);
+    assert.equal(lesson.version, "1");
+    assert.equal(lesson.questions?.length, 50);
+    return lesson.questions.map((question, index) => {
+      const questionId = `${lesson.id}-q${String(index + 1).padStart(2, "0")}`;
+      assert.equal(question.id, questionId);
+      assert.equal(question.number, index + 1);
+      assert.equal(typeof question.answer, "string");
+      assert.ok(question.answer.length >= 1);
+      const variants = Array.isArray(question.acceptedAnswers)
+        ? Array.from(question.acceptedAnswers)
+        : [];
+      assert.ok(variants.every(answer => typeof answer === "string" && answer.length >= 1));
+      return [questionId, [question.answer, ...variants]];
+    });
   });
   const expectedCatalog = Object.fromEntries(canonicalRows);
   assert.deepEqual(ACCEPTED_ANSWERS, expectedCatalog);
@@ -199,6 +204,10 @@ test("worker, SQL, and Wrangler contracts are independently proverb-namespaced",
     new URL("../../../supabase-proverb-system.sql", import.meta.url),
     "utf8"
   );
+  const forwardMigrationSource = fs.readFileSync(
+    new URL("../../../supabase-proverb-system-lessons-2-3.sql", import.meta.url),
+    "utf8"
+  );
   const wrangler = JSON.parse(
     fs.readFileSync(new URL("../wrangler.jsonc", import.meta.url), "utf8")
   );
@@ -207,10 +216,15 @@ test("worker, SQL, and Wrangler contracts are independently proverb-namespaced",
   );
   const readme = fs.readFileSync(new URL("../README.md", import.meta.url), "utf8");
 
-  assert.match(workerSource, /const LESSON_IDS = new Set\(\["proverb-01"\]\);/);
-  assert.match(workerSource, /\^\(proverb-01\)-q\(\\d\{2\}\)\$/);
-  assert.match(sqlSource, /p_lesson_id <> 'proverb-01'/);
-  assert.match(sqlSource, /\^proverb-01-q\(0\[1-9\]\|\[1-4\]\[0-9\]\|50\)\$/);
+  assert.match(workerSource, /const LESSON_IDS = new Set\(\["proverb-01", "proverb-02", "proverb-03"\]\);/);
+  assert.match(workerSource, /\^\(proverb-\\d\{2\}\)-q\(\\d\{2\}\)\$/);
+  assert.match(sqlSource, /p_lesson_id not in \('proverb-01', 'proverb-02', 'proverb-03'\)/);
+  assert.match(sqlSource, /v_question_pattern := '\^' \|\| p_lesson_id \|\| '-q\(0\[1-9\]\|\[1-4\]\[0-9\]\|50\)\$'/);
+  assert.match(
+    forwardMigrationSource,
+    /^--[^]*?begin;\n\nset local lock_timeout = '5s';\nset local statement_timeout = '2min';\n\nselect pg_catalog\.pg_advisory_xact_lock\(/
+  );
+  assert.match(forwardMigrationSource, /\ncommit;\n$/);
   assert.match(sqlSource, /\^\\\$2a\\\$12\\\$/);
   assert.doesNotMatch(sqlSource, /\\\$2\[aby\]\\\$12/);
   assert.doesNotMatch(workerSource, /sentence-structure/i);
@@ -259,13 +273,13 @@ test("health reports bookmark limits and canonical catalogue readiness", async (
   const payload = await response.json();
   assert.deepEqual(payload.catalog, {
     ready: true,
-    acceptedQuestions: 50,
-    expectedQuestions: 50
+    acceptedQuestions: 150,
+    expectedQuestions: 150
   });
   assert.deepEqual(payload.limits, {
     maxAttemptBodyBytes: 128 * 1024,
     maxAttemptResultBytes: 96 * 1024,
-    maxBookmarks: 51,
+    maxBookmarks: 153,
     maxPageSize: 100
   });
 });
@@ -375,15 +389,15 @@ test("claimed-correct answers fail closed before upsert when unavailable or unap
   assert.equal(upsertCalls, 0);
 });
 
-test("all 51 possible bookmarks round-trip and a 52nd is rejected", async t => {
-  const bookmarks = [
-    { lessonId: LESSON_ID, questionId: "__section__", includeAnswer: false },
-    ...QUESTION_IDS.map((questionId, index) => ({
-      lessonId: LESSON_ID,
-      questionId,
+test("all 153 possible bookmarks round-trip and a 154th is rejected", async t => {
+  const bookmarks = LESSON_IDS.flatMap(lessonId => [
+    { lessonId, questionId: "__section__", includeAnswer: false },
+    ...Array.from({ length: 50 }, (_, index) => ({
+      lessonId,
+      questionId: `${lessonId}-q${String(index + 1).padStart(2, "0")}`,
       includeAnswer: index % 2 === 0
     }))
-  ];
+  ]);
   const rows = bookmarks.map((bookmark, index) => ({
     lesson_id: bookmark.lessonId,
     question_id: bookmark.questionId,
@@ -418,8 +432,8 @@ test("all 51 possible bookmarks round-trip and a 52nd is rejected", async t => {
     body: JSON.stringify({ bookmarks })
   }), environment());
   assert.equal(validResponse.status, 200);
-  assert.equal((await validResponse.json()).bookmarks.length, 51);
-  assert.deepEqual(pageCalls, [[0, 100]]);
+  assert.equal((await validResponse.json()).bookmarks.length, 153);
+  assert.deepEqual(pageCalls, [[0, 100], [100, 100]]);
 
   const invalidResponse = await worker.fetch(new Request("https://worker.example/v1/bookmarks", {
     method: "PUT",

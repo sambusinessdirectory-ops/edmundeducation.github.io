@@ -1,0 +1,1602 @@
+{
+  "lesson": {
+    "id": "idiom-110",
+    "order": 110,
+    "slug": "bad-blood",
+    "version": "1",
+    "title": "嫌隙／積怨",
+    "titleEn": "bad blood",
+    "titleZh": "嫌隙／積怨",
+    "source": {
+      "file": "Idiom 110 - 「BAD BLOOD _ THERE IS BAD BLOOD BETWEEN...」.pdf",
+      "pageCount": 31,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "exercisePdfPages": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "answerKeyPdfPages": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "bad blood",
+        "highlight": "bad blood"
+      }
+    ],
+    "examples": [
+      {
+        "en": "There is bad blood between the two neighbours.",
+        "zh": "兩名鄰居之間存在嫌隙。",
+        "highlight": "bad blood"
+      },
+      {
+        "en": "There was bad blood between the two teams.",
+        "zh": "兩支隊伍之間曾經存在積怨。",
+        "highlight": "bad blood"
+      }
+    ],
+    "meaning": {
+      "en": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+      "zh": "Bad blood 指兩個人或群體之間持續存在的憤怒、不滿、怨恨或敵意，通常源於過往的爭執或不愉快事件。",
+      "naturalZh": [
+        "嫌隙",
+        "積怨",
+        "芥蒂",
+        "不和",
+        "敵意",
+        "惡劣關係",
+        "長期心病",
+        "彼此心存不滿"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral to Formal",
+      "labelZh": "中性至正式",
+      "summaryEn": "sports reports; workplace discussions; stories about family or friendship problems; general writing about conflict.",
+      "summaryZh": "Bad blood 屬中性表達，但所表達的情緒較強烈。 它適合用於日常對話、新聞、體育報道、工作討論，以及有關家庭、友誼或群體衝突的一般文章。",
+      "contextsEn": [
+        "everyday conversation",
+        "news reports",
+        "sports reports",
+        "workplace discussions",
+        "stories about family or friendship problems",
+        "general writing about conflict"
+      ],
+      "contextsZh": [],
+      "formalEn": "In very formal writing, hostility, resentment, conflict or strained relations may sometimes be more suitable.",
+      "formalZh": "在非常正式的文章中，有時可使用 hostility、resentment、conflict 或 strained relations。"
+    },
+    "fixedVariable": {
+      "fixed": "bad blood",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "There + be + bad blood + between A and B.",
+          "example": "There is bad blood between the two neighbours.",
+          "highlight": "bad blood"
+        },
+        {
+          "form": "There + seem / appear + to be + bad blood + between A and B.",
+          "example": "There seems to be bad blood between the two managers.",
+          "highlight": "bad blood"
+        },
+        {
+          "form": "Bad blood + develop / grow / exist / remain + between A and B.",
+          "example": "Bad blood developed between the two friends.",
+          "highlight": "Bad blood"
+        },
+        {
+          "form": "Event / action + cause / create / leave + bad blood + between A and B.",
+          "example": "The unfair decision caused bad blood between the teams.",
+          "highlight": "bad blood"
+        },
+        {
+          "form": "Subject + prevent / stop + bad blood + from developing + between A and B.",
+          "example": "The teacher tried to prevent bad blood from developing between the groups.",
+          "highlight": "bad blood"
+        },
+        {
+          "form": "Subject + end / reduce / remove + the bad blood + between A and B.",
+          "example": "Their apologies ended the bad blood between them.",
+          "highlight": "bad blood"
+        },
+        {
+          "form": "The bad blood + between A and B + verb.",
+          "example": "The bad blood between the brothers affected the whole family.",
+          "highlight": "bad blood"
+        },
+        {
+          "form": "because of / despite / after + the bad blood or bad blood",
+          "example": "Because of the bad blood between them, they refused to work together.",
+          "highlight": "bad blood"
+        },
+        {
+          "form": "bad blood",
+          "example": "There is no bad blood between us.",
+          "highlight": "bad blood"
+        },
+        {
+          "form": "bad blood + caused by + noun",
+          "example": "The bad blood caused by the argument lasted for years.",
+          "highlight": "bad blood"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "“There Be” Structure",
+        "titleZh": "句式一：There Be 句式",
+        "formula": "There + be + bad blood + between A and B.",
+        "descriptionEn": "There may still be bad blood between them.",
+        "descriptionZh": "他們之間可能仍有芥蒂。",
+        "examples": [
+          {
+            "en": "There is bad blood between the two neighbours.",
+            "zh": "兩名鄰居之間存在嫌隙。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "There was bad blood between the two teams.",
+            "zh": "兩支隊伍之間曾經存在積怨。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "There has been bad blood between the families for years.",
+            "zh": "兩個家庭之間多年來一直存在積怨。",
+            "highlight": "bad blood"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "“Seem / Appear to Be”",
+        "titleZh": "句式二：Seem/Appear to Be",
+        "formula": "There + seem / appear + to be + bad blood + between A and B.",
+        "descriptionEn": "Source grammar frame: There + seem / appear + to be + bad blood + between A and B.",
+        "descriptionZh": "原檔列出的句法框架：There + seem / appear + to be + bad blood + between A and B。",
+        "examples": [
+          {
+            "en": "There seems to be bad blood between the two managers.",
+            "zh": "兩名經理之間似乎存在嫌隙。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "There appears to be bad blood between the former partners.",
+            "zh": "兩名前合作夥伴之間似乎存在積怨。",
+            "highlight": "bad blood"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Bad Blood as the Subject",
+        "titleZh": "句式三：Bad Blood 作主語",
+        "formula": "Bad blood + develop / grow / exist / remain + between A and B.",
+        "descriptionEn": "Source grammar frame: Bad blood + develop / grow / exist / remain + between A and B.",
+        "descriptionZh": "原檔列出的句法框架：Bad blood + develop / grow / exist / remain + between A and B。",
+        "examples": [
+          {
+            "en": "Bad blood developed between the two friends.",
+            "zh": "兩名朋友之間逐漸產生嫌隙。",
+            "highlight": "Bad blood"
+          },
+          {
+            "en": "Bad blood still exists between the two groups.",
+            "zh": "兩個群體之間仍然存在積怨。",
+            "highlight": "Bad blood"
+          },
+          {
+            "en": "Bad blood may grow between them if the arguments continue.",
+            "zh": "如果爭執持續，他們之間的積怨可能會加深。",
+            "highlight": "Bad blood"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Naming the Cause",
+        "titleZh": "句式四：指出積怨的成因",
+        "formula": "Event / action + cause / create / leave + bad blood + between A and B.",
+        "descriptionEn": "Source grammar frame: Event / action + cause / create / leave + bad blood + between A and B.",
+        "descriptionZh": "原檔列出的句法框架：Event / action + cause / create / leave + bad blood + between A and B。",
+        "examples": [
+          {
+            "en": "The unfair decision caused bad blood between the teams.",
+            "zh": "這個不公平的決定令兩支隊伍之間產生積怨。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "The argument created bad blood between the neighbours.",
+            "zh": "這場爭執令鄰居之間產生嫌隙。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "His accusation left bad blood between the two friends.",
+            "zh": "他的指控令兩名朋友之間留下芥蒂。",
+            "highlight": "bad blood"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preventing Hostility",
+        "titleZh": "句式五：防止產生積怨",
+        "formula": "Subject + prevent / stop + bad blood + from developing + between A and B.",
+        "descriptionEn": "Source grammar frame: Subject + prevent / stop + bad blood + from developing + between A and B.",
+        "descriptionZh": "原檔列出的句法框架：Subject + prevent / stop + bad blood + from developing + between A and B。",
+        "examples": [
+          {
+            "en": "The teacher tried to prevent bad blood from developing between the groups.",
+            "zh": "老師嘗試防止兩個小組之間產生嫌隙。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "We must stop bad blood from developing between the teams.",
+            "zh": "我們必須防止兩支隊伍之間產生積怨。",
+            "highlight": "bad blood"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Ending or Reducing Hostility",
+        "titleZh": "句式六：消除或減少積怨",
+        "formula": "Subject + end / reduce / remove + the bad blood + between A and B.",
+        "descriptionEn": "Source grammar frame: Subject + end / reduce / remove + the bad blood + between A and B.",
+        "descriptionZh": "原檔列出的句法框架：Subject + end / reduce / remove + the bad blood + between A and B。",
+        "examples": [
+          {
+            "en": "Their apologies ended the bad blood between them.",
+            "zh": "他們互相道歉，消除了彼此之間的積怨。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "The honest conversation reduced the bad blood between the groups.",
+            "zh": "這次坦誠對話減輕了兩個群體之間的敵意。",
+            "highlight": "bad blood"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Definite Noun Phrase",
+        "titleZh": "句式七：使用定冠詞名詞短語",
+        "formula": "The bad blood + between A and B + verb.",
+        "descriptionEn": "Source grammar frame: The bad blood + between A and B + verb.",
+        "descriptionZh": "原檔列出的句法框架：The bad blood + between A and B + verb。",
+        "examples": [
+          {
+            "en": "The bad blood between the brothers affected the whole family.",
+            "zh": "兩兄弟之間的積怨影響了整個家庭。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "The bad blood between the teams began after last year’s match.",
+            "zh": "兩支隊伍之間的積怨始於去年的比賽。",
+            "highlight": "bad blood"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Following a Preposition",
+        "titleZh": "句式八：置於介詞之後",
+        "formula": "because of / despite / after + the bad blood or bad blood",
+        "descriptionEn": "Source grammar frame: because of / despite / after + the bad blood or bad blood.",
+        "descriptionZh": "原檔列出的句法框架：because of / despite / after + the bad blood or bad blood。",
+        "examples": [
+          {
+            "en": "Because of the bad blood between them, they refused to work together.",
+            "zh": "由於二人之間存在積怨，他們拒絕合作。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "Despite the bad blood between them, they remained polite.",
+            "zh": "儘管二人之間存在嫌隙，他們仍然保持禮貌。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "After years of bad blood, the families finally spoke again.",
+            "zh": "經過多年的積怨，兩個家庭終於再次交談。",
+            "highlight": "bad blood"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Negative and Question Forms",
+        "titleZh": "句式九：否定句及疑問句",
+        "formula": "bad blood",
+        "descriptionEn": "Source grammar frame: bad blood.",
+        "descriptionZh": "原檔列出的句法框架：bad blood。",
+        "examples": [
+          {
+            "en": "There is no bad blood between us.",
+            "zh": "我們之間沒有任何芥蒂。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "Is there any bad blood between the players?",
+            "zh": "球員之間是否存在嫌隙？",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "I do not want any bad blood between us.",
+            "zh": "我不希望我們之間留下芥蒂。",
+            "highlight": "bad blood"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Reduced Relative Clause",
+        "titleZh": "句式十：分詞短語",
+        "formula": "bad blood + caused by + noun",
+        "descriptionEn": "Optional Method Extension",
+        "descriptionZh": "Optional Method Extension 可選的方式延伸",
+        "examples": [
+          {
+            "en": "The bad blood caused by the argument lasted for years.",
+            "zh": "這場爭執造成的積怨持續了多年。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "The manager noticed bad blood developing between the teams.",
+            "zh": "經理察覺到兩個團隊之間逐漸產生嫌隙。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "The new rule could create bad blood between the classes.",
+            "zh": "新規則可能令兩個班別之間產生嫌隙。",
+            "highlight": "bad blood"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Describes More Than One Argument",
+        "titleZh": "形容爭執留下的長期影響",
+        "en": "Bad blood does not focus only on the original argument. It describes the hostility that remains afterwards.",
+        "zh": "不只集中於原本的爭執，還形容爭執過後仍然存在的敵意。 兩名鄰居自去年起一直存在積怨。",
+        "examples": [
+          {
+            "en": "There has been bad blood between the two neighbours since last year.",
+            "zh": "兩名鄰居自去年起一直存在積怨。",
+            "highlight": "bad blood"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Explains Difficult Relationships",
+        "titleZh": "解釋關係為何緊張",
+        "en": "The expression explains the hidden relationship behind the visible problem.",
+        "zh": "兩個團隊之間的積怨令合作變得困難。 這個表達能夠解釋表面問題背後的緊張關係。",
+        "examples": [
+          {
+            "en": "The bad blood between the teams made cooperation difficult.",
+            "zh": "兩個團隊之間的積怨令合作變得困難。",
+            "highlight": "bad blood"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Describe Cause, Development and Result",
+        "titleZh": "可以形容成因、發展及結果",
+        "en": "The bad blood made cooperation difficult.",
+        "zh": "這個表達可以用於說明積怨的成因、發展及所造成的結果。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Deny Rumours Naturally",
+        "titleZh": "可以自然地否認不和傳聞",
+        "en": "This is a concise way to say that two people do not seriously resent each other.",
+        "zh": "我們之間沒有任何芥蒂。 這是一種簡潔的說法，表示雙方並沒有嚴重怨恨對方。",
+        "examples": [
+          {
+            "en": "There is no bad blood between us.",
+            "zh": "我們之間沒有任何芥蒂。",
+            "highlight": "bad blood"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Allows Genuine Grammar Variation",
+        "titleZh": "提供真正的句法變化",
+        "en": "the main noun after there is; the subject of a sentence; the object after cause or create; a noun phrase after because of or despite; part of a question or negative statement.",
+        "zh": "這個表達可以置於 there is 之後、作為句子主語、置於 cause 或 create 之後作賓語、置於 because of 或 despite 之後，亦可以用於疑問句或否定句。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法未能完全確定",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster records 1664 as its first known use of bad blood in the sense of ill feeling or bitterness. Some other dictionary histories date the familiar modern form to the early nineteenth century. These different dates probably reflect differences in which early examples and forms each dictionary accepts.",
+          "zh": "Merriam-Webster 把 bad blood 表示不和或怨恨的最早已知用法追溯至1664年。 部分其他字典則把人們熟悉的現代形式追溯至十九世紀初。 這些日期不同，很可能是因為各字典對早期例子及表達形式採用了不同判斷標準。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Over time, bad blood stopped being understood mainly as something physically wrong inside a person. It became a conventional image for hostility existing between people or groups.",
+          "zh": "隨着時間發展，bad blood 不再主要被理解為某人體內出現問題，而逐漸成為形容人或群體之間存在敵意的固定意象。"
+        }
+      ],
+      "memoryEn": "An old conflict leaves bad feelings flowing between two sides.",
+      "memoryZh": "過往的衝突令負面情緒持續存在於雙方之間。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Two Fixed Words Together",
+        "titleZh": "規則一：兩個固定字詞不可分開",
+        "en": "Keep the Two Fixed Words Together",
+        "zh": "兩個固定字詞不可分開",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Add an Indefinite Article",
+        "titleZh": "規則二：不要在前面加入不定冠詞",
+        "en": "Do Not Add an Indefinite Article",
+        "zh": "不要在前面加入不定冠詞",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use “Between” for Two Sides",
+        "titleZh": "規則三：使用 between 指出雙方",
+        "en": "Between is part of the surrounding grammar, not part of the fixed expression.",
+        "zh": "Between 屬於句子的外圍結構，並不是慣用語的固定部分。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It for Lasting Hostility",
+        "titleZh": "規則四：用於持續的敵意",
+        "en": "Use It for Lasting Hostility",
+        "zh": "兩名表親自去年爭吵後一直存在嫌隙。 露西因諾亞遲到五分鐘而有點不滿。",
+        "examples": [
+          {
+            "en": "There has been bad blood between the cousins since their argument last year.",
+            "zh": "兩名表親自去年爭吵後一直存在嫌隙。",
+            "highlight": "bad blood"
+          },
+          {
+            "en": "This brief annoyance does not normally justify bad blood.",
+            "zh": "露西因諾亞遲到五分鐘而有點不滿。",
+            "highlight": "bad blood"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "A Past Cause Is Usually Present",
+        "titleZh": "規則五：通常存在過往成因",
+        "en": "an argument; an unfair decision; an accusation; competition; betrayal; blame; money; an old family problem.",
+        "zh": "常見成因包括爭執、不公平決定、指控、競爭、背叛、責怪、金錢問題及過往的家庭衝突。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Interpret It Literally",
+        "titleZh": "規則六：不要按字面解釋",
+        "en": "In this exercise, blood does not refer to the red liquid inside the body. The doctor tested the patient’s blood.",
+        "zh": "在本練習中，blood 並不是指身體內的血液。 醫生化驗病人的血液。 醫生與前經理之間存在積怨。",
+        "examples": [
+          {
+            "en": "There is bad blood between the doctor and the former manager.",
+            "zh": "醫生與前經理之間存在積怨。",
+            "highlight": "bad blood"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Time",
+        "titleZh": "規則七：保留時間",
+        "en": "Preserve Time",
+        "zh": "保留時間",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則八：保留確定程度",
+        "en": "The incorrect answer changes a possibility into a certainty.",
+        "zh": "錯誤答案把「可能」改成「肯定」，改變了原句的確定程度。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "“No Bad Blood” Denies Hostility",
+        "titleZh": "規則九：No Bad Blood 表示沒有積怨",
+        "en": "This does not mean the people are close friends. It only denies serious resentment or hostility.",
+        "zh": "我們之間沒有芥蒂。 這不代表雙方一定是親密朋友，只是否認彼此存在嚴重積怨或敵意。",
+        "examples": [
+          {
+            "en": "There is no bad blood between us.",
+            "zh": "我們之間沒有芥蒂。",
+            "highlight": "bad blood"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Force It into Every Disagreement",
+        "titleZh": "規則十：不要用於每一項意見分歧",
+        "en": "Two people may disagree politely without developing bad blood.",
+        "zh": "兩個人可以禮貌地持不同意見，而不一定因此產生積怨。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using bad blood.",
+      "zh": "使用 bad blood 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-110-q01",
+        "number": 1,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Ethan and Marcus argued about borrowed money last year. They still dislike each other.",
+        "promptZh": "伊森和馬庫斯去年曾因借款問題而爭吵。他們至今仍不喜歡對方。",
+        "starter": "There",
+        "answer": "There is bad blood between Ethan and Marcus because of last year’s argument about borrowed money.",
+        "answerZh": "伊森和馬庫斯因去年有關借款的爭執而彼此存在積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q02",
+        "number": 2,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Two families argued about a piece of land years ago and have disliked each other ever since.",
+        "promptZh": "兩個家庭多年前曾因一幅土地而爭吵，從此一直彼此不和。",
+        "starter": "There",
+        "answer": "There has been bad blood between the two families since an argument about land years ago.",
+        "answerZh": "兩個家庭自多年前因土地發生爭執後，一直存在積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q03",
+        "number": 3,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Zara blamed Chloe when their team lost. The two friends have disliked each other since then.",
+        "promptZh": "球隊落敗時，扎拉把責任推到克洛伊身上。兩名朋友自此一直彼此不滿。",
+        "starter": "Zara’s",
+        "answer": "Zara’s blame after the team lost created bad blood between her and Chloe.",
+        "answerZh": "球隊落敗後，扎拉責怪克洛伊，令二人之間產生嫌隙。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q04",
+        "number": 4,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Two shop owners argued about a sign last year. They still refuse to speak to each other.",
+        "promptZh": "兩名店主去年曾因一個招牌而爭吵。他們至今仍拒絕與對方交談。",
+        "starter": "Bad",
+        "answer": "Bad blood still exists between the two shop owners after their argument over the sign.",
+        "answerZh": "兩名店主在因招牌發生爭執後，彼此之間至今仍有積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "Bad blood"
+      },
+      {
+        "id": "idiom-110-q05",
+        "number": 5,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Two school clubs began disliking each other after they argued over the same activity room.",
+        "promptZh": "兩個學校學會在爭奪同一個活動室後，開始彼此不和。",
+        "starter": "The",
+        "answer": "The bad blood between the two school clubs began with their argument over the activity room.",
+        "answerZh": "兩個學校學會之間的積怨，始於他們爭奪活動室的爭執。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q06",
+        "number": 6,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Two brothers stopped speaking after they disagreed about the family business.",
+        "promptZh": "兩兄弟因家族生意出現分歧後，便不再交談。",
+        "starter": "There",
+        "answer": "There was bad blood between the two brothers after they disagreed about the family business.",
+        "answerZh": "兩兄弟在家族生意上出現分歧後，彼此之間產生了嫌隙。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q07",
+        "number": 7,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "An unfair team selection made several members resent one another.",
+        "promptZh": "一次不公平的隊員選拔令幾名成員彼此心存不滿。",
+        "starter": "The",
+        "answer": "The unfair team selection caused bad blood between several members.",
+        "answerZh": "不公平的隊員選拔令幾名成員之間產生積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q08",
+        "number": 8,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Both girls apologised, and they no longer felt angry with each other.",
+        "promptZh": "兩名女孩都道了歉，現在已不再對對方感到憤怒。",
+        "starter": "No",
+        "answer": "No bad blood remains between the two girls after their apologies.",
+        "answerZh": "兩名女孩互相道歉後，彼此之間已沒有任何芥蒂。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q09",
+        "number": 9,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The residents still resent the builder because of several months of noisy work.",
+        "promptZh": "居民因數月的嘈雜工程，至今仍對建築商心存不滿。",
+        "starter": "Months",
+        "answer": "Months of noisy work created bad blood between the residents and the builder.",
+        "answerZh": "數月的嘈雜工程令居民和建築商之間產生積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q10",
+        "number": 10,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The two former business partners avoided eye contact and answered each other coldly.",
+        "promptZh": "兩名前生意夥伴避開彼此的目光，回應對方時態度亦十分冷淡。",
+        "starter": "There",
+        "answer": "There seems to be bad blood between the two former business partners.",
+        "answerZh": "兩名前生意夥伴之間似乎存在嫌隙。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q11",
+        "number": 11,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The two teams may still resent each other after last year’s final.",
+        "promptZh": "兩支隊伍在去年的決賽後，可能仍然不滿對方。",
+        "starter": "There",
+        "answer": "There may still be bad blood between the two teams after last year’s final.",
+        "answerZh": "兩支隊伍在去年的決賽後，彼此之間可能仍有積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q12",
+        "number": 12,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A false message made Nora and Lily angry with each other, and they stopped speaking.",
+        "promptZh": "一則虛假訊息令諾拉和莉莉彼此生氣，二人更停止交談。",
+        "starter": "A",
+        "answer": "A false message created bad blood between Nora and Lily.",
+        "answerZh": "一則虛假訊息令諾拉和莉莉之間產生嫌隙。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q13",
+        "number": 13,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Hostility slowly formed between the neighbours after repeated arguments about parking.",
+        "promptZh": "鄰居在多次因泊車問題爭吵後，彼此之間逐漸產生敵意。",
+        "starter": "Bad",
+        "answer": "Bad blood gradually developed between the neighbours after repeated arguments about parking.",
+        "answerZh": "鄰居在多次因泊車問題爭吵後，彼此之間逐漸產生積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "Bad blood"
+      },
+      {
+        "id": "idiom-110-q14",
+        "number": 14,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The disagreement between the cousins ended years ago, but their strong resentment continued.",
+        "promptZh": "兩名表親的爭執多年前已結束，但彼此之間的強烈怨恨仍然持續。",
+        "starter": "The",
+        "answer": "The bad blood between the two cousins lasted long after their disagreement ended.",
+        "answerZh": "兩名表親之間的積怨在爭執結束後仍持續了很長時間。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q15",
+        "number": 15,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "One unfair decision made two office teams resent each other.",
+        "promptZh": "一項不公平的決定令兩個辦公室團隊彼此心存不滿。",
+        "starter": "One",
+        "answer": "One unfair decision left bad blood between the two office teams.",
+        "answerZh": "一項不公平的決定令兩個辦公室團隊之間留下積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q16",
+        "number": 16,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "If the captain publicly blames only one player, the captain and that player will resent each other.",
+        "promptZh": "如果隊長公開只責怪一名球員，隊長和該名球員將會彼此心存不滿。",
+        "starter": "There",
+        "answer": "There will be bad blood between the captain and the player if the captain blames only that player publicly.",
+        "answerZh": "如果隊長公開只責怪該名球員，二人之間將會產生嫌隙。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q17",
+        "number": 17,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The manager will meet both groups because she does not want hostility to develop between them.",
+        "promptZh": "經理將與兩個小組會面，因為她不希望雙方逐漸產生敵意。",
+        "starter": "The",
+        "answer": "The manager wants to prevent bad blood from developing between the two groups.",
+        "answerZh": "經理希望防止兩個小組之間產生積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q18",
+        "number": 18,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Do the two former friends still resent each other after their argument?",
+        "promptZh": "兩名前朋友在爭吵後是否仍然怨恨對方？",
+        "starter": "Is",
+        "answer": "Is there still any bad blood between the two former friends after their argument?",
+        "answerZh": "兩名前朋友在爭吵後是否仍然存在芥蒂？",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q19",
+        "number": 19,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A sincere apology removed the resentment between the neighbours.",
+        "promptZh": "一個真誠的道歉消除了鄰居之間的積怨。",
+        "starter": "The",
+        "answer": "The sincere apology ended the bad blood between the neighbours.",
+        "answerZh": "這個真誠的道歉消除了鄰居之間的積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q20",
+        "number": 20,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "People thought the two players hated each other, but both players said they were still friends.",
+        "promptZh": "人們以為兩名球員互相憎恨，但二人均表示他們仍然是朋友。",
+        "starter": "There",
+        "answer": "There was no bad blood between the two players despite what people thought.",
+        "answerZh": "儘管人們有不同猜測，兩名球員之間並沒有任何積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q21",
+        "number": 21,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Why will Isla not invite Grace? B: They have disliked each other since an argument last summer.",
+        "promptZh": "甲：為甚麼艾拉不會邀請格蕾絲？ 乙：她們自去年夏天爭吵後一直不喜歡對方。",
+        "starter": "There",
+        "answer": "There is still bad blood between Isla and Grace after their argument last summer.",
+        "answerZh": "艾拉和格蕾絲在去年夏天爭吵後，彼此之間至今仍有芥蒂。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q22",
+        "number": 22,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: This disagreement is serious. B: I do not want it to make us hate each other.",
+        "promptZh": "甲：這次意見分歧十分嚴重。 乙：我不希望它令我們互相怨恨。",
+        "starter": "I",
+        "answer": "I do not want any bad blood between us because of this disagreement.",
+        "answerZh": "我不希望我們因這次意見分歧而留下任何芥蒂。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q23",
+        "number": 23,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The two departments resent each other, but they must plan the event together.",
+        "promptZh": "兩個部門彼此不滿，但仍必須共同籌備活動。",
+        "starter": "Although",
+        "answer": "Although there is bad blood between the two departments, they must plan the event together.",
+        "answerZh": "雖然兩個部門之間存在積怨，但仍必須共同籌備活動。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q24",
+        "number": 24,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The cousins would not sit together at dinner because they still resented each other.",
+        "promptZh": "兩名表親因仍然怨恨對方，所以不願在晚餐時坐在一起。",
+        "starter": "Because",
+        "answer": "Because of the bad blood between the cousins, they would not sit together at dinner.",
+        "answerZh": "由於兩名表親之間存在積怨，他們不願在晚餐時坐在一起。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q25",
+        "number": 25,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The old argument between the two families still affects their children.",
+        "promptZh": "兩個家庭之間的舊爭執至今仍影響着他們的子女。",
+        "starter": "Old",
+        "answer": "Old bad blood between the two families still affects their children.",
+        "answerZh": "兩個家庭之間的舊積怨至今仍影響着他們的子女。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q26",
+        "number": 26,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "An argument over the prize caused resentment, which is making the club meeting tense.",
+        "promptZh": "一場有關獎品的爭執造成了積怨，令學會會議的氣氛十分緊張。",
+        "starter": "The",
+        "answer": "The bad blood caused by the argument over the prize is making the club meeting tense.",
+        "answerZh": "有關獎品的爭執所造成的積怨，令學會會議的氣氛十分緊張。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q27",
+        "number": 27,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "I am not certain, but the two teachers may still dislike each other after last year’s complaint.",
+        "promptZh": "我不能肯定，但兩名老師可能在去年的投訴後仍然不喜歡對方。",
+        "starter": "There",
+        "answer": "There might still be bad blood between the two teachers after last year’s complaint.",
+        "answerZh": "兩名老師在去年的投訴後，彼此之間可能仍有芥蒂。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q28",
+        "number": 28,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "If people continue insulting one another, the resentment between them can become stronger.",
+        "promptZh": "如果人們繼續互相侮辱，彼此之間的怨恨可能會加深。",
+        "starter": "Bad",
+        "answer": "Bad blood can grow between people when they keep insulting one another.",
+        "answerZh": "如果人們不斷互相侮辱，彼此之間的積怨可能會加深。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "Bad blood"
+      },
+      {
+        "id": "idiom-110-q29",
+        "number": 29,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A long, honest conversation made the two groups less hostile, although it did not solve the problem completely.",
+        "promptZh": "一次長時間的坦誠對話減輕了兩個小組之間的敵意，但並未完全解決問題。",
+        "starter": "The",
+        "answer": "The honest conversation reduced the bad blood between the two groups, although it did not end it completely.",
+        "answerZh": "這次坦誠對話減輕了兩個小組之間的敵意，但並未完全消除積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q30",
+        "number": 30,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "We argued, but I do not want us to remain enemies because of one disagreement.",
+        "promptZh": "我們曾經爭吵，但我不希望我們因一次意見分歧而一直互相敵視。",
+        "starter": "I",
+        "answer": "I do not want any bad blood between us after this argument.",
+        "answerZh": "我不希望我們在這次爭吵後留下任何芥蒂。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q31",
+        "number": 31,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The two reporters disliked each other, but they continued to work together professionally.",
+        "promptZh": "兩名記者不喜歡對方，但仍繼續以專業態度合作。",
+        "starter": "Despite",
+        "answer": "Despite the bad blood between them, the two reporters continued to work together professionally.",
+        "answerZh": "儘管兩名記者之間存在嫌隙，他們仍繼續以專業態度合作。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q32",
+        "number": 32,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The long resentment between the two companies made their shared project difficult.",
+        "promptZh": "兩間公司之間的長期積怨，令共同項目變得困難。",
+        "starter": "The",
+        "answer": "The bad blood between the two companies made their shared project difficult.",
+        "answerZh": "兩間公司之間的積怨令共同項目變得困難。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q33",
+        "number": 33,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "If the neighbours keep blaming one another, their relationship may become increasingly hostile.",
+        "promptZh": "如果鄰居繼續互相責怪，雙方的關係可能會變得愈來愈惡劣。",
+        "starter": "If",
+        "answer": "If the neighbours keep blaming one another, bad blood may develop between them.",
+        "answerZh": "如果鄰居繼續互相責怪，雙方之間可能會產生積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q34",
+        "number": 34,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The two families finally met after disliking each other for ten years.",
+        "promptZh": "兩個家庭在彼此不和十年後，終於願意會面。",
+        "starter": "After",
+        "answer": "After ten years of bad blood, the two families finally met.",
+        "answerZh": "經過十年的積怨，兩個家庭終於願意會面。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q35",
+        "number": 35,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Before the new coach arrived, the players and the manager had disliked each other for months.",
+        "promptZh": "新教練到任前，球員和經理已彼此不滿了數月。",
+        "starter": "There",
+        "answer": "There had been bad blood between the players and the manager for months before the new coach arrived.",
+        "answerZh": "新教練到任前，球員和經理之間已有數月積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q36",
+        "number": 36,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The coach said that the teams did not hate each other after the rough match.",
+        "promptZh": "教練表示，兩支隊伍並沒有因那場激烈的比賽而互相憎恨。",
+        "starter": "The",
+        "answer": "The coach denied that there was bad blood between the teams after the rough match.",
+        "answerZh": "教練否認兩支隊伍在那場激烈比賽後出現不和。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q37",
+        "number": 37,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Why do the sisters refuse to speak? B: They argued about the family house.",
+        "promptZh": "甲：兩姊妹為甚麼拒絕交談？ 乙：她們曾因家中的房子而爭吵。",
+        "starter": "The",
+        "answer": "The argument about the family house caused the bad blood between the sisters.",
+        "answerZh": "有關家中房子的爭執，造成了兩姊妹之間的積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q38",
+        "number": 38,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Both bands became successful, but they still resented each other because of an old dispute.",
+        "promptZh": "兩支樂隊都取得成功，但仍然因過往的爭執而怨恨對方。",
+        "starter": "Their",
+        "answer": "Their success did not remove the bad blood between the two bands after their old dispute.",
+        "answerZh": "兩支樂隊取得成功，也沒有消除過往爭執所留下的積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q39",
+        "number": 39,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A new rule gives one class more time than the other. This may make the two classes resent each other.",
+        "promptZh": "一項新規則給予其中一班更多時間。這可能令兩個班別彼此不滿。",
+        "starter": "The",
+        "answer": "The new rule could create bad blood between the two classes by giving one class more time.",
+        "answerZh": "新規則給予其中一班更多時間，可能令兩個班別之間產生嫌隙。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q40",
+        "number": 40,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Both friends apologised to each other, and their resentment ended.",
+        "promptZh": "兩名朋友互相道歉，雙方的積怨亦隨之消除。",
+        "starter": "By",
+        "answer": "By apologising, the two friends ended the bad blood between them.",
+        "answerZh": "兩名朋友透過互相道歉，消除了彼此之間的積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q41",
+        "number": 41,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Two teachers avoided each other throughout the meeting. This suggests that they may be on unfriendly terms.",
+        "promptZh": "兩名老師在整個會議中都避開對方。這顯示他們的關係可能不太友好。",
+        "starter": "There",
+        "answer": "There appears to be bad blood between the two teachers because they avoided each other throughout the meeting.",
+        "answerZh": "兩名老師在整個會議中都避開對方，因此二人之間似乎存在嫌隙。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q42",
+        "number": 42,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A small complaint caused resentment years ago, and it is still affecting the committee.",
+        "promptZh": "一宗小投訴多年前造成了積怨，至今仍影響着委員會。",
+        "starter": "The",
+        "answer": "The bad blood that began with a small complaint years ago still affects the committee.",
+        "answerZh": "多年前由一宗小投訴引起的積怨，至今仍影響着委員會。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q43",
+        "number": 43,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The two players resented each other, but they shook hands after the match.",
+        "promptZh": "兩名球員彼此心存不滿，但仍在比賽後握手。",
+        "starter": "Even",
+        "answer": "Even though there was bad blood between the two players, they shook hands after the match.",
+        "answerZh": "即使兩名球員之間存在積怨，他們仍在比賽後握手。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q44",
+        "number": 44,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "If the two sides do not speak honestly, the hostility caused by the old mistake will continue.",
+        "promptZh": "如果雙方不坦誠交談，舊錯誤造成的敵意將會持續。",
+        "starter": "Unless",
+        "answer": "Unless the two sides speak honestly, the bad blood caused by the old mistake will continue.",
+        "answerZh": "除非雙方坦誠交談，否則舊錯誤造成的積怨將會持續。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q45",
+        "number": 45,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "One meeting may not remove the resentment that has existed between the two towns for years.",
+        "promptZh": "一次會議未必能消除兩個城鎮之間存在多年的積怨。",
+        "starter": "A",
+        "answer": "A single meeting may not end years of bad blood between the two towns.",
+        "answerZh": "一次會議未必能消除兩個城鎮之間多年的積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q46",
+        "number": 46,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The brothers’ old argument still stops them from working together.",
+        "promptZh": "兩兄弟過往的爭執仍令他們無法合作。",
+        "starter": "The",
+        "answer": "The bad blood between the brothers still prevents them from working together.",
+        "answerZh": "兩兄弟之間的積怨仍令他們無法合作。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q47",
+        "number": 47,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Community leaders are meeting early because they do not want two neighbourhoods to become hostile over the new park.",
+        "promptZh": "社區領袖提早會面，因為他們不希望兩個鄰近地區因新公園而產生敵意。",
+        "starter": "The",
+        "answer": "The community leaders are trying to stop bad blood from developing between the two neighbourhoods over the new park.",
+        "answerZh": "社區領袖正嘗試防止兩個鄰近地區因新公園而產生積怨。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q48",
+        "number": 48,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The project would have finished sooner if the two office teams had not resented each other.",
+        "promptZh": "如果兩個辦公室團隊並非彼此心存不滿，項目本可更早完成。",
+        "starter": "If",
+        "answer": "If there had not been bad blood between the two office teams, the project would have finished sooner.",
+        "answerZh": "如果兩個辦公室團隊之間沒有積怨，項目本可更早完成。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q49",
+        "number": 49,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Do you still resent Daniel for what happened? B: No. We talked about it and forgave each other.",
+        "promptZh": "甲：你仍然因那件事怨恨丹尼爾嗎？ 乙：不。我們已經談過，亦原諒了對方。",
+        "starter": "There",
+        "answer": "There is no bad blood between Daniel and me now because we talked and forgave each other.",
+        "answerZh": "我和丹尼爾已經談過並原諒了對方，所以我們之間現在沒有任何芥蒂。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      },
+      {
+        "id": "idiom-110-q50",
+        "number": 50,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Nobody knows exactly why the two sides began resenting each other. However, the manager now needs them to cooperate.",
+        "promptZh": "沒有人確切知道雙方為何開始彼此怨恨。不過，經理現在需要他們合作。",
+        "starter": "Whatever",
+        "answer": "Whatever caused the bad blood between the two sides, the manager now needs them to work together.",
+        "answerZh": "無論雙方之間的積怨因何而起，經理現在都需要他們合作。",
+        "targetForm": "bad blood",
+        "targetMeaning": "Bad blood means lasting anger, dislike, resentment or hostility between two people or groups, usually because they argued or treated each other badly in the past.",
+        "highlight": "bad blood"
+      }
+    ]
+  }
+}

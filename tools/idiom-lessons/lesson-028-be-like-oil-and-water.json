@@ -1,0 +1,1433 @@
+{
+  "lesson": {
+    "id": "idiom-28",
+    "order": 28,
+    "slug": "be-like-oil-and-water",
+    "version": "1",
+    "title": "完全合不來／格格不入",
+    "titleEn": "be like oil and water",
+    "titleZh": "完全合不來／格格不入",
+    "source": {
+      "file": "Idiom 28 - “Be Like Oil and Water”.pdf",
+      "pageCount": 31,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "exercisePdfPages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "answerKeyPdfPages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "be like oil and water",
+        "highlight": "be like oil and water"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Ethan and Noah are like oil and water.",
+        "zh": "Ethan 和 Noah 完全合不來。",
+        "highlight": "are like oil and water"
+      },
+      {
+        "en": "Chloe and Lily are like oil and water at home.",
+        "zh": "Chloe 和 Lily 在家中總是格格不入。",
+        "highlight": "are like oil and water"
+      }
+    ],
+    "meaning": {
+      "en": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+      "zh": "兩個人、兩種想法、兩種風格、兩個計劃或兩個群體差異極大，因此無法相處、合作、融合或互相配合。",
+      "naturalZh": [
+        "完全合不來",
+        "格格不入",
+        "難以相處",
+        "難以合作",
+        "無法互相配合",
+        "難以融合",
+        "彼此十分不協調"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "The expression is generally neutral to informal.",
+      "summaryZh": "這個表達一般屬中性至非正式語域。",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace discussions",
+        "interviews",
+        "general articles",
+        "informal presentations",
+        "personal descriptions",
+        "critical",
+        "humorous",
+        "frustrated",
+        "resigned",
+        "cautionary",
+        "are like oil and water"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "工作討論",
+        "訪問",
+        "一般文章",
+        "非正式簡報",
+        "人際關係描述。",
+        "批評",
+        "幽默",
+        "不滿",
+        "無奈",
+        "警告意味。",
+        "兩個人"
+      ],
+      "formalEn": "In highly formal writing, a plain expression such as incompatible, unable to cooperate or difficult to combine may sometimes be clearer.",
+      "formalZh": "在非常正式的文章中，使用 incompatible、unable to cooperate 或 difficult to combine 有時會更清晰。"
+    },
+    "fixedVariable": {
+      "fixed": "be like oil and water",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "X and Y + be + like oil and water.",
+          "example": "Ethan and Noah are like oil and water.",
+          "highlight": "are like oil and water"
+        },
+        {
+          "form": "X and Y + be + like oil and water + context.",
+          "example": "Chloe and Lily are like oil and water at home.",
+          "highlight": "are like oil and water"
+        },
+        {
+          "form": "X and Y + be + like oil and water + when it comes to + noun.",
+          "example": "Lucas and his partner are like oil and water when it comes to money.",
+          "highlight": "are like oil and water"
+        },
+        {
+          "form": "X and Y + may / might / could + be + like oil and water.",
+          "example": "The two clubs may be like oil and water in one room.",
+          "highlight": "be like oil and water"
+        },
+        {
+          "form": "X and Y + turned out to be + like oil and water.",
+          "example": "The two class leaders turned out to be like oil and water.",
+          "highlight": "be like oil and water"
+        },
+        {
+          "form": "Although + contrast, X and Y + be + like oil and water.",
+          "example": "Although both volunteers want to help, they are like oil and water when they work together.",
+          "highlight": "are like oil and water"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Description",
+        "titleZh": "句式一：基本描述",
+        "formula": "X and Y + be + like oil and water.",
+        "descriptionEn": "Source grammar frame: X and Y + be + like oil and water.",
+        "descriptionZh": "原檔列出的句法框架：X and Y + be + like oil and water。",
+        "examples": [
+          {
+            "en": "Ethan and Noah are like oil and water.",
+            "zh": "Ethan 和 Noah 完全合不來。",
+            "highlight": "are like oil and water"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Adding a Situation",
+        "titleZh": "句式二：加入情境",
+        "formula": "X and Y + be + like oil and water + context.",
+        "descriptionEn": "Source grammar frame: X and Y + be + like oil and water + context.",
+        "descriptionZh": "原檔列出的句法框架：X and Y + be + like oil and water + context。",
+        "examples": [
+          {
+            "en": "Chloe and Lily are like oil and water at home.",
+            "zh": "Chloe 和 Lily 在家中總是格格不入。",
+            "highlight": "are like oil and water"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Describing a Particular Area",
+        "titleZh": "句式三：指出不合之處",
+        "formula": "X and Y + be + like oil and water + when it comes to + noun.",
+        "descriptionEn": "Source grammar frame: X and Y + be + like oil and water + when it comes to + noun.",
+        "descriptionZh": "原檔列出的句法框架：X and Y + be + like oil and water + when it comes to + noun。",
+        "examples": [
+          {
+            "en": "Lucas and his partner are like oil and water when it comes to money.",
+            "zh": "Lucas 和他的夥伴在金錢問題上完全合不來。",
+            "highlight": "are like oil and water"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserving Possibility",
+        "titleZh": "句式四：保留可能性",
+        "formula": "X and Y + may / might / could + be + like oil and water.",
+        "descriptionEn": "Source grammar frame: X and Y + may / might / could + be + like oil and water.",
+        "descriptionZh": "原檔列出的句法框架：X and Y + may / might / could + be + like oil and water。",
+        "examples": [
+          {
+            "en": "The two clubs may be like oil and water in one room.",
+            "zh": "兩個學會共用一個房間時，可能會格格不入。",
+            "highlight": "be like oil and water"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Reporting a Discovery",
+        "titleZh": "句式五：說明後來發現的結果",
+        "formula": "X and Y + turned out to be + like oil and water.",
+        "descriptionEn": "Source grammar frame: X and Y + turned out to be + like oil and water.",
+        "descriptionZh": "原檔列出的句法框架：X and Y + turned out to be + like oil and water。",
+        "examples": [
+          {
+            "en": "The two class leaders turned out to be like oil and water.",
+            "zh": "結果證明，兩名班長完全合不來。",
+            "highlight": "be like oil and water"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Concession or Contrast",
+        "titleZh": "句式六：讓步或轉折",
+        "formula": "Although + contrast, X and Y + be + like oil and water.",
+        "descriptionEn": "Source grammar frame: Although + contrast, X and Y + be + like oil and water.",
+        "descriptionZh": "原檔列出的句法框架：Although + contrast, X and Y + be + like oil and water。",
+        "examples": [
+          {
+            "en": "Although both volunteers want to help, they are like oil and water when they work together.",
+            "zh": "雖然兩名義工都想幫忙，但他們合作時完全合不來。",
+            "highlight": "are like oil and water"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It summarises a continuing problem",
+        "titleZh": "概括持續存在的問題",
+        "en": "The two colleagues are like oil and water.",
+        "zh": "這個慣用語可以把一段較長的解釋濃縮成一句簡潔的評價。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It explains more than ordinary difference",
+        "titleZh": "不只是表示「不同」",
+        "en": "The expression does not merely say that two sides are different. It indicates that their differences prevent them from fitting or working together successfully.",
+        "zh": "這個表達不只是說明兩方不同，還表示這些差異令他們無法順利相處、合作或融合。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It creates a clear mental picture",
+        "titleZh": "建立清晰的比喻畫面",
+        "en": "The familiar image of oil remaining separate from water makes the incompatibility easy to imagine and remember.",
+        "zh": "油和水保持分離的畫面，令「互不相容」這個意思更容易理解和記憶。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It can describe both relationships and ideas",
+        "titleZh": "可以描述人際關係及抽象事物",
+        "en": "friends; colleagues; managers; teams; plans; ideas; designs; communication styles.",
+        "zh": "它既可以描述兩個人，也可以描述兩個計劃、想法、風格或工作方法。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It can warn against an unsuitable combination",
+        "titleZh": "可以警告某個組合可能不合適",
+        "en": "The expression can help a speaker explain why a proposed team or arrangement may fail.",
+        "zh": "若兩名領袖共同掌權，他們可能會完全合不來。 這個表達可以用來解釋為甚麼某個團隊組合或安排可能失敗。",
+        "examples": [
+          {
+            "en": "The two leaders may be like oil and water if they share control.",
+            "zh": "若兩名領袖共同掌權，他們可能會完全合不來。",
+            "highlight": "be like oil and water"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It is useful but not automatically better",
+        "titleZh": "實用，但不應過度使用",
+        "en": "Use the idiom when the incompatibility is strong and important. For a small or temporary disagreement, a plain expression may be more accurate.",
+        "zh": "只有當不相容的情況明顯而重要時，才應使用這個慣用語。 如果只是輕微或短暫的分歧，使用普通表達可能會更加準確。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Figurative Use Uncertain",
+      "statusZh": "逐漸形成；確切首次比喻用法不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The exact first figurative use of like oil and water has not been securely identified. It is therefore safest to understand the idiom as a gradual metaphorical development from this familiar physical observation. Speakers began applying the image to people, ideas, personalities and styles that remained separate and could not work successfully together.",
+          "zh": "like oil and water 的確切首次比喻用法尚未得到可靠確認。 因此，最穩妥的理解是：這個慣用語由人們對油和水的日常觀察逐漸發展而成。 後來，說話者把這個畫面應用於無法相處或合作的人、 想法、性格及風格。"
+        }
+      ],
+      "memoryEn": "Oil and water remain apart; similarly, the two sides fail to fit together.",
+      "memoryZh": "油和水會保持分離；同樣地，被形容的兩方也無法互相配合。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Clearly identify both sides",
+        "titleZh": "規則一：清楚指出互不相容的兩方",
+        "en": "The two managers are like oil and water at work.",
+        "zh": "答案應清楚指出是哪兩個人、想法、計劃、群體或風格不相容。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use it for a strong or repeated mismatch",
+        "titleZh": "規則二：用於強烈或持續的不合",
+        "en": "The two colleagues argue about almost every decision. The two colleagues disagreed once about lunch. One small disagreement does not normally make two people like oil and water.",
+        "zh": "兩名同事幾乎每項決定都會爭吵。 兩名同事曾就午餐問題有一次分歧。 一次小分歧通常不足以說明兩個人完全合不來。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Difference alone is not enough",
+        "titleZh": "規則三：存在差異並不足夠",
+        "en": "Two people may be very different but still work well together.; arguments; poor cooperation; misunderstanding; tension; failure to combine; an unsuccessful arrangement.",
+        "zh": "兩個人可以十分不同，但仍然合作愉快。 只有當差異造成爭吵、合作困難、誤解、緊張或無法融合時，才應使用這個表達。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve tense and certainty",
+        "titleZh": "規則四：保留時態及確定程度",
+        "en": "The incorrect answer turns a possibility into a fact.",
+        "zh": "錯誤答案把「可能」變成了「事實」。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It can describe people or non-human subjects",
+        "titleZh": "規則五：主語可以是人，也可以是事物",
+        "en": "It can describe people or non-human subjects",
+        "zh": "這兩位鄰居完全合不來。 這兩個想法格格不入。 他們的工作方式無法互相配合。 這兩個計劃難以融合。",
+        "examples": [
+          {
+            "en": "The two neighbours are like oil and water.",
+            "zh": "這兩位鄰居完全合不來。",
+            "highlight": "are like oil and water"
+          },
+          {
+            "en": "The two ideas are like oil and water.",
+            "zh": "這兩個想法格格不入。",
+            "highlight": "are like oil and water"
+          },
+          {
+            "en": "Their working styles are like oil and water.",
+            "zh": "他們的工作方式無法互相配合。",
+            "highlight": "are like oil and water"
+          },
+          {
+            "en": "The two plans are like oil and water.",
+            "zh": "這兩個計劃難以融合。",
+            "highlight": "are like oil and water"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Avoid accidental literal meanings",
+        "titleZh": "規則六：避免誤用字面意思",
+        "en": "The cook poured oil and water into the bowl. Every answer in this exercise must use the figurative meaning.",
+        "zh": "廚師把油和水倒進碗中。 廚師和餐廳東主完全合不來。 本練習的所有答案都必須使用比喻意思。",
+        "examples": [
+          {
+            "en": "The cook and the restaurant owner are like oil and water.",
+            "zh": "廚師和餐廳東主完全合不來。",
+            "highlight": "are like oil and water"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Do not use it for sensitive stereotypes",
+        "titleZh": "規則七：不要用來製造敏感定型",
+        "en": "Do not describe entire racial, religious, national or social groups as being like oil and water. Describe the actual behaviours, ideas, personalities or working methods that create the conflict.",
+        "zh": "不要把整個種族、宗教、國籍或社會群體形容為互不相容。 應具體指出造成衝突的行為、想法、性格或工作方式。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Use one locked target form in this exercise",
+        "titleZh": "規則八：本練習只使用一個指定形式",
+        "en": "The related sentence oil and water do not mix is also natural English. be like oil and water",
+        "zh": "也是自然的英語表達。 本練習的每個答案都必須使用：",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using be like oil and water.",
+      "zh": "使用 be like oil and water 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-28-q01",
+        "number": 1,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Ethan and Noah have very different personalities and never get along.",
+        "promptZh": "Ethan 和 Noah 的性格非常不同，而且總是合不來。",
+        "starter": "Ethan",
+        "answer": "Ethan and Noah are like oil and water.",
+        "answerZh": "Ethan 和 Noah 完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q02",
+        "number": 2,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The strict coach and the playful team captain cannot work well together.",
+        "promptZh": "嚴格的教練和愛開玩笑的隊長無法好好合作。",
+        "starter": "The",
+        "answer": "The strict coach and the playful team captain are like oil and water.",
+        "answerZh": "嚴格的教練和愛開玩笑的隊長很難合作。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q03",
+        "number": 3,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Chloe loves silence, but Lily plays loud music all day. They often argue at home.",
+        "promptZh": "Chloe 喜歡安靜，但 Lily 整天播放大聲音樂。她們在家中經常爭吵。",
+        "starter": "Chloe",
+        "answer": "Chloe and Lily are like oil and water at home.",
+        "answerZh": "Chloe 和 Lily 在家中總是格格不入。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q04",
+        "number": 4,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The two neighbours disagree about almost everything and avoid speaking to each other.",
+        "promptZh": "這兩位鄰居幾乎事事意見不同，並且避開與對方交談。",
+        "starter": "The",
+        "answer": "The two neighbours are like oil and water.",
+        "answerZh": "這兩位鄰居完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q05",
+        "number": 5,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Mr Lee wants every detail planned, while Ms Chan changes the plan every hour. They cannot work together smoothly.",
+        "promptZh": "李先生希望每個細節都預先計劃好，而陳女士每小時都會改變計劃。他們無法順利合作。",
+        "starter": "Mr",
+        "answer": "Mr Lee and Ms Chan are like oil and water at work.",
+        "answerZh": "李先生和陳女士在工作上十分合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q06",
+        "number": 6,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Ben and Oscar have tried to be friends, but their personalities never fit.",
+        "promptZh": "Ben 和 Oscar 曾嘗試成為朋友，但他們的性格始終不合。",
+        "starter": "Ben",
+        "answer": "Ben and Oscar are like oil and water.",
+        "answerZh": "Ben 和 Oscar 的性格完全不合。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q07",
+        "number": 7,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "One group wants a quiet study room, while the other wants a music space. Their ideas cannot be combined.",
+        "promptZh": "一組人想要安靜的自修室，另一組人則想要音樂空間。他們的想法無法結合。",
+        "starter": "The",
+        "answer": "The two groups’ ideas are like oil and water.",
+        "answerZh": "兩組人的想法格格不入，難以融合。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q08",
+        "number": 8,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The old design is formal and serious, but the new design is bright and playful. They look wrong together.",
+        "promptZh": "舊設計正式而嚴肅，新設計則鮮明活潑。兩者放在一起很不協調。",
+        "starter": "The",
+        "answer": "The two designs are like oil and water.",
+        "answerZh": "這兩個設計放在一起十分不協調。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q09",
+        "number": 9,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Anna likes to decide quickly, but Grace needs a long time to think. They often become frustrated with each other.",
+        "promptZh": "Anna 喜歡迅速作決定，但 Grace 需要很長時間思考。她們經常對彼此感到不滿。",
+        "starter": "Anna",
+        "answer": "Anna and Grace are like oil and water when making decisions.",
+        "answerZh": "Anna 和 Grace 作決定時總是合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q10",
+        "number": 10,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The manager and the artist have completely different ways of working and cannot agree.",
+        "promptZh": "經理和藝術家的工作方式完全不同，而且無法達成共識。",
+        "starter": "The",
+        "answer": "The manager and the artist are like oil and water.",
+        "answerZh": "經理和藝術家在工作上格格不入。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q11",
+        "number": 11,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "When they worked together last year, Daniel and Ryan argued every day because their styles were so different.",
+        "promptZh": "Daniel 和 Ryan 去年共事時，因為工作方式差異太大而每天爭吵。",
+        "starter": "Daniel",
+        "answer": "Daniel and Ryan were like oil and water when they worked together last year.",
+        "answerZh": "Daniel 和 Ryan 去年共事時完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "were like oil and water"
+      },
+      {
+        "id": "idiom-28-q12",
+        "number": 12,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Sophie and her cousin have never got along because one is very serious and the other treats everything as a joke.",
+        "promptZh": "Sophie 和她的表親一直合不來，因為一個十分認真，另一個卻事事當作玩笑。",
+        "starter": "Sophie",
+        "answer": "Sophie and her cousin have always been like oil and water.",
+        "answerZh": "Sophie 和她的表親一直都格格不入。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "been like oil and water"
+      },
+      {
+        "id": "idiom-28-q13",
+        "number": 13,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The teacher thinks the two students may have difficulty working together because their approaches are completely different.",
+        "promptZh": "老師認為這兩名學生可能難以合作，因為他們做事的方法完全不同。",
+        "starter": "The",
+        "answer": "The teacher thinks the two students may be like oil and water.",
+        "answerZh": "老師認為這兩名學生可能會十分合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q14",
+        "number": 14,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Why do Zara and Ava keep arguing during the project? B: Their personalities are completely different.",
+        "promptZh": "甲：為甚麼 Zara 和 Ava 在項目進行期間不停爭吵？ 乙：她們的性格完全不同。",
+        "starter": "Zara",
+        "answer": "Zara and Ava are like oil and water during the project.",
+        "answerZh": "Zara 和 Ava 在項目進行期間完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q15",
+        "number": 15,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The quiet reading club and the noisy dance club are being asked to share one room. This may not work well.",
+        "promptZh": "安靜的讀書會和嘈吵的舞蹈學會被安排共用一個房間。這個安排可能行不通。",
+        "starter": "The",
+        "answer": "The two clubs may be like oil and water in one room.",
+        "answerZh": "兩個學會共用一個房間時，可能會格格不入。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q16",
+        "number": 16,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The company tried to combine a very relaxed work style with strict daily rules, but the two did not fit.",
+        "promptZh": "公司嘗試把非常輕鬆的工作方式與嚴格的日常規則結合，但兩者並不配合。",
+        "starter": "The",
+        "answer": "The relaxed work style and the strict daily rules were like oil and water.",
+        "answerZh": "輕鬆的工作方式與嚴格的日常規則完全不協調。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "were like oil and water"
+      },
+      {
+        "id": "idiom-28-q17",
+        "number": 17,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Lucas wants to save every dollar, while his business partner wants to spend quickly. Their ideas about money do not work together.",
+        "promptZh": "Lucas 想節省每一元，但他的生意夥伴卻想迅速花錢。他們對金錢的看法無法配合。",
+        "starter": "Lucas",
+        "answer": "Lucas and his business partner are like oil and water when it comes to money.",
+        "answerZh": "Lucas 和他的生意夥伴在金錢問題上完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q18",
+        "number": 18,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Should we put Chloe and Emma on the same team? B: I would not. They disagree on almost every decision.",
+        "promptZh": "甲：我們應否把 Chloe 和 Emma 編入同一隊？ 乙：我不會這樣做。她們幾乎每項決定都有分歧。",
+        "starter": "I",
+        "answer": "I think Chloe and Emma are like oil and water.",
+        "answerZh": "我認為 Chloe 和 Emma 完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q19",
+        "number": 19,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The two teaching methods look useful separately, but they cannot be used together easily.",
+        "promptZh": "這兩種教學方法分開使用時看來都很有用，但難以同時使用。",
+        "starter": "The",
+        "answer": "The two teaching methods are like oil and water.",
+        "answerZh": "這兩種教學方法難以互相配合。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q20",
+        "number": 20,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Max needs clear rules, but Leo makes decisions at the last minute. Their working styles do not fit.",
+        "promptZh": "Max 需要清晰規則，但 Leo 總是在最後一刻才作決定。他們的工作方式並不配合。",
+        "starter": "Max’s",
+        "answer": "Max’s need for clear rules and Leo’s last-minute style are like oil and water.",
+        "answerZh": "Max 對清晰規則的需要與 Leo 臨時決定的作風格格不入。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q21",
+        "number": 21,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Ella and Ruby are both talented. Why does their work together always fail? B: One wants full control, and the other refuses to follow anyone.",
+        "promptZh": "甲：Ella 和 Ruby 都很有才能。為甚麼她們每次合作都失敗？ 乙：一個想完全控制一切，另一個卻拒絕聽從任何人。",
+        "starter": "Ella",
+        "answer": "Ella and Ruby are like oil and water when they work together.",
+        "answerZh": "Ella 和 Ruby 合作時完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q22",
+        "number": 22,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "At first, the school thought the two class leaders would make a strong team. After a week of arguments, everyone saw that they could not cooperate.",
+        "promptZh": "起初，學校以為兩名班長會組成一支強大團隊。一星期的爭吵過後，大家都看出他們無法合作。",
+        "starter": "The",
+        "answer": "The two class leaders turned out to be like oil and water.",
+        "answerZh": "結果證明，兩名班長完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q23",
+        "number": 23,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The chef wants to keep the menu traditional, but the owner wants to change every dish. They cannot agree on the restaurant’s direction.",
+        "promptZh": "廚師想保留傳統餐牌，但店主想改變每一道菜。他們無法就餐廳的方向達成共識。",
+        "starter": "The",
+        "answer": "The chef and the owner are like oil and water over the restaurant’s direction.",
+        "answerZh": "廚師和店主在餐廳方向上完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q24",
+        "number": 24,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: I thought your brothers would enjoy travelling together. B: They argued from the first day to the last.",
+        "promptZh": "甲：我以為你的兄弟會享受一起旅行。 乙：他們由第一天吵到最後一天。",
+        "starter": "My",
+        "answer": "My brothers are like oil and water when they travel together.",
+        "answerZh": "我的兄弟一起旅行時總是合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q25",
+        "number": 25,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The app team wants to work quickly, while the safety team refuses to release anything before many checks. They often cannot agree.",
+        "promptZh": "應用程式團隊希望迅速工作，但安全團隊在完成多次檢查前拒絕推出任何東西。他們經常無法達成共識。",
+        "starter": "The",
+        "answer": "The app team’s fast approach and the safety team’s careful approach are like oil and water.",
+        "answerZh": "應用程式團隊的快速做法與安全團隊的謹慎做法難以配合。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q26",
+        "number": 26,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The school can choose either plan, but combining them would cause constant problems because they follow opposite ideas.",
+        "promptZh": "學校可以選擇其中一個計劃，但若把兩者結合，便會因為理念相反而不斷出現問題。",
+        "starter": "The",
+        "answer": "The two school plans would be like oil and water if they were combined.",
+        "answerZh": "若把兩個學校計劃結合起來，它們會十分不協調。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q27",
+        "number": 27,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Can we ask Jack and Henry to lead the event together? B: Only if we want arguments all day.",
+        "promptZh": "甲：我們可以請 Jack 和 Henry 一起帶領活動嗎？ 乙：除非我們想他們整天爭吵。",
+        "starter": "Jack",
+        "answer": "Jack and Henry would be like oil and water if they were put in charge together.",
+        "answerZh": "若讓 Jack 和 Henry 一起負責，他們會完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q28",
+        "number": 28,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The new worker is open and friendly, but her supervisor is cold and private. They may not understand each other easily.",
+        "promptZh": "新員工開朗友善，但她的主管冷淡而不愛談自己的事。他們可能難以互相理解。",
+        "starter": "The",
+        "answer": "The new worker and her supervisor may be like oil and water.",
+        "answerZh": "新員工和她的主管可能會十分合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q29",
+        "number": 29,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The two friends care about each other, but one needs adventure and the other wants a quiet, steady life. Their plans for the future do not fit.",
+        "promptZh": "兩位朋友關心彼此，但一個需要冒險，另一個則想過安靜穩定的生活。他們的未來計劃並不配合。",
+        "starter": "Their",
+        "answer": "Their plans for the future are like oil and water.",
+        "answerZh": "他們對未來的計劃格格不入。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q30",
+        "number": 30,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The team leader said that the two departments had completely different habits and could not share one system.",
+        "promptZh": "組長表示，兩個部門的工作習慣完全不同，無法共用同一個系統。",
+        "starter": "The",
+        "answer": "The team leader said the two departments were like oil and water.",
+        "answerZh": "組長表示，兩個部門完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "were like oil and water"
+      },
+      {
+        "id": "idiom-28-q31",
+        "number": 31,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Although both volunteers want to help, one insists on following every rule and the other refuses to make any plan. They cannot work together well.",
+        "promptZh": "雖然兩名義工都想幫忙，但一個堅持遵守每項規則，另一個卻拒絕制訂任何計劃。他們無法好好合作。",
+        "starter": "Although",
+        "answer": "Although both volunteers want to help, they are like oil and water when they work together.",
+        "answerZh": "雖然兩名義工都想幫忙，但他們合作時完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q32",
+        "number": 32,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Noah wants every meeting to be short, but Leo wants to discuss every small detail. They often leave each other angry.",
+        "promptZh": "Noah 希望每次會議都簡短，但 Leo 想討論每個小細節。他們經常令彼此生氣。",
+        "starter": "When",
+        "answer": "When it comes to meetings, Noah and Leo are like oil and water.",
+        "answerZh": "在會議安排方面，Noah 和 Leo 完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q33",
+        "number": 33,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The two ideas seem attractive on their own. However, one depends on complete freedom and the other depends on strict control, so they cannot form one clear plan.",
+        "promptZh": "兩個想法單獨看來都很吸引。然而，一個建基於完全自由，另一個則依靠嚴格控制，因此無法組成一個清晰計劃。",
+        "starter": "The",
+        "answer": "The two ideas are like oil and water: one depends on complete freedom, while the other depends on strict control.",
+        "answerZh": "這兩個想法格格不入：一個依靠完全自由，另一個則依靠嚴格控制。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q34",
+        "number": 34,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: You said Hannah and Kate simply need more time to understand each other. B: No. They have worked together for three years and still disagree about everything.",
+        "promptZh": "甲：你說 Hannah 和 Kate 只是需要更多時間互相了解。 乙：不是。她們已合作三年，仍然事事意見不合。",
+        "starter": "Hannah",
+        "answer": "Hannah and Kate are not just having a small disagreement; they are like oil and water.",
+        "answerZh": "Hannah 和 Kate 並非只有小分歧；她們根本完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q35",
+        "number": 35,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The director believed that the calm presenter and the highly energetic presenter would balance each other. Instead, their styles made the show feel confused.",
+        "promptZh": "導演原以為沉穩的主持人與精力充沛的主持人可以互相平衡。結果，他們的風格令節目感覺混亂。",
+        "starter": "The",
+        "answer": "The two presenters were like oil and water rather than a balanced pair.",
+        "answerZh": "兩位主持人的風格並沒有互相平衡，反而格格不入。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "were like oil and water"
+      },
+      {
+        "id": "idiom-28-q36",
+        "number": 36,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "If we combine the quiet café idea with live music every night, customers may not understand what kind of place it is.",
+        "promptZh": "若我們把安靜咖啡店的構思與每晚現場音樂結合，顧客可能不明白這究竟是甚麼類型的地方。",
+        "starter": "The",
+        "answer": "The quiet café idea and live music every night may be like oil and water.",
+        "answerZh": "安靜咖啡店的構思與每晚現場音樂可能會十分不協調。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q37",
+        "number": 37,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The older workers prefer phone calls, while the younger team wants to communicate only through short online messages. Unless both sides change, cooperation will remain difficult.",
+        "promptZh": "年長員工偏好電話溝通，而年輕團隊只想使用簡短的網上訊息。除非雙方改變，否則合作仍會十分困難。",
+        "starter": "Unless",
+        "answer": "Unless both sides change, their communication styles will continue to be like oil and water.",
+        "answerZh": "除非雙方改變，否則他們的溝通方式仍會格格不入。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q38",
+        "number": 38,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Her careful, slow way of working once seemed impossible to combine with his fast, risky approach. Yet they later learned to divide the jobs clearly.",
+        "promptZh": "她謹慎而緩慢的工作方式，一度看來無法與他快速而冒險的做法配合。然而，他們後來學會清楚分工。",
+        "starter": "At",
+        "answer": "At first, their working styles were like oil and water, but they later learned to divide the jobs clearly.",
+        "answerZh": "起初，他們的工作方式格格不入，但後來學會了清楚分工。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "were like oil and water"
+      },
+      {
+        "id": "idiom-28-q39",
+        "number": 39,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Why did the joint project end so quickly? B: The two teams disagreed about the goal, the schedule and even the basic rules.",
+        "promptZh": "甲：為甚麼合作項目這麼快便結束？ 乙：兩隊對目標、時間表，甚至基本規則都有分歧。",
+        "starter": "The",
+        "answer": "The two teams were like oil and water from the start.",
+        "answerZh": "兩隊由一開始便完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "were like oil and water"
+      },
+      {
+        "id": "idiom-28-q40",
+        "number": 40,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Some people think the two plans can be joined with a few small changes. I disagree because their main goals point in opposite directions.",
+        "promptZh": "有些人認為，只需作出幾項小改動便可合併兩個計劃。我不同意，因為它們的主要目標方向相反。",
+        "starter": "In",
+        "answer": "In my view, the two plans are like oil and water.",
+        "answerZh": "在我看來，這兩個計劃根本格格不入。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q41",
+        "number": 41,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The hotel manager wants staff to follow the same steps every time, but the new adviser wants each worker to make personal choices. The hotel may struggle to use both approaches at once.",
+        "promptZh": "酒店經理希望員工每次都遵循相同步驟，但新顧問希望每名員工作出個人選擇。酒店可能難以同時採用兩種做法。",
+        "starter": "The",
+        "answer": "The manager’s fixed approach and the adviser’s flexible approach may be like oil and water.",
+        "answerZh": "經理的固定做法與顧問的靈活做法可能難以互相配合。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q42",
+        "number": 42,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The school put a highly competitive student and a student who refuses to compete in charge of the same sports event. Their first meeting ended in an argument.",
+        "promptZh": "學校安排一名十分好勝的學生和一名拒絕競爭的學生共同負責同一項體育活動。他們第一次會議便以爭吵告終。",
+        "starter": "The",
+        "answer": "The two students were like oil and water when they were put in charge together.",
+        "answerZh": "兩名學生共同負責活動時完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "were like oil and water"
+      },
+      {
+        "id": "idiom-28-q43",
+        "number": 43,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: The shop owner says the old family style and the new online style can easily become one business plan. B: Their basic ideas about customers and service are completely different.",
+        "promptZh": "甲：店主說傳統家庭式作風與新的網上模式可以輕易合成一個營商計劃。 乙：兩者對顧客和服務的基本想法完全不同。",
+        "starter": "I",
+        "answer": "I am not sure they can; the two styles seem to be like oil and water.",
+        "answerZh": "我不肯定兩者能夠結合；這兩種風格看來格格不入。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q44",
+        "number": 44,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The community centre wants one room to be both a silent study area and a place for loud group games at the same time. The two purposes may not work together.",
+        "promptZh": "社區中心希望同一個房間同時成為安靜自修區和進行嘈吵集體遊戲的地方。這兩種用途可能無法配合。",
+        "starter": "The",
+        "answer": "The two purposes may be like oil and water in one room.",
+        "answerZh": "兩種用途放在同一個房間內，可能會十分不協調。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q45",
+        "number": 45,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The two doctors both care about their patients, but one speaks very directly and the other avoids giving any clear opinion. Their shared talks often confuse people.",
+        "promptZh": "兩名醫生都關心病人，但一個說話十分直接，另一個卻避免提出任何清晰意見。他們共同進行的談話經常令人困惑。",
+        "starter": "Although",
+        "answer": "Although both doctors care about their patients, their communication styles are like oil and water.",
+        "answerZh": "雖然兩名醫生都關心病人，但他們的溝通方式格格不入。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q46",
+        "number": 46,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The family business has one leader who refuses to change anything and another who wants to replace everything immediately. The company is caught between them.",
+        "promptZh": "這間家族生意有一名拒絕作出任何改變的領導者，另有一名想立即更換一切的領導者。公司被夾在兩人之間。",
+        "starter": "The",
+        "answer": "The two leaders are like oil and water, leaving the family business caught between them.",
+        "answerZh": "兩名領導者完全合不來，令家族生意被夾在兩人之間。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q47",
+        "number": 47,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The school may ask the drama club and the exam study group to plan one after-school programme. One wants noise, movement and freedom; the other wants silence, order and fixed times.",
+        "promptZh": "學校可能要求戲劇學會和考試溫習小組共同策劃一個課後活動。一方想要聲音、活動和自由；另一方則想要安靜、秩序和固定時間。",
+        "starter": "The",
+        "answer": "The two groups could be like oil and water if they had to design one programme together.",
+        "answerZh": "若兩個小組需要共同設計一個活動，它們可能會非常難以協調。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "be like oil and water"
+      },
+      {
+        "id": "idiom-28-q48",
+        "number": 48,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "When the writer and the designer first met, they seemed unable to agree on anything. Years later, they said that their opposite styles had actually helped them create better work.",
+        "promptZh": "作家和設計師初次見面時，似乎任何事情都無法達成共識。多年後，他們表示，彼此相反的風格其實幫助他們創作出更好的作品。",
+        "starter": "At",
+        "answer": "At first, the writer and the designer were like oil and water, although their differences later became useful.",
+        "answerZh": "起初，作家和設計師完全合不來，雖然他們的差異後來變得有用。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "were like oil and water"
+      },
+      {
+        "id": "idiom-28-q49",
+        "number": 49,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A town team wants to combine a no-car street plan with a plan to add more parking on the same street. Both cannot fully happen at the same time.",
+        "promptZh": "城鎮團隊想把無車街道計劃與在同一條街增加泊車位的計劃結合。兩者無法同時完全實行。",
+        "starter": "The",
+        "answer": "The two plans are like oil and water because they require opposite uses of the same street.",
+        "answerZh": "兩個計劃格格不入，因為它們要求以完全相反的方式使用同一條街道。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      },
+      {
+        "id": "idiom-28-q50",
+        "number": 50,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: The head teacher says putting Aaron and Caleb together will solve the problem because both are strong leaders. B: They both want complete control, and neither will accept the other’s decisions.",
+        "promptZh": "甲：校長說把 Aaron 和 Caleb 安排在一起便能解決問題，因為兩人都是強勢領袖。 乙：他們都想完全控制一切，而且誰也不會接受對方的決定。",
+        "starter": "Strong",
+        "answer": "Strong leaders or not, Aaron and Caleb are like oil and water when they share control.",
+        "answerZh": "無論是否都是強勢領袖，Aaron 和 Caleb 共同掌權時都完全合不來。",
+        "targetForm": "be like oil and water",
+        "targetMeaning": "To be extremely different and therefore unable to get along, cooperate, fit together or work well together.",
+        "highlight": "are like oil and water"
+      }
+    ]
+  }
+}

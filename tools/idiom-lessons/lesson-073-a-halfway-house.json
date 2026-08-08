@@ -1,0 +1,1505 @@
+{
+  "lesson": {
+    "id": "idiom-73",
+    "order": 73,
+    "slug": "a-halfway-house",
+    "version": "1",
+    "title": "折衷方案／中間方案",
+    "titleEn": "a halfway house",
+    "titleZh": "折衷方案／中間方案",
+    "source": {
+      "file": "Idiom 73 - “A Halfway House”.pdf",
+      "pageCount": 38,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "exercisePdfPages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "answerKeyPdfPages": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a halfway house",
+        "highlight": "a halfway house"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The electric bicycle is a halfway house between a normal bicycle and a motorbike.",
+        "zh": "電動單車是普通單車和電單車之間的中間選擇。",
+        "highlight": "a halfway house"
+      },
+      {
+        "en": "The new work plan offers a halfway house between working at home and returning to the office full-time.",
+        "zh": "新的工作安排在家工作和全職返回辦公室之間提供了一個折衷方案。",
+        "highlight": "a halfway house"
+      }
+    ],
+    "meaning": {
+      "en": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+      "zh": "一個兼具兩種不同選擇部分特點的中間方案或折衷辦法。",
+      "naturalZh": [
+        "一個兼具兩種不同選擇部分特點的中間方案或折衷辦法。"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "The compromise sense of a halfway house is especially associated with British English. It is neutral and can appear in conversation, journalism, product descriptions, workplace discussions, presentations and general writing.",
+      "summaryZh": "a halfway house 的「折衷方案」意思尤其常見於英式英語。 它屬於中性表達，可用於日常對話、新聞、產品介紹、工作討論、簡報及一般文章。",
+      "contextsEn": [
+        "a halfway house",
+        "the halfway house",
+        "a half way house",
+        "a halfway home",
+        "a house halfway",
+        "a half house",
+        "a house of halfway"
+      ],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "這三個字必須按照原有次序使用。"
+    },
+    "fixedVariable": {
+      "fixed": "a halfway house",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + a halfway house + between A and B.",
+          "example": "The electric bicycle is a halfway house between a normal bicycle and a motorbike.",
+          "highlight": "a halfway house"
+        },
+        {
+          "form": "Subject + offer / provide + a halfway house + between A and B.",
+          "example": "The new work plan offers a halfway house between working at home and returning to the office full-time.",
+          "highlight": "a halfway house"
+        },
+        {
+          "form": "Subject + serve / act + as + a halfway house + between A and B.",
+          "example": "The trial period serves as a halfway house between rejecting the idea and using it everywhere.",
+          "highlight": "a halfway house"
+        },
+        {
+          "form": "Subject + find / create + a halfway house + between A and B.",
+          "example": "The two sides found a halfway house between their different demands.",
+          "highlight": "a halfway house"
+        },
+        {
+          "form": "Subject + propose / choose + a halfway house + between A and B.",
+          "example": "The manager proposed a halfway house between strict rules and complete freedom.",
+          "highlight": "a halfway house"
+        },
+        {
+          "form": "Subject + may / might / could / would + be + a halfway house + between A and B.",
+          "example": "A recorded lesson could be a halfway house between a live class and studying alone.",
+          "highlight": "a halfway house"
+        },
+        {
+          "form": "Subject + work + as + a halfway house + between A and B.",
+          "example": "The smaller package may work as a halfway house between the basic and full packages.",
+          "highlight": "a halfway house"
+        },
+        {
+          "form": "Subject + cannot / could not + find + a halfway house + between A and B.",
+          "example": "The school leaders could not find a halfway house between keeping the damaged hall open and closing it.",
+          "highlight": "a halfway house"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Linking-Verb Form",
+        "titleZh": "句式一：基本連繫動詞句式",
+        "formula": "Subject + be + a halfway house + between A and B.",
+        "descriptionEn": "This is the main grammar frame for the target expression.",
+        "descriptionZh": "這是目標表達最主要的句法框架。",
+        "examples": [
+          {
+            "en": "The electric bicycle is a halfway house between a normal bicycle and a motorbike.",
+            "zh": "電動單車是普通單車和電單車之間的中間選擇。",
+            "highlight": "a halfway house"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Offer or Provide",
+        "titleZh": "句式二：offer 或 provide",
+        "formula": "Subject + offer / provide + a halfway house + between A and B.",
+        "descriptionEn": "Source grammar frame: Subject + offer / provide + a halfway house + between A and B.",
+        "descriptionZh": "原檔列出的句法框架：Subject + offer / provide + a halfway house + between A and B。",
+        "examples": [
+          {
+            "en": "The new work plan offers a halfway house between working at home and returning to the office full-time.",
+            "zh": "新的工作安排在家工作和全職返回辦公室之間提供了一個折衷方案。",
+            "highlight": "a halfway house"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Serve or Act As",
+        "titleZh": "句式三：serve 或 act as",
+        "formula": "Subject + serve / act + as + a halfway house + between A and B.",
+        "descriptionEn": "Remember to include as after serve or act.",
+        "descriptionZh": "使用 serve 或 act 時，必須加上 as。",
+        "examples": [
+          {
+            "en": "The trial period serves as a halfway house between rejecting the idea and using it everywhere.",
+            "zh": "試用期是在拒絕這個想法和全面採用之間的一個中間方案。",
+            "highlight": "a halfway house"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Find or Create",
+        "titleZh": "句式四：find 或 create",
+        "formula": "Subject + find / create + a halfway house + between A and B.",
+        "descriptionEn": "Source grammar frame: Subject + find / create + a halfway house + between A and B.",
+        "descriptionZh": "原檔列出的句法框架：Subject + find / create + a halfway house + between A and B。",
+        "examples": [
+          {
+            "en": "The two sides found a halfway house between their different demands.",
+            "zh": "雙方在各自不同的要求之間找到了一個折衷方案。",
+            "highlight": "a halfway house"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Propose or Choose",
+        "titleZh": "句式五：propose 或 choose",
+        "formula": "Subject + propose / choose + a halfway house + between A and B.",
+        "descriptionEn": "Source grammar frame: Subject + propose / choose + a halfway house + between A and B.",
+        "descriptionZh": "原檔列出的句法框架：Subject + propose / choose + a halfway house + between A and B。",
+        "examples": [
+          {
+            "en": "The manager proposed a halfway house between strict rules and complete freedom.",
+            "zh": "經理提出了一個介乎嚴格規則和完全自由之間的折衷方案。",
+            "highlight": "a halfway house"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Modal Verb",
+        "titleZh": "句式六：配合情態動詞",
+        "formula": "Subject + may / might / could / would + be + a halfway house + between A and B.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / could / would + be + a halfway house + between A and B.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / could / would + be + a halfway house + between A and B。",
+        "examples": [
+          {
+            "en": "A recorded lesson could be a halfway house between a live class and studying alone.",
+            "zh": "錄影課堂可以是現場課堂和自學之間的中間選擇。",
+            "highlight": "a halfway house"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Work As",
+        "titleZh": "句式七：work as",
+        "formula": "Subject + work + as + a halfway house + between A and B.",
+        "descriptionEn": "This form evaluates whether the compromise is practically successful.",
+        "descriptionZh": "這個句式用來評價折衷方案在實際上是否可行。",
+        "examples": [
+          {
+            "en": "The smaller package may work as a halfway house between the basic and full packages.",
+            "zh": "較小的組合可能可以作為基本組合和完整組合之間的中間選擇。",
+            "highlight": "a halfway house"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "No Acceptable Middle Option",
+        "titleZh": "句式八：沒有可接受的中間方案",
+        "formula": "Subject + cannot / could not + find + a halfway house + between A and B.",
+        "descriptionEn": "This sentence still contains the exact target expression.",
+        "descriptionZh": "這個句子仍然保留完整的目標表達。",
+        "examples": [
+          {
+            "en": "The school leaders could not find a halfway house between keeping the damaged hall open and closing it.",
+            "zh": "學校主管無法在繼續開放受損禮堂和把它關閉之間找到折衷方案。",
+            "highlight": "a halfway house"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Describes a Compromise Compactly",
+        "titleZh": "簡潔描述折衷方案",
+        "en": "The idiom replaces a longer explanation of the intermediate relationship.",
+        "zh": "這個計劃是兩個選擇之間的折衷方案。 這個慣用語可以取代對中間關係的冗長解釋。",
+        "examples": [
+          {
+            "en": "The plan is a halfway house between the two options.",
+            "zh": "這個計劃是兩個選擇之間的折衷方案。",
+            "highlight": "a halfway house"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Makes Comparisons Clear",
+        "titleZh": "清楚表達比較關係",
+        "en": "The between A and B frame clearly shows the two alternatives being compared.",
+        "zh": "句式可以清楚指出正在比較的兩個選擇。 三日交通證是單程票和月票之間的中間選擇。",
+        "examples": [
+          {
+            "en": "The three-day pass is a halfway house between a single ticket and a monthly pass.",
+            "zh": "三日交通證是單程票和月票之間的中間選擇。",
+            "highlight": "a halfway house"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Helps Speakers Suggest Moderate Solutions",
+        "titleZh": "有助提出較溫和的中間方案",
+        "en": "The expression is useful when neither extreme is practical.",
+        "zh": "當任何一個極端選擇都不切合實際時，這個表達尤其有用。 我們可能需要在取消活動和完全依照原定計劃之間找一個折衷方案。",
+        "examples": [
+          {
+            "en": "We may need a halfway house between cancelling the event and following the full original plan.",
+            "zh": "我們可能需要在取消活動和完全依照原定計劃之間找一個折衷方案。",
+            "highlight": "a halfway house"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Express Approval or Criticism",
+        "titleZh": "可以表達贊同或批評",
+        "en": "The middle option balances both needs. The middle option satisfies neither side. The idiom allows the surrounding sentence to carry either evaluation.",
+        "zh": "贊同： 批評： 這個慣用語可以按照上下文表達兩種不同評價。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful Across Many Everyday Topics",
+        "titleZh": "適用於多種日常主題",
+        "en": "products; learning methods; work arrangements; travel choices; prices and service packages; rules; food; transport; building designs; family plans.",
+        "zh": "它可以描述：",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Encourages Precise Evaluation",
+        "titleZh": "鼓勵作出準確評價",
+        "en": "1. what the middle option is; 2. which two alternatives it lies between; 3. what qualities it takes from each; 4. whether the compromise is successful. The idiom is useful, but it is not automatically better than compromise, middle option or mixed approach.",
+        "zh": "學生需要辨認： 這個慣用語十分實用，但並非必定比 compromise、middle option 或 mixed approach 更好。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Compromise Use Uncertain",
+      "statusZh": "逐漸形成；確切首次「折衷方案」用法不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical idea of a place between two destinations gradually became a metaphor for an arrangement between two alternatives. Instead of being geographically halfway between two places, the modern figurative halfway house combines features of two different choices.",
+          "zh": "位於兩個目的地之間的實際位置，逐漸演變成「處於兩個選擇之間」的比喻。 現代的比喻用法不是指地理上的中途位置，而是指兼具兩個選擇部分特點的方案。"
+        }
+      ],
+      "memoryEn": "A traveller’s halfway house stood between two places; a figurative halfway house stands between two choices.",
+      "memoryZh": "旅客的 halfway house 位於兩個地點之間；比喻上的 halfway house 則位於兩個選擇之間。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Article “A”",
+        "titleZh": "規則一：保留冠詞 a",
+        "en": "a halfway house",
+        "zh": "在本練習中，目標表達必須寫成：",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use “Between A and B”",
+        "titleZh": "規則二：使用 between A and B",
+        "en": "a halfway house between A and B Use between when identifying the two alternatives.",
+        "zh": "目標意思最常使用的補語是： 指出兩個選擇時，應使用 between。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Name the Middle Solution Clearly",
+        "titleZh": "規則三：清楚指出中間方案",
+        "en": "This may be acceptable in an established conversation, but it is too vague for an independent answer key. 1. the middle solution; 2. the first alternative; 3. the second alternative.",
+        "zh": "這句話在已有清晰上下文的對話中可能可以接受，但作為獨立參考答案則過於含糊。 三日交通證是單程票和月票之間的中間選擇。 答案通常應清楚指出：",
+        "examples": [
+          {
+            "en": "The three-day travel pass is a halfway house between a single ticket and a monthly pass.",
+            "zh": "三日交通證是單程票和月票之間的中間選擇。",
+            "highlight": "a halfway house"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "The Middle Option Must Share Relevant Features",
+        "titleZh": "規則四：中間方案必須兼具兩者的相關特點",
+        "en": "The three things have no relevant relationship.",
+        "zh": "共享辦公室是在家工作和租用私人辦公室之間的折衷選擇。 這三件事物之間沒有相關關係，因此不能構成自然的中間方案。",
+        "examples": [
+          {
+            "en": "A shared office is a halfway house between working at home and renting a private office.",
+            "zh": "共享辦公室是在家工作和租用私人辦公室之間的折衷選擇。",
+            "highlight": "a halfway house"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Does Not Need to Be an Exact Fifty-Fifty",
+        "titleZh": "規則五：不一定要剛好各佔一半",
+        "en": "A halfway house does not necessarily contain exactly half of each alternative. It only needs to occupy a meaningful intermediate position.",
+        "zh": "並不一定要剛好包含兩個選擇各一半的特點。 它只需要在兩個選擇之間形成一個有意義的中間位置。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve the Speaker’s Evaluation",
+        "titleZh": "規則六：保留說話者的評價",
+        "en": "Do not turn criticism into praise or praise into criticism.",
+        "zh": "這個計劃是兩組要求之間的折衷方案，雙方都可以接受。 兩個系統之間的折衷方案可能無法令任何一組滿意。 不可把批評改成稱讚，也不可把稱讚改成批評。",
+        "examples": [
+          {
+            "en": "The plan is a halfway house between the two groups’ demands, and both groups can accept it.",
+            "zh": "這個計劃是兩組要求之間的折衷方案，雙方都可以接受。",
+            "highlight": "a halfway house"
+          },
+          {
+            "en": "A halfway house between the two systems might satisfy neither group.",
+            "zh": "兩個系統之間的折衷方案可能無法令任何一組滿意。",
+            "highlight": "A halfway house"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Confuse It with “Meet Halfway”",
+        "titleZh": "規則七：不要與 meet halfway 混淆",
+        "en": "A noun phrase describing an intermediate arrangement or thing. A verb expression meaning that both sides make concessions. The two expressions are related in meaning but are not grammatically interchangeable.",
+        "zh": "描述中間安排或事物的名詞短語。 表示雙方各自讓步的動詞表達。 雙方各自讓步，選擇了一個介乎原有計劃之間的折衷方案。 兩個表達的意思有關，但在文法上不能互相替換。",
+        "examples": [
+          {
+            "en": "Both sides met each other halfway and chose a halfway house between their original plans.",
+            "zh": "雙方各自讓步，選擇了一個介乎原有計劃之間的折衷方案。",
+            "highlight": "a halfway house"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Confuse It with a Middle Stage in a",
+        "titleZh": "規則八：不要與「過程中的中間階段」混淆",
+        "en": "Oxford also records a halfway house towards something, meaning a middle point in a process or development. That is a related but separate sense and is not taught in these 50 questions. The change is only a halfway house towards a completely new system.",
+        "zh": "亦收錄 a halfway house towards something，表示某個過程或發展中的中間階段。 這是相關但不同的意思，本練習的五十題不會教授這個用法。 本練習不包括：",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Confuse It with the Residential Meaning",
+        "titleZh": "規則九：不要與「中途宿舍」的意思混淆",
+        "en": "Halfway house also has a separate residential meaning: a place where some people stay temporarily while moving from an institution or treatment setting towards more independent life. This is a different dictionary sense and is excluded from the exercise. When discussing real residents or services, use accurate and respectful language and follow the official name used by the relevant service.",
+        "zh": "亦有另一個「中途宿舍」的意思，指某些人在離開院舍或治療環境後、重新獨立生活前暫住的地方。 這是另一個字典意思，不屬於本練習的目標用法。 討論真實的住宿人士或服務時，應使用準確而尊重的語言，並採用相關服務的正式名稱。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Use It for Any Random Mixture",
+        "titleZh": "規則十：不能用來描述任何隨意混合",
+        "en": "The product combines the size of a small car with some of the space of a family car. The bag contains a book and an apple. Simply containing two unrelated things does not create a halfway house.",
+        "zh": "產品結合小型汽車的體積和家庭汽車的部分空間。 袋內有一本書和一個蘋果。 單純包含兩件無關的事物，並不構成 a halfway house。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Assume the Compromise Is",
+        "titleZh": "規則十一：不要假設折衷方案必定理想",
+        "en": "balance two needs successfully; provide a practical temporary answer; be too weak for either side; avoid making a necessary decision; satisfy nobody completely. The surrounding context determines the evaluation.",
+        "zh": "a halfway house 可以： 具體評價由上下文決定。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則十二：自然使用，不要過度使用",
+        "en": "1. two clear alternatives exist; 2. a third option occupies a meaningful position between them; 3. the middle option shares features with both; 4. the contrast between the alternatives matters. If there is only one choice, or the alternatives are unrelated, a plain expression will be clearer.",
+        "zh": "在以下情況中，這個表達較為自然： 假如只有一個選擇，或兩個選擇互不相關，使用直接表達會更清楚。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a halfway house.",
+      "zh": "使用 a halfway house 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-73-q01",
+        "number": 1,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "An electric bicycle is pedalled like a normal bicycle, but its motor gives the rider some of the power of a motorbike.",
+        "promptZh": "電動單車像普通單車一樣以腳踏驅動，但它的摩打亦提供部分電單車的動力。",
+        "starter": "The",
+        "answer": "The electric bicycle is a halfway house between a normal bicycle and a motorbike.",
+        "answerZh": "電動單車是普通單車和電單車之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q02",
+        "number": 2,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "This café serves drinks, but it also gives customers a quiet place with shelves of books for reading.",
+        "promptZh": "這間咖啡店供應飲品，同時亦為顧客提供一個設有書架的安靜閱讀空間。",
+        "starter": "The",
+        "answer": "The café is a halfway house between a coffee shop and a quiet reading room.",
+        "answerZh": "這間咖啡店是咖啡室和安靜閱覽室之間的混合模式。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q03",
+        "number": 3,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "This thick shirt is warmer than an ordinary shirt but lighter than a jacket.",
+        "promptZh": "這件厚恤衫比普通恤衫保暖，但又比外套輕便。",
+        "starter": "The",
+        "answer": "The thick shirt is a halfway house between an ordinary shirt and a light jacket.",
+        "answerZh": "這件厚恤衫介乎普通恤衫和輕便外套之間。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q04",
+        "number": 4,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The teacher explains the main idea first, but the students also spend half the lesson discussing it together.",
+        "promptZh": "老師先解釋主要概念，但學生亦會用半堂時間一起討論。",
+        "starter": "The",
+        "answer": "The class activity is a halfway house between a teacher’s talk and a group discussion.",
+        "answerZh": "這項課堂活動是老師講解和小組討論之間的折衷形式。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q05",
+        "number": 5,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The family did not cook, but they also avoided the cost of eating in a restaurant by ordering food to take home.",
+        "promptZh": "這家人沒有煮飯，但他們叫外賣回家享用，亦避免了在餐廳用膳的費用。",
+        "starter": "The",
+        "answer": "The family’s takeaway dinner is a halfway house between cooking at home and eating at a restaurant.",
+        "answerZh": "這家人的外賣晚餐是在家煮食和到餐廳用膳之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q06",
+        "number": 6,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "This phone has more features than the basic model but fewer than the most expensive model.",
+        "promptZh": "這部電話的功能比基本型號多，但又比最昂貴的型號少。",
+        "starter": "The",
+        "answer": "The phone is a halfway house between a basic model and a top model.",
+        "answerZh": "這部電話是基本型號和頂級型號之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q07",
+        "number": 7,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The pupils wear plain shirts and trousers. Their clothes are smarter than everyday clothes but less formal than suits.",
+        "promptZh": "學生穿着樸素的恤衫和長褲。這套服裝比日常衣服整齊，但又不像西裝般正式。",
+        "starter": "The",
+        "answer": "The school uniform is a halfway house between formal clothing and everyday clothes.",
+        "answerZh": "這套校服介乎正式服裝和日常衣服之間。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q08",
+        "number": 8,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Students attend one evening lesson each week but complete most of the course by themselves.",
+        "promptZh": "學生每星期上一堂夜間課，但課程大部分內容由他們自行完成。",
+        "starter": "The",
+        "answer": "The evening course is a halfway house between studying alone and attending a full-time class.",
+        "answerZh": "這個夜間課程是自行學習和修讀全日制課程之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q09",
+        "number": 9,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The restaurant keeps the main flavours of traditional dishes but presents them in a modern style.",
+        "promptZh": "餐廳保留傳統菜式的主要味道，但以現代方式呈現。",
+        "starter": "The",
+        "answer": "The new menu is a halfway house between traditional dishes and modern food.",
+        "answerZh": "新餐單兼具傳統菜式和現代食物的特點。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q10",
+        "number": 10,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "We did not stay at home, but we also avoided a long overseas journey by taking a two-day trip within the country.",
+        "promptZh": "我們沒有留在家中，但亦沒有長途出國，而是在國內進行兩天短途旅行。",
+        "starter": "Our",
+        "answer": "Our two-day local trip is a halfway house between staying at home and travelling abroad.",
+        "answerZh": "我們的兩天本地旅程是在家度假和出國旅行之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q11",
+        "number": 11,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Employees will work in the office two days a week instead of working there every day or remaining at home all week.",
+        "promptZh": "員工每星期會在辦公室工作兩天，而不是每天回辦公室或整星期留在家中工作。",
+        "starter": "The",
+        "answer": "The new work plan offers a halfway house between working from home every day and returning to the office full-time.",
+        "answerZh": "新的工作安排在每天在家工作和全職返回辦公室之間提供了一個折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q12",
+        "number": 12,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Students could watch a teacher’s recorded explanation whenever they choose. This would give them more guidance than studying alone but less direct contact than a live class.",
+        "promptZh": "學生可以在自己選擇的時間觀看老師的錄影講解。這比完全自學提供更多指導，但又比現場課堂少直接交流。",
+        "starter": "A",
+        "answer": "A recorded lesson could be a halfway house between a live class and studying alone.",
+        "answerZh": "錄影課堂可以是現場課堂和完全自學之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q13",
+        "number": 13,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The club decided to charge only part of its normal fee instead of charging the full amount or making membership completely free.",
+        "promptZh": "社團決定只收取部分正常會費，而不是收取全費或完全免費。",
+        "starter": "The",
+        "answer": "The club has found a halfway house between charging full fees and making membership free.",
+        "answerZh": "社團在收取全費和完全免費之間找到了一個折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q14",
+        "number": 14,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The vehicle carries more passengers than a car but is easier to drive on narrow roads than a full-size coach.",
+        "promptZh": "這輛車可以接載比私家車更多的乘客，但在狹窄道路上又比大型旅遊巴容易駕駛。",
+        "starter": "The",
+        "answer": "The smaller bus serves as a halfway house between a car and a full-size coach.",
+        "answerZh": "較小型巴士是私家車和大型旅遊巴之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q15",
+        "number": 15,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The school meal uses familiar local food but also introduces pupils to several dishes from other countries.",
+        "promptZh": "學校膳食採用學生熟悉的本地食物，同時亦讓他們接觸幾道其他國家的菜式。",
+        "starter": "The",
+        "answer": "The school lunch is designed as a halfway house between familiar local food and dishes from other countries.",
+        "answerZh": "學校午餐的設計介乎學生熟悉的本地食物和外國菜式之間。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q16",
+        "number": 16,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The team cannot follow the full original plan, but it does not want to cancel the event. It may hold a shorter version instead.",
+        "promptZh": "團隊無法完全依照原定計劃，但亦不想取消活動，因此可能改為舉行較短版本。",
+        "starter": "The",
+        "answer": "The team may need a halfway house between cancelling the event and following the original plan.",
+        "answerZh": "團隊可能需要在取消活動和完全依照原定計劃之間找一個折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q17",
+        "number": 17,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The company will test the idea in one department for a month before deciding whether to reject it or use it everywhere.",
+        "promptZh": "公司會先在一個部門試行這個想法一個月，然後才決定拒絕它還是全面採用。",
+        "starter": "The",
+        "answer": "The one-month trial provides a halfway house between rejecting the idea and using it across the whole company.",
+        "answerZh": "一個月試用期是在拒絕這個想法和全公司採用之間的中間方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q18",
+        "number": 18,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Messages are too slow for this discussion, but a long face-to-face meeting is unnecessary. B: We could have a short online meeting.",
+        "promptZh": "甲：使用訊息討論太慢，但沒有必要舉行長時間的實體會議。 乙：我們可以舉行一個簡短的網上會議。",
+        "starter": "A",
+        "answer": "A short online meeting would be a halfway house between sending messages and holding a long face-to-face meeting.",
+        "answerZh": "簡短的網上會議可以是傳送訊息和舉行長時間實體會議之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q19",
+        "number": 19,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The manager rejected both a total ban and a system with no rules. She suggested a small number of clear rules instead.",
+        "promptZh": "經理拒絕全面禁止和完全沒有規則這兩個方案，並建議只設立少量清晰規則。",
+        "starter": "Instead",
+        "answer": "Instead of choosing either extreme, the manager proposed a halfway house between strict rules and complete freedom.",
+        "answerZh": "經理沒有選擇任何一個極端，而是提出了一個介乎嚴格規則和完全自由之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q20",
+        "number": 20,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The three-day travel pass covers more journeys than a single ticket but costs much less than a monthly pass.",
+        "promptZh": "三日交通證涵蓋的行程比單程票多，但費用又遠低於月票。",
+        "starter": "The",
+        "answer": "The three-day travel pass is a halfway house between a single ticket and a monthly pass.",
+        "answerZh": "三日交通證是單程票和月票之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q21",
+        "number": 21,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Must the course be completely online or held in the classroom every day? B: We could ask students to attend the classroom twice a week and study online on the other days.",
+        "promptZh": "甲：課程是否必須完全在網上進行，或每天都在課室上課？ 乙：我們可以要求學生每星期回課室兩天，其餘日子在網上學習。",
+        "starter": "A",
+        "answer": "A class with two classroom days would be a halfway house between fully online learning and daily classroom lessons.",
+        "answerZh": "每星期有兩天課室教學的課程，是完全網上學習和每天回課室上課之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q22",
+        "number": 22,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The café’s new meal is larger than a snack but smaller and cheaper than a full lunch.",
+        "promptZh": "咖啡店的新餐點比小食大份，但又比完整午餐細份及便宜。",
+        "starter": "The",
+        "answer": "The café’s half-size meal is a halfway house between a snack and a full lunch.",
+        "answerZh": "咖啡店的半份餐點是小食和完整午餐之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q23",
+        "number": 23,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The room has one large shared area, but movable screens can create smaller private spaces when needed.",
+        "promptZh": "房間設有一個大型共用空間，但有需要時可以利用活動屏風分隔出較小的私人空間。",
+        "starter": "The",
+        "answer": "The family room is a halfway house between one open space and several completely separate rooms.",
+        "answerZh": "這個家庭空間是完全開放式設計和多個完全獨立房間之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q24",
+        "number": 24,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: Does the manager want everyone in the office full-time? B: No. Employees will return only two days a week and work at home on the other days.",
+        "promptZh": "甲：經理是否希望所有人全職回辦公室工作？ 乙：不是。員工每星期只會回辦公室兩天，其餘日子在家工作。",
+        "starter": "The",
+        "answer": "The manager described the two-day office rule as a halfway house between working from home every day and working in the office full-time.",
+        "answerZh": "經理把每星期回辦公室兩天的規定形容為每天在家工作和全職返回辦公室之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q25",
+        "number": 25,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The café is not ready to offer home delivery every day, but it will test the service at weekends instead of rejecting the idea completely.",
+        "promptZh": "咖啡店尚未準備好每天提供送餐服務，但它不會完全拒絕這個想法，而是會在週末試行。",
+        "starter": "The",
+        "answer": "The weekend test will act as a halfway house between rejecting home delivery and offering it every day.",
+        "answerZh": "週末試行送餐服務，是完全拒絕送餐和每天提供送餐之間的中間方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q26",
+        "number": 26,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The new phone plan includes a small monthly fee and charges less for each call. It lies between paying the full price for every call and buying an unlimited plan.",
+        "promptZh": "新的電話計劃收取小額月費，而每次通話的費用較低。它介乎每次通話按正價收費和購買無限用量計劃之間。",
+        "starter": "The",
+        "answer": "The new phone plan is a halfway house between paying for each call and buying an unlimited plan.",
+        "answerZh": "新的電話計劃介乎每次通話獨立收費和購買無限用量計劃之間。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q27",
+        "number": 27,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The teacher believes that ignoring the behaviour would be too weak, but an official punishment would be too severe. She may give the pupil a written warning.",
+        "promptZh": "老師認為完全不處理這種行為太過寬鬆，但正式處分又太嚴厲，因此她可能會向學生發出書面警告。",
+        "starter": "A",
+        "answer": "A written warning may provide a halfway house between doing nothing and giving the pupil a formal punishment.",
+        "answerZh": "書面警告可以是在完全不處理和正式處分學生之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q28",
+        "number": 28,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: The morning train is cheap but very slow, and the evening train is fast but expensive. B: The afternoon train has a medium price and journey time.",
+        "promptZh": "甲：早上的列車便宜但非常慢，而晚上的列車快捷但昂貴。 乙：下午的列車收費和行車時間都介乎兩者之間。",
+        "starter": "The",
+        "answer": "The afternoon train is a halfway house between the slow cheap service and the fast expensive one.",
+        "answerZh": "下午的列車是便宜但緩慢的服務和昂貴但快捷的服務之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q29",
+        "number": 29,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The town leaders do not want to leave the street unchanged, but rebuilding the whole area would cost too much. They will test a smaller change on one section.",
+        "promptZh": "鎮上主管不想讓街道維持原狀，但重建整個地區的費用太高，因此他們會先在其中一段試行較小規模的改動。",
+        "starter": "The",
+        "answer": "The town leaders’ small trial is a halfway house between leaving the street unchanged and rebuilding the whole area.",
+        "answerZh": "鎮上主管的小規模試行，是維持街道原狀和重建整個地區之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q30",
+        "number": 30,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: One group wants a much earlier opening time, while the other wants the present time to remain unchanged. B: The new plan moves the time only slightly earlier.",
+        "promptZh": "甲：其中一組希望大幅提早開放時間，另一組則希望維持現有時間。 乙：新計劃只會把時間稍為提早。",
+        "starter": "There",
+        "answer": "There may be no perfect answer, but this plan is a halfway house between the two sides’ demands.",
+        "answerZh": "可能沒有完美答案，但這個計劃是雙方要求之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q31",
+        "number": 31,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "One group wanted the centre to open at eight, while the other wanted it to open at ten. The final timetable sets the opening time at nine.",
+        "promptZh": "一組希望中心在八時開放，另一組希望在十時開放。最終時間表把開放時間定於九時。",
+        "starter": "Although",
+        "answer": "Although neither side got everything it wanted, the final timetable is a halfway house between early and late opening.",
+        "answerZh": "雖然任何一方都未能得到所有想要的安排，但最終時間表是較早和較遲開放之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q32",
+        "number": 32,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The children still need help, but they must also learn to work independently. In the new lesson, the teacher guides the first part and the children complete the second part by themselves.",
+        "promptZh": "孩子仍然需要協助，但亦必須學習獨立完成工作。在新課堂中，老師會指導前半部分，而孩子會自行完成後半部分。",
+        "starter": "Because",
+        "answer": "Because the children need support but also more freedom, the new lesson plan is a halfway house between a fully guided lesson and independent study.",
+        "answerZh": "因為孩子既需要支援，又需要更多自由，新課堂計劃是在全程指導和獨立學習之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q33",
+        "number": 33,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The owner cannot afford to keep the shop open every day but does not want to close it completely. She will open only at weekends.",
+        "promptZh": "店主無法負擔每天營業的成本，但亦不希望完全結業，因此只會在週末開店。",
+        "starter": "Opening",
+        "answer": "Opening only at weekends is a halfway house between closing the shop and keeping it open all week.",
+        "answerZh": "只在週末營業，是完全結業和整星期營業之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q34",
+        "number": 34,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The group does not want to buy the equipment, but borrowing it for only one day would not be long enough. It will rent the equipment for three months.",
+        "promptZh": "小組不想購買設備，但只借用一天又不夠長，因此會租用設備三個月。",
+        "starter": "The",
+        "answer": "The short rental period offers a halfway house between buying the equipment and borrowing it for one day.",
+        "answerZh": "短期租用是在購買設備和只借用一天之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q35",
+        "number": 35,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The car is easy to park like a city car, but it has more passenger and luggage space like a larger family car.",
+        "promptZh": "這輛汽車像城市小型車般容易泊車，但又像較大型家庭汽車般提供更多乘客和行李空間。",
+        "starter": "What",
+        "answer": "What looks like a small family car is actually a halfway house between a city car and a larger family car.",
+        "answerZh": "這輛看似小型家庭汽車的車，實際上介乎城市小型車和較大型家庭汽車之間。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q36",
+        "number": 36,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The complete plan costs too much, but doing nothing would leave the main problem unsolved. A simpler version could complete the most important parts now.",
+        "promptZh": "完整計劃的費用太高，但完全不行動又無法解決主要問題。較簡單的版本可以先完成最重要的部分。",
+        "starter": "If",
+        "answer": "If the full plan costs too much, the simpler version could be a halfway house between doing nothing and completing every part now.",
+        "answerZh": "假如完整計劃費用太高，較簡單的版本可以是完全不行動和立即完成所有部分之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q37",
+        "number": 37,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The old rule banned everyone from using the room. The new rule allows people to book it at set times but does not permit use at any time.",
+        "promptZh": "舊規則禁止所有人使用房間。新規則容許人們在指定時間預訂，但不准任何時間隨意使用。",
+        "starter": "The",
+        "answer": "The new rule provides a halfway house between the old ban and allowing everyone to use the room at any time.",
+        "answerZh": "新規則是在舊有禁令和准許所有人隨時使用房間之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q38",
+        "number": 38,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Both groups rejected the two extreme plans. They eventually accepted a third plan that contained some features of each.",
+        "promptZh": "兩組都拒絕了兩個極端方案，最後接受了一個兼具兩者部分特點的第三方案。",
+        "starter": "After",
+        "answer": "After both groups rejected the two extreme plans, they accepted a halfway house between them.",
+        "answerZh": "兩組拒絕兩個極端方案後，接受了一個介乎兩者之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q39",
+        "number": 39,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The proposed system combines parts of the old and new systems. However, the first team may find it too modern, while the second may find it too old-fashioned.",
+        "promptZh": "建議中的制度結合了新舊制度的部分特點。然而，第一隊可能認為它太新，而第二隊則可能認為它太舊。",
+        "starter": "A",
+        "answer": "A halfway house between the two systems might satisfy neither team.",
+        "answerZh": "兩個制度之間的折衷方案可能無法令任何一隊滿意。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "A halfway house"
+      },
+      {
+        "id": "idiom-73-q40",
+        "number": 40,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "In this situation, the person must either tell the truth or deliberately lie. There is no acceptable middle position.",
+        "promptZh": "在這種情況下，當事人必須說出真相或故意說謊，兩者之間不存在可接受的中間立場。",
+        "starter": "It",
+        "answer": "It is impossible to find a halfway house between telling the truth and deliberately lying.",
+        "answerZh": "在說出真相和故意說謊之間，不可能找到可接受的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q41",
+        "number": 41,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The patient no longer needs to remain in hospital, but being sent home without any further support would be difficult. The hospital will call once a week to check how things are going.",
+        "promptZh": "病人不再需要留院，但在沒有任何後續支援下回家生活會有困難。醫院會每星期致電一次，了解情況。",
+        "starter": "The",
+        "answer": "The hospital’s weekly phone check is a halfway house between keeping the patient in hospital and sending them home with no further support.",
+        "answerZh": "醫院每星期致電跟進，是讓病人繼續留院和在沒有後續支援下回家之間的過渡方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q42",
+        "number": 42,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The hotel cannot provide a full cooked breakfast to guests leaving very early, but it does not want to offer them nothing. It will prepare a bag containing fruit, bread and a drink.",
+        "promptZh": "酒店無法為很早離開的住客提供完整的熟食早餐，但亦不想完全不提供食物，因此會準備一袋水果、麵包和飲品。",
+        "starter": "The",
+        "answer": "The hotel’s breakfast bag is a halfway house between serving a full breakfast and offering no morning food.",
+        "answerZh": "酒店的早餐袋是提供完整早餐和完全不提供早上食物之間的折衷安排。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q43",
+        "number": 43,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The school does not want to ban phones immediately, but allowing them in every lesson has caused problems. It will permit their use in two lessons for a short trial.",
+        "promptZh": "學校不想立即全面禁止電話，但在每堂課都准許使用已造成問題，因此會短期試行只在兩堂課中准許使用。",
+        "starter": "The",
+        "answer": "The school’s two-day trial is a halfway house between banning phones completely and allowing them in every lesson.",
+        "answerZh": "學校為期兩天的試行安排，是全面禁止電話和每堂課都准許使用之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q44",
+        "number": 44,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The shop does not serve every customer from beginning to end, but customers are not required to do everything alone. Staff provide help whenever it is needed.",
+        "promptZh": "店舖不會由頭到尾服務每名顧客，但顧客亦不需要完全自行處理一切。有需要時，職員會提供協助。",
+        "starter": "By",
+        "answer": "By offering a basic service with help available when needed, the shop has created a halfway house between full service and complete self-service.",
+        "answerZh": "店舖提供基本服務，並在有需要時給予協助，因而建立了全面服務和完全自助服務之間的折衷模式。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q45",
+        "number": 45,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "People using the shared office have a professional place to work, but they do not need to pay for a private office of their own.",
+        "promptZh": "使用共享辦公室的人擁有專業工作空間，但不需要支付租用私人辦公室的費用。",
+        "starter": "The",
+        "answer": "The shared office is a halfway house between working at home and renting a private office.",
+        "answerZh": "共享辦公室是在家工作和租用私人辦公室之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q46",
+        "number": 46,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Some people believe the middle plan balances the two options well. Others argue that it merely avoids choosing either one properly.",
+        "promptZh": "有些人認為中間計劃能夠妥善平衡兩個選擇，另一些人則認為它只是迴避真正作出決定。",
+        "starter": "Some",
+        "answer": "Some people praise the plan because it is a halfway house between the two options, while others say it avoids making a real choice.",
+        "answerZh": "有些人稱讚這個計劃是兩個選擇之間的折衷方案，另一些人則認為它迴避了真正作出決定。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q47",
+        "number": 47,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The smaller service package includes more help than the basic one but fewer services than the full package. However, its present price is almost as high as the full package.",
+        "promptZh": "較小的服務組合比基本組合提供更多協助，但服務又少於完整組合。然而，它目前的價格幾乎與完整組合一樣高。",
+        "starter": "Unless",
+        "answer": "Unless the price is reduced, the smaller package will not work as a halfway house between the basic and full packages.",
+        "answerZh": "除非價格下調，否則較小的組合不能有效成為基本組合和完整組合之間的中間選擇。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q48",
+        "number": 48,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The swimming pool does not want to ban children, but noisy games throughout the day disturb other swimmers. It will introduce one quiet hour each afternoon.",
+        "promptZh": "游泳池不希望禁止兒童進入，但全日進行嘈吵遊戲會騷擾其他泳客，因此每天下午會設立一小時安靜時段。",
+        "starter": "The",
+        "answer": "The quiet hour is intended as a halfway house between closing the pool to children and allowing noisy games all day.",
+        "answerZh": "安靜時段旨在成為禁止兒童進入泳池和全日容許嘈吵遊戲之間的折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q49",
+        "number": 49,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The school hall was badly damaged. Allowing even limited use would remain unsafe, so the school had to choose between keeping it open and closing it completely.",
+        "promptZh": "學校禮堂嚴重受損，即使只准有限度使用仍然不安全，因此學校只能在繼續開放和完全關閉之間作出選擇。",
+        "starter": "The",
+        "answer": "The school leaders could not find a halfway house between keeping the damaged hall open and closing it.",
+        "answerZh": "學校主管無法在繼續開放受損禮堂和把它關閉之間找到折衷方案。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      },
+      {
+        "id": "idiom-73-q50",
+        "number": 50,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A: Should the shop accept only cash or move completely to digital payments? B: It could continue accepting both, but the system will succeed only if both payment methods remain easy to use.",
+        "promptZh": "甲：店舖應該只接受現金，還是全面轉用電子付款？ 乙：它可以繼續接受兩種方式，但只有在兩種付款方法都方便使用時，這個制度才會成功。",
+        "starter": "The",
+        "answer": "The mixed payment system may be a halfway house between cash-only and fully digital payments, but only if both methods remain easy to use.",
+        "answerZh": "混合付款制度可能是只收現金和全面電子付款之間的折衷方案，但前提是兩種付款方式都必須方便使用。",
+        "targetForm": "a halfway house",
+        "targetMeaning": "Something that combines some features of two different alternatives and provides an intermediate choice or compromise between them.",
+        "highlight": "a halfway house"
+      }
+    ]
+  }
+}

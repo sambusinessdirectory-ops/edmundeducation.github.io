@@ -1,0 +1,1559 @@
+{
+  "lesson": {
+    "id": "idiom-98",
+    "order": 98,
+    "slug": "a-birds-eye-view",
+    "version": "1",
+    "title": "鳥瞰／全局概覽",
+    "titleEn": "A Bird’s-Eye View",
+    "titleZh": "鳥瞰／全局概覽",
+    "source": {
+      "file": "Idiom 98 - “A Bird’s-Eye View”.pdf",
+      "pageCount": 36,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "exercisePdfPages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "answerKeyPdfPages": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "A Bird’s-Eye View",
+        "highlight": "A Bird’s-Eye View"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The first chart gives readers a bird’s-eye view of the project.",
+        "zh": "第一張圖表讓讀者掌握整個項目的概況。",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "en": "The guide showed us a bird’s-eye view of the whole process.",
+        "zh": "導覽讓我們了解整個程序的全貌。",
+        "highlight": "a bird’s-eye view"
+      }
+    ],
+    "meaning": {
+      "en": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+      "zh": "對整個主題、情況、制度或活動的整體概覽，而不集中於每一項細節。",
+      "naturalZh": [
+        "對整個主題、情況、制度或活動的整體概覽，而不集中於每一項細節。"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "conversation; lessons and presentations; reports and articles; workplace communication; project discussions; explanations of systems or processes.",
+      "summaryZh": "它可用於口語及書面英語。 當說話者希望先清楚整理整體資料，再進入細節時，這個表達尤其有用。",
+      "contextsEn": [
+        "conversation",
+        "lessons and presentations",
+        "reports and articles",
+        "workplace communication",
+        "project discussions",
+        "explanations of systems or processes",
+        "the main parts",
+        "the general structure",
+        "the overall situation",
+        "the most important relationships",
+        "every number",
+        "every small event"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "課堂及簡報",
+        "報告及文章",
+        "工作溝通",
+        "項目討論",
+        "制度或程序的解說。",
+        "主要部分",
+        "基本結構",
+        "整體情況",
+        "最重要的相互關係。"
+      ],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "A Bird’s-Eye View",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + give/show + person + a bird’s-eye view + optional complement.",
+          "example": "The first chart gives readers a bird’s-eye view of the project.",
+          "highlight": "a bird’s-eye view"
+        },
+        {
+          "form": "Subject + provide/offer/present + a bird’s-eye view + optional complement.",
+          "example": "The report provides a bird’s-eye view of the company.",
+          "highlight": "a bird’s-eye view"
+        },
+        {
+          "form": "Subject + get/have + a bird’s-eye view + optional complement.",
+          "example": "The summary helps readers get a bird’s-eye view of the issue.",
+          "highlight": "a bird’s-eye view"
+        },
+        {
+          "form": "Subject + need/want + a bird’s-eye view + optional complement.",
+          "example": "We need a bird’s-eye view of the plan before discussing the details.",
+          "highlight": "a bird’s-eye view"
+        },
+        {
+          "form": "Subject + ask + person + for + a bird’s-eye view + optional complement.",
+          "example": "The team asked the manager for a bird’s-eye view of the new system.",
+          "highlight": "a bird’s-eye view"
+        },
+        {
+          "form": "Subject + be + a bird’s-eye view + optional complement.",
+          "example": "The first chapter is a bird’s-eye view of the town’s history.",
+          "highlight": "a bird’s-eye view"
+        },
+        {
+          "form": "A bird’s-eye view + optional complement + verb.",
+          "example": "A bird’s-eye view of the project can help new members understand their roles.",
+          "highlight": "A bird’s-eye view"
+        },
+        {
+          "form": "Subject + begin/start + with + a bird’s-eye view + optional complement.",
+          "example": "The presentation begins with a bird’s-eye view of the problem.",
+          "highlight": "a bird’s-eye view"
+        },
+        {
+          "form": "Subject + be + given/offered + a bird’s-eye view + optional complement.",
+          "example": "New workers are given a bird’s-eye view of the job before training begins.",
+          "highlight": "a bird’s-eye view"
+        },
+        {
+          "form": "To get a bird’s-eye view of + topic, subject + action.",
+          "example": "To get a bird’s-eye view of the report, read the summary first.",
+          "highlight": "a bird’s-eye view"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “Give” or “Show”",
+        "titleZh": "接在 give 或 show 後",
+        "formula": "Subject + give/show + person + a bird’s-eye view + optional complement.",
+        "descriptionEn": "Give and show may be followed by the person receiving the overview.",
+        "descriptionZh": "及 show 後面可以先指出接收整體概覽的人。",
+        "examples": [
+          {
+            "en": "The first chart gives readers a bird’s-eye view of the project.",
+            "zh": "第一張圖表讓讀者掌握整個項目的概況。",
+            "highlight": "a bird’s-eye view"
+          },
+          {
+            "en": "The guide showed us a bird’s-eye view of the whole process.",
+            "zh": "導覽讓我們了解整個程序的全貌。",
+            "highlight": "a bird’s-eye view"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After “Provide”, “Offer” or “Present”",
+        "titleZh": "接在 provide、offer 或 present 後",
+        "formula": "Subject + provide/offer/present + a bird’s-eye view + optional complement.",
+        "descriptionEn": "Source grammar frame: Subject + provide/offer/present + a bird’s-eye view + optional complement.",
+        "descriptionZh": "原檔列出的句法框架：Subject + provide/offer/present + a bird’s-eye view + optional complement。",
+        "examples": [
+          {
+            "en": "The report provides a bird’s-eye view of the company.",
+            "zh": "報告提供公司的整體概覽。",
+            "highlight": "a bird’s-eye view"
+          },
+          {
+            "en": "The opening lesson offers a bird’s-eye view of the subject.",
+            "zh": "第一課提供這個科目的整體概覽。",
+            "highlight": "a bird’s-eye view"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “Get” or “Have”",
+        "titleZh": "接在 get 或 have 後",
+        "formula": "Subject + get/have + a bird’s-eye view + optional complement.",
+        "descriptionEn": "Get often focuses on obtaining the overview. Have focuses on possessing that broad understanding.",
+        "descriptionZh": "get 通常強調取得概覽； have 則強調已掌握這種整體了解。",
+        "examples": [
+          {
+            "en": "The summary helps readers get a bird’s-eye view of the issue.",
+            "zh": "摘要幫助讀者掌握問題的整體情況。",
+            "highlight": "a bird’s-eye view"
+          },
+          {
+            "en": "The manager has a bird’s-eye view of the whole project.",
+            "zh": "經理了解整個項目的全貌。",
+            "highlight": "a bird’s-eye view"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Need” or “Want”",
+        "titleZh": "接在 need 或 want 後",
+        "formula": "Subject + need/want + a bird’s-eye view + optional complement.",
+        "descriptionEn": "Source grammar frame: Subject + need/want + a bird’s-eye view + optional complement.",
+        "descriptionZh": "原檔列出的句法框架：Subject + need/want + a bird’s-eye view + optional complement。",
+        "examples": [
+          {
+            "en": "We need a bird’s-eye view of the plan before discussing the details.",
+            "zh": "我們需要先掌握計劃的全貌，才討論細節。",
+            "highlight": "a bird’s-eye view"
+          },
+          {
+            "en": "The director wanted a bird’s-eye view of the situation.",
+            "zh": "主管希望先了解整體情況。",
+            "highlight": "a bird’s-eye view"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After “Ask For”",
+        "titleZh": "接在 ask for 後",
+        "formula": "Subject + ask + person + for + a bird’s-eye view + optional complement.",
+        "descriptionEn": "Source grammar frame: Subject + ask + person + for + a bird’s-eye view + optional complement.",
+        "descriptionZh": "原檔列出的句法框架：Subject + ask + person + for + a bird’s-eye view + optional complement。",
+        "examples": [
+          {
+            "en": "The team asked the manager for a bird’s-eye view of the new system.",
+            "zh": "團隊請經理先概括說明新制度的全貌。",
+            "highlight": "a bird’s-eye view"
+          },
+          {
+            "en": "Could you give us a bird’s-eye view of the report?",
+            "zh": "你可以先向我們概括說明整份報告嗎？",
+            "highlight": "a bird’s-eye view"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "After a Linking Verb",
+        "titleZh": "接在連繫動詞後",
+        "formula": "Subject + be + a bird’s-eye view + optional complement.",
+        "descriptionEn": "Here, the expression identifies what the subject is.",
+        "descriptionZh": "這個句式使用目標表達來說明主語的性質。",
+        "examples": [
+          {
+            "en": "The first chapter is a bird’s-eye view of the town’s history.",
+            "zh": "第一章是這個城鎮歷史的整體概覽。",
+            "highlight": "a bird’s-eye view"
+          },
+          {
+            "en": "The opening section was a bird’s-eye view of the whole process.",
+            "zh": "開首部分概括介紹了整個程序。",
+            "highlight": "a bird’s-eye view"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "As the Subject of a Sentence",
+        "titleZh": "用作句子的主語",
+        "formula": "A bird’s-eye view + optional complement + verb.",
+        "descriptionEn": "Source grammar frame: A bird’s-eye view + optional complement + verb.",
+        "descriptionZh": "原檔列出的句法框架：A bird’s-eye view + optional complement + verb。",
+        "examples": [
+          {
+            "en": "A bird’s-eye view of the project can help new members understand their roles.",
+            "zh": "項目的整體概覽可以幫助新成員了解自己的職責。",
+            "highlight": "A bird’s-eye view"
+          },
+          {
+            "en": "A bird’s-eye view is useful before a detailed discussion.",
+            "zh": "在詳細討論前，先掌握整體概況會很有用。",
+            "highlight": "A bird’s-eye view"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "After “Begin” or “Start With”",
+        "titleZh": "接在 begin 或 start with 後",
+        "formula": "Subject + begin/start + with + a bird’s-eye view + optional complement.",
+        "descriptionEn": "Source grammar frame: Subject + begin/start + with + a bird’s-eye view + optional complement.",
+        "descriptionZh": "原檔列出的句法框架：Subject + begin/start + with + a bird’s-eye view + optional complement。",
+        "examples": [
+          {
+            "en": "The presentation begins with a bird’s-eye view of the problem.",
+            "zh": "簡報首先概括介紹整個問題。",
+            "highlight": "a bird’s-eye view"
+          },
+          {
+            "en": "Let’s start with a bird’s-eye view of the week ahead.",
+            "zh": "讓我們先概括了解未來一星期的安排。",
+            "highlight": "a bird’s-eye view"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "In Passive Structures",
+        "titleZh": "用於被動句式",
+        "formula": "Subject + be + given/offered + a bird’s-eye view + optional complement.",
+        "descriptionEn": "Source grammar frame: Subject + be + given/offered + a bird’s-eye view + optional complement.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + given/offered + a bird’s-eye view + optional complement。",
+        "examples": [
+          {
+            "en": "New workers are given a bird’s-eye view of the job before training begins.",
+            "zh": "新員工在培訓開始前，會先獲得工作的整體概覽。",
+            "highlight": "a bird’s-eye view"
+          },
+          {
+            "en": "Residents were offered a bird’s-eye view of the plan.",
+            "zh": "居民獲提供計劃的整體概覽。",
+            "highlight": "a bird’s-eye view"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "In an Opening Purpose or Condition Phrase",
+        "titleZh": "用於表示目的或條件的開首短語",
+        "formula": "To get a bird’s-eye view of + topic, subject + action.",
+        "descriptionEn": "Without a bird’s-eye view of the project, it is easy to focus on only one problem.",
+        "descriptionZh": "如果沒有掌握項目全貌，人們很容易只集中於一個問題。",
+        "examples": [
+          {
+            "en": "To get a bird’s-eye view of the report, read the summary first.",
+            "zh": "要掌握報告的全貌，先閱讀摘要。",
+            "highlight": "a bird’s-eye view"
+          },
+          {
+            "en": "For a bird’s-eye view of the course, look at the first page.",
+            "zh": "要概括了解整個課程，請查看第一頁。",
+            "highlight": "a bird’s-eye view"
+          },
+          {
+            "en": "With a bird’s-eye view of the situation, the team could plan more carefully.",
+            "zh": "掌握整體情況後，團隊便能更仔細地制訂計劃。",
+            "highlight": "a bird’s-eye view"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Introduces the Whole Subject First",
+        "titleZh": "先介紹整個主題",
+        "en": "It Introduces the Whole Subject First",
+        "zh": "第一頁讓讀者掌握整個項目的概況。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Separates the Main Picture from the Details",
+        "titleZh": "區分全局與細節",
+        "en": "The expression signals that the speaker is giving the main structure first.",
+        "zh": "這個表達提醒聽眾，說話者現在先介紹主要結構，細節稍後才會說明。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Helps Organise Presentations",
+        "titleZh": "幫助組織簡報內容",
+        "en": "It Helps Organise Presentations",
+        "zh": "說話者可以先概括介紹全貌，再逐一討論每個部分。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful When Several Parts Are Connected",
+        "titleZh": "適合解釋多個互相關連的部分",
+        "en": "It Is Useful When Several Parts Are Connected",
+        "zh": "適合解釋多個互相關連的部分",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Helps People Step Back",
+        "titleZh": "幫助人們從全局思考",
+        "en": "It Helps People Step Back",
+        "zh": "只集中處理一個小問題的人，可能需要退後一步了解整體情況。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Provides Natural Sentence Variety",
+        "titleZh": "提供自然句式變化",
+        "en": "It Provides Natural Sentence Variety",
+        "zh": "提供自然句式變化",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "No separate origin status supplied",
+      "statusZh": "原檔沒有另列來源可信度",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster records the first known use of the complete expression bird’s-eye view in 1771, referring to its literal high-angle meaning. This date identifies an early surviving record; it should not be treated as proof that the expression was invented in that year.",
+          "zh": "Merriam-Webster 把 bird’s-eye view 這個完整表達的最早已知記錄追溯至1771年，當時使用的是從高處觀看的字面意思。 這個年份只代表目前找到的早期文字記錄，並不證明這個表達在該年才被創造。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical image naturally developed into a metaphor. Just as a flying bird can see a whole area at once, a reader, manager or learner can step back from individual details and understand the overall subject. Modern dictionaries therefore record both the physical view from above and the figurative meaning of an overall, brief look at something.",
+          "zh": "這個實際畫面自然發展成比喻。 正如飛鳥可以同時看見一大片地方，讀者、管理人員或學生也可以暫時離開個別細節，從整體角度了解一個主題。 因此，現代詞典同時記錄了從高處觀看的字面意思，以及概括了解整體情況的比喻意思。"
+        }
+      ],
+      "memoryEn": "A bird sees the whole area from above; a bird’s-eye view helps you see the whole subject before studying its smaller parts.",
+      "memoryZh": "飛鳥從高處看見整片地方；a bird’s-eye view 則幫助你先掌握整個主題，再研究較小的部分。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Complete Target",
+        "titleZh": "規則一：保留完整目標表達",
+        "en": "Bird’s-eye may function separately as an adjective in expressions such as a bird’s-eye photograph, but that is not the complete target in this exercise.",
+        "zh": "bird’s-eye 可以在其他句子中作形容詞，例如 a bird’s-eye photograph，但這不是本練習所要求的完整目標表達。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep the Article “A”",
+        "titleZh": "規則二：保留冠詞 a",
+        "en": "Natural English may also contain the bird’s-eye view or plural bird’s-eye views in other contexts, but they are not the locked target of this set.",
+        "zh": "真實英語中也可能出現 the bird’s-eye view 或複數 bird’s-eye views，但它們並不是本練習鎖定的目標形式。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use “Of” Only When Needed",
+        "titleZh": "規則三：按需要使用 of",
+        "en": "Use “Of” Only When Needed",
+        "zh": "按需要使用 of",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve the Receiver",
+        "titleZh": "規則四：保留接收概覽的人",
+        "en": "Preserve the Receiver",
+        "zh": "保留接收概覽的人",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Tense and Modality",
+        "titleZh": "規則五：保留時態及情態",
+        "en": "Do not turn may provide into provided.",
+        "zh": "不要把可能提供改成已經提供。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Repeat the Meaning",
+        "titleZh": "規則六：不要重複相同意思",
+        "en": "The report gives a bird’s-eye view of the project.",
+        "zh": "使用目標表達後，不要立即再以另一個子句重複「提供整體概覽」的意思。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Use It for One Small Detail",
+        "titleZh": "規則七：不要用來描述單一小細節",
+        "en": "Do Not Use It for One Small Detail",
+        "zh": "一份報告概括說明全班主要的語言問題。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "It Is Not an Opinion",
+        "titleZh": "規則八：它不等於個人意見",
+        "en": "my opinion; my belief; my personal preference; one side of an argument.",
+        "zh": "a bird’s-eye view 表示整體概覽，並不單純表示個人意見或立場。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "It Does Not Promise Every Detail",
+        "titleZh": "規則九：它不代表包括所有細節",
+        "en": "It Does Not Promise Every Detail",
+        "zh": "它不代表包括所有細節",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Use a Plain Expression When It Is Clearer",
+        "titleZh": "規則十：在較清楚時使用直接表達",
+        "en": "Use a Plain Expression When It Is Clearer",
+        "zh": "在較清楚時使用直接表達",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a bird’s-eye view.",
+      "zh": "使用 a bird’s-eye view 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-98-q01",
+        "number": 1,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The first page shows readers the main parts of the project without explaining every detail.",
+        "promptZh": "第一頁向讀者展示項目的主要部分，但沒有解釋所有細節。",
+        "starter": "The",
+        "answer": "The first page gives readers a bird’s-eye view of the project.",
+        "answerZh": "第一頁讓讀者掌握整個項目的概況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q02",
+        "number": 2,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "This chart shows the general way in which the whole school day is organised.",
+        "promptZh": "這張圖表概括顯示整個上課日的安排。",
+        "starter": "This",
+        "answer": "This chart provides a bird’s-eye view of the whole school day.",
+        "answerZh": "這張圖表提供整個上課日的概覽。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q03",
+        "number": 3,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A short video helps new workers understand how the whole shop works.",
+        "promptZh": "一段短片幫助新員工了解整間店舖如何運作。",
+        "starter": "New",
+        "answer": "New workers get a bird’s-eye view of how the shop works from the short video.",
+        "answerZh": "新員工可以從這段短片了解整間店舖如何運作。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q04",
+        "number": 4,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "At the beginning of the course, the teacher explains its main parts and how they are connected.",
+        "promptZh": "課程開始時，老師會解釋主要部分以及它們如何互相連繫。",
+        "starter": "At",
+        "answer": "At the beginning of the course, the teacher gives the class a bird’s-eye view of its main parts.",
+        "answerZh": "課程開始時，老師會讓全班掌握課程主要部分的概況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q05",
+        "number": 5,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "We need to see the whole plan before we discuss each individual task.",
+        "promptZh": "我們需要先了解整個計劃，才討論每一項個別工作。",
+        "starter": "We",
+        "answer": "We need a bird’s-eye view of the whole plan before discussing each individual task.",
+        "answerZh": "我們需要先掌握整個計劃的全貌，才討論每項個別工作。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q06",
+        "number": 6,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Priya wants a general picture of the week’s work before deciding which jobs are most important.",
+        "promptZh": "普里雅希望先掌握本星期工作的整體情況，再決定哪些工作最重要。",
+        "starter": "Priya",
+        "answer": "Priya wants a bird’s-eye view of the week’s work before deciding which jobs are most important.",
+        "answerZh": "普里雅希望先掌握本星期工作的整體情況，再決定哪些工作最重要。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q07",
+        "number": 7,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The first lesson is a general introduction to the history of the town.",
+        "promptZh": "第一課概括介紹這個城鎮的歷史。",
+        "starter": "The",
+        "answer": "The first lesson is a bird’s-eye view of the town’s history.",
+        "answerZh": "第一課是這個城鎮歷史的整體概覽。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q08",
+        "number": 8,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A broad understanding of the event can help volunteers understand their roles.",
+        "promptZh": "全面了解整項活動，可以幫助義工明白自己的職責。",
+        "starter": "A",
+        "answer": "A bird’s-eye view of the event can help volunteers understand their roles.",
+        "answerZh": "活動的整體概覽可以幫助義工了解自己的職責。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "A bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q09",
+        "number": 9,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Look at this simple diagram if you want to understand the whole system before studying its details.",
+        "promptZh": "如果你想在研究細節前先了解整個制度，請查看這張簡單圖表。",
+        "starter": "To",
+        "answer": "To get a bird’s-eye view of the whole system, look at this simple diagram.",
+        "answerZh": "要掌握整個制度的全貌，請查看這張簡單圖表。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q10",
+        "number": 10,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Read the introduction first if you want a general understanding of the whole book.",
+        "promptZh": "如果你想先概括了解整本書，請先閱讀引言。",
+        "starter": "For",
+        "answer": "For a bird’s-eye view of the book, read the introduction first.",
+        "answerZh": "要概括了解整本書，請先閱讀引言。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q11",
+        "number": 11,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The report will show managers the main results from all the teams.",
+        "promptZh": "報告將向經理顯示所有團隊的主要結果。",
+        "starter": "This",
+        "answer": "This report will give managers a bird’s-eye view of the results from all the teams.",
+        "answerZh": "這份報告將讓經理掌握所有團隊的整體結果。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q12",
+        "number": 12,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Yesterday, the trainer gave us a general outline of the office routine.",
+        "promptZh": "昨天，導師向我們概括介紹了辦公室的日常運作。",
+        "starter": "Yesterday",
+        "answer": "Yesterday, the trainer gave us a bird’s-eye view of the office routine.",
+        "answerZh": "昨天，導師讓我們概括了解了辦公室的日常運作。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q13",
+        "number": 13,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "New workers receive a general picture of the job before their detailed training begins.",
+        "promptZh": "新員工在詳細培訓開始前，會先了解工作的整體情況。",
+        "starter": "Before",
+        "answer": "Before detailed training begins, new workers are given a bird’s-eye view of the job.",
+        "answerZh": "詳細培訓開始前，新員工會先了解工作的整體情況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q14",
+        "number": 14,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The speaker began by giving a broad explanation of the whole problem.",
+        "promptZh": "講者首先概括解釋了整個問題。",
+        "starter": "The",
+        "answer": "The speaker began with a bird’s-eye view of the whole problem.",
+        "answerZh": "講者首先概括介紹了整個問題。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q15",
+        "number": 15,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Our course starts with a general introduction to the whole subject.",
+        "promptZh": "我們的課程首先概括介紹整個科目。",
+        "starter": "Our",
+        "answer": "Our course starts with a bird’s-eye view of the subject.",
+        "answerZh": "我們的課程首先概括介紹整個科目。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q16",
+        "number": 16,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Can you explain the project without giving me all the details yet? B: Yes. I will begin with the one-page plan.",
+        "promptZh": "甲：你可以先解釋整個項目，而暫時不說明所有細節嗎？ 乙：可以。我會先使用這份一頁計劃。",
+        "starter": "I",
+        "answer": "I can give you a bird’s-eye view before we discuss the project’s details.",
+        "answerZh": "在討論項目的細節前，我可以先讓你掌握整體概況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q17",
+        "number": 17,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "I would like a general picture of the company before reading all its reports.",
+        "promptZh": "我想在閱讀公司的所有報告前，先了解公司的整體情況。",
+        "starter": "I",
+        "answer": "I would like a bird’s-eye view of the company before reading all its reports.",
+        "answerZh": "我想在閱讀公司的所有報告前，先了解公司的整體情況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q18",
+        "number": 18,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The team asked the manager to give them a broad explanation of the new plan.",
+        "promptZh": "團隊請經理向他們概括解釋新計劃。",
+        "starter": "The",
+        "answer": "The team asked the manager for a bird’s-eye view of the new plan.",
+        "answerZh": "團隊請經理概括說明新計劃的全貌。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q19",
+        "number": 19,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The opening section of the guide is a general explanation of the whole process.",
+        "promptZh": "指南的開首部分概括解釋了整個程序。",
+        "starter": "The",
+        "answer": "The opening section of the guide is a bird’s-eye view of the whole process.",
+        "answerZh": "指南的開首部分是整個程序的整體概覽。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q20",
+        "number": 20,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "What this screen provides is an overall picture of the whole situation in one place.",
+        "promptZh": "這個畫面把整體情況集中顯示在同一處。",
+        "starter": "What",
+        "answer": "What this screen provides is a bird’s-eye view of the whole situation.",
+        "answerZh": "這個畫面提供的是整體情況的概覽。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q21",
+        "number": 21,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: I do not need every number yet. I need to understand how sales, costs and orders fit together. B: Look at the first chart.",
+        "promptZh": "甲：我暫時不需要每一個數字。我需要了解銷售、成本及訂單如何互相連繫。 乙：看看第一張圖表。",
+        "starter": "The",
+        "answer": "The first chart will give you a bird’s-eye view of the business.",
+        "answerZh": "第一張圖表會讓你掌握整盤生意的概況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q22",
+        "number": 22,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Which part of the report should I read first? B: Read the two-page summary to understand the whole report.",
+        "promptZh": "甲：我應先閱讀報告的哪一部分？ 乙：閱讀兩頁摘要，先了解整份報告。",
+        "starter": "Start",
+        "answer": "Start with the two-page summary for a bird’s-eye view of the report.",
+        "answerZh": "先閱讀兩頁摘要，以掌握整份報告的全貌。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q23",
+        "number": 23,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Before choosing a date for the event, the organisers looked at the whole schedule rather than one individual activity.",
+        "promptZh": "在選擇活動日期前，主辦人員查看了整個時間表，而不是只看其中一項活動。",
+        "starter": "Before",
+        "answer": "Before choosing a date, the organisers got a bird’s-eye view of the whole schedule.",
+        "answerZh": "選擇日期前，主辦人員先掌握了整個時間表的全貌。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q24",
+        "number": 24,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "By reading the one-page outline, new members can understand the main parts of the programme.",
+        "promptZh": "閱讀一頁大綱後，新成員可以了解這個計劃的主要部分。",
+        "starter": "By",
+        "answer": "By reading the one-page outline, new members can get a bird’s-eye view of the programme.",
+        "answerZh": "閱讀一頁大綱後，新成員便可以掌握整個計劃的概況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q25",
+        "number": 25,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "After the leaders understood the overall project, they divided the work among the teams.",
+        "promptZh": "領袖了解整個項目的概況後，便把工作分配給各個團隊。",
+        "starter": "After",
+        "answer": "After getting a bird’s-eye view of the project, the leaders divided the work among the teams.",
+        "answerZh": "掌握項目全貌後，領袖便把工作分配給各個團隊。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q26",
+        "number": 26,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The app brings together updates from every team so that the manager can see the whole project.",
+        "promptZh": "這個應用程式把所有團隊的最新資料集中起來，讓經理了解整個項目。",
+        "starter": "The",
+        "answer": "The app brings all the team updates together to provide a bird’s-eye view of the project.",
+        "answerZh": "這個應用程式集中所有團隊的最新資料，以提供項目的整體概覽。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q27",
+        "number": 27,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Why do you want the weekly summary? B: I need to understand the whole situation before speaking to the team.",
+        "promptZh": "甲：你為甚麼想查看每星期的摘要？ 乙：我需要先了解整體情況，才跟團隊說話。",
+        "starter": "I",
+        "answer": "I need a bird’s-eye view of the whole situation before speaking to the team.",
+        "answerZh": "我需要先掌握整體情況，才跟團隊說話。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q28",
+        "number": 28,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "If you do not understand the whole situation, it is easy to concentrate on only one small problem.",
+        "promptZh": "如果不了解整體情況，人們很容易只集中於一個小問題。",
+        "starter": "Without",
+        "answer": "Without a bird’s-eye view of the whole situation, it is easy to concentrate on only one small problem.",
+        "answerZh": "如果沒有掌握整體情況，人們很容易只集中於一個小問題。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q29",
+        "number": 29,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "When staff understand the whole process, they can see how their individual jobs are connected.",
+        "promptZh": "員工了解整個程序後，便能看出各項工作如何互相連繫。",
+        "starter": "With",
+        "answer": "With a bird’s-eye view of the whole process, staff can see how their jobs are connected.",
+        "answerZh": "掌握整個程序後，員工便能看出各項工作如何互相連繫。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q30",
+        "number": 30,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The short video acts as a general introduction to the whole service.",
+        "promptZh": "這段短片概括介紹了整項服務。",
+        "starter": "The",
+        "answer": "The short video serves as a bird’s-eye view of the whole service.",
+        "answerZh": "這段短片概括介紹了整項服務。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q31",
+        "number": 31,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Although the summary is only one page long, it shows all the main stages of the trip plan.",
+        "promptZh": "雖然摘要只有一頁，但它顯示了旅行計劃的所有主要階段。",
+        "starter": "Although",
+        "answer": "Although the summary is only one page long, it provides a bird’s-eye view of the trip plan.",
+        "answerZh": "雖然摘要只有一頁，但它提供了整個旅行計劃的概覽。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q32",
+        "number": 32,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Because the plan is complicated, the meeting should begin with a general explanation of the whole plan.",
+        "promptZh": "由於計劃十分複雜，會議應先概括介紹整個計劃。",
+        "starter": "Because",
+        "answer": "Because the plan is complicated, the meeting should start with a bird’s-eye view of it.",
+        "answerZh": "由於計劃十分複雜，會議應先概括介紹整個計劃。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q33",
+        "number": 33,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: I understand each task, but I cannot see how the tasks are connected. B: Look at the wall chart.",
+        "promptZh": "甲：我明白每項工作，但看不出這些工作如何互相連繫。 乙：看看牆上的圖表。",
+        "starter": "If",
+        "answer": "If you need a bird’s-eye view of how the tasks are connected, look at the wall chart.",
+        "answerZh": "如果你需要了解各項工作如何互相連繫，請查看牆上的圖表。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q34",
+        "number": 34,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Rather than explain every detail immediately, the speaker first showed us the whole issue.",
+        "promptZh": "講者沒有立即解釋所有細節，而是先向我們展示整個問題的概況。",
+        "starter": "Rather",
+        "answer": "Rather than explaining every detail immediately, the speaker gave us a bird’s-eye view of the issue first.",
+        "answerZh": "講者沒有立即解釋所有細節，而是先讓我們掌握問題的整體情況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q35",
+        "number": 35,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The main purpose of this diagram is to show the whole plan in one picture.",
+        "promptZh": "這張圖表的主要目的是以一個畫面顯示整個計劃。",
+        "starter": "The",
+        "answer": "The main purpose of the diagram is to provide a bird’s-eye view of the whole plan.",
+        "answerZh": "這張圖表的主要目的是提供整個計劃的概覽。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q36",
+        "number": 36,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The report was written so that readers could understand the company’s general position before studying the detailed figures.",
+        "promptZh": "這份報告的目的是讓讀者在研究詳細數字前，先了解公司的整體情況。",
+        "starter": "The",
+        "answer": "The report was written to give readers a bird’s-eye view of the company before the detailed figures.",
+        "answerZh": "這份報告讓讀者在閱讀詳細數字前，先掌握公司的整體情況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q37",
+        "number": 37,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "What new volunteers need first is a general understanding of how the whole event works.",
+        "promptZh": "新義工首先需要的是了解整項活動如何運作。",
+        "starter": "What",
+        "answer": "What new volunteers need first is a bird’s-eye view of how the whole event works.",
+        "answerZh": "新義工首先需要的是了解整項活動如何運作。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q38",
+        "number": 38,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "At first, the director wanted only an overall picture of the situation, not every small detail.",
+        "promptZh": "最初，主管只想了解整體情況，而不是每一項小細節。",
+        "starter": "All",
+        "answer": "All the director wanted at first was a bird’s-eye view of the situation.",
+        "answerZh": "最初，主管只想掌握整體情況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q39",
+        "number": 39,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "During the first ten minutes, the speaker gave parents a general picture of the coming school year.",
+        "promptZh": "在最初十分鐘內，講者向家長概括介紹了未來一個學年。",
+        "starter": "The",
+        "answer": "The first ten minutes offered parents a bird’s-eye view of the school year ahead.",
+        "answerZh": "最初十分鐘讓家長概括了解未來一個學年。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q40",
+        "number": 40,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The summary first shows the whole plan and then explains each part separately.",
+        "promptZh": "摘要先展示整個計劃，再逐一解釋每個部分。",
+        "starter": "The",
+        "answer": "The summary gives readers a bird’s-eye view of the plan before explaining each part separately.",
+        "answerZh": "摘要先讓讀者掌握計劃全貌，再逐一解釋每個部分。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q41",
+        "number": 41,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The school handbook shows new families the main dates, rules and services for the whole school year.",
+        "promptZh": "學校手冊向新家庭介紹整個學年的主要日期、規則及服務。",
+        "starter": "The",
+        "answer": "The school handbook gives new families a bird’s-eye view of the school year.",
+        "answerZh": "學校手冊讓新家庭掌握整個學年的概況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q42",
+        "number": 42,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "One booking screen brings together all the day’s appointments and available rooms, helping hospital staff understand the whole day’s situation.",
+        "promptZh": "一個預約畫面集中顯示當日所有預約及可用房間，幫助醫院員工了解全日的整體情況。",
+        "starter": "The",
+        "answer": "The booking screen gives hospital staff a bird’s-eye view of the day’s appointments and available rooms.",
+        "answerZh": "預約畫面讓醫院員工掌握當日預約及可用房間的整體情況。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q43",
+        "number": 43,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "One weekly page allows the hotel manager to see the main guest comments from every part of the hotel.",
+        "promptZh": "每星期的一頁摘要，讓酒店經理查看酒店各部分的主要顧客意見。",
+        "starter": "The",
+        "answer": "The weekly page offers the hotel manager a bird’s-eye view of guest comments from every part of the hotel.",
+        "answerZh": "每星期的摘要讓酒店經理掌握酒店各部分的主要顧客意見。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q44",
+        "number": 44,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Before choosing a plan, residents were shown its general cost, timing and main changes.",
+        "promptZh": "在選擇方案前，居民獲告知方案的大概成本、時間安排及主要改變。",
+        "starter": "Before",
+        "answer": "Before choosing a plan, residents were given a bird’s-eye view of its cost, timing and main changes.",
+        "answerZh": "在選擇方案前，居民獲提供方案成本、時間安排及主要改變的概覽。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q45",
+        "number": 45,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The course does not teach every detail, but it gives learners a broad understanding of the subject.",
+        "promptZh": "這個課程沒有教授所有細節，但能讓學生概括了解整個科目。",
+        "starter": "Although",
+        "answer": "Although the course does not teach every detail, it offers a bird’s-eye view of the subject.",
+        "answerZh": "雖然這個課程沒有教授所有細節，但它能讓學生概括了解整個科目。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q46",
+        "number": 46,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: Could we look at the whole situation before discussing this one complaint? B: Yes. I have prepared a short summary.",
+        "promptZh": "甲：我們可以先了解整體情況，再討論這一宗投訴嗎？ 乙：可以。我已準備了一份簡短摘要。",
+        "starter": "Could",
+        "answer": "Could we begin with a bird’s-eye view of the whole situation before discussing one complaint?",
+        "answerZh": "我們可以先了解整體情況，再討論這一宗投訴嗎？",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q47",
+        "number": 47,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Once the leaders understood the project as a whole, they noticed that two teams were doing the same work.",
+        "promptZh": "領袖了解整個項目後，便發現兩個團隊正在進行相同的工作。",
+        "starter": "Once",
+        "answer": "Once the leaders had a bird’s-eye view of the project, they noticed that two teams were doing the same work.",
+        "answerZh": "領袖掌握項目全貌後，便發現兩個團隊正在進行相同的工作。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q48",
+        "number": 48,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Although the information comes from many different places, one page brings it together and shows the whole organisation.",
+        "promptZh": "雖然資料來自許多不同地方，但有一頁把所有資料集中起來，顯示整個機構的情況。",
+        "starter": "Although",
+        "answer": "Although the information comes from many different places, one page provides a bird’s-eye view of the whole organisation.",
+        "answerZh": "雖然資料來自許多不同地方，但有一頁提供了整個機構的概覽。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q49",
+        "number": 49,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The monthly chart is the closest thing we have to an overall picture of the organisation’s work last year.",
+        "promptZh": "這張每月圖表是我們目前最接近機構去年工作全貌的資料。",
+        "starter": "The",
+        "answer": "The monthly chart is the closest thing we have to a bird’s-eye view of the organisation’s work last year.",
+        "answerZh": "這張每月圖表是我們目前最接近機構去年工作全貌的資料。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      },
+      {
+        "id": "idiom-98-q50",
+        "number": 50,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Before changing the schedule, the team needed to see how all its parts were connected. The wall chart gave them this overall understanding.",
+        "promptZh": "在更改時間表前，團隊需要了解所有部分如何互相連繫。牆上的圖表讓他們掌握了這個整體情況。",
+        "starter": "Before",
+        "answer": "Before changing the schedule, the team used the wall chart to get a bird’s-eye view of the whole plan.",
+        "answerZh": "在更改時間表前，團隊利用牆上的圖表掌握整個計劃的全貌。",
+        "targetForm": "A Bird’s-Eye View",
+        "targetMeaning": "A general view or understanding of a whole subject, situation, system or activity, without concentrating on every small detail.",
+        "highlight": "a bird’s-eye view"
+      }
+    ]
+  }
+}

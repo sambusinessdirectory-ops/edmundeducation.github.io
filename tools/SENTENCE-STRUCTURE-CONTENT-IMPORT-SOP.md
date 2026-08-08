@@ -16,10 +16,10 @@ It covers:
 
 | Document status | Value |
 | --- | --- |
-| Last verified | 4 August 2026 |
+| Last verified | 7 August 2026 |
 | Applies to | EdmundEducation Sentence Structure System |
-| Current corpus | `ss1`–`ss275`, 13,750 questions |
-| Current imported JSON range | `ss5`–`ss275`, 271 lessons and 13,550 questions |
+| Current corpus | `ss1`–`ss345`, 17,250 questions |
+| Current imported JSON range | `ss5`–`ss345`, 341 lessons and 17,050 questions |
 | Legacy inline range | `ss1`–`ss4`, 4 lessons and 200 questions |
 | Standard import unit | One bilingual lesson with exactly 50 questions |
 | Saved-content version | `"1"` |
@@ -60,7 +60,7 @@ bundle, frontend, catalogue, Worker, Supabase and tests must all agree.
 | Editable imported lessons | `tools/sentence-structure-lessons/ssNN.json` |
 | Imported-lesson notes | `tools/sentence-structure-lessons/README.md` |
 | Legacy `ss1`–`ss4` and final lesson merge | `sentence-structure-data.js` |
-| Generated public imported-lesson bundle | `sentence-structure-lessons-5-275.js` |
+| Generated public imported-lesson bundle | `sentence-structure-lessons-5-345.js` |
 | Imported-bundle builder | `tools/build-sentence-structure-expansion.mjs` |
 | PDF/source verifier | `tools/verify-sentence-structure-pdf-imports.py` |
 | Browser rendering and answer checking | `sentence-structure.js` |
@@ -70,7 +70,7 @@ bundle, frontend, catalogue, Worker, Supabase and tests must all agree.
 | Catalogue generator | `tools/generate-sentence-structure-catalog.mjs` |
 | Worker validation and API | `workers/sentence-structure/src/index.js` |
 | Fresh-install Supabase schema | `supabase-sentence-structure.sql` |
-| Latest production widening migration | `supabase-sentence-structure-lessons-219-275.sql` |
+| Latest production widening migration | `supabase-sentence-structure-lessons-276-345.sql` |
 | Root system tests | `tools/test-sentence-structure-system.mjs` |
 | Worker tests | `workers/sentence-structure/test/worker.test.mjs` |
 | Worker operations | `workers/sentence-structure/README.md` |
@@ -86,7 +86,7 @@ bundle, frontend, catalogue, Worker, Supabase and tests must all agree.
 
 ### Never edit manually
 
-- `sentence-structure-lessons-5-275.js`; or
+- `sentence-structure-lessons-5-345.js`; or
 - `workers/sentence-structure/src/catalog.js`.
 
 Regenerate both files from their canonical sources.
@@ -133,6 +133,40 @@ Every Benefits and Important Rules card must render in this order:
 1. Traditional Chinese explanation in the larger primary font; then
 2. English explanation underneath in the smaller secondary font.
 
+For imported source blocks, split standalone Chinese and English lines into
+their respective fields. Do not copy a mixed bilingual block wholesale into
+`zh` and do not make it appear Chinese-first by adding a generic Chinese label.
+Short formula tokens may remain inside a genuine Chinese explanation. If a
+Chinese label ending in a colon points to an English formula, model answer or
+contrast on the following source line, preserve that exact token inside a
+balanced `【…】` reference in the Chinese-primary field. Never leave labels such
+as `正確：`, `錯誤：` or `核心句型是：` pointing to text that was removed by
+language separation. English list labels embedded beside Chinese text must be
+rewritten Chinese-first (`第 B 項…`, `時間（Time）`, or another source-faithful
+connector), rather than prefixed mechanically with `其中，`. If a source card
+supplies only one language, add a reviewed, card-specific
+translation in the other language and label its provenance; generic rule or
+benefit boilerplate is not acceptable.
+
+Run a semantic-completeness check after separating the languages. For a card
+with at least 40 English words, the Chinese field must contain at least one CJK
+character for every two English words. This is a conservative automated floor,
+not a substitute for human review. If the PDF appends a Core Grammar Bank,
+Related Structures section or several comparisons to the last numbered rule,
+split the block at its semantic headings and preserve source order; each
+English card must remain at or below 1,000 characters. A genuine exception must
+be registered by exact card ID with a written review reason in
+`BILINGUAL_RATIO_EXCEPTIONS`. Do not create broad lesson- or batch-level
+exceptions. The current imported corpus requires no exceptions.
+
+Remove an exact duplicate sentence inside one card and retain its first
+occurrence. Across cards, preserve a repeated sentence only when the exact
+lesson, field, sentence, complete card-ID set and source-backed pedagogical
+reason are registered in `PEDAGOGICAL_REPEAT_ALLOWLIST`. Every unreviewed
+cross-card repeat is a hard import failure. This retains meaningful
+correct/incorrect or rule/benefit comparisons without allowing extraction
+duplicates to spread silently.
+
 The JSON still stores both fields with their semantic names:
 
 ```json
@@ -169,7 +203,7 @@ field elsewhere must automatically be reordered.
 | Questions per lesson | Exactly 50 |
 | Question IDs | `ssN-q01` through `ssN-q50` |
 | Saved content version | `"1"` |
-| Bookmark limit | 16,000 per student |
+| Bookmark limit | 20,000 per student |
 | Bookmark request body | 2 MiB at the Worker |
 | Bookmark JSON accepted by Supabase | 2 MiB |
 | Saved round summaries | 250 per attempt |
@@ -182,18 +216,18 @@ the 50-question contract. If a source does not contain exactly 50 suitable
 questions, revise the source PDF or deliberately redesign the frontend,
 Worker, SQL and tests before importing it.
 
-The current corpus contains 13,750 question bookmarks plus 275 lesson-section
-bookmarks, for 14,025 possible entries below the 16,000 limit. Before a future
-release approaches 16,000 total entries, raise and test the matching frontend,
+The current corpus contains 17,250 question bookmarks plus 345 lesson-section
+bookmarks, for 17,595 possible entries below the 20,000 limit. Before a future
+release approaches 20,000 total entries, raise and test the matching frontend,
 Worker, SQL payload and pagination limits together.
 
 ## 4. Never change published identifiers
 
 Lesson and question IDs are database keys, not cosmetic labels.
 
-- A lesson ID is `ss` plus its permanent number: `ss1`, `ss2`, …, `ss275`.
+- A lesson ID is `ss` plus its permanent number: `ss1`, `ss2`, …, `ss345`.
 - Imported filenames use two digits where applicable: `ss05.json`,
-  `ss275.json`.
+  `ss345.json`.
 - Question IDs are `ssN-q01` through `ssN-q50`.
 - `id` and `order` must agree for a standard sequential import.
 - Never reuse an earlier lesson ID for different content.
@@ -202,9 +236,16 @@ Lesson and question IDs are database keys, not cosmetic labels.
 
 The source archive contains two distinct PDFs both numbered 201. Both are
 published, so source 201 maps to `ss201` and `ss202`; source numbers 202–274
-therefore map to system IDs `ss203`–`ss275`. In particular, the current source
+therefore map to system IDs `ss203`–`ss275`. In particular, that earlier source
 batch 218–274 maps to `ss219`–`ss275`. Use the system ID inside JSON while
 preserving the exact source filename in `source.file`.
+
+The source archive also contains two distinct PDFs numbered 310. The stable
+275–343 batch order is source number followed by exact filename, so source 275
+maps to `ss276`; source 310 `Do not get me wrong` maps to `ss311`; source 310
+`With all due respect` maps to `ss312`; and source 343 maps to `ss345`. Preserve
+both source-310 files and the mapping recorded in
+`tools/sentence-structure-import-manifest-275-343.json`.
 
 Matching-looking titles do not authorize deduplication. Source 229 and 230 are
 separate Embedded Questions lessons, and source 247 and 248 are separate
@@ -283,6 +324,15 @@ characters and page-boundary decisions.
 - Use Traditional Chinese for editorial translations.
 - Do not silently improve an awkward but intentional source sentence.
 - Record every editorial addition, translation or correction.
+- Split oversized appended teaching banks at semantic headings; do not discard
+  their source lines or merge them into an unreadable final card.
+- Remove extraction-only ordinals, bullet glyphs, `Core Grammar Bank` labels and
+  `Pattern N:` labels while retaining all substantive pattern text.
+- Join physical-line continuations before selecting the lesson formula; a
+  formula or explanation ending mid-clause is a hard failure.
+- Check the generated bilingual-completeness ratio and 1,000-character ceiling.
+- Remove only allowlisted accidental sentence duplicates; preserve deliberate
+  comparison pairs.
 - Do not paste Markdown bold markers into JSON strings.
 - Use `highlight` for red emphasis.
 - Check straight and curly apostrophes carefully.
@@ -611,37 +661,37 @@ Every page value must be an integer from `1` through `source.pageCount`.
 
 ### 9.1 Updating an existing imported lesson
 
-After correcting an existing `ss05.json`–`ss275.json`:
+After correcting an existing `ss05.json`–`ss345.json`:
 
 ```sh
 node tools/build-sentence-structure-expansion.mjs
 python3 tools/verify-sentence-structure-pdf-imports.py \
   --pdf-dir /path/to/the/original/pdfs \
   --first 5 \
-  --last 275
+  --last 345
 node tools/generate-sentence-structure-catalog.mjs
 ```
 
 Current expected output:
 
 ```text
-Generated 271 Sentence Structure lessons with 13550 questions.
-Verified 271 lessons against their source PDF pages (13550 questions).
-Generated 13750 accepted-answer entries.
+Generated 341 Sentence Structure lessons with 17050 questions.
+Verified 341 lessons against their source PDF pages (17050 questions).
+Generated 17250 accepted-answer entries.
 ```
 
 The catalogue total includes legacy `ss1`–`ss4`.
 
 ### 9.2 Adding a lesson above the current high-water mark
 
-Adding `ss276` requires all of the following:
+Adding `ss346` requires all of the following:
 
-1. add `tools/sentence-structure-lessons/ss276.json`;
+1. add `tools/sentence-structure-lessons/ss346.json`;
 2. update `LAST_LESSON` in
    `tools/build-sentence-structure-expansion.mjs`;
-3. change that builder’s output and generated comment from `5-275` to `5-276`;
+3. change that builder’s output and generated comment from `5-345` to `5-346`;
 4. rename the generated browser bundle to
-   `sentence-structure-lessons-5-276.js`;
+   `sentence-structure-lessons-5-346.js`;
 5. update the bundle filename in
    `tools/generate-sentence-structure-catalog.mjs`;
 6. update the bundle filename and lesson count in `sentence-structure.html`;
@@ -659,7 +709,7 @@ Adding `ss276` requires all of the following:
 Search for stale range references:
 
 ```sh
-rg -n "5-275|ss275|length: 275|13750" \
+rg -n "5-345|ss345|length: 345|17250" \
   sentence-structure.html \
   tools \
   workers/sentence-structure
@@ -670,7 +720,7 @@ remain unchanged; active range and count contracts must be updated.
 
 ### 9.3 PDF verification
 
-The verifier defaults to `~/Downloads`, lessons `5`–`275`, and the canonical
+The verifier defaults to `~/Downloads`, lessons `5`–`345`, and the canonical
 lesson JSON directory:
 
 ```sh
@@ -682,8 +732,8 @@ For a targeted import:
 ```sh
 python3 tools/verify-sentence-structure-pdf-imports.py \
   --pdf-dir "/path/to/pdfs" \
-  --first 276 \
-  --last 276
+  --first 346 \
+  --last 346
 ```
 
 It checks PDF existence, physical page count and page-local presence of the
@@ -765,10 +815,10 @@ Current contracts include:
 
 ```js
 const LESSON_IDS = new Set(
-  Array.from({ length: 275 }, (_, index) => `ss${index + 1}`)
+  Array.from({ length: 345 }, (_, index) => `ss${index + 1}`)
 );
 const QUESTIONS_PER_LESSON = 50;
-const MAX_BOOKMARKS = 16000;
+const MAX_BOOKMARKS = 20000;
 const BOOKMARK_PAGE_SIZE = 900;
 ```
 
@@ -790,7 +840,7 @@ The new ID must be accepted by:
 5. `sentence_structure_upsert_attempt`.
 
 Create a new transactional, repeatable forward migration. Do not rewrite
-`supabase-sentence-structure-lessons-219-275.sql` after it has been applied.
+`supabase-sentence-structure-lessons-276-345.sql` after it has been applied.
 For example:
 
 ```text
@@ -918,9 +968,9 @@ node tools/build-sentence-structure-expansion.mjs
 python3 tools/verify-sentence-structure-pdf-imports.py \
   --pdf-dir "/path/to/the/original/pdfs" \
   --first 5 \
-  --last 275
+  --last 345
 node tools/generate-sentence-structure-catalog.mjs
-node --check sentence-structure-lessons-5-275.js
+node --check sentence-structure-lessons-5-345.js
 node --check sentence-structure-data.js
 node --check sentence-structure.js
 node tools/test-sentence-structure-system.mjs
@@ -1068,7 +1118,7 @@ curl -fsSL \
   'https://edmundeducation.com/sentence-structure.html?verify=UNIQUE_VALUE'
 
 curl -fsSL \
-  'https://edmundeducation.com/sentence-structure-lessons-5-275.js?verify=UNIQUE_VALUE'
+  'https://edmundeducation.com/sentence-structure-lessons-5-345.js?verify=UNIQUE_VALUE'
 ```
 
 After adding lessons, use the new bundle range. Confirm:
@@ -1171,14 +1221,14 @@ Do not delete Supabase data merely to match a static display rollback.
 
 ## 21. Current release baseline
 
-The verified 4 August 2026 baseline is:
+The verified 7 August 2026 baseline is:
 
-- 275 lessons: `ss1`–`ss275`;
-- 13,750 questions;
-- 271 auditable imported JSON files: `ss05.json`–`ss275.json`;
+- 345 lessons: `ss1`–`ss345`;
+- 17,250 questions;
+- 341 auditable imported JSON files: `ss05.json`–`ss345.json`;
 - generated public bundle:
-  `sentence-structure-lessons-5-275.js`;
-- 16,000-bookmark and 2 MiB payload capacity;
+  `sentence-structure-lessons-5-345.js`;
+- 20,000-bookmark and 2 MiB payload capacity;
 - Benefits and Important Rules both render Traditional Chinese first in the
   larger primary font;
 - English appears underneath in the smaller secondary font;

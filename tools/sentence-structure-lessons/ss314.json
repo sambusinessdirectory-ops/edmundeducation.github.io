@@ -1,0 +1,1247 @@
+{
+  "id": "ss314",
+  "order": 314,
+  "slug": "i-see-where-you-are-coming-from-but-clause",
+  "title": "「I see where you are coming from, but + clause」先表示理解，再提出不同意見",
+  "titleZh": "「I see where you are coming from, but + clause」先表示理解，再提出不同意見",
+  "titleEn": "Using “I see where you are coming from, but + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 312 -「I see where you are coming from, but + clause」先表示理解，再提出不同意見.pdf",
+    "pageCount": 26,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "sha256": "fd58bd0cfde7c01165ad7477c9ee7d69ed39f33ec0d3c7ee7da3bbfecb019195",
+    "sourceNumber": 312,
+    "systemOrder": 314,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 312 maps to ss314: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "I see where you are coming from, but + clause",
+  "formulas": [
+    {
+      "id": "ss314-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "I see where you are coming from, but + clause"
+    }
+  ],
+  "example": "I see where you are coming from.",
+  "exampleZh": "我明白你的出發點。",
+  "examples": [
+    {
+      "id": "ss314-example-01",
+      "en": "I see where you are coming from.",
+      "zh": "我明白你的出發點。",
+      "highlight": "I see where you are coming from."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss314-rule-01",
+      "zh": "我明白你的出發點。 雖然子句以 where 開始，但它並不是直接問句，因此不可使用問句語序。",
+      "en": "“Where” introduces an embedded clause. Use statement word order: where + subject + verb I see where you are coming from. I see where are you coming from. Although the clause begins with where, it is not a direct question.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-rule-02",
+      "zh": "在這個句型中，coming from 通常不是指一個人從哪個地方前來。它表示：理解某人的想法；理解某個意見背後的原因；理解某人的感受或顧慮。",
+      "en": "The expression is normally figurative. In this structure, coming from does not normally refer to a physical location. It means: understanding someone’s thinking understanding the reason behind an opinion understanding someone’s feelings or concerns.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-rule-03",
+      "zh": "我明白他的出發點。 我明白他們的出發點。 我明白她當時的出發點。 我能理解居民當時的出發點。",
+      "en": "Match the verb with the person. I see where he is coming from. I see where they are coming from. I saw where she was coming from. I could see where the residents were coming from.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-rule-04",
+      "zh": "在本練習中，but 後面應接一個具有主語和限定動詞的完整子句。",
+      "en": "Use a complete clause after “but”. The part after but should normally contain a subject and a finite verb. I see where you are coming from, but the plan is too expensive. Incorrect for this exercise: I see where you are coming from, but too expensive.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-rule-05",
+      "zh": "基本句型由兩個完整分句組成，因此通常在 but 前使用逗號。在以 but that 連接兩項間接引述時，通常不需要在 but 前使用逗號。",
+      "en": "Use a comma before “but” in the basic pattern. I see where you are coming from**, but** the situation has changed. In reported speech, a comma is not normally needed in this pattern: She said that she understood the problem but that the rule could not be changed.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-rule-06",
+      "zh": "這個表達只表示你理解對方的出發點，並不表示：你完全同意對方；對方一定正確；你會接受對方的要求。",
+      "en": "Understanding does not necessarily mean agreement. I see where you are coming from does not mean: I agree with you completely you are correct I will accept your request.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-rule-07",
+      "zh": "核心表達是：【see where someone is coming from】 其他情態動詞、強調語、句首副詞及引述句框都只是可選延伸。",
+      "en": "Do not confuse the core expression with optional extensions. The core expression is: see where someone is coming from The following parts are optional grammatical or organisational extensions: can could do honestly to be fair a reporting clause a time or viewpoint phrase. see where someone is coming from",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-rule-08",
+      "zh": "在表示理解對方時，可以選用多種近義說法，但它們不是本課指定句型。本練習的答案必須保留完整表達I see where + 人物 + is／are coming from, but...。",
+      "en": "Related expressions are not the target answers. These expressions have similar meanings: I understand your point, but... I appreciate your concern, but... I take your point, but... I see your point, but... However, this exercise requires: see where someone is coming from, but...",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss314-benefit-01",
+      "zh": "它可以令不同意見聽起來不那麼強硬。你不是立即否定對方，而是先表示自己已經聆聽和理解。你的想法行不通。 我明白你的出發點，但你的想法在這種情況下未必可行。 第二個版本通常較尊重對方。",
+      "en": "It makes disagreement sound less aggressive. Instead of rejecting an idea immediately, you first show that you have listened to the other person. Compare: Your idea will not work. I see where you are coming from, but your idea may not work in this situation. The second version is usually more respectful.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-benefit-02",
+      "zh": "你可以表示某人的理據可以理解，同時清楚指出自己並不同意其最終結論。",
+      "en": "It separates understanding from agreement. You can show that a person’s reasoning is understandable without pretending that you agree with the final conclusion.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-benefit-03",
+      "zh": "句子的前半部分承認對方的立場，but 後面的分句則提出你自己的顧慮、限制或不同看法。",
+      "en": "It helps you present a balanced response. The first part acknowledges the other person’s position. The but-clause then introduces your own concern, limitation or alternative view.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-benefit-04",
+      "zh": "這個句型提供了一個容易使用的回應次序：先表示理解；再提出不同意見或問題。",
+      "en": "It connects two stages of a response naturally. The structure gives you a ready-made order: 1. show understanding 2. introduce the disagreement or problem.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-benefit-05",
+      "zh": "它適合用於：討論不同意見；回應投訴；有禮貌地拒絕要求；提供意見；在工作中進行協商；參與辯論。",
+      "en": "It is useful in real conversations. You can use it when: discussing different ideas responding to a complaint refusing a request politely giving feedback negotiating at work taking part in a debate.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss314-benefit-06",
+      "zh": "說話時，你不需要由零開始組織整個答案。你可以先說：【I see where you are coming from, but...】 然後再補充自己的主要觀點。",
+      "en": "It gives you a useful speaking frame. When speaking, you do not need to plan the entire response from the beginning. You can begin with: I see where you are coming from, but... and then add your main point. I see where you are coming from, but...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 312 maps to ss314: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item using see where someone is coming from, but...",
+      "Change the subject, pronouns, tense, reporting structure and word order when necessary.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 see where someone is coming from, but... 改寫以下句子。",
+      "如有需要，請更改主語、代名詞、時態、引述方式及語序。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss314-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I understand your point, but the price is still too high.",
+      "promptZh": "我明白你的看法，但價格仍然太高。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I see where you are coming from, but the price is still too high.",
+      "answerZh": "我明白你的出發點，但價格仍然太高。",
+      "answerZhSource": "pdf",
+      "highlight": "I see where you are coming from, but the price is still too high."
+    },
+    {
+      "id": "ss314-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Your request makes sense to me. However, we do not have enough time.",
+      "promptZh": "你的要求我可以理解。不過，我們沒有足夠時間。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I see where you are coming from, but we do not have enough time.",
+      "answerZh": "我明白你的出發點，但我們沒有足夠時間。",
+      "answerZhSource": "pdf",
+      "highlight": "I see where you are coming from, but we do not have enough time."
+    },
+    {
+      "id": "ss314-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although I understand your concern, the rule applies to everyone.",
+      "promptZh": "雖然我明白你的顧慮，但這項規則適用於所有人。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I can see where you are coming from, but the rule applies to everyone.",
+      "answerZh": "我能理解你的出發點，但這項規則適用於所有人。",
+      "answerZhSource": "pdf",
+      "highlight": "I can see where you are coming from, but the rule applies to everyone."
+    },
+    {
+      "id": "ss314-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Daniel’s reasoning is understandable, but his plan is too risky.",
+      "promptZh": "丹尼爾的想法可以理解，但他的計劃風險太高。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I see where Daniel is coming from, but his plan is too risky.",
+      "answerZh": "我明白丹尼爾的出發點，但他的計劃風險太高。",
+      "answerZhSource": "pdf",
+      "highlight": "I see where Daniel is coming from, but his plan is too risky."
+    },
+    {
+      "id": "ss314-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We appreciate your position. Nevertheless, we cannot change the date.",
+      "promptZh": "我們理解你的立場。不過，我們不能更改日期。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We see where you are coming from, but we cannot change the date.",
+      "answerZh": "我們明白你的出發點，但我們不能更改日期。",
+      "answerZhSource": "pdf",
+      "highlight": "We see where you are coming from, but we cannot change the date."
+    },
+    {
+      "id": "ss314-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Chloe’s point makes sense to me, but the room is too small.",
+      "promptZh": "我明白克洛伊的看法，但房間太小。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I see where Chloe is coming from, but the room is too small.",
+      "answerZh": "我明白克洛伊的出發點，但房間太小。",
+      "answerZhSource": "pdf",
+      "highlight": "I see where Chloe is coming from, but the room is too small."
+    },
+    {
+      "id": "ss314-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I genuinely understand your point, but I still prefer the first option.",
+      "promptZh": "我確實明白你的看法，但我仍然較喜歡第一個選擇。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do see where you are coming from, but I still prefer the first option.",
+      "answerZh": "我確實明白你的出發點，但我仍然較喜歡第一個選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "I do see where you are coming from, but I still prefer the first option."
+    },
+    {
+      "id": "ss314-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To be fair, I understand your point, but the evidence is not strong enough.",
+      "promptZh": "公平地說，我明白你的看法，但證據仍不夠有力。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To be fair, I see where you are coming from, but the evidence is not strong enough.",
+      "answerZh": "公平地說，我明白你的出發點，但證據仍不夠有力。",
+      "answerZhSource": "pdf",
+      "highlight": "To be fair, I see where you are coming from, but the evidence is not strong enough."
+    },
+    {
+      "id": "ss314-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The teacher understood why the students were complaining, but she still believed the homework was necessary.",
+      "promptZh": "老師明白學生為甚麼抱怨，但她仍然認為功課是必要的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher could see where the students were coming from, but she still believed the homework was necessary.",
+      "answerZh": "老師能理解學生的出發點，但她仍然認為功課是必要的。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher could see where the students were coming from, but she still believed the homework was necessary."
+    },
+    {
+      "id": "ss314-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "The assistant appreciated the customer’s position. However, the refund period had ended.",
+      "promptZh": "職員理解顧客的立場。不過，退款期限已經結束。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The assistant could see where the customer was coming from, but the refund period had ended.",
+      "answerZh": "職員能理解顧客的出發點，但退款期限已經結束。",
+      "answerZhSource": "pdf",
+      "highlight": "The assistant could see where the customer was coming from, but the refund period had ended."
+    },
+    {
+      "id": "ss314-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Honestly, I appreciate your reasoning. However, the budget cannot cover both ideas.",
+      "promptZh": "坦白說，我理解你的想法。不過，預算不足以同時支持兩個方案。",
+      "promptZhSource": "pdf",
+      "starter": "Honestly",
+      "answer": "Honestly, I see where you are coming from, but the budget cannot cover both ideas.",
+      "answerZh": "坦白說，我明白你的出發點，但預算不足以同時支持兩個方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Honestly, I see where you are coming from, but the budget cannot cover both ideas."
+    },
+    {
+      "id": "ss314-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager’s reasoning makes sense to me, but the staff need more notice.",
+      "promptZh": "我明白經理的想法，但員工需要更早收到通知。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In principle, I see where the manager is coming from, but the staff need more notice.",
+      "answerZh": "原則上，我明白經理的出發點，但員工需要更早收到通知。",
+      "answerZhSource": "pdf",
+      "highlight": "In principle, I see where the manager is coming from, but the staff need more notice."
+    },
+    {
+      "id": "ss314-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although I understand why you want to move the meeting online, doing so may cause other problems.",
+      "promptZh": "雖然我明白你為甚麼想把會議改為網上進行，但這樣做可能會造成其他問題。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I see where you are coming from, but moving the meeting online may cause other problems.",
+      "answerZh": "我明白你的出發點，但把會議改為網上進行可能會造成其他問題。",
+      "answerZhSource": "pdf",
+      "highlight": "I see where you are coming from, but moving the meeting online may cause other problems."
+    },
+    {
+      "id": "ss314-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The parents’ concern is understandable. Even so, cancelling the trip would disappoint many pupils.",
+      "promptZh": "家長的顧慮可以理解。即使如此，取消旅行會令很多學生失望。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can see where the parents are coming from, but cancelling the trip would disappoint many pupils.",
+      "answerZh": "我們能理解家長的出發點，但取消旅行會令很多學生失望。",
+      "answerZhSource": "pdf",
+      "highlight": "We can see where the parents are coming from, but cancelling the trip would disappoint many pupils."
+    },
+    {
+      "id": "ss314-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Ethan’s argument is clear to me; however, the figures do not support his conclusion.",
+      "promptZh": "我明白伊森的論點；不過，數據並不支持他的結論。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I see where Ethan is coming from, but the figures do not support his conclusion.",
+      "answerZh": "我明白伊森的出發點，但數據並不支持他的結論。",
+      "answerZhSource": "pdf",
+      "highlight": "I see where Ethan is coming from, but the figures do not support his conclusion."
+    },
+    {
+      "id": "ss314-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At the time, I understood your point, but I did not agree with the solution.",
+      "promptZh": "我當時明白你的看法，但我不同意那個解決方法。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I could see where you were coming from, but I did not agree with the solution.",
+      "answerZh": "我當時能理解你的出發點，但我不同意那個解決方法。",
+      "answerZhSource": "pdf",
+      "highlight": "I could see where you were coming from, but I did not agree with the solution."
+    },
+    {
+      "id": "ss314-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Grace’s reasoning made sense to me, but the deadline had already passed.",
+      "promptZh": "我明白格蕾絲當時的想法，但截止日期已經過了。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I saw where Grace was coming from, but the deadline had already passed.",
+      "answerZh": "我明白格蕾絲當時的出發點，但截止日期已經過了。",
+      "answerZhSource": "pdf",
+      "highlight": "I saw where Grace was coming from, but the deadline had already passed."
+    },
+    {
+      "id": "ss314-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "After hearing both sides, I appreciated the residents’ position, but the road still had to remain open.",
+      "promptZh": "聽取雙方意見後，我理解居民的立場，但道路仍然必須保持開放。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After hearing both sides, I could see where the residents were coming from, but the road still had to remain open.",
+      "answerZh": "聽取雙方意見後，我能理解居民的出發點，但道路仍然必須保持開放。",
+      "answerZhSource": "pdf",
+      "highlight": "After hearing both sides, I could see where the residents were coming from, but the road still had to remain open."
+    },
+    {
+      "id": "ss314-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "During the discussion, I told them that I understood their point, but we needed a safer plan.",
+      "promptZh": "討論期間，我告訴他們我明白他們的看法，但我們需要一個更安全的方案。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the discussion, I said, “I see where you are coming from, but we need a safer plan.”",
+      "answerZh": "討論期間，我說：「我明白你們的出發點，但我們需要一個更安全的方案。」",
+      "answerZhSource": "pdf",
+      "highlight": "During the discussion, I said, “I see where you are coming from, but we need a safer plan.”"
+    },
+    {
+      "id": "ss314-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The teacher told the pupil that she understood his point, but he had to show all his working.",
+      "promptZh": "老師告訴那名學生，她明白他的看法，但他必須寫出所有計算步驟。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher replied, “I see where you are coming from, but you must show all your working.”",
+      "answerZh": "老師回答：「我明白你的出發點，但你必須寫出所有計算步驟。」",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher replied, “I see where you are coming from, but you must show all your working.”"
+    },
+    {
+      "id": "ss314-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Anna told the team that she understood their point, but the change could not be made overnight.",
+      "promptZh": "安娜告訴團隊，她明白他們的看法，但這項改變不可能在一夜之間完成。",
+      "promptZhSource": "pdf",
+      "starter": "Anna",
+      "answer": "Anna told the team, “I can see where you are coming from, but this change cannot be made overnight.”",
+      "answerZh": "安娜告訴團隊：「我能理解你們的出發點，但這項改變不可能在一夜之間完成。」",
+      "answerZhSource": "pdf",
+      "highlight": "Anna told the team, “I can see where you are coming from, but this change cannot be made overnight.”"
+    },
+    {
+      "id": "ss314-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The supervisor emphasised that he understood the workers’ point, but the safety check could not be skipped.",
+      "promptZh": "主管強調，他明白工人的看法，但安全檢查不能省略。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The supervisor said, “I do see where you are coming from, but the safety check cannot be skipped.”",
+      "answerZh": "主管說：「我確實明白你們的出發點，但安全檢查不能省略。」",
+      "answerZhSource": "pdf",
+      "highlight": "The supervisor said, “I do see where you are coming from, but the safety check cannot be skipped.”"
+    },
+    {
+      "id": "ss314-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We told the organiser that we understood the idea, but the venue was not accessible enough.",
+      "promptZh": "我們告訴主辦人，我們明白他的想法，但場地的無障礙設施不足。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We told the organiser, “We see where you are coming from, but the venue is not accessible enough.”",
+      "answerZh": "我們告訴主辦人：「我們明白你的出發點，但場地的無障礙設施不足。」",
+      "answerZhSource": "pdf",
+      "highlight": "We told the organiser, “We see where you are coming from, but the venue is not accessible enough.”"
+    },
+    {
+      "id": "ss314-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I replied that I understood his position, but the contract was already signed.",
+      "promptZh": "我回答說，我明白他的立場，但合約已經簽署。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I replied that I could see where he was coming from but that the contract was already signed.",
+      "answerZh": "我回答說，我能理解他的出發點，但合約已經簽署。",
+      "answerZhSource": "pdf",
+      "highlight": "I replied that I could see where he was coming from but that the contract was already signed."
+    },
+    {
+      "id": "ss314-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The director said that she understood the employees’ position, but the company could not promise an immediate pay rise.",
+      "promptZh": "董事表示，她明白員工的立場，但公司不能承諾立即加薪。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The director said that she saw where the employees were coming from but that the company could not promise an immediate pay rise.",
+      "answerZh": "董事表示，她明白員工的出發點，但公司不能承諾立即加薪。",
+      "answerZhSource": "pdf",
+      "highlight": "The director said that she saw where the employees were coming from but that the company could not promise an immediate pay rise."
+    },
+    {
+      "id": "ss314-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "After listening carefully, I understood their point. However, I still thought the plan needed changes.",
+      "promptZh": "仔細聆聽後，我明白了他們的看法。不過，我仍然認為計劃需要修改。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After listening carefully, I could see where they were coming from, but I still thought the plan needed changes.",
+      "answerZh": "仔細聆聽後，我能理解他們的出發點，但我仍然認為計劃需要修改。",
+      "answerZhSource": "pdf",
+      "highlight": "After listening carefully, I could see where they were coming from, but I still thought the plan needed changes."
+    },
+    {
+      "id": "ss314-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "From a parent’s point of view, I understand Mrs Lee’s concern, but the school must also consider the other children.",
+      "promptZh": "從家長的角度來看，我明白李太太的顧慮，但學校也必須考慮其他孩子。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From a parent’s point of view, I can see where Mrs Lee is coming from, but the school must also consider the other children.",
+      "answerZh": "從家長的角度來看，我能理解李太太的出發點，但學校也必須考慮其他孩子。",
+      "answerZhSource": "pdf",
+      "highlight": "From a parent’s point of view, I can see where Mrs Lee is coming from, but the school must also consider the other children."
+    },
+    {
+      "id": "ss314-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Regarding the suggestion, I understand your reasoning, but it would create extra work for the support team.",
+      "promptZh": "關於這項建議，我明白你的想法，但它會令支援團隊增加額外工作。",
+      "promptZhSource": "pdf",
+      "starter": "Regarding",
+      "answer": "Regarding the suggestion, I see where you are coming from, but it would create extra work for the support team.",
+      "answerZh": "關於這項建議，我明白你的出發點，但它會令支援團隊增加額外工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Regarding the suggestion, I see where you are coming from, but it would create extra work for the support team."
+    },
+    {
+      "id": "ss314-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When the residents complained, the officer said that he understood their point, but the buses still had to use that road.",
+      "promptZh": "居民投訴時，該名職員表示他明白他們的看法，但巴士仍然必須使用那條道路。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the residents complained, the officer answered, “I see where you are coming from, but the buses must still use this road.”",
+      "answerZh": "居民投訴時，該名職員回答：「我明白你們的出發點，但巴士仍然必須使用這條道路。」",
+      "answerZhSource": "pdf",
+      "highlight": "When the residents complained, the officer answered, “I see where you are coming from, but the buses must still use this road.”"
+    },
+    {
+      "id": "ss314-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The chairperson acknowledged the concern and said that she understood it, but the vote had to go ahead that day.",
+      "promptZh": "主席承認這項顧慮，並表示她明白有關看法，但投票必須在當日進行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chairperson acknowledged the concern and said, “I see where you are coming from, but the vote must go ahead today.”",
+      "answerZh": "主席承認這項顧慮，並說：「我明白你的出發點，但投票必須在今天進行。」",
+      "answerZhSource": "pdf",
+      "highlight": "The chairperson acknowledged the concern and said, “I see where you are coming from, but the vote must go ahead today.”"
+    },
+    {
+      "id": "ss314-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I understand the reasoning of both sides, but neither proposal solves the main problem.",
+      "promptZh": "我明白雙方的想法，但兩個方案都未能解決主要問題。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I see where both sides are coming from, but neither proposal solves the main problem.",
+      "answerZh": "我明白雙方的出發點，但兩個方案都未能解決主要問題。",
+      "answerZhSource": "pdf",
+      "highlight": "I see where both sides are coming from, but neither proposal solves the main problem."
+    },
+    {
+      "id": "ss314-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "We understand the younger workers’ position, but the new system also benefits experienced staff.",
+      "promptZh": "我們明白較年輕員工的立場，但新制度也對資深員工有利。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can see where the younger workers are coming from, but the new system also benefits experienced staff.",
+      "answerZh": "我們能理解較年輕員工的出發點，但新制度也對資深員工有利。",
+      "answerZhSource": "pdf",
+      "highlight": "We can see where the younger workers are coming from, but the new system also benefits experienced staff."
+    },
+    {
+      "id": "ss314-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I understand the landlord’s position, but the tenants were not given enough time.",
+      "promptZh": "我明白業主的立場，但租客沒有獲得足夠時間。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I see where the landlord is coming from, but the tenants were not given enough time.",
+      "answerZh": "我明白業主的出發點，但租客沒有獲得足夠時間。",
+      "answerZhSource": "pdf",
+      "highlight": "I see where the landlord is coming from, but the tenants were not given enough time."
+    },
+    {
+      "id": "ss314-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The committee understood the local businesses’ concern, but it still approved the temporary road closure.",
+      "promptZh": "委員會明白本地商戶的顧慮，但仍然批准暫時封路。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee could see where the local businesses were coming from, but it still approved the temporary road closure.",
+      "answerZh": "委員會能理解本地商戶的出發點，但仍然批准暫時封路。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee could see where the local businesses were coming from, but it still approved the temporary road closure."
+    },
+    {
+      "id": "ss314-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After reviewing the complaint, the manager said that she understood the customer’s point, but the records showed that the order had been delivered on time.",
+      "promptZh": "經審視投訴後，經理表示她明白顧客的看法，但紀錄顯示訂單已準時送達。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After reviewing the complaint, the manager said, “I can see where you are coming from, but the records show that the order was delivered on time.”",
+      "answerZh": "經審視投訴後，經理說：「我能理解你的出發點，但紀錄顯示訂單已準時送達。」",
+      "answerZhSource": "pdf",
+      "highlight": "After reviewing the complaint, the manager said, “I can see where you are coming from, but the records show that the order was delivered on time.”"
+    },
+    {
+      "id": "ss314-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The doctor said that she understood the patient’s concern, but stopping the treatment suddenly could be harmful.",
+      "promptZh": "醫生表示她明白病人的顧慮，但突然停止治療可能有害。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor replied, “I see where you are coming from, but stopping the treatment suddenly could be harmful.”",
+      "answerZh": "醫生回答：「我明白你的出發點，但突然停止治療可能有害。」",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor replied, “I see where you are coming from, but stopping the treatment suddenly could be harmful.”"
+    },
+    {
+      "id": "ss314-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I said that I understood the client’s position, but the design could not be changed without extra cost.",
+      "promptZh": "我表示我明白客戶的立場，但若不增加費用，設計便不能更改。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I said that I saw where the client was coming from but that the design could not be changed without extra cost.",
+      "answerZh": "我表示我明白客戶的出發點，但若不增加費用，設計便不能更改。",
+      "answerZhSource": "pdf",
+      "highlight": "I said that I saw where the client was coming from but that the design could not be changed without extra cost."
+    },
+    {
+      "id": "ss314-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The principal explained that she understood the teachers’ position, but the examination timetable had already been published.",
+      "promptZh": "校長解釋說，她明白教師的立場，但考試時間表已經公布。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The principal explained that she could see where the teachers were coming from but that the examination timetable had already been published.",
+      "answerZh": "校長解釋說，她能理解教師的出發點，但考試時間表已經公布。",
+      "answerZhSource": "pdf",
+      "highlight": "The principal explained that she could see where the teachers were coming from but that the examination timetable had already been published."
+    },
+    {
+      "id": "ss314-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "To some extent, we understand the campaigners’ argument, but a total ban would be difficult to enforce.",
+      "promptZh": "在某程度上，我們明白倡議者的論點，但全面禁止會很難執行。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To some extent, we see where the campaigners are coming from, but a total ban would be difficult to enforce.",
+      "answerZh": "在某程度上，我們明白倡議者的出發點，但全面禁止會很難執行。",
+      "answerZhSource": "pdf",
+      "highlight": "To some extent, we see where the campaigners are coming from, but a total ban would be difficult to enforce."
+    },
+    {
+      "id": "ss314-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Looking at the issue from their perspective, I understand their position, but I still believe the current policy is fair.",
+      "promptZh": "從他們的角度看這個問題，我明白他們的立場，但我仍然認為現行政策是公平的。",
+      "promptZhSource": "pdf",
+      "starter": "Looking",
+      "answer": "Looking at the issue from their perspective, I can see where they are coming from, but I still believe the current policy is fair.",
+      "answerZh": "從他們的角度看這個問題，我能理解他們的出發點，但我仍然認為現行政策是公平的。",
+      "answerZhSource": "pdf",
+      "highlight": "Looking at the issue from their perspective, I can see where they are coming from, but I still believe the current policy is fair."
+    },
+    {
+      "id": "ss314-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Before rejecting the proposal, the board told the proposer that it understood his reasoning, but the financial risk was greater than he suggested.",
+      "promptZh": "在否決方案前，董事會告訴提案人，董事會明白他的想法，但財務風險比他所說的更大。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before rejecting the proposal, the board said, “We see where you are coming from, but the financial risk is greater than you suggest.”",
+      "answerZh": "在否決方案前，董事會說：「我們明白你的出發點，但財務風險比你所說的更大。」",
+      "answerZhSource": "pdf",
+      "highlight": "Before rejecting the proposal, the board said, “We see where you are coming from, but the financial risk is greater than you suggest.”"
+    },
+    {
+      "id": "ss314-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The councillor said that he understood the shop owners’ position, but keeping the street open to traffic would put pedestrians at risk.",
+      "promptZh": "議員表示，他明白店主的立場，但讓街道繼續開放給車輛行駛會令行人面臨風險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The councillor said that he could see where the shop owners were coming from but that keeping the street open to traffic would put pedestrians at risk.",
+      "answerZh": "議員表示，他能理解店主的出發點，但讓街道繼續開放給車輛行駛會令行人面臨風險。",
+      "answerZhSource": "pdf",
+      "highlight": "The councillor said that he could see where the shop owners were coming from but that keeping the street open to traffic would put pedestrians at risk."
+    },
+    {
+      "id": "ss314-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "I genuinely understand the reasoning of the plan’s supporters, but their argument assumes that demand will continue to rise.",
+      "promptZh": "我確實明白計劃支持者的想法，但他們的論點假設需求會持續上升。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do see where supporters of the plan are coming from, but their argument assumes that demand will continue to rise.",
+      "answerZh": "我確實明白計劃支持者的出發點，但他們的論點假設需求會持續上升。",
+      "answerZhSource": "pdf",
+      "highlight": "I do see where supporters of the plan are coming from, but their argument assumes that demand will continue to rise."
+    },
+    {
+      "id": "ss314-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "We understand the positions of both departments, but the final decision must be based on the organisation’s overall needs.",
+      "promptZh": "我們明白兩個部門的立場，但最終決定必須以機構的整體需要為依據。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can see where both departments are coming from, but the final decision must be based on the organisation’s overall needs.",
+      "answerZh": "我們能理解兩個部門的出發點，但最終決定必須以機構的整體需要為依據。",
+      "answerZhSource": "pdf",
+      "highlight": "We can see where both departments are coming from, but the final decision must be based on the organisation’s overall needs."
+    },
+    {
+      "id": "ss314-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "After the union presented its case, the director said that she understood its position, but the company could not agree to changes that it could not afford.",
+      "promptZh": "工會陳述理據後，董事表示她明白工會的立場，但公司不能同意其無力負擔的改變。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the union presented its case, the director replied, “I see where you are coming from, but the company cannot agree to changes that it cannot afford.”",
+      "answerZh": "工會陳述理據後，董事回答：「我明白你的出發點，但公司不能同意其無力負擔的改變。」",
+      "answerZhSource": "pdf",
+      "highlight": "After the union presented its case, the director replied, “I see where you are coming from, but the company cannot agree to changes that it cannot afford.”"
+    },
+    {
+      "id": "ss314-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The reviewer wrote that she understood the author’s reasoning, but the conclusion went beyond the evidence presented.",
+      "promptZh": "評論者寫道，她明白作者的想法，但結論超出了所提供證據能支持的範圍。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reviewer wrote, “I can see where the author is coming from, but the conclusion goes beyond the evidence presented.”",
+      "answerZh": "評論者寫道：「我能理解作者的出發點，但結論超出了所提供證據能支持的範圍。」",
+      "answerZhSource": "pdf",
+      "highlight": "The reviewer wrote, “I can see where the author is coming from, but the conclusion goes beyond the evidence presented.”"
+    },
+    {
+      "id": "ss314-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "I understood the residents’ concern, but I also knew that delaying the repairs would create a more serious safety problem.",
+      "promptZh": "我明白居民的顧慮，但我也知道延誤維修會造成更嚴重的安全問題。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I could see where the residents were coming from, but I also knew that delaying the repairs would create a more serious safety problem.",
+      "answerZh": "我能理解居民的出發點，但我也知道延誤維修會造成更嚴重的安全問題。",
+      "answerZhSource": "pdf",
+      "highlight": "I could see where the residents were coming from, but I also knew that delaying the repairs would create a more serious safety problem."
+    },
+    {
+      "id": "ss314-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The panel said that it understood the applicant’s position, but personal circumstances could not replace the required evidence.",
+      "promptZh": "評審小組表示，評審明白申請人的立場，但個人情況不能取代所需證明。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The panel said that it saw where the applicant was coming from but that personal circumstances could not replace the required evidence.",
+      "answerZh": "評審小組表示，評審明白申請人的出發點，但個人情況不能取代所需證明。",
+      "answerZhSource": "pdf",
+      "highlight": "The panel said that it saw where the applicant was coming from but that personal circumstances could not replace the required evidence."
+    },
+    {
+      "id": "ss314-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Without dismissing their concerns, I told them that I understood their point, but the option would solve only part of the problem.",
+      "promptZh": "在沒有輕視他們顧慮的情況下，我告訴他們我明白他們的看法，但這個方案只能解決部分問題。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without dismissing their concerns, I said, “I see where you are coming from, but this option would solve only part of the problem.”",
+      "answerZh": "在沒有輕視他們顧慮的情況下，我說：「我明白你們的出發點，但這個方案只能解決部分問題。」",
+      "answerZhSource": "pdf",
+      "highlight": "Without dismissing their concerns, I said, “I see where you are coming from, but this option would solve only part of the problem.”"
+    },
+    {
+      "id": "ss314-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "By the end of the meeting, both sides understood the other side’s position, but they still disagreed about how quickly the changes should be introduced.",
+      "promptZh": "會議結束時，雙方都明白對方的立場，但仍然不同意應以多快的速度推行改變。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of the meeting, both sides could see where the other was coming from, but they still disagreed about how quickly the changes should be introduced.",
+      "answerZh": "會議結束時，雙方都能理解對方的出發點，但仍然不同意應以多快的速度推行改變。",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of the meeting, both sides could see where the other was coming from, but they still disagreed about how quickly the changes should be introduced."
+    }
+  ]
+}

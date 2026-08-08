@@ -1,0 +1,1231 @@
+{
+  "id": "ss294",
+  "order": 294,
+  "slug": "person-organisation-be-in-no-position-to-verb",
+  "title": "「Person / Organisation + be in no position to + verb」",
+  "titleZh": "「Person / Organisation + be in no position to + verb」",
+  "titleEn": "Using “Person / Organisation + be in no position to + verb”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 293 -「Person _ Organisation + be in no position to + verb」 沒有資格.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "sha256": "f299300f6d5f493fc8bc8074e1041efbc850e052d880e1bb77b81871142b10f9",
+    "sourceNumber": 293,
+    "systemOrder": 294,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 293 maps to ss294: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Subject + be + in no position to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss294-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Subject + be + in no position to + base verb + other information"
+    }
+  ],
+  "example": "A company that hides its figures is in no position to demand transparency.",
+  "exampleZh": "一間隱瞞自身數據的公司，沒有資格要求別人保持透明。",
+  "examples": [
+    {
+      "id": "ss294-example-01",
+      "en": "A company that hides its figures is in no position to demand transparency.",
+      "zh": "一間隱瞞自身數據的公司，沒有資格要求別人保持透明。",
+      "highlight": "A company that hides its figures is in no position to demand transparency."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss294-rule-01",
+      "zh": "在 be in no position to 後面必須接動詞原形，例如 criticise；不可接現在分詞 criticising。",
+      "en": "To The manager is in no position to criticise the team. The manager is in no position to criticising the team.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss294-rule-02",
+      "zh": "在 be in no position to 中，be 動詞要配合主語和時態：單數主語用 is 或 was，複數主語用 are 或 were，談論未來則可用 will be。",
+      "en": "Be I am in no position to... He is in no position to... They are in no position to... She was in no position to... We will be in no position to...",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss294-rule-03",
+      "zh": "主語不一定是個人主語也可以是：【a company；a school；a committee；a government；an organisation；a newspaper；a hospital；A newspaper that publishes unverified stories is in no position to accuse others of spreading】 一份刊登未經核實報道的報章，沒有資格指責別人散播謠言。",
+      "en": "a company a school a committee a government an organisation a newspaper a hospital A newspaper that publishes unverified stories is in no position to accuse others of spreading rumours.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss294-rule-04",
+      "zh": "這不是表示身體所處的位置在這個句型中通常不是指「沒有站在某個位置」。它表示：沒有資格；沒有立場；沒有權力；沒有足夠資料；沒有實際條件。",
+      "en": "In no position to",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss294-rule-05",
+      "zh": "的語氣通常較強我們目前未能確認結果。 我們根本沒有足夠條件確認結果。 通常較委婉，可以表示暫時未能處理。語氣較強，經常表示完全缺乏資格、立場或必要條件。本課集中練習：【in no position to + base verb】",
+      "en": "“In no position to” Compare: We are not in a position to confirm the result. We are in no position to confirm the result. Not in a position to In no position to in no position to + base verb",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss294-rule-06",
+      "zh": "表示某人沒有資格或條件做某事時，要用 be in no position to；不可直譯成 have no position to。",
+      "en": "The company has no position to demand transparency. The company is in no position to demand transparency.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss294-benefit-01",
+      "zh": "這個句型能清楚指出某人的過往行為令他失去批評、要求或判斷別人的資格。第二句把原因和判斷連接起來，關係更加清楚。",
+      "en": "It explains why someone should not criticise or demand something This structure clearly shows that a person’s previous actions have weakened their right to criticise, demand or judge. Compare: The manager caused the delay. He should not criticise the team. After causing the delay, the manager is in no position to criticise the team.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss294-benefit-02",
+      "zh": "當某人缺乏資料、證據、權力、金錢、時間或其他必要條件時，你可以使用這個句型準確表達「目前無法做某事」。沒有完整報告，我們便無法作出最終決定。",
+      "en": "It expresses practical inability precisely You can use it when someone lacks information, evidence, authority, money, time or another necessary condition. Without the full report, we are in no position to make a final decision.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss294-benefit-03",
+      "zh": "你不需要直接說「你沒有權這樣說」，也可以用較冷靜、有控制力的方式表達強烈批評。你沒有資格責怪員工。",
+      "en": "It sounds firm without using rude language Instead of directly saying, “You have no right to say that,” this structure allows you to express the criticism in a more controlled way. You are in no position to blame the staff.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss294-benefit-04",
+      "zh": "你可以先交代理由，再清楚提出自己的判斷，讓讀者更容易理解你的邏輯。該機構忽視警告後，沒有資格否認責任。",
+      "en": "It helps connect evidence and judgement You can place the reason before the main statement and then present your judgement clearly. Having ignored the warnings, the organisation is in no position to deny responsibility.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss294-benefit-05",
+      "zh": "這個句型適合用於作文、辯論、投訴信、報告及正式討論，尤其適合分析責任、公平、權力、證據和可信程度。",
+      "en": "It is useful in essays, debates and formal discussions This structure is useful when discussing responsibility, fairness, authority, evidence and credibility.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss294-benefit-06",
+      "zh": "這些開首方式可以增加句式變化，避免所有句子都以人物或機構名稱開始。",
+      "en": "It gives you several ways to organise a sentence You can begin with: After... Without... Because... If... Until... Having... Given... Although...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 293 maps to ss294: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using be in no position to + base verb.",
+      "You may change the position of the reason, condition or time expression when necessary.",
+      "Preserve the original meaning, tense, degree of certainty and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 be in no position to + 動詞原形 改寫以下句子。",
+      "如有需要，你可以改變原因、條件或時間部分的位置。",
+      "答案必須保留原句的意思、時態、確定程度及重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss294-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A company that hides its figures has no right to demand transparency.",
+      "promptZh": "一間隱瞞自身數據的公司，沒有資格要求別人保持透明。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A company that hides its figures is in no position to demand transparency.",
+      "answerZh": "一間隱瞞自身數據的公司，沒有資格要求別人保持透明。",
+      "answerZhSource": "pdf",
+      "highlight": "A company that hides its figures is in no position to demand transparency."
+    },
+    {
+      "id": "ss294-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A student who never attends class cannot fairly complain about not understanding the lessons.",
+      "promptZh": "一名從不上課的學生，不能合理地抱怨自己不明白課堂內容。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A student who never attends class is in no position to complain about not understanding the lessons.",
+      "answerZh": "一名從不上課的學生，沒有資格抱怨自己不明白課堂內容。",
+      "answerZhSource": "pdf",
+      "highlight": "A student who never attends class is in no position to complain about not understanding the lessons."
+    },
+    {
+      "id": "ss294-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel did not help the team, so he should not criticise its effort.",
+      "promptZh": "丹尼爾沒有協助球隊，因此不應批評球隊所付出的努力。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel is in no position to criticise the team’s effort because he did not help.",
+      "answerZh": "丹尼爾沒有協助球隊，因此沒有資格批評球隊所付出的努力。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel is in no position to criticise the team’s effort because he did not help."
+    },
+    {
+      "id": "ss294-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The driver ignored the weather warning, so he cannot reasonably blame the weather for the delay.",
+      "promptZh": "司機忽視了天氣警告，因此不能合理地把延誤歸咎於天氣。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After ignoring the weather warning, the driver is in no position to blame the weather for the delay.",
+      "answerZh": "司機忽視天氣警告後，沒有資格把延誤歸咎於天氣。",
+      "answerZhSource": "pdf",
+      "highlight": "After ignoring the weather warning, the driver is in no position to blame the weather for the delay."
+    },
+    {
+      "id": "ss294-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I do not know the full story, so I cannot fairly judge her decision.",
+      "promptZh": "我不知道事情的全部經過，因此不能公平地判斷她的決定。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because I do not know the full story, I am in no position to judge her decision fairly.",
+      "answerZh": "因為我不知道事情的全部經過，所以沒有條件公平地判斷她的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Because I do not know the full story, I am in no position to judge her decision fairly."
+    },
+    {
+      "id": "ss294-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our neighbours often hold loud parties. Therefore, they have no right to complain about noise.",
+      "promptZh": "我們的鄰居經常舉行嘈吵的派對，因此沒有資格投訴噪音。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbours are in no position to complain about noise because they often hold loud parties.",
+      "answerZh": "我們的鄰居經常舉行嘈吵的派對，因此沒有資格投訴噪音。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbours are in no position to complain about noise because they often hold loud parties."
+    },
+    {
+      "id": "ss294-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The shop does not have enough staff, so it cannot promise next-day delivery.",
+      "promptZh": "這間商店沒有足夠員工，因此無法承諾翌日送貨。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without enough staff, the shop is in no position to promise next-day delivery.",
+      "answerZh": "沒有足夠員工，這間商店便無法承諾翌日送貨。",
+      "answerZhSource": "pdf",
+      "highlight": "Without enough staff, the shop is in no position to promise next-day delivery."
+    },
+    {
+      "id": "ss294-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Chloe has no medical training. Therefore, she should not give medical advice.",
+      "promptZh": "克洛伊沒有接受過醫療訓練，因此不應提供醫療意見。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe is in no position to give medical advice because she has no medical training.",
+      "answerZh": "克洛伊沒有接受過醫療訓練，因此沒有資格提供醫療意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe is in no position to give medical advice because she has no medical training."
+    },
+    {
+      "id": "ss294-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach often arrives late himself, so he has no right to demand punctuality.",
+      "promptZh": "教練自己經常遲到，因此沒有資格要求別人準時。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because he often arrives late himself, the coach is in no position to demand punctuality.",
+      "answerZh": "教練自己經常遲到，因此沒有資格要求別人準時。",
+      "answerZhSource": "pdf",
+      "highlight": "Because he often arrives late himself, the coach is in no position to demand punctuality."
+    },
+    {
+      "id": "ss294-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Anyone who refuses to listen cannot fairly claim that the discussion was unfair.",
+      "promptZh": "任何拒絕聆聽的人，都不能合理地聲稱討論並不公平。",
+      "promptZhSource": "pdf",
+      "starter": "Anyone",
+      "answer": "Anyone who refuses to listen is in no position to claim that the discussion was unfair.",
+      "answerZh": "任何拒絕聆聽的人，都沒有資格聲稱討論並不公平。",
+      "answerZhSource": "pdf",
+      "highlight": "Anyone who refuses to listen is in no position to claim that the discussion was unfair."
+    },
+    {
+      "id": "ss294-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The officer deleted the records. He therefore has no right to ask others for proof.",
+      "promptZh": "該名職員刪除了紀錄，因此沒有資格要求別人提供證明。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After deleting the records, the officer is in no position to ask others for proof.",
+      "answerZh": "該名職員刪除紀錄後，沒有資格要求別人提供證明。",
+      "answerZhSource": "pdf",
+      "highlight": "After deleting the records, the officer is in no position to ask others for proof."
+    },
+    {
+      "id": "ss294-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Rachel has not seen the contract, so she cannot say whether it is fair.",
+      "promptZh": "瑞秋尚未看過合約，因此無法判斷合約是否公平。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without seeing the contract, Rachel is in no position to say whether it is fair.",
+      "answerZh": "在未有看過合約的情況下，瑞秋無法判斷合約是否公平。",
+      "answerZhSource": "pdf",
+      "highlight": "Without seeing the contract, Rachel is in no position to say whether it is fair."
+    },
+    {
+      "id": "ss294-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The committee cannot approve the plan before it receives the safety report.",
+      "promptZh": "委員會收到安全報告前，無法批准這項計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Until",
+      "answer": "Until it receives the safety report, the committee is in no position to approve the plan.",
+      "answerZh": "委員會收到安全報告前，無法批准這項計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Until it receives the safety report, the committee is in no position to approve the plan."
+    },
+    {
+      "id": "ss294-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Marcus missed every practice, so he cannot reasonably expect a place in the final team.",
+      "promptZh": "馬庫斯缺席了每次練習，因此不能合理地期望入選最終隊伍。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having missed every practice, Marcus is in no position to expect a place in the final team.",
+      "answerZh": "馬庫斯缺席了每次練習，因此沒有資格期望入選最終隊伍。",
+      "answerZhSource": "pdf",
+      "highlight": "Having missed every practice, Marcus is in no position to expect a place in the final team."
+    },
+    {
+      "id": "ss294-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The heating is still broken. Therefore, the landlord has no right to raise the rent.",
+      "promptZh": "暖氣仍然損壞，因此業主沒有資格提高租金。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While the heating remains broken, the landlord is in no position to raise the rent.",
+      "answerZh": "暖氣仍然損壞期間，業主沒有資格提高租金。",
+      "answerZhSource": "pdf",
+      "highlight": "While the heating remains broken, the landlord is in no position to raise the rent."
+    },
+    {
+      "id": "ss294-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Oliver has never run a business, so he is not qualified to lecture experienced business owners.",
+      "promptZh": "奧利弗從未經營過生意，因此沒有資格教訓經驗豐富的企業東主。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As he has never run a business, Oliver is in no position to lecture experienced business owners.",
+      "answerZh": "由於奧利弗從未經營過生意，因此沒有資格教訓經驗豐富的企業東主。",
+      "answerZhSource": "pdf",
+      "highlight": "As he has never run a business, Oliver is in no position to lecture experienced business owners."
+    },
+    {
+      "id": "ss294-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The newspaper published an unverified story. It therefore has no right to accuse others of spreading rumours.",
+      "promptZh": "該報章刊登了一則未經核實的報道，因此沒有資格指責別人散播謠言。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After publishing an unverified story, the newspaper is in no position to accuse others of spreading rumours.",
+      "answerZh": "該報章刊登未經核實的報道後，沒有資格指責別人散播謠言。",
+      "answerZhSource": "pdf",
+      "highlight": "After publishing an unverified story, the newspaper is in no position to accuse others of spreading rumours."
+    },
+    {
+      "id": "ss294-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At present, we do not have enough information to confirm the cause of the fault.",
+      "promptZh": "目前，我們沒有足夠資料確認故障原因。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, we are in no position to confirm the cause of the fault.",
+      "answerZh": "目前，我們沒有足夠條件確認故障原因。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, we are in no position to confirm the cause of the fault."
+    },
+    {
+      "id": "ss294-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the data remain incomplete, the researchers will not be able to draw a firm conclusion.",
+      "promptZh": "如果數據仍不完整，研究人員便無法得出確切結論。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the data remain incomplete, the researchers will be in no position to draw a firm conclusion.",
+      "answerZh": "如果數據仍不完整，研究人員便無法得出確切結論。",
+      "answerZhSource": "pdf",
+      "highlight": "If the data remain incomplete, the researchers will be in no position to draw a firm conclusion."
+    },
+    {
+      "id": "ss294-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why can the witness not identify the driver? She saw the car only from behind.",
+      "promptZh": "證人為甚麼無法辨認司機？她只從後方看見該輛汽車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The witness is in no position to identify the driver because she saw the car only from behind.",
+      "answerZh": "證人只從後方看見該輛汽車，因此無法辨認司機。",
+      "answerZhSource": "pdf",
+      "highlight": "The witness is in no position to identify the driver because she saw the car only from behind."
+    },
+    {
+      "id": "ss294-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The report says that the council cannot guarantee that costs will not rise.",
+      "promptZh": "報告指出，議會無法保證成本不會上升。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the report, the council is in no position to guarantee that costs will not rise.",
+      "answerZh": "根據報告，議會無法保證成本不會上升。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the report, the council is in no position to guarantee that costs will not rise."
+    },
+    {
+      "id": "ss294-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The inspector accepted the gift, so she may no longer be able to make an independent decision.",
+      "promptZh": "督察接受了禮物，因此可能已無法作出獨立決定。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After accepting the gift, the inspector may be in no position to make an independent decision.",
+      "answerZh": "督察接受禮物後，可能已無法作出獨立決定。",
+      "answerZhSource": "pdf",
+      "highlight": "After accepting the gift, the inspector may be in no position to make an independent decision."
+    },
+    {
+      "id": "ss294-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The security guard had no legal authority and therefore could not search the office.",
+      "promptZh": "保安員沒有法律權力，因此不能搜查辦公室。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without legal authority, the security guard was in no position to search the office.",
+      "answerZh": "保安員沒有法律權力，因此無法搜查辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "Without legal authority, the security guard was in no position to search the office."
+    },
+    {
+      "id": "ss294-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The charity’s funding had been cut, so it could not expand the programme.",
+      "promptZh": "該慈善機構的資金被削減，因此無法擴展計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because its funding had been cut, the charity was in no position to expand the programme.",
+      "answerZh": "由於資金被削減，該慈善機構無法擴展計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Because its funding had been cut, the charity was in no position to expand the programme."
+    },
+    {
+      "id": "ss294-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Priya knew that she could not reasonably challenge the result without evidence.",
+      "promptZh": "普莉雅知道，自己沒有證據便不能合理地質疑結果。",
+      "promptZhSource": "pdf",
+      "starter": "Priya",
+      "answer": "Priya knew that she was in no position to challenge the result without evidence.",
+      "answerZh": "普莉雅知道，自己沒有證據便沒有條件質疑結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Priya knew that she was in no position to challenge the result without evidence."
+    },
+    {
+      "id": "ss294-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "People who ignore expert advice cannot fairly blame others when the predicted problem occurs.",
+      "promptZh": "忽視專家意見的人，在預計的問題出現時不能合理地責怪別人。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People who ignore expert advice are in no position to blame others when the predicted problem occurs.",
+      "answerZh": "忽視專家意見的人，在預計的問題出現時沒有資格責怪別人。",
+      "answerZhSource": "pdf",
+      "highlight": "People who ignore expert advice are in no position to blame others when the predicted problem occurs."
+    },
+    {
+      "id": "ss294-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A platform profits from false claims. It therefore has no right to present itself as a defender of truth.",
+      "promptZh": "一個平台從虛假說法中獲利，因此沒有資格把自己描述成真相的捍衞者。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A platform that profits from false claims is in no position to present itself as a defender of truth.",
+      "answerZh": "一個從虛假說法中獲利的平台，沒有資格把自己描述成真相的捍衞者。",
+      "answerZhSource": "pdf",
+      "highlight": "A platform that profits from false claims is in no position to present itself as a defender of truth."
+    },
+    {
+      "id": "ss294-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The museum cannot receive visitors safely until the repairs are complete.",
+      "promptZh": "博物館在維修完成前無法安全接待訪客。",
+      "promptZhSource": "pdf",
+      "starter": "Until",
+      "answer": "Until the repairs are complete, the museum will be in no position to receive visitors safely.",
+      "answerZh": "維修完成前，博物館將無法安全接待訪客。",
+      "answerZhSource": "pdf",
+      "highlight": "Until the repairs are complete, the museum will be in no position to receive visitors safely."
+    },
+    {
+      "id": "ss294-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Aaron lacks experience, so he may not be ready to lead the negotiations alone.",
+      "promptZh": "亞倫缺乏經驗，因此可能未有條件獨自帶領談判。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given his lack of experience, Aaron may be in no position to lead the negotiations alone.",
+      "answerZh": "考慮到亞倫缺乏經驗，他可能未有條件獨自帶領談判。",
+      "answerZhSource": "pdf",
+      "highlight": "Given his lack of experience, Aaron may be in no position to lead the negotiations alone."
+    },
+    {
+      "id": "ss294-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The panel decided that the witness could not comment on events she had not seen.",
+      "promptZh": "小組認為，證人無法評論她沒有親眼看見的事件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The panel found that the witness was in no position to comment on events she had not seen.",
+      "answerZh": "小組認為，證人沒有條件評論她沒有親眼看見的事件。",
+      "answerZhSource": "pdf",
+      "highlight": "The panel found that the witness was in no position to comment on events she had not seen."
+    },
+    {
+      "id": "ss294-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organisation refused to publish the criteria. It therefore cannot defend the fairness of the selection process.",
+      "promptZh": "該機構拒絕公布準則，因此無法為遴選程序的公平性辯護。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By refusing to publish the criteria, the organisation is in no position to defend the fairness of the selection process.",
+      "answerZh": "該機構拒絕公布準則，因此無法為遴選程序的公平性辯護。",
+      "answerZhSource": "pdf",
+      "highlight": "By refusing to publish the criteria, the organisation is in no position to defend the fairness of the selection process."
+    },
+    {
+      "id": "ss294-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the manager controls the budget, he cannot promise extra staff without approval.",
+      "promptZh": "雖然經理控制預算，但未經批准便不能承諾增加人手。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the manager controls the budget, he is in no position to promise extra staff without approval.",
+      "answerZh": "雖然經理控制預算，但未經批准便沒有條件承諾增加人手。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the manager controls the budget, he is in no position to promise extra staff without approval."
+    },
+    {
+      "id": "ss294-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The doctor explained, “Without the test results, I cannot recommend a treatment.”",
+      "promptZh": "醫生解釋：「沒有檢驗結果，我便無法建議治療方法。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained that, without the test results, she was in no position to recommend a treatment.",
+      "answerZh": "醫生解釋，在沒有檢驗結果的情況下，她無法建議治療方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained that, without the test results, she was in no position to recommend a treatment."
+    },
+    {
+      "id": "ss294-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Farah joined the project yesterday, so she cannot describe how the earlier decision was made.",
+      "promptZh": "法拉昨天才加入這個項目，因此無法描述先前的決定是如何作出的。",
+      "promptZhSource": "pdf",
+      "starter": "Farah",
+      "answer": "Farah, who joined the project yesterday, is in no position to describe how the earlier decision was made.",
+      "answerZh": "法拉昨天才加入這個項目，因此無法描述先前的決定是如何作出的。",
+      "answerZhSource": "pdf",
+      "highlight": "Farah, who joined the project yesterday, is in no position to describe how the earlier decision was made."
+    },
+    {
+      "id": "ss294-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The missing records mean that the auditor cannot verify the payment.",
+      "promptZh": "紀錄遺失，意味核數師無法核實該筆款項。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the missing records mean is that the auditor is in no position to verify the payment.",
+      "answerZh": "紀錄遺失，意味核數師無法核實該筆款項。",
+      "answerZhSource": "pdf",
+      "highlight": "What the missing records mean is that the auditor is in no position to verify the payment."
+    },
+    {
+      "id": "ss294-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The supplier has already missed two deadlines. It therefore has no right to request another extension.",
+      "promptZh": "供應商已錯過兩個限期，因此沒有資格再次要求延期。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After missing two deadlines, the supplier is in no position to request another extension.",
+      "answerZh": "供應商錯過兩個限期後，沒有資格再次要求延期。",
+      "answerZhSource": "pdf",
+      "highlight": "After missing two deadlines, the supplier is in no position to request another extension."
+    },
+    {
+      "id": "ss294-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The board members approved the original policy, so they cannot deny responsibility for its effects.",
+      "promptZh": "董事會成員批准了原有政策，因此不能否認自己要為政策的影響負責。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having approved the original policy, the board members are in no position to deny responsibility for its effects.",
+      "answerZh": "董事會成員批准了原有政策，因此沒有資格否認自己要為政策的影響負責。",
+      "answerZhSource": "pdf",
+      "highlight": "Having approved the original policy, the board members are in no position to deny responsibility for its effects."
+    },
+    {
+      "id": "ss294-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If you have not read the proposal, you cannot fairly dismiss it as unrealistic.",
+      "promptZh": "如果你尚未閱讀建議書，便不能合理地斷定它不切實際。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you have not read the proposal, you are in no position to dismiss it as unrealistic.",
+      "answerZh": "如果你尚未閱讀建議書，便沒有資格斷定它不切實際。",
+      "answerZhSource": "pdf",
+      "highlight": "If you have not read the proposal, you are in no position to dismiss it as unrealistic."
+    },
+    {
+      "id": "ss294-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school ignored repeated complaints, so it cannot now claim that it values student welfare.",
+      "promptZh": "學校多次忽視投訴，因此現在沒有資格聲稱自己重視學生福祉。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After ignoring repeated complaints, the school is in no position to claim that it values student welfare.",
+      "answerZh": "學校多次忽視投訴後，沒有資格聲稱自己重視學生福祉。",
+      "answerZhSource": "pdf",
+      "highlight": "After ignoring repeated complaints, the school is in no position to claim that it values student welfare."
+    },
+    {
+      "id": "ss294-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The judge must hear both sides before she can decide the case, regardless of her personal opinion.",
+      "promptZh": "無論法官的個人意見如何，她必須聽取雙方陳詞後才能裁決案件。",
+      "promptZhSource": "pdf",
+      "starter": "Whatever",
+      "answer": "Whatever her personal opinion may be, the judge is in no position to decide the case before hearing both sides.",
+      "answerZh": "無論法官的個人意見如何，她在聽取雙方陳詞之前都沒有條件裁決案件。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever her personal opinion may be, the judge is in no position to decide the case before hearing both sides."
+    },
+    {
+      "id": "ss294-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Since the agency released conflicting figures, it has had no right to criticise the public for being confused.",
+      "promptZh": "自從該機構公布互相矛盾的數據後，它便沒有資格批評公眾感到困惑。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since releasing conflicting figures, the agency has been in no position to criticise the public for being confused.",
+      "answerZh": "自從該機構公布互相矛盾的數據後，它便一直沒有資格批評公眾感到困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "Since releasing conflicting figures, the agency has been in no position to criticise the public for being confused."
+    },
+    {
+      "id": "ss294-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A government that restricts access to information cannot reasonably demand complete openness from its citizens.",
+      "promptZh": "一個限制資訊流通的政府，不能合理地要求市民完全公開一切。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A government that restricts access to information is in no position to demand complete openness from its citizens.",
+      "answerZh": "一個限制資訊流通的政府，沒有資格要求市民完全公開一切。",
+      "answerZhSource": "pdf",
+      "highlight": "A government that restricts access to information is in no position to demand complete openness from its citizens."
+    },
+    {
+      "id": "ss294-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The company failed to protect the personal data it already holds. It therefore has no right to request even more information from customers.",
+      "promptZh": "公司未能保護現時持有的個人資料，因此沒有資格要求顧客提供更多資訊。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having failed to protect the personal data it already holds, the company is in no position to request even more information from customers.",
+      "answerZh": "公司未能保護現時持有的個人資料，因此沒有資格要求顧客提供更多資訊。",
+      "answerZhSource": "pdf",
+      "highlight": "Having failed to protect the personal data it already holds, the company is in no position to request even more information from customers."
+    },
+    {
+      "id": "ss294-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The responsible official cannot declare the system safe before independent experts examine the evidence.",
+      "promptZh": "在獨立專家檢視證據之前，負責官員不能宣布系統安全。",
+      "promptZhSource": "pdf",
+      "starter": "Until",
+      "answer": "Until independent experts examine the evidence, the responsible official is in no position to declare the system safe.",
+      "answerZh": "在獨立專家檢視證據之前，負責官員沒有條件宣布系統安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Until independent experts examine the evidence, the responsible official is in no position to declare the system safe."
+    },
+    {
+      "id": "ss294-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The review concluded that the former director could not evaluate a policy whose implementation she had never observed.",
+      "promptZh": "審查報告認為，前任主管無法評估一項她從未親眼看過其執行情況的政策。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The review concluded that the former director was in no position to evaluate a policy whose implementation she had never observed.",
+      "answerZh": "審查報告認為，前任主管沒有條件評估一項她從未親眼看過其執行情況的政策。",
+      "answerZhSource": "pdf",
+      "highlight": "The review concluded that the former director was in no position to evaluate a policy whose implementation she had never observed."
+    },
+    {
+      "id": "ss294-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When a leader benefits from an arrangement, that leader may not be able to judge fairly whether it benefits everyone else.",
+      "promptZh": "當一名領袖從某項安排中受益時，他可能無法公平判斷該安排是否也對其他人有利。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When a leader benefits from an arrangement, that leader may be in no position to judge fairly whether it benefits everyone else.",
+      "answerZh": "當一名領袖從某項安排中受益時，他可能沒有條件公平判斷該安排是否也對其他人有利。",
+      "answerZhSource": "pdf",
+      "highlight": "When a leader benefits from an arrangement, that leader may be in no position to judge fairly whether it benefits everyone else."
+    },
+    {
+      "id": "ss294-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The university has not yet investigated the complaint, so it cannot fairly dismiss the student’s account as false.",
+      "promptZh": "大學尚未調查投訴，因此不能合理地斷定該學生的說法不實。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The university, which has not yet investigated the complaint, is in no position to dismiss the student’s account as false.",
+      "answerZh": "大學尚未調查投訴，因此沒有資格斷定該學生的說法不實。",
+      "answerZhSource": "pdf",
+      "highlight": "The university, which has not yet investigated the complaint, is in no position to dismiss the student’s account as false."
+    },
+    {
+      "id": "ss294-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Even if the proposal sounds attractive, we cannot support it until the financial risks are clear.",
+      "promptZh": "即使建議聽起來很吸引，我們在財務風險明確之前仍無法支持它。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if the proposal sounds attractive, we are in no position to support it until the financial risks are clear.",
+      "answerZh": "即使建議聽起來很吸引，我們在財務風險明確之前仍無法支持它。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the proposal sounds attractive, we are in no position to support it until the financial risks are clear."
+    },
+    {
+      "id": "ss294-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The organisers changed the rules halfway through the process, so they cannot defend the final result as fair.",
+      "promptZh": "主辦單位在過程中途更改規則，因此無法聲稱最終結果公平。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After changing the rules halfway through the process, the organisers are in no position to defend the final result as fair.",
+      "answerZh": "主辦單位在過程中途更改規則後，沒有資格聲稱最終結果公平。",
+      "answerZhSource": "pdf",
+      "highlight": "After changing the rules halfway through the process, the organisers are in no position to defend the final result as fair."
+    },
+    {
+      "id": "ss294-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Without complete records, the committee would not be able to decide whether public money had been used properly.",
+      "promptZh": "沒有完整紀錄，委員會便無法判斷公帑是否得到妥善運用。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the absence of complete records, the committee would be in no position to decide whether public money had been used properly.",
+      "answerZh": "沒有完整紀錄，委員會便無法判斷公帑是否得到妥善運用。",
+      "answerZhSource": "pdf",
+      "highlight": "In the absence of complete records, the committee would be in no position to decide whether public money had been used properly."
+    }
+  ]
+}

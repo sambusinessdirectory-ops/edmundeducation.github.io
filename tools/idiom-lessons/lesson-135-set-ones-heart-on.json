@@ -1,0 +1,1569 @@
+{
+  "lesson": {
+    "id": "idiom-135",
+    "order": 135,
+    "slug": "set-ones-heart-on",
+    "version": "1",
+    "title": "一心想要／立志得到",
+    "titleEn": "set one’s heart on",
+    "titleZh": "一心想要／立志得到",
+    "source": {
+      "file": "Idiom 135 - 「Set Your Heart On」.pdf",
+      "pageCount": 34,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "exercisePdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "answerKeyPdfPages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "set one’s heart on",
+        "highlight": "set one’s heart on"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Sophie set her heart on the red bicycle.",
+        "zh": "一心想要那輛紅色單車。",
+        "highlight": "set her heart on"
+      },
+      {
+        "en": "Ethan sets his heart on difficult goals.",
+        "zh": "經常把心思放在具挑戰性的目標上。",
+        "highlight": "sets his heart on"
+      }
+    ],
+    "meaning": {
+      "en": "To decide that you want to obtain, achieve or do something very much.",
+      "zh": "一心想要得到某物、達成某個目標或做某件事；對某個目標抱有非常強烈的願望。",
+      "naturalZh": [
+        "一心想要得到某物、達成某個目標或做某件事",
+        "對某個目標抱有非常強烈的願望。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; personal messages; stories; interviews; general workplace communication; informal and semi-formal writing.",
+      "summaryZh": "這個表達屬於中性用語，適合日常對話、私人訊息、故事、訪問、一般工作溝通及半正式文章。",
+      "contextsEn": [
+        "everyday conversation",
+        "personal messages",
+        "stories",
+        "interviews",
+        "general workplace communication",
+        "informal and semi-formal writing"
+      ],
+      "contextsZh": [],
+      "formalEn": "In highly formal reports, plain expressions such as strongly wishes to, is determined to or has made X the main goal may sometimes be clearer.",
+      "formalZh": "在非常正式的報告中，使用 strongly wishes to、is determined to 或 has made X the main goal 有時會更加清晰。"
+    },
+    "fixedVariable": {
+      "fixed": "set one’s heart on",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + set(s) + possessive + heart/hearts + on + noun/-ing.",
+          "example": "Sophie set her heart on the red bicycle.",
+          "highlight": "set her heart on"
+        },
+        {
+          "form": "Subject + has/have + set + possessive + heart/hearts + on + noun/-ing.",
+          "example": "Grace has set her heart on studying in Edinburgh.",
+          "highlight": "set her heart on"
+        },
+        {
+          "form": "Subject + had + set + possessive + heart/hearts + on + noun/-ing.",
+          "example": "Daniel had set his heart on the corner flat.",
+          "highlight": "set his heart on"
+        },
+        {
+          "form": "Subject + may/might/could/will + set + possessive + heart/hearts + on + noun/-ing.",
+          "example": "Priya may set her heart on studying abroad.",
+          "highlight": "set her heart on"
+        },
+        {
+          "form": "Subject + seem/appear + to have set + possessive + heart/hearts + on + noun/-ing.",
+          "example": "She seems to have set her heart on moving to Vancouver.",
+          "highlight": "set her heart on"
+        },
+        {
+          "form": "Subject + has/have not + set + possessive + heart/hearts + on + noun/-ing.",
+          "example": "I have not set my heart on one particular laptop yet.",
+          "highlight": "set my heart on"
+        },
+        {
+          "form": "Have/Has + subject + set + possessive + heart/hearts + on + noun/-ing?",
+          "example": "Have you set your heart on the London job?",
+          "highlight": "set your heart on"
+        },
+        {
+          "form": "Noun + subject + had set + possessive + heart + on + verb...",
+          "example": "The course Alex had set his heart on was already full.",
+          "highlight": "set his heart on"
+        },
+        {
+          "form": "What + subject + had set + possessive + heart/hearts + on + was + goal.",
+          "example": "What Hannah had set her heart on was singing at the school concert.",
+          "highlight": "set her heart on"
+        },
+        {
+          "form": "set one’s heart on",
+          "example": "If you set your heart on the beach house, you will need to save for years.",
+          "highlight": "set your heart on"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Finite Verb Phrase",
+        "titleZh": "句式一：一般限定動詞句",
+        "formula": "Subject + set(s) + possessive + heart/hearts + on + noun/-ing.",
+        "descriptionEn": "This is the core grammatical pattern.",
+        "descriptionZh": "這是最基本的句法框架。",
+        "examples": [
+          {
+            "en": "Sophie set her heart on the red bicycle.",
+            "zh": "一心想要那輛紅色單車。",
+            "highlight": "set her heart on"
+          },
+          {
+            "en": "Ethan sets his heart on difficult goals.",
+            "zh": "經常把心思放在具挑戰性的目標上。",
+            "highlight": "sets his heart on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Present Perfect",
+        "titleZh": "句式二：現在完成式",
+        "formula": "Subject + has/have + set + possessive + heart/hearts + on + noun/-ing.",
+        "descriptionEn": "This pattern is especially useful when the desire began earlier and remains strong now.",
+        "descriptionZh": "這個句式適合表示願望在較早前產生，而且現在仍然十分強烈。",
+        "examples": [
+          {
+            "en": "Grace has set her heart on studying in Edinburgh.",
+            "zh": "一心想在愛丁堡讀書。",
+            "highlight": "set her heart on"
+          },
+          {
+            "en": "The players have set their hearts on reaching the final.",
+            "zh": "球員們一心想打入決賽。",
+            "highlight": "set their hearts on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Past Perfect",
+        "titleZh": "句式三：過去完成式",
+        "formula": "Subject + had + set + possessive + heart/hearts + on + noun/-ing.",
+        "descriptionEn": "This pattern is useful when the strong desire existed before another past event.",
+        "descriptionZh": "這個句式適合表示強烈願望早於另一件過去事件出現。",
+        "examples": [
+          {
+            "en": "Daniel had set his heart on the corner flat.",
+            "zh": "當時已一心想要那個角落單位。",
+            "highlight": "set his heart on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "句式四：情態動詞後",
+        "formula": "Subject + may/might/could/will + set + possessive + heart/hearts + on + noun/-ing.",
+        "descriptionEn": "The modal verb preserves possibility, prediction or uncertainty. It is not part of the fixed idiom.",
+        "descriptionZh": "情態動詞用來保留可能性、預測或不確定程度，並不是慣用語的固定部分。",
+        "examples": [
+          {
+            "en": "Priya may set her heart on studying abroad.",
+            "zh": "Priya 可能會一心想到外地讀書。",
+            "highlight": "set her heart on"
+          },
+          {
+            "en": "You could set your heart on a course that is difficult to enter.",
+            "zh": "你可能會一心想修讀一個很難入讀的課程。",
+            "highlight": "set your heart on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After “Seem” or “Appear”",
+        "titleZh": "句式五：接於 seem 或 appear 後",
+        "formula": "Subject + seem/appear + to have set + possessive + heart/hearts + on + noun/-ing.",
+        "descriptionEn": "This pattern reports an impression rather than a confirmed fact.",
+        "descriptionZh": "這個句式表示說話者的觀察或推測，而不是已確認的事實。",
+        "examples": [
+          {
+            "en": "She seems to have set her heart on moving to Vancouver.",
+            "zh": "她似乎已一心想搬到溫哥華。",
+            "highlight": "set her heart on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Negative Form",
+        "titleZh": "句式六：否定形式",
+        "formula": "Subject + has/have not + set + possessive + heart/hearts + on + noun/-ing.",
+        "descriptionEn": "Source grammar frame: Subject + has/have not + set + possessive + heart/hearts + on + noun/-ing.",
+        "descriptionZh": "原檔列出的句法框架：Subject + has/have not + set + possessive + heart/hearts + on + noun/-ing。",
+        "examples": [
+          {
+            "en": "I have not set my heart on one particular laptop yet.",
+            "zh": "我仍未一心認定要買某一部手提電腦。",
+            "highlight": "set my heart on"
+          },
+          {
+            "en": "Do not set your heart on one house too soon.",
+            "zh": "不要過早一心認定只買某一間房屋。",
+            "highlight": "set your heart on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Question Form",
+        "titleZh": "句式七：疑問形式",
+        "formula": "Have/Has + subject + set + possessive + heart/hearts + on + noun/-ing?",
+        "descriptionEn": "Source grammar frame: Have/Has + subject + set + possessive + heart/hearts + on + noun/-ing?.",
+        "descriptionZh": "原檔列出的句法框架：Have/Has + subject + set + possessive + heart/hearts + on + noun/-ing?。",
+        "examples": [
+          {
+            "en": "Have you set your heart on the London job?",
+            "zh": "你是否已一心想得到倫敦的那份工作？",
+            "highlight": "set your heart on"
+          },
+          {
+            "en": "Why has Ben set his heart on that flat?",
+            "zh": "為甚麼一心想要那個單位？",
+            "highlight": "set his heart on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Inside a Relative Clause",
+        "titleZh": "句式八：置於關係子句內",
+        "formula": "Noun + subject + had set + possessive + heart + on + verb...",
+        "descriptionEn": "Here, the desired object appears before the idiom because it is the head of the relative clause.",
+        "descriptionZh": "在這個句式中，渴望得到的事物會出現在慣用語前面，因為它是關係子句所修飾的名詞。",
+        "examples": [
+          {
+            "en": "The course Alex had set his heart on was already full.",
+            "zh": "一心想修讀的課程已經滿額。",
+            "highlight": "set his heart on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "“What” Clause or Cleft Structure",
+        "titleZh": "句式九：what 子句或分裂句",
+        "formula": "What + subject + had set + possessive + heart/hearts + on + was + goal.",
+        "descriptionEn": "These structures move the target expression away from one predictable sentence position.",
+        "descriptionZh": "這些句式可以把慣用語放在不同位置，避免答案全部採用相同排列。",
+        "examples": [
+          {
+            "en": "What Hannah had set her heart on was singing at the school concert.",
+            "zh": "一心想做的事，就是在學校音樂會上唱歌。",
+            "highlight": "set her heart on"
+          },
+          {
+            "en": "It was a camera that Freya had set her heart on.",
+            "zh": "一心想要的正是一部相機。",
+            "highlight": "set her heart on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Inside a Time, Reason, Contrast or Condition Clause",
+        "titleZh": "句式十：置於時間、原因、讓步或條件子句內",
+        "formula": "set one’s heart on",
+        "descriptionEn": "The opening clauses are optional grammatical extensions. The core idiom remains set one’s heart on.",
+        "descriptionZh": "開首子句只是按語境加入的句法延伸； 核心慣用語仍然是 set one’s heart on。",
+        "examples": [
+          {
+            "en": "If you set your heart on the beach house, you will need to save for years.",
+            "zh": "如果你一心想買那間海邊房屋，你便需要儲蓄多年。",
+            "highlight": "set your heart on"
+          },
+          {
+            "en": "Although Lena had set her heart on the violin, she accepted that it was too expensive.",
+            "zh": "雖然 Lena 一心想要那部小提琴，但她接受了它實在太昂貴。",
+            "highlight": "set her heart on"
+          },
+          {
+            "en": "Since Kai has set his heart on representing the school, he practises every day.",
+            "zh": "由於 Kai 一心想代表學校參賽，他每天都練習。",
+            "highlight": "set his heart on"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses More Than an Ordinary Preference",
+        "titleZh": "比一般喜好更強烈",
+        "en": "The idiomatic version shows that this particular bicycle has become emotionally important to Sophie.",
+        "zh": "慣用語版本表示這輛特定的單車已經成為 Sophie 十分重視的目標。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Connects Desire with One Clear Goal",
+        "titleZh": "把強烈願望與特定目標連繫起來",
+        "en": "a career; a journey; a personal achievement.",
+        "zh": "這個表達可以清楚指出某人最想得到、做到或達成的特定目標。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Explains Refusal of Other Options",
+        "titleZh": "解釋為何拒絕其他選擇",
+        "en": "The idiom explains why other choices no longer seem attractive.",
+        "zh": "一心認定要那個角落單位，因此拒絕考慮其他單位。 這個慣用語可以解釋為何其他選擇已無法吸引當事人。",
+        "examples": [
+          {
+            "en": "Daniel had set his heart on the corner flat, so he refused to view the others.",
+            "zh": "一心認定要那個角落單位，因此拒絕考慮其他單位。",
+            "highlight": "set his heart on"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Helps Explain Disappointment",
+        "titleZh": "有助解釋強烈失望",
+        "en": "Because the desire was strong, the disappointing result becomes easier to understand.",
+        "zh": "一心想修讀的課程已經滿額。 由於原本的期望十分強烈，讀者便更容易理解當事人的失望。",
+        "examples": [
+          {
+            "en": "The course Alex had set his heart on was already full.",
+            "zh": "一心想修讀的課程已經滿額。",
+            "highlight": "set his heart on"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Works in Several Sentence Positions",
+        "titleZh": "可用於不同句子位置",
+        "en": "near the beginning; after an opening time phrase; inside a relative clause; inside a what-clause; inside a question; near the end of a longer sentence.",
+        "zh": "這個表達可以自然地出現在多種句子位置，不需要每次都採用相同的主語開首句式。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Can Express Advice or Caution",
+        "titleZh": "可以用來提出提醒",
+        "en": "This warns somebody not to become emotionally committed too early. Model Examples Sophie wants the red bicycle more than anything else. Ethan has decided that becoming a pilot is the only career he truly wants. The course Alex wanted more than all the others was already full.",
+        "zh": "在銀行批准貸款前，不要一心認定只買某一間房屋。 這種說法提醒別人不要過早在感情上投入一個仍未確定的結果。 Model Examples 示範例子 Model 1: Noun Complement 最想得到那輛紅色單車。 已一心認定要得到那輛紅色單車。 已決定，成為機師是他唯一真正想從事的職業。 已立志要成為機師。 最想修讀的課程已經滿額。 一心想修讀的課程已經滿額。",
+        "examples": [
+          {
+            "en": "Do not set your heart on one house before the bank approves the loan.",
+            "zh": "在銀行批准貸款前，不要一心認定只買某一間房屋。",
+            "highlight": "set your heart on"
+          },
+          {
+            "en": "Sophie has set her heart on the red bicycle.",
+            "zh": "已一心認定要得到那輛紅色單車。",
+            "highlight": "set her heart on"
+          },
+          {
+            "en": "Ethan has set his heart on becoming a pilot.",
+            "zh": "已立志要成為機師。",
+            "highlight": "set his heart on"
+          },
+          {
+            "en": "The course Alex had set his heart on was already full.",
+            "zh": "一心想修讀的課程已經滿額。",
+            "highlight": "set his heart on"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, the expression means fixing one’s strongest desire on a particular object, experience or achievement.",
+          "zh": "今天，這個表達表示把自己最強烈的願望集中在一個特定物件、經歷或目標上。"
+        }
+      ],
+      "memoryEn": "When your heart is “set” in one direction, that goal has become the thing you want most.",
+      "memoryZh": "當你的「心」被固定在一個方向時，那個目標便成為你最想得到或達成的事物。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "The Desire Must Be Strong",
+        "titleZh": "最想得到那輛紅色單車",
+        "en": "Sophie wants the red bicycle more than anything else. Sophie quite likes the red bicycle.",
+        "zh": "最想得到那輛紅色單車。 頗喜歡那輛紅色單車。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "The Goal Must Be Identified",
+        "titleZh": "規則二",
+        "en": "The Goal Must Be Identified",
+        "zh": "規則二",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Keep “On”",
+        "titleZh": "規則三",
+        "en": "Keep “On”",
+        "zh": "規則三",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use an -ing Form for an Action",
+        "titleZh": "規則四",
+        "en": "Use an -ing Form for an Action",
+        "zh": "規則四",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Match the Possessive",
+        "titleZh": "規則五",
+        "en": "Match the Possessive",
+        "zh": "規則五",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則六",
+        "en": "Preserve Tense and Certainty",
+        "zh": "規則六",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Add Determination That the Source Does Not Support",
+        "titleZh": "規則七",
+        "en": "Do Not Add Determination That the Source Does Not Support",
+        "zh": "規則七",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Repeat the Same Meaning",
+        "titleZh": "規則八",
+        "en": "Do Not Repeat the Same Meaning",
+        "zh": "規則八",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve Independent Information",
+        "titleZh": "規則九",
+        "en": "Preserve Independent Information",
+        "zh": "規則九",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Use It for Every Decision",
+        "titleZh": "規則十",
+        "en": "Do Not Use It for Every Decision",
+        "zh": "規則十",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Romantic Uses Are Not Included",
+        "titleZh": "規則十一",
+        "en": "The expression can sometimes refer to romantic desire, but this exercise teaches only goals, possessions, experiences, courses and careers.",
+        "zh": "本練習只教授與目標、物件、經歷、課程及職業有關的用法，不包括感情關係的語境。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Confuse It with “Set Your Mind On”",
+        "titleZh": "規則十二",
+        "en": "Do Not Confuse It with “Set Your Mind On”",
+        "zh": "規則十二",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "The first word of each canonical answer has been provided.",
+      "zh": "使用 set one’s heart on 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-135-q01",
+        "number": 1,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Sophie wants the red bicycle more than anything else.",
+        "promptZh": "Sophie 最想得到那輛紅色單車。",
+        "starter": "Sophie",
+        "answer": "Sophie has set her heart on the red bicycle.",
+        "answerZh": "Sophie 已一心認定要得到那輛紅色單車。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q02",
+        "number": 2,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Ethan decided that becoming a pilot was the only career he truly wanted.",
+        "promptZh": "Ethan 決定，成為機師是他唯一真正想從事的職業。",
+        "starter": "Ethan",
+        "answer": "Ethan set his heart on becoming a pilot.",
+        "answerZh": "Ethan 立志要成為機師。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q03",
+        "number": 3,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Grace wants to study in Edinburgh very much and would be deeply disappointed if she could not.",
+        "promptZh": "Grace 非常渴望在愛丁堡讀書；如果無法成事，她會十分失望。",
+        "starter": "Grace",
+        "answer": "Grace has set her heart on studying in Edinburgh.",
+        "answerZh": "Grace 一心想到愛丁堡讀書。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q04",
+        "number": 4,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Daniel wanted the corner flat and refused to consider any of the others.",
+        "promptZh": "Daniel 一心想要那個角落單位，並拒絕考慮其他單位。",
+        "starter": "Daniel",
+        "answer": "Daniel had set his heart on the corner flat.",
+        "answerZh": "Daniel 當時已一心認定要那個角落單位。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q05",
+        "number": 5,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "I want the blue coat more than all the other coats in the shop.",
+        "promptZh": "在店內所有外套之中，我最想要那件藍色外套。",
+        "starter": "I",
+        "answer": "I have set my heart on the blue coat.",
+        "answerZh": "我已一心認定要那件藍色外套。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set my heart on"
+      },
+      {
+        "id": "idiom-135-q06",
+        "number": 6,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The children want to win the school cup more than anything else.",
+        "promptZh": "孩子們最想贏得學校獎盃。",
+        "starter": "The",
+        "answer": "The children have set their hearts on winning the school cup.",
+        "answerZh": "孩子們一心想贏得學校獎盃。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set their hearts on"
+      },
+      {
+        "id": "idiom-135-q07",
+        "number": 7,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Ava’s greatest wish is to own a small dog.",
+        "promptZh": "Ava 最大的願望是養一隻小狗。",
+        "starter": "Ava",
+        "answer": "Ava has set her heart on owning a small dog.",
+        "answerZh": "Ava 一心想養一隻小狗。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q08",
+        "number": 8,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Noah had wanted the guitar in the shop window for several months.",
+        "promptZh": "Noah 已經渴望得到櫥窗內的結他好幾個月。",
+        "starter": "Noah",
+        "answer": "Noah had set his heart on the guitar in the shop window.",
+        "answerZh": "Noah 當時已一心想得到櫥窗內的結他。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q09",
+        "number": 9,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "I am determined to learn Italian and think about this goal every day.",
+        "promptZh": "我立志學習意大利語，而且每天都想着這個目標。",
+        "starter": "I",
+        "answer": "I have set my heart on learning Italian.",
+        "answerZh": "我已立志學習意大利語。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set my heart on"
+      },
+      {
+        "id": "idiom-135-q10",
+        "number": 10,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Her one great wish was to work with animals.",
+        "promptZh": "她最大的願望就是從事與動物有關的工作。",
+        "starter": "Working",
+        "answer": "Working with animals was what she had set her heart on.",
+        "answerZh": "從事與動物有關的工作，就是她當時最大的願望。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q11",
+        "number": 11,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "For years, Chloe had dreamt of opening her own bakery and regarded it as her main goal.",
+        "promptZh": "多年來，Chloe 一直夢想開設自己的麵包店，並把它視為主要目標。",
+        "starter": "For",
+        "answer": "For years, Chloe had set her heart on opening her own bakery.",
+        "answerZh": "多年來，Chloe 一直一心想開設自己的麵包店。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q12",
+        "number": 12,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "By the age of fourteen, Oliver had decided that becoming a chef was what he wanted most.",
+        "promptZh": "Oliver 十四歲時已經決定，成為廚師是他最想實現的目標。",
+        "starter": "By",
+        "answer": "By the age of fourteen, Oliver had set his heart on becoming a chef.",
+        "answerZh": "Oliver 十四歲時已立志要成為廚師。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q13",
+        "number": 13,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Marcus may decide that the science course is the only course he truly wants.",
+        "promptZh": "Marcus 可能會認定，理科課程是他唯一真正想修讀的課程。",
+        "starter": "Marcus",
+        "answer": "Marcus may set his heart on the science course.",
+        "answerZh": "Marcus 可能會一心想修讀理科課程。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q14",
+        "number": 14,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "People say that Nora wants the leading role more than any of the other parts.",
+        "promptZh": "大家都說，Nora 最想得到主角一角。",
+        "starter": "Apparently",
+        "answer": "Apparently, Nora has set her heart on the leading role.",
+        "answerZh": "看來 Nora 已一心想得到主角一角。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q15",
+        "number": 15,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "If you decide that the beach house is the only house you really want, you will need to save for years.",
+        "promptZh": "如果你認定海邊的房屋是你唯一真正想買的房屋，你便需要儲蓄多年。",
+        "starter": "If",
+        "answer": "If you set your heart on the beach house, you will need to save for years.",
+        "answerZh": "如果你一心想買那間海邊房屋，你便需要儲蓄多年。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set your heart on"
+      },
+      {
+        "id": "idiom-135-q16",
+        "number": 16,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The players want to reach the final more than they want to achieve any other goal this year.",
+        "promptZh": "在今年所有目標之中，球員們最希望打入決賽。",
+        "starter": "The",
+        "answer": "The players have set their hearts on reaching the final.",
+        "answerZh": "球員們一心想打入決賽。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set their hearts on"
+      },
+      {
+        "id": "idiom-135-q17",
+        "number": 17,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "After seeing the art school, Leo decided that it was the only place where he wanted to study.",
+        "promptZh": "Leo 參觀那間藝術學校後，認定那是他唯一想入讀的地方。",
+        "starter": "After",
+        "answer": "After seeing the art school, Leo set his heart on studying there.",
+        "answerZh": "Leo 參觀那間藝術學校後，便一心想在那裏讀書。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Our daughter wants a piano more than any other birthday present.",
+        "promptZh": "在所有生日禮物之中，我們的女兒最想得到一部鋼琴。",
+        "starter": "Our",
+        "answer": "Our daughter has set her heart on getting a piano for her birthday.",
+        "answerZh": "我們的女兒一心想在生日得到一部鋼琴。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q19",
+        "number": 19,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Is it possible that Priya will decide that studying abroad is what she wants most?",
+        "promptZh": "Priya 有沒有可能認定，到外地讀書是她最想實現的目標？",
+        "starter": "Could",
+        "answer": "Could Priya set her heart on studying abroad?",
+        "answerZh": "Priya 有沒有可能一心想到外地讀書？",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q20",
+        "number": 20,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Although the twins know it will be difficult, they are determined to open their own café.",
+        "promptZh": "雖然這對雙胞胎知道事情會很困難，但他們一心想開設自己的咖啡店。",
+        "starter": "Although",
+        "answer": "Although they know it will be difficult, the twins have set their hearts on opening their own café.",
+        "answerZh": "雖然這對雙胞胎知道事情會很困難，但他們仍一心想開設自己的咖啡店。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set their hearts on"
+      },
+      {
+        "id": "idiom-135-q21",
+        "number": 21,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Are you considering several different courses? B: No. Graphic design is the only course I truly want.",
+        "promptZh": "甲：你正在考慮幾個不同的課程嗎？ 乙：不是。平面設計是我唯一真正想修讀的課程。",
+        "starter": "No",
+        "answer": "No, I have set my heart on the graphic design course.",
+        "answerZh": "不是，我已一心認定要修讀平面設計課程。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set my heart on"
+      },
+      {
+        "id": "idiom-135-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Ella refuses to consider every other dress and keeps talking about the green one.",
+        "promptZh": "Ella 拒絕考慮其他連身裙，而且不斷談論那條綠色連身裙。",
+        "starter": "Ella",
+        "answer": "Ella has set her heart on the green dress.",
+        "answerZh": "Ella 已一心認定要那條綠色連身裙。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q23",
+        "number": 23,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Do you want the London job so much that none of the other offers interests you?",
+        "promptZh": "你是否非常想得到倫敦的工作，以致其他工作機會都無法吸引你？",
+        "starter": "Have",
+        "answer": "Have you set your heart on the London job?",
+        "answerZh": "你是否已一心想得到倫敦的那份工作？",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set your heart on"
+      },
+      {
+        "id": "idiom-135-q24",
+        "number": 24,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Why is Ben refusing to view other flats? He wants the one near the park very much.",
+        "promptZh": "Ben 為甚麼拒絕參觀其他單位？他非常想要公園附近的那個單位。",
+        "starter": "Why",
+        "answer": "Why has Ben set his heart on the flat near the park?",
+        "answerZh": "Ben 為甚麼一心想要公園附近的那個單位？",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q25",
+        "number": 25,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The only thing Freya really wanted for her birthday was a camera.",
+        "promptZh": "Freya 生日最想得到的東西，就是一部相機。",
+        "starter": "It",
+        "answer": "It was a camera that Freya had set her heart on for her birthday.",
+        "answerZh": "Freya 生日一心想要的正是一部相機。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q26",
+        "number": 26,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Hannah’s strongest wish was to sing at the school concert.",
+        "promptZh": "Hannah 最大的願望，就是在學校音樂會上唱歌。",
+        "starter": "What",
+        "answer": "What Hannah had set her heart on was singing at the school concert.",
+        "answerZh": "Hannah 一心想做的事，就是在學校音樂會上唱歌。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q27",
+        "number": 27,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Sam wanted to become a nurse more than he wanted any other career. After making that decision, he worked harder in science.",
+        "promptZh": "在所有職業之中，Sam 最想成為護士。作出這個決定後，他更加努力學習科學。",
+        "starter": "Once",
+        "answer": "Once Sam had set his heart on becoming a nurse, he worked harder in science.",
+        "answerZh": "Sam 一心認定要成為護士後，便更加努力學習科學。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q28",
+        "number": 28,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Priya wanted the blue room so much that she was very upset when it was given to somebody else.",
+        "promptZh": "Priya 非常想要那間藍色房間，因此房間被分配給別人時，她十分難過。",
+        "starter": "Priya",
+        "answer": "Priya had set her heart on the blue room, so she was very upset when it was given to somebody else.",
+        "answerZh": "Priya 當時一心想要那間藍色房間，因此房間被分配給別人時，她十分難過。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q29",
+        "number": 29,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A holiday in Japan was the trip the family wanted more than any other.",
+        "promptZh": "到日本度假是這家人最想進行的旅行。",
+        "starter": "The",
+        "answer": "The family had set their hearts on a holiday in Japan.",
+        "answerZh": "這家人當時一心想到日本度假。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set their hearts on"
+      },
+      {
+        "id": "idiom-135-q30",
+        "number": 30,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "I do not want one particular laptop more than all the others yet; I am still comparing them.",
+        "promptZh": "我還未特別認定要買某一部手提電腦；我仍在比較不同選擇。",
+        "starter": "I",
+        "answer": "I have not set my heart on one particular laptop yet.",
+        "answerZh": "我仍未一心認定要買某一部手提電腦。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set my heart on"
+      },
+      {
+        "id": "idiom-135-q31",
+        "number": 31,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The course Alex wanted more than all the other courses was already full.",
+        "promptZh": "Alex 最想修讀的課程已經滿額。",
+        "starter": "The",
+        "answer": "The course Alex had set his heart on was already full.",
+        "answerZh": "Alex 一心想修讀的課程已經滿額。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q32",
+        "number": 32,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Although Lena wanted the violin more than anything, she accepted that it was too expensive.",
+        "promptZh": "雖然 Lena 最想得到那部小提琴，但她接受了它實在太昂貴。",
+        "starter": "Although",
+        "answer": "Although Lena had set her heart on the violin, she accepted that it was too expensive.",
+        "answerZh": "雖然 Lena 一心想要那部小提琴，但她接受了它實在太昂貴。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q33",
+        "number": 33,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Do not become too emotionally attached to one house before the bank approves your loan.",
+        "promptZh": "在銀行批准貸款前，不要過早一心認定只買某一間房屋。",
+        "starter": "Do",
+        "answer": "Do not set your heart on one house before the bank approves your loan.",
+        "answerZh": "在銀行批准貸款前，不要過早一心認定只買某一間房屋。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set your heart on"
+      },
+      {
+        "id": "idiom-135-q34",
+        "number": 34,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Kai wants to represent the school more than anything, so he practises every day.",
+        "promptZh": "Kai 最想代表學校參賽，因此每天都練習。",
+        "starter": "Since",
+        "answer": "Since Kai has set his heart on representing the school, he practises every day.",
+        "answerZh": "由於 Kai 一心想代表學校參賽，他每天都練習。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q35",
+        "number": 35,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Her parents realised that Ruby’s one great wish was to study music.",
+        "promptZh": "Ruby 的父母明白，她最大的願望就是修讀音樂。",
+        "starter": "Her",
+        "answer": "Her parents realised that Ruby had set her heart on studying music.",
+        "answerZh": "Ruby 的父母明白，她已一心想修讀音樂。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q36",
+        "number": 36,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Nothing could make Elias consider another career after he had decided that becoming an engineer was what he wanted most.",
+        "promptZh": "Elias 認定成為工程師是自己最想實現的目標後，沒有任何事情可以令他考慮其他職業。",
+        "starter": "Nothing",
+        "answer": "Nothing could make Elias consider another career once he had set his heart on becoming an engineer.",
+        "answerZh": "Elias 一心認定要成為工程師後，沒有任何事情可以令他考慮其他職業。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Zoe had strongly wanted to study at a university in Scotland, but she later chose a university closer to home.",
+        "promptZh": "Zoe 原本非常希望到蘇格蘭的大學讀書，但後來選擇了離家較近的大學。",
+        "starter": "Before",
+        "answer": "Before choosing a university closer to home, Zoe had set her heart on studying in Scotland.",
+        "answerZh": "在選擇離家較近的大學前，Zoe 原本一心想到蘇格蘭讀書。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q38",
+        "number": 38,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The necklace Clara wanted more than all the others was sold before she returned to the shop.",
+        "promptZh": "Clara 最想得到的頸鏈，在她返回店舖前已經售出。",
+        "starter": "The",
+        "answer": "The necklace Clara had set her heart on was sold before she returned to the shop.",
+        "answerZh": "Clara 一心想得到的頸鏈，在她返回店舖前已經售出。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q39",
+        "number": 39,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The job pays less than the other jobs, but Omar wants it most because it would allow him to help children.",
+        "promptZh": "這份工作的薪金比其他工作低，但 Omar 最想得到它，因為這份工作可以讓他幫助兒童。",
+        "starter": "Even",
+        "answer": "Even though it pays less, Omar has set his heart on the job because it would allow him to help children.",
+        "answerZh": "雖然這份工作的薪金較低，但 Omar 仍一心想得到它，因為這份工作可以讓他幫助兒童。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q40",
+        "number": 40,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The one thing the class really wanted was a trip to the science museum.",
+        "promptZh": "全班最希望得到的安排，就是前往科學博物館參觀。",
+        "starter": "What",
+        "answer": "What the class had set their hearts on was a trip to the science museum.",
+        "answerZh": "全班最希望得到的安排，就是前往科學博物館參觀。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set their hearts on"
+      },
+      {
+        "id": "idiom-135-q41",
+        "number": 41,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Her detailed plans and daily practice made it clear that Keira wanted to become a professional dancer more than anything.",
+        "promptZh": "Keira 詳細的計劃及每天的練習清楚顯示，成為專業舞蹈員是她最大的願望。",
+        "starter": "It",
+        "answer": "It was clear that Keira had set her heart on becoming a professional dancer.",
+        "answerZh": "很明顯，Keira 已立志要成為專業舞蹈員。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "If the boys decide that winning the boat race matters more than every other goal, they will need to train together.",
+        "promptZh": "如果男孩們認定贏得划艇比賽比其他所有目標都重要，他們便需要一起訓練。",
+        "starter": "If",
+        "answer": "If the boys set their hearts on winning the boat race, they will need to train together.",
+        "answerZh": "如果男孩們一心想贏得划艇比賽，他們便需要一起訓練。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set their hearts on"
+      },
+      {
+        "id": "idiom-135-q43",
+        "number": 43,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The role Jordan wanted more than any other role went to another actor, leaving him deeply disappointed.",
+        "promptZh": "Jordan 最想得到的角色被另一名演員取得，令他非常失望。",
+        "starter": "The",
+        "answer": "The role Jordan had set his heart on went to another actor, leaving him deeply disappointed.",
+        "answerZh": "Jordan 一心想得到的角色被另一名演員取得，令他非常失望。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q44",
+        "number": 44,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Ravi refused three other offers. Only then did we realise that the job in Singapore was the only one he truly wanted.",
+        "promptZh": "Ravi 拒絕了另外三個工作機會。到了那時，我們才明白新加坡的工作是他唯一真正想得到的工作。",
+        "starter": "Only",
+        "answer": "Only after Ravi turned down three other offers did we realise that he had set his heart on the job in Singapore.",
+        "answerZh": "Ravi 拒絕另外三個工作機會後，我們才明白他已一心想得到新加坡的那份工作。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      },
+      {
+        "id": "idiom-135-q45",
+        "number": 45,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "After months of looking, my parents chose the old house by the river because it was the one they wanted above all the others.",
+        "promptZh": "尋找了幾個月後，我的父母選擇了河邊的舊房屋，因為那是他們最想得到的房屋。",
+        "starter": "After",
+        "answer": "After months of looking, my parents set their hearts on the old house by the river.",
+        "answerZh": "尋找了幾個月後，我的父母一心認定要買河邊的舊房屋。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set their hearts on"
+      },
+      {
+        "id": "idiom-135-q46",
+        "number": 46,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Would Chloe be satisfied with a cheaper phone? B: No. She wants the newest model and would be very disappointed with any other one.",
+        "promptZh": "甲：Chloe 會滿足於一部較便宜的電話嗎？ 乙：不會。她最想得到最新型號；如果得到其他型號，她會非常失望。",
+        "starter": "No",
+        "answer": "No. Chloe has set her heart on the newest model.",
+        "answerZh": "不會。Chloe 已一心認定要最新型號。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The scholarship was the goal the two students wanted more than anything, although they knew that only one of them could receive it.",
+        "promptZh": "那項獎學金是兩名學生最想得到的目標，雖然他們知道只有一人可以獲得。",
+        "starter": "The",
+        "answer": "The two students had set their hearts on winning the scholarship, although they knew that only one of them could receive it.",
+        "answerZh": "兩名學生都一心想獲得獎學金，雖然他們知道只有一人可以得到。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set their hearts on"
+      },
+      {
+        "id": "idiom-135-q48",
+        "number": 48,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "She seems determined to move to Vancouver and never talks seriously about living in another city.",
+        "promptZh": "她似乎一心想搬到溫哥華，而且從未認真談及在其他城市居住。",
+        "starter": "She",
+        "answer": "She seems to have set her heart on moving to Vancouver.",
+        "answerZh": "她似乎已一心想搬到溫哥華。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q49",
+        "number": 49,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "What did the customer want so badly that she refused all the other colours? She wanted the green sofa.",
+        "promptZh": "顧客非常想得到甚麼，以致拒絕所有其他顏色？她想要那張綠色梳化。",
+        "starter": "What",
+        "answer": "What the customer had set her heart on was the green sofa.",
+        "answerZh": "顧客一心想得到的，就是那張綠色梳化。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set her heart on"
+      },
+      {
+        "id": "idiom-135-q50",
+        "number": 50,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The young chef knew the competition would be fierce, but he wanted to open his own restaurant more than anything and continued working towards that goal.",
+        "promptZh": "年輕廚師知道競爭會非常激烈，但開設自己的餐廳仍是他最大的願望，而他亦繼續為這個目標努力。",
+        "starter": "Despite",
+        "answer": "Despite knowing the competition would be fierce, the young chef had set his heart on opening his own restaurant and continued working towards that goal.",
+        "answerZh": "儘管知道競爭會非常激烈，年輕廚師仍一心想開設自己的餐廳，並繼續為這個目標努力。",
+        "targetForm": "set one’s heart on",
+        "targetMeaning": "To decide that you want to obtain, achieve or do something very much.",
+        "highlight": "set his heart on"
+      }
+    ]
+  }
+}

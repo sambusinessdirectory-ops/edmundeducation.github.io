@@ -1,0 +1,1299 @@
+{
+  "lesson": {
+    "id": "idiom-68",
+    "order": 68,
+    "slug": "a-black-sheep",
+    "version": "1",
+    "title": "害群之馬／不受接納的成員",
+    "titleEn": "a black sheep",
+    "titleZh": "害群之馬／不受接納的成員",
+    "source": {
+      "file": "Idiom 68 - 「a black sheep」.pdf",
+      "pageCount": 26,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "exercisePdfPages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "answerKeyPdfPages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a black sheep",
+        "highlight": "a black sheep"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Daniel is a black sheep in his family.",
+        "zh": "丹尼爾是家中不受認同的一員。",
+        "highlight": "a black sheep"
+      },
+      {
+        "en": "Daniel is regarded as a black sheep in his family.",
+        "zh": "丹尼爾被視為家中令人蒙羞的一員。",
+        "highlight": "a black sheep"
+      }
+    ],
+    "meaning": {
+      "en": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+      "zh": "指家族、團隊或其他群體中，被其他成員視為名聲不佳、經常惹麻煩、令人難堪或不獲接納的人。",
+      "naturalZh": [
+        "指家族、團隊或其他群體中，被其他成員視為名聲不佳、經常惹麻煩、令人難堪或不獲接納的人。"
+      ]
+    },
+    "register": {
+      "labelEn": "Source-Guided Register",
+      "labelZh": "按原檔語域使用",
+      "summaryEn": "In careful communication, reporting frames such as is regarded as, is seen as or is unfairly treated as make it clear whose judgement is being described.",
+      "summaryZh": "這個慣用語通常帶有負面和批判意味。 直接稱某人為 a black sheep，可能會顯得相當尖銳。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "在較審慎的表達中，可以使用 is regarded as、is seen as 或 is unfairly treated as，清楚說明這是某個家庭或群體對當事人的評價，而不一定是說話者本人的判斷。"
+    },
+    "fixedVariable": {
+      "fixed": "a black sheep",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Person + be + a black sheep + in/within + group.",
+          "example": "Daniel is a black sheep in his family.",
+          "highlight": "a black sheep"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Core Grammar Bank",
+        "titleZh": "核心句式庫",
+        "formula": "Person + be + a black sheep + in/within + group.",
+        "descriptionEn": "Core Grammar Bank. Formula: Person + be + a black sheep + in/within + group.",
+        "descriptionZh": "核心句式庫。 句式：Person + be + a black sheep + in/within + group。",
+        "examples": [
+          {
+            "en": "Daniel is a black sheep in his family.",
+            "zh": "丹尼爾是家中不受認同的一員。",
+            "highlight": "a black sheep"
+          },
+          {
+            "en": "Daniel is regarded as a black sheep in his family.",
+            "zh": "丹尼爾被視為家中令人蒙羞的一員。",
+            "highlight": "a black sheep"
+          },
+          {
+            "en": "Daniel became a black sheep in the club after he was caught cheating.",
+            "zh": "丹尼爾被揭發作弊後，成為俱樂部中的害群之馬。",
+            "highlight": "a black sheep"
+          },
+          {
+            "en": "His dishonest decision made him a black sheep in the organisation.",
+            "zh": "他不誠實的決定令他成為機構中的害群之馬。",
+            "highlight": "a black sheep"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It expresses group rejection concisely",
+        "titleZh": "簡潔表達群體排斥",
+        "en": "Concise version: His relatives regard him as a black sheep.",
+        "zh": "這個慣用語可以把「某人被整個家族或群體視為令人蒙羞的一員」濃縮成一個較短的表達。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It describes social position, not only behaviour",
+        "titleZh": "不只描述行為，也描述群體地位",
+        "en": "The expression tells us both that a person is disapproved of and that the person stands apart from the rest of the group.",
+        "zh": "這個表達不只說明某人曾有不當行為，還會指出對方在群體中受到排斥或不被接納。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It can report an unfair judgement",
+        "titleZh": "可以表達不公平的群體評價",
+        "en": "She is unfairly treated as a black sheep simply because she refused to follow the family tradition.",
+        "zh": "配合 unfairly treated as，可以指出某人沒有真正做錯事，卻因不符合群體期望而受到排斥。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It is useful in stories and personal accounts",
+        "titleZh": "適合用於故事及個人經歷",
+        "en": "The expression can help explain family conflict, group pressure, damaged trust or a person’s feeling of exclusion.",
+        "zh": "這個表達可以用來說明家庭衝突、群體壓力、信任受損或某人感到被排斥的經歷。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It improves understanding of authentic English",
+        "titleZh": "幫助理解真實英語",
+        "en": "Learners may encounter the expression in conversations, films, interviews, news features and personal writing. An idiom is not automatically better than a plain expression. Use a black sheep only when the idea of group disapproval or exclusion is important. Model Examples Model 1: Misconduct Aaron has repeatedly cheated his relatives, so the whole family is ashamed of him. Model 2: Unfair rejection Lily has done nothing wrong, but her relatives reject her because she refuses to join the family business.",
+        "zh": "學生可能會在日常對話、電影、訪問、新聞專題及個人文章中遇到這個表達。 重要提醒： Model Examples 示範例子失當行為亞倫多次欺騙親人，因此全家都以他為恥。 亞倫多次欺騙親人，因此被視為家中令人蒙羞的一員。 不公平排斥莉莉沒有做錯事，但親人因她拒絕加入家族生意而排斥她。 莉莉只因拒絕加入家族生意，便被家人不公平地當成異類。",
+        "examples": [
+          {
+            "en": "Aaron is regarded as a black sheep in his family because he has repeatedly cheated his relatives.",
+            "zh": "亞倫多次欺騙親人，因此被視為家中令人蒙羞的一員。",
+            "highlight": "a black sheep"
+          },
+          {
+            "en": "Lily is unfairly treated as a black sheep in her family because she refuses to join the family business.",
+            "zh": "莉莉只因拒絕加入家族生意，便被家人不公平地當成異類。",
+            "highlight": "a black sheep"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact Path Uncertain",
+      "statusZh": "逐漸形成；確切演變路徑不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "A disapproving figurative use of black sheep is documented as early as 1640. Oxford connects the later established expression with the proverb “There is a black sheep in every flock,” which was in use by the late eighteenth century.",
+          "zh": "早至1640年的文獻，已出現帶有貶義的 black sheep 比喻用法。 Oxford 把後來較固定的表達與 「每個羊群裡都有一隻黑羊」這句諺語連繫起來； 這句諺語在十八世紀末已有人使用。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The unusual sheep gradually became a metaphor for a person whom a family or group regarded as disreputable or embarrassing. In modern English, the label may describe genuine misconduct, but it can also reveal unfair group pressure against a person who is simply different.",
+          "zh": "這隻與其他羊不同的羊，逐漸成為一個比喻，指家族或群體中被視為名聲不佳或令人難堪的人。 現代英語中的這個標籤既可以指真正的失當行為，也可以反映群體只因某人與眾不同而施加的不公平壓力。"
+        }
+      ],
+      "memoryEn": "One unusual sheep stands out in the flock; one disapproved member stands out in the group.",
+      "memoryZh": "一隻與眾不同的羊在羊群中格外顯眼；一名不獲認同的成員也會在群體中被挑出來。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the article a",
+        "titleZh": "當這個慣用語指一個人時，必須保留冠詞 a",
+        "en": "Incorrect: He is black sheep in the family.",
+        "zh": "當這個慣用語指一個人時，必須保留冠詞 a。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do not change sheep to sheeps",
+        "titleZh": "規則二",
+        "en": "Sheep has the same singular and plural form. However, the target taught in this exercise is the fixed singular phrase a black sheep.",
+        "zh": "Sheep 的單數和複數形式相同。 不過，本練習教授的是固定單數短語 a black sheep。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use it for a person within a group",
+        "titleZh": "規則三",
+        "en": "a family; a team; a club; a class; a workplace; an organisation; another recognisable social group.",
+        "zh": "這個表達通常指某個家族、團隊、俱樂部、班別、工作場所或機構中的一名成員。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It does not simply mean “different”",
+        "titleZh": "規則四",
+        "en": "Being quiet, choosing an unusual career, dressing differently or holding a different opinion does not automatically make someone a black sheep.",
+        "zh": "沉默寡言、選擇不常見的職業、衣着與別不同或持有不同意見，並不會自動令一個人成為 a black sheep。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Distinguish misconduct from unfair rejection",
+        "titleZh": "規則五",
+        "en": "Unfair judgement: His relatives unfairly treat him as a black sheep simply because he chose a different way of life.",
+        "zh": "使用這個慣用語時，要分辨當事人是否確實有失當行為，還是只因與眾不同而受到不公平排斥。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Reporting verbs help show perspective",
+        "titleZh": "規則六",
+        "en": "The second and third sentences make the source of the judgement clearer.",
+        "zh": "使用 regards、sees、labels 或 treats 等動詞，可以更清楚指出是誰作出這個評價。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Avoid literal animal contexts",
+        "titleZh": "第一句只是在描述羊的顏色，並不是本課教授的比喻意思",
+        "en": "Idiomatic: The dishonest member is regarded as a black sheep in the club.",
+        "zh": "第一句只是在描述羊的顏色，並不是本課教授的比喻意思。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do not replace the target with a related form",
+        "titleZh": "規則八",
+        "en": "A common related form is the black sheep of the family. It is natural English, but every answer in this exercise must use the exact target a black sheep.",
+        "zh": "the black sheep of the family 是常見的相關形式，但本練習只訓練 a black sheep，因此每題答案都必須使用 a。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Use the label sensitively",
+        "titleZh": "規則九",
+        "en": "It does not describe a person’s race or skin colour.",
+        "zh": "直接把某人稱為 a black sheep 可能會傷害對方。 尤其當一個人沒有做錯事時，不應隨便以此稱呼對方。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Use careful wording in formal situations",
+        "titleZh": "規則十",
+        "en": "The employee is a black sheep.",
+        "zh": "在正式報告中，通常應直接描述具體行為，而不是以帶有主觀判斷的慣用語標籤某人。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Preserve the original actor, event, tense, modality, degree of certainty and speaker attitude. The first word of each preferred answer has been provided.",
+      "zh": "使用確切目標慣用語 a black sheep 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-68-q01",
+        "number": 1,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Daniel’s relatives are ashamed of him because he has repeatedly stolen money from the family.",
+        "promptZh": "丹尼爾多次偷取家人的金錢，因此親人都以他為恥。",
+        "starter": "Daniel",
+        "answer": "Daniel is regarded as a black sheep in his family because he has repeatedly stolen money from them.",
+        "answerZh": "丹尼爾多次偷取家人的金錢，因此被視為家中令人蒙羞的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q02",
+        "number": 2,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Grace is the one member of her family who is well known for causing serious trouble.",
+        "promptZh": "格蕾絲是家中唯一一位因經常闖下大禍而出名的成員。",
+        "starter": "Grace",
+        "answer": "Grace is known as a black sheep in her family because she causes serious trouble.",
+        "answerZh": "格蕾絲經常闖下大禍，因此被視為家中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q03",
+        "number": 3,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Ethan’s dishonest actions have embarrassed everyone in his family.",
+        "promptZh": "伊森的不誠實行為令全家人感到尷尬。",
+        "starter": "Ethan",
+        "answer": "Ethan has become a black sheep in his family because of his dishonest actions.",
+        "answerZh": "伊森因為不誠實的行為，已成為家中令人難堪的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q04",
+        "number": 4,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Chloe is the only player whose bad behaviour has damaged her team’s good name.",
+        "promptZh": "克洛伊是隊中唯一一位因不良行為而損害團隊聲譽的隊員。",
+        "starter": "Chloe",
+        "answer": "Chloe is seen as a black sheep in her team because her bad behaviour has damaged its good name.",
+        "answerZh": "克洛伊的不良行為損害了團隊聲譽，因此被視為隊中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q05",
+        "number": 5,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Robert has broken the law several times, so his relatives no longer trust him.",
+        "promptZh": "羅伯特曾多次違法，因此親人已不再信任他。",
+        "starter": "Robert",
+        "answer": "Robert is now regarded as a black sheep in his family because he has broken the law several times.",
+        "answerZh": "羅伯特曾多次違法，因此現在被家人視為不光彩的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q06",
+        "number": 6,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Every member of the club follows the rules except Leo, whose behaviour keeps embarrassing the others.",
+        "promptZh": "俱樂部所有成員都遵守規則，只有里奧的行為不斷令其他人難堪。",
+        "starter": "Leo",
+        "answer": "Leo is considered a black sheep in the club because his behaviour keeps embarrassing the other members.",
+        "answerZh": "里奧的行為不斷令其他成員難堪，因此被視為俱樂部中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q07",
+        "number": 7,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Anna’s family considers her the one member who has brought shame on them.",
+        "promptZh": "安娜的家人認為，她是家中唯一令全家蒙羞的成員。",
+        "starter": "Anna",
+        "answer": "Anna is considered a black sheep in her family because she has brought shame on them.",
+        "answerZh": "安娜令家人蒙羞，因此被視為家中不光彩的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q08",
+        "number": 8,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The group has one member with a bad reputation because he keeps cheating.",
+        "promptZh": "這個小組有一名成員因屢次作弊而聲名不佳。",
+        "starter": "He",
+        "answer": "He is regarded as a black sheep in the group because he keeps cheating.",
+        "answerZh": "他屢次作弊，因此被視為小組中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q09",
+        "number": 9,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Everyone at the shop is honest except one worker who steals from customers.",
+        "promptZh": "店內所有員工都很誠實，只有一名員工會偷取顧客的財物。",
+        "starter": "That",
+        "answer": "That worker is regarded as a black sheep by the other shop workers because he steals from customers.",
+        "answerZh": "那名員工偷取顧客的財物，因此被其他店員視為害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q10",
+        "number": 10,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Oliver is the family member whom people avoid because his actions often bring shame on the family.",
+        "promptZh": "奧利弗的行為經常令家人蒙羞，因此大家都避開他。",
+        "starter": "Oliver",
+        "answer": "Oliver is treated as a black sheep in his family because his actions often bring shame on them.",
+        "answerZh": "奧利弗的行為經常令家人蒙羞，因此在家中被當成不受接納的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q11",
+        "number": 11,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "At every family gathering, Ryan’s relatives talk about how his gambling has embarrassed them.",
+        "promptZh": "每次家庭聚會，賴恩的親人都會談到他的賭博行為如何令全家難堪。",
+        "starter": "Ryan",
+        "answer": "Ryan is often described as a black sheep in his family because of his gambling.",
+        "answerZh": "賴恩因為賭博，經常被家人形容為家中的不光彩人物。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q12",
+        "number": 12,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "After Helen lied about the charity money, the other volunteers saw her as the member who had damaged their good name.",
+        "promptZh": "海倫在慈善款項一事上說謊後，其他義工認為她損害了大家的聲譽。",
+        "starter": "Helen",
+        "answer": "Helen was regarded as a black sheep in the volunteer group after she lied about the charity money.",
+        "answerZh": "海倫在慈善款項一事上說謊後，被義工團體視為害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q13",
+        "number": 13,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Priya has broken the club’s rules many times, and the other members now see her as a disgrace.",
+        "promptZh": "普麗雅多次違反俱樂部規則，其他成員現在都視她為團體的恥辱。",
+        "starter": "Priya",
+        "answer": "Priya has become a black sheep in the club after breaking its rules many times.",
+        "answerZh": "普麗雅多次違反俱樂部規則，因而成為團體中令人蒙羞的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q14",
+        "number": 14,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "If Marcus continues to lie to customers, his colleagues may begin to see him as the person who damages the team’s reputation.",
+        "promptZh": "如果馬庫斯繼續欺騙顧客，同事可能會開始視他為損害團隊聲譽的人。",
+        "starter": "Marcus",
+        "answer": "Marcus may become a black sheep in the sales team if he continues to lie to customers.",
+        "answerZh": "如果馬庫斯繼續欺騙顧客，他可能會成為銷售團隊中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q15",
+        "number": 15,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "One more dishonest act could make Kevin the family member whom everyone is ashamed of.",
+        "promptZh": "凱文若再有一次不誠實行為，便可能成為令全家人蒙羞的成員。",
+        "starter": "One",
+        "answer": "One more dishonest act could make Kevin a black sheep in his family.",
+        "answerZh": "再有一次不誠實行為，便可能令凱文成為家中令人蒙羞的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q16",
+        "number": 16,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Sophie chose a different career, but she is honest and her family respects her.",
+        "promptZh": "索菲選擇了與家人不同的職業，但她為人誠實，而且家人也尊重她。",
+        "starter": "Sophie",
+        "answer": "Sophie is not a black sheep simply because she chose a different career.",
+        "answerZh": "索菲不會只因選擇了不同的職業，就成為家中不受認同的人。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q17",
+        "number": 17,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: Why does Amir avoid family gatherings? B: His relatives see his repeated fraud as a disgrace to the family.",
+        "promptZh": "甲：阿米爾為甚麼避開家庭聚會？ 乙：他的親人認為，他多次詐騙令全家蒙羞。",
+        "starter": "Amir",
+        "answer": "Amir is treated as a black sheep in his family because of his repeated fraud.",
+        "answerZh": "阿米爾多次詐騙，因此被家人當成令人蒙羞的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q18",
+        "number": 18,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Every player followed the rules except Noah, who was caught cheating.",
+        "promptZh": "所有隊員都遵守規則，只有諾亞被揭發作弊。",
+        "starter": "Noah",
+        "answer": "Noah was regarded as a black sheep in the team after he was caught cheating.",
+        "answerZh": "諾亞被揭發作弊後，被視為球隊中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q19",
+        "number": 19,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The committee believes that one member has damaged the whole group’s reputation by secretly accepting gifts.",
+        "promptZh": "委員會認為，一名成員暗中收受禮物，損害了整個團體的聲譽。",
+        "starter": "The",
+        "answer": "The committee regards that member as a black sheep in the group because he secretly accepted gifts.",
+        "answerZh": "委員會認為該成員暗中收受禮物，因此是團體中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q20",
+        "number": 20,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Does Elena feel welcome at family events? B: No. Her relatives blame her for every scandal and treat her as a disgrace.",
+        "promptZh": "甲：埃琳娜在家庭活動中感到受歡迎嗎？ 乙：不。親人把每宗醜聞都怪在她身上，並把她視為家中的恥辱。",
+        "starter": "No.",
+        "answer": "No. Elena is treated as a black sheep in her family and blamed for every scandal.",
+        "answerZh": "不。埃琳娜在家中被當成不受接納的一員，所有醜聞都被怪在她身上。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q21",
+        "number": 21,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Clara has done nothing wrong, so why do her relatives reject her? B: They think her life as a street artist embarrasses the family.",
+        "promptZh": "甲：克拉拉沒有做錯事，為甚麼親人仍排斥她？ 乙：他們認為她當街頭藝術家的生活方式令家人難堪。",
+        "starter": "Clara",
+        "answer": "Clara is unfairly treated as a black sheep in her family because she is a street artist.",
+        "answerZh": "克拉拉只因為是街頭藝術家，便被家人不公平地當成異類。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q22",
+        "number": 22,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Paul keeps ignoring the safety rules and has already caused two accidents. B: His team may soon see him as the member who brings trouble on everyone.",
+        "promptZh": "甲：保羅不斷無視安全規則，而且已造成兩宗意外。 乙：他的團隊可能很快便會視他為連累大家的人。",
+        "starter": "Paul",
+        "answer": "Paul may soon become a black sheep in the team because he keeps ignoring the safety rules and has already caused two accidents.",
+        "answerZh": "保羅不斷無視安全規則，而且已造成兩宗意外，因此可能很快便會成為團隊中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q23",
+        "number": 23,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The coach said Ben’s repeated cheating had made the whole team look bad.",
+        "promptZh": "教練表示，本多次作弊，令整支球隊的形象受損。",
+        "starter": "The",
+        "answer": "The coach described Ben as a black sheep in the team because of his repeated cheating.",
+        "answerZh": "教練因本多次作弊，而形容他是球隊中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q24",
+        "number": 24,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Nora says her relatives judge her as a disgrace because she left the family business.",
+        "promptZh": "諾拉說，親人因她離開家族生意而把她視為家中的恥辱。",
+        "starter": "Nora",
+        "answer": "Nora says she feels like a black sheep in her family because she left the family business.",
+        "answerZh": "諾拉說，自己因離開家族生意而覺得是家中不受認同的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q25",
+        "number": 25,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Yusuf is quiet and does not join many social events, so he must be the family disgrace. B: No. Being quiet does not make someone bad or shameful.",
+        "promptZh": "甲：優素福沉默寡言，又很少參加社交活動，所以他一定是家中的恥辱。 乙：不是。沉默並不代表一個人不好或令人蒙羞。",
+        "starter": "No.",
+        "answer": "No. Yusuf is not a black sheep just because he is quiet and avoids social events.",
+        "answerZh": "不是。優素福不會只因沉默寡言和避開社交活動，就成為家中不受認同的人。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q26",
+        "number": 26,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Sam stole the ticket money and damaged the band’s reputation.",
+        "promptZh": "森姆偷走門票收入，並損害了樂隊的聲譽。",
+        "starter": "Sam",
+        "answer": "Sam became a black sheep in the band after stealing the ticket money.",
+        "answerZh": "森姆偷走門票收入後，成為樂隊中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q27",
+        "number": 27,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Iris’s repeated arrests embarrass her family, even though her sisters are all trusted teachers.",
+        "promptZh": "艾莉絲多次被捕，令家人難堪；她的姊妹卻全都是受人信任的教師。",
+        "starter": "Although",
+        "answer": "Although her sisters are trusted teachers, Iris is regarded as a black sheep in her family because her repeated arrests embarrass them.",
+        "answerZh": "雖然艾莉絲的姊妹都是受人信任的教師，但她多次被捕，令家人難堪，因此被視為家中不光彩的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q28",
+        "number": 28,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: How do your old classmates remember that boy? B: As the student who always cheated and made the whole class look bad.",
+        "promptZh": "甲：你的舊同學如何記得那個男生？ 乙：他總是作弊，令全班形象受損，大家都這樣記得他。",
+        "starter": "They",
+        "answer": "They remember that boy as a black sheep in their class because he always cheated.",
+        "answerZh": "他們記得那個男生經常作弊，是班中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q29",
+        "number": 29,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "If Zoe keeps sharing private family stories online, her relatives may begin to see her as a disgrace.",
+        "promptZh": "如果佐伊繼續在網上公開家人的私事，親人可能會開始視她為家中的恥辱。",
+        "starter": "Zoe",
+        "answer": "Zoe may become a black sheep in her family if she keeps sharing private family stories online.",
+        "answerZh": "如果佐伊繼續在網上公開家人的私事，她可能會成為家中令人難堪的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q30",
+        "number": 30,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: My uncle says I disgrace the family because I do not want to marry. B: That personal choice alone does not make you bad.",
+        "promptZh": "甲：我的叔父說，我不想結婚，令家人蒙羞。 乙：單憑這個個人選擇，並不代表你是壞人。",
+        "starter": "You",
+        "answer": "You are not a black sheep simply because you do not want to marry.",
+        "answerZh": "你不會只因不想結婚，就成為家中不受認同的人。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q31",
+        "number": 31,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Although Jack is kind to his neighbours, his family still sees him as a disgrace because of his past fraud.",
+        "promptZh": "雖然傑克善待鄰居，但家人仍因他過去的詐騙行為而視他為恥辱。",
+        "starter": "Although",
+        "answer": "Although Jack is kind to his neighbours, he is still regarded as a black sheep in his family because of his past fraud.",
+        "answerZh": "雖然傑克善待鄰居，但家人仍因他過去的詐騙行為而視他為不光彩的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q32",
+        "number": 32,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "One employee secretly sold customer information, and this made him the member who damaged the company’s good name.",
+        "promptZh": "一名員工暗中出售顧客資料，因而成為損害公司聲譽的人。",
+        "starter": "His",
+        "answer": "His decision to sell customer information made him a black sheep in the company.",
+        "answerZh": "他出售顧客資料的決定，令他成為公司中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q33",
+        "number": 33,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "When Aisha was young, her relatives considered her career choice shameful. They now admire her success.",
+        "promptZh": "艾莎年輕時，親人認為她的職業選擇令家人蒙羞；如今，他們卻欣賞她的成就。",
+        "starter": "Aisha",
+        "answer": "Aisha was once treated as a black sheep in her family, but her relatives now admire her success.",
+        "answerZh": "艾莎曾因職業選擇而被家人當成異類，但親人現在已欣賞她的成就。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q34",
+        "number": 34,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The director said one dishonest worker had harmed the organisation but did not represent the rest of the staff.",
+        "promptZh": "主管表示，一名不誠實的員工損害了機構聲譽，但他不能代表其他員工。",
+        "starter": "The",
+        "answer": "The director called the dishonest worker a black sheep in the organisation and said he did not represent the rest of the staff.",
+        "answerZh": "主管稱該名不誠實的員工為機構中的害群之馬，並表示他不能代表其他員工。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q35",
+        "number": 35,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "His brothers are trusted doctors, but he has spent years cheating people. It is easy to understand why his relatives are ashamed of him.",
+        "promptZh": "他的兄弟都是受人信任的醫生，但他多年來一直欺騙別人，難怪親人都以他為恥。",
+        "starter": "Although",
+        "answer": "Although his brothers are trusted doctors, he is regarded as a black sheep in his family because he has spent years cheating people.",
+        "answerZh": "雖然他的兄弟都是受人信任的醫生，但他多年來一直欺騙別人，因此被視為家中令人蒙羞的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q36",
+        "number": 36,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Why does the club refuse to let Dean return? B: He lied about the money and made all the members look dishonest.",
+        "promptZh": "甲：俱樂部為甚麼拒絕讓迪恩回來？ 乙：他在款項問題上說謊，令所有成員看來都不誠實。",
+        "starter": "Dean",
+        "answer": "Dean is regarded as a black sheep in the club because he lied about the money.",
+        "answerZh": "迪恩在款項問題上說謊，因此被視為俱樂部中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q37",
+        "number": 37,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The family still supports Mei, but they may see her as a disgrace if she steals from them again.",
+        "promptZh": "家人目前仍支持美儀，但如果她再次偷取家人的財物，他們可能會視她為恥辱。",
+        "starter": "Although",
+        "answer": "Although her family still supports her, Mei may be regarded as a black sheep in her family if she steals from them again.",
+        "answerZh": "雖然家人目前仍支持美儀，但如果她再次偷取家人的財物，便可能被視為家中令人蒙羞的一員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q38",
+        "number": 38,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Tariq is honest and respected, yet some relatives wrongly treat his unusual ideas as an embarrassment.",
+        "promptZh": "塔里克為人誠實，也受人尊重，但一些親人仍錯誤地把他的非傳統想法視為家人的尷尬。",
+        "starter": "Although",
+        "answer": "Although Tariq is honest and respected, some relatives unfairly label him a black sheep in his family.",
+        "answerZh": "雖然塔里克為人誠實並受人尊重，但一些親人仍不公平地把他標籤為家中的異類。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q39",
+        "number": 39,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The new student dresses differently, but she has not harmed the group or embarrassed anyone.",
+        "promptZh": "這名新生的衣着與別不同，但她沒有傷害團體，也沒有令任何人難堪。",
+        "starter": "The",
+        "answer": "The new student should not be treated as a black sheep merely because she dresses differently.",
+        "answerZh": "這名新生不應只因衣着與別不同，便被當成團體中不受接納的人。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q40",
+        "number": 40,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "For years, Ella’s relatives blamed her for every family argument. Later, they admitted that they had judged her unfairly.",
+        "promptZh": "多年來，埃拉的親人把每次家庭爭執都怪在她身上；後來，他們承認自己一直不公平地批評她。",
+        "starter": "Ella",
+        "answer": "Ella had been treated as a black sheep in her family for years before her relatives admitted that they had judged her unfairly.",
+        "answerZh": "埃拉多年來一直被家人當成異類，直至親人承認自己一直不公平地批評她。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q41",
+        "number": 41,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Most officers followed the rules, but one accepted secret payments and damaged public trust in the department.",
+        "promptZh": "大部分人員都遵守規則，但其中一人收受秘密款項，損害了公眾對部門的信任。",
+        "starter": "Although",
+        "answer": "Although most officers followed the rules, one officer became a black sheep in the department after accepting secret payments.",
+        "answerZh": "雖然大部分人員都遵守規則，但其中一人收受秘密款項後，成為部門中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q42",
+        "number": 42,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Rina’s relatives call her a disgrace because she moved abroad. B: Moving abroad is not shameful; they simply dislike her choice.",
+        "promptZh": "甲：里娜的親人因她移居外地而稱她為家中的恥辱。 乙：移居外地並不可恥；他們只是不喜歡她的選擇。",
+        "starter": "Rina",
+        "answer": "Rina is not a black sheep simply because she moved abroad; her relatives merely dislike her choice.",
+        "answerZh": "里娜不會只因移居外地，就成為家中不受認同的人；她的親人只是不喜歡她的選擇。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q43",
+        "number": 43,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A journalist said the footballer could become a disgrace to the team if the claims that he cheated were proved.",
+        "promptZh": "一名記者表示，如果有關該足球員作弊的指控得到證實，他可能會令球隊蒙羞。",
+        "starter": "A",
+        "answer": "A journalist said the footballer could become a black sheep in the team if the cheating claims were proved.",
+        "answerZh": "一名記者表示，如果作弊指控得到證實，該足球員可能會成為球隊中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q44",
+        "number": 44,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Everyone in the restaurant worked hard to build trust, but one manager secretly changed customers’ bills and harmed its reputation.",
+        "promptZh": "餐廳所有人都努力建立信譽，但一名經理暗中更改顧客帳單，損害了餐廳聲譽。",
+        "starter": "Although",
+        "answer": "Although everyone else in the restaurant worked hard to build trust, the manager became a black sheep there by secretly changing customers’ bills.",
+        "answerZh": "雖然餐廳其他人都努力建立信譽，但該經理暗中更改顧客帳單，因而成為餐廳中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q45",
+        "number": 45,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A volunteer used the charity’s money for himself. The charity explained that he had disgraced the organisation but did not represent its other workers.",
+        "promptZh": "一名義工把慈善機構的款項據為己有。機構解釋，他令組織蒙羞，但不能代表其他工作人員。",
+        "starter": "The",
+        "answer": "The charity described the volunteer as a black sheep in the organisation and said he did not represent its other workers.",
+        "answerZh": "慈善機構形容該義工是組織中的害群之馬，並表示他不能代表其他工作人員。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q46",
+        "number": 46,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Lana’s family calls her a disgrace for becoming a musician, although she believes their judgement is unfair.",
+        "promptZh": "拉娜的家人因她成為音樂人而視她為家中的恥辱，但她認為這個評價並不公平。",
+        "starter": "Although",
+        "answer": "Although Lana is treated as a black sheep in her family for becoming a musician, she believes their judgement is unfair.",
+        "answerZh": "雖然拉娜因成為音樂人而被家人當成異類，但她認為這個評價並不公平。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q47",
+        "number": 47,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: The new worker disagreed with the manager once, so he must be the team’s disgrace. B: No. One disagreement does not make a person bad or shameful.",
+        "promptZh": "甲：新員工曾反對經理一次，所以他一定是團隊的恥辱。 乙：不是。一次意見分歧並不會令一個人成為壞人或令人蒙羞。",
+        "starter": "No.",
+        "answer": "No. A single disagreement does not make the new worker a black sheep in the team.",
+        "answerZh": "不是。一次意見分歧不會令新員工成為團隊中不受認同的人。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q48",
+        "number": 48,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Several members say Victor lies to clients. If the leaders confirm this, they may see him as the person who has damaged the whole group.",
+        "promptZh": "幾名成員表示，維克托向客戶說謊。如果領導證實此事，他們可能會視他為損害整個團體的人。",
+        "starter": "If",
+        "answer": "If the leaders confirm that Victor lies to clients, he may be regarded as a black sheep in the group.",
+        "answerZh": "如果領導證實維克托向客戶說謊，他可能會被視為團體中的害群之馬。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q49",
+        "number": 49,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The school said that one student who kept bullying others did not represent the rest of the year group.",
+        "promptZh": "學校表示，一名不斷欺凌他人的學生不能代表同級其他學生。",
+        "starter": "The",
+        "answer": "The school views the bully as a black sheep within the year group, not as a fair example of the other students.",
+        "answerZh": "學校視該名欺凌者為同級學生中的害群之馬，而不是其他學生的代表。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      },
+      {
+        "id": "idiom-68-q50",
+        "number": 50,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The son had committed crimes for years, so his relatives kept their distance. The reason became clear only after the crimes became public.",
+        "promptZh": "兒子多年來一直犯罪，因此親人與他保持距離。直至罪行公開後，原因才真正明朗。",
+        "starter": "The",
+        "answer": "The son had long been treated as a black sheep in his family, but the reason became clear only after his crimes became public.",
+        "answerZh": "兒子長久以來一直被家人當成令人蒙羞的一員，但直至他的罪行公開後，原因才真正明朗。",
+        "targetForm": "a black sheep",
+        "targetMeaning": "Sometimes the person has genuinely behaved badly. In other situations, the label may simply show that the group unfairly disapproves of someone who is different.",
+        "highlight": "a black sheep"
+      }
+    ]
+  }
+}

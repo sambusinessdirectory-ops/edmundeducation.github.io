@@ -4,9 +4,9 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const lessonDirectory = new URL("sentence-structure-lessons/", import.meta.url);
-const outputUrl = new URL("sentence-structure-lessons-5-275.js", root);
+const outputUrl = new URL("sentence-structure-lessons-5-345.js", root);
 const FIRST_LESSON = 5;
-const LAST_LESSON = 275;
+const LAST_LESSON = 345;
 const QUESTIONS_PER_LESSON = 50;
 const REQUIRED_QUESTION_FIELDS = [
   "id",
@@ -69,7 +69,7 @@ function validateBilingualItems(lesson, field, { requireProvenance = false } = {
     requireCondition(normalText(item?.zh), `${lesson.id}: ${field}[${index}].zh is missing`);
     if (requireProvenance) {
       requireCondition(
-        ["pdf", "editorial-translation"].includes(item?.enSource),
+        ["pdf", "editorial-translation", "pdf-with-editorial-clarification"].includes(item?.enSource),
         `${lesson.id}: ${field}[${index}].enSource is missing or invalid`
       );
       requireCondition(
@@ -292,7 +292,7 @@ for (let number = FIRST_LESSON; number <= LAST_LESSON; number += 1) {
   lessons.push(validateLesson(lesson, number));
 }
 
-const output = `// Generated from tools/sentence-structure-lessons/ss05.json through ss275.json.\n`
+const output = `// Generated from tools/sentence-structure-lessons/ss05.json through ss345.json.\n`
   + `// Run tools/build-sentence-structure-expansion.mjs after editing an imported lesson.\n`
   + `(function () {\n`
   + `  "use strict";\n`

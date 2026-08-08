@@ -1,0 +1,1621 @@
+{
+  "lesson": {
+    "id": "idiom-119",
+    "order": 119,
+    "slug": "bury-your-head-in-the-sand",
+    "version": "1",
+    "title": "逃避現實／不願面對問題",
+    "titleEn": "Bury Your Head in the Sand",
+    "titleZh": "逃避現實／不願面對問題",
+    "source": {
+      "file": "Idiom 119 - 「Bury Your Head in the Sand」.pdf",
+      "pageCount": 43,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "exercisePdfPages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "answerKeyPdfPages": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "bury one’s head in the sand",
+        "highlight": "bury one’s head in the sand"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Daniel buries his head in the sand whenever money problems arise.",
+        "zh": "每當出現金錢問題時，丹尼爾都會逃避現實。",
+        "highlight": "buries his head in the sand"
+      },
+      {
+        "en": "The owners buried their heads in the sand for months.",
+        "zh": "各名東主幾個月來一直對問題視而不見。",
+        "highlight": "buried their heads in the sand"
+      }
+    ],
+    "meaning": {
+      "en": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+      "zh": "明知有令人不快的事實、危險或問題，卻刻意逃避，不願思考、接受或處理。",
+      "naturalZh": [
+        "逃避現實",
+        "不願面對問題",
+        "對問題視而不見",
+        "假裝問題不存在",
+        "明知有問題卻拒絕處理",
+        "掩耳盜鈴"
+      ]
+    },
+    "register": {
+      "labelEn": "Formal",
+      "labelZh": "正式",
+      "summaryEn": "everyday conversation; advice; workplace discussion; journalism; public discussion; general non-technical writing.",
+      "summaryZh": "這個表達屬於中性至較口語，常見於：",
+      "contextsEn": [
+        "everyday conversation",
+        "advice",
+        "workplace discussion",
+        "journalism",
+        "public discussion",
+        "general non-technical writing",
+        "critical",
+        "disapproving",
+        "concerned",
+        "warning",
+        "frustrated",
+        "self-reflective"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "勸告",
+        "工作場合的討論",
+        "新聞報道",
+        "公共議題討論",
+        "一般非技術文章。",
+        "批評",
+        "不認同",
+        "擔憂",
+        "警告",
+        "不滿",
+        "自我反省。"
+      ],
+      "formalEn": "In highly formal academic, legal or technical writing, expressions such as ignore the evidence, fail to address the problem or refuse to acknowledge the risk may sometimes be more precise.",
+      "formalZh": "在非常正式的學術、法律或技術文章中，使用 ignore the evidence、fail to address the problem 或 refuse to acknowledge the risk 有時會更加準確。"
+    },
+    "fixedVariable": {
+      "fixed": "bury one’s head in the sand",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + bury / buries / buried + possessive + head or heads + in the sand.",
+          "example": "Daniel buries his head in the sand whenever money problems arise.",
+          "highlight": "buries his head in the sand"
+        },
+        {
+          "form": "Subject + verb + to bury + possessive + head or heads + in the sand.",
+          "example": "He chose to bury his head in the sand.",
+          "highlight": "bury his head in the sand"
+        },
+        {
+          "form": "Subject + can / cannot / may / might / could / should / must + bury + possessive + head or",
+          "example": "You cannot bury your head in the sand forever.",
+          "highlight": "bury your head in the sand"
+        },
+        {
+          "form": "Subject + be + burying + possessive + head or heads + in the sand.",
+          "example": "She is burying her head in the sand.",
+          "highlight": "burying her head in the sand"
+        },
+        {
+          "form": "Subject + has / have / had + buried + possessive + head or heads + in the sand.",
+          "example": "She has buried her head in the sand for too long.",
+          "highlight": "buried her head in the sand"
+        },
+        {
+          "form": "Don’t + bury + your head in the sand.",
+          "example": "Don’t bury your head in the sand.",
+          "highlight": "bury your head in the sand"
+        },
+        {
+          "form": "Burying + possessive + head or heads + in the sand + verb.",
+          "example": "Burying your head in the sand will not solve the problem.",
+          "highlight": "Burying your head in the sand"
+        },
+        {
+          "form": "After a preposition such as of, in or instead of, use burying.",
+          "example": "The manager was accused of burying his head in the sand.",
+          "highlight": "burying his head in the sand"
+        },
+        {
+          "form": "bury one’s head in the sand",
+          "example": "The report says that the company is burying its head in the sand.",
+          "highlight": "burying its head in the sand"
+        },
+        {
+          "form": "By + V-ing is one optional extension.",
+          "example": "The director buried her head in the sand by refusing to read the safety report.",
+          "highlight": "buried her head in the sand"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "句式一：一般限定動詞短語",
+        "formula": "Subject + bury / buries / buried + possessive + head or heads + in the sand.",
+        "descriptionEn": "This pattern directly states who avoided reality.",
+        "descriptionZh": "這個句式直接指出誰在逃避現實。",
+        "examples": [
+          {
+            "en": "Daniel buries his head in the sand whenever money problems arise.",
+            "zh": "每當出現金錢問題時，丹尼爾都會逃避現實。",
+            "highlight": "buries his head in the sand"
+          },
+          {
+            "en": "The owners buried their heads in the sand for months.",
+            "zh": "各名東主幾個月來一直對問題視而不見。",
+            "highlight": "buried their heads in the sand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After “To”",
+        "titleZh": "句式二：置於 To 之後",
+        "formula": "Subject + verb + to bury + possessive + head or heads + in the sand.",
+        "descriptionEn": "After to, use the base form bury.",
+        "descriptionZh": "在 to 之後，使用動詞原形 bury。",
+        "examples": [
+          {
+            "en": "He chose to bury his head in the sand.",
+            "zh": "他選擇逃避現實。",
+            "highlight": "bury his head in the sand"
+          },
+          {
+            "en": "The owners continued to bury their heads in the sand.",
+            "zh": "各名東主繼續對問題視而不見。",
+            "highlight": "bury their heads in the sand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "句式三：置於情態動詞之後",
+        "formula": "Subject + can / cannot / may / might / could / should / must + bury + possessive + head or",
+        "descriptionEn": "After a modal verb, use bury, not buries, buried or burying.",
+        "descriptionZh": "在情態動詞之後，使用 bury，而不是 buries、buried 或 burying。",
+        "examples": [
+          {
+            "en": "You cannot bury your head in the sand forever.",
+            "zh": "你不可能永遠逃避現實。",
+            "highlight": "bury your head in the sand"
+          },
+          {
+            "en": "They may bury their heads in the sand if nobody challenges them.",
+            "zh": "如果沒有人提出質疑，他們可能會繼續逃避問題。",
+            "highlight": "bury their heads in the sand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Progressive Forms",
+        "titleZh": "句式四：進行式",
+        "formula": "Subject + be + burying + possessive + head or heads + in the sand.",
+        "descriptionEn": "Use this pattern when the avoidance is happening or continuing around a particular time.",
+        "descriptionZh": "這個句式表示逃避行為正在某段時間發生或持續。",
+        "examples": [
+          {
+            "en": "She is burying her head in the sand.",
+            "zh": "她正在逃避現實。",
+            "highlight": "burying her head in the sand"
+          },
+          {
+            "en": "The managers were burying their heads in the sand.",
+            "zh": "各名經理當時一直對問題視而不見。",
+            "highlight": "burying their heads in the sand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Perfect and Perfect Progressive Forms",
+        "titleZh": "句式五：完成式及完成進行式",
+        "formula": "Subject + has / have / had + buried + possessive + head or heads + in the sand.",
+        "descriptionEn": "The perfect progressive is especially useful for continuing avoidance over a period of time.",
+        "descriptionZh": "完成進行式特別適合描述持續了一段時間的逃避行為。",
+        "examples": [
+          {
+            "en": "She has buried her head in the sand for too long.",
+            "zh": "她逃避問題已經太久。",
+            "highlight": "buried her head in the sand"
+          },
+          {
+            "en": "They had been burying their heads in the sand for months.",
+            "zh": "他們當時已經連續幾個月逃避問題。",
+            "highlight": "burying their heads in the sand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Imperatives and Warnings",
+        "titleZh": "句式六：祈使句及警告",
+        "formula": "Don’t + bury + your head in the sand.",
+        "descriptionEn": "After stop, use burying.",
+        "descriptionZh": "在 stop 之後，使用 burying。",
+        "examples": [
+          {
+            "en": "Don’t bury your head in the sand.",
+            "zh": "不要逃避現實。",
+            "highlight": "bury your head in the sand"
+          },
+          {
+            "en": "Stop burying your head in the sand and read the letter.",
+            "zh": "不要再逃避了，看看那封信吧。",
+            "highlight": "burying your head in the sand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "As a Gerund Subject",
+        "titleZh": "句式七：以動名詞短語作主語",
+        "formula": "Burying + possessive + head or heads + in the sand + verb.",
+        "descriptionEn": "In this structure, the whole idiomatic action becomes the subject.",
+        "descriptionZh": "在這個句式中，整個慣用語行為成為句子的主語。",
+        "examples": [
+          {
+            "en": "Burying your head in the sand will not solve the problem.",
+            "zh": "逃避現實並不能解決問題。",
+            "highlight": "Burying your head in the sand"
+          },
+          {
+            "en": "Burying their heads in the sand made the situation worse.",
+            "zh": "他們對問題視而不見，令情況惡化。",
+            "highlight": "Burying their heads in the sand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "After a Preposition or Fixed Grammar Pattern",
+        "titleZh": "句式八：置於介詞或固定文法結構之後",
+        "formula": "After a preposition such as of, in or instead of, use burying.",
+        "descriptionEn": "Source grammar frame: After a preposition such as of, in or instead of, use burying.",
+        "descriptionZh": "原檔列出的句法框架：After a preposition such as of, in or instead of, use burying。",
+        "examples": [
+          {
+            "en": "The manager was accused of burying his head in the sand.",
+            "zh": "經理被指控對問題視而不見。",
+            "highlight": "burying his head in the sand"
+          },
+          {
+            "en": "There is no point in burying your head in the sand.",
+            "zh": "逃避現實是沒有用的。",
+            "highlight": "burying your head in the sand"
+          },
+          {
+            "en": "Rather than burying our heads in the sand, we should discuss the problem.",
+            "zh": "與其逃避問題，我們應該加以討論。",
+            "highlight": "burying our heads in the sand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "In an Embedded Clause",
+        "titleZh": "句式九：置於嵌入子句之中",
+        "formula": "bury one’s head in the sand",
+        "descriptionEn": "The target does not need to appear in the same position in every sentence.",
+        "descriptionZh": "目標表達不需要在每個句子中出現在相同位置。",
+        "examples": [
+          {
+            "en": "The report says that the company is burying its head in the sand.",
+            "zh": "報告指出，公司正對問題視而不見。",
+            "highlight": "burying its head in the sand"
+          },
+          {
+            "en": "What worries me is that he is burying his head in the sand.",
+            "zh": "令我擔心的是，他正在逃避現實。",
+            "highlight": "burying his head in the sand"
+          },
+          {
+            "en": "Why are you burying your head in the sand?",
+            "zh": "你為甚麼要逃避現實？",
+            "highlight": "burying your head in the sand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "With “By + V-ing”",
+        "titleZh": "句式十：配合 By + V-ing",
+        "formula": "By + V-ing is one optional extension.",
+        "descriptionEn": "How did the person bury their head in the sand?",
+        "descriptionZh": "只是可選延伸，用來回答：",
+        "examples": [
+          {
+            "en": "The director buried her head in the sand by refusing to read the safety report.",
+            "zh": "主管拒絕閱讀安全報告，藉此逃避問題。",
+            "highlight": "buried her head in the sand"
+          },
+          {
+            "en": "The director buried her head in the sand.",
+            "zh": "主管逃避現實。",
+            "highlight": "buried her head in the sand"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Describes Deliberate Avoidance Clearly",
+        "titleZh": "清楚表達刻意逃避",
+        "en": "The idiom compresses a longer explanation into one recognised expression.",
+        "zh": "他正在逃避現實。 這個慣用語把較長的解釋濃縮成一個固定表達。",
+        "examples": [
+          {
+            "en": "He is burying his head in the sand.",
+            "zh": "他正在逃避現實。",
+            "highlight": "burying his head in the sand"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Communicates Criticism or Concern",
+        "titleZh": "表達批評或擔憂",
+        "en": "This sentence does more than describe inaction. It warns the listener that continued avoidance is unwise.",
+        "zh": "不要再逃避現實。 這句不只是描述沒有行動，還警告聽者繼續逃避並不明智。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful for Advice",
+        "titleZh": "適合用於勸告",
+        "en": "Don’t bury your head in the sand.; You cannot keep burying your head in the sand.; There is no point in burying your head in the sand.; Rather than burying your head in the sand, ask for help.",
+        "zh": "這些句式可以勸告別人正視問題及尋求協助。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Allows Self-Reflection",
+        "titleZh": "適合用來自我反省",
+        "en": "The expression can show that the speaker has recognised a previous mistake.",
+        "zh": "這個表達可以表示說話者已意識到自己過往的錯誤。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Contrasts Avoidance with Action",
+        "titleZh": "對比逃避與實際行動",
+        "en": "avoid reality; face and deal with it. The idiom is useful, but it is not automatically better than ignore, avoid or refuse to deal with in every context. Model Examples Elena knew that the roof was leaking, but she kept acting as if no repair was needed. The idiom replaces the longer explanation that she knowingly acted as if the problem did not need attention. Ignoring the warning will not make the danger disappear. Here, the entire idiom acts as the subject.",
+        "zh": "這個句式清楚呈現兩個選擇： 這個慣用語十分實用，但並非在所有語境中都一定比 ignore、avoid 或 refuse to deal with 更好。 埃琳娜知道屋頂漏水，卻一直假裝不需要維修。 埃琳娜對屋頂漏水的問題採取逃避態度。 答案保留了埃琳娜、屋頂漏水、過去時態，以及她刻意逃避的態度。 無視警告並不會令危險消失。 逃避現實並不會令危險消失。 在這個例子中，整個慣用語作為句子的主語。",
+        "examples": [
+          {
+            "en": "Elena buried her head in the sand over the leaking roof.",
+            "zh": "埃琳娜對屋頂漏水的問題採取逃避態度。",
+            "highlight": "buried her head in the sand"
+          },
+          {
+            "en": "Burying your head in the sand will not make the danger disappear.",
+            "zh": "逃避現實並不會令危險消失。",
+            "highlight": "Burying your head in the sand"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Ancient Source of the Image; Exact English Origin Uncertain",
+      "statusZh": "意象具有古代來源；確切英語形式的起源不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Pliny the Elder described an ostrich hiding its head and neck among bushes and supposedly believing that the rest of its body was concealed. His account referred to bushes rather than sand, but it records an ancient version of the same mistaken idea.",
+          "zh": "古羅馬作家老普林尼曾描述鴕鳥把頭和頸藏在灌木中，並誤以為整個身體已被遮掩。 他的記載提到的是灌木而不是沙，但已記錄了同一錯誤觀念的古代版本。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The mistaken picture became a metaphor for people who refuse to look at a problem and behave as though it does not exist.",
+          "zh": "這個錯誤畫面後來成為一個比喻，用來描述拒絕正視問題，並假裝問題不存在的人。"
+        }
+      ],
+      "memoryEn": "Hiding your view of a problem does not hide the problem itself.",
+      "memoryZh": "遮住自己看問題的視線，並不會把問題本身遮住。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "The Problem Must Be Unpleasant",
+        "titleZh": "規則一：問題必須令人不快",
+        "en": "He knows the business is losing money, but he refuses to examine the figures. He forgot where he put his pen. Forgetting a small fact is not normally burying one’s head in the sand.",
+        "zh": "他知道公司正在虧損，卻拒絕查看數字。 他忘記把筆放在哪裏。 忘記一件小事通常不屬於逃避現實。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "The Person Must Know or Have Reason to Know",
+        "titleZh": "規則二：當事人必須知道或有理由知道問題存在",
+        "en": "The idiom usually suggests that warning signs or facts are already available. Carmen cannot be accused of avoiding information she never received.",
+        "zh": "這個慣用語通常表示警告跡象或事實已經存在。 如果從未有人告訴卡門會議有改動，便不能指責她逃避自己從未收到的資訊。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Means Avoidance, Not Simple Delay",
+        "titleZh": "規則三：它表示逃避，而不只是合理延遲",
+        "en": "Refusing to examine clear facts because they are unpleasant may be burying one’s head in the sand.",
+        "zh": "因為事實令人不快而拒絕查看清楚證據，才可能屬於逃避現實。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Do Not Add Certainty",
+        "titleZh": "規則四：不要增加確定程度",
+        "en": "The incorrect version changes a possibility into a conclusion.",
+        "zh": "錯誤版本把一個可能性改成了確定結論。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Tense",
+        "titleZh": "規則五：保留時態",
+        "en": "Do not change a past action into a present habit.",
+        "zh": "不要把過去行為改成現在習慣。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Match the Possessive",
+        "titleZh": "規則六：所有格必須配合主語",
+        "en": "Match the Possessive",
+        "zh": "所有格必須配合主語",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Match Singular and Plural Number",
+        "titleZh": "規則七：配合單數及複數",
+        "en": "Match Singular and Plural Number",
+        "zh": "配合單數及複數",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Keep “In the Sand” Fixed",
+        "titleZh": "規則八：In the Sand 必須保持不變",
+        "en": "Keep “In the Sand” Fixed",
+        "zh": "In the Sand 必須保持不變",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Interpret It Literally",
+        "titleZh": "規則九：不要按字面解讀",
+        "en": "The child buried a toy head in the sand. The exercise uses only the figurative meaning.",
+        "zh": "孩子把玩具頭埋在沙中。 投訴出現時，經理選擇逃避問題。 本練習只使用比喻意思。",
+        "examples": [
+          {
+            "en": "The manager buried his head in the sand when complaints arrived.",
+            "zh": "投訴出現時，經理選擇逃避問題。",
+            "highlight": "buried his head in the sand"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Avoid Redundant Explanations",
+        "titleZh": "規則十：避免重複解釋相同意思",
+        "en": "The final clause simply repeats the idiom’s core meaning. A specific external fact may remain, but the general meaning “refused to face reality” should not be repeated unnecessarily.",
+        "zh": "最後一個子句只是再次解釋慣用語本身。 他對未繳帳單的問題採取逃避態度。 可以保留具體問題，但不應在使用慣用語後，再無必要地重複「拒絕面對現實」。",
+        "examples": [
+          {
+            "en": "He buried his head in the sand over the unpaid bills.",
+            "zh": "他對未繳帳單的問題採取逃避態度。",
+            "highlight": "buried his head in the sand"
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "titleEn": "The Expression Is Often Critical",
+        "titleZh": "規則十一：這個表達通常帶有批評意味",
+        "en": "This may sound direct or accusatory. Choose the tone according to the relationship.",
+        "zh": "這句可能聽起來直接，甚至帶有指責意味。 我擔心你可能正在逃避問題。 應按說話者之間的關係選擇語氣。",
+        "examples": [
+          {
+            "en": "I’m worried that you may be burying your head in the sand.",
+            "zh": "我擔心你可能正在逃避問題。",
+            "highlight": "burying your head in the sand"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Use It for Every Form of Inaction",
+        "titleZh": "規則十二：不要把所有不採取行動的情況都套用這個表達",
+        "en": "they need more information; they are waiting for permission; another problem is more urgent; they do not yet know what happened. Use the idiom only when the delay involves refusing to face an unpleasant fact or problem.",
+        "zh": "以上情況並不一定表示逃避現實。 只有當延誤涉及拒絕面對令人不快的事實或問題時，才應使用這個慣用語。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "bury one’s head in the sand",
+      "zh": "使用 bury one’s head in the sand 的適當形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-119-q01",
+        "number": 1,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Aaron knows that several bills are overdue, but he keeps acting as if there is no problem.",
+        "promptZh": "艾倫知道有幾張帳單已經過期，卻一直假裝沒有問題。",
+        "starter": "Aaron",
+        "answer": "Aaron is burying his head in the sand over his overdue bills.",
+        "answerZh": "艾倫正在逃避處理逾期帳單的問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying his head in the sand"
+      },
+      {
+        "id": "idiom-119-q02",
+        "number": 2,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Bella knows that the roof is leaking, but she keeps pretending that the repair can wait forever.",
+        "promptZh": "貝拉知道屋頂正在漏水，卻一直假裝維修可以無限期押後。",
+        "starter": "Bella",
+        "answer": "Bella is burying her head in the sand over the leaking roof.",
+        "answerZh": "貝拉正在逃避屋頂漏水的問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying her head in the sand"
+      },
+      {
+        "id": "idiom-119-q03",
+        "number": 3,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Carlos noticed several worrying health signs, but he refused to see a doctor because he hoped they would disappear.",
+        "promptZh": "卡洛斯注意到幾個令人擔心的健康警號，卻拒絕求醫，希望問題自行消失。",
+        "starter": "Carlos",
+        "answer": "Carlos buried his head in the sand when he refused to see a doctor about the warning signs.",
+        "answerZh": "卡洛斯拒絕就健康警號求醫，選擇逃避問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "buried his head in the sand"
+      },
+      {
+        "id": "idiom-119-q04",
+        "number": 4,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The rent is already overdue. Stop pretending that the problem will disappear by itself.",
+        "promptZh": "租金已經逾期。不要再假裝問題會自行消失。",
+        "starter": "Don’t",
+        "answer": "Don’t bury your head in the sand over the overdue rent.",
+        "answerZh": "不要再逃避租金逾期的問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury your head in the sand"
+      },
+      {
+        "id": "idiom-119-q05",
+        "number": 5,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Ignoring next week’s examination will not make it disappear.",
+        "promptZh": "無視下星期的考試並不會令它消失。",
+        "starter": "Burying",
+        "answer": "Burying your head in the sand will not make next week’s examination disappear.",
+        "answerZh": "逃避現實並不會令下星期的考試消失。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "Burying your head in the sand"
+      },
+      {
+        "id": "idiom-119-q06",
+        "number": 6,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "You cannot ignore the computer problem and expect it to fix itself.",
+        "promptZh": "你不能無視電腦問題，卻期望它自行修復。",
+        "starter": "You",
+        "answer": "You cannot bury your head in the sand and expect the computer problem to fix itself.",
+        "answerZh": "你不能逃避電腦問題，卻期望它自行修復。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury your head in the sand"
+      },
+      {
+        "id": "idiom-119-q07",
+        "number": 7,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Whenever Ella’s manager asks about the late report, she changes the subject and acts as if it is unimportant.",
+        "promptZh": "每當艾拉的經理問及遲交的報告時，她都會轉換話題，假裝事情並不重要。",
+        "starter": "Ella",
+        "answer": "Ella buries her head in the sand whenever her manager asks about the late report.",
+        "answerZh": "每當經理問及遲交的報告時，艾拉都會逃避問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "buries her head in the sand"
+      },
+      {
+        "id": "idiom-119-q08",
+        "number": 8,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Everyone in the family knew that the trip was becoming too expensive, but they avoided discussing it.",
+        "promptZh": "家中每個人都知道旅程的費用變得太高，卻逃避討論這個問題。",
+        "starter": "The",
+        "answer": "The family buried their heads in the sand over the rising cost of the trip.",
+        "answerZh": "家人都在逃避旅程費用不斷上升的問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "buried their heads in the sand"
+      },
+      {
+        "id": "idiom-119-q09",
+        "number": 9,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Ignoring the fact that the examination is next week will not help you.",
+        "promptZh": "無視考試將於下星期舉行的事實並不會幫到你。",
+        "starter": "There",
+        "answer": "There is no point in burying your head in the sand when the examination is next week.",
+        "answerZh": "考試將於下星期舉行，逃避現實是沒有用的。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying your head in the sand"
+      },
+      {
+        "id": "idiom-119-q10",
+        "number": 10,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Frank finally stopped avoiding the sales figures and admitted that the shop was losing money.",
+        "promptZh": "法蘭克終於不再逃避銷售數字，並承認店舖正在虧損。",
+        "starter": "Frank",
+        "answer": "Frank stopped burying his head in the sand and admitted that the shop was losing money.",
+        "answerZh": "法蘭克不再逃避現實，並承認店舖正在虧損。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying his head in the sand"
+      },
+      {
+        "id": "idiom-119-q11",
+        "number": 11,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Whenever customers complain, Grace tends to avoid reading their messages.",
+        "promptZh": "每當顧客投訴時，格蕾絲往往會逃避閱讀他們的訊息。",
+        "starter": "Grace",
+        "answer": "Grace tends to bury her head in the sand whenever customers complain.",
+        "answerZh": "每當顧客投訴時，格蕾絲往往會逃避問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury her head in the sand"
+      },
+      {
+        "id": "idiom-119-q12",
+        "number": 12,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Last year, Henry chose to ignore repeated warnings about the old machine.",
+        "promptZh": "去年，亨利選擇無視有關舊機器的多次警告。",
+        "starter": "Henry",
+        "answer": "Henry chose to bury his head in the sand over the repeated warnings about the old machine.",
+        "answerZh": "亨利選擇逃避有關舊機器的多次警告。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury his head in the sand"
+      },
+      {
+        "id": "idiom-119-q13",
+        "number": 13,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Ivy has avoided looking seriously at her debt for several months.",
+        "promptZh": "艾薇幾個月來一直逃避認真處理自己的債務。",
+        "starter": "Ivy",
+        "answer": "Ivy has been burying her head in the sand over her debt for several months.",
+        "answerZh": "艾薇幾個月來一直逃避自己的債務問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying her head in the sand"
+      },
+      {
+        "id": "idiom-119-q14",
+        "number": 14,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "If Jack ignores tomorrow’s safety report, he will be refusing to face a clear risk.",
+        "promptZh": "如果傑克無視明天的安全報告，他便是在拒絕面對一個清楚的風險。",
+        "starter": "If",
+        "answer": "If Jack ignores tomorrow’s safety report, he will be burying his head in the sand.",
+        "answerZh": "如果傑克無視明天的安全報告，他便是在逃避現實。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying his head in the sand"
+      },
+      {
+        "id": "idiom-119-q15",
+        "number": 15,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Your child is having serious difficulty at school. You should not pretend that nothing is wrong.",
+        "promptZh": "你的孩子在學校遇到嚴重困難。你不應假裝一切正常。",
+        "starter": "You",
+        "answer": "You should not bury your head in the sand when your child is having serious difficulty at school.",
+        "answerZh": "當你的孩子在學校遇到嚴重困難時，你不應逃避問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury your head in the sand"
+      },
+      {
+        "id": "idiom-119-q16",
+        "number": 16,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Sales continued to fall, but the owners tried to pretend that the business was still doing well.",
+        "promptZh": "銷售額持續下跌，但各名東主試圖假裝生意仍然良好。",
+        "starter": "The",
+        "answer": "The owners tried to bury their heads in the sand as sales continued to fall.",
+        "answerZh": "銷售額持續下跌時，各名東主仍試圖逃避現實。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury their heads in the sand"
+      },
+      {
+        "id": "idiom-119-q17",
+        "number": 17,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "People accused the coach of knowingly ignoring the team’s repeated mistakes.",
+        "promptZh": "人們指責教練明知球隊屢次犯錯，卻對問題視而不見。",
+        "starter": "The",
+        "answer": "The coach was accused of burying his head in the sand over the team’s repeated mistakes.",
+        "answerZh": "教練被指控對球隊屢次犯錯的問題視而不見。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying his head in the sand"
+      },
+      {
+        "id": "idiom-119-q18",
+        "number": 18,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A: Nobody wants to discuss why so many students have stopped attending. B: We need to stop pretending that the problem does not exist.",
+        "promptZh": "甲：沒有人願意討論為甚麼這麼多學生停止出席。 乙：我們必須停止假裝問題不存在。",
+        "starter": "We",
+        "answer": "We need to stop burying our heads in the sand over the falling attendance.",
+        "answerZh": "我們必須停止逃避出席人數下降的問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying our heads in the sand"
+      },
+      {
+        "id": "idiom-119-q19",
+        "number": 19,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Nora keeps telling herself that the missing money is not a serious matter, and this worries her sister.",
+        "promptZh": "諾拉一直告訴自己，遺失的金錢並不是嚴重問題，令她的姊姊十分擔心。",
+        "starter": "What",
+        "answer": "What worries Nora’s sister is that Nora is burying her head in the sand over the missing money.",
+        "answerZh": "令諾拉的姊姊擔心的是，諾拉正在逃避金錢遺失的問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying her head in the sand"
+      },
+      {
+        "id": "idiom-119-q20",
+        "number": 20,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The bank has called Omar three times. The worst response would be to continue avoiding the problem.",
+        "promptZh": "銀行已經三次致電奧馬。最差的回應就是繼續逃避問題。",
+        "starter": "The",
+        "answer": "The worst thing Omar can do is bury his head in the sand over the bank’s calls.",
+        "answerZh": "奧馬最不應做的，就是對銀行的來電採取逃避態度。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury his head in the sand"
+      },
+      {
+        "id": "idiom-119-q21",
+        "number": 21,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A: I know the report may contain bad news, but I keep putting off reading it. B: You cannot continue avoiding it forever.",
+        "promptZh": "甲：我知道報告可能有壞消息，但我一直押後閱讀。 乙：你不能永遠繼續逃避。",
+        "starter": "You",
+        "answer": "You cannot keep burying your head in the sand over the report.",
+        "answerZh": "你不能繼續逃避那份報告。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying your head in the sand"
+      },
+      {
+        "id": "idiom-119-q22",
+        "number": 22,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Your friend has received three warnings from the landlord but continues to act as though nothing is wrong. Ask why.",
+        "promptZh": "你的朋友已收到業主三次警告，卻仍然假裝一切正常。請詢問原因。",
+        "starter": "Why",
+        "answer": "Why are you burying your head in the sand after receiving three warnings from the landlord?",
+        "answerZh": "你已收到業主三次警告，為甚麼仍然逃避問題？",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying your head in the sand"
+      },
+      {
+        "id": "idiom-119-q23",
+        "number": 23,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Priya refuses to check her test results because she is afraid that she has failed.",
+        "promptZh": "普里婭因為害怕自己不合格，所以拒絕查看測驗結果。",
+        "starter": "By",
+        "answer": "By refusing to check her test results, Priya is burying her head in the sand.",
+        "answerZh": "普里婭拒絕查看測驗結果，正在逃避現實。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying her head in the sand"
+      },
+      {
+        "id": "idiom-119-q24",
+        "number": 24,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Quentin has not replied to any message about the broken lift. His neighbours suspect that he is avoiding the issue, but they are not certain.",
+        "promptZh": "昆廷沒有回覆任何有關升降機故障的訊息。他的鄰居懷疑他正在逃避問題，但並不肯定。",
+        "starter": "Quentin",
+        "answer": "Quentin may be burying his head in the sand over the broken lift.",
+        "answerZh": "昆廷可能正在逃避處理升降機故障的問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying his head in the sand"
+      },
+      {
+        "id": "idiom-119-q25",
+        "number": 25,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The parents avoided discussing their son’s absences until the school showed them his attendance record.",
+        "promptZh": "父母一直逃避討論兒子缺課的問題，直至學校向他們展示出席紀錄。",
+        "starter": "The",
+        "answer": "The parents could no longer bury their heads in the sand after the school showed them their son’s attendance record.",
+        "answerZh": "學校向父母展示兒子的出席紀錄後，他們便再也無法逃避問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury their heads in the sand"
+      },
+      {
+        "id": "idiom-119-q26",
+        "number": 26,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "If our team refuses to discuss the conflict, the situation will become worse.",
+        "promptZh": "如果我們的團隊拒絕討論衝突，情況將會惡化。",
+        "starter": "Burying",
+        "answer": "Burying our heads in the sand would only make the team conflict worse.",
+        "answerZh": "逃避現實只會令團隊衝突更加嚴重。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "Burying our heads in the sand"
+      },
+      {
+        "id": "idiom-119-q27",
+        "number": 27,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Rachel later admitted that she had deliberately avoided dealing with the tax letter.",
+        "promptZh": "瑞秋後來承認，自己曾刻意逃避處理稅務信件。",
+        "starter": "Rachel",
+        "answer": "Rachel admitted that she had buried her head in the sand over the tax letter.",
+        "answerZh": "瑞秋承認自己曾逃避處理稅務信件。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "buried her head in the sand"
+      },
+      {
+        "id": "idiom-119-q28",
+        "number": 28,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The manager told Sam that he must not continue ignoring the staff shortage.",
+        "promptZh": "經理告訴森，他不能繼續無視人手不足的問題。",
+        "starter": "The",
+        "answer": "The manager told Sam not to bury his head in the sand over the staff shortage.",
+        "answerZh": "經理告訴森，不要逃避人手不足的問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury his head in the sand"
+      },
+      {
+        "id": "idiom-119-q29",
+        "number": 29,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Tina knew that the event had exceeded its budget, but she acted as though no action was needed.",
+        "promptZh": "蒂娜知道活動已超出預算，卻假裝不需要採取任何行動。",
+        "starter": "Although",
+        "answer": "Although Tina knew that the event had exceeded its budget, she buried her head in the sand.",
+        "answerZh": "雖然蒂娜知道活動已超出預算，但她仍然逃避問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "buried her head in the sand"
+      },
+      {
+        "id": "idiom-119-q30",
+        "number": 30,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "When a problem feels too large, people may want to avoid it. Asking for help is a better first step.",
+        "promptZh": "當問題看來太大時，人們可能會想逃避。尋求協助是更好的第一步。",
+        "starter": "It",
+        "answer": "It can be tempting to bury your head in the sand when a problem feels too large, but asking for help is a better first step.",
+        "answerZh": "當問題看來太大時，人們可能會想逃避，但尋求協助是更好的第一步。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury your head in the sand"
+      },
+      {
+        "id": "idiom-119-q31",
+        "number": 31,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Because the warning signs were unpleasant, Umar kept ignoring them until the machine finally broke down.",
+        "promptZh": "由於警告跡象令人不安，烏馬爾一直加以無視，直至機器最終損壞。",
+        "starter": "Because",
+        "answer": "Because the warning signs were unpleasant, Umar kept burying his head in the sand until the machine broke down.",
+        "answerZh": "由於警告跡象令人不安，烏馬爾一直逃避問題，直至機器損壞。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying his head in the sand"
+      },
+      {
+        "id": "idiom-119-q32",
+        "number": 32,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The committee avoided answering the residents’ questions and pretended that no problem existed.",
+        "promptZh": "委員會逃避回答居民的問題，並假裝沒有任何問題。",
+        "starter": "What",
+        "answer": "What the committee did was bury its head in the sand instead of answering the residents’ questions.",
+        "answerZh": "委員會所做的，就是逃避問題，而不是回答居民的提問。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury its head in the sand"
+      },
+      {
+        "id": "idiom-119-q33",
+        "number": 33,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Vera did not stop avoiding the leak until water entered the shop.",
+        "promptZh": "直至雨水流入店舖，維拉才停止逃避漏水問題。",
+        "starter": "Not",
+        "answer": "Not until water entered the shop did Vera stop burying her head in the sand over the leak.",
+        "answerZh": "直至雨水流入店舖，維拉才停止逃避漏水問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying her head in the sand"
+      },
+      {
+        "id": "idiom-119-q34",
+        "number": 34,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "According to the report, the company repeatedly ignored its delivery problems.",
+        "promptZh": "根據報告，公司多次無視送貨問題。",
+        "starter": "The",
+        "answer": "The report says that the company has buried its head in the sand over repeated delivery problems.",
+        "answerZh": "報告指出，公司一直對屢次出現的送貨問題視而不見。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "buried its head in the sand"
+      },
+      {
+        "id": "idiom-119-q35",
+        "number": 35,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "We should discuss why the project is late rather than pretend that everything is fine.",
+        "promptZh": "我們應該討論項目延誤的原因，而不是假裝一切正常。",
+        "starter": "Rather",
+        "answer": "Rather than burying our heads in the sand, we should discuss why the project is late.",
+        "answerZh": "與其逃避問題，我們應該討論項目延誤的原因。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying our heads in the sand"
+      },
+      {
+        "id": "idiom-119-q36",
+        "number": 36,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The town leaders continue to ignore clear warnings about the rubbish problem. If they continue, it will become harder to solve.",
+        "promptZh": "鎮上主管繼續無視有關垃圾問題的清楚警告。如果他們繼續這樣做，問題將更難解決。",
+        "starter": "If",
+        "answer": "If the town leaders continue to bury their heads in the sand, the rubbish problem will become harder to solve.",
+        "answerZh": "如果鎮上主管繼續逃避問題，垃圾問題將會更難解決。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "bury their heads in the sand"
+      },
+      {
+        "id": "idiom-119-q37",
+        "number": 37,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A customer said that the bank seemed to be ignoring a clear error in her account.",
+        "promptZh": "一名顧客表示，銀行似乎正在無視她帳戶中的明顯錯誤。",
+        "starter": "The",
+        "answer": "The customer said that the bank seemed to be burying its head in the sand over the error in her account.",
+        "answerZh": "顧客表示，銀行似乎正在逃避處理她帳戶中的錯誤。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying its head in the sand"
+      },
+      {
+        "id": "idiom-119-q38",
+        "number": 38,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Avoiding the problem reduced Alan’s worry for a short time, but it did not solve anything.",
+        "promptZh": "逃避問題曾短暫減輕艾倫的憂慮，但並沒有解決任何事情。",
+        "starter": "Burying",
+        "answer": "Burying his head in the sand reduced Alan’s worry for a short time, but it did not solve the problem.",
+        "answerZh": "逃避問題曾短暫減輕艾倫的憂慮，但並沒有解決問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "Burying his head in the sand"
+      },
+      {
+        "id": "idiom-119-q39",
+        "number": 39,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Beth did not realise that she had been avoiding her health problem until the doctor explained it clearly.",
+        "promptZh": "直至醫生清楚解釋，貝絲才意識到自己一直在逃避健康問題。",
+        "starter": "Only",
+        "answer": "Only after the doctor explained the problem clearly did Beth realise that she had been burying her head in the sand.",
+        "answerZh": "直至醫生清楚解釋問題後，貝絲才意識到自己一直在逃避現實。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying her head in the sand"
+      },
+      {
+        "id": "idiom-119-q40",
+        "number": 40,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Each time Chris avoids the problem, he has less time left to fix it.",
+        "promptZh": "克里斯每逃避問題一次，餘下用來解決問題的時間便更少。",
+        "starter": "The",
+        "answer": "The more Chris buries his head in the sand, the less time he has to fix the problem.",
+        "answerZh": "克里斯愈逃避問題，餘下用來解決問題的時間便愈少。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "buries his head in the sand"
+      },
+      {
+        "id": "idiom-119-q41",
+        "number": 41,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The school has received repeated reports of bullying but continues to say that there is no real problem.",
+        "promptZh": "學校已多次收到有關欺凌的報告，卻繼續聲稱沒有真正問題。",
+        "starter": "The",
+        "answer": "The school cannot keep burying its head in the sand over the repeated reports of bullying.",
+        "answerZh": "學校不能繼續逃避多次收到的欺凌報告。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying its head in the sand"
+      },
+      {
+        "id": "idiom-119-q42",
+        "number": 42,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The hospital management knew that the same complaint had been made several times but treated every report as unimportant.",
+        "promptZh": "醫院管理層知道同一投訴已出現多次，卻把每份報告都視為不重要。",
+        "starter": "By",
+        "answer": "By treating every complaint as unimportant, the hospital management buried its head in the sand.",
+        "answerZh": "醫院管理層把每宗投訴都視為不重要，藉此逃避問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "buried its head in the sand"
+      },
+      {
+        "id": "idiom-119-q43",
+        "number": 43,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A: The figures may be wrong, so perhaps we should wait. B: Waiting is responsible only if we check them. Refusing to look at them would be simple avoidance.",
+        "promptZh": "甲：這些數字可能有錯，所以我們或許應該等待。 乙：只有在我們會加以核實的情況下，等待才是負責任的做法。拒絕查看便只是逃避。",
+        "starter": "Waiting",
+        "answer": "Waiting is responsible only if we check the figures; otherwise, we would be burying our heads in the sand.",
+        "answerZh": "只有在我們會核實數字的情況下，等待才是負責任的做法；否則，我們便是在逃避現實。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying our heads in the sand"
+      },
+      {
+        "id": "idiom-119-q44",
+        "number": 44,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The board keeps delaying a decision about the unsafe building despite several clear reports. It appears to be avoiding the facts.",
+        "promptZh": "儘管已有幾份清楚報告，董事會仍然不斷押後處理危險建築物的決定。它似乎正在逃避事實。",
+        "starter": "The",
+        "answer": "The board appears to be burying its head in the sand over the unsafe building.",
+        "answerZh": "董事會似乎正在逃避危險建築物的問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying its head in the sand"
+      },
+      {
+        "id": "idiom-119-q45",
+        "number": 45,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Daniel eventually accepted that he had ignored worrying signs about his health for far too long.",
+        "promptZh": "丹尼爾最終承認，自己逃避健康警號已經太久。",
+        "starter": "In",
+        "answer": "In the end, Daniel accepted that he had buried his head in the sand over his health for far too long.",
+        "answerZh": "最終，丹尼爾承認自己逃避健康問題已經太久。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "buried his head in the sand"
+      },
+      {
+        "id": "idiom-119-q46",
+        "number": 46,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The restaurant’s income keeps falling. If the owners do not stop avoiding the figures, the business may run out of money.",
+        "promptZh": "餐廳收入持續下跌。如果各名東主不停止逃避相關數字，餐廳可能會耗盡資金。",
+        "starter": "Unless",
+        "answer": "Unless the owners stop burying their heads in the sand, the restaurant may run out of money.",
+        "answerZh": "除非各名東主停止逃避問題，否則餐廳可能會耗盡資金。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying their heads in the sand"
+      },
+      {
+        "id": "idiom-119-q47",
+        "number": 47,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The problem has been getting worse for months. Calling it “temporary” again would merely be another way of avoiding reality.",
+        "promptZh": "問題幾個月來一直惡化。再次稱它為「暫時問題」，只會是另一種逃避現實的方式。",
+        "starter": "Calling",
+        "answer": "Calling the problem “temporary” again would simply be burying your head in the sand.",
+        "answerZh": "再次把問題稱為「暫時問題」，只是在逃避現實。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying your head in the sand"
+      },
+      {
+        "id": "idiom-119-q48",
+        "number": 48,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "Taking time to think carefully is not the same as refusing to face an unpleasant problem.",
+        "promptZh": "花時間仔細思考，並不等同拒絕面對令人不快的問題。",
+        "starter": "There",
+        "answer": "There is a difference between taking time to think and burying your head in the sand.",
+        "answerZh": "花時間思考與逃避現實是兩回事。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying your head in the sand"
+      },
+      {
+        "id": "idiom-119-q49",
+        "number": 49,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "Elena has already ignored two clear warnings. If she ignores the third one as well, she will be deliberately avoiding reality.",
+        "promptZh": "埃琳娜已經無視兩次清楚警告。如果她連第三次警告也無視，便是在刻意逃避現實。",
+        "starter": "Having",
+        "answer": "Having ignored the first two warnings, Elena would be burying her head in the sand if she ignored the third one as well.",
+        "answerZh": "埃琳娜已經無視首兩次警告；如果連第三次也無視，她便是在逃避現實。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying her head in the sand"
+      },
+      {
+        "id": "idiom-119-q50",
+        "number": 50,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The council says that it needs more facts. However, after three clear reports, many residents believe that it is simply refusing to face the problem.",
+        "promptZh": "議會表示需要更多資料。不過，在已有三份清楚報告後，許多居民認為它只是在拒絕面對問題。",
+        "starter": "The",
+        "answer": "The council says that it needs more facts, but after three clear reports, many residents believe that it is burying its head in the sand.",
+        "answerZh": "議會表示需要更多資料，但在已有三份清楚報告後，許多居民認為它正在逃避問題。",
+        "targetForm": "bury one’s head in the sand",
+        "targetMeaning": "To deliberately avoid thinking about, accepting or dealing with an unpleasant fact, danger or problem, even though it may affect you.",
+        "highlight": "burying its head in the sand"
+      }
+    ]
+  }
+}

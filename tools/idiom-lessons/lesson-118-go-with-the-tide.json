@@ -1,0 +1,1669 @@
+{
+  "lesson": {
+    "id": "idiom-118",
+    "order": 118,
+    "slug": "go-with-the-tide",
+    "version": "1",
+    "title": "隨大流／順應潮流",
+    "titleEn": "go with the tide",
+    "titleZh": "隨大流／順應潮流",
+    "source": {
+      "file": "Idiom 118 - 「Go With the Tide」.pdf",
+      "pageCount": 33,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "exercisePdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "answerKeyPdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "go with the tide",
+        "highlight": "go with the tide"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Leo usually goes with the tide.",
+        "zh": "里奧通常會隨大流。",
+        "highlight": "goes with the tide"
+      },
+      {
+        "en": "The whole group went with the tide.",
+        "zh": "整個小組都跟隨了大多數人的做法。",
+        "highlight": "went with the tide"
+      }
+    ],
+    "meaning": {
+      "en": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+      "zh": "跟隨大多數人的做法、想法或選擇，而不是反對整體趨勢；隨大流；順應潮流。",
+      "naturalZh": [
+        "跟隨大多數人的做法、想法或選擇，而不是反對整體趨勢",
+        "隨大流",
+        "順應潮流。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; workplace discussion; interviews and commentary; general writing about opinions, fashion or trends; descriptions of group behaviour.",
+      "summaryZh": "在日常對話、工作討論、訪問、一般評論，以及描述意見、潮流或群體行為時，這個表達十分自然。",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace discussion",
+        "interviews and commentary",
+        "general writing about opinions, fashion or trends",
+        "descriptions of group behaviour"
+      ],
+      "contextsZh": [],
+      "formalEn": "For this worksheet, treat the expression as informal to neutral.",
+      "formalZh": "我們不妨順應大多數人的做法，使用大家已經熟悉的系統。"
+    },
+    "fixedVariable": {
+      "fixed": "go with the tide",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + go / goes / went + with the tide.",
+          "example": "Leo usually goes with the tide.",
+          "highlight": "goes with the tide"
+        },
+        {
+          "form": "Subject + verb + to go with the tide.",
+          "example": "The club decided to go with the tide.",
+          "highlight": "go with the tide"
+        },
+        {
+          "form": "Subject + may / might / can / could / should / will + go with the tide.",
+          "example": "We may go with the tide.",
+          "highlight": "go with the tide"
+        },
+        {
+          "form": "Subject + have / has / had + gone with the tide.",
+          "example": "Daniel has always gone with the tide.",
+          "highlight": "gone with the tide"
+        },
+        {
+          "form": "Going with the tide + verb.",
+          "example": "Going with the tide was easier than standing alone.",
+          "highlight": "Going with the tide"
+        },
+        {
+          "form": "Noun + to go with the tide",
+          "example": "Her decision to go with the tide surprised us.",
+          "highlight": "go with the tide"
+        },
+        {
+          "form": "Subject + be + to go with the tide.",
+          "example": "The easiest option was to go with the tide.",
+          "highlight": "go with the tide"
+        },
+        {
+          "form": "go with the tide",
+          "example": "Should we go with the tide?",
+          "highlight": "go with the tide"
+        },
+        {
+          "form": "By + V-ing is one optional extension, not part of the expression.",
+          "example": "The shop decided to go with the tide.",
+          "highlight": "go with the tide"
+        },
+        {
+          "form": "What / All + clause + be + go with the tide.",
+          "example": "Leo usually goes with the tide when his friends choose where to eat.",
+          "highlight": "goes with the tide"
+        },
+        {
+          "form": "Should / Why + subject + go with the tide?",
+          "example": "Leo usually goes with the tide when his friends choose where to eat.",
+          "highlight": "goes with the tide"
+        },
+        {
+          "form": "go with the tide",
+          "example": "Leo usually goes with the tide when his friends choose where to eat.",
+          "highlight": "goes with the tide"
+        },
+        {
+          "form": "Patterns 1–12 + an optional context or method phrase.",
+          "example": "Leo usually goes with the tide when his friends choose where to eat.",
+          "highlight": "goes with the tide"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作一般限定動詞短語",
+        "formula": "Subject + go / goes / went + with the tide.",
+        "descriptionEn": "This is one of the most direct and useful patterns.",
+        "descriptionZh": "這是最直接和最實用的句式之一。",
+        "examples": [
+          {
+            "en": "Leo usually goes with the tide.",
+            "zh": "里奧通常會隨大流。",
+            "highlight": "goes with the tide"
+          },
+          {
+            "en": "The whole group went with the tide.",
+            "zh": "整個小組都跟隨了大多數人的做法。",
+            "highlight": "went with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After “To”",
+        "titleZh": "接在 to 之後",
+        "formula": "Subject + verb + to go with the tide.",
+        "descriptionEn": "Source grammar frame: Subject + verb + to go with the tide.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb + to go with the tide。",
+        "examples": [
+          {
+            "en": "The club decided to go with the tide.",
+            "zh": "俱樂部決定順應大多數人的選擇。",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "She prefers to go with the tide on small matters.",
+            "zh": "在小事情上，她傾向跟隨大多數人的選擇。",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "He refused to go with the tide.",
+            "zh": "他拒絕隨大流。",
+            "highlight": "go with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "接在情態動詞之後",
+        "formula": "Subject + may / might / can / could / should / will + go with the tide.",
+        "descriptionEn": "The modal verb expresses possibility, advice, ability, willingness or prediction. It is not part of the idiom.",
+        "descriptionZh": "情態動詞表示可能性、建議、能力、意願或預測，並不是慣用語的固定部分。",
+        "examples": [
+          {
+            "en": "We may go with the tide.",
+            "zh": "我們可能會順應大多數人的選擇。",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "The shop should go with the tide.",
+            "zh": "店舖應該順應市場潮流。",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "I will not go with the tide this time.",
+            "zh": "這次我不會隨大流。",
+            "highlight": "go with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "In Perfect and Progressive Forms",
+        "titleZh": "用於完成式及進行式",
+        "formula": "Subject + have / has / had + gone with the tide.",
+        "descriptionEn": "These forms should be used only when their time meanings are genuinely needed.",
+        "descriptionZh": "只有當完成或持續的時間意思確實重要時，才應使用這些形式。",
+        "examples": [
+          {
+            "en": "Daniel has always gone with the tide.",
+            "zh": "丹尼爾一直都跟隨大多數人的做法。",
+            "highlight": "gone with the tide"
+          },
+          {
+            "en": "The class had already gone with the tide.",
+            "zh": "全班早已跟隨了大多數人的選擇。",
+            "highlight": "gone with the tide"
+          },
+          {
+            "en": "The team is going with the tide.",
+            "zh": "團隊正順應整體趨勢。",
+            "highlight": "going with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "As a Gerund Clause",
+        "titleZh": "以動名詞子句使用",
+        "formula": "Going with the tide + verb.",
+        "descriptionEn": "The complete gerund phrase can function as the subject of a sentence.",
+        "descriptionZh": "整個動名詞短語可以充當句子的主語。",
+        "examples": [
+          {
+            "en": "Going with the tide was easier than standing alone.",
+            "zh": "隨大流比獨自堅持立場容易。",
+            "highlight": "Going with the tide"
+          },
+          {
+            "en": "Going with the tide does not always lead to a good decision.",
+            "zh": "隨大流並不一定會帶來好決定。",
+            "highlight": "Going with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "After a Noun or Preposition",
+        "titleZh": "接在名詞或介詞之後",
+        "formula": "Noun + to go with the tide",
+        "descriptionEn": "She has a habit of going with the tide.",
+        "descriptionZh": "她有隨大流的習慣。",
+        "examples": [
+          {
+            "en": "Her decision to go with the tide surprised us.",
+            "zh": "她決定隨大流，令我們感到意外。",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "The choice to go with the tide was practical.",
+            "zh": "跟隨大多數人的選擇是一個實際的決定。",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "He was criticised for going with the tide.",
+            "zh": "他因為隨大流而受到批評。",
+            "highlight": "going with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After a Linking Structure",
+        "titleZh": "接在連繫結構之後",
+        "formula": "Subject + be + to go with the tide.",
+        "descriptionEn": "All we could do was go with the tide.",
+        "descriptionZh": "我們當時只能順應大多數人的選擇。",
+        "examples": [
+          {
+            "en": "The easiest option was to go with the tide.",
+            "zh": "最容易的選擇就是隨大流。",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "The safer choice seemed to be going with the tide.",
+            "zh": "跟隨大多數人的做法似乎是較安全的選擇。",
+            "highlight": "going with the tide"
+          },
+          {
+            "en": "What the new member did was go with the tide.",
+            "zh": "這名新成員所做的，就是跟隨大多數人的選擇。",
+            "highlight": "go with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "In Questions and Commands",
+        "titleZh": "用於問句及祈使句",
+        "formula": "go with the tide",
+        "descriptionEn": "Let’s go with the tide this time.",
+        "descriptionZh": "這次讓我們順應大多數人的選擇吧。",
+        "examples": [
+          {
+            "en": "Should we go with the tide?",
+            "zh": "我們應該隨大流嗎？",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "Why go with the tide if the majority is clearly wrong?",
+            "zh": "如果大多數人明顯錯了，為甚麼還要隨大流？",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "Go with the tide for now.",
+            "zh": "暫時先順應大多數人的做法吧。",
+            "highlight": "Go with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "With Optional Extensions",
+        "titleZh": "配合可選延伸部分",
+        "formula": "By + V-ing is one optional extension, not part of the expression.",
+        "descriptionEn": "go with the tide when the choice is unimportant go with the tide because everyone already agrees go with the tide on small matters go with the tide rather than argue go with the tide for now",
+        "descriptionZh": "最佳核心句法庫",
+        "examples": [
+          {
+            "en": "The shop decided to go with the tide.",
+            "zh": "店舖決定順應市場潮流。",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "The shop decided to go with the tide by offering online orders.",
+            "zh": "店舖決定提供網上訂購服務，以順應市場潮流。",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "How did the shop go with the tide?",
+            "zh": "店舖以甚麼方式順應潮流？",
+            "highlight": "go with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "What / All + clause + be + go with the tide",
+        "titleZh": "句式十",
+        "formula": "What / All + clause + be + go with the tide.",
+        "descriptionEn": "Source grammar frame: What / All + clause + be + go with the tide.",
+        "descriptionZh": "原檔列出的句法框架：What / All + clause + be + go with the tide。",
+        "examples": [
+          {
+            "en": "Leo usually goes with the tide when his friends choose where to eat.",
+            "zh": "朋友選擇用餐地點時，里奧通常會跟隨大多數人的選擇。",
+            "highlight": "goes with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Should / Why + subject + go with the tide",
+        "titleZh": "句式十一",
+        "formula": "Should / Why + subject + go with the tide?",
+        "descriptionEn": "Source grammar frame: Should / Why + subject + go with the tide?.",
+        "descriptionZh": "原檔列出的句法框架：Should / Why + subject + go with the tide?。",
+        "examples": [
+          {
+            "en": "Leo usually goes with the tide when his friends choose where to eat.",
+            "zh": "朋友選擇用餐地點時，里奧通常會跟隨大多數人的選擇。",
+            "highlight": "goes with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Go / Let’s go with the tide",
+        "titleZh": "句式十二",
+        "formula": "go with the tide",
+        "descriptionEn": "Source grammar frame: go with the tide.",
+        "descriptionZh": "原檔列出的句法框架：go with the tide。",
+        "examples": [
+          {
+            "en": "Leo usually goes with the tide when his friends choose where to eat.",
+            "zh": "朋友選擇用餐地點時，里奧通常會跟隨大多數人的選擇。",
+            "highlight": "goes with the tide"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 13,
+        "titleEn": "Patterns 1–12 + an optional context or method phrase",
+        "titleZh": "句式十三",
+        "formula": "Patterns 1–12 + an optional context or method phrase.",
+        "descriptionEn": "Source grammar frame: Patterns 1–12 + an optional context or method phrase.",
+        "descriptionZh": "原檔列出的句法框架：Patterns 1–12 + an optional context or method phrase。",
+        "examples": [
+          {
+            "en": "Leo usually goes with the tide when his friends choose where to eat.",
+            "zh": "朋友選擇用餐地點時，里奧通常會跟隨大多數人的選擇。",
+            "highlight": "goes with the tide"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Connects a Personal Choice with a Wider Trend",
+        "titleZh": "把個人選擇與整體趨勢連繫起來",
+        "en": "The idiomatic version shows that Leo’s decision was influenced by the direction taken by the wider group.",
+        "zh": "慣用語版本顯示，里奧的決定受到整個群體方向的影響。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Can Describe Both People and Organisations",
+        "titleZh": "既可描述個人，也可描述機構",
+        "en": "It Can Describe Both People and Organisations",
+        "zh": "艾拉決定隨大流。 店舖決定順應市場潮流。",
+        "examples": [
+          {
+            "en": "Ella decided to go with the tide.",
+            "zh": "艾拉決定隨大流。",
+            "highlight": "go with the tide"
+          },
+          {
+            "en": "The shop decided to go with the tide.",
+            "zh": "店舖決定順應市場潮流。",
+            "highlight": "go with the tide"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Be Neutral or Evaluative",
+        "titleZh": "可以作中性描述或表達評價",
+        "en": "The surrounding sentence allows the speaker to show approval, doubt or criticism.",
+        "zh": "兩個選擇都可以接受，所以我們跟隨了大多數人的決定。 我們沒有仔細思考便隨大流。 周圍的句子可以表達認同、懷疑或批評。",
+        "examples": [
+          {
+            "en": "We went with the tide because either option was acceptable.",
+            "zh": "兩個選擇都可以接受，所以我們跟隨了大多數人的決定。",
+            "highlight": "went with the tide"
+          },
+          {
+            "en": "We went with the tide without thinking carefully.",
+            "zh": "我們沒有仔細思考便隨大流。",
+            "highlight": "went with the tide"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Provides a Concise Alternative",
+        "titleZh": "把較長的解釋縮短",
+        "en": "The idiom compresses the ideas of majority influence, general direction and non-resistance.",
+        "zh": "咖啡店決定順應市場潮流。 這個慣用語把「受到大多數人影響」、「整體方向」和「不作反抗」濃縮成一個表達。",
+        "examples": [
+          {
+            "en": "The café decided to go with the tide.",
+            "zh": "咖啡店決定順應市場潮流。",
+            "highlight": "go with the tide"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Supports Useful Contrasts",
+        "titleZh": "方便表達對比",
+        "en": "go with the tide go against the tide The contrast is useful when discussing independent thinking and group pressure.",
+        "zh": "隨大流； 順應潮流逆流而行； 反對主流做法這個對比適合用來討論獨立思考及群體壓力。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The word tide originally referred to a time, period or season in Old English. Its meaning connected with the regular movement of the sea developed later, during the late Middle English period. This is the history of the word tide, not proof of when the complete idiom was invented.",
+          "zh": "tide 在古英語中原本表示時間、時期或季節。 它與海水規律升降有關的意思，到中古英語後期才逐漸形成。 這是 tide 這個字的歷史，並不能證明完整慣用語在何時誕生。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Moving with a strong tide requires less resistance. This physical image naturally came to represent following the prevailing behaviour, opinion or trend instead of opposing it.",
+          "zh": "順着強大潮水前進時，所需的抵抗較少。 這個實際畫面自然演變成「跟隨普遍行為、意見或趨勢， 而不加以反抗」的比喻意思。"
+        }
+      ],
+      "memoryEn": "The water is already moving in one direction; going with it is like following the direction taken by most people.",
+      "memoryZh": "水流已朝一個方向前進；順着水流而行，就像跟隨大多數人的方向。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “With the Tide” Fixed",
+        "titleZh": "規則一：with the tide 必須保持固定",
+        "en": "Keep “With the Tide” Fixed",
+        "zh": "with the tide 必須保持固定",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Go” Correctly",
+        "titleZh": "規則二：正確改變 go",
+        "en": "Change “Go” Correctly",
+        "zh": "正確改變 go",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則三：保留時態及確定程度",
+        "en": "The incorrect answer changes a possibility into a completed event.",
+        "zh": "錯誤答案把「可能會發生」改成了「已經發生」。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Source Must Contain a Majority or Trend",
+        "titleZh": "規則四：原句必須包含多數人的做法或整體趨勢",
+        "en": "Nothing in the second source establishes a popular practice or general direction.",
+        "zh": "第二個原句沒有建立任何大多數人的做法或整體趨勢。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Confuse It with Being Relaxed",
+        "titleZh": "規則五：不要把它當作「放鬆隨意」",
+        "en": "Do Not Confuse It with Being Relaxed",
+        "zh": "不要把它當作「放鬆隨意」",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It May Be Neutral or Critical",
+        "titleZh": "規則六：可以是中性，也可以帶批評",
+        "en": "Do not automatically translate every example with a strongly negative phrase.",
+        "zh": "小組認為這個選擇不太重要，所以跟隨了大多數人的決定。 小組沒有查證事實便隨大流。 不要把每個例子都翻譯成帶強烈批評意味的說法。",
+        "examples": [
+          {
+            "en": "The group went with the tide because the choice did not matter much.",
+            "zh": "小組認為這個選擇不太重要，所以跟隨了大多數人的決定。",
+            "highlight": "went with the tide"
+          },
+          {
+            "en": "The group went with the tide without checking the facts.",
+            "zh": "小組沒有查證事實便隨大流。",
+            "highlight": "went with the tide"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Use It for Following a Direct Order",
+        "titleZh": "規則七：不可單純用來表示服從命令",
+        "en": "This does not necessarily mean they followed a popular trend. Followed the instructions is clearer.",
+        "zh": "這只表示乘客遵從安全指示，不一定涉及隨大流。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Use It for a Coincidental Similar Choice",
+        "titleZh": "規則八：不可用於純粹巧合的相同選擇",
+        "en": "If two people independently choose the same meal without knowing the other person’s choice, neither person has necessarily gone with the tide.",
+        "zh": "如果兩人互不知道對方的選擇，只是碰巧選了相同食物，就不一定屬於隨大流。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Avoid Literal Sea Contexts",
+        "titleZh": "規則九：避免字面上的潮水語境",
+        "en": "Every answer in this exercise must use the figurative meaning.",
+        "zh": "小船隨着潮水駛向港口。 公司順應市場潮流，推出大多數顧客想要的服務。 本練習的所有答案都必須使用比喻意思。",
+        "examples": [
+          {
+            "en": "The small boat went with the tide towards the harbour.",
+            "zh": "小船隨着潮水駛向港口。",
+            "highlight": "went with the tide"
+          },
+          {
+            "en": "The company went with the tide and introduced the service that most customers wanted.",
+            "zh": "公司順應市場潮流，推出大多數顧客想要的服務。",
+            "highlight": "went with the tide"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Following the Majority Is Not Always Wise",
+        "titleZh": "規則十：跟隨大多數人不一定明智",
+        "en": "The expression describes a choice. It does not automatically praise that choice.",
+        "zh": "這個慣用語描述一種選擇，但不一定表示說話者認同或讚賞這個選擇。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "The first word of each canonical answer has been provided.",
+      "zh": "使用 go with the tide 的正確形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-118-q01",
+        "number": 1,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "When Leo’s friends choose a restaurant, he usually accepts the choice made by most of them.",
+        "promptZh": "里奧的朋友選擇餐廳時，他通常會接受大多數人的選擇。",
+        "starter": "Leo",
+        "answer": "Leo usually goes with the tide when his friends choose where to eat.",
+        "answerZh": "朋友選擇用餐地點時，里奧通常會跟隨大多數人的選擇。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "goes with the tide"
+      },
+      {
+        "id": "idiom-118-q02",
+        "number": 2,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The rest of Ava’s group chose blue, so she chose blue as well.",
+        "promptZh": "艾娃小組內的其他人都選擇藍色，所以她也選了藍色。",
+        "starter": "Ava",
+        "answer": "Ava went with the tide and chose the same colour as the rest of her group.",
+        "answerZh": "艾娃跟隨了大多數人的選擇，選了和小組其他成員相同的顏色。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "went with the tide"
+      },
+      {
+        "id": "idiom-118-q03",
+        "number": 3,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Most students supported the museum trip, and our class decided to accept that popular choice.",
+        "promptZh": "大多數學生都支持博物館之旅，而我們班決定接受這個最受歡迎的選擇。",
+        "starter": "Our",
+        "answer": "Our class decided to go with the tide and support the most popular trip.",
+        "answerZh": "我們班決定順應大多數人的選擇，支持最受歡迎的旅程。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q04",
+        "number": 4,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Ben normally accepts the majority’s decision instead of arguing with everybody.",
+        "promptZh": "本通常會接受大多數人的決定，而不是和所有人爭論。",
+        "starter": "Ben",
+        "answer": "Ben tends to go with the tide instead of arguing with everybody.",
+        "answerZh": "本傾向跟隨大多數人的選擇，而不是和所有人爭論。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q05",
+        "number": 5,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The new worker follows the choices made by most of the team.",
+        "promptZh": "這名新員工會跟隨團隊大多數人的選擇。",
+        "starter": "The",
+        "answer": "The new worker goes with the tide in most team decisions.",
+        "answerZh": "在大部分團隊決定中，這名新員工都會跟隨大多數人的選擇。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "goes with the tide"
+      },
+      {
+        "id": "idiom-118-q06",
+        "number": 6,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "We wanted to avoid another long debate, so we accepted the majority’s decision.",
+        "promptZh": "我們希望避免另一場長時間的爭論，所以接受了大多數人的決定。",
+        "starter": "To",
+        "answer": "To avoid another long debate, we went with the tide.",
+        "answerZh": "為了避免另一場長時間的爭論，我們接受了大多數人的決定。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "went with the tide"
+      },
+      {
+        "id": "idiom-118-q07",
+        "number": 7,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Everyone else left the party early, so Priya decided to leave early too.",
+        "promptZh": "其他人都提早離開派對，所以普里雅也決定提早離開。",
+        "starter": "When",
+        "answer": "When everyone else left early, Priya chose to go with the tide.",
+        "answerZh": "其他人都提早離開時，普里雅選擇跟隨大家。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q08",
+        "number": 8,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The shop follows current customer tastes by selling the styles that most people want.",
+        "promptZh": "店舖售賣大多數顧客想要的款式，以順應現時的顧客喜好。",
+        "starter": "The",
+        "answer": "The shop goes with the tide by selling the styles most customers want.",
+        "answerZh": "店舖售賣大多數顧客想要的款式，以順應市場潮流。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "goes with the tide"
+      },
+      {
+        "id": "idiom-118-q09",
+        "number": 9,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Following the majority was easier than being the only person with a different opinion.",
+        "promptZh": "跟隨大多數人的選擇，比成為唯一持不同意見的人容易。",
+        "starter": "Going",
+        "answer": "Going with the tide was easier than standing alone.",
+        "answerZh": "隨大流比獨自堅持不同立場容易。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "Going with the tide"
+      },
+      {
+        "id": "idiom-118-q10",
+        "number": 10,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "When a choice is not very important, I usually do what most other people do.",
+        "promptZh": "當一個選擇不太重要時，我通常會跟隨大多數人的做法。",
+        "starter": "I",
+        "answer": "I usually go with the tide when the choice does not matter much.",
+        "answerZh": "當一個選擇不太重要時，我通常會跟隨大多數人的做法。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q11",
+        "number": 11,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Most club members prefer the same app, so the club will probably choose it.",
+        "promptZh": "大多數俱樂部成員都喜歡同一個應用程式，所以俱樂部很可能會選擇它。",
+        "starter": "The",
+        "answer": "The club will probably go with the tide and use the app that most members prefer.",
+        "answerZh": "俱樂部很可能會順應大多數成員的選擇，使用他們最喜歡的應用程式。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q12",
+        "number": 12,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Nearly everyone supports the new meeting time. We may accept their choice.",
+        "promptZh": "差不多所有人都支持新的會議時間。我們可能會接受他們的選擇。",
+        "starter": "We",
+        "answer": "We may go with the tide if nearly everyone supports the new meeting time.",
+        "answerZh": "如果差不多所有人都支持新的會議時間，我們可能會順應他們的選擇。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q13",
+        "number": 13,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Daniel has always accepted the majority’s choice when his family makes holiday plans.",
+        "promptZh": "家人制訂假期計劃時，丹尼爾一直都會接受大多數人的選擇。",
+        "starter": "Daniel",
+        "answer": "Daniel has always gone with the tide when his family makes holiday plans.",
+        "answerZh": "家人制訂假期計劃時，丹尼爾一直都會跟隨大多數人的選擇。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "gone with the tide"
+      },
+      {
+        "id": "idiom-118-q14",
+        "number": 14,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The team was clearly following the general trend when it copied the idea used by most other schools.",
+        "promptZh": "團隊仿效大多數其他學校採用的想法時，明顯是在跟隨整體趨勢。",
+        "starter": "The",
+        "answer": "The team was clearly going with the tide when it copied the idea used by most other schools.",
+        "answerZh": "團隊仿效大多數其他學校採用的想法時，明顯是在跟隨整體趨勢。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "going with the tide"
+      },
+      {
+        "id": "idiom-118-q15",
+        "number": 15,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "You can follow the majority, but you should still consider the choice for yourself.",
+        "promptZh": "你可以跟隨大多數人的選擇，但仍然應該自行考慮。",
+        "starter": "You",
+        "answer": "You can go with the tide, but you should still think for yourself.",
+        "answerZh": "你可以跟隨大多數人的選擇，但仍然應該自行思考。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q16",
+        "number": 16,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Nearly everyone wants the outdoor table. B: Then let us accept the popular choice this time.",
+        "promptZh": "甲：差不多所有人都想坐在戶外的桌子。 乙：那麼這次就讓我們接受最受歡迎的選擇吧。",
+        "starter": "Then",
+        "answer": "Then let’s go with the tide this time.",
+        "answerZh": "那麼這次就讓我們接受最受歡迎的選擇吧。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q17",
+        "number": 17,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Nearly every café in the area now offers online ordering. Rather than resist the trend, this café decided to do the same.",
+        "promptZh": "區內差不多每間咖啡店現在都提供網上訂購。這間咖啡店沒有抗拒趨勢，而是決定採取相同做法。",
+        "starter": "Rather",
+        "answer": "Rather than fight the trend, the café decided to go with the tide and offer online ordering.",
+        "answerZh": "這間咖啡店沒有抗拒趨勢，而是決定順應潮流，提供網上訂購。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Her acceptance of the majority’s opinion made the group decision much easier.",
+        "promptZh": "她接受大多數人的意見，令小組更容易作出決定。",
+        "starter": "Her",
+        "answer": "Her decision to go with the tide made the group choice much easier.",
+        "answerZh": "她決定接受大多數人的意見，令小組更容易作出選擇。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q19",
+        "number": 19,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Everyone else had already agreed, so accepting the majority’s choice was the easiest option.",
+        "promptZh": "其他人早已同意，所以接受大多數人的選擇是最容易的做法。",
+        "starter": "The",
+        "answer": "The easiest option was to go with the tide.",
+        "answerZh": "最容易的選擇就是隨大流。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q20",
+        "number": 20,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Before the teacher asked for individual opinions, the students had already copied the choice made by most of the class.",
+        "promptZh": "在老師要求大家提出個人意見之前，學生早已跟隨班內大多數人的選擇。",
+        "starter": "The",
+        "answer": "The students had already gone with the tide before the teacher asked for their own opinions.",
+        "answerZh": "在老師要求學生提出個人意見之前，他們早已跟隨了班內大多數人的選擇。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "gone with the tide"
+      },
+      {
+        "id": "idiom-118-q21",
+        "number": 21,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Nearly everybody is wearing blue to the event. B: I may as well wear blue too.",
+        "promptZh": "甲：差不多所有人都會穿藍色衣服出席活動。 乙：我不妨也穿藍色吧。",
+        "starter": "I",
+        "answer": "I might as well go with the tide and wear blue too.",
+        "answerZh": "我不妨跟隨大家，也穿藍色吧。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Almost every shop nearby has stopped giving out plastic bags. B: Our shop should follow the same trend.",
+        "promptZh": "甲：附近差不多每間店舖都已停止派發膠袋。 乙：我們的店舖也應該跟隨這個趨勢。",
+        "starter": "Our",
+        "answer": "Our shop should go with the tide and stop giving out plastic bags.",
+        "answerZh": "我們的店舖應該順應整體趨勢，停止派發膠袋。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q23",
+        "number": 23,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The manager asked whether the company should follow the growing trend or keep its old system.",
+        "promptZh": "經理詢問公司應該跟隨日漸普遍的趨勢，還是保留舊有系統。",
+        "starter": "The",
+        "answer": "The manager asked whether the company should go with the tide or keep its old system.",
+        "answerZh": "經理詢問公司應該順應整體趨勢，還是保留舊有系統。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q24",
+        "number": 24,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Most local bands were playing the same popular song. This band chose it too instead of selecting something different.",
+        "promptZh": "大多數本地樂隊都在演奏同一首流行歌曲。這支樂隊沒有選擇不同的歌曲，也演奏了這一首。",
+        "starter": "Instead",
+        "answer": "Instead of choosing a different song, the band went with the tide and played the popular one.",
+        "answerZh": "樂隊沒有選擇不同的歌曲，而是跟隨潮流，演奏了那首流行歌曲。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "went with the tide"
+      },
+      {
+        "id": "idiom-118-q25",
+        "number": 25,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Everyone else supported the plan, which made Ryan more willing to accept the majority’s position.",
+        "promptZh": "其他人都支持這個計劃，令賴恩更願意接受大多數人的立場。",
+        "starter": "The",
+        "answer": "The fact that everyone else agreed made Ryan more willing to go with the tide.",
+        "answerZh": "其他人全都同意，令賴恩更願意跟隨大多數人的立場。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q26",
+        "number": 26,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: All the others are leaving at six. B: Fine. I will leave at six too.",
+        "promptZh": "甲：其他人全都會在六時離開。 乙：好吧。我也會在六時離開。",
+        "starter": "Fine",
+        "answer": "Fine. I’ll go with the tide and leave at six too.",
+        "answerZh": "好吧。我會跟隨大家，也在六時離開。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q27",
+        "number": 27,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The new member chose not to challenge the entire group and simply followed its decision.",
+        "promptZh": "這名新成員選擇不挑戰整個小組，只是跟隨小組的決定。",
+        "starter": "What",
+        "answer": "What the new member did was go with the tide rather than challenge the whole group.",
+        "answerZh": "這名新成員所做的，就是跟隨大多數人的選擇，而不是挑戰整個小組。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q28",
+        "number": 28,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The restaurant followed current food trends because it hoped to attract younger customers.",
+        "promptZh": "餐廳跟隨現時的飲食潮流，希望吸引較年輕的顧客。",
+        "starter": "By",
+        "answer": "By going with the tide, the restaurant hoped to attract younger customers.",
+        "answerZh": "餐廳希望透過順應飲食潮流，吸引較年輕的顧客。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "going with the tide"
+      },
+      {
+        "id": "idiom-118-q29",
+        "number": 29,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "More families were supporting a later school start, and the parents appeared to be following that growing opinion.",
+        "promptZh": "愈來愈多家庭支持延遲上課時間，而家長似乎正在跟隨這個日漸普遍的意見。",
+        "starter": "The",
+        "answer": "The parents seemed to be going with the tide as more families supported a later school start.",
+        "answerZh": "隨着愈來愈多家庭支持延遲上課時間，家長似乎也在跟隨這個日漸普遍的意見。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "going with the tide"
+      },
+      {
+        "id": "idiom-118-q30",
+        "number": 30,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The group welcomed different ideas, so nobody needed to copy the majority.",
+        "promptZh": "小組歡迎不同想法，所以沒有人需要跟隨大多數人的選擇。",
+        "starter": "There",
+        "answer": "There was no need to go with the tide because the group welcomed different ideas.",
+        "answerZh": "小組歡迎不同想法，所以沒有必要跟隨大多數人的選擇。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q31",
+        "number": 31,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Ethan did not like the design, but the rest of the team strongly supported it, so he accepted their choice.",
+        "promptZh": "伊頓並不喜歡這個設計，但團隊其他成員都十分支持，所以他接受了他們的選擇。",
+        "starter": "Although",
+        "answer": "Although Ethan disliked the design, he went with the tide because the rest of the team strongly supported it.",
+        "answerZh": "雖然伊頓不喜歡這個設計，但團隊其他成員都十分支持，所以他接受了大多數人的選擇。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "went with the tide"
+      },
+      {
+        "id": "idiom-118-q32",
+        "number": 32,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "If most residents choose the weekend market, the local centre will accept that popular choice.",
+        "promptZh": "如果大多數居民都選擇週末市集，本地中心便會接受這個最受歡迎的選擇。",
+        "starter": "If",
+        "answer": "If most residents choose the weekend market, the local centre will go with the tide.",
+        "answerZh": "如果大多數居民都選擇週末市集，本地中心便會接受這個最受歡迎的選擇。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q33",
+        "number": 33,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The school did not automatically copy the popular idea. It first checked whether the idea was safe.",
+        "promptZh": "學校沒有自動跟隨這個流行想法，而是先檢查它是否安全。",
+        "starter": "The",
+        "answer": "The school did not simply go with the tide; it first asked whether the popular idea was safe.",
+        "answerZh": "學校沒有單純跟隨潮流，而是先考慮這個流行想法是否安全。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q34",
+        "number": 34,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The same change was already taking place across the whole industry, so the company chose not to resist it.",
+        "promptZh": "整個行業早已出現相同改變，所以公司選擇不加以抗拒。",
+        "starter": "Since",
+        "answer": "Since the change was already happening across the whole industry, the company chose to go with the tide.",
+        "answerZh": "由於整個行業早已出現相同改變，公司選擇順應這個趨勢。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q35",
+        "number": 35,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Do you truly support the plan? B: Not completely. I am only following everybody else.",
+        "promptZh": "甲：你真的支持這個計劃嗎？ 乙：不完全支持。我只是在跟隨其他人。",
+        "starter": "Not",
+        "answer": "Not completely; I am just going with the tide.",
+        "answerZh": "不完全支持；我只是在跟隨其他人。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "going with the tide"
+      },
+      {
+        "id": "idiom-118-q36",
+        "number": 36,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "She often follows the majority, and this sometimes prevents her from sharing better ideas.",
+        "promptZh": "她經常跟隨大多數人，而這個習慣有時令她無法提出更好的想法。",
+        "starter": "Her",
+        "answer": "Her habit of going with the tide sometimes stopped her from sharing better ideas.",
+        "answerZh": "她隨大流的習慣，有時令她無法提出更好的想法。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "going with the tide"
+      },
+      {
+        "id": "idiom-118-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Most students supported the shortcut, but one student explained why the majority might be wrong.",
+        "promptZh": "大多數學生都支持走捷徑，但其中一名學生解釋了為甚麼大多數人可能是錯的。",
+        "starter": "Rather",
+        "answer": "Rather than go with the tide, the student explained why the majority might be wrong.",
+        "answerZh": "這名學生沒有隨大流，而是解釋了為甚麼大多數人可能是錯的。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q38",
+        "number": 38,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The coach said the team could follow the majority on small matters, but not when safety was involved.",
+        "promptZh": "教練表示，團隊在小事情上可以跟隨大多數人，但涉及安全時則不可以。",
+        "starter": "The",
+        "answer": "The coach said the team could go with the tide on small matters but not on safety.",
+        "answerZh": "教練表示，團隊在小事情上可以跟隨大多數人，但涉及安全時則不可以。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q39",
+        "number": 39,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The class accepted a popular claim without checking whether it was true, and this worried the teacher.",
+        "promptZh": "全班沒有查證一個流行說法是否真確便加以接受，令老師感到擔心。",
+        "starter": "What",
+        "answer": "What worried the teacher was that the class had gone with the tide without checking the facts.",
+        "answerZh": "令老師擔心的是，全班沒有查證事實便跟隨了大多數人的意見。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "gone with the tide"
+      },
+      {
+        "id": "idiom-118-q40",
+        "number": 40,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Normally I accept the majority’s choice, but this time I made my own decision.",
+        "promptZh": "我通常會接受大多數人的選擇，但這次我自行作出了決定。",
+        "starter": "For",
+        "answer": "For once, I refused to go with the tide and made my own choice.",
+        "answerZh": "這一次，我拒絕隨大流，並自行作出選擇。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q41",
+        "number": 41,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The hotel noticed that most guests now booked through their phones. Its response was to follow that trend and improve mobile booking.",
+        "promptZh": "酒店留意到大多數住客現在都使用手機預訂。酒店的回應是跟隨這個趨勢，改善手機預訂服務。",
+        "starter": "The",
+        "answer": "The hotel’s response was to go with the tide and improve mobile booking.",
+        "answerZh": "酒店的回應是順應顧客趨勢，改善手機預訂服務。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Other teams have copied the new method. Should we do the same? B: We can follow them only if the method genuinely helps us.",
+        "promptZh": "甲：其他團隊都仿效了這個新方法。我們應該採用相同方法嗎？ 乙：只有在這個方法真正對我們有幫助時，我們才可以跟隨他們。",
+        "starter": "We",
+        "answer": "We can go with the tide only if the new method genuinely helps us.",
+        "answerZh": "只有在這個新方法真正對我們有幫助時，我們才可以跟隨其他團隊的做法。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q43",
+        "number": 43,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Following the majority may appear easier, but people should still ask whether the majority is right.",
+        "promptZh": "跟隨大多數人可能看似較容易，但人們仍應該思考大多數人是否正確。",
+        "starter": "Even",
+        "answer": "Even when going with the tide seems easier, people should ask whether the majority is right.",
+        "answerZh": "即使隨大流看似較容易，人們仍應該思考大多數人是否正確。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "going with the tide"
+      },
+      {
+        "id": "idiom-118-q44",
+        "number": 44,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The editor was criticised because he followed current popularity and published only stories that were already widely discussed.",
+        "promptZh": "這名編輯受到批評，因為他跟隨現時潮流，只刊登早已廣受討論的故事。",
+        "starter": "The",
+        "answer": "The editor was accused of going with the tide because he published only stories that were already popular.",
+        "answerZh": "這名編輯被指只跟隨現時潮流，刊登早已流行的故事。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "going with the tide"
+      },
+      {
+        "id": "idiom-118-q45",
+        "number": 45,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The cost of each choice would determine whether the group followed the popular direction or took a different path.",
+        "promptZh": "每個選擇的成本，將會決定小組是跟隨普遍方向，還是選擇另一條道路。",
+        "starter": "Whether",
+        "answer": "Whether to go with the tide or take a different path depended on the cost of each choice.",
+        "answerZh": "究竟應該跟隨普遍方向，還是選擇另一條道路，取決於每個選擇的成本。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q46",
+        "number": 46,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Nearly every company had moved its service online, so this company removed the telephone service. It may have followed the trend too quickly because older customers still needed the telephone.",
+        "promptZh": "差不多每間公司都把服務轉到網上，所以這間公司取消了電話服務。由於年長顧客仍需要電話服務，公司可能太快跟隨了潮流。",
+        "starter": "The",
+        "answer": "The company may have gone with the tide too quickly when it removed the telephone service.",
+        "answerZh": "公司取消電話服務時，可能太快跟隨了市場潮流。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "gone with the tide"
+      },
+      {
+        "id": "idiom-118-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Most committee members had already made their final choice. At that stage, the remaining members could only accept the direction taken by the majority.",
+        "promptZh": "大多數委員會成員早已作出最後選擇。在那個階段，其他成員只能接受大多數人的方向。",
+        "starter": "All",
+        "answer": "All the committee could do at that stage was go with the tide and accept the choice most members had made.",
+        "answerZh": "在那個階段，委員會只能接受大多數成員已經作出的選擇。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q48",
+        "number": 48,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Several similar shops had successfully extended their opening hours, so the owner decided to follow the same trend.",
+        "promptZh": "幾間同類店舖延長營業時間後都取得成功，所以店主決定跟隨相同趨勢。",
+        "starter": "After",
+        "answer": "After watching several similar shops succeed, the owner decided to go with the tide.",
+        "answerZh": "看到幾間同類店舖取得成功後，店主決定跟隨相同趨勢。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q49",
+        "number": 49,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The most popular choice would clearly create more problems, so there was no good reason to follow it.",
+        "promptZh": "最受歡迎的選擇明顯會造成更多問題，所以沒有充分理由跟隨它。",
+        "starter": "Why",
+        "answer": "Why go with the tide if the popular choice clearly causes more problems?",
+        "answerZh": "如果最受歡迎的選擇明顯會造成更多問題，為甚麼還要隨大流？",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      },
+      {
+        "id": "idiom-118-q50",
+        "number": 50,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The fact that everyone else is moving in one direction is not, by itself, a good reason for us to follow them.",
+        "promptZh": "其他人全都朝同一方向前進，本身並不是我們跟隨他們的充分理由。",
+        "starter": "We",
+        "answer": "We should not go with the tide merely because everyone else is moving in the same direction.",
+        "answerZh": "我們不應只因其他人全都朝同一方向前進，便盲目跟隨他們。",
+        "targetForm": "go with the tide",
+        "targetMeaning": "To follow what most other people are doing, thinking or supporting instead of resisting the general direction.",
+        "highlight": "go with the tide"
+      }
+    ]
+  }
+}

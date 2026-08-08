@@ -1,0 +1,1405 @@
+{
+  "lesson": {
+    "id": "idiom-37",
+    "order": 37,
+    "slug": "the-moment-of-truth",
+    "version": "1",
+    "title": "關鍵時刻／真正接受考驗的時刻",
+    "titleEn": "the moment of truth",
+    "titleZh": "關鍵時刻／真正接受考驗的時刻",
+    "source": {
+      "file": "Idiom 37 -「THE MOMENT OF TRUTH」.pdf",
+      "pageCount": 27,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "exercisePdfPages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "answerKeyPdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "the moment of truth",
+        "highlight": "the moment of truth"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The final interview will be the moment of truth for Nathan.",
+        "zh": "最後面試將會是彌敦真正接受考驗的關鍵時刻。",
+        "highlight": "the moment of truth"
+      },
+      {
+        "en": "The moment of truth will come when the judges announce the result.",
+        "zh": "當評判公布結果時，成敗揭曉的關鍵時刻便會來臨。",
+        "highlight": "The moment of truth"
+      }
+    ],
+    "meaning": {
+      "en": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+      "zh": "一個重要而具決定性的時刻；某個人、計劃、產品、能力或努力真正接受考驗，而結果、實際表現或未來發展即將揭曉。",
+      "naturalZh": [
+        "關鍵時刻",
+        "真正接受考驗的時刻",
+        "成敗揭曉的一刻",
+        "決定成敗的時刻",
+        "見真章的時候"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "everyday conversations; school and workplace discussions; presentations and interviews; sports reports; news and general writing; stories describing an important test or decision.",
+      "summaryZh": "這個表達屬中性，但帶有較強的強調作用。 它可以自然用於日常對話、學校及工作討論、簡報、訪問、體育報道、新聞及一般文章。",
+      "contextsEn": [
+        "everyday conversations",
+        "school and workplace discussions",
+        "presentations and interviews",
+        "sports reports",
+        "news and general writing",
+        "stories describing an important test or decision"
+      ],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "the moment of truth",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "X + be + the moment of truth + for + person, plan or thing.",
+          "example": "The final interview will be the moment of truth for Nathan.",
+          "highlight": "the moment of truth"
+        },
+        {
+          "form": "The moment of truth + come / arrive + when + clause.",
+          "example": "The moment of truth will come when the judges announce the result.",
+          "highlight": "The moment of truth"
+        },
+        {
+          "form": "Subject + reach / face / approach + the moment of truth.",
+          "example": "The team has reached the moment of truth.",
+          "highlight": "the moment of truth"
+        },
+        {
+          "form": "At the moment of truth, + subject + action.",
+          "example": "At the moment of truth, Clara remained calm.",
+          "highlight": "the moment of truth"
+        },
+        {
+          "form": "the moment of truth",
+          "example": "Now comes the moment of truth: we are switching on the machine.",
+          "highlight": "the moment of truth"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Identifying the Decisive Test",
+        "titleZh": "句式一：指出決定性的考驗",
+        "formula": "X + be + the moment of truth + for + person, plan or thing.",
+        "descriptionEn": "Source grammar frame: X + be + the moment of truth + for + person, plan or thing.",
+        "descriptionZh": "原檔列出的句法框架：X + be + the moment of truth + for + person, plan or thing。",
+        "examples": [
+          {
+            "en": "The final interview will be the moment of truth for Nathan.",
+            "zh": "最後面試將會是彌敦真正接受考驗的關鍵時刻。",
+            "highlight": "the moment of truth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Explaining When It Comes",
+        "titleZh": "句式二：說明關鍵時刻何時來臨",
+        "formula": "The moment of truth + come / arrive + when + clause.",
+        "descriptionEn": "Source grammar frame: The moment of truth + come / arrive + when + clause.",
+        "descriptionZh": "原檔列出的句法框架：The moment of truth + come / arrive + when + clause。",
+        "examples": [
+          {
+            "en": "The moment of truth will come when the judges announce the result.",
+            "zh": "當評判公布結果時，成敗揭曉的關鍵時刻便會來臨。",
+            "highlight": "The moment of truth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Reaching or Facing It",
+        "titleZh": "句式三：來到或面對關鍵時刻",
+        "formula": "Subject + reach / face / approach + the moment of truth.",
+        "descriptionEn": "Source grammar frame: Subject + reach / face / approach + the moment of truth.",
+        "descriptionZh": "原檔列出的句法框架：Subject + reach / face / approach + the moment of truth。",
+        "examples": [
+          {
+            "en": "The team has reached the moment of truth.",
+            "zh": "團隊已來到真正接受考驗的關鍵時刻。",
+            "highlight": "the moment of truth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Beginning with the Expression",
+        "titleZh": "句式四：把慣用語放在句首",
+        "formula": "At the moment of truth, + subject + action.",
+        "descriptionEn": "Source grammar frame: At the moment of truth, + subject + action.",
+        "descriptionZh": "原檔列出的句法框架：At the moment of truth, + subject + action。",
+        "examples": [
+          {
+            "en": "At the moment of truth, Clara remained calm.",
+            "zh": "在真正接受考驗的關鍵時刻，克拉拉仍保持冷靜。",
+            "highlight": "the moment of truth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Creating Immediate Suspense",
+        "titleZh": "句式五：營造即將揭曉的感覺",
+        "formula": "the moment of truth",
+        "descriptionEn": "Source grammar frame: the moment of truth.",
+        "descriptionZh": "原檔列出的句法框架：the moment of truth。",
+        "examples": [
+          {
+            "en": "Now comes the moment of truth: we are switching on the machine.",
+            "zh": "關鍵時刻到了：我們正要開啟機器。",
+            "highlight": "the moment of truth"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Highlights a Decisive Test",
+        "titleZh": "突出決定性的考驗",
+        "en": "The expression does more than say that something is being tested. It suggests that the result matters and will reveal whether the earlier preparation was successful. The final match will be the moment of truth for the team.",
+        "zh": "這個表達不只是說明某事正在接受測試，還表示結果十分重要，並會顯示之前的準備是否成功。 第二句更能突出這場比賽將會決定球隊的成敗。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Connects Preparation with the Result",
+        "titleZh": "把準備工作與結果連繫起來",
+        "en": "The expression is useful after somebody has studied, practised, planned, built or prepared something.",
+        "zh": "當某人已完成溫習、練習、計劃、製作或準備工作後，這個表達尤其實用。 經過六星期練習，今晚的演出將會是真正接受考驗的關鍵時刻。",
+        "examples": [
+          {
+            "en": "After six weeks of practice, tonight’s performance will be the moment of truth.",
+            "zh": "經過六星期練習，今晚的演出將會是真正接受考驗的關鍵時刻。",
+            "highlight": "the moment of truth"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Creates Suspense",
+        "titleZh": "營造緊張感",
+        "en": "This sentence tells the listener that an important result is about to become clear.",
+        "zh": "會告訴聽者，一項重要結果即將揭曉。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Describe People, Plans and Things",
+        "titleZh": "可以形容人、計劃及事物接受考驗",
+        "en": "The weight test will be the moment of truth for the bridge.",
+        "zh": "這個表達可以指出某個人、計劃、系統或物件真正接受考驗的一刻。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Provides a Concise Alternative",
+        "titleZh": "把較長的解釋縮短",
+        "en": "The idiom packages the ideas of testing, importance and revelation into one expression.",
+        "zh": "明天的測試將會是修理好的機器真正接受考驗的關鍵時刻。 這個慣用語把「接受考驗」、「結果重要」和「真實表現即將顯現」幾個意思集中在一個表達之中。",
+        "examples": [
+          {
+            "en": "Tomorrow’s test will be the moment of truth for the repaired machine.",
+            "zh": "明天的測試將會是修理好的機器真正接受考驗的關鍵時刻。",
+            "highlight": "the moment of truth"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Well Documented",
+      "statusZh": "有較充分記錄",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster records the first known English use in 1932. The Online Etymology Dictionary also records the phrase in Ernest Hemingway’s 1932 book Death in the Afternoon and connects it with the Spanish bullfighting expression.",
+          "zh": "Merriam-Webster 把目前所知最早的英語用法追溯至1932年。 《Online Etymology Dictionary》亦記錄 Ernest Hemingway 在1932年的著作 Death in the Afternoon 中使用這個短語，並把它與西班牙語的鬥牛用語連繫起來。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The original expression described an extreme and decisive test. English speakers later extended the image to examinations, performances, decisions, product tests and other situations in which success, failure or true quality becomes clear.",
+          "zh": "原來的表達形容一項極為重要而具決定性的考驗。 後來，英語使用者把這個意象延伸至考試、演出、決定、產品測試，以及其他成敗或真正表現即將揭曉的情境。"
+        }
+      ],
+      "memoryEn": "At the moment of truth, preparation ends and the real test begins.",
+      "memoryZh": "到了 the moment of truth，準備階段結束，真正的考驗正式開始。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use the Exact Fixed Form",
+        "titleZh": "規則一：使用完全正確的固定形式",
+        "en": "Use the Exact Fixed Form",
+        "zh": "使用完全正確的固定形式",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "There Must Be a Genuine Test",
+        "titleZh": "規則二：必須存在真正的考驗",
+        "en": "The test has a meaningful result: Ella will either show that she is ready or show that she needs more practice. This is an ordinary check with no important result or consequence.",
+        "zh": "最後路試將會是艾拉真正接受考驗的關鍵時刻。 這項測試會帶來有意義的結果：艾拉會證明自己已準備好，或顯示她仍需要更多練習。 我檢查鉛筆是否夠尖。",
+        "examples": [
+          {
+            "en": "The final road test will be the moment of truth for Ella.",
+            "zh": "最後路試將會是艾拉真正接受考驗的關鍵時刻。",
+            "highlight": "the moment of truth"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Confuse It with Telling the Truth",
+        "titleZh": "規則三：不要把它誤解為「說出真相」",
+        "en": "The word truth is part of the idiom, but the expression does not normally mean that somebody admits a secret or stops lying.",
+        "zh": "雖然慣用語中有 truth 一字，但這個表達一般不是指某人承認秘密或停止說謊。 普里雅終於承認自己打破了杯子。",
+        "examples": [
+          {
+            "en": "This does not automatically create a natural opportunity to use the moment of truth.",
+            "zh": "普里雅終於承認自己打破了杯子。",
+            "highlight": "the moment of truth"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "The Result or Real Quality Must Become Clear",
+        "titleZh": "規則四：結果或真正表現必須即將顯現",
+        "en": "The new bridge looks strong, but tomorrow’s weight test will show whether it is safe.",
+        "zh": "新橋看來很堅固，但明天的承重測試將會顯示它是否安全。 承重測試將會是新橋真正接受考驗的關鍵時刻。",
+        "examples": [
+          {
+            "en": "The weight test will be the moment of truth for the new bridge.",
+            "zh": "承重測試將會是新橋真正接受考驗的關鍵時刻。",
+            "highlight": "the moment of truth"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則五：保留時態及確定程度",
+        "en": "Do not change could be into was. That would turn a possibility into a completed fact.",
+        "zh": "不要把 could be 改成 was，否則會把可能性變成已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Use “For” to Name What Is Being Tested",
+        "titleZh": "規則六：使用 for 指出接受考驗的人或事物",
+        "en": "Use “For” to Name What Is Being Tested",
+        "zh": "使用 for 指出接受考驗的人或事物",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Use “When” to Explain the Decisive Event",
+        "titleZh": "規則七：使用 when 說明決定性的事件",
+        "en": "Use “When” to Explain the Decisive Event",
+        "zh": "當機器開啟時，真正接受考驗的關鍵時刻便會來臨。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Use It for a Meaningful Outcome",
+        "titleZh": "規則八：用於具有實際影響的結果",
+        "en": "examinations; interviews; performances; competitions; product tests; important decisions; project launches; safety tests; election results; the first real use of a plan or system.",
+        "zh": "自然情境包括考試、面試、演出、比賽、產品測試、重要決定、項目推出、安全測試、選舉結果，以及計劃或系統首次正式使用。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Use It Merely Because Something Happens Later",
+        "titleZh": "規則九：不要只因某事稍後發生便使用",
+        "en": "Nothing about lunch tests a person, plan or result.",
+        "zh": "午餐將會是關鍵時刻，因為它在早課之後。 午餐並沒有考驗某個人、計劃或結果。",
+        "examples": [
+          {
+            "en": "Lunch will be the moment of truth because it comes after the morning lesson.",
+            "zh": "午餐將會是關鍵時刻，因為它在早課之後。",
+            "highlight": "the moment of truth"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Overuse It",
+        "titleZh": "規則十：不要過度使用",
+        "en": "The idiom is useful when the situation is genuinely decisive. For an ordinary event, test, check, try or result may be clearer.",
+        "zh": "只有當情境確實具決定性時，這個慣用語才特別實用。 對於普通事件，使用 test、check、try 或 result 可能更加清楚。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using the moment of truth.",
+      "zh": "使用 the moment of truth 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-37-q01",
+        "number": 1,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Daniel has studied for three months. The final exam will show whether he is fully prepared.",
+        "promptZh": "丹尼爾已溫習了三個月。期末考試將會顯示他是否已作好充分準備。",
+        "starter": "The",
+        "answer": "The final exam will be the moment of truth for Daniel after three months of study.",
+        "answerZh": "經過三個月的溫習，期末考試將會是丹尼爾真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q02",
+        "number": 2,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Chloe is taking the cake out of the oven. She will now discover whether her new recipe works.",
+        "promptZh": "克洛伊正把蛋糕從焗爐取出。她現在便會知道新食譜是否成功。",
+        "starter": "Taking",
+        "answer": "Taking the cake out of the oven is the moment of truth for Chloe’s new recipe.",
+        "answerZh": "把蛋糕從焗爐取出的一刻，正是克洛伊的新食譜成敗揭曉的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q03",
+        "number": 3,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The team has tested the app many times. Tomorrow, real users will show whether it is easy to use.",
+        "promptZh": "團隊已多次測試這個應用程式。明天，真正的使用者將會顯示它是否容易使用。",
+        "starter": "Tomorrow’s",
+        "answer": "Tomorrow’s first user test will be the moment of truth for the new app.",
+        "answerZh": "明天的首次使用者測試，將會是這個新應用程式真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q04",
+        "number": 4,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The score is level, and Ryan must take the final penalty kick. His kick will decide the match.",
+        "promptZh": "比數打成平手，而賴恩必須主射最後一個十二碼。他這一腳將會決定賽果。",
+        "starter": "Ryan’s",
+        "answer": "Ryan’s final penalty kick is the moment of truth in this level match.",
+        "answerZh": "賴恩主射最後一個十二碼的一刻，正是這場平手賽事的成敗關鍵。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q05",
+        "number": 5,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The students have waited two weeks. The first signs of growth will show whether their planting method works.",
+        "promptZh": "學生已等待了兩星期。第一批生長跡象將會顯示他們的種植方法是否有效。",
+        "starter": "The",
+        "answer": "The first signs of growth will be the moment of truth for the students’ plant experiment.",
+        "answerZh": "第一批生長跡象，將會是學生的植物實驗成敗揭曉的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q06",
+        "number": 6,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Sophie has practised for weeks. Her audition will show whether she is ready to join the school choir.",
+        "promptZh": "蘇菲已練習了數星期。試音將會顯示她是否已準備好加入學校合唱團。",
+        "starter": "The",
+        "answer": "The audition will be the moment of truth for Sophie after weeks of practice.",
+        "answerZh": "經過數星期的練習，這次試音將會是蘇菲真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q07",
+        "number": 7,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Leo has completed every part of his job application. The final interview will decide whether he gets the job.",
+        "promptZh": "里奧已完成求職申請的每個部分。最後面試將會決定他能否獲得這份工作。",
+        "starter": "The",
+        "answer": "The final interview will be the moment of truth for Leo’s job application.",
+        "answerZh": "最後面試將會是里奧這次求職申請成敗揭曉的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q08",
+        "number": 8,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The mechanic has repaired the old fan. Switching it on will show whether the repair was successful.",
+        "promptZh": "技工已修理好那部舊風扇。開啟風扇後，便會知道維修是否成功。",
+        "starter": "Switching",
+        "answer": "Switching on the repaired fan will be the moment of truth for the mechanic’s work.",
+        "answerZh": "開啟修理好的風扇，將會是檢驗技工維修成果的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q09",
+        "number": 9,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The class submitted its video last month. The competition result will be announced today.",
+        "promptZh": "全班上個月提交了影片。比賽結果將於今天公布。",
+        "starter": "Today’s",
+        "answer": "Today’s result announcement will be the moment of truth for the class video.",
+        "answerZh": "今天公布結果的一刻，將會是這段班級影片成敗揭曉的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q10",
+        "number": 10,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The company has worked hard on its new plan. Presenting it to the first customer will show whether it is convincing.",
+        "promptZh": "公司一直努力制定新計劃。向第一位顧客介紹計劃後，便會知道它是否具說服力。",
+        "starter": "The",
+        "answer": "The presentation to the first customer will be the moment of truth for the company’s new plan.",
+        "answerZh": "向第一位顧客介紹計劃，將會是公司新計劃真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q11",
+        "number": 11,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Before a new dish is added to the menu, the chef always tastes it one last time to decide whether it is ready.",
+        "promptZh": "每道新菜式加入餐牌前，廚師總會作最後一次試味，以決定它是否已準備好推出。",
+        "starter": "The",
+        "answer": "The final taste is always the moment of truth for a new dish.",
+        "answerZh": "最後一次試味，總是新菜式真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q12",
+        "number": 12,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Grace practised driving for months. Her road test showed whether she was ready to drive alone.",
+        "promptZh": "格蕾絲練習駕駛了數月。路試顯示她是否已準備好獨自駕駛。",
+        "starter": "The",
+        "answer": "The road test was the moment of truth for Grace after months of practice.",
+        "answerZh": "經過數月練習，路試就是格蕾絲真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q13",
+        "number": 13,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The students have finished building their bridge model. Tomorrow, they will put heavy books on it to see whether it can hold the weight.",
+        "promptZh": "學生已完成製作橋樑模型。明天，他們會把重書放在上面，看看它能否承受重量。",
+        "starter": "Tomorrow’s",
+        "answer": "Tomorrow’s weight test will be the moment of truth for the bridge model.",
+        "answerZh": "明天的承重測試，將會是這個橋樑模型真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q14",
+        "number": 14,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The pupils have rehearsed the school play for six weeks. Tonight, they will perform it for a real audience for the first time.",
+        "promptZh": "學生已為學校話劇綵排了六星期。今晚，他們將首次在真正的觀眾面前演出。",
+        "starter": "The",
+        "answer": "The moment of truth has finally arrived for the school play: opening night is here.",
+        "answerZh": "學校話劇真正接受考驗的關鍵時刻終於來臨：首演之夜到了。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "The moment of truth"
+      },
+      {
+        "id": "idiom-37-q15",
+        "number": 15,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The outdoor picnic can go ahead if the weather stays dry on Saturday, but heavy rain would ruin the plan.",
+        "promptZh": "如果星期六天氣保持乾爽，戶外野餐便可照常舉行；但大雨會破壞整個計劃。",
+        "starter": "Saturday’s",
+        "answer": "Saturday’s weather may be the moment of truth for the outdoor picnic plan.",
+        "answerZh": "星期六的天氣，可能會是戶外野餐計劃成敗的關鍵。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q16",
+        "number": 16,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "We have practised every emergency step. Next week’s full drill should show whether our plan really works.",
+        "promptZh": "我們已練習每一個緊急應變步驟。下星期的完整演習應可顯示計劃是否真正有效。",
+        "starter": "Next",
+        "answer": "Next week’s full drill should be the moment of truth for our emergency plan.",
+        "answerZh": "下星期的完整演習，應會是我們的緊急應變計劃真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q17",
+        "number": 17,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The shop has tested its delivery system with practice orders. The first real order could show whether everything works properly.",
+        "promptZh": "店舖已用模擬訂單測試送貨系統。第一張真正的訂單或可顯示一切是否運作正常。",
+        "starter": "The",
+        "answer": "The first real order could be the moment of truth for the shop’s new delivery system.",
+        "answerZh": "第一張真正的訂單，可能會是店舖新送貨系統真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q18",
+        "number": 18,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The robot has passed several small tests. It is now ready to try carrying a full box.",
+        "promptZh": "機械人已通過數項小測試。它現在已準備好嘗試搬運一個裝滿物品的箱子。",
+        "starter": "The",
+        "answer": "The robot has reached the moment of truth: it is ready to carry a full box.",
+        "answerZh": "機械人已來到真正接受考驗的關鍵時刻：它準備搬運一個裝滿物品的箱子。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q19",
+        "number": 19,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: When will we know whether the website works well on mobile phones? B: When customers try it on launch day.",
+        "promptZh": "甲：我們何時才會知道網站在手機上是否運作良好？ 乙：等顧客在推出當日試用時便會知道。",
+        "starter": "Launch",
+        "answer": "Launch day will be the moment of truth for the website on mobile phones.",
+        "answerZh": "推出當日，將會是這個網站在手機上真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q20",
+        "number": 20,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: Have the team’s weeks of football practice helped? B: Tomorrow’s match will show us.",
+        "promptZh": "甲：球隊數星期的足球訓練有幫助嗎？ 乙：明天的比賽會告訴我們。",
+        "starter": "Tomorrow’s",
+        "answer": "Tomorrow’s match will be the moment of truth for the team after weeks of practice.",
+        "answerZh": "明天的比賽，將會是檢驗球隊數星期訓練成果的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q21",
+        "number": 21,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: No one knows whether the repaired speaker works. B: I will turn it on now.",
+        "promptZh": "甲：沒有人知道修理好的揚聲器是否能正常運作。 乙：我現在便把它開啟。",
+        "starter": "This",
+        "answer": "This is the moment of truth for the repaired speaker: I am turning it on now.",
+        "answerZh": "現在就是修理好的揚聲器真正接受考驗的關鍵時刻：我正要把它開啟。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q22",
+        "number": 22,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: The robot can stand during practice. B: Let us see whether it can walk across the room.",
+        "promptZh": "甲：機械人在練習時可以站立。 乙：讓我們看看它能否走過房間。",
+        "starter": "Walking",
+        "answer": "Walking across the room will be the moment of truth for the robot.",
+        "answerZh": "走過整個房間，將會是這個機械人真正接受考驗的關鍵。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q23",
+        "number": 23,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Nina’s practice speech sounded good. Speaking in front of the whole school will show whether she can stay confident.",
+        "promptZh": "妮娜練習時的演講表現良好。在全校面前發言，將會顯示她能否保持自信。",
+        "starter": "Speaking",
+        "answer": "Speaking in front of the whole school will be the moment of truth for Nina’s speech.",
+        "answerZh": "在全校面前發言，將會是妮娜這次演講真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q24",
+        "number": 24,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The family has completed all the forms for its home loan. The bank’s final email will say whether the loan is approved.",
+        "promptZh": "這個家庭已填妥房屋貸款的所有表格。銀行的最後電郵將會說明貸款是否獲批。",
+        "starter": "The",
+        "answer": "The bank’s final email will be the moment of truth for the family’s home plan.",
+        "answerZh": "銀行的最後電郵，將會是這個家庭置業計劃成敗揭曉的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q25",
+        "number": 25,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The design club has built a wooden chair. The first full-weight test will show whether it is strong enough.",
+        "promptZh": "設計學會製作了一張木椅。第一次完整承重測試將會顯示它是否足夠堅固。",
+        "starter": "The",
+        "answer": "The first full-weight test will be the moment of truth for the students’ chair.",
+        "answerZh": "第一次完整承重測試，將會是學生製作的椅子真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q26",
+        "number": 26,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Oliver sounds excellent when he practises alone. B: Tomorrow, he must perform before the judges.",
+        "promptZh": "甲：奧利弗獨自練習時表現非常出色。 乙：明天，他必須在評判面前演奏。",
+        "starter": "Tomorrow’s",
+        "answer": "Tomorrow’s performance before the judges will be the moment of truth for Oliver.",
+        "answerZh": "明天在評判面前的演奏，將會是奧利弗真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q27",
+        "number": 27,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The two school teams have worked hard to win students’ support. The votes will be counted tonight.",
+        "promptZh": "兩支校內團隊都努力爭取學生支持。選票將於今晚點算。",
+        "starter": "Tonight’s",
+        "answer": "Tonight’s vote count will be the moment of truth for the two groups in the school election.",
+        "answerZh": "今晚點算選票的一刻，將會是校內選舉兩個參選團隊成敗揭曉的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q28",
+        "number": 28,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: We need one more point to win the sports-day event. B: Then this final throw will decide everything.",
+        "promptZh": "甲：我們還需要一分才能勝出陸運會項目。 乙：那麼，這最後一擲便會決定一切。",
+        "starter": "The",
+        "answer": "The final throw will be the moment of truth for the team.",
+        "answerZh": "最後一擲，將會是這支隊伍成敗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q29",
+        "number": 29,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The cook has made a new soup for the contest. The judge is about to taste it for the first time.",
+        "promptZh": "廚師為比賽製作了一款新湯。評判正準備首次試味。",
+        "starter": "The",
+        "answer": "The judge’s first taste will be the moment of truth for the cook’s new soup.",
+        "answerZh": "評判第一次試味，將會是廚師這款新湯成敗揭曉的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q30",
+        "number": 30,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: The job applicant did well in the practice task. B: Now she must serve a real customer.",
+        "promptZh": "甲：求職者在模擬工作中表現良好。 乙：現在她必須服務一位真正的顧客。",
+        "starter": "Serving",
+        "answer": "Serving a real customer will be the moment of truth for the job applicant.",
+        "answerZh": "服務真正的顧客，將會是這名求職者真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q31",
+        "number": 31,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Although the practice runs were fast, only the real race showed whether the car could finish safely.",
+        "promptZh": "雖然試跑速度很快，但只有正式比賽才顯示這輛車能否安全完成賽事。",
+        "starter": "Although",
+        "answer": "Although the practice runs were fast, the real race was the moment of truth for the car.",
+        "answerZh": "雖然試跑速度很快，但正式比賽才是這輛車真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q32",
+        "number": 32,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The bridge model looked strong, so the teacher added heavy books to find out whether it could hold them.",
+        "promptZh": "橋樑模型看來很堅固，因此老師加上重書，看看它能否承受重量。",
+        "starter": "Because",
+        "answer": "Because it looked strong, adding the heavy books was the moment of truth for the bridge model.",
+        "answerZh": "因為橋樑模型看來很堅固，所以加上重書的一刻便是它真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q33",
+        "number": 33,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The students spent months coding their game. The first public test showed whether players actually enjoyed it.",
+        "promptZh": "學生花了數月編寫遊戲。第一次公開測試顯示玩家是否真的喜歡它。",
+        "starter": "After",
+        "answer": "After months of coding, the first public test was the moment of truth for the game.",
+        "answerZh": "經過數月編寫，第一次公開測試就是這個遊戲真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q34",
+        "number": 34,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Before the café opened, the staff tested whether the new coffee machine could work during a busy hour.",
+        "promptZh": "咖啡店開業前，員工測試新咖啡機能否在繁忙時段正常運作。",
+        "starter": "Before",
+        "answer": "Before the café opened, the busy-hour test was the moment of truth for the new coffee machine.",
+        "answerZh": "咖啡店開業前，繁忙時段測試就是新咖啡機真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q35",
+        "number": 35,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The photographer has chosen one final picture for the contest. The result will become clear when the judge sees it.",
+        "promptZh": "攝影師已為比賽選定最後一張照片。評判看到照片時，結果便會逐漸明朗。",
+        "starter": "The",
+        "answer": "The moment of truth will come when the judge sees the photographer’s final picture.",
+        "answerZh": "當評判看到攝影師的最後一張照片時，成敗揭曉的關鍵時刻便會來臨。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "The moment of truth"
+      },
+      {
+        "id": "idiom-37-q36",
+        "number": 36,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The app is meant to be easy for everyone. Its design will truly be tested if the first group can use it without help.",
+        "promptZh": "這個應用程式的目標是讓所有人都容易使用。如果第一組使用者無需協助便能使用，它的設計便會真正受到考驗。",
+        "starter": "If",
+        "answer": "If the first group can use the app without help, that test will be the moment of truth for the app’s design.",
+        "answerZh": "如果第一組使用者無需協助便能使用應用程式，這項測試便會是其設計真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q37",
+        "number": 37,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The final interview question tested Anna more seriously than any earlier question, but she stayed calm and answered clearly.",
+        "promptZh": "最後一條面試問題比先前任何問題都更嚴格地考驗安娜，但她仍保持冷靜，清楚作答。",
+        "starter": "At",
+        "answer": "At the moment of truth, Anna stayed calm and answered the final interview question clearly.",
+        "answerZh": "在真正接受考驗的關鍵時刻，安娜保持冷靜，清楚回答最後一條面試問題。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q38",
+        "number": 38,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The lift has been repaired, and the engineer is about to press the button. Everyone will then know whether the repair worked.",
+        "promptZh": "升降機已完成維修，而工程師正準備按下按鈕。屆時大家便會知道維修是否成功。",
+        "starter": "Now",
+        "answer": "Now comes the moment of truth for the lift repair: the engineer is about to press the button.",
+        "answerZh": "升降機維修真正接受考驗的關鍵時刻到了：工程師正準備按下按鈕。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q39",
+        "number": 39,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "After several small practice tests, the school will fully test its safety plan in tomorrow’s emergency drill.",
+        "promptZh": "經過數項小型練習測試後，學校將於明天的緊急演習中全面測試安全計劃。",
+        "starter": "The",
+        "answer": "The school will reach the moment of truth for its safety plan during tomorrow’s full emergency drill.",
+        "answerZh": "學校將在明天的完整緊急演習中，來到安全計劃真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q40",
+        "number": 40,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The singer sounded confident in rehearsal. Her performance was truly tested only when the live show began.",
+        "promptZh": "歌手在綵排時表現自信。只有現場演出開始時，她的表現才真正受到考驗。",
+        "starter": "The",
+        "answer": "The moment of truth arrived when the singer began the live show.",
+        "answerZh": "當歌手開始現場演出時，真正接受考驗的關鍵時刻便來臨了。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "The moment of truth"
+      },
+      {
+        "id": "idiom-37-q41",
+        "number": 41,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The local centre has planned a project to help families waste less food. The first class will show whether families are willing to join.",
+        "promptZh": "本地中心計劃了一個幫助家庭減少浪費食物的項目。第一課將會顯示家庭是否願意參加。",
+        "starter": "The",
+        "answer": "The first class will be the moment of truth for the local centre’s plan to help families waste less food.",
+        "answerZh": "第一課將會是本地中心協助家庭減少浪費食物這項計劃真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q42",
+        "number": 42,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The hospital’s new booking app worked well in small tests. Its first busy Monday will show whether it can handle many patients.",
+        "promptZh": "醫院的新預約應用程式在小型測試中運作良好。第一個繁忙的星期一將會顯示它能否應付大量病人。",
+        "starter": "The",
+        "answer": "The first busy Monday will be the moment of truth for the hospital’s new booking app.",
+        "answerZh": "第一個繁忙的星期一，將會是醫院的新預約應用程式真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q43",
+        "number": 43,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The teachers will show their first results to other schools. Their reaction will reveal whether the reading project can spread.",
+        "promptZh": "老師將向其他學校展示第一批成果。其他學校的反應將會顯示閱讀項目能否推廣開去。",
+        "starter": "The",
+        "answer": "The moment of truth for the reading project will come when the teachers show their first results to other schools.",
+        "answerZh": "當老師向其他學校展示第一批成果時，閱讀項目能否推廣的關鍵時刻便會來臨。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "The moment of truth"
+      },
+      {
+        "id": "idiom-37-q44",
+        "number": 44,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The shop has changed its delivery plan to reduce late orders. The first weekend under the new plan will show whether the changes work.",
+        "promptZh": "店舖已更改送貨計劃，以減少訂單延誤。新計劃下的第一個週末將會顯示這些改動是否有效。",
+        "starter": "The",
+        "answer": "The first weekend under the new plan will be the moment of truth for the shop’s delivery changes.",
+        "answerZh": "新計劃下的第一個週末，將會是店舖送貨安排改動真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q45",
+        "number": 45,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The school has explained its new lunch plan to the cooks and pupils. The first lunch break will show whether everyone can follow it.",
+        "promptZh": "學校已向廚師和學生解釋新午餐計劃。第一個午膳時間將會顯示大家能否按計劃行事。",
+        "starter": "The",
+        "answer": "The first lunch break will be the moment of truth for the school’s new lunch plan.",
+        "answerZh": "第一個午膳時間，將會是學校新午餐計劃真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q46",
+        "number": 46,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The shy dance team has performed well in private. Now it must dance before a real audience for the first time.",
+        "promptZh": "這支害羞的舞蹈隊私下表演時表現良好。現在，他們必須首次在真正的觀眾面前跳舞。",
+        "starter": "At",
+        "answer": "At the moment of truth, the shy dance team must perform before a real audience for the first time.",
+        "answerZh": "在真正接受考驗的關鍵時刻，這支害羞的舞蹈隊必須首次在真正的觀眾面前演出。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q47",
+        "number": 47,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The hotel has trained its staff to use a new service plan. The first fully booked weekend could show whether the plan works under pressure.",
+        "promptZh": "酒店已訓練員工使用新的服務計劃。第一個客滿的週末，可能會顯示計劃在壓力下是否有效。",
+        "starter": "The",
+        "answer": "The first fully booked weekend could be the moment of truth for the hotel’s new service plan.",
+        "answerZh": "第一個客滿的週末，可能會是酒店新服務計劃真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q48",
+        "number": 48,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The new bus route has faced a long delay. Its first day of service will finally show whether the timetable is realistic.",
+        "promptZh": "新巴士路線經歷了長時間延誤。正式服務的第一天，終於會顯示時間表是否切合實際。",
+        "starter": "After",
+        "answer": "After a long delay, the moment of truth for the new bus route will come on its first day of service.",
+        "answerZh": "經過長時間延誤，新巴士路線將在正式服務的第一天迎來真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q49",
+        "number": 49,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Many people praised the school’s new phone rule before it was used, but no one yet knows whether pupils will follow it. The first week will provide the real test.",
+        "promptZh": "學校的新手機規則實施前獲得很多人稱讚，但仍沒有人知道學生會否遵守。第一星期將會帶來真正的考驗。",
+        "starter": "The",
+        "answer": "The first week will be the moment of truth for the school’s new phone rule.",
+        "answerZh": "第一星期，將會是學校新手機規則真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      },
+      {
+        "id": "idiom-37-q50",
+        "number": 50,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: The bridge model has passed every small test. What happens now? B: We add the full weight and see whether it holds.",
+        "promptZh": "甲：橋樑模型已通過每項小型測試。現在要做甚麼？ 乙：我們加上完整重量，看看它能否承受。",
+        "starter": "Adding",
+        "answer": "Adding the full weight will be the moment of truth for the bridge model.",
+        "answerZh": "加上完整重量，將會是這個橋樑模型真正接受考驗的關鍵時刻。",
+        "targetForm": "the moment of truth",
+        "targetMeaning": "An important and decisive time when a person, plan, product, skill or effort is seriously tested, and the result, real quality or likely future becomes clear.",
+        "highlight": "the moment of truth"
+      }
+    ]
+  }
+}

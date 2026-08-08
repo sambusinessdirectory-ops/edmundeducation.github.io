@@ -1,0 +1,1230 @@
+{
+  "id": "ss279",
+  "order": 279,
+  "slug": "a-case-in-point",
+  "title": "「A case in point」引出切合的例證",
+  "titleZh": "「A case in point」引出切合的例證",
+  "titleEn": "Using “A case in point”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 278 -「A case in point」引出切合的例證.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "sha256": "808f3167daf9472be9325e601419468573562531ef63357dfffd9e914cfaec94",
+    "sourceNumber": 278,
+    "systemOrder": 279,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 278 maps to ss279: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "a case in point",
+  "formulas": [
+    {
+      "id": "ss279-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "a case in point"
+    }
+  ],
+  "example": "Some school programmes help shy students speak more confidently; a case in point is the school’s mentoring programme.",
+  "exampleZh": "有些學校計劃能幫助害羞的學生更有自信地說話；學校的師友計劃便是一個例證。",
+  "examples": [
+    {
+      "id": "ss279-example-01",
+      "en": "Some school programmes help shy students speak more confidently; a case in point is the school’s mentoring programme.",
+      "zh": "有些學校計劃能幫助害羞的學生更有自信地說話；學校的師友計劃便是一個例證。",
+      "highlight": "Some school programmes help shy students speak more confidently; a case in point is the school’s mentoring programme."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss279-rule-01",
+      "zh": "正確的固定表達是 a case in point，不要把 in 改成其他介詞，也不要寫成 case and point。",
+      "en": "The fixed expression is “case in point” Do not write: case and point case on point case at point The correct expression is: a case in point",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss279-rule-02",
+      "zh": "這個表達通常要配合一個較概括的觀點，而後面的例子則用來支持或解釋該觀點。",
+      "en": "“A case in point” must support a point The expression normally follows or accompanies a general statement. General point: Some school programmes help shy students speak more confidently. Supporting example: The school’s mentoring programme is a case in point.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss279-rule-03",
+      "zh": "冒號後面的資料只是補充證據，並不是固定表達的一部分。",
+      "en": "Extra details are optional extensions The core sentence is complete: The reading club is a case in point. You may add evidence after a colon: The reading club is a case in point: it doubled library visits.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss279-rule-04",
+      "zh": "形容詞必須放在 case 前面；clear、good、classic、striking 及 another 都可放在 case in point 之前修飾例證。不可把形容詞放在 case 後面，也不可插入 in point 之間。",
+      "en": "Adjectives come before “case” a clear case in point a good case in point a classic case in point a striking case in point another case in point a case clear in point a case in clear point",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss279-rule-05",
+      "zh": "提及兩個或以上的例證時，要把 case 改為複數 cases，寫成 cases in point；in point 保持不變，不可誤寫成 case in points。",
+      "en": "Use “cases in point” for two or more examples Singular: The clinic is a case in point. Plural: The two clinics are cases in point.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss279-rule-06",
+      "zh": "本練習的目標是 a case in point，意思是「一個切合的例證」。the case in point 通常指正在討論的那個特定案例，所指和溝通功能不同，因此不作為本課的主要答案。",
+      "en": "“The case in point” is not the main target This exercise focuses on: a case in point The case in point may refer to the particular case currently being discussed, so it does not always have the same teaching function.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss279-benefit-01",
+      "zh": "這個表達能讓讀者知道，你所提出的例子並非隨意加入，而是直接用來支持前面的觀點。",
+      "en": "It shows exactly why an example is being mentioned The expression tells the reader that the example is not random. It directly supports the point you have just made.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss279-benefit-02",
+      "zh": "你可以先提出一個概括觀點，再加入一個具體例證，令解釋更清楚和更有根據。第二句更清楚表示，師友計劃正是支持前述觀點的例證。",
+      "en": "It connects a general idea with real evidence You can first make a broad statement and then give one particular example that proves or explains it. Compare: Some school programmes help shy students. The mentoring programme is an example. Some school programmes help shy students the mentoring programme is a case in point.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss279-benefit-03",
+      "zh": "只是一般地引入例子；a case in point 則進一步表明，這個例子與前述觀點尤其切合。",
+      "en": "It is more precise than repeatedly writing “for example” For example simply introduces an example. A case in point stresses that the example is especially relevant to the point being discussed. For example",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss279-benefit-04",
+      "zh": "使用這個表達後，你可以加入數字、結果或具體事實，解釋該例子為甚麼能支持你的觀點。閱讀學會便是一個例證：它令圖書館到訪人次增加了一倍。",
+      "en": "It helps you build stronger explanations After introducing a case in point, you can add facts, figures or results to explain why the example matters. The reading club is a case in point: it doubled library visits.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss279-benefit-05",
+      "zh": "這個表達可以放在句子的不同位置，令學生不必每次都以同一方式引入例子。",
+      "en": "It gives you several ways to organise a sentence The expression can appear: after the example before the example after provide or present after take, consider or cite after a colon in an advanced supporting phrase.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss279-benefit-06",
+      "zh": "這個表達適合用於作文、報告和簡報，尤其適合用來解釋觀點、支持論點或提出證據。",
+      "en": "It is useful in essays, reports and presentations It is especially useful when explaining an opinion, supporting an argument or presenting evidence.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 278 maps to ss279: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using a case in point or another correct form from",
+      "the grammar bank.",
+      "Preserve all important information. The expression may appear in different positions.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 a case in point 或以上句式改寫以下句子。",
+      "保留所有重要資料。目標表達可以出現在句子的不同位置。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss279-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Some school programmes help shy students speak more confidently. The school’s mentoring programme is a good example.",
+      "promptZh": "有些學校計劃能幫助害羞的學生更有自信地說話。學校的師友計劃就是一個好例子。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some school programmes help shy students speak more confidently; a case in point is the school’s mentoring programme.",
+      "answerZh": "有些學校計劃能幫助害羞的學生更有自信地說話；學校的師友計劃便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Some school programmes help shy students speak more confidently; a case in point is the school’s mentoring programme."
+    },
+    {
+      "id": "ss279-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Community projects can bring neighbours together. The weekend garden clearly shows this.",
+      "promptZh": "社區項目能讓鄰里建立聯繫。週末社區花園清楚證明了這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Community",
+      "answer": "Community projects can bring neighbours together; the weekend garden is a case in point.",
+      "answerZh": "社區項目能讓鄰里建立聯繫；週末社區花園便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Community projects can bring neighbours together; the weekend garden is a case in point."
+    },
+    {
+      "id": "ss279-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Small changes can save a great deal of time. One good example is the new online booking form.",
+      "promptZh": "小改變可以節省大量時間。新的網上預約表格就是一個好例子。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small changes can save a great deal of time; a case in point is the new online booking form.",
+      "answerZh": "小改變可以節省大量時間；新的網上預約表格便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Small changes can save a great deal of time; a case in point is the new online booking form."
+    },
+    {
+      "id": "ss279-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Some clubs encourage children to read more. The reading club is a clear example because it doubled library visits.",
+      "promptZh": "有些學會能鼓勵兒童多閱讀。閱讀學會就是一個明顯例子，因為它令圖書館到訪人次增加了一倍。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some clubs encourage children to read more; the reading club is a case in point: it doubled library visits.",
+      "answerZh": "有些學會能鼓勵兒童多閱讀；閱讀學會便是一個例證：它令圖書館到訪人次增加了一倍。",
+      "answerZhSource": "pdf",
+      "highlight": "Some clubs encourage children to read more; the reading club is a case in point: it doubled library visits."
+    },
+    {
+      "id": "ss279-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Prices can differ greatly between shops. This supermarket shows this clearly.",
+      "promptZh": "不同商店的價格可以相差很大。這間超級市場清楚顯示了這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Prices",
+      "answer": "Prices can differ greatly between shops; this supermarket is a case in point.",
+      "answerZh": "不同商店的價格可以相差很大；這間超級市場便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Prices can differ greatly between shops; this supermarket is a case in point."
+    },
+    {
+      "id": "ss279-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Public services can make daily life easier. The town’s free bus service is a clear example.",
+      "promptZh": "公共服務可以令日常生活更方便。鎮上的免費巴士服務就是一個明顯例子。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public services can make daily life easier; a clear case in point is the town’s free bus service.",
+      "answerZh": "公共服務可以令日常生活更方便；鎮上的免費巴士服務便是一個明顯例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Public services can make daily life easier; a clear case in point is the town’s free bus service."
+    },
+    {
+      "id": "ss279-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Poor planning can delay a whole project. The new timetable provides a good example.",
+      "promptZh": "規劃不善可以延誤整個項目。新的時間表提供了一個好例子。",
+      "promptZhSource": "pdf",
+      "starter": "Poor",
+      "answer": "Poor planning can delay a whole project; the new timetable provides a case in point.",
+      "answerZh": "規劃不善可以延誤整個項目；新的時間表提供了一個切合的例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Poor planning can delay a whole project; the new timetable provides a case in point."
+    },
+    {
+      "id": "ss279-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Healthy meals do not always have to be expensive. Take the school canteen as an example.",
+      "promptZh": "健康膳食不一定昂貴。以學校飯堂為例。",
+      "promptZhSource": "pdf",
+      "starter": "Healthy",
+      "answer": "Healthy meals do not always have to be expensive; take the school canteen as a case in point.",
+      "answerZh": "健康膳食不一定昂貴；以學校飯堂為例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Healthy meals do not always have to be expensive; take the school canteen as a case in point."
+    },
+    {
+      "id": "ss279-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Consider the library’s homework club as an example of how local support can make homework less stressful.",
+      "promptZh": "以圖書館的功課輔導小組為例，看看本區支援如何減輕做功課的壓力。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As a case in point, consider the library’s homework club, which shows how local support can make homework less stressful.",
+      "answerZh": "以圖書館的功課輔導小組為例證，它顯示本區支援如何減輕做功課的壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "As a case in point, consider the library’s homework club, which shows how local support can make homework less stressful."
+    },
+    {
+      "id": "ss279-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Old buildings can save energy. The sports centre now uses half as much electricity, which is a good example.",
+      "promptZh": "舊建築物也可以節省能源。體育中心目前的用電量減少了一半，這就是一個好例子。",
+      "promptZhSource": "pdf",
+      "starter": "Old",
+      "answer": "Old buildings can save energy. Case in point: the sports centre now uses half as much electricity.",
+      "answerZh": "舊建築物也可以節省能源。例證如下：體育中心目前的用電量減少了一半。",
+      "answerZhSource": "pdf",
+      "highlight": "Old buildings can save energy. Case in point: the sports centre now uses half as much electricity."
+    },
+    {
+      "id": "ss279-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Staff training can improve customer service. The hotel’s welcome course is a particularly good example.",
+      "promptZh": "員工培訓可以改善顧客服務。酒店的迎賓課程就是一個特別好的例子。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff training can improve customer service; the hotel’s welcome course is a particularly good case in point.",
+      "answerZh": "員工培訓可以改善顧客服務；酒店的迎賓課程便是一個特別好的例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff training can improve customer service; the hotel’s welcome course is a particularly good case in point."
+    },
+    {
+      "id": "ss279-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which service shows that longer opening hours can make health services more convenient? The clinic does.",
+      "promptZh": "哪項服務顯示延長開放時間可以令醫療服務更方便？這間診所正是一例。",
+      "promptZhSource": "pdf",
+      "starter": "Longer",
+      "answer": "Longer opening hours can make health services more convenient; a case in point would be the clinic.",
+      "answerZh": "延長開放時間可以令醫療服務更方便；這間診所便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Longer opening hours can make health services more convenient; a case in point would be the clinic."
+    },
+    {
+      "id": "ss279-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Late information can cause confusion. The delayed train announcement was another clear example.",
+      "promptZh": "延遲發放資訊可以造成混亂。延誤的列車廣播就是另一個明顯例子。",
+      "promptZhSource": "pdf",
+      "starter": "Late",
+      "answer": "Late information can cause confusion; the delayed train announcement was another case in point.",
+      "answerZh": "延遲發放資訊可以造成混亂；延誤的列車廣播便是另一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Late information can cause confusion; the delayed train announcement was another case in point."
+    },
+    {
+      "id": "ss279-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Simple reminders can change behaviour. One reminder reduced missed appointments by a third, which clearly demonstrates this.",
+      "promptZh": "簡單提示可以改變行為。一項提示令失約個案減少三分之一，清楚證明了這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Simple",
+      "answer": "Simple reminders can change behaviour. This is a striking case in point: one reminder reduced missed appointments by a third.",
+      "answerZh": "簡單提示可以改變行為。這是一個有力例證：一項提示令失約個案減少三分之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Simple reminders can change behaviour. This is a striking case in point: one reminder reduced missed appointments by a third."
+    },
+    {
+      "id": "ss279-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "School recycling schemes can change daily habits. The scheme at North Road School is a useful example.",
+      "promptZh": "學校回收計劃可以改變日常習慣。北路學校的計劃就是一個實用例子。",
+      "promptZhSource": "pdf",
+      "starter": "School",
+      "answer": "School recycling schemes can change daily habits; the scheme at North Road School presents a useful case in point.",
+      "answerZh": "學校回收計劃可以改變日常習慣；北路學校的計劃提供了一個實用例證。",
+      "answerZhSource": "pdf",
+      "highlight": "School recycling schemes can change daily habits; the scheme at North Road School presents a useful case in point."
+    },
+    {
+      "id": "ss279-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Small businesses can reduce food waste. Consider the local bakery as an example.",
+      "promptZh": "小型企業可以減少食物浪費。以本區麵包店為例。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small businesses can reduce food waste; consider the local bakery as a case in point.",
+      "answerZh": "小型企業可以減少食物浪費；以本區麵包店為例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Small businesses can reduce food waste; consider the local bakery as a case in point."
+    },
+    {
+      "id": "ss279-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Take the new riverside path as an example: it shows that safe cycle paths encourage people to leave their cars at home.",
+      "promptZh": "以新的河畔單車徑為例：它顯示安全的單車徑能鼓勵人們把汽車留在家中。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As a case in point, take the new riverside path: it shows that safe cycle paths encourage people to leave their cars at home.",
+      "answerZh": "以新的河畔單車徑為例證：它顯示安全的單車徑能鼓勵人們把汽車留在家中。",
+      "answerZhSource": "pdf",
+      "highlight": "As a case in point, take the new riverside path: it shows that safe cycle paths encourage people to leave their cars at home."
+    },
+    {
+      "id": "ss279-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Daily check-ins can help teams finish work sooner. Our team finished the project two weeks early after using them.",
+      "promptZh": "每日簡短跟進可以幫助團隊更早完成工作。我們的團隊採用這種做法後，提早兩星期完成項目。",
+      "promptZhSource": "pdf",
+      "starter": "Daily",
+      "answer": "Daily check-ins can help teams finish work sooner. Case in point: our team finished the project two weeks early after using them.",
+      "answerZh": "每日簡短跟進可以幫助團隊更早完成工作。例證如下：我們的團隊採用這種做法後，提早兩星期完成項目。",
+      "answerZhSource": "pdf",
+      "highlight": "Daily check-ins can help teams finish work sooner. Case in point: our team finished the project two weeks early after using them."
+    },
+    {
+      "id": "ss279-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Free family events can attract new visitors. One example is the museum’s family day.",
+      "promptZh": "免費家庭活動可以吸引新訪客。博物館的家庭同樂日就是一個例子。",
+      "promptZhSource": "pdf",
+      "starter": "Free",
+      "answer": "Free family events can attract new visitors; one case in point is the museum’s family day.",
+      "answerZh": "免費家庭活動可以吸引新訪客；博物館的家庭同樂日便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Free family events can attract new visitors; one case in point is the museum’s family day."
+    },
+    {
+      "id": "ss279-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why are backup systems important? The recent power cut clearly showed why.",
+      "promptZh": "後備系統為甚麼重要？最近的停電事故清楚說明了原因。",
+      "promptZhSource": "pdf",
+      "starter": "Backup",
+      "answer": "Backup systems are important; the recent power cut is a case in point.",
+      "answerZh": "後備系統十分重要；最近的停電事故便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Backup systems are important; the recent power cut is a case in point."
+    },
+    {
+      "id": "ss279-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Small design choices can make apps easier to use. The larger-text option clearly illustrates this.",
+      "promptZh": "細小的設計選擇可以令應用程式更容易使用。較大字體的選項清楚說明了這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small design choices can make apps easier to use; the larger-text option is a clear case in point.",
+      "answerZh": "細小的設計選擇可以令應用程式更容易使用；較大字體的選項便是一個明顯例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Small design choices can make apps easier to use; the larger-text option is a clear case in point."
+    },
+    {
+      "id": "ss279-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What clearly shows that colour-coded signs can help patients find their way around? The hospital’s sign system.",
+      "promptZh": "甚麼能清楚顯示以顏色分類的指示牌可以幫助病人辨認方向？醫院的指示系統。",
+      "promptZhSource": "pdf",
+      "starter": "Colour-coded",
+      "answer": "Colour-coded signs can help patients find their way around; a particularly useful case in point is the hospital’s sign system.",
+      "answerZh": "以顏色分類的指示牌可以幫助病人辨認方向；醫院的指示系統便是一個特別實用的例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Colour-coded signs can help patients find their way around; a particularly useful case in point is the hospital’s sign system."
+    },
+    {
+      "id": "ss279-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Village libraries often provide services beyond lending books. The local library offers another good example.",
+      "promptZh": "鄉村圖書館提供的服務往往不只借出書籍。本區圖書館就是另一個好例子。",
+      "promptZhSource": "pdf",
+      "starter": "Village",
+      "answer": "Village libraries often provide services beyond lending books; the local library provides another case in point.",
+      "answerZh": "鄉村圖書館提供的服務往往不只借出書籍；本區圖書館提供了另一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Village libraries often provide services beyond lending books; the local library provides another case in point."
+    },
+    {
+      "id": "ss279-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Flexible working can reduce staff absence. In the company’s four-day trial, absence fell by 20 per cent; this is a clear example.",
+      "promptZh": "彈性工作安排可以減少員工缺勤。在公司的四天工作制試行計劃中，缺勤率下降了百分之二十；這是一個明顯例子。",
+      "promptZhSource": "pdf",
+      "starter": "Flexible",
+      "answer": "Flexible working can reduce staff absence; take the company’s four-day trial as a case in point: absence fell by 20 per cent.",
+      "answerZh": "彈性工作安排可以減少員工缺勤；以公司的四天工作制試行計劃為例證：缺勤率下降了百分之二十。",
+      "answerZhSource": "pdf",
+      "highlight": "Flexible working can reduce staff absence; take the company’s four-day trial as a case in point: absence fell by 20 per cent."
+    },
+    {
+      "id": "ss279-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A better queue system can shorten waiting times. The new lunch system reduced the average wait by ten minutes and provides a good example.",
+      "promptZh": "較好的排隊制度可以縮短等候時間。新的午膳排隊制度令平均等候時間縮短十分鐘，並提供了一個好例子。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A better queue system can shorten waiting times; as a case in point, consider the new lunch system, which reduced the average wait by ten minutes.",
+      "answerZh": "較好的排隊制度可以縮短等候時間；以新的午膳排隊制度為例證，它令平均等候時間縮短了十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "A better queue system can shorten waiting times; as a case in point, consider the new lunch system, which reduced the average wait by ten minutes."
+    },
+    {
+      "id": "ss279-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Lockers can reduce the number of lost books. After one school added them, fewer books went missing.",
+      "promptZh": "儲物櫃可以減少書本遺失的數量。一間學校增設儲物櫃後，遺失的書本減少了。",
+      "promptZhSource": "pdf",
+      "starter": "Lockers",
+      "answer": "Lockers can reduce the number of lost books. Case in point: after one school added them, fewer books went missing.",
+      "answerZh": "儲物櫃可以減少書本遺失的數量。例證如下：一間學校增設儲物櫃後，遺失的書本減少了。",
+      "answerZhSource": "pdf",
+      "highlight": "Lockers can reduce the number of lost books. Case in point: after one school added them, fewer books went missing."
+    },
+    {
+      "id": "ss279-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Regular support can build confidence. The mentoring programme is a classic example because its members speak up more often.",
+      "promptZh": "定期支援可以建立自信。師友計劃就是一個典型例子，因為參加者更常主動發言。",
+      "promptZhSource": "pdf",
+      "starter": "Regular",
+      "answer": "Regular support can build confidence; the mentoring programme is a classic case in point, as its members speak up more often.",
+      "answerZh": "定期支援可以建立自信；師友計劃便是一個典型例證，因為參加者更常主動發言。",
+      "answerZhSource": "pdf",
+      "highlight": "Regular support can build confidence; the mentoring programme is a classic case in point, as its members speak up more often."
+    },
+    {
+      "id": "ss279-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Lower stall fees can revive a town market. This town clearly demonstrates that: its market became busy again after the fees were reduced.",
+      "promptZh": "降低攤位費可以令市集重現活力。這個城鎮清楚證明了這一點：收費降低後，市集再次變得熱鬧。",
+      "promptZhSource": "pdf",
+      "starter": "Lower",
+      "answer": "Lower stall fees can revive a town market; this town is a case in point: its market became busy again after the fees were reduced.",
+      "answerZh": "降低攤位費可以令市集重現活力；這個城鎮便是一個例證：收費降低後，市集再次變得熱鬧。",
+      "answerZhSource": "pdf",
+      "highlight": "Lower stall fees can revive a town market; this town is a case in point: its market became busy again after the fees were reduced."
+    },
+    {
+      "id": "ss279-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Cheaper evening buses can help people accept late shifts. One relevant example would be the new Route 8 service.",
+      "promptZh": "較便宜的晚間巴士可以令更多人願意接受夜班。新的八號巴士線服務就是一個切合的例子。",
+      "promptZhSource": "pdf",
+      "starter": "Cheaper",
+      "answer": "Cheaper evening buses can help people accept late shifts; one relevant case in point would be the new Route 8 service.",
+      "answerZh": "較便宜的晚間巴士可以令更多人願意接受夜班；新的八號巴士線服務便是一個切合的例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Cheaper evening buses can help people accept late shifts; one relevant case in point would be the new Route 8 service."
+    },
+    {
+      "id": "ss279-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Clearer bills can reduce complaints. The sharp fall in complaints after the bill was redesigned provides strong evidence of this.",
+      "promptZh": "更清晰的帳單可以減少投訴。帳單重新設計後，投訴大幅下降，為此提供了有力證據。",
+      "promptZhSource": "pdf",
+      "starter": "Clearer",
+      "answer": "Clearer bills can reduce complaints; the sharp fall in complaints after the bill was redesigned presents a strong case in point.",
+      "answerZh": "更清晰的帳單可以減少投訴；帳單重新設計後投訴大幅下降，提供了一個有力例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Clearer bills can reduce complaints; the sharp fall in complaints after the bill was redesigned presents a strong case in point."
+    },
+    {
+      "id": "ss279-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Why is good communication important? Our missing delivery last month clearly shows what can happen without it.",
+      "promptZh": "良好溝通為甚麼重要？我們上月遺失的貨件清楚顯示缺乏溝通可以造成甚麼後果。",
+      "promptZhSource": "pdf",
+      "starter": "Good",
+      "answer": "Good communication prevents costly errors; our missing delivery last month is a case in point.",
+      "answerZh": "良好溝通可以防止代價高昂的錯誤；我們上月遺失的貨件便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Good communication prevents costly errors; our missing delivery last month is a case in point."
+    },
+    {
+      "id": "ss279-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Regular updates can keep tenants calm during repairs. The repair team’s weekly message system is one clear example.",
+      "promptZh": "定期提供最新消息可以令租戶在維修期間保持安心。維修團隊每週發放訊息的制度就是一個明顯例子。",
+      "promptZhSource": "pdf",
+      "starter": "Regular",
+      "answer": "Regular updates can keep tenants calm during repairs; a case in point is the repair team’s weekly message system.",
+      "answerZh": "定期提供最新消息可以令租戶在維修期間保持安心；維修團隊每週發放訊息的制度便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Regular updates can keep tenants calm during repairs; a case in point is the repair team’s weekly message system."
+    },
+    {
+      "id": "ss279-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Online forms can reduce waiting times. Two community clinics have done this successfully.",
+      "promptZh": "網上表格可以縮短等候時間。兩間社區診所已成功做到這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Online",
+      "answer": "Online forms can reduce waiting times; the two community clinics are cases in point.",
+      "answerZh": "網上表格可以縮短等候時間；這兩間社區診所便是相關例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Online forms can reduce waiting times; the two community clinics are cases in point."
+    },
+    {
+      "id": "ss279-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Some schools have improved attendance through free breakfast clubs. East Hill School and Lake Road School are two good examples.",
+      "promptZh": "有些學校透過免費早餐計劃改善出席率。東山學校和湖畔路學校就是兩個好例子。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some schools have improved attendance through free breakfast clubs; East Hill School and Lake Road School are two cases in point.",
+      "answerZh": "有些學校透過免費早餐計劃改善出席率；東山學校和湖畔路學校便是兩個相關例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Some schools have improved attendance through free breakfast clubs; East Hill School and Lake Road School are two cases in point."
+    },
+    {
+      "id": "ss279-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Small rewards can motivate children. The library’s reading challenge clearly demonstrates this.",
+      "promptZh": "小獎勵可以鼓勵兒童。圖書館的閱讀挑戰清楚證明了這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small rewards can motivate children, the library’s reading challenge being a case in point.",
+      "answerZh": "小獎勵可以鼓勵兒童，圖書館的閱讀挑戰便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Small rewards can motivate children, the library’s reading challenge being a case in point."
+    },
+    {
+      "id": "ss279-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Night buses are essential for many late workers. The city’s night-bus scheme clearly illustrates this need.",
+      "promptZh": "夜間巴士對很多夜班員工十分重要。城市的夜間巴士計劃清楚說明了這項需要。",
+      "promptZhSource": "pdf",
+      "starter": "Night",
+      "answer": "Night buses are essential for many late workers, with the city’s night-bus scheme being a case in point.",
+      "answerZh": "夜間巴士對很多夜班員工十分重要，而城市的夜間巴士計劃便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Night buses are essential for many late workers, with the city’s night-bus scheme being a case in point."
+    },
+    {
+      "id": "ss279-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Peer support can reduce first-year students’ anxiety. The school’s buddy scheme offers a clear example.",
+      "promptZh": "朋輩支援可以減輕一年級學生的焦慮。學校的夥伴計劃提供了一個明顯例子。",
+      "promptZhSource": "pdf",
+      "starter": "Peer",
+      "answer": "Peer support can reduce first-year students’ anxiety; a case in point can be found in the school’s buddy scheme.",
+      "answerZh": "朋輩支援可以減輕一年級學生的焦慮；學校的夥伴計劃便提供了一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Peer support can reduce first-year students’ anxiety; a case in point can be found in the school’s buddy scheme."
+    },
+    {
+      "id": "ss279-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Repair cafés can reduce waste. The local one fixed 600 items last year, providing a clear example.",
+      "promptZh": "維修咖啡室可以減少廢物。本區的維修咖啡室去年修理了六百件物品，提供了一個明顯例子。",
+      "promptZhSource": "pdf",
+      "starter": "Repair",
+      "answer": "Repair cafés can reduce waste, and we need not look far for a case in point: the local one fixed 600 items last year.",
+      "answerZh": "維修咖啡室可以減少廢物，而且我們不用遠找例證：本區的維修咖啡室去年修理了六百件物品。",
+      "answerZhSource": "pdf",
+      "highlight": "Repair cafés can reduce waste, and we need not look far for a case in point: the local one fixed 600 items last year."
+    },
+    {
+      "id": "ss279-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Shared workspaces can support new businesses. The town’s project is a strong example.",
+      "promptZh": "共享工作空間可以支援新企業。鎮上的項目就是一個有力例子。",
+      "promptZhSource": "pdf",
+      "starter": "Shared",
+      "answer": "Shared workspaces can support new businesses. For a strong case in point, look at the town’s project.",
+      "answerZh": "共享工作空間可以支援新企業。要找一個有力例證，可以看看鎮上的項目。",
+      "answerZhSource": "pdf",
+      "highlight": "Shared workspaces can support new businesses. For a strong case in point, look at the town’s project."
+    },
+    {
+      "id": "ss279-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "New parks can improve public health. The council report uses Riverside Park as an example.",
+      "promptZh": "新公園可以改善公眾健康。議會報告以河畔公園作為例子。",
+      "promptZhSource": "pdf",
+      "starter": "New",
+      "answer": "New parks can improve public health; the council report cites Riverside Park as a case in point.",
+      "answerZh": "新公園可以改善公眾健康；議會報告引用河畔公園作為例證。",
+      "answerZhSource": "pdf",
+      "highlight": "New parks can improve public health; the council report cites Riverside Park as a case in point."
+    },
+    {
+      "id": "ss279-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Several professions struggle to recruit enough staff. Nursing is one clear example.",
+      "promptZh": "多個專業都難以招聘足夠人手。護理行業就是一個明顯例子。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several professions struggle to recruit enough staff, with nursing being a case in point.",
+      "answerZh": "多個專業都難以招聘足夠人手，而護理行業便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Several professions struggle to recruit enough staff, with nursing being a case in point."
+    },
+    {
+      "id": "ss279-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Digital exclusion affects many older residents. The online-only booking system clearly illustrates the problem.",
+      "promptZh": "數碼排斥影響很多年長居民。只接受網上預約的制度清楚說明了這個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Digital",
+      "answer": "Digital exclusion affects many older residents, the online-only booking system being a case in point.",
+      "answerZh": "數碼排斥影響很多年長居民，只接受網上預約的制度便是一個例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Digital exclusion affects many older residents, the online-only booking system being a case in point."
+    },
+    {
+      "id": "ss279-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Some schools cannot hire enough science teachers. At one school, an English teacher now teaches science; this provides a clear example.",
+      "promptZh": "有些學校無法聘請足夠的科學科老師。在其中一間學校，一名英文科老師現正教授科學；這提供了一個明顯例子。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some schools cannot hire enough science teachers; one school provides a case in point where an English teacher now teaches science.",
+      "answerZh": "有些學校無法聘請足夠的科學科老師；其中一間學校便提供了一個例證，那裏由一名英文科老師教授科學。",
+      "answerZhSource": "pdf",
+      "highlight": "Some schools cannot hire enough science teachers; one school provides a case in point where an English teacher now teaches science."
+    },
+    {
+      "id": "ss279-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Which centre showed how vital community centres can become during emergencies? The one that sheltered 80 residents during the storm.",
+      "promptZh": "哪一間中心顯示社區中心在緊急情況下可以變得非常重要？就是暴風雨期間收容八十名居民的那一間。",
+      "promptZhSource": "pdf",
+      "starter": "Community",
+      "answer": "Community centres can become vital during emergencies; a telling case in point is the centre that sheltered 80 residents during the storm.",
+      "answerZh": "社區中心在緊急情況下可以變得非常重要；暴風雨期間收容八十名居民的中心便是一個有力例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Community centres can become vital during emergencies; a telling case in point is the centre that sheltered 80 residents during the storm."
+    },
+    {
+      "id": "ss279-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Volunteer desks can make hospitals easier to navigate. One helper at this hospital guides dozens of visitors each day.",
+      "promptZh": "義工服務台可以令訪客更容易在醫院辨認方向。這間醫院的一名義工每天為數十名訪客帶路。",
+      "promptZhSource": "pdf",
+      "starter": "Volunteer",
+      "answer": "Volunteer desks can make hospitals easier to navigate; consider this hospital’s desk as a case in point: one helper guides dozens of visitors each day.",
+      "answerZh": "義工服務台可以令訪客更容易在醫院辨認方向；以這間醫院的服務台為例證：一名義工每天為數十名訪客帶路。",
+      "answerZhSource": "pdf",
+      "highlight": "Volunteer desks can make hospitals easier to navigate; consider this hospital’s desk as a case in point: one helper guides dozens of visitors each day."
+    },
+    {
+      "id": "ss279-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Flexible shifts can reduce staff turnover. After one factory introduced them, fewer employees left.",
+      "promptZh": "彈性輪班可以減少員工流失。一間工廠採用這種安排後，離職的員工減少了。",
+      "promptZhSource": "pdf",
+      "starter": "Flexible",
+      "answer": "Flexible shifts can reduce staff turnover. Case in point: after one factory introduced them, fewer employees left.",
+      "answerZh": "彈性輪班可以減少員工流失。例證如下：一間工廠採用這種安排後，離職的員工減少了。",
+      "answerZhSource": "pdf",
+      "highlight": "Flexible shifts can reduce staff turnover. Case in point: after one factory introduced them, fewer employees left."
+    },
+    {
+      "id": "ss279-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Town-centre events can bring customers back. Both the weekend market and the evening food fair did so.",
+      "promptZh": "市中心活動可以吸引顧客回來。週末市集和晚間美食節都做到了這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Town-centre",
+      "answer": "Town-centre events can bring customers back; the weekend market and the evening food fair are two cases in point.",
+      "answerZh": "市中心活動可以吸引顧客回來；週末市集和晚間美食節便是兩個相關例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Town-centre events can bring customers back; the weekend market and the evening food fair are two cases in point."
+    },
+    {
+      "id": "ss279-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Fast and organised action can protect a community during a flood. The council’s response offers especially strong evidence.",
+      "promptZh": "迅速而有組織的行動可以在水災期間保護社區。議會的應對提供了特別有力的證據。",
+      "promptZhSource": "pdf",
+      "starter": "Fast",
+      "answer": "Fast and organised action can protect a community during a flood; the council’s response provides a particularly strong case in point.",
+      "answerZh": "迅速而有組織的行動可以在水災期間保護社區；議會的應對提供了一個特別有力的例證。",
+      "answerZhSource": "pdf",
+      "highlight": "Fast and organised action can protect a community during a flood; the council’s response provides a particularly strong case in point."
+    },
+    {
+      "id": "ss279-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Free breakfasts can improve attendance and concentration. The school’s breakfast club improved both, giving us a clear example.",
+      "promptZh": "免費早餐可以改善出席率和專注力。學校的早餐計劃改善了兩者，為我們提供了一個明顯例子。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If a case in point is needed, we need look no further than the school’s breakfast club, which improved both attendance and concentration.",
+      "answerZh": "如果需要一個例證，我們只需看看學校的早餐計劃；它改善了出席率和專注力。",
+      "answerZhSource": "pdf",
+      "highlight": "If a case in point is needed, we need look no further than the school’s breakfast club, which improved both attendance and concentration."
+    },
+    {
+      "id": "ss279-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Shared transport can reduce isolation and help older residents reach medical appointments. The village service is an excellent example.",
+      "promptZh": "共享交通服務可以減少孤立感，並幫助年長居民前往覆診。鄉村的服務就是一個極佳例子。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For a final case in point, consider the village’s shared transport service, which reduces isolation and helps older residents reach medical appointments.",
+      "answerZh": "最後可以鄉村的共享交通服務作為例證；它能減少孤立感，並幫助年長居民前往覆診。",
+      "answerZhSource": "pdf",
+      "highlight": "For a final case in point, consider the village’s shared transport service, which reduces isolation and helps older residents reach medical appointments."
+    }
+  ]
+}

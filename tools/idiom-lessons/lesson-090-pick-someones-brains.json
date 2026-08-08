@@ -1,0 +1,1582 @@
+{
+  "lesson": {
+    "id": "idiom-90",
+    "order": 90,
+    "slug": "pick-someones-brains",
+    "version": "1",
+    "title": "向某人請教／請教某人的意見",
+    "titleEn": "pick someone’s brains",
+    "titleZh": "向某人請教／請教某人的意見",
+    "source": {
+      "file": "Idiom 90 - “Pick Someone’s Brains”.pdf",
+      "pageCount": 41,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "exercisePdfPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "answerKeyPdfPages": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "pick someone’s brains",
+        "highlight": "pick someone’s brains"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I often pick my brother’s brains.",
+        "zh": "我經常向哥哥請教。",
+        "highlight": "pick my brother’s brains"
+      },
+      {
+        "en": "The students picked their teacher’s brains.",
+        "zh": "學生向老師請教。",
+        "highlight": "picked their teacher’s brains"
+      }
+    ],
+    "meaning": {
+      "en": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+      "zh": "向對某個範疇有豐富知識或經驗的人請教，以取得有用的資料、意見、建議或想法。",
+      "naturalZh": [
+        "向某人請教",
+        "請教某人的意見",
+        "向某人取經",
+        "詢問某人的專業意見",
+        "請某人分享經驗或想法"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "conversations between friends or colleagues; workplace discussions; messages and informal emails; meetings and workshops; conversations with teachers, advisers or experienced relatives.",
+      "summaryZh": "這個表達屬於非正式語域，特別適合朋友、同事、老師、顧問或家人之間的對話。",
+      "contextsEn": [
+        "conversations between friends or colleagues",
+        "workplace discussions",
+        "messages and informal emails",
+        "meetings and workshops",
+        "conversations with teachers, advisers or experienced relatives"
+      ],
+      "contextsZh": [],
+      "formalEn": "In formal correspondence, expressions such as seek your advice, consult you or ask for your professional opinion may be more suitable.",
+      "formalZh": "在正式信件中，seek your advice、consult you 或 ask for your professional opinion 通常較為合適。"
+    },
+    "fixedVariable": {
+      "fixed": "pick someone’s brains",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + pick(s) / picked + possessive + brains.",
+          "example": "I often pick my brother’s brains.",
+          "highlight": "pick my brother’s brains"
+        },
+        {
+          "form": "Subject + can / could / should / may / will + pick + possessive + brains.",
+          "example": "We could pick Daniel’s brains.",
+          "highlight": "pick Daniel’s brains"
+        },
+        {
+          "form": "Subject + want / need / plan / hope + to pick + possessive + brains.",
+          "example": "I want to pick your brains about something.",
+          "highlight": "pick your brains"
+        },
+        {
+          "form": "Can / Could / May I + pick + your brains...?",
+          "example": "Can I pick your brains about choosing a laptop?",
+          "highlight": "pick your brains"
+        },
+        {
+          "form": "Subject + be + picking + possessive + brains.",
+          "example": "The students are picking the guest speaker’s brains.",
+          "highlight": "picking the guest speaker’s brains"
+        },
+        {
+          "form": "Subject + have / has / had + picked + possessive + brains.",
+          "example": "I have already picked my mentor’s brains.",
+          "highlight": "picked my mentor’s brains"
+        },
+        {
+          "form": "Picking + possessive + brains + verb...",
+          "example": "Picking my cousin’s brains helped me plan the trip.",
+          "highlight": "Picking my cousin’s brains"
+        },
+        {
+          "form": "To pick + possessive + brains, + subject + verb...",
+          "example": "To pick the chef’s brains, we invited her to lunch.",
+          "highlight": "pick the chef’s brains"
+        },
+        {
+          "form": "have a chance / opportunity / time + to pick + possessive + brains",
+          "example": "The workshop gave us a chance to pick the expert’s brains.",
+          "highlight": "pick the expert’s brains"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Ordinary Finite Verb Phrase",
+        "titleZh": "句式一：一般限定動詞片語",
+        "formula": "Subject + pick(s) / picked + possessive + brains.",
+        "descriptionEn": "This is the simplest complete structure.",
+        "descriptionZh": "這是最基本的完整句式。",
+        "examples": [
+          {
+            "en": "I often pick my brother’s brains.",
+            "zh": "我經常向哥哥請教。",
+            "highlight": "pick my brother’s brains"
+          },
+          {
+            "en": "The students picked their teacher’s brains.",
+            "zh": "學生向老師請教。",
+            "highlight": "picked their teacher’s brains"
+          },
+          {
+            "en": "Rachel picks her colleague’s brains whenever she needs a fresh idea.",
+            "zh": "每當麗素需要新想法時，她都會向同事請教。",
+            "highlight": "picks her colleague’s brains"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "句式二：情態動詞之後",
+        "formula": "Subject + can / could / should / may / will + pick + possessive + brains.",
+        "descriptionEn": "After a modal verb, use the base form pick.",
+        "descriptionZh": "情態動詞後必須使用原形 pick。",
+        "examples": [
+          {
+            "en": "We could pick Daniel’s brains.",
+            "zh": "我們可以向丹尼爾請教。",
+            "highlight": "pick Daniel’s brains"
+          },
+          {
+            "en": "You should pick your coach’s brains before the competition.",
+            "zh": "你應該在比賽前向教練請教。",
+            "highlight": "pick your coach’s brains"
+          },
+          {
+            "en": "I may pick her brains tomorrow.",
+            "zh": "我明天可能會向她請教。",
+            "highlight": "pick her brains"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “Want”, “Need”, “Plan” or “Hope”",
+        "titleZh": "句式三",
+        "formula": "Subject + want / need / plan / hope + to pick + possessive + brains.",
+        "descriptionEn": "The infinitive marker to belongs to the surrounding grammar. It is not part of the idiom.",
+        "descriptionZh": "接在 Want、Need、Plan 或 Hope 之後不定詞標記 to 屬於外圍句法，並不是慣用語的固定部分。",
+        "examples": [
+          {
+            "en": "I want to pick your brains about something.",
+            "zh": "我想就一件事向你請教。",
+            "highlight": "pick your brains"
+          },
+          {
+            "en": "We need to pick the manager’s brains before deciding.",
+            "zh": "我們作出決定前需要向經理請教。",
+            "highlight": "pick the manager’s brains"
+          },
+          {
+            "en": "They plan to pick the designer’s brains tomorrow.",
+            "zh": "他們計劃明天向設計師請教。",
+            "highlight": "pick the designer’s brains"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Polite Questions and Requests",
+        "titleZh": "句式四：禮貌問題及請求",
+        "formula": "Can / Could / May I + pick + your brains...?",
+        "descriptionEn": "The past form picked after would it be all right if does not necessarily refer to past time. It helps make the request less direct.",
+        "descriptionZh": "在 would it be all right if 後使用 picked，並不一定表示過去時間，而是令請求較為委婉。",
+        "examples": [
+          {
+            "en": "Can I pick your brains about choosing a laptop?",
+            "zh": "我可以就選擇手提電腦向你請教嗎？",
+            "highlight": "pick your brains"
+          },
+          {
+            "en": "Could I pick your brains for a few minutes?",
+            "zh": "我可以用幾分鐘向你請教一下嗎？",
+            "highlight": "pick your brains"
+          },
+          {
+            "en": "Would it be all right if I picked your brains?",
+            "zh": "我向你請教一下，可以嗎？",
+            "highlight": "picked your brains"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Progressive Forms",
+        "titleZh": "句式五：進行式",
+        "formula": "Subject + be + picking + possessive + brains.",
+        "descriptionEn": "Use this form when the discussion is happening or was happening around a particular time.",
+        "descriptionZh": "當請教過程正在某個時間進行時，可以使用這個句式。",
+        "examples": [
+          {
+            "en": "The students are picking the guest speaker’s brains.",
+            "zh": "學生正在向嘉賓講者請教。",
+            "highlight": "picking the guest speaker’s brains"
+          },
+          {
+            "en": "I was picking my cousin’s brains about travelling alone.",
+            "zh": "我當時正在向表哥請教獨自旅行的事情。",
+            "highlight": "picking my cousin’s brains"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Perfect Forms",
+        "titleZh": "句式六：完成式",
+        "formula": "Subject + have / has / had + picked + possessive + brains.",
+        "descriptionEn": "Source grammar frame: Subject + have / has / had + picked + possessive + brains.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have / has / had + picked + possessive + brains。",
+        "examples": [
+          {
+            "en": "I have already picked my mentor’s brains.",
+            "zh": "我已經向導師請教過。",
+            "highlight": "picked my mentor’s brains"
+          },
+          {
+            "en": "She had picked the engineer’s brains before the meeting.",
+            "zh": "她在會議前已向工程師請教過。",
+            "highlight": "picked the engineer’s brains"
+          },
+          {
+            "en": "By Friday, we hope to have picked the coach’s brains.",
+            "zh": "我們希望星期五前已向教練請教。",
+            "highlight": "picked the coach’s brains"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“Picking...” as a Gerund Clause",
+        "titleZh": "句式七：以 Picking 開始的動名詞結構",
+        "formula": "Picking + possessive + brains + verb...",
+        "descriptionEn": "The act of asking for knowledge or advice becomes the subject or complement of the sentence.",
+        "descriptionZh": "整個請教行為可以成為句子的主語或補語。",
+        "examples": [
+          {
+            "en": "Picking my cousin’s brains helped me plan the trip.",
+            "zh": "向表哥請教有助我規劃旅程。",
+            "highlight": "Picking my cousin’s brains"
+          },
+          {
+            "en": "She spent an hour picking the engineer’s brains.",
+            "zh": "她花了一小時向工程師請教。",
+            "highlight": "picking the engineer’s brains"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Purpose Infinitive",
+        "titleZh": "句式八：表示目的的不定詞",
+        "formula": "To pick + possessive + brains, + subject + verb...",
+        "descriptionEn": "The purpose clause is optional surrounding information. The core expression remains pick his brains.",
+        "descriptionZh": "目的片語屬於可選的外圍資料。 核心表達仍然只是 pick his brains。",
+        "examples": [
+          {
+            "en": "To pick the chef’s brains, we invited her to lunch.",
+            "zh": "為了向廚師請教，我們邀請她共進午餐。",
+            "highlight": "pick the chef’s brains"
+          },
+          {
+            "en": "I called Daniel to pick his brains.",
+            "zh": "我致電丹尼爾向他請教。",
+            "highlight": "pick his brains"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Opportunity or Permission Structures",
+        "titleZh": "句式九：機會或准許結構",
+        "formula": "have a chance / opportunity / time + to pick + possessive + brains",
+        "descriptionEn": "These nouns and verbs create the surrounding grammar. They are not fixed parts of the idiom.",
+        "descriptionZh": "這些名詞及動詞只是建立外圍句法，並非慣用語的固定部分。",
+        "examples": [
+          {
+            "en": "The workshop gave us a chance to pick the expert’s brains.",
+            "zh": "工作坊讓我們有機會向專家請教。",
+            "highlight": "pick the expert’s brains"
+          },
+          {
+            "en": "The architect let us pick her brains.",
+            "zh": "建築師讓我們向她請教。",
+            "highlight": "pick her brains"
+          },
+          {
+            "en": "I picked her brains about the interview.",
+            "zh": "我就面試的事情向她請教。",
+            "highlight": "picked her brains"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Identifies the Knowledgeable Person",
+        "titleZh": "突出被請教的人",
+        "en": "The idiomatic version makes it clearer that Daniel has useful knowledge or experience.",
+        "zh": "慣用語版本更清楚地表示丹尼爾擁有有用的知識或經驗。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Expresses More Than “Ask”",
+        "titleZh": "比 Ask 表達更多意思",
+        "en": "the speaker needs information or advice; the other person knows more about the subject; the speaker asks questions to learn from that person.",
+        "zh": "這個慣用語同時表達說話者需要資料或意見、對方較熟悉該主題，以及說話者透過提問向對方學習。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful for Friendly Professional Conversations",
+        "titleZh": "適合友善的工作交流",
+        "en": "It sounds cooperative without being extremely formal.",
+        "zh": "我可以就這個顧客問題向你請教嗎？ 更改網站前，我們應該向設計師請教。 這個表達帶有合作語氣，同時不會過於正式。",
+        "examples": [
+          {
+            "en": "Could I pick your brains about this customer problem?",
+            "zh": "我可以就這個顧客問題向你請教嗎？",
+            "highlight": "pick your brains"
+          },
+          {
+            "en": "We should pick the designer’s brains before changing the website.",
+            "zh": "更改網站前，我們應該向設計師請教。",
+            "highlight": "pick the designer’s brains"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Helps Make Requests Sound Conversational",
+        "titleZh": "令請求更具口語感",
+        "en": "The second version is shorter and more natural among colleagues or people who already know one another.",
+        "zh": "在同事或彼此認識的人之間，第二個版本較簡短自然。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Works in Several Grammar Patterns",
+        "titleZh": "可以配合多種句法",
+        "en": "a subject; a modal verb; an infinitive; a request structure; a time clause; an opportunity phrase; a gerund construction.",
+        "zh": "這個慣用語可以放在主語後、情態動詞後、不定詞結構中、請求句中、時間分句中、機會結構中或動名詞結構中。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Encourages Specific Requests",
+        "titleZh": "鼓勵提出具體請求",
+        "en": "Giving a topic and a reasonable time frame helps the listener understand what assistance is being requested.",
+        "zh": "我可以用五分鐘，就面試的事情向你請教嗎？ 提供主題和合理的時間範圍，可以讓對方清楚知道你需要甚麼協助。",
+        "examples": [
+          {
+            "en": "Could I pick your brains for five minutes about the interview?",
+            "zh": "我可以用五分鐘，就面試的事情向你請教嗎？",
+            "highlight": "pick your brains"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Likely Gradual Metaphorical Development",
+      "statusZh": "確切來源不明；很可能是逐漸形成的比喻用法",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, the British expression pick someone’s brains means asking a knowledgeable person for information, advice, ideas or an opinion. It is informal and commonly used in conversation.",
+          "zh": "今天，英式表達 pick someone’s brains 表示向熟悉某個範疇的人請教，以取得資料、意見、建議或想法。 它屬於非正式表達，常見於日常對話。"
+        }
+      ],
+      "memoryEn": "Imagine selecting useful ideas from a person’s store of knowledge—not touching a real brain.",
+      "memoryZh": "想像你正在從一個人的知識庫中挑選有用想法，而不是真正接觸大腦。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use the British Plural Form “Brains”",
+        "titleZh": "規則一：使用英式複數形式 Brains",
+        "en": "Use the British Plural Form “Brains”",
+        "zh": "使用英式複數形式 Brains",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Someone’s”",
+        "titleZh": "規則二：必須改變 Someone’s",
+        "en": "Unless the person is genuinely unknown, someone’s should be replaced with the correct possessor.",
+        "zh": "除非被請教者的身分確實不明，否則必須把 someone’s 改成正確的所有格。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use a Possessive, Not an Object Pronoun",
+        "titleZh": "規則三：使用所有格，不使用受詞代名詞",
+        "en": "Use a Possessive, Not an Object Pronoun",
+        "zh": "使用所有格，不使用受詞代名詞",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Other Person Should Have Useful Knowledge",
+        "titleZh": "規則四：對方應具備有用的知識或經驗",
+        "en": "If Daniel has no relevant knowledge, the situation does not naturally license the idiom.",
+        "zh": "丹尼爾有多年維修單車的經驗，所以我向他請教煞車問題。 如果丹尼爾沒有相關知識，這個情境便不適合使用該慣用語。",
+        "examples": [
+          {
+            "en": "Daniel has repaired bicycles for years, so I picked his brains about my brakes.",
+            "zh": "丹尼爾有多年維修單車的經驗，所以我向他請教煞車問題。",
+            "highlight": "picked his brains"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Means Asking for Knowledge, Not Copying",
+        "titleZh": "規則五：意思是請教，不是抄襲",
+        "en": "Work; secretly copying somebody’s homework; stealing a completed report; taking somebody’s private files; forcing somebody to reveal confidential information.",
+        "zh": "它通常不表示偷偷抄功課、偷取報告、拿走私人檔案或強迫別人洩露機密。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve the Topic When It Matters",
+        "titleZh": "規則六：必要時保留請教主題",
+        "en": "The shorter sentence can be natural in an established conversation, but the answer key should normally preserve the important topic.",
+        "zh": "較短的句子在已有清楚語境的對話中可以成立，但獨立答案通常應保留重要主題。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Tense and Modality",
+        "titleZh": "規則七：保留時態及情態",
+        "en": "The incorrect answer changes a possibility into a completed action.",
+        "zh": "錯誤答案把可能採取的行動改成已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Use Polite Framing When Appropriate",
+        "titleZh": "規則八：適當時使用禮貌句式",
+        "en": "When speaking to a teacher, expert, senior colleague or somebody giving their time freely, a request form is often more considerate.",
+        "zh": "當對方是老師、專家、資深同事或正在抽空幫忙的人，使用請求句通常更有禮貌。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Interpret the Expression Literally",
+        "titleZh": "規則九：不要按字面理解",
+        "en": "The idiom does not describe physically touching, opening or removing a brain. It refers figuratively to obtaining useful knowledge through conversation.",
+        "zh": "這個慣用語不是指真正接觸、打開或取出人的大腦。 它以比喻方式表示透過交談取得有用知識。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Add Unnecessary Repetition",
+        "titleZh": "規則十：不要加入不必要的意思重複",
+        "en": "The second clause repeats the meaning already expressed by the idiom.",
+        "zh": "第二個分句重複了慣用語已經表達的意思。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "“About” Is Optional",
+        "titleZh": "規則十一：About 片語並非必須",
+        "en": "The second sentence simply supplies the topic. Do not teach pick someone’s brains about as though every answer must contain about.",
+        "zh": "第二句只是補充請教的主題。 不要把 pick someone’s brains about 當成每個答案都必須使用的完整固定形式。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Confuse It with Other “Brain”",
+        "titleZh": "規則十二：不要與其他包含 Brain 的表達混淆",
+        "en": "Expressions rack one’s brains be the brains behind something These expressions have different meanings and grammar.",
+        "zh": "不要與其他包含 Brain 的表達混淆 pick someone’s brains 向某人請教努力思考或回想 be the brains behind something 是某項計劃背後的主要策劃者這些表達的意思及句法均不相同。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using pick someone’s brains.",
+      "zh": "使用 pick someone’s brains 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-90-q01",
+        "number": 1,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Olivia knows a great deal about indoor plants. I asked her why mine were dying.",
+        "promptZh": "奧莉花對室內植物十分熟悉。我向她請教自己的植物為甚麼正在枯萎。",
+        "starter": "I",
+        "answer": "I picked Olivia’s brains about why my plants were dying.",
+        "answerZh": "我向奧莉花請教自己的植物為甚麼正在枯萎。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked Olivia’s brains"
+      },
+      {
+        "id": "idiom-90-q02",
+        "number": 2,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Daniel knows a great deal about computers. We asked him which laptop would suit us.",
+        "promptZh": "丹尼爾對電腦十分熟悉。我們向他請教哪一部手提電腦適合我們。",
+        "starter": "We",
+        "answer": "We picked Daniel’s brains about which laptop would suit us.",
+        "answerZh": "我們向丹尼爾請教哪一部手提電腦適合我們。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked Daniel’s brains"
+      },
+      {
+        "id": "idiom-90-q03",
+        "number": 3,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "My aunt has run a café for many years. I asked her for advice before opening mine.",
+        "promptZh": "我的姨母經營咖啡店多年。我在開店前向她請教。",
+        "starter": "Before",
+        "answer": "Before opening my café, I picked my aunt’s brains about running one.",
+        "answerZh": "開設咖啡店前，我向姨母請教經營方法。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked my aunt’s brains"
+      },
+      {
+        "id": "idiom-90-q04",
+        "number": 4,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The teacher knew exactly what the examination required. The students asked her for advice.",
+        "promptZh": "老師非常了解考試要求。學生向她請教。",
+        "starter": "The",
+        "answer": "The students picked their teacher’s brains about the examination.",
+        "answerZh": "學生向老師請教考試的事情。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked their teacher’s brains"
+      },
+      {
+        "id": "idiom-90-q05",
+        "number": 5,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Ava has visited Osaka several times. I asked her where I should stay.",
+        "promptZh": "艾娃到訪大阪多次。我向她請教應該住在哪裏。",
+        "starter": "To",
+        "answer": "To find a good place to stay in Osaka, I picked Ava’s brains.",
+        "answerZh": "為了在大阪找到合適的住宿地點，我向艾娃請教。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked Ava’s brains"
+      },
+      {
+        "id": "idiom-90-q06",
+        "number": 6,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Ben has repaired bicycles for years. Leo asked him how to fix the brakes.",
+        "promptZh": "本有多年維修單車的經驗。里奧向他請教如何修理煞車。",
+        "starter": "Leo",
+        "answer": "Leo picked Ben’s brains about repairing the bicycle brakes.",
+        "answerZh": "里奧向本請教如何修理單車煞車。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked Ben’s brains"
+      },
+      {
+        "id": "idiom-90-q07",
+        "number": 7,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "My neighbour grows excellent vegetables. I want to ask her how she does it.",
+        "promptZh": "我的鄰居種植的蔬菜非常好。我想向她請教種植方法。",
+        "starter": "I",
+        "answer": "I want to pick my neighbour’s brains about growing vegetables.",
+        "answerZh": "我想向鄰居請教種植蔬菜的方法。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick my neighbour’s brains"
+      },
+      {
+        "id": "idiom-90-q08",
+        "number": 8,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Our manager understands our customers very well. We need her advice about what they want.",
+        "promptZh": "我們的經理十分了解顧客。我們需要請教她顧客想要甚麼。",
+        "starter": "We",
+        "answer": "We need to pick our manager’s brains about what customers want.",
+        "answerZh": "我們需要向經理請教顧客想要甚麼。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick our manager’s brains"
+      },
+      {
+        "id": "idiom-90-q09",
+        "number": 9,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "My sister works at a hotel. I will ask her for advice about my hotel interview next week.",
+        "promptZh": "我的姐姐在酒店工作。我下星期會向她請教酒店面試的事情。",
+        "starter": "Next",
+        "answer": "Next week, I will pick my sister’s brains about the hotel interview.",
+        "answerZh": "下星期，我會向姐姐請教酒店面試的事情。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick my sister’s brains"
+      },
+      {
+        "id": "idiom-90-q10",
+        "number": 10,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Our grandfather knows a great deal about our family’s history. We spent lunchtime asking him questions.",
+        "promptZh": "祖父十分了解家族歷史。我們在午膳期間向他提出了很多問題。",
+        "starter": "During",
+        "answer": "During lunch, we picked our grandfather’s brains about our family history.",
+        "answerZh": "午膳期間，我們向祖父請教家族歷史。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked our grandfather’s brains"
+      },
+      {
+        "id": "idiom-90-q11",
+        "number": 11,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "You know a great deal about cameras. May I ask you for advice about choosing one?",
+        "promptZh": "你對相機十分熟悉。我可以向你請教如何選擇相機嗎？",
+        "starter": "Can",
+        "answer": "Can I pick your brains about choosing a camera?",
+        "answerZh": "我可以就選擇相機向你請教嗎？",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick your brains"
+      },
+      {
+        "id": "idiom-90-q12",
+        "number": 12,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "You have planned many holidays. May I ask for your opinion about this travel plan?",
+        "promptZh": "你規劃過很多次旅行。我可以就這份旅遊計劃請教你的意見嗎？",
+        "starter": "Could",
+        "answer": "Could I pick your brains about this travel plan?",
+        "answerZh": "我可以就這份旅遊計劃請教你的意見嗎？",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick your brains"
+      },
+      {
+        "id": "idiom-90-q13",
+        "number": 13,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "You have helped many people improve their CVs. Would it be acceptable for me to ask for your advice about mine?",
+        "promptZh": "你曾協助很多人改善履歷。我向你請教自己的履歷，可以嗎？",
+        "starter": "Would",
+        "answer": "Would it be all right if I picked your brains about my CV?",
+        "answerZh": "我向你請教自己的履歷，可以嗎？",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked your brains"
+      },
+      {
+        "id": "idiom-90-q14",
+        "number": 14,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Rachel’s colleague always has useful teaching ideas. Rachel asks for those ideas whenever she plans a lesson.",
+        "promptZh": "麗素的同事總有實用的教學想法。每當麗素規劃課堂時，她都會向同事請教。",
+        "starter": "Whenever",
+        "answer": "Whenever she plans a lesson, Rachel picks her colleague’s brains for fresh ideas.",
+        "answerZh": "每當麗素規劃課堂時，她都會向同事請教新想法。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picks her colleague’s brains"
+      },
+      {
+        "id": "idiom-90-q15",
+        "number": 15,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The chef knows how to make the sauce properly. The trainees are asking him about it now.",
+        "promptZh": "廚師知道如何正確製作醬汁。學員現在正在向他請教。",
+        "starter": "They",
+        "answer": "They are picking the chef’s brains about making the sauce.",
+        "answerZh": "他們正在向廚師請教如何製作醬汁。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picking the chef’s brains"
+      },
+      {
+        "id": "idiom-90-q16",
+        "number": 16,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "My mentor has helped many people change careers. I have asked her for advice several times.",
+        "promptZh": "我的導師曾協助很多人轉行。我已經向她請教過幾次。",
+        "starter": "I",
+        "answer": "I have picked my mentor’s brains several times about changing careers.",
+        "answerZh": "我已經數次向導師請教轉行的事情。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked my mentor’s brains"
+      },
+      {
+        "id": "idiom-90-q17",
+        "number": 17,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "We are not certain which plan will work. We should ask a colleague who has done this before.",
+        "promptZh": "我們不肯定哪個計劃可行。我們應該向曾處理過這種事情的同事請教。",
+        "starter": "Before",
+        "answer": "Before deciding, we should pick an experienced colleague’s brains.",
+        "answerZh": "作出決定前，我們應該向有經驗的同事請教。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick an experienced colleague’s brains"
+      },
+      {
+        "id": "idiom-90-q18",
+        "number": 18,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Clara has completed the same application successfully. Ask her for advice if you are uncertain.",
+        "promptZh": "嘉拉曾成功完成同一份申請。如果你不肯定，便向她請教。",
+        "starter": "If",
+        "answer": "If you are unsure about the application, pick Clara’s brains.",
+        "answerZh": "如果你不肯定如何處理申請，便向嘉拉請教。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick Clara’s brains"
+      },
+      {
+        "id": "idiom-90-q19",
+        "number": 19,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Priya organised last year’s school fair. Let us ask her for ideas about this year’s event.",
+        "promptZh": "佩雅籌辦了去年的學校嘉年華。讓我們向她請教今年活動的想法。",
+        "starter": "Let’s",
+        "answer": "Let’s pick Priya’s brains about the school fair.",
+        "answerZh": "讓我們向佩雅請教學校嘉年華的事情。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick Priya’s brains"
+      },
+      {
+        "id": "idiom-90-q20",
+        "number": 20,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Dad is very good at controlling his spending. Why do we not ask him how he saves money?",
+        "promptZh": "爸爸很擅長控制開支。我們何不向他請教如何節省金錢？",
+        "starter": "Why",
+        "answer": "Why don’t we pick Dad’s brains about saving money?",
+        "answerZh": "我們何不向爸爸請教節省金錢的方法？",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick Dad’s brains"
+      },
+      {
+        "id": "idiom-90-q21",
+        "number": 21,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: I cannot decide which course to take. B: Our tutor has studied both subjects. Let us ask her before deciding.",
+        "promptZh": "甲：我無法決定修讀哪個課程。 乙：我們的導師修讀過兩個科目。讓我們在決定前向她請教。",
+        "starter": "Before",
+        "answer": "Before choosing a course, let’s pick our tutor’s brains.",
+        "answerZh": "選擇課程前，讓我們向導師請教。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick our tutor’s brains"
+      },
+      {
+        "id": "idiom-90-q22",
+        "number": 22,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: We need some ideas for our new podcast. B: Marco produces one every week. We could ask him how he plans it.",
+        "promptZh": "甲：我們的新網上節目需要一些想法。 乙：馬高每星期都製作一個節目。我們可以向他請教如何規劃。",
+        "starter": "We",
+        "answer": "We could pick Marco’s brains about planning the podcast.",
+        "answerZh": "我們可以向馬高請教如何規劃網上節目。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick Marco’s brains"
+      },
+      {
+        "id": "idiom-90-q23",
+        "number": 23,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Hannah wanted advice about the poster, so she said that she would ask the designer.",
+        "promptZh": "漢娜需要海報設計方面的建議，所以她說會向設計師請教。",
+        "starter": "Hannah",
+        "answer": "Hannah said she wanted to pick the designer’s brains about the poster.",
+        "answerZh": "漢娜說她想向設計師請教海報的事情。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick the designer’s brains"
+      },
+      {
+        "id": "idiom-90-q24",
+        "number": 24,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The nurse understands the new booking system, but she was too busy for me to ask her about it.",
+        "promptZh": "護士了解新的預約系統，但她太忙了，所以我沒有機會向她請教。",
+        "starter": "I",
+        "answer": "I did not get a chance to pick the nurse’s brains about the booking system.",
+        "answerZh": "我沒有機會向護士請教預約系統。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick the nurse’s brains"
+      },
+      {
+        "id": "idiom-90-q25",
+        "number": 25,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The coach has agreed to discuss my training plan. I hope to have asked for his advice by Friday.",
+        "promptZh": "教練已答應與我討論訓練計劃。我希望星期五前已向他請教。",
+        "starter": "By",
+        "answer": "By Friday, I hope to have picked the coach’s brains about my training plan.",
+        "answerZh": "我希望星期五前已向教練請教自己的訓練計劃。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked the coach’s brains"
+      },
+      {
+        "id": "idiom-90-q26",
+        "number": 26,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "My cousin has travelled alone many times. Asking her for advice helped me plan my first solo trip.",
+        "promptZh": "我的表姐多次獨自旅行。向她請教有助我規劃第一次獨遊。",
+        "starter": "Picking",
+        "answer": "Picking my cousin’s brains helped me plan my first trip alone.",
+        "answerZh": "向表姐請教有助我規劃第一次獨遊。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "Picking my cousin’s brains"
+      },
+      {
+        "id": "idiom-90-q27",
+        "number": 27,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The delivery driver knows the local roads very well. We asked him for advice so that we could choose the best route.",
+        "promptZh": "送貨司機十分熟悉區內道路。我們向他請教，以選擇最佳路線。",
+        "starter": "To",
+        "answer": "To choose the best route, we picked the delivery driver’s brains about local traffic.",
+        "answerZh": "為了選擇最佳路線，我們向送貨司機請教區內交通情況。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked the delivery driver’s brains"
+      },
+      {
+        "id": "idiom-90-q28",
+        "number": 28,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The IT worker explained the computer problem to us. After asking him several questions, we understood it better.",
+        "promptZh": "資訊科技人員向我們解釋電腦問題。向他提出幾條問題後，我們更了解情況。",
+        "starter": "We",
+        "answer": "We understood the computer problem better after picking the IT worker’s brains.",
+        "answerZh": "向資訊科技人員請教後，我們更了解電腦問題。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picking the IT worker’s brains"
+      },
+      {
+        "id": "idiom-90-q29",
+        "number": 29,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Sam’s friend had attended an interview at the same company. Sam only wanted to ask what the company expected.",
+        "promptZh": "森的朋友曾在同一間公司面試。森只想向朋友請教公司有甚麼要求。",
+        "starter": "All",
+        "answer": "All Sam wanted was to pick his friend’s brains about what the company expected.",
+        "answerZh": "森只想向朋友請教公司有甚麼要求。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick his friend’s brains"
+      },
+      {
+        "id": "idiom-90-q30",
+        "number": 30,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The shop owner has used the equipment for years. Asking for her opinion before we order it would be useful.",
+        "promptZh": "店主使用這款設備多年。我們訂購前向她請教會很有幫助。",
+        "starter": "It",
+        "answer": "It would be useful to pick the shop owner’s brains before ordering the equipment.",
+        "answerZh": "訂購設備前向店主請教會很有幫助。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick the shop owner’s brains"
+      },
+      {
+        "id": "idiom-90-q31",
+        "number": 31,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The architect was busy, but she agreed to let us ask her questions about the room design.",
+        "promptZh": "建築師十分忙碌，但她同意讓我們就房間設計向她請教。",
+        "starter": "Although",
+        "answer": "Although she was busy, the architect let us pick her brains about the room design.",
+        "answerZh": "雖然建築師十分忙碌，但她仍讓我們就房間設計向她請教。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick her brains"
+      },
+      {
+        "id": "idiom-90-q32",
+        "number": 32,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The mechanic knew this car model very well, so I called him for advice about the engine noise.",
+        "promptZh": "那名技工十分熟悉這款汽車，所以我致電向他請教引擎噪音的問題。",
+        "starter": "Because",
+        "answer": "Because the mechanic knew the model well, I called to pick his brains about the engine noise.",
+        "answerZh": "因為技工十分熟悉這款汽車，所以我致電向他請教引擎噪音的問題。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick his brains"
+      },
+      {
+        "id": "idiom-90-q33",
+        "number": 33,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The team did not want to guess how the machine worked. They asked their most experienced colleague.",
+        "promptZh": "團隊不想猜測機器如何運作，所以向最有經驗的同事請教。",
+        "starter": "Rather",
+        "answer": "Rather than guess, the team picked their most experienced colleague’s brains about the machine.",
+        "answerZh": "團隊沒有自行猜測，而是向最有經驗的同事請教那部機器。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked their most experienced colleague’s brains"
+      },
+      {
+        "id": "idiom-90-q34",
+        "number": 34,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Rachel works as an editor. Whenever I write an important email, I ask for her opinion about the wording.",
+        "promptZh": "麗素是一名編輯。每當我撰寫重要電郵時，我都會向她請教措辭。",
+        "starter": "Whenever",
+        "answer": "Whenever I write an important email, I pick Rachel’s brains about the wording.",
+        "answerZh": "每當我撰寫重要電郵時，我都會向麗素請教措辭。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick Rachel’s brains"
+      },
+      {
+        "id": "idiom-90-q35",
+        "number": 35,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Daniel is their friend and also a lawyer. They plan to ask him about the terms before signing the lease.",
+        "promptZh": "丹尼爾是他們的朋友，也是一名律師。他們計劃在簽署租約前向他請教條款。",
+        "starter": "Before",
+        "answer": "Before signing the lease, they plan to pick Daniel’s brains about the terms.",
+        "answerZh": "簽署租約前，他們計劃向丹尼爾請教條款。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick Daniel’s brains"
+      },
+      {
+        "id": "idiom-90-q36",
+        "number": 36,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "My supervisor knew how to prevent the problem. Had I asked for her advice earlier, I might not have made the mistake.",
+        "promptZh": "我的主管知道如何避免問題。如果我早點向她請教，可能便不會犯錯。",
+        "starter": "If",
+        "answer": "If I had picked my supervisor’s brains earlier, I might have avoided the mistake.",
+        "answerZh": "如果我早點向主管請教，可能便可以避免犯錯。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked my supervisor’s brains"
+      },
+      {
+        "id": "idiom-90-q37",
+        "number": 37,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The workshop included a short question period. We were allowed ten minutes to ask the expert for advice.",
+        "promptZh": "工作坊設有簡短問答環節。我們獲准用十分鐘向專家請教。",
+        "starter": "At",
+        "answer": "At the workshop, we were given ten minutes to pick the expert’s brains.",
+        "answerZh": "在工作坊中，我們獲得十分鐘向專家請教。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick the expert’s brains"
+      },
+      {
+        "id": "idiom-90-q38",
+        "number": 38,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "My sister has solved the same problem before. I asked her instead of searching online.",
+        "promptZh": "我的姐姐以前解決過同一個問題。我沒有上網搜尋，而是向她請教。",
+        "starter": "Instead",
+        "answer": "Instead of searching online, I picked my sister’s brains about the problem.",
+        "answerZh": "我沒有上網搜尋，而是向姐姐請教那個問題。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked my sister’s brains"
+      },
+      {
+        "id": "idiom-90-q39",
+        "number": 39,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Several experienced speakers attended the meeting. Staff had an opportunity to ask them about customer service.",
+        "promptZh": "幾名經驗豐富的講者出席了會議。員工有機會向他們請教顧客服務。",
+        "starter": "The",
+        "answer": "The meeting gave staff a chance to pick the guest speakers’ brains about customer service.",
+        "answerZh": "會議讓員工有機會向嘉賓講者請教顧客服務。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick the guest speakers’ brains"
+      },
+      {
+        "id": "idiom-90-q40",
+        "number": 40,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The author understood every detail of the novel. When I finally met her, I asked why she had chosen that ending.",
+        "promptZh": "作者了解小說的每個細節。我終於見到她時，便向她請教為甚麼選擇那個結局。",
+        "starter": "When",
+        "answer": "When I finally met the author, I picked her brains about the ending of the novel.",
+        "answerZh": "我終於見到作者時，便向她請教小說結局的事情。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked her brains"
+      },
+      {
+        "id": "idiom-90-q41",
+        "number": 41,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: You have dealt with online orders for years. B: Yes, but I only have five minutes before my meeting. A: May I use those five minutes to ask you about our shop’s orders?",
+        "promptZh": "甲：你處理網上訂單多年。 乙：是的，但我開會前只有五分鐘。 甲：我可以用這五分鐘，就店舖訂單向你請教嗎？",
+        "starter": "Could",
+        "answer": "Could I pick your brains for five minutes about the shop’s online orders?",
+        "answerZh": "我可以用五分鐘，就店舖的網上訂單向你請教嗎？",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick your brains"
+      },
+      {
+        "id": "idiom-90-q42",
+        "number": 42,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Martin’s first business failed, but he learnt a great deal from it. I do not want general advice; I want to ask him what went wrong.",
+        "promptZh": "馬田第一次創業失敗了，但從中學到很多。我不想得到一般建議，而是想向他請教當時出了甚麼問題。",
+        "starter": "What",
+        "answer": "What I really want is to pick his brains about what went wrong in his first business.",
+        "answerZh": "我真正想做的是向他請教第一次創業時出了甚麼問題。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick his brains"
+      },
+      {
+        "id": "idiom-90-q43",
+        "number": 43,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The new worker had used the same procedure at another branch. Before changing it, the manager asked her to explain how it worked.",
+        "promptZh": "新員工曾在另一間分店使用同一套程序。經理更改程序前，先向她請教其運作方式。",
+        "starter": "Before",
+        "answer": "Before changing the procedure, the manager picked the new worker’s brains about how it worked.",
+        "answerZh": "更改程序前，經理向新員工請教其運作方式。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picked the new worker’s brains"
+      },
+      {
+        "id": "idiom-90-q44",
+        "number": 44,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Two teachers had taught the course before. I intended to ask both of them for advice, but only one was free.",
+        "promptZh": "兩名老師以前都教授過這個課程。我原本打算向兩人請教，但只有一人有空。",
+        "starter": "I",
+        "answer": "I had planned to pick both teachers’ brains, but only one was free.",
+        "answerZh": "我原本打算向兩名老師請教，但只有一人有空。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick both teachers’ brains"
+      },
+      {
+        "id": "idiom-90-q45",
+        "number": 45,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The customers understand their own needs better than we do. We should ask for their opinions before completing the plan.",
+        "promptZh": "顧客比我們更了解自己的需要。我們完成計劃前應該請教他們的意見。",
+        "starter": "We",
+        "answer": "We should pick our customers’ brains before finalising the plan.",
+        "answerZh": "完成計劃前，我們應該請教顧客的意見。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick our customers’ brains"
+      },
+      {
+        "id": "idiom-90-q46",
+        "number": 46,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Several local cooks understand what food people in the area enjoy. The event team intends to ask for their ideas.",
+        "promptZh": "幾名本地廚師了解區內居民喜歡甚麼食物。活動團隊打算向他們請教。",
+        "starter": "The",
+        "answer": "The team intends to pick the local cooks’ brains about what food people in the area enjoy.",
+        "answerZh": "團隊打算向本地廚師請教區內居民喜歡甚麼食物。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick the local cooks’ brains"
+      },
+      {
+        "id": "idiom-90-q47",
+        "number": 47,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The retired engineer explained the machine for an hour. Her explanation gave the student the idea she needed.",
+        "promptZh": "退休工程師用了一小時解釋那部機器。她的解釋令學生取得所需想法。",
+        "starter": "She",
+        "answer": "She got the idea after spending an hour picking the retired engineer’s brains.",
+        "answerZh": "她花了一小時向退休工程師請教後，取得了所需想法。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "picking the retired engineer’s brains"
+      },
+      {
+        "id": "idiom-90-q48",
+        "number": 48,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Former pupils know which preparations helped them most. The principal wants current students to ask them for advice about university.",
+        "promptZh": "舊生知道哪些準備對他們最有幫助。校長希望現屆學生向他們請教大學準備事宜。",
+        "starter": "The",
+        "answer": "The principal wants the students to pick former pupils’ brains about preparing for university.",
+        "answerZh": "校長希望學生向舊生請教大學準備事宜。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick former pupils’ brains"
+      },
+      {
+        "id": "idiom-90-q49",
+        "number": 49,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The adviser told me that I could contact her whenever I needed more information.",
+        "promptZh": "顧問告訴我，每當需要更多資料時，我都可以聯絡她請教。",
+        "starter": "The",
+        "answer": "The adviser said I could pick her brains whenever I needed more information.",
+        "answerZh": "顧問說，每當我需要更多資料時，都可以向她請教。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick her brains"
+      },
+      {
+        "id": "idiom-90-q50",
+        "number": 50,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A: We have read every guide, but we still do not know how to make the event suitable for everyone. B: Rosa organised a similar event last year, and she will visit tomorrow.",
+        "promptZh": "甲：我們已閱讀所有指南，但仍然不知道如何令活動適合所有人。 乙：羅莎去年籌辦過類似活動，而且明天會到訪。",
+        "starter": "Since",
+        "answer": "Since Rosa organised a similar event last year, let’s pick her brains when she visits tomorrow.",
+        "answerZh": "由於羅莎去年籌辦過類似活動，讓我們在她明天到訪時向她請教。",
+        "targetForm": "pick someone’s brains",
+        "targetMeaning": "To ask somebody who knows a great deal about a subject for information, advice, ideas or an opinion.",
+        "highlight": "pick her brains"
+      }
+    ]
+  }
+}

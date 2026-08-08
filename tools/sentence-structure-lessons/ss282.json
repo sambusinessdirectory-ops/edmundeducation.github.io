@@ -1,0 +1,1245 @@
+{
+  "id": "ss282",
+  "order": 282,
+  "slug": "more-specifically-more-precisely",
+  "title": "「More specifically / More precisely」補充具體資料及提高準確度",
+  "titleZh": "「More specifically / More precisely」補充具體資料及提高準確度",
+  "titleEn": "Using “More specifically / More precisely”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 281 -「More specifically _ More precisely」補充具體資料及提高準確度.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "sha256": "6978bbac781e8db25e01d6281e744a2ea26e6d685270067d12ac1ddff11f8530",
+    "sourceNumber": 281,
+    "systemOrder": 282,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 281 maps to ss282: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Approximate or general information + more precisely + exact information",
+  "formulas": [
+    {
+      "id": "ss282-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Approximate or general information + more precisely + exact information"
+    }
+  ],
+  "example": "General information + more specifically + narrower information More precisely Use More precisely to replace an approximate, general or slightly unclear statement with more exact information.",
+  "exampleZh": "使用 More specifically，把較廣泛的內容收窄，指出正在討論的具體部分、群體、種類、範疇或例子。使用 More precisely，把大概、籠統或不夠清楚的說法改得更準確。",
+  "examples": [
+    {
+      "id": "ss282-example-01",
+      "en": "General information + more specifically + narrower information More precisely Use More precisely to replace an approximate, general or slightly unclear statement with more exact information.",
+      "zh": "使用 More specifically，把較廣泛的內容收窄，指出正在討論的具體部分、群體、種類、範疇或例子。使用 More precisely，把大概、籠統或不夠清楚的說法改得更準確。",
+      "highlight": "General information + more specifically + narrower information More precisely Use More precisely to replace an approximate, general or slightly unclear statement with more exact information."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss282-rule-01",
+      "zh": "核心表達本身只是 more specifically 和 more precisely。後面補充的子句、詞組、數字、時間或地點並不是固定表達的一部分。報告討論污染問題，更具體地說，是空氣污染。 會議很晚才結束——更準確地說，是晚上八時四十七分。 兩個表達本身已經完整。後面的內容只是補充所需資料。",
+      "en": "The core expressions are simply “more specifically” and “more precisely” The information following the expression is not part of the fixed expression. The report discusses pollution, more specifically air pollution. The meeting ended late—more precisely, at 8:47 p.m. Both expressions are already complete. The information after them simply supplies the required detail.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss282-rule-02",
+      "zh": "這兩個表達並非只可以放在一個固定位置，而是可以出現在不同的自然位置。這間店舖售賣食品。更具體地說，它專門售賣進口零食。 數字接近百分之十五。更準確地說，是百分之十四點八。 這個課程培養溝通能力；更具體地說，它培養口語能力。 問題在最後階段出現——更具體地說，是在測試期間。 車程約為兩小時——更準確地說，是一小時五十二分鐘。 這項政策適用於辦公室職員，更具體地說，是接待員。",
+      "en": "The expressions are not fixed in one position They can appear in several natural grammatical positions. At the beginning of a new sentence General statement. More specifically / More precisely, + complete clause. The shop sells food. More specifically, it specialises in imported snacks. The figure was close to 15%. More precisely, it was 14.8%. After a semicolon General statement The course develops communication skills more specifically, it develops speaking skills. After a dash General information—more specifically / more precisely, + detail. The problem occurred during the final stage—more specifically, during testing. The journey took about two hours—more precisely, one hour and fifty-two minutes. Before a narrower phrase Broad phrase, more specifically + narrower phrase The policy applies to office staff, more specifically receptionists.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss282-rule-02a",
+      "zh": "部分僱員——更具體地說，是新入職的接待員——需要接受培訓。 這個句型會修正前面的說法，或使其更加準確。包裹重約兩公斤——更準確地說，是二點一八公斤。",
+      "en": "As a parenthetical expression Broad group—more specifically, narrower group—+ verb Some employees—more specifically, the new receptionists—need training. With “or, more precisely,” This pattern corrects or sharpens the information immediately before it. The parcel weighs about two kilograms—or, more precisely, 2.18 kilograms.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss282-rule-03",
+      "zh": "通常把一個廣泛類別收窄。這個課程涵蓋科學，更具體地說，是環境科學。 通常用來提供準確的數字、時間、日期、地點、量度或經修正的說法。課程下月開始——更準確地說，是九月十四日。 兩者有時可以互換使用，但本練習採用以下最清晰的分別：【more specifically = narrower detail】 更具體的資料更準確的資料",
+      "en": "“More specifically” and “more precisely” have different main purposes More specifically normally narrows a broad category. More specifically The programme covers science, more specifically environmental science. More precisely normally gives an exact number, time, date, place, measurement or corrected description. More precisely The programme begins next month—more precisely, on 14 September. The two expressions can sometimes overlap, but this exercise uses the clearest distinction: more specifically = narrower detail more precisely = more exact information",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss282-rule-04",
+      "zh": "如表達放在句首，後面要加逗號。如表達在一個完整子句後引出另一個完整子句，應使用句號、分號或破折號。不要只用逗號連接兩個完整子句。",
+      "en": "Use suitable punctuation When the expression begins a sentence, place a comma after it. More specifically, the problem affected younger users. When it introduces a complete clause after another complete clause, use a full stop, semicolon or dash. The course covers communication more specifically, it develops speaking skills. Do not join two complete clauses with commas only. The course covers communication, more specifically, it develops speaking skills.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss282-rule-05",
+      "zh": "詞語【Especially】表示某事特別重要、常見或明顯。目標表達【More specifically】則指出較廣泛內容中的確切部分。我喜歡戶外活動，尤其是遠足。 這個課程教授戶外安全知識，更具體地說，是如何閱讀山徑標誌。",
+      "en": "“More specifically” is not exactly the same as “especially” Especially highlights something that is particularly important, common or noticeable. More specifically identifies the exact part of a broader idea. More specifically I enjoy outdoor activities, especially hiking. The programme teaches outdoor safety, more specifically how to read trail signs. 1. General statement. More specifically, + narrower clause. 2. General statement 3. Broad phrase, more specifically + narrower phrase. 4. Broad group—more specifically, narrower group—+ verb. 5. Approximate statement—more precisely, + exact information.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss282-rule-06",
+      "zh": "如要把較概略的說法改得更準確，可使用「概略陳述—或更準確地說（or, more precisely,）+ 精確資料」這個結構。",
+      "en": "Approximate statement—or, more precisely, + exact information.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss282-rule-07",
+      "zh": "後面補充的內容可以是完整子句、名詞詞組、介詞詞組、數字、百分比、時間、日期、地點或量度。",
+      "en": "General statement. More precisely, + corrected clause. The following detail may be a complete clause, noun phrase, prepositional phrase, number, percentage, time, date, place or measurement.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss282-benefit-01",
+      "zh": "你可以先提出主要話題，然後再告訴讀者自己確實指哪一部分。報告討論交通。更具體地說，它研究巴士服務。",
+      "en": "They help you move from a general idea to an exact detail You can first introduce the main topic and then tell the reader exactly which part you mean. The report discusses transport. More specifically, it examines bus services.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss282-benefit-02",
+      "zh": "讀者先接收整體概念，然後才看到詳細資料，因此較複雜的內容會更容易理解。",
+      "en": "They make explanations easier to follow The reader receives the general idea first and the detailed information afterwards. This makes complicated information easier to understand.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss282-benefit-03",
+      "zh": "說話時，你可以先提出大概的數字、時間或描述，然後自然地補充準確資料，不需要重新說整句。車程約為三小時——更準確地說，是兩小時四十七分鐘。",
+      "en": "“More precisely” helps you correct yourself naturally In speaking, you may begin with an approximate number, time or description and then provide the exact information without restarting the whole sentence. The journey took about three hours—or, more precisely, two hours and forty-seven minutes.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss282-benefit-04",
+      "zh": "你不需要只使用「部分職員」、「一個問題」或「稍後」等籠統說法，而可以指出確實的人物、問題或時間。",
+      "en": "They help you avoid vague statements Instead of leaving the reader with a broad expression such as “some staff”, “a problem” or “later”, you can identify the exact people, problem or time.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss282-benefit-05",
+      "zh": "這兩個表達能讓你先提出重點，再補充支持資料，使報告、文章和簡報更有組織。",
+      "en": "They organise reports, essays and presentations clearly These expressions help you begin with the main point and then develop it with supporting detail.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss282-benefit-06",
+      "zh": "你不需要每次都把表達放在句首，而可以按句子需要使用句號、分號、破折號、逗號或插入語，增加句式變化。",
+      "en": "They give you more sentence variety You do not need to place the expression at the beginning every time. You can use a full stop, semicolon, dash, comma or parenthetical expression according to the sentence.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 281 maps to ss282: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item using More specifically or More precisely.",
+      "Use More specifically to narrow a broad idea. Use More precisely to provide more exact",
+      "information.",
+      "Place the expression in the most natural position. It does not have to appear at the beginning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 More specifically 或 More precisely 改寫以下句子。",
+      "使用 More specifically 收窄較廣泛的內容；使用 More precisely 提供更準確的資料。",
+      "把表達放在最自然的位置。答案不一定要以該表達開始。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss282-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The delay occurred at a later stage. It happened during testing.",
+      "promptZh": "延誤在較後階段發生。它是在測試期間發生的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The delay occurred at a later stage—more specifically, during testing.",
+      "answerZh": "延誤在較後階段發生——更具體地說，是在測試期間。",
+      "answerZhSource": "pdf",
+      "highlight": "The delay occurred at a later stage—more specifically, during testing."
+    },
+    {
+      "id": "ss282-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The course focuses on communication. In particular, it develops speaking skills.",
+      "promptZh": "這個課程着重溝通，尤其培養口語能力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course focuses on communication; more specifically, it develops speaking skills.",
+      "answerZh": "這個課程着重溝通；更具體地說，它培養口語能力。",
+      "answerZhSource": "pdf",
+      "highlight": "The course focuses on communication; more specifically, it develops speaking skills."
+    },
+    {
+      "id": "ss282-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "About twenty people attended. The exact number was twenty-three.",
+      "promptZh": "大約二十人出席。準確人數是二十三人。",
+      "promptZhSource": "pdf",
+      "starter": "About",
+      "answer": "About twenty people attended—or, more precisely, twenty-three.",
+      "answerZh": "大約二十人出席——更準確地說，是二十三人。",
+      "answerZhSource": "pdf",
+      "highlight": "About twenty people attended—or, more precisely, twenty-three."
+    },
+    {
+      "id": "ss282-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The office is in Kowloon. It is in Kwun Tong.",
+      "promptZh": "辦公室位於九龍。它位於觀塘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The office is in Kowloon, more specifically in Kwun Tong.",
+      "answerZh": "辦公室位於九龍，更具體地說，是位於觀塘。",
+      "answerZhSource": "pdf",
+      "highlight": "The office is in Kowloon, more specifically in Kwun Tong."
+    },
+    {
+      "id": "ss282-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The event begins in the morning. The exact starting time is 9:30 a.m.",
+      "promptZh": "活動在早上開始。準確開始時間是上午九時三十分。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event begins in the morning—more precisely, at 9:30 a.m.",
+      "answerZh": "活動在早上開始——更準確地說，是上午九時三十分。",
+      "answerZhSource": "pdf",
+      "highlight": "The event begins in the morning—more precisely, at 9:30 a.m."
+    },
+    {
+      "id": "ss282-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We need to improve customer service. The main concern is the speed of our replies.",
+      "promptZh": "我們需要改善客戶服務。最主要的問題是我們的回覆速度。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to improve customer service, more specifically the speed of our replies.",
+      "answerZh": "我們需要改善客戶服務，更具體地說，是改善我們的回覆速度。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to improve customer service, more specifically the speed of our replies."
+    },
+    {
+      "id": "ss282-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Which part of the computer failed? It was the hard drive.",
+      "promptZh": "電腦哪個部分發生故障？是硬碟。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A part of the computer failed—more specifically, the hard drive.",
+      "answerZh": "電腦的一個部分發生故障——更具體地說，是硬碟。",
+      "answerZhSource": "pdf",
+      "highlight": "A part of the computer failed—more specifically, the hard drive."
+    },
+    {
+      "id": "ss282-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The child has a reading problem. She has difficulty understanding long passages.",
+      "promptZh": "這個孩子有閱讀問題。她難以理解較長的文章。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child has a reading problem—more specifically, difficulty understanding long passages.",
+      "answerZh": "這個孩子有閱讀問題——更具體地說，她難以理解較長的文章。",
+      "answerZhSource": "pdf",
+      "highlight": "The child has a reading problem—more specifically, difficulty understanding long passages."
+    },
+    {
+      "id": "ss282-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The trip lasted nearly a week. It lasted exactly six days.",
+      "promptZh": "旅程為期接近一星期。準確來說是六日。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trip lasted nearly a week—more precisely, six days.",
+      "answerZh": "旅程為期接近一星期——更準確地說，是六日。",
+      "answerZhSource": "pdf",
+      "highlight": "The trip lasted nearly a week—more precisely, six days."
+    },
+    {
+      "id": "ss282-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Pollution is discussed in the report. Its main focus is air pollution caused by traffic.",
+      "promptZh": "報告討論污染問題，主要集中於交通造成的空氣污染。",
+      "promptZhSource": "pdf",
+      "starter": "Pollution",
+      "answer": "Pollution is discussed in the report, more specifically air pollution caused by traffic.",
+      "answerZh": "報告討論污染問題，更具體地說，是交通造成的空氣污染。",
+      "answerZhSource": "pdf",
+      "highlight": "Pollution is discussed in the report, more specifically air pollution caused by traffic."
+    },
+    {
+      "id": "ss282-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop sells food. In particular, it specialises in imported snacks.",
+      "promptZh": "這間店舖售賣食品，尤其專門售賣進口零食。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop sells food. More specifically, it specialises in imported snacks.",
+      "answerZh": "這間店舖售賣食品。更具體地說，它專門售賣進口零食。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop sells food. More specifically, it specialises in imported snacks."
+    },
+    {
+      "id": "ss282-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The lesson ended at about three o'clock. It ended at 3:12 p.m.",
+      "promptZh": "課堂大約在三時結束。它在下午三時十二分結束。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lesson ended at about three o'clock—or, more precisely, at 3:12 p.m.",
+      "answerZh": "課堂大約在三時結束——更準確地說，是下午三時十二分。",
+      "answerZhSource": "pdf",
+      "highlight": "The lesson ended at about three o'clock—or, more precisely, at 3:12 p.m."
+    },
+    {
+      "id": "ss282-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Some staff need training. The staff members concerned are the new receptionists.",
+      "promptZh": "部分職員需要接受培訓。所指的是新入職的接待員。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some staff—more specifically, the new receptionists—need training.",
+      "answerZh": "部分職員——更具體地說，是新入職的接待員——需要接受培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "Some staff—more specifically, the new receptionists—need training."
+    },
+    {
+      "id": "ss282-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The problem affected the lower part of the building. It affected the basement.",
+      "promptZh": "問題影響了大樓的較低部分。它影響了地庫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem affected the lower part of the building, more specifically the basement.",
+      "answerZh": "問題影響了大樓的較低部分，更具體地說，是地庫。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem affected the lower part of the building, more specifically the basement."
+    },
+    {
+      "id": "ss282-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "They moved to southern England. They moved to Brighton.",
+      "promptZh": "他們搬到英格蘭南部。他們搬到白禮頓。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They moved to southern England, more specifically to Brighton.",
+      "answerZh": "他們搬到英格蘭南部，更具體地說，是白禮頓。",
+      "answerZhSource": "pdf",
+      "highlight": "They moved to southern England, more specifically to Brighton."
+    },
+    {
+      "id": "ss282-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The parcel weighs about two kilograms. Its exact weight is 2.18 kilograms.",
+      "promptZh": "包裹重約兩公斤。它的準確重量是二點一八公斤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel weighs about two kilograms—more precisely, 2.18 kilograms.",
+      "answerZh": "包裹重約兩公斤——更準確地說，是二點一八公斤。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel weighs about two kilograms—more precisely, 2.18 kilograms."
+    },
+    {
+      "id": "ss282-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The meeting is about planning. It concerns the launch schedule.",
+      "promptZh": "會議內容與規劃有關，主要討論推出時間表。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting is about planning; more specifically, it concerns the launch schedule.",
+      "answerZh": "會議內容與規劃有關；更具體地說，它討論推出時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting is about planning; more specifically, it concerns the launch schedule."
+    },
+    {
+      "id": "ss282-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Patients should take the medicine twice a day. The exact instruction is to take it once every twelve hours.",
+      "promptZh": "病人應每日服藥兩次。準確指示是每隔十二小時服用一次。",
+      "promptZhSource": "pdf",
+      "starter": "Patients",
+      "answer": "Patients should take the medicine twice a day—more precisely, once every twelve hours.",
+      "answerZh": "病人應每日服藥兩次——更準確地說，是每隔十二小時服用一次。",
+      "answerZhSource": "pdf",
+      "highlight": "Patients should take the medicine twice a day—more precisely, once every twelve hours."
+    },
+    {
+      "id": "ss282-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Young visitors are attracted to the museum. The main group is teenagers aged thirteen to seventeen.",
+      "promptZh": "博物館吸引年輕訪客，主要群體是十三至十七歲的青少年。",
+      "promptZhSource": "pdf",
+      "starter": "Young",
+      "answer": "Young visitors are attracted to the museum, more specifically teenagers aged thirteen to seventeen.",
+      "answerZh": "博物館吸引年輕訪客，更具體地說，是十三至十七歲的青少年。",
+      "answerZhSource": "pdf",
+      "highlight": "Young visitors are attracted to the museum, more specifically teenagers aged thirteen to seventeen."
+    },
+    {
+      "id": "ss282-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The machine stopped before noon. It stopped at exactly 11:46 a.m.",
+      "promptZh": "機器在中午前停止運作。它在上午十一時四十六分停止。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine stopped before noon—more precisely, at 11:46 a.m.",
+      "answerZh": "機器在中午前停止運作——更準確地說，是上午十一時四十六分。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine stopped before noon—more precisely, at 11:46 a.m."
+    },
+    {
+      "id": "ss282-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which part of the data analysis needs improvement? The team needs to check missing values more carefully.",
+      "promptZh": "數據分析的哪一部分需要改善？團隊需要更仔細地檢查遺漏數據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team needs to improve its data analysis—more specifically, how it checks missing values.",
+      "answerZh": "團隊需要改善數據分析——更具體地說，是改善檢查遺漏數據的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The team needs to improve its data analysis—more specifically, how it checks missing values."
+    },
+    {
+      "id": "ss282-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company lost just under £10,000. The exact loss was £9,740.",
+      "promptZh": "公司損失了略少於一萬英鎊。準確損失是九千七百四十英鎊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company lost just under £10,000—or, more precisely, £9,740.",
+      "answerZh": "公司損失了略少於一萬英鎊——更準確地說，是九千七百四十英鎊。",
+      "answerZhSource": "pdf",
+      "highlight": "The company lost just under £10,000—or, more precisely, £9,740."
+    },
+    {
+      "id": "ss282-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A local service changed its timetable. The service was bus route 18.",
+      "promptZh": "一項本地服務更改了時間表。所指的是十八號巴士線。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A local service—more specifically, bus route 18—changed its timetable.",
+      "answerZh": "一項本地服務——更具體地說，是十八號巴士線——更改了時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "A local service—more specifically, bus route 18—changed its timetable."
+    },
+    {
+      "id": "ss282-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Writing was difficult for the students. Organising paragraphs was their main problem.",
+      "promptZh": "寫作對學生來說很困難。組織段落是他們的主要問題。",
+      "promptZhSource": "pdf",
+      "starter": "Writing",
+      "answer": "Writing was difficult for the students; more specifically, they struggled to organise paragraphs.",
+      "answerZh": "寫作對學生來說很困難；更具體地說，他們難以組織段落。",
+      "answerZhSource": "pdf",
+      "highlight": "Writing was difficult for the students; more specifically, they struggled to organise paragraphs."
+    },
+    {
+      "id": "ss282-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The wall is about four metres long. Its exact length is 4.35 metres.",
+      "promptZh": "這面牆長約四米。它的準確長度是四點三五米。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The wall is about four metres long—more precisely, 4.35 metres.",
+      "answerZh": "這面牆長約四米——更準確地說，是四點三五米。",
+      "answerZhSource": "pdf",
+      "highlight": "The wall is about four metres long—more precisely, 4.35 metres."
+    },
+    {
+      "id": "ss282-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The conference will be held in the city centre. The venue is the convention centre beside the main station.",
+      "promptZh": "會議將在市中心舉行。場地是主要車站旁的會議中心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The conference will be held in the city centre, more specifically at the convention centre beside the main station.",
+      "answerZh": "會議將在市中心舉行，更具體地說，是在主要車站旁的會議中心。",
+      "answerZhSource": "pdf",
+      "highlight": "The conference will be held in the city centre, more specifically at the convention centre beside the main station."
+    },
+    {
+      "id": "ss282-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The research is about sleep. Its exact subject is sleep quality rather than the total amount of sleep.",
+      "promptZh": "這項研究與睡眠有關。它的確切研究範圍是睡眠質素，而不是睡眠總時數。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research is about sleep—or, more precisely, sleep quality rather than the total amount of sleep.",
+      "answerZh": "這項研究與睡眠有關——更準確地說，是研究睡眠質素，而不是睡眠總時數。",
+      "answerZhSource": "pdf",
+      "highlight": "The research is about sleep—or, more precisely, sleep quality rather than the total amount of sleep."
+    },
+    {
+      "id": "ss282-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "He arrived late in the evening. He arrived at exactly 10:18 p.m.",
+      "promptZh": "他在晚上較夜時到達。他在晚上十時十八分到達。",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He arrived late in the evening—more precisely, at 10:18 p.m.",
+      "answerZh": "他在晚上較夜時到達——更準確地說，是晚上十時十八分。",
+      "answerZhSource": "pdf",
+      "highlight": "He arrived late in the evening—more precisely, at 10:18 p.m."
+    },
+    {
+      "id": "ss282-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The policy applies to employees who handle money. It mainly concerns cashiers and finance staff.",
+      "promptZh": "這項政策適用於處理金錢的僱員，主要涉及收銀員及財務部職員。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy applies to employees who handle money, more specifically cashiers and finance staff.",
+      "answerZh": "這項政策適用於處理金錢的僱員，更具體地說，是收銀員及財務部職員。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy applies to employees who handle money, more specifically cashiers and finance staff."
+    },
+    {
+      "id": "ss282-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The flight was delayed by about ninety minutes. The exact delay was one hour and thirty-seven minutes.",
+      "promptZh": "航班延誤了約九十分鐘。準確延誤時間是一小時三十七分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The flight was delayed by about ninety minutes—or, more precisely, by one hour and thirty-seven minutes.",
+      "answerZh": "航班延誤了約九十分鐘——更準確地說，是一小時三十七分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The flight was delayed by about ninety minutes—or, more precisely, by one hour and thirty-seven minutes."
+    },
+    {
+      "id": "ss282-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Which customers reported the issue? They were users of Android version 6.2.",
+      "promptZh": "哪些顧客報告了這個問題？他們是 Android 6.2 版本的使用者。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One group of customers—more specifically, users of Android version 6.2—reported the issue.",
+      "answerZh": "一組顧客——更具體地說，是 Android 6.2 版本的使用者——報告了這個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "One group of customers—more specifically, users of Android version 6.2—reported the issue."
+    },
+    {
+      "id": "ss282-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Migration is the subject of the book. It focuses on families moving from rural areas to cities.",
+      "promptZh": "移居是這本書的主題。它集中討論由鄉郊地區搬到城市的家庭。",
+      "promptZhSource": "pdf",
+      "starter": "Migration",
+      "answer": "Migration is the subject of the book; more specifically, it focuses on families moving from rural areas to cities.",
+      "answerZh": "移居是這本書的主題；更具體地說，它集中討論由鄉郊地區搬到城市的家庭。",
+      "answerZhSource": "pdf",
+      "highlight": "Migration is the subject of the book; more specifically, it focuses on families moving from rural areas to cities."
+    },
+    {
+      "id": "ss282-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The temperature rose by nearly five degrees Celsius. The recorded increase was 4.7 degrees Celsius.",
+      "promptZh": "氣溫上升了接近攝氏五度。記錄所得的升幅是攝氏四點七度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The temperature rose by nearly five degrees Celsius. More precisely, it rose by 4.7 degrees Celsius.",
+      "answerZh": "氣溫上升了接近攝氏五度。更準確地說，是上升了攝氏四點七度。",
+      "answerZhSource": "pdf",
+      "highlight": "The temperature rose by nearly five degrees Celsius. More precisely, it rose by 4.7 degrees Celsius."
+    },
+    {
+      "id": "ss282-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Where exactly was the pain in his arm? It was around his elbow.",
+      "promptZh": "他手臂的痛楚確切位於哪裏？是在手肘附近。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The pain was in his arm—more precisely, around his elbow.",
+      "answerZh": "痛楚位於他的手臂——更準確地說，是在手肘附近。",
+      "answerZhSource": "pdf",
+      "highlight": "The pain was in his arm—more precisely, around his elbow."
+    },
+    {
+      "id": "ss282-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "People in financial difficulty receive support from the charity. It especially helps single parents who have recently lost their jobs.",
+      "promptZh": "有經濟困難的人會得到這間慈善機構的支援。它尤其幫助最近失業的單親家長。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People in financial difficulty receive support from the charity; more specifically, it helps single parents who have recently lost their jobs.",
+      "answerZh": "有經濟困難的人會得到這間慈善機構的支援；更具體地說，它幫助最近失業的單親家長。",
+      "answerZhSource": "pdf",
+      "highlight": "People in financial difficulty receive support from the charity; more specifically, it helps single parents who have recently lost their jobs."
+    },
+    {
+      "id": "ss282-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The deadline is at the end of the month. The exact deadline is 5 p.m. on 30 September.",
+      "promptZh": "截止日期在月底。準確的截止時間是九月三十日下午五時。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The deadline is at the end of the month—or, more precisely, at 5 p.m. on 30 September.",
+      "answerZh": "截止日期在月底——更準確地說，是九月三十日下午五時。",
+      "answerZhSource": "pdf",
+      "highlight": "The deadline is at the end of the month—or, more precisely, at 5 p.m. on 30 September."
+    },
+    {
+      "id": "ss282-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The error appeared in the final section of the form. It was in the address field on page four.",
+      "promptZh": "錯誤出現在表格的最後部分。它位於第四頁的地址欄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The error appeared in the final section of the form—more specifically, in the address field on page four.",
+      "answerZh": "錯誤出現在表格的最後部分——更具體地說，是第四頁的地址欄。",
+      "answerZhSource": "pdf",
+      "highlight": "The error appeared in the final section of the form—more specifically, in the address field on page four."
+    },
+    {
+      "id": "ss282-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "They discussed reducing costs. Their discussion focused on electricity use in the warehouses.",
+      "promptZh": "他們討論降低成本。他們的討論集中於貨倉的電力使用情況。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They discussed reducing costs, more specifically electricity use in the warehouses.",
+      "answerZh": "他們討論降低成本，更具體地說，是貨倉的電力使用情況。",
+      "answerZhSource": "pdf",
+      "highlight": "They discussed reducing costs, more specifically electricity use in the warehouses."
+    },
+    {
+      "id": "ss282-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "About one third of the customers replied. The exact figure was 34.6 per cent.",
+      "promptZh": "大約三分之一的顧客作出回覆。準確數字是百分之三十四點六。",
+      "promptZhSource": "pdf",
+      "starter": "About",
+      "answer": "About one third of the customers replied—more precisely, 34.6 per cent.",
+      "answerZh": "大約三分之一的顧客作出回覆——更準確地說，是百分之三十四點六。",
+      "answerZhSource": "pdf",
+      "highlight": "About one third of the customers replied—more precisely, 34.6 per cent."
+    },
+    {
+      "id": "ss282-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Where near the station did the accident happen? It happened at the junction of King Street and Station Road.",
+      "promptZh": "意外在車站附近哪個位置發生？它在 King Street 與 Station Road 的交界發生。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The accident happened near the station—or, more precisely, at the junction of King Street and Station Road.",
+      "answerZh": "意外在車站附近發生——更準確地說，是在 King Street 與 Station Road 的交界。",
+      "answerZhSource": "pdf",
+      "highlight": "The accident happened near the station—or, more precisely, at the junction of King Street and Station Road."
+    },
+    {
+      "id": "ss282-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school is changing one part of its assessment system. The change concerns the weighting given to oral presentations.",
+      "promptZh": "學校正在更改評核制度的一部分。改動涉及口頭匯報所佔的比重。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One part of the school's assessment system is changing—more specifically, the weighting given to oral presentations.",
+      "answerZh": "學校評核制度的一部分正在改變——更具體地說，是口頭匯報所佔的比重。",
+      "answerZhSource": "pdf",
+      "highlight": "One part of the school's assessment system is changing—more specifically, the weighting given to oral presentations."
+    },
+    {
+      "id": "ss282-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The project went slightly over budget. The exact amount was £3,860.",
+      "promptZh": "項目略為超出預算。準確的超支金額是三千八百六十英鎊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project exceeded its budget slightly—more precisely, by £3,860.",
+      "answerZh": "項目略為超出預算——更準確地說，是超支三千八百六十英鎊。",
+      "answerZhSource": "pdf",
+      "highlight": "The project exceeded its budget slightly—more precisely, by £3,860."
+    },
+    {
+      "id": "ss282-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Older residents expressed concern in the survey. In particular, concern was expressed by those over seventy who lived alone.",
+      "promptZh": "年長居民在調查中表示憂慮，尤其是獨居的七十歲以上居民。",
+      "promptZhSource": "pdf",
+      "starter": "Older",
+      "answer": "Older residents expressed concern in the survey, more specifically those over seventy who lived alone.",
+      "answerZh": "年長居民在調查中表示憂慮，更具體地說，是獨居的七十歲以上居民。",
+      "answerZhSource": "pdf",
+      "highlight": "Older residents expressed concern in the survey, more specifically those over seventy who lived alone."
+    },
+    {
+      "id": "ss282-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Personal information is protected by the software. In particular, it encrypts customer payment records.",
+      "promptZh": "軟件會保護個人資料，尤其會把顧客的付款紀錄加密。",
+      "promptZhSource": "pdf",
+      "starter": "Personal",
+      "answer": "Personal information is protected by the software; more specifically, it encrypts customer payment records.",
+      "answerZh": "軟件會保護個人資料；更具體地說，它會把顧客的付款紀錄加密。",
+      "answerZhSource": "pdf",
+      "highlight": "Personal information is protected by the software; more specifically, it encrypts customer payment records."
+    },
+    {
+      "id": "ss282-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The event will take place in May. The confirmed date is 14 May.",
+      "promptZh": "活動將在五月舉行。已確認的日期是五月十四日。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event will take place in May—or, more precisely, on 14 May.",
+      "answerZh": "活動將在五月舉行——更準確地說，是五月十四日。",
+      "answerZhSource": "pdf",
+      "highlight": "The event will take place in May—or, more precisely, on 14 May."
+    },
+    {
+      "id": "ss282-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Which leadership skills does the training develop? Its main focus is giving constructive feedback and managing conflict.",
+      "promptZh": "培訓會培養哪些領導能力？主要重點是提供具建設性的意見及處理衝突。",
+      "promptZhSource": "pdf",
+      "starter": "Leadership",
+      "answer": "Leadership skills are developed in the training, more specifically the ability to give constructive feedback and manage conflict.",
+      "answerZh": "培訓會培養領導能力，更具體地說，是提供具建設性意見及處理衝突的能力。",
+      "answerZhSource": "pdf",
+      "highlight": "Leadership skills are developed in the training, more specifically the ability to give constructive feedback and manage conflict."
+    },
+    {
+      "id": "ss282-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The damaged records were from late 2025. They were invoices issued between October and December.",
+      "promptZh": "受損紀錄來自二零二五年後期。它們是十月至十二月期間發出的發票。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The damaged records were from late 2025. More specifically, they were invoices issued between October and December.",
+      "answerZh": "受損紀錄來自二零二五年後期。更具體地說，它們是十月至十二月期間發出的發票。",
+      "answerZhSource": "pdf",
+      "highlight": "The damaged records were from late 2025. More specifically, they were invoices issued between October and December."
+    },
+    {
+      "id": "ss282-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The organisation reduced waiting times by almost twenty per cent. The measured reduction was 18.4 per cent.",
+      "promptZh": "機構把等候時間縮短了接近百分之二十。量度所得的減幅是百分之十八點四。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation reduced waiting times by almost twenty per cent—or, more precisely, by 18.4 per cent.",
+      "answerZh": "機構把等候時間縮短了接近百分之二十——更準確地說，是百分之十八點四。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation reduced waiting times by almost twenty per cent—or, more precisely, by 18.4 per cent."
+    },
+    {
+      "id": "ss282-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Online sellers are affected by the legal change. The particular group concerned stores customer data outside the UK.",
+      "promptZh": "網上賣家受到這項法律改動影響。所指的特定群體會把顧客資料儲存在英國境外。",
+      "promptZhSource": "pdf",
+      "starter": "Online",
+      "answer": "Online sellers are affected by the legal change—more specifically, those that store customer data outside the UK.",
+      "answerZh": "網上賣家受到這項法律改動影響——更具體地說，是把顧客資料儲存在英國境外的賣家。",
+      "answerZhSource": "pdf",
+      "highlight": "Online sellers are affected by the legal change—more specifically, those that store customer data outside the UK."
+    },
+    {
+      "id": "ss282-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The failure occurred during the final inspection. It occurred during the pressure test of valve three.",
+      "promptZh": "故障在最後檢查期間發生。它在三號閥門的壓力測試期間發生。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The failure occurred during the final inspection—more specifically, during the pressure test of valve three.",
+      "answerZh": "故障在最後檢查期間發生——更具體地說，是在三號閥門的壓力測試期間。",
+      "answerZhSource": "pdf",
+      "highlight": "The failure occurred during the final inspection—more specifically, during the pressure test of valve three."
+    }
+  ]
+}

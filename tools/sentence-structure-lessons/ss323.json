@@ -1,0 +1,1286 @@
+{
+  "id": "ss323",
+  "order": 323,
+  "slug": "everything-points-to-noun-v-ing",
+  "title": "「Everything points to + noun / V-ing」表示「所有證據都指向……」",
+  "titleZh": "「Everything points to + noun / V-ing」表示「所有證據都指向……」",
+  "titleEn": "Using “Everything points to + noun / V-ing”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Semtence Structure 321 -「Everything points to + noun _ V-ing」表示「所有證據都指向……」.pdf",
+    "pageCount": 27,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exercisePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "answerPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "sha256": "c79254c9bbd3dcca83613eff179b639e3401120c1cc1b5d4e66c8e37ab5cdb35",
+    "sourceNumber": 321,
+    "systemOrder": 323,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 321 maps to ss323: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Everything + points + to + noun / V-ing",
+  "formulas": [
+    {
+      "id": "ss323-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Everything + points + to + noun / V-ing"
+    }
+  ],
+  "example": "Everything points to a technical fault.",
+  "exampleZh": "所有證據都指向技術故障。",
+  "examples": [
+    {
+      "id": "ss323-example-01",
+      "en": "Everything points to a technical fault.",
+      "zh": "所有證據都指向技術故障。",
+      "highlight": "Everything points to a technical fault."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss323-rule-01",
+      "zh": "核心表達是 Everything points to 完整核心是：【Everything points to + conclusion】 以下部分只是可選的句子擴充，並不是固定表達的一部分：【At present, everything points to a delay.】 目前所有跡象都顯示會有延誤。 根據報告，所有證據都指向人為錯誤。 調查人員相信所有證據都顯示損毀是有人蓄意造成的。 雖然證據尚未完整，但所有跡象都指向技術故障。 和 although 子句都不是固定句型的一部分。它們只負責提供時間、資料來源、說話者或背景。",
+      "en": "Everything points to + conclusion At present, everything points to a delay. According to the report, everything points to human error. The investigators believe that everything points to deliberate damage. Although the evidence is incomplete, everything points to a technical fault. At present, according to the report, the investigators believe that",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-02",
+      "zh": "這裏的 to 是介詞在 Everything points to 中，to 是介詞，不是不定詞符號。因此，to 後面應接：名詞；名詞短語；人物或事物 + V-ing。正確：【Everything points to a delay.】 所有跡象都顯示會有延誤。 所有跡象都顯示機器正在過熱。 所有證據都顯示文件正被複製。 錯誤：【Everything points to delay.】",
+      "en": "V-ing, Everything points to a delay. Everything points to the machine overheating. Everything points to the documents being copied. Everything points to delay. Everything points to the machine overheat. Everything points to copy the documents.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-03",
+      "zh": "目標表達【Everything】是單數以【Everything】為例：在文法上屬於單數，因此使用 points，不是 point。正確：【Everything points to human error.】 錯誤：【Everything point to human error.】",
+      "en": "Everything Everything points to human error. Everything point to human error.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-04",
+      "zh": "並非真的指「每一件物件」。在這個句型中，everything 通常指：【all the evidence】、【all the signs】、【all the available information】、【all the results】和【all the known facts】。例句【Everything points to a misunderstanding.】 並不是說「每件物件都指着一場誤會」，而是說所有現有資料都支持「出現了誤會」這個結論。",
+      "en": "In this structure, everything does not literally refer to every object. It usually means all the evidence, signs, available information, results or known facts. Therefore, ‘Everything points to a misunderstanding’ means that all available information supports the conclusion that a misunderstanding has occurred.",
+      "enSource": "pdf-with-editorial-clarification",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-05",
+      "zh": "名詞適合表達簡潔結論所有證據都指向人為錯誤。 所有跡象都顯示會有延誤。 所有證據都顯示需要進一步維修。 名詞短語適合表達簡短而清楚的原因、問題或結果。",
+      "en": "Everything points to + noun phrase Everything points to human error. Everything points to a delay. Everything points to the need for further repairs.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-06",
+      "zh": "適合表達完整事件所有跡象都顯示電池正在過熱。 所有證據都顯示有人從後門進入。 所有證據都顯示這項政策製造了更多問題。 這裏的 battery、someone 和 policy 是 V-ing 動作的執行者。",
+      "en": "V-ing Everything points to the battery overheating. Everything points to someone entering through the back door. Everything points to the policy creating more problems.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-07",
+      "zh": "強調事情較早已發生所有證據都顯示火災較早前由廚房開始。 所有證據都顯示文件較早前已被複製。 和 having been copied 強調有關事情在調查或判斷之前已經發生。以下兩句都可以合乎文法：【Everything points to the fire starting in the kitchen.】 第二句更明確地把火災開始視為一件較早已發生的事情。目標表達【Having + past participle】是一項有用的延伸，並不是 Everything points to 的固定部分。",
+      "en": "Having + past participle Everything points to the fire having started in the kitchen. Everything points to the documents having been copied. having started Everything points to the fire starting in the kitchen. Everything points to the fire having started in the kitchen. Having + past participle",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-08",
+      "zh": "被動意思使用 being 或 having been 正在發生或一般被動情況所有證據都顯示文件在未經許可下被複製。 較早已完成的被動事件所有證據都顯示文件在辦公室關門前已被複製。",
+      "en": "Everything points to the documents being copied without permission. Everything points to the documents having been copied before the office closed.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-09",
+      "zh": "否定意思放在 V-ing 前面所有跡象都顯示計劃並不可行。 所有證據都顯示沒有人曾進入房間。 所有證據都顯示款項尚未收到。",
+      "en": "Everything points to the plan not working. Everything points to no one having entered the room. Everything points to the payment not having been received.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-10",
+      "zh": "可以使用 there being 所有跡象都顯示暖氣系統出現問題。 相當於：【there is / there was a problem】 因為 to 是介詞，所以原本的 there is 或 there was 需要改為 there being。",
+      "en": "Everything points to there being a problem with the heating system. there being there is / there was a problem",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-11",
+      "zh": "不要直接使用 to that + clause 錯誤：【Everything points to that the fire started in the kitchen.】 正確：【Everything points to the fire having started in the kitchen.】 也可以在較正式的句子中加入名詞 conclusion：【Everything points to the conclusion that the fire started in the kitchen.】 所有證據都指向一個結論：火災由廚房開始。",
+      "en": "Everything points to that the fire started in the kitchen. Everything points to the fire having started in the kitchen. Everything points to the conclusion that the fire started in the kitchen.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-12",
+      "zh": "這個句型表示強烈推斷，而不是絕對證明表示：現有證據強烈支持「人為錯誤」這個解釋。它不一定表示事情已經獲得百分之百證實。因此，它特別適合用於：調查；報告；分析；醫療判斷；技術檢查；商業檢討；新聞和討論。",
+      "en": "Everything points to human error.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-rule-13",
+      "zh": "也是文法上可能的形式描述過去某個時間的證據時，可以使用：【Everything pointed to human error.】 當時所有證據都指向人為錯誤。 不過，本課集中練習現在式核心表達：【Everything points to + noun / V-ing】",
+      "en": "Everything pointed to Everything pointed to human error. Everything points to + noun / V-ing",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss323-benefit-01",
+      "zh": "把多項證據濃縮成一個結論你不需要逐項重複：【The records suggest a fault.】 你可以把它們概括為：【Everything points to a fault.】 所有證據都指向故障。 這令結論更簡潔，也讓讀者立即知道不同資料都支持同一個解釋。",
+      "en": "The records suggest a fault. The test results suggest a fault. The warning lights also suggest a fault. Everything points to a fault.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-benefit-02",
+      "zh": "令分析聽起來有證據支持不只是表達個人感覺。它向讀者表示，你的判斷是根據：證據；數據；跡象；紀錄；調查結果。因此，它比 I think 更適合用於報告、分析和正式討論。",
+      "en": "Everything points to",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-benefit-03",
+      "zh": "可以保持適當而謹慎的語氣有時候證據很有力，但尚未足以證明事情。目標表達【Everything points to】可以表達「這是目前最合理的結論」，而不會說得過分肯定。專家仍未能證實，但所有證據都顯示損毀是意外造成的。",
+      "en": "Everything points to The experts cannot yet prove it, but everything points to accidental damage.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-benefit-04",
+      "zh": "可以用簡短名詞，也可以描述完整事件簡短結論：【Everything points to human error.】 所有證據都指向人為錯誤。 較詳細的事件：【Everything points to the operator having entered the wrong figures.】 所有證據都顯示操作人員輸入了錯誤數字。 學生可以按照需要，選擇簡潔或較詳細的表達方式。",
+      "en": "Everything points to human error. Everything points to the operator having entered the wrong figures.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-benefit-05",
+      "zh": "可以放在不同句子位置句型可以直接放在句首：【Everything points to a delay.】 也可以放在開首語之後：【At present, everything points to a delay.】 亦可以放在較長句子內：【The report concludes that everything points to a delay.】 這有助於增加句式變化，避免每一句都使用完全相同的開頭。",
+      "en": "Everything points to a delay. At present, everything points to a delay. The report concludes that everything points to a delay.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss323-benefit-06",
+      "zh": "提供一個實用的口語和寫作框架當你需要根據資料提出結論時，可以使用：【Everything points to + conclusion.】 這個框架能幫助你快速組織答案，特別適合：解釋問題原因；分析一宗事件；總結研究結果；討論最可能的情況；撰寫報告結論。",
+      "en": "Everything points to + conclusion.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 321 maps to ss323: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the exact expression everything points to.",
+      "After to, use a noun, a noun phrase or an appropriate V-ing structure.",
+      "The target expression may appear at the beginning, after an opening phrase or inside a longer",
+      "clause.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用固定表達 everything points to 改寫以下句子。",
+      "在 to 後使用名詞、名詞短語或合適的 V-ing 結構。",
+      "目標句型可以放在句首、開首語之後，或較長句子的從句內。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss323-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "All the evidence suggests a technical fault.",
+      "promptZh": "所有證據都顯示出現了技術故障。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything points to a technical fault.",
+      "answerZh": "所有證據都指向技術故障。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything points to a technical fault."
+    },
+    {
+      "id": "ss323-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "All the signs indicate human error.",
+      "promptZh": "所有跡象都顯示是人為錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything points to human error.",
+      "answerZh": "所有證據都指向人為錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything points to human error."
+    },
+    {
+      "id": "ss323-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "From the facts available, it seems that there has been a misunderstanding.",
+      "promptZh": "根據現有事實，看來出現了誤會。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the facts available, everything points to a misunderstanding.",
+      "answerZh": "根據現有事實，所有跡象都顯示出現了誤會。",
+      "answerZhSource": "pdf",
+      "highlight": "From the facts available, everything points to a misunderstanding."
+    },
+    {
+      "id": "ss323-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In this case, the damp ceiling and walls suggest a leak in the roof.",
+      "promptZh": "在這個情況下，受潮的天花板和牆壁顯示屋頂可能漏水。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this case, everything points to a leak in the roof.",
+      "answerZh": "在這個情況下，所有證據都顯示屋頂漏水。",
+      "answerZhSource": "pdf",
+      "highlight": "In this case, everything points to a leak in the roof."
+    },
+    {
+      "id": "ss323-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "According to the weather records, the storm probably caused the power cut.",
+      "promptZh": "根據天氣紀錄，停電很可能由風暴造成。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the weather records, everything points to the storm causing the power cut.",
+      "answerZh": "根據天氣紀錄，所有證據都顯示停電由風暴造成。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the weather records, everything points to the storm causing the power cut."
+    },
+    {
+      "id": "ss323-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The gate was open, and paw prints were found nearby. These clues suggest that the dog escaped through the gate.",
+      "promptZh": "大閘開着，附近亦發現了爪印。這些線索顯示狗隻從大閘逃走了。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With the gate open and paw prints nearby, everything points to the dog having escaped through the gate.",
+      "answerZh": "大閘開着，附近亦有爪印，所有證據都顯示狗隻曾從大閘逃走。",
+      "answerZhSource": "pdf",
+      "highlight": "With the gate open and paw prints nearby, everything points to the dog having escaped through the gate."
+    },
+    {
+      "id": "ss323-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "According to the tracking record and the label, the parcel was probably sent to the wrong address.",
+      "promptZh": "根據追蹤紀錄和標籤，包裹很可能被送到錯誤地址。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the tracking record and the label, everything points to the parcel having been sent to the wrong address.",
+      "answerZh": "根據追蹤紀錄和標籤，所有證據都顯示包裹被送到了錯誤地址。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the tracking record and the label, everything points to the parcel having been sent to the wrong address."
+    },
+    {
+      "id": "ss323-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The team’s current progress suggests that they need more time.",
+      "promptZh": "團隊目前的進度顯示他們需要更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "Judging",
+      "answer": "Judging from the team’s current progress, everything points to the team needing more time.",
+      "answerZh": "從團隊目前的進度判斷，所有跡象都顯示團隊需要更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Judging from the team’s current progress, everything points to the team needing more time."
+    },
+    {
+      "id": "ss323-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The rooms were dark, and the family’s luggage was gone. This suggests that the family left early.",
+      "promptZh": "房間一片漆黑，而這家人的行李亦不見了。這顯示他們提早離開了。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With the rooms dark and the luggage gone, everything points to the family’s early departure.",
+      "answerZh": "房間一片漆黑，行李亦已不見，所有跡象都顯示這家人提早離開了。",
+      "answerZhSource": "pdf",
+      "highlight": "With the rooms dark and the luggage gone, everything points to the family’s early departure."
+    },
+    {
+      "id": "ss323-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The room was locked, and the evidence suggests that the key was left inside.",
+      "promptZh": "房間上了鎖，而證據顯示鎖匙留在房內。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the evidence in the locked room, everything points to the key having been left inside.",
+      "answerZh": "根據這間上鎖房間內的證據，所有跡象都顯示鎖匙被留在裏面。",
+      "answerZhSource": "pdf",
+      "highlight": "From the evidence in the locked room, everything points to the key having been left inside."
+    },
+    {
+      "id": "ss323-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "At present, all the signs suggest a delay.",
+      "promptZh": "目前所有跡象都顯示會有延誤。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, everything points to a delay.",
+      "answerZh": "目前所有跡象都顯示會有延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, everything points to a delay."
+    },
+    {
+      "id": "ss323-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "So far, the medical results suggest that the patient is recovering well.",
+      "promptZh": "到目前為止，醫療檢查結果顯示病人康復進度良好。",
+      "promptZhSource": "pdf",
+      "starter": "So",
+      "answer": "So far, everything points to the patient recovering well.",
+      "answerZh": "到目前為止，所有證據都顯示病人康復進度良好。",
+      "answerZhSource": "pdf",
+      "highlight": "So far, everything points to the patient recovering well."
+    },
+    {
+      "id": "ss323-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "From the available evidence, the investigators believe that the fire started in the kitchen.",
+      "promptZh": "根據現有證據，調查人員相信火災由廚房開始。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the available evidence, everything points to the fire having started in the kitchen.",
+      "answerZh": "根據現有資料，所有跡象都顯示火災由廚房開始。",
+      "answerZhSource": "pdf",
+      "highlight": "From the available evidence, everything points to the fire having started in the kitchen."
+    },
+    {
+      "id": "ss323-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "According to the technician, the evidence suggests that the battery is overheating.",
+      "promptZh": "技術人員表示，證據顯示電池正在過熱。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the technician, everything points to the battery overheating.",
+      "answerZh": "技術人員表示，所有跡象都顯示電池正在過熱。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the technician, everything points to the battery overheating."
+    },
+    {
+      "id": "ss323-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "For now, all the signs suggest that the meeting will be moved online.",
+      "promptZh": "目前所有跡象都顯示會議將改為網上舉行。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For now, everything points to the meeting being moved online.",
+      "answerZh": "目前所有跡象都顯示會議將改為網上舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "For now, everything points to the meeting being moved online."
+    },
+    {
+      "id": "ss323-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "According to the early results, the new method appears to be working.",
+      "promptZh": "根據初步結果，新方法似乎有效。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the early results, everything points to the new method working.",
+      "answerZh": "根據初步結果，所有證據都顯示新方法有效。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the early results, everything points to the new method working."
+    },
+    {
+      "id": "ss323-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The report concludes from the evidence that poor communication is the most likely cause.",
+      "promptZh": "報告根據證據得出結論，認為溝通不足是最可能的原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report concludes that everything points to poor communication.",
+      "answerZh": "報告得出結論，認為所有證據都指向溝通不足。",
+      "answerZhSource": "pdf",
+      "highlight": "The report concludes that everything points to poor communication."
+    },
+    {
+      "id": "ss323-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "After checking the records, the manager believes that the payment was probably made twice.",
+      "promptZh": "經理查看紀錄後，相信款項很可能被支付了兩次。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After checking the records, the manager believes that everything points to the payment having been made twice.",
+      "answerZh": "經理查看紀錄後，相信所有證據都顯示款項被支付了兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "After checking the records, the manager believes that everything points to the payment having been made twice."
+    },
+    {
+      "id": "ss323-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Although the final test is not complete, the current results suggest that the water is safe to drink.",
+      "promptZh": "雖然最後一項測試尚未完成，但目前結果顯示食水可以安全飲用。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the final test is not complete, everything points to the water being safe to drink.",
+      "answerZh": "雖然最後一項測試尚未完成，但所有證據都顯示食水可以安全飲用。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the final test is not complete, everything points to the water being safe to drink."
+    },
+    {
+      "id": "ss323-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "When the clues are considered together, they suggest that someone entered through the back door.",
+      "promptZh": "綜合考慮所有線索後，證據顯示有人從後門進入。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the clues are considered together, everything points to someone having entered through the back door.",
+      "answerZh": "綜合考慮所有線索後，所有證據都顯示曾有人從後門進入。",
+      "answerZhSource": "pdf",
+      "highlight": "When the clues are considered together, everything points to someone having entered through the back door."
+    },
+    {
+      "id": "ss323-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The evidence suggests that someone deliberately switched off the alarm.",
+      "promptZh": "證據顯示有人故意關掉警報器。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything points to the alarm having been switched off deliberately.",
+      "answerZh": "所有證據都顯示警報器曾被故意關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything points to the alarm having been switched off deliberately."
+    },
+    {
+      "id": "ss323-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The cold rooms, unusual noises and error code suggest that there is a problem with the heating system.",
+      "promptZh": "寒冷的房間、異常聲響和錯誤代碼顯示暖氣系統出現問題。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything points to there being a problem with the heating system.",
+      "answerZh": "所有跡象都顯示暖氣系統出現問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything points to there being a problem with the heating system."
+    },
+    {
+      "id": "ss323-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The investigators now agree that all the evidence indicates that the documents were copied before the office closed.",
+      "promptZh": "調查人員現在一致認為，所有證據都顯示文件在辦公室關門前已被複製。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The investigators now agree that everything points to the documents having been copied before the office closed.",
+      "answerZh": "調查人員現在一致認為，所有證據都顯示文件在辦公室關門前已被複製。",
+      "answerZhSource": "pdf",
+      "highlight": "The investigators now agree that everything points to the documents having been copied before the office closed."
+    },
+    {
+      "id": "ss323-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Based on the medical evidence, the injury appears to have occurred several days earlier.",
+      "promptZh": "根據醫療證據，這項傷勢似乎在數日前已經造成。",
+      "promptZhSource": "pdf",
+      "starter": "Based",
+      "answer": "Based on the medical evidence, everything points to the injury having occurred several days earlier.",
+      "answerZh": "根據醫療證據，所有跡象都顯示這項傷勢在數日前已經造成。",
+      "answerZhSource": "pdf",
+      "highlight": "Based on the medical evidence, everything points to the injury having occurred several days earlier."
+    },
+    {
+      "id": "ss323-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "At this stage, the signs suggest that the plan is not working as expected.",
+      "promptZh": "在現階段，各項跡象顯示計劃未能如預期般運作。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, everything points to the plan not working as expected.",
+      "answerZh": "在現階段，所有跡象都顯示計劃未能如預期般運作。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, everything points to the plan not working as expected."
+    },
+    {
+      "id": "ss323-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The engineers conclude from all the evidence that repeated flooding has weakened the bridge.",
+      "promptZh": "工程師根據所有證據得出結論，認為多次水浸已削弱橋樑結構。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineers’ conclusion is that everything points to the bridge having been weakened by repeated flooding.",
+      "answerZh": "工程師的結論是，所有證據都顯示橋樑結構因多次水浸而被削弱。",
+      "answerZhSource": "pdf",
+      "highlight": "The engineers’ conclusion is that everything points to the bridge having been weakened by repeated flooding."
+    },
+    {
+      "id": "ss323-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Despite several competing explanations, the evidence suggests that the email was sent from inside the company.",
+      "promptZh": "儘管存在幾個不同解釋，證據仍顯示該電郵從公司內部發出。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite several competing explanations, everything points to the email having been sent from inside the company.",
+      "answerZh": "儘管存在幾個不同解釋，所有證據仍顯示該電郵從公司內部發出。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite several competing explanations, everything points to the email having been sent from inside the company."
+    },
+    {
+      "id": "ss323-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "After comparing the two versions, the editor concludes that part of the original text was probably removed.",
+      "promptZh": "編輯比較兩個版本後，認為原文的一部分很可能被刪除了。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After comparing the two versions, the editor concludes that everything points to part of the original text having been removed.",
+      "answerZh": "編輯比較兩個版本後，認為所有證據都顯示原文的一部分被刪除了。",
+      "answerZhSource": "pdf",
+      "highlight": "After comparing the two versions, the editor concludes that everything points to part of the original text having been removed."
+    },
+    {
+      "id": "ss323-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The audit team believes that the evidence indicates that the figures were entered incorrectly.",
+      "promptZh": "審計團隊相信，證據顯示數字輸入錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The audit team believes that everything points to the figures having been entered incorrectly.",
+      "answerZh": "審計團隊相信，所有證據都顯示數字輸入錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The audit team believes that everything points to the figures having been entered incorrectly."
+    },
+    {
+      "id": "ss323-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "So far, the records suggest that no one accessed the account after midnight.",
+      "promptZh": "到目前為止，紀錄顯示午夜後沒有人曾登入該戶口。",
+      "promptZhSource": "pdf",
+      "starter": "So",
+      "answer": "So far, everything points to no one having accessed the account after midnight.",
+      "answerZh": "到目前為止，所有證據都顯示午夜後沒有人曾登入該戶口。",
+      "answerZhSource": "pdf",
+      "highlight": "So far, everything points to no one having accessed the account after midnight."
+    },
+    {
+      "id": "ss323-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The safety officer says that the evidence indicates that the machine was used incorrectly.",
+      "promptZh": "安全主任表示，證據顯示有人錯誤使用了該部機器。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The safety officer says that everything points to the machine having been used incorrectly.",
+      "answerZh": "安全主任表示，所有證據都顯示該部機器曾被錯誤使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The safety officer says that everything points to the machine having been used incorrectly."
+    },
+    {
+      "id": "ss323-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Although nobody saw the incident, the tyre marks and broken reflector suggest that a cyclist damaged the gate.",
+      "promptZh": "雖然沒有人目睹事故，但輪胎痕跡和破裂的反光片顯示一名單車使用者撞壞了大閘。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although nobody saw the incident, everything points to a cyclist having damaged the gate.",
+      "answerZh": "雖然沒有人目睹事故，但所有證據都顯示一名單車使用者撞壞了大閘。",
+      "answerZhSource": "pdf",
+      "highlight": "Although nobody saw the incident, everything points to a cyclist having damaged the gate."
+    },
+    {
+      "id": "ss323-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "From the pattern of marks on the floor, the evidence suggests that the box was dragged rather than carried.",
+      "promptZh": "從地板上的痕跡判斷，證據顯示箱子是被拖動，而不是被搬運。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the pattern of marks on the floor, everything points to the box having been dragged rather than carried.",
+      "answerZh": "從地板上的痕跡判斷，所有證據都顯示箱子是被拖動，而不是被搬運。",
+      "answerZhSource": "pdf",
+      "highlight": "From the pattern of marks on the floor, everything points to the box having been dragged rather than carried."
+    },
+    {
+      "id": "ss323-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The latest weather report says that all the indicators suggest heavier rain tonight.",
+      "promptZh": "最新天氣報告表示，所有指標都顯示今晚雨勢會更大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The latest weather report states that everything points to heavier rain arriving tonight.",
+      "answerZh": "最新天氣報告指出，所有指標都顯示今晚會有更大雨勢。",
+      "answerZhSource": "pdf",
+      "highlight": "The latest weather report states that everything points to heavier rain arriving tonight."
+    },
+    {
+      "id": "ss323-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "After reviewing the customer complaints, the company accepts that the evidence indicates a fault in the latest software update.",
+      "promptZh": "公司檢視顧客投訴後，承認證據顯示最新軟件更新出現故障。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After reviewing the customer complaints, the company accepts that everything points to a fault in the latest software update.",
+      "answerZh": "公司檢視顧客投訴後，承認所有證據都指向最新軟件更新出現故障。",
+      "answerZhSource": "pdf",
+      "highlight": "After reviewing the customer complaints, the company accepts that everything points to a fault in the latest software update."
+    },
+    {
+      "id": "ss323-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "In the committee’s view, the evidence suggests that the policy creates more problems than it solves.",
+      "promptZh": "委員會認為，證據顯示這項政策製造的問題多於所解決的問題。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the committee’s view, everything points to the policy creating more problems than it solves.",
+      "answerZh": "委員會認為，所有證據都顯示這項政策製造的問題多於所解決的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "In the committee’s view, everything points to the policy creating more problems than it solves."
+    },
+    {
+      "id": "ss323-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The evidence remains incomplete, but the available facts suggest that the missing file was deleted accidentally.",
+      "promptZh": "證據仍不完整，但現有事實顯示遺失的檔案是被意外刪除的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence remains incomplete, but everything points to the missing file having been deleted accidentally.",
+      "answerZh": "證據仍不完整，但所有跡象都顯示遺失的檔案是被意外刪除的。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence remains incomplete, but everything points to the missing file having been deleted accidentally."
+    },
+    {
+      "id": "ss323-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "According to the rescue team, the signs indicate that the hikers took the wrong path before sunset.",
+      "promptZh": "救援隊表示，各項跡象顯示遠足人士在日落前走錯了路。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the rescue team, everything points to the hikers having taken the wrong path before sunset.",
+      "answerZh": "救援隊表示，所有跡象都顯示遠足人士在日落前走錯了路。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the rescue team, everything points to the hikers having taken the wrong path before sunset."
+    },
+    {
+      "id": "ss323-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "What is the most likely explanation? The evidence suggests that the sensor is blocked by dust.",
+      "promptZh": "最可能的解釋是甚麼？證據顯示感應器被灰塵堵塞。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything points to the sensor being blocked by dust.",
+      "answerZh": "所有證據都顯示感應器被灰塵堵塞。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything points to the sensor being blocked by dust."
+    },
+    {
+      "id": "ss323-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The experts cannot yet prove it, but the evidence suggests that the painting was damaged during transport.",
+      "promptZh": "專家仍未能證實，但證據顯示畫作在運送期間受損。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The experts cannot yet prove it, but everything points to the painting having been damaged during transport.",
+      "answerZh": "專家仍未能證實，但所有證據都顯示畫作在運送期間受損。",
+      "answerZhSource": "pdf",
+      "highlight": "The experts cannot yet prove it, but everything points to the painting having been damaged during transport."
+    },
+    {
+      "id": "ss323-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "After comparing all three samples, the laboratory reports that the results suggest the water was polluted before it entered the building.",
+      "promptZh": "實驗室比較三個樣本後報告，結果顯示食水在進入大樓前已受到污染。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After comparing all three samples, the laboratory reports that everything points to the water having been polluted before it entered the building.",
+      "answerZh": "實驗室比較三個樣本後報告，所有證據都顯示食水在進入大樓前已受到污染。",
+      "answerZhSource": "pdf",
+      "highlight": "After comparing all three samples, the laboratory reports that everything points to the water having been polluted before it entered the building."
+    },
+    {
+      "id": "ss323-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Although several staff members had access to the room, the evidence suggests that the equipment was moved during the night shift.",
+      "promptZh": "雖然數名職員都可以進入該房間，但證據顯示設備在夜班期間被移動。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although several staff members had access to the room, everything points to the equipment having been moved during the night shift.",
+      "answerZh": "雖然數名職員都可以進入該房間，但所有證據都顯示設備在夜班期間被移動。",
+      "answerZhSource": "pdf",
+      "highlight": "Although several staff members had access to the room, everything points to the equipment having been moved during the night shift."
+    },
+    {
+      "id": "ss323-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The review panel’s final conclusion is that the evidence indicates that both teams misunderstood the original instructions.",
+      "promptZh": "評審小組的最終結論是，證據顯示兩個團隊都誤解了原本的指示。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The review panel’s final conclusion is that everything points to the original instructions having been misunderstood by both teams.",
+      "answerZh": "評審小組的最終結論是，所有證據都顯示兩個團隊都誤解了原本的指示。",
+      "answerZhSource": "pdf",
+      "highlight": "The review panel’s final conclusion is that everything points to the original instructions having been misunderstood by both teams."
+    },
+    {
+      "id": "ss323-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "From the timing of the calls and the security records, the evidence suggests that the visitor left before the alarm sounded.",
+      "promptZh": "根據通話時間和保安紀錄，證據顯示訪客在警報響起前已離開。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the timing of the calls and the security records, everything points to the visitor having left before the alarm sounded.",
+      "answerZh": "根據通話時間和保安紀錄，所有證據都顯示訪客在警報響起前已離開。",
+      "answerZhSource": "pdf",
+      "highlight": "From the timing of the calls and the security records, everything points to the visitor having left before the alarm sounded."
+    },
+    {
+      "id": "ss323-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The doctor has not identified the exact cause, but the symptoms and timing suggest that the medicine caused the patient’s reaction.",
+      "promptZh": "醫生尚未確定確切原因，但症狀和出現時間顯示藥物引起了病人的反應。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor has not identified the exact cause, but everything points to the medicine causing the patient’s reaction.",
+      "answerZh": "醫生尚未確定確切原因，但所有證據都顯示藥物引起了病人的反應。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor has not identified the exact cause, but everything points to the medicine causing the patient’s reaction."
+    },
+    {
+      "id": "ss323-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "According to the financial records, the money was probably transferred to the wrong account rather than stolen.",
+      "promptZh": "根據財務紀錄，款項很可能被轉入錯誤戶口，而不是被盜取。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the financial records, everything points to the money having been transferred to the wrong account rather than stolen.",
+      "answerZh": "根據財務紀錄，所有證據都顯示款項被轉入錯誤戶口，而不是被盜取。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the financial records, everything points to the money having been transferred to the wrong account rather than stolen."
+    },
+    {
+      "id": "ss323-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "When the test results, witness statements and photographs are examined together, the evidence suggests that a vehicle caused the damage.",
+      "promptZh": "綜合檢視測試結果、證人供詞和照片後，證據顯示損毀由車輛造成。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the test results, witness statements and photographs are examined together, everything points to the damage having been caused by a vehicle.",
+      "answerZh": "綜合檢視測試結果、證人供詞和照片後，所有證據都顯示損毀由車輛造成。",
+      "answerZhSource": "pdf",
+      "highlight": "When the test results, witness statements and photographs are examined together, everything points to the damage having been caused by a vehicle."
+    },
+    {
+      "id": "ss323-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The research group now believes that the results suggest the species is adapting more quickly than expected.",
+      "promptZh": "研究小組現在相信，結果顯示該物種適應環境的速度比預期快。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research group now believes that everything points to the species adapting more quickly than expected.",
+      "answerZh": "研究小組現在相信，所有證據都顯示該物種適應環境的速度比預期快。",
+      "answerZhSource": "pdf",
+      "highlight": "The research group now believes that everything points to the species adapting more quickly than expected."
+    },
+    {
+      "id": "ss323-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Despite the lack of a direct confession, the investigators say that the evidence suggests the message was written by someone familiar with the system.",
+      "promptZh": "儘管沒有人直接認罪，調查人員表示證據顯示訊息由熟悉該系統的人撰寫。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite the lack of a direct confession, the investigators say that everything points to the message having been written by someone familiar with the system.",
+      "answerZh": "儘管沒有人直接認罪，調查人員表示所有證據都顯示訊息由熟悉該系統的人撰寫。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the lack of a direct confession, the investigators say that everything points to the message having been written by someone familiar with the system."
+    },
+    {
+      "id": "ss323-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "After checking every alternative explanation, the inquiry concludes that the evidence indicates a combination of poor maintenance and operator error.",
+      "promptZh": "調查小組檢查所有其他可能解釋後，認為證據顯示原因是保養不足和操作人員出錯的共同結果。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After checking every alternative explanation, the inquiry concludes that everything points to a combination of poor maintenance and operator error.",
+      "answerZh": "調查小組檢查所有其他可能解釋後，認為所有證據都指向保養不足和操作人員出錯的共同結果。",
+      "answerZhSource": "pdf",
+      "highlight": "After checking every alternative explanation, the inquiry concludes that everything points to a combination of poor maintenance and operator error."
+    }
+  ]
+}

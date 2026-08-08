@@ -1,0 +1,1245 @@
+{
+  "id": "ss286",
+  "order": 286,
+  "slug": "you-might-want-to-verb",
+  "title": "「You might want to + 動詞」提出溫和建議",
+  "titleZh": "「You might want to + 動詞」提出溫和建議",
+  "titleEn": "Using “You might want to + verb”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 285 -「You might want to + 動詞」提出溫和建議.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exercisePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sha256": "1df3b8aa8370906a6919b95380ec858c5da22a6b2985211a2b36f23cecece052",
+    "sourceNumber": 285,
+    "systemOrder": 286,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 285 maps to ss286: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "You might want to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss286-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "You might want to + base verb + other information"
+    }
+  ],
+  "example": "You might want to save a backup copy.",
+  "exampleZh": "你不妨儲存一份備份。",
+  "examples": [
+    {
+      "id": "ss286-example-01",
+      "en": "You might want to save a backup copy.",
+      "zh": "你不妨儲存一份備份。",
+      "highlight": "You might want to save a backup copy."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss286-rule-01",
+      "zh": "固定的核心句型是：原形動詞你不妨查看地址。 你不妨帶一把雨傘。 你不妨尋求協助。",
+      "en": "The fixed core expression is: you might want to + base verb you might want to + You might want to check the address. You might want to bring an umbrella. You might want to ask for help.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-rule-02",
+      "zh": "你不妨查看時間。 緊接 to 後面的動詞通常必須使用原形。",
+      "en": "Use the base form of the verb after “to” You might want to check the time. You might want to checking the time. You might want to checked the time. The verb immediately after to must normally remain in its base form.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-rule-03",
+      "zh": "在這個句型中，might 並不主要表示對方「可能想要」某物。完整句型用來提出禮貌而不強硬的建議。你不妨再查看帳單。 說話者是在溫和地表示，再查看帳單可能會有幫助。",
+      "en": "“Might” makes the suggestion softer In this expression, might does not mainly mean that the listener possibly wants something. Instead, the complete expression gives a polite and careful suggestion. You might want to check the bill again. The speaker is gently suggesting that checking the bill may be useful.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-rule-04",
+      "zh": "以下子句和片語用來提供背景資料，並不是固定句型的一部分。時間：出發前，你不妨查看天氣。條件：如果問題持續，你不妨尋求協助。原因：由於商店較早關門，你不妨現在前往。目的：為免遺失工作內容，你不妨定期儲存檔案。",
+      "en": "Other information may appear before the core expression The following clauses and phrases provide context. They are not part of the fixed expression. Before you leave, you might want to check the weather. If the problem continues, you might want to ask for help. Since the shop closes early, you might want to go there now. To avoid losing your work, you might want to save the file regularly. The core expression remains: you might want to + base verb",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-rule-05",
+      "zh": "這條道路經常擠塞，所以你不妨提早出發。 指示頗長，你不妨標示出主要步驟。 前面的內容解釋為甚麼這項建議可能有用。",
+      "en": "The expression may appear after another main clause The road is often crowded, so you might want to leave earlier. The instructions are quite long, and you might want to highlight the key steps. The words before you might want to explain why the suggestion may be useful. you might want to",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-rule-06",
+      "zh": "你不妨查看營業時間。 你不妨詢問職員。 你不妨考慮乘搭較早的火車。 你不妨避免在大雨中駕駛。 詞語【consider】和 avoid 是緊接 to 的原形動詞。其後的動作使用 -ing 形式，是因為它們跟在詞語【consider】或 avoid 後面。",
+      "en": "Useful verbs after the structure Common patterns include: You might want to check... You might want to check the opening hours. You might want to ask... You might want to ask a member of staff. You might want to consider... You might want to consider taking an earlier train. After consider, use a gerund: consider + V-ing You might want to avoid... You might want to avoid driving in heavy rain. After avoid, use a gerund: avoid + V-ing The verbs consider and avoid are the base verbs immediately following to. The following actions use the -ing form because they follow consider or avoid.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-rule-07",
+      "zh": "你可能不宜打開那個檔案。 這個句型用來溫和地建議某人不要做某事。",
+      "en": "The negative form is related but is not the main target here A related structure is: You might not want to + base verb You might not want to open that file. This form gently advises someone not to do something. However, the present exercise concentrates on: You might want to + base verb",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-rule-08",
+      "zh": "由於這個句型刻意保持溫和，當情況要求立即行動時，便可能不適合使用。立即離開大樓。這個核心句型可以自然地用作直接建議，也可放在時間、條件、原因或讓步子句之後。你不妨保留收據。 發送電郵前，你不妨查看附件。 如果房間感覺寒冷，你不妨關上窗戶。 由於餐廳十分繁忙，你不妨預訂座位。",
+      "en": "Because the expression is deliberately gentle, it may be unsuitable when immediate action is necessary. In an emergency, use a direct command such as ‘Leave the building immediately’ instead of ‘You might want to leave the burning building’. The core expression can be used as a direct suggestion, after a time expression, after an if-condition, or after a reason or contrast clause. For example: You might want to keep the receipt. Before you send the email, you might want to check the attachment. If the room feels cold, you might want to close the window. Since the restaurant is busy, you might want to book a table.",
+      "enSource": "pdf-with-editorial-clarification",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-rule-08a",
+      "zh": "為了讓報告更容易閱讀，你不妨加入標題。 火車服務較早結束，所以你不妨查看時間表。 核心句型前後的子句和片語都是可選延伸，用來交代建議的時間、原因、條件或目的。",
+      "en": "After a purpose or context phrase To / For / In / During + phrase, you might want to + base verb. To make the report easier to read, you might want to add headings. 6. After another main clause Main clause + so / and / but + you might want to + base verb. The train service ends early, so you might want to check the timetable. The clauses and phrases surrounding the core expression are optional extensions. They explain the time, reason, condition or purpose of the suggestion.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss286-benefit-01",
+      "zh": "這個句型讓你可以提出建議，而不會令對方覺得你正在命令他。再閱讀一次指示。 你不妨再閱讀一次指示。 第二種說法讓對方自行作出最後決定。",
+      "en": "It helps you sound polite rather than controlling This structure allows you to give advice without making the other person feel that you are ordering them. Compare: Read the instructions again. You might want to read the instructions again. The second version leaves the final decision with the listener.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-benefit-02",
+      "zh": "有時你認為某個做法可能有幫助，但你未必掌握足夠資料提出肯定指示。如果問題持續，你不妨聯絡客戶服務部。 這句提出一個合理的下一步，但沒有聲稱這是唯一的解決方法。",
+      "en": "It is useful when you are not completely certain Sometimes you believe an action will probably help, but you do not know enough to give a firm instruction. If the problem continues, you might want to contact customer service. This suggests a sensible next step without claiming that it is the only solution.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-benefit-03",
+      "zh": "你可以溫和地提醒對方注意潛在問題，而不會顯得嚇人或不友善。下雨後小徑會變得濕滑，所以你不妨穿上合適的鞋。",
+      "en": "It lets you give a warning gently You can warn someone about a possible problem without sounding frightening or unfriendly. The path becomes slippery after rain, so you might want to wear suitable shoes.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-benefit-04",
+      "zh": "你可以先交代情況，再提出合適建議。博物館在公眾假期通常十分擠迫，所以你不妨預先訂票。 讀者可以立即明白提出這項建議的原因。",
+      "en": "It connects background information with advice You can first explain the situation and then give a suitable suggestion. The museum is usually crowded on public holidays, so you might want to book tickets in advance. The reader can immediately understand why the advice is being given.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss286-benefit-05",
+      "zh": "這個句型常用於以下情況：日常對話；電郵；客戶服務；教學；旅遊建議；工作討論。它能讓建議聽起來既有幫助，也尊重對方。",
+      "en": "It is useful in many everyday and professional situations This structure is common when giving suggestions in: conversations emails customer service teaching travel advice workplace discussions. It helps advice sound helpful and respectful.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 285 maps to ss286: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using you might want to + base verb to give a gentle suggestion.",
+      "Preserve the original meaning and all important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 you might want to + 原形動詞 改寫以下句子，以提出溫和建議。",
+      "保留原句意思及所有重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss286-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It may be a good idea to save a backup copy.",
+      "promptZh": "儲存一份備份可能是個好主意。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might want to save a backup copy.",
+      "answerZh": "你不妨儲存一份備份。",
+      "answerZhSource": "pdf",
+      "highlight": "You might want to save a backup copy."
+    },
+    {
+      "id": "ss286-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Perhaps check the opening hours before you leave.",
+      "promptZh": "出發前，也許可以查看營業時間。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might want to check the opening hours before you leave.",
+      "answerZh": "你不妨在出發前查看營業時間。",
+      "answerZhSource": "pdf",
+      "highlight": "You might want to check the opening hours before you leave."
+    },
+    {
+      "id": "ss286-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You could take an umbrella in case it rains.",
+      "promptZh": "你可以帶一把雨傘，以防下雨。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might want to take an umbrella in case it rains.",
+      "answerZh": "你不妨帶一把雨傘，以防下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "You might want to take an umbrella in case it rains."
+    },
+    {
+      "id": "ss286-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Consider writing down the address.",
+      "promptZh": "可以考慮寫下地址。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might want to write down the address.",
+      "answerZh": "你不妨寫下地址。",
+      "answerZhSource": "pdf",
+      "highlight": "You might want to write down the address."
+    },
+    {
+      "id": "ss286-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It may help to charge your phone now.",
+      "promptZh": "現在為電話充電可能會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might want to charge your phone now.",
+      "answerZh": "你不妨現在為電話充電。",
+      "answerZhSource": "pdf",
+      "highlight": "You might want to charge your phone now."
+    },
+    {
+      "id": "ss286-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Perhaps wear a light jacket this evening.",
+      "promptZh": "今晚也許可以穿一件薄外套。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might want to wear a light jacket this evening.",
+      "answerZh": "你今晚不妨穿一件薄外套。",
+      "answerZhSource": "pdf",
+      "highlight": "You might want to wear a light jacket this evening."
+    },
+    {
+      "id": "ss286-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "One useful step is to read the instructions first.",
+      "promptZh": "一個有用的做法是先閱讀指示。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might want to read the instructions first.",
+      "answerZh": "你不妨先閱讀指示。",
+      "answerZhSource": "pdf",
+      "highlight": "You might want to read the instructions first."
+    },
+    {
+      "id": "ss286-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It could be wise to bring some water.",
+      "promptZh": "帶備一些水可能是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might want to bring some water.",
+      "answerZh": "你不妨帶備一些水。",
+      "answerZhSource": "pdf",
+      "highlight": "You might want to bring some water."
+    },
+    {
+      "id": "ss286-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Think about asking the teacher for an example.",
+      "promptZh": "可以考慮請老師舉例。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might want to ask the teacher for an example.",
+      "answerZh": "你不妨請老師舉例。",
+      "answerZhSource": "pdf",
+      "highlight": "You might want to ask the teacher for an example."
+    },
+    {
+      "id": "ss286-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It may be worth keeping the receipt.",
+      "promptZh": "保留收據可能是值得的。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might want to keep the receipt.",
+      "answerZh": "你不妨保留收據。",
+      "answerZhSource": "pdf",
+      "highlight": "You might want to keep the receipt."
+    },
+    {
+      "id": "ss286-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before you send the email, it may be wise to check the attachment.",
+      "promptZh": "發送電郵前，查看附件可能是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before you send the email, you might want to check the attachment.",
+      "answerZh": "發送電郵前，你不妨查看附件。",
+      "answerZhSource": "pdf",
+      "highlight": "Before you send the email, you might want to check the attachment."
+    },
+    {
+      "id": "ss286-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the room feels cold, you could close the window.",
+      "promptZh": "如果房間感覺寒冷，你可以關上窗戶。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the room feels cold, you might want to close the window.",
+      "answerZh": "如果房間感覺寒冷，你不妨關上窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "If the room feels cold, you might want to close the window."
+    },
+    {
+      "id": "ss286-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After installing the update, it may help to restart the computer.",
+      "promptZh": "安裝更新後，重新啟動電腦可能會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After installing the update, you might want to restart the computer.",
+      "answerZh": "安裝更新後，你不妨重新啟動電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "After installing the update, you might want to restart the computer."
+    },
+    {
+      "id": "ss286-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "During long study sessions, consider standing up every hour.",
+      "promptZh": "長時間溫習期間，可以考慮每小時站起來一次。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During long study sessions, you might want to stand up every hour.",
+      "answerZh": "長時間溫習期間，你不妨每小時站起來一次。",
+      "answerZhSource": "pdf",
+      "highlight": "During long study sessions, you might want to stand up every hour."
+    },
+    {
+      "id": "ss286-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It may rain later, so taking a small umbrella could be sensible.",
+      "promptZh": "稍後可能下雨，因此帶一把小雨傘可能較為明智。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may rain later, so you might want to take a small umbrella.",
+      "answerZh": "稍後可能下雨，所以你不妨帶一把小雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "It may rain later, so you might want to take a small umbrella."
+    },
+    {
+      "id": "ss286-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Since the shop is busy at lunchtime, perhaps book a table.",
+      "promptZh": "由於商店在午膳時間十分繁忙，也許可以預訂座位。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the shop is busy at lunchtime, you might want to book a table.",
+      "answerZh": "由於商店在午膳時間十分繁忙，你不妨預訂座位。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the shop is busy at lunchtime, you might want to book a table."
+    },
+    {
+      "id": "ss286-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The instructions are quite long, and it could help to highlight the key steps.",
+      "promptZh": "指示頗長，標示出主要步驟可能會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions are quite long, and you might want to highlight the key steps.",
+      "answerZh": "指示頗長，你不妨標示出主要步驟。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions are quite long, and you might want to highlight the key steps."
+    },
+    {
+      "id": "ss286-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although the first plan is cheaper, consider checking what is included.",
+      "promptZh": "雖然第一個計劃較便宜，但可以考慮查看當中包括甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the first plan is cheaper, you might want to check what is included.",
+      "answerZh": "雖然第一個計劃較便宜，但你不妨查看當中包括甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the first plan is cheaper, you might want to check what is included."
+    },
+    {
+      "id": "ss286-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "While you are at the supermarket, perhaps buy some batteries.",
+      "promptZh": "你在超級市場時，也許可以買一些電池。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While you are at the supermarket, you might want to buy some batteries.",
+      "answerZh": "你在超級市場時，不妨買一些電池。",
+      "answerZhSource": "pdf",
+      "highlight": "While you are at the supermarket, you might want to buy some batteries."
+    },
+    {
+      "id": "ss286-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Before making a decision, perhaps think about it overnight.",
+      "promptZh": "作出決定前，也許可以考慮一晚。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before making a decision, you might want to think about it overnight.",
+      "answerZh": "作出決定前，你不妨考慮一晚。",
+      "answerZhSource": "pdf",
+      "highlight": "Before making a decision, you might want to think about it overnight."
+    },
+    {
+      "id": "ss286-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "To avoid losing your work, it may be wise to save the document regularly.",
+      "promptZh": "為免遺失工作內容，定期儲存文件可能是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To avoid losing your work, you might want to save the document regularly.",
+      "answerZh": "為免遺失工作內容，你不妨定期儲存文件。",
+      "answerZhSource": "pdf",
+      "highlight": "To avoid losing your work, you might want to save the document regularly."
+    },
+    {
+      "id": "ss286-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "If your eyes feel tired, consider taking a short break from the screen.",
+      "promptZh": "如果眼睛感到疲倦，可以考慮暫時離開螢幕休息。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If your eyes feel tired, you might want to take a short break from the screen.",
+      "answerZh": "如果眼睛感到疲倦，你不妨暫時離開螢幕休息。",
+      "answerZhSource": "pdf",
+      "highlight": "If your eyes feel tired, you might want to take a short break from the screen."
+    },
+    {
+      "id": "ss286-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Because the road is often crowded, leaving ten minutes earlier could be helpful.",
+      "promptZh": "由於這條道路經常擠塞，提早十分鐘出發可能會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the road is often crowded, you might want to leave ten minutes earlier.",
+      "answerZh": "由於這條道路經常擠塞，你不妨提早十分鐘出發。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the road is often crowded, you might want to leave ten minutes earlier."
+    },
+    {
+      "id": "ss286-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In a noisy place, it may help to use headphones.",
+      "promptZh": "在嘈雜的地方，使用耳筒可能會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a noisy place, you might want to use headphones.",
+      "answerZh": "在嘈雜的地方，你不妨使用耳筒。",
+      "answerZhSource": "pdf",
+      "highlight": "In a noisy place, you might want to use headphones."
+    },
+    {
+      "id": "ss286-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The form asks for exact dates, so perhaps check your records first.",
+      "promptZh": "表格要求填寫準確日期，所以也許可以先查看紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The form asks for exact dates, so you might want to check your records first.",
+      "answerZh": "表格要求填寫準確日期，所以你不妨先查看紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "The form asks for exact dates, so you might want to check your records first."
+    },
+    {
+      "id": "ss286-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before opening the file, consider scanning it for viruses.",
+      "promptZh": "開啟檔案前，可以考慮先掃描檔案是否含有病毒。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before opening the file, you might want to scan it for viruses.",
+      "answerZh": "開啟檔案前，你不妨先掃描檔案是否含有病毒。",
+      "answerZhSource": "pdf",
+      "highlight": "Before opening the file, you might want to scan it for viruses."
+    },
+    {
+      "id": "ss286-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "If the medicine makes you sleepy, it may be wise to avoid driving.",
+      "promptZh": "如果藥物令你感到睏倦，避免駕駛可能是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the medicine makes you sleepy, you might want to avoid driving.",
+      "answerZh": "如果藥物令你感到睏倦，你不妨避免駕駛。",
+      "answerZhSource": "pdf",
+      "highlight": "If the medicine makes you sleepy, you might want to avoid driving."
+    },
+    {
+      "id": "ss286-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Since this recipe is quite salty, consider using less soy sauce.",
+      "promptZh": "由於這個食譜頗鹹，可以考慮少用一些豉油。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since this recipe is quite salty, you might want to use less soy sauce.",
+      "answerZh": "由於這個食譜頗鹹，你不妨少用一些豉油。",
+      "answerZhSource": "pdf",
+      "highlight": "Since this recipe is quite salty, you might want to use less soy sauce."
+    },
+    {
+      "id": "ss286-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When speaking to a large group, it could help to slow down slightly.",
+      "promptZh": "向一大群人說話時，稍為放慢語速可能會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When speaking to a large group, you might want to slow down slightly.",
+      "answerZh": "向一大群人說話時，你不妨稍為放慢語速。",
+      "answerZhSource": "pdf",
+      "highlight": "When speaking to a large group, you might want to slow down slightly."
+    },
+    {
+      "id": "ss286-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The train service ends early tonight, and checking the last departure time could be sensible.",
+      "promptZh": "今晚的火車服務較早結束，查看尾班車的開出時間可能較為明智。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train service ends early tonight, and you might want to check the last departure time.",
+      "answerZh": "今晚的火車服務較早結束，你不妨查看尾班車的開出時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The train service ends early tonight, and you might want to check the last departure time."
+    },
+    {
+      "id": "ss286-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If you are unsure which button to press, perhaps ask a member of staff.",
+      "promptZh": "如果你不肯定應按哪個按鈕，也許可以詢問職員。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you are unsure which button to press, you might want to ask a member of staff.",
+      "answerZh": "如果你不肯定應按哪個按鈕，你不妨詢問職員。",
+      "answerZhSource": "pdf",
+      "highlight": "If you are unsure which button to press, you might want to ask a member of staff."
+    },
+    {
+      "id": "ss286-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "To make the report easier to read, consider adding short headings.",
+      "promptZh": "為了讓報告更容易閱讀，可以考慮加入簡短標題。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To make the report easier to read, you might want to add short headings.",
+      "answerZh": "為了讓報告更容易閱讀，你不妨加入簡短標題。",
+      "answerZhSource": "pdf",
+      "highlight": "To make the report easier to read, you might want to add short headings."
+    },
+    {
+      "id": "ss286-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Although the room looks clean, it may be a good idea to wipe the table before eating.",
+      "promptZh": "雖然房間看起來很乾淨，但進食前抹乾淨桌面可能是個好主意。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the room looks clean, you might want to wipe the table before eating.",
+      "answerZh": "雖然房間看起來很乾淨，但你不妨在進食前抹乾淨桌面。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the room looks clean, you might want to wipe the table before eating."
+    },
+    {
+      "id": "ss286-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Because the link expires tomorrow, downloading the file today could be sensible.",
+      "promptZh": "由於連結明天便會失效，今天下載檔案可能較為明智。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the link expires tomorrow, you might want to download the file today.",
+      "answerZh": "由於連結明天便會失效，你不妨今天下載檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the link expires tomorrow, you might want to download the file today."
+    },
+    {
+      "id": "ss286-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Before agreeing to the service, consider reading the cancellation policy.",
+      "promptZh": "同意使用這項服務前，可以考慮閱讀取消服務政策。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before agreeing to the service, you might want to read the cancellation policy.",
+      "answerZh": "同意使用這項服務前，你不妨閱讀取消服務政策。",
+      "answerZhSource": "pdf",
+      "highlight": "Before agreeing to the service, you might want to read the cancellation policy."
+    },
+    {
+      "id": "ss286-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The path is longer than it looks, so carrying extra water could be useful.",
+      "promptZh": "這條小徑比看起來更長，因此帶備額外食水可能會有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The path is longer than it looks, so you might want to carry extra water.",
+      "answerZh": "這條小徑比看起來更長，所以你不妨帶備額外食水。",
+      "answerZhSource": "pdf",
+      "highlight": "The path is longer than it looks, so you might want to carry extra water."
+    },
+    {
+      "id": "ss286-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If you plan to use the photograph online, perhaps ask the owner for permission.",
+      "promptZh": "如果你打算在網上使用這張相片，也許可以先取得物主的同意。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you plan to use the photograph online, you might want to ask the owner for permission.",
+      "answerZh": "如果你打算在網上使用這張相片，你不妨先取得物主的同意。",
+      "answerZhSource": "pdf",
+      "highlight": "If you plan to use the photograph online, you might want to ask the owner for permission."
+    },
+    {
+      "id": "ss286-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "For a more accurate result, it may help to repeat the measurement.",
+      "promptZh": "為了取得更準確的結果，再量度一次可能會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For a more accurate result, you might want to repeat the measurement.",
+      "answerZh": "為了取得更準確的結果，你不妨再量度一次。",
+      "answerZhSource": "pdf",
+      "highlight": "For a more accurate result, you might want to repeat the measurement."
+    },
+    {
+      "id": "ss286-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "While the hall is still empty, consider testing the microphone.",
+      "promptZh": "禮堂仍然空置時，可以考慮測試咪高峰。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While the hall is still empty, you might want to test the microphone.",
+      "answerZh": "禮堂仍然空置時，你不妨測試咪高峰。",
+      "answerZhSource": "pdf",
+      "highlight": "While the hall is still empty, you might want to test the microphone."
+    },
+    {
+      "id": "ss286-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The second route has fewer steps. If you are carrying heavy luggage, perhaps choose it.",
+      "promptZh": "第二條路線的樓梯較少。如果你攜帶沉重行李，也許可以選擇這條路線。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The second route has fewer steps, so if you are carrying heavy luggage, you might want to choose it.",
+      "answerZh": "第二條路線的樓梯較少，所以如果你攜帶沉重行李，你不妨選擇這條路線。",
+      "answerZhSource": "pdf",
+      "highlight": "The second route has fewer steps, so if you are carrying heavy luggage, you might want to choose it."
+    },
+    {
+      "id": "ss286-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Since the document contains personal information, it may be wise to encrypt it before sending it.",
+      "promptZh": "由於文件包含個人資料，發送前把文件加密可能是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the document contains personal information, you might want to encrypt it before sending it.",
+      "answerZh": "由於文件包含個人資料，你不妨在發送前把文件加密。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the document contains personal information, you might want to encrypt it before sending it."
+    },
+    {
+      "id": "ss286-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If the pain continues for several days, consider speaking to a doctor.",
+      "promptZh": "如果疼痛持續數天，可以考慮向醫生求診。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the pain continues for several days, you might want to speak to a doctor.",
+      "answerZh": "如果疼痛持續數天，你不妨向醫生求診。",
+      "answerZhSource": "pdf",
+      "highlight": "If the pain continues for several days, you might want to speak to a doctor."
+    },
+    {
+      "id": "ss286-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "To prevent confusion during the meeting, perhaps number the pages of the handout.",
+      "promptZh": "為免會議期間出現混亂，也許可以為講義頁面加上頁碼。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To prevent confusion during the meeting, you might want to number the pages of the handout.",
+      "answerZh": "為免會議期間出現混亂，你不妨為講義頁面加上頁碼。",
+      "answerZhSource": "pdf",
+      "highlight": "To prevent confusion during the meeting, you might want to number the pages of the handout."
+    },
+    {
+      "id": "ss286-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Although the software is free, it could be sensible to check what data it collects.",
+      "promptZh": "雖然這款軟件免費，但查看它會收集甚麼資料可能較為明智。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the software is free, you might want to check what data it collects.",
+      "answerZh": "雖然這款軟件免費，但你不妨查看它會收集甚麼資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the software is free, you might want to check what data it collects."
+    },
+    {
+      "id": "ss286-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The museum is usually crowded on public holidays, so booking tickets in advance may be helpful.",
+      "promptZh": "博物館在公眾假期通常十分擠迫，因此預先訂票可能會有幫助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum is usually crowded on public holidays, so you might want to book tickets in advance.",
+      "answerZh": "博物館在公眾假期通常十分擠迫，所以你不妨預先訂票。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum is usually crowded on public holidays, so you might want to book tickets in advance."
+    },
+    {
+      "id": "ss286-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Before you sign the agreement, it may be worth asking who is responsible for repairs.",
+      "promptZh": "簽署協議前，詢問由誰負責維修可能是值得的。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before you sign the agreement, you might want to ask who is responsible for repairs.",
+      "answerZh": "簽署協議前，你不妨詢問由誰負責維修。",
+      "answerZhSource": "pdf",
+      "highlight": "Before you sign the agreement, you might want to ask who is responsible for repairs."
+    },
+    {
+      "id": "ss286-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If the audience is unfamiliar with the term in the first chart, consider defining it before presenting the results.",
+      "promptZh": "如果觀眾不熟悉第一張圖表中的用語，可以考慮在講解結果前先解釋它。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the audience is unfamiliar with the term in the first chart, you might want to define it before presenting the results.",
+      "answerZh": "如果觀眾不熟悉第一張圖表中的用語，你不妨在講解結果前先解釋它。",
+      "answerZhSource": "pdf",
+      "highlight": "If the audience is unfamiliar with the term in the first chart, you might want to define it before presenting the results."
+    },
+    {
+      "id": "ss286-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Because the budget is limited, reviewing the essential costs first could be a sensible step.",
+      "promptZh": "由於預算有限，先檢視必要開支可能是一個明智的做法。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the budget is limited, you might want to review the essential costs first.",
+      "answerZh": "由於預算有限，你不妨先檢視必要開支。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the budget is limited, you might want to review the essential costs first."
+    },
+    {
+      "id": "ss286-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The weather can change quickly in the mountains, and checking the forecast again before departure could be wise.",
+      "promptZh": "山區天氣可以迅速轉變，因此出發前再次查看天氣預報可能是明智的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The weather can change quickly in the mountains, and you might want to check the forecast again before departure.",
+      "answerZh": "山區天氣可以迅速轉變，你不妨在出發前再次查看天氣預報。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather can change quickly in the mountains, and you might want to check the forecast again before departure."
+    },
+    {
+      "id": "ss286-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "While the automatic system handles routine cases, it may be sensible to have a person review unusual requests.",
+      "promptZh": "雖然自動系統會處理一般個案，但安排人員審查不尋常的要求可能較為明智。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While the automatic system handles routine cases, you might want to have a person review unusual requests.",
+      "answerZh": "雖然自動系統會處理一般個案，但你不妨安排人員審查不尋常的要求。",
+      "answerZhSource": "pdf",
+      "highlight": "While the automatic system handles routine cases, you might want to have a person review unusual requests."
+    }
+  ]
+}

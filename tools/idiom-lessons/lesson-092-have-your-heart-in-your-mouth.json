@@ -1,0 +1,1601 @@
+{
+  "lesson": {
+    "id": "idiom-92",
+    "order": 92,
+    "slug": "have-your-heart-in-your-mouth",
+    "version": "1",
+    "title": "提心吊膽／極度緊張",
+    "titleEn": "have your heart in your mouth",
+    "titleZh": "提心吊膽／極度緊張",
+    "source": {
+      "file": "Idiom 92 - 「HAVE YOUR HEART IN YOUR MOUTH」.pdf",
+      "pageCount": 32,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "exercisePdfPages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "answerKeyPdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "have one’s heart in one’s mouth",
+        "highlight": "have one’s heart in one’s mouth"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I had my heart in my mouth.",
+        "zh": "我緊張得心也快要跳出來。",
+        "highlight": "had my heart in my mouth"
+      },
+      {
+        "en": "She has her heart in her mouth whenever her son climbs that tree.",
+        "zh": "每當她的兒子爬上那棵樹時，她都提心吊膽。",
+        "highlight": "has her heart in her mouth"
+      }
+    ],
+    "meaning": {
+      "en": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+      "zh": "have your heart in your mouth 表示極度緊張、害怕或提心吊膽，尤其用於面對危險、等候重要結果，或觀看結果未明的事情。",
+      "naturalZh": [
+        "have your heart in your mouth 表示極度緊張、害怕或提心吊膽，尤其用於面對危險、等候重要結果，或觀看結果未明的事情。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "1. everyday conversation; 2. personal stories; 3. interviews; 4. sports reports; 5. films and fiction; 6. less formal journalism.",
+      "summaryZh": "這個慣用語主要屬於非正式至中性用語，自然用於日常對話、個人故事、訪問、體育報道、電影、 小說及較不正式的新聞寫作。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "It is vivid but not rude. In highly formal medical, legal or academic writing, a direct expression such as extremely anxious may be clearer.",
+      "formalZh": "這個表達生動但並不粗俗。 在非常正式的醫療、法律或學術文章中，extremely anxious 等直接說法可能更清楚。"
+    },
+    "fixedVariable": {
+      "fixed": "have one’s heart in one’s mouth",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + have / has / had + possessive heart + in + possessive mouth.",
+          "example": "I had my heart in my mouth.",
+          "highlight": "had my heart in my mouth"
+        },
+        {
+          "form": "Subject + modal + have + possessive heart + in + possessive mouth.",
+          "example": "You may have your heart in your mouth when the lights go out.",
+          "highlight": "have your heart in your mouth"
+        },
+        {
+          "form": "Possessive heart + be + in + possessive mouth.",
+          "example": "My heart was in my mouth.",
+          "highlight": "My heart was in my mouth"
+        },
+        {
+          "form": "With + possessive heart + in + possessive mouth, + subject + verb.",
+          "example": "With her heart in her mouth, Chloe stepped onto the stage.",
+          "highlight": "her heart in her mouth"
+        },
+        {
+          "form": "Subject + verb + with + possessive heart + in + possessive mouth.",
+          "example": "Ryan entered the office with his heart in his mouth.",
+          "highlight": "his heart in his mouth"
+        },
+        {
+          "form": "Possessive heart + in + possessive mouth, + subject + verb.",
+          "example": "Her heart in her mouth, Nora opened the door.",
+          "highlight": "Her heart in her mouth"
+        },
+        {
+          "form": "Be + possessive heart + in + possessive mouth...?",
+          "example": "Was your heart in your mouth while you waited?",
+          "highlight": "your heart in your mouth"
+        },
+        {
+          "form": "Plural subject + have + their hearts in their mouths.",
+          "example": "The children had their hearts in their mouths.",
+          "highlight": "had their hearts in their mouths"
+        },
+        {
+          "form": "a heart-in-your-mouth + noun",
+          "example": "It was a heart-in-your-mouth moment.",
+          "highlight": "heart-in-your-mouth"
+        },
+        {
+          "form": "have one’s heart in one’s mouth",
+          "example": "My heart was in my mouth when the car moved towards us.",
+          "highlight": "My heart was in my mouth"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "With “have”",
+        "titleZh": "我緊張得心也快要跳出來",
+        "formula": "Subject + have / has / had + possessive heart + in + possessive mouth.",
+        "descriptionEn": "Source grammar frame: Subject + have / has / had + possessive heart + in + possessive mouth.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have / has / had + possessive heart + in + possessive mouth。",
+        "examples": [
+          {
+            "en": "I had my heart in my mouth.",
+            "zh": "我緊張得心也快要跳出來。",
+            "highlight": "had my heart in my mouth"
+          },
+          {
+            "en": "She has her heart in her mouth whenever her son climbs that tree.",
+            "zh": "每當她的兒子爬上那棵樹時，她都提心吊膽。",
+            "highlight": "has her heart in her mouth"
+          },
+          {
+            "en": "The spectators had their hearts in their mouths.",
+            "zh": "觀眾都緊張得心也快要跳出來。",
+            "highlight": "had their hearts in their mouths"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "With a modal verb",
+        "titleZh": "燈光熄滅時，你可能會嚇得心也快要跳出來",
+        "formula": "Subject + modal + have + possessive heart + in + possessive mouth.",
+        "descriptionEn": "Source grammar frame: Subject + modal + have + possessive heart + in + possessive mouth.",
+        "descriptionZh": "原檔列出的句法框架：Subject + modal + have + possessive heart + in + possessive mouth。",
+        "examples": [
+          {
+            "en": "You may have your heart in your mouth when the lights go out.",
+            "zh": "燈光熄滅時，你可能會嚇得心也快要跳出來。",
+            "highlight": "have your heart in your mouth"
+          },
+          {
+            "en": "I would have my heart in my mouth on that narrow bridge.",
+            "zh": "如果要走過那條狹窄的橋，我會提心吊膽。",
+            "highlight": "have my heart in my mouth"
+          },
+          {
+            "en": "The passengers could have their hearts in their mouths during the landing.",
+            "zh": "乘客在降落期間可能會非常緊張。",
+            "highlight": "have their hearts in their mouths"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "With “be”",
+        "titleZh": "我緊張得心也快要跳出來",
+        "formula": "Possessive heart + be + in + possessive mouth.",
+        "descriptionEn": "Source grammar frame: Possessive heart + be + in + possessive mouth.",
+        "descriptionZh": "原檔列出的句法框架：Possessive heart + be + in + possessive mouth。",
+        "examples": [
+          {
+            "en": "My heart was in my mouth.",
+            "zh": "我緊張得心也快要跳出來。",
+            "highlight": "My heart was in my mouth"
+          },
+          {
+            "en": "His heart is in his mouth as he waits for the result.",
+            "zh": "他等候結果時非常緊張。",
+            "highlight": "His heart is in his mouth"
+          },
+          {
+            "en": "Their hearts had been in their mouths for several minutes.",
+            "zh": "他們已提心吊膽了幾分鐘。",
+            "highlight": "Their hearts had been in their mouths"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "With “with” before the main clause",
+        "titleZh": "克洛伊提心吊膽地踏上舞台",
+        "formula": "With + possessive heart + in + possessive mouth, + subject + verb.",
+        "descriptionEn": "Source grammar frame: With + possessive heart + in + possessive mouth, + subject + verb.",
+        "descriptionZh": "原檔列出的句法框架：With + possessive heart + in + possessive mouth, + subject + verb。",
+        "examples": [
+          {
+            "en": "With her heart in her mouth, Chloe stepped onto the stage.",
+            "zh": "克洛伊提心吊膽地踏上舞台。",
+            "highlight": "her heart in her mouth"
+          },
+          {
+            "en": "With their hearts in their mouths, the players waited for the score.",
+            "zh": "球員提心吊膽地等候賽果。",
+            "highlight": "their hearts in their mouths"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With “with” after the main verb",
+        "titleZh": "賴恩提心吊膽地走進辦公室",
+        "formula": "Subject + verb + with + possessive heart + in + possessive mouth.",
+        "descriptionEn": "Source grammar frame: Subject + verb + with + possessive heart + in + possessive mouth.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb + with + possessive heart + in + possessive mouth。",
+        "examples": [
+          {
+            "en": "Ryan entered the office with his heart in his mouth.",
+            "zh": "賴恩提心吊膽地走進辦公室。",
+            "highlight": "his heart in his mouth"
+          },
+          {
+            "en": "The parents watched with their hearts in their mouths.",
+            "zh": "父母提心吊膽地看着。",
+            "highlight": "their hearts in their mouths"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "As a detached descriptive phrase",
+        "titleZh": "諾拉提心吊膽地打開門",
+        "formula": "Possessive heart + in + possessive mouth, + subject + verb.",
+        "descriptionEn": "Source grammar frame: Possessive heart + in + possessive mouth, + subject + verb.",
+        "descriptionZh": "原檔列出的句法框架：Possessive heart + in + possessive mouth, + subject + verb。",
+        "examples": [
+          {
+            "en": "Her heart in her mouth, Nora opened the door.",
+            "zh": "諾拉提心吊膽地打開門。",
+            "highlight": "Her heart in her mouth"
+          },
+          {
+            "en": "The driver continued, his heart in his mouth.",
+            "zh": "司機提心吊膽地繼續前進。",
+            "highlight": "his heart in his mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "In questions",
+        "titleZh": "你等候時是否非常緊張",
+        "formula": "Be + possessive heart + in + possessive mouth...?",
+        "descriptionEn": "Source grammar frame: Be + possessive heart + in + possessive mouth...?.",
+        "descriptionZh": "原檔列出的句法框架：Be + possessive heart + in + possessive mouth...?。",
+        "examples": [
+          {
+            "en": "Was your heart in your mouth while you waited?",
+            "zh": "你等候時是否非常緊張？",
+            "highlight": "your heart in your mouth"
+          },
+          {
+            "en": "Did you have your heart in your mouth during the final minute?",
+            "zh": "最後一分鐘時，你是否非常緊張？",
+            "highlight": "have your heart in your mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "In plural forms",
+        "titleZh": "孩子們都提心吊膽",
+        "formula": "Plural subject + have + their hearts in their mouths.",
+        "descriptionEn": "Source grammar frame: Plural subject + have + their hearts in their mouths.",
+        "descriptionZh": "原檔列出的句法框架：Plural subject + have + their hearts in their mouths。",
+        "examples": [
+          {
+            "en": "The children had their hearts in their mouths.",
+            "zh": "孩子們都提心吊膽。",
+            "highlight": "had their hearts in their mouths"
+          },
+          {
+            "en": "The passengers’ hearts were in their mouths.",
+            "zh": "乘客都嚇得心也快要跳出來。",
+            "highlight": "passengers’ hearts were in their mouths"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "As a hyphenated adjective",
+        "titleZh": "那是令人心驚膽戰的一刻",
+        "formula": "a heart-in-your-mouth + noun",
+        "descriptionEn": "Source grammar frame: a heart-in-your-mouth + noun.",
+        "descriptionZh": "原檔列出的句法框架：a heart-in-your-mouth + noun。",
+        "examples": [
+          {
+            "en": "It was a heart-in-your-mouth moment.",
+            "zh": "那是令人心驚膽戰的一刻。",
+            "highlight": "heart-in-your-mouth"
+          },
+          {
+            "en": "The match had a heart-in-your-mouth finish.",
+            "zh": "那場比賽的結局令人心驚膽戰。",
+            "highlight": "heart-in-your-mouth"
+          },
+          {
+            "en": "The documentary contained some heart-in-your-mouth scenes.",
+            "zh": "那部紀錄片有一些令人心驚膽戰的場面。",
+            "highlight": "heart-in-your-mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "With time, reason, contrast or condition clauses",
+        "titleZh": "汽車向我們駛來時，我嚇得心也快要跳出來",
+        "formula": "have one’s heart in one’s mouth",
+        "descriptionEn": "Source grammar frame: have one’s heart in one’s mouth.",
+        "descriptionZh": "原檔列出的句法框架：have one’s heart in one’s mouth。",
+        "examples": [
+          {
+            "en": "My heart was in my mouth when the car moved towards us.",
+            "zh": "汽車向我們駛來時，我嚇得心也快要跳出來。",
+            "highlight": "My heart was in my mouth"
+          },
+          {
+            "en": "Although nothing had happened yet, I had my heart in my mouth.",
+            "zh": "雖然事情尚未發生，我仍然提心吊膽。",
+            "highlight": "had my heart in my mouth"
+          },
+          {
+            "en": "If the rope moves again, everyone will have their heart in their mouth.",
+            "zh": "如果繩索再次移動，所有人都會提心吊膽。",
+            "highlight": "have their heart in their mouth"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It communicates a strong physical-feeling image",
+        "titleZh": "帶出強烈的身體感覺畫面",
+        "en": "The second version helps the listener imagine how intense the nervousness felt.",
+        "zh": "第二個版本讓聽者更容易想像緊張感有多強烈。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It shortens a longer emotional explanation",
+        "titleZh": "把較長的情緒解釋縮短",
+        "en": "My heart was in my mouth as the car moved towards us.",
+        "zh": "這個慣用語把極度害怕和緊張的意思濃縮成較短的表達。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It is useful for suspense",
+        "titleZh": "適合表達懸念",
+        "en": "The expression is particularly useful when the result remains uncertain.",
+        "zh": "最後一次十二碼罰球進行期間，觀眾都提心吊膽。 當結果仍未明朗時，這個表達尤其實用。",
+        "examples": [
+          {
+            "en": "The spectators had their hearts in their mouths during the final penalty.",
+            "zh": "最後一次十二碼罰球進行期間，觀眾都提心吊膽。",
+            "highlight": "had their hearts in their mouths"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It makes personal stories more vivid",
+        "titleZh": "令個人故事更加生動",
+        "en": "The listener receives both the action and the speaker’s emotional state.",
+        "zh": "我提心吊膽地慢慢打開門。 聽者同時得知發生的行動及說話者當時的情緒。",
+        "examples": [
+          {
+            "en": "With my heart in my mouth, I slowly opened the door.",
+            "zh": "我提心吊膽地慢慢打開門。",
+            "highlight": "my heart in my mouth"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It allows flexible sentence organisation",
+        "titleZh": "提供靈活的句子組織方式",
+        "en": "It allows flexible sentence organisation",
+        "zh": "提供靈活的句子組織方式",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It is strong, but not automatically better",
+        "titleZh": "語氣強烈，但並非一定比直接說法更好",
+        "en": "The idiom is useful when the nervousness is intense and the context is vivid. For mild worry or highly formal writing, nervous, anxious or frightened may be clearer.",
+        "zh": "這個慣用語適合強烈而具體的緊張情境。 對於輕微擔心或非常正式的文章，nervous、anxious 或 frightened 可能更清楚。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Early English Use Well Documented",
+      "statusZh": "確切來源不明；早期英語用法有可靠記錄",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "identifies Nicholas Udall as the translator of Luke. The full early text is preserved by the University of Michigan’s Early English Books Online collection.",
+          "zh": "一個早期形式出現在一五四八年出版的伊拉斯謨《新約釋義》英文版本中。 當中的文字表示，受驚的人因恐懼而感到心已到了口邊。 Folger Shakespeare Library 的資料確認了出版年份，並指出 《路加福音》部分由 Nicholas Udall 翻譯。 University of Michigan 的 Early English Books Online 亦保存了這段早期文字。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "one’s heart is in one’s mouth",
+          "zh": "這個早期意象直接把恐懼與心臟彷彿升至口邊的感覺連繫起來。 隨着時間過去，說法逐漸固定為現代形式。"
+        }
+      ],
+      "memoryEn": "When fear makes your heart pound upwards, imagine it rising towards your mouth.",
+      "memoryZh": "當恐懼令心臟猛烈跳動時，可以想像它正在向口腔方向升上去。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Match both possessives",
+        "titleZh": "規則一：兩個所有格必須配合",
+        "en": "Match both possessives",
+        "zh": "兩個所有格必須配合",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Match singular and plural forms",
+        "titleZh": "規則二：單複數必須配合",
+        "en": "Match singular and plural forms",
+        "zh": "單複數必須配合",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "“Have” and “be” are both central",
+        "titleZh": "規則三：have 和 be 都是核心句式",
+        "en": "“Have” and “be” are both central",
+        "zh": "have 和 be 都是核心句式",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "“With” is an optional grammatical frame",
+        "titleZh": "規則四：with 是可選句法框架",
+        "en": "“With” is an optional grammatical frame",
+        "zh": "with 是可選句法框架",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve the strong degree",
+        "titleZh": "規則五：保留強烈程度",
+        "en": "Preserve the strong degree",
+        "zh": "保留強烈程度",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do not repeat the same meaning",
+        "titleZh": "規則六：不要重複同一意思",
+        "en": "Do not repeat the same meaning",
+        "zh": "不要重複同一意思",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve the cause or situation",
+        "titleZh": "規則七：保留原因或情境",
+        "en": "Preserve the cause or situation",
+        "zh": "保留原因或情境",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve tense",
+        "titleZh": "規則八：保留時態",
+        "en": "Preserve tense",
+        "zh": "保留時態",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve modality",
+        "titleZh": "規則九：保留情態意思",
+        "en": "Preserve modality",
+        "zh": "保留情態意思",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Use hyphens only before a noun",
+        "titleZh": "規則十：只在名詞前使用連字號",
+        "en": "Use hyphens only before a noun",
+        "zh": "只在名詞前使用連字號",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Do not interpret the expression literally",
+        "titleZh": "規則十一：不要按字面理解",
+        "en": "The idiom does not mean that the physical heart has moved into the mouth.",
+        "zh": "這個慣用語並不是說心臟真的移到口腔內。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Do not confuse it with other “heart” idioms",
+        "titleZh": "規則十二：不要與其他 heart 慣用語混淆",
+        "en": "Your heart is in the right place. Your heart sinks.",
+        "zh": "你的出發點是好的。 你突然感到失望或沮喪。 你感到極度緊張或害怕。",
+        "examples": [
+          {
+            "en": "You have your heart in your mouth.",
+            "zh": "你感到極度緊張或害怕。",
+            "highlight": "have your heart in your mouth"
+          }
+        ]
+      },
+      {
+        "number": 13,
+        "titleEn": "Do not overuse “when”",
+        "titleZh": "規則十三：不要過度使用 when",
+        "en": "Do not overuse “when”",
+        "zh": "不要過度使用 when",
+        "examples": []
+      },
+      {
+        "number": 14,
+        "titleEn": "Do not place every answer in the same position",
+        "titleZh": "規則十四：不要把表達放在每個答案的同一位置",
+        "en": "Do not place every answer in the same position",
+        "zh": "不要把表達放在每個答案的同一位置",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "one’s heart is in one’s mouth",
+      "zh": "使用以下目標表達系列改寫句子或完成回應："
+    },
+    "questions": [
+      {
+        "id": "idiom-92-q01",
+        "number": 1,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "I felt extremely nervous as I opened the email containing my exam results.",
+        "promptZh": "我打開載有考試成績的電郵時，感到極度緊張。",
+        "starter": "My",
+        "answer": "My heart was in my mouth as I opened the email containing my exam results.",
+        "answerZh": "我打開載有考試成績的電郵時，緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "My heart was in my mouth"
+      },
+      {
+        "id": "idiom-92-q02",
+        "number": 2,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Daniel was extremely nervous while he waited outside the interview room.",
+        "promptZh": "丹尼爾在面試室外等候時極度緊張。",
+        "starter": "Daniel",
+        "answer": "Daniel had his heart in his mouth while he waited outside the interview room.",
+        "answerZh": "丹尼爾在面試室外等候時，緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "had his heart in his mouth"
+      },
+      {
+        "id": "idiom-92-q03",
+        "number": 3,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Eva became terribly frightened when the large dog ran towards her.",
+        "promptZh": "那隻大狗向伊娃跑過來時，她嚇得要命。",
+        "starter": "Eva’s",
+        "answer": "Eva’s heart was in her mouth when the large dog ran towards her.",
+        "answerZh": "那隻大狗向伊娃跑過來時，她嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "Eva’s heart was in her mouth"
+      },
+      {
+        "id": "idiom-92-q04",
+        "number": 4,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "I was extremely nervous during the final penalty.",
+        "promptZh": "最後一次十二碼罰球進行期間，我極度緊張。",
+        "starter": "I",
+        "answer": "I had my heart in my mouth during the final penalty.",
+        "answerZh": "最後一次十二碼罰球進行期間，我緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "had my heart in my mouth"
+      },
+      {
+        "id": "idiom-92-q05",
+        "number": 5,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The boy was terrified when the lift suddenly stopped between two floors.",
+        "promptZh": "升降機突然停在兩層樓之間時，那個男孩非常害怕。",
+        "starter": "The",
+        "answer": "The boy’s heart was in his mouth when the lift suddenly stopped between two floors.",
+        "answerZh": "升降機突然停在兩層樓之間時，那個男孩嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "boy’s heart was in his mouth"
+      },
+      {
+        "id": "idiom-92-q06",
+        "number": 6,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Chloe felt extremely nervous as she stepped onto the stage.",
+        "promptZh": "克洛伊踏上舞台時感到極度緊張。",
+        "starter": "With",
+        "answer": "With her heart in her mouth, Chloe stepped onto the stage.",
+        "answerZh": "克洛伊緊張得心也快要跳出來，踏上了舞台。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "her heart in her mouth"
+      },
+      {
+        "id": "idiom-92-q07",
+        "number": 7,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Ryan walked towards the head teacher’s office feeling extremely nervous.",
+        "promptZh": "賴恩極度緊張地走向校長辦公室。",
+        "starter": "Ryan",
+        "answer": "Ryan walked towards the head teacher’s office with his heart in his mouth.",
+        "answerZh": "賴恩緊張得心也快要跳出來，走向校長辦公室。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "his heart in his mouth"
+      },
+      {
+        "id": "idiom-92-q08",
+        "number": 8,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "We were terrified as the car slid towards the wall.",
+        "promptZh": "汽車滑向牆壁時，我們都非常害怕。",
+        "starter": "Our",
+        "answer": "Our hearts were in our mouths as the car slid towards the wall.",
+        "answerZh": "汽車滑向牆壁時，我們嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "Our hearts were in our mouths"
+      },
+      {
+        "id": "idiom-92-q09",
+        "number": 9,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Felix became extremely frightened when he heard footsteps behind him in the empty street.",
+        "promptZh": "費利克斯在空無一人的街上聽到身後有腳步聲時，感到極度害怕。",
+        "starter": "Felix’s",
+        "answer": "Felix’s heart was in his mouth when he heard footsteps behind him in the empty street.",
+        "answerZh": "費利克斯在空無一人的街上聽到身後有腳步聲時，嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "Felix’s heart was in his mouth"
+      },
+      {
+        "id": "idiom-92-q10",
+        "number": 10,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The spectators were extremely nervous during the skater’s final jump.",
+        "promptZh": "滑冰選手進行最後一跳時，觀眾都極度緊張。",
+        "starter": "The",
+        "answer": "The spectators had their hearts in their mouths during the skater’s final jump.",
+        "answerZh": "滑冰選手進行最後一跳時，觀眾都緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "had their hearts in their mouths"
+      },
+      {
+        "id": "idiom-92-q11",
+        "number": 11,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "I always become extremely nervous before the dentist calls my name.",
+        "promptZh": "牙醫叫我的名字前，我總是會變得極度緊張。",
+        "starter": "I",
+        "answer": "I always have my heart in my mouth before the dentist calls my name.",
+        "answerZh": "牙醫叫我的名字前，我總是緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "have my heart in my mouth"
+      },
+      {
+        "id": "idiom-92-q12",
+        "number": 12,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Grace becomes very frightened whenever her son climbs that tall tree.",
+        "promptZh": "每當格蕾絲的兒子爬上那棵高樹時，她都非常害怕。",
+        "starter": "Grace",
+        "answer": "Grace has her heart in her mouth whenever her son climbs that tall tree.",
+        "answerZh": "每當格蕾絲的兒子爬上那棵高樹時，她都嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "has her heart in her mouth"
+      },
+      {
+        "id": "idiom-92-q13",
+        "number": 13,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "We remained extremely worried and frightened until the missing child was found.",
+        "promptZh": "在失蹤兒童被找到前，我們一直既擔心又害怕。",
+        "starter": "We",
+        "answer": "We had our hearts in our mouths until the missing child was found.",
+        "answerZh": "在失蹤兒童被找到前，我們一直擔心得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "had our hearts in our mouths"
+      },
+      {
+        "id": "idiom-92-q14",
+        "number": 14,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The passengers had been extremely frightened for several minutes before the plane became steady again.",
+        "promptZh": "飛機重新恢復平穩前，乘客已經極度害怕了幾分鐘。",
+        "starter": "The",
+        "answer": "The passengers’ hearts had been in their mouths for several minutes before the plane became steady again.",
+        "answerZh": "飛機重新恢復平穩前，乘客已經提心吊膽了幾分鐘。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "passengers’ hearts had been in their mouths"
+      },
+      {
+        "id": "idiom-92-q15",
+        "number": 15,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "You may become extremely frightened if all the lights suddenly go out.",
+        "promptZh": "如果所有燈突然熄滅，你可能會感到極度害怕。",
+        "starter": "You",
+        "answer": "You may have your heart in your mouth if all the lights suddenly go out.",
+        "answerZh": "如果所有燈突然熄滅，你可能會嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "have your heart in your mouth"
+      },
+      {
+        "id": "idiom-92-q16",
+        "number": 16,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Henry will be extremely nervous as he waits for the judge’s decision.",
+        "promptZh": "亨利等候法官的決定時會極度緊張。",
+        "starter": "Henry’s",
+        "answer": "Henry’s heart will be in his mouth as he waits for the judge’s decision.",
+        "answerZh": "亨利等候法官的決定時，會緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "Henry’s heart will be in his mouth"
+      },
+      {
+        "id": "idiom-92-q17",
+        "number": 17,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The players waited for the final score feeling extremely nervous.",
+        "promptZh": "球員極度緊張地等候最後賽果。",
+        "starter": "With",
+        "answer": "With their hearts in their mouths, the players waited for the final score.",
+        "answerZh": "球員緊張得心也快要跳出來，等候最後賽果。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "their hearts in their mouths"
+      },
+      {
+        "id": "idiom-92-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The passengers sat in great fear as smoke came from the engine.",
+        "promptZh": "引擎冒煙時，乘客非常害怕地坐着。",
+        "starter": "The",
+        "answer": "The passengers sat with their hearts in their mouths as smoke came from the engine.",
+        "answerZh": "引擎冒煙時，乘客提心吊膽地坐着。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "their hearts in their mouths"
+      },
+      {
+        "id": "idiom-92-q19",
+        "number": 19,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Nora was extremely frightened as she slowly opened the door.",
+        "promptZh": "諾拉慢慢打開門時極度害怕。",
+        "starter": "Her",
+        "answer": "Her heart in her mouth, Nora slowly opened the door.",
+        "answerZh": "諾拉嚇得心也快要跳出來，慢慢打開了門。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "Her heart in her mouth"
+      },
+      {
+        "id": "idiom-92-q20",
+        "number": 20,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Everyone experienced a moment of extreme fear when the baby nearly fell from the chair.",
+        "promptZh": "嬰兒差點從椅子上跌下來時，所有人都經歷了極度驚恐的一刻。",
+        "starter": "It",
+        "answer": "It was a heart-in-your-mouth moment when the baby nearly fell from the chair.",
+        "answerZh": "嬰兒差點從椅子上跌下來時，真是令人心驚膽戰的一刻。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "heart-in-your-mouth"
+      },
+      {
+        "id": "idiom-92-q21",
+        "number": 21,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Did you feel calm before your speech? B: No. I was extremely nervous before I began.",
+        "promptZh": "甲：你演講前感到平靜嗎？ 乙：不。我開始前極度緊張。",
+        "starter": "No.",
+        "answer": "No. I had my heart in my mouth before I began my speech.",
+        "answerZh": "不。我開始演講前緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "had my heart in my mouth"
+      },
+      {
+        "id": "idiom-92-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Why are you shaking? B: A car nearly hit the cyclist in front of me.",
+        "promptZh": "甲：你為甚麼在發抖？ 乙：一輛汽車剛才差點撞到我前面的單車手。",
+        "starter": "My",
+        "answer": "My heart was in my mouth when the car nearly hit the cyclist in front of me.",
+        "answerZh": "那輛汽車差點撞到我前面的單車手時，我嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "My heart was in my mouth"
+      },
+      {
+        "id": "idiom-92-q23",
+        "number": 23,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Aaron had accidentally sent a private message to his manager. He was extremely nervous as he checked whether it had been opened.",
+        "promptZh": "亞倫不小心把私人訊息傳給了經理。他查看訊息是否已被打開時極度緊張。",
+        "starter": "With",
+        "answer": "With his heart in his mouth, Aaron checked whether the private message to his manager had been opened.",
+        "answerZh": "亞倫緊張得心也快要跳出來，查看誤傳給經理的私人訊息是否已被打開。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "his heart in his mouth"
+      },
+      {
+        "id": "idiom-92-q24",
+        "number": 24,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The football fans watched in extreme nervousness as the ball flew towards the empty goal.",
+        "promptZh": "足球飛向空門時，球迷極度緊張地觀看。",
+        "starter": "The",
+        "answer": "The football fans had their hearts in their mouths as the ball flew towards the empty goal.",
+        "answerZh": "足球飛向空門時，球迷都緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "had their hearts in their mouths"
+      },
+      {
+        "id": "idiom-92-q25",
+        "number": 25,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Were you extremely nervous while you waited for the doctor to call?",
+        "promptZh": "你等候醫生來電時是否極度緊張？",
+        "starter": "Was",
+        "answer": "Was your heart in your mouth while you waited for the doctor to call?",
+        "answerZh": "你等候醫生來電時，是否緊張得心也快要跳出來？",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "your heart in your mouth"
+      },
+      {
+        "id": "idiom-92-q26",
+        "number": 26,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "I would be extremely frightened if I had to walk across that narrow bridge.",
+        "promptZh": "如果我要走過那條狹窄的橋，我會極度害怕。",
+        "starter": "I",
+        "answer": "I would have my heart in my mouth if I had to walk across that narrow bridge.",
+        "answerZh": "如果我要走過那條狹窄的橋，我會嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "have my heart in my mouth"
+      },
+      {
+        "id": "idiom-92-q27",
+        "number": 27,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Before Sara knew that the child was safe, she had been extremely frightened.",
+        "promptZh": "莎拉知道孩子安全之前，一直極度害怕。",
+        "starter": "Sara’s",
+        "answer": "Sara’s heart had been in her mouth before she knew that the child was safe.",
+        "answerZh": "莎拉知道孩子安全之前，一直擔心得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "Sara’s heart had been in her mouth"
+      },
+      {
+        "id": "idiom-92-q28",
+        "number": 28,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The sudden drop on the ride gave everyone a moment of extreme fear.",
+        "promptZh": "機動遊戲突然下降，令所有人經歷了極度驚恐的一刻。",
+        "starter": "The",
+        "answer": "The sudden drop on the ride gave everyone a heart-in-your-mouth moment.",
+        "answerZh": "機動遊戲突然下降，令所有人經歷了心驚膽戰的一刻。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "heart-in-your-mouth"
+      },
+      {
+        "id": "idiom-92-q29",
+        "number": 29,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: How did you feel while the police officer checked your bag? B: I was extremely nervous, although I knew I had done nothing wrong.",
+        "promptZh": "甲：警員檢查你的袋時，你感覺如何？ 乙：雖然我知道自己沒有做錯事，但仍然極度緊張。",
+        "starter": "I",
+        "answer": "I had my heart in my mouth while the police officer checked my bag, although I knew I had done nothing wrong.",
+        "answerZh": "警員檢查我的袋時，雖然我知道自己沒有做錯事，但仍然緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "had my heart in my mouth"
+      },
+      {
+        "id": "idiom-92-q30",
+        "number": 30,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "I was extremely nervous as I pressed “send” on the email addressed to the whole company.",
+        "promptZh": "我按下「傳送」，把電郵寄給全公司時極度緊張。",
+        "starter": "With",
+        "answer": "With my heart in my mouth, I pressed “send” on the email addressed to the whole company.",
+        "answerZh": "我緊張得心也快要跳出來，按下「傳送」，把電郵寄給全公司。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "my heart in my mouth"
+      },
+      {
+        "id": "idiom-92-q31",
+        "number": 31,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Although the nurse spoke calmly, she was extremely nervous as she waited for the test result.",
+        "promptZh": "雖然護士說話冷靜，但她等候檢查結果時極度緊張。",
+        "starter": "Although",
+        "answer": "Although the nurse spoke calmly, her heart was in her mouth as she waited for the test result.",
+        "answerZh": "雖然護士說話冷靜，但她等候檢查結果時，緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "her heart was in her mouth"
+      },
+      {
+        "id": "idiom-92-q32",
+        "number": 32,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Because the road was covered in ice, we were terrified as we drove down the hill.",
+        "promptZh": "由於路面結冰，我們駕車下山時非常害怕。",
+        "starter": "Because",
+        "answer": "Because the road was covered in ice, we drove down the hill with our hearts in our mouths.",
+        "answerZh": "由於路面結冰，我們駕車下山時都提心吊膽。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "our hearts in our mouths"
+      },
+      {
+        "id": "idiom-92-q33",
+        "number": 33,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The children remained extremely worried and frightened until the lost puppy came out from under the car.",
+        "promptZh": "在走失的小狗從車底走出來前，孩子們一直既擔心又害怕。",
+        "starter": "The",
+        "answer": "The children had their hearts in their mouths until the lost puppy came out from under the car.",
+        "answerZh": "在走失的小狗從車底走出來前，孩子們一直擔心得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "had their hearts in their mouths"
+      },
+      {
+        "id": "idiom-92-q34",
+        "number": 34,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "As the goalkeeper reached for the ball, every fan became extremely nervous.",
+        "promptZh": "守門員伸手接球時，每名球迷都變得極度緊張。",
+        "starter": "As",
+        "answer": "As the goalkeeper reached for the ball, every fan had their heart in their mouth.",
+        "answerZh": "守門員伸手接球時，每名球迷都緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "had their heart in their mouth"
+      },
+      {
+        "id": "idiom-92-q35",
+        "number": 35,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Theo had found a customer’s wallet. He was very nervous as he returned it because the customer looked angry.",
+        "promptZh": "西奧撿到一名顧客的銀包。由於顧客看來很生氣，他歸還銀包時非常緊張。",
+        "starter": "His",
+        "answer": "His heart in his mouth, Theo returned the wallet to the angry customer.",
+        "answerZh": "西奧緊張得心也快要跳出來，把銀包歸還給那名生氣的顧客。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "His heart in his mouth"
+      },
+      {
+        "id": "idiom-92-q36",
+        "number": 36,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "I knew the alarm was probably only a test, but I was still extremely frightened.",
+        "promptZh": "我知道警報大概只是測試，但仍然極度害怕。",
+        "starter": "I",
+        "answer": "I had my heart in my mouth even though I knew the alarm was probably only a test.",
+        "answerZh": "即使我知道警報大概只是測試，仍然嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "had my heart in my mouth"
+      },
+      {
+        "id": "idiom-92-q37",
+        "number": 37,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Everyone watching felt a sudden moment of extreme fear during the climber’s final step.",
+        "promptZh": "攀山者踏出最後一步時，所有觀看的人都突然感到極度驚恐。",
+        "starter": "The",
+        "answer": "The climber’s final step was a real heart-in-your-mouth moment for everyone watching.",
+        "answerZh": "攀山者踏出的最後一步，令所有觀看的人都心驚膽戰。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "heart-in-your-mouth"
+      },
+      {
+        "id": "idiom-92-q38",
+        "number": 38,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "If the race stays this close, watching it may remain extremely tense and frightening.",
+        "promptZh": "如果賽事一直如此接近，觀看過程可能會持續令人極度緊張和害怕。",
+        "starter": "It",
+        "answer": "It may remain heart-in-your-mouth viewing if the race stays this close.",
+        "answerZh": "如果賽事一直如此接近，觀看過程可能會持續令人心驚膽戰。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "heart-in-your-mouth"
+      },
+      {
+        "id": "idiom-92-q39",
+        "number": 39,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The result was still unknown, so both teams waited in extreme nervousness.",
+        "promptZh": "賽果仍未公布，因此兩隊都極度緊張地等候。",
+        "starter": "With",
+        "answer": "With the result still unknown, both teams waited with their hearts in their mouths.",
+        "answerZh": "由於賽果仍未公布，兩隊都提心吊膽地等候。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "their hearts in their mouths"
+      },
+      {
+        "id": "idiom-92-q40",
+        "number": 40,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The train suddenly stopped between stations, and I immediately became extremely frightened.",
+        "promptZh": "列車突然停在兩個車站之間，我立即變得極度害怕。",
+        "starter": "The",
+        "answer": "The moment the train stopped between stations, my heart was in my mouth.",
+        "answerZh": "列車停在兩個車站之間的一刻，我嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "my heart was in my mouth"
+      },
+      {
+        "id": "idiom-92-q41",
+        "number": 41,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "I had been extremely nervous for several minutes before the officer finally opened the bag.",
+        "promptZh": "警員終於打開袋之前，我已經極度緊張了幾分鐘。",
+        "starter": "My",
+        "answer": "My heart had been in my mouth for several minutes before the officer finally opened the bag.",
+        "answerZh": "警員終於打開袋之前，我已經提心吊膽了幾分鐘。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "My heart had been in my mouth"
+      },
+      {
+        "id": "idiom-92-q42",
+        "number": 42,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "If the rope begins to move again, the people below will become extremely frightened.",
+        "promptZh": "如果繩索再次移動，下面的人會變得極度害怕。",
+        "starter": "If",
+        "answer": "If the rope begins to move again, the people below will have their hearts in their mouths.",
+        "answerZh": "如果繩索再次移動，下面的人會嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "have their hearts in their mouths"
+      },
+      {
+        "id": "idiom-92-q43",
+        "number": 43,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The driver was extremely frightened but kept going because there was nowhere safe to stop.",
+        "promptZh": "司機極度害怕，但由於沒有安全地方可以停車，仍然繼續前進。",
+        "starter": "The",
+        "answer": "The driver kept going, his heart in his mouth, because there was nowhere safe to stop.",
+        "answerZh": "司機提心吊膽地繼續前進，因為沒有安全地方可以停車。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "his heart in his mouth"
+      },
+      {
+        "id": "idiom-92-q44",
+        "number": 44,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "No one spoke as the final number was called because we were all extremely nervous.",
+        "promptZh": "最後一個號碼被讀出時，沒有人說話，因為我們全都極度緊張。",
+        "starter": "No",
+        "answer": "No one spoke as the final number was called; our hearts were in our mouths.",
+        "answerZh": "最後一個號碼被讀出時，沒有人說話；我們全都緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "our hearts were in our mouths"
+      },
+      {
+        "id": "idiom-92-q45",
+        "number": 45,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: The runner won by less than a second. B: Yes, the ending was extremely tense and exciting!",
+        "promptZh": "甲：那名跑手以不足一秒之差勝出。 乙：是的，結局實在極度緊張刺激！",
+        "starter": "What",
+        "answer": "What a heart-in-your-mouth finish that was!",
+        "answerZh": "那真是一個令人心驚膽戰的結局！",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "heart-in-your-mouth"
+      },
+      {
+        "id": "idiom-92-q46",
+        "number": 46,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The parents watched in extreme fear while the firefighters reached the child at the window.",
+        "promptZh": "消防員接近窗邊的孩子時，父母極度害怕地看着。",
+        "starter": "The",
+        "answer": "The parents watched with their hearts in their mouths while the firefighters reached the child at the window.",
+        "answerZh": "消防員接近窗邊的孩子時，父母提心吊膽地看着。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "their hearts in their mouths"
+      },
+      {
+        "id": "idiom-92-q47",
+        "number": 47,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "I remained extremely nervous until the teacher said that another student had been chosen.",
+        "promptZh": "直至老師表示已選了另一名學生，我才不再極度緊張。",
+        "starter": "My",
+        "answer": "My heart was in my mouth until the teacher said that another student had been chosen.",
+        "answerZh": "直至老師表示已選了另一名學生，我一直緊張得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "My heart was in my mouth"
+      },
+      {
+        "id": "idiom-92-q48",
+        "number": 48,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Ben waited outside the office feeling extremely nervous and tried to remember exactly what he had said.",
+        "promptZh": "本極度緊張地在辦公室外等候，並嘗試記起自己究竟說過甚麼。",
+        "starter": "Waiting",
+        "answer": "Waiting outside the office with his heart in his mouth, Ben tried to remember exactly what he had said.",
+        "answerZh": "本提心吊膽地在辦公室外等候，並嘗試記起自己究竟說過甚麼。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "his heart in his mouth"
+      },
+      {
+        "id": "idiom-92-q49",
+        "number": 49,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Even experienced passengers may become extremely frightened when a plane drops suddenly.",
+        "promptZh": "即使是經驗豐富的乘客，在飛機突然下降時也可能會感到極度害怕。",
+        "starter": "Even",
+        "answer": "Even experienced passengers may have their hearts in their mouths when a plane drops suddenly.",
+        "answerZh": "即使是經驗豐富的乘客，在飛機突然下降時也可能會嚇得心也快要跳出來。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "have their hearts in their mouths"
+      },
+      {
+        "id": "idiom-92-q50",
+        "number": 50,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The spectators were extremely nervous as they watched the goalkeeper face the final shot, although their team needed only a draw.",
+        "promptZh": "雖然他們支持的球隊只需要賽和，但觀眾看着守門員面對最後一腳射門時仍然極度緊張。",
+        "starter": "Although",
+        "answer": "Although their team needed only a draw, the spectators watched the goalkeeper face the final shot with their hearts in their mouths.",
+        "answerZh": "雖然他們支持的球隊只需要賽和，但觀眾仍提心吊膽地看着守門員面對最後一腳射門。",
+        "targetForm": "have one’s heart in one’s mouth",
+        "targetMeaning": "To have your heart in your mouth means to feel extremely nervous or frightened, especially while facing danger, waiting for an important result or watching something whose outcome is uncertain.",
+        "highlight": "their hearts in their mouths"
+      }
+    ]
+  }
+}

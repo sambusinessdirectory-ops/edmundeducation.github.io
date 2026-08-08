@@ -1,0 +1,1584 @@
+{
+  "lesson": {
+    "id": "idiom-97",
+    "order": 97,
+    "slug": "back-to-square-one",
+    "version": "1",
+    "title": "回到原點／回到起點",
+    "titleEn": "back to square one",
+    "titleZh": "回到原點／回到起點",
+    "source": {
+      "file": "Idiom 97 - back to square one.pdf",
+      "pageCount": 31,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "exercisePdfPages": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "answerKeyPdfPages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "back to square one",
+        "highlight": "back to square one"
+      }
+    ],
+    "examples": [
+      {
+        "en": "We are back to square one.",
+        "zh": "我們回到原點了。",
+        "highlight": "back to square one"
+      },
+      {
+        "en": "The team was back to square one.",
+        "zh": "團隊回到了起點。",
+        "highlight": "back to square one"
+      }
+    ],
+    "meaning": {
+      "en": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+      "zh": "如果某人或某件事 back to square one，意思是之前的嘗試失敗了，或先前的進展已經失去，因此必須回到起點重新開始。",
+      "naturalZh": [
+        "回到原點",
+        "回到起點",
+        "重新從頭開始",
+        "一切從頭再來",
+        "之前的努力付諸流水，只好重新開始"
+      ]
+    },
+    "register": {
+      "labelEn": "Formal",
+      "labelZh": "正式",
+      "summaryEn": "frustration; disappointment; resignation; warning; determination to begin again.",
+      "summaryZh": "它可以表達挫折、失望、無奈、警告，或重新開始的決心。",
+      "contextsEn": [
+        "frustration",
+        "disappointment",
+        "resignation",
+        "warning",
+        "determination to begin again",
+        "back to the square one",
+        "back square one",
+        "back to first square",
+        "back to square first",
+        "back to the one square",
+        "back at square one",
+        "from square one"
+      ],
+      "contextsZh": [],
+      "formalEn": "In highly formal legal, technical or academic writing, expressions such as return to the starting point, restart the process or begin the work again may sometimes be clearer.",
+      "formalZh": "這四個字必須按照原有次序使用。"
+    },
+    "fixedVariable": {
+      "fixed": "back to square one",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + back to square one.",
+          "example": "We are back to square one.",
+          "highlight": "back to square one"
+        },
+        {
+          "form": "Subject + go + back to square one.",
+          "example": "We had to go back to square one.",
+          "highlight": "back to square one"
+        },
+        {
+          "form": "Cause + send / put / take / bring + object + back to square one.",
+          "example": "The missing file put us back to square one.",
+          "highlight": "back to square one"
+        },
+        {
+          "form": "Subject + mean / risk / avoid + going back to square one.",
+          "example": "Changing the date would mean going back to square one.",
+          "highlight": "back to square one"
+        },
+        {
+          "form": "Subject + find + reflexive pronoun + back to square one.",
+          "example": "The family found itself back to square one.",
+          "highlight": "back to square one"
+        },
+        {
+          "form": "Back to square one + subject + go.",
+          "example": "Back to square one we go.",
+          "highlight": "Back to square one"
+        },
+        {
+          "form": "Subject + be not + back to square one.",
+          "example": "The project is not back to square one; only one part needs changing.",
+          "highlight": "back to square one"
+        },
+        {
+          "form": "back to square one",
+          "example": "We are back to square one.",
+          "highlight": "back to square one"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “Be”",
+        "titleZh": "句式一：配合 be",
+        "formula": "Subject + be + back to square one.",
+        "descriptionEn": "This is one of the most common forms. The form of be changes according to the subject and time.",
+        "descriptionZh": "這是最常見的句式之一。 be 的形式需要按照主語及時間改變。",
+        "examples": [
+          {
+            "en": "We are back to square one.",
+            "zh": "我們回到原點了。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "The team was back to square one.",
+            "zh": "團隊回到了起點。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "If the plan fails, we will be back to square one.",
+            "zh": "如果計劃失敗，我們便會回到原點。",
+            "highlight": "back to square one"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After “Go”",
+        "titleZh": "句式二：配合 go",
+        "formula": "Subject + go + back to square one.",
+        "descriptionEn": "We could be back to square one if the test fails.",
+        "descriptionZh": "如果測試失敗，我們可能會回到原點。",
+        "examples": [
+          {
+            "en": "We had to go back to square one.",
+            "zh": "我們只好回到原點重新開始。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "The team may have to go back to square one.",
+            "zh": "團隊可能需要重新從頭開始。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "Nobody wants to go back to square one.",
+            "zh": "沒有人希望回到起點重新開始。",
+            "highlight": "back to square one"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "With a Causative Verb",
+        "titleZh": "句式四：配合使役動詞",
+        "formula": "Cause + send / put / take / bring + object + back to square one.",
+        "descriptionEn": "It is back to square one for the planning team.",
+        "descriptionZh": "規劃團隊只好重新從頭開始。",
+        "examples": [
+          {
+            "en": "The missing file put us back to square one.",
+            "zh": "遺失的檔案令我們回到原點。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "The rejection sent the team back to square one.",
+            "zh": "這次拒絕令團隊回到起點。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "The new rule may take the builders back to square one.",
+            "zh": "新規則可能會令建築團隊重新從頭開始。",
+            "highlight": "back to square one"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Mean”, “Risk” or “Avoid”",
+        "titleZh": "句式六：配合 mean、risk 或 avoid",
+        "formula": "Subject + mean / risk / avoid + going back to square one.",
+        "descriptionEn": "Going is required because mean, risk and avoid are followed here by a gerund phrase.",
+        "descriptionZh": "這些句子中的 mean、risk 和 avoid 後面接動名詞短語，因此使用 going。",
+        "examples": [
+          {
+            "en": "Changing the date would mean going back to square one.",
+            "zh": "更改日期意味著一切要重新開始。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "We could risk going back to square one.",
+            "zh": "我們可能會冒著前功盡棄的風險。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "Saving a copy helped us avoid going back to square one.",
+            "zh": "儲存副本令我們不致回到原點。",
+            "highlight": "back to square one"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With “Find Oneself”",
+        "titleZh": "句式七：配合 find oneself",
+        "formula": "Subject + find + reflexive pronoun + back to square one.",
+        "descriptionEn": "Source grammar frame: Subject + find + reflexive pronoun + back to square one.",
+        "descriptionZh": "原檔列出的句法框架：Subject + find + reflexive pronoun + back to square one。",
+        "examples": [
+          {
+            "en": "The family found itself back to square one.",
+            "zh": "這個家庭發現自己又回到了起點。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "We found ourselves back to square one.",
+            "zh": "我們發現自己又回到了原點。",
+            "highlight": "back to square one"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "As a Marked Conversational Opening",
+        "titleZh": "句式八：作為帶有強調作用的口語開首",
+        "formula": "Back to square one + subject + go.",
+        "descriptionEn": "This is a marked and slightly dramatic conversational form. It is useful for expressing resignation or frustration but should not dominate the exercise.",
+        "descriptionZh": "這是一個帶有強調及少許戲劇性的口語句式，常用來表達無奈或挫折，但不應在練習中過度使用。",
+        "examples": [
+          {
+            "en": "Back to square one we go.",
+            "zh": "我們又要回到原點了。",
+            "highlight": "Back to square one"
+          },
+          {
+            "en": "Back to square one the team goes.",
+            "zh": "團隊又要重新從頭開始了。",
+            "highlight": "Back to square one"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Negative Form",
+        "titleZh": "句式九：否定形式",
+        "formula": "Subject + be not + back to square one.",
+        "descriptionEn": "Not every error destroys all progress. The negative form helps learners distinguish a full restart from a limited correction.",
+        "descriptionZh": "並非每個錯誤都會令所有進展消失。 否定形式有助學生區分「完全重做」與「局部修改」。",
+        "examples": [
+          {
+            "en": "The project is not back to square one; only one part needs changing.",
+            "zh": "這個項目並非回到原點；只有一個部分需要修改。",
+            "highlight": "back to square one"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Optional Context Extensions",
+        "titleZh": "句式十：選擇性情境延伸",
+        "formula": "back to square one",
+        "descriptionEn": "Both sentences are grammatically complete. The extension merely identifies the affected process or explains the cause.",
+        "descriptionZh": "兩個句子在文法上都完整。 延伸部分只是指出受影響的過程或解釋原因，並不是固定慣用語的一部分。",
+        "examples": [
+          {
+            "en": "We are back to square one.",
+            "zh": "我們回到原點了。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "We are back to square one with the app because the test failed.",
+            "zh": "由於測試失敗，我們的應用程式工作回到原點。",
+            "highlight": "back to square one"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "濃縮較長的解釋",
+        "en": "The idiom expresses failure, lost progress and the need to restart in one compact phrase.",
+        "zh": "這個計劃令我們回到原點。 這個慣用語把失敗、失去進展和需要重做三個意思濃縮在一個簡潔的表達之中。",
+        "examples": [
+          {
+            "en": "We are back to square one with the plan.",
+            "zh": "這個計劃令我們回到原點。",
+            "highlight": "back to square one"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Clearly Shows the Size of a Setback",
+        "titleZh": "清楚顯示挫折的嚴重程度",
+        "en": "We need to change one part of the design.",
+        "zh": "我們需要修改設計的一個部分。 這個設計令我們回到原點。",
+        "examples": [
+          {
+            "en": "We are back to square one with the design.",
+            "zh": "這個設計令我們回到原點。",
+            "highlight": "back to square one"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Expresses Frustration Naturally",
+        "titleZh": "自然表達挫折",
+        "en": "It Expresses Frustration Naturally",
+        "zh": "現在我們又回到原點了。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Explains Cause and Result Efficiently",
+        "titleZh": "有效說明原因與結果",
+        "en": "It Explains Cause and Result Efficiently",
+        "zh": "遺失的檔案令我們回到原點。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful for Warnings and Predictions",
+        "titleZh": "適合提出警告及預測",
+        "en": "It Is Useful for Warnings and Predictions",
+        "zh": "如果我們不儲存副本，一次電腦故障便可能令我們回到原點。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Helps Learners Distinguish Restarting from Revising",
+        "titleZh": "協助學生區分重做與修改",
+        "en": "It Helps Learners Distinguish Restarting from Revising",
+        "zh": "並非每個問題都表示要回到原點。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Uncertain; Early Board-Game Connection",
+      "statusZh": "確切來源不明；早期記錄與棋盤遊戲有關",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The exact origin has not been proved. A widely cited early written example appeared in a 1952 review in The Economic Journal. The writer compared a reader repeatedly losing progress with being returned to square one in a game of snakes and ladders. This is strong early evidence of a board-game association, but it does not prove that one particular game created the expression. 證實。一個經常被引用的早期書面例子出現在1952年的《經濟學期刊》書評中。作者 把讀者反覆失去進展的情況,比作在蛇梯棋中被送回第一格。這是表達與棋盤遊戲有關的有力早 期證據,但不能證明它一定由某一種遊戲創造。",
+          "zh": "另一種說法"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Whether the image came from a particular board game or developed more generally from numbered squares, the logic is clear: progress has been made, something sends the person back to the first position, and the journey must begin again.",
+          "zh": "不論這個畫面來自某一種棋盤遊戲，還是由編號方格的一般概念逐漸形成，當中的邏輯都十分清楚：一個人原本已取得進展，但某件事令他回到第一個位置，整個過程只好重新開始。"
+        }
+      ],
+      "memoryEn": "You moved across the board, but one setback sent you back to the first square.",
+      "memoryZh": "你原本已在棋盤上向前移動，但一次挫折把你送回第一格。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Earlier Progress Must Have Existed",
+        "titleZh": "規則一：之前必須已有進展",
+        "en": "Earlier Progress Must Have Existed",
+        "zh": "我們幾乎完成了報告，但檔案被刪除了。 我們回到了原點。 今天是我們第一天開始報告，所以我們回到了原點。",
+        "examples": [
+          {
+            "en": "We had nearly finished the report, but the file was deleted. We are back to square one.",
+            "zh": "我們幾乎完成了報告，但檔案被刪除了。我們回到了原點。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "Today is our first day on the report, so we are back to square one.",
+            "zh": "今天是我們第一天開始報告，所以我們回到了原點。",
+            "highlight": "back to square one"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "The Setback Must Be Major Enough",
+        "titleZh": "規則二：挫折必須嚴重得足以令工作重做",
+        "en": "Every page of the report was lost. One comma in the report is wrong.",
+        "zh": "報告的每一頁都遺失了。 團隊回到原點了。 報告中有一個逗號用錯了。",
+        "examples": [
+          {
+            "en": "The team is back to square one.",
+            "zh": "團隊回到原點了。",
+            "highlight": "back to square one"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則三：保留時態及確定程度",
+        "en": "Do not change could put into put. That would turn a possibility into a completed fact.",
+        "zh": "新規則可能令我們回到原點。 不要把 could put 改成 put，否則會把可能性變成已發生的事實。",
+        "examples": [
+          {
+            "en": "The new rule could put us back to square one.",
+            "zh": "新規則可能令我們回到原點。",
+            "highlight": "back to square one"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve the Affected Process",
+        "titleZh": "規則四：保留受影響的過程",
+        "en": "The family lost its only hotel booking and had to begin its search again.",
+        "zh": "這個家庭失去了唯一的酒店預訂，因此必須重新尋找酒店。 這個家庭回到了原點。 這個家庭尋找酒店的工作回到了原點。",
+        "examples": [
+          {
+            "en": "The family was back to square one.",
+            "zh": "這個家庭回到了原點。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "The family was back to square one in its search for a hotel.",
+            "zh": "這個家庭尋找酒店的工作回到了原點。",
+            "highlight": "back to square one"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Repeat the Meaning",
+        "titleZh": "規則五：不要重複慣用語已表達的意思",
+        "en": "Do Not Repeat the Meaning",
+        "zh": "我們回到原點，所以必須把一切重新從頭開始。 這個項目令我們回到原點。",
+        "examples": [
+          {
+            "en": "We are back to square one, so we have to begin everything again from the beginning.",
+            "zh": "我們回到原點，所以必須把一切重新從頭開始。",
+            "highlight": "back to square one"
+          },
+          {
+            "en": "We are back to square one with the project.",
+            "zh": "這個項目令我們回到原點。",
+            "highlight": "back to square one"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Keep “Square One” Singular",
+        "titleZh": "規則六：square one 必須使用單數",
+        "en": "Keep “Square One” Singular",
+        "zh": "square one 必須使用單數",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Insert an Article",
+        "titleZh": "規則七：不要加入冠詞",
+        "en": "Do Not Insert an Article",
+        "zh": "不要加入冠詞",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "“From Square One” Is Different",
+        "titleZh": "規則八：from square one 的意思不同",
+        "en": "We built the website from square one. This says that the work began from the earliest stage. It does not necessarily say that an earlier attempt failed.",
+        "zh": "我們從頭建立這個網站。 這表示工作由最初階段開始，未必表示先前的嘗試失敗。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "“Back at Square One” Is Not This Exercise’s Target",
+        "titleZh": "規則九",
+        "en": "Back at square one is used naturally in English, but this set trains one exact target. Do not replace to with at in the answers.",
+        "zh": "back at square one 不是本練習的目標 back at square one 在英語中屬於自然用法，但本練習只訓練一個確切形式。 答案中不可把 to 改成 at。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Modifiers Are Optional",
+        "titleZh": "規則十：程度副詞屬於選擇性成分",
+        "en": "The modifiers change the emphasis but are not part of the fixed target.",
+        "zh": "這些副詞會改變強調程度，但並不是固定表達的一部分。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Use It for the Same Process",
+        "titleZh": "規則十一：必須是同一個過程重新開始",
+        "en": "The first design failed, so we must redesign the same product. The first project ended successfully, and tomorrow we will begin a different project.",
+        "zh": "第一個設計失敗，因此我們必須重新設計同一件產品。 這件產品的設計工作回到原點。 第一個項目成功完成，明天我們會開始另一個項目。",
+        "examples": [
+          {
+            "en": "We are back to square one with the product.",
+            "zh": "這件產品的設計工作回到原點。",
+            "highlight": "back to square one"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Use It Naturally, Not for Every Restart",
+        "titleZh": "規則十二：自然使用，不是每次重新開始都適合",
+        "en": "Back to square one usually carries the idea of lost progress, failure or serious frustration. For a normal planned restart, start again or repeat may be more suitable.",
+        "zh": "back to square one 通常帶有失去進展、失敗或嚴重挫折的意思。 若只是按照計劃正常重做，使用 start again 或 repeat 可能更合適。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using back to square one.",
+      "zh": "使用 back to square one 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-97-q01",
+        "number": 1,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The final poster file was lost, so all our design work must begin again.",
+        "promptZh": "最後的海報檔案遺失了，因此我們所有設計工作都必須重新開始。",
+        "starter": "We",
+        "answer": "We are back to square one with the poster because the final file was lost.",
+        "answerZh": "由於最後的檔案遺失了，我們的海報設計工作回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q02",
+        "number": 2,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The birthday cake burned completely. The baker has to make the order again from the beginning.",
+        "promptZh": "生日蛋糕完全燒焦了。糕餅師傅必須從頭重新製作這張訂單。",
+        "starter": "The",
+        "answer": "The burned cake put the baker back to square one with the birthday order.",
+        "answerZh": "蛋糕燒焦了，令糕餅師傅在生日蛋糕訂單上回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q03",
+        "number": 3,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The class’s only bridge model broke and cannot be repaired, so the project must begin again.",
+        "promptZh": "全班唯一的橋樑模型損壞了，而且無法修理，因此整個項目必須重新開始。",
+        "starter": "The",
+        "answer": "The broken model sent the class back to square one on the bridge project.",
+        "answerZh": "損壞的模型令全班的橋樑項目回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q04",
+        "number": 4,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The driver was given the wrong address. The delivery process had to start again.",
+        "promptZh": "司機收到錯誤地址，送貨程序只好重新開始。",
+        "starter": "The",
+        "answer": "The wrong address meant going back to square one with the delivery.",
+        "answerZh": "錯誤地址意味著送貨工作需要重新從頭開始。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q05",
+        "number": 5,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The team had nearly finished painting the wall, but the rain washed away all the paint.",
+        "promptZh": "團隊幾乎完成了牆壁粉刷，但雨水把所有油漆沖走了。",
+        "starter": "After",
+        "answer": "After the rain washed away the paint, the team was back to square one with the wall.",
+        "answerZh": "雨水沖走油漆後，團隊的牆壁粉刷工作回到了原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q06",
+        "number": 6,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Amir’s form was rejected because an important page was missing. He must begin his application again.",
+        "promptZh": "阿米爾的表格因欠缺一頁重要文件而被拒絕。他必須重新辦理申請。",
+        "starter": "The",
+        "answer": "The rejected form forced Amir to go back to square one with his application.",
+        "answerZh": "被拒絕的表格迫使阿米爾重新從頭辦理申請。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q07",
+        "number": 7,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Grace lost all her speech notes and had no copy. She had to prepare the speech again from the beginning.",
+        "promptZh": "格蕾絲遺失了所有演講筆記，而且沒有副本。她只好從頭重新準備演講。",
+        "starter": "Losing",
+        "answer": "Losing the notes took Grace back to square one with her speech.",
+        "answerZh": "遺失筆記令格蕾絲的演講準備工作回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q08",
+        "number": 8,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "None of the group’s results can be used, so its search for the cause must begin again.",
+        "promptZh": "小組的所有結果都無法使用，因此尋找原因的工作必須重新開始。",
+        "starter": "Without",
+        "answer": "Without the key results, the group is back to square one in its search for the cause.",
+        "answerZh": "欠缺關鍵結果，小組尋找原因的工作回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q09",
+        "number": 9,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A power cut deleted all the students’ work on the computer task. They must restart it.",
+        "promptZh": "停電刪除了學生在電腦任務上的所有工作。他們必須重新開始。",
+        "starter": "The",
+        "answer": "The power cut put the students back to square one with the computer task.",
+        "answerZh": "停電令學生的電腦任務回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q10",
+        "number": 10,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The first repair did not work, so the bike shop must begin the job again.",
+        "promptZh": "第一次維修並不成功，因此單車店必須重新進行維修工作。",
+        "starter": "It",
+        "answer": "It is back to square one for the bike shop because the first repair failed.",
+        "answerZh": "由於第一次維修失敗，單車店只好重新從頭開始。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q11",
+        "number": 11,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The customer completely rejected the first logo, so we had to create a new design from the beginning.",
+        "promptZh": "顧客完全拒絕了第一個標誌，因此我們只好從頭設計一個新版本。",
+        "starter": "We",
+        "answer": "We had to go back to square one with the logo design when the customer rejected the first version.",
+        "answerZh": "顧客拒絕第一個版本後，我們只好從頭重新設計標誌。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q12",
+        "number": 12,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "If the new plan fails, all the work for the school fair will have to begin again.",
+        "promptZh": "如果新計劃失敗，學校嘉年華的所有籌備工作都必須重新開始。",
+        "starter": "If",
+        "answer": "If the new plan fails, we will be back to square one with the school fair.",
+        "answerZh": "如果新計劃失敗，學校嘉年華的籌備工作便會回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q13",
+        "number": 13,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Another missing page could make us restart the entire report.",
+        "promptZh": "再遺失一頁，便可能令我們需要從頭重做整份報告。",
+        "starter": "A",
+        "answer": "A second missing page could send us back to square one with the report.",
+        "answerZh": "再遺失一頁，便可能令我們的報告工作回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q14",
+        "number": 14,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The tool gave the science team useless results, so the entire water test had to begin again.",
+        "promptZh": "工具向科學小組提供了無用的結果，因此整個水質測試只好重新開始。",
+        "starter": "The",
+        "answer": "The science team found itself back to square one after the results of the water test proved useless.",
+        "answerZh": "水質測試的結果證實無法使用後，科學小組發現自己回到了原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q15",
+        "number": 15,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "If we change the date now, every invitation will have to be prepared again.",
+        "promptZh": "如果我們現在更改日期，每張邀請函都要重新準備。",
+        "starter": "Changing",
+        "answer": "Changing the date now would mean going back to square one with the invitations.",
+        "answerZh": "現在更改日期，意味著所有邀請函都要重新從頭準備。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q16",
+        "number": 16,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The teacher gave new instructions that made the class’s earlier work on the science project unusable.",
+        "promptZh": "老師發出了新指示，令全班先前在科學項目上的工作無法再使用。",
+        "starter": "The",
+        "answer": "The teacher’s new instructions put the class back to square one on the science project.",
+        "answerZh": "老師的新指示令全班的科學項目回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q17",
+        "number": 17,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "If the shop cannot make the chosen parts, we may need to redesign the model from the beginning.",
+        "promptZh": "如果店舖無法製造我們選擇的零件，我們可能需要從頭重新設計模型。",
+        "starter": "We",
+        "answer": "We may have to go back to square one with the model if the shop cannot make the parts we chose.",
+        "answerZh": "如果店舖無法製造我們選擇的零件，我們可能需要從頭重新設計模型。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q18",
+        "number": 18,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The hotel cancelled the family’s only booking, so they had to begin their search again.",
+        "promptZh": "酒店取消了這個家庭唯一的預訂，因此他們只好重新尋找酒店。",
+        "starter": "The",
+        "answer": "The lost booking has taken the family back to square one in their search for a hotel.",
+        "answerZh": "失去預訂令這個家庭尋找酒店的工作回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q19",
+        "number": 19,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "All the prepared food went bad when the fridge stopped working. The cooks had to begin the job again.",
+        "promptZh": "雪櫃停止運作後，所有已準備的食物都變壞了。廚師們只好重新開始工作。",
+        "starter": "It",
+        "answer": "It was back to square one for the cooks when all the food in the fridge went bad.",
+        "answerZh": "雪櫃內的食物全部變壞後，廚師們只好重新從頭開始。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q20",
+        "number": 20,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The survey answers were deleted and there was no copy, so the team lost all its progress.",
+        "promptZh": "問卷答案被刪除了，而且沒有副本，因此團隊失去了所有進展。",
+        "starter": "The",
+        "answer": "The deleted answers put the survey team right back to square one with their work.",
+        "answerZh": "被刪除的答案令問卷團隊的工作完全回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q21",
+        "number": 21,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: The hotel has cancelled our room, and every other place on our list is full. B: Then our search must begin again.",
+        "promptZh": "甲：酒店取消了我們的房間，而清單上的其他地方全部客滿。 乙：那麼，我們只好重新尋找住宿。",
+        "starter": "Then",
+        "answer": "Then we are back to square one with the room booking.",
+        "answerZh": "那麼，我們的房間預訂工作只好重新從頭開始。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q22",
+        "number": 22,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The computer deleted the entire event programme and there is no saved copy. We have to begin again.",
+        "promptZh": "電腦刪除了整份活動場刊，而且沒有已儲存的副本。我們必須重新開始。",
+        "starter": "Back",
+        "answer": "Back to square one we go: the computer has deleted the whole event programme.",
+        "answerZh": "我們又要回到原點了：電腦刪除了整份活動場刊。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "Back to square one"
+      },
+      {
+        "id": "idiom-97-q23",
+        "number": 23,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The event’s safety check showed that the whole plan could not work. The team must make a new plan from the beginning.",
+        "promptZh": "活動的安全檢查顯示整個計劃無法實行。團隊必須從頭制定新計劃。",
+        "starter": "The",
+        "answer": "The failed safety check has sent the event team back to square one with its plan.",
+        "answerZh": "未能通過的安全檢查令活動團隊的計劃回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q24",
+        "number": 24,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The team saved a copy of every file so that one computer problem would not destroy all its progress.",
+        "promptZh": "團隊為每個檔案儲存副本，以免一次電腦故障破壞所有進展。",
+        "starter": "Rather",
+        "answer": "Rather than risk going back to square one, the team saved a copy of every file.",
+        "answerZh": "團隊為每個檔案儲存副本，以免冒著一切重新從頭開始的風險。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q25",
+        "number": 25,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "We have lost the only price list. We must begin again when choosing where to buy the chairs.",
+        "promptZh": "我們遺失了唯一的價目表。在選擇到哪裏購買椅子時，我們必須重新開始。",
+        "starter": "The",
+        "answer": "The missing price list means we are back to square one in choosing where to buy the chairs.",
+        "answerZh": "遺失價目表意味著我們在選擇購買椅子的地方時回到了原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q26",
+        "number": 26,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "If today’s test shows that the booking system does not work, the hospital team will need to redesign it from the beginning.",
+        "promptZh": "如果今天的測試顯示預約系統無法運作，醫院團隊便需要從頭重新設計。",
+        "starter": "The",
+        "answer": "The hospital team will go back to square one with the booking system if today’s test fails.",
+        "answerZh": "如果今天的測試失敗，醫院團隊便要從頭重新設計預約系統。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q27",
+        "number": 27,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "One result is wrong, but the rest of the study is still useful. We do not need to begin the entire study again.",
+        "promptZh": "一項結果有誤，但研究的其他部分仍然有用。我們不需要從頭重做整項研究。",
+        "starter": "One",
+        "answer": "One bad result does not put the whole study back to square one.",
+        "answerZh": "一項錯誤結果不會令整項研究回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q28",
+        "number": 28,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The seller cancelled the deal after the family had stopped looking at other homes. The family had to begin its search again.",
+        "promptZh": "這個家庭停止尋找其他住所後，賣方取消了交易。這個家庭只好重新尋找住所。",
+        "starter": "The",
+        "answer": "The family found itself back to square one in its search for a home after the seller cancelled the deal.",
+        "answerZh": "賣方取消交易後，這個家庭發現尋找住所的工作回到了原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q29",
+        "number": 29,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "If the new evidence is false, the police may lose every useful lead and have to restart their search.",
+        "promptZh": "如果新證據是假的，警方可能會失去所有有用線索，並要重新展開搜索。",
+        "starter": "If",
+        "answer": "If the new evidence is false, the police could be back to square one in their search.",
+        "answerZh": "如果新證據是假的，警方的搜索工作可能會回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q30",
+        "number": 30,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Heavy rain destroyed every young plant in the garden project, so all the planting work had to begin again.",
+        "promptZh": "大雨摧毀了花園項目中的所有幼苗，因此所有種植工作都必須重新開始。",
+        "starter": "The",
+        "answer": "The rain brought the garden project back to square one by destroying all the young plants.",
+        "answerZh": "大雨摧毀了所有幼苗，令花園項目回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q31",
+        "number": 31,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Although the first idea looked promising, the trial showed that it could not clean the water. The team must design a new filter from the beginning.",
+        "promptZh": "雖然第一個想法看來很有希望，但測試顯示它無法把水潔淨。團隊必須從頭設計新的過濾器。",
+        "starter": "Although",
+        "answer": "Although the first idea looked promising, the failed trial put the team back to square one with the water filter.",
+        "answerZh": "雖然第一個想法看來很有希望，但失敗的測試令團隊的濾水器設計回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q32",
+        "number": 32,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The main actor left, and no replacement had been chosen. The school had to begin its search again.",
+        "promptZh": "主要演員離開了，而且尚未選出替代人選。學校只好重新尋找演員。",
+        "starter": "Because",
+        "answer": "Because the main actor left, the school was back to square one in its search for a replacement.",
+        "answerZh": "由於主要演員離開，學校尋找替代人選的工作回到了原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q33",
+        "number": 33,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "If we cannot recover the article draft, we will have to write it again from the beginning.",
+        "promptZh": "如果我們無法取回文章草稿，便必須從頭重新撰寫。",
+        "starter": "Unless",
+        "answer": "Unless we recover the draft, we will have to go back to square one with the article.",
+        "answerZh": "除非我們取回草稿，否則便要從頭重新撰寫文章。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q34",
+        "number": 34,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The service plan failed completely on the shop’s first busy day. The manager had to design it again from the beginning.",
+        "promptZh": "服務計劃在店舖第一個繁忙日子完全失敗。經理只好從頭重新設計。",
+        "starter": "The",
+        "answer": "The first busy day sent the manager back to square one with the shop’s service plan.",
+        "answerZh": "第一個繁忙工作日令經理的店舖服務計劃回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q35",
+        "number": 35,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: We planned to send every bus through Hill Street. B: Hill Street will be closed for six months, so we need a completely new route.",
+        "promptZh": "甲：我們原本計劃讓所有巴士駛經山道。 乙：山道將封閉六個月，因此我們需要一條全新的路線。",
+        "starter": "With",
+        "answer": "With the station closed, it is back to square one for the bus plan.",
+        "answerZh": "車站關閉後，巴士路線計劃只好重新從頭開始。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q36",
+        "number": 36,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A new building rule makes the main part of the design impossible. The builders may have to redesign everything.",
+        "promptZh": "新的建築規則令設計的主要部分無法實行。建築團隊可能需要重新設計一切。",
+        "starter": "The",
+        "answer": "The new rule may take the builders back to square one with the design.",
+        "answerZh": "新規則可能令建築團隊的設計工作回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q37",
+        "number": 37,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "We checked the measurements twice and found the mistake before cutting the wood. Therefore, we did not lose all our work on the shelves.",
+        "promptZh": "我們檢查了兩次尺寸，並在切割木材前發現錯誤。因此，我們沒有失去製作層架的所有工作。",
+        "starter": "By",
+        "answer": "By checking the measurements twice, we avoided going back to square one with the shelves.",
+        "answerZh": "我們檢查了兩次尺寸，避免層架製作工作回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q38",
+        "number": 38,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Only one small part of the project needs to be changed. The rest of the work is still useful.",
+        "promptZh": "項目只有一個小部分需要修改，其餘工作仍然有用。",
+        "starter": "The",
+        "answer": "The project is not back to square one; only one small part needs to be changed.",
+        "answerZh": "這個項目並非回到原點；只有一個小部分需要修改。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q39",
+        "number": 39,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The second sample was spoiled, and no usable samples remained. The science team had to restart the entire experiment.",
+        "promptZh": "第二個樣本受到破壞，而且再沒有可用樣本。科學小組只好重新進行整個實驗。",
+        "starter": "When",
+        "answer": "When the second sample was spoiled, the science team found itself back to square one in the experiment.",
+        "answerZh": "第二個樣本受到破壞後，科學小組發現實驗回到了原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q40",
+        "number": 40,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The two sides have almost reached an agreement. However, if the customer rejects the last change, all their earlier progress may be lost.",
+        "promptZh": "雙方幾乎已達成協議。不過，如果顧客拒絕最後一項改動，他們先前的所有進展都可能消失。",
+        "starter": "If",
+        "answer": "If the customer rejects the last change, we could be straight back to square one with the agreement.",
+        "answerZh": "如果顧客拒絕最後一項改動，我們的協議工作可能會立即回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q41",
+        "number": 41,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The city already has a bridge plan, but another large rise in cost may cause the whole plan to be cancelled and redesigned.",
+        "promptZh": "城市已有一個橋樑計劃，但成本再次大幅上升，可能會令整個計劃被取消並重新設計。",
+        "starter": "The",
+        "answer": "The city may be back to square one with the bridge plan if the cost rises again.",
+        "answerZh": "如果成本再次上升，城市的橋樑計劃可能會回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q42",
+        "number": 42,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The first design was rejected, but the team can improve it. It does not necessarily need to abandon everything and begin from nothing.",
+        "promptZh": "第一個設計被拒絕，但團隊可以作出改良。他們未必需要放棄一切，完全從頭開始。",
+        "starter": "Having",
+        "answer": "Having the first design rejected does not necessarily mean going back to square one; we can improve it.",
+        "answerZh": "第一個設計被拒絕，不一定表示要重新從頭開始；我們可以作出改良。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q43",
+        "number": 43,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Important records are missing, so the hospital team no longer knows what happened. Its work to find the cause must begin again.",
+        "promptZh": "重要記錄遺失了，因此醫院團隊再不知道發生了甚麼。尋找原因的工作必須重新開始。",
+        "starter": "The",
+        "answer": "The missing records have taken the hospital team all the way back to square one in finding out what happened.",
+        "answerZh": "遺失的記錄令醫院團隊在查明事件經過的工作上完全回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q44",
+        "number": 44,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The community garden team has identified two possible sites. If neither site becomes available, all its location planning will be lost.",
+        "promptZh": "共享花園團隊找到了兩個可能的地點。如果兩個地點都無法使用，所有選址工作便會失去。",
+        "starter": "If",
+        "answer": "If both possible sites become unavailable, it will be back to square one for the community garden.",
+        "answerZh": "如果兩個可能地點都無法使用，共享花園計劃便要重新從頭開始。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q45",
+        "number": 45,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The two sides had agreed on almost every price. One unclear sentence then caused both sides to withdraw everything they had accepted.",
+        "promptZh": "雙方幾乎已同意所有價格。其後，一句意思不清的句子令雙方撤回所有已接受的內容。",
+        "starter": "One",
+        "answer": "One unclear sentence brought both sides back to square one in their price talks.",
+        "answerZh": "一句意思不清的句子令雙方的價格商討回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q46",
+        "number": 46,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The app team tested every step before showing the product to customers. This prevented one serious error from destroying all its progress.",
+        "promptZh": "應用程式團隊在向顧客展示產品前測試了每個步驟，避免一次嚴重錯誤破壞所有進展。",
+        "starter": "To",
+        "answer": "To avoid being sent back to square one, the app team tested every step before showing the product to customers.",
+        "answerZh": "為免工作回到原點，應用程式團隊在向顧客展示產品前測試了每個步驟。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q47",
+        "number": 47,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The project has no backup copy. One computer problem could therefore erase every part of the team’s work.",
+        "promptZh": "這個項目沒有備份副本。因此，一次電腦故障便可能刪除團隊的所有工作。",
+        "starter": "Without",
+        "answer": "Without a backup copy, one computer problem could send the whole project back to square one.",
+        "answerZh": "如果沒有備份副本，一次電腦故障便可能令整個項目回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q48",
+        "number": 48,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The small first test was supposed to move the plan forward. Instead, it showed that the plan’s basic idea was wrong and that the entire plan had to be reconsidered.",
+        "promptZh": "這次小型初步測試原本應推動計劃向前。相反，它顯示計劃的基本構思有誤，整個計劃都需要重新考慮。",
+        "starter": "The",
+        "answer": "The small first test was meant to move the plan forward, but instead it put us back to square one with the plan.",
+        "answerZh": "小型初步測試原本應推動計劃向前，卻反而令整個計劃回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q49",
+        "number": 49,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The team spent three months on the building design. A sudden rule change has now made the entire design unusable.",
+        "promptZh": "團隊花了三個月處理建築設計。突然出現的規則改變令整個設計無法再使用。",
+        "starter": "After",
+        "answer": "After three months of work, the sudden rule change has taken the team back to square one with the building plan.",
+        "answerZh": "經過三個月的工作後，突然出現的規則改變令團隊的建築計劃回到原點。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      },
+      {
+        "id": "idiom-97-q50",
+        "number": 50,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The product team has nearly completed its design. If the final test shows that the chosen material is unsafe, the entire design will have to begin again.",
+        "promptZh": "產品團隊幾乎完成了設計。如果最後測試顯示所選材料不安全，整個設計便必須重新開始。",
+        "starter": "If",
+        "answer": "If the final test shows that the material is unsafe, back to square one we go with the product design.",
+        "answerZh": "如果最後測試顯示材料不安全，我們的產品設計便要回到原點重新開始。",
+        "targetForm": "back to square one",
+        "targetMeaning": "If someone or something is back to square one, an earlier attempt has failed or previous progress has been lost, so the work must begin again from the starting point.",
+        "highlight": "back to square one"
+      }
+    ]
+  }
+}

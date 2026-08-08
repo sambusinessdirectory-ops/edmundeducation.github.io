@@ -1,0 +1,1654 @@
+{
+  "lesson": {
+    "id": "idiom-128",
+    "order": 128,
+    "slug": "walk-on-air",
+    "version": "1",
+    "title": "欣喜若狂／興奮異常",
+    "titleEn": "walk on air",
+    "titleZh": "欣喜若狂／興奮異常",
+    "source": {
+      "file": "Idiom 128 - 「walk on air」.pdf",
+      "pageCount": 40,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "exercisePdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "answerKeyPdfPages": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "walk on air",
+        "highlight": "walk on air"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Grace walked on air for the rest of the day.",
+        "zh": "格蕾絲在當天餘下時間都欣喜若狂。",
+        "highlight": "walked on air"
+      },
+      {
+        "en": "He walks on air whenever one of his students succeeds.",
+        "zh": "每當有學生取得成功時，他都會欣喜若狂。",
+        "highlight": "walks on air"
+      }
+    ],
+    "meaning": {
+      "en": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+      "zh": "因為發生了美好的事情而感到極度高興、興奮或欣喜若狂。",
+      "naturalZh": [
+        "欣喜若狂",
+        "興奮異常",
+        "高興得飄飄然",
+        "開心得像要飛起來",
+        "心情輕快得像在空中漫步"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; personal messages; interviews; stories; informal articles; speeches about personal success; friendly workplace communication.",
+      "summaryZh": "walk on air 屬於非正式至中性語域，常見於日常對話、個人訊息、訪問、故事、非正式文章，以及談論個人成就的場合。",
+      "contextsEn": [
+        "everyday conversation",
+        "personal messages",
+        "interviews",
+        "stories",
+        "informal articles",
+        "speeches about personal success",
+        "friendly workplace communication"
+      ],
+      "contextsZh": [],
+      "formalEn": "In very formal reports, official notices or academic writing, extremely pleased, delighted or highly satisfied may sometimes be more suitable.",
+      "formalZh": "在非常正式的報告、官方公告或學術文章中，使用 extremely pleased、delighted 或 highly satisfied 有時會更合適。"
+    },
+    "fixedVariable": {
+      "fixed": "walk on air",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + walk(s) / walked on air.",
+          "example": "Grace walked on air for the rest of the day.",
+          "highlight": "walked on air"
+        },
+        {
+          "form": "Subject + be + walking on air.",
+          "example": "Ava is walking on air.",
+          "highlight": "walking on air"
+        },
+        {
+          "form": "Subject + has / have / had been walking on air.",
+          "example": "Leo has been walking on air since he received the good news.",
+          "highlight": "walking on air"
+        },
+        {
+          "form": "Subject + may / might / could / will / would + walk on air.",
+          "example": "The whole team will walk on air if they win.",
+          "highlight": "walk on air"
+        },
+        {
+          "form": "Subject + seem / appear + to be walking on air.",
+          "example": "Harper seems to be walking on air.",
+          "highlight": "walking on air"
+        },
+        {
+          "form": "Subject + say / admit / explain + that + subject + be walking on air.",
+          "example": "Nora said she was walking on air after the interview.",
+          "highlight": "walking on air"
+        },
+        {
+          "form": "Subject + feel + as if / as though + subject + be walking on air.",
+          "example": "Ken felt as if he were walking on air.",
+          "highlight": "walking on air"
+        },
+        {
+          "form": "Event + leave / have + person + walking on air.",
+          "example": "The news left Mrs Lee walking on air.",
+          "highlight": "walking on air"
+        },
+        {
+          "form": "Preposition + walking on air",
+          "example": "Nothing could stop us from walking on air.",
+          "highlight": "walking on air"
+        },
+        {
+          "form": "Walking on air, + subject + main action.",
+          "example": "Walking on air after receiving the offer, Lena called her parents.",
+          "highlight": "Walking on air"
+        },
+        {
+          "form": "Who would not be walking on air after receiving such good news?",
+          "example": "You must be walking on air, mustn’t you?",
+          "highlight": "walking on air"
+        },
+        {
+          "form": "If + condition, subject + will / would + walk on air.",
+          "example": "If the team wins, the players will walk on air.",
+          "highlight": "walk on air"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作為一般限定動詞短語",
+        "formula": "Subject + walk(s) / walked on air.",
+        "descriptionEn": "The simple past is natural when the sentence describes a completed period of great happiness. The simple present is possible for repeated situations, although the progressive form is generally more common for a current emotional state.",
+        "descriptionZh": "簡單過去式適合描述一段已經結束的極度喜悅。 簡單現在式可以用於反覆出現的情況，但描述目前的情緒狀態時，進行式通常更加常見。",
+        "examples": [
+          {
+            "en": "Grace walked on air for the rest of the day.",
+            "zh": "格蕾絲在當天餘下時間都欣喜若狂。",
+            "highlight": "walked on air"
+          },
+          {
+            "en": "He walks on air whenever one of his students succeeds.",
+            "zh": "每當有學生取得成功時，他都會欣喜若狂。",
+            "highlight": "walks on air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "In the Progressive Form",
+        "titleZh": "使用進行式",
+        "formula": "Subject + be + walking on air.",
+        "descriptionEn": "This is the most useful central pattern for learners.",
+        "descriptionZh": "這是學習者最值得掌握的核心句式。",
+        "examples": [
+          {
+            "en": "Ava is walking on air.",
+            "zh": "艾娃正高興得飄飄然。",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "Ryan was walking on air after the match.",
+            "zh": "賴恩在比賽後欣喜若狂。",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "They were all walking on air when the results were announced.",
+            "zh": "結果公布時，他們所有人都欣喜若狂。",
+            "highlight": "walking on air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "In the Perfect Progressive",
+        "titleZh": "使用完成進行式",
+        "formula": "Subject + has / have / had been walking on air.",
+        "descriptionEn": "The perfect progressive emphasises that the happiness began earlier and continued for a period of time.",
+        "descriptionZh": "完成進行式強調喜悅在較早時間開始，並持續了一段時間。",
+        "examples": [
+          {
+            "en": "Leo has been walking on air since he received the good news.",
+            "zh": "里奧自收到好消息後，一直高興得飄飄然。",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "The family had been walking on air all morning.",
+            "zh": "那一家人整個早上都欣喜若狂。",
+            "highlight": "walking on air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "用於情態動詞之後",
+        "formula": "Subject + may / might / could / will / would + walk on air.",
+        "descriptionEn": "may be walking on air must be walking on air will be walking on air would have been walking on air",
+        "descriptionZh": "情態動詞之後亦可以使用進行式：",
+        "examples": [
+          {
+            "en": "The whole team will walk on air if they win.",
+            "zh": "如果整支球隊勝出，所有人都會欣喜若狂。",
+            "highlight": "walk on air"
+          },
+          {
+            "en": "He could walk on air for a week if he got the role.",
+            "zh": "如果他獲得那個角色，可能會整整一星期都高興得飄飄然。",
+            "highlight": "walk on air"
+          },
+          {
+            "en": "She may still be walking on air tomorrow.",
+            "zh": "她明天可能仍然欣喜若狂。",
+            "highlight": "walking on air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After “Seem” or “Appear”",
+        "titleZh": "用於 seem 或 appear 之後",
+        "formula": "Subject + seem / appear + to be walking on air.",
+        "descriptionEn": "to walking on air ✗",
+        "descriptionZh": "不定式結構是：",
+        "examples": [
+          {
+            "en": "Harper seems to be walking on air.",
+            "zh": "哈珀看來欣喜若狂。",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "The players appeared to be walking on air after the victory.",
+            "zh": "球員們勝出後看來高興得飄飄然。",
+            "highlight": "walking on air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Inside a Reported Clause",
+        "titleZh": "用於轉述子句之中",
+        "formula": "Subject + say / admit / explain + that + subject + be walking on air.",
+        "descriptionEn": "The target expression is contained inside the reported message.",
+        "descriptionZh": "目標慣用語位於所轉述的內容之中。",
+        "examples": [
+          {
+            "en": "Nora said she was walking on air after the interview.",
+            "zh": "諾拉說她在面試後欣喜若狂。",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "The coach admitted that he had been walking on air for days.",
+            "zh": "教練承認自己一連數天都高興得飄飄然。",
+            "highlight": "walking on air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After “As If” or “As Though”",
+        "titleZh": "用於 as if 或 as though 之後",
+        "formula": "Subject + feel + as if / as though + subject + be walking on air.",
+        "descriptionEn": "In careful formal English, were may be used after as if for an imagined comparison. Was is also common in everyday English.",
+        "descriptionZh": "在較嚴謹的正式英語中，表示想像比較時，as if 後可以使用 were。 日常英語亦常使用 was。",
+        "examples": [
+          {
+            "en": "Ken felt as if he were walking on air.",
+            "zh": "肯感覺自己高興得像在空中漫步。",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "She felt as though she was walking on air.",
+            "zh": "她感覺自己高興得飄飄然。",
+            "highlight": "walking on air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "After Result Verbs such as “Leave” and “Have”",
+        "titleZh": "用於 leave 及 have 等結果動詞之後",
+        "formula": "Event + leave / have + person + walking on air.",
+        "descriptionEn": "Here, walking on air describes the emotional state produced by the event.",
+        "descriptionZh": "在這個句式中，walking on air 描述事件所造成的情緒狀態。",
+        "examples": [
+          {
+            "en": "The news left Mrs Lee walking on air.",
+            "zh": "這個消息令李太欣喜若狂。",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "The excellent result had the students walking on air.",
+            "zh": "優異成績令學生們高興得飄飄然。",
+            "highlight": "walking on air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "After a Preposition",
+        "titleZh": "用於介詞之後",
+        "formula": "Preposition + walking on air",
+        "descriptionEn": "After a preposition such as from, use walking, not walk.",
+        "descriptionZh": "在 from 等介詞之後，必須使用 walking，而不是 walk。",
+        "examples": [
+          {
+            "en": "Nothing could stop us from walking on air.",
+            "zh": "沒有任何事情能阻止我們欣喜若狂。",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "She could not hide the fact that she had gone from worrying to walking on air.",
+            "zh": "她無法掩飾自己已由擔憂變成欣喜若狂。",
+            "highlight": "walking on air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "As an Opening Participial Phrase",
+        "titleZh": "作為開首分詞短語",
+        "formula": "Walking on air, + subject + main action.",
+        "descriptionEn": "The person understood as walking on air must be the subject of the main clause.",
+        "descriptionZh": "被理解為 walking on air 的人，必須同時是主句的主語。",
+        "examples": [
+          {
+            "en": "Walking on air after receiving the offer, Lena called her parents.",
+            "zh": "莉娜收到取錄通知後欣喜若狂，立即致電父母。",
+            "highlight": "Walking on air"
+          },
+          {
+            "en": "Still walking on air, Aaron returned to work the next day.",
+            "zh": "亞倫仍然高興得飄飄然，翌日回到公司上班。",
+            "highlight": "walking on air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "In Questions and Rhetorical Questions",
+        "titleZh": "用於問句及反問句",
+        "formula": "Who would not be walking on air after receiving such good news?",
+        "descriptionEn": "Source grammar frame: Who would not be walking on air after receiving such good news?.",
+        "descriptionZh": "原檔列出的句法框架：Who would not be walking on air after receiving such good news?。",
+        "examples": [
+          {
+            "en": "You must be walking on air, mustn’t you?",
+            "zh": "你一定欣喜若狂，對吧？",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "Who would not be walking on air after receiving such good news?",
+            "zh": "收到這樣的好消息後，誰不會欣喜若狂呢？",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "How could she not be walking on air?",
+            "zh": "她怎可能不欣喜若狂？",
+            "highlight": "walking on air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "In Conditional Structures",
+        "titleZh": "用於條件句",
+        "formula": "If + condition, subject + will / would + walk on air.",
+        "descriptionEn": "The tense and level of certainty must match the original situation.",
+        "descriptionZh": "時態及確定程度必須與原有情況一致。",
+        "examples": [
+          {
+            "en": "If the team wins, the players will walk on air.",
+            "zh": "如果球隊勝出，球員們會欣喜若狂。",
+            "highlight": "walk on air"
+          },
+          {
+            "en": "Had she won the prize, she would have been walking on air for weeks.",
+            "zh": "假如她獲獎，她本來會一連數星期都欣喜若狂。",
+            "highlight": "walking on air"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Intense Happiness",
+        "titleZh": "表達極度喜悅",
+        "en": "The idiomatic version presents the happiness as powerful, light and almost physically uplifting.",
+        "zh": "慣用語版本把喜悅描寫得十分強烈，令人彷彿身體也變得輕盈。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Connects Good News with an Emotional Result",
+        "titleZh": "把好消息與情緒結果連繫起來",
+        "en": "The structure clearly connects one event with the emotional state it produced.",
+        "zh": "這個句式清楚連繫一件事情及其所造成的情緒狀態。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Show Continuing Happiness",
+        "titleZh": "表達持續的喜悅",
+        "en": "The perfect progressive makes it possible to show that the feeling continued beyond the original event.",
+        "zh": "完成進行式可以表示這份喜悅在事件發生後仍然持續。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful When Reacting to Good News",
+        "titleZh": "適合用來回應喜訊",
+        "en": "This is a natural and warm response when somebody shares important good news.",
+        "zh": "當別人分享重要喜訊時，這是一種自然且親切的回應方式。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Supports Predictions and Conditions",
+        "titleZh": "適合配合預測及條件",
+        "en": "The expression can describe not only present happiness but also possible or expected future happiness.",
+        "zh": "這個表達不只可以描述目前的喜悅，還可以描述可能或預期出現的未來喜悅。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Creates a Memorable Image",
+        "titleZh": "建立容易記憶的畫面",
+        "en": "The image suggests that a person feels so light and happy that normal walking no longer seems possible. The expression is vivid, but it is not automatically better than very happy or delighted in every situation.",
+        "zh": "這個畫面令人想像某人高興得身體也變得輕盈，彷彿已不再踏在地面上。 這個表達十分生動，但並非在所有情況下都一定比 very happy 或 delighted 更好。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Metaphorical Development; Exact Origin Unknown",
+      "statusZh": "逐漸形成的比喻；確切來源不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The exact first use of walk on air has not been firmly identified. Historical idiom references generally place the established expression in the late nineteenth century. An earlier related image appears in nineteenth-century writing through wording such as tread upon the air, but this should not be presented as the proven first use of the exact modern idiom.",
+          "zh": "walk on air 的確切首次用法尚未能確認。 歷史慣用語資料一般指出，這個固定表達在十九世紀後期已經形成。 十九世紀較早期的作品亦出現過 tread upon the air 等相關意象，但不應把它當成現代慣用語 walk on air 的已證實首次用法。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The expression compares intense happiness with physical lightness or floating. When people feel delighted, they may describe themselves as feeling lifted, weightless or hardly connected to the ground. Walk on air packages that emotional image into a short verb phrase. Dictionary.com likewise describes the expression as a metaphor comparing great happiness with floating.",
+          "zh": "這個表達把極度喜悅與身體輕盈或飄浮的感覺作比較。 當人們欣喜若狂時，可能會形容自己彷彿被托起、失去重量，甚至雙腳不再接觸地面。 walk on air 把這個情緒畫面濃縮成一個簡短的動詞短語。"
+        }
+      ],
+      "memoryEn": "Great happiness makes the person feel light; in the idiom, that person becomes so light that they seem able to walk on air.",
+      "memoryZh": "強烈的喜悅令人感到身體輕盈；在這個慣用語的畫面中，某人甚至輕得彷彿能在空中行走。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “On Air” Fixed",
+        "titleZh": "規則一：on air 必須保持不變",
+        "en": "Keep “On Air” Fixed",
+        "zh": "on air 必須保持不變",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Walk”, Not “On Air”",
+        "titleZh": "規則二：只改變 walk，不改變 on air",
+        "en": "Change “Walk”, Not “On Air”",
+        "zh": "只改變 walk，不改變 on air",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "The Progressive Form Requires “Be”",
+        "titleZh": "規則三：進行式必須使用 be",
+        "en": "The Progressive Form Requires “Be”",
+        "zh": "進行式必須使用 be",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It Only for Strong Happiness",
+        "titleZh": "規則四：只用於強烈的喜悅",
+        "en": "The ordinary situation does not normally justify such a strong expression.",
+        "zh": "她在全國比賽中勝出，欣喜若狂。 她找到一隻乾淨杯子，便欣喜若狂。 一般情況並不足以支持如此強烈的表達。",
+        "examples": [
+          {
+            "en": "She won the national competition and was walking on air.",
+            "zh": "她在全國比賽中勝出，欣喜若狂。",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "She found a clean cup and was walking on air. ✗",
+            "zh": "她找到一隻乾淨杯子，便欣喜若狂。",
+            "highlight": "walking on air"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve the Cause of the Happiness",
+        "titleZh": "規則五：保留令人高興的原因",
+        "en": "The shorter answer is grammatical, but it removes the important situation supplied by the source.",
+        "zh": "較短的答案在文法上正確，但刪除了原句所提供的重要情境。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Time and Duration",
+        "titleZh": "規則六：保留時間及持續期",
+        "en": "The incorrect answer changes a continuing state into a completed past state.",
+        "zh": "錯誤答案把持續至今的狀態，改成了已結束的過去狀態。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Possibility and Conditions",
+        "titleZh": "規則七：保留可能性及條件",
+        "en": "The incorrect answer changes a future possibility into a present fact.",
+        "zh": "錯誤答案把未來的可能性變成了現在的事實。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Confuse It with “On Air”",
+        "titleZh": "規則八：不要與 on air 混淆",
+        "en": "On air can mean that a television or radio programme is being broadcast. The interview is on air now.",
+        "zh": "on air 可以表示電視或電台節目正在播放。 訪問現在正在播出。 這個意思與 walk on air 無關。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Avoid Literal Fantasy or Physical Meanings",
+        "titleZh": "規則九：避免使用奇幻或物理上的字面意思",
+        "en": "Only the second sentence uses the emotional idiom taught in this exercise.",
+        "zh": "魔法鞋令英雄可以在空中行走。 英雄拯救村莊後欣喜若狂。 只有第二句使用了本練習所教授的情緒慣用語。",
+        "examples": [
+          {
+            "en": "The magical shoes allowed the hero to walk on air.",
+            "zh": "魔法鞋令英雄可以在空中行走。",
+            "highlight": "walk on air"
+          },
+          {
+            "en": "The hero was walking on air after saving the village.",
+            "zh": "英雄拯救村莊後欣喜若狂。",
+            "highlight": "walking on air"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Use It for Mild Relief Alone",
+        "titleZh": "規則十：不要單純用於輕微的鬆一口氣",
+        "en": "The expression may include relief when the relief produces great happiness.",
+        "zh": "如果安心的消息同時帶來強烈喜悅，便可以使用這個表達。 一家人得知治療奏效後欣喜若狂。 我找到自己的筆後欣喜若狂。",
+        "examples": [
+          {
+            "en": "The family was walking on air after hearing that the treatment had worked.",
+            "zh": "一家人得知治療奏效後欣喜若狂。",
+            "highlight": "walking on air"
+          },
+          {
+            "en": "I found my pen and was walking on air. ✗",
+            "zh": "我找到自己的筆後欣喜若狂。",
+            "highlight": "walking on air"
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "titleEn": "“Float on Air” Is a Related Variant",
+        "titleZh": "規則十一：float on air 是相關變體",
+        "en": "“Float on Air” Is a Related Variant",
+        "zh": "float on air 是相關變體",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using walk on air in the correct form.",
+      "zh": "使用 walk on air 的適當形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-128-q01",
+        "number": 1,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Ava received the highest mark in the class and felt extremely happy.",
+        "promptZh": "艾娃取得全班最高分，感到非常高興。",
+        "starter": "Ava",
+        "answer": "Ava was walking on air after receiving the highest mark in the class.",
+        "answerZh": "艾娃取得全班最高分後，興奮得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q02",
+        "number": 2,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Ryan was chosen for the school basketball team, and he could not stop smiling.",
+        "promptZh": "賴恩獲選加入學校籃球隊，高興得笑個不停。",
+        "starter": "After",
+        "answer": "After being chosen for the school basketball team, Ryan was walking on air.",
+        "answerZh": "獲選加入學校籃球隊後，賴恩欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q03",
+        "number": 3,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The judges chose Priya’s painting for the front cover, which made her extremely happy.",
+        "promptZh": "評判選了普莉雅的畫作作為封面，令她欣喜若狂。",
+        "starter": "The",
+        "answer": "The judges’ decision had Priya walking on air.",
+        "answerZh": "評判的決定令普莉雅高興得像要飛起來。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q04",
+        "number": 4,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Daniel heard that his missing dog had been found, and he felt happier than he had in weeks.",
+        "promptZh": "丹尼爾得知失蹤的狗已被尋回，感到比過去幾星期任何時候都高興。",
+        "starter": "When",
+        "answer": "When Daniel heard that his missing dog had been found, he was walking on air.",
+        "answerZh": "丹尼爾得知失蹤的狗已被尋回時，欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q05",
+        "number": 5,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Grace passed her driving test on the first attempt and felt wonderfully happy for the rest of the day.",
+        "promptZh": "格蕾絲第一次考駕駛試便合格，當天餘下時間都感到無比高興。",
+        "starter": "Grace",
+        "answer": "Grace walked on air for the rest of the day after passing her driving test.",
+        "answerZh": "格蕾絲通過駕駛考試後，一整天都興奮得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walked on air"
+      },
+      {
+        "id": "idiom-128-q06",
+        "number": 6,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The surprise birthday party made Noah extremely happy.",
+        "promptZh": "那場驚喜生日派對令諾亞欣喜若狂。",
+        "starter": "Noah",
+        "answer": "Noah was walking on air because of the surprise birthday party.",
+        "answerZh": "諾亞因那場驚喜生日派對而欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q07",
+        "number": 7,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Lena was offered the job she had always wanted, and the offer made her feel overjoyed.",
+        "promptZh": "莉娜獲得一直渴望的工作，這份取錄令她欣喜若狂。",
+        "starter": "Being",
+        "answer": "Being offered her dream job left Lena walking on air.",
+        "answerZh": "獲得夢寐以求的工作令莉娜高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q08",
+        "number": 8,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The whole class was extremely happy when the teacher cancelled the extra test.",
+        "promptZh": "老師取消額外測驗時，全班都欣喜若狂。",
+        "starter": "The",
+        "answer": "The whole class was walking on air when the teacher cancelled the extra test.",
+        "answerZh": "老師取消額外測驗時，全班都欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q09",
+        "number": 9,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Owen’s family told him they were taking him to Italy, and he became incredibly excited.",
+        "promptZh": "歐文的家人告訴他會帶他到意大利，他頓時興奮不已。",
+        "starter": "Owen",
+        "answer": "Owen was walking on air after his family told him about the trip to Italy.",
+        "answerZh": "家人告訴歐文意大利之旅的消息後，他高興得像要飛起來。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q10",
+        "number": 10,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Sofia won a scholarship and was so happy that she read the email three times.",
+        "promptZh": "索菲亞獲得獎學金，高興得把電郵讀了三遍。",
+        "starter": "Winning",
+        "answer": "Winning the scholarship had Sofia walking on air.",
+        "answerZh": "獲得獎學金令索菲亞欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q11",
+        "number": 11,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Since Leo received the good news, he has felt extremely happy every day.",
+        "promptZh": "自里奧收到好消息後，他每天都感到非常高興。",
+        "starter": "Leo",
+        "answer": "Leo has been walking on air since he received the good news.",
+        "answerZh": "里奧自收到好消息後，一直高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q12",
+        "number": 12,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A week after the music competition, Chloe still feels wonderfully happy about winning.",
+        "promptZh": "音樂比賽結束一星期後，克洛伊仍因勝出而感到無比高興。",
+        "starter": "A",
+        "answer": "A week after winning the music competition, Chloe is still walking on air.",
+        "answerZh": "在音樂比賽勝出一星期後，克洛伊仍然欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q13",
+        "number": 13,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Amir learnt early in the morning that he had won the school award. By lunchtime, he still felt extremely happy.",
+        "promptZh": "阿米爾清早得知自己獲得學校獎項。到了午飯時間，他仍然欣喜若狂。",
+        "starter": "By",
+        "answer": "By lunchtime, Amir had been walking on air for hours after learning that he had won the school award.",
+        "answerZh": "到了午飯時間，阿米爾在得知自己獲得學校獎項後，已一連數小時都高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q14",
+        "number": 14,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "If the school accepts our idea, we will feel extremely happy.",
+        "promptZh": "如果學校接納我們的想法，我們會欣喜若狂。",
+        "starter": "If",
+        "answer": "If the school accepts our idea, we will be walking on air.",
+        "answerZh": "如果學校接納我們的想法，我們會欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q15",
+        "number": 15,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "When you see Ella tomorrow, she may still feel extremely happy about her prize.",
+        "promptZh": "你明天見到艾拉時，她可能仍會因獲獎而欣喜若狂。",
+        "starter": "Ella",
+        "answer": "Ella may still be walking on air when you see her tomorrow.",
+        "answerZh": "你明天見到艾拉時，她可能仍然高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q16",
+        "number": 16,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "If Marcus gets the lead role, he could remain extremely happy for a week.",
+        "promptZh": "如果馬庫斯獲得主角一職，他可能會整整一星期都欣喜若狂。",
+        "starter": "Marcus",
+        "answer": "Marcus could walk on air for a week if he gets the lead role.",
+        "answerZh": "如果馬庫斯獲得主角一職，他可能會整整一星期都欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walk on air"
+      },
+      {
+        "id": "idiom-128-q17",
+        "number": 17,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "You have just won the final. You must feel absolutely wonderful.",
+        "promptZh": "你剛剛贏得決賽，一定感到無比高興。",
+        "starter": "You",
+        "answer": "You must be walking on air after winning the final.",
+        "answerZh": "你贏得決賽後，一定高興得像要飛起來。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q18",
+        "number": 18,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Harper looks as though she is extremely happy after speaking to the director.",
+        "promptZh": "哈珀與導演談話後，看來欣喜若狂。",
+        "starter": "Harper",
+        "answer": "Harper seems to be walking on air after speaking to the director.",
+        "answerZh": "哈珀與導演談話後，看來欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q19",
+        "number": 19,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "When Ken heard the audience cheer, he felt so happy that he seemed almost weightless.",
+        "promptZh": "肯聽見觀眾歡呼時，高興得彷彿身體也變輕了。",
+        "starter": "Ken",
+        "answer": "Ken felt as if he were walking on air when he heard the audience cheer.",
+        "answerZh": "肯聽見觀眾歡呼時，感覺自己高興得像在空中漫步。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q20",
+        "number": 20,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Nora told us that she felt extremely happy after the interview.",
+        "promptZh": "諾拉告訴我們，她面試後感到欣喜若狂。",
+        "starter": "Nora",
+        "answer": "Nora said she was walking on air after the interview.",
+        "answerZh": "諾拉說她在面試後高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q21",
+        "number": 21,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: You look incredibly happy. What happened? B: My story won first prize.",
+        "promptZh": "甲：你看來欣喜若狂。發生了甚麼事？ 乙：我的故事獲得一等獎。",
+        "starter": "I",
+        "answer": "I am walking on air because my story won first prize.",
+        "answerZh": "我的故事獲得一等獎，令我欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q22",
+        "number": 22,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: I have just been offered a place at my first-choice university. B: You must be extremely happy.",
+        "promptZh": "甲：我剛獲最想入讀的大學取錄。 乙：你一定欣喜若狂。",
+        "starter": "You",
+        "answer": "You must be walking on air after receiving that offer.",
+        "answerZh": "你收到那份取錄通知後，一定高興得像要飛起來。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q23",
+        "number": 23,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Anyone would be extremely happy after hearing that their book would be published.",
+        "promptZh": "任何人得知自己的書將會出版，都會欣喜若狂。",
+        "starter": "Who",
+        "answer": "Who would not be walking on air after hearing that their book would be published?",
+        "answerZh": "誰得知自己的書將會出版後不會欣喜若狂呢？",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q24",
+        "number": 24,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The news that her son was safe made Mrs Lee feel deeply relieved and extremely happy.",
+        "promptZh": "李太得知兒子平安，感到非常安心和欣喜。",
+        "starter": "The",
+        "answer": "The news that her son was safe left Mrs Lee walking on air.",
+        "answerZh": "兒子平安的消息令李太欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q25",
+        "number": 25,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The excellent exam result made the whole study group extremely happy.",
+        "promptZh": "優異的考試成績令整個溫習小組欣喜若狂。",
+        "starter": "The",
+        "answer": "The excellent exam result had the whole study group walking on air.",
+        "answerZh": "優異的考試成績令整個溫習小組高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q26",
+        "number": 26,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Even the heavy rain could not reduce our great happiness after the team won.",
+        "promptZh": "球隊勝出後，即使下着大雨，也無法減少我們的喜悅。",
+        "starter": "Nothing",
+        "answer": "Nothing could stop us from walking on air after the team won.",
+        "answerZh": "球隊勝出後，沒有任何事情能減少我們的喜悅。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q27",
+        "number": 27,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Jade was exhausted after the show, but she was still extremely happy about the audience’s reaction.",
+        "promptZh": "潔德在表演後筋疲力盡，但仍因觀眾的反應而欣喜若狂。",
+        "starter": "Not",
+        "answer": "Not even her exhaustion could stop Jade from walking on air after the show.",
+        "answerZh": "即使筋疲力盡，也無法阻止潔德在表演後欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q28",
+        "number": 28,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "It was obvious that Felix was extremely happy after hearing that he had become a father.",
+        "promptZh": "菲力克斯得知自己成為父親後，明顯欣喜若狂。",
+        "starter": "There",
+        "answer": "There was no hiding it: Felix was walking on air after becoming a father.",
+        "answerZh": "這份喜悅完全藏不住：菲力克斯成為父親後高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q29",
+        "number": 29,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Tara remained extremely happy for several days after her song was played on the radio.",
+        "promptZh": "塔拉的歌曲在電台播放後，她一連數天都欣喜若狂。",
+        "starter": "For",
+        "answer": "For several days after her song was played on the radio, Tara was walking on air.",
+        "answerZh": "塔拉的歌曲在電台播放後，她一連數天都欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q30",
+        "number": 30,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Ever since the doctor said the treatment had worked, the family has felt extremely happy.",
+        "promptZh": "自醫生說治療奏效後，一家人一直欣喜若狂。",
+        "starter": "Ever",
+        "answer": "Ever since the doctor said the treatment had worked, the family has been walking on air.",
+        "answerZh": "自醫生說治療奏效後，一家人一直高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q31",
+        "number": 31,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Although Isaac had slept for only four hours, he felt wonderfully happy after his daughter was born.",
+        "promptZh": "雖然艾薩克只睡了四小時，但女兒出生後，他仍感到無比幸福。",
+        "starter": "Although",
+        "answer": "Although Isaac had slept for only four hours, he was walking on air after his daughter was born.",
+        "answerZh": "雖然艾薩克只睡了四小時，但女兒出生後，他仍欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q32",
+        "number": 32,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The students felt extremely happy because the charity event raised twice as much money as expected.",
+        "promptZh": "慈善活動籌得的款項是預期的兩倍，因此學生們欣喜若狂。",
+        "starter": "Because",
+        "answer": "Because the charity event raised twice as much money as expected, the students were walking on air.",
+        "answerZh": "慈善活動籌得的款項是預期的兩倍，因此學生們高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q33",
+        "number": 33,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "As soon as Ruby saw her name on the winners’ list, she became extremely happy.",
+        "promptZh": "露比一看見自己的名字出現在得獎名單上，便欣喜若狂。",
+        "starter": "As",
+        "answer": "As soon as Ruby saw her name on the winners’ list, she was walking on air.",
+        "answerZh": "露比一看見自己的名字出現在得獎名單上，便欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q34",
+        "number": 34,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The final whistle confirmed the team’s victory, and the players suddenly became extremely happy.",
+        "promptZh": "終場哨聲確認球隊勝出，球員們頓時欣喜若狂。",
+        "starter": "The",
+        "answer": "The final whistle confirmed their victory, and suddenly the players were walking on air.",
+        "answerZh": "終場哨聲確認球隊勝出，球員們頓時高興得像要飛起來。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q35",
+        "number": 35,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Hannah had not expected to feel so happy, but the award letter filled her with joy.",
+        "promptZh": "漢娜沒有預料到自己會如此高興，但那封獲獎信令她充滿喜悅。",
+        "starter": "Only",
+        "answer": "Only after the award letter arrived did Hannah find herself walking on air.",
+        "answerZh": "直到獲獎信送達後，漢娜才發現自己已欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q36",
+        "number": 36,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The prize money was welcome, but the chance to perform with her favourite singer made Layla happiest.",
+        "promptZh": "獎金固然令人高興，但真正令蕾拉欣喜若狂的，是與最喜愛的歌手同台演出的機會。",
+        "starter": "What",
+        "answer": "What had Layla walking on air was the chance to perform with her favourite singer, not the prize money.",
+        "answerZh": "真正令蕾拉欣喜若狂的，是與最喜愛的歌手同台演出的機會，而不是獎金。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q37",
+        "number": 37,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The team felt extremely happy mainly because the local children had enjoyed the event.",
+        "promptZh": "團隊欣喜若狂，主要是因為本地兒童很享受這次活動。",
+        "starter": "It",
+        "answer": "It was seeing the local children enjoy the event that had the team walking on air.",
+        "answerZh": "真正令團隊高興得飄飄然的，是看見本地兒童享受這次活動。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q38",
+        "number": 38,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "After learning that every ticket had been sold, the organiser felt extremely happy and called the performers.",
+        "promptZh": "主辦人得知所有門票已售罄後，欣喜若狂地致電表演者。",
+        "starter": "Walking",
+        "answer": "Walking on air after learning that every ticket had been sold, the organiser called the performers.",
+        "answerZh": "主辦人得知所有門票已售罄後欣喜若狂，並致電表演者。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "Walking on air"
+      },
+      {
+        "id": "idiom-128-q39",
+        "number": 39,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The day after getting engaged, Aaron was still extremely happy when he arrived at work.",
+        "promptZh": "訂婚翌日，亞倫上班時仍然欣喜若狂。",
+        "starter": "Still",
+        "answer": "Still walking on air after getting engaged, Aaron arrived at work the next day.",
+        "answerZh": "亞倫訂婚後仍然欣喜若狂，翌日回到公司上班。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q40",
+        "number": 40,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Mei left the hall feeling extremely happy because the whole audience had stood up and cheered for her.",
+        "promptZh": "美儀離開禮堂時欣喜若狂，因為全體觀眾都站起來為她歡呼。",
+        "starter": "Mei",
+        "answer": "Mei left the hall walking on air after the whole audience stood up and cheered for her.",
+        "answerZh": "全體觀眾站起來為美儀歡呼後，她欣喜若狂地離開禮堂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q41",
+        "number": 41,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The coach admitted that he had felt extremely happy ever since the young team reached the final.",
+        "promptZh": "教練承認，自年輕球隊晉身決賽後，他一直欣喜若狂。",
+        "starter": "The",
+        "answer": "The coach admitted that he had been walking on air ever since the young team reached the final.",
+        "answerZh": "教練承認，自年輕球隊晉身決賽後，他一直高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q42",
+        "number": 42,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "If our small company wins this award, everybody here will feel incredibly happy.",
+        "promptZh": "如果我們這間小公司贏得這個獎項，這裏所有人都會欣喜若狂。",
+        "starter": "If",
+        "answer": "If our small company wins this award, everybody here will walk on air.",
+        "answerZh": "如果我們這間小公司贏得這個獎項，這裏所有人都會欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walk on air"
+      },
+      {
+        "id": "idiom-128-q43",
+        "number": 43,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "She did not win the prize. Had she won it, she would have felt extremely happy for weeks.",
+        "promptZh": "她沒有獲獎。假如她獲獎，她本來會一連數星期都欣喜若狂。",
+        "starter": "Had",
+        "answer": "Had she won the prize, she would have been walking on air for weeks.",
+        "answerZh": "假如她獲獎，她本來會一連數星期都高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q44",
+        "number": 44,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "He says the excitement has passed, but he may still feel extremely happy about becoming captain.",
+        "promptZh": "他說興奮已經過去，但他可能仍因成為隊長而欣喜若狂。",
+        "starter": "He",
+        "answer": "He may still be walking on air about becoming captain, although he says the excitement has passed.",
+        "answerZh": "雖然他說興奮已經過去，但他可能仍因成為隊長而欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q45",
+        "number": 45,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Her first novel had just reached number one on the book list, so naturally she felt extremely happy.",
+        "promptZh": "她的第一本小說剛登上書籍排行榜第一位，因此她自然欣喜若狂。",
+        "starter": "How",
+        "answer": "How could she not be walking on air when her first novel had just reached number one on the book list?",
+        "answerZh": "她的第一本小說剛登上書籍排行榜第一位，她怎可能不欣喜若狂？",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q46",
+        "number": 46,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The prize money was useful, but the children’s thank-you letters made the volunteers happiest.",
+        "promptZh": "獎金很有用，但最令義工欣喜若狂的是孩子們的感謝信。",
+        "starter": "The",
+        "answer": "The prize money was useful, but the children’s thank-you letters had the volunteers walking on air.",
+        "answerZh": "獎金很有用，但孩子們的感謝信才令義工高興得飄飄然。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q47",
+        "number": 47,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The concert ended at ten. At midnight, the singers still felt extremely happy because they had performed to a full hall.",
+        "promptZh": "音樂會在十時結束。到了午夜，歌手們仍因在座無虛席的禮堂演出而欣喜若狂。",
+        "starter": "At",
+        "answer": "At midnight, two hours after the concert ended, the singers were still walking on air because they had performed to a full hall.",
+        "answerZh": "到了午夜，即音樂會結束兩小時後，歌手們仍因在座無虛席的禮堂演出而欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q48",
+        "number": 48,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Hearing that the centre would remain open made every worker extremely happy.",
+        "promptZh": "得知中心可以繼續開放，令每名員工都欣喜若狂。",
+        "starter": "To",
+        "answer": "To hear that the centre would remain open was enough to leave every worker walking on air.",
+        "answerZh": "得知中心可以繼續開放，已足以令每名員工高興得像要飛起來。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q49",
+        "number": 49,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Although Sophie was tired after the race, winning it made her feel unbelievably happy.",
+        "promptZh": "雖然蘇菲在比賽後十分疲倦，但勝出令她感到難以置信地高興。",
+        "starter": "No",
+        "answer": "No matter how tired Sophie was after the race, she was walking on air because she had won.",
+        "answerZh": "無論蘇菲在比賽後多麼疲倦，她都因勝出而欣喜若狂。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      },
+      {
+        "id": "idiom-128-q50",
+        "number": 50,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Many years later, Julian could still remember how extremely happy he had felt when his first student thanked him.",
+        "promptZh": "多年後，朱利安仍記得第一位學生向他道謝時，自己是多麼欣喜若狂。",
+        "starter": "Many",
+        "answer": "Many years later, Julian could still remember walking on air when his first student thanked him.",
+        "answerZh": "多年後，朱利安仍記得第一位學生向他道謝時，自己欣喜若狂的感覺。",
+        "targetForm": "walk on air",
+        "targetMeaning": "To feel extremely happy, excited or delighted, especially because something wonderful has happened.",
+        "highlight": "walking on air"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1258 @@
+{
+  "id": "ss278",
+  "order": 278,
+  "slug": "take-x-for-example",
+  "title": "「Take X, for example」引入具體例子",
+  "titleZh": "「Take X, for example」引入具體例子",
+  "titleEn": "Using “Take X, for example”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence structure 277 -「Take X, for example」引入具體例子.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "sha256": "a53a143ff1cf02fb8f2ac6177429c954355c4acddac06c497cb81483d3da517c",
+    "sourceNumber": 277,
+    "systemOrder": 278,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 277 maps to ss278: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "General statement; take + X +, for example",
+  "formulas": [
+    {
+      "id": "ss278-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "General statement; take + X +, for example"
+    }
+  ],
+  "example": "Take public transport, for example: small improvements can affect thousands of people.",
+  "exampleZh": "以公共交通為例：細微的改善也可以影響數以千計的人。",
+  "examples": [
+    {
+      "id": "ss278-example-01",
+      "en": "Take public transport, for example: small improvements can affect thousands of people.",
+      "zh": "以公共交通為例：細微的改善也可以影響數以千計的人。",
+      "highlight": "Take public transport, for example: small improvements can affect thousands of people."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss278-rule-01",
+      "zh": "核心句式是 Take X, for example 以下部分只是可選的句式延伸：【To understand this,...；We can...；We might...；If we...；When we...】 例如：【Take a school noticeboard, for example.】 已經是完整句子。只是加入了引導語，並沒有改變核心表達。",
+      "en": "To understand this,... We can... We might... If we... When we... Take a school noticeboard, for example. To understand this, take a school noticeboard, for example.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-rule-02",
+      "zh": "在這裏並不是「拿走」在這個句型中，take 的意思是：以……為例；想一想……這個例子；把……視為一個具體案例。並不是叫人把公共交通「拿走」。",
+      "en": "Take Take public transport, for example.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-rule-03",
+      "zh": "通常是名詞或名詞短語正確：【Take online banking, for example.】 本練習主要使用簡單的名詞及名詞短語。",
+      "en": "X Take online banking, for example. Take a small local shop, for example. Take the way children learn new words, for example.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-rule-04",
+      "zh": "句首形式通常需要標點如果後面立即加入完整解釋，可以使用冒號：【Take public transport, for example: one small change can help thousands of passengers.】 如果例子本身是一個完整句子，可以使用句號：【Many public services affect daily life. Take public transport, for example.】",
+      "en": "Take public transport, for example: one small change can help thousands of passengers. Many public services affect daily life. Take public transport, for example.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-rule-05",
+      "zh": "插入句子中間時，使用成對破折號前後兩個破折號表示 take public transport, for example 是插入的補充例子。不要只使用一個破折號。",
+      "en": "Many public services—take public transport, for example—affect daily life.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-rule-06",
+      "zh": "也是正確變化以下兩句意思相同：【Take public transport, for example.】 第二種形式把 for example 放在例子前面，語氣通常稍為正式。",
+      "en": "Take, for example, X Take public transport, for example. Take, for example, public transport.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-rule-07",
+      "zh": "不要把所有答案都放在句首這個句型可以：開始一句；出現在第二句；放在分號之後；插入句子中間；放在引導語之後；出現在 if 或 when 子句中。因此，學生需要理解整個句子的組織，而不能只靠看到題目便一律以 Take 開始。",
+      "en": "Do not place every answer at the beginning of a sentence. Take X, for example can begin a sentence, follow a general statement or semicolon, appear mid-sentence, follow an introductory phrase, or occur inside an if- or when-clause.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-rule-08",
+      "zh": "與 For example 的分別目標表達【For example】是一般連接語：【Many public services affect daily life. For example, public transport affects thousands of people.】 目標表達【Take X, for example】則直接引導讀者或聽眾把注意力放在一個具體案例上：【Many public services affect daily life. Take public transport, for example.】 後者較像是在說：試想想這個例子。",
+      "en": "For example Many public services affect daily life. For example, public transport affects thousands of people. Take X, for example Many public services affect daily life. Take public transport, for example.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-rule-09",
+      "zh": "與 such as 的分別詞語【Such as】通常直接放在名詞後面，列出例子：【Public services such as buses and libraries affect daily life.】 目標表達【Take X, for example】可以先引入一個例子，再用完整句子進一步解釋它：【Take public transport, for example: a small timetable change can affect thousands of passengers.】",
+      "en": "Public services such as buses and libraries affect daily life. Take X, for example Take public transport, for example: a small timetable change can affect thousands of passengers.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-rule-10",
+      "zh": "本練習不使用以下替代形式作為答案雖然以下說法也可以表達相近意思，但它們不是本練習的目標：【For instance,...；Consider X.；X is a good example.；Take X as an example.；Such as X】 所有參考答案均會保留 take 和 for example。",
+      "en": "For instance,... Consider X. X is a good example. Take X as an example. Such as X",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss278-benefit-01",
+      "zh": "把抽象觀點變成具體例子只說一個一般道理時，讀者可能不容易明白。加入具體例子後，意思會清楚得多：【Take public transport, for example: a small timetable change can affect thousands of passengers.】",
+      "en": "Small changes can affect many people. Take public transport, for example: a small timetable change can affect thousands of passengers.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-benefit-02",
+      "zh": "幫助你進一步解釋例子這個句型不只是列出一個名詞。你可以在例子後面加上原因、結果或細節。",
+      "en": "Take food packaging, for example: clearer date labels can reduce unnecessary waste.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-benefit-03",
+      "zh": "避免重複使用 For example 學生在作文或口語中經常重複使用：【For example,...】 提供另一種自然的引例方法，令表達不會太重複。",
+      "en": "For example,... Take X, for example",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-benefit-04",
+      "zh": "讓讀者知道應該留意哪一個案例像是一個清楚的提示，告訴讀者：接下來這個例子能證明或解釋我剛才的觀點。",
+      "en": "Take X, for example",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-benefit-05",
+      "zh": "可以靈活放在句子的不同位置這個句型可以放在：句首；一般陳述之後；句子中間；第二個句子；詞語【if, when】或其他引導語之後。這能增加句式變化，避免每一句都以相同方式開始。",
+      "en": "The expression can appear at the beginning, after a general statement, in the middle, in a second sentence, or after an if-, when- or other introductory clause. This flexibility adds sentence variety.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss278-benefit-06",
+      "zh": "適合口語、作文、報告和簡報在討論或簡報中，你可以使用這個句型迅速由一般觀點轉到具體案例：【Many small design choices affect behaviour. Take supermarket self-checkouts, for】 這使說話內容更容易組織，也讓聽眾更容易跟上你的思路。",
+      "en": "Many small design choices affect behaviour. Take supermarket self-checkouts, for example.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 277 maps to ss278: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item using take X, for example. Keep the original meaning and use suitable",
+      "punctuation.",
+      "The target expression may appear at the beginning, in the middle or near the end of the answer.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 take X, for example 改寫以下內容。保留原意，並使用適當標點。",
+      "目標句式可以出現在答案的句首、句中或接近句尾的位置。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss278-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Public transport is a clear example of how small improvements can affect thousands of people.",
+      "promptZh": "公共交通是一個清楚例子，顯示細微的改善也可以影響數以千計的人。",
+      "promptZhSource": "pdf",
+      "starter": "Take",
+      "answer": "Take public transport, for example: small improvements can affect thousands of people.",
+      "answerZh": "以公共交通為例：細微的改善也可以影響數以千計的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Take public transport, for example: small improvements can affect thousands of people."
+    },
+    {
+      "id": "ss278-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A school library shows how longer opening hours can help many students.",
+      "promptZh": "學校圖書館顯示，延長開放時間可以幫助很多學生。",
+      "promptZhSource": "pdf",
+      "starter": "Take",
+      "answer": "Take a school library, for example: longer opening hours can help many students.",
+      "answerZh": "以學校圖書館為例：延長開放時間可以幫助很多學生。",
+      "answerZhSource": "pdf",
+      "highlight": "Take a school library, for example: longer opening hours can help many students."
+    },
+    {
+      "id": "ss278-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A reusable bottle shows how one small habit can reduce daily waste.",
+      "promptZh": "可重用水瓶顯示，一個小習慣也可以減少日常廢物。",
+      "promptZhSource": "pdf",
+      "starter": "Take",
+      "answer": "Take a reusable bottle, for example: one small habit can reduce daily waste.",
+      "answerZh": "以可重用水瓶為例：一個小習慣也可以減少日常廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "Take a reusable bottle, for example: one small habit can reduce daily waste."
+    },
+    {
+      "id": "ss278-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A local market shows how a few clearer signs can make shopping easier.",
+      "promptZh": "本地街市顯示，幾個較清楚的指示牌也可以令購物更加容易。",
+      "promptZhSource": "pdf",
+      "starter": "Take",
+      "answer": "Take a local market, for example: a few clearer signs can make shopping easier.",
+      "answerZh": "以本地街市為例：幾個較清楚的指示牌也可以令購物更加容易。",
+      "answerZhSource": "pdf",
+      "highlight": "Take a local market, for example: a few clearer signs can make shopping easier."
+    },
+    {
+      "id": "ss278-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Street lighting shows how a simple public service can improve safety at night.",
+      "promptZh": "街燈顯示，一項簡單的公共服務也可以改善夜間安全。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To see how a simple public service can improve safety at night, take street lighting, for example.",
+      "answerZh": "要了解一項簡單的公共服務如何改善夜間安全，可以街燈為例。",
+      "answerZhSource": "pdf",
+      "highlight": "To see how a simple public service can improve safety at night, take street lighting, for example."
+    },
+    {
+      "id": "ss278-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A homework application is one example of how a simple reminder can help students stay organised.",
+      "promptZh": "功課應用程式是一個例子，顯示簡單的提示可以幫助學生保持有條理。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can take a homework application, for example: a simple reminder can help students stay organised.",
+      "answerZh": "我們可以功課應用程式為例：簡單的提示可以幫助學生保持有條理。",
+      "answerZhSource": "pdf",
+      "highlight": "We can take a homework application, for example: a simple reminder can help students stay organised."
+    },
+    {
+      "id": "ss278-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "School lunches clearly show how one decision can affect health, cost and concentration.",
+      "promptZh": "學校午餐清楚顯示，一個決定可以影響健康、成本和專注力。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A clear case is easy to find. Take school lunches, for example: one decision can affect health, cost and concentration.",
+      "answerZh": "一個清楚的案例並不難找。以學校午餐為例：一個決定可以影響健康、成本和專注力。",
+      "answerZhSource": "pdf",
+      "highlight": "A clear case is easy to find. Take school lunches, for example: one decision can affect health, cost and concentration."
+    },
+    {
+      "id": "ss278-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Bicycle lanes show how a small design change can influence the way people travel each day.",
+      "promptZh": "單車徑顯示，細微的設計改動可以影響人們每天的出行方式。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This can be seen in everyday travel; take bicycle lanes, for example, where a small design change can influence the way people travel each day.",
+      "answerZh": "這一點可以在日常出行中看到；以單車徑為例，細微的設計改動可以影響人們每天的出行方式。",
+      "answerZhSource": "pdf",
+      "highlight": "This can be seen in everyday travel; take bicycle lanes, for example, where a small design change can influence the way people travel each day."
+    },
+    {
+      "id": "ss278-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Community centres show that one local service can support people of many different ages.",
+      "promptZh": "社區中心顯示，一項本地服務可以支援很多不同年齡的人。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many local services—take community centres, for example—can support people of different ages.",
+      "answerZh": "很多本地服務——以社區中心為例——都可以支援不同年齡的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Many local services—take community centres, for example—can support people of different ages."
+    },
+    {
+      "id": "ss278-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Online banking shows how technology can save people time on routine tasks.",
+      "promptZh": "網上銀行服務顯示，科技可以為人們節省處理日常事務的時間。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One example makes the point clear. Take online banking, for example: technology can save people time on routine tasks.",
+      "answerZh": "一個例子便可以清楚說明這一點。以網上銀行服務為例：科技可以為人們節省處理日常事務的時間。",
+      "answerZhSource": "pdf",
+      "highlight": "One example makes the point clear. Take online banking, for example: technology can save people time on routine tasks."
+    },
+    {
+      "id": "ss278-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A clearer bus timetable is a simple case of a change that can reduce confusion for residents and tourists.",
+      "promptZh": "較清楚的巴士時間表是一個簡單案例，顯示改動可以減少居民和遊客的困惑。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is a simple case that shows how confusion can be reduced—take a clearer bus timetable, for example.",
+      "answerZh": "有一個簡單案例可以顯示如何減少困惑——以較清楚的巴士時間表為例。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a simple case that shows how confusion can be reduced—take a clearer bus timetable, for example."
+    },
+    {
+      "id": "ss278-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Clear wording matters in health care because a misunderstanding on a medicine label can be dangerous.",
+      "promptZh": "清楚的字眼在醫療服務中十分重要，因為誤解藥物標籤可以造成危險。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This idea matters in health care. Take medicine labels, for example: a misunderstanding can be dangerous.",
+      "answerZh": "這個概念在醫療服務中十分重要。以藥物標籤為例：誤解內容可以造成危險。",
+      "answerZhSource": "pdf",
+      "highlight": "This idea matters in health care. Take medicine labels, for example: a misunderstanding can be dangerous."
+    },
+    {
+      "id": "ss278-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A supermarket queue is one place where a small change in layout can save many people time.",
+      "promptZh": "超級市場的輪候隊伍是一個例子，顯示細微的佈局改動可以為很多人節省時間。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When public spaces are busy—take supermarket queues, for example—a small change in layout can save many people time.",
+      "answerZh": "當公共空間十分繁忙時——以超級市場的輪候隊伍為例——細微的佈局改動可以為很多人節省時間。",
+      "answerZhSource": "pdf",
+      "highlight": "When public spaces are busy—take supermarket queues, for example—a small change in layout can save many people time."
+    },
+    {
+      "id": "ss278-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A school noticeboard shows how one well-placed message can reach a large group quickly.",
+      "promptZh": "學校告示板顯示，一則放在適當位置的訊息可以迅速傳達給一大群人。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a school, take the noticeboard, for example: one well-placed message can reach a large group quickly.",
+      "answerZh": "在學校裏，以告示板為例：一則放在適當位置的訊息可以迅速傳達給一大群人。",
+      "answerZhSource": "pdf",
+      "highlight": "In a school, take the noticeboard, for example: one well-placed message can reach a large group quickly."
+    },
+    {
+      "id": "ss278-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Office meetings show that a short agenda can prevent a long and unfocused discussion.",
+      "promptZh": "辦公室會議顯示，一份簡短的議程可以避免冗長而欠缺焦點的討論。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even ordinary work routines can become more focused—take office meetings, for example, where a short agenda can prevent a long and unfocused discussion.",
+      "answerZh": "即使是一般工作程序也可以變得更有焦點——以辦公室會議為例，一份簡短的議程可以避免冗長而欠缺焦點的討論。",
+      "answerZhSource": "pdf",
+      "highlight": "Even ordinary work routines can become more focused—take office meetings, for example, where a short agenda can prevent a long and unfocused discussion."
+    },
+    {
+      "id": "ss278-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Clear signs at a train station can help first-time visitors find the correct platform.",
+      "promptZh": "火車站的清楚指示牌可以幫助首次到訪的人找到正確的月台。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To see how clear information helps visitors, take train station signs, for example: they can guide first-time visitors to the correct platform.",
+      "answerZh": "要了解清楚的資訊如何幫助訪客，可以火車站指示牌為例：它們可以引導首次到訪的人前往正確的月台。",
+      "answerZhSource": "pdf",
+      "highlight": "To see how clear information helps visitors, take train station signs, for example: they can guide first-time visitors to the correct platform."
+    },
+    {
+      "id": "ss278-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Park benches are a simple example of how one small facility can make a public space more welcoming.",
+      "promptZh": "公園長椅是一個簡單例子，顯示一項小型設施也可以令公共空間更宜人。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some small facilities can make a public space more welcoming—take park benches, for example.",
+      "answerZh": "一些小型設施可以令公共空間更宜人——以公園長椅為例。",
+      "answerZhSource": "pdf",
+      "highlight": "Some small facilities can make a public space more welcoming—take park benches, for example."
+    },
+    {
+      "id": "ss278-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Food packaging shows how a clearer date label can reduce unnecessary waste.",
+      "promptZh": "食品包裝顯示，較清楚的日期標籤可以減少不必要的浪費。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The same lesson applies to everyday products; take food packaging, for example, where a clearer date label can reduce unnecessary waste.",
+      "answerZh": "同一道理也適用於日常產品；以食品包裝為例，較清楚的日期標籤可以減少不必要的浪費。",
+      "answerZhSource": "pdf",
+      "highlight": "The same lesson applies to everyday products; take food packaging, for example, where a clearer date label can reduce unnecessary waste."
+    },
+    {
+      "id": "ss278-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "An alarm clock is a clear example of a simple tool that can support a daily routine.",
+      "promptZh": "鬧鐘是一個清楚例子，顯示簡單工具可以幫助人們維持日常規律。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One simple tool can support a daily routine. Take an alarm clock, for example.",
+      "answerZh": "一件簡單工具也可以幫助人們維持日常規律。以鬧鐘為例。",
+      "answerZhSource": "pdf",
+      "highlight": "One simple tool can support a daily routine. Take an alarm clock, for example."
+    },
+    {
+      "id": "ss278-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A customer-service chatbot shows how a quick first response can solve simple problems.",
+      "promptZh": "顧客服務聊天機械人顯示，迅速的初步回應可以解決簡單問題。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need not look far for an example. Take a customer-service chatbot, for example: a quick first response can solve simple problems.",
+      "answerZh": "我們不需要到遠處尋找例子。以顧客服務聊天機械人為例：迅速的初步回應可以解決簡單問題。",
+      "answerZhSource": "pdf",
+      "highlight": "We need not look far for an example. Take a customer-service chatbot, for example: a quick first response can solve simple problems."
+    },
+    {
+      "id": "ss278-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A hospital appointment system shows how one automatic reminder can reduce missed visits.",
+      "promptZh": "醫院預約系統顯示，一個自動提示可以減少病人缺席預約的情況。",
+      "promptZhSource": "pdf",
+      "starter": "Take",
+      "answer": "Take, for example, a hospital appointment system: one automatic reminder can reduce missed visits.",
+      "answerZh": "以醫院預約系統為例：一個自動提示可以減少病人缺席預約的情況。",
+      "answerZhSource": "pdf",
+      "highlight": "Take, for example, a hospital appointment system: one automatic reminder can reduce missed visits."
+    },
+    {
+      "id": "ss278-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A shared bicycle scheme shows how access can sometimes matter as much as ownership.",
+      "promptZh": "共享單車計劃顯示，使用某物的機會有時可以與擁有它同樣重要。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A familiar case shows this clearly. Take, for example, a shared bicycle scheme: access can sometimes matter as much as ownership.",
+      "answerZh": "一個熟悉的案例可以清楚說明這一點。以共享單車計劃為例：使用某物的機會有時可以與擁有它同樣重要。",
+      "answerZhSource": "pdf",
+      "highlight": "A familiar case shows this clearly. Take, for example, a shared bicycle scheme: access can sometimes matter as much as ownership."
+    },
+    {
+      "id": "ss278-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Classroom seating is one example of how physical arrangement can affect discussion.",
+      "promptZh": "課室座位安排是一個例子，顯示實際佈局可以影響討論。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In learning spaces—take, for example, classroom seating—physical arrangement can affect discussion.",
+      "answerZh": "在學習空間中——以課室座位安排為例——實際佈局可以影響討論。",
+      "answerZhSource": "pdf",
+      "highlight": "In learning spaces—take, for example, classroom seating—physical arrangement can affect discussion."
+    },
+    {
+      "id": "ss278-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A restaurant menu shows how clear design can help customers make decisions more quickly.",
+      "promptZh": "餐牌顯示，清楚的設計可以幫助顧客更快作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The point becomes clearer if we take a restaurant menu, for example: clear design can help customers make decisions more quickly.",
+      "answerZh": "如果我們以餐牌為例，這一點便會更加清楚：清楚的設計可以幫助顧客更快作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The point becomes clearer if we take a restaurant menu, for example: clear design can help customers make decisions more quickly."
+    },
+    {
+      "id": "ss278-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "An electric kettle is a simple example of a product designed to make an everyday task faster.",
+      "promptZh": "電熱水壺是一個簡單例子，顯示產品可以設計成讓日常工作更快完成。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can take an electric kettle, for example: it is designed to make an everyday task faster.",
+      "answerZh": "你可以電熱水壺為例：它的設計可以讓一項日常工作更快完成。",
+      "answerZhSource": "pdf",
+      "highlight": "You can take an electric kettle, for example: it is designed to make an everyday task faster."
+    },
+    {
+      "id": "ss278-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A public park is a good example of a place that can support exercise, rest and social contact.",
+      "promptZh": "公園是一個很好的例子，顯示一個地方可以支援運動、休息和社交接觸。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We might take a public park, for example: it can support exercise, rest and social contact.",
+      "answerZh": "我們可以公園為例：它可以支援運動、休息和社交接觸。",
+      "answerZhSource": "pdf",
+      "highlight": "We might take a public park, for example: it can support exercise, rest and social contact."
+    },
+    {
+      "id": "ss278-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Recycling bins show how the position of an object can influence whether people use it.",
+      "promptZh": "回收箱顯示，物件的位置可以影響人們是否使用它。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This principle appears in many public spaces; take recycling bins, for example, whose position can influence whether people use them.",
+      "answerZh": "這項原則在很多公共空間中都會出現；以回收箱為例，它們的位置可以影響人們是否使用它們。",
+      "answerZhSource": "pdf",
+      "highlight": "This principle appears in many public spaces; take recycling bins, for example, whose position can influence whether people use them."
+    },
+    {
+      "id": "ss278-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Delivery tracking shows how one small piece of information can reduce customer anxiety.",
+      "promptZh": "送貨追蹤功能顯示，一項簡短資訊可以減少顧客的焦慮。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many digital services can reduce anxiety—take delivery tracking, for example, where one small piece of information can reassure customers.",
+      "answerZh": "很多數碼服務都可以減少焦慮——以送貨追蹤功能為例，一項簡短資訊可以令顧客安心。",
+      "answerZhSource": "pdf",
+      "highlight": "Many digital services can reduce anxiety—take delivery tracking, for example, where one small piece of information can reassure customers."
+    },
+    {
+      "id": "ss278-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A school uniform is one example of a rule that can create both convenience and disagreement.",
+      "promptZh": "校服是一個例子，顯示一項規則可以同時帶來便利和分歧。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One can take a school uniform, for example: it is a rule that can create both convenience and disagreement.",
+      "answerZh": "我們可以校服為例：它是一項可以同時帶來便利和分歧的規則。",
+      "answerZhSource": "pdf",
+      "highlight": "One can take a school uniform, for example: it is a rule that can create both convenience and disagreement."
+    },
+    {
+      "id": "ss278-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "An emergency hotline shows how a short, clear message can be especially important under pressure.",
+      "promptZh": "緊急熱線顯示，簡短而清楚的訊息在壓力下可以尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you need a clear case, take an emergency hotline, for example: a short, clear message can be especially important under pressure.",
+      "answerZh": "如果你需要一個清楚案例，可以緊急熱線為例：簡短而清楚的訊息在壓力下可以尤其重要。",
+      "answerZhSource": "pdf",
+      "highlight": "If you need a clear case, take an emergency hotline, for example: a short, clear message can be especially important under pressure."
+    },
+    {
+      "id": "ss278-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Longer library opening hours show how a small change can make a public service more useful.",
+      "promptZh": "延長圖書館開放時間顯示，細微的改動可以令公共服務更加實用。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small changes can make public services more useful. Take longer library opening hours, for example.",
+      "answerZh": "細微的改動可以令公共服務更加實用。以延長圖書館開放時間為例。",
+      "answerZhSource": "pdf",
+      "highlight": "Small changes can make public services more useful. Take longer library opening hours, for example."
+    },
+    {
+      "id": "ss278-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Remote work shows how one policy can improve flexibility but complicate communication.",
+      "promptZh": "遙距工作顯示，一項安排可以增加彈性，但同時令溝通變得複雜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The same policy can improve flexibility but complicate communication—take remote work, for example.",
+      "answerZh": "同一項安排可以增加彈性，但同時令溝通變得複雜——以遙距工作為例。",
+      "answerZhSource": "pdf",
+      "highlight": "The same policy can improve flexibility but complicate communication—take remote work, for example."
+    },
+    {
+      "id": "ss278-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A pedestrian crossing shows how one design feature can protect people who are not using cars.",
+      "promptZh": "行人過路處顯示，一項設計可以保護並非使用汽車的人。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A single design feature can protect people who are not using cars; take a pedestrian crossing, for example.",
+      "answerZh": "一項設計可以保護並非使用汽車的人；以行人過路處為例。",
+      "answerZhSource": "pdf",
+      "highlight": "A single design feature can protect people who are not using cars; take a pedestrian crossing, for example."
+    },
+    {
+      "id": "ss278-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Short daily language lessons show how regular practice can be more useful than rare, lengthy sessions.",
+      "promptZh": "每天簡短的語言課程顯示，定期練習可以比偶爾進行的長時間課堂更有用。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In language learning, take short daily lessons, for example: regular practice can be more useful than rare, lengthy sessions.",
+      "answerZh": "在語言學習方面，以每天簡短的課堂為例：定期練習可以比偶爾進行的長時間課堂更有用。",
+      "answerZhSource": "pdf",
+      "highlight": "In language learning, take short daily lessons, for example: regular practice can be more useful than rare, lengthy sessions."
+    },
+    {
+      "id": "ss278-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Product reviews show how other people’s experiences can guide a buying decision.",
+      "promptZh": "產品評價顯示，其他人的經驗可以協助人們作出購買決定。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As evidence of this, take product reviews, for example: other people’s experiences can guide a buying decision.",
+      "answerZh": "要證明這一點，可以產品評價為例：其他人的經驗可以協助人們作出購買決定。",
+      "answerZhSource": "pdf",
+      "highlight": "As evidence of this, take product reviews, for example: other people’s experiences can guide a buying decision."
+    },
+    {
+      "id": "ss278-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Mobile payment shows how convenience can also create new concerns about privacy.",
+      "promptZh": "流動支付顯示，便利同時可以引起新的私隱憂慮。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There are cases where convenience creates new concerns. Take mobile payment, for example: it can raise concerns about privacy.",
+      "answerZh": "有些情況下，便利會引起新的憂慮。以流動支付為例：它可以引起私隱方面的憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "There are cases where convenience creates new concerns. Take mobile payment, for example: it can raise concerns about privacy."
+    },
+    {
+      "id": "ss278-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A clear team rota shows how planning can prevent two people from doing the same task.",
+      "promptZh": "清楚的團隊輪值表顯示，妥善規劃可以避免兩個人重複進行同一項工作。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This principle appears in everyday management—take a clear team rota, for example, which can prevent two people from doing the same task.",
+      "answerZh": "這項原則可以在日常管理中看到——以清楚的團隊輪值表為例，它可以避免兩個人重複進行同一項工作。",
+      "answerZhSource": "pdf",
+      "highlight": "This principle appears in everyday management—take a clear team rota, for example, which can prevent two people from doing the same task."
+    },
+    {
+      "id": "ss278-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A museum map shows how a visual guide can reduce the number of questions visitors need to ask.",
+      "promptZh": "博物館地圖顯示，視覺指引可以減少訪客需要提出的問題數量。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To see how a visual guide can reduce repeated questions, take a museum map, for example.",
+      "answerZh": "要了解視覺指引如何減少重複問題，可以博物館地圖為例。",
+      "answerZhSource": "pdf",
+      "highlight": "To see how a visual guide can reduce repeated questions, take a museum map, for example."
+    },
+    {
+      "id": "ss278-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Weather alerts show that information can be valuable even when people hope they will never need it.",
+      "promptZh": "天氣警報顯示，即使人們希望永遠不需要使用某項資訊，它仍然可以十分有價值。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The value of information is not limited to things people use every day; take weather alerts, for example, which people may value even while hoping never to need them.",
+      "answerZh": "資訊的價值並不限於人們每天使用的事物；以天氣警報為例，即使人們希望永遠不需要它們，也可能十分重視它們。",
+      "answerZhSource": "pdf",
+      "highlight": "The value of information is not limited to things people use every day; take weather alerts, for example, which people may value even while hoping never to need them."
+    },
+    {
+      "id": "ss278-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A supermarket self-checkout shows how convenience for one group can create difficulty for another.",
+      "promptZh": "超級市場自助付款機顯示，為一群人帶來的便利可以為另一群人造成困難。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even convenient systems can create new difficulties—take a supermarket self-checkout, for example: it may help one group while confusing another.",
+      "answerZh": "即使便利的系統也可以造成新的困難——以超級市場自助付款機為例：它可以幫助一群人，卻令另一群人感到困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "Even convenient systems can create new difficulties—take a supermarket self-checkout, for example: it may help one group while confusing another."
+    },
+    {
+      "id": "ss278-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A housing policy can affect rent, travelling time and access to schools, so one rule can influence many parts of life.",
+      "promptZh": "房屋政策可以影響租金、出行時間和入讀學校的機會，因此一項規則可以影響生活的很多方面。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A single rule can influence many parts of life—take a housing policy, for example, which can affect rent, travelling time and access to schools.",
+      "answerZh": "一項規則可以影響生活的很多方面——以房屋政策為例，它可以影響租金、出行時間和入讀學校的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "A single rule can influence many parts of life—take a housing policy, for example, which can affect rent, travelling time and access to schools."
+    },
+    {
+      "id": "ss278-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Password rules may appear technical, but they shape how safely and easily people use an online service.",
+      "promptZh": "密碼規則看似十分技術性，但它們會影響人們能否安全而方便地使用網上服務。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the issue may appear technical, take password rules, for example: they shape how safely and easily people use an online service.",
+      "answerZh": "雖然這個問題看似十分技術性，但可以密碼規則為例：它們會影響人們能否安全而方便地使用網上服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the issue may appear technical, take password rules, for example: they shape how safely and easily people use an online service."
+    },
+    {
+      "id": "ss278-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Sports coaching shows that the way instructions are given can affect both confidence and performance.",
+      "promptZh": "運動訓練顯示，給予指示的方法可以同時影響信心和表現。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When instructions influence both confidence and performance—take sports coaching, for example—the way they are given matters.",
+      "answerZh": "當指示會同時影響信心和表現時——以運動訓練為例——給予指示的方法便十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "When instructions influence both confidence and performance—take sports coaching, for example—the way they are given matters."
+    },
+    {
+      "id": "ss278-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A bus fare system is a useful case for testing whether a policy is simple, fair and easy to understand.",
+      "promptZh": "巴士票價制度是一個有用案例，可以用來檢視一項政策是否簡單、公平而容易理解。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To test whether a policy is simple, fair and easy to understand, take a bus fare system, for example.",
+      "answerZh": "要檢視一項政策是否簡單、公平而容易理解，可以巴士票價制度為例。",
+      "answerZhSource": "pdf",
+      "highlight": "To test whether a policy is simple, fair and easy to understand, take a bus fare system, for example."
+    },
+    {
+      "id": "ss278-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Paper forms may be easier for some users, while digital forms may be faster for others.",
+      "promptZh": "紙本表格對某些使用者可能較容易使用，而電子表格對其他人可能較快捷。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The contrast becomes clear when we take paper and digital forms, for example: one may be easier for some users, while the other may be faster for others.",
+      "answerZh": "如果我們以紙本表格和電子表格為例，當中的差異便會變得清楚：前者對某些使用者可能較容易使用，而後者對其他人可能較快捷。",
+      "answerZhSource": "pdf",
+      "highlight": "The contrast becomes clear when we take paper and digital forms, for example: one may be easier for some users, while the other may be faster for others."
+    },
+    {
+      "id": "ss278-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Reusable cups in a coffee shop provide a simple comparison between environmental goals and customer convenience.",
+      "promptZh": "咖啡店的可重用杯可以讓人簡單比較環保目標和顧客便利。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A simple comparison helps: take reusable cups in a coffee shop, for example, and compare environmental goals with customer convenience.",
+      "answerZh": "一個簡單比較便可以幫助理解：以咖啡店的可重用杯為例，並比較環保目標和顧客便利。",
+      "answerZhSource": "pdf",
+      "highlight": "A simple comparison helps: take reusable cups in a coffee shop, for example, and compare environmental goals with customer convenience."
+    },
+    {
+      "id": "ss278-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A school attendance policy may improve punctuality but also create problems for students with health difficulties.",
+      "promptZh": "學校出席政策可以改善準時情況，但也可能為有健康困難的學生帶來問題。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many policies produce effects beyond their original aim—take a school attendance policy, for example, which may improve punctuality but create problems for students with health difficulties.",
+      "answerZh": "很多政策都會產生超出原定目標的影響——以學校出席政策為例，它可以改善準時情況，但也可能為有健康困難的學生帶來問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Many policies produce effects beyond their original aim—take a school attendance policy, for example, which may improve punctuality but create problems for students with health difficulties."
+    },
+    {
+      "id": "ss278-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Road signs show why clear information must be noticed quickly, understood easily and acted on safely.",
+      "promptZh": "道路標誌顯示，為甚麼清楚的資訊必須讓人迅速留意、容易理解並安全地作出行動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The importance of clear information becomes obvious if we take road signs, for example: they must be noticed quickly, understood easily and acted on safely.",
+      "answerZh": "如果我們以道路標誌為例，清楚資訊的重要性便會十分明顯：人們必須迅速留意、容易理解並安全地按其指示行動。",
+      "answerZhSource": "pdf",
+      "highlight": "The importance of clear information becomes obvious if we take road signs, for example: they must be noticed quickly, understood easily and acted on safely."
+    },
+    {
+      "id": "ss278-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A hospital waiting room can show how noise, seating and information all affect the experience of a service.",
+      "promptZh": "醫院候診室可以顯示，噪音、座位和資訊如何共同影響人們使用服務的體驗。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A single place can show how several details shape a service; take a hospital waiting room, for example, where noise, seating and information all affect the experience.",
+      "answerZh": "一個地方也可以顯示多項細節如何影響服務；以醫院候診室為例，噪音、座位和資訊都會影響人們的體驗。",
+      "answerZhSource": "pdf",
+      "highlight": "A single place can show how several details shape a service; take a hospital waiting room, for example, where noise, seating and information all affect the experience."
+    },
+    {
+      "id": "ss278-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "An office lift shows how one small design decision can affect speed, accessibility and safety for many users.",
+      "promptZh": "辦公室升降機顯示，一項細微的設計決定可以影響很多使用者的速度、使用便利和安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The effect of design on daily use is easier to understand—take an office lift, for example, where one small decision can affect speed, accessibility and safety for many users.",
+      "answerZh": "設計對日常使用的影響可以更容易理解——以辦公室升降機為例，一項細微的決定可以影響很多使用者的速度、使用便利和安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The effect of design on daily use is easier to understand—take an office lift, for example, where one small decision can affect speed, accessibility and safety for many users."
+    }
+  ]
+}

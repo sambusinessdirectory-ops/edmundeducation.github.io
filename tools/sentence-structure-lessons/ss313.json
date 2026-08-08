@@ -1,0 +1,1233 @@
+{
+  "id": "ss313",
+  "order": 313,
+  "slug": "i-take-your-point-but-clause",
+  "title": "「I take your point, but + clause」禮貌表達不同意見",
+  "titleZh": "「I take your point, but + clause」禮貌表達不同意見",
+  "titleEn": "Using “I take your point, but + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 311 -「I take your point, but + clause」禮貌表達不同意見.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sha256": "fb5cb6cb34f38b44feae889839ff00219b3bc6d117e00e44ccb77733d5f0e976",
+    "sourceNumber": 311,
+    "systemOrder": 313,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 311 maps to ss313: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "I take your point, but + clause",
+  "formulas": [
+    {
+      "id": "ss313-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "I take your point, but + clause"
+    }
+  ],
+  "example": "I take your point, but the cost cannot simply be ignored.",
+  "exampleZh": "我明白你的觀點，但我們不能完全不考慮成本。",
+  "examples": [
+    {
+      "id": "ss313-example-01",
+      "en": "I take your point, but the cost cannot simply be ignored.",
+      "zh": "我明白你的觀點，但我們不能完全不考慮成本。",
+      "highlight": "I take your point, but the cost cannot simply be ignored."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss313-rule-01",
+      "zh": "後面需要完整子句有主語和動詞，因此是完整子句。",
+      "en": "But I take your point, but the cost is too high. I take your point, but the high cost. The cost is too high",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss313-rule-02",
+      "zh": "前面通常使用逗號在清晰、完整的書面英語中，兩個完整子句由 but 連接時，通常在 but 前加逗號。",
+      "en": "But I take your point**, but** we need more evidence. I take your point but we need more evidence.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss313-rule-03",
+      "zh": "這個句型表示「部分認同」，不是完全同意我明白你的觀點，但這項建議仍有幾個弱點。 說話者承認對方的觀點有道理，但仍然提出不同看法。",
+      "en": "I take your point, but the proposal still has several weaknesses.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss313-rule-04",
+      "zh": "後面應提出真正相關的保留我明白你對減價的看法，但公司仍然需要支付營運成本。 後半部分與討論無關。",
+      "en": "But Natural: I take your point about reducing the price, but the company still needs to cover its costs. Unnatural: I take your point about reducing the price, but my brother likes football.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss313-rule-05",
+      "zh": "後面可以是陳述句或真正相關的問題我明白你的觀點，但證據並不完整。 我明白你的觀點，但額外資金從何而來？",
+      "en": "But Statement: I take your point, but the evidence is incomplete. Question: I take your point, but where would the extra money come from?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss313-rule-06",
+      "zh": "本練習不使用其他相近表達代替核心句型以下說法意思相近，但不是本課的目標：【I see your point, but...；I understand your point, but...；You may be right, but...；I agree to some extent, but...；That is a fair point, but...】 所有答案必須包含：【I take your point】",
+      "en": "I see your point, but... I understand your point, but... You may be right, but... I agree to some extent, but... That is a fair point, but... I take your point",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss313-benefit-01",
+      "zh": "這個句型讓你先表示自己有聆聽和理解對方，然後才提出不同意見，語氣會比直接否定對方更有禮貌。你的想法行不通。 我明白你的觀點，但這個想法可能很難實行。 第二句仍然表達不同意，但聽起來較冷靜和尊重對方。",
+      "en": "It helps you disagree politely Instead of rejecting another person’s idea immediately, you first show that you have listened to and understood it. Compare: Your idea will not work. I take your point, but the idea may be difficult to put into practice.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss313-benefit-02",
+      "zh": "這個句型讓你先承認其中一方面有道理，再提出另一方面，使回應顯得更加全面和平衡。",
+      "en": "It makes your response balanced The structure lets you recognise one side of an argument before introducing another side.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss313-benefit-03",
+      "zh": "當對方知道你明白他的觀點時，他通常會更願意繼續聆聽你的回應。這對會議、課堂討論和小組工作特別有用。",
+      "en": "It helps discussions continue calmly People are more likely to continue listening when they feel that their ideas have been understood.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss313-benefit-04",
+      "zh": "這是一個實用的說話框架。你可以先說 I take your point, but...，再加入你的憂慮、問題或另一種看法，令即時回應更容易組織。",
+      "en": "It gives you a ready-made speaking frame You do not need to plan the whole response from the beginning. You can begin with: I take your point, but... and then add your concern, question or alternative view.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss313-benefit-05",
+      "zh": "在討論、簡報和工作訊息中，你有時需要承認某個建議有道理，同時解釋為甚麼它仍然不足。這個句型能清楚引入反方觀點或限制。",
+      "en": "It helps you introduce counterarguments In discussions, presentations and professional messages, you often need to respond to a reasonable idea while explaining why it may not be sufficient.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss313-benefit-06",
+      "zh": "你可以使用 about + 名詞／V-ing 或 that + 子句，清楚指出自己正在回應對方的哪一個觀點，避免意思含糊。",
+      "en": "The optional extensions make your meaning more precise You can use about + noun / V-ing or that + clause to show exactly which point you are answering.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 311 maps to ss313: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using I take your point, but + clause or one of its accepted optional",
+      "extensions.",
+      "Do not change the original meaning.",
+      "The position of I take your point may vary. Pay attention to the first-word hint.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 I take your point, but + clause 或本課接受的可選延伸改寫以下句子。",
+      "不要改變原意。",
+      "I take your point 在答案中的位置可能不同。請留意每題提供的首字提示。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss313-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I understand what you mean. However, the room is too small for the whole class.",
+      "promptZh": "我明白你的意思。不過，這個房間太小，容納不了全班學生。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point, but the room is too small for the whole class.",
+      "answerZh": "我明白你的觀點，但這個房間太小，容納不了全班學生。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point, but the room is too small for the whole class."
+    },
+    {
+      "id": "ss313-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Your suggestion is reasonable. Even so, we still need more time.",
+      "promptZh": "你的建議有道理。即使如此，我們仍然需要更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point, but we still need more time.",
+      "answerZh": "我明白你的觀點，但我們仍然需要更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point, but we still need more time."
+    },
+    {
+      "id": "ss313-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I understand your argument. Nevertheless, the price is higher than our budget allows.",
+      "promptZh": "我明白你的論點。不過，這個價格超出了我們的預算。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point, but the price is higher than our budget allows.",
+      "answerZh": "我明白你的觀點，但這個價格超出了我們的預算。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point, but the price is higher than our budget allows."
+    },
+    {
+      "id": "ss313-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I can see the advantage of the plan. However, it may confuse new students.",
+      "promptZh": "我明白這個計劃的好處。不過，它可能會令新生感到困惑。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point, but the plan may confuse new students.",
+      "answerZh": "我明白你的觀點，但這個計劃可能會令新生感到困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point, but the plan may confuse new students."
+    },
+    {
+      "id": "ss313-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I understand why the rule may seem unimportant. Still, it cannot simply be ignored.",
+      "promptZh": "我明白這項規則為甚麼看似不重要。可是，我們不能完全不理會它。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point, but the rule cannot simply be ignored.",
+      "answerZh": "我明白你的觀點，但我們不能完全不理會這項規則。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point, but the rule cannot simply be ignored."
+    },
+    {
+      "id": "ss313-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As for the timetable, your suggestion is reasonable. However, Friday would be difficult for several people.",
+      "promptZh": "至於時間表，你的建議有道理。不過，星期五對幾個人來說都不方便。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As for the timetable, I take your point, but Friday would be difficult for several people.",
+      "answerZh": "至於時間表，我明白你的觀點，但星期五對幾個人來說都不方便。",
+      "answerZhSource": "pdf",
+      "highlight": "As for the timetable, I take your point, but Friday would be difficult for several people."
+    },
+    {
+      "id": "ss313-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Regarding the new uniform, I understand your argument. However, some families may find it expensive.",
+      "promptZh": "關於新校服，我明白你的論點。不過，有些家庭可能會覺得它太昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "Regarding",
+      "answer": "Regarding the new uniform, I take your point, but some families may find it expensive.",
+      "answerZh": "關於新校服，我明白你的觀點，但有些家庭可能會覺得它太昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "Regarding the new uniform, I take your point, but some families may find it expensive."
+    },
+    {
+      "id": "ss313-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In principle, your idea makes sense. Even so, the change would be difficult to introduce immediately.",
+      "promptZh": "原則上，你的想法有道理。即使如此，這項改動很難立即推行。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In principle, I take your point, but the change would be difficult to introduce immediately.",
+      "answerZh": "原則上，我明白你的觀點，但這項改動很難立即推行。",
+      "answerZhSource": "pdf",
+      "highlight": "In principle, I take your point, but the change would be difficult to introduce immediately."
+    },
+    {
+      "id": "ss313-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I understand your point about the location. However, there is very little parking nearby.",
+      "promptZh": "我明白你對地點的看法。不過，附近的泊車位很少。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point about the location, but there is very little parking nearby.",
+      "answerZh": "我明白你對地點的看法，但附近的泊車位很少。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point about the location, but there is very little parking nearby."
+    },
+    {
+      "id": "ss313-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As far as the deadline is concerned, I understand your position. However, two days is not enough.",
+      "promptZh": "就截止日期而言，我明白你的立場。不過，兩天並不足夠。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as the deadline is concerned, I take your point, but two days is not enough.",
+      "answerZh": "就截止日期而言，我明白你的觀點，但兩天並不足夠。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as the deadline is concerned, I take your point, but two days is not enough."
+    },
+    {
+      "id": "ss313-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I understand your point about reducing homework. However, students still need regular practice.",
+      "promptZh": "我明白你對減少功課的看法。不過，學生仍然需要定期練習。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point about reducing homework, but students still need regular practice.",
+      "answerZh": "我明白你對減少功課的看法，但學生仍然需要定期練習。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point about reducing homework, but students still need regular practice."
+    },
+    {
+      "id": "ss313-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "To some extent, I agree with your reasoning. However, the figures do not support that conclusion.",
+      "promptZh": "在某程度上，我同意你的理據。不過，這些數字並不支持該結論。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To some extent, I take your point, but the figures do not support that conclusion.",
+      "answerZh": "在某程度上，我明白你的觀點，但這些數字並不支持該結論。",
+      "answerZhSource": "pdf",
+      "highlight": "To some extent, I take your point, but the figures do not support that conclusion."
+    },
+    {
+      "id": "ss313-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I understand your argument that the old system is slow. However, replacing it will be costly.",
+      "promptZh": "我明白你所提出的舊制度運作緩慢這一點。不過，更換制度的成本會很高。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point that the old system is slow, but replacing it will be costly.",
+      "answerZh": "我明白你所提出的舊制度運作緩慢這一點，但更換制度的成本會很高。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point that the old system is slow, but replacing it will be costly."
+    },
+    {
+      "id": "ss313-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After considering your argument, I understand why you support the plan. However, safety must remain our first priority.",
+      "promptZh": "考慮過你的論點後，我明白你為甚麼支持這個計劃。不過，安全仍然必須是我們的首要考慮。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After considering your argument, I take your point, but safety must remain our first priority.",
+      "answerZh": "考慮過你的論點後，我明白你的觀點，但安全仍然必須是我們的首要考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "After considering your argument, I take your point, but safety must remain our first priority."
+    },
+    {
+      "id": "ss313-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "From the customer’s point of view, your argument is reasonable. However, the instructions are still unclear.",
+      "promptZh": "從顧客的角度來看，你的論點有道理。不過，這些指示仍然不清楚。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the customer’s point of view, I take your point, but the instructions are still unclear.",
+      "answerZh": "從顧客的角度來看，我明白你的觀點，但這些指示仍然不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "From the customer’s point of view, I take your point, but the instructions are still unclear."
+    },
+    {
+      "id": "ss313-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I understand your point about holding the event outdoors. Nevertheless, we need a plan in case it rains.",
+      "promptZh": "我明白你對在戶外舉行活動的看法。不過，我們需要準備下雨時的應變計劃。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point about holding the event outdoors, but we need a plan in case it rains.",
+      "answerZh": "我明白你對在戶外舉行活動的看法，但我們需要準備下雨時的應變計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point about holding the event outdoors, but we need a plan in case it rains."
+    },
+    {
+      "id": "ss313-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "On the issue of staff training, your suggestion makes sense. However, one short session will not be enough.",
+      "promptZh": "在員工培訓方面，你的建議有道理。不過，一節短時間的培訓並不足夠。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the issue of staff training, I take your point, but one short session will not be enough.",
+      "answerZh": "在員工培訓方面，我明白你的觀點，但一節短時間的培訓並不足夠。",
+      "answerZhSource": "pdf",
+      "highlight": "On the issue of staff training, I take your point, but one short session will not be enough."
+    },
+    {
+      "id": "ss313-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At first glance, your proposal seems reasonable. However, it creates several practical problems.",
+      "promptZh": "乍看之下，你的建議似乎合理。不過，它會帶來幾個實際問題。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At first glance, I take your point, but the proposal creates several practical problems.",
+      "answerZh": "乍看之下，我明白你的觀點，但這項建議會帶來幾個實際問題。",
+      "answerZhSource": "pdf",
+      "highlight": "At first glance, I take your point, but the proposal creates several practical problems."
+    },
+    {
+      "id": "ss313-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "With respect to online lessons, I understand your concern. However, some students lack a quiet place to study.",
+      "promptZh": "關於網上課堂，我明白你的關注。不過，有些學生沒有安靜的地方溫習。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With respect to online lessons, I take your point, but some students lack a quiet place to study.",
+      "answerZh": "關於網上課堂，我明白你的觀點，但有些學生沒有安靜的地方溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "With respect to online lessons, I take your point, but some students lack a quiet place to study."
+    },
+    {
+      "id": "ss313-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In theory, your idea works. In practice, it may not work in a crowded classroom.",
+      "promptZh": "理論上，你的想法可行。實際上，它在擠迫的課室裏可能行不通。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In theory, I take your point, but the idea may not work in a crowded classroom.",
+      "answerZh": "理論上，我明白你的觀點，但這個想法在擠迫的課室裏可能行不通。",
+      "answerZhSource": "pdf",
+      "highlight": "In theory, I take your point, but the idea may not work in a crowded classroom."
+    },
+    {
+      "id": "ss313-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I understand your point that the advert is eye-catching. However, it does not explain the product clearly.",
+      "promptZh": "我明白你所提出的廣告十分搶眼這一點。不過，它沒有清楚介紹產品。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point that the advert is eye-catching, but it does not explain the product clearly.",
+      "answerZh": "我明白你所提出的廣告十分搶眼這一點，但它沒有清楚介紹產品。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point that the advert is eye-catching, but it does not explain the product clearly."
+    },
+    {
+      "id": "ss313-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "On the question of cost, I understand your concern. However, what would happen if prices rose again?",
+      "promptZh": "在成本問題上，我明白你的關注。不過，如果價格再次上升，會怎樣呢？",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the question of cost, I take your point, but what would happen if prices rose again?",
+      "answerZh": "在成本問題上，我明白你的觀點，但如果價格再次上升，會怎樣呢？",
+      "answerZhSource": "pdf",
+      "highlight": "On the question of cost, I take your point, but what would happen if prices rose again?"
+    },
+    {
+      "id": "ss313-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After looking at the data, I can see why you expect the trend to continue. However, we cannot be certain that it will.",
+      "promptZh": "查看數據後，我明白你為甚麼預期這個趨勢會持續。不過，我們不能確定它一定會延續。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After looking at the data, I take your point, but we cannot be certain that the trend will continue.",
+      "answerZh": "查看數據後，我明白你的觀點，但我們不能確定這個趨勢會持續。",
+      "answerZhSource": "pdf",
+      "highlight": "After looking at the data, I take your point, but we cannot be certain that the trend will continue."
+    },
+    {
+      "id": "ss313-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I understand your point about hiring more staff. However, where would the extra money come from?",
+      "promptZh": "我明白你對聘請更多員工的看法。不過，額外資金從何而來？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point about hiring more staff, but where would the extra money come from?",
+      "answerZh": "我明白你對聘請更多員工的看法，但額外資金從何而來？",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point about hiring more staff, but where would the extra money come from?"
+    },
+    {
+      "id": "ss313-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "From a teacher’s perspective, your suggestion has merit. However, the task may be too difficult for beginners.",
+      "promptZh": "從老師的角度來看，你的建議有可取之處。不過，這項任務對初學者來說可能太困難。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From a teacher’s perspective, I take your point, but the task may be too difficult for beginners.",
+      "answerZh": "從老師的角度來看，我明白你的觀點，但這項任務對初學者來說可能太困難。",
+      "answerZhSource": "pdf",
+      "highlight": "From a teacher’s perspective, I take your point, but the task may be too difficult for beginners."
+    },
+    {
+      "id": "ss313-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I understand your point that the app saves time. However, users still need to understand how their data is stored.",
+      "promptZh": "我明白你所提出的應用程式能節省時間這一點。不過，使用者仍需了解系統如何儲存他們的資料。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point that the app saves time, but users still need to understand how their data is stored.",
+      "answerZh": "我明白你所提出的應用程式能節省時間這一點，但使用者仍需了解系統如何儲存他們的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point that the app saves time, but users still need to understand how their data is stored."
+    },
+    {
+      "id": "ss313-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "At the same time, I understand your position. However, we should not overlook the effect on local residents.",
+      "promptZh": "與此同時，我明白你的立場。不過，我們不應忽略這件事對本地居民的影響。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the same time, I take your point, but we should not overlook the effect on local residents.",
+      "answerZh": "與此同時，我明白你的觀點，但我們不應忽略這件事對本地居民的影響。",
+      "answerZhSource": "pdf",
+      "highlight": "At the same time, I take your point, but we should not overlook the effect on local residents."
+    },
+    {
+      "id": "ss313-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Regarding the proposed route, your argument is reasonable. However, emergency vehicles must still be able to get through.",
+      "promptZh": "關於建議中的路線，你的論點有道理。不過，緊急車輛仍然必須能夠通過。",
+      "promptZhSource": "pdf",
+      "starter": "Regarding",
+      "answer": "Regarding the proposed route, I take your point, but emergency vehicles must still be able to get through.",
+      "answerZh": "關於建議中的路線，我明白你的觀點，但緊急車輛仍然必須能夠通過。",
+      "answerZhSource": "pdf",
+      "highlight": "Regarding the proposed route, I take your point, but emergency vehicles must still be able to get through."
+    },
+    {
+      "id": "ss313-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I understand your point about making the office more informal. However, some clients expect a professional setting.",
+      "promptZh": "我明白你對令辦公室氣氛更輕鬆的看法。不過，有些客戶期望辦公環境保持專業。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point about making the office more informal, but some clients expect a professional setting.",
+      "answerZh": "我明白你對令辦公室氣氛更輕鬆的看法，但有些客戶期望辦公環境保持專業。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point about making the office more informal, but some clients expect a professional setting."
+    },
+    {
+      "id": "ss313-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At this stage, your suggestion seems sensible. However, we should test the idea before using it everywhere.",
+      "promptZh": "在現階段，你的建議似乎合理。不過，我們應先測試這個想法，才全面採用。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, I take your point, but we should test the idea before using it everywhere.",
+      "answerZh": "在現階段，我明白你的觀點，但我們應先測試這個想法，才全面採用。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, I take your point, but we should test the idea before using it everywhere."
+    },
+    {
+      "id": "ss313-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I understand your point that working from home can improve flexibility. However, it may also make teamwork more difficult.",
+      "promptZh": "我明白你所提出的在家工作能增加彈性這一點。不過，它也可能令團隊合作更加困難。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point that working from home can improve flexibility, but it may also make teamwork more difficult.",
+      "answerZh": "我明白你所提出的在家工作能增加彈性這一點，但它也可能令團隊合作更加困難。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point that working from home can improve flexibility, but it may also make teamwork more difficult."
+    },
+    {
+      "id": "ss313-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In principle, your proposal is reasonable. However, no decision should be made until everyone has been consulted.",
+      "promptZh": "原則上，你的建議是合理的。不過，在諮詢所有人之前，不應作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In principle, I take your point, but no decision should be made until everyone has been consulted.",
+      "answerZh": "原則上，我明白你的觀點，但在諮詢所有人之前，不應作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "In principle, I take your point, but no decision should be made until everyone has been consulted."
+    },
+    {
+      "id": "ss313-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As far as public safety is concerned, I understand your position. However, the damaged bridge must remain closed.",
+      "promptZh": "就公眾安全而言，我明白你的立場。不過，受損的橋樑必須繼續封閉。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as public safety is concerned, I take your point, but the damaged bridge must remain closed.",
+      "answerZh": "就公眾安全而言，我明白你的觀點，但受損的橋樑必須繼續封閉。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as public safety is concerned, I take your point, but the damaged bridge must remain closed."
+    },
+    {
+      "id": "ss313-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After hearing both sides, I understand your argument. However, the evidence is still incomplete.",
+      "promptZh": "聽過雙方的意見後，我明白你的論點。不過，證據仍然並不完整。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After hearing both sides, I take your point, but the evidence is still incomplete.",
+      "answerZh": "聽過雙方的意見後，我明白你的觀點，但證據仍然並不完整。",
+      "answerZhSource": "pdf",
+      "highlight": "After hearing both sides, I take your point, but the evidence is still incomplete."
+    },
+    {
+      "id": "ss313-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I understand your point about using volunteers. However, they will need proper training and supervision.",
+      "promptZh": "我明白你對使用義工的看法。不過，他們需要接受適當培訓和監督。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point about using volunteers, but they will need proper training and supervision.",
+      "answerZh": "我明白你對使用義工的看法，但他們需要接受適當培訓和監督。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point about using volunteers, but they will need proper training and supervision."
+    },
+    {
+      "id": "ss313-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "On balance, I agree that your argument has some force. However, the long-term risks are greater than the immediate benefits.",
+      "promptZh": "整體衡量後，我承認你的論點有一定道理。不過，長遠風險比眼前的好處更大。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On balance, I take your point, but the long-term risks are greater than the immediate benefits.",
+      "answerZh": "整體衡量後，我明白你的觀點，但長遠風險比眼前的好處更大。",
+      "answerZhSource": "pdf",
+      "highlight": "On balance, I take your point, but the long-term risks are greater than the immediate benefits."
+    },
+    {
+      "id": "ss313-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I understand your point that the building has historical value. However, it is no longer safe for public use.",
+      "promptZh": "我明白你所提出的這座建築物具有歷史價值這一點。不過，它已不再適合公眾安全使用。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point that the building has historical value, but it is no longer safe for public use.",
+      "answerZh": "我明白你所提出的這座建築物具有歷史價值這一點，但它已不再適合公眾安全使用。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point that the building has historical value, but it is no longer safe for public use."
+    },
+    {
+      "id": "ss313-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In relation to the survey, I understand why you find the results convincing. However, the sample was too small to represent the whole community.",
+      "promptZh": "關於這項調查，我明白你為甚麼覺得結果有說服力。不過，樣本太小，不能代表整個社區。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In relation to the survey, I take your point, but the sample was too small to represent the whole community.",
+      "answerZh": "關於這項調查，我明白你的觀點，但樣本太小，不能代表整個社區。",
+      "answerZhSource": "pdf",
+      "highlight": "In relation to the survey, I take your point, but the sample was too small to represent the whole community."
+    },
+    {
+      "id": "ss313-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I understand your point about introducing the policy gradually. However, can we guarantee that every department will follow it?",
+      "promptZh": "我明白你對逐步推行政策的看法。不過，我們能保證每個部門都會遵守嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point about introducing the policy gradually, but can we guarantee that every department will follow it?",
+      "answerZh": "我明白你對逐步推行政策的看法，但我們能保證每個部門都會遵守嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point about introducing the policy gradually, but can we guarantee that every department will follow it?"
+    },
+    {
+      "id": "ss313-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "From a safety perspective, your argument is understandable. However, the machine should not be used until the fault has been repaired.",
+      "promptZh": "從安全角度來看，你的論點可以理解。不過，在故障修妥之前，不應使用這部機器。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From a safety perspective, I take your point, but the machine should not be used until the fault has been repaired.",
+      "answerZh": "從安全角度來看，我明白你的觀點，但在故障修妥之前，不應使用這部機器。",
+      "answerZhSource": "pdf",
+      "highlight": "From a safety perspective, I take your point, but the machine should not be used until the fault has been repaired."
+    },
+    {
+      "id": "ss313-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I understand your point that social media can help small businesses reach more customers. However, relying on it alone would be risky.",
+      "promptZh": "我明白你所提出的社交媒體能幫助小型企業接觸更多顧客這一點。不過，完全依賴它會有風險。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point that social media can help small businesses reach more customers, but relying on it alone would be risky.",
+      "answerZh": "我明白你所提出的社交媒體能幫助小型企業接觸更多顧客這一點，但完全依賴它會有風險。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point that social media can help small businesses reach more customers, but relying on it alone would be risky."
+    },
+    {
+      "id": "ss313-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In environmental terms, your proposal has some advantages. However, replacing every vehicle immediately would create other forms of waste.",
+      "promptZh": "從環境角度來看，你的建議有一些好處。不過，立即更換所有車輛會產生其他形式的浪費。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In environmental terms, I take your point, but replacing every vehicle immediately would create other forms of waste.",
+      "answerZh": "從環境角度來看，我明白你的觀點，但立即更換所有車輛會產生其他形式的浪費。",
+      "answerZhSource": "pdf",
+      "highlight": "In environmental terms, I take your point, but replacing every vehicle immediately would create other forms of waste."
+    },
+    {
+      "id": "ss313-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "After reviewing the proposal in detail, I understand your main argument. However, several responsibilities have not been assigned clearly.",
+      "promptZh": "仔細審閱建議後，我明白你的主要論點。不過，有幾項責任仍未清楚分配。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After reviewing the proposal in detail, I take your point, but several responsibilities have not been assigned clearly.",
+      "answerZh": "仔細審閱建議後，我明白你的觀點，但有幾項責任仍未清楚分配。",
+      "answerZhSource": "pdf",
+      "highlight": "After reviewing the proposal in detail, I take your point, but several responsibilities have not been assigned clearly."
+    },
+    {
+      "id": "ss313-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "On the wider issue of fairness, I understand what you mean. However, the same rule cannot be applied to every case.",
+      "promptZh": "在更廣泛的公平問題上，我明白你的意思。不過，同一項規則不能套用於所有情況。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the wider issue of fairness, I take your point, but the same rule cannot be applied to every case.",
+      "answerZh": "在更廣泛的公平問題上，我明白你的觀點，但同一項規則不能套用於所有情況。",
+      "answerZhSource": "pdf",
+      "highlight": "On the wider issue of fairness, I take your point, but the same rule cannot be applied to every case."
+    },
+    {
+      "id": "ss313-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I understand your point about allowing more choice. However, too many options may make the decision harder rather than easier.",
+      "promptZh": "我明白你對提供更多選擇的看法。不過，選項太多可能會令決定變得更困難，而不是更容易。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point about allowing more choice, but too many options may make the decision harder rather than easier.",
+      "answerZh": "我明白你對提供更多選擇的看法，但選項太多可能會令決定變得更困難，而不是更容易。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point about allowing more choice, but too many options may make the decision harder rather than easier."
+    },
+    {
+      "id": "ss313-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "From a long-term perspective, your argument is reasonable. However, cutting maintenance now could lead to higher costs later.",
+      "promptZh": "從長遠角度來看，你的論點有道理。不過，現在削減維修開支，日後可能會造成更高成本。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From a long-term perspective, I take your point, but cutting maintenance now could lead to higher costs later.",
+      "answerZh": "從長遠角度來看，我明白你的觀點，但現在削減維修開支，日後可能會造成更高成本。",
+      "answerZhSource": "pdf",
+      "highlight": "From a long-term perspective, I take your point, but cutting maintenance now could lead to higher costs later."
+    },
+    {
+      "id": "ss313-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "In practical terms, your idea is understandable. However, the new arrangement depends on equipment that has not yet arrived.",
+      "promptZh": "從實際角度來看，你的想法可以理解。不過，新安排依賴一些尚未送抵的設備。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In practical terms, I take your point, but the new arrangement depends on equipment that has not yet arrived.",
+      "answerZh": "從實際角度來看，我明白你的觀點，但新安排依賴一些尚未送抵的設備。",
+      "answerZhSource": "pdf",
+      "highlight": "In practical terms, I take your point, but the new arrangement depends on equipment that has not yet arrived."
+    },
+    {
+      "id": "ss313-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I understand your point that the campaign raised awareness. However, there is little evidence that it changed people’s behaviour.",
+      "promptZh": "我明白你所提出的宣傳活動提高了公眾意識這一點。不過，幾乎沒有證據顯示它改變了人們的行為。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I take your point that the campaign raised awareness, but there is little evidence that it changed people’s behaviour.",
+      "answerZh": "我明白你所提出的宣傳活動提高了公眾意識這一點，但幾乎沒有證據顯示它改變了人們的行為。",
+      "answerZhSource": "pdf",
+      "highlight": "I take your point that the campaign raised awareness, but there is little evidence that it changed people’s behaviour."
+    },
+    {
+      "id": "ss313-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "As a matter of principle, I understand your position. However, personal information should not be shared without permission.",
+      "promptZh": "從原則上來說，我明白你的立場。不過，未經許可不應分享個人資料。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As a matter of principle, I take your point, but personal information should not be shared without permission.",
+      "answerZh": "從原則上來說，我明白你的觀點，但未經許可不應分享個人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "As a matter of principle, I take your point, but personal information should not be shared without permission."
+    },
+    {
+      "id": "ss313-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Having considered both sides, I understand your argument. However, the policy should not be expanded until its effects have been independently reviewed.",
+      "promptZh": "考慮過雙方的意見後，我明白你的論點。不過，在政策成效經過獨立審查之前，不應擴大推行範圍。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having considered both sides, I take your point, but the policy should not be expanded until its effects have been independently reviewed.",
+      "answerZh": "考慮過雙方的意見後，我明白你的觀點，但在政策成效經過獨立審查之前，不應擴大推行範圍。",
+      "answerZhSource": "pdf",
+      "highlight": "Having considered both sides, I take your point, but the policy should not be expanded until its effects have been independently reviewed."
+    }
+  ]
+}

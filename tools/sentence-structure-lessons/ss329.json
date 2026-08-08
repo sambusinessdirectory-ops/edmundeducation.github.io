@@ -1,0 +1,1233 @@
+{
+  "id": "ss329",
+  "order": 329,
+  "slug": "x-is-easier-said-than-done",
+  "title": "「X is easier said than done」",
+  "titleZh": "「X is easier said than done」",
+  "titleEn": "Using “X is easier said than done”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 327 -「X is easier said than done」.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sha256": "1d1768f2780c6464b222e0f57f78321cf1ed6c963082fbe115f73b9cfcc2bf4a",
+    "sourceNumber": 327,
+    "systemOrder": 329,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 327 maps to ss329: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "X + be + easier said than done",
+  "formulas": [
+    {
+      "id": "ss329-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "X + be + easier said than done"
+    }
+  ],
+  "example": "Changing an old habit is easier said than done.",
+  "exampleZh": "改掉舊習慣說來容易，做起來卻很難。",
+  "examples": [
+    {
+      "id": "ss329-example-01",
+      "en": "Changing an old habit is easier said than done.",
+      "zh": "改掉舊習慣說來容易，做起來卻很難。",
+      "highlight": "Changing an old habit is easier said than done."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss329-rule-01",
+      "zh": "和 done 是固定形式正確：【easier said than done】 錯誤：【easier say than do；easier saying than doing；easier said than do】 詞語【said】和 done 在這個固定表達中不能隨意改變。",
+      "en": "said easier said than done easier say than do easier saying than doing easier said than do",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss329-rule-02",
+      "zh": "固定比較結構 easier said than done 中的 than 不可省略；省去 than 會令兩個過去分詞失去正確的比較關係。",
+      "en": "than The plan is easier said than done. The plan is easier said done.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss329-rule-03",
+      "zh": "按主語、時態或語氣改寫時，只改變前面的 be 動詞；easier said than done 這個比較部分保持不變。",
+      "en": "The plan is easier said than done. The plan was easier said than done. The plan has been easier said than done. The plan may be easier said than done.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss329-rule-04",
+      "zh": "必須是可以實行、完成或達成的事情自然：【Changing a habit is easier said than done.】 自然：【Keeping the promise is easier said than done.】 不自然：【The blue chair is easier said than done.】 椅子本身不是一項需要實行或完成的行動，因此不適合使用這個表達。",
+      "en": "X Changing a habit is easier said than done. Keeping the promise is easier said than done. The blue chair is easier said than done.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss329-rule-05",
+      "zh": "這個表達不是字面比較說話和做事並不是指說出 “changing a company’s culture” 這幾個字很容易。它表示：提出「改變公司文化」這個想法很容易，但真正令改變發生卻很困難。",
+      "en": "Changing a company’s culture is easier said than done.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss329-rule-06",
+      "zh": "本課不以其他近義改寫作為答案以下句子意思相近，但不是本課的目標答案：【It is easy to talk about but difficult to achieve.】 本練習要求使用固定表達：【easier said than done】",
+      "en": "It is easy to talk about but difficult to achieve. It sounds simple but is difficult in practice. The idea is easier to describe than to carry out. easier said than done",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss329-benefit-01",
+      "zh": "這個表達能指出「想法」與「現實」之間的差距。某項建議可能聽起來很簡單，但實際執行卻很困難。",
+      "en": "It shows the difference between an idea and reality This expression tells the listener that a suggestion may sound simple, although carrying it out is difficult.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss329-benefit-02",
+      "zh": "你不需要作出一段很長的解釋，只需使用一個常見的固定表達。第二句較短、更直接，而且仍然保留主要意思。",
+      "en": "It expresses a long idea in a short form Instead of giving a long explanation, you can use one familiar expression. Compare: People often say that changing a company’s culture is simple, but actually changing the behaviour and attitudes of the employees is extremely difficult. Changing a company’s culture is easier said than done.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss329-benefit-03",
+      "zh": "你可以用它指出某項建議不容易實行，而不需要直接批評對方錯誤，因此語氣可以比較自然和婉轉。例句 A：只要叫所有人工作快一點便可以。例句 B：這說來容易，做起來卻很難。",
+      "en": "It helps you disagree without sounding too aggressive You can use it to question an unrealistic suggestion without directly saying that the other person is wrong. A: Just ask everyone to work faster. B: That is easier said than done.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss329-benefit-04",
+      "zh": "這個表達能提醒讀者考慮實際困難，令討論、作文和報告不會只停留在理想層面。",
+      "en": "It adds realism to discussions and arguments The expression reminds readers that practical difficulties must be considered.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss329-benefit-05",
+      "zh": "這個表達可以作為句子的主要訊息，也可以放在 that 從句、although 從句或關係子句中，讓你的句式更有變化。",
+      "en": "It can appear in many parts of a sentence You can use it as the main message, inside a that-clause, after although, or inside a relative clause.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss329-benefit-06",
+      "zh": "它適合用於日常對話，也適合討論習慣、計劃、承諾、政策、商業改革和社會問題。",
+      "en": "It is useful in everyday and professional English It can be used when discussing habits, plans, promises, policies, business changes and social problems.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 327 maps to ss329: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using easier said than done.",
+      "Preserve the original meaning, tense, modality and supporting information.",
+      "The target expression may appear in different parts of the answer.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 easier said than done 改寫以下句子。",
+      "保留原句的意思、時態、情態和補充資料。",
+      "目標表達可以出現在答案的不同位置。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss329-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is easy to say that you will change an old habit, but actually changing it is difficult.",
+      "promptZh": "說自己會改掉舊習慣很容易，但真正作出改變卻很困難。",
+      "promptZhSource": "pdf",
+      "starter": "Changing",
+      "answer": "Changing an old habit is easier said than done.",
+      "answerZh": "改掉舊習慣說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Changing an old habit is easier said than done."
+    },
+    {
+      "id": "ss329-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Putting aside part of your salary each month sounds simple, but high living costs make it difficult.",
+      "promptZh": "每月把部分薪金儲起來聽起來很簡單，但高昂的生活費令這件事變得困難。",
+      "promptZhSource": "pdf",
+      "starter": "Saving",
+      "answer": "Saving part of your salary each month is easier said than done when living costs are high.",
+      "answerZh": "生活費高昂時，每月把部分薪金儲起來說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Saving part of your salary each month is easier said than done when living costs are high."
+    },
+    {
+      "id": "ss329-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The plan is to keep the room tidy. It sounds easy, but without a daily routine, carrying it out is difficult.",
+      "promptZh": "這個計劃是保持房間整潔。這聽起來很容易，但如果沒有日常習慣，實行起來卻很困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan to keep the room tidy is easier said than done without a daily routine.",
+      "answerZh": "如果沒有日常習慣，保持房間整潔的計劃說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan to keep the room tidy is easier said than done without a daily routine."
+    },
+    {
+      "id": "ss329-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "People often tell us to stay calm during an argument, but many people find this difficult.",
+      "promptZh": "人們經常叫我們在爭論時保持冷靜，但很多人都覺得這很困難。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For many people, staying calm during an argument is easier said than done.",
+      "answerZh": "對很多人來說，在爭論時保持冷靜說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "For many people, staying calm during an argument is easier said than done."
+    },
+    {
+      "id": "ss329-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Saying “I will exercise every morning” is easy, but doing it after a late night is hard.",
+      "promptZh": "說「我每天早上都會做運動」很容易，但晚睡後真正做到卻很難。",
+      "promptZhSource": "pdf",
+      "starter": "Exercising",
+      "answer": "Exercising every morning is easier said than done after a late night.",
+      "answerZh": "晚睡後每天早上做運動，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Exercising every morning is easier said than done after a late night."
+    },
+    {
+      "id": "ss329-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It sounds simple to spend less time looking at screens, but work and study may both require a computer.",
+      "promptZh": "減少看螢幕的時間聽起來很簡單，但工作和學習都可能需要使用電腦。",
+      "promptZhSource": "pdf",
+      "starter": "Reducing",
+      "answer": "Reducing screen time is easier said than done when work and study both require a computer.",
+      "answerZh": "當工作和學習都需要使用電腦時，減少螢幕時間說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Reducing screen time is easier said than done when work and study both require a computer."
+    },
+    {
+      "id": "ss329-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Speaking slowly during a presentation is difficult, although it helps the audience follow your ideas.",
+      "promptZh": "在簡報時放慢說話速度並不容易，雖然這有助觀眾理解你的想法。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although speaking slowly during a presentation is easier said than done, it helps the audience follow your ideas.",
+      "answerZh": "雖然在簡報時放慢說話速度說來容易、做起來難，但這有助觀眾理解你的想法。",
+      "answerZhSource": "pdf",
+      "highlight": "Although speaking slowly during a presentation is easier said than done, it helps the audience follow your ideas."
+    },
+    {
+      "id": "ss329-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Cooking at home every night sounds easy, but people who work late may find it difficult.",
+      "promptZh": "每天晚上在家煮飯聽起來很容易，但工作至很晚的人可能會覺得很困難。",
+      "promptZhSource": "pdf",
+      "starter": "Cooking",
+      "answer": "Cooking at home every night can be easier said than done for people who work late.",
+      "answerZh": "對工作至很晚的人來說，每天晚上在家煮飯可能說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Cooking at home every night can be easier said than done for people who work late."
+    },
+    {
+      "id": "ss329-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before we started, moving house seemed simple. We later found it difficult because we had far more boxes than expected.",
+      "promptZh": "開始之前，搬屋似乎很簡單。後來我們發現這很困難，因為箱子的數量遠比預期多。",
+      "promptZhSource": "pdf",
+      "starter": "Moving",
+      "answer": "Moving house was easier said than done because we had far more boxes than expected.",
+      "answerZh": "由於箱子的數量遠比預期多，搬屋當時說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Moving house was easier said than done because we had far more boxes than expected."
+    },
+    {
+      "id": "ss329-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is easy to tell adults to be patient with young children, but this can be hard at the end of a tiring day.",
+      "promptZh": "叫成年人對年幼的孩子保持耐性很容易，但在疲累的一天結束時，這可能很難做到。",
+      "promptZhSource": "pdf",
+      "starter": "Being",
+      "answer": "Being patient with young children is often easier said than done at the end of a tiring day.",
+      "answerZh": "在疲累的一天結束時，對年幼的孩子保持耐性往往說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Being patient with young children is often easier said than done at the end of a tiring day."
+    },
+    {
+      "id": "ss329-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "People often advise us to ignore rude comments, but following that advice is difficult in a tense situation.",
+      "promptZh": "人們經常勸我們不要理會無禮的說話，但在氣氛緊張時，遵從這項建議並不容易。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The advice to ignore rude comments is easier said than done in a tense situation.",
+      "answerZh": "在氣氛緊張時，不要理會無禮說話這項建議，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "The advice to ignore rude comments is easier said than done in a tense situation."
+    },
+    {
+      "id": "ss329-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Learning twenty new words a day sounds easy, but doing it without regular revision is difficult.",
+      "promptZh": "每天學習二十個新單字聽起來很容易，但如果沒有定期溫習，便很難做到。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To learn twenty new words a day is easier said than done without regular revision.",
+      "answerZh": "如果沒有定期溫習，每天學習二十個新單字說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "To learn twenty new words a day is easier said than done without regular revision."
+    },
+    {
+      "id": "ss329-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Promising something is easy, but keeping every promise is difficult when plans change unexpectedly.",
+      "promptZh": "作出承諾很容易，但當計劃突然改變時，要信守每個承諾卻很困難。",
+      "promptZhSource": "pdf",
+      "starter": "Keeping",
+      "answer": "Keeping every promise is easier said than done when plans change unexpectedly.",
+      "answerZh": "當計劃突然改變時，信守每個承諾說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Keeping every promise is easier said than done when plans change unexpectedly."
+    },
+    {
+      "id": "ss329-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Many workers talk about having a healthy balance between work and personal life, but achieving it is difficult.",
+      "promptZh": "很多僱員都談及在工作與私人生活之間保持健康平衡，但要真正做到並不容易。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For many workers, maintaining a healthy work-life balance is easier said than done.",
+      "answerZh": "對很多僱員來說，維持健康的工作與生活平衡，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "For many workers, maintaining a healthy work-life balance is easier said than done."
+    },
+    {
+      "id": "ss329-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Someone suggested finishing the task today. That sounds simple, but doing it will be difficult because time is limited.",
+      "promptZh": "有人建議今天完成任務。這聽起來很簡單，但由於時間有限，真正做到會很困難。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That is easier said than done when time is limited.",
+      "answerZh": "時間有限時，這件事說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "That is easier said than done when time is limited."
+    },
+    {
+      "id": "ss329-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "People often say that we should remain positive after a serious disappointment, but actually doing so is difficult.",
+      "promptZh": "人們經常說，我們在遭遇嚴重失望後應該保持積極，但真正做到卻很困難。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is easier said than done to remain positive after a serious disappointment.",
+      "answerZh": "遭遇嚴重失望後仍然保持積極，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "It is easier said than done to remain positive after a serious disappointment."
+    },
+    {
+      "id": "ss329-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It is easy to say that everyone should agree, but making that happen is very difficult in a large group.",
+      "promptZh": "說每個人都應該達成共識很容易，但在大型團體中真正做到卻非常困難。",
+      "promptZhSource": "pdf",
+      "starter": "Making",
+      "answer": "Making everyone agree is much easier said than done in a large group.",
+      "answerZh": "在大型團體中，要令所有人達成共識，說起來遠比做起來容易。",
+      "answerZhSource": "pdf",
+      "highlight": "Making everyone agree is much easier said than done in a large group."
+    },
+    {
+      "id": "ss329-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A complete change of routine sounds much simpler than it is after years of following the same habits.",
+      "promptZh": "多年來一直維持相同習慣後，徹底改變日常生活聽起來遠比實際容易。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A complete change of routine is far easier said than done after years of the same habits.",
+      "answerZh": "維持相同習慣多年後，要徹底改變日常生活，說起來遠比做起來容易。",
+      "answerZhSource": "pdf",
+      "highlight": "A complete change of routine is far easier said than done after years of the same habits."
+    },
+    {
+      "id": "ss329-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school said that it would introduce a new timetable, but putting it into practice was difficult.",
+      "promptZh": "學校表示會推行新的時間表，但實際執行時卻很困難。",
+      "promptZhSource": "pdf",
+      "starter": "Introducing",
+      "answer": "Introducing the new timetable was easier said than done for the school.",
+      "answerZh": "對學校來說，推行新的時間表當時說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Introducing the new timetable was easier said than done for the school."
+    },
+    {
+      "id": "ss329-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I promised to call my grandparents every week, but I have found it difficult since my working hours changed.",
+      "promptZh": "我答應每星期致電祖父母，但自從工作時間改變後，我發現很難信守這項承諾。",
+      "promptZhSource": "pdf",
+      "starter": "Keeping",
+      "answer": "Keeping the promise has been easier said than done since my working hours changed.",
+      "answerZh": "自從我的工作時間改變後，信守這項承諾一直說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Keeping the promise has been easier said than done since my working hours changed."
+    },
+    {
+      "id": "ss329-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company wants to cut costs without reducing staff. It may find that this goal is harder to achieve than to describe.",
+      "promptZh": "公司希望在不裁減員工的情況下降低成本。公司可能會發現，這個目標實行起來比說出來困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company may find that cutting costs without reducing staff is easier said than done.",
+      "answerZh": "公司可能會發現，在不裁減員工的情況下降低成本，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "The company may find that cutting costs without reducing staff is easier said than done."
+    },
+    {
+      "id": "ss329-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It sounds easy for every customer to receive the same level of service, but doing this can be difficult during busy periods.",
+      "promptZh": "讓每位顧客獲得相同水平的服務聽起來很容易，但在繁忙時段可能很難做到。",
+      "promptZhSource": "pdf",
+      "starter": "Providing",
+      "answer": "Providing equal service to every customer can be easier said than done during busy periods.",
+      "answerZh": "在繁忙時段，為每位顧客提供同等服務，可能說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Providing equal service to every customer can be easier said than done during busy periods."
+    },
+    {
+      "id": "ss329-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The team believes it can finish the project in two weeks, but with only three members, it could discover that the task is harder in practice than it sounds.",
+      "promptZh": "團隊相信可以在兩星期內完成項目，但由於只有三名成員，他們可能會發現實際執行比聽起來困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team could discover that finishing the project in two weeks is easier said than done with only three members.",
+      "answerZh": "團隊可能會發現，只有三名成員時，要在兩星期內完成項目，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "The team could discover that finishing the project in two weeks is easier said than done with only three members."
+    },
+    {
+      "id": "ss329-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The change sounds simple, but it will be difficult unless everyone cooperates from the beginning.",
+      "promptZh": "這項改變聽起來很簡單，但除非每個人從一開始便合作，否則實行起來會很困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The change will be easier said than done unless everyone cooperates from the beginning.",
+      "answerZh": "除非每個人從一開始便合作，否則這項改變會說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "The change will be easier said than done unless everyone cooperates from the beginning."
+    },
+    {
+      "id": "ss329-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "First-time parents are often told to get enough sleep, but many find this difficult.",
+      "promptZh": "初為父母的人經常被提醒要有充足睡眠，但很多人都覺得很難做到。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For first-time parents, getting enough sleep is often easier said than done.",
+      "answerZh": "對初為父母的人來說，獲得充足睡眠往往說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "For first-time parents, getting enough sleep is often easier said than done."
+    },
+    {
+      "id": "ss329-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "People working in a busy office may be told to avoid interruptions, but without a quiet workspace, doing so is difficult.",
+      "promptZh": "在繁忙辦公室工作的人可能會被提醒避免受到打擾，但如果沒有安靜的工作空間，便很難做到。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a busy office, avoiding interruptions is easier said than done without a quiet workspace.",
+      "answerZh": "在繁忙的辦公室中，如果沒有安靜的工作空間，要避免受到打擾，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "In a busy office, avoiding interruptions is easier said than done without a quiet workspace."
+    },
+    {
+      "id": "ss329-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Sharing responsibility sounds simple, but it is difficult. The group must still try.",
+      "promptZh": "分擔責任聽起來很簡單，但實際上很難。小組仍然必須嘗試。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although sharing responsibility is easier said than done, the group must try.",
+      "answerZh": "雖然分擔責任說來容易、做起來難，但小組仍然必須嘗試。",
+      "answerZhSource": "pdf",
+      "highlight": "Although sharing responsibility is easier said than done, the group must try."
+    },
+    {
+      "id": "ss329-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The goal sounds simple, but the small budget makes it difficult to achieve.",
+      "promptZh": "這個目標聽起來很簡單，但有限的預算令它很難實現。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The goal is easier said than done, especially with such a small budget.",
+      "answerZh": "這個目標說來容易，做起來卻很難，尤其是在預算如此有限的情況下。",
+      "answerZhSource": "pdf",
+      "highlight": "The goal is easier said than done, especially with such a small budget."
+    },
+    {
+      "id": "ss329-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "People want the discussion to remain friendly, but this may be difficult when opinions are strong.",
+      "promptZh": "人們希望討論保持友善，但當各人的意見強烈時，這可能很難做到。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may be easier said than done to keep the discussion friendly when opinions are strong.",
+      "answerZh": "當各人的意見強烈時，要讓討論保持友善，可能說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "It may be easier said than done to keep the discussion friendly when opinions are strong."
+    },
+    {
+      "id": "ss329-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The coach’s instructions sound simple, but the players may find them difficult to carry out under pressure.",
+      "promptZh": "教練的指示聽起來很簡單，但球員在壓力下可能會覺得很難做到。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the coach is asking the players to do is easier said than done under pressure.",
+      "answerZh": "在壓力下，教練要求球員做到的事情，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "What the coach is asking the players to do is easier said than done under pressure."
+    },
+    {
+      "id": "ss329-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The organisation promised to answer every message within an hour, but fulfilling this promise was difficult during the busy season.",
+      "promptZh": "該機構承諾在一小時內回覆每則訊息，但在繁忙季節很難兌現這項承諾。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The promise to answer every message within an hour was easier said than done during the busy season.",
+      "answerZh": "在繁忙季節，要實現一小時內回覆每則訊息的承諾，當時說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "The promise to answer every message within an hour was easier said than done during the busy season."
+    },
+    {
+      "id": "ss329-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "People have always said that a fair schedule should be easy to create, but it is difficult when everyone wants different days off.",
+      "promptZh": "人們一直認為公平的更表應該很容易制定，但當每個人都希望在不同日子休假時，便很難做到。",
+      "promptZhSource": "pdf",
+      "starter": "Creating",
+      "answer": "Creating a fair schedule has always been easier said than done when everyone wants different days off.",
+      "answerZh": "當每個人都希望在不同日子休假時，制定公平的更表一直說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Creating a fair schedule has always been easier said than done when everyone wants different days off."
+    },
+    {
+      "id": "ss329-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The manager admitted that although keeping both teams satisfied sounded simple, it was difficult in practice.",
+      "promptZh": "經理承認，雖然令兩個團隊都滿意聽起來很簡單，但實際上很難做到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager admitted that keeping both teams satisfied was easier said than done.",
+      "answerZh": "經理承認，要令兩個團隊都滿意，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager admitted that keeping both teams satisfied was easier said than done."
+    },
+    {
+      "id": "ss329-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Changing the policy sounds simple, but it is difficult. The committee should begin anyway.",
+      "promptZh": "修改政策聽起來很簡單，但實際上很困難。委員會無論如何也應該開始行動。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though changing the policy is easier said than done, the committee should begin.",
+      "answerZh": "儘管修改政策說來容易、做起來難，委員會仍然應該開始行動。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though changing the policy is easier said than done, the committee should begin."
+    },
+    {
+      "id": "ss329-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "People say that one solution can satisfy everyone, but finding such a solution is difficult in practice.",
+      "promptZh": "人們說一個方案可以令所有人滿意，但實際上很難找到這樣的方案。",
+      "promptZhSource": "pdf",
+      "starter": "Finding",
+      "answer": "Finding a solution that satisfies everyone is easier said than done in practice.",
+      "answerZh": "實際上，要找到一個令所有人滿意的方案，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Finding a solution that satisfies everyone is easier said than done in practice."
+    },
+    {
+      "id": "ss329-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The instruction “keep it simple” sounds easy, but it is difficult to follow when the topic is complex.",
+      "promptZh": "「保持簡單」這項指示聽起來很容易，但當主題複雜時，便很難遵從。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instruction to “keep it simple” is easier said than done when the topic is complex.",
+      "answerZh": "當主題複雜時，要遵從「保持簡單」這項指示，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "The instruction to “keep it simple” is easier said than done when the topic is complex."
+    },
+    {
+      "id": "ss329-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The town wants to reduce traffic, but without better public transport, this may be much harder to achieve than officials suggest.",
+      "promptZh": "該鎮希望減少交通流量，但如果沒有更完善的公共交通，這件事可能遠比官員所說的難以實現。",
+      "promptZhSource": "pdf",
+      "starter": "Reducing",
+      "answer": "Reducing traffic in the town may be much easier said than done without better public transport.",
+      "answerZh": "如果沒有更完善的公共交通，要減少鎮內的交通流量，說起來可能遠比做起來容易。",
+      "answerZhSource": "pdf",
+      "highlight": "Reducing traffic in the town may be much easier said than done without better public transport."
+    },
+    {
+      "id": "ss329-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Officials described the plan as simple, but carrying it out required more staff than expected.",
+      "promptZh": "官員形容這個計劃很簡單，但實行時所需的員工比預期更多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan, which was easier said than done, required more staff than expected.",
+      "answerZh": "這個計劃說來容易、做起來難，而且所需的員工比預期更多。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan, which was easier said than done, required more staff than expected."
+    },
+    {
+      "id": "ss329-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "People told us to rebuild trust after the mistake, but actually doing so was difficult.",
+      "promptZh": "人們叫我們在犯錯後重建信任，但真正做到卻很困難。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was easier said than done to rebuild trust after the mistake.",
+      "answerZh": "犯錯後重建信任，當時說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "It was easier said than done to rebuild trust after the mistake."
+    },
+    {
+      "id": "ss329-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The engineers first described the repair as small, but completing it became difficult after they examined the damage.",
+      "promptZh": "工程師最初形容維修工程規模很小，但在檢查損壞情況後，完成工程卻變得很困難。",
+      "promptZhSource": "pdf",
+      "starter": "Completing",
+      "answer": "Completing what sounded like a small repair was easier said than done once the engineers examined the damage.",
+      "answerZh": "工程師檢查損壞情況後，要完成那項聽起來規模很小的維修工程，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Completing what sounded like a small repair was easier said than done once the engineers examined the damage."
+    },
+    {
+      "id": "ss329-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The hospital wants to reduce waiting times without lowering standards, but it may discover that this is harder in practice than it sounds.",
+      "promptZh": "醫院希望在不降低服務水平的情況下縮短輪候時間，但可能會發現實際執行比聽起來困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital may discover that reducing waiting times without lowering standards is easier said than done.",
+      "answerZh": "醫院可能會發現，在不降低服務水平的情況下縮短輪候時間，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital may discover that reducing waiting times without lowering standards is easier said than done."
+    },
+    {
+      "id": "ss329-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Creating one system for all branches sounds simple, but it is difficult. The organisation still needs a common plan.",
+      "promptZh": "為所有分店建立同一套系統聽起來很簡單，但實際上很困難。該機構仍然需要一個共同計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although creating one system for all branches is easier said than done, the organisation still needs a common plan.",
+      "answerZh": "雖然為所有分店建立同一套系統說來容易、做起來難，但該機構仍然需要一個共同計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Although creating one system for all branches is easier said than done, the organisation still needs a common plan."
+    },
+    {
+      "id": "ss329-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Officials often say that affordable housing should be provided, but doing so is difficult without enough land and funding.",
+      "promptZh": "官員經常表示應該提供可負擔房屋，但如果沒有足夠土地和資金，便很難做到。",
+      "promptZhSource": "pdf",
+      "starter": "Providing",
+      "answer": "Providing affordable housing is easier said than done without enough land and funding.",
+      "answerZh": "如果沒有足夠土地和資金，提供可負擔房屋說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Providing affordable housing is easier said than done without enough land and funding."
+    },
+    {
+      "id": "ss329-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The government aims to cut waste by half within one year, but this goal may be much harder to achieve than to announce.",
+      "promptZh": "政府的目標是在一年內把廢物量減半，但這個目標實行起來可能遠比宣布時困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The government’s aim of cutting waste by half may be easier said than done within one year.",
+      "answerZh": "政府在一年內把廢物量減半的目標，可能說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "The government’s aim of cutting waste by half may be easier said than done within one year."
+    },
+    {
+      "id": "ss329-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "It sounds simple to keep personal information secure while making services convenient, but achieving both goals is difficult.",
+      "promptZh": "在保障個人資料安全的同時令服務方便易用，聽起來很簡單，但要同時達成兩個目標卻很困難。",
+      "promptZhSource": "pdf",
+      "starter": "Keeping",
+      "answer": "Keeping personal information secure while making services convenient is easier said than done.",
+      "answerZh": "既保障個人資料安全，又令服務方便易用，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "Keeping personal information secure while making services convenient is easier said than done."
+    },
+    {
+      "id": "ss329-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Expanding overseas sounds attractive to a small business, but without local partners, doing so can be difficult.",
+      "promptZh": "對小型企業來說，拓展海外市場聽起來很吸引，但如果沒有當地合作夥伴，便可能很難做到。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For a small business, expanding overseas can be easier said than done without local partners.",
+      "answerZh": "對小型企業來說，如果沒有當地合作夥伴，拓展海外市場可能說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "For a small business, expanding overseas can be easier said than done without local partners."
+    },
+    {
+      "id": "ss329-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The idea of giving every student individual support sounds sensible. However, carrying it out in a large class is difficult.",
+      "promptZh": "為每名學生提供個別支援這個想法聽起來很合理。然而，在人數眾多的班別中實行卻很困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The idea of giving every student individual support sounds sensible, but it is easier said than done in a large class.",
+      "answerZh": "為每名學生提供個別支援這個想法聽起來很合理，但在人數眾多的班別中，說來容易，做起來卻很難。",
+      "answerZhSource": "pdf",
+      "highlight": "The idea of giving every student individual support sounds sensible, but it is easier said than done in a large class."
+    },
+    {
+      "id": "ss329-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Officials described the reform clearly, but putting it into practice was difficult because several departments had to change their systems at the same time.",
+      "promptZh": "官員清楚說明了改革內容，但由於多個部門必須同時更改系統，實際執行時很困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reform was easier said than done, as several departments had to change their systems at the same time.",
+      "answerZh": "這項改革當時說來容易，做起來卻很難，因為多個部門必須同時更改系統。",
+      "answerZhSource": "pdf",
+      "highlight": "The reform was easier said than done, as several departments had to change their systems at the same time."
+    },
+    {
+      "id": "ss329-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "People often talk about building public trust, but doing so is difficult and requires consistent action over many years.",
+      "promptZh": "人們經常談及建立公眾信任，但這很難做到，而且需要多年持續行動。",
+      "promptZhSource": "pdf",
+      "starter": "Building",
+      "answer": "Building public trust, which is easier said than done, takes consistent action over many years.",
+      "answerZh": "建立公眾信任說來容易、做起來難，需要多年持續行動。",
+      "answerZhSource": "pdf",
+      "highlight": "Building public trust, which is easier said than done, takes consistent action over many years."
+    },
+    {
+      "id": "ss329-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Bringing lasting change to an organisation sounds simple, but it is extremely difficult. Even so, clear leadership and honest communication can make it possible.",
+      "promptZh": "為機構帶來持久改變聽起來很簡單，但實際上極為困難。即使如此，清晰的領導和坦誠的溝通仍可令它成為可能。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although bringing lasting change to an organisation is much easier said than done, clear leadership and honest communication can make it possible.",
+      "answerZh": "雖然為機構帶來持久改變說起來遠比做起來容易，但清晰的領導和坦誠的溝通仍可令它成為可能。",
+      "answerZhSource": "pdf",
+      "highlight": "Although bringing lasting change to an organisation is much easier said than done, clear leadership and honest communication can make it possible."
+    }
+  ]
+}

@@ -1,0 +1,1250 @@
+{
+  "id": "ss291",
+  "order": 291,
+  "slug": "it-is-not-for-person-to-verb",
+  "title": "「It is (not) for + person + to + verb」表示由誰決定",
+  "titleZh": "「It is (not) for + person + to + verb」表示由誰決定",
+  "titleEn": "Using “It is (not) for + person + to + verb”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 290 -「It is (not) for + person + to + verb」表示由誰決定.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sha256": "71e90cfa0e7897dde5ddf94db9a241798f1dbf3bad1914433f699f91987912d1",
+    "sourceNumber": 290,
+    "systemOrder": 291,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 290 maps to ss291: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "It + be + for + person + to + base verb It is for you to decide",
+  "formulas": [
+    {
+      "id": "ss291-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "It + be + for + person + to + base verb It is for you to decide"
+    }
+  ],
+  "example": "It is for you to decide.",
+  "exampleZh": "應由你作出決定。",
+  "examples": [
+    {
+      "id": "ss291-example-01",
+      "en": "It is for you to decide.",
+      "zh": "應由你作出決定。",
+      "highlight": "It is for you to decide."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss291-rule-01",
+      "zh": "核心句型可以在動詞後結束，句子仍然完整。應由你作出決定。 不應由我評斷。 或 say 後面的資料是可選的延伸部分，不是固定句型的一部分。應由你決定是否接受這項提議。 應由小組判定事故由甚麼引起。 誰需要負責，不應由我判定。",
+      "en": "The core structure is complete by itself The basic expression may end after the verb. It is for you to decide. It is not for me to judge. The information after decide, determine or say is an optional extension. decide, determine It is for you to decide whether to accept the offer. It is for the panel to determine what caused the accident. It is not for me to say who is responsible. The core expressions remain: It is for the panel to determine. It is not for me to say.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss291-rule-02",
+      "zh": "介詞 for 後面要用受格代名詞，例如 me、you、him、her、us 或 them；不可使用主格代名詞。",
+      "en": "Use object pronouns after “for” Use: for me for you for him for her for us for them It is for her to decide. It is for she to decide.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss291-rule-03",
+      "zh": "詞語【Decide】用於作出選擇或決定。應由家人決定是否搬遷。 詞語【Determine】常用於正式、仔細或根據證據作出的判定。應由法院判定是否有人違法。 詞語【Say】用於表示某人是適合或有權作出意見或判斷的人。應由醫生判斷治療是否奏效。",
+      "en": "“Decide”, “determine” and “say” have different uses Decide Use decide for making a choice or reaching a decision. It is for the family to decide whether to move. Determine Use determine for reaching an official, careful or evidence-based judgement. It is for the court to determine whether the law was broken. Say Use say when someone is the appropriate person to give an opinion or judgement. It is for the doctor to say whether the treatment is working.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss291-rule-04",
+      "zh": "核心句型不只限於使用 It is。應由委員會作出決定。 當時應由委員會作出決定。 將由委員會作出決定。 時態必須配合原句意思。",
+      "en": "The tense of “be” may change The basic structure is not limited to It is. Present: It is for the committee to decide. Past: It was for the committee to decide. Future: It will be for the committee to decide. The tense should match the original meaning.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss291-rule-05",
+      "zh": "目標句型可以放在引導分句之後。雖然專家可以提供意見，但應由委員會作出決定。 它也可以放在轉述句之中。職員明白，應由總監作出決定。 這些開首分句或轉述句只是可選的句子延伸，並不是固定核心句型的一部分。",
+      "en": "The structure does not always need to appear first The target structure may follow an introductory clause. Although experts may give advice, it is for the committee to decide. It may also appear inside a reported statement. The staff understood that it was for the director to decide. These opening or reporting clauses are optional sentence extensions. They are not part of the fixed core expression.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss291-rule-06",
+      "zh": "應由法官而不是報章判定證據是否充分。 用來加入對比；即使刪去，核心句子仍然完整。應由法官判定證據是否充分。",
+      "en": "A contrast may be inserted after the person It is for + person A, not person B, to + verb It is for the judge, not the newspaper, to determine whether the evidence is sufficient. The phrase not person B adds a contrast. The sentence remains complete without it. not person B It is for the judge to determine whether the evidence is sufficient.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss291-rule-07",
+      "zh": "應由父母決定孩子入讀哪間學校，而應由學生決定修讀哪些選修科目。 在第二部分中，讀者已能理解省略了 it is，因此不必重複寫出。",
+      "en": "Two responsible parties may be contrasted It is for the parents to decide which school the child attends, but for the student to decide which optional subjects to take. In the second part, it is is understood and does not need to be repeated.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss291-rule-08",
+      "zh": "學生定期溫習十分重要。 這裏的 for students to revise regularly 說明誰應進行這項重要的行動。它並不表示學生擁有作出決定的權力。應由學生作出決定。 老師不應代他們作出決定。",
+      "en": "Do not confuse this structure with an adjective pattern The following sentence has a different structure: It is important for students to revise regularly. Here, for students to revise regularly explains who should perform an important action. It does not mean that students have the authority to make a decision. This lesson focuses on: It is for the students to decide. It is not for the teacher to decide for them.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss291-benefit-01",
+      "zh": "這個句型能清楚指出最後應由誰作出決定或判斷。顧問可以提出建議，但應由部長作出決定。 這句清楚區分了「提供意見」和「承擔最終決定責任」。",
+      "en": "It clearly shows who has the final responsibility This structure tells the listener exactly who should make the decision or judgement. The advisers may offer suggestions, but it is for the minister to decide. The sentence makes the difference between giving advice and having final responsibility clear.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss291-benefit-02",
+      "zh": "你不必直接指責某人干涉，也可以較有禮貌地表示該事情並不屬於對方的職責或權力範圍。你不應告訴他們如何使用金錢。 我們不應告訴他們如何使用金錢。 第二句把重點放在我們的身分和權力界線，而不是直接批評對方。",
+      "en": "It helps you set a polite boundary Instead of directly accusing someone of interfering, you can explain that the matter is outside that person’s role. Direct: You should not tell them how to spend their money. More controlled: It is not for us to tell them how to spend their money. The second version focuses on the limit of our role rather than attacking the other person.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss291-benefit-03",
+      "zh": "當決定必須由適當的人或機構作出時，這個句型尤其實用。應由法院判定證據是否充分。 某人是否有罪，不應由傳媒判定。",
+      "en": "It is useful when discussing fair decisions The structure is especially useful when decisions must be made by the correct person or organisation. It is for the court to determine whether the evidence is sufficient. It is not for the media to determine whether someone is guilty.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss291-benefit-04",
+      "zh": "很多人都可以提出意見，但最終責任可能只屬於某一個人或組織。雖然醫療團隊可以解釋各個選項，但應由病人作出決定。 這能讓讀者更容易理解不同人物所負責的角色。",
+      "en": "It separates advice from authority Many people may give opinions, but only one person or group may have the final responsibility. Although the medical team can explain the options, it is for the patient to decide. This makes the roles of the different people easier to understand.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss291-benefit-05",
+      "zh": "討論責任、個人選擇、專業權力或道德判斷時，你可以直接使用這個現成句型。這些句型框架能幫助你在說話時更快組織答案。",
+      "en": "It gives you a ready-made speaking frame You can use this structure when discussing responsibility, personal choice, professional authority or moral judgement. It is for ___ to decide. It is for ___ to determine whether ___. It is not for me to say ___. It is not for us to judge ___. These frames make it easier to organise an answer while speaking.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss291-benefit-06",
+      "zh": "這個句型可以直接使用，也可以放在引導分句之後或較長的轉述句中。應由董事會作出決定。 考慮證據後，應由董事會作出決定。 報告指出，當時應由董事會作出決定。 這能避免每句都使用完全相同的開首和排列方式。",
+      "en": "It allows more varied sentence organisation The structure can appear directly, after an introductory clause or inside a longer reported statement. Direct: It is for the board to decide. After an introductory clause: After considering the evidence, it is for the board to decide. Inside a reported statement: The report stated that it was for the board to decide. This helps prevent every sentence from having exactly the same opening and structure.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 290 maps to ss291: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using It is / was / will be for + person + to + verb or It is / was not for",
+      "+ person + to + verb.",
+      "The target structure may appear at the beginning, after an introductory clause or inside a longer",
+      "sentence.",
+      "Keep the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 It is / was / will be for + person + to + verb 或 It is / was not for + person + to + verb",
+      "改寫以下句子。",
+      "目標句型可以放在句首、引導分句之後，或較長句子之中。",
+      "答案必須保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss291-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The final choice is yours.",
+      "promptZh": "最終選擇由你決定。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is for you to decide.",
+      "answerZh": "應由你作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "It is for you to decide."
+    },
+    {
+      "id": "ss291-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I should not decide how they spend their money.",
+      "promptZh": "我不應決定他們如何使用自己的金錢。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not for me to decide how they spend their money.",
+      "answerZh": "他們如何使用自己的金錢，不應由我決定。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not for me to decide how they spend their money."
+    },
+    {
+      "id": "ss291-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In this class, the teacher should decide when the test will begin.",
+      "promptZh": "在這個班級中，測驗何時開始應由老師決定。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this class, it is for the teacher to decide when the test will begin.",
+      "answerZh": "在這個班級中，測驗何時開始應由老師決定。",
+      "answerZhSource": "pdf",
+      "highlight": "In this class, it is for the teacher to decide when the test will begin."
+    },
+    {
+      "id": "ss291-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We should not judge how another family raises its children.",
+      "promptZh": "我們不應評斷另一個家庭如何教養子女。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not for us to judge how another family raises its children.",
+      "answerZh": "另一個家庭如何教養子女，不應由我們評斷。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not for us to judge how another family raises its children."
+    },
+    {
+      "id": "ss291-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In this case, only the doctor can say whether the patient is ready to leave hospital.",
+      "promptZh": "在這種情況下，只有醫生可以判斷病人是否適合出院。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this case, it is for the doctor to say whether the patient is ready to leave hospital.",
+      "answerZh": "在這種情況下，應由醫生判斷病人是否適合出院。",
+      "answerZhSource": "pdf",
+      "highlight": "In this case, it is for the doctor to say whether the patient is ready to leave hospital."
+    },
+    {
+      "id": "ss291-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The decision about which course to take belongs to Daniel.",
+      "promptZh": "選擇修讀哪一個課程的決定權屬於丹尼爾。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is for Daniel to decide which course to take.",
+      "answerZh": "應由丹尼爾決定修讀哪一個課程。",
+      "answerZhSource": "pdf",
+      "highlight": "It is for Daniel to decide which course to take."
+    },
+    {
+      "id": "ss291-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Parents should not decide which career their adult children should follow.",
+      "promptZh": "父母不應決定已成年子女應從事哪種職業。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not for parents to decide which career their adult children should follow.",
+      "answerZh": "已成年子女應從事哪種職業，不應由父母決定。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not for parents to decide which career their adult children should follow."
+    },
+    {
+      "id": "ss291-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Under the law, the court must determine whether the evidence is sufficient.",
+      "promptZh": "根據法律，法院必須判定證據是否充分。",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under the law, it is for the court to determine whether the evidence is sufficient.",
+      "answerZh": "根據法律，應由法院判定證據是否充分。",
+      "answerZhSource": "pdf",
+      "highlight": "Under the law, it is for the court to determine whether the evidence is sufficient."
+    },
+    {
+      "id": "ss291-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You, not I, should decide what happens next.",
+      "promptZh": "接下來應該怎樣做，應由你而不是我決定。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is for you, not me, to decide what happens next.",
+      "answerZh": "接下來應該怎樣做，應由你而不是我決定。",
+      "answerZhSource": "pdf",
+      "highlight": "It is for you, not me, to decide what happens next."
+    },
+    {
+      "id": "ss291-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In this shop, only the manager should say whether it will close early.",
+      "promptZh": "在這間店裏，只有經理可以決定是否提早關門。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this shop, it is for the manager to say whether it will close early.",
+      "answerZh": "在這間店裏，應由經理決定是否提早關門。",
+      "answerZhSource": "pdf",
+      "highlight": "In this shop, it is for the manager to say whether it will close early."
+    },
+    {
+      "id": "ss291-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The staff may explain the options, but the customer must make the final choice.",
+      "promptZh": "職員可以解釋各個選項，但最終選擇必須由顧客作出。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the staff may explain the options, it is for the customer to decide.",
+      "answerZh": "雖然職員可以解釋各個選項，但應由顧客作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the staff may explain the options, it is for the customer to decide."
+    },
+    {
+      "id": "ss291-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "My role is to explain the rules; I should not decide the result.",
+      "promptZh": "我的職責是解釋規則；我不應決定結果。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not for me to decide the result; my role is to explain the rules.",
+      "answerZh": "結果不應由我決定；我的職責是解釋規則。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not for me to decide the result; my role is to explain the rules."
+    },
+    {
+      "id": "ss291-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Whether the event goes ahead should be decided by the committee.",
+      "promptZh": "活動是否舉行應由委員會決定。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is for the committee to decide whether the event goes ahead.",
+      "answerZh": "應由委員會決定活動是否舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "It is for the committee to decide whether the event goes ahead."
+    },
+    {
+      "id": "ss291-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Who should decide whether the operation goes ahead? The patient should.",
+      "promptZh": "誰應決定是否進行手術？應由病人決定。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is for the patient to decide whether the operation goes ahead.",
+      "answerZh": "應由病人決定是否進行手術。",
+      "answerZhSource": "pdf",
+      "highlight": "It is for the patient to decide whether the operation goes ahead."
+    },
+    {
+      "id": "ss291-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We have no right to tell our neighbours how to live.",
+      "promptZh": "我們無權告訴鄰居應如何生活。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not for us to tell our neighbours how to live.",
+      "answerZh": "我們不應告訴鄰居應如何生活。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not for us to tell our neighbours how to live."
+    },
+    {
+      "id": "ss291-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Only the jury should determine whether the defendant is guilty.",
+      "promptZh": "只有陪審團才應判定被告是否有罪。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is for the jury to determine whether the defendant is guilty.",
+      "answerZh": "應由陪審團判定被告是否有罪。",
+      "answerZhSource": "pdf",
+      "highlight": "It is for the jury to determine whether the defendant is guilty."
+    },
+    {
+      "id": "ss291-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I should not say whether he deserves another chance.",
+      "promptZh": "我不應評論他是否值得再獲一次機會。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not for me to say whether he deserves another chance.",
+      "answerZh": "他是否值得再獲一次機會，不應由我評論。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not for me to say whether he deserves another chance."
+    },
+    {
+      "id": "ss291-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The staff understood that the director had the responsibility to decide which proposal to accept.",
+      "promptZh": "職員明白，應由總監決定接受哪份建議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The staff understood that it was for the director to decide which proposal to accept.",
+      "answerZh": "職員明白，應由總監決定接受哪份建議。",
+      "answerZhSource": "pdf",
+      "highlight": "The staff understood that it was for the director to decide which proposal to accept."
+    },
+    {
+      "id": "ss291-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The coach, rather than the spectators, should decide which players start the match.",
+      "promptZh": "應由教練而不是觀眾決定哪些球員正選上陣。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is for the coach, not the spectators, to decide which players start the match.",
+      "answerZh": "應由教練而不是觀眾決定哪些球員正選上陣。",
+      "answerZhSource": "pdf",
+      "highlight": "It is for the coach, not the spectators, to decide which players start the match."
+    },
+    {
+      "id": "ss291-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "People outside the family should not interfere with this private decision.",
+      "promptZh": "家庭以外的人不應干涉這項私人決定。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not for people outside the family to interfere with this private decision.",
+      "answerZh": "這項私人決定不應由家庭以外的人干涉。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not for people outside the family to interfere with this private decision."
+    },
+    {
+      "id": "ss291-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After hearing both sides, the panel must determine whether the complaint is justified.",
+      "promptZh": "聽取雙方意見後，委員會必須判定投訴是否合理。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After hearing both sides, it is for the panel to determine whether the complaint is justified.",
+      "answerZh": "聽取雙方意見後，應由委員會判定投訴是否合理。",
+      "answerZhSource": "pdf",
+      "highlight": "After hearing both sides, it is for the panel to determine whether the complaint is justified."
+    },
+    {
+      "id": "ss291-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Advisers may make recommendations, but the minister must decide which plan to adopt.",
+      "promptZh": "顧問可以提出建議，但必須由部長決定採用哪個方案。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although advisers may make recommendations, it is for the minister to decide which plan to adopt.",
+      "answerZh": "雖然顧問可以提出建議，但應由部長決定採用哪個方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Although advisers may make recommendations, it is for the minister to decide which plan to adopt."
+    },
+    {
+      "id": "ss291-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A journalist should report the trial instead of deciding whether the accused person is guilty.",
+      "promptZh": "記者應報道審訊，而不是判定被告是否有罪。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A journalist should report the trial; it is not for the journalist to decide whether the accused person is guilty.",
+      "answerZh": "記者應報道審訊；被告是否有罪，不應由記者判定。",
+      "answerZhSource": "pdf",
+      "highlight": "A journalist should report the trial; it is not for the journalist to decide whether the accused person is guilty."
+    },
+    {
+      "id": "ss291-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Under the law, the tribunal must determine whether the dismissal was fair.",
+      "promptZh": "根據法律，審裁處必須判定解僱是否公平。",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under the law, it is for the tribunal to determine whether the dismissal was fair.",
+      "answerZh": "根據法律，應由審裁處判定解僱是否公平。",
+      "answerZhSource": "pdf",
+      "highlight": "Under the law, it is for the tribunal to determine whether the dismissal was fair."
+    },
+    {
+      "id": "ss291-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "One employee has no right to tell another employee how to use annual leave.",
+      "promptZh": "一名僱員無權告訴另一名僱員應如何使用年假。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not for one employee to tell another employee how to use annual leave.",
+      "answerZh": "一名僱員不應告訴另一名僱員應如何使用年假。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not for one employee to tell another employee how to use annual leave."
+    },
+    {
+      "id": "ss291-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The family alone should decide whether to accept the treatment.",
+      "promptZh": "應只由家人決定是否接受這項治療。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is for the family to decide whether to accept the treatment.",
+      "answerZh": "應由家人決定是否接受這項治療。",
+      "answerZhSource": "pdf",
+      "highlight": "It is for the family to decide whether to accept the treatment."
+    },
+    {
+      "id": "ss291-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The school governors were responsible for deciding whether the old building should be repaired.",
+      "promptZh": "校董負責決定是否應維修舊校舍。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was for the school governors to decide whether the old building should be repaired.",
+      "answerZh": "當時應由校董決定是否維修舊校舍。",
+      "answerZhSource": "pdf",
+      "highlight": "It was for the school governors to decide whether the old building should be repaired."
+    },
+    {
+      "id": "ss291-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We should not predict how voters will respond before the results are known.",
+      "promptZh": "在結果公布前，我們不應預測選民會有何反應。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not for us to predict how voters will respond before the results are known.",
+      "answerZh": "在結果公布前，選民會有何反應不應由我們預測。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not for us to predict how voters will respond before the results are known."
+    },
+    {
+      "id": "ss291-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The announcement says that the board will have to decide who becomes the next chairperson.",
+      "promptZh": "公告表示，應由董事會決定誰成為下一任主席。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The announcement says that it will be for the board to decide who becomes the next chairperson.",
+      "answerZh": "公告表示，將由董事會決定誰成為下一任主席。",
+      "answerZhSource": "pdf",
+      "highlight": "The announcement says that it will be for the board to decide who becomes the next chairperson."
+    },
+    {
+      "id": "ss291-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Who has the authority to determine whether the evidence can be used? The judge does.",
+      "promptZh": "誰有權判定這項證據是否可以採用？法官有此權力。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is for the judge to determine whether the evidence can be used.",
+      "answerZh": "應由法官判定這項證據是否可以採用。",
+      "answerZhSource": "pdf",
+      "highlight": "It is for the judge to determine whether the evidence can be used."
+    },
+    {
+      "id": "ss291-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Because the money belongs to her, she should decide how it is spent.",
+      "promptZh": "因為金錢屬於她，所以應由她決定如何使用。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the money belongs to her, it is for her to decide how it is spent.",
+      "answerZh": "因為金錢屬於她，所以應由她決定如何使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the money belongs to her, it is for her to decide how it is spent."
+    },
+    {
+      "id": "ss291-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A company may set workplace rules, but it should not tell employees how to organise their private lives.",
+      "promptZh": "公司可以制定工作場所規則，但不應告訴僱員如何安排私人生活。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A company may set workplace rules, but it is not for the company to tell employees how to organise their private lives.",
+      "answerZh": "公司可以制定工作場所規則，但不應由公司告訴僱員如何安排私人生活。",
+      "answerZhSource": "pdf",
+      "highlight": "A company may set workplace rules, but it is not for the company to tell employees how to organise their private lives."
+    },
+    {
+      "id": "ss291-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Experts may advise the committee, but the committee must make the final decision.",
+      "promptZh": "專家可以向委員會提供意見，但最終決定必須由委員會作出。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although experts may advise the committee, it is for the committee to decide.",
+      "answerZh": "雖然專家可以向委員會提供意見，但應由委員會作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Although experts may advise the committee, it is for the committee to decide."
+    },
+    {
+      "id": "ss291-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The inquiry report stated that the chairperson had to say whether the safety rules had been followed.",
+      "promptZh": "調查報告指出，應由主席判定是否有人遵守了安全規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The inquiry report stated that it was for the chairperson to say whether the safety rules had been followed.",
+      "answerZh": "調查報告指出，當時應由主席判定是否有人遵守了安全規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The inquiry report stated that it was for the chairperson to say whether the safety rules had been followed."
+    },
+    {
+      "id": "ss291-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I can explain the possible consequences, but I should not tell you what to believe.",
+      "promptZh": "我可以解釋可能出現的後果，但不應告訴你應相信甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I can explain the possible consequences, but it is not for me to tell you what to believe.",
+      "answerZh": "我可以解釋可能出現的後果，但不應由我告訴你應相信甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "I can explain the possible consequences, but it is not for me to tell you what to believe."
+    },
+    {
+      "id": "ss291-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The researchers may give their views, but the funders must decide whether the project continues.",
+      "promptZh": "研究人員可以提出意見，但必須由資助者決定項目是否繼續。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The researchers may give their views, but it is for the funders to decide whether the project continues.",
+      "answerZh": "研究人員可以提出意見，但應由資助者決定項目是否繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers may give their views, but it is for the funders to decide whether the project continues."
+    },
+    {
+      "id": "ss291-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The property belongs to the owner, so the neighbours should not decide how it is used.",
+      "promptZh": "物業屬於業主，因此鄰居不應決定物業如何使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The property belongs to the owner, so it is not for the neighbours to decide how it is used.",
+      "answerZh": "物業屬於業主，因此物業如何使用不應由鄰居決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The property belongs to the owner, so it is not for the neighbours to decide how it is used."
+    },
+    {
+      "id": "ss291-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "After all the evidence has been heard, the judge must determine whether it is admissible.",
+      "promptZh": "聽取所有證據後，法官必須判定該證據是否可以接納。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After all the evidence has been heard, it is for the judge to determine whether it is admissible.",
+      "answerZh": "聽取所有證據後，應由法官判定該證據是否可以接納。",
+      "answerZhSource": "pdf",
+      "highlight": "After all the evidence has been heard, it is for the judge to determine whether it is admissible."
+    },
+    {
+      "id": "ss291-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The parents should decide which school the child attends, while the student should decide which optional subjects to take.",
+      "promptZh": "父母應決定孩子入讀哪間學校，而學生應決定修讀哪些選修科目。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is for the parents to decide which school the child attends, but for the student to decide which optional subjects to take.",
+      "answerZh": "應由父母決定孩子入讀哪間學校，而應由學生決定修讀哪些選修科目。",
+      "answerZhSource": "pdf",
+      "highlight": "It is for the parents to decide which school the child attends, but for the student to decide which optional subjects to take."
+    },
+    {
+      "id": "ss291-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "In the end, only the public can say whether the explanation is convincing.",
+      "promptZh": "最終，只有公眾可以判斷這項解釋是否令人信服。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the end, it is for the public to say whether the explanation is convincing.",
+      "answerZh": "最終，應由公眾判斷這項解釋是否令人信服。",
+      "answerZhSource": "pdf",
+      "highlight": "In the end, it is for the public to say whether the explanation is convincing."
+    },
+    {
+      "id": "ss291-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Even after receiving expert advice, the board must make its own decision.",
+      "promptZh": "即使已獲得專家意見，董事會仍必須自行作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after receiving expert advice, it is for the board to decide.",
+      "answerZh": "即使已獲得專家意見，仍應由董事會作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Even after receiving expert advice, it is for the board to decide."
+    },
+    {
+      "id": "ss291-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A manager may settle work arrangements, but a manager should not decide who was morally right in a private dispute.",
+      "promptZh": "經理可以處理工作安排，但不應判定私人爭議中哪名僱員在道德上是對的。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A manager may settle work arrangements, but it is not for a manager to decide who was morally right in a private dispute.",
+      "answerZh": "經理可以處理工作安排，但私人爭議中誰在道德上是對的，不應由經理決定。",
+      "answerZhSource": "pdf",
+      "highlight": "A manager may settle work arrangements, but it is not for a manager to decide who was morally right in a private dispute."
+    },
+    {
+      "id": "ss291-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The medical team should explain the options, but the patient must decide whether to continue the treatment.",
+      "promptZh": "醫療團隊應解釋各個選項，但必須由病人決定是否繼續治療。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While the medical team should explain the options, it is for the patient to decide whether to continue the treatment.",
+      "answerZh": "雖然醫療團隊應解釋各個選項，但應由病人決定是否繼續治療。",
+      "answerZhSource": "pdf",
+      "highlight": "While the medical team should explain the options, it is for the patient to decide whether to continue the treatment."
+    },
+    {
+      "id": "ss291-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "In the previous case, the court, not the newspaper, had to determine whether the evidence was sufficient.",
+      "promptZh": "在上一宗案件中，應由法院而不是報章判定證據是否充分。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the previous case, it was for the court, not the newspaper, to determine whether the evidence was sufficient.",
+      "answerZh": "在上一宗案件中，應由法院而不是報章判定證據是否充分。",
+      "answerZhSource": "pdf",
+      "highlight": "In the previous case, it was for the court, not the newspaper, to determine whether the evidence was sufficient."
+    },
+    {
+      "id": "ss291-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Before a trial ends, a commentator should not say that the accused person is guilty.",
+      "promptZh": "審訊結束前，評論員不應聲稱被告有罪。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before a trial ends, it is not for a commentator to say that the accused person is guilty.",
+      "answerZh": "審訊結束前，不應由評論員聲稱被告有罪。",
+      "answerZhSource": "pdf",
+      "highlight": "Before a trial ends, it is not for a commentator to say that the accused person is guilty."
+    },
+    {
+      "id": "ss291-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "When the evidence is incomplete, no single scientist should say what the final answer is.",
+      "promptZh": "證據尚未完整時，不應由任何一名科學家斷定最終答案是甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the evidence is incomplete, it is not for any one scientist to say what the final answer is.",
+      "answerZh": "證據尚未完整時，最終答案是甚麼不應由任何一名科學家斷定。",
+      "answerZhSource": "pdf",
+      "highlight": "When the evidence is incomplete, it is not for any one scientist to say what the final answer is."
+    },
+    {
+      "id": "ss291-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The charity may offer guidance, but each family should decide how the support is used.",
+      "promptZh": "慈善機構可以提供指引，但應由每個家庭決定如何使用援助。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the charity may offer guidance, it is for each family to decide how the support is used.",
+      "answerZh": "雖然慈善機構可以提供指引，但應由每個家庭決定如何使用援助。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the charity may offer guidance, it is for each family to decide how the support is used."
+    },
+    {
+      "id": "ss291-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The rules state that an independent panel will determine whether the organisation broke the rules.",
+      "promptZh": "規則訂明，應由獨立小組判定該組織是否違反規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rules state that it will be for an independent panel to determine whether the organisation broke the rules.",
+      "answerZh": "規則訂明，將由獨立小組判定該組織是否違反規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The rules state that it will be for an independent panel to determine whether the organisation broke the rules."
+    },
+    {
+      "id": "ss291-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I can describe the possible risks, but you must decide whether they are acceptable.",
+      "promptZh": "我可以說明可能出現的風險，但必須由你決定這些風險是否可以接受。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I can describe the possible risks, but it is for you to decide whether they are acceptable.",
+      "answerZh": "我可以說明可能出現的風險，但應由你決定這些風險是否可以接受。",
+      "answerZhSource": "pdf",
+      "highlight": "I can describe the possible risks, but it is for you to decide whether they are acceptable."
+    },
+    {
+      "id": "ss291-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The company should not decide for itself whether its action was lawful; the regulator must make that judgement.",
+      "promptZh": "公司不應自行判定其行動是否合法；這項判斷必須由監管機構作出。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is for the regulator, not the company, to determine whether the action was lawful.",
+      "answerZh": "應由監管機構而不是公司判定該項行動是否合法。",
+      "answerZhSource": "pdf",
+      "highlight": "It is for the regulator, not the company, to determine whether the action was lawful."
+    }
+  ]
+}

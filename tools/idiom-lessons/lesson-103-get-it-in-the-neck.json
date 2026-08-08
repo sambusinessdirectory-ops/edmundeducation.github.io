@@ -1,0 +1,1708 @@
+{
+  "lesson": {
+    "id": "idiom-103",
+    "order": 103,
+    "slug": "get-it-in-the-neck",
+    "version": "1",
+    "title": "受到嚴厲責罵／受罰",
+    "titleEn": "get it in the neck",
+    "titleZh": "受到嚴厲責罵／受罰",
+    "source": {
+      "file": "Idiom 103 - “Get It in the Neck”.pdf",
+      "pageCount": 34,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "exercisePdfPages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "answerKeyPdfPages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "get it in the neck",
+        "highlight": "get it in the neck"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Aaron gets it in the neck whenever he forgets the weekly report.",
+        "zh": "每當 Aaron 忘記交每週報告時，他都會被狠狠責罵。",
+        "highlight": "gets it in the neck"
+      },
+      {
+        "en": "Clara got it in the neck after arriving late.",
+        "zh": "遲到後被狠狠責備了一頓。",
+        "highlight": "got it in the neck"
+      }
+    ],
+    "meaning": {
+      "en": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+      "zh": "因為自己所做的事情，或被認為要負責的事情，而受到嚴厲批評、責罵、指責或懲罰。",
+      "naturalZh": [
+        "因為自己所做的事情，或被認為要負責的事情，而受到嚴厲批評、責罵、指責或懲罰。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "Get it in the neck is informal and particularly associated with British English. It is natural in conversation, informal messages, personal stories, interviews and conversational journalism.",
+      "summaryZh": "get it in the neck 是非正式表達，尤其常見於英式英語。 它適合用於日常對話、非正式訊息、個人故事、訪問及較口語化的新聞評論。",
+      "contextsEn": [
+        "sympathetic",
+        "humorous",
+        "worried",
+        "annoyed",
+        "critical",
+        "slightly dramatic"
+      ],
+      "contextsZh": [
+        "同情",
+        "幽默",
+        "擔憂",
+        "不滿",
+        "批評",
+        "稍為誇張。"
+      ],
+      "formalEn": "In formal reports, official complaints or polite professional correspondence, receive severe criticism, face disciplinary action or be held responsible may be more suitable.",
+      "formalZh": "Expression Class 表達類別 Informal fixed verb idiom 非正式固定動詞慣用語"
+    },
+    "fixedVariable": {
+      "fixed": "get it in the neck",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + get(s) / got + it in the neck.",
+          "example": "Aaron gets it in the neck whenever he forgets the weekly report.",
+          "highlight": "gets it in the neck"
+        },
+        {
+          "form": "Subject + may / might / could / will / would / should + get it in the neck.",
+          "example": "The organiser may get it in the neck if the event starts late.",
+          "highlight": "get it in the neck"
+        },
+        {
+          "form": "Subject + expect / be likely / be about / not want + to get it in the neck.",
+          "example": "No one wants to get it in the neck for another person’s mistake.",
+          "highlight": "get it in the neck"
+        },
+        {
+          "form": "Subject + be + getting it in the neck.",
+          "example": "The coach is getting it in the neck from angry parents.",
+          "highlight": "getting it in the neck"
+        },
+        {
+          "form": "Subject + have / has / had + got it in the neck.",
+          "example": "The department has already got it in the neck twice this month.",
+          "highlight": "got it in the neck"
+        },
+        {
+          "form": "Getting it in the neck + verb",
+          "example": "Getting it in the neck for someone else’s mistake made Ethan angry.",
+          "highlight": "Getting it in the neck"
+        },
+        {
+          "form": "let + person + get it in the neck",
+          "example": "Do not let the trainee get it in the neck for the manager’s decision.",
+          "highlight": "get it in the neck"
+        },
+        {
+          "form": "Will + subject + get it in the neck?",
+          "example": "Will we get it in the neck if the invitations are late?",
+          "highlight": "get it in the neck"
+        },
+        {
+          "form": "get it in the neck",
+          "example": "If nobody explains the problem, Sam will get it in the neck.",
+          "highlight": "get it in the neck"
+        },
+        {
+          "form": "“From + Person or Group”",
+          "example": "It was Ava who got it in the neck.",
+          "highlight": "got it in the neck"
+        },
+        {
+          "form": "The person who got it in the neck + verb.",
+          "example": "Liam got it in the neck from his teacher after arriving twenty minutes late.",
+          "highlight": "got it in the neck"
+        },
+        {
+          "form": "Subject + get it in the neck + from + source.",
+          "example": "Liam got it in the neck from his teacher after arriving twenty minutes late.",
+          "highlight": "got it in the neck"
+        },
+        {
+          "form": "Subject + get it in the neck + for + reason.",
+          "example": "Liam got it in the neck from his teacher after arriving twenty minutes late.",
+          "highlight": "got it in the neck"
+        },
+        {
+          "form": "Question form + get it in the neck?",
+          "example": "Liam got it in the neck from his teacher after arriving twenty minutes late.",
+          "highlight": "got it in the neck"
+        },
+        {
+          "form": "Pattern 1–14 + additional time, cause or contrast information.",
+          "example": "Liam got it in the neck from his teacher after arriving twenty minutes late.",
+          "highlight": "got it in the neck"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作為一般限定動詞短語",
+        "formula": "Subject + get(s) / got + it in the neck.",
+        "descriptionEn": "The teams often get it in the neck when an event goes wrong.",
+        "descriptionZh": "活動出現問題時，各個團隊往往會受到嚴厲批評。",
+        "examples": [
+          {
+            "en": "Aaron gets it in the neck whenever he forgets the weekly report.",
+            "zh": "每當 Aaron 忘記交每週報告時，他都會被狠狠責罵。",
+            "highlight": "gets it in the neck"
+          },
+          {
+            "en": "Clara got it in the neck after arriving late.",
+            "zh": "遲到後被狠狠責備了一頓。",
+            "highlight": "got it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "置於情態動詞後",
+        "formula": "Subject + may / might / could / will / would / should + get it in the neck.",
+        "descriptionEn": "We could get it in the neck if we send the wrong figures.",
+        "descriptionZh": "如果我們發出錯誤數字，可能會被狠狠責罵。",
+        "examples": [
+          {
+            "en": "The organiser may get it in the neck if the event starts late.",
+            "zh": "如果活動延遲開始，主辦人可能會受到嚴厲批評。",
+            "highlight": "get it in the neck"
+          },
+          {
+            "en": "The assistant will get it in the neck tomorrow.",
+            "zh": "助理明天將會被嚴厲責備。",
+            "highlight": "get it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “To”",
+        "titleZh": "置於 to 後",
+        "formula": "Subject + expect / be likely / be about / not want + to get it in the neck.",
+        "descriptionEn": "Nora is likely to get it in the neck when the manager returns.",
+        "descriptionZh": "經理回來後，Nora 很可能會受到嚴厲責備。",
+        "examples": [
+          {
+            "en": "No one wants to get it in the neck for another person’s mistake.",
+            "zh": "沒有人想因別人的錯誤而被狠狠責罵。",
+            "highlight": "get it in the neck"
+          },
+          {
+            "en": "The team expected to get it in the neck after losing the key.",
+            "zh": "團隊遺失鎖匙後，預料自己會被狠狠責罵。",
+            "highlight": "get it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "In Continuous Forms",
+        "titleZh": "用於進行式",
+        "formula": "Subject + be + getting it in the neck.",
+        "descriptionEn": "Jack was getting it in the neck while the others remained silent.",
+        "descriptionZh": "其他人保持沉默時，Jack 正在被狠狠責罵。",
+        "examples": [
+          {
+            "en": "The coach is getting it in the neck from angry parents.",
+            "zh": "教練正在受到憤怒家長的猛烈批評。",
+            "highlight": "getting it in the neck"
+          },
+          {
+            "en": "The department has been getting it in the neck all week.",
+            "zh": "該部門整個星期都在受到嚴厲批評。",
+            "highlight": "getting it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "In Perfect Forms",
+        "titleZh": "用於完成式",
+        "formula": "Subject + have / has / had + got it in the neck.",
+        "descriptionEn": "The workers had got it in the neck before the director arrived.",
+        "descriptionZh": "主管到達前，工人已經被狠狠責罵了一頓。",
+        "examples": [
+          {
+            "en": "The department has already got it in the neck twice this month.",
+            "zh": "該部門本月已兩次受到嚴厲責備。",
+            "highlight": "got it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "As an “-ing” Clause",
+        "titleZh": "作為 -ing 分句",
+        "formula": "Getting it in the neck + verb",
+        "descriptionEn": "Source grammar frame: Getting it in the neck + verb.",
+        "descriptionZh": "原檔列出的句法框架：Getting it in the neck + verb。",
+        "examples": [
+          {
+            "en": "Getting it in the neck for someone else’s mistake made Ethan angry.",
+            "zh": "因別人的錯誤而被責罵，令他十分生氣。",
+            "highlight": "Getting it in the neck"
+          },
+          {
+            "en": "Kara checked the figures again to avoid getting it in the neck.",
+            "zh": "再次檢查數字，以免被狠狠責罵。",
+            "highlight": "getting it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After “Let”",
+        "titleZh": "置於 let 後",
+        "formula": "let + person + get it in the neck",
+        "descriptionEn": "After let, use the base form get.",
+        "descriptionZh": "後面使用原形 get。",
+        "examples": [
+          {
+            "en": "Do not let the trainee get it in the neck for the manager’s decision.",
+            "zh": "不要讓實習員工因經理的決定而受責罵。",
+            "highlight": "get it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Inside a Question",
+        "titleZh": "用於疑問句",
+        "formula": "Will + subject + get it in the neck?",
+        "descriptionEn": "Source grammar frame: Will + subject + get it in the neck?.",
+        "descriptionZh": "原檔列出的句法框架：Will + subject + get it in the neck?。",
+        "examples": [
+          {
+            "en": "Will we get it in the neck if the invitations are late?",
+            "zh": "如果邀請函遲了，我們會被狠狠責罵嗎？",
+            "highlight": "get it in the neck"
+          },
+          {
+            "en": "Who is going to get it in the neck for this mistake?",
+            "zh": "誰會因這個錯誤而被狠狠責罵？",
+            "highlight": "get it in the neck"
+          },
+          {
+            "en": "Do you think the team will get it in the neck?",
+            "zh": "你認為團隊會受到猛烈批評嗎？",
+            "highlight": "get it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Inside a Subordinate Clause",
+        "titleZh": "用於從屬分句",
+        "formula": "get it in the neck",
+        "descriptionEn": "The manager warned that whoever deleted the file would get it in the neck.",
+        "descriptionZh": "經理警告，無論是誰刪除了檔案，都會受到嚴厲懲罰。",
+        "examples": [
+          {
+            "en": "If nobody explains the problem, Sam will get it in the neck.",
+            "zh": "如果沒有人解釋問題，Sam 將會被狠狠責罵。",
+            "highlight": "get it in the neck"
+          },
+          {
+            "en": "Although the whole group agreed, Nora got it in the neck alone.",
+            "zh": "雖然整個小組都同意，但只有 Nora 受到責罵。",
+            "highlight": "got it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "In a Cleft or Focusing Structure",
+        "titleZh": "用於強調句式",
+        "formula": "“From + Person or Group”",
+        "descriptionEn": "These structures shift the focus onto the person receiving the criticism.",
+        "descriptionZh": "這些句式把焦點放在受到責罵的人身上。",
+        "examples": [
+          {
+            "en": "It was Ava who got it in the neck.",
+            "zh": "受到嚴厲責罵的是 Ava。",
+            "highlight": "got it in the neck"
+          },
+          {
+            "en": "The person who got it in the neck was the shop assistant.",
+            "zh": "受到嚴厲責罵的人是那名店員。",
+            "highlight": "got it in the neck"
+          },
+          {
+            "en": "I’m the one getting it in the neck.",
+            "zh": "現在一直挨罵的人是我。",
+            "highlight": "getting it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "The person who got it in the neck + verb",
+        "titleZh": "句式十一",
+        "formula": "The person who got it in the neck + verb.",
+        "descriptionEn": "Source grammar frame: The person who got it in the neck + verb.",
+        "descriptionZh": "原檔列出的句法框架：The person who got it in the neck + verb。",
+        "examples": [
+          {
+            "en": "Liam got it in the neck from his teacher after arriving twenty minutes late.",
+            "zh": "Liam 遲到二十分鐘後，被老師狠狠責罵了一頓。",
+            "highlight": "got it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Subject + get it in the neck + from + source",
+        "titleZh": "句式十二",
+        "formula": "Subject + get it in the neck + from + source.",
+        "descriptionEn": "Source grammar frame: Subject + get it in the neck + from + source.",
+        "descriptionZh": "原檔列出的句法框架：Subject + get it in the neck + from + source。",
+        "examples": [
+          {
+            "en": "Liam got it in the neck from his teacher after arriving twenty minutes late.",
+            "zh": "Liam 遲到二十分鐘後，被老師狠狠責罵了一頓。",
+            "highlight": "got it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 13,
+        "titleEn": "Subject + get it in the neck + for + reason",
+        "titleZh": "句式十三",
+        "formula": "Subject + get it in the neck + for + reason.",
+        "descriptionEn": "Source grammar frame: Subject + get it in the neck + for + reason.",
+        "descriptionZh": "原檔列出的句法框架：Subject + get it in the neck + for + reason。",
+        "examples": [
+          {
+            "en": "Liam got it in the neck from his teacher after arriving twenty minutes late.",
+            "zh": "Liam 遲到二十分鐘後，被老師狠狠責罵了一頓。",
+            "highlight": "got it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 14,
+        "titleEn": "Question form + get it in the neck",
+        "titleZh": "句式十四",
+        "formula": "Question form + get it in the neck?",
+        "descriptionEn": "Source grammar frame: Question form + get it in the neck?.",
+        "descriptionZh": "原檔列出的句法框架：Question form + get it in the neck?。",
+        "examples": [
+          {
+            "en": "Liam got it in the neck from his teacher after arriving twenty minutes late.",
+            "zh": "Liam 遲到二十分鐘後，被老師狠狠責罵了一頓。",
+            "highlight": "got it in the neck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 15,
+        "titleEn": "Pattern 1–14 + additional time, cause or contrast information",
+        "titleZh": "任何一種可選延伸部分都不應支配整份練習",
+        "formula": "Pattern 1–14 + additional time, cause or contrast information.",
+        "descriptionEn": "Source grammar frame: Pattern 1–14 + additional time, cause or contrast information.",
+        "descriptionZh": "原檔列出的句法框架：Pattern 1–14 + additional time, cause or contrast information。",
+        "examples": [
+          {
+            "en": "Liam got it in the neck from his teacher after arriving twenty minutes late.",
+            "zh": "Liam 遲到二十分鐘後，被老師狠狠責罵了一頓。",
+            "highlight": "got it in the neck"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Strong Consequences Compactly",
+        "titleZh": "簡潔表達嚴重後果",
+        "en": "The idiom compresses a longer description of criticism or punishment.",
+        "zh": "助理被經理狠狠責罵。 這個慣用語可以把較長的責罵或懲罰描述濃縮起來。",
+        "examples": [
+          {
+            "en": "The assistant got it in the neck from the manager.",
+            "zh": "助理被經理狠狠責罵。",
+            "highlight": "got it in the neck"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Is Useful for Predictions and Warnings",
+        "titleZh": "適合用於預測及警告",
+        "en": "The expression helps a speaker warn another person about likely consequences.",
+        "zh": "如果報告再次遲交，你會被狠狠責罵。 這個表達有助說話者警告別人可能面對的後果。",
+        "examples": [
+          {
+            "en": "You’ll get it in the neck if the report is late again.",
+            "zh": "如果報告再次遲交，你會被狠狠責罵。",
+            "highlight": "get it in the neck"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Show Sympathy",
+        "titleZh": "可以表達同情",
+        "en": "The idiom can highlight that somebody is receiving more blame than other people.",
+        "zh": "雖然整個團隊都表示同意，但只有 Clara 受責罵。 這個慣用語可以突出某人承受了比其他人更多的責任或批評。",
+        "examples": [
+          {
+            "en": "Although the whole team agreed, Clara got it in the neck alone.",
+            "zh": "雖然整個團隊都表示同意，但只有 Clara 受責罵。",
+            "highlight": "got it in the neck"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Supports Several Natural Grammar Forms",
+        "titleZh": "可以配合多種自然句式",
+        "en": "gerund clauses; focusing structures.",
+        "zh": "學生可以藉這個表達練習多種時態、情態動詞、疑問句、條件句及強調句式。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Helps Students Understand Informal British English",
+        "titleZh": "幫助理解非正式英式英語",
+        "en": "The expression may appear in British conversation, interviews, personal accounts and informal commentary.",
+        "zh": "這個表達可能出現在英式日常對話、訪問、個人敘述及非正式評論中。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is Expressive but Not Always Appropriate",
+        "titleZh": "語氣鮮明，但並非任何場合都適用",
+        "en": "The expression is vivid and conversational, but formal language may be safer in official writing.",
+        "zh": "這個表達鮮明而口語化，但在正式文章中，使用較直接的正式用語可能更穩妥。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Uncertain; Early Printed Evidence Available",
+      "statusZh": "確切來源不明；有早期書面記錄",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The phrase was probably influenced by the older slang use of get it, meaning to be shot, defeated or punished. Over time, get it in the neck settled into the figurative meaning of receiving severe criticism, blame or punishment. The exact reason why neck became fixed in the expression remains uncertain.",
+          "zh": "這個表達很可能受到較早期俚語 get it 的影響； get it 可以表示中槍、被擊敗或受罰。 後來，get it in the neck 逐漸固定為「受到嚴厲批評、指責或懲罰」的比喻意思。 至於 neck 為甚麼成為固定部分，確切原因仍未能確認。"
+        }
+      ],
+      "memoryEn": "A blow to a vulnerable place represents receiving a particularly severe reaction.",
+      "memoryZh": "脆弱位置受到重擊的畫面，代表一個人承受十分強烈的負面反應。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Change “Get”, Not “It in the Neck”",
+        "titleZh": "規則一：改變 get，不改變 it in the neck",
+        "en": "Change “Get”, Not “It in the Neck”",
+        "zh": "改變 get，不改變 it in the neck",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "“It” Is Fixed",
+        "titleZh": "規則二：it 是固定部分",
+        "en": "The word it does not refer to a particular object mentioned earlier. It forms part of the idiom.",
+        "zh": "並不是指前文提到的某件物件，而是慣用語的固定部分。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use It for Strong Criticism or Punishment",
+        "titleZh": "規則三：用於強烈批評或懲罰",
+        "en": "A polite suggestion is normally not strong enough to license the idiom.",
+        "zh": "經理責罵了 Leo 十分鐘。 Leo 被狠狠責罵了一頓。 老師有禮地提出一項小小的改善建議，語氣通常不足以使用這個慣用語。",
+        "examples": [
+          {
+            "en": "The manager shouted at Leo for ten minutes. Leo got it in the neck.",
+            "zh": "經理責罵了 Leo 十分鐘。Leo 被狠狠責罵了一頓。",
+            "highlight": "got it in the neck"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "The Criticism May Be Fair or Unfair",
+        "titleZh": "規則四：批評可以公平，也可以不公平",
+        "en": "The idiom does not tell us whether the person deserved the criticism.",
+        "zh": "這個慣用語本身並不說明當事人是否應該受到批評。 他無視安全規則，因此被狠狠責罵。 雖然人人都批准了這項決定，但只有他受到責罵。",
+        "examples": [
+          {
+            "en": "He ignored the safety rule and got it in the neck.",
+            "zh": "他無視安全規則，因此被狠狠責罵。",
+            "highlight": "got it in the neck"
+          },
+          {
+            "en": "Although everyone approved the decision, only he got it in the neck.",
+            "zh": "雖然人人都批准了這項決定，但只有他受到責罵。",
+            "highlight": "got it in the neck"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Certainty and Time",
+        "titleZh": "規則五：保留確定程度及時間",
+        "en": "may get ≠ got could get ≠ will get is getting ≠ got expected to get ≠ definitely got",
+        "zh": "不要把可能發生的事情改成已經發生的事實。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“From” and “For” Are Optional",
+        "titleZh": "規則六：from 和 for 部分並非必須",
+        "en": "All four sentences are structurally possible. Use only the information required by the source.",
+        "zh": "四個句式在結構上都可以使用。 只應保留原句需要的資料。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Add a Second Explanation Unnecessarily",
+        "titleZh": "規則七：不要不必要地再次解釋相同意思",
+        "en": "The second clause repeats the idiom’s meaning.",
+        "zh": "第二個分句重複了慣用語已經表達的意思。 刪除檔案後被經理狠狠責罵。",
+        "examples": [
+          {
+            "en": "Nora got it in the neck from the manager after deleting the file.",
+            "zh": "刪除檔案後被經理狠狠責罵。",
+            "highlight": "got it in the neck"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Use the Literal Meaning",
+        "titleZh": "規則八：不要使用字面意思",
+        "en": "The ball hit him in the neck. The exercise teaches only the figurative meaning.",
+        "zh": "皮球擊中了他的頸部。 他因弄失皮球而被狠狠責罵。 本練習只教授比喻意思。",
+        "examples": [
+          {
+            "en": "He got it in the neck for losing the ball.",
+            "zh": "他因弄失皮球而被狠狠責罵。",
+            "highlight": "got it in the neck"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Confuse It with “Get It”",
+        "titleZh": "規則九：不要與 get it 混淆",
+        "en": "Get it in the neck is the longer fixed target in this lesson.",
+        "zh": "get it 可以表示「明白」、「接電話或應門」，亦可表示「受罰」。 本課只訓練較長的固定表達 get it in the neck。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Confuse It with “Have It in for Someone”",
+        "titleZh": "規則十",
+        "en": "get it in the neck = receive severe criticism or punishment",
+        "zh": "不要與 have it in for someone 混淆受到嚴厲批評或懲罰存心針對某人兩者是不同表達。",
+        "examples": [
+          {
+            "en": "get it in the neck = receive severe criticism or punishment",
+            "zh": "受到嚴厲批評或懲罰",
+            "highlight": "get it in the neck"
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "titleEn": "Use British “Got” in Perfect Forms",
+        "titleZh": "規則十一：完成式使用英式 got",
+        "en": "They had already got it in the neck.",
+        "zh": "本練習採用英式英語，因此使用 got。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則十二：自然使用，不要過度使用",
+        "en": "1. the criticism or punishment is strong; 2. somebody becomes the target; 3. the reason or situation is clear; 4. the tone is informal.",
+        "zh": "當批評或懲罰十分強烈、有人明顯成為責罵對象、原因或情境清楚，而且語氣屬非正式時，這個慣用語最為自然。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using get it in the neck. Preserve the person, action, tense, certainty, source of criticism and important result. Change get where necessary, but keep it in the neck fixed.",
+      "zh": "使用 get it in the neck 改寫句子或完成回應。 保留人物、行動、時態、確定程度、批評來源及重要結果。 按需要改變 get，但必須保留固定部分 it in the neck。"
+    },
+    "questions": [
+      {
+        "id": "idiom-103-q01",
+        "number": 1,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Liam arrived twenty minutes late, and his teacher severely scolded him.",
+        "promptZh": "Liam 遲到了二十分鐘，因此受到老師嚴厲責罵。",
+        "starter": "Liam",
+        "answer": "Liam got it in the neck from his teacher after arriving twenty minutes late.",
+        "answerZh": "Liam 遲到二十分鐘後，被老師狠狠責罵了一頓。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q02",
+        "number": 2,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Chloe lost the house key, so her father punished her severely.",
+        "promptZh": "Chloe 弄失了家門鎖匙，因此受到父親嚴厲懲罰。",
+        "starter": "For",
+        "answer": "For losing the house key, Chloe got it in the neck from her father.",
+        "answerZh": "Chloe 因弄失家門鎖匙而受到父親嚴厲懲罰。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q03",
+        "number": 3,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The shop assistant sent the wrong order. The manager strongly criticised her.",
+        "promptZh": "那名店員發出了錯誤訂單，因此受到經理猛烈批評。",
+        "starter": "The",
+        "answer": "The shop assistant who sent the wrong order got it in the neck from the manager.",
+        "answerZh": "發出錯誤訂單的店員被經理狠狠責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q04",
+        "number": 4,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The team forgot to book the sports hall, so the coach gave them a severe telling-off.",
+        "promptZh": "團隊忘記預訂體育館，因此被教練狠狠責罵。",
+        "starter": "After",
+        "answer": "After forgetting to book the sports hall, the team got it in the neck from the coach.",
+        "answerZh": "團隊忘記預訂體育館後，被教練狠狠責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q05",
+        "number": 5,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Daniel admitted breaking the computer rule immediately, but he was still punished severely.",
+        "promptZh": "Daniel 立即承認違反電腦使用規則，但仍然受到嚴厲懲罰。",
+        "starter": "Although",
+        "answer": "Although Daniel admitted breaking the computer rule, he still got it in the neck.",
+        "answerZh": "雖然 Daniel 承認違反電腦使用規則，但仍然受到嚴厲懲罰。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q06",
+        "number": 6,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Ava left the classroom untidy, and the head teacher strongly criticised her.",
+        "promptZh": "Ava 把課室弄得十分凌亂，因此受到校長嚴厲責備。",
+        "starter": "It",
+        "answer": "It was Ava who got it in the neck for leaving the classroom untidy.",
+        "answerZh": "因為把課室弄得凌亂而受到嚴厲責罵的人是 Ava。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q07",
+        "number": 7,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The club members ignored the clean-up instructions, so the school punished them.",
+        "promptZh": "社團成員無視清潔指示，因此受到學校懲罰。",
+        "starter": "The",
+        "answer": "The club members got it in the neck after ignoring the clean-up instructions.",
+        "answerZh": "社團成員無視清潔指示後受到嚴厲懲罰。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q08",
+        "number": 8,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Oliver missed the work deadline, and his supervisor severely criticised him.",
+        "promptZh": "Oliver 錯過工作限期，因此受到主管嚴厲批評。",
+        "starter": "When",
+        "answer": "When Oliver missed the work deadline, he got it in the neck from his supervisor.",
+        "answerZh": "Oliver 錯過工作限期後，被主管狠狠責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q09",
+        "number": 9,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The waiter mixed up two orders, so both the customer and the manager strongly criticised him.",
+        "promptZh": "侍應把兩張訂單弄亂，因此受到顧客和經理猛烈責罵。",
+        "starter": "The",
+        "answer": "The waiter really got it in the neck after mixing up two orders.",
+        "answerZh": "侍應弄亂兩張訂單後，真的被狠狠責罵了一頓。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q10",
+        "number": 10,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Emma printed the wrong date on the poster. The editor gave her a serious telling-off.",
+        "promptZh": "Emma 在海報上印錯日期，因此被編輯狠狠責罵。",
+        "starter": "Because",
+        "answer": "Because Emma printed the wrong date on the poster, she got it in the neck from the editor.",
+        "answerZh": "因為 Emma 在海報上印錯日期，她被編輯狠狠責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q11",
+        "number": 11,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Whenever Ben forgets the weekly report, his manager strongly criticises him.",
+        "promptZh": "每當 Ben 忘記交每週報告時，他都會受到經理嚴厲批評。",
+        "starter": "Ben",
+        "answer": "Ben gets it in the neck whenever he forgets the weekly report.",
+        "answerZh": "每當 Ben 忘記交每週報告時，他都會被狠狠責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "gets it in the neck"
+      },
+      {
+        "id": "idiom-103-q12",
+        "number": 12,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "If the assistant sends the unfinished file, the director will severely criticise her tomorrow.",
+        "promptZh": "如果助理發出尚未完成的檔案，主管明天將會嚴厲責罵她。",
+        "starter": "The",
+        "answer": "The assistant will get it in the neck tomorrow if she sends the unfinished file.",
+        "answerZh": "如果助理發出尚未完成的檔案，明天便會受到嚴厲責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q13",
+        "number": 13,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The team may face severe criticism if the match starts late again.",
+        "promptZh": "如果比賽再次延遲開始，團隊可能會受到猛烈批評。",
+        "starter": "The",
+        "answer": "The team may get it in the neck if the match starts late again.",
+        "answerZh": "如果比賽再次延遲開始，團隊可能會受到猛烈批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q14",
+        "number": 14,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Nora deleted the booking, so she will probably be severely criticised when the manager returns.",
+        "promptZh": "Nora 刪除了預約記錄，因此經理回來後，她很可能會受到嚴厲批評。",
+        "starter": "Nora",
+        "answer": "Nora is likely to get it in the neck when the manager returns because she deleted the booking.",
+        "answerZh": "由於 Nora 刪除了預約記錄，經理回來後，她很可能會受到嚴厲責備。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q15",
+        "number": 15,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Parents are currently strongly criticising the coach over his choice of players.",
+        "promptZh": "家長現正因教練選擇球員的方式而猛烈批評他。",
+        "starter": "The",
+        "answer": "The coach is getting it in the neck from parents over his choice of players.",
+        "answerZh": "教練正因選擇球員的方式而受到家長猛烈批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q16",
+        "number": 16,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "While everyone else remained silent, customers were severely criticising Jack over the delay.",
+        "promptZh": "其他人保持沉默時，顧客正因延誤而猛烈批評 Jack。",
+        "starter": "While",
+        "answer": "While everyone else remained silent, Jack was getting it in the neck from customers over the delay.",
+        "answerZh": "其他人保持沉默時，Jack 正因延誤而受到顧客猛烈責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q17",
+        "number": 17,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Who will tell the manager that we forgot the booking? B: Not me. She will severely criticise me if I admit it.",
+        "promptZh": "甲：誰會告訴經理我們忘記了預約？ 乙：我不會。如果我承認，她會狠狠責罵我。",
+        "starter": "If",
+        "answer": "If I admit that we forgot the booking, I’ll get it in the neck from the manager.",
+        "answerZh": "如果我承認我們忘記了預約，經理會狠狠責罵我。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q18",
+        "number": 18,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The department has received severe criticism throughout this month because its reports keep arriving late.",
+        "promptZh": "該部門本月一直受到嚴厲批評，因為報告不斷遲交。",
+        "starter": "The",
+        "answer": "The department has been getting it in the neck this month because its reports keep arriving late.",
+        "answerZh": "該部門本月一直因報告遲交而受到嚴厲批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q19",
+        "number": 19,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Nobody wants to receive severe criticism for a decision that another person made.",
+        "promptZh": "沒有人想因別人所作的決定而受到嚴厲批評。",
+        "starter": "No",
+        "answer": "No one wants to get it in the neck for a decision that another person made.",
+        "answerZh": "沒有人想因別人所作的決定而受到嚴厲批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q20",
+        "number": 20,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Kara checked every number again because she wanted to avoid being severely criticised.",
+        "promptZh": "Kara 再次檢查每個數字，因為她想避免受到嚴厲批評。",
+        "starter": "Kara",
+        "answer": "Kara checked every number again to avoid getting it in the neck.",
+        "answerZh": "Kara 再次檢查每個數字，以免被狠狠責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q21",
+        "number": 21,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Why are you worried about the meeting? B: I think the boss will strongly criticise me because I missed the target.",
+        "promptZh": "甲：你為甚麼擔心這次會議？ 乙：我覺得老闆會因我未能達到目標而狠狠責罵我。",
+        "starter": "I",
+        "answer": "I think I’ll get it in the neck from the boss for missing the target.",
+        "answerZh": "我覺得老闆會因我未能達到目標而狠狠責罵我。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q22",
+        "number": 22,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Ethan was angry because he received severe criticism for another person’s mistake.",
+        "promptZh": "Ethan 因別人的錯誤而受到嚴厲批評，令他十分生氣。",
+        "starter": "Getting",
+        "answer": "Getting it in the neck for someone else’s mistake made Ethan angry.",
+        "answerZh": "Ethan 因別人的錯誤而受到責罵，令他十分生氣。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "Getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q23",
+        "number": 23,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Of all the workers, the receptionist is most likely to be blamed severely because she received the complaint.",
+        "promptZh": "在所有員工之中，那名接獲投訴的接待員最有可能受到嚴厲指責。",
+        "starter": "The",
+        "answer": "The person most likely to get it in the neck is the receptionist who received the complaint.",
+        "answerZh": "最有可能受到嚴厲指責的人，是那名接獲投訴的接待員。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q24",
+        "number": 24,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: We forgot to send the invitations. B: Do you think the manager will punish us severely?",
+        "promptZh": "甲：我們忘記發出邀請函。 乙：你認為經理會嚴厲懲罰我們嗎？",
+        "starter": "Do",
+        "answer": "Do you think we’ll get it in the neck for forgetting to send the invitations?",
+        "answerZh": "你認為我們會因忘記發出邀請函而受到嚴厲懲罰嗎？",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q25",
+        "number": 25,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The supervisor admitted that he had made the mistake because he did not want the new worker to receive the blame.",
+        "promptZh": "主管承認錯誤是由自己造成，因為他不想讓新員工承受責罵。",
+        "starter": "Rather",
+        "answer": "Rather than let the new worker get it in the neck, the supervisor admitted his own mistake.",
+        "answerZh": "主管沒有讓新員工受責罵，而是承認了自己的錯誤。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q26",
+        "number": 26,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Priya made only a small mistake, but the client strongly criticised her throughout the afternoon.",
+        "promptZh": "Priya 只犯了一個小錯誤，但顧客整個下午都猛烈批評她。",
+        "starter": "Even",
+        "answer": "Even though the mistake was small, Priya got it in the neck from the client all afternoon.",
+        "answerZh": "儘管錯誤很小，Priya 整個下午仍受到顧客猛烈責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q27",
+        "number": 27,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The staff have been severely blamed for problems they cannot control, and they are tired of it.",
+        "promptZh": "員工一直因無法控制的問題而受到嚴厲指責，已經感到十分厭倦。",
+        "starter": "The",
+        "answer": "The staff are tired of getting it in the neck for problems they cannot control.",
+        "answerZh": "員工厭倦了因無法控制的問題而受到責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q28",
+        "number": 28,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Why did Noah not report the problem sooner? B: He was afraid that the team leader would severely criticise him.",
+        "promptZh": "甲：Noah 為甚麼沒有早點報告問題？ 乙：他害怕團隊主管會狠狠責罵他。",
+        "starter": "Fear",
+        "answer": "Fear of getting it in the neck from the team leader stopped Noah from reporting the problem sooner.",
+        "answerZh": "Noah 害怕被團隊主管狠狠責罵，因此沒有早點報告問題。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q29",
+        "number": 29,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Leo explained what had happened. The manager accepted his explanation and did not punish him.",
+        "promptZh": "Leo 解釋了事情的經過。經理接受了他的解釋，沒有懲罰他。",
+        "starter": "Leo",
+        "answer": "Leo explained what had happened without getting it in the neck from the manager.",
+        "answerZh": "Leo 解釋事情經過後，沒有受到經理責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q30",
+        "number": 30,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Caleb expected the coach to criticise him severely after he forgot the equipment, but the coach remained calm.",
+        "promptZh": "Caleb 忘記帶器材後，預料教練會狠狠責罵他，但教練保持冷靜。",
+        "starter": "Caleb",
+        "answer": "Caleb expected to get it in the neck after forgetting the equipment, but the coach remained calm.",
+        "answerZh": "Caleb 忘記帶器材後，預料自己會被狠狠責罵，但教練保持冷靜。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q31",
+        "number": 31,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Sophie did not check the email and booked the wrong room. If she had checked it, she would not have been severely criticised.",
+        "promptZh": "Sophie 沒有查看電郵，結果預訂了錯誤房間。如果她查看過電郵，便不會受到嚴厲批評。",
+        "starter": "If",
+        "answer": "If Sophie had checked the email, she would not have got it in the neck for booking the wrong room.",
+        "answerZh": "如果 Sophie 查看過電郵，便不會因預訂錯誤房間而受到嚴厲批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q32",
+        "number": 32,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The whole group agreed to the plan, but when it failed, Nora alone was severely blamed.",
+        "promptZh": "整個小組都同意該計劃，但計劃失敗後，只有 Nora 受到嚴厲指責。",
+        "starter": "Although",
+        "answer": "Although the whole group agreed to the plan, it was Nora who got it in the neck when it failed.",
+        "answerZh": "雖然整個小組都同意該計劃，但計劃失敗後，受責罵的卻是 Nora。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q33",
+        "number": 33,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The manager warned that the person who had deleted the file would be severely punished.",
+        "promptZh": "經理警告，刪除檔案的人將會受到嚴厲懲罰。",
+        "starter": "The",
+        "answer": "The manager warned that whoever deleted the file would get it in the neck.",
+        "answerZh": "經理警告，無論是誰刪除了檔案，都會受到嚴厲懲罰。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q34",
+        "number": 34,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The assistant received a severe telling-off and then corrected the figures immediately.",
+        "promptZh": "助理被狠狠責罵後，立即改正了數字。",
+        "starter": "After",
+        "answer": "After getting it in the neck, the assistant corrected the figures immediately.",
+        "answerZh": "助理被狠狠責罵後，立即改正了數字。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q35",
+        "number": 35,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Why is the supervisor so upset? B: Customers have been strongly criticising him all week because of the delays.",
+        "promptZh": "甲：主管為甚麼如此不安？ 乙：顧客整個星期都因延誤而猛烈批評他。",
+        "starter": "Because",
+        "answer": "Because of the delays, the supervisor has been getting it in the neck from customers all week.",
+        "answerZh": "由於出現延誤，主管整個星期都受到顧客猛烈批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q36",
+        "number": 36,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The team may escape severe criticism if it tells the customer the truth now.",
+        "promptZh": "如果團隊現在向顧客說出真相，可能可以避免受到嚴厲批評。",
+        "starter": "The",
+        "answer": "The team may avoid getting it in the neck if it tells the customer the truth now.",
+        "answerZh": "如果團隊現在向顧客說出真相，可能可以避免受到嚴厲批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Grace did not mind doing the extra work. What upset her was being severely criticised for a decision she had not made.",
+        "promptZh": "Grace 不介意做額外工作。真正令她不高興的是，她因一項並非由自己作出的決定而受到嚴厲批評。",
+        "starter": "What",
+        "answer": "What upset Grace was not the extra work but getting it in the neck for a decision she had not made.",
+        "answerZh": "令 Grace 不高興的不是額外工作，而是因一項並非由她作出的決定而受到嚴厲批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q38",
+        "number": 38,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The manager had already severely scolded the workers before the director arrived.",
+        "promptZh": "主管到達前，經理已經狠狠責罵了工人。",
+        "starter": "By",
+        "answer": "By the time the director arrived, the workers had already got it in the neck from the manager.",
+        "answerZh": "主管到達時，工人早已被經理狠狠責罵了一頓。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q39",
+        "number": 39,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "It does not matter who makes the mistake; the junior staff are always severely blamed.",
+        "promptZh": "無論是誰犯錯，初級員工總會受到嚴厲指責。",
+        "starter": "No",
+        "answer": "No matter who makes the mistake, the junior staff always get it in the neck.",
+        "answerZh": "無論是誰犯錯，初級員工總會受到嚴厲指責。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q40",
+        "number": 40,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Will Sam be blamed for the late delivery? B: Yes, unless somebody explains that the delivery van broke down.",
+        "promptZh": "甲：Sam 會因送貨延誤而受責罵嗎？ 乙：會，除非有人解釋送貨車曾經壞掉。",
+        "starter": "Unless",
+        "answer": "Unless someone explains the breakdown, Sam is bound to get it in the neck for the late delivery.",
+        "answerZh": "除非有人解釋車輛故障，否則 Sam 肯定會因送貨延誤而受到嚴厲責罵。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q41",
+        "number": 41,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The school may face strong criticism from parents if it cancels the trip without explaining why.",
+        "promptZh": "如果學校在沒有解釋原因的情況下取消旅行，可能會受到家長猛烈批評。",
+        "starter": "If",
+        "answer": "If the trip is cancelled without explanation, the school may get it in the neck from parents.",
+        "answerZh": "如果學校在沒有解釋原因的情況下取消旅行，可能會受到家長猛烈批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Passengers have been strongly criticising the transport team since the timetable changed.",
+        "promptZh": "時間表更改後，乘客一直猛烈批評運輸團隊。",
+        "starter": "Since",
+        "answer": "Since the timetable changed, the transport team has been getting it in the neck from passengers.",
+        "answerZh": "時間表更改後，運輸團隊一直受到乘客猛烈批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q43",
+        "number": 43,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Reviewers believed that the organiser would receive severe criticism if the required safety checks were missing.",
+        "promptZh": "評論者認為，如果缺少必要的安全檢查，主辦人將會受到嚴厲批評。",
+        "starter": "The",
+        "answer": "The organiser was expected to get it in the neck if the required safety checks were missing.",
+        "answerZh": "如果缺少必要的安全檢查，主辦人預計會受到嚴厲批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q44",
+        "number": 44,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The designer suggested the colour, but the project manager approved it. When people complained, only the project manager was severely blamed.",
+        "promptZh": "設計師提出了這種顏色，但項目經理批准了它。有人投訴後，只有項目經理受到嚴厲指責。",
+        "starter": "It",
+        "answer": "It was not the designer but the project manager who got it in the neck when the colour choice was criticised.",
+        "answerZh": "顏色選擇受到批評時，被責罵的不是設計師，而是項目經理。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q45",
+        "number": 45,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Everyone approved the decision. Why are people blaming you? B: Because I announced it, I am receiving all the criticism.",
+        "promptZh": "甲：人人都批准了這項決定。為甚麼大家只責怪你？ 乙：因為決定是由我宣布的，所以現在所有批評都落在我身上。",
+        "starter": "Because",
+        "answer": "Because I announced the decision, I’m the one getting it in the neck.",
+        "answerZh": "因為決定是由我宣布的，所以現在一直承受所有批評的人是我。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      },
+      {
+        "id": "idiom-103-q46",
+        "number": 46,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The editor could face severe criticism if the report proves to be inaccurate.",
+        "promptZh": "如果報告證實不準確，編輯可能會受到嚴厲批評。",
+        "starter": "The",
+        "answer": "The editor could get it in the neck if the report proves to be inaccurate.",
+        "answerZh": "如果報告證實不準確，編輯可能會受到嚴厲批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: The trainee simply followed the manager’s instructions. She should not be severely blamed. B: I agree.",
+        "promptZh": "甲：實習員工只是按照經理的指示行事。她不應受到嚴厲指責。 乙：我同意。",
+        "starter": "You’re",
+        "answer": "You’re right; the trainee shouldn’t get it in the neck for following the manager’s instructions.",
+        "answerZh": "你說得對；實習員工不應因按照經理指示行事而受到嚴厲指責。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q48",
+        "number": 48,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "People praised the company for months. When its new app failed, they suddenly criticised it severely.",
+        "promptZh": "公司數月來一直受到稱讚，但新應用程式出現問題後，突然受到猛烈批評。",
+        "starter": "After",
+        "answer": "After months of praise, the company suddenly got it in the neck when its new app failed.",
+        "answerZh": "公司受到數月讚賞後，卻在新應用程式出現問題時突然受到猛烈批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "got it in the neck"
+      },
+      {
+        "id": "idiom-103-q49",
+        "number": 49,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The leaders accept all the praise when the plan succeeds. They should therefore be prepared to face strong criticism when it fails.",
+        "promptZh": "計劃成功時，各名領袖接受所有讚賞。因此，計劃失敗時，他們亦應準備承受猛烈批評。",
+        "starter": "If",
+        "answer": "If the leaders take credit for success, they should also be ready to get it in the neck when the plan fails.",
+        "answerZh": "如果各名領袖在計劃成功時接受功勞，計劃失敗時也應準備承受猛烈批評。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "get it in the neck"
+      },
+      {
+        "id": "idiom-103-q50",
+        "number": 50,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Several departments caused the delay, but the customer-service team received nearly all the criticism because it communicated directly with the public.",
+        "promptZh": "數個部門共同造成延誤，但由於客服團隊直接與公眾溝通，幾乎所有批評都落在他們身上。",
+        "starter": "Although",
+        "answer": "Although several departments caused the delay, the customer-service team ended up getting it in the neck because it dealt directly with the public.",
+        "answerZh": "雖然數個部門共同造成延誤，但由於客服團隊直接與公眾溝通，結果幾乎所有批評都落在他們身上。",
+        "targetForm": "get it in the neck",
+        "targetMeaning": "To receive severe criticism, blame, a strong telling-off or punishment, usually because of something that somebody has done or is believed to have done.",
+        "highlight": "getting it in the neck"
+      }
+    ]
+  }
+}

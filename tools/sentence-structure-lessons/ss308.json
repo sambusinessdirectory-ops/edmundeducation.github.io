@@ -1,0 +1,1237 @@
+{
+  "id": "ss308",
+  "order": 308,
+  "slug": "if-i-may",
+  "title": "「If I may」禮貌提出意見、問題或補充",
+  "titleZh": "「If I may」禮貌提出意見、問題或補充",
+  "titleEn": "Using “If I may”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 307 -「If I may」禮貌提出意見、問題或補充.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "sha256": "ad3a3237521389a001b72cb73adbcf1da8a5a32249bd575cefb86dfc7da12bc5",
+    "sourceNumber": 307,
+    "systemOrder": 308,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 307 maps to ss308: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "If I may is a polite expression used before entering a discussion, asking a question, making a suggestion, correcting something or adding a point",
+  "formulas": [
+    {
+      "id": "ss308-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "If I may is a polite expression used before entering a discussion, asking a question, making a suggestion, correcting something or adding a point"
+    }
+  ],
+  "example": "If I may, I would like to clarify one point.",
+  "exampleZh": "如果可以的話，我想澄清一點。",
+  "examples": [
+    {
+      "id": "ss308-example-01",
+      "en": "If I may, I would like to clarify one point.",
+      "zh": "如果可以的話，我想澄清一點。",
+      "highlight": "If I may, I would like to clarify one point."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss308-rule-01",
+      "zh": "本課的固定表達只有 If I may，用來禮貌地引出接下來的說話。其後的 I would like to、let me、could I 和其他字詞都屬於主句內容，可以按溝通需要改變；它們可與 If I may 組成完整句子，但不是固定表達本身的一部分。",
+      "en": "The fixed expression is “If I may” The core expression taught in this exercise is: If I may The following words belong to the main clause: If I may, I would like to clarify one point. The fixed expression is not: If I may, I would like to If I may, let me If I may, could I These are complete sentence patterns containing the fixed expression, but the fixed expression itself remains only If I may.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss308-rule-02",
+      "zh": "在這個用法中，說話者通常不是提出真正的條件。它的意思接近：如果可以的話容我……請允許我……恕我提出……",
+      "en": "It is usually a politeness marker, not a real condition In this use, the speaker is not normally discussing a real future condition. If I may means approximately: with your permission please allow me if you do not mind may I politely add something",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss308-rule-03",
+      "zh": "插入語 If I may 只增加禮貌語氣，不能取代主句；整句仍須有完整訊息。不可只說 If I may, one point，而應說 If I may, I would like to clarify one point。",
+      "en": "The sentence must still contain a complete main message If I may, one point. If I may, I would like to clarify one point. I have one point to clarify, if I may. If I may only adds politeness. It cannot replace the main clause.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss308-rule-04",
+      "zh": "插入語 If I may 放在句首時，後面要加逗號；放在句中時，前後都要加逗號；放在句尾時，前面要加逗號。",
+      "en": "Commas are required At the beginning: If I may, I would like to add one point. In the middle: I would like, if I may, to add one point. At the end: I would like to add one point, if I may. When it appears in the middle, place a comma before and after it.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss308-rule-05",
+      "zh": "兩種禮貌表達 If I may 與 May I...? 意思相關但結構不同。May I ask a question? 是直接請求許可；If I may, I would like to ask a question. 則是禮貌地引出接下來要說的內容。",
+      "en": "“If I may” and “May I...?” are related but different May I ask a question? This directly asks for permission. If I may, I would like to ask a question. This politely introduces what the speaker is about to say. Both are polite, but their sentence structures are different.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss308-rule-06",
+      "zh": "插入語 If I may 的位置相當靈活：放在句首最清楚和常見，也可自然地放在句中或句尾；三種位置都不會改變它的禮貌功能。",
+      "en": "The position is flexible The sentence-initial position is the clearest and most common teaching form: If I may, I would like to explain the problem. However, the expression can also appear naturally in the middle or at the end: I would like, if I may, to explain the problem. I would like to explain the problem, if I may. This exercise deliberately uses all three positions.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss308-rule-07",
+      "zh": "本課不教授 If I may + 動詞 的從句用法；雖然 If I may add one point... 等句子合乎文法，本練習只集中於獨立插入語 If I may, + 子句、句中插入及句尾用法。",
+      "en": "“If I may + verb” is outside this lesson Sentences such as these are grammatically possible: If I may add one point, the cost is still uncertain. If I may say so, the plan seems unrealistic. However, they do not use If I may as a complete parenthetical expression followed by a comma. This worksheet focuses only on: If I may, + clause clause +, if I may, + remainder clause +, if I may",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss308-rule-08",
+      "zh": "禮貌表達 If I may 主要用於正式情境，例如會議、面試、簡報、課堂討論、正式交談、專業異議及公開問答；在親密朋友的隨意對話中可能顯得過於正式。",
+      "en": "Use it mainly in polite or formal situations It is especially useful in: meetings interviews presentations classroom discussions formal conversations professional disagreements public question-and-answer sessions It may sound unnecessarily formal in very casual conversations between close friends.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss308-benefit-01",
+      "zh": "這個句型能顯示你希望有禮貌地加入討論，而不是突然打斷別人。",
+      "en": "It helps you enter a discussion politely When other people are already speaking, beginning immediately with your opinion may sound abrupt. If I may signals that you would like permission to contribute. Direct: I would like to add one point. More carefully introduced: If I may, I would like to add one point.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss308-benefit-02",
+      "zh": "當你需要糾正別人或提出不同意見時，這個句型能令語氣較婉轉，減少過分直接或冒犯別人的感覺。",
+      "en": "It softens corrections and disagreements Corrections and opposing opinions can sound too direct. Compare: That figure is incorrect. If I may, I think that figure should be checked again. The second sentence introduces the disagreement more gently.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss308-benefit-03",
+      "zh": "這個句型像一個清晰的提示，讓聽者知道你接下來會提出問題、建議、解釋或憂慮。",
+      "en": "It prepares the listener for your next point The expression tells the listener that a question, explanation, suggestion or concern is coming next. If I may, I have one concern about the timetable. The listener immediately understands that the speaker is about to raise a concern.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss308-benefit-04",
+      "zh": "這個句型能讓你在正式場合中保持禮貌，同時清楚表達自己的立場。",
+      "en": "It is useful in professional speaking The expression is suitable for meetings, interviews, presentations and formal discussions. If I may, I would like to respond to the previous speaker. It allows the speaker to sound respectful while still expressing an independent view.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss308-benefit-05",
+      "zh": "這個句型可以放在句首、句中或句尾，讓學生練習不同的句子結構，而不是每次都使用相同開頭。",
+      "en": "Its flexible position creates sentence variety You do not need to place the expression at the beginning every time. If I may, I would like to raise one concern. I would like, if I may, to raise one concern. I would like to raise one concern, if I may. Changing its position gives you more control over sentence rhythm and prevents every sentence from beginning in the same way.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 307 maps to ss308: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the exact expression If I may.",
+      "Place If I may at the beginning, in the middle or at the end according to the first-word hint.",
+      "Preserve the original meaning, level of politeness, tense and modality.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用完整固定用語 If I may 改寫以下句子。",
+      "按照答案首字提示，把 If I may 放在句首、句中或句尾。",
+      "保留原句的意思、禮貌程度、時態及情態意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss308-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "With your permission, I would like to clarify one point.",
+      "promptZh": "如果可以的話，我想澄清一點。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, I would like to clarify one point.",
+      "answerZh": "如果可以的話，我想澄清一點。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, I would like to clarify one point."
+    },
+    {
+      "id": "ss308-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "May I ask a brief question?",
+      "promptZh": "我可以簡短問一個問題嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like to ask a brief question, if I may.",
+      "answerZh": "如果可以的話，我想簡短問一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like to ask a brief question, if I may."
+    },
+    {
+      "id": "ss308-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Please allow me to explain the final step.",
+      "promptZh": "請允許我解釋最後一個步驟。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me, if I may, explain the final step.",
+      "answerZh": "如果可以的話，讓我解釋最後一個步驟。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me, if I may, explain the final step."
+    },
+    {
+      "id": "ss308-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I hope you do not mind if I make a small suggestion.",
+      "promptZh": "希望你不介意我提出一個小建議。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, let me make a small suggestion.",
+      "answerZh": "如果可以的話，讓我提出一個小建議。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, let me make a small suggestion."
+    },
+    {
+      "id": "ss308-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "May I correct one date?",
+      "promptZh": "我可以糾正一個日期嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like, if I may, to correct one date.",
+      "answerZh": "如果可以的話，我想糾正一個日期。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like, if I may, to correct one date."
+    },
+    {
+      "id": "ss308-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "With your permission, there is one detail I should mention.",
+      "promptZh": "如果可以的話，有一項細節我應該提出。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is one detail I should mention, if I may.",
+      "answerZh": "如果可以的話，有一項細節我應該提出。",
+      "answerZhSource": "pdf",
+      "highlight": "There is one detail I should mention, if I may."
+    },
+    {
+      "id": "ss308-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Please allow me to add an example.",
+      "promptZh": "請允許我補充一個例子。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, I would like to add an example.",
+      "answerZh": "如果可以的話，我想補充一個例子。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, I would like to add an example."
+    },
+    {
+      "id": "ss308-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "May I offer a different view?",
+      "promptZh": "我可以提出一個不同的看法嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me offer a different view, if I may.",
+      "answerZh": "容我提出一個不同的看法。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me offer a different view, if I may."
+    },
+    {
+      "id": "ss308-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I hope you do not mind if I raise one concern about the timetable.",
+      "promptZh": "希望你不介意我提出一項有關時間表的憂慮。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like, if I may, to raise one concern about the timetable.",
+      "answerZh": "如果可以的話，我想提出一項有關時間表的憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like, if I may, to raise one concern about the timetable."
+    },
+    {
+      "id": "ss308-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "May I suggest that we return to the first question?",
+      "promptZh": "我可以建議我們回到第一個問題嗎？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, could we return to the first question?",
+      "answerZh": "如果可以的話，我們可以回到第一個問題嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, could we return to the first question?"
+    },
+    {
+      "id": "ss308-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "With your permission, I would like to make one observation.",
+      "promptZh": "如果可以的話，我想提出一項觀察。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like to make one observation, if I may.",
+      "answerZh": "如果可以的話，我想提出一項觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like to make one observation, if I may."
+    },
+    {
+      "id": "ss308-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Please allow me to explain why the figures changed.",
+      "promptZh": "請允許我解釋這些數字為甚麼出現變化。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, let me explain why the figures changed.",
+      "answerZh": "如果可以的話，讓我解釋這些數字為甚麼出現變化。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, let me explain why the figures changed."
+    },
+    {
+      "id": "ss308-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "May I suggest one possible solution? We could extend the deadline.",
+      "promptZh": "我可以提出一個可能的解決方法嗎？我們可以延長期限。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One possible solution, if I may, is to extend the deadline.",
+      "answerZh": "容我提出一個可能的解決方法，就是延長期限。",
+      "answerZhSource": "pdf",
+      "highlight": "One possible solution, if I may, is to extend the deadline."
+    },
+    {
+      "id": "ss308-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I hope you do not mind my saying this, but we should check the address once more.",
+      "promptZh": "希望你不介意我這樣說，但我們應該再次核對地址。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should check the address once more, if I may.",
+      "answerZh": "恕我提出，我們應該再次核對地址。",
+      "answerZhSource": "pdf",
+      "highlight": "We should check the address once more, if I may."
+    },
+    {
+      "id": "ss308-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "With your permission, I would like to respond to that comment.",
+      "promptZh": "如果可以的話，我想回應那項意見。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, I would like to respond to that comment.",
+      "answerZh": "如果可以的話，我想回應那項意見。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, I would like to respond to that comment."
+    },
+    {
+      "id": "ss308-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "May I add that the trial was successful?",
+      "promptZh": "我可以補充說明試行計劃是成功的嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like to add, if I may, that the trial was successful.",
+      "answerZh": "如果可以的話，我想補充說明，試行計劃是成功的。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like to add, if I may, that the trial was successful."
+    },
+    {
+      "id": "ss308-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Please allow me to say that this point needs further explanation.",
+      "promptZh": "請允許我指出，這一點需要進一步解釋。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This point needs further explanation, if I may.",
+      "answerZh": "恕我提出，這一點需要進一步解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "This point needs further explanation, if I may."
+    },
+    {
+      "id": "ss308-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "May I ask one question about the new rule?",
+      "promptZh": "我可以就新規則提出一個問題嗎？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, I would like to ask one question about the new rule.",
+      "answerZh": "如果可以的話，我想就新規則提出一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, I would like to ask one question about the new rule."
+    },
+    {
+      "id": "ss308-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Please allow me to suggest a shorter route.",
+      "promptZh": "請允許我建議一條較短的路線。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me suggest a shorter route, if I may.",
+      "answerZh": "如果可以的話，讓我建議一條較短的路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me suggest a shorter route, if I may."
+    },
+    {
+      "id": "ss308-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I hope you do not mind my mentioning that there is a minor error in the report.",
+      "promptZh": "希望你不介意我指出報告中有一個小錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is, if I may, a minor error in the report.",
+      "answerZh": "恕我指出，報告中有一個小錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "There is, if I may, a minor error in the report."
+    },
+    {
+      "id": "ss308-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "With your permission, I would like to challenge one assumption.",
+      "promptZh": "如果可以的話，我想質疑其中一項假設。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, I would like to challenge one assumption.",
+      "answerZh": "如果可以的話，我想質疑其中一項假設。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, I would like to challenge one assumption."
+    },
+    {
+      "id": "ss308-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "May I ask whether the cost includes delivery?",
+      "promptZh": "我可以詢問費用是否包括送貨嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like to ask, if I may, whether the cost includes delivery.",
+      "answerZh": "如果可以的話，我想詢問費用是否包括送貨。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like to ask, if I may, whether the cost includes delivery."
+    },
+    {
+      "id": "ss308-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I do not wish to interrupt, but I think the team may need more preparation time.",
+      "promptZh": "我不想打斷大家，但我認為團隊可能需要更多準備時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team may need more preparation time, if I may.",
+      "answerZh": "恕我提出，團隊可能需要更多準備時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The team may need more preparation time, if I may."
+    },
+    {
+      "id": "ss308-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Please allow me to draw attention to the final paragraph.",
+      "promptZh": "請允許我請大家留意最後一段。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, let me draw attention to the final paragraph.",
+      "answerZh": "如果可以的話，讓我請大家留意最後一段。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, let me draw attention to the final paragraph."
+    },
+    {
+      "id": "ss308-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "May I propose a two-week trial?",
+      "promptZh": "我可以建議進行為期兩星期的試行計劃嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like to propose a two-week trial, if I may.",
+      "answerZh": "如果可以的話，我想建議進行為期兩星期的試行計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like to propose a two-week trial, if I may."
+    },
+    {
+      "id": "ss308-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I hope you do not mind my saying that one concern is the lack of staff training.",
+      "promptZh": "希望你不介意我指出，其中一項憂慮是員工缺乏培訓。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One concern, if I may, is the lack of staff training.",
+      "answerZh": "恕我提出，其中一項憂慮是員工缺乏培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "One concern, if I may, is the lack of staff training."
+    },
+    {
+      "id": "ss308-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "With your permission, I would add that the survey was quite small.",
+      "promptZh": "如果可以的話，我想補充說明，這項調查的規模相當小。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, I would add that the survey was quite small.",
+      "answerZh": "如果可以的話，我想補充說明，這項調查的規模相當小。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, I would add that the survey was quite small."
+    },
+    {
+      "id": "ss308-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "With your permission, perhaps we should compare the two options more carefully.",
+      "promptZh": "如果可以的話，或許我們應該更仔細地比較兩個方案。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could compare the two options more carefully, if I may.",
+      "answerZh": "恕我建議，我們可以更仔細地比較兩個方案。",
+      "answerZhSource": "pdf",
+      "highlight": "We could compare the two options more carefully, if I may."
+    },
+    {
+      "id": "ss308-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Please allow me to return to the issue of safety.",
+      "promptZh": "請允許我再次討論安全問題。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like, if I may, to return to the issue of safety.",
+      "answerZh": "如果可以的話，我想再次討論安全問題。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like, if I may, to return to the issue of safety."
+    },
+    {
+      "id": "ss308-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "May I clarify what the customer requested?",
+      "promptZh": "我可以澄清顧客提出了甚麼要求嗎？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, could I clarify what the customer requested?",
+      "answerZh": "如果可以的話，我可以澄清顧客提出了甚麼要求嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, could I clarify what the customer requested?"
+    },
+    {
+      "id": "ss308-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I hope you do not mind, but I believe the main difficulty is the limited budget.",
+      "promptZh": "希望你不介意，但我認為主要困難是預算有限。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The main difficulty, if I may, is the limited budget.",
+      "answerZh": "恕我提出，主要困難是預算有限。",
+      "answerZhSource": "pdf",
+      "highlight": "The main difficulty, if I may, is the limited budget."
+    },
+    {
+      "id": "ss308-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Please allow me to explain how the booking system works.",
+      "promptZh": "請允許我解釋預訂系統的運作方式。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me explain how the booking system works, if I may.",
+      "answerZh": "如果可以的話，讓我解釋預訂系統的運作方式。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me explain how the booking system works, if I may."
+    },
+    {
+      "id": "ss308-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "With your permission, I would like to offer a different interpretation.",
+      "promptZh": "如果可以的話，我想提出一個不同的理解方式。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, I would like to offer a different interpretation.",
+      "answerZh": "如果可以的話，我想提出一個不同的理解方式。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, I would like to offer a different interpretation."
+    },
+    {
+      "id": "ss308-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I do not wish to sound forceful, but I believe staff safety should be our first priority.",
+      "promptZh": "我不希望語氣過於強硬，但我認為員工安全應該是我們的首要考慮。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our first priority should be staff safety, if I may.",
+      "answerZh": "恕我提出，我們的首要考慮應該是員工安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Our first priority should be staff safety, if I may."
+    },
+    {
+      "id": "ss308-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "May I mention another factor that we should consider?",
+      "promptZh": "我可以提出另一項我們應該考慮的因素嗎？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, let me mention another factor we should consider.",
+      "answerZh": "如果可以的話，讓我提出另一項我們應該考慮的因素。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, let me mention another factor we should consider."
+    },
+    {
+      "id": "ss308-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Please allow me to point out that the figures are estimates.",
+      "promptZh": "請允許我指出，這些數字只是估算。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like to point out, if I may, that the figures are estimates.",
+      "answerZh": "如果可以的話，我想指出，這些數字只是估算。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like to point out, if I may, that the figures are estimates."
+    },
+    {
+      "id": "ss308-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I hope you do not mind my saying that this wording may confuse younger readers.",
+      "promptZh": "希望你不介意我指出，這種措辭可能會令較年輕的讀者感到困惑。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This wording may confuse younger readers, if I may.",
+      "answerZh": "恕我提出，這種措辭可能會令較年輕的讀者感到困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "This wording may confuse younger readers, if I may."
+    },
+    {
+      "id": "ss308-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Perhaps I could suggest a more practical arrangement.",
+      "promptZh": "或許我可以提出一個更實際的安排。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, let me suggest a more practical arrangement.",
+      "answerZh": "如果可以的話，讓我提出一個更實際的安排。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, let me suggest a more practical arrangement."
+    },
+    {
+      "id": "ss308-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Please allow me to identify one possible weakness: the sample was too narrow.",
+      "promptZh": "請允許我指出一項可能的弱點：樣本範圍太窄。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A possible weakness, if I may, is that the sample was too narrow.",
+      "answerZh": "恕我提出，一項可能的弱點是樣本範圍太窄。",
+      "answerZhSource": "pdf",
+      "highlight": "A possible weakness, if I may, is that the sample was too narrow."
+    },
+    {
+      "id": "ss308-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I do not wish to interrupt, but I think we should hear from the local residents before deciding.",
+      "promptZh": "我不想打斷大家，但我認為我們應該先聽取本區居民的意見才作決定。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should hear from the local residents before deciding, if I may.",
+      "answerZh": "恕我提出，我們應該先聽取本區居民的意見才作決定。",
+      "answerZhSource": "pdf",
+      "highlight": "We should hear from the local residents before deciding, if I may."
+    },
+    {
+      "id": "ss308-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "With your permission, I would like to distinguish the short-term cost from the long-term benefit.",
+      "promptZh": "如果可以的話，我想把短期成本和長期效益區分開來。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, I would like to distinguish the short-term cost from the long-term benefit.",
+      "answerZh": "如果可以的話，我想把短期成本和長期效益區分開來。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, I would like to distinguish the short-term cost from the long-term benefit."
+    },
+    {
+      "id": "ss308-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I hope you do not mind my saying that the proposal could be clearer about who is responsible for each stage.",
+      "promptZh": "希望你不介意我指出，建議書可以更清楚說明每個階段由誰負責。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal could be clearer about who is responsible for each stage, if I may.",
+      "answerZh": "恕我提出，建議書可以更清楚說明每個階段由誰負責。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal could be clearer about who is responsible for each stage, if I may."
+    },
+    {
+      "id": "ss308-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Please allow me to emphasise that no final decision has been made.",
+      "promptZh": "請允許我強調，目前尚未作出最終決定。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like to emphasise, if I may, that no final decision has been made.",
+      "answerZh": "如果可以的話，我想強調，目前尚未作出最終決定。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like to emphasise, if I may, that no final decision has been made."
+    },
+    {
+      "id": "ss308-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "May I explain why the apparent increase does not represent real growth?",
+      "promptZh": "我可以解釋為甚麼表面上的增長並不代表實際增長嗎？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, let me explain why the apparent increase does not represent real growth.",
+      "answerZh": "如果可以的話，讓我解釋為甚麼表面上的增長並不代表實際增長。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, let me explain why the apparent increase does not represent real growth."
+    },
+    {
+      "id": "ss308-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "With your permission, I would say that our conclusion should remain cautious until the missing data are available.",
+      "promptZh": "如果可以的話，我想指出，在取得缺失的數據之前，我們的結論應該保持審慎。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our conclusion should remain cautious until the missing data are available, if I may.",
+      "answerZh": "恕我提出，在取得缺失的數據之前，我們的結論應該保持審慎。",
+      "answerZhSource": "pdf",
+      "highlight": "Our conclusion should remain cautious until the missing data are available, if I may."
+    },
+    {
+      "id": "ss308-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Perhaps I could suggest that the committee review the policy after six months.",
+      "promptZh": "或許我可以建議委員會在六個月後檢討這項政策。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, I would like to suggest that the committee review the policy after six months.",
+      "answerZh": "如果可以的話，我想建議委員會在六個月後檢討這項政策。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, I would like to suggest that the committee review the policy after six months."
+    },
+    {
+      "id": "ss308-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "May I raise one question? Will the new system remain affordable?",
+      "promptZh": "我可以提出一個問題嗎？新系統是否仍然能夠負擔？",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One question, if I may, is whether the new system will remain affordable.",
+      "answerZh": "恕我提出，其中一個問題是新系統是否仍然能夠負擔。",
+      "answerZhSource": "pdf",
+      "highlight": "One question, if I may, is whether the new system will remain affordable."
+    },
+    {
+      "id": "ss308-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Please allow me to return briefly to the point raised by the previous speaker.",
+      "promptZh": "請允許我簡短回到上一位講者提出的觀點。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me return briefly to the point raised by the previous speaker, if I may.",
+      "answerZh": "如果可以的話，讓我簡短回到上一位講者提出的觀點。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me return briefly to the point raised by the previous speaker, if I may."
+    },
+    {
+      "id": "ss308-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "With your permission, I would add that the recommendation depends on two untested assumptions.",
+      "promptZh": "如果可以的話，我想補充說明，這項建議建基於兩項尚未驗證的假設。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If I may, I would add that the recommendation depends on two untested assumptions.",
+      "answerZh": "如果可以的話，我想補充說明，這項建議建基於兩項尚未驗證的假設。",
+      "answerZhSource": "pdf",
+      "highlight": "If I may, I would add that the recommendation depends on two untested assumptions."
+    },
+    {
+      "id": "ss308-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I hope you do not mind my saying that the most important issue is how the change will affect people who rely on the service.",
+      "promptZh": "希望你不介意我指出，最重要的問題是這項改變會如何影響依賴該服務的人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The most important issue, if I may, is how the change will affect people who rely on the service.",
+      "answerZh": "恕我提出，最重要的問題是這項改變會如何影響依賴該服務的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The most important issue, if I may, is how the change will affect people who rely on the service."
+    }
+  ]
+}

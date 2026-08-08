@@ -1,0 +1,1392 @@
+{
+  "lesson": {
+    "id": "idiom-57",
+    "order": 57,
+    "slug": "turn-over-a-new-leaf",
+    "version": "1",
+    "title": "改過自新／重新做人",
+    "titleEn": "turn over a new leaf",
+    "titleZh": "改過自新／重新做人",
+    "source": {
+      "file": "Idiom 57 - 「turn over a new leaf」.pdf",
+      "pageCount": 24,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "exercisePdfPages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "answerKeyPdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "turn over a new leaf",
+        "highlight": "turn over a new leaf"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+        "zh": "丹尼爾在工作上已改過自新，現在每天都準時到達。",
+        "highlight": "turned over a new leaf"
+      }
+    ],
+    "meaning": {
+      "en": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+      "zh": "真正改善自己的行為、態度或生活方式，尤其指一個人改掉以往的壞習慣或錯誤，重新開始。",
+      "naturalZh": [
+        "改過自新；改變以往的壞習慣；重新做人；重新開始，努力做得更好"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "The expression is neutral to informal. It is natural in everyday conversation, personal writing, interviews, news reports and general workplace communication.",
+      "summaryZh": "這個表達屬中性至較口語，適合日常對話、個人寫作、訪問、新聞報道及一般工作溝通。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "In highly formal legal, medical or technical writing, a plain expression such as change one’s behaviour, improve one’s practices or reform may be clearer.",
+      "formalZh": "在非常正式的法律、醫療或技術文章中，使用 change one’s behaviour、improve one’s practices 或 reform 等直接說法可能更清楚。"
+    },
+    "fixedVariable": {
+      "fixed": "turn over a new leaf",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + turn(s) / turned over a new leaf.",
+          "example": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+          "highlight": "turned over a new leaf"
+        },
+        {
+          "form": "Subject + has / have turned over a new leaf.",
+          "example": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+          "highlight": "turned over a new leaf"
+        },
+        {
+          "form": "Subject + modal verb + turn over a new leaf.",
+          "example": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+          "highlight": "turned over a new leaf"
+        },
+        {
+          "form": "Subject + decide / promise / try / need + to turn over a new leaf.",
+          "example": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+          "highlight": "turned over a new leaf"
+        },
+        {
+          "form": "Subject + turn over a new leaf + by + verb-ing.",
+          "example": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+          "highlight": "turned over a new leaf"
+        },
+        {
+          "form": "Subject + turn over a new leaf + and + improved behaviour.",
+          "example": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+          "highlight": "turned over a new leaf"
+        },
+        {
+          "form": "To turn over a new leaf, + subject + improved action.",
+          "example": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+          "highlight": "turned over a new leaf"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Subject + turn(s) / turned over a new leaf",
+        "titleZh": "句式一",
+        "formula": "Subject + turn(s) / turned over a new leaf.",
+        "descriptionEn": "Source grammar frame: Subject + turn(s) / turned over a new leaf.",
+        "descriptionZh": "原檔列出的句法框架：Subject + turn(s) / turned over a new leaf。",
+        "examples": [
+          {
+            "en": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+            "zh": "丹尼爾在工作上已改過自新，現在每天都準時到達。",
+            "highlight": "turned over a new leaf"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Subject + has / have turned over a new leaf",
+        "titleZh": "句式二",
+        "formula": "Subject + has / have turned over a new leaf.",
+        "descriptionEn": "Source grammar frame: Subject + has / have turned over a new leaf.",
+        "descriptionZh": "原檔列出的句法框架：Subject + has / have turned over a new leaf。",
+        "examples": [
+          {
+            "en": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+            "zh": "丹尼爾在工作上已改過自新，現在每天都準時到達。",
+            "highlight": "turned over a new leaf"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Subject + modal verb + turn over a new leaf",
+        "titleZh": "句式三",
+        "formula": "Subject + modal verb + turn over a new leaf.",
+        "descriptionEn": "Source grammar frame: Subject + modal verb + turn over a new leaf.",
+        "descriptionZh": "原檔列出的句法框架：Subject + modal verb + turn over a new leaf。",
+        "examples": [
+          {
+            "en": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+            "zh": "丹尼爾在工作上已改過自新，現在每天都準時到達。",
+            "highlight": "turned over a new leaf"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Subject + decide / promise / try / need + to turn over a new leaf",
+        "titleZh": "句式四",
+        "formula": "Subject + decide / promise / try / need + to turn over a new leaf.",
+        "descriptionEn": "Source grammar frame: Subject + decide / promise / try / need + to turn over a new leaf.",
+        "descriptionZh": "原檔列出的句法框架：Subject + decide / promise / try / need + to turn over a new leaf。",
+        "examples": [
+          {
+            "en": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+            "zh": "丹尼爾在工作上已改過自新，現在每天都準時到達。",
+            "highlight": "turned over a new leaf"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Subject + turn over a new leaf + by + verb-ing",
+        "titleZh": "句式五",
+        "formula": "Subject + turn over a new leaf + by + verb-ing.",
+        "descriptionEn": "Source grammar frame: Subject + turn over a new leaf + by + verb-ing.",
+        "descriptionZh": "原檔列出的句法框架：Subject + turn over a new leaf + by + verb-ing。",
+        "examples": [
+          {
+            "en": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+            "zh": "丹尼爾在工作上已改過自新，現在每天都準時到達。",
+            "highlight": "turned over a new leaf"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Subject + turn over a new leaf + and + improved behaviour",
+        "titleZh": "句式六",
+        "formula": "Subject + turn over a new leaf + and + improved behaviour.",
+        "descriptionEn": "Source grammar frame: Subject + turn over a new leaf + and + improved behaviour.",
+        "descriptionZh": "原檔列出的句法框架：Subject + turn over a new leaf + and + improved behaviour。",
+        "examples": [
+          {
+            "en": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+            "zh": "丹尼爾在工作上已改過自新，現在每天都準時到達。",
+            "highlight": "turned over a new leaf"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "To turn over a new leaf, + subject + improved action",
+        "titleZh": "句式七",
+        "formula": "To turn over a new leaf, + subject + improved action.",
+        "descriptionEn": "Source grammar frame: To turn over a new leaf, + subject + improved action.",
+        "descriptionZh": "原檔列出的句法框架：To turn over a new leaf, + subject + improved action。",
+        "examples": [
+          {
+            "en": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+            "zh": "丹尼爾在工作上已改過自新，現在每天都準時到達。",
+            "highlight": "turned over a new leaf"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It compresses a longer explanation",
+        "titleZh": "好處一",
+        "en": "It can replace a longer statement such as “He used to behave badly, but he has now decided to change and behave better.”",
+        "zh": "它可以把「某人以往表現不好，但現在已決定改善行為」這類較長的解釋濃縮成一個慣用語。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It highlights a deliberate fresh start",
+        "titleZh": "這個表達把改善描寫成一個新階段，而不只是一個短暫的小改變",
+        "en": "The expression presents the improvement as a new stage rather than a small temporary change.",
+        "zh": "這個表達把改善描寫成一個新階段，而不只是一個短暫的小改變。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It is useful for promises, advice and evaluation",
+        "titleZh": "說話者可以用它承諾改變、鼓勵別人，或判斷改變是否真正發生",
+        "en": "Speakers can promise to change, encourage another person, or judge whether change has really happened.",
+        "zh": "說話者可以用它承諾改變、鼓勵別人，或判斷改變是否真正發生。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It works with cautious language",
+        "titleZh": "好處四",
+        "en": "Words such as may, seem and appear allow the speaker to avoid claiming too much.",
+        "zh": "配合 may、seem 和 appear，可以避免把尚未確定的改變說成事實。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Its book-page image supports memory",
+        "titleZh": "舊書頁代表以往的行為；新書頁代表一個更好的開始，有助記憶",
+        "en": "The old page represents earlier behaviour; the new page represents a better beginning. This idiom is a useful alternative, but it is not automatically better than a plain expression. Use it only when the context genuinely involves positive personal or organisational change.",
+        "zh": "舊書頁代表以往的行為； 新書頁代表一個更好的開始，有助記憶。 這個慣用語是一個實用的替代說法，但並非一定比直接表達更好。 只有當語境真正涉及正面的個人或機構改變時才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Most Likely Origin; Exact First Use Uncertain",
+      "statusZh": "最可能的來源；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "An established idiom reference dates the expression to the early 1500s, but this should not be treated as proof of its exact first spoken use. By 1868, Louisa May Alcott used the expression naturally in Little Women, showing that it was already established in literary English by that time. The Library of Congress records the first edition of Little Women in 1868, while the University of Washington text preserves Alcott’s use of the expression.",
+          "zh": "一部具代表性的慣用語參考資料把這個表達追溯至十六世紀初，但這並不等於已證實它最早在何時出現於口語。 到了1868年，Louisa May Alcott 已在《Little Women》中自然地使用這個表達， 顯示它當時已是相當成熟的文學英語用法。 美國國會圖書館的資料把《Little Women》第一版定於 1868年，而華盛頓大學保存的文本亦載有 Alcott 對這個表達的使用。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The old page came to represent a person’s earlier mistakes or bad habits. The fresh page represented the chance to begin again and fill the next part of life with better actions.",
+          "zh": "舊頁逐漸代表一個人以往的錯誤或壞習慣； 新頁則代表重新開始，並以更好的行動寫下人生下一部分的機會。"
+        }
+      ],
+      "memoryEn": "Leave the old page behind; write better actions on the new one.",
+      "memoryZh": "把舊頁留在身後，在新的一頁寫下更好的行動。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "The change must be positive",
+        "titleZh": "規則一：改變必須是正面的",
+        "en": "The idiom means changing for the better, not merely changing in any direction.",
+        "zh": "這個慣用語表示「變得更好」，並不是任何一般改變都適用。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It usually describes a real pattern of change",
+        "titleZh": "規則二：通常用來形容真正而持續的改變",
+        "en": "One isolated good action is normally not enough. The context should suggest a new habit, attitude or way of living.",
+        "zh": "一次單獨的好行為通常並不足夠。 語境應顯示新的習慣、態度或生活方式。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "People are the most typical subjects",
+        "titleZh": "規則三：最典型的主語是人",
+        "en": "Groups, teams, shops, schools and companies may also turn over a new leaf when their continuing behaviour or practices improve.",
+        "zh": "如果團體、球隊、店舖、學校或公司持續改善其行為或做法，也可以使用這個慣用語。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve tense and certainty",
+        "titleZh": "規則四：保留時態及確定程度",
+        "en": "She may have turned over a new leaf does not mean the same as She has turned over a new leaf.",
+        "zh": "She may have turned over a new leaf 表示可能已改變； She has turned over a new leaf 則把改變視為事實。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Use by + -ing to explain the new action",
+        "titleZh": "規則五：使用 by + -ing 說明新的行動",
+        "en": "Use by + -ing to explain the new action",
+        "zh": "使用 by + -ing 說明新的行動",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Keep the article and word order",
+        "titleZh": "規則六：保留冠詞及字詞次序",
+        "en": "Keep the article and word order",
+        "zh": "保留冠詞及字詞次序",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do not interpret leaf as a plant leaf",
+        "titleZh": "規則七：不要把 leaf 理解為植物的葉子",
+        "en": "In this idiom, leaf refers to the image of a sheet or page in a book.",
+        "zh": "在這個慣用語中，leaf 帶出書頁的意象，而不是植物的葉子。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do not use it for a merely neutral change",
+        "titleZh": "規則八：不要用於單純的中性改變",
+        "en": "Changing jobs, moving house or buying new clothes does not by itself mean that somebody has turned over a new leaf.",
+        "zh": "轉工、搬屋或購買新衣服本身並不代表某人已改過自新。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do not overstate weak evidence",
+        "titleZh": "規則九：不要把微弱證據說得過於肯定",
+        "en": "If somebody has behaved well for only one day, use cautious wording such as may be trying to turn over a new leaf.",
+        "zh": "如果某人只在一天內表現良好，可以使用 may be trying to turn over a new leaf 等較審慎的說法。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do not use it in a literal page-turning sentence",
+        "titleZh": "規則十：不要在真正翻頁的句子中使用這個慣用語",
+        "en": "She turned over a new leaf and began studying seriously. I ate one healthy breakfast today. This is one isolated action, not yet a lasting change. He moved to a new office, but his behaviour stayed the same. The situation changed, but he did not improve his behaviour. She turned over a leaf in her notebook. This is a literal physical action.",
+        "zh": "不適用的情況我今天吃了一頓健康早餐。 這只是一個單獨行動，尚未顯示持久改變。 他搬到新的辦公室，但行為沒有改變。 情況有所改變，但他並沒有改善自己的行為。 她把筆記簿的一頁翻過去。 這是字面上的實際動作。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using turn over a new leaf. Change the form of turn when necessary. Preserve the original meaning, tense, degree of certainty and important details.",
+      "zh": "使用 turn over a new leaf 改寫句子或完成回應。 需要時改變 turn 的形式，並保留原句的意思、時態、確定程度及重要細節。"
+    },
+    "questions": [
+      {
+        "id": "idiom-57-q01",
+        "number": 1,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "Daniel used to arrive late for work, but he now arrives on time every day.",
+        "promptZh": "丹尼爾以前經常上班遲到，但他現在每天都準時到達。",
+        "starter": "Daniel",
+        "answer": "Daniel has turned over a new leaf at work and now arrives on time every day.",
+        "answerZh": "丹尼爾在工作上已改過自新，現在每天都準時到達。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q02",
+        "number": 2,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "Chloe used to leave her room in a mess. Now she tidies it every evening.",
+        "promptZh": "高露以前總是把房間弄得一團糟，現在她每晚都會整理房間。",
+        "starter": "Chloe",
+        "answer": "Chloe has turned over a new leaf at home and now tidies her room every evening.",
+        "answerZh": "高露在家中已改變了以往的壞習慣，現在每晚都會整理房間。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q03",
+        "number": 3,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Ben often shouted when people disagreed with him, but he now listens calmly.",
+        "promptZh": "本以前遇到別人不同意他時經常大叫，但他現在會冷靜聆聽。",
+        "starter": "Ben",
+        "answer": "Ben has turned over a new leaf and now listens calmly instead of shouting.",
+        "answerZh": "本已改過自新，現在會冷靜聆聽，不再大叫。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q04",
+        "number": 4,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Rachel rarely completed her homework before. Now she hands it in on time.",
+        "promptZh": "麗素以前很少完成功課，現在她會準時交功課。",
+        "starter": "Rachel",
+        "answer": "Rachel has turned over a new leaf at school and now hands in her homework on time.",
+        "answerZh": "麗素在學校已改過自新，現在會準時交功課。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q05",
+        "number": 5,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Marcus ate unhealthy snacks every day, but he now chooses fruit and simple meals.",
+        "promptZh": "馬卡斯以前每天都吃不健康的零食，但他現在會選擇水果和簡單的正餐。",
+        "starter": "Marcus",
+        "answer": "Marcus has turned over a new leaf and now chooses healthier food.",
+        "answerZh": "馬卡斯已改變生活習慣，現在會選擇較健康的食物。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q06",
+        "number": 6,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Ava used to ignore messages for days. Now she replies as soon as she can.",
+        "promptZh": "艾娃以前會多天不理會訊息，現在她會盡快回覆。",
+        "starter": "Ava",
+        "answer": "Ava has turned over a new leaf and now replies to messages promptly.",
+        "answerZh": "艾娃已改變了以往的習慣，現在會迅速回覆訊息。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q07",
+        "number": 7,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Leo was often rude to customers, but he now speaks to them politely.",
+        "promptZh": "里奧以前經常對顧客無禮，但他現在會有禮貌地與他們說話。",
+        "starter": "Leo",
+        "answer": "Leo has turned over a new leaf at the shop and now speaks politely to customers.",
+        "answerZh": "里奧在店舖工作時已改過自新，現在會有禮貌地與顧客說話。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q08",
+        "number": 8,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Olivia used to spend all her pay at once. Now she saves some money every month.",
+        "promptZh": "奧莉花以前會一次過花掉全部薪金，現在她每月都會儲起一些錢。",
+        "starter": "Olivia",
+        "answer": "Olivia has turned over a new leaf and now saves part of her pay each month.",
+        "answerZh": "奧莉花已改變理財習慣，現在每月都會儲起部分薪金。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q09",
+        "number": 9,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Ethan often skipped piano practice, but he now practises every day.",
+        "promptZh": "伊頓以前經常不練琴，但他現在每天都會練習。",
+        "starter": "Ethan",
+        "answer": "Ethan has turned over a new leaf and now practises the piano every day.",
+        "answerZh": "伊頓已改過自新，現在每天都會練習鋼琴。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q10",
+        "number": 10,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Nora used to stay awake until very late, but she now goes to bed before midnight.",
+        "promptZh": "諾拉以前總是熬夜到很晚，但她現在會在午夜前睡覺。",
+        "starter": "Nora",
+        "answer": "Nora has turned over a new leaf and now goes to bed before midnight.",
+        "answerZh": "諾拉已改變作息習慣，現在會在午夜前睡覺。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q11",
+        "number": 11,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Since January, Sam has stopped interrupting the teacher and has followed the class rules.",
+        "promptZh": "自一月起，森姆已不再打斷老師說話，並一直遵守課堂規則。",
+        "starter": "Sam",
+        "answer": "Sam has turned over a new leaf in class since January by following the rules and no longer interrupting the teacher.",
+        "answerZh": "森姆自一月起已在課堂上改過自新，會遵守規則，也不再打斷老師說話。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q12",
+        "number": 12,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Helen received a warning last month. After that, she stopped arriving late for work.",
+        "promptZh": "海倫上月收到警告。此後，她不再上班遲到。",
+        "starter": "After",
+        "answer": "After the warning, Helen turned over a new leaf at work and began arriving on time.",
+        "answerZh": "收到警告後，海倫在工作上改過自新，開始準時上班。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q13",
+        "number": 13,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Jake says that from Monday he will stop wasting time and follow a daily plan.",
+        "promptZh": "積克說，他由星期一起會停止浪費時間，並按照每日計劃做事。",
+        "starter": "Jake",
+        "answer": "Jake says he will turn over a new leaf on Monday and start using his time well.",
+        "answerZh": "積克說，他會在星期一改過自新，開始好好運用時間。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q14",
+        "number": 14,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "You keep breaking your promises. You need to change your behaviour for the better.",
+        "promptZh": "你總是失信。你需要改善自己的行為。",
+        "starter": "You",
+        "answer": "You should turn over a new leaf and start keeping your promises.",
+        "answerZh": "你應該改過自新，開始信守承諾。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q15",
+        "number": 15,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "I have been careless with money, but I promise to spend more wisely from now on.",
+        "promptZh": "我以往用錢很不小心，但我答應從現在起會更明智地消費。",
+        "starter": "I",
+        "answer": "I promise to turn over a new leaf and spend my money more wisely.",
+        "answerZh": "我答應會改變以往的習慣，更明智地用錢。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q16",
+        "number": 16,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The café used to ignore complaints. It has decided to listen to customers and improve.",
+        "promptZh": "這間咖啡店以前會忽視投訴，現在已決定聆聽顧客意見並作出改善。",
+        "starter": "The",
+        "answer": "The café has decided to turn over a new leaf and take customer complaints seriously.",
+        "answerZh": "這間咖啡店已決定改過自新，認真處理顧客投訴。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q17",
+        "number": 17,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "A: Has Ryan changed since the coach spoke to him? B: Yes. He trains hard and encourages the team now.",
+        "promptZh": "甲：教練和賴恩談過之後，他有改變嗎？ 乙：有。他現在訓練很努力，也會鼓勵隊友。",
+        "starter": "Yes",
+        "answer": "Yes. Ryan has turned over a new leaf and now trains hard and encourages the team.",
+        "answerZh": "有。賴恩已改過自新，現在訓練很努力，也會鼓勵隊友。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q18",
+        "number": 18,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "A: Why is your sister doing the housework without being asked? B: She wants to stop being so lazy.",
+        "promptZh": "甲：為甚麼你妹妹不用別人叫也會做家務？ 乙：她想改掉懶惰的習慣。",
+        "starter": "She",
+        "answer": "She is trying to turn over a new leaf by doing more housework without being asked.",
+        "answerZh": "她正嘗試改過自新，不用別人提醒也會多做家務。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q19",
+        "number": 19,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The pupils have behaved badly all term. They say next term will be different.",
+        "promptZh": "學生整個學期的表現都很差。他們說下學期會有所不同。",
+        "starter": "The",
+        "answer": "The pupils say they will turn over a new leaf next term and behave better.",
+        "answerZh": "學生說他們下學期會改過自新，表現得更好。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q20",
+        "number": 20,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Since moving to the new flat, our neighbour has stopped playing loud music at night.",
+        "promptZh": "搬到新單位後，我們的鄰居已停止在晚上播放大聲音樂。",
+        "starter": "Our",
+        "answer": "Our neighbour seems to be turning over a new leaf by keeping the noise down at night.",
+        "answerZh": "我們的鄰居似乎正在改變以往的習慣，晚上會把聲浪降低。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turning over a new leaf"
+      },
+      {
+        "id": "idiom-57-q21",
+        "number": 21,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "A: Dad is surprised that I washed the dishes and cleaned the kitchen. B: Maybe he thinks you have finally changed your ways.",
+        "promptZh": "甲：爸爸很驚訝我洗了碗，還清潔了廚房。 乙：也許他認為你終於改變了以往的習慣。",
+        "starter": "Maybe",
+        "answer": "Maybe he thinks you have finally turned over a new leaf at home.",
+        "answerZh": "也許他認為你終於在家中改過自新了。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q22",
+        "number": 22,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "A: I used to gossip about everyone, but I do not want to hurt people any more. B: Then change the way you speak about others.",
+        "promptZh": "甲：我以前總愛說別人的閒話，但我不想再傷害別人。 乙：那就改變你談論別人的方式吧。",
+        "starter": "Then",
+        "answer": "Then turn over a new leaf and stop gossiping about people.",
+        "answerZh": "那就改過自新，不要再說別人的閒話。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q23",
+        "number": 23,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "A: Why has Priya deleted all the shopping apps? B: She wants to stop buying things she does not need.",
+        "promptZh": "甲：為甚麼佩雅刪除了所有購物應用程式？ 乙：她想停止購買不需要的東西。",
+        "starter": "Priya",
+        "answer": "Priya is trying to turn over a new leaf by deleting the shopping apps and buying only what she needs.",
+        "answerZh": "佩雅正嘗試改變以往的習慣，刪除購物應用程式，只購買自己需要的東西。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q24",
+        "number": 24,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The dog owner rarely took his dog outside. After the vet spoke to him, he began taking it for two walks a day.",
+        "promptZh": "狗主以前很少帶狗外出。獸醫和他談過後，他開始每天帶狗散步兩次。",
+        "starter": "After",
+        "answer": "After the vet spoke to him, the owner turned over a new leaf and began walking the dog twice a day.",
+        "answerZh": "獸醫和他談過後，狗主改過自新，開始每天帶狗散步兩次。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q25",
+        "number": 25,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The manager believes Adam is serious about changing because he has not missed a shift for three months.",
+        "promptZh": "經理相信亞當是認真改變，因為他三個月來沒有缺勤任何一更。",
+        "starter": "The",
+        "answer": "The manager believes Adam has turned over a new leaf at work because he has not missed a shift for three months.",
+        "answerZh": "經理相信亞當已在工作上改過自新，因為他三個月來沒有缺勤任何一更。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q26",
+        "number": 26,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: Should we trust Emma again? B: She has apologised and kept every promise for six months.",
+        "promptZh": "甲：我們應該再次信任艾瑪嗎？ 乙：她已道歉，而且六個月來一直信守承諾。",
+        "starter": "Emma",
+        "answer": "Emma may really have turned over a new leaf this time.",
+        "answerZh": "艾瑪這次可能真的已經改過自新。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q27",
+        "number": 27,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Victor kept losing marks because he never checked his work. He now reads every answer twice.",
+        "promptZh": "域陀以前從不檢查功課，因此不斷失分。現在他會把每個答案讀兩次。",
+        "starter": "Victor",
+        "answer": "Victor has turned over a new leaf in his studies by checking every answer twice.",
+        "answerZh": "域陀已改變學習習慣，會把每個答案檢查兩次。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q28",
+        "number": 28,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: Max is still as selfish as before. B: That is not fair. He has been helping his grandparents every weekend.",
+        "promptZh": "甲：麥斯仍然和以前一樣自私。 乙：這樣說不公平。他每個週末都在幫助祖父母。",
+        "starter": "That",
+        "answer": "That is not fair. Max has turned over a new leaf and now helps his grandparents every weekend.",
+        "answerZh": "這樣說不公平。麥斯已改過自新，現在每個週末都會幫助祖父母。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q29",
+        "number": 29,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: What made you start exercising and stop eating late-night snacks? B: I realised I needed to take better care of myself.",
+        "promptZh": "甲：是甚麼令你開始做運動，並停止在深夜吃零食？ 乙：我明白到自己需要更好地照顧身體。",
+        "starter": "I",
+        "answer": "I decided to turn over a new leaf after realising I needed to take better care of myself.",
+        "answerZh": "我明白到自己需要更好地照顧身體後，便決定改變生活習慣。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q30",
+        "number": 30,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: The team used to blame one another after every loss. B: Now they discuss their mistakes calmly.",
+        "promptZh": "甲：球隊以前每次落敗後都會互相指責。 乙：現在他們會冷靜地討論錯誤。",
+        "starter": "The",
+        "answer": "The team has turned over a new leaf and now discusses mistakes calmly after a loss.",
+        "answerZh": "球隊已改過自新，現在落敗後會冷靜地討論錯誤。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q31",
+        "number": 31,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Although Sophie used to ignore her younger brother, she now helps him with reading every evening.",
+        "promptZh": "雖然蘇菲以前不理會弟弟，但她現在每晚都會幫他閱讀。",
+        "starter": "Although",
+        "answer": "Although Sophie used to ignore her younger brother, she has turned over a new leaf and now helps him with reading every evening.",
+        "answerZh": "雖然蘇菲以前不理會弟弟，但她已改過自新，現在每晚都會幫他閱讀。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q32",
+        "number": 32,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "After the doctor warned Eric about his health, he stopped smoking and began walking every day.",
+        "promptZh": "醫生警告艾力要注意健康後，他停止吸煙，並開始每天步行。",
+        "starter": "After",
+        "answer": "After the doctor’s warning, Eric turned over a new leaf by stopping smoking and walking every day.",
+        "answerZh": "收到醫生警告後，艾力改變生活習慣，停止吸煙並每天步行。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q33",
+        "number": 33,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "If Noah wants his friends to trust him again, he must stop lying and do what he promises.",
+        "promptZh": "如果諾亞想朋友再次信任他，他必須停止說謊，並做到自己答應的事。",
+        "starter": "If",
+        "answer": "If Noah wants his friends to trust him again, he must turn over a new leaf, tell the truth, and do what he promises.",
+        "answerZh": "如果諾亞想朋友再次信任他，他必須改過自新、說真話，並做到自己答應的事。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q34",
+        "number": 34,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The head teacher says the class is no longer causing trouble and is working well together.",
+        "promptZh": "校長說這班學生已不再惹麻煩，而且現在合作良好。",
+        "starter": "The",
+        "answer": "The head teacher says the class has turned over a new leaf and is now working well together.",
+        "answerZh": "校長說這班學生已改過自新，現在合作良好。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q35",
+        "number": 35,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Ella says she has changed, but she still breaks the same rules every week.",
+        "promptZh": "艾娜說自己已經改變，但她每星期仍然違反同樣的規則。",
+        "starter": "Ella",
+        "answer": "Ella has not turned over a new leaf yet because she still breaks the same rules.",
+        "answerZh": "艾娜仍未真正改過自新，因為她仍然違反同樣的規則。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q36",
+        "number": 36,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: I am tired of being the person who never helps. B: Then begin by taking one job today and help regularly from now on.",
+        "promptZh": "甲：我厭倦了自己總是不幫忙。 乙：那就今天先負責一項工作，並從現在起定期幫忙。",
+        "starter": "Then",
+        "answer": "Then turn over a new leaf by taking one job today and helping regularly from now on.",
+        "answerZh": "那就改過自新，今天先負責一項工作，並從現在起定期幫忙。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q37",
+        "number": 37,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "To show that the restaurant is serious about improving, it will stop hiding mistakes and answer complaints honestly.",
+        "promptZh": "為了表明餐廳是認真改善，它會停止隱瞞錯誤，並誠實回應投訴。",
+        "starter": "To",
+        "answer": "To turn over a new leaf, the restaurant will answer complaints honestly and stop hiding mistakes.",
+        "answerZh": "為了改過自新，餐廳會誠實回應投訴，不再隱瞞錯誤。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q38",
+        "number": 38,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Kara has attended every lesson and finished every task this month. Her teacher thinks the change may last.",
+        "promptZh": "卡拉本月出席了每一課，並完成了所有工作。老師認為這個改變可能會持續。",
+        "starter": "Kara",
+        "answer": "Kara may finally have turned over a new leaf at school, as she has attended every lesson and finished every task this month.",
+        "answerZh": "卡拉可能終於在學校改過自新了，因為她本月出席了每一課，並完成了所有工作。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q39",
+        "number": 39,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "For years, Mr Lee shouted whenever something went wrong. After becoming a grandfather, he learned to stay calm.",
+        "promptZh": "多年來，每當事情出錯，李先生都會大叫。成為祖父後，他學會了保持冷靜。",
+        "starter": "After",
+        "answer": "After becoming a grandfather, Mr Lee turned over a new leaf and learned to stay calm when things went wrong.",
+        "answerZh": "成為祖父後，李先生改變了以往的脾氣，事情出錯時也學會保持冷靜。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q40",
+        "number": 40,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "In the past, our club left rubbish after every event. This year, members clean the hall before leaving.",
+        "promptZh": "以往，我們的會社每次活動後都會留下垃圾。今年，會員離開前會清潔禮堂。",
+        "starter": "Our",
+        "answer": "Our club has turned over a new leaf and now cleans the hall after every event.",
+        "answerZh": "我們的會社已改變以往的壞習慣，現在每次活動後都會清潔禮堂。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q41",
+        "number": 41,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The bus company used to ignore complaints about late buses. It now publishes delay reports and replies quickly.",
+        "promptZh": "巴士公司以前會忽視有關巴士延誤的投訴。現在它會公布延誤報告，並迅速回覆。",
+        "starter": "The",
+        "answer": "The bus company appears to have turned over a new leaf by publishing delay reports and replying quickly to complaints.",
+        "answerZh": "巴士公司似乎已改過自新，會公布延誤報告，並迅速回覆投訴。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q42",
+        "number": 42,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: The student used to bully others. B: He has apologised, joined the kindness group, and behaved well all term.",
+        "promptZh": "甲：這名學生以前會欺負別人。 乙：他已道歉、加入關愛小組，而且整個學期都表現良好。",
+        "starter": "The",
+        "answer": "The student seems to have turned over a new leaf by apologising and behaving well all term, but the school should still watch his behaviour carefully.",
+        "answerZh": "這名學生似乎已改過自新，已經道歉，整個學期亦表現良好，但學校仍應小心留意他的行為。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q43",
+        "number": 43,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The workers have asked the factory to stop wasting water. The new manager says better rules will begin next month.",
+        "promptZh": "工人已要求工廠停止浪費食水。新經理說，下月會實施更好的規則。",
+        "starter": "The",
+        "answer": "The workers hope the factory will turn over a new leaf and waste less water from next month.",
+        "answerZh": "工人希望工廠會改過自新，從下月起減少浪費食水。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q44",
+        "number": 44,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "One good week would not prove that Liam had changed, but he has now been reliable for six months.",
+        "promptZh": "一個星期表現良好並不能證明利安已經改變，但他現在已可靠地工作了六個月。",
+        "starter": "After",
+        "answer": "After six reliable months, Liam may really have turned over a new leaf.",
+        "answerZh": "可靠地工作了六個月後，利安可能真的已經改過自新。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q45",
+        "number": 45,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The hotel wants guests to trust it again after several dishonest charges. It will need to show every cost clearly.",
+        "promptZh": "酒店曾多次收取不誠實的費用，現在希望住客再次信任它。它需要清楚列出每項費用。",
+        "starter": "If",
+        "answer": "If the hotel wants to earn its guests’ trust again, it will need to turn over a new leaf and show every cost clearly.",
+        "answerZh": "如果酒店想重新得到住客信任，它便需要改過自新，清楚列出每項費用。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q46",
+        "number": 46,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "After years of refusing help, Grace finally joined a support group and began facing her problems honestly.",
+        "promptZh": "多年來，格蕾絲一直拒絕接受幫助。她終於加入支援小組，並開始誠實面對自己的問題。",
+        "starter": "By",
+        "answer": "By joining the support group, Grace began to turn over a new leaf and face her problems honestly.",
+        "answerZh": "格蕾絲加入支援小組後，開始改變自己，誠實面對問題。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turn over a new leaf"
+      },
+      {
+        "id": "idiom-57-q47",
+        "number": 47,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The school canteen was known for rude service, but staff now greet pupils kindly and fix problems quickly.",
+        "promptZh": "學校飯堂以往以服務無禮見稱，但員工現在會友善地招呼學生，並迅速解決問題。",
+        "starter": "The",
+        "answer": "The school canteen has turned over a new leaf by treating pupils kindly and fixing problems quickly.",
+        "answerZh": "學校飯堂已改過自新，會友善對待學生，並迅速解決問題。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q48",
+        "number": 48,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: Do you think the online shop has really changed? B: It now gives clear prices, sends orders on time, and refunds mistakes without argument.",
+        "promptZh": "甲：你認為這間網上商店真的已經改變嗎？ 乙：它現在會列明價格、準時寄出訂單，並會直接為錯誤退款。",
+        "starter": "It",
+        "answer": "It looks as though the online shop has turned over a new leaf and is treating customers fairly.",
+        "answerZh": "看來這間網上商店已改過自新，正公平地對待顧客。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q49",
+        "number": 49,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "After losing his old job because he was often absent, Omar found a new job and has not missed a day.",
+        "promptZh": "奧馬因經常缺席而失去舊工作後，找到了一份新工作，而且一天也沒有缺勤。",
+        "starter": "After",
+        "answer": "After losing his old job, Omar turned over a new leaf and has not missed a day at his new job.",
+        "answerZh": "失去舊工作後，奧馬改過自新，在新工作中一天也沒有缺勤。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      },
+      {
+        "id": "idiom-57-q50",
+        "number": 50,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: You have said before that you would change, so why should we believe you now? B: Because for the past year I have paid my debts, kept my promises, and treated everyone with respect.",
+        "promptZh": "甲：你以前也說過自己會改變，我們為甚麼現在應該相信你？ 乙：因為過去一年，我已還清債務、信守承諾，並尊重每一個人。",
+        "starter": "I",
+        "answer": "I have turned over a new leaf over the past year by paying my debts, keeping my promises, and treating everyone with respect.",
+        "answerZh": "在過去一年，我已改過自新，還清債務、信守承諾，並尊重每一個人。",
+        "targetForm": "turn over a new leaf",
+        "targetMeaning": "To make a genuine change for the better in your behaviour, attitude or way of living, especially after having bad habits or making mistakes.",
+        "highlight": "turned over a new leaf"
+      }
+    ]
+  }
+}

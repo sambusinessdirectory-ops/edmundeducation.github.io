@@ -1,0 +1,1707 @@
+{
+  "lesson": {
+    "id": "idiom-129",
+    "order": 129,
+    "slug": "on-cloud-nine",
+    "version": "1",
+    "title": "高興極了／開心得不得了",
+    "titleEn": "on cloud nine",
+    "titleZh": "高興極了／開心得不得了",
+    "source": {
+      "file": "Idiom 129 - 「On Cloud Nine」.pdf",
+      "pageCount": 34,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "exercisePdfPages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "answerKeyPdfPages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "on cloud nine",
+        "highlight": "on cloud nine"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Oliver is on cloud nine.",
+        "zh": "高興極了。",
+        "highlight": "on cloud nine"
+      },
+      {
+        "en": "The players were on cloud nine.",
+        "zh": "球員們欣喜若狂。",
+        "highlight": "on cloud nine"
+      }
+    ],
+    "meaning": {
+      "en": "To be extremely happy and excited, usually because something very good has happened.",
+      "zh": "通常因為發生了非常好的事情而感到極度開心、興奮或欣喜若狂。",
+      "naturalZh": [
+        "高興極了",
+        "開心得不得了",
+        "欣喜若狂",
+        "樂不可支",
+        "興奮得飄飄然",
+        "高興得像置身雲端"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "everyday conversation; personal messages; interviews; entertainment or sports reports; informal articles; stories; social-media writing; friendly workplace conversation.",
+      "summaryZh": "這個表達較為口語，並帶有強調作用。",
+      "contextsEn": [
+        "everyday conversation",
+        "personal messages",
+        "interviews",
+        "entertainment or sports reports",
+        "informal articles",
+        "stories",
+        "social-media writing",
+        "friendly workplace conversation",
+        "why the person is extremely happy",
+        "when the happiness began",
+        "how long it continued",
+        "what the happiness concerns"
+      ],
+      "contextsZh": [],
+      "formalEn": "It is normally unsuitable for highly formal reports, legal documents or serious academic analysis unless the writer is quoting somebody’s words.",
+      "formalZh": "在非常正式的報告、法律文件或嚴肅學術文章中，一般不宜使用； 除非作者是在引述某人的說話。"
+    },
+    "fixedVariable": {
+      "fixed": "on cloud nine",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + on cloud nine.",
+          "example": "Oliver is on cloud nine.",
+          "highlight": "on cloud nine"
+        },
+        {
+          "form": "Subject + have / has / had + been + on cloud nine.",
+          "example": "I have been on cloud nine all day.",
+          "highlight": "on cloud nine"
+        },
+        {
+          "form": "Subject + may / might / must / could / would / will + be + on cloud nine.",
+          "example": "Your brother must be on cloud nine.",
+          "highlight": "on cloud nine"
+        },
+        {
+          "form": "Subject + be + still / already / almost / finally / back + on cloud nine.",
+          "example": "She is still on cloud nine.",
+          "highlight": "on cloud nine"
+        },
+        {
+          "form": "Subject + seem / appear + to be + on cloud nine.",
+          "example": "The whole class seemed to be on cloud nine.",
+          "highlight": "on cloud nine"
+        },
+        {
+          "form": "Subject + say / explain / admit / report + that + person + be + on cloud nine.",
+          "example": "Priya said that she was on cloud nine.",
+          "highlight": "on cloud nine"
+        },
+        {
+          "form": "Event / news / result + put / leave / have + person + on cloud nine.",
+          "example": "The good news put Ethan on cloud nine.",
+          "highlight": "on cloud nine"
+        },
+        {
+          "form": "On cloud nine + time or reason phrase, + subject + action.",
+          "example": "On cloud nine after the concert, Aaron called his friends.",
+          "highlight": "On cloud nine"
+        },
+        {
+          "form": "Although / because / when / while / since + subject + be + on cloud nine, + main clause.",
+          "example": "Although Marcus was on cloud nine, he remained calm.",
+          "highlight": "on cloud nine"
+        },
+        {
+          "form": "Be + subject + on cloud nine?",
+          "example": "Are you on cloud nine?",
+          "highlight": "on cloud nine"
+        },
+        {
+          "form": "verb / preposition + being + on cloud nine",
+          "example": "The players talked about being on cloud nine after the match.",
+          "highlight": "on cloud nine"
+        },
+        {
+          "form": "Subject + be + not / no longer / not exactly + on cloud nine.",
+          "example": "I am pleased, but I am not exactly on cloud nine.",
+          "highlight": "on cloud nine"
+        },
+        {
+          "form": "on cloud nine after + noun / V-ing",
+          "example": "She was on cloud nine after winning.",
+          "highlight": "on cloud nine"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After a Form of “Be”",
+        "titleZh": "放在 be 動詞之後",
+        "formula": "Subject + be + on cloud nine.",
+        "descriptionEn": "Source grammar frame: Subject + be + on cloud nine.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + on cloud nine。",
+        "examples": [
+          {
+            "en": "Oliver is on cloud nine.",
+            "zh": "高興極了。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "The players were on cloud nine.",
+            "zh": "球員們欣喜若狂。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "I am on cloud nine.",
+            "zh": "我開心得不得了。",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "With Perfect Forms",
+        "titleZh": "配合完成式",
+        "formula": "Subject + have / has / had + been + on cloud nine.",
+        "descriptionEn": "Source grammar frame: Subject + have / has / had + been + on cloud nine.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have / has / had + been + on cloud nine。",
+        "examples": [
+          {
+            "en": "I have been on cloud nine all day.",
+            "zh": "我整天都高興得不得了。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "She has been on cloud nine since receiving the news.",
+            "zh": "她收到消息後一直欣喜若狂。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "They had been on cloud nine until the problem appeared.",
+            "zh": "在問題出現前，他們一直非常開心。",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "放在情態動詞之後",
+        "formula": "Subject + may / might / must / could / would / will + be + on cloud nine.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / must / could / would / will + be + on cloud nine.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / must / could / would / will + be + on cloud nine。",
+        "examples": [
+          {
+            "en": "Your brother must be on cloud nine.",
+            "zh": "你哥哥一定高興極了。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "They may be on cloud nine by tomorrow.",
+            "zh": "他們明天可能會欣喜若狂。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "I would be on cloud nine if I received that offer.",
+            "zh": "如果我收到那份錄取通知，我一定會高興得不得了。",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "With Adverbs Such as “Still”",
+        "titleZh": "配合 still 等副詞",
+        "formula": "Subject + be + still / already / almost / finally / back + on cloud nine.",
+        "descriptionEn": "Source grammar frame: Subject + be + still / already / almost / finally / back + on cloud nine.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + still / already / almost / finally / back + on cloud nine。",
+        "examples": [
+          {
+            "en": "She is still on cloud nine.",
+            "zh": "她仍然欣喜若狂。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "They are finally on cloud nine.",
+            "zh": "他們終於高興極了。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "He was back on cloud nine after receiving the second message.",
+            "zh": "收到第二封訊息後，他再次高興得不得了。",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After “Seem” or “Appear”",
+        "titleZh": "放在 seem 或 appear 之後",
+        "formula": "Subject + seem / appear + to be + on cloud nine.",
+        "descriptionEn": "Source grammar frame: Subject + seem / appear + to be + on cloud nine.",
+        "descriptionZh": "原檔列出的句法框架：Subject + seem / appear + to be + on cloud nine。",
+        "examples": [
+          {
+            "en": "The whole class seemed to be on cloud nine.",
+            "zh": "全班似乎都高興極了。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "The singer appeared to be on cloud nine after the show.",
+            "zh": "演出後，這位歌手看來欣喜若狂。",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Inside a Reported Clause",
+        "titleZh": "放在轉述句之中",
+        "formula": "Subject + say / explain / admit / report + that + person + be + on cloud nine.",
+        "descriptionEn": "Source grammar frame: Subject + say / explain / admit / report + that + person + be + on cloud nine.",
+        "descriptionZh": "原檔列出的句法框架：Subject + say / explain / admit / report + that + person + be + on cloud nine。",
+        "examples": [
+          {
+            "en": "Priya said that she was on cloud nine.",
+            "zh": "說她高興極了。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "The reporter explained that the winners were on cloud nine.",
+            "zh": "記者說明得獎者都欣喜若狂。",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "With “Put,” “Leave” or “Have”",
+        "titleZh": "配合 put、leave 或 have",
+        "formula": "Event / news / result + put / leave / have + person + on cloud nine.",
+        "descriptionEn": "The basic meanings are:",
+        "descriptionZh": "令某人變得極度開心",
+        "examples": [
+          {
+            "en": "The good news put Ethan on cloud nine.",
+            "zh": "好消息令 Ethan 欣喜若狂。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "The surprise left Hannah on cloud nine.",
+            "zh": "這個驚喜令 Hannah 高興得不得了。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "The director’s praise had everyone on cloud nine.",
+            "zh": "主管的稱讚令所有人都欣喜若狂。",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "At the Beginning of a Sentence",
+        "titleZh": "放在句首",
+        "formula": "On cloud nine + time or reason phrase, + subject + action.",
+        "descriptionEn": "Source grammar frame: On cloud nine + time or reason phrase, + subject + action.",
+        "descriptionZh": "原檔列出的句法框架：On cloud nine + time or reason phrase, + subject + action。",
+        "examples": [
+          {
+            "en": "On cloud nine after the concert, Aaron called his friends.",
+            "zh": "音樂會後，Aaron 欣喜若狂，致電給朋友分享喜悅。",
+            "highlight": "On cloud nine"
+          },
+          {
+            "en": "On cloud nine after her success, Chloe thanked her teachers.",
+            "zh": "成功後，Chloe 高興極了，並向老師道謝。",
+            "highlight": "On cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Inside a Subordinate Clause",
+        "titleZh": "放在從屬子句之中",
+        "formula": "Although / because / when / while / since + subject + be + on cloud nine, + main clause.",
+        "descriptionEn": "Source grammar frame: Although / because / when / while / since + subject + be + on cloud nine, + main clause.",
+        "descriptionZh": "原檔列出的句法框架：Although / because / when / while / since + subject + be + on cloud nine, + main clause。",
+        "examples": [
+          {
+            "en": "Although Marcus was on cloud nine, he remained calm.",
+            "zh": "雖然 Marcus 欣喜若狂，但他仍保持冷靜。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "When the children were on cloud nine, they could not stop talking.",
+            "zh": "孩子們高興得不得了時，一直說個不停。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "Because she was on cloud nine, she immediately called her family.",
+            "zh": "因為她欣喜若狂，所以立即致電家人。",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "In Questions",
+        "titleZh": "放在問句之中",
+        "formula": "Be + subject + on cloud nine?",
+        "descriptionEn": "Source grammar frame: Be + subject + on cloud nine?.",
+        "descriptionZh": "原檔列出的句法框架：Be + subject + on cloud nine?。",
+        "examples": [
+          {
+            "en": "Are you on cloud nine?",
+            "zh": "你是否高興極了？",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "Why is everyone on cloud nine?",
+            "zh": "為甚麼大家都欣喜若狂？",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "Who would not be on cloud nine after such wonderful news?",
+            "zh": "收到如此美好的消息後，誰會不欣喜若狂？",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "With “Being”",
+        "titleZh": "配合 being",
+        "formula": "verb / preposition + being + on cloud nine",
+        "descriptionEn": "Source grammar frame: verb / preposition + being + on cloud nine.",
+        "descriptionZh": "原檔列出的句法框架：verb / preposition + being + on cloud nine。",
+        "examples": [
+          {
+            "en": "The players talked about being on cloud nine after the match.",
+            "zh": "球員談到比賽後欣喜若狂的感受。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "The team can enjoy being on cloud nine tonight.",
+            "zh": "球隊今晚可以盡情享受這份極大的喜悅。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "The coach described them as being on cloud nine.",
+            "zh": "教練形容他們欣喜若狂。",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "With Negative or Limiting Language",
+        "titleZh": "配合否定或限制語",
+        "formula": "Subject + be + not / no longer / not exactly + on cloud nine.",
+        "descriptionEn": "Source grammar frame: Subject + be + not / no longer / not exactly + on cloud nine.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + not / no longer / not exactly + on cloud nine。",
+        "examples": [
+          {
+            "en": "I am pleased, but I am not exactly on cloud nine.",
+            "zh": "我感到高興，但還不至於欣喜若狂。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "She was no longer on cloud nine after discovering the mistake.",
+            "zh": "發現錯誤後，她不再像之前那樣欣喜若狂。",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 13,
+        "titleEn": "With Optional Reason and Time Phrases",
+        "titleZh": "配合選擇性的原因及時間短語",
+        "formula": "on cloud nine after + noun / V-ing",
+        "descriptionEn": "She is on cloud nine about her promotion.",
+        "descriptionZh": "她因為獲得晉升而欣喜若狂。",
+        "examples": [
+          {
+            "en": "She was on cloud nine after winning.",
+            "zh": "她獲勝後欣喜若狂。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "He was on cloud nine because he had passed.",
+            "zh": "他因為合格而高興極了。",
+            "highlight": "on cloud nine"
+          },
+          {
+            "en": "They have been on cloud nine ever since the baby arrived.",
+            "zh": "自從嬰兒出生後，他們一直高興得不得了。",
+            "highlight": "on cloud nine"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Intense Happiness Clearly",
+        "titleZh": "清楚表達極度喜悅",
+        "en": "The idiomatic version communicates strong happiness and excitement compactly.",
+        "zh": "這個慣用語能以簡潔方式表達強烈的開心和興奮。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Connects an Event with an Emotional Result",
+        "titleZh": "把事件與情緒結果連繫起來",
+        "en": "It Connects an Event with an Emotional Result",
+        "zh": "獲獎令她欣喜若狂。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful for Reacting to Good News",
+        "titleZh": "適合回應好消息",
+        "en": "It Is Useful for Reacting to Good News",
+        "zh": "你哥哥一定高興極了！",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Show Continuing Happiness",
+        "titleZh": "可以表達持續的喜悅",
+        "en": "It Can Show Continuing Happiness",
+        "zh": "她收到錄取通知後一直欣喜若狂。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Supports Different Sentence Patterns",
+        "titleZh": "可配合不同句式",
+        "en": "It Supports Different Sentence Patterns",
+        "zh": "可配合不同句式",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Helps Learners Understand Authentic Speech",
+        "titleZh": "幫助理解真實英語",
+        "en": "It Helps Learners Understand Authentic Speech",
+        "zh": "幫助理解真實英語",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Early American Slang",
+      "statusZh": "確切來源不明；早期美國俚語",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "describe a woman who was extremely happy and in love. The number nine later became the standard form.",
+          "zh": "Merriam-Webster 把 cloud nine 表達這種情緒意思的最早已知用法追溯至1936年。 歷史資料亦顯示，美國俚語曾使用多個不同數字的「雲端」表達，包括 cloud seven 和 cloud eight。 1946年的一則連環漫畫曾以 on cloud 9 形容一名因愛情而極度開心的女子。 後來，nine 才逐漸成為固定數字。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Different numbered clouds were once used to suggest dreaminess, excitement or a state far above ordinary life. Over time, cloud nine became the surviving fixed form and developed the clear modern meaning of extreme happiness.",
+          "zh": "不同數字的雲端表達曾用來表示夢幻、興奮或遠離平凡生活的狀態。 後來，cloud nine 成為保留下來的固定形式，並逐漸形成今天「極度開心」的明確意思。"
+        }
+      ],
+      "memoryEn": "Imagine happiness lifting you so high that you feel as though you are standing above the ordinary world on a cloud.",
+      "memoryZh": "想像喜悅把你托得很高，令你彷彿站在雲端，遠離平凡世界。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep All Three Fixed Words",
+        "titleZh": "規則一：保留三個固定字詞",
+        "en": "Keep All Three Fixed Words",
+        "zh": "保留三個固定字詞",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Add “The”",
+        "titleZh": "規則二：不要加入 the",
+        "en": "Do Not Add “The”",
+        "zh": "不要加入 the",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Write “Nine” as a Word",
+        "titleZh": "規則三：把 nine 寫成英文字",
+        "en": "Write “Nine” as a Word",
+        "zh": "把 nine 寫成英文字",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use a Linking Verb When Required",
+        "titleZh": "規則四：需要時加入連繫動詞",
+        "en": "Use a Linking Verb When Required",
+        "zh": "需要時加入連繫動詞",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Use a Progressive Form of “Be”",
+        "titleZh": "規則五：一般不使用 be 的進行式",
+        "en": "Do Not Use a Progressive Form of “Be”",
+        "zh": "一般不使用 be 的進行式",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Use It for Strong Happiness",
+        "titleZh": "規則六：用來表達強烈喜悅",
+        "en": "Use It for Strong Happiness",
+        "zh": "用來表達強烈喜悅",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "A Good Event Should Normally Be Clear",
+        "titleZh": "規則七：通常需要清楚交代喜悅原因",
+        "en": "A Good Event Should Normally Be Clear",
+        "zh": "通常需要清楚交代喜悅原因",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Time",
+        "titleZh": "規則八：保留時間",
+        "en": "Preserve Time",
+        "zh": "保留時間",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve Possibility and Certainty",
+        "titleZh": "規則九：保留可能性及確定程度",
+        "en": "Preserve Possibility and Certainty",
+        "zh": "保留可能性及確定程度",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Preserve the Duration",
+        "titleZh": "規則十：保留持續時間",
+        "en": "Preserve the Duration",
+        "zh": "保留持續時間",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Use It for Calm Satisfaction Alone",
+        "titleZh": "規則十一：不要只用來表示平靜的滿足感",
+        "en": "Do Not Use It for Calm Satisfaction Alone",
+        "zh": "不要只用來表示平靜的滿足感",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Translate It Literally",
+        "titleZh": "規則十二：不要逐字翻譯",
+        "en": "Incorrect idiomatic translation: Natural meanings:",
+        "zh": "「在第九朵雲上」 高興極了； 欣喜若狂； 樂不可支； 開心得像置身雲端。",
+        "examples": []
+      },
+      {
+        "number": 13,
+        "titleEn": "Do Not Confuse It with Literal Clouds",
+        "titleZh": "規則十三：不要與真正的雲混淆",
+        "en": "The plane flew above nine clouds.",
+        "zh": "飛機飛過九片雲層。 乘客贏得免費旅程後欣喜若狂。",
+        "examples": [
+          {
+            "en": "The passengers were on cloud nine after winning the free trip.",
+            "zh": "乘客贏得免費旅程後欣喜若狂。",
+            "highlight": "on cloud nine"
+          }
+        ]
+      },
+      {
+        "number": 14,
+        "titleEn": "Do Not Confuse It with Related Idioms",
+        "titleZh": "規則十四：不要與相近慣用語混淆",
+        "en": "Do Not Confuse It with Related Idioms",
+        "zh": "不要與相近慣用語混淆",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using on cloud nine.",
+      "zh": "使用 on cloud nine 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-129-q01",
+        "number": 1,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Oliver won the school race and felt extremely happy afterwards.",
+        "promptZh": "Oliver 贏得校內賽跑，其後感到極度開心。",
+        "starter": "Oliver",
+        "answer": "Oliver was on cloud nine after winning the school race.",
+        "answerZh": "Oliver 贏得校內賽跑後欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q02",
+        "number": 2,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The children felt extremely happy and excited when they heard that the school trip would go ahead.",
+        "promptZh": "孩子們得知學校旅行會如期舉行後，感到極度開心和興奮。",
+        "starter": "The",
+        "answer": "The children were on cloud nine when they heard that the school trip was going ahead.",
+        "answerZh": "孩子們得知學校旅行會如期舉行後，高興得不得了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q03",
+        "number": 3,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "My article has been published, and I am extremely happy about it.",
+        "promptZh": "我的文章已獲刊登，我為此感到極度開心。",
+        "starter": "I",
+        "answer": "I am on cloud nine because my article has been published.",
+        "answerZh": "我的文章獲刊登後，我欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q04",
+        "number": 4,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Grace received the scholarship several days ago and is still extremely happy.",
+        "promptZh": "Grace 幾日前獲得獎學金，現在仍然欣喜若狂。",
+        "starter": "Grace",
+        "answer": "Grace is still on cloud nine after receiving the scholarship.",
+        "answerZh": "Grace 獲得獎學金後，現在仍然高興極了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q05",
+        "number": 5,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Ethan learned that he had been chosen as class captain. The news made him extremely happy.",
+        "promptZh": "Ethan 得知自己獲選為班長。這個消息令他欣喜若狂。",
+        "starter": "The",
+        "answer": "The good news put Ethan on cloud nine.",
+        "answerZh": "這個好消息令 Ethan 欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q06",
+        "number": 6,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Hannah’s friends organised a surprise party. It kept her extremely happy for the rest of the evening.",
+        "promptZh": "Hannah 的朋友為她舉辦驚喜派對。她在該晚餘下時間都高興得不得了。",
+        "starter": "The",
+        "answer": "The surprise party left Hannah on cloud nine for the rest of the evening.",
+        "answerZh": "這個驚喜派對令 Hannah 在該晚餘下時間都高興得不得了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q07",
+        "number": 7,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Our team reached the final last Saturday. We have felt extremely happy ever since.",
+        "promptZh": "我們的隊伍上星期六打入決賽。自此我們一直欣喜若狂。",
+        "starter": "We",
+        "answer": "We have been on cloud nine ever since our team reached the final.",
+        "answerZh": "自從我們的隊伍打入決賽後，我們一直欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q08",
+        "number": 8,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Your sister has just received the job she wanted. She must be extremely happy.",
+        "promptZh": "你姐姐剛獲得一直期待的工作。她一定高興極了。",
+        "starter": "Your",
+        "answer": "Your sister must be on cloud nine after getting the job.",
+        "answerZh": "你姐姐獲得那份工作後一定高興極了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q09",
+        "number": 9,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The children do not know that their parents have bought them a puppy. They will be extremely excited when they see it.",
+        "promptZh": "孩子們不知道父母為他們買了一隻小狗。他們看到小狗時一定會興奮極了。",
+        "starter": "They",
+        "answer": "They will be on cloud nine when they see the new puppy.",
+        "answerZh": "他們看到新小狗時一定會欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q10",
+        "number": 10,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Lucas’s painting won first prize, and he cannot stop smiling.",
+        "promptZh": "Lucas 的畫作獲得第一名，他一直笑個不停。",
+        "starter": "No",
+        "answer": "No wonder Lucas is on cloud nine—his painting won first prize.",
+        "answerZh": "難怪 Lucas 高興得不得了——他的畫作獲得第一名。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q11",
+        "number": 11,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Chloe learned that she had passed the driving test. She immediately felt extremely happy.",
+        "promptZh": "Chloe 得知自己通過駕駛考試後，立即感到欣喜若狂。",
+        "starter": "After",
+        "answer": "After hearing that she had passed, Chloe was on cloud nine.",
+        "answerZh": "得知自己合格後，Chloe 欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q12",
+        "number": 12,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Aaron felt extremely happy after the concert, so he called all his friends.",
+        "promptZh": "音樂會後，Aaron 高興極了，因此致電給所有朋友。",
+        "starter": "On",
+        "answer": "On cloud nine after the concert, Aaron called all his friends.",
+        "answerZh": "音樂會後，Aaron 欣喜若狂，致電給所有朋友。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "On cloud nine"
+      },
+      {
+        "id": "idiom-129-q13",
+        "number": 13,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "When the examination results were announced, the whole class looked extremely happy.",
+        "promptZh": "考試結果公布時，全班看來都欣喜若狂。",
+        "starter": "The",
+        "answer": "The whole class seemed to be on cloud nine after the results were announced.",
+        "answerZh": "結果公布後，全班似乎都高興極了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q14",
+        "number": 14,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Priya told us that she was extremely happy about her university offer.",
+        "promptZh": "Priya 告訴我們，她因收到大學錄取通知而高興極了。",
+        "starter": "Priya",
+        "answer": "Priya said that she was on cloud nine about her university offer.",
+        "answerZh": "Priya 說她因收到大學錄取通知而欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q15",
+        "number": 15,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The final result has made the players extremely happy.",
+        "promptZh": "最後結果令球員們欣喜若狂。",
+        "starter": "The",
+        "answer": "The result has left the players on cloud nine.",
+        "answerZh": "這個結果令球員們欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q16",
+        "number": 16,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The young chef won the cooking competition, which made him extremely happy.",
+        "promptZh": "這位年輕廚師贏得烹飪比賽，令他高興得不得了。",
+        "starter": "Winning",
+        "answer": "Winning the cooking competition put the young chef on cloud nine.",
+        "answerZh": "贏得烹飪比賽令這位年輕廚師高興得不得了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q17",
+        "number": 17,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The hospital may give him good news tomorrow. If it does, he could feel extremely happy.",
+        "promptZh": "醫院明天可能會給他好消息。如果消息屬實，他可能會欣喜若狂。",
+        "starter": "He",
+        "answer": "He could be on cloud nine by tomorrow if the hospital gives him the good news.",
+        "answerZh": "如果醫院明天給他好消息，他可能會欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q18",
+        "number": 18,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "If my favourite singer replied to my message, I would feel extremely happy.",
+        "promptZh": "如果我最喜歡的歌手回覆我的訊息，我一定會欣喜若狂。",
+        "starter": "I",
+        "answer": "I would be on cloud nine if my favourite singer replied to my message.",
+        "answerZh": "如果我最喜歡的歌手回覆我的訊息，我一定會高興得不得了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q19",
+        "number": 19,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "You received a wonderful holiday surprise last week. Are you still extremely excited about it?",
+        "promptZh": "你上星期收到一個很棒的假期驚喜。你現在仍然十分興奮嗎？",
+        "starter": "Are",
+        "answer": "Are you still on cloud nine after your holiday surprise?",
+        "answerZh": "收到假期驚喜後，你現在仍然欣喜若狂嗎？",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q20",
+        "number": 20,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Anybody would feel extremely happy after receiving such wonderful news.",
+        "promptZh": "任何人收到如此美好的消息後，都會欣喜若狂。",
+        "starter": "Who",
+        "answer": "Who would not be on cloud nine after receiving such wonderful news?",
+        "answerZh": "收到如此美好的消息後，誰會不欣喜若狂？",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q21",
+        "number": 21,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: How did Ben feel when his family unexpectedly arrived? B: He was extremely happy.",
+        "promptZh": "甲：家人突然來到時，Ben 感覺如何？ 乙：他高興極了。",
+        "starter": "Ben",
+        "answer": "Ben was on cloud nine when his family unexpectedly arrived.",
+        "answerZh": "家人突然來到時，Ben 高興極了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q22",
+        "number": 22,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Naomi could not stop smiling or talking about the good news. Her extreme happiness was obvious.",
+        "promptZh": "Naomi 一直笑個不停，也不斷談論好消息。她的極度喜悅十分明顯。",
+        "starter": "It",
+        "answer": "It was easy to see that Naomi was on cloud nine because she could not stop smiling.",
+        "answerZh": "Naomi 一直笑個不停，很容易便看出她欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q23",
+        "number": 23,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The coach said that the team had been extremely happy after achieving its first win.",
+        "promptZh": "教練說，球隊首次獲勝後欣喜若狂。",
+        "starter": "The",
+        "answer": "The coach described the team as being on cloud nine after its first win.",
+        "answerZh": "教練形容球隊首次獲勝後欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q24",
+        "number": 24,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The volunteers had been searching for a lost dog. Learning that it had been found made them extremely happy.",
+        "promptZh": "義工一直在尋找一隻走失的狗。得知牠已被尋回，令他們欣喜若狂。",
+        "starter": "What",
+        "answer": "What put the volunteers on cloud nine was the news that the lost dog had been found.",
+        "answerZh": "令義工們欣喜若狂的是走失的狗已被尋回的消息。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q25",
+        "number": 25,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Ruby received a message from a childhood friend she had not heard from for years. It made her extremely happy.",
+        "promptZh": "Ruby 收到一位多年沒有聯絡的兒時朋友的訊息，令她高興得不得了。",
+        "starter": "Her",
+        "answer": "Her childhood friend’s message put Ruby on cloud nine.",
+        "answerZh": "兒時朋友的訊息令 Ruby 高興得不得了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q26",
+        "number": 26,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Marcus was tired after completing the long walk, but he also felt extremely happy.",
+        "promptZh": "Marcus 完成長途步行後雖然疲倦，但亦感到欣喜若狂。",
+        "starter": "Although",
+        "answer": "Although Marcus was tired, he was on cloud nine after completing the long walk.",
+        "answerZh": "Marcus 完成長途步行後雖然疲倦，但仍欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q27",
+        "number": 27,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Rachel had felt extremely happy throughout the morning. However, her mood changed when her flight was delayed.",
+        "promptZh": "Rachel 整個早上都欣喜若狂，但航班延誤後，她的心情改變了。",
+        "starter": "Rachel",
+        "answer": "Rachel had been on cloud nine all morning, but the delayed flight changed her mood.",
+        "answerZh": "Rachel 整個早上都欣喜若狂，但航班延誤改變了她的心情。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q28",
+        "number": 28,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Samuel was extremely happy about winning the award, and his parents were equally delighted.",
+        "promptZh": "Samuel 因獲獎而欣喜若狂，他的父母亦同樣高興。",
+        "starter": "Not",
+        "answer": "Not only was Samuel on cloud nine, but his parents were equally delighted.",
+        "answerZh": "不但 Samuel 欣喜若狂，他的父母亦同樣高興。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q29",
+        "number": 29,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The students will feel extremely happy if their project is chosen.",
+        "promptZh": "如果學生的項目獲選，他們一定會欣喜若狂。",
+        "starter": "If",
+        "answer": "If the project is chosen, the students will be on cloud nine.",
+        "answerZh": "如果項目獲選，學生們一定會高興極了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q30",
+        "number": 30,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The prize may make every member of the club extremely happy for several weeks.",
+        "promptZh": "這個獎項可能會令會所所有成員在數星期內都欣喜若狂。",
+        "starter": "The",
+        "answer": "The prize may leave the whole club on cloud nine for weeks.",
+        "answerZh": "這個獎項可能會令會所所有成員連續多星期欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q31",
+        "number": 31,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Fatima received the offer three days ago. She has remained extremely happy and has told everyone the news.",
+        "promptZh": "Fatima 三日前收到錄取通知。她一直欣喜若狂，並已把消息告訴所有人。",
+        "starter": "Since",
+        "answer": "Since receiving the offer, Fatima has been on cloud nine and has told everyone the news.",
+        "answerZh": "自從收到錄取通知後，Fatima 一直欣喜若狂，並已把消息告訴所有人。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q32",
+        "number": 32,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Isabel felt extremely happy after winning, but she still remembered to thank her team.",
+        "promptZh": "Isabel 獲勝後欣喜若狂，但仍記得向團隊道謝。",
+        "starter": "Although",
+        "answer": "Although Isabel was on cloud nine, she still remembered to thank her team.",
+        "answerZh": "雖然 Isabel 欣喜若狂，但仍記得向團隊道謝。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q33",
+        "number": 33,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The team had been worried. When the final score appeared, their feelings changed to extreme happiness.",
+        "promptZh": "球隊本來十分憂慮。最後比數出現時，他們的心情變成極度喜悅。",
+        "starter": "The",
+        "answer": "The team went from being worried to being on cloud nine when the final score appeared.",
+        "answerZh": "最後比數出現時，球隊由憂慮變成欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q34",
+        "number": 34,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The moment he entered the house, his mother could tell from his smile that he was extremely happy.",
+        "promptZh": "他走進家門的一刻，母親便從他的笑容看出他欣喜若狂。",
+        "starter": "His",
+        "answer": "His mother knew that he was on cloud nine the moment he walked through the door.",
+        "answerZh": "他走進家門的一刻，母親便知道他欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q35",
+        "number": 35,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Everybody in the office is smiling, laughing and celebrating this morning. What has made them so happy?",
+        "promptZh": "今天早上辦公室裡所有人都在微笑、大笑和慶祝。甚麼事情令他們如此高興？",
+        "starter": "Why",
+        "answer": "Why is the whole office on cloud nine this morning?",
+        "answerZh": "為甚麼今天早上整個辦公室的人都欣喜若狂？",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q36",
+        "number": 36,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The director praised the staff unexpectedly. Before lunchtime, every worker was extremely happy.",
+        "promptZh": "主管出乎意料地稱讚員工。午飯前，每位員工都高興得不得了。",
+        "starter": "The",
+        "answer": "The director’s praise had everyone on cloud nine before lunch.",
+        "answerZh": "主管的稱讚令所有人在午飯前都高興得不得了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q37",
+        "number": 37,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The new parents are much more than simply pleased about the baby. They are extremely happy and excited.",
+        "promptZh": "這對新手父母對嬰兒的感受遠超一般高興。他們感到欣喜若狂和極度興奮。",
+        "starter": "The",
+        "answer": "The new parents are not just pleased; they are on cloud nine.",
+        "answerZh": "這對新手父母不只是感到高興，而是欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q38",
+        "number": 38,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "I am pleased with the result, but my happiness is not as strong as people seem to think.",
+        "promptZh": "我對結果感到高興，但並沒有大家想像中那麼欣喜若狂。",
+        "starter": "I",
+        "answer": "I would not say that I am on cloud nine, but I am very pleased with the result.",
+        "answerZh": "我不會說自己欣喜若狂，但我對結果十分高興。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q39",
+        "number": 39,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "She had been extremely happy. However, that feeling ended when she discovered the mistake.",
+        "promptZh": "她本來欣喜若狂，但發現錯誤後，這種感覺便消失了。",
+        "starter": "She",
+        "answer": "She was no longer on cloud nine after discovering the mistake.",
+        "answerZh": "發現錯誤後，她不再像之前那樣欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q40",
+        "number": 40,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The family had not yet received the official letter, but an earlier telephone call had already made them extremely happy.",
+        "promptZh": "這家人仍未收到正式信件，但較早前的一通電話已令他們欣喜若狂。",
+        "starter": "Even",
+        "answer": "Even before the official letter arrived, the telephone call had put the family on cloud nine.",
+        "answerZh": "甚至在正式信件到達前，那通電話已令這家人欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q41",
+        "number": 41,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "After the performance, the singer looked extremely happy. The reporter mentioned this in the article.",
+        "promptZh": "演出後，歌手看來欣喜若狂。記者在文章中提到這一點。",
+        "starter": "The",
+        "answer": "The reporter said that the singer appeared to be on cloud nine after the show.",
+        "answerZh": "記者說，演出後這位歌手看來欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q42",
+        "number": 42,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The graduates had been waiting nervously. The final announcement made all of them extremely happy.",
+        "promptZh": "畢業生一直緊張地等待。最後公布的消息令他們全部欣喜若狂。",
+        "starter": "The",
+        "answer": "The final announcement left the graduates on cloud nine.",
+        "answerZh": "最後公布的消息令畢業生們欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q43",
+        "number": 43,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The quiet student had never expected to receive the award. Its unexpected nature made her extremely happy.",
+        "promptZh": "這位安靜的學生從未預期自己會獲獎。這個意外的獎項令她欣喜若狂。",
+        "starter": "So",
+        "answer": "So unexpected was the award that it put the quiet student on cloud nine.",
+        "answerZh": "這個獎項實在太出乎意料，令這位安靜的學生欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q44",
+        "number": 44,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A designer is waiting for a shop to accept her work. If it does, she will probably remain extremely happy for several days.",
+        "promptZh": "一位設計師正在等待店舖接納她的作品。如果獲接納，她可能會連續多天欣喜若狂。",
+        "starter": "If",
+        "answer": "If the shop accepts her design, she will probably be on cloud nine for days.",
+        "answerZh": "如果店舖接納她的設計，她可能會連續多天高興得不得了。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q45",
+        "number": 45,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The fans were extremely happy when they first heard the decision. A moment later, new information left them deeply disappointed.",
+        "promptZh": "球迷最初聽到決定時欣喜若狂，但一會兒後，新消息卻令他們極度失望。",
+        "starter": "On",
+        "answer": "On cloud nine one moment and deeply disappointed the next, the fans struggled to understand the final decision.",
+        "answerZh": "球迷前一刻仍欣喜若狂，下一刻卻極度失望，難以理解最後決定。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "On cloud nine"
+      },
+      {
+        "id": "idiom-129-q46",
+        "number": 46,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The family expected the father to feel extremely happy about the result. However, he was initially too shocked to show any reaction.",
+        "promptZh": "家人以為父親會因結果而欣喜若狂，但他最初震驚得沒有任何反應。",
+        "starter": "The",
+        "answer": "The family thought that the father would be on cloud nine, but he was too shocked to react at first.",
+        "answerZh": "家人以為父親會欣喜若狂，但他最初震驚得沒有反應。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q47",
+        "number": 47,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The children have received permission for a new playground. Their extreme happiness is completely obvious.",
+        "promptZh": "孩子們已獲准興建新遊樂場。他們極度開心的心情十分明顯。",
+        "starter": "There",
+        "answer": "There is no doubt that the children are on cloud nine about the new playground.",
+        "answerZh": "毫無疑問，孩子們因新遊樂場而欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q48",
+        "number": 48,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The actor had waited many years for an opportunity like this. When the telephone call finally arrived, he felt extremely happy.",
+        "promptZh": "這位演員多年來一直等待這樣的機會。電話終於打來時，他欣喜若狂。",
+        "starter": "Having",
+        "answer": "Having waited years for this chance, the actor was on cloud nine when the call finally came.",
+        "answerZh": "這位演員為這個機會等待多年，電話終於打來時，他欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q49",
+        "number": 49,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The team does not yet know what will happen in the next round. However, it can enjoy its extreme happiness tonight.",
+        "promptZh": "球隊仍不知道下一輪會發生甚麼事，但今晚可以盡情享受這份極大的喜悅。",
+        "starter": "Whatever",
+        "answer": "Whatever happens next, the team can enjoy being on cloud nine tonight.",
+        "answerZh": "無論接下來發生甚麼事，球隊今晚都可以盡情享受這份極大的喜悅。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      },
+      {
+        "id": "idiom-129-q50",
+        "number": 50,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The head teacher announced that the entire school trip would be free. Every pupil immediately became extremely happy.",
+        "promptZh": "校長宣布整個學校旅行費用全免。每名學生立即欣喜若狂。",
+        "starter": "The",
+        "answer": "The moment the head teacher announced that the trip was free, every pupil was on cloud nine.",
+        "answerZh": "校長宣布旅行費用全免的一刻，每名學生都欣喜若狂。",
+        "targetForm": "on cloud nine",
+        "targetMeaning": "To be extremely happy and excited, usually because something very good has happened.",
+        "highlight": "on cloud nine"
+      }
+    ]
+  }
+}

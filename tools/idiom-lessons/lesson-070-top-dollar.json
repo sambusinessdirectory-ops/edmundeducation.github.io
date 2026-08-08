@@ -1,0 +1,1414 @@
+{
+  "lesson": {
+    "id": "idiom-70",
+    "order": 70,
+    "slug": "top-dollar",
+    "version": "1",
+    "title": "高價／最高價",
+    "titleEn": "Top Dollar",
+    "titleZh": "高價／最高價",
+    "source": {
+      "file": "Idiom 70 - “Top Dollar”.pdf",
+      "pageCount": 29,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "exercisePdfPages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "answerKeyPdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "Top Dollar",
+        "highlight": "Top Dollar"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The collector paid top dollar for the rare watch.",
+        "zh": "那位收藏家以高價購入了那枚稀有手錶。",
+        "highlight": "top dollar"
+      }
+    ],
+    "meaning": {
+      "en": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+      "zh": "為某件產品、服務、專業技能或其他有價值的事物支付的高昂價錢、優厚報酬，或市場願意支付的最高價。",
+      "naturalZh": [
+        "為某件產品、服務、專業技能或其他有價值的事物支付的高昂價錢、優厚報酬，或市場願意支付的最高價。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "Register: Informal to neutral Typical use: Conversation, business discussions, property sales, recruitment, marketing, auctions, reviews and general professional communication",
+      "summaryZh": "語域：非正式至中性常見場合：日常對話、商業討論、物業買賣、招聘、市場推廣、拍賣、評論及一般專業溝通",
+      "contextsEn": [
+        "pay a premium price",
+        "receive the highest market price",
+        "command a substantial fee",
+        "offer highly competitive remuneration",
+        "a top dollar",
+        "the top dollar",
+        "top dollars",
+        "highest dollar",
+        "upper dollar",
+        "pay top dollar",
+        "pays top dollar",
+        "paid top dollar"
+      ],
+      "contextsZh": [
+        "支付高價",
+        "取得最高價",
+        "收取高昂價錢",
+        "賣得高價",
+        "叫價甚高",
+        "獲得優厚報酬。"
+      ],
+      "formalEn": "It may appear in reports, journalism and presentations, but more formal documents may prefer expressions such as:",
+      "formalZh": "將這個表達列為非正式用語，但它在商業英語中亦十分常見。 在非常正式的文件中， 可以改用「支付溢價」、「取得市場最高價」或「提供極具競爭力的薪酬」等較直接的表達。"
+    },
+    "fixedVariable": {
+      "fixed": "Top Dollar",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Buyer + pay + top dollar + for something",
+          "example": "The collector paid top dollar for the rare watch.",
+          "highlight": "top dollar"
+        },
+        {
+          "form": "Seller + get/receive + top dollar + for something",
+          "example": "The collector paid top dollar for the rare watch.",
+          "highlight": "top dollar"
+        },
+        {
+          "form": "Business + charge + top dollar + for something",
+          "example": "The collector paid top dollar for the rare watch.",
+          "highlight": "top dollar"
+        },
+        {
+          "form": "Product + fetch/command + top dollar",
+          "example": "The collector paid top dollar for the rare watch.",
+          "highlight": "top dollar"
+        },
+        {
+          "form": "Person + be willing/prepared + to pay top dollar",
+          "example": "The collector paid top dollar for the rare watch.",
+          "highlight": "top dollar"
+        },
+        {
+          "form": "Person + be paid + top dollar + for something",
+          "example": "The collector paid top dollar for the rare watch.",
+          "highlight": "top dollar"
+        },
+        {
+          "form": "Condition + get/fetch/command top dollar",
+          "example": "The collector paid top dollar for the rare watch.",
+          "highlight": "top dollar"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Buyer + pay + top dollar + for something",
+        "titleZh": "那位收藏家以高價購入那幅稀有畫作",
+        "formula": "Buyer + pay + top dollar + for something",
+        "descriptionEn": "Source grammar frame: Buyer + pay + top dollar + for something.",
+        "descriptionZh": "原檔列出的句法框架：Buyer + pay + top dollar + for something。",
+        "examples": [
+          {
+            "en": "The collector paid top dollar for the rare watch.",
+            "zh": "那位收藏家以高價購入了那枚稀有手錶。",
+            "highlight": "top dollar"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Seller + get/receive + top dollar + for something",
+        "titleZh": "業主以極高價錢售出了單位",
+        "formula": "Seller + get/receive + top dollar + for something",
+        "descriptionEn": "Source grammar frame: Seller + get/receive + top dollar + for something.",
+        "descriptionZh": "原檔列出的句法框架：Seller + get/receive + top dollar + for something。",
+        "examples": [
+          {
+            "en": "The collector paid top dollar for the rare watch.",
+            "zh": "那位收藏家以高價購入了那枚稀有手錶。",
+            "highlight": "top dollar"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Business + charge + top dollar + for something",
+        "titleZh": "這間酒店在節日期間對客房收取高昂價錢",
+        "formula": "Business + charge + top dollar + for something",
+        "descriptionEn": "Source grammar frame: Business + charge + top dollar + for something.",
+        "descriptionZh": "原檔列出的句法框架：Business + charge + top dollar + for something。",
+        "examples": [
+          {
+            "en": "The collector paid top dollar for the rare watch.",
+            "zh": "那位收藏家以高價購入了那枚稀有手錶。",
+            "highlight": "top dollar"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Product + fetch/command + top dollar",
+        "titleZh": "稀有手錶可以在拍賣會上賣得高價",
+        "formula": "Product + fetch/command + top dollar",
+        "descriptionEn": "Source grammar frame: Product + fetch/command + top dollar.",
+        "descriptionZh": "原檔列出的句法框架：Product + fetch/command + top dollar。",
+        "examples": [
+          {
+            "en": "The collector paid top dollar for the rare watch.",
+            "zh": "那位收藏家以高價購入了那枚稀有手錶。",
+            "highlight": "top dollar"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Person + be willing/prepared + to pay top dollar",
+        "titleZh": "部分顧客願意為卓越品質支付高價",
+        "formula": "Person + be willing/prepared + to pay top dollar",
+        "descriptionEn": "Source grammar frame: Person + be willing/prepared + to pay top dollar.",
+        "descriptionZh": "原檔列出的句法框架：Person + be willing/prepared + to pay top dollar。",
+        "examples": [
+          {
+            "en": "The collector paid top dollar for the rare watch.",
+            "zh": "那位收藏家以高價購入了那枚稀有手錶。",
+            "highlight": "top dollar"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Person + be paid + top dollar + for something",
+        "titleZh": "經驗豐富的顧問憑藉專業知識獲得優厚報酬",
+        "formula": "Person + be paid + top dollar + for something",
+        "descriptionEn": "Source grammar frame: Person + be paid + top dollar + for something.",
+        "descriptionZh": "原檔列出的句法框架：Person + be paid + top dollar + for something。",
+        "examples": [
+          {
+            "en": "The collector paid top dollar for the rare watch.",
+            "zh": "那位收藏家以高價購入了那枚稀有手錶。",
+            "highlight": "top dollar"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Condition + get/fetch/command top dollar",
+        "titleZh": "如果汽車狀況極佳，便可能賣得最高價",
+        "formula": "Condition + get/fetch/command top dollar",
+        "descriptionEn": "Source grammar frame: Condition + get/fetch/command top dollar.",
+        "descriptionZh": "原檔列出的句法框架：Condition + get/fetch/command top dollar。",
+        "examples": [
+          {
+            "en": "The collector paid top dollar for the rare watch.",
+            "zh": "那位收藏家以高價購入了那枚稀有手錶。",
+            "highlight": "top dollar"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It expresses a very high price efficiently",
+        "titleZh": "好處一",
+        "en": "The buyer paid top dollar.",
+        "zh": "你可以用簡潔的方式，代替「買家支付了目前市場上最高水平的價錢」這段較長的解釋。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It clearly separates the buyer’s and seller’s perspectives",
+        "titleZh": "買家支付高價；",
+        "en": "pay top dollar: Changing the surrounding verb allows the speaker to focus on a different side of the transaction.",
+        "zh": "買家支付高價； get top dollar：賣家取得高價。 透過改變周圍的動詞，說話者可以集中描述交易中的買家或賣家。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It is useful in business and employment contexts",
+        "titleZh": "好處三",
+        "en": "rare materials; experienced staff; specialist advice; urgent services; valuable technology.",
+        "zh": "商戶可能會為稀有物料、資深員工、專業意見、緊急服務或有價值的科技支付高價。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It explains the effect of quality and scarcity",
+        "titleZh": "稀有、保存良好或需求極高的物品，往往能夠賣得高價",
+        "en": "A rare, well-preserved or highly desirable item may command top dollar.",
+        "zh": "稀有、保存良好或需求極高的物品，往往能夠賣得高價。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It helps speakers evaluate value for money",
+        "titleZh": "我們支付了高昂價錢，因此期望獲得更好的服務",
+        "en": "We paid top dollar, so we expected better service.",
+        "zh": "我們支付了高昂價錢，因此期望獲得更好的服務。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It should not replace every reference to an expensive price",
+        "titleZh": "好處六",
+        "en": "Top dollar carries emphasis. When the price is merely above average rather than exceptionally high, expensive or a high price may be more accurate.",
+        "zh": "帶有明顯的強調意味。 如果價錢只是略高於平均水平，而非異常高昂，使用 expensive 或 a high price 可能更準確。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "No separate origin status supplied",
+      "statusZh": "原檔沒有另列來源可信度",
+      "history": [
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "The expression combines top, meaning the highest or best level, with dollar as a general representation of money. Its literal structure therefore suggests the highest amount of money available.",
+          "zh": "這個表達把表示「最高水平」的 top，與代表金錢的 dollar 結合，因此字面結構可理解為「最高金額」。"
+        },
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "Published sources do not give exactly the same date for its earliest use. Merriam-Webster records a first known use in 1895, whereas Etymonline dates the specific “high price” sense to 1942. This difference may reflect the different historical records or definitions used by the sources.",
+          "zh": "不同語源資料對其最早出現時間有不同記錄。 Merriam-Webster 將已知最早用例追溯至1895年， 而 Etymonline 則把「高昂價錢」這個特定意思追溯至1942年。 這種差異可能源於兩個資料來源採用了不同的歷史文本或定義標準。"
+        },
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "There is no need to connect the phrase to a particular coin, banknote or dramatic historical event. Its modern meaning follows naturally from top meaning “highest” and dollar representing an amount of money.",
+          "zh": "毋須把這個表達附會到某一種硬幣、鈔票或戲劇性的歷史事件。 它的現代意思可以直接從「最高」 和「金錢」兩個概念理解。"
+        }
+      ],
+      "memoryEn": "Use the source meaning and examples as the memory link.",
+      "memoryZh": "以原檔的核心意思及例句作為記憶提示。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Do not add an article",
+        "titleZh": "前面通常不使用 a 或 the",
+        "en": "The company paid a top dollar for the software.",
+        "zh": "前面通常不使用 a 或 the。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do not make dollar plural",
+        "titleZh": "即使金額很高，dollar 在這個固定表達中亦不可變成複數",
+        "en": "They received top dollars for the property.",
+        "zh": "即使金額很高，dollar 在這個固定表達中亦不可變成複數。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use it for a genuinely high price or payment",
+        "titleZh": "應該形容在相關市場或語境中明顯屬於高水平的價錢或報酬",
+        "en": "Top dollar should describe a price or payment that is notably high in the relevant situation. Unless the ticket was unusually expensive, the expression would sound exaggerated.",
+        "zh": "應該形容在相關市場或語境中明顯屬於高水平的價錢或報酬。 較弱的用法：",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Make clear who pays or receives the money",
+        "titleZh": "買家以高價購入畫作",
+        "en": "The buyer paid top dollar for the painting. The seller got top dollar for the painting. The first sentence focuses on the buyer’s expense. The second focuses on the seller’s successful return.",
+        "zh": "買家以高價購入畫作。 賣家以極高價錢售出畫作。 第一句集中於買家支付高價； 第二句則集中於賣家取得理想售價。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "For must introduce the product, service or quality being purchased",
+        "titleZh": "規則五",
+        "en": "They paid top dollar to the consultant’s advice.",
+        "zh": "在 pay top dollar for something 這個句式中，for 後面接所購買的產品、服務或專業能力。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do not confuse it with an exact monetary amount",
+        "titleZh": "並不表示一個確切金額，只表示價錢十分高或接近市場最高水平",
+        "en": "Top dollar does not tell the listener the exact price.",
+        "zh": "並不表示一個確切金額，只表示價錢十分高或接近市場最高水平。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "The related adjective is outside this lesson",
+        "titleZh": "規則七",
+        "en": "Forms such as top-dollar prices may occasionally appear with a hyphen when used before a noun. However, this lesson teaches only the fixed noun expression top dollar.",
+        "zh": "等連字號形式偶爾可以作形容詞使用，但本課只教授固定名詞表達 top dollar。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "It may express approval or criticism",
+        "titleZh": "公司提供優厚報酬，以吸引最優秀的工程師",
+        "en": "The firm pays top dollar to attract the best engineers. We paid top dollar, but the service was disappointing.",
+        "zh": "公司提供優厚報酬，以吸引最優秀的工程師。 我們支付了高昂價錢，但服務卻令人失望。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using top dollar.",
+      "zh": "使用 top dollar 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-70-q01",
+        "number": 1,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The collector paid a very high price for the rare watch.",
+        "promptZh": "那位收藏家以非常高昂的價錢購入了那枚稀有手錶。",
+        "starter": "The",
+        "answer": "The collector paid top dollar for the rare watch.",
+        "answerZh": "那位收藏家以高價購入了那枚稀有手錶。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q02",
+        "number": 2,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The restaurant charges extremely high prices for its tasting menu.",
+        "promptZh": "這間餐廳對品味菜單收取極高的價錢。",
+        "starter": "The",
+        "answer": "The restaurant charges top dollar for its tasting menu.",
+        "answerZh": "這間餐廳對品味菜單收取高昂價錢。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q03",
+        "number": 3,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Mina received the best possible price when she sold her flat.",
+        "promptZh": "Mina 出售單位時取得了最佳的售價。",
+        "starter": "Mina",
+        "answer": "Mina got top dollar for her flat.",
+        "answerZh": "Mina 以極高價錢售出了她的單位。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q04",
+        "number": 4,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The antique vase sold for a very high price at the auction.",
+        "promptZh": "那個古董花瓶在拍賣會上以非常高的價錢售出。",
+        "starter": "The",
+        "answer": "The antique vase fetched top dollar at the auction.",
+        "answerZh": "那個古董花瓶在拍賣會上賣得高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q05",
+        "number": 5,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The company offers very high salaries to experienced engineers.",
+        "promptZh": "這間公司向經驗豐富的工程師提供非常優厚的薪酬。",
+        "starter": "The",
+        "answer": "The company pays top dollar for experienced engineers.",
+        "answerZh": "這間公司向經驗豐富的工程師提供優厚薪酬。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q06",
+        "number": 6,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Customers are willing to pay a premium price for this handmade furniture.",
+        "promptZh": "顧客願意為這些手製傢俬支付高昂價錢。",
+        "starter": "Customers",
+        "answer": "Customers are willing to pay top dollar for this handmade furniture.",
+        "answerZh": "顧客願意為這些手製傢俬支付高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q07",
+        "number": 7,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The gallery can charge extremely high prices for original paintings by the artist.",
+        "promptZh": "這間畫廊可以對該藝術家的原作收取極高價錢。",
+        "starter": "The",
+        "answer": "The gallery can charge top dollar for original paintings by the artist.",
+        "answerZh": "這間畫廊可以對該藝術家的原作收取高昂價錢。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q08",
+        "number": 8,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The chef receives very high pay for providing private dining services.",
+        "promptZh": "這名廚師提供私人餐飲服務時會獲得優厚報酬。",
+        "starter": "The",
+        "answer": "The chef is paid top dollar for providing private dining services.",
+        "answerZh": "這名廚師提供私人餐飲服務時會獲得優厚報酬。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q09",
+        "number": 9,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The owner obtained the highest available price for the well-maintained car.",
+        "promptZh": "車主為那輛保養良好的汽車取得了市場上的最高價。",
+        "starter": "The",
+        "answer": "The owner got top dollar for the well-maintained car.",
+        "answerZh": "車主以市場高價售出了那輛保養良好的汽車。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q10",
+        "number": 10,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Limited-edition shoes can sell for extremely high prices among collectors.",
+        "promptZh": "限量版鞋款在收藏家之間可以賣得極高價錢。",
+        "starter": "Limited-edition",
+        "answer": "Limited-edition shoes can command top dollar among collectors.",
+        "answerZh": "限量版鞋款在收藏家之間可以賣得高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q11",
+        "number": 11,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Buyers have paid exceptionally high prices for flats in this neighbourhood.",
+        "promptZh": "買家一直願意為這個社區的單位支付極高價錢。",
+        "starter": "Buyers",
+        "answer": "Buyers have paid top dollar for flats in this neighbourhood.",
+        "answerZh": "買家一直願意為這個社區的單位支付極高價錢。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q12",
+        "number": 12,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The company will probably need to offer an extremely high salary to recruit an experienced cybersecurity expert.",
+        "promptZh": "公司很可能需要提供極優厚的薪酬，才能招聘一名資深網絡安全專家。",
+        "starter": "The",
+        "answer": "The company will probably need to pay top dollar to recruit an experienced cybersecurity expert.",
+        "answerZh": "公司很可能需要提供優厚薪酬，才能招聘一名資深網絡安全專家。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q13",
+        "number": 13,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The signed first edition may sell for the highest price in the auction.",
+        "promptZh": "這本附有簽名的初版書可能會在拍賣會上賣得最高價。",
+        "starter": "The",
+        "answer": "The signed first edition may fetch top dollar at the auction.",
+        "answerZh": "這本附有簽名的初版書可能會在拍賣會上賣得高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q14",
+        "number": 14,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "I am not willing to pay a premium price for an item that is already damaged.",
+        "promptZh": "我不願意為一件已經損壞的物品支付高昂價錢。",
+        "starter": "I",
+        "answer": "I am not willing to pay top dollar for an item that is already damaged.",
+        "answerZh": "我不願意為一件已經損壞的物品支付高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q15",
+        "number": 15,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: Why is that photographer always fully booked? B: Clients are willing to pay very high prices for his work.",
+        "promptZh": "A：為甚麼那位攝影師總是預約爆滿？ B：客戶願意為他的作品支付非常高的價錢。",
+        "starter": "Because",
+        "answer": "Because clients are willing to pay top dollar for his work.",
+        "answerZh": "因為客戶願意為他的作品支付高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q16",
+        "number": 16,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The owners renovated the kitchen before selling the house. This helped them obtain the best possible price.",
+        "promptZh": "業主在出售房屋前翻新了廚房。這幫助他們取得了最佳售價。",
+        "starter": "By",
+        "answer": "By renovating the kitchen before the sale, the owners were able to get top dollar for the house.",
+        "answerZh": "業主在出售前翻新廚房，因此能夠為房屋取得最佳售價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q17",
+        "number": 17,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Rare medical specialists receive exceptionally high pay for their expertise.",
+        "promptZh": "稀有專科的醫療人員憑藉專業知識獲得極優厚的報酬。",
+        "starter": "Rare",
+        "answer": "Rare medical specialists are paid top dollar for their expertise.",
+        "answerZh": "稀有專科的醫療人員憑藉專業知識獲得優厚報酬。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q18",
+        "number": 18,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The painting could command the highest price if experts confirm that it is genuine.",
+        "promptZh": "如果專家證實這幅畫是真跡，它便可能取得最高價。",
+        "starter": "If",
+        "answer": "If experts confirm that the painting is genuine, it could command top dollar.",
+        "answerZh": "如果專家證實這幅畫是真跡，它便可能賣得最高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q19",
+        "number": 19,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Are companies offering high salaries for artificial-intelligence specialists? B: Yes. Competition for skilled workers is intense.",
+        "promptZh": "A：公司會否向人工智能專家提供高薪？ B：會。市場對技術人才的競爭十分激烈。",
+        "starter": "Yes",
+        "answer": "Yes, companies are paying top dollar for artificial-intelligence specialists.",
+        "answerZh": "是，公司正向人工智能專家提供極優厚的薪酬。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q20",
+        "number": 20,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Before the property market weakened, sellers in this district had been receiving extremely high prices.",
+        "promptZh": "在樓市轉弱前，這區的賣家一直能夠取得極高售價。",
+        "starter": "Before",
+        "answer": "Before the property market weakened, sellers in this district had been getting top dollar for their homes.",
+        "answerZh": "在樓市轉弱前，這區的賣家一直能夠為住宅取得極高售價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q21",
+        "number": 21,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The estate agent advised the owners to repair the roof so that they could receive the highest possible price for the house.",
+        "promptZh": "地產代理建議業主維修屋頂，讓他們可以為房屋取得最高售價。",
+        "starter": "To",
+        "answer": "To get top dollar for the house, the owners should repair the roof.",
+        "answerZh": "業主如想為房屋取得最高售價，便應該維修屋頂。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q22",
+        "number": 22,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Why is this bag so expensive? B: The shop charges a premium because every bag is made by hand.",
+        "promptZh": "A：為甚麼這個袋這麼昂貴？ B：店舖收取高價，因為每個袋都是人手製作的。",
+        "starter": "The",
+        "answer": "The shop charges top dollar because every bag is made by hand.",
+        "answerZh": "這間店舖收取高昂價錢，因為每個袋都是人手製作的。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q23",
+        "number": 23,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The art expert believes that the recently discovered painting could sell for an exceptionally high price.",
+        "promptZh": "藝術專家認為，這幅最近發現的畫作可能會以極高價錢售出。",
+        "starter": "The",
+        "answer": "The art expert believes that the recently discovered painting could fetch top dollar.",
+        "answerZh": "藝術專家認為，這幅最近發現的畫作可能會賣得高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q24",
+        "number": 24,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The seller collected all the service records and had the car professionally cleaned. These steps helped him secure the best possible price.",
+        "promptZh": "賣家收集了所有維修記錄，並安排專業清潔汽車。這些措施幫助他取得最佳售價。",
+        "starter": "The",
+        "answer": "The seller collected all the service records and had the car professionally cleaned so that he could get top dollar for it.",
+        "answerZh": "賣家收集所有維修記錄，並安排專業清潔汽車，以便取得最佳售價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q25",
+        "number": 25,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Are technology firms offering unusually high salaries to attract experienced programmers? B: Yes. There are not enough qualified candidates.",
+        "promptZh": "A：科技公司是否正提供異常優厚的薪酬，以吸引資深程式設計師？ B：是，因為合資格的求職者不足。",
+        "starter": "Yes",
+        "answer": "Yes, technology firms are paying top dollar to attract experienced programmers.",
+        "answerZh": "是，科技公司正提供優厚薪酬，以吸引資深程式設計師。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q26",
+        "number": 26,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The hotel is beautiful, but I would not pay such a high price unless breakfast and airport transport were included.",
+        "promptZh": "這間酒店很漂亮，但除非房價包括早餐及機場接送，否則我不會支付這麼高的價錢。",
+        "starter": "Although",
+        "answer": "Although the hotel is beautiful, I would not pay top dollar unless breakfast and airport transport were included.",
+        "answerZh": "雖然這間酒店很漂亮，但除非房價包括早餐及機場接送，否則我不會支付高昂價錢。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q27",
+        "number": 27,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The seller rejected several early offers and waited until a buyer was willing to pay the maximum market price.",
+        "promptZh": "賣家拒絕了數個早期出價，一直等待願意支付市場最高價的買家。",
+        "starter": "The",
+        "answer": "The seller waited until a buyer was willing to pay top dollar.",
+        "answerZh": "賣家一直等待願意支付市場高價的買家。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q28",
+        "number": 28,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The restaurant uses rare seasonal ingredients, so it can charge premium prices for the special menu.",
+        "promptZh": "這間餐廳使用稀有的時令食材，因此可以對特別菜單收取高昂價錢。",
+        "starter": "Because",
+        "answer": "Because the restaurant uses rare seasonal ingredients, it can charge top dollar for the special menu.",
+        "answerZh": "由於這間餐廳使用稀有的時令食材，所以可以對特別菜單收取高昂價錢。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q29",
+        "number": 29,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Her knowledge of international tax law allows her to receive exceptionally high fees for her advice.",
+        "promptZh": "她對國際稅法的知識，使她能夠憑顧問服務獲得極高報酬。",
+        "starter": "Her",
+        "answer": "Her knowledge of international tax law allows her to charge top dollar for her advice.",
+        "answerZh": "她對國際稅法的知識，使她能夠對顧問服務收取高額費用。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q30",
+        "number": 30,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Hotels near the stadium can charge their highest prices when an international final is being held.",
+        "promptZh": "舉行國際決賽時，體育館附近的酒店可以收取最高房價。",
+        "starter": "Hotels",
+        "answer": "Hotels near the stadium can charge top dollar when an international final is being held.",
+        "answerZh": "舉行國際決賽時，體育館附近的酒店可以收取極高房價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q31",
+        "number": 31,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The equipment is expensive, but many laboratories pay a premium because it is reliable and includes a ten-year warranty.",
+        "promptZh": "這套設備十分昂貴，但很多實驗室仍願意支付高價，因為它十分可靠，並附有十年保養。",
+        "starter": "Although",
+        "answer": "Although the equipment is expensive, many laboratories are willing to pay top dollar because it is reliable and includes a ten-year warranty.",
+        "answerZh": "雖然這套設備十分昂貴，但很多實驗室仍願意支付高價，因為它十分可靠，並附有十年保養。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q32",
+        "number": 32,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "These toys were once widely available and inexpensive. They are now rare, and collectors pay extremely high prices for them.",
+        "promptZh": "這些玩具以前供應充足，而且價錢便宜。現在它們十分稀有，收藏家願意支付極高價錢購買。",
+        "starter": "These",
+        "answer": "These toys were once widely available, but collectors now pay top dollar for them.",
+        "answerZh": "這些玩具以前供應充足，但收藏家現在願意支付高價購買。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q33",
+        "number": 33,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: I heard that the private club is reasonably priced. B: That is incorrect. Members are expected to pay a very high price for its services.",
+        "promptZh": "A：我聽說那間私人會所的收費很合理。 B：這個說法不正確。會員需要為服務支付非常高昂的價錢。",
+        "starter": "No",
+        "answer": "No, members are expected to pay top dollar for the private club’s services.",
+        "answerZh": "不是，會員需要為這間私人會所的服務支付高昂價錢。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q34",
+        "number": 34,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "There is a serious shortage of experienced pilots. Airlines may therefore have to offer exceptionally high salaries to recruit them.",
+        "promptZh": "資深機師嚴重短缺。因此，航空公司可能需要提供極優厚的薪酬才能招聘他們。",
+        "starter": "Because",
+        "answer": "Because there is a serious shortage of experienced pilots, airlines may have to pay top dollar to recruit them.",
+        "answerZh": "由於資深機師嚴重短缺，航空公司可能需要提供優厚薪酬才能招聘他們。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q35",
+        "number": 35,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The painting may be genuine, but it will not sell for the highest price without reliable documents proving its history.",
+        "promptZh": "這幅畫可能是真跡，但如果沒有可靠文件證明其歷史，便不能賣得最高價。",
+        "starter": "Without",
+        "answer": "Without reliable documents proving its history, the painting will not fetch top dollar.",
+        "answerZh": "如果沒有可靠文件證明其歷史，這幅畫便不能賣得最高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q36",
+        "number": 36,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The company is relatively small, but it offers very high pay to attract the best security specialists.",
+        "promptZh": "這間公司的規模相對較小，但為了吸引最優秀的保安專家，它提供非常優厚的報酬。",
+        "starter": "Although",
+        "answer": "Although the company is relatively small, it pays top dollar for the best security specialists.",
+        "answerZh": "雖然這間公司的規模相對較小，但它向最優秀的保安專家提供優厚報酬。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q37",
+        "number": 37,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The hospital urgently needs an experienced surgeon. Because very few suitable candidates are available, it may need to offer an exceptionally high salary.",
+        "promptZh": "醫院急需一名資深外科醫生。由於合適人選非常少，醫院可能需要提供極優厚的薪酬。",
+        "starter": "The",
+        "answer": "The hospital may need to pay top dollar to recruit an experienced surgeon.",
+        "answerZh": "醫院可能需要提供極優厚的薪酬，才能招聘一名資深外科醫生。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q38",
+        "number": 38,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A company cannot reasonably charge premium prices while providing unreliable products and poor customer service.",
+        "promptZh": "如果公司提供的產品並不可靠，客戶服務亦十分惡劣，便沒有理由收取高昂價錢。",
+        "starter": "A",
+        "answer": "A company cannot reasonably charge top dollar while providing unreliable products and poor customer service.",
+        "answerZh": "如果公司提供不可靠的產品及惡劣的客戶服務，便沒有理由收取高昂價錢。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q39",
+        "number": 39,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Property analysts expect flats with unobstructed harbour views to obtain the highest prices in the development.",
+        "promptZh": "物業分析師預期，擁有開揚海景的單位會在這個發展項目中取得最高售價。",
+        "starter": "Properties",
+        "answer": "Properties with unobstructed harbour views are expected to command top dollar in the development.",
+        "answerZh": "擁有開揚海景的單位預期會在這個發展項目中取得最高售價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q40",
+        "number": 40,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The owners repaired the windows, repainted the walls and prepared professional photographs because they wanted the best possible price for the house.",
+        "promptZh": "業主維修窗戶、重新粉刷牆壁，並準備專業照片，因為他們希望為房屋取得最佳售價。",
+        "starter": "To",
+        "answer": "To get top dollar for the house, the owners repaired the windows, repainted the walls and prepared professional photographs.",
+        "answerZh": "為了替房屋取得最佳售價，業主維修了窗戶、重新粉刷牆壁，並準備專業照片。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q41",
+        "number": 41,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The watch is rare, but even serious collectors will not pay the highest market price unless its condition and ownership history can be verified.",
+        "promptZh": "這枚手錶十分稀有，但除非其狀況及擁有權歷史可以得到核實，否則即使是認真的收藏家也不會支付市場最高價。",
+        "starter": "Even",
+        "answer": "Even serious collectors will not pay top dollar unless the watch’s condition and ownership history can be verified.",
+        "answerZh": "除非這枚手錶的狀況及擁有權歷史可以得到核實，否則即使是認真的收藏家也不會支付市場最高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q42",
+        "number": 42,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The auction house has given the painting a high estimate. However, it may not achieve the highest price if several similar works enter the market at the same time.",
+        "promptZh": "拍賣行對這幅畫作出了很高的估價。不過，如果同一時間有數幅類似作品推出市場，它便未必能取得最高價。",
+        "starter": "Despite",
+        "answer": "Despite the auction house’s high estimate, the painting may not fetch top dollar if several similar works enter the market at the same time.",
+        "answerZh": "儘管拍賣行作出了很高的估價，但如果同一時間有數幅類似作品推出市場，這幅畫便未必能取得最高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q43",
+        "number": 43,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: We want to obtain the best possible price for the company when we sell it. B: In that case, you need accurate financial records and evidence of steady growth.",
+        "promptZh": "A：我們出售公司時，希望取得最佳價錢。 B：既然如此，你們便需要準確的財務記錄及穩定增長的證據。",
+        "starter": "Then",
+        "answer": "Then you need accurate financial records and evidence of steady growth if you want to get top dollar for the company.",
+        "answerZh": "如果你們希望出售公司時取得最佳價錢，便需要準確的財務記錄及穩定增長的證據。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q44",
+        "number": 44,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The company needs an expert who can solve the problem immediately. It may therefore have to offer a particularly high payment rather than employ the cheapest available consultant.",
+        "promptZh": "公司需要一名能夠立即解決問題的專家。因此，公司可能需要支付特別高昂的報酬，而不是聘請收費最低的顧問。",
+        "starter": "If",
+        "answer": "If the company needs an expert who can solve the problem immediately, it may have to pay top dollar.",
+        "answerZh": "如果公司需要一名能夠立即解決問題的專家，便可能需要支付極高報酬。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q45",
+        "number": 45,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The manufacturer stopped producing these replacement parts ten years ago. As a result, the few unused parts that remain now sell for extremely high prices.",
+        "promptZh": "生產商十年前已停止製造這些零件。因此，目前僅餘的未使用零件都能以極高價錢售出。",
+        "starter": "Replacement",
+        "answer": "Replacement parts that remain unused now command top dollar because the manufacturer stopped producing them ten years ago.",
+        "answerZh": "由於生產商十年前已停止製造這些零件，目前仍未使用的零件都能賣得高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q46",
+        "number": 46,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Some customers willingly pay premium prices for food when they can verify exactly where it came from and how it was produced.",
+        "promptZh": "部分顧客如果能夠查證食物的來源及生產方式，便願意支付高昂價錢。",
+        "starter": "Some",
+        "answer": "Some customers are prepared to pay top dollar for food when they can verify exactly where it came from and how it was produced.",
+        "answerZh": "部分顧客如果能夠查證食物的來源及生產方式，便願意支付高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q47",
+        "number": 47,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Hotels can charge their highest rates during the international exhibition, but they may have to reduce prices sharply once the event ends.",
+        "promptZh": "酒店可以在國際展覽期間收取最高房價，但活動結束後，便可能需要大幅減價。",
+        "starter": "Hotels",
+        "answer": "Hotels can charge top dollar during the international exhibition, but they may have to reduce their prices sharply once it ends.",
+        "answerZh": "酒店可以在國際展覽期間收取最高房價，但活動結束後，便可能需要大幅減價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q48",
+        "number": 48,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "His reputation allows him to demand exceptionally high fees for his legal advice, even though he is rarely the least expensive lawyer available.",
+        "promptZh": "他的聲譽使他能夠對法律意見收取極高費用，儘管他很少是市場上收費最低的律師。",
+        "starter": "His",
+        "answer": "His reputation allows him to charge top dollar for his legal advice, even though he is rarely the least expensive lawyer available.",
+        "answerZh": "他的聲譽使他能夠對法律意見收取極高費用，儘管他很少是市場上收費最低的律師。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q49",
+        "number": 49,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Customers who pay premium prices at a restaurant reasonably expect consistent food, attentive service and a comfortable environment.",
+        "promptZh": "在餐廳支付高昂價錢的顧客，有理由期望食物質素穩定、服務周到及環境舒適。",
+        "starter": "When",
+        "answer": "When customers pay top dollar at a restaurant, they reasonably expect consistent food, attentive service and a comfortable environment.",
+        "answerZh": "顧客在餐廳支付高昂價錢時，有理由期望食物質素穩定、服務周到及環境舒適。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      },
+      {
+        "id": "idiom-70-q50",
+        "number": 50,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "An item may be extremely rare, but it may still fail to achieve the highest price if its condition, authenticity or ownership history is uncertain.",
+        "promptZh": "一件物品可能極為稀有，但如果其狀況、真偽或擁有權歷史未能確定，它仍然可能無法取得最高價。",
+        "starter": "Even",
+        "answer": "Even a rare item may fail to fetch top dollar if its condition, authenticity or ownership history is uncertain.",
+        "answerZh": "即使一件物品十分稀有，如果其狀況、真偽或擁有權歷史未能確定，它仍然可能無法取得最高價。",
+        "targetForm": "Top Dollar",
+        "targetMeaning": "A very high price, a very large payment, or the highest amount that somebody is willing to pay for a product, service, skill or other valuable thing.",
+        "highlight": "top dollar"
+      }
+    ]
+  }
+}

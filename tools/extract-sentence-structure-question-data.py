@@ -52,7 +52,11 @@ def split_bilingual(lines: list[tuple[int, str]]) -> tuple[str, str, int, int]:
     if chinese_index is None:
         raise ValueError(f"Could not locate Chinese translation in block: {lines!r}")
     english_lines = [line for _, line in lines[:chinese_index]]
-    chinese_lines = [line for _, line in lines[chinese_index:]]
+    chinese_lines: list[str] = []
+    for _, line in lines[chinese_index:]:
+        chinese_lines.append(line)
+        if line.rstrip().endswith(("）", ")")):
+            break
     english_page = lines[0][0]
     chinese_page = lines[chinese_index][0]
     return (

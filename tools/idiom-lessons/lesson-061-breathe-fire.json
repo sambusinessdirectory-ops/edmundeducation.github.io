@@ -1,0 +1,1396 @@
+{
+  "lesson": {
+    "id": "idiom-61",
+    "order": 61,
+    "slug": "breathe-fire",
+    "version": "1",
+    "title": "非常憤怒／怒火中燒",
+    "titleEn": "breathe fire",
+    "titleZh": "非常憤怒／怒火中燒",
+    "source": {
+      "file": "Idiom 61 - 「Breathe Fire」.pdf",
+      "pageCount": 26,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "exercisePdfPages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "answerKeyPdfPages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "breathe fire",
+        "highlight": "breathe fire"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The manager is breathing fire.",
+        "zh": "經理正在大發雷霆。",
+        "highlight": "breathing fire"
+      },
+      {
+        "en": "The residents are breathing fire over the broken lift.",
+        "zh": "居民正因為升降機損壞而大發雷霆。",
+        "highlight": "breathing fire"
+      }
+    ],
+    "meaning": {
+      "en": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+      "zh": "非常憤怒；怒火中燒；大發雷霆。這個表達通常表示怒氣十分強烈，而且明顯表現在說話、語氣或行為上。",
+      "naturalZh": [
+        "非常憤怒",
+        "怒火中燒",
+        "大發雷霆。這個表達通常表示怒氣十分強烈，而且明顯表現在說話、語氣或行為上。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "Breathe fire is informal to neutral. It is vivid, dramatic and sometimes slightly humorous or exaggerated.",
+      "summaryZh": "這個慣用語屬於非正式至中性用語，語氣鮮明而強烈，有時亦可能帶有輕微誇張或幽默效果。",
+      "contextsEn": [
+        "everyday conversation",
+        "stories and personal accounts",
+        "workplace conversations",
+        "interviews",
+        "general news and magazine writing",
+        "breathe fire",
+        "breathes fire",
+        "breathed fire",
+        "breathing fire",
+        "breathe a fire",
+        "breathe the fire",
+        "breathe fires"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "故事及個人敘述",
+        "工作場合的對話",
+        "訪問",
+        "一般新聞及雜誌文章。",
+        "動詞",
+        "名詞"
+      ],
+      "formalEn": "In highly formal academic, legal or official writing, a plain expression such as be extremely angry, respond angrily or strongly criticise may be more suitable.",
+      "formalZh": "前面不使用冠詞。"
+    },
+    "fixedVariable": {
+      "fixed": "breathe fire",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + breathing fire.",
+          "example": "The manager is breathing fire.",
+          "highlight": "breathing fire"
+        },
+        {
+          "form": "Subject + be + breathing fire + over/about + issue.",
+          "example": "The residents are breathing fire over the broken lift.",
+          "highlight": "breathing fire"
+        },
+        {
+          "form": "Subject + be + breathing fire + at + person.",
+          "example": "The chef was breathing fire at his assistant.",
+          "highlight": "breathing fire"
+        },
+        {
+          "form": "Subject + start/begin + breathing/to breathe fire.",
+          "example": "Dad started breathing fire when he saw the damage.",
+          "highlight": "breathing fire"
+        },
+        {
+          "form": "Subject + will/may/might/could + breathe fire.",
+          "example": "The customers may breathe fire if the charge is not removed.",
+          "highlight": "breathe fire"
+        },
+        {
+          "form": "Cause + have + person + breathing fire.",
+          "example": "The sudden price rise had customers breathing fire.",
+          "highlight": "breathing fire"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Anger Happening Now",
+        "titleZh": "句式一：正在發怒",
+        "formula": "Subject + be + breathing fire.",
+        "descriptionEn": "Source grammar frame: Subject + be + breathing fire.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + breathing fire。",
+        "examples": [
+          {
+            "en": "The manager is breathing fire.",
+            "zh": "經理正在大發雷霆。",
+            "highlight": "breathing fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Giving the Reason",
+        "titleZh": "句式二：說明發怒原因",
+        "formula": "Subject + be + breathing fire + over/about + issue.",
+        "descriptionEn": "Source grammar frame: Subject + be + breathing fire + over/about + issue.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + breathing fire + over/about + issue。",
+        "examples": [
+          {
+            "en": "The residents are breathing fire over the broken lift.",
+            "zh": "居民正因為升降機損壞而大發雷霆。",
+            "highlight": "breathing fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Directing Anger at Someone",
+        "titleZh": "句式三：向某人發怒",
+        "formula": "Subject + be + breathing fire + at + person.",
+        "descriptionEn": "Source grammar frame: Subject + be + breathing fire + at + person.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + breathing fire + at + person。",
+        "examples": [
+          {
+            "en": "The chef was breathing fire at his assistant.",
+            "zh": "廚師正在向助手大發雷霆。",
+            "highlight": "breathing fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Beginning to React Angrily",
+        "titleZh": "句式四：開始大發雷霆",
+        "formula": "Subject + start/begin + breathing/to breathe fire.",
+        "descriptionEn": "Source grammar frame: Subject + start/begin + breathing/to breathe fire.",
+        "descriptionZh": "原檔列出的句法框架：Subject + start/begin + breathing/to breathe fire。",
+        "examples": [
+          {
+            "en": "Dad started breathing fire when he saw the damage.",
+            "zh": "爸爸看到損壞的地方時開始大發雷霆。",
+            "highlight": "breathing fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Future or Possible Anger",
+        "titleZh": "句式五：將來或可能出現的怒氣",
+        "formula": "Subject + will/may/might/could + breathe fire.",
+        "descriptionEn": "Source grammar frame: Subject + will/may/might/could + breathe fire.",
+        "descriptionZh": "原檔列出的句法框架：Subject + will/may/might/could + breathe fire。",
+        "examples": [
+          {
+            "en": "The customers may breathe fire if the charge is not removed.",
+            "zh": "如果不取消這項收費，顧客可能會大發雷霆。",
+            "highlight": "breathe fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Causing an Angry Reaction",
+        "titleZh": "句式六：令某人大發雷霆",
+        "formula": "Cause + have + person + breathing fire.",
+        "descriptionEn": "Source grammar frame: Cause + have + person + breathing fire.",
+        "descriptionZh": "原檔列出的句法框架：Cause + have + person + breathing fire。",
+        "examples": [
+          {
+            "en": "The sudden price rise had customers breathing fire.",
+            "zh": "突然加價令顧客大發雷霆。",
+            "highlight": "breathing fire"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses the Degree of Anger Clearly",
+        "titleZh": "清楚表達怒氣程度",
+        "en": "Breathe fire tells the listener that somebody is not merely annoyed. The person is extremely angry.",
+        "zh": "讓聽者知道某人並非只是有點不滿，而是非常憤怒。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Creates a Vivid Image",
+        "titleZh": "製造鮮明畫面",
+        "en": "The expression compares an angry person to a creature sending out fire. This makes a description more memorable.",
+        "zh": "這個表達把憤怒的人比作噴出火焰的生物，令描述更加鮮明和容易記住。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "濃縮較長的解釋",
+        "en": "The manager was breathing fire.",
+        "zh": "較短的慣用語可以同時表達「非常憤怒」及「以強烈方式表現怒氣」。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful for Warnings",
+        "titleZh": "適合用來提醒別人",
+        "en": "The expression quickly warns the listener about somebody’s emotional state.",
+        "zh": "先不要和爸爸說話。 他正在大發雷霆。 這個表達可以迅速提醒別人，某人正處於盛怒之中。",
+        "examples": [
+          {
+            "en": "Do not speak to Dad yet. He is breathing fire.",
+            "zh": "先不要和爸爸說話。他正在大發雷霆。",
+            "highlight": "breathing fire"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Adds Energy to Narratives and Dialogue",
+        "titleZh": "令故事及對話更有力量",
+        "en": "The expression is especially useful when describing an argument, complaint, mistake or angry reaction. However, an idiom is not automatically better than plain English. Use breathe fire only when the anger is genuinely strong enough.",
+        "zh": "這個表達尤其適合用來描述爭執、投訴、錯誤或憤怒反應。 不過，慣用語並非一定比直接說法更好。 只有當怒氣確實非常強烈時，才應使用 breathe fire。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The figurative meaning probably developed gradually through the common metaphor ANGER IS FIRE. In this metaphor, a small fire represents lower anger, while powerful flames represent intense anger. Linguistic research lists breathe fire as an example of this metaphor and notes that its image communicates particularly strong anger.",
+          "zh": "這個比喻意思很可能透過「憤怒就是火」的概念逐漸形成。 較弱的火可以代表較輕的怒氣，而猛烈火焰則代表強烈憤怒。 因此，形容一個人「噴火」，便自然令人聯想到他正在盛怒之中。"
+        }
+      ],
+      "memoryEn": "A dragon sends out powerful flames; an extremely angry person sends out powerful words.",
+      "memoryZh": "巨龍噴出猛烈火焰；極度憤怒的人則說出猛烈的話。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use It for Strong Anger",
+        "titleZh": "breathe fire 表示非常強烈的怒氣，而不是輕微不滿",
+        "en": "Breathe fire expresses intense anger, not mild annoyance. The manager shouted at everyone after discovering the serious mistake. I was a little annoyed because the bus was five minutes late.",
+        "zh": "breathe fire 表示非常強烈的怒氣，而不是輕微不滿。 經理發現嚴重錯誤後，向所有人大叫。 巴士遲了五分鐘，我有點不滿。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use Only the Figurative Meaning in This Exercise",
+        "titleZh": "規則二",
+        "en": "Every answer must describe human anger. Do not use the literal meaning involving real flames.",
+        "zh": "本練習中的所有答案都必須表示人的怒氣，不可使用真正噴火的字面意思。 巨龍向騎士噴火。",
+        "examples": [
+          {
+            "en": "The dragon breathed fire at the knight.",
+            "zh": "巨龍向騎士噴火。",
+            "highlight": "breathed fire"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "Choose the Preposition by Meaning",
+        "titleZh": "向某人大發雷霆",
+        "en": "Choose the Preposition by Meaning",
+        "zh": "向某人大發雷霆",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Progressive Form Is Very Common",
+        "titleZh": "規則四",
+        "en": "When describing somebody’s visible anger at a particular time, be breathing fire is especially natural.",
+        "zh": "描述某人在特定時刻明顯發怒時，be breathing fire 尤其自然。 顧客致電給我們時正在大發雷霆。",
+        "examples": [
+          {
+            "en": "The customer was breathing fire when she called us.",
+            "zh": "顧客致電給我們時正在大發雷霆。",
+            "highlight": "breathing fire"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Change the Fixed Word Fire",
+        "titleZh": "規則五",
+        "en": "Do Not Change the Fixed Word Fire",
+        "zh": "規則五",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則六",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把「可能發生」改成了「已經發生」。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Use It for Every Angry Person",
+        "titleZh": "規則七",
+        "en": "A person may be angry without breathing fire. The idiom normally suggests very strong, visible or verbally expressed anger.",
+        "zh": "一個人生氣並不代表一定可以使用 breathe fire。 這個慣用語通常表示非常強烈、明顯或透過言語表達的怒氣。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Mix Related Expressions",
+        "titleZh": "規則八",
+        "en": "Do Not Mix Related Expressions",
+        "zh": "規則八",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Preserve the actor, situation, tense, certainty and emotional strength. The first word of each model answer has been provided.",
+      "zh": "使用 breathe fire 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-61-q01",
+        "number": 1,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The coach was extremely angry after the players ignored his instructions.",
+        "promptZh": "球員無視教練的指示後，教練非常憤怒。",
+        "starter": "The",
+        "answer": "The coach was breathing fire after the players ignored his instructions.",
+        "answerZh": "球員無視教練的指示後，教練大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q02",
+        "number": 2,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Mrs Chan became furious when she saw the broken window.",
+        "promptZh": "陳太看到破裂的窗戶時，氣得不得了。",
+        "starter": "Mrs",
+        "answer": "Mrs Chan was breathing fire when she saw the broken window.",
+        "answerZh": "陳太看到破裂的窗戶時大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q03",
+        "number": 3,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "My brother is extremely angry about his missing bicycle.",
+        "promptZh": "我的弟弟因為單車不見了而非常憤怒。",
+        "starter": "My",
+        "answer": "My brother is breathing fire over his missing bicycle.",
+        "answerZh": "我的弟弟正因為單車不見了而怒火中燒。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q04",
+        "number": 4,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The manager was shouting angrily because the order was late.",
+        "promptZh": "經理因為訂單延誤而憤怒地大叫。",
+        "starter": "The",
+        "answer": "The manager was breathing fire because the order was late.",
+        "answerZh": "經理因為訂單延誤而大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q05",
+        "number": 5,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Dad became furious when he found muddy shoes on the sofa.",
+        "promptZh": "爸爸發現梳化上有沾滿泥的鞋時，頓時非常憤怒。",
+        "starter": "Dad",
+        "answer": "Dad started breathing fire when he found the muddy shoes on the sofa.",
+        "answerZh": "爸爸發現梳化上有沾滿泥的鞋時，頓時大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q06",
+        "number": 6,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The teacher became extremely angry after the class lied to her.",
+        "promptZh": "全班向老師說謊後，老師非常憤怒。",
+        "starter": "The",
+        "answer": "The teacher was breathing fire after the class lied to her.",
+        "answerZh": "全班向老師說謊後，老師大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q07",
+        "number": 7,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "She is very angry because somebody has lost the report.",
+        "promptZh": "她因為有人弄失了報告而非常憤怒。",
+        "starter": "She",
+        "answer": "She is breathing fire over the lost report.",
+        "answerZh": "她正因為遺失的報告而怒氣沖沖。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q08",
+        "number": 8,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The shop owner shouted furiously when the cash went missing.",
+        "promptZh": "現金不見了時，店主憤怒地大叫。",
+        "starter": "The",
+        "answer": "The shop owner was breathing fire when the cash went missing.",
+        "answerZh": "現金不見了時，店主正在大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q09",
+        "number": 9,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The captain became furious after the team gave up.",
+        "promptZh": "隊員放棄後，隊長非常憤怒。",
+        "starter": "The",
+        "answer": "The captain was breathing fire after the team gave up.",
+        "answerZh": "隊員放棄後，隊長大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q10",
+        "number": 10,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "I became extremely angry when I discovered that someone had deleted my work.",
+        "promptZh": "我發現有人刪除了我的作品時，感到極為憤怒。",
+        "starter": "I",
+        "answer": "I was breathing fire when I discovered that someone had deleted my work.",
+        "answerZh": "我發現有人刪除了我的作品時，氣得火冒三丈。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q11",
+        "number": 11,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Whenever the workers arrive late, the supervisor becomes furious.",
+        "promptZh": "每當工人遲到，主管都會非常憤怒。",
+        "starter": "The",
+        "answer": "The supervisor breathes fire whenever the workers arrive late.",
+        "answerZh": "每當工人遲到，主管都會大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathes fire"
+      },
+      {
+        "id": "idiom-61-q12",
+        "number": 12,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "She has been extremely angry about the bill all morning.",
+        "promptZh": "她整個早上都因為帳單而非常憤怒。",
+        "starter": "She",
+        "answer": "She has been breathing fire over the bill all morning.",
+        "answerZh": "她整個早上都因為帳單而怒氣沖沖。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q13",
+        "number": 13,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "He will become furious if the room is not ready.",
+        "promptZh": "如果房間還未準備好，他會非常憤怒。",
+        "starter": "He",
+        "answer": "He will breathe fire if the room is not ready.",
+        "answerZh": "如果房間還未準備好，他會大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathe fire"
+      },
+      {
+        "id": "idiom-61-q14",
+        "number": 14,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: How did Mum react when she saw the broken vase? B: She became extremely angry.",
+        "promptZh": "甲：媽媽看到打破了的花瓶時有甚麼反應？ 乙：她非常憤怒。",
+        "starter": "She",
+        "answer": "She was breathing fire when she saw the broken vase.",
+        "answerZh": "她看到打破了的花瓶時大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q15",
+        "number": 15,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The head teacher may become very angry when she hears that the students cheated.",
+        "promptZh": "校長得知學生作弊時，可能會非常憤怒。",
+        "starter": "The",
+        "answer": "The head teacher may breathe fire when she hears that the students cheated.",
+        "answerZh": "校長得知學生作弊時，可能會大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathe fire"
+      },
+      {
+        "id": "idiom-61-q16",
+        "number": 16,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Do not tell him now; he is still extremely angry about the cancelled trip.",
+        "promptZh": "現在不要告訴他；他仍然因為行程取消而非常憤怒。",
+        "starter": "Don’t",
+        "answer": "Don’t tell him now; he is still breathing fire over the cancelled trip.",
+        "answerZh": "現在不要告訴他；他仍然因為行程取消而怒氣沖沖。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q17",
+        "number": 17,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The chef was furiously shouting at his assistant for burning the meal.",
+        "promptZh": "廚師因為助手把食物煮焦而向他憤怒地大叫。",
+        "starter": "The",
+        "answer": "The chef was breathing fire at his assistant for burning the meal.",
+        "answerZh": "廚師因為助手把食物煮焦而向他大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q18",
+        "number": 18,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Our customer sounded extremely angry on the phone because her parcel had been lost.",
+        "promptZh": "我們的顧客在電話中聽起來非常憤怒，因為她的包裹遺失了。",
+        "starter": "Our",
+        "answer": "Our customer was breathing fire on the phone because her parcel had been lost.",
+        "answerZh": "我們的顧客因為包裹遺失而在電話中大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q19",
+        "number": 19,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The neighbours were still furious about the loud music when the police arrived.",
+        "promptZh": "警察到達時，鄰居仍然因為嘈吵的音樂而非常憤怒。",
+        "starter": "The",
+        "answer": "The neighbours were still breathing fire over the loud music when the police arrived.",
+        "answerZh": "警察到達時，鄰居仍然因為嘈吵的音樂而怒火中燒。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q20",
+        "number": 20,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Could the director become furious if we miss the deadline?",
+        "promptZh": "如果我們錯過限期，主管會不會大發脾氣？",
+        "starter": "Could",
+        "answer": "Could the director start breathing fire if we miss the deadline?",
+        "answerZh": "如果我們錯過限期，主管會不會開始大發雷霆？",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q21",
+        "number": 21,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Why is your sister shouting angrily in the kitchen? B: Someone used her special pan, and she is furious.",
+        "promptZh": "甲：你的姐姐為甚麼在廚房憤怒地大叫？ 乙：有人用了她專用的平底鑊，她非常生氣。",
+        "starter": "She",
+        "answer": "She is breathing fire in the kitchen because someone used her special pan.",
+        "answerZh": "她正因為有人用了她專用的平底鑊而在廚房大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q22",
+        "number": 22,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: I heard the coach was calm after the loss. B: Calm? He shouted at everyone in anger.",
+        "promptZh": "甲：我聽說球隊落敗後，教練很冷靜。 乙：冷靜？他憤怒地向所有人大叫。",
+        "starter": "Calm",
+        "answer": "Calm? The coach was breathing fire after the loss.",
+        "answerZh": "冷靜？球隊落敗後，教練簡直大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q23",
+        "number": 23,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Your boss is furious about yesterday’s mistake. Warn your colleague not to ask about a holiday now.",
+        "promptZh": "你的上司正因為昨天的錯誤而非常憤怒。提醒同事現在不要詢問放假。",
+        "starter": "Don’t",
+        "answer": "Don’t ask the boss about your holiday now; she is breathing fire over yesterday’s mistake.",
+        "answerZh": "現在不要向上司詢問放假；她正因為昨天的錯誤而大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q24",
+        "number": 24,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Daniel said his mother would become furious if he came home late again.",
+        "promptZh": "Daniel 說，如果他再次遲回家，媽媽便會非常憤怒。",
+        "starter": "Daniel",
+        "answer": "Daniel said his mother would breathe fire if he came home late again.",
+        "answerZh": "Daniel 說，如果他再次遲回家，媽媽便會大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathe fire"
+      },
+      {
+        "id": "idiom-61-q25",
+        "number": 25,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The manager was furious about the repeated errors, but she became calm after we corrected them.",
+        "promptZh": "經理因為一再出現的錯誤而非常憤怒，但我們改正錯誤後，她便冷靜下來。",
+        "starter": "The",
+        "answer": "The manager was breathing fire over the repeated errors, but she calmed down after we corrected them.",
+        "answerZh": "經理因為一再出現的錯誤而大發雷霆，但我們改正錯誤後，她便冷靜下來。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q26",
+        "number": 26,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: Did Priya merely look disappointed? B: No. She shouted and slammed her folder down.",
+        "promptZh": "甲：Priya 只是看起來有點失望嗎？ 乙：不是。她大叫，還把文件夾重重放下。",
+        "starter": "No",
+        "answer": "No, Priya was breathing fire, not merely disappointed.",
+        "answerZh": "不是，Priya 當時大發雷霆，並不只是失望。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q27",
+        "number": 27,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The customer began speaking with intense anger when she saw the extra charge.",
+        "promptZh": "顧客看到額外收費時，開始以極為憤怒的語氣說話。",
+        "starter": "The",
+        "answer": "The customer began to breathe fire when she saw the extra charge.",
+        "answerZh": "顧客看到額外收費時，開始大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathe fire"
+      },
+      {
+        "id": "idiom-61-q28",
+        "number": 28,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The chairperson was furiously shouting about the missing figures, so everyone left the meeting room.",
+        "promptZh": "主席因為缺少的數字而憤怒地大叫，所以所有人都離開了會議室。",
+        "starter": "Everyone",
+        "answer": "Everyone left the meeting room because the chairperson was breathing fire over the missing figures.",
+        "answerZh": "所有人都離開了會議室，因為主席正為缺少的數字大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q29",
+        "number": 29,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The referee’s decision made the fans so angry that they shouted furiously.",
+        "promptZh": "裁判的決定令球迷極為憤怒，並大聲怒吼。",
+        "starter": "The",
+        "answer": "The fans were breathing fire after the referee’s decision.",
+        "answerZh": "裁判作出決定後，球迷大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q30",
+        "number": 30,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: We need to tell Dad that we damaged the car. B: Let us wait. He is already furious about it.",
+        "promptZh": "甲：我們需要告訴爸爸，我們弄壞了汽車。 乙：先等一等吧。他已經因為這件事非常憤怒。",
+        "starter": "Let’s",
+        "answer": "Let’s wait; Dad is already breathing fire over the damage to the car.",
+        "answerZh": "先等一等吧；爸爸已經因為汽車受損而大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q31",
+        "number": 31,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Although the head teacher is usually calm, she was furious when she learnt that the safety door had been locked.",
+        "promptZh": "雖然校長平日很冷靜，但她得知安全門被鎖上時非常憤怒。",
+        "starter": "Although",
+        "answer": "Although the head teacher is usually calm, she was breathing fire when she learnt that the safety door had been locked.",
+        "answerZh": "雖然校長平日很冷靜，但她得知安全門被鎖上時卻大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q32",
+        "number": 32,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The customer had received the wrong item twice, so she called us and spoke in fierce anger.",
+        "promptZh": "顧客兩次收到錯誤貨品，因此致電給我們，並以非常憤怒的語氣說話。",
+        "starter": "Because",
+        "answer": "Because the customer had received the wrong item twice, she was breathing fire when she called us.",
+        "answerZh": "因為顧客兩次收到錯誤貨品，所以她致電給我們時大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q33",
+        "number": 33,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The team expected the coach to be disappointed after their careless performance, but he was far angrier and shouted at them.",
+        "promptZh": "球隊以為教練只會對他們馬虎的表現感到失望，但他其實更加憤怒，並向他們大叫。",
+        "starter": "The",
+        "answer": "The team expected the coach to be disappointed, but he was breathing fire after their careless performance.",
+        "answerZh": "球隊以為教練只會感到失望，但他因為他們馬虎的表現而大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q34",
+        "number": 34,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Before I could explain why the report was late, the director began shouting furiously.",
+        "promptZh": "我還未能解釋報告為何遲交，主管便開始憤怒地大叫。",
+        "starter": "Before",
+        "answer": "Before I could explain why the report was late, the director started breathing fire.",
+        "answerZh": "我還未能解釋報告為何遲交，主管便開始大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q35",
+        "number": 35,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "When Lara read the unfair comment, she became so angry that her voice shook.",
+        "promptZh": "Lara 讀到那句不公平的評語時，氣得聲音也顫抖起來。",
+        "starter": "When",
+        "answer": "When Lara read the unfair comment, she began breathing fire.",
+        "answerZh": "Lara 讀到那句不公平的評語時，便開始大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q36",
+        "number": 36,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The parents might become extremely angry if the school cancels the trip without offering a refund.",
+        "promptZh": "如果學校取消旅行而不退款，家長可能會極為憤怒。",
+        "starter": "The",
+        "answer": "The parents might breathe fire if the school cancels the trip without offering a refund.",
+        "answerZh": "如果學校取消旅行而不退款，家長可能會大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathe fire"
+      },
+      {
+        "id": "idiom-61-q37",
+        "number": 37,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The editor did not shout angrily; she calmly explained the changes.",
+        "promptZh": "編輯沒有憤怒地大叫；她冷靜地解釋了修改內容。",
+        "starter": "The",
+        "answer": "The editor was not breathing fire; she calmly explained the changes.",
+        "answerZh": "編輯並沒有大發雷霆；她只是冷靜地解釋修改內容。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q38",
+        "number": 38,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Even after the company apologised, the customers remained furious about the extra fees.",
+        "promptZh": "即使公司已經道歉，顧客仍然因為額外收費而非常憤怒。",
+        "starter": "Even",
+        "answer": "Even after the company apologised, the customers were still breathing fire over the extra fees.",
+        "answerZh": "即使公司已經道歉，顧客仍然因為額外收費而怒氣沖沖。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q39",
+        "number": 39,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Should we phone Mr Lee now? B: We had better not. He has just found that several files are missing, and he is furious.",
+        "promptZh": "甲：我們現在應該致電李先生嗎？ 乙：最好不要。他剛發現幾份檔案不見了，現在非常憤怒。",
+        "starter": "Better",
+        "answer": "Better not; Mr Lee is breathing fire over the missing files.",
+        "answerZh": "最好不要；李先生正因為遺失的檔案而大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q40",
+        "number": 40,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The reporter said the minister spoke with fierce anger when someone asked about the delay.",
+        "promptZh": "記者說，有人問及延誤時，部長以極為憤怒的語氣回應。",
+        "starter": "The",
+        "answer": "The reporter said the minister was breathing fire when asked about the delay.",
+        "answerZh": "記者說，部長被問及延誤時大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q41",
+        "number": 41,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The school had promised new computers, but none had arrived. At the parents’ meeting, one mother spoke with intense anger.",
+        "promptZh": "學校曾承諾提供新電腦，但一部也沒有送到。在家長會上，一位母親非常憤怒地發言。",
+        "starter": "At",
+        "answer": "At the parents’ meeting, one mother was breathing fire because the promised computers had not arrived.",
+        "answerZh": "在家長會上，一位母親因為校方承諾的電腦仍未送到而大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q42",
+        "number": 42,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A small error delayed everyone’s pay, and the staff leader spoke with fierce anger.",
+        "promptZh": "一個小錯誤令所有人的薪金延遲發放，員工代表因此極為憤怒地發言。",
+        "starter": "The",
+        "answer": "The staff leader was breathing fire after a small error delayed everyone’s pay.",
+        "answerZh": "一個小錯誤令所有人的薪金延遲發放後，員工代表大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q43",
+        "number": 43,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: The hotel guest sounded mildly unhappy. B: Mildly? She shouted for ten minutes because her room had not been cleaned.",
+        "promptZh": "甲：那名酒店住客聽起來只是有點不滿。 乙：有點不滿？她因為房間沒有清潔而大叫了十分鐘。",
+        "starter": "Mildly",
+        "answer": "Mildly? The hotel guest was breathing fire because her room had not been cleaned.",
+        "answerZh": "有點不滿？那名酒店住客因為房間沒有清潔而大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q44",
+        "number": 44,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "If the train company cancels the last train again, the passengers may become extremely angry.",
+        "promptZh": "如果鐵路公司再次取消尾班車，乘客可能會極為憤怒。",
+        "starter": "Passengers",
+        "answer": "Passengers may breathe fire if the train company cancels the last train again.",
+        "answerZh": "如果鐵路公司再次取消尾班車，乘客可能會大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathe fire"
+      },
+      {
+        "id": "idiom-61-q45",
+        "number": 45,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The head chef saw the spoiled food and began yelling so fiercely that no one dared enter the kitchen.",
+        "promptZh": "主廚看到變壞了的食物後猛烈怒吼，沒有人敢進入廚房。",
+        "starter": "No",
+        "answer": "No one dared enter the kitchen because the head chef was breathing fire over the spoiled food.",
+        "answerZh": "沒有人敢進入廚房，因為主廚正為變壞了的食物大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q46",
+        "number": 46,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "I apologised for my careless comment, but Naomi continued speaking in a furious tone.",
+        "promptZh": "我為自己不小心說出的話道歉，但 Naomi 仍然以憤怒的語氣說話。",
+        "starter": "I",
+        "answer": "I knew my apology had not worked because Naomi was still breathing fire over my careless comment.",
+        "answerZh": "我知道自己的道歉沒有作用，因為 Naomi 仍然為我不小心說出的話怒氣沖沖。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q47",
+        "number": 47,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The sudden price rise made the shop owners speak with fierce anger at the public meeting.",
+        "promptZh": "突然加價令店主們在公開會議上非常憤怒地發言。",
+        "starter": "The",
+        "answer": "The sudden price rise had the shop owners breathing fire at the public meeting.",
+        "answerZh": "突然加價令店主們在公開會議上大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q48",
+        "number": 48,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The coach entered the changing room in a fury and shouted about the players’ lack of effort.",
+        "promptZh": "教練怒氣沖沖地走進更衣室，並因球員不夠努力而大叫。",
+        "starter": "Breathing",
+        "answer": "Breathing fire over the players’ lack of effort, the coach entered the changing room.",
+        "answerZh": "教練因球員不夠努力而怒火中燒，走進了更衣室。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "Breathing fire"
+      },
+      {
+        "id": "idiom-61-q49",
+        "number": 49,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The lift had been broken for months. At the building meeting, several residents spoke with fierce anger.",
+        "promptZh": "升降機已壞了數月。在大廈會議上，幾名居民非常憤怒地發言。",
+        "starter": "After",
+        "answer": "After months of delay, several residents were breathing fire over the broken lift at the building meeting.",
+        "answerZh": "經過數月延誤，幾名居民在大廈會議上因升降機損壞而大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathing fire"
+      },
+      {
+        "id": "idiom-61-q50",
+        "number": 50,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Do you think the director will simply ask us to correct the figures? B: No. The same mistake has happened three times, so I expect her to become extremely angry.",
+        "promptZh": "甲：你認為主管只會要求我們改正數字嗎？ 乙：不會。同一個錯誤已經發生了三次，所以我預計她會極為憤怒。",
+        "starter": "No",
+        "answer": "No. Since the same mistake has happened three times, I expect the director to breathe fire when she sees the figures.",
+        "answerZh": "不會。由於同一個錯誤已經發生了三次，我預計主管看到那些數字時會大發雷霆。",
+        "targetForm": "breathe fire",
+        "targetMeaning": "To be extremely angry, especially when the anger is shown through fierce words, shouting or an intimidating manner.",
+        "highlight": "breathe fire"
+      }
+    ]
+  }
+}

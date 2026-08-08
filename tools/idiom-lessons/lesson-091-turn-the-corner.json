@@ -1,0 +1,1594 @@
+{
+  "lesson": {
+    "id": "idiom-91",
+    "order": 91,
+    "slug": "turn-the-corner",
+    "version": "1",
+    "title": "渡過難關／開始好轉",
+    "titleEn": "Turn The Corner",
+    "titleZh": "渡過難關／開始好轉",
+    "source": {
+      "file": "Idiom 91 - “TURN THE CORNER”.pdf",
+      "pageCount": 33,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "exercisePdfPages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "answerKeyPdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "TURN THE CORNER",
+        "highlight": "TURN THE CORNER"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The café turned the corner last month.",
+        "zh": "咖啡店上個月開始走出低谷。",
+        "highlight": "turned the corner"
+      },
+      {
+        "en": "The company has turned the corner.",
+        "zh": "公司已經開始走出低谷。",
+        "highlight": "turned the corner"
+      }
+    ],
+    "meaning": {
+      "en": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+      "zh": "Turn the corner 表示某人或某個情況渡過最艱難的階段，並開始好轉。",
+      "naturalZh": [
+        "渡過難關",
+        "開始好轉",
+        "走出低谷",
+        "渡過最危險的階段"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "The expression often carries a hopeful or relieved tone. It may also be used cautiously with may, might, could, seem or appear when the improvement is not yet certain. Dictionaries illustrate it with people, illnesses, businesses and wider situations.",
+      "summaryZh": "Turn the corner 屬於中性表達，適用範圍廣泛。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "TURN THE CORNER",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + turn(s) / turned + the corner.",
+          "example": "The café turned the corner last month.",
+          "highlight": "turned the corner"
+        },
+        {
+          "form": "Subject + has / have / had + turned the corner.",
+          "example": "The company has turned the corner.",
+          "highlight": "turned the corner"
+        },
+        {
+          "form": "Subject + be + turning the corner.",
+          "example": "The team is finally turning the corner.",
+          "highlight": "turning the corner"
+        },
+        {
+          "form": "Subject + may / might / could / can / should / will + turn the corner.",
+          "example": "The shop may turn the corner soon.",
+          "highlight": "turn the corner"
+        },
+        {
+          "form": "Subject + hope / expect / need / begin / start / seem / appear + to turn the corner.",
+          "example": "We hope to turn the corner soon.",
+          "highlight": "turn the corner"
+        },
+        {
+          "form": "Subject + help(s) / helped / may help + object + turn the corner.",
+          "example": "The new coach helped the team turn the corner.",
+          "highlight": "turn the corner"
+        },
+        {
+          "form": "Subject + has / have not yet + turned the corner.",
+          "example": "The business has not yet turned the corner.",
+          "highlight": "turned the corner"
+        },
+        {
+          "form": "Has / Have + subject + turned the corner?",
+          "example": "Has the business turned the corner?",
+          "highlight": "turned the corner"
+        },
+        {
+          "form": "TURN THE CORNER",
+          "example": "The doctor believes that she has turned the corner.",
+          "highlight": "turned the corner"
+        },
+        {
+          "form": "After + noun / -ing",
+          "example": "The café turned the corner after changing its menu.",
+          "highlight": "turned the corner"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作為一般限定動詞短語",
+        "formula": "Subject + turn(s) / turned + the corner.",
+        "descriptionEn": "Her health turned the corner after the new treatment began.",
+        "descriptionZh": "新療程開始後，她的健康狀況渡過了最危險的階段。",
+        "examples": [
+          {
+            "en": "The café turned the corner last month.",
+            "zh": "咖啡店上個月開始走出低谷。",
+            "highlight": "turned the corner"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "In the Perfect Form",
+        "titleZh": "完成式",
+        "formula": "Subject + has / have / had + turned the corner.",
+        "descriptionEn": "The perfect form is especially useful when discussing recent improvement or looking back from a later point.",
+        "descriptionZh": "完成式尤其適合描述最近出現的改善，或從較後的時間回顧某個轉折點。",
+        "examples": [
+          {
+            "en": "The company has turned the corner.",
+            "zh": "公司已經開始走出低谷。",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "The patient had turned the corner before he left hospital.",
+            "zh": "病人在離開醫院前已渡過最危險的階段。",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "We have finally turned the corner.",
+            "zh": "我們終於渡過難關了。",
+            "highlight": "turned the corner"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "In the Progressive Form",
+        "titleZh": "進行式",
+        "formula": "Subject + be + turning the corner.",
+        "descriptionEn": "The progressive form presents the improvement as an ongoing process rather than a completed change.",
+        "descriptionZh": "進行式把改善描述成正在發生的過程，而不是已經完全完成的轉變。",
+        "examples": [
+          {
+            "en": "The team is finally turning the corner.",
+            "zh": "球隊終於開始走出低谷。",
+            "highlight": "turning the corner"
+          },
+          {
+            "en": "The business may be turning the corner.",
+            "zh": "這盤生意可能正在走出困境。",
+            "highlight": "turning the corner"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "置於情態動詞後",
+        "formula": "Subject + may / might / could / can / should / will + turn the corner.",
+        "descriptionEn": "The team will turn the corner if it keeps improving.",
+        "descriptionZh": "如果球隊繼續進步，便會走出低谷。",
+        "examples": [
+          {
+            "en": "The shop may turn the corner soon.",
+            "zh": "店舖可能很快便會開始好轉。",
+            "highlight": "turn the corner"
+          },
+          {
+            "en": "The new plan could help us turn the corner.",
+            "zh": "新計劃可能幫助我們渡過難關。",
+            "highlight": "turn the corner"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After an Infinitive-Taking Verb",
+        "titleZh": "置於接不定式的動詞後",
+        "formula": "Subject + hope / expect / need / begin / start / seem / appear + to turn the corner.",
+        "descriptionEn": "The words hope to, seem to and begin to are not part of the fixed idiom. They provide information about hope, appearance or the stage of improvement.",
+        "descriptionZh": "及 begin to 並不是慣用語的固定部分。 它們分別補充「希望」、「表面判斷」及 「改善階段」等資料。",
+        "examples": [
+          {
+            "en": "We hope to turn the corner soon.",
+            "zh": "我們希望很快便能渡過難關。",
+            "highlight": "turn the corner"
+          },
+          {
+            "en": "The patient seems to have turned the corner.",
+            "zh": "病人似乎已經渡過最危險的階段。",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "The business is beginning to turn the corner.",
+            "zh": "這盤生意開始走出低谷。",
+            "highlight": "turn the corner"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "After “Help + Object”",
+        "titleZh": "置於 help + 受詞後",
+        "formula": "Subject + help(s) / helped / may help + object + turn the corner.",
+        "descriptionEn": "In this structure, the person or thing after help is the one whose situation improves.",
+        "descriptionZh": "在這個結構中，help 後面的人或事物是開始好轉的一方。",
+        "examples": [
+          {
+            "en": "The new coach helped the team turn the corner.",
+            "zh": "新教練幫助球隊走出低谷。",
+            "highlight": "turn the corner"
+          },
+          {
+            "en": "The medicine may help him turn the corner.",
+            "zh": "這種藥物可能幫助他渡過最危險的階段。",
+            "highlight": "turn the corner"
+          },
+          {
+            "en": "Better customer service could help the shop turn the corner.",
+            "zh": "改善顧客服務可能幫助店舖走出困境。",
+            "highlight": "turn the corner"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "In Negative Forms",
+        "titleZh": "否定形式",
+        "formula": "Subject + has / have not yet + turned the corner.",
+        "descriptionEn": "Source grammar frame: Subject + has / have not yet + turned the corner.",
+        "descriptionZh": "原檔列出的句法框架：Subject + has / have not yet + turned the corner。",
+        "examples": [
+          {
+            "en": "The business has not yet turned the corner.",
+            "zh": "這盤生意尚未走出低谷。",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "The patient may not have turned the corner yet.",
+            "zh": "病人可能尚未渡過最危險的階段。",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "The project cannot turn the corner until the missing parts arrive.",
+            "zh": "在欠缺的零件送到前，這個項目無法走出困境。",
+            "highlight": "turn the corner"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "In Questions",
+        "titleZh": "疑問句",
+        "formula": "Has / Have + subject + turned the corner?",
+        "descriptionEn": "Source grammar frame: Has / Have + subject + turned the corner?.",
+        "descriptionZh": "原檔列出的句法框架：Has / Have + subject + turned the corner?。",
+        "examples": [
+          {
+            "en": "Has the business turned the corner?",
+            "zh": "這盤生意是否已經走出低谷？",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "When did the team turn the corner?",
+            "zh": "球隊在甚麼時候開始走出低谷？",
+            "highlight": "turn the corner"
+          },
+          {
+            "en": "What helped the patient turn the corner?",
+            "zh": "甚麼幫助病人渡過最危險的階段？",
+            "highlight": "turn the corner"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Inside a Larger Clause",
+        "titleZh": "置於較大型句子結構中",
+        "formula": "TURN THE CORNER",
+        "descriptionEn": "Although the shop has turned the corner, it still has debts.",
+        "descriptionZh": "雖然店舖已開始走出困境，但仍有債務。",
+        "examples": [
+          {
+            "en": "The doctor believes that she has turned the corner.",
+            "zh": "醫生相信她已渡過最危險的階段。",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "Once the project turns the corner, the team can begin the next stage.",
+            "zh": "項目一旦走出困境，團隊便可以開始下一階段。",
+            "highlight": "turns the corner"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Optional Context Extensions",
+        "titleZh": "可選的語境延伸",
+        "formula": "After + noun / -ing",
+        "descriptionEn": "The following additions are optional. They explain when, why, how or in which area the improvement happened.",
+        "descriptionZh": "核心表達只是 turn the corner。 以下部分均屬可選資料，用來說明改善在何時、為何、如何或在哪個範疇發生。",
+        "examples": [
+          {
+            "en": "The café turned the corner after changing its menu.",
+            "zh": "咖啡店改變餐牌後開始走出低谷。",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "The team has turned the corner since the new coach arrived.",
+            "zh": "新教練上任後，球隊已開始走出低谷。",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "The project turned the corner when the missing parts arrived.",
+            "zh": "欠缺的零件送到後，項目開始走出困境。",
+            "highlight": "turned the corner"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Marks an Important Change",
+        "titleZh": "指出重要轉折",
+        "en": "The expression does more than say that something is slightly better. It identifies the point at which a difficult situation begins to move in a positive direction. The team has turned the corner.",
+        "zh": "這個表達不只是說明情況稍有改善，而是指出困難情況開始轉向正面的重要階段。 第二個版本以較精簡的方式指出球隊已經開始走出低谷。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Distinguishes Early Recovery from Complete Recovery",
+        "titleZh": "區分初步好轉與完全康復",
+        "en": "The patient appears to have passed the most dangerous stage and is beginning to improve.",
+        "zh": "這個差別在健康、商業及個人成長情境中十分重要。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Expresses Hope or Relief",
+        "titleZh": "表達希望或鬆一口氣",
+        "en": "It Expresses Hope or Relief",
+        "zh": "我們可能終於開始走出困境了。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Supports Careful Evaluation",
+        "titleZh": "有助作出審慎評價",
+        "en": "It Supports Careful Evaluation",
+        "zh": "公司可能已開始走出低谷。 公司尚未走出低谷。 公司似乎正在走出低谷。",
+        "examples": [
+          {
+            "en": "The company may have turned the corner.",
+            "zh": "公司可能已開始走出低谷。",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "The company has not yet turned the corner.",
+            "zh": "公司尚未走出低谷。",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "The company appears to be turning the corner.",
+            "zh": "公司似乎正在走出低谷。",
+            "highlight": "turning the corner"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Works in Many Everyday Contexts",
+        "titleZh": "適用於多種日常情境",
+        "en": "It Works in Many Everyday Contexts",
+        "zh": "適用於多種日常情境",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "濃縮較長的解釋",
+        "en": "It Compresses a Longer Explanation",
+        "zh": "濃縮較長的解釋",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Metaphorical Development; Exact First Recovery Use Uncertain",
+      "statusZh": "逐漸形成的比喻用法；確切首次康復用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Etymonline records literal and broader figurative uses connected with changing direction from the 1680s. Dictionary.com dates the more specific meaning of passing a critical point and beginning to recover to the first half of the nineteenth century. It connects that later sense with passing a corner in a race, particularly a final corner. The precise first speaker and exact event that created the recovery meaning have not been established.",
+          "zh": "Etymonline 的資料顯示，與改變方向有關的字面及較廣泛比喻用法可追溯至十七世紀八十年代。 Dictionary.com 則把「渡過關鍵階段並開始復原」這個較具體意思追溯至十九世紀上半葉，並把它與比賽中繞過彎角的畫面連繫起來。 至於確切由誰及在甚麼事件中首先創造這個康復意思，現時仍未能確認。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Turning a physical corner changes the direction of a journey. Speakers gradually used the same picture for a difficult situation: once the critical point has been passed, the situation begins moving towards improvement.",
+          "zh": "繞過實際街角會令行程改變方向。 後來，人們逐漸把相同畫面用於困難情況：一旦渡過關鍵點，事情便開始朝改善的方向發展。"
+        }
+      ],
+      "memoryEn": "Before the corner, the difficult road continues; after turning it, the journey begins moving in a better direction.",
+      "memoryZh": "繞過街角前，困難的道路仍在延續；繞過街角後，旅程開始朝更好的方向前進。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "“Turn” Changes; “the Corner” Does Not",
+        "titleZh": "規則一：改變 turn，不改變 the corner",
+        "en": "“Turn” Changes; “the Corner” Does Not",
+        "zh": "改變 turn，不改變 the corner",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Means “Begin to Improve”, Not “Become Perfect”",
+        "titleZh": "規則二：表示「開始好轉」，而不是「變得完美」",
+        "en": "The patient is still weak, but her condition has begun to improve. The idiom does not automatically mean complete recovery.",
+        "zh": "病人已渡過最危險的階段。 這個慣用語並不自動表示病人已經完全康復。",
+        "examples": [
+          {
+            "en": "The patient has turned the corner.",
+            "zh": "病人已渡過最危險的階段。",
+            "highlight": "turned the corner"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "There Must Be a Difficult Earlier Period",
+        "titleZh": "規則三：此前必須有一段困難時期",
+        "en": "Natural: Nothing establishes an earlier difficult period.",
+        "zh": "店舖在虧損數月後開始走出低谷。 句子沒有交代此前曾經歷任何困難，因此不適合使用這個慣用語。",
+        "examples": [
+          {
+            "en": "After months of losses, the shop has turned the corner.",
+            "zh": "店舖在虧損數月後開始走出低谷。",
+            "highlight": "turned the corner"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則四：保留確定程度",
+        "en": "The incorrect answer changes uncertain early signs into a definite conclusion.",
+        "zh": "錯誤答案把不確定的初步跡象改成了確定結論。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve the Stage of Improvement",
+        "titleZh": "規則五：保留改善的階段",
+        "en": "Preserve the Stage of Improvement",
+        "zh": "保留改善的階段",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "One Good Result May Not Be Enough",
+        "titleZh": "規則六：一次好結果未必足夠",
+        "en": "The business may be turning the corner, but one good week is not enough to be certain.",
+        "zh": "一次較好的表現未必足以證明長期問題已真正改善。 這種情況應使用較審慎的語氣。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Use Appropriate Subjects",
+        "titleZh": "規則七：使用合適的主語",
+        "en": "Use Appropriate Subjects",
+        "zh": "使用合適的主語",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Avoid Accidental Literal Meaning",
+        "titleZh": "規則八：避免意外使用字面意思",
+        "en": "Literal: Idiomatic:",
+        "zh": "司機駛過街角，在銀行外停下。 經過數月銷售低迷後，這盤生意開始走出低谷。",
+        "examples": [
+          {
+            "en": "The driver turned the corner and stopped outside the bank.",
+            "zh": "司機駛過街角，在銀行外停下。",
+            "highlight": "turned the corner"
+          },
+          {
+            "en": "After months of low sales, the business turned the corner.",
+            "zh": "經過數月銷售低迷後，這盤生意開始走出低谷。",
+            "highlight": "turned the corner"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Repeat the Idiom’s Meaning",
+        "titleZh": "規則九：不要重複慣用語已表達的意思",
+        "en": "After a difficult start, the team turned the corner.",
+        "zh": "慣用語本身已經表達「渡過困難階段並開始好轉」，不應在後面立即重複同一意思。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Optional Details Are Not Fixed Parts",
+        "titleZh": "規則十：附加資料並不是固定部分",
+        "en": "Optional Details Are Not Fixed Parts",
+        "zh": "附加資料並不是固定部分",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "The first word of each preferred answer has been provided.",
+      "zh": "使用 turn the corner 的正確或獲准文法形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-91-q01",
+        "number": 1,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The shop lost money for several weeks, but it has now begun to make a profit.",
+        "promptZh": "店舖連續數星期虧損，但現在已開始錄得利潤。",
+        "starter": "After",
+        "answer": "After several bad weeks, the shop has finally turned the corner.",
+        "answerZh": "經過數星期的困難後，店舖終於開始走出低谷。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q02",
+        "number": 2,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The doctor says that the patient is now beginning to recover because her fever has started to fall.",
+        "promptZh": "醫生表示病人現正開始康復，因為她的體溫已開始下降。",
+        "starter": "The",
+        "answer": "The patient has turned the corner now that her fever has started to fall.",
+        "answerZh": "病人的體溫開始下降，顯示她已渡過最危險的階段。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q03",
+        "number": 3,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Her reading was very weak, but she has begun to read more smoothly since she started practising every day.",
+        "promptZh": "她的閱讀能力原本很弱，但自從每天練習後，她已開始讀得更流暢。",
+        "starter": "Her",
+        "answer": "Her reading has turned the corner since she began practising every day.",
+        "answerZh": "自從每天練習後，她的閱讀能力已開始出現明顯改善。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q04",
+        "number": 4,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The football team lost its first five matches. After changing its training plan, it began to win.",
+        "promptZh": "足球隊輸掉了最初五場比賽。改變訓練計劃後，球隊開始取勝。",
+        "starter": "The",
+        "answer": "The football team turned the corner after changing its training plan.",
+        "answerZh": "足球隊改變訓練計劃後開始走出低谷。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q05",
+        "number": 5,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The café had been losing money, but its situation began to improve after it changed its menu.",
+        "promptZh": "咖啡店一直虧損，但更改餐牌後，情況開始改善。",
+        "starter": "Since",
+        "answer": "Since changing its menu, the café has turned the corner.",
+        "answerZh": "自從更改餐牌後，咖啡店已開始走出低谷。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q06",
+        "number": 6,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Our class project made no progress until everyone agreed on one clear goal. It is now moving forward.",
+        "promptZh": "我們的班級項目一直沒有進展，直至所有人同意一個清楚目標。項目現在正向前推進。",
+        "starter": "Our",
+        "answer": "Our class project turned the corner when everyone agreed on one clear goal.",
+        "answerZh": "所有人同意一個清楚目標後，我們的班級項目開始走出困境。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q07",
+        "number": 7,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Most of the plants nearly died, but new leaves have now begun to appear.",
+        "promptZh": "大部分植物幾乎枯死，但現在已開始長出新葉。",
+        "starter": "The",
+        "answer": "The garden has turned the corner now that new leaves are appearing.",
+        "answerZh": "新葉開始長出，顯示花園的情況已經開始好轉。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q08",
+        "number": 8,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "They argued for months, but they have now begun to speak calmly and trust each other again.",
+        "promptZh": "他們爭吵了數月，但現在已開始平靜地交談，並再次信任對方。",
+        "starter": "After",
+        "answer": "After months of arguments, their friendship has finally turned the corner.",
+        "answerZh": "經過數月爭吵後，他們的友誼終於開始好轉。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q09",
+        "number": 9,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Sales fell during the first half of the year but began to rise in June.",
+        "promptZh": "銷售額在上半年下降，但在六月開始回升。",
+        "starter": "Sales",
+        "answer": "Sales turned the corner in June.",
+        "answerZh": "銷售額在六月開始回升。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q10",
+        "number": 10,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The school team lost most of its early games, but it has now begun to win regularly.",
+        "promptZh": "校隊輸掉了早期大部分比賽，但現在已開始經常取勝。",
+        "starter": "After",
+        "answer": "After a difficult start to the season, the school team has turned the corner.",
+        "answerZh": "校隊在經歷艱難的球季開局後，已開始走出低谷。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q11",
+        "number": 11,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Daniel is still seriously ill, but the doctor thinks that the new medicine may help his condition begin to improve.",
+        "promptZh": "Daniel 的病情仍然嚴重，但醫生認為新藥可能幫助他的情況開始好轉。",
+        "starter": "The",
+        "answer": "The new medicine may help Daniel turn the corner.",
+        "answerZh": "新藥可能幫助 Daniel 渡過病情最危險的階段。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q12",
+        "number": 12,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The repair project suffered several weeks of delays, but the work is now moving forward steadily.",
+        "promptZh": "維修項目延誤了數星期，但工程現在正穩定地向前推進。",
+        "starter": "After",
+        "answer": "After weeks of slow progress, the repair project is finally turning the corner.",
+        "answerZh": "經過數星期的緩慢進展後，維修項目終於開始走出困境。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turning the corner"
+      },
+      {
+        "id": "idiom-91-q13",
+        "number": 13,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The business is still losing money, but its owners hope that it will begin to recover before the end of the year.",
+        "promptZh": "這盤生意仍然虧損，但東主希望它會在年底前開始復蘇。",
+        "starter": "We",
+        "answer": "We hope the business will turn the corner before the end of the year.",
+        "answerZh": "我們希望這盤生意會在年底前開始復蘇。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q14",
+        "number": 14,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The town’s bus service received complaints for months. Since the new timetable began, delays and complaints have fallen.",
+        "promptZh": "小鎮的巴士服務連續數月收到投訴。新時間表開始後，延誤及投訴均有所減少。",
+        "starter": "The",
+        "answer": "The town’s bus service seems to have turned the corner since the new timetable began.",
+        "answerZh": "新時間表開始後，小鎮的巴士服務似乎已經開始好轉。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q15",
+        "number": 15,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Chloe’s spoken English is still weak, but her teacher believes that regular practice could produce clear improvement within a few months.",
+        "promptZh": "Chloe 的英語口語仍然較弱，但老師相信持續練習可能令她在數月內出現明顯改善。",
+        "starter": "With",
+        "answer": "With regular practice, Chloe’s spoken English could turn the corner within a few months.",
+        "answerZh": "透過持續練習，Chloe 的英語口語可能在數月內出現明顯改善。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q16",
+        "number": 16,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Before the patient left hospital, he had already begun to recover from the most dangerous stage of his illness.",
+        "promptZh": "病人在離開醫院前，已開始從病情最危險的階段中康復。",
+        "starter": "The",
+        "answer": "The patient had turned the corner before he left hospital.",
+        "answerZh": "病人在離開醫院前已渡過最危險的階段。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q17",
+        "number": 17,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The school has tried several ideas to improve attendance, but the number of absent pupils is still rising.",
+        "promptZh": "學校曾嘗試多個方法改善出席率，但缺席學生的人數仍然上升。",
+        "starter": "The",
+        "answer": "The school has not yet turned the corner on its attendance problem.",
+        "answerZh": "學校在改善出席率問題方面尚未出現轉機。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q18",
+        "number": 18,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The online shop received complaints for months. The new design and faster service should help its situation begin to improve.",
+        "promptZh": "網店連續數月收到投訴。新的設計及更快捷的服務應能幫助情況開始改善。",
+        "starter": "The",
+        "answer": "The changes should help the online shop turn the corner after months of complaints.",
+        "answerZh": "這些改變應能幫助網店在連續數月收到投訴後開始改善。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q19",
+        "number": 19,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The restaurant has had a difficult year. If more customers continue to return, its situation may soon begin to improve.",
+        "promptZh": "餐廳經歷了困難的一年。如果更多顧客繼續回來，情況可能很快便會開始改善。",
+        "starter": "If",
+        "answer": "If customers keep returning, the restaurant may soon turn the corner.",
+        "answerZh": "如果顧客繼續回來，餐廳可能很快便會開始走出低谷。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q20",
+        "number": 20,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The club struggled for a full year before its results finally began to improve.",
+        "promptZh": "學會經歷了整整一年的困難，成績才終於開始改善。",
+        "starter": "It",
+        "answer": "It took the club a full year to turn the corner.",
+        "answerZh": "學會花了整整一年才開始走出困境。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q21",
+        "number": 21,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Our orders have increased for two weeks after falling for several months. B: That may be the beginning of a recovery, but we cannot be certain yet.",
+        "promptZh": "甲：我們的訂單在連續數月下降後，已經增加了兩個星期。 乙：這可能是復蘇的開始，但我們仍未能確定。",
+        "starter": "We",
+        "answer": "We may be turning the corner, but it is too early to be certain.",
+        "answerZh": "我們可能正在走出低谷，但現在仍然太早，未能確定。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turning the corner"
+      },
+      {
+        "id": "idiom-91-q22",
+        "number": 22,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The patient is showing some improvement, but she is still in a serious condition. B: Ask the doctor whether she has passed the most dangerous stage.",
+        "promptZh": "甲：病人的情況有所改善，但病情仍然嚴重。 乙：問問醫生她是否已渡過最危險的階段。",
+        "starter": "Has",
+        "answer": "Has the patient turned the corner, or is she still in danger?",
+        "answerZh": "病人是否已渡過最危險的階段，還是仍然有危險？",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q23",
+        "number": 23,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Why is the coach more hopeful now? B: He believes the team’s recent steady improvement shows that the worst period has passed.",
+        "promptZh": "甲：教練現在為甚麼比較樂觀？ 乙：他相信球隊最近持續的改善顯示最差的時期已經過去。",
+        "starter": "The",
+        "answer": "The coach believes the team has turned the corner.",
+        "answerZh": "教練相信球隊已經開始走出低谷。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q24",
+        "number": 24,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The class had received low marks for months. The new teacher introduced shorter practice sessions, and the results began to improve.",
+        "promptZh": "全班連續數月取得低分。新老師引入較短的練習時段後，成績開始改善。",
+        "starter": "The",
+        "answer": "The new teacher helped the class turn the corner with shorter practice sessions.",
+        "answerZh": "新老師透過較短的練習時段，幫助全班開始取得改善。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q25",
+        "number": 25,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The family experienced a very difficult year. Both parents have now found work, and the bills are being paid on time again.",
+        "promptZh": "這個家庭經歷了非常困難的一年。現在父母二人都已找到工作，帳單亦再次能夠準時繳付。",
+        "starter": "It",
+        "answer": "It looks as though the family has finally turned the corner after a very difficult year.",
+        "answerZh": "這個家庭經歷了非常困難的一年後，看來終於開始走出困境。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q26",
+        "number": 26,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: When did the business begin to recover? B: It did not improve until the company reduced its costs.",
+        "promptZh": "甲：這盤生意在甚麼時候開始復蘇？ 乙：公司減少開支後，情況才開始改善。",
+        "starter": "The",
+        "answer": "The business did not turn the corner until the company reduced its costs.",
+        "answerZh": "公司減少開支後，這盤生意才開始復蘇。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q27",
+        "number": 27,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The hospital hopes that its new booking system will begin to reduce its long waiting times.",
+        "promptZh": "醫院希望新的預約系統會開始縮短漫長的等候時間。",
+        "starter": "The",
+        "answer": "The hospital hopes to turn the corner on long waiting times with its new booking system.",
+        "answerZh": "醫院希望透過新的預約系統，開始改善輪候時間過長的問題。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q28",
+        "number": 28,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The shop has begun making a profit again, although it still has several large debts.",
+        "promptZh": "店舖已再次開始錄得利潤，儘管它仍然有數筆巨額債務。",
+        "starter": "Although",
+        "answer": "Although the shop has turned the corner, it still has several large debts.",
+        "answerZh": "雖然店舖已開始走出困境，但仍然有數筆巨額債務。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q29",
+        "number": 29,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The project had been delayed because important parts were missing. Once the parts arrived, the work began moving forward steadily.",
+        "promptZh": "項目因欠缺重要零件而延誤。零件送到後，工程開始穩定地向前推進。",
+        "starter": "The",
+        "answer": "The project began to turn the corner once the missing parts arrived.",
+        "answerZh": "欠缺的零件送到後，項目開始走出困境。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q30",
+        "number": 30,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: The team began winning regularly in March. B: Ask when its difficult period ended and its results began to improve.",
+        "promptZh": "甲：球隊在三月開始經常取勝。 乙：詢問球隊的困難時期在何時結束，而成績又在何時開始改善。",
+        "starter": "When",
+        "answer": "When did the team finally turn the corner?",
+        "answerZh": "球隊最終在甚麼時候開始走出低谷？",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q31",
+        "number": 31,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The relationship began to improve only after the two sides started speaking honestly to each other.",
+        "promptZh": "雙方開始坦誠溝通後，這段關係才開始改善。",
+        "starter": "Only",
+        "answer": "Only after the two sides began speaking honestly did their relationship turn the corner.",
+        "answerZh": "雙方開始坦誠溝通後，這段關係才開始好轉。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q32",
+        "number": 32,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Are the rising orders a good sign? B: The manager says the business is beginning to recover, although its profits are still low.",
+        "promptZh": "甲：訂單增加是否一個好跡象？ 乙：經理表示生意正開始復蘇，儘管利潤仍然偏低。",
+        "starter": "The",
+        "answer": "The manager says the business is turning the corner, although its profits are still low.",
+        "answerZh": "經理表示這盤生意正開始復蘇，儘管利潤仍然偏低。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turning the corner"
+      },
+      {
+        "id": "idiom-91-q33",
+        "number": 33,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "His health appears to have passed the most dangerous stage, but the doctor still wants him to rest.",
+        "promptZh": "他的健康狀況似乎已渡過最危險的階段，但醫生仍希望他休息。",
+        "starter": "Although",
+        "answer": "Although his health appears to have turned the corner, the doctor still wants him to rest.",
+        "answerZh": "雖然他的健康狀況似乎已渡過最危險的階段，但醫生仍希望他休息。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q34",
+        "number": 34,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Is the child going to recover? B: The doctors cannot be certain, but they are hopeful that the child’s condition will begin to improve soon.",
+        "promptZh": "甲：孩子會康復嗎？ 乙：醫生無法確定，但他們希望孩子的情況很快便會開始改善。",
+        "starter": "Doctors",
+        "answer": "Doctors are hopeful that the child will turn the corner soon.",
+        "answerZh": "醫生希望孩子的情況很快便會開始好轉。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q35",
+        "number": 35,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The building project has suffered weeks of delay because of heavy rain. Dry weather next week could allow the work to begin improving.",
+        "promptZh": "建築項目因大雨而延誤了數星期。下星期的乾燥天氣可能令工程開始改善。",
+        "starter": "If",
+        "answer": "If the weather stays dry, the building project could finally turn the corner next week.",
+        "answerZh": "如果天氣保持乾燥，建築項目下星期可能終於會開始走出困境。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q36",
+        "number": 36,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The hotel used to receive many complaints. It changed how it answered customers, and its ratings then began to improve.",
+        "promptZh": "酒店以往收到很多投訴。它改變回應顧客的方法後，評分開始改善。",
+        "starter": "After",
+        "answer": "After changing how it answered complaints, the hotel began to turn the corner.",
+        "answerZh": "酒店改變回應投訴的方法後，情況開始好轉。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The student has struggled with maths for months. Her new study plan may be the change that finally begins her improvement.",
+        "promptZh": "這名學生在數學方面已掙扎了數月。新的溫習計劃可能是令她終於開始進步的轉變。",
+        "starter": "The",
+        "answer": "The new study plan may be what helps her turn the corner in maths.",
+        "answerZh": "新的溫習計劃可能正是幫助她在數學方面開始進步的因素。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q38",
+        "number": 38,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: I believe the business had begun to recover before the new year. B: Ask what evidence led me to that conclusion.",
+        "promptZh": "甲：我相信這盤生意在新年前已開始復蘇。 乙：詢問甚麼證據令我得出這個結論。",
+        "starter": "What",
+        "answer": "What convinced you that the business had turned the corner?",
+        "answerZh": "甚麼令你相信這盤生意已開始復蘇？",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q39",
+        "number": 39,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The team had a terrible start to the season, but it has now begun to improve steadily. It can therefore focus on reaching the final.",
+        "promptZh": "球隊在球季初段表現非常差，但現在已開始穩定改善，因此可以專注爭取進入決賽。",
+        "starter": "Having",
+        "answer": "Having turned the corner, the team can now focus on reaching the final.",
+        "answerZh": "球隊開始走出低谷後，現在可以專注爭取進入決賽。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q40",
+        "number": 40,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The community garden was in poor condition. Local residents now water it every day, and the plants have begun to recover.",
+        "promptZh": "社區花園的情況原本很差。當地居民現在每天澆水，而植物已開始恢復。",
+        "starter": "The",
+        "answer": "The community garden has turned the corner, thanks to the residents who now water it every day.",
+        "answerZh": "多得居民現在每天澆水，社區花園的情況已開始好轉。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q41",
+        "number": 41,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: The company has had one better month after a long period of losses. B: That is encouraging, but one month may not prove that a real recovery has begun.",
+        "promptZh": "甲：公司在經歷長期虧損後，有一個月的表現比較好。 乙：這是令人鼓舞的，但一個月未必足以證明真正的復蘇已經開始。",
+        "starter": "Despite",
+        "answer": "Despite one better month, the company may not have turned the corner yet.",
+        "answerZh": "儘管有一個月的表現較好，公司可能仍未真正走出低谷。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The school’s attendance improved for one week. However, several months of steady improvement will be needed before the school can be sure that the difficult period has passed.",
+        "promptZh": "學校的出席率改善了一星期。不過，學校需要看見數月的穩定改善，才能確定困難時期已經過去。",
+        "starter": "The",
+        "answer": "The school will know it has turned the corner when attendance improves for several months, not just one week.",
+        "answerZh": "當出席率持續數月改善，而不只是改善一星期時，學校才能確定已經走出困境。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q43",
+        "number": 43,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The café had lost money every month. Its first month without a loss showed that the recovery had begun.",
+        "promptZh": "咖啡店每個月都錄得虧損。第一個沒有虧損的月份顯示復蘇已經開始。",
+        "starter": "It",
+        "answer": "It was the first month without a loss that showed the café had turned the corner.",
+        "answerZh": "第一個沒有虧損的月份，顯示咖啡店已開始走出低谷。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q44",
+        "number": 44,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The patient showed one good result, but the doctor waited until his breathing became steady before saying that the most dangerous stage had passed.",
+        "promptZh": "病人曾出現一次良好結果，但醫生等到他的呼吸變得穩定後，才表示最危險的階段已經過去。",
+        "starter": "The",
+        "answer": "The doctor would not say that the patient had turned the corner until his breathing became steady.",
+        "answerZh": "醫生直至病人的呼吸變得穩定後，才表示他已渡過最危險的階段。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q45",
+        "number": 45,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The project has received extra money and work has restarted. However, we will not know whether the improvement is real until we see what happens after the extra money is spent.",
+        "promptZh": "項目獲得額外資金，工程亦已重新開始。不過，我們要看看額外資金用完後的情況，才能知道改善是否真正持久。",
+        "starter": "Whether",
+        "answer": "Whether the project has truly turned the corner depends on what happens after the extra money is spent.",
+        "answerZh": "這個項目是否真正開始走出困境，要視乎額外資金用完後的情況。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q46",
+        "number": 46,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Aaron has struggled with English for a long time. Continuing the same study routine may allow him to begin making real progress.",
+        "promptZh": "Aaron 學習英語已經困難了一段很長時間。繼續保持相同的溫習習慣，可能令他開始取得真正進步。",
+        "starter": "By",
+        "answer": "By keeping the same study routine, Aaron may be able to turn the corner in English.",
+        "answerZh": "Aaron 持續保持相同的溫習習慣，可能有助他在英語方面開始取得真正進步。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Complaints about the bus service have fallen for four months. B: Explain what this steady fall may suggest about the service.",
+        "promptZh": "甲：有關巴士服務的投訴已連續四個月下降。 乙：說明這種持續下降可能反映服務出現了甚麼變化。",
+        "starter": "The",
+        "answer": "The fall in complaints suggests that the bus service is beginning to turn the corner.",
+        "answerZh": "投訴數字下降，顯示巴士服務正開始好轉。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q48",
+        "number": 48,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The team has won three matches after a long period of poor results. Even if this is the beginning of a recovery, the team still has several serious problems.",
+        "promptZh": "球隊在長期表現欠佳後勝出了三場比賽。即使這是復蘇的開始，球隊仍然有數個嚴重問題。",
+        "starter": "Even",
+        "answer": "Even if the team has turned the corner, one good week does not mean that every problem has been solved.",
+        "answerZh": "即使球隊已開始走出低谷，一星期的良好表現亦不代表所有問題都已解決。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turned the corner"
+      },
+      {
+        "id": "idiom-91-q49",
+        "number": 49,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The museum has experienced a long fall in visitor numbers. It hopes that its new programme will begin a lasting recovery.",
+        "promptZh": "博物館的參觀人數長期下降。館方希望新活動會帶來持久的復蘇。",
+        "starter": "The",
+        "answer": "The museum hopes its new programme will help it turn the corner after a long fall in visitor numbers.",
+        "answerZh": "博物館希望新活動會幫助它在參觀人數長期下降後開始復蘇。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turn the corner"
+      },
+      {
+        "id": "idiom-91-q50",
+        "number": 50,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The local centre is still losing money. When its situation begins to improve, it plans to offer more free classes.",
+        "promptZh": "本地中心仍然虧損。當情況開始改善後，中心計劃提供更多免費課堂。",
+        "starter": "Once",
+        "answer": "Once the local centre turns the corner, it plans to offer more free classes.",
+        "answerZh": "本地中心一旦開始走出困境，便計劃提供更多免費課堂。",
+        "targetForm": "TURN THE CORNER",
+        "targetMeaning": "It does not necessarily mean that the person or situation has completely recovered. It means that the worst stage appears to have passed and real improvement has begun. Cambridge also records turn a corner as a natural variant, while Merriam-Webster defines the expression as getting past the most difficult period and beginning to improve.",
+        "highlight": "turns the corner"
+      }
+    ]
+  }
+}

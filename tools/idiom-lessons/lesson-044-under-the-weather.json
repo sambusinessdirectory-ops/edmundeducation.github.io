@@ -1,0 +1,1533 @@
+{
+  "lesson": {
+    "id": "idiom-44",
+    "order": 44,
+    "slug": "under-the-weather",
+    "version": "1",
+    "title": "身體不適／有點不舒服",
+    "titleEn": "under the weather",
+    "titleZh": "身體不適／有點不舒服",
+    "source": {
+      "file": "Idiom 44 - “Under the Weather”.pdf",
+      "pageCount": 30,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "exercisePdfPages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "answerKeyPdfPages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "under the weather",
+        "highlight": "under the weather"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Daniel is under the weather today.",
+        "zh": "今天有點不舒服。",
+        "highlight": "under the weather"
+      },
+      {
+        "en": "I was under the weather yesterday.",
+        "zh": "我昨天身體有點不適。",
+        "highlight": "under the weather"
+      }
+    ],
+    "meaning": {
+      "en": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+      "zh": "感到有點不舒服、身體有點不適或健康狀態不太好，通常表示輕微或暫時的身體不適",
+      "naturalZh": [
+        "有點不舒服",
+        "身體有點不適",
+        "不太舒服",
+        "身體狀態不太好",
+        "有點生病"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversations; text messages; conversations between friends or family members; informal workplace communication; explanations for cancelling social plans; friendly questions about somebody’s health.",
+      "summaryZh": "這個表達屬於非正式至中性語域，特別適合用於日常對話、短訊、朋友或家人之間的交流，以及較輕鬆的工作場合。",
+      "contextsEn": [
+        "everyday conversations",
+        "text messages",
+        "conversations between friends or family members",
+        "informal workplace communication",
+        "explanations for cancelling social plans",
+        "friendly questions about somebody’s health"
+      ],
+      "contextsZh": [],
+      "formalEn": "In a formal medical report, official sick-leave document or urgent health warning, ill, unwell or a precise medical description is usually more appropriate.",
+      "formalZh": "在正式醫療報告、病假證明或緊急健康警告中，通常應使用 ill、unwell 或更準確的醫療描述。"
+    },
+    "fixedVariable": {
+      "fixed": "under the weather",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + under the weather.",
+          "example": "Daniel is under the weather today.",
+          "highlight": "under the weather"
+        },
+        {
+          "form": "Subject + feel + under the weather.",
+          "example": "I feel under the weather this morning.",
+          "highlight": "under the weather"
+        },
+        {
+          "form": "Subject + look / seem + under the weather.",
+          "example": "You look under the weather.",
+          "highlight": "under the weather"
+        },
+        {
+          "form": "Subject + may / might / could + be + under the weather.",
+          "example": "He might be under the weather.",
+          "highlight": "under the weather"
+        },
+        {
+          "form": "Because / Since + subject + be or feel + under the weather, + result.",
+          "example": "Because Amir was feeling under the weather, he left early.",
+          "highlight": "under the weather"
+        },
+        {
+          "form": "Although + subject + be or feel + under the weather, + contrasting action.",
+          "example": "Although Priya was feeling under the weather, she joined the online meeting.",
+          "highlight": "under the weather"
+        },
+        {
+          "form": "If + subject + be or feel + under the weather, + advice.",
+          "example": "If you are feeling under the weather, you should rest.",
+          "highlight": "under the weather"
+        },
+        {
+          "form": "Be + subject + feeling + under the weather?",
+          "example": "Are you feeling under the weather today?",
+          "highlight": "under the weather"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic State",
+        "titleZh": "句式一：基本狀態",
+        "formula": "Subject + be + under the weather.",
+        "descriptionEn": "Source grammar frame: Subject + be + under the weather.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + under the weather。",
+        "examples": [
+          {
+            "en": "Daniel is under the weather today.",
+            "zh": "今天有點不舒服。",
+            "highlight": "under the weather"
+          },
+          {
+            "en": "I was under the weather yesterday.",
+            "zh": "我昨天身體有點不適。",
+            "highlight": "under the weather"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Describing the Feeling",
+        "titleZh": "句式二：描述感受",
+        "formula": "Subject + feel + under the weather.",
+        "descriptionEn": "Source grammar frame: Subject + feel + under the weather.",
+        "descriptionZh": "原檔列出的句法框架：Subject + feel + under the weather。",
+        "examples": [
+          {
+            "en": "I feel under the weather this morning.",
+            "zh": "我今天早上有點不舒服。",
+            "highlight": "under the weather"
+          },
+          {
+            "en": "She has been feeling under the weather since Monday.",
+            "zh": "她自星期一開始一直有點不舒服。",
+            "highlight": "under the weather"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Describing Appearance",
+        "titleZh": "句式三：描述外表",
+        "formula": "Subject + look / seem + under the weather.",
+        "descriptionEn": "Source grammar frame: Subject + look / seem + under the weather.",
+        "descriptionZh": "原檔列出的句法框架：Subject + look / seem + under the weather。",
+        "examples": [
+          {
+            "en": "You look under the weather.",
+            "zh": "你看起來有點不舒服。",
+            "highlight": "under the weather"
+          },
+          {
+            "en": "Our dog seems a little under the weather.",
+            "zh": "我們的狗似乎有點不舒服。",
+            "highlight": "under the weather"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Using a Modal Verb",
+        "titleZh": "句式四：配合情態動詞",
+        "formula": "Subject + may / might / could + be + under the weather.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / could + be + under the weather.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / could + be + under the weather。",
+        "examples": [
+          {
+            "en": "He might be under the weather.",
+            "zh": "他可能有點不舒服。",
+            "highlight": "under the weather"
+          },
+          {
+            "en": "The children may still be under the weather tomorrow.",
+            "zh": "孩子們明天可能仍然有點不舒服。",
+            "highlight": "under the weather"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Giving a Reason",
+        "titleZh": "句式五：說明原因",
+        "formula": "Because / Since + subject + be or feel + under the weather, + result.",
+        "descriptionEn": "Source grammar frame: Because / Since + subject + be or feel + under the weather, + result.",
+        "descriptionZh": "原檔列出的句法框架：Because / Since + subject + be or feel + under the weather, + result。",
+        "examples": [
+          {
+            "en": "Because Amir was feeling under the weather, he left early.",
+            "zh": "因為 Amir 有點不舒服，所以提早離開。",
+            "highlight": "under the weather"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Expressing Contrast",
+        "titleZh": "句式六：表達轉折",
+        "formula": "Although + subject + be or feel + under the weather, + contrasting action.",
+        "descriptionEn": "Source grammar frame: Although + subject + be or feel + under the weather, + contrasting action.",
+        "descriptionZh": "原檔列出的句法框架：Although + subject + be or feel + under the weather, + contrasting action。",
+        "examples": [
+          {
+            "en": "Although Priya was feeling under the weather, she joined the online meeting.",
+            "zh": "雖然 Priya 有點不舒服，但她仍參加了網上會議。",
+            "highlight": "under the weather"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Conditional Advice",
+        "titleZh": "句式七：提出有條件的建議",
+        "formula": "If + subject + be or feel + under the weather, + advice.",
+        "descriptionEn": "Source grammar frame: If + subject + be or feel + under the weather, + advice.",
+        "descriptionZh": "原檔列出的句法框架：If + subject + be or feel + under the weather, + advice。",
+        "examples": [
+          {
+            "en": "If you are feeling under the weather, you should rest.",
+            "zh": "如果你有點不舒服，便應該休息。",
+            "highlight": "under the weather"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Asking a Question",
+        "titleZh": "句式八：提出問題",
+        "formula": "Be + subject + feeling + under the weather?",
+        "descriptionEn": "Source grammar frame: Be + subject + feeling + under the weather?.",
+        "descriptionZh": "原檔列出的句法框架：Be + subject + feeling + under the weather?。",
+        "examples": [
+          {
+            "en": "Are you feeling under the weather today?",
+            "zh": "你今天是否感到有點不舒服？",
+            "highlight": "under the weather"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Gives a Gentle Description of Mild Illness",
+        "titleZh": "委婉地描述輕微不適",
+        "en": "The idiomatic version sounds less clinical and does not require the speaker to name a specific illness.",
+        "zh": "慣用語版本的語氣較輕鬆，也不需要說話者指出確切疾病。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Helps Explain a Temporary Change of Plan",
+        "titleZh": "解釋暫時更改計劃的原因",
+        "en": "The expression gives a clear but brief reason for cancelling or changing a plan.",
+        "zh": "我有點不舒服，所以今晚會留在家中。 這個表達可以簡短而清楚地說明取消或更改計劃的原因。",
+        "examples": [
+          {
+            "en": "I’m feeling under the weather, so I’ll stay home tonight.",
+            "zh": "我有點不舒服，所以今晚會留在家中。",
+            "highlight": "under the weather"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Avoids Unnecessary Medical Details",
+        "titleZh": "避免交代不必要的醫療細節",
+        "en": "A person may not want to describe every symptom.",
+        "zh": "說話者可能不想詳細說明所有症狀。 我自昨天開始一直有點不舒服。",
+        "examples": [
+          {
+            "en": "I’ve been feeling under the weather since yesterday.",
+            "zh": "我自昨天開始一直有點不舒服。",
+            "highlight": "under the weather"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful for Friendly Questions",
+        "titleZh": "適合用來關心別人",
+        "en": "This can sound caring when it is said gently and in an appropriate relationship.",
+        "zh": "你看起來有點不舒服。 你還好嗎？ 只要語氣溫和，而且雙方關係合適，這個說法可以自然地表達關心。",
+        "examples": [
+          {
+            "en": "You look a little under the weather. Are you all right?",
+            "zh": "你看起來有點不舒服。你還好嗎？",
+            "highlight": "under the weather"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Shows That the Condition Is Probably Temporary",
+        "titleZh": "表示情況可能只是暫時的",
+        "en": "The expression often suggests that the person expects to recover after some rest.",
+        "zh": "我昨天有點不舒服，但現在已經沒事。 這個表達通常暗示說話者休息後便可能康復。",
+        "examples": [
+          {
+            "en": "I was under the weather yesterday, but I’m fine now.",
+            "zh": "我昨天有點不舒服，但現在已經沒事。",
+            "highlight": "under the weather"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is an Alternative, Not an Automatically Better Expression",
+        "titleZh": "是一種替代說法，而非必然更好的說法",
+        "en": "Under the weather is useful when the situation is mild and informal. In serious or formal situations, a plain and precise expression may be safer.",
+        "zh": "當情況輕微而且語境較輕鬆時，under the weather 十分實用。 在嚴重或正式情況中，直接而準確的說法可能更合適。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Probable Nautical Development",
+      "statusZh": "確切來源不明；很可能由航海用語演變而來",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The exact first use has not been identified. Historical evidence records under the weather in the sense of “indisposed” by about 1810, with an earlier use meaning “in difficulties” in 1803. The expression was colloquial and was apparently associated with sailors. Older nautical language also used under the weather shore for a protected place where the water was calmer.",
+          "zh": "這個表達確切的首次用法尚未能確認。 歷史資料顯示，under the weather 約於 1810 年已用來表示「身體不適」，而 1803 年亦有一個表示「身處困境」的較早期用法。 這個短語當時屬於口語，並似乎與水手用語有關。 較早期的航海語言亦會用 under the weather shore 表示水面較平靜的避風位置。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "One popular explanation says that sick or seasick sailors went below deck to rest away from rough weather. Other historical accounts connect the expression with sheltered water or protected anchorage. Because the available accounts differ, the exact story should not be treated as proven. The general nautical image probably developed into the idea of temporarily withdrawing and recovering until conditions improved.",
+          "zh": "一個流行說法指出，生病或暈船的水手會走到甲板下休息，避開惡劣天氣。 另一些歷史解釋則把這個表達與避風水域或安全停泊位置聯繫起來。 由於不同資料的說法並不完全相同，因此不應把任何一個故事視為已證實的確切來源。 這個航海畫面很可能逐漸演變成暫時退下休息，等待情況改善的意思。"
+        }
+      ],
+      "memoryEn": "Imagine somebody temporarily sheltering from a storm: the person is not at their best but expects the difficult period to pass.",
+      "memoryZh": "想像一個人暫時躲避風雨：他的狀態不太好，但預期這段不適很快便會過去。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Exact Fixed Form",
+        "titleZh": "規則一：保留完整固定形式",
+        "en": "The word the is compulsory.",
+        "zh": "the 是固定部分，不能刪除或更改。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use a Linking or State Verb",
+        "titleZh": "規則二：配合連繫或狀態動詞",
+        "en": "Use a Linking or State Verb",
+        "zh": "配合連繫或狀態動詞",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Add “Like”",
+        "titleZh": "規則三：不要加入 like",
+        "en": "I feel like resting.",
+        "zh": "我想休息。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It Mainly for Mild or Temporary Illness",
+        "titleZh": "規則四：主要用於輕微或暫時的身體不適",
+        "en": "These situations require clear and direct medical language.",
+        "zh": "我有輕微傷風，感到有點不舒服。 這些情況需要使用清楚而直接的醫療語言。",
+        "examples": [
+          {
+            "en": "I have a slight cold and feel under the weather.",
+            "zh": "我有輕微傷風，感到有點不舒服。",
+            "highlight": "under the weather"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Use It for Tiredness Alone",
+        "titleZh": "規則五：不要單純用來表示疲倦",
+        "en": "I did not sleep enough, so I am tired. Being tired does not automatically mean being under the weather.",
+        "zh": "我睡眠不足，所以很疲倦。 我有頭痛，而且身體有點不適。 感到疲倦並不一定代表身體不適。",
+        "examples": [
+          {
+            "en": "I have a headache and feel under the weather.",
+            "zh": "我有頭痛，而且身體有點不適。",
+            "highlight": "under the weather"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Use It for Sadness Alone",
+        "titleZh": "規則六：不要單純用來表示傷心",
+        "en": "I lost the competition, so I am disappointed. The target meaning in this lesson is physical illness, not sadness.",
+        "zh": "我輸了比賽，所以感到失望。 本課只教授身體不適的意思，而不是傷心或情緒低落。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Tense",
+        "titleZh": "規則七：保留時態",
+        "en": "Do not change a past condition into a present condition or a possibility into a fact.",
+        "zh": "不要把過去情況改成現在情況，也不要把可能性改成確定事實。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Degree",
+        "titleZh": "規則八：保留程度",
+        "en": "The idiom should not make a mild condition sound severe.",
+        "zh": "慣用語答案不應把輕微不適改成嚴重疾病。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "The Subject Is Normally a Person or Animal",
+        "titleZh": "規則九：主語通常是人或動物",
+        "en": "For a machine, use not working properly or having problems.",
+        "zh": "形容機器時，應使用 not working properly 或 having problems。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Interpret It Literally",
+        "titleZh": "規則十：不要按字面解讀",
+        "en": "The expression is not about rain, sunshine or temperature. We stood under the shelter during the storm.",
+        "zh": "這個表達與下雨、陽光或氣溫沒有直接關係。 暴風雨期間，我們站在有蓋地方下。 我們因為身體不適而留在家中。",
+        "examples": [
+          {
+            "en": "We stayed home because we were under the weather.",
+            "zh": "我們因為身體不適而留在家中。",
+            "highlight": "under the weather"
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Repeat the Same Meaning",
+        "titleZh": "規則十一：不要重複相同意思",
+        "en": "Do Not Repeat the Same Meaning",
+        "zh": "我有點不舒服。 我有點不舒服，而且有輕微咳嗽。",
+        "examples": [
+          {
+            "en": "I was under the weather.",
+            "zh": "我有點不舒服。",
+            "highlight": "under the weather"
+          },
+          {
+            "en": "I was under the weather and had a slight cough.",
+            "zh": "我有點不舒服，而且有輕微咳嗽。",
+            "highlight": "under the weather"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "This Exercise Excludes Other Dictionary Senses",
+        "titleZh": "規則十二：本練習不教授其他字典意思",
+        "en": "Some dictionaries also record under the weather as meaning drunk. That secondary meaning is completely excluded from this exercise. Every answer must refer to mild or temporary physical illness.",
+        "zh": "部分字典亦記錄 under the weather 可以表示醉酒。 本練習完全不教授這個次要意思。 所有答案都必須表示輕微或暫時的身體不適。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using under the weather.",
+      "zh": "使用 under the weather 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-44-q01",
+        "number": 1,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "I do not feel well today, so I will stay home.",
+        "promptZh": "我今天不太舒服，所以會留在家中。",
+        "starter": "I’m",
+        "answer": "I’m feeling under the weather today, so I will stay home.",
+        "answerZh": "我今天有點不舒服，所以會留在家中。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q02",
+        "number": 2,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Grace feels slightly ill this morning.",
+        "promptZh": "Grace 今天早上有點不舒服。",
+        "starter": "Grace",
+        "answer": "Grace is feeling a little under the weather this morning.",
+        "answerZh": "Grace 今天早上身體有點不適。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q03",
+        "number": 3,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Daniel is not well enough to go to football practice today.",
+        "promptZh": "Daniel 今天身體不適，不能參加足球訓練。",
+        "starter": "Daniel",
+        "answer": "Daniel is under the weather today, so he will not go to football practice.",
+        "answerZh": "Daniel 今天有點不舒服，所以不會參加足球訓練。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q04",
+        "number": 4,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "My mother does not feel well after lunch.",
+        "promptZh": "我媽媽午飯後感到不適。",
+        "starter": "My",
+        "answer": "My mother is feeling under the weather after lunch.",
+        "answerZh": "我媽媽午飯後有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q05",
+        "number": 5,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The teacher is mildly ill today and cannot teach the afternoon class.",
+        "promptZh": "老師今天有點不舒服，不能教授下午的課堂。",
+        "starter": "The",
+        "answer": "The teacher is under the weather today and cannot teach the afternoon class.",
+        "answerZh": "老師今天身體有點不適，不能教授下午的課堂。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q06",
+        "number": 6,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "I felt slightly ill yesterday, but I am better now.",
+        "promptZh": "我昨天有點不舒服，但現在已經好轉。",
+        "starter": "I",
+        "answer": "I was under the weather yesterday, but I am better now.",
+        "answerZh": "我昨天身體有點不適，但現在已經好轉。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q07",
+        "number": 7,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Oliver does not feel completely well this evening.",
+        "promptZh": "Oliver 今晚覺得身體不太舒服。",
+        "starter": "Oliver",
+        "answer": "Oliver is feeling a bit under the weather this evening.",
+        "answerZh": "Oliver 今晚身體有點不適。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q08",
+        "number": 8,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Our dog seems slightly unwell today.",
+        "promptZh": "我們的狗今天似乎有點不舒服。",
+        "starter": "Our",
+        "answer": "Our dog seems a little under the weather today.",
+        "answerZh": "我們的狗今天似乎身體有點不適。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q09",
+        "number": 9,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Lucy looks as if she is not feeling well.",
+        "promptZh": "Lucy 看起來好像不太舒服。",
+        "starter": "Lucy",
+        "answer": "Lucy looks under the weather.",
+        "answerZh": "Lucy 看起來有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q10",
+        "number": 10,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "We both feel mildly ill after the long journey.",
+        "promptZh": "經過長途旅程後，我們兩個都有點不舒服。",
+        "starter": "We",
+        "answer": "We are both feeling under the weather after the long journey.",
+        "answerZh": "經過長途旅程後，我們兩個都感到有點不適。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q11",
+        "number": 11,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Whenever Sam catches a cold, he feels unwell for a day or two.",
+        "promptZh": "Sam 每次患上傷風，都會有一兩天感到不適。",
+        "starter": "Whenever",
+        "answer": "Whenever Sam catches a cold, he feels under the weather for a day or two.",
+        "answerZh": "Sam 每次患上傷風，都會有一兩天感到有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q12",
+        "number": 12,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "I have not felt well since Monday.",
+        "promptZh": "我自星期一開始一直感到不適。",
+        "starter": "I",
+        "answer": "I have been feeling under the weather since Monday.",
+        "answerZh": "我自星期一開始一直有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q13",
+        "number": 13,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Before the party began, Ella had already started to feel unwell.",
+        "promptZh": "派對開始前，Ella 已經開始感到不適。",
+        "starter": "Ella",
+        "answer": "Ella had already started feeling under the weather before the party began.",
+        "answerZh": "派對開始前，Ella 已經開始感到有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q14",
+        "number": 14,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "I may not come tomorrow because I am starting to feel ill.",
+        "promptZh": "我明天可能不會來，因為我開始感到不適。",
+        "starter": "I",
+        "answer": "I may not come tomorrow because I am starting to feel under the weather.",
+        "answerZh": "我明天可能不會來，因為我開始覺得有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q15",
+        "number": 15,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Noah might be slightly ill; he has been unusually quiet all morning.",
+        "promptZh": "Noah 可能有點不舒服；他整個早上都異常安靜。",
+        "starter": "Noah",
+        "answer": "Noah might be under the weather; he has been unusually quiet all morning.",
+        "answerZh": "Noah 可能身體有點不適；他整個早上都異常安靜。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q16",
+        "number": 16,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "I am not ill; I am just tired.",
+        "promptZh": "我沒有生病；我只是累了。",
+        "starter": "I",
+        "answer": "I am not under the weather; I am just tired.",
+        "answerZh": "我沒有身體不適；我只是累了。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q17",
+        "number": 17,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Do you feel unwell today?",
+        "promptZh": "你今天感到不舒服嗎？",
+        "starter": "Are",
+        "answer": "Are you feeling under the weather today?",
+        "answerZh": "你今天是否感到有點不舒服？",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q18",
+        "number": 18,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Why has Chloe cancelled lunch? B: She says she does not feel well.",
+        "promptZh": "甲：Chloe 為甚麼取消午餐約會？ 乙：她說自己不太舒服。",
+        "starter": "She",
+        "answer": "She says she is feeling under the weather.",
+        "answerZh": "她說自己有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q19",
+        "number": 19,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Ben said that he felt slightly ill during the meeting.",
+        "promptZh": "Ben 說他在會議期間有點不舒服。",
+        "starter": "Ben",
+        "answer": "Ben said that he was feeling under the weather during the meeting.",
+        "answerZh": "Ben 說他在會議期間身體有點不適。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q20",
+        "number": 20,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The twins have both been unwell since yesterday evening.",
+        "promptZh": "這對雙胞胎自昨晚開始都感到不適。",
+        "starter": "The",
+        "answer": "The twins have both been under the weather since yesterday evening.",
+        "answerZh": "這對雙胞胎自昨晚開始都有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q21",
+        "number": 21,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Are you coming to the cinema? B: No. I do not feel well enough to go out.",
+        "promptZh": "甲：你會去看電影嗎？ 乙：不會。我身體不適，不適合外出。",
+        "starter": "I’m",
+        "answer": "I’m feeling under the weather, so I won’t come to the cinema.",
+        "answerZh": "我有點不舒服，所以不會去看電影。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q22",
+        "number": 22,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Why is Mr Lee working from home? B: He is slightly ill today.",
+        "promptZh": "甲：李先生為甚麼在家工作？ 乙：他今天有點不舒服。",
+        "starter": "He",
+        "answer": "He is working from home because he is under the weather today.",
+        "answerZh": "他今天有點不舒服，所以在家工作。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q23",
+        "number": 23,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Sophie woke up with a headache and little energy, so she decided to rest.",
+        "promptZh": "Sophie 起床時頭痛，而且沒有甚麼精神，所以決定休息。",
+        "starter": "Sophie",
+        "answer": "Sophie woke up feeling under the weather, so she decided to rest.",
+        "answerZh": "Sophie 起床時感到有點不舒服，所以決定休息。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q24",
+        "number": 24,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: You look pale and tired. Are you all right? B: I am not feeling very well, but I think I only need some rest.",
+        "promptZh": "甲：你看起來面色蒼白而且很疲倦。你還好嗎？ 乙：我不太舒服，但我想只需要休息一下。",
+        "starter": "I’m",
+        "answer": "I’m feeling a bit under the weather, but I think I only need some rest.",
+        "answerZh": "我有點不舒服，但我想只需要休息一下。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q25",
+        "number": 25,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Because Amir felt slightly ill, he left the office early.",
+        "promptZh": "因為 Amir 有點不舒服，所以提早離開辦公室。",
+        "starter": "Because",
+        "answer": "Because Amir was feeling under the weather, he left the office early.",
+        "answerZh": "因為 Amir 身體有點不適，所以提早離開辦公室。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q26",
+        "number": 26,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The coach noticed that Ruby looked unwell and told her to sit down.",
+        "promptZh": "教練留意到 Ruby 看起來不舒服，便叫她坐下。",
+        "starter": "The",
+        "answer": "The coach noticed that Ruby looked under the weather and told her to sit down.",
+        "answerZh": "教練留意到 Ruby 看起來有點不舒服，便叫她坐下。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q27",
+        "number": 27,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "I have a mild cold and do not want to pass it to anyone, so I am missing the class today.",
+        "promptZh": "我有輕微傷風，不想傳染給任何人，所以今天不會上課。",
+        "starter": "I",
+        "answer": "I am feeling under the weather and do not want to pass my cold to anyone, so I am missing the class today.",
+        "answerZh": "我有點不舒服，也不想把傷風傳染給任何人，所以今天不會上課。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q28",
+        "number": 28,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Has Ethan recovered? B: Not completely. He still feels a little ill.",
+        "promptZh": "甲：Ethan 康復了嗎？ 乙：還沒有完全康復。他仍然有點不舒服。",
+        "starter": "Not",
+        "answer": "Not completely. He is still feeling under the weather.",
+        "answerZh": "還沒有完全康復。他仍然有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q29",
+        "number": 29,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Although Priya was slightly unwell, she joined the online meeting for ten minutes.",
+        "promptZh": "雖然 Priya 有點不舒服，但她仍參加了十分鐘網上會議。",
+        "starter": "Although",
+        "answer": "Although Priya was feeling under the weather, she joined the online meeting for ten minutes.",
+        "answerZh": "雖然 Priya 身體有點不適，但她仍參加了十分鐘網上會議。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q30",
+        "number": 30,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Kai’s father explained that Kai had a mild illness and needed to rest at home.",
+        "promptZh": "Kai 的父親解釋，Kai 有輕微不適，需要留在家中休息。",
+        "starter": "Kai’s",
+        "answer": "Kai’s father said that Kai was under the weather and needed to rest at home.",
+        "answerZh": "Kai 的父親說 Kai 有點不舒服，需要留在家中休息。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q31",
+        "number": 31,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "I had planned to cook dinner, but I did not feel well, so I ordered soup instead.",
+        "promptZh": "我本來打算煮晚餐，但因為身體不適，所以改為點湯。",
+        "starter": "I",
+        "answer": "I had planned to cook dinner, but I was feeling under the weather, so I ordered soup instead.",
+        "answerZh": "我本來打算煮晚餐，但因為有點不舒服，所以改為點湯。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q32",
+        "number": 32,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: You have been quiet all day. B: I do not feel well, so I have not felt like talking.",
+        "promptZh": "甲：你整天都很安靜。 乙：我不太舒服，所以一直不想說話。",
+        "starter": "I’m",
+        "answer": "I’m feeling under the weather, which is why I have been quiet all day.",
+        "answerZh": "我有點不舒服，所以整天都很安靜。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q33",
+        "number": 33,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Since Ava was not feeling well, her older sister collected the children from school.",
+        "promptZh": "由於 Ava 身體不適，她的姐姐到學校接孩子。",
+        "starter": "Since",
+        "answer": "Since Ava was under the weather, her older sister collected the children from school.",
+        "answerZh": "由於 Ava 有點不舒服，她的姐姐到學校接孩子。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q34",
+        "number": 34,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The singer seemed unwell during the phone interview, but she said the problem was only temporary.",
+        "promptZh": "那名歌手在電話訪問中似乎身體不適，但她說問題只是暫時的。",
+        "starter": "The",
+        "answer": "The singer seemed to be under the weather during the phone interview, but she said it was only temporary.",
+        "answerZh": "那名歌手在電話訪問中似乎有點不舒服，但她說這只是暫時的。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q35",
+        "number": 35,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "If you are feeling slightly ill, you should rest instead of forcing yourself to exercise.",
+        "promptZh": "如果你感到有點不舒服，便應該休息，不要勉強自己做運動。",
+        "starter": "If",
+        "answer": "If you are feeling under the weather, you should rest instead of forcing yourself to exercise.",
+        "answerZh": "如果你身體有點不適，便應該休息，不要勉強自己做運動。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q36",
+        "number": 36,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Marcus felt unwell all morning, but he expected to be fine by the evening.",
+        "promptZh": "Marcus 整個早上都感到不適，但他預計到晚上便會沒事。",
+        "starter": "Although",
+        "answer": "Although Marcus felt under the weather all morning, he expected to be fine by the evening.",
+        "answerZh": "雖然 Marcus 整個早上都有點不舒服，但他預計到晚上便會沒事。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q37",
+        "number": 37,
+        "sourcePage": 20,
+        "sourcePages": [
+          20,
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Why did you turn down the dinner invitation? B: I had felt ill since the afternoon and did not want to stay out late.",
+        "promptZh": "甲：你為甚麼拒絕晚餐邀請？ 乙：我由下午開始便感到不適，而且不想太夜回家。",
+        "starter": "I",
+        "answer": "I turned down the dinner invitation because I had been feeling under the weather since the afternoon and did not want to stay out late.",
+        "answerZh": "我由下午開始便有點不舒服，而且不想太夜回家，所以拒絕了晚餐邀請。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q38",
+        "number": 38,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Our manager told us to stay home and join online if we feel slightly ill.",
+        "promptZh": "經理告訴我們，如果有輕微不適，便應留在家中並在網上參與。",
+        "starter": "Our",
+        "answer": "Our manager told us to stay home and join online if we are feeling under the weather.",
+        "answerZh": "經理告訴我們，如果身體有點不適，便應留在家中並在網上參與。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q39",
+        "number": 39,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Karen had nearly recovered, but she still did not feel completely well enough to travel.",
+        "promptZh": "Karen 幾乎已經康復，但身體仍未完全好轉，不適合出行。",
+        "starter": "Karen",
+        "answer": "Karen had nearly recovered, but she was still a little under the weather and did not feel ready to travel.",
+        "answerZh": "Karen 幾乎已經康復，但仍有點不舒服，覺得自己未適合出行。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q40",
+        "number": 40,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The children were excited about the trip, but two of them were mildly ill and had to stay behind.",
+        "promptZh": "孩子們都很期待旅程，但其中兩人有輕微不適，必須留下。",
+        "starter": "The",
+        "answer": "The children were excited about the trip, but two of them were under the weather and had to stay behind.",
+        "answerZh": "孩子們都很期待旅程，但其中兩人有點不舒服，必須留下。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q41",
+        "number": 41,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Before cancelling the lesson, the tutor explained that she had felt unwell since the previous night.",
+        "promptZh": "導師取消課堂前解釋，她由前一晚開始便感到不適。",
+        "starter": "Before",
+        "answer": "Before cancelling the lesson, the tutor explained that she had been feeling under the weather since the previous night.",
+        "answerZh": "導師取消課堂前解釋，她由前一晚開始便一直有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q42",
+        "number": 42,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: I thought Jacob would be at the match. B: He woke up feeling weak and decided not to risk getting worse.",
+        "promptZh": "甲：我以為 Jacob 會來看比賽。 乙：他起床時感到身體虛弱，所以決定不要冒險令情況惡化。",
+        "starter": "Jacob",
+        "answer": "Jacob woke up feeling under the weather and decided not to risk getting worse.",
+        "answerZh": "Jacob 起床時感到有點不舒服，所以決定不要冒險令情況惡化。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q43",
+        "number": 43,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The hotel worker apologised for speaking slowly and explained that she had a slight headache and did not feel quite right.",
+        "promptZh": "酒店職員為自己說話較慢致歉，並解釋她有輕微頭痛，而且身體不太舒服。",
+        "starter": "The",
+        "answer": "The hotel worker apologised for speaking slowly and explained that she was feeling under the weather.",
+        "answerZh": "酒店職員為自己說話較慢致歉，並解釋她當時身體有點不適。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q44",
+        "number": 44,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "We may need another person to lead the tour because our usual guide is not feeling well today.",
+        "promptZh": "我們可能需要另一個人帶領導賞團，因為平日的導遊今天身體不適。",
+        "starter": "We",
+        "answer": "We may need another person to lead the tour because our usual guide is under the weather today.",
+        "answerZh": "我們可能需要另一個人帶領導賞團，因為平日的導遊今天有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q45",
+        "number": 45,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Although the actor did not cancel the show, the audience could see that he was not feeling completely well.",
+        "promptZh": "雖然那名演員沒有取消演出，但觀眾看得出他身體不太舒服。",
+        "starter": "Although",
+        "answer": "Although the actor did not cancel the show, the audience could see that he was under the weather.",
+        "answerZh": "雖然那名演員沒有取消演出，但觀眾看得出他有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q46",
+        "number": 46,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "If I still feel unwell tomorrow morning, I will ask to move the interview to another day.",
+        "promptZh": "如果我明早仍然不舒服，我會要求把面試改到另一天。",
+        "starter": "If",
+        "answer": "If I am still feeling under the weather tomorrow morning, I will ask to move the interview to another day.",
+        "answerZh": "如果我明早仍然有點不舒服，我會要求把面試改到另一天。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q47",
+        "number": 47,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Why did the restaurant owner leave before closing time? B: She had been feeling ill, but she stayed until the busy part of the evening was over.",
+        "promptZh": "甲：餐廳東主為甚麼在關門前離開？ 乙：她一直感到不適，但仍留到晚上的繁忙時段結束。",
+        "starter": "She",
+        "answer": "She left before closing time because she had been feeling under the weather, although she stayed until the busy part of the evening was over.",
+        "answerZh": "她一直有點不舒服，但仍留到晚上的繁忙時段結束，之後才在關門前離開。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q48",
+        "number": 48,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The team thought Ella was simply tired, but she later explained that she had been slightly ill all week.",
+        "promptZh": "團隊以為 Ella 只是疲倦，但她後來解釋自己整個星期都有點不舒服。",
+        "starter": "The",
+        "answer": "The team thought Ella was simply tired, but she later explained that she had been feeling under the weather all week.",
+        "answerZh": "團隊以為 Ella 只是疲倦，但她後來解釋自己整個星期都感到有點不適。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q49",
+        "number": 49,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The presenter may look less energetic than usual because he has not felt well since yesterday.",
+        "promptZh": "主持人可能看起來比平日缺乏精神，因為他自昨天起一直感到不適。",
+        "starter": "The",
+        "answer": "The presenter may look less energetic than usual because he has been feeling under the weather since yesterday.",
+        "answerZh": "主持人可能看起來比平日缺乏精神，因為他自昨天起一直有點不舒服。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      },
+      {
+        "id": "idiom-44-q50",
+        "number": 50,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A teacher says: “The trip can continue as planned. If you feel mildly ill that morning, tell a teacher and stay home.”",
+        "promptZh": "一名老師說：「旅程可以按計劃進行。如果你當天早上有輕微不適，請告訴老師並留在家中。」",
+        "starter": "The",
+        "answer": "The trip can continue as planned, but if you are feeling under the weather that morning, tell a teacher and stay home.",
+        "answerZh": "旅程可以按計劃進行，但如果你當天早上有點不舒服，請告訴老師並留在家中。",
+        "targetForm": "under the weather",
+        "targetMeaning": "to feel slightly ill, unwell or not completely healthy, usually for a short period",
+        "highlight": "under the weather"
+      }
+    ]
+  }
+}

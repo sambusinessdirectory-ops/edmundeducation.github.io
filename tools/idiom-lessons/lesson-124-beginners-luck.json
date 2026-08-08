@@ -1,0 +1,1746 @@
+{
+  "lesson": {
+    "id": "idiom-124",
+    "order": 124,
+    "slug": "beginners-luck",
+    "version": "1",
+    "title": "新手的好運／初次嘗試時意外成功",
+    "titleEn": "beginner’s luck",
+    "titleZh": "新手的好運／初次嘗試時意外成功",
+    "source": {
+      "file": "Idiom 124 - beginner’s luck.pdf",
+      "pageCount": 36,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "exercisePdfPages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "answerKeyPdfPages": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "beginner’s luck",
+        "highlight": "beginner’s luck"
+      }
+    ],
+    "examples": [
+      {
+        "en": "His first win was beginner’s luck.",
+        "zh": "他的第一次勝利只是新手的好運。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "en": "It might be beginner’s luck.",
+        "zh": "這可能只是新手運。",
+        "highlight": "beginner’s luck"
+      }
+    ],
+    "meaning": {
+      "en": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+      "zh": "這個表達通常暗示，早期的成功部分或主要來自運氣，而不是已獲證明的能力。",
+      "naturalZh": [
+        "新手的好運",
+        "初次嘗試時意外成功",
+        "新手運",
+        "剛入門便碰巧成功",
+        "第一次做便幸運地成功"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; friendly messages; sports and games; interviews and personal stories; light workplace or classroom discussion; informal journalism.",
+      "summaryZh": "Typical Tone 常見語氣",
+      "contextsEn": [
+        "everyday conversation",
+        "friendly messages",
+        "sports and games",
+        "interviews and personal stories",
+        "light workplace or classroom discussion",
+        "informal journalism",
+        "surprise",
+        "humour",
+        "modesty",
+        "teasing",
+        "doubt",
+        "mild dismissal of somebody’s achievement"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "朋友之間的訊息",
+        "體育及遊戲情境",
+        "訪問及個人故事",
+        "較輕鬆的工作或課堂討論",
+        "較口語化的新聞寫作。",
+        "驚訝",
+        "幽默",
+        "謙虛",
+        "善意取笑",
+        "懷疑",
+        "輕微貶低某人的成就。"
+      ],
+      "formalEn": "In formal feedback, it is often safer to acknowledge the person’s effort instead of assuming that the result came from luck.",
+      "formalZh": "在正式評語中，與其假設成功只來自運氣，肯定對方的努力通常會更加合適。"
+    },
+    "fixedVariable": {
+      "fixed": "beginner’s luck",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + beginner’s luck.",
+          "example": "His first win was beginner’s luck.",
+          "highlight": "beginner’s luck"
+        },
+        {
+          "form": "Subject + have / had + beginner’s luck.",
+          "example": "She had beginner’s luck in her first game.",
+          "highlight": "beginner’s luck"
+        },
+        {
+          "form": "Subject + put + result / it + down to + beginner’s luck.",
+          "example": "They put my first win down to beginner’s luck.",
+          "highlight": "beginner’s luck"
+        },
+        {
+          "form": "Subject + look / seem / sound + like + beginner’s luck.",
+          "example": "The result looked like beginner’s luck.",
+          "highlight": "beginner’s luck"
+        },
+        {
+          "form": "Subject + may / might / could + be + beginner’s luck.",
+          "example": "The first win may be beginner’s luck.",
+          "highlight": "beginner’s luck"
+        },
+        {
+          "form": "beginner’s luck",
+          "example": "It may have been a case of beginner’s luck.",
+          "highlight": "beginner’s luck"
+        },
+        {
+          "form": "Beginner’s luck + verb.",
+          "example": "Beginner’s luck helped him win his first game.",
+          "highlight": "Beginner’s luck"
+        },
+        {
+          "form": "my / your / his / her / our / their + beginner’s luck",
+          "example": "My beginner’s luck disappeared after the first round.",
+          "highlight": "beginner’s luck"
+        },
+        {
+          "form": "thanks to + beginner’s luck",
+          "example": "Thanks to beginner’s luck, I won my first match.",
+          "highlight": "beginner’s luck"
+        },
+        {
+          "form": "beginner’s luck",
+          "example": "Was it beginner’s luck or real skill?",
+          "highlight": "beginner’s luck"
+        },
+        {
+          "form": "beginner’s luck",
+          "example": "Beginner’s luck!",
+          "highlight": "Beginner’s luck"
+        },
+        {
+          "form": "whether + result + be + beginner’s luck or skill",
+          "example": "No one knew whether the result was beginner’s luck or skill.",
+          "highlight": "beginner’s luck"
+        },
+        {
+          "form": "beginner’s luck",
+          "example": "What looked like beginner’s luck was actually careful preparation.",
+          "highlight": "beginner’s luck"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After a Linking Verb",
+        "titleZh": "置於連繫動詞之後",
+        "formula": "Subject + be + beginner’s luck.",
+        "descriptionEn": "It was beginner’s luck that helped me win.",
+        "descriptionZh": "我能夠勝出只是因為新手的好運。",
+        "examples": [
+          {
+            "en": "His first win was beginner’s luck.",
+            "zh": "他的第一次勝利只是新手的好運。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "It might be beginner’s luck.",
+            "zh": "這可能只是新手運。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "The perfect result seemed like beginner’s luck.",
+            "zh": "這個完美結果看來像是新手的好運。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After “Have”",
+        "titleZh": "置於 have 之後",
+        "formula": "Subject + have / had + beginner’s luck.",
+        "descriptionEn": "This pattern describes the beginner as experiencing the good fortune.",
+        "descriptionZh": "這個句式把新手描述為獲得這份好運的人。",
+        "examples": [
+          {
+            "en": "She had beginner’s luck in her first game.",
+            "zh": "她第一次參賽時有新手的好運。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "I always seem to have beginner’s luck with new games.",
+            "zh": "我初次玩新遊戲時似乎總是特別幸運。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “Put ... Down To”",
+        "titleZh": "置於 put ... down to 之後",
+        "formula": "Subject + put + result / it + down to + beginner’s luck.",
+        "descriptionEn": "The coach described the result as beginner’s luck.",
+        "descriptionZh": "教練把這個結果形容為新手運。",
+        "examples": [
+          {
+            "en": "They put my first win down to beginner’s luck.",
+            "zh": "他們認為我第一次勝出只是新手的好運。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "I put it down to beginner’s luck.",
+            "zh": "我把這歸因於新手運。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "Everyone called his first win beginner’s luck.",
+            "zh": "人人都說他的首次勝利只是新手運。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Look”, “Seem” or “Sound”",
+        "titleZh": "置於 look、seem 或 sound 之後",
+        "formula": "Subject + look / seem / sound + like + beginner’s luck.",
+        "descriptionEn": "Source grammar frame: Subject + look / seem / sound + like + beginner’s luck.",
+        "descriptionZh": "原檔列出的句法框架：Subject + look / seem / sound + like + beginner’s luck。",
+        "examples": [
+          {
+            "en": "The result looked like beginner’s luck.",
+            "zh": "這個結果看來像是新手的好運。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "His first success seemed like beginner’s luck.",
+            "zh": "他的首次成功似乎只是新手運。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "That sounds like beginner’s luck to me.",
+            "zh": "在我看來，那聽起來像是新手運。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With Modal Verbs and Uncertainty",
+        "titleZh": "配合情態動詞及不確定語氣",
+        "formula": "Subject + may / might / could + be + beginner’s luck.",
+        "descriptionEn": "Do not change uncertainty into certainty.",
+        "descriptionZh": "不要把不確定意思改成確定意思。",
+        "examples": [
+          {
+            "en": "The first win may be beginner’s luck.",
+            "zh": "第一次勝利可能只是新手的好運。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "Her early success could have been beginner’s luck.",
+            "zh": "她早期的成功可能只是新手運。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "With “A Case / Bit / Touch Of”",
+        "titleZh": "配合 a case、a bit 或 a touch of",
+        "formula": "beginner’s luck",
+        "descriptionEn": "The article a belongs to case, bit or touch—not directly to beginner’s luck.",
+        "descriptionZh": "冠詞 a 是配合 case、bit 或 touch，而不是直接配合 beginner’s luck。",
+        "examples": [
+          {
+            "en": "It may have been a case of beginner’s luck.",
+            "zh": "這可能是一次新手運。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "A bit of beginner’s luck helped me win.",
+            "zh": "一點新手的好運幫助我勝出。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "As the Subject of a Sentence",
+        "titleZh": "用作句子的主語",
+        "formula": "Beginner’s luck + verb.",
+        "descriptionEn": "Source grammar frame: Beginner’s luck + verb.",
+        "descriptionZh": "原檔列出的句法框架：Beginner’s luck + verb。",
+        "examples": [
+          {
+            "en": "Beginner’s luck helped him win his first game.",
+            "zh": "新手的好運幫助他贏得第一場比賽。",
+            "highlight": "Beginner’s luck"
+          },
+          {
+            "en": "Beginner’s luck does not always last.",
+            "zh": "新手運並不總會持續。",
+            "highlight": "Beginner’s luck"
+          },
+          {
+            "en": "Beginner’s luck can make an activity seem easier than it is.",
+            "zh": "新手運可能令人覺得一項活動比實際上容易。",
+            "highlight": "Beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "With a Possessive Before the Expression",
+        "titleZh": "在表達前加入所有格",
+        "formula": "my / your / his / her / our / their + beginner’s luck",
+        "descriptionEn": "Source grammar frame: my / your / his / her / our / their + beginner’s luck.",
+        "descriptionZh": "原檔列出的句法框架：my / your / his / her / our / their + beginner’s luck。",
+        "examples": [
+          {
+            "en": "My beginner’s luck disappeared after the first round.",
+            "zh": "第一回合後，我的新手運便消失了。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "Her beginner’s luck lasted for two games.",
+            "zh": "她的新手運維持了兩場比賽。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "Their beginner’s luck surprised everyone.",
+            "zh": "他們的新手運令所有人感到驚訝。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "After a Preposition",
+        "titleZh": "置於介詞之後",
+        "formula": "thanks to + beginner’s luck",
+        "descriptionEn": "Source grammar frame: thanks to + beginner’s luck.",
+        "descriptionZh": "原檔列出的句法框架：thanks to + beginner’s luck。",
+        "examples": [
+          {
+            "en": "Thanks to beginner’s luck, I won my first match.",
+            "zh": "多得新手的好運，我第一次比賽便勝出。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "Because of beginner’s luck, the task appeared very easy.",
+            "zh": "因為新手運，這項工作看來十分容易。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "With a little beginner’s luck, she reached the final.",
+            "zh": "憑着一點新手的好運，她晉身決賽。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "In Questions and Contrasts",
+        "titleZh": "用於疑問及對比",
+        "formula": "beginner’s luck",
+        "descriptionEn": "Even if it was beginner’s luck, the success gave him confidence.",
+        "descriptionZh": "即使那只是新手運，這次成功也給了他信心。",
+        "examples": [
+          {
+            "en": "Was it beginner’s luck or real skill?",
+            "zh": "這是新手的好運，還是真正技巧？",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "It was beginner’s luck, not experience, that produced the result.",
+            "zh": "帶來這個結果的是新手的好運，而不是經驗。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "It was more than beginner’s luck.",
+            "zh": "這不只是新手運。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "As a Short Reaction",
+        "titleZh": "用作簡短回應",
+        "formula": "beginner’s luck",
+        "descriptionEn": "This pattern is mainly conversational.",
+        "descriptionZh": "這個句式主要用於對話。",
+        "examples": [
+          {
+            "en": "Beginner’s luck!",
+            "zh": "新手運吧！",
+            "highlight": "Beginner’s luck"
+          },
+          {
+            "en": "Beginner’s luck, I suppose.",
+            "zh": "我想只是新手運吧。",
+            "highlight": "Beginner’s luck"
+          },
+          {
+            "en": "Call it beginner’s luck, but I won.",
+            "zh": "你可以說這是新手運，但我確實勝出了。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "With “Whether”",
+        "titleZh": "配合 whether",
+        "formula": "whether + result + be + beginner’s luck or skill",
+        "descriptionEn": "Source grammar frame: whether + result + be + beginner’s luck or skill.",
+        "descriptionZh": "原檔列出的句法框架：whether + result + be + beginner’s luck or skill。",
+        "examples": [
+          {
+            "en": "No one knew whether the result was beginner’s luck or skill.",
+            "zh": "沒有人知道這個結果來自新手運還是技巧。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "It is too early to say whether her success was beginner’s luck.",
+            "zh": "現在判斷她的成功是否只是新手運仍言之過早。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 13,
+        "titleEn": "With a Relative or Fused Clause",
+        "titleZh": "配合關係結構或融合關係子句",
+        "formula": "beginner’s luck",
+        "descriptionEn": "These structures are useful in later questions because the expression becomes part of a larger message instead of always appearing at the end.",
+        "descriptionZh": "這些句式適合後段題目，因為表達會成為較完整訊息的一部分，而不是總是放在句末。",
+        "examples": [
+          {
+            "en": "What looked like beginner’s luck was actually careful preparation.",
+            "zh": "看來像新手運的結果，其實來自充分準備。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "The result that everyone called beginner’s luck was followed by five more wins.",
+            "zh": "人人稱為新手運的結果之後，又出現了五次勝利。",
+            "highlight": "beginner’s luck"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Several Ideas Compactly",
+        "titleZh": "把多個意思集中表達",
+        "en": "being inexperienced; achieving early success; being unexpectedly fortunate; uncertainty about whether the result proves skill.",
+        "zh": "這個表達同時包含： 她第一次勝出可能只是新手運。",
+        "examples": [
+          {
+            "en": "Her first win may have been beginner’s luck.",
+            "zh": "她第一次勝出可能只是新手運。",
+            "highlight": "beginner’s luck"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Helps Speakers Sound Modest",
+        "titleZh": "幫助說話者表現謙虛",
+        "en": "This can make the speaker sound modest and relaxed.",
+        "zh": "我認為這只是新手運。 這可以令說話者顯得謙虛而輕鬆。",
+        "examples": [
+          {
+            "en": "I put it down to beginner’s luck.",
+            "zh": "我認為這只是新手運。",
+            "highlight": "beginner’s luck"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Creates a Natural Contrast with Skill",
+        "titleZh": "自然對比運氣與技巧",
+        "en": "The expression is useful when one early result is not enough to prove ability.",
+        "zh": "這是新手的好運，還是真正技巧？ 當一次早期結果仍不足以證明能力時，這個表達十分實用。",
+        "examples": [
+          {
+            "en": "Was it beginner’s luck or real skill?",
+            "zh": "這是新手的好運，還是真正技巧？",
+            "highlight": "beginner’s luck"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Show Development",
+        "titleZh": "可以表達能力發展",
+        "en": "The expression can mark the beginning of a journey from luck to genuine skill.",
+        "zh": "她第一次勝出只是新手運，但其後的成績來自練習。 這個表達可以標示一個人由幸運逐漸發展至真正掌握技巧的過程。",
+        "examples": [
+          {
+            "en": "Her first win was beginner’s luck, but her later results came from practice.",
+            "zh": "她第一次勝出只是新手運，但其後的成績來自練習。",
+            "highlight": "beginner’s luck"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Provides a Natural Conversational Reaction",
+        "titleZh": "提供自然的對話回應",
+        "en": "This response is short, memorable and playful, although it should not be used when it may unfairly dismiss serious effort.",
+        "zh": "甲：我第一次玩便勝出了！ 乙：新手運吧！ 這個回應簡短、容易記憶，而且帶有玩笑意味。 不過，如果它可能不公平地否定別人的認真努力， 便不應使用。",
+        "examples": [
+          {
+            "en": "B: Beginner’s luck!",
+            "zh": "甲：我第一次玩便勝出了！ 乙：新手運吧！",
+            "highlight": "Beginner’s luck"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Allows Careful Levels of Certainty",
+        "titleZh": "可以準確控制確定程度",
+        "en": "It Allows Careful Levels of Certainty",
+        "zh": "那只是新手運。 那可能只是新手運。 很難判斷那是新手運還是技巧。",
+        "examples": [
+          {
+            "en": "It was beginner’s luck.",
+            "zh": "那只是新手運。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "It may have been beginner’s luck.",
+            "zh": "那可能只是新手運。",
+            "highlight": "beginner’s luck"
+          },
+          {
+            "en": "It is hard to know whether it was beginner’s luck or skill.",
+            "zh": "很難判斷那是新手運還是技巧。",
+            "highlight": "beginner’s luck"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact Origin Unknown",
+      "statusZh": "逐漸形成；確切來源不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The ordinary meanings of beginner and luck combine transparently. Repeated use in games, sports and first attempts gradually made beginner’s luck a recognised fixed expression for unexpected early success.",
+          "zh": "beginner 和 luck 的一般意思可以直接組合。 人們在遊戲、運動及首次嘗試的情境中反覆使用這個說法，令 beginner’s luck 逐漸成為表示「初學階段意外成功」的固定表達。"
+        }
+      ],
+      "memoryEn": "A beginner has little experience; if the beginner succeeds immediately, luck may have helped.",
+      "memoryZh": "新手缺乏經驗；如果他立即成功，運氣可能曾經幫忙。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Preserve the Apostrophe",
+        "titleZh": "規則一：保留撇號",
+        "en": "Preserve the Apostrophe",
+        "zh": "保留撇號",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Add “A” Directly",
+        "titleZh": "規則二：不可直接加入 a",
+        "en": "Do Not Add “A” Directly",
+        "zh": "不可直接加入 a",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Make “Luck” Plural",
+        "titleZh": "規則三：不可把 luck 變成複數",
+        "en": "Do Not Make “Luck” Plural",
+        "zh": "不可把 luck 變成複數",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Person Must Be New to the Activity",
+        "titleZh": "規則四：當事人必須是該活動的新手",
+        "en": "She is not a beginner.",
+        "zh": "她第一次下棋便勝出。 她的勝利可能只是新手運。 她並不是新手。",
+        "examples": [
+          {
+            "en": "Her win may have been beginner’s luck.",
+            "zh": "她第一次下棋便勝出。她的勝利可能只是新手運。",
+            "highlight": "beginner’s luck"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "The Success Must Be Early",
+        "titleZh": "規則五：成功必須在初學階段出現",
+        "en": "He scored perfectly on his first attempt. After ten years of practice, he finally scored perfectly. The second success cannot naturally be called beginner’s luck.",
+        "zh": "他第一次嘗試便取得滿分。 經過十年練習後，他終於取得滿分。 第二種成功不能自然地稱為 beginner’s luck。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "The Result Must Be Successful",
+        "titleZh": "規則六：結果必須成功",
+        "en": "The expression does not describe a beginner’s mistake or failure. The event was unsuccessful, so beginner’s luck is not licensed.",
+        "zh": "這個表達並不描述新手所犯的錯誤或遭遇的失敗。 事件並不成功，因此不適合使用 beginner’s luck。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve the Role of Chance",
+        "titleZh": "規則七：保留運氣成分",
+        "en": "The second source clearly explains the success through practice.",
+        "zh": "第二個原句清楚說明成功來自練習。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則八：保留確定程度",
+        "en": "Preserve Certainty",
+        "zh": "保留確定程度",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve Speaker Attitude",
+        "titleZh": "規則九：保留說話者態度",
+        "en": "Do not turn modesty into an insulting judgement from somebody else.",
+        "zh": "不要把謙虛的自我評價改成別人帶有貶意的判斷。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Automatically Dismiss Repeated Success",
+        "titleZh": "規則十：不要把持續成功自動視為新手運",
+        "en": "Several later successes may show genuine ability.",
+        "zh": "一次早期成功可能是新手運。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "“By + V-ing” Is Not Part of the Expression",
+        "titleZh": "規則十一：by + V-ing 並不是固定表達的一部分",
+        "en": "A by-phrase may explain how somebody acted, but it is only optional information elsewhere in the sentence. The phrase by choosing explains how Ryan won. It does not complete beginner’s luck.",
+        "zh": "短語可以說明某人如何行動，但它只是句中其他位置的選用資料。 多得新手的好運，瑞安選中唯一正確的卡牌並勝出。 說明瑞安如何勝出，並不是用來完成 beginner’s luck。",
+        "examples": [
+          {
+            "en": "Thanks to beginner’s luck, Ryan won by choosing the only correct card.",
+            "zh": "多得新手的好運，瑞安選中唯一正確的卡牌並勝出。",
+            "highlight": "beginner’s luck"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則十二：自然使用，不要過度使用",
+        "en": "3. chance is presented as a possible explanation.",
+        "zh": "使用 beginner’s luck 時，通常需要符合三個條件：",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "The first word of each canonical answer has been provided.",
+      "zh": "使用 beginner’s luck 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-124-q01",
+        "number": 1,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Leo had never played chess before, but he unexpectedly won his first game. Everyone thought that chance had helped him.",
+        "promptZh": "里奧以前從未下過棋，卻意外贏得第一局。人人都認為運氣幫助了他。",
+        "starter": "Leo’s",
+        "answer": "Leo’s first chess win was beginner’s luck.",
+        "answerZh": "里奧第一次下棋便勝出，只是新手的好運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q02",
+        "number": 2,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Ava tried bowling for the first time and achieved the highest score. She had no idea how she had done it.",
+        "promptZh": "艾娃第一次打保齡球便取得最高分。她完全不知道自己是怎樣做到的。",
+        "starter": "It",
+        "answer": "It was beginner’s luck that helped Ava achieve the highest score in her first bowling game.",
+        "answerZh": "艾娃第一次打保齡球便取得最高分，只是得到新手運幫助。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q03",
+        "number": 3,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Grace entered a baking competition for the first time and won a prize. She modestly said that she had simply been lucky.",
+        "promptZh": "格蕾絲第一次參加烘焙比賽便獲獎。她謙虛地說自己只是幸運。",
+        "starter": "Grace",
+        "answer": "Grace put her first baking prize down to beginner’s luck.",
+        "answerZh": "格蕾絲認為自己第一次參加烘焙比賽便獲獎只是新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q04",
+        "number": 4,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Owen had never joined a quiz game before, but he answered every question correctly by guessing.",
+        "promptZh": "歐文以前從未參加問答遊戲，卻靠猜測答對了每一條問題。",
+        "starter": "Beginner’s",
+        "answer": "Beginner’s luck gave Owen a perfect score in his first quiz game.",
+        "answerZh": "新手的好運令歐文第一次參加問答遊戲便取得滿分。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "Beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q05",
+        "number": 5,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "On his first fishing trip, Caleb unexpectedly caught the largest fish. His experienced friends believed that it was a lucky first attempt.",
+        "promptZh": "在第一次釣魚旅程中，卡勒布意外釣到最大的魚。他那些有經驗的朋友認為這只是第一次嘗試時的好運。",
+        "starter": "The",
+        "answer": "The large fish Caleb caught on his first trip was a case of beginner’s luck.",
+        "answerZh": "卡勒布第一次釣魚便釣到大魚，是一次新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q06",
+        "number": 6,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Noah had never played the card game, but he won immediately without understanding all the rules.",
+        "promptZh": "諾亞以前從未玩過這個紙牌遊戲，卻在未完全理解規則的情況下立即勝出。",
+        "starter": "Noah",
+        "answer": "Noah had beginner’s luck when he won his first card game without understanding all the rules.",
+        "answerZh": "諾亞在未完全理解規則的情況下贏得第一場紙牌遊戲，是得到新手的好運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q07",
+        "number": 7,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Sophie took a photograph for the first time and unexpectedly won the school photography prize. She was still learning how to use the camera.",
+        "promptZh": "蘇菲第一次拍照便意外贏得校內攝影獎。她當時仍在學習如何使用相機。",
+        "starter": "Her",
+        "answer": "Her first successful photograph was probably beginner’s luck.",
+        "answerZh": "她第一次拍出成功照片大概只是新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q08",
+        "number": 8,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Ethan had just joined the football team and scored with his first kick. His classmates believed that the result came from chance.",
+        "promptZh": "伊頓剛加入足球隊，第一次起腳便入球。他的同學認為這個結果來自運氣。",
+        "starter": "The",
+        "answer": "The class thought Ethan’s first goal was just beginner’s luck.",
+        "answerZh": "全班認為伊頓第一次起腳便入球只是新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q09",
+        "number": 9,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "I did not know the rule, but I guessed the correct answer on my first attempt.",
+        "promptZh": "我不知道那條規則，卻在第一次嘗試時猜中正確答案。",
+        "starter": "Thanks",
+        "answer": "Thanks to beginner’s luck, I guessed the correct answer on my first attempt.",
+        "answerZh": "多得新手的好運，我第一次嘗試便猜中正確答案。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q10",
+        "number": 10,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Ruby had never played the board game, but she won the first round. The result appeared to come from luck rather than experience.",
+        "promptZh": "露比以前從未玩過這個桌上遊戲，卻贏得第一回合。結果看來來自運氣，而不是經驗。",
+        "starter": "It",
+        "answer": "It looked like beginner’s luck when Ruby won her first round.",
+        "answerZh": "露比第一次參加便贏得第一回合，看來只是新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q11",
+        "number": 11,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Whenever Priya tries a new game, she seems to do surprisingly well at the beginning, even before she understands it properly.",
+        "promptZh": "每當普莉雅嘗試新遊戲時，即使尚未完全理解玩法，她在初期似乎總會有出乎意料的好表現。",
+        "starter": "Priya",
+        "answer": "Priya often has beginner’s luck when she tries a new game.",
+        "answerZh": "普莉雅嘗試新遊戲時，初期經常特別幸運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q12",
+        "number": 12,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "In my first cooking competition, I unexpectedly produced the best dish. Perhaps chance played a large part.",
+        "promptZh": "在我第一次參加的烹飪比賽中，我意外製作出最佳菜式。運氣或許佔了很大部分。",
+        "starter": "What",
+        "answer": "What happened in my first cooking competition may have been beginner’s luck.",
+        "answerZh": "我第一次參加烹飪比賽時取得的成功可能只是新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q13",
+        "number": 13,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Daniel won his first two tennis games even though he had only started learning that week. His teammates said that his early success was probably due to luck.",
+        "promptZh": "丹尼爾在剛開始學習網球的那個星期便贏得首兩場比賽。他的隊友說，這些早期成功大概只是因為運氣。",
+        "starter": "The",
+        "answer": "The team put Daniel’s early tennis success down to beginner’s luck.",
+        "answerZh": "隊友把丹尼爾早期的網球成功歸因於新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q14",
+        "number": 14,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Chloe entered her first drawing contest and unexpectedly came first. It is possible that luck was partly responsible.",
+        "promptZh": "克洛伊第一次參加繪畫比賽便意外取得第一名。運氣可能是部分原因。",
+        "starter": "There",
+        "answer": "There may have been some beginner’s luck involved in Chloe’s first drawing-contest victory.",
+        "answerZh": "克洛伊第一次參加繪畫比賽便勝出，當中可能有一些新手的好運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q15",
+        "number": 15,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "On his first day selling cakes, Isaac sold every cake within an hour, although he had no sales experience. The result appeared to be luck rather than skill.",
+        "promptZh": "在第一次售賣蛋糕當天，艾薩克一小時內便賣光所有蛋糕，雖然他毫無銷售經驗。這個結果看來來自運氣，而不是技巧。",
+        "starter": "His",
+        "answer": "His first-day sales success seemed like beginner’s luck rather than skill.",
+        "answerZh": "他第一天便成功賣光蛋糕，看來像是新手運，而不是技巧。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q16",
+        "number": 16,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Our group had never completed this kind of puzzle before, but we unexpectedly finished before all the experienced teams.",
+        "promptZh": "我們的小組以前從未完成過這類拼圖，卻意外地比所有有經驗的隊伍更早完成。",
+        "starter": "A",
+        "answer": "A bit of beginner’s luck helped our inexperienced group finish the puzzle first.",
+        "answerZh": "一點新手的好運幫助我們這個毫無經驗的小組最先完成拼圖。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q17",
+        "number": 17,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "I won my first two video games easily, but I lost every game after that.",
+        "promptZh": "我最初兩場電子遊戲都輕易勝出，但其後每一場都落敗。",
+        "starter": "My",
+        "answer": "My beginner’s luck did not last beyond the first two video games.",
+        "answerZh": "我的新手運在最初兩場電子遊戲後便沒有持續下去。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q18",
+        "number": 18,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Sam had only begun learning golf when he won his first small competition. We are not certain that the result demonstrated skill.",
+        "promptZh": "森剛開始學習高爾夫球便贏得第一次小型比賽。我們不確定這個結果能否證明他的技巧。",
+        "starter": "Sam’s",
+        "answer": "Sam’s first golf victory could have been beginner’s luck.",
+        "answerZh": "森第一次參加高爾夫球比賽便勝出，可能只是新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q19",
+        "number": 19,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Someone said Hannah’s excellent first performance was caused by luck. However, she had already practised every day for six months.",
+        "promptZh": "有人說漢娜第一次的優秀表現來自運氣。不過，她已經每天練習了六個月。",
+        "starter": "It",
+        "answer": "It was not beginner’s luck; Hannah had practised every day for six months.",
+        "answerZh": "那並不是新手運；漢娜已經每天練習了六個月。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q20",
+        "number": 20,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "People sometimes succeed immediately when trying something new. This can make the activity appear much easier than it really is.",
+        "promptZh": "人們有時第一次嘗試新事物便立即成功。這可能令人覺得該活動比實際上容易得多。",
+        "starter": "Beginner’s",
+        "answer": "Beginner’s luck can make a new activity seem easier than it really is.",
+        "answerZh": "新手運可能令人覺得一項新活動比實際上容易。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "Beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q21",
+        "number": 21,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: You won your first fishing contest, even though you had never fished before. How did that happen? B: I honestly have no idea. I was probably simply lucky.",
+        "promptZh": "甲：你以前從未釣魚，第一次參加釣魚比賽便勝出。你是怎樣做到的？ 乙：老實說，我完全不知道。我大概只是幸運。",
+        "starter": "Beginner’s",
+        "answer": "“Beginner’s luck,” Ben replied after winning his first fishing contest.",
+        "answerZh": "「只是新手運吧。」本在第一次釣魚比賽勝出後回答。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "Beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q22",
+        "number": 22,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "I solved the puzzle on my first attempt even though I did not understand the usual method. You may say that I was simply lucky, but I still won.",
+        "promptZh": "我雖然不明白一般解法，卻在第一次嘗試時便解開拼圖。你可以說我只是幸運，但我確實成功了。",
+        "starter": "Call",
+        "answer": "Call it beginner’s luck, but I solved the puzzle on my first attempt.",
+        "answerZh": "你可以說這是新手運，但我確實第一次嘗試便解開了拼圖。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q23",
+        "number": 23,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Lila had never played tennis before, but she served perfectly in her first match. We do not yet know whether this came from chance or natural ability.",
+        "promptZh": "莉拉以前從未打過網球，卻在第一場比賽中完美發球。我們仍不知道這來自運氣還是天生能力。",
+        "starter": "Was",
+        "answer": "Was it beginner’s luck, or is Lila naturally good at tennis?",
+        "answerZh": "這是新手運，還是莉拉天生擅長網球？",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q24",
+        "number": 24,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Yusuf had just joined the team when he scored with his first touch of the ball. The coach said that the result was probably due to chance.",
+        "promptZh": "尤素福剛加入球隊，第一次觸球便入球。教練說這個結果大概來自運氣。",
+        "starter": "The",
+        "answer": "The coach put Yusuf’s first goal down to beginner’s luck.",
+        "answerZh": "教練認為尤素福第一次觸球便入球只是新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q25",
+        "number": 25,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Zoe has only played the game twice, but she has won both times. It is possible that she has simply been lucky so far.",
+        "promptZh": "佐伊只玩過這個遊戲兩次，但兩次都勝出。她至今可能只是比較幸運。",
+        "starter": "It",
+        "answer": "It might be beginner’s luck, but Zoe has won both games she has played.",
+        "answerZh": "這可能只是新手運，但佐伊玩過的兩場遊戲都勝出了。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q26",
+        "number": 26,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Everyone first believed that Felix’s excellent first result came from luck. Later, they learnt that he had studied the rules carefully before playing.",
+        "promptZh": "起初人人都相信費利克斯第一次取得優秀結果只是因為運氣。其後，他們得知費利克斯在參加前已仔細研究規則。",
+        "starter": "What",
+        "answer": "What looked like beginner’s luck may actually have been careful preparation.",
+        "answerZh": "看來像新手運的結果，其實可能來自仔細準備。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q27",
+        "number": 27,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Iris won with the first cake she ever made. However, she had carefully read the instructions and watched several lessons before beginning.",
+        "promptZh": "艾莉絲第一次製作蛋糕便勝出。不過，她開始前已仔細閱讀指示，並觀看了幾節教學。",
+        "starter": "The",
+        "answer": "The first cake’s success was not just beginner’s luck; Iris had prepared carefully.",
+        "answerZh": "第一個蛋糕的成功不只是新手運；艾莉絲曾經仔細準備。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q28",
+        "number": 28,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Victor won the first round without knowing the rules well. In the second round, he was no longer so fortunate and lost quickly.",
+        "promptZh": "維克托在不太熟悉規則的情況下贏得第一回合。第二回合時，他不再那麼幸運，很快便落敗。",
+        "starter": "His",
+        "answer": "His beginner’s luck ran out in the second round.",
+        "answerZh": "他的新手運在第二回合便用完了。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q29",
+        "number": 29,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Emma had only just begun playing badminton, but a small amount of early good fortune helped her reach the final.",
+        "promptZh": "艾瑪剛開始打羽毛球，一點早期的好運卻幫助她晉身決賽。",
+        "starter": "With",
+        "answer": "With a little beginner’s luck, Emma reached the badminton final.",
+        "answerZh": "憑着一點新手的好運，艾瑪晉身羽毛球決賽。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q30",
+        "number": 30,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Marcus won his first game after making several guesses. Everyone jokingly said that his result came from the good fortune of a new player.",
+        "promptZh": "馬庫斯作出幾次猜測後贏得第一場比賽。人人都開玩笑說，他的結果來自新手的好運。",
+        "starter": "Everyone",
+        "answer": "Everyone laughed and called Marcus’s first win beginner’s luck.",
+        "answerZh": "人人都笑着說馬庫斯第一次勝出只是新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q31",
+        "number": 31,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Although Kai had never played the game before, unexpected good fortune helped him win the first round.",
+        "promptZh": "雖然凱以前從未玩過這個遊戲，意外的好運卻幫助他贏得第一回合。",
+        "starter": "Although",
+        "answer": "Although Kai had never played the game before, beginner’s luck helped him win the first round.",
+        "answerZh": "雖然凱以前從未玩過這個遊戲，新手的好運卻幫助他贏得第一回合。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q32",
+        "number": 32,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Nia produced an excellent photograph the first time she used a camera. Because she was completely inexperienced, people assumed that the result came from luck.",
+        "promptZh": "妮亞第一次使用相機便拍出優秀照片。由於她完全沒有經驗，人們認為這個結果來自運氣。",
+        "starter": "Because",
+        "answer": "Because it was her first time using a camera, people assumed Nia’s excellent photograph was beginner’s luck.",
+        "answerZh": "因為妮亞是第一次使用相機，人們認為她的優秀照片只是新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q33",
+        "number": 33,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Perhaps Jacob’s first victory came from luck. However, his next three victories provided much stronger evidence of real ability.",
+        "promptZh": "雅各布的第一次勝利或許來自運氣。不過，其後三次勝利更有力地證明了他的真正能力。",
+        "starter": "Even",
+        "answer": "Even if Jacob’s first victory was beginner’s luck, his next three victories showed real ability.",
+        "answerZh": "即使雅各布第一次勝出只是新手運，其後三次勝利也證明了真正能力。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q34",
+        "number": 34,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "I unexpectedly achieved the highest score the first time I played. Afterwards, I wondered whether luck had partly caused the result.",
+        "promptZh": "我第一次玩便意外取得最高分。事後，我懷疑運氣是否對結果有部分影響。",
+        "starter": "After",
+        "answer": "After achieving the highest score immediately, I wondered whether beginner’s luck had played a part.",
+        "answerZh": "立即取得最高分後，我懷疑新手運是否發揮了作用。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q35",
+        "number": 35,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The new player achieved one excellent result immediately, but one result does not yet prove that she is highly skilled.",
+        "promptZh": "這名新手立即取得一次優秀結果，但單憑一次結果仍未能證明她技巧高超。",
+        "starter": "The",
+        "answer": "The new player’s quick success may be nothing more than beginner’s luck.",
+        "answerZh": "這名新手迅速取得成功，可能只不過是新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q36",
+        "number": 36,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Aaron found the hidden answer with his first guess, despite knowing almost nothing about the puzzle.",
+        "promptZh": "儘管亞倫對這個謎題幾乎一無所知，他第一次猜測便找出隱藏答案。",
+        "starter": "Beginner’s",
+        "answer": "Beginner’s luck was at work when Aaron found the hidden answer with his first guess.",
+        "answerZh": "亞倫第一次猜測便找到隱藏答案，當中新手運發揮了作用。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "Beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q37",
+        "number": 37,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Our new method produced a perfect result on its first use. It is possible that this was only an unusually lucky beginning, so we should test it again.",
+        "promptZh": "我們的新方法首次使用便產生完美結果。這可能只是一次異常幸運的開始，因此我們應再次測試。",
+        "starter": "The",
+        "answer": "The perfect first result could be a case of beginner’s luck, so we should test the method again.",
+        "answerZh": "第一次便得到完美結果可能只是新手運，因此我們應再次測試這個方法。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q38",
+        "number": 38,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Lauren’s first attempt was excellent, but all her later attempts were poor. The early result now appears to have come from chance.",
+        "promptZh": "勞倫第一次嘗試的表現十分優秀，但其後所有嘗試都很差。現在看來，早期的結果似乎來自運氣。",
+        "starter": "Since",
+        "answer": "Since Lauren’s later attempts were poor, her excellent first attempt now seems like beginner’s luck.",
+        "answerZh": "由於勞倫其後的嘗試都很差，她優秀的第一次嘗試現在看來像是新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q39",
+        "number": 39,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The new player won, although she had no experience. Chance rather than experience appeared to have helped her.",
+        "promptZh": "這名新手雖然毫無經驗，卻取得勝利。幫助她的看來是運氣，而不是經驗。",
+        "starter": "It",
+        "answer": "It was beginner’s luck, not experience, that appeared to help the new player win.",
+        "answerZh": "幫助這名新手勝出的看來是新手運，而不是經驗。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q40",
+        "number": 40,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Elena’s first victory may have come from luck or natural ability. In either case, it made her confident enough to continue practising.",
+        "promptZh": "埃琳娜的第一次勝利可能來自運氣，也可能來自天生能力。無論如何，這令她有足夠信心繼續練習。",
+        "starter": "Whether",
+        "answer": "Whether Elena’s victory came from beginner’s luck or natural ability, it gave her confidence to continue practising.",
+        "answerZh": "無論埃琳娜的勝利來自新手運還是天生能力，它都給了她信心繼續練習。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q41",
+        "number": 41,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The new worker completed her first sale successfully after preparing carefully. The manager said it was only luck because she was inexperienced, but this judgement seemed unfair.",
+        "promptZh": "這名新員工經過仔細準備後成功完成第一宗交易。經理說她只是因為沒有經驗而碰巧成功，但這個評價似乎並不公平。",
+        "starter": "The",
+        "answer": "The manager called the new worker’s first successful sale beginner’s luck, which seemed unfair after all her preparation.",
+        "answerZh": "經理把新員工第一次成功交易稱為新手運，但考慮到她所作的準備，這個評價似乎並不公平。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q42",
+        "number": 42,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "At first, the class dismissed Amir’s excellent first result as mere luck. After he produced several more excellent results, they accepted that he had real ability.",
+        "promptZh": "起初，全班把阿米爾第一次的優秀結果視為純粹運氣。他其後再取得多次優秀結果，大家才承認他確實有能力。",
+        "starter": "What",
+        "answer": "What the class first dismissed as beginner’s luck turned out to be Amir’s real ability.",
+        "answerZh": "全班起初視為新手運的表現，後來證明是阿米爾的真正能力。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q43",
+        "number": 43,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "One unexpectedly good result from a new player may come from chance. Therefore, one result alone is not enough to judge the player’s ability.",
+        "promptZh": "一名新手取得一次意外的好結果可能來自運氣。因此，單憑一次結果不足以判斷他的能力。",
+        "starter": "A",
+        "answer": "A single early success can be beginner’s luck, so one result is not enough to judge ability.",
+        "answerZh": "一次早期成功可能只是新手運，因此單憑一個結果不足以判斷能力。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q44",
+        "number": 44,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The team won its first match after joining the competition. People currently say it was only luck, but another victory might change their opinion.",
+        "promptZh": "這支隊伍加入比賽後便贏得第一場賽事。人們現在說這只是運氣，但再勝出一次可能會改變他們的看法。",
+        "starter": "If",
+        "answer": "If the team wins again, people may stop calling its first victory beginner’s luck.",
+        "answerZh": "如果球隊再次勝出，人們可能不再把它的首次勝利稱為新手運。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q45",
+        "number": 45,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Tariq succeeded the first time he tried the task. He was new to it, but he had also thought carefully before acting, so the true cause is uncertain.",
+        "promptZh": "塔里克第一次嘗試這項工作便成功。他雖然是新手，但行動前亦曾仔細思考，因此真正原因並不確定。",
+        "starter": "It",
+        "answer": "It is hard to know whether Tariq’s first success was beginner’s luck or the result of careful thought.",
+        "answerZh": "很難判斷塔里克的首次成功是新手運，還是仔細思考的結果。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q46",
+        "number": 46,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A lucky beginning may explain why the new player won once. It cannot reasonably explain why she later won six more times.",
+        "promptZh": "一次幸運的開始或可解釋這名新手為何勝出一次，卻不能合理解釋她其後為何再勝出六次。",
+        "starter": "Beginner’s",
+        "answer": "Beginner’s luck may explain the first win, but it cannot explain six more victories.",
+        "answerZh": "新手運或可解釋第一次勝利，卻不能解釋其後六次勝利。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "Beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q47",
+        "number": 47,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "I found the game extremely easy when I won immediately. After that first success, my early good fortune disappeared and the game became much more difficult.",
+        "promptZh": "我立即勝出時，覺得這個遊戲極為容易。首次成功後，早期的好運消失了，遊戲亦變得困難得多。",
+        "starter": "After",
+        "answer": "After my easy first success, my beginner’s luck disappeared and the game became much harder.",
+        "answerZh": "第一次輕易成功後，我的新手運消失了，遊戲亦變得困難得多。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q48",
+        "number": 48,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Nathaniel achieved a perfect result on his first attempt. Nobody could decide whether luck or good judgement had produced it.",
+        "promptZh": "納撒尼爾第一次嘗試便取得完美結果。沒有人能判斷結果來自運氣還是良好判斷。",
+        "starter": "No",
+        "answer": "No one could tell whether beginner’s luck or good judgement had produced Nathaniel’s perfect result.",
+        "answerZh": "沒有人能判斷納撒尼爾的完美結果來自新手運還是良好判斷。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q49",
+        "number": 49,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Sofia’s first success probably came mainly from luck. However, it encouraged her to practise until her later success came from genuine ability.",
+        "promptZh": "索菲亞的第一次成功大概主要來自運氣。不過，這次成功鼓勵她不斷練習，直至其後的成功真正來自能力。",
+        "starter": "What",
+        "answer": "What began as beginner’s luck encouraged Sofia to practise until she developed genuine skill.",
+        "answerZh": "最初的新手運鼓勵索菲亞不斷練習，直至她培養出真正技巧。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      },
+      {
+        "id": "idiom-124-q50",
+        "number": 50,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Nathan unexpectedly sold his first painting even though he had only just begun painting. The small success may have been lucky, but it gave him the confidence to continue learning.",
+        "promptZh": "內森剛開始繪畫，第一幅畫便意外售出。這次小成功可能只是幸運，但它給了內森信心繼續學習。",
+        "starter": "Perhaps",
+        "answer": "Perhaps it was beginner’s luck, but Nathan’s first successful painting gave him the confidence to continue learning.",
+        "answerZh": "這或許只是新手運，但內森第一幅成功售出的畫給了他信心繼續學習。",
+        "targetForm": "beginner’s luck",
+        "targetMeaning": "The expression suggests that the early success happened partly or mainly by chance rather than through proven skill. Cambridge defines it as unexpected success experienced by someone beginning an activity, while Oxford classifies it as an uncountable noun meaning good luck or unexpected success when doing something new. 乎沒有經驗,卻意外取得成功。",
+        "highlight": "beginner’s luck"
+      }
+    ]
+  }
+}

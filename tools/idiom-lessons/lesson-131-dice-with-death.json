@@ -1,0 +1,1636 @@
+{
+  "lesson": {
+    "id": "idiom-131",
+    "order": 131,
+    "slug": "dice-with-death",
+    "version": "1",
+    "title": "玩命／冒生命危險",
+    "titleEn": "dice with death",
+    "titleZh": "玩命／冒生命危險",
+    "source": {
+      "file": "Idiom 131 - 「dice with death」.pdf",
+      "pageCount": 36,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "exercisePdfPages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "answerKeyPdfPages": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "dice with death",
+        "highlight": "dice with death"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Fishermen sometimes dice with death in violent storms.",
+        "zh": "漁民有時會在猛烈風暴中拿生命冒險。",
+        "highlight": "dice with death"
+      },
+      {
+        "en": "The driver diced with death on the icy road.",
+        "zh": "那名司機在結冰的道路上拿生命冒險。",
+        "highlight": "diced with death"
+      }
+    ],
+    "meaning": {
+      "en": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+      "zh": "作出極度危險而愚蠢的行為，令自己可能喪命；明知危險仍拿自己的生命冒險。",
+      "naturalZh": [
+        "作出極度危險而愚蠢的行為，令自己可能喪命",
+        "明知危險仍拿自己的生命冒險。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "The expression is mainly British and informal. It is common in conversation, warnings, news reports and dramatic descriptions of danger. It normally carries criticism, alarm or strong concern rather than neutral description.",
+      "summaryZh": "這個表達主要屬英式英語，並帶有較口語的色彩。 它常見於日常對話、警告、新聞報道及對危險情況的強烈描述。 它通常帶有批評、驚恐或強烈憂慮，而不是完全中性的語氣。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "The expression is mainly British and informal. It is common in conversation, warnings, news reports and dramatic descriptions of danger. It normally carries criticism, alarm or strong concern rather than neutral description.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "dice with death",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + dice(s) / diced with death.",
+          "example": "Fishermen sometimes dice with death in violent storms.",
+          "highlight": "dice with death"
+        },
+        {
+          "form": "Subject + be + dicing with death.",
+          "example": "You are dicing with death at that speed.",
+          "highlight": "dicing with death"
+        },
+        {
+          "form": "Subject + may / might / could / would / should / must + dice with death.",
+          "example": "Nobody should dice with death for a photograph.",
+          "highlight": "dice with death"
+        },
+        {
+          "form": "Subject + verb + to dice with death.",
+          "example": "The guide refused to dice with death.",
+          "highlight": "dice with death"
+        },
+        {
+          "form": "Subject + stop / avoid / continue + dicing with death.",
+          "example": "They must stop dicing with death.",
+          "highlight": "dicing with death"
+        },
+        {
+          "form": "Dicing with death + verb.",
+          "example": "Dicing with death is not an act of courage.",
+          "highlight": "Dicing with death"
+        },
+        {
+          "form": "To + dangerous action + be + to dice with death.",
+          "example": "To enter the burning building would be to dice with death.",
+          "highlight": "dice with death"
+        },
+        {
+          "form": "It + be + dicing with death + to + verb.",
+          "example": "It would be dicing with death to cross the flooded road.",
+          "highlight": "dicing with death"
+        },
+        {
+          "form": "dice with death",
+          "example": "Stop dicing with death.",
+          "highlight": "dicing with death"
+        },
+        {
+          "form": "dice with death",
+          "example": "Although he was experienced, he was still dicing with death.",
+          "highlight": "dicing with death"
+        },
+        {
+          "form": "By + V-ing answers:",
+          "example": "The visitor was dicing with death by climbing over the barrier.",
+          "highlight": "dicing with death"
+        },
+        {
+          "form": "Patterns 1–11 + optional context extension.",
+          "example": "You are dicing with death at that speed on an icy road.",
+          "highlight": "dicing with death"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作一般限定動詞短語",
+        "formula": "Subject + dice(s) / diced with death.",
+        "descriptionEn": "This pattern directly identifies the person who takes the dangerous action.",
+        "descriptionZh": "這個句式直接指出是誰作出可能致命的危險行為。",
+        "examples": [
+          {
+            "en": "Fishermen sometimes dice with death in violent storms.",
+            "zh": "漁民有時會在猛烈風暴中拿生命冒險。",
+            "highlight": "dice with death"
+          },
+          {
+            "en": "The driver diced with death on the icy road.",
+            "zh": "那名司機在結冰的道路上拿生命冒險。",
+            "highlight": "diced with death"
+          },
+          {
+            "en": "Ben dices with death whenever he touches live wires.",
+            "zh": "每當本觸摸帶電的電線，他都是在玩命。",
+            "highlight": "dices with death"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "In a Progressive Form",
+        "titleZh": "使用進行式",
+        "formula": "Subject + be + dicing with death.",
+        "descriptionEn": "The progressive form is particularly common when warning somebody about conduct happening now or repeatedly. Cambridge and Collins both provide progressive examples.",
+        "descriptionZh": "進行式特別常用於警告某人正在作出或不斷作出危險行為。",
+        "examples": [
+          {
+            "en": "You are dicing with death at that speed.",
+            "zh": "你以那個速度駕駛，根本是在玩命。",
+            "highlight": "dicing with death"
+          },
+          {
+            "en": "The swimmers were dicing with death in the storm.",
+            "zh": "那些泳手在風暴中游泳，根本是在拿生命冒險。",
+            "highlight": "dicing with death"
+          },
+          {
+            "en": "The workers may be dicing with death inside that building.",
+            "zh": "那些工人在該建築物內可能是在拿生命冒險。",
+            "highlight": "dicing with death"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "配合情態動詞",
+        "formula": "Subject + may / might / could / would / should / must + dice with death.",
+        "descriptionEn": "The modal must preserve the original degree of certainty.",
+        "descriptionZh": "情態動詞必須保留原句的確定程度。",
+        "examples": [
+          {
+            "en": "Nobody should dice with death for a photograph.",
+            "zh": "任何人都不應為了一張照片而玩命。",
+            "highlight": "dice with death"
+          },
+          {
+            "en": "You could be dicing with death if you enter that cave.",
+            "zh": "如果你進入那個洞穴，你可能是在拿生命冒險。",
+            "highlight": "dicing with death"
+          },
+          {
+            "en": "They would be dicing with death if they crossed the river now.",
+            "zh": "如果他們現在過河，便會是在拿生命冒險。",
+            "highlight": "dicing with death"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After Another Verb",
+        "titleZh": "接在另一個動詞後",
+        "formula": "Subject + verb + to dice with death.",
+        "descriptionEn": "Source grammar frame: Subject + verb + to dice with death.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb + to dice with death。",
+        "examples": [
+          {
+            "en": "The guide refused to dice with death.",
+            "zh": "導遊拒絕拿生命冒險。",
+            "highlight": "dice with death"
+          },
+          {
+            "en": "They continued to dice with death despite the warnings.",
+            "zh": "儘管已有警告，他們仍繼續拿生命冒險。",
+            "highlight": "dice with death"
+          },
+          {
+            "en": "Why would anyone choose to dice with death?",
+            "zh": "為甚麼會有人選擇拿生命冒險？",
+            "highlight": "dice with death"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After a Verb or Preposition Requiring -ing",
+        "titleZh": "接在要求使用 -ing 的動詞或介詞後",
+        "formula": "Subject + stop / avoid / continue + dicing with death.",
+        "descriptionEn": "Source grammar frame: Subject + stop / avoid / continue + dicing with death.",
+        "descriptionZh": "原檔列出的句法框架：Subject + stop / avoid / continue + dicing with death。",
+        "examples": [
+          {
+            "en": "They must stop dicing with death.",
+            "zh": "他們必須停止玩命。",
+            "highlight": "dicing with death"
+          },
+          {
+            "en": "The guide warned us against dicing with death.",
+            "zh": "導遊警告我們不要拿生命冒險。",
+            "highlight": "dicing with death"
+          },
+          {
+            "en": "The group continued dicing with death despite two injuries.",
+            "zh": "儘管已有兩人受傷，那群人仍繼續拿生命冒險。",
+            "highlight": "dicing with death"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "As the Subject of a Sentence",
+        "titleZh": "作句子主語",
+        "formula": "Dicing with death + verb.",
+        "descriptionEn": "The -ing form allows the entire dangerous behaviour to function as the subject.",
+        "descriptionZh": "使用 -ing 形式後，整項危險行為可以作為句子的主語。",
+        "examples": [
+          {
+            "en": "Dicing with death is not an act of courage.",
+            "zh": "拿生命冒險並不是勇敢的行為。",
+            "highlight": "Dicing with death"
+          },
+          {
+            "en": "Dicing with death for online attention is foolish.",
+            "zh": "為了在網上引起注意而玩命，是愚蠢的行為。",
+            "highlight": "Dicing with death"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "With “To + Action + Be”",
+        "titleZh": "使用「To + 行動 + Be」",
+        "formula": "To + dangerous action + be + to dice with death.",
+        "descriptionEn": "Collins corpus examples include this kind of structure, in which one dangerous action is directly equated with dicing with death.",
+        "descriptionZh": "這個句式把某項危險行為直接等同「拿生命冒險」。",
+        "examples": [
+          {
+            "en": "To enter the burning building would be to dice with death.",
+            "zh": "進入正在燃燒的建築物，等同拿生命冒險。",
+            "highlight": "dice with death"
+          },
+          {
+            "en": "To have continued the race would have been to dice with death.",
+            "zh": "當時繼續比賽，本來就等同拿生命冒險。",
+            "highlight": "dice with death"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "With “It + Be”",
+        "titleZh": "使用「It + Be」",
+        "formula": "It + be + dicing with death + to + verb.",
+        "descriptionEn": "This structure evaluates the whole action.",
+        "descriptionZh": "這個句式用來評價整項行為。",
+        "examples": [
+          {
+            "en": "It would be dicing with death to cross the flooded road.",
+            "zh": "駛過水浸道路，等同拿生命冒險。",
+            "highlight": "dicing with death"
+          },
+          {
+            "en": "It was dicing with death to climb without a rope.",
+            "zh": "沒有安全繩便攀爬，等同拿生命冒險。",
+            "highlight": "dicing with death"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "In Commands, Warnings and Questions",
+        "titleZh": "用於命令、警告及問題",
+        "formula": "dice with death",
+        "descriptionEn": "These patterns are useful when the speaker wants the dangerous action to stop.",
+        "descriptionZh": "當說話者希望對方停止危險行為時，這些句式十分實用。",
+        "examples": [
+          {
+            "en": "Stop dicing with death.",
+            "zh": "不要再拿生命冒險。",
+            "highlight": "dicing with death"
+          },
+          {
+            "en": "Why dice with death when a safe path is available?",
+            "zh": "既然有安全道路，何必玩命？",
+            "highlight": "dice with death"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Inside a Longer Clause",
+        "titleZh": "置於較長的子句內",
+        "formula": "dice with death",
+        "descriptionEn": "The idiom may appear near the beginning, middle or end of the complete answer.",
+        "descriptionZh": "這個慣用語可以出現在完整答案的前段、中段或末段。",
+        "examples": [
+          {
+            "en": "Although he was experienced, he was still dicing with death.",
+            "zh": "儘管他經驗豐富，他仍然是在拿生命冒險。",
+            "highlight": "dicing with death"
+          },
+          {
+            "en": "If they continue, they will be dicing with death.",
+            "zh": "如果他們繼續，他們便是在拿生命冒險。",
+            "highlight": "dicing with death"
+          },
+          {
+            "en": "What looked like courage was really dicing with death.",
+            "zh": "看似勇敢的行為，其實是在拿生命冒險。",
+            "highlight": "dicing with death"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "With “By + V-ing”",
+        "titleZh": "配合「by + V-ing」",
+        "formula": "By + V-ing answers:",
+        "descriptionEn": "How was the person dicing with death?",
+        "descriptionZh": "回答：",
+        "examples": [
+          {
+            "en": "The visitor was dicing with death by climbing over the barrier.",
+            "zh": "那名遊客爬過圍欄，根本是在拿生命冒險。",
+            "highlight": "dicing with death"
+          },
+          {
+            "en": "The fire service warned residents not to dice with death by returning to the burning building.",
+            "zh": "消防部門警告居民，不要返回正在燃燒的建築物拿生命冒險。",
+            "highlight": "dice with death"
+          },
+          {
+            "en": "The visitor was dicing with death.",
+            "zh": "那名遊客正在拿生命冒險。",
+            "highlight": "dicing with death"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Patterns 1–11 + optional context extension",
+        "titleZh": "句式十二",
+        "formula": "Patterns 1–11 + optional context extension.",
+        "descriptionEn": "Source grammar frame: Patterns 1–11 + optional context extension.",
+        "descriptionZh": "原檔列出的句法框架：Patterns 1–11 + optional context extension。",
+        "examples": [
+          {
+            "en": "You are dicing with death at that speed on an icy road.",
+            "zh": "你在結冰的道路上以那個速度駕駛，根本是在拿生命冒險。",
+            "highlight": "dicing with death"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Gives a Powerful Safety Warning",
+        "titleZh": "提供強而有力的安全警告",
+        "en": "The idiomatic version communicates urgency and strong concern.",
+        "zh": "你以那個速度駕駛，根本是在玩命。 慣用語版本能夠傳達迫切感及強烈憂慮。",
+        "examples": [
+          {
+            "en": "You are dicing with death at that speed.",
+            "zh": "你以那個速度駕駛，根本是在玩命。",
+            "highlight": "dicing with death"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Condenses a Longer Explanation",
+        "titleZh": "濃縮較長的解釋",
+        "en": "The person is dicing with death.",
+        "zh": "你可以用較簡潔的方式表達「當事人明知行為極度危險，仍然冒着喪命的風險」。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Clearly Marks the Degree of Danger",
+        "titleZh": "清楚表明危險程度",
+        "en": "The expression does not describe a small or ordinary risk. It signals possible death.",
+        "zh": "這個表達不是指輕微或一般風險，而是清楚指出可能有人喪命。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Criticise False Bravery",
+        "titleZh": "可以批評虛假的勇敢",
+        "en": "The expression helps distinguish courage from foolish risk-taking.",
+        "zh": "這個表達有助區分真正的勇氣與愚蠢的冒險行為。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Works in Many Grammar Structures",
+        "titleZh": "可配合多種句法結構",
+        "en": "warnings; reports; questions; conditionals; past narratives; modal statements; evaluations.",
+        "zh": "學生可以把它用於警告、報道、問題、條件句、過去敘事、情態陳述及評價。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Helps Students Understand British Media Language",
+        "titleZh": "幫助學生理解英式媒體語言",
+        "en": "The expression is especially associated with British English and often appears in strong descriptions of reckless physical danger. The idiom is useful, but it is not automatically better than dangerous or risk your life. Use it only when the danger is genuinely extreme.",
+        "zh": "這個表達尤其常見於英式英語，亦常用於強烈描述魯莽而可能致命的危險行為。 這個慣用語十分實用，但不一定比 dangerous 或 risk your life 更好。 只有當危險真正極為嚴重時才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Gambling Metaphor Clear",
+      "statusZh": "確切來源不明；賭博比喻清晰",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The verb dice has long meant playing games with dice and, by extension, taking a chance. Merriam-Webster records both senses and uses dice with death as an example of taking a chance. Historical word references trace the gaming sense of the verb to Middle English. However, the consulted authoritative dictionaries do not identify one proven inventor or one exact first use of the complete idiom.",
+          "zh": "動詞 dice 長久以來可以表示玩骰子遊戲，後來亦可延伸表示冒險或碰運氣。 Merriam-Webster 同時收錄這兩個意思，並以 dice with death 作為冒險意思的例子。 歷史詞源資料把這個動詞的遊戲意思追溯至中古英語。 然而，所查閱的權威字典並沒有指出完整慣用語由哪一個人創造，亦沒有確認唯一的首次用法。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Playing dice involves chance and an uncertain result. Speakers applied that image to reckless behaviour: a person who knowingly enters deadly danger is treated as though they were gambling with death itself.",
+          "zh": "玩骰子涉及機會及不確定的結果。 說話者把這個畫面應用於魯莽行為：一個人明知危險可能致命仍然行動，就像正在以自己的生命與死亡對賭。"
+        }
+      ],
+      "memoryEn": "Throwing dice leaves the result to chance; dicing with death leaves your life to chance.",
+      "memoryZh": "擲骰子是把結果交給機會；dice with death 則是把自己的生命交給機會。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "The Risk Must Be Potentially Fatal",
+        "titleZh": "規則一：風險必須可能致命",
+        "en": "The second sentence exaggerates an ordinary non-fatal risk.",
+        "zh": "徒步橫過高速公路等同拿生命冒險。 沒有溫習便參加考試是在拿生命冒險。 第二句把一般而不致命的風險過分誇大。",
+        "examples": [
+          {
+            "en": "Crossing a motorway on foot is dicing with death.",
+            "zh": "徒步橫過高速公路等同拿生命冒險。",
+            "highlight": "dicing with death"
+          },
+          {
+            "en": "Going to an exam without studying is dicing with death.",
+            "zh": "沒有溫習便參加考試是在拿生命冒險。",
+            "highlight": "dicing with death"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "The Person Normally Knows the Danger",
+        "titleZh": "規則二：當事人通常知道存在危險",
+        "en": "The expression commonly criticises somebody who ignores an obvious or known danger.",
+        "zh": "這個表達通常批評某人忽視明顯或已知的危險。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則三：保留確定程度",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把一個可能情況變成已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve Time",
+        "titleZh": "規則四：保留時間",
+        "en": "Preserve Time",
+        "zh": "保留時間",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Keep “Death” Without an Article",
+        "titleZh": "規則五：death 前不使用冠詞",
+        "en": "Keep “Death” Without an Article",
+        "zh": "death 前不使用冠詞",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Confuse “Dice” with Cutting Food",
+        "titleZh": "規則六：不要與切粒的 dice 混淆",
+        "en": "Dice the carrots before adding them to the soup.",
+        "zh": "把紅蘿蔔切粒，然後放進湯中。 在結冰道路上高速競駛的司機是在拿生命冒險。",
+        "examples": [
+          {
+            "en": "Drivers who race on icy roads are dicing with death.",
+            "zh": "在結冰道路上高速競駛的司機是在拿生命冒險。",
+            "highlight": "dicing with death"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Confuse It with an Ordinary Game",
+        "titleZh": "規則七：不要與一般擲骰子遊戲混淆",
+        "en": "The expression does not describe people literally playing a board game with a person called Death.",
+        "zh": "這個表達並不是指人們真的與一個名為「死亡」的人玩骰子遊戲。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Avoid Casual Hyperbole",
+        "titleZh": "規則八：避免隨便誇大",
+        "en": "trying unfamiliar food.",
+        "zh": "不要把這個表達用於：",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Present Recklessness as Heroism",
+        "titleZh": "規則九：不要把魯莽行為說成英雄行為",
+        "en": "The expression normally criticises or warns. It does not usually praise the person.",
+        "zh": "這個表達通常用作批評或警告，並不通常用來稱讚當事人。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Keep Supporting Vocabulary Simple",
+        "titleZh": "規則十：周邊詞彙應保持簡單",
+        "en": "The main challenge should be producing dice with death naturally, not understanding difficult technical words.",
+        "zh": "主要學習難點應是自然地使用 dice with death，而不是理解艱深的技術詞彙。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using dice with death. Change the form of dice when necessary.",
+      "zh": "使用 dice with death 改寫句子或完成回應。 需要時改變 dice 的形式。"
+    },
+    "questions": [
+      {
+        "id": "idiom-131-q01",
+        "number": 1,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "You are driving far too fast on an icy road. One small mistake could kill you.",
+        "promptZh": "你在結冰的道路上開得太快。一個小錯誤便可能令你喪命。",
+        "starter": "You",
+        "answer": "You are dicing with death at that speed on an icy road.",
+        "answerZh": "你在結冰的道路上以那個速度駕駛，根本是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q02",
+        "number": 2,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The swimmers entered the sea during a violent storm. The waves could easily pull them under.",
+        "promptZh": "那些泳手在猛烈風暴期間下海。巨浪很容易把他們捲入水中。",
+        "starter": "The",
+        "answer": "The swimmers were dicing with death when they entered the sea during the violent storm.",
+        "answerZh": "那些泳手在猛烈風暴期間下海，根本是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q03",
+        "number": 3,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Aron crossed the railway tracks even though a train was approaching.",
+        "promptZh": "儘管火車正在駛近，阿倫仍然橫過路軌。",
+        "starter": "Aron",
+        "answer": "Aron diced with death when he crossed the railway tracks in front of an approaching train.",
+        "answerZh": "阿倫在駛近的火車前橫過路軌，簡直是在玩命。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "diced with death"
+      },
+      {
+        "id": "idiom-131-q04",
+        "number": 4,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The climber went up the high rock face without a safety rope. A fall could have killed him.",
+        "promptZh": "那名攀山者沒有使用安全繩，便攀上高高的岩壁。他一旦墮下便可能喪命。",
+        "starter": "The",
+        "answer": "The climber was dicing with death on the high rock face without a safety rope.",
+        "answerZh": "那名攀山者沒有使用安全繩便攀上高高的岩壁，根本是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q05",
+        "number": 5,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Anyone who walks along that narrow cliff edge could fall hundreds of metres.",
+        "promptZh": "任何人在那道狹窄的懸崖邊行走，都可能從數百米高處墮下。",
+        "starter": "Anyone",
+        "answer": "Anyone who walks along that narrow cliff edge is dicing with death.",
+        "answerZh": "任何人在那道狹窄的懸崖邊行走，都是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q06",
+        "number": 6,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Ben repairs live electric wires without turning off the power. He could receive a fatal electric shock.",
+        "promptZh": "本在沒有關掉電源的情況下維修帶電的電線。他可能受到致命電擊。",
+        "starter": "Ben",
+        "answer": "Ben dices with death whenever he repairs live wires without turning off the power.",
+        "answerZh": "每當本不關掉電源便維修帶電的電線，他都是在玩命。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dices with death"
+      },
+      {
+        "id": "idiom-131-q07",
+        "number": 7,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The small fishing boat remained at sea while huge waves were breaking over it. The boat could have sunk.",
+        "promptZh": "那艘小漁船在巨浪不斷打上船身時仍然留在海上。船隻可能已經沉沒。",
+        "starter": "The",
+        "answer": "The crew diced with death by remaining at sea in such dangerous waves.",
+        "answerZh": "船員在如此危險的巨浪中仍然留在海上，簡直是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "diced with death"
+      },
+      {
+        "id": "idiom-131-q08",
+        "number": 8,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: I am going back into the burning house to get my laptop. B: Do not risk your life for a computer.",
+        "promptZh": "甲：我要回到正在燃燒的屋內取回手提電腦。 乙：不要為了一部電腦拿自己的生命冒險。",
+        "starter": "Do",
+        "answer": "Do not dice with death for a laptop.",
+        "answerZh": "不要為了一部手提電腦而玩命。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q09",
+        "number": 9,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Riding a motorbike at high speed without a helmet could easily cause a fatal head injury.",
+        "promptZh": "高速駕駛電單車而不戴頭盔，很容易造成致命的頭部創傷。",
+        "starter": "Riding",
+        "answer": "Riding a motorbike at high speed without a helmet is dicing with death.",
+        "answerZh": "高速駕駛電單車而不戴頭盔，等同拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q10",
+        "number": 10,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "To enter that flooded tunnel alone would put your life in extreme danger.",
+        "promptZh": "獨自進入那條水浸隧道，會令你的生命陷入極大危險。",
+        "starter": "To",
+        "answer": "To enter that flooded tunnel alone would be to dice with death.",
+        "answerZh": "獨自進入那條水浸隧道，等同拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q11",
+        "number": 11,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "If you swim beyond the warning flags, the strong current could carry you far from the beach, where you could drown.",
+        "promptZh": "如果你游越警告旗，強勁水流可能把你帶到遠離海灘的地方，令你遇溺。",
+        "starter": "You",
+        "answer": "You could be dicing with death if you swim beyond the warning flags.",
+        "answerZh": "如果你游越警告旗，你可能是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q12",
+        "number": 12,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Anyone who enters the closed cave during heavy rain may be trapped and killed by sudden flooding.",
+        "promptZh": "任何人在大雨期間進入已封閉的洞穴，都可能被突如其來的洪水困住並喪命。",
+        "starter": "Anyone",
+        "answer": "Anyone who enters the closed cave during heavy rain may be dicing with death.",
+        "answerZh": "任何人在大雨期間進入已封閉的洞穴，都可能是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q13",
+        "number": 13,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The video is unclear, but the cyclist seems to be using a phone while riding through busy traffic. A lorry could hit him.",
+        "promptZh": "影片並不清楚，但那名單車手似乎一邊穿過繁忙車流，一邊使用電話。他可能被貨車撞倒。",
+        "starter": "The",
+        "answer": "The cyclist may be dicing with death as he uses a phone in busy traffic.",
+        "answerZh": "那名單車手在繁忙車流中使用電話，可能是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q14",
+        "number": 14,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "For several weeks, the workers have entered the weak building even though parts of its roof keep falling.",
+        "promptZh": "數星期以來，工人一直進入那座不穩固的建築物，儘管部分屋頂不斷塌下。",
+        "starter": "The",
+        "answer": "The workers have been dicing with death inside the unsafe building for several weeks.",
+        "answerZh": "數星期以來，那些工人一直在不安全的建築物內拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q15",
+        "number": 15,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Before the bridge was closed, drivers repeatedly crossed it despite deep cracks in the road.",
+        "promptZh": "大橋封閉前，儘管路面出現很深的裂縫，司機仍多次駛過。",
+        "starter": "Before",
+        "answer": "Before the bridge was closed, drivers had been dicing with death every time they crossed it.",
+        "answerZh": "大橋封閉前，司機每次駛過大橋都是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q16",
+        "number": 16,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The photographer repeatedly entered areas where falling rocks could kill him because he wanted a dramatic picture.",
+        "promptZh": "那名攝影師為了拍攝震撼的照片，多次進入可能被墮下石塊擊斃的地方。",
+        "starter": "The",
+        "answer": "The photographer repeatedly diced with death in his search for a dramatic picture.",
+        "answerZh": "那名攝影師為了拍攝震撼的照片，多次拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "diced with death"
+      },
+      {
+        "id": "idiom-131-q17",
+        "number": 17,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Why did the guide cancel the mountain trip? B: He would not lead us onto an unsafe path during the storm. One slip could have killed us.",
+        "promptZh": "甲：導遊為甚麼取消登山行程？ 乙：他不願在風暴期間帶領我們走上不安全的山路。一次失足便可能令我們喪命。",
+        "starter": "The",
+        "answer": "The guide refused to let us dice with death on the unsafe mountain path.",
+        "answerZh": "導遊拒絕讓我們在不安全的山路上拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q18",
+        "number": 18,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Even after two people were injured, the group kept jumping from the high bridge into water of unknown depth. The next jump could have been fatal.",
+        "promptZh": "即使已有兩人受傷，那群人仍繼續從高橋跳進水深不明的水域。下一次跳躍可能會致命。",
+        "starter": "The",
+        "answer": "The group continued dicing with death as they jumped from the high bridge.",
+        "answerZh": "那群人繼續從高橋跳下，根本是在玩命。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q19",
+        "number": 19,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The teenagers must stop climbing onto moving trains before somebody is killed.",
+        "promptZh": "那些青少年必須停止爬上行駛中的火車，以免有人喪命。",
+        "starter": "The",
+        "answer": "The teenagers must stop dicing with death on moving trains.",
+        "answerZh": "那些青少年必須停止爬上行駛中的火車，不要再拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q20",
+        "number": 20,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The coach warned the runners not to train outside during the lightning storm because they could be struck and killed.",
+        "promptZh": "教練警告跑手不要在雷暴期間於戶外訓練，因為他們可能被雷電擊中並喪命。",
+        "starter": "The",
+        "answer": "The coach warned the runners against dicing with death during the lightning storm.",
+        "answerZh": "教練警告跑手不要在雷暴期間拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q21",
+        "number": 21,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Why has the beach been closed? B: The current is so strong that even trained swimmers could be killed.",
+        "promptZh": "甲：為甚麼海灘已經封閉？ 乙：水流非常強勁，即使受過訓練的泳手也可能喪命。",
+        "starter": "Anyone",
+        "answer": "Anyone who swims at that beach today would be dicing with death.",
+        "answerZh": "今天任何人在那個海灘游泳，都是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q22",
+        "number": 22,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Ryan wants to stand on the roof edge for a photograph. B: Tell him that no photograph is worth risking his life.",
+        "promptZh": "甲：賴恩想站在天台邊緣拍照。 乙：告訴他，沒有任何照片值得拿生命冒險。",
+        "starter": "Tell",
+        "answer": "Tell Ryan not to dice with death for a photograph.",
+        "answerZh": "告訴賴恩不要為了一張照片而玩命。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q23",
+        "number": 23,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The police said that crossing the motorway on foot could easily result in death.",
+        "promptZh": "警方表示，徒步橫過高速公路很容易導致死亡。",
+        "starter": "The",
+        "answer": "The police warned that anyone crossing the motorway on foot was dicing with death.",
+        "answerZh": "警方警告，任何徒步橫過高速公路的人都是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q24",
+        "number": 24,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Trying to repair the gas pipe with a flame nearby could cause a deadly explosion.",
+        "promptZh": "在附近有火焰的情況下嘗試維修氣體喉管，可能引發致命爆炸。",
+        "starter": "It",
+        "answer": "It would be dicing with death to repair the gas pipe with a flame nearby.",
+        "answerZh": "在附近有火焰的情況下維修氣體喉管，等同拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q25",
+        "number": 25,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The men were not simply being brave. They were taking a foolish risk that could kill them.",
+        "promptZh": "那些人並不只是勇敢。他們是在作出可能令自己喪命的愚蠢冒險。",
+        "starter": "What",
+        "answer": "What the men were doing was dicing with death, not showing courage.",
+        "answerZh": "那些人所做的並不是表現勇氣，而是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q26",
+        "number": 26,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "After reaching safety, the hiker returned to the dangerous slope to collect his camera. Another fall could have killed him.",
+        "promptZh": "那名遠足者到達安全地方後，又返回危險斜坡取回相機。再次墮下便可能令他喪命。",
+        "starter": "By",
+        "answer": "By returning to the dangerous slope for his camera, the hiker was dicing with death.",
+        "answerZh": "那名遠足者為了相機返回危險斜坡，根本是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q27",
+        "number": 27,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The driver may have looked confident, but passing three cars on a blind bend could have killed everyone involved.",
+        "promptZh": "那名司機看來可能很有信心，但在看不見前路的彎位超越三輛車，可能令所有涉事者喪命。",
+        "starter": "The",
+        "answer": "The driver was doing more than showing confidence; he was dicing with death.",
+        "answerZh": "那名司機並不只是表現自信；他是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q28",
+        "number": 28,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: The warning sign says the ice is too thin and could break beneath us. B: Then we should not walk across the lake.",
+        "promptZh": "甲：警告牌表示冰面太薄，可能會在我們腳下破裂。 乙：那麼我們不應走過湖面。",
+        "starter": "We",
+        "answer": "We should not dice with death on the thin ice.",
+        "answerZh": "我們不應走上薄冰，拿自己的生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q29",
+        "number": 29,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The rescue worker could not see exactly what happened, but the man appeared to be swimming towards a waterfall that could pull him over the edge.",
+        "promptZh": "救援人員無法看清楚實際情況，但那名男子似乎正游向可能把他沖下的瀑布。",
+        "starter": "The",
+        "answer": "The man appeared to be dicing with death as he swam towards the waterfall.",
+        "answerZh": "那名男子游向瀑布，似乎是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q30",
+        "number": 30,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Can we drive through the deep flood water? B: No. The car could be swept away within seconds, and everyone inside could drown.",
+        "promptZh": "甲：我們可以駛過那片很深的洪水嗎？ 乙：不可以。汽車可能在數秒內被沖走，車內所有人亦可能遇溺。",
+        "starter": "No",
+        "answer": "No. Driving through that flood water would be dicing with death.",
+        "answerZh": "不可以。駛過那片洪水等同拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q31",
+        "number": 31,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Although the divers were experienced, entering the underwater cave without a guide could still have killed them.",
+        "promptZh": "雖然那些潛水員經驗豐富，但沒有導遊便進入水底洞穴，仍可能令他們喪命。",
+        "starter": "Although",
+        "answer": "Although the divers were experienced, they were still dicing with death in the underwater cave without a guide.",
+        "answerZh": "雖然那些潛水員經驗豐富，但沒有導遊便進入水底洞穴，仍是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q32",
+        "number": 32,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The ice was known to be thin, so the people skating in the middle of the lake were putting their lives at risk.",
+        "promptZh": "眾人都知道冰面很薄，因此在湖中心溜冰的人正在拿自己的生命冒險。",
+        "starter": "Because",
+        "answer": "Because the ice was thin, the people skating in the middle of the lake were dicing with death.",
+        "answerZh": "由於冰面很薄，在湖中心溜冰的人根本是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q33",
+        "number": 33,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: What will happen if we cross the river while the water is rising? B: We may not reach the other side alive.",
+        "promptZh": "甲：如果我們在河水上漲時過河，會發生甚麼事？ 乙：我們可能無法活着到達對岸。",
+        "starter": "If",
+        "answer": "If we cross the river while the water is rising, we will be dicing with death.",
+        "answerZh": "如果我們在河水上漲時過河，我們便是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q34",
+        "number": 34,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "No amount of climbing skill can make standing below falling rocks safe.",
+        "promptZh": "無論攀山技術多好，站在不斷墮下的石塊下方也不會安全。",
+        "starter": "No",
+        "answer": "No matter how skilled you are, you dice with death when you stand below falling rocks.",
+        "answerZh": "無論你的技術多好，站在不斷墮下的石塊下方也是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q35",
+        "number": 35,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The captain chose to turn back instead of sailing into a storm that could sink the boat.",
+        "promptZh": "船長選擇折返，而不是駛進可能令船隻沉沒的風暴。",
+        "starter": "Rather",
+        "answer": "Rather than dice with death, the captain turned the boat back.",
+        "answerZh": "船長選擇把船駛回去，而不是拿大家的生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q36",
+        "number": 36,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Climbers who go above this point without enough oxygen may not return alive.",
+        "promptZh": "攀山者如果沒有足夠氧氣便越過這個位置，可能無法活着回來。",
+        "starter": "Climbers",
+        "answer": "Climbers who go above this point without enough oxygen are dicing with death.",
+        "answerZh": "攀山者如果沒有足夠氧氣便越過這個位置，就是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q37",
+        "number": 37,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The officer said nobody should enter the damaged building merely to save personal belongings because it could collapse without warning.",
+        "promptZh": "人員表示，任何人都不應只為取回個人物品而進入受損建築物，因為它可能在沒有預警下倒塌。",
+        "starter": "No",
+        "answer": "No one should dice with death merely to save personal belongings.",
+        "answerZh": "任何人都不應只為取回個人物品而玩命。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q38",
+        "number": 38,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The rescue team knew that entering the smoke-filled room without breathing equipment could be fatal.",
+        "promptZh": "救援隊知道，在沒有呼吸設備的情況下進入充滿濃煙的房間，可能會致命。",
+        "starter": "The",
+        "answer": "The rescue team knew that entering the room without breathing equipment would mean dicing with death.",
+        "answerZh": "救援隊知道，沒有呼吸設備便進入房間，等同拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q39",
+        "number": 39,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The driver stopped when the brakes began to fail. Continuing the race could have killed him.",
+        "promptZh": "煞車開始失靈時，那名車手停了下來。繼續比賽可能令他喪命。",
+        "starter": "To",
+        "answer": "To have continued the race with failing brakes would have been to dice with death.",
+        "answerZh": "在煞車失靈的情況下繼續比賽，本來就等同拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q40",
+        "number": 40,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Every time the workers enter the tunnel without checking the air, they risk being killed by poisonous gas.",
+        "promptZh": "每當工人在沒有檢查空氣的情況下進入隧道，他們都可能被有毒氣體奪去性命。",
+        "starter": "Every",
+        "answer": "Every time the workers enter the tunnel without checking the air, they dice with death.",
+        "answerZh": "每當工人不檢查空氣便進入隧道，他們都是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q41",
+        "number": 41,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The fire service told residents not to return to the burning block for money or documents.",
+        "promptZh": "消防部門告訴居民，不要為了金錢或文件返回正在燃燒的大廈。",
+        "starter": "The",
+        "answer": "The fire service warned residents not to dice with death by returning to the burning block.",
+        "answerZh": "消防部門警告居民，不要返回正在燃燒的大廈拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q42",
+        "number": 42,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The school warned that pupils climbing onto the railway bridge for videos could be killed.",
+        "promptZh": "學校警告，學生為了拍片而爬上鐵路橋，可能會喪命。",
+        "starter": "Pupils",
+        "answer": "Pupils who climb onto the railway bridge for videos are dicing with death, the school warned.",
+        "answerZh": "學校警告，為了拍片而爬上鐵路橋的學生是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q43",
+        "number": 43,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The short video does not show everything, but the rider seems to have driven through the red light while a lorry was approaching.",
+        "promptZh": "短片沒有拍下所有情況，但那名電單車手似乎在貨車駛近時衝過紅燈。",
+        "starter": "The",
+        "answer": "The rider appears to have been dicing with death when he drove through the red light.",
+        "answerZh": "那名電單車手衝過紅燈時，似乎是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q44",
+        "number": 44,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The climber survived the fall, but that does not make his decision to climb alone in the storm safe.",
+        "promptZh": "那名攀山者在墮下後生還，但這並不代表他在風暴中獨自攀山的決定是安全的。",
+        "starter": "Surviving",
+        "answer": "Surviving the fall does not change the fact that the climber diced with death when he climbed alone in the storm.",
+        "answerZh": "在墮下後生還，也改變不了那名攀山者在風暴中獨自攀山時曾拿生命冒險的事實。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "diced with death"
+      },
+      {
+        "id": "idiom-131-q45",
+        "number": 45,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The sea conditions are expected to remain deadly. The crew should not leave the harbour unless they improve.",
+        "promptZh": "預計海面情況仍會非常危險。除非情況改善，船員不應離開港口。",
+        "starter": "Unless",
+        "answer": "Unless the sea conditions improve, leaving the harbour would mean dicing with death for the crew.",
+        "answerZh": "除非海面情況改善，否則船員離開港口便是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q46",
+        "number": 46,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The hikers turned back just before the snow became much heavier. If they had continued, they might have died.",
+        "promptZh": "遠足者在大雪變得更猛烈前及時折返。如果他們繼續前進，便可能已經喪命。",
+        "starter": "Had",
+        "answer": "Had the hikers continued, they would have been dicing with death in the heavy snow.",
+        "answerZh": "如果遠足者當時繼續前進，他們便會在大雪中拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q47",
+        "number": 47,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A safe viewing platform was only a few metres away, yet the visitor climbed over the barrier for a photograph and could have fallen hundreds of metres.",
+        "promptZh": "安全的觀景台只有數米之遙，但那名遊客仍為了拍照而爬過圍欄，可能從數百米高處墮下。",
+        "starter": "Why",
+        "answer": "Why dice with death for a photograph when a safe viewing platform is so close?",
+        "answerZh": "安全的觀景台就在附近，何必為了一張照片而玩命？",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dice with death"
+      },
+      {
+        "id": "idiom-131-q48",
+        "number": 48,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Taking deadly risks merely to attract attention online is not courage.",
+        "promptZh": "只為在網上引起注意而作出可能致命的冒險，並不是勇氣。",
+        "starter": "Dicing",
+        "answer": "Dicing with death for online attention is not an act of courage.",
+        "answerZh": "為了在網上引起注意而拿生命冒險，並不是勇敢的行為。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "Dicing with death"
+      },
+      {
+        "id": "idiom-131-q49",
+        "number": 49,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "His friends called the jump brave, but it was really a foolish act that could have killed him.",
+        "promptZh": "他的朋友稱那次跳躍為勇敢，但那其實是可能令他喪命的愚蠢行為。",
+        "starter": "What",
+        "answer": "What looked like bravery was really dicing with death.",
+        "answerZh": "看似勇敢的行為，其實是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      },
+      {
+        "id": "idiom-131-q50",
+        "number": 50,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: I have crossed this broken bridge many times and nothing has happened. B: Surviving before does not make the next crossing safe.",
+        "promptZh": "甲：我已走過這座破損的橋很多次，甚麼事也沒有發生。 乙：以往能夠平安走過，並不代表下一次也是安全的。",
+        "starter": "Past",
+        "answer": "Past success does not make the danger smaller; you are still dicing with death every time you cross that bridge.",
+        "answerZh": "以往平安無事並不會減低危險；你每次走過那座橋，仍然是在拿生命冒險。",
+        "targetForm": "dice with death",
+        "targetMeaning": "To do something extremely dangerous and foolish that could cause your death; to knowingly risk your life.",
+        "highlight": "dicing with death"
+      }
+    ]
+  }
+}

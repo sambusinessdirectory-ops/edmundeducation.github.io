@@ -1,0 +1,1230 @@
+{
+  "id": "ss326",
+  "order": 326,
+  "slug": "nothing-short-of-noun-adjective",
+  "title": "「nothing short of + 名詞／形容詞」表示強烈評價",
+  "titleZh": "「nothing short of + 名詞／形容詞」表示強烈評價",
+  "titleEn": "Using “nothing short of + noun / adjective”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 324 -「nothing short of + 名詞／形容詞」表示強烈評價.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "sha256": "419290089e9fe6d9c07afe2c49c2a6a471cc3e11a894725a0e1f2fd5d1a07e99",
+    "sourceNumber": 324,
+    "systemOrder": 326,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 324 maps to ss326: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "nothing short of + noun / adjective",
+  "formulas": [
+    {
+      "id": "ss326-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "nothing short of + noun / adjective"
+    }
+  ],
+  "example": "Completing the rescue in those conditions was nothing short of remarkable.",
+  "exampleZh": "在那種環境下完成救援，簡直令人驚嘆。",
+  "examples": [
+    {
+      "id": "ss326-example-01",
+      "en": "Completing the rescue in those conditions was nothing short of remarkable.",
+      "zh": "在那種環境下完成救援，簡直令人驚嘆。",
+      "highlight": "Completing the rescue in those conditions was nothing short of remarkable."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss326-rule-01",
+      "zh": "固定表達 nothing short of 可接形容詞或名詞來作強烈評價；short 不能改成副詞 shortly，介詞 of 也不能改成 than 或 from。",
+      "en": "nothing short of nothing short of remarkable nothing short of a miracle nothing shortly of remarkable nothing short than remarkable nothing short from remarkable",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss326-rule-02",
+      "zh": "形容詞前不使用 a 或 an 但是，當後面是單數可數名詞時，通常需要 a 或 an：【The result was nothing short of a miracle.】",
+      "en": "The result was nothing short of remarkable. The result was nothing short of a remarkable. The result was nothing short of a miracle. The decision was nothing short of an insult.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss326-rule-03",
+      "zh": "不可數名詞或抽象名詞通常不使用冠詞",
+      "en": "nothing short of chaos nothing short of negligence nothing short of genius nothing short of cruelty",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss326-rule-04",
+      "zh": "動詞可以按照時態和主詞改變的固定部分不會改變。",
+      "en": "be The achievement is nothing short of extraordinary. The achievements are nothing short of extraordinary. The achievement was nothing short of extraordinary. The achievement has been nothing short of extraordinary. The achievement could be nothing short of extraordinary. nothing short of",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss326-rule-05",
+      "zh": "這是一種強烈表達不只是普通描述。它表示說話者認為某事完全達到某種程度，而且通常令人驚訝、佩服、震驚或不滿。普通描述：【The recovery was remarkable.】 這次康復情況十分出色。 更強烈的描述：【The recovery was nothing short of remarkable.】 這次康復情況簡直令人驚嘆。 因此，不應把這個句型用於不需要強調的普通小事。",
+      "en": "nothing short of The recovery was remarkable. The recovery was nothing short of remarkable.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss326-rule-06",
+      "zh": "可用於正面或負面評價正面：（Positive；這場表演簡直精彩絕倫。 負面：（Negative）；這次延誤簡直令人無法接受。）",
+      "en": "The performance was nothing short of brilliant. The delay was nothing short of unacceptable.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss326-rule-07",
+      "zh": "不要與其他含 short 的結構混淆缺錢 未能達到期望 簡直非同凡響 三者的意思和用法不同。",
+      "en": "short of money fall short of expectations nothing short of extraordinary",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss326-benefit-01",
+      "zh": "能清楚而有力地表達評價這個句型告訴讀者，你並非只認為某事「有一點」出色、嚴重或令人失望，而是認為它完全達到該程度。這項應對措施很好。 這項應對措施簡直非同凡響。 第二句的態度明顯更強烈。",
+      "en": "It gives your opinion strong and clear emphasis The response was good. The response was nothing short of extraordinary.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss326-benefit-02",
+      "zh": "能代替較長的解釋你可以用一個簡潔句型，代替以下較長的說法：【It can only be described as remarkable.】 較精簡的版本是：【It was nothing short of remarkable.】",
+      "en": "It can replace a longer explanation It can only be described as remarkable. It was so remarkable that ordinary words could not describe it. It was nothing short of remarkable.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss326-benefit-03",
+      "zh": "可以靈活配合形容詞及名詞你可以直接強調一種特質：【nothing short of amazing；nothing short of irresponsible】 也可以把事情形容為某種情況或行為：【nothing short of a miracle；nothing short of an insult；nothing short of negligence】 因此，這個句型能表達多種正面和負面評價。",
+      "en": "It works with both adjectives and nouns nothing short of amazing nothing short of irresponsible nothing short of a miracle nothing short of an insult nothing short of negligence",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss326-benefit-04",
+      "zh": "能突出重要觀點在演說、評論、報告、故事或議論文中，這個句型可以把讀者的注意力帶到最值得重視的評價。這句不只是說明「有人沒有檢查大橋」，還清楚表明作者認為問題極為嚴重。",
+      "en": "It helps important points stand out The failure to inspect the bridge was nothing short of gross negligence.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss326-benefit-05",
+      "zh": "能增加句式變化這個表達不需要永遠放在簡單句的結尾。它可以出現在：主句；以【that】為例：子句；詞語【although】或 if 子句；關係子句；結構；目標表達【seem, prove, feel】等連繫動詞之後。這能避免所有句子都使用完全相同的結構。",
+      "en": "It gives you more sentence variety describe...as seem, prove, feel",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 324 maps to ss326: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using nothing short of + noun or adjective. Preserve the original",
+      "meaning.",
+      "The expression may appear in a main clause, subordinate clause, relative clause, reported",
+      "clause or object complement.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 nothing short of + 名詞或形容詞 改寫以下句子，並保留原意。",
+      "這個表達可以出現在主句、從屬子句、關係子句、間接引述子句或受詞補語之中。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss326-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The performance was absolutely amazing from beginning to end.",
+      "promptZh": "這場表演由始至終都精彩絕倫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The performance was nothing short of amazing from beginning to end.",
+      "answerZh": "這場表演由始至終簡直令人驚嘆。",
+      "answerZhSource": "pdf",
+      "highlight": "The performance was nothing short of amazing from beginning to end."
+    },
+    {
+      "id": "ss326-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What Ella did was truly heroic.",
+      "promptZh": "艾拉的所作所為確實十分英勇。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What Ella did was nothing short of heroic.",
+      "answerZh": "艾拉的所作所為簡直是英勇之舉。",
+      "answerZhSource": "pdf",
+      "highlight": "What Ella did was nothing short of heroic."
+    },
+    {
+      "id": "ss326-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It was an absolute miracle that the child was found safely.",
+      "promptZh": "那名孩子最終平安獲救，簡直是個奇蹟。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was nothing short of a miracle that the child was found safely.",
+      "answerZh": "那名孩子最終平安獲救，簡直是個奇蹟。",
+      "answerZhSource": "pdf",
+      "highlight": "It was nothing short of a miracle that the child was found safely."
+    },
+    {
+      "id": "ss326-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The delay was completely unacceptable for a public service.",
+      "promptZh": "對公共服務而言，這次延誤完全不能接受。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The delay was nothing short of unacceptable for a public service.",
+      "answerZh": "對公共服務而言，這次延誤簡直令人無法接受。",
+      "answerZhSource": "pdf",
+      "highlight": "The delay was nothing short of unacceptable for a public service."
+    },
+    {
+      "id": "ss326-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "His recovery after the operation was truly remarkable.",
+      "promptZh": "他手術後的康復情況確實令人驚嘆。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His recovery after the operation was nothing short of remarkable.",
+      "answerZh": "他手術後的康復情況簡直令人驚嘆。",
+      "answerZhSource": "pdf",
+      "highlight": "His recovery after the operation was nothing short of remarkable."
+    },
+    {
+      "id": "ss326-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "For such a small team, the result was a complete triumph.",
+      "promptZh": "對如此小的團隊而言，這個結果是一次徹底的勝利。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For such a small team, the result was nothing short of a triumph.",
+      "answerZh": "對如此小的團隊而言，這個結果簡直是一場勝利。",
+      "answerZhSource": "pdf",
+      "highlight": "For such a small team, the result was nothing short of a triumph."
+    },
+    {
+      "id": "ss326-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Everyone in the audience agreed that the speech was deeply inspiring.",
+      "promptZh": "在場每位觀眾都認為這場演說非常鼓舞人心。",
+      "promptZhSource": "pdf",
+      "starter": "Everyone",
+      "answer": "Everyone in the audience agreed that the speech was nothing short of inspiring.",
+      "answerZh": "在場每位觀眾都認為這場演說簡直鼓舞人心。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone in the audience agreed that the speech was nothing short of inspiring."
+    },
+    {
+      "id": "ss326-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Her decision to report the problem was extremely brave, especially given the risks.",
+      "promptZh": "她決定舉報問題，尤其考慮到當中的風險，實在非常勇敢。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her decision to report the problem was nothing short of brave, especially given the risks.",
+      "answerZh": "她決定舉報問題，尤其考慮到當中的風險，簡直勇氣可嘉。",
+      "answerZhSource": "pdf",
+      "highlight": "Her decision to report the problem was nothing short of brave, especially given the risks."
+    },
+    {
+      "id": "ss326-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The damage caused by the storm was a complete disaster for local farmers.",
+      "promptZh": "風暴造成的破壞對本地農民而言是一場徹底的災難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The damage caused by the storm was nothing short of a disaster for local farmers.",
+      "answerZh": "風暴造成的破壞對本地農民而言，簡直是一場災難。",
+      "answerZhSource": "pdf",
+      "highlight": "The damage caused by the storm was nothing short of a disaster for local farmers."
+    },
+    {
+      "id": "ss326-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In everyone’s opinion, the winning goal was absolutely brilliant.",
+      "promptZh": "在所有人看來，那個致勝入球精彩絕倫。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In everyone’s opinion, the winning goal was nothing short of brilliant.",
+      "answerZh": "在所有人看來，那個致勝入球簡直精彩絕倫。",
+      "answerZhSource": "pdf",
+      "highlight": "In everyone’s opinion, the winning goal was nothing short of brilliant."
+    },
+    {
+      "id": "ss326-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "How impressive is the new library? It is extremely impressive, both inside and out.",
+      "promptZh": "新圖書館有多令人印象深刻？它內外都非常出色。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new library is nothing short of impressive, both inside and out.",
+      "answerZh": "新圖書館不論內外都簡直令人讚嘆。",
+      "answerZhSource": "pdf",
+      "highlight": "The new library is nothing short of impressive, both inside and out."
+    },
+    {
+      "id": "ss326-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Helping the injured stranger was a genuine act of courage.",
+      "promptZh": "幫助受傷的陌生人是真正的勇敢行為。",
+      "promptZhSource": "pdf",
+      "starter": "Helping",
+      "answer": "Helping the injured stranger was nothing short of an act of courage.",
+      "answerZh": "幫助受傷的陌生人簡直是勇敢之舉。",
+      "answerZhSource": "pdf",
+      "highlight": "Helping the injured stranger was nothing short of an act of courage."
+    },
+    {
+      "id": "ss326-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "To ignore the warning would be extremely foolish.",
+      "promptZh": "忽視警告是極其愚蠢的。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To ignore the warning would be nothing short of foolish.",
+      "answerZh": "忽視警告簡直是愚蠢至極。",
+      "answerZhSource": "pdf",
+      "highlight": "To ignore the warning would be nothing short of foolish."
+    },
+    {
+      "id": "ss326-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The concert has been absolutely spectacular so far.",
+      "promptZh": "這場音樂會至今精彩絕倫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The concert has been nothing short of spectacular so far.",
+      "answerZh": "這場音樂會至今簡直精彩絕倫。",
+      "answerZhSource": "pdf",
+      "highlight": "The concert has been nothing short of spectacular so far."
+    },
+    {
+      "id": "ss326-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The staff handled the complaint in a completely professional way throughout.",
+      "promptZh": "職員由始至終都以十分專業的方式處理投訴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The way the staff handled the complaint was nothing short of professional throughout.",
+      "answerZh": "職員處理投訴的方式由始至終都非常專業。",
+      "answerZhSource": "pdf",
+      "highlight": "The way the staff handled the complaint was nothing short of professional throughout."
+    },
+    {
+      "id": "ss326-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Cancelling the service without notice would be totally irresponsible.",
+      "promptZh": "在沒有通知的情況下取消服務，完全是不負責任的行為。",
+      "promptZhSource": "pdf",
+      "starter": "Cancelling",
+      "answer": "Cancelling the service without notice would be nothing short of irresponsible.",
+      "answerZh": "在沒有通知的情況下取消服務，簡直是不負責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Cancelling the service without notice would be nothing short of irresponsible."
+    },
+    {
+      "id": "ss326-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The discovery was unquestionably a major breakthrough for medical research.",
+      "promptZh": "這項發現無疑是醫學研究的一項重大突破。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The discovery was nothing short of a major breakthrough for medical research.",
+      "answerZh": "這項發現對醫學研究而言，簡直是一項重大突破。",
+      "answerZhSource": "pdf",
+      "highlight": "The discovery was nothing short of a major breakthrough for medical research."
+    },
+    {
+      "id": "ss326-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What happened in the kitchen was complete chaos.",
+      "promptZh": "廚房裏發生的事情完全是一片混亂。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What happened in the kitchen was nothing short of chaos.",
+      "answerZh": "廚房裏發生的事情簡直一片混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "What happened in the kitchen was nothing short of chaos."
+    },
+    {
+      "id": "ss326-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The teacher said that the student’s progress was truly extraordinary this term.",
+      "promptZh": "老師說該學生本學期的進步確實非凡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher said that the student’s progress was nothing short of extraordinary this term.",
+      "answerZh": "老師說該學生本學期的進步簡直非凡。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher said that the student’s progress was nothing short of extraordinary this term."
+    },
+    {
+      "id": "ss326-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After months of work, finishing the project felt truly miraculous.",
+      "promptZh": "經過數月努力，完成這個項目感覺就像奇蹟一樣。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After months of work, finishing the project felt nothing short of miraculous.",
+      "answerZh": "經過數月努力，完成這個項目簡直有如奇蹟。",
+      "answerZhSource": "pdf",
+      "highlight": "After months of work, finishing the project felt nothing short of miraculous."
+    },
+    {
+      "id": "ss326-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Experts predicted that the increase could be truly transformative for the industry.",
+      "promptZh": "專家預測，這項增長可能會為業界帶來真正的變革。",
+      "promptZhSource": "pdf",
+      "starter": "Experts",
+      "answer": "Experts predicted that the increase could be nothing short of transformative for the industry.",
+      "answerZh": "專家預測，這項增長對業界可能具有徹底的變革作用。",
+      "answerZhSource": "pdf",
+      "highlight": "Experts predicted that the increase could be nothing short of transformative for the industry."
+    },
+    {
+      "id": "ss326-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In those circumstances, their refusal to help was extremely cruel.",
+      "promptZh": "在那種情況下，他們拒絕提供協助，實在極其殘忍。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In those circumstances, their refusal to help was nothing short of cruel.",
+      "answerZh": "在那種情況下，他們拒絕提供協助，簡直十分殘忍。",
+      "answerZhSource": "pdf",
+      "highlight": "In those circumstances, their refusal to help was nothing short of cruel."
+    },
+    {
+      "id": "ss326-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Without public support, the plan would have been completely impossible.",
+      "promptZh": "沒有公眾支持，這項計劃根本不可能實行。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without public support, the plan would have been nothing short of impossible.",
+      "answerZh": "沒有公眾支持，這項計劃簡直不可能實行。",
+      "answerZhSource": "pdf",
+      "highlight": "Without public support, the plan would have been nothing short of impossible."
+    },
+    {
+      "id": "ss326-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "By the end of the match, the comeback had become truly legendary.",
+      "promptZh": "到比賽結束時，這場反勝已成為真正的傳奇。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of the match, the comeback had become nothing short of legendary.",
+      "answerZh": "到比賽結束時，這場反勝簡直成了傳奇。",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of the match, the comeback had become nothing short of legendary."
+    },
+    {
+      "id": "ss326-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctor described the survival of all six passengers as genuinely miraculous.",
+      "promptZh": "醫生形容六名乘客全部生還，確實如奇蹟一般。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor described the survival of all six passengers as nothing short of miraculous.",
+      "answerZh": "醫生形容六名乘客全部生還，簡直是個奇蹟。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor described the survival of all six passengers as nothing short of miraculous."
+    },
+    {
+      "id": "ss326-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The committee regarded the failure to keep proper records as an unmistakable case of negligence.",
+      "promptZh": "委員會認為沒有妥善保存紀錄，明顯屬於疏忽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee regarded the failure to keep proper records as nothing short of negligence.",
+      "answerZh": "委員會認為沒有妥善保存紀錄，無異於疏忽職守。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee regarded the failure to keep proper records as nothing short of negligence."
+    },
+    {
+      "id": "ss326-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Local residents considered the sudden closure a direct insult.",
+      "promptZh": "本地居民認為突然關閉設施是直接的侮辱。",
+      "promptZhSource": "pdf",
+      "starter": "Local",
+      "answer": "Local residents considered the sudden closure nothing short of an insult.",
+      "answerZh": "本地居民認為突然關閉設施簡直是一種侮辱。",
+      "answerZhSource": "pdf",
+      "highlight": "Local residents considered the sudden closure nothing short of an insult."
+    },
+    {
+      "id": "ss326-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The response was truly extraordinary. It prevented a larger crisis.",
+      "promptZh": "這項應對措施確實非凡，並防止了更嚴重的危機。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The response, which was nothing short of extraordinary, prevented a larger crisis.",
+      "answerZh": "這項非同凡響的應對措施防止了更嚴重的危機。",
+      "answerZhSource": "pdf",
+      "highlight": "The response, which was nothing short of extraordinary, prevented a larger crisis."
+    },
+    {
+      "id": "ss326-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the conditions were genuinely life-threatening, the volunteers continued the search.",
+      "promptZh": "儘管環境確實足以危及生命，義工仍繼續搜救。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the conditions were nothing short of life-threatening, the volunteers continued the search.",
+      "answerZh": "儘管環境足以危及生命，義工仍繼續搜救。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the conditions were nothing short of life-threatening, the volunteers continued the search."
+    },
+    {
+      "id": "ss326-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team’s ability to remain calm under pressure was truly exceptional.",
+      "promptZh": "團隊在壓力下保持冷靜的能力確實非常出色。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team’s ability to remain calm under pressure was nothing short of exceptional.",
+      "answerZh": "團隊在壓力下保持冷靜的能力簡直非同凡響。",
+      "answerZhSource": "pdf",
+      "highlight": "The team’s ability to remain calm under pressure was nothing short of exceptional."
+    },
+    {
+      "id": "ss326-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the figures are accurate, the increase is absolutely astonishing.",
+      "promptZh": "如果數據準確，這次增幅實在驚人。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the figures are accurate, the increase is nothing short of astonishing.",
+      "answerZh": "如果數據準確，這次增幅簡直令人震驚。",
+      "answerZhSource": "pdf",
+      "highlight": "If the figures are accurate, the increase is nothing short of astonishing."
+    },
+    {
+      "id": "ss326-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The fact that no one was seriously injured was genuinely miraculous.",
+      "promptZh": "沒有人嚴重受傷這個事實確實有如奇蹟。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that no one was seriously injured was nothing short of miraculous.",
+      "answerZh": "沒有人嚴重受傷，簡直是個奇蹟。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that no one was seriously injured was nothing short of miraculous."
+    },
+    {
+      "id": "ss326-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "While the first design was simple, the final version was extremely elegant.",
+      "promptZh": "雖然第一個設計十分簡單，但最終版本極為優雅。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While the first design was simple, the final version was nothing short of elegant.",
+      "answerZh": "雖然第一個設計十分簡單，但最終版本簡直優雅非凡。",
+      "answerZhSource": "pdf",
+      "highlight": "While the first design was simple, the final version was nothing short of elegant."
+    },
+    {
+      "id": "ss326-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager admitted that the decision to ignore the warning had been completely reckless.",
+      "promptZh": "經理承認，無視警告的決定完全是魯莽的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager admitted that the decision to ignore the warning had been nothing short of reckless.",
+      "answerZh": "經理承認，無視警告的決定簡直魯莽至極。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager admitted that the decision to ignore the warning had been nothing short of reckless."
+    },
+    {
+      "id": "ss326-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The inspectors found the safety arrangements to be completely disgraceful.",
+      "promptZh": "檢查人員認為安全安排極為惡劣。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The inspectors found the safety arrangements to be nothing short of disgraceful.",
+      "answerZh": "檢查人員認為安全安排簡直惡劣至極。",
+      "answerZhSource": "pdf",
+      "highlight": "The inspectors found the safety arrangements to be nothing short of disgraceful."
+    },
+    {
+      "id": "ss326-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In its first month, the campaign proved to be a complete success.",
+      "promptZh": "在首月，這項活動證明是一次徹底的成功。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In its first month, the campaign proved nothing short of a complete success.",
+      "answerZh": "在首月，這項活動證明是一次全面成功。",
+      "answerZhSource": "pdf",
+      "highlight": "In its first month, the campaign proved nothing short of a complete success."
+    },
+    {
+      "id": "ss326-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To the investigators, the explanation seemed completely dishonest.",
+      "promptZh": "對調查人員而言，這個解釋似乎完全不誠實。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To the investigators, the explanation seemed nothing short of dishonest.",
+      "answerZh": "對調查人員而言，這個解釋簡直毫不誠實。",
+      "answerZhSource": "pdf",
+      "highlight": "To the investigators, the explanation seemed nothing short of dishonest."
+    },
+    {
+      "id": "ss326-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The support we received from the community was absolutely overwhelming.",
+      "promptZh": "我們從社區獲得的支持具有壓倒性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The support we received from the community was nothing short of overwhelming.",
+      "answerZh": "我們從社區獲得的支持簡直具有壓倒性。",
+      "answerZhSource": "pdf",
+      "highlight": "The support we received from the community was nothing short of overwhelming."
+    },
+    {
+      "id": "ss326-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "That one decision may have been utterly disastrous for the company.",
+      "promptZh": "單是那項決定，便可能對公司造成災難性的後果。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That one decision may have been nothing short of disastrous for the company.",
+      "answerZh": "單是那項決定，對公司而言便可能是災難性的。",
+      "answerZhSource": "pdf",
+      "highlight": "That one decision may have been nothing short of disastrous for the company."
+    },
+    {
+      "id": "ss326-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "To many residents, the proposed fee increase is completely unfair.",
+      "promptZh": "對許多居民而言，擬議加費完全不公平。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposed fee increase is, to many residents, nothing short of unfair.",
+      "answerZh": "對許多居民而言，擬議加費簡直不公平。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposed fee increase is, to many residents, nothing short of unfair."
+    },
+    {
+      "id": "ss326-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Experts have described the treatment as genuinely revolutionary.",
+      "promptZh": "專家形容這種治療方法真正具有革命性。",
+      "promptZhSource": "pdf",
+      "starter": "Experts",
+      "answer": "Experts have described the treatment as nothing short of revolutionary.",
+      "answerZh": "專家形容這種治療方法簡直具有革命性。",
+      "answerZhSource": "pdf",
+      "highlight": "Experts have described the treatment as nothing short of revolutionary."
+    },
+    {
+      "id": "ss326-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The witness regarded the attempt to hide the evidence as nothing less than deliberate deception.",
+      "promptZh": "證人認為企圖隱瞞證據完全是蓄意欺騙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The witness regarded the attempt to hide the evidence as nothing short of deliberate deception.",
+      "answerZh": "證人認為企圖隱瞞證據無異於蓄意欺騙。",
+      "answerZhSource": "pdf",
+      "highlight": "The witness regarded the attempt to hide the evidence as nothing short of deliberate deception."
+    },
+    {
+      "id": "ss326-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "For the volunteers who had searched all night, finding the missing hiker alive was an absolute miracle.",
+      "promptZh": "對搜索整夜的義工而言，發現失蹤遠足者仍然生還，絕對是個奇蹟。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the volunteers who had searched all night, finding the missing hiker alive was nothing short of a miracle.",
+      "answerZh": "對搜索整夜的義工而言，發現失蹤遠足者仍然生還，簡直是個奇蹟。",
+      "answerZhSource": "pdf",
+      "highlight": "For the volunteers who had searched all night, finding the missing hiker alive was nothing short of a miracle."
+    },
+    {
+      "id": "ss326-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The report concluded that failing to inspect the bridge had amounted to gross negligence.",
+      "promptZh": "報告總結，未有檢查大橋已構成嚴重疏忽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report concluded that failing to inspect the bridge had been nothing short of gross negligence.",
+      "answerZh": "報告總結，未有檢查大橋簡直是嚴重疏忽。",
+      "answerZhSource": "pdf",
+      "highlight": "The report concluded that failing to inspect the bridge had been nothing short of gross negligence."
+    },
+    {
+      "id": "ss326-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Whether one agrees with the policy or not, its effect on local businesses has been utterly devastating.",
+      "promptZh": "無論是否認同這項政策，它對本地企業的影響都極具破壞性。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether one agrees with the policy or not, its effect on local businesses has been nothing short of devastating.",
+      "answerZh": "無論是否認同這項政策，它對本地企業的影響都極具破壞性。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether one agrees with the policy or not, its effect on local businesses has been nothing short of devastating."
+    },
+    {
+      "id": "ss326-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The town recovered at a truly remarkable speed.",
+      "promptZh": "小鎮以確實驚人的速度復原。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speed with which the town recovered was nothing short of remarkable.",
+      "answerZh": "小鎮復原的速度簡直令人驚嘆。",
+      "answerZhSource": "pdf",
+      "highlight": "The speed with which the town recovered was nothing short of remarkable."
+    },
+    {
+      "id": "ss326-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What appeared to be a minor software error turned out to be nothing less than a serious security failure.",
+      "promptZh": "原本看似輕微的軟件錯誤，最後證實是嚴重的保安故障。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What appeared to be a minor software error turned out to be nothing short of a serious security failure.",
+      "answerZh": "原本看似輕微的軟件錯誤，最後證實簡直是嚴重的保安故障。",
+      "answerZhSource": "pdf",
+      "highlight": "What appeared to be a minor software error turned out to be nothing short of a serious security failure."
+    },
+    {
+      "id": "ss326-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "To promise help and then disappear when it was needed most was a complete betrayal.",
+      "promptZh": "先承諾提供協助，卻在最需要幫助時消失不見，完全是一種背叛。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To promise help and then disappear when it was needed most was nothing short of a betrayal.",
+      "answerZh": "先承諾提供協助，卻在最需要幫助時消失不見，簡直是一種背叛。",
+      "answerZhSource": "pdf",
+      "highlight": "To promise help and then disappear when it was needed most was nothing short of a betrayal."
+    },
+    {
+      "id": "ss326-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The transformation of the abandoned building into a public library is truly extraordinary.",
+      "promptZh": "將荒廢大樓改建成公共圖書館的轉變確實非凡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The transformation of the abandoned building into a public library is nothing short of extraordinary.",
+      "answerZh": "將荒廢大樓改建成公共圖書館的轉變簡直非同凡響。",
+      "answerZhSource": "pdf",
+      "highlight": "The transformation of the abandoned building into a public library is nothing short of extraordinary."
+    },
+    {
+      "id": "ss326-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Had the emergency team arrived any later, the outcome could have been completely catastrophic.",
+      "promptZh": "假如緊急救援隊再遲一點到達，後果可能會完全是災難性的。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the emergency team arrived any later, the outcome could have been nothing short of catastrophic.",
+      "answerZh": "假如緊急救援隊再遲一點到達，後果可能會不堪設想。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the emergency team arrived any later, the outcome could have been nothing short of catastrophic."
+    }
+  ]
+}

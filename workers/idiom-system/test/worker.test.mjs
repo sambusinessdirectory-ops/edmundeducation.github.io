@@ -18,7 +18,7 @@ vm.runInNewContext(
 );
 const LESSON_DATA = lessonDataContext.window.EDMUND_IDIOM_SYSTEM_DATA;
 const LESSON_IDS = Array.from(
-  { length: 25 },
+  { length: 138 },
   (_, index) => `idiom-${String(index + 1).padStart(2, "0")}`
 );
 const LESSON_ID = "idiom-01";
@@ -30,7 +30,7 @@ const ALL_QUESTION_IDS = LESSON_IDS.flatMap((lessonId) => Array.from(
   { length: 50 },
   (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
 ));
-const MAX_BOOKMARKS = 25 * 51;
+const MAX_BOOKMARKS = 138 * 51;
 
 function environment(overrides = {}) {
   return {
@@ -150,7 +150,7 @@ function installFetch(t, implementation) {
   globalThis.fetch = implementation;
 }
 
-test("the protected answer catalogue contains all 1,250 PDF answers under canonical IDs", () => {
+test("the protected answer catalogue contains all 6,900 PDF answers under canonical IDs", () => {
   assert.deepEqual(Object.keys(ACCEPTED_ANSWERS), ALL_QUESTION_IDS);
   const publicQuestions = new Map(
     LESSON_DATA.lessons.flatMap((lesson) => lesson.questions.map((question) => [question.id, question]))
@@ -174,6 +174,10 @@ test("the protected answer catalogue contains all 1,250 PDF answers under canoni
     ACCEPTED_ANSWERS["idiom-01-q50"][0],
     "A local school finally started the ball rolling on the shared garden by offering a small piece of land and some tools."
   );
+  assert.equal(
+    ACCEPTED_ANSWERS["idiom-138-q50"][0],
+    LESSON_DATA.lessons[137].questions[49].answer
+  );
 
 });
 
@@ -187,10 +191,10 @@ test("worker, SQL, and Wrangler contracts are independently Idiom-namespaced", (
     fs.readFileSync(new URL("../wrangler.jsonc", import.meta.url), "utf8")
   );
 
-  assert.match(workerSource, /Array\.from\(\{ length: 25 \}/);
-  assert.match(workerSource, /idiom-\(\?:0\[1-9\]\|1\[0-9\]\|2\[0-5\]\)/);
-  assert.match(sqlSource, /\^idiom-\(0\[1-9\]\|1\[0-9\]\|2\[0-5\]\)\$/);
-  assert.match(sqlSource, /1275/);
+  assert.match(workerSource, /Array\.from\(\{ length: 138 \}/);
+  assert.match(workerSource, /idiom-\(\?:0\[1-9\]\|\[1-9\]\[0-9\]\|1\[0-2\]\[0-9\]\|13\[0-8\]\)/);
+  assert.match(sqlSource, /\^idiom-\(0\[1-9\]\|\[1-9\]\[0-9\]\|1\[0-2\]\[0-9\]\|13\[0-8\]\)\$/);
+  assert.match(sqlSource, /7038/);
   assert.match(sqlSource, /\^\\\$2a\\\$12\\\$/);
   assert.doesNotMatch(sqlSource, /\\\$2\[aby\]\\\$12/);
   assert.doesNotMatch(workerSource, /sentence-structure/i);
@@ -205,7 +209,7 @@ test("worker, SQL, and Wrangler contracts are independently Idiom-namespaced", (
   assert.notEqual(limiterIds.ADMIN_LOGIN_RATE_LIMITER, limiterIds.ATTEMPT_WRITE_RATE_LIMITER);
 });
 
-test("health reports the 25-lesson bookmark ceiling", async () => {
+test("health reports the 138-lesson bookmark ceiling", async () => {
   const response = await worker.fetch(
     new Request("https://worker.example/v1/health"),
     environment()
@@ -328,7 +332,7 @@ test("British and American spelling variants validate identically", async t => {
   assert.equal(upsertPayload.p_result.questionState[questionId].lastAnswer, american);
 });
 
-test("all 1,275 possible bookmarks round-trip and a 1,276th is rejected", async t => {
+test("all 7,038 possible bookmarks round-trip and a 7,039th is rejected", async t => {
   const bookmarks = LESSON_IDS.flatMap((lessonId) => [
     { lessonId, questionId: "__section__", includeAnswer: false },
     ...Array.from({ length: 50 }, (_, index) => ({
@@ -374,7 +378,7 @@ test("all 1,275 possible bookmarks round-trip and a 1,276th is rejected", async 
   assert.equal((await validResponse.json()).bookmarks.length, MAX_BOOKMARKS);
   assert.deepEqual(
     pageCalls,
-    Array.from({ length: 13 }, (_, index) => [index * 100, 100])
+    Array.from({ length: Math.ceil(MAX_BOOKMARKS / 100) }, (_, index) => [index * 100, 100])
   );
 
   const invalidResponse = await worker.fetch(new Request("https://worker.example/v1/bookmarks", {

@@ -1,0 +1,1616 @@
+{
+  "lesson": {
+    "id": "idiom-130",
+    "order": 130,
+    "slug": "nine-times-out-of-ten",
+    "version": "1",
+    "title": "幾乎總是／十有八九",
+    "titleEn": "nine times out of ten",
+    "titleZh": "幾乎總是／十有八九",
+    "source": {
+      "file": "Idiom 130 - “Nine Times Out of Ten”.pdf",
+      "pageCount": 37,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "exercisePdfPages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "answerKeyPdfPages": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "nine times out of ten",
+        "highlight": "nine times out of ten"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Nine times out of ten, the simplest answer is correct.",
+        "zh": "十有八九，最簡單的答案才是正確答案。",
+        "highlight": "Nine times out of ten"
+      },
+      {
+        "en": "Nine times out of ten, Clara arrives before everyone else.",
+        "zh": "克拉拉幾乎每次都比其他人早到。",
+        "highlight": "Nine times out of ten"
+      }
+    ],
+    "meaning": {
+      "en": "Almost always; on nearly every occasion; in the great majority of cases.",
+      "zh": "幾乎總是；十有八九；在絕大多數情況下。",
+      "naturalZh": [
+        "幾乎總是",
+        "十有八九",
+        "在絕大多數情況下。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "The expression is neutral and conversational.",
+      "summaryZh": "這個表達語氣中性，帶有自然的日常口語色彩。",
+      "contextsEn": [
+        "everyday conversation",
+        "advice",
+        "explanations",
+        "interviews",
+        "opinion writing",
+        "workplace discussions",
+        "informal presentations",
+        "general journalism"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "建議",
+        "解釋",
+        "訪問",
+        "意見文章",
+        "工作討論",
+        "一般簡報",
+        "普通新聞寫作。"
+      ],
+      "formalEn": "everyday conversation; advice; explanations; interviews; opinion writing; workplace discussions; informal presentations; general journalism.",
+      "formalZh": "在科學、法律或統計文章中，使用準確百分比或經正式收集的數據可能更合適。"
+    },
+    "fixedVariable": {
+      "fixed": "nine times out of ten",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Nine times out of ten, + subject + verb.",
+          "example": "Nine times out of ten, the simplest answer is correct.",
+          "highlight": "Nine times out of ten"
+        },
+        {
+          "form": "Subject + verb + nine times out of ten.",
+          "example": "The printer works after I restart it nine times out of ten.",
+          "highlight": "nine times out of ten"
+        },
+        {
+          "form": "If / When / Whenever + clause, nine times out of ten + main clause.",
+          "example": "When this light appears, nine times out of ten the battery is low.",
+          "highlight": "nine times out of ten"
+        },
+        {
+          "form": "If / When + condition, + result + nine times out of ten.",
+          "example": "If Leo stays up too late, he feels tired the next morning nine times out of ten.",
+          "highlight": "nine times out of ten"
+        },
+        {
+          "form": "Nine times out of ten, + subject + do / does not + verb.",
+          "example": "Nine times out of ten, he does not answer my messages.",
+          "highlight": "Nine times out of ten"
+        },
+        {
+          "form": "Nine times out of ten, + subject + can / will / would / should + verb.",
+          "example": "Nine times out of ten, you can fix the problem by restarting the device.",
+          "highlight": "Nine times out of ten"
+        },
+        {
+          "form": "Clause + but / and / yet + nine times out of ten, + clause.",
+          "example": "There are exceptions, but nine times out of ten, the simpler plan works.",
+          "highlight": "nine times out of ten"
+        },
+        {
+          "form": "Subject or clause +, nine times out of ten, + remaining predicate.",
+          "example": "The answer is, nine times out of ten, simpler than people expect.",
+          "highlight": "nine times out of ten"
+        },
+        {
+          "form": "Subject + say / find / believe / discover + that + nine times out of ten + clause.",
+          "example": "The teacher has found that nine times out of ten, specific feedback helps students improve.",
+          "highlight": "nine times out of ten"
+        },
+        {
+          "form": "A: Who usually solves these problems?",
+          "example": "A: Does this method work? B: Nine times out of ten, it does.",
+          "highlight": "Nine times out of ten"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "At the Beginning of a Sentence",
+        "titleZh": "句式一：放在句首",
+        "formula": "Nine times out of ten, + subject + verb.",
+        "descriptionEn": "A comma normally follows the expression when it opens the sentence.",
+        "descriptionZh": "當這個表達放在句首時，後面通常使用逗號。",
+        "examples": [
+          {
+            "en": "Nine times out of ten, the simplest answer is correct.",
+            "zh": "十有八九，最簡單的答案才是正確答案。",
+            "highlight": "Nine times out of ten"
+          },
+          {
+            "en": "Nine times out of ten, Clara arrives before everyone else.",
+            "zh": "克拉拉幾乎每次都比其他人早到。",
+            "highlight": "Nine times out of ten"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "At the End of a Sentence",
+        "titleZh": "句式二：放在句尾",
+        "formula": "Subject + verb + nine times out of ten.",
+        "descriptionEn": "She beats me at chess nine times out of ten.",
+        "descriptionZh": "她和我下棋時，幾乎每次都能勝過我。",
+        "examples": [
+          {
+            "en": "The printer works after I restart it nine times out of ten.",
+            "zh": "我重新啟動打印機後，十有八九都能恢復正常。",
+            "highlight": "nine times out of ten"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After an Opening Time or Condition Clause",
+        "titleZh": "句式三：放在時間或條件子句之後",
+        "formula": "If / When / Whenever + clause, nine times out of ten + main clause.",
+        "descriptionEn": "If Leo stays up too late, nine times out of ten he feels tired the next morning.",
+        "descriptionZh": "如果里奧太遲睡，第二天早上十有八九都會感到疲倦。",
+        "examples": [
+          {
+            "en": "When this light appears, nine times out of ten the battery is low.",
+            "zh": "這盞燈亮起時，十有八九都是電量不足。",
+            "highlight": "nine times out of ten"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "At the End of a Conditional Sentence",
+        "titleZh": "句式四：放在條件句句尾",
+        "formula": "If / When + condition, + result + nine times out of ten.",
+        "descriptionEn": "When I ask for the soup, it is sold out nine times out of ten.",
+        "descriptionZh": "每當我想點那款湯，它十有八九都已經售罄。",
+        "examples": [
+          {
+            "en": "If Leo stays up too late, he feels tired the next morning nine times out of ten.",
+            "zh": "如果里奧太遲睡，他第二天早上幾乎總會感到疲倦。",
+            "highlight": "nine times out of ten"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With a Negative Clause",
+        "titleZh": "句式五：配合否定子句",
+        "formula": "Nine times out of ten, + subject + do / does not + verb.",
+        "descriptionEn": "The expression describes how frequently the negative situation occurs.",
+        "descriptionZh": "這個表達說明相關否定情況出現得多麼頻密。",
+        "examples": [
+          {
+            "en": "Nine times out of ten, he does not answer my messages.",
+            "zh": "十有八九，他都不會回覆我的訊息。",
+            "highlight": "Nine times out of ten"
+          },
+          {
+            "en": "The machine does not accept this coin nine times out of ten.",
+            "zh": "這部機器幾乎每次都不接受這種硬幣。",
+            "highlight": "nine times out of ten"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "With a Modal Verb",
+        "titleZh": "句式六：配合情態動詞",
+        "formula": "Nine times out of ten, + subject + can / will / would / should + verb.",
+        "descriptionEn": "Ask Priya, and nine times out of ten, she will know the answer.",
+        "descriptionZh": "問問普里亞吧，她十有八九會知道答案。",
+        "examples": [
+          {
+            "en": "Nine times out of ten, you can fix the problem by restarting the device.",
+            "zh": "十有八九，你重新啟動裝置便能解決問題。",
+            "highlight": "Nine times out of ten"
+          },
+          {
+            "en": "When we asked Grandad for a story, nine times out of ten he would choose one about the sea.",
+            "zh": "以前我們請爺爺講故事時，他十有八九都會選一個關於大海的故事。",
+            "highlight": "nine times out of ten"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After a Contrast or Coordinating Expression",
+        "titleZh": "句式七：放在對比或並列連接語之後",
+        "formula": "Clause + but / and / yet + nine times out of ten, + clause.",
+        "descriptionEn": "The expression comments on the whole clause that follows it.",
+        "descriptionZh": "這個表達修飾其後的整個子句。",
+        "examples": [
+          {
+            "en": "There are exceptions, but nine times out of ten, the simpler plan works.",
+            "zh": "事情也有例外，但十有八九，較簡單的計劃都會奏效。",
+            "highlight": "nine times out of ten"
+          },
+          {
+            "en": "Ask a regular customer, and nine times out of ten, they will recommend the soup.",
+            "zh": "問任何一位熟客，十有八九，他們都會推薦那款湯。",
+            "highlight": "nine times out of ten"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "As a Parenthetical Frequency Comment",
+        "titleZh": "句式八：作為插入式頻率評語",
+        "formula": "Subject or clause +, nine times out of ten, + remaining predicate.",
+        "descriptionEn": "When used parenthetically, the expression is normally surrounded by commas.",
+        "descriptionZh": "作為插入語使用時，這個表達通常前後都加上逗號。",
+        "examples": [
+          {
+            "en": "The answer is, nine times out of ten, simpler than people expect.",
+            "zh": "答案十有八九比人們預期的簡單。",
+            "highlight": "nine times out of ten"
+          },
+          {
+            "en": "What the customer wants, nine times out of ten, is a clear explanation.",
+            "zh": "顧客十有八九想要的是清楚解釋。",
+            "highlight": "nine times out of ten"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Inside a Reporting or Experience Clause",
+        "titleZh": "句式九：放在報告或經驗子句中",
+        "formula": "Subject + say / find / believe / discover + that + nine times out of ten + clause.",
+        "descriptionEn": "The reporting verb is optional contextual information. It is not part of the idiom.",
+        "descriptionZh": "報告動詞只是可選的語境資料，並不是慣用語的一部分。",
+        "examples": [
+          {
+            "en": "The teacher has found that nine times out of ten, specific feedback helps students improve.",
+            "zh": "老師發現，具體的評語十有八九都能幫助學生進步。",
+            "highlight": "nine times out of ten"
+          },
+          {
+            "en": "The coach says that nine times out of ten, calm players make better decisions.",
+            "zh": "教練表示，冷靜的球員十有八九都能作出較好的決定。",
+            "highlight": "nine times out of ten"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "In a Short Dialogue Response",
+        "titleZh": "句式十：在簡短對話回應中使用",
+        "formula": "A: Who usually solves these problems?",
+        "descriptionEn": "The expression can introduce a complete short answer, provided that the pronoun or auxiliary verb has a clear reference.",
+        "descriptionZh": "只要代名詞或助動詞有清楚指涉，這個表達便可以帶出一個完整而簡短的回應。",
+        "examples": [
+          {
+            "en": "A: Does this method work? B: Nine times out of ten, it does.",
+            "zh": "甲：這個方法有效嗎？ 乙：十有八九都有效。",
+            "highlight": "Nine times out of ten"
+          },
+          {
+            "en": "A: Who usually solves these problems? B: Nine times out of ten, Daniel does.",
+            "zh": "甲：通常是誰解決這些問題？ 乙：十有八九都是丹尼爾。",
+            "highlight": "Nine times out of ten"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses High Frequency Clearly",
+        "titleZh": "清楚表達極高頻率",
+        "en": "The expression is stronger than often but weaker than always. The second sentence communicates a much more regular pattern.",
+        "zh": "這個表達的頻率比 often 高，但又不像 always 般完全沒有例外。 第二句表示遲到是一個更加固定和常見的情況。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Allows for Exceptions",
+        "titleZh": "容許存在例外",
+        "en": "The phrase says that something normally happens without claiming that it happens every single time. The speaker sounds confident but not absolute.",
+        "zh": "這個表達可以說明事情通常會發生，同時承認偶爾可能出現例外。 十有八九，簡單的解決方法都會奏效。 說話者語氣相當有把握，但並非斬釘截鐵。",
+        "examples": [
+          {
+            "en": "Nine times out of ten, the simple solution works.",
+            "zh": "十有八九，簡單的解決方法都會奏效。",
+            "highlight": "Nine times out of ten"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful for Experience-Based Advice",
+        "titleZh": "適合提供經驗性建議",
+        "en": "This tells the listener that the advice is based on a repeated pattern.",
+        "zh": "十有八九，重新啟動裝置便能解決問題。 這讓聽者知道，相關建議是根據多次出現的經驗規律而提出。",
+        "examples": [
+          {
+            "en": "Nine times out of ten, restarting the device fixes the problem.",
+            "zh": "十有八九，重新啟動裝置便能解決問題。",
+            "highlight": "Nine times out of ten"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Makes Predictions Sound Natural",
+        "titleZh": "讓預測更加自然",
+        "en": "The expression connects past experience with a prediction about the next occasion.",
+        "zh": "問問丹尼爾吧，他十有八九會知道應怎樣做。 這個表達把過往經驗與對下一次情況的預測連繫起來。",
+        "examples": [
+          {
+            "en": "Ask Daniel, and nine times out of ten, he will know what to do.",
+            "zh": "問問丹尼爾吧，他十有八九會知道應怎樣做。",
+            "highlight": "nine times out of ten"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Creates Useful Contrast",
+        "titleZh": "建立自然對比",
+        "en": "The phrase is useful when the speaker first acknowledges unusual cases and then states the normal pattern.",
+        "zh": "事情也有例外，但十有八九，較便宜的選擇已經足夠。 當說話者先承認存在少數特殊情況，再說明一般規律時，這個表達尤其實用。",
+        "examples": [
+          {
+            "en": "There are exceptions, but nine times out of ten, the cheaper option is enough.",
+            "zh": "事情也有例外，但十有八九，較便宜的選擇已經足夠。",
+            "highlight": "nine times out of ten"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Provides Flexible Sentence Placement",
+        "titleZh": "提供靈活的句中位置",
+        "en": "at the beginning; at the end; after a conditional clause; after a contrast; parenthetically; in a short response. This allows students to vary sentence rhythm without changing the fixed expression.",
+        "zh": "這個表達可以放在： 這讓學生在不改變固定表達的情況下，靈活改變句子節奏。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Expressions based on ratios such as nine cases out of ten and nine times out of ten developed naturally as ways of describing probability and repeated experience. Jane Austen used the related wording “in nine cases out of ten” in Pride and Prejudice, published in 1813. The exact modern wording appears in William Cobbett’s Advice to Young Men, originally published in parts from 1829. These records show that this family of expressions was established in nineteenth-century English, but they do not prove who first created it.",
+          "zh": "意思如何慣用化"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, nine times out of ten is a neutral frequency idiom used to describe what normally happens while leaving room for occasional exceptions.",
+          "zh": "今天，nine times out of ten 是一個中性的頻率慣用語，用來描述通常會發生的事情，同時保留少數例外的可能。"
+        }
+      ],
+      "memoryEn": "Nine successful or typical cases and only one exception: almost always, but not absolutely always.",
+      "memoryZh": "九個情況相同，只有一個例外：幾乎總是如此，但並非每次必定如此。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Five Words Together",
+        "titleZh": "規則一：五個字必須完整保留",
+        "en": "Do not change times to time.",
+        "zh": "不要把 times 改成 time。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Means “Almost Always”, Not “Always”",
+        "titleZh": "規則二：它表示「幾乎總是」，不是「每次必定」",
+        "en": "Nine times out of ten leaves room for an exception. The first bus is always on time without exception.",
+        "zh": "nine times out of ten 表示事情仍可能存在少數例外。 第一班巴士十有八九都會準時。 第一班巴士每一次都必定準時，毫無例外。",
+        "examples": [
+          {
+            "en": "Nine times out of ten, the first bus is on time.",
+            "zh": "第一班巴士十有八九都會準時。",
+            "highlight": "Nine times out of ten"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Usually an Approximate Generalisation",
+        "titleZh": "規則三：通常是一種約略概括",
+        "en": "The speaker does not normally need to have observed exactly ten cases. This is normally an experience-based generalisation rather than a formal statistical result.",
+        "zh": "說話者通常不需要真的觀察過剛好十個例子。 十有八九，重新啟動應用程式便能解決問題。 這通常是根據經驗作出的概括，而不是正式統計結果。",
+        "examples": [
+          {
+            "en": "Nine times out of ten, restarting the app fixes the problem.",
+            "zh": "十有八九，重新啟動應用程式便能解決問題。",
+            "highlight": "Nine times out of ten"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It for Repeated Situations",
+        "titleZh": "規則四：用於會重複出現的情況",
+        "en": "A single arrival yesterday cannot normally happen “nine times out of ten”. The context must involve repeated occasions, possible occasions or a general pattern.",
+        "zh": "亞倫幾乎每次都提早到達。 亞倫昨天十次有九次提早到達。 昨天一次性的到達事件，通常不可能出現「十次有九次」的頻率。 語境必須涉及重複發生的場合、可能發生的情況或一般規律。",
+        "examples": [
+          {
+            "en": "Nine times out of ten, Aaron arrives early.",
+            "zh": "亞倫幾乎每次都提早到達。",
+            "highlight": "Nine times out of ten"
+          },
+          {
+            "en": "Aaron arrived early yesterday nine times out of ten.",
+            "zh": "亞倫昨天十次有九次提早到達。",
+            "highlight": "nine times out of ten"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Polarity",
+        "titleZh": "規則五：保留肯定或否定意思",
+        "en": "The incorrect sentence reverses the original meaning.",
+        "zh": "錯誤句子把原句意思完全倒轉。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Modality and Certainty",
+        "titleZh": "規則六：保留情態及確定程度",
+        "en": "The incorrect answer changes an expectation into a stated fact.",
+        "zh": "錯誤答案把預期結果變成了確定事實。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Repeat the Same Meaning",
+        "titleZh": "規則七：不要重複相同意思",
+        "en": "Both nine times out of ten and usually express frequency. Do not normally use almost always, usually, nearly every time or most of the time in the same clause as the target.",
+        "zh": "nine times out of ten 和 usually 都在表達頻率，因此意思重複。 一般不應在同一子句中同時使用 almost always、usually、nearly every time、most of the time 和目標慣用語。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Use Appropriate Punctuation",
+        "titleZh": "規則八：正確使用標點",
+        "en": "Do not insert unnecessary commas around the final expression.",
+        "zh": "當目標表達放在句尾時，不要在前面隨意加上不必要的逗號。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Related Expressions Are Not This Exercise’s Target",
+        "titleZh": "規則九：相關表達並非本練習的目標",
+        "en": "nine times out of ten",
+        "zh": "在真實英語中，以上表達可能十分自然。 不過，本練習只訓練 nine times out of ten，因此每個答案都必須使用這個確切形式。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Use It as an Adjective",
+        "titleZh": "規則十：不要把它當作形容詞使用",
+        "en": "The target is taught as an adverbial frequency expression, not as a compound adjective.",
+        "zh": "本課把目標教授為副詞性頻率表達，而不是複合形容詞。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Avoid Unfair Generalisations",
+        "titleZh": "規則十一：避免不公平的概括",
+        "en": "The expression makes a strong claim about what normally happens. Do not use the expression to make unsupported claims about nationality, race, gender, religion, disability or other identities.",
+        "zh": "這個表達對一般情況作出了相當強烈的概括。 這部打印機重新啟動後，十有八九都會恢復正常。 那個國家的人十有八九都不誠實。 不要使用這個表達，對國籍、種族、性別、宗教、殘疾或其他身分作出沒有根據的概括。",
+        "examples": [
+          {
+            "en": "Nine times out of ten, this printer works after a restart.",
+            "zh": "這部打印機重新啟動後，十有八九都會恢復正常。",
+            "highlight": "Nine times out of ten"
+          },
+          {
+            "en": "Nine times out of ten, people from that country are dishonest.",
+            "zh": "那個國家的人十有八九都不誠實。",
+            "highlight": "Nine times out of ten"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Treat an Exact Statistic as an Idiom Automatically",
+        "titleZh": "規則十二：不要把準確統計自動視為慣用語",
+        "en": "The machine passed nine tests out of ten. The first sentence reports an exact number. The second describes the usual pattern.",
+        "zh": "這部機器在十項測試中通過了九項。 這部機器十有八九都能通過安全測試。 第一句報告準確數字； 第二句描述一般規律。",
+        "examples": [
+          {
+            "en": "Nine times out of ten, the machine passes the safety test.",
+            "zh": "這部機器十有八九都能通過安全測試。",
+            "highlight": "Nine times out of ten"
+          }
+        ]
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using nine times out of ten.",
+      "zh": "使用 nine times out of ten 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-130-q01",
+        "number": 1,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Ava almost always remembers to bring an umbrella when rain is forecast.",
+        "promptZh": "天氣預報有雨時，艾娃幾乎總會記得帶傘。",
+        "starter": "Nine",
+        "answer": "Nine times out of ten, Ava remembers to bring an umbrella when rain is forecast.",
+        "answerZh": "天氣預報有雨時，艾娃十有八九都會記得帶傘。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "Nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q02",
+        "number": 2,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The bus arrives before eight on nearly every occasion.",
+        "promptZh": "這班巴士幾乎每次都在八時前到達。",
+        "starter": "The",
+        "answer": "The bus arrives before eight nine times out of ten.",
+        "answerZh": "這班巴士十有八九都會在八時前到達。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q03",
+        "number": 3,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Daniel usually orders the same lunch.",
+        "promptZh": "丹尼爾通常都會點同一款午餐。",
+        "starter": "Nine",
+        "answer": "Nine times out of ten, Daniel orders the same lunch.",
+        "answerZh": "丹尼爾幾乎每次都會點同一款午餐。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "Nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q04",
+        "number": 4,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "My mother answers the phone almost every time I call.",
+        "promptZh": "我致電母親時，她幾乎每次都會接聽。",
+        "starter": "My",
+        "answer": "My mother answers the phone nine times out of ten when I call.",
+        "answerZh": "我致電母親時，她十有八九都會接聽。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q05",
+        "number": 5,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "When the dog hears my key, it almost always waits beside the door.",
+        "promptZh": "小狗聽見我的鑰匙聲時，幾乎總會在門旁等待。",
+        "starter": "Nine",
+        "answer": "Nine times out of ten, the dog waits beside the door when it hears my key.",
+        "answerZh": "小狗聽見我的鑰匙聲時，十有八九都會在門旁等待。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "Nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q06",
+        "number": 6,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Restarting the printer solves the problem in most cases.",
+        "promptZh": "在大多數情況下，重新啟動打印機便能解決問題。",
+        "starter": "Restarting",
+        "answer": "Restarting the printer solves the problem nine times out of ten.",
+        "answerZh": "重新啟動打印機，十有八九都能解決問題。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q07",
+        "number": 7,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The shop is almost always busy at lunchtime.",
+        "promptZh": "這間店舖在午飯時間幾乎總是十分繁忙。",
+        "starter": "The",
+        "answer": "The shop is busy at lunchtime nine times out of ten.",
+        "answerZh": "這間店舖在午飯時間十有八九都十分繁忙。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q08",
+        "number": 8,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Clara nearly always checks her work twice before handing it in.",
+        "promptZh": "克拉拉交功課前幾乎總會檢查兩次。",
+        "starter": "Nine",
+        "answer": "Nine times out of ten, Clara checks her work twice before handing it in.",
+        "answerZh": "克拉拉交功課前，幾乎每次都會檢查兩次。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "Nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q09",
+        "number": 9,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "We see the same elderly man on nearly every visit to the park.",
+        "promptZh": "我們去公園時，幾乎每次都會看見同一位老人家。",
+        "starter": "We",
+        "answer": "We see the same elderly man nine times out of ten when we visit the park.",
+        "answerZh": "我們去公園時，十有八九都會看見同一位老人家。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q10",
+        "number": 10,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The lift usually stops at the fifth floor before it reaches us.",
+        "promptZh": "升降機到達我們的樓層前，通常都會先停在五樓。",
+        "starter": "Nine",
+        "answer": "Nine times out of ten, the lift stops at the fifth floor before it reaches us.",
+        "answerZh": "升降機到達我們的樓層前，十有八九都會先停在五樓。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "Nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q11",
+        "number": 11,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "He almost never replies to my emails.",
+        "promptZh": "他幾乎從不回覆我的電郵。",
+        "starter": "Nine",
+        "answer": "Nine times out of ten, he does not reply to my emails.",
+        "answerZh": "十有八九，他都不會回覆我的電郵。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "Nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q12",
+        "number": 12,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "This vending machine usually refuses to accept the coin.",
+        "promptZh": "這部售賣機通常都不接受這枚硬幣。",
+        "starter": "The",
+        "answer": "The vending machine does not accept this coin nine times out of ten.",
+        "answerZh": "這部售賣機十有八九都不接受這枚硬幣。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q13",
+        "number": 13,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Priya almost always knows the answer, so you should ask her.",
+        "promptZh": "普里亞幾乎總會知道答案，所以你應該問她。",
+        "starter": "Ask",
+        "answer": "Ask Priya, and nine times out of ten, she will know the answer.",
+        "answerZh": "問問普里亞吧，她十有八九會知道答案。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q14",
+        "number": 14,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Checking the cable can solve this problem in most cases.",
+        "promptZh": "在大多數情況下，檢查電線便可以解決這個問題。",
+        "starter": "Nine",
+        "answer": "Nine times out of ten, you can solve this problem by checking the cable.",
+        "answerZh": "十有八九，你檢查電線便能解決這個問題。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "Nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q15",
+        "number": 15,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "If Leo stays up late, he almost always feels tired the next morning.",
+        "promptZh": "如果里奧太遲睡，他第二天早上幾乎總會感到疲倦。",
+        "starter": "If",
+        "answer": "If Leo stays up late, he feels tired the next morning nine times out of ten.",
+        "answerZh": "如果里奧太遲睡，他第二天早上十有八九都會感到疲倦。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q16",
+        "number": 16,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "When we went out during our holiday, it rained on nearly every occasion.",
+        "promptZh": "我們在假期外出時，幾乎每次都下雨。",
+        "starter": "When",
+        "answer": "When we went out during our holiday, it rained nine times out of ten.",
+        "answerZh": "我們在假期外出時，十有八九都會下雨。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q17",
+        "number": 17,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The new key has worked on nearly every attempt so far.",
+        "promptZh": "到目前為止，這條新鑰匙幾乎每次都能使用。",
+        "starter": "So",
+        "answer": "So far, the new key has worked nine times out of ten.",
+        "answerZh": "到目前為止，這條新鑰匙十有八九都能使用。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q18",
+        "number": 18,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Whenever we asked Grandad for a story, he would usually choose one about the sea.",
+        "promptZh": "以前每當我們請爺爺講故事時，他通常都會選一個關於大海的故事。",
+        "starter": "When",
+        "answer": "When we asked Grandad for a story, nine times out of ten he would choose one about the sea.",
+        "answerZh": "以前我們請爺爺講故事時，他十有八九都會選一個關於大海的故事。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q19",
+        "number": 19,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Does this shortcut normally save time? B: Yes, it works in most cases.",
+        "promptZh": "甲：這條捷徑通常能節省時間嗎？ 乙：可以，在大多數情況下都有效。",
+        "starter": "Nine",
+        "answer": "Nine times out of ten, it does.",
+        "answerZh": "十有八九都能節省時間。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "Nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q20",
+        "number": 20,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "There are occasional exceptions, but the simpler plan usually works best.",
+        "promptZh": "事情偶爾也有例外，但較簡單的計劃通常最有效。",
+        "starter": "There",
+        "answer": "There are occasional exceptions, but nine times out of ten, the simpler plan works best.",
+        "answerZh": "事情偶爾也有例外，但十有八九，較簡單的計劃最有效。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q21",
+        "number": 21,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Is the train always delayed when it rains heavily? B: It is delayed on nearly every such occasion.",
+        "promptZh": "甲：大雨時，列車是否每次都會延誤？ 乙：在這種情況下，它幾乎每次都會延誤。",
+        "starter": "Nine",
+        "answer": "Nine times out of ten, the train is delayed when it rains heavily.",
+        "answerZh": "大雨時，列車十有八九都會延誤。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "Nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q22",
+        "number": 22,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Students who revise regularly usually feel more confident during an examination.",
+        "promptZh": "定期溫習的學生在考試時通常會更有信心。",
+        "starter": "Nine",
+        "answer": "Nine times out of ten, students who revise regularly feel more confident during an examination.",
+        "answerZh": "定期溫習的學生在考試時，十有八九都會更有信心。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "Nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q23",
+        "number": 23,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "In most cases, the customer wants a clear explanation rather than an apology.",
+        "promptZh": "在大多數情況下，顧客想要的是清楚解釋，而不是道歉。",
+        "starter": "What",
+        "answer": "What the customer wants, nine times out of ten, is a clear explanation rather than an apology.",
+        "answerZh": "顧客十有八九想要的是清楚解釋，而不是道歉。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q24",
+        "number": 24,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "If the baby wakes during the night, a little milk usually settles him.",
+        "promptZh": "如果嬰兒在晚上醒來，一點牛奶通常便能令他安定下來。",
+        "starter": "If",
+        "answer": "If the baby wakes during the night, a little milk settles him nine times out of ten.",
+        "answerZh": "如果嬰兒在晚上醒來，一點牛奶十有八九都能令他安定下來。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q25",
+        "number": 25,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "People often think the password is wrong, but in most cases they have simply typed it incorrectly.",
+        "promptZh": "人們往往以為密碼錯誤，但大多數情況下，他們只是輸入錯誤。",
+        "starter": "People",
+        "answer": "People often think the password is wrong, but nine times out of ten, they have simply typed it incorrectly.",
+        "answerZh": "人們往往以為密碼錯誤，但十有八九，他們只是輸入錯誤。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q26",
+        "number": 26,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "When this warning light appears, the battery is almost always low.",
+        "promptZh": "這盞警告燈亮起時，電池幾乎總是電量不足。",
+        "starter": "When",
+        "answer": "When this warning light appears, nine times out of ten the battery is low.",
+        "answerZh": "這盞警告燈亮起時，十有八九都是電池電量不足。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q27",
+        "number": 27,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: Should we call the repair shop immediately? B: Check the plug first. A loose plug is usually the cause.",
+        "promptZh": "甲：我們應否立即致電維修店？ 乙：先檢查插頭。通常都是插頭鬆脫所致。",
+        "starter": "Check",
+        "answer": "Check the plug first; nine times out of ten, a loose plug is the cause.",
+        "answerZh": "先檢查插頭；十有八九都是插頭鬆脫所致。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q28",
+        "number": 28,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The first idea is not always the best, but it usually gives the group somewhere to begin.",
+        "promptZh": "第一個想法未必最好，但通常都能讓小組有一個開始方向。",
+        "starter": "The",
+        "answer": "The first idea is not always the best, but nine times out of ten, it gives the group somewhere to begin.",
+        "answerZh": "第一個想法未必最好，但十有八九都能讓小組有一個開始方向。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q29",
+        "number": 29,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Most regular customers will recommend the soup if you ask them.",
+        "promptZh": "如果你詢問熟客，大多數人都會推薦那款湯。",
+        "starter": "Ask",
+        "answer": "Ask a regular customer, and nine times out of ten, they will recommend the soup.",
+        "answerZh": "問任何一位熟客，十有八九都會推薦那款湯。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q30",
+        "number": 30,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "As usually happens, the children became quiet as soon as the film started.",
+        "promptZh": "正如通常的情況一樣，電影開始後，孩子們便安靜下來。",
+        "starter": "As",
+        "answer": "As happens nine times out of ten, the children became quiet as soon as the film started.",
+        "answerZh": "正如十有八九會發生的情況一樣，電影開始後，孩子們便安靜下來。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q31",
+        "number": 31,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Although Nora says she will cook, her brother usually ends up making dinner.",
+        "promptZh": "雖然諾拉說她會煮飯，但最後通常都是她的弟弟準備晚餐。",
+        "starter": "Although",
+        "answer": "Although Nora says she will cook, her brother ends up making dinner nine times out of ten.",
+        "answerZh": "雖然諾拉說她會煮飯，但十有八九，最後都是她的弟弟準備晚餐。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q32",
+        "number": 32,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The manager asks Ben to check the figures because he spots the small mistakes in most cases.",
+        "promptZh": "經理請本檢查數字，因為大多數小錯誤都能由他發現。",
+        "starter": "The",
+        "answer": "The manager asks Ben to check the figures because he spots the small mistakes nine times out of ten.",
+        "answerZh": "經理請本檢查數字，因為十有八九，小錯誤都能由他發現。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q33",
+        "number": 33,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The answer is usually simpler than people expect.",
+        "promptZh": "答案通常比人們預期的簡單。",
+        "starter": "The",
+        "answer": "The answer is, nine times out of ten, simpler than people expect.",
+        "answerZh": "答案十有八九比人們預期的簡單。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q34",
+        "number": 34,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Whenever the two routes look equally fast, I normally choose the one with fewer traffic lights.",
+        "promptZh": "每當兩條路線看來同樣快捷，我通常都會選擇交通燈較少的一條。",
+        "starter": "Whenever",
+        "answer": "Whenever the two routes look equally fast, nine times out of ten I choose the one with fewer traffic lights.",
+        "answerZh": "每當兩條路線看來同樣快捷，十有八九我都會選擇交通燈較少的一條。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q35",
+        "number": 35,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: Why do you keep a paper copy? B: When the system stops working, somebody usually needs one.",
+        "promptZh": "甲：你為甚麼保留紙本副本？ 乙：系統停止運作時，通常都會有人需要一份。",
+        "starter": "I",
+        "answer": "I keep a paper copy because, when the system stops working, nine times out of ten somebody needs one.",
+        "answerZh": "我保留紙本副本，因為系統停止運作時，十有八九都會有人需要一份。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q36",
+        "number": 36,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The advice sounds too simple, yet getting enough sleep helps in most cases.",
+        "promptZh": "這項建議聽來過於簡單，但在大多數情況下，充足睡眠確實有幫助。",
+        "starter": "The",
+        "answer": "The advice sounds too simple, yet nine times out of ten, getting enough sleep helps.",
+        "answerZh": "這項建議聽來過於簡單，但十有八九，充足睡眠確實有幫助。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q37",
+        "number": 37,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "What appears to be a serious computer problem is usually caused by a loose cable.",
+        "promptZh": "看似嚴重的電腦問題，通常只是由鬆脫的電線造成。",
+        "starter": "What",
+        "answer": "What appears to be a serious computer problem is, nine times out of ten, caused by a loose cable.",
+        "answerZh": "看似嚴重的電腦問題，十有八九只是由鬆脫的電線造成。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q38",
+        "number": 38,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "If you give children a choice between two healthy snacks, they will usually choose one without complaining.",
+        "promptZh": "如果你讓孩子在兩款健康小食之間選擇，他們通常都會選一款，而不會抱怨。",
+        "starter": "If",
+        "answer": "If you give children a choice between two healthy snacks, nine times out of ten they will choose one without complaining.",
+        "answerZh": "如果你讓孩子在兩款健康小食之間選擇，十有八九他們都會選一款，而不會抱怨。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q39",
+        "number": 39,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "We rarely need a long meeting because a short message is usually enough.",
+        "promptZh": "我們很少需要舉行長時間會議，因為一則簡短訊息通常已經足夠。",
+        "starter": "We",
+        "answer": "We do not need a long meeting; nine times out of ten, a short message is enough.",
+        "answerZh": "我們不需要舉行長時間會議；十有八九，一則簡短訊息已經足夠。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q40",
+        "number": 40,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The weather forecast is not perfect, but it is correct in most cases.",
+        "promptZh": "天氣預報並非完美，但在大多數情況下都準確。",
+        "starter": "The",
+        "answer": "The weather forecast is not perfect, but it is correct nine times out of ten.",
+        "answerZh": "天氣預報並非完美，但十有八九都準確。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q41",
+        "number": 41,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "When a customer says the app is broken, the account usually only needs a new password.",
+        "promptZh": "當顧客表示應用程式損壞時，通常只是帳戶需要設定新密碼。",
+        "starter": "When",
+        "answer": "When a customer says the app is broken, nine times out of ten the account only needs a new password.",
+        "answerZh": "當顧客表示應用程式損壞時，十有八九只是帳戶需要設定新密碼。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q42",
+        "number": 42,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The coach says calm players make better decisions in nearly every case.",
+        "promptZh": "教練表示，冷靜的球員幾乎總能作出較好的決定。",
+        "starter": "The",
+        "answer": "The coach says that, nine times out of ten, calm players make better decisions.",
+        "answerZh": "教練表示，十有八九，冷靜的球員都能作出較好的決定。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q43",
+        "number": 43,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "This method will not work every time, but it should produce the right result in most cases.",
+        "promptZh": "這個方法不會每次都有效，但在大多數情況下應能得出正確結果。",
+        "starter": "This",
+        "answer": "This method will not work every time, but nine times out of ten, it should produce the right result.",
+        "answerZh": "這個方法不會每次都有效，但十有八九應能得出正確結果。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q44",
+        "number": 44,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Most complaints sound different at first, yet the real issue is usually unclear instructions.",
+        "promptZh": "大多數投訴起初聽來各不相同，但真正問題通常都是指示不清。",
+        "starter": "Most",
+        "answer": "Most complaints sound different at first, yet nine times out of ten the real issue is unclear instructions.",
+        "answerZh": "大多數投訴起初聽來各不相同，但十有八九，真正問題都是指示不清。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q45",
+        "number": 45,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: Why do you ask another question before giving advice? B: The first answer is usually not the whole story.",
+        "promptZh": "甲：你為甚麼在提供建議前再問一條問題？ 乙：第一個答案通常並不是事情的全部。",
+        "starter": "I",
+        "answer": "I ask another question because, nine times out of ten, the first answer is not the whole story.",
+        "answerZh": "我會再問一條問題，因為十有八九，第一個答案都不是事情的全部。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q46",
+        "number": 46,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Over many years, the teacher has found that students usually improve when feedback is specific.",
+        "promptZh": "經過多年觀察，老師發現，評語具體時，學生通常都會進步。",
+        "starter": "The",
+        "answer": "The teacher has found that, nine times out of ten, students improve when feedback is specific.",
+        "answerZh": "老師發現，評語具體時，十有八九學生都會進步。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q47",
+        "number": 47,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The problem may appear urgent, but if you wait five minutes, it usually solves itself.",
+        "promptZh": "問題可能看來十分緊急，但如果等五分鐘，它通常會自行解決。",
+        "starter": "The",
+        "answer": "The problem may appear urgent, but if you wait five minutes, nine times out of ten it solves itself.",
+        "answerZh": "問題可能看來十分緊急，但如果等五分鐘，十有八九它會自行解決。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q48",
+        "number": 48,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "When somebody says they have no time to practise, the real problem is usually a lack of a clear plan.",
+        "promptZh": "當有人說沒有時間練習時，真正問題通常是缺乏清晰計劃。",
+        "starter": "When",
+        "answer": "When somebody says they have no time to practise, nine times out of ten the real problem is a lack of a clear plan.",
+        "answerZh": "當有人說沒有時間練習時，十有八九，真正問題都是缺乏清晰計劃。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q49",
+        "number": 49,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The team has discovered that the simplest check prevents mistakes in nearly every case.",
+        "promptZh": "團隊發現，最簡單的檢查幾乎每次都能防止錯誤。",
+        "starter": "The",
+        "answer": "The team has discovered that nine times out of ten, the simplest check prevents mistakes.",
+        "answerZh": "團隊發現，十有八九，最簡單的檢查都能防止錯誤。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      },
+      {
+        "id": "idiom-130-q50",
+        "number": 50,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "There are rare exceptions, but people usually become more willing to cooperate when they feel truly listened to.",
+        "promptZh": "事情也有少數例外，但當人們感到自己真正獲得聆聽時，通常會更願意合作。",
+        "starter": "There",
+        "answer": "There are rare exceptions, but nine times out of ten, people become more willing to cooperate when they feel truly listened to.",
+        "answerZh": "事情也有少數例外，但當人們感到自己真正獲得聆聽時，十有八九都會更願意合作。",
+        "targetForm": "nine times out of ten",
+        "targetMeaning": "Almost always; on nearly every occasion; in the great majority of cases.",
+        "highlight": "nine times out of ten"
+      }
+    ]
+  }
+}

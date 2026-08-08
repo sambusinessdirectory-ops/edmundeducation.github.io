@@ -1,0 +1,1587 @@
+{
+  "lesson": {
+    "id": "idiom-126",
+    "order": 126,
+    "slug": "apples-and-oranges",
+    "version": "1",
+    "title": "不能相提並論／截然不同",
+    "titleEn": "apples and oranges",
+    "titleZh": "不能相提並論／截然不同",
+    "source": {
+      "file": "Idiom 126 -「Apples and Oranges」.pdf",
+      "pageCount": 39,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "exercisePdfPages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "answerKeyPdfPages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "apples and oranges",
+        "highlight": "apples and oranges"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The article compares apples and oranges.",
+        "zh": "這篇文章把不能直接相比的事物混為一談。",
+        "highlight": "apples and oranges"
+      },
+      {
+        "en": "The manager compared apples and oranges when she placed the two figures side by side.",
+        "zh": "經理把兩組不能直接相比的數字並列。",
+        "highlight": "apples and oranges"
+      }
+    ],
+    "meaning": {
+      "en": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+      "zh": "兩件事物、兩組數據、兩種情況或兩個群體存在重要差異，因此不能在忽略這些差異的情況下直接比較。",
+      "naturalZh": [
+        "兩件事物、兩組數據、兩種情況或兩個群體存在重要差異，因此不能在忽略這些差異的情況下直接比較。"
+      ]
+    },
+    "register": {
+      "labelEn": "Source-Guided Register",
+      "labelZh": "按原檔語域使用",
+      "summaryEn": "Both nouns are normally plural, and the conjunction and remains between them.",
+      "summaryZh": "它可以帶有糾正、分析、提醒、溫和批評、解釋或輕微幽默的語氣。",
+      "contextsEn": [
+        "corrective",
+        "analytical",
+        "cautionary",
+        "mildly critical",
+        "explanatory",
+        "occasionally humorous",
+        "apples and oranges",
+        "an apple and an orange",
+        "apple and orange",
+        "apples or oranges",
+        "apples and orange",
+        "the apples and the oranges"
+      ],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "兩個名詞通常使用複數，而中間的 and 不應改變。"
+    },
+    "fixedVariable": {
+      "fixed": "apples and oranges",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + compare(s) / compared + apples and oranges.",
+          "example": "The article compares apples and oranges.",
+          "highlight": "apples and oranges"
+        },
+        {
+          "form": "Subject + be + comparing + apples and oranges.",
+          "example": "You are comparing apples and oranges.",
+          "highlight": "apples and oranges"
+        },
+        {
+          "form": "Subject + may / might / could / should not / cannot + compare + apples and oranges.",
+          "example": "We should not compare apples and oranges.",
+          "highlight": "apples and oranges"
+        },
+        {
+          "form": "Subject + be + like comparing apples and oranges.",
+          "example": "Judging the two workers only by sales is like comparing apples and oranges.",
+          "highlight": "apples and oranges"
+        },
+        {
+          "form": "Plural subject + be + apples and oranges.",
+          "example": "The two scores are apples and oranges.",
+          "highlight": "apples and oranges"
+        },
+        {
+          "form": "It / That + be + apples and oranges.",
+          "example": "It is apples and oranges because the two figures measure different things.",
+          "highlight": "apples and oranges"
+        },
+        {
+          "form": "Subject + mix(es) / mixed + apples and oranges.",
+          "example": "The chart mixes apples and oranges.",
+          "highlight": "apples and oranges"
+        },
+        {
+          "form": "To compare X and Y + be + to compare apples and oranges.",
+          "example": "To compare the two shops only by total sales is to compare apples and oranges.",
+          "highlight": "apples and oranges"
+        },
+        {
+          "form": "The problem is that + subject + be comparing apples and oranges.",
+          "example": "The problem is that the report is comparing apples and oranges.",
+          "highlight": "apples and oranges"
+        },
+        {
+          "form": "Rather than compare apples and oranges, + subject + should + action.",
+          "example": "Rather than compare apples and oranges, the school should use the same test for both classes.",
+          "highlight": "apples and oranges"
+        },
+        {
+          "form": "an apples-and-oranges + noun",
+          "example": "The chart makes an apples-and-oranges comparison.",
+          "highlight": "apples-and-oranges"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As the Object of “Compare”",
+        "titleZh": "作 compare 的受詞",
+        "formula": "Subject + compare(s) / compared + apples and oranges.",
+        "descriptionEn": "The expression is complete after apples and oranges. Any following reason or method is optional.",
+        "descriptionZh": "之後，句子已可以完整。 其後的原因或方式只是可選補充。",
+        "examples": [
+          {
+            "en": "The article compares apples and oranges.",
+            "zh": "這篇文章把不能直接相比的事物混為一談。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "The manager compared apples and oranges when she placed the two figures side by side.",
+            "zh": "經理把兩組不能直接相比的數字並列。",
+            "highlight": "apples and oranges"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "In the Progressive Form",
+        "titleZh": "使用進行式",
+        "formula": "Subject + be + comparing + apples and oranges.",
+        "descriptionEn": "Source grammar frame: Subject + be + comparing + apples and oranges.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + comparing + apples and oranges。",
+        "examples": [
+          {
+            "en": "You are comparing apples and oranges.",
+            "zh": "你正在把兩種不能直接相比的事物相提並論。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "The report is comparing apples and oranges.",
+            "zh": "報告正在混合兩種不能直接比較的資料。",
+            "highlight": "apples and oranges"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "配合情態動詞",
+        "formula": "Subject + may / might / could / should not / cannot + compare + apples and oranges.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / could / should not / cannot + compare + apples and oranges.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / could / should not / cannot + compare + apples and oranges。",
+        "examples": [
+          {
+            "en": "We should not compare apples and oranges.",
+            "zh": "我們不應把不同類別的事物直接比較。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "The figures may be comparing apples and oranges.",
+            "zh": "這些數字可能混合了不能直接相比的資料。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "You cannot compare apples and oranges and expect a fair result.",
+            "zh": "把不能直接相比的事物相提並論，不可能得出公平結果。",
+            "highlight": "apples and oranges"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Like”",
+        "titleZh": "配合 like",
+        "formula": "Subject + be + like comparing apples and oranges.",
+        "descriptionEn": "Like is part of the surrounding comparison frame. It is not part of the fixed idiom.",
+        "descriptionZh": "只是外圍的比較句式，並不是固定慣用語的一部分。",
+        "examples": [
+          {
+            "en": "Judging the two workers only by sales is like comparing apples and oranges.",
+            "zh": "只按銷售額評價兩名從事不同工作的人，就如把不能直接相比的事物相提並論。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "That would be like comparing apples and oranges.",
+            "zh": "那樣比較並不合理。",
+            "highlight": "apples and oranges"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "As a Subject Complement",
+        "titleZh": "作主語補語",
+        "formula": "Plural subject + be + apples and oranges.",
+        "descriptionEn": "Source grammar frame: Plural subject + be + apples and oranges.",
+        "descriptionZh": "原檔列出的句法框架：Plural subject + be + apples and oranges。",
+        "examples": [
+          {
+            "en": "The two scores are apples and oranges.",
+            "zh": "這兩個分數根本不能直接比較。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "Those jobs are apples and oranges.",
+            "zh": "那兩份工作的性質完全不同，不能直接比較。",
+            "highlight": "apples and oranges"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "After “It Is” or “That Is”",
+        "titleZh": "配合 It is 或 That is",
+        "formula": "It / That + be + apples and oranges.",
+        "descriptionEn": "Cambridge specifically records something is apples and oranges as an established pattern. 7. After “A Case of”",
+        "descriptionZh": "配合",
+        "examples": [
+          {
+            "en": "It is apples and oranges because the two figures measure different things.",
+            "zh": "這是把不同類別的資料混為一談，因為兩個數字量度的是不同事物。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "That was apples and oranges.",
+            "zh": "那項比較的基礎並不一致。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "This is a case of apples and oranges.",
+            "zh": "這是把兩種不能直接相比的事物混為一談。",
+            "highlight": "apples and oranges"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "As the Object of “Mix”",
+        "titleZh": "作 mix 的受詞",
+        "formula": "Subject + mix(es) / mixed + apples and oranges.",
+        "descriptionEn": "Cambridge records mix apples and/with oranges as a natural extension of the target. 9. In an Explanatory “What” Clause",
+        "descriptionZh": "用於 what 解釋句",
+        "examples": [
+          {
+            "en": "The chart mixes apples and oranges.",
+            "zh": "這個圖表混合了不能直接相比的資料。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "The writer seems to be mixing apples and oranges.",
+            "zh": "作者似乎把不同類別的事物混為一談。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "What the reviewer is doing is comparing apples and oranges.",
+            "zh": "評論者所做的，是把兩種不能直接相比的事物相提並論。",
+            "highlight": "apples and oranges"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "In an Infinitive Equivalence Frame",
+        "titleZh": "用於不定式等同句式",
+        "formula": "To compare X and Y + be + to compare apples and oranges.",
+        "descriptionEn": "Source grammar frame: To compare X and Y + be + to compare apples and oranges.",
+        "descriptionZh": "原檔列出的句法框架：To compare X and Y + be + to compare apples and oranges。",
+        "examples": [
+          {
+            "en": "To compare the two shops only by total sales is to compare apples and oranges.",
+            "zh": "只按總銷售額比較這兩間規模不同的商店，就是把不能直接相比的事物相提並論。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "To judge a sprinter by a marathon time would be to compare apples and oranges.",
+            "zh": "以馬拉松時間評價短跑選手，就是使用不合適的比較標準。",
+            "highlight": "apples and oranges"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "After an Introductory Clause",
+        "titleZh": "放在引導句之後",
+        "formula": "The problem is that + subject + be comparing apples and oranges.",
+        "descriptionEn": "Source grammar frame: The problem is that + subject + be comparing apples and oranges.",
+        "descriptionZh": "原檔列出的句法框架：The problem is that + subject + be comparing apples and oranges。",
+        "examples": [
+          {
+            "en": "The problem is that the report is comparing apples and oranges.",
+            "zh": "問題在於這份報告把不同類別的資料混為一談。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "The result is misleading because the writer is comparing apples and oranges.",
+            "zh": "結果具誤導性，因為作者正在比較兩種不能直接相比的事物。",
+            "highlight": "apples and oranges"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "In a Fronted Contrast",
+        "titleZh": "用於前置對比句",
+        "formula": "Rather than compare apples and oranges, + subject + should + action.",
+        "descriptionEn": "Source grammar frame: Rather than compare apples and oranges, + subject + should + action.",
+        "descriptionZh": "原檔列出的句法框架：Rather than compare apples and oranges, + subject + should + action。",
+        "examples": [
+          {
+            "en": "Rather than compare apples and oranges, the school should use the same test for both classes.",
+            "zh": "學校不應把不同測驗的結果直接比較，而應讓兩班學生接受相同測驗。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "Before comparing apples and oranges, we should check whether the figures were measured in the same way.",
+            "zh": "在比較兩組資料前，我們應先檢查它們的計算方式是否一致。",
+            "highlight": "apples and oranges"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "As a Compound Modifier",
+        "titleZh": "作複合形容詞",
+        "formula": "an apples-and-oranges + noun",
+        "descriptionEn": "Source grammar frame: an apples-and-oranges + noun.",
+        "descriptionZh": "原檔列出的句法框架：an apples-and-oranges + noun。",
+        "examples": [
+          {
+            "en": "The chart makes an apples-and-oranges comparison.",
+            "zh": "這個圖表作出了一項基礎不一致的比較。",
+            "highlight": "apples-and-oranges"
+          },
+          {
+            "en": "It was an apples-and-oranges argument.",
+            "zh": "這是一項把不同類別事物混為一談的論點。",
+            "highlight": "apples-and-oranges"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Identifies an Unfair Comparison Quickly",
+        "titleZh": "快速指出比較並不公平",
+        "en": "The two figures are apples and oranges.",
+        "zh": "這個慣用語可以把一段較長的解釋濃縮成一句清楚的評論。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Draws Attention to the Basis of Comparison",
+        "titleZh": "引導聽者留意比較基礎",
+        "en": "Were the same units used?; Were the conditions the same?; Were the groups similar?; Was the same period measured?; Did the two figures measure the same thing?",
+        "zh": "這個表達提醒聽者檢查單位、條件、群體、時期及量度內容是否一致。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Helps Correct Misleading Data",
+        "titleZh": "協助糾正具誤導性的數據",
+        "en": "The report compares apples and oranges by placing a monthly cost beside a yearly cost. The idiom is particularly useful when numbers look similar but were produced in different ways.",
+        "zh": "報告把每月成本與全年成本並列，作出了具誤導性的比較。 當兩組數字表面相似，但計算方法並不一致時，這個表達尤其有用。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Provides Several Natural Grammar Choices",
+        "titleZh": "提供多種自然句式",
+        "en": "You are comparing apples and oranges.; The two results are apples and oranges.; It is like comparing apples and oranges.; The chart mixes apples and oranges.; It is an apples-and-oranges comparison.",
+        "zh": "這些不同框架有助學生按對話、報告或評論的需要調整句子。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Lead to a Better Comparison",
+        "titleZh": "引導說話者提出更公平的比較方式",
+        "en": "Rather than compare apples and oranges, the article should show the cost per lesson. The idiom can therefore do more than criticise. It can prepare the listener for a fairer method.",
+        "zh": "文章不應把不能直接相比的總價格並列，而應展示每堂的費用。 因此，這個慣用語除了指出問題，也可以引出較公平的比較方法。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is Memorable but Should Not Be Overused",
+        "titleZh": "形象鮮明，但不應過度使用",
+        "en": "The two figures are not directly comparable because they cover different periods.",
+        "zh": "在正式報告中，直接說明比較基礎不同有時更加精確。 慣用語並不會自動令句子更正式或更專業。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "Gradual Development; Exact First Use Uncertain",
+          "zh": "逐漸形成； 確切首次用法不明"
+        },
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "Both are fruit, but one measuring rule may not suit them both.",
+          "zh": "兩者同屬水果，但同一套比較標準未必適合兩者。"
+        }
+      ],
+      "memoryEn": "Both are fruit, but one measuring rule may not suit them both.",
+      "memoryZh": "兩者同屬水果，但同一套比較標準未必適合兩者。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "There Must Be a Comparison",
+        "titleZh": "規則一：語境中必須存在比較",
+        "en": "The report says the small shop is unsuccessful because it earns less than an international company. The small shop and the international company are different. The second sentence merely identifies a difference. It does not create an unfair comparison.",
+        "zh": "報告因小商店的收入低於跨國公司，便認定小商店不成功。 這份報告把兩種規模完全不同的企業相提並論。 小商店與跨國公司的確有所不同。 第二句只是指出兩者不同，並沒有進行不公平的比較。",
+        "examples": [
+          {
+            "en": "The report is comparing apples and oranges.",
+            "zh": "這份報告把兩種規模完全不同的企業相提並論。",
+            "highlight": "apples and oranges"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "Identify the Important Difference",
+        "titleZh": "規則二：指出影響比較的重要差異",
+        "en": "different time periods; different totals; different units; different purposes; different age groups; different working hours; different rules; different levels of difficulty; different sample sizes; different things being measured.",
+        "zh": "有力而清楚的用法通常會指出比較基礎為何不一致，例如時期、總分、單位、用途、年齡、工時、 規則、難度、樣本數目或量度內容不同。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Use It for Every Difference",
+        "titleZh": "規則三：不要用來形容所有差異",
+        "en": "The sentence only says that two people have different preferences.",
+        "zh": "哥哥喜歡茶，而我喜歡咖啡。 我們是 apples and oranges。 這句只是指出兩人的喜好不同。 哥哥每星期在家工作二十小時，而我在醫院工作五十小時。 直接比較我們每星期的交通費並不公平。",
+        "examples": [
+          {
+            "en": "My brother likes tea, but I like coffee. We are apples and oranges.",
+            "zh": "哥哥喜歡茶，而我喜歡咖啡。我們是 apples and oranges。",
+            "highlight": "apples and oranges"
+          },
+          {
+            "en": "My brother works from home for twenty hours a week, while I work in a hospital for fifty hours. Comparing our weekly travel costs is like comparing apples and oranges.",
+            "zh": "哥哥每星期在家工作二十小時，而我在醫院工作五十小時。直接比較我們每星期的交通費並不公平。",
+            "highlight": "apples and oranges"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "The Items May Share a General Category",
+        "titleZh": "規則四：兩者可以屬於同一大類",
+        "en": "Apples and oranges are both fruit, but their important differences make them a memorable image for an unsuitable comparison.",
+        "zh": "蘋果和橙同樣是水果，但兩者在味道、質感及其他特徵上明顯不同，因此成為「比較基礎不一致」 的形象化比喻。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The Idiom Does Not Ban Every Possible",
+        "titleZh": "規則五：這個慣用語並非表示完全不能作任何比較",
+        "en": "Apples and oranges can physically be compared by weight, price or vitamin content. Figuratively, the idiom criticises a particular comparison that ignores important differences.",
+        "zh": "蘋果和橙實際上仍可按重量、價格或營養含量比較。 這個慣用語所反對的，是忽略重要差異而作出的特定比較。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Keep the Plural Form",
+        "titleZh": "規則六：保留複數形式",
+        "en": "Keep the Plural Form",
+        "zh": "保留複數形式",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Use Hyphens Only Before a Noun",
+        "titleZh": "規則七：只在名詞前作複合修飾語時使用連字號",
+        "en": "Use Hyphens Only Before a Noun",
+        "zh": "把不同類別事物混為一談的比較",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "“Compare”, “Mix” and “Like” Are Optional Shells",
+        "titleZh": "規則八：compare、mix 及 like 只是可選框架",
+        "en": "“Compare”, “Mix” and “Like” Are Optional Shells",
+        "zh": "compare、mix 及 like 只是可選框架",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using apples and oranges.",
+      "zh": "使用 apples and oranges 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-126-q01",
+        "number": 1,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The English examination is marked out of 100, but the short quiz is marked out of 20. Their scores cannot be compared directly.",
+        "promptZh": "英文考試滿分是一百分，但小測滿分只有二十分，因此兩者的分數不能直接比較。",
+        "starter": "The",
+        "answer": "The English test and the short quiz are apples and oranges because they use different totals.",
+        "answerZh": "英文考試與小測使用不同滿分，因此兩者的分數不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q02",
+        "number": 2,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "One student made a poster alone. The other students produced a group video, so judging the two projects by the same standard is unfair.",
+        "promptZh": "一名學生獨自製作海報，其他學生則合作製作影片，因此以同一標準評價兩項作品並不公平。",
+        "starter": "Comparing",
+        "answer": "Comparing the solo poster with the group video is like comparing apples and oranges.",
+        "answerZh": "把個人海報與小組影片按同一標準比較，就是把不能直接相比的作品相提並論。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q03",
+        "number": 3,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "One job states a monthly full-time salary, while the other states a weekly part-time salary. You should not judge the two figures directly.",
+        "promptZh": "一份工作列出全職月薪，另一份則列出兼職週薪，因此不應直接比較兩個數字。",
+        "starter": "You",
+        "answer": "You are comparing apples and oranges if you judge the two pay figures without matching their time periods.",
+        "answerZh": "如果你不先統一計薪時期便比較兩個薪金數字，就是把不能直接相比的資料相提並論。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q04",
+        "number": 4,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The bus journey time begins when passengers board. The flight time does not include airport checks, so the two times use different starting points.",
+        "promptZh": "巴士車程由乘客上車時計算，但航班時間並不包括機場檢查，因此兩者的計算起點不同。",
+        "starter": "The",
+        "answer": "The two journey times are apples and oranges because one includes airport checks and the other does not.",
+        "answerZh": "一個車程包括相關登車過程，另一個時間卻不包括機場檢查，因此兩者不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q05",
+        "number": 5,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The old phone was tested with its screen at full brightness. The new phone was tested with a dark screen, so the battery results are misleading.",
+        "promptZh": "舊電話在螢幕最高亮度下接受測試，新電話則使用暗螢幕，因此電池測試結果具誤導性。",
+        "starter": "That",
+        "answer": "That battery comparison mixes apples and oranges because the phones were tested under different settings.",
+        "answerZh": "兩部電話在不同設定下接受測試，因此這項電池比較混合了不相配的資料。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q06",
+        "number": 6,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A small family shop and an international chain have very different numbers of branches. Comparing them only by total sales is not meaningful.",
+        "promptZh": "一間家庭式小店與一間跨國連鎖店的分店數目相差很大，因此只按總銷售額比較並沒有意義。",
+        "starter": "To",
+        "answer": "To compare the two shops only by total sales would be to compare apples and oranges.",
+        "answerZh": "只按總銷售額比較兩間規模不同的店舖，就是把不能直接相比的企業相提並論。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q07",
+        "number": 7,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The beginner class and the advanced class took examinations at different levels. Their average marks should not be compared directly.",
+        "promptZh": "初級班與高級班接受了不同程度的考試，因此不應直接比較兩班的平均分。",
+        "starter": "It",
+        "answer": "It is a case of apples and oranges; the two classes took tests at different levels.",
+        "answerZh": "這項比較的基礎並不一致，因為兩班接受了不同程度的測驗。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q08",
+        "number": 8,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "One runner completed a 100-metre sprint, while the other completed a marathon. Their finishing times cannot show which runner is better.",
+        "promptZh": "一名跑手完成一百米短跑，另一名則完成馬拉松，因此兩人的完成時間不能顯示誰更出色。",
+        "starter": "Calling",
+        "answer": "Calling one runner better from a sprint time and a marathon time is like comparing apples and oranges.",
+        "answerZh": "以短跑時間與馬拉松時間判斷哪名跑手較好，就是使用不合適的比較基礎。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q09",
+        "number": 9,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The first price is a monthly fee, while the second price is the cost for a whole year. The advertisement makes the second one look much more expensive.",
+        "promptZh": "第一個價格是月費，第二個則是全年費用。廣告令第二個價格看來昂貴得多。",
+        "starter": "The",
+        "answer": "The advert is comparing apples and oranges by placing a monthly fee beside a yearly fee.",
+        "answerZh": "廣告把月費與全年費用並列，因而作出了不公平的比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q10",
+        "number": 10,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "One book is a short story for children, while the other is a university textbook. Page numbers alone do not provide a fair comparison.",
+        "promptZh": "一本是兒童短篇故事，另一本是大學教科書，因此單憑頁數並不能作出公平比較。",
+        "starter": "Those",
+        "answer": "Those page counts are apples and oranges because the books serve completely different readers.",
+        "answerZh": "兩本書的目標讀者完全不同，因此頁數不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q11",
+        "number": 11,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Last week, the shop opened for only three days. This week, it opened for seven days, but the manager compared the total sales as though the periods were equal.",
+        "promptZh": "上星期店舖只營業三天，本星期則營業七天，但經理把兩週的總銷售額當作相同時期的數據比較。",
+        "starter": "The",
+        "answer": "The manager compared apples and oranges when she judged a three-day week against a seven-day week by total sales.",
+        "answerZh": "經理以總銷售額比較營業三天與營業七天的兩個星期，因而作出了基礎不一致的比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q12",
+        "number": 12,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The report places the number of website visits beside the number of completed purchases, although the figures measure different actions.",
+        "promptZh": "報告把網站瀏覽次數與完成購買的次數並列，儘管兩個數字量度的是不同的行動。",
+        "starter": "The",
+        "answer": "The report is comparing apples and oranges by placing website visits beside completed purchases.",
+        "answerZh": "報告把網站瀏覽次數與完成購買次數並列，混合了兩種不同的行動。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q13",
+        "number": 13,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "One school reports that 80% of its pupils passed. Another reports that 320 pupils passed. A percentage and a total number should not be compared directly.",
+        "promptZh": "一間學校表示八成學生合格，另一間則表示有三百二十名學生合格。百分比與總人數不應直接比較。",
+        "starter": "We",
+        "answer": "We should not compare apples and oranges when one score is a percentage and the other is a total number.",
+        "answerZh": "一個數字是百分比，另一個是總人數，因此我們不應直接比較兩者。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q14",
+        "number": 14,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The article compares one company’s monthly cost with another company’s yearly cost. Unless it uses the same period, its conclusion will be misleading.",
+        "promptZh": "文章把一間公司的每月成本與另一間公司的全年成本比較。除非它改用相同時期，否則結論將會具誤導性。",
+        "starter": "The",
+        "answer": "The article will be comparing apples and oranges unless it changes both costs to the same time period.",
+        "answerZh": "除非文章把兩項成本轉換至相同時期，否則便會比較兩組不相配的資料。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q15",
+        "number": 15,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The website has combined ratings given by adults with ratings given by young children. The two groups use the product differently.",
+        "promptZh": "網站把成年人與年幼兒童所給予的評分合併，但兩個群體使用產品的方式不同。",
+        "starter": "The",
+        "answer": "The website has mixed apples and oranges by combining ratings from adults and children.",
+        "answerZh": "網站把成年人與兒童的評分合併，混合了兩組使用情況不同的資料。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q16",
+        "number": 16,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "One programme is a one-hour lesson, while the other is a full-day course. Judging them only by total price would be unfair.",
+        "promptZh": "一個課程只有一小時，另一個則為全日課程，因此只按總價評價兩者並不公平。",
+        "starter": "It",
+        "answer": "It would be unfair to compare apples and oranges by treating a one-hour lesson and a full-day course as the same product.",
+        "answerZh": "把一小時課堂與全日課程當成相同產品比較，並不公平。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q17",
+        "number": 17,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The first attendance figure counts every visit. The second counts each person only once, so they may not measure the same thing.",
+        "promptZh": "第一個出席數字計算每次到訪，第二個則只把每人計算一次，因此兩者可能並非量度同一事物。",
+        "starter": "The",
+        "answer": "The two attendance figures may be apples and oranges because one counts visits and the other counts individual people.",
+        "answerZh": "一個數字計算到訪次數，另一個則計算不同人數，因此兩者可能不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q18",
+        "number": 18,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "One team played under the old rules, while the other played after several rules had changed. Are their results really comparable?",
+        "promptZh": "一支球隊按舊規則比賽，另一支球隊則在多項規則改變後作賽。兩者的成績真的可以比較嗎？",
+        "starter": "Are",
+        "answer": "Are we comparing apples and oranges when the two teams played under different rules?",
+        "answerZh": "兩支球隊按不同規則作賽，我們是否正在作出不公平的比較？",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q19",
+        "number": 19,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The reviewer tested one laptop by running video games. He tested the other by opening office documents, yet he directly compared their speed.",
+        "promptZh": "評論者以電子遊戲測試一部手提電腦，卻以開啟辦公室文件測試另一部，但他仍然直接比較兩者的速度。",
+        "starter": "What",
+        "answer": "What the reviewer did was compare apples and oranges: one laptop was tested for games and the other for office work.",
+        "answerZh": "評論者把兩部接受不同種類測試的手提電腦直接比較，混合了不相配的測試結果。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q20",
+        "number": 20,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The chart places a daily figure beside a yearly figure and presents them as equivalent.",
+        "promptZh": "圖表把每日數字與全年數字並列，並把兩者當成對等資料。",
+        "starter": "The",
+        "answer": "The chart makes an apples-and-oranges comparison between a daily figure and a yearly one.",
+        "answerZh": "圖表把每日數字與全年數字相提並論，作出了基礎不一致的比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples-and-oranges"
+      },
+      {
+        "id": "idiom-126-q21",
+        "number": 21,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: This job pays much more, so it must be better. B: It requires sixty hours a week. The other job requires only thirty-five.",
+        "promptZh": "甲：這份工作的薪金高得多，所以一定較好。 乙：這份工作每星期要工作六十小時，另一份則只需三十五小時。",
+        "starter": "You’re",
+        "answer": "You’re comparing apples and oranges because the two jobs require very different working hours.",
+        "answerZh": "兩份工作的工時相差很大，因此只比較薪金並不公平。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q22",
+        "number": 22,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: The flat in the city costs twice as much as the house in the village. B: The flat has one bedroom, while the house has three and is in a completely different area.",
+        "promptZh": "甲：市區單位的價格是鄉村房屋的兩倍。 乙：單位只有一間睡房，房屋則有三間，而且位於完全不同的地區。",
+        "starter": "That",
+        "answer": "That is like comparing apples and oranges; the homes are different sizes and in different places.",
+        "answerZh": "兩個住所的大小及地點都不同，因此這項價格比較並不公平。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q23",
+        "number": 23,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A product with five customer reviews received five stars. Another product with five hundred reviews received 4.8 stars. The two ratings may not carry equal weight.",
+        "promptZh": "一件只有五個顧客評價的產品獲得五星，另一件有五百個評價的產品則獲得四點八星。兩項評分的代表性可能並不相同。",
+        "starter": "Those",
+        "answer": "Those ratings may be apples and oranges unless we also consider how many people replied.",
+        "answerZh": "除非同時考慮評價人數，否則兩項評分可能不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q24",
+        "number": 24,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Q: Why can’t we say that School A improved more than School B? A: The two schools used completely different examinations.",
+        "promptZh": "問：為甚麼我們不能說甲校的進步比乙校大？ 答：兩間學校使用了完全不同的考試。",
+        "starter": "The",
+        "answer": "The pass rates are apples and oranges because the pupils sat different examinations.",
+        "answerZh": "學生接受了不同考試，因此兩間學校的合格率不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q25",
+        "number": 25,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "One patient arrived with a sudden emergency. The other had a booked visit for a routine check, so their waiting times should not be judged in the same way.",
+        "promptZh": "一名病人因突發緊急情況到達，另一名則已預約普通檢查，因此不應以相同方式評價兩人的等候時間。",
+        "starter": "Comparing",
+        "answer": "Comparing those waiting times is like comparing apples and oranges because one visit was an emergency and the other was booked.",
+        "answerZh": "一次是緊急求診，另一次是預約檢查，因此直接比較兩者的等候時間並不公平。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q26",
+        "number": 26,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The presenter claims that a film failed because it sold fewer tickets than the number of free views received by a short online video.",
+        "promptZh": "講者指出，一套電影售出的門票少於一段免費網上短片的瀏覽次數，因此認定電影失敗。",
+        "starter": "The",
+        "answer": "The presenter is mixing apples and oranges by treating ticket sales and free online views as the same result.",
+        "answerZh": "講者把門票銷售與免費網上瀏覽當成相同成果，混合了不能直接相比的數據。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q27",
+        "number": 27,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: Restaurant A charges $200, but Restaurant B charges only $160. B: Restaurant A’s price includes drinks, while Restaurant B’s does not.",
+        "promptZh": "甲：甲餐廳收費二百元，但乙餐廳只收一百六十元。 乙：甲餐廳的價錢包括飲品，但乙餐廳並不包括。",
+        "starter": "We",
+        "answer": "We cannot compare apples and oranges; one meal price includes drinks and the other does not.",
+        "answerZh": "一個餐價包括飲品，另一個則不包括，因此我們不能直接比較兩者。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q28",
+        "number": 28,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A striker is judged mainly by goals, while a goalkeeper is judged mainly by saves. One statistic cannot decide which player is better.",
+        "promptZh": "前鋒主要按入球數目評價，守門員則主要按撲救次數評價，因此一項數據不能判斷哪名球員較出色。",
+        "starter": "The",
+        "answer": "The two statistics are apples and oranges because goals and saves measure different jobs on the team.",
+        "answerZh": "入球與撲救量度的是球隊中的不同職責，因此兩項數據不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q29",
+        "number": 29,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: This phone plan is cheaper. B: It provides only five gigabytes of data, while the other plan provides unlimited data.",
+        "promptZh": "甲：這個電話計劃比較便宜。 乙：它只提供五GB數據，另一個計劃則提供無限數據。",
+        "starter": "It",
+        "answer": "It is an apples-and-oranges price comparison because the phone plans provide different amounts of data.",
+        "answerZh": "兩個電話計劃提供的數據量不同，因此這項價格比較的基礎並不一致。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples-and-oranges"
+      },
+      {
+        "id": "idiom-126-q30",
+        "number": 30,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The weather report compares one city’s yearly average temperature with another city’s average temperature during summer only.",
+        "promptZh": "天氣報告把一個城市的全年平均氣溫，與另一個城市只在夏季錄得的平均氣溫比較。",
+        "starter": "The",
+        "answer": "The report compares apples and oranges by placing a yearly weather average beside a summer average.",
+        "answerZh": "報告把全年平均氣溫與夏季平均氣溫並列，作出了不公平的比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q31",
+        "number": 31,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Both results are written as percentages. However, one shows the examination pass rate, while the other shows how many pupils enjoyed the course.",
+        "promptZh": "兩個結果都以百分比表示，但一個顯示考試合格率，另一個則顯示有多少學生喜歡課程。",
+        "starter": "Although",
+        "answer": "Although both results are percentages, they are apples and oranges because they measure different things.",
+        "answerZh": "雖然兩項結果都是百分比，但它們量度不同事物，因此不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q32",
+        "number": 32,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "One café opens seven days a week, while the other opens only three. Their total customer numbers cannot fairly show which café is more popular.",
+        "promptZh": "一間咖啡店每星期營業七天，另一間則只營業三天，因此總顧客人數不能公平顯示哪間較受歡迎。",
+        "starter": "Because",
+        "answer": "Because the cafés open on different numbers of days, comparing their total customer numbers is like comparing apples and oranges.",
+        "answerZh": "兩間咖啡店的營業日數不同，因此比較總顧客人數並不公平。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q33",
+        "number": 33,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The old class and the new class sat examinations of different difficulty. The school should give them the same test before judging which class performs better.",
+        "promptZh": "舊班與新班接受了難度不同的考試。學校應先讓兩班接受相同測驗，才判斷哪班表現較好。",
+        "starter": "Before",
+        "answer": "Before we judge the new class, we must stop comparing apples and oranges and use the same test.",
+        "answerZh": "在評價新班之前，我們必須停止比較不同難度的測驗結果，並改用相同測驗。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q34",
+        "number": 34,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The analyst said the two electricity bills should not be compared directly because the families used very different amounts of power.",
+        "promptZh": "分析員表示，兩張電費單不應直接比較，因為兩個家庭的用電量相差很大。",
+        "starter": "The",
+        "answer": "The analyst warned that the two electricity bills were apples and oranges because the homes used different amounts of power.",
+        "answerZh": "分析員警告，兩個家庭的用電量不同，因此兩張電費單不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q35",
+        "number": 35,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: The company earned $2 million in total income but only $200,000 in profit. Surely the profit figure is wrong. B: No. Those figures measure different things.",
+        "promptZh": "甲：公司總收入為二百萬元，但利潤只有二十萬元。利潤數字一定有錯。 乙：不是。這兩個數字量度的是不同事物。",
+        "starter": "No,",
+        "answer": "No, that comparison mixes apples and oranges: one number is profit and the other is total income.",
+        "answerZh": "不，這項比較混合了不同類別的數字：一個是利潤，另一個是總收入。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q36",
+        "number": 36,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The second course has a lower total price. However, it also provides only half as many lessons, so the price difference may be misleading.",
+        "promptZh": "第二個課程的總價較低，但提供的堂數也只有一半，因此價格差距可能具有誤導性。",
+        "starter": "The",
+        "answer": "The second course is cheaper, but that may be apples and oranges because it contains half as many lessons.",
+        "answerZh": "第二個課程雖然較便宜，但堂數也只有一半，因此這項價格比較可能並不公平。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q37",
+        "number": 37,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The two surveys asked different questions. If their results were treated as equivalent, the conclusion would be unfair.",
+        "promptZh": "兩項調查提出了不同問題。如果把兩者的結果視為對等資料，結論便會不公平。",
+        "starter": "If",
+        "answer": "If the surveys asked different questions, treating their results as equal would be to compare apples and oranges.",
+        "answerZh": "如果兩項調查提出不同問題，把兩者的結果視為對等資料，就是作出基礎不一致的比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q38",
+        "number": 38,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The article compares the total income of a country with ten million people and that of a country with one million people. It should show the income per person instead.",
+        "promptZh": "文章把一個人口一千萬的國家與一個人口一百萬的國家的總收入比較。文章應改為顯示人均收入。",
+        "starter": "Rather",
+        "answer": "Rather than compare apples and oranges, the article should show each country’s result per person.",
+        "answerZh": "文章不應直接比較人口規模不同的國家的總收入，而應展示人均數字。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q39",
+        "number": 39,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "One school has two hundred pupils, while the other has two thousand. The report compares their total numbers of prizes without considering school size.",
+        "promptZh": "一間學校有二百名學生，另一間則有二千名。報告在沒有考慮學校規模的情況下比較兩校的獎項總數。",
+        "starter": "How",
+        "answer": "How can that be fair when the report is comparing apples and oranges between a school of 200 pupils and one of 2,000?",
+        "answerZh": "報告比較一間有二百名學生與一間有二千名學生的學校，這項比較怎可能公平？",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q40",
+        "number": 40,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "During my first week at work, I compared my speed with that of a colleague who had performed the job for five years. I later understood that the comparison was unfair.",
+        "promptZh": "工作第一週時，我把自己的速度與一名已有五年經驗的同事比較。後來我明白這項比較並不公平。",
+        "starter": "I",
+        "answer": "I later realised that I had made an apples-and-oranges comparison between my first week and her fifth year in the job.",
+        "answerZh": "後來我才明白，把自己工作第一週的速度與她第五年的表現比較並不公平。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples-and-oranges"
+      },
+      {
+        "id": "idiom-126-q41",
+        "number": 41,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The school changed the examination from a fifty-mark paper to a hundred-mark paper. The raw scores may not show whether pupils have improved unless they are changed to the same scale.",
+        "promptZh": "學校把考試由五十分試卷改為一百分試卷。除非把分數轉換至相同比例，否則原始分數未必能顯示學生是否進步。",
+        "starter": "The",
+        "answer": "The scores may be apples and oranges unless the school changes them to the same scale.",
+        "answerZh": "除非學校把分數轉換至相同比例，否則兩組分數可能不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q42",
+        "number": 42,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A small shop increased its sales from ten orders to twenty, while a large shop increased its sales from one thousand orders to one thousand five hundred. Growth percentages alone may give a false impression of which shop is more successful.",
+        "promptZh": "一間小店的訂單由十張增至二十張，一間大型店舖則由一千張增至一千五百張。單憑增長百分比可能令人錯誤判斷哪間店舖較成功。",
+        "starter": "Calling",
+        "answer": "Calling the small shop more successful from growth percentages alone may amount to comparing apples and oranges.",
+        "answerZh": "單憑增長百分比便認定小店較成功，可能是把兩種規模完全不同的業務相提並論。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q43",
+        "number": 43,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A bus makes thirty stops on a long city route. A train makes four stops on a shorter route. Ranking the services by one delay figure would ignore these differences.",
+        "promptZh": "一輛巴士在一條長途市區路線停三十站，一列火車則在較短路線停四站。只按一項延誤數字排列兩項服務，會忽略這些差異。",
+        "starter": "To",
+        "answer": "To rank the bus and train services by one delay figure is to compare apples and oranges.",
+        "answerZh": "巴士與火車的路線及停站情況不同，因此只按一個延誤數字排列兩項服務並不公平。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q44",
+        "number": 44,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The manager judges a remote office worker by the number of messages answered, but judges a shop worker by daily sales. The two measures represent different kinds of work.",
+        "promptZh": "經理按回覆訊息的數目評價遙距辦公室員工，卻按每日銷售額評價店員。兩項標準代表不同種類的工作。",
+        "starter": "The",
+        "answer": "The two performance measures are apples and oranges because the jobs produce different kinds of results.",
+        "answerZh": "兩份工作產生不同種類的成果，因此兩項表現標準不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q45",
+        "number": 45,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The article says one hospital is better simply because it treats more patients than a much smaller clinic. Patient totals alone do not measure the quality of care.",
+        "promptZh": "文章只因一間醫院接收的病人多於一間規模小得多的診所，便認定醫院較好。病人總數本身不能量度護理質素。",
+        "starter": "The",
+        "answer": "The article makes an apples-and-oranges comparison by treating patient totals as proof of hospital quality.",
+        "answerZh": "文章把病人總數當成醫療質素的證明，作出了基礎不一致的比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples-and-oranges"
+      },
+      {
+        "id": "idiom-126-q46",
+        "number": 46,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "An advertisement claims that ten thousand requests for a free sample are equal to ten thousand paid subscriptions.",
+        "promptZh": "一則廣告聲稱，一萬個免費樣本申請等同於一萬個付費訂閱。",
+        "starter": "What",
+        "answer": "What the advert calls equal success is really apples and oranges: free sample requests are not paid subscriptions.",
+        "answerZh": "廣告所稱的相同成果其實不能直接比較，因為免費樣本申請並不等同付費訂閱。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q47",
+        "number": 47,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The coach places the race times of twelve-year-old pupils beside those of eighteen-year-old pupils without separating the age groups.",
+        "promptZh": "教練在沒有分開年齡組別的情況下，把十二歲學生與十八歲學生的比賽時間並列。",
+        "starter": "Without",
+        "answer": "Without separate age groups, the coach would be comparing apples and oranges.",
+        "answerZh": "如果不分開年齡組別，教練便會把不能直接相比的比賽時間相提並論。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q48",
+        "number": 48,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The company report compares this year’s profit covering twelve months with last year’s profit covering only the first six months.",
+        "promptZh": "公司報告把今年十二個月的利潤，與去年首六個月的利潤比較。",
+        "starter": "Apples",
+        "answer": "Apples and oranges are being compared in the company report because the time periods do not match.",
+        "answerZh": "公司報告所比較的時期長度並不一致，因此正在混合不能直接相比的資料。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "Apples and oranges"
+      },
+      {
+        "id": "idiom-126-q49",
+        "number": 49,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The first poll questioned parents about school meals. The second questioned pupils about classroom technology, but the newspaper directly compares their approval rates.",
+        "promptZh": "第一項民意調查詢問家長對學校膳食的意見，第二項則詢問學生對課堂科技的意見，但報章直接比較兩者的支持率。",
+        "starter": "The",
+        "answer": "The two poll results are not directly comparable; they are apples and oranges.",
+        "answerZh": "兩項民意調查詢問不同群體有關不同主題，因此結果不能直接比較。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      },
+      {
+        "id": "idiom-126-q50",
+        "number": 50,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: Which is more popular—the old cinema or the streaming service? The cinema filled 70% of its seats, while the service had 50,000 viewers. B: Those figures use different units and describe completely different services.",
+        "promptZh": "甲：舊戲院與串流服務哪一個較受歡迎？戲院七成座位有人入座，而串流服務則有五萬名觀眾。 乙：這些數字使用不同單位，而且描述的是完全不同的服務。",
+        "starter": "You",
+        "answer": "You cannot answer that fairly because the question compares apples and oranges.",
+        "answerZh": "這個問題把戲院入座率與串流服務的觀眾總數相提並論，因此無法得出公平答案。",
+        "targetForm": "apples and oranges",
+        "targetMeaning": "Two things, figures, situations or groups that are too different for a direct comparison to be fair, useful or meaningful.",
+        "highlight": "apples and oranges"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1250 @@
+{
+  "id": "ss284",
+  "order": 284,
+  "slug": "i-was-wondering-if-whether",
+  "title": "「I was wondering if / whether …」禮貌地提出請求或詢問",
+  "titleZh": "「I was wondering if / whether …」禮貌地提出請求或詢問",
+  "titleEn": "Using “I was wondering if / whether …”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 283 -「I was wondering if _ whether …」.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "sha256": "eb2a0e01341ddac9237b57ad2c1a39a32feed2f03c0910847e4da4ce89e3c496",
+    "sourceNumber": 283,
+    "systemOrder": 284,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 283 maps to ss284: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "I was wondering if / whether + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss284-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "I was wondering if / whether + subject + verb + other information"
+    }
+  ],
+  "example": "I was wondering if you could review this paragraph.",
+  "exampleZh": "我想請問你可否審閱這一段文字。",
+  "examples": [
+    {
+      "id": "ss284-example-01",
+      "en": "I was wondering if you could review this paragraph.",
+      "zh": "我想請問你可否審閱這一段文字。",
+      "highlight": "I was wondering if you could review this paragraph."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss284-rule-01",
+      "zh": "目標表達【Could】並不是固定句型的一部分；核心句型只是：【I was wondering if / whether + clause】 詞語【Could】常用於禮貌請求，但並非每句都必須使用。我想請問你可否把檔案傳給我。 我想知道檔案是否已經傳送。 兩句都完整正確，但用途不同。",
+      "en": "Could I was wondering if / whether + clause With could I was wondering if you could send me the file. Without could I was wondering whether the file had been sent.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss284-rule-02",
+      "zh": "後面使用陳述句語序這是一個間接問題，所以 if 或 whether 後面不可使用直接問句語序。",
+      "en": "If / whether I was wondering if you could help me. I was wondering if could you help me. I was wondering whether the shop was open. I was wondering whether was the shop open.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss284-rule-03",
+      "zh": "把直接問句改成 I was wondering if 或 whether 的間接問句後，通常不再保留助動詞 do、does 或 did；時態和人稱變化要在主要動詞上顯示。",
+      "en": "Do, does Direct question: Does the course include lunch? Indirect question: I was wondering whether the course includes lunch. I was wondering whether does the course include lunch.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss284-rule-04",
+      "zh": "不一定只表示過去在這個句型中，I was wondering 經常用來減弱語氣，令問題或請求聽起來不那麼直接。第二句雖然使用 was wondering，但可以用來提出現在的請求。",
+      "en": "Was wondering Direct: Can you check this paragraph? Softer: I was wondering if you could check this paragraph.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss284-rule-05",
+      "zh": "在這裏不是條件句我想知道商店是否營業。 這裏的 if 表示「是否」。如果商店營業，我便會進去。 這裏的 if 表示「如果」。",
+      "en": "If Compare: I was wondering if the shop was open. I will go inside if the shop is open.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss284-rule-06",
+      "zh": "和 whether 的基本分別兩者都可以用於一般的是非問題。兩句都正確。以下情況通常較適合使用 whether：正式語境；列出兩個選擇；使用 whether or not；句子較長，需要清楚標示選擇關係。",
+      "en": "If I was wondering if the manager was available. I was wondering whether the manager was available.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss284-rule-07",
+      "zh": "保留正確時態現在情況：【I was wondering if the office is open today.】 我想知道辦公室今天是否開放。 較早發生的事情：【I was wondering whether the payment had been received.】 我想知道付款是否已經收到。 未來安排：【I was wondering whether the meeting would finish before six.】 我想知道會議會否在六時前結束。",
+      "en": "I was wondering if the office is open today. I was wondering whether the payment had been received. I was wondering whether the meeting would finish before six.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss284-rule-08",
+      "zh": "標點目標表達【I was wondering if / whether】本身通常構成陳述句，因此正式寫作中可以使用句號。在非正式電郵或短訊中，有些人會加問號，以突出請求語氣，但本練習統一使用句號。",
+      "en": "I was wondering if / whether I was wondering if you could review this paragraph.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss284-benefit-01",
+      "zh": "令請求聽起來更有禮貌直接說：【Send me the document.】 可能顯得像命令。使用：【I was wondering if you could send me the document.】 可以讓對方感到你是在提出請求，而不是要求對方一定要服從。",
+      "en": "Send me the document. I was wondering if you could send me the document.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss284-benefit-02",
+      "zh": "避免問題聽起來太直接第二句特別適合用於電郵、工作場所、顧客服務和與不太熟悉的人交談。",
+      "en": "Direct: Is the manager free? Softer: I was wondering if the manager was free.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss284-benefit-03",
+      "zh": "同一個句型可以提出不同類型的問題你可以用它：請別人做事；詢問自己可否做某事；詢問資料；詢問兩個選擇；確認某件事是否已經發生。因此，掌握一個句框便可以應付很多日常和工作場合。",
+      "en": "The same frame can make requests, ask permission, request information, ask about two choices or check whether something has happened. One structure is therefore useful in many everyday and workplace situations.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss284-benefit-04",
+      "zh": "讓你先交代背景，再提出問題你可以先解釋時間、原因或情況，再提出請求。由於限期將至，我想請問我們可否明天見面。 這樣可以讓對方立即明白你提出問題的原因。",
+      "en": "As the deadline is approaching, I was wondering if we could meet tomorrow.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss284-benefit-05",
+      "zh": "幫助你掌握間接問題的語序這個句型要求 if 或 whether 後面使用陳述句語序。反覆練習後，你會較容易避免以下常見錯誤：【if can you...；whether is he...；if does the course...】 這對日常說話、電郵和考試寫作都很實用。",
+      "en": "if can you... whether is he... if does the course...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss284-benefit-06",
+      "zh": "讓你更自然地提出較敏感的問題有些問題涉及時間、金錢、安排或別人的決定。太直接地詢問可能令人不舒服。比：【Is the fee refundable?】 聽起來更謹慎，也給對方較大的回應空間。",
+      "en": "I was wondering whether the fee was refundable. Is the fee refundable?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 283 maps to ss284: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using I was wondering if / whether.",
+      "Retain all important information and use statement word order after if or whether.",
+      "The target structure may appear after a time phrase, reason clause or other introductory",
+      "information.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 I was wondering if / whether 改寫以下句子。",
+      "保留所有重要資料，並在 if 或 whether 後使用陳述句語序。",
+      "目標句型可以放在時間短語、原因子句或其他背景資料之後。",
+      "每題已提供答案的第一個字。",
+      "基礎改寫"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss284-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Could you review this paragraph, please?",
+      "promptZh": "請問你可否審閱這一段文字？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was wondering if you could review this paragraph.",
+      "answerZh": "我想請問你可否審閱這一段文字。",
+      "answerZhSource": "pdf",
+      "highlight": "I was wondering if you could review this paragraph."
+    },
+    {
+      "id": "ss284-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before I book the room, could you tell me if breakfast is included in the price?",
+      "promptZh": "在我預訂房間之前，你可否告訴我房價是否包括早餐？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before I book the room, I was wondering if breakfast is included in the price.",
+      "answerZh": "在我預訂房間之前，我想知道房價是否包括早餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Before I book the room, I was wondering if breakfast is included in the price."
+    },
+    {
+      "id": "ss284-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Earlier today, I wanted to know whether the library would be open this Sunday.",
+      "promptZh": "今天較早時，我想知道圖書館本星期日會否開放。",
+      "promptZhSource": "pdf",
+      "starter": "Earlier",
+      "answer": "Earlier today, I was wondering whether the library would be open this Sunday.",
+      "answerZh": "今天較早時，我想知道圖書館本星期日會否開放。",
+      "answerZhSource": "pdf",
+      "highlight": "Earlier today, I was wondering whether the library would be open this Sunday."
+    },
+    {
+      "id": "ss284-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "At the station, I wanted to ask whether I could use this ticket on the express train.",
+      "promptZh": "在車站時，我想詢問這張車票可否用於特快列車。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the station, I was wondering if I could use this ticket on the express train.",
+      "answerZh": "在車站時，我想知道這張車票可否用於特快列車。",
+      "answerZhSource": "pdf",
+      "highlight": "At the station, I was wondering if I could use this ticket on the express train."
+    },
+    {
+      "id": "ss284-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After reading the menu, I wanted to know whether the soup contained nuts.",
+      "promptZh": "閱讀餐牌後，我想知道這款湯是否含有果仁。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After reading the menu, I was wondering whether the soup contained nuts.",
+      "answerZh": "閱讀餐牌後，我想知道這款湯是否含有果仁。",
+      "answerZhSource": "pdf",
+      "highlight": "After reading the menu, I was wondering whether the soup contained nuts."
+    },
+    {
+      "id": "ss284-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "While checking the timetable, I wanted to know if the last bus left at eleven.",
+      "promptZh": "查看時間表時，我想知道尾班巴士是否在十一時開出。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While checking the timetable, I was wondering if the last bus left at eleven.",
+      "answerZh": "查看時間表時，我想知道尾班巴士是否在十一時開出。",
+      "answerZhSource": "pdf",
+      "highlight": "While checking the timetable, I was wondering if the last bus left at eleven."
+    },
+    {
+      "id": "ss284-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This morning, I wanted to know whether the examination results had been released.",
+      "promptZh": "今天早上，我想知道考試結果是否已經公布。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This morning, I was wondering whether the examination results had been released.",
+      "answerZh": "今天早上，我想知道考試結果是否已經公布。",
+      "answerZhSource": "pdf",
+      "highlight": "This morning, I was wondering whether the examination results had been released."
+    },
+    {
+      "id": "ss284-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I was just trying to find out whether Alex had arrived.",
+      "promptZh": "我只是想知道 Alex 是否已經到達。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was just wondering whether Alex had arrived.",
+      "answerZh": "我只是想知道 Alex 是否已經到達。",
+      "answerZhSource": "pdf",
+      "highlight": "I was just wondering whether Alex had arrived."
+    },
+    {
+      "id": "ss284-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "During the call, I wanted to ask if the delivery date could be changed.",
+      "promptZh": "通話期間，我想詢問送貨日期可否更改。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the call, I was wondering if the delivery date could be changed.",
+      "answerZh": "通話期間，我想知道送貨日期可否更改。",
+      "answerZhSource": "pdf",
+      "highlight": "During the call, I was wondering if the delivery date could be changed."
+    },
+    {
+      "id": "ss284-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Before the lesson, I wanted to ask whether I could borrow your dictionary.",
+      "promptZh": "上課前，我想請問可否借用你的字典。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the lesson, I was wondering if I could borrow your dictionary.",
+      "answerZh": "上課前，我想請問可否借用你的字典。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the lesson, I was wondering if I could borrow your dictionary."
+    },
+    {
+      "id": "ss284-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Could you explain this rule again, please?",
+      "promptZh": "請問你可否再次解釋這條規則？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was wondering if you could explain this rule again.",
+      "answerZh": "我想請問你可否再次解釋這條規則。",
+      "answerZhSource": "pdf",
+      "highlight": "I was wondering if you could explain this rule again."
+    },
+    {
+      "id": "ss284-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Yesterday, I wanted to know whether the museum offered guided tours.",
+      "promptZh": "昨天，我想知道博物館是否提供導賞團。",
+      "promptZhSource": "pdf",
+      "starter": "Yesterday",
+      "answer": "Yesterday, I was wondering whether the museum offered guided tours.",
+      "answerZh": "昨天，我想知道博物館是否提供導賞團。",
+      "answerZhSource": "pdf",
+      "highlight": "Yesterday, I was wondering whether the museum offered guided tours."
+    },
+    {
+      "id": "ss284-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "On my way home, I wanted to know if the pharmacy was still open.",
+      "promptZh": "回家途中，我想知道藥房是否仍然營業。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On my way home, I was wondering if the pharmacy was still open.",
+      "answerZh": "回家途中，我想知道藥房是否仍然營業。",
+      "answerZhSource": "pdf",
+      "highlight": "On my way home, I was wondering if the pharmacy was still open."
+    },
+    {
+      "id": "ss284-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Since you know the neighbourhood well, could you recommend a quiet café?",
+      "promptZh": "既然你很熟悉這個社區，你可否推薦一間安靜的咖啡店？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since you know the neighbourhood well, I was wondering if you could recommend a quiet café.",
+      "answerZh": "既然你很熟悉這個社區，我想請問你可否推薦一間安靜的咖啡店。",
+      "answerZhSource": "pdf",
+      "highlight": "Since you know the neighbourhood well, I was wondering if you could recommend a quiet café."
+    },
+    {
+      "id": "ss284-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I was actually trying to find out whether my application had been accepted.",
+      "promptZh": "我其實正想知道我的申請是否已獲接納。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was actually wondering whether my application had been accepted.",
+      "answerZh": "我其實正想知道我的申請是否已獲接納。",
+      "answerZhSource": "pdf",
+      "highlight": "I was actually wondering whether my application had been accepted."
+    },
+    {
+      "id": "ss284-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Before I decide, could you tell me if the course includes all the learning materials?",
+      "promptZh": "在我作出決定之前，你可否告訴我課程是否包括所有學習材料？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before I decide, I was wondering if the course includes all the learning materials.",
+      "answerZh": "在我作出決定之前，我想知道課程是否包括所有學習材料。",
+      "answerZhSource": "pdf",
+      "highlight": "Before I decide, I was wondering if the course includes all the learning materials."
+    },
+    {
+      "id": "ss284-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "While planning the trip, I wanted to know whether we needed a visa.",
+      "promptZh": "規劃旅程時，我想知道我們是否需要簽證。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While planning the trip, I was wondering whether we needed a visa.",
+      "answerZh": "規劃旅程時，我想知道我們是否需要簽證。",
+      "answerZhSource": "pdf",
+      "highlight": "While planning the trip, I was wondering whether we needed a visa."
+    },
+    {
+      "id": "ss284-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "At the end of the meeting, I wanted to ask if you could send me the updated schedule.",
+      "promptZh": "會議結束時，我想請問你可否把最新時間表傳給我。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the end of the meeting, I was wondering if you could send me the updated schedule.",
+      "answerZh": "會議結束時，我想請問你可否把最新時間表傳給我。",
+      "answerZhSource": "pdf",
+      "highlight": "At the end of the meeting, I was wondering if you could send me the updated schedule."
+    },
+    {
+      "id": "ss284-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "After speaking to the technician, I remained unsure whether the machine was safe to use.",
+      "promptZh": "與技術人員交談後，我仍然不確定這部機器是否可以安全使用。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After speaking to the technician, I was wondering whether the machine was safe to use.",
+      "answerZh": "與技術人員交談後，我想知道這部機器是否可以安全使用。",
+      "answerZhSource": "pdf",
+      "highlight": "After speaking to the technician, I was wondering whether the machine was safe to use."
+    },
+    {
+      "id": "ss284-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I still wanted to know if the payment had gone through.",
+      "promptZh": "我仍然想知道付款是否已經成功處理。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was still wondering if the payment had gone through.",
+      "answerZh": "我仍然想知道付款是否已經成功處理。",
+      "answerZhSource": "pdf",
+      "highlight": "I was still wondering if the payment had gone through."
+    },
+    {
+      "id": "ss284-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "For tomorrow’s meeting, should we prepare slides or a handout?",
+      "promptZh": "明天的會議，我們應該準備投影片還是講義？",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For tomorrow’s meeting, I was wondering whether we should prepare slides or a handout.",
+      "answerZh": "關於明天的會議，我想知道我們應該準備投影片還是講義。",
+      "answerZhSource": "pdf",
+      "highlight": "For tomorrow’s meeting, I was wondering whether we should prepare slides or a handout."
+    },
+    {
+      "id": "ss284-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before we leave, should we lock the windows or leave them open for ventilation?",
+      "promptZh": "離開之前，我們應該鎖上窗戶，還是讓窗戶保持打開以便通風？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we leave, I was wondering whether we should lock the windows or leave them open for ventilation.",
+      "answerZh": "離開之前，我想知道我們應該鎖上窗戶，還是讓窗戶保持打開以便通風。",
+      "answerZhSource": "pdf",
+      "highlight": "Before we leave, I was wondering whether we should lock the windows or leave them open for ventilation."
+    },
+    {
+      "id": "ss284-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Has the package been delayed, or has it been lost?",
+      "promptZh": "包裹是有所延誤，還是已經遺失？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was wondering whether the package had been delayed or lost.",
+      "answerZh": "我想知道包裹是有所延誤，還是已經遺失。",
+      "answerZhSource": "pdf",
+      "highlight": "I was wondering whether the package had been delayed or lost."
+    },
+    {
+      "id": "ss284-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "While filling in the form, can I leave this section blank?",
+      "promptZh": "填寫表格時，我可否把這一部分留空？",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While filling in the form, I was wondering if I could leave this section blank.",
+      "answerZh": "填寫表格時，我想知道可否把這一部分留空。",
+      "answerZhSource": "pdf",
+      "highlight": "While filling in the form, I was wondering if I could leave this section blank."
+    },
+    {
+      "id": "ss284-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Since the file is large, could you upload it to the shared drive?",
+      "promptZh": "由於檔案很大，你可否把它上載到共用雲端硬碟？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the file is large, I was wondering if you could upload it to the shared drive.",
+      "answerZh": "由於檔案很大，我想請問你可否把它上載到共用雲端硬碟。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the file is large, I was wondering if you could upload it to the shared drive."
+    },
+    {
+      "id": "ss284-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Would you mind checking these figures again?",
+      "promptZh": "你介意再次核對這些數字嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was wondering if you would mind checking these figures again.",
+      "answerZh": "我想請問你是否介意再次核對這些數字。",
+      "answerZhSource": "pdf",
+      "highlight": "I was wondering if you would mind checking these figures again."
+    },
+    {
+      "id": "ss284-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Before the shop closes, is there any chance you could reserve this item for me?",
+      "promptZh": "在商店關門之前，你有可能替我保留這件貨品嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the shop closes, I was wondering if you could reserve this item for me.",
+      "answerZh": "在商店關門之前，我想請問你可否替我保留這件貨品。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the shop closes, I was wondering if you could reserve this item for me."
+    },
+    {
+      "id": "ss284-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "After seeing the forecast, I was unsure whether the match would be cancelled.",
+      "promptZh": "看過天氣預報後，我不確定比賽會否取消。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After seeing the forecast, I was wondering whether the match would be cancelled.",
+      "answerZh": "看過天氣預報後，我想知道比賽會否取消。",
+      "answerZhSource": "pdf",
+      "highlight": "After seeing the forecast, I was wondering whether the match would be cancelled."
+    },
+    {
+      "id": "ss284-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "This afternoon, I wanted to know if the manager was available.",
+      "promptZh": "今天下午，我想知道經理是否有空。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This afternoon, I was wondering if the manager was available.",
+      "answerZh": "今天下午，我想知道經理是否有空。",
+      "answerZhSource": "pdf",
+      "highlight": "This afternoon, I was wondering if the manager was available."
+    },
+    {
+      "id": "ss284-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When I checked my account, I wanted to know whether the refund had already been processed.",
+      "promptZh": "查看帳戶時，我想知道退款是否已經處理。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When I checked my account, I was wondering whether the refund had already been processed.",
+      "answerZh": "查看帳戶時，我想知道退款是否已經處理。",
+      "answerZhSource": "pdf",
+      "highlight": "When I checked my account, I was wondering whether the refund had already been processed."
+    },
+    {
+      "id": "ss284-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "As the deadline is approaching, could we move the meeting to Tuesday?",
+      "promptZh": "由於限期將至，我們可否把會議改到星期二？",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the deadline is approaching, I was wondering if we could move the meeting to Tuesday.",
+      "answerZh": "由於限期將至，我想請問我們可否把會議改到星期二。",
+      "answerZhSource": "pdf",
+      "highlight": "As the deadline is approaching, I was wondering if we could move the meeting to Tuesday."
+    },
+    {
+      "id": "ss284-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Since this is your first visit, would you like me to explain how the ticket machine works?",
+      "promptZh": "既然這是你第一次到訪，你想我解釋售票機如何操作嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since this is your first visit, I was wondering if you would like me to explain how the ticket machine works.",
+      "answerZh": "既然這是你第一次到訪，我想請問你是否想我解釋售票機如何操作。",
+      "answerZhSource": "pdf",
+      "highlight": "Since this is your first visit, I was wondering if you would like me to explain how the ticket machine works."
+    },
+    {
+      "id": "ss284-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Before submitting the report, I wanted to know whether the final section needed more evidence.",
+      "promptZh": "提交報告前，我想知道最後一部分是否需要更多證據。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before submitting the report, I was wondering whether the final section needed more evidence.",
+      "answerZh": "提交報告前，我想知道最後一部分是否需要更多證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Before submitting the report, I was wondering whether the final section needed more evidence."
+    },
+    {
+      "id": "ss284-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Now that the room is free, can we use it for our group discussion?",
+      "promptZh": "既然房間現在空置，我們可否使用它進行小組討論？",
+      "promptZhSource": "pdf",
+      "starter": "Now",
+      "answer": "Now that the room is free, I was wondering if we could use it for our group discussion.",
+      "answerZh": "既然房間現在空置，我想請問我們可否使用它進行小組討論。",
+      "answerZhSource": "pdf",
+      "highlight": "Now that the room is free, I was wondering if we could use it for our group discussion."
+    },
+    {
+      "id": "ss284-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "While reading the contract, I wanted to know whether the fee included maintenance costs.",
+      "promptZh": "閱讀合約時，我想知道費用是否包括維修保養開支。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While reading the contract, I was wondering whether the fee included maintenance costs.",
+      "answerZh": "閱讀合約時，我想知道費用是否包括維修保養開支。",
+      "answerZhSource": "pdf",
+      "highlight": "While reading the contract, I was wondering whether the fee included maintenance costs."
+    },
+    {
+      "id": "ss284-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "During the discussion, I wanted to ask if the proposal had been approved by the legal team.",
+      "promptZh": "討論期間，我想詢問建議是否已獲法律團隊批准。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the discussion, I was wondering if the proposal had been approved by the legal team.",
+      "answerZh": "討論期間，我想知道建議是否已獲法律團隊批准。",
+      "answerZhSource": "pdf",
+      "highlight": "During the discussion, I was wondering if the proposal had been approved by the legal team."
+    },
+    {
+      "id": "ss284-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "When you have a moment, could you show me how to update the programme?",
+      "promptZh": "你有空時，可否向我示範如何更新這個程式？",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When you have a moment, I was wondering if you could show me how to update the programme.",
+      "answerZh": "你有空時，我想請問你可否向我示範如何更新這個程式。",
+      "answerZhSource": "pdf",
+      "highlight": "When you have a moment, I was wondering if you could show me how to update the programme."
+    },
+    {
+      "id": "ss284-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After the announcement, I was unsure whether part-time staff would also receive the allowance.",
+      "promptZh": "公布消息後，我不確定兼職員工是否也會獲得津貼。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the announcement, I was wondering whether part-time staff would also receive the allowance.",
+      "answerZh": "公布消息後，我想知道兼職員工是否也會獲得津貼。",
+      "answerZhSource": "pdf",
+      "highlight": "After the announcement, I was wondering whether part-time staff would also receive the allowance."
+    },
+    {
+      "id": "ss284-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "If you have time today, could you check whether the references are in the correct format?",
+      "promptZh": "如果你今天有時間，可否檢查參考資料的格式是否正確？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you have time today, I was wondering if you could check whether the references are in the correct format.",
+      "answerZh": "如果你今天有時間，我想請問你可否檢查參考資料的格式是否正確。",
+      "answerZhSource": "pdf",
+      "highlight": "If you have time today, I was wondering if you could check whether the references are in the correct format."
+    },
+    {
+      "id": "ss284-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "As you worked on the earlier version, do you know whether this chart uses the same data?",
+      "promptZh": "由於你曾處理較早的版本，你知道這個圖表是否使用相同數據嗎？",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As you worked on the earlier version, I was wondering whether this chart uses the same data.",
+      "answerZh": "由於你曾處理較早的版本，我想知道這個圖表是否使用相同數據。",
+      "answerZhSource": "pdf",
+      "highlight": "As you worked on the earlier version, I was wondering whether this chart uses the same data."
+    },
+    {
+      "id": "ss284-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Before travelling, I needed to know whether my passport had to be valid for another six months.",
+      "promptZh": "出發旅行前，我需要知道護照是否必須仍有六個月有效期。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before travelling, I was wondering whether my passport had to be valid for another six months.",
+      "answerZh": "出發旅行前，我想知道護照是否必須仍有六個月有效期。",
+      "answerZhSource": "pdf",
+      "highlight": "Before travelling, I was wondering whether my passport had to be valid for another six months."
+    },
+    {
+      "id": "ss284-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Since the instructions are brief, could you clarify whether we should submit one file or two?",
+      "promptZh": "由於指示很簡短，你可否澄清我們應該提交一個還是兩個檔案？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the instructions are brief, I was wondering if you could clarify whether we should submit one file or two.",
+      "answerZh": "由於指示很簡短，我想請問你可否澄清我們應該提交一個還是兩個檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the instructions are brief, I was wondering if you could clarify whether we should submit one file or two."
+    },
+    {
+      "id": "ss284-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Has the supplier confirmed the price, or are they still considering it?",
+      "promptZh": "供應商已經確認價格，還是仍在考慮？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was wondering whether the supplier had confirmed the price or was still considering it.",
+      "answerZh": "我想知道供應商已經確認價格，還是仍在考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "I was wondering whether the supplier had confirmed the price or was still considering it."
+    },
+    {
+      "id": "ss284-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "At yesterday’s meeting, I wanted to know whether the changes would affect staff who worked remotely.",
+      "promptZh": "在昨天的會議上，我想知道這些改動會否影響遙距工作的員工。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At yesterday’s meeting, I was wondering whether the changes would affect staff who worked remotely.",
+      "answerZh": "在昨天的會議上，我想知道這些改動會否影響遙距工作的員工。",
+      "answerZhSource": "pdf",
+      "highlight": "At yesterday’s meeting, I was wondering whether the changes would affect staff who worked remotely."
+    },
+    {
+      "id": "ss284-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Before choosing a date, should we wait for all the speakers to reply, or should we book the hall now?",
+      "promptZh": "選擇日期前，我們應該等待所有講者回覆，還是現在便預訂禮堂？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before choosing a date, I was wondering whether we should wait for all the speakers to reply or book the hall now.",
+      "answerZh": "選擇日期前，我想知道我們應該等待所有講者回覆，還是現在便預訂禮堂。",
+      "answerZhSource": "pdf",
+      "highlight": "Before choosing a date, I was wondering whether we should wait for all the speakers to reply or book the hall now."
+    },
+    {
+      "id": "ss284-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Would you be able to review the paragraph and tell me whether the conclusion follows logically?",
+      "promptZh": "你可否審閱這一段，並告訴我結論是否合乎邏輯？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was wondering if you would be able to review the paragraph and tell me whether the conclusion follows logically.",
+      "answerZh": "我想請問你可否審閱這一段，並告訴我結論是否合乎邏輯。",
+      "answerZhSource": "pdf",
+      "highlight": "I was wondering if you would be able to review the paragraph and tell me whether the conclusion follows logically."
+    },
+    {
+      "id": "ss284-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "After reviewing the schedule, I remained uncertain whether the training could be completed before the launch.",
+      "promptZh": "檢視時間表後，我仍然不確定培訓能否在推出計劃前完成。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After reviewing the schedule, I was wondering whether the training could be completed before the launch.",
+      "answerZh": "檢視時間表後，我想知道培訓能否在推出計劃前完成。",
+      "answerZhSource": "pdf",
+      "highlight": "After reviewing the schedule, I was wondering whether the training could be completed before the launch."
+    },
+    {
+      "id": "ss284-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "While looking at the two plans, I wanted to know whether the cheaper option included technical support.",
+      "promptZh": "查看兩個計劃時，我想知道較便宜的選項是否包括技術支援。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While looking at the two plans, I was wondering whether the cheaper option included technical support.",
+      "answerZh": "查看兩個計劃時，我想知道較便宜的選項是否包括技術支援。",
+      "answerZhSource": "pdf",
+      "highlight": "While looking at the two plans, I was wondering whether the cheaper option included technical support."
+    },
+    {
+      "id": "ss284-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "As the two policies differ, could you explain whether the new rule applies to existing customers?",
+      "promptZh": "由於兩項政策有所不同，你可否解釋新規則是否適用於現有顧客？",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the two policies differ, I was wondering if you could explain whether the new rule applies to existing customers.",
+      "answerZh": "由於兩項政策有所不同，我想請問你可否解釋新規則是否適用於現有顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "As the two policies differ, I was wondering if you could explain whether the new rule applies to existing customers."
+    },
+    {
+      "id": "ss284-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Before we finalise the booking, could you confirm whether the deposit is refundable and when the remaining balance is due?",
+      "promptZh": "在我們落實預訂之前，你可否確認訂金能否退還，以及餘款何時到期？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we finalise the booking, I was wondering if you could confirm whether the deposit is refundable and when the remaining balance is due.",
+      "answerZh": "在我們落實預訂之前，我想請問你可否確認訂金能否退還，以及餘款何時到期。",
+      "answerZhSource": "pdf",
+      "highlight": "Before we finalise the booking, I was wondering if you could confirm whether the deposit is refundable and when the remaining balance is due."
+    }
+  ]
+}

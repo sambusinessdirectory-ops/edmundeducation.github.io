@@ -1,0 +1,1596 @@
+{
+  "lesson": {
+    "id": "idiom-75",
+    "order": 75,
+    "slug": "born-to-the-purple",
+    "version": "1",
+    "title": "出生於皇室／生於帝王之家",
+    "titleEn": "born to the purple",
+    "titleZh": "出生於皇室／生於帝王之家",
+    "source": {
+      "file": "Idiom 75 - “Born to the Purple”.pdf",
+      "pageCount": 46,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "exercisePdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "answerKeyPdfPages": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "born to the purple",
+        "highlight": "born to the purple"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Princess Helena was born to the purple.",
+        "zh": "海倫娜公主出生於皇室。",
+        "highlight": "born to the purple"
+      },
+      {
+        "en": "The royal twins were born to the purple.",
+        "zh": "這對皇室雙胞胎出生於帝王之家。",
+        "highlight": "born to the purple"
+      }
+    ],
+    "meaning": {
+      "en": "Born into a royal family or a family of extremely high social rank.",
+      "zh": "出生於皇室，或出生於社會地位極高的顯赫家族。",
+      "naturalZh": [
+        "出生於皇室",
+        "生於帝王之家",
+        "出身皇族",
+        "擁有皇室血統",
+        "出身極其顯赫",
+        "生來便具有崇高社會地位"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral to Formal",
+      "labelZh": "中性至正式",
+      "summaryEn": "historical writing; biographies; novels; documentaries; discussions of royalty; descriptions of fictional royal families; formal or humorous comparisons involving inherited privilege.",
+      "summaryZh": "在一般日常對話中，這個表達並不常用； 除非說話者刻意採用歷史、文學或幽默語氣。",
+      "contextsEn": [
+        "historical writing",
+        "biographies",
+        "novels",
+        "documentaries",
+        "discussions of royalty",
+        "descriptions of fictional royal families",
+        "formal or humorous comparisons involving inherited privilege",
+        "She was born into a royal family",
+        "He was a prince from birth",
+        "She came from one of the country’s highest-ranking families",
+        "He was born into the ruling family",
+        "respect"
+      ],
+      "contextsZh": [
+        "歷史文章",
+        "傳記",
+        "小說",
+        "紀錄片",
+        "有關皇室的討論",
+        "描述虛構皇室家族",
+        "對世襲特權作正式或帶幽默感的比較。",
+        "尊敬",
+        "欣賞",
+        "歷史距離感",
+        "對世襲特權的批評",
+        "諷刺"
+      ],
+      "formalEn": "historical writing; biographies; novels; documentaries; discussions of royalty; descriptions of fictional royal families; formal or humorous comparisons involving inherited privilege.",
+      "formalZh": "歷史文章； 傳記； 小說； 紀錄片； 有關皇室的討論； 描述虛構皇室家族； 對世襲特權作正式或帶幽默感的比較。"
+    },
+    "fixedVariable": {
+      "fixed": "born to the purple",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + was / were + born to the purple.",
+          "example": "Princess Helena was born to the purple.",
+          "highlight": "born to the purple"
+        },
+        {
+          "form": "Subject + was / were born to the purple + time or place.",
+          "example": "Prince Adrian was born to the purple in 1998.",
+          "highlight": "born to the purple"
+        },
+        {
+          "form": "Subject + was born to the purple rather than marrying into royalty.",
+          "example": "Queen Elena was born to the purple rather than marrying into royalty.",
+          "highlight": "born to the purple"
+        },
+        {
+          "form": "Subject + was not born to the purple; + explanation.",
+          "example": "The new king was not born to the purple; he entered the royal family through marriage.",
+          "highlight": "born to the purple"
+        },
+        {
+          "form": "Although / Though + subject + was born to the purple, + contrasting fact.",
+          "example": "Although the prince was born to the purple, he chose a simple life.",
+          "highlight": "born to the purple"
+        },
+        {
+          "form": "Being born to the purple + verb...",
+          "example": "Being born to the purple gave the prince many advantages.",
+          "highlight": "born to the purple"
+        },
+        {
+          "form": "Person + born to the purple + additional description",
+          "example": "The novel follows a young woman born to the purple who does not want the crown.",
+          "highlight": "born to the purple"
+        },
+        {
+          "form": "Those / People born to the purple + verb...",
+          "example": "Those born to the purple do not necessarily become rulers.",
+          "highlight": "born to the purple"
+        },
+        {
+          "form": "Subject + may / might / appears to have been + born to the purple.",
+          "example": "She may have been born to the purple, but the records are incomplete.",
+          "highlight": "born to the purple"
+        },
+        {
+          "form": "If + subject + had been born to the purple, + imagined result.",
+          "example": "If Elena had been born to the purple, she would have grown up in the palace.",
+          "highlight": "born to the purple"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Royal-Birth Statement",
+        "titleZh": "句式一：基本皇室出身句式",
+        "formula": "Subject + was / were + born to the purple.",
+        "descriptionEn": "This is the clearest and most direct grammar frame.",
+        "descriptionZh": "這是最清楚、最直接的句法框架。",
+        "examples": [
+          {
+            "en": "Princess Helena was born to the purple.",
+            "zh": "海倫娜公主出生於皇室。",
+            "highlight": "born to the purple"
+          },
+          {
+            "en": "The royal twins were born to the purple.",
+            "zh": "這對皇室雙胞胎出生於帝王之家。",
+            "highlight": "born to the purple"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Adding Time or Place",
+        "titleZh": "句式二：加入時間或地點",
+        "formula": "Subject + was / were born to the purple + time or place.",
+        "descriptionEn": "The time or place is independent information and should remain in the transformed sentence.",
+        "descriptionZh": "時間或地點屬於獨立資料，改寫後應予保留。",
+        "examples": [
+          {
+            "en": "Prince Adrian was born to the purple in 1998.",
+            "zh": "阿德里安王子於1998年出生於皇室。",
+            "highlight": "born to the purple"
+          },
+          {
+            "en": "The future queen was born to the purple in the capital.",
+            "zh": "這位未來王后在首都出生於皇室。",
+            "highlight": "born to the purple"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Contrasting Birth with Marriage",
+        "titleZh": "句式三：對比出生與婚姻",
+        "formula": "Subject + was born to the purple rather than marrying into royalty.",
+        "descriptionEn": "This distinction is central to the idiom.",
+        "descriptionZh": "這個分別是慣用語的核心之一。",
+        "examples": [
+          {
+            "en": "Queen Elena was born to the purple rather than marrying into royalty.",
+            "zh": "埃琳娜王后本身出身皇室，並非透過婚姻加入皇室。",
+            "highlight": "born to the purple"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Negative Form",
+        "titleZh": "句式四：否定形式",
+        "formula": "Subject + was not born to the purple; + explanation.",
+        "descriptionEn": "The expression remains useful in a negative sentence because it distinguishes inherited rank from later status.",
+        "descriptionZh": "這個表達亦可以用於否定句，以區分與生俱來的身份和後來取得的身份。",
+        "examples": [
+          {
+            "en": "The new king was not born to the purple; he entered the royal family through marriage.",
+            "zh": "新國王並非出身皇室；他透過婚姻加入皇室。",
+            "highlight": "born to the purple"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Concession",
+        "titleZh": "句式五：讓步關係",
+        "formula": "Although / Though + subject + was born to the purple, + contrasting fact.",
+        "descriptionEn": "Source grammar frame: Although / Though + subject + was born to the purple, + contrasting fact.",
+        "descriptionZh": "原檔列出的句法框架：Although / Though + subject + was born to the purple, + contrasting fact。",
+        "examples": [
+          {
+            "en": "Although the prince was born to the purple, he chose a simple life.",
+            "zh": "雖然王子出身皇室，但他選擇了簡樸生活。",
+            "highlight": "born to the purple"
+          },
+          {
+            "en": "Though born to the purple, the prince chose a simple life.",
+            "zh": "王子雖然出身皇室，卻選擇了簡樸生活。",
+            "highlight": "born to the purple"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“Being Born...” as the Subject",
+        "titleZh": "句式六：以 Being born... 作主語",
+        "formula": "Being born to the purple + verb...",
+        "descriptionEn": "This frame treats royal birth as a condition or life circumstance.",
+        "descriptionZh": "這個句式把皇室出身視為一種人生條件或背景。",
+        "examples": [
+          {
+            "en": "Being born to the purple gave the prince many advantages.",
+            "zh": "出生於皇室為王子帶來不少優勢。",
+            "highlight": "born to the purple"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Describing a Person",
+        "titleZh": "句式七：描述人物",
+        "formula": "Person + born to the purple + additional description",
+        "descriptionEn": "The phrase directly follows the person it describes.",
+        "descriptionZh": "這個短語直接放在它所描述的人物後面。",
+        "examples": [
+          {
+            "en": "The novel follows a young woman born to the purple who does not want the crown.",
+            "zh": "小說講述一位出身皇室、卻不想繼承王位的年輕女子。",
+            "highlight": "born to the purple"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Generalising About a Group",
+        "titleZh": "句式八：概括一群人",
+        "formula": "Those / People born to the purple + verb...",
+        "descriptionEn": "Do not assume that royal birth automatically guarantees the throne.",
+        "descriptionZh": "不要假設皇室出身必然代表可以繼承王位。",
+        "examples": [
+          {
+            "en": "Those born to the purple do not necessarily become rulers.",
+            "zh": "出生於皇室的人不一定會成為統治者。",
+            "highlight": "born to the purple"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Uncertainty",
+        "titleZh": "句式九：不確定情況",
+        "formula": "Subject + may / might / appears to have been + born to the purple.",
+        "descriptionEn": "The uncertainty must remain visible.",
+        "descriptionZh": "原句的不確定程度必須保留。",
+        "examples": [
+          {
+            "en": "She may have been born to the purple, but the records are incomplete.",
+            "zh": "她可能出生於皇室，但相關記錄並不完整。",
+            "highlight": "born to the purple"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Counterfactual Condition",
+        "titleZh": "句式十：與事實相反的條件",
+        "formula": "If + subject + had been born to the purple, + imagined result.",
+        "descriptionEn": "This means that Elena was not actually born into royalty.",
+        "descriptionZh": "這個句式表示埃琳娜實際上並非出生於皇室。",
+        "examples": [
+          {
+            "en": "If Elena had been born to the purple, she would have grown up in the palace.",
+            "zh": "如果埃琳娜出生於皇室，她本來便會在宮中長大。",
+            "highlight": "born to the purple"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Royal Birth Compactly",
+        "titleZh": "簡潔表達皇室出身",
+        "en": "She was born to the purple.",
+        "zh": "你可以用較短的方式表達「她出生時所屬的家族已經具有皇室地位及權力」。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Distinguishes Birth from Later Achievement",
+        "titleZh": "區分出身與後來成就",
+        "en": "She became queen through marriage. The first describes inherited status. The second describes a later change.",
+        "zh": "她出生於皇室。 她透過婚姻成為王后。 第一句描述與生俱來的身份； 第二句描述後來發生的身份轉變。",
+        "examples": [
+          {
+            "en": "She was born to the purple.",
+            "zh": "她出生於皇室。",
+            "highlight": "born to the purple"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Supports Historical and Literary Description",
+        "titleZh": "適合歷史及文學描述",
+        "en": "The expression allows a writer to establish a character’s royal background in a memorable way.",
+        "zh": "這個表達讓作者可以用容易記住的方式，交代人物的皇室背景。 這位年輕王子出身皇室，自小便熟悉宮廷生活。",
+        "examples": [
+          {
+            "en": "Born to the purple, the young prince had known palace life since childhood.",
+            "zh": "這位年輕王子出身皇室，自小便熟悉宮廷生活。",
+            "highlight": "Born to the purple"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Introduce Questions About Privilege",
+        "titleZh": "可以引出對特權的思考",
+        "en": "inherited power; social class; responsibility; fairness; leadership; personal merit.",
+        "zh": "這個表達可以用來討論： 出生於皇室令他擁有權力，但並沒有使他自動成為優秀領袖。",
+        "examples": [
+          {
+            "en": "Being born to the purple gave him power, but it did not make him a good leader.",
+            "zh": "出生於皇室令他擁有權力，但並沒有使他自動成為優秀領袖。",
+            "highlight": "born to the purple"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Creates a Strong Historical Image",
+        "titleZh": "建立鮮明歷史畫面",
+        "en": "The word purple connects the person’s birth with the colour traditionally associated with imperial rank. This makes the expression more memorable than a plain phrase such as born into royalty.",
+        "zh": "使人物的出生與傳統上象徵帝王地位的顏色連繫起來。 因此，這個表達通常比 born into royalty 更具歷史意象及記憶點。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is an Alternative, Not an Automatic Improvement",
+        "titleZh": "它只是替代說法，並非必然更好",
+        "en": "the audience may not know the idiom; the writing must be very clear; the context is modern and conversational; historical colour is unnecessary.",
+        "zh": "在以下情況，使用 born into a royal family 通常更加清楚：",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Well-Documented Historical Concept; Exact Development of the “To” Variant Uncertain",
+      "statusZh": "歷史概念有充分記錄；使用 to 的英語變體如何形成則未能完全確定",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, born to the purple means being born into royalty or exceptionally high social rank. It does not literally mean that the baby, room, clothes or family were purple.",
+          "zh": "今天，born to the purple 表示出生於皇室或社會地位極高的家族。 它並不是說嬰兒、房間、衣服或家族的顏色是紫色。"
+        }
+      ],
+      "memoryEn": "Purple represented imperial rank; a child born into that rank was born to the purple.",
+      "memoryZh": "紫色象徵帝王地位；一出生便擁有這種地位的人，就是 born to the purple。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Exact Fixed Form",
+        "titleZh": "規則一：保留準確固定形式",
+        "en": "Correct target: born to the purple. Incorrect target forms: born to purple; born into the purple; born with the purple; born to a purple; borne to the purple.",
+        "zh": "這三個部分不可改變。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use “Born”, Not “Borne”",
+        "titleZh": "規則二：使用 Born，不使用 Borne",
+        "en": "Borne normally appears in other meanings of bear, such as carrying or enduring something.",
+        "zh": "用於出生； borne 通常用於承受、攜帶或忍受等其他意思。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Change the Form of “Be”",
+        "titleZh": "規則三：改變 be 動詞形式",
+        "en": "The fixed expression itself does not change.",
+        "zh": "固定慣用語本身不會改變。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Do Not Translate the Colour Literally",
+        "titleZh": "規則四：不要按顏色逐字翻譯",
+        "en": "Natural meaning-based translations: The answer translation must communicate social rank, not colour.",
+        "zh": "出生於皇室； 出身皇族； 生於帝王之家； 出身極其顯赫答案的中文翻譯必須表達社會身份，而不是顏色。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Royal Birth Is the Clearest Use",
+        "titleZh": "規則五：皇室出身是最清楚的用法",
+        "en": "Do not extend the expression too freely.",
+        "zh": "皇帝的女兒出生於皇室。 他出生於全國最有權勢的貴族家族之一。 不要把這個表達過度延伸至所有富裕或成功人士。",
+        "examples": [
+          {
+            "en": "The emperor’s daughter was born to the purple.",
+            "zh": "皇帝的女兒出生於皇室。",
+            "highlight": "born to the purple"
+          },
+          {
+            "en": "He was born to the purple as a member of one of the country’s most powerful noble families.",
+            "zh": "他出生於全國最有權勢的貴族家族之一。",
+            "highlight": "born to the purple"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Wealth Alone Is Not Enough",
+        "titleZh": "規則六：單純富有並不足夠",
+        "en": "This shows wealth, but not royal or exceptionally high birth.",
+        "zh": "這句只顯示家庭富裕，並沒有顯示皇室或極高階層出身。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Confuse Birth with Marriage",
+        "titleZh": "規則七：不要把出生與婚姻混為一談",
+        "en": "Unless she already came from a royal family, marriage does not mean that she was born to the purple.",
+        "zh": "除非她本身已經出身皇室，否則透過婚姻成為公主並不代表她是 born to the purple。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Confuse Birth with Later Success",
+        "titleZh": "規則八：不要把出身與後來成就混為一談",
+        "en": "A soldier who becomes king through military success was not necessarily born to the purple. A businessperson who becomes extremely rich was not necessarily born to the purple.",
+        "zh": "一名士兵透過軍事成就成為國王，並不代表他出生於皇室。 一名商人後來變得十分富有，也不代表他出身皇室或最高貴族階層。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve Negation",
+        "titleZh": "規則九：保留否定意思",
+        "en": "The incorrect version reverses the meaning.",
+        "zh": "錯誤答案把原本的否定意思完全顛倒。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Preserve Uncertainty",
+        "titleZh": "規則十：保留不確定程度",
+        "en": "The second sentence removes the uncertainty.",
+        "zh": "第二句把可能性改成了確定事實。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Royal Birth Does Not Guarantee Rule",
+        "titleZh": "規則十一：皇室出身不代表必然統治",
+        "en": "be prevented by law; choose another life; lack public or political support.",
+        "zh": "並非每一位出生於皇室的人都會成為統治者。 某人即使出生於皇室，仍可能：",
+        "examples": [
+          {
+            "en": "Not everyone born to the purple becomes a ruler.",
+            "zh": "並非每一位出生於皇室的人都會成為統治者。",
+            "highlight": "born to the purple"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Confuse It with Related Expressions",
+        "titleZh": "規則十二：不要與相關表達混淆",
+        "en": "Means being born into a wealthy or privileged family. It does not necessarily mean royal birth. Refers to aristocratic or noble ancestry. It is related, but it is not the target expression. Means seeming naturally suited or destined to be a ruler. It does not necessarily describe actual royal birth.",
+        "zh": "表示出生於富裕或享有特權的家庭。 它不一定表示皇室出身。 表示具有貴族血統。 它意思相關，但並不是本練習的目標表達。 表示某人看來天生適合或注定成為統治者。 它不一定表示某人真的出生於皇室。",
+        "examples": []
+      },
+      {
+        "number": 13,
+        "titleEn": "Avoid Accidental Literal Meaning",
+        "titleZh": "規則十三：避免意外產生字面意思",
+        "en": "The baby was born in a room painted purple. The family must possess royal or exceptionally high rank.",
+        "zh": "嬰兒在一間塗成紫色的房間出生。 除非嬰兒的家族具有皇室或極高階層身份，否則房間的顏色與慣用語無關。",
+        "examples": []
+      },
+      {
+        "number": 14,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則十四：自然使用，不要過度使用",
+        "en": "inherited royal status; aristocratic birth; succession; palace life; privilege from birth; the contrast between birth and merit.; For a simple modern family description, plain English may be clearer.",
+        "zh": "這個表達最適合用於強調： 世襲皇室身份； 如果只需要簡單描述現代家庭背景，直接英語可能更加清楚。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "person or people involved; singular or plural form; time; place; negation; uncertainty; contrast; cause and result; additional independent information.",
+      "zh": "使用以下準確目標慣用語改寫句子或完成回應："
+    },
+    "questions": [
+      {
+        "id": "idiom-75-q01",
+        "number": 1,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Princess Elara entered life as a member of the ruling royal family.",
+        "promptZh": "埃拉拉公主出生時已經是統治皇室的一員。",
+        "starter": "Princess",
+        "answer": "Princess Elara was born to the purple.",
+        "answerZh": "埃拉拉公主出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q02",
+        "number": 2,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Prince Marcus was born into the royal family in 2004.",
+        "promptZh": "馬庫斯王子於2004年出生於皇室。",
+        "starter": "Prince",
+        "answer": "Prince Marcus was born to the purple in 2004.",
+        "answerZh": "馬庫斯王子於2004年出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q03",
+        "number": 3,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The king’s twins possessed royal rank from birth.",
+        "promptZh": "國王的雙胞胎孩子自出生起便具有皇室身份。",
+        "starter": "The",
+        "answer": "The king’s twins were born to the purple.",
+        "answerZh": "國王的雙胞胎孩子出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q04",
+        "number": 4,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Lord Adrian entered one of the country’s oldest and highest-ranking noble families at birth.",
+        "promptZh": "阿德里安勳爵出生於全國其中一個最古老、地位最高的貴族家族。",
+        "starter": "Lord",
+        "answer": "Lord Adrian was born to the purple.",
+        "answerZh": "阿德里安勳爵出身極其顯赫的貴族家族。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q05",
+        "number": 5,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The queen’s youngest daughter had royal status from the moment she was born.",
+        "promptZh": "王后最年幼的女兒自出生一刻起便具有皇室身份。",
+        "starter": "The",
+        "answer": "The queen’s youngest daughter was born to the purple.",
+        "answerZh": "王后最年幼的女兒出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q06",
+        "number": 6,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Queen Helena was a princess by birth; she did not gain royal status through marriage.",
+        "promptZh": "海倫娜王后本身便是公主，並非透過婚姻取得皇室身份。",
+        "starter": "Queen",
+        "answer": "Queen Helena was born to the purple rather than marrying into royalty.",
+        "answerZh": "海倫娜王后本身出身皇室，並非透過婚姻加入皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q07",
+        "number": 7,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The child was born into the royal family while his father was king.",
+        "promptZh": "這個孩子在父親擔任國王期間出生於皇室。",
+        "starter": "The",
+        "answer": "The child was born to the purple while his father was king.",
+        "answerZh": "這個孩子在父親擔任國王期間出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q08",
+        "number": 8,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "All three sisters were princesses from birth.",
+        "promptZh": "三姊妹自出生起便是公主。",
+        "starter": "All",
+        "answer": "All three sisters were born to the purple.",
+        "answerZh": "三姊妹全都出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q09",
+        "number": 9,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Prince Omar entered life as a member of the royal family and later grew up in the palace.",
+        "promptZh": "奧馬爾王子出生於皇室，其後在宮中長大。",
+        "starter": "Prince",
+        "answer": "Prince Omar was born to the purple and later grew up in the palace.",
+        "answerZh": "奧馬爾王子出生於皇室，其後在宮中長大。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q10",
+        "number": 10,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The woman who would later become queen was born into the royal family in the capital.",
+        "promptZh": "這位後來成為王后的女子在首都出生於皇室。",
+        "starter": "The",
+        "answer": "The future queen was born to the purple in the capital.",
+        "answerZh": "這位未來王后在首都出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q11",
+        "number": 11,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Princess Lena and her brother both belonged to the royal family from birth.",
+        "promptZh": "萊娜公主和她的弟弟自出生起便同屬皇室。",
+        "starter": "Princess",
+        "answer": "Princess Lena and her brother were both born to the purple.",
+        "answerZh": "萊娜公主和她的弟弟同樣出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q12",
+        "number": 12,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The historian wrote that Duke Adrian had come from a family of the highest noble rank from birth.",
+        "promptZh": "歷史學家寫道，阿德里安公爵出生於最高階層的貴族家族。",
+        "starter": "The",
+        "answer": "The historian wrote that Duke Adrian had been born to the purple.",
+        "answerZh": "歷史學家寫道，阿德里安公爵出身極其顯赫。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q13",
+        "number": 13,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Everyone knew that Maria had possessed royal status from birth.",
+        "promptZh": "所有人都知道瑪麗亞自出生起便具有皇室身份。",
+        "starter": "Everyone",
+        "answer": "Everyone knew that Maria was born to the purple.",
+        "answerZh": "所有人都知道瑪麗亞出身皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q14",
+        "number": 14,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Their child will enter the world as a member of the royal family next spring.",
+        "promptZh": "他們的孩子將於明年春天出生，並自出生起成為皇室成員。",
+        "starter": "Their",
+        "answer": "Their child will be born to the purple next spring.",
+        "answerZh": "他們的孩子將於明年春天出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q15",
+        "number": 15,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The new baby is expected to have royal status from the moment of birth.",
+        "promptZh": "這名新生嬰兒預計自出生一刻起便會具有皇室身份。",
+        "starter": "The",
+        "answer": "The new baby is expected to be born to the purple.",
+        "answerZh": "這名新生嬰兒預計將會出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q16",
+        "number": 16,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: Did the young prince become royal through marriage? B: No. He came from the royal family by birth.",
+        "promptZh": "甲：這位年輕王子是透過婚姻取得皇室身份嗎？ 乙：不是。他本身便出生於皇室。",
+        "starter": "No.",
+        "answer": "No. The young prince was born to the purple.",
+        "answerZh": "不是。這位年輕王子本身便出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q17",
+        "number": 17,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The new king grew up in an ordinary family and entered the royal family only after marrying the princess.",
+        "promptZh": "新國王在普通家庭長大，只是在迎娶公主後才加入皇室。",
+        "starter": "No,",
+        "answer": "No, the new king was not born to the purple; he entered the royal family through marriage.",
+        "answerZh": "不，新國王並非出身皇室；他透過婚姻加入皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q18",
+        "number": 18,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Old records suggest that she may have come from the royal family by birth, but she was raised far from the palace.",
+        "promptZh": "舊有記錄顯示，她可能出生於皇室，但她在遠離宮殿的地方長大。",
+        "starter": "She",
+        "answer": "She may have been born to the purple, but she was raised far from the palace.",
+        "answerZh": "她可能出生於皇室，但她在遠離宮殿的地方長大。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q19",
+        "number": 19,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The two cousins appear to have come from a royal family by birth.",
+        "promptZh": "這兩位表親看來都是出生於皇室。",
+        "starter": "The",
+        "answer": "The two cousins appear to have been born to the purple.",
+        "answerZh": "這兩位表親看來都是出身皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q20",
+        "number": 20,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Because the prince possessed royal rank from birth, he had access to the best tutors.",
+        "promptZh": "由於王子自出生起便具有皇室身份，他可以接受最優秀導師的教導。",
+        "starter": "Being",
+        "answer": "Being born to the purple gave the prince access to the best tutors.",
+        "answerZh": "出生於皇室，令王子可以接受最優秀導師的教導。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q21",
+        "number": 21,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A: Did marrying the king make her a princess? B: No. She was already a member of a royal family from birth.",
+        "promptZh": "甲：她是因為嫁給國王才成為公主嗎？ 乙：不是。她本身出生時已經是皇室成員。",
+        "starter": "No.",
+        "answer": "No. She was born to the purple.",
+        "answerZh": "不是。她本身便出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q22",
+        "number": 22,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A: Why did people expect Adrian to become king? B: He came from the royal family by birth and was first in the order of future rulers.",
+        "promptZh": "甲：為甚麼人們預期阿德里安會成為國王？ 乙：他出生於皇室，而且在王位承繼次序中排名第一。",
+        "starter": "He",
+        "answer": "He was born to the purple and was first in the order of future rulers.",
+        "answerZh": "他出生於皇室，而且在王位承繼次序中排名第一。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q23",
+        "number": 23,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Although Daniel entered the royal family at birth, he chose a simple life outside the palace.",
+        "promptZh": "雖然丹尼爾出生於皇室，但他選擇了宮外的簡樸生活。",
+        "starter": "Although",
+        "answer": "Although Daniel was born to the purple, he chose a simple life outside the palace.",
+        "answerZh": "雖然丹尼爾出生於皇室，但他選擇了宮外的簡樸生活。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q24",
+        "number": 24,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Maya was royal from birth, whereas her husband entered the royal family through marriage.",
+        "promptZh": "瑪雅自出生起便具有皇室身份，而她的丈夫則透過婚姻加入皇室。",
+        "starter": "Maya",
+        "answer": "Maya was born to the purple, whereas her husband entered the royal family through marriage.",
+        "answerZh": "瑪雅本身出生於皇室，而她的丈夫則透過婚姻加入皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q25",
+        "number": 25,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Not every person born into a royal family becomes a ruler.",
+        "promptZh": "並非每一位出生於皇室的人都會成為統治者。",
+        "starter": "Not",
+        "answer": "Not everyone born to the purple becomes a ruler.",
+        "answerZh": "並非每一位出生於皇室的人都會成為統治者。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q26",
+        "number": 26,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "People born into royal families often grow up with the public watching them closely.",
+        "promptZh": "出生於皇室的人往往在公眾密切注視下長大。",
+        "starter": "Those",
+        "answer": "Those born to the purple often grow up with the public watching them closely.",
+        "answerZh": "出生於皇室的人往往在公眾密切注視下長大。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q27",
+        "number": 27,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The adviser reminded the prince that royal birth brought duties as well as privilege.",
+        "promptZh": "顧問提醒王子，皇室出身除了帶來特權，也會帶來責任。",
+        "starter": "The",
+        "answer": "The adviser reminded the prince that being born to the purple brought duties as well as privilege.",
+        "answerZh": "顧問提醒王子，出生於皇室除了帶來特權，也會帶來責任。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q28",
+        "number": 28,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "In the novel, the hero is a young man from the royal family by birth, but he is unsure whether he wants the crown.",
+        "promptZh": "在小說中，男主角是一名出身皇室的年輕人，但他不肯定自己是否想要王位。",
+        "starter": "The",
+        "answer": "The writer presents the hero as a young man born to the purple but unsure whether he wants the crown.",
+        "answerZh": "作者把男主角描寫成一位出身皇室、卻不肯定自己是否想要王位的年輕人。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q29",
+        "number": 29,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Unlike his wife, the general did not come from a royal family; he earned his title after years of service.",
+        "promptZh": "這名將軍與妻子不同，他並非出身皇室，而是在服務多年後憑表現取得爵位。",
+        "starter": "Unlike",
+        "answer": "Unlike his wife, the general was not born to the purple; he earned his title after years of service.",
+        "answerZh": "這名將軍與妻子不同，他並非出身皇室，而是在服務多年後憑表現取得爵位。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q30",
+        "number": 30,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "People wrongly believed that the wealthy actor had come from a royal or extremely high-ranking family by birth.",
+        "promptZh": "人們錯誤地以為這名富有的演員出生於皇室或地位極高的家族。",
+        "starter": "People",
+        "answer": "People wrongly assumed that the wealthy actor had been born to the purple.",
+        "answerZh": "人們錯誤地以為這名富有的演員出身皇室或極其顯赫的家族。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q31",
+        "number": 31,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "Because Princess Amara was royal from birth, she understood palace life from childhood.",
+        "promptZh": "由於阿瑪拉公主出生於皇室，她自小便熟悉宮廷生活。",
+        "starter": "Born",
+        "answer": "Born to the purple, Princess Amara understood palace life from childhood.",
+        "answerZh": "阿瑪拉公主出身皇室，自小便熟悉宮廷生活。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "Born to the purple"
+      },
+      {
+        "id": "idiom-75-q32",
+        "number": 32,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "Prince Leon was royal from birth, but he had no wish to rule.",
+        "promptZh": "里昂王子出身皇室，但他無意統治國家。",
+        "starter": "Though",
+        "answer": "Though born to the purple, Prince Leon had no wish to rule.",
+        "answerZh": "里昂王子雖然出身皇室，卻無意統治國家。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q33",
+        "number": 33,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The twins were members of the royal family from birth, so they were given royal titles immediately.",
+        "promptZh": "這對雙胞胎自出生起便是皇室成員，因此立即獲授皇室頭銜。",
+        "starter": "Having",
+        "answer": "Having been born to the purple, the twins were given royal titles immediately.",
+        "answerZh": "由於這對雙胞胎出生於皇室，他們立即獲授皇室頭銜。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q34",
+        "number": 34,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The minister rose from a poor family, while the queen possessed royal rank from birth.",
+        "promptZh": "大臣出身貧窮家庭，而王后則自出生起便具有皇室身份。",
+        "starter": "The",
+        "answer": "The minister rose from a poor family, while the queen was born to the purple.",
+        "answerZh": "大臣出身貧窮家庭，而王后則出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q35",
+        "number": 35,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The prince was a member of the royal family from birth, but people still questioned his right to rule.",
+        "promptZh": "王子出生於皇室，但人們仍然質疑他的統治權。",
+        "starter": "The",
+        "answer": "The prince was born to the purple, but people still questioned his right to rule.",
+        "answerZh": "王子出生於皇室，但人們仍然質疑他的統治權。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q36",
+        "number": 36,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "A person can come from a royal family by birth without ever becoming king or queen.",
+        "promptZh": "某人可以出生於皇室，卻一生都沒有成為國王或王后。",
+        "starter": "A",
+        "answer": "A person can be born to the purple without ever becoming king or queen.",
+        "answerZh": "某人可以出生於皇室，卻一生都沒有成為國王或王后。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q37",
+        "number": 37,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "At that royal court, a person’s birth into or outside the royal family greatly affected their future.",
+        "promptZh": "在那個宮廷中，一個人是否出生於皇室，會大大影響其未來。",
+        "starter": "Whether",
+        "answer": "Whether someone was born to the purple mattered greatly at that royal court.",
+        "answerZh": "在那個宮廷中，一個人是否出生於皇室十分重要。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q38",
+        "number": 38,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "The story asks whether people should receive special privilege simply because they were born into royalty.",
+        "promptZh": "故事探討人們是否應僅僅因為出生於皇室而享有特殊待遇。",
+        "starter": "The",
+        "answer": "The story asks whether people should receive special privilege simply for being born to the purple.",
+        "answerZh": "故事探討人們是否應僅僅因為出生於皇室而享有特殊待遇。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q39",
+        "number": 39,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "He could not honestly claim that he came from a royal family by birth because his parents were ordinary citizens.",
+        "promptZh": "他不能誠實地聲稱自己出生於皇室，因為他的父母只是普通市民。",
+        "starter": "He",
+        "answer": "He could not honestly claim to have been born to the purple because his parents were ordinary citizens.",
+        "answerZh": "他不能誠實地聲稱自己出生於皇室，因為他的父母只是普通市民。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q40",
+        "number": 40,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "Elena joined the royal family through marriage and did not grow up in the palace. Had she been royal from birth, her childhood would have been different.",
+        "promptZh": "埃琳娜透過婚姻加入皇室，並非在宮中長大。如果她本身出生於皇室，她的童年便會有所不同。",
+        "starter": "If",
+        "answer": "If Elena had been born to the purple, she would have grown up in the palace; in fact, she entered the royal family through marriage.",
+        "answerZh": "如果埃琳娜出生於皇室，她本來便會在宮中長大；事實上，她是透過婚姻加入皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q41",
+        "number": 41,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "The princess possessed royal rank from birth. Nevertheless, the law required the council to choose the next ruler.",
+        "promptZh": "公主自出生起便具有皇室身份。儘管如此，法律仍規定必須由議會選出下一位統治者。",
+        "starter": "Although",
+        "answer": "Although the princess was born to the purple, the law required the council to choose the next ruler.",
+        "answerZh": "雖然公主出生於皇室，但法律仍規定必須由議會選出下一位統治者。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q42",
+        "number": 42,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "Historians believe that the child came from the royal family by birth during a period of conflict at court.",
+        "promptZh": "歷史學家相信，這個孩子在宮廷衝突期間出生於皇室。",
+        "starter": "Historians",
+        "answer": "Historians believe that the child was born to the purple during a period of conflict at court.",
+        "answerZh": "歷史學家相信，這個孩子在宮廷衝突期間出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q43",
+        "number": 43,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "The old records do not prove that Alina came from a royal family by birth.",
+        "promptZh": "舊有記錄無法證明阿莉娜出生於皇室。",
+        "starter": "The",
+        "answer": "The old records do not prove that Alina was born to the purple.",
+        "answerZh": "舊有記錄無法證明阿莉娜出生於皇室。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q44",
+        "number": 44,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "A: Why does the novel present the baby as a possible threat to the ruler? B: The baby was royal from birth and could one day claim the throne.",
+        "promptZh": "甲：為甚麼小說把這名嬰兒描寫成統治者的潛在威脅？ 乙：這名嬰兒出生於皇室，將來可能有權爭取王位。",
+        "starter": "Because",
+        "answer": "Because the baby was born to the purple, the child could one day claim the throne.",
+        "answerZh": "由於這名嬰兒出生於皇室，將來可能有權爭取王位。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q45",
+        "number": 45,
+        "sourcePage": 37,
+        "sourcePages": [
+          37
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "People who were born into the royal family received special education, but they also had to follow strict rules.",
+        "promptZh": "出生於皇室的人會接受特殊教育，但同時亦必須遵守嚴格規則。",
+        "starter": "Those",
+        "answer": "Those who were born to the purple received special education, but they also had to follow strict rules.",
+        "answerZh": "出生於皇室的人會接受特殊教育，但同時亦必須遵守嚴格規則。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q46",
+        "number": 46,
+        "sourcePage": 37,
+        "sourcePages": [
+          37
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "The prince’s life shows that royal birth does not guarantee happiness.",
+        "promptZh": "這位王子的一生顯示，出生於皇室並不保證幸福。",
+        "starter": "The",
+        "answer": "The prince’s life shows that being born to the purple does not guarantee happiness.",
+        "answerZh": "這位王子的一生顯示，出生於皇室並不保證幸福。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q47",
+        "number": 47,
+        "sourcePage": 37,
+        "sourcePages": [
+          37
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "Even if the child enters the world as a member of the royal family, she will still need public support to rule.",
+        "promptZh": "即使這名孩子出生時便是皇室成員，她仍然需要公眾支持才能統治。",
+        "starter": "Even",
+        "answer": "Even if the child is born to the purple, she will still need public support to rule.",
+        "answerZh": "即使這名孩子出生於皇室，她仍然需要公眾支持才能統治。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q48",
+        "number": 48,
+        "sourcePage": 37,
+        "sourcePages": [
+          37
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "The new ruler did not come from a royal family by birth; his power came from the army rather than his family.",
+        "promptZh": "新統治者並非出身皇室；他的權力來自軍隊，而不是家族。",
+        "starter": "The",
+        "answer": "The new ruler was not born to the purple; his power came from the army rather than his family.",
+        "answerZh": "新統治者並非出身皇室；他的權力來自軍隊，而不是家族。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q49",
+        "number": 49,
+        "sourcePage": 37,
+        "sourcePages": [
+          37
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "The biography describes a woman who came from the royal family by birth but later gave up her claim to the throne.",
+        "promptZh": "這本傳記描述一位出生於皇室、但後來放棄王位繼承權的女子。",
+        "starter": "The",
+        "answer": "The biography describes a woman born to the purple who later gave up her claim to the throne.",
+        "answerZh": "這本傳記描述一位出生於皇室、但後來放棄王位繼承權的女子。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      },
+      {
+        "id": "idiom-75-q50",
+        "number": 50,
+        "sourcePage": 38,
+        "sourcePages": [
+          38
+        ],
+        "answerSourcePage": 45,
+        "answerSourcePages": [
+          45
+        ],
+        "prompt": "The final scene contrasts a prince who possessed royal rank from birth with a leader who earned the people’s trust through years of service.",
+        "promptZh": "最後一幕把一位出身皇室的王子，與一位透過多年服務贏得人民信任的領袖作對比。",
+        "starter": "The",
+        "answer": "The final scene contrasts a prince born to the purple with a leader who earned the people’s trust through years of service.",
+        "answerZh": "最後一幕把一位出身皇室的王子，與一位透過多年服務贏得人民信任的領袖作對比。",
+        "targetForm": "born to the purple",
+        "targetMeaning": "Born into a royal family or a family of extremely high social rank.",
+        "highlight": "born to the purple"
+      }
+    ]
+  }
+}

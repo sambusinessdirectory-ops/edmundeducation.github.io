@@ -1,0 +1,1243 @@
+{
+  "id": "ss293",
+  "order": 293,
+  "slug": "have-no-business-v-ing",
+  "title": "「have no business + V-ing」表示沒有資格或不應做某事",
+  "titleZh": "「have no business + V-ing」表示沒有資格或不應做某事",
+  "titleEn": "Using “have no business + V-ing”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 292 -「have no business + V-ing」表示沒有資格或不應做某事.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "sha256": "ac3cb9b14a4c6ccd2b55aef62082b7237c5df47f04476fdffef089630946df92",
+    "sourceNumber": 292,
+    "systemOrder": 293,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 292 maps to ss293: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Person / group / organisation + have / has / had no business + V-ing + other information",
+  "formulas": [
+    {
+      "id": "ss293-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Person / group / organisation + have / has / had no business + V-ing + other information"
+    }
+  ],
+  "example": "He has no business interfering in their marriage.",
+  "exampleZh": "他無權干涉他們的婚姻。",
+  "examples": [
+    {
+      "id": "ss293-example-01",
+      "en": "He has no business interfering in their marriage.",
+      "zh": "他無權干涉他們的婚姻。",
+      "highlight": "He has no business interfering in their marriage."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss293-rule-01",
+      "zh": "你無權閱讀我的私人訊息。 該名記者無權作出那項指控。 該名前僱員不應進入辦公室。",
+      "en": "Change “have” according to the subject I / you / we / they + have no business he / she / singular noun + has no business past situations + had no business You have no business reading my private messages. The reporter has no business making that accusation. The former employee had no business entering the office.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-rule-02",
+      "zh": "在 have no business 後面，使用動詞的 -ing 形式。在本課的目標句型中，不使用 to + verb。",
+      "en": "Use V-ing after “no business” has no business interfering ✓ has no business asking ✓ has no business being here ✓ has no business to interfere ✗",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-rule-03",
+      "zh": "在這個句型中，business 並非指「生意」或「公司」。意思是：【You have no right to ask that question.】 即「你無權問那個問題」或「那個問題輪不到你過問」。",
+      "en": "“Business” does not mean a company here You have no business asking that question. You have no right to ask that question. It is not your place to ask that question. You should not ask that question.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-rule-04",
+      "zh": "這個句型通常帶有較強烈的批評、不滿或界線意識。你不應該閱讀她的訊息。 你根本無權閱讀她的訊息。 第二句的語氣較強，強調對方沒有適當權利或理由這樣做。",
+      "en": "The expression usually shows strong disapproval Compare: You should not read her messages. You have no business reading her messages.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-rule-05",
+      "zh": "這個句型並不等於所有情況下的 should not。你不應吃太多糖。 這只是健康建議，一般不會改成：【You have no business eating too much sugar.】 除非說話者真的想強烈表示對方沒有資格或正當理由做該行為，否則句意便會不自然。",
+      "en": "Do not use it for every ordinary piece of advice You should not eat too much sugar. You have no business eating too much sugar.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-rule-06",
+      "zh": "在【V-ing】後面可以加入受詞、副詞、介詞片語或其他資料。",
+      "en": "The V-ing phrase may contain more information asking personal questions entering the room without permission commenting on matters she knows nothing about using public money for private purposes telling other people how to live",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-rule-07",
+      "zh": "以下部分可以加在目標句型前後，但並非固定句型的一部分：【Without permission,...；In my opinion,...；Although he is the owner,...；I believe that...；The committee concluded that...；... without checking the facts；... whenever he likes；The core expression remains:】 該名訪客不應打開那些抽屜。 未經許可，該名訪客不應打開那些抽屜。 兩句都完整。第二句只是補充「未經許可」這項資料。",
+      "en": "Extra phrases are optional extensions Without permission,... In my opinion,... Although he is the owner,... I believe that... The committee concluded that... ... without checking the facts whenever he likes The core expression remains: have / has / had no business + V-ing Compare: The visitor has no business opening those drawers. Without permission, the visitor has no business opening those drawers.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-rule-08",
+      "zh": "目標句型不一定每次都放在句子開頭。這些變化可以讓句式更自然，亦能避免學生只靠固定位置猜答案。",
+      "en": "The target expression can appear in different positions As the main clause The neighbour has no business interfering. After an introductory phrase Without permission, the neighbour has no business entering the flat. Inside a reporting clause I believe the neighbour has no business interfering. After a contrast or condition clause Although he owns the flat, the landlord has no business entering without notice.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss293-benefit-01",
+      "zh": "這個句型可以清楚表明某人正在干涉私人事務、作出不恰當行為，或做超出其權限的事情。鄰居無權教我們如何養育孩子。",
+      "en": "It clearly establishes a boundary This structure makes it clear that someone is interfering in a matter that is private, inappropriate or outside their authority. The neighbour has no business telling us how to raise our children.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-benefit-02",
+      "zh": "這個句型不只是給予建議，而是明確指出某個行為不恰當或缺乏正當理由。他不應透露她的私人資料。 他根本無權透露她的私人資料。",
+      "en": "It expresses stronger criticism than “should not” Instead of merely giving advice, this structure shows that the action is improper or unjustified. Compare: He should not reveal her private information. He has no business revealing her private information.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-benefit-03",
+      "zh": "你不需要每次都使用 It is not his place to... 等較長說法，也可以更直接地表達相同核心意思。",
+      "en": "It gives you a concise alternative to longer expressions Instead of using a longer sentence such as “It is not his place to interfere”, you can express the same central idea more directly. It is not his place to interfere in their marriage. → He has no business interfering in their marriage.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-benefit-04",
+      "zh": "這個句型特別適合討論個人界線、職場權限、機密資料、專業操守及公共責任。",
+      "en": "It is useful when discussing rights, privacy and authority The structure is especially useful when talking about personal boundaries, workplace authority, confidential information, professional conduct and public responsibility.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-benefit-05",
+      "zh": "在討論、辯論、投訴及議論文中，你可以使用這個句型明確批評不恰當的行為。公司無權在未經同意下收集個人資料。",
+      "en": "It helps you express firm opinions in discussions You can use the structure to criticise an action clearly in discussions, debates, complaints and argumentative writing. A company has no business collecting personal data without permission.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss293-benefit-06",
+      "zh": "這個句型可以自然地放在引入片語、轉述動詞、讓步子句及條件句之後，讓句子更有變化，而不必每次都以人物作開頭。",
+      "en": "It can fit naturally into longer sentence structures The expression can be placed after introductory phrases, reporting verbs, contrast clauses and conditional clauses.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 292 maps to ss293: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using have / has / had no business + V-ing.",
+      "Preserve the original meaning, tense and important details. You may need to change the",
+      "sentence order.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 have / has / had no business + V-ing 改寫以下句子。",
+      "保留原句的意思、時態及重要資料。部分題目可能需要調整句子次序。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss293-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You have no right to read my private messages.",
+      "promptZh": "你無權閱讀我的私人訊息。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You have no business reading my private messages.",
+      "answerZh": "你無權閱讀我的私人訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "You have no business reading my private messages."
+    },
+    {
+      "id": "ss293-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is not his place to interfere in their marriage.",
+      "promptZh": "他不應插手他們的婚姻。",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He has no business interfering in their marriage.",
+      "answerZh": "他無權干涉他們的婚姻。",
+      "answerZhSource": "pdf",
+      "highlight": "He has no business interfering in their marriage."
+    },
+    {
+      "id": "ss293-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "They should not enter the room without permission.",
+      "promptZh": "他們不應未經許可進入房間。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They have no business entering the room without permission.",
+      "answerZh": "他們無權未經許可進入房間。",
+      "answerZhSource": "pdf",
+      "highlight": "They have no business entering the room without permission."
+    },
+    {
+      "id": "ss293-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The neighbour has no right to tell us how to raise our children.",
+      "promptZh": "鄰居無權教我們如何養育孩子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbour has no business telling us how to raise our children.",
+      "answerZh": "鄰居無權教我們如何養育孩子。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbour has no business telling us how to raise our children."
+    },
+    {
+      "id": "ss293-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I know nothing about the decision, so it is not my place to comment on it.",
+      "promptZh": "我對這項決定一無所知，因此輪不到我評論。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have no business commenting on a decision I know nothing about.",
+      "answerZh": "我對這項決定一無所知，因此沒有資格評論。",
+      "answerZhSource": "pdf",
+      "highlight": "I have no business commenting on a decision I know nothing about."
+    },
+    {
+      "id": "ss293-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah is not entitled to use the office printer for personal work.",
+      "promptZh": "莎拉無權使用辦公室打印機處理私人事務。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah has no business using the office printer for personal work.",
+      "answerZh": "莎拉無權使用辦公室打印機處理私人事務。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah has no business using the office printer for personal work."
+    },
+    {
+      "id": "ss293-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is wrong for us to blame the receptionist for the delay.",
+      "promptZh": "我們把延誤歸咎於接待員是不恰當的。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have no business blaming the receptionist for the delay.",
+      "answerZh": "我們不應把延誤歸咎於接待員。",
+      "answerZhSource": "pdf",
+      "highlight": "We have no business blaming the receptionist for the delay."
+    },
+    {
+      "id": "ss293-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "That customer has no right to shout at the staff.",
+      "promptZh": "那名顧客無權向職員大叫。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That customer has no business shouting at the staff.",
+      "answerZh": "那名顧客無權向職員大叫。",
+      "answerZhSource": "pdf",
+      "highlight": "That customer has no business shouting at the staff."
+    },
+    {
+      "id": "ss293-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Your classmates should not share your photograph online without asking you.",
+      "promptZh": "你的同學不應未經你同意便在網上分享你的照片。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your classmates have no business sharing your photograph online without asking you.",
+      "answerZh": "你的同學無權未經你同意便在網上分享你的照片。",
+      "answerZhSource": "pdf",
+      "highlight": "Your classmates have no business sharing your photograph online without asking you."
+    },
+    {
+      "id": "ss293-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is not Peter’s place to ask how much you earn.",
+      "promptZh": "輪不到彼得過問你的收入。",
+      "promptZhSource": "pdf",
+      "starter": "Peter",
+      "answer": "Peter has no business asking how much you earn.",
+      "answerZh": "彼得無權過問你的收入。",
+      "answerZhSource": "pdf",
+      "highlight": "Peter has no business asking how much you earn."
+    },
+    {
+      "id": "ss293-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The visitor should not open those drawers without permission.",
+      "promptZh": "該名訪客不應未經許可打開那些抽屜。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without permission, the visitor has no business opening those drawers.",
+      "answerZh": "未經許可，該名訪客不應打開那些抽屜。",
+      "answerZhSource": "pdf",
+      "highlight": "Without permission, the visitor has no business opening those drawers."
+    },
+    {
+      "id": "ss293-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In my view, a manager has no right to discuss an employee’s medical condition.",
+      "promptZh": "在我看來，經理無權討論僱員的健康狀況。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In my view, a manager has no business discussing an employee’s medical condition.",
+      "answerZh": "在我看來，經理無權討論僱員的健康狀況。",
+      "answerZhSource": "pdf",
+      "highlight": "In my view, a manager has no business discussing an employee’s medical condition."
+    },
+    {
+      "id": "ss293-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "At this stage, we should not promise results that we cannot guarantee.",
+      "promptZh": "在這個階段，我們不應承諾無法保證的結果。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, we have no business promising results that we cannot guarantee.",
+      "answerZh": "在這個階段，我們不應承諾無法保證的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, we have no business promising results that we cannot guarantee."
+    },
+    {
+      "id": "ss293-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After Daniel left the committee, he no longer had the right to access its confidential files.",
+      "promptZh": "丹尼爾離開委員會後，便不再有權存取其機密檔案。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After Daniel left the committee, he had no business accessing its confidential files.",
+      "answerZh": "丹尼爾離開委員會後，便無權存取其機密檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "After Daniel left the committee, he had no business accessing its confidential files."
+    },
+    {
+      "id": "ss293-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "During the examination, visitors are not supposed to be inside the hall.",
+      "promptZh": "考試期間，訪客不應留在禮堂內。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the examination, visitors have no business being inside the hall.",
+      "answerZh": "考試期間，訪客不應留在禮堂內。",
+      "answerZhSource": "pdf",
+      "highlight": "During the examination, visitors have no business being inside the hall."
+    },
+    {
+      "id": "ss293-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Even though Ms Chan is Ava’s supervisor, it is inappropriate for her to make remarks about Ava’s appearance.",
+      "promptZh": "即使陳女士是艾娃的上司，她也不應評論艾娃的外表。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even as Ava’s supervisor, Ms Chan has no business making remarks about Ava’s appearance.",
+      "answerZh": "即使陳女士是艾娃的上司，她也無權評論艾娃的外表。",
+      "answerZhSource": "pdf",
+      "highlight": "Even as Ava’s supervisor, Ms Chan has no business making remarks about Ava’s appearance."
+    },
+    {
+      "id": "ss293-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "At the family gathering, Kevin should not have revealed his cousin’s private news.",
+      "promptZh": "在家庭聚會上，凱文不應透露表親的私人消息。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the family gathering, Kevin had no business revealing his cousin’s private news.",
+      "answerZh": "在家庭聚會上，凱文不應透露表親的私人消息。",
+      "answerZhSource": "pdf",
+      "highlight": "At the family gathering, Kevin had no business revealing his cousin’s private news."
+    },
+    {
+      "id": "ss293-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Without checking the facts, the reporter has no right to accuse anyone of dishonesty.",
+      "promptZh": "該名記者在未核實事實前，無權指控任何人不誠實。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without checking the facts, the reporter has no business accusing anyone of dishonesty.",
+      "answerZh": "該名記者在未核實事實前，無權指控任何人不誠實。",
+      "answerZhSource": "pdf",
+      "highlight": "Without checking the facts, the reporter has no business accusing anyone of dishonesty."
+    },
+    {
+      "id": "ss293-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In someone else’s home, it is not the guests’ place to search through closed cupboards.",
+      "promptZh": "在別人家中，客人不應翻查關上的櫥櫃。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In someone else’s home, guests have no business searching through closed cupboards.",
+      "answerZh": "在別人家中，客人不應翻查關上的櫥櫃。",
+      "answerZhSource": "pdf",
+      "highlight": "In someone else’s home, guests have no business searching through closed cupboards."
+    },
+    {
+      "id": "ss293-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Under these circumstances, the company is not entitled to keep the deposit.",
+      "promptZh": "在這些情況下，公司無權扣起按金。",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under these circumstances, the company has no business keeping the deposit.",
+      "answerZh": "在這些情況下，公司無權扣起按金。",
+      "answerZhSource": "pdf",
+      "highlight": "Under these circumstances, the company has no business keeping the deposit."
+    },
+    {
+      "id": "ss293-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I believe the landlord has no right to enter the flat without notice.",
+      "promptZh": "我認為業主無權在沒有通知的情況下進入單位。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I believe the landlord has no business entering the flat without notice.",
+      "answerZh": "我認為業主無權在沒有通知的情況下進入單位。",
+      "answerZhSource": "pdf",
+      "highlight": "I believe the landlord has no business entering the flat without notice."
+    },
+    {
+      "id": "ss293-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach knows that it is not his place to insult players after a defeat.",
+      "promptZh": "教練知道自己不應在落敗後侮辱球員。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach knows that he has no business insulting players after a defeat.",
+      "answerZh": "教練知道自己不應在落敗後侮辱球員。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach knows that he has no business insulting players after a defeat."
+    },
+    {
+      "id": "ss293-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "She should understand that she is not qualified to give medical advice without training.",
+      "promptZh": "她應該明白，自己未受訓練，便不應提供醫療建議。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She should understand that she has no business giving medical advice without training.",
+      "answerZh": "她應該明白，自己未受訓練，便沒有資格提供醫療建議。",
+      "answerZhSource": "pdf",
+      "highlight": "She should understand that she has no business giving medical advice without training."
+    },
+    {
+      "id": "ss293-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We all agree that the school has no right to publish students’ addresses.",
+      "promptZh": "我們都同意學校無權公開學生的地址。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We all agree that the school has no business publishing students’ addresses.",
+      "answerZh": "我們都同意學校無權公開學生的地址。",
+      "answerZhSource": "pdf",
+      "highlight": "We all agree that the school has no business publishing students’ addresses."
+    },
+    {
+      "id": "ss293-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The committee concluded that the chairperson lacked the authority to change the rules alone.",
+      "promptZh": "委員會認為主席無權單獨更改規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee concluded that the chairperson had no business changing the rules alone.",
+      "answerZh": "委員會認為主席無權單獨更改規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee concluded that the chairperson had no business changing the rules alone."
+    },
+    {
+      "id": "ss293-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Surely the blogger has no right to spread an unverified rumour.",
+      "promptZh": "該名網誌作者當然無權散播未經證實的傳聞。",
+      "promptZhSource": "pdf",
+      "starter": "Surely",
+      "answer": "Surely the blogger has no business spreading an unverified rumour.",
+      "answerZh": "該名網誌作者當然無權散播未經證實的傳聞。",
+      "answerZhSource": "pdf",
+      "highlight": "Surely the blogger has no business spreading an unverified rumour."
+    },
+    {
+      "id": "ss293-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is obvious that the security guard is not entitled to examine personal letters.",
+      "promptZh": "保安員顯然無權查看私人信件。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is obvious that the security guard has no business examining personal letters.",
+      "answerZh": "保安員顯然無權查看私人信件。",
+      "answerZhSource": "pdf",
+      "highlight": "It is obvious that the security guard has no business examining personal letters."
+    },
+    {
+      "id": "ss293-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The residents complained that the developer had no right to cut down the trees before receiving approval.",
+      "promptZh": "居民投訴發展商在取得批准前無權砍伐樹木。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The residents complained that the developer had no business cutting down the trees before receiving approval.",
+      "answerZh": "居民投訴發展商在取得批准前無權砍伐樹木。",
+      "answerZhSource": "pdf",
+      "highlight": "The residents complained that the developer had no business cutting down the trees before receiving approval."
+    },
+    {
+      "id": "ss293-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Her colleagues felt that it was wrong for her to take credit for their work.",
+      "promptZh": "她的同事認為，她把他們的工作成果據為己有並不恰當。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her colleagues felt that she had no business taking credit for their work.",
+      "answerZh": "她的同事認為，她無權把他們的工作成果據為己有。",
+      "answerZhSource": "pdf",
+      "highlight": "Her colleagues felt that she had no business taking credit for their work."
+    },
+    {
+      "id": "ss293-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctor explained that relatives are not entitled to demand information without the patient’s consent.",
+      "promptZh": "醫生解釋，親屬無權在未經病人同意下要求取得資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained that relatives have no business demanding information without the patient’s consent.",
+      "answerZh": "醫生解釋，親屬無權在未經病人同意下要求取得資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained that relatives have no business demanding information without the patient’s consent."
+    },
+    {
+      "id": "ss293-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although he owns the building, that does not give the landlord the right to enter tenants’ rooms whenever he likes.",
+      "promptZh": "雖然他擁有這座大廈，但這不代表業主有權隨時進入租客的房間。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although he owns the building, the landlord has no business entering tenants’ rooms whenever he likes.",
+      "answerZh": "雖然他擁有這座大廈，但業主無權隨時進入租客的房間。",
+      "answerZhSource": "pdf",
+      "highlight": "Although he owns the building, the landlord has no business entering tenants’ rooms whenever he likes."
+    },
+    {
+      "id": "ss293-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Even if Emma disagrees with the decision, she should not insult the people who made it.",
+      "promptZh": "即使艾瑪不同意這項決定，她也不應侮辱作出決定的人。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if she disagrees with the decision, Emma has no business insulting the people who made it.",
+      "answerZh": "即使艾瑪不同意這項決定，她也無權侮辱作出決定的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if she disagrees with the decision, Emma has no business insulting the people who made it."
+    },
+    {
+      "id": "ss293-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Because the matter is private, outsiders should not ask for the details.",
+      "promptZh": "由於這是私人事情，外人不應追問詳情。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the matter is private, outsiders have no business asking for the details.",
+      "answerZh": "由於這是私人事情，外人無權追問詳情。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the matter is private, outsiders have no business asking for the details."
+    },
+    {
+      "id": "ss293-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Unless he is officially authorised, the assistant lacks the authority to sign the contract.",
+      "promptZh": "除非獲得正式授權，否則該名助理無權簽署合約。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless he is officially authorised, the assistant has no business signing the contract.",
+      "answerZh": "除非獲得正式授權，否則該名助理無權簽署合約。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless he is officially authorised, the assistant has no business signing the contract."
+    },
+    {
+      "id": "ss293-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Since you were not present, it is not your place to accuse anyone of lying.",
+      "promptZh": "由於你當時不在場，輪不到你指控任何人說謊。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since you were not present, you have no business accusing anyone of lying.",
+      "answerZh": "由於你當時不在場，你沒有資格指控任何人說謊。",
+      "answerZhSource": "pdf",
+      "highlight": "Since you were not present, you have no business accusing anyone of lying."
+    },
+    {
+      "id": "ss293-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the records are confidential, volunteers should not copy them onto personal devices.",
+      "promptZh": "如果紀錄屬於機密資料，義工便不應把它們複製到私人裝置上。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the records are confidential, volunteers have no business copying them onto personal devices.",
+      "answerZh": "如果紀錄屬於機密資料，義工便無權把它們複製到私人裝置上。",
+      "answerZhSource": "pdf",
+      "highlight": "If the records are confidential, volunteers have no business copying them onto personal devices."
+    },
+    {
+      "id": "ss293-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When the meeting ends, participants should not post its private comments online.",
+      "promptZh": "會議結束後，參加者不應把會上的私人言論上載到網上。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the meeting ends, participants have no business posting its private comments online.",
+      "answerZh": "會議結束後，參加者無權把會上的私人言論上載到網上。",
+      "answerZhSource": "pdf",
+      "highlight": "When the meeting ends, participants have no business posting its private comments online."
+    },
+    {
+      "id": "ss293-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "While the investigation is continuing, the company should not declare anyone guilty.",
+      "promptZh": "調查仍在進行期間，公司不應宣稱任何人有罪。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While the investigation is continuing, the company has no business declaring anyone guilty.",
+      "answerZh": "調查仍在進行期間，公司無權宣稱任何人有罪。",
+      "answerZhSource": "pdf",
+      "highlight": "While the investigation is continuing, the company has no business declaring anyone guilty."
+    },
+    {
+      "id": "ss293-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As someone who was never involved in the project, I am not in a position to judge how the team handled the crisis.",
+      "promptZh": "我從未參與這個項目，因此沒有資格批評團隊如何處理危機。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As someone who was never involved in the project, I have no business judging how the team handled the crisis.",
+      "answerZh": "我從未參與這個項目，因此沒有資格批評團隊如何處理危機。",
+      "answerZhSource": "pdf",
+      "highlight": "As someone who was never involved in the project, I have no business judging how the team handled the crisis."
+    },
+    {
+      "id": "ss293-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The councillor, who had not read the report, had no right to dismiss its findings.",
+      "promptZh": "該名議員沒有閱讀報告，因此無權否定報告的調查結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The councillor, who had not read the report, had no business dismissing its findings.",
+      "answerZh": "該名議員沒有閱讀報告，因此無權否定報告的調查結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The councillor, who had not read the report, had no business dismissing its findings."
+    },
+    {
+      "id": "ss293-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No matter how frustrated he felt, the passenger had no right to threaten the driver.",
+      "promptZh": "無論該名乘客有多不滿，他也無權威脅司機。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No matter how frustrated he felt, the passenger had no business threatening the driver.",
+      "answerZh": "無論該名乘客有多不滿，他也無權威脅司機。",
+      "answerZhSource": "pdf",
+      "highlight": "No matter how frustrated he felt, the passenger had no business threatening the driver."
+    },
+    {
+      "id": "ss293-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before all the evidence is examined, the newspaper should not present one suspect as guilty.",
+      "promptZh": "在審視所有證據前，報章不應把其中一名疑犯描述為有罪。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before all the evidence is examined, the newspaper has no business presenting one suspect as guilty.",
+      "answerZh": "在審視所有證據前，報章無權把其中一名疑犯描述為有罪。",
+      "answerZhSource": "pdf",
+      "highlight": "Before all the evidence is examined, the newspaper has no business presenting one suspect as guilty."
+    },
+    {
+      "id": "ss293-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If parents have not given permission, the app company is not entitled to collect children’s location data.",
+      "promptZh": "如果家長沒有給予同意，應用程式公司便無權收集兒童的位置資料。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If parents have not given permission, the app company has no business collecting children’s location data.",
+      "answerZh": "如果家長沒有給予同意，應用程式公司便無權收集兒童的位置資料。",
+      "answerZhSource": "pdf",
+      "highlight": "If parents have not given permission, the app company has no business collecting children’s location data."
+    },
+    {
+      "id": "ss293-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The director may disagree with the union, but that does not give her the right to punish workers for raising safety concerns.",
+      "promptZh": "董事可能不同意工會的立場，但這不代表她有權懲罰提出安全問題的工人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The director may disagree with the union, but she has no business punishing workers for raising safety concerns.",
+      "answerZh": "董事可能不同意工會的立場，但她無權懲罰提出安全問題的工人。",
+      "answerZhSource": "pdf",
+      "highlight": "The director may disagree with the union, but she has no business punishing workers for raising safety concerns."
+    },
+    {
+      "id": "ss293-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Having already resigned, the former treasurer no longer had the authority to transfer money from the club’s account.",
+      "promptZh": "該名前司庫已經辭職，因此無權再從會所戶口轉移款項。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having already resigned, the former treasurer had no business transferring money from the club’s account.",
+      "answerZh": "該名前司庫已經辭職，因此無權再從會所戶口轉移款項。",
+      "answerZhSource": "pdf",
+      "highlight": "Having already resigned, the former treasurer had no business transferring money from the club’s account."
+    },
+    {
+      "id": "ss293-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Given that the discussion was confidential, the delegates should not have repeated it to the press.",
+      "promptZh": "鑑於討論內容屬於機密，代表們不應向傳媒透露內容。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given that the discussion was confidential, the delegates had no business repeating it to the press.",
+      "answerZh": "鑑於討論內容屬於機密，代表們不應向傳媒透露內容。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the discussion was confidential, the delegates had no business repeating it to the press."
+    },
+    {
+      "id": "ss293-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Whether or not the rumour is true, it is not your place to publish another person’s medical history.",
+      "promptZh": "無論傳聞是否屬實，你都無權公開另一個人的病歷。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether or not the rumour is true, you have no business publishing another person’s medical history.",
+      "answerZh": "無論傳聞是否屬實，你都無權公開另一個人的病歷。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not the rumour is true, you have no business publishing another person’s medical history."
+    },
+    {
+      "id": "ss293-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It is wrong for the organisation to ask volunteers to perform dangerous work without proper training.",
+      "promptZh": "該組織要求未受適當訓練的義工進行危險工作，是不恰當的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation has no business asking volunteers to perform dangerous work without proper training.",
+      "answerZh": "該組織無權要求未受適當訓練的義工進行危險工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation has no business asking volunteers to perform dangerous work without proper training."
+    },
+    {
+      "id": "ss293-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In a professional interview, interviewers should not ask candidates about their plans to have children.",
+      "promptZh": "在專業的面試中，面試人員不應詢問求職者的生育計劃。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a professional interview, interviewers have no business asking candidates about their plans to have children.",
+      "answerZh": "在專業的面試中，面試人員無權詢問求職者的生育計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "In a professional interview, interviewers have no business asking candidates about their plans to have children."
+    },
+    {
+      "id": "ss293-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "However powerful the official may be, his position does not give him the right to use public money to reward personal supporters.",
+      "promptZh": "無論該名官員權力有多大，他的職位也不代表他有權使用公款獎賞私人支持者。",
+      "promptZhSource": "pdf",
+      "starter": "However",
+      "answer": "However powerful the official may be, he has no business using public money to reward personal supporters.",
+      "answerZh": "無論該名官員權力有多大，他也無權使用公款獎賞私人支持者。",
+      "answerZhSource": "pdf",
+      "highlight": "However powerful the official may be, he has no business using public money to reward personal supporters."
+    }
+  ]
+}

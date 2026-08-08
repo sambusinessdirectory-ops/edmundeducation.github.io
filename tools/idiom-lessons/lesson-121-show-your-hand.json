@@ -1,0 +1,1441 @@
+{
+  "lesson": {
+    "id": "idiom-121",
+    "order": 121,
+    "slug": "show-your-hand",
+    "version": "1",
+    "title": "亮出底牌／透露意圖",
+    "titleEn": "show your hand",
+    "titleZh": "亮出底牌／透露意圖",
+    "source": {
+      "file": "Idiom 121 - 「Show Your Hand」.pdf",
+      "pageCount": 32,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "exercisePdfPages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "answerKeyPdfPages": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "show one’s hand",
+        "highlight": "show one’s hand"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The manager finally showed her hand.",
+        "zh": "經理終於表明了自己的真正意向。",
+        "highlight": "showed her hand"
+      },
+      {
+        "en": "He showed his hand by naming his preferred choice.",
+        "zh": "他說出自己較偏好的選擇，暴露了真正意向。",
+        "highlight": "showed his hand"
+      }
+    ],
+    "meaning": {
+      "en": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+      "zh": "透露原本隱藏的計劃、意圖、取向、立場或資源；亮出底牌；表明真正意向。",
+      "naturalZh": [
+        "透露原本隱藏的計劃、意圖、取向、立場或資源",
+        "亮出底牌",
+        "表明真正意向。"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral to Formal",
+      "labelZh": "中性至正式",
+      "summaryEn": "everyday conversation; workplace discussions; sport; business deals; interviews; journalism; public affairs; general opinion writing.",
+      "summaryZh": "這個表達屬中性語域，可以自然地用於日常對話、工作討論、體育、商業交易、訪問、新聞及一般議論文章。",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace discussions",
+        "sport",
+        "business deals",
+        "interviews",
+        "journalism",
+        "public affairs",
+        "general opinion writing"
+      ],
+      "contextsZh": [],
+      "formalEn": "In a highly formal legal or technical document, reveal one’s position, disclose one’s intention or state one’s preferred option may sometimes be clearer.",
+      "formalZh": "在非常正式的法律或技術文件中，使用 reveal one’s position、disclose one’s intention 或 state one’s preferred option 有時會更清晰。"
+    },
+    "fixedVariable": {
+      "fixed": "show one’s hand",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + show(s) / showed + possessive + hand.",
+          "example": "The manager finally showed her hand.",
+          "highlight": "showed her hand"
+        },
+        {
+          "form": "Subject + show + possessive + hand + by + verb-ing.",
+          "example": "He showed his hand by naming his preferred choice.",
+          "highlight": "showed his hand"
+        },
+        {
+          "form": "Subject + do not / did not / will not + show + possessive + hand.",
+          "example": "We will not show our hand until the other team makes its offer.",
+          "highlight": "show our hand"
+        },
+        {
+          "form": "Subject + may / might / could / should + show + possessive + hand.",
+          "example": "One careless remark could show our hand.",
+          "highlight": "show our hand"
+        },
+        {
+          "form": "Subject + has / have / had + shown + possessive + hand.",
+          "example": "The company may already have shown its hand.",
+          "highlight": "shown its hand"
+        },
+        {
+          "form": "By + verb-ing, subject + show + possessive + hand.",
+          "example": "By rejecting the first offer, they showed their hand.",
+          "highlight": "showed their hand"
+        },
+        {
+          "form": "If + subject + show(s) + possessive + hand, consequence.",
+          "example": "If we show our hand now, the seller may raise the price.",
+          "highlight": "show our hand"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Form",
+        "titleZh": "句式一：基本形式",
+        "formula": "Subject + show(s) / showed + possessive + hand.",
+        "descriptionEn": "Source grammar frame: Subject + show(s) / showed + possessive + hand.",
+        "descriptionZh": "原檔列出的句法框架：Subject + show(s) / showed + possessive + hand。",
+        "examples": [
+          {
+            "en": "The manager finally showed her hand.",
+            "zh": "經理終於表明了自己的真正意向。",
+            "highlight": "showed her hand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Explaining How",
+        "titleZh": "句式二：說明如何暴露意向",
+        "formula": "Subject + show + possessive + hand + by + verb-ing.",
+        "descriptionEn": "Source grammar frame: Subject + show + possessive + hand + by + verb-ing.",
+        "descriptionZh": "原檔列出的句法框架：Subject + show + possessive + hand + by + verb-ing。",
+        "examples": [
+          {
+            "en": "He showed his hand by naming his preferred choice.",
+            "zh": "他說出自己較偏好的選擇，暴露了真正意向。",
+            "highlight": "showed his hand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Negative or Delayed Revelation",
+        "titleZh": "句式三：拒絕或延遲透露",
+        "formula": "Subject + do not / did not / will not + show + possessive + hand.",
+        "descriptionEn": "Source grammar frame: Subject + do not / did not / will not + show + possessive + hand.",
+        "descriptionZh": "原檔列出的句法框架：Subject + do not / did not / will not + show + possessive + hand。",
+        "examples": [
+          {
+            "en": "We will not show our hand until the other team makes its offer.",
+            "zh": "我們在對方提出條件前不會亮出底牌。",
+            "highlight": "show our hand"
+          },
+          {
+            "en": "The director refused to show her hand.",
+            "zh": "總監拒絕表明自己的意向。",
+            "highlight": "show her hand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Modal Form",
+        "titleZh": "句式四：配合情態動詞",
+        "formula": "Subject + may / might / could / should + show + possessive + hand.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / could / should + show + possessive + hand.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / could / should + show + possessive + hand。",
+        "examples": [
+          {
+            "en": "One careless remark could show our hand.",
+            "zh": "一句不小心的說話可能會暴露我們的計劃。",
+            "highlight": "show our hand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Perfect Form",
+        "titleZh": "句式五：完成時態",
+        "formula": "Subject + has / have / had + shown + possessive + hand.",
+        "descriptionEn": "Source grammar frame: Subject + has / have / had + shown + possessive + hand.",
+        "descriptionZh": "原檔列出的句法框架：Subject + has / have / had + shown + possessive + hand。",
+        "examples": [
+          {
+            "en": "The company may already have shown its hand.",
+            "zh": "公司可能已經暴露了自己的立場。",
+            "highlight": "shown its hand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Fronted “By” Phrase",
+        "titleZh": "句式六：以 By 短語開首",
+        "formula": "By + verb-ing, subject + show + possessive + hand.",
+        "descriptionEn": "Source grammar frame: By + verb-ing, subject + show + possessive + hand.",
+        "descriptionZh": "原檔列出的句法框架：By + verb-ing, subject + show + possessive + hand。",
+        "examples": [
+          {
+            "en": "By rejecting the first offer, they showed their hand.",
+            "zh": "他們拒絕第一個條件，因而表明了真正立場。",
+            "highlight": "showed their hand"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Conditional Form",
+        "titleZh": "句式七：條件句",
+        "formula": "If + subject + show(s) + possessive + hand, consequence.",
+        "descriptionEn": "Source grammar frame: If + subject + show(s) + possessive + hand, consequence.",
+        "descriptionZh": "原檔列出的句法框架：If + subject + show(s) + possessive + hand, consequence。",
+        "examples": [
+          {
+            "en": "If we show our hand now, the seller may raise the price.",
+            "zh": "如果我們現在亮出底牌，賣方可能會提高價格。",
+            "highlight": "show our hand"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "把較長的解釋濃縮",
+        "en": "The idiom packages secrecy, intention and revelation into one expression.",
+        "zh": "經理終於表明了真正立場。 這個慣用語把「保密」、「意向」和「透露」集中在一個表達之中。",
+        "examples": [
+          {
+            "en": "The manager finally showed her hand.",
+            "zh": "經理終於表明了真正立場。",
+            "highlight": "showed her hand"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Highlights Strategic Timing",
+        "titleZh": "突出透露資料的時機",
+        "en": "This warns somebody that revealing a plan at the wrong time may weaken their position.",
+        "zh": "不要太早亮出底牌。 這句話提醒別人，太早透露計劃可能會削弱自己的處境。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Describe Words or Actions",
+        "titleZh": "可形容說話或行動",
+        "en": "announcing a decision; making an offer; voting; rejecting an option; asking a revealing question; supporting one side.",
+        "zh": "一個人可以透過說話、投票、出價、拒絕某個選擇或支持某一方來表明真正意向。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful for Competition and Decision-Making",
+        "titleZh": "適合競爭及作決定的情境",
+        "en": "It Is Useful for Competition and Decision-Making",
+        "zh": "適合競爭及作決定的情境",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Express Deliberate or Unintended Revelation",
+        "titleZh": "可表示主動或意外暴露立場",
+        "en": "It Can Express Deliberate or Unintended Revelation",
+        "zh": "她不斷提問，可能無意間暴露了自己的意向。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is Not Always Better Than Plain English",
+        "titleZh": "並非永遠比普通表達更好",
+        "en": "Use the idiom only when there was a genuinely hidden position, intention or resource.",
+        "zh": "只有在計劃、立場、意圖或資源原本被隱藏時，才應使用這個慣用語。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Well-Documented Card-Game Origin; Exact First Figurative Use Uncertain",
+      "statusZh": "紙牌遊戲來源有充分根據；確切首次比喻用法不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Showing your cards removes the uncertainty about what you possess and what you may do next. The same image came to describe revealing a hidden plan, preference, position or level of power.",
+          "zh": "把手上的紙牌展示出來，會消除別人對你所掌握資源及下一步行動的疑問。 後來，相同意象便用來形容透露原本隱藏的計劃、取向、立場或實力。"
+        }
+      ],
+      "memoryEn": "When other players can see your cards, they can understand your position; when people know your plan, you have shown your hand.",
+      "memoryZh": "別人看見你的紙牌，便能了解你的處境；別人知道你的計劃，便代表你已經亮出底牌。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Match the Possessive to the Correct Person",
+        "titleZh": "規則一：所有格必須與人物一致",
+        "en": "The person or group whose plan is revealed controls the possessive.",
+        "zh": "被透露計劃或立場的人或團體，決定應使用哪一個所有格。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use “Showed” for the Simple Past",
+        "titleZh": "規則二：一般過去式使用 showed",
+        "en": "Use “Showed” for the Simple Past",
+        "zh": "一般過去式使用 showed",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use “Shown” After Have, Has or Had",
+        "titleZh": "規則三：have、has 或 had 後使用 shown",
+        "en": "Use “Shown” After Have, Has or Had",
+        "zh": "have、has 或 had 後使用 shown",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Keep “Hand” Singular",
+        "titleZh": "規則四：hand 保持單數",
+        "en": "In this exercise, a plural group shares one position or plan.",
+        "zh": "在本練習中，一個團體具有共同立場，因此使用單數 hand。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Add an Article",
+        "titleZh": "規則五：不要加入冠詞",
+        "en": "Do Not Add an Article",
+        "zh": "不要加入冠詞",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Use It Only When Something Was Hidden",
+        "titleZh": "規則六：必須有原本隱藏的資料",
+        "en": "He told me what time the shop closes. The second sentence contains information, but it does not involve a hidden plan, position or strategic choice.",
+        "zh": "買家原本把出價上限保密，但她提出高價時暴露了底牌。 他告訴我店舖甚麼時候關門。 第二句雖然涉及提供資料，但沒有隱藏的計劃、立場或策略性選擇。",
+        "examples": [
+          {
+            "en": "The buyer had kept her limit secret, but her large offer showed her hand.",
+            "zh": "買家原本把出價上限保密，但她提出高價時暴露了底牌。",
+            "highlight": "showed her hand"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則七：保留確定程度",
+        "en": "The incorrect version turns a possibility into a definite fact.",
+        "zh": "錯誤版本把「可能」改成確定事實。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Confuse Literal and Figurative Meanings",
+        "titleZh": "規則八：不要混淆字面及比喻意思",
+        "en": "The player showed the other players the cards in his hand. Every answer in this exercise must use the figurative meaning.",
+        "zh": "玩家向其他人展示自己手上的紙牌。 玩家承認自己想要哪一個結果，暴露了真正意向。 本練習中的所有答案都必須使用比喻意思。",
+        "examples": [
+          {
+            "en": "The player showed his hand by admitting which result he wanted.",
+            "zh": "玩家承認自己想要哪一個結果，暴露了真正意向。",
+            "highlight": "showed his hand"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Related Expressions Are Not the Target",
+        "titleZh": "規則九：相關表達不是本課目標",
+        "en": "Related Expressions Are Not the Target",
+        "zh": "相關表達不是本課目標",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Use It for Revealing Somebody Else’s",
+        "titleZh": "規則十：不要用來表示洩露別人的秘密",
+        "en": "show your hand usually means revealing your own or your group’s plan, position or resources. If someone reveals another person’s private secret, a different expression is usually needed.",
+        "zh": "show your hand 通常表示透露自己或所屬團體的計劃、立場或資源。 如果某人洩露的是另一個人的私人秘密，通常需要使用其他表達。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using the correct form of show one’s hand.",
+      "zh": "使用 show one’s hand 的正確形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-121-q01",
+        "number": 1,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Sarah had kept her plan secret, but she finally said that she wanted to lead the project.",
+        "promptZh": "Sarah 原本把計劃保密，但她最後表示自己想帶領這個項目。",
+        "starter": "Sarah",
+        "answer": "Sarah finally showed her hand by saying that she wanted to lead the project.",
+        "answerZh": "Sarah 最後表示自己想帶領這個項目，表明了真正意向。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed her hand"
+      },
+      {
+        "id": "idiom-121-q02",
+        "number": 2,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Before the match, the coach revealed which player he planned to use as the goalkeeper.",
+        "promptZh": "比賽前，教練透露了自己打算派哪一名球員擔任守門員。",
+        "starter": "The",
+        "answer": "The coach showed his hand before the match by naming the goalkeeper.",
+        "answerZh": "教練在比賽前說出守門員人選，暴露了部署。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed his hand"
+      },
+      {
+        "id": "idiom-121-q03",
+        "number": 3,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "I told the seller exactly how much I was willing to pay.",
+        "promptZh": "我告訴賣方自己願意支付的確實金額。",
+        "starter": "I",
+        "answer": "I showed my hand by telling the seller exactly how much I was willing to pay.",
+        "answerZh": "我告訴賣方自己願意支付的確實金額，亮出了底牌。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed my hand"
+      },
+      {
+        "id": "idiom-121-q04",
+        "number": 4,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The company had kept its plans secret. Its email said that it would close two shops next year.",
+        "promptZh": "公司原本把計劃保密，但其電郵表示公司明年會關閉兩間店舖。",
+        "starter": "The",
+        "answer": "The company showed its hand in the email by saying that it would close two shops next year.",
+        "answerZh": "公司在電郵中表示明年會關閉兩間店舖，透露了真正計劃。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed its hand"
+      },
+      {
+        "id": "idiom-121-q05",
+        "number": 5,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Daniel finally said which side he supported.",
+        "promptZh": "Daniel 終於表示自己支持哪一方。",
+        "starter": "Daniel",
+        "answer": "Daniel showed his hand by saying which side he supported.",
+        "answerZh": "Daniel 說出自己支持哪一方，表明了真正立場。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed his hand"
+      },
+      {
+        "id": "idiom-121-q06",
+        "number": 6,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "We discussed our plan online, so the other team now knows what we intend to do.",
+        "promptZh": "我們在網上討論計劃，因此對方現在已知道我們打算做甚麼。",
+        "starter": "We",
+        "answer": "We showed our hand by discussing our plan online.",
+        "answerZh": "我們在網上討論計劃，因而暴露了意向。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed our hand"
+      },
+      {
+        "id": "idiom-121-q07",
+        "number": 7,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "When Amy voted against the change, everyone learnt her true position.",
+        "promptZh": "Amy 投票反對改動後，大家都知道了她的真正立場。",
+        "starter": "Amy",
+        "answer": "Amy showed her hand by voting against the change.",
+        "answerZh": "Amy 投票反對改動，表明了自己的真正立場。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed her hand"
+      },
+      {
+        "id": "idiom-121-q08",
+        "number": 8,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The manager still has not said whether she supports the move.",
+        "promptZh": "經理仍未表示自己是否支持這項改動。",
+        "starter": "The",
+        "answer": "The manager has not shown her hand on the proposed move yet.",
+        "answerZh": "經理仍未表明自己對建議改動的真正立場。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown her hand"
+      },
+      {
+        "id": "idiom-121-q09",
+        "number": 9,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Do not tell the seller our highest price before the talks begin.",
+        "promptZh": "在商談開始前，不要告訴賣方我們可以接受的最高價格。",
+        "starter": "Don’t",
+        "answer": "Don’t show our hand by telling the seller our highest price before the talks begin.",
+        "answerZh": "在商談開始前，不要把最高價格告訴賣方而亮出我們的底牌。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show our hand"
+      },
+      {
+        "id": "idiom-121-q10",
+        "number": 10,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The club finally announced which coach it wanted to hire.",
+        "promptZh": "球會終於宣佈自己想聘請哪一位教練。",
+        "starter": "The",
+        "answer": "The club finally showed its hand by naming the coach it wanted to hire.",
+        "answerZh": "球會最後說出想聘請的教練人選，表明了真正意向。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed its hand"
+      },
+      {
+        "id": "idiom-121-q11",
+        "number": 11,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "At every planning meeting, Ben names his preferred option before anyone else speaks.",
+        "promptZh": "在每次規劃會議中，Ben 都會在其他人發言前先說出自己較偏好的選擇。",
+        "starter": "Ben",
+        "answer": "Ben usually shows his hand too early by naming his preferred option at planning meetings.",
+        "answerZh": "Ben 通常會在規劃會議中太早說出較偏好的選擇，暴露自己的立場。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shows his hand"
+      },
+      {
+        "id": "idiom-121-q12",
+        "number": 12,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "She kept asking when she could start the job. This may have revealed that she wanted it.",
+        "promptZh": "她不斷詢問自己何時可以開始工作。這可能透露了她想得到這份工作。",
+        "starter": "By",
+        "answer": "By asking when she could start the job, she may have shown her hand.",
+        "answerZh": "她詢問何時可以開始工作，可能已暴露了自己想得到這份工作的意向。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown her hand"
+      },
+      {
+        "id": "idiom-121-q13",
+        "number": 13,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "We should keep our full plan secret at the first meeting.",
+        "promptZh": "我們應在第一次會議中把完整計劃保密。",
+        "starter": "We",
+        "answer": "We should not show our hand at the first meeting.",
+        "answerZh": "我們不應在第一次會議中亮出底牌。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show our hand"
+      },
+      {
+        "id": "idiom-121-q14",
+        "number": 14,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "They refused the cheaper option, which made their position clear.",
+        "promptZh": "他們拒絕了較便宜的選擇，因而表明了自己的立場。",
+        "starter": "They",
+        "answer": "They showed their hand by refusing the cheaper option.",
+        "answerZh": "他們拒絕較便宜的選擇，因而表明了真正立場。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed their hand"
+      },
+      {
+        "id": "idiom-121-q15",
+        "number": 15,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "If I tell them that I need an answer today, they will know that I am under pressure.",
+        "promptZh": "如果我告訴他們自己今天便需要答覆，他們便會知道我正承受壓力。",
+        "starter": "If",
+        "answer": "If I tell them that I need an answer today, I will show my hand.",
+        "answerZh": "如果我告訴他們自己今天便需要答覆，便會暴露我正承受壓力。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show my hand"
+      },
+      {
+        "id": "idiom-121-q16",
+        "number": 16,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "He made the first offer on the house, revealing that he was serious about buying it.",
+        "promptZh": "他率先為房屋出價，表明自己確實有意購買。",
+        "starter": "By",
+        "answer": "By making the first offer on the house, he has shown his hand.",
+        "answerZh": "他率先為房屋出價，已表明自己確實有意購買。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown his hand"
+      },
+      {
+        "id": "idiom-121-q17",
+        "number": 17,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "If the director publicly supported the plan, everyone would know her position.",
+        "promptZh": "如果總監公開支持計劃，大家便會知道她的立場。",
+        "starter": "The",
+        "answer": "The director would show her hand by publicly supporting the plan.",
+        "answerZh": "總監如果公開支持計劃，便會表明自己的立場。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show her hand"
+      },
+      {
+        "id": "idiom-121-q18",
+        "number": 18,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The team will not announce its starting players until Friday.",
+        "promptZh": "球隊在星期五前不會公佈正選球員名單。",
+        "starter": "The",
+        "answer": "The team will not show its hand until Friday, when it names its starting players.",
+        "answerZh": "球隊要到星期五公佈正選球員時，才會暴露部署。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show its hand"
+      },
+      {
+        "id": "idiom-121-q19",
+        "number": 19,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "One careless comment could reveal our whole plan.",
+        "promptZh": "一句不小心的說話可能會暴露我們的整個計劃。",
+        "starter": "One",
+        "answer": "One careless comment could show our hand.",
+        "answerZh": "一句不小心的說話可能會暴露我們的計劃。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show our hand"
+      },
+      {
+        "id": "idiom-121-q20",
+        "number": 20,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Has Ben said which offer he prefers? B: No. He has kept his decision secret.",
+        "promptZh": "甲：Ben 有說自己較喜歡哪一個條件嗎？ 乙：沒有。他仍然把自己的決定保密。",
+        "starter": "No,",
+        "answer": "No, Ben has not shown his hand yet.",
+        "answerZh": "沒有，Ben 仍未表明真正取向。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown his hand"
+      },
+      {
+        "id": "idiom-121-q21",
+        "number": 21,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Why did you not tell the seller that we could pay more? B: I did not want to reveal our highest price so early.",
+        "promptZh": "甲：你為甚麼沒有告訴賣方我們可以支付更多？ 乙：我不想這麼早便透露我們的最高價格。",
+        "starter": "I",
+        "answer": "I did not want to show our hand by naming our highest price so early.",
+        "answerZh": "我不想太早說出最高價格而亮出我們的底牌。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show our hand"
+      },
+      {
+        "id": "idiom-121-q22",
+        "number": 22,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The minister refused to defend the old rule. This may suggest that he plans to change it.",
+        "promptZh": "部長拒絕為舊有規則辯護。這可能表示他計劃作出改動。",
+        "starter": "The",
+        "answer": "The minister may have shown his hand by refusing to defend the old rule.",
+        "answerZh": "部長拒絕為舊有規則辯護，可能已表明他打算作出改動。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown his hand"
+      },
+      {
+        "id": "idiom-121-q23",
+        "number": 23,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Why has the other team changed its defence? B: Perhaps the change reveals how it expects us to attack.",
+        "promptZh": "甲：對方為甚麼改變防守方式？ 乙：這項改動可能透露了他們預計我們會如何進攻。",
+        "starter": "The",
+        "answer": "The other team may have shown its hand by changing its defence.",
+        "answerZh": "對方改變防守方式，可能已暴露其部署。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown its hand"
+      },
+      {
+        "id": "idiom-121-q24",
+        "number": 24,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "She had already chosen a group, but she refused to say which one until the final day.",
+        "promptZh": "她早已選定一個小組，但在最後一天前一直拒絕說出是哪一組。",
+        "starter": "She",
+        "answer": "She refused to show her hand until the final day.",
+        "answerZh": "她在最後一天前一直拒絕表明自己的選擇。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show her hand"
+      },
+      {
+        "id": "idiom-121-q25",
+        "number": 25,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Tom offered to do extra work without pay. Everyone realised that he wanted a promotion.",
+        "promptZh": "Tom 主動提出無薪完成額外工作，大家因而知道他想獲得升職。",
+        "starter": "Tom",
+        "answer": "Tom showed his hand by offering to do extra work without pay.",
+        "answerZh": "Tom 主動提出無薪完成額外工作，暴露了自己想獲得升職的意向。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed his hand"
+      },
+      {
+        "id": "idiom-121-q26",
+        "number": 26,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The buyer asked too many questions about the delivery date, making it clear that she was in a hurry.",
+        "promptZh": "買家對送貨日期提出太多問題，暴露了她急於完成交易。",
+        "starter": "The",
+        "answer": "The buyer showed her hand by asking too many questions about the delivery date.",
+        "answerZh": "買家對送貨日期提出太多問題，暴露了她急於完成交易。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed her hand"
+      },
+      {
+        "id": "idiom-121-q27",
+        "number": 27,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Why has the club not named its preferred player? B: It does not want the other clubs to know whom it plans to sign.",
+        "promptZh": "甲：球會為甚麼仍未說出較想羅致哪一名球員？ 乙：球會不想讓其他球會知道自己計劃羅致誰。",
+        "starter": "The",
+        "answer": "The club does not want to show its hand by naming the player it plans to sign.",
+        "answerZh": "球會不想說出計劃羅致的球員而暴露真正目標。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show its hand"
+      },
+      {
+        "id": "idiom-121-q28",
+        "number": 28,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The company said that it might close one branch. This may reveal that it is considering cutting costs.",
+        "promptZh": "公司表示可能會關閉一間分店。這可能顯示公司正考慮削減成本。",
+        "starter": "The",
+        "answer": "The company may have shown its hand by saying that it might close one branch.",
+        "answerZh": "公司表示可能關閉一間分店，可能已暴露其削減成本的意向。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown its hand"
+      },
+      {
+        "id": "idiom-121-q29",
+        "number": 29,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "His support for the first suggestion told us which option he wanted.",
+        "promptZh": "他支持第一個建議，令我們知道他想選擇哪一個方案。",
+        "starter": "By",
+        "answer": "By supporting the first suggestion, he showed his hand.",
+        "answerZh": "他支持第一個建議，表明了自己的真正取向。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed his hand"
+      },
+      {
+        "id": "idiom-121-q30",
+        "number": 30,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Lucy has remained silent, so no one knows whether she will accept the offer.",
+        "promptZh": "Lucy 一直保持沉默，因此沒有人知道她會否接受該項條件。",
+        "starter": "Lucy",
+        "answer": "Lucy has refused to show her hand, so no one knows whether she will accept the offer.",
+        "answerZh": "Lucy 一直拒絕表明立場，因此沒有人知道她會否接受該項條件。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show her hand"
+      },
+      {
+        "id": "idiom-121-q31",
+        "number": 31,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The two sides discussed the price for an hour, but neither said the highest or lowest price it could accept.",
+        "promptZh": "雙方討論價格一小時，但任何一方都沒有透露自己可以接受的最高或最低價格。",
+        "starter": "Although",
+        "answer": "Although the two sides discussed the price for an hour, neither showed its hand.",
+        "answerZh": "雖然雙方討論價格一小時，但任何一方都沒有亮出底牌。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed its hand"
+      },
+      {
+        "id": "idiom-121-q32",
+        "number": 32,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "He admitted that he had no other buyer, revealing that his position was weak.",
+        "promptZh": "他承認自己沒有其他買家，暴露了自己的弱勢處境。",
+        "starter": "By",
+        "answer": "By admitting that he had no other buyer, he showed his hand.",
+        "answerZh": "他承認自己沒有其他買家，暴露了自己的弱勢處境。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed his hand"
+      },
+      {
+        "id": "idiom-121-q33",
+        "number": 33,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Before we tell the organiser that Friday is our preferred date, we should learn which dates are available.",
+        "promptZh": "在告訴主辦人星期五是我們較想選擇的日期前，我們應先了解有哪些日期可供選擇。",
+        "starter": "Before",
+        "answer": "Before we show our hand by naming Friday, we should learn which dates the organiser can offer.",
+        "answerZh": "在說出星期五是我們較想選擇的日期前，我們應先了解主辦人可提供哪些日期。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show our hand"
+      },
+      {
+        "id": "idiom-121-q34",
+        "number": 34,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The reporters’ first question immediately revealed their main area of interest.",
+        "promptZh": "記者提出的第一個問題，立即暴露了他們最關注的事情。",
+        "starter": "The",
+        "answer": "The reporters showed their hand with their first question.",
+        "answerZh": "記者提出第一個問題時，便暴露了最關注的事情。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed their hand"
+      },
+      {
+        "id": "idiom-121-q35",
+        "number": 35,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "If the company offers a refund before the test results arrive, customers may realise that it expects the product to fail.",
+        "promptZh": "如果公司在測試結果公佈前便提出退款，顧客可能會認為公司預計產品無法通過測試。",
+        "starter": "If",
+        "answer": "If the company offers a refund before the test results arrive, it may show its hand.",
+        "answerZh": "如果公司在測試結果公佈前便提出退款，可能會暴露其真正判斷。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show its hand"
+      },
+      {
+        "id": "idiom-121-q36",
+        "number": 36,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Why did the workers’ group reject the small pay rise immediately? B: Perhaps it wanted the company to know that it expected much more.",
+        "promptZh": "甲：工人團體為甚麼立即拒絕小幅加薪？ 乙：它可能想讓公司知道自己期望得到更多。",
+        "starter": "The",
+        "answer": "The workers’ group may have chosen to show its hand by rejecting the small pay rise immediately.",
+        "answerZh": "工人團體立即拒絕小幅加薪，可能是有意表明自己期望得到更多。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show its hand"
+      },
+      {
+        "id": "idiom-121-q37",
+        "number": 37,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "She remained silent, so nobody knew which side she supported.",
+        "promptZh": "她保持沉默，因此沒有人知道她支持哪一方。",
+        "starter": "By",
+        "answer": "By remaining silent, she avoided showing her hand.",
+        "answerZh": "她透過保持沉默，避免表明自己的立場。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showing her hand"
+      },
+      {
+        "id": "idiom-121-q38",
+        "number": 38,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The teacher has not announced whether the test will allow students to use their books.",
+        "promptZh": "老師仍未宣佈測驗是否容許學生使用課本。",
+        "starter": "The",
+        "answer": "The teacher has not shown her hand on the test format yet.",
+        "answerZh": "老師仍未表明測驗形式的安排。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown her hand"
+      },
+      {
+        "id": "idiom-121-q39",
+        "number": 39,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "We waited until our rival published its price before revealing ours.",
+        "promptZh": "我們等待競爭對手公佈價格後，才透露自己的價格。",
+        "starter": "We",
+        "answer": "We did not show our hand until our rival published its price.",
+        "answerZh": "我們在競爭對手公佈價格前一直沒有亮出底牌。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show our hand"
+      },
+      {
+        "id": "idiom-121-q40",
+        "number": 40,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The company suddenly bought extra land, revealing that it planned to build a larger shop.",
+        "promptZh": "公司突然購入額外土地，暴露了興建更大型店舖的計劃。",
+        "starter": "By",
+        "answer": "By buying extra land, the company showed its hand.",
+        "answerZh": "公司購入額外土地，暴露了興建更大型店舖的計劃。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed its hand"
+      },
+      {
+        "id": "idiom-121-q41",
+        "number": 41,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The town leaders say that several locations remain possible. However, their survey asks only about the new park.",
+        "promptZh": "鎮上主管表示仍有多個地點可供選擇，但他們的問卷只詢問有關新公園的意見。",
+        "starter": "By",
+        "answer": "By asking only about the park in the survey, the town leaders may have shown their hand.",
+        "answerZh": "鎮上主管在問卷中只詢問有關公園的意見，可能已表明他們真正偏好的選擇。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown their hand"
+      },
+      {
+        "id": "idiom-121-q42",
+        "number": 42,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: The company leaders say that they have not chosen either plan. B: Yet they have already asked the staff to prepare for the move in the first plan.",
+        "promptZh": "甲：公司主管表示尚未選擇任何一個計劃。 乙：可是，他們已要求員工為第一個計劃中的搬遷安排作準備。",
+        "starter": "By",
+        "answer": "By asking the staff to prepare for the move, the company leaders may already have shown their hand.",
+        "answerZh": "公司主管要求員工為搬遷作準備，可能已經暴露了他們真正支持的計劃。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown their hand"
+      },
+      {
+        "id": "idiom-121-q43",
+        "number": 43,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The candidate repeatedly attacks one policy but ignores the others. Voters may therefore understand which issue will be central to her campaign.",
+        "promptZh": "候選人不斷批評一項政策，卻不理會其他政策。因此，選民可能會知道哪一個議題將成為她競選活動的重點。",
+        "starter": "The",
+        "answer": "The candidate may be showing her hand by attacking one policy while ignoring the others.",
+        "answerZh": "候選人只攻擊一項政策而不理會其他政策，可能正在暴露競選活動的主要方向。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showing her hand"
+      },
+      {
+        "id": "idiom-121-q44",
+        "number": 44,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The seller repeatedly said that the price was final. However, as soon as the buyer stood up to leave, he offered a lower price.",
+        "promptZh": "賣方多次表示價格不能更改，但買家一起身準備離開，他便立即提出較低價格。",
+        "starter": "The",
+        "answer": "The seller showed his hand by offering a lower price as soon as the buyer stood up to leave.",
+        "answerZh": "買家一起身準備離開，賣方便提出較低價格，暴露了自己其實願意減價。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed his hand"
+      },
+      {
+        "id": "idiom-121-q45",
+        "number": 45,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "We prefer one of the two school trips, but we should not say which one until we know the cost of both choices.",
+        "promptZh": "我們較喜歡其中一個學校旅行方案，但在知道兩個方案的費用前，不應說出是哪一個。",
+        "starter": "We",
+        "answer": "We should not show our hand by naming our preferred school trip until we know the cost of both choices.",
+        "answerZh": "在知道兩個方案的費用前，我們不應說出較喜歡哪一個學校旅行方案。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show our hand"
+      },
+      {
+        "id": "idiom-121-q46",
+        "number": 46,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Why did the director arrange a second interview before the first interviews had finished? B: This may reveal which candidate she already prefers.",
+        "promptZh": "甲：總監為甚麼在第一輪面試尚未結束前便安排第二輪面試？ 乙：這可能暴露了她已經較喜歡哪一名求職者。",
+        "starter": "By",
+        "answer": "By arranging a second interview so quickly, the director may have shown her hand.",
+        "answerZh": "總監這麼快便安排第二輪面試，可能已暴露自己較喜歡哪一名求職者。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown her hand"
+      },
+      {
+        "id": "idiom-121-q47",
+        "number": 47,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The charity says that several possible sites remain. However, buying the building near the station would make its true choice clear.",
+        "promptZh": "慈善機構表示仍有多個可能地點，但如果購入車站附近的大樓，便會表明真正選擇。",
+        "starter": "The",
+        "answer": "The charity would show its hand by buying the building near the station.",
+        "answerZh": "慈善機構如果購入車站附近的大樓，便會表明真正選擇。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "show its hand"
+      },
+      {
+        "id": "idiom-121-q48",
+        "number": 48,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The company had remained silent for months, but it finally admitted that it wanted to enter the new market.",
+        "promptZh": "公司沉默了數月，但最後承認自己希望進入新市場。",
+        "starter": "After",
+        "answer": "After months of silence, the company finally showed its hand by announcing that it wanted to enter the new market.",
+        "answerZh": "公司沉默數月後，終於宣佈希望進入新市場，表明了真正計劃。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed its hand"
+      },
+      {
+        "id": "idiom-121-q49",
+        "number": 49,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "In the school debate, the other team asked three questions about the same cost problem. This revealed the main argument it planned to use.",
+        "promptZh": "在校內辯論中，對方就同一個成本問題提出三條問題，因而暴露了準備採用的主要論點。",
+        "starter": "By",
+        "answer": "By asking three questions about the same cost problem, the other team showed its hand in the school debate.",
+        "answerZh": "對方就同一個成本問題提出三條問題，暴露了在校內辯論中準備採用的主要論點。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "showed its hand"
+      },
+      {
+        "id": "idiom-121-q50",
+        "number": 50,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: The company says that it is still considering both plans. B: However, it has asked the engineers to test only one of them.",
+        "promptZh": "甲：公司表示仍在考慮兩個計劃。 乙：可是，公司只要求工程師測試其中一個。",
+        "starter": "The",
+        "answer": "The company may have shown its hand by asking the engineers to test only one plan.",
+        "answerZh": "公司只要求工程師測試其中一個計劃，可能已暴露真正選擇。",
+        "targetForm": "show one’s hand",
+        "targetMeaning": "To reveal a plan, intention, preference, position or resource that you had previously kept hidden.",
+        "highlight": "shown its hand"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1239 @@
+{
+  "id": "ss283",
+  "order": 283,
+  "slug": "how-about-noun-v-ing",
+  "title": "「How about + noun / V-ing?」",
+  "titleZh": "「How about + noun / V-ing?」",
+  "titleEn": "Using “How about + noun / V-ing?”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 282 -「How about + noun _ V-ing.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sha256": "a45f52351ddb2f1725fe851a316ed17df544695c4e9ae43fb8a6a24082df2c0b",
+    "sourceNumber": 282,
+    "systemOrder": 283,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 282 maps to ss283: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "How about + noun / noun phrase?",
+  "formulas": [
+    {
+      "id": "ss283-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "How about + noun / noun phrase?"
+    }
+  ],
+  "example": "How about the Italian restaurant?",
+  "exampleZh": "意大利餐廳如何？",
+  "examples": [
+    {
+      "id": "ss283-example-01",
+      "en": "How about the Italian restaurant?",
+      "zh": "意大利餐廳如何？",
+      "highlight": "How about the Italian restaurant?"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss283-rule-01",
+      "zh": "當 How about 後面提出一項行動時，動詞要使用 -ing 形式，例如 How about meeting...?；不可直接接動詞原形或 to + 動詞。",
+      "en": "V-ing How about meeting after lunch? How about meet after lunch? How about to meet after lunch?",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss283-rule-02",
+      "zh": "名詞後不需要加入 V-ing 星期日如何？ 新咖啡店如何？ 詞語【Sunday】和 the new café 已經是完整的選項，因此不需要再加入動詞。",
+      "en": "How about Sunday? How about the new café?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss283-rule-03",
+      "zh": "使用問號目標表達【How about...?】是向對方提出選項或詢問意見，因此通常以問號結束。",
+      "en": "How about...? How about taking a taxi? How about taking a taxi.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss283-rule-04",
+      "zh": "額外資料不是固定詞組的一部分完整句子：【How about meeting after lunch at the café?】 核心句型：【How about meeting?】 可選補充：時間地點以下三句都完整：【How about meeting?】 見面如何？ 午餐後見面如何？ 午餐後在咖啡店見面如何？",
+      "en": "How about meeting after lunch at the café? How about meeting? after lunch: at the café: How about meeting? How about meeting after lunch?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss283-rule-05",
+      "zh": "目標表達【How about...?】可以放在不同位置它可以：直接放在句首；放在背景句之後；放在時間、條件或目的詞組之後；放在人物說話的引號內。因此，答案不一定以 How 開始。",
+      "en": "How about can appear directly at the beginning, after a background sentence, after a time, condition or purpose phrase, or inside quoted speech. An answer therefore does not always begin with How.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss283-rule-06",
+      "zh": "不屬於本練習以下句子在日常英語中可以使用：【How about we meet after lunch?】 不過，本練習只訓練：【How about + noun?】 因此，答案不使用 How about we + base verb。",
+      "en": "How about we + base verb? How about we meet after lunch? How about + noun? How about + V-ing?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss283-rule-07",
+      "zh": "與 What about...? 的分別兩者有時都可以提出建議：【How about taking the bus?】 乘搭巴士如何？ 乘搭巴士如何？ 不過，How about...? 通常更直接地提出一個新方案。還經常用來提出一個不應忽略的問題：【What about the cost?】 那麼費用呢？ 本練習集中使用 How about...? 提出建議或選項。",
+      "en": "How about...? How about taking the bus? What about taking the bus? What about...? What about the cost?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss283-rule-08",
+      "zh": "與 Let’s... 的分別詞語【Let’s...】是較直接的提議：【Let’s meet after lunch.】 我們午餐後見面吧。 更明顯地邀請對方表達意見：【How about meeting after lunch?】 午餐後見面如何？ 兩句都可以提出建議，但 How about...? 通常讓對方感到有更多選擇。",
+      "en": "How about...? Let’s meet after lunch. How about meeting after lunch?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss283-benefit-01",
+      "zh": "讓建議聽起來較柔和不會直接告訴別人必須做甚麼。它把建議當作一個可以討論的選項。午餐後來見我。 午餐後見面如何？ 第二句較柔和，也較容易讓對方作出回應。",
+      "en": "It helps you make gentle suggestions How about...? Compare: Meet me after lunch. How about meeting after lunch?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss283-benefit-02",
+      "zh": "讓對方有選擇這個句型表示你願意聽取對方的意見。對方可以同意、拒絕或提出其他方案。乘搭火車如何？ 聽起來不錯。 我們可以改乘巴士嗎？",
+      "en": "It gives the listener a choice How about the train? The listener can reply: That sounds good. Could we take the bus instead?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss283-benefit-03",
+      "zh": "幫助對話自然地繼續當你們正在討論日期、地點、活動或解決方法時，可以用 How about...? 提出下一個選項。我們已經選好場地。星期五晚上如何？",
+      "en": "It helps conversations continue naturally We have chosen the venue. How about Friday evening?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss283-benefit-04",
+      "zh": "避免重複使用 Let’s 和 Why don’t we...? 你不需要在每次提出建議時都使用同一個句型。學會這些不同說法，可以令口語和寫作的句式更多變。",
+      "en": "It provides alternatives to Let’s and Why don’t we...? Let’s take a break. Why don’t we take a break? How about taking a break?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss283-benefit-05",
+      "zh": "可以提出事物，也可以提出行動你可以提出一個人、地點、時間或物件：【How about Saturday?】 星期六如何？ 你也可以提出一項行動：【How about meeting on Saturday?】 星期六見面如何？",
+      "en": "It can introduce both things and actions How about Saturday? How about meeting on Saturday?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 282 maps to ss283: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each suggestion using How about + noun or V-ing. Keep the original meaning",
+      "unchanged.",
+      "The target structure may appear at the beginning, after an opening phrase, after a context",
+      "sentence or inside direct speech.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 How about + 名詞或 V-ing 改寫以下建議，並保持原意不變。",
+      "目標句型可以出現在句首、開首詞組之後、背景句之後，或人物說話的引號內。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss283-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Let’s have lunch outside.",
+      "promptZh": "我們在外面吃午餐吧。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How about having lunch outside?",
+      "answerZh": "在外面吃午餐如何？",
+      "answerZhSource": "pdf",
+      "highlight": "How about having lunch outside?"
+    },
+    {
+      "id": "ss283-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We could take the bus.",
+      "promptZh": "我們可以乘搭巴士。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How about taking the bus?",
+      "answerZh": "乘搭巴士如何？",
+      "answerZhSource": "pdf",
+      "highlight": "How about taking the bus?"
+    },
+    {
+      "id": "ss283-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Shall we choose the blue one?",
+      "promptZh": "我們選藍色的好嗎？",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the colour, how about the blue one?",
+      "answerZh": "顏色方面，選藍色的如何？",
+      "answerZhSource": "pdf",
+      "highlight": "For the colour, how about the blue one?"
+    },
+    {
+      "id": "ss283-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why don’t we watch a film tonight?",
+      "promptZh": "我們今晚看電影如何？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How about watching a film tonight?",
+      "answerZh": "今晚看電影如何？",
+      "answerZhSource": "pdf",
+      "highlight": "How about watching a film tonight?"
+    },
+    {
+      "id": "ss283-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Maybe Sunday would be a good day for the meeting.",
+      "promptZh": "星期日也許是開會的好日子。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the meeting day, how about Sunday?",
+      "answerZh": "開會日期方面，星期日如何？",
+      "answerZhSource": "pdf",
+      "highlight": "For the meeting day, how about Sunday?"
+    },
+    {
+      "id": "ss283-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I suggest ordering pizza.",
+      "promptZh": "我建議叫薄餅。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How about ordering pizza?",
+      "answerZh": "叫薄餅如何？",
+      "answerZhSource": "pdf",
+      "highlight": "How about ordering pizza?"
+    },
+    {
+      "id": "ss283-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Could the library be our meeting place?",
+      "promptZh": "我們可以在圖書館見面嗎？",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For our meeting place, how about the library?",
+      "answerZh": "見面地點方面，圖書館如何？",
+      "answerZhSource": "pdf",
+      "highlight": "For our meeting place, how about the library?"
+    },
+    {
+      "id": "ss283-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Shall we invite Leo?",
+      "promptZh": "我們邀請里奧好嗎？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How about inviting Leo?",
+      "answerZh": "邀請里奧如何？",
+      "answerZhSource": "pdf",
+      "highlight": "How about inviting Leo?"
+    },
+    {
+      "id": "ss283-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Would you like tea instead of coffee?",
+      "promptZh": "你想以茶代替咖啡嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Instead",
+      "answer": "Instead of coffee, how about tea?",
+      "answerZh": "與其喝咖啡，喝茶如何？",
+      "answerZhSource": "pdf",
+      "highlight": "Instead of coffee, how about tea?"
+    },
+    {
+      "id": "ss283-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why don’t we leave early to avoid the traffic?",
+      "promptZh": "我們何不提早離開，以避開交通擠塞？",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To avoid the traffic, how about leaving early?",
+      "answerZh": "為了避開交通擠塞，提早離開如何？",
+      "answerZhSource": "pdf",
+      "highlight": "To avoid the traffic, how about leaving early?"
+    },
+    {
+      "id": "ss283-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We have chosen the date, but we still need a time. Could 3 p.m. work?",
+      "promptZh": "我們已經選好日期，但仍需要決定時間。下午三時可以嗎？",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have chosen the date. How about 3 p.m.?",
+      "answerZh": "我們已經選好日期。下午三時如何？",
+      "answerZhSource": "pdf",
+      "highlight": "We have chosen the date. How about 3 p.m.?"
+    },
+    {
+      "id": "ss283-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Instead of eating at a restaurant, we could cook at home.",
+      "promptZh": "與其在餐廳吃飯，我們可以在家煮食。",
+      "promptZhSource": "pdf",
+      "starter": "Instead",
+      "answer": "Instead of eating at a restaurant, how about cooking at home?",
+      "answerZh": "與其在餐廳吃飯，在家煮食如何？",
+      "answerZhSource": "pdf",
+      "highlight": "Instead of eating at a restaurant, how about cooking at home?"
+    },
+    {
+      "id": "ss283-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "For our next class, perhaps we should practise pronunciation.",
+      "promptZh": "下一堂課，我們或許應該練習發音。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For our next class, how about practising pronunciation?",
+      "answerZh": "下一堂課練習發音如何？",
+      "answerZhSource": "pdf",
+      "highlight": "For our next class, how about practising pronunciation?"
+    },
+    {
+      "id": "ss283-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team leader suggested taking a short break.",
+      "promptZh": "組長建議稍作休息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team leader asked, “How about taking a short break?”",
+      "answerZh": "組長問：「稍作休息如何？」",
+      "answerZhSource": "pdf",
+      "highlight": "The team leader asked, “How about taking a short break?”"
+    },
+    {
+      "id": "ss283-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If Friday is inconvenient, we could meet on Saturday.",
+      "promptZh": "如果星期五不方便，我們可以在星期六見面。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Friday is inconvenient, how about Saturday?",
+      "answerZh": "如果星期五不方便，星期六如何？",
+      "answerZhSource": "pdf",
+      "highlight": "If Friday is inconvenient, how about Saturday?"
+    },
+    {
+      "id": "ss283-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We could take the train instead of travelling by coach.",
+      "promptZh": "我們可以乘搭火車，而不是旅遊巴。",
+      "promptZhSource": "pdf",
+      "starter": "Instead",
+      "answer": "Instead of travelling by coach, how about the train?",
+      "answerZh": "與其乘搭旅遊巴，乘搭火車如何？",
+      "answerZhSource": "pdf",
+      "highlight": "Instead of travelling by coach, how about the train?"
+    },
+    {
+      "id": "ss283-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why don’t you ask your teacher for help?",
+      "promptZh": "你何不向老師求助？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How about asking your teacher for help?",
+      "answerZh": "向老師求助如何？",
+      "answerZhSource": "pdf",
+      "highlight": "How about asking your teacher for help?"
+    },
+    {
+      "id": "ss283-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Maybe we should not drive during rush hour.",
+      "promptZh": "我們或許不應該在繁忙時間駕車。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How about not driving during rush hour?",
+      "answerZh": "繁忙時間不要駕車如何？",
+      "answerZhSource": "pdf",
+      "highlight": "How about not driving during rush hour?"
+    },
+    {
+      "id": "ss283-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The science museum could be the destination for our next class trip.",
+      "promptZh": "科學博物館可以成為我們下一次班級旅行的目的地。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For our next class trip, how about the science museum?",
+      "answerZh": "下一次班級旅行去科學博物館如何？",
+      "answerZhSource": "pdf",
+      "highlight": "For our next class trip, how about the science museum?"
+    },
+    {
+      "id": "ss283-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We still need a dessert. Perhaps fruit salad would be suitable.",
+      "promptZh": "我們仍需要一款甜品。水果沙律也許很適合。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We still need a dessert. How about fruit salad?",
+      "answerZh": "我們仍需要一款甜品。水果沙律如何？",
+      "answerZhSource": "pdf",
+      "highlight": "We still need a dessert. How about fruit salad?"
+    },
+    {
+      "id": "ss283-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before we buy a new printer, perhaps we should repair the old one.",
+      "promptZh": "在購買新打印機前，我們或許應該修理舊的打印機。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before buying a new printer, how about repairing the old one?",
+      "answerZh": "購買新打印機前，先修理舊的打印機如何？",
+      "answerZhSource": "pdf",
+      "highlight": "Before buying a new printer, how about repairing the old one?"
+    },
+    {
+      "id": "ss283-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Since the weather is fine, we could eat in the garden.",
+      "promptZh": "既然天氣良好，我們可以在花園吃飯。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the weather is fine, how about eating in the garden?",
+      "answerZh": "既然天氣良好，在花園吃飯如何？",
+      "answerZhSource": "pdf",
+      "highlight": "Since the weather is fine, how about eating in the garden?"
+    },
+    {
+      "id": "ss283-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The organiser suggested a 6:30 start.",
+      "promptZh": "主辦者建議在六時三十分開始。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organiser asked, “How about a 6:30 start?”",
+      "answerZh": "主辦者問：「六時三十分開始如何？」",
+      "answerZhSource": "pdf",
+      "highlight": "The organiser asked, “How about a 6:30 start?”"
+    },
+    {
+      "id": "ss283-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Would it be a good idea to send the documents by email?",
+      "promptZh": "以電郵傳送文件會是個好主意嗎？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How about sending the documents by email?",
+      "answerZh": "以電郵傳送文件如何？",
+      "answerZhSource": "pdf",
+      "highlight": "How about sending the documents by email?"
+    },
+    {
+      "id": "ss283-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Could we use recycled paper for the posters?",
+      "promptZh": "我們可以使用再造紙製作海報嗎？",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the posters, how about recycled paper?",
+      "answerZh": "海報用紙方面，使用再造紙如何？",
+      "answerZhSource": "pdf",
+      "highlight": "For the posters, how about recycled paper?"
+    },
+    {
+      "id": "ss283-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Instead of cancelling the picnic, we could move it indoors.",
+      "promptZh": "與其取消野餐，我們可以把活動移到室內。",
+      "promptZhSource": "pdf",
+      "starter": "Instead",
+      "answer": "Instead of cancelling the picnic, how about moving it indoors?",
+      "answerZh": "與其取消野餐，把活動移到室內如何？",
+      "answerZhSource": "pdf",
+      "highlight": "Instead of cancelling the picnic, how about moving it indoors?"
+    },
+    {
+      "id": "ss283-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Why don’t we ask everyone to bring their own bottle?",
+      "promptZh": "我們何不請所有人自備水瓶？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How about asking everyone to bring their own bottle?",
+      "answerZh": "請所有人自備水瓶如何？",
+      "answerZhSource": "pdf",
+      "highlight": "How about asking everyone to bring their own bottle?"
+    },
+    {
+      "id": "ss283-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The doctor suggested that I should get more sleep.",
+      "promptZh": "醫生建議我增加睡眠時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor said, “How about getting more sleep?”",
+      "answerZh": "醫生說：「增加睡眠時間如何？」",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor said, “How about getting more sleep?”"
+    },
+    {
+      "id": "ss283-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Maybe we should avoid using plastic plates.",
+      "promptZh": "我們或許應該避免使用膠碟。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How about not using plastic plates?",
+      "answerZh": "不要使用膠碟如何？",
+      "answerZhSource": "pdf",
+      "highlight": "How about not using plastic plates?"
+    },
+    {
+      "id": "ss283-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We need someone to present first. Could Daniel do it?",
+      "promptZh": "我們需要一個人先作匯報。丹尼爾可以嗎？",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need someone to present first. How about Daniel?",
+      "answerZh": "我們需要一個人先作匯報。丹尼爾如何？",
+      "answerZhSource": "pdf",
+      "highlight": "We need someone to present first. How about Daniel?"
+    },
+    {
+      "id": "ss283-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After discussing the budget, we could talk about the timetable.",
+      "promptZh": "討論預算後，我們可以談談時間表。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After discussing the budget, how about the timetable?",
+      "answerZh": "討論預算後，接着談談時間表如何？",
+      "answerZhSource": "pdf",
+      "highlight": "After discussing the budget, how about the timetable?"
+    },
+    {
+      "id": "ss283-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The manager suggested using a video call instead of meeting in person.",
+      "promptZh": "經理建議使用視像通話，而不是親身見面。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager asked, “How about a video call instead of meeting in person?”",
+      "answerZh": "經理問：「以視像通話代替親身見面如何？」",
+      "answerZhSource": "pdf",
+      "highlight": "The manager asked, “How about a video call instead of meeting in person?”"
+    },
+    {
+      "id": "ss283-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "If the main road is closed, we could take the riverside route.",
+      "promptZh": "如果主要道路封閉，我們可以選擇河畔路線。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the main road is closed, how about taking the riverside route?",
+      "answerZh": "如果主要道路封閉，選擇河畔路線如何？",
+      "answerZhSource": "pdf",
+      "highlight": "If the main road is closed, how about taking the riverside route?"
+    },
+    {
+      "id": "ss283-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "To reduce costs, perhaps the company should print fewer copies.",
+      "promptZh": "為了降低成本，公司或許應該減少打印份數。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To reduce costs, how about printing fewer copies?",
+      "answerZh": "為了降低成本，減少打印份數如何？",
+      "answerZhSource": "pdf",
+      "highlight": "To reduce costs, how about printing fewer copies?"
+    },
+    {
+      "id": "ss283-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "As the room is small, perhaps we should use folding chairs.",
+      "promptZh": "由於房間較小，我們或許應該使用摺椅。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the room is small, how about using folding chairs?",
+      "answerZh": "由於房間較小，使用摺椅如何？",
+      "answerZhSource": "pdf",
+      "highlight": "As the room is small, how about using folding chairs?"
+    },
+    {
+      "id": "ss283-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Why don’t you leave your luggage at the hotel before the tour?",
+      "promptZh": "你何不在參觀前把行李留在酒店？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the tour, how about leaving your luggage at the hotel?",
+      "answerZh": "參觀前，把行李留在酒店如何？",
+      "answerZhSource": "pdf",
+      "highlight": "Before the tour, how about leaving your luggage at the hotel?"
+    },
+    {
+      "id": "ss283-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The coach suggested that the players should not train outdoors in the storm.",
+      "promptZh": "教練建議球員不要在暴風雨中進行戶外訓練。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach asked, “How about not training outdoors in the storm?”",
+      "answerZh": "教練問：「不要在暴風雨中進行戶外訓練如何？」",
+      "answerZhSource": "pdf",
+      "highlight": "The coach asked, “How about not training outdoors in the storm?”"
+    },
+    {
+      "id": "ss283-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A short review could be the first part of the lesson.",
+      "promptZh": "簡短重溫可以作為課堂的第一部分。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To begin the lesson, how about a short review?",
+      "answerZh": "課堂開始時，先作簡短重溫如何？",
+      "answerZhSource": "pdf",
+      "highlight": "To begin the lesson, how about a short review?"
+    },
+    {
+      "id": "ss283-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Could Monday morning be used for the interview?",
+      "promptZh": "面試可以安排在星期一早上嗎？",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the interview, how about Monday morning?",
+      "answerZh": "面試時間方面，星期一早上如何？",
+      "answerZhSource": "pdf",
+      "highlight": "For the interview, how about Monday morning?"
+    },
+    {
+      "id": "ss283-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The neighbours suggested sharing one delivery instead of ordering separately.",
+      "promptZh": "鄰居建議共用一次送貨服務，而不是分開訂購。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbours said, “How about sharing one delivery instead of ordering separately?”",
+      "answerZh": "鄰居說：「與其分開訂購，共用一次送貨服務如何？」",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbours said, “How about sharing one delivery instead of ordering separately?”"
+    },
+    {
+      "id": "ss283-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The committee has agreed on the venue, but it still needs to choose a speaker. Could Dr Wong be invited?",
+      "promptZh": "委員會已經就場地達成共識，但仍需要選擇講者。可以邀請黃博士嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee has agreed on the venue. For the speaker, how about Dr Wong?",
+      "answerZh": "委員會已經就場地達成共識。講者方面，黃博士這個人選如何？",
+      "answerZhSource": "pdf",
+      "highlight": "The committee has agreed on the venue. For the speaker, how about Dr Wong?"
+    },
+    {
+      "id": "ss283-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Since several students missed the lesson, perhaps the teacher should record a short explanation.",
+      "promptZh": "由於數名學生缺席了課堂，老師或許應該錄製一段簡短講解。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since several students missed the lesson, how about recording a short explanation?",
+      "answerZh": "由於數名學生缺席了課堂，錄製一段簡短講解如何？",
+      "answerZhSource": "pdf",
+      "highlight": "Since several students missed the lesson, how about recording a short explanation?"
+    },
+    {
+      "id": "ss283-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Rather than replacing every computer, the school could upgrade the oldest ones first.",
+      "promptZh": "與其更換所有電腦，學校可以先升級最舊的電腦。",
+      "promptZhSource": "pdf",
+      "starter": "Rather",
+      "answer": "Rather than replacing every computer, how about upgrading the oldest ones first?",
+      "answerZh": "與其更換所有電腦，先升級最舊的電腦如何？",
+      "answerZhSource": "pdf",
+      "highlight": "Rather than replacing every computer, how about upgrading the oldest ones first?"
+    },
+    {
+      "id": "ss283-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The travel agent suggested that the family take an early flight so that they would have more time in the city.",
+      "promptZh": "旅行社職員建議這個家庭乘搭較早的航班，讓他們有更多時間遊覽該城市。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The travel agent asked the family, “How about taking an early flight so that you can have more time in the city?”",
+      "answerZh": "旅行社職員問這個家庭：「乘搭較早的航班，讓你們有更多時間遊覽該城市，如何？」",
+      "answerZhSource": "pdf",
+      "highlight": "The travel agent asked the family, “How about taking an early flight so that you can have more time in the city?”"
+    },
+    {
+      "id": "ss283-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Before signing the contract, perhaps we should ask a lawyer to check it.",
+      "promptZh": "簽署合約前，我們或許應該請律師檢查合約。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before signing the contract, how about asking a lawyer to check it?",
+      "answerZh": "簽署合約前，請律師檢查合約如何？",
+      "answerZhSource": "pdf",
+      "highlight": "Before signing the contract, how about asking a lawyer to check it?"
+    },
+    {
+      "id": "ss283-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The hospital needs a way to reduce waiting times. One option is an online booking system.",
+      "promptZh": "醫院需要一個縮短輪候時間的方法。其中一個選項是網上預約系統。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital needs a way to reduce waiting times. How about an online booking system?",
+      "answerZh": "醫院需要一個縮短輪候時間的方法。網上預約系統如何？",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital needs a way to reduce waiting times. How about an online booking system?"
+    },
+    {
+      "id": "ss283-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If the council wants more residents to attend, it could hold the meeting in the evening.",
+      "promptZh": "如果議會希望更多居民出席，可以在晚上舉行會議。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the council wants more residents to attend, how about holding the meeting in the evening?",
+      "answerZh": "如果議會希望更多居民出席，在晚上舉行會議如何？",
+      "answerZhSource": "pdf",
+      "highlight": "If the council wants more residents to attend, how about holding the meeting in the evening?"
+    },
+    {
+      "id": "ss283-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The project is behind schedule. Maybe we should add another designer rather than reduce the testing period.",
+      "promptZh": "項目進度落後。我們或許應該增加一名設計師，而不是縮短測試期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project is behind schedule. Rather than reducing the testing period, how about adding another designer?",
+      "answerZh": "項目進度落後。與其縮短測試期，增加一名設計師如何？",
+      "answerZhSource": "pdf",
+      "highlight": "The project is behind schedule. Rather than reducing the testing period, how about adding another designer?"
+    },
+    {
+      "id": "ss283-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The restaurant could attract families by offering a smaller menu for children.",
+      "promptZh": "餐廳可以提供份量較小的兒童餐單，以吸引家庭顧客。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To attract families, how about offering a smaller menu for children?",
+      "answerZh": "為了吸引家庭顧客，提供份量較小的兒童餐單如何？",
+      "answerZhSource": "pdf",
+      "highlight": "To attract families, how about offering a smaller menu for children?"
+    },
+    {
+      "id": "ss283-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The charity has already collected clothes. It could now ask for school supplies.",
+      "promptZh": "慈善機構已經收集了衣物，現在可以呼籲捐贈學習用品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity has already collected clothes. How about asking for school supplies next?",
+      "answerZh": "慈善機構已經收集了衣物。接着呼籲捐贈學習用品如何？",
+      "answerZhSource": "pdf",
+      "highlight": "The charity has already collected clothes. How about asking for school supplies next?"
+    }
+  ]
+}

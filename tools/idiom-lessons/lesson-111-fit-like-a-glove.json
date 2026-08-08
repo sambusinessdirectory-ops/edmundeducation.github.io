@@ -1,0 +1,1562 @@
+{
+  "lesson": {
+    "id": "idiom-111",
+    "order": 111,
+    "slug": "fit-like-a-glove",
+    "version": "1",
+    "title": "非常合身／非常合腳",
+    "titleEn": "fit like a glove",
+    "titleZh": "非常合身／非常合腳",
+    "source": {
+      "file": "Idiom 111 - “Fit Like a Glove”.pdf",
+      "pageCount": 37,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "exercisePdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "answerKeyPdfPages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "fit like a glove",
+        "highlight": "fit like a glove"
+      }
+    ],
+    "examples": [
+      {
+        "en": "For Oliver, the new jacket fits like a glove.",
+        "zh": "對 Oliver 來說，這件新外套非常合身。",
+        "highlight": "fits like a glove"
+      }
+    ],
+    "meaning": {
+      "en": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+      "zh": "表示衣物、鞋、保護套或其他物件的大小和形狀完全合適。",
+      "naturalZh": [
+        "非常合身",
+        "非常合腳",
+        "完全貼合",
+        "大小剛剛好",
+        "十分適合",
+        "與需要完全吻合"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; shopping; clothing reviews; personal descriptions; product descriptions; informal workplace discussion; general articles and interviews.",
+      "summaryZh": "fit like a glove 屬於非正式至中性的表達。",
+      "contextsEn": [
+        "everyday conversation",
+        "shopping",
+        "clothing reviews",
+        "personal descriptions",
+        "product descriptions",
+        "informal workplace discussion",
+        "general articles and interviews"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "購物情境",
+        "衣物評論",
+        "個人描述",
+        "產品描述",
+        "一般工作討論",
+        "普通文章及訪問。"
+      ],
+      "formalEn": "everyday conversation; shopping; clothing reviews; personal descriptions; product descriptions; informal workplace discussion; general articles and interviews.",
+      "formalZh": "在非常技術性的文章中，直接列出準確尺寸，或使用 tightly fitted、correctly sized 或 closely matched，可能會更加精確。"
+    },
+    "fixedVariable": {
+      "fixed": "fit like a glove",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + fit(s) like a glove.",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        },
+        {
+          "form": "Subject + fit(s) + object + like a glove.",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        },
+        {
+          "form": "Subject + fitted + like a glove.",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        },
+        {
+          "form": "Subject + may / should / will / would + fit like a glove.",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        },
+        {
+          "form": "Subject + have / has / had + fitted like a glove.",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        },
+        {
+          "form": "Noun + that / which + fit(s) like a glove.",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        },
+        {
+          "form": "Subject + change / alter / make + object + fit like a glove.",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        },
+        {
+          "form": "The best thing is that + subject + fit(s) like a glove.",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        },
+        {
+          "form": "Does / Did + subject + fit like a glove?",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        },
+        {
+          "form": "; After one alteration, the jacket fitted like a glove.",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        },
+        {
+          "form": "Pattern 1–10 + an optional time, contrast, condition or method phrase.",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        },
+        {
+          "form": "A role / job / plan + fit + person or needs + like a glove.",
+          "example": "For Oliver, the new jacket fits like a glove.",
+          "highlight": "fits like a glove"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Intransitive Form",
+        "titleZh": "句式一：基本不及物形式",
+        "formula": "Subject + fit(s) like a glove.",
+        "descriptionEn": "The listener already knows who is wearing or using the item.",
+        "descriptionZh": "聽者已知道是誰穿着或使用該物件，因此不需要加入賓語。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "With a Person or Object",
+        "titleZh": "句式二：加入人物或物件",
+        "formula": "Subject + fit(s) + object + like a glove.",
+        "descriptionEn": "This pattern identifies exactly who or what receives the perfect fit.",
+        "descriptionZh": "這個句式清楚指出衣物或事物究竟適合誰或配合甚麼物件。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Past Form",
+        "titleZh": "句式三：過去式",
+        "formula": "Subject + fitted + like a glove.",
+        "descriptionEn": "Source grammar frame: Subject + fitted + like a glove.",
+        "descriptionZh": "原檔列出的句法框架：Subject + fitted + like a glove。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Modal or Future Form",
+        "titleZh": "句式四：情態動詞或將來式",
+        "formula": "Subject + may / should / will / would + fit like a glove.",
+        "descriptionEn": "The modal verb must preserve the original certainty.",
+        "descriptionZh": "情態動詞必須保留原句的確定程度。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Perfect Form",
+        "titleZh": "句式五：完成式",
+        "formula": "Subject + have / has / had + fitted like a glove.",
+        "descriptionEn": "Source grammar frame: Subject + have / has / had + fitted like a glove.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have / has / had + fitted like a glove。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Relative Clause",
+        "titleZh": "句式六：關係子句",
+        "formula": "Noun + that / which + fit(s) like a glove.",
+        "descriptionEn": "The idiom appears inside the description of the noun rather than as the main clause.",
+        "descriptionZh": "慣用語放在描述名詞的關係子句內，而不是每次都放在主句的相同位置。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Result or Causative Form",
+        "titleZh": "句式七：結果或使役句式",
+        "formula": "Subject + change / alter / make + object + fit like a glove.",
+        "descriptionEn": "Here, fit remains in the base form after make.",
+        "descriptionZh": "在 make 之後，fit 使用原形。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Complement Clause",
+        "titleZh": "句式八：補語子句",
+        "formula": "The best thing is that + subject + fit(s) like a glove.",
+        "descriptionEn": "Source grammar frame: The best thing is that + subject + fit(s) like a glove.",
+        "descriptionZh": "原檔列出的句法框架：The best thing is that + subject + fit(s) like a glove。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Question-and-Response Form",
+        "titleZh": "句式九：問答形式",
+        "formula": "Does / Did + subject + fit like a glove?",
+        "descriptionEn": "Source grammar frame: Does / Did + subject + fit like a glove?.",
+        "descriptionZh": "原檔列出的句法框架：Does / Did + subject + fit like a glove?。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "With Optional Extensions",
+        "titleZh": "句式十：加入可選延伸部分",
+        "formula": "; After one alteration, the jacket fitted like a glove.",
+        "descriptionEn": "These opening phrases are optional extensions. They are not part of the fixed expression.",
+        "descriptionZh": "這些開首短語只是可選延伸，並不是固定慣用語的一部分。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Pattern 1–10 + an optional time, contrast, condition or method phrase",
+        "titleZh": "句式十一",
+        "formula": "Pattern 1–10 + an optional time, contrast, condition or method phrase.",
+        "descriptionEn": "Source grammar frame: Pattern 1–10 + an optional time, contrast, condition or method phrase.",
+        "descriptionZh": "原檔列出的句法框架：Pattern 1–10 + an optional time, contrast, condition or method phrase。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "A role / job / plan + fit + person or needs + like a glove",
+        "titleZh": "整套練習不應由同一個句法框架主導",
+        "formula": "A role / job / plan + fit + person or needs + like a glove.",
+        "descriptionEn": "Source grammar frame: A role / job / plan + fit + person or needs + like a glove.",
+        "descriptionZh": "原檔列出的句法框架：A role / job / plan + fit + person or needs + like a glove。",
+        "examples": [
+          {
+            "en": "For Oliver, the new jacket fits like a glove.",
+            "zh": "對 Oliver 來說，這件新外套非常合身。",
+            "highlight": "fits like a glove"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses a Perfect Fit Compactly",
+        "titleZh": "簡潔表達完全合身",
+        "en": "The jacket fits him like a glove.",
+        "zh": "這個慣用語可以把較長的大小及形狀描述濃縮成一句自然表達。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Communicates Strong Satisfaction",
+        "titleZh": "表達高度滿意",
+        "en": "trying several sizes; receiving made-to-measure clothing; altering a garment; testing a protective cover; finding an unexpectedly suitable role.",
+        "zh": "這個表達適合用於試過不同尺寸、收到訂製衣物、修改衣服、試用保護套，或找到意外地適合自己的角色之後。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Works for Both Physical and Figurative Suitability",
+        "titleZh": "可描述實際及比喻上的合適",
+        "en": "The same central image expresses exact suitability.",
+        "zh": "這雙鞋非常合腳。 這個新角色非常適合她。 兩種用法都以「完全合適」為核心。",
+        "examples": [
+          {
+            "en": "The shoes fit like a glove.",
+            "zh": "這雙鞋非常合腳。",
+            "highlight": "fit like a glove"
+          },
+          {
+            "en": "The new role fits her like a glove.",
+            "zh": "這個新角色非常適合她。",
+            "highlight": "fits her like a glove"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Creates a Clear Mental Image",
+        "titleZh": "建立清晰畫面",
+        "en": "The comparison therefore helps listeners imagine something that follows a shape extremely closely.",
+        "zh": "這個比較有助聽者想像某件事物與另一件事物非常貼合。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Adds Variety to Product and Clothing Descriptions",
+        "titleZh": "增加產品及衣物描述的變化",
+        "en": "However, it should be used only when the fit or suitability is genuinely excellent.",
+        "zh": "不過，只有在大小、形狀或配合程度真的非常理想時，才應使用。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Can Highlight a Successful Adjustment",
+        "titleZh": "突出修改後的理想效果",
+        "en": "After one alteration, the jacket fitted like a glove. Model Examples The tailor changed the waist, and the trousers became exactly the right size for Aaron. The by + verb-ing phrase explains the method. It is optional and is not part of the fixed expression. Model 2: Figurative Suitability The new role is exactly right for Zara’s calm voice and serious style.",
+        "zh": "這個表達可以清楚說明修改前後的差別。 Model Examples 示範例子 Model 1: Physical Fit 裁縫修改了腰圍，長褲變得完全合 Aaron 身。 裁縫修改腰圍，令長褲非常合 Aaron 身。 動詞-ing 說明修改方法。 它是可選部分，並不是固定慣用語的一部分。 這個新角色非常適合 Zara 沉穩的聲線和認真的風格。 這個新角色非常適合 Zara。",
+        "examples": [
+          {
+            "en": "By changing the waist, the tailor made the trousers fit Aaron like a glove.",
+            "zh": "裁縫修改腰圍，令長褲非常合 Aaron 身。",
+            "highlight": "fit Aaron like a glove"
+          },
+          {
+            "en": "The new role fits Zara like a glove.",
+            "zh": "這個新角色非常適合 Zara。",
+            "highlight": "fits Zara like a glove"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The comparison first described close physical fit. Speakers later extended the same image to roles, plans and situations that are exactly right for a person or purpose.",
+          "zh": "這個比較最初用來描述物件與身體非常貼合。 後來，人們把同一畫面延伸至角色、計劃和情況， 表示它們非常適合某個人或目的。"
+        }
+      ],
+      "memoryEn": "A good glove follows the hand perfectly; something that fits like a glove is equally well matched.",
+      "memoryZh": "合適的手套會完全貼合手部；fit like a glove 因此表示某件事物同樣配合得非常理想。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “Like a Glove” Together",
+        "titleZh": "規則一：like a glove 必須保持完整",
+        "en": "Keep “Like a Glove” Together",
+        "zh": "like a glove 必須保持完整",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Fit”, Not “Like a Glove”",
+        "titleZh": "規則二：只改變 fit，不改變 like a glove",
+        "en": "Change “Fit”, Not “Like a Glove”",
+        "zh": "只改變 fit，不改變 like a glove",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "The Object Is Optional",
+        "titleZh": "規則三：賓語是可選部分",
+        "en": "Both are correct. Use the object when it helps identify the wearer, body part, object or person being suited.",
+        "zh": "兩種句式都正確。 需要指出穿着者、身體部位、物件或適合的人時，才加入賓語。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Do Not Treat Optional Details as Fixed",
+        "titleZh": "規則四：不要把可選資料當成固定部分",
+        "en": "The person, body part, time and reason are not fixed elements.",
+        "zh": "人物、身體部位、時間和原因都不是固定部分。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Use “Fitted” for the British Past",
+        "titleZh": "規則五：英式過去式使用 fitted",
+        "en": "Use “Fitted” for the British Past",
+        "zh": "英式過去式使用 fitted",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "The Fit Must Be Extremely Good",
+        "titleZh": "規則六：必須表示非常合適",
+        "en": "The source does not establish a sufficiently perfect fit.",
+        "zh": "原句只表示外套沒有以前那麼鬆，未能支持「完全合身」的意思。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Appearance Alone Is Not Enough",
+        "titleZh": "規則七：外觀漂亮並不足夠",
+        "en": "The source must establish exact size, shape or suitability.",
+        "zh": "原句必須清楚表示大小、形狀或適合程度非常理想。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Confuse It with “Fit In”",
+        "titleZh": "規則八：不要與 fit in 混淆",
+        "en": "to be exactly the right size, shape or match to feel accepted as part of a group or situation; The jacket fits like a glove.",
+        "zh": "大小、形狀或配合程度完全合適融入群體或環境兩者是不同的表達。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則十：保留時態及確定程度",
+        "en": "The incorrect answer changes an expected result into a completed past fact.",
+        "zh": "錯誤答案把預期結果改成已經發生的過去事實。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Preserve the Wearer or Object",
+        "titleZh": "規則十一：保留穿着者或配合對象",
+        "en": "The person must not change.",
+        "zh": "人物不可改變。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Repeat the Meaning",
+        "titleZh": "規則十二：不要重複相同意思",
+        "en": "The idiom already communicates the perfect fit.",
+        "zh": "慣用語本身已經表達大小和形狀完全合適，因此不需要再次解釋。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using fit like a glove.",
+      "zh": "使用 fit like a glove 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-111-q01",
+        "number": 1,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The new jacket is exactly the right size and shape for Oliver.",
+        "promptZh": "這件新外套的大小和形狀完全適合 Oliver。",
+        "starter": "For",
+        "answer": "For Oliver, the new jacket fits like a glove.",
+        "answerZh": "對 Oliver 來說，這件新外套非常合身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q02",
+        "number": 2,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "These shoes are neither loose nor tight; they are a perfect fit.",
+        "promptZh": "這雙鞋既不鬆也不緊，大小完全合適。",
+        "starter": "These",
+        "answer": "These shoes fit like a glove.",
+        "answerZh": "這雙鞋非常合腳。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit like a glove"
+      },
+      {
+        "id": "idiom-111-q03",
+        "number": 3,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "This dress follows the shape of Chloe’s body perfectly.",
+        "promptZh": "這條裙完全貼合 Chloe 的身形。",
+        "starter": "This",
+        "answer": "This dress fits Chloe like a glove.",
+        "answerZh": "這條裙非常合 Chloe 身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits Chloe like a glove"
+      },
+      {
+        "id": "idiom-111-q04",
+        "number": 4,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "My new bicycle helmet is exactly the right size for my head.",
+        "promptZh": "我的新單車頭盔大小完全適合我的頭部。",
+        "starter": "My",
+        "answer": "My new bicycle helmet fits like a glove.",
+        "answerZh": "我的新單車頭盔戴起來非常貼合。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q05",
+        "number": 5,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The new sports armband sits perfectly around Grace’s upper arm.",
+        "promptZh": "新的運動臂帶戴在 Grace 的上臂上大小剛剛好。",
+        "starter": "The",
+        "answer": "The new sports armband fits Grace’s arm like a glove.",
+        "answerZh": "新的運動臂帶非常貼合 Grace 的手臂。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits Grace’s arm like a glove"
+      },
+      {
+        "id": "idiom-111-q06",
+        "number": 6,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Her school blazer is now the perfect size after one alteration.",
+        "promptZh": "校褸修改一次後，現在大小完全合適。",
+        "starter": "After",
+        "answer": "After one alteration, her school blazer now fits like a glove.",
+        "answerZh": "經過一次修改後，她的校褸現在非常合身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q07",
+        "number": 7,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "That phone case follows every edge of the phone exactly.",
+        "promptZh": "那個電話殼完全貼合電話的每一條邊。",
+        "starter": "That",
+        "answer": "That phone case fits like a glove.",
+        "answerZh": "那個電話殼與電話完全貼合。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q08",
+        "number": 8,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The boots are exactly the right shape for Noah’s feet.",
+        "promptZh": "這雙靴的形狀完全適合 Noah 的雙腳。",
+        "starter": "On",
+        "answer": "On Noah’s feet, the boots fit like a glove.",
+        "answerZh": "這雙靴穿在 Noah 腳上非常合適。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit like a glove"
+      },
+      {
+        "id": "idiom-111-q09",
+        "number": 9,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "This watch strap sits closely and comfortably around my wrist.",
+        "promptZh": "這條錶帶緊貼而舒適地環繞我的手腕。",
+        "starter": "This",
+        "answer": "This watch strap fits like a glove.",
+        "answerZh": "這條錶帶戴起來非常貼合。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q10",
+        "number": 10,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The costume was the perfect size for Ethan at yesterday’s show.",
+        "promptZh": "昨天表演時，那套戲服的大小完全適合 Ethan。",
+        "starter": "At",
+        "answer": "At yesterday’s show, the costume fitted Ethan like a glove.",
+        "answerZh": "昨天表演時，那套戲服非常合 Ethan 身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted Ethan like a glove"
+      },
+      {
+        "id": "idiom-111-q11",
+        "number": 11,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The tailor-made suit is exactly the right size and shape for Daniel.",
+        "promptZh": "這套訂製西裝的大小和形狀完全適合 Daniel。",
+        "starter": "Made",
+        "answer": "Made to Daniel’s measurements, the suit fits him like a glove.",
+        "answerZh": "這套西裝按照 Daniel 的尺寸製作，非常合他身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits him like a glove"
+      },
+      {
+        "id": "idiom-111-q12",
+        "number": 12,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "After the waist was changed, the skirt became a perfect fit for Lara.",
+        "promptZh": "腰圍修改後，這條裙變得完全合 Lara 身。",
+        "starter": "After",
+        "answer": "After the waist was changed, the skirt fitted Lara like a glove.",
+        "answerZh": "腰圍修改後，這條裙非常合 Lara 身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted Lara like a glove"
+      },
+      {
+        "id": "idiom-111-q13",
+        "number": 13,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The cycling shoes should be exactly the right size once you try the smaller pair.",
+        "promptZh": "你試穿較小的一雙後，單車鞋的大小應該會完全合適。",
+        "starter": "Once",
+        "answer": "Once you try the smaller pair, the cycling shoes should fit like a glove.",
+        "answerZh": "你試穿較小的一雙後，單車鞋應該會非常合腳。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit like a glove"
+      },
+      {
+        "id": "idiom-111-q14",
+        "number": 14,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The uniform has been made from your exact measurements, so it will be a perfect fit.",
+        "promptZh": "制服按照你的準確尺寸製作，因此穿起來會完全合身。",
+        "starter": "The",
+        "answer": "The uniform will fit like a glove.",
+        "answerZh": "這套制服將會非常合身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit like a glove"
+      },
+      {
+        "id": "idiom-111-q15",
+        "number": 15,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The new acting part is exactly right for Zara’s calm voice and serious style.",
+        "promptZh": "這個新角色非常適合 Zara 沉穩的聲線和認真的風格。",
+        "starter": "The",
+        "answer": "The new acting part fits Zara like a glove.",
+        "answerZh": "這個新角色非常適合 Zara。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits Zara like a glove"
+      },
+      {
+        "id": "idiom-111-q16",
+        "number": 16,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "I have finally found a pair of jeans that is exactly the right size and shape.",
+        "promptZh": "我終於找到一條大小和版形完全合適的牛仔褲。",
+        "starter": "I",
+        "answer": "I have finally found a pair of jeans that fits like a glove.",
+        "answerZh": "我終於找到一條非常合身的牛仔褲。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q17",
+        "number": 17,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "One small change made the jacket fit me perfectly.",
+        "promptZh": "一項小修改令這件外套變得完全合我身。",
+        "starter": "After",
+        "answer": "After one small change, the jacket fitted me like a glove.",
+        "answerZh": "經過一項小修改後，這件外套變得非常合身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted me like a glove"
+      },
+      {
+        "id": "idiom-111-q18",
+        "number": 18,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Is the new face mask exactly the right shape for you? B: Yes, it is.",
+        "promptZh": "甲：這個新面罩的形狀完全適合你嗎？ 乙：是的。",
+        "starter": "Yes",
+        "answer": "Yes, the new face mask fits like a glove.",
+        "answerZh": "是的，這個新面罩戴起來非常貼合。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q19",
+        "number": 19,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The best thing about the coat is that it is exactly the right size.",
+        "promptZh": "這件大衣最大的優點，是它的大小完全合適。",
+        "starter": "What",
+        "answer": "What makes the coat special is that it fits like a glove.",
+        "answerZh": "這件大衣特別之處，是它穿起來非常合身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q20",
+        "number": 20,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The new work timetable is exactly right for our small team.",
+        "promptZh": "新的工作時間表非常適合我們這個小團隊。",
+        "starter": "For",
+        "answer": "For our small team, the new work timetable fits like a glove.",
+        "answerZh": "對我們這個小團隊來說，新的工作時間表非常合適。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q21",
+        "number": 21,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: You tried four jackets. Which one is the perfect fit? B: The blue one is exactly right for me.",
+        "promptZh": "甲：你試了四件外套。哪一件最合身？ 乙：藍色那件完全合我身。",
+        "starter": "The",
+        "answer": "The blue one fits me like a glove.",
+        "answerZh": "藍色那件非常合我身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits me like a glove"
+      },
+      {
+        "id": "idiom-111-q22",
+        "number": 22,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "I was worried that the boots would be too narrow, but they are a perfect fit.",
+        "promptZh": "我原本擔心這雙靴會太窄，但它們穿起來完全合適。",
+        "starter": "I",
+        "answer": "I was worried that the boots would be too narrow, but they fit like a glove.",
+        "answerZh": "我原本擔心這雙靴會太窄，但它們穿起來非常合腳。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit like a glove"
+      },
+      {
+        "id": "idiom-111-q23",
+        "number": 23,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Once the sleeves are shortened, the jacket should be exactly the right size.",
+        "promptZh": "袖子縮短後，這件外套應該會完全合身。",
+        "starter": "Once",
+        "answer": "Once the sleeves are shortened, the jacket should fit like a glove.",
+        "answerZh": "袖子縮短後，這件外套應該會非常合身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit like a glove"
+      },
+      {
+        "id": "idiom-111-q24",
+        "number": 24,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The tailor changed the waist until the trousers were exactly the right size for Aaron.",
+        "promptZh": "裁縫修改了腰圍，直至這條長褲完全合 Aaron 身。",
+        "starter": "By",
+        "answer": "By changing the waist, the tailor made the trousers fit Aaron like a glove.",
+        "answerZh": "裁縫修改腰圍，令這條長褲非常合 Aaron 身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit Aaron like a glove"
+      },
+      {
+        "id": "idiom-111-q25",
+        "number": 25,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "What I like most about this backpack is how closely and comfortably it sits against my back.",
+        "promptZh": "我最喜歡這個背囊的地方，是它可以舒適地緊貼我的背部。",
+        "starter": "What",
+        "answer": "What I like most about this backpack is that it fits like a glove.",
+        "answerZh": "我最喜歡這個背囊的地方，是它背起來非常貼合。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q26",
+        "number": 26,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Although the dress looked too small on the hanger, it was a perfect fit for Sophie.",
+        "promptZh": "雖然這條裙掛起來看似太小，但 Sophie 穿起來卻完全合身。",
+        "starter": "Although",
+        "answer": "Although the dress looked too small on the hanger, it fitted Sophie like a glove.",
+        "answerZh": "雖然這條裙掛起來看似太小，但它非常合 Sophie 身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted Sophie like a glove"
+      },
+      {
+        "id": "idiom-111-q27",
+        "number": 27,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "If this is the correct ring size, it should sit perfectly on your finger.",
+        "promptZh": "如果這是正確的戒指尺寸，它戴在你的手指上應該會大小剛好。",
+        "starter": "If",
+        "answer": "If this is the correct ring size, it should fit like a glove.",
+        "answerZh": "如果這是正確的戒指尺寸，它應該會非常合適。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit like a glove"
+      },
+      {
+        "id": "idiom-111-q28",
+        "number": 28,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "We need a costume that is exactly the right shape for the dancer and allows her to move easily.",
+        "promptZh": "我們需要一套完全符合舞蹈員身形，而且方便她活動的戲服。",
+        "starter": "We",
+        "answer": "We need a costume that fits the dancer like a glove and allows her to move easily.",
+        "answerZh": "我們需要一套非常合舞蹈員身形，而且方便她活動的戲服。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits the dancer like a glove"
+      },
+      {
+        "id": "idiom-111-q29",
+        "number": 29,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The singing part is perfectly suited to Helen’s strong, low voice.",
+        "promptZh": "這個演唱角色非常適合 Helen 強而低沉的聲線。",
+        "starter": "The",
+        "answer": "The singing part fits Helen’s voice like a glove.",
+        "answerZh": "這個演唱角色非常適合 Helen 的聲線。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits Helen’s voice like a glove"
+      },
+      {
+        "id": "idiom-111-q30",
+        "number": 30,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "After trying three sizes, Marcus finally found a helmet that was exactly right for him.",
+        "promptZh": "試了三個尺寸後，Marcus 終於找到一個完全適合自己的頭盔。",
+        "starter": "After",
+        "answer": "After trying three sizes, Marcus finally found a helmet that fitted him like a glove.",
+        "answerZh": "試了三個尺寸後，Marcus 終於找到一個非常合適的頭盔。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted him like a glove"
+      },
+      {
+        "id": "idiom-111-q31",
+        "number": 31,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Although Priya had ordered the dress online, its size and shape were perfect for her.",
+        "promptZh": "雖然 Priya 在網上訂購這條裙，但它的大小和版形完全適合她。",
+        "starter": "Although",
+        "answer": "Although Priya had ordered the dress online, it fitted her like a glove.",
+        "answerZh": "雖然 Priya 在網上訂購這條裙，但它非常合她身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted her like a glove"
+      },
+      {
+        "id": "idiom-111-q32",
+        "number": 32,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Because the case was made for this exact tablet, it follows every corner perfectly.",
+        "promptZh": "因為這個保護套是為這款平板電腦製造，所以它完全貼合每個角位。",
+        "starter": "Because",
+        "answer": "Because the case was made for this exact tablet, it fits like a glove.",
+        "answerZh": "因為這個保護套是為這款平板電腦製造，所以它完全貼合。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q33",
+        "number": 33,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The shoes may look narrow, but they are exactly the right shape for my feet.",
+        "promptZh": "這雙鞋看來可能很窄，但它們的形狀完全適合我的雙腳。",
+        "starter": "Although",
+        "answer": "Although the shoes may look narrow, they fit my feet like a glove.",
+        "answerZh": "雖然這雙鞋看來可能很窄，但它們非常合我的腳形。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit my feet like a glove"
+      },
+      {
+        "id": "idiom-111-q34",
+        "number": 34,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "What surprised me was that the old stage costume was still a perfect fit after ten years.",
+        "promptZh": "令我驚訝的是，十年後那套舊戲服仍然完全合身。",
+        "starter": "What",
+        "answer": "What surprised me was that the old stage costume still fitted like a glove after ten years.",
+        "answerZh": "令我驚訝的是，十年後那套舊戲服仍然非常合身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted like a glove"
+      },
+      {
+        "id": "idiom-111-q35",
+        "number": 35,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The new customer-service role may be exactly right for Leo’s patient and friendly nature.",
+        "promptZh": "新的客戶服務職位可能非常適合 Leo 有耐性而友善的性格。",
+        "starter": "The",
+        "answer": "The new customer-service role may fit Leo like a glove.",
+        "answerZh": "新的客戶服務職位可能非常適合 Leo。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit Leo like a glove"
+      },
+      {
+        "id": "idiom-111-q36",
+        "number": 36,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "After the final adjustment, the racing suit became exactly the right size and shape.",
+        "promptZh": "最後一次修改後，賽車服的大小和形狀變得完全合適。",
+        "starter": "After",
+        "answer": "After the final adjustment, the racing suit fitted like a glove.",
+        "answerZh": "最後一次修改後，賽車服變得非常合身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted like a glove"
+      },
+      {
+        "id": "idiom-111-q37",
+        "number": 37,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Provided that the straps are tightened correctly, the safety vest should sit perfectly on the worker.",
+        "promptZh": "只要正確拉緊帶子，安全背心便應該完全貼合工人的身體。",
+        "starter": "Provided",
+        "answer": "Provided that the straps are tightened correctly, the safety vest should fit the worker like a glove.",
+        "answerZh": "只要正確拉緊帶子，安全背心便應該非常合工人身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit the worker like a glove"
+      },
+      {
+        "id": "idiom-111-q38",
+        "number": 38,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The new seat cover was made in the exact shape of the chair.",
+        "promptZh": "新的椅套按照椅子的準確形狀製作。",
+        "starter": "Made",
+        "answer": "Made in the exact shape of the chair, the new seat cover fits like a glove.",
+        "answerZh": "新的椅套按照椅子的準確形狀製作，與椅子完全貼合。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q39",
+        "number": 39,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: The shop assistant said this size would be perfect for you. Was she right? B: Yes, the coat is exactly the right size.",
+        "promptZh": "甲：店員說這個尺寸會完全適合你。她說得對嗎？ 乙：對，這件大衣的大小完全合適。",
+        "starter": "Yes",
+        "answer": "Yes, the coat fits me like a glove.",
+        "answerZh": "對，這件大衣非常合我身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits me like a glove"
+      },
+      {
+        "id": "idiom-111-q40",
+        "number": 40,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The new keyboard cover not only protects the keys but also follows their shape exactly.",
+        "promptZh": "新的鍵盤保護膜不但可以保護按鍵，而且完全貼合按鍵的形狀。",
+        "starter": "Besides",
+        "answer": "Besides protecting the keys, the new keyboard cover fits like a glove.",
+        "answerZh": "新的鍵盤保護膜除了保護按鍵外，亦與鍵盤完全貼合。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q41",
+        "number": 41,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The designer kept changing the jacket until its shape was perfect for the actor.",
+        "promptZh": "設計師不斷修改外套，直至它的版形完全適合演員。",
+        "starter": "Until",
+        "answer": "Until the jacket fitted the actor like a glove, the designer kept changing it.",
+        "answerZh": "設計師不斷修改外套，直至它非常合演員身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted the actor like a glove"
+      },
+      {
+        "id": "idiom-111-q42",
+        "number": 42,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "For someone as careful as Emma, the new editing job is exactly right.",
+        "promptZh": "對於像 Emma 一樣做事細心的人來說，這份新的編輯工作非常適合她。",
+        "starter": "For",
+        "answer": "For someone as careful as Emma, the new editing job fits her like a glove.",
+        "answerZh": "對於像 Emma 一樣做事細心的人來說，這份新的編輯工作非常適合她。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits her like a glove"
+      },
+      {
+        "id": "idiom-111-q43",
+        "number": 43,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Even though the climbing shoes felt unusual at first, their shape was perfect for Jordan’s feet.",
+        "promptZh": "即使攀石鞋起初感覺有點不習慣，它們的形狀卻完全適合 Jordan 的雙腳。",
+        "starter": "Even",
+        "answer": "Even though the climbing shoes felt unusual at first, they fitted Jordan’s feet like a glove.",
+        "answerZh": "即使攀石鞋起初感覺有點不習慣，它們卻非常合 Jordan 的腳形。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted Jordan’s feet like a glove"
+      },
+      {
+        "id": "idiom-111-q44",
+        "number": 44,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Of all the pairs I tried, I would buy only the pair that is exactly the right size and shape.",
+        "promptZh": "在我試過的所有款式之中，我只會購買大小和形狀完全合適的那一雙。",
+        "starter": "Of",
+        "answer": "Of all the pairs I tried, I would buy only the pair that fits like a glove.",
+        "answerZh": "在我試過的所有款式之中，我只會購買非常合腳的那一雙。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q45",
+        "number": 45,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "If the sample uniform is a perfect fit, the school can order the same size for the whole team.",
+        "promptZh": "如果制服樣本完全合身，學校便可以為整個團隊訂購相同尺寸。",
+        "starter": "If",
+        "answer": "If the sample uniform fits like a glove, the school can order the same size for the whole team.",
+        "answerZh": "如果制服樣本非常合身，學校便可以為整個團隊訂購相同尺寸。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fits like a glove"
+      },
+      {
+        "id": "idiom-111-q46",
+        "number": 46,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The tailor promised that, after two small changes, the suit would be exactly the right size for Omar.",
+        "promptZh": "裁縫承諾，經過兩項小修改後，西裝的大小會完全適合 Omar。",
+        "starter": "The",
+        "answer": "The tailor promised that, after two small changes, the suit would fit Omar like a glove.",
+        "answerZh": "裁縫承諾，經過兩項小修改後，西裝會非常合 Omar 身。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit Omar like a glove"
+      },
+      {
+        "id": "idiom-111-q47",
+        "number": 47,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The costume succeeded because it followed the performer’s body perfectly without limiting her movement.",
+        "promptZh": "這套戲服成功之處，在於它完全貼合表演者的身形，同時不會妨礙她活動。",
+        "starter": "What",
+        "answer": "What made the costume successful was that it fitted the performer like a glove without limiting her movement.",
+        "answerZh": "這套戲服成功之處，是它非常合表演者身形，同時不會妨礙她活動。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted the performer like a glove"
+      },
+      {
+        "id": "idiom-111-q48",
+        "number": 48,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Once the straps have been adjusted, the backpack should sit perfectly against your shoulders and back.",
+        "promptZh": "帶子調校好後，背囊應該會完全貼合你的肩膀和背部。",
+        "starter": "Once",
+        "answer": "Once the straps have been adjusted, the backpack should fit like a glove.",
+        "answerZh": "帶子調校好後，背囊應該會非常貼合。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fit like a glove"
+      },
+      {
+        "id": "idiom-111-q49",
+        "number": 49,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The singing part was difficult, yet it was perfectly suited to Nina’s clear high voice.",
+        "promptZh": "這個演唱角色難度很高，卻完全適合 Nina 清亮的高音。",
+        "starter": "The",
+        "answer": "The singing part was difficult, yet it fitted Nina’s voice like a glove.",
+        "answerZh": "這個演唱角色難度很高，卻非常適合 Nina 的聲線。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted Nina’s voice like a glove"
+      },
+      {
+        "id": "idiom-111-q50",
+        "number": 50,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "After comparing every option, the team chose the working plan that matched its size, time and needs perfectly.",
+        "promptZh": "比較所有選擇後，團隊選出了完全配合其人數、時間和需要的工作計劃。",
+        "starter": "After",
+        "answer": "After comparing every option, the team chose the working plan that fitted the small team like a glove.",
+        "answerZh": "比較所有選擇後，團隊選出了非常適合這個小團隊的工作計劃。",
+        "targetForm": "fit like a glove",
+        "targetMeaning": "Cambridge defines the physical meaning as being the perfect size and shape for someone, while Collins also records the broader meaning of being exactly right or appropriate.",
+        "highlight": "fitted the small team like a glove"
+      }
+    ]
+  }
+}

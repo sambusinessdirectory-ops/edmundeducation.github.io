@@ -1,0 +1,1631 @@
+{
+  "lesson": {
+    "id": "idiom-122",
+    "order": 122,
+    "slug": "in-black-and-white",
+    "version": "1",
+    "title": "白紙黑字寫明／以書面列明",
+    "titleEn": "In Black and White",
+    "titleZh": "白紙黑字寫明／以書面列明",
+    "source": {
+      "file": "Idiom 122 - 「In Black and White」.pdf",
+      "pageCount": 34,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "exercisePdfPages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "answerKeyPdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "In Black and White",
+        "highlight": "In Black and White"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The rule is in black and white.",
+        "zh": "規則已白紙黑字列明。",
+        "highlight": "in black and white"
+      },
+      {
+        "en": "The promise was in black and white.",
+        "zh": "承諾已經以書面寫下來。",
+        "highlight": "in black and white"
+      }
+    ],
+    "meaning": {
+      "en": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+      "zh": "In black and white 表示某項資料、承諾、規則或協議已經以書面或印刷形式記錄下來，而不只是口頭說明。它通常強調有一份可以日後查閱、核實或作為證據的文字記錄。",
+      "naturalZh": [
+        "白紙黑字寫明",
+        "以書面列明",
+        "清楚記錄在文件中",
+        "有明確的書面證明",
+        "落實為書面記錄"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "everyday conversation; workplace communication; customer-service situations; school communication; news and reports; discussions about contracts and agreements.",
+      "summaryZh": "這個表達屬於中性語域，可以自然地用於日常對話、工作溝通、顧客服務、學校通告、新聞報道， 以及有關合約和協議的討論。",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace communication",
+        "customer-service situations",
+        "school communication",
+        "news and reports",
+        "discussions about contracts and agreements",
+        "a simple request for clarity",
+        "caution",
+        "distrust of a spoken promise",
+        "confidence based on written evidence",
+        "frustration when somebody denies a recorded fact",
+        "in black and white"
+      ],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "In Black and White",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + in black and white.",
+          "example": "The rule is in black and white.",
+          "highlight": "in black and white"
+        },
+        {
+          "form": "Subject + have + object + in black and white.",
+          "example": "We have the agreement in black and white.",
+          "highlight": "in black and white"
+        },
+        {
+          "form": "Subject + want / need / get + object + in black and white.",
+          "example": "I want the offer in black and white.",
+          "highlight": "in black and white"
+        },
+        {
+          "form": "Subject + put / write / set down + object + in black and white.",
+          "example": "Please put the offer in black and white.",
+          "highlight": "in black and white"
+        },
+        {
+          "form": "Subject + see / read / find + object + in black and white.",
+          "example": "I saw the proof in black and white.",
+          "highlight": "in black and white"
+        },
+        {
+          "form": "There + subject + be + in black and white.",
+          "example": "There it is in black and white.",
+          "highlight": "in black and white"
+        },
+        {
+          "form": "Subject + be + written / stated / printed / recorded / set out + in black and white.",
+          "example": "The conditions were written in black and white.",
+          "highlight": "in black and white"
+        },
+        {
+          "form": "Subject + state / say / confirm / show, + in black and white, + that-clause.",
+          "example": "The notice states, in black and white, that the shop closes at six.",
+          "highlight": "in black and white"
+        },
+        {
+          "form": "Once / when / before / until / unless + subject + be + in black and white",
+          "example": "Once the duties are in black and white, everyone will know what to do.",
+          "highlight": "in black and white"
+        },
+        {
+          "form": "Having + object + in black and white + verb",
+          "example": "Having the costs in black and white makes comparison easier.",
+          "highlight": "in black and white"
+        },
+        {
+          "form": "Before another context phrase:",
+          "example": "The price and payment date are in black and white in the contract.",
+          "highlight": "in black and white"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After a Linking Verb",
+        "titleZh": "置於連繫動詞之後",
+        "formula": "Subject + be + in black and white.",
+        "descriptionEn": "Source grammar frame: Subject + be + in black and white.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + in black and white。",
+        "examples": [
+          {
+            "en": "The rule is in black and white.",
+            "zh": "規則已白紙黑字列明。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "The promise was in black and white.",
+            "zh": "承諾已經以書面寫下來。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "The final decision will soon be in black and white.",
+            "zh": "最終決定很快便會落實為書面記錄。",
+            "highlight": "in black and white"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "With “Have”",
+        "titleZh": "配合 have",
+        "formula": "Subject + have + object + in black and white.",
+        "descriptionEn": "This pattern emphasises that somebody possesses or can access a written record.",
+        "descriptionZh": "這個句式強調某人已經取得或可以查閱相關書面記錄。",
+        "examples": [
+          {
+            "en": "We have the agreement in black and white.",
+            "zh": "我們已有協議的白紙黑字記錄。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "She finally has the promise in black and white.",
+            "zh": "她終於取得了這項承諾的書面記錄。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "Do you have the new conditions in black and white?",
+            "zh": "你有新條件的書面版本嗎？",
+            "highlight": "in black and white"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "With “Want”, “Need” or “Get”",
+        "titleZh": "配合 want、need 或 get",
+        "formula": "Subject + want / need / get + object + in black and white.",
+        "descriptionEn": "These verbs describe the process of requesting or obtaining written confirmation.",
+        "descriptionZh": "這些動詞表示要求或取得書面確認。",
+        "examples": [
+          {
+            "en": "I want the offer in black and white.",
+            "zh": "我要對方把條件白紙黑字寫下來。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "We need the new date in black and white.",
+            "zh": "我們需要新日期的書面確認。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "They finally got the agreement in black and white.",
+            "zh": "他們終於取得了協議的書面版本。",
+            "highlight": "in black and white"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "With “Put”, “Write” or “Set Down”",
+        "titleZh": "配合 put、write 或 set down",
+        "formula": "Subject + put / write / set down + object + in black and white.",
+        "descriptionEn": "These verbs describe the action of creating the written record.",
+        "descriptionZh": "這些動詞表示建立書面記錄的行動。",
+        "examples": [
+          {
+            "en": "Please put the offer in black and white.",
+            "zh": "請把條件白紙黑字寫下來。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "The manager wrote every change in black and white.",
+            "zh": "經理把每項改動都清楚寫下來。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "Both sides set the agreement down in black and white.",
+            "zh": "雙方把協議落實為書面記錄。",
+            "highlight": "in black and white"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With “See”, “Read” or “Find”",
+        "titleZh": "配合 see、read 或 find",
+        "formula": "Subject + see / read / find + object + in black and white.",
+        "descriptionEn": "This pattern emphasises checking or discovering written information.",
+        "descriptionZh": "這個句式強調查閱或發現書面資料。",
+        "examples": [
+          {
+            "en": "I saw the proof in black and white.",
+            "zh": "我親眼看過白紙黑字的證據。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "You can read the full rule in black and white.",
+            "zh": "你可以閱讀白紙黑字列明的完整規則。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "She found the deadline in black and white in the handbook.",
+            "zh": "她在手冊中找到白紙黑字列明的限期。",
+            "highlight": "in black and white"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "With “There”",
+        "titleZh": "配合 there",
+        "formula": "There + subject + be + in black and white.",
+        "descriptionEn": "Source grammar frame: There + subject + be + in black and white.",
+        "descriptionZh": "原檔列出的句法框架：There + subject + be + in black and white。",
+        "examples": [
+          {
+            "en": "There it is in black and white.",
+            "zh": "那裏已白紙黑字寫明。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "There was the promise in black and white.",
+            "zh": "那項承諾已經清楚寫在文件中。",
+            "highlight": "in black and white"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "In Passive Structures",
+        "titleZh": "用於被動句式",
+        "formula": "Subject + be + written / stated / printed / recorded / set out + in black and white.",
+        "descriptionEn": "The passive form focuses on the written information rather than the person who wrote it.",
+        "descriptionZh": "被動形式把焦點放在已記錄的資料，而不是負責書寫的人。",
+        "examples": [
+          {
+            "en": "The conditions were written in black and white.",
+            "zh": "條件已白紙黑字寫明。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "The rule is stated in black and white.",
+            "zh": "規則已清楚以書面列明。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "His support was recorded in black and white.",
+            "zh": "他的支持已經以書面記錄。",
+            "highlight": "in black and white"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "After a Reporting Verb",
+        "titleZh": "置於陳述動詞之後",
+        "formula": "Subject + state / say / confirm / show, + in black and white, + that-clause.",
+        "descriptionEn": "Commas may be used when the expression interrupts the middle of the clause.",
+        "descriptionZh": "如果 in black and white 插入句子中間，可以使用逗號把它分隔開來。",
+        "examples": [
+          {
+            "en": "The notice states, in black and white, that the shop closes at six.",
+            "zh": "告示白紙黑字寫明店舖六時關門。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "The contract says, in black and white, that the deposit cannot be returned.",
+            "zh": "合約白紙黑字寫明訂金不可退回。",
+            "highlight": "in black and white"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "In Time and Condition Clauses",
+        "titleZh": "用於時間及條件子句",
+        "formula": "Once / when / before / until / unless + subject + be + in black and white",
+        "descriptionEn": "Source grammar frame: Once / when / before / until / unless + subject + be + in black and white.",
+        "descriptionZh": "原檔列出的句法框架：Once / when / before / until / unless + subject + be + in black and white。",
+        "examples": [
+          {
+            "en": "Once the duties are in black and white, everyone will know what to do.",
+            "zh": "職責白紙黑字列明後，每個人都會知道應做甚麼。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "I will not agree until the terms are in black and white.",
+            "zh": "在條款以書面列明前，我不會同意。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "Unless the promise is in black and white, do not pay.",
+            "zh": "除非承諾已白紙黑字列明，否則不要付款。",
+            "highlight": "in black and white"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "As Part of a Longer Noun or -ing Structure",
+        "titleZh": "用於較長名詞或 -ing 結構",
+        "formula": "Having + object + in black and white + verb",
+        "descriptionEn": "Source grammar frame: Having + object + in black and white + verb.",
+        "descriptionZh": "原檔列出的句法框架：Having + object + in black and white + verb。",
+        "examples": [
+          {
+            "en": "Having the costs in black and white makes comparison easier.",
+            "zh": "把費用白紙黑字列出來，會更容易作出比較。",
+            "highlight": "in black and white"
+          },
+          {
+            "en": "What I need is to have the promise in black and white.",
+            "zh": "我需要的是取得這項承諾的書面記錄。",
+            "highlight": "in black and white"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "At Different Positions in the Sentence",
+        "titleZh": "置於句子不同位置",
+        "formula": "Before another context phrase:",
+        "descriptionEn": "The target does not have to occupy the same position in every answer.",
+        "descriptionZh": "目標表達不必在每個答案中都出現在相同位置。",
+        "examples": [
+          {
+            "en": "The price and payment date are in black and white in the contract.",
+            "zh": "價錢和付款日期已在合約中白紙黑字列明。",
+            "highlight": "in black and white"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Distinguishes Written Evidence from Spoken Words",
+        "titleZh": "區分書面證據與口頭說法",
+        "en": "The idiomatic version emphasises that a spoken statement is not enough.",
+        "zh": "我們希望經理把承諾白紙黑字寫下來。 這個版本強調單憑口頭說法並不足夠。",
+        "examples": [
+          {
+            "en": "We want the manager’s promise in black and white.",
+            "zh": "我們希望經理把承諾白紙黑字寫下來。",
+            "highlight": "in black and white"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Expresses a Request for Certainty",
+        "titleZh": "表示要求明確確認",
+        "en": "This clearly tells the listener that the speaker wants a permanent record that can be checked later.",
+        "zh": "我需要新條件的書面確認。 這句話清楚表示說話者想要一份可以日後查閱的永久記錄。",
+        "examples": [
+          {
+            "en": "I need the new conditions in black and white.",
+            "zh": "我需要新條件的書面確認。",
+            "highlight": "in black and white"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Helps Point to Documentary Evidence",
+        "titleZh": "有助指出文件證據",
+        "en": "This is a concise and natural response when somebody denies or questions something already recorded in a document.",
+        "zh": "那裏已白紙黑字寫明。 當有人否認或質疑文件中已有記錄的事情時，這是一個簡潔自然的回應。",
+        "examples": [
+          {
+            "en": "There it is in black and white.",
+            "zh": "那裏已白紙黑字寫明。",
+            "highlight": "in black and white"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Prevent Later Disagreement",
+        "titleZh": "有助避免日後爭議",
+        "en": "The expression is useful when several people need one shared written version of an arrangement.",
+        "zh": "讓我們把最終計劃白紙黑字寫下來。 當多人需要一份共同認可的書面安排時，這個表達十分實用。",
+        "examples": [
+          {
+            "en": "Let’s put the final plan in black and white.",
+            "zh": "讓我們把最終計劃白紙黑字寫下來。",
+            "highlight": "in black and white"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Works in Many Grammar Shells",
+        "titleZh": "可配合多種句式",
+        "en": "Students can therefore practise the same fixed expression without repeating one mechanically identical sentence pattern.",
+        "zh": "因此，學生可以反覆練習同一個固定表達，而不必機械地重複相同句式。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is Useful but Not Automatically Better",
+        "titleZh": "實用，但不一定比普通說法更好",
+        "en": "Use in black and white when the contrast between written and spoken information matters. For an ordinary action such as writing a shopping list, write it down is usually simpler and more natural.",
+        "zh": "只有當書面資料與口頭說法之間的分別是語境重點時，才適合使用 in black and white。 如果只是寫下一張普通購物清單，直接使用 write it down 通常更簡單自然。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Early Written Uses Recorded",
+      "statusZh": "逐漸形成；有早期文字記錄",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster records black-and-white as a noun meaning writing or print from 1569. Etymonline reports the earlier reversed form in white-and-black from the 1590s and the now familiar expression be in black and white from the 1650s. These dates refer to surviving records, not necessarily the first time anybody used the expression.",
+          "zh": "記錄了 black-and-white 在1569年已有「文字或印刷品」的名詞意思。 Etymonline 指出，次序相反的 in white-and-black 在1590年代已有記錄，而今天較熟悉的 be in black and white 則在1650年代已有記錄。 這些日期只代表現存的早期文字記錄，不一定是首次有人使用這個表達的時間。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Because spoken words can be forgotten, denied or changed, information placed on paper came to represent something recorded and available for checking.",
+          "zh": "由於口頭說話可能被忘記、否認或改變，寫在紙上的內容逐漸代表一份可以日後查閱的記錄。"
+        }
+      ],
+      "memoryEn": "Black letters on white paper create a record that can be seen again.",
+      "memoryZh": "白紙上的黑字形成一份可以再次查閱的記錄。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Teach Only the Written-Record Meaning",
+        "titleZh": "規則一：只教授書面記錄的意思",
+        "en": "in written or printed form",
+        "zh": "本練習只教授：",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Use It for Monochrome Pictures",
+        "titleZh": "規則二：不可用來表示黑白影像",
+        "en": "This is a literal photography or film meaning, not the target meaning.",
+        "zh": "這裏表示電影只有黑、白和灰色，屬於影像的字面意思，並不是本課教授的書面記錄意思。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Confuse It with “See Things in Black and White”",
+        "titleZh": "規則三",
+        "en": "He sees only two opposite possibilities and ignores more complex possibilities. This is not the target sense.",
+        "zh": "不可與 see things in black and white 混淆意思： 這並不是本練習的目標意思。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Written Does Not Automatically Mean True",
+        "titleZh": "規則四：寫下來不等於必然正確",
+        "en": "A false claim can also appear in writing. The idiom means that the information is recorded, not that its accuracy has been independently proved.",
+        "zh": "一個錯誤說法也可以被寫進文件。 這個慣用語表示資料已有書面記錄，並不代表內容已經過獨立證實。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Written Does Not Automatically Mean Legally Binding",
+        "titleZh": "規則五：書面記錄不一定具有法律約束力",
+        "en": "A casual email may place a promise in writing, but whether it forms a legally enforceable agreement is a separate legal question.",
+        "zh": "一封普通電郵可以把承諾寫下來，但它是否構成具有法律約束力的協議，屬於另一個法律問題。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Tense and Modality",
+        "titleZh": "規則六：保留時態及情態",
+        "en": "Do not turn may be recorded into is recorded.",
+        "zh": "不可把「可能會記錄」改成「已經記錄」。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Polarity",
+        "titleZh": "規則七：保留肯定及否定意思",
+        "en": "Preserve Polarity",
+        "zh": "保留肯定及否定意思",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Keep the Document or Context When It Matters",
+        "titleZh": "規則八：在有需要時保留文件或情境",
+        "en": "If the source identifies a contract, email, notice, receipt or report, the answer should normally preserve that context.",
+        "zh": "如果原句指出資料位於合約、電郵、告示、收據或報告中，答案通常應保留該文件資料。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Repeat the Same Meaning",
+        "titleZh": "規則九：不要重複相同意思",
+        "en": "The second clause repeats the meaning already expressed by the idiom.",
+        "zh": "重複的中文意思： 規則已在手冊中白紙黑字列明。",
+        "examples": [
+          {
+            "en": "The rule is in black and white in the handbook.",
+            "zh": "規則已在手冊中白紙黑字列明。",
+            "highlight": "in black and white"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Use It Naturally, Not for Every Written Item",
+        "titleZh": "規則十：自然使用，不要套用於所有文字",
+        "en": "confirmation; evidence; clarity; protection against later denial; a record of an agreement or condition.",
+        "zh": "如果只是在說某人寫了一篇普通文章，而書面記錄並不是語境重點，直接使用 write 可能更加自然。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using in black and white.",
+      "zh": "使用 in black and white 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-122-q01",
+        "number": 1,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The contract clearly records the price and the payment date.",
+        "promptZh": "合約清楚記錄了價錢和付款日期。",
+        "starter": "The",
+        "answer": "The price and payment date are in black and white in the contract.",
+        "answerZh": "價錢和付款日期已在合約中白紙黑字列明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q02",
+        "number": 2,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The email gives a written promise that the damaged bag will be replaced.",
+        "promptZh": "電郵以書面承諾會更換損壞的手袋。",
+        "starter": "The",
+        "answer": "The promise to replace the damaged bag is in black and white in the email.",
+        "answerZh": "更換損壞手袋的承諾已在電郵中白紙黑字寫明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q03",
+        "number": 3,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The school rule is clearly printed in the handbook.",
+        "promptZh": "校規已清楚印在學生手冊內。",
+        "starter": "The",
+        "answer": "The school rule is in black and white in the handbook.",
+        "answerZh": "校規已在學生手冊內白紙黑字列明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q04",
+        "number": 4,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "We now have a written record of exactly what the manager agreed to do.",
+        "promptZh": "我們現在有書面記錄，清楚說明經理答應會做甚麼。",
+        "starter": "We",
+        "answer": "We now have the manager’s agreement in black and white.",
+        "answerZh": "我們現在已有經理承諾的白紙黑字記錄。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q05",
+        "number": 5,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "I do not want another spoken promise. I want a written one.",
+        "promptZh": "我不想再要口頭承諾；我要書面承諾。",
+        "starter": "I",
+        "answer": "I want the promise in black and white.",
+        "answerZh": "我要這項承諾白紙黑字寫下來。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q06",
+        "number": 6,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Please write the full offer down so that nobody can deny it later.",
+        "promptZh": "請把完整條件寫下來，以免日後有人否認。",
+        "starter": "Put",
+        "answer": "Put the full offer in black and white so that nobody can deny it later.",
+        "answerZh": "請把完整條件白紙黑字寫下來，以免日後有人否認。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q07",
+        "number": 7,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The notice gives written confirmation that the library will remain open until nine.",
+        "promptZh": "告示以書面確認圖書館會開放至九時。",
+        "starter": "The",
+        "answer": "The notice confirms in black and white that the library will remain open until nine.",
+        "answerZh": "告示白紙黑字確認圖書館會開放至九時。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q08",
+        "number": 8,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "I read the written proof myself, so I know the claim is true.",
+        "promptZh": "我親自看過書面證據，所以知道這個說法是真的。",
+        "starter": "I",
+        "answer": "I saw the proof in black and white myself.",
+        "answerZh": "我親自看過白紙黑字的證據。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q09",
+        "number": 9,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Where does the form say that a photo is required? B: Look at the final line. The requirement is clearly printed there.",
+        "promptZh": "甲：表格哪裏寫明需要相片？ 乙：看看最後一行。那項要求已清楚印在那裏。",
+        "starter": "There",
+        "answer": "There it is in black and white on the final line.",
+        "answerZh": "最後一行已白紙黑字寫明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q10",
+        "number": 10,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Both sides wrote down the agreement before they left the meeting.",
+        "promptZh": "雙方在離開會議前把協議寫了下來。",
+        "starter": "The",
+        "answer": "The agreement was set down in black and white before both sides left the meeting.",
+        "answerZh": "雙方在離開會議前已把協議白紙黑字寫下來。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q11",
+        "number": 11,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The school has a written policy explaining when pupils may use their phones.",
+        "promptZh": "學校有一份書面政策，說明學生何時可以使用手機。",
+        "starter": "The",
+        "answer": "The school has its phone policy in black and white.",
+        "answerZh": "學校已把手機政策白紙黑字列明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q12",
+        "number": 12,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "We need written confirmation of the new date before we book the hall.",
+        "promptZh": "我們在預訂禮堂前，需要新日期的書面確認。",
+        "starter": "We",
+        "answer": "We need the new date in black and white before we book the hall.",
+        "answerZh": "我們在預訂禮堂前，需要把新日期白紙黑字確認下來。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q13",
+        "number": 13,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "After the meeting, the manager wrote down every change that the team had accepted.",
+        "promptZh": "會議後，經理把團隊接受的每項改動都寫了下來。",
+        "starter": "The",
+        "answer": "The manager put every agreed change in black and white after the meeting.",
+        "answerZh": "會議後，經理把每項已同意的改動白紙黑字寫下來。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q14",
+        "number": 14,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: The owner says I can leave early every Friday. B: Ask her to confirm that in writing.",
+        "promptZh": "甲：店主說我每個星期五都可以提早離開。 乙：請她以書面確認。",
+        "starter": "Can",
+        "answer": "Can you ask the owner to put that in black and white?",
+        "answerZh": "你可以請店主把這項安排白紙黑字寫下來嗎？",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q15",
+        "number": 15,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The refund conditions were clearly written in the email rather than merely explained by phone.",
+        "promptZh": "退款條件已在電郵中清楚寫明，而不只是透過電話解釋。",
+        "starter": "The",
+        "answer": "The refund conditions were written in black and white in the email.",
+        "answerZh": "退款條件已在電郵中白紙黑字寫明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q16",
+        "number": 16,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "I will not accept the deal until the company gives me written terms.",
+        "promptZh": "在公司向我提供書面條款前，我不會接受這項交易。",
+        "starter": "I",
+        "answer": "I will not accept the deal until the terms are in black and white.",
+        "answerZh": "在條款白紙黑字列明前，我不會接受這項交易。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q17",
+        "number": 17,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "After the new duties are written down clearly, everyone will know what to do.",
+        "promptZh": "新職責清楚寫下來後，每個人都會知道應做甚麼。",
+        "starter": "Once",
+        "answer": "Once the new duties are in black and white, everyone will know what to do.",
+        "answerZh": "新職責白紙黑字列明後，每個人都會知道應做甚麼。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The website clearly states in writing that children under twelve enter free.",
+        "promptZh": "網站清楚以書面列明十二歲以下兒童免費入場。",
+        "starter": "The",
+        "answer": "The website states, in black and white, that children under twelve enter free.",
+        "answerZh": "網站白紙黑字列明十二歲以下兒童免費入場。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q19",
+        "number": 19,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "I need a written record of the hours I am expected to work.",
+        "promptZh": "我需要一份書面記錄，列明我應工作的時數。",
+        "starter": "What",
+        "answer": "What I need is to have my working hours in black and white.",
+        "answerZh": "我需要的是把工作時數白紙黑字列明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q20",
+        "number": 20,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The shop should give written confirmation of its promise to return the money.",
+        "promptZh": "店舖應以書面確認會退回款項的承諾。",
+        "starter": "The",
+        "answer": "The shop’s promise to return the money should be in black and white.",
+        "answerZh": "店舖退回款項的承諾應以白紙黑字列明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q21",
+        "number": 21,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The company now denies offering us free delivery. B: It cannot deny it. The offer is clearly written in yesterday’s email.",
+        "promptZh": "甲：公司現在否認曾向我們提供免費送貨。 乙：它不能否認。昨天的電郵已清楚寫明這項條件。",
+        "starter": "It",
+        "answer": "It is there in black and white in yesterday’s email.",
+        "answerZh": "昨天的電郵已白紙黑字寫明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The pupil checked the handbook and found the final submission date clearly printed inside.",
+        "promptZh": "學生查看手冊，並發現最終遞交日期已清楚印在裏面。",
+        "starter": "The",
+        "answer": "The pupil found the final submission date in black and white in the handbook.",
+        "answerZh": "學生在手冊中找到白紙黑字列明的最終遞交日期。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q23",
+        "number": 23,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The landlord was willing to make a spoken promise but refused to write it into the agreement.",
+        "promptZh": "業主願意作出口頭承諾，卻拒絕把承諾寫入協議。",
+        "starter": "The",
+        "answer": "The landlord refused to put the promise in black and white.",
+        "answerZh": "業主拒絕把承諾白紙黑字寫下來。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q24",
+        "number": 24,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Did the organiser finally confirm that lunch is included? B: Yes. She sent us the written details this morning.",
+        "promptZh": "甲：主辦人最後有否確認午餐包括在內？ 乙：有。她今早把書面詳情傳給我們。",
+        "starter": "We",
+        "answer": "We finally got the lunch arrangement in black and white this morning.",
+        "answerZh": "我們今早終於收到白紙黑字列明的午餐安排。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q25",
+        "number": 25,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The complete safety rules are printed on the wall beside the machine.",
+        "promptZh": "完整安全規則已印在機器旁邊的牆上。",
+        "starter": "The",
+        "answer": "The complete safety rules appear in black and white on the wall beside the machine.",
+        "answerZh": "完整安全規則已在機器旁邊的牆上白紙黑字列明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q26",
+        "number": 26,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The coach wanted written proof that the sports centre had agreed to change the booking.",
+        "promptZh": "教練希望取得書面證明，確認體育中心已同意更改預訂。",
+        "starter": "The",
+        "answer": "The coach wanted the booking change in black and white.",
+        "answerZh": "教練希望把預訂改動白紙黑字確認下來。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q27",
+        "number": 27,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The fee was clearly stated in the signed form, so the customer could not claim that nobody had told him.",
+        "promptZh": "費用已在簽署的表格中清楚列明，因此顧客不能聲稱沒有人告訴他。",
+        "starter": "Because",
+        "answer": "Because the fee was in black and white on the signed form, the customer could not claim that nobody had told him.",
+        "answerZh": "由於費用已在簽署的表格中白紙黑字列明，顧客不能聲稱沒有人告訴他。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q28",
+        "number": 28,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The workers had discussed extra pay, but no written document mentioned it.",
+        "promptZh": "員工曾討論額外薪酬，但沒有任何書面文件提及這件事。",
+        "starter": "Nothing",
+        "answer": "Nothing about the extra pay was in black and white.",
+        "answerZh": "額外薪酬的安排並沒有白紙黑字寫下來。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q29",
+        "number": 29,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: The seller has promised to repair any problem for free. B: Do not pay yet unless that promise is written into the agreement.",
+        "promptZh": "甲：賣家承諾會免費維修任何問題。 乙：除非這項承諾寫入協議，否則暫時不要付款。",
+        "starter": "Unless",
+        "answer": "Unless the repair promise is in black and white, do not pay yet.",
+        "answerZh": "除非免費維修的承諾已白紙黑字列明，否則暫時不要付款。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q30",
+        "number": 30,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The receipt gives written proof that the customer paid for two years of service.",
+        "promptZh": "收據提供書面證明，顯示顧客已支付兩年的服務費。",
+        "starter": "The",
+        "answer": "The receipt provides proof in black and white that the customer paid for two years of service.",
+        "answerZh": "收據白紙黑字證明顧客已支付兩年的服務費。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q31",
+        "number": 31,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The duties are now recorded clearly, so neither team can claim that the other team was responsible.",
+        "promptZh": "職責現已清楚記錄，因此兩個團隊都不能聲稱責任屬於對方。",
+        "starter": "With",
+        "answer": "With the duties in black and white, neither team can claim that the other team was responsible.",
+        "answerZh": "職責已白紙黑字列明後，兩個團隊都不能聲稱責任屬於對方。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q32",
+        "number": 32,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The contract clearly states in writing that the deposit cannot be returned after Friday.",
+        "promptZh": "合約清楚以書面列明，星期五後訂金不可退回。",
+        "starter": "The",
+        "answer": "The contract says, in black and white, that the deposit cannot be returned after Friday.",
+        "answerZh": "合約白紙黑字寫明，星期五後訂金不可退回。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q33",
+        "number": 33,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Are you certain that staff receive double pay on public holidays? B: Yes. The rule is clearly printed in my employment agreement.",
+        "promptZh": "甲：你肯定員工在公眾假期會獲雙倍工資嗎？ 乙：肯定。我的僱傭協議已清楚印有這項規定。",
+        "starter": "The",
+        "answer": "The rule is in black and white in my employment agreement.",
+        "answerZh": "我的僱傭協議已白紙黑字列明這項規定。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q34",
+        "number": 34,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A written list of the costs made it easier for the family to compare the two plans.",
+        "promptZh": "書面的費用清單令那個家庭更容易比較兩個計劃。",
+        "starter": "Having",
+        "answer": "Having the costs in black and white made it easier for the family to compare the two plans.",
+        "answerZh": "把費用白紙黑字列出來，令那個家庭更容易比較兩個計劃。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q35",
+        "number": 35,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The company should clearly write down what customers will receive and what they must pay.",
+        "promptZh": "公司應清楚寫下顧客會得到甚麼，以及必須支付多少。",
+        "starter": "The",
+        "answer": "The company should set out the service and its cost in black and white.",
+        "answerZh": "公司應把服務內容及費用白紙黑字列明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q36",
+        "number": 36,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Before signing, ask the agent to give you written confirmation of every extra charge.",
+        "promptZh": "簽署前，請代理人以書面確認每項額外費用。",
+        "starter": "Before",
+        "answer": "Before signing, ask to have every extra charge in black and white.",
+        "answerZh": "簽署前，應要求把每項額外費用白紙黑字列明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The staff did not trust the new arrangement until they received a written copy of it.",
+        "promptZh": "員工在收到新安排的書面版本前，一直不相信這項安排。",
+        "starter": "Not",
+        "answer": "Not until the new arrangement was in black and white did the staff trust it.",
+        "answerZh": "直至新安排白紙黑字寫下來後，員工才相信它。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q38",
+        "number": 38,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The notice leaves no room for argument because it clearly records that bicycles are not allowed inside.",
+        "promptZh": "告示沒有留下爭辯空間，因為它清楚記錄單車不得進入室內。",
+        "starter": "The",
+        "answer": "The ban on bicycles is in black and white on the notice.",
+        "answerZh": "告示已白紙黑字列明禁止單車進入。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q39",
+        "number": 39,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The customer continued to complain even though the return period was clearly written on the receipt.",
+        "promptZh": "即使退貨期限已清楚寫在收據上，顧客仍繼續投訴。",
+        "starter": "Even",
+        "answer": "Even though the return period was in black and white on the receipt, the customer continued to complain.",
+        "answerZh": "即使退貨期限已在收據上白紙黑字列明，顧客仍繼續投訴。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q40",
+        "number": 40,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The reporter could support the story with a written message from the director.",
+        "promptZh": "記者可以用主管的書面訊息支持報道內容。",
+        "starter": "The",
+        "answer": "The reporter had the director’s message in black and white to support the story.",
+        "answerZh": "記者有主管白紙黑字寫下的訊息支持報道內容。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q41",
+        "number": 41,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The clinic should give patients written information about the cost before treatment begins.",
+        "promptZh": "診所應在治療開始前，向病人提供有關費用的書面資料。",
+        "starter": "The",
+        "answer": "The clinic needs to put the cost in black and white for patients before treatment begins.",
+        "answerZh": "診所需要在治療開始前，把費用白紙黑字告知病人。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: The manager says the extra holiday was definitely promised. B: If so, why is there no written record of it?",
+        "promptZh": "甲：經理說額外假期肯定已經答應。 乙：既然如此，為甚麼沒有書面記錄？",
+        "starter": "If",
+        "answer": "If the extra holiday was truly promised, why is it not in black and white?",
+        "answerZh": "如果額外假期真的已經答應，為甚麼沒有白紙黑字記錄？",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q43",
+        "number": 43,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The board had only discussed the decision before, but it has now issued a written statement.",
+        "promptZh": "董事會之前只曾討論這項決定，但現在已發出書面聲明。",
+        "starter": "The",
+        "answer": "The board’s decision is now in black and white.",
+        "answerZh": "董事會的決定現在已白紙黑字寫下來。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q44",
+        "number": 44,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "We should not depend on different people’s memories. Let us write the final plan down clearly.",
+        "promptZh": "我們不應依賴不同人的記憶。讓我們把最終計劃清楚寫下來。",
+        "starter": "Let’s",
+        "answer": "Let’s put the final plan in black and white instead of relying on memory.",
+        "answerZh": "讓我們把最終計劃白紙黑字寫下來，而不是依賴記憶。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q45",
+        "number": 45,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The change was once only a spoken suggestion, but it has now been formally recorded.",
+        "promptZh": "這項改動以前只是一個口頭建議，但現在已正式記錄下來。",
+        "starter": "What",
+        "answer": "What was once only a spoken suggestion is now in black and white.",
+        "answerZh": "以前只屬口頭建議的改動，現在已白紙黑字記錄下來。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q46",
+        "number": 46,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The organiser sent an email listing the time, place and fee, turning the spoken arrangement into a written record.",
+        "promptZh": "主辦人發出電郵，列出時間、地點和費用，把口頭安排變成書面記錄。",
+        "starter": "By",
+        "answer": "By listing the time, place and fee in an email, the organiser put the arrangement in black and white.",
+        "answerZh": "主辦人透過電郵列出時間、地點和費用，把安排白紙黑字寫下來。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: I was told that the course includes free materials. B: Ask whether that condition appears in the official document.",
+        "promptZh": "甲：有人告訴我課程包括免費教材。 乙：問清楚正式文件是否有寫明這項條件。",
+        "starter": "Does",
+        "answer": "Does the promise of free materials appear in black and white in the official document?",
+        "answerZh": "正式文件有否白紙黑字列明免費教材的承諾？",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q48",
+        "number": 48,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The revised agreement records the cancellation rule clearly instead of leaving it in a separate conversation.",
+        "promptZh": "修訂後的協議清楚記錄取消規則，而不再只把它留在另一次對話中。",
+        "starter": "The",
+        "answer": "The revised agreement sets out the cancellation rule in black and white.",
+        "answerZh": "修訂後的協議把取消規則白紙黑字列明。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q49",
+        "number": 49,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Once the written minutes clearly recorded the vote, there was no need to continue arguing about the result.",
+        "promptZh": "會議紀錄清楚記下投票結果後，大家便不需要繼續爭論。",
+        "starter": "There",
+        "answer": "There was no need to argue once the result of the vote was in black and white in the minutes.",
+        "answerZh": "投票結果在會議紀錄中白紙黑字寫明後，大家便不需要再爭論。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      },
+      {
+        "id": "idiom-122-q50",
+        "number": 50,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "One speaker denied agreeing to the change, but the official meeting record clearly showed that he had supported it.",
+        "promptZh": "一名講者否認曾同意這項改動，但正式會議紀錄清楚顯示他曾表示支持。",
+        "starter": "Although",
+        "answer": "Although one speaker denied agreeing to the change, his support was recorded in black and white in the official minutes.",
+        "answerZh": "雖然一名講者否認曾同意這項改動，但正式會議紀錄已白紙黑字記下他的支持。",
+        "targetForm": "In Black and White",
+        "targetMeaning": "In black and white means in written or printed form, rather than communicated only through speech. It often emphasises that information, a promise, a rule or an agreement has been recorded and can therefore be checked later. Cambridge defines the expression as “in writing”, while Collins explains that the information has been written or printed rather than merely said.",
+        "highlight": "in black and white"
+      }
+    ]
+  }
+}

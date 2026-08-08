@@ -1,0 +1,1227 @@
+{
+  "id": "ss335",
+  "order": 335,
+  "slug": "set-the-stage-for-noun",
+  "title": "「set the stage for + 名詞」表示「為……創造條件／鋪路」",
+  "titleZh": "「set the stage for + 名詞」表示「為……創造條件／鋪路」",
+  "titleEn": "Using “set the stage for + noun”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Semtemce Structure 333 -「set the stage for + 名詞」表示「為……創造條件／鋪路」.pdf",
+    "pageCount": 26,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "sha256": "8904b2e67b54c55e52c18126aa7e5232f29cc5c66f126293c361a3a1f8650620",
+    "sourceNumber": 333,
+    "systemOrder": 335,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 333 maps to ss335: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "set the stage for + noun / noun phrase / V-ing",
+  "formulas": [
+    {
+      "id": "ss335-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "set the stage for + noun / noun phrase / V-ing"
+    }
+  ],
+  "example": "The early reforms laid the groundwork for decades of economic growth.",
+  "exampleZh": "早期改革為數十年的經濟增長奠定了基礎。",
+  "examples": [
+    {
+      "id": "ss335-example-01",
+      "en": "The early reforms laid the groundwork for decades of economic growth.",
+      "zh": "早期改革為數十年的經濟增長奠定了基礎。",
+      "highlight": "The early reforms laid the groundwork for decades of economic growth."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss335-rule-01",
+      "zh": "動詞 set 是不規則動詞：原形、過去式和過去分詞都是 set，第三人稱單數是 sets，-ing 形式則是 setting；不可寫成 setted。",
+      "en": "“Set” is an irregular verb Form Verb Base form Third-person singular Past tense Past participle -ing form setting The spelling does not change in the past tense: setted ✗ set ✓ The reform sets the stage for change. The reform set the stage for change last year. The reform has set the stage for change.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss335-rule-02",
+      "zh": "固定表達 set the stage for 中，stage 前面的定冠詞 the 必須保留；不可改用不定冠詞，也不可完全省略冠詞。",
+      "en": "Keep “the” before “stage” The fixed expression is: set the stage for Do not normally write: set a stage for ✗ set stage for ✗ set the stage for ✓",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss335-rule-03",
+      "zh": "固定表達 set the stage 必須接介詞 for，不可改用 to；其後的名詞表示前一事件為甚麼結果創造條件。",
+      "en": "Use “for”, not “to” The talks set the stage for an agreement. The talks set the stage to an agreement.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss335-rule-04",
+      "zh": "介詞 for 後面可接名詞、名詞片語或動詞 -ing 形式，用來表示改革、經濟增長、更緊密合作或引入新制度等結果；不可直接接動詞原形。",
+      "en": "“For” is followed by a noun, noun phrase or -ing form set the stage for reform set the stage for economic growth set the stage for closer cooperation set the stage for introducing a new system set the stage for introduce a new system ✗ After a preposition such as for, use V-ing, not the base verb.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss335-rule-05",
+      "zh": "目標表達【Set the stage for】表示創造條件或鋪路，不代表直接導致某個結果，也不保證該結果一定會發生。新法例直接導致經濟增長。 新法例為經濟增長創造了有利條件。 第二句的說法較審慎，只表示新法例提供了有利條件。",
+      "en": "The expression does not mean “directly cause” Set the stage for means that something prepares the situation or creates favourable conditions. It does not necessarily mean that the later event definitely happened. Set the stage for Compare: The new law caused economic growth. The new law set the stage for economic growth. The second sentence makes a more careful and limited claim.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss335-rule-06",
+      "zh": "工作人員為晚間表演布置舞台。 早期討論為達成協議鋪路。 本練習教授的是比喻用法。",
+      "en": "Do not confuse the idiom with a real theatre stage Literal meaning: The workers set the stage for the evening performance. Idiomatic meaning: The early discussion set the stage for an agreement. This exercise practises the idiomatic meaning.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss335-benefit-01",
+      "zh": "這個句型可以清楚連繫較早發生的事情與後來的發展，讓讀者明白兩者之間的關係。第二個版本直接顯示研究如何為日後的試驗創造條件。",
+      "en": "It explains how an earlier event affects what happens later This structure clearly connects an earlier action with a later development. The research created useful evidence. Later trials became possible. The research set the stage for later trials.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss335-benefit-02",
+      "zh": "有時候，我們不能肯定某件事直接「導致」另一件事。使用 set the stage for，可以表達前者提供了有利條件，而不會把因果關係說得過分肯定。",
+      "en": "It helps you avoid making an overly strong claim Sometimes it is inaccurate to say that one event directly caused another. Using set the stage for allows you to say that the first event prepared the conditions without claiming that the result was automatic. This is particularly useful in: history social issues business analysis science discussions of change.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss335-benefit-03",
+      "zh": "這個句型可以把「創造了使某件事更有可能發生的條件」濃縮成較簡潔的說法。",
+      "en": "It shortens a long explanation Instead of writing: The agreement created the conditions that made future cooperation more likely. You can write: The agreement set the stage for future cooperation.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss335-benefit-04",
+      "zh": "這個句型很適合描述逐步形成的發展，例如改革、科技進步、社會改變或機構擴展。幾項小型改革為更大規模的轉變奠定了基礎。",
+      "en": "It helps explain gradual developments Large changes are often produced by several earlier events rather than one immediate cause. Several small reforms set the stage for a much larger transformation.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss335-benefit-05",
+      "zh": "核心表達可以配合主動式、被動式、完成式、進行式及分詞結構使用，因此不需要每次都把它放在相同位置。",
+      "en": "It provides genuine sentence variety The core expression can appear in active, passive, perfect, continuous and participle structures. The agreement set the stage for reform. The stage was set for reform. The agreement has set the stage for reform. The agreement may be setting the stage for reform. The talks ended peacefully, setting the stage for reform.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 333 maps to ss335: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a suitable form of set the stage for + noun / noun phrase /",
+      "V-ing.",
+      "Preserve the original meaning, tense, modality, negation and degree of certainty.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用適當形式的 set the stage for + 名詞／名詞短語／V-ing 改寫以下句子。",
+      "答案須保留原句的意思、時態、情態、否定意思及肯定程度。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss335-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The early reforms laid the groundwork for decades of economic growth.",
+      "promptZh": "早期改革為數十年的經濟增長奠定了基礎。",
+      "promptZhSource": "pdf",
+      "starter": "Early",
+      "answer": "Early reforms set the stage for decades of economic growth.",
+      "answerZh": "早期改革為數十年的經濟增長創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "Early reforms set the stage for decades of economic growth."
+    },
+    {
+      "id": "ss335-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new timetable is intended to create the conditions for smoother morning journeys.",
+      "promptZh": "新時間表旨在為更暢順的早上出行創造條件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable is intended to set the stage for smoother morning journeys.",
+      "answerZh": "新時間表旨在為更暢順的早上出行創造條件。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable is intended to set the stage for smoother morning journeys."
+    },
+    {
+      "id": "ss335-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The early rains provided the conditions needed for a successful harvest.",
+      "promptZh": "早來的雨水提供了豐收所需的條件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The stage was set for a successful harvest by the early rains.",
+      "answerZh": "早來的雨水為豐收創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "The stage was set for a successful harvest by the early rains."
+    },
+    {
+      "id": "ss335-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "Better training can lay the groundwork for safer workplaces.",
+      "promptZh": "更完善的培訓可以為更安全的工作環境奠定基礎。",
+      "promptZhSource": "pdf",
+      "starter": "Better",
+      "answer": "Better training can set the stage for safer workplaces.",
+      "answerZh": "更完善的培訓可以為更安全的工作環境創造條件。",
+      "answerZhSource": "pdf",
+      "highlight": "Better training can set the stage for safer workplaces."
+    },
+    {
+      "id": "ss335-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The pilot programme has paved the way for a wider public launch.",
+      "promptZh": "試行計劃已為更廣泛地向公眾推出服務鋪路。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The pilot programme has set the stage for a wider public launch.",
+      "answerZh": "試行計劃已為更廣泛地向公眾推出服務奠定基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "The pilot programme has set the stage for a wider public launch."
+    },
+    {
+      "id": "ss335-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The council improved the drainage. As a result, safer streets became more likely.",
+      "promptZh": "市議會改善了排水系統。因此，街道環境變得更有可能更加安全。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By improving the drainage, the council set the stage for safer streets.",
+      "answerZh": "市議會改善了排水系統，為更安全的街道環境創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "By improving the drainage, the council set the stage for safer streets."
+    },
+    {
+      "id": "ss335-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The first lesson provided a foundation for the more difficult ideas that came later.",
+      "promptZh": "第一課為後來較困難的概念奠定了基礎。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first lesson set the stage for the more difficult ideas that came later.",
+      "answerZh": "第一課為後來較困難的概念奠定了基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "The first lesson set the stage for the more difficult ideas that came later."
+    },
+    {
+      "id": "ss335-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Throughout the summer, the team laid the groundwork for a strong season.",
+      "promptZh": "整個夏季期間，球隊都在為表現出色的賽季奠定基礎。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the summer, the team set the stage for a strong season.",
+      "answerZh": "球隊在夏季為表現出色的賽季奠定了基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "During the summer, the team set the stage for a strong season."
+    },
+    {
+      "id": "ss335-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The small grant helped prepare the charity for expansion.",
+      "promptZh": "這筆小額撥款協助慈善機構為擴展作好準備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The small grant helped set the stage for the charity’s expansion.",
+      "answerZh": "這筆小額撥款協助慈善機構為擴展作好準備。",
+      "answerZhSource": "pdf",
+      "highlight": "The small grant helped set the stage for the charity’s expansion."
+    },
+    {
+      "id": "ss335-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The peace agreement, rather than any later measure, created the conditions for national recovery.",
+      "promptZh": "為國家復蘇創造條件的是和平協議，而不是其後的任何措施。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the peace agreement that set the stage for national recovery.",
+      "answerZh": "正是和平協議為國家復蘇創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the peace agreement that set the stage for national recovery."
+    },
+    {
+      "id": "ss335-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "Why was the discovery important? It opened up new possibilities for further medical research.",
+      "promptZh": "這項發現為甚麼重要？它為進一步的醫學研究帶來了新的可能性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The discovery set the stage for further medical research.",
+      "answerZh": "這項發現為進一步的醫學研究創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "The discovery set the stage for further medical research."
+    },
+    {
+      "id": "ss335-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The company is currently putting the necessary conditions in place for its move into overseas markets.",
+      "promptZh": "公司目前正為進軍海外市場準備所需條件。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, the company is setting the stage for its move into overseas markets.",
+      "answerZh": "公司目前正為進軍海外市場創造條件。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, the company is setting the stage for its move into overseas markets."
+    },
+    {
+      "id": "ss335-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Preparations are now being made for major changes throughout the school system.",
+      "promptZh": "整個學校制度目前正為重大改變作準備。",
+      "promptZhSource": "pdf",
+      "starter": "Across",
+      "answer": "Across the school system, the stage is being set for major changes.",
+      "answerZh": "整個學校制度正為重大改變作好準備。",
+      "answerZhSource": "pdf",
+      "highlight": "Across the school system, the stage is being set for major changes."
+    },
+    {
+      "id": "ss335-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The new law protected workers and also made fairer employment practices more likely.",
+      "promptZh": "新法例保障了僱員，也令更公平的僱傭安排變得更有可能實現。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new law not only protected workers but also set the stage for fairer employment practices.",
+      "answerZh": "新法例不僅保障僱員，也為更公平的僱傭安排創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "The new law not only protected workers but also set the stage for fairer employment practices."
+    },
+    {
+      "id": "ss335-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The first meeting served as the starting point for closer cooperation.",
+      "promptZh": "第一次會議成為更緊密合作的起點。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the first meeting did was set the stage for closer cooperation.",
+      "answerZh": "第一次會議所發揮的作用，是為更緊密的合作創造條件。",
+      "answerZhSource": "pdf",
+      "highlight": "What the first meeting did was set the stage for closer cooperation."
+    },
+    {
+      "id": "ss335-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "After the bank restored public confidence, steady growth became more likely.",
+      "promptZh": "銀行恢復公眾信心後，穩定增長變得更有可能。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After restoring public confidence, the bank set the stage for steady growth.",
+      "answerZh": "銀行恢復公眾信心後，為穩定增長創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "After restoring public confidence, the bank set the stage for steady growth."
+    },
+    {
+      "id": "ss335-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A clear set of rules could provide the foundation for more productive discussions.",
+      "promptZh": "一套清晰的規則可以為更有成效的討論奠定基礎。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A clear set of rules could set the stage for more productive discussions.",
+      "answerZh": "一套清晰的規則可以為更有成效的討論創造條件。",
+      "answerZhSource": "pdf",
+      "highlight": "A clear set of rules could set the stage for more productive discussions."
+    },
+    {
+      "id": "ss335-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The new rail link appears likely to pave the way for further regional development.",
+      "promptZh": "新的鐵路線看來很可能為地區進一步發展鋪路。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rail link seems likely to set the stage for further regional development.",
+      "answerZh": "新的鐵路線看來很可能為地區進一步發展創造條件。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rail link seems likely to set the stage for further regional development."
+    },
+    {
+      "id": "ss335-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "With public support behind it, the project created a strong basis for long-term improvement.",
+      "promptZh": "這個項目得到公眾支持，為長遠改善建立了穩固基礎。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With public support behind it, the project set the stage for long-term improvement.",
+      "answerZh": "這個項目得到公眾支持，為長遠改善奠定了基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "With public support behind it, the project set the stage for long-term improvement."
+    },
+    {
+      "id": "ss335-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Why was the training session important? It prepared the way for a more efficient emergency response.",
+      "promptZh": "這次培訓為甚麼重要？它為更有效率的緊急應變作好準備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training session set the stage for a more efficient emergency response.",
+      "answerZh": "這次培訓為更有效率的緊急應變作好準備。",
+      "answerZhSource": "pdf",
+      "highlight": "The training session set the stage for a more efficient emergency response."
+    },
+    {
+      "id": "ss335-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "By the end of the year, the research team had laid the groundwork for clinical trials.",
+      "promptZh": "截至年底，研究團隊已為臨床試驗奠定基礎。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of the year, the research team had set the stage for clinical trials.",
+      "answerZh": "截至年底，研究團隊已為臨床試驗創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of the year, the research team had set the stage for clinical trials."
+    },
+    {
+      "id": "ss335-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Once the price falls, wider adoption will become much more likely.",
+      "promptZh": "價格下降後，更廣泛採用這項產品的可能性便會大幅提高。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the price falls, the stage will be set for wider adoption.",
+      "answerZh": "價格下降後，便會具備更廣泛採用的條件。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the price falls, the stage will be set for wider adoption."
+    },
+    {
+      "id": "ss335-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The reforms strengthened local schools. This created favourable conditions for higher university enrolment.",
+      "promptZh": "這些改革加強了本地學校，為更多學生升讀大學創造了有利條件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The reforms that strengthened local schools set the stage for higher university enrolment.",
+      "answerZh": "加強本地學校的改革，為更多學生升讀大學創造了有利條件。",
+      "answerZhSource": "pdf",
+      "highlight": "The reforms that strengthened local schools set the stage for higher university enrolment."
+    },
+    {
+      "id": "ss335-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "No single speech caused the wider change. However, the final address prepared the way for it.",
+      "promptZh": "並非任何一篇演說直接造成這場廣泛改變，但最後的演說為這場改變鋪路。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No single speech caused the wider change, but the final address set the stage for it.",
+      "answerZh": "並非任何一篇演說直接造成這場廣泛改變，但最後的演說為這場改變鋪路。",
+      "answerZhSource": "pdf",
+      "highlight": "No single speech caused the wider change, but the final address set the stage for it."
+    },
+    {
+      "id": "ss335-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Years of careful planning gave the organisers the foundation they needed for a smooth international event.",
+      "promptZh": "多年的周詳規劃為主辦單位提供了順利舉行國際活動所需的基礎。",
+      "promptZhSource": "pdf",
+      "starter": "Through",
+      "answer": "Through years of careful planning, the organisers set the stage for a smooth international event.",
+      "answerZh": "主辦單位經過多年的周詳規劃，為順利舉行國際活動創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "Through years of careful planning, the organisers set the stage for a smooth international event."
+    },
+    {
+      "id": "ss335-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The rushed announcement failed to create the calm conditions needed for a public discussion.",
+      "promptZh": "倉卒發出的公布未能為平靜的公開討論創造所需條件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rushed announcement did not set the stage for a calm public discussion.",
+      "answerZh": "倉卒發出的公布未能為平靜的公開討論創造條件。",
+      "answerZhSource": "pdf",
+      "highlight": "The rushed announcement did not set the stage for a calm public discussion."
+    },
+    {
+      "id": "ss335-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "These early talks may open the way to a formal agreement.",
+      "promptZh": "這些初步會談可能為正式協議鋪路。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These early talks may set the stage for a formal agreement.",
+      "answerZh": "這些初步會談可能為正式協議鋪路。",
+      "answerZhSource": "pdf",
+      "highlight": "These early talks may set the stage for a formal agreement."
+    },
+    {
+      "id": "ss335-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The agencies shared accurate data, providing a sound basis for better disaster planning.",
+      "promptZh": "各機構分享準確數據，為更完善的災難規劃提供了穩固基礎。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By sharing accurate data, the agencies set the stage for better disaster planning.",
+      "answerZh": "各機構分享準確數據，為更完善的災難規劃奠定了基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "By sharing accurate data, the agencies set the stage for better disaster planning."
+    },
+    {
+      "id": "ss335-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After the border restrictions were lifted, the way was open for renewed tourism.",
+      "promptZh": "邊境限制解除後，旅遊業便具備復蘇的條件。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the border restrictions were lifted, the stage was set for renewed tourism.",
+      "answerZh": "邊境限制解除後，旅遊業便具備復蘇的條件。",
+      "answerZhSource": "pdf",
+      "highlight": "After the border restrictions were lifted, the stage was set for renewed tourism."
+    },
+    {
+      "id": "ss335-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Only after trust had been rebuilt did genuine cooperation become possible.",
+      "promptZh": "只有在互信重建後，真正的合作才變得可能。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was only after trust had been rebuilt that the stage was set for genuine cooperation.",
+      "answerZh": "只有在互信重建後，真正合作所需的條件才得以形成。",
+      "answerZhSource": "pdf",
+      "highlight": "It was only after trust had been rebuilt that the stage was set for genuine cooperation."
+    },
+    {
+      "id": "ss335-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 24
+      },
+      "prompt": "If the trial succeeds, large-scale production will become a realistic possibility.",
+      "promptZh": "如果試驗成功，大規模生產便會成為實際可行的可能性。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the trial succeeds, it will set the stage for large-scale production.",
+      "answerZh": "如果試驗成功，便會為大規模生產創造條件。",
+      "answerZhSource": "pdf",
+      "highlight": "If the trial succeeds, it will set the stage for large-scale production."
+    },
+    {
+      "id": "ss335-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The committee laid the foundation for reform and then moved on to the detailed proposals.",
+      "promptZh": "委員會為改革奠定基礎，然後開始處理詳細建議。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having set the stage for reform, the committee moved on to the detailed proposals.",
+      "answerZh": "為改革奠定基礎後，委員會開始處理詳細建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Having set the stage for reform, the committee moved on to the detailed proposals."
+    },
+    {
+      "id": "ss335-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The change seemed minor, but it opened the way for a complete redesign.",
+      "promptZh": "這項改變看似輕微，卻為全面重新設計鋪路。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the change seemed minor, it set the stage for a complete redesign.",
+      "answerZh": "雖然這項改變看似輕微，卻為全面重新設計鋪路。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the change seemed minor, it set the stage for a complete redesign."
+    },
+    {
+      "id": "ss335-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "What appeared to be a routine inspection actually became the starting point for a major safety review.",
+      "promptZh": "表面看來只是例行檢查，實際上卻成為大型安全檢討的起點。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What appeared to be a routine inspection actually set the stage for a major safety review.",
+      "answerZh": "表面看來只是例行檢查，實際上卻為大型安全檢討創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "What appeared to be a routine inspection actually set the stage for a major safety review."
+    },
+    {
+      "id": "ss335-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The agreement ended years of uncertainty and provided a stable basis for new investment.",
+      "promptZh": "這項協議結束了多年的不明朗局面，並為新投資提供了穩定基礎。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The agreement, which ended years of uncertainty, set the stage for new investment.",
+      "answerZh": "這項結束多年不明朗局面的協議，為新投資創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "The agreement, which ended years of uncertainty, set the stage for new investment."
+    },
+    {
+      "id": "ss335-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "By the time the conference ended, several discussions had laid the groundwork for future partnerships.",
+      "promptZh": "會議結束時，幾場討論已為日後的合作關係奠定基礎。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the time the conference ended, several discussions had set the stage for future partnerships.",
+      "answerZh": "會議結束時，幾場討論已為日後的合作關係奠定基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "By the time the conference ended, several discussions had set the stage for future partnerships."
+    },
+    {
+      "id": "ss335-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Only after the data had been verified did the report provide a sound basis for policy change.",
+      "promptZh": "只有在數據經過核實後，報告才為政策改變提供了可靠基礎。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the data had been verified did the report set the stage for policy change.",
+      "answerZh": "只有在數據經過核實後，報告才為政策改變創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the data had been verified did the report set the stage for policy change."
+    },
+    {
+      "id": "ss335-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The campaign did more than raise awareness; it prepared the ground for lasting community action.",
+      "promptZh": "這項運動不只提高了公眾意識，還為持久的社區行動作好準備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The campaign did more than raise awareness; it set the stage for lasting community action.",
+      "answerZh": "這項運動不只提高了公眾意識，還為持久的社區行動創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "The campaign did more than raise awareness; it set the stage for lasting community action."
+    },
+    {
+      "id": "ss335-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The first successful test reduced public doubt. This made wider acceptance more likely.",
+      "promptZh": "首次成功測試減少了公眾疑慮，令更廣泛的接受變得更有可能。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By reducing public doubt, the first successful test set the stage for wider acceptance.",
+      "answerZh": "首次成功測試減少了公眾疑慮，為更廣泛的接受創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "By reducing public doubt, the first successful test set the stage for wider acceptance."
+    },
+    {
+      "id": "ss335-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The organisation improved its internal systems, thereby laying the foundation for faster growth.",
+      "promptZh": "該機構改善了內部系統，從而為更快速的增長奠定基礎。",
+      "promptZhSource": "pdf",
+      "starter": "Through",
+      "answer": "Through its improved internal systems, the organisation set the stage for faster growth.",
+      "answerZh": "該機構透過改善內部系統，為更快速的增長奠定了基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "Through its improved internal systems, the organisation set the stage for faster growth."
+    },
+    {
+      "id": "ss335-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The early conservation work was designed to prepare the forest for recovery.",
+      "promptZh": "早期的保育工作旨在為森林復蘇作好準備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The early conservation work was intended to set the stage for the forest’s recovery.",
+      "answerZh": "早期的保育工作旨在為森林復蘇創造條件。",
+      "answerZhSource": "pdf",
+      "highlight": "The early conservation work was intended to set the stage for the forest’s recovery."
+    },
+    {
+      "id": "ss335-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Without the new funding, the conditions needed for the hospital’s expansion would not have been in place.",
+      "promptZh": "如果沒有新的撥款，醫院擴展所需的條件便不會形成。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without the new funding, the stage would not have been set for the hospital’s expansion.",
+      "answerZh": "如果沒有新的撥款，醫院擴展所需的條件便不會形成。",
+      "answerZhSource": "pdf",
+      "highlight": "Without the new funding, the stage would not have been set for the hospital’s expansion."
+    },
+    {
+      "id": "ss335-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Together, several small reforms formed the foundation for a much larger transformation.",
+      "promptZh": "幾項小型改革共同為更大規模的轉變奠定了基礎。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several small reforms combined to set the stage for a much larger transformation.",
+      "answerZh": "幾項小型改革共同為更大規模的轉變奠定了基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "Several small reforms combined to set the stage for a much larger transformation."
+    },
+    {
+      "id": "ss335-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The new partnership played an important part in laying the groundwork for technological progress.",
+      "promptZh": "新的合作關係在為科技進步奠定基礎方面發揮了重要作用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new partnership played an important part in setting the stage for technological progress.",
+      "answerZh": "新的合作關係在為科技進步創造條件方面發揮了重要作用。",
+      "answerZhSource": "pdf",
+      "highlight": "The new partnership played an important part in setting the stage for technological progress."
+    },
+    {
+      "id": "ss335-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "By creating a shared database and standard procedures, the two departments prepared the ground for closer coordination.",
+      "promptZh": "兩個部門建立共用資料庫及標準程序，為更緊密的協調作好準備。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By creating a shared database and standard procedures, the two departments set the stage for closer coordination.",
+      "answerZh": "兩個部門建立共用資料庫及標準程序，為更緊密的協調創造了條件。",
+      "answerZhSource": "pdf",
+      "highlight": "By creating a shared database and standard procedures, the two departments set the stage for closer coordination."
+    },
+    {
+      "id": "ss335-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "What began as a local experiment has gradually opened the way to changes across the whole industry.",
+      "promptZh": "最初只是一項本地實驗，後來逐漸為整個行業的改變鋪路。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What began as a local experiment has gradually set the stage for changes across the whole industry.",
+      "answerZh": "最初只是一項本地實驗，後來逐漸為整個行業的改變鋪路。",
+      "answerZhSource": "pdf",
+      "highlight": "What began as a local experiment has gradually set the stage for changes across the whole industry."
+    },
+    {
+      "id": "ss335-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The programme not only improved basic skills but also laid the foundation for lifelong learning.",
+      "promptZh": "這個課程不僅提升基本技能，也為終身學習奠定了基礎。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only did the programme improve basic skills, but it also set the stage for lifelong learning.",
+      "answerZh": "這個課程不僅提升基本技能，也為終身學習奠定了基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only did the programme improve basic skills, but it also set the stage for lifelong learning."
+    },
+    {
+      "id": "ss335-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The temporary ceasefire may be creating the conditions for more serious peace negotiations.",
+      "promptZh": "臨時停火可能正在為更認真的和平談判創造條件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The temporary ceasefire may be setting the stage for more serious peace negotiations.",
+      "answerZh": "臨時停火可能正在為更認真的和平談判創造條件。",
+      "answerZhSource": "pdf",
+      "highlight": "The temporary ceasefire may be setting the stage for more serious peace negotiations."
+    },
+    {
+      "id": "ss335-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Once the legal framework is in place, the necessary conditions will exist for responsible use of the technology.",
+      "promptZh": "法律框架建立後，負責任地使用這項科技所需的條件便會形成。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the legal framework is in place, the stage will be set for responsible use of the technology.",
+      "answerZh": "法律框架建立後，便會具備負責任地使用這項科技的條件。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the legal framework is in place, the stage will be set for responsible use of the technology."
+    },
+    {
+      "id": "ss335-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Had the earlier reforms not laid the foundation for stable institutions, the later recovery would have been far less likely.",
+      "promptZh": "如果早期改革沒有為穩定的制度奠定基礎，其後出現復蘇的可能性便會低得多。",
+      "promptZhSource": "pdf",
+      "starter": "Had",
+      "answer": "Had the earlier reforms not set the stage for stable institutions, the later recovery would have been far less likely.",
+      "answerZh": "如果早期改革沒有為穩定的制度奠定基礎，其後出現復蘇的可能性便會低得多。",
+      "answerZhSource": "pdf",
+      "highlight": "Had the earlier reforms not set the stage for stable institutions, the later recovery would have been far less likely."
+    }
+  ]
+}

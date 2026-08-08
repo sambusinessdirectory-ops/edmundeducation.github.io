@@ -1,0 +1,1248 @@
+{
+  "id": "ss331",
+  "order": 331,
+  "slug": "x-is-not-to-be-confused-with-y",
+  "title": "「X is not to be confused with Y」",
+  "titleZh": "「X is not to be confused with Y」",
+  "titleEn": "Using “X is not to be confused with Y”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 329 -「X is not to be confused with Y」.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "sha256": "c42b62c6b3f3a1abb0d7964d32f3abea960196a584c6e606ce3f0a742eb806b6",
+    "sourceNumber": 329,
+    "systemOrder": 331,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 329 maps to ss331: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "X + be + not to be confused with + Y",
+  "formulas": [
+    {
+      "id": "ss331-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "X + be + not to be confused with + Y"
+    }
+  ],
+  "example": "Confidence is not to be confused with arrogance.",
+  "exampleZh": "自信不應與傲慢混為一談。",
+  "examples": [
+    {
+      "id": "ss331-example-01",
+      "en": "Confidence is not to be confused with arrogance.",
+      "zh": "自信不應與傲慢混為一談。",
+      "highlight": "Confidence is not to be confused with arrogance."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss331-rule-01",
+      "zh": "核心部分是 not to be confused with 完整核心結構是：【X + be + not to be confused with + Y】 以下成分只屬於可選的句子框架：【although；even though；in this context；the report explains that；one point must remain clear；because】 詞語【which】引導的關係子句它們可以增加背景、原因或細節，但並不是固定表達的一部分。",
+      "en": "X + be + not to be confused with + Y although even though in this context the report explains that one point must remain clear because",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss331-rule-02",
+      "zh": "句中的 be 動詞必須與主語的單複數和時態配合：現在式用 is 或 are，過去式用 was 或 were。",
+      "en": "be A receipt is not to be confused with an invoice. Practice sessions are not to be confused with the final performance. The temporary pass was not to be confused with a permanent permit. The early estimates were not to be confused with the final price.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss331-rule-03",
+      "zh": "必須使用 with 正確：【Confidence is not to be confused with arrogance.】 錯誤：【Confidence is not to be confused by arrogance.】 錯誤：【Confidence is not to be confused to arrogance.】 相關的主動句型也是：【confuse X with Y；Do not confuse confidence with arrogance.】 不要把自信與傲慢混淆。",
+      "en": "Confidence is not to be confused with arrogance. Confidence is not to be confused by arrogance. Confidence is not to be confused to arrogance. confuse X with Y Do not confuse confidence with arrogance.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss331-rule-04",
+      "zh": "這裏的 be to 並不表示將來在這個句型中：【Confidence is not to be confused with arrogance.】 並不是指：自信將不會被混淆。它的真正意思是：人們不應把自信與傲慢混淆。這是一種較正式的提醒或指示。",
+      "en": "Confidence is not to be confused with arrogance.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss331-rule-05",
+      "zh": "和 Y 必須能夠合理比較自然：【A password is not to be confused with a username.】 兩者都是登入系統時使用的資料，因此可能被人混淆。不自然：【A password is not to be confused with a restaurant.】 兩者沒有合理的比較關係，一般不會被人混淆。",
+      "en": "X A password is not to be confused with a username. A password is not to be confused with a restaurant.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss331-rule-06",
+      "zh": "句首修飾語必須緊接正確的主詞正確：【Not to be confused with a final price, an estimate may change later.】 句首部分修飾 an estimate。不清楚：【Not to be confused with a final price, the salesperson gave us an estimate.】 從文法位置來看，句首部分似乎修飾 the salesperson，意思便不合理。",
+      "en": "Not to be confused with a final price, an estimate may change later. Not to be confused with a final price, the salesperson gave us an estimate.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss331-rule-07",
+      "zh": "插入語前後一般使用逗號兩個逗號把插入的辨析說明與主要句子分開。主要句子仍然是：【Freedom still requires people to consider others.】",
+      "en": "Freedom, not to be confused with a lack of responsibility, still requires people to consider others. Freedom still requires people to consider others.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss331-rule-08",
+      "zh": "本練習只接受指定的核心結構以下句子意思相近，而且文法正確：【Confidence should not be confused with arrogance.】 不過，本練習的目標是：【not to be confused with】 因此，標準答案必須包含這組字詞。",
+      "en": "Confidence should not be confused with arrogance. Do not confuse confidence with arrogance. It is wrong to confuse confidence with arrogance. not to be confused with",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss331-benefit-01",
+      "zh": "清楚區分容易混淆的概念這個句型能直接告訴讀者，兩個看起來相似的概念其實有重要分別。自信不應與傲慢混為一談。 讀者可以立即明白：句子的重點不是一般介紹自信，而是防止人們對自信產生錯誤理解。",
+      "en": "Confidence is not to be confused with arrogance.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss331-benefit-02",
+      "zh": "比較長的解釋更簡潔較長的寫法：【Confidence and arrogance may sometimes look similar. However, they are different, and people；should not treat them as the same thing.】 較簡潔的寫法：【Confidence is not to be confused with arrogance.】 使用這個句型，可以把「兩者可能相似，但不應混淆」濃縮成一句。",
+      "en": "Confidence and arrogance may sometimes look similar. However, they are different, and people should not treat them as the same thing. Confidence is not to be confused with arrogance.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss331-benefit-03",
+      "zh": "適合解釋字詞和概念這個句型特別適合：解釋兩個意思接近的詞語；比較兩項政策；澄清規則；區分醫療或科技概念；糾正常見誤解。症狀不應與診斷混淆。",
+      "en": "A symptom is not to be confused with a diagnosis.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss331-benefit-04",
+      "zh": "能夠先承認相似之處，再指出分別你可以配合 although 或 even though 使用：【Although both affect travel plans, a delay is not to be confused with a cancellation.】 這樣便不需要假裝兩者完全沒有關係。你可以先承認共同點，再清楚指出它們不是同一回事。",
+      "en": "Although both affect travel plans, a delay is not to be confused with a cancellation.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss331-benefit-05",
+      "zh": "增加句子位置和開首的變化目標結構不一定每次都放在主詞後面。它可以：放在主要述語；放在 that 子句；放在句首；放在名詞後作插入說明；放在冒號後。因此，學生不能只依靠固定位置猜答案，也可以學習用不同方法組織同一個核心意思。",
+      "en": "The target structure can serve as the main predicate, appear in a that-clause, begin a sentence, form a parenthetical explanation after a noun, or follow a colon. These positions provide greater sentence variety.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss331-benefit-06",
+      "zh": "適合正式作文、報告和簡報這個句型的語氣較正式，適合用來提出精確的辨析。常見用途包括：議論文；學術寫作；商業報告；政策解釋；簡報；正式聲明。不過，在非常日常的對話中，較簡單的：【Do not confuse X with Y.】 可能更加自然。",
+      "en": "Do not confuse X with Y.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 329 maps to ss331: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using not to be confused with. Preserve all important information. You",
+      "may need to combine two sentences or place the target structure inside a larger sentence.",
+      "The target structure will not always appear in the same position.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 not to be confused with 改寫以下句子。保留所有重要資料。你可能需要合併兩句，或把目",
+      "標結構放入一個較大的句子中。",
+      "目標結構不會每次都出現在相同位置。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss331-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Confidence and arrogance are not the same.",
+      "promptZh": "自信和傲慢並不是同一回事。",
+      "promptZhSource": "pdf",
+      "starter": "Confidence",
+      "answer": "Confidence is not to be confused with arrogance.",
+      "answerZh": "自信不應與傲慢混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Confidence is not to be confused with arrogance."
+    },
+    {
+      "id": "ss331-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A price and the total cost are two different amounts.",
+      "promptZh": "價格和總費用是兩個不同的金額。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A price is not to be confused with the total cost.",
+      "answerZh": "價格不應與總費用混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "A price is not to be confused with the total cost."
+    },
+    {
+      "id": "ss331-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A hobby may take a lot of time, but it is not the same as a full-time job.",
+      "promptZh": "興趣可能佔用很多時間，但並不等同全職工作。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A hobby is not to be confused with a full-time job.",
+      "answerZh": "興趣不應與全職工作混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "A hobby is not to be confused with a full-time job."
+    },
+    {
+      "id": "ss331-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Advice is a suggestion rather than an order.",
+      "promptZh": "建議是一項提議，而不是命令。",
+      "promptZhSource": "pdf",
+      "starter": "Advice",
+      "answer": "Advice is not to be confused with an order.",
+      "answerZh": "建議不應與命令混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "Advice is not to be confused with an order."
+    },
+    {
+      "id": "ss331-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A quiet person is not necessarily unfriendly.",
+      "promptZh": "安靜的人不一定不友善。",
+      "promptZhSource": "pdf",
+      "starter": "Being",
+      "answer": "Being quiet is not to be confused with being unfriendly.",
+      "answerZh": "安靜不應與不友善混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Being quiet is not to be confused with being unfriendly."
+    },
+    {
+      "id": "ss331-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Do not mistake a receipt for an invoice.",
+      "promptZh": "不要把收據誤當成發票。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A receipt is not to be confused with an invoice.",
+      "answerZh": "收據不應與發票混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "A receipt is not to be confused with an invoice."
+    },
+    {
+      "id": "ss331-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A common cold and the flu are different illnesses.",
+      "promptZh": "普通感冒和流感是不同的疾病。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A common cold is not to be confused with the flu.",
+      "answerZh": "普通感冒不應與流感混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "A common cold is not to be confused with the flu."
+    },
+    {
+      "id": "ss331-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A promise and a plan do not have the same meaning.",
+      "promptZh": "承諾和計劃的意思並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A promise is not to be confused with a plan.",
+      "answerZh": "承諾不應與計劃混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "A promise is not to be confused with a plan."
+    },
+    {
+      "id": "ss331-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Borrowing and stealing are different actions.",
+      "promptZh": "借用和偷竊是不同的行為。",
+      "promptZhSource": "pdf",
+      "starter": "Borrowing",
+      "answer": "Borrowing is not to be confused with stealing.",
+      "answerZh": "借用不應與偷竊混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Borrowing is not to be confused with stealing."
+    },
+    {
+      "id": "ss331-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Making a mistake is different from telling a lie on purpose.",
+      "promptZh": "犯錯和故意說謊並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A mistake is not to be confused with a deliberate lie.",
+      "answerZh": "犯錯不應與故意說謊混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "A mistake is not to be confused with a deliberate lie."
+    },
+    {
+      "id": "ss331-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A delay and a cancellation both affect travel plans. However, they are not the same.",
+      "promptZh": "延誤和取消都會影響行程。不過，兩者不是同一回事。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although both affect travel plans, a delay is not to be confused with a cancellation.",
+      "answerZh": "雖然延誤和取消都會影響行程，但兩者不應混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "Although both affect travel plans, a delay is not to be confused with a cancellation."
+    },
+    {
+      "id": "ss331-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In online security, a password and a username have different purposes.",
+      "promptZh": "在網絡保安方面，密碼和用戶名稱有不同用途。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In online security, a password is not to be confused with a username.",
+      "answerZh": "在網絡保安方面，密碼不應與用戶名稱混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "In online security, a password is not to be confused with a username."
+    },
+    {
+      "id": "ss331-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The salesperson explained that the early estimates could change and were different from the final price.",
+      "promptZh": "銷售員解釋，初步估價可能會改變，並不等同最終價格。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The salesperson explained that the early estimates were not to be confused with the final price.",
+      "answerZh": "銷售員解釋，初步估價不應與最終價格混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "The salesperson explained that the early estimates were not to be confused with the final price."
+    },
+    {
+      "id": "ss331-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A warning and a threat may both sound serious, but they serve different purposes.",
+      "promptZh": "警告和威脅聽起來都可能很嚴重，但作用不同。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A warning is not to be confused with a threat, even though both may sound serious.",
+      "answerZh": "警告不應與威脅混淆，即使兩者聽起來都可能很嚴重。",
+      "answerZhSource": "pdf",
+      "highlight": "A warning is not to be confused with a threat, even though both may sound serious."
+    },
+    {
+      "id": "ss331-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A refund and a discount are different.",
+      "promptZh": "退款和折扣並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A refund is not to be confused with a discount.",
+      "answerZh": "退款不應與折扣混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "A refund is not to be confused with a discount."
+    },
+    {
+      "id": "ss331-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "An online contact can be supportive, but this does not automatically make that person a close friend you know well in person.",
+      "promptZh": "網上聯絡人可以提供支持，但這不代表對方自然就是你在現實生活中熟悉的摯友。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although an online contact can be supportive, it is not to be confused with a close friend you know well in person.",
+      "answerZh": "雖然網上聯絡人可以提供支持，但不應把對方與你在現實生活中熟悉的摯友混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Although an online contact can be supportive, it is not to be confused with a close friend you know well in person."
+    },
+    {
+      "id": "ss331-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Practice sessions and the final performance are different stages.",
+      "promptZh": "練習環節與正式演出是不同階段。",
+      "promptZhSource": "pdf",
+      "starter": "Practice",
+      "answer": "Practice sessions are not to be confused with the final performance.",
+      "answerZh": "練習環節不應與正式演出混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "Practice sessions are not to be confused with the final performance."
+    },
+    {
+      "id": "ss331-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The doctor reminded us that a symptom is only a sign and is different from a diagnosis.",
+      "promptZh": "醫生提醒我們，症狀只是一個徵象，與診斷不同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor reminded us that a symptom is not to be confused with a diagnosis.",
+      "answerZh": "醫生提醒我們，症狀不應與診斷混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor reminded us that a symptom is not to be confused with a diagnosis."
+    },
+    {
+      "id": "ss331-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Flexibility does not mean that there are no rules.",
+      "promptZh": "彈性並不代表完全沒有規則。",
+      "promptZhSource": "pdf",
+      "starter": "Being",
+      "answer": "Being flexible is not to be confused with having no rules.",
+      "answerZh": "有彈性不應與毫無規則混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Being flexible is not to be confused with having no rules."
+    },
+    {
+      "id": "ss331-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A task can have few steps and still be difficult. Therefore, “simple” and “easy” do not always mean the same thing.",
+      "promptZh": "一項任務即使步驟很少，也可以很困難。因此，「簡單」與「容易」不一定相同。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One important distinction is this: a simple task is not to be confused with an easy task, because a task with few steps can still be difficult.",
+      "answerZh": "有一項重要分別：簡單的任務不應與容易的任務混為一談，因為步驟少的任務仍可以很困難。",
+      "answerZhSource": "pdf",
+      "highlight": "One important distinction is this: a simple task is not to be confused with an easy task, because a task with few steps can still be difficult."
+    },
+    {
+      "id": "ss331-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Equality does not always require every person to receive exactly the same treatment.",
+      "promptZh": "平等不一定要求每個人都得到完全相同的待遇。",
+      "promptZhSource": "pdf",
+      "starter": "Equality",
+      "answer": "Equality is not to be confused with treating every person in exactly the same way.",
+      "answerZh": "平等不應與讓每個人得到完全相同待遇混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Equality is not to be confused with treating every person in exactly the same way."
+    },
+    {
+      "id": "ss331-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Privacy protects personal space. Secrecy hides information from others. Keep the two ideas separate.",
+      "promptZh": "私隱保障個人空間。保密是把資訊向他人隱藏。兩者應加以區分。",
+      "promptZhSource": "pdf",
+      "starter": "Privacy",
+      "answer": "Privacy, which protects personal space, is not to be confused with secrecy, which hides information from others.",
+      "answerZh": "私隱保障個人空間，不應與向他人隱瞞資訊的保密做法混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Privacy, which protects personal space, is not to be confused with secrecy, which hides information from others."
+    },
+    {
+      "id": "ss331-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The teacher stressed that climate describes long-term patterns, while daily weather describes short-term conditions.",
+      "promptZh": "教師強調，氣候描述長期模式，而每日天氣描述短期狀況。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher stressed that climate, which describes long-term patterns, is not to be confused with daily weather, which describes short-term conditions.",
+      "answerZh": "教師強調，氣候描述長期模式，不應與描述短期狀況的每日天氣混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher stressed that climate, which describes long-term patterns, is not to be confused with daily weather, which describes short-term conditions."
+    },
+    {
+      "id": "ss331-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A person may work faster without using time or resources more efficiently.",
+      "promptZh": "一個人可以工作得更快，但未必能更有效運用時間或資源。",
+      "promptZhSource": "pdf",
+      "starter": "Working",
+      "answer": "Working faster is not to be confused with working more efficiently, because speed alone may not save time or resources.",
+      "answerZh": "工作得更快不應與工作得更有效率混為一談，因為單靠速度未必能節省時間或資源。",
+      "answerZhSource": "pdf",
+      "highlight": "Working faster is not to be confused with working more efficiently, because speed alone may not save time or resources."
+    },
+    {
+      "id": "ss331-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Criticism can feel uncomfortable, but it focuses on work or behaviour rather than attacking the person.",
+      "promptZh": "批評可能令人不舒服，但它針對工作或行為，而不是攻擊個人。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although criticism can be uncomfortable, it is not to be confused with a personal attack, because it focuses on work or behaviour rather than the person.",
+      "answerZh": "雖然批評可能令人不舒服，但不應把它與人身攻擊混為一談，因為批評針對工作或行為，而非針對個人。",
+      "answerZhSource": "pdf",
+      "highlight": "Although criticism can be uncomfortable, it is not to be confused with a personal attack, because it focuses on work or behaviour rather than the person."
+    },
+    {
+      "id": "ss331-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Good leadership does not mean controlling every decision.",
+      "promptZh": "良好領導並不代表控制每一項決定。",
+      "promptZhSource": "pdf",
+      "starter": "Leadership",
+      "answer": "Leadership is not to be confused with controlling every decision.",
+      "answerZh": "領導不應與控制每一項決定混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Leadership is not to be confused with controlling every decision."
+    },
+    {
+      "id": "ss331-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A tradition may guide behaviour, but it is not a law that everyone must obey.",
+      "promptZh": "傳統或會影響行為，但並非人人必須遵守的法律。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A tradition, which may guide behaviour, is not to be confused with a law that everyone must obey.",
+      "answerZh": "傳統或會影響行為，但不應與人人必須遵守的法律混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "A tradition, which may guide behaviour, is not to be confused with a law that everyone must obey."
+    },
+    {
+      "id": "ss331-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "An opportunity gives someone a chance to succeed, but it does not guarantee success.",
+      "promptZh": "機會讓人有成功的可能，但不保證成功。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not to be confused with a guarantee, an opportunity only gives someone a chance to succeed.",
+      "answerZh": "機會只會給人成功的可能，不應與保證混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Not to be confused with a guarantee, an opportunity only gives someone a chance to succeed."
+    },
+    {
+      "id": "ss331-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Saving and investing are different ways of managing money.",
+      "promptZh": "儲蓄和投資是管理金錢的不同方法。",
+      "promptZhSource": "pdf",
+      "starter": "Saving",
+      "answer": "Saving money is not to be confused with investing money.",
+      "answerZh": "儲蓄不應與投資混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "Saving money is not to be confused with investing money."
+    },
+    {
+      "id": "ss331-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A product may be popular and still be poorly made. Popularity does not prove quality.",
+      "promptZh": "產品可能很受歡迎，卻仍然製作粗劣。受歡迎並不能證明品質良好。",
+      "promptZhSource": "pdf",
+      "starter": "Popularity",
+      "answer": "Popularity is not to be confused with quality, as a popular product may still be poorly made.",
+      "answerZh": "受歡迎不應與品質混為一談，因為受歡迎的產品仍可能製作粗劣。",
+      "answerZhSource": "pdf",
+      "highlight": "Popularity is not to be confused with quality, as a popular product may still be poorly made."
+    },
+    {
+      "id": "ss331-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Freedom still requires people to consider others. It does not mean that people have no responsibilities.",
+      "promptZh": "自由仍要求人們顧及他人，並不代表沒有責任。",
+      "promptZhSource": "pdf",
+      "starter": "Freedom",
+      "answer": "Freedom, not to be confused with a lack of responsibility, still requires people to consider others.",
+      "answerZh": "自由不應與毫無責任混為一談，它仍要求人們顧及他人。",
+      "answerZhSource": "pdf",
+      "highlight": "Freedom, not to be confused with a lack of responsibility, still requires people to consider others."
+    },
+    {
+      "id": "ss331-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Someone can be polite without agreeing with you.",
+      "promptZh": "一個人即使不同意你，也可以保持有禮。",
+      "promptZhSource": "pdf",
+      "starter": "Politeness",
+      "answer": "Politeness is not to be confused with agreement, because someone can be polite without agreeing.",
+      "answerZh": "有禮不應與同意混為一談，因為一個人即使不同意，也可以保持有禮。",
+      "answerZhSource": "pdf",
+      "highlight": "Politeness is not to be confused with agreement, because someone can be polite without agreeing."
+    },
+    {
+      "id": "ss331-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 23
+      },
+      "prompt": "Creativity can produce fresh solutions within reasonable limits; it does not mean ignoring instructions.",
+      "promptZh": "創意可以在合理限制內帶來新方案；它並不代表忽視指示。",
+      "promptZhSource": "pdf",
+      "starter": "Creativity",
+      "answer": "Creativity, not to be confused with ignoring instructions, allows people to find fresh solutions within reasonable limits.",
+      "answerZh": "創意不應與忽視指示混為一談，它讓人可以在合理限制內找出新方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Creativity, not to be confused with ignoring instructions, allows people to find fresh solutions within reasonable limits."
+    },
+    {
+      "id": "ss331-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The report says that doing something for a long time does not automatically make someone highly skilled.",
+      "promptZh": "報告指出，長時間做某件事並不會自動令一個人變得十分專業。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report makes clear that experience is not to be confused with expertise, because doing something for a long time does not automatically make someone highly skilled.",
+      "answerZh": "報告清楚指出，經驗不應與專業能力混為一談，因為長時間做某件事並不會自動令人變得十分專業。",
+      "answerZhSource": "pdf",
+      "highlight": "The report makes clear that experience is not to be confused with expertise, because doing something for a long time does not automatically make someone highly skilled."
+    },
+    {
+      "id": "ss331-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "An urgent task may need immediate attention, but it is not always the most important task.",
+      "promptZh": "緊急任務可能需要立即處理，但不一定是最重要的任務。",
+      "promptZhSource": "pdf",
+      "starter": "Urgency",
+      "answer": "Urgency is not to be confused with importance: an urgent task may need immediate attention without being the most important task.",
+      "answerZh": "緊急性不應與重要性混為一談：緊急任務可能需要立即處理，卻不一定是最重要的任務。",
+      "answerZhSource": "pdf",
+      "highlight": "Urgency is not to be confused with importance: an urgent task may need immediate attention without being the most important task."
+    },
+    {
+      "id": "ss331-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A person can be busy all day without completing useful work.",
+      "promptZh": "一個人可以整天都很忙，卻沒有完成有用的工作。",
+      "promptZhSource": "pdf",
+      "starter": "Being",
+      "answer": "Being busy is not to be confused with being productive, since a person may be busy all day without completing useful work.",
+      "answerZh": "忙碌不應與有生產力混為一談，因為一個人可以整天都很忙，卻沒有完成有用的工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Being busy is not to be confused with being productive, since a person may be busy all day without completing useful work."
+    },
+    {
+      "id": "ss331-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Intelligence is the ability to learn, understand and solve problems; it is not simply the amount of knowledge a person has.",
+      "promptZh": "智力是學習、理解和解決問題的能力，並不單純是擁有多少知識。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not to be confused with knowledge, intelligence is the ability to learn, understand and solve problems.",
+      "answerZh": "智力不應與知識混為一談；智力是學習、理解和解決問題的能力。",
+      "answerZhSource": "pdf",
+      "highlight": "Not to be confused with knowledge, intelligence is the ability to learn, understand and solve problems."
+    },
+    {
+      "id": "ss331-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Caution can prevent careless decisions. Fear is a different feeling.",
+      "promptZh": "謹慎可以避免草率決定。恐懼則是另一種感受。",
+      "promptZhSource": "pdf",
+      "starter": "Caution",
+      "answer": "Caution, which can prevent careless decisions, is not to be confused with fear.",
+      "answerZh": "謹慎可以避免草率決定，但不應與恐懼混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Caution, which can prevent careless decisions, is not to be confused with fear."
+    },
+    {
+      "id": "ss331-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "At work, a clear and direct message does not have to be rude.",
+      "promptZh": "在工作場合，清楚直接的訊息不一定等於無禮。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In workplace communication, being direct is not to be confused with being rude.",
+      "answerZh": "在職場溝通中，直接不應與無禮混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "In workplace communication, being direct is not to be confused with being rude."
+    },
+    {
+      "id": "ss331-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Fairness may require different support for different people, so it does not always mean giving everyone the same result.",
+      "promptZh": "公平可能要求為不同的人提供不同支援，因此並不一定代表讓每個人得到相同結果。",
+      "promptZhSource": "pdf",
+      "starter": "Fairness",
+      "answer": "Fairness is not to be confused with giving everyone the same result, because different people may need different support.",
+      "answerZh": "公平不應與讓每個人得到相同結果混為一談，因為不同的人可能需要不同支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Fairness is not to be confused with giving everyone the same result, because different people may need different support."
+    },
+    {
+      "id": "ss331-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Two events may happen together, but this alone does not prove that one caused the other.",
+      "promptZh": "兩件事可能同時發生，但單憑這一點並不能證明其中一件事導致另一件事。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A correlation between two events is not to be confused with proof that one event caused the other.",
+      "answerZh": "兩件事之間的相關性不應與其中一件事導致另一件事的證明混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "A correlation between two events is not to be confused with proof that one event caused the other."
+    },
+    {
+      "id": "ss331-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The presenter emphasised that a prediction describes what may happen, while a promise states what someone commits to doing.",
+      "promptZh": "講者強調，預測描述可能發生的事，而承諾說明某人答應會做甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The presenter emphasised that a prediction, which describes what may happen, is not to be confused with a promise about what someone will do.",
+      "answerZh": "講者強調，預測描述可能發生的事，不應與某人承諾會做甚麼混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "The presenter emphasised that a prediction, which describes what may happen, is not to be confused with a promise about what someone will do."
+    },
+    {
+      "id": "ss331-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "This temporary solution only reduces the immediate problem; it is not a permanent answer.",
+      "promptZh": "這個臨時方案只會減輕眼前問題，並不是長遠答案。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not to be confused with a permanent answer, this temporary solution is intended only to reduce the immediate problem.",
+      "answerZh": "這個臨時方案只用來減輕眼前問題，不應與長遠答案混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Not to be confused with a permanent answer, this temporary solution is intended only to reduce the immediate problem."
+    },
+    {
+      "id": "ss331-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Feedback is meant to help someone improve. It does not give a final judgement about the person.",
+      "promptZh": "意見回饋是為了幫助某人改善，並不是對那個人的最終判斷。",
+      "promptZhSource": "pdf",
+      "starter": "Feedback",
+      "answer": "Feedback, not to be confused with a final judgement, is meant to help someone improve.",
+      "answerZh": "意見回饋是為了幫助某人改善，不應與最終判斷混為一談。",
+      "answerZhSource": "pdf",
+      "highlight": "Feedback, not to be confused with a final judgement, is meant to help someone improve."
+    },
+    {
+      "id": "ss331-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "A model may closely represent the original object, but it is not the real object itself.",
+      "promptZh": "模型可能與原物非常相似，但它並不是原物本身。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although it may closely represent the original object, a model is not to be confused with the real object itself.",
+      "answerZh": "雖然模型可能與原物非常相似，但不應與原物本身混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "Although it may closely represent the original object, a model is not to be confused with the real object itself."
+    },
+    {
+      "id": "ss331-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Permission to open or edit a shared file does not make you its owner.",
+      "promptZh": "獲准開啟或編輯共享檔案，並不代表你擁有該檔案。",
+      "promptZhSource": "pdf",
+      "starter": "Access",
+      "answer": "Access to a shared file is not to be confused with ownership of that file.",
+      "answerZh": "共享檔案的存取權不應與該檔案的擁有權混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "Access to a shared file is not to be confused with ownership of that file."
+    },
+    {
+      "id": "ss331-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The report separates the collected facts from the conclusions based on those facts.",
+      "promptZh": "報告把收集所得的事實與根據那些事實得出的結論分開。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this report, raw data is not to be confused with the conclusions drawn from it.",
+      "answerZh": "在這份報告中，原始數據不應與根據數據得出的結論混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "In this report, raw data is not to be confused with the conclusions drawn from it."
+    },
+    {
+      "id": "ss331-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "An action may be permitted by law but still raise moral concerns. Therefore, legality and ethics are not the same.",
+      "promptZh": "某項行為可能獲法律准許，但仍會引起道德疑慮。因此，合法與合乎道德並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One point must remain clear: what is legal is not to be confused with what is ethical, because an action permitted by law may still raise moral concerns.",
+      "answerZh": "有一點必須保持清楚：合法不應與合乎道德混為一談，因為獲法律准許的行為仍可能引起道德疑慮。",
+      "answerZhSource": "pdf",
+      "highlight": "One point must remain clear: what is legal is not to be confused with what is ethical, because an action permitted by law may still raise moral concerns."
+    },
+    {
+      "id": "ss331-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Finding no evidence does not prove that the event did not happen.",
+      "promptZh": "找不到證據並不能證明事件沒有發生。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The absence of evidence is not to be confused with evidence that something did not happen.",
+      "answerZh": "沒有證據，不應被誤當成事情沒有發生的證明。",
+      "answerZhSource": "pdf",
+      "highlight": "The absence of evidence is not to be confused with evidence that something did not happen."
+    },
+    {
+      "id": "ss331-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Short-term success may disappear when conditions change, whereas lasting progress continues over time.",
+      "promptZh": "短期成功可能會在情況改變時消失，而持久進步則會隨時間延續。",
+      "promptZhSource": "pdf",
+      "starter": "Short-term",
+      "answer": "Short-term success, not to be confused with lasting progress, can disappear when conditions change, whereas lasting progress continues over time.",
+      "answerZh": "短期成功不應與持久進步混為一談；短期成功可能在情況改變時消失，而持久進步則會隨時間延續。",
+      "answerZhSource": "pdf",
+      "highlight": "Short-term success, not to be confused with lasting progress, can disappear when conditions change, whereas lasting progress continues over time."
+    }
+  ]
+}

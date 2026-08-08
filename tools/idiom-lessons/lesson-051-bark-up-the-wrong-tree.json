@@ -1,0 +1,1429 @@
+{
+  "lesson": {
+    "id": "idiom-51",
+    "order": 51,
+    "slug": "bark-up-the-wrong-tree",
+    "version": "1",
+    "title": "找錯方向／怪錯人",
+    "titleEn": "bark up the wrong tree",
+    "titleZh": "找錯方向／怪錯人",
+    "source": {
+      "file": "Idiom 51 - “Bark Up the Wrong Tree”.pdf",
+      "pageCount": 29,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "exercisePdfPages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "answerKeyPdfPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "bark up the wrong tree",
+        "highlight": "bark up the wrong tree"
+      }
+    ],
+    "examples": [
+      {
+        "en": "You are barking up the wrong tree.",
+        "zh": "你找錯方向了。",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "en": "The manager barked up the wrong tree by blaming the new worker.",
+        "zh": "經理怪錯了新員工。",
+        "highlight": "barked up the wrong tree"
+      }
+    ],
+    "meaning": {
+      "en": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+      "zh": "因為判斷錯誤，把責任、懷疑、注意力或努力放在錯誤的人、原因、地方或解決方法上；即找錯方向、怪錯人、找錯對象或誤判問題所在。",
+      "naturalZh": [
+        "因為判斷錯誤，把責任、懷疑、注意力或努力放在錯誤的人、原因、地方或解決方法上",
+        "即找錯方向、怪錯人、找錯對象或誤判問題所在。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "The expression is informal to neutral. It is common in conversation, workplace discussions, interviews, journalism and general writing. It may sound direct or critical, especially when used with you.",
+      "summaryZh": "這個表達屬於非正式至中性語域，常見於日常對話、工作討論、訪問、新聞及一般文章。 以 you 作主語時，它可能帶有直接批評的語氣。",
+      "contextsEn": [
+        "I think you may be barking up the wrong tree",
+        "I’m afraid you’re barking up the wrong tree",
+        "Could we be barking up the wrong tree?"
+      ],
+      "contextsZh": [
+        "我認為你可能找錯方向了。",
+        "恐怕你找錯對象了。",
+        "我們會否用錯了方法？"
+      ],
+      "formalEn": "In highly formal legal, academic or official writing, expressions such as mistaken, focusing on the wrong cause or pursuing the wrong course may be more suitable. Collins labels the idiom as informal and describes it as directing attention or effort towards the wrong person or thing.",
+      "formalZh": "在非常正式的法律、學術或官方文章中，使用 mistaken、focusing on the wrong cause 或 pursuing the wrong course 可能更合適。"
+    },
+    "fixedVariable": {
+      "fixed": "bark up the wrong tree",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + am / is / are + barking up the wrong tree.",
+          "example": "You are barking up the wrong tree.",
+          "highlight": "barking up the wrong tree"
+        },
+        {
+          "form": "Subject + barked / was barking / were barking + up the wrong tree.",
+          "example": "The manager barked up the wrong tree by blaming the new worker.",
+          "highlight": "barked up the wrong tree"
+        },
+        {
+          "form": "Subject + be + barking up the wrong tree + by + verb-ing.",
+          "example": "We are barking up the wrong tree by checking the printer.",
+          "highlight": "barking up the wrong tree"
+        },
+        {
+          "form": "If + mistaken belief or action, subject + be / modal + barking up the wrong tree.",
+          "example": "If you think I deleted the file, you’re barking up the wrong tree.",
+          "highlight": "barking up the wrong tree"
+        },
+        {
+          "form": "Subject + may / might / could + be barking up the wrong tree.",
+          "example": "We might be barking up the wrong tree.",
+          "highlight": "barking up the wrong tree"
+        },
+        {
+          "form": "Am / Is / Are / Could + subject + be barking up the wrong tree?",
+          "example": "Are we barking up the wrong tree?",
+          "highlight": "barking up the wrong tree"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Present Situation",
+        "titleZh": "句式一：現在的錯誤方向",
+        "formula": "Subject + am / is / are + barking up the wrong tree.",
+        "descriptionEn": "Source grammar frame: Subject + am / is / are + barking up the wrong tree.",
+        "descriptionZh": "原檔列出的句法框架：Subject + am / is / are + barking up the wrong tree。",
+        "examples": [
+          {
+            "en": "You are barking up the wrong tree.",
+            "zh": "你找錯方向了。",
+            "highlight": "barking up the wrong tree"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Past Mistake",
+        "titleZh": "句式二：過去的錯誤判斷",
+        "formula": "Subject + barked / was barking / were barking + up the wrong tree.",
+        "descriptionEn": "Source grammar frame: Subject + barked / was barking / were barking + up the wrong tree.",
+        "descriptionZh": "原檔列出的句法框架：Subject + barked / was barking / were barking + up the wrong tree。",
+        "examples": [
+          {
+            "en": "The manager barked up the wrong tree by blaming the new worker.",
+            "zh": "經理怪錯了新員工。",
+            "highlight": "barked up the wrong tree"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Explaining the Mistaken Action",
+        "titleZh": "句式三：說明錯誤行動",
+        "formula": "Subject + be + barking up the wrong tree + by + verb-ing.",
+        "descriptionEn": "Source grammar frame: Subject + be + barking up the wrong tree + by + verb-ing.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + barking up the wrong tree + by + verb-ing。",
+        "examples": [
+          {
+            "en": "We are barking up the wrong tree by checking the printer.",
+            "zh": "我們檢查打印機是找錯方向。",
+            "highlight": "barking up the wrong tree"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Conditional Warning",
+        "titleZh": "句式四：條件式提醒",
+        "formula": "If + mistaken belief or action, subject + be / modal + barking up the wrong tree.",
+        "descriptionEn": "Source grammar frame: If + mistaken belief or action, subject + be / modal + barking up the wrong tree.",
+        "descriptionZh": "原檔列出的句法框架：If + mistaken belief or action, subject + be / modal + barking up the wrong tree。",
+        "examples": [
+          {
+            "en": "If you think I deleted the file, you’re barking up the wrong tree.",
+            "zh": "如果你認為是我刪除檔案，你便找錯對象了。",
+            "highlight": "barking up the wrong tree"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Possibility and Uncertainty",
+        "titleZh": "句式五：可能性及不確定程度",
+        "formula": "Subject + may / might / could + be barking up the wrong tree.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / could + be barking up the wrong tree.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / could + be barking up the wrong tree。",
+        "examples": [
+          {
+            "en": "We might be barking up the wrong tree.",
+            "zh": "我們可能找錯方向了。",
+            "highlight": "barking up the wrong tree"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Question Form",
+        "titleZh": "句式六：疑問句",
+        "formula": "Am / Is / Are / Could + subject + be barking up the wrong tree?",
+        "descriptionEn": "Source grammar frame: Am / Is / Are / Could + subject + be barking up the wrong tree?.",
+        "descriptionZh": "原檔列出的句法框架：Am / Is / Are / Could + subject + be barking up the wrong tree?。",
+        "examples": [
+          {
+            "en": "Are we barking up the wrong tree?",
+            "zh": "我們是否找錯方向了？",
+            "highlight": "barking up the wrong tree"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Identifies the Type of Mistake Clearly",
+        "titleZh": "清楚指出錯誤的性質",
+        "en": "The idiom does not merely say that someone is wrong. It shows that the person has directed attention, blame or effort towards the wrong target.",
+        "zh": "這個慣用語不只是說某人錯了，而是指出對方把注意力、責任或努力放在錯誤的對象上。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Corrects Blame Concisely",
+        "titleZh": "簡潔地糾正錯誤指責",
+        "en": "Instead of giving a long explanation that someone has accused the wrong person, the idiom communicates the idea in one memorable expression.",
+        "zh": "這個表達可以用簡短而容易記憶的方式，指出對方怪錯了人。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful When Rejecting a Request",
+        "titleZh": "適合用來表示對方找錯人",
+        "en": "If somebody asks you to do something outside your responsibility, you can explain that they have approached the wrong person.",
+        "zh": "如果別人要求你處理不屬於你職責的事情，你可以用這個表達指出對方找錯人。 恐怕你找錯對象了。 退款由會計組處理。",
+        "examples": [
+          {
+            "en": "I’m afraid you’re barking up the wrong tree. The accounts team handles refunds.",
+            "zh": "恐怕你找錯對象了。退款由會計組處理。",
+            "highlight": "barking up the wrong tree"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Preserve Uncertainty",
+        "titleZh": "可以保留不確定程度",
+        "en": "With may, might or could, the expression allows speakers to question an approach without claiming complete certainty.",
+        "zh": "配合 may、might 或 could，說話者可以婉轉地質疑目前的方向，而不必斷言對方一定錯誤。 我們可能找錯方向了。",
+        "examples": [
+          {
+            "en": "We might be barking up the wrong tree.",
+            "zh": "我們可能找錯方向了。",
+            "highlight": "barking up the wrong tree"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Natural in Problem-Solving Discussions",
+        "titleZh": "適合用於解決問題的討論",
+        "en": "The idiom is useful when a team is considering whether it has identified the correct cause, person or solution.",
+        "zh": "當團隊正在判斷是否找對原因、人物或解決方法時，這個表達十分實用。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Provides a Vivid but Compact Alternative",
+        "titleZh": "提供生動而簡潔的替代說法",
+        "en": "The idiom is useful, but it is not automatically better than plain language. Use it only when there is a clear mistaken target or direction.",
+        "zh": "我們一直追查錯方向。 這個慣用語十分實用，但並非在所有情況下都比一般說法更好。 只有在確實存在錯誤對象或錯誤方向時，才應使用。",
+        "examples": [
+          {
+            "en": "We have been barking up the wrong tree.",
+            "zh": "我們一直追查錯方向。",
+            "highlight": "barking up the wrong tree"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Most Likely Origin; Exact First Use Uncertain",
+      "statusZh": "最可能的來源；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The exact first use has not been identified. An example in James Kirke Paulding’s 1832 novel Westward Ho! is often cited, while a historical glossary also records American examples from 1833. These are early written records, not proof that either writer invented the expression.",
+          "zh": "這個表達的確切首次用法尚未能確認。 James Kirke Paulding 在1832年的小說《Westward Ho! 》 中的例子經常被引用，而一部歷史詞彙資料亦收錄了1833年的美國用例。 這些只是較早期的文字記錄，並不能證明任何一位作者創造了這個表達。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The image of a dog choosing the wrong tree naturally developed into the idea of a person pursuing the wrong suspect, explanation, place or solution.",
+          "zh": "狗選錯樹的畫面，逐漸引申為某人追查錯誤的嫌疑人、解釋、地方或解決方法。"
+        }
+      ],
+      "memoryEn": "The dog chooses the wrong tree; the person chooses the wrong target.",
+      "memoryZh": "狗找錯了樹；人找錯了對象。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Exact Fixed Form",
+        "titleZh": "規則一：保留完整固定形式",
+        "en": "Correct target: bark up the wrong tree. Incorrect target forms: bark at the wrong tree; bark up a wrong tree; bark up wrong tree.",
+        "zh": "必須保留冠詞 the。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use It for Misdirected Thinking or Effort",
+        "titleZh": "規則二：用於錯誤的思考或努力方向",
+        "en": "blames the wrong person; suspects the wrong person; looks in the wrong place; focuses on the wrong cause; asks the wrong person for help; tries the wrong solution.",
+        "zh": "當某人怪錯人、懷疑錯對象、找錯地方、誤判原因、向錯的人求助或使用錯誤方法時，便可以使用這個表達。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Does Not Mean Every Kind of Mistake",
+        "titleZh": "規則三：不是所有錯誤都可以使用",
+        "en": "Writing one incorrect date is simply a mistake. It does not necessarily involve following a wrong person, cause or line of enquiry.",
+        "zh": "我寫錯日期，所以我找錯方向。 寫錯一個日期只是一般錯誤，未必涉及追查錯誤的人、原因或方向。",
+        "examples": [
+          {
+            "en": "I wrote the wrong date, so I barked up the wrong tree.",
+            "zh": "我寫錯日期，所以我找錯方向。",
+            "highlight": "barked up the wrong tree"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "The Subject Must Be Following the Wrong Direction",
+        "titleZh": "規則四：主語必須是判斷或方向錯誤的一方",
+        "en": "The police were following the mistaken line of enquiry.",
+        "zh": "警方盤問亞倫是追查錯方向。 警方是作出錯誤追查的一方。",
+        "examples": [
+          {
+            "en": "The police were barking up the wrong tree by questioning Aaron.",
+            "zh": "警方盤問亞倫是追查錯方向。",
+            "highlight": "barking up the wrong tree"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則五：保留時態及確定程度",
+        "en": "Do not change may be barking into were barking. This would turn a possibility into an established past fact.",
+        "zh": "我們可能找錯方向了。 我們當時找錯方向了。 不要把 may be barking 改成 were barking，否則會把可能性變成已確定的過去事實。",
+        "examples": [
+          {
+            "en": "We may be barking up the wrong tree.",
+            "zh": "我們可能找錯方向了。",
+            "highlight": "barking up the wrong tree"
+          },
+          {
+            "en": "We were barking up the wrong tree.",
+            "zh": "我們當時找錯方向了。",
+            "highlight": "barking up the wrong tree"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Soften Direct Criticism When Necessary",
+        "titleZh": "規則六：有需要時減輕批評語氣",
+        "en": "I’m afraid you may be barking up the wrong tree.",
+        "zh": "直接說 You’re barking up the wrong tree 可能令人感到被批評。 面對顧客、同事或不熟悉的人時，可以加入 I think、may、might 或 I’m afraid。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Avoid Accidental Literal Meaning",
+        "titleZh": "規則七：避免意外產生字面意思",
+        "en": "The dog was barking at the tree. Every answer in this exercise must use the figurative meaning.",
+        "zh": "狗正向着樹吠叫。 偵探盤問一名無辜的人，是追查錯方向。 本練習中的所有答案都必須使用比喻意思。",
+        "examples": [
+          {
+            "en": "The detective was barking up the wrong tree by questioning an innocent person.",
+            "zh": "偵探盤問一名無辜的人，是追查錯方向。",
+            "highlight": "barking up the wrong tree"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Use Only the Required Target",
+        "titleZh": "規則八：只使用指定目標表達",
+        "en": "Use Only the Required Target",
+        "zh": "只使用指定目標表達",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using bark up the wrong tree. Change bark according to the required subject, tense or modal verb, but keep up the wrong tree fixed.",
+      "zh": "使用 bark up the wrong tree 改寫句子或完成回應。 按照主語、時態或情態動詞改變 bark，但必須保留固定部分 up the wrong tree。"
+    },
+    "questions": [
+      {
+        "id": "idiom-51-q01",
+        "number": 1,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Nora thinks Ethan took her notebook, but Ethan was absent that day.",
+        "promptZh": "諾拉認為是伊森拿走她的筆記簿，但伊森那天缺席。",
+        "starter": "Nora",
+        "answer": "Nora is barking up the wrong tree by blaming Ethan for taking her notebook, as he was absent that day.",
+        "answerZh": "諾拉怪錯了伊森，因為伊森那天缺席，不可能拿走她的筆記簿。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q02",
+        "number": 2,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The teacher blames the printer for the missing page, but the student never saved the page.",
+        "promptZh": "老師認為缺少的一頁是打印機造成的，但學生根本沒有儲存那一頁。",
+        "starter": "The",
+        "answer": "The teacher is barking up the wrong tree by blaming the printer for the missing page; the student never saved it.",
+        "answerZh": "老師怪錯了打印機；學生根本沒有儲存那一頁。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q03",
+        "number": 3,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "You are asking Leo to change the booking, but only the hotel can do it.",
+        "promptZh": "你正在請里奧更改預訂，但只有酒店可以處理。",
+        "starter": "You",
+        "answer": "You are barking up the wrong tree by asking Leo to change the booking because only the hotel can do it.",
+        "answerZh": "你請里奧更改預訂是找錯對象，因為只有酒店可以處理。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q04",
+        "number": 4,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The coach blamed the goalkeeper for the defeat, but the goalkeeper did not play in the match.",
+        "promptZh": "教練把落敗怪在守門員身上，但守門員根本沒有在該場比賽上場。",
+        "starter": "The",
+        "answer": "The coach barked up the wrong tree by blaming the goalkeeper for the defeat because he did not play in the match.",
+        "answerZh": "教練怪錯了守門員，因為他根本沒有在該場比賽上場。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barked up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q05",
+        "number": 5,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "I searched the office for my phone, but I had left it at home.",
+        "promptZh": "我在辦公室尋找手機，但原來把它留在家中。",
+        "starter": "I",
+        "answer": "I was barking up the wrong tree by searching the office for my phone; I had left it at home.",
+        "answerZh": "我在辦公室尋找手機是找錯地方；我原來把它留在家中。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q06",
+        "number": 6,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "They blamed the rain for the café being closed. In fact, the owner had closed it to repair the kitchen.",
+        "promptZh": "他們以為咖啡店因下雨而關門。事實上，店主是為了維修廚房而關店。",
+        "starter": "They",
+        "answer": "They were barking up the wrong tree when they blamed the rain; the owner had closed the café to repair the kitchen.",
+        "answerZh": "他們把咖啡店關門怪在下雨上是找錯原因；店主其實是關店維修廚房。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q07",
+        "number": 7,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The customer is complaining to the cashier about a late online order, but the delivery team handles it.",
+        "promptZh": "顧客正向收銀員投訴網上訂單遲到，但這件事由送貨組處理。",
+        "starter": "The",
+        "answer": "The customer is barking up the wrong tree by complaining to the cashier about the late online order; the delivery team handles it.",
+        "answerZh": "顧客向收銀員投訴網上訂單遲到是找錯對象；送貨組才負責處理。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q08",
+        "number": 8,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Dad thinks the music comes from my room, but it comes from the flat upstairs.",
+        "promptZh": "爸爸以為音樂聲來自我的房間，但其實來自樓上的單位。",
+        "starter": "Dad",
+        "answer": "Dad is barking up the wrong tree if he thinks the music comes from my room; it comes from the flat upstairs.",
+        "answerZh": "如果爸爸認為音樂來自我的房間，他便找錯方向；聲音其實來自樓上的單位。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q09",
+        "number": 9,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "We kept changing the plug to repair the lamp, but the bulb was broken.",
+        "promptZh": "我們不停更換插頭來修理燈，但真正壞掉的是燈泡。",
+        "starter": "We",
+        "answer": "We were barking up the wrong tree by changing the plug; the broken bulb was the real problem.",
+        "answerZh": "我們更換插頭是用錯方法；真正的問題是燈泡壞了。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q10",
+        "number": 10,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The police questioned Aaron about the theft, but the camera showed that he was in another shop.",
+        "promptZh": "警方因盜竊案盤問亞倫，但閉路電視顯示他當時在另一間商店。",
+        "starter": "The",
+        "answer": "The police were barking up the wrong tree by questioning Aaron about the theft; the camera showed that he was in another shop.",
+        "answerZh": "警方就盜竊案盤問亞倫是追查錯方向；閉路電視顯示他當時在另一間商店。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q11",
+        "number": 11,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Whenever sales fall, the manager blames the weather. However, customers say the prices are too high.",
+        "promptZh": "每當銷量下降，經理都會歸咎天氣。然而，顧客表示價格太高。",
+        "starter": "The",
+        "answer": "The manager always barks up the wrong tree when she blames the weather for low sales; customers say the prices are too high.",
+        "answerZh": "經理每次把銷量低迷歸咎天氣，都是找錯原因；顧客表示價格太高。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barks up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q12",
+        "number": 12,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The team has spent two weeks checking the computer, but the broken cable is the problem.",
+        "promptZh": "團隊花了兩星期檢查電腦，但問題其實是電線損壞。",
+        "starter": "The",
+        "answer": "The team has been barking up the wrong tree for two weeks by checking the computer; the broken cable is the problem.",
+        "answerZh": "團隊兩星期來一直檢查電腦，方向錯了；真正的問題是電線損壞。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q13",
+        "number": 13,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Only the airline can change your flight, so asking me will not help.",
+        "promptZh": "只有航空公司可以更改你的航班，所以請我處理並沒有幫助。",
+        "starter": "If",
+        "answer": "If you ask me to change your flight, you will be barking up the wrong tree because only the airline can do it.",
+        "answerZh": "如果你請我更改航班，你便找錯人，因為只有航空公司可以處理。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q14",
+        "number": 14,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Perhaps the app is not making the phone slow. The phone’s storage is full.",
+        "promptZh": "應用程式可能不是令手機變慢的原因。手機的儲存空間已滿。",
+        "starter": "We",
+        "answer": "We may be barking up the wrong tree by blaming the app for the slow phone; its storage is full.",
+        "answerZh": "我們可能怪錯了應用程式；手機變慢可能是因為儲存空間已滿。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q15",
+        "number": 15,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The class is searching the classroom for the missing box, but it was moved to the store room yesterday.",
+        "promptZh": "全班正在課室尋找失蹤的箱子，但箱子昨天已被移到儲物室。",
+        "starter": "Could",
+        "answer": "Could the class be barking up the wrong tree by searching the classroom, since the box was moved to the store room yesterday?",
+        "answerZh": "箱子昨天已被移到儲物室，因此全班在課室尋找會否是找錯方向？",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q16",
+        "number": 16,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Are we right to blame Sam for the broken window? He left before it happened.",
+        "promptZh": "我們把窗戶破裂怪在森姆身上是否正確？事情發生前他已經離開。",
+        "starter": "Are",
+        "answer": "Are we barking up the wrong tree by blaming Sam for the broken window, since he left before it happened?",
+        "answerZh": "森姆在事情發生前已經離開，因此我們把破窗怪在他身上，是否找錯對象？",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q17",
+        "number": 17,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Should I ask Rachel to approve my leave? B: Rachel is not your manager.",
+        "promptZh": "甲：我應否請瑞秋批准我的假期？ 乙：瑞秋不是你的經理。",
+        "starter": "No.",
+        "answer": "No. You would be barking up the wrong tree by asking Rachel to approve your leave because she is not your manager.",
+        "answerZh": "不應該。你請瑞秋批准假期是找錯對象，因為她不是你的經理。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q18",
+        "number": 18,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The doctor first thought food caused the stomach pain, but a test showed that a virus caused it.",
+        "promptZh": "醫生最初認為食物引致肚痛，但檢查顯示原因是病毒。",
+        "starter": "The",
+        "answer": "The doctor had been barking up the wrong tree by blaming food before the test showed that a virus caused the pain.",
+        "answerZh": "醫生在檢查結果出來前把肚痛歸咎食物，其實找錯了原因；結果顯示是病毒所致。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q19",
+        "number": 19,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The school plans to make the lessons longer, but unclear instructions may be the real problem.",
+        "promptZh": "學校計劃延長課堂時間，但真正的問題可能是指示不清楚。",
+        "starter": "The",
+        "answer": "The school might be barking up the wrong tree by making the lessons longer; unclear instructions may be the real problem.",
+        "answerZh": "學校延長課堂時間可能是用錯方法；真正的問題可能是指示不清楚。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q20",
+        "number": 20,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "You are asking me for a refund, but the shop handles payments. I only delivered the parcel.",
+        "promptZh": "你正在要求我退款，但付款事宜由商店處理。我只負責送貨。",
+        "starter": "I’m",
+        "answer": "I’m afraid you’re barking up the wrong tree by asking me for a refund; the shop handles payments, and I only delivered the parcel.",
+        "answerZh": "恐怕你要求我退款是找錯對象；付款事宜由商店處理，而我只負責送貨。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q21",
+        "number": 21,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: I think Ben took the remote control. B: Ben has been away all week.",
+        "promptZh": "甲：我認為是本拿走了遙控器。 乙：本整個星期都不在這裏。",
+        "starter": "You’re",
+        "answer": "You’re barking up the wrong tree if you suspect Ben; he has been away all week.",
+        "answerZh": "如果你懷疑本，便是懷疑錯人了；他整個星期都不在這裏。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q22",
+        "number": 22,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Oliver blamed the weather for the late bus, but the bus company reported a road accident.",
+        "promptZh": "奧利弗把巴士延誤歸咎天氣，但巴士公司表示路上發生了交通意外。",
+        "starter": "Oliver",
+        "answer": "Oliver is barking up the wrong tree by blaming the weather for the late bus; the bus company reported a road accident.",
+        "answerZh": "奧利弗把巴士延誤歸咎天氣是找錯原因；巴士公司表示路上發生了交通意外。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q23",
+        "number": 23,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: The shop charged me too much. I’m going to complain to the security guard. B: The service desk handles payment problems.",
+        "promptZh": "甲：商店收取了我過多費用。我要向保安員投訴。 乙：付款問題由顧客服務台處理。",
+        "starter": "You’d",
+        "answer": "You’d be barking up the wrong tree by complaining to the security guard; the service desk handles payment problems.",
+        "answerZh": "你向保安員投訴便是找錯對象；付款問題由顧客服務台處理。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q24",
+        "number": 24,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "We searched the spam folder for the message, but the sender had used the wrong email address.",
+        "promptZh": "我們在垃圾郵件資料夾尋找訊息，但寄件人原來使用了錯誤的電郵地址。",
+        "starter": "We",
+        "answer": "We had been barking up the wrong tree by searching the spam folder; the sender had used the wrong email address.",
+        "answerZh": "我們一直在垃圾郵件資料夾尋找是找錯方向；寄件人原來使用了錯誤的電郵地址。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q25",
+        "number": 25,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The team wants to change the product, but customers like it. Their main complaint is slow delivery.",
+        "promptZh": "團隊想更改產品，但顧客其實喜歡它。他們主要投訴送貨太慢。",
+        "starter": "The",
+        "answer": "The team could be barking up the wrong tree by changing the product; slow delivery may be the real problem.",
+        "answerZh": "團隊更改產品可能是用錯方法；真正的問題可能是送貨太慢。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q26",
+        "number": 26,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Do you think Hannah told everyone the secret? B: She only learnt about it after everyone else.",
+        "promptZh": "甲：你認為是漢娜把秘密告訴大家嗎？ 乙：她比所有其他人更遲才知道這件事。",
+        "starter": "You’re",
+        "answer": "You’re barking up the wrong tree if you think Hannah told the secret; she only learnt about it later.",
+        "answerZh": "如果你認為是漢娜說出秘密，你便懷疑錯人了；她其後才得知這件事。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q27",
+        "number": 27,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The neighbour blamed our children for the rubbish on the ground, but the camera showed that the wind had knocked the bin over.",
+        "promptZh": "鄰居把地上的垃圾怪在我們的孩子身上，但閉路電視顯示是風吹倒了垃圾桶。",
+        "starter": "The",
+        "answer": "The neighbour barked up the wrong tree by blaming our children; the camera showed that the wind had knocked the bin over.",
+        "answerZh": "鄰居怪錯了我們的孩子；閉路電視顯示是風吹倒了垃圾桶。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barked up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q28",
+        "number": 28,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The reporter kept asking who had broken the machine. It had actually stopped because nobody had checked it.",
+        "promptZh": "記者不停追問是誰弄壞機器，但機器其實因為一直沒有人檢查而停止運作。",
+        "starter": "The",
+        "answer": "The reporter was barking up the wrong tree by asking who broke the machine; it stopped because nobody had checked it.",
+        "answerZh": "記者不停追問是誰弄壞機器，是追查錯方向；機器停止運作是因為一直沒有人檢查。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q29",
+        "number": 29,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "My cake did not rise, so I blamed the oven. Later, I realised that I had forgotten the baking powder.",
+        "promptZh": "蛋糕沒有發起，所以我怪責焗爐。後來，我才發現自己忘了加入泡打粉。",
+        "starter": "I",
+        "answer": "I was barking up the wrong tree by blaming the oven; I had forgotten the baking powder.",
+        "answerZh": "我怪錯了焗爐；真正原因是我忘了加入泡打粉。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q30",
+        "number": 30,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The class blamed the difficult grammar for its low marks, but many students had left several questions blank.",
+        "promptZh": "全班把低分歸咎於文法太難，但很多學生其實留下了數題空白。",
+        "starter": "The",
+        "answer": "The class was barking up the wrong tree by blaming the grammar; many students had left questions blank.",
+        "answerZh": "全班把低分歸咎文法是找錯原因；很多學生其實留下了多題空白。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q31",
+        "number": 31,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The office team blamed the new worker for the incorrect totals. However, the old form already contained the wrong numbers.",
+        "promptZh": "辦公室團隊把總數錯誤怪在新員工身上。然而，舊表格本身已經載有錯誤數字。",
+        "starter": "Although",
+        "answer": "Although the office team blamed the new worker, the team was barking up the wrong tree because the old form already had the wrong numbers.",
+        "answerZh": "雖然辦公室團隊怪責新員工，但他們其實怪錯了人，因為舊表格本身已經載有錯誤數字。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q32",
+        "number": 32,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Everyone blamed the high course fee for the empty evening class. In fact, the class was held while most people were still at work.",
+        "promptZh": "所有人都把夜間課程人數少歸咎於課程費用高。事實上，上課時大部分人仍在工作。",
+        "starter": "Because",
+        "answer": "Because everyone blamed the high course fee, they were barking up the wrong tree; the class was held while most people were still at work.",
+        "answerZh": "由於所有人都歸咎課程費用高，他們其實找錯了原因；上課時大部分人仍在工作。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q33",
+        "number": 33,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The club is considering asking Daniel to repair its website, but only the web company can change it.",
+        "promptZh": "學會正考慮請丹尼爾修理網站，但只有網站服務公司可以更改網站。",
+        "starter": "If",
+        "answer": "If the club asks Daniel to fix the website, it will be barking up the wrong tree because only the web company can change it.",
+        "answerZh": "如果學會請丹尼爾修理網站，便是找錯對象，因為只有網站服務公司可以更改網站。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q34",
+        "number": 34,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Priya explained that checking the bus route would not help because the missing bag had been left on the train.",
+        "promptZh": "普莉雅解釋，查看巴士路線並沒有幫助，因為失蹤的袋其實留在火車上。",
+        "starter": "Priya",
+        "answer": "Priya said we were barking up the wrong tree by checking the bus route because the bag had been left on the train.",
+        "answerZh": "普莉雅表示我們查看巴士路線是追查錯方向，因為袋其實留在火車上。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q35",
+        "number": 35,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Someone suggests introducing stricter rules to stop students arriving late, but the buses are often delayed.",
+        "promptZh": "有人建議制定更嚴格的規則，以阻止學生遲到，但巴士其實經常延誤。",
+        "starter": "If",
+        "answer": "If you think stricter rules will stop students arriving late, you may be barking up the wrong tree because the buses are often delayed.",
+        "answerZh": "如果你認為更嚴格的規則可以阻止學生遲到，你可能找錯原因了，因為巴士經常延誤。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q36",
+        "number": 36,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The manager initially blamed the kitchen for the complaints. Later, the customers’ messages showed that slow service was the cause.",
+        "promptZh": "經理最初把投訴歸咎於廚房。後來，顧客的訊息顯示原因是服務太慢。",
+        "starter": "The",
+        "answer": "The manager had barked up the wrong tree by blaming the kitchen; the messages showed that slow service caused the complaints.",
+        "answerZh": "經理把投訴歸咎廚房是找錯原因；顧客的訊息顯示原因是服務太慢。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barked up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q37",
+        "number": 37,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The company plans to spend more money on adverts, but it has not found out why its current customers do not return.",
+        "promptZh": "公司計劃花更多金錢賣廣告，但仍未找出現有顧客不再光顧的原因。",
+        "starter": "The",
+        "answer": "The company could be barking up the wrong tree if it spends more money on adverts before finding out why current customers do not return.",
+        "answerZh": "如果公司在找出現有顧客不再光顧的原因前便花更多金錢賣廣告，它可能用錯了方法。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q38",
+        "number": 38,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: We need more chairs if we want next year’s event to be popular. B: Last year, people left because the music was too loud.",
+        "promptZh": "甲：如果我們希望明年的活動受歡迎，便需要更多椅子。 乙：去年，人們是因為音樂太大聲而離開。",
+        "starter": "We",
+        "answer": "We may be barking up the wrong tree by buying more chairs; last year, people left because the music was too loud.",
+        "answerZh": "我們購買更多椅子可能是用錯方法；去年，人們是因為音樂太大聲而離開。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q39",
+        "number": 39,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The investigators suspected that a worker had deleted the files. An email later showed that he had already left before the files disappeared.",
+        "promptZh": "調查人員懷疑一名員工刪除了檔案。其後，一封電郵顯示檔案消失前他已經離開。",
+        "starter": "The",
+        "answer": "The email showed that the investigators had been barking up the wrong tree by suspecting the worker of deleting the files; he had already left.",
+        "answerZh": "電郵顯示調查人員懷疑錯了人；該名員工在檔案消失前已經離開。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q40",
+        "number": 40,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The computer stopped working immediately after an update, so we blamed the update. However, the power cable was loose.",
+        "promptZh": "電腦在更新後立即停止運作，所以我們怪責該次更新。然而，真正原因是電源線鬆脫。",
+        "starter": "Even",
+        "answer": "Even though the computer stopped after the update, we were barking up the wrong tree by blaming it; the power cable was loose.",
+        "answerZh": "雖然電腦在更新後停止運作，但我們怪責更新是找錯原因；真正的問題是電源線鬆脫。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q41",
+        "number": 41,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The school is considering a longer lunch break to reduce food waste, but students say the food portions are too large.",
+        "promptZh": "學校正考慮延長午膳時間來減少食物浪費，但學生表示食物分量太大。",
+        "starter": "The",
+        "answer": "The school may be barking up the wrong tree by extending the lunch break; the food portions may be too large.",
+        "answerZh": "學校延長午膳時間可能是用錯方法；真正的問題可能是食物分量太大。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q42",
+        "number": 42,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The hospital team thinks patients miss appointments because reminders arrive too late. However, many patients cannot use the booking app.",
+        "promptZh": "醫院團隊認為病人錯過預約是因為提示太遲送達。然而，很多病人根本不懂使用預約應用程式。",
+        "starter": "The",
+        "answer": "The hospital team might be barking up the wrong tree by changing the reminder times; many patients cannot use the app.",
+        "answerZh": "醫院團隊更改提示時間可能是用錯方法；很多病人根本不懂使用該應用程式。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q43",
+        "number": 43,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The hotel plans to replace its beds because of poor reviews, but most guests complained about noise from the street.",
+        "promptZh": "酒店因負面評價而計劃更換睡床，但大部分住客其實投訴街上的噪音。",
+        "starter": "The",
+        "answer": "The hotel could be barking up the wrong tree by replacing the beds; guests mainly complained about street noise.",
+        "answerZh": "酒店更換睡床可能是找錯問題所在；住客主要投訴的是街上噪音。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q44",
+        "number": 44,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: I think you sent the wrong report to the customer. B: I was not working that day.",
+        "promptZh": "甲：我認為是你把錯誤的報告寄給顧客。 乙：我那天沒有上班。",
+        "starter": "I’m",
+        "answer": "I’m afraid you’re barking up the wrong tree if you think I sent the report; I was not working that day.",
+        "answerZh": "如果你認為是我寄出該份報告，恐怕你懷疑錯人了；我那天沒有上班。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q45",
+        "number": 45,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "After a window was broken, security staff checked the students leaving the library. A camera later showed that a ball had come from the sports field.",
+        "promptZh": "窗戶破裂後，保安人員調查了離開圖書館的學生。閉路電視其後顯示，一個球從運動場飛來。",
+        "starter": "Security",
+        "answer": "Security had been barking up the wrong tree by checking the students leaving the library; the camera showed that the ball came from the sports field.",
+        "answerZh": "保安人員調查離開圖書館的學生是查錯方向；閉路電視顯示球來自運動場。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q46",
+        "number": 46,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The organisers may blame the volunteers for the long queue, but they have not checked whether the ticket website was working.",
+        "promptZh": "主辦人可能會把長龍怪在義工身上，但他們尚未檢查售票網站是否正常運作。",
+        "starter": "The",
+        "answer": "The organisers may be barking up the wrong tree if they blame the volunteers before checking the ticket website.",
+        "answerZh": "如果主辦人在檢查售票網站前便怪責義工，他們可能怪錯了人。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q47",
+        "number": 47,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "We keep changing the lesson notes, although the students may actually need more speaking practice.",
+        "promptZh": "我們不停修改課堂筆記，但學生真正需要的可能是更多說話練習。",
+        "starter": "Are",
+        "answer": "Are we barking up the wrong tree by changing the lesson notes when students may need more speaking practice?",
+        "answerZh": "學生可能需要更多說話練習，因此我們不停修改課堂筆記，是否用錯了方法？",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q48",
+        "number": 48,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The town plans to add more bins to stop rubbish appearing on the roads, but most of the rubbish falls from open trucks.",
+        "promptZh": "鎮上計劃增加垃圾桶，以阻止道路上出現垃圾，但大部分垃圾其實從沒有蓋好的貨車掉下來。",
+        "starter": "The",
+        "answer": "The town may be barking up the wrong tree by adding more bins; most of the rubbish comes from open trucks.",
+        "answerZh": "鎮上增加垃圾桶可能是找錯解決方法；大部分垃圾其實來自沒有蓋好的貨車。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q49",
+        "number": 49,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Everyone assumed that the low attendance meant people disliked the class. Later, they discovered that it was held during working hours.",
+        "promptZh": "所有人都以為出席率低代表人們不喜歡該課程。其後，他們發現上課時間原來在工作時段內。",
+        "starter": "Everyone",
+        "answer": "Everyone had been barking up the wrong tree by blaming the class itself; it was held during working hours.",
+        "answerZh": "所有人一直把出席率低歸咎課程本身，其實找錯了原因；課程是在工作時段內舉行。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      },
+      {
+        "id": "idiom-51-q50",
+        "number": 50,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The repair team is replacing the lift buttons. B: The problem happens only when the doors close, so the buttons may not be the cause.",
+        "promptZh": "甲：維修團隊正在更換升降機按鈕。 乙：問題只在升降機門關上時發生，所以按鈕可能並非原因。",
+        "starter": "Then",
+        "answer": "Then the repair team may be barking up the wrong tree by replacing the buttons; the problem may be in the doors.",
+        "answerZh": "那麼，維修團隊更換按鈕可能是找錯方向；問題可能出在升降機門。",
+        "targetForm": "bark up the wrong tree",
+        "targetMeaning": "To direct your blame, suspicion, attention or effort towards the wrong person, cause, place or solution because your original belief is mistaken.",
+        "highlight": "barking up the wrong tree"
+      }
+    ]
+  }
+}

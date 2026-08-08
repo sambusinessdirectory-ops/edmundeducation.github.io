@@ -1,0 +1,1504 @@
+{
+  "lesson": {
+    "id": "idiom-50",
+    "order": 50,
+    "slug": "back-the-wrong-horse",
+    "version": "1",
+    "title": "支持錯了人或一方／看錯人",
+    "titleEn": "back the wrong horse",
+    "titleZh": "支持錯了人或一方／看錯人",
+    "source": {
+      "file": "Idiom 50 - 「back the wrong horse」.pdf",
+      "pageCount": 31,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "exercisePdfPages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "answerKeyPdfPages": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "back the wrong horse",
+        "highlight": "back the wrong horse"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Ella backed the wrong horse in the class election by supporting Jason.",
+        "zh": "艾拉在班級選舉中支持傑森，結果看錯了人。",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "en": "The club backed the wrong horse in the election by supporting Alex.",
+        "zh": "俱樂部在選舉中支持亞歷克斯，結果看錯了人。",
+        "highlight": "backed the wrong horse"
+      }
+    ],
+    "meaning": {
+      "en": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+      "zh": "選擇或支持了一個後來失敗的人、隊伍、立場、計劃、產品或其他選項。",
+      "naturalZh": [
+        "支持錯了人或一方",
+        "看錯人",
+        "選錯方案或方向",
+        "押錯了注",
+        "作出後來證明不成功的選擇"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; meetings and workplace discussions; sports and election commentary; journalism and interviews; general writing about choices and decisions.",
+      "summaryZh": "這個表達的語氣一般屬於中性至較口語。 它適合用於：",
+      "contextsEn": [
+        "everyday conversation",
+        "meetings and workplace discussions",
+        "sports and election commentary",
+        "journalism and interviews",
+        "general writing about choices and decisions",
+        "regret",
+        "criticism",
+        "disappointment",
+        "hindsight",
+        "doubt",
+        "warning"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "會議及工作討論",
+        "體育比賽及選舉評論",
+        "新聞及訪問",
+        "一般有關選擇和決策的文章。",
+        "後悔",
+        "批評",
+        "失望",
+        "事後回顧",
+        "懷疑",
+        "警告。"
+      ],
+      "formalEn": "In highly formal writing, a plain expression may sometimes be clearer:",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "back the wrong horse",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + back + the wrong horse + by + verb-ing.",
+          "example": "Ella backed the wrong horse in the class election by supporting Jason.",
+          "highlight": "backed the wrong horse"
+        },
+        {
+          "form": "Subject + back + the wrong horse + in + contest, election or decision.",
+          "example": "Ella backed the wrong horse in the class election by supporting Jason.",
+          "highlight": "backed the wrong horse"
+        },
+        {
+          "form": "Subject + back + the wrong horse + when + subject + verb.",
+          "example": "Ella backed the wrong horse in the class election by supporting Jason.",
+          "highlight": "backed the wrong horse"
+        },
+        {
+          "form": "Subject + may / might / could + back + the wrong horse.",
+          "example": "Ella backed the wrong horse in the class election by supporting Jason.",
+          "highlight": "backed the wrong horse"
+        },
+        {
+          "form": "Subject + may / might / could + be backing + the wrong horse.",
+          "example": "Ella backed the wrong horse in the class election by supporting Jason.",
+          "highlight": "backed the wrong horse"
+        },
+        {
+          "form": "Subject + may / might / could + have backed + the wrong horse.",
+          "example": "Ella backed the wrong horse in the class election by supporting Jason.",
+          "highlight": "backed the wrong horse"
+        },
+        {
+          "form": "Subject + risk + backing + the wrong horse.",
+          "example": "Ella backed the wrong horse in the class election by supporting Jason.",
+          "highlight": "backed the wrong horse"
+        },
+        {
+          "form": "It is too early to say whether + subject + has backed + the wrong horse.",
+          "example": "The club backed the wrong horse in the election by supporting Alex.",
+          "highlight": "backed the wrong horse"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Explaining the Choice",
+        "titleZh": "句式一：說明所作出的選擇",
+        "formula": "Subject + back + the wrong horse + by + verb-ing.",
+        "descriptionEn": "Ella backed the wrong horse by supporting the least experienced candidate.",
+        "descriptionZh": "艾拉支持經驗最少的候選人，結果看錯了人。",
+        "examples": [
+          {
+            "en": "Ella backed the wrong horse in the class election by supporting Jason.",
+            "zh": "艾拉在班級選舉中支持傑森，結果看錯了人。",
+            "highlight": "backed the wrong horse"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Naming the Contest or Situation",
+        "titleZh": "句式二：指出比賽或情境",
+        "formula": "Subject + back + the wrong horse + in + contest, election or decision.",
+        "descriptionEn": "We backed the wrong horse in the final by supporting Eastside.",
+        "descriptionZh": "我們在決賽中支持東城隊，結果押錯了注。",
+        "examples": [
+          {
+            "en": "Ella backed the wrong horse in the class election by supporting Jason.",
+            "zh": "艾拉在班級選舉中支持傑森，結果看錯了人。",
+            "highlight": "backed the wrong horse"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Using “When”",
+        "titleZh": "句式三：使用 when",
+        "formula": "Subject + back + the wrong horse + when + subject + verb.",
+        "descriptionEn": "The club backed the wrong horse when it chose Paul as captain.",
+        "descriptionZh": "俱樂部選擇保羅擔任隊長，結果看錯了人。",
+        "examples": [
+          {
+            "en": "Ella backed the wrong horse in the class election by supporting Jason.",
+            "zh": "艾拉在班級選舉中支持傑森，結果看錯了人。",
+            "highlight": "backed the wrong horse"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Expressing Possibility",
+        "titleZh": "句式四：表達可能性",
+        "formula": "Subject + may / might / could + back + the wrong horse.",
+        "descriptionEn": "The school might back the wrong horse if it chooses the cheapest system.",
+        "descriptionZh": "學校如果選擇最便宜的系統，可能會選錯方案。",
+        "examples": [
+          {
+            "en": "Ella backed the wrong horse in the class election by supporting Jason.",
+            "zh": "艾拉在班級選舉中支持傑森，結果看錯了人。",
+            "highlight": "backed the wrong horse"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Describing a Possible Ongoing Mistake",
+        "titleZh": "句式五：描述可能正在持續的錯誤選擇",
+        "formula": "Subject + may / might / could + be backing + the wrong horse.",
+        "descriptionEn": "The manager may be backing the wrong horse by continuing with this plan.",
+        "descriptionZh": "經理繼續採用這個方案，可能正在押錯注。",
+        "examples": [
+          {
+            "en": "Ella backed the wrong horse in the class election by supporting Jason.",
+            "zh": "艾拉在班級選舉中支持傑森，結果看錯了人。",
+            "highlight": "backed the wrong horse"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Looking Back with Uncertainty",
+        "titleZh": "句式六：以不確定語氣回顧",
+        "formula": "Subject + may / might / could + have backed + the wrong horse.",
+        "descriptionEn": "I may have backed the wrong horse when I invested in the company.",
+        "descriptionZh": "我投資這間公司，可能是押錯了注。",
+        "examples": [
+          {
+            "en": "Ella backed the wrong horse in the class election by supporting Jason.",
+            "zh": "艾拉在班級選舉中支持傑森，結果看錯了人。",
+            "highlight": "backed the wrong horse"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Expressing Risk",
+        "titleZh": "句式七：表達風險",
+        "formula": "Subject + risk + backing + the wrong horse.",
+        "descriptionEn": "We risk backing the wrong horse if we decide too quickly.",
+        "descriptionZh": "如果我們太快作出決定，便有押錯注的風險。",
+        "examples": [
+          {
+            "en": "Ella backed the wrong horse in the class election by supporting Jason.",
+            "zh": "艾拉在班級選舉中支持傑森，結果看錯了人。",
+            "highlight": "backed the wrong horse"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Saying That It Is Too Early to Judge",
+        "titleZh": "句式八：表示仍未能判斷",
+        "formula": "It is too early to say whether + subject + has backed + the wrong horse.",
+        "descriptionEn": "It is too early to say whether the company has backed the wrong horse.",
+        "descriptionZh": "現在判斷公司是否選錯了方案仍言之過早。",
+        "examples": [
+          {
+            "en": "The club backed the wrong horse in the election by supporting Alex.",
+            "zh": "俱樂部在選舉中支持亞歷克斯，結果看錯了人。",
+            "highlight": "backed the wrong horse"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Combines Choice and Failure",
+        "titleZh": "同時表達選擇及失敗結果",
+        "en": "somebody supported or chose an option; that option later proved unsuccessful.",
+        "zh": "這個慣用語同時表達兩個互相關連的意思：",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Expresses Hindsight",
+        "titleZh": "表達事後回顧",
+        "en": "The expression is useful when the result is now known and the speaker is looking back at an earlier decision.",
+        "zh": "當結果已經揭曉，而說話者正在回顧先前的決定時，這個表達十分有用。 回頭看，我們確實押錯了注。",
+        "examples": [
+          {
+            "en": "Looking back, we backed the wrong horse.",
+            "zh": "回頭看，我們確實押錯了注。",
+            "highlight": "backed the wrong horse"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Preserve Uncertainty",
+        "titleZh": "可以保留不確定語氣",
+        "en": "The expression can be combined with may, might or could when the final result is not yet certain.",
+        "zh": "如果最終結果仍未確定，可以配合 may、might 或 could 使用。 我們可能正在支持錯誤的一方。",
+        "examples": [
+          {
+            "en": "We may be backing the wrong horse.",
+            "zh": "我們可能正在支持錯誤的一方。",
+            "highlight": "backing the wrong horse"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Works with Different Types of Choices",
+        "titleZh": "適用於不同類型的選擇",
+        "en": "a person; a team; a candidate; a plan; a product; a company; an investment; an idea.",
+        "zh": "當中的 horse 可以比喻：",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Provides a Concise Alternative",
+        "titleZh": "把較長的解釋縮短",
+        "en": "We backed the wrong horse. The idiom is useful, but it is not automatically better than plain English. Use it only when somebody has supported or chosen an option whose success was uncertain.",
+        "zh": "較長版本： 這個慣用語十分實用，但並非一定比直接表達更好。 只有當某人支持或選擇了一個成敗未定的選項時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Figurative Use Uncertain",
+      "statusZh": "逐漸形成；確切首次比喻用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The verb back was already being used in the sense of supporting something, including through a bet, by the sixteenth century. An established idiom reference connects the related horse-racing usage with the late seventeenth century. However, the sources reviewed do not securely identify the exact first figurative use of the complete expression back the wrong horse.",
+          "zh": "早在十六世紀，back 已有人用來表示支持某事物，當中亦包括以下注方式支持。 一本具認受性的慣用語參考資料把相關賽馬用法追溯至十七世紀後期。 不過，現有資料未能可靠地確認完整表達 back the wrong horse 首次用作比喻的確切時間。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Choosing a horse in a race involves supporting one possible winner before the result is known. This image was naturally extended to elections, competitions, plans, investments and other situations in which people must choose before knowing which option will succeed.",
+          "zh": "在賽馬中，人們需要在結果揭曉前選擇並支持其中一匹馬。 這個畫面後來很自然地延伸至選舉、 比賽、計劃、投資及其他必須在結果揭曉前作出選擇的情況。"
+        }
+      ],
+      "memoryEn": "Choose the losing horse in a race, and you lose the bet; choose an unsuccessful person or plan, and you have backed the wrong horse.",
+      "memoryZh": "在賽馬中選中落敗的馬，便會輸掉賭注；選中後來失敗的人或方案，便是 back the wrong horse。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Fixed Words in the Correct Order",
+        "titleZh": "規則一：固定部分的次序不可改變",
+        "en": "Keep the Fixed Words in the Correct Order",
+        "zh": "固定部分的次序不可改變",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Back”, Not “the Wrong Horse”",
+        "titleZh": "規則二",
+        "en": "Change “Back”, Not “the Wrong Horse”",
+        "zh": "只改變 back，不改變 the wrong horse",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use “By + -ing” to Explain the Choice",
+        "titleZh": "規則三：使用 by + -ing 說明所作的選擇",
+        "en": "Use “By + -ing” to Explain the Choice",
+        "zh": "使用 by + -ing 說明所作的選擇",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It for a Person, Side or Option",
+        "titleZh": "規則四：用於某個人、一方或選項",
+        "en": "The “horse” is figurative and represents the chosen person or option.",
+        "zh": "當中的 horse 是比喻，代表所選擇的人或選項。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The Choice Must Later Fail or Be Likely to Fail",
+        "titleZh": "規則五：選擇必須後來失敗或很可能失敗",
+        "en": "There is no failed side, candidate, plan or uncertain outcome.",
+        "zh": "當中沒有失敗的一方、候選人、方案或成敗未定的結果。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則六：保留確定程度",
+        "en": "The incorrect answer changes a possibility into a known fact.",
+        "zh": "錯誤答案把一個可能性變成了已知事實。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Use “May Be Backing” for an Ongoing Concern",
+        "titleZh": "規則七",
+        "en": "Use “May Be Backing” for an Ongoing Concern",
+        "zh": "使用 may be backing 表示正在持續的疑慮公司繼續支持這項產品，可能正在押錯注。",
+        "examples": [
+          {
+            "en": "The company may be backing the wrong horse by continuing with this product.",
+            "zh": "公司繼續支持這項產品，可能正在押錯注。",
+            "highlight": "backing the wrong horse"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Use “May Have Backed” for Uncertain Hindsight",
+        "titleZh": "規則八",
+        "en": "Use “May Have Backed” for Uncertain Hindsight",
+        "zh": "使用 may have backed 表示不確定的事後判斷我投資這間咖啡店，可能是押錯了注。",
+        "examples": [
+          {
+            "en": "I may have backed the wrong horse when I invested in the café.",
+            "zh": "我投資這間咖啡店，可能是押錯了注。",
+            "highlight": "backed the wrong horse"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Avoid Accidental Literal Meanings",
+        "titleZh": "規則九：避免意外產生字面意思",
+        "en": "Every answer in this exercise must use the figurative meaning.",
+        "zh": "我在昨天真正的賽馬中投注了錯誤的馬匹。 我支持落敗的候選人，結果看錯了人。 本練習中的所有答案都必須使用比喻意思。",
+        "examples": [
+          {
+            "en": "I backed the wrong horse in yesterday’s actual horse race.",
+            "zh": "我在昨天真正的賽馬中投注了錯誤的馬匹。",
+            "highlight": "backed the wrong horse"
+          },
+          {
+            "en": "I backed the wrong horse when I supported the losing candidate.",
+            "zh": "我支持落敗的候選人，結果看錯了人。",
+            "highlight": "backed the wrong horse"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Related Expressions Are Not This Exercise’s Target",
+        "titleZh": "規則十：相關表達並不是本練習的目標",
+        "en": "Related Expressions Are Not This Exercise’s Target",
+        "zh": "相關表達並不是本練習的目標",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Preserve the Choice but Compress the Failure",
+        "titleZh": "規則十一：保留所作選擇，但濃縮失敗結果",
+        "en": "The final clause simply repeats why Alex was the wrong horse.",
+        "zh": "最後一句只是再次解釋為甚麼亞歷克斯是不成功的選擇。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Use the Idiom Naturally, Not Everywhere",
+        "titleZh": "規則十二：自然使用，不要過度使用",
+        "en": "If the sentence only describes an ordinary mistake, clearer language may be better.",
+        "zh": "如果句子只描述一般錯誤，直接使用較清楚的說法可能會更自然。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "The first word of each model answer has been provided.",
+      "zh": "使用 back the wrong horse 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-50-q01",
+        "number": 1,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Ella supported Jason in the class election, but he received the fewest votes.",
+        "promptZh": "艾拉在班級選舉中支持傑森，但傑森所得票數最少。",
+        "starter": "Ella",
+        "answer": "Ella backed the wrong horse in the class election by supporting Jason.",
+        "answerZh": "艾拉在班級選舉中支持傑森，結果看錯了人。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q02",
+        "number": 2,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "We supported the blue team because we expected it to win the school competition, but it finished last.",
+        "promptZh": "我們支持藍隊，因為我們預期它會在校內比賽中勝出，但它最後排名最末。",
+        "starter": "We",
+        "answer": "We backed the wrong horse in the school competition by supporting the blue team.",
+        "answerZh": "我們在校內比賽中支持藍隊，結果押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q03",
+        "number": 3,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The shop used Anna’s cake idea for its new product, but customers did not buy it.",
+        "promptZh": "店舖採用了安娜的蛋糕構思作為新產品，但顧客沒有購買。",
+        "starter": "The",
+        "answer": "The shop backed the wrong horse by choosing Anna’s cake idea for its new product.",
+        "answerZh": "店舖選擇安娜的蛋糕構思作為新產品，結果選錯了方案。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q04",
+        "number": 4,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "David strongly supported the new phone app, but the company closed it after only a few people used it.",
+        "promptZh": "大衛大力支持這個新的手機應用程式，但只有少數人使用，公司其後把它關閉。",
+        "starter": "David",
+        "answer": "David backed the wrong horse by supporting the new phone app.",
+        "answerZh": "大衛支持這個新的手機應用程式，結果押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q05",
+        "number": 5,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The family chose the cheaper holiday plan, but it caused many travel problems.",
+        "promptZh": "這個家庭選擇了較便宜的旅遊方案，但它帶來很多旅途問題。",
+        "starter": "The",
+        "answer": "The family backed the wrong horse by choosing the cheaper holiday plan.",
+        "answerZh": "這個家庭選擇較便宜的旅遊方案，結果選錯了。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q06",
+        "number": 6,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Our group followed Ken’s plan for the project, but the project failed.",
+        "promptZh": "我們的小組採用了肯的項目方案，但項目最後失敗。",
+        "starter": "Our",
+        "answer": "Our group backed the wrong horse when we followed Ken’s plan for the project.",
+        "answerZh": "我們的小組在項目中跟隨肯的方案，結果押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q07",
+        "number": 7,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "For the school event, Nina chose a small café to provide the food, but it closed before the event.",
+        "promptZh": "妮娜為學校活動選擇了一間小型咖啡店提供食物，但該店在活動前結業。",
+        "starter": "Nina",
+        "answer": "Nina backed the wrong horse when she chose the small café to provide food for the school event.",
+        "answerZh": "妮娜選擇該小型咖啡店為學校活動提供食物，結果選錯了合作對象。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q08",
+        "number": 8,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The club chose Paul as captain, but he left after one week.",
+        "promptZh": "俱樂部選擇保羅擔任隊長，但他一星期後便離開。",
+        "starter": "The",
+        "answer": "The club backed the wrong horse when it chose Paul as captain.",
+        "answerZh": "俱樂部選擇保羅擔任隊長，結果看錯了人。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q09",
+        "number": 9,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "I chose the cheaper machine for the office, but it soon broke.",
+        "promptZh": "我為辦公室選擇了較便宜的機器，但它很快便壞了。",
+        "starter": "I",
+        "answer": "I backed the wrong horse when I chose the cheaper machine for the office.",
+        "answerZh": "我為辦公室選擇較便宜的機器，結果選錯了。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q10",
+        "number": 10,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The parents chose the company that promised the fastest repair, but it never finished the work.",
+        "promptZh": "家長選擇了那間承諾最快完成維修的公司，但該公司一直沒有完成工程。",
+        "starter": "The",
+        "answer": "The parents backed the wrong horse when they chose the company that promised the fastest repair.",
+        "answerZh": "家長選擇那間承諾最快完成維修的公司，結果選錯了服務公司。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q11",
+        "number": 11,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Ben often supports the loudest student in class elections, even though that student usually loses.",
+        "promptZh": "本在班級選舉中經常支持聲音最大的學生，即使該學生通常都會落敗。",
+        "starter": "Ben",
+        "answer": "Ben often backs the wrong horse in class elections by supporting the loudest student.",
+        "answerZh": "本在班級選舉中經常支持錯誤的人選，因為他常常支持聲音最大的學生。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backs the wrong horse"
+      },
+      {
+        "id": "idiom-50-q12",
+        "number": 12,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Last year, the school chose the Moonlight Band for the show, but the band cancelled at the last minute.",
+        "promptZh": "去年，學校為表演選擇了月光樂隊，但樂隊在最後一刻取消演出。",
+        "starter": "Last",
+        "answer": "Last year, the school backed the wrong horse by choosing the Moonlight Band for the show.",
+        "answerZh": "去年，學校選擇月光樂隊參與表演，結果選錯了對象。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q13",
+        "number": 13,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The manager has put all his trust in a new sales idea, but the early results are very poor.",
+        "promptZh": "經理把所有希望都放在一個新的銷售構思上，但初步結果很差。",
+        "starter": "The",
+        "answer": "The manager may have backed the wrong horse by putting all his trust in the new sales idea.",
+        "answerZh": "經理把所有希望都放在這個新的銷售構思上，可能是押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q14",
+        "number": 14,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Which plan did the team choose? B: The online-only plan, but most customers still want to visit the shop.",
+        "promptZh": "甲：團隊選擇了哪個方案？ 乙：只提供網上服務的方案，但大部分顧客仍想親身到店。",
+        "starter": "The",
+        "answer": "The team may have backed the wrong horse by choosing the online-only plan.",
+        "answerZh": "團隊選擇只提供網上服務的方案，可能已經選錯了方向。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q15",
+        "number": 15,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The film company is planning to give its biggest role to a young actor, although his last three films were unsuccessful.",
+        "promptZh": "電影公司正計劃把最重要的角色交給一名年輕演員，雖然他最近三部電影都不成功。",
+        "starter": "The",
+        "answer": "The film company could back the wrong horse by giving its biggest role to the young actor despite his last three unsuccessful films.",
+        "answerZh": "儘管這名年輕演員最近三部電影都不成功，電影公司若把最重要的角色交給他，可能會看錯人。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "back the wrong horse"
+      },
+      {
+        "id": "idiom-50-q16",
+        "number": 16,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "We should not choose the cheapest bus company only because of price; its buses are often late.",
+        "promptZh": "我們不應只因價格而選擇最便宜的巴士公司；該公司的巴士經常遲到。",
+        "starter": "We",
+        "answer": "We should be careful not to back the wrong horse by choosing the cheapest bus company only because of price, especially when its buses are often late.",
+        "answerZh": "我們不應只因價格而選擇最便宜的巴士公司，尤其是該公司的巴士經常遲到，以免選錯服務公司。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "back the wrong horse"
+      },
+      {
+        "id": "idiom-50-q17",
+        "number": 17,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Rachel says her plan will save time. B: But it has failed twice before.",
+        "promptZh": "甲：瑞秋說她的方案會節省時間。 乙：但這個方案以前已經失敗過兩次。",
+        "starter": "I",
+        "answer": "I think Rachel is backing the wrong horse by trusting a plan that has already failed twice.",
+        "answerZh": "我認為瑞秋相信一個已經失敗兩次的方案，是押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backing the wrong horse"
+      },
+      {
+        "id": "idiom-50-q18",
+        "number": 18,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The club chose Eastside to win the final, but Eastside lost 4–0.",
+        "promptZh": "俱樂部選擇支持東城隊在決賽中勝出，但東城隊以零比四落敗。",
+        "starter": "The",
+        "answer": "The club backed the wrong horse in the final by choosing Eastside.",
+        "answerZh": "俱樂部在決賽中選擇支持東城隊，結果押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q19",
+        "number": 19,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "He supported the former captain in the sports club election, but the former captain received only three votes.",
+        "promptZh": "他在體育會選舉中支持前任隊長，但前任隊長只得到三票。",
+        "starter": "He",
+        "answer": "He backed the wrong horse in the sports club election by supporting the former captain.",
+        "answerZh": "他在體育會選舉中支持前任隊長，結果看錯了人。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q20",
+        "number": 20,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The team changed its plan after following Liam’s idea for weeks and learning that it would not work.",
+        "promptZh": "團隊跟隨利亞姆的構思數星期，發現行不通後才更改方案。",
+        "starter": "By",
+        "answer": "By the time the team changed its plan, it had already backed the wrong horse by choosing Liam’s idea weeks earlier.",
+        "answerZh": "團隊更改方案時，早已在數星期前選擇利亞姆的構思，押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q21",
+        "number": 21,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Should we keep supporting Tom as team leader? B: No. He has missed every meeting and says he may leave.",
+        "promptZh": "甲：我們應否繼續支持湯姆擔任隊長？ 乙：不應。他錯過了每次會議，而且說自己可能會離開。",
+        "starter": "No.",
+        "answer": "No. We may be backing the wrong horse by continuing to support Tom as team leader when he has missed every meeting and may leave.",
+        "answerZh": "不應。湯姆錯過了每次會議，而且可能會離開；我們若繼續支持他擔任隊長，可能是在看錯人。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backing the wrong horse"
+      },
+      {
+        "id": "idiom-50-q22",
+        "number": 22,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Oliver invested in Green Tech because everyone said it would grow. The company closed yesterday.",
+        "promptZh": "奧利弗投資了綠科公司，因為人人都說它會增長。公司昨天倒閉了。",
+        "starter": "Oliver",
+        "answer": "Oliver backed the wrong horse when he invested in Green Tech.",
+        "answerZh": "奧利弗投資綠科公司，結果押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q23",
+        "number": 23,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The parents chose a private tutor because of his big promises, but he stopped answering after the first lesson.",
+        "promptZh": "家長因為一名私人導師作出很大的承諾而選擇他，但他在第一課後便不再回覆。",
+        "starter": "The",
+        "answer": "The parents backed the wrong horse when they chose the private tutor because of his big promises.",
+        "answerZh": "家長因為這名私人導師作出很大的承諾而選擇他，結果看錯了人。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q24",
+        "number": 24,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The team leader trusted the new worker with the most important task, but the worker did not complete it.",
+        "promptZh": "組長把最重要的工作交給新員工，但該員工沒有完成。",
+        "starter": "The",
+        "answer": "The team leader backed the wrong horse by trusting the new worker with the most important task.",
+        "answerZh": "組長把最重要的工作交給新員工，結果看錯了人。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q25",
+        "number": 25,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Why is Carla upset? B: She supported the Red Stars in the singing contest, but they finished last.",
+        "promptZh": "甲：卡拉為甚麼不開心？ 乙：她在歌唱比賽中支持紅星隊，但紅星隊最後排名最末。",
+        "starter": "Carla",
+        "answer": "Carla backed the wrong horse in the singing contest by supporting the Red Stars.",
+        "answerZh": "卡拉在歌唱比賽中支持紅星隊，結果押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q26",
+        "number": 26,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The café made its new mango drink the main summer product because it expected it to be popular. It sold only five cups in a month.",
+        "promptZh": "咖啡店預期新的芒果飲品會受歡迎，因此把它定為夏季主打產品。它一個月只賣出五杯。",
+        "starter": "The",
+        "answer": "The café backed the wrong horse by making the mango drink its main summer product.",
+        "answerZh": "咖啡店把芒果飲品定為夏季主打產品，結果選錯了方向。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q27",
+        "number": 27,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Our school is thinking of buying the cheaper computer system. B: Another school tried it and stopped using it after a week.",
+        "promptZh": "甲：我們學校正考慮購買較便宜的電腦系統。 乙：另一間學校試用後，一星期便停止使用。",
+        "starter": "Our",
+        "answer": "Our school might back the wrong horse if it chooses the cheaper computer system even though another school stopped using it within a week.",
+        "answerZh": "即使另一間學校在一星期內便停止使用，若我們學校仍選擇較便宜的電腦系統，便可能會選錯方案。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "back the wrong horse"
+      },
+      {
+        "id": "idiom-50-q28",
+        "number": 28,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The company chose a famous online star to advertise its product, but the star’s video made customers angry.",
+        "promptZh": "公司選擇一名著名網絡紅人為產品宣傳，但該網絡紅人的影片令顧客不滿。",
+        "starter": "The",
+        "answer": "The company backed the wrong horse by choosing the online star to advertise its product.",
+        "answerZh": "公司選擇這名網絡紅人為產品宣傳，結果看錯了人。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q29",
+        "number": 29,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "I kept telling everyone that the small team would win. It lost every match.",
+        "promptZh": "我一直告訴大家那支小隊會勝出。它每場比賽都落敗。",
+        "starter": "I",
+        "answer": "I clearly backed the wrong horse by supporting the small team.",
+        "answerZh": "我大力支持那支小隊，顯然是押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q30",
+        "number": 30,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Nora chose Lee’s modern design for the product, but customers preferred the simple design.",
+        "promptZh": "諾拉為產品選擇了李的現代化設計，但顧客較喜歡簡單的設計。",
+        "starter": "Nora",
+        "answer": "Nora backed the wrong horse by choosing Lee’s modern design for the product.",
+        "answerZh": "諾拉為產品選擇李的現代化設計，結果選錯了方案。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q31",
+        "number": 31,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Although everyone warned Daniel, he supported the new restaurant plan, and the restaurant closed after two months.",
+        "promptZh": "雖然所有人都警告丹尼爾，他仍支持新的餐廳計劃，而餐廳兩個月後便結業。",
+        "starter": "Although",
+        "answer": "Although everyone warned him, Daniel backed the wrong horse by supporting the new restaurant plan.",
+        "answerZh": "雖然所有人都警告過他，丹尼爾仍支持新的餐廳計劃，結果押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q32",
+        "number": 32,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The club believed Adam would attract new members, so it chose him as chairperson. He left the club soon afterwards.",
+        "promptZh": "俱樂部相信亞當能吸引新會員，因此選擇他擔任主席。他其後很快便離開俱樂部。",
+        "starter": "Because",
+        "answer": "Because the club believed Adam would attract new members, it backed the wrong horse by choosing him as chairperson.",
+        "answerZh": "因為俱樂部相信亞當能吸引新會員，所以選擇他擔任主席，結果看錯了人。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q33",
+        "number": 33,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The school has chosen a new learning app, but we do not yet know whether it will work, so it is too early to call the choice a mistake.",
+        "promptZh": "學校已選擇一個新的學習應用程式，但我們仍不知道它是否有效，因此現在說學校選錯仍言之過早。",
+        "starter": "It",
+        "answer": "It is too early to say whether the school has backed the wrong horse by choosing the new learning app.",
+        "answerZh": "現在判斷學校選擇新的學習應用程式是否押錯了注，仍然言之過早。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q34",
+        "number": 34,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: You were sure City North would win the cup. B: I know. I chose them without checking their recent results.",
+        "promptZh": "甲：你很肯定北城隊會贏得盃賽。 乙：我知道。我沒有查看他們最近的成績便選擇了他們。",
+        "starter": "I",
+        "answer": "I know. I backed the wrong horse in the cup by choosing City North without checking their recent results.",
+        "answerZh": "我知道。我沒有查看北城隊最近的成績便在盃賽中支持他們，結果押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q35",
+        "number": 35,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Before the manager puts all the money into the new delivery plan, she should check whether the plan is likely to fail.",
+        "promptZh": "經理把所有資金投入新的送貨方案前，應先查清楚這個方案是否很可能失敗。",
+        "starter": "Before",
+        "answer": "Before putting all the money into the new delivery plan, the manager should make sure that she is not backing the wrong horse.",
+        "answerZh": "把所有資金投入新的送貨方案前，經理應先確保自己沒有選錯方案。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backing the wrong horse"
+      },
+      {
+        "id": "idiom-50-q36",
+        "number": 36,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The class chose the hardest book for its reading project because it looked impressive, but almost nobody could understand it.",
+        "promptZh": "全班因為一本書看來很有深度，便為閱讀項目選擇了最難的一本，但幾乎沒有人看得明白。",
+        "starter": "By",
+        "answer": "By choosing the hardest book for its reading project, the class backed the wrong horse.",
+        "answerZh": "全班為閱讀項目選擇最難的書，結果選錯了。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q37",
+        "number": 37,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Why did the event fail? B: We chose the least experienced person to lead it.",
+        "promptZh": "甲：活動為甚麼失敗？ 乙：我們選擇了經驗最少的人帶領活動。",
+        "starter": "We",
+        "answer": "We backed the wrong horse when we chose the least experienced person to lead the event.",
+        "answerZh": "我們選擇經驗最少的人帶領活動，結果看錯了人。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q38",
+        "number": 38,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The shop may be making a poor choice by spending all its money on DVD players, which few customers buy now.",
+        "promptZh": "現在很少顧客購買DVD播放機，店舖卻把所有資金用於這種產品，這可能是一個錯誤選擇。",
+        "starter": "The",
+        "answer": "The shop may be backing the wrong horse by spending all its money on DVD players that few customers buy.",
+        "answerZh": "店舖把所有資金用於很少顧客購買的DVD播放機，可能正在押錯注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backing the wrong horse"
+      },
+      {
+        "id": "idiom-50-q39",
+        "number": 39,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The team continued to support Mark’s plan after the first bad results. The final result was even worse.",
+        "promptZh": "第一次出現差劣結果後，團隊仍繼續支持馬克的方案。最後的結果更加差。",
+        "starter": "Even",
+        "answer": "Even after the first bad results, the team kept backing the wrong horse by continuing with Mark’s plan.",
+        "answerZh": "即使第一次結果已經很差，團隊仍繼續支持馬克的方案，一直押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backing the wrong horse"
+      },
+      {
+        "id": "idiom-50-q40",
+        "number": 40,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The coach had two young players to choose from. He chose Ryan, but Ben later became the better player.",
+        "promptZh": "教練需要在兩名年輕球員中作選擇。他選了瑞安，但本其後成為表現更好的球員。",
+        "starter": "Looking",
+        "answer": "Looking back, the coach backed the wrong horse by choosing Ryan instead of Ben.",
+        "answerZh": "回頭看，教練選擇瑞安而不是本，確實看錯了人。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q41",
+        "number": 41,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The club wants to give Sam another year as captain. B: But the team has lost nearly every match under him.",
+        "promptZh": "甲：俱樂部想讓森再做一年隊長。 乙：但球隊在他帶領下幾乎每場比賽都輸。",
+        "starter": "The",
+        "answer": "The club risks backing the wrong horse if it gives Sam another year as captain after the team has lost nearly every match under him.",
+        "answerZh": "球隊在森帶領下幾乎每場比賽都落敗；俱樂部若讓他再做一年隊長，便有再次看錯人的風險。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backing the wrong horse"
+      },
+      {
+        "id": "idiom-50-q42",
+        "number": 42,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The hotel followed one guest’s suggestion and removed its breakfast service. Most other guests then complained.",
+        "promptZh": "酒店採納一名住客的建議，取消早餐服務。其後，大部分其他住客都投訴。",
+        "starter": "The",
+        "answer": "The hotel backed the wrong horse by following one guest’s suggestion to remove its breakfast service.",
+        "answerZh": "酒店採納一名住客提出取消早餐服務的建議，結果選錯了方向。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q43",
+        "number": 43,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The first plan is popular now, but its costs are rising every month. We should compare it with the second plan before deciding.",
+        "promptZh": "第一個方案現在很受歡迎，但成本每月都在上升。我們決定前應把它與第二個方案比較。",
+        "starter": "Because",
+        "answer": "Because the first plan’s costs are rising, we should compare both plans carefully before we risk backing the wrong horse by choosing it.",
+        "answerZh": "由於第一個方案的成本不斷上升，我們應仔細比較兩個方案，以免選擇它後才發現押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backing the wrong horse"
+      },
+      {
+        "id": "idiom-50-q44",
+        "number": 44,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Why did the school spend so much on a system it no longer uses? B: The leaders trusted the company with the biggest promises.",
+        "promptZh": "甲：學校為甚麼花了那麼多錢購買一個現在已不再使用的系統？ 乙：校方領導信任了作出最大承諾的公司。",
+        "starter": "The",
+        "answer": "The school leaders backed the wrong horse when they trusted the company with the biggest promises to provide the new system.",
+        "answerZh": "校方領導信任了作出最大承諾的公司為學校提供新系統，結果選錯了合作對象。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q45",
+        "number": 45,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The community group gave all its time to an expensive festival plan that needed more money than it could raise. A smaller plan would have been possible.",
+        "promptZh": "社區小組把所有時間投放在一個昂貴的節日活動方案上，但所需金額超過他們能籌得的款項。 其實較小型的方案是可行的。",
+        "starter": "The",
+        "answer": "The community group backed the wrong horse by choosing a festival plan that required more money than the group could raise instead of the smaller one.",
+        "answerZh": "社區小組選擇了一個所需金額超過其籌款能力的節日活動方案，而沒有選擇較小型的方案，結果選錯了方向。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q46",
+        "number": 46,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Before anyone knew the final results, Grace strongly supported the team with the fewest experienced players.",
+        "promptZh": "在任何人知道最終結果前，格雷絲已大力支持經驗最少的隊伍。",
+        "starter": "Grace",
+        "answer": "Grace may have backed the wrong horse by strongly supporting the least experienced team.",
+        "answerZh": "格雷絲大力支持經驗最少的隊伍，可能是押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q47",
+        "number": 47,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The office has not chosen the new system yet, but the cheapest system often breaks down.",
+        "promptZh": "辦公室尚未選擇新系統，但最便宜的系統經常故障。",
+        "starter": "If",
+        "answer": "If the office chooses the cheapest system, which often breaks down, it may back the wrong horse.",
+        "answerZh": "辦公室如果選擇經常故障的最便宜系統，可能會選錯方案。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "back the wrong horse"
+      },
+      {
+        "id": "idiom-50-q48",
+        "number": 48,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: You invested in the new café because you expected it to become very popular. B: Yes, but I did not know another café would open next door.",
+        "promptZh": "甲：你投資了新咖啡店，因為你預期它會很受歡迎。 乙：是的，但我不知道旁邊會有另一間咖啡店開業。",
+        "starter": "Yes,",
+        "answer": "Yes, I may have backed the wrong horse when I invested in the new café without knowing another café would open next door.",
+        "answerZh": "是的，我投資這間新咖啡店時不知道旁邊會有另一間咖啡店開業，可能是押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q49",
+        "number": 49,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The company chose speed over safety because it expected the fast plan to save money. Instead, accidents caused long delays.",
+        "promptZh": "公司選擇速度而不是安全，因為它預期較快的方案能節省金錢。結果，意外反而造成長時間延誤。",
+        "starter": "By",
+        "answer": "By choosing the fast plan instead of the safer one, the company backed the wrong horse.",
+        "answerZh": "公司選擇較快的方案而不是較安全的方案，結果選錯了方向。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      },
+      {
+        "id": "idiom-50-q50",
+        "number": 50,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A local centre had to choose between a large one-day event and small weekly classes. It chose the event, but hardly anyone came.",
+        "promptZh": "一間本地中心需要在大型單日活動和小型每週課堂之間作選擇。它選擇了前者，但幾乎沒有人出席。",
+        "starter": "In",
+        "answer": "In choosing the large one-day event instead of the weekly classes, the local centre backed the wrong horse.",
+        "answerZh": "本地中心選擇大型單日活動而不是每週課堂，結果押錯了注。",
+        "targetForm": "back the wrong horse",
+        "targetMeaning": "The expression usually looks back on an unsuccessful choice or warns that a present choice may turn out badly. It does not simply mean “make any mistake”. There must normally be a person, side, idea or option being supported or chosen in a situation whose result was not yet certain.",
+        "highlight": "backed the wrong horse"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1489 @@
+{
+  "lesson": {
+    "id": "idiom-33",
+    "order": 33,
+    "slug": "turn-the-tables",
+    "version": "1",
+    "title": "扭轉局面／反客為主",
+    "titleEn": "turn the tables",
+    "titleZh": "扭轉局面／反客為主",
+    "source": {
+      "file": "Idiom 33 -「TURN THE TABLES」.pdf",
+      "pageCount": 32,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "exercisePdfPages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "answerKeyPdfPages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "turn the tables on someone",
+        "highlight": "turn the tables on someone"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Ava turned the tables on the other team in the quiz by answering the last three questions correctly.",
+        "zh": "艾娃答對最後三條問題，在問答比賽中扭轉局面，反而壓過另一隊。",
+        "highlight": "turned the tables on"
+      },
+      {
+        "en": "The customer turned the tables on the shop.",
+        "zh": "顧客扭轉局面，反而佔了店舖的上風。",
+        "highlight": "turned the tables on"
+      }
+    ],
+    "meaning": {
+      "en": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+      "zh": "改變原本不利的情況，令先前處於下風、落後或較弱的一方取得優勢，反而壓過原本佔上風的一方。",
+      "naturalZh": [
+        "扭轉局面",
+        "反客為主",
+        "反敗為勝",
+        "由下風轉為上風",
+        "轉而佔某人的上風",
+        "令原本佔優的一方反處下風"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; sports reports; news and general-interest writing; workplace discussions; interviews; stories; descriptions of arguments and competition.",
+      "summaryZh": "turn the tables 屬於中性至較口語的表達。",
+      "contextsEn": [
+        "everyday conversation",
+        "sports reports",
+        "news and general-interest writing",
+        "workplace discussions",
+        "interviews",
+        "stories",
+        "descriptions of arguments and competition"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "體育報道",
+        "新聞及一般文章",
+        "工作討論",
+        "訪問",
+        "故事",
+        "描述爭論及競爭。"
+      ],
+      "formalEn": "The expression often carries a competitive or slightly dramatic tone. In highly formal academic, legal or technical writing, expressions such as reverse the situation, gain the advantage or change the balance may sometimes be more suitable.",
+      "formalZh": "這個表達通常帶有競爭性或稍為戲劇化的語氣。 在非常正式的學術、法律或技術文章中，reverse the situation、gain the advantage 或 change the balance 有時會更合適。"
+    },
+    "fixedVariable": {
+      "fixed": "turn the tables on someone",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + turn(s) / turned + the tables.",
+          "example": "Ava turned the tables on the other team in the quiz by answering the last three questions correctly.",
+          "highlight": "turned the tables on"
+        },
+        {
+          "form": "Subject + turn(s) / turned + the tables + on + person or group.",
+          "example": "The customer turned the tables on the shop.",
+          "highlight": "turned the tables on"
+        },
+        {
+          "form": "Subject + turn(s) / turned + the tables + on someone + in + competition, debate or game.",
+          "example": "Ava turned the tables on the other team in the quiz.",
+          "highlight": "turned the tables on"
+        },
+        {
+          "form": "Subject + turn(s) / turned + the tables + on someone + by + verb-ing.",
+          "example": "The customer turned the tables on the shop by showing the receipt.",
+          "highlight": "turned the tables on"
+        },
+        {
+          "form": "Subject + turn(s) / turned + the tables + on someone + with + noun phrase.",
+          "example": "Daniel turned the tables on his opponent with one clever move.",
+          "highlight": "turned the tables on"
+        },
+        {
+          "form": "Action or event + turn(s) / turned + the tables + on someone.",
+          "example": "Priya’s question turned the tables on the other group.",
+          "highlight": "turned the tables on"
+        },
+        {
+          "form": "Subject + can / could / may / might / should / will + turn the tables.",
+          "example": "The new plan may turn the tables on the stronger team.",
+          "highlight": "turn the tables on"
+        },
+        {
+          "form": "By + verb-ing, + subject + turn(s) / turned + the tables.",
+          "example": "By showing the original message, the customer turned the tables on the seller.",
+          "highlight": "turned the tables on"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Form",
+        "titleZh": "句式一：基本形式",
+        "formula": "Subject + turn(s) / turned + the tables.",
+        "descriptionEn": "The final goal turned the tables.",
+        "descriptionZh": "最後一個入球扭轉了局勢。",
+        "examples": [
+          {
+            "en": "Ava turned the tables on the other team in the quiz by answering the last three questions correctly.",
+            "zh": "艾娃答對最後三條問題，在問答比賽中扭轉局面，反而壓過另一隊。",
+            "highlight": "turned the tables on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Naming the Other Side",
+        "titleZh": "句式二：指出原本佔優的一方",
+        "formula": "Subject + turn(s) / turned + the tables + on + person or group.",
+        "descriptionEn": "Use on to identify the person or group that previously had the advantage.",
+        "descriptionZh": "使用 on 指出原本佔有優勢、後來反處下風的人或群體。",
+        "examples": [
+          {
+            "en": "The customer turned the tables on the shop.",
+            "zh": "顧客扭轉局面，反而佔了店舖的上風。",
+            "highlight": "turned the tables on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Naming the Competition or Situation",
+        "titleZh": "句式三：指出競賽或情境",
+        "formula": "Subject + turn(s) / turned + the tables + on someone + in + competition, debate or game.",
+        "descriptionEn": "Source grammar frame: Subject + turn(s) / turned + the tables + on someone + in + competition, debate or game.",
+        "descriptionZh": "原檔列出的句法框架：Subject + turn(s) / turned + the tables + on someone + in + competition, debate or game。",
+        "examples": [
+          {
+            "en": "Ava turned the tables on the other team in the quiz.",
+            "zh": "艾娃在問答比賽中扭轉局面，反而壓過另一隊。",
+            "highlight": "turned the tables on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Explaining the Reversing Action",
+        "titleZh": "句式四：說明扭轉局勢的行動",
+        "formula": "Subject + turn(s) / turned + the tables + on someone + by + verb-ing.",
+        "descriptionEn": "Source grammar frame: Subject + turn(s) / turned + the tables + on someone + by + verb-ing.",
+        "descriptionZh": "原檔列出的句法框架：Subject + turn(s) / turned + the tables + on someone + by + verb-ing。",
+        "examples": [
+          {
+            "en": "The customer turned the tables on the shop by showing the receipt.",
+            "zh": "顧客出示收據，扭轉局面，反而證明店舖有錯。",
+            "highlight": "turned the tables on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Naming the Decisive Item",
+        "titleZh": "句式五：指出造成逆轉的關鍵事物",
+        "formula": "Subject + turn(s) / turned + the tables + on someone + with + noun phrase.",
+        "descriptionEn": "Source grammar frame: Subject + turn(s) / turned + the tables + on someone + with + noun phrase.",
+        "descriptionZh": "原檔列出的句法框架：Subject + turn(s) / turned + the tables + on someone + with + noun phrase。",
+        "examples": [
+          {
+            "en": "Daniel turned the tables on his opponent with one clever move.",
+            "zh": "丹尼爾以一步妙棋扭轉局面，反而佔了對手的上風。",
+            "highlight": "turned the tables on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Action or Event as the Subject",
+        "titleZh": "句式六：以行動或事件作主語",
+        "formula": "Action or event + turn(s) / turned + the tables + on someone.",
+        "descriptionEn": "a question; a goal; a document; a photograph; a rule; a test result; a message; a decision.",
+        "descriptionZh": "主語不一定是人，也可以是一條問題、一個入球、一份文件、一張相片、一項規則、一個測試結果、一則訊息或一個決定。",
+        "examples": [
+          {
+            "en": "Priya’s question turned the tables on the other group.",
+            "zh": "普麗雅的問題扭轉了局勢，令另一組反處下風。",
+            "highlight": "turned the tables on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Modal or Future Form",
+        "titleZh": "句式七：配合情態動詞或未來式",
+        "formula": "Subject + can / could / may / might / should / will + turn the tables.",
+        "descriptionEn": "One correct answer could turn the tables.",
+        "descriptionZh": "一條正確答案可能扭轉局勢。",
+        "examples": [
+          {
+            "en": "The new plan may turn the tables on the stronger team.",
+            "zh": "新計劃可能令較強的隊伍反處下風。",
+            "highlight": "turn the tables on"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Fronted Method or Condition",
+        "titleZh": "句式八：把方法或條件放在句首",
+        "formula": "By + verb-ing, + subject + turn(s) / turned + the tables.",
+        "descriptionEn": "Source grammar frame: By + verb-ing, + subject + turn(s) / turned + the tables.",
+        "descriptionZh": "原檔列出的句法框架：By + verb-ing, + subject + turn(s) / turned + the tables。",
+        "examples": [
+          {
+            "en": "By showing the original message, the customer turned the tables on the seller.",
+            "zh": "顧客出示原本的訊息，扭轉局面，反而佔了賣方的上風。",
+            "highlight": "turned the tables on"
+          },
+          {
+            "en": "If we find the email, we can turn the tables on the other team.",
+            "zh": "如果我們找到那封電郵，便可以扭轉局面，反而佔另一隊的上風。",
+            "highlight": "turn the tables on"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses a Complete Reversal Clearly",
+        "titleZh": "清楚表達整個局勢逆轉",
+        "en": "The team turned the tables on the other team.",
+        "zh": "這個慣用語能以簡潔方式表達一方由下風轉為上風的完整變化。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Highlights the Decisive Action",
+        "titleZh": "突出造成逆轉的關鍵行動",
+        "en": "The sentence does not merely say that Ava won. It highlights the exact action that changed her position.",
+        "zh": "這個句子不只是說艾娃勝出，還突出她答對最後三條問題這個扭轉局勢的關鍵行動。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Connects Earlier Disadvantage with Later Advantage",
+        "titleZh": "連繫先前的劣勢與後來的優勢",
+        "en": "the situation was unfavourable before; something important happened; the balance then changed.",
+        "zh": "這個表達讓聽者知道情況原本不利，其後發生了一件關鍵事情，令雙方的優劣位置改變。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful Beyond Sports",
+        "titleZh": "不只適用於體育情境",
+        "en": "a debate; a complaint; an interview; a price discussion; a competition; a game; a disagreement; a story.",
+        "zh": "turn the tables 可用於辯論、投訴、面試、價格商談、競賽、遊戲、爭論及故事，並不只限於體育比賽。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Provides Natural Semantic Compression",
+        "titleZh": "自然地濃縮較長意思",
+        "en": "The idiom replaces the longer explanation of how the previously weaker side gained the advantage.",
+        "zh": "顧客出示收據，扭轉局面，反而證明店舖需要負責。 這個慣用語取代了「原本處於下風的一方如何反而取得優勢」的較長解釋。",
+        "examples": [
+          {
+            "en": "The customer turned the tables on the shop by showing the receipt.",
+            "zh": "顧客出示收據，扭轉局面，反而證明店舖需要負責。",
+            "highlight": "turned the tables on"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Adds Controlled Dramatic Force",
+        "titleZh": "帶出適度的戲劇性",
+        "en": "The second sentence presents the evidence as powerful enough to reverse the whole balance of the argument. However, the idiom should not be used for every small improvement. A genuine reversal must occur.",
+        "zh": "第二句說明新證據不只是有幫助，而是強大得足以扭轉整個爭論的局勢。 不過，不能在每次小小改善時都使用這個慣用語。 情況必須真正出現逆轉。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Most Likely Origin; Exact First Use Uncertain",
+      "statusZh": "最可能的來源；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The figurative expression turn the tables is recorded from the seventeenth century. An early, frequently cited use is associated with a sermon preached by Robert Sanderson in 1634 and published in 1635. Existing records establish that the expression was in use during that period, but they do not prove who first created it or exactly when it entered spoken English.",
+          "zh": "turn the tables 的比喻用法在十七世紀已有記錄。 一個經常被引用的早期例子，來自 Robert Sanderson 在1634年講道、並於1635年出版的文本。 現有資料證明這個表達在當時已有人使用， 但不能證明是誰首先創造它，也不能確定它在甚麼時候開始在口語中出現。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The gaming image naturally came to represent a reversal of positions. One player had the better position, but the balance changed and the other player gained the advantage. Speakers later extended the image to arguments, competitions, business situations and personal conflicts.",
+          "zh": "遊戲中雙方位置逆轉的畫面，逐漸被用來表示一般情況中的優劣逆轉。 一名玩家原本處於較有利位置，但局勢其後改變，另一名玩家反而取得優勢。 後來，這個意象被延伸至爭論、競賽、商業情況及人際衝突。"
+        }
+      ],
+      "memoryEn": "Think of two players changing positions: the side that was losing now has the advantage.",
+      "memoryZh": "想像兩名玩家的優劣位置對調：原本落後的一方現在反而取得優勢。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “the Tables” Fixed",
+        "titleZh": "規則一：the tables 必須保持不變",
+        "en": "Tables must remain plural even when only two people are involved.",
+        "zh": "即使情境中只有兩個人，tables 仍然必須使用複數形式。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Turn”, Not “the Tables”",
+        "titleZh": "規則二：只改變 turn，不改變 the tables",
+        "en": "Change “Turn”, Not “the Tables”",
+        "zh": "只改變 turn，不改變 the tables",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "There Must Be a Real Reversal",
+        "titleZh": "規則三：情況必須真正出現逆轉",
+        "en": "The team turned the tables by scoring two late goals. The team did not move from a weaker position to a stronger one. It simply increased its existing advantage.",
+        "zh": "球隊原本落後，但以兩個後段入球扭轉局勢並反先。 球隊本來已經領先，只是再入一球。 它並沒有由下風轉為上風，因此不適合使用這個慣用語。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Does Not Simply Mean “Win”",
+        "titleZh": "規則四：它不只是表示「勝出」",
+        "en": "A team may win without turning the tables if it was ahead throughout the whole match.",
+        "zh": "如果一支球隊由比賽開始至結束一直領先，即使它最後勝出，也不一定適合使用 turn the tables。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "“On” Names the Formerly Stronger Side",
+        "titleZh": "規則五：on 後面指出原本佔優的一方",
+        "en": "Lena was previously in the weaker position. Her opponent previously had the advantage.",
+        "zh": "莉娜原本處於下風，而她的對手原本佔有優勢。 後來莉娜反而佔了上風。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "The Subject Must Cause the Reversal",
+        "titleZh": "規則六：主語必須造成局勢逆轉",
+        "en": "The shop did not gain the new advantage.",
+        "zh": "店舖並沒有取得新的優勢，因此不能把店舖當作扭轉局勢的一方。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則七：保留原句的時態及確定程度",
+        "en": "One more goal could turn the tables. One more goal turned the tables. Do not change could turn into turned. That would change a possibility into a completed fact.",
+        "zh": "多一個入球可能扭轉局勢。 多一個入球扭轉了局勢。 不要把 could turn 改成 turned，否則會把可能發生的事情改成已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Use “By + -ing” for an Action",
+        "titleZh": "規則八：使用 by + -ing 說明行動",
+        "en": "Use “By + -ing” for an Action",
+        "zh": "使用 by + -ing 說明行動",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Use “With + Noun” for a Decisive Item",
+        "titleZh": "規則九：使用 with + 名詞指出關鍵事物",
+        "en": "Use “With + Noun” for a Decisive Item",
+        "zh": "使用 with + 名詞指出關鍵事物",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Repeat the Idiom’s Meaning",
+        "titleZh": "規則十：不要重複慣用語已表達的意思",
+        "en": "The idiom already expresses the movement from disadvantage to advantage. The answer should not explain the same reversal again.",
+        "zh": "這個慣用語已經表達了由下風轉為上風的意思。 使用慣用語後，不應再次以另一個分句重複解釋同一逆轉。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Avoid Accidental Literal Meanings",
+        "titleZh": "規則十一：避免意外產生字面意思",
+        "en": "The workers turned the tables upside down before cleaning the floor. The exercise teaches only the figurative meaning.",
+        "zh": "工人在清潔地板前把桌子翻轉。 工人證明經理的數字有錯，扭轉局面並反佔上風。 本練習只教授比喻意思。",
+        "examples": [
+          {
+            "en": "The workers turned the tables on the manager by showing that his figures were wrong.",
+            "zh": "工人證明經理的數字有錯，扭轉局面並反佔上風。",
+            "highlight": "turned the tables on"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "“The Tables Have Turned” Is Related but Different",
+        "titleZh": "規則十二",
+        "en": "This means that the relative positions have reversed. This identifies the person, action or event that causes the reversal.",
+        "zh": "the tables have turned 意思相關，但句式不同局勢已經逆轉。 某人、某項行動或某件事情令局勢出現逆轉。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using turn the tables.",
+      "zh": "使用 turn the tables 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-33-q01",
+        "number": 1,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Ava’s team was six points behind in the quiz. She answered the last three questions correctly and put her team ahead.",
+        "promptZh": "艾娃的隊伍在問答比賽中落後六分。她答對最後三條問題，令自己的隊伍反先。",
+        "starter": "Ava",
+        "answer": "Ava turned the tables on the other team in the quiz by answering the last three questions correctly.",
+        "answerZh": "艾娃答對最後三條問題，在問答比賽中扭轉局面，反而壓過另一隊。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q02",
+        "number": 2,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Daniel was in the weaker position in the chess game, but one clever move gave him the advantage.",
+        "promptZh": "丹尼爾在棋局中原本處於下風，但一步妙棋令他取得優勢。",
+        "starter": "Daniel",
+        "answer": "Daniel turned the tables on his opponent in the chess game with one clever move.",
+        "answerZh": "丹尼爾以一步妙棋扭轉棋局，反而佔了對手的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q03",
+        "number": 3,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The Red Team was losing the football match, but two quick goals put it ahead of the Blue Team.",
+        "promptZh": "紅隊在足球賽中原本落後，但兩個快速入球令它反先藍隊。",
+        "starter": "The",
+        "answer": "The Red Team turned the tables on the Blue Team in the football match by scoring two quick goals.",
+        "answerZh": "紅隊連入兩球，在足球賽中扭轉局勢，反先藍隊。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q04",
+        "number": 4,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Nora’s brother usually beat her at the card game. This time, she worked out his plan and took the lead.",
+        "promptZh": "諾拉的哥哥通常都在紙牌遊戲中勝過她。這一次，她看穿了他的計劃並取得領先。",
+        "starter": "Nora",
+        "answer": "Nora turned the tables on her brother in the card game by working out his plan.",
+        "answerZh": "諾拉看穿哥哥的計劃，在紙牌遊戲中扭轉局面，反而取得領先。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q05",
+        "number": 5,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The other side seemed stronger in the debate, but Liam used clear facts and put his team in the stronger position.",
+        "promptZh": "辯論中的另一方原本看來較強，但利亞姆提出清楚的事實，令自己的隊伍取得優勢。",
+        "starter": "Liam",
+        "answer": "Liam turned the tables on the other side in the debate with clear facts.",
+        "answerZh": "利亞姆以清楚的事實扭轉辯論局勢，令自己的隊伍反佔上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q06",
+        "number": 6,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Sophie was close to the back of the race, but she passed the other runners on the final lap and moved into first place.",
+        "promptZh": "蘇菲在賽事中原本接近最後位置，但她在最後一圈超越其他跑手，升上第一位。",
+        "starter": "Sophie",
+        "answer": "Sophie turned the tables on the other runners in the race by passing them on the final lap.",
+        "answerZh": "蘇菲在最後一圈超越其他跑手，扭轉賽事局面並升上第一位。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q07",
+        "number": 7,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The shop said the customer had agreed to the higher price. She showed the original receipt and proved that the shop was wrong.",
+        "promptZh": "店舖聲稱顧客曾同意較高的價錢。她出示原本的收據，證明店舖有錯。",
+        "starter": "The",
+        "answer": "The customer turned the tables on the shop by showing the original receipt.",
+        "answerZh": "顧客出示原本的收據，扭轉局面，反而證明店舖有錯。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q08",
+        "number": 8,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The older students laughed at Leo’s basketball team when it fell behind. Leo then scored three times and gave his team the lead.",
+        "promptZh": "里奧的籃球隊落後時，年長學生取笑他們。其後里奧連續三次得分，令自己的隊伍反先。",
+        "starter": "Leo",
+        "answer": "Leo turned the tables on the older students in the basketball game by scoring three times.",
+        "answerZh": "里奧連續三次得分，在籃球賽中扭轉局勢，反而壓過年長學生。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q09",
+        "number": 9,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Ben was close to losing the video game, but a new plan helped him take control from his opponent.",
+        "promptZh": "本在電子遊戲中差點落敗，但一個新計劃令他從對手手中取得控制權。",
+        "starter": "Ben",
+        "answer": "Ben turned the tables on his opponent in the video game with a new plan.",
+        "answerZh": "本以一個新計劃扭轉電子遊戲的局勢，反而取得優勢。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q10",
+        "number": 10,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Grace was behind in the spelling contest, but she got the final difficult words right and moved ahead.",
+        "promptZh": "格蕾絲在串字比賽中原本落後，但她答對最後幾個較難的字，成功反先。",
+        "starter": "Grace",
+        "answer": "Grace turned the tables on the other students in the spelling contest by getting the final difficult words right.",
+        "answerZh": "格蕾絲答對最後幾個較難的字，在串字比賽中扭轉局勢並成功反先。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q11",
+        "number": 11,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "At practice matches, the younger team often starts badly. Its quick passing usually helps it gain control from the older team.",
+        "promptZh": "在練習賽中，年輕隊伍往往開局不佳。它們快速的傳球通常能令自己從年長隊伍手中取得控制權。",
+        "starter": "Quick",
+        "answer": "Quick passing usually turns the tables on the older team during practice matches.",
+        "answerZh": "快速傳球通常能在練習賽中扭轉局面，令年輕隊伍反佔年長隊伍的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turns the tables on"
+      },
+      {
+        "id": "idiom-33-q12",
+        "number": 12,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Ethan lost the early rounds, but he has used better defence and now holds the advantage.",
+        "promptZh": "伊森在早段幾個回合落敗，但他改善了防守，現在已取得優勢。",
+        "starter": "Ethan",
+        "answer": "Ethan has turned the tables on his opponent in the match by using better defence.",
+        "answerZh": "伊森改善防守，在比賽中扭轉局勢，現已反佔對手的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q13",
+        "number": 13,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Clara is behind now, but her strong final speech will probably give her the advantage in the speaking contest.",
+        "promptZh": "克拉拉目前落後，但她有力的最後發言很可能令她在演講比賽中取得優勢。",
+        "starter": "Clara",
+        "answer": "Clara will probably turn the tables on the other speaker in the contest with her strong final speech.",
+        "answerZh": "克拉拉很可能憑有力的最後發言扭轉局勢，在比賽中反佔另一位講者的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turn the tables on"
+      },
+      {
+        "id": "idiom-33-q14",
+        "number": 14,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The other side has the stronger argument, but one clear example can show that its main point is wrong and give us the advantage.",
+        "promptZh": "另一方的論點目前較強，但一個清楚的例子可以證明其主要觀點有錯，令我們取得優勢。",
+        "starter": "One",
+        "answer": "One clear example can turn the tables on the other side in the debate.",
+        "answerZh": "一個清楚的例子可以扭轉辯論局勢，令我們反佔另一方的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turn the tables on"
+      },
+      {
+        "id": "idiom-33-q15",
+        "number": 15,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Our team is four points behind. Could one correct answer put us ahead of the other team?",
+        "promptZh": "我們的隊伍落後四分。一條正確答案能否令我們反先另一隊？",
+        "starter": "Could",
+        "answer": "Could one correct answer turn the tables on the other team in the quiz?",
+        "answerZh": "一條正確答案能否扭轉問答比賽的局勢，令我們反先另一隊？",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turn the tables on"
+      },
+      {
+        "id": "idiom-33-q16",
+        "number": 16,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The other team keeps stopping our attacks. We should use the left side to take control from them.",
+        "promptZh": "另一隊不斷阻止我們進攻。我們應利用左路，從他們手中取得控制權。",
+        "starter": "We",
+        "answer": "We should turn the tables on the other team in the match by attacking from the left.",
+        "answerZh": "我們應從左路進攻，在比賽中扭轉局勢，反佔另一隊的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turn the tables on"
+      },
+      {
+        "id": "idiom-33-q17",
+        "number": 17,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: The other team is still winning the quiz. B: One more correct answer will put us in front.",
+        "promptZh": "甲：另一隊仍在問答比賽中領先。 乙：只要再答對一題，我們便會反先。",
+        "starter": "We",
+        "answer": "We can still turn the tables on them in the quiz with one more correct answer.",
+        "answerZh": "我們仍可以再答對一題，在問答比賽中扭轉局勢並反先他們。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turn the tables on"
+      },
+      {
+        "id": "idiom-33-q18",
+        "number": 18,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The interviewer seemed to have all the control. Aaron then asked why several workers had left, and the company had to prove that it was worth joining.",
+        "promptZh": "面試官原本似乎完全掌握局面。其後亞倫問為何有幾名員工離職，令公司反過來需要證明那是一間值得加入的公司。",
+        "starter": "Aaron",
+        "answer": "Aaron turned the tables on the interviewer by asking why several workers had left.",
+        "answerZh": "亞倫追問多名員工離職的原因，扭轉面試局面，令面試官反過來需要作出解釋。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q19",
+        "number": 19,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The small team began the match badly, but it is now keeping the ball longer and taking control from the stronger team.",
+        "promptZh": "小隊開局不佳，但現在正較長時間控球，並逐漸從強隊手中取得控制權。",
+        "starter": "The",
+        "answer": "The small team is turning the tables on the stronger team by keeping the ball longer.",
+        "answerZh": "小隊正以較長時間控球扭轉局勢，逐漸反佔強隊的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turning the tables on"
+      },
+      {
+        "id": "idiom-33-q20",
+        "number": 20,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Oliver was behind at first, but before the final round he had answered enough questions correctly to take the lead.",
+        "promptZh": "奧利弗起初落後，但在最後一回合前，他已答對足夠問題並取得領先。",
+        "starter": "Oliver",
+        "answer": "Oliver had turned the tables on the other players before the final round by answering enough questions correctly.",
+        "answerZh": "奧利弗在最後一回合前已答對足夠問題，扭轉局勢並反先其他參賽者。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q21",
+        "number": 21,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: You were far behind a few minutes ago. B: My last two moves have now put me in the stronger position.",
+        "promptZh": "甲：幾分鐘前你還遠遠落後。 乙：我剛才兩步棋已令自己反而處於較有利位置。",
+        "starter": "I’ve",
+        "answer": "I’ve turned the tables on you in the board game with my last two moves.",
+        "answerZh": "我以剛才兩步棋扭轉桌上遊戲的局勢，現在反而佔你的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q22",
+        "number": 22,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Our group had no strong reply in the debate until Priya asked a question that the other group could not answer.",
+        "promptZh": "我們的小組在辯論中一直沒有有力回應，直至普麗雅提出一條另一組無法回答的問題。",
+        "starter": "Priya’s",
+        "answer": "Priya’s question turned the tables on the other group in the debate.",
+        "answerZh": "普麗雅的問題扭轉了辯論局勢，令我們的小組反佔另一組的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q23",
+        "number": 23,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The restaurant staff said the customer had ordered the wrong meal. She showed them her order message, which proved that they had made the mistake.",
+        "promptZh": "餐廳職員聲稱顧客點錯餐點。她向他們出示訂餐訊息，證明犯錯的是餐廳。",
+        "starter": "The",
+        "answer": "The customer turned the tables on the restaurant staff by showing them her order message.",
+        "answerZh": "顧客出示訂餐訊息，扭轉局面，反而證明餐廳職員有錯。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q24",
+        "number": 24,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Did Aaron only answer the company’s questions in the interview? B: No. He asked several difficult questions, so the company had to show why he should work there.",
+        "promptZh": "甲：亞倫在面試中只是回答公司的問題嗎？ 乙：不是。他提出了幾條難答的問題，令公司反過來需要說明為甚麼他應在那裏工作。",
+        "starter": "No.",
+        "answer": "No. Aaron turned the tables on the company in the interview by asking several difficult questions.",
+        "answerZh": "不是。亞倫在面試中提出幾條難答的問題，扭轉局面，令公司反過來需要說服他。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q25",
+        "number": 25,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The other player kept attacking in the online game. A hidden shield then allowed Carla to take control.",
+        "promptZh": "另一名玩家在網上遊戲中不斷進攻。其後一個隱藏盾牌令卡拉取得控制權。",
+        "starter": "A",
+        "answer": "A hidden shield turned the tables on the other player in Carla’s online game.",
+        "answerZh": "一個隱藏盾牌扭轉了卡拉在網上遊戲中的局勢，令她反佔另一名玩家的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q26",
+        "number": 26,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The younger class was expected to lose the relay race, but its runners passed the stick cleanly and moved ahead.",
+        "promptZh": "年幼班別原本被看淡會輸掉接力賽，但隊員順利交棒並成功反先。",
+        "starter": "The",
+        "answer": "The younger class turned the tables on the older class in the relay race by passing the stick cleanly.",
+        "answerZh": "年幼班別憑順利交棒扭轉接力賽局勢，反先年長班別。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q27",
+        "number": 27,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Their number makes our argument look weak. B: This photo shows that their number is old.",
+        "promptZh": "甲：他們提出的數字令我們的論點顯得很弱。 乙：這張相片證明他們的數字已經過時。",
+        "starter": "This",
+        "answer": "This photo could turn the tables on them in the debate by showing that their number is old.",
+        "answerZh": "這張相片可以證明他們的數字已經過時，從而扭轉辯論局勢，令我們反佔上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turn the tables on"
+      },
+      {
+        "id": "idiom-33-q28",
+        "number": 28,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The judges preferred the other team’s food at first. Our final dessert changed their view and gave us the advantage.",
+        "promptZh": "評判起初較喜歡另一隊的食物。我們最後的甜品改變了他們的看法，令我們取得優勢。",
+        "starter": "Our",
+        "answer": "Our final dessert turned the tables on the other team in the cooking competition.",
+        "answerZh": "我們最後的甜品扭轉了烹飪比賽的局勢，令我們反佔另一隊的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q29",
+        "number": 29,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Tom hid Jack’s bag as a joke, but his own phone was inside it. Jack stayed calm, and Tom soon became the worried one.",
+        "promptZh": "湯姆開玩笑藏起傑克的袋，但自己的電話原來放在袋內。傑克保持冷靜，最後反而是湯姆開始擔心。",
+        "starter": "Jack",
+        "answer": "Jack turned the tables on Tom by staying calm while Tom worried about his phone.",
+        "answerZh": "傑克保持冷靜，令擔心自己電話的湯姆反而陷入被動，成功扭轉局面。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q30",
+        "number": 30,
+        "sourcePage": 20,
+        "sourcePages": [
+          20,
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: How did the weaker team gain control of the match? B: Its goalkeeper saved two important shots.",
+        "promptZh": "甲：原本較弱的隊伍如何取得比賽控制權？ 乙：它的守門員救出了兩個重要射門。",
+        "starter": "Its",
+        "answer": "Its goalkeeper turned the tables on the other team by saving two important shots.",
+        "answerZh": "守門員救出兩個重要射門，扭轉賽事局勢，令自己的隊伍反佔上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q31",
+        "number": 31,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Although the other team had won the first two rounds, Isla solved the final problem and put her team in the stronger position.",
+        "promptZh": "雖然另一隊贏了首兩個回合，但艾拉解決了最後一道問題，令自己的隊伍取得較有利位置。",
+        "starter": "Although",
+        "answer": "Although the other team had won the first two rounds, Isla turned the tables on the other team by solving the final problem.",
+        "answerZh": "雖然另一隊贏了首兩個回合，但艾拉解決最後一道問題，扭轉局勢，令自己的隊伍反佔上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q32",
+        "number": 32,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The seller said that no lower price had been promised. The customer showed the manager a message containing the agreed price and gained the stronger position.",
+        "promptZh": "賣方聲稱從未答應較低價錢。顧客向經理出示載有協定價錢的訊息，因而取得較有利位置。",
+        "starter": "By",
+        "answer": "By showing the message with the agreed price, the customer turned the tables on the seller.",
+        "answerZh": "顧客出示載有協定價錢的訊息，扭轉局面，反而佔了賣方的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q33",
+        "number": 33,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The reporter asked the actor several difficult questions. The actor then asked why the report had left out an important fact, so the reporter had to defend the story.",
+        "promptZh": "記者向演員提出幾條難答的問題。其後演員追問報道為何漏掉一項重要事實，令記者反過來需要為報道辯護。",
+        "starter": "The",
+        "answer": "The actor turned the tables on the reporter by asking why the report had left out an important fact.",
+        "answerZh": "演員追問報道為何漏掉重要事實，扭轉訪問局面，令記者反過來需要作出解釋。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q34",
+        "number": 34,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The home team was behind with five minutes left. A new player scored twice and gave it control of the match.",
+        "promptZh": "主隊在剩下五分鐘時仍然落後。一名新球員連入兩球，令球隊取得比賽控制權。",
+        "starter": "With",
+        "answer": "With five minutes left, a new player turned the tables on the visiting team by scoring twice.",
+        "answerZh": "在剩下五分鐘時，一名新球員連入兩球，扭轉局勢，令主隊反佔客隊的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q35",
+        "number": 35,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The coach believed that an early goal could move his team from the weaker position to the stronger one.",
+        "promptZh": "教練相信，一個早段入球可以令自己的隊伍由下風轉為上風。",
+        "starter": "The",
+        "answer": "The coach believed that an early goal could turn the tables on the other team.",
+        "answerZh": "教練相信，一個早段入球可以扭轉局勢，令自己的隊伍反佔另一隊的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turn the tables on"
+      },
+      {
+        "id": "idiom-33-q36",
+        "number": 36,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "If we find the email showing that the other team changed the date, we can prove that the delay was not our fault and gain the stronger position.",
+        "promptZh": "如果我們找到證明另一隊改動日期的電郵，便可以證明延誤不是我們的責任，並取得較有利位置。",
+        "starter": "If",
+        "answer": "If we find the email showing that the other team changed the date, we can turn the tables on them in the meeting.",
+        "answerZh": "如果我們找到證明另一隊改動日期的電郵，便可以在會議中扭轉局面，反而佔他們的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turn the tables on"
+      },
+      {
+        "id": "idiom-33-q37",
+        "number": 37,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The large shop had more money for advertising, but the small shop knew local customers better and began attracting more of them.",
+        "promptZh": "大型店舖有較多金錢做廣告，但小店更了解本地顧客，並開始吸引更多客人。",
+        "starter": "The",
+        "answer": "The small shop turned the tables on the large shop by understanding local customers better.",
+        "answerZh": "小店憑更了解本地顧客扭轉競爭局勢，反而壓過大型店舖。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q38",
+        "number": 38,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The other group had claimed that its design was better. Our latest test has shown that our design works faster and has given us the advantage.",
+        "promptZh": "另一組一直聲稱他們的設計較好。我們最新的測試顯示自己的設計運作得更快，並令我們取得優勢。",
+        "starter": "Our",
+        "answer": "Our latest test has turned the tables on the other group by showing that our design works faster.",
+        "answerZh": "我們最新的測試證明自己的設計運作得更快，扭轉局面，令我們反佔另一組的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q39",
+        "number": 39,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The strongest players used to win every round. A new rule gave newer players more time and allowed them to take control.",
+        "promptZh": "最強的玩家以往每個回合都會勝出。一項新規則給予新玩家更多時間，令他們得以取得優勢。",
+        "starter": "The",
+        "answer": "The new rule turned the tables on the strongest players by giving newer players more time.",
+        "answerZh": "新規則給予新玩家更多時間，扭轉競賽局勢，令新玩家反而取得優勢。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q40",
+        "number": 40,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: The manager says our team caused the delay. B: This signed form shows that he sent us the order two days late.",
+        "promptZh": "甲：經理說延誤是我們團隊造成的。 乙：這份已簽署的表格證明，是他遲了兩天才把訂單交給我們。",
+        "starter": "This",
+        "answer": "This signed form turns the tables on the manager by showing that he sent us the order two days late.",
+        "answerZh": "這份已簽署的表格證明經理遲了兩天才交出訂單，扭轉局面，反而顯示責任在他。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turns the tables on"
+      },
+      {
+        "id": "idiom-33-q41",
+        "number": 41,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The popular student expected an easy debate in the school election. A quieter student asked clear questions about his promises, and he then had to defend his plan.",
+        "promptZh": "那名受歡迎的學生原以為校內選舉辯論會很容易。另一名較安靜的學生清楚追問他的承諾，令他反過來需要為自己的計劃辯護。",
+        "starter": "The",
+        "answer": "The quieter student turned the tables on the popular student in the school election debate by asking clear questions about his promises.",
+        "answerZh": "較安靜的學生清楚追問對方的承諾，在校內選舉辯論中扭轉局面，令受歡迎的學生反過來需要辯護。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q42",
+        "number": 42,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: The hospital clerk says I failed to attend my appointment. B: Show her the message saying that the hospital cancelled it.",
+        "promptZh": "甲：醫院職員說我沒有出席預約。 乙：向她出示醫院取消預約的訊息吧。",
+        "starter": "You",
+        "answer": "You can turn the tables on the hospital clerk by showing her the cancellation message.",
+        "answerZh": "你可以向醫院職員出示取消預約的訊息，扭轉局面，反而證明醫院一方取消了預約。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turn the tables on"
+      },
+      {
+        "id": "idiom-33-q43",
+        "number": 43,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The angry guest blamed the receptionist for booking the wrong date. The booking record showed that the guest himself had chosen that date.",
+        "promptZh": "憤怒的住客指責接待員預訂了錯誤日期。預訂記錄顯示，原來是住客自己選擇了該日期。",
+        "starter": "The",
+        "answer": "The booking record turned the tables on the angry guest by showing that he had chosen the date himself.",
+        "answerZh": "預訂記錄顯示住客自己選擇了該日期，扭轉局面，反而證明接待員沒有出錯。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q44",
+        "number": 44,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A large company expected local shop owners to accept a poor price. The owners brought a better offer from another company, so they gained the stronger position in the talks.",
+        "promptZh": "一間大公司原以為本地店主會接受不理想的價錢。店主帶來另一間公司的更好出價，因而在商談中取得較有利位置。",
+        "starter": "The",
+        "answer": "The local shop owners turned the tables on the large company in the price talks by bringing a better offer.",
+        "answerZh": "本地店主帶來更好的出價，在價格商談中扭轉局面，反而佔了大公司的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q45",
+        "number": 45,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Several people said the new school rule had failed. New results showed that students were arriving on time more often, so the supporters gained the stronger argument.",
+        "promptZh": "有些人聲稱新的校規失敗了。新結果顯示學生更常準時到校，令支持校規的一方取得更有力的論據。",
+        "starter": "The",
+        "answer": "The new results turned the tables on the people who opposed the school rule by showing that more students were arriving on time.",
+        "answerZh": "新結果顯示更多學生準時到校，扭轉討論局勢，令反對新校規的人處於下風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q46",
+        "number": 46,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The large café has more seats and spends more on advertising. A small café could still gain the advantage by serving local dishes that customers cannot get elsewhere.",
+        "promptZh": "大型咖啡店座位較多，亦花更多金錢做廣告。小咖啡店仍可能憑提供其他地方吃不到的本地菜式取得優勢。",
+        "starter": "The",
+        "answer": "The small café could turn the tables on the large café by serving local dishes that customers cannot get elsewhere.",
+        "answerZh": "小咖啡店可以憑提供其他地方吃不到的本地菜式扭轉競爭局面，反而取得優勢。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turn the tables on"
+      },
+      {
+        "id": "idiom-33-q47",
+        "number": 47,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The reporter expected the athlete to defend a poor result. Instead, the athlete asked why the report had ignored an injury, and the reporter had to explain the missing fact.",
+        "promptZh": "記者原以為運動員需要為差劣成績辯護。運動員卻追問報道為何忽略傷患，令記者反過來需要解釋遺漏的事實。",
+        "starter": "The",
+        "answer": "The athlete turned the tables on the reporter by asking why the report had ignored the injury.",
+        "answerZh": "運動員追問報道為何忽略傷患，扭轉訪問局面，令記者反過來需要解釋。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q48",
+        "number": 48,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: The town leader expects parents to accept the plan without asking much. B: One parent has a list of questions about the cost and safety.",
+        "promptZh": "甲：鎮上主管以為家長不會多問便接受計劃。 乙：一名家長準備了一份有關費用和安全的問題清單。",
+        "starter": "One",
+        "answer": "One parent could turn the tables on the town leader at the meeting with questions about the cost and safety.",
+        "answerZh": "一名家長可以在會議上提出有關費用和安全的問題，扭轉局面，令鎮上主管反過來需要解釋。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turn the tables on"
+      },
+      {
+        "id": "idiom-33-q49",
+        "number": 49,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The thief believed that he had trapped the detective in the room. However, the detective had already locked the only exit and called the police.",
+        "promptZh": "小偷以為自己把偵探困在房間內。然而，偵探早已鎖上唯一出口並報警。",
+        "starter": "The",
+        "answer": "The detective turned the tables on the thief by locking the only exit and calling the police.",
+        "answerZh": "偵探鎖上唯一出口並報警，扭轉局面，反而把小偷困住。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      },
+      {
+        "id": "idiom-33-q50",
+        "number": 50,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The visiting team had studied every move that our players normally used. During the break, the captain changed the plan and asked the youngest player to attack from the other side, which gave our team control.",
+        "promptZh": "客隊研究了我們球員平日使用的每一種打法。休息期間，隊長改變計劃，並請最年輕的球員從另一邊進攻，令我們的隊伍取得控制權。",
+        "starter": "By",
+        "answer": "By changing the plan and asking the youngest player to attack from the other side, the captain turned the tables on the visiting team.",
+        "answerZh": "隊長改變計劃，並請最年輕的球員從另一邊進攻，成功扭轉局勢，令我們的隊伍反佔客隊的上風。",
+        "targetForm": "turn the tables on someone",
+        "targetMeaning": "To change a situation so that the person or group that was previously weaker, losing or at a disadvantage gains the advantage over the person or group that was previously stronger.",
+        "highlight": "turned the tables on"
+      }
+    ]
+  }
+}

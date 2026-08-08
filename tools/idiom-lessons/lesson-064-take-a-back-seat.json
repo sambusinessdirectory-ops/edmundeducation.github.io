@@ -1,0 +1,1461 @@
+{
+  "lesson": {
+    "id": "idiom-64",
+    "order": 64,
+    "slug": "take-a-back-seat",
+    "version": "1",
+    "title": "退居次要位置／退居幕後",
+    "titleEn": "take a back seat",
+    "titleZh": "退居次要位置／退居幕後",
+    "source": {
+      "file": "Idiom 64 - 「Take a Back Seat」.pdf",
+      "pageCount": 30,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "exercisePdfPages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "answerKeyPdfPages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "take a back seat",
+        "highlight": "take a back seat"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The former leader has taken a back seat.",
+        "zh": "前任領袖已退居次要位置。",
+        "highlight": "taken a back seat"
+      },
+      {
+        "en": "I’ll take a back seat and let Priya lead the meeting.",
+        "zh": "我會退居次要位置，讓 Priya 主持會議。",
+        "highlight": "take a back seat"
+      }
+    ],
+    "meaning": {
+      "en": "It can also describe one activity, concern or priority becoming less important than another.",
+      "zh": "take a back seat 指某人退居較次要的位置，不再擔當最主動、最重要或最有影響力的角色，通常是讓另一個人帶領、發言或作主要決定。",
+      "naturalZh": [
+        "退居次要位置",
+        "退居幕後",
+        "讓別人主導",
+        "擔當支援角色",
+        "把某事放在較次要的位置",
+        "讓位於更重要的事情"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "Students’ health should never take a back seat to exam results.",
+      "summaryZh": "一般屬於中性至略帶口語色彩的表達，常見於日常對話、工作討論、訪問，以及有關領導、團隊合作和優先次序的一般文章。",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace discussions",
+        "interviews",
+        "news and general writing",
+        "conversations about leadership, teamwork and priorities",
+        "take a back seat",
+        "takes a back seat",
+        "took a back seat",
+        "has taken a back seat",
+        "is taking a back seat",
+        "will take a back seat",
+        "take the back seat"
+      ],
+      "contextsZh": [],
+      "formalEn": "Take a back seat is generally neutral to informal. It is natural in:",
+      "formalZh": "a back seat 是固定部分，三個字必須按照原有次序使用。"
+    },
+    "fixedVariable": {
+      "fixed": "take a back seat",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + take + a back seat.",
+          "example": "The former leader has taken a back seat.",
+          "highlight": "taken a back seat"
+        },
+        {
+          "form": "Subject + take + a back seat + and let + person + base verb.",
+          "example": "I’ll take a back seat and let Priya lead the meeting.",
+          "highlight": "take a back seat"
+        },
+        {
+          "form": "X + take + a back seat + to + Y.",
+          "example": "Family time should not take a back seat to work.",
+          "highlight": "take a back seat"
+        },
+        {
+          "form": "Subject + take + a back seat + in / on / during + situation.",
+          "example": "Ella took a back seat during the discussion.",
+          "highlight": "took a back seat"
+        },
+        {
+          "form": "By taking a back seat, + subject + result.",
+          "example": "By taking a back seat, Naomi gave her assistant room to lead.",
+          "highlight": "taking a back seat"
+        },
+        {
+          "form": "Subject + be + willing / prepared / happy + to take a back seat.",
+          "example": "I am prepared to take a back seat on the project.",
+          "highlight": "take a back seat"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "A Person Accepts a Smaller Role",
+        "titleZh": "句式一：某人接受較次要的角色",
+        "formula": "Subject + take + a back seat.",
+        "descriptionEn": "Source grammar frame: Subject + take + a back seat.",
+        "descriptionZh": "原檔列出的句法框架：Subject + take + a back seat。",
+        "examples": [
+          {
+            "en": "The former leader has taken a back seat.",
+            "zh": "前任領袖已退居次要位置。",
+            "highlight": "taken a back seat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Letting Another Person Lead",
+        "titleZh": "句式二：讓另一個人帶領",
+        "formula": "Subject + take + a back seat + and let + person + base verb.",
+        "descriptionEn": "Source grammar frame: Subject + take + a back seat + and let + person + base verb.",
+        "descriptionZh": "原檔列出的句法框架：Subject + take + a back seat + and let + person + base verb。",
+        "examples": [
+          {
+            "en": "I’ll take a back seat and let Priya lead the meeting.",
+            "zh": "我會退居次要位置，讓 Priya 主持會議。",
+            "highlight": "take a back seat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Comparing Priorities",
+        "titleZh": "句式三：比較優先次序",
+        "formula": "X + take + a back seat + to + Y.",
+        "descriptionEn": "In this structure, Y receives greater attention, importance or priority than X.",
+        "descriptionZh": "在這個句式中，Y 比 X 受到更多重視，或具有較高優先次序。",
+        "examples": [
+          {
+            "en": "Family time should not take a back seat to work.",
+            "zh": "家庭時間不應讓位於工作。",
+            "highlight": "take a back seat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Naming the Situation",
+        "titleZh": "句式四：指出相關情境",
+        "formula": "Subject + take + a back seat + in / on / during + situation.",
+        "descriptionEn": "Source grammar frame: Subject + take + a back seat + in / on / during + situation.",
+        "descriptionZh": "原檔列出的句法框架：Subject + take + a back seat + in / on / during + situation。",
+        "examples": [
+          {
+            "en": "Ella took a back seat during the discussion.",
+            "zh": "Ella 在討論期間退居次要位置。",
+            "highlight": "took a back seat"
+          },
+          {
+            "en": "I’ll take a back seat on this project.",
+            "zh": "我會在這個項目中擔當支援角色。",
+            "highlight": "take a back seat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Beginning with the Idiomatic Action",
+        "titleZh": "句式五：以慣用語行動作開首",
+        "formula": "By taking a back seat, + subject + result.",
+        "descriptionEn": "Place a comma after the opening phrase.",
+        "descriptionZh": "這個開首短語後面應使用逗號。",
+        "examples": [
+          {
+            "en": "By taking a back seat, Naomi gave her assistant room to lead.",
+            "zh": "退居次要位置，讓助理有空間帶領活動。",
+            "highlight": "taking a back seat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Willingness, Need or Obligation",
+        "titleZh": "句式六：表示意願、需要或責任",
+        "formula": "Subject + be + willing / prepared / happy + to take a back seat.",
+        "descriptionEn": "Source grammar frame: Subject + be + willing / prepared / happy + to take a back seat.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + willing / prepared / happy + to take a back seat。",
+        "examples": [
+          {
+            "en": "I am prepared to take a back seat on the project.",
+            "zh": "我已準備好在項目中退居次要位置。",
+            "highlight": "take a back seat"
+          },
+          {
+            "en": "He may have to take a back seat next season.",
+            "zh": "他下季可能要退居次要位置。",
+            "highlight": "take a back seat"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Describes Stepping Aside Concisely",
+        "titleZh": "簡潔表達退居次要位置",
+        "en": "I decided to take a back seat and let Priya lead the meeting.",
+        "zh": "這個慣用語可以把「不再控制事情，並讓另一個人帶領」的較長解釋濃縮成自然的固定表達。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Can Show Trust and Cooperation",
+        "titleZh": "表達信任及合作",
+        "en": "The speaker does not merely withdraw. The speaker shows trust in another person’s knowledge or ability.",
+        "zh": "你比較了解客戶，所以我會退居次要位置。 說話者不只是退出，還表達了對另一個人能力或知識的信任。",
+        "examples": [
+          {
+            "en": "I’ll take a back seat because you know the client better.",
+            "zh": "你比較了解客戶，所以我會退居次要位置。",
+            "highlight": "take a back seat"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Makes Priority Comparisons Clear",
+        "titleZh": "清楚比較優先次序",
+        "en": "The listener immediately understands which matter should receive more attention.",
+        "zh": "宣傳應退居次要位置，以慈善工作為重。 聽者可以立即明白哪一件事應獲得較多重視。",
+        "examples": [
+          {
+            "en": "Promotion should take a back seat to the charity’s work.",
+            "zh": "宣傳應退居次要位置，以慈善工作為重。",
+            "highlight": "take a back seat"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Express Both Praise and Criticism",
+        "titleZh": "可以表達讚賞或批評",
+        "en": "It Can Express Both Praise and Criticism",
+        "zh": "經理退居次要位置，讓新員工參與。 學生健康絕不能讓位於考試成績。",
+        "examples": [
+          {
+            "en": "The manager took a back seat and allowed the new staff to contribute.",
+            "zh": "經理退居次要位置，讓新員工參與。",
+            "highlight": "took a back seat"
+          },
+          {
+            "en": "Students’ health should never take a back seat to exam results.",
+            "zh": "學生健康絕不能讓位於考試成績。",
+            "highlight": "take a back seat"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Works with Different Tenses and Modal Meanings",
+        "titleZh": "可以配合不同時態及情態意思",
+        "en": "takes a back seat; took a back seat; has taken a back seat; will take a back seat; may have to take a back seat; is unwilling to take a back seat",
+        "zh": "這個表達可以用來描述習慣、過去改變、目前狀況、未來安排、可能性及不情願的態度。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is a Useful Alternative, Not an Automatic Improvement",
+        "titleZh": "是實用的替代說法，但並非任何時候都更好",
+        "en": "When you simply need to say that somebody is quiet, absent or sitting behind another person, a plain expression is usually clearer.",
+        "zh": "只有當角色、影響力或優先次序確實有所改變時，才應使用這個慣用語。 若只是表示某人安靜、 缺席或坐在後方，直接表達通常會更清楚。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster records 1838 as the first known use of the idiomatic expression. A travel book published in 1838 also described the back seat of a Paris omnibus as the last seat to be occupied and the most difficult one to reach. That passage is literal rather than idiomatic, but it shows how a back seat could suggest a less desirable or prominent position.",
+          "zh": "Merriam-Webster 把1838年列為目前所知這個慣用語的最早使用年份。 同年出版的一本旅遊著作亦把巴黎公共馬車的後座形容為最後才有人坐、而且最難到達的位置。 該段文字屬於字面用法，不能證明慣用語由此而來，但它顯示後座可以令人聯想到較不理想或較不顯眼的位置。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Printed examples from the middle of the nineteenth century show the wording moving from physical seating towards the figurative idea of holding a secondary position. The exact person or event that created the expression has not been established.",
+          "zh": "十九世紀中期的文字記錄顯示，這個說法逐漸由實際座位發展成「處於次要位置」的比喻意思。 不過，現有證據不足以確認究竟是誰或哪一件事創造了這個表達。"
+        }
+      ],
+      "memoryEn": "Moving away from the front represents moving away from the leading or most important position.",
+      "memoryZh": "從前方移到後方，可以幫助你記住「由主要位置退到次要位置」這個意思。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “a Back Seat” Fixed",
+        "titleZh": "規則一：a back seat 必須保持不變",
+        "en": "The second sentence may describe a literal seat, but it is not the fixed target taught here.",
+        "zh": "第二句可能具有字面意思，但不是本課教授的固定慣用語。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Take” According to the Grammar",
+        "titleZh": "規則二：按照文法改變 take",
+        "en": "Do not change the tense or certainty given in the source.",
+        "zh": "不要改變原句所表達的時態或確定程度。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "“Take a Back Seat to” Shows Lower Priority",
+        "titleZh": "規則三",
+        "en": "This means customer service became more important than online sales.",
+        "zh": "take a back seat to 表示優先次序較低這表示顧客服務比網上銷售更重要。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Smaller Role May Be Voluntary or Unwanted",
+        "titleZh": "規則四：退居次要位置可以是自願，也可以是被迫",
+        "en": "The answer must preserve whether the change is chosen, required or unwanted.",
+        "zh": "我選擇退居次要位置，讓助理帶領。 前任隊長被迫退居次要位置。 答案必須保留原句中「自願」、「有需要」或「不情願」的意思。",
+        "examples": [
+          {
+            "en": "I chose to take a back seat and let my assistant lead.",
+            "zh": "我選擇退居次要位置，讓助理帶領。",
+            "highlight": "take a back seat"
+          },
+          {
+            "en": "The former captain was forced to take a back seat.",
+            "zh": "前任隊長被迫退居次要位置。",
+            "highlight": "take a back seat"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "People and Priorities Can Both Be Subjects",
+        "titleZh": "規則五：人物和優先事項都可以作主語",
+        "en": "People and Priorities Can Both Be Subjects",
+        "zh": "經理退居次要位置。 廣告宣傳讓位於安全考慮。",
+        "examples": [
+          {
+            "en": "The manager took a back seat.",
+            "zh": "經理退居次要位置。",
+            "highlight": "took a back seat"
+          },
+          {
+            "en": "Advertising took a back seat to safety.",
+            "zh": "廣告宣傳讓位於安全考慮。",
+            "highlight": "took a back seat"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Confuse the Idiom with a Literal Seat",
+        "titleZh": "規則六：不要把慣用語與字面座位混淆",
+        "en": "I sat in the back seat of the taxi. The literal sentence describes where somebody physically sits. It does not describe importance, leadership or responsibility.",
+        "zh": "我坐在的士的後座。 我退居次要位置，讓同事帶領討論。 字面句子只說明某人坐在哪裏，並不表示角色、領導權或責任有所改變。",
+        "examples": [
+          {
+            "en": "I took a back seat and let my colleague lead the discussion.",
+            "zh": "我退居次要位置，讓同事帶領討論。",
+            "highlight": "took a back seat"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Being Quiet Is Not Always “Taking a Back Seat”",
+        "titleZh": "規則七：保持安靜不一定等於 take a back seat",
+        "en": "This does not show that Lily was allowing another person to lead or accepting a smaller role.",
+        "zh": "資料不足：",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Use It for Every Small Change",
+        "titleZh": "規則八：不要用來形容所有微小變化",
+        "en": "If somebody speaks only one sentence less than usual, take a back seat may be too strong unless the wider context shows a genuine change of role.",
+        "zh": "這個表達通常表示領導權、參與程度、影響力、注意力、責任或優先次序出現明顯改變。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Excluded Pattern in This Exercise",
+        "titleZh": "規則九：本練習不包括的句式",
+        "en": "This is a separate rhetorical pattern meaning that somebody is not inferior to anybody.",
+        "zh": "本練習不教授 take a back seat to no one。 這個句式表示某人不遜於任何人，意思與一般的「退居次要位置」不同。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "You may change take according to the subject, tense and meaning, but you must retain a back seat.",
+      "zh": "使用 take a back seat 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-64-q01",
+        "number": 1,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "I decided not to lead the meeting because Priya had more experience.",
+        "promptZh": "我決定不主持會議，因為 Priya 的經驗較豐富。",
+        "starter": "I",
+        "answer": "I decided to take a back seat and let Priya lead the meeting.",
+        "answerZh": "我決定退居次要位置，讓 Priya 主持會議。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q02",
+        "number": 2,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Daniel let Aisha do most of the talking during the presentation.",
+        "promptZh": "Daniel 在簡報期間讓 Aisha 負責大部分講解。",
+        "starter": "Daniel",
+        "answer": "Daniel took a back seat during the presentation and let Aisha do most of the talking.",
+        "answerZh": "Daniel 在簡報期間退居次要位置，讓 Aisha 負責大部分講解。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q03",
+        "number": 3,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The old coach no longer leads the team, but he still gives advice to the new coach.",
+        "promptZh": "舊教練不再帶領球隊，但仍會向新教練提供意見。",
+        "starter": "The",
+        "answer": "The old coach has taken a back seat and now gives advice to the new coach.",
+        "answerZh": "舊教練已退居次要位置，現在主要向新教練提供意見。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "taken a back seat"
+      },
+      {
+        "id": "idiom-64-q04",
+        "number": 4,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Ella usually lets other people speak first in group discussions.",
+        "promptZh": "Ella 在小組討論中通常會讓其他人先發言。",
+        "starter": "Ella",
+        "answer": "Ella usually takes a back seat in group discussions and lets other people speak first.",
+        "answerZh": "Ella 在小組討論中通常退居次要位置，讓其他人先發言。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "takes a back seat"
+      },
+      {
+        "id": "idiom-64-q05",
+        "number": 5,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "You will lead this project, and I will support you instead of making the main decisions.",
+        "promptZh": "這個項目會由你帶領，而我會從旁支援，不會作主要決定。",
+        "starter": "I",
+        "answer": "I will take a back seat on this project and support you.",
+        "answerZh": "我會在這個項目中退居次要位置，從旁支援你。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q06",
+        "number": 6,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The manager asked Owen to stop controlling every decision and let the new team leader decide.",
+        "promptZh": "經理要求 Owen 不要再控制每項決定，並讓新任組長作決定。",
+        "starter": "The",
+        "answer": "The manager asked Owen to take a back seat and let the new team leader make the decisions.",
+        "answerZh": "經理要求 Owen 退居次要位置，讓新任組長作決定。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q07",
+        "number": 7,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "During the family meeting, Grandad let the younger adults make the final decision.",
+        "promptZh": "在家庭會議中，祖父讓較年輕的成年人作最後決定。",
+        "starter": "During",
+        "answer": "During the family meeting, Grandad took a back seat and let the younger adults make the final decision.",
+        "answerZh": "在家庭會議中，祖父退居次要位置，讓較年輕的成年人作最後決定。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q08",
+        "number": 8,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Since the new captain arrived, Joel has played a less important role in the team.",
+        "promptZh": "自從新隊長加入後，Joel 在球隊中的角色已沒有以前那麼重要。",
+        "starter": "Since",
+        "answer": "Since the new captain arrived, Joel has taken a back seat in the team.",
+        "answerZh": "自從新隊長加入後，Joel 在球隊中已退居次要位置。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "taken a back seat"
+      },
+      {
+        "id": "idiom-64-q09",
+        "number": 9,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "While I was studying for the exam, my hobbies became less important.",
+        "promptZh": "在我溫習考試期間，興趣活動變得沒有那麼重要。",
+        "starter": "My",
+        "answer": "My hobbies had to take a back seat while I studied for the exam.",
+        "answerZh": "在我溫習考試期間，興趣活動只好暫時放在次要位置。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q10",
+        "number": 10,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Once the guests arrived, the organiser let the volunteers run the activities.",
+        "promptZh": "賓客到場後，主辦者便讓義工負責各項活動。",
+        "starter": "Once",
+        "answer": "Once the guests arrived, the organiser took a back seat and let the volunteers run the activities.",
+        "answerZh": "賓客到場後，主辦者便退居次要位置，讓義工負責各項活動。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q11",
+        "number": 11,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The director sometimes allows her staff to solve problems without taking control herself.",
+        "promptZh": "主管有時會讓員工自行解決問題，而不親自控制整個過程。",
+        "starter": "The",
+        "answer": "The director sometimes takes a back seat and allows her staff to solve problems.",
+        "answerZh": "主管有時會退居次要位置，讓員工自行解決問題。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "takes a back seat"
+      },
+      {
+        "id": "idiom-64-q12",
+        "number": 12,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "After leading the club for years, Ms Wong is now playing a smaller role this term.",
+        "promptZh": "Wong 女士帶領學會多年後，今個學期開始擔當較次要的角色。",
+        "starter": "After",
+        "answer": "After leading the club for years, Ms Wong is taking a back seat this term.",
+        "answerZh": "Wong 女士帶領學會多年後，今個學期開始退居次要位置。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "taking a back seat"
+      },
+      {
+        "id": "idiom-64-q13",
+        "number": 13,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "You know this topic better than I do, so I can listen and let you lead.",
+        "promptZh": "你比我更熟悉這個題目，所以我可以聆聽並讓你帶領。",
+        "starter": "You",
+        "answer": "You know this topic better than I do, so I can take a back seat and let you lead.",
+        "answerZh": "你比我更熟悉這個題目，所以我可以退居次要位置，讓你帶領。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q14",
+        "number": 14,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Work should not repeatedly become more important than family time at weekends.",
+        "promptZh": "工作不應在每個週末都比家庭時間更重要。",
+        "starter": "Family",
+        "answer": "Family time should not take a back seat to work every weekend.",
+        "answerZh": "家庭時間不應在每個週末都讓位於工作。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q15",
+        "number": 15,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "At the event, the speakers’ personal stories were more important than the music.",
+        "promptZh": "在活動中，講者的個人故事比音樂更重要。",
+        "starter": "At",
+        "answer": "At the event, the music took a back seat to the speakers’ personal stories.",
+        "answerZh": "在活動中，音樂退居次要位置，重點落在講者的個人故事上。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q16",
+        "number": 16,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Who should lead the meeting with the client? B: You know the client better, so I will let you lead.",
+        "promptZh": "甲：誰應該主持與客戶的會議？ 乙：你比較了解客戶，所以我會讓你主持。",
+        "starter": "You",
+        "answer": "You know the client better, so I’ll take a back seat at the meeting.",
+        "answerZh": "你比較了解客戶，所以我會在會議中退居次要位置。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q17",
+        "number": 17,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The parents agreed not to control the party and let the children plan it.",
+        "promptZh": "家長同意不控制派對的安排，並讓孩子自行策劃。",
+        "starter": "The",
+        "answer": "The parents agreed to take a back seat and let the children plan the party.",
+        "answerZh": "家長同意退居次要位置，讓孩子自行策劃派對。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q18",
+        "number": 18,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "This month, improving customer service is more important than increasing online sales.",
+        "promptZh": "今個月，改善顧客服務比增加網上銷售更重要。",
+        "starter": "This",
+        "answer": "This month, online sales have taken a back seat to improving customer service.",
+        "answerZh": "今個月，網上銷售退居次要位置，改善顧客服務更為重要。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "taken a back seat"
+      },
+      {
+        "id": "idiom-64-q19",
+        "number": 19,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "He may need to play a smaller role until he understands the new system.",
+        "promptZh": "在他了解新系統之前，可能需要暫時擔當較次要的角色。",
+        "starter": "He",
+        "answer": "He may need to take a back seat until he understands the new system.",
+        "answerZh": "在他了解新系統之前，可能需要暫時退居次要位置。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q20",
+        "number": 20,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The senior nurse kept trying to control every decision and would not let the new nurse lead.",
+        "promptZh": "資深護士一直嘗試控制每項決定，不肯讓新護士帶領。",
+        "starter": "The",
+        "answer": "The senior nurse was unwilling to take a back seat and let the new nurse lead.",
+        "answerZh": "資深護士不願退居次要位置，也不肯讓新護士帶領。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q21",
+        "number": 21,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Why is Lena so quiet during the planning meeting? B: She wants the new staff to share their ideas.",
+        "promptZh": "甲：Lena 為甚麼在規劃會議中這麼安靜？ 乙：她希望新員工可以分享自己的想法。",
+        "starter": "Lena",
+        "answer": "Lena is taking a back seat at the planning meeting so that the new staff can share their ideas.",
+        "answerZh": "Lena 正在規劃會議中退居次要位置，好讓新員工分享自己的想法。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "taking a back seat"
+      },
+      {
+        "id": "idiom-64-q22",
+        "number": 22,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Will you continue to run every part of the business? B: No. Sam is ready to handle the daily work.",
+        "promptZh": "甲：你會繼續管理公司的每一部分嗎？ 乙：不會。Sam 已準備好處理日常工作。",
+        "starter": "No.",
+        "answer": "No. I’m going to take a back seat and let Sam handle the daily work.",
+        "answerZh": "不會。我打算退居次要位置，讓 Sam 處理日常工作。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q23",
+        "number": 23,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The chef designed the menu, but on opening night she let her team serve the guests without directing every move.",
+        "promptZh": "廚師設計了餐單，但在開業當晚，她讓團隊接待客人，沒有指揮每一個行動。",
+        "starter": "The",
+        "answer": "The chef designed the menu, but on opening night she took a back seat and let her team serve the guests.",
+        "answerZh": "廚師設計了餐單，但在開業當晚退居次要位置，讓團隊接待客人。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q24",
+        "number": 24,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "After the baby was born, the couple gave family needs a higher priority than travel.",
+        "promptZh": "孩子出生後，這對夫婦把家庭需要放在比旅行更重要的位置。",
+        "starter": "After",
+        "answer": "After the baby was born, travel took a back seat to the family’s needs.",
+        "answerZh": "孩子出生後，旅行退居次要位置，家庭需要變得更重要。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q25",
+        "number": 25,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The school play was meant to show the students’ work, so the teachers stayed out of the centre of attention.",
+        "promptZh": "學校話劇旨在展示學生的成果，所以老師沒有成為眾人注意的焦點。",
+        "starter": "The",
+        "answer": "The teachers took a back seat so that the students could be the centre of attention in the school play.",
+        "answerZh": "老師退居次要位置，讓學生在學校話劇中成為焦點。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q26",
+        "number": 26,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Why did Arun say so little during the interview? He wanted the team member who had done the work to answer.",
+        "promptZh": "Arun 為甚麼在訪問中很少發言？他希望真正完成工作的團隊成員作答。",
+        "starter": "Arun",
+        "answer": "Arun took a back seat during the interview and let the team member who had done the work answer.",
+        "answerZh": "Arun 在訪問中退居次要位置，讓真正完成工作的團隊成員作答。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q27",
+        "number": 27,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Leah said that once the new leader was ready, she would stop taking the main role.",
+        "promptZh": "Leah 表示，新領袖準備好後，她便不再擔當主要角色。",
+        "starter": "Leah",
+        "answer": "Leah said that she would take a back seat once the new leader was ready.",
+        "answerZh": "Leah 表示，新領袖準備好後，她便會退居次要位置。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q28",
+        "number": 28,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Everyone had to wait for the founder to approve small decisions. He decided to stop controlling them so the team could work faster.",
+        "promptZh": "每個小決定都要等待創辦人批准。他決定不再控制這些決定，讓團隊可以更快工作。",
+        "starter": "The",
+        "answer": "The founder decided to take a back seat so that the team could make small decisions more quickly.",
+        "answerZh": "創辦人決定退居次要位置，讓團隊可以更快作出小決定。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q29",
+        "number": 29,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "For now, safety repairs may need to be more important than decorating the hall.",
+        "promptZh": "目前，安全維修可能要比裝飾禮堂優先處理。",
+        "starter": "For",
+        "answer": "For now, decorating the hall may have to take a back seat to safety repairs.",
+        "answerZh": "目前，裝飾禮堂可能要暫時讓位於安全維修。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q30",
+        "number": 30,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Naomi spoke less during the workshop so that her assistant had room to lead.",
+        "promptZh": "Naomi 在工作坊中少發言，讓助理有空間帶領活動。",
+        "starter": "By",
+        "answer": "By taking a back seat during the workshop, Naomi gave her assistant room to lead.",
+        "answerZh": "Naomi 在工作坊中退居次要位置，讓助理有空間帶領活動。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "taking a back seat"
+      },
+      {
+        "id": "idiom-64-q31",
+        "number": 31,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Although Leo had started the project, he let Fatima lead when the work moved into her area of experience.",
+        "promptZh": "雖然項目由 Leo 開始，但當工作進入 Fatima 較有經驗的範疇時，他便讓她帶領。",
+        "starter": "Although",
+        "answer": "Although Leo had started the project, he took a back seat when the work moved into Fatima’s area of experience.",
+        "answerZh": "雖然項目由 Leo 開始，但當工作進入 Fatima 較有經驗的範疇時，他便退居次要位置。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q32",
+        "number": 32,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Because the children knew the game best, the adults let them explain the rules and organise the teams.",
+        "promptZh": "因為孩子最熟悉這個遊戲，成年人便讓他們解釋規則和安排隊伍。",
+        "starter": "Because",
+        "answer": "Because the children knew the game best, the adults took a back seat and let them explain the rules and organise the teams.",
+        "answerZh": "因為孩子最熟悉這個遊戲，成年人便退居次要位置，讓他們解釋規則和安排隊伍。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q33",
+        "number": 33,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "I used to control every meeting, but now I let my colleagues lead more often.",
+        "promptZh": "我以前會控制每次會議，但現在較常讓同事帶領。",
+        "starter": "I",
+        "answer": "I used to control every meeting, but now I take a back seat and let my colleagues lead more often.",
+        "answerZh": "我以前會控制每次會議，但現在會退居次要位置，較常讓同事帶領。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q34",
+        "number": 34,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Once the emergency was over, the team gave careful planning more attention than fear.",
+        "promptZh": "緊急情況結束後，團隊把更多注意力放在仔細規劃，而不是恐懼之上。",
+        "starter": "Once",
+        "answer": "Once the emergency was over, fear took a back seat to careful planning.",
+        "answerZh": "緊急情況結束後，恐懼退居次要位置，團隊轉而重視仔細規劃。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q35",
+        "number": 35,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The editor believed that the writer’s own voice was more important than her suggestions.",
+        "promptZh": "編輯認為，作者本人的聲音比她的建議更重要。",
+        "starter": "The",
+        "answer": "The editor believed that her suggestions should take a back seat to the writer’s own voice.",
+        "answerZh": "編輯認為，她的建議應退居次要位置，以作者本人的聲音為重。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q36",
+        "number": 36,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: I thought you were leading the workshop today. B: Not this time. Rosa has prepared the whole lesson, and I am only helping her.",
+        "promptZh": "甲：我以為今天的工作坊由你帶領。 乙：這次不是。Rosa 已準備整節課，而我只是從旁協助。",
+        "starter": "Not",
+        "answer": "Not this time. Rosa has prepared the whole lesson, so I’m taking a back seat and helping her.",
+        "answerZh": "這次不是。Rosa 已準備整節課，所以我正退居次要位置，從旁協助她。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "taking a back seat"
+      },
+      {
+        "id": "idiom-64-q37",
+        "number": 37,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "During the student election, teachers will not lead the process and will only step in if the rules are broken.",
+        "promptZh": "在學生選舉期間，老師不會帶領整個過程，只會在有人違反規則時介入。",
+        "starter": "During",
+        "answer": "During the student election, teachers will take a back seat and step in only if the rules are broken.",
+        "answerZh": "在學生選舉期間，老師會退居次要位置，只在有人違反規則時介入。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q38",
+        "number": 38,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "If the client wants a different designer to lead, I am prepared to play a smaller role in the project.",
+        "promptZh": "如果客戶希望由另一位設計師帶領，我已準備好在項目中擔當較次要的角色。",
+        "starter": "If",
+        "answer": "If the client wants a different designer to lead, I am prepared to take a back seat on the project.",
+        "answerZh": "如果客戶希望由另一位設計師帶領，我已準備好在項目中退居次要位置。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q39",
+        "number": 39,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The company must never treat fast service as more important than good service.",
+        "promptZh": "公司絕不能把快速服務看得比優質服務更重要。",
+        "starter": "Good",
+        "answer": "Good service must never take a back seat to speed.",
+        "answerZh": "優質服務絕不能讓位於速度。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q40",
+        "number": 40,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Once the new owner understood the shop, Mr Chan stopped making the daily decisions but remained available for advice.",
+        "promptZh": "新店主了解店舖運作後，Chan 先生便不再作日常決定，但仍會提供意見。",
+        "starter": "Once",
+        "answer": "Once the new owner understood the shop, Mr Chan took a back seat in its daily running but remained available for advice.",
+        "answerZh": "新店主了解店舖運作後，Chan 先生便在日常營運中退居次要位置，但仍會提供意見。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q41",
+        "number": 41,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The chairperson had guided the group through its first year. Now the members were ready to lead themselves, so she chose a supporting role.",
+        "promptZh": "主席帶領小組度過了第一年。現在成員已準備好自行帶領，所以她選擇擔當支援角色。",
+        "starter": "After",
+        "answer": "After guiding the group through its first year, the chairperson chose to take a back seat because the members were ready to lead it themselves.",
+        "answerZh": "主席帶領小組度過第一年後，選擇退居次要位置，因為成員已準備好自行帶領。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q42",
+        "number": 42,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "During the heatwave, helping people in need quickly became more important than the usual paperwork.",
+        "promptZh": "在熱浪期間，迅速協助有需要的人比處理一般文書工作更重要。",
+        "starter": "During",
+        "answer": "During the heatwave, the usual paperwork had to take a back seat to helping people in need quickly.",
+        "answerZh": "在熱浪期間，一般文書工作只好讓位於迅速協助有需要的人。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q43",
+        "number": 43,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "If the new singer continues to improve, the current lead singer may have to accept a less important role next season.",
+        "promptZh": "如果新歌手繼續進步，現任主唱下季可能要接受較次要的角色。",
+        "starter": "If",
+        "answer": "If the new singer continues to improve, the current lead singer may have to take a back seat next season.",
+        "answerZh": "如果新歌手繼續進步，現任主唱下季可能要退居次要位置。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q44",
+        "number": 44,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: This event feels more like an advertisement than a charity night. B: You are right. The charity’s work should be the main focus.",
+        "promptZh": "甲：這個活動感覺更像廣告，而不像慈善晚會。 乙：你說得對。慈善工作才應是主要焦點。",
+        "starter": "You’re",
+        "answer": "You’re right. Promotion should take a back seat to the charity’s work.",
+        "answerZh": "你說得對。宣傳應退居次要位置，以慈善工作為重。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q45",
+        "number": 45,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The founder still attends meetings, but she no longer runs the company’s daily work.",
+        "promptZh": "創辦人仍會出席會議，但已不再管理公司的日常工作。",
+        "starter": "The",
+        "answer": "The founder has taken a back seat in the daily running of the company, although she still attends meetings.",
+        "answerZh": "創辦人已在公司的日常運作中退居次要位置，雖然仍會出席會議。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "taken a back seat"
+      },
+      {
+        "id": "idiom-64-q46",
+        "number": 46,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "During the interview, the manager spoke less and allowed the worker who had completed the project to answer most questions.",
+        "promptZh": "在訪問中，經理少發言，並讓完成項目的員工回答大部分問題。",
+        "starter": "By",
+        "answer": "By taking a back seat during the interview, the manager allowed the worker who had completed the project to answer most questions.",
+        "answerZh": "經理在訪問中退居次要位置，讓完成項目的員工回答大部分問題。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "taking a back seat"
+      },
+      {
+        "id": "idiom-64-q47",
+        "number": 47,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A school should never treat exam results as more important than students’ health.",
+        "promptZh": "學校絕不應把考試成績看得比學生健康更重要。",
+        "starter": "Students’",
+        "answer": "Students’ health should never take a back seat to exam results.",
+        "answerZh": "學生健康絕不能讓位於考試成績。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q48",
+        "number": 48,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Once the younger doctors felt confident, Dr Lee was happy to let them lead and only help when needed.",
+        "promptZh": "年輕醫生建立信心後，Lee 醫生樂意讓他們帶領，只在有需要時提供協助。",
+        "starter": "Once",
+        "answer": "Once the younger doctors felt confident, Dr Lee was happy to take a back seat and help only when needed.",
+        "answerZh": "年輕醫生建立信心後，Lee 醫生樂意退居次要位置，只在有需要時提供協助。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      },
+      {
+        "id": "idiom-64-q49",
+        "number": 49,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The product launch had filled every team meeting for weeks. After many customer complaints arrived, fixing the main problem became more urgent.",
+        "promptZh": "產品推出事宜連續數星期佔據每次團隊會議。收到大量顧客投訴後，解決主要問題變得更迫切。",
+        "starter": "Although",
+        "answer": "Although the product launch had filled every team meeting for weeks, it took a back seat to fixing the main problem after many customer complaints arrived.",
+        "answerZh": "雖然產品推出事宜連續數星期佔據每次團隊會議，但收到大量顧客投訴後，它便退居次要位置， 解決主要問題變得更重要。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "took a back seat"
+      },
+      {
+        "id": "idiom-64-q50",
+        "number": 50,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: You have led every community concert for ten years. Will you lead again this year? B: The younger musicians have good ideas, so I will help only when they ask.",
+        "promptZh": "甲：你已連續十年帶領每場社區音樂會。今年你會再次帶領嗎？ 乙：年輕樂手有很多好想法，所以我只會在他們提出要求時協助。",
+        "starter": "The",
+        "answer": "The younger musicians have good ideas, so I’ll take a back seat and help only when they ask.",
+        "answerZh": "年輕樂手有很多好想法，所以我會退居次要位置，只在他們提出要求時協助。",
+        "targetForm": "take a back seat",
+        "targetMeaning": "It can also describe one activity, concern or priority becoming less important than another.",
+        "highlight": "take a back seat"
+      }
+    ]
+  }
+}

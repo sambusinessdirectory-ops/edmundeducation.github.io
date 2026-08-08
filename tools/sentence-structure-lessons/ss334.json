@@ -1,0 +1,1264 @@
+{
+  "id": "ss334",
+  "order": 334,
+  "slug": "x-serves-as-a-reminder-that-clause",
+  "title": "「X serves as a reminder that + clause」表達提醒、教訓或啟示",
+  "titleZh": "「X serves as a reminder that + clause」表達提醒、教訓或啟示",
+  "titleEn": "Using “X serves as a reminder that + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 332 -「X serves as a reminder that + clause」表達提醒、教訓或啟示.pdf",
+    "pageCount": 26,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "sha256": "be98a2589e3e46be3a98aaf6c687de679d90447ff602a28a731101dd108ac443",
+    "sourceNumber": 332,
+    "systemOrder": 334,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 332 maps to ss334: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "X + serve(s) as a reminder that + complete clause",
+  "formulas": [
+    {
+      "id": "ss334-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "X + serve(s) as a reminder that + complete clause"
+    }
+  ],
+  "example": "The failure serves as a reminder that preparation matters.",
+  "exampleZh": "這次失敗提醒我們，事前準備十分重要。",
+  "examples": [
+    {
+      "id": "ss334-example-01",
+      "en": "The failure serves as a reminder that preparation matters.",
+      "zh": "這次失敗提醒我們，事前準備十分重要。",
+      "highlight": "The failure serves as a reminder that preparation matters."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss334-rule-01",
+      "zh": "核心表達是 serve as a reminder that 最基本的形式是：【X + serve as a reminder that + clause；The mistake serves as a reminder that details matter.】 這個錯誤提醒我們，細節十分重要。 以下詞語並不是固定句型的一部分：【still；also；clearly；a powerful；to the team；in difficult times】 它們只是按照句意加入的可選延伸。",
+      "en": "X + serve as a reminder that + clause The mistake serves as a reminder that details matter. still also clearly a powerful to the team in difficult times",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-rule-02",
+      "zh": "必須配合主語、時態和情態動詞單數主語這宗事件提醒我們，安全最重要。 複數主語這些照片提醒我們，這個城鎮已經改變。 過去式這次延誤提醒我們，時間表安排得太緊密。 情態動詞這宗投訴應該提醒我們，顧客期望得到清晰答覆。 完成式這次經歷提醒了我們，耐性是必要的。",
+      "en": "serve Singular subject + serves as a reminder that... The incident serves as a reminder that safety comes first. Plural subject + serve as a reminder that... These photographs serve as a reminder that the town has changed. X + served as a reminder that... The delay served as a reminder that the schedule was too tight. X + can / may / could / should / must / will + serve as a reminder that... The complaint should serve as a reminder that customers expect clear answers. X + has / have served as a reminder that... The experience has served as a reminder that patience is necessary.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-rule-03",
+      "zh": "形容詞是可選延伸你可以在 reminder 前加入形容詞，說明這項提醒的性質或強度。常見搭配包括：【a clear reminder；a useful reminder；a powerful reminder；a constant reminder；a painful reminder；a gentle reminder；a timely reminder；a lasting reminder】 這宗意外有力地提醒我們，絕不能忽視道路安全。 形容詞不是固定表達的一部分。以下兩句都完整正確：【The accident served as a reminder that road safety matters.】",
+      "en": "X + serve as a/an + adjective + reminder that... a clear reminder a useful reminder a powerful reminder a constant reminder a painful reminder a gentle reminder a timely reminder a lasting reminder an important reminder The accident served as a powerful reminder that road safety must not be ignored. The accident served as a reminder that road safety matters. The accident served as a powerful reminder that road safety matters.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-rule-04",
+      "zh": "可以加入提醒的對象如需清楚指出「提醒誰」，可以在 reminder 後加入：【to + person or group】 完整結構是：【X + serve as a reminder to someone that + clause；The complaint served as a reminder to the team that clear communication matters.】 這宗投訴提醒團隊，清晰溝通十分重要。 比較：【The complaint served as a reminder that clear communication matters.】 這宗投訴提醒人們，清晰溝通十分重要。 這宗投訴提醒團隊，清晰溝通十分重要。 只是指出提醒的對象，並不是固定句型的一部分。",
+      "en": "to + person or group X + serve as a reminder to someone that + clause The complaint served as a reminder to the team that clear communication matters. The complaint served as a reminder that clear communication matters. The complaint served as a reminder to the team that clear communication matters. to the team",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-rule-05",
+      "zh": "後面必須接完整子句第二個例子在 that 後面只有名詞片語，並沒有完整的主語和動詞。",
+      "en": "that that + subject + verb The incident serves as a reminder that everyone must remain alert. The incident serves as a reminder that the importance of safety. ✗",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-rule-06",
+      "zh": "前通常需要冠詞使用 a 或 an 取決於後面第一個詞的讀音：【a clear reminder；a powerful reminder；an important reminder；an effective reminder】",
+      "en": "reminder serves as a reminder serves as a useful reminder serves as an important reminder serves as reminder ✗ serves as useful reminder ✗ serves as important reminder ✗ a clear reminder a powerful reminder an important reminder an effective reminder",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-rule-07",
+      "zh": "目標表達【X】可以有不同形式例句 X：不一定只是簡單名詞。它可以是：。名詞或名詞片語動名詞片語這些不同主語能增加句式變化，避免每句都以簡單名詞開首。",
+      "en": "X The photograph serves as a reminder that our family has a long history. Losing the account serves as a reminder that passwords must be protected. what-clause What happened yesterday serves as a reminder that rumours can cause harm. the fact that-clause The fact that both teams made the same mistake serves as a reminder that the instructions need improvement. the way-clause The way the volunteers responded serves as a reminder that cooperation matters.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-rule-08",
+      "zh": "前置時間、情況或讓步子句是可選延伸核心句型可以出現在句子較後的位置。在困難時期，這本舊日記提醒人們，問題不會永遠持續。 雖然延誤時間很短，但它提醒我們時間表安排得太緊密。 下一個項目開始時，這個錯誤會提醒人們必須清楚分配責任。 前面的時間或讓步部分並不是固定句型的一部分。",
+      "en": "In difficult times, the old diary serves as a reminder that problems do not last forever. Although the delay was brief, it served as a reminder that the timetable was too tight. When the next project begins, this mistake will serve as a reminder that responsibilities must be assigned clearly.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-rule-09",
+      "zh": "在兩個句式中，remind 是及物動詞，通常要明確指出被提醒的人；serve as a reminder 則直接引出提醒的內容，不需要人物受詞。因此前者不可省略受詞，後者也不可誤加同一套動詞結構。",
+      "en": "remind someone that X + remind + person + that + clause The mistake reminded us that preparation matters. serve as a reminder that X + serve as a reminder + that + clause The mistake served as a reminder that preparation matters. The mistake reminded us that preparation matters. The mistake reminded that preparation matters. ✗",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss334-rule-10",
+      "zh": "在相關表達中，可以用名詞 reminder、一般動詞 remind 或其他文法形式帶出提醒，但它們不作本課答案。本課集中使用 serve as a reminder that，並須按主語、時態和情態改變動詞。句中還可加入形容詞、被提醒的人、動名詞主語、名詞子句或句首背景；無論採用哪一種外層句框，that 後仍要接完整子句，核心功能都是由一件事帶出提醒或教訓。",
+      "en": "X is a reminder that... X reminds someone that... X serves to remind someone that... X is a reminder of + noun As a reminder,... serve as a reminder that 1. Singular subject + serves as a reminder that + clause 2. Plural subject + serve as a reminder that + clause 3. Subject + served as a reminder that + clause 4. Subject + modal verb + serve as a reminder that + clause 5. Subject + has / have served as a reminder that + clause 6. Subject + serve as a/an + adjective + reminder that + clause 7. Subject + serve as a reminder to someone that + clause 8. Gerund phrase + serve as a reminder that + clause 9. What-clause / The fact that-clause + serve as a reminder that + clause 10. Introductory phrase + subject + serve as a reminder that + clause",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss334-benefit-01",
+      "zh": "把一件事與更廣泛的道理連起來這個句型不只是描述「發生了甚麼」，還能說明我們應該從事件中記住甚麼。第二句清楚表示「簡報失敗」與「準備十分重要」之間的關係。",
+      "en": "It connects an event with a wider lesson Compare: The presentation failed. Preparation is important. The failed presentation serves as a reminder that preparation matters.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-benefit-02",
+      "zh": "解釋一件事為甚麼值得注意有些事件本身可能很普通，但這個句型可以指出事件帶來的教訓、警告或啟示。長長的人龍提醒我們，提早到達可以節省時間。 這句不只是描述人龍，也說明我們可以從中學到甚麼。",
+      "en": "It explains why an event is meaningful The long queue serves as a reminder that arriving early can save time.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-benefit-03",
+      "zh": "把例子和訊息合併成一句你不需要先寫事件，再另外寫一句解釋。這能令兩個相關意思連接得更清楚。",
+      "en": "It combines an example and its message Instead of: The file disappeared. We should remember to back up important work. You can write: The fact that the file disappeared serves as a reminder that important work should be backed up.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-benefit-04",
+      "zh": "適合反思及議論文章這個句型常用來從一個例子帶出較廣泛的觀點，因此特別適合：作文報告演講新聞評論工作檢討歷史或社會議題討論它能幫助你由「例子」自然過渡到「道理」。",
+      "en": "It is useful for reflective and argumentative writing",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-benefit-05",
+      "zh": "形容詞能調節語氣不同形容詞可以表達不同語氣：溫和提醒實用提醒有力提醒沉痛提醒嚴峻而鮮明的提醒及時提醒這讓你能準確表達事件帶來的感受和重要程度。",
+      "en": "Adjectives help control the tone a gentle reminder: a useful reminder: a powerful reminder: a painful reminder: a stark reminder: a timely reminder:",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss334-benefit-06",
+      "zh": "提供容易運用的口語框架你可以使用以下框架組織較深入的口語答案：【This experience serves as a reminder that...；What happened serves as a reminder that...；The incident should serve as a reminder that...】 掌握這個框架後，你可以快速加入自己的例子和道理，不需要每次從頭組織整句。",
+      "en": "It provides a ready-made speaking frame This experience serves as a reminder that... What happened serves as a reminder that... The incident should serve as a reminder that...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 332 maps to ss334: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the correct form of serve as a reminder that.",
+      "Change serve according to the subject, tense or modal verb. Add an adjective or to +",
+      "person/group only when the original meaning requires it.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用正確形式的 serve as a reminder that 改寫以下句子。",
+      "請按照主語、時態或情態動詞改變 serve 的形式。只有原句意思需要時，才加入形容詞或 to＋人",
+      "物／群體。",
+      "每題已提供答案的第一個字。",
+      "寫"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss334-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The failed presentation teaches us a simple lesson: preparation matters.",
+      "promptZh": "這次失敗的簡報給我們一個簡單教訓：事前準備十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The failed presentation serves as a reminder that preparation matters.",
+      "answerZh": "這次失敗的簡報提醒我們，事前準備十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "The failed presentation serves as a reminder that preparation matters."
+    },
+    {
+      "id": "ss334-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When you lose your keys, you remember that it is wise to keep them in the same place.",
+      "promptZh": "當你遺失鎖匙時，你便會記得，把鎖匙放在同一個地方是明智的做法。",
+      "promptZhSource": "pdf",
+      "starter": "Losing",
+      "answer": "Losing your keys serves as a reminder that it is wise to keep them in the same place.",
+      "answerZh": "遺失鎖匙會提醒你，把鎖匙放在同一個地方是明智的做法。",
+      "answerZhSource": "pdf",
+      "highlight": "Losing your keys serves as a reminder that it is wise to keep them in the same place."
+    },
+    {
+      "id": "ss334-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Her recovery is a reminder that small improvements can add up over time.",
+      "promptZh": "她的康復提醒我們，微小的進步可以隨時間累積起來。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her recovery serves as a reminder that small improvements can add up over time.",
+      "answerZh": "她的康復提醒我們，微小的進步可以隨時間累積起來。",
+      "answerZhSource": "pdf",
+      "highlight": "Her recovery serves as a reminder that small improvements can add up over time."
+    },
+    {
+      "id": "ss334-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "What lesson can we learn from a missed deadline? Good planning is essential.",
+      "promptZh": "我們可以從錯過限期這件事汲取甚麼教訓？良好規劃十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A missed deadline serves as a reminder that good planning is essential.",
+      "answerZh": "錯過限期會提醒我們，良好規劃十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "A missed deadline serves as a reminder that good planning is essential."
+    },
+    {
+      "id": "ss334-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The empty water bottle reminds me that I need to refill it before leaving home.",
+      "promptZh": "空水瓶提醒我，離家前需要把它重新注滿。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The empty water bottle serves as a reminder that I need to refill it before leaving home.",
+      "answerZh": "空水瓶提醒我，離家前需要把它重新注滿。",
+      "answerZhSource": "pdf",
+      "highlight": "The empty water bottle serves as a reminder that I need to refill it before leaving home."
+    },
+    {
+      "id": "ss334-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When we see the damaged phone, we remember why protective cases are useful.",
+      "promptZh": "當我們看到損壞的電話時，我們便會記得保護殼為甚麼有用。",
+      "promptZhSource": "pdf",
+      "starter": "Seeing",
+      "answer": "Seeing the damaged phone serves as a reminder that protective cases are useful.",
+      "answerZh": "看到損壞的電話會提醒我，保護殼很有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Seeing the damaged phone serves as a reminder that protective cases are useful."
+    },
+    {
+      "id": "ss334-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Our first mistake taught us that we needed to check the instructions carefully.",
+      "promptZh": "我們第一次犯錯教會我們，必須仔細查看指示。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our first mistake served as a reminder that we needed to check the instructions carefully.",
+      "answerZh": "我們第一次犯錯提醒了我們，必須仔細查看指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Our first mistake served as a reminder that we needed to check the instructions carefully."
+    },
+    {
+      "id": "ss334-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "His kind message carried a simple lesson: support can arrive at the right moment.",
+      "promptZh": "他的親切訊息帶出一個簡單道理：支持有時會在最適當的時候出現。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His kind message served as a reminder that support can arrive at the right moment.",
+      "answerZh": "他的親切訊息提醒人們，支持有時會在最適當的時候出現。",
+      "answerZhSource": "pdf",
+      "highlight": "His kind message served as a reminder that support can arrive at the right moment."
+    },
+    {
+      "id": "ss334-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "These photographs are a reminder that our grandparents once lived in this village.",
+      "promptZh": "這些照片提醒我們，祖父母曾經在這條村居住。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These photographs serve as a reminder that our grandparents once lived in this village.",
+      "answerZh": "這些照片提醒我們，祖父母曾經在這條村居住。",
+      "answerZhSource": "pdf",
+      "highlight": "These photographs serve as a reminder that our grandparents once lived in this village."
+    },
+    {
+      "id": "ss334-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Why is the long queue worth remembering? It shows that arriving early can save time.",
+      "promptZh": "長長的人龍為甚麼值得我們記住？它說明提早到達可以節省時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The long queue serves as a reminder that arriving early can save time.",
+      "answerZh": "長長的人龍提醒我們，提早到達可以節省時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The long queue serves as a reminder that arriving early can save time."
+    },
+    {
+      "id": "ss334-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Even small errors can remind us that details matter.",
+      "promptZh": "即使是小錯誤，也可以提醒我們細節十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even small errors can serve as a reminder that details matter.",
+      "answerZh": "即使是小錯誤，也可以提醒我們細節十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Even small errors can serve as a reminder that details matter."
+    },
+    {
+      "id": "ss334-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A near accident can teach new drivers an important lesson: speed limits protect everyone.",
+      "promptZh": "一次差點發生的意外可以給新牌司機一個重要教訓：車速限制能保障所有道路使用者。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A near accident can serve as a reminder to new drivers that speed limits protect everyone.",
+      "answerZh": "一次差點發生的意外可以提醒新牌司機，車速限制能保障所有道路使用者。",
+      "answerZhSource": "pdf",
+      "highlight": "A near accident can serve as a reminder to new drivers that speed limits protect everyone."
+    },
+    {
+      "id": "ss334-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The power cut should make every office remember that it needs an emergency plan.",
+      "promptZh": "這次停電應該令每間辦公室記得需要制定應急計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The power cut should serve as a reminder that every office needs an emergency plan.",
+      "answerZh": "這次停電應該提醒每間辦公室，必須制定應急計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The power cut should serve as a reminder that every office needs an emergency plan."
+    },
+    {
+      "id": "ss334-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What happened yesterday should be a warning that rumours can cause real harm.",
+      "promptZh": "昨天發生的事情應該成為一項警示：謠言可以造成真正的傷害。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What happened yesterday should serve as a reminder that rumours can cause real harm.",
+      "answerZh": "昨天發生的事情應該提醒我們，謠言可以造成真正的傷害。",
+      "answerZhSource": "pdf",
+      "highlight": "What happened yesterday should serve as a reminder that rumours can cause real harm."
+    },
+    {
+      "id": "ss334-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The broken lock may remind the owner that regular maintenance is necessary.",
+      "promptZh": "損壞的門鎖可能會提醒物主，定期保養是必要的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The broken lock may serve as a reminder to the owner that regular maintenance is necessary.",
+      "answerZh": "損壞的門鎖可能會提醒物主，定期保養是必要的。",
+      "answerZhSource": "pdf",
+      "highlight": "The broken lock may serve as a reminder to the owner that regular maintenance is necessary."
+    },
+    {
+      "id": "ss334-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The complaint has left the whole team with this lesson: clear communication builds trust.",
+      "promptZh": "這宗投訴給整個團隊留下了一個教訓：清晰溝通有助建立信任。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The complaint has served as a reminder to the whole team that clear communication builds trust.",
+      "answerZh": "這宗投訴提醒了整個團隊，清晰溝通有助建立信任。",
+      "answerZhSource": "pdf",
+      "highlight": "The complaint has served as a reminder to the whole team that clear communication builds trust."
+    },
+    {
+      "id": "ss334-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although the delay was brief, it was a reminder that the timetable was too tight.",
+      "promptZh": "雖然延誤時間很短，但它提醒我們時間表安排得太緊密。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the delay was brief, it served as a reminder that the timetable was too tight.",
+      "answerZh": "雖然延誤時間很短，但它提醒我們時間表安排得太緊密。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the delay was brief, it served as a reminder that the timetable was too tight."
+    },
+    {
+      "id": "ss334-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The teacher’s feedback will remind students that strong arguments need clear evidence.",
+      "promptZh": "老師的評語會提醒學生，有力的論點需要清晰的證據支持。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher’s feedback will serve as a reminder to students that strong arguments need clear evidence.",
+      "answerZh": "老師的評語會提醒學生，有力的論點需要清晰的證據支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher’s feedback will serve as a reminder to students that strong arguments need clear evidence."
+    },
+    {
+      "id": "ss334-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When the next project begins, this mistake will highlight one lesson: responsibilities must be assigned clearly.",
+      "promptZh": "下一個項目開始時，這個錯誤會突顯一個教訓：必須清楚分配責任。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the next project begins, this mistake will serve as a reminder that responsibilities must be assigned clearly.",
+      "answerZh": "下一個項目開始時，這個錯誤會提醒人們，必須清楚分配責任。",
+      "answerZhSource": "pdf",
+      "highlight": "When the next project begins, this mistake will serve as a reminder that responsibilities must be assigned clearly."
+    },
+    {
+      "id": "ss334-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "One difficult customer can be a useful reminder that patience is part of good service.",
+      "promptZh": "一位難以應付的顧客可以提醒我們，耐性是優質服務的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One difficult customer can serve as a useful reminder that patience is part of good service.",
+      "answerZh": "一位難以應付的顧客可以提醒我們，耐性是優質服務的一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "One difficult customer can serve as a useful reminder that patience is part of good service."
+    },
+    {
+      "id": "ss334-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The fact that the file disappeared teaches an important lesson: important work should be backed up.",
+      "promptZh": "檔案消失這件事帶出一個重要教訓：重要工作應該備份。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the file disappeared serves as a reminder that important work should be backed up.",
+      "answerZh": "檔案消失這件事提醒人們，重要工作應該備份。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the file disappeared serves as a reminder that important work should be backed up."
+    },
+    {
+      "id": "ss334-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Failing the first test was a powerful reminder to him that regular revision was necessary.",
+      "promptZh": "第一次測驗不合格深深提醒了他，定期溫習是必要的。",
+      "promptZhSource": "pdf",
+      "starter": "Failing",
+      "answer": "Failing the first test served as a powerful reminder to him that regular revision was necessary.",
+      "answerZh": "第一次測驗不合格深深提醒了他，定期溫習是必要的。",
+      "answerZhSource": "pdf",
+      "highlight": "Failing the first test served as a powerful reminder to him that regular revision was necessary."
+    },
+    {
+      "id": "ss334-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Regular safety drills clearly remind new staff that emergency procedures must be followed.",
+      "promptZh": "定期安全演習清楚提醒新員工，必須遵守緊急應變程序。",
+      "promptZhSource": "pdf",
+      "starter": "Regular",
+      "answer": "Regular safety drills serve as a clear reminder to new staff that emergency procedures must be followed.",
+      "answerZh": "定期安全演習清楚提醒新員工，必須遵守緊急應變程序。",
+      "answerZhSource": "pdf",
+      "highlight": "Regular safety drills serve as a clear reminder to new staff that emergency procedures must be followed."
+    },
+    {
+      "id": "ss334-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What happened at the crossing gives a stark warning that drivers must remain alert.",
+      "promptZh": "行人過路處發生的事情發出嚴正警告：駕駛者必須保持警覺。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What happened at the crossing serves as a stark reminder that drivers must remain alert.",
+      "answerZh": "行人過路處發生的事情嚴正提醒人們，駕駛者必須保持警覺。",
+      "answerZhSource": "pdf",
+      "highlight": "What happened at the crossing serves as a stark reminder that drivers must remain alert."
+    },
+    {
+      "id": "ss334-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Even a brief illness can show why rest is not a waste of time.",
+      "promptZh": "即使只是短暫患病，也可以說明休息為甚麼不是浪費時間。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even a brief illness can serve as a reminder that rest is not a waste of time.",
+      "answerZh": "即使只是短暫患病，也可以提醒人們，休息並不是浪費時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Even a brief illness can serve as a reminder that rest is not a waste of time."
+    },
+    {
+      "id": "ss334-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The way the volunteers responded taught everyone that communities are strongest when people cooperate.",
+      "promptZh": "義工的應對方式讓所有人明白，當人們互相合作時，社區便最強大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The way the volunteers responded served as a reminder to everyone that communities are strongest when people cooperate.",
+      "answerZh": "義工的應對方式提醒了所有人，當人們互相合作時，社區便最強大。",
+      "answerZhSource": "pdf",
+      "highlight": "The way the volunteers responded served as a reminder to everyone that communities are strongest when people cooperate."
+    },
+    {
+      "id": "ss334-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Looking back, the abandoned plan leaves one lesson: good ideas still need practical support.",
+      "promptZh": "回頭看，這個被放棄的計劃留下一個教訓：好構思仍然需要實際支援。",
+      "promptZhSource": "pdf",
+      "starter": "Looking",
+      "answer": "Looking back, the abandoned plan serves as a reminder that good ideas still need practical support.",
+      "answerZh": "回頭看，這個被放棄的計劃提醒人們，好構思仍然需要實際支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Looking back, the abandoned plan serves as a reminder that good ideas still need practical support."
+    },
+    {
+      "id": "ss334-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "That unanswered email has made me remember that polite follow-up is sometimes necessary.",
+      "promptZh": "那封沒有回覆的電郵令我記得，有時需要禮貌地跟進。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That unanswered email has served as a reminder to me that polite follow-up is sometimes necessary.",
+      "answerZh": "那封沒有回覆的電郵提醒了我，有時需要禮貌地跟進。",
+      "answerZhSource": "pdf",
+      "highlight": "That unanswered email has served as a reminder to me that polite follow-up is sometimes necessary."
+    },
+    {
+      "id": "ss334-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Since it was installed, the warning sign has constantly reminded walkers that the path becomes dangerous after heavy rain.",
+      "promptZh": "自警告牌安裝以來，它一直提醒行山人士，這條小徑在大雨後會變得危險。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since it was installed, the warning sign has served as a constant reminder to walkers that the path becomes dangerous after heavy rain.",
+      "answerZh": "自警告牌安裝以來，它一直提醒行山人士，這條小徑在大雨後會變得危險。",
+      "answerZhSource": "pdf",
+      "highlight": "Since it was installed, the warning sign has served as a constant reminder to walkers that the path becomes dangerous after heavy rain."
+    },
+    {
+      "id": "ss334-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Losing the account has been a painful reminder that passwords must be stored securely.",
+      "promptZh": "失去這個帳戶一直是一個沉痛提醒：密碼必須安全地保存。",
+      "promptZhSource": "pdf",
+      "starter": "Losing",
+      "answer": "Losing the account has served as a painful reminder that passwords must be stored securely.",
+      "answerZh": "失去這個帳戶一直帶來沉痛提醒：密碼必須安全地保存。",
+      "answerZhSource": "pdf",
+      "highlight": "Losing the account has served as a painful reminder that passwords must be stored securely."
+    },
+    {
+      "id": "ss334-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "In difficult times, the old diary carries a gentle message: problems do not last forever.",
+      "promptZh": "在困難時期，這本舊日記帶來一個溫柔的訊息：問題不會永遠持續。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In difficult times, the old diary serves as a gentle reminder that problems do not last forever.",
+      "answerZh": "在困難時期，這本舊日記溫柔地提醒人們，問題不會永遠持續。",
+      "answerZhSource": "pdf",
+      "highlight": "In difficult times, the old diary serves as a gentle reminder that problems do not last forever."
+    },
+    {
+      "id": "ss334-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Although the machine was new, its sudden failure gave a sobering lesson that new equipment still requires testing.",
+      "promptZh": "雖然這部機器是新的，但它突然故障帶來一個發人深省的教訓：新設備仍然需要測試。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the machine was new, its sudden failure served as a sobering reminder that new equipment still requires testing.",
+      "answerZh": "雖然這部機器是新的，但它突然故障發人深省地提醒人們，新設備仍然需要測試。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the machine was new, its sudden failure served as a sobering reminder that new equipment still requires testing."
+    },
+    {
+      "id": "ss334-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "For anyone managing a budget, the unexpected bill can be an important reminder that emergency savings are valuable.",
+      "promptZh": "對任何管理預算的人而言，這張突如其來的帳單可以作出重要提醒：應急儲蓄很有價值。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For anyone managing a budget, the unexpected bill can serve as an important reminder that emergency savings are valuable.",
+      "answerZh": "對任何管理預算的人而言，這張突如其來的帳單可以作出重要提醒：應急儲蓄很有價值。",
+      "answerZhSource": "pdf",
+      "highlight": "For anyone managing a budget, the unexpected bill can serve as an important reminder that emergency savings are valuable."
+    },
+    {
+      "id": "ss334-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The silence that followed the announcement left one clear thought: people sometimes need time to process bad news.",
+      "promptZh": "公告後的沉默留下一個清楚想法：人們有時需要時間消化壞消息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The silence that followed the announcement served as a reminder that people sometimes need time to process bad news.",
+      "answerZh": "公告後的沉默提醒人們，有時需要時間消化壞消息。",
+      "answerZhSource": "pdf",
+      "highlight": "The silence that followed the announcement served as a reminder that people sometimes need time to process bad news."
+    },
+    {
+      "id": "ss334-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "What the survey revealed should send the company a clear message: customers value simple instructions.",
+      "promptZh": "調查結果應該向公司傳達一個清晰訊息：顧客重視簡單易明的指示。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the survey revealed should serve as a reminder to the company that customers value simple instructions.",
+      "answerZh": "調查結果應該提醒公司，顧客重視簡單易明的指示。",
+      "answerZhSource": "pdf",
+      "highlight": "What the survey revealed should serve as a reminder to the company that customers value simple instructions."
+    },
+    {
+      "id": "ss334-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The recycling campaign is an achievement, and it also shows that small habits can produce large results.",
+      "promptZh": "這項回收活動是一項成就，也說明小習慣可以帶來重大成果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The recycling campaign stands as an achievement and also serves as a reminder that small habits can produce large results.",
+      "answerZh": "這項回收活動既是一項成就，也提醒人們小習慣可以帶來重大成果。",
+      "answerZhSource": "pdf",
+      "highlight": "The recycling campaign stands as an achievement and also serves as a reminder that small habits can produce large results."
+    },
+    {
+      "id": "ss334-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "After the bridge reopened, the months of disruption continued to remind residents that public projects affect daily life.",
+      "promptZh": "大橋重開後，數月以來造成的不便仍然提醒居民，公共工程會影響日常生活。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the bridge reopened, the months of disruption continued to serve as a reminder to residents that public projects affect daily life.",
+      "answerZh": "大橋重開後，數月以來造成的不便仍然提醒居民，公共工程會影響日常生活。",
+      "answerZhSource": "pdf",
+      "highlight": "After the bridge reopened, the months of disruption continued to serve as a reminder to residents that public projects affect daily life."
+    },
+    {
+      "id": "ss334-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "A story told by one patient may give doctors a valuable lesson: statistics do not show every human experience.",
+      "promptZh": "一名病人講述的故事可能會給醫生一個寶貴教訓：統計數字不能反映每一段個人經歷。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A story told by one patient may serve as a valuable reminder to doctors that statistics do not show every human experience.",
+      "answerZh": "一名病人講述的故事可能會對醫生作出寶貴提醒：統計數字不能反映每一段個人經歷。",
+      "answerZhSource": "pdf",
+      "highlight": "A story told by one patient may serve as a valuable reminder to doctors that statistics do not show every human experience."
+    },
+    {
+      "id": "ss334-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The fact that both teams made the same mistake could be a reminder to us that the instructions themselves need improvement.",
+      "promptZh": "兩個團隊都犯了相同錯誤這件事，可能會提醒我們指示本身需要改善。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that both teams made the same mistake could serve as a reminder to us that the instructions themselves need improvement.",
+      "answerZh": "兩個團隊都犯了相同錯誤這件事，可能會提醒我們指示本身需要改善。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that both teams made the same mistake could serve as a reminder to us that the instructions themselves need improvement."
+    },
+    {
+      "id": "ss334-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Seeing the restored forest will give future visitors a vivid lesson: damaged environments can recover.",
+      "promptZh": "看到復修後的森林，將會給日後的訪客一個鮮明教訓：受破壞的環境可以復原。",
+      "promptZhSource": "pdf",
+      "starter": "Seeing",
+      "answer": "Seeing the restored forest will serve as a vivid reminder to future visitors that damaged environments can recover.",
+      "answerZh": "看到復修後的森林，將會生動地提醒日後的訪客，受破壞的環境可以復原。",
+      "answerZhSource": "pdf",
+      "highlight": "Seeing the restored forest will serve as a vivid reminder to future visitors that damaged environments can recover."
+    },
+    {
+      "id": "ss334-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The fact that the smallest component caused the shutdown teaches an important lesson: complex systems can depend on simple parts.",
+      "promptZh": "最小的零件導致整個系統停頓這件事帶出一個重要教訓：複雜系統可以依賴簡單的部件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that the smallest component caused the shutdown serves as a reminder that complex systems can depend on simple parts.",
+      "answerZh": "最小的零件導致整個系統停頓這件事提醒人們，複雜系統可以依賴簡單的部件。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that the smallest component caused the shutdown serves as a reminder that complex systems can depend on simple parts."
+    },
+    {
+      "id": "ss334-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "At a time when online messages spread quickly, this false report gives a timely warning that information should be checked before it is shared.",
+      "promptZh": "在網上訊息迅速傳播的時代，這篇失實報道發出及時警告：分享資訊前應先核實。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At a time when online messages spread quickly, this false report serves as a timely reminder that information should be checked before it is shared.",
+      "answerZh": "在網上訊息迅速傳播的時代，這篇失實報道及時提醒人們，分享資訊前應先核實。",
+      "answerZhSource": "pdf",
+      "highlight": "At a time when online messages spread quickly, this false report serves as a timely reminder that information should be checked before it is shared."
+    },
+    {
+      "id": "ss334-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "What the volunteers achieved without extra funding shows that careful organisation can sometimes matter more than a large budget.",
+      "promptZh": "義工在沒有額外資金下取得的成果說明，周詳安排有時比龐大預算更重要。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the volunteers achieved without extra funding serves as a reminder that careful organisation can sometimes matter more than a large budget.",
+      "answerZh": "義工在沒有額外資金下取得的成果提醒人們，周詳安排有時比龐大預算更重要。",
+      "answerZhSource": "pdf",
+      "highlight": "What the volunteers achieved without extra funding serves as a reminder that careful organisation can sometimes matter more than a large budget."
+    },
+    {
+      "id": "ss334-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Even though the patient recovered fully, the incident should still warn medical staff that warning signs must not be ignored.",
+      "promptZh": "即使病人已完全康復，這宗事件仍應警告醫護人員，絕不能忽視警號。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though the patient recovered fully, the incident should still serve as a reminder to medical staff that warning signs must not be ignored.",
+      "answerZh": "即使病人已完全康復，這宗事件仍應提醒醫護人員，絕不能忽視警號。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though the patient recovered fully, the incident should still serve as a reminder to medical staff that warning signs must not be ignored."
+    },
+    {
+      "id": "ss334-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "For organisations expanding overseas, the failed launch may be a warning that local knowledge is essential.",
+      "promptZh": "對拓展海外業務的機構而言，這次失敗的產品推出可能是一項警示：了解當地情況十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For organisations expanding overseas, the failed launch may serve as a reminder that local knowledge is essential.",
+      "answerZh": "對拓展海外業務的機構而言，這次失敗的產品推出可能會提醒它們，了解當地情況十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "For organisations expanding overseas, the failed launch may serve as a reminder that local knowledge is essential."
+    },
+    {
+      "id": "ss334-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The way the dispute grew from one unclear message illustrates an important lesson: small misunderstandings can become serious conflicts.",
+      "promptZh": "這場爭議由一則含糊訊息逐步擴大，說明了一個重要教訓：小誤會可以演變成嚴重衝突。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The way the dispute grew from one unclear message serves as a reminder that small misunderstandings can become serious conflicts.",
+      "answerZh": "這場爭議由一則含糊訊息逐步擴大，提醒人們小誤會可以演變成嚴重衝突。",
+      "answerZhSource": "pdf",
+      "highlight": "The way the dispute grew from one unclear message serves as a reminder that small misunderstandings can become serious conflicts."
+    },
+    {
+      "id": "ss334-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Long after the storm ended, the damaged homes continued to remind the public that recovery requires both money and time.",
+      "promptZh": "風暴結束很久後，受損的房屋仍然提醒公眾，復原工作既需要金錢，也需要時間。",
+      "promptZhSource": "pdf",
+      "starter": "Long",
+      "answer": "Long after the storm ended, the damaged homes continued to serve as a reminder to the public that recovery requires both money and time.",
+      "answerZh": "風暴結束很久後，受損的房屋仍然提醒公眾，復原工作既需要金錢，也需要時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Long after the storm ended, the damaged homes continued to serve as a reminder to the public that recovery requires both money and time."
+    },
+    {
+      "id": "ss334-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The award has reminded the whole department that steady improvement is often more valuable than sudden success.",
+      "promptZh": "這個獎項提醒了整個部門，穩步進步往往比突如其來的成功更有價值。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The award has served as a reminder to the whole department that steady improvement is often more valuable than sudden success.",
+      "answerZh": "這個獎項提醒了整個部門，穩步進步往往比突如其來的成功更有價值。",
+      "answerZhSource": "pdf",
+      "highlight": "The award has served as a reminder to the whole department that steady improvement is often more valuable than sudden success."
+    },
+    {
+      "id": "ss334-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "By itself, the statistic warns against overlooking the fact that a high average can hide large differences between individuals.",
+      "promptZh": "單看這項統計數字，它警告人們不要忽略一個事實：較高的平均數可以掩蓋個人之間的巨大差異。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By itself, the statistic serves as a reminder that a high average can hide large differences between individuals.",
+      "answerZh": "單看這項統計數字，它提醒人們，較高的平均數可以掩蓋個人之間的巨大差異。",
+      "answerZhSource": "pdf",
+      "highlight": "By itself, the statistic serves as a reminder that a high average can hide large differences between individuals."
+    },
+    {
+      "id": "ss334-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "What the crisis revealed must leave future leaders with a lasting lesson: early action can prevent greater damage.",
+      "promptZh": "這場危機揭示的事實必須給未來的領袖留下一個長久教訓：及早行動可以防止更嚴重的損害。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the crisis revealed must serve as a lasting reminder to future leaders that early action can prevent greater damage.",
+      "answerZh": "這場危機揭示的事實必須長久提醒未來的領袖，及早行動可以防止更嚴重的損害。",
+      "answerZhSource": "pdf",
+      "highlight": "What the crisis revealed must serve as a lasting reminder to future leaders that early action can prevent greater damage."
+    }
+  ]
+}

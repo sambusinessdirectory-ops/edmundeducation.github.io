@@ -1,0 +1,1232 @@
+{
+  "id": "ss288",
+  "order": 288,
+  "slug": "who-am-i-to-who-are-you-to",
+  "title": "「Who am I to...? / Who are you to...?」句",
+  "titleZh": "「Who am I to...? / Who are you to...?」句",
+  "titleEn": "Using “Who am I to...? / Who are you to...?”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 287 -「Who am I to..._ _ Who are you to..._」憑甚麼句.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sha256": "e86aaa42aa408271f66df4f39785cc55020039b3e39a20cdf7b538a2ee4d08ea",
+    "sourceNumber": 287,
+    "systemOrder": 288,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 287 maps to ss288: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Who are you to + base verb + other information?",
+  "formulas": [
+    {
+      "id": "ss288-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Who are you to + base verb + other information?"
+    }
+  ],
+  "example": "Who am I to judge someone else’s lifestyle?",
+  "exampleZh": "我有甚麼資格批評別人的生活方式？",
+  "examples": [
+    {
+      "id": "ss288-example-01",
+      "en": "Who am I to judge someone else’s lifestyle?",
+      "zh": "我有甚麼資格批評別人的生活方式？",
+      "highlight": "Who am I to judge someone else’s lifestyle?"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss288-rule-01",
+      "zh": "在 Who am I to...? 或 Who are you to...? 句式中，to 後面必須接動詞原形；不可使用現在分詞或過去式。",
+      "en": "Use the base verb after “to” Who am I to judge them? Who am I to judging them? Who am I to judged them?",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss288-rule-02",
+      "zh": "主語 I 必須配合 am，寫成 Who am I to...?；主語 you 必須配合 are，寫成 Who are you to...?，兩者不可互換。",
+      "en": "Use “am” with I and “are” with you Who am I to...? Who are you to...? Who are I to...? Who am you to...?",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss288-rule-03",
+      "zh": "這個句型通常不是真的要求對方回答，而是表達：自己沒有資格批評別人；自己不應干涉別人的選擇；對方沒有權利命令或批評自己；對方沒有足夠知識或經驗作出判斷。",
+      "en": "It is normally a rhetorical question",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss288-rule-04",
+      "zh": "通常表示謙遜、自我反省或克制。我有甚麼資格告訴她應該選擇甚麼職業？ 通常用來直接挑戰對方，語氣可以非常強烈。你有甚麼資格閱讀我的私人訊息？ 在工作、正式場合或與陌生人交談時，使用 Who are you to...? 可能顯得無禮或帶有敵意。",
+      "en": "“Who am I to...?” and “Who are you to...?” have different tones Who am I to...? Who am I to tell her what career to choose? Who are you to...? Who are you to read my private messages?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss288-rule-05",
+      "zh": "自然的核心語序是：【Who + am/are + subject + to + base verb...?】 這個固定反問句本身通常位於問題開首。真正自然的句式變化來自：在前面加入語氣詞；在中間加入插入語；在後面加入 when、if 或 because 類資料；把整個問題放進直接引語；在動詞後接名詞、that 子句、whether 子句或 wh-子句。不應為了製造表面變化而把核心字詞移到不自然的位置。",
+      "en": "The core expression has a fairly fixed order Who + am/are + subject + to + base verb...?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss288-rule-06",
+      "zh": "這句通常表示：我有甚麼理由不接受這項提議？或我當然應該接受。它與本課的「我沒有資格做某事」意思不同，因此不包括在本練習內。",
+      "en": "Do not confuse it with “Who am I not to...?” Who am I not to accept the offer?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss288-benefit-01",
+      "zh": "目標表達【Who am I to...?】可以表示你知道自己的知識、經驗或立場有限，因此不會隨便批評別人。它能把自我反省和原因自然地放在同一句中。",
+      "en": "It helps you show humility Who am I to...? Instead of: I should not judge her because I do not know her situation. You can say: Who am I to judge her when I do not know her situation?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss288-benefit-02",
+      "zh": "目標表達【Who are you to...?】可以直接質疑某人是否有權命令、批評、控制或干涉別人。你有甚麼資格決定我應該怎樣花自己的錢？ 這比單純說 I disagree with you 更清楚地指出問題在於對方沒有權力作出該決定。",
+      "en": "It helps you challenge unfair interference directly Who are you to...? Who are you to decide how I should spend my money?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss288-benefit-03",
+      "zh": "這個句型可以把「我沒有足夠資格、權力或知識」濃縮成一個簡潔自然的反問句。",
+      "en": "It shortens a longer explanation Instead of: I do not have enough knowledge or authority to question the doctor’s advice. You can say: Who am I to question the doctor’s advice?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss288-benefit-04",
+      "zh": "這個句型經常出現在日常對話、電影對白、爭論和內心獨白中。與較平淡的敘述句相比，直接反問能更清楚地表達人物的情緒和態度。",
+      "en": "It can make dialogue more realistic She asked, “Who are you to accuse me?”",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss288-benefit-05",
+      "zh": "使用不同形式，可以表達不同程度的語氣：謙遜、反思承認自己的限制不滿、質疑強烈挑戰掌握這些變化，可以令說話和寫作中的人物態度更加清楚。",
+      "en": "It helps you control your tone Who am I to...?: After all, who am I to...?: Really, who are you to...?: Who are you, exactly, to...?:",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss288-benefit-06",
+      "zh": "這個核心句型可以：單獨使用；配合開首語；加入插入語；接 when 或 if 子句；放入直接引語；接 that、whether、what、how 等子句。因此，學生不需要把所有答案機械地寫成完全相同的形式。",
+      "en": "It supports different sentence structures",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 287 maps to ss288: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Who am I to...? or Who are you to...?",
+      "Preserve the original meaning. Some answers require an opening expression, a parenthetical",
+      "insertion, an additional clause or direct speech.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Who am I to...? 或 Who are you to...? 改寫以下句子。",
+      "保留原意。部分答案需要加入開首語、插入語、附加子句或直接引語。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss288-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I have no right to judge someone else’s lifestyle.",
+      "promptZh": "我沒有資格批評別人的生活方式。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who am I to judge someone else’s lifestyle?",
+      "answerZh": "我有甚麼資格批評別人的生活方式？",
+      "answerZhSource": "pdf",
+      "highlight": "Who am I to judge someone else’s lifestyle?"
+    },
+    {
+      "id": "ss288-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What right do you have to tell me how to spend my money?",
+      "promptZh": "你有甚麼資格告訴我應該怎樣花自己的錢？",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to tell me how to spend my money?",
+      "answerZh": "你有甚麼資格告訴我應該怎樣花自己的錢？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to tell me how to spend my money?"
+    },
+    {
+      "id": "ss288-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is not my place to question the doctor’s advice.",
+      "promptZh": "我沒有資格質疑醫生的建議。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who am I to question the doctor’s advice?",
+      "answerZh": "我有甚麼資格質疑醫生的建議？",
+      "answerZhSource": "pdf",
+      "highlight": "Who am I to question the doctor’s advice?"
+    },
+    {
+      "id": "ss288-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You have no authority to decide which club I should join.",
+      "promptZh": "你沒有權決定我應該參加哪個學會。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to decide which club I should join?",
+      "answerZh": "你有甚麼資格決定我應該參加哪個學會？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to decide which club I should join?"
+    },
+    {
+      "id": "ss288-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I cannot fairly criticise his cooking because I cannot cook well myself.",
+      "promptZh": "我自己也不擅長烹飪，因此沒有資格批評他的廚藝。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who am I to criticise his cooking when I cannot cook well myself?",
+      "answerZh": "我自己也不擅長烹飪，有甚麼資格批評他的廚藝？",
+      "answerZhSource": "pdf",
+      "highlight": "Who am I to criticise his cooking when I cannot cook well myself?"
+    },
+    {
+      "id": "ss288-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You have no right to laugh at her accent.",
+      "promptZh": "你沒有資格取笑她的口音。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to laugh at her accent?",
+      "answerZh": "你有甚麼資格取笑她的口音？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to laugh at her accent?"
+    },
+    {
+      "id": "ss288-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is not my place to tell my classmates how they should study.",
+      "promptZh": "我沒有資格告訴同學應該怎樣讀書。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who am I to tell my classmates how they should study?",
+      "answerZh": "我有甚麼資格告訴同學應該怎樣讀書？",
+      "answerZhSource": "pdf",
+      "highlight": "Who am I to tell my classmates how they should study?"
+    },
+    {
+      "id": "ss288-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "What right do you have to open my bag without asking?",
+      "promptZh": "你有甚麼資格未經詢問便打開我的袋？",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to open my bag without asking?",
+      "answerZh": "你有甚麼資格未經詢問便打開我的袋？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to open my bag without asking?"
+    },
+    {
+      "id": "ss288-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I should not complain about the delay because other people have waited longer.",
+      "promptZh": "其他人等候得更久，我沒有資格抱怨延誤。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who am I to complain about the delay when other people have waited longer?",
+      "answerZh": "其他人等候得更久，我有甚麼資格抱怨延誤？",
+      "answerZhSource": "pdf",
+      "highlight": "Who am I to complain about the delay when other people have waited longer?"
+    },
+    {
+      "id": "ss288-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You are in no position to say that my idea will never work.",
+      "promptZh": "你沒有資格說我的想法永遠不會成功。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to say that my idea will never work?",
+      "answerZh": "你有甚麼資格說我的想法永遠不會成功？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to say that my idea will never work?"
+    },
+    {
+      "id": "ss288-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After all, I have no right to question the CEO’s decision.",
+      "promptZh": "畢竟，我沒有資格質疑行政總裁的決定。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After all, who am I to question the CEO’s decision?",
+      "answerZh": "畢竟，我有甚麼資格質疑行政總裁的決定？",
+      "answerZhSource": "pdf",
+      "highlight": "After all, who am I to question the CEO’s decision?"
+    },
+    {
+      "id": "ss288-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Really, what right do you have to judge her choice?",
+      "promptZh": "說真的，你有甚麼資格批評她的選擇？",
+      "promptZhSource": "pdf",
+      "starter": "Really",
+      "answer": "Really, who are you to judge her choice?",
+      "answerZh": "說真的，你有甚麼資格批評她的選擇？",
+      "answerZhSource": "pdf",
+      "highlight": "Really, who are you to judge her choice?"
+    },
+    {
+      "id": "ss288-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After all, it is not my place to decide what is best for their family.",
+      "promptZh": "畢竟，我沒有資格決定甚麼對他們的家庭最好。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who am I, after all, to decide what is best for their family?",
+      "answerZh": "畢竟，我有甚麼資格決定甚麼對他們的家庭最好？",
+      "answerZhSource": "pdf",
+      "highlight": "Who am I, after all, to decide what is best for their family?"
+    },
+    {
+      "id": "ss288-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Exactly what authority do you have to speak for the whole class?",
+      "promptZh": "你究竟有甚麼資格代表全班發言？",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you, exactly, to speak for the whole class?",
+      "answerZh": "你究竟有甚麼資格代表全班發言？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you, exactly, to speak for the whole class?"
+    },
+    {
+      "id": "ss288-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Honestly, I am not in a position to give relationship advice.",
+      "promptZh": "坦白說，我沒有資格提供感情方面的建議。",
+      "promptZhSource": "pdf",
+      "starter": "Honestly",
+      "answer": "Honestly, who am I to give relationship advice?",
+      "answerZh": "坦白說，我有甚麼資格提供感情方面的建議？",
+      "answerZhSource": "pdf",
+      "highlight": "Honestly, who am I to give relationship advice?"
+    },
+    {
+      "id": "ss288-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What right do you have to blame the receptionist for a computer problem?",
+      "promptZh": "你有甚麼資格因為電腦問題而責怪接待員？",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to blame the receptionist for a computer problem?",
+      "answerZh": "你有甚麼資格因為電腦問題而責怪接待員？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to blame the receptionist for a computer problem?"
+    },
+    {
+      "id": "ss288-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Still, I have no right to stop him from following his dream.",
+      "promptZh": "即使如此，我也沒有資格阻止他追尋夢想。",
+      "promptZhSource": "pdf",
+      "starter": "Still",
+      "answer": "Still, who am I to stop him from following his dream?",
+      "answerZh": "即使如此，我有甚麼資格阻止他追尋夢想？",
+      "answerZhSource": "pdf",
+      "highlight": "Still, who am I to stop him from following his dream?"
+    },
+    {
+      "id": "ss288-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It is not your place to tell the artist what her painting should mean.",
+      "promptZh": "你沒有資格告訴藝術家她的畫作應該代表甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to tell the artist what her painting should mean?",
+      "answerZh": "你有甚麼資格告訴藝術家她的畫作應該代表甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to tell the artist what her painting should mean?"
+    },
+    {
+      "id": "ss288-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I have no right to say which career she should choose.",
+      "promptZh": "我沒有資格說她應該選擇哪一種職業。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who am I to say which career she should choose?",
+      "answerZh": "我有甚麼資格說她應該選擇哪一種職業？",
+      "answerZhSource": "pdf",
+      "highlight": "Who am I to say which career she should choose?"
+    },
+    {
+      "id": "ss288-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What gives you the right to demand special treatment from the staff?",
+      "promptZh": "你憑甚麼要求職員給你特別待遇？",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to demand special treatment from the staff?",
+      "answerZh": "你有甚麼資格要求職員給你特別待遇？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to demand special treatment from the staff?"
+    },
+    {
+      "id": "ss288-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I asked myself whether I had any right to interfere in their argument.",
+      "promptZh": "我問自己是否有資格干涉他們的爭執。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I asked myself, “Who am I to interfere in their argument?”",
+      "answerZh": "我問自己：「我有甚麼資格干涉他們的爭執？」",
+      "answerZhSource": "pdf",
+      "highlight": "I asked myself, “Who am I to interfere in their argument?”"
+    },
+    {
+      "id": "ss288-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "She asked him what right he had to read her private messages.",
+      "promptZh": "她問他有甚麼資格閱讀她的私人訊息。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She asked him, “Who are you to read my private messages?”",
+      "answerZh": "她問他：「你有甚麼資格閱讀我的私人訊息？」",
+      "answerZhSource": "pdf",
+      "highlight": "She asked him, “Who are you to read my private messages?”"
+    },
+    {
+      "id": "ss288-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "At that moment, I asked myself whether I had the right to reject their offer without hearing the details.",
+      "promptZh": "那一刻，我問自己是否有資格在未聽取詳情前拒絕他們的提議。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At that moment, I asked myself, “Who am I to reject their offer without hearing the details?”",
+      "answerZh": "那一刻，我問自己：「我有甚麼資格在未聽取詳情前拒絕他們的提議？」",
+      "answerZhSource": "pdf",
+      "highlight": "At that moment, I asked myself, “Who am I to reject their offer without hearing the details?”"
+    },
+    {
+      "id": "ss288-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The student replied by asking the coach what right the coach had to accuse him without evidence.",
+      "promptZh": "學生回答時反問教練有甚麼資格在沒有證據的情況下指控他。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The student replied, “Who are you to accuse me without evidence?”",
+      "answerZh": "學生回答：「你有甚麼資格在沒有證據的情況下指控我？」",
+      "answerZhSource": "pdf",
+      "highlight": "The student replied, “Who are you to accuse me without evidence?”"
+    },
+    {
+      "id": "ss288-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I could only wonder whether I was in a position to decide if the plan was fair.",
+      "promptZh": "我只能思考自己是否有資格判斷這項計劃是否公平。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I could only wonder, “Who am I to decide whether the plan is fair?”",
+      "answerZh": "我只能思考：「我有甚麼資格判斷這項計劃是否公平？」",
+      "answerZhSource": "pdf",
+      "highlight": "I could only wonder, “Who am I to decide whether the plan is fair?”"
+    },
+    {
+      "id": "ss288-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "He asked the stranger what authority the stranger had to order them to leave.",
+      "promptZh": "他問那名陌生人有甚麼資格命令他們離開。",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He asked the stranger, “Who are you to order us to leave?”",
+      "answerZh": "他問那名陌生人：「你有甚麼資格命令我們離開？」",
+      "answerZhSource": "pdf",
+      "highlight": "He asked the stranger, “Who are you to order us to leave?”"
+    },
+    {
+      "id": "ss288-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "After hearing her story, I wondered whether I had any right to doubt what she experienced.",
+      "promptZh": "聽過她的經歷後，我思考自己是否有資格懷疑她所經歷的事情。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After hearing her story, I thought, “Who am I to doubt what she experienced?”",
+      "answerZh": "聽過她的經歷後，我心想：「我有甚麼資格懷疑她所經歷的事情？」",
+      "answerZhSource": "pdf",
+      "highlight": "After hearing her story, I thought, “Who am I to doubt what she experienced?”"
+    },
+    {
+      "id": "ss288-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The employee asked the supervisor what right the supervisor had to take credit for the team’s work.",
+      "promptZh": "員工問主管有甚麼資格把團隊的功勞據為己有。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The employee asked the supervisor, “Who are you to take credit for our work?”",
+      "answerZh": "員工問主管：「你有甚麼資格把我們的功勞據為己有？」",
+      "answerZhSource": "pdf",
+      "highlight": "The employee asked the supervisor, “Who are you to take credit for our work?”"
+    },
+    {
+      "id": "ss288-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I paused and questioned whether I had the authority to speak on behalf of the whole community.",
+      "promptZh": "我停下來思考自己是否有資格代表整個社區發言。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I paused and thought, “Who am I to speak on behalf of the whole community?”",
+      "answerZh": "我停下來想：「我有甚麼資格代表整個社區發言？」",
+      "answerZhSource": "pdf",
+      "highlight": "I paused and thought, “Who am I to speak on behalf of the whole community?”"
+    },
+    {
+      "id": "ss288-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The tenant asked the landlord what right the landlord had to enter the flat without permission.",
+      "promptZh": "租客問業主有甚麼資格未經許可便進入單位。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The tenant asked the landlord, “Who are you to enter the flat without permission?”",
+      "answerZh": "租客問業主：「你有甚麼資格未經許可便進入單位？」",
+      "answerZhSource": "pdf",
+      "highlight": "The tenant asked the landlord, “Who are you to enter the flat without permission?”"
+    },
+    {
+      "id": "ss288-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I have no right to criticise people who are trying their best.",
+      "promptZh": "我沒有資格批評正在盡力而為的人。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who am I to criticise people who are trying their best?",
+      "answerZh": "我有甚麼資格批評正在盡力而為的人？",
+      "answerZhSource": "pdf",
+      "highlight": "Who am I to criticise people who are trying their best?"
+    },
+    {
+      "id": "ss288-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What right do you have to decide that one person’s needs matter more than another’s?",
+      "promptZh": "你有甚麼資格斷定一個人的需要比另一個人的需要更重要？",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to decide that one person’s needs matter more than another’s?",
+      "answerZh": "你有甚麼資格斷定一個人的需要比另一個人的需要更重要？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to decide that one person’s needs matter more than another’s?"
+    },
+    {
+      "id": "ss288-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I have so little experience that I am not in a position to challenge the engineer’s judgement.",
+      "promptZh": "我的經驗這麼少，因此沒有資格質疑工程師的判斷。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With so little experience, who am I to challenge the engineer’s judgement?",
+      "answerZh": "我的經驗這麼少，有甚麼資格質疑工程師的判斷？",
+      "answerZhSource": "pdf",
+      "highlight": "With so little experience, who am I to challenge the engineer’s judgement?"
+    },
+    {
+      "id": "ss288-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "You do not know the full story, so you have no right to call him dishonest.",
+      "promptZh": "你不知道全部內情，因此沒有資格說他不誠實。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without knowing the full story, who are you to call him dishonest?",
+      "answerZh": "你不知道全部內情，有甚麼資格說他不誠實？",
+      "answerZhSource": "pdf",
+      "highlight": "Without knowing the full story, who are you to call him dishonest?"
+    },
+    {
+      "id": "ss288-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I have made many mistakes myself, so I am not in a position to lecture anyone about responsibility.",
+      "promptZh": "我自己也犯過很多錯誤，因此沒有資格教訓別人要負責任。",
+      "promptZhSource": "pdf",
+      "starter": "Considering",
+      "answer": "Considering my own mistakes, who am I to lecture anyone about responsibility?",
+      "answerZh": "考慮到我自己也犯過錯誤，我有甚麼資格教訓別人要負責任？",
+      "answerZhSource": "pdf",
+      "highlight": "Considering my own mistakes, who am I to lecture anyone about responsibility?"
+    },
+    {
+      "id": "ss288-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "You ignored the same rule yourself, so what right do you have to punish other people for breaking it?",
+      "promptZh": "你自己也忽視了同一項規則，憑甚麼懲罰其他違反規則的人？",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After ignoring the same rule yourself, who are you to punish other people for breaking it?",
+      "answerZh": "你自己也忽視了同一項規則，有甚麼資格懲罰其他違反規則的人？",
+      "answerZhSource": "pdf",
+      "highlight": "After ignoring the same rule yourself, who are you to punish other people for breaking it?"
+    },
+    {
+      "id": "ss288-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "It is not my place to stand in the way of a decision that makes them happy.",
+      "promptZh": "我沒有資格阻礙一項能令他們快樂的決定。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who am I to stand in the way of a decision that makes them happy?",
+      "answerZh": "我有甚麼資格阻礙一項能令他們快樂的決定？",
+      "answerZhSource": "pdf",
+      "highlight": "Who am I to stand in the way of a decision that makes them happy?"
+    },
+    {
+      "id": "ss288-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "You are not a doctor, so you have no right to tell a patient which treatment to choose.",
+      "promptZh": "你不是醫生，因此沒有資格告訴病人應該選擇哪種治療。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to tell a patient which treatment to choose when you are not a doctor?",
+      "answerZh": "你不是醫生，有甚麼資格告訴病人應該選擇哪種治療？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to tell a patient which treatment to choose when you are not a doctor?"
+    },
+    {
+      "id": "ss288-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Even if I disagree, it is not my place to deny them the chance to try.",
+      "promptZh": "即使我不同意，我也沒有資格剝奪他們嘗試的機會。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if I disagree, who am I to deny them the chance to try?",
+      "answerZh": "即使我不同意，我有甚麼資格剝奪他們嘗試的機會？",
+      "answerZhSource": "pdf",
+      "highlight": "Even if I disagree, who am I to deny them the chance to try?"
+    },
+    {
+      "id": "ss288-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "What right do you have to claim that the neighbourhood belongs only to people like you?",
+      "promptZh": "你有甚麼資格聲稱這個社區只屬於像你一樣的人？",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to claim that the neighbourhood belongs only to people like you?",
+      "answerZh": "你有甚麼資格聲稱這個社區只屬於像你一樣的人？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to claim that the neighbourhood belongs only to people like you?"
+    },
+    {
+      "id": "ss288-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I reminded myself that I had no right to expect perfection from other people when I made mistakes too.",
+      "promptZh": "我提醒自己，我也會犯錯，因此沒有資格要求別人做到完美。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I reminded myself, “Who am I to expect perfection from other people when I make mistakes too?”",
+      "answerZh": "我提醒自己：「我也會犯錯，有甚麼資格要求別人做到完美？」",
+      "answerZhSource": "pdf",
+      "highlight": "I reminded myself, “Who am I to expect perfection from other people when I make mistakes too?”"
+    },
+    {
+      "id": "ss288-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The volunteer calmly asked the official what right the official had to decide who deserved help.",
+      "promptZh": "義工冷靜地問官員有甚麼資格決定誰值得獲得幫助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The volunteer calmly asked the official, “Who are you to decide who deserves help?”",
+      "answerZh": "義工冷靜地問官員：「你有甚麼資格決定誰值得獲得幫助？」",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteer calmly asked the official, “Who are you to decide who deserves help?”"
+    },
+    {
+      "id": "ss288-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Looking back, I still wonder whether I have the right to say that they made the wrong choice.",
+      "promptZh": "回想起來，我仍然懷疑自己是否有資格說他們作出了錯誤的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Looking",
+      "answer": "Looking back, I still ask myself, “Who am I to say that they made the wrong choice?”",
+      "answerZh": "回想起來，我仍然問自己：「我有甚麼資格說他們作出了錯誤的選擇？」",
+      "answerZhSource": "pdf",
+      "highlight": "Looking back, I still ask myself, “Who am I to say that they made the wrong choice?”"
+    },
+    {
+      "id": "ss288-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The chairperson asked the speaker what right he had to dismiss an idea before the committee had discussed it.",
+      "promptZh": "主席問發言者有甚麼資格在委員會討論一項想法之前便否定它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chairperson asked the speaker, “Who are you to dismiss an idea before the committee has discussed it?”",
+      "answerZh": "主席問發言者：「你有甚麼資格在委員會討論一項想法之前便否定它？」",
+      "answerZhSource": "pdf",
+      "highlight": "The chairperson asked the speaker, “Who are you to dismiss an idea before the committee has discussed it?”"
+    },
+    {
+      "id": "ss288-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I have no right to assume that silence means agreement.",
+      "promptZh": "我沒有資格假設沉默就代表同意。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who am I to assume that silence means agreement?",
+      "answerZh": "我有甚麼資格假設沉默就代表同意？",
+      "answerZhSource": "pdf",
+      "highlight": "Who am I to assume that silence means agreement?"
+    },
+    {
+      "id": "ss288-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "What right do you have to tell someone to forgive before they are ready?",
+      "promptZh": "你有甚麼資格要求一個尚未準備好的人原諒別人？",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who are you to tell someone to forgive before they are ready?",
+      "answerZh": "你有甚麼資格要求一個尚未準備好的人原諒別人？",
+      "answerZhSource": "pdf",
+      "highlight": "Who are you to tell someone to forgive before they are ready?"
+    },
+    {
+      "id": "ss288-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "When I saw evidence that contradicted my view, I realised that I had no right to ignore the facts merely because they were inconvenient.",
+      "promptZh": "當我看到與自己觀點相反的證據時，我明白自己不能只因為事實令人不便便忽視它們。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When I saw evidence that contradicted my view, I thought, “Who am I to ignore the facts simply because they are inconvenient?”",
+      "answerZh": "當我看到與自己觀點相反的證據時，我心想：「我有甚麼資格只因為事實令人不便便忽視它們？」",
+      "answerZhSource": "pdf",
+      "highlight": "When I saw evidence that contradicted my view, I thought, “Who am I to ignore the facts simply because they are inconvenient?”"
+    },
+    {
+      "id": "ss288-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The journalist asked the official what right the official had to hide information that affected the public.",
+      "promptZh": "記者問官員有甚麼資格隱瞞影響公眾的資訊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The journalist asked the official, “Who are you to hide information that affects the public?”",
+      "answerZh": "記者問官員：「你有甚麼資格隱瞞影響公眾的資訊？」",
+      "answerZhSource": "pdf",
+      "highlight": "The journalist asked the official, “Who are you to hide information that affects the public?”"
+    },
+    {
+      "id": "ss288-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "I do not know what another person can achieve, so I have no right to set limits on that person’s ambition.",
+      "promptZh": "我不知道別人能取得甚麼成就，因此沒有資格限制別人的抱負。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who am I to set limits on another person’s ambition when I do not know what they can achieve?",
+      "answerZh": "我不知道別人能取得甚麼成就，有甚麼資格限制別人的抱負？",
+      "answerZhSource": "pdf",
+      "highlight": "Who am I to set limits on another person’s ambition when I do not know what they can achieve?"
+    },
+    {
+      "id": "ss288-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "In the end, she challenged the critic’s right to define success for everyone else.",
+      "promptZh": "最後，她質疑那名批評者有甚麼資格替所有其他人定義成功。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the end, she asked the critic, “Who are you to define success for everyone else?”",
+      "answerZh": "最後，她問那名批評者：「你有甚麼資格替所有其他人定義成功？」",
+      "answerZhSource": "pdf",
+      "highlight": "In the end, she asked the critic, “Who are you to define success for everyone else?”"
+    }
+  ]
+}

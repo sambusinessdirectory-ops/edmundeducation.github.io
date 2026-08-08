@@ -1,0 +1,1556 @@
+{
+  "lesson": {
+    "id": "idiom-127",
+    "order": 127,
+    "slug": "diamond-cuts-diamond",
+    "version": "1",
+    "title": "棋逢敵手／高手過招",
+    "titleEn": "Diamond Cuts Diamond",
+    "titleZh": "棋逢敵手／高手過招",
+    "source": {
+      "file": "Idiom 127 - “Diamond Cuts Diamond”.pdf",
+      "pageCount": 40,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "exercisePdfPages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "answerKeyPdfPages": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "Diamond Cuts Diamond",
+        "highlight": "Diamond Cuts Diamond"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The chess final was a clear case of diamond cuts diamond.",
+        "zh": "這場國際象棋決賽正是棋逢敵手。",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "en": "Whenever those two lawyers face each other, diamond cuts diamond.",
+        "zh": "每當那兩名律師交鋒，都是高手過招。",
+        "highlight": "diamond cuts diamond"
+      }
+    ],
+    "meaning": {
+      "en": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+      "zh": "當兩個同樣精明、狡猾、意志堅定或擅長策略的對手相遇時，雙方便是棋逢敵手，任何一方都難以輕易擊敗或智勝對方。",
+      "naturalZh": [
+        "棋逢敵手",
+        "高手過招",
+        "旗鼓相當",
+        "精明人遇上同樣精明的對手",
+        "狡猾的人碰上同樣狡猾的人",
+        "兩強相遇，誰也佔不了明顯上風"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "storytelling; sports or competition commentary; informal articles; speeches; discussions of negotiation or strategy; descriptions of fictional rivalries.",
+      "summaryZh": "帶有諺語色彩，形象鮮明，亦略帶文學感。 它尤其與英式諺語用法有關， 可以自然用於：",
+      "contextsEn": [
+        "storytelling",
+        "sports or competition commentary",
+        "informal articles",
+        "speeches",
+        "discussions of negotiation or strategy",
+        "descriptions of fictional rivalries",
+        "they are evenly matched",
+        "she has finally met her match",
+        "neither side has a clear advantage",
+        "it is a battle of wits",
+        "they are evenly matched",
+        "she has finally met her match"
+      ],
+      "contextsZh": [
+        "故事",
+        "體育或比賽評論",
+        "非正式文章",
+        "演說",
+        "有關談判或策略的討論",
+        "描述虛構人物之間的競爭。"
+      ],
+      "formalEn": "storytelling; sports or competition commentary; informal articles; speeches; discussions of negotiation or strategy; descriptions of fictional rivalries.",
+      "formalZh": "體育或比賽評論； 非正式文章； 演說； 有關談判或策略的討論； 描述虛構人物之間的競爭。"
+    },
+    "fixedVariable": {
+      "fixed": "Diamond Cuts Diamond",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "The chess final was a clear case of diamond cuts diamond.",
+          "highlight": "diamond cuts diamond"
+        },
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "Whenever those two lawyers face each other, diamond cuts diamond.",
+          "highlight": "diamond cuts diamond"
+        },
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "Diamond cuts diamond; an easy victory is unlikely.",
+          "highlight": "Diamond cuts diamond"
+        },
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "Their rivalry has proved that diamond cuts diamond.",
+          "highlight": "diamond cuts diamond"
+        },
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "It was a case of diamond cuts diamond.",
+          "highlight": "diamond cuts diamond"
+        },
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "The teacher used the phrase “diamond cuts diamond”.",
+          "highlight": "diamond cuts diamond"
+        },
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "Remember: diamond cuts diamond.",
+          "highlight": "diamond cuts diamond"
+        },
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "The contest taught us one lesson: diamond cuts diamond.",
+          "highlight": "diamond cuts diamond"
+        },
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "It could become a case of diamond cuts diamond.",
+          "highlight": "diamond cuts diamond"
+        },
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "Because diamond cuts diamond in this contest, every move matters.",
+          "highlight": "diamond cuts diamond"
+        },
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "The chess final was a clear case of diamond cuts diamond.",
+          "highlight": "diamond cuts diamond"
+        },
+        {
+          "form": "Diamond Cuts Diamond",
+          "example": "The chess final was a clear case of diamond cuts diamond.",
+          "highlight": "diamond cuts diamond"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As a Standalone Proverb",
+        "titleZh": "作為獨立諺語",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "Source grammar frame: Diamond Cuts Diamond.",
+        "descriptionZh": "原檔列出的句法框架：Diamond Cuts Diamond。",
+        "examples": [
+          {
+            "en": "The chess final was a clear case of diamond cuts diamond.",
+            "zh": "這場國際象棋決賽正是棋逢敵手。",
+            "highlight": "diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Context Clause",
+        "titleZh": "放在情境子句之後",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "The when-clause is optional supporting information. It is not part of the proverb.",
+        "descriptionZh": "子句只是可選的補充資料，並不是諺語的一部分。",
+        "examples": [
+          {
+            "en": "Whenever those two lawyers face each other, diamond cuts diamond.",
+            "zh": "每當那兩名律師交鋒，都是高手過招。",
+            "highlight": "diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Before a Result or Explanation",
+        "titleZh": "放在結果或解釋之前",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "The second clause explains a consequence of the evenly matched contest.",
+        "descriptionZh": "第二個子句說明這場旗鼓相當的較量所帶來的結果。",
+        "examples": [
+          {
+            "en": "Diamond cuts diamond; an easy victory is unlikely.",
+            "zh": "雙方旗鼓相當，任何一方都難以輕易勝出。",
+            "highlight": "Diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Show / Prove / Demonstrate That”",
+        "titleZh": "句式四",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "The proverb remains in the present simple because it expresses a general principle. The surrounding verb carries the time reference.",
+        "descriptionZh": "放在 show/prove/demonstrate that 之後諺語維持現在簡單式，因為它表達一般原則。 時間由外圍動詞表示。",
+        "examples": [
+          {
+            "en": "Their rivalry has proved that diamond cuts diamond.",
+            "zh": "他們之間的競爭證明雙方旗鼓相當。",
+            "highlight": "diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "In “A Case of”",
+        "titleZh": "用於 a case of 句式",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "The structure a case of diamond cuts diamond is an established way of applying the proverb to one particular situation.",
+        "descriptionZh": "a case of diamond cuts diamond 是把諺語套用於某個具體情況的常見方式。",
+        "examples": [
+          {
+            "en": "It was a case of diamond cuts diamond.",
+            "zh": "這是一場棋逢敵手的較量。",
+            "highlight": "diamond cuts diamond"
+          },
+          {
+            "en": "The final may become a case of diamond cuts diamond.",
+            "zh": "決賽可能會成為一場高手過招。",
+            "highlight": "diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "As a Named or Quoted Expression",
+        "titleZh": "作為被提及或引用的表達",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "Quotation marks show that the speaker is naming or discussing the expression itself.",
+        "descriptionZh": "引號表示說話者正在提及或討論這個表達本身。",
+        "examples": [
+          {
+            "en": "The teacher used the phrase “diamond cuts diamond”.",
+            "zh": "老師使用了 diamond cuts diamond 這個表達。",
+            "highlight": "diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After “As the Saying Goes”",
+        "titleZh": "放在 as the saying goes 之後",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "This frame clearly signals that the speaker is quoting traditional wisdom.",
+        "descriptionZh": "這個句式清楚表示說話者正在引用傳統智慧。",
+        "examples": [
+          {
+            "en": "Remember: diamond cuts diamond.",
+            "zh": "記住：強手自有強手應付。",
+            "highlight": "diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "After a Colon",
+        "titleZh": "放在冒號之後",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "The words before the colon prepare the listener for the proverbial conclusion.",
+        "descriptionZh": "冒號前的字句為後面的諺語結論作準備。",
+        "examples": [
+          {
+            "en": "The contest taught us one lesson: diamond cuts diamond.",
+            "zh": "這場比賽給了我們一個教訓：強手遇上了真正的強手。",
+            "highlight": "diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "With Modality Outside the Proverb",
+        "titleZh": "在諺語外圍加入情態意思",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "The words may and could belong to the surrounding grammar. They do not change the words inside the proverb.",
+        "descriptionZh": "may 和 could 屬於外圍文法，並不會改變諺語內部的字詞。",
+        "examples": [
+          {
+            "en": "It could become a case of diamond cuts diamond.",
+            "zh": "這可能會變成一場高手過招。",
+            "highlight": "diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Inside a Conditional or Causal Structure",
+        "titleZh": "用於條件或原因句式",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "The if- or because-clause places the proverb inside a larger argument.",
+        "descriptionZh": "或 because 子句把諺語放入一個較完整的論述之中。",
+        "examples": [
+          {
+            "en": "Because diamond cuts diamond in this contest, every move matters.",
+            "zh": "由於這場比賽雙方旗鼓相當，每一步都十分重要。",
+            "highlight": "diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "In a “Where” Frame",
+        "titleZh": "用於 where 句式",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "The where-clause connects the proverb with a particular kind of situation.",
+        "descriptionZh": "子句把諺語與某一類情況連繫起來。",
+        "examples": [
+          {
+            "en": "The chess final was a clear case of diamond cuts diamond.",
+            "zh": "這場國際象棋決賽正是棋逢敵手。",
+            "highlight": "diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "As a Concluding Summary",
+        "titleZh": "作為總結",
+        "formula": "Diamond Cuts Diamond",
+        "descriptionEn": "The proverb can appear as a final evaluative sentence after the context has been established.",
+        "descriptionZh": "在情境已交代清楚後，諺語可以作為最後的評價句。",
+        "examples": [
+          {
+            "en": "The chess final was a clear case of diamond cuts diamond.",
+            "zh": "這場國際象棋決賽正是棋逢敵手。",
+            "highlight": "diamond cuts diamond"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Summarises a Complex Rivalry",
+        "titleZh": "概括複雜的競爭關係",
+        "en": "The negotiation was a case of diamond cuts diamond.",
+        "zh": "較長的說明可以濃縮成一句「棋逢敵手」。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Emphasises Equality of Ability",
+        "titleZh": "突出雙方能力相若",
+        "en": "The proverb does not merely say that two people are competing. It says that each person is a serious match for the other.",
+        "zh": "這個諺語並不只是說兩個人正在競爭，而是指出雙方都是彼此真正的對手。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Adds a Strategic or Intellectual Meaning",
+        "titleZh": "加入策略或智慧較量的意思",
+        "en": "debating; negotiating; solving problems; investigating; planning moves; trying to outwit one another.",
+        "zh": "這個表達尤其適合描述辯論、談判、解難、調查、部署策略或互相鬥智。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Express Admiration or Warning",
+        "titleZh": "可以表達欣賞或警告",
+        "en": "He thinks he can fool the new manager, but diamond cuts diamond.",
+        "zh": "它既可用來欣賞兩名高手，也可提醒某人不要低估對手。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Provides a Memorable Conclusion",
+        "titleZh": "提供令人印象深刻的總結",
+        "en": "As the saying goes, diamond cuts diamond.",
+        "zh": "在介紹雙方的能力後，說話者可以用這句諺語作出有力總結。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Increases Grammatical and Discourse Variety",
+        "titleZh": "增加文法及語篇變化",
+        "en": "as a complete sentence; after a context clause; inside a that-clause; after a colon; as a quotation; in a case-of frame; inside a conditional sentence; as a final conclusion.",
+        "zh": "這個諺語可以放在多種自然句法位置，而不需要破壞其固定形式。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Well-Documented Development; Exact First Form Uncertain",
+      "statusZh": "演變有充分記錄；確切最早形式不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "A closely related form appears in John Marston’s 1604 play The Malcontent, where one character states that no one cuts a diamond except another diamond. The line already carries the idea that a dangerous or cunning person requires an equally capable opponent.",
+          "zh": "在 John Marston 於1604年創作的戲劇 The Malcontent 中，已出現非常接近的形式。 劇中人物表示，只有鑽石才能切割鑽石。 這句話已經帶有「危險或狡猾的人需要同樣有能力的人應付」的意思。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical image of one exceptionally hard stone affecting another became a metaphor for two unusually clever or strong-minded people competing. An ordinary opponent might be defeated easily, but an equally “hard” opponent could resist and answer every move.",
+          "zh": "一顆極度堅硬的石頭能夠影響另一顆同樣堅硬的石頭，後來演變成兩個非常精明或意志堅定的人互相較量的比喻。 普通對手可能很容易被擊敗，但同樣「堅硬」的對手則能抵擋並回應每一步。"
+        }
+      ],
+      "memoryEn": "A diamond requires something equally hard to challenge it; a clever rival requires an equally clever opponent.",
+      "memoryZh": "鑽石需要同樣堅硬的東西才能對付；精明的對手也需要同樣精明的人才能應付。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Do Not Change the Internal Tense",
+        "titleZh": "規則一：不可改變內部時態",
+        "en": "Although the match happened in the past, the proverb remains in its fixed present-simple form.",
+        "zh": "即使比賽在過去發生，諺語仍維持固定的現在簡單式形式。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "“A Case of” Is an Optional Frame",
+        "titleZh": "規則二：a case of 是可選框架",
+        "en": "The words a case of are not part of the proverb.",
+        "zh": "並不是諺語的一部分。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Quotation Marks Are Not Always Required",
+        "titleZh": "規則三：並非所有情況都需要引號",
+        "en": "The match proved that diamond cuts diamond.",
+        "zh": "當句子正在提及這個表達本身時，應使用引號； 當諺語直接表達句子意思時，通常不用引號。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve Modality",
+        "titleZh": "規則四：保留可能性及確定程度",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把可能性改成已發生的事實。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The Opponents Must Be Genuine Equals",
+        "titleZh": "規則五：雙方必須真正旗鼓相當",
+        "en": "The second situation does not establish equal ability.",
+        "zh": "第二個情況沒有顯示雙方能力相若。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve the Area of Competition",
+        "titleZh": "規則六：保留競爭範疇",
+        "en": "The weak answer removes the debate context.",
+        "zh": "較弱的答案刪除了「辯論」這個重要情境。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Repeat the Meaning Unnecessarily",
+        "titleZh": "規則七：不要重複諺語已表達的意思",
+        "en": "The longer sentence explains the proverb immediately after using it.",
+        "zh": "較長的句子在使用諺語後，立即重複解釋同一意思。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Confuse “Cuts” with Literal Cutting",
+        "titleZh": "規則八：不要把 cuts 理解為真正切割",
+        "en": "The two clever negotiators met, and diamond cuts diamond.",
+        "zh": "本練習中的 cuts 表示同等精明的人互相較量，不是實際切割寶石。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "“Diamond Cut Diamond” Is Not the Selected",
+        "titleZh": "規則九",
+        "en": "Therefore, answers using diamond cut diamond do not reproduce the selected target.",
+        "zh": "diamond cut diamond 並非本練習指定答案描述式形式 diamond cut diamond 在歷史上有根據，亦可能出現在詞典和較舊的文章中。 不過， 本練習只訓練 diamond cuts diamond。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Force It into Every Equal Contest",
+        "titleZh": "規則十：不是所有勢均力敵的比賽都適用",
+        "en": "intelligence; cunning; strategic skill; determination; the ability to answer one another’s tactics.",
+        "zh": "如果一場零比零的足球賽只是因雙方表現欠佳，便不一定適合使用這個諺語。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using the exact proverb diamond cuts diamond.",
+      "zh": "使用完整而準確的諺語 diamond cuts diamond 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-127-q01",
+        "number": 1,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Both chess champions were equally skilful, and neither could surprise the other in the final.",
+        "promptZh": "兩名國際象棋冠軍同樣技術高超，在決賽中誰也無法令對方措手不及。",
+        "starter": "The",
+        "answer": "The chess final was a clear case of diamond cuts diamond.",
+        "answerZh": "這場國際象棋決賽正是棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q02",
+        "number": 2,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Both students were quick thinkers. Each immediately answered the other student’s strongest argument.",
+        "promptZh": "兩名學生都反應敏捷，並立即回應對方最有力的論點。",
+        "starter": "The",
+        "answer": "The debate showed that diamond cuts diamond.",
+        "answerZh": "這場辯論顯示雙方旗鼓相當。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q03",
+        "number": 3,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The two lawyers were equally clever at finding weaknesses in an argument.",
+        "promptZh": "兩名律師同樣擅長找出論點中的弱點。",
+        "starter": "When",
+        "answer": "When the two clever lawyers met, diamond cuts diamond.",
+        "answerZh": "當兩名精明律師交鋒時，便是高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q04",
+        "number": 4,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Both negotiators were highly experienced, and each could predict the other’s offers.",
+        "promptZh": "兩名談判者都經驗豐富，並能預測對方提出的條件。",
+        "starter": "Their",
+        "answer": "Their negotiation was proof that diamond cuts diamond.",
+        "answerZh": "他們的談判證明雙方棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q05",
+        "number": 5,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The two detectives were equally good at noticing lies and hidden details.",
+        "promptZh": "兩名偵探同樣擅長識破謊言和發現隱藏細節。",
+        "starter": "Diamond",
+        "answer": "“Diamond cuts diamond” describes the contest between the two detectives.",
+        "answerZh": "「棋逢敵手」最能形容兩名偵探之間的較量。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "Diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q06",
+        "number": 6,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The two puzzle champions recognised and answered every trick the other person used.",
+        "promptZh": "兩名解難比賽冠軍都能識破並應付對方使用的每個技巧。",
+        "starter": "The",
+        "answer": "The match became a case of diamond cuts diamond.",
+        "answerZh": "這場比賽成為了一場高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q07",
+        "number": 7,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Do you think Victor can easily fool Aaron during the price talks? B: No. Aaron is every bit as clever as Victor.",
+        "promptZh": "甲：你認為維克托能在價格談判中輕易欺騙亞倫嗎？ 乙：不能。亞倫與維克托同樣精明。",
+        "starter": "As",
+        "answer": "As the saying goes, diamond cuts diamond.",
+        "answerZh": "正如諺語所說，棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q08",
+        "number": 8,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The two sales directors were equally skilled at bargaining and refused to give the other side an easy advantage.",
+        "promptZh": "兩名銷售主管同樣擅長議價，都不願輕易讓對方佔優。",
+        "starter": "The",
+        "answer": "The two sales directors gave us a perfect example of diamond cuts diamond.",
+        "answerZh": "兩名銷售主管為我們展示了一場典型的高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q09",
+        "number": 9,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "From the first question to the last, each quiz finalist matched the other’s knowledge and speed.",
+        "promptZh": "從第一條問題到最後一條問題，兩名問答比賽決賽選手的知識和速度都不相伯仲。",
+        "starter": "From",
+        "answer": "From the first question to the last, it was a case of diamond cuts diamond.",
+        "answerZh": "從第一條問題到最後一條問題，雙方一直旗鼓相當。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q10",
+        "number": 10,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The two clever card players watched each other carefully, and neither found an easy way to win.",
+        "promptZh": "兩名精明的紙牌選手都仔細觀察對方，任何一方都找不到輕易取勝的方法。",
+        "starter": "The",
+        "answer": "The competition between the two clever card players could be summed up in three words: diamond cuts diamond.",
+        "answerZh": "兩名精明紙牌選手之間的比賽可以用三個字概括：棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q11",
+        "number": 11,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Two players who are equally good at planning several moves ahead may meet in the final.",
+        "promptZh": "兩名同樣擅長預先部署多步策略的選手可能會在決賽相遇。",
+        "starter": "The",
+        "answer": "The final may become a case of diamond cuts diamond.",
+        "answerZh": "決賽可能會成為一場高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q12",
+        "number": 12,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The two experienced negotiators will meet again next week. Neither is likely to fool the other easily.",
+        "promptZh": "兩名經驗豐富的談判者下星期會再次會面，任何一方都不大可能輕易欺騙對方。",
+        "starter": "Their",
+        "answer": "Their next meeting will probably show that diamond cuts diamond.",
+        "answerZh": "他們下次會面很可能會顯示雙方棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q13",
+        "number": 13,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: Both teams can read each other’s plans almost immediately. B: Then neither team can expect an easy match.",
+        "promptZh": "甲：兩隊幾乎能立即看穿對方的計劃。 乙：那麼任何一隊都不能期望比賽容易。",
+        "starter": "The",
+        "answer": "The coach said, “Diamond cuts diamond when those two teams meet.”",
+        "answerZh": "教練說：「那兩隊相遇時，便是高手過招。」",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "Diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q14",
+        "number": 14,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The two rivals use different methods, but they are equally clever and determined.",
+        "promptZh": "兩名對手使用不同方法，但他們同樣精明而且意志堅定。",
+        "starter": "Although",
+        "answer": "Although the two rivals use different methods, the contest is still a case of diamond cuts diamond.",
+        "answerZh": "雖然兩名對手使用不同方法，這場較量仍然是棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q15",
+        "number": 15,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Each expert can recognise the other expert’s tricks, so neither person can afford to relax.",
+        "promptZh": "每名專家都能識破對方的技巧，因此任何一人都不能鬆懈。",
+        "starter": "Neither",
+        "answer": "Neither expert can relax when diamond cuts diamond.",
+        "answerZh": "當雙方高手過招時，任何一名專家都不能鬆懈。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q16",
+        "number": 16,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The interviewer said that both speakers were sharp, well prepared and able to answer every challenge.",
+        "promptZh": "訪問者表示，兩名講者都十分敏銳、準備充足，並能回應每項挑戰。",
+        "starter": "The",
+        "answer": "The interviewer described the exchange as “diamond cuts diamond”.",
+        "answerZh": "訪問者以「棋逢敵手」形容這場交鋒。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q17",
+        "number": 17,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: Every time Noah planned a clever move, Ethan immediately blocked it. B: Ethan’s moves were blocked just as quickly.",
+        "promptZh": "甲：每當諾亞部署一個巧妙行動，伊森都立即阻止。 乙：伊森的行動也同樣迅速被阻止。",
+        "starter": "What",
+        "answer": "What happened in the board game was simple: diamond cuts diamond.",
+        "answerZh": "這場桌上遊戲的情況十分簡單：雙方旗鼓相當。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q18",
+        "number": 18,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The two puzzle writers have challenged each other several times, and neither has ever gained a clear advantage.",
+        "promptZh": "兩名謎題設計者已多次互相挑戰，但任何一方都從未取得明顯優勢。",
+        "starter": "The",
+        "answer": "The two puzzle writers have repeatedly proved that diamond cuts diamond.",
+        "answerZh": "兩名謎題設計者已多次證明雙方棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q19",
+        "number": 19,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Both companies may send their best and most experienced negotiator to the meeting.",
+        "promptZh": "兩間公司都可能派出最出色和最有經驗的談判者出席會議。",
+        "starter": "If",
+        "answer": "If both companies send their best negotiator, it will be a case of diamond cuts diamond.",
+        "answerZh": "如果兩間公司都派出最出色的談判者，這將會是一場高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q20",
+        "number": 20,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Tomorrow’s debate will place the school’s two strongest and quickest thinkers against each other.",
+        "promptZh": "明天的辯論將由校內兩名最出色、反應最快的思考者互相較量。",
+        "starter": "We",
+        "answer": "We may soon see why people say diamond cuts diamond.",
+        "answerZh": "我們可能很快便會明白為甚麼人們說「棋逢敵手」。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q21",
+        "number": 21,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: Elena thinks she can confuse Samuel with a difficult question. B: She should be careful. Samuel is just as quick and clever as she is.",
+        "promptZh": "甲：埃琳娜認為她可以用一條困難問題令塞繆爾混亂。 乙：她應該小心。塞繆爾與她同樣反應敏捷而精明。",
+        "starter": "This",
+        "answer": "This could be a case of diamond cuts diamond.",
+        "answerZh": "這可能會是一場棋逢敵手的較量。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q22",
+        "number": 22,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The journalist said that whenever the two debate champions met, each one answered the other’s strongest points.",
+        "promptZh": "記者表示，每當兩名辯論冠軍相遇，雙方都能回應對方最有力的論點。",
+        "starter": "The",
+        "answer": "The journalist wrote that diamond cuts diamond whenever the two debate champions meet.",
+        "answerZh": "記者寫道，每當兩名辯論冠軍相遇，都是高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q23",
+        "number": 23,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The judge described the two lawyers as equally sharp and difficult to surprise.",
+        "promptZh": "法官形容兩名律師同樣敏銳，任何一人都很難令對方措手不及。",
+        "starter": "Diamond",
+        "answer": "“Diamond cuts diamond” was the judge’s description of the two lawyers.",
+        "answerZh": "法官以「棋逢敵手」形容兩名律師。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "Diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q24",
+        "number": 24,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The two market traders kept changing their prices and promises in an attempt to outsmart each other.",
+        "promptZh": "兩名市場商販不斷改變價格和承諾，企圖智勝對方。",
+        "starter": "The",
+        "answer": "The old saying diamond cuts diamond came to mind as the two market traders tried to outsmart each other.",
+        "answerZh": "當兩名市場商販企圖互相智勝時，「棋逢敵手」這句古老諺語便浮現腦海。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q25",
+        "number": 25,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Whenever one chess player changed strategy, the other immediately understood the new plan and responded.",
+        "promptZh": "每當其中一名國際象棋選手改變策略，另一人都立即明白新計劃並作出回應。",
+        "starter": "Their",
+        "answer": "Their careful moves made it clear that diamond cuts diamond.",
+        "answerZh": "他們小心部署的每一步都清楚顯示雙方旗鼓相當。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q26",
+        "number": 26,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Each player saw the other player’s traps before it was too late. As a result, neither gained an easy advantage.",
+        "promptZh": "每名選手都能及時識破對方的陷阱，因此任何一方都無法輕易取得優勢。",
+        "starter": "Because",
+        "answer": "Because diamond cuts diamond, neither player gained an easy advantage.",
+        "answerZh": "由於雙方棋逢敵手，任何一名選手都無法輕易取得優勢。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q27",
+        "number": 27,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The final was not one-sided. Both team captains correctly predicted the other team’s tactics.",
+        "promptZh": "決賽並非一面倒。兩隊隊長都準確預測了對方的策略。",
+        "starter": "The",
+        "answer": "The final was not one-sided; it was a case of diamond cuts diamond.",
+        "answerZh": "決賽並非一面倒，而是一場高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q28",
+        "number": 28,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: Why did the teacher use that old proverb? B: The two best debaters were equally clever and prepared.",
+        "promptZh": "甲：老師為甚麼使用那句古老諺語？ 乙：兩名最出色的辯論者同樣精明，而且準備充足。",
+        "starter": "The",
+        "answer": "The teacher used the phrase “diamond cuts diamond” to describe the two top debaters.",
+        "answerZh": "老師使用「棋逢敵手」形容兩名最出色的辯論者。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q29",
+        "number": 29,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The two mystery writers constantly try to surprise each other, but each understands the other’s methods.",
+        "promptZh": "兩名推理小說作家不斷嘗試令對方感到意外，但雙方都了解對方的方法。",
+        "starter": "This",
+        "answer": "This is exactly the kind of rivalry where diamond cuts diamond.",
+        "answerZh": "這正是一場棋逢敵手的競爭。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q30",
+        "number": 30,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "During the first round, both players predicted the other person’s plans and answered every move successfully.",
+        "promptZh": "在第一回合中，兩名選手都預測到對方的計劃，並成功回應每一步。",
+        "starter": "By",
+        "answer": "By the end of the first round, everyone knew that diamond cuts diamond.",
+        "answerZh": "第一回合結束時，所有人都知道雙方旗鼓相當。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q31",
+        "number": 31,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "One interviewer had many more years of experience, but the young candidate answered cleverly and asked equally difficult questions.",
+        "promptZh": "一名訪問者擁有多很多年的經驗，但年輕應徵者機智地回答，並提出同樣困難的問題。",
+        "starter": "Even",
+        "answer": "Even though one interviewer was more experienced, the interview became a case of diamond cuts diamond.",
+        "answerZh": "雖然其中一名訪問者經驗較豐富，這次面試仍成為一場高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q32",
+        "number": 32,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Our team captain hopes to confuse the other team, but their captain is just as clever. The plan may therefore fail.",
+        "promptZh": "我們的隊長希望令對方混亂，但對方隊長同樣精明，因此這項計劃可能會失敗。",
+        "starter": "The",
+        "answer": "The plan may fail because diamond cuts diamond in this contest.",
+        "answerZh": "這項計劃可能會失敗，因為這場比賽雙方棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q33",
+        "number": 33,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The two detectives questioned each other carefully, and each immediately recognised when the other person avoided a question.",
+        "promptZh": "兩名偵探小心地盤問對方，並立即察覺對方何時避開問題。",
+        "starter": "Their",
+        "answer": "Their exchange proved once again that diamond cuts diamond.",
+        "answerZh": "他們之間的交鋒再次證明雙方棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q34",
+        "number": 34,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The two strongest strategy teams may reach the final. Each is able to predict and answer the other team’s plans.",
+        "promptZh": "兩支策略能力最強的隊伍可能會進入決賽，雙方都能預測和應付對方的計劃。",
+        "starter": "If",
+        "answer": "If the two strongest strategy teams reach the final, spectators may witness a classic case of diamond cuts diamond.",
+        "answerZh": "如果兩支策略能力最強的隊伍進入決賽，觀眾可能會看到一場典型的高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q35",
+        "number": 35,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: Can Oliver easily persuade Rachel to accept the first price? B: Probably not. They are both highly skilled salespeople.",
+        "promptZh": "甲：奧利弗能輕易說服瑞秋接受第一個價格嗎？ 乙：大概不能。他們都是非常出色的銷售人員。",
+        "starter": "The",
+        "answer": "The manager warned that diamond cuts diamond when two skilled salespeople bargain against each other.",
+        "answerZh": "經理提醒大家，兩名出色的銷售人員互相議價時，便是棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q36",
+        "number": 36,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "At first, the audience thought one speaker would dominate the discussion. During the second answer, the other speaker showed equal skill.",
+        "promptZh": "起初，觀眾以為其中一名講者會主導討論。到了第二次回應，另一名講者顯示出同等能力。",
+        "starter": "It",
+        "answer": "It was only after the second answer that the audience realised this was a case of diamond cuts diamond.",
+        "answerZh": "直到第二次回應後，觀眾才明白這是一場高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q37",
+        "number": 37,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Both investigators were equally good at finding lies and noticing small differences in people’s stories.",
+        "promptZh": "兩名調查員同樣擅長識破謊言，並留意不同說法中的細微差異。",
+        "starter": "The",
+        "answer": "The phrase “diamond cuts diamond” fits their investigation perfectly.",
+        "answerZh": "「棋逢敵手」最能形容他們的調查較量。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q38",
+        "number": 38,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "One contestant did not perform badly. The real reason she could not dominate was that her opponent was equally strong and clever.",
+        "promptZh": "一名參賽者並非表現欠佳。她無法佔上風的真正原因，是對手與她同樣出色而精明。",
+        "starter": "Their",
+        "answer": "Their contest did not prove that one contestant was weak; it proved that diamond cuts diamond.",
+        "answerZh": "這場較量並沒有證明其中一人能力不足，而是證明雙方棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q39",
+        "number": 39,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The thief had fooled several inexperienced officers. He then met a detective who understood every trick he used.",
+        "promptZh": "這名小偷曾欺騙數名缺乏經驗的警員，後來卻遇上一名能夠識破所有手法的偵探。",
+        "starter": "As",
+        "answer": "As soon as the clever thief met the experienced detective, the story became a case of diamond cuts diamond.",
+        "answerZh": "這名精明小偷遇上經驗豐富的偵探後，故事便成為一場高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q40",
+        "number": 40,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Every time one player introduced a new plan, the other immediately found an effective answer.",
+        "promptZh": "每當其中一名選手採用新計劃，另一人都立即找到有效的應對方法。",
+        "starter": "The",
+        "answer": "The match remained close precisely because diamond cuts diamond.",
+        "answerZh": "這場比賽一直十分接近，正是因為雙方旗鼓相當。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q41",
+        "number": 41,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The editor believes that the interview may become extremely competitive if both speakers question every claim the other person makes.",
+        "promptZh": "編輯認為，如果兩名講者都質疑對方提出的每項說法，這次訪問可能會變得競爭十分激烈。",
+        "starter": "The",
+        "answer": "The editor expects the interview to become a case of diamond cuts diamond if both speakers challenge every claim.",
+        "answerZh": "編輯預計，如果兩名講者都質疑每項說法，這次訪問將成為一場高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q42",
+        "number": 42,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "In this contest, each side can predict the other side’s next move and prepare an equally clever reply.",
+        "promptZh": "在這場比賽中，雙方都能預測對方下一步，並準備同樣巧妙的回應。",
+        "starter": "In",
+        "answer": "In a contest where each side can predict the other’s next move, diamond cuts diamond.",
+        "answerZh": "在雙方都能預測對方下一步的比賽中，正是棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q43",
+        "number": 43,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The two companies have both chosen tough, experienced negotiators. The talks may therefore be difficult for both sides.",
+        "promptZh": "兩間公司都選擇了強硬而經驗豐富的談判者，因此談判對雙方而言都可能十分困難。",
+        "starter": "The",
+        "answer": "The talks could still become a case of diamond cuts diamond rather than an easy victory for either company.",
+        "answerZh": "談判仍可能成為一場高手過招，而不是其中一間公司輕易取勝。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q44",
+        "number": 44,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: Which expression would best describe two lawyers who can see through every argument and surprise? B: I would choose the old proverb about equally sharp opponents.",
+        "promptZh": "甲：哪個表達最適合形容兩名能夠識破每個論點和突襲的律師？ 乙：我會選擇那句形容雙方同樣精明的古老諺語。",
+        "starter": "Diamond",
+        "answer": "“Diamond cuts diamond” may be the fairest summary of the two lawyers’ contest.",
+        "answerZh": "「棋逢敵手」可能是對兩名律師之間較量最貼切的總結。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "Diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q45",
+        "number": 45,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The detective story works because the criminal is just as clever as the investigator, and each can predict the other’s decisions.",
+        "promptZh": "這個偵探故事之所以精彩，是因為罪犯與調查員同樣精明，並能互相預測對方的決定。",
+        "starter": "The",
+        "answer": "The detective story depends on the idea that diamond cuts diamond.",
+        "answerZh": "這個偵探故事建基於高手過招、棋逢敵手的概念。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q46",
+        "number": 46,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The first player entered the match with great confidence. However, the second player quickly matched every tactic.",
+        "promptZh": "第一名選手非常有信心地參加比賽，但第二名選手很快便成功應付每項策略。",
+        "starter": "Although",
+        "answer": "Although the first player seemed confident, the second soon showed why people say diamond cuts diamond.",
+        "answerZh": "雖然第一名選手看來信心十足，第二名選手很快便顯示出為甚麼人們會說「棋逢敵手」。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q47",
+        "number": 47,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The contest ended without a clear winner. More importantly, it showed that two brilliant strategists had finally met their equals.",
+        "promptZh": "比賽結束時沒有明確勝方。更重要的是，兩名出色的策略家終於遇上旗鼓相當的對手。",
+        "starter": "The",
+        "answer": "The final result was less important than the lesson: diamond cuts diamond.",
+        "answerZh": "最後結果不及這個教訓重要：強手終會遇上真正的強手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q48",
+        "number": 48,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "At first, both teams followed their original plans. Later, they repeatedly changed their tactics in response to each other.",
+        "promptZh": "起初，兩隊都按照原有計劃行事。後來，雙方不斷因應對方而改變策略。",
+        "starter": "Once",
+        "answer": "Once both teams began changing tactics in response to each other, it became a case of diamond cuts diamond.",
+        "answerZh": "兩隊開始因應對方改變策略後，比賽便成為一場高手過招。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q49",
+        "number": 49,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The two business rivals have competed for many years. Each is clever, determined and familiar with the other person’s methods.",
+        "promptZh": "兩名商業對手已競爭多年。雙方都十分精明、意志堅定，並熟悉對方的方法。",
+        "starter": "The",
+        "answer": "The saying diamond cuts diamond applies perfectly to their long rivalry.",
+        "answerZh": "「棋逢敵手」這句諺語完全適用於他們長久以來的競爭。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      },
+      {
+        "id": "idiom-127-q50",
+        "number": 50,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: I thought the price negotiation would be easy for our manager. B: It was, until the other company sent someone equally experienced and clever.",
+        "promptZh": "甲：我原以為價格談判對我們的經理來說會十分容易。 乙：本來的確如此，直到另一間公司派出一名同樣經驗豐富而精明的人。",
+        "starter": "What",
+        "answer": "What appeared to be an easy negotiation turned into proof that diamond cuts diamond.",
+        "answerZh": "原本看似容易的談判，最終證明雙方棋逢敵手。",
+        "targetForm": "Diamond Cuts Diamond",
+        "targetMeaning": "When two equally clever, cunning, determined or strategically skilful opponents meet, each has found a true match, so neither can easily defeat or outwit the other.",
+        "highlight": "diamond cuts diamond"
+      }
+    ]
+  }
+}

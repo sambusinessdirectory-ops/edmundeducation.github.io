@@ -1,0 +1,1658 @@
+{
+  "lesson": {
+    "id": "idiom-83",
+    "order": 83,
+    "slug": "at-the-crossroads",
+    "version": "1",
+    "title": "處於十字路口／面臨抉擇",
+    "titleEn": "at the crossroads",
+    "titleZh": "處於十字路口／面臨抉擇",
+    "source": {
+      "file": "Idiom 83 - “At the Crossroads”.pdf",
+      "pageCount": 45,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "exercisePdfPages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "answerKeyPdfPages": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "at the crossroads",
+        "highlight": "at the crossroads"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I am at the crossroads in my career.",
+        "zh": "我的事業正處於重要關頭。",
+        "highlight": "at the crossroads"
+      },
+      {
+        "en": "The school is at the crossroads.",
+        "zh": "學校正面臨重要抉擇。",
+        "highlight": "at the crossroads"
+      }
+    ],
+    "meaning": {
+      "en": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+      "zh": "處於重要而未明朗的關頭，需要決定下一步應走哪個方向。",
+      "naturalZh": [
+        "處於重要而未明朗的關頭，需要決定下一步應走哪個方向。"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral to Formal",
+      "labelZh": "中性至正式",
+      "summaryEn": "everyday conversation; workplace discussions; presentations; interviews; news and commentary; general formal writing; personal reflection.",
+      "summaryZh": "固定部分 at the crossroads",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace discussions",
+        "presentations",
+        "interviews",
+        "news and commentary",
+        "general formal writing",
+        "personal reflection",
+        "uncertainty",
+        "concern",
+        "seriousness",
+        "opportunity",
+        "hope"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "工作討論",
+        "簡報",
+        "訪問",
+        "新聞及評論",
+        "一般正式寫作",
+        "個人反思。",
+        "不確定",
+        "憂慮",
+        "嚴肅性",
+        "機遇",
+        "希望"
+      ],
+      "formalEn": "everyday conversation; workplace discussions; presentations; interviews; news and commentary; general formal writing; personal reflection.",
+      "formalZh": "簡報； 訪問； 新聞及評論； 一般正式寫作； 個人反思。"
+    },
+    "fixedVariable": {
+      "fixed": "at the crossroads",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + at the crossroads.",
+          "example": "I am at the crossroads in my career.",
+          "highlight": "at the crossroads"
+        },
+        {
+          "form": "Subject + may / might / could / will + be + at the crossroads.",
+          "example": "The project may be at the crossroads.",
+          "highlight": "at the crossroads"
+        },
+        {
+          "form": "Subject + seem(s) / appear(s) + to be + at the crossroads.",
+          "example": "Their relationship seems to be at the crossroads.",
+          "highlight": "at the crossroads"
+        },
+        {
+          "form": "Subject + stand(s) / remain(s) + at the crossroads.",
+          "example": "The hotel stands at the crossroads.",
+          "highlight": "at the crossroads"
+        },
+        {
+          "form": "Subject + find(s) / found + oneself + at the crossroads.",
+          "example": "The club finds itself at the crossroads.",
+          "highlight": "at the crossroads"
+        },
+        {
+          "form": "Cause + leave(s) / put(s) / place(s) + person or thing + at the crossroads.",
+          "example": "The sudden change left the team at the crossroads.",
+          "highlight": "at the crossroads"
+        },
+        {
+          "form": "At the crossroads, + subject + decision or action.",
+          "example": "At the crossroads, the owner must choose a new direction.",
+          "highlight": "At the crossroads"
+        },
+        {
+          "form": "With + subject + at the crossroads, + main clause.",
+          "example": "With the club at the crossroads, the members must vote.",
+          "highlight": "at the crossroads"
+        },
+        {
+          "form": "Subject + describe / view / regard + object + as being + at the crossroads.",
+          "example": "The report describes the industry as being at the crossroads.",
+          "highlight": "at the crossroads"
+        },
+        {
+          "form": "Be + subject + at the crossroads?",
+          "example": "Are we at the crossroads?",
+          "highlight": "at the crossroads"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “Be”",
+        "titleZh": "句式一：放在 be 後面",
+        "formula": "Subject + be + at the crossroads.",
+        "descriptionEn": "This is the most common and direct structure.",
+        "descriptionZh": "這是最常見、最直接的結構。",
+        "examples": [
+          {
+            "en": "I am at the crossroads in my career.",
+            "zh": "我的事業正處於重要關頭。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "The school is at the crossroads.",
+            "zh": "學校正面臨重要抉擇。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "They were at the crossroads after the plan failed.",
+            "zh": "計劃失敗後，他們正處於關鍵時刻。",
+            "highlight": "at the crossroads"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "句式二：放在情態動詞後面",
+        "formula": "Subject + may / might / could / will + be + at the crossroads.",
+        "descriptionEn": "The modal verb is part of the surrounding grammar, not part of the idiom.",
+        "descriptionZh": "情態動詞屬於外圍文法，並不是慣用語的一部分。",
+        "examples": [
+          {
+            "en": "The project may be at the crossroads.",
+            "zh": "項目可能正處於關鍵時刻。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "We could soon be at the crossroads.",
+            "zh": "我們可能很快便要面臨重要抉擇。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "The industry will be at the crossroads if demand continues to fall.",
+            "zh": "如果需求繼續下降，這個行業將面臨重要抉擇。",
+            "highlight": "at the crossroads"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “Seem” or “Appear”",
+        "titleZh": "句式三：放在 seem 或 appear 後面",
+        "formula": "Subject + seem(s) / appear(s) + to be + at the crossroads.",
+        "descriptionEn": "This pattern preserves uncertainty. It does not state the situation as a definite fact.",
+        "descriptionZh": "這個結構保留不確定性，並非把情況說成確定事實。",
+        "examples": [
+          {
+            "en": "Their relationship seems to be at the crossroads.",
+            "zh": "他們的關係似乎正處於重要關頭。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "The business appeared to be at the crossroads.",
+            "zh": "公司當時似乎正面臨關鍵抉擇。",
+            "highlight": "at the crossroads"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Stand” or “Remain”",
+        "titleZh": "句式四：放在 stand 或 remain 後面",
+        "formula": "Subject + stand(s) / remain(s) + at the crossroads.",
+        "descriptionEn": "Stand creates a vivid image of somebody or something facing different possible paths.",
+        "descriptionZh": "帶出較鮮明的畫面，像某人或某事物正面對不同道路。",
+        "examples": [
+          {
+            "en": "The hotel stands at the crossroads.",
+            "zh": "酒店正處於重要轉捩點。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "The town remained at the crossroads for several months.",
+            "zh": "這個城鎮數月來一直處於抉擇關頭。",
+            "highlight": "at the crossroads"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With “Find Oneself”",
+        "titleZh": "句式五：配合 find oneself",
+        "formula": "Subject + find(s) / found + oneself + at the crossroads.",
+        "descriptionEn": "I find myself; you find yourself; he finds himself; she finds herself; we find ourselves; they find themselves.",
+        "descriptionZh": "反身代名詞必須與主語一致。",
+        "examples": [
+          {
+            "en": "The club finds itself at the crossroads.",
+            "zh": "學會發現自己正面臨重要抉擇。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "Clara found herself at the crossroads after receiving two job offers.",
+            "zh": "收到兩份工作邀請後，發現自己正面臨重要抉擇。",
+            "highlight": "at the crossroads"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "After “Leave”, “Put” or “Place”",
+        "titleZh": "句式六：放在 leave、put 或 place 後面",
+        "formula": "Cause + leave(s) / put(s) / place(s) + person or thing + at the crossroads.",
+        "descriptionEn": "This structure explains what caused the difficult choice.",
+        "descriptionZh": "這個結構說明甚麼事情導致當事人面臨重要抉擇。",
+        "examples": [
+          {
+            "en": "The sudden change left the team at the crossroads.",
+            "zh": "突如其來的改變令團隊面臨重要抉擇。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "Rising costs have put the shop at the crossroads.",
+            "zh": "成本上升令店舖面臨關鍵抉擇。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "The new rule placed many businesses at the crossroads.",
+            "zh": "新規則令許多公司面臨重要抉擇。",
+            "highlight": "at the crossroads"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "At the Beginning of a Sentence",
+        "titleZh": "句式七：放在句首",
+        "formula": "At the crossroads, + subject + decision or action.",
+        "descriptionEn": "A comma normally follows the opening expression.",
+        "descriptionZh": "這個句首表達後面通常使用逗號。",
+        "examples": [
+          {
+            "en": "At the crossroads, the owner must choose a new direction.",
+            "zh": "處於關鍵時刻，店主必須選擇新的方向。",
+            "highlight": "At the crossroads"
+          },
+          {
+            "en": "At the crossroads in her career, Fiona must choose between two very different futures.",
+            "zh": "事業正處於重要關頭，Fiona 必須在兩個截然不同的未來之間作出選擇。",
+            "highlight": "At the crossroads"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "“With + Subject + At the Crossroads”",
+        "titleZh": "句式八",
+        "formula": "With + subject + at the crossroads, + main clause.",
+        "descriptionEn": "This structure presents the critical situation as the background for a decision.",
+        "descriptionZh": "with + 主語 + at the crossroads 這個結構把關鍵情況作為主要決定的背景。",
+        "examples": [
+          {
+            "en": "With the club at the crossroads, the members must vote.",
+            "zh": "學會正處於關鍵時刻，會員必須進行投票。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "With his career at the crossroads, Marcus returned to university.",
+            "zh": "Marcus 的事業正處於重要關頭，因此他重返大學。",
+            "highlight": "at the crossroads"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Embedded Form with “Being”",
+        "titleZh": "句式九：配合 being 的嵌入結構",
+        "formula": "Subject + describe / view / regard + object + as being + at the crossroads.",
+        "descriptionEn": "Being belongs to the surrounding grammar. The target expression remains at the crossroads.",
+        "descriptionZh": "being 屬於外圍文法。 目標表達仍然只是 at the crossroads。",
+        "examples": [
+          {
+            "en": "The report describes the industry as being at the crossroads.",
+            "zh": "報告形容這個行業正處於重要轉捩點。",
+            "highlight": "at the crossroads"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Questions",
+        "titleZh": "句式十：疑問句",
+        "formula": "Be + subject + at the crossroads?",
+        "descriptionEn": "Source grammar frame: Be + subject + at the crossroads?.",
+        "descriptionZh": "原檔列出的句法框架：Be + subject + at the crossroads?。",
+        "examples": [
+          {
+            "en": "Are we at the crossroads?",
+            "zh": "我們是否正處於重要抉擇的關頭？",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "Is the company really at the crossroads?",
+            "zh": "公司是否真的正面臨重要抉擇？",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "Why is the school at the crossroads?",
+            "zh": "學校為甚麼正處於關鍵時刻？",
+            "highlight": "at the crossroads"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses an Important Turning Point",
+        "titleZh": "表達重要轉捩點",
+        "en": "The idiom shows that a person or organisation has reached a stage where continuing without change is no longer easy.",
+        "zh": "這個慣用語說明某人或某個組織已來到重要階段，難以毫無改變地繼續下去。 公司正處於重要抉擇的關頭。",
+        "examples": [
+          {
+            "en": "The company is at the crossroads.",
+            "zh": "公司正處於重要抉擇的關頭。",
+            "highlight": "at the crossroads"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Creates a Clear Mental Image",
+        "titleZh": "建立清晰畫面",
+        "en": "A traveller at a real crossroads must choose which road to follow. The idiom applies the same image to an important life or organisational decision.",
+        "zh": "旅人在真正的十字路口必須選擇道路。 這個慣用語把相同畫面應用於人生或組織的重要決定。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Introduce Competing Choices",
+        "titleZh": "可以引出不同選項",
+        "en": "The expression works naturally before an explanation of two possible directions.",
+        "zh": "這個表達可以自然地引出兩個可能方向。 學會正面臨維持小規模還是接納更多會員的重要抉擇。",
+        "examples": [
+          {
+            "en": "The club is at the crossroads between remaining small and accepting more members.",
+            "zh": "學會正面臨維持小規模還是接納更多會員的重要抉擇。",
+            "highlight": "at the crossroads"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Works for Both People and Organisations",
+        "titleZh": "同時適用於個人及組織",
+        "en": "It Works for Both People and Organisations",
+        "zh": "Fiona 的事業正處於重要關頭。 醫院正面臨有關未來的重要抉擇。",
+        "examples": [
+          {
+            "en": "Fiona is at the crossroads in her career.",
+            "zh": "Fiona 的事業正處於重要關頭。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "The hospital is at the crossroads over its future.",
+            "zh": "醫院正面臨有關未來的重要抉擇。",
+            "highlight": "at the crossroads"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Express Uncertainty Without Saying the",
+        "titleZh": "可以表達不確定，但不一定表示結果負面",
+        "en": "The idiom does not predict failure. It simply highlights that the next decision matters.",
+        "zh": "這個慣用語並不預言失敗，只是強調下一項決定十分重要。 她收到兩份優厚的邀請，因此正面臨重要抉擇。",
+        "examples": [
+          {
+            "en": "She is at the crossroads because she has received two excellent offers.",
+            "zh": "她收到兩份優厚的邀請，因此正面臨重要抉擇。",
+            "highlight": "at the crossroads"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Provides Several Natural Grammar Shells",
+        "titleZh": "提供多種自然句法框架",
+        "en": "This creates genuine sentence variety without changing the target expression.",
+        "zh": "這些句式在不改變目標表達的情況下，提供真正的句法變化。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Metaphorical Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成的比喻用法；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The English noun crossroad was recorded as a road term in the late seventeenth century. Historical word records trace the figurative meaning of a turning point or moment of decision to the eighteenth century. The exact first speaker and first idiomatic use cannot be identified confidently.",
+          "zh": "英語名詞 crossroad 在十七世紀後期已有道路相關記錄。 歷史詞源資料把「轉捩點」或「作決定的時刻」這個比喻意思追溯至十八世紀。 不過，我們無法有把握地確定第一位使用者或確切首次慣用語用例。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The development is straightforward. A person standing where several roads separate cannot continue without choosing a direction. Speakers gradually applied this physical situation to careers, relationships, businesses and public decisions.",
+          "zh": "意思演變十分直接。 站在數條道路分開之處的人，不能在不選擇方向的情況下繼續前進。 說話者後來逐漸把這個實際情況應用於事業、關係、公司及公共決定。"
+        }
+      ],
+      "memoryEn": "Different roads lead to different destinations; different decisions lead to different futures.",
+      "memoryZh": "不同道路通往不同目的地；不同決定帶來不同未來。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "It Must Be an Important Decision",
+        "titleZh": "規則一：必須涉及重要決定",
+        "en": "Choosing a drink is usually too minor to justify the idiom. A humorous speaker might deliberately exaggerate, but humorous exaggeration is not taught in this exercise.",
+        "zh": "正面臨到外國工作還是留在家人身邊的重要抉擇。 正面臨點茶還是咖啡的抉擇。 選擇飲品通常太微不足道，不足以使用這個慣用語。 說話者有時可能故意誇張以製造幽默效果，但本練習不教授這種用法。",
+        "examples": [
+          {
+            "en": "Eric is at the crossroads between accepting a job abroad and staying near his family.",
+            "zh": "正面臨到外國工作還是留在家人身邊的重要抉擇。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "Eric is at the crossroads between ordering tea and ordering coffee.",
+            "zh": "正面臨點茶還是咖啡的抉擇。",
+            "highlight": "at the crossroads"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "More Than One Future Direction Must Be Possible",
+        "titleZh": "規則二：未來必須有多於一個可能方向",
+        "en": "More Than One Future Direction Must Be Possible",
+        "zh": "學校必須決定維修舊校舍還是搬往其他地方，正面臨重要抉擇。 學校已作出選擇，因此已不再處於抉擇關頭。",
+        "examples": [
+          {
+            "en": "The school is at the crossroads.",
+            "zh": "學校必須決定維修舊校舍還是搬往其他地方，正面臨重要抉擇。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "The choice has already been made, so the school is no longer at the crossroads.",
+            "zh": "學校已作出選擇，因此已不再處於抉擇關頭。",
+            "highlight": "at the crossroads"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Use It Merely for a Difficult Situation",
+        "titleZh": "規則三：不要只因情況困難便使用",
+        "en": "The shop is losing money and must choose between closing and changing its business. The shop was very busy today. The second sentence contains no important choice about the future.",
+        "zh": "店舖正在虧蝕，必須在結業和改變經營方式之間作出選擇。 店舖今天十分繁忙。 第二句並沒有涉及對未來的重要選擇。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Expression Can Be Positive or Negative",
+        "titleZh": "規則四：表達可以是正面或負面",
+        "en": "The idiom describes the importance of the choice, not whether every option is bad.",
+        "zh": "公司失去最大顧客後，正處於令人擔憂的關鍵時刻。 收到兩份優厚的工作邀請後，正面臨重要抉擇。 這個慣用語描述選擇的重要性，而不是表示所有選項都不好。",
+        "examples": [
+          {
+            "en": "The company is at the crossroads after losing its biggest customer.",
+            "zh": "公司失去最大顧客後，正處於令人擔憂的關鍵時刻。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "After receiving two excellent job offers, Clara finds herself at the crossroads.",
+            "zh": "收到兩份優厚的工作邀請後，正面臨重要抉擇。",
+            "highlight": "at the crossroads"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "“At a Crossroads” Is Also Natural",
+        "titleZh": "規則五：at a crossroads 亦屬自然用法",
+        "en": "Therefore, every answer must use the. at the crossroads",
+        "zh": "不過，本練習的指定目標是： 因此，所有答案都必須使用 the。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“Reach a Crossroads” Is Related but Not the",
+        "titleZh": "規則六",
+        "en": "Target She has reached a crossroads in her career.",
+        "zh": "reach a crossroads 意思相關但不是指定答案規則六：reach a crossroads 意思相關但不是指定答案 Natural English: 她的事業已來到重要關頭。 她的事業正處於重要關頭。",
+        "examples": [
+          {
+            "en": "She is at the crossroads in her career.",
+            "zh": "她的事業正處於重要關頭。",
+            "highlight": "at the crossroads"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Confuse It with the Meeting of Two Fields",
+        "titleZh": "規則七：不要與兩個領域的交匯混淆",
+        "en": "being at a point where an important direction must be chosen It does not teach the separate use in which crossroads simply describes where subjects, cultures or fields meet.",
+        "zh": "本練習教授： 本練習不教授 crossroads 純粹表示學科、文化或領域交匯點的另一種用法。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Optional Information Is Not Fixed",
+        "titleZh": "規則八：額外資料並不是固定部分",
+        "en": "The company is at the crossroads. What are the choices? Do not teach the whole sentence as though between A and B were compulsory.",
+        "zh": "以下句子亦屬完整： between staying small and expanding 是可選延伸部分，用來回答： 不要把整個句子視為固定形式，令人誤以為 between A and B 是必須部分。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則九：保留時態及確定程度",
+        "en": "Do not change may be into is. That would turn a possibility into a fact.",
+        "zh": "不要把 may be 改成 is，否則會把可能性變成確定事實。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Avoid Accidental Literal Meanings",
+        "titleZh": "規則十：避免意外產生字面意思",
+        "en": "In this exercise, every answer must use the figurative decision-point meaning.",
+        "zh": "我們在十字路口停下來查看地圖。 我們正處於關鍵時刻，必須決定項目的未來。 在本練習中，所有答案都必須使用「面臨重要抉擇」的比喻意思。",
+        "examples": [
+          {
+            "en": "We stopped at the crossroads and checked the map.",
+            "zh": "我們在十字路口停下來查看地圖。",
+            "highlight": "at the crossroads"
+          },
+          {
+            "en": "We were at the crossroads and had to choose the future of the project.",
+            "zh": "我們正處於關鍵時刻，必須決定項目的未來。",
+            "highlight": "at the crossroads"
+          }
+        ]
+      }
+    ],
+    "instructions": {
+      "en": "Every answer must contain the exact target expression.",
+      "zh": "使用 at the crossroads 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-83-q01",
+        "number": 1,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "I have to choose between becoming a teacher and working as a designer. This choice could shape my whole career.",
+        "promptZh": "我必須在成為老師和從事設計工作之間作出選擇。這項選擇可能會影響我的整個事業。",
+        "starter": "I",
+        "answer": "I am at the crossroads in my career and must choose between teaching and design.",
+        "answerZh": "我的事業正處於重要關頭，必須在教學和設計工作之間作出選擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q02",
+        "number": 2,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The family must make an important choice: move abroad or remain where it is.",
+        "promptZh": "這個家庭必須作出重要選擇：移居外國還是留在原居地。",
+        "starter": "The",
+        "answer": "The family is at the crossroads over whether to move abroad or stay.",
+        "answerZh": "這個家庭正面臨移居外國還是留下的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q03",
+        "number": 3,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Our school has reached an important stage. It must choose between keeping examinations and using project work.",
+        "promptZh": "我們的學校已來到重要階段，必須選擇保留考試還是採用專題習作。",
+        "starter": "Our",
+        "answer": "Our school is at the crossroads between keeping exams and using project work.",
+        "answerZh": "我們的學校正面臨保留考試還是採用專題習作的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q04",
+        "number": 4,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Daniel must choose between accepting the job and continuing his studies. Either choice will change his future.",
+        "promptZh": "Daniel 必須選擇接受工作還是繼續學業。任何一個選擇都會改變他的未來。",
+        "starter": "Daniel",
+        "answer": "Daniel stands at the crossroads between accepting the job and continuing his studies.",
+        "answerZh": "Daniel 正面臨接受工作還是繼續學業的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q05",
+        "number": 5,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The café has lost money for six months and must now make a major decision about its future.",
+        "promptZh": "咖啡店已虧蝕六個月，現在必須就未來作出重大決定。",
+        "starter": "After",
+        "answer": "After six months of losses, the café is at the crossroads.",
+        "answerZh": "虧蝕六個月後，咖啡店正處於決定未來方向的關鍵時刻。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q06",
+        "number": 6,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "We have reached the point where we must choose one of the two plans.",
+        "promptZh": "我們已來到必須從兩個計劃中選擇一個的關頭。",
+        "starter": "We",
+        "answer": "We are at the crossroads and need to choose one of the two plans.",
+        "answerZh": "我們正處於抉擇關頭，需要從兩個計劃中選擇一個。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q07",
+        "number": 7,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The record company has ended her contract, so the future of her music career now depends on an important choice.",
+        "promptZh": "唱片公司已終止她的合約，因此她的音樂事業未來取決於一項重要選擇。",
+        "starter": "Her",
+        "answer": "Her music career is at the crossroads after the record company ended her contract.",
+        "answerZh": "唱片公司終止她的合約後，她的音樂事業正處於重要關頭。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q08",
+        "number": 8,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The club must now make an important decision about whether and how it should continue.",
+        "promptZh": "學會現在必須就是否繼續及如何繼續作出重要決定。",
+        "starter": "The",
+        "answer": "The club now finds itself at the crossroads over its future.",
+        "answerZh": "學會現在發現自己正面臨有關未來的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q09",
+        "number": 9,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "An unexpected result has forced the team into a situation where it must choose a new direction.",
+        "promptZh": "一個意外結果令團隊陷入必須選擇新方向的情況。",
+        "starter": "This",
+        "answer": "This unexpected result has left the team at the crossroads.",
+        "answerZh": "這個意外結果令團隊面臨決定未來方向的關鍵時刻。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q10",
+        "number": 10,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The shop owner must now choose between closing the business and beginning to sell online.",
+        "promptZh": "店主現在必須選擇結業還是開始在網上銷售。",
+        "starter": "At",
+        "answer": "At the crossroads, the shop owner must decide whether to close or begin selling online.",
+        "answerZh": "處於關鍵時刻，店主必須決定結業還是開始在網上銷售。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "At the crossroads"
+      },
+      {
+        "id": "idiom-83-q11",
+        "number": 11,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Ben has worked in the same job for ten years. He now feels that he must decide whether to stay or make a major change.",
+        "promptZh": "本在同一份工作做了十年。他現在覺得自己必須決定留下還是作出重大改變。",
+        "starter": "After",
+        "answer": "After ten years in the same job, Ben feels that he is at the crossroads in his working life.",
+        "answerZh": "在同一份工作做了十年後，本覺得自己的職業生涯正處於重要關頭。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q12",
+        "number": 12,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "If the project’s main supporter leaves, the project may reach a stage where its future depends on a major decision.",
+        "promptZh": "如果項目的主要支持者離開，項目可能會來到未來取決於重大決定的階段。",
+        "starter": "The",
+        "answer": "The project may be at the crossroads if its main supporter leaves.",
+        "answerZh": "如果主要支持者離開，這個項目可能會面臨重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q13",
+        "number": 13,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "After months of disagreement, the couple must decide whether to repair or end their relationship.",
+        "promptZh": "經過數月的爭執，這對伴侶必須決定修補還是結束關係。",
+        "starter": "Their",
+        "answer": "Their relationship seems to be at the crossroads after months of disagreement.",
+        "answerZh": "經過數月的爭執，他們的關係似乎正處於重要關頭。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q14",
+        "number": 14,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "We may soon have to choose between repairing the old building and finding a new one.",
+        "promptZh": "我們可能很快便要選擇維修舊建築還是尋找新地方。",
+        "starter": "We",
+        "answer": "We could soon be at the crossroads between repairing the old building and finding a new one.",
+        "answerZh": "我們可能很快便要面臨維修舊建築還是尋找新地方的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q15",
+        "number": 15,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The company has faced an uncertain future and difficult choices since its largest customer left.",
+        "promptZh": "自從最大顧客離開後，公司一直面對未明朗的未來和艱難選擇。",
+        "starter": "Since",
+        "answer": "Since its largest customer left, the company has been at the crossroads.",
+        "answerZh": "自從最大顧客離開後，公司一直處於決定未來方向的關鍵時刻。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q16",
+        "number": 16,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "By next month, the town may have to choose between keeping the old market and replacing it.",
+        "promptZh": "到下個月，這個城鎮可能必須選擇保留還是取代舊市場。",
+        "starter": "By",
+        "answer": "By next month, the town may be at the crossroads over the future of the old market.",
+        "answerZh": "到下個月，這個城鎮可能要就舊市場的未來面臨重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q17",
+        "number": 17,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Costs have suddenly risen, forcing the small business to choose between raising prices and reducing its opening hours.",
+        "promptZh": "成本突然上升，迫使這間小公司選擇加價還是縮短營業時間。",
+        "starter": "The",
+        "answer": "The sudden rise in costs has put the small business at the crossroads between raising prices and reducing its opening hours.",
+        "answerZh": "成本突然上升，令這間小公司面臨加價還是縮短營業時間的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q18",
+        "number": 18,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The team must make a major choice, but it still has several good options.",
+        "promptZh": "團隊必須作出重大選擇，但仍有數個不錯的選項。",
+        "starter": "Although",
+        "answer": "Although the team is at the crossroads, it still has several good options.",
+        "answerZh": "雖然團隊正面臨重要抉擇，但仍有數個不錯的選項。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q19",
+        "number": 19,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Has the newspaper really reached a stage where it must choose a new direction, or can it continue as before?",
+        "promptZh": "這份報章是否真的已來到必須選擇新方向的階段，還是可以照舊運作？",
+        "starter": "Is",
+        "answer": "Is the newspaper really at the crossroads, or can it continue as before?",
+        "answerZh": "這份報章是否真的正處於重要轉捩點，還是可以照舊運作？",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q20",
+        "number": 20,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The school has now reached an important point and its leaders must choose a clear direction.",
+        "promptZh": "學校現已來到重要關頭，校方必須選擇清晰方向。",
+        "starter": "Now",
+        "answer": "Now that the school is at the crossroads, its leaders must choose a clear direction.",
+        "answerZh": "學校現在正處於關鍵時刻，校方必須選擇清晰方向。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q21",
+        "number": 21,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: Have you decided whether to take the office job or work from home? B: Not yet. Both choices could completely change my daily life.",
+        "promptZh": "甲：你決定接受辦公室工作還是在家工作了嗎？ 乙：還未。兩個選擇都可能完全改變我的日常生活。",
+        "starter": "Not",
+        "answer": "Not yet. I am at the crossroads between taking the office job and working from home.",
+        "answerZh": "還未決定。我正面臨接受辦公室工作還是在家工作的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q22",
+        "number": 22,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: Why has Clara not chosen a university course? B: Both courses suit her, and the choice could affect her future career.",
+        "promptZh": "甲：Clara 為甚麼仍未選擇大學課程？ 乙：兩個課程都適合她，而這項選擇可能影響她未來的事業。",
+        "starter": "Clara",
+        "answer": "Clara finds herself at the crossroads because both university courses suit her.",
+        "answerZh": "Clara 發現自己正面臨重要抉擇，因為兩個大學課程都適合她。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q23",
+        "number": 23,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: What important choice does the hotel face? B: It must either repair the old building or close permanently.",
+        "promptZh": "甲：酒店正面臨甚麼重要選擇？ 乙：酒店必須選擇維修舊建築還是永久結業。",
+        "starter": "The",
+        "answer": "The hotel stands at the crossroads: it must either repair the building or close.",
+        "answerZh": "酒店正處於重要關頭：它必須選擇維修建築還是結業。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q24",
+        "number": 24,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: Why must the sports club members vote? B: The club must choose between moving to a new location and remaining where it is.",
+        "promptZh": "甲：體育會會員為甚麼必須投票？ 乙：體育會必須選擇搬往新地點還是留在原址。",
+        "starter": "With",
+        "answer": "With the sports club at the crossroads, the members must decide whether to move or stay.",
+        "answerZh": "體育會正處於關鍵時刻，會員必須決定搬遷還是留在原址。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q25",
+        "number": 25,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A new rule means that many small shops must choose between paying for major changes and closing.",
+        "promptZh": "新規則令許多小店必須選擇花錢作出重大改動還是結業。",
+        "starter": "The",
+        "answer": "The new rule has placed many small shops at the crossroads between paying for changes and closing.",
+        "answerZh": "新規則令許多小店面臨花錢作出改動還是結業的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q26",
+        "number": 26,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Aaron had to choose between going to university and beginning full-time work. He asked his family for advice.",
+        "promptZh": "Aaron 必須選擇升讀大學還是開始全職工作。他向家人尋求意見。",
+        "starter": "At",
+        "answer": "At the crossroads between university and full-time work, Aaron asked his family for advice.",
+        "answerZh": "面臨升讀大學還是開始全職工作的重要抉擇，Aaron 向家人尋求意見。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "At the crossroads"
+      },
+      {
+        "id": "idiom-83-q27",
+        "number": 27,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A: Why has the charity not made its plans for next year? B: It is waiting to learn whether its main supporter will continue giving money.",
+        "promptZh": "甲：慈善機構為甚麼仍未制訂明年的計劃？ 乙：它正在等待主要支持者會否繼續捐款。",
+        "starter": "The",
+        "answer": "The charity remains at the crossroads while it waits to learn whether its main supporter will continue giving money.",
+        "answerZh": "慈善機構在等待主要支持者會否繼續捐款期間，仍處於重要抉擇的關頭。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q28",
+        "number": 28,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A: Is the app still successful? B: Yes, but its owners must now choose between keeping it small and making it much larger.",
+        "promptZh": "甲：這個應用程式仍然成功嗎？ 乙：是的，但持有人現在必須選擇維持小規模還是大幅擴展。",
+        "starter": "Nobody",
+        "answer": "Nobody expected the successful app to be at the crossroads between staying small and growing only two years after its launch.",
+        "answerZh": "沒有人預料到，這個成功的應用程式推出僅兩年便要面臨維持小規模還是擴展的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q29",
+        "number": 29,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Town leaders say the bus service has reached a stage where they must either improve it or end it.",
+        "promptZh": "鎮上主管表示，巴士服務已來到必須改善或結束的階段。",
+        "starter": "The",
+        "answer": "The town leaders believe the bus service is at the crossroads: they must either improve it or end it.",
+        "answerZh": "鎮上主管認為巴士服務正處於重要關頭：他們必須選擇改善還是結束服務。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q30",
+        "number": 30,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A: What will happen if the first test of the hospital system fails? B: The hospital will have to decide whether to improve the system or replace it.",
+        "promptZh": "甲：如果醫院系統的首次測試失敗，會發生甚麼事？ 乙：醫院必須決定改善還是取代該系統。",
+        "starter": "If",
+        "answer": "If the first test fails, the hospital will be at the crossroads over whether to improve or replace the system.",
+        "answerZh": "如果首次測試失敗，醫院將面臨改善還是取代系統的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q31",
+        "number": 31,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Although Priya had planned to stay, a job offer abroad forced her to make an important choice about her future.",
+        "promptZh": "雖然 Priya 原本打算留下，但一份海外工作邀請迫使她就未來作出重要選擇。",
+        "starter": "Although",
+        "answer": "Although Priya had planned to stay, a job offer abroad left her at the crossroads.",
+        "answerZh": "雖然 Priya 原本打算留下，但一份海外工作邀請令她面臨重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q32",
+        "number": 32,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The museum reached an important point in its history and chose to allow children to enter free of charge.",
+        "promptZh": "博物館來到歷史上的重要關頭，並選擇讓兒童免費入場。",
+        "starter": "At",
+        "answer": "At the crossroads in its history, the museum chose to become free for children.",
+        "answerZh": "博物館正處於歷史上的重要轉捩點，因此選擇讓兒童免費入場。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "At the crossroads"
+      },
+      {
+        "id": "idiom-83-q33",
+        "number": 33,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The business appeared to have reached an important decision point, yet its owners still refused to discuss its future.",
+        "promptZh": "公司似乎已來到重要的抉擇關頭，但持有人仍拒絕討論其未來。",
+        "starter": "The",
+        "answer": "The business appeared to be at the crossroads, yet the owners still refused to discuss its future.",
+        "answerZh": "公司似乎正處於重要轉捩點，但持有人仍拒絕討論其未來。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q34",
+        "number": 34,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Neither choice could be delayed any longer. We had finally reached the point where a direction had to be chosen.",
+        "promptZh": "兩個選擇都不能再拖延。我們終於來到必須選擇方向的關頭。",
+        "starter": "Having",
+        "answer": "Having reached a point where neither choice could be delayed, we were at the crossroads.",
+        "answerZh": "由於兩個選擇都不能再拖延，我們正處於必須作出抉擇的關頭。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q35",
+        "number": 35,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The team may not understand that it has reached a critical stage until its best players begin to leave.",
+        "promptZh": "團隊可能要到最優秀的球員開始離開時，才明白自己已來到關鍵階段。",
+        "starter": "The",
+        "answer": "The team may not realise that it is at the crossroads until its best players begin to leave.",
+        "answerZh": "團隊可能要到最優秀的球員開始離開時，才明白自己正處於重要轉捩點。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q36",
+        "number": 36,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Marcus had to make a major choice about his career, so he decided to return to university.",
+        "promptZh": "Marcus 必須就事業作出重大選擇，因此決定重返大學。",
+        "starter": "With",
+        "answer": "With his career at the crossroads, Marcus decided to return to university.",
+        "answerZh": "Marcus 的事業正處於重要關頭，因此他決定重返大學。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q37",
+        "number": 37,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Poor sales have forced the bookshop to choose between closing and changing the way it operates.",
+        "promptZh": "銷售欠佳迫使書店選擇結業還是改變經營方式。",
+        "starter": "Poor",
+        "answer": "Poor sales have left the bookshop at the crossroads between closing and changing its business.",
+        "answerZh": "銷售欠佳令書店面臨結業還是改變經營方式的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q38",
+        "number": 38,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A: Why do you think we have reached such an important decision point? B: The old plan has failed, but a better opportunity may also have appeared.",
+        "promptZh": "甲：你為甚麼認為我們已來到如此重要的抉擇關頭？ 乙：舊計劃已失敗，但也可能出現了一個更好的機會。",
+        "starter": "Are",
+        "answer": "Are we at the crossroads because the old plan has failed, or because a better opportunity has appeared?",
+        "answerZh": "我們正處於重要抉擇的關頭，是因為舊計劃失敗，還是因為出現了更好的機會？",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q39",
+        "number": 39,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The town could not move forward until residents chose between building a new road and keeping the public park.",
+        "promptZh": "居民必須在興建新道路和保留公園之間作出選擇，城鎮才能繼續發展。",
+        "starter": "The",
+        "answer": "The town remained at the crossroads until residents chose between the new road and the public park.",
+        "answerZh": "在居民就興建新道路還是保留公園作出選擇前，這個城鎮一直處於抉擇關頭。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q40",
+        "number": 40,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "When an organisation must make a decision that could shape its future, it needs honest information rather than a choice made in panic.",
+        "promptZh": "當一個組織必須作出可能影響未來的決定時，它需要真實資料，而不是在恐慌中作出選擇。",
+        "starter": "At",
+        "answer": "At the crossroads, an organisation needs honest information rather than a decision made in panic.",
+        "answerZh": "處於關鍵時刻，一個組織需要真實資料，而不是在恐慌中作出的決定。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "At the crossroads"
+      },
+      {
+        "id": "idiom-83-q41",
+        "number": 41,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "At first, not having enough workers seemed like a small problem. It has now forced the whole hospital to choose between reducing services and hiring more staff.",
+        "promptZh": "起初，員工不足似乎只是小問題。現在，整間醫院被迫選擇削減服務還是增聘人手。",
+        "starter": "What",
+        "answer": "What first looked like a small worker shortage has put the whole hospital at the crossroads between cutting services and hiring more staff.",
+        "answerZh": "起初看似輕微的員工不足問題，令整間醫院面臨削減服務還是增聘人手的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q42",
+        "number": 42,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The school has not yet reached the stage where a major decision is unavoidable. However, falling student numbers may soon force one.",
+        "promptZh": "學校尚未來到無法避免重大決定的階段。不過，學生人數下降可能很快便會迫使校方作出決定。",
+        "starter": "The",
+        "answer": "The school is not yet at the crossroads, but falling student numbers may soon force a major decision.",
+        "answerZh": "學校尚未處於必須作出重大抉擇的關頭，但學生人數下降可能很快便會迫使校方作出決定。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q43",
+        "number": 43,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "Both business partners rejected the old plan. Only then did they understand that they had to choose between closing and starting again.",
+        "promptZh": "兩名生意夥伴都拒絕舊計劃。他們到那時才明白，必須選擇結業還是重新開始。",
+        "starter": "Only",
+        "answer": "Only after both partners rejected the old plan did they realise that the business was at the crossroads between closing and starting again.",
+        "answerZh": "兩名夥伴都拒絕舊計劃後，才明白公司正面臨結業還是重新開始的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q44",
+        "number": 44,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "A report says the fishing village must choose between protecting its traditions and welcoming more visitors.",
+        "promptZh": "報告指出，這個漁村必須選擇保護傳統還是接待更多遊客。",
+        "starter": "The",
+        "answer": "The report describes the fishing village as being at the crossroads between protecting its traditions and welcoming more visitors.",
+        "answerZh": "報告形容這個漁村正面臨保護傳統還是接待更多遊客的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q45",
+        "number": 45,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "The setback has not ended the project. Instead, it has forced us to choose between delaying it and changing its goal.",
+        "promptZh": "這次挫折並沒有令項目結束，反而迫使我們選擇延遲項目還是改變目標。",
+        "starter": "Instead",
+        "answer": "Instead of ending the project, the setback has simply placed us at the crossroads between delaying it and changing its goal.",
+        "answerZh": "這次挫折並沒有令項目結束，只是令我們面臨延遲項目還是改變目標的重要抉擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q46",
+        "number": 46,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "A: In your opinion, what stage has the industry reached? B: It must now choose between continuing with old methods and using new technology.",
+        "promptZh": "甲：你認為這個行業已來到甚麼階段？ 乙：它現在必須選擇繼續採用舊方法還是使用新科技。",
+        "starter": "I",
+        "answer": "I would say the industry is at the crossroads because it must choose between old methods and new technology.",
+        "answerZh": "我會說這個行業正處於重要轉捩點，因為它必須在舊方法和新科技之間作出選擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q47",
+        "number": 47,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "The company’s future may depend on the choice it makes at this critical stage. It could either grow or close.",
+        "promptZh": "公司的未來可能取決於它在這個關鍵階段所作的選擇。它可能擴展，也可能結業。",
+        "starter": "Whether",
+        "answer": "Whether the company grows or closes may depend on the choice it makes while at the crossroads.",
+        "answerZh": "公司最終擴展還是結業，可能取決於它在這個關鍵時刻所作的選擇。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q48",
+        "number": 48,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "Fiona has reached an important point in her career. She must decide whether to lead the present team or start her own business.",
+        "promptZh": "Fiona 的事業已來到重要關頭。她必須決定領導現有團隊還是開設自己的公司。",
+        "starter": "At",
+        "answer": "At the crossroads in her career, Fiona must decide whether to lead the team or start her own business.",
+        "answerZh": "Fiona 的事業正處於重要關頭，她必須決定領導團隊還是開設自己的公司。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "At the crossroads"
+      },
+      {
+        "id": "idiom-83-q49",
+        "number": 49,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "A: Why can the community centre not decide its future? B: The two groups still disagree and have not developed a shared plan.",
+        "promptZh": "甲：社區中心為甚麼無法決定未來？ 乙：兩個組別仍有分歧，尚未制訂共同計劃。",
+        "starter": "The",
+        "answer": "The community centre will remain at the crossroads unless the two groups agree on a shared plan.",
+        "answerZh": "除非兩個組別就共同計劃達成共識，否則社區中心將繼續處於抉擇關頭。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      },
+      {
+        "id": "idiom-83-q50",
+        "number": 50,
+        "sourcePage": 37,
+        "sourcePages": [
+          37
+        ],
+        "answerSourcePage": 44,
+        "answerSourcePages": [
+          44
+        ],
+        "prompt": "The country must choose its future direction, and the result of the next election will strongly influence that choice.",
+        "promptZh": "國家必須選擇未來方向，而下一次選舉的結果將大大影響這項選擇。",
+        "starter": "With",
+        "answer": "With the country at the crossroads, the next election will decide which direction it takes.",
+        "answerZh": "國家正處於重要轉捩點，下一次選舉將決定其未來方向。",
+        "targetForm": "at the crossroads",
+        "targetMeaning": "To be at an important and uncertain stage when a person, group, organisation or situation must choose which direction to take.",
+        "highlight": "at the crossroads"
+      }
+    ]
+  }
+}

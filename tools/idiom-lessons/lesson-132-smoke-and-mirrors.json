@@ -1,0 +1,1634 @@
+{
+  "lesson": {
+    "id": "idiom-132",
+    "order": 132,
+    "slug": "smoke-and-mirrors",
+    "version": "1",
+    "title": "煙幕／障眼法",
+    "titleEn": "smoke and mirrors",
+    "titleZh": "煙幕／障眼法",
+    "source": {
+      "file": "Idiom 132 -「Smoke and Mirrors」.pdf",
+      "pageCount": 34,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "exercisePdfPages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "answerKeyPdfPages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "smoke and mirrors",
+        "highlight": "smoke and mirrors"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The impressive promise was smoke and mirrors.",
+        "zh": "那項看似吸引的承諾只是一場障眼法。",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "en": "The sudden improvement is smoke and mirrors.",
+        "zh": "這項突然出現的改善只是虛假包裝。",
+        "highlight": "smoke and mirrors"
+      }
+    ],
+    "meaning": {
+      "en": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+      "zh": "Smoke and mirrors 指利用誤導性說法、表面功夫或巧妙手段掩蓋真相，令某件事看起來比實際上更好、更成功或更真實。",
+      "naturalZh": [
+        "Smoke and mirrors 指利用誤導性說法、表面功夫或巧妙手段掩蓋真相，令某件事看起來比實際上更好、更成功或更真實。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "Cambridge and Collins label the expression mainly American, although it is also established and readily understood in British English. The expression usually carries criticism, doubt or accusation. 性語域,常見於日常對話、新聞評論、商業評論、廣告分析、產品評論及較輕鬆的工作 交流。",
+      "summaryZh": "使用這個表達可能會令人感到你在指責對方有意誤導。 因此，不應只因自己不完全明白某項解釋便使用它。",
+      "contextsEn": [
+        "conversation",
+        "journalism",
+        "political or business commentary",
+        "reviews",
+        "discussions of advertising",
+        "workplace criticism",
+        "informal reports or presentations",
+        "linking verbs",
+        "modal verbs",
+        "degree words",
+        "determiners",
+        "reporting verbs"
+      ],
+      "contextsZh": [
+        "批評",
+        "懷疑",
+        "不信任",
+        "揭露",
+        "警告",
+        "輕微諷刺。",
+        "連繫動詞",
+        "情態動詞",
+        "程度字詞",
+        "限定詞",
+        "引述動詞",
+        "介詞"
+      ],
+      "formalEn": "conversation; journalism; political or business commentary; reviews; discussions of advertising; workplace criticism; informal reports or presentations.",
+      "formalZh": "使用這個表達可能會令人感到你在指責對方有意誤導。 因此，不應只因自己不完全明白某項解釋便使用它。"
+    },
+    "fixedVariable": {
+      "fixed": "smoke and mirrors",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + smoke and mirrors.",
+          "example": "The impressive promise was smoke and mirrors.",
+          "highlight": "smoke and mirrors"
+        },
+        {
+          "form": "Subject + be + all / just / mostly / merely / nothing but / little more than + smoke and mirrors.",
+          "example": "The announcement was all smoke and mirrors.",
+          "highlight": "smoke and mirrors"
+        },
+        {
+          "form": "Subject + may / might / could + be + smoke and mirrors.",
+          "example": "The impressive figures may be smoke and mirrors.",
+          "highlight": "smoke and mirrors"
+        },
+        {
+          "form": "Subject + use / employ / create + smoke and mirrors.",
+          "example": "The seller used smoke and mirrors to hide the real price.",
+          "highlight": "smoke and mirrors"
+        },
+        {
+          "form": "Behind / beneath / beyond + the smoke and mirrors, + reality.",
+          "example": "Behind the smoke and mirrors, the product had very little to offer.",
+          "highlight": "smoke and mirrors"
+        },
+        {
+          "form": "a smoke-and-mirrors + noun",
+          "example": "The company used a smoke-and-mirrors tactic.",
+          "highlight": "smoke-and-mirrors"
+        },
+        {
+          "form": "Smoke and mirrors + modal verb + main verb.",
+          "example": "Smoke and mirrors cannot replace real results.",
+          "highlight": "Smoke and mirrors"
+        },
+        {
+          "form": "a smoke-and-mirrors + noun.",
+          "example": "The new app is mostly smoke and mirrors because most of its advertised functions do not work.",
+          "highlight": "smoke and mirrors"
+        },
+        {
+          "form": "a display / case / use / exercise + of / in + smoke and mirrors.",
+          "example": "The new app is mostly smoke and mirrors because most of its advertised functions do not work.",
+          "highlight": "smoke and mirrors"
+        },
+        {
+          "form": "Smoke and mirrors + modal + verb.",
+          "example": "The new app is mostly smoke and mirrors because most of its advertised functions do not work.",
+          "highlight": "smoke and mirrors"
+        },
+        {
+          "form": "Patterns 1–13 + optional by + V-ing.",
+          "example": "The new app is mostly smoke and mirrors because most of its advertised functions do not work.",
+          "highlight": "smoke and mirrors"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After a Linking Verb",
+        "titleZh": "用於連繫動詞之後",
+        "formula": "Subject + be + smoke and mirrors.",
+        "descriptionEn": "This is one of the most common patterns. The subject names the claim, appearance, promise, plan or apparent improvement being criticised.",
+        "descriptionZh": "這是最常見的句式之一。 主語通常是受到批評的說法、外表、承諾、計劃或表面改善。",
+        "examples": [
+          {
+            "en": "The impressive promise was smoke and mirrors.",
+            "zh": "那項看似吸引的承諾只是一場障眼法。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "The sudden improvement is smoke and mirrors.",
+            "zh": "這項突然出現的改善只是虛假包裝。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "His confident speech was smoke and mirrors.",
+            "zh": "他充滿信心的演說只是在故弄玄虛。",
+            "highlight": "smoke and mirrors"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "With Degree Words",
+        "titleZh": "配合程度字詞",
+        "formula": "Subject + be + all / just / mostly / merely / nothing but / little more than + smoke and mirrors.",
+        "descriptionEn": "all smoke and mirrors: entirely deceptive; mostly smoke and mirrors: mainly deceptive, but perhaps not completely; little more than smoke and mirrors: contains very little real value; nothing but smoke and mirrors: entirely without substance.",
+        "descriptionZh": "這些字詞會改變批評的強度，因此必須保留原句的程度。",
+        "examples": [
+          {
+            "en": "The announcement was all smoke and mirrors.",
+            "zh": "那項公告全是掩人耳目的表面功夫。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "The offer was just smoke and mirrors.",
+            "zh": "那項優惠只是一場障眼法。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "The supposed improvement was little more than smoke and mirrors.",
+            "zh": "所謂的改善幾乎只是虛假包裝。",
+            "highlight": "smoke and mirrors"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "With Modality or Uncertainty",
+        "titleZh": "配合情態動詞或不確定語氣",
+        "formula": "Subject + may / might / could + be + smoke and mirrors.",
+        "descriptionEn": "The new feature turned out to be smoke and mirrors.",
+        "descriptionZh": "那項新功能最後被發現只是虛假包裝。",
+        "examples": [
+          {
+            "en": "The impressive figures may be smoke and mirrors.",
+            "zh": "那些亮眼數字可能只是障眼法。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "The promise could be smoke and mirrors.",
+            "zh": "那項承諾可能只是虛假包裝。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "The detailed plan appears to be smoke and mirrors.",
+            "zh": "那份看似詳細的計劃似乎只是一場障眼法。",
+            "highlight": "smoke and mirrors"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "As the Object of a Verb or Preposition",
+        "titleZh": "作動詞或介詞的受詞",
+        "formula": "Subject + use / employ / create + smoke and mirrors.",
+        "descriptionEn": "Customers saw through the smoke and mirrors.",
+        "descriptionZh": "顧客識破了這些障眼法。",
+        "examples": [
+          {
+            "en": "The seller used smoke and mirrors to hide the real price.",
+            "zh": "賣家利用障眼法隱瞞真正價格。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "The company relied on smoke and mirrors instead of real results.",
+            "zh": "公司依靠虛假包裝，而不是實際成果。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "The manager hid behind smoke and mirrors.",
+            "zh": "經理以故弄玄虛的手段掩蓋真相。",
+            "highlight": "smoke and mirrors"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "In an Initial or Medial Prepositional Phrase",
+        "titleZh": "用於句首或句中的介詞短語",
+        "formula": "Behind / beneath / beyond + the smoke and mirrors, + reality.",
+        "descriptionEn": "The speaker explained the figures without smoke and mirrors.",
+        "descriptionZh": "講者沒有以花招包裝數字，而是直接作出解釋。",
+        "examples": [
+          {
+            "en": "Behind the smoke and mirrors, the product had very little to offer.",
+            "zh": "撥開虛假包裝後，這項產品其實沒有多少實際價值。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "Beneath the smoke and mirrors, there was no working plan.",
+            "zh": "在表面的障眼法之下，根本沒有可行的計劃。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "Even allowing for the smoke and mirrors, one part of the offer was useful.",
+            "zh": "即使考慮到其中的虛假包裝，這項優惠仍有一部分是有用的。",
+            "highlight": "smoke and mirrors"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "As a Compound Adjective Before a Noun",
+        "titleZh": "放在名詞前作複合形容詞",
+        "formula": "a smoke-and-mirrors + noun",
+        "descriptionEn": "Source grammar frame: a smoke-and-mirrors + noun.",
+        "descriptionZh": "原檔列出的句法框架：a smoke-and-mirrors + noun。",
+        "examples": [
+          {
+            "en": "The company used a smoke-and-mirrors tactic.",
+            "zh": "公司採用了掩人耳目的手段。",
+            "highlight": "smoke-and-mirrors"
+          },
+          {
+            "en": "It was a smoke-and-mirrors presentation.",
+            "zh": "那是一場故弄玄虛的簡報。",
+            "highlight": "smoke-and-mirrors"
+          },
+          {
+            "en": "They criticised the smoke-and-mirrors campaign.",
+            "zh": "他們批評那項虛假包裝的宣傳活動。",
+            "highlight": "smoke-and-mirrors"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "With the Expression as the Subject",
+        "titleZh": "以整個表達作主語",
+        "formula": "Smoke and mirrors + modal verb + main verb.",
+        "descriptionEn": "The report criticised the use of smoke and mirrors.",
+        "descriptionZh": "報告批評有人使用障眼法。",
+        "examples": [
+          {
+            "en": "Smoke and mirrors cannot replace real results.",
+            "zh": "障眼法不能取代實際成果。",
+            "highlight": "Smoke and mirrors"
+          },
+          {
+            "en": "Smoke and mirrors may attract attention, but they cannot solve the problem.",
+            "zh": "故弄玄虛的手段可能會引人注意，但不能解決問題。",
+            "highlight": "Smoke and mirrors"
+          },
+          {
+            "en": "It was a display of smoke and mirrors.",
+            "zh": "這是一場故弄玄虛的表演。",
+            "highlight": "smoke and mirrors"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "a smoke-and-mirrors + noun",
+        "titleZh": "句式八",
+        "formula": "a smoke-and-mirrors + noun.",
+        "descriptionEn": "Source grammar frame: a smoke-and-mirrors + noun.",
+        "descriptionZh": "原檔列出的句法框架：a smoke-and-mirrors + noun。",
+        "examples": [
+          {
+            "en": "The new app is mostly smoke and mirrors because most of its advertised functions do not work.",
+            "zh": "這個新應用程式大部分只是虛假包裝，因為廣告中的大部分功能都不能使用。",
+            "highlight": "smoke and mirrors"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "a display / case / use / exercise + of / in + smoke and mirrors",
+        "titleZh": "句式九",
+        "formula": "a display / case / use / exercise + of / in + smoke and mirrors.",
+        "descriptionEn": "Source grammar frame: a display / case / use / exercise + of / in + smoke and mirrors.",
+        "descriptionZh": "原檔列出的句法框架：a display / case / use / exercise + of / in + smoke and mirrors。",
+        "examples": [
+          {
+            "en": "The new app is mostly smoke and mirrors because most of its advertised functions do not work.",
+            "zh": "這個新應用程式大部分只是虛假包裝，因為廣告中的大部分功能都不能使用。",
+            "highlight": "smoke and mirrors"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Smoke and mirrors + modal + verb",
+        "titleZh": "句式十",
+        "formula": "Smoke and mirrors + modal + verb.",
+        "descriptionEn": "Source grammar frame: Smoke and mirrors + modal + verb.",
+        "descriptionZh": "原檔列出的句法框架：Smoke and mirrors + modal + verb。",
+        "examples": [
+          {
+            "en": "The new app is mostly smoke and mirrors because most of its advertised functions do not work.",
+            "zh": "這個新應用程式大部分只是虛假包裝，因為廣告中的大部分功能都不能使用。",
+            "highlight": "smoke and mirrors"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Patterns 1–13 + optional by + V-ing",
+        "titleZh": "句式十一",
+        "formula": "Patterns 1–13 + optional by + V-ing.",
+        "descriptionEn": "Source grammar frame: Patterns 1–13 + optional by + V-ing.",
+        "descriptionZh": "原檔列出的句法框架：Patterns 1–13 + optional by + V-ing。",
+        "examples": [
+          {
+            "en": "The new app is mostly smoke and mirrors because most of its advertised functions do not work.",
+            "zh": "這個新應用程式大部分只是虛假包裝，因為廣告中的大部分功能都不能使用。",
+            "highlight": "smoke and mirrors"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Contrasts Appearance with Reality",
+        "titleZh": "對比表面與實際情況",
+        "en": "The expression clearly communicates that something looks impressive or convincing but lacks real substance.",
+        "zh": "這個表達可以清楚說明某件事表面上令人信服，但實際上缺乏真正內容。 這項計劃只是一場障眼法。",
+        "examples": [
+          {
+            "en": "The plan is smoke and mirrors.",
+            "zh": "這項計劃只是一場障眼法。",
+            "highlight": "smoke and mirrors"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "把較長的解釋濃縮",
+        "en": "It Compresses a Longer Explanation",
+        "zh": "公司以障眼法把差劣成果包裝成成功。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Expresses Scepticism Efficiently",
+        "titleZh": "簡潔表達懷疑",
+        "en": "With may, might, could, seem or appear, speakers can question a claim without presenting their suspicion as a proven fact.",
+        "zh": "那些亮眼數字可能只是障眼法。 配合 may、might、could、seem 或 appear，說話者可以質疑一項說法，而不會把懷疑說成已證實的事實。",
+        "examples": [
+          {
+            "en": "The impressive figures may be smoke and mirrors.",
+            "zh": "那些亮眼數字可能只是障眼法。",
+            "highlight": "smoke and mirrors"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Helps Expose Misleading Presentation",
+        "titleZh": "有助揭穿誤導性包裝",
+        "en": "Verbs such as see through, look past and cut through allow speakers to focus on discovering the truth.",
+        "zh": "及 cut through 等動詞可以突出識破表面把戲、了解真相的過程。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Works in Several Grammatical Positions",
+        "titleZh": "可用於多種句法位置",
+        "en": "It Works in Several Grammatical Positions",
+        "zh": "可用於多種句法位置",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Can Also Praise Honesty Through Contrast",
+        "titleZh": "亦可透過對比稱讚誠實",
+        "en": "The negative or absence forms allow speakers to say that an explanation is direct, honest and transparent. Model 1: Predicative Form The company made its results look much better than they really were by showing only its strongest month. Model 2: Object Form with an Optional Method Phrase The seller hid the extra charges in small print to make the offer appear cheaper.",
+        "zh": "報告沒有任何故弄玄虛的內容。 Model Examples 示範例子例子一：表語形式公司只展示表現最好的一個月，令整體成績看起來遠比實際出色。 公司的亮眼成績只是以表現最好的一個月製造出來的虛假包裝。 例子二：受詞形式及可選的方式短語賣家把額外收費藏在細小文字中，令優惠看起來較便宜。 賣家把額外收費藏在細小文字中，以障眼法令優惠看起來較便宜。",
+        "examples": [
+          {
+            "en": "The report was free of smoke and mirrors.",
+            "zh": "報告沒有任何故弄玄虛的內容。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "The company’s impressive results were smoke and mirrors based on its strongest month.",
+            "zh": "公司的亮眼成績只是以表現最好的一個月製造出來的虛假包裝。",
+            "highlight": "smoke and mirrors"
+          },
+          {
+            "en": "The seller used smoke and mirrors by hiding the extra charges in small print.",
+            "zh": "賣家把額外收費藏在細小文字中，以障眼法令優惠看起來較便宜。",
+            "highlight": "smoke and mirrors"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Most Likely Development; Exact First Use Uncertain",
+      "statusZh": "最可能的演變；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The literal tools of stage illusion became a metaphor for incomplete figures, impressive appearances and distracting explanations. Merriam-Webster dates its earliest known use of the",
+          "zh": "逐漸成為比喻，用來形容不完整的數字、令人分心的解釋及只有表面效果的包裝。 現有字典一般把現代說法的出現時間定於二十世紀後期，但確切首次用法仍可能有待更多歷史資料確認。"
+        }
+      ],
+      "memoryEn": "Smoke blocks your view, and mirrors change what you see; smoke and mirrors hides the truth and presents an illusion.",
+      "memoryZh": "煙霧阻擋視線，鏡子改變所見畫面；smoke and mirrors 因而表示掩蓋真相、製造假象。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Core Words Unchanged",
+        "titleZh": "規則一：固定字詞不可改變",
+        "en": "Keep the Core Words Unchanged",
+        "zh": "固定字詞不可改變",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Add “A” Directly Before the Noun Phrase",
+        "titleZh": "規則二：不要直接在名詞短語前加入 a",
+        "en": "Do Not Add “A” Directly Before the Noun Phrase",
+        "zh": "這是一項掩人耳目的手段。 這是一場故弄玄虛的表演。",
+        "examples": [
+          {
+            "en": "It was a smoke-and-mirrors tactic.",
+            "zh": "這是一項掩人耳目的手段。",
+            "highlight": "smoke-and-mirrors"
+          },
+          {
+            "en": "It was a display of smoke and mirrors.",
+            "zh": "這是一場故弄玄虛的表演。",
+            "highlight": "smoke and mirrors"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "Use Hyphens Before Another Noun",
+        "titleZh": "規則三：放在另一個名詞前時使用連字號",
+        "en": "Use Hyphens Before Another Noun",
+        "zh": "放在另一個名詞前時使用連字號",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則四：保留確定程度",
+        "en": "The incorrect answer changes suspicion into certainty.",
+        "zh": "錯誤答案把懷疑改成了確定事實。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Degree",
+        "titleZh": "規則五：保留批評程度",
+        "en": "Preserve Degree",
+        "zh": "保留批評程度",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Use It Only When Deception or Misdirection Is Present",
+        "titleZh": "規則六：只有存在欺騙或轉移注意時才使用",
+        "en": "A difficult report is not necessarily deceptive.",
+        "zh": "一份報告難以理解，並不代表它必定有意誤導。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve the Hidden Reality",
+        "titleZh": "規則七：保留被隱瞞的實際情況",
+        "en": "The weak answer loses the specific method and the fact that the rooms were small.",
+        "zh": "較弱的答案刪除了具體手段，也沒有保留房間實際上很小這項重要資料。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Repeat the Idiom’s Meaning",
+        "titleZh": "規則八：使用慣用語後不要重複相同意思",
+        "en": "The second clause supplies the specific hidden fact rather than defining the idiom again.",
+        "zh": "那項承諾只是一場障眼法； 公司根本沒有可用的產品。 第二個分句補充具體真相，而不是再次解釋慣用語的意思。",
+        "examples": [
+          {
+            "en": "The promise was smoke and mirrors; the company had no working product.",
+            "zh": "那項承諾只是一場障眼法；公司根本沒有可用的產品。",
+            "highlight": "smoke and mirrors"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Treat Every Advertisement as Smoke and Mirrors",
+        "titleZh": "規則九：不要把所有廣告都稱為障眼法",
+        "en": "Advertising becomes smoke and mirrors only when it seriously misleads, hides essential information or creates a false impression.",
+        "zh": "只有當廣告嚴重誤導、隱瞞重要資料或製造虛假印象時，才適合使用這個表達。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Be Aware of the Accusatory Tone",
+        "titleZh": "規則十：留意其指責語氣",
+        "en": "You may be deliberately hiding or changing the truth.",
+        "zh": "這句並不只是表示對方的解釋不清楚，而是暗示對方可能有意隱瞞或歪曲真相。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using smoke and mirrors.",
+      "zh": "使用 smoke and mirrors 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-132-q01",
+        "number": 1,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The new app looks impressive, but most of its advertised functions do not actually work.",
+        "promptZh": "這個新應用程式看起來十分出色，但廣告中大部分功能實際上都不能使用。",
+        "starter": "The",
+        "answer": "The new app is mostly smoke and mirrors because most of its advertised functions do not work.",
+        "answerZh": "這個新應用程式大部分只是虛假包裝，因為廣告中的大部分功能都不能使用。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q02",
+        "number": 2,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The shop advertised a huge discount, but it had raised the original price first.",
+        "promptZh": "店舖宣傳大幅減價，但它事前已先提高原價。",
+        "starter": "The",
+        "answer": "The shop’s huge discount was smoke and mirrors because it had raised the original price first.",
+        "answerZh": "店舖的大幅折扣只是一場障眼法，因為它事前已先提高原價。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q03",
+        "number": 3,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The report used colourful charts to create the appearance of progress, although almost nothing had improved.",
+        "promptZh": "報告使用色彩鮮明的圖表製造取得進展的假象，但實際上幾乎沒有任何改善。",
+        "starter": "The",
+        "answer": "The colourful report was all smoke and mirrors; almost nothing had actually improved.",
+        "answerZh": "那份色彩鮮明的報告全是表面功夫，實際上幾乎沒有任何改善。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q04",
+        "number": 4,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Her online life looked perfect because she showed only carefully selected photographs.",
+        "promptZh": "她只展示經過精心挑選的照片，令網上生活看起來十分完美。",
+        "starter": "Her",
+        "answer": "Her perfect online life was smoke and mirrors created through carefully selected photographs.",
+        "answerZh": "她完美的網上生活，只是透過精心挑選照片製造的假象。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q05",
+        "number": 5,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The product box looked large, but most of the space inside it was empty.",
+        "promptZh": "產品包裝盒看起來很大，但內部大部分空間都是空的。",
+        "starter": "The",
+        "answer": "The large-looking package was smoke and mirrors; most of the box was empty.",
+        "answerZh": "那個看似大型的包裝盒只是一場障眼法，盒內大部分空間都是空的。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q06",
+        "number": 6,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The club promised ten new events, although it had actually planned only one.",
+        "promptZh": "學會承諾舉辦十項新活動，但實際上只計劃了一項。",
+        "starter": "The",
+        "answer": "The club’s promise of ten new events was little more than smoke and mirrors; only one had been planned.",
+        "answerZh": "學會承諾舉辦十項新活動，幾乎只是一場障眼法，因為實際上只計劃了一項。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q07",
+        "number": 7,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The company claimed that complaints had fallen, but it had simply removed the complaint form from its website.",
+        "promptZh": "公司聲稱投訴數量下降，但它其實只是從網站移除了投訴表格。",
+        "starter": "The",
+        "answer": "The claimed fall in complaints was smoke and mirrors: the company had simply removed the complaint form.",
+        "answerZh": "所謂投訴數量下降只是一場障眼法；公司只是移除了投訴表格。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q08",
+        "number": 8,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The hotel used a wide-angle camera to make its small rooms appear much larger.",
+        "promptZh": "酒店使用廣角鏡頭，令細小的房間看起來大得多。",
+        "starter": "The",
+        "answer": "The hotel used smoke and mirrors by photographing its small rooms with a wide-angle camera.",
+        "answerZh": "酒店使用廣角鏡頭拍攝細小房間，以障眼法令房間看起來大得多。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q09",
+        "number": 9,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The course promised expert training, but all its lessons had been copied from free online videos.",
+        "promptZh": "課程承諾提供專業培訓，但所有課堂內容都是從免費網上影片抄來的。",
+        "starter": "The",
+        "answer": "The course advert was nothing but smoke and mirrors; its lessons had been copied from free online videos.",
+        "answerZh": "課程廣告完全是虛假包裝，因為課堂內容都是從免費網上影片抄來的。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q10",
+        "number": 10,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The company claimed that its packaging was now environmentally friendly, but it had changed only the colour.",
+        "promptZh": "公司聲稱包裝現在較為環保，但它其實只改變了顏色。",
+        "starter": "The",
+        "answer": "The company’s green campaign was smoke and mirrors, since only the packaging colour had changed.",
+        "answerZh": "公司的環保宣傳只是一場障眼法，因為改變的只有包裝顏色。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q11",
+        "number": 11,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Nobody has checked whether the company’s unusually high figures are genuine, so they may be misleading.",
+        "promptZh": "沒有人核實公司異常高的數字是否真實，因此這些數字可能具有誤導性。",
+        "starter": "The",
+        "answer": "The company’s unusually high figures may be smoke and mirrors.",
+        "answerZh": "公司異常高的數字可能只是障眼法。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q12",
+        "number": 12,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The plan looks detailed, but it contains no dates, costs or clear actions.",
+        "promptZh": "這項計劃看起來十分詳細，但當中沒有日期、成本或明確行動。",
+        "starter": "The",
+        "answer": "The detailed-looking plan appears to be smoke and mirrors because it contains no dates, costs or clear actions.",
+        "answerZh": "那份看似詳細的計劃似乎只是一場障眼法，因為當中沒有日期、成本或明確行動。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q13",
+        "number": 13,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The new budget is honest and shows every item of spending clearly.",
+        "promptZh": "新預算十分誠實，並清楚列出每一項開支。",
+        "starter": "The",
+        "answer": "The new budget is not smoke and mirrors; every item of spending is clearly shown.",
+        "answerZh": "新預算並不是障眼法；每一項開支均有清楚列出。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q14",
+        "number": 14,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The inventor tested the product live and allowed everyone to examine it closely.",
+        "promptZh": "發明者即場測試產品，並讓所有人仔細檢查。",
+        "starter": "There",
+        "answer": "There was no smoke and mirrors in the live product test.",
+        "answerZh": "即場產品測試沒有使用任何障眼法。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q15",
+        "number": 15,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The salesman used confusing tables so that customers would not notice the total price.",
+        "promptZh": "售貨員使用令人混亂的表格，令顧客不會留意總價格。",
+        "starter": "The",
+        "answer": "The salesman used smoke and mirrors to hide the total price in confusing tables.",
+        "answerZh": "售貨員使用障眼法，把總價格藏在令人混亂的表格中。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q16",
+        "number": 16,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Instead of answering the question clearly, the company filled its reply with impressive words and numbers.",
+        "promptZh": "公司沒有清楚回答問題，反而在回覆中加入大量看似厲害的字詞和數字。",
+        "starter": "The",
+        "answer": "The company hid behind smoke and mirrors instead of answering the question clearly.",
+        "answerZh": "公司以故弄玄虛的手段作掩護，沒有清楚回答問題。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q17",
+        "number": 17,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The students noticed that the prize offer applied only to the first three people.",
+        "promptZh": "學生發現獎品優惠只適用於最先參加的三個人。",
+        "starter": "The",
+        "answer": "The students saw through the smoke and mirrors and noticed that only three people could win.",
+        "answerZh": "學生識破了障眼法，發現只有三個人可以得獎。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q18",
+        "number": 18,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The customer ignored the bright advertisement and carefully read the conditions.",
+        "promptZh": "顧客沒有理會色彩鮮明的廣告，而是仔細閱讀條款。",
+        "starter": "The",
+        "answer": "The customer looked past the smoke and mirrors and read the conditions carefully.",
+        "answerZh": "顧客撇開表面的宣傳把戲，仔細閱讀條款。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q19",
+        "number": 19,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The speaker showed both the strengths and the weaknesses without trying to hide anything.",
+        "promptZh": "講者同時展示優點和缺點，沒有試圖隱瞞任何事情。",
+        "starter": "The",
+        "answer": "The speaker gave an explanation free of smoke and mirrors, showing both the strengths and the weaknesses.",
+        "answerZh": "講者作出了誠實直接的解釋，同時展示優點和缺點，沒有使用任何障眼法。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q20",
+        "number": 20,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The manager used a misleading presentation to make a very small rise look much larger.",
+        "promptZh": "經理利用誤導性的簡報，令非常輕微的升幅看起來大得多。",
+        "starter": "The",
+        "answer": "The manager gave a smoke-and-mirrors presentation that made the small rise look much larger.",
+        "answerZh": "經理作出一場故弄玄虛的簡報，令輕微升幅看起來大得多。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke-and-mirrors"
+      },
+      {
+        "id": "idiom-132-q21",
+        "number": 21,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Why do you not trust this cheap-phone offer? B: The monthly fee is hidden at the bottom of the page, so the bargain may not be genuine.",
+        "promptZh": "甲：你為甚麼不相信這項廉價電話優惠？ 乙：每月收費藏在頁面底部，所以這項優惠可能並不真實。",
+        "starter": "It",
+        "answer": "It looks like a bargain, but it may be smoke and mirrors because of the hidden monthly fee.",
+        "answerZh": "這看起來是一項優惠，但由於存在隱藏的每月收費，它可能只是一場障眼法。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q22",
+        "number": 22,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The journalist said that the housing plan created nothing new and merely gave an old plan a new name.",
+        "promptZh": "記者表示房屋計劃沒有任何新內容，只是為舊計劃換上新名稱。",
+        "starter": "The",
+        "answer": "The journalist called the housing plan smoke and mirrors because it merely gave an old plan a new name.",
+        "answerZh": "記者指房屋計劃只是一場障眼法，因為它只是為舊計劃換上新名稱。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q23",
+        "number": 23,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The company reported a major improvement only because it had changed the way complaints were counted.",
+        "promptZh": "公司聲稱有重大改善，只是因為它改變了計算投訴的方法。",
+        "starter": "What",
+        "answer": "What looked like a major improvement was really smoke and mirrors; the company had changed how complaints were counted.",
+        "answerZh": "看似重大的改善其實只是一場障眼法；公司只是改變了計算投訴的方法。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q24",
+        "number": 24,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The school showed only its easiest test results to make its overall performance appear better.",
+        "promptZh": "學校只展示最容易的測驗成績，令整體表現看起來較好。",
+        "starter": "By",
+        "answer": "By showing only its easiest test results, the school used smoke and mirrors to make its performance look better.",
+        "answerZh": "學校只展示最容易的測驗成績，以障眼法令整體表現看起來較好。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q25",
+        "number": 25,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The customer said that the seller had used clever tricks to hide the poor quality of the product.",
+        "promptZh": "顧客表示，賣家使用巧妙手段隱瞞產品質素差劣的事實。",
+        "starter": "She",
+        "answer": "She accused the seller of using smoke and mirrors to hide the product’s poor quality.",
+        "answerZh": "她指責賣家使用障眼法，隱瞞產品質素差劣的事實。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q26",
+        "number": 26,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The product launch looked impressive, but the company did not have a working product.",
+        "promptZh": "產品發布活動看起來十分出色，但公司根本沒有可用的產品。",
+        "starter": "Beneath",
+        "answer": "Beneath the smoke and mirrors of the product launch, there was no working product.",
+        "answerZh": "在產品發布活動的表面障眼法之下，根本沒有可用的產品。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q27",
+        "number": 27,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The demonstration looked impressive, but some viewers wondered whether it had been carefully arranged to mislead them.",
+        "promptZh": "示範看起來十分出色，但部分觀眾懷疑它是否經過精心安排，以誤導他們。",
+        "starter": "Could",
+        "answer": "Could the impressive demonstration all be smoke and mirrors?",
+        "answerZh": "這場令人印象深刻的示範會否全是一場障眼法？",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q28",
+        "number": 28,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The presentation was misleading, but the basic idea remained useful after we examined it carefully.",
+        "promptZh": "簡報具有誤導性，但我們仔細分析後，發現基本想法仍然有用。",
+        "starter": "Even",
+        "answer": "Even after we looked past the smoke and mirrors, the basic idea remained useful.",
+        "answerZh": "即使撇開誤導性的表面包裝，基本想法仍然有用。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q29",
+        "number": 29,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The charity created a caring public image, but most of its donations were spent on advertisements.",
+        "promptZh": "慈善機構建立了關懷社會的公眾形象，但大部分捐款都花在廣告上。",
+        "starter": "The",
+        "answer": "The charity’s caring public image relied on smoke and mirrors; most donations were spent on advertisements.",
+        "answerZh": "慈善機構關懷社會的公眾形象依靠虛假包裝維持；大部分捐款都花在廣告上。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q30",
+        "number": 30,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "When we examined the offer carefully, we discovered that the supposedly free service cost £20 a month.",
+        "promptZh": "我們仔細檢查優惠後，發現所謂的免費服務每月收費二十英鎊。",
+        "starter": "After",
+        "answer": "After cutting through the smoke and mirrors, we discovered that the “free” service cost £20 a month.",
+        "answerZh": "撥開障眼法後，我們發現所謂的免費服務每月收費二十英鎊。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q31",
+        "number": 31,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The company changed its logo and slogan instead of making any real improvement to its poor service.",
+        "promptZh": "公司只是改變標誌和口號，並沒有真正改善差劣的服務。",
+        "starter": "Rather",
+        "answer": "Rather than improve its service, the company relied on smoke and mirrors by changing only its logo and slogan.",
+        "answerZh": "公司沒有改善服務，反而只改變標誌和口號，以虛假包裝掩飾問題。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q32",
+        "number": 32,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The advertisement makes many impressive claims, but its promise may remain misleading unless the hidden limits are removed.",
+        "promptZh": "廣告作出許多令人印象深刻的聲稱，但除非刪除隱藏限制，否則它的承諾仍可能具有誤導性。",
+        "starter": "Whatever",
+        "answer": "Whatever the advertisement claims, its promise may remain smoke and mirrors unless the hidden limits are removed.",
+        "answerZh": "無論廣告聲稱甚麼，除非刪除隱藏限制，否則它的承諾仍可能只是一場障眼法。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q33",
+        "number": 33,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The plan appeared genuine at first, but we later discovered that it merely renamed work that already existed.",
+        "promptZh": "計劃最初看起來十分真實，但我們後來發現，它只是把現有工作重新命名。",
+        "starter": "At",
+        "answer": "At first, the plan looked genuine, but it turned out to be smoke and mirrors because it merely renamed existing work.",
+        "answerZh": "計劃最初看起來十分真實，但後來被發現只是一場障眼法，因為它只是把現有工作重新命名。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q34",
+        "number": 34,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "An independent check will expose the figures if they were designed to mislead people.",
+        "promptZh": "如果那些數字是為了誤導他人而設，獨立檢查便會把它們揭穿。",
+        "starter": "If",
+        "answer": "If the figures are smoke and mirrors, an independent check will expose them.",
+        "answerZh": "如果那些數字只是障眼法，獨立檢查便會把它們揭穿。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q35",
+        "number": 35,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Most of the offer was misleading, but the lower delivery fee was a genuine benefit.",
+        "promptZh": "這項優惠大部分內容都具有誤導性，但較低的送貨費確實是一項好處。",
+        "starter": "Despite",
+        "answer": "Despite the smoke and mirrors surrounding the offer, the lower delivery fee was a genuine benefit.",
+        "answerZh": "雖然這項優惠充滿誤導性包裝，但較低的送貨費確實是一項好處。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q36",
+        "number": 36,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The report used missing months and an unusual chart, but it still could not hide the fact that sales had fallen.",
+        "promptZh": "報告刪去部分月份，又使用不尋常的圖表，但仍然無法掩蓋銷售額下跌的事實。",
+        "starter": "The",
+        "answer": "The smoke and mirrors in the report could not hide the fact that sales had fallen.",
+        "answerZh": "報告中的障眼法無法掩蓋銷售額下跌的事實。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q37",
+        "number": 37,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The company claimed that it had created new savings, but it had merely moved money from one account to another.",
+        "promptZh": "公司聲稱創造了新的節省款項，但它其實只是把金錢從一個帳戶轉到另一個帳戶。",
+        "starter": "Behind",
+        "answer": "Behind the smoke and mirrors, the company had merely moved money from one account to another.",
+        "answerZh": "在表面的障眼法背後，公司只是把金錢從一個帳戶轉到另一個帳戶。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q38",
+        "number": 38,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The reviewer said the supposedly new feature was only an old function with a different name.",
+        "promptZh": "評論者表示，所謂的新功能只是一項改了名稱的舊功能。",
+        "starter": "According",
+        "answer": "According to the reviewer, the supposedly new feature was smoke and mirrors because an old function had simply been renamed.",
+        "answerZh": "評論者表示，所謂的新功能只是一場障眼法，因為一項舊功能只是換了名稱。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q39",
+        "number": 39,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The presentation was entirely misleading, so the group asked to see the original figures.",
+        "promptZh": "簡報完全具有誤導性，因此小組要求查看原始數字。",
+        "starter": "Because",
+        "answer": "Because the presentation was all smoke and mirrors, the group asked to see the original figures.",
+        "answerZh": "由於簡報完全是故弄玄虛，小組要求查看原始數字。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q40",
+        "number": 40,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The buyers noticed the extra yearly fee only after they ignored the attractive presentation and examined the details.",
+        "promptZh": "買家撇開吸引的表面包裝並仔細檢查細節後，才發現額外的年度收費。",
+        "starter": "Only",
+        "answer": "Only after looking past the smoke and mirrors did the buyers notice the extra yearly fee.",
+        "answerZh": "買家撇開吸引的表面包裝後，才發現額外的年度收費。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q41",
+        "number": 41,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Customers will remain doubtful unless the company stops using showy claims and provides real evidence.",
+        "promptZh": "除非公司停止使用華而不實的聲稱並提供實際證據，否則顧客仍會感到懷疑。",
+        "starter": "Unless",
+        "answer": "Unless the company replaces smoke and mirrors with real evidence, customers will remain doubtful.",
+        "answerZh": "除非公司以實際證據取代虛假包裝，否則顧客仍會感到懷疑。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q42",
+        "number": 42,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "It is still unclear how much of the company’s apparent success is genuine and how much was created to mislead people.",
+        "promptZh": "公司表面的成功有多少是真實，又有多少是為了誤導他人而製造，目前仍不清楚。",
+        "starter": "How",
+        "answer": "How much of the company’s apparent success is smoke and mirrors remains unclear.",
+        "answerZh": "公司表面的成功有多少只是一場障眼法，目前仍不清楚。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q43",
+        "number": 43,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The course promised instant results as a misleading way of attracting more customers.",
+        "promptZh": "課程承諾立即見效，以此作為吸引更多顧客的誤導手段。",
+        "starter": "The",
+        "answer": "The promise of instant results was a smoke-and-mirrors claim used to attract more customers.",
+        "answerZh": "承諾立即見效，是一項用來吸引更多顧客的虛假宣傳。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke-and-mirrors"
+      },
+      {
+        "id": "idiom-132-q44",
+        "number": 44,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The seller presented the item as a free gift, but its cost had already been added to the main price.",
+        "promptZh": "賣家把物品說成免費禮物，但其費用早已加入主要價格之中。",
+        "starter": "What",
+        "answer": "What the seller presented as a free gift was actually smoke and mirrors; its cost had already been added to the main price.",
+        "answerZh": "賣家所謂的免費禮物其實只是一場障眼法；其費用早已加入主要價格之中。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q45",
+        "number": 45,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "After careful examination, the impressive new system proved to be little more than a different appearance placed over the old one.",
+        "promptZh": "經過仔細檢查，這套看似出色的新系統，只是在舊系統外加上不同包裝。",
+        "starter": "On",
+        "answer": "On closer inspection, the impressive new system was little more than smoke and mirrors placed over the old one.",
+        "answerZh": "仔細檢查後，這套看似出色的新系統，只是在舊系統外加上的虛假包裝。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q46",
+        "number": 46,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Critics described the whole plan as deceptive, although its second part did produce real savings.",
+        "promptZh": "批評者形容整項計劃具有欺騙性，但計劃的第二部分確實帶來了真正節省。",
+        "starter": "Although",
+        "answer": "Although critics described the plan as smoke and mirrors, its second part did produce real savings.",
+        "answerZh": "雖然批評者把計劃形容為一場障眼法，但計劃的第二部分確實帶來了真正節省。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q47",
+        "number": 47,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "After the misleading appearance and confusing claims were removed, the contract offered customers no real protection.",
+        "promptZh": "移除誤導性的表面包裝和混亂說法後，合約並沒有為顧客提供真正保障。",
+        "starter": "Once",
+        "answer": "Once the smoke and mirrors were removed, the contract offered customers no real protection.",
+        "answerZh": "移除誤導性的表面包裝後，合約並沒有為顧客提供真正保障。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q48",
+        "number": 48,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The company ran a clever but misleading campaign, yet it could not hide the product’s poor safety record.",
+        "promptZh": "公司進行了一場巧妙但具有誤導性的宣傳活動，但仍無法掩蓋產品差劣的安全紀錄。",
+        "starter": "Not",
+        "answer": "Not even the cleverest smoke-and-mirrors campaign could hide the product’s poor safety record.",
+        "answerZh": "即使是最巧妙的虛假宣傳活動，也無法掩蓋產品差劣的安全紀錄。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke-and-mirrors"
+      },
+      {
+        "id": "idiom-132-q49",
+        "number": 49,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The main question is whether the sudden rise in users is genuine or was created by thousands of free trial accounts.",
+        "promptZh": "主要問題是，用戶數量突然上升究竟是真實增長，還是由數以千計的免費試用帳戶製造出來。",
+        "starter": "The",
+        "answer": "The main question is whether the sudden rise in users is genuine or smoke and mirrors created by free trial accounts.",
+        "answerZh": "主要問題是，用戶數量突然上升究竟是真實增長，還是由免費試用帳戶製造的假象。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      },
+      {
+        "id": "idiom-132-q50",
+        "number": 50,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The company made bold claims for several months before admitting that much of its supposed progress had not been real.",
+        "promptZh": "公司作出大膽聲稱數月後，終於承認大部分所謂的進展並不真實。",
+        "starter": "After",
+        "answer": "After months of bold claims, the company admitted that much of its supposed progress had been smoke and mirrors.",
+        "answerZh": "公司作出大膽聲稱數月後，終於承認大部分所謂的進展都只是虛假包裝。",
+        "targetForm": "smoke and mirrors",
+        "targetMeaning": "Smoke and mirrors refers to misleading words, impressive appearances or clever actions used to hide the truth or make something seem better, more successful or more real than it actually is.",
+        "highlight": "smoke and mirrors"
+      }
+    ]
+  }
+}

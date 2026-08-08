@@ -15235,6 +15235,910 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "idiom-system.html?lesson=idiom-25"
   },
   {
+    "id": "idiom:idiom-26",
+    "type": "idiom",
+    "ordinal": 26,
+    "label": "#26 · 掛靴／退役",
+    "detail": "Idiom #26 · hang up your boots",
+    "url": "idiom-system.html?lesson=idiom-26"
+  },
+  {
+    "id": "idiom:idiom-27",
+    "type": "idiom",
+    "ordinal": 27,
+    "label": "#27 · 很久沒有／久未",
+    "detail": "Idiom #27 · in a dog’s age",
+    "url": "idiom-system.html?lesson=idiom-27"
+  },
+  {
+    "id": "idiom:idiom-28",
+    "type": "idiom",
+    "ordinal": 28,
+    "label": "#28 · 完全合不來／格格不入",
+    "detail": "Idiom #28 · be like oil and water",
+    "url": "idiom-system.html?lesson=idiom-28"
+  },
+  {
+    "id": "idiom:idiom-29",
+    "type": "idiom",
+    "ordinal": 29,
+    "label": "#29 · 虛張的障礙／想像中的困難",
+    "detail": "Idiom #29 · a lion in the way",
+    "url": "idiom-system.html?lesson=idiom-29"
+  },
+  {
+    "id": "idiom:idiom-30",
+    "type": "idiom",
+    "ordinal": 30,
+    "label": "#30 · 身陷險境／闖入虎口",
+    "detail": "Idiom #30 · The Lion’s Mouth",
+    "url": "idiom-system.html?lesson=idiom-30"
+  },
+  {
+    "id": "idiom:idiom-31",
+    "type": "idiom",
+    "ordinal": 31,
+    "label": "#31 · 爭吵不休／水火不容",
+    "detail": "Idiom #31 · Fight Like Cat and Dog",
+    "url": "idiom-system.html?lesson=idiom-31"
+  },
+  {
+    "id": "idiom:idiom-32",
+    "type": "idiom",
+    "ordinal": 32,
+    "label": "#32 · 以相同手法反擊／以同樣策略應對對手",
+    "detail": "Idiom #32 · fight fire with fire",
+    "url": "idiom-system.html?lesson=idiom-32"
+  },
+  {
+    "id": "idiom:idiom-33",
+    "type": "idiom",
+    "ordinal": 33,
+    "label": "#33 · 扭轉局面／反客為主",
+    "detail": "Idiom #33 · turn the tables",
+    "url": "idiom-system.html?lesson=idiom-33"
+  },
+  {
+    "id": "idiom:idiom-34",
+    "type": "idiom",
+    "ordinal": 34,
+    "label": "#34 · 好偷東西／喜歡順手牽羊",
+    "detail": "Idiom #34 · sticky fingers",
+    "url": "idiom-system.html?lesson=idiom-34"
+  },
+  {
+    "id": "idiom:idiom-35",
+    "type": "idiom",
+    "ordinal": 35,
+    "label": "#35 · 成敗關鍵／決定成敗",
+    "detail": "Idiom #35 · make or break something",
+    "url": "idiom-system.html?lesson=idiom-35"
+  },
+  {
+    "id": "idiom:idiom-36",
+    "type": "idiom",
+    "ordinal": 36,
+    "label": "#36 · 大人物／重要人物",
+    "detail": "Idiom #36 · big fish",
+    "url": "idiom-system.html?lesson=idiom-36"
+  },
+  {
+    "id": "idiom:idiom-37",
+    "type": "idiom",
+    "ordinal": 37,
+    "label": "#37 · 關鍵時刻／真正接受考驗的時刻",
+    "detail": "Idiom #37 · the moment of truth",
+    "url": "idiom-system.html?lesson=idiom-37"
+  },
+  {
+    "id": "idiom:idiom-38",
+    "type": "idiom",
+    "ordinal": 38,
+    "label": "#38 · 承擔後果／接受批評或處分",
+    "detail": "Idiom #38 · face the music",
+    "url": "idiom-system.html?lesson=idiom-38"
+  },
+  {
+    "id": "idiom:idiom-39",
+    "type": "idiom",
+    "ordinal": 39,
+    "label": "#39 · 思想契合／達成共識",
+    "detail": "Idiom #39 · a meeting of minds",
+    "url": "idiom-system.html?lesson=idiom-39"
+  },
+  {
+    "id": "idiom:idiom-40",
+    "type": "idiom",
+    "ordinal": 40,
+    "label": "#40 · 歷盡艱辛／受盡苦難",
+    "detail": "Idiom #40 · Go Through Fire",
+    "url": "idiom-system.html?lesson=idiom-40"
+  },
+  {
+    "id": "idiom:idiom-41",
+    "type": "idiom",
+    "ordinal": 41,
+    "label": "#41 · 忍氣吞聲／忍受屈辱",
+    "detail": "Idiom #41 · eat dirt",
+    "url": "idiom-system.html?lesson=idiom-41"
+  },
+  {
+    "id": "idiom:idiom-42",
+    "type": "idiom",
+    "ordinal": 42,
+    "label": "#42 · 視而不見／隻眼開、隻眼閉",
+    "detail": "Idiom #42 · turn a blind eye to",
+    "url": "idiom-system.html?lesson=idiom-42"
+  },
+  {
+    "id": "idiom:idiom-43",
+    "type": "idiom",
+    "ordinal": 43,
+    "label": "#43 · 欣喜若狂／興奮得發狂",
+    "detail": "Idiom #43 · go bananas",
+    "url": "idiom-system.html?lesson=idiom-43"
+  },
+  {
+    "id": "idiom:idiom-44",
+    "type": "idiom",
+    "ordinal": 44,
+    "label": "#44 · 身體不適／有點不舒服",
+    "detail": "Idiom #44 · under the weather",
+    "url": "idiom-system.html?lesson=idiom-44"
+  },
+  {
+    "id": "idiom:idiom-45",
+    "type": "idiom",
+    "ordinal": 45,
+    "label": "#45 · 全神貫注地聽／洗耳恭聽",
+    "detail": "Idiom #45 · be all ears",
+    "url": "idiom-system.html?lesson=idiom-45"
+  },
+  {
+    "id": "idiom:idiom-46",
+    "type": "idiom",
+    "ordinal": 46,
+    "label": "#46 · 同儕之首／平等成員中的領頭者",
+    "detail": "Idiom #46 · First Among Equals",
+    "url": "idiom-system.html?lesson=idiom-46"
+  },
+  {
+    "id": "idiom:idiom-47",
+    "type": "idiom",
+    "ordinal": 47,
+    "label": "#47 · 指責／歸咎於",
+    "detail": "Idiom #47 · point the finger",
+    "url": "idiom-system.html?lesson=idiom-47"
+  },
+  {
+    "id": "idiom:idiom-48",
+    "type": "idiom",
+    "ordinal": 48,
+    "label": "#48 · 令某人怒火中燒／令人非常憤怒",
+    "detail": "Idiom #48 · make your blood boil",
+    "url": "idiom-system.html?lesson=idiom-48"
+  },
+  {
+    "id": "idiom:idiom-49",
+    "type": "idiom",
+    "ordinal": 49,
+    "label": "#49 · 已成功了一半／是成功的一大關鍵",
+    "detail": "Idiom #49 · half the battle",
+    "url": "idiom-system.html?lesson=idiom-49"
+  },
+  {
+    "id": "idiom:idiom-50",
+    "type": "idiom",
+    "ordinal": 50,
+    "label": "#50 · 支持錯了人或一方／看錯人",
+    "detail": "Idiom #50 · back the wrong horse",
+    "url": "idiom-system.html?lesson=idiom-50"
+  },
+  {
+    "id": "idiom:idiom-51",
+    "type": "idiom",
+    "ordinal": 51,
+    "label": "#51 · 找錯方向／怪錯人",
+    "detail": "Idiom #51 · bark up the wrong tree",
+    "url": "idiom-system.html?lesson=idiom-51"
+  },
+  {
+    "id": "idiom:idiom-52",
+    "type": "idiom",
+    "ordinal": 52,
+    "label": "#52 · 杞人憂天／自尋煩惱",
+    "detail": "Idiom #52 · meet trouble halfway",
+    "url": "idiom-system.html?lesson=idiom-52"
+  },
+  {
+    "id": "idiom:idiom-53",
+    "type": "idiom",
+    "ordinal": 53,
+    "label": "#53 · 大吵大鬧／大發雷霆",
+    "detail": "Idiom #53 · raise the devil",
+    "url": "idiom-system.html?lesson=idiom-53"
+  },
+  {
+    "id": "idiom:idiom-54",
+    "type": "idiom",
+    "ordinal": 54,
+    "label": "#54 · 令某人煩躁／惹惱某人",
+    "detail": "Idiom #54 · get under someone’s skin",
+    "url": "idiom-system.html?lesson=idiom-54"
+  },
+  {
+    "id": "idiom:idiom-55",
+    "type": "idiom",
+    "ordinal": 55,
+    "label": "#55 · 令人耳目一新／令人精神一振",
+    "detail": "Idiom #55 · a breath of fresh air",
+    "url": "idiom-system.html?lesson=idiom-55"
+  },
+  {
+    "id": "idiom:idiom-56",
+    "type": "idiom",
+    "ordinal": 56,
+    "label": "#56 · 一眨眼／轉眼間",
+    "detail": "Idiom #56 · in the blink of an eye",
+    "url": "idiom-system.html?lesson=idiom-56"
+  },
+  {
+    "id": "idiom:idiom-57",
+    "type": "idiom",
+    "ordinal": 57,
+    "label": "#57 · 改過自新／重新做人",
+    "detail": "Idiom #57 · turn over a new leaf",
+    "url": "idiom-system.html?lesson=idiom-57"
+  },
+  {
+    "id": "idiom:idiom-58",
+    "type": "idiom",
+    "ordinal": 58,
+    "label": "#58 · 停止運作／壽終正寢",
+    "detail": "Idiom #58 · give up the ghost",
+    "url": "idiom-system.html?lesson=idiom-58"
+  },
+  {
+    "id": "idiom:idiom-59",
+    "type": "idiom",
+    "ordinal": 59,
+    "label": "#59 · 隆冬／嚴冬時節",
+    "detail": "Idiom #59 · The Dead of Winter",
+    "url": "idiom-system.html?lesson=idiom-59"
+  },
+  {
+    "id": "idiom:idiom-60",
+    "type": "idiom",
+    "ordinal": 60,
+    "label": "#60 · 深夜時分／夜深人靜之時",
+    "detail": "Idiom #60 · The Dead of Night",
+    "url": "idiom-system.html?lesson=idiom-60"
+  },
+  {
+    "id": "idiom:idiom-61",
+    "type": "idiom",
+    "ordinal": 61,
+    "label": "#61 · 非常憤怒／怒火中燒",
+    "detail": "Idiom #61 · breathe fire",
+    "url": "idiom-system.html?lesson=idiom-61"
+  },
+  {
+    "id": "idiom:idiom-62",
+    "type": "idiom",
+    "ordinal": 62,
+    "label": "#62 · 紙老虎／外強中乾",
+    "detail": "Idiom #62 · a paper tiger",
+    "url": "idiom-system.html?lesson=idiom-62"
+  },
+  {
+    "id": "idiom:idiom-63",
+    "type": "idiom",
+    "ordinal": 63,
+    "label": "#63 · 一石二鳥／一舉兩得",
+    "detail": "Idiom #63 · kill two birds with one stone",
+    "url": "idiom-system.html?lesson=idiom-63"
+  },
+  {
+    "id": "idiom:idiom-64",
+    "type": "idiom",
+    "ordinal": 64,
+    "label": "#64 · 退居次要位置／退居幕後",
+    "detail": "Idiom #64 · take a back seat",
+    "url": "idiom-system.html?lesson=idiom-64"
+  },
+  {
+    "id": "idiom:idiom-65",
+    "type": "idiom",
+    "ordinal": 65,
+    "label": "#65 · 是雙向的／需要雙方付出",
+    "detail": "Idiom #65 · Two-Way Street",
+    "url": "idiom-system.html?lesson=idiom-65"
+  },
+  {
+    "id": "idiom:idiom-66",
+    "type": "idiom",
+    "ordinal": 66,
+    "label": "#66 · 難以下嚥的苦果／難接受的事實",
+    "detail": "Idiom #66 · a bitter pill (to swallow)",
+    "url": "idiom-system.html?lesson=idiom-66"
+  },
+  {
+    "id": "idiom:idiom-67",
+    "type": "idiom",
+    "ordinal": 67,
+    "label": "#67 · 全權授權／不設限制",
+    "detail": "Idiom #67 · a blank cheque",
+    "url": "idiom-system.html?lesson=idiom-67"
+  },
+  {
+    "id": "idiom:idiom-68",
+    "type": "idiom",
+    "ordinal": 68,
+    "label": "#68 · 害群之馬／不受接納的成員",
+    "detail": "Idiom #68 · a black sheep",
+    "url": "idiom-system.html?lesson=idiom-68"
+  },
+  {
+    "id": "idiom:idiom-69",
+    "type": "idiom",
+    "ordinal": 69,
+    "label": "#69 · 失敗／以失敗告終",
+    "detail": "Idiom #69 · bite the dust",
+    "url": "idiom-system.html?lesson=idiom-69"
+  },
+  {
+    "id": "idiom:idiom-70",
+    "type": "idiom",
+    "ordinal": 70,
+    "label": "#70 · 高價／最高價",
+    "detail": "Idiom #70 · Top Dollar",
+    "url": "idiom-system.html?lesson=idiom-70"
+  },
+  {
+    "id": "idiom:idiom-71",
+    "type": "idiom",
+    "ordinal": 71,
+    "label": "#71 · 脆弱的體系／紙牌屋",
+    "detail": "Idiom #71 · a house of cards",
+    "url": "idiom-system.html?lesson=idiom-71"
+  },
+  {
+    "id": "idiom:idiom-72",
+    "type": "idiom",
+    "ordinal": 72,
+    "label": "#72 · 分而治之／分化統治",
+    "detail": "Idiom #72 · Divide and Rule",
+    "url": "idiom-system.html?lesson=idiom-72"
+  },
+  {
+    "id": "idiom:idiom-73",
+    "type": "idiom",
+    "ordinal": 73,
+    "label": "#73 · 折衷方案／中間方案",
+    "detail": "Idiom #73 · a halfway house",
+    "url": "idiom-system.html?lesson=idiom-73"
+  },
+  {
+    "id": "idiom:idiom-74",
+    "type": "idiom",
+    "ordinal": 74,
+    "label": "#74 · 跟風／加入潮流",
+    "detail": "Idiom #74 · Jump on the Bandwagon",
+    "url": "idiom-system.html?lesson=idiom-74"
+  },
+  {
+    "id": "idiom:idiom-75",
+    "type": "idiom",
+    "ordinal": 75,
+    "label": "#75 · 出生於皇室／生於帝王之家",
+    "detail": "Idiom #75 · born to the purple",
+    "url": "idiom-system.html?lesson=idiom-75"
+  },
+  {
+    "id": "idiom:idiom-76",
+    "type": "idiom",
+    "ordinal": 76,
+    "label": "#76 · 幾乎不可能／才怪",
+    "detail": "Idiom #76 · pigs might fly",
+    "url": "idiom-system.html?lesson=idiom-76"
+  },
+  {
+    "id": "idiom:idiom-77",
+    "type": "idiom",
+    "ordinal": 77,
+    "label": "#77 · 並肩合作／同心協力",
+    "detail": "Idiom #77 · Shoulder to Shoulder",
+    "url": "idiom-system.html?lesson=idiom-77"
+  },
+  {
+    "id": "idiom:idiom-78",
+    "type": "idiom",
+    "ordinal": 78,
+    "label": "#78 · 可以傾訴的對象／可以尋求安慰的人",
+    "detail": "Idiom #78 · a shoulder to cry on",
+    "url": "idiom-system.html?lesson=idiom-78"
+  },
+  {
+    "id": "idiom:idiom-79",
+    "type": "idiom",
+    "ordinal": 79,
+    "label": "#79 · 消息人士告訴我／不便透露來源",
+    "detail": "Idiom #79 · A Little Bird Told Me",
+    "url": "idiom-system.html?lesson=idiom-79"
+  },
+  {
+    "id": "idiom:idiom-80",
+    "type": "idiom",
+    "ordinal": 80,
+    "label": "#80 · 挺身承擔風險／為貓掛鈴",
+    "detail": "Idiom #80 · bell the cat",
+    "url": "idiom-system.html?lesson=idiom-80"
+  },
+  {
+    "id": "idiom:idiom-81",
+    "type": "idiom",
+    "ordinal": 81,
+    "label": "#81 · 不容質疑的人或事物／不可批評的制度",
+    "detail": "Idiom #81 · a sacred cow",
+    "url": "idiom-system.html?lesson=idiom-81"
+  },
+  {
+    "id": "idiom:idiom-82",
+    "type": "idiom",
+    "ordinal": 82,
+    "label": "#82 · 小心翼翼／如履薄冰",
+    "detail": "Idiom #82 · Walk on Eggs / Walk on Eggshells",
+    "url": "idiom-system.html?lesson=idiom-82"
+  },
+  {
+    "id": "idiom:idiom-83",
+    "type": "idiom",
+    "ordinal": 83,
+    "label": "#83 · 處於十字路口／面臨抉擇",
+    "detail": "Idiom #83 · at the crossroads",
+    "url": "idiom-system.html?lesson=idiom-83"
+  },
+  {
+    "id": "idiom:idiom-84",
+    "type": "idiom",
+    "ordinal": 84,
+    "label": "#84 · 很有膽量／勇氣十足",
+    "detail": "Idiom #84 · Have a Lot of Bottle",
+    "url": "idiom-system.html?lesson=idiom-84"
+  },
+  {
+    "id": "idiom:idiom-85",
+    "type": "idiom",
+    "ordinal": 85,
+    "label": "#85 · 臨陣退縮／打退堂鼓",
+    "detail": "Idiom #85 · cold feet",
+    "url": "idiom-system.html?lesson=idiom-85"
+  },
+  {
+    "id": "idiom:idiom-86",
+    "type": "idiom",
+    "ordinal": 86,
+    "label": "#86 · 突然完全戒掉／一下子徹底停止",
+    "detail": "Idiom #86 · go cold turkey",
+    "url": "idiom-system.html?lesson=idiom-86"
+  },
+  {
+    "id": "idiom:idiom-87",
+    "type": "idiom",
+    "ordinal": 87,
+    "label": "#87 · 突然感到害怕／頓時感到不安",
+    "detail": "Idiom #87 · go hot and cold",
+    "url": "idiom-system.html?lesson=idiom-87"
+  },
+  {
+    "id": "idiom:idiom-88",
+    "type": "idiom",
+    "ordinal": 88,
+    "label": "#88 · 特洛伊木馬／暗藏威脅",
+    "detail": "Idiom #88 · a Trojan horse",
+    "url": "idiom-system.html?lesson=idiom-88"
+  },
+  {
+    "id": "idiom:idiom-89",
+    "type": "idiom",
+    "ordinal": 89,
+    "label": "#89 · 集思廣益",
+    "detail": "Idiom #89 · put your heads together",
+    "url": "idiom-system.html?lesson=idiom-89"
+  },
+  {
+    "id": "idiom:idiom-90",
+    "type": "idiom",
+    "ordinal": 90,
+    "label": "#90 · 向某人請教／請教某人的意見",
+    "detail": "Idiom #90 · pick someone’s brains",
+    "url": "idiom-system.html?lesson=idiom-90"
+  },
+  {
+    "id": "idiom:idiom-91",
+    "type": "idiom",
+    "ordinal": 91,
+    "label": "#91 · 渡過難關／開始好轉",
+    "detail": "Idiom #91 · Turn The Corner",
+    "url": "idiom-system.html?lesson=idiom-91"
+  },
+  {
+    "id": "idiom:idiom-92",
+    "type": "idiom",
+    "ordinal": 92,
+    "label": "#92 · 提心吊膽／極度緊張",
+    "detail": "Idiom #92 · have your heart in your mouth",
+    "url": "idiom-system.html?lesson=idiom-92"
+  },
+  {
+    "id": "idiom:idiom-93",
+    "type": "idiom",
+    "ordinal": 93,
+    "label": "#93 · 不只外表漂亮／有才有貌",
+    "detail": "Idiom #93 · not just a pretty face",
+    "url": "idiom-system.html?lesson=idiom-93"
+  },
+  {
+    "id": "idiom:idiom-94",
+    "type": "idiom",
+    "ordinal": 94,
+    "label": "#94 · 因低級錯誤而失手／犯下令人尷尬的錯誤",
+    "detail": "Idiom #94 · Slip on a Banana Skin",
+    "url": "idiom-system.html?lesson=idiom-94"
+  },
+  {
+    "id": "idiom:idiom-95",
+    "type": "idiom",
+    "ordinal": 95,
+    "label": "#95 · 配角／第二號人物",
+    "detail": "Idiom #95 · second banana",
+    "url": "idiom-system.html?lesson=idiom-95"
+  },
+  {
+    "id": "idiom:idiom-96",
+    "type": "idiom",
+    "ordinal": 96,
+    "label": "#96 · 瘦骨嶙峋／皮包骨",
+    "detail": "Idiom #96 · a bag of bones",
+    "url": "idiom-system.html?lesson=idiom-96"
+  },
+  {
+    "id": "idiom:idiom-97",
+    "type": "idiom",
+    "ordinal": 97,
+    "label": "#97 · 回到原點／回到起點",
+    "detail": "Idiom #97 · back to square one",
+    "url": "idiom-system.html?lesson=idiom-97"
+  },
+  {
+    "id": "idiom:idiom-98",
+    "type": "idiom",
+    "ordinal": 98,
+    "label": "#98 · 鳥瞰／全局概覽",
+    "detail": "Idiom #98 · A Bird’s-Eye View",
+    "url": "idiom-system.html?lesson=idiom-98"
+  },
+  {
+    "id": "idiom:idiom-99",
+    "type": "idiom",
+    "ordinal": 99,
+    "label": "#99 · 休整／平復打擊",
+    "detail": "Idiom #99 · lick your wounds",
+    "url": "idiom-system.html?lesson=idiom-99"
+  },
+  {
+    "id": "idiom:idiom-100",
+    "type": "idiom",
+    "ordinal": 100,
+    "label": "#100 · 謹慎行事／採取較穩妥的做法",
+    "detail": "Idiom #100 · play it safe",
+    "url": "idiom-system.html?lesson=idiom-100"
+  },
+  {
+    "id": "idiom:idiom-101",
+    "type": "idiom",
+    "ordinal": 101,
+    "label": "#101 · 最高話事人／頭號人物",
+    "detail": "Idiom #101 · top banana",
+    "url": "idiom-system.html?lesson=idiom-101"
+  },
+  {
+    "id": "idiom:idiom-102",
+    "type": "idiom",
+    "ordinal": 102,
+    "label": "#102 · 上流名人／時尚名流",
+    "detail": "Idiom #102 · the beautiful people",
+    "url": "idiom-system.html?lesson=idiom-102"
+  },
+  {
+    "id": "idiom:idiom-103",
+    "type": "idiom",
+    "ordinal": 103,
+    "label": "#103 · 受到嚴厲責罵／受罰",
+    "detail": "Idiom #103 · get it in the neck",
+    "url": "idiom-system.html?lesson=idiom-103"
+  },
+  {
+    "id": "idiom:idiom-104",
+    "type": "idiom",
+    "ordinal": 104,
+    "label": "#104 · 指手畫腳的乘客／愛管閒事者",
+    "detail": "Idiom #104 · a back-seat driver",
+    "url": "idiom-system.html?lesson=idiom-104"
+  },
+  {
+    "id": "idiom:idiom-105",
+    "type": "idiom",
+    "ordinal": 105,
+    "label": "#105 · 持續的爭執／長期爭論不休",
+    "detail": "Idiom #105 · a running battle",
+    "url": "idiom-system.html?lesson=idiom-105"
+  },
+  {
+    "id": "idiom:idiom-106",
+    "type": "idiom",
+    "ordinal": 106,
+    "label": "#106 · 打一場必敗之仗／徒勞抗爭",
+    "detail": "Idiom #106 · (fight) a losing battle",
+    "url": "idiom-system.html?lesson=idiom-106"
+  },
+  {
+    "id": "idiom:idiom-107",
+    "type": "idiom",
+    "ordinal": 107,
+    "label": "#107 · 一場激烈對抗／一場激烈爭奪",
+    "detail": "Idiom #107 · A Pitched Battle",
+    "url": "idiom-system.html?lesson=idiom-107"
+  },
+  {
+    "id": "idiom:idiom-108",
+    "type": "idiom",
+    "ordinal": 108,
+    "label": "#108 · 一個巴掌拍不響／雙方都有責任",
+    "detail": "Idiom #108 · it takes two to tango",
+    "url": "idiom-system.html?lesson=idiom-108"
+  },
+  {
+    "id": "idiom:idiom-109",
+    "type": "idiom",
+    "ordinal": 109,
+    "label": "#109 · 精力充沛／充滿幹勁",
+    "detail": "Idiom #109 · A Tiger In Your Tank",
+    "url": "idiom-system.html?lesson=idiom-109"
+  },
+  {
+    "id": "idiom:idiom-110",
+    "type": "idiom",
+    "ordinal": 110,
+    "label": "#110 · 嫌隙／積怨",
+    "detail": "Idiom #110 · bad blood",
+    "url": "idiom-system.html?lesson=idiom-110"
+  },
+  {
+    "id": "idiom:idiom-111",
+    "type": "idiom",
+    "ordinal": 111,
+    "label": "#111 · 非常合身／非常合腳",
+    "detail": "Idiom #111 · fit like a glove",
+    "url": "idiom-system.html?lesson=idiom-111"
+  },
+  {
+    "id": "idiom:idiom-112",
+    "type": "idiom",
+    "ordinal": 112,
+    "label": "#112 · 千真萬確／毫無疑問",
+    "detail": "Idiom #112 · as sure as eggs is eggs",
+    "url": "idiom-system.html?lesson=idiom-112"
+  },
+  {
+    "id": "idiom:idiom-113",
+    "type": "idiom",
+    "ordinal": 113,
+    "label": "#113 · 亂七八糟／混亂無序",
+    "detail": "Idiom #113 · At Sixes and Sevens",
+    "url": "idiom-system.html?lesson=idiom-113"
+  },
+  {
+    "id": "idiom:idiom-114",
+    "type": "idiom",
+    "ordinal": 114,
+    "label": "#114 · 輕鬆愉快的生活／舒適順利的處境",
+    "detail": "Idiom #114 · a bed of roses",
+    "url": "idiom-system.html?lesson=idiom-114"
+  },
+  {
+    "id": "idiom:idiom-115",
+    "type": "idiom",
+    "ordinal": 115,
+    "label": "#115 · 花費一大筆錢／價錢高昂",
+    "detail": "Idiom #115 · cost the earth",
+    "url": "idiom-system.html?lesson=idiom-115"
+  },
+  {
+    "id": "idiom:idiom-116",
+    "type": "idiom",
+    "ordinal": 116,
+    "label": "#116 · 暫緩行動／延後決定",
+    "detail": "Idiom #116 · hang fire",
+    "url": "idiom-system.html?lesson=idiom-116"
+  },
+  {
+    "id": "idiom:idiom-117",
+    "type": "idiom",
+    "ordinal": 117,
+    "label": "#117 · 說曹操，曹操到／剛提起便出現",
+    "detail": "Idiom #117 · speak of the devil",
+    "url": "idiom-system.html?lesson=idiom-117"
+  },
+  {
+    "id": "idiom:idiom-118",
+    "type": "idiom",
+    "ordinal": 118,
+    "label": "#118 · 隨大流／順應潮流",
+    "detail": "Idiom #118 · go with the tide",
+    "url": "idiom-system.html?lesson=idiom-118"
+  },
+  {
+    "id": "idiom:idiom-119",
+    "type": "idiom",
+    "ordinal": 119,
+    "label": "#119 · 逃避現實／不願面對問題",
+    "detail": "Idiom #119 · Bury Your Head in the Sand",
+    "url": "idiom-system.html?lesson=idiom-119"
+  },
+  {
+    "id": "idiom:idiom-120",
+    "type": "idiom",
+    "ordinal": 120,
+    "label": "#120 · 把原本應該保密的消息說出來／洩露秘密",
+    "detail": "Idiom #120 · spill the beans",
+    "url": "idiom-system.html?lesson=idiom-120"
+  },
+  {
+    "id": "idiom:idiom-121",
+    "type": "idiom",
+    "ordinal": 121,
+    "label": "#121 · 亮出底牌／透露意圖",
+    "detail": "Idiom #121 · show your hand",
+    "url": "idiom-system.html?lesson=idiom-121"
+  },
+  {
+    "id": "idiom:idiom-122",
+    "type": "idiom",
+    "ordinal": 122,
+    "label": "#122 · 白紙黑字寫明／以書面列明",
+    "detail": "Idiom #122 · In Black and White",
+    "url": "idiom-system.html?lesson=idiom-122"
+  },
+  {
+    "id": "idiom:idiom-123",
+    "type": "idiom",
+    "ordinal": 123,
+    "label": "#123 · 因禍得福／塞翁失馬",
+    "detail": "Idiom #123 · a blessing in disguise",
+    "url": "idiom-system.html?lesson=idiom-123"
+  },
+  {
+    "id": "idiom:idiom-124",
+    "type": "idiom",
+    "ordinal": 124,
+    "label": "#124 · 新手的好運／初次嘗試時意外成功",
+    "detail": "Idiom #124 · beginner’s luck",
+    "url": "idiom-system.html?lesson=idiom-124"
+  },
+  {
+    "id": "idiom:idiom-125",
+    "type": "idiom",
+    "ordinal": 125,
+    "label": "#125 · 低頭認錯／承認失敗",
+    "detail": "Idiom #125 · eat humble pie",
+    "url": "idiom-system.html?lesson=idiom-125"
+  },
+  {
+    "id": "idiom:idiom-126",
+    "type": "idiom",
+    "ordinal": 126,
+    "label": "#126 · 不能相提並論／截然不同",
+    "detail": "Idiom #126 · apples and oranges",
+    "url": "idiom-system.html?lesson=idiom-126"
+  },
+  {
+    "id": "idiom:idiom-127",
+    "type": "idiom",
+    "ordinal": 127,
+    "label": "#127 · 棋逢敵手／高手過招",
+    "detail": "Idiom #127 · Diamond Cuts Diamond",
+    "url": "idiom-system.html?lesson=idiom-127"
+  },
+  {
+    "id": "idiom:idiom-128",
+    "type": "idiom",
+    "ordinal": 128,
+    "label": "#128 · 欣喜若狂／興奮異常",
+    "detail": "Idiom #128 · walk on air",
+    "url": "idiom-system.html?lesson=idiom-128"
+  },
+  {
+    "id": "idiom:idiom-129",
+    "type": "idiom",
+    "ordinal": 129,
+    "label": "#129 · 高興極了／開心得不得了",
+    "detail": "Idiom #129 · on cloud nine",
+    "url": "idiom-system.html?lesson=idiom-129"
+  },
+  {
+    "id": "idiom:idiom-130",
+    "type": "idiom",
+    "ordinal": 130,
+    "label": "#130 · 幾乎總是／十有八九",
+    "detail": "Idiom #130 · nine times out of ten",
+    "url": "idiom-system.html?lesson=idiom-130"
+  },
+  {
+    "id": "idiom:idiom-131",
+    "type": "idiom",
+    "ordinal": 131,
+    "label": "#131 · 玩命／冒生命危險",
+    "detail": "Idiom #131 · dice with death",
+    "url": "idiom-system.html?lesson=idiom-131"
+  },
+  {
+    "id": "idiom:idiom-132",
+    "type": "idiom",
+    "ordinal": 132,
+    "label": "#132 · 煙幕／障眼法",
+    "detail": "Idiom #132 · smoke and mirrors",
+    "url": "idiom-system.html?lesson=idiom-132"
+  },
+  {
+    "id": "idiom:idiom-133",
+    "type": "idiom",
+    "ordinal": 133,
+    "label": "#133 · 感到反胃／感到噁心",
+    "detail": "Idiom #133 · Sick to Your Stomach",
+    "url": "idiom-system.html?lesson=idiom-133"
+  },
+  {
+    "id": "idiom:idiom-134",
+    "type": "idiom",
+    "ordinal": 134,
+    "label": "#134 · 打亂計劃／破壞局面",
+    "detail": "Idiom #134 · Upset the Apple Cart",
+    "url": "idiom-system.html?lesson=idiom-134"
+  },
+  {
+    "id": "idiom:idiom-135",
+    "type": "idiom",
+    "ordinal": 135,
+    "label": "#135 · 一心想要／立志得到",
+    "detail": "Idiom #135 · set one’s heart on",
+    "url": "idiom-system.html?lesson=idiom-135"
+  },
+  {
+    "id": "idiom:idiom-136",
+    "type": "idiom",
+    "ordinal": 136,
+    "label": "#136 · 精力充沛／活力十足",
+    "detail": "Idiom #136 · full of beans",
+    "url": "idiom-system.html?lesson=idiom-136"
+  },
+  {
+    "id": "idiom:idiom-137",
+    "type": "idiom",
+    "ordinal": 137,
+    "label": "#137 · 看清風向／探清形勢",
+    "detail": "Idiom #137 · Which Way the Wind Blows",
+    "url": "idiom-system.html?lesson=idiom-137"
+  },
+  {
+    "id": "idiom:idiom-138",
+    "type": "idiom",
+    "ordinal": 138,
+    "label": "#138 · 極少／非常罕有",
+    "detail": "Idiom #138 · once in a blue moon",
+    "url": "idiom-system.html?lesson=idiom-138"
+  },
+  {
     "id": "phrasal-verb:phrasal-verb-01",
     "type": "phrasal-verb",
     "ordinal": 1,
@@ -17875,6 +18779,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "proverb-system.html?lesson=proverb-01"
   },
   {
+    "id": "proverb:proverb-02",
+    "type": "proverb",
+    "ordinal": 2,
+    "label": "#2 · 人人都有價碼",
+    "detail": "Proverb #2 · Every Man Has His Price",
+    "url": "proverb-system.html?lesson=proverb-02"
+  },
+  {
+    "id": "proverb:proverb-03",
+    "type": "proverb",
+    "ordinal": 3,
+    "label": "#3 · 一朝被蛇咬，十年怕草繩",
+    "detail": "Proverb #3 · Once Bitten, Twice Shy",
+    "url": "proverb-system.html?lesson=proverb-03"
+  },
+  {
     "id": "sentence:ss1",
     "type": "sentence-structure",
     "ordinal": 1,
@@ -20073,6 +20993,566 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "#275 · 「It is worth noting that 句：指出值得留意的重點」",
     "detail": "Sentence Structure #275 · Using “It is worth noting that” to highlight an important point",
     "url": "sentence-structure.html?lesson=ss275"
+  },
+  {
+    "id": "sentence:ss276",
+    "type": "sentence-structure",
+    "ordinal": 276,
+    "label": "#276 · 「In terms of + topic」表示「就……而言／在……方面」",
+    "detail": "Sentence Structure #276 · Using “In terms of + topic”",
+    "url": "sentence-structure.html?lesson=ss276"
+  },
+  {
+    "id": "sentence:ss277",
+    "type": "sentence-structure",
+    "ordinal": 277,
+    "label": "#277 · 「When it comes to + noun / V-ing」表示「說到／談到……方面」",
+    "detail": "Sentence Structure #277 · Using “When it comes to + noun / V-ing”",
+    "url": "sentence-structure.html?lesson=ss277"
+  },
+  {
+    "id": "sentence:ss278",
+    "type": "sentence-structure",
+    "ordinal": 278,
+    "label": "#278 · 「Take X, for example」引入具體例子",
+    "detail": "Sentence Structure #278 · Using “Take X, for example”",
+    "url": "sentence-structure.html?lesson=ss278"
+  },
+  {
+    "id": "sentence:ss279",
+    "type": "sentence-structure",
+    "ordinal": 279,
+    "label": "#279 · 「A case in point」引出切合的例證",
+    "detail": "Sentence Structure #279 · Using “A case in point”",
+    "url": "sentence-structure.html?lesson=ss279"
+  },
+  {
+    "id": "sentence:ss280",
+    "type": "sentence-structure",
+    "ordinal": 280,
+    "label": "#280 · 「Namely」精確列明內容",
+    "detail": "Sentence Structure #280 · Using “Namely”",
+    "url": "sentence-structure.html?lesson=ss280"
+  },
+  {
+    "id": "sentence:ss281",
+    "type": "sentence-structure",
+    "ordinal": 281,
+    "label": "#281 · 「That is to say, …句」",
+    "detail": "Sentence Structure #281 · Using “That is to say, …clause”",
+    "url": "sentence-structure.html?lesson=ss281"
+  },
+  {
+    "id": "sentence:ss282",
+    "type": "sentence-structure",
+    "ordinal": 282,
+    "label": "#282 · 「More specifically / More precisely」補充具體資料及提高準確度",
+    "detail": "Sentence Structure #282 · Using “More specifically / More precisely”",
+    "url": "sentence-structure.html?lesson=ss282"
+  },
+  {
+    "id": "sentence:ss283",
+    "type": "sentence-structure",
+    "ordinal": 283,
+    "label": "#283 · 「How about + noun / V-ing?」",
+    "detail": "Sentence Structure #283 · Using “How about + noun / V-ing?”",
+    "url": "sentence-structure.html?lesson=ss283"
+  },
+  {
+    "id": "sentence:ss284",
+    "type": "sentence-structure",
+    "ordinal": 284,
+    "label": "#284 · 「I was wondering if / whether …」禮貌地提出請求或詢問",
+    "detail": "Sentence Structure #284 · Using “I was wondering if / whether …”",
+    "url": "sentence-structure.html?lesson=ss284"
+  },
+  {
+    "id": "sentence:ss285",
+    "type": "sentence-structure",
+    "ordinal": 285,
+    "label": "#285 · 「Do you happen to know …?」禮貌地詢問資料",
+    "detail": "Sentence Structure #285 · Using “Do you happen to know …?”",
+    "url": "sentence-structure.html?lesson=ss285"
+  },
+  {
+    "id": "sentence:ss286",
+    "type": "sentence-structure",
+    "ordinal": 286,
+    "label": "#286 · 「You might want to + 動詞」提出溫和建議",
+    "detail": "Sentence Structure #286 · Using “You might want to + verb”",
+    "url": "sentence-structure.html?lesson=ss286"
+  },
+  {
+    "id": "sentence:ss287",
+    "type": "sentence-structure",
+    "ordinal": 287,
+    "label": "#287 · 「The catch is that + 子句」指出隱藏問題",
+    "detail": "Sentence Structure #287 · Using “The catch is that + clause”",
+    "url": "sentence-structure.html?lesson=ss287"
+  },
+  {
+    "id": "sentence:ss288",
+    "type": "sentence-structure",
+    "ordinal": 288,
+    "label": "#288 · 「Who am I to...? / Who are you to...?」句",
+    "detail": "Sentence Structure #288 · Using “Who am I to...? / Who are you to...?”",
+    "url": "sentence-structure.html?lesson=ss288"
+  },
+  {
+    "id": "sentence:ss289",
+    "type": "sentence-structure",
+    "ordinal": 289,
+    "label": "#289 · 「It was only after X that Y」直到……之後才……",
+    "detail": "Sentence Structure #289 · Using “It was only after X that Y”",
+    "url": "sentence-structure.html?lesson=ss289"
+  },
+  {
+    "id": "sentence:ss290",
+    "type": "sentence-structure",
+    "ordinal": 290,
+    "label": "#290 · 「What gives + person + the right to + verb?」質問某人憑甚麼有權做某事",
+    "detail": "Sentence Structure #290 · Using “What gives + person + the right to + verb?”",
+    "url": "sentence-structure.html?lesson=ss290"
+  },
+  {
+    "id": "sentence:ss291",
+    "type": "sentence-structure",
+    "ordinal": 291,
+    "label": "#291 · 「It is (not) for + person + to + verb」表示由誰決定",
+    "detail": "Sentence Structure #291 · Using “It is (not) for + person + to + verb”",
+    "url": "sentence-structure.html?lesson=ss291"
+  },
+  {
+    "id": "sentence:ss292",
+    "type": "sentence-structure",
+    "ordinal": 292,
+    "label": "#292 · 「Far be it from + person + to + verb」禮貌否認與自我抽離句",
+    "detail": "Sentence Structure #292 · Using “Far be it from + person + to + verb”",
+    "url": "sentence-structure.html?lesson=ss292"
+  },
+  {
+    "id": "sentence:ss293",
+    "type": "sentence-structure",
+    "ordinal": 293,
+    "label": "#293 · 「have no business + V-ing」表示沒有資格或不應做某事",
+    "detail": "Sentence Structure #293 · Using “have no business + V-ing”",
+    "url": "sentence-structure.html?lesson=ss293"
+  },
+  {
+    "id": "sentence:ss294",
+    "type": "sentence-structure",
+    "ordinal": 294,
+    "label": "#294 · 「Person / Organisation + be in no position to + verb」",
+    "detail": "Sentence Structure #294 · Using “Person / Organisation + be in no position to + verb”",
+    "url": "sentence-structure.html?lesson=ss294"
+  },
+  {
+    "id": "sentence:ss295",
+    "type": "sentence-structure",
+    "ordinal": 295,
+    "label": "#295 · 「It falls to + person + to + verb」",
+    "detail": "Sentence Structure #295 · Using “It falls to + person + to + verb”",
+    "url": "sentence-structure.html?lesson=ss295"
+  },
+  {
+    "id": "sentence:ss296",
+    "type": "sentence-structure",
+    "ordinal": 296,
+    "label": "#296 · 「Leave it to + person + to + verb」",
+    "detail": "Sentence Structure #296 · Using “Leave it to + person + to + verb”",
+    "url": "sentence-structure.html?lesson=ss296"
+  },
+  {
+    "id": "sentence:ss297",
+    "type": "sentence-structure",
+    "ordinal": 297,
+    "label": "#297 · 「be under no obligation to + 動詞」表示「沒有義務做某事」",
+    "detail": "Sentence Structure #297 · Using “be under no obligation to + verb”",
+    "url": "sentence-structure.html?lesson=ss297"
+  },
+  {
+    "id": "sentence:ss298",
+    "type": "sentence-structure",
+    "ordinal": 298,
+    "label": "#298 · 「What is stopping + person + from + V-ing?」詢問障礙",
+    "detail": "Sentence Structure #298 · Using “What is stopping + person + from + V-ing?”",
+    "url": "sentence-structure.html?lesson=ss298"
+  },
+  {
+    "id": "sentence:ss299",
+    "type": "sentence-structure",
+    "ordinal": 299,
+    "label": "#299 · 「What makes you think + clause?」詢問想法的根據",
+    "detail": "Sentence Structure #299 · Using “What makes you think + clause?”",
+    "url": "sentence-structure.html?lesson=ss299"
+  },
+  {
+    "id": "sentence:ss300",
+    "type": "sentence-structure",
+    "ordinal": 300,
+    "label": "#300 · 「How am I / are we supposed to + verb?」",
+    "detail": "Sentence Structure #300 · Using “How am I / are we supposed to + verb?”",
+    "url": "sentence-structure.html?lesson=ss300"
+  },
+  {
+    "id": "sentence:ss301",
+    "type": "sentence-structure",
+    "ordinal": 301,
+    "label": "#301 · 「What difference does it make whether / if…？」詢問會造成甚麼實際分別",
+    "detail": "Sentence Structure #301 · Using “What difference does it make whether / if…?”",
+    "url": "sentence-structure.html?lesson=ss301"
+  },
+  {
+    "id": "sentence:ss302",
+    "type": "sentence-structure",
+    "ordinal": 302,
+    "label": "#302 · 「How come + Statement Word Order 陳述句語序」",
+    "detail": "Sentence Structure #302 · Using “How come + Statement Word Order clause”",
+    "url": "sentence-structure.html?lesson=ss302"
+  },
+  {
+    "id": "sentence:ss303",
+    "type": "sentence-structure",
+    "ordinal": 303,
+    "label": "#303 · 「Since when...?」追問事情由何時開始",
+    "detail": "Sentence Structure #303 · Using “Since when...?”",
+    "url": "sentence-structure.html?lesson=ss303"
+  },
+  {
+    "id": "sentence:ss304",
+    "type": "sentence-structure",
+    "ordinal": 304,
+    "label": "#304 · 「Who would have thought that + clause?」表達意想不到的結果",
+    "detail": "Sentence Structure #304 · Using “Who would have thought that + clause?”",
+    "url": "sentence-structure.html?lesson=ss304"
+  },
+  {
+    "id": "sentence:ss305",
+    "type": "sentence-structure",
+    "ordinal": 305,
+    "label": "#305 · 「Is it any wonder that + 子句？」表示「難怪……／……又有甚麼奇怪呢？」",
+    "detail": "Sentence Structure #305 · Using “Is it any wonder that + clause?”",
+    "url": "sentence-structure.html?lesson=ss305"
+  },
+  {
+    "id": "sentence:ss306",
+    "type": "sentence-structure",
+    "ordinal": 306,
+    "label": "#306 · 「Where does that leave + person / group?」陷入甚麼處境",
+    "detail": "Sentence Structure #306 · Using “Where does that leave + person / group?”",
+    "url": "sentence-structure.html?lesson=ss306"
+  },
+  {
+    "id": "sentence:ss307",
+    "type": "sentence-structure",
+    "ordinal": 307,
+    "label": "#307 · 「If you ask me, + clause」表達個人看法",
+    "detail": "Sentence Structure #307 · Using “If you ask me, + clause”",
+    "url": "sentence-structure.html?lesson=ss307"
+  },
+  {
+    "id": "sentence:ss308",
+    "type": "sentence-structure",
+    "ordinal": 308,
+    "label": "#308 · 「If I may」禮貌提出意見、問題或補充",
+    "detail": "Sentence Structure #308 · Using “If I may”",
+    "url": "sentence-structure.html?lesson=ss308"
+  },
+  {
+    "id": "sentence:ss309",
+    "type": "sentence-structure",
+    "ordinal": 309,
+    "label": "#309 · 「If you do not mind me saying」禮貌提出敏感意見",
+    "detail": "Sentence Structure #309 · Using “If you do not mind me saying”",
+    "url": "sentence-structure.html?lesson=ss309"
+  },
+  {
+    "id": "sentence:ss310",
+    "type": "sentence-structure",
+    "ordinal": 310,
+    "label": "#310 · 「Correct me if I am wrong」禮貌地確認資料或提出看法",
+    "detail": "Sentence Structure #310 · Using “Correct me if I am wrong”",
+    "url": "sentence-structure.html?lesson=ss310"
+  },
+  {
+    "id": "sentence:ss311",
+    "type": "sentence-structure",
+    "ordinal": 311,
+    "label": "#311 · 「Do not get me wrong, but + clause」句",
+    "detail": "Sentence Structure #311 · Using “Do not get me wrong, but + clause”",
+    "url": "sentence-structure.html?lesson=ss311"
+  },
+  {
+    "id": "sentence:ss312",
+    "type": "sentence-structure",
+    "ordinal": 312,
+    "label": "#312 · 「With all due respect, + clause」禮貌地提出異議",
+    "detail": "Sentence Structure #312 · Using “With all due respect, + clause”",
+    "url": "sentence-structure.html?lesson=ss312"
+  },
+  {
+    "id": "sentence:ss313",
+    "type": "sentence-structure",
+    "ordinal": 313,
+    "label": "#313 · 「I take your point, but + clause」禮貌表達不同意見",
+    "detail": "Sentence Structure #313 · Using “I take your point, but + clause”",
+    "url": "sentence-structure.html?lesson=ss313"
+  },
+  {
+    "id": "sentence:ss314",
+    "type": "sentence-structure",
+    "ordinal": 314,
+    "label": "#314 · 「I see where you are coming from, but + clause」先表示理解，再提出不同意見",
+    "detail": "Sentence Structure #314 · Using “I see where you are coming from, but + clause”",
+    "url": "sentence-structure.html?lesson=ss314"
+  },
+  {
+    "id": "sentence:ss315",
+    "type": "sentence-structure",
+    "ordinal": 315,
+    "label": "#315 · 「That may be so, but + clause」",
+    "detail": "Sentence Structure #315 · Using “That may be so, but + clause”",
+    "url": "sentence-structure.html?lesson=ss315"
+  },
+  {
+    "id": "sentence:ss316",
+    "type": "sentence-structure",
+    "ordinal": 316,
+    "label": "#316 · 「Let me be clear: + clause」",
+    "detail": "Sentence Structure #316 · Using “Let me be clear: + clause”",
+    "url": "sentence-structure.html?lesson=ss316"
+  },
+  {
+    "id": "sentence:ss317",
+    "type": "sentence-structure",
+    "ordinal": 317,
+    "label": "#317 · 「Let me put it this way: + clause」換個方式說明觀點",
+    "detail": "Sentence Structure #317 · Using “Let me put it this way: + clause”",
+    "url": "sentence-structure.html?lesson=ss317"
+  },
+  {
+    "id": "sentence:ss318",
+    "type": "sentence-structure",
+    "ordinal": 318,
+    "label": "#318 · 「For what it is worth」謙遜地提出意見、資料或建議",
+    "detail": "Sentence Structure #318 · Using “For what it is worth”",
+    "url": "sentence-structure.html?lesson=ss318"
+  },
+  {
+    "id": "sentence:ss319",
+    "type": "sentence-structure",
+    "ordinal": 319,
+    "label": "#319 · 「There is no guarantee that + clause」表示「不能保證……／……未必一定會發生」",
+    "detail": "Sentence Structure #319 · Using “There is no guarantee that + clause”",
+    "url": "sentence-structure.html?lesson=ss319"
+  },
+  {
+    "id": "sentence:ss320",
+    "type": "sentence-structure",
+    "ordinal": 320,
+    "label": "#320 · 「There is no telling + wh-clause」表示無法得知或預料",
+    "detail": "Sentence Structure #320 · Using “There is no telling + wh-clause”",
+    "url": "sentence-structure.html?lesson=ss320"
+  },
+  {
+    "id": "sentence:ss321",
+    "type": "sentence-structure",
+    "ordinal": 321,
+    "label": "#321 · 「It is anyone’s guess + wh-clause」表示「誰也說不準……」",
+    "detail": "Sentence Structure #321 · Using “It is anyone’s guess + wh-clause”",
+    "url": "sentence-structure.html?lesson=ss321"
+  },
+  {
+    "id": "sentence:ss322",
+    "type": "sentence-structure",
+    "ordinal": 322,
+    "label": "#322 · 「Chances are that + clause：很可能……」",
+    "detail": "Sentence Structure #322 · Using “Chances are that + clause:……”",
+    "url": "sentence-structure.html?lesson=ss322"
+  },
+  {
+    "id": "sentence:ss323",
+    "type": "sentence-structure",
+    "ordinal": 323,
+    "label": "#323 · 「Everything points to + noun / V-ing」表示「所有證據都指向……」",
+    "detail": "Sentence Structure #323 · Using “Everything points to + noun / V-ing”",
+    "url": "sentence-structure.html?lesson=ss323"
+  },
+  {
+    "id": "sentence:ss324",
+    "type": "sentence-structure",
+    "ordinal": 324,
+    "label": "#324 · 「X is anything but + adjective」表示「X 絕非……／一點也不……」",
+    "detail": "Sentence Structure #324 · Using “X is anything but + adjective”",
+    "url": "sentence-structure.html?lesson=ss324"
+  },
+  {
+    "id": "sentence:ss325",
+    "type": "sentence-structure",
+    "ordinal": 325,
+    "label": "#325 · 「X is all but + adjective / past participle」",
+    "detail": "Sentence Structure #325 · Using “X is all but + adjective / past participle”",
+    "url": "sentence-structure.html?lesson=ss325"
+  },
+  {
+    "id": "sentence:ss326",
+    "type": "sentence-structure",
+    "ordinal": 326,
+    "label": "#326 · 「nothing short of + 名詞／形容詞」表示強烈評價",
+    "detail": "Sentence Structure #326 · Using “nothing short of + noun / adjective”",
+    "url": "sentence-structure.html?lesson=ss326"
+  },
+  {
+    "id": "sentence:ss327",
+    "type": "sentence-structure",
+    "ordinal": 327,
+    "label": "#327 · 「X is more of A than B」與其說 X 是 B，不如說 X 是 A",
+    "detail": "Sentence Structure #327 · Using “X is more of A than B”",
+    "url": "sentence-structure.html?lesson=ss327"
+  },
+  {
+    "id": "sentence:ss328",
+    "type": "sentence-structure",
+    "ordinal": 328,
+    "label": "#328 · 「X is not without its + merits / problems / risks」保留式評價句",
+    "detail": "Sentence Structure #328 · Using “X is not without its + merits / problems / risks”",
+    "url": "sentence-structure.html?lesson=ss328"
+  },
+  {
+    "id": "sentence:ss329",
+    "type": "sentence-structure",
+    "ordinal": 329,
+    "label": "#329 · 「X is easier said than done」",
+    "detail": "Sentence Structure #329 · Using “X is easier said than done”",
+    "url": "sentence-structure.html?lesson=ss329"
+  },
+  {
+    "id": "sentence:ss330",
+    "type": "sentence-structure",
+    "ordinal": 330,
+    "label": "#330 · 「X leaves much to be desired：表示某事物很不理想」",
+    "detail": "Sentence Structure #330 · Using “X leaves much to be desired”",
+    "url": "sentence-structure.html?lesson=ss330"
+  },
+  {
+    "id": "sentence:ss331",
+    "type": "sentence-structure",
+    "ordinal": 331,
+    "label": "#331 · 「X is not to be confused with Y」",
+    "detail": "Sentence Structure #331 · Using “X is not to be confused with Y”",
+    "url": "sentence-structure.html?lesson=ss331"
+  },
+  {
+    "id": "sentence:ss332",
+    "type": "sentence-structure",
+    "ordinal": 332,
+    "label": "#332 · 「X is a far cry from Y」",
+    "detail": "Sentence Structure #332 · Using “X is a far cry from Y”",
+    "url": "sentence-structure.html?lesson=ss332"
+  },
+  {
+    "id": "sentence:ss333",
+    "type": "sentence-structure",
+    "ordinal": 333,
+    "label": "#333 · 「X goes to show that + clause：由事例帶出結論」",
+    "detail": "Sentence Structure #333 · Using “X goes to show that + clause”",
+    "url": "sentence-structure.html?lesson=ss333"
+  },
+  {
+    "id": "sentence:ss334",
+    "type": "sentence-structure",
+    "ordinal": 334,
+    "label": "#334 · 「X serves as a reminder that + clause」表達提醒、教訓或啟示",
+    "detail": "Sentence Structure #334 · Using “X serves as a reminder that + clause”",
+    "url": "sentence-structure.html?lesson=ss334"
+  },
+  {
+    "id": "sentence:ss335",
+    "type": "sentence-structure",
+    "ordinal": 335,
+    "label": "#335 · 「set the stage for + 名詞」表示「為……創造條件／鋪路」",
+    "detail": "Sentence Structure #335 · Using “set the stage for + noun”",
+    "url": "sentence-structure.html?lesson=ss335"
+  },
+  {
+    "id": "sentence:ss336",
+    "type": "sentence-structure",
+    "ordinal": 336,
+    "label": "#336 · 「come at the cost of + 名詞／V-ing」表示「以……為代價」",
+    "detail": "Sentence Structure #336 · Using “come at the cost of + noun / V-ing”",
+    "url": "sentence-structure.html?lesson=ss336"
+  },
+  {
+    "id": "sentence:ss337",
+    "type": "sentence-structure",
+    "ordinal": 337,
+    "label": "#337 · 「X boils down to + 名詞／V-ing／名詞子句」",
+    "detail": "Sentence Structure #337 · Using “X boils down to + noun / V-ing / noun clause”",
+    "url": "sentence-structure.html?lesson=ss337"
+  },
+  {
+    "id": "sentence:ss338",
+    "type": "sentence-structure",
+    "ordinal": 338,
+    "label": "#338 · 「X translates into + noun」表示「X 會帶來／轉化為某種結果」",
+    "detail": "Sentence Structure #338 · Using “X translates into + noun”",
+    "url": "sentence-structure.html?lesson=ss338"
+  },
+  {
+    "id": "sentence:ss339",
+    "type": "sentence-structure",
+    "ordinal": 339,
+    "label": "#339 · 「It was not long before + clause」表示「不久便……」",
+    "detail": "Sentence Structure #339 · Using “It was not long before + clause”",
+    "url": "sentence-structure.html?lesson=ss339"
+  },
+  {
+    "id": "sentence:ss340",
+    "type": "sentence-structure",
+    "ordinal": 340,
+    "label": "#340 · 「It will not be long before + clause」表示「不用多久便會……」",
+    "detail": "Sentence Structure #340 · Using “It will not be long before + clause”",
+    "url": "sentence-structure.html?lesson=ss340"
+  },
+  {
+    "id": "sentence:ss341",
+    "type": "sentence-structure",
+    "ordinal": 341,
+    "label": "#341 · 「Before long」表示「不久之後」",
+    "detail": "Sentence Structure #341 · Using “Before long”",
+    "url": "sentence-structure.html?lesson=ss341"
+  },
+  {
+    "id": "sentence:ss342",
+    "type": "sentence-structure",
+    "ordinal": 342,
+    "label": "#342 · 「The time has come to + 動詞」",
+    "detail": "Sentence Structure #342 · Using “The time has come to + verb”",
+    "url": "sentence-structure.html?lesson=ss342"
+  },
+  {
+    "id": "sentence:ss343",
+    "type": "sentence-structure",
+    "ordinal": 343,
+    "label": "#343 · 「Gone are the days when + clause」表達「昔日已成過去」",
+    "detail": "Sentence Structure #343 · Using “Gone are the days when + clause”",
+    "url": "sentence-structure.html?lesson=ss343"
+  },
+  {
+    "id": "sentence:ss344",
+    "type": "sentence-structure",
+    "ordinal": 344,
+    "label": "#344 · 「It has been + period + since + clause」表示經過的時間",
+    "detail": "Sentence Structure #344 · Using “It has been + period + since + clause”",
+    "url": "sentence-structure.html?lesson=ss344"
+  },
+  {
+    "id": "sentence:ss345",
+    "type": "sentence-structure",
+    "ordinal": 345,
+    "label": "#345 · 「It was not until X that Y」強調「直到……才……」",
+    "detail": "Sentence Structure #345 · Using “It was not until X that Y”",
+    "url": "sentence-structure.html?lesson=ss345"
   },
   {
     "id": "speaking:ielts-part-2-book-2-exercise-09",

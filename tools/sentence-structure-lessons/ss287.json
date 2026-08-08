@@ -1,0 +1,1249 @@
+{
+  "id": "ss287",
+  "order": 287,
+  "slug": "the-catch-is-that-clause",
+  "title": "「The catch is that + 子句」指出隱藏問題",
+  "titleZh": "「The catch is that + 子句」指出隱藏問題",
+  "titleEn": "Using “The catch is that + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 286 -「The catch is that + 子句」指出隱藏問題.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "sha256": "4764cbef1fee8ff3ddd11bbc8db9a71490fff167186e7f184e68f96c09e73008",
+    "sourceNumber": 286,
+    "systemOrder": 287,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 286 maps to ss287: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "The catch + be + that + complete clause The catch is that the cheaper plan takes twice as long",
+  "formulas": [
+    {
+      "id": "ss287-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "The catch + be + that + complete clause The catch is that the cheaper plan takes twice as long"
+    }
+  ],
+  "example": "The catch is that the cheaper plan takes twice as long.",
+  "exampleZh": "問題在於，較便宜的計劃需要多一倍時間。",
+  "examples": [
+    {
+      "id": "ss287-example-01",
+      "en": "The catch is that the cheaper plan takes twice as long.",
+      "zh": "問題在於，較便宜的計劃需要多一倍時間。",
+      "highlight": "The catch is that the cheaper plan takes twice as long."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss287-rule-01",
+      "zh": "後面必須接完整子句完整子句需要有主語和動詞。問題在於房間很小。",
+      "en": "That The catch is that the room is very small. The catch is that very small. ✗",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss287-rule-02",
+      "zh": "固定連接部分是 The catch is that，is 與 that 之間不可加入逗號，否則會錯誤地切斷補充問題的子句。",
+      "en": "The catch is that the service ends at midnight. The catch is, that the service ends at midnight. ✗",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss287-rule-03",
+      "zh": "通常指出負面限制問題在於較便宜的車票不能退款。 景觀優美本身不是隱藏問題，因此一般不會放在 the catch is that 後面。",
+      "en": "The catch Natural: The catch is that the cheaper ticket cannot be refunded. Unnatural: The catch is that the hotel has an excellent view. ✗",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss287-rule-04",
+      "zh": "問題可以嚴重，也可以只是輕微不便問題在於房間沒有窗戶。 唯一的問題是咖啡店稍為有點遠。 不一定表示騙局或嚴重危險。",
+      "en": "The catch is that the room has no window. The only catch is that the café is a little far away. The catch",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss287-rule-05",
+      "zh": "句中的 be 動詞及 that 子句時態必須配合語境：現在情況用 is，過去情況用 was，談論未來問題時則可用 will be。",
+      "en": "Present: The catch is that the shop closes early. Past: The catch was that the shop closed early. Future: The catch will be that the shop closes before we arrive.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss287-rule-06",
+      "zh": "不要把未知情況改成肯定事實第二句把「可能不能運作」錯誤地改成「肯定不能運作」。",
+      "en": "Source: The software may not work on older computers. Accurate: One possible catch is that the software may not work on older computers. Too strong: The catch is that the software does not work on older computers. ✗",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss287-rule-07",
+      "zh": "不要誤以為 but 是固定句式的一部分完整句子：【The catch is that the room is small.】 加入背景資料：【The room is affordable, but the catch is that it is small.】 兩句都完整。以【but】為例：只是用來加入前面的正面資料。",
+      "en": "The catch is that the room is small. The room is affordable, but the catch is that it is small.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss287-benefit-01",
+      "zh": "清楚指出「表面吸引，實際有限制」這個句型可以先介紹一項優點，再提醒讀者注意背後的問題。這個計劃較便宜，但問題在於它需要多一倍時間。 讀者可以立即分辨：表面優點：價格較低；隱藏問題：所需時間較長。",
+      "en": "The plan is cheaper, but the catch is that it takes twice as long.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss287-benefit-02",
+      "zh": "讓評價更加平衡使用這個句型時，你不需要把一項計劃形容為完全好或完全差。這份工作的薪酬不錯，但問題在於必須在週末工作。 這種表達特別適合用於：比較不同選擇；評價產品或服務；分析建議；討論工作或課程；解釋決定。",
+      "en": "The job pays well, but the catch is that weekend work is required.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss287-benefit-03",
+      "zh": "把優點和缺點自然地連接起來這個單位的租金可以負擔。不過，大廈沒有升降機。 這個單位的租金可以負擔，但問題在於大廈沒有升降機。 第二句清楚說明「沒有升降機」是選擇這個單位時需要考慮的限制。",
+      "en": "Compare: The flat is affordable. However, the building has no lift. The flat is affordable, but the catch is that the building has no lift.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss287-benefit-04",
+      "zh": "適合即時回答「有甚麼問題？在會話中，這個句型是一個容易使用的回答框架。有甚麼隱藏條件？ 問題在於你必須簽署兩年合約。」 你只需要在 that 後面加入完整資料，便可以組織答案。",
+      "en": "“What is the catch?” “The catch is that you must sign a two-year contract.”",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss287-benefit-05",
+      "zh": "幫助你避免含糊的轉折只使用 but，有時未能清楚指出後面的資料是關鍵限制。這項服務是免費的，但它包含廣告。 這項服務是免費的，但問題在於它包含廣告。 第二句明確告訴讀者：廣告是免費服務背後的代價。",
+      "en": "The service is free, but it includes advertisements. The service is free, but the catch is that it includes advertisements.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss287-benefit-06",
+      "zh": "可以放在句子不同位置這個句型不必每次都放在句首。這些形式能增加句式變化，避免學生只靠位置猜答案。",
+      "en": "The catch is that the rooms are small. The hotel is convenient, but the catch is that the rooms are small. Although the hotel is convenient, the catch is that the rooms are small. At first, nobody noticed that the catch was that the rooms were small.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 286 maps to ss287: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using a structure containing catch + linking verb +",
+      "that-clause.",
+      "Use suitable forms such as:",
+      "The catch is that...",
+      "The only catch is that...",
+      "The catch with...is that...",
+      "The catch in...is that...",
+      "The catch was that...",
+      "The catch may be that...",
+      "The catch seems to be that...",
+      "the catch, however, is that...",
+      "Preserve the original meaning, tense, possibility and degree of certainty.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用包含 catch + 連繫動詞 + that 子句的句式改寫以下句子。",
+      "答案必須保留原句的意思、時態、可能性及肯定程度。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss287-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The cheaper plan has one hidden disadvantage: it takes twice as long.",
+      "promptZh": "較便宜的計劃有一項隱藏缺點：它需要多一倍時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The catch is that the cheaper plan takes twice as long.",
+      "answerZh": "問題在於，較便宜的計劃需要多一倍時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The catch is that the cheaper plan takes twice as long."
+    },
+    {
+      "id": "ss287-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The café has only one disadvantage: it closes at six.",
+      "promptZh": "這間咖啡店只有一個缺點：它六時關門。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The only catch is that the café closes at six.",
+      "answerZh": "唯一的問題是這間咖啡店六時關門。",
+      "answerZhSource": "pdf",
+      "highlight": "The only catch is that the café closes at six."
+    },
+    {
+      "id": "ss287-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The app has one disadvantage: it needs an internet connection.",
+      "promptZh": "這個應用程式有一個缺點：它需要連接互聯網。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One catch is that the app needs an internet connection.",
+      "answerZh": "其中一個問題是這個應用程式需要連接互聯網。",
+      "answerZhSource": "pdf",
+      "highlight": "One catch is that the app needs an internet connection."
+    },
+    {
+      "id": "ss287-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The flat has a hidden drawback: the building has no lift.",
+      "promptZh": "這個單位有一項隱藏缺點：大廈沒有升降機。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The catch with the flat is that the building has no lift.",
+      "answerZh": "這個單位的問題在於，大廈沒有升降機。",
+      "answerZhSource": "pdf",
+      "highlight": "The catch with the flat is that the building has no lift."
+    },
+    {
+      "id": "ss287-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The ticket has one main limitation: it cannot be changed.",
+      "promptZh": "這張車票有一項主要限制：它不能更改。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The main catch is that the ticket cannot be changed.",
+      "answerZh": "主要問題是這張車票不能更改。",
+      "answerZhSource": "pdf",
+      "highlight": "The main catch is that the ticket cannot be changed."
+    },
+    {
+      "id": "ss287-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This course looks useful. However, it begins very early.",
+      "promptZh": "這個課程看來很實用。不過，它很早開始。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This course looks useful, but the catch is that it begins very early.",
+      "answerZh": "這個課程看來很實用，但問題在於它很早開始。",
+      "answerZhSource": "pdf",
+      "highlight": "This course looks useful, but the catch is that it begins very early."
+    },
+    {
+      "id": "ss287-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hotel is close to the beach, but the rooms are small.",
+      "promptZh": "酒店鄰近海灘，但房間很小。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the hotel is close to the beach, the catch is that the rooms are small.",
+      "answerZh": "雖然酒店鄰近海灘，但問題在於房間很小。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the hotel is close to the beach, the catch is that the rooms are small."
+    },
+    {
+      "id": "ss287-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We could choose the faster route. However, it costs more.",
+      "promptZh": "我們可以選擇較快的路線。不過，這條路線費用較高。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could choose the faster route, but the catch is that it costs more.",
+      "answerZh": "我們可以選擇較快的路線，但問題在於這條路線費用較高。",
+      "answerZhSource": "pdf",
+      "highlight": "We could choose the faster route, but the catch is that it costs more."
+    },
+    {
+      "id": "ss287-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Buying this printer may save money at first. However, the ink is expensive.",
+      "promptZh": "購買這部打印機起初可能可以節省金錢。不過，墨水很昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "Buying",
+      "answer": "Buying this printer may save money at first, but the catch is that the ink is expensive.",
+      "answerZh": "購買這部打印機起初可能可以節省金錢，但問題在於墨水很昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "Buying this printer may save money at first, but the catch is that the ink is expensive."
+    },
+    {
+      "id": "ss287-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What is the hidden problem with the free trial? It lasts only seven days.",
+      "promptZh": "免費試用有甚麼隱藏問題？試用期只有七天。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What is the catch? The catch is that the free trial lasts only seven days.",
+      "answerZh": "有甚麼隱藏問題？問題在於免費試用期只有七天。",
+      "answerZhSource": "pdf",
+      "highlight": "What is the catch? The catch is that the free trial lasts only seven days."
+    },
+    {
+      "id": "ss287-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The offer sounds generous, but payment is delayed for three months.",
+      "promptZh": "這項提議聽起來很慷慨，但款項會延遲三個月才支付。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the offer sounds generous, the catch is that payment is delayed for three months.",
+      "answerZh": "雖然這項提議聽起來很慷慨，但問題在於款項會延遲三個月才支付。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the offer sounds generous, the catch is that payment is delayed for three months."
+    },
+    {
+      "id": "ss287-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Working from home sounds ideal. However, the internet connection must be reliable.",
+      "promptZh": "在家工作聽起來很理想。不過，互聯網連線必須穩定可靠。",
+      "promptZhSource": "pdf",
+      "starter": "Working",
+      "answer": "Working from home sounds ideal, but the only catch is that the internet connection must be reliable.",
+      "answerZh": "在家工作聽起來很理想，但唯一的問題是互聯網連線必須穩定可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Working from home sounds ideal, but the only catch is that the internet connection must be reliable."
+    },
+    {
+      "id": "ss287-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At first, the job seemed perfect. Later, we discovered that weekend work was required.",
+      "promptZh": "起初，這份工作看來很理想。後來，我們發現員工必須在週末工作。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At first, the job seemed perfect; the catch was that weekend work was required.",
+      "answerZh": "起初，這份工作看來很理想；問題在於員工必須在週末工作。",
+      "answerZhSource": "pdf",
+      "highlight": "At first, the job seemed perfect; the catch was that weekend work was required."
+    },
+    {
+      "id": "ss287-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We liked the concert plan, but there was one problem: the last bus left before the concert ended.",
+      "promptZh": "我們喜歡這個音樂會計劃，但有一個問題：尾班巴士在音樂會結束前已經開出。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We liked the concert plan, but the catch was that the last bus left before the concert ended.",
+      "answerZh": "我們喜歡這個音樂會計劃，但問題在於尾班巴士在音樂會結束前已經開出。",
+      "answerZhSource": "pdf",
+      "highlight": "We liked the concert plan, but the catch was that the last bus left before the concert ended."
+    },
+    {
+      "id": "ss287-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The new software may not work on older computers. This is one possible disadvantage.",
+      "promptZh": "新軟件未必能在較舊的電腦上運作。這是其中一個可能的缺點。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One possible catch is that the new software may not work on older computers.",
+      "answerZh": "其中一個可能的問題是新軟件未必能在較舊的電腦上運作。",
+      "answerZhSource": "pdf",
+      "highlight": "One possible catch is that the new software may not work on older computers."
+    },
+    {
+      "id": "ss287-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Joining the club sounds convenient. However, the membership renews automatically.",
+      "promptZh": "加入這個會所聽起來很方便。不過，會籍會自動續期。",
+      "promptZhSource": "pdf",
+      "starter": "Joining",
+      "answer": "Joining the club sounds convenient, but the main catch is that the membership renews automatically.",
+      "answerZh": "加入這個會所聽起來很方便，但主要問題是會籍會自動續期。",
+      "answerZhSource": "pdf",
+      "highlight": "Joining the club sounds convenient, but the main catch is that the membership renews automatically."
+    },
+    {
+      "id": "ss287-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The camera is light, but its battery does not last long.",
+      "promptZh": "這部相機很輕巧，但它的電池並不耐用。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the camera is light, the catch is that its battery does not last long.",
+      "answerZh": "雖然這部相機很輕巧，但問題在於它的電池並不耐用。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the camera is light, the catch is that its battery does not last long."
+    },
+    {
+      "id": "ss287-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Buying the larger pack saves money, but some of the food may go out of date.",
+      "promptZh": "購買較大包裝可以節省金錢，但部分食物可能會過期。",
+      "promptZhSource": "pdf",
+      "starter": "Buying",
+      "answer": "Buying the larger pack saves money, but the catch is that some of the food may go out of date.",
+      "answerZh": "購買較大包裝可以節省金錢，但問題在於部分食物可能會過期。",
+      "answerZhSource": "pdf",
+      "highlight": "Buying the larger pack saves money, but the catch is that some of the food may go out of date."
+    },
+    {
+      "id": "ss287-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Our plan could reduce costs. However, staff would need extra training.",
+      "promptZh": "我們的計劃可以降低成本。不過，員工需要接受額外培訓。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our plan could reduce costs, but the catch is that staff would need extra training.",
+      "answerZh": "我們的計劃可以降低成本，但問題在於員工需要接受額外培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "Our plan could reduce costs, but the catch is that staff would need extra training."
+    },
+    {
+      "id": "ss287-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "What was the problem with the room? It faced a noisy road.",
+      "promptZh": "這個房間有甚麼問題？它面向一條嘈雜的道路。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What was the catch with the room? The catch was that it faced a noisy road.",
+      "answerZh": "這個房間有甚麼問題？問題在於它面向一條嘈雜的道路。",
+      "answerZhSource": "pdf",
+      "highlight": "What was the catch with the room? The catch was that it faced a noisy road."
+    },
+    {
+      "id": "ss287-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Repairing the machine may seem sensible. However, it could cost more than the machine is worth.",
+      "promptZh": "維修這部機器可能看似合理。不過，維修費用可能比機器本身的價值更高。",
+      "promptZhSource": "pdf",
+      "starter": "Repairing",
+      "answer": "Repairing the machine may seem sensible, but the catch may be that it could cost more than the machine is worth.",
+      "answerZh": "維修這部機器可能看似合理，但可能出現的問題是維修費用可能比機器本身的價值更高。",
+      "answerZhSource": "pdf",
+      "highlight": "Repairing the machine may seem sensible, but the catch may be that it could cost more than the machine is worth."
+    },
+    {
+      "id": "ss287-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The details suggest one problem: only full-time students can apply.",
+      "promptZh": "資料顯示一個問題：只有全日制學生可以申請。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the details we received, the catch seems to be that only full-time students can apply.",
+      "answerZh": "根據我們收到的資料，問題似乎是只有全日制學生可以申請。",
+      "answerZhSource": "pdf",
+      "highlight": "From the details we received, the catch seems to be that only full-time students can apply."
+    },
+    {
+      "id": "ss287-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The invitation sounds attractive, but we must travel during the busiest week.",
+      "promptZh": "這項邀請聽起來很吸引，但我們必須在最繁忙的一星期出發。",
+      "promptZhSource": "pdf",
+      "starter": "Accepting",
+      "answer": "Accepting the invitation sounds attractive, but the only catch is that we must travel during the busiest week.",
+      "answerZh": "接受這項邀請聽起來很吸引，但唯一的問題是我們必須在最繁忙的一星期出發。",
+      "answerZhSource": "pdf",
+      "highlight": "Accepting the invitation sounds attractive, but the only catch is that we must travel during the busiest week."
+    },
+    {
+      "id": "ss287-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The service is free for the first month. However, the charges rise afterwards.",
+      "promptZh": "這項服務首月免費。不過，其後的收費會上升。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The service is free for the first month, but the catch is that the charges rise afterwards.",
+      "answerZh": "這項服務首月免費，但問題在於其後的收費會上升。",
+      "answerZhSource": "pdf",
+      "highlight": "The service is free for the first month, but the catch is that the charges rise afterwards."
+    },
+    {
+      "id": "ss287-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The service is slow. A second disadvantage is that users cannot download the files.",
+      "promptZh": "這項服務速度緩慢。第二個缺點是用戶不能下載檔案。",
+      "promptZhSource": "pdf",
+      "starter": "Besides",
+      "answer": "Besides the slow speed, another catch is that users cannot download the files.",
+      "answerZh": "除了速度緩慢之外，另一個問題是用戶不能下載檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "Besides the slow speed, another catch is that users cannot download the files."
+    },
+    {
+      "id": "ss287-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The evening class seems convenient, but it finishes after the last train.",
+      "promptZh": "夜間課程看來很方便，但它在尾班車開出後才結束。",
+      "promptZhSource": "pdf",
+      "starter": "Choosing",
+      "answer": "Choosing the evening class seems convenient, but the catch is that it finishes after the last train.",
+      "answerZh": "選擇夜間課程看來很方便，但問題在於它在尾班車開出後才結束。",
+      "answerZhSource": "pdf",
+      "highlight": "Choosing the evening class seems convenient, but the catch is that it finishes after the last train."
+    },
+    {
+      "id": "ss287-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "This method can save time. However, it requires careful planning.",
+      "promptZh": "這個方法可以節省時間。不過，它需要仔細規劃。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This method can save time; the catch, however, is that it requires careful planning.",
+      "answerZh": "這個方法可以節省時間；然而，問題在於它需要仔細規劃。",
+      "answerZhSource": "pdf",
+      "highlight": "This method can save time; the catch, however, is that it requires careful planning."
+    },
+    {
+      "id": "ss287-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "At first, the product was popular. Later, customers discovered that replacement parts were difficult to find.",
+      "promptZh": "起初，這件產品很受歡迎。後來，顧客發現替換零件很難找到。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At first, the product was popular, but the catch turned out to be that replacement parts were difficult to find.",
+      "answerZh": "起初，這件產品很受歡迎，但後來才發現，問題在於替換零件很難找到。",
+      "answerZhSource": "pdf",
+      "highlight": "At first, the product was popular, but the catch turned out to be that replacement parts were difficult to find."
+    },
+    {
+      "id": "ss287-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The building has a serious safety problem: it has only one emergency exit.",
+      "promptZh": "這座建築物有一項嚴重的安全問題：它只有一個緊急出口。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A serious catch is that the building has only one emergency exit.",
+      "answerZh": "一項嚴重的問題是這座建築物只有一個緊急出口。",
+      "answerZhSource": "pdf",
+      "highlight": "A serious catch is that the building has only one emergency exit."
+    },
+    {
+      "id": "ss287-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What may prevent us from joining the activity? The number of places is limited.",
+      "promptZh": "甚麼可能令我們無法參加這項活動？名額有限。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What may prevent us from joining? The catch may be that the number of places is limited.",
+      "answerZh": "甚麼可能令我們無法參加？可能出現的問題是名額有限。",
+      "answerZhSource": "pdf",
+      "highlight": "What may prevent us from joining? The catch may be that the number of places is limited."
+    },
+    {
+      "id": "ss287-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The new timetable will create one problem next year: everyone has to arrive before eight.",
+      "promptZh": "新時間表明年會帶來一個問題：所有人都必須在八時前到達。",
+      "promptZhSource": "pdf",
+      "starter": "Next",
+      "answer": "Next year, the catch will be that everyone has to arrive before eight.",
+      "answerZh": "明年的問題將會是所有人都必須在八時前到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Next year, the catch will be that everyone has to arrive before eight."
+    },
+    {
+      "id": "ss287-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The supplier is cheaper, but delivery may take an extra week.",
+      "promptZh": "這間供應商收費較低，但送貨可能需要多一星期。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If we choose the cheaper supplier, the catch will be that delivery may take an extra week.",
+      "answerZh": "如果我們選擇收費較低的供應商，問題將會是送貨可能需要多一星期。",
+      "answerZhSource": "pdf",
+      "highlight": "If we choose the cheaper supplier, the catch will be that delivery may take an extra week."
+    },
+    {
+      "id": "ss287-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The proposal could work. However, each department would have to reduce its budget.",
+      "promptZh": "這項建議可能行得通。不過，每個部門都必須削減預算。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal could work, but the catch would be that each department had to reduce its budget.",
+      "answerZh": "這項建議可能行得通，但問題將會是每個部門都必須削減預算。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal could work, but the catch would be that each department had to reduce its budget."
+    },
+    {
+      "id": "ss287-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The wording suggests a possible problem: the instructions were written for experienced users.",
+      "promptZh": "措辭顯示一個可能的問題：這些指示是為有經驗的用戶而寫的。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the wording, the catch appears to be that the instructions were written for experienced users.",
+      "answerZh": "從措辭看來，問題似乎是這些指示是為有經驗的用戶而寫的。",
+      "answerZhSource": "pdf",
+      "highlight": "From the wording, the catch appears to be that the instructions were written for experienced users."
+    },
+    {
+      "id": "ss287-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The loan has one major disadvantage: its interest rate can change.",
+      "promptZh": "這項貸款有一個主要缺點：利率可以改變。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With the loan, the biggest catch is that its interest rate can change.",
+      "answerZh": "這項貸款最大的問題是利率可以改變。",
+      "answerZhSource": "pdf",
+      "highlight": "With the loan, the biggest catch is that its interest rate can change."
+    },
+    {
+      "id": "ss287-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The shared office is convenient, but meeting rooms must be booked far in advance.",
+      "promptZh": "共用辦公室很方便，但會議室必須很早預訂。",
+      "promptZhSource": "pdf",
+      "starter": "Using",
+      "answer": "Using the shared office is convenient, but the catch is that meeting rooms must be booked far in advance.",
+      "answerZh": "使用共用辦公室很方便，但問題在於會議室必須很早預訂。",
+      "answerZhSource": "pdf",
+      "highlight": "Using the shared office is convenient, but the catch is that meeting rooms must be booked far in advance."
+    },
+    {
+      "id": "ss287-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Moving to the smaller site would reduce the rent. However, there would be less storage space.",
+      "promptZh": "搬到較小的場地可以減少租金。不過，儲物空間會減少。",
+      "promptZhSource": "pdf",
+      "starter": "Moving",
+      "answer": "Moving to the smaller site would reduce the rent, but the catch is that there would be less storage space.",
+      "answerZh": "搬到較小的場地可以減少租金，但問題在於儲物空間會減少。",
+      "answerZhSource": "pdf",
+      "highlight": "Moving to the smaller site would reduce the rent, but the catch is that there would be less storage space."
+    },
+    {
+      "id": "ss287-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "At first, no one noticed the main problem. The system could not handle large files.",
+      "promptZh": "起初，沒有人察覺主要問題。這個系統不能處理大型檔案。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At first, no one noticed that the main catch was that the system could not handle large files.",
+      "answerZh": "起初，沒有人察覺主要問題是這個系統不能處理大型檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "At first, no one noticed that the main catch was that the system could not handle large files."
+    },
+    {
+      "id": "ss287-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "We may save money by repairing the old equipment. However, it could fail again.",
+      "promptZh": "維修舊設備可能可以節省金錢。不過，設備可能會再次故障。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We may save money by repairing the old equipment, though the catch is that it could fail again.",
+      "answerZh": "維修舊設備可能可以節省金錢，但問題在於設備可能會再次故障。",
+      "answerZhSource": "pdf",
+      "highlight": "We may save money by repairing the old equipment, though the catch is that it could fail again."
+    },
+    {
+      "id": "ss287-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Nobody realised that the plan had one problem: no one had checked whether the hall was available.",
+      "promptZh": "沒有人察覺這個計劃有一個問題：沒有人檢查禮堂是否可以使用。",
+      "promptZhSource": "pdf",
+      "starter": "Nobody",
+      "answer": "Nobody realised that the only catch was that no one had checked whether the hall was available.",
+      "answerZh": "沒有人察覺唯一的問題是沒有人檢查禮堂是否可以使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Nobody realised that the only catch was that no one had checked whether the hall was available."
+    },
+    {
+      "id": "ss287-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The scheme could help many families, but it may take years to begin.",
+      "promptZh": "這項計劃可以幫助很多家庭，但可能需要多年才能開始。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though the scheme could help many families, the catch is that it may take years to begin.",
+      "answerZh": "儘管這項計劃可以幫助很多家庭，但問題在於它可能需要多年才能開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though the scheme could help many families, the catch is that it may take years to begin."
+    },
+    {
+      "id": "ss287-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "For learners, the lessons are not difficult. The real limitation is that live support is available only during office hours.",
+      "promptZh": "對學員來說，課堂並不困難。真正的限制是即時支援只在辦公時間提供。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For learners, the catch with the online course is not that the lessons are difficult but that live support is available only during office hours.",
+      "answerZh": "對學員來說，網上課程的問題不在於課堂困難，而在於即時支援只在辦公時間提供。",
+      "answerZhSource": "pdf",
+      "highlight": "For learners, the catch with the online course is not that the lessons are difficult but that live support is available only during office hours."
+    },
+    {
+      "id": "ss287-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The proposal is appealing, but it depends on uncertain funding.",
+      "promptZh": "這項建議很有吸引力，但它依賴尚未確定的資金。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite its appeal, the catch with the proposal is that it depends on uncertain funding.",
+      "answerZh": "儘管這項建議很有吸引力，但問題在於它依賴尚未確定的資金。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite its appeal, the catch with the proposal is that it depends on uncertain funding."
+    },
+    {
+      "id": "ss287-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Customers may like the discount, but they must sign a two-year contract.",
+      "promptZh": "顧客可能喜歡這項折扣，但他們必須簽署兩年合約。",
+      "promptZhSource": "pdf",
+      "starter": "Customers",
+      "answer": "Customers may like the discount, but the main catch is that they must sign a two-year contract.",
+      "answerZh": "顧客可能喜歡這項折扣，但主要問題是他們必須簽署兩年合約。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers may like the discount, but the main catch is that they must sign a two-year contract."
+    },
+    {
+      "id": "ss287-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Relying on volunteers can reduce costs, but their availability can change at short notice.",
+      "promptZh": "依靠義工可以降低成本，但他們是否有空可能會在短時間內改變。",
+      "promptZhSource": "pdf",
+      "starter": "Relying",
+      "answer": "Relying on volunteers can reduce costs, but the catch is that their availability can change at short notice.",
+      "answerZh": "依靠義工可以降低成本，但問題在於他們是否有空可能會在短時間內改變。",
+      "answerZhSource": "pdf",
+      "highlight": "Relying on volunteers can reduce costs, but the catch is that their availability can change at short notice."
+    },
+    {
+      "id": "ss287-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The service may seem unlimited. However, heavy users are charged extra.",
+      "promptZh": "這項服務可能看似沒有限制。不過，用量較高的用戶需要支付額外費用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The service may seem unlimited, but the real catch is that heavy users are charged extra.",
+      "answerZh": "這項服務可能看似沒有限制，但真正的問題是用量較高的用戶需要支付額外費用。",
+      "answerZhSource": "pdf",
+      "highlight": "The service may seem unlimited, but the real catch is that heavy users are charged extra."
+    },
+    {
+      "id": "ss287-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The building meets current standards. However, future rules may require further changes.",
+      "promptZh": "這座建築物符合現行標準。不過，未來的規例可能要求作出進一步改動。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the building meets current standards, the possible catch is that future rules may require further changes.",
+      "answerZh": "雖然這座建築物符合現行標準，但可能出現的問題是未來的規例可能要求作出進一步改動。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the building meets current standards, the possible catch is that future rules may require further changes."
+    },
+    {
+      "id": "ss287-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "We can launch the programme in September, but the first group will have to be small.",
+      "promptZh": "我們可以在九月推出這項計劃，但首批參加者的人數必須較少。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can launch the programme in September, but the catch is that the first group will have to be small.",
+      "answerZh": "我們可以在九月推出這項計劃，但問題在於首批參加者的人數必須較少。",
+      "answerZhSource": "pdf",
+      "highlight": "We can launch the programme in September, but the catch is that the first group will have to be small."
+    },
+    {
+      "id": "ss287-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The solution appears simple, but it creates a different problem for the support team.",
+      "promptZh": "這個解決方法看似簡單，但會為支援團隊帶來另一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The catch with the apparently simple solution is that it creates a different problem for the support team.",
+      "answerZh": "這個看似簡單的解決方法有一個問題，就是它會為支援團隊帶來另一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The catch with the apparently simple solution is that it creates a different problem for the support team."
+    },
+    {
+      "id": "ss287-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Lower costs and greater flexibility make the plan attractive. However, it shifts more responsibility onto individual workers.",
+      "promptZh": "較低成本和更大彈性令這項計劃更吸引。不過，它把更多責任轉移到個別員工身上。",
+      "promptZhSource": "pdf",
+      "starter": "Lower",
+      "answer": "Lower costs and greater flexibility make the plan attractive; the catch, however, is that it shifts more responsibility onto individual workers.",
+      "answerZh": "較低成本和更大彈性令這項計劃更吸引；然而，問題在於它把更多責任轉移到個別員工身上。",
+      "answerZhSource": "pdf",
+      "highlight": "Lower costs and greater flexibility make the plan attractive; the catch, however, is that it shifts more responsibility onto individual workers."
+    }
+  ]
+}

@@ -1,0 +1,1244 @@
+{
+  "id": "ss297",
+  "order": 297,
+  "slug": "be-under-no-obligation-to-verb",
+  "title": "「be under no obligation to + 動詞」表示「沒有義務做某事」",
+  "titleZh": "「be under no obligation to + 動詞」表示「沒有義務做某事」",
+  "titleEn": "Using “be under no obligation to + verb”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 296 -「be under no obligation to + 動詞」表示「沒有義務做某事」.pdf",
+    "pageCount": 26,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "sha256": "53c58583b3de4804d8952bfbc8bca5c51f72aa992bcbe969179772fbeb89a4a5",
+    "sourceNumber": 296,
+    "systemOrder": 297,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 296 maps to ss297: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Subject + be + under no obligation + to + base verb",
+  "formulas": [
+    {
+      "id": "ss297-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Subject + be + under no obligation + to + base verb"
+    }
+  ],
+  "example": "Employees are under no obligation to answer work messages at midnight.",
+  "exampleZh": "僱員沒有義務在午夜回覆工作訊息。",
+  "examples": [
+    {
+      "id": "ss297-example-01",
+      "en": "Employees are under no obligation to answer work messages at midnight.",
+      "zh": "僱員沒有義務在午夜回覆工作訊息。",
+      "highlight": "Employees are under no obligation to answer work messages at midnight."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss297-rule-01",
+      "zh": "在 be under no obligation to 中，be 動詞必須配合主語和時態：I 配 am，單數人物配 is 或 was，複數人物配 are 或 were，未來情況可用 will be。",
+      "en": "be I am under no obligation one person is under no obligation people are under no obligation one person was under no obligation people were under no obligation people will be under no obligation",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss297-rule-02",
+      "zh": "在 be under no obligation to 後面，to 必須接動詞原形，例如 answer、pay 或 explain；不可接 -ing 形式、過去式或過去分詞。",
+      "en": "to You are under no obligation to answer. Visitors are under no obligation to pay. The patient was under no obligation to explain. You are under no obligation to answering. Visitors are under no obligation to paid.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss297-rule-03",
+      "zh": "已經包含否定意思正確：【You are under no obligation to reply.】 不要寫：【You are not under no obligation to reply.】 後一句形成不必要的雙重否定，意思亦可能變得混亂。",
+      "en": "no You are under no obligation to reply. You are not under no obligation to reply.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss297-rule-04",
+      "zh": "沒有義務不等於「不准」意思是：你可以出席，也可以選擇不出席。它不表示：你不准出席。因此，這個句型表達的是自由選擇，而不是禁止。",
+      "en": "You are under no obligation to attend.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss297-rule-05",
+      "zh": "不要把 “to” 誤解為表達目的在以下句子中：【Customers are under no obligation to buy anything.】 以【to buy】為例：補充說明顧客「沒有義務做甚麼。它並不是：顧客為了購物而沒有義務。」整個固定結構應理解為：【be under no obligation to do something】",
+      "en": "Customers are under no obligation to buy anything. be under no obligation to do something",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss297-rule-06",
+      "zh": "必須清楚指出沒有義務的人較含糊：【There is no obligation to reply.】 較清楚：【Recipients are under no obligation to reply.】 第二句明確指出誰沒有義務回覆。",
+      "en": "There is no obligation to reply. Recipients are under no obligation to reply.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss297-rule-07",
+      "zh": "不應把程度較弱的意思改得過強但是，如果原句只是：【You may not need to give your name.】 它只表示「可能不需要」，不一定能改成肯定的：【You are under no obligation to give your name.】 改寫時必須保留原句的肯定程度。",
+      "en": "Source: Giving your name is optional. Suitable answer: You are under no obligation to give your name. You may not need to give your name. You are under no obligation to give your name.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss297-benefit-01",
+      "zh": "這個句型能清楚說明某項行動屬於自願性質，當事人可以自行決定是否去做。第二句直接把焦點放在「你沒有義務回答」，因此更清楚說明當事人的選擇權。",
+      "en": "It clearly tells people what is optional This structure makes it clear that a person may choose whether to do something. Compare: Answering the final question is optional. You are under no obligation to answer the final question.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss297-benefit-02",
+      "zh": "這個句型可以有禮貌地說明個人的權利和界線，而不需要使用過於直接或帶有衝突性的語氣。兩句意思相近，但第二句較適合正式通知、政策說明和專業溝通。",
+      "en": "It helps explain rights and boundaries politely Instead of giving a blunt instruction, this structure explains that another person cannot reasonably require the action. You do not have to explain yourself. You are under no obligation to explain yourself.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss297-benefit-03",
+      "zh": "這個表達適合用於：公司政策申請表研究和問卷服務條款活動通知正式電郵合約或協議說明它能準確指出哪些事情是必須的，哪些事情可以自由選擇。",
+      "en": "It is useful in policies, agreements and formal messages The expression is common when explaining rules relating to work, services, applications, surveys and voluntary activities.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss297-benefit-04",
+      "zh": "以【“optional”】為例：有時只表示某件事不是強制的，但未必清楚指出誰擁有選擇權。第二句清楚指出，是申請人沒有義務提供照片。",
+      "en": "It avoids vague words such as “optional” The word optional may not always show who has the choice. Providing a photograph is optional. Applicants are under no obligation to provide a photograph.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss297-benefit-05",
+      "zh": "你可以在核心句型前後加入：條件原因時間政策來源對比適用對象這樣可以在一個句子內同時說明背景和選擇權，使內容更完整。",
+      "en": "It allows you to add useful details naturally You can add information before or around the core expression without changing it. Even after receiving the information pack, families are under no obligation to enrol their child.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss297-benefit-06",
+      "zh": "學生不需要在文章中不斷重複：【do not have to；are not required to；it is optional；can choose not to】 使用這個句型可以增加句式變化，同時保持意思清晰。",
+      "en": "It gives formal writing more sentence variety Instead of repeatedly writing “do not have to” or “it is optional”, learners can use this structure as another accurate option. do not have to are not required to it is optional can choose not to",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 296 maps to ss297: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using be under no obligation to + base verb.",
+      "You may place the target structure in a main clause, after an introductory phrase, inside a that",
+      "clause or after a condition or contrast clause.",
+      "Preserve the original meaning, subject, tense, condition and level of certainty.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 be under no obligation to + 原形動詞 改寫以下句子或句子組合。",
+      "你可以把目標句型放在主句、開首短語之後、that 子句之內，或條件及讓步子句之後。",
+      "答案必須保留原句的意思、主語、時態、條件及肯定程度。",
+      "每題已提供答案的第一個字。",
+      "寫"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss297-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Employees do not have to answer work messages at midnight.",
+      "promptZh": "僱員不必在午夜回覆工作訊息。",
+      "promptZhSource": "pdf",
+      "starter": "Employees",
+      "answer": "Employees are under no obligation to answer work messages at midnight.",
+      "answerZh": "僱員沒有義務在午夜回覆工作訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "Employees are under no obligation to answer work messages at midnight."
+    },
+    {
+      "id": "ss297-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Making a donation is optional for visitors.",
+      "promptZh": "訪客可以自行選擇是否捐款。",
+      "promptZhSource": "pdf",
+      "starter": "Visitors",
+      "answer": "Visitors are under no obligation to make a donation.",
+      "answerZh": "訪客沒有義務捐款。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors are under no obligation to make a donation."
+    },
+    {
+      "id": "ss297-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Completing the free trial does not require you to buy anything.",
+      "promptZh": "完成免費試用並不表示你必須購買任何東西。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You are under no obligation to buy anything after completing the free trial.",
+      "answerZh": "完成免費試用後，你沒有義務購買任何東西。",
+      "answerZhSource": "pdf",
+      "highlight": "You are under no obligation to buy anything after completing the free trial."
+    },
+    {
+      "id": "ss297-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Students may choose whether to join the after-school trip.",
+      "promptZh": "學生可以自行決定是否參加課後旅行。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students are under no obligation to join the after-school trip.",
+      "answerZh": "學生沒有義務參加課後旅行。",
+      "answerZhSource": "pdf",
+      "highlight": "Students are under no obligation to join the after-school trip."
+    },
+    {
+      "id": "ss297-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The refund policy does not require customers to explain their decision.",
+      "promptZh": "退款政策並不要求顧客解釋自己的決定。",
+      "promptZhSource": "pdf",
+      "starter": "Customers",
+      "answer": "Customers are under no obligation to explain why they want a refund.",
+      "answerZh": "顧客沒有義務解釋自己為甚麼想退款。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers are under no obligation to explain why they want a refund."
+    },
+    {
+      "id": "ss297-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The volunteer agreement requires only the hours that volunteers have already accepted.",
+      "promptZh": "義工協議只要求義工完成他們已經同意的工作時數。",
+      "promptZhSource": "pdf",
+      "starter": "Volunteers",
+      "answer": "Volunteers are under no obligation to work beyond the hours they have already accepted.",
+      "answerZh": "義工沒有義務在已經同意的工作時數以外繼續工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Volunteers are under no obligation to work beyond the hours they have already accepted."
+    },
+    {
+      "id": "ss297-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Taking part in the patient survey is entirely voluntary.",
+      "promptZh": "參與病人問卷完全屬於自願性質。",
+      "promptZhSource": "pdf",
+      "starter": "Patients",
+      "answer": "Patients are under no obligation to take part in the survey.",
+      "answerZh": "病人沒有義務參與問卷。",
+      "answerZhSource": "pdf",
+      "highlight": "Patients are under no obligation to take part in the survey."
+    },
+    {
+      "id": "ss297-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "No school rule requires parents to attend every school event.",
+      "promptZh": "學校沒有規則要求家長出席每一項學校活動。",
+      "promptZhSource": "pdf",
+      "starter": "Parents",
+      "answer": "Parents are under no obligation to attend every school event.",
+      "answerZh": "家長沒有義務出席每一項學校活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Parents are under no obligation to attend every school event."
+    },
+    {
+      "id": "ss297-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Formal clothes are not compulsory for guests at dinner.",
+      "promptZh": "晚宴並不強制賓客穿着正式服裝。",
+      "promptZhSource": "pdf",
+      "starter": "Guests",
+      "answer": "Guests are under no obligation to wear formal clothes at dinner.",
+      "answerZh": "賓客沒有義務在晚宴上穿着正式服裝。",
+      "answerZhSource": "pdf",
+      "highlight": "Guests are under no obligation to wear formal clothes at dinner."
+    },
+    {
+      "id": "ss297-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Adding a photograph to the application form is optional.",
+      "promptZh": "申請表可以選擇不附上照片。",
+      "promptZhSource": "pdf",
+      "starter": "Applicants",
+      "answer": "Applicants are under no obligation to provide a photograph.",
+      "answerZh": "申請人沒有義務提供照片。",
+      "answerZhSource": "pdf",
+      "highlight": "Applicants are under no obligation to provide a photograph."
+    },
+    {
+      "id": "ss297-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Participation is voluntary, so club members are not required to attend every meeting.",
+      "promptZh": "參與屬自願性質，因此會員不必出席每一次會議。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because participation is voluntary, club members are under no obligation to attend every meeting.",
+      "answerZh": "由於參與屬自願性質，會員沒有義務出席每一次會議。",
+      "answerZhSource": "pdf",
+      "highlight": "Because participation is voluntary, club members are under no obligation to attend every meeting."
+    },
+    {
+      "id": "ss297-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A salesperson may ask again, but you do not have to give your phone number.",
+      "promptZh": "售貨員可能再次詢問，但你不必提供電話號碼。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if the salesperson asks again, you are under no obligation to give your phone number.",
+      "answerZh": "即使售貨員再次詢問，你也沒有義務提供電話號碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the salesperson asks again, you are under no obligation to give your phone number."
+    },
+    {
+      "id": "ss297-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "According to the notice, residents may remain in their homes during the inspection.",
+      "promptZh": "根據通告，居民可以在檢查期間留在家中。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the notice, residents are under no obligation to leave their homes during the inspection.",
+      "answerZh": "根據通告，居民沒有義務在檢查期間離開住所。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the notice, residents are under no obligation to leave their homes during the inspection."
+    },
+    {
+      "id": "ss297-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Receiving an invitation does not mean that a person must accept it.",
+      "promptZh": "收到邀請並不表示當事人必須接受。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People who receive the invitation are under no obligation to accept it.",
+      "answerZh": "收到邀請的人沒有義務接受邀請。",
+      "answerZhSource": "pdf",
+      "highlight": "People who receive the invitation are under no obligation to accept it."
+    },
+    {
+      "id": "ss297-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The form says that users may leave all questions marked “optional” unanswered.",
+      "promptZh": "表格說明，用戶可以不回答所有標示為「選答」的問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The form confirms that users are under no obligation to answer questions marked “optional”.",
+      "answerZh": "表格確認，用戶沒有義務回答標示為「選答」的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The form confirms that users are under no obligation to answer questions marked “optional”."
+    },
+    {
+      "id": "ss297-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Under the agreement, tenants do not have to pay for normal wear and tear.",
+      "promptZh": "根據協議，租戶不必支付正常損耗的費用。",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under the agreement, tenants are under no obligation to pay for normal wear and tear.",
+      "answerZh": "根據協議，租戶沒有義務支付正常損耗的費用。",
+      "answerZhSource": "pdf",
+      "highlight": "Under the agreement, tenants are under no obligation to pay for normal wear and tear."
+    },
+    {
+      "id": "ss297-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The organiser welcomes feedback, but giving feedback is entirely voluntary.",
+      "promptZh": "主辦方歡迎意見，但提供意見完全屬於自願性質。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the organiser welcomes feedback, participants are under no obligation to provide it.",
+      "answerZh": "雖然主辦方歡迎意見，但參加者沒有義務提供意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the organiser welcomes feedback, participants are under no obligation to provide it."
+    },
+    {
+      "id": "ss297-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "At the information session, families could register later and did not have to make an immediate decision.",
+      "promptZh": "在資訊講座上，家庭可以稍後登記，不必立即作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the information session, families were under no obligation to register immediately.",
+      "answerZh": "在資訊講座上，家庭沒有義務立即登記。",
+      "answerZhSource": "pdf",
+      "highlight": "At the information session, families were under no obligation to register immediately."
+    },
+    {
+      "id": "ss297-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Watching the product demonstration did not commit customers to placing an order.",
+      "promptZh": "觀看產品示範並不表示顧客承諾下單。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After watching the product demonstration, customers were under no obligation to place an order.",
+      "answerZh": "觀看產品示範後，顧客沒有義務下單。",
+      "answerZhSource": "pdf",
+      "highlight": "After watching the product demonstration, customers were under no obligation to place an order."
+    },
+    {
+      "id": "ss297-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "People who only want to browse may do so without speaking to a sales assistant.",
+      "promptZh": "只想瀏覽的顧客可以不與售貨員交談。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you only want to browse, you are under no obligation to speak to a sales assistant.",
+      "answerZh": "如果你只想瀏覽，你沒有義務與售貨員交談。",
+      "answerZhSource": "pdf",
+      "highlight": "If you only want to browse, you are under no obligation to speak to a sales assistant."
+    },
+    {
+      "id": "ss297-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The new policy states that employees will not be required to use their personal phones for company calls.",
+      "promptZh": "新政策訂明，僱員將不會被要求使用私人電話處理公司來電。",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under the new policy, employees will be under no obligation to use their personal phones for company calls.",
+      "answerZh": "根據新政策，僱員將沒有義務使用私人電話處理公司來電。",
+      "answerZhSource": "pdf",
+      "highlight": "Under the new policy, employees will be under no obligation to use their personal phones for company calls."
+    },
+    {
+      "id": "ss297-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Anyone who disagrees with the proposal may choose not to sign it.",
+      "promptZh": "任何不同意這項建議的人都可以選擇不簽署。",
+      "promptZhSource": "pdf",
+      "starter": "Anyone",
+      "answer": "Anyone who disagrees with the proposal is under no obligation to sign it.",
+      "answerZh": "任何不同意這項建議的人都沒有義務簽署。",
+      "answerZhSource": "pdf",
+      "highlight": "Anyone who disagrees with the proposal is under no obligation to sign it."
+    },
+    {
+      "id": "ss297-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The manager made it clear that nobody had to stay after the meeting.",
+      "promptZh": "經理清楚說明，沒有人必須在會議後留下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager made it clear that staff were under no obligation to stay after the meeting.",
+      "answerZh": "經理清楚說明，職員沒有義務在會議後留下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager made it clear that staff were under no obligation to stay after the meeting."
+    },
+    {
+      "id": "ss297-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The interview was voluntary, and witnesses could refuse to answer any question.",
+      "promptZh": "訪問屬自願性質，證人可以拒絕回答任何問題。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the interview was voluntary, witnesses were under no obligation to answer every question.",
+      "answerZh": "由於訪問屬自願性質，證人沒有義務回答每一條問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the interview was voluntary, witnesses were under no obligation to answer every question."
+    },
+    {
+      "id": "ss297-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "People attending the meeting online may keep their cameras switched off.",
+      "promptZh": "網上出席會議的人可以選擇關閉鏡頭。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People attending the meeting online are under no obligation to turn on their cameras.",
+      "answerZh": "網上出席會議的人沒有義務開啟鏡頭。",
+      "answerZhSource": "pdf",
+      "highlight": "People attending the meeting online are under no obligation to turn on their cameras."
+    },
+    {
+      "id": "ss297-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The company notice says that extra training held on a rest day is voluntary.",
+      "promptZh": "公司通告說明，在休息日進行的額外培訓屬自願性質。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the extra training takes place on a rest day, workers are under no obligation to attend.",
+      "answerZh": "如果額外培訓在休息日進行，員工沒有義務出席。",
+      "answerZhSource": "pdf",
+      "highlight": "If the extra training takes place on a rest day, workers are under no obligation to attend."
+    },
+    {
+      "id": "ss297-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The invitation says that guests may bring a gift, but this is not required.",
+      "promptZh": "邀請函表示賓客可以帶禮物，但這並非必要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The invitation states that guests are under no obligation to bring a gift.",
+      "answerZh": "邀請函訂明，賓客沒有義務帶禮物。",
+      "answerZhSource": "pdf",
+      "highlight": "The invitation states that guests are under no obligation to bring a gift."
+    },
+    {
+      "id": "ss297-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The charity appreciates donations, but supporters are still free to decline.",
+      "promptZh": "慈善機構感謝捐款，但支持者仍然可以選擇不捐款。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the charity appreciates donations, supporters remain under no obligation to contribute.",
+      "answerZh": "雖然慈善機構感謝捐款，但支持者仍然沒有義務作出捐獻。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the charity appreciates donations, supporters remain under no obligation to contribute."
+    },
+    {
+      "id": "ss297-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "When the free membership ends, users will not automatically be required to join a paid plan.",
+      "promptZh": "免費會籍結束後，用戶不會自動被要求加入收費計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the free membership ends, users will be under no obligation to continue with a paid plan.",
+      "answerZh": "免費會籍結束後，用戶將沒有義務繼續使用收費計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the free membership ends, users will be under no obligation to continue with a paid plan."
+    },
+    {
+      "id": "ss297-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "No reply is required when a person receives an unwanted marketing email.",
+      "promptZh": "收到不想接收的推廣電郵時，當事人不必回覆。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A person who receives an unwanted marketing email is under no obligation to reply.",
+      "answerZh": "收到不想接收的推廣電郵的人沒有義務回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "A person who receives an unwanted marketing email is under no obligation to reply."
+    },
+    {
+      "id": "ss297-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The research rules allow participants to withdraw without explaining their reason.",
+      "promptZh": "研究規則容許參加者在不解釋原因的情況下退出。",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under the research rules, participants are under no obligation to explain why they withdraw.",
+      "answerZh": "根據研究規則，參加者沒有義務解釋自己退出的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Under the research rules, participants are under no obligation to explain why they withdraw."
+    },
+    {
+      "id": "ss297-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Receiving the information pack does not commit a family to enrolling its child.",
+      "promptZh": "收到資料套並不表示一個家庭承諾為子女報名。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after receiving the information pack, families are under no obligation to enrol their child.",
+      "answerZh": "即使收到資料套，家庭也沒有義務為子女報名。",
+      "answerZhSource": "pdf",
+      "highlight": "Even after receiving the information pack, families are under no obligation to enrol their child."
+    },
+    {
+      "id": "ss297-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The adviser explained that the law did not require clients to accept the first offer.",
+      "promptZh": "顧問解釋，法律並不要求客戶接受第一項提議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The adviser explained that clients were under no legal obligation to accept the first offer.",
+      "answerZh": "顧問解釋，客戶在法律上沒有義務接受第一項提議。",
+      "answerZhSource": "pdf",
+      "highlight": "The adviser explained that clients were under no legal obligation to accept the first offer."
+    },
+    {
+      "id": "ss297-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The sample contract states that extra tasks are not included in the freelancer’s agreed duties.",
+      "promptZh": "範本合約訂明，額外工作並不包括在自由工作者已同意的職責內。",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under the sample contract, freelancers are under no contractual obligation to complete extra tasks.",
+      "answerZh": "根據範本合約，自由工作者按合約沒有義務完成額外工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Under the sample contract, freelancers are under no contractual obligation to complete extra tasks."
+    },
+    {
+      "id": "ss297-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The request came from a senior manager, but it was not an instruction and employees could decline it.",
+      "promptZh": "這項要求來自一名高級經理，但它並非指令，僱員可以拒絕。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the request came from a senior manager, employees were under no obligation to agree to it.",
+      "answerZh": "雖然這項要求來自一名高級經理，但僱員沒有義務同意。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the request came from a senior manager, employees were under no obligation to agree to it."
+    },
+    {
+      "id": "ss297-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Attending the open day does not require anyone to apply for the course afterwards.",
+      "promptZh": "出席開放日並不要求任何人之後報讀課程。",
+      "promptZhSource": "pdf",
+      "starter": "Anyone",
+      "answer": "Anyone who attends the open day is under no obligation to apply for the course afterwards.",
+      "answerZh": "任何出席開放日的人都沒有義務之後報讀課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Anyone who attends the open day is under no obligation to apply for the course afterwards."
+    },
+    {
+      "id": "ss297-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "During the consultation, residents could leave questions about their personal finances unanswered.",
+      "promptZh": "在諮詢期間，居民可以不回答有關個人財政狀況的問題。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the consultation, residents were under no obligation to reveal personal financial information.",
+      "answerZh": "在諮詢期間，居民沒有義務透露個人財政資料。",
+      "answerZhSource": "pdf",
+      "highlight": "During the consultation, residents were under no obligation to reveal personal financial information."
+    },
+    {
+      "id": "ss297-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The anonymous-call policy makes giving a full name optional.",
+      "promptZh": "匿名來電政策讓來電者可以自行選擇是否提供全名。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy ensures that callers are under no obligation to give their full names.",
+      "answerZh": "政策確保來電者沒有義務提供全名。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy ensures that callers are under no obligation to give their full names."
+    },
+    {
+      "id": "ss297-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "People invited to test the new app may participate without writing a public review.",
+      "promptZh": "獲邀測試新應用程式的人可以在不撰寫公開評論的情況下參與。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People invited to test the new app will be under no obligation to write a public review.",
+      "answerZh": "獲邀測試新應用程式的人將沒有義務撰寫公開評論。",
+      "answerZhSource": "pdf",
+      "highlight": "People invited to test the new app will be under no obligation to write a public review."
+    },
+    {
+      "id": "ss297-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Only customers who choose the premium service are required to pay the additional fee.",
+      "promptZh": "只有選擇高級服務的顧客才需要支付額外費用。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless they choose the premium service, customers are under no obligation to pay the additional fee.",
+      "answerZh": "除非顧客選擇高級服務，否則他們沒有義務支付額外費用。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless they choose the premium service, customers are under no obligation to pay the additional fee."
+    },
+    {
+      "id": "ss297-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The email reminded recipients that opening the attached guide did not commit them to joining the programme.",
+      "promptZh": "電郵提醒收件人，開啟附件中的指南並不表示他們承諾參加該計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The email reminded recipients that, even if they opened the attached guide, they were under no obligation to join the programme.",
+      "answerZh": "電郵提醒收件人，即使他們開啟附件中的指南，也沒有義務參加該計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The email reminded recipients that, even if they opened the attached guide, they were under no obligation to join the programme."
+    },
+    {
+      "id": "ss297-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Parents may attend the first lesson with their children without booking the remaining lessons.",
+      "promptZh": "家長可以陪同子女出席第一課，而不需要預訂其餘課堂。",
+      "promptZhSource": "pdf",
+      "starter": "Parents",
+      "answer": "Parents who attend the first lesson with their children are under no obligation to book the remaining lessons.",
+      "answerZh": "陪同子女出席第一課的家長沒有義務預訂其餘課堂。",
+      "answerZhSource": "pdf",
+      "highlight": "Parents who attend the first lesson with their children are under no obligation to book the remaining lessons."
+    },
+    {
+      "id": "ss297-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The charity hopes that former volunteers will return, but they should not feel morally required to do so.",
+      "promptZh": "慈善機構希望昔日義工再次回來，但他們不應覺得自己在道德上必須這樣做。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the charity hopes that former volunteers will return, they remain under no moral obligation to do so.",
+      "answerZh": "雖然慈善機構希望昔日義工再次回來，但他們在道德上仍然沒有義務這樣做。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the charity hopes that former volunteers will return, they remain under no moral obligation to do so."
+    },
+    {
+      "id": "ss297-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "A patient who leaves the study may do so without giving a detailed explanation.",
+      "promptZh": "退出研究的病人可以不提供詳細解釋。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If a patient decides to leave the study, they are under no obligation to give a detailed explanation.",
+      "answerZh": "如果病人決定退出研究，他們沒有義務提供詳細解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "If a patient decides to leave the study, they are under no obligation to give a detailed explanation."
+    },
+    {
+      "id": "ss297-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The revised policy allows employees working from home to use the browser version instead of installing work software on a personal device.",
+      "promptZh": "修訂政策容許在家工作的僱員使用瀏覽器版本，而不用在私人裝置上安裝工作軟件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The revised policy states that employees working from home are under no obligation to install work software on a personal device.",
+      "answerZh": "修訂政策訂明，在家工作的僱員沒有義務在私人裝置上安裝工作軟件。",
+      "answerZhSource": "pdf",
+      "highlight": "The revised policy states that employees working from home are under no obligation to install work software on a personal device."
+    },
+    {
+      "id": "ss297-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "After the trial period, renewal is optional and takes place only when subscribers actively choose it.",
+      "promptZh": "試用期結束後，續訂屬自願性質，只有訂戶主動選擇時才會進行。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the trial period has ended, subscribers will be under no obligation to renew their plans.",
+      "answerZh": "試用期結束後，訂戶將沒有義務續訂計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the trial period has ended, subscribers will be under no obligation to renew their plans."
+    },
+    {
+      "id": "ss297-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The researcher stressed that participants could leave a skipped question unanswered instead of returning to it later.",
+      "promptZh": "研究員強調，參加者可以讓已略過的問題保持空白，不必稍後返回作答。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The researcher stressed that participants who skipped a question were under no obligation to return and answer it later.",
+      "answerZh": "研究員強調，略過問題的參加者沒有義務稍後返回作答。",
+      "answerZhSource": "pdf",
+      "highlight": "The researcher stressed that participants who skipped a question were under no obligation to return and answer it later."
+    },
+    {
+      "id": "ss297-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Public comments remain voluntary even when a community meeting concerns a resident’s own neighbourhood.",
+      "promptZh": "即使社區會議涉及居民自己的社區，公開發表意見仍然屬自願性質。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even when a community meeting concerns their own neighbourhood, residents are under no obligation to express a public opinion.",
+      "answerZh": "即使社區會議涉及自己的社區，居民也沒有義務公開表達意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Even when a community meeting concerns their own neighbourhood, residents are under no obligation to express a public opinion."
+    },
+    {
+      "id": "ss297-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The partnership agreement requires representatives to share only information within the agreed categories.",
+      "promptZh": "合作協議只要求代表分享議定類別內的資料。",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under the partnership agreement, representatives from either organisation are under no obligation to share information beyond the agreed categories.",
+      "answerZh": "根據合作協議，任何一方機構的代表都沒有義務分享議定類別以外的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Under the partnership agreement, representatives from either organisation are under no obligation to share information beyond the agreed categories."
+    },
+    {
+      "id": "ss297-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The chairperson clarified that everyone was welcome to speak, but nobody had to comment on a matter that they wished to keep private.",
+      "promptZh": "主席澄清，歡迎所有人發言，但沒有人必須評論自己希望保密的事情。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chairperson clarified that, although everyone was welcome to speak, attendees were under no obligation to comment on a matter they wished to keep private.",
+      "answerZh": "主席澄清，雖然歡迎所有人發言，但出席者沒有義務評論自己希望保密的事情。",
+      "answerZhSource": "pdf",
+      "highlight": "The chairperson clarified that, although everyone was welcome to speak, attendees were under no obligation to comment on a matter they wished to keep private."
+    }
+  ]
+}

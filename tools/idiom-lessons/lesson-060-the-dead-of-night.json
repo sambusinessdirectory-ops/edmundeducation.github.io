@@ -1,0 +1,1334 @@
+{
+  "lesson": {
+    "id": "idiom-60",
+    "order": 60,
+    "slug": "the-dead-of-night",
+    "version": "1",
+    "title": "深夜時分／夜深人靜之時",
+    "titleEn": "The Dead of Night",
+    "titleZh": "深夜時分／夜深人靜之時",
+    "source": {
+      "file": "Idiom 60 - “The Dead of Night”.pdf",
+      "pageCount": 26,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "exercisePdfPages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "answerKeyPdfPages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "The Dead of Night",
+        "highlight": "The Dead of Night"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The telephone rang in the dead of night.",
+        "zh": "電話在夜深人靜時響起。",
+        "highlight": "the dead of night"
+      },
+      {
+        "en": "In the dead of night, someone knocked on the door.",
+        "zh": "夜深人靜時，有人敲門。",
+        "highlight": "the dead of night"
+      }
+    ],
+    "meaning": {
+      "en": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+      "zh": "深夜時分；夜深人靜之時；夜晚最黑暗、最寂靜的時候",
+      "naturalZh": [
+        "深夜時分",
+        "夜深人靜之時",
+        "夜晚最黑暗、最寂靜的時候"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "All four words must remain in this order.",
+      "summaryZh": "這個表達本身並不粗俗，也不屬於俚語，但語氣比 in the middle of the night 更鮮明、更具畫面感。",
+      "contextsEn": [
+        "stories and personal accounts",
+        "news reports",
+        "descriptions of emergencies",
+        "conversations about strange or unexpected events",
+        "atmospheric or descriptive writing",
+        "in the dead of night",
+        "a noise heard in the dead of night",
+        "something happened in the dead of night",
+        "in a dead of night",
+        "in the dead night",
+        "in dead of night",
+        "in the death of night"
+      ],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "四個字必須按照以下次序使用："
+    },
+    "fixedVariable": {
+      "fixed": "The Dead of Night",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + verb + in the dead of night.",
+          "example": "The telephone rang in the dead of night.",
+          "highlight": "the dead of night"
+        },
+        {
+          "form": "In the dead of night, + subject + verb.",
+          "example": "In the dead of night, someone knocked on the door.",
+          "highlight": "the dead of night"
+        },
+        {
+          "form": "Subject + may / might / could / will + verb + in the dead of night.",
+          "example": "The storm could reach the island in the dead of night.",
+          "highlight": "the dead of night"
+        },
+        {
+          "form": "Main clause + that / when / because / if + clause containing in the dead of night.",
+          "example": "The reporter said that the boat had arrived in the dead of night.",
+          "highlight": "the dead of night"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Time Phrase at the End",
+        "titleZh": "句式一：時間短語放在句末",
+        "formula": "Subject + verb + in the dead of night.",
+        "descriptionEn": "Source grammar frame: Subject + verb + in the dead of night.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb + in the dead of night。",
+        "examples": [
+          {
+            "en": "The telephone rang in the dead of night.",
+            "zh": "電話在夜深人靜時響起。",
+            "highlight": "the dead of night"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Time Phrase at the Beginning",
+        "titleZh": "句式二：時間短語放在句首",
+        "formula": "In the dead of night, + subject + verb.",
+        "descriptionEn": "Place a comma after the opening time phrase.",
+        "descriptionZh": "時間短語放在句首時，後面應加上逗號。",
+        "examples": [
+          {
+            "en": "In the dead of night, someone knocked on the door.",
+            "zh": "夜深人靜時，有人敲門。",
+            "highlight": "the dead of night"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "With a Modal Verb",
+        "titleZh": "句式三：配合情態動詞",
+        "formula": "Subject + may / might / could / will + verb + in the dead of night.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / could / will + verb + in the dead of night.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / could / will + verb + in the dead of night。",
+        "examples": [
+          {
+            "en": "The storm could reach the island in the dead of night.",
+            "zh": "風暴可能會在深夜時分抵達該島。",
+            "highlight": "the dead of night"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Inside a Longer Sentence",
+        "titleZh": "句式四：放在較長的句子內",
+        "formula": "Main clause + that / when / because / if + clause containing in the dead of night.",
+        "descriptionEn": "Source grammar frame: Main clause + that / when / because / if + clause containing in the dead of night.",
+        "descriptionZh": "原檔列出的句法框架：Main clause + that / when / because / if + clause containing in the dead of night。",
+        "examples": [
+          {
+            "en": "The reporter said that the boat had arrived in the dead of night.",
+            "zh": "記者表示，那艘船在夜深人靜時抵達。",
+            "highlight": "the dead of night"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Compresses a Longer Description",
+        "titleZh": "把較長的描寫濃縮",
+        "en": "The telephone rang in the dead of night.",
+        "zh": "你可以用一個簡潔的固定表達，代替「在夜晚最黑暗、最深沉和最寂靜的時候」這段較長的解釋。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Creates a Strong Atmosphere",
+        "titleZh": "營造鮮明氣氛",
+        "en": "The expression immediately suggests darkness, silence and sleeping people.",
+        "zh": "這個表達能立即令人聯想到黑暗、寂靜，以及大部分人已經熟睡的畫面。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Makes Unexpected Events More Striking",
+        "titleZh": "突出事件的突然或異常",
+        "en": "The second sentence makes the event sound more unusual and unsettling.",
+        "zh": "第二句更能突出事件發生得非常突然，而且可能令人感到不安。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful in Storytelling",
+        "titleZh": "適合敘述故事",
+        "en": "The expression can quickly establish when an event happened and what the surroundings felt like.",
+        "zh": "這個表達可以同時交代事件發生的時間及當時的環境氣氛。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Provides Sentence-Position Variety",
+        "titleZh": "增加句子位置變化",
+        "en": "In the dead of night, the alarm rang. However, the idiom is not automatically better than a plain time expression. Use it only when its vivid nighttime atmosphere suits the message.",
+        "zh": "這個時間短語可以放在句末，也可以放在句首，令句式更加靈活。 不過，慣用語並非在任何情況下都比普通時間表達更好。 只有當深夜氣氛對句子有實際作用時， 才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Early Written Use Documented",
+      "statusZh": "確切來源不明；已有早期書面記錄",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "An early recorded related form, in the dead of the night, appears in Edward Hall’s Chronicle of 1548. This is an early surviving written record, not proof that Hall invented the expression. Shakespeare later used the shorter wording in Twelfth Night: “even in the dead of night”.",
+          "zh": "一個有早期記錄的相關形式 in the dead of the night，出現在 Edward Hall 於1548年出版的《編年史》中。 這只是目前可找到的早期書面記錄，並不能證明 Hall 創造了這個表達。 莎士比亞後來亦在《第十二夜》中使用了較短的形式 in the dead of night。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The idea of the night reaching its deepest point naturally developed into a fixed description of the very late hours when most people are asleep and the surroundings are dark and quiet.",
+          "zh": "夜晚到達最深沉的時刻這個概念，逐漸演變成一個固定表達，用來描述大部分人已入睡、周圍黑暗而寂靜的深夜時段。"
+        }
+      ],
+      "memoryEn": "Imagine the night at its deepest point: almost no light, little sound and most people asleep.",
+      "memoryZh": "想像夜晚最深沉的一刻：幾乎沒有光線、四周寂靜，大部分人都已入睡。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use “in”",
+        "titleZh": "規則一",
+        "en": "The dog barked at the dead of night.",
+        "zh": "一般應使用介詞 in，組成完整時間短語 in the dead of night。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep “the”",
+        "titleZh": "冠詞 the 是固定部分，不可省略",
+        "en": "in dead of night",
+        "zh": "冠詞 the 是固定部分，不可省略。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "“Dead” Does Not Mean That Someone Has Died",
+        "titleZh": "規則三",
+        "en": "In this expression, dead helps describe the night at its deepest, darkest or quietest point. Do not translate the expression literally as: Natural Chinese meanings include:",
+        "zh": "這裏的 dead 並不是指有人死亡，而是強調夜晚最深沉、最黑暗或最寂靜的時段。 死亡的夜晚深夜時分； 夜深人靜時； 萬籟俱寂之時； 夜晚最深沉的時候。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Does Not Necessarily Mean Exactly Midnight",
+        "titleZh": "規則四",
+        "en": "The expression refers to a general part of the night, not one exact clock time.",
+        "zh": "這個表達並不一定指正好午夜十二時，而是泛指夜晚最深、最黑暗或最寂靜的時段。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Use It for the Early Evening",
+        "titleZh": "規則五",
+        "en": "We had dinner at eight in the evening.",
+        "zh": "一般情況下，晚上八時並不算 the dead of night。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "The Deep-Night Setting Must Matter",
+        "titleZh": "規則六",
+        "en": "Unless the unusual time is important, the vivid idiom may add nothing useful.",
+        "zh": "只有當「深夜發生」對事件的氣氛、驚訝程度或重要性有明顯作用時，才應使用這個表達。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則七",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "原句表示可能性時，答案也必須保留相同的可能程度，不可擅自改成已經發生的事實。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Use a Comma After an Initial Phrase",
+        "titleZh": "規則八",
+        "en": "In the dead of night the alarm began to ring.",
+        "zh": "當 In the dead of night 放在句首時，後面應使用逗號。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "The first word of each canonical answer has been provided.",
+      "zh": "使用 in the dead of night 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-60-q01",
+        "number": 1,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The phone rang very late at night, when the whole house was dark and quiet.",
+        "promptZh": "電話在深夜很晚的時候響起，當時整間屋既黑暗又安靜。",
+        "starter": "The",
+        "answer": "The phone rang in the dead of night.",
+        "answerZh": "電話在夜深人靜時響起。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q02",
+        "number": 2,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "A baby suddenly began crying in the middle of the night.",
+        "promptZh": "一名嬰兒在半夜突然哭了起來。",
+        "starter": "A",
+        "answer": "A baby suddenly began crying in the dead of night.",
+        "answerZh": "一名嬰兒在深夜時分突然哭了起來。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q03",
+        "number": 3,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The dog began barking when everyone in the street was asleep.",
+        "promptZh": "街上所有人都熟睡時，那隻狗開始吠叫。",
+        "starter": "The",
+        "answer": "The dog began barking in the dead of night.",
+        "answerZh": "那隻狗在夜深人靜時開始吠叫。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q04",
+        "number": 4,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "A loud crash woke us long after midnight.",
+        "promptZh": "午夜過後很久，一聲巨響把我們吵醒了。",
+        "starter": "A",
+        "answer": "A loud crash woke us in the dead of night.",
+        "answerZh": "一聲巨響在深夜時分把我們吵醒了。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q05",
+        "number": 5,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The fire alarm sounded during the darkest and quietest part of the night.",
+        "promptZh": "火警鐘在夜晚最黑暗、最寂靜的時段響起。",
+        "starter": "The",
+        "answer": "The fire alarm sounded in the dead of night.",
+        "answerZh": "火警鐘在夜深人靜時響起。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q06",
+        "number": 6,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Heavy rain started while the whole village was sleeping.",
+        "promptZh": "全村人都在睡覺時，下起了大雨。",
+        "starter": "Heavy",
+        "answer": "Heavy rain started in the dead of night while the whole village was sleeping.",
+        "answerZh": "全村人都在睡覺的深夜時分，下起了大雨。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q07",
+        "number": 7,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Someone knocked on our front door very late at night.",
+        "promptZh": "有人在深夜很晚的時候敲我們的前門。",
+        "starter": "Someone",
+        "answer": "Someone knocked on our front door in the dead of night.",
+        "answerZh": "有人在夜深人靜時敲我們的前門。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q08",
+        "number": 8,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The electricity went off in the middle of the night.",
+        "promptZh": "電力在半夜中斷了。",
+        "starter": "The",
+        "answer": "The electricity went off in the dead of night.",
+        "answerZh": "電力在深夜時分中斷了。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q09",
+        "number": 9,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "We heard an owl calling when it was completely dark and silent outside.",
+        "promptZh": "外面完全黑暗而寂靜時，我們聽到貓頭鷹的叫聲。",
+        "starter": "We",
+        "answer": "We heard an owl calling in the dead of night.",
+        "answerZh": "我們在夜深人靜時聽到貓頭鷹的叫聲。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q10",
+        "number": 10,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The last train passed through the small town while nearly everyone was asleep.",
+        "promptZh": "幾乎所有人都熟睡時，尾班火車駛過這個小鎮。",
+        "starter": "The",
+        "answer": "The last train passed through the small town in the dead of night.",
+        "answerZh": "尾班火車在深夜時分駛過這個小鎮。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q11",
+        "number": 11,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The cat often wakes me during the deepest part of the night.",
+        "promptZh": "那隻貓經常在夜晚最深沉的時候把我吵醒。",
+        "starter": "The",
+        "answer": "The cat often wakes me in the dead of night.",
+        "answerZh": "那隻貓經常在夜深人靜時把我吵醒。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q12",
+        "number": 12,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Last winter, a tree fell across the road while the town was asleep.",
+        "promptZh": "去年冬天，全鎮人都在睡覺時，一棵樹倒在馬路上。",
+        "starter": "Last",
+        "answer": "Last winter, a tree fell across the road in the dead of night.",
+        "answerZh": "去年冬天，一棵樹在深夜時分倒在馬路上。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q13",
+        "number": 13,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The rescue team has been called to the house very late at night twice this month.",
+        "promptZh": "救援隊本月已兩次在深夜被召到那間屋。",
+        "starter": "The",
+        "answer": "The rescue team has been called to the house in the dead of night twice this month.",
+        "answerZh": "救援隊本月已兩次在夜深人靜時被召到那間屋。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q14",
+        "number": 14,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Tomorrow, the workers will move the large machine after midnight, when the roads are empty.",
+        "promptZh": "工人明天會在午夜過後、道路空無一人時搬運那部大型機器。",
+        "starter": "Tomorrow",
+        "answer": "Tomorrow, the workers will move the large machine in the dead of night, when the roads are empty.",
+        "answerZh": "工人明天會在夜深人靜、道路空無一人時搬運那部大型機器。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q15",
+        "number": 15,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The storm could reach the island during the darkest hours of the night.",
+        "promptZh": "風暴可能會在夜晚最黑暗的時段抵達該島。",
+        "starter": "The",
+        "answer": "The storm could reach the island in the dead of night.",
+        "answerZh": "風暴可能會在深夜時分抵達該島。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q16",
+        "number": 16,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "We had to leave the campsite long after everyone had gone to sleep.",
+        "promptZh": "所有人入睡很久後，我們不得不離開營地。",
+        "starter": "We",
+        "answer": "We had to leave the campsite in the dead of night.",
+        "answerZh": "我們不得不在夜深人靜時離開營地。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q17",
+        "number": 17,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The hotel guests were woken by an alarm in the middle of the night.",
+        "promptZh": "酒店住客在半夜被警報聲吵醒。",
+        "starter": "The",
+        "answer": "The hotel guests were woken by an alarm in the dead of night.",
+        "answerZh": "酒店住客在深夜時分被警報聲吵醒。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q18",
+        "number": 18,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The fox may return to the garden when the whole neighbourhood is completely quiet.",
+        "promptZh": "整個社區完全安靜下來時，那隻狐狸可能會再次走進花園。",
+        "starter": "The",
+        "answer": "The fox may return to the garden in the dead of night.",
+        "answerZh": "那隻狐狸可能會在夜深人靜時再次走進花園。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q19",
+        "number": 19,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: When did the power come back? B: It returned very late at night, while we were all asleep.",
+        "promptZh": "甲：電力何時恢復？ 乙：在我們全都熟睡的深夜，電力才恢復。",
+        "starter": "It",
+        "answer": "It returned in the dead of night while we were all asleep.",
+        "answerZh": "電力在我們全都熟睡的深夜時分恢復了。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q20",
+        "number": 20,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Why are you so tired? B: A car alarm woke me long after midnight.",
+        "promptZh": "甲：你為甚麼這麼疲倦？ 乙：午夜過後很久，一輛車的警報器把我吵醒了。",
+        "starter": "A",
+        "answer": "A car alarm woke me in the dead of night.",
+        "answerZh": "一輛車的警報器在夜深人靜時把我吵醒了。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q21",
+        "number": 21,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Did you hear the baby? B: Yes. She started crying when the whole house was asleep.",
+        "promptZh": "甲：你有聽到那名嬰兒嗎？ 乙：有。整間屋的人都熟睡時，她哭了起來。",
+        "starter": "Yes",
+        "answer": "Yes. She started crying in the dead of night.",
+        "answerZh": "有。她在夜深人靜時哭了起來。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q22",
+        "number": 22,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The guest complained that loud music had started during the quietest part of the night.",
+        "promptZh": "住客投訴有人在夜晚最寂靜的時段播放嘈吵音樂。",
+        "starter": "The",
+        "answer": "The guest complained that loud music had started in the dead of night.",
+        "answerZh": "住客投訴有人在夜深人靜時播放嘈吵音樂。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q23",
+        "number": 23,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The caretaker noticed water coming through the ceiling while everyone else in the building was asleep.",
+        "promptZh": "大廈內其他人都熟睡時，管理員發現有水從天花板滲下。",
+        "starter": "The",
+        "answer": "The caretaker noticed water coming through the ceiling in the dead of night.",
+        "answerZh": "管理員在夜深人靜時發現有水從天花板滲下。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q24",
+        "number": 24,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "We were driving through the mountains long after midnight when a deer crossed the road.",
+        "promptZh": "午夜過後很久，我們駕車穿過山區時，一隻鹿橫過馬路。",
+        "starter": "We",
+        "answer": "We were driving through the mountains in the dead of night when a deer crossed the road.",
+        "answerZh": "我們在深夜駕車穿過山區時，一隻鹿橫過馬路。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q25",
+        "number": 25,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The shop alarm suddenly went off when the streets were completely empty.",
+        "promptZh": "街道完全空無一人時，店舖的警報器突然響起。",
+        "starter": "The",
+        "answer": "The shop alarm suddenly went off in the dead of night, when the streets were completely empty.",
+        "answerZh": "店舖的警報器在夜深人靜、街道空無一人時突然響起。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q26",
+        "number": 26,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: What did the farmer say? B: He said the horses became restless in the middle of the night.",
+        "promptZh": "甲：農夫說了甚麼？ 乙：他說那些馬在半夜變得不安。",
+        "starter": "He",
+        "answer": "He said the horses became restless in the dead of night.",
+        "answerZh": "他說那些馬在深夜時分變得不安。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q27",
+        "number": 27,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A film crew moved its equipment through the city after midnight, when there was almost no traffic.",
+        "promptZh": "一隊電影工作人員在午夜過後、幾乎沒有車流時把器材運過市內。",
+        "starter": "A",
+        "answer": "A film crew moved its equipment through the city in the dead of night, when there was almost no traffic.",
+        "answerZh": "一隊電影工作人員在夜深人靜、幾乎沒有車流時把器材運過市內。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q28",
+        "number": 28,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The old sailor remembered hearing the ship’s bell during the darkest hour of the night.",
+        "promptZh": "那名老水手記得自己曾在夜晚最黑暗的時候聽到船鐘聲。",
+        "starter": "The",
+        "answer": "The old sailor remembered hearing the ship’s bell in the dead of night.",
+        "answerZh": "那名老水手記得自己曾在深夜時分聽到船鐘聲。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q29",
+        "number": 29,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: When did Karen send that urgent message? B: She sent it when most people were fast asleep.",
+        "promptZh": "甲：Karen 何時發出那則緊急訊息？ 乙：她在大部分人都熟睡時發出的。",
+        "starter": "She",
+        "answer": "She sent the urgent message in the dead of night.",
+        "answerZh": "她在夜深人靜時發出那則緊急訊息。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q30",
+        "number": 30,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The nurse heard a patient calling softly while the hospital was silent and most people were asleep.",
+        "promptZh": "醫院一片寂靜、大部分人都熟睡時，護士聽到一名病人輕聲呼喚。",
+        "starter": "The",
+        "answer": "The nurse heard a patient calling softly in the dead of night.",
+        "answerZh": "護士在夜深人靜時聽到一名病人輕聲呼喚。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q31",
+        "number": 31,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Although deliveries normally came during the day, a lorry arrived very late at night while the town was asleep.",
+        "promptZh": "雖然送貨通常在日間進行，一輛貨車卻在全鎮沉睡的深夜抵達。",
+        "starter": "Although",
+        "answer": "Although deliveries normally came during the day, a lorry arrived in the dead of night while the town was asleep.",
+        "answerZh": "雖然送貨通常在日間進行，一輛貨車卻在全鎮沉睡的深夜時分抵達。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q32",
+        "number": 32,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Because the storm became stronger after midnight, the family moved away from the windows.",
+        "promptZh": "由於風暴在午夜過後變得更猛烈，那家人走到遠離窗戶的地方。",
+        "starter": "Because",
+        "answer": "Because the storm became stronger in the dead of night, the family moved away from the windows.",
+        "answerZh": "由於風暴在深夜時分變得更猛烈，那家人走到遠離窗戶的地方。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q33",
+        "number": 33,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Just as the village was sleeping most deeply, the church bell began to ring.",
+        "promptZh": "正當全村人睡得最熟時，教堂的鐘開始響起。",
+        "starter": "In",
+        "answer": "In the dead of night, the church bell began to ring while the village was asleep.",
+        "answerZh": "在夜深人靜、全村人都在沉睡時，教堂的鐘開始響起。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q34",
+        "number": 34,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The hikers thought the forest was empty. Then they heard footsteps during the darkest part of the night.",
+        "promptZh": "遠足者以為森林裡沒有人，但他們後來在夜晚最黑暗的時段聽到腳步聲。",
+        "starter": "The",
+        "answer": "The hikers thought the forest was empty, but they heard footsteps in the dead of night.",
+        "answerZh": "遠足者以為森林裡沒有人，但他們在深夜時分聽到腳步聲。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q35",
+        "number": 35,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The train stopped far from the station while nearly everyone on board was asleep.",
+        "promptZh": "車上幾乎所有人都熟睡時，列車在遠離車站的地方停了下來。",
+        "starter": "The",
+        "answer": "The train stopped far from the station in the dead of night, while nearly everyone on board was asleep.",
+        "answerZh": "列車在夜深人靜、車上幾乎所有人都熟睡時，停在遠離車站的地方。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q36",
+        "number": 36,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Why were the repair workers making noise so late? B: A water pipe had burst, so they had to work while the neighbourhood was asleep.",
+        "promptZh": "甲：維修工人為甚麼這麼晚仍在製造聲響？ 乙：有一條水管爆裂，所以他們不得不在整個社區都熟睡時工作。",
+        "starter": "A",
+        "answer": "A water pipe had burst, so the repair workers had to work in the dead of night.",
+        "answerZh": "有一條水管爆裂，所以維修工人不得不在夜深人靜時工作。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q37",
+        "number": 37,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The reporter said the boat had probably reached the harbour during the quietest part of the night.",
+        "promptZh": "記者表示，那艘船很可能在夜晚最寂靜的時段抵達海港。",
+        "starter": "The",
+        "answer": "The reporter said the boat had probably reached the harbour in the dead of night.",
+        "answerZh": "記者表示，那艘船很可能在夜深人靜時抵達海港。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q38",
+        "number": 38,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The footprints suggest that someone might have entered the garden long after midnight.",
+        "promptZh": "那些腳印顯示，可能有人在午夜過後很久進入花園。",
+        "starter": "The",
+        "answer": "The footprints suggest that someone might have entered the garden in the dead of night.",
+        "answerZh": "那些腳印顯示，可能有人在深夜時分進入花園。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q39",
+        "number": 39,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Only during the deepest hours, after the house had become completely silent, did the strange tapping begin.",
+        "promptZh": "只有到了夜晚最深沉、整間屋完全安靜下來的時候，奇怪的敲擊聲才開始出現。",
+        "starter": "Only",
+        "answer": "Only in the dead of night, after the house had become completely silent, did the strange tapping begin.",
+        "answerZh": "只有到了夜深人靜、整間屋完全安靜下來後，奇怪的敲擊聲才開始出現。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q40",
+        "number": 40,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The streets were empty and every window was dark when the bus finally arrived.",
+        "promptZh": "巴士終於抵達時，街道空無一人，每扇窗戶都是黑的。",
+        "starter": "In",
+        "answer": "In the dead of night, the bus finally arrived while the streets were empty and every window was dark.",
+        "answerZh": "巴士終於在夜深人靜時抵達，當時街道空無一人，每扇窗戶都是黑的。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q41",
+        "number": 41,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A water pipe broke beneath the main road while the town was at its quietest, so emergency workers were called out.",
+        "promptZh": "全鎮最寂靜時，主要道路下方的一條水管爆裂，因此緊急維修人員被召來。",
+        "starter": "A",
+        "answer": "A water pipe broke beneath the main road in the dead of night, so emergency workers were called out.",
+        "answerZh": "主要道路下方的一條水管在夜深人靜時爆裂，因此緊急維修人員被召來。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q42",
+        "number": 42,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "To avoid daytime traffic, the airport plans to move the old plane across the road during the middle of the night.",
+        "promptZh": "為了避開日間車流，機場計劃在半夜把舊飛機移過馬路。",
+        "starter": "To",
+        "answer": "To avoid daytime traffic, the airport plans to move the old plane across the road in the dead of night.",
+        "answerZh": "為了避開日間車流，機場計劃在夜深人靜時把舊飛機移過馬路。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q43",
+        "number": 43,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Grandfather suddenly became ill when everyone else was sleeping, and we had to call a doctor.",
+        "promptZh": "其他人都在睡覺時，祖父突然不適，我們不得不致電醫生。",
+        "starter": "Grandfather",
+        "answer": "Grandfather suddenly became ill in the dead of night, and we had to call a doctor.",
+        "answerZh": "祖父在深夜時分突然不適，我們不得不致電醫生。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q44",
+        "number": 44,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A camera in the woods showed that deer came to the lake during the darkest and quietest hours.",
+        "promptZh": "森林裡的攝影機拍到鹿群在最黑暗、最寂靜的時段來到湖邊。",
+        "starter": "A",
+        "answer": "A camera in the woods showed that deer came to the lake in the dead of night.",
+        "answerZh": "森林裡的攝影機拍到鹿群在夜深人靜時來到湖邊。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q45",
+        "number": 45,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The school guard saw a classroom light come on when the whole building should have been empty and silent.",
+        "promptZh": "整座校舍理應空無一人、一片寂靜時，學校保安看見一間課室的燈亮了。",
+        "starter": "The",
+        "answer": "The school guard saw a classroom light come on in the dead of night, when the whole building should have been empty and silent.",
+        "answerZh": "學校保安在夜深人靜、整座校舍理應空無一人時，看見一間課室的燈亮了。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q46",
+        "number": 46,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The local paper described how the town’s warning bell rang without explanation while everyone was asleep.",
+        "promptZh": "本地報章描述，全鎮人都在熟睡時，鎮上的警報鐘無故響起。",
+        "starter": "The",
+        "answer": "The local paper described how the town’s warning bell rang in the dead of night without explanation.",
+        "answerZh": "本地報章描述，鎮上的警報鐘在夜深人靜時無故響起。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q47",
+        "number": 47,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "No one knows exactly when the small boat arrived. People nearby think it came after midnight, when the harbour was silent.",
+        "promptZh": "沒有人確切知道那艘小船何時抵達。附近的人認為，它是在午夜過後、海港一片寂靜時抵達的。",
+        "starter": "No",
+        "answer": "No one knows exactly when the small boat arrived, but people nearby think it came in the dead of night, when the harbour was silent.",
+        "answerZh": "沒有人確切知道那艘小船何時抵達，但附近的人認為，它是在夜深人靜、海港一片寂靜時抵達的。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q48",
+        "number": 48,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "If the river rises while the village is asleep, families may have to leave their homes immediately.",
+        "promptZh": "如果河水在全村人熟睡時上漲，各家庭可能需要立即離開住所。",
+        "starter": "If",
+        "answer": "If the river rises in the dead of night, families may have to leave their homes immediately.",
+        "answerZh": "如果河水在深夜時分上漲，各家庭可能需要立即離開住所。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q49",
+        "number": 49,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The café closed before midnight, but a cleaning van returned several hours later, when the street was completely quiet.",
+        "promptZh": "咖啡店在午夜前關門，但數小時後，一輛清潔車在街道完全寂靜時返回。",
+        "starter": "The",
+        "answer": "The café closed before midnight, but a cleaning van returned in the dead of night, when the street was completely quiet.",
+        "answerZh": "咖啡店在午夜前關門，但一輛清潔車在夜深人靜、街道完全寂靜時返回。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      },
+      {
+        "id": "idiom-60-q50",
+        "number": 50,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "At an hour when even the bakers had not begun work and every window was dark, a single bicycle bell sounded in the empty square.",
+        "promptZh": "在連麵包師也尚未開工、每扇窗戶都是黑的時候，空蕩蕩的廣場上響起了一下單車鈴聲。",
+        "starter": "In",
+        "answer": "In the dead of night, before even the bakers had begun work, a single bicycle bell sounded in the empty square while every window was still dark.",
+        "answerZh": "在夜深人靜、連麵包師也尚未開工時，空蕩蕩的廣場上響起了一下單車鈴聲，而每扇窗戶仍然一片漆黑。",
+        "targetForm": "The Dead of Night",
+        "targetMeaning": "Cambridge defines the expression as the middle of the night, particularly when it is very dark.",
+        "highlight": "the dead of night"
+      }
+    ]
+  }
+}

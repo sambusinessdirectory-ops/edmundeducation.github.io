@@ -1,0 +1,1265 @@
+{
+  "id": "ss327",
+  "order": 327,
+  "slug": "x-is-more-of-a-than-b",
+  "title": "「X is more of A than B」與其說 X 是 B，不如說 X 是 A",
+  "titleZh": "「X is more of A than B」與其說 X 是 B，不如說 X 是 A",
+  "titleEn": "Using “X is more of A than B”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 325 -「X is more of A than B」.pdf",
+    "pageCount": 28,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "exercisePages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "answerPages": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "sha256": "5de860e3da9398ce0f941320f9c873ba5d944509a6ede2dd53c7d05691d2f067",
+    "sourceNumber": 325,
+    "systemOrder": 327,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 325 maps to ss327: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Subject + be + more of + noun phrase A + than + noun phrase B",
+  "formulas": [
+    {
+      "id": "ss327-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Subject + be + more of + noun phrase A + than + noun phrase B"
+    }
+  ],
+  "example": "The disagreement is more of a communication problem than a technical one.",
+  "exampleZh": "這次分歧與其說是技術問題，不如說是溝通問題。",
+  "examples": [
+    {
+      "id": "ss327-example-01",
+      "en": "The disagreement is more of a communication problem than a technical one.",
+      "zh": "這次分歧與其說是技術問題，不如說是溝通問題。",
+      "highlight": "The disagreement is more of a communication problem than a technical one."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss327-rule-01",
+      "zh": "在【X is more of A than B】中，A 是說話者認為較準確的描述。例句【The meeting was more of an introduction than a negotiation.】中，較準確的描述是【an introduction】，較不準確的描述是【a negotiation】。把 A 和 B 的位置對調，句子意思也會改變。",
+      "en": "In X is more of A than B, A is the stronger or more accurate description. For example, in ‘The meeting was more of an introduction than a negotiation’, an introduction is the more accurate description and a negotiation is the less accurate one. Reversing A and B changes the meaning.",
+      "enSource": "pdf-with-editorial-clarification",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss327-rule-02",
+      "zh": "詞語【more of】和 than 後通常使用名詞或名詞組。直接比較形容詞時，應使用另一個句型，而不是本課的 more of A than B。",
+      "en": "Use noun phrases after “more of” and “than” The words after more of and than are normally nouns or noun phrases. The task was more of a test than a game. The speech was more of an appeal than a policy statement. The task was more of difficult than enjoyable. For a direct adjective comparison, use a different structure: The task was more difficult than enjoyable.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss327-rule-03",
+      "zh": "在 more of A than B 中，A 和 B 若是單數可數名詞，通常都要各自使用 a 或 an。輔音讀音前用 a，例如 a warning；元音讀音前用 an，例如 an opportunity。冠詞取決於讀音，不只看拼寫。",
+      "en": "Use “a” or “an” with singular countable nouns The event was more of a celebration than a ceremony. The delay was more of an inconvenience than a disaster. Use a before a consonant sound: a warning a lesson a technical problem Use an before a vowel sound: an opportunity an inconvenience an emotional reaction",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss327-rule-04",
+      "zh": "詞語【warning】和 request 都是單數可數名詞，因此兩者前面都需要冠詞。",
+      "en": "Repeat the article when necessary The message was more of a warning than a request. The message was more of a warning than request.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss327-rule-05",
+      "zh": "如果 A 和 B 使用相同的中心名詞，可以用 one 代替第二次出現的單數名詞。只有在讀者能清楚知道 one 代替哪個名詞時，才應使用這種寫法。",
+      "en": "Use “one” to avoid repeating the same noun The disagreement is more of a communication problem than a technical problem. This is grammatically correct, but the repeated noun can be replaced with one: The disagreement is more of a communication problem than a technical one. Other examples: a timing issue → a money one a cosmetic problem → a structural one a personal decision → a political one However, use one only when the missing noun is clear.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss327-rule-06",
+      "zh": "在 more of A than B 後若是不可以數或抽象名詞，通常不需要冠詞。例句中的 training和 proof 都按不可數用法處理，因此可寫 full training 和 firm proof；不可機械地在所有 A、B 前加入 a 或 an。",
+      "en": "Uncountable nouns do not always need an article The programme was more of a short introduction than full training. The early result was more of an indication than firm proof. training and proof are uncountable in these examples, so they do not require a or an.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss327-rule-07",
+      "zh": "句中的 be 或 become 必須保留原句的時態和語氣：現在用 is，過去用 was，現在完成可用 has become，過去完成可用 had become，表達可能性則可用 could be。more of A than B 的比較部分保持不變。",
+      "en": "Preserve the correct form of “be” Present: The book is more of a guide than a textbook. Past: The meeting was more of an introduction than a negotiation. Present perfect: The app has become more of a social platform than a messaging tool. Past perfect: The weekly meeting had become more of a progress check than a decision-making session. Modal: The policy could be more of a public-relations exercise than an environmental measure.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss327-rule-08",
+      "zh": "這句比較水和果汁的數量，並不是把一件事歸類為 A 而不是 B。這句比較兩種描述，表示「警告」比「請求」更能準確形容這次討論。",
+      "en": "Do not confuse classification with quantity The bottle contains more water than juice. This compares quantities. It does not use the target structure. The discussion was more of a warning than a request. This compares two possible descriptions of the discussion.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss327-rule-09",
+      "zh": "這句不一定表示活動完全沒有正式元素，而是表示整體而言，「慶祝活動」是更準確的描述。",
+      "en": "The sentence does not completely deny B The event was more of a celebration than a formal ceremony. This does not necessarily mean that the event contained no formal elements. It means that celebration is the better overall description.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss327-rule-10",
+      "zh": "副詞 really、actually、perhaps、probably、clearly 等可以加入句中，用來表達態度或確定程度，但它們不是固定結構的一部分；核心仍是 more of A than B。",
+      "en": "Optional words must not be treated as part of the fixed structure Words such as the following may be added: really actually perhaps probably clearly The speech was perhaps more of an appeal than a policy statement. The article was actually more of an opinion piece than an objective report. These words add attitude or certainty, but the core structure remains: more of A than B",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss327-benefit-01",
+      "zh": "有時一個人、事件或情況同時帶有 A 和 B 的特徵。這個句型讓你指出哪一個描述較為準確。這次面試與其說是正式評估，不如說是友善交談。 面試可能仍然包含評估成分，但整體感覺更接近友善交談。",
+      "en": "It helps you choose between two possible descriptions Sometimes a person, event or situation has features of both A and This structure lets you show which description is more accurate. The interview was more of a friendly conversation than a formal assessment. The interview may still have included some assessment, but its overall character was closer to a conversation.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss327-benefit-02",
+      "zh": "第一個版本完全否定「談判」這個描述。第二個版本較有分寸：它容許兩種描述都有部分道理，但清楚指出哪一種更準確。",
+      "en": "It avoids making an overly absolute statement Compare: The meeting was not a negotiation. It was an introduction. The meeting was more of an introduction than a negotiation. The first version completely rejects the idea of a negotiation. The second version is more balanced: it accepts that both descriptions may contain some truth, while showing that one is more accurate.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss327-benefit-03",
+      "zh": "使用這個句型，可以把兩項相關判斷合併成一句，不需要重複主語或另外使用 however。",
+      "en": "It combines two judgements in one sentence Without this structure: The book is useful as a guide. However, it is not really a textbook. With this structure: The book is more of a guide than a textbook.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss327-benefit-04",
+      "zh": "和 difficult 等形容詞有時過於籠統。這個句型讓你更準確地說明某件事究竟屬於哪一類。第二句清楚說明了會議的實際功能。",
+      "en": "It makes evaluations more precise Words such as good, bad, useful and difficult can be too general. The structure allows you to explain exactly what kind of thing something is. good, bad, useful General: The meeting was useful. More precise: The meeting was more of a progress check than a decision-making session.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss327-benefit-05",
+      "zh": "與其直接說對方「錯了」，你可以用這個句型提出較準確的理解。這種表達在會議、討論和專業溝通中通常較有分寸。",
+      "en": "It is useful for polite disagreement and correction Instead of saying: You are wrong. This is not a technical problem. you can say: This is more of a communication problem than a technical one. The second version corrects the description without making the disagreement unnecessarily aggressive.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss327-benefit-06",
+      "zh": "這個句型適合用於討論、報告、評論、簡報和分析文章，因為它能顯示你不是只作簡單判斷，而是在比較不同解釋。",
+      "en": "It is useful in discussions, reports and analytical writing You can use this structure to evaluate: a problem a decision a meeting a policy a piece of writing an event a person’s reaction the purpose of an activity.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 325 maps to ss327: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using more of A than; Preserve the original meaning, tense,",
+      "modality and important details.",
+      "The target structure may appear in different parts of the answer. Do not assume that it must",
+      "come immediately after the first subject.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 more of A than B 改寫以下句子。必須保留原句的意思、時態、可能性及重要資料。",
+      "目標結構可能出現在答案的不同位置。不要假設它一定緊接第一個主語之後。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss327-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A communication problem describes the disagreement better than a technical problem does.",
+      "promptZh": "「溝通問題」比「技術問題」更能準確描述這次分歧。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The disagreement is more of a communication problem than a technical one.",
+      "answerZh": "這次分歧與其說是技術問題，不如說是溝通問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The disagreement is more of a communication problem than a technical one."
+    },
+    {
+      "id": "ss327-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The meal was closer to a snack than a full meal.",
+      "promptZh": "這頓飯更像小食，而不像一頓完整的正餐。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meal was more of a snack than a full meal.",
+      "answerZh": "這頓飯與其說是完整的正餐，不如說是小食。",
+      "answerZhSource": "pdf",
+      "highlight": "The meal was more of a snack than a full meal."
+    },
+    {
+      "id": "ss327-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "For us, it would be more accurate to call the trip a family visit rather than a holiday.",
+      "promptZh": "對我們來說，把這次旅程稱為探親而不是度假會更準確。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For us, the trip was more of a family visit than a holiday.",
+      "answerZh": "對我們來說，這次旅程與其說是度假，不如說是探親。",
+      "answerZhSource": "pdf",
+      "highlight": "For us, the trip was more of a family visit than a holiday."
+    },
+    {
+      "id": "ss327-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The class felt like a discussion rather than a lecture.",
+      "promptZh": "這堂課感覺比較像討論，而不是講課。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The class was more of a discussion than a lecture.",
+      "answerZh": "這堂課與其說是講課，不如說是討論。",
+      "answerZhSource": "pdf",
+      "highlight": "The class was more of a discussion than a lecture."
+    },
+    {
+      "id": "ss327-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "His message sounded mainly like a reminder, not a complaint.",
+      "promptZh": "他的訊息聽起來主要是一個提醒，而不是投訴。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His message was more of a reminder than a complaint.",
+      "answerZh": "他的訊息與其說是投訴，不如說是提醒。",
+      "answerZhSource": "pdf",
+      "highlight": "His message was more of a reminder than a complaint."
+    },
+    {
+      "id": "ss327-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The game was intended mainly as a practice session, not as a serious competition.",
+      "promptZh": "這場比賽主要是作為練習，而不是正式競賽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The game was more of a practice session than a serious competition.",
+      "answerZh": "這場比賽與其說是正式競賽，不如說是練習。",
+      "answerZhSource": "pdf",
+      "highlight": "The game was more of a practice session than a serious competition."
+    },
+    {
+      "id": "ss327-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The delay was inconvenient, but calling it a disaster would be too strong.",
+      "promptZh": "這次延誤確實帶來不便，但把它稱為災難便太嚴重了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The delay was more of an inconvenience than a disaster.",
+      "answerZh": "這次延誤與其說是災難，不如說是不便。",
+      "answerZhSource": "pdf",
+      "highlight": "The delay was more of an inconvenience than a disaster."
+    },
+    {
+      "id": "ss327-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "This book should be treated as a guide rather than a textbook.",
+      "promptZh": "這本書應被視為指南，而不是教科書。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This book is more of a guide than a textbook.",
+      "answerZh": "這本書與其說是教科書，不如說是指南。",
+      "answerZhSource": "pdf",
+      "highlight": "This book is more of a guide than a textbook."
+    },
+    {
+      "id": "ss327-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The meeting served mainly as an introduction; it was not really a negotiation.",
+      "promptZh": "這次會議主要用作初步介紹，並不是真正的談判。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting was more of an introduction than a negotiation.",
+      "answerZh": "這次會議與其說是談判，不如說是初步介紹。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting was more of an introduction than a negotiation."
+    },
+    {
+      "id": "ss327-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "This task tested patience more than skill.",
+      "promptZh": "這項任務對耐性的考驗多於對技巧的考驗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The task was more of a test of patience than a test of skill.",
+      "answerZh": "這項任務與其說是技巧考驗，不如說是耐性考驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The task was more of a test of patience than a test of skill."
+    },
+    {
+      "id": "ss327-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "In my view, “celebration” describes the event better than “formal ceremony”.",
+      "promptZh": "在我看來，「慶祝活動」比「正式典禮」更能準確描述這項活動。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I think the event was more of a celebration than a formal ceremony.",
+      "answerZh": "我認為這項活動與其說是正式典禮，不如說是慶祝活動。",
+      "answerZhSource": "pdf",
+      "highlight": "I think the event was more of a celebration than a formal ceremony."
+    },
+    {
+      "id": "ss327-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The teacher said, “The activity is mainly a review, not a new lesson.”",
+      "promptZh": "老師說：「這項活動主要是溫習，而不是新課。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher said that the activity was more of a review than a new lesson.",
+      "answerZh": "老師說，這項活動與其說是新課，不如說是溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher said that the activity was more of a review than a new lesson."
+    },
+    {
+      "id": "ss327-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Did the call sound more like a warning or a request? It sounded more like a warning.",
+      "promptZh": "那通電話聽起來比較像警告還是請求？它比較像警告。",
+      "promptZhSource": "pdf",
+      "starter": "Was",
+      "answer": "Was the call more of a warning than a request?",
+      "answerZh": "那通電話是否與其說是請求，不如說是警告？",
+      "answerZhSource": "pdf",
+      "highlight": "Was the call more of a warning than a request?"
+    },
+    {
+      "id": "ss327-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The new rule is intended as a temporary measure rather than a permanent solution.",
+      "promptZh": "這項新規則是作為臨時措施，而不是長久解決方案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule is more of a temporary measure than a permanent solution.",
+      "answerZh": "這項新規則與其說是長久解決方案，不如說是臨時措施。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule is more of a temporary measure than a permanent solution."
+    },
+    {
+      "id": "ss327-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Her response raised another question instead of providing an answer.",
+      "promptZh": "她的回應沒有提供答案，反而提出了另一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her response was more of a question than an answer.",
+      "answerZh": "她的回應與其說是答案，不如說是問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Her response was more of a question than an answer."
+    },
+    {
+      "id": "ss327-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "For the children, the museum visit felt like an adventure rather than a lesson.",
+      "promptZh": "對孩子們來說，這次博物館參觀比較像冒險體驗，而不是課堂。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the children, the museum visit was more of an adventure than a lesson.",
+      "answerZh": "對孩子們來說，這次博物館參觀與其說是課堂，不如說是冒險體驗。",
+      "answerZhSource": "pdf",
+      "highlight": "For the children, the museum visit was more of an adventure than a lesson."
+    },
+    {
+      "id": "ss327-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The problem seems to concern timing rather than money.",
+      "promptZh": "這個問題看來主要涉及時間安排，而不是金錢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem seems to be more of a timing issue than a money issue.",
+      "answerZh": "這個問題看來與其說是金錢問題，不如說是時間安排問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem seems to be more of a timing issue than a money issue."
+    },
+    {
+      "id": "ss327-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The interview turned out to resemble a friendly conversation more than a formal assessment.",
+      "promptZh": "這次面試結果比較像友善交談，而不像正式評估。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The interview turned out to be more of a friendly conversation than a formal assessment.",
+      "answerZh": "這次面試結果與其說是正式評估，不如說是友善交談。",
+      "answerZhSource": "pdf",
+      "highlight": "The interview turned out to be more of a friendly conversation than a formal assessment."
+    },
+    {
+      "id": "ss327-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "This may simply be a misunderstanding rather than a deliberate insult.",
+      "promptZh": "這可能只是一場誤會，而不是蓄意侮辱。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This may be more of a misunderstanding than a deliberate insult.",
+      "answerZh": "這可能與其說是蓄意侮辱，不如說是一場誤會。",
+      "answerZhSource": "pdf",
+      "highlight": "This may be more of a misunderstanding than a deliberate insult."
+    },
+    {
+      "id": "ss327-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "What happened appears to have been accidental rather than careless.",
+      "promptZh": "所發生的事情看來是意外，而不是出於粗心。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What happened appears to have been more of an accident than an act of carelessness.",
+      "answerZh": "所發生的事情看來與其說是粗心行為，不如說是一場意外。",
+      "answerZhSource": "pdf",
+      "highlight": "What happened appears to have been more of an accident than an act of carelessness."
+    },
+    {
+      "id": "ss327-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The manager described the session mainly as a planning meeting rather than a training workshop.",
+      "promptZh": "經理主要把這場活動形容為規劃會議，而不是培訓工作坊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager described the session as more of a planning meeting than a training workshop.",
+      "answerZh": "經理形容這場活動與其說是培訓工作坊，不如說是規劃會議。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager described the session as more of a planning meeting than a training workshop."
+    },
+    {
+      "id": "ss327-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "We eventually realised that “annoyance” described the noise better than “real danger”.",
+      "promptZh": "我們最終發現，「滋擾」比「真正的危險」更能準確描述那些噪音。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We eventually realised that the noise was more of an annoyance than a real danger.",
+      "answerZh": "我們最終發現，那些噪音與其說是真正的危險，不如說是滋擾。",
+      "answerZhSource": "pdf",
+      "highlight": "We eventually realised that the noise was more of an annoyance than a real danger."
+    },
+    {
+      "id": "ss327-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Although it was advertised as a course, the programme offered only a short introduction rather than a full training programme.",
+      "promptZh": "雖然這個項目以正式課程作宣傳，但它只提供簡短介紹，而不是完整的培訓課程。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although it was advertised as a course, the programme was more of a short introduction than a full training programme.",
+      "answerZh": "雖然這個項目以正式課程作宣傳，但它與其說是完整的培訓課程，不如說是簡短介紹。",
+      "answerZhSource": "pdf",
+      "highlight": "Although it was advertised as a course, the programme was more of a short introduction than a full training programme."
+    },
+    {
+      "id": "ss327-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Could the change be described more accurately as an improvement rather than a complete redesign?",
+      "promptZh": "把這項改動形容為改善而不是徹底重新設計，會否更準確？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could the change be more of an improvement than a complete redesign?",
+      "answerZh": "這項改動會否與其說是徹底重新設計，不如說是改善？",
+      "answerZhSource": "pdf",
+      "highlight": "Could the change be more of an improvement than a complete redesign?"
+    },
+    {
+      "id": "ss327-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The doctor said the pain should be understood as a warning sign rather than an illness in itself.",
+      "promptZh": "醫生說，這種痛楚應被理解為警號，而不是疾病本身。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained that the pain should be seen as more of a warning sign than an illness in itself.",
+      "answerZh": "醫生解釋，這種痛楚應被視為與其說是疾病本身，不如說是警號。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained that the pain should be seen as more of a warning sign than an illness in itself."
+    },
+    {
+      "id": "ss327-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The decision could be described as a political move rather than a practical response.",
+      "promptZh": "這項決定可被形容為政治手段，而不是實際回應。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision could be more of a political move than a practical response.",
+      "answerZh": "這項決定可能與其說是實際回應，不如說是政治手段。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision could be more of a political move than a practical response."
+    },
+    {
+      "id": "ss327-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The students needed a practical demonstration more than they needed another long explanation.",
+      "promptZh": "學生更需要實際示範，而不是另一段冗長解釋。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the students needed was more of a practical demonstration than another long explanation.",
+      "answerZh": "學生所需要的與其說是另一段冗長解釋，不如說是實際示範。",
+      "answerZhSource": "pdf",
+      "highlight": "What the students needed was more of a practical demonstration than another long explanation."
+    },
+    {
+      "id": "ss327-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Looking back, the argument was mainly an emotional reaction rather than a reasoned debate.",
+      "promptZh": "回想起來，那場爭論主要是情緒反應，而不是理性辯論。",
+      "promptZhSource": "pdf",
+      "starter": "Looking",
+      "answer": "Looking back, the argument was more of an emotional reaction than a reasoned debate.",
+      "answerZh": "回想起來，那場爭論與其說是理性辯論，不如說是情緒反應。",
+      "answerZhSource": "pdf",
+      "highlight": "Looking back, the argument was more of an emotional reaction than a reasoned debate."
+    },
+    {
+      "id": "ss327-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The report treats the decline as a short-term fluctuation rather than a lasting trend.",
+      "promptZh": "報告把這次下跌視為短期波動，而不是長期趨勢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report treats the decline as more of a short-term fluctuation than a lasting trend.",
+      "answerZh": "報告認為這次下跌與其說是長期趨勢，不如說是短期波動。",
+      "answerZhSource": "pdf",
+      "highlight": "The report treats the decline as more of a short-term fluctuation than a lasting trend."
+    },
+    {
+      "id": "ss327-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Many residents viewed the project as a threat rather than an opportunity.",
+      "promptZh": "許多居民把這個項目視為威脅，而不是機會。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To many residents, the project was more of a threat than an opportunity.",
+      "answerZh": "對許多居民來說，這個項目與其說是機會，不如說是威脅。",
+      "answerZhSource": "pdf",
+      "highlight": "To many residents, the project was more of a threat than an opportunity."
+    },
+    {
+      "id": "ss327-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The committee now regards the proposal as a starting point, not a finished plan.",
+      "promptZh": "委員會現在把這份提案視為起點，而不是已完成的計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee now regards the proposal as more of a starting point than a finished plan.",
+      "answerZh": "委員會現在認為這份提案與其說是已完成的計劃，不如說是起點。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee now regards the proposal as more of a starting point than a finished plan."
+    },
+    {
+      "id": "ss327-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The manager asked, “Is the complaint mainly a service issue rather than a product fault?”",
+      "promptZh": "經理問：「這宗投訴主要是服務問題，而不是產品故障嗎？」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager asked whether the complaint was more of a service issue than a product fault.",
+      "answerZh": "經理問，這宗投訴是否與其說是產品故障，不如說是服務問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager asked whether the complaint was more of a service issue than a product fault."
+    },
+    {
+      "id": "ss327-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The damage appears to be cosmetic rather than structural.",
+      "promptZh": "損壞看來只涉及外觀，而不是結構。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The damage appears to be more of a cosmetic problem than a structural one.",
+      "answerZh": "損壞看來與其說是結構問題，不如說是外觀問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The damage appears to be more of a cosmetic problem than a structural one."
+    },
+    {
+      "id": "ss327-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "What looked like a failure at first ultimately served as a useful lesson rather than a setback.",
+      "promptZh": "最初看似失敗的事情，最終成為有用的教訓，而不是挫折。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What looked like a failure at first was ultimately more of a useful lesson than a setback.",
+      "answerZh": "最初看似失敗的事情，最終與其說是挫折，不如說是有用的教訓。",
+      "answerZhSource": "pdf",
+      "highlight": "What looked like a failure at first was ultimately more of a useful lesson than a setback."
+    },
+    {
+      "id": "ss327-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "In practice, people now use the app mainly as a social platform rather than a simple messaging tool.",
+      "promptZh": "實際上，人們現在主要把這個應用程式用作社交平台，而不是簡單的通訊工具。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In practice, the app is now more of a social platform than a simple messaging tool.",
+      "answerZh": "實際上，這個應用程式現在與其說是簡單的通訊工具，不如說是社交平台。",
+      "answerZhSource": "pdf",
+      "highlight": "In practice, the app is now more of a social platform than a simple messaging tool."
+    },
+    {
+      "id": "ss327-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Perhaps the speech was mainly an appeal for unity, not a detailed policy statement.",
+      "promptZh": "也許，這篇演說主要是團結呼籲，而不是詳細的政策聲明。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speech was perhaps more of an appeal for unity than a detailed policy statement.",
+      "answerZh": "這篇演說也許與其說是詳細的政策聲明，不如說是團結呼籲。",
+      "answerZhSource": "pdf",
+      "highlight": "The speech was perhaps more of an appeal for unity than a detailed policy statement."
+    },
+    {
+      "id": "ss327-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Although the document is called a contract, it functions mainly as a statement of intent rather than a legally binding agreement.",
+      "promptZh": "雖然這份文件被稱為合約，但它主要是一份意向聲明，而不是具法律約束力的協議。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the document is called a contract, it is more of a statement of intent than a legally binding agreement.",
+      "answerZh": "雖然這份文件被稱為合約，但它與其說是具法律約束力的協議，不如說是意向聲明。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the document is called a contract, it is more of a statement of intent than a legally binding agreement."
+    },
+    {
+      "id": "ss327-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The training day might have built confidence more than it tested skills.",
+      "promptZh": "這個培訓日可能更着重建立信心，而不是測試技能。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training day might have been more of a confidence-building exercise than a skills test.",
+      "answerZh": "這個培訓日可能與其說是技能測試，不如說是建立信心的活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The training day might have been more of a confidence-building exercise than a skills test."
+    },
+    {
+      "id": "ss327-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The guide asked us to consider whether the building should be viewed mainly as a monument rather than a practical space.",
+      "promptZh": "導遊請我們思考，這座建築是否主要應被視為紀念性建築，而不是實用空間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide asked us to consider whether the building was more of a monument than a practical space.",
+      "answerZh": "導遊請我們思考，這座建築是否與其說是實用空間，不如說是紀念性建築。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide asked us to consider whether the building was more of a monument than a practical space."
+    },
+    {
+      "id": "ss327-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "What she offered sounded like a suggestion, not a firm promise.",
+      "promptZh": "她所提出的聽起來像建議，而不是明確承諾。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What she offered was more of a suggestion than a firm promise.",
+      "answerZh": "她所提出的與其說是明確承諾，不如說是建議。",
+      "answerZhSource": "pdf",
+      "highlight": "What she offered was more of a suggestion than a firm promise."
+    },
+    {
+      "id": "ss327-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "By the end of the project, the weekly meeting mainly checked progress instead of making decisions.",
+      "promptZh": "到了項目後期，每週會議主要用來檢查進度，而不是作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of the project, the weekly meeting had become more of a progress check than a decision-making session.",
+      "answerZh": "到了項目後期，每週會議與其說是決策會議，不如說是進度檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of the project, the weekly meeting had become more of a progress check than a decision-making session."
+    },
+    {
+      "id": "ss327-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The article was presented as news, but it read like an opinion piece rather than an objective report.",
+      "promptZh": "這篇文章被當作新聞發表，但讀起來更像評論文章，而不是客觀報道。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The article, which was presented as news, was actually more of an opinion piece than an objective report.",
+      "answerZh": "這篇被當作新聞發表的文章，其實與其說是客觀報道，不如說是評論文章。",
+      "answerZhSource": "pdf",
+      "highlight": "The article, which was presented as news, was actually more of an opinion piece than an objective report."
+    },
+    {
+      "id": "ss327-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The board decided that the sudden resignation was a personal decision rather than a protest against the company.",
+      "promptZh": "董事會認為，這次突然辭職是個人決定，而不是對公司的抗議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The board decided that the sudden resignation was more of a personal decision than a protest against the company.",
+      "answerZh": "董事會認為，這次突然辭職與其說是對公司的抗議，不如說是個人決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The board decided that the sudden resignation was more of a personal decision than a protest against the company."
+    },
+    {
+      "id": "ss327-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Could the policy be mainly a public-relations exercise rather than a genuine environmental measure?",
+      "promptZh": "這項政策會否主要只是公關活動，而不是真正的環保措施？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could the policy be more of a public-relations exercise than a genuine environmental measure?",
+      "answerZh": "這項政策會否與其說是真正的環保措施，不如說是公關活動？",
+      "answerZhSource": "pdf",
+      "highlight": "Could the policy be more of a public-relations exercise than a genuine environmental measure?"
+    },
+    {
+      "id": "ss327-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "For employees working from home, the new system may distract them more than it supports them.",
+      "promptZh": "對在家工作的僱員來說，新系統帶來的干擾可能多於支援。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For employees working from home, the new system may prove to be more of a distraction than a useful support tool.",
+      "answerZh": "對在家工作的僱員來說，新系統最終可能與其說是有用的支援工具，不如說是干擾。",
+      "answerZhSource": "pdf",
+      "highlight": "For employees working from home, the new system may prove to be more of a distraction than a useful support tool."
+    },
+    {
+      "id": "ss327-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The customer called it a refund request, but his message demanded compensation rather than simply asking a question.",
+      "promptZh": "顧客稱之為退款要求，但他的訊息其實是在要求賠償，而不只是提出一般查詢。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the customer described as a refund request was really more of a demand for compensation than a simple enquiry.",
+      "answerZh": "顧客所稱的退款要求，其實與其說是一般查詢，不如說是索償要求。",
+      "answerZhSource": "pdf",
+      "highlight": "What the customer described as a refund request was really more of a demand for compensation than a simple enquiry."
+    },
+    {
+      "id": "ss327-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Although the discussion began as a technical review, it gradually focused on priorities rather than on the data.",
+      "promptZh": "雖然討論最初是技術檢討，但其後逐漸集中於優先次序，而不是數據本身。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the discussion began as a technical review, it gradually became more of a debate about priorities than an examination of the data.",
+      "answerZh": "雖然討論最初是技術檢討，但其後逐漸與其說是檢視數據，不如說是辯論優先次序。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the discussion began as a technical review, it gradually became more of a debate about priorities than an examination of the data."
+    },
+    {
+      "id": "ss327-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The researchers warned that the early result suggested a possibility but did not provide firm proof.",
+      "promptZh": "研究人員警告，初步結果只顯示一種可能性，並沒有提供確實證據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The researchers warned that the early result should be treated as more of an indication than firm proof.",
+      "answerZh": "研究人員警告，初步結果與其說是確實證據，不如說是初步跡象。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers warned that the early result should be treated as more of an indication than firm proof."
+    },
+    {
+      "id": "ss327-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "In her final report, the inspector said the incident should be understood mainly as a failure of communication rather than a failure of equipment.",
+      "promptZh": "視察員在最終報告中表示，這宗事件主要應被理解為溝通失誤，而不是設備故障。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In her final report, the inspector said that the incident was more of a failure of communication than a failure of equipment.",
+      "answerZh": "視察員在最終報告中表示，這宗事件與其說是設備故障，不如說是溝通失誤。",
+      "answerZhSource": "pdf",
+      "highlight": "In her final report, the inspector said that the incident was more of a failure of communication than a failure of equipment."
+    },
+    {
+      "id": "ss327-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The success of the change will depend on whether staff view it as an opportunity rather than a burden.",
+      "promptZh": "這項改動能否成功，將取決於員工把它視為機會還是負擔。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the change succeeds will depend on whether staff see it as more of an opportunity than a burden.",
+      "answerZh": "這項改動能否成功，將取決於員工是否認為它與其說是負擔，不如說是機會。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the change succeeds will depend on whether staff see it as more of an opportunity than a burden."
+    }
+  ]
+}

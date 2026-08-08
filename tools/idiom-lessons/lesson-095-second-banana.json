@@ -1,0 +1,1807 @@
+{
+  "lesson": {
+    "id": "idiom-95",
+    "order": 95,
+    "slug": "second-banana",
+    "version": "1",
+    "title": "配角／第二號人物",
+    "titleEn": "second banana",
+    "titleZh": "配角／第二號人物",
+    "source": {
+      "file": "Idiom 95 - 「Second Banana」.pdf",
+      "pageCount": 43,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "exercisePdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "answerKeyPdfPages": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "second banana",
+        "highlight": "second banana"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Noah was a second banana on the programme.",
+        "zh": "諾亞在節目中只是一名配角。",
+        "highlight": "second banana"
+      },
+      {
+        "en": "I do not want to be a second banana for the rest of my career.",
+        "zh": "我不想在餘下的職業生涯中一直擔任配角。",
+        "highlight": "second banana"
+      }
+    ],
+    "meaning": {
+      "en": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+      "zh": "在另一位較受重視、較有權力或較受注目的人身邊，擔任配角、輔助角色或處於次要地位的人。",
+      "naturalZh": [
+        "配角",
+        "第二號人物",
+        "次要人物",
+        "陪襯角色",
+        "居於次要地位的人",
+        "擔任輔助角色的人"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "Second banana is informal and mainly American. Dictionaries label it informal, slang or chiefly American, although it is widely understandable through films, television, sport and entertainment writing.",
+      "summaryZh": "它是偏美式的非正式用語，在電影、電視、體育及娛樂文章中頗常見。 雖然不少英語使用者都能理解，但在英式英語中，second fiddle 有時會較常見。",
+      "contextsEn": [
+        "humorous",
+        "self-deprecating",
+        "mildly critical",
+        "frustrated",
+        "accepting",
+        "admiring, when the supporting person is highly effective",
+        "supporting member",
+        "deputy",
+        "assistant",
+        "secondary figure",
+        "supporting performer",
+        "second-in-command"
+      ],
+      "contextsZh": [
+        "幽默",
+        "自我調侃",
+        "輕微批評",
+        "不滿",
+        "接受自己的角色",
+        "欣賞一位出色的輔助人物。",
+        "主語補語",
+        "賓語補語",
+        "動詞的賓語",
+        "介詞的賓語",
+        "名詞短語的中心詞",
+        "句式的一部分"
+      ],
+      "formalEn": "Natural alternatives include:",
+      "formalZh": "這種句式應小心使用，因為所有格有時會令人覺得配角完全依附於主要人物。"
+    },
+    "fixedVariable": {
+      "fixed": "second banana",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + a second banana.",
+          "example": "Noah was a second banana on the programme.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "Subject + be + the second banana.",
+          "example": "Alex was the second banana in the comedy duo.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "Subject + be + second banana + to + person.",
+          "example": "Grace was second banana to the famous actor.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "Subject + play(s) / played / has played + second banana.",
+          "example": "Priya played second banana in the school show.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "Subject + serve / work / act + as + a / the second banana.",
+          "example": "Helen will serve as the second banana on the new talk show.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "Subject + become / remain / end up as + a / the second banana.",
+          "example": "Jay may become the second banana if the experienced presenter joins.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "Subject + be + cast / treated / seen / regarded + as + a / the second banana.",
+          "example": "The director cast Emma as the second banana.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "Subject + like / dislike / hate / mind / accept / refuse + being / playing second banana.",
+          "example": "Daniel did not mind being the second banana.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "As a / the second banana, + complete clause.",
+          "example": "As the second banana, Ava prepared the situations for the lead comedian’s jokes.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "The second banana + verb.",
+          "example": "The second banana often receives less attention than the star.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "second banana",
+          "example": "Leo accepted the role of second banana.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "Subject + need / choose / find / hire + a second banana.",
+          "example": "The show needs a second banana who can react quickly.",
+          "highlight": "second banana"
+        },
+        {
+          "form": "Who is the second banana?",
+          "example": "Would you be willing to serve as the second banana for six months?",
+          "highlight": "second banana"
+        },
+        {
+          "form": "Subject + be + a second banana.",
+          "example": "Sophie was the captain’s second banana.",
+          "highlight": "second banana"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “be” with “a”",
+        "titleZh": "當你把某人歸類為一位配角或次要人物時，可以使用 a",
+        "formula": "Subject + be + a second banana.",
+        "descriptionEn": "Source grammar frame: Subject + be + a second banana.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + a second banana。",
+        "examples": [
+          {
+            "en": "Noah was a second banana on the programme.",
+            "zh": "諾亞在節目中只是一名配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "I do not want to be a second banana for the rest of my career.",
+            "zh": "我不想在餘下的職業生涯中一直擔任配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "She may be a second banana now, but she has the ability to lead.",
+            "zh": "她現在可能是配角，但她有能力帶領團隊。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After “be” with “the”",
+        "titleZh": "句式二",
+        "formula": "Subject + be + the second banana.",
+        "descriptionEn": "Source grammar frame: Subject + be + the second banana.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + the second banana。",
+        "examples": [
+          {
+            "en": "Alex was the second banana in the comedy duo.",
+            "zh": "亞歷克斯是這個喜劇組合中的配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Who is the second banana on the new talk show?",
+            "zh": "誰是新清談節目的第二號人物？",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Ruby became the second banana after the new host arrived.",
+            "zh": "新主持加入後，露比成為了配角。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Without an article before “to”",
+        "titleZh": "句式三",
+        "formula": "Subject + be + second banana + to + person.",
+        "descriptionEn": "Grace was a second banana in several films.",
+        "descriptionZh": "當 second banana 透過 to 直接與另一個人比較時，通常不使用冠詞。 格雷絲在幾部電影中擔任配角。",
+        "examples": [
+          {
+            "en": "Grace was second banana to the famous actor.",
+            "zh": "格雷絲在那位著名演員身邊擔任配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Sam has always been second banana to the team captain.",
+            "zh": "山姆一直在隊長身邊處於次要位置。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Helen may become second banana to the new presenter.",
+            "zh": "海倫可能會成為新主持身邊的配角。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "With “play”",
+        "titleZh": "句式四",
+        "formula": "Subject + play(s) / played / has played + second banana.",
+        "descriptionEn": "examples include play second banana, play second banana to someone and play second banana on a team.",
+        "descriptionZh": "Play second banana 是最常見的句式之一。 它可以描述真正的表演者，也可以描述工作、體育或其他合作關係中的次要角色。",
+        "examples": [
+          {
+            "en": "Priya played second banana in the school show.",
+            "zh": "普里雅在學校表演中擔任配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Priya played second banana to the lead singer.",
+            "zh": "普里雅在主唱身邊擔任配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "He is tired of playing second banana.",
+            "zh": "他已厭倦一直擔任配角。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With “serve as”, “work as” or “act as”",
+        "titleZh": "這些動詞說明某人正在擔任輔助角色",
+        "formula": "Subject + serve / work / act + as + a / the second banana.",
+        "descriptionEn": "After as, a or the is normally used when second banana refers to a role occupied by one person.",
+        "descriptionZh": "這些動詞說明某人正在擔任輔助角色。 當 second banana 表示某人所擔任的角色時，as 後面通常使用 a 或 the。",
+        "examples": [
+          {
+            "en": "Helen will serve as the second banana on the new talk show.",
+            "zh": "海倫將在新清談節目中擔任第二號人物。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "He worked as a second banana during the early part of his career.",
+            "zh": "他在職業生涯初期曾擔任配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "The assistant presenter acted as the second banana whenever the main host was present.",
+            "zh": "每當主要主持在場時，助理主持都會擔任配角。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "With “become”, “remain” or “end up”",
+        "titleZh": "這些句式分別表示某人進入、繼續留在，或最後意外落入次要位置",
+        "formula": "Subject + become / remain / end up as + a / the second banana.",
+        "descriptionEn": "Nina remained second banana to the main presenter.",
+        "descriptionZh": "這些句式分別表示某人進入、繼續留在，或最後意外落入次要位置。 妮娜仍然在主要主持身邊擔任配角。",
+        "examples": [
+          {
+            "en": "Jay may become the second banana if the experienced presenter joins.",
+            "zh": "如果那位經驗豐富的主持加入，傑伊可能會成為配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Nina remained the second banana despite her strong performance.",
+            "zh": "儘管妮娜表現出色，她仍然只是第二號人物。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Oscar ended up as the second banana in his own project.",
+            "zh": "奧斯卡最後竟然在自己的項目中成為配角。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After “cast”, “treat”, “see” or “regard”",
+        "titleZh": "這些句式表示另一個人或團體把某人放在次要位置",
+        "formula": "Subject + be + cast / treated / seen / regarded + as + a / the second banana.",
+        "descriptionEn": "He did not want to be regarded as a second banana.",
+        "descriptionZh": "這些句式表示另一個人或團體把某人放在次要位置。 他不希望被視為配角。",
+        "examples": [
+          {
+            "en": "The director cast Emma as the second banana.",
+            "zh": "導演安排艾瑪擔任配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "His colleagues treated him as a second banana.",
+            "zh": "他的同事把他當作次要人物。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "The public saw her as the second banana in the partnership.",
+            "zh": "公眾把她視為這段合作關係中的第二號人物。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "After verbs expressing feelings or choices",
+        "titleZh": "句式八",
+        "formula": "Subject + like / dislike / hate / mind / accept / refuse + being / playing second banana.",
+        "descriptionEn": "Felix refused to play second banana to his new partner.",
+        "descriptionZh": "當 being 或 playing 接在另一個動詞後面時，應使用 -ing 形式。 費利克斯拒絕在新拍檔身邊擔任配角。",
+        "examples": [
+          {
+            "en": "Daniel did not mind being the second banana.",
+            "zh": "丹尼爾不介意擔任配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Tara hated playing second banana to her manager.",
+            "zh": "塔拉討厭在經理身邊擔任次要角色。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Nathan accepted being a second banana because he preferred less pressure.",
+            "zh": "內森接受擔任配角，因為他較喜歡壓力較小的角色。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "At the beginning of a sentence",
+        "titleZh": "句式九",
+        "formula": "As a / the second banana, + complete clause.",
+        "descriptionEn": "As the second banana, Ava supported the main performer.",
+        "descriptionZh": "這些句式把目標表達放在句子前半部分，避免每個答案都使用相同位置。 在開首的 As 短語後，應使用逗號。",
+        "examples": [
+          {
+            "en": "As the second banana, Ava prepared the situations for the lead comedian’s jokes.",
+            "zh": "艾娃身為配角，負責為主要喜劇演員的笑話鋪排情境。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Being the second banana gave Sophie more time for her family.",
+            "zh": "擔任配角令蘇菲有更多時間陪伴家人。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "As a second banana, he was valuable even though he was not the star.",
+            "zh": "作為配角，雖然他不是主角，但仍十分有價值。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "As the subject of a sentence",
+        "titleZh": "配角通常比主角得到較少關注",
+        "formula": "The second banana + verb.",
+        "descriptionEn": "The role of second banana suited Ryan.",
+        "descriptionZh": "配角通常比主角得到較少關注。 配角的位置很適合賴恩。",
+        "examples": [
+          {
+            "en": "The second banana often receives less attention than the star.",
+            "zh": "配角通常比主角得到較少關注。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "A good second banana can make the leading performer more effective.",
+            "zh": "一位出色的配角可以令主要表演者表現得更好。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Being the second banana does not mean that your work is unimportant.",
+            "zh": "擔任配角並不代表你的工作不重要。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "After nouns such as “role”, “position” or “status”",
+        "titleZh": "句式十一",
+        "formula": "second banana",
+        "descriptionEn": "Rosa’s second banana role included checking the timing and introducing the guests.",
+        "descriptionZh": "這些句式把 second banana 當作某種角色或地位的名稱。 羅莎的配角工作包括檢查時間和介紹嘉賓。",
+        "examples": [
+          {
+            "en": "Leo accepted the role of second banana.",
+            "zh": "里奧接受了配角的位置。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "The second banana position gave her less pressure.",
+            "zh": "第二號人物的位置令她承受較少壓力。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Noah’s second banana status did not stop him from influencing the team.",
+            "zh": "諾亞雖然處於次要地位，仍能影響團隊。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "After “need”, “choose”, “find” or “hire”",
+        "titleZh": "這些句式表示挑選一個人擔任配角",
+        "formula": "Subject + need / choose / find / hire + a second banana.",
+        "descriptionEn": "They hired Chloe as the second banana on the morning programme.",
+        "descriptionZh": "這些句式表示挑選一個人擔任配角。 他們聘請克洛伊擔任早晨節目的第二號人物。",
+        "examples": [
+          {
+            "en": "The show needs a second banana who can react quickly.",
+            "zh": "節目需要一位反應敏捷的配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "The team chose Aaron as the second banana to the captain.",
+            "zh": "團隊選擇亞倫擔任隊長身邊的第二號人物。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "The director found a reliable second banana for the lead actor.",
+            "zh": "導演為男主角找到了一位可靠的配角。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 13,
+        "titleEn": "In questions and replies",
+        "titleZh": "句式十三",
+        "formula": "Who is the second banana?",
+        "descriptionEn": "Source grammar frame: Who is the second banana?.",
+        "descriptionZh": "原檔列出的句法框架：Who is the second banana?。",
+        "examples": [
+          {
+            "en": "Would you be willing to serve as the second banana for six months?",
+            "zh": "你願意在六個月內擔任配角嗎？",
+            "highlight": "second banana"
+          },
+          {
+            "en": "Yes, I would be willing to serve as the second banana for six months.",
+            "zh": "是的，我願意在六個月內擔任配角。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 14,
+        "titleEn": "With a possessive",
+        "titleZh": "所有格可以指出那位較重要的人物或所屬團體",
+        "formula": "Subject + be + a second banana.",
+        "descriptionEn": "Use this structure carefully. A possessive expression may make the person sound as though they belong to or depend completely on the leading person.",
+        "descriptionZh": "所有格可以指出那位較重要的人物或所屬團體。 這種句式應小心使用，因為所有格有時會令人覺得配角完全依附於主要人物。",
+        "examples": [
+          {
+            "en": "Sophie was the captain’s second banana.",
+            "zh": "蘇菲是隊長身邊的第二號人物。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "The presenter introduced his second banana.",
+            "zh": "主持介紹了自己的配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "As the team’s second banana, Chloe handled the details.",
+            "zh": "克洛伊身為團隊中的第二號人物，負責處理細節。",
+            "highlight": "second banana"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It describes an unequal partnership compactly",
+        "titleZh": "簡潔描述地位不相等的合作關係",
+        "en": "The idiom combines the ideas of support, lower importance and reduced attention.",
+        "zh": "亞歷克斯是本身邊的配角。 這個慣用語把「輔助」、「地位較低」和「受到較少關注」幾個意思集中在一起。",
+        "examples": [
+          {
+            "en": "Alex was the second banana to Ben.",
+            "zh": "亞歷克斯是本身邊的配角。",
+            "highlight": "second banana"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It can express dissatisfaction",
+        "titleZh": "可以表達對次要地位的不滿",
+        "en": "The sentence communicates more than a job description. It shows that the speaker feels overshadowed.",
+        "zh": "我已厭倦在生意夥伴身邊擔任次要角色。 這句話不只是描述工作角色，還表示說話者覺得自己被對方掩蓋。",
+        "examples": [
+          {
+            "en": "I am tired of playing second banana to my business partner.",
+            "zh": "我已厭倦在生意夥伴身邊擔任次要角色。",
+            "highlight": "second banana"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It can express acceptance or modesty",
+        "titleZh": "可以表達接受或謙虛",
+        "en": "The expression can show that the speaker accepts a supporting role without shame.",
+        "zh": "我不介意擔任配角。 我較喜歡協助處理細節。 這個表達可以表示說話者並不介意擔任輔助角色。",
+        "examples": [
+          {
+            "en": "I do not mind being the second banana. I prefer helping with the details.",
+            "zh": "我不介意擔任配角。我較喜歡協助處理細節。",
+            "highlight": "second banana"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It highlights the value of supporting performers",
+        "titleZh": "突出配角的價值",
+        "en": "The main person may receive more attention, but the supporting person may still be essential.",
+        "zh": "一位出色的配角可以令主角的表現更精彩。 主要人物可能得到較多關注，但配角仍可能十分重要。",
+        "examples": [
+          {
+            "en": "A skilled second banana can make the star’s performance much stronger.",
+            "zh": "一位出色的配角可以令主角的表現更精彩。",
+            "highlight": "second banana"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It is useful when discussing films, teams and partnerships",
+        "titleZh": "適合討論電影、團隊及合作關係",
+        "en": "The expression helps speakers describe who leads and who supports without giving a long explanation.",
+        "zh": "這個表達可以讓說話者簡潔說明誰負責帶領、誰擔任輔助角色。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It is an alternative, not an automatic improvement",
+        "titleZh": "它是一個替代說法，並非在所有情況下都更好",
+        "en": "Use second banana when the unequal level of attention or importance matters. Use deputy, assistant or supporting member when a neutral or formal description is needed.",
+        "zh": "當句子需要突出關注或重要程度不平等時，才適合使用 second banana。 需要中性或正式描述時，可以使用 deputy、assistant 或 supporting member。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "General Development Well Documented; Exact Reason for “Banana” Uncertain 整體演變有較充分記錄;使用 banana 的確切原因不明",
+      "statusZh": "原來的語境",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The expression gradually moved beyond comedy. It came to describe any person who works beside a more important or more noticeable figure in a secondary capacity.",
+          "zh": "後來，這個表達逐漸不限於喜劇表演，而是用來形容任何在較重要或較受注目人物身邊擔任次要角色的人。"
+        }
+      ],
+      "memoryEn": "The top banana is the star; the second banana stands beside the star in the supporting position.",
+      "memoryZh": "Top banana 是主角；second banana 則站在主角身邊擔任配角。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Do not change the core words",
+        "titleZh": "規則一：不可改變核心字詞",
+        "en": "Do not change the core words",
+        "zh": "不可改變核心字詞",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do not translate it literally",
+        "titleZh": "規則二：不可按字面翻譯",
+        "en": "Incorrect idiomatic translation: Natural translations:",
+        "zh": "第二隻香蕉配角第二號人物次要人物陪襯角色",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Choose the article according to the grammar shell",
+        "titleZh": "規則三：按照句法框架選擇冠詞",
+        "en": "Do not memorise one article and place it before the expression in every sentence.",
+        "zh": "不要只記住一個冠詞，然後在每個句子中都使用相同形式。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "No article after “play”",
+        "titleZh": "規則四：play 後一般不使用冠詞",
+        "en": "No article after “play”",
+        "zh": "play 後一般不使用冠詞",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Use “to” to identify the leading person",
+        "titleZh": "規則五：使用 to 指出主要人物",
+        "en": "With may suggest partnership, but it does not clearly show who occupies the more important position.",
+        "zh": "With 可能只表示合作，並沒有清楚指出誰的地位較重要。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve tense",
+        "titleZh": "規則六：保留時態",
+        "en": "Do not change may become into became.",
+        "zh": "不要把 may become 改成 became，否則會把可能性變成已發生的事實。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve whether the role is accepted or disliked",
+        "titleZh": "規則七：保留當事人接受或不滿這個角色的態度",
+        "en": "The incorrect answer reverses Tara’s attitude.",
+        "zh": "錯誤答案把塔拉的不滿改成樂意接受。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do not use it merely for “second place”",
+        "titleZh": "規則八：不可只因某人排名第二而使用",
+        "en": "The race result does not create a supporting relationship between Ben and the winner.",
+        "zh": "比賽名次並沒有建立本與冠軍之間的配角關係。 本在體育節目中擔任第二號人物，因為主要主持得到差不多所有關注。",
+        "examples": [
+          {
+            "en": "Ben was the second banana in the sports programme because the main presenter received nearly all the attention.",
+            "zh": "本在體育節目中擔任第二號人物，因為主要主持得到差不多所有關注。",
+            "highlight": "second banana"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Do not assume every assistant is a second banana",
+        "titleZh": "規則九：不要把每個助手都視為配角",
+        "en": "An assistant may have an equal, independent or highly important role. Use second banana only when the context establishes that one person is clearly less prominent or less important than another.",
+        "zh": "助手可能擁有平等、獨立或十分重要的角色。 只有當語境清楚表示某人較不受注目或地位較次要時，才應使用 second banana。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Keep the human-role meaning clear",
+        "titleZh": "規則十：清楚建立人物角色的意思",
+        "en": "This does not show that either person was more important. This clearly licenses second banana.",
+        "zh": "亞歷克斯站在本身邊，並不代表其中一人較重要。 本是喜劇表演的主角，而亞歷克斯擔任配角。 這個語境清楚支持使用 second banana。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Do not repeat the idiom’s meaning unnecessarily",
+        "titleZh": "規則十一：不要不必要地重複慣用語的意思",
+        "en": "The second half merely explains the idiom again. Preparing the situations is a specific task, not merely a repetition of “supporting role”.",
+        "zh": "句子後半部分只是在再次解釋慣用語。 亞歷克斯是這個喜劇組合中的配角。 亞歷克斯身為配角，負責為本的笑話鋪排情境。 鋪排情境是一項具體工作，並不只是重複「擔任配角」。",
+        "examples": [
+          {
+            "en": "Alex was the second banana in the comedy duo.",
+            "zh": "亞歷克斯是這個喜劇組合中的配角。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "As the second banana, Alex prepared the situations for Ben’s jokes.",
+            "zh": "亞歷克斯身為配角，負責為本的笑話鋪排情境。",
+            "highlight": "second banana"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Use it carefully about real people",
+        "titleZh": "規則十二：形容真實人物時應小心使用",
+        "en": "Only makes the statement more dismissive.",
+        "zh": "我很樂意擔任配角，因為我較喜歡在鏡頭以外工作。 你在這裏只不過是個配角。 會令這句話帶有更強烈的貶低語氣。",
+        "examples": [
+          {
+            "en": "I am happy to be the second banana because I prefer working away from the cameras.",
+            "zh": "我很樂意擔任配角，因為我較喜歡在鏡頭以外工作。",
+            "highlight": "second banana"
+          },
+          {
+            "en": "You are only the second banana here.",
+            "zh": "你在這裏只不過是個配角。",
+            "highlight": "second banana"
+          }
+        ]
+      },
+      {
+        "number": 13,
+        "titleEn": "Do not overuse entertainment contexts",
+        "titleZh": "規則十三：不要只使用娛樂語境",
+        "en": "The expression began in show business, but modern examples also appear in sport, work, politics and other partnerships.",
+        "zh": "這個表達源自演藝界，但現代用法亦可見於體育、工作及其他合作關係。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using second banana.",
+      "zh": "使用 second banana 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-95-q01",
+        "number": 1,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Ben was the star of the comedy duo. Alex had the supporting role and received less attention.",
+        "promptZh": "本是這個喜劇組合的主角。亞歷克斯擔任配角，得到的關注較少。",
+        "starter": "In",
+        "answer": "In the comedy duo, Alex was the second banana to Ben.",
+        "answerZh": "在這個喜劇組合中，亞歷克斯是本身邊的配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q02",
+        "number": 2,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The lead singer was the centre of attention in the school show. Priya performed beside her in the less important role.",
+        "promptZh": "主唱是學校表演的焦點。普里雅在她身邊擔任較次要的角色。",
+        "starter": "Priya",
+        "answer": "Priya played second banana to the lead singer in the school show.",
+        "answerZh": "普里雅在學校表演中擔任主唱身邊的配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q03",
+        "number": 3,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Noah helped the main presenter on the news programme, but the audience saw the presenter as the important figure.",
+        "promptZh": "諾亞在新聞節目中協助主要主持，但觀眾把主要主持視為重要人物。",
+        "starter": "On",
+        "answer": "On the news programme, Noah was a second banana to the main presenter.",
+        "answerZh": "在新聞節目中，諾亞是主要主持身邊的次要人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q04",
+        "number": 4,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The head coach made the important decisions. The assistant coach worked beside him in the supporting position.",
+        "promptZh": "總教練作出重要決定。助理教練在他身邊擔任輔助角色。",
+        "starter": "The",
+        "answer": "The assistant coach served as the second banana to the head coach.",
+        "answerZh": "助理教練擔任總教練身邊的第二號人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q05",
+        "number": 5,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The famous actor had the leading role in the film. Grace had the smaller supporting part.",
+        "promptZh": "那位著名演員擔任電影主角。格雷絲則擔任較次要的配角。",
+        "starter": "In",
+        "answer": "In the film, Grace was second banana to the famous actor.",
+        "answerZh": "在電影中，格雷絲在那位著名演員身邊擔任配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q06",
+        "number": 6,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Daniel had the less noticeable role in the band, but he was comfortable with it.",
+        "promptZh": "丹尼爾在樂隊中的角色較不受注目，但他並不介意。",
+        "starter": "Daniel",
+        "answer": "Daniel did not mind being the second banana in the band.",
+        "answerZh": "丹尼爾不介意在樂隊中擔任配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q07",
+        "number": 7,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "In the comedy act, Leo was the performer who supported the star comedian.",
+        "promptZh": "在喜劇表演中，里奧是負責協助主要喜劇演員的表演者。",
+        "starter": "Leo",
+        "answer": "Leo held the role of second banana in the comedy act.",
+        "answerZh": "里奧在喜劇表演中擔任配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q08",
+        "number": 8,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Ava was not the star of the comedy show. Her job was to prepare situations for the lead comedian’s jokes.",
+        "promptZh": "艾娃不是喜劇表演的主角。她的工作是為主要喜劇演員的笑話鋪排情境。",
+        "starter": "As",
+        "answer": "As the second banana, Ava prepared the situations for the lead comedian’s jokes.",
+        "answerZh": "艾娃身為配角，負責為主要喜劇演員的笑話鋪排情境。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q09",
+        "number": 9,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The main comic needed a supporting performer who could react quickly and help prepare the jokes.",
+        "promptZh": "主要喜劇演員需要一位反應敏捷、可以協助鋪排笑話的配角。",
+        "starter": "The",
+        "answer": "The comedy show needed a second banana who could react quickly and help prepare the jokes.",
+        "answerZh": "這個喜劇節目需要一位反應敏捷、可以協助鋪排笑話的配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q10",
+        "number": 10,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Ruby used to lead the programme. When a famous new host arrived, Ruby moved into the supporting role.",
+        "promptZh": "露比以往負責主持節目。當一位著名的新主持加入後，露比轉為擔任輔助角色。",
+        "starter": "After",
+        "answer": "After the famous new host arrived, Ruby became the second banana on the programme.",
+        "answerZh": "那位著名的新主持加入後，露比成為了節目中的第二號人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q11",
+        "number": 11,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "For two seasons, the captain has been the main figure on the team, while Sam has worked beside him in a less noticeable role.",
+        "promptZh": "兩個賽季以來，隊長一直是團隊中的主要人物，而山姆則在他身邊擔任較不受注目的角色。",
+        "starter": "Sam",
+        "answer": "Sam has played second banana to the team captain for two seasons.",
+        "answerZh": "山姆已在兩個賽季中擔任隊長身邊的第二號人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q12",
+        "number": 12,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "On the new talk show, Helen will support the main host rather than lead the programme herself.",
+        "promptZh": "在新清談節目中，海倫會協助主要主持，而不是親自帶領節目。",
+        "starter": "On",
+        "answer": "On the new talk show, Helen will serve as the second banana to the main host.",
+        "answerZh": "在新清談節目中，海倫將擔任主要主持身邊的配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q13",
+        "number": 13,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Jay is currently the main presenter. If a more experienced presenter joins, Jay may move into the supporting position.",
+        "promptZh": "傑伊目前是主要主持。如果一位經驗更豐富的主持加入，傑伊可能會轉為擔任輔助角色。",
+        "starter": "If",
+        "answer": "If a more experienced presenter joins, Jay may become the second banana.",
+        "answerZh": "如果一位經驗更豐富的主持加入，傑伊可能會成為配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q14",
+        "number": 14,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Nina’s performance improved greatly, but the company continued to give her the less important role.",
+        "promptZh": "妮娜的表現大有進步，但公司仍然只給她較次要的角色。",
+        "starter": "Even",
+        "answer": "Even after her performance improved, Nina remained the second banana at the company.",
+        "answerZh": "即使表現有所改善，妮娜在公司中仍然只是第二號人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q15",
+        "number": 15,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Oscar created the project, but his new partner received most of the attention and became its public leader.",
+        "promptZh": "奧斯卡創立了這個項目，但他的新拍檔得到大部分關注，並成為公開領導者。",
+        "starter": "Although",
+        "answer": "Although Oscar created the project, he ended up as the second banana to his new partner.",
+        "answerZh": "雖然奧斯卡創立了這個項目，他最後卻成為新拍檔身邊的次要人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q16",
+        "number": 16,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The director gave Emma the supporting part beside the film’s star.",
+        "promptZh": "導演安排艾瑪擔任電影主角身邊的配角。",
+        "starter": "The",
+        "answer": "The director cast Emma as the second banana to the film’s star.",
+        "answerZh": "導演安排艾瑪擔任電影主角身邊的配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q17",
+        "number": 17,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Karim and his colleagues had equal job titles, but they behaved as though he were less important.",
+        "promptZh": "卡里姆和同事擁有相同職銜，但同事的行為卻彷彿他較不重要。",
+        "starter": "Despite",
+        "answer": "Despite having an equal job title, Karim was treated as a second banana by his colleagues.",
+        "answerZh": "儘管擁有相同職銜，卡里姆仍被同事視為次要人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q18",
+        "number": 18,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Sophie did not want the pressure of being the main presenter. She preferred the supporting position.",
+        "promptZh": "蘇菲不想承受擔任主要主持的壓力。她較喜歡輔助位置。",
+        "starter": "Being",
+        "answer": "Being the second banana suited Sophie because she did not want the pressure of leading.",
+        "answerZh": "擔任配角很適合蘇菲，因為她不想承受帶領節目的壓力。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q19",
+        "number": 19,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Rosa had a supporting role on the programme. Her duties included introducing guests and checking the timing.",
+        "promptZh": "羅莎在節目中擔任配角。她的工作包括介紹嘉賓和檢查時間。",
+        "starter": "Rosa’s",
+        "answer": "Rosa’s second banana role included introducing guests and checking the timing.",
+        "answerZh": "羅莎的配角工作包括介紹嘉賓和檢查時間。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q20",
+        "number": 20,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Felix was offered a supporting role beside his younger partner, but he would not accept it.",
+        "promptZh": "費利克斯獲安排在較年輕的拍檔身邊擔任次要角色，但他拒絕接受。",
+        "starter": "Felix",
+        "answer": "Felix refused to play second banana to his younger partner.",
+        "answerZh": "費利克斯拒絕在較年輕的拍檔身邊擔任配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q21",
+        "number": 21,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: Alex will lead the project. Who is willing to support him and let him receive most of the attention? B: I can take that role.",
+        "promptZh": "甲：亞歷克斯會帶領這個項目。誰願意協助他，並讓他得到大部分關注？ 乙：我可以擔任那個角色。",
+        "starter": "I",
+        "answer": "I can be the second banana on Alex’s project.",
+        "answerZh": "我可以在亞歷克斯的項目中擔任第二號人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q22",
+        "number": 22,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Tara has spent several years in a less important role beside the department head. She now wants an opportunity to lead.",
+        "promptZh": "塔拉多年來一直在部門主管身邊擔任較次要的角色。她現在希望有機會帶領團隊。",
+        "starter": "After",
+        "answer": "After years of playing second banana to the department head, Tara wanted an opportunity to lead.",
+        "answerZh": "在部門主管身邊擔任配角多年後，塔拉希望有機會帶領團隊。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q23",
+        "number": 23,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Chloe understands the topic better than Peter. Peter is therefore happy to support her and let her lead the presentation.",
+        "promptZh": "克洛伊比彼得更熟悉這個題目。因此，彼得樂意協助她，並讓她帶領簡報。",
+        "starter": "Peter",
+        "answer": "Peter was willing to play second banana to Chloe because she understood the topic better.",
+        "answerZh": "彼得願意在克洛伊身邊擔任配角，因為她更熟悉這個題目。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q24",
+        "number": 24,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The team selected Aaron to be the captain’s main supporting person.",
+        "promptZh": "團隊選擇亞倫擔任隊長身邊的主要輔助人物。",
+        "starter": "The",
+        "answer": "The team chose Aaron as the second banana to the captain.",
+        "answerZh": "團隊選擇亞倫擔任隊長身邊的第二號人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q25",
+        "number": 25,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Jasmine liked helping with the details and did not want to be the centre of attention.",
+        "promptZh": "賈斯敏喜歡協助處理細節，而且不希望成為焦點。",
+        "starter": "As",
+        "answer": "As a second banana, Jasmine was happy to handle the details without being the centre of attention.",
+        "answerZh": "作為配角，賈斯敏樂意處理細節，而不用成為焦點。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q26",
+        "number": 26,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Caleb believed that he and his partner were equal. He later noticed that everyone ignored his ideas and treated his partner as the leader.",
+        "promptZh": "卡萊布原以為自己和拍檔地位平等。後來，他發現所有人都忽略他的想法，並把拍檔視為領導者。",
+        "starter": "Caleb",
+        "answer": "Caleb did not realise that he had become the second banana until everyone began ignoring his ideas.",
+        "answerZh": "直到所有人開始忽略他的想法，卡萊布才發現自己已成為配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q27",
+        "number": 27,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: The manager wants you to support the new team leader and remain in the less important position. B: I do not want that kind of role again.",
+        "promptZh": "甲：經理希望你協助新任團隊領袖，並繼續處於較次要的位置。 乙：我不想再擔任那種角色。",
+        "starter": "I",
+        "answer": "I do not want to play second banana to the new team leader again.",
+        "answerZh": "我不想再次在新任團隊領袖身邊擔任配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q28",
+        "number": 28,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Ryan preferred helping the main presenter and did not want to lead the programme himself.",
+        "promptZh": "賴恩較喜歡協助主要主持，並不希望親自帶領節目。",
+        "starter": "The",
+        "answer": "The position of second banana suited Ryan because he preferred supporting the main presenter.",
+        "answerZh": "第二號人物的位置很適合賴恩，因為他較喜歡協助主要主持。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q29",
+        "number": 29,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Olivia had worked under her older brother in the family business for years. She now wanted the power to make her own decisions.",
+        "promptZh": "奧利維亞多年來一直在家族生意中協助哥哥。她現在希望有權自行作出決定。",
+        "starter": "Olivia",
+        "answer": "Olivia was no longer willing to remain the second banana in the family business.",
+        "answerZh": "奧利維亞不再願意繼續擔任家族生意中的次要人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q30",
+        "number": 30,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Nathan accepted the supporting part because the leading role required many evening rehearsals that he could not attend.",
+        "promptZh": "內森接受了配角，因為主角需要參加很多他無法出席的晚間綵排。",
+        "starter": "Because",
+        "answer": "Because the leading role required many evening rehearsals, Nathan accepted being the second banana.",
+        "answerZh": "因為主角需要參加很多晚間綵排，內森接受了擔任配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q31",
+        "number": 31,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Sara had the supporting part in the film. Nevertheless, many viewers remembered her more clearly than they remembered the star.",
+        "promptZh": "莎拉在電影中擔任配角。儘管如此，很多觀眾對她的印象比對主角更深刻。",
+        "starter": "Although",
+        "answer": "Although Sara was the second banana in the film, many viewers remembered her more clearly than the star.",
+        "answerZh": "雖然莎拉在電影中擔任配角，但很多觀眾對她的印象比對主角更深刻。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q32",
+        "number": 32,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Chloe supported Ethan on his online channel for several years. She then left and created a channel of her own.",
+        "promptZh": "克洛伊在伊森的網上頻道中擔任輔助角色多年，其後離開並建立自己的頻道。",
+        "starter": "After",
+        "answer": "After years of playing second banana to Ethan, Chloe left and created her own online channel.",
+        "answerZh": "在伊森身邊擔任配角多年後，克洛伊離開並建立了自己的網上頻道。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q33",
+        "number": 33,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The main host was ill, so the presenter who normally occupied the supporting position had to lead the programme.",
+        "promptZh": "主要主持生病，因此平日擔任輔助角色的主持需要帶領節目。",
+        "starter": "Because",
+        "answer": "Because the main host was ill, the usual second banana had to lead the programme.",
+        "answerZh": "因為主要主持生病，平日的第二號人物需要帶領節目。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q34",
+        "number": 34,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Ben did not want to remain in the manager’s shadow, so he asked to lead a team of his own.",
+        "promptZh": "本不想繼續被經理掩蓋，因此要求帶領自己的團隊。",
+        "starter": "Rather",
+        "answer": "Rather than remain the second banana to the manager, Ben asked to lead a team of his own.",
+        "answerZh": "本不願繼續擔任經理身邊的次要人物，因此要求帶領自己的團隊。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q35",
+        "number": 35,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The director gave Priya the supporting part. However, the reviewers praised her performance more highly than the lead actor’s.",
+        "promptZh": "導演安排普里雅擔任配角。不過，影評人對她的評價比對主角更高。",
+        "starter": "Although",
+        "answer": "Although Priya was cast as the second banana, the reviewers praised her more highly than the lead actor.",
+        "answerZh": "雖然普里雅獲安排擔任配角，但影評人對她的評價比對主角更高。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q36",
+        "number": 36,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Daniel solved many of the company’s most difficult problems, but the senior managers continued to see him as less important than his partner.",
+        "promptZh": "丹尼爾解決了公司很多最困難的問題，但高級經理仍然認為他不及拍檔重要。",
+        "starter": "Even",
+        "answer": "Even though Daniel solved many difficult problems, the company continued to see him as a second banana to his partner.",
+        "answerZh": "即使丹尼爾解決了很多困難問題，公司仍把他視為拍檔身邊的次要人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q37",
+        "number": 37,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Sam currently leads the project. If Ruby joins with her greater experience, Sam may move into the supporting position.",
+        "promptZh": "山姆目前帶領這個項目。如果經驗更豐富的露比加入，山姆可能會轉為擔任輔助角色。",
+        "starter": "If",
+        "answer": "If Ruby joins the project, Sam could end up as the second banana.",
+        "answerZh": "如果露比加入項目，山姆最後可能會成為第二號人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q38",
+        "number": 38,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Helen expected that she could easily accept a less important role beside her close friend. In reality, she found it difficult.",
+        "promptZh": "海倫原以為自己可以輕易接受在好友身邊擔任次要角色。事實上，她覺得這十分困難。",
+        "starter": "Being",
+        "answer": "Being second banana to a close friend was more difficult for Helen than she had expected.",
+        "answerZh": "在好友身邊擔任配角，比海倫原先想像中更加困難。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q39",
+        "number": 39,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Ava had much more experience, so Leo agreed that she should lead while he supported her.",
+        "promptZh": "艾娃擁有豐富得多的經驗，因此里奧同意由她帶領，而自己則協助她。",
+        "starter": "Since",
+        "answer": "Since Ava had much more experience, Leo accepted the role of second banana.",
+        "answerZh": "由於艾娃擁有豐富得多的經驗，里奧接受了配角的位置。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q40",
+        "number": 40,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Noah occupied the less noticeable position in the team, but he still influenced many important decisions.",
+        "promptZh": "諾亞在團隊中處於較不受注目的位置，但仍影響了很多重要決定。",
+        "starter": "Noah’s",
+        "answer": "Noah’s second banana status did not stop him from influencing important team decisions.",
+        "answerZh": "諾亞雖然處於次要地位，仍能影響團隊的重要決定。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q41",
+        "number": 41,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "During an interview, Grace explained that she had always been comfortable supporting actors who were more famous than she was.",
+        "promptZh": "在一次訪問中，格雷絲解釋自己一直都不介意協助比她更知名的演員。",
+        "starter": "During",
+        "answer": "During the interview, Grace said that she had never minded playing second banana to more famous actors.",
+        "answerZh": "在訪問中，格雷絲表示自己從不介意在更知名的演員身邊擔任配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q42",
+        "number": 42,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The production team needed someone who could organise the details while the main presenter led the meetings and appeared on camera.",
+        "promptZh": "製作團隊需要一個能夠整理細節的人，而主要主持則負責帶領會議及在鏡頭前出現。",
+        "starter": "The",
+        "answer": "The production team wanted a second banana who could organise the details while the main presenter led the meetings.",
+        "answerZh": "製作團隊需要一位能夠整理細節的配角，而主要主持則負責帶領會議。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q43",
+        "number": 43,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Oscar eventually became the most experienced person in the group. Nevertheless, everyone continued to place him below the public leader.",
+        "promptZh": "奧斯卡後來成為團體中最有經驗的人。儘管如此，所有人仍把他的地位放在公開領導者之下。",
+        "starter": "Even",
+        "answer": "Even after becoming the most experienced person in the group, Oscar was still treated as the second banana.",
+        "answerZh": "即使成為團體中最有經驗的人，奧斯卡仍然被視為第二號人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q44",
+        "number": 44,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "A: The main presenter will lead for the first six months. Would you be willing to take the main supporting role during that period? B: Yes, I would.",
+        "promptZh": "甲：主要主持會在最初六個月帶領節目。你願意在這段時間擔任主要輔助角色嗎？ 乙：是的，我願意。",
+        "starter": "Yes,",
+        "answer": "Yes, I would be willing to serve as the second banana for the first six months.",
+        "answerZh": "是的，我願意在最初六個月擔任配角。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q45",
+        "number": 45,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "At the beginning of the film, Emma appears to be less important than the hero. As the story develops, she becomes its central character.",
+        "promptZh": "在電影開頭，艾瑪看來不及英雄重要。隨着故事發展，她成為了中心人物。",
+        "starter": "At",
+        "answer": "At first, the film presents Emma as the second banana, but she later becomes its central character.",
+        "answerZh": "電影最初把艾瑪描寫成配角，但她其後成為故事的中心人物。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q46",
+        "number": 46,
+        "sourcePage": 35,
+        "sourcePages": [
+          35
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Karim had been promised equal responsibility. When he was offered only the supporting role, he rejected it.",
+        "promptZh": "卡里姆原本獲承諾會擁有平等責任。當他只獲安排擔任次要角色時，他拒絕了。",
+        "starter": "Because",
+        "answer": "Because Karim had been promised equal responsibility, he rejected the second banana role.",
+        "answerZh": "由於卡里姆原本獲承諾會擁有平等責任，他拒絕了配角的位置。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q47",
+        "number": 47,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Sophie was the captain’s main supporting person. She handled the details so that the captain could concentrate on leading the team.",
+        "promptZh": "蘇菲是隊長身邊的主要輔助人物。她負責處理細節，讓隊長可以專心帶領團隊。",
+        "starter": "As",
+        "answer": "As the captain’s second banana, Sophie handled the details that allowed the captain to concentrate on leading.",
+        "answerZh": "蘇菲身為隊長身邊的第二號人物，負責處理細節，讓隊長可以專心帶領團隊。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q48",
+        "number": 48,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "Some students believed that a supporting role was embarrassing. The teacher explained that such a role could still be extremely valuable.",
+        "promptZh": "有些學生認為擔任配角十分丟臉。老師解釋這種角色仍然可以十分重要。",
+        "starter": "There",
+        "answer": "There is no shame in being the second banana when the supporting role is genuinely valuable.",
+        "answerZh": "如果輔助角色確實具有價值，擔任配角並不丟臉。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q49",
+        "number": 49,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "The star presenter left the programme. The person who had previously supported her then became the main host.",
+        "promptZh": "明星主持離開節目。原本協助她的人其後成為主要主持。",
+        "starter": "After",
+        "answer": "After the star left, the former second banana became the programme’s main host.",
+        "answerZh": "明星主持離開後，原本的配角成為節目的主要主持。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      },
+      {
+        "id": "idiom-95-q50",
+        "number": 50,
+        "sourcePage": 36,
+        "sourcePages": [
+          36
+        ],
+        "answerSourcePage": 43,
+        "answerSourcePages": [
+          43
+        ],
+        "prompt": "Felix appeared to occupy the less important position in the group. However, the other members depended on him to keep everything organised.",
+        "promptZh": "費利克斯看來在團體中處於較次要的位置。不過，其他成員都依靠他維持一切井然有序。",
+        "starter": "Although",
+        "answer": "Although Felix appeared to be a second banana, the other group members depended on him to keep everything organised.",
+        "answerZh": "雖然費利克斯看來只是一個配角，但其他組員都依靠他維持一切井然有序。",
+        "targetForm": "second banana",
+        "targetMeaning": "A person who has a supporting or less important role beside someone who receives more attention, authority or recognition.",
+        "highlight": "second banana"
+      }
+    ]
+  }
+}

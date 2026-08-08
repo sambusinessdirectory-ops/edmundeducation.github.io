@@ -1,0 +1,1222 @@
+{
+  "id": "ss340",
+  "order": 340,
+  "slug": "it-will-not-be-long-before-clause",
+  "title": "「It will not be long before + clause」表示「不用多久便會……」",
+  "titleZh": "「It will not be long before + clause」表示「不用多久便會……」",
+  "titleEn": "Using “It will not be long before + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 338 - 「It will not be long before + clause」表示「不用多久便會……」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "sha256": "a86fc6bdbc5492cb451b6c1bdd6c0b14f054f5379e1040fb29ae3a634bfd18e7",
+    "sourceNumber": 338,
+    "systemOrder": 340,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 338 maps to ss340: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "It will not be long before + clause",
+  "formulas": [
+    {
+      "id": "ss340-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "It will not be long before + clause"
+    }
+  ],
+  "example": "It will not be long before the bus arrives.",
+  "exampleZh": "不用多久，巴士便會到達。",
+  "examples": [
+    {
+      "id": "ss340-example-01",
+      "en": "It will not be long before the bus arrives.",
+      "zh": "不用多久，巴士便會到達。",
+      "highlight": "It will not be long before the bus arrives."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss340-rule-01",
+      "zh": "雖然 before 後面的事情將會在未來發生，但動詞一般使用現在式。不用多久，火車便會到達。",
+      "en": "Do not normally use will after before Although the event concerns the future, the verb after before normally uses a present form. It will not be long before the train arrives. It will not be long before the train will arrive.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss340-rule-02",
+      "zh": "在這個句型中，It 是形式主語，並不是指前文提到的某件物件。",
+      "en": "It does not refer to a particular object In this expression, It is an impersonal or introductory subject. It does not refer to a previously mentioned thing.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss340-rule-03",
+      "zh": "說話者預計事情很快便會發生。如果事情只是很微弱的可能性，便不宜使用這個句型。",
+      "en": "The sentence expresses a fairly confident prediction The speaker expects the event to happen soon. Do not use this structure when the event is only a weak possibility.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss340-rule-04",
+      "zh": "不用多久，食物便會準備好。 詞語【It won't】常見於對話及較輕鬆的寫作。本練習統一使用完整形式 It will not。",
+      "en": "The contraction is acceptable It won't be long before + clause It won't be long before the food is ready. It won't is common in conversation and informal writing. This exercise uses the full form It will not for consistent practice.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss340-rule-05",
+      "zh": "事情很快便會發生。 事情要很久之後才會發生。",
+      "en": "Do not confuse it with the opposite expression It will not be long before... = The event will happen soon. It will be a long time before... = The event will not happen soon.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss340-rule-06",
+      "zh": "沒過多久，嬰兒便睡着了。 這個過去式結構與目標句型相關，但不屬於本練習的目標。",
+      "en": "The past form is a different structure It was not long before + past-tense clause It was not long before the baby fell asleep. This past form is grammatically related, but it is not the target of this exercise.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss340-benefit-01",
+      "zh": "自然地表示某事即將發生你不需要反覆使用 soon 或 very soon，也可以自然地預測某件事即將發生。兩句意思相近，但第二句把「等待時間不會很長」的感覺表達得更清楚。",
+      "en": "It gives a natural way to say that something will happen soon Instead of repeatedly using soon or very soon, you can use this structure to make the prediction sound more natural. Compare: The shop will open soon. It will not be long before the shop opens.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss340-benefit-02",
+      "zh": "把目前情況與未來結果連接起來你可以先描述目前正在發生的情況，再預測不久後的結果。隨着需求增加，不用多久，課程便會滿額。 讀者可以輕易明白說話者為甚麼作出這項預測。",
+      "en": "It connects present evidence with a future result You can first describe what is happening now and then predict what will happen soon. With demand increasing, it will not be long before the course is full. The reader can easily understand why the prediction is being made.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss340-benefit-03",
+      "zh": "作出有根據而且頗有信心的預測這個句型並不是說事情現在已經發生，而是表示事情預計會在短時間後發生。",
+      "en": "It helps you make cautious but confident predictions The structure does not state that the event is happening now. It shows that the event is expected after a short period.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss340-benefit-04",
+      "zh": "增加句子開首的變化核心句型可以放在條件句、原因句、句首補充語或報告動詞之後。這樣可以避免每一句都以 It 開始，使文章的句式更有變化。",
+      "en": "It allows different sentence openings The core expression can follow a condition, reason, introductory phrase or reporting verb. This helps prevent every sentence from beginning with It.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss340-benefit-05",
+      "zh": "適用於說話、作文、報告和簡報你可以使用這個句型討論社會轉變、個人進步、科技發展、業務增長、建設項目、環境趨勢，以及即將準備完成的事情。",
+      "en": "It is useful in speaking, essays, reports and presentations You can use it to discuss: changes in society personal progress developing technology business growth construction projects environmental trends events that are nearly ready.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 338 maps to ss340: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using It will not be long before + clause.",
+      "You may place the target expression after a suitable introductory phrase, condition, reason or",
+      "reporting verb.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 It will not be long before + 子句 改寫以下句子或句組。",
+      "你可以把目標句型放在合適的句首補充語、條件句、原因句或報告動詞之後。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss340-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The bus will arrive very soon.",
+      "promptZh": "巴士很快便會到達。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It will not be long before the bus arrives.",
+      "answerZh": "不用多久，巴士便會到達。",
+      "answerZhSource": "pdf",
+      "highlight": "It will not be long before the bus arrives."
+    },
+    {
+      "id": "ss340-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The baby will fall asleep soon.",
+      "promptZh": "嬰兒很快便會入睡。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It will not be long before the baby falls asleep.",
+      "answerZh": "不用多久，嬰兒便會入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "It will not be long before the baby falls asleep."
+    },
+    {
+      "id": "ss340-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop is due to open shortly.",
+      "promptZh": "這間商店即將開門營業。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It will not be long before the shop opens.",
+      "answerZh": "不用多久，這間商店便會開門營業。",
+      "answerZhSource": "pdf",
+      "highlight": "It will not be long before the shop opens."
+    },
+    {
+      "id": "ss340-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Olivia will soon finish the book if she keeps reading at this pace.",
+      "promptZh": "如果奧莉花保持這個閱讀速度，她很快便會讀完這本書。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If Olivia keeps reading at this pace, it will not be long before she finishes the book.",
+      "answerZh": "如果奧莉花保持這個閱讀速度，不用多久，她便會讀完這本書。",
+      "answerZhSource": "pdf",
+      "highlight": "If Olivia keeps reading at this pace, it will not be long before she finishes the book."
+    },
+    {
+      "id": "ss340-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The coach believes that the team will win a match very soon.",
+      "promptZh": "教練相信球隊很快便會贏得一場比賽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach believes it will not be long before the team wins a match.",
+      "answerZh": "教練相信不用多久，球隊便會贏得一場比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach believes it will not be long before the team wins a match."
+    },
+    {
+      "id": "ss340-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If the sun stays out, the clothes will dry soon.",
+      "promptZh": "如果陽光持續照射，衣服很快便會乾。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the sun stays out, it will not be long before the clothes dry.",
+      "answerZh": "如果陽光持續照射，不用多久，衣服便會乾。",
+      "answerZhSource": "pdf",
+      "highlight": "If the sun stays out, it will not be long before the clothes dry."
+    },
+    {
+      "id": "ss340-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The water will boil soon because the kettle is heating up.",
+      "promptZh": "水煲正在加熱，所以水很快便會沸騰。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With the kettle heating up, it will not be long before the water boils.",
+      "answerZh": "水煲正在加熱，不用多久，水便會沸騰。",
+      "answerZhSource": "pdf",
+      "highlight": "With the kettle heating up, it will not be long before the water boils."
+    },
+    {
+      "id": "ss340-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our teacher says that we will receive the results soon.",
+      "promptZh": "老師說我們很快便會收到成績。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher says it will not be long before we receive the results.",
+      "answerZh": "老師說不用多久，我們便會收到成績。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher says it will not be long before we receive the results."
+    },
+    {
+      "id": "ss340-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children are coming back from lunch shortly.",
+      "promptZh": "孩子們很快便會吃完午飯回來。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It will not be long before the children return from lunch.",
+      "answerZh": "不用多久，孩子們便會吃完午飯回來。",
+      "answerZhSource": "pdf",
+      "highlight": "It will not be long before the children return from lunch."
+    },
+    {
+      "id": "ss340-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The queue is moving quickly, so we will reach the counter soon.",
+      "promptZh": "隊伍移動得很快，所以我們很快便會到達櫃位。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the queue is moving quickly, it will not be long before we reach the counter.",
+      "answerZh": "由於隊伍移動得很快，不用多久，我們便會到達櫃位。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the queue is moving quickly, it will not be long before we reach the counter."
+    },
+    {
+      "id": "ss340-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The workers are making steady progress. They will complete the repairs soon.",
+      "promptZh": "工人正穩步推進工程。他們很快便會完成維修。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given the current progress, it will not be long before the workers complete the repairs.",
+      "answerZh": "按照目前的進度，不用多久，工人便會完成維修。",
+      "answerZhSource": "pdf",
+      "highlight": "Given the current progress, it will not be long before the workers complete the repairs."
+    },
+    {
+      "id": "ss340-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Scientists believe the new treatment will become widely available soon.",
+      "promptZh": "科學家相信這種新治療方法很快便會廣泛供人使用。",
+      "promptZhSource": "pdf",
+      "starter": "Scientists",
+      "answer": "Scientists believe it will not be long before the new treatment becomes widely available.",
+      "answerZh": "科學家相信不用多久，這種新治療方法便會廣泛供人使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Scientists believe it will not be long before the new treatment becomes widely available."
+    },
+    {
+      "id": "ss340-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The council expects the new park to open shortly.",
+      "promptZh": "市議會預計新公園很快便會開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council expects it will not be long before the new park opens.",
+      "answerZh": "市議會預計不用多久，新公園便會開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The council expects it will not be long before the new park opens."
+    },
+    {
+      "id": "ss340-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "More people are joining the class, so it will be full soon.",
+      "promptZh": "愈來愈多人報讀這個課程，所以課程很快便會滿額。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With more people joining, it will not be long before the class is full.",
+      "answerZh": "隨着愈來愈多人報讀，不用多久，這個課程便會滿額。",
+      "answerZhSource": "pdf",
+      "highlight": "With more people joining, it will not be long before the class is full."
+    },
+    {
+      "id": "ss340-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If sales continue to rise, the company will reach its target soon.",
+      "promptZh": "如果銷售額持續上升，公司很快便會達到目標。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If sales continue to rise, it will not be long before the company reaches its target.",
+      "answerZh": "如果銷售額持續上升，不用多久，公司便會達到目標。",
+      "answerZhSource": "pdf",
+      "highlight": "If sales continue to rise, it will not be long before the company reaches its target."
+    },
+    {
+      "id": "ss340-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The doctor thinks Daniel will feel better soon.",
+      "promptZh": "醫生認為丹尼爾很快便會好轉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor thinks it will not be long before Daniel feels better.",
+      "answerZh": "醫生認為不用多久，丹尼爾便會好轉。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor thinks it will not be long before Daniel feels better."
+    },
+    {
+      "id": "ss340-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The weather report says that the rain will stop shortly.",
+      "promptZh": "天氣報告說這場雨很快便會停止。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It will not be long before the rain stops.",
+      "answerZh": "不用多久，這場雨便會停止。",
+      "answerZhSource": "pdf",
+      "highlight": "It will not be long before the rain stops."
+    },
+    {
+      "id": "ss340-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At the current charging speed, the battery will be fully charged soon.",
+      "promptZh": "按照目前的充電速度，電池很快便會完全充滿。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this rate, it will not be long before the battery is fully charged.",
+      "answerZh": "按照這個速度，不用多久，電池便會完全充滿。",
+      "answerZhSource": "pdf",
+      "highlight": "At this rate, it will not be long before the battery is fully charged."
+    },
+    {
+      "id": "ss340-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The payment will arrive soon after the final form is signed.",
+      "promptZh": "最後一份表格簽署後，款項很快便會到帳。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the final form is signed, it will not be long before the payment arrives.",
+      "answerZh": "最後一份表格一經簽署，不用多久，款項便會到帳。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the final form is signed, it will not be long before the payment arrives."
+    },
+    {
+      "id": "ss340-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We believe the missing parcel will be found shortly.",
+      "promptZh": "我們相信遺失的包裹很快便會被尋回。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We believe it will not be long before the missing parcel is found.",
+      "answerZh": "我們相信不用多久，遺失的包裹便會被尋回。",
+      "answerZhSource": "pdf",
+      "highlight": "We believe it will not be long before the missing parcel is found."
+    },
+    {
+      "id": "ss340-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The road is almost clear, and traffic will start moving again soon.",
+      "promptZh": "道路幾乎已經清理完畢，車輛很快便會再次開動。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the road is almost clear, it will not be long before traffic starts moving again.",
+      "answerZh": "由於道路幾乎已經清理完畢，不用多久，車輛便會再次開動。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the road is almost clear, it will not be long before traffic starts moving again."
+    },
+    {
+      "id": "ss340-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The engineers predict that the system will be ready for testing shortly.",
+      "promptZh": "工程師預計這個系統很快便可接受測試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineers predict it will not be long before the system is ready for testing.",
+      "answerZh": "工程師預計不用多久，這個系統便可接受測試。",
+      "answerZhSource": "pdf",
+      "highlight": "The engineers predict it will not be long before the system is ready for testing."
+    },
+    {
+      "id": "ss340-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The author has nearly finished the last chapter and will complete the book soon.",
+      "promptZh": "作者幾乎寫完最後一章，很快便會完成整本書。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With the last chapter nearly finished, it will not be long before the author completes the book.",
+      "answerZh": "最後一章即將完成，不用多久，作者便會完成整本書。",
+      "answerZhSource": "pdf",
+      "highlight": "With the last chapter nearly finished, it will not be long before the author completes the book."
+    },
+    {
+      "id": "ss340-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the weather remains calm, the ferry will reach the island soon.",
+      "promptZh": "如果天氣保持平靜，渡輪很快便會抵達小島。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the weather remains calm, it will not be long before the ferry reaches the island.",
+      "answerZh": "如果天氣保持平靜，不用多久，渡輪便會抵達小島。",
+      "answerZhSource": "pdf",
+      "highlight": "If the weather remains calm, it will not be long before the ferry reaches the island."
+    },
+    {
+      "id": "ss340-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "More homes will use solar energy in the near future.",
+      "promptZh": "不久之後，更多住戶將會使用太陽能。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It will not be long before more homes use solar energy.",
+      "answerZh": "不用多久，更多住戶便會使用太陽能。",
+      "answerZhSource": "pdf",
+      "highlight": "It will not be long before more homes use solar energy."
+    },
+    {
+      "id": "ss340-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital expects the new ward to begin receiving patients soon.",
+      "promptZh": "醫院預計新病房很快便會開始接收病人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital expects it will not be long before the new ward begins receiving patients.",
+      "answerZh": "醫院預計不用多久，新病房便會開始接收病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital expects it will not be long before the new ward begins receiving patients."
+    },
+    {
+      "id": "ss340-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Construction is moving quickly, so the bridge will open to the public soon.",
+      "promptZh": "建造工程進展迅速，所以大橋很快便會向公眾開放。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given the speed of construction, it will not be long before the bridge opens to the public.",
+      "answerZh": "按照建造工程的速度，不用多久，大橋便會向公眾開放。",
+      "answerZhSource": "pdf",
+      "highlight": "Given the speed of construction, it will not be long before the bridge opens to the public."
+    },
+    {
+      "id": "ss340-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Researchers say that the cause of the problem will be understood soon.",
+      "promptZh": "研究人員表示，這個問題的成因很快便會被查明。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers say it will not be long before the cause of the problem is understood.",
+      "answerZh": "研究人員表示，不用多久，這個問題的成因便會被查明。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers say it will not be long before the cause of the problem is understood."
+    },
+    {
+      "id": "ss340-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the town keeps growing at this rate, it will soon need another school.",
+      "promptZh": "如果這個城鎮繼續以這個速度發展，很快便會需要另一所學校。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the current rate of growth, it will not be long before the town needs another school.",
+      "answerZh": "按照目前的增長速度，不用多久，這個城鎮便會需要另一所學校。",
+      "answerZhSource": "pdf",
+      "highlight": "At the current rate of growth, it will not be long before the town needs another school."
+    },
+    {
+      "id": "ss340-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The final checks are under way, and the website will go live shortly.",
+      "promptZh": "最後檢查正在進行，網站很快便會正式啟用。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the final checks are under way, it will not be long before the website goes live.",
+      "answerZh": "由於最後檢查正在進行，不用多久，網站便會正式啟用。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the final checks are under way, it will not be long before the website goes live."
+    },
+    {
+      "id": "ss340-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organisers believe that all the tickets will be sold soon.",
+      "promptZh": "主辦單位相信所有門票很快便會售罄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisers believe it will not be long before all the tickets are sold.",
+      "answerZh": "主辦單位相信不用多久，所有門票便會售罄。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers believe it will not be long before all the tickets are sold."
+    },
+    {
+      "id": "ss340-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the students keep practising, they will soon speak more confidently.",
+      "promptZh": "如果學生繼續練習，他們很快便會說得更有自信。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the students keep practising, it will not be long before they speak more confidently.",
+      "answerZh": "如果學生繼續練習，不用多久，他們便會說得更有自信。",
+      "answerZhSource": "pdf",
+      "highlight": "If the students keep practising, it will not be long before they speak more confidently."
+    },
+    {
+      "id": "ss340-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Electric buses are becoming cheaper, so more cities will adopt them soon.",
+      "promptZh": "電動巴士愈來愈便宜，所以更多城市很快便會採用它們。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With electric buses becoming cheaper, it will not be long before more cities adopt them.",
+      "answerZh": "隨着電動巴士愈來愈便宜，不用多久，更多城市便會採用它們。",
+      "answerZhSource": "pdf",
+      "highlight": "With electric buses becoming cheaper, it will not be long before more cities adopt them."
+    },
+    {
+      "id": "ss340-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The old machines are due to be replaced shortly.",
+      "promptZh": "這些舊機器即將被更換。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It will not be long before the old machines are replaced.",
+      "answerZh": "不用多久，這些舊機器便會被更換。",
+      "answerZhSource": "pdf",
+      "highlight": "It will not be long before the old machines are replaced."
+    },
+    {
+      "id": "ss340-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager expects the new staff to start working independently soon.",
+      "promptZh": "經理預計新員工很快便能開始獨立工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager expects it will not be long before the new staff work independently.",
+      "answerZh": "經理預計不用多久，新員工便能獨立工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager expects it will not be long before the new staff work independently."
+    },
+    {
+      "id": "ss340-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The water level is continuing to rise, and the path will soon be covered.",
+      "promptZh": "水位持續上升，小徑很快便會被淹沒。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the water level continues to rise, it will not be long before the path is covered.",
+      "answerZh": "隨着水位持續上升，不用多久，小徑便會被淹沒。",
+      "answerZhSource": "pdf",
+      "highlight": "As the water level continues to rise, it will not be long before the path is covered."
+    },
+    {
+      "id": "ss340-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Local experts predict that the river will return to a safe level soon.",
+      "promptZh": "本地專家預計河流水位很快便會回復安全水平。",
+      "promptZhSource": "pdf",
+      "starter": "Local",
+      "answer": "Local experts predict it will not be long before the river returns to a safe level.",
+      "answerZh": "本地專家預計不用多久，河流水位便會回復安全水平。",
+      "answerZhSource": "pdf",
+      "highlight": "Local experts predict it will not be long before the river returns to a safe level."
+    },
+    {
+      "id": "ss340-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Demand is increasing rapidly, so the factory will add another production line soon.",
+      "promptZh": "需求迅速增加，所以工廠很快便會增設一條生產線。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because demand is increasing rapidly, it will not be long before the factory adds another production line.",
+      "answerZh": "由於需求迅速增加，不用多久，工廠便會增設另一條生產線。",
+      "answerZhSource": "pdf",
+      "highlight": "Because demand is increasing rapidly, it will not be long before the factory adds another production line."
+    },
+    {
+      "id": "ss340-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Passengers will be able to use the new railway soon after the final safety test is passed.",
+      "promptZh": "最後一項安全測試通過後，乘客很快便可以使用新鐵路。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the final safety test is passed, it will not be long before passengers can use the new railway.",
+      "answerZh": "最後一項安全測試一經通過，不用多久，乘客便可以使用新鐵路。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the final safety test is passed, it will not be long before passengers can use the new railway."
+    },
+    {
+      "id": "ss340-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We are confident that the community centre will reopen shortly.",
+      "promptZh": "我們有信心社區中心很快便會重開。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We are confident it will not be long before the community centre reopens.",
+      "answerZh": "我們有信心，不用多久，社區中心便會重開。",
+      "answerZhSource": "pdf",
+      "highlight": "We are confident it will not be long before the community centre reopens."
+    },
+    {
+      "id": "ss340-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Because the disease is spreading quickly, more clinics are expected to offer the vaccine soon.",
+      "promptZh": "由於疾病迅速傳播，預計很快會有更多診所提供疫苗。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given how quickly the disease is spreading, it will not be long before more clinics offer the vaccine.",
+      "answerZh": "鑑於疾病迅速傳播，不用多久，更多診所便會提供疫苗。",
+      "answerZhSource": "pdf",
+      "highlight": "Given how quickly the disease is spreading, it will not be long before more clinics offer the vaccine."
+    },
+    {
+      "id": "ss340-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The research team believes that the device will soon be able to detect smaller changes.",
+      "promptZh": "研究團隊相信這部裝置很快便能偵測較細微的變化。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team believes it will not be long before the device can detect smaller changes.",
+      "answerZh": "研究團隊相信不用多久，這部裝置便能偵測較細微的變化。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team believes it will not be long before the device can detect smaller changes."
+    },
+    {
+      "id": "ss340-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "If the present trend continues, online payments will soon become more common than cash.",
+      "promptZh": "如果目前的趨勢持續，電子付款很快便會比現金更普遍。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the present trend continues, it will not be long before online payments become more common than cash.",
+      "answerZh": "如果目前的趨勢持續，不用多久，電子付款便會比現金更普遍。",
+      "answerZhSource": "pdf",
+      "highlight": "If the present trend continues, it will not be long before online payments become more common than cash."
+    },
+    {
+      "id": "ss340-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The legal review is nearly complete, so the agreement will take effect soon.",
+      "promptZh": "法律審查即將完成，所以協議很快便會生效。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With the legal review nearly complete, it will not be long before the agreement takes effect.",
+      "answerZh": "法律審查即將完成，不用多久，協議便會生效。",
+      "answerZhSource": "pdf",
+      "highlight": "With the legal review nearly complete, it will not be long before the agreement takes effect."
+    },
+    {
+      "id": "ss340-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Industry analysts expect reusable packaging to become standard in large supermarkets soon.",
+      "promptZh": "業界分析師預計可重用包裝很快便會成為大型超級市場的標準做法。",
+      "promptZhSource": "pdf",
+      "starter": "Industry",
+      "answer": "Industry analysts expect it will not be long before reusable packaging becomes standard in large supermarkets.",
+      "answerZh": "業界分析師預計不用多久，可重用包裝便會成為大型超級市場的標準做法。",
+      "answerZhSource": "pdf",
+      "highlight": "Industry analysts expect it will not be long before reusable packaging becomes standard in large supermarkets."
+    },
+    {
+      "id": "ss340-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Now that the two sides have returned to the table, formal talks are expected to resume soon.",
+      "promptZh": "既然雙方已重返談判桌，預計正式會談很快便會恢復。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the two sides have returned to the table, it will not be long before formal talks resume.",
+      "answerZh": "由於雙方已重返談判桌，不用多久，正式會談便會恢復。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the two sides have returned to the table, it will not be long before formal talks resume."
+    },
+    {
+      "id": "ss340-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The education department predicts that every school will have access to the new platform soon.",
+      "promptZh": "教育部門預計每所學校很快便可使用新平台。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The education department predicts it will not be long before every school has access to the new platform.",
+      "answerZh": "教育部門預計不用多久，每所學校便可使用新平台。",
+      "answerZhSource": "pdf",
+      "highlight": "The education department predicts it will not be long before every school has access to the new platform."
+    },
+    {
+      "id": "ss340-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "At the current pace of development, the software will soon handle most routine enquiries automatically.",
+      "promptZh": "按照目前的開發速度，這套軟件很快便能自動處理大部分日常查詢。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the present rate of development, it will not be long before the software handles most routine enquiries automatically.",
+      "answerZh": "按照目前的開發速度，不用多久，這套軟件便能自動處理大部分日常查詢。",
+      "answerZhSource": "pdf",
+      "highlight": "At the present rate of development, it will not be long before the software handles most routine enquiries automatically."
+    },
+    {
+      "id": "ss340-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "If the pilot programme remains successful, the service will soon be introduced across the region.",
+      "promptZh": "如果試行計劃繼續成功，這項服務很快便會在整個地區推出。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the pilot programme remains successful, it will not be long before the service is introduced across the region.",
+      "answerZh": "如果試行計劃繼續成功，不用多久，這項服務便會在整個地區推出。",
+      "answerZhSource": "pdf",
+      "highlight": "If the pilot programme remains successful, it will not be long before the service is introduced across the region."
+    },
+    {
+      "id": "ss340-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Public support continues to grow, so the proposal is expected to receive final approval soon.",
+      "promptZh": "公眾支持持續增加，所以這項建議預計很快便會獲得最終批准。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With public support continuing to grow, it will not be long before the proposal receives final approval.",
+      "answerZh": "隨着公眾支持持續增加，不用多久，這項建議便會獲得最終批准。",
+      "answerZhSource": "pdf",
+      "highlight": "With public support continuing to grow, it will not be long before the proposal receives final approval."
+    }
+  ]
+}

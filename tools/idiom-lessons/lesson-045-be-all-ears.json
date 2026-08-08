@@ -1,0 +1,1347 @@
+{
+  "lesson": {
+    "id": "idiom-45",
+    "order": 45,
+    "slug": "be-all-ears",
+    "version": "1",
+    "title": "全神貫注地聽／洗耳恭聽",
+    "titleEn": "be all ears",
+    "titleZh": "全神貫注地聽／洗耳恭聽",
+    "source": {
+      "file": "Idiom 45 - 「Be All Ears」.pdf",
+      "pageCount": 25,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "exercisePdfPages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "answerKeyPdfPages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "be all ears",
+        "highlight": "be all ears"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I’m all ears.",
+        "zh": "我洗耳恭聽。",
+        "highlight": "I’m all ears"
+      },
+      {
+        "en": "I’m all ears—tell me what happened.",
+        "zh": "我洗耳恭聽——告訴我發生了甚麼事。",
+        "highlight": "I’m all ears"
+      }
+    ],
+    "meaning": {
+      "en": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+      "zh": "準備好並有興趣地專心聆聽某人正在說或即將要說的內容；全神貫注地聽；洗耳恭聽。",
+      "naturalZh": [
+        "準備好並有興趣地專心聆聽某人正在說或即將要說的內容",
+        "全神貫注地聽",
+        "洗耳恭聽。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; friendly messages; classroom discussion; team meetings; interviews; supportive personal conversations.",
+      "summaryZh": "這個表達屬於非正式至中性語氣，尤其適合日常對話、朋友之間的訊息、課堂討論、團隊會議、面試及支持別人的談話。",
+      "contextsEn": [
+        "everyday conversation",
+        "friendly messages",
+        "classroom discussion",
+        "team meetings",
+        "interviews",
+        "supportive personal conversations"
+      ],
+      "contextsZh": [],
+      "formalEn": "It is friendly and interested rather than rude or demanding. In highly formal academic, legal or technical writing, listen carefully, pay close attention or give full attention may be more suitable. The informal classification is supported by both Collins and Oxford learner dictionaries.",
+      "formalZh": "all 和 ears 必須按照這個次序連在一起使用。"
+    },
+    "fixedVariable": {
+      "fixed": "be all ears",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + all ears.",
+          "example": "I’m all ears.",
+          "highlight": "I’m all ears"
+        },
+        {
+          "form": "Subject + be + all ears + command or question.",
+          "example": "I’m all ears—tell me what happened.",
+          "highlight": "I’m all ears"
+        },
+        {
+          "form": "Subject + be + all ears + when / while / as + clause.",
+          "example": "The children were all ears while their grandfather told the story.",
+          "highlight": "were all ears"
+        },
+        {
+          "form": "If + condition, subject + be + all ears.",
+          "example": "If you have another suggestion, I’m all ears.",
+          "highlight": "I’m all ears"
+        },
+        {
+          "form": "Although / Even though + clause, subject + be + all ears.",
+          "example": "Although he was tired, he was all ears when she explained her idea.",
+          "highlight": "was all ears"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Direct Response",
+        "titleZh": "句式一：直接回應",
+        "formula": "Subject + be + all ears.",
+        "descriptionEn": "Source grammar frame: Subject + be + all ears.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + all ears。",
+        "examples": [
+          {
+            "en": "I’m all ears.",
+            "zh": "我洗耳恭聽。",
+            "highlight": "I’m all ears"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Invitation to Continue",
+        "titleZh": "句式二：邀請對方繼續",
+        "formula": "Subject + be + all ears + command or question.",
+        "descriptionEn": "Source grammar frame: Subject + be + all ears + command or question.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + all ears + command or question。",
+        "examples": [
+          {
+            "en": "I’m all ears—tell me what happened.",
+            "zh": "我洗耳恭聽——告訴我發生了甚麼事。",
+            "highlight": "I’m all ears"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Listening Situation",
+        "titleZh": "句式三：描述聆聽情境",
+        "formula": "Subject + be + all ears + when / while / as + clause.",
+        "descriptionEn": "Source grammar frame: Subject + be + all ears + when / while / as + clause.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + all ears + when / while / as + clause。",
+        "examples": [
+          {
+            "en": "The children were all ears while their grandfather told the story.",
+            "zh": "祖父說故事時，孩子們都全神貫注地聽。",
+            "highlight": "were all ears"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Conditional Willingness",
+        "titleZh": "句式四：有條件地表示願意聆聽",
+        "formula": "If + condition, subject + be + all ears.",
+        "descriptionEn": "Source grammar frame: If + condition, subject + be + all ears.",
+        "descriptionZh": "原檔列出的句法框架：If + condition, subject + be + all ears。",
+        "examples": [
+          {
+            "en": "If you have another suggestion, I’m all ears.",
+            "zh": "如果你有另一個建議，我洗耳恭聽。",
+            "highlight": "I’m all ears"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Contrast",
+        "titleZh": "句式五：表達對比",
+        "formula": "Although / Even though + clause, subject + be + all ears.",
+        "descriptionEn": "Source grammar frame: Although / Even though + clause, subject + be + all ears.",
+        "descriptionZh": "原檔列出的句法框架：Although / Even though + clause, subject + be + all ears。",
+        "examples": [
+          {
+            "en": "Although he was tired, he was all ears when she explained her idea.",
+            "zh": "雖然他很疲倦，但她解釋自己的想法時，他仍全神貫注地聽。",
+            "highlight": "was all ears"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Naturally Invites Somebody to Continue",
+        "titleZh": "自然邀請對方繼續說",
+        "en": "The idiomatic version gives the other person a clear and friendly invitation to continue.",
+        "zh": "慣用語版本可以清楚而友善地邀請對方繼續說下去。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Shows Genuine Interest",
+        "titleZh": "表達真誠的興趣",
+        "en": "I’m all ears does not merely mean that sound can be heard. It shows that the listener wants to understand the message.",
+        "zh": "不只是表示能夠聽到聲音，還表示聆聽者真心希望了解對方的內容。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "濃縮較長的解釋",
+        "en": "I’m all ears.",
+        "zh": "這個慣用語可以把「已準備好」、「有興趣」及「會專心聆聽」濃縮成一個簡潔的表達。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Describe Both Responses and Situations",
+        "titleZh": "既可用作回應，也可描述情境",
+        "en": "The class was all ears when the visitor began speaking.",
+        "zh": "它既可以直接回應另一位說話者，也可以描述某人或一群人專心聆聽的情況。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Creates a Supportive Tone",
+        "titleZh": "營造支持和接納的語氣",
+        "en": "When somebody is nervous about sharing an idea or concern, I’m all ears can show patience, openness and support. This idiom is a useful alternative, but it is not automatically better than listen carefully or pay attention. Use it only when its friendly and interested tone suits the situation.",
+        "zh": "當某人對分享想法或憂慮感到緊張時，I’m all ears 可以表達耐心、開放及支持。 這個慣用語是一個實用的替代說法，但並非必定比 listen carefully 或 pay attention 更好。 只有當它友善而有興趣的語氣適合相關情境時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact Origin Unknown",
+      "statusZh": "逐漸形成；確切來源不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster records a first known use of all ears with the meaning “eagerly listening” in 1577. A first known written record does not necessarily identify the person who invented the expression or the first time it was ever spoken.",
+          "zh": "韋氏詞典把 all ears 以「熱切聆聽」意思出現的最早已知用法追溯至1577年。 不過，最早已知的書面記錄不一定代表我們知道是誰創造這個表達，也不一定是它首次在口語中出現的時間。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "In the expression, all suggests complete attention, while ears represent the act of listening. The exaggerated physical image therefore developed naturally into the figurative meaning of listening with complete interest and attention.",
+          "zh": "在這個表達中，all 表示全部注意力，而 ears 則代表聆聽。 這個誇張的身體畫面因而自然演變成 「帶着充分興趣並全神貫注地聽」的比喻意思。"
+        }
+      ],
+      "memoryEn": "Imagine that your whole body has turned into ears: every part of you is concentrating on what the other person is saying.",
+      "memoryZh": "想像你的全身都變成耳朵：你整個人都正在專心聽對方說話。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use the Correct Form of Be",
+        "titleZh": "規則一：正確使用 be",
+        "en": "Use the Correct Form of Be",
+        "zh": "正確使用 be",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Keep Ears Plural",
+        "titleZh": "規則二：ears 必須使用複數",
+        "en": "The singular form appeared in some older literary writing, but it is not the modern target taught in this exercise.",
+        "zh": "單數形式曾在部分較古老的文學作品中出現，但並不是本練習教授的現代標準形式。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Add an Article",
+        "titleZh": "規則三：不要加入冠詞",
+        "en": "Do Not Add an Article",
+        "zh": "不要加入冠詞",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It for Interested and Attentive Listening",
+        "titleZh": "規則四：用於有興趣及專心的聆聽",
+        "en": "The second sentence merely describes hearing a sound. It does not show that the speaker is willingly and attentively listening to somebody.",
+        "zh": "告訴我你的新想法吧。 我洗耳恭聽。 第二句只表示聽到聲音，沒有表示說話者願意專心聽某人說話。",
+        "examples": [
+          {
+            "en": "Tell me about your new idea. I’m all ears.",
+            "zh": "告訴我你的新想法吧。我洗耳恭聽。",
+            "highlight": "I’m all ears"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Use It for Accidental Overhearing",
+        "titleZh": "規則五：不可用來表示無意中聽到",
+        "en": "If the listening is accidental or secret, heard, overheard or listened in may be more accurate.",
+        "zh": "如果只是無意中或秘密聽到別人的說話，使用 heard、overheard 或 listened in 會更準確。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "The Listener Must Be Genuinely Attentive",
+        "titleZh": "規則六：聆聽者必須真正專心",
+        "en": "does not want to listen; is ignoring the speaker; is paying attention to something else; has already stopped listening.",
+        "zh": "如果某人不願意聽、正在忽視說話者、專注於其他事情，或已經停止聆聽，就不應使用這個慣用語。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則七：自然使用，不要過度使用",
+        "en": "If the sentence only means that a person can physically hear a sound, ordinary hear or listen is usually better.",
+        "zh": "如果句子只表示某人能夠聽到聲音，直接使用 hear 或 listen 通常會更自然。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "The first word of each canonical answer has been provided.",
+      "zh": "使用 be all ears 的正確形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-45-q01",
+        "number": 1,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "I am ready to listen carefully. Tell me your news.",
+        "promptZh": "我已準備好專心聽。告訴我你的消息吧。",
+        "starter": "I’m",
+        "answer": "I’m all ears—tell me your news.",
+        "answerZh": "我洗耳恭聽——告訴我你的消息吧。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q02",
+        "number": 2,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Sara listens very carefully as her grandfather begins the story.",
+        "promptZh": "祖父開始說故事時，莎拉十分專心地聽。",
+        "starter": "Sara",
+        "answer": "Sara is all ears as her grandfather begins the story.",
+        "answerZh": "祖父開始說故事時，莎拉全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "is all ears"
+      },
+      {
+        "id": "idiom-45-q03",
+        "number": 3,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "We are ready and eager to hear your suggestion.",
+        "promptZh": "我們已準備好，也很想聽你的建議。",
+        "starter": "We’re",
+        "answer": "We’re all ears—tell us your suggestion.",
+        "answerZh": "我們洗耳恭聽——告訴我們你的建議吧。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "We’re all ears"
+      },
+      {
+        "id": "idiom-45-q04",
+        "number": 4,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The children listened with full attention while their father explained the surprise.",
+        "promptZh": "父親解釋這個驚喜時，孩子們全神貫注地聽。",
+        "starter": "The",
+        "answer": "The children were all ears while their father explained the surprise.",
+        "answerZh": "父親解釋這個驚喜時，孩子們都全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "were all ears"
+      },
+      {
+        "id": "idiom-45-q05",
+        "number": 5,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Ben listens eagerly as his sister explains what happened at school.",
+        "promptZh": "姐姐解釋學校發生的事情時，本很有興趣地聽。",
+        "starter": "Ben",
+        "answer": "Ben is all ears as his sister explains what happened at school.",
+        "answerZh": "姐姐解釋學校發生的事情時，本聽得十分專心。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "is all ears"
+      },
+      {
+        "id": "idiom-45-q06",
+        "number": 6,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "I was ready to listen when Eva said she had important news.",
+        "promptZh": "伊娃說有重要消息時，我已準備好專心聽。",
+        "starter": "I",
+        "answer": "I was all ears when Eva said she had important news.",
+        "answerZh": "伊娃說有重要消息時，我立即洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q07",
+        "number": 7,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The players listened very carefully to the coach’s final instructions.",
+        "promptZh": "球員十分專心地聽教練最後的指示。",
+        "starter": "The",
+        "answer": "The players were all ears during the coach’s final instructions.",
+        "answerZh": "教練作出最後指示時，球員都全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "were all ears"
+      },
+      {
+        "id": "idiom-45-q08",
+        "number": 8,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "You listen eagerly as the teacher gives the answer.",
+        "promptZh": "老師公布答案時，你很有興趣地聽。",
+        "starter": "You’re",
+        "answer": "You’re all ears as the teacher gives the answer.",
+        "answerZh": "老師公布答案時，你全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "You’re all ears"
+      },
+      {
+        "id": "idiom-45-q09",
+        "number": 9,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Our class paid full attention when the visitor described her job.",
+        "promptZh": "訪客介紹自己的工作時，全班都十分留心。",
+        "starter": "Our",
+        "answer": "Our class was all ears when the visitor described her job.",
+        "answerZh": "訪客介紹自己的工作時，全班都全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q10",
+        "number": 10,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Daniel said he was ready to listen carefully and asked me to explain my idea.",
+        "promptZh": "丹尼爾說他已準備好專心聽，並請我解釋自己的想法。",
+        "starter": "Daniel",
+        "answer": "Daniel said he was all ears and asked me to explain my idea.",
+        "answerZh": "丹尼爾說他洗耳恭聽，並請我解釋自己的想法。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q11",
+        "number": 11,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "A: I have a new plan for the class party. B: I’m ready to listen. Tell me about it.",
+        "promptZh": "甲：我對班級派對有一個新計劃。 乙：我已準備好聽。告訴我吧。",
+        "starter": "I’m",
+        "answer": "I’m all ears—tell me about your plan.",
+        "answerZh": "我洗耳恭聽——告訴我你的計劃吧。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q12",
+        "number": 12,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "If you want to explain the problem, I am ready to listen carefully.",
+        "promptZh": "如果你想解釋這個問題，我已準備好專心聽。",
+        "starter": "If",
+        "answer": "If you want to explain the problem, I’m all ears.",
+        "answerZh": "如果你想解釋這個問題，我洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q13",
+        "number": 13,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Eva always listens very carefully when her aunt talks about travelling.",
+        "promptZh": "姨姨談到旅行時，伊娃總是十分專心地聽。",
+        "starter": "Eva",
+        "answer": "Eva is always all ears when her aunt talks about travelling.",
+        "answerZh": "姨姨談到旅行時，伊娃總是全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "is always all ears"
+      },
+      {
+        "id": "idiom-45-q14",
+        "number": 14,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "After the close match, the players listened eagerly as the coach spoke.",
+        "promptZh": "在緊張的比賽結束後，球員很有興趣地聽教練說話。",
+        "starter": "The",
+        "answer": "The players were all ears as the coach spoke after the close match.",
+        "answerZh": "在緊張的比賽結束後，教練說話時，球員都全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "were all ears"
+      },
+      {
+        "id": "idiom-45-q15",
+        "number": 15,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "We will listen with full attention when you present the new design tomorrow.",
+        "promptZh": "你明天介紹新設計時，我們會全神貫注地聽。",
+        "starter": "We’ll",
+        "answer": "We’ll be all ears when you present the new design tomorrow.",
+        "answerZh": "你明天介紹新設計時，我們會洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "be all ears"
+      },
+      {
+        "id": "idiom-45-q16",
+        "number": 16,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "A: I need to tell you something, but it may take a few minutes. B: That’s fine. I’m ready to listen.",
+        "promptZh": "甲：我需要告訴你一件事，但可能要說幾分鐘。 乙：沒問題。我已準備好聽。",
+        "starter": "That’s",
+        "answer": "That’s fine—I’m all ears.",
+        "answerZh": "沒問題——我洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q17",
+        "number": 17,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "If the workers have useful ideas, the manager will listen with full attention.",
+        "promptZh": "如果員工有實用的想法，經理會專心聆聽。",
+        "starter": "The",
+        "answer": "The manager will be all ears if the workers have useful ideas.",
+        "answerZh": "如果員工有實用的想法，經理會洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "be all ears"
+      },
+      {
+        "id": "idiom-45-q18",
+        "number": 18,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: Shall I explain why the order was late? B: Yes, I want to hear every detail.",
+        "promptZh": "甲：要我解釋訂單為何遲到嗎？ 乙：好，我想聽清楚每個細節。",
+        "starter": "Yes",
+        "answer": "Yes, I’m all ears—explain why the order was late.",
+        "answerZh": "好，我洗耳恭聽——請解釋訂單為何遲到。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q19",
+        "number": 19,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Everyone listened closely while the guide explained the safety rules.",
+        "promptZh": "導遊解釋安全規則時，大家都專心聆聽。",
+        "starter": "Everyone",
+        "answer": "Everyone was all ears while the guide explained the safety rules.",
+        "answerZh": "導遊解釋安全規則時，大家都全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q20",
+        "number": 20,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "I would listen very carefully if you told me what really happened.",
+        "promptZh": "如果你告訴我事情的真相，我會十分專心地聽。",
+        "starter": "I’d",
+        "answer": "I’d be all ears if you told me what really happened.",
+        "answerZh": "如果你告訴我事情的真相，我一定會洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "be all ears"
+      },
+      {
+        "id": "idiom-45-q21",
+        "number": 21,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: I think I know how to fix the problem. B: Go ahead. I want to hear your idea.",
+        "promptZh": "甲：我想我知道怎樣解決這個問題。 乙：請說。我想聽你的想法。",
+        "starter": "I’m",
+        "answer": "I’m all ears—tell me how you would fix the problem.",
+        "answerZh": "我洗耳恭聽——告訴我你會怎樣解決這個問題。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q22",
+        "number": 22,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A friend says she has surprising news from her interview. You want her to continue.",
+        "promptZh": "一位朋友說，她的面試有令人意外的消息。你希望她繼續說下去。",
+        "starter": "I’m",
+        "answer": "I’m all ears—what happened at your interview?",
+        "answerZh": "我洗耳恭聽——你的面試發生了甚麼事？",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q23",
+        "number": 23,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "During the book club, everyone became quiet and listened closely when Noah began explaining the ending.",
+        "promptZh": "在讀書會中，諾亞開始解釋結局時，大家都安靜下來並專心聆聽。",
+        "starter": "Everyone",
+        "answer": "Everyone at the book club was all ears when Noah began explaining the ending.",
+        "answerZh": "諾亞開始解釋結局時，讀書會內的所有人都全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q24",
+        "number": 24,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: I have a small concern about tomorrow’s trip. B: Please tell me. I’m paying full attention.",
+        "promptZh": "甲：我對明天的旅程有一點擔心。 乙：請告訴我。我會專心聽。",
+        "starter": "Please",
+        "answer": "Please tell me—I’m all ears.",
+        "answerZh": "請告訴我——我洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q25",
+        "number": 25,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Before deciding what to do, the customer listened with full attention as the shop assistant explained the problem.",
+        "promptZh": "在決定怎樣做之前，顧客全神貫注地聽店員解釋問題。",
+        "starter": "Before",
+        "answer": "Before deciding what to do, the customer was all ears as the shop assistant explained the problem.",
+        "answerZh": "在決定怎樣做之前，顧客全神貫注地聽店員解釋問題。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q26",
+        "number": 26,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Can I explain why I changed the plan? B: Yes. I’m ready to hear your reason.",
+        "promptZh": "甲：我可以解釋為何改變計劃嗎？ 乙：可以。我已準備好聽你的理由。",
+        "starter": "Yes",
+        "answer": "Yes, I’m all ears—explain why you changed the plan.",
+        "answerZh": "可以，我洗耳恭聽——請解釋你為何改變計劃。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q27",
+        "number": 27,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The children stopped playing and listened eagerly when the teacher reached the end of the story.",
+        "promptZh": "老師說到故事結尾時，孩子們停止玩耍，並很有興趣地聽。",
+        "starter": "The",
+        "answer": "The children stopped playing and were all ears as the teacher reached the end of the story.",
+        "answerZh": "老師說到故事結尾時，孩子們停止玩耍，全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "were all ears"
+      },
+      {
+        "id": "idiom-45-q28",
+        "number": 28,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "When the doctor explained the test results in simple words, the family listened very carefully.",
+        "promptZh": "醫生用簡單的字詞解釋檢查結果時，家人都十分專心地聽。",
+        "starter": "The",
+        "answer": "The family was all ears when the doctor explained the test results in simple words.",
+        "answerZh": "醫生用簡單的字詞解釋檢查結果時，家人都全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q29",
+        "number": 29,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: I have an idea for our video. Are you ready to hear it? B: Yes. I want to hear everything.",
+        "promptZh": "甲：我對我們的影片有一個想法。你準備好聽了嗎？ 乙：準備好了。我想聽清楚全部內容。",
+        "starter": "Yes",
+        "answer": "Yes—I’m all ears; tell me about your idea for the video.",
+        "answerZh": "準備好了——我洗耳恭聽；告訴我你對影片的想法吧。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q30",
+        "number": 30,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Although Leo usually gets bored during long talks, he listened with full attention when the speaker described the rescue.",
+        "promptZh": "雖然里奧通常會對長篇談話感到沉悶，但講者描述救援經過時，他十分專心地聽。",
+        "starter": "Although",
+        "answer": "Although Leo usually gets bored during long talks, he was all ears when the speaker described the rescue.",
+        "answerZh": "雖然里奧通常會對長篇談話感到沉悶，但講者描述救援經過時，他卻全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q31",
+        "number": 31,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Since the teacher promised to explain the difficult question, the class waited eagerly and listened closely.",
+        "promptZh": "老師答應解釋這條難題，因此全班都期待並專心聆聽。",
+        "starter": "Since",
+        "answer": "Since the teacher promised to explain the difficult question, the class was all ears.",
+        "answerZh": "老師答應解釋這條難題，因此全班都洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q32",
+        "number": 32,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Although I was tired, I was ready to listen carefully when my friend asked to talk.",
+        "promptZh": "雖然我很疲倦，但朋友提出想談一談時，我仍準備好專心聽。",
+        "starter": "Although",
+        "answer": "Although I was tired, I was all ears when my friend asked to talk.",
+        "answerZh": "雖然我很疲倦，但朋友提出想談一談時，我仍洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q33",
+        "number": 33,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: I can explain what customers said about the new menu, but it may take a while. B: Take your time. I’m ready to listen carefully.",
+        "promptZh": "甲：我可以解釋顧客對新餐牌的意見，但可能需要一點時間。 乙：慢慢說。我已準備好專心聽。",
+        "starter": "Take",
+        "answer": "Take your time—I’m all ears.",
+        "answerZh": "慢慢說——我洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q34",
+        "number": 34,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The team had ignored earlier ideas, but they listened closely when the youngest worker suggested a simpler plan.",
+        "promptZh": "團隊之前忽視了其他想法，但最年輕的員工提出較簡單的計劃時，他們卻專心聆聽。",
+        "starter": "Although",
+        "answer": "Although the team had ignored earlier ideas, they were all ears when the youngest worker suggested a simpler plan.",
+        "answerZh": "雖然團隊之前忽視了其他想法，但最年輕的員工提出較簡單的計劃時，他們卻全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "were all ears"
+      },
+      {
+        "id": "idiom-45-q35",
+        "number": 35,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "If students want to explain how they really feel, the head teacher is ready to listen carefully.",
+        "promptZh": "如果學生想解釋自己的真實感受，校長已準備好專心聽。",
+        "starter": "If",
+        "answer": "If students want to explain how they really feel, the head teacher is all ears.",
+        "answerZh": "如果學生想解釋自己的真實感受，校長會洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "is all ears"
+      },
+      {
+        "id": "idiom-45-q36",
+        "number": 36,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Because the visitor had worked in six countries, everyone listened with great interest when she began telling her story.",
+        "promptZh": "因為訪客曾在六個國家工作，所以她開始分享經歷時，大家都非常有興趣地聽。",
+        "starter": "Because",
+        "answer": "Because the visitor had worked in six countries, everyone was all ears when she began telling her story.",
+        "answerZh": "因為訪客曾在六個國家工作，所以她開始分享經歷時，大家都全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q37",
+        "number": 37,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: I may have found a way to save us time. B: I’m interested, but please explain it slowly.",
+        "promptZh": "甲：我可能找到了一個節省時間的方法。 乙：我很有興趣，但請慢慢解釋。",
+        "starter": "I’m",
+        "answer": "I’m all ears, but please explain your idea slowly.",
+        "answerZh": "我洗耳恭聽，但請慢慢解釋你的想法。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q38",
+        "number": 38,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The parents will listen very carefully if the teacher explains how the new homework plan works.",
+        "promptZh": "如果老師解釋新功課計劃的運作方式，家長會十分專心地聽。",
+        "starter": "The",
+        "answer": "The parents will be all ears if the teacher explains how the new homework plan works.",
+        "answerZh": "如果老師解釋新功課計劃的運作方式，家長會洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "be all ears"
+      },
+      {
+        "id": "idiom-45-q39",
+        "number": 39,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "When the host finally said she would reveal the winner, everyone in the room became completely attentive.",
+        "promptZh": "主持人終於表示會公布得獎者時，房內所有人都立即全神貫注。",
+        "starter": "The",
+        "answer": "The whole room was all ears when the host finally said she would reveal the winner.",
+        "answerZh": "主持人終於表示會公布得獎者時，全場都全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q40",
+        "number": 40,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "I told Alex that I was ready to hear both his complaint and his suggestion.",
+        "promptZh": "我告訴亞歷克斯，我已準備好聽他的投訴和建議。",
+        "starter": "I",
+        "answer": "I told Alex, “I’m all ears—tell me both your complaint and your suggestion.”",
+        "answerZh": "我告訴亞歷克斯：「我洗耳恭聽——請把你的投訴和建議都告訴我。」",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q41",
+        "number": 41,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "At the community centre, the older residents had many ideas about the new classes, and the organiser gave them her full attention.",
+        "promptZh": "在社區中心，年長居民對新課程有很多想法，而活動負責人全心聆聽。",
+        "starter": "The",
+        "answer": "The organiser was all ears as the older residents shared their ideas about the new classes at the community centre.",
+        "answerZh": "年長居民在社區中心分享對新課程的想法時，活動負責人全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q42",
+        "number": 42,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: There is one detail about the booking that may change our whole plan. B: You have my full attention. What is it?",
+        "promptZh": "甲：預約有一個細節，可能會改變我們整個計劃。 乙：我會全神貫注地聽。是甚麼？",
+        "starter": "I’m",
+        "answer": "I’m all ears—what detail about the booking may change our plan?",
+        "answerZh": "我洗耳恭聽——預約的哪個細節可能會改變我們的計劃？",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q43",
+        "number": 43,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The nurse said the patient could explain every symptom and that she would listen without rushing him.",
+        "promptZh": "護士說病人可以解釋每一個症狀，而她會耐心聆聽，不會催促他。",
+        "starter": "The",
+        "answer": "The nurse told the patient, “I’m all ears, and I won’t rush you as you explain your symptoms.”",
+        "answerZh": "護士告訴病人：「我會洗耳恭聽；你解釋症狀時，我不會催促你。」",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q44",
+        "number": 44,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Even though the manager had only ten minutes, she gave the worker her full attention when he raised a safety concern.",
+        "promptZh": "雖然經理只有十分鐘，但員工提出安全問題時，她仍全心聆聽。",
+        "starter": "Even",
+        "answer": "Even though the manager had only ten minutes, she was all ears when the worker raised a safety concern.",
+        "answerZh": "雖然經理只有十分鐘，但員工提出安全問題時，她仍全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q45",
+        "number": 45,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "If the young players want to share their views on the match, the coach will listen with full attention.",
+        "promptZh": "如果年輕球員想分享對比賽的看法，教練會全心聆聽。",
+        "starter": "If",
+        "answer": "If the young players want to share their views on the match, the coach will be all ears.",
+        "answerZh": "如果年輕球員想分享對比賽的看法，教練會洗耳恭聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "be all ears"
+      },
+      {
+        "id": "idiom-45-q46",
+        "number": 46,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: I do not know whether my idea will work, but I would like to explain it. B: I want to hear it before we decide.",
+        "promptZh": "甲：我不知道這個想法是否可行，但我想解釋一下。 乙：我想在作決定前先聽一聽。",
+        "starter": "Even",
+        "answer": "Even if you are not sure it will work, I’m all ears—explain your idea before we decide.",
+        "answerZh": "即使你不肯定這個想法是否可行，我也洗耳恭聽——在我們作決定前解釋一下吧。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m all ears"
+      },
+      {
+        "id": "idiom-45-q47",
+        "number": 47,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The reporter thought the shop owner would be too busy to listen, but the shop owner gave the reporter’s full explanation complete attention.",
+        "promptZh": "記者以為店主太忙，沒有時間聽，但店主仍全神貫注地聽完記者的解釋。",
+        "starter": "Although",
+        "answer": "Although the reporter thought the shop owner was too busy to listen, the shop owner was all ears during the reporter’s full explanation.",
+        "answerZh": "雖然記者以為店主太忙，沒有時間聽，但記者作出完整解釋時，店主仍全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q48",
+        "number": 48,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "After months without a meeting, parents finally shared their concerns, and the head teacher listened closely.",
+        "promptZh": "經過數月沒有會面後，家長終於說出自己的憂慮，而校長專心聆聽。",
+        "starter": "After",
+        "answer": "After months without a meeting, the head teacher was all ears as parents finally shared their concerns.",
+        "answerZh": "經過數月沒有會面後，家長終於說出自己的憂慮，而校長全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q49",
+        "number": 49,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The class had heard many facts already, but everyone became fully attentive when the guide said he knew a secret passage in the old building.",
+        "promptZh": "全班已聽過很多資料，但導遊說他知道舊建築內有一條秘密通道時，大家都立即全神貫注。",
+        "starter": "Although",
+        "answer": "Although the class had already heard many facts, everyone was all ears when the guide said he knew a secret passage in the old building.",
+        "answerZh": "雖然全班已聽過很多資料，但導遊說他知道舊建築內有一條秘密通道時，大家都全神貫注地聽。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "was all ears"
+      },
+      {
+        "id": "idiom-45-q50",
+        "number": 50,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: We have tried several ideas and none has worked. I have one last suggestion, but it is unusual. B: I still want to hear it carefully before we give up.",
+        "promptZh": "甲：我們已試過幾個想法，但全部都行不通。我還有最後一個建議，不過它不太尋常。 乙：在我們放棄前，我仍想專心聽聽這個建議。",
+        "starter": "We’ve",
+        "answer": "We’ve tried several ideas, but I’m still all ears—tell me your last suggestion before we give up.",
+        "answerZh": "我們已試過幾個想法，但我仍洗耳恭聽——在放棄前告訴我你最後的建議吧。",
+        "targetForm": "be all ears",
+        "targetMeaning": "To be ready, interested and eager to listen carefully to what somebody is saying or is about to say.",
+        "highlight": "I’m still all ears"
+      }
+    ]
+  }
+}

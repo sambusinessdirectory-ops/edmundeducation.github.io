@@ -1,0 +1,1247 @@
+{
+  "id": "ss309",
+  "order": 309,
+  "slug": "if-you-do-not-mind-me-saying",
+  "title": "「If you do not mind me saying」禮貌提出敏感意見",
+  "titleZh": "「If you do not mind me saying」禮貌提出敏感意見",
+  "titleEn": "Using “If you do not mind me saying”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 308 -「If you do not mind me saying」禮貌提出敏感意見.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "sha256": "8add26cc7ed46d3f0ad2c332fb29525bb00ed08abf2390c5ecc1e960e8abb607",
+    "sourceNumber": 308,
+    "systemOrder": 309,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 308 maps to ss309: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "if you do not mind me saying",
+  "formulas": [
+    {
+      "id": "ss309-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "if you do not mind me saying"
+    }
+  ],
+  "example": "If you do not mind me saying, the explanation is rather unclear.",
+  "exampleZh": "恕我直言，這個解釋頗為含糊。",
+  "examples": [
+    {
+      "id": "ss309-example-01",
+      "en": "If you do not mind me saying, the explanation is rather unclear.",
+      "zh": "恕我直言，這個解釋頗為含糊。",
+      "highlight": "If you do not mind me saying, the explanation is rather unclear."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss309-rule-01",
+      "zh": "固定表達必須保持完整本練習使用：【if you do not mind me saying】 不要刪去 me 或把 saying 改成其他動詞形式。在 mind 後面，動詞使用 -ing 形式。",
+      "en": "if you do not mind me saying If you do not mind me saying, the room is rather cold. If you do not mind saying, the room is rather cold. If you do not mind me say, the room is rather cold. If you do not mind me to say, the room is rather cold.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-rule-02",
+      "zh": "在目標表達中，詞語【me】指進行 saying 的人：詞語【you】代表聽取意見的人；詞語【me】代表提出意見的人；詞語【saying】代表提出這項意見；整個表達的字面意思接近「如果你不介意我這樣說」；實際使用時，通常相當於「恕我直言」，也可表示希望你不介意我這樣說。",
+      "en": "In this expression, you is the listener, me is the person giving the opinion, and saying is the act of expressing it. The literal sense is close to ‘if you do not object to my saying this’, while the practical meaning is ‘if I may say so’.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-rule-03",
+      "zh": "句首位置後面使用逗號逗號把禮貌開場語和主要意見分開。",
+      "en": "If you do not mind me saying, your conclusion is too short. If you do not mind me saying your conclusion is too short.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-rule-04",
+      "zh": "句中位置前後都要使用逗號因為這個表達是插入語，所以前後通常都需要逗號。",
+      "en": "Your conclusion, if you do not mind me saying, is too short. Your conclusion if you do not mind me saying is too short.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-rule-05",
+      "zh": "句尾位置前面使用逗號句號放在完整句子的最後。",
+      "en": "Your conclusion is too short, if you do not mind me saying.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-rule-06",
+      "zh": "通常用於可能較敏感的意見這個表達適合引入：禮貌批評私人觀察不同意見未經邀請的建議對外表、語氣或表現的評論可能令對方尷尬的提醒恕我直言，你今天看來頗為疲倦。 它通常不需要用於完全中性而沒有敏感性的事實。會議三時開始通常只是客觀資料，不需要這種禮貌緩和語。",
+      "en": "If you do not mind me saying, you look rather tired today. Less natural: If you do not mind me saying, the meeting begins at three.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-rule-07",
+      "zh": "禮貌開場不能令冒犯性內容自動變得合適這個表達可以令意見較不突然，但不能合理化侮辱、嘲笑或不必要的批評。較適合：【If you do not mind me saying, the report needs a clearer conclusion.】 恕我直言，這份報告需要一個更清晰的結論。 不適合：【If you do not mind me saying, your work is terrible.】 即使加入禮貌開場，過度尖銳的內容仍可能令人感到被冒犯。",
+      "en": "If you do not mind me saying, the report needs a clearer conclusion. If you do not mind me saying, your work is terrible.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-rule-08",
+      "zh": "本練習只使用完整形式日常對話中亦常見：【If you don’t mind me saying,...】 較傳統或正式的形式亦可能是：【If you do not mind my saying so,...】 不過，為了讓學生集中掌握一個清楚的固定表達，本練習所有答案均使用：【if you do not mind me saying】",
+      "en": "If you don’t mind me saying,... If you do not mind my saying so,... if you do not mind me saying",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss309-benefit-01",
+      "zh": "令直接意見聽起來不那麼突然這個解釋不清楚。 恕我直言，這個解釋頗為含糊。 第二句先向對方表示尊重，再提出批評，因此語氣較不生硬。",
+      "en": "Compare: The explanation is unclear. If you do not mind me saying, the explanation is rather unclear.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-benefit-02",
+      "zh": "幫助你禮貌地談論敏感事情有些意見可能涉及：對方的工作表現外表或精神狀態說話方式決定或計劃的問題對方可能不想聽到的建議這個表達可以提醒聽者：你知道自己的意見可能較為直接，而你並非有意冒犯對方。",
+      "en": "The expression helps introduce sensitive comments about performance, appearance, wellbeing, speaking style, decisions, plans or unwelcome advice. It signals awareness that the comment may sound direct and that no offence is intended.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-benefit-03",
+      "zh": "適合工作、學校和日常對話你可以使用這個表達：向同事提出改進建議評論一份報告或簡報禮貌地不同意某個決定提醒朋友注意一個問題向學生或組員提供意見它特別適合需要誠實表達，但同時希望保持良好關係的情況。",
+      "en": "It suits workplace, school and everyday conversations: suggesting improvements, commenting on a report, disagreeing politely, alerting a friend to a problem or giving feedback while protecting the relationship.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-benefit-04",
+      "zh": "讓你表達不同意見而不必過度迴避有些學生為了保持禮貌，可能完全不敢提出不同意見。這個句型提供了一個現成的開場，讓你可以在保持尊重的同時，清楚說出真正的看法。我認為，恕我直言，這個限期並不切實際。",
+      "en": "I think, if you do not mind me saying, the deadline is unrealistic.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-benefit-05",
+      "zh": "可以自然地提出未經邀請的建議有時候，對方沒有直接要求你的意見，但你認為一項建議可能有幫助。恕我直言，你可以把最後一段縮短。 這樣比直接說 Make the final paragraph shorter 更尊重對方。",
+      "en": "You could, if you do not mind me saying, make the final paragraph shorter.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss309-benefit-06",
+      "zh": "可以放在不同位置，增加句式變化你不必在每一句都以同一方式開始。三句的核心意思相同，但禮貌表達的位置不同。這可以令寫作和說話不會過分機械化。",
+      "en": "Compare: If you do not mind me saying, your introduction is too long. Your introduction is too long, if you do not mind me saying. Your introduction, if you do not mind me saying, is too long.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 308 maps to ss309: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the complete expression if you do not mind me saying. Preserve",
+      "the original opinion, suggestion or observation.",
+      "The expression may appear at the beginning, in the middle or at the end of the sentence. Follow",
+      "the first-word hint carefully.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用完整表達 if you do not mind me saying 改寫以下內容。答案必須保留原有的意見、建議或",
+      "觀察。",
+      "這個表達可以出現在句首、句中或句尾。請仔細留意每題提供的答案首字。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss309-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I hope you will not take this the wrong way, but the explanation is rather unclear.",
+      "promptZh": "希望你不要誤會，不過這個解釋頗為含糊。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, the explanation is rather unclear.",
+      "answerZh": "恕我直言，這個解釋頗為含糊。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, the explanation is rather unclear."
+    },
+    {
+      "id": "ss309-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Please forgive me for being honest, but your voice is a little too quiet.",
+      "promptZh": "請原諒我坦白直言，不過你的聲音有點太小。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your voice is a little too quiet, if you do not mind me saying.",
+      "answerZh": "你的聲音有點太小，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "Your voice is a little too quiet, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "May I make a small observation? Your introduction is too long.",
+      "promptZh": "我可以提出一個小小的觀察嗎？你的引言太長了。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your introduction, if you do not mind me saying, is too long.",
+      "answerZh": "你的引言，恕我直言，太長了。",
+      "answerZhSource": "pdf",
+      "highlight": "Your introduction, if you do not mind me saying, is too long."
+    },
+    {
+      "id": "ss309-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This is only my opinion, but I think the room feels rather cold.",
+      "promptZh": "這只是我的意見，不過我認為這個房間感覺頗冷。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I think, if you do not mind me saying, the room feels rather cold.",
+      "answerZh": "我認為，恕我直言，這個房間感覺頗冷。",
+      "answerZhSource": "pdf",
+      "highlight": "I think, if you do not mind me saying, the room feels rather cold."
+    },
+    {
+      "id": "ss309-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "May I offer a suggestion? You could use a larger font.",
+      "promptZh": "我可以提出一項建議嗎？你可以使用較大的字體。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You could, if you do not mind me saying, use a larger font.",
+      "answerZh": "恕我直言，你可以使用較大的字體。",
+      "answerZhSource": "pdf",
+      "highlight": "You could, if you do not mind me saying, use a larger font."
+    },
+    {
+      "id": "ss309-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I do not want to sound rude, but this soup is slightly too salty.",
+      "promptZh": "我不想顯得無禮，不過這個湯稍為太鹹。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, this soup is slightly too salty.",
+      "answerZh": "恕我直言，這個湯稍為太鹹。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, this soup is slightly too salty."
+    },
+    {
+      "id": "ss309-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I hope you do not mind this comment: the chair is not very comfortable.",
+      "promptZh": "希望你不介意這個意見：這張椅子不太舒適。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chair is not very comfortable, if you do not mind me saying.",
+      "answerZh": "這張椅子不太舒適，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "The chair is not very comfortable, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "May I say something honestly? Your answer is not complete.",
+      "promptZh": "我可以坦白說一句嗎？你的答案並不完整。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your answer, if you do not mind me saying, is not complete.",
+      "answerZh": "你的答案，恕我直言，並不完整。",
+      "answerZhSource": "pdf",
+      "highlight": "Your answer, if you do not mind me saying, is not complete."
+    },
+    {
+      "id": "ss309-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In my view, the ending is a little sudden. I hope you will allow me to express that opinion.",
+      "promptZh": "在我看來，這個結尾有點突然。希望你容許我表達這個意見。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In my view, if you do not mind me saying, the ending is a little sudden.",
+      "answerZh": "在我看來，恕我直言，這個結尾有點突然。",
+      "answerZhSource": "pdf",
+      "highlight": "In my view, if you do not mind me saying, the ending is a little sudden."
+    },
+    {
+      "id": "ss309-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Please allow me to be frank: the blue shirt suits you better.",
+      "promptZh": "請容許我坦白直言：藍色恤衫更加適合你。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, the blue shirt suits you better.",
+      "answerZh": "恕我直言，藍色恤衫更加適合你。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, the blue shirt suits you better."
+    },
+    {
+      "id": "ss309-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I do not wish to criticise you, but the report contains several repeated points.",
+      "promptZh": "我並非想批評你，不過這份報告有數個重複的論點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report contains several repeated points, if you do not mind me saying.",
+      "answerZh": "這份報告有數個重複的論點，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "The report contains several repeated points, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "May I point something out? This plan is too expensive.",
+      "promptZh": "我可以指出一件事嗎？這項計劃太昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This plan, if you do not mind me saying, is too expensive.",
+      "answerZh": "這項計劃，恕我直言，太昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "This plan, if you do not mind me saying, is too expensive."
+    },
+    {
+      "id": "ss309-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This is only my personal view, but I think the meeting started too late.",
+      "promptZh": "這只是我的個人看法，不過我認為會議開始得太遲。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I think, if you do not mind me saying, the meeting started too late.",
+      "answerZh": "我認為，恕我直言，會議開始得太遲。",
+      "answerZhSource": "pdf",
+      "highlight": "I think, if you do not mind me saying, the meeting started too late."
+    },
+    {
+      "id": "ss309-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I hope you will accept an honest comment: your handwriting is difficult to read.",
+      "promptZh": "希望你願意接受一個坦白的意見：你的字跡很難閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, your handwriting is difficult to read.",
+      "answerZh": "恕我直言，你的字跡很難閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, your handwriting is difficult to read."
+    },
+    {
+      "id": "ss309-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "May I make a small suggestion? You might slow down during the presentation.",
+      "promptZh": "我可以提出一項小建議嗎？你在簡報期間可以說慢一點。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might, if you do not mind me saying, slow down during the presentation.",
+      "answerZh": "恕我直言，你在簡報期間可以說慢一點。",
+      "answerZhSource": "pdf",
+      "highlight": "You might, if you do not mind me saying, slow down during the presentation."
+    },
+    {
+      "id": "ss309-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Please do not be offended, but that colour makes the room look darker.",
+      "promptZh": "請不要介意，不過那種顏色令房間看起來更暗。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That colour makes the room look darker, if you do not mind me saying.",
+      "answerZh": "那種顏色令房間看起來更暗，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "That colour makes the room look darker, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "May I be honest? The second example is much clearer than the first.",
+      "promptZh": "我可以坦白說嗎？第二個例子比第一個清楚得多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The second example, if you do not mind me saying, is much clearer than the first.",
+      "answerZh": "第二個例子，恕我直言，比第一個清楚得多。",
+      "answerZhSource": "pdf",
+      "highlight": "The second example, if you do not mind me saying, is much clearer than the first."
+    },
+    {
+      "id": "ss309-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I hope this does not sound unkind, but Anna’s tone sounded rather dismissive.",
+      "promptZh": "希望這句話不會顯得刻薄，不過 Anna 的語氣聽起來頗為輕蔑。",
+      "promptZhSource": "pdf",
+      "starter": "Anna’s",
+      "answer": "Anna’s tone, if you do not mind me saying, sounded rather dismissive.",
+      "answerZh": "Anna 的語氣，恕我直言，聽起來頗為輕蔑。",
+      "answerZhSource": "pdf",
+      "highlight": "Anna’s tone, if you do not mind me saying, sounded rather dismissive."
+    },
+    {
+      "id": "ss309-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Can I say something directly? Your conclusion does not answer the main question.",
+      "promptZh": "我可以直接說一句嗎？你的結論沒有回答主要問題。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, your conclusion does not answer the main question.",
+      "answerZh": "恕我直言，你的結論沒有回答主要問題。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, your conclusion does not answer the main question."
+    },
+    {
+      "id": "ss309-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I hope you will not mind a personal comment: you look rather tired today.",
+      "promptZh": "希望你不介意一個較私人的意見：你今天看來頗為疲倦。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You look rather tired today, if you do not mind me saying.",
+      "answerZh": "你今天看來頗為疲倦，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "You look rather tired today, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This is only my opinion, but I think the new logo is too complicated.",
+      "promptZh": "這只是我的意見，不過我認為新標誌太複雜。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I think, if you do not mind me saying, the new logo is too complicated.",
+      "answerZh": "我認為，恕我直言，新標誌太複雜。",
+      "answerZhSource": "pdf",
+      "highlight": "I think, if you do not mind me saying, the new logo is too complicated."
+    },
+    {
+      "id": "ss309-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "May I make an observation? The waiting area feels rather crowded.",
+      "promptZh": "我可以提出一項觀察嗎？等候區感覺頗為擠迫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The waiting area, if you do not mind me saying, feels rather crowded.",
+      "answerZh": "等候區，恕我直言，感覺頗為擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "The waiting area, if you do not mind me saying, feels rather crowded."
+    },
+    {
+      "id": "ss309-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I do not want to sound too critical, but the instructions leave out an important step.",
+      "promptZh": "我不想顯得過分挑剔，不過這些指示遺漏了一個重要步驟。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, the instructions leave out an important step.",
+      "answerZh": "恕我直言，這些指示遺漏了一個重要步驟。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, the instructions leave out an important step."
+    },
+    {
+      "id": "ss309-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Please forgive me for saying this, but your email sounds slightly impatient.",
+      "promptZh": "請原諒我這樣說，不過你的電郵語氣聽起來有點不耐煩。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your email sounds slightly impatient, if you do not mind me saying.",
+      "answerZh": "你的電郵語氣聽起來有點不耐煩，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "Your email sounds slightly impatient, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "May I suggest one improvement? You could give the audience more time to ask questions.",
+      "promptZh": "我可以提出一項改善建議嗎？你可以給觀眾更多時間提問。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You could, if you do not mind me saying, give the audience more time to ask questions.",
+      "answerZh": "恕我直言，你可以給觀眾更多時間提問。",
+      "answerZhSource": "pdf",
+      "highlight": "You could, if you do not mind me saying, give the audience more time to ask questions."
+    },
+    {
+      "id": "ss309-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I hope you will allow me to be honest: this proposal needs stronger evidence.",
+      "promptZh": "希望你容許我坦白直言：這份建議書需要更有力的證據。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, this proposal needs stronger evidence.",
+      "answerZh": "恕我直言，這份建議書需要更有力的證據。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, this proposal needs stronger evidence."
+    },
+    {
+      "id": "ss309-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Can I point out one concern? The price seems high for such a basic service.",
+      "promptZh": "我可以指出一項憂慮嗎？以這樣基本的服務而言，這個價錢似乎很高。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The price, if you do not mind me saying, seems high for such a basic service.",
+      "answerZh": "以這樣基本的服務而言，這個價錢，恕我直言，似乎很高。",
+      "answerZhSource": "pdf",
+      "highlight": "The price, if you do not mind me saying, seems high for such a basic service."
+    },
+    {
+      "id": "ss309-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I hope you do not take this personally, but your explanation is still difficult to follow.",
+      "promptZh": "希望你不要把這句話視為針對個人的批評，不過你的解釋仍然很難理解。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your explanation is still difficult to follow, if you do not mind me saying.",
+      "answerZh": "你的解釋仍然很難理解，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "Your explanation is still difficult to follow, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In my opinion, the team needs a more realistic deadline. I hope you will allow me to express that view.",
+      "promptZh": "在我看來，團隊需要一個更切實際的限期。希望你容許我表達這個看法。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In my opinion, if you do not mind me saying, the team needs a more realistic deadline.",
+      "answerZh": "在我看來，恕我直言，團隊需要一個更切實際的限期。",
+      "answerZhSource": "pdf",
+      "highlight": "In my opinion, if you do not mind me saying, the team needs a more realistic deadline."
+    },
+    {
+      "id": "ss309-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "May I speak frankly? The final paragraph repeats the same idea twice.",
+      "promptZh": "我可以坦白直言嗎？最後一段把同一個意思重複了兩次。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, the final paragraph repeats the same idea twice.",
+      "answerZh": "恕我直言，最後一段把同一個意思重複了兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, the final paragraph repeats the same idea twice."
+    },
+    {
+      "id": "ss309-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I do not wish to be negative, but the training programme moves too quickly for beginners.",
+      "promptZh": "我並非想作出負面批評，不過這個培訓課程對初學者來說進度太快。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training programme moves too quickly for beginners, if you do not mind me saying.",
+      "answerZh": "這個培訓課程對初學者來說進度太快，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "The training programme moves too quickly for beginners, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "May I make a careful observation? Our current system creates unnecessary work.",
+      "promptZh": "我可以提出一項審慎的觀察嗎？現行制度製造了不必要的工作。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our current system, if you do not mind me saying, creates unnecessary work.",
+      "answerZh": "現行制度，恕我直言，製造了不必要的工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Our current system, if you do not mind me saying, creates unnecessary work."
+    },
+    {
+      "id": "ss309-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This is only my view, but I think the manager should explain the change more clearly.",
+      "promptZh": "這只是我的看法，不過我認為經理應該更清楚地解釋這項改變。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I think, if you do not mind me saying, the manager should explain the change more clearly.",
+      "answerZh": "我認為，恕我直言，經理應該更清楚地解釋這項改變。",
+      "answerZhSource": "pdf",
+      "highlight": "I think, if you do not mind me saying, the manager should explain the change more clearly."
+    },
+    {
+      "id": "ss309-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I hope you will accept a direct comment: the figures in this table are difficult to compare.",
+      "promptZh": "希望你願意接受一個直接的意見：這個表格中的數字很難比較。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, the figures in this table are difficult to compare.",
+      "answerZh": "恕我直言，這個表格中的數字很難比較。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, the figures in this table are difficult to compare."
+    },
+    {
+      "id": "ss309-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "May I offer a practical suggestion? You might separate the two topics into different sections.",
+      "promptZh": "我可以提出一項實際建議嗎？你可以把兩個主題分成不同部分。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You might, if you do not mind me saying, separate the two topics into different sections.",
+      "answerZh": "恕我直言，你可以把兩個主題分成不同部分。",
+      "answerZhSource": "pdf",
+      "highlight": "You might, if you do not mind me saying, separate the two topics into different sections."
+    },
+    {
+      "id": "ss309-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Please do not misunderstand me, but this advertisement makes a promise the product may not keep.",
+      "promptZh": "請不要誤解我的意思，不過這則廣告作出了一項產品未必能夠兌現的承諾。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This advertisement makes a promise the product may not keep, if you do not mind me saying.",
+      "answerZh": "這則廣告作出了一項產品未必能夠兌現的承諾，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "This advertisement makes a promise the product may not keep, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "May I be honest about the design? The main heading is not easy to notice.",
+      "promptZh": "我可以坦白評論這個設計嗎？主標題並不顯眼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The main heading, if you do not mind me saying, is not easy to notice.",
+      "answerZh": "主標題，恕我直言，並不顯眼。",
+      "answerZhSource": "pdf",
+      "highlight": "The main heading, if you do not mind me saying, is not easy to notice."
+    },
+    {
+      "id": "ss309-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I hope this is not too personal, but Anna’s tone sounded rather dismissive.",
+      "promptZh": "希望這個意見不會過分私人，不過 Anna 的語氣聽起來頗為輕蔑。",
+      "promptZhSource": "pdf",
+      "starter": "Anna’s",
+      "answer": "Anna’s tone, if you do not mind me saying, sounded rather dismissive.",
+      "answerZh": "Anna 的語氣，恕我直言，聽起來頗為輕蔑。",
+      "answerZhSource": "pdf",
+      "highlight": "Anna’s tone, if you do not mind me saying, sounded rather dismissive",
+      "duplicateAnswerOf": "ss309-q18"
+    },
+    {
+      "id": "ss309-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Can I make one frank observation? The schedule gives us almost no time for testing.",
+      "promptZh": "我可以坦白提出一項觀察嗎？這個時間表幾乎沒有給我們留下測試時間。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, the schedule gives us almost no time for testing.",
+      "answerZh": "恕我直言，這個時間表幾乎沒有給我們留下測試時間。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, the schedule gives us almost no time for testing."
+    },
+    {
+      "id": "ss309-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I hope you will not be offended by my opinion, but the decision seems unfair to part-time staff.",
+      "promptZh": "希望我的意見不會令你感到被冒犯，不過這項決定對兼職職員似乎並不公平。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision seems unfair to part-time staff, if you do not mind me saying.",
+      "answerZh": "這項決定對兼職職員似乎並不公平，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision seems unfair to part-time staff, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "This is only my professional opinion, but I think the evidence does not fully support the conclusion.",
+      "promptZh": "這只是我的專業意見，不過我認為證據並未完全支持這項結論。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I think, if you do not mind me saying, the evidence does not fully support the conclusion.",
+      "answerZh": "我認為，恕我直言，證據並未完全支持這項結論。",
+      "answerZhSource": "pdf",
+      "highlight": "I think, if you do not mind me saying, the evidence does not fully support the conclusion."
+    },
+    {
+      "id": "ss309-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "May I point out a possible weakness? The proposed policy may be difficult to enforce.",
+      "promptZh": "我可以指出一項可能的弱點嗎？建議中的政策可能很難執行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposed policy, if you do not mind me saying, may be difficult to enforce.",
+      "answerZh": "建議中的政策，恕我直言，可能很難執行。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposed policy, if you do not mind me saying, may be difficult to enforce."
+    },
+    {
+      "id": "ss309-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I do not want to sound overly critical, but the presentation focuses on detail before explaining the main idea.",
+      "promptZh": "我不想顯得過分挑剔，不過這個簡報在解釋主要概念前便集中討論細節。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, the presentation focuses on detail before explaining the main idea.",
+      "answerZh": "恕我直言，這個簡報在解釋主要概念前便集中討論細節。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, the presentation focuses on detail before explaining the main idea."
+    },
+    {
+      "id": "ss309-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Please allow me to make a sensitive observation: your reply may sound defensive to the customer.",
+      "promptZh": "請容許我提出一項較敏感的觀察：你的回覆在顧客聽來可能帶有防衛意味。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your reply may sound defensive to the customer, if you do not mind me saying.",
+      "answerZh": "你的回覆在顧客聽來可能帶有防衛意味，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "Your reply may sound defensive to the customer, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "May I suggest a different approach? You could acknowledge the complaint before explaining the policy.",
+      "promptZh": "我可以建議另一種處理方式嗎？你可以先確認收到投訴，再解釋相關政策。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You could, if you do not mind me saying, acknowledge the complaint before explaining the policy.",
+      "answerZh": "恕我直言，你可以先確認收到投訴，再解釋相關政策。",
+      "answerZhSource": "pdf",
+      "highlight": "You could, if you do not mind me saying, acknowledge the complaint before explaining the policy."
+    },
+    {
+      "id": "ss309-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I hope you do not consider this disrespectful, but the director’s explanation avoids the central issue.",
+      "promptZh": "希望你不會認為這句話不尊重他人，不過主管的解釋避開了核心問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The director’s explanation, if you do not mind me saying, avoids the central issue.",
+      "answerZh": "主管的解釋，恕我直言，避開了核心問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The director’s explanation, if you do not mind me saying, avoids the central issue."
+    },
+    {
+      "id": "ss309-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In my opinion, the budget gives too little attention to staff training. I hope you will permit me to say that.",
+      "promptZh": "在我看來，這份預算對職員培訓的重視不足。希望你容許我提出這個意見。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In my opinion, if you do not mind me saying, the budget gives too little attention to staff training.",
+      "answerZh": "在我看來，恕我直言，這份預算對職員培訓的重視不足。",
+      "answerZhSource": "pdf",
+      "highlight": "In my opinion, if you do not mind me saying, the budget gives too little attention to staff training."
+    },
+    {
+      "id": "ss309-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "May I be completely honest? The current arrangement benefits one department much more than the others.",
+      "promptZh": "我可以完全坦白地說嗎？目前的安排令其中一個部門獲益遠多於其他部門。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you do not mind me saying, the current arrangement benefits one department much more than the others.",
+      "answerZh": "恕我直言，目前的安排令其中一個部門獲益遠多於其他部門。",
+      "answerZhSource": "pdf",
+      "highlight": "If you do not mind me saying, the current arrangement benefits one department much more than the others."
+    },
+    {
+      "id": "ss309-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I hope you will not take this as a personal criticism, but your proposal assumes that every customer has internet access.",
+      "promptZh": "希望你不要把這句話視為針對個人的批評，不過你的建議書假設了每位顧客都能使用互聯網。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your proposal assumes that every customer has internet access, if you do not mind me saying.",
+      "answerZh": "你的建議書假設了每位顧客都能使用互聯網，恕我直言。",
+      "answerZhSource": "pdf",
+      "highlight": "Your proposal assumes that every customer has internet access, if you do not mind me saying."
+    },
+    {
+      "id": "ss309-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "May I make one final observation? The whole plan needs clearer priorities, firmer deadlines and a more realistic budget.",
+      "promptZh": "我可以提出最後一項觀察嗎？整項計劃需要更清晰的優先次序、更明確的限期和更切實際的預算。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The whole plan, if you do not mind me saying, needs clearer priorities, firmer deadlines and a more realistic budget.",
+      "answerZh": "整項計劃，恕我直言，需要更清晰的優先次序、更明確的限期和更切實際的預算。",
+      "answerZhSource": "pdf",
+      "highlight": "The whole plan, if you do not mind me saying, needs clearer priorities, firmer deadlines and a more realistic budget."
+    }
+  ]
+}

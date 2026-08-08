@@ -1,0 +1,63 @@
+{
+  "version": "1",
+  "system": "proverb",
+  "sourceDirectory": "Downloads",
+  "fileCount": 2,
+  "questionCount": 100,
+  "lessons": [
+    {
+      "id": "proverb-02",
+      "order": 2,
+      "slug": "every-man-has-his-price",
+      "titleEn": "Every Man Has His Price",
+      "titleZh": "人人都有價碼",
+      "sourceFile": "Proverb 2 - 「Every Man Has His Price」 .pdf",
+      "sourceSha256": "633314ed83661b37c02d5ecd4d8cde12237d3fe346d6407a27e975f2e643fbd4",
+      "pageCount": 29,
+      "exerciseHeadingPage": 10,
+      "questionStartPage": 11,
+      "questionEndPage": 21,
+      "answerKeyStartPage": 21,
+      "questionCount": 50,
+      "answerCount": 50,
+      "allAnswersContainTarget": true,
+      "sourceOmissions": [
+        {
+          "section": "Communicative Function · 溝通功能",
+          "reason": "Excluded under the established lesson-format SOP; relevant usage guidance is represented without a separate communicative-function block."
+        },
+        {
+          "section": "The Original Image · 原來的畫面",
+          "reason": "Excluded under the established lesson-format SOP."
+        }
+      ]
+    },
+    {
+      "id": "proverb-03",
+      "order": 3,
+      "slug": "once-bitten-twice-shy",
+      "titleEn": "Once Bitten, Twice Shy",
+      "titleZh": "一朝被蛇咬，十年怕草繩",
+      "sourceFile": "Proverb 3 - 「Once Bitten, Twice Shy」.pdf",
+      "sourceSha256": "509cbe9b11709b169e32f262c228172db7429876554d1bbe6298c392c383a9ad",
+      "pageCount": 35,
+      "exerciseHeadingPage": 16,
+      "questionStartPage": 16,
+      "questionEndPage": 27,
+      "answerKeyStartPage": 27,
+      "questionCount": 50,
+      "answerCount": 50,
+      "allAnswersContainTarget": true,
+      "sourceOmissions": [
+        {
+          "section": "Communicative Function · 溝通功能",
+          "reason": "Excluded under the established lesson-format SOP; relevant usage guidance is represented without a separate communicative-function block."
+        },
+        {
+          "section": "The Original Image · 原來的畫面",
+          "reason": "Excluded under the established lesson-format SOP."
+        }
+      ]
+    }
+  ]
+}

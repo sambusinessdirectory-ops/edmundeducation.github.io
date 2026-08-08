@@ -1,0 +1,1351 @@
+{
+  "lesson": {
+    "id": "idiom-109",
+    "order": 109,
+    "slug": "a-tiger-in-your-tank",
+    "version": "1",
+    "title": "精力充沛／充滿幹勁",
+    "titleEn": "A Tiger In Your Tank",
+    "titleZh": "精力充沛／充滿幹勁",
+    "source": {
+      "file": "Idiom 109 - “A TIGER IN YOUR TANK”.pdf",
+      "pageCount": 35,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "exercisePdfPages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "answerKeyPdfPages": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a tiger in one’s tank",
+        "highlight": "a tiger in one’s tank"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The good news put a tiger in my tank.",
+        "zh": "這個好消息令我精神大振。",
+        "highlight": "a tiger in my tank"
+      }
+    ],
+    "meaning": {
+      "en": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+      "zh": "一股強勁的精力、熱誠、決心或動力，使某人更有幹勁或更有信心地行動。",
+      "naturalZh": [
+        "精力充沛",
+        "充滿幹勁",
+        "充滿活力",
+        "重拾動力",
+        "精神大振",
+        "充滿鬥志"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "everyday conversation; friendly workplace conversation; sports and team situations; interviews; informal articles; personal stories; advertising or lively promotional language.",
+      "summaryZh": "由於這個表達與著名的汽油廣告口號有關，因此有時會帶有幽默、生動或略為懷舊的感覺。",
+      "contextsEn": [
+        "everyday conversation",
+        "friendly workplace conversation",
+        "sports and team situations",
+        "interviews",
+        "informal articles",
+        "personal stories",
+        "advertising or lively promotional language"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "較輕鬆的工作場合對話",
+        "運動及團隊情境",
+        "訪問",
+        "較口語化的文章",
+        "個人故事",
+        "廣告或生動的宣傳語言。"
+      ],
+      "formalEn": "It is usually unsuitable for highly formal academic, legal, medical or official writing. In such contexts, energy, motivation, drive or determination will normally be clearer.",
+      "formalZh": "這個表達通常不適合非常正式的學術、法律、醫療或官方文章。 在這些語境中，使用 energy、 motivation、drive 或 determination 通常更加清晰。"
+    },
+    "fixedVariable": {
+      "fixed": "a tiger in one’s tank",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + put / puts + a tiger in + possessive + tank.",
+          "example": "The good news put a tiger in my tank.",
+          "highlight": "a tiger in my tank"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "“Put” as the Main Verb",
+        "titleZh": "以 put 作主要動詞",
+        "formula": "Subject + put / puts + a tiger in + possessive + tank.",
+        "descriptionEn": "Source grammar frame: Subject + put / puts + a tiger in + possessive + tank.",
+        "descriptionZh": "原檔列出的句法框架：Subject + put / puts + a tiger in + possessive + tank。",
+        "examples": [
+          {
+            "en": "The good news put a tiger in my tank.",
+            "zh": "這個好消息令我精神大振。",
+            "highlight": "a tiger in my tank"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "把較長的解釋濃縮",
+        "en": "The expression packages several related ideas into one memorable image.",
+        "zh": "教練的演說令他們充滿鬥志。 這個表達把活力、熱誠及決心等相關意思集中在一個容易記憶的畫面之中。",
+        "examples": [
+          {
+            "en": "The coach’s speech put a tiger in their tank.",
+            "zh": "教練的演說令他們充滿鬥志。",
+            "highlight": "a tiger in their tank"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Expresses More Than Physical Energy",
+        "titleZh": "不只表示體力",
+        "en": "physical energy; enthusiasm; courage; determination; motivation; willingness to act.",
+        "zh": "這個表達可以表示：",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Creates a Strong Visual Image",
+        "titleZh": "營造強烈的畫面",
+        "en": "A tiger suggests power, movement and confidence. The image therefore makes the idea of renewed energy more vivid.",
+        "zh": "老虎令人聯想到力量、行動及信心，因此這個畫面能令「重拾活力」的意思更加生動。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful in Team Situations",
+        "titleZh": "適合團隊情境",
+        "en": "feels tired; needs encouragement; hears good news; receives praise; prepares for a match; begins an important task.",
+        "zh": "當團隊感到疲倦、需要鼓勵、聽到好消息、受到稱讚、準備比賽或開始重要工作時，這個表達十分實用。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Describe Both a Cause and a State",
+        "titleZh": "可以形容原因或狀態",
+        "en": "Students can therefore use the same core expression in several grammatical structures.",
+        "zh": "音樂令她充滿活力。 她充滿活力。 學生可以把同一個核心表達放入多種不同的句法結構。",
+        "examples": [
+          {
+            "en": "The music put a tiger in her tank.",
+            "zh": "音樂令她充滿活力。",
+            "highlight": "a tiger in her tank"
+          },
+          {
+            "en": "She had a tiger in her tank.",
+            "zh": "她充滿活力。",
+            "highlight": "a tiger in her tank"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Provides a Playful Informal Alternative",
+        "titleZh": "提供生動的口語替代說法",
+        "en": "The idiomatic version is more vivid, but it is not automatically more suitable in every context.",
+        "zh": "這個好消息令他精神大振。 慣用語版本更加生動，但並不代表它在每個語境中都一定更加合適。",
+        "examples": [
+          {
+            "en": "The good news put a tiger in his tank.",
+            "zh": "這個好消息令他精神大振。",
+            "highlight": "a tiger in his tank"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Advertising Origin Well Documented; Exact First Coinage Uncertain",
+      "statusZh": "廣告來源有充分記錄；確切首次創作仍未完全確定",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The expression is closely connected with twentieth-century petrol advertising. ExxonMobil’s official history records that an advertising copywriter in Chicago produced the slogan in 1959. Historical newspaper research has also found a similar “tiger power” image in 1952 and exact or closely related versions used by petrol companies in 1959 and 1960. The safe conclusion is that the advertising origin is clear, although identifying one unquestionable first creator is more difficult.",
+          "zh": "這個表達與二十世紀的汽油廣告有密切關係。 ExxonMobil 的官方歷史記錄指出，一名芝加哥廣告文案撰稿人在1959年創作了相關口號。 歷史報章研究亦找到1952年的相似「老虎力量」意象， 以及石油公司在1959年及1960年使用的相同或相近版本。 因此，可以確定它源自廣告語言，但較難把唯一而確切的首次創作歸於某一個人。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The advertisement originally promised greater engine power. Speakers later applied the same image to people. A person with “a tiger in their tank” was imagined as having an inner supply of power, enthusiasm and determination.",
+          "zh": "這個廣告最初承諾為汽車引擎帶來更強動力。 後來，說話者把相同畫面應用於人物。 當一個人「油缸中有老虎」時，便象徵他內在充滿力量、熱誠及決心。"
+        }
+      ],
+      "memoryEn": "Fuel powers a car; the imaginary tiger powers the person.",
+      "memoryZh": "燃料為汽車提供動力；想像中的老虎則為人物注入幹勁。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Article “A”",
+        "titleZh": "規則一：保留冠詞 a",
+        "en": "The article a is part of the target taught in this exercise.",
+        "zh": "冠詞 a 是本練習目標表達的一部分。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change the Possessive Correctly",
+        "titleZh": "規則二：正確改變所有格",
+        "en": "The possessive refers to the person receiving or possessing the energy.",
+        "zh": "所有格指獲得或擁有這股力量的人。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "“Put” Is Common but Not Fixed",
+        "titleZh": "規則三：put 常見，但並非固定部分",
+        "en": "“Put” Is Common but Not Fixed",
+        "zh": "put 常見，但並非固定部分",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use “Put”, Not “Putted”",
+        "titleZh": "規則四：使用 put，不使用 putted",
+        "en": "Use “Put”, Not “Putted”",
+        "zh": "使用 put，不使用 putted",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Tense and Modality",
+        "titleZh": "規則五：保留時態及情態",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把可能性改成已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve the Correct Person",
+        "titleZh": "規則六：保留正確人物",
+        "en": "The answer must not transfer the energy to another person.",
+        "zh": "答案不可把活力轉移到另一個人物。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Use It Only for Noticeable Energy or Drive",
+        "titleZh": "規則七：只用於明顯的活力或幹勁",
+        "en": "The improvement is too small to justify the expression.",
+        "zh": "如果改變非常輕微，便不適合使用這個表達。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Translate It Literally",
+        "titleZh": "規則八：不要按字面翻譯",
+        "en": "Incorrect answer translation: Natural answer translations:",
+        "zh": "他的油缸裏有一隻老虎。 他充滿幹勁。 (他精神大振。 ) (他重拾活力。 )",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Avoid Literal Vehicle Contexts",
+        "titleZh": "規則九：避免汽車油缸的字面語境",
+        "en": "The child put a toy tiger beside the car’s petrol tank. Every answer in this exercise must use the figurative meaning.",
+        "zh": "孩子把玩具老虎放在汽車油缸旁。 這個令人興奮的消息令他精神大振。 本練習中的所有答案都必須使用比喻意思。",
+        "examples": [
+          {
+            "en": "The exciting news put a tiger in his tank.",
+            "zh": "這個令人興奮的消息令他精神大振。",
+            "highlight": "a tiger in his tank"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Confuse Related Tiger Expressions",
+        "titleZh": "規則十：不要混淆其他 tiger 表達",
+        "en": "a tiger in your tank have a tiger by the tail These expressions are not interchangeable.",
+        "zh": "充滿活力、熱誠或動力陷入一個難以安全退出的困難情況這些表達的意思不同，不能互相取代。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Optional Information Remains Optional",
+        "titleZh": "規則十一：補充資料仍屬可選部分",
+        "en": "Time, cause and method phrases provide extra information. They are not fixed parts of the target.",
+        "zh": "時間、原因及方式短語只提供補充資料，並不是目標表達的固定部分。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則十二：自然使用，不要過度使用",
+        "en": "1. gains noticeable energy; 2. becomes strongly motivated; 3. recovers enthusiasm; 4. becomes ready for action; 5. shows unexpected drive. Ordinary words may be better when the context is formal or when the change is very small.",
+        "zh": "當某人明顯恢復精力、動力、熱誠或行動意欲時，這個表達最為自然。 如果語境正式，或人物的改變十分輕微，使用普通字詞可能更加合適。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a tiger in your tank. Change the possessive and surrounding grammar where necessary.",
+      "zh": "使用 a tiger in your tank 改寫句子或完成回應。 按需要改變所有格及周圍句法。"
+    },
+    "questions": [
+      {
+        "id": "idiom-109-q01",
+        "number": 1,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A short walk gave me fresh energy before work.",
+        "promptZh": "上班前，短暫散步令我精神一振。",
+        "starter": "A",
+        "answer": "A short walk put a tiger in my tank before work.",
+        "answerZh": "上班前，短暫散步令我充滿幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in my tank"
+      },
+      {
+        "id": "idiom-109-q02",
+        "number": 2,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A proper breakfast made Leo energetic before school.",
+        "promptZh": "一頓像樣的早餐令里奧上學前充滿活力。",
+        "starter": "A",
+        "answer": "A proper breakfast put a tiger in Leo’s tank before school.",
+        "answerZh": "一頓像樣的早餐令里奧上學前充滿活力。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in Leo’s tank"
+      },
+      {
+        "id": "idiom-109-q03",
+        "number": 3,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The lively music gave Ruby more energy during the workout.",
+        "promptZh": "輕快的音樂令露比做運動時更有活力。",
+        "starter": "The",
+        "answer": "The lively music put a tiger in Ruby’s tank during the workout.",
+        "answerZh": "輕快的音樂令露比做運動時充滿力量。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in Ruby’s tank"
+      },
+      {
+        "id": "idiom-109-q04",
+        "number": 4,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The coach’s praise made the players feel energetic and ready.",
+        "promptZh": "教練的稱讚令球員精神大振，準備就緒。",
+        "starter": "The",
+        "answer": "The coach’s praise put a tiger in their tank.",
+        "answerZh": "教練的稱讚令他們精神大振。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q05",
+        "number": 5,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "This cup of tea has made me feel much more awake.",
+        "promptZh": "這杯茶令我精神多了。",
+        "starter": "This",
+        "answer": "This cup of tea has put a tiger in my tank.",
+        "answerZh": "這杯茶令我精神大振。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in my tank"
+      },
+      {
+        "id": "idiom-109-q06",
+        "number": 6,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "You seem unusually energetic today.",
+        "promptZh": "你今天看來格外有活力。",
+        "starter": "You",
+        "answer": "You seem to have a tiger in your tank today.",
+        "answerZh": "你今天看來充滿幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in your tank"
+      },
+      {
+        "id": "idiom-109-q07",
+        "number": 7,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "After a good night’s sleep, Noah has plenty of energy.",
+        "promptZh": "諾亞睡了一晚好覺後精力充沛。",
+        "starter": "Noah",
+        "answer": "Noah has a tiger in his tank after a good night’s sleep.",
+        "answerZh": "諾亞睡了一晚好覺後充滿活力。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in his tank"
+      },
+      {
+        "id": "idiom-109-q08",
+        "number": 8,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "After resting, Chloe worked quickly and enthusiastically.",
+        "promptZh": "休息過後，克洛伊工作得又快又投入。",
+        "starter": "With",
+        "answer": "With a tiger in her tank, Chloe worked quickly and enthusiastically.",
+        "answerZh": "克洛伊精神大振，工作得又快又投入。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in her tank"
+      },
+      {
+        "id": "idiom-109-q09",
+        "number": 9,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Our team needs more energy before the match.",
+        "promptZh": "我們的隊伍在比賽前需要更多動力。",
+        "starter": "What",
+        "answer": "What our team needs is a tiger in our tank before the match.",
+        "answerZh": "我們的隊伍在比賽前需要的是一股強勁動力。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in our tank"
+      },
+      {
+        "id": "idiom-109-q10",
+        "number": 10,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The good news will make you feel energetic again.",
+        "promptZh": "這個好消息會令你再次充滿活力。",
+        "starter": "The",
+        "answer": "The good news will put a tiger in your tank.",
+        "answerZh": "這個好消息會令你再次充滿幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in your tank"
+      },
+      {
+        "id": "idiom-109-q11",
+        "number": 11,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The holiday had given Aaron fresh energy when he returned to work.",
+        "promptZh": "假期令亞倫上班時恢復了活力。",
+        "starter": "The",
+        "answer": "The holiday had put a tiger in Aaron’s tank when he returned to work.",
+        "answerZh": "假期令亞倫上班時重新充滿幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in Aaron’s tank"
+      },
+      {
+        "id": "idiom-109-q12",
+        "number": 12,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "That lively song always makes me feel energetic.",
+        "promptZh": "那首輕快的歌曲總令我充滿活力。",
+        "starter": "That",
+        "answer": "That lively song always puts a tiger in my tank.",
+        "answerZh": "那首輕快的歌曲總令我精神大振。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in my tank"
+      },
+      {
+        "id": "idiom-109-q13",
+        "number": 13,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A short rest can give you the energy to continue.",
+        "promptZh": "短暫休息可以給你繼續下去的動力。",
+        "starter": "A",
+        "answer": "A short rest can put a tiger in your tank.",
+        "answerZh": "短暫休息可以令你重新充滿幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in your tank"
+      },
+      {
+        "id": "idiom-109-q14",
+        "number": 14,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The children returned from lunch full of energy.",
+        "promptZh": "孩子們吃過午餐後精神充沛地回來。",
+        "starter": "The",
+        "answer": "The children came back from lunch with a tiger in their tank.",
+        "answerZh": "孩子們吃過午餐後充滿活力地回來。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q15",
+        "number": 15,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "I wish I had more energy this morning.",
+        "promptZh": "我希望今天早上可以更有精神。",
+        "starter": "I",
+        "answer": "I wish I had a tiger in my tank this morning.",
+        "answerZh": "我希望今天早上可以充滿幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in my tank"
+      },
+      {
+        "id": "idiom-109-q16",
+        "number": 16,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Could the team talk make us feel more energetic before the game?",
+        "promptZh": "賽前的團隊談話可以令我們更有鬥志嗎？",
+        "starter": "Could",
+        "answer": "Could the team talk put a tiger in our tank before the game?",
+        "answerZh": "賽前的團隊談話可以令我們充滿鬥志嗎？",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in our tank"
+      },
+      {
+        "id": "idiom-109-q17",
+        "number": 17,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Her new goal seems to have given her fresh motivation.",
+        "promptZh": "她的新目標似乎為她帶來了新的動力。",
+        "starter": "Her",
+        "answer": "Her new goal seems to have put a tiger in her tank.",
+        "answerZh": "她的新目標似乎令她重新充滿幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in her tank"
+      },
+      {
+        "id": "idiom-109-q18",
+        "number": 18,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A difficult challenge gives Ethan more energy than anything else.",
+        "promptZh": "對伊頓來說，困難的挑戰最能激發他的幹勁。",
+        "starter": "Nothing",
+        "answer": "Nothing puts a tiger in Ethan’s tank like a difficult challenge.",
+        "answerZh": "沒有甚麼比困難的挑戰更能激發伊頓的幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in Ethan’s tank"
+      },
+      {
+        "id": "idiom-109-q19",
+        "number": 19,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Start the day with some exercise if you want more energy.",
+        "promptZh": "如果你想更有活力，可以以運動開始一天。",
+        "starter": "To",
+        "answer": "To put a tiger in your tank, start the day with some exercise.",
+        "answerZh": "要令自己充滿活力，可以以運動開始一天。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in your tank"
+      },
+      {
+        "id": "idiom-109-q20",
+        "number": 20,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The students worked with surprising energy after the break.",
+        "promptZh": "休息過後，學生們工作時展現出令人意外的活力。",
+        "starter": "The",
+        "answer": "The students worked as if they had a tiger in their tank.",
+        "answerZh": "學生們工作時彷彿充滿了無窮動力。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q21",
+        "number": 21,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Why are you so energetic this morning? B: I went for a swim before breakfast.",
+        "promptZh": "甲：你今天早上為甚麼這麼有活力？ 乙：我在早餐前游了泳。",
+        "starter": "My",
+        "answer": "My morning swim put a tiger in my tank.",
+        "answerZh": "早上的游泳令我精神大振。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in my tank"
+      },
+      {
+        "id": "idiom-109-q22",
+        "number": 22,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The crowd’s cheers gave Jay fresh energy during the race.",
+        "promptZh": "觀眾的歡呼聲令傑伊在比賽中重新振作。",
+        "starter": "The",
+        "answer": "The crowd’s cheers put a tiger in Jay’s tank during the race.",
+        "answerZh": "觀眾的歡呼聲令傑伊在比賽中重新充滿力量。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in Jay’s tank"
+      },
+      {
+        "id": "idiom-109-q23",
+        "number": 23,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Ella did not feel ready to dance until the music began.",
+        "promptZh": "音樂響起前，艾拉一直未準備好跳舞。",
+        "starter": "Once",
+        "answer": "Once the music began, Ella had a tiger in her tank.",
+        "answerZh": "音樂一響起，艾拉便充滿活力。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in her tank"
+      },
+      {
+        "id": "idiom-109-q24",
+        "number": 24,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The break gave us enough energy to return to the job.",
+        "promptZh": "休息令我們有足夠精神重新投入工作。",
+        "starter": "After",
+        "answer": "After the break, we returned to the job with a tiger in our tank.",
+        "answerZh": "休息過後，我們充滿幹勁地重新投入工作。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in our tank"
+      },
+      {
+        "id": "idiom-109-q25",
+        "number": 25,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: I have no energy for the afternoon lesson. B: You need something that will make you feel lively again.",
+        "promptZh": "甲：我沒有精神應付下午的課堂。 乙：你需要一些令自己重新振作的東西。",
+        "starter": "What",
+        "answer": "What you need is a tiger in your tank.",
+        "answerZh": "你需要的是一股令自己重新振作的力量。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in your tank"
+      },
+      {
+        "id": "idiom-109-q26",
+        "number": 26,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The players were tired, but the captain’s talk made them eager to compete.",
+        "promptZh": "球員都很疲倦，但隊長的談話令他們重拾比賽鬥志。",
+        "starter": "The",
+        "answer": "The captain managed to put a tiger in their tank before the final.",
+        "answerZh": "隊長在決賽前成功令他們重拾鬥志。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q27",
+        "number": 27,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: I feel too tired to finish the afternoon shift. B: A proper lunch should give you more energy.",
+        "promptZh": "甲：我太累了，恐怕不能完成下午的工作。 乙：一頓像樣的午餐應該可以令你更有精神。",
+        "starter": "A",
+        "answer": "A proper lunch should put a tiger in your tank.",
+        "answerZh": "一頓像樣的午餐應該可以令你重新充滿活力。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in your tank"
+      },
+      {
+        "id": "idiom-109-q28",
+        "number": 28,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The teacher’s praise seems to have made Oliver much more eager to learn.",
+        "promptZh": "老師的稱讚似乎令奧利弗更積極學習。",
+        "starter": "The",
+        "answer": "The teacher’s praise seems to have put a tiger in Oliver’s tank.",
+        "answerZh": "老師的稱讚似乎令奧利弗充滿學習動力。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in Oliver’s tank"
+      },
+      {
+        "id": "idiom-109-q29",
+        "number": 29,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: What keeps you so enthusiastic about your job? B: I enjoy working with children.",
+        "promptZh": "甲：甚麼令你一直對工作如此有熱誠？ 乙：我喜歡和孩子一起工作。",
+        "starter": "Working",
+        "answer": "Working with children puts a tiger in my tank.",
+        "answerZh": "和孩子一起工作令我充滿幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in my tank"
+      },
+      {
+        "id": "idiom-109-q30",
+        "number": 30,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "After hearing the news, the team came onto the court full of energy.",
+        "promptZh": "聽到消息後，球隊充滿活力地走進球場。",
+        "starter": "The",
+        "answer": "The team came onto the court with a tiger in their tank.",
+        "answerZh": "球隊充滿鬥志地走進球場。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q31",
+        "number": 31,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Although I had slept badly, the exciting news made me energetic.",
+        "promptZh": "雖然我睡得不好，但這個令人興奮的消息令我精神大振。",
+        "starter": "Although",
+        "answer": "Although I had slept badly, the exciting news put a tiger in my tank.",
+        "answerZh": "雖然我睡得不好，但這個令人興奮的消息令我精神大振。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in my tank"
+      },
+      {
+        "id": "idiom-109-q32",
+        "number": 32,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "If anything can give our group fresh energy, it is seeing our hard work succeed.",
+        "promptZh": "如果有任何事情能令我們的小組振作，那就是看到努力取得成果。",
+        "starter": "If",
+        "answer": "If anything can put a tiger in our tank, it is seeing our hard work succeed.",
+        "answerZh": "最能令我們振作的，就是看到努力取得成果。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in our tank"
+      },
+      {
+        "id": "idiom-109-q33",
+        "number": 33,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "After the warm-up gave Chloe fresh energy, she led the group confidently.",
+        "promptZh": "熱身令克洛伊精神大振後，她自信地帶領小組。",
+        "starter": "With",
+        "answer": "With a tiger in her tank after the warm-up, Chloe led the group confidently.",
+        "answerZh": "熱身過後，克洛伊充滿幹勁，自信地帶領小組。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in her tank"
+      },
+      {
+        "id": "idiom-109-q34",
+        "number": 34,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The manager hoped the new plan would make the staff more energetic.",
+        "promptZh": "經理希望新計劃能令員工更有活力。",
+        "starter": "The",
+        "answer": "The manager hoped the new plan would put a tiger in their tank.",
+        "answerZh": "經理希望新計劃能令員工充滿幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q35",
+        "number": 35,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "By the second half, the players looked far more energetic.",
+        "promptZh": "到了下半場，球員看來精神得多。",
+        "starter": "By",
+        "answer": "By the second half, the players seemed to have a tiger in their tank.",
+        "answerZh": "到了下半場，球員看來充滿了活力。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q36",
+        "number": 36,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The chance to lead the project was what gave Ryan so much energy.",
+        "promptZh": "領導項目的機會正是令賴恩充滿幹勁的原因。",
+        "starter": "What",
+        "answer": "What put a tiger in Ryan’s tank was the chance to lead the project.",
+        "answerZh": "令賴恩充滿幹勁的，是領導項目的機會。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in Ryan’s tank"
+      },
+      {
+        "id": "idiom-109-q37",
+        "number": 37,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Her speech gave us more energy than any other speech could have done.",
+        "promptZh": "她的演說比任何其他演說都更能令我們振作。",
+        "starter": "No",
+        "answer": "No other speech could have put a tiger in our tank so effectively.",
+        "answerZh": "沒有其他演說能如此有效地令我們振作。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in our tank"
+      },
+      {
+        "id": "idiom-109-q38",
+        "number": 38,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Even without much sleep, Felix arrived full of energy.",
+        "promptZh": "即使睡眠不足，費利克斯到達時仍然充滿活力。",
+        "starter": "Even",
+        "answer": "Even without much sleep, Felix arrived with a tiger in his tank.",
+        "answerZh": "即使睡眠不足，費利克斯到達時仍然充滿活力。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in his tank"
+      },
+      {
+        "id": "idiom-109-q39",
+        "number": 39,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The new volunteers need much more energy if they are going to finish the work today.",
+        "promptZh": "如果新義工今天要完成工作，他們便需要更多動力。",
+        "starter": "The",
+        "answer": "The new volunteers need a tiger in their tank if they are going to finish the work today.",
+        "answerZh": "如果新義工今天要完成工作，他們便需要充足幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q40",
+        "number": 40,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "This good news should make you energetic; nothing else will if it does not.",
+        "promptZh": "這個好消息應該能令你振作；如果連它也不能，便沒有其他事情可以了。",
+        "starter": "If",
+        "answer": "If the good news does not put a tiger in your tank, nothing will.",
+        "answerZh": "如果這個好消息也不能令你振作，便沒有其他事情可以了。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in your tank"
+      },
+      {
+        "id": "idiom-109-q41",
+        "number": 41,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The moment the crowd began singing, the runners suddenly found fresh energy.",
+        "promptZh": "觀眾一開始唱歌，跑手便突然重拾力量。",
+        "starter": "The",
+        "answer": "The moment the crowd began singing, the runners had a tiger in their tank.",
+        "answerZh": "觀眾一開始唱歌，跑手便突然充滿力量。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q42",
+        "number": 42,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Having extra energy helps when a long day of work still lies ahead.",
+        "promptZh": "前面仍有漫長的工作日子時，擁有額外動力十分有用。",
+        "starter": "Having",
+        "answer": "Having a tiger in your tank helps when a long day of work still lies ahead.",
+        "answerZh": "前面仍有漫長的工作日子時，充滿幹勁會很有幫助。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in your tank"
+      },
+      {
+        "id": "idiom-109-q43",
+        "number": 43,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "It was the children’s excitement that made Ms Ho energetic again.",
+        "promptZh": "正是孩子們的興奮情緒令何女士重新振作。",
+        "starter": "It",
+        "answer": "It was the children’s excitement that put a tiger in Ms Ho’s tank.",
+        "answerZh": "正是孩子們的興奮情緒令何女士重新充滿活力。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in Ms Ho’s tank"
+      },
+      {
+        "id": "idiom-109-q44",
+        "number": 44,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Seeing the first customers arrive was what finally gave us the energy to continue.",
+        "promptZh": "看見第一批顧客到來，終於給了我們繼續下去的動力。",
+        "starter": "What",
+        "answer": "What finally put a tiger in our tank was seeing the first customers arrive.",
+        "answerZh": "最終令我們振作的，是看見第一批顧客到來。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in our tank"
+      },
+      {
+        "id": "idiom-109-q45",
+        "number": 45,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The dancers did not feel fully energetic until the final practice.",
+        "promptZh": "舞蹈員到了最後一次練習才感到精力充沛。",
+        "starter": "Not",
+        "answer": "Not until the final practice did the dancers feel that they had a tiger in their tank.",
+        "answerZh": "舞蹈員到了最後一次練習才感到充滿活力。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q46",
+        "number": 46,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The team did not win, but they began the match with great energy.",
+        "promptZh": "球隊沒有勝出，但他們在比賽開始時充滿鬥志。",
+        "starter": "The",
+        "answer": "The team did not win, but they began the match with a tiger in their tank.",
+        "answerZh": "球隊沒有勝出，但他們在比賽開始時充滿鬥志。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q47",
+        "number": 47,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The coach’s message failed to energise the players, so they began slowly.",
+        "promptZh": "教練的訊息未能令球員振作，因此他們開局緩慢。",
+        "starter": "Had",
+        "answer": "Had the coach’s message put a tiger in their tank, the players would not have begun so slowly.",
+        "answerZh": "如果教練的訊息能令球員振作，他們便不會開局如此緩慢。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in their tank"
+      },
+      {
+        "id": "idiom-109-q48",
+        "number": 48,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Perhaps a few encouraging words would be enough to give you fresh energy.",
+        "promptZh": "也許幾句鼓勵的話便足以令你重新振作。",
+        "starter": "A",
+        "answer": "A few encouraging words might be enough to put a tiger in your tank.",
+        "answerZh": "幾句鼓勵的話或許便足以令你重新振作。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in your tank"
+      },
+      {
+        "id": "idiom-109-q49",
+        "number": 49,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "For the first time all week, I felt full of energy and ready to work.",
+        "promptZh": "這星期以來，我第一次感到精力充沛，準備工作。",
+        "starter": "For",
+        "answer": "For the first time all week, I felt as though I had a tiger in my tank.",
+        "answerZh": "這星期以來，我第一次感到充滿幹勁。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in my tank"
+      },
+      {
+        "id": "idiom-109-q50",
+        "number": 50,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "No one knew what had given Elena so much energy, but it kept her moving through the long shift.",
+        "promptZh": "沒有人知道甚麼令埃琳娜如此有活力，但那股力量令她捱過了漫長的工作時段。",
+        "starter": "Whatever",
+        "answer": "Whatever had put a tiger in Elena’s tank kept her moving through the long shift.",
+        "answerZh": "不論是甚麼令埃琳娜充滿活力，那股力量都令她捱過了漫長的工作時段。",
+        "targetForm": "a tiger in one’s tank",
+        "targetMeaning": "A strong supply of energy, enthusiasm, determination or motivation that helps somebody act with greater force or confidence.",
+        "highlight": "a tiger in Elena’s tank"
+      }
+    ]
+  }
+}

@@ -16,7 +16,7 @@ const SESSION_KEY = "edmund-proverb-system-session-v1";
 const PROGRESS_PANEL_PREFERENCE_KEY = "edmund-proverb-system-progress-panel-v1";
 const CUMULATIVE_PROGRESS_PREFERENCE_KEY = "edmund-proverb-system-cumulative-progress-v1";
 const SECTION_BOOKMARK_ID = "__section__";
-const MAX_BOOKMARKS = 6000;
+const MAX_BOOKMARKS = 153;
 const LESSON_PAGES = 8;
 const EXERCISE_PAGE = 8;
 const ATTEMPT_PAGE_SIZE = 100;
@@ -237,7 +237,13 @@ function lessonIllustration(lesson) {
     height: Number.isInteger(height) && height > 0 ? height : 1024,
     alt: String(illustration.alt || illustration.altEn || lesson?.imageAlt || ""),
     captionZh: String(illustration.captionZh || lesson?.imageCaptionZh || ""),
-    captionEn: String(illustration.captionEn || illustration.caption || lesson?.imageCaptionEn || "")
+    captionEn: String(
+      illustration.captionEn
+      || illustration.caption
+      || lesson?.imageCaptionEn
+      || lesson?.imageCaption
+      || ""
+    )
   };
 }
 

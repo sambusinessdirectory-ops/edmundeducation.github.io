@@ -1,0 +1,1633 @@
+{
+  "lesson": {
+    "id": "idiom-105",
+    "order": 105,
+    "slug": "a-running-battle",
+    "version": "1",
+    "title": "持續的爭執／長期爭論不休",
+    "titleEn": "a running battle",
+    "titleZh": "持續的爭執／長期爭論不休",
+    "source": {
+      "file": "Idiom 105 - “A Running Battle”.pdf",
+      "pageCount": 36,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "exercisePdfPages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "answerKeyPdfPages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a running battle",
+        "highlight": "a running battle"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Chloe has a running battle with her parents over bedtime.",
+        "zh": "克洛伊一直與父母就睡覺時間爭論不休。",
+        "highlight": "a running battle"
+      },
+      {
+        "en": "They have had a running battle for several months.",
+        "zh": "他們已持續爭執了數個月。",
+        "highlight": "a running battle"
+      }
+    ],
+    "meaning": {
+      "en": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+      "zh": "一場持續一段長時間、在不同場合反覆出現的爭執或衝突；持續爭論不休。",
+      "naturalZh": [
+        "持續的爭執",
+        "長期爭論不休",
+        "反覆發生的衝突",
+        "長期爭拗",
+        "一直爭持不下"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "The expression is neutral and is common in conversation, journalism, reports and general writing. It usually carries a negative tone because the repeated disagreement has not been settled.",
+      "summaryZh": "這個表達屬於中性語域，常見於日常對話、新聞報道、報告及一般文章。 由於雙方的爭執一直未能解決，它通常帶有負面語氣。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "a running battle",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + have / has / had + a running battle.",
+          "example": "Chloe has a running battle with her parents over bedtime.",
+          "highlight": "a running battle"
+        },
+        {
+          "form": "Subject + be + having + a running battle.",
+          "example": "The parents are having a running battle with the school.",
+          "highlight": "a running battle"
+        },
+        {
+          "form": "Subject + be + in + a running battle.",
+          "example": "Hannah is in a running battle with her brother.",
+          "highlight": "a running battle"
+        },
+        {
+          "form": "Subject + fight / fights / fought + a running battle.",
+          "example": "The shop owner is fighting a running battle with the landlord.",
+          "highlight": "a running battle"
+        },
+        {
+          "form": "Subject + be + engaged in + a running battle.",
+          "example": "The newspaper has been engaged in a running battle with the council.",
+          "highlight": "a running battle"
+        },
+        {
+          "form": "There + be + a running battle + between A and B.",
+          "example": "There is a running battle between the residents and the bus company.",
+          "highlight": "a running battle"
+        },
+        {
+          "form": "A running battle + verb.",
+          "example": "A running battle has developed between the two shops.",
+          "highlight": "A running battle"
+        },
+        {
+          "form": "Issue + become + a running battle.",
+          "example": "The fence problem has become a running battle.",
+          "highlight": "a running battle"
+        },
+        {
+          "form": "Subject + start / create / cause / trigger + a running battle.",
+          "example": "The new rule started a running battle between pupils and teachers.",
+          "highlight": "a running battle"
+        },
+        {
+          "form": "Subject + face + a running battle.",
+          "example": "The café may face a running battle with residents.",
+          "highlight": "a running battle"
+        },
+        {
+          "form": "Subject + find oneself + in + a running battle.",
+          "example": "Selina found herself in a running battle with the company.",
+          "highlight": "a running battle"
+        },
+        {
+          "form": "Event + be + one stage in + a running battle.",
+          "example": "The latest complaint is one stage in a running battle with the airline.",
+          "highlight": "a running battle"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "“Have”",
+        "titleZh": "句式一：have",
+        "formula": "Subject + have / has / had + a running battle.",
+        "descriptionEn": "Source grammar frame: Subject + have / has / had + a running battle.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have / has / had + a running battle。",
+        "examples": [
+          {
+            "en": "Chloe has a running battle with her parents over bedtime.",
+            "zh": "克洛伊一直與父母就睡覺時間爭論不休。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "They have had a running battle for several months.",
+            "zh": "他們已持續爭執了數個月。",
+            "highlight": "a running battle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Continuous Form",
+        "titleZh": "句式二：進行式",
+        "formula": "Subject + be + having + a running battle.",
+        "descriptionEn": "The continuous form emphasises that the repeated disagreement is currently continuing.",
+        "descriptionZh": "進行式強調這場反覆爭執目前仍在持續。",
+        "examples": [
+          {
+            "en": "The parents are having a running battle with the school.",
+            "zh": "家長正與學校持續爭論不下。",
+            "highlight": "a running battle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "“Be in”",
+        "titleZh": "句式三：be in",
+        "formula": "Subject + be + in + a running battle.",
+        "descriptionEn": "Source grammar frame: Subject + be + in + a running battle.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + in + a running battle。",
+        "examples": [
+          {
+            "en": "Hannah is in a running battle with her brother.",
+            "zh": "漢娜正與弟弟持續爭執。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "The tenants have been in a running battle with the building manager.",
+            "zh": "租戶一直與大廈經理爭論不休。",
+            "highlight": "a running battle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "“Fight”",
+        "titleZh": "句式四：fight",
+        "formula": "Subject + fight / fights / fought + a running battle.",
+        "descriptionEn": "fight is the verb in the grammar shell. It is not part of the fixed target expression.",
+        "descriptionZh": "fight 是句法框架中的動詞，並不屬於固定目標表達。",
+        "examples": [
+          {
+            "en": "The shop owner is fighting a running battle with the landlord.",
+            "zh": "店主一直與業主爭持不下。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "The two clubs fought a running battle over the hall.",
+            "zh": "兩個學會曾就禮堂問題持續爭論。",
+            "highlight": "a running battle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "“Be Engaged or Locked In”",
+        "titleZh": "句式五：be engaged / locked in",
+        "formula": "Subject + be + engaged in + a running battle.",
+        "descriptionEn": "Source grammar frame: Subject + be + engaged in + a running battle.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + engaged in + a running battle。",
+        "examples": [
+          {
+            "en": "The newspaper has been engaged in a running battle with the council.",
+            "zh": "報社一直與議會持續爭論。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "The tenants are locked in a running battle with the manager.",
+            "zh": "租戶與經理的長期爭執仍然持續。",
+            "highlight": "a running battle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“There Is”",
+        "titleZh": "句式六：there is",
+        "formula": "There + be + a running battle + between A and B.",
+        "descriptionEn": "Source grammar frame: There + be + a running battle + between A and B.",
+        "descriptionZh": "原檔列出的句法框架：There + be + a running battle + between A and B。",
+        "examples": [
+          {
+            "en": "There is a running battle between the residents and the bus company.",
+            "zh": "居民與巴士公司之間一直爭執不下。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "There has been a running battle between the two sides for months.",
+            "zh": "雙方已持續爭執了數個月。",
+            "highlight": "a running battle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "The Expression as the Subject",
+        "titleZh": "句式七：目標表達作主語",
+        "formula": "A running battle + verb.",
+        "descriptionEn": "Source grammar frame: A running battle + verb.",
+        "descriptionZh": "原檔列出的句法框架：A running battle + verb。",
+        "examples": [
+          {
+            "en": "A running battle has developed between the two shops.",
+            "zh": "兩間店舖之間逐漸形成了一場持續爭執。",
+            "highlight": "A running battle"
+          },
+          {
+            "en": "A running battle continues over the use of the hall.",
+            "zh": "有關禮堂使用權的爭執仍然持續。",
+            "highlight": "A running battle"
+          },
+          {
+            "en": "A running battle may soon begin.",
+            "zh": "一場持續爭執可能很快便會開始。",
+            "highlight": "A running battle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "“Become”, “Grow Into” or “Turn Into”",
+        "titleZh": "句式八",
+        "formula": "Issue + become + a running battle.",
+        "descriptionEn": "Source grammar frame: Issue + become + a running battle.",
+        "descriptionZh": "原檔列出的句法框架：Issue + become + a running battle。",
+        "examples": [
+          {
+            "en": "The fence problem has become a running battle.",
+            "zh": "圍欄問題已演變成一場持續爭執。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "One complaint grew into a running battle.",
+            "zh": "一宗投訴逐漸演變成長期爭拗。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "A small argument turned into a running battle.",
+            "zh": "一場小爭論演變成持續衝突。",
+            "highlight": "a running battle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Starting or Causing the Conflict",
+        "titleZh": "句式九：開始或引起爭執",
+        "formula": "Subject + start / create / cause / trigger + a running battle.",
+        "descriptionEn": "Source grammar frame: Subject + start / create / cause / trigger + a running battle.",
+        "descriptionZh": "原檔列出的句法框架：Subject + start / create / cause / trigger + a running battle。",
+        "examples": [
+          {
+            "en": "The new rule started a running battle between pupils and teachers.",
+            "zh": "新規則引起了學生與老師之間的持續爭執。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "Changing the timetable may create a running battle with parents.",
+            "zh": "更改時間表可能會引起與家長之間的長期爭議。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "Another price rise could trigger a running battle with customers.",
+            "zh": "再次加價可能會引起與顧客之間的持續爭拗。",
+            "highlight": "a running battle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Facing, Avoiding or Ending It",
+        "titleZh": "句式十：面對、避免或結束爭執",
+        "formula": "Subject + face + a running battle.",
+        "descriptionEn": "Source grammar frame: Subject + face + a running battle.",
+        "descriptionZh": "原檔列出的句法框架：Subject + face + a running battle。",
+        "examples": [
+          {
+            "en": "The café may face a running battle with residents.",
+            "zh": "咖啡店可能會面對與居民之間的持續爭議。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "The captain wants to avoid a running battle with the referee.",
+            "zh": "隊長希望避免與球證長期爭執。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "The teacher tried to end a running battle between the pupils.",
+            "zh": "老師嘗試結束兩名學生之間的持續爭執。",
+            "highlight": "a running battle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Finding Oneself in the Conflict",
+        "titleZh": "句式十一：發現自己陷入爭執",
+        "formula": "Subject + find oneself + in + a running battle.",
+        "descriptionEn": "Source grammar frame: Subject + find oneself + in + a running battle.",
+        "descriptionZh": "原檔列出的句法框架：Subject + find oneself + in + a running battle。",
+        "examples": [
+          {
+            "en": "Selina found herself in a running battle with the company.",
+            "zh": "塞琳娜發現自己陷入與公司的長期爭拗。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "Daniel could find himself in a running battle with the coach.",
+            "zh": "丹尼爾可能會發現自己與教練長期爭執不下。",
+            "highlight": "a running battle"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "One Stage in a Continuing Conflict",
+        "titleZh": "句式十二：持續衝突中的一個階段",
+        "formula": "Event + be + one stage in + a running battle.",
+        "descriptionEn": "Optional Extensions",
+        "descriptionZh": "Optional Extensions 可選延伸部分 “With + Opposing Side”",
+        "examples": [
+          {
+            "en": "The latest complaint is one stage in a running battle with the airline.",
+            "zh": "最新的投訴只是與航空公司長期爭拗中的一個階段。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "The new message became another stage in a running battle between the clubs.",
+            "zh": "新訊息成為兩個學會持續爭執中的另一個階段。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "She has a running battle with her neighbour.",
+            "zh": "她一直與鄰居爭執不下。",
+            "highlight": "a running battle"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Combines Several Arguments into One Idea",
+        "titleZh": "把多次爭執概括為一個概念",
+        "en": "The neighbours have had a running battle over the fence.",
+        "zh": "慣用語可以把多次在不同時間發生的爭執，概括為一場持續衝突。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Emphasises Duration and Repetition",
+        "titleZh": "強調時間及反覆性",
+        "en": "The expression does not merely say that two sides disagree. It shows that the disagreement repeatedly returns and remains unresolved.",
+        "zh": "這個表達不只是說明雙方意見不同，還指出爭議反覆出現，而且一直沒有解決。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Identify the Sides and the Issue Clearly",
+        "titleZh": "清楚指出雙方及爭議事項",
+        "en": "Who is involved? What are they arguing about? How long has it continued?",
+        "zh": "句子可以簡潔交代：",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful in Reports and Narratives",
+        "titleZh": "適合報道及敘事",
+        "en": "Journalists and writers can use the expression when explaining the history behind the latest complaint, decision or public argument.",
+        "zh": "記者及作者可以使用這個表達，交代最新投訴、決定或公開爭議背後的長期背景。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Express Frustration or Gentle Humour",
+        "titleZh": "可以表達不滿或輕微幽默",
+        "en": "The second example makes a small family disagreement sound playfully dramatic.",
+        "zh": "租戶一直與業主就安全問題爭持不下。 瑞安一直與妹妹爭奪最後一塊餅乾。 第二個例子以略帶誇張和幽默的方式描述家庭中的小爭執。",
+        "examples": [
+          {
+            "en": "The tenants have had a running battle with the landlord over safety.",
+            "zh": "租戶一直與業主就安全問題爭持不下。",
+            "highlight": "a running battle"
+          },
+          {
+            "en": "Ryan has a running battle with his sister over the last biscuit.",
+            "zh": "瑞安一直與妹妹爭奪最後一塊餅乾。",
+            "highlight": "a running battle"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is More Precise than “They Keep Arguing”",
+        "titleZh": "比 they keep arguing 更準確",
+        "en": "A running battle suggests one continuing conflict that appears repeatedly.",
+        "zh": "不一定表示每次爭吵都涉及同一個未解決的問題； a running battle 則帶出同一場衝突反覆出現的意思。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact Figurative Origin Uncertain",
+      "statusZh": "逐漸形成；確切比喻來源不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The adjective running can mean lasting a long time or continuing without stopping. Oxford and Merriam-Webster both use a running battle as an example of this continuous meaning. The physical idea of a battle moving from place to place therefore developed naturally into the figurative idea of one disagreement returning on different occasions.",
+          "zh": "形容詞 running 可以表示「長時間持續」或「接連不斷」。 因此，一場在不同地點持續發生的戰鬥， 逐漸成為一個比喻，用來形容在不同場合反覆出現的同一場爭執。"
+        }
+      ],
+      "memoryEn": "The disagreement keeps moving from one occasion to the next, so it becomes a running battle.",
+      "memoryZh": "爭執從一個場合延續到下一個場合，因此成為一場持續不斷的 running battle。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “Running Battle” Together",
+        "titleZh": "規則一：running battle 必須連用",
+        "en": "Keep “Running Battle” Together",
+        "zh": "running battle 必須連用",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Omit the Article",
+        "titleZh": "規則二：不可漏去冠詞",
+        "en": "Do Not Omit the Article",
+        "zh": "不可漏去冠詞",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "“Have” Is Not Fixed",
+        "titleZh": "規則三：have 並非固定部分",
+        "en": "Do not teach have a running battle as though it were the only complete structure.",
+        "zh": "不要把 have a running battle 當成唯一完整句式。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use “With” for One Opposing Side",
+        "titleZh": "規則四：使用 with 指出另一方",
+        "en": "Use “With” for One Opposing Side",
+        "zh": "使用 with 指出另一方",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Use “Between” to Name Both Sides",
+        "titleZh": "規則五：使用 between 同時指出雙方",
+        "en": "Use “Between” to Name Both Sides",
+        "zh": "使用 between 同時指出雙方",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Use “Over” or “About” for the Issue",
+        "titleZh": "規則六：使用 over 或 about 指出爭議事項",
+        "en": "The preposition for normally introduces duration, not the disputed issue.",
+        "zh": "for 通常用來交代持續時間，而不是爭議事項。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "One Argument Is Not Enough",
+        "titleZh": "規則七：一次爭吵並不足夠",
+        "en": "The two pupils have argued about the book several times this month.",
+        "zh": "這表示爭執已在不同時間反覆出現。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "The Same Main Conflict Must Continue",
+        "titleZh": "規則八：必須是同一場主要衝突持續出現",
+        "en": "The separate arguments should normally concern the same central problem. If two people argue once about dinner and later argue about an unrelated film, those events do not necessarily form a running battle.",
+        "zh": "不同場合發生的爭執，通常必須圍繞同一個核心問題。 如果兩人先為晚餐爭吵，後來又為一齣毫不相關的電影爭吵，兩件事未必構成同一場 running battle。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "“Running” Does Not Mean Physical Running Here",
+        "titleZh": "規則九：running 在此不表示奔跑",
+        "en": "The groups fought while moving through several streets.",
+        "zh": "他們一直就泊車問題爭執不下。 各群體一邊移動，一邊在數條街道上打鬥。",
+        "examples": [
+          {
+            "en": "They have a running battle over parking.",
+            "zh": "他們一直就泊車問題爭執不下。",
+            "highlight": "a running battle"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Preserve Time and Certainty",
+        "titleZh": "規則十：保留時間及確定程度",
+        "en": "Do not change may face into have had. This would turn a future possibility into an existing past conflict.",
+        "zh": "不要把 may face 改成 have had，否則會把未來可能發生的事情變成已經存在的衝突。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Exaggerate a Mild Difference",
+        "titleZh": "規則十一：不要誇大輕微分歧",
+        "en": "A running battle requires repeated and noticeable disagreement, not merely different preferences.",
+        "zh": "必須涉及反覆而明顯的爭執，而不只是喜好不同。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Avoid Unnecessary Violence",
+        "titleZh": "規則十二：避免不必要的暴力語境",
+        "en": "Although battle creates a strong image, the figurative expression does not mean that people are physically fighting.",
+        "zh": "雖然 battle 帶有強烈意象，但這個比喻表達並不表示雙方真的動武。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a running battle.",
+      "zh": "使用 a running battle 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-105-q01",
+        "number": 1,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Oliver and his neighbour have argued many times about the noisy gate during the past three months.",
+        "promptZh": "過去三個月，奧利弗與鄰居多次就嘈吵的閘門發生爭執。",
+        "starter": "Oliver",
+        "answer": "Oliver has had a running battle with his neighbour over the noisy gate for three months.",
+        "answerZh": "奧利弗三個月來一直與鄰居就嘈吵的閘門爭執不下。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q02",
+        "number": 2,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Since the term began, the parents and the school have repeatedly disagreed about the new pick-up time.",
+        "promptZh": "自學期開始以來，家長與學校一直反覆爭論新的接送時間。",
+        "starter": "The",
+        "answer": "The parents have been having a running battle with the school over the new pick-up time since the term began.",
+        "answerZh": "自學期開始以來，家長一直與學校就新的接送時間爭論不休。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q03",
+        "number": 3,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Hannah and her brother argue again and again about whose turn it is to wash the dishes.",
+        "promptZh": "漢娜與弟弟不斷爭論輪到誰洗碗。",
+        "starter": "Hannah",
+        "answer": "Hannah is in a running battle with her brother about whose turn it is to wash the dishes.",
+        "answerZh": "漢娜一直與弟弟爭論輪到誰洗碗。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q04",
+        "number": 4,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The shop owner has complained to the landlord about the broken sign on many occasions. It still has not been repaired.",
+        "promptZh": "店主已多次向業主投訴損壞的招牌，但招牌仍未修理。",
+        "starter": "The",
+        "answer": "The shop owner is fighting a running battle with the landlord over the broken sign.",
+        "answerZh": "店主一直與業主就損壞的招牌爭持不下。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q05",
+        "number": 5,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The two clubs have argued about the use of the sports hall on several different occasions.",
+        "promptZh": "兩個學會曾在多個不同場合爭論體育館的使用問題。",
+        "starter": "A",
+        "answer": "A running battle has continued between the two clubs over the use of the sports hall.",
+        "answerZh": "兩個學會就體育館使用問題的持續爭議一直沒有停止。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "A running battle"
+      },
+      {
+        "id": "idiom-105-q06",
+        "number": 6,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The residents and the bus company have argued for months about noise from late-night buses.",
+        "promptZh": "居民與巴士公司已就深夜巴士的噪音爭執了數個月。",
+        "starter": "There",
+        "answer": "There has been a running battle between the residents and the bus company over late-night noise for months.",
+        "answerZh": "居民與巴士公司已就深夜噪音爭執了數個月。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q07",
+        "number": 7,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The neighbours first disagreed about the fence. They now argue about it almost every week.",
+        "promptZh": "鄰居最初只是對圍欄問題意見不合，現在幾乎每星期都會為此爭吵。",
+        "starter": "The",
+        "answer": "The fence problem has become a running battle between the two neighbours.",
+        "answerZh": "圍欄問題已演變成兩名鄰居之間的持續爭執。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q08",
+        "number": 8,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The manager and the workers have disagreed about weekend shifts at several meetings.",
+        "promptZh": "經理與員工已在數次會議中爭論週末輪班安排。",
+        "starter": "The",
+        "answer": "The manager and the workers are having a running battle over weekend shifts.",
+        "answerZh": "經理與員工正就週末輪班安排爭論不休。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q09",
+        "number": 9,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The two teams keep arguing about the match rules before and after their games.",
+        "promptZh": "兩支隊伍在比賽前後不斷爭論比賽規則。",
+        "starter": "The",
+        "answer": "The two teams are fighting a running battle over the match rules.",
+        "answerZh": "兩支隊伍一直就比賽規則爭持不下。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q10",
+        "number": 10,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "One small disagreement about parking led to repeated arguments between the two families.",
+        "promptZh": "一場關於泊車的小分歧，演變成兩個家庭之間反覆發生的爭執。",
+        "starter": "A",
+        "answer": "A small argument about parking has turned into a running battle between the two families.",
+        "answerZh": "一場關於泊車的小爭論，已演變成兩個家庭之間的持續衝突。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q11",
+        "number": 11,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Almost every week, Chloe argues with her parents about what time she should go to bed.",
+        "promptZh": "克洛伊幾乎每星期都會與父母爭論睡覺時間。",
+        "starter": "Chloe",
+        "answer": "Chloe often has a running battle with her parents over bedtime.",
+        "answerZh": "克洛伊經常與父母就睡覺時間爭論不休。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q12",
+        "number": 12,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "If the café begins playing music outside every evening, nearby residents may make repeated complaints.",
+        "promptZh": "如果咖啡店每晚開始在室外播放音樂，附近居民可能會反覆投訴。",
+        "starter": "The",
+        "answer": "The café may soon face a running battle with nearby residents over outdoor music.",
+        "answerZh": "咖啡店可能很快便會就室外音樂問題與附近居民持續爭拗。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q13",
+        "number": 13,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Daniel has missed football practice again. B: If this continues, he and the coach will argue about it many more times.",
+        "promptZh": "甲：丹尼爾又缺席足球練習了。 乙：如果情況持續，他和教練還會為此爭論很多次。",
+        "starter": "Daniel",
+        "answer": "Daniel could find himself in a running battle with the coach over missed practice.",
+        "answerZh": "丹尼爾可能會因缺席練習而與教練長期爭執不下。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q14",
+        "number": 14,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The tenants and the building manager have been arguing about the broken lift for months, and the matter is still unresolved.",
+        "promptZh": "租戶與大廈經理已就故障升降機爭論了數個月，事情仍未解決。",
+        "starter": "The",
+        "answer": "The tenants have been locked in a running battle with the building manager over the lift.",
+        "answerZh": "租戶一直與大廈經理就升降機問題爭論不休。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q15",
+        "number": 15,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The two shops have recently begun making repeated complaints about the space outside their doors.",
+        "promptZh": "兩間店舖最近開始反覆投訴店門外空間的使用問題。",
+        "starter": "A",
+        "answer": "A running battle is developing between the two shops over the space outside their doors.",
+        "answerZh": "兩間店舖正就門外空間的使用問題逐漸形成持續爭議。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "A running battle"
+      },
+      {
+        "id": "idiom-105-q16",
+        "number": 16,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Two pupils kept arguing about a borrowed book, so the teacher tried to stop their continuing disagreement.",
+        "promptZh": "兩名學生一直為一本借來的書爭吵，因此老師嘗試制止這場持續爭執。",
+        "starter": "The",
+        "answer": "The teacher tried to end a running battle between the two pupils over a borrowed book.",
+        "answerZh": "老師嘗試結束兩名學生就一本借來的書所發生的持續爭執。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q17",
+        "number": 17,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A complaint about one late parcel led to months of repeated arguments with the delivery company.",
+        "promptZh": "一宗有關包裹延誤的投訴，演變成與速遞公司持續數月的爭拗。",
+        "starter": "What",
+        "answer": "What began as one complaint has grown into a running battle with the delivery company over the late parcel.",
+        "answerZh": "一宗有關包裹延誤的投訴，已演變成與速遞公司的長期爭拗。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q18",
+        "number": 18,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The club wants to solve the room-booking problem before it leads to months of arguments with the school.",
+        "promptZh": "學會希望在課室預訂問題引起與學校長達數月的爭執前，把事情解決。",
+        "starter": "The",
+        "answer": "The club does not want a running battle with the school over room bookings.",
+        "answerZh": "學會不希望就課室預訂問題與學校長期爭執。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q19",
+        "number": 19,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The two project leaders still argue repeatedly about the design of the website.",
+        "promptZh": "兩名項目負責人仍然反覆爭論網站的設計。",
+        "starter": "Their",
+        "answer": "Their disagreement about the website remains a running battle between the two project leaders.",
+        "answerZh": "兩名項目負責人就網站問題的持續爭議仍未解決。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q20",
+        "number": 20,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "After the new phone rule was introduced, pupils and teachers argued about phone use on many occasions.",
+        "promptZh": "新手機規則推出後，學生與老師多次就手機使用問題發生爭執。",
+        "starter": "The",
+        "answer": "The new phone rule started a running battle between the students and the teachers over phone use.",
+        "answerZh": "新的手機規則引起了學生與老師就手機使用問題的持續爭執。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q21",
+        "number": 21,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Why do you look annoyed? B: Our neighbours complain about the rubbish bins almost every week, and we keep arguing with them.",
+        "promptZh": "甲：你為甚麼看起來很惱怒？ 乙：鄰居幾乎每星期都投訴垃圾桶的問題，我們一直與他們爭論。",
+        "starter": "It",
+        "answer": "“It has become a running battle with our neighbours over the rubbish bins,” Ava explained.",
+        "answerZh": "艾娃解釋：「垃圾桶的問題已演變成我們與鄰居之間的長期爭拗。」",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q22",
+        "number": 22,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The company has refused several of our refund requests. We may need to continue arguing with it.",
+        "promptZh": "公司已拒絕我們數次退款要求。我們可能需要繼續與它爭論。",
+        "starter": "We",
+        "answer": "We may have to fight a running battle with the company over the refunds it keeps refusing.",
+        "answerZh": "我們可能需要就公司一再拒絕的退款要求，與它長期爭持下去。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q23",
+        "number": 23,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Are you going to complain to the referee after every decision? B: No. I do not want this disagreement to continue for the whole season.",
+        "promptZh": "甲：你是否打算在球證每次作出決定後都投訴？ 乙：不。我不希望這場爭議持續整個球季。",
+        "starter": "The",
+        "answer": "The team captain is trying to avoid a running battle with the referee over every decision.",
+        "answerZh": "隊長正嘗試避免就球證的每項判決與他持續爭論。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q24",
+        "number": 24,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Two groups both claimed the same meeting room. They then argued about it at several later meetings.",
+        "promptZh": "兩個小組都聲稱有權使用同一間會議室，其後又在數次會議中為此爭論。",
+        "starter": "A",
+        "answer": "A running battle broke out between the two groups over the meeting room.",
+        "answerZh": "兩個小組就會議室的使用問題爆發了持續爭議。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "A running battle"
+      },
+      {
+        "id": "idiom-105-q25",
+        "number": 25,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The school is changing the collection timetable again. This may cause parents to make repeated complaints.",
+        "promptZh": "學校再次更改接放學時間表，這可能會令家長反覆投訴。",
+        "starter": "By",
+        "answer": "By changing the timetable again, the school may create a running battle with parents over collection times.",
+        "answerZh": "學校再次更改時間表，可能會引起與家長之間有關接放學時間的長期爭拗。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q26",
+        "number": 26,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "For nearly a year, the newspaper and the council have repeatedly disagreed about whether reporters may attend council meetings.",
+        "promptZh": "接近一年來，報社與議會一直反覆爭論記者可否出席議會會議。",
+        "starter": "For",
+        "answer": "For nearly a year, the newspaper has been engaged in a running battle with the council over whether reporters may attend its meetings.",
+        "answerZh": "接近一年來，報社一直與議會爭論記者可否出席其會議。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q27",
+        "number": 27,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The two brothers argue almost every evening about who controls the television.",
+        "promptZh": "兩兄弟幾乎每晚都會爭論由誰控制電視。",
+        "starter": "The",
+        "answer": "The two brothers seem to be waging a running battle over who controls the television.",
+        "answerZh": "兩兄弟似乎一直在爭論由誰控制電視。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q28",
+        "number": 28,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Why must I argue with customer service again and again just to correct one bill? B: I agree. Fixing one bill should be simple.",
+        "promptZh": "甲：為甚麼我只是要更正一張帳單，卻要一次又一次與客戶服務部爭論？ 乙：我同意。更正一張帳單應該很簡單。",
+        "starter": "It",
+        "answer": "It should not take a running battle with customer service to correct one bill.",
+        "answerZh": "更正一張帳單不應需要與客戶服務部長期爭拗。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q29",
+        "number": 29,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: We have argued with the landlord about the repairs several times. B: Let us arrange a calm meeting instead of continuing the dispute.",
+        "promptZh": "甲：我們已多次與業主爭論維修問題。 乙：讓我們安排一次冷靜的會面，不要再繼續爭執。",
+        "starter": "Rather",
+        "answer": "Rather than continue a running battle with the landlord over the repairs, Priya suggested a calm meeting.",
+        "answerZh": "普里婭建議安排一次冷靜的會面，而不是繼續就維修問題與業主爭執。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q30",
+        "number": 30,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The deliveries kept arriving late, so the organiser and several unhappy customers began arguing repeatedly.",
+        "promptZh": "送貨一再延誤，因此主辦者與數名不滿的顧客開始反覆爭論。",
+        "starter": "The",
+        "answer": "The organiser has ended up in a running battle with several unhappy customers over the repeated delays.",
+        "answerZh": "主辦者最終因一再延誤而與數名不滿的顧客持續爭執。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q31",
+        "number": 31,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The problem began with one tree. However, the neighbours now argue regularly about the whole garden.",
+        "promptZh": "問題最初只涉及一棵樹，但鄰居現在經常為整個花園爭吵。",
+        "starter": "Although",
+        "answer": "Although the issue began with one tree, it has become a running battle between the neighbours over the whole garden.",
+        "answerZh": "雖然問題最初只涉及一棵樹，但現在已演變成鄰居就整個花園所發生的持續爭執。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q32",
+        "number": 32,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The market sellers and the town office refuse to change their positions. Their repeated disagreement about the new opening hours will probably continue.",
+        "promptZh": "街市商販與市政辦事處都拒絕改變立場。他們就新營業時間反覆出現的爭議很可能會持續。",
+        "starter": "Because",
+        "answer": "Because neither side will change its position, a running battle is likely to continue between the market sellers and the town office over the new hours.",
+        "answerZh": "由於雙方都不願改變立場，街市商販與市政辦事處很可能會繼續就新營業時間爭論不休。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q33",
+        "number": 33,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A reporter asked whether the coach and the club owner had been arguing with each other for months. The coach denied it, although they had disagreed publicly several times.",
+        "promptZh": "一名記者問教練是否已與球會東主爭論了數個月。教練否認此事，儘管兩人曾多次公開表達不同意見。",
+        "starter": "The",
+        "answer": "The coach denied that he was in a running battle with the club owner, although they had disagreed publicly several times.",
+        "answerZh": "教練否認自己正與球會東主長期爭執，儘管兩人曾多次公開表達不同意見。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q34",
+        "number": 34,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The residents have sent three letters and attended two meetings, but they are still repeatedly arguing with the local office about parking.",
+        "promptZh": "居民已發出三封信並出席兩次會議，但仍然不斷與地區辦事處爭論泊車問題。",
+        "starter": "After",
+        "answer": "After three letters and two meetings, a running battle has developed between the residents and the local office over parking.",
+        "answerZh": "經過三封信和兩次會議後，居民與地區辦事處仍就泊車問題持續爭執。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q35",
+        "number": 35,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "If the company raises the fee again, customers may begin a long series of complaints and arguments about the price.",
+        "promptZh": "如果公司再次加價，顧客可能會就價格展開一連串持續的投訴及爭論。",
+        "starter": "If",
+        "answer": "If the company raises the fee again, it could trigger a running battle with its customers over the price.",
+        "answerZh": "如果公司再次加價，可能會引起與顧客之間有關價格的長期爭拗。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q36",
+        "number": 36,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The tenant originally asked for one simple repair. The matter has now caused repeated arguments with the landlord.",
+        "promptZh": "租戶最初只是要求進行一項簡單維修，但事情現在已引起與業主之間的反覆爭執。",
+        "starter": "What",
+        "answer": "What should have been a simple repair has turned into a running battle between the tenant and the landlord over the work.",
+        "answerZh": "原本應該十分簡單的維修，已演變成租戶與業主之間的持續爭執。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q37",
+        "number": 37,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The sports club and the drama club hoped that the vote would settle who could use the hall. Instead, it led to repeated disputes.",
+        "promptZh": "體育學會與戲劇學會原本希望投票可以決定誰有權使用禮堂，結果卻引起反覆爭議。",
+        "starter": "The",
+        "answer": "The committee hoped the vote would settle the matter, yet it only began a running battle between the sports club and the drama club over the use of the hall.",
+        "answerZh": "委員會原本希望投票可以解決問題，結果卻引起體育學會與戲劇學會就禮堂使用權所發生的持續爭議。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q38",
+        "number": 38,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Two departments repeatedly argue about which one should answer customer emails. This disagreement is the main cause of the problem.",
+        "promptZh": "兩個部門不斷爭論應由哪一方回覆顧客電郵，而這場爭議正是問題的主要原因。",
+        "starter": "At",
+        "answer": "At the centre of the problem is a running battle between two departments over who should answer customer emails.",
+        "answerZh": "問題的核心是兩個部門一直爭論應由誰回覆顧客電郵。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q39",
+        "number": 39,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The passenger has made many complaints to the airline about a lost bag. Her latest complaint is only one more part of the continuing dispute.",
+        "promptZh": "乘客已就遺失行李向航空公司提出多次投訴。她最新的投訴只是這場持續爭議中的另一部分。",
+        "starter": "The",
+        "answer": "The passenger’s latest complaint is only one stage in a running battle with the airline over the lost bag.",
+        "answerZh": "乘客最新的投訴只是她與航空公司就遺失行李問題長期爭拗中的一個階段。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q40",
+        "number": 40,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The two clubs have repeatedly argued about the date of the event. Their latest message did not solve the problem and became another part of the dispute.",
+        "promptZh": "兩個學會一直反覆爭論活動日期。他們最新的訊息沒有解決問題，反而成為爭議中的另一部分。",
+        "starter": "Instead",
+        "answer": "Instead of solving the problem, the new message became another stage in a running battle between the two clubs over the event date.",
+        "answerZh": "新訊息不但沒有解決問題，反而成為兩個學會就活動日期持續爭拗中的另一個階段。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q41",
+        "number": 41,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The principal warned that unless the pupils and teachers discussed the dress rule honestly, they might continue arguing throughout the school year.",
+        "promptZh": "校長警告，如果學生與老師不坦誠討論服裝規則，他們可能會在整個學年持續爭論。",
+        "starter": "The",
+        "answer": "The principal warned that, unless both sides talked honestly, the disagreement over the dress rule could become a running battle between pupils and teachers throughout the school year.",
+        "answerZh": "校長警告，如果雙方不坦誠溝通，服裝規則的分歧可能會演變成學生與老師在整個學年持續不斷的爭議。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q42",
+        "number": 42,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Local shop owners and the town office have recently exchanged several complaints about the new delivery hours. The disagreement appears likely to continue.",
+        "promptZh": "本地店主與市政辦事處最近就新的送貨時間互相提出多次投訴，爭議看來很可能會持續。",
+        "starter": "A",
+        "answer": "A running battle appears to be developing between local shop owners and the town office over new delivery hours.",
+        "answerZh": "本地店主與市政辦事處似乎正就新的送貨時間逐漸形成持續爭議。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "A running battle"
+      },
+      {
+        "id": "idiom-105-q43",
+        "number": 43,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The app charged Selina twice on several occasions. Each time, she had to argue with the company to get the extra charges refunded.",
+        "promptZh": "該應用程式曾多次向塞琳娜重複收費。她每次都要與公司爭論，才能取回多收的款項。",
+        "starter": "When",
+        "answer": "When the app kept charging her twice, Selina found herself in a running battle with the company over getting the extra charges refunded.",
+        "answerZh": "該應用程式一再向塞琳娜重複收費，令她為取回多收的款項而與公司長期爭拗。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q44",
+        "number": 44,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A report explains that parents and the transport company have repeatedly disagreed since the bus route changed.",
+        "promptZh": "一份報告指出，自巴士路線更改後，家長與運輸公司一直反覆爭論。",
+        "starter": "The",
+        "answer": "The report describes a running battle between parents and the transport company that has lasted since the route changed.",
+        "answerZh": "報告描述了家長與運輸公司之間自路線更改後一直持續的爭議。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q45",
+        "number": 45,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The school reversed its first decision, but it and the sports club continued arguing about use of the field.",
+        "promptZh": "學校推翻了最初的決定，但學校與體育會仍然繼續爭論運動場的使用問題。",
+        "starter": "Even",
+        "answer": "Even after the first decision was reversed, the issue remained a running battle between the school and the sports club over use of the field.",
+        "answerZh": "即使最初的決定已被推翻，學校與體育會仍然就運動場的使用問題持續爭執。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q46",
+        "number": 46,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: We argue about speaking time at every meeting. B: We must agree on clear rules now, or this will continue at all our future meetings.",
+        "promptZh": "甲：我們在每次會議都會爭論發言時間。 乙：我們現在必須訂立清晰規則，否則日後每次會議都會繼續爭論。",
+        "starter": "The",
+        "answer": "The chairperson said the group could either agree on clear rules now or face a running battle between its members over speaking time at every future meeting.",
+        "answerZh": "主席表示，小組可以現在訂立清晰規則，否則成員日後可能會在每次會議都為發言時間爭論不休。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q47",
+        "number": 47,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The hotel and the event organiser failed to settle their first complaint. They then began repeatedly arguing about several related problems.",
+        "promptZh": "酒店與活動主辦者未能解決第一宗投訴，其後又開始反覆爭論數個相關問題。",
+        "starter": "After",
+        "answer": "After they failed to settle the first complaint, the hotel and the event organiser entered a running battle over several related problems.",
+        "answerZh": "酒店與活動主辦者未能解決第一宗投訴後，雙方便開始就數個相關問題持續爭執。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q48",
+        "number": 48,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The disagreement between the two neighbours over the shared path may appear small. However, they have already argued about it several times, and neither side will change its position.",
+        "promptZh": "兩名鄰居就共用通道發生的分歧看似輕微，但他們已為此爭論數次，而且雙方都不願改變立場。",
+        "starter": "The",
+        "answer": "The disagreement may look small, but it has all the signs of becoming a running battle between the two neighbours over the shared path.",
+        "answerZh": "這場分歧看似輕微，但已有種種跡象顯示，它可能會演變成兩名鄰居就共用通道所發生的長期爭拗。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q49",
+        "number": 49,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The manager replied to one complaint about weekend work. Instead of ending the matter, the reply caused staff to begin arguing with management repeatedly.",
+        "promptZh": "經理回應了一宗有關週末工作的投訴，但該回應沒有平息事件，反而令員工開始不斷與管理層爭論。",
+        "starter": "The",
+        "answer": "The manager’s reply did not end the matter; it started a running battle with staff over how weekend work was shared.",
+        "answerZh": "經理的回應沒有平息事件，反而引起管理層與員工就週末工作分配問題的持續爭議。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      },
+      {
+        "id": "idiom-105-q50",
+        "number": 50,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: The shop missed one payment to the customer. B: Unless somebody offers a fair answer, this single problem may lead to months of repeated arguments.",
+        "promptZh": "甲：店舖漏付了一筆款項給顧客。 乙：除非有人提出公平的解決方法，否則這個單一問題可能會引起持續數月的爭執。",
+        "starter": "Unless",
+        "answer": "Unless someone offers a fair answer, what began as one missing payment may grow into a running battle between the shop and the customer over the payment.",
+        "answerZh": "除非有人提出公平的解決方法，否則一次漏付款項可能會演變成店舖與顧客之間的長期爭拗。",
+        "targetForm": "a running battle",
+        "targetMeaning": "A disagreement or conflict that continues for a long time and involves repeated arguments or confrontations on different occasions.",
+        "highlight": "a running battle"
+      }
+    ]
+  }
+}

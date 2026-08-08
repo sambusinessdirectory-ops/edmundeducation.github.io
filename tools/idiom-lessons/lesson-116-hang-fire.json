@@ -1,0 +1,1595 @@
+{
+  "lesson": {
+    "id": "idiom-116",
+    "order": 116,
+    "slug": "hang-fire",
+    "version": "1",
+    "title": "暫緩行動／延後決定",
+    "titleEn": "hang fire",
+    "titleZh": "暫緩行動／延後決定",
+    "source": {
+      "file": "Idiom 116 - “Hang Fire”.pdf",
+      "pageCount": 42,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "exercisePdfPages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "answerKeyPdfPages": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "hang fire",
+        "highlight": "hang fire"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Hang fire until Monday.",
+        "zh": "暫緩到星期一才行動。",
+        "highlight": "Hang fire"
+      },
+      {
+        "en": "Let’s hang fire.",
+        "zh": "讓我們先等一等。",
+        "highlight": "hang fire"
+      }
+    ],
+    "meaning": {
+      "en": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+      "zh": "暫緩採取行動或作出決定，通常是因為需要等待更多資料，或等待情況變得更加明朗。",
+      "naturalZh": [
+        "暫緩採取行動或作出決定，通常是因為需要等待更多資料，或等待情況變得更加明朗。"
+      ]
+    },
+    "register": {
+      "labelEn": "Formal",
+      "labelZh": "正式",
+      "summaryEn": "everyday conversation; workplace discussions; meetings; news and general reporting; discussions about plans, prices and decisions; advice between colleagues or friends.",
+      "summaryZh": "主要屬於英式英語，語氣介乎中性與非正式之間，適合用於：",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace discussions",
+        "meetings",
+        "news and general reporting",
+        "discussions about plans, prices and decisions",
+        "advice between colleagues or friends"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "工作討論",
+        "會議",
+        "一般新聞及報道",
+        "有關計劃、價格及決定的討論",
+        "同事或朋友之間的建議。"
+      ],
+      "formalEn": "It can appear in professional communication, but delay, postpone, defer or remain unresolved may be clearer in highly formal documents.",
+      "formalZh": "這個表達可以用於一般專業溝通，但在非常正式的文件中，使用 delay、postpone、defer 或 remain unresolved 可能會更加清楚。"
+    },
+    "fixedVariable": {
+      "fixed": "hang fire",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "hang fire",
+          "example": "Hang fire until Monday.",
+          "highlight": "Hang fire"
+        },
+        {
+          "form": "Subject + should / may / might / could / will / must + hang fire.",
+          "example": "We should hang fire.",
+          "highlight": "hang fire"
+        },
+        {
+          "form": "Subject + decide / agree / choose / prefer + to hang fire.",
+          "example": "The manager decided to hang fire.",
+          "highlight": "hang fire"
+        },
+        {
+          "form": "Human or institutional subject + hang(s) / hung / is hanging fire.",
+          "example": "The school often hangs fire on outdoor events.",
+          "highlight": "hangs fire"
+        },
+        {
+          "form": "hang fire",
+          "example": "The project has hung fire for a month.",
+          "highlight": "hung fire"
+        },
+        {
+          "form": "Subject + hang fire + on + noun or -ing form.",
+          "example": "The manager is hanging fire on the new price.",
+          "highlight": "hanging fire"
+        },
+        {
+          "form": "Until + clause",
+          "example": "We should hang fire until the situation becomes clearer.",
+          "highlight": "hang fire"
+        },
+        {
+          "form": "Hanging fire + verb...",
+          "example": "Hanging fire for one more day may help us avoid a mistake.",
+          "highlight": "Hanging fire"
+        },
+        {
+          "form": "After a fronted clause",
+          "example": "Although everyone wanted an answer, the manager chose to hang fire.",
+          "highlight": "hang fire"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Standalone or Imperative Use",
+        "titleZh": "句式一：獨立使用或祈使句",
+        "formula": "hang fire",
+        "descriptionEn": "Source grammar frame: hang fire.",
+        "descriptionZh": "原檔列出的句法框架：hang fire。",
+        "examples": [
+          {
+            "en": "Hang fire until Monday.",
+            "zh": "暫緩到星期一才行動。",
+            "highlight": "Hang fire"
+          },
+          {
+            "en": "Let’s hang fire.",
+            "zh": "讓我們先等一等。",
+            "highlight": "hang fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "句式二：置於情態動詞後",
+        "formula": "Subject + should / may / might / could / will / must + hang fire.",
+        "descriptionEn": "Source grammar frame: Subject + should / may / might / could / will / must + hang fire.",
+        "descriptionZh": "原檔列出的句法框架：Subject + should / may / might / could / will / must + hang fire。",
+        "examples": [
+          {
+            "en": "We should hang fire.",
+            "zh": "我們應暫緩行動。",
+            "highlight": "hang fire"
+          },
+          {
+            "en": "The decision may hang fire.",
+            "zh": "這項決定可能會被擱置。",
+            "highlight": "hang fire"
+          },
+          {
+            "en": "The project could hang fire for another week.",
+            "zh": "這個項目可能會再擱置一星期。",
+            "highlight": "hang fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After an Infinitive-Taking Verb",
+        "titleZh": "句式三：置於接不定詞的動詞後",
+        "formula": "Subject + decide / agree / choose / prefer + to hang fire.",
+        "descriptionEn": "We were advised to hang fire.",
+        "descriptionZh": "我們獲建議暫緩行動。",
+        "examples": [
+          {
+            "en": "The manager decided to hang fire.",
+            "zh": "經理決定暫緩行動。",
+            "highlight": "hang fire"
+          },
+          {
+            "en": "The parents agreed to hang fire.",
+            "zh": "家長同意暫緩作決定。",
+            "highlight": "hang fire"
+          },
+          {
+            "en": "The club chose to hang fire until more members replied.",
+            "zh": "會方選擇等更多會員回覆後才作決定。",
+            "highlight": "hang fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "句式四：作一般限定動詞短語",
+        "formula": "Human or institutional subject + hang(s) / hung / is hanging fire.",
+        "descriptionEn": "The verb must agree with the subject and match the original time reference.",
+        "descriptionZh": "動詞必須與主語一致，並保留原句的時間關係。",
+        "examples": [
+          {
+            "en": "The school often hangs fire on outdoor events.",
+            "zh": "學校經常會暫緩決定是否舉行戶外活動。",
+            "highlight": "hangs fire"
+          },
+          {
+            "en": "The committee hung fire for two days.",
+            "zh": "委員會暫緩了兩天才作決定。",
+            "highlight": "hung fire"
+          },
+          {
+            "en": "The company is hanging fire on the final design.",
+            "zh": "公司正暫緩確定最後設計。",
+            "highlight": "hanging fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With an Inanimate Subject",
+        "titleZh": "句式五：以非人物作主語",
+        "formula": "hang fire",
+        "descriptionEn": "Source grammar frame: hang fire.",
+        "descriptionZh": "原檔列出的句法框架：hang fire。",
+        "examples": [
+          {
+            "en": "The project has hung fire for a month.",
+            "zh": "這個項目已擱置了一個月。",
+            "highlight": "hung fire"
+          },
+          {
+            "en": "The question is still hanging fire.",
+            "zh": "這個問題仍然懸而未決。",
+            "highlight": "hanging fire"
+          },
+          {
+            "en": "The decision may hang fire until Friday.",
+            "zh": "這項決定可能會擱置至星期五。",
+            "highlight": "hang fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "With “On + Noun / -ing”",
+        "titleZh": "句式六：配合 on + 名詞/-ing",
+        "formula": "Subject + hang fire + on + noun or -ing form.",
+        "descriptionEn": "The on phrase is optional. It identifies the matter or action being delayed.",
+        "descriptionZh": "短語並非固定表達的一部分，只用來指出被暫緩的是甚麼事情或行動。",
+        "examples": [
+          {
+            "en": "The manager is hanging fire on the new price.",
+            "zh": "經理正暫緩訂立新價格。",
+            "highlight": "hanging fire"
+          },
+          {
+            "en": "The shop may hang fire on opening a second branch.",
+            "zh": "店舖可能會暫緩開設第二間分店。",
+            "highlight": "hang fire"
+          },
+          {
+            "en": "We could hang fire on ordering the chairs.",
+            "zh": "我們可以暫緩訂購椅子。",
+            "highlight": "hang fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "With Time, Reason or Condition",
+        "titleZh": "句式七：配合時間、原因或條件",
+        "formula": "Until + clause",
+        "descriptionEn": "The order is hanging fire because the customer has not replied.",
+        "descriptionZh": "由於顧客尚未回覆，訂單仍然擱置。",
+        "examples": [
+          {
+            "en": "We should hang fire until the situation becomes clearer.",
+            "zh": "我們應等情況變得更明朗後才作決定。",
+            "highlight": "hang fire"
+          },
+          {
+            "en": "The project has hung fire for a month.",
+            "zh": "項目已擱置了一個月。",
+            "highlight": "hung fire"
+          },
+          {
+            "en": "The plan is hanging fire while the two groups discuss it.",
+            "zh": "兩個小組討論期間，計劃仍然擱置。",
+            "highlight": "hanging fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "As a Gerund or Infinitive Clause",
+        "titleZh": "句式八：作動名詞或不定詞子句",
+        "formula": "Hanging fire + verb...",
+        "descriptionEn": "These forms allow the act of delaying to become the topic of the sentence.",
+        "descriptionZh": "這些形式可以把「暫緩行動」本身變成句子的主題。",
+        "examples": [
+          {
+            "en": "Hanging fire for one more day may help us avoid a mistake.",
+            "zh": "再暫緩一天，可能有助我們避免犯錯。",
+            "highlight": "Hanging fire"
+          },
+          {
+            "en": "To hang fire now would give us more time.",
+            "zh": "現在暫緩決定，可以讓我們有更多時間。",
+            "highlight": "hang fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "In More Complex Structures",
+        "titleZh": "句式九：置於較複雜的句式中",
+        "formula": "After a fronted clause",
+        "descriptionEn": "We have little choice but to hang fire.",
+        "descriptionZh": "我們幾乎別無選擇，只能暫緩行動。",
+        "examples": [
+          {
+            "en": "Although everyone wanted an answer, the manager chose to hang fire.",
+            "zh": "雖然所有人都想得到答案，但經理仍選擇暫緩決定。",
+            "highlight": "hang fire"
+          },
+          {
+            "en": "Had they not hung fire, they might have made a mistake.",
+            "zh": "如果他們沒有暫緩行動，便可能已經犯錯。",
+            "highlight": "hung fire"
+          },
+          {
+            "en": "What we need to do is hang fire.",
+            "zh": "我們需要做的是暫緩行動。",
+            "highlight": "hang fire"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Shows That the Delay Is Temporary",
+        "titleZh": "表示延遲屬暫時性",
+        "en": "The expression normally suggests that action has been paused rather than abandoned completely. The project has been cancelled. The second sentence leaves open the possibility that the project may continue.",
+        "zh": "這個表達通常表示行動暫時停下來，而不是已經完全放棄。 項目已被取消。 項目仍被擱置，尚未落實。 第二句保留了項目日後可能繼續的意思。",
+        "examples": [
+          {
+            "en": "The project is hanging fire.",
+            "zh": "項目仍被擱置，尚未落實。",
+            "highlight": "hanging fire"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Explains Cautious Waiting",
+        "titleZh": "表達謹慎等待",
+        "en": "This shows that the delay has a reason and may prevent a mistake.",
+        "zh": "這句話表示延遲有實際原因，而且可能有助避免犯錯。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Works with Both People and Matters",
+        "titleZh": "可配合人物或事情作主語",
+        "en": "This gives the expression useful grammatical flexibility.",
+        "zh": "經理決定暫緩行動。 這項決定仍然懸而未決。 這令該表達在句法上具有實用的靈活性。",
+        "examples": [
+          {
+            "en": "The manager decided to hang fire.",
+            "zh": "經理決定暫緩行動。",
+            "highlight": "hang fire"
+          },
+          {
+            "en": "The decision is still hanging fire.",
+            "zh": "這項決定仍然懸而未決。",
+            "highlight": "hanging fire"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Express Advice, Possibility and Obligation",
+        "titleZh": "可以表達建議、可能性及需要",
+        "en": "Different modal verbs allow the speaker to express different attitudes and degrees of certainty.",
+        "zh": "我們應暫緩行動。 項目可能會被擱置。 開放安排必須暫緩。 配合不同情態動詞，說話者可以表達不同態度及確定程度。",
+        "examples": [
+          {
+            "en": "The project may hang fire.",
+            "zh": "項目可能會被擱置。",
+            "highlight": "hang fire"
+          },
+          {
+            "en": "The opening must hang fire.",
+            "zh": "開放安排必須暫緩。",
+            "highlight": "hang fire"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Provides a Compact Alternative",
+        "titleZh": "提供較精簡的替代說法",
+        "en": "The idiom replaces the longer explanation of temporary delay.",
+        "zh": "委員會決定暫緩作決定，直至取得更多資料。 這個慣用語可以取代較長的「暫時延後決定」解釋。",
+        "examples": [
+          {
+            "en": "The committee decided to hang fire until it had more information.",
+            "zh": "委員會決定暫緩作決定，直至取得更多資料。",
+            "highlight": "hang fire"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is Useful but Not Automatically Better",
+        "titleZh": "實用但不一定在所有場合更好",
+        "en": "1. an expected action or decision; 2. a temporary delay; 3. further information or conditions; 4. the possibility of acting later. For a simple late bus or an accidentally delayed meal, ordinary delayed or late may be more natural.",
+        "zh": "適合用於以下情況： 如只是巴士遲到或飯菜意外延誤，直接使用 delayed 或 late 可能會更自然。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Well-Documented Literal Origin; Exact Figurative First Use Uncertain",
+      "statusZh": "字面來源有較充分記錄；確切比喻用法首次出現時間不明",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The weapon was expected to fire, but the action remained suspended for an uncertain period. The same image was later applied to decisions, plans and actions that were expected to proceed but remained delayed or unresolved.",
+          "zh": "人們原本預期槍械會立即發射，但實際行動卻在一段不確定時間內處於停頓狀態。 後來，同一個畫面被用來形容原本預期會推進，但仍被延後或尚未解決的決定、計劃及行動。"
+        }
+      ],
+      "memoryEn": "The action was expected to happen, but it remained suspended; likewise, a plan that hangs fire is expected to continue but has not moved forward yet.",
+      "memoryZh": "原本預期會發生的動作暫時停頓；同樣，hang fire 的計劃仍預期會繼續，只是暫時尚未推進。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Do Not Treat Optional Complements as Fixed",
+        "titleZh": "規則一：不要把可選補語當成固定表達",
+        "en": "The idiom remains complete without these additions.",
+        "zh": "即使沒有以上延伸內容，慣用語仍然完整。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use “Hung”, Not “Hanged”",
+        "titleZh": "規則二：使用 hung，不使用 hanged",
+        "en": "Use “Hung”, Not “Hanged”",
+        "zh": "使用 hung，不使用 hanged",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Insert an Article",
+        "titleZh": "規則三：不要加入冠詞",
+        "en": "Do Not Insert an Article",
+        "zh": "不要加入冠詞",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Do Not Add a Direct Object",
+        "titleZh": "規則四：不要直接加入受詞",
+        "en": "Hang fire is normally intransitive.",
+        "zh": "hang fire 通常是不及物表達，後面不可直接加入受詞。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Tense",
+        "titleZh": "規則五：保留時態",
+        "en": "Preserve Tense",
+        "zh": "保留時態",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則六：保留確定程度",
+        "en": "The incorrect answer changes a possibility into an established fact.",
+        "zh": "錯誤答案把一個可能情況改成了已確定的事實。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve the Reason for Waiting",
+        "titleZh": "規則七：保留等待的原因",
+        "en": "The incomplete answer removes the reason or end point established by the source.",
+        "zh": "不完整的答案刪除了原句所交代的等待原因或結束時間。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "It Means Delay, Not Cancel",
+        "titleZh": "規則八：表示暫緩，不表示取消",
+        "en": "This suggests that the event or decision may continue later. The event has been cancelled permanently.",
+        "zh": "這表示活動或決定之後仍可能繼續。 活動已永久取消。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Repeat the Delayed Meaning",
+        "titleZh": "規則九：不要重複延遲意思",
+        "en": "Hang fire already communicates the delay.",
+        "zh": "本身已經表達延遲，毋須再次重複相同意思。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Keep the Literal Firearm Meaning Outside This",
+        "titleZh": "規則十：本練習不使用槍械的字面意思",
+        "en": "Set A firearm does not discharge immediately. A person delays acting, or a matter remains unresolved. Every answer in this exercise must use the figurative meaning.",
+        "zh": "本練習不使用槍械的字面意思 Literal meaning: 字面意思： 本課比喻意思： 本練習的所有答案都必須使用比喻意思。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "“Hold Fire” Is a Variant, but Not This Target",
+        "titleZh": "規則十一：hold fire 是變體，但不是本課目標",
+        "en": "“Hold Fire” Is a Variant, but Not This Target",
+        "zh": "hold fire 是變體，但不是本課目標",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "1. use the figurative delay meaning; 2. use an approved form of hang; 3. preserve the actor, matter, tense and degree of certainty; 4. preserve any necessary reason, condition or waiting period; 5. avoid repeating the same delayed meaning after the idiom; 6. use hang fire rather than hold fire.",
+      "zh": "每題已提供參考答案的第一個字。"
+    },
+    "questions": [
+      {
+        "id": "idiom-116-q01",
+        "number": 1,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "We should delay booking the outdoor lesson until the weather improves.",
+        "promptZh": "我們應延遲預訂戶外課堂，直至天氣好轉。",
+        "starter": "We",
+        "answer": "We should hang fire on booking the outdoor lesson until the weather improves.",
+        "answerZh": "我們應暫緩預訂戶外課堂，直至天氣好轉。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q02",
+        "number": 2,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The manager decided not to set the new price yet. She will wait until Friday.",
+        "promptZh": "經理決定暫時不訂立新價格，並會等到星期五。",
+        "starter": "The",
+        "answer": "The manager decided to hang fire on the new price until Friday.",
+        "answerZh": "經理決定暫緩訂立新價格，直至星期五。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q03",
+        "number": 3,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Wait before taking action until we receive the final email.",
+        "promptZh": "收到最後一封電郵前，先不要採取行動。",
+        "starter": "Hang",
+        "answer": "Hang fire until we receive the final email.",
+        "answerZh": "收到最後一封電郵前，先暫緩行動。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "Hang fire"
+      },
+      {
+        "id": "idiom-116-q04",
+        "number": 4,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The school often delays decisions about outdoor trips when heavy rain is expected.",
+        "promptZh": "預計會有大雨時，學校經常會延後決定是否舉行戶外旅行。",
+        "starter": "The",
+        "answer": "The school often hangs fire on outdoor trips when heavy rain is expected.",
+        "answerZh": "預計會有大雨時，學校經常會暫緩決定是否舉行戶外旅行。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hangs fire"
+      },
+      {
+        "id": "idiom-116-q05",
+        "number": 5,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Our plans must be delayed until the hall becomes available.",
+        "promptZh": "我們的計劃必須延後，直至禮堂可以使用。",
+        "starter": "Our",
+        "answer": "Our plans have to hang fire until the hall is available.",
+        "answerZh": "我們的計劃必須暫緩，直至禮堂可以使用。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q06",
+        "number": 6,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "They waited for two days before ordering the chairs.",
+        "promptZh": "他們等了兩天才訂購椅子。",
+        "starter": "They",
+        "answer": "They hung fire for two days before ordering the chairs.",
+        "answerZh": "他們暫緩了兩天才訂購椅子。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hung fire"
+      },
+      {
+        "id": "idiom-116-q07",
+        "number": 7,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The committee will delay its decision until everyone has read the report.",
+        "promptZh": "委員會會延後作決定，直至所有人都看過報告。",
+        "starter": "The",
+        "answer": "The committee will hang fire until everyone has read the report.",
+        "answerZh": "委員會會暫緩作決定，直至所有人都看過報告。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q08",
+        "number": 8,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "I chose not to buy the laptop yet because the sale would begin on Saturday.",
+        "promptZh": "我選擇暫時不買手提電腦，因為減價活動會在星期六開始。",
+        "starter": "I",
+        "answer": "I chose to hang fire on buying the laptop until the sale began on Saturday.",
+        "answerZh": "我選擇暫緩購買手提電腦，直至星期六減價活動開始。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q09",
+        "number": 9,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The building project has been delayed for a month because the money has not arrived.",
+        "promptZh": "建築計劃因款項尚未到位，已延誤了一個月。",
+        "starter": "The",
+        "answer": "The building project has hung fire for a month because the money has not arrived.",
+        "answerZh": "建築計劃因款項尚未到位，已擱置了一個月。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hung fire"
+      },
+      {
+        "id": "idiom-116-q10",
+        "number": 10,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "We should wait until we know how many people are coming before making the booking.",
+        "promptZh": "我們應先等到知道有多少人出席，才作出預訂。",
+        "starter": "Let’s",
+        "answer": "Let’s hang fire until we know how many people are coming.",
+        "answerZh": "讓我們暫緩預訂，直至知道有多少人出席。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q11",
+        "number": 11,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The shop may delay opening a second branch until sales improve.",
+        "promptZh": "店舖可能會延遲開設第二間分店，直至銷售情況改善。",
+        "starter": "The",
+        "answer": "The shop may hang fire on opening a second branch until sales improve.",
+        "answerZh": "店舖可能會暫緩開設第二間分店，直至銷售情況改善。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q12",
+        "number": 12,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Why do we not wait a little before sending the invitation?",
+        "promptZh": "我們為甚麼不先等一會才發出邀請？",
+        "starter": "Why",
+        "answer": "Why don’t we hang fire before sending the invitation?",
+        "answerZh": "我們為甚麼不先暫緩一下才發出邀請？",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q13",
+        "number": 13,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The team has delayed making its final choice since Monday.",
+        "promptZh": "團隊自星期一起一直延遲作出最後選擇。",
+        "starter": "The",
+        "answer": "The team has been hanging fire on its final choice since Monday.",
+        "answerZh": "團隊自星期一起一直暫緩作出最後選擇。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hanging fire"
+      },
+      {
+        "id": "idiom-116-q14",
+        "number": 14,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Someone advised us to wait until the test results arrived before acting.",
+        "promptZh": "有人建議我們等到測試結果出來後才採取行動。",
+        "starter": "We",
+        "answer": "We were advised to hang fire until the test results arrived.",
+        "answerZh": "我們獲建議暫緩行動，直至測試結果出來。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q15",
+        "number": 15,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The missing cost details caused the family to delay booking the holiday.",
+        "promptZh": "欠缺費用資料令這個家庭延遲預訂假期。",
+        "starter": "The",
+        "answer": "The missing cost details caused the family to hang fire on booking the holiday.",
+        "answerZh": "欠缺費用資料令這個家庭暫緩預訂假期。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q16",
+        "number": 16,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The decision could remain unsettled for another week.",
+        "promptZh": "這項決定可能要再過一星期才能落實。",
+        "starter": "The",
+        "answer": "The decision could hang fire for another week.",
+        "answerZh": "這項決定可能會再擱置一星期。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q17",
+        "number": 17,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The club did not want to rush, so it chose to wait until more members replied.",
+        "promptZh": "會方不想倉促決定，因此選擇等更多會員回覆。",
+        "starter": "Rather",
+        "answer": "Rather than rush, the club chose to hang fire until more members replied.",
+        "answerZh": "會方選擇暫緩決定，等更多會員回覆，而不是倉促行事。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q18",
+        "number": 18,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Should the company delay changing the website?",
+        "promptZh": "公司應否暫緩更改網站？",
+        "starter": "Should",
+        "answer": "Should the company hang fire on changing the website?",
+        "answerZh": "公司應否暫緩更改網站？",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q19",
+        "number": 19,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The project had been delayed for months before the new leader approved it.",
+        "promptZh": "這個項目延誤了數月，新主管才批准推行。",
+        "starter": "The",
+        "answer": "The project had hung fire for months before the new leader approved it.",
+        "answerZh": "這個項目擱置了數月，新主管才批准推行。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hung fire"
+      },
+      {
+        "id": "idiom-116-q20",
+        "number": 20,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Waiting for one more day may help us avoid a mistake.",
+        "promptZh": "多等一天可能有助我們避免犯錯。",
+        "starter": "Hanging",
+        "answer": "Hanging fire for one more day may help us avoid a mistake.",
+        "answerZh": "再暫緩一天，可能有助我們避免犯錯。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "Hanging fire"
+      },
+      {
+        "id": "idiom-116-q21",
+        "number": 21,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A: Must we accept the offer today? B: No. We should wait until our lawyer checks it.",
+        "promptZh": "甲：我們今天一定要接受這項提議嗎？ 乙：不用。我們應等律師檢查後才決定。",
+        "starter": "Let’s",
+        "answer": "Let’s hang fire until our lawyer checks the offer.",
+        "answerZh": "讓我們暫緩決定，直至律師檢查過這項提議。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q22",
+        "number": 22,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "I do not want to buy the tickets yet. I need my sister to confirm that she can go.",
+        "promptZh": "我暫時不想購買門票。我需要妹妹確認她能否同行。",
+        "starter": "I",
+        "answer": "I want to hang fire on buying the tickets until my sister confirms that she can go.",
+        "answerZh": "我想暫緩購買門票，直至妹妹確認她能否同行。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q23",
+        "number": 23,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The doctor asked us not to change the medicine until the next visit.",
+        "promptZh": "醫生請我們在下次覆診前不要更改藥物。",
+        "starter": "The",
+        "answer": "The doctor asked us to hang fire on changing the medicine until the next visit.",
+        "answerZh": "醫生請我們暫緩更改藥物，直至下次覆診。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q24",
+        "number": 24,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The match date remains undecided while the two schools check their calendars.",
+        "promptZh": "兩間學校查看各自的日程期間，比賽日期仍未落實。",
+        "starter": "The",
+        "answer": "The match date is hanging fire while the two schools check their calendars.",
+        "answerZh": "兩間學校查看各自的日程期間，比賽日期仍然懸而未決。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hanging fire"
+      },
+      {
+        "id": "idiom-116-q25",
+        "number": 25,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The customer has not replied, so the order is still being delayed.",
+        "promptZh": "顧客尚未回覆，因此訂單仍然未能處理。",
+        "starter": "Because",
+        "answer": "Because the customer has not replied, the order is still hanging fire.",
+        "answerZh": "由於顧客尚未回覆，訂單仍然擱置。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hanging fire"
+      },
+      {
+        "id": "idiom-116-q26",
+        "number": 26,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "We have delayed the choice for long enough; it is time to decide.",
+        "promptZh": "我們已把選擇延後得夠久，現在是時候作決定了。",
+        "starter": "We",
+        "answer": "We have hung fire long enough; it is time to choose.",
+        "answerZh": "我們已暫緩得夠久，現在是時候作出選擇了。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hung fire"
+      },
+      {
+        "id": "idiom-116-q27",
+        "number": 27,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "We could delay ordering today and check whether the price falls tomorrow.",
+        "promptZh": "我們可以暫緩今天的訂購，看看明天價格會否下降。",
+        "starter": "We",
+        "answer": "We could hang fire on ordering today and check the price tomorrow.",
+        "answerZh": "我們可以暫緩今天訂購，明天再查看價格。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q28",
+        "number": 28,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The parents agreed not to decide until the children had visited both schools.",
+        "promptZh": "家長同意等孩子參觀過兩間學校後才作決定。",
+        "starter": "The",
+        "answer": "The parents agreed to hang fire until the children had visited both schools.",
+        "answerZh": "家長同意暫緩作決定，直至孩子參觀過兩間學校。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q29",
+        "number": 29,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: Why has the café not ordered the new tables? B: It is waiting until the owner returns.",
+        "promptZh": "甲：咖啡店為甚麼還未訂購新桌子？ 乙：店方正等候店主回來。",
+        "starter": "It’s",
+        "answer": "It’s hanging fire on ordering the new tables until the owner returns.",
+        "answerZh": "咖啡店正暫緩訂購新桌子，直至店主回來。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hanging fire"
+      },
+      {
+        "id": "idiom-116-q30",
+        "number": 30,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Waiting now would give us time to compare the two offers.",
+        "promptZh": "現在先等一等，可以讓我們有時間比較兩項提議。",
+        "starter": "To",
+        "answer": "To hang fire now would give us time to compare the two offers.",
+        "answerZh": "現在暫緩決定，可以讓我們有時間比較兩項提議。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q31",
+        "number": 31,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Everyone wanted a quick answer, but the head teacher waited until she had heard both sides.",
+        "promptZh": "所有人都想盡快得到答案，但校長等到聽過雙方意見後才決定。",
+        "starter": "Although",
+        "answer": "Although everyone wanted a quick answer, the head teacher chose to hang fire until she had heard both sides.",
+        "answerZh": "雖然所有人都想盡快得到答案，但校長選擇暫緩決定，直至聽過雙方意見。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q32",
+        "number": 32,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The new bus route may remain delayed unless the town finds enough drivers.",
+        "promptZh": "除非鎮上找到足夠司機，否則新巴士路線可能會繼續延誤。",
+        "starter": "The",
+        "answer": "The new bus route may continue to hang fire unless the town finds enough drivers.",
+        "answerZh": "除非鎮上找到足夠司機，否則新巴士路線可能會繼續擱置。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q33",
+        "number": 33,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The committee delayed its decision for three weeks and then finally approved the plan.",
+        "promptZh": "委員會延遲決定三星期後，終於批准了計劃。",
+        "starter": "Having",
+        "answer": "Having hung fire for three weeks, the committee finally approved the plan.",
+        "answerZh": "委員會暫緩決定三星期後，終於批准了計劃。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hung fire"
+      },
+      {
+        "id": "idiom-116-q34",
+        "number": 34,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The manager said the team should delay advertising the event until the date was fixed.",
+        "promptZh": "經理表示，團隊應在日期確定前暫緩宣傳活動。",
+        "starter": "The",
+        "answer": "The manager said the team should hang fire on advertising the event until the date was fixed.",
+        "answerZh": "經理表示，團隊應暫緩宣傳活動，直至日期確定。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q35",
+        "number": 35,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "We did not know whether the hall was free, so we delayed printing the posters.",
+        "promptZh": "我們不知道禮堂是否有空，因此延遲印製海報。",
+        "starter": "Not",
+        "answer": "Not knowing whether the hall was free, we decided to hang fire on printing the posters.",
+        "answerZh": "由於不知道禮堂是否有空，我們決定暫緩印製海報。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q36",
+        "number": 36,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The two groups could not agree, so nobody dealt with the plan for a while.",
+        "promptZh": "兩個小組未能達成共識，因此計劃有一段時間無人處理。",
+        "starter": "The",
+        "answer": "The plan was left to hang fire while the two groups tried to agree.",
+        "answerZh": "兩個小組嘗試達成共識期間，計劃被暫時擱置。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q37",
+        "number": 37,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The opening of the new ride must be delayed until the safety check is complete.",
+        "promptZh": "安全檢查完成前，新機動遊戲必須暫緩開放。",
+        "starter": "Until",
+        "answer": "Until the safety check is complete, the opening of the new ride must hang fire.",
+        "answerZh": "安全檢查完成前，新機動遊戲的開放必須暫緩。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q38",
+        "number": 38,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: Are we announcing the result today? B: I prefer to wait until every form has been checked.",
+        "promptZh": "甲：我們今天會公布結果嗎？ 乙：我寧願等到所有表格都檢查完畢。",
+        "starter": "I’d",
+        "answer": "I’d rather hang fire until every form has been checked.",
+        "answerZh": "我寧願暫緩公布，直至所有表格都檢查完畢。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q39",
+        "number": 39,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "If the bank takes longer to reply, our move will also face a longer delay.",
+        "promptZh": "如果銀行需要更長時間回覆，我們搬遷的計劃也會延誤更久。",
+        "starter": "The",
+        "answer": "The longer the bank takes to reply, the longer our move will hang fire.",
+        "answerZh": "銀行回覆得越遲，我們的搬遷計劃便會擱置得越久。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q40",
+        "number": 40,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The club delayed its decision, and this prevented it from choosing a date that nobody could attend.",
+        "promptZh": "會方暫緩作決定，因而避免選擇一個無人能出席的日期。",
+        "starter": "By",
+        "answer": "By deciding to hang fire, the club avoided choosing a date that nobody could attend.",
+        "answerZh": "會方決定暫緩行動，因而避免選擇一個無人能出席的日期。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q41",
+        "number": 41,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The hotel may need to delay adding more rooms until next year’s visitor numbers are known.",
+        "promptZh": "酒店可能需要延遲增設房間，直至得知明年的旅客人數。",
+        "starter": "The",
+        "answer": "The hotel may have to hang fire on adding more rooms until next year’s visitor numbers are known.",
+        "answerZh": "酒店可能需要暫緩增設房間，直至得知明年的旅客人數。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q42",
+        "number": 42,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The organisers waited before booking the hall. Otherwise, they might have chosen one that was too small.",
+        "promptZh": "主辦者先等待，沒有立即預訂禮堂；否則，他們可能會選了一個太小的場地。",
+        "starter": "Had",
+        "answer": "Had the organisers not hung fire, they might have booked a hall that was too small.",
+        "answerZh": "如果主辦者沒有暫緩預訂，他們可能會訂了一個太小的禮堂。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hung fire"
+      },
+      {
+        "id": "idiom-116-q43",
+        "number": 43,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The team needs to wait until the final cost is clear.",
+        "promptZh": "團隊需要等待，直至最終費用清楚為止。",
+        "starter": "What",
+        "answer": "What the team needs to do is hang fire until the final cost is clear.",
+        "answerZh": "團隊需要做的是暫緩決定，直至最終費用清楚為止。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q44",
+        "number": 44,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "Two reports give different advice, so the school has almost no choice except to wait.",
+        "promptZh": "兩份報告提出不同建議，因此學校幾乎別無選擇，只能等待。",
+        "starter": "With",
+        "answer": "With two reports giving different advice, the school has little choice but to hang fire.",
+        "answerZh": "由於兩份報告提出不同建議，學校幾乎別無選擇，只能暫緩行動。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q45",
+        "number": 45,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The decision about the garden will probably remain unsettled until local families share their views.",
+        "promptZh": "有關花園的決定很可能要等到區內家庭提出意見後才能落實。",
+        "starter": "The",
+        "answer": "The decision about the garden will probably hang fire until local families have shared their views.",
+        "answerZh": "有關花園的決定很可能會暫時擱置，直至區內家庭提出意見。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      },
+      {
+        "id": "idiom-116-q46",
+        "number": 46,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The first meeting did not settle the matter because several important questions remained.",
+        "promptZh": "第一次會議未能解決事情，因為仍有幾個重要問題尚未處理。",
+        "starter": "Even",
+        "answer": "Even after the first meeting, the matter was still hanging fire because several important questions remained.",
+        "answerZh": "即使第一次會議結束後，事情仍然懸而未決，因為尚有幾個重要問題。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hanging fire"
+      },
+      {
+        "id": "idiom-116-q47",
+        "number": 47,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The school has still not decided whether the event should move indoors.",
+        "promptZh": "學校仍未決定是否應把活動移到室內舉行。",
+        "starter": "The",
+        "answer": "The question of whether to move the event indoors is still hanging fire.",
+        "answerZh": "是否把活動移到室內舉行，這個問題仍然懸而未決。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hanging fire"
+      },
+      {
+        "id": "idiom-116-q48",
+        "number": 48,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The company seems to be delaying its final design until the customer sees the sample.",
+        "promptZh": "公司似乎正延遲確定最後設計，直至顧客看過樣本。",
+        "starter": "The",
+        "answer": "The company appears to be hanging fire on the final design until the customer sees the sample.",
+        "answerZh": "公司似乎正暫緩確定最後設計，直至顧客看過樣本。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hanging fire"
+      },
+      {
+        "id": "idiom-116-q49",
+        "number": 49,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The budget cannot move forward until the missing figures arrive.",
+        "promptZh": "欠缺的數字資料到達前，預算案無法繼續處理。",
+        "starter": "Not",
+        "answer": "Not until the missing figures arrive will the budget stop hanging fire.",
+        "answerZh": "只有在欠缺的數字資料到達後，預算案才不會再被擱置。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hanging fire"
+      },
+      {
+        "id": "idiom-116-q50",
+        "number": 50,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 42,
+        "answerSourcePages": [
+          42
+        ],
+        "prompt": "The chairperson says the whole project could remain delayed unless both teams share their information by Friday.",
+        "promptZh": "主席表示，除非兩個團隊在星期五前分享資料，否則整個項目可能會繼續延誤。",
+        "starter": "According",
+        "answer": "According to the chairperson, the whole project could hang fire unless both teams share their information by Friday.",
+        "answerZh": "據主席所說，除非兩個團隊在星期五前分享資料，否則整個項目可能會繼續擱置。",
+        "targetForm": "hang fire",
+        "targetMeaning": "To delay taking action or making a decision, usually because you are waiting for more information or for the situation to become clearer.",
+        "highlight": "hang fire"
+      }
+    ]
+  }
+}

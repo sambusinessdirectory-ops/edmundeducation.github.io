@@ -1,0 +1,1443 @@
+{
+  "lesson": {
+    "id": "idiom-41",
+    "order": 41,
+    "slug": "eat-dirt",
+    "version": "1",
+    "title": "忍氣吞聲／忍受屈辱",
+    "titleEn": "eat dirt",
+    "titleZh": "忍氣吞聲／忍受屈辱",
+    "source": {
+      "file": "Idiom 41 -「Eat Dirt」.pdf",
+      "pageCount": 32,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "exercisePdfPages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "answerKeyPdfPages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "eat dirt",
+        "highlight": "eat dirt"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Carla ate dirt when the manager blamed her in public.",
+        "zh": "經理公開責怪卡拉時，她只好忍受屈辱。",
+        "highlight": "ate dirt"
+      },
+      {
+        "en": "The critic had to eat dirt when the film became successful.",
+        "zh": "電影取得成功後，那名評論家只好尷尬地承認自己錯了。",
+        "highlight": "eat dirt"
+      }
+    ],
+    "meaning": {
+      "en": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+      "zh": "忍受侮辱、責怪、失敗或惡劣對待而不作反駁或保護自己。",
+      "naturalZh": [
+        "忍氣吞聲",
+        "忍受屈辱",
+        "低頭受氣",
+        "被迫認輸",
+        "尷尬地承認自己錯了"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "Eat dirt is informal or slang. It is strong, negative and sometimes dramatic. Some modern references also mark this use as dated, so it may sound more natural in stories, arguments, sports comments and emotionally charged descriptions than in calm formal communication.",
+      "summaryZh": "Eat dirt 屬於非正式或俚語表達。 它的語氣強烈、負面，有時帶有戲劇性。 部分現代資料也把這個用法標示為較舊式，因此它較適合出現在故事、爭執、體育評論及帶有強烈情緒的描述中，而不適合平靜及正式的溝通。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "1. formal reports; 2. academic essays; 3. polite business emails; 4. customer-service replies; 5. respectful disagreement; 6. situations involving serious abuse where clear and direct language is needed.",
+      "formalZh": "正式報告； 2. 學術文章； 3. 禮貌的商業電郵； 4. 顧客服務回覆； 5. 尊重而理性的意見分歧； 6. 涉及嚴重欺凌或虐待、需要清楚直接描述的情況。"
+    },
+    "fixedVariable": {
+      "fixed": "eat dirt",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + eat / eats / ate + dirt.",
+          "example": "Carla ate dirt when the manager blamed her in public.",
+          "highlight": "ate dirt"
+        },
+        {
+          "form": "Subject + have / has / had to + eat dirt.",
+          "example": "The critic had to eat dirt when the film became successful.",
+          "highlight": "eat dirt"
+        },
+        {
+          "form": "Subject + may / might / could / will + have to + eat dirt.",
+          "example": "He may have to eat dirt if the results prove him wrong.",
+          "highlight": "eat dirt"
+        },
+        {
+          "form": "Subject + be + forced / made + to eat dirt.",
+          "example": "The losing team was forced to eat dirt after laughing at its opponents.",
+          "highlight": "eat dirt"
+        },
+        {
+          "form": "Subject + make + person + eat dirt.",
+          "example": "The owner made the workers eat dirt whenever a customer complained.",
+          "highlight": "eat dirt"
+        },
+        {
+          "form": "Subject + refuse / will not + eat dirt.",
+          "example": "I will not eat dirt for a mistake I did not make.",
+          "highlight": "eat dirt"
+        },
+        {
+          "form": "Rather than + eat dirt, subject + action.",
+          "example": "Rather than eat dirt, Mei left the team.",
+          "highlight": "eat dirt"
+        },
+        {
+          "form": "eat dirt",
+          "example": "Eating dirt for years was not worth the chance of getting a better role.",
+          "highlight": "Eating dirt"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Form",
+        "titleZh": "句式一：基本形式",
+        "formula": "Subject + eat / eats / ate + dirt.",
+        "descriptionEn": "Source grammar frame: Subject + eat / eats / ate + dirt.",
+        "descriptionZh": "原檔列出的句法框架：Subject + eat / eats / ate + dirt。",
+        "examples": [
+          {
+            "en": "Carla ate dirt when the manager blamed her in public.",
+            "zh": "經理公開責怪卡拉時，她只好忍受屈辱。",
+            "highlight": "ate dirt"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "With “Have To”",
+        "titleZh": "句式二：配合 have to",
+        "formula": "Subject + have / has / had to + eat dirt.",
+        "descriptionEn": "This is especially common when circumstances force someone to accept humiliation or admit defeat.",
+        "descriptionZh": "當環境迫使某人忍受羞辱或承認失敗時，這個句式尤其自然。",
+        "examples": [
+          {
+            "en": "The critic had to eat dirt when the film became successful.",
+            "zh": "電影取得成功後，那名評論家只好尷尬地承認自己錯了。",
+            "highlight": "eat dirt"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "With a Modal Verb",
+        "titleZh": "句式三：配合情態動詞",
+        "formula": "Subject + may / might / could / will + have to + eat dirt.",
+        "descriptionEn": "Preserve the original degree of certainty.",
+        "descriptionZh": "必須保留原句的確定程度。",
+        "examples": [
+          {
+            "en": "He may have to eat dirt if the results prove him wrong.",
+            "zh": "如果結果證明他錯了，他可能只好低頭認錯。",
+            "highlight": "eat dirt"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Being Forced",
+        "titleZh": "句式四：被迫忍辱",
+        "formula": "Subject + be + forced / made + to eat dirt.",
+        "descriptionEn": "Source grammar frame: Subject + be + forced / made + to eat dirt.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be + forced / made + to eat dirt。",
+        "examples": [
+          {
+            "en": "The losing team was forced to eat dirt after laughing at its opponents.",
+            "zh": "落敗的球隊曾嘲笑對手，賽後只好難堪地認輸。",
+            "highlight": "eat dirt"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Making Someone Accept Humiliation",
+        "titleZh": "句式五：迫使某人忍受屈辱",
+        "formula": "Subject + make + person + eat dirt.",
+        "descriptionEn": "After make, do not use to.",
+        "descriptionZh": "在 make 後面不要使用 to。",
+        "examples": [
+          {
+            "en": "The owner made the workers eat dirt whenever a customer complained.",
+            "zh": "每當有顧客投訴，老闆都迫使員工忍辱受責。",
+            "highlight": "eat dirt"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Refusing Humiliation",
+        "titleZh": "句式六：拒絕忍辱",
+        "formula": "Subject + refuse / will not + eat dirt.",
+        "descriptionEn": "Source grammar frame: Subject + refuse / will not + eat dirt.",
+        "descriptionZh": "原檔列出的句法框架：Subject + refuse / will not + eat dirt。",
+        "examples": [
+          {
+            "en": "I will not eat dirt for a mistake I did not make.",
+            "zh": "我不會為一個並非由我造成的錯誤忍辱受責。",
+            "highlight": "eat dirt"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“Rather Than” and “Would Rather”",
+        "titleZh": "句式七",
+        "formula": "Rather than + eat dirt, subject + action.",
+        "descriptionEn": "Source grammar frame: Rather than + eat dirt, subject + action.",
+        "descriptionZh": "原檔列出的句法框架：Rather than + eat dirt, subject + action。",
+        "examples": [
+          {
+            "en": "Rather than eat dirt, Mei left the team.",
+            "zh": "美怡不願忍氣吞聲，因此離開了球隊。",
+            "highlight": "eat dirt"
+          },
+          {
+            "en": "I would rather resign than eat dirt for the company’s decision.",
+            "zh": "我寧願辭職，也不願為公司的決定忍辱受責。",
+            "highlight": "eat dirt"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "The -ing Form",
+        "titleZh": "句式八：使用 -ing 形式",
+        "formula": "eat dirt",
+        "descriptionEn": "Source grammar frame: eat dirt.",
+        "descriptionZh": "原檔列出的句法框架：eat dirt。",
+        "examples": [
+          {
+            "en": "Eating dirt for years was not worth the chance of getting a better role.",
+            "zh": "為了爭取更好的角色而多年忍辱受氣，並不值得。",
+            "highlight": "Eating dirt"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Combines Humiliation and Submission",
+        "titleZh": "好處一",
+        "en": "The expression communicates more than simple criticism. It shows that someone has been brought low and has little ability to answer back.",
+        "zh": "這個表達不只是表示受到批評，還顯示某人受到壓制，並且幾乎沒有能力反駁。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Describes an Embarrassing Reversal",
+        "titleZh": "好處二",
+        "en": "It is useful when someone confidently criticises, boasts or predicts something, but later events prove that person wrong.",
+        "zh": "當某人曾經自信地批評、誇口或作出預測，但其後的事情證明他錯了，這個慣用語便十分實用。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Shows an Unfair Difference in Power",
+        "titleZh": "好處三",
+        "en": "The expression can describe a worker, pupil or team member who feels unable to defend themselves against someone more powerful.",
+        "zh": "這個表達可以描述員工、學生或隊員面對較有權力的人時，感到無力為自己辯護。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Makes a Narrative More Vivid",
+        "titleZh": "好處四",
+        "en": "Instead of giving a long explanation about pride, defeat and humiliation, a speaker can express the whole situation more sharply.",
+        "zh": "說話者無須長篇解釋自尊、失敗及羞辱，便可以用一個較鮮明的表達概括整個情況。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Helps Learners Understand Informal English",
+        "titleZh": "好處五",
+        "en": "Learners may meet the expression in novels, films, sports comments and emotional online discussions. However, understanding it does not mean that it should be used frequently.",
+        "zh": "學習者可能會在小說、電影、體育評論及帶有強烈情緒的網上討論中遇到這個表達。 不過，理解這個表達並不代表應經常使用它。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Figurative Meaning Documented by the Early Twentieth Century",
+      "statusZh": "確切來源不明；比喻意思在二十世紀初已有記錄",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The exact first idiomatic use has not been firmly identified. However, Webster’s Revised Unabridged Dictionary, published in 1913, already recorded to eat dirt and explained it as submitting humbly to insults. This shows that the figurative meaning was established by the early twentieth century, although 1913 should not be treated as the year in which the idiom was invented.",
+          "zh": "這個慣用語確切的首次比喻用法尚未得到確認。 不過，1913年出版的 Webster’s Revised Unabridged Dictionary 已收錄 to eat dirt，並把它解釋為屈辱地忍受侮辱。 這顯示其比喻意思在二十世紀初已經形成，但不應把1913年說成這個慣用語被創造的年份。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical image of being forced down towards the dirt naturally came to represent losing pride, accepting humiliation and being unable to answer back.",
+          "zh": "原檔說明了這個意思的演變。"
+        }
+      ],
+      "memoryEn": "Being pushed towards the dirt represents being brought low and forced to swallow your pride.",
+      "memoryZh": "被壓至泥土的位置，代表一個人受到壓制，並被迫放下自尊。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use the Figurative Meaning",
+        "titleZh": "本練習中的 eat dirt 絕不表示真的把泥土放進口中",
+        "en": "Eat dirt in this exercise never means physically putting soil into your mouth. The baby accidentally ate some dirt in the garden.",
+        "zh": "本練習中的 eat dirt 絕不表示真的把泥土放進口中。 嬰兒在花園中意外吃了一些泥土。 那本書取得成功後，評論家只好尷尬地承認自己錯了。",
+        "examples": [
+          {
+            "en": "The critic had to eat dirt when the book became a success.",
+            "zh": "那本書取得成功後，評論家只好尷尬地承認自己錯了。",
+            "highlight": "eat dirt"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "The Meaning Is Strong",
+        "titleZh": "Eat dirt 的語氣比以下表達強烈：",
+        "en": "It normally includes humiliation, loss of pride, powerlessness or an embarrassing defeat. This ordinary mistake is not serious or humiliating enough.",
+        "zh": "我寫錯了日期，所以我忍受屈辱。 這只是一個普通錯誤，並沒有足夠強烈的羞辱意味。",
+        "examples": [
+          {
+            "en": "I wrote the wrong date, so I ate dirt.",
+            "zh": "我寫錯了日期，所以我忍受屈辱。",
+            "highlight": "ate dirt"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "A Simple Loss Is Not Always Enough",
+        "titleZh": "不要只因某人輸掉比賽便使用 eat dirt",
+        "en": "Do not use eat dirt merely because someone loses. The player lost a friendly practice match. The second situation contains no clear humiliation, boast or loss of pride.",
+        "zh": "不要只因某人輸掉比賽便使用 eat dirt。 那名球員賽前曾嘲笑對手，其後卻慘敗，只好難堪地認輸。 那名球員輸掉了一場友誼練習賽。 第二個情況沒有明顯的羞辱、誇口或自尊受損。",
+        "examples": [
+          {
+            "en": "The player had laughed at his opponent before losing badly, so he had to eat dirt.",
+            "zh": "那名球員賽前曾嘲笑對手，其後卻慘敗，只好難堪地認輸。",
+            "highlight": "eat dirt"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則四",
+        "en": "Do not change may have to eat into ate. That would change a possibility into a completed event.",
+        "zh": "不要把 may have to eat 改成 ate，否則會把可能發生的事情變成已經完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Keep the Actor Correct",
+        "titleZh": "接受羞辱或被證明錯誤的人，才應成為 eat dirt 的主語",
+        "en": "The person who accepts the humiliation or is proved wrong must be the subject of eat dirt.",
+        "zh": "接受羞辱或被證明錯誤的人，才應成為 eat dirt 的主語。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Confuse Description with Approval",
+        "titleZh": "描述某人 ate dirt，不代表這種對待是公平或可以接受的",
+        "en": "Saying that someone ate dirt does not mean that the treatment was fair or acceptable. The idiom may describe mistreatment, but it should never be used to encourage a person to remain in an unsafe or abusive situation.",
+        "zh": "描述某人 ate dirt，不代表這種對待是公平或可以接受的。 老師惡劣對待學生時，任何學生都不應被迫忍受屈辱。 這個慣用語可以描述不公平對待，但絕不應用來鼓勵任何人留在不安全或受虐待的環境中。",
+        "examples": [
+          {
+            "en": "No student should have to eat dirt when a teacher treats them badly.",
+            "zh": "老師惡劣對待學生時，任何學生都不應被迫忍受屈辱。",
+            "highlight": "eat dirt"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "“Eat Dirt!” Is a Different Use",
+        "titleZh": "規則七",
+        "en": "Eat dirt! can also be used as a direct insult. It is a separate, hostile command and is not practised in this exercise.",
+        "zh": "也可以直接用作侮辱別人的命令。 這是另一個帶有敵意的用法，本練習不會教授或要求學生使用。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Use Plain English When It Is Safer",
+        "titleZh": "慣用語並不一定比普通表達更好",
+        "en": "An idiom is not automatically better than a plain expression. The company made its workers eat dirt.",
+        "zh": "慣用語並不一定比普通表達更好。 在正式或中性的情況下，第一句通常較安全和清楚。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using eat dirt in the correct form.",
+      "zh": "使用 eat dirt 的正確形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-41-q01",
+        "number": 1,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Whenever the coach insulted Ben, Ben stayed quiet because he wanted to keep his place on the team.",
+        "promptZh": "每當教練侮辱本時，本都會保持沉默，因為他想保住自己在隊中的位置。",
+        "starter": "Ben",
+        "answer": "Ben ate dirt whenever the coach insulted him because he wanted to keep his place on the team.",
+        "answerZh": "每當教練侮辱本時，他都只好忍氣吞聲，因為他想保住自己在隊中的位置。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "ate dirt"
+      },
+      {
+        "id": "idiom-41-q02",
+        "number": 2,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The manager blamed Carla in front of everyone, and she accepted it without arguing.",
+        "promptZh": "經理在所有人面前責怪卡拉，而她沒有反駁，只默默接受。",
+        "starter": "Carla",
+        "answer": "Carla ate dirt when the manager blamed her in front of everyone.",
+        "answerZh": "經理在所有人面前責怪卡拉時，她只好忍受屈辱。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "ate dirt"
+      },
+      {
+        "id": "idiom-41-q03",
+        "number": 3,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The older boys made Sam feel small, but he did not answer back.",
+        "promptZh": "幾名年長男生令森感到受辱，但他沒有頂嘴。",
+        "starter": "Sam",
+        "answer": "Sam ate dirt when the older boys made him feel small.",
+        "answerZh": "幾名年長男生令森感到受辱時，他只能忍氣吞聲。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "ate dirt"
+      },
+      {
+        "id": "idiom-41-q04",
+        "number": 4,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Owen’s plan failed and proved everyone else right, so he had to admit his mistake in public.",
+        "promptZh": "奧雲的計劃失敗，證明其他人才是對的，因此他只好公開承認錯誤。",
+        "starter": "Owen",
+        "answer": "Owen had to eat dirt in public after his failed plan proved everyone else right.",
+        "answerZh": "奧雲的失敗計劃證明其他人才是對的，他只好公開低頭認錯。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q05",
+        "number": 5,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The critics called Ava’s book terrible. When it won a prize, they had to accept that they were wrong.",
+        "promptZh": "評論家曾批評艾娃的書很差。當這本書得獎時，他們只好承認自己錯了。",
+        "starter": "The",
+        "answer": "The critics had to eat dirt when Ava’s book won a prize.",
+        "answerZh": "艾娃的書得獎後，那些評論家只好尷尬地承認自己錯了。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q06",
+        "number": 6,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Nora accepted a customer’s rude comments without complaining.",
+        "promptZh": "諾拉沒有投訴，只默默接受一名顧客的無禮說話。",
+        "starter": "Nora",
+        "answer": "Nora ate dirt when the customer made rude comments.",
+        "answerZh": "顧客說出無禮的話時，諾拉只好忍氣吞聲。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "ate dirt"
+      },
+      {
+        "id": "idiom-41-q07",
+        "number": 7,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The other team laughed at us before the match, but they were silent after losing 5–0.",
+        "promptZh": "另一隊在賽前嘲笑我們，但以零比五落敗後便默不作聲。",
+        "starter": "After",
+        "answer": "After laughing at us before the match, the other team had to eat dirt when they lost 5–0.",
+        "answerZh": "另一隊在賽前嘲笑我們，卻以零比五落敗，只好難堪地低頭。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q08",
+        "number": 8,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Daniel was blamed for a mistake he had not made, and he said nothing.",
+        "promptZh": "丹尼爾因一個並非由他造成的錯誤而受責怪，但他甚麼也沒有說。",
+        "starter": "Daniel",
+        "answer": "Daniel ate dirt when he was blamed for a mistake he had not made.",
+        "answerZh": "丹尼爾因一個並非由他造成的錯誤而受責怪時，只能忍氣吞聲。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "ate dirt"
+      },
+      {
+        "id": "idiom-41-q09",
+        "number": 9,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "To keep her job, Grace accepted her boss’s unfair criticism without protest.",
+        "promptZh": "為了保住工作，格蕾絲沒有抗議，只默默接受上司不公平的批評。",
+        "starter": "Grace",
+        "answer": "Grace had to eat dirt to keep her job when her boss criticised her unfairly.",
+        "answerZh": "上司不公平地批評格蕾絲時，她為了保住工作只好忍受屈辱。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q10",
+        "number": 10,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Liam said he would win easily, but he lost in the first round and had to face everyone’s laughter.",
+        "promptZh": "利亞姆說自己會輕易勝出，但他在第一輪便落敗，只好面對眾人的嘲笑。",
+        "starter": "After",
+        "answer": "After boasting that he would win easily, Liam had to eat dirt when he lost in the first round.",
+        "answerZh": "利亞姆誇口自己會輕易勝出，卻在第一輪落敗，只好丟臉地接受結果。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q11",
+        "number": 11,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Ella’s supervisor often speaks to her without respect, and she usually puts up with it.",
+        "promptZh": "艾拉的主管經常不尊重地跟她說話，而她通常都默默忍受。",
+        "starter": "Ella",
+        "answer": "Ella often eats dirt when her supervisor speaks to her without respect.",
+        "answerZh": "主管不尊重地跟艾拉說話時，她經常只能忍氣吞聲。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eats dirt"
+      },
+      {
+        "id": "idiom-41-q12",
+        "number": 12,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "For months, the owner has insulted the workers, and they have silently accepted it.",
+        "promptZh": "幾個月來，老闆一直侮辱員工，而他們只能默默接受。",
+        "starter": "The",
+        "answer": "The workers have been eating dirt for months whenever the owner insults them.",
+        "answerZh": "幾個月來，每當老闆侮辱員工時，他們都只能忍氣吞聲。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eating dirt"
+      },
+      {
+        "id": "idiom-41-q13",
+        "number": 13,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "If the director blames me in public again, I may have to accept it without arguing.",
+        "promptZh": "如果主管再次公開責怪我，我可能只好不作爭辯地接受。",
+        "starter": "I",
+        "answer": "I may have to eat dirt again if the director blames me in public.",
+        "answerZh": "如果主管再次公開責怪我，我可能又要忍受屈辱。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q14",
+        "number": 14,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "She called the new plan useless. If it succeeds, she will be forced to admit that she was wrong.",
+        "promptZh": "她曾說新計劃毫無用處。如果計劃成功，她便會被迫承認自己錯了。",
+        "starter": "She",
+        "answer": "She will have to eat dirt if the new plan she mocked succeeds.",
+        "answerZh": "如果她曾嘲笑的新計劃成功，她便只好尷尬地低頭認錯。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q15",
+        "number": 15,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "He refused to accept their insults just so that he could join the group.",
+        "promptZh": "他拒絕為了加入那個群體而忍受他們的侮辱。",
+        "starter": "He",
+        "answer": "He refused to eat dirt just to join the group.",
+        "answerZh": "他拒絕為了加入那個群體而低聲下氣地受辱。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q16",
+        "number": 16,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "No student should have to accept humiliating treatment when a teacher behaves badly.",
+        "promptZh": "當老師行為不當時，任何學生都不應被迫忍受羞辱。",
+        "starter": "No",
+        "answer": "No student should have to eat dirt when a teacher treats them badly.",
+        "answerZh": "老師惡劣對待學生時，任何學生都不應被迫忍受屈辱。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q17",
+        "number": 17,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Will you accept all the blame for this mistake without defending yourself? B: No. I did not make it.",
+        "promptZh": "甲：你會不為自己辯護，默默承擔這次錯誤的全部責任嗎？ 乙：不會。這不是我造成的。",
+        "starter": "No",
+        "answer": "No, I won’t eat dirt for a mistake I didn’t make.",
+        "answerZh": "不，我不會為一個並非由我造成的錯誤而忍辱受責。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q18",
+        "number": 18,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The boss forced Leo to accept a public scolding for the whole team’s error.",
+        "promptZh": "老闆迫使里奧因整個團隊的錯誤而公開受責罵。",
+        "starter": "The",
+        "answer": "The boss made Leo eat dirt in public for the whole team’s error.",
+        "answerZh": "老闆迫使里奧為整個團隊的錯誤而公開受辱。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q19",
+        "number": 19,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: The blogger said the film would fail. What happened after it became a hit? B: He had to admit that he was completely wrong.",
+        "promptZh": "甲：那名網誌作者曾說這部電影會失敗。電影大受歡迎後，他怎樣了？ 乙：他只好承認自己完全錯了。",
+        "starter": "The",
+        "answer": "The blogger had to eat dirt after the film became a hit.",
+        "answerZh": "電影大受歡迎後，那名網誌作者只好尷尬地承認自己錯了。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q20",
+        "number": 20,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "For years, the club leaders have blamed Rina whenever anything has gone wrong and expected her to accept their rude comments.",
+        "promptZh": "多年來，每當有事情出錯，社團領袖都會責怪麗娜，並要她默默接受無禮的說話。",
+        "starter": "The",
+        "answer": "The club leaders have made Rina eat dirt for years whenever anything has gone wrong.",
+        "answerZh": "多年來，每當有事情出錯，社團領袖都迫使麗娜忍辱受責。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q21",
+        "number": 21,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: The manager keeps insulting you. Why do you stay quiet? B: I need this job.",
+        "promptZh": "甲：經理不斷侮辱你。你為甚麼保持沉默？ 乙：我需要這份工作。",
+        "starter": "I",
+        "answer": "I eat dirt when the manager insults me because I need this job.",
+        "answerZh": "經理侮辱我時，我只能忍氣吞聲，因為我需要這份工作。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q22",
+        "number": 22,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: You said her shop would close within a month. B: I know, but it is doing very well now.",
+        "promptZh": "甲：你曾說她的店會在一個月內結業。 乙：我知道，但那間店現在生意很好。",
+        "starter": "I",
+        "answer": "I may have to eat dirt after saying that her shop would close within a month.",
+        "answerZh": "我曾說她的店會在一個月內結業，現在可能只好尷尬地認錯。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q23",
+        "number": 23,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The teacher accused the class of cheating. Later, she discovered that the answer printed on the test was wrong.",
+        "promptZh": "老師指責全班作弊。後來，她發現試卷上印出的答案有誤。",
+        "starter": "The",
+        "answer": "The teacher had to eat dirt after wrongly accusing the class of cheating.",
+        "answerZh": "老師錯誤指責全班作弊後，只好難堪地承認自己錯了。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q24",
+        "number": 24,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The club leader insulted Ken and expected him to accept it quietly, but Ken left instead.",
+        "promptZh": "社團領袖侮辱阿健，並以為他會默默接受，但阿健反而離開了。",
+        "starter": "Ken",
+        "answer": "Ken refused to eat dirt when the club leader insulted him and left instead.",
+        "answerZh": "社團領袖侮辱阿健時，他拒絕忍氣吞聲，反而選擇離開。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q25",
+        "number": 25,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A newspaper mocked a young scientist’s idea. Two years later, the idea saved many lives.",
+        "promptZh": "一份報章曾嘲笑一名年輕科學家的想法。兩年後，這個想法挽救了許多生命。",
+        "starter": "The",
+        "answer": "The newspaper had to eat dirt when the young scientist’s idea later saved many lives.",
+        "answerZh": "那名年輕科學家的想法後來挽救了許多生命，該報章只好難堪地承認看錯了。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q26",
+        "number": 26,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Why did the player make a humble apology after laughing at the other team? B: His team lost badly.",
+        "promptZh": "甲：那名球員嘲笑另一隊後，為甚麼要低聲下氣地道歉？ 乙：他的球隊慘敗了。",
+        "starter": "The",
+        "answer": "The player had to eat dirt after laughing at the other team and then losing badly.",
+        "answerZh": "那名球員嘲笑另一隊後，自己的球隊卻慘敗，只好低頭受辱。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q27",
+        "number": 27,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Even though the customer was wrong, the shop worker had to accept the angry words without answering back.",
+        "promptZh": "即使顧客有錯，店員仍要默默接受對方的怒罵，不能頂嘴。",
+        "starter": "The",
+        "answer": "The shop worker had to eat dirt even though the angry customer was wrong.",
+        "answerZh": "即使發怒的顧客有錯，店員仍只好忍氣吞聲。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q28",
+        "number": 28,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The landlord treated the family badly for years. They accepted it because they could not afford to move.",
+        "promptZh": "業主多年來一直惡劣對待這個家庭。他們因為無力搬走，只能默默忍受。",
+        "starter": "The",
+        "answer": "The family had eaten dirt for years while the landlord treated them badly because they could not afford to move.",
+        "answerZh": "這個家庭無力搬走，因此多年來面對業主的惡劣對待都只能忍氣吞聲。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eaten dirt"
+      },
+      {
+        "id": "idiom-41-q29",
+        "number": 29,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "I will not stay silent while they make me look foolish in front of the whole office.",
+        "promptZh": "當他們在整個辦公室面前令我難堪時，我不會保持沉默。",
+        "starter": "I",
+        "answer": "I will not eat dirt while they make me look foolish in front of the whole office.",
+        "answerZh": "他們在整個辦公室面前令我難堪時，我不會忍氣吞聲。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q30",
+        "number": 30,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The captain proudly said the team would be champions, but they then lost five games in a row.",
+        "promptZh": "隊長自豪地說球隊會成為冠軍，但他們其後連輸五場。",
+        "starter": "The",
+        "answer": "The captain had to eat dirt after boasting that his team would be champions and then losing five games in a row.",
+        "answerZh": "隊長誇口球隊會成為冠軍，其後卻連輸五場，只好難堪地面對結果。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q31",
+        "number": 31,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Although Priya knew the blame was unfair, she accepted it quietly to protect her younger colleague.",
+        "promptZh": "雖然普莉雅知道責怪並不公平，但她為了保護較年輕的同事而默默接受。",
+        "starter": "Although",
+        "answer": "Although Priya knew the blame was unfair, she ate dirt to protect her younger colleague.",
+        "answerZh": "雖然普莉雅知道責怪並不公平，但她為了保護較年輕的同事而忍辱受責。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "ate dirt"
+      },
+      {
+        "id": "idiom-41-q32",
+        "number": 32,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Marcus had publicly called the plan useless. When it worked, he had to admit his mistake.",
+        "promptZh": "馬庫斯曾公開批評這個計劃毫無用處。計劃奏效後，他只好承認錯誤。",
+        "starter": "Because",
+        "answer": "Because he had publicly called the plan useless, Marcus had to eat dirt when it worked.",
+        "answerZh": "馬庫斯曾公開批評這個計劃毫無用處，因此計劃奏效後，他只好難堪地認錯。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q33",
+        "number": 33,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Before I joined the team, they warned me that the older players would mock me and expect me to accept it.",
+        "promptZh": "我加入球隊前，他們警告我，年長球員會嘲笑我，並要我默默接受。",
+        "starter": "Before",
+        "answer": "Before joining the team, I was warned that I would have to eat dirt whenever the older players mocked me.",
+        "answerZh": "加入球隊前，我曾被警告，每當年長球員嘲笑我時，我都要忍氣吞聲。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q34",
+        "number": 34,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The editor wrote a harsh review, but strong sales proved her wrong. She then quietly admitted her mistake.",
+        "promptZh": "編輯寫了一篇嚴厲的評論，但強勁銷量證明她錯了。其後，她低調地承認錯誤。",
+        "starter": "After",
+        "answer": "After strong sales proved her harsh review wrong, the editor quietly ate dirt.",
+        "answerZh": "強勁銷量證明那篇嚴厲評論錯誤後，編輯只好低調地認錯。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "ate dirt"
+      },
+      {
+        "id": "idiom-41-q35",
+        "number": 35,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "If the company expects staff to accept public blame for every small problem, many of them will leave.",
+        "promptZh": "如果公司要求員工為每個小問題公開受責，許多人都會離開。",
+        "starter": "If",
+        "answer": "If the company expects staff to eat dirt over every small problem, many of them will leave.",
+        "answerZh": "如果公司要求員工為每個小問題公開忍辱受責，許多人都會離開。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q36",
+        "number": 36,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Why did Arun stay after the owner shouted at him in front of the customers? B: He needed the money.",
+        "promptZh": "甲：店主在顧客面前大聲責罵阿倫後，他為甚麼仍然留下？ 乙：他需要那筆收入。",
+        "starter": "Arun",
+        "answer": "Arun ate dirt when the owner shouted at him in front of the customers because he needed the money.",
+        "answerZh": "店主在顧客面前大聲責罵阿倫時，他因為需要收入，只好忍氣吞聲。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "ate dirt"
+      },
+      {
+        "id": "idiom-41-q37",
+        "number": 37,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The singer said her critics would be sorry. When her next song reached number one, they were forced to admit defeat.",
+        "promptZh": "歌手說她的批評者會後悔。當她下一首歌曲登上第一位時，他們被迫認輸。",
+        "starter": "When",
+        "answer": "When the singer’s next song reached number one, her critics were forced to eat dirt.",
+        "answerZh": "當歌手的下一首歌曲登上第一位時，她的批評者只好難堪地認輸。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q38",
+        "number": 38,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Mei chose to leave the team rather than accept one more insult from the coach.",
+        "promptZh": "美怡選擇離開球隊，也不願再接受教練多一次侮辱。",
+        "starter": "Rather",
+        "answer": "Rather than eat dirt after one more insult from the coach, Mei left the team.",
+        "answerZh": "美怡不願在教練再次侮辱她後繼續忍氣吞聲，因此離開球隊。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q39",
+        "number": 39,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Jonah was willing to accept some embarrassment if it would repair the friendship.",
+        "promptZh": "如果可以修補友誼，喬納願意承受一些難堪。",
+        "starter": "Jonah",
+        "answer": "Jonah was ready to eat dirt if it would repair the friendship.",
+        "answerZh": "如果可以修補友誼，喬納願意放下自尊、承受難堪。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q40",
+        "number": 40,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The old manager forced everyone to accept his insults, but the new manager apologised whenever he was wrong.",
+        "promptZh": "舊經理迫使所有人忍受他的侮辱，但新經理每逢犯錯都會道歉。",
+        "starter": "The",
+        "answer": "The old manager made everyone eat dirt, but the new manager apologised whenever he was wrong.",
+        "answerZh": "舊經理迫使所有人忍辱受氣，但新經理每逢犯錯都會道歉。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q41",
+        "number": 41,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The school blamed a pupil before checking the facts. When the real story came out, the head teacher gave a public apology.",
+        "promptZh": "學校未查清事實便責怪一名學生。真相公開後，校長作出公開道歉。",
+        "starter": "When",
+        "answer": "When the real story came out, the head teacher had to eat dirt for blaming the pupil before checking the facts.",
+        "answerZh": "真相公開後，校長只好為未查清事實便責怪學生而公開低頭認錯。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q42",
+        "number": 42,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: You laughed at my small online shop last year. B: I know. Your business is now bigger than mine.",
+        "promptZh": "甲：你去年曾嘲笑我的小型網店。 乙：我知道。你的生意現在比我的更大。",
+        "starter": "I",
+        "answer": "I suppose I have to eat dirt now that your online shop is bigger than mine.",
+        "answerZh": "既然你的網店現在比我的更成功，我想我只好尷尬地認錯了。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q43",
+        "number": 43,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The hotel expected junior workers to accept rude treatment from guests without support. Several workers finally left.",
+        "promptZh": "酒店要求初級員工在沒有支援下忍受客人的無禮對待。幾名員工最終離職。",
+        "starter": "Several",
+        "answer": "Several junior workers left because the hotel expected them to eat dirt whenever guests treated them rudely.",
+        "answerZh": "幾名初級員工離職，因為酒店要求他們在客人無禮對待時只能忍氣吞聲。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q44",
+        "number": 44,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "If the test results show that her warning was correct, the people who mocked her may need to admit that they were wrong.",
+        "promptZh": "如果測試結果顯示她的警告正確，曾嘲笑她的人可能需要承認自己錯了。",
+        "starter": "If",
+        "answer": "If the test results prove her warning correct, the people who mocked her may have to eat dirt.",
+        "answerZh": "如果測試結果證明她的警告正確，曾嘲笑她的人可能只好尷尬地認錯。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q45",
+        "number": 45,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The team leader accepted all the criticism in front of the customer so that the new worker would not be blamed.",
+        "promptZh": "團隊領袖在顧客面前承受所有批評，以免新員工受責。",
+        "starter": "The",
+        "answer": "The team leader ate dirt in front of the customer to protect the new worker.",
+        "answerZh": "團隊領袖為了保護新員工，在顧客面前忍辱承受所有責難。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "ate dirt"
+      },
+      {
+        "id": "idiom-41-q46",
+        "number": 46,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "For years, the actor accepted cruel comments from a famous director because he hoped to get a major role. He now says it was not worth it.",
+        "promptZh": "多年來，那名演員為了爭取重要角色，一直忍受一位著名導演的刻薄說話。他現在說這並不值得。",
+        "starter": "The",
+        "answer": "The actor now says that eating dirt for years while working for the famous director was not worth the chance of a major role.",
+        "answerZh": "那名演員現在說，多年來在該著名導演手下忍辱受氣，並不值得以此換取重要角色的機會。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eating dirt"
+      },
+      {
+        "id": "idiom-41-q47",
+        "number": 47,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: The company wants you to take the blame in public, even though the decision was theirs. B: Then I would rather resign.",
+        "promptZh": "甲：公司要你公開承擔責任，儘管決定是他們作出的。 乙：那我寧願辭職。",
+        "starter": "I",
+        "answer": "I would rather resign than eat dirt for the company’s decision.",
+        "answerZh": "我寧願辭職，也不願為公司的決定公開忍辱受責。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q48",
+        "number": 48,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The politician confidently promised an easy victory, but the final result left him far behind. He may now be forced to make a very humble public statement.",
+        "promptZh": "那名政治人物自信地承諾會輕易勝出，但最終結果顯示他大幅落後。他現在可能被迫公開低頭認錯。",
+        "starter": "After",
+        "answer": "After confidently promising an easy victory, the politician may now have to eat dirt in public.",
+        "answerZh": "那名政治人物自信地承諾會輕易勝出後，現在可能只好公開低頭認錯。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      },
+      {
+        "id": "idiom-41-q49",
+        "number": 49,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A small group of workers had quietly accepted unfair treatment for months. When they finally spoke together, the owner could no longer make them feel powerless.",
+        "promptZh": "一小群員工數月來一直默默忍受不公平對待。當他們終於一起發聲時，老闆再也不能令他們感到無力。",
+        "starter": "The",
+        "answer": "The workers had been eating dirt for months whenever the owner treated them unfairly, but speaking together stopped him from making them feel powerless.",
+        "answerZh": "每當老闆不公平對待員工時，他們數月來都只能忍氣吞聲；但他們一起發聲後，老闆再也不能令他們感到無力。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eating dirt"
+      },
+      {
+        "id": "idiom-41-q50",
+        "number": 50,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "At the school assembly, a quiet student won the top writing prize. The classmates who had called him stupid could only admit that they had been wrong.",
+        "promptZh": "在學校集會上，一名安靜的學生贏得最高寫作獎。曾罵他愚蠢的同學只好承認自己錯了。",
+        "starter": "At",
+        "answer": "At the school assembly, the classmates who had called the quiet student stupid had to eat dirt when he won the top writing prize.",
+        "answerZh": "在學校集會上，那名安靜的學生贏得最高寫作獎，曾罵他愚蠢的同學只好難堪地認錯。",
+        "targetForm": "eat dirt",
+        "targetMeaning": "It can also mean being forced to admit that you were wrong, especially after speaking proudly, laughing at someone or making a confident prediction that proved false.",
+        "highlight": "eat dirt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1552 @@
+{
+  "lesson": {
+    "id": "idiom-80",
+    "order": 80,
+    "slug": "bell-the-cat",
+    "version": "1",
+    "title": "挺身承擔風險／為貓掛鈴",
+    "titleEn": "bell the cat",
+    "titleZh": "挺身承擔風險／為貓掛鈴",
+    "source": {
+      "file": "Idiom 80 - bell the cat.pdf",
+      "pageCount": 32,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "exercisePdfPages": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "answerKeyPdfPages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "bell the cat",
+        "highlight": "bell the cat"
+      }
+    ],
+    "examples": [
+      {
+        "en": "No one dared to bell the cat.",
+        "zh": "沒有人敢挺身承擔這項危險任務。",
+        "highlight": "bell the cat"
+      },
+      {
+        "en": "Nora volunteered to bell the cat.",
+        "zh": "諾拉主動提出承擔這項危險任務。",
+        "highlight": "bell the cat"
+      }
+    ],
+    "meaning": {
+      "en": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+      "zh": "勇敢承擔一項危險或困難、但對整個群體有需要或有好處的行動；尤其指眾人都贊成某個做法， 卻沒有人願意承擔實行時的風險",
+      "naturalZh": [
+        "勇敢承擔一項危險或困難、但對整個群體有需要或有好處的行動",
+        "尤其指眾人都贊成某個做法， 卻沒有人願意承擔實行時的風險"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "Register: neutral, figurative and somewhat traditional",
+      "summaryZh": "語域：中性、比喻性，並帶有較傳統的色彩",
+      "contextsEn": [
+        "serious",
+        "challenging",
+        "admiring",
+        "critical",
+        "cautious",
+        "rhetorical",
+        "discussions about responsibility",
+        "workplace or school problems",
+        "reports of wrongdoing",
+        "debates about dangerous action",
+        "commentary about plans that nobody wants to carry out"
+      ],
+      "contextsZh": [
+        "嚴肅",
+        "挑戰",
+        "欣賞",
+        "批評",
+        "謹慎",
+        "反問。",
+        "有關責任的討論",
+        "工作場所或學校問題",
+        "揭發不當行為",
+        "有關危險行動的辯論",
+        "評論一些眾人支持、卻沒有人願意實行的計劃。"
+      ],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "bell the cat",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + verb or adjective frame + to bell the cat.",
+          "example": "No one dared to bell the cat.",
+          "highlight": "bell the cat"
+        },
+        {
+          "form": "Subject + can / could / will / would / should / must / may / might + bell the cat.",
+          "example": "Someone must bell the cat.",
+          "highlight": "bell the cat"
+        },
+        {
+          "form": "Who + modal or willingness frame + bell the cat?",
+          "example": "Everyone supports the complaint, but who will bell the cat?",
+          "highlight": "bell the cat"
+        },
+        {
+          "form": "Subject + bell(s) / belled + the cat.",
+          "example": "Whoever bells the cat may face criticism.",
+          "highlight": "bells the cat"
+        },
+        {
+          "form": "Belling the cat + verb",
+          "example": "Belling the cat requires courage.",
+          "highlight": "Belling the cat"
+        },
+        {
+          "form": "bell the cat",
+          "example": "We need someone who will bell the cat.",
+          "highlight": "bell the cat"
+        },
+        {
+          "form": "bell the cat",
+          "example": "No one wanted to bell the cat.",
+          "highlight": "bell the cat"
+        },
+        {
+          "form": "by + V-ing is not part of the fixed idiom.",
+          "example": "The worker agreed to bell the cat by reporting the unsafe machine.",
+          "highlight": "bell the cat"
+        },
+        {
+          "form": "bell the cat + and + action",
+          "example": "Someone must bell the cat and report the problem.",
+          "highlight": "bell the cat"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “to”",
+        "titleZh": "接在 to 之後",
+        "formula": "Subject + verb or adjective frame + to bell the cat.",
+        "descriptionEn": "Source grammar frame: Subject + verb or adjective frame + to bell the cat.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb or adjective frame + to bell the cat。",
+        "examples": [
+          {
+            "en": "No one dared to bell the cat.",
+            "zh": "沒有人敢挺身承擔這項危險任務。",
+            "highlight": "bell the cat"
+          },
+          {
+            "en": "Nora volunteered to bell the cat.",
+            "zh": "諾拉主動提出承擔這項危險任務。",
+            "highlight": "bell the cat"
+          },
+          {
+            "en": "We need someone willing to bell the cat.",
+            "zh": "我們需要一個願意挺身承擔風險的人。",
+            "highlight": "bell the cat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "接在情態動詞之後",
+        "formula": "Subject + can / could / will / would / should / must / may / might + bell the cat.",
+        "descriptionEn": "Who will bell the cat?",
+        "descriptionZh": "誰願意承擔這項風險？",
+        "examples": [
+          {
+            "en": "Someone must bell the cat.",
+            "zh": "必須有人挺身而出，承擔這項危險任務。",
+            "highlight": "bell the cat"
+          },
+          {
+            "en": "The manager may have to bell the cat.",
+            "zh": "經理可能需要親自承擔這項棘手任務。",
+            "highlight": "bell the cat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "In “Who” Questions",
+        "titleZh": "用於 Who 問句",
+        "formula": "Who + modal or willingness frame + bell the cat?",
+        "descriptionEn": "Source grammar frame: Who + modal or willingness frame + bell the cat?.",
+        "descriptionZh": "原檔列出的句法框架：Who + modal or willingness frame + bell the cat?。",
+        "examples": [
+          {
+            "en": "Everyone supports the complaint, but who will bell the cat?",
+            "zh": "所有人都支持作出投訴，但誰願意挺身承擔風險？",
+            "highlight": "bell the cat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作為一般限定動詞短語",
+        "formula": "Subject + bell(s) / belled + the cat.",
+        "descriptionEn": "Aisha finally belled the cat and reported the unsafe practice.",
+        "descriptionZh": "艾莎終於挺身而出，舉報了這項不安全的做法。",
+        "examples": [
+          {
+            "en": "Whoever bells the cat may face criticism.",
+            "zh": "挺身承擔這項風險的人可能會受到批評。",
+            "highlight": "bells the cat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "As a Gerund",
+        "titleZh": "作為動名詞",
+        "formula": "Belling the cat + verb",
+        "descriptionEn": "Source grammar frame: Belling the cat + verb.",
+        "descriptionZh": "原檔列出的句法框架：Belling the cat + verb。",
+        "examples": [
+          {
+            "en": "Belling the cat requires courage.",
+            "zh": "承擔這項危險任務需要勇氣。",
+            "highlight": "Belling the cat"
+          },
+          {
+            "en": "Nobody wanted the responsibility of belling the cat.",
+            "zh": "沒有人願意承擔挺身處理這件事的責任。",
+            "highlight": "belling the cat"
+          },
+          {
+            "en": "The risk of belling the cat frightened the group.",
+            "zh": "挺身採取行動的風險令整個小組卻步。",
+            "highlight": "belling the cat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "In Relative and Identification Structures",
+        "titleZh": "用於關係子句及辨識結構",
+        "formula": "bell the cat",
+        "descriptionEn": "What the group needs is someone prepared to bell the cat.",
+        "descriptionZh": "這個小組需要的是一個準備好承擔風險的人。",
+        "examples": [
+          {
+            "en": "We need someone who will bell the cat.",
+            "zh": "我們需要一個願意承擔風險的人。",
+            "highlight": "bell the cat"
+          },
+          {
+            "en": "She was the only person willing to bell the cat.",
+            "zh": "她是唯一願意挺身承擔風險的人。",
+            "highlight": "bell the cat"
+          },
+          {
+            "en": "The real question is who should bell the cat.",
+            "zh": "真正的問題是應由誰承擔這項風險。",
+            "highlight": "bell the cat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "In Negative and Limiting Structures",
+        "titleZh": "用於否定及限制結構",
+        "formula": "bell the cat",
+        "descriptionEn": "The plan cannot work unless someone bells the cat.",
+        "descriptionZh": "除非有人勇敢採取行動，否則計劃無法實行。",
+        "examples": [
+          {
+            "en": "No one wanted to bell the cat.",
+            "zh": "沒有人願意挺身承擔風險。",
+            "highlight": "bell the cat"
+          },
+          {
+            "en": "Nobody was brave enough to bell the cat.",
+            "zh": "沒有人有足夠勇氣承擔這項危險任務。",
+            "highlight": "bell the cat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "With “By + V-ing”",
+        "titleZh": "配合 by + V-ing",
+        "formula": "by + V-ing is not part of the fixed idiom.",
+        "descriptionEn": "How did the person bell the cat?",
+        "descriptionZh": "它回答：",
+        "examples": [
+          {
+            "en": "The worker agreed to bell the cat by reporting the unsafe machine.",
+            "zh": "這名工人同意舉報不安全的機器，挺身承擔風險。",
+            "highlight": "bell the cat"
+          },
+          {
+            "en": "The worker agreed to bell the cat.",
+            "zh": "這名工人同意挺身承擔這項危險任務。",
+            "highlight": "bell the cat"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "With the Specific Action Joined by “And”",
+        "titleZh": "以 and 加入具體行動",
+        "formula": "bell the cat + and + action",
+        "descriptionEn": "Source grammar frame: bell the cat + and + action.",
+        "descriptionZh": "原檔列出的句法框架：bell the cat + and + action。",
+        "examples": [
+          {
+            "en": "Someone must bell the cat and report the problem.",
+            "zh": "必須有人挺身舉報問題。",
+            "highlight": "bell the cat"
+          },
+          {
+            "en": "Who will bell the cat and confront the owner?",
+            "zh": "誰願意承擔風險，直接面對店主？",
+            "highlight": "bell the cat"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Identifies the Person Who Accepts the Risk",
+        "titleZh": "指出誰願意承擔風險",
+        "en": "Someone must bell the cat.",
+        "zh": "這個慣用語可以簡潔指出，必須有人承擔其他人不願面對的風險。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Highlights the Difference Between Planning and Acting",
+        "titleZh": "突出計劃與行動之間的差別",
+        "en": "The question Who will bell the cat? asks whether anyone will actually carry it out.",
+        "zh": "一群人可能都認為計劃很好，但 Who will bell the cat? 會追問究竟有沒有人願意真正執行。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Praise Courage",
+        "titleZh": "可以稱讚勇氣",
+        "en": "This sentence presents Nora as courageous because she accepted a shared risk.",
+        "zh": "這句話表示諾拉願意承擔共同風險，因此突出了她的勇氣。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Criticise Group Inaction",
+        "titleZh": "可以批評群體只說不做",
+        "en": "The contrast criticises people who support an idea but refuse to act.",
+        "zh": "這個對比批評一些只支持計劃、卻不願採取行動的人。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Creates a Powerful Rhetorical Question",
+        "titleZh": "形成有力的反問",
+        "en": "The question is short, memorable and immediately focuses attention on responsibility and risk.",
+        "zh": "這條簡短而有力的問題，能立即把焦點放在責任和風險之上。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is Not Automatically Better Than Plain English",
+        "titleZh": "並非必然比普通英語更好",
+        "en": "Someone must bell the cat.",
+        "zh": "在非常正式的文件中，直接說明行動和風險有時會更清楚。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "No separate origin status supplied",
+      "statusZh": "原檔沒有另列來源可信度",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The mice all approve the plan, but none volunteers to approach the cat. The story therefore became an image for the difference between recommending a bold action and accepting the personal danger of carrying it out.",
+          "zh": "所有老鼠都贊成計劃，卻沒有一隻願意走近貓隻。 因此，這個故事逐漸成為一個比喻，用來區分 「建議採取大膽行動」和「親自承擔執行行動的危險」。"
+        }
+      ],
+      "memoryEn": "Everyone wants the warning bell, but somebody must risk approaching the cat.",
+      "memoryZh": "所有人都想要警報鈴，但必須有人冒險走近貓隻。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Preserve “the Cat”",
+        "titleZh": "規則一：保留 the cat",
+        "en": "Preserve “the Cat”",
+        "zh": "保留 the cat",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change Only “Bell”",
+        "titleZh": "規則二：只改變 bell",
+        "en": "Change Only “Bell”",
+        "zh": "只改變 bell",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "The Action Must Involve Genuine Risk",
+        "titleZh": "規則三：行動必須涉及真正風險",
+        "en": "A worker reports a dangerous machine even though the manager may punish her. A student volunteers to clean the board.",
+        "zh": "一名工人舉報危險機器，即使經理可能懲罰她。 一名學生自願清潔白板。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Action Should Benefit a Group or Shared Cause",
+        "titleZh": "規則四：行動應對群體或共同目標有益",
+        "en": "One nurse reports the wrong medicine labels to protect the patients.",
+        "zh": "一名護士舉報錯誤的藥物標籤，以保障病人。 他為自己購買新電話。",
+        "examples": [
+          {
+            "en": "He belled the cat by buying himself a new phone.",
+            "zh": "他為自己購買新電話。",
+            "highlight": "belled the cat"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "Do Not Confuse It with “Start the Ball Rolling”",
+        "titleZh": "規則五",
+        "en": "start the ball rolling bell the cat",
+        "zh": "不要與 start the ball rolling 混淆採取令一個過程開始的第一步承擔其他人不願面對的危險或風險",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Confuse It with “Take One for the Team”",
+        "titleZh": "規則六",
+        "en": "take one for the team bell the cat",
+        "zh": "不要與 take one for the team 混淆為團隊承受損失或作出犧牲採取處理問題所需的危險行動",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve the Actor",
+        "titleZh": "規則七：保留行動者",
+        "en": "Preserve the Actor",
+        "zh": "保留行動者",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則八：保留時態及確定程度",
+        "en": "Preserve Tense and Certainty",
+        "zh": "保留時態及確定程度",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Repeat the Idiom’s Meaning",
+        "titleZh": "規則九：不要重複解釋慣用語",
+        "en": "Do Not Repeat the Idiom’s Meaning",
+        "zh": "不要重複解釋慣用語",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Keep Important Context",
+        "titleZh": "規則十：保留重要情境",
+        "en": "Keep Important Context",
+        "zh": "保留重要情境",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Avoid Literal Cat Contexts",
+        "titleZh": "規則十一：避免字面貓隻情境",
+        "en": "The owner put a bell around the cat’s neck.",
+        "zh": "主人在貓的頸上掛了一個鈴鐺。 這名工人同意挺身舉報不安全的環境。",
+        "examples": [
+          {
+            "en": "The worker agreed to bell the cat and report the unsafe conditions.",
+            "zh": "這名工人同意挺身舉報不安全的環境。",
+            "highlight": "bell the cat"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Use It for Every Difficult Action",
+        "titleZh": "規則十二：不要用來形容所有困難行動",
+        "en": "Do Not Use It for Every Difficult Action",
+        "zh": "不要用來形容所有困難行動",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using an approved form of bell the cat.",
+      "zh": "使用 bell the cat 的正確形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-80-q01",
+        "number": 1,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "All the workers knew that the old lift was unsafe, but none of them was brave enough to tell the owner.",
+        "promptZh": "所有工人都知道舊升降機並不安全，但沒有人有勇氣告訴店主。",
+        "starter": "None",
+        "answer": "None of the workers was brave enough to bell the cat and tell the owner that the old lift was unsafe.",
+        "answerZh": "沒有一名工人敢挺身承擔風險，告訴店主舊升降機並不安全。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q02",
+        "number": 2,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The class agreed that the unfair rule should be challenged. One student had to accept the risk of speaking to the head teacher.",
+        "promptZh": "全班都同意應該挑戰這條不公平的規則，但必須有一名學生承擔向校長反映的風險。",
+        "starter": "Someone",
+        "answer": "Someone had to bell the cat and speak to the head teacher about the unfair rule.",
+        "answerZh": "必須有人挺身承擔風險，向校長反映這條不公平的規則。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q03",
+        "number": 3,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: We all know that the coach is choosing players unfairly. B: Yes, but who is brave enough to complain for the whole team?",
+        "promptZh": "甲：我們都知道教練選擇球員的方式並不公平。 乙：沒錯，但誰有勇氣代表整個團隊作出投訴？",
+        "starter": "Who",
+        "answer": "Who will bell the cat and complain to the coach for the whole team?",
+        "answerZh": "誰願意挺身承擔風險，代表整個團隊向教練投訴？",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q04",
+        "number": 4,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Daniel volunteered to report the broken safety door, even though the manager might become angry with him.",
+        "promptZh": "即使經理可能會對他生氣，Daniel 仍主動提出舉報損壞的安全門。",
+        "starter": "Daniel",
+        "answer": "Daniel volunteered to bell the cat by reporting the broken safety door, even though the manager might be angry.",
+        "answerZh": "即使經理可能會生氣，Daniel 仍主動舉報損壞的安全門，承擔這項風險。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q05",
+        "number": 5,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The neighbours wanted one person to sign the complaint first, although the landlord might punish the signer.",
+        "promptZh": "鄰居希望有一個人率先簽署投訴信，儘管業主可能會懲罰簽署人。",
+        "starter": "The",
+        "answer": "The neighbours needed one person to bell the cat and sign the complaint first, even though the landlord might punish that person.",
+        "answerZh": "鄰居需要一個人挺身承擔風險，率先簽署投訴信，即使業主可能會懲罰他。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q06",
+        "number": 6,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The club members agreed that the missing money must be reported, but doing so required courage.",
+        "promptZh": "俱樂部成員同意必須舉報失款事件，但這樣做需要勇氣。",
+        "starter": "It",
+        "answer": "It took courage to bell the cat and report the missing money for the club.",
+        "answerZh": "為俱樂部挺身舉報失款事件需要勇氣。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q07",
+        "number": 7,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Our team needed a volunteer to tell the customer that the promised date was impossible, even though the customer might cancel the order.",
+        "promptZh": "我們的團隊需要一名自願者告訴顧客原定日期無法做到，即使顧客可能會取消訂單。",
+        "starter": "Our",
+        "answer": "Our team needed a volunteer to bell the cat and tell the customer that the promised date was impossible, even though the order might be cancelled.",
+        "answerZh": "我們的團隊需要一名自願者承擔風險，告訴顧客原定日期無法做到，即使訂單可能會被取消。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q08",
+        "number": 8,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Nobody dared to warn the school owner that the kitchen was unsafe.",
+        "promptZh": "沒有人敢警告學校負責人廚房並不安全。",
+        "starter": "Nobody",
+        "answer": "Nobody dared to bell the cat and warn the school owner that the kitchen was unsafe.",
+        "answerZh": "沒有人敢挺身承擔風險，警告學校負責人廚房並不安全。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q09",
+        "number": 9,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Someone should tell the director that the plan will fail. B: Would you accept the risk and do it?",
+        "promptZh": "甲：應該有人告訴主管這個計劃將會失敗。 乙：你願意承擔風險去做嗎？",
+        "starter": "Would",
+        "answer": "Would you be willing to bell the cat and tell the director that the plan will fail?",
+        "answerZh": "你願意承擔風險，告訴主管這個計劃將會失敗嗎？",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q10",
+        "number": 10,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Reporting the false test results would protect all the patients, but the reporter could lose her job.",
+        "promptZh": "舉報虛假的測試結果可以保護所有病人，但舉報者可能會失去工作。",
+        "starter": "Belling",
+        "answer": "Belling the cat by reporting the false test results could protect all the patients, but it could cost the reporter her job.",
+        "answerZh": "冒險舉報虛假的測試結果可以保護所有病人，但舉報者可能會因此失去工作。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "Belling the cat"
+      },
+      {
+        "id": "idiom-80-q11",
+        "number": 11,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "At the last meeting, Clara was the first worker brave enough to say that the new machine was dangerous.",
+        "promptZh": "在上一次會議中，Clara 是第一個有勇氣指出新機器十分危險的工人。",
+        "starter": "Clara",
+        "answer": "Clara was the first worker to bell the cat and say at the meeting that the new machine was dangerous.",
+        "answerZh": "Clara 是第一個勇敢承擔風險，在會議上指出新機器十分危險的工人。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q12",
+        "number": 12,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The medicine labels are wrong, and one nurse must report the problem before someone is harmed.",
+        "promptZh": "藥物標籤出錯，必須有一名護士在有人受傷前舉報問題。",
+        "starter": "One",
+        "answer": "One nurse must bell the cat and report the wrong medicine labels before someone is harmed.",
+        "answerZh": "必須有一名護士挺身承擔風險，在有人受傷前舉報錯誤的藥物標籤。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q13",
+        "number": 13,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The person who accepts the risk of exposing the cheating may be criticised at first.",
+        "promptZh": "願意承擔風險揭發作弊的人，起初可能會受到批評。",
+        "starter": "Whoever",
+        "answer": "Whoever agrees to bell the cat and expose the cheating may be criticised at first.",
+        "answerZh": "任何同意承擔風險揭發作弊的人，起初都可能受到批評。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q14",
+        "number": 14,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The group asked Sam whether he would accept the danger of telling the owner the truth.",
+        "promptZh": "小組詢問 Sam 是否願意承擔風險，向店主說出真相。",
+        "starter": "The",
+        "answer": "The group asked whether Sam would bell the cat and tell the owner the truth.",
+        "answerZh": "小組詢問 Sam 是否願意承擔風險，向店主說出真相。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q15",
+        "number": 15,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The editor has decided to publish the story about the company’s unsafe food, although the company may take legal action.",
+        "promptZh": "編輯決定刊登有關公司不安全食品的報道，儘管公司可能會採取法律行動。",
+        "starter": "The",
+        "answer": "The editor has decided to bell the cat and publish the story about the company’s unsafe food, although the company may take legal action.",
+        "answerZh": "編輯決定承擔風險，刊登有關公司不安全食品的報道，儘管公司可能會採取法律行動。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q16",
+        "number": 16,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The shopkeepers agreed to complain about the dishonest shop owner, but nobody wanted to make the first public complaint.",
+        "promptZh": "店主們同意投訴那名不誠實的商店負責人，但沒有人願意率先公開投訴。",
+        "starter": "In",
+        "answer": "In the complaint against the dishonest shop owner, nobody wanted to be the one to bell the cat.",
+        "answerZh": "在針對不誠實店主的投訴中，沒有人願意成為那個率先承擔風險的人。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q17",
+        "number": 17,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: The parents all support the complaint. B: Then one of us may have to sign it and give it to the head teacher.",
+        "promptZh": "甲：所有家長都支持這項投訴。 乙：那麼，我們其中一人可能需要簽署投訴信，並把它交給校長。",
+        "starter": "One",
+        "answer": "One of us may have to bell the cat by signing the complaint and giving it to the head teacher.",
+        "answerZh": "我們其中一人可能需要簽署投訴信並把它交給校長，承擔這項風險。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q18",
+        "number": 18,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The workers need a person who is willing to tell the manager that the pay records are wrong.",
+        "promptZh": "工人需要一個願意告訴經理薪酬記錄出錯的人。",
+        "starter": "The",
+        "answer": "The workers need someone willing to bell the cat and tell the manager that the pay records are wrong.",
+        "answerZh": "工人需要一個願意承擔風險，告訴經理薪酬記錄出錯的人。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q19",
+        "number": 19,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The team had agreed to report the unsafe machine. The difficult part was finding a person willing to accept the risk.",
+        "promptZh": "團隊已同意舉報不安全的機器，困難之處是找出一個願意承擔風險的人。",
+        "starter": "The",
+        "answer": "The hard part in the plan to report the unsafe machine was finding someone willing to bell the cat.",
+        "answerZh": "舉報不安全機器的計劃中，最困難的是找出一個願意承擔風險的人。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q20",
+        "number": 20,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "After weeks of silence, Aisha finally reported that the restaurant was selling unsafe food, although her boss had warned her not to.",
+        "promptZh": "經過數星期的沉默後，Aisha 終於舉報餐廳售賣不安全食品，儘管上司曾警告她不要這樣做。",
+        "starter": "After",
+        "answer": "After weeks of silence, Aisha finally belled the cat when she reported that the restaurant was selling unsafe food, although her boss had warned her not to.",
+        "answerZh": "經過數星期的沉默後，Aisha 終於挺身承擔風險，舉報餐廳售賣不安全食品，儘管上司曾警告她不要這樣做。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "belled the cat"
+      },
+      {
+        "id": "idiom-80-q21",
+        "number": 21,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Everyone agrees that the building’s fire doors must be fixed. B: But who will risk angering the owner by making the official complaint?",
+        "promptZh": "甲：所有人都同意必須維修大廈的防火門。 乙：但誰願意冒着令業主生氣的風險，作出正式投訴？",
+        "starter": "But",
+        "answer": "But who will bell the cat and make the official complaint, even if it angers the owner?",
+        "answerZh": "但誰願意承擔風險作出正式投訴，即使這樣會令業主生氣？",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q22",
+        "number": 22,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Will you tell the team leader that his plan is unsafe? B: I support the others, but I am not sure that I can accept that risk myself.",
+        "promptZh": "甲：你會告訴組長他的計劃並不安全嗎？ 乙：我支持其他人，但我不肯定自己能否承擔這項風險。",
+        "starter": "I",
+        "answer": "I support the others, but I am not sure I can bell the cat and tell the team leader that his plan is unsafe.",
+        "answerZh": "我支持其他人，但我不肯定自己能否承擔風險，告訴組長他的計劃並不安全。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q23",
+        "number": 23,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "If nobody is prepared to take the risk of reporting the problem, the plan to protect the children will remain only an idea.",
+        "promptZh": "如果沒有人願意承擔舉報問題的風險，保護兒童的計劃便只會停留在構想階段。",
+        "starter": "If",
+        "answer": "If nobody is willing to bell the cat and report the problem, the plan to protect the children will remain only an idea.",
+        "answerZh": "如果沒有人願意承擔風險舉報問題，保護兒童的計劃便只會停留在構想階段。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q24",
+        "number": 24,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The players expected their captain to risk speaking to the referee about the unfair decision for the whole team.",
+        "promptZh": "球員期望隊長承擔風險，代表整個團隊向裁判反映不公平的判決。",
+        "starter": "The",
+        "answer": "The players expected their captain to bell the cat and speak to the referee about the unfair decision.",
+        "answerZh": "球員期望隊長承擔風險，向裁判反映不公平的判決。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q25",
+        "number": 25,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Only Leo offered to tell the owner that the staff were being forced to work without breaks.",
+        "promptZh": "只有 Leo 主動提出告訴店主，員工正被迫在沒有休息時間的情況下工作。",
+        "starter": "It",
+        "answer": "It was Leo who offered to bell the cat and tell the owner that the staff were being forced to work without breaks.",
+        "answerZh": "正是 Leo 主動提出承擔風險，告訴店主員工正被迫在沒有休息時間的情況下工作。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q26",
+        "number": 26,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The committee agreed that the unsafe bridge should be closed. The real difficulty was finding someone willing to demand this publicly.",
+        "promptZh": "委員會同意應該關閉不安全的橋樑。真正的困難是找出一個願意公開提出這項要求的人。",
+        "starter": "For",
+        "answer": "For the committee, demanding that the unsafe bridge be closed meant finding somebody willing to bell the cat.",
+        "answerZh": "對委員會而言，要求關閉不安全的橋樑，意味着要找出一個願意承擔風險的人。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q27",
+        "number": 27,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: All of us want the missing money to be investigated. B: Yet none of us wants to be the first person to accuse the treasurer.",
+        "promptZh": "甲：我們所有人都希望調查失款事件。 乙：可是，我們沒有人願意率先指控司庫。",
+        "starter": "None",
+        "answer": "None of us wants to bell the cat and be the first to accuse the treasurer.",
+        "answerZh": "我們沒有人願意承擔風險，率先指控司庫。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q28",
+        "number": 28,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The reporter knew that exposing the false accounts could end her career, but it would protect the public.",
+        "promptZh": "記者知道揭發虛假帳目可能會令她失去事業，但這樣做可以保護公眾。",
+        "starter": "The",
+        "answer": "The reporter knew that belling the cat by exposing the false accounts could end her career, but it would protect the public.",
+        "answerZh": "記者知道冒險揭發虛假帳目可能會令她失去事業，但這樣做可以保護公眾。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "belling the cat"
+      },
+      {
+        "id": "idiom-80-q29",
+        "number": 29,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "One resident agreed to be the first person to sign the letter so that the dangerous road could finally be reported.",
+        "promptZh": "一名居民同意率先簽署信件，讓危險道路的問題終於可以得到舉報。",
+        "starter": "To",
+        "answer": "To bell the cat, one resident agreed to be the first to sign the letter about the dangerous road.",
+        "answerZh": "為了挺身承擔風險，一名居民同意率先簽署有關危險道路的信件。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q30",
+        "number": 30,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Although every shop owner supported reporting the threats, nobody volunteered to make the call.",
+        "promptZh": "雖然每名店主都支持舉報威脅行為，但沒有人自願致電舉報。",
+        "starter": "Although",
+        "answer": "Although every shop owner supported the idea, nobody volunteered to bell the cat and report the threats.",
+        "answerZh": "雖然每名店主都支持這個做法，但沒有人自願承擔風險舉報威脅行為。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q31",
+        "number": 31,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The plan to challenge the landlord is sensible. B: Yes, but which tenant will accept the risk of speaking first?",
+        "promptZh": "甲：挑戰業主的計劃很合理。 乙：沒錯，但哪一名租客願意承擔率先發言的風險？",
+        "starter": "Yes",
+        "answer": "Yes, but who will bell the cat and speak to the landlord first?",
+        "answerZh": "沒錯，但誰願意承擔風險，率先與業主交涉？",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q32",
+        "number": 32,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Raj was ready to report the unsafe wires, even though the building owner might refuse to renew his shop agreement.",
+        "promptZh": "Raj 準備舉報不安全的電線，儘管大廈業主可能拒絕延續他的商店租約。",
+        "starter": "Raj",
+        "answer": "Raj was willing to bell the cat and report the unsafe wires, even though the building owner might refuse to renew his shop agreement.",
+        "answerZh": "Raj 願意承擔風險舉報不安全的電線，即使大廈業主可能拒絕延續他的商店租約。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q33",
+        "number": 33,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The group had no clear proof, so it would have been unfair to ask one member to take the risk of making the accusation.",
+        "promptZh": "小組沒有明確證據，因此要求其中一名成員承擔提出指控的風險並不公平。",
+        "starter": "Without",
+        "answer": "Without clear proof, it would have been unfair to ask anyone to bell the cat and make the accusation.",
+        "answerZh": "在沒有明確證據的情況下，要求任何人承擔風險提出指控都並不公平。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q34",
+        "number": 34,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The committee could not move forward until one member agreed to tell the director that the money had been used wrongly.",
+        "promptZh": "在其中一名成員同意告訴主管款項使用不當前，委員會無法採取進一步行動。",
+        "starter": "The",
+        "answer": "The committee could not move forward until one member agreed to bell the cat and tell the director that the money had been used wrongly.",
+        "answerZh": "在其中一名成員同意承擔風險，告訴主管款項使用不當前，委員會無法採取進一步行動。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q35",
+        "number": 35,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Nora spoke openly about the manager’s threats at the meeting, accepting the risk for the whole team.",
+        "promptZh": "Nora 在會議上公開談論經理的威脅，為整個團隊承擔了風險。",
+        "starter": "By",
+        "answer": "By speaking openly about the manager’s threats at the meeting, Nora belled the cat on behalf of the whole team.",
+        "answerZh": "Nora 在會議上公開談論經理的威脅，代表整個團隊承擔了這項風險。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "belled the cat"
+      },
+      {
+        "id": "idiom-80-q36",
+        "number": 36,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Taking the dangerous action may protect everyone else, but it can place the volunteer at risk.",
+        "promptZh": "採取這項危險行動可能會保護其他人，但自願者本人可能需要承擔風險。",
+        "starter": "Belling",
+        "answer": "Belling the cat may protect everyone else, but it can put the volunteer at risk.",
+        "answerZh": "挺身承擔危險任務可能會保護其他人，但自願者本人也會面對風險。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "Belling the cat"
+      },
+      {
+        "id": "idiom-80-q37",
+        "number": 37,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The workers did not need another plan. They needed a colleague prepared to tell the owner that the factory was unsafe.",
+        "promptZh": "工人並不需要另一個計劃。他們需要一名準備好告訴店主工廠並不安全的同事。",
+        "starter": "What",
+        "answer": "What the workers needed was a colleague prepared to bell the cat and tell the owner that the factory was unsafe.",
+        "answerZh": "工人需要的是一名準備好承擔風險，告訴店主工廠並不安全的同事。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q38",
+        "number": 38,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: The director says that he wants honest feedback. B: Even so, nobody wants to name the real problem because he may become angry.",
+        "promptZh": "甲：主管說他希望收到誠實的意見。 乙：即使如此，仍然沒有人願意指出真正的問題，因為他可能會生氣。",
+        "starter": "Even",
+        "answer": "Even so, nobody wants to bell the cat by naming the real problem because the director may become angry.",
+        "answerZh": "即使如此，仍然沒有人願意指出真正的問題並承擔風險，因為主管可能會生氣。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q39",
+        "number": 39,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "If Amir had not agreed to report the false safety checks, the dangerous practice would have continued.",
+        "promptZh": "如果 Amir 沒有同意舉報虛假的安全檢查，這項危險做法便會繼續。",
+        "starter": "If",
+        "answer": "If Amir had not agreed to bell the cat and report the false safety checks, the dangerous practice would have continued.",
+        "answerZh": "如果 Amir 沒有同意承擔風險，舉報虛假的安全檢查，這項危險做法便會繼續。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q40",
+        "number": 40,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The group disagreed about which member should accept the risk of telling the public the truth.",
+        "promptZh": "小組對於應由哪一名成員承擔向公眾說出真相的風險意見不一。",
+        "starter": "The",
+        "answer": "The question of who should bell the cat and tell the public the truth divided the group.",
+        "answerZh": "應由誰承擔風險向公眾說出真相的問題，令小組出現分歧。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q41",
+        "number": 41,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The hospital staff supported making a complaint about the unsafe schedule. However, they still had to decide who would risk signing it.",
+        "promptZh": "醫院員工支持就不安全的工作安排作出投訴，但他們仍然需要決定由誰冒險簽署投訴信。",
+        "starter": "The",
+        "answer": "The hospital staff supported the complaint, but they still had to decide who would bell the cat and sign it.",
+        "answerZh": "醫院員工支持作出投訴，但仍然需要決定由誰承擔風險簽署投訴信。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q42",
+        "number": 42,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The local workers feared losing their jobs if they reported the dishonest use of money. An independent inspector might have to accept the risk instead.",
+        "promptZh": "本地員工擔心舉報款項的不誠實用途會令他們失去工作。可能需要由一名獨立調查員承擔這項風險。",
+        "starter": "It",
+        "answer": "It might take an independent inspector to bell the cat and report the dishonest use of money.",
+        "answerZh": "可能需要一名獨立調查員承擔風險，舉報款項的不誠實用途。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q43",
+        "number": 43,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The workers’ group may eventually choose one representative to make the dangerous complaint for everyone.",
+        "promptZh": "工人組織最終可能會選擇一名代表，為所有人作出這項有風險的投訴。",
+        "starter": "The",
+        "answer": "The workers’ group may eventually ask one representative to bell the cat and make the complaint for everyone.",
+        "answerZh": "工人組織最終可能會要求一名代表為所有人承擔風險並作出投訴。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q44",
+        "number": 44,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: The rule is unfair, so the newest worker should complain. B: That would place all the risk on the person with the least power.",
+        "promptZh": "甲：這條規則並不公平，所以應由最新入職的員工作出投訴。 乙：這樣會把所有風險放在權力最小的人身上。",
+        "starter": "The",
+        "answer": "The rule is unfair, but asking the newest worker to bell the cat would be unreasonable.",
+        "answerZh": "這條規則並不公平，但要求最新入職的員工承擔這項風險並不合理。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q45",
+        "number": 45,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Everyone wanted the false report to be made public. Only Lina accepted the danger of releasing it.",
+        "promptZh": "所有人都希望公開虛假報告，但只有 Lina 願意承擔發布報告的風險。",
+        "starter": "Lina",
+        "answer": "Lina was the only person willing to bell the cat and make the false report public.",
+        "answerZh": "Lina 是唯一願意承擔風險，公開虛假報告的人。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q46",
+        "number": 46,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A plan to stop the unsafe practice cannot work unless somebody is prepared to take the risk of reporting it.",
+        "promptZh": "除非有人準備好承擔舉報的風險，否則制止這項不安全做法的計劃無法實行。",
+        "starter": "No",
+        "answer": "No plan to stop the unsafe practice can work unless somebody is prepared to bell the cat and report it.",
+        "answerZh": "除非有人準備好承擔風險舉報這項不安全做法，否則任何制止它的計劃都無法實行。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q47",
+        "number": 47,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Whether anyone accepts the risk of speaking against the company will depend on how much protection the witnesses receive.",
+        "promptZh": "是否有人願意承擔風險指控公司，將取決於證人可以得到多少保障。",
+        "starter": "Whether",
+        "answer": "Whether anyone will bell the cat and speak against the company depends on how much protection the witnesses receive.",
+        "answerZh": "是否有人願意承擔風險指控公司，取決於證人可以得到多少保障。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q48",
+        "number": 48,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The person who finally takes the risk and reports the truth may not be thanked immediately, even if the group benefits later.",
+        "promptZh": "最終承擔風險並舉報真相的人，未必會立即得到感謝，即使整個群體日後會因此受益。",
+        "starter": "The",
+        "answer": "The person who finally bells the cat and reports the truth may not be thanked immediately, even if the group benefits later.",
+        "answerZh": "最終承擔風險並舉報真相的人，未必會立即得到感謝，即使整個群體日後會因此受益。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bells the cat"
+      },
+      {
+        "id": "idiom-80-q49",
+        "number": 49,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The chairperson should accept the risk instead of asking the youngest member to make the complaint.",
+        "promptZh": "主席應該親自承擔風險，而不是要求最年輕的成員作出投訴。",
+        "starter": "The",
+        "answer": "The chairperson, rather than the youngest member, should bell the cat and make the complaint.",
+        "answerZh": "應由主席而不是最年輕的成員承擔風險並作出投訴。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      },
+      {
+        "id": "idiom-80-q50",
+        "number": 50,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: We all know that the company selling us parts is cheating us, but making a complaint may end our agreement. B: Then the difficulty is not knowing what to do. It is finding someone willing to accept the risk.",
+        "promptZh": "甲：我們都知道向我們出售零件的公司正在欺騙我們，但作出投訴可能會終止雙方的合作協議。 乙：那麼，困難之處不在於不知道應該做甚麼，而是要找出一個願意承擔風險的人。",
+        "starter": "Then",
+        "answer": "Then the real question is not what to do, but who is willing to bell the cat and make the complaint.",
+        "answerZh": "那麼，真正的問題不在於應該做甚麼，而在於誰願意承擔風險作出投訴。",
+        "targetForm": "bell the cat",
+        "targetMeaning": "to be brave enough to undertake a dangerous or difficult action that is necessary or beneficial to a group, especially when everyone supports the idea but nobody wants to accept the risk",
+        "highlight": "bell the cat"
+      }
+    ]
+  }
+}

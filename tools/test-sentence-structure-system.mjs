@@ -20,9 +20,10 @@ const [
   supabaseSchema,
   bookmarkMigration,
   correctionMigration,
-  lessonMigration
+  lessonMigration,
+  importManifestSource
 ] = await Promise.all([
-  read("sentence-structure-lessons-5-275.js"),
+  read("sentence-structure-lessons-5-345.js"),
   read("sentence-structure-data.js"),
   read("sentence-structure.js"),
   read("sentence-structure.html"),
@@ -32,8 +33,10 @@ const [
   read("supabase-sentence-structure.sql"),
   read("supabase-sentence-structure-section-bookmarks.sql"),
   read("supabase-sentence-structure-correction-state.sql"),
-  read("supabase-sentence-structure-lessons-219-275.sql")
+  read("supabase-sentence-structure-lessons-276-345.sql"),
+  read("tools/sentence-structure-import-manifest-275-343.json")
 ]);
+const importManifest = JSON.parse(importManifestSource);
 
 const tests = [];
 const test = (name, run) => tests.push({ name, run });
@@ -54,7 +57,7 @@ function normalizeStudentNames(value) {
 function loadContent() {
   const sandbox = { window: {} };
   vm.createContext(sandbox);
-  vm.runInContext(expansionSource, sandbox, { filename: "sentence-structure-lessons-5-275.js" });
+  vm.runInContext(expansionSource, sandbox, { filename: "sentence-structure-lessons-5-345.js" });
   vm.runInContext(dataSource, sandbox, { filename: "sentence-structure-data.js" });
   return sandbox.window.EDMUND_SENTENCE_STRUCTURE_DATA;
 }
@@ -63,7 +66,7 @@ const content = loadContent();
 const lessons = content.lessons;
 const allQuestions = lessons.flatMap((lesson) => lesson.questions);
 const importedLessonSources = await Promise.all(
-  Array.from({ length: 271 }, (_, index) => index + 5)
+  Array.from({ length: 341 }, (_, index) => index + 5)
     .map(async (number) => normalizeStudentNames(JSON.parse(
       await read(`tools/sentence-structure-lessons/ss${String(number).padStart(2, "0")}.json`)
     )))
@@ -301,18 +304,18 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   };
 }
 
-test("data contract contains 275 complete 50-question lessons", () => {
+test("data contract contains 345 complete 50-question lessons", () => {
   assert.ok(Object.isFrozen(content), "top-level content should be immutable");
   assert.equal(content.version, 1);
-  const expectedIds = Array.from({ length: 275 }, (_, index) => `ss${index + 1}`);
+  const expectedIds = Array.from({ length: 345 }, (_, index) => `ss${index + 1}`);
   assert.equal(lessons.length, expectedIds.length);
   assert.deepEqual(Array.from(lessons, (lesson) => lesson.id), expectedIds);
   assert.deepEqual(
     Array.from(lessons, (lesson) => lesson.questions.length),
     Array.from({ length: expectedIds.length }, () => 50)
   );
-  assert.equal(allQuestions.length, 13750);
-  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 13750);
+  assert.equal(allQuestions.length, 17250);
+  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 17250);
   assert.doesNotMatch(JSON.stringify(lessons), /\bMia\b|米婭/);
   assert.match(JSON.stringify(lessons), /\bTom\b|湯姆/);
   assert.equal(new Set(lessons.map((lesson) => lesson.source.file)).size, expectedIds.length);
@@ -320,7 +323,7 @@ test("data contract contains 275 complete 50-question lessons", () => {
   assert.deepEqual(
     JSON.parse(JSON.stringify(lessons.slice(4))),
     importedLessonSources,
-    "the public expansion bundle must match its 271 auditable JSON sources"
+    "the public expansion bundle must match its 341 auditable JSON sources"
   );
 
   const byId = new Map(lessons.map((lesson) => [lesson.id, lesson]));
@@ -334,6 +337,375 @@ test("data contract contains 275 complete 50-question lessons", () => {
   assert.match(byId.get("ss248").source.file, /^Sentence Structure 247\b/);
   assert.match(byId.get("ss249").source.file, /^Sentence Structure 248\b/);
   assert.match(byId.get("ss275").source.file, /^Sentence Structure 274\b/);
+  assert.match(byId.get("ss276").source.file, /^sentence structure 275\b/i);
+  assert.match(byId.get("ss311").source.file, /^Sentence Structure 310\b.*Do not get me wrong/i);
+  assert.match(byId.get("ss312").source.file, /^Sentence Structure 310\b.*With all due respect/i);
+  assert.match(byId.get("ss345").source.file, /^Sentence Structure 343\b/);
+  assert.equal(importManifest.fileCount, 70);
+  assert.equal(importManifest.questionCount, 3500);
+  assert.deepEqual(importManifest.systemOrderRange, [276, 345]);
+  assert.equal(importManifest.lessons[0].lessonId, "ss276");
+  assert.equal(importManifest.lessons.at(-1).lessonId, "ss345");
+  const newTeachingCards = [];
+  for (const lesson of lessons.slice(275)) {
+    for (const [field, value] of [
+      ["titleEn", lesson.titleEn],
+      ["formula", lesson.formula],
+      ["example", lesson.example],
+      ...lesson.instructions.en.map((line, index) => [`instructions.en[${index}]`, line])
+    ]) {
+      assert.doesNotMatch(
+        value,
+        /[，。；：！？、／「」『』【】]/u,
+        `${lesson.id} ${field} must use English punctuation`
+      );
+    }
+    for (const [kind, cards] of [["rule", lesson.rules], ["benefit", lesson.benefits]]) {
+      for (const card of cards) {
+        newTeachingCards.push(card);
+        assert.match(
+          card.zh,
+          /[\u3400-\u9fff]/u,
+          `${lesson.id} ${kind} ${card.id} must contain substantive Chinese-primary teaching text`
+        );
+        assert.match(
+          card.zh.trim(),
+          /^[\u3400-\u9fff]/u,
+          `${lesson.id} ${kind} ${card.id} must begin with Chinese-primary teaching text`
+        );
+        const chineseCharacterCount = (card.zh.match(/[\u3400-\u9fff]/gu) || []).length;
+        assert.ok(
+          chineseCharacterCount >= 12,
+          `${lesson.id} ${kind} ${card.id} must contain a substantive Chinese explanation`
+        );
+        const chinesePrimaryProse = card.zh.replace(/「[^」]*」|【[^】]*】/gu, "");
+        const latinCharacterCount = (chinesePrimaryProse.match(/[A-Za-z]/g) || []).length;
+        assert.ok(
+          latinCharacterCount <= chineseCharacterCount * 2,
+          `${lesson.id} ${kind} ${card.id} Chinese-primary text must not be Latin-dominated`
+        );
+        const englishWordCount = (
+          card.en.match(/[A-Za-z]+(?:['’][A-Za-z]+)?/g) || []
+        ).length;
+        if (englishWordCount >= 40) {
+          assert.ok(
+            chineseCharacterCount * 2 >= englishWordCount,
+            `${lesson.id} ${kind} ${card.id} Chinese explanation must cover at least half of the English teaching prose`
+          );
+        }
+        assert.ok(
+          card.en.length <= 1000,
+          `${lesson.id} ${kind} ${card.id} must stay below the reviewed teaching-card display limit`
+        );
+        assert.doesNotMatch(
+          card.zh,
+          /^(?:重要規則|學習好處)：\s*(?:\d+[.．]\s*)?[A-Za-z]/u,
+          `${lesson.id} ${kind} ${card.id} must not put English prose after a generic Chinese label`
+        );
+        assert.doesNotMatch(
+          card.zh,
+          /^(?:使用「.+」時，請遵守以下固定形式|以下教材內容說明「.+」在清晰度)/u,
+          `${lesson.id} ${kind} ${card.id} must not use generic Chinese boilerplate`
+        );
+        assert.doesNotMatch(
+          card.zh,
+          /^其中，\s*\d+[.．]\s*[A-Za-z]/u,
+          `${lesson.id} ${kind} ${card.id} must not expose a raw numbered English heading`
+        );
+        assert.doesNotMatch(
+          card.en,
+          /^This (?:rule|benefit) explains/u,
+          `${lesson.id} ${kind} ${card.id} must not use a generic English fallback`
+        );
+        assert.doesNotMatch(
+          card.en,
+          /[\u3400-\u9fff]/u,
+          `${lesson.id} ${kind} ${card.id} English explanation must not contain Chinese text`
+        );
+        assert.doesNotMatch(
+          card.en,
+          /[，。；：！？、／「」『』【】]/u,
+          `${lesson.id} ${kind} ${card.id} English explanation must use English punctuation`
+        );
+        assert.doesNotMatch(
+          card.en,
+          /[（(「『【]\s*$/u,
+          `${lesson.id} ${kind} ${card.id} English explanation must not end with a dangling opening mark`
+        );
+        assert.doesNotMatch(
+          card.en,
+          /^\d{1,2}[.):．]\s*/u,
+          `${lesson.id} ${kind} ${card.id} must not expose a source card ordinal`
+        );
+        assert.doesNotMatch(
+          card.en,
+          /[●•▪◦]|\b(?:Best\s+)?Core Grammar Bank\b|\bPattern\s+\d+\s*:/iu,
+          `${lesson.id} ${kind} ${card.id} must not expose source-only bullets or structural headings`
+        );
+        assert.equal(
+          (card.zh.match(/「/gu) || []).length,
+          (card.zh.match(/」/gu) || []).length,
+          `${lesson.id} ${kind} ${card.id} must balance Chinese quotation marks`
+        );
+        assert.equal(
+          (card.zh.match(/（/gu) || []).length,
+          (card.zh.match(/）/gu) || []).length,
+          `${lesson.id} ${kind} ${card.id} must balance Chinese parentheses`
+        );
+        assert.equal(
+          (card.zh.match(/【/gu) || []).length,
+          (card.zh.match(/】/gu) || []).length,
+          `${lesson.id} ${kind} ${card.id} must balance embedded formula references`
+        );
+        assert.doesNotMatch(
+          card.zh,
+          /[。！？]\s*；/u,
+          `${lesson.id} ${kind} ${card.id} must not retain an orphan Chinese section-join separator`
+        );
+        assert.doesNotMatch(
+          card.zh,
+          /[。！？]\s*[。！？]/u,
+          `${lesson.id} ${kind} ${card.id} must not repeat Chinese sentence punctuation`
+        );
+        assert.doesNotMatch(
+          card.zh,
+          /；\s*$/u,
+          `${lesson.id} ${kind} ${card.id} must not end with an orphan Chinese separator`
+        );
+        for (const match of card.zh.matchAll(/（([^）]*)）/gu)) {
+          assert.ok(
+            match[1].length <= 120 && (match[1].match(/[。！？]/gu) || []).length <= 1,
+            `${lesson.id} ${kind} ${card.id} must not contain an oversized or multi-sentence parenthetical span`
+          );
+        }
+        assert.doesNotMatch(
+          card.zh,
+          /(?:正確|錯誤|不要使用|應使用|不要寫(?:成)?|寫成|核心(?:句型|結構|詞語|表達)|你也可以寫|直接說)[^。！？；]{0,20}[：:]\s*(?=(?:正確|錯誤|不要使用|應使用|不要寫(?:成)?|寫成|核心(?:句型|結構|詞語|表達)|你也可以寫|直接說)|$)/u,
+          `${lesson.id} ${kind} ${card.id} must not point to an omitted source formula or example`
+        );
+        assert.doesNotMatch(
+          card.zh,
+          /核心(?:文法句型|文法|句型|句式|句法)(?:庫|組合)|相似句型比較|可選延伸部分/u,
+          `${lesson.id} ${kind} ${card.id} must not expose Chinese structural source headings`
+        );
+        assert.doesNotMatch(
+          card.zh,
+          /【（|（【|一部分核心句型|條件如果|固定部分核心|的人詞語【|如果你不介意我這樣說實際使用時|恕我直言希望|一般現在式定期|一般過去式較低|完成式這些|情態動詞新制度|否定句額外|疑問句較高|現在式那麼|過去式城鎮|完成式或被動式這種|將來式或情態動詞建築|一般現在時或過去時這套|情態動詞這項建議|完成時這項服務|報告句專家|關係子句委員會|讓步從句雖然|（Present；|（Past；|（Perfect；|（Future）?；|過去式那麼|核心固定表達核心|前面的字詞並非固定部分以下|Let me put it this way:；The words|Well,；Frankly|all the known facts。Everything points|all the evidence,；|使用完整形式兩者意思相同|並非真的指「每一件物件」在這個句型中|在：【X is more of A than/u,
+          `${lesson.id} ${kind} ${card.id} must not contain malformed delimiters or concatenated labels`
+        );
+        assert.doesNotMatch(
+          card.en,
+          /A strong exercise should (?:teach|practise)|X is more of A than A is/iu,
+          `${lesson.id} ${kind} ${card.id} must not expose source authoring meta-text or a truncated formula`
+        );
+        assert.doesNotMatch(
+          card.zh,
+          /優質練習應把核心句型/u,
+          `${lesson.id} ${kind} ${card.id} must not expose source authoring meta-text in Chinese`
+        );
+        for (const field of ["en", "zh"]) {
+          const units = card[field]
+            .split(/(?<=[.!?。！？])\s+|\s*;\s*/u)
+            .map((unit) => normalText(unit).toLocaleLowerCase())
+            .filter(Boolean);
+          assert.equal(
+            new Set(units).size,
+            units.length,
+            `${lesson.id} ${kind} ${card.id} ${field} must not repeat an exact sentence/list item`
+          );
+        }
+      }
+    }
+  }
+  assert.equal(newTeachingCards.length, 974);
+  assert.equal(
+    byId.get("ss280").formula,
+    "Namely is used after a general statement to identify the exact person, thing, reason, question or list being discussed"
+  );
+  assert.equal(
+    byId.get("ss322").formula,
+    "Chances are that + subject + verb + other information"
+  );
+  assert.match(
+    byId.get("ss303").rules.find((card) => card.id === "ss303-rule-04").zh,
+    /以 Noah 為例：Noah 從甚麼時候起一直在學韓語？/u
+  );
+  const ss309Definitions = byId.get("ss309").rules.find((card) => card.id === "ss309-rule-02").zh;
+  assert.match(
+    ss309Definitions,
+    /詞語【you】代表聽取意見的人；\s*詞語【me】代表提出意見的人；\s*詞語【saying】代表提出這項意見；/u
+  );
+  assert.match(
+    ss309Definitions,
+    /整個表達的字面意思接近「如果你不介意我這樣說」；實際使用時，通常相當於「恕我直言」，也可表示希望你不介意我這樣說。/u
+  );
+  assert.match(
+    byId.get("ss315").rules.find((card) => card.id === "ss315-rule-01").zh,
+    /詞語【That】代表前文所說的整項內容。/u
+  );
+  assert.match(
+    byId.get("ss306").rules.find((card) => card.id === "ss306-rule-01").zh,
+    /核心表達：直接問句最常見的現在式是：/u
+  );
+  assert.match(
+    byId.get("ss306").rules.find((card) => card.id === "ss306-rule-02").zh,
+    /^過去式：那麼，租戶當時陷入了甚麼處境？/u
+  );
+  assert.match(
+    byId.get("ss286").rules.find((card) => card.id === "ss286-rule-08").zh,
+    /這個核心句型可以自然地用作直接建議，也可放在時間、條件、原因或讓步子句之後。/u
+  );
+  assert.match(
+    byId.get("ss317").rules.find((card) => card.id === "ss317-rule-01").zh,
+    /核心固定表達是【Let me put it this way:】。/u
+  );
+  assert.match(
+    byId.get("ss317").rules.find((card) => card.id === "ss317-rule-02").zh,
+    /【Well,】、【Frankly,】、【To be honest,】[\s\S]*例句【To be honest, let me put it this way:/u
+  );
+  assert.match(
+    byId.get("ss318").rules.find((card) => card.id === "ss318-rule-05").zh,
+    /本練習使用完整形式。兩者意思相同；/u
+  );
+  assert.match(
+    byId.get("ss323").rules.find((card) => card.id === "ss323-rule-04").zh,
+    /^並非真的指「每一件物件」。在這個句型中[\s\S]*【all the known facts】。例句【Everything points to a misunderstanding\.】/u
+  );
+  assert.equal(
+    byId.get("ss327").rules.find((card) => card.id === "ss327-rule-01").en,
+    "In X is more of A than B, A is the stronger or more accurate description. For example, in ‘The meeting was more of an introduction than a negotiation’, an introduction is the more accurate description and a negotiation is the less accurate one. Reversing A and B changes the meaning."
+  );
+  assert.match(
+    byId.get("ss333").rules.find((card) => card.id === "ss333-rule-13").en,
+    /^Goes to show that does not necessarily mean proves that\./u
+  );
+  const ss338TenseBank = byId.get("ss338").rules.find((card) => card.id === "ss338-rule-07").zh;
+  for (const expected of [
+    "一般現在式：定期練習會帶來更大的自信。",
+    "一般過去式：較低成本帶來了更高利潤。",
+    "完成式：這些改革已帶來更安全的工作環境。",
+    "情態動詞：新制度可能會帶來較短的輪候時間。",
+    "否定句：額外努力並沒有帶來更好的成果。",
+    "疑問句：較高薪金是否一定會帶來更強的工作動力？"
+  ]) assert.ok(ss338TenseBank.includes(expected), `ss338-rule-07 must retain ${expected}`);
+  assert.equal(
+    newTeachingCards.filter((card) => card.zhSource === "editorial-translation").length,
+    39,
+    "all and only the 39 genuinely English-only source cards need reviewed Chinese translations"
+  );
+  assert.equal(
+    newTeachingCards.filter((card) => card.zhSource === "pdf-with-editorial-clarification").length,
+    89,
+    "all and only the 89 terse or incomplete source-Chinese cards need reviewed clarifications"
+  );
+  assert.equal(
+    newTeachingCards.filter((card) => card.enSource === "editorial-translation").length,
+    20,
+    "all and only the 20 Chinese-only source cards need reviewed English translations"
+  );
+  assert.deepEqual(
+    newTeachingCards
+      .filter((card) => card.enSource === "pdf-with-editorial-clarification")
+      .map((card) => card.id),
+    ["ss286-rule-08", "ss323-rule-04", "ss327-rule-01", "ss333-rule-13", "ss345-rule-04"],
+    "the five extraction-truncated, malformed-list, or authoring-meta cards must retain reviewed English clarifications"
+  );
+  assert.equal(
+    newTeachingCards.filter((card) =>
+      /^(?:重要規則|學習好處)：\s*(?:\d+[.．]\s*)?[A-Za-z]/u.test(card.zh)
+    ).length,
+    0,
+    "the 574-card generic-label/English regression must remain eliminated"
+  );
+  assert.equal(
+    newTeachingCards.filter((card) => {
+      const chinese = (card.zh.match(/[\u3400-\u9fff]/gu) || []).length;
+      const chinesePrimaryProse = card.zh.replace(/「[^」]*」|【[^】]*】/gu, "");
+      const latin = (chinesePrimaryProse.match(/[A-Za-z]/g) || []).length;
+      return latin > chinese * 2;
+    }).length,
+    0,
+    "the 715-card Latin-dominance regression must remain eliminated"
+  );
+  assert.equal(
+    newTeachingCards.filter((card) => {
+      const chinese = (card.zh.match(/[\u3400-\u9fff]/gu) || []).length;
+      const englishWords = (card.en.match(/[A-Za-z]+(?:['’][A-Za-z]+)?/g) || []).length;
+      return englishWords >= 40 && chinese * 2 < englishWords;
+    }).length,
+    0,
+    "every prose-heavy card must pass the generated-output bilingual-completeness gate"
+  );
+  assert.equal(
+    newTeachingCards.filter((card) => card.en.length > 1000).length,
+    0,
+    "oversized grammar-bank and related-structure blocks must remain semantically split"
+  );
+  assert.deepEqual(
+    newTeachingCards.filter((card) => /[a-z]$/u.test(card.id)).map((card) => card.id),
+    [
+      "ss276-rule-12a",
+      "ss280-rule-08a",
+      "ss280-rule-08b",
+      "ss282-rule-02a",
+      "ss286-rule-08a",
+      "ss298-rule-09a",
+      "ss306-rule-06a",
+      "ss317-rule-07a",
+      "ss317-rule-07b",
+      "ss318-rule-06a",
+      "ss318-rule-06b",
+      "ss322-rule-06a",
+      "ss322-rule-07a",
+      "ss324-rule-11a",
+      "ss325-rule-07a",
+      "ss328-rule-11a",
+      "ss338-rule-07a",
+      "ss342-rule-11a",
+      "ss342-rule-11b",
+    ],
+    "the 19 reviewed semantic splits must remain stable"
+  );
+  const occurrenceCount = (value, needle) => value.split(needle).length - 1;
+  const joinedField = (lessonId, kind, field) =>
+    byId.get(lessonId)[kind].map((card) => card[field]).join(" ");
+  assert.equal(
+    occurrenceCount(
+      joinedField("ss280", "rules", "en"),
+      "Three departments were affected—namely, sales, finance and operations."
+    ),
+    1
+  );
+  assert.equal(
+    occurrenceCount(
+      joinedField("ss280", "rules", "en"),
+      "The policy has two aims: namely, to reduce waste and to lower costs."
+    ),
+    1
+  );
+  assert.equal(
+    occurrenceCount(byId.get("ss306").benefits[0].en, "The service is closing."),
+    1
+  );
+  assert.equal(
+    occurrenceCount(byId.get("ss306").benefits[0].zh, "這項服務即將停止。"),
+    1
+  );
+  assert.equal(
+    occurrenceCount(
+      joinedField("ss318", "rules", "en"),
+      "For what it is worth, I think the plan is sensible."
+    ),
+    1
+  );
+  assert.equal(
+    occurrenceCount(joinedField("ss322", "rules", "zh"), "火車很可能會誤點。"),
+    1
+  );
+  assert.equal(
+    occurrenceCount(joinedField("ss322", "rules", "zh"), "價格很可能會上升。"),
+    1
+  );
   assert.equal(byId.get("ss127").source.pageCount, 20);
   assert.ok(byId.get("ss127").source.omissions.some((note) => /blank trailing page/i.test(note)));
   assert.ok(Number.isInteger(byId.get("ss205").questions[45].source.promptContinuationPage));
@@ -353,11 +725,15 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
   assert.match(supabaseSchema, /v_key_count not in \(6, 9\)/, "Supabase must accept legacy and correction-state results");
   assert.match(frontendSource, /rounds: state\.exercise\.rounds\.slice\(-250\)/, "client history must respect the server round limit");
   assert.match(frontendSource, /maxlength="1000"[^>]+data-answer-input=/, "answer inputs must respect the server answer limit");
-  assert.match(frontendSource, /const MAX_BOOKMARKS = 16000;/, "frontend bookmark capacity must cover the expanded corpus");
-  assert.match(workerSource, /const MAX_BOOKMARKS = 16000;/, "Worker bookmark capacity must match the frontend");
+  assert.match(frontendSource, /const MAX_BOOKMARKS = 20000;/, "frontend bookmark capacity must cover the expanded corpus");
+  assert.match(workerSource, /const MAX_BOOKMARKS = 20000;/, "Worker bookmark capacity must match the frontend");
   assert.match(workerSource, /const MAX_BOOKMARK_BODY_BYTES = 2 \* 1024 \* 1024;/, "Worker bookmark request size must cover the expanded corpus");
-  assert.match(supabaseSchema, /jsonb_array_length\(p_bookmarks\) > 16000/, "Supabase bookmark capacity must match the frontend");
+  assert.match(supabaseSchema, /jsonb_array_length\(p_bookmarks\) > 20000/, "Supabase bookmark capacity must match the frontend");
   assert.match(supabaseSchema, /octet_length\(p_bookmarks::text\) > 2097152/, "Supabase bookmark payload size must cover the expanded corpus");
+  assert.match(lessonMigration, /begin;\s+set local lock_timeout = '5s';\s+set local statement_timeout = '2min';/i,
+    "the lesson migration must bound lock and execution waits");
+  assert.match(lessonMigration, /pg_catalog\.pg_advisory_xact_lock\(/,
+    "the lesson migration must serialize concurrent runs");
   assert.match(workerSource, /const SECTION_BOOKMARK_ID = "__section__";/);
   assert.match(supabaseSchema, /question_id = '__section__'/);
   assert.match(bookmarkMigration, /question_id = '__section__' and include_answer = false/,
@@ -380,6 +756,56 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
     correctionMigration,
     "_sentence_structure_result_valid"
   );
+  const privilegedRpcSignatures = [
+    ["sentence_structure_list_bookmarks", ["uuid"]],
+    ["sentence_structure_list_bookmarks_page", ["uuid", "integer", "integer"]],
+    ["sentence_structure_admin_list_bookmarks", ["uuid", "uuid"]],
+    ["sentence_structure_admin_list_bookmarks_page", ["uuid", "uuid", "integer", "integer"]],
+    ["sentence_structure_upsert_attempt", [
+      "uuid", "uuid", "text", "text", "text", "integer", "integer", "integer", "integer",
+      "timestamptz", "jsonb"
+    ]]
+  ];
+  const securityDefinerNames = [...lessonMigration.matchAll(
+    /create or replace function public\.([a-z0-9_]+)\(/gi
+  )]
+    .map((match) => match[1])
+    .filter((name) => /security definer/i.test(functionSql(lessonMigration, name)))
+    .sort();
+  assert.deepEqual(
+    securityDefinerNames,
+    privilegedRpcSignatures.map(([name]) => name).sort(),
+    "every recreated SECURITY DEFINER function must be covered by the explicit privilege inventory"
+  );
+  for (const [name, argumentTypes] of privilegedRpcSignatures) {
+    const signature = `${name}\\s*\\(\\s*${argumentTypes.join("\\s*,\\s*")}\\s*\\)`;
+    assert.match(
+      lessonMigration,
+      new RegExp(`revoke all on function public\\.${signature}\\s+from\\s+public\\s*,\\s*anon\\s*,\\s*authenticated\\s*,\\s*service_role\\s*;`, "i"),
+      `${name} must revoke inherited execution from every application role`
+    );
+    assert.match(
+      lessonMigration,
+      new RegExp(`grant execute on function public\\.${signature}\\s+to\\s+service_role\\s*;`, "i"),
+      `${name} must explicitly grant execution only to service_role`
+    );
+  }
+  for (const [name, argumentTypes] of [
+    ["_sentence_structure_result_valid", ["text", "jsonb"]],
+    ["_sentence_structure_bookmark_payload_valid", ["jsonb"]]
+  ]) {
+    const signature = `${name}\\s*\\(\\s*${argumentTypes.join("\\s*,\\s*")}\\s*\\)`;
+    assert.match(
+      lessonMigration,
+      new RegExp(`revoke all on function public\\.${signature}\\s+from\\s+public\\s*,\\s*anon\\s*,\\s*authenticated\\s*,\\s*service_role\\s*;`, "i"),
+      `${name} validator helper must revoke execution from every application role`
+    );
+    assert.doesNotMatch(
+      lessonMigration,
+      new RegExp(`grant execute on function public\\.${signature}`, "i"),
+      `${name} validator helper must not be executable by an application role`
+    );
+  }
   for (const functionName of [
     "_sentence_structure_bookmark_payload_valid",
     "sentence_structure_replace_bookmarks"
@@ -413,11 +839,11 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
   }
   assert.match(
     lessonMigration,
-    /sentence_structure_attempts_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-9\]\[0-9\]\|1\[0-9\]\[0-9\]\|2\[0-6\]\[0-9\]\|27\[0-5\]\)\$'\)/
+    /sentence_structure_attempts_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-9\]\[0-9\]\|\[12\]\[0-9\]\{2\}\|3\[0-3\]\[0-9\]\|34\[0-5\]\)\$'\)/
   );
   assert.match(
     lessonMigration,
-    /sentence_structure_bookmarks_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-9\]\[0-9\]\|1\[0-9\]\[0-9\]\|2\[0-6\]\[0-9\]\|27\[0-5\]\)\$'\)/
+    /sentence_structure_bookmarks_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-9\]\[0-9\]\|\[12\]\[0-9\]\{2\}\|3\[0-3\]\[0-9\]\|34\[0-5\]\)\$'\)/
   );
   assert.match(workerSource, /const BOOKMARK_PAGE_SIZE = 900;/);
   assert.ok(workerSource.includes("sentence_structure_list_bookmarks_page"));
@@ -436,6 +862,12 @@ test("every question preserves the bilingual exercise and answer contract", () =
     assert.ok(Array.isArray(lesson.benefits) && lesson.benefits.length > 0);
     assert.ok(Array.isArray(lesson.instructions.en) && lesson.instructions.en.length > 0);
     assert.ok(Array.isArray(lesson.instructions.zh) && lesson.instructions.zh.length > 0);
+    for (const line of [...lesson.instructions.en, ...lesson.instructions.zh]) {
+      assert.doesNotMatch(line, /[●•▪◦]/u, `${lesson.id}: instructions must not expose raw bullets`);
+    }
+    for (const line of lesson.instructions.zh) {
+      assert.doesNotMatch(line, /；\s*$/u, `${lesson.id}: Chinese instruction must not end with an orphan separator`);
+    }
     if (lesson.order >= 115) {
       for (const field of ["title", "titleZh"]) {
         const value = normalText(lesson[field]);
@@ -451,7 +883,7 @@ test("every question preserves the bilingual exercise and answer contract", () =
           assert.match(item.en, /[A-Za-z]/, `${item.id}: English teaching text is missing`);
           assert.doesNotMatch(item.en, /[\u3400-\u9fff]/u, `${item.id}: English teaching text contains Chinese extraction leakage`);
           assert.ok(
-            ["pdf", "editorial-translation"].includes(item.enSource),
+            ["pdf", "editorial-translation", "pdf-with-editorial-clarification"].includes(item.enSource),
             `${item.id}: English teaching-text provenance is missing`
           );
         }
@@ -614,9 +1046,9 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(html, /data-bookmark-list/);
   assert.match(html, /data-admin-student-list/);
   assert.match(html, /data-admin-detail/);
-  assert.match(html, /data-lesson-count>275</);
+  assert.match(html, /data-lesson-count>345</);
   const configAt = html.indexOf('src="sentence-structure-config.js"');
-  const expansionAt = html.indexOf('src="sentence-structure-lessons-5-275.js');
+  const expansionAt = html.indexOf('src="sentence-structure-lessons-5-345.js');
   const dataAt = html.indexOf('src="sentence-structure-data.js');
   const appAt = html.indexOf('type="module" src="sentence-structure.js');
   assert.ok(
@@ -1462,7 +1894,7 @@ test("bookmark normalization, secrecy, reveal, synchronization, and limit all ho
   }));
   await sut.toggleBookmark("ss1", "ss1-q02");
   assert.equal(sut.state.bookmarks.length, sut.MAX_BOOKMARKS);
-  assert.match(sut.elements.toast.textContent, /最多可儲存 16000 個書簽/);
+  assert.match(sut.elements.toast.textContent, /最多可儲存 20000 個書簽/);
 });
 
 test("dashboard progress disclosure is collapsed by default and persists per student account", () => {

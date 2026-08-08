@@ -1,0 +1,1438 @@
+{
+  "lesson": {
+    "id": "idiom-40",
+    "order": 40,
+    "slug": "go-through-fire",
+    "version": "1",
+    "title": "歷盡艱辛／受盡苦難",
+    "titleEn": "Go Through Fire",
+    "titleZh": "歷盡艱辛／受盡苦難",
+    "source": {
+      "file": "Idiom 40 - 「Go Through Fire」.pdf",
+      "pageCount": 34,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "exercisePdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "answerKeyPdfPages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "Go Through Fire",
+        "highlight": "Go Through Fire"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I would go through fire for my family.",
+        "zh": "為了家人，我願意赴湯蹈火。",
+        "highlight": "go through fire"
+      },
+      {
+        "en": "Aaron went through fire to protect the community centre.",
+        "zh": "亞倫歷盡艱辛，保護社區中心。",
+        "highlight": "went through fire"
+      }
+    ],
+    "meaning": {
+      "en": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+      "zh": "為了某人、某項理念或一個十分重要的目標而承受，或願意承受，極大的困難、危險、痛苦、壓力或犧牲。",
+      "naturalZh": [
+        "歷盡艱辛",
+        "受盡苦難",
+        "不惜承受重大困難",
+        "為……作出極大犧牲",
+        "為……赴湯蹈火"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "strong; dramatic; emotionally charged; generally informal to neutral; sometimes literary or poetic.",
+      "summaryZh": "這個表達語氣強烈、富有戲劇性和感情色彩，一般屬於非正式至中性語域，有時也帶有文學或詩意色彩。",
+      "contextsEn": [
+        "strong",
+        "dramatic",
+        "emotionally charged",
+        "generally informal to neutral",
+        "sometimes literary or poetic",
+        "personal conversations",
+        "speeches",
+        "interviews",
+        "stories",
+        "reflective writing",
+        "discussions of loyalty, sacrifice or determination",
+        "endure severe hardship"
+      ],
+      "contextsZh": [],
+      "formalEn": "In a highly formal report, a plainer expression may be safer:",
+      "formalZh": "由於這個表達的語氣十分強烈，不當使用可能顯得誇張。"
+    },
+    "fixedVariable": {
+      "fixed": "Go Through Fire",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + go through fire + for + person, group or cause.",
+          "example": "I would go through fire for my family.",
+          "highlight": "go through fire"
+        },
+        {
+          "form": "Subject + go through fire + to + base verb.",
+          "example": "Aaron went through fire to protect the community centre.",
+          "highlight": "went through fire"
+        },
+        {
+          "form": "Subject + be willing, ready or prepared + to go through fire.",
+          "example": "She is willing to go through fire for the team.",
+          "highlight": "go through fire"
+        },
+        {
+          "form": "Subject + went, has gone or had gone + through fire.",
+          "example": "The family went through fire during those difficult years.",
+          "highlight": "went through fire"
+        },
+        {
+          "form": "Subject + may, might, could, will or would + go through fire.",
+          "example": "We may have to go through fire to rebuild their trust.",
+          "highlight": "go through fire"
+        },
+        {
+          "form": "Going through fire + rest of sentence.",
+          "example": "Going through fire for one goal can change a person.",
+          "highlight": "Going through fire"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "For a Person, Group or Cause",
+        "titleZh": "句式一：為某人、團體或理念承受艱辛",
+        "formula": "Subject + go through fire + for + person, group or cause.",
+        "descriptionEn": "Use for to identify the person, group or cause that receives the loyalty or sacrifice.",
+        "descriptionZh": "使用 for 指出說話者願意為哪一個人、團體或理念作出犧牲。",
+        "examples": [
+          {
+            "en": "I would go through fire for my family.",
+            "zh": "為了家人，我願意赴湯蹈火。",
+            "highlight": "go through fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "To Achieve or Protect Something",
+        "titleZh": "句式二：為達成或保護某事而承受艱辛",
+        "formula": "Subject + go through fire + to + base verb.",
+        "descriptionEn": "Source grammar frame: Subject + go through fire + to + base verb.",
+        "descriptionZh": "原檔列出的句法框架：Subject + go through fire + to + base verb。",
+        "examples": [
+          {
+            "en": "Aaron went through fire to protect the community centre.",
+            "zh": "亞倫歷盡艱辛，保護社區中心。",
+            "highlight": "went through fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Expressing Willingness",
+        "titleZh": "句式三：表示願意承受艱辛",
+        "formula": "Subject + be willing, ready or prepared + to go through fire.",
+        "descriptionEn": "Source grammar frame: Subject + be willing, ready or prepared + to go through fire.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be willing, ready or prepared + to go through fire。",
+        "examples": [
+          {
+            "en": "She is willing to go through fire for the team.",
+            "zh": "她願意為團隊赴湯蹈火。",
+            "highlight": "go through fire"
+          },
+          {
+            "en": "We are prepared to go through fire to complete the work.",
+            "zh": "我們願意歷盡艱辛，完成工作。",
+            "highlight": "go through fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Describing Past Experience",
+        "titleZh": "句式四：描述過往經歷",
+        "formula": "Subject + went, has gone or had gone + through fire.",
+        "descriptionEn": "Source grammar frame: Subject + went, has gone or had gone + through fire.",
+        "descriptionZh": "原檔列出的句法框架：Subject + went, has gone or had gone + through fire。",
+        "examples": [
+          {
+            "en": "The family went through fire during those difficult years.",
+            "zh": "這個家庭在那些艱難歲月中歷盡艱辛。",
+            "highlight": "went through fire"
+          },
+          {
+            "en": "They had gone through fire before they finally succeeded.",
+            "zh": "他們在終於成功前已經歷盡艱辛。",
+            "highlight": "gone through fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Modal or Conditional Use",
+        "titleZh": "句式五：情態或條件用法",
+        "formula": "Subject + may, might, could, will or would + go through fire.",
+        "descriptionEn": "Source grammar frame: Subject + may, might, could, will or would + go through fire.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may, might, could, will or would + go through fire。",
+        "examples": [
+          {
+            "en": "We may have to go through fire to rebuild their trust.",
+            "zh": "我們可能要歷盡艱辛，才能重建他們的信任。",
+            "highlight": "go through fire"
+          },
+          {
+            "en": "I would go through fire if that were necessary to protect her.",
+            "zh": "如果保護她有此需要，我願意赴湯蹈火。",
+            "highlight": "go through fire"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Gerund or Progressive Form",
+        "titleZh": "句式六：動名詞或進行形式",
+        "formula": "Going through fire + rest of sentence.",
+        "descriptionEn": "Source grammar frame: Going through fire + rest of sentence.",
+        "descriptionZh": "原檔列出的句法框架：Going through fire + rest of sentence。",
+        "examples": [
+          {
+            "en": "Going through fire for one goal can change a person.",
+            "zh": "為一個目標歷盡艱辛，可以改變一個人。",
+            "highlight": "Going through fire"
+          },
+          {
+            "en": "We felt that we were going through fire to keep the restaurant open.",
+            "zh": "我們覺得自己為了令餐廳繼續營業而歷盡艱辛。",
+            "highlight": "going through fire"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Communicates Extreme Hardship Compactly",
+        "titleZh": "簡潔表達極大艱辛",
+        "en": "He went through fire to protect his family.",
+        "zh": "這個表達可以把多年痛苦、危險和犧牲濃縮成較簡潔有力的句子。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Highlights Loyalty",
+        "titleZh": "突出忠誠",
+        "en": "The expression communicates more than willingness to help. It suggests very deep commitment.",
+        "zh": "這個表達不只是表示願意幫忙，而是顯示十分深厚的承諾和忠誠。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Adds Emotional Force",
+        "titleZh": "加強感情色彩",
+        "en": "The second sentence presents the experience as far more painful and serious.",
+        "zh": "第二句把這段經歷形容得更加痛苦和嚴峻。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Praise Determination and Sacrifice",
+        "titleZh": "讚揚決心及犧牲",
+        "en": "This highlights both the difficulty and the person’s determination.",
+        "zh": "這個表達同時突出困難的程度和當事人的決心。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Can Question Unfair Expectations",
+        "titleZh": "質疑不公平的要求",
+        "en": "The expression can criticise situations in which somebody is expected to sacrifice too much. Important Benefit Warning 重要提示 An idiom is not automatically better than a plain expression. Use go through fire only when the hardship is genuinely extreme and the dramatic tone serves a clear purpose.",
+        "zh": "這個表達也可以批評某人被要求作出過多犧牲的情況。 慣用語不一定比直接說法更好。 只有在困難確實十分嚴峻，而且強烈語氣具有明確作用時，才應使用 go through fire。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Short-Form Origin Unknown; Related Longer Form Documented",
+      "statusZh": "確切簡短形式來源不明；相關較長形式已有記錄",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Psalm 66:12 in English Bible translations contains the image of people who “went through fire and water” before reaching safety. This demonstrates an old religious and literary image of surviving severe trials, but it does not prove when the exact modern expression was invented. Major learner dictionaries document the longer form go through fire and water rather than establishing a first use of go through fire alone. Cambridge describes the longer expression as UK old-fashioned.",
+          "zh": "英文《聖經》詩篇第66篇第12節包含人們經過「火與水」後到達安穩之地的畫面。 這顯示以火與水象徵嚴峻考驗的意象由來已久，但不能證明確切的現代表達是在何時創造。 主要學習字典收錄的是較完整的 go through fire and water，而未能確認 go through fire 這個簡短形式的首次使用時間。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical image of surviving fire came to represent enduring pain, danger and sacrifice. The shorter go through fire retains the strongest part of that image and is understood as a dramatic metaphor.",
+          "zh": "捱過真正火焰的畫面逐漸用來代表承受痛苦、危險和犧牲。 簡短形式 go through fire 保留了這個意象中最強烈的部分，成為富有戲劇性的比喻。"
+        }
+      ],
+      "memoryEn": "Surviving fire requires exceptional strength; going through fire for a goal means refusing to give up despite exceptional hardship.",
+      "memoryZh": "捱過火焰需要非凡力量；為目標 go through fire，便表示即使面對極大艱辛也不放棄。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “Through Fire” Fixed",
+        "titleZh": "規則一：through fire 必須保持不變",
+        "en": "Keep “Through Fire” Fixed",
+        "zh": "through fire 必須保持不變",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Go” According to the Grammar",
+        "titleZh": "規則二：按照文法改變 go",
+        "en": "Change “Go” According to the Grammar",
+        "zh": "按照文法改變 go",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use “For” Before the Person or Cause",
+        "titleZh": "規則三：在人或理念前使用 for",
+        "en": "Use “For” Before the Person or Cause",
+        "zh": "在人或理念前使用 for",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use “To + Verb” for the Goal",
+        "titleZh": "規則四：使用 to + 動詞表示目標",
+        "en": "Use “To + Verb” for the Goal",
+        "zh": "使用 to + 動詞表示目標",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則五：保留時態及確定程度",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把一個可能性變成已經完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "The Hardship Must Be Extreme",
+        "titleZh": "規則六：困難必須十分嚴峻",
+        "en": "The Hardship Must Be Extreme",
+        "zh": "困難必須十分嚴峻",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Use the Figurative Meaning",
+        "titleZh": "規則七：使用比喻意思",
+        "en": "The father went through fire to give his children a safe home.",
+        "zh": "本練習只測試比喻意思，不測試真正穿過火焰的意思。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve the Person, Goal and Situation",
+        "titleZh": "規則八：保留人物、目標及情境",
+        "en": "Rosa went through fire to complete her nursing course.",
+        "zh": "答案應保留所涉及的目標，不能為求簡短而刪去重要情境。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Repeat the Meaning",
+        "titleZh": "規則九：不要重複相同意思",
+        "en": "Rosa went through fire to complete her nursing course.",
+        "zh": "已經表達「承受極大艱辛」，因此不應立即再次解釋相同意思。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Related Expressions Are Not the Target",
+        "titleZh": "規則十：相關表達並不是本練習的目標",
+        "en": "Related Expressions Are Not the Target",
+        "zh": "相關表達並不是本練習的目標",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Use It to Demand Unhealthy Sacrifice",
+        "titleZh": "規則十一：不要用它要求他人作出不健康的犧牲",
+        "en": "The expression can describe loyalty, but loyalty does not mean accepting abuse, danger or unfair treatment.",
+        "zh": "這個表達可以形容忠誠，但忠誠並不表示必須接受虐待、危險或不公平對待。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Use It Selectively",
+        "titleZh": "規則十二：選擇性使用",
+        "en": "1. the hardship is extremely serious; 2. an important person, cause or goal is involved; 3. the strong dramatic tone is appropriate.",
+        "zh": "只有在困難十分嚴峻、涉及重要的人或目標，而且強烈語氣適合當時情境時，才應使用這個表達。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond using the target idiom.",
+      "zh": "使用目標慣用語改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-40-q01",
+        "number": 1,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Daniel faced many serious difficulties during a very hard year so that his family could stay together.",
+        "promptZh": "丹尼爾在非常艱難的一年裡面對許多重大困難，好讓家人能夠繼續在一起。",
+        "starter": "Daniel",
+        "answer": "Daniel went through fire to keep his family together during a very difficult year.",
+        "answerZh": "丹尼爾在非常艱難的一年裡受盡艱辛，努力維繫家庭。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q02",
+        "number": 2,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Rosa worked at night and faced great hardship so that she could finish her nursing course.",
+        "promptZh": "羅莎晚上工作，並克服重重困難，好讓自己能完成護理課程。",
+        "starter": "Rosa",
+        "answer": "Rosa went through fire to finish her nursing course while working at night.",
+        "answerZh": "羅莎一邊晚上工作，一邊受盡艱辛完成護理課程。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q03",
+        "number": 3,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The small shop was close to closing. The team made great sacrifices to save it.",
+        "promptZh": "這間小店幾乎要結業，團隊作出了很大犧牲來挽救它。",
+        "starter": "The",
+        "answer": "The team went through fire to save the small shop from closing.",
+        "answerZh": "團隊歷盡艱辛，挽救這間小店免於結業。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q04",
+        "number": 4,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "I would face any serious hardship to help my younger brother.",
+        "promptZh": "為了幫助弟弟，我願意承受任何重大的困難。",
+        "starter": "I",
+        "answer": "I would go through fire for my younger brother.",
+        "answerZh": "為了弟弟，我願意赴湯蹈火。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q05",
+        "number": 5,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Mrs Lee endured terrible pressure and danger to protect the children in her care.",
+        "promptZh": "李太承受了極大的壓力和危險，以保護由她照顧的孩子。",
+        "starter": "Mrs",
+        "answer": "Mrs Lee went through fire to protect the children in her care.",
+        "answerZh": "李太不惜承受極大艱辛，保護由她照顧的孩子。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q06",
+        "number": 6,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The family suffered greatly while trying to build a safe life in a new country.",
+        "promptZh": "這個家庭為了在新國家建立安穩生活而受盡艱辛。",
+        "starter": "The",
+        "answer": "The family went through fire to build a safe life in a new country.",
+        "answerZh": "這個家庭歷盡艱辛，在新國家建立安穩生活。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q07",
+        "number": 7,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "He has faced years of painful struggle to reach this point in his career.",
+        "promptZh": "他經歷了多年的痛苦奮鬥，才在事業上走到今天這一步。",
+        "starter": "He",
+        "answer": "He has gone through fire to reach this point in his career.",
+        "answerZh": "他歷盡艱辛，才在事業上走到今天這一步。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "gone through fire"
+      },
+      {
+        "id": "idiom-40-q08",
+        "number": 8,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Our school club nearly disappeared, but we made great sacrifices to keep it running.",
+        "promptZh": "我們的學校學會幾乎解散，但我們作出了很大犧牲，令它得以繼續運作。",
+        "starter": "We",
+        "answer": "We went through fire to keep the school club alive.",
+        "answerZh": "我們歷盡艱辛，令學校學會得以繼續運作。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q09",
+        "number": 9,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "After the accident, Claire endured months of severe hardship while supporting her mother.",
+        "promptZh": "意外後，克萊爾在照顧母親期間經歷了數月的重大困難。",
+        "starter": "Claire",
+        "answer": "Claire went through fire to support her mother after the accident.",
+        "answerZh": "意外後，克萊爾歷盡艱辛照顧母親。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q10",
+        "number": 10,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The parents accepted years of hardship and sacrifice so that their children could have a better life.",
+        "promptZh": "這對父母多年來承受艱辛並作出犧牲，好讓子女能過上更好的生活。",
+        "starter": "The",
+        "answer": "The parents went through fire to give their children a better life.",
+        "answerZh": "這對父母歷盡艱辛，為子女創造更好的生活。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q11",
+        "number": 11,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Ben is always ready to face the greatest difficulties for his team.",
+        "promptZh": "本總是願意為團隊面對最嚴峻的困難。",
+        "starter": "Ben",
+        "answer": "Ben is always ready to go through fire for his team.",
+        "answerZh": "本總是願意為團隊赴湯蹈火。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q12",
+        "number": 12,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "She is prepared to suffer greatly if that is necessary to defend her closest friend.",
+        "promptZh": "如果有需要，她願意承受極大痛苦來保護自己最親密的朋友。",
+        "starter": "She",
+        "answer": "She is prepared to go through fire to defend her closest friend.",
+        "answerZh": "她願意赴湯蹈火，保護自己最親密的朋友。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q13",
+        "number": 13,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Rebuilding trust after the mistake may require us to face very serious difficulties.",
+        "promptZh": "犯錯後要重建信任，我們可能需要面對非常嚴重的困難。",
+        "starter": "We",
+        "answer": "We may have to go through fire to rebuild trust after the mistake.",
+        "answerZh": "犯錯後要重建信任，我們可能要歷盡艱辛。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q14",
+        "number": 14,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The family has suffered terribly since losing its home. However, its members have stayed together.",
+        "promptZh": "這個家庭自失去住所後受盡苦難，但各人仍然團結在一起。",
+        "starter": "The",
+        "answer": "The family has gone through fire since losing its home, but its members have stayed together.",
+        "answerZh": "這個家庭自失去住所後歷盡艱辛，但各人仍然團結在一起。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "gone through fire"
+      },
+      {
+        "id": "idiom-40-q15",
+        "number": 15,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "I would never expect you to suffer greatly or make extreme sacrifices for my sake.",
+        "promptZh": "我絕不會期望你為了我而承受極大痛苦或作出重大犧牲。",
+        "starter": "I",
+        "answer": "I would never ask you to go through fire for me.",
+        "answerZh": "我絕不會要求你為我赴湯蹈火。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q16",
+        "number": 16,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Could you face extreme hardship for a dream that might never come true?",
+        "promptZh": "你會否為了一個可能永遠無法實現的夢想而承受極大困難？",
+        "starter": "Could",
+        "answer": "Could you go through fire for a dream that might never come true?",
+        "answerZh": "你能否為了一個可能永遠無法實現的夢想而歷盡艱辛？",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q17",
+        "number": 17,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The players had endured years of painful training and failure before they finally reached the final.",
+        "promptZh": "球員在終於打入決賽前，曾經歷多年艱苦訓練和失敗。",
+        "starter": "The",
+        "answer": "The players had gone through fire before they finally reached the final.",
+        "answerZh": "球員在終於打入決賽前，已經歷盡艱辛。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "gone through fire"
+      },
+      {
+        "id": "idiom-40-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "She will accept any danger or hardship if that is necessary to protect her son.",
+        "promptZh": "如果保護兒子有此需要，她願意承受任何危險或困難。",
+        "starter": "She",
+        "answer": "She will go through fire if that is what it takes to protect her son.",
+        "answerZh": "如果保護兒子需要這樣做，她願意赴湯蹈火。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q19",
+        "number": 19,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Enduring extreme hardship for one goal can change a person.",
+        "promptZh": "為一個目標承受極大艱辛，可以改變一個人。",
+        "starter": "Going",
+        "answer": "Going through fire for one goal can change a person.",
+        "answerZh": "為一個目標歷盡艱辛，可以改變一個人。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "Going through fire"
+      },
+      {
+        "id": "idiom-40-q20",
+        "number": 20,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Nobody should be forced to face severe hardship without support.",
+        "promptZh": "沒有人應該被迫在沒有支援下獨自承受嚴重困難。",
+        "starter": "No",
+        "answer": "No one should have to go through fire alone.",
+        "answerZh": "沒有人應該被迫獨自歷盡艱辛。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q21",
+        "number": 21,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Lena stayed beside me through every terrible difficulty when everyone else left. B: She must care about you deeply.",
+        "promptZh": "甲：其他人都離開時，莉娜仍陪我捱過每一個可怕難關。 乙：她一定非常在乎你。",
+        "starter": "Lena",
+        "answer": "Lena went through fire for me when everyone else left.",
+        "answerZh": "其他人都離開時，莉娜仍為我歷盡艱辛。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Would you still stand by this team if the next few years became extremely difficult? B: Yes. I would face anything for it.",
+        "promptZh": "甲：如果未來幾年變得極其艱難，你仍會支持這支團隊嗎？ 乙：會。我願意為它面對任何困難。",
+        "starter": "I",
+        "answer": "I would go through fire for this team.",
+        "answerZh": "我願意為這支團隊赴湯蹈火。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q23",
+        "number": 23,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: How did Sam stop the family business from closing? B: He accepted years of hardship and sacrifice to save it.",
+        "promptZh": "甲：森如何令家族生意免於結業？ 乙：他多年來承受艱辛並作出犧牲，挽救了生意。",
+        "starter": "Sam",
+        "answer": "Sam went through fire to save the family business.",
+        "answerZh": "森歷盡艱辛，挽救家族生意。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q24",
+        "number": 24,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: This project has already caused you so much pain. Why continue? B: I am ready to face even more hardship until it is finished.",
+        "promptZh": "甲：這個項目已經令你承受很多痛苦，為甚麼還要繼續？ 乙：我願意承受更多艱辛，直至把它完成。",
+        "starter": "I",
+        "answer": "I am ready to go through fire to finish this project.",
+        "answerZh": "我願意歷盡艱辛，完成這個項目。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q25",
+        "number": 25,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "She has made enormous sacrifices for our family before. I believe she would face any hardship for us again.",
+        "promptZh": "她以往曾為家庭作出極大犧牲，我相信她會再次為我們面對任何困難。",
+        "starter": "After",
+        "answer": "After all she has done for us, I know she would go through fire for this family.",
+        "answerZh": "想到她為我們所做的一切，我知道她願意為這個家庭赴湯蹈火。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q26",
+        "number": 26,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The coach said that the players had endured terrible pressure and painful training to earn their place in the final.",
+        "promptZh": "教練說，球員承受了極大壓力和艱苦訓練，才取得決賽席位。",
+        "starter": "The",
+        "answer": "The coach said that the players had gone through fire to earn their place in the final.",
+        "answerZh": "教練說，球員歷盡艱辛，才取得決賽席位。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "gone through fire"
+      },
+      {
+        "id": "idiom-40-q27",
+        "number": 27,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Our teacher reminded us that achieving a truly important goal may require us to endure extreme hardship.",
+        "promptZh": "老師提醒我們，要實現真正重要的目標，可能需要承受極大艱辛。",
+        "starter": "Our",
+        "answer": "Our teacher reminded us that great goals may require us to go through fire.",
+        "answerZh": "老師提醒我們，遠大目標可能需要我們歷盡艱辛才能實現。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q28",
+        "number": 28,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "During the restaurant's first year, we faced one serious problem after another simply to keep it open.",
+        "promptZh": "餐廳開業第一年，我們為了令它繼續營業，接連面對一個又一個嚴重問題。",
+        "starter": "During",
+        "answer": "During the first year, we felt that we were going through fire to keep the restaurant open.",
+        "answerZh": "第一年，我們覺得自己為了令餐廳繼續營業而歷盡艱辛。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "going through fire"
+      },
+      {
+        "id": "idiom-40-q29",
+        "number": 29,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: I will do absolutely anything to make this plan work. B: Do not make that promise unless you are truly ready to face extreme hardship.",
+        "promptZh": "甲：我會不惜一切令這個計劃成功。 乙：除非你真的願意承受極大艱辛，否則不要作出這個承諾。",
+        "starter": "Do",
+        "answer": "Do not promise to go through fire for this plan unless you truly mean it.",
+        "answerZh": "除非你是認真的，否則不要承諾會為這個計劃赴湯蹈火。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q30",
+        "number": 30,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "He endured years of hardship, not because he wanted fame, but because he wanted his children to have a future.",
+        "promptZh": "他承受多年艱辛，不是因為渴望成名，而是希望子女有未來。",
+        "starter": "He",
+        "answer": "He went through fire not for fame but to give his children a future.",
+        "answerZh": "他歷盡艱辛，不是為了名聲，而是為了給子女一個未來。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q31",
+        "number": 31,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Although Priya knew that the path ahead would be painful, she was willing to endure every hardship to finish her nursing training.",
+        "promptZh": "雖然普莉雅知道前路會很痛苦，但她願意承受一切艱辛，完成護理訓練。",
+        "starter": "Although",
+        "answer": "Although Priya knew the road ahead would be painful, she was willing to go through fire to finish her nursing training.",
+        "answerZh": "雖然普莉雅知道前路會很痛苦，但她願意歷盡艱辛，完成護理訓練。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q32",
+        "number": 32,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The family survived several terrible years together. Those shared hardships created deep trust among them.",
+        "promptZh": "這個家庭一起捱過數年可怕日子，而共同經歷的艱辛令他們彼此建立深厚信任。",
+        "starter": "Because",
+        "answer": "Because the family had gone through fire together, its members trusted one another deeply.",
+        "answerZh": "因為這個家庭曾一起歷盡艱辛，各人都深深信任彼此。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "gone through fire"
+      },
+      {
+        "id": "idiom-40-q33",
+        "number": 33,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "I would endure the greatest hardship for my best friend. However, I would not support a choice that could harm other people.",
+        "promptZh": "我願意為最好的朋友承受極大艱辛，但不會支持一個可能傷害其他人的選擇。",
+        "starter": "I",
+        "answer": "I would go through fire for my best friend, but I would not support a choice that could harm others.",
+        "answerZh": "我願意為最好的朋友赴湯蹈火，但不會支持一個可能傷害其他人的選擇。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q34",
+        "number": 34,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "You want everyone to make enormous sacrifices for this cause. First, show that you are prepared to make those sacrifices yourself.",
+        "promptZh": "你希望每個人都為這項理念作出極大犧牲。首先，你要證明自己也願意作出這些犧牲。",
+        "starter": "Before",
+        "answer": "Before you ask others to go through fire for this cause, show that you are ready to make sacrifices too.",
+        "answerZh": "在要求別人為這項理念赴湯蹈火前，先證明你也願意作出犧牲。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q35",
+        "number": 35,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Elena endured enormous hardship to start the company. Therefore, she refused to give up when sales fell.",
+        "promptZh": "埃琳娜歷盡艱辛創立公司，因此在銷售下跌時拒絕放棄。",
+        "starter": "After",
+        "answer": "After going through fire to start the company, Elena refused to give up when sales fell.",
+        "answerZh": "埃琳娜歷盡艱辛創立公司後，在銷售下跌時仍拒絕放棄。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "going through fire"
+      },
+      {
+        "id": "idiom-40-q36",
+        "number": 36,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The care workers had already suffered through months of exhausting work with almost no rest. Even so, they returned when help was needed.",
+        "promptZh": "護理人員已捱過數月令人筋疲力竭、幾乎沒有休息的工作，但在有人需要幫助時，他們仍然回來。",
+        "starter": "The",
+        "answer": "The care workers had already gone through fire during months of exhausting work with almost no rest, yet they returned when help was needed.",
+        "answerZh": "護理人員已在數月令人筋疲力竭、幾乎沒有休息的工作中歷盡艱辛，但在有人需要幫助時仍然回來。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "gone through fire"
+      },
+      {
+        "id": "idiom-40-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Mei endured severe hardship to give her children a stable home, even when almost nobody supported her.",
+        "promptZh": "即使幾乎沒有人支持，美仍歷盡艱辛，為子女提供安穩的家。",
+        "starter": "Mei",
+        "answer": "Mei went through fire to give her children a stable home, even when she had almost no support.",
+        "answerZh": "即使幾乎沒有人支持，美仍歷盡艱辛，為子女提供安穩的家。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q38",
+        "number": 38,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "He had made extreme sacrifices for the team. For that reason, people took his later criticism seriously.",
+        "promptZh": "他曾為團隊作出極大犧牲，因此人們認真看待他後來提出的批評。",
+        "starter": "The",
+        "answer": "The fact that he had gone through fire for the team made his later criticism hard to ignore.",
+        "answerZh": "他曾為團隊歷盡艱辛，因此他後來的批評令人難以忽視。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "gone through fire"
+      },
+      {
+        "id": "idiom-40-q39",
+        "number": 39,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Workers should not need to suffer terribly simply to keep their jobs. A company that demands this has a serious problem.",
+        "promptZh": "員工不應只是為了保住工作便要受盡痛苦；提出這種要求的公司存在嚴重問題。",
+        "starter": "If",
+        "answer": "If the workers have to go through fire just to keep their jobs, something is wrong with the company.",
+        "answerZh": "如果員工只是為了保住工作便要歷盡艱辛，這間公司一定有問題。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q40",
+        "number": 40,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "She may be willing to make extreme sacrifices for the project. However, the manager should not expect everyone else to do the same.",
+        "promptZh": "她可能願意為項目作出極大犧牲，但經理不應期望其他人也這樣做。",
+        "starter": "She",
+        "answer": "She may be willing to go through fire for the project, but the manager should not expect that sacrifice from everyone.",
+        "answerZh": "她可能願意為項目赴湯蹈火，但經理不應期望每個人都作出這種犧牲。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q41",
+        "number": 41,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: People say you should leave the community centre project because it may become extremely difficult. B: Too many families depend on it. I am willing to face any hardship to keep it alive.",
+        "promptZh": "甲：大家說這個社區中心項目可能變得極其艱難，你應該退出。 乙：太多家庭依靠它，我願意承受任何艱辛，令它繼續運作。",
+        "starter": "I",
+        "answer": "I am prepared to go through fire to keep the community centre project alive because too many families depend on it.",
+        "answerZh": "太多家庭依靠這個社區中心項目，因此我願意歷盡艱辛，令它繼續運作。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Why do these old friends trust one another so completely? B: They survived the most painful years of their lives together.",
+        "promptZh": "甲：為甚麼這幾位老朋友如此完全信任彼此？ 乙：他們曾一起捱過人生中最痛苦的歲月。",
+        "starter": "The",
+        "answer": "The old friends went through fire together during the hardest years of their lives.",
+        "answerZh": "這幾位老朋友曾在人生中最艱難的歲月一起歷盡艱辛。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "went through fire"
+      },
+      {
+        "id": "idiom-40-q43",
+        "number": 43,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The singer said she would accept any hardship to make sure her younger sister received the chances that she herself had never received.",
+        "promptZh": "這位歌手說，為了確保妹妹獲得自己從未有過的機會，她願意承受任何艱辛。",
+        "starter": "The",
+        "answer": "The singer said she would go through fire to make sure her younger sister had the chances she never had.",
+        "answerZh": "這位歌手說，她願意赴湯蹈火，確保妹妹獲得自己從未有過的機會。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q44",
+        "number": 44,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The teacher was not most proud of the awards. She was proudest of the enormous sacrifices she had made for her students.",
+        "promptZh": "這位老師最自豪的並不是獎項，而是自己曾為學生作出的巨大犧牲。",
+        "starter": "What",
+        "answer": "What made the teacher proud was not the awards, but knowing that she had gone through fire for her students.",
+        "answerZh": "令這位老師自豪的不是獎項，而是知道自己曾為學生歷盡艱辛。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "gone through fire"
+      },
+      {
+        "id": "idiom-40-q45",
+        "number": 45,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "One honest conversation now could save both sides from years of severe pain and struggle. We should therefore have that conversation.",
+        "promptZh": "現在一次坦誠對話，可以避免雙方日後承受多年的嚴重痛苦和掙扎，因此我們應該進行這次對話。",
+        "starter": "If",
+        "answer": "If one honest conversation can prevent both sides from going through fire for years, we should have it now.",
+        "answerZh": "如果一次坦誠對話可以避免雙方日後多年受盡艱辛，我們現在就應該進行這次對話。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "going through fire"
+      },
+      {
+        "id": "idiom-40-q46",
+        "number": 46,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The family faced one terrible hardship after another before it finally found a new home. Through this experience, its members learnt how much they could depend on one another.",
+        "promptZh": "這個家庭在終於找到新住所前接連面對可怕困難，並從中明白彼此可以互相依靠到甚麼程度。",
+        "starter": "By",
+        "answer": "By the time the family found a new home, its members had gone through fire and learnt how much they could depend on one another.",
+        "answerZh": "到這個家庭找到新住所時，各人已歷盡艱辛，並明白彼此可以互相依靠到甚麼程度。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "gone through fire"
+      },
+      {
+        "id": "idiom-40-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A promise should never force someone to suffer terribly merely to prove that their love is real.",
+        "promptZh": "任何承諾都不應強迫某人只是為了證明自己的愛是真實的，便要受盡痛苦。",
+        "starter": "No",
+        "answer": "No promise should require someone to go through fire just to prove their love.",
+        "answerZh": "任何承諾都不應要求某人只是為了證明愛意而歷盡艱辛。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q48",
+        "number": 48,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The volunteers were willing to make extreme sacrifices to keep the free meal service open. Fortunately, the town finally offered help.",
+        "promptZh": "義工願意作出極大犧牲，令免費膳食服務繼續運作；幸好鎮上最終提供了協助。",
+        "starter": "The",
+        "answer": "The volunteers were ready to go through fire to keep the free meal service open, but the town finally offered help.",
+        "answerZh": "義工願意歷盡艱辛，令免費膳食服務繼續運作，但鎮上最終提供了協助。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      },
+      {
+        "id": "idiom-40-q49",
+        "number": 49,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "He endured enormous hardship before winning, yet he did not lose his kindness. That impressed me more than the victory itself.",
+        "promptZh": "他在勝出前歷盡艱辛，卻沒有失去善良；這一點比勝利本身更令我欣賞。",
+        "starter": "What",
+        "answer": "What impressed me most was not that he won, but that he had gone through fire without losing his kindness.",
+        "answerZh": "最令我欣賞的不是他勝出了，而是他歷盡艱辛後仍沒有失去善良。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "gone through fire"
+      },
+      {
+        "id": "idiom-40-q50",
+        "number": 50,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The road may become much harder than we expect. Even then, I will accept every serious difficulty so that this idea receives a fair chance.",
+        "promptZh": "前路可能比我們預期艱難得多。即使如此，我仍會承受一切重大困難，讓這個構想得到公平的機會。",
+        "starter": "Even",
+        "answer": "Even if the road becomes harder than we expect, I will go through fire to give this idea a fair chance.",
+        "answerZh": "即使前路比我們預期更艱難，我仍願意歷盡艱辛，讓這個構想得到公平的機會。",
+        "targetForm": "Go Through Fire",
+        "targetMeaning": "To endure, or be willing to endure, extremely serious hardship, danger, pain, pressure or sacrifice because a person, cause or goal matters greatly.",
+        "highlight": "go through fire"
+      }
+    ]
+  }
+}

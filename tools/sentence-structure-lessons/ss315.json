@@ -1,0 +1,1249 @@
+{
+  "id": "ss315",
+  "order": 315,
+  "slug": "that-may-be-so-but-clause",
+  "title": "「That may be so, but + clause」",
+  "titleZh": "「That may be so, but + clause」",
+  "titleEn": "Using “That may be so, but + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 313 - 「That may be so, but + clause」.pdf",
+    "pageCount": 27,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "answerPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "sha256": "87e6942a44f6c24b6c4050f54136b78376bbbaa965f997424786bac526c5d68f",
+    "sourceNumber": 313,
+    "systemOrder": 315,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 313 maps to ss315: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Subject + replied / answered / argued, “That may be so, but + clause.”",
+  "formulas": [
+    {
+      "id": "ss315-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Subject + replied / answered / argued, “That may be so, but + clause.”"
+    }
+  ],
+  "example": "That may be so, but it does not solve the immediate problem.",
+  "exampleZh": "話雖如此，但這並不能解決眼前的問題。",
+  "examples": [
+    {
+      "id": "ss315-example-01",
+      "en": "That may be so, but it does not solve the immediate problem.",
+      "zh": "話雖如此，但這並不能解決眼前的問題。",
+      "highlight": "That may be so, but it does not solve the immediate problem."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss315-rule-01",
+      "zh": "這裏的【that】並非指某一件物件，而是代表前面提出的整個意見、聲稱或論點。例如，公司表示這套系統很安全；話雖如此，仍有需要進一步測試。詞語【That】代表前文所說的整項內容。",
+      "en": "That The company says the system is safe. That may be so, but further testing is necessary. the system is safe",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss315-rule-02",
+      "zh": "目標表達【may】表示有限度的承認目標表達【That may be so】並不等於：【That is definitely true.】 那肯定是真的。 它比較接近：【I accept that what you said may be true.】 我承認你所說的可能是真的。 因此，這個句型可以讓說話者表現得較為公平，同時保留不同意見。",
+      "en": "may That may be so That is definitely true. I accept that what you said may be true.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss315-rule-03",
+      "zh": "後面必須有完整意思不完整：【That may be so, but the cost.】 話雖如此，但成本。 完整：【That may be so, but the cost is still too high.】 話雖如此，但成本仍然太高。 本練習要求 but 後面使用完整子句。",
+      "en": "but That may be so, but the cost. That may be so, but the cost is still too high.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss315-rule-04",
+      "zh": "轉折詞 but 和 however 不可在同一位置重複使用。可寫 That may be so, but...，或另起一句用 However,...。",
+      "en": "That may be so, but however, we need more evidence. That may be so, but we need more evidence. That may be so. However, we need more evidence.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss315-rule-05",
+      "zh": "前面的說法必須清楚不清楚：【That may be so, but we cannot agree.】 讀者不知道 that 代表甚麼。較清楚：【You say the change will save money. That may be so, but we cannot agree to the safety risks.】 你說這項改變可以節省金錢。話雖如此，但我們不能接受相關的安全風險。",
+      "en": "That may be so, but we cannot agree. You say the change will save money. That may be so, but we cannot agree to the safety risks.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss315-rule-06",
+      "zh": "這個句型主要用於有真正反差的情況不自然：【The shop is open. That may be so, but customers can enter.】 前後兩項內容並沒有真正的反差。自然：【The shop is open. That may be so, but most of its products are unavailable.】 商店正在營業。話雖如此，但大部分貨品都沒有供應。",
+      "en": "The shop is open. That may be so, but customers can enter. That may be so, but most of its products are unavailable.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss315-rule-07",
+      "zh": "本練習要求使用完整固定形式本練習的目標是：【That may be so, but + clause】 以下相關形式雖然可能正確，但不屬於本課的指定答案：【That might be so, but...；That may well be so, but...；This may be true, but...；Even so,...；Granted,...】",
+      "en": "That may be so, but + clause That might be so, but... That may well be so, but... This may be true, but... Even so,... Granted,...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss315-benefit-01",
+      "zh": "幫助你有禮貌地提出不同意見你不需要立即指出對方錯誤，而是先承認對方的說法可能有道理，再提出自己的意見。你錯了。這個計劃風險太高。 話雖如此，但這個計劃的風險仍然太高。 第二種說法通常較為平衡，也較適合討論、會議和正式寫作。",
+      "en": "It helps you disagree politely Instead of immediately saying that another person is wrong, you first acknowledge that the person may have a reasonable point. Compare: You are wrong. The plan is too risky. That may be so, but the plan is still too risky.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss315-benefit-02",
+      "zh": "表示你有考慮雙方觀點這個句型表示你有聆聽和考慮對方的論點，而不是直接忽視不同意見。",
+      "en": "It shows that you have considered both sides This structure shows that you have listened to the other person instead of simply ignoring the opposing argument.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss315-benefit-03",
+      "zh": "讓主要反駁保持清楚在【but】後面的內容是說話者真正想強調的重點，因此讀者可以清楚知道哪一項意見較為重要。",
+      "en": "It keeps the main counterpoint clear The words after but contain the speaker’s main message. The reader can therefore understand which point is more important.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss315-benefit-04",
+      "zh": "令論述顯得更平衡在作文、討論和簡報中，較有說服力的論述通常會先承認一項可能的優點，再解釋一個更加嚴重的問題。這項建議可能創造職位。話雖如此，但它對環境造成的破壞可能是永久的。",
+      "en": "It makes arguments sound more balanced In essays, discussions and presentations, strong arguments often acknowledge a possible advantage before explaining a more serious problem. The proposal may create jobs. That may be so, but the environmental damage could be permanent.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss315-benefit-05",
+      "zh": "提供一個容易使用的口語框架說話時，你可以先使用這個固定開首，讓自己有時間整理接下來的反駁。這個框架適合用於：小組討論辯論會議口試日常意見交流",
+      "en": "It gives you a ready-made speaking frame When speaking, you can use the fixed opening to give yourself time to organise the counterpoint. That may be so, but...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss315-benefit-06",
+      "zh": "避免過度重複 although 或 however 你不需要每次都使用 although 或 however 表達反差。當你回應另一項說法時，可以使用這個句型增加句式變化。",
+      "en": "It provides an alternative to overusing although or however Instead of beginning every contrast with although or however, you can use this structure as a direct response to another claim.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 313 maps to ss315: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or exchange using the exact expression That may be so, but + clause.",
+      "Keep the original claim, counterpoint, tense, modality and meaning. You may need to:",
+      "begin a new sentence.",
+      "use a semicolon.",
+      "place the expression inside direct speech.",
+      "retain a reporting verb such as replied or answered.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用完整句型 That may be so, but ＋ 子句 改寫以下句子或對話。",
+      "保留原有的說法、反駁、時態、情態和意思。你可能需要：",
+      "另開新句。",
+      "使用分號。",
+      "把句型放入直接引語。",
+      "保留 replied 或 answered 等引述動詞。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss315-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You say the room is small. Even if you are right, it is comfortable.",
+      "promptZh": "你說這個房間很小。即使你說得對，它仍然很舒適。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You say the room is small. That may be so, but it is comfortable.",
+      "answerZh": "你說這個房間很小。話雖如此，但它仍然很舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "You say the room is small. That may be so, but it is comfortable."
+    },
+    {
+      "id": "ss315-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Some travellers say the journey is long. They may be right, but it is worth making.",
+      "promptZh": "有些旅客說這段旅程很漫長。他們可能說得對，但這段旅程仍然值得。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some travellers say the journey is long. That may be so, but it is worth making.",
+      "answerZh": "有些旅客說這段旅程很漫長。話雖如此，但這段旅程仍然值得。",
+      "answerZhSource": "pdf",
+      "highlight": "Some travellers say the journey is long. That may be so, but it is worth making."
+    },
+    {
+      "id": "ss315-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The task looks simple. Perhaps it is, but it requires careful planning.",
+      "promptZh": "這項任務看起來很簡單。它或許真的很簡單，但仍需要仔細規劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The task looks simple. That may be so, but it requires careful planning.",
+      "answerZh": "這項任務看起來很簡單。話雖如此，但它仍然需要仔細規劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The task looks simple. That may be so, but it requires careful planning."
+    },
+    {
+      "id": "ss315-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You say the phone is old. That could be true, but it still works well.",
+      "promptZh": "你說這部電話很舊。這可能是真的，但它仍然運作良好。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You say the phone is old. That may be so, but it still works well.",
+      "answerZh": "你說這部電話很舊。話雖如此，但它仍然運作良好。",
+      "answerZhSource": "pdf",
+      "highlight": "You say the phone is old. That may be so, but it still works well."
+    },
+    {
+      "id": "ss315-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The landlord claims that the rent is low. I accept that this may be true, but the area is inconvenient.",
+      "promptZh": "業主聲稱租金很低。我承認這可能是真的，但這個地區交通不便。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The landlord claims that the rent is low. That may be so, but the area is inconvenient.",
+      "answerZh": "業主聲稱租金很低。話雖如此，但這個地區交通不便。",
+      "answerZhSource": "pdf",
+      "highlight": "The landlord claims that the rent is low. That may be so, but the area is inconvenient."
+    },
+    {
+      "id": "ss315-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Some students say the course is demanding. They may be right; however, they learn a great deal from it.",
+      "promptZh": "有些學生說這個課程要求很高。他們可能說得對；不過，他們可以從中學到很多東西。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some students say the course is demanding. That may be so, but they learn a great deal from it.",
+      "answerZh": "有些學生說這個課程要求很高。話雖如此，但他們可以從中學到很多東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Some students say the course is demanding. That may be so, but they learn a great deal from it."
+    },
+    {
+      "id": "ss315-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The restaurant advert says the place is popular. Perhaps that is true, but the service is often slow.",
+      "promptZh": "餐廳廣告表示這個地方很受歡迎。這或許是真的，但服務經常很慢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restaurant advert says the place is popular. That may be so, but the service is often slow.",
+      "answerZh": "餐廳廣告表示這個地方很受歡迎。話雖如此，但服務經常很慢。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant advert says the place is popular. That may be so, but the service is often slow."
+    },
+    {
+      "id": "ss315-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Supporters say the plan will save time. Even if they are right, it could increase the cost.",
+      "promptZh": "支持者表示這個計劃可以節省時間。即使他們說得對，它也可能增加成本。",
+      "promptZhSource": "pdf",
+      "starter": "Supporters",
+      "answer": "Supporters say the plan will save time. That may be so, but it could increase the cost.",
+      "answerZh": "支持者表示這個計劃可以節省時間。話雖如此，但它可能會增加成本。",
+      "answerZhSource": "pdf",
+      "highlight": "Supporters say the plan will save time. That may be so, but it could increase the cost."
+    },
+    {
+      "id": "ss315-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The forecast suggests that the weather is improving. This may be correct, but the roads are still unsafe.",
+      "promptZh": "天氣預報顯示天氣正在好轉。這可能是正確的，但道路仍然不安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The forecast suggests that the weather is improving. That may be so, but the roads are still unsafe.",
+      "answerZh": "天氣預報顯示天氣正在好轉。話雖如此，但道路仍然不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The forecast suggests that the weather is improving. That may be so, but the roads are still unsafe."
+    },
+    {
+      "id": "ss315-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The coach says the team has improved. I accept that this may be true; however, it is not ready for the final.",
+      "promptZh": "教練表示球隊已有進步。我承認這可能是真的；不過，球隊仍未準備好參加決賽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach says the team has improved. That may be so, but it is not ready for the final.",
+      "answerZh": "教練表示球隊已有進步。話雖如此，但球隊仍未準備好參加決賽。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach says the team has improved. That may be so, but it is not ready for the final."
+    },
+    {
+      "id": "ss315-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A student said, “I got the right answer.” The teacher replied, “You may be right, but you still need to show your working.”",
+      "promptZh": "一名學生說：「我得出了正確答案。」老師回答：「你可能說得對，但你仍然需要寫出計算步驟。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A student said, “I got the right answer.” The teacher replied, “That may be so, but you still need to show your working.”",
+      "answerZh": "一名學生說：「我得出了正確答案。」老師回答：「話雖如此，但你仍然需要寫出計算步驟。」",
+      "answerZhSource": "pdf",
+      "highlight": "A student said, “I got the right answer.” The teacher replied, “That may be so, but you still need to show your working.”"
+    },
+    {
+      "id": "ss315-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Emma said, “The hotel is cheap.” Her friend replied, “Perhaps, but it is far from the station.”",
+      "promptZh": "艾瑪說：「這間酒店很便宜。」她的朋友回答：「或許吧，但它距離車站很遠。」",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma said, “The hotel is cheap.” Her friend replied, “That may be so, but it is far from the station.”",
+      "answerZh": "艾瑪說：「這間酒店很便宜。」她的朋友回答：「話雖如此，但它距離車站很遠。」",
+      "answerZhSource": "pdf",
+      "highlight": "Emma said, “The hotel is cheap.” Her friend replied, “That may be so, but it is far from the station.”"
+    },
+    {
+      "id": "ss315-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A waiter said, “The meal arrived quickly.” The customer replied, “I accept that, but it was not served at the correct temperature.”",
+      "promptZh": "一名侍應說：「餐點很快便送到了。」顧客回答：「我承認這一點，但餐點送上來時的溫度並不合適。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A waiter said, “The meal arrived quickly.” The customer replied, “That may be so, but it was not served at the correct temperature.”",
+      "answerZh": "一名侍應說：「餐點很快便送到了。」顧客回答：「話雖如此，但餐點送上來時的溫度並不合適。」",
+      "answerZhSource": "pdf",
+      "highlight": "A waiter said, “The meal arrived quickly.” The customer replied, “That may be so, but it was not served at the correct temperature.”"
+    },
+    {
+      "id": "ss315-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Leo said, “The software is free.” His colleague replied, “That could be true, but it collects a great deal of personal data.”",
+      "promptZh": "里奧說：「這套軟件是免費的。」他的同事回答：「這可能是真的，但它會收集大量個人資料。」",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo said, “The software is free.” His colleague replied, “That may be so, but it collects a great deal of personal data.”",
+      "answerZh": "里奧說：「這套軟件是免費的。」他的同事回答：「話雖如此，但它會收集大量個人資料。」",
+      "answerZhSource": "pdf",
+      "highlight": "Leo said, “The software is free.” His colleague replied, “That may be so, but it collects a great deal of personal data.”"
+    },
+    {
+      "id": "ss315-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The coach said, “We won the last match.” The captain answered, “Even so, we made too many mistakes.”",
+      "promptZh": "教練說：「我們勝出了上一場比賽。」隊長回答：「即使如此，我們仍然犯了太多錯誤。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach said, “We won the last match.” The captain answered, “That may be so, but we made too many mistakes.”",
+      "answerZh": "教練說：「我們勝出了上一場比賽。」隊長回答：「話雖如此，但我們犯了太多錯誤。」",
+      "answerZhSource": "pdf",
+      "highlight": "The coach said, “We won the last match.” The captain answered, “That may be so, but we made too many mistakes.”"
+    },
+    {
+      "id": "ss315-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Some attendees say the meeting was short. Even if they are right, no decision was made.",
+      "promptZh": "有些出席者說會議很短。即使他們說得對，會議仍然沒有作出任何決定。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some attendees say the meeting was short; that may be so, but no decision was made.",
+      "answerZh": "有些出席者說會議很短；話雖如此，會議沒有作出任何決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Some attendees say the meeting was short; that may be so, but no decision was made."
+    },
+    {
+      "id": "ss315-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The designers claim that the new system is faster. Perhaps that is true; however, it is harder to use.",
+      "promptZh": "設計人員聲稱新系統速度更快。這或許是真的；不過，它較難使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The designers claim that the new system is faster; that may be so, but it is harder to use.",
+      "answerZh": "設計人員聲稱新系統速度更快；話雖如此，它較難使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The designers claim that the new system is faster; that may be so, but it is harder to use."
+    },
+    {
+      "id": "ss315-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The seller says the product is cheaper. Even if that is so, it is not as durable.",
+      "promptZh": "賣方表示這件產品比較便宜。即使如此，它也沒有那麼耐用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The seller says the product is cheaper; that may be so, but it is not as durable.",
+      "answerZh": "賣方表示這件產品比較便宜；話雖如此，它沒有那麼耐用。",
+      "answerZhSource": "pdf",
+      "highlight": "The seller says the product is cheaper; that may be so, but it is not as durable."
+    },
+    {
+      "id": "ss315-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Officials say the bus service has improved. They may be right, but many villages are still poorly served.",
+      "promptZh": "官員表示巴士服務已有改善。他們可能說得對，但很多鄉村的巴士服務仍然不足。",
+      "promptZhSource": "pdf",
+      "starter": "Officials",
+      "answer": "Officials say the bus service has improved; that may be so, but many villages are still poorly served.",
+      "answerZh": "官員表示巴士服務已有改善；話雖如此，很多鄉村的巴士服務仍然不足。",
+      "answerZhSource": "pdf",
+      "highlight": "Officials say the bus service has improved; that may be so, but many villages are still poorly served."
+    },
+    {
+      "id": "ss315-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The designer says the idea is creative. I accept that this may be true, but it does not meet the client’s needs.",
+      "promptZh": "設計師表示這個構思很有創意。我承認這可能是真的，但它並不符合客戶的需要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The designer says the idea is creative; that may be so, but it does not meet the client’s needs.",
+      "answerZh": "設計師表示這個構思很有創意；話雖如此，它並不符合客戶的需要。",
+      "answerZhSource": "pdf",
+      "highlight": "The designer says the idea is creative; that may be so, but it does not meet the client’s needs."
+    },
+    {
+      "id": "ss315-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The nurse said, “The symptoms have improved.” The doctor responded, “That may be true, but the patient still needs further tests.”",
+      "promptZh": "護士說：「病人的症狀已有改善。」醫生回答：「這可能是真的，但病人仍然需要接受進一步檢查。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse said, “The symptoms have improved.” The doctor responded, “That may be so, but the patient still needs further tests.”",
+      "answerZh": "護士說：「病人的症狀已有改善。」醫生回答：「話雖如此，但病人仍然需要接受進一步檢查。」",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse said, “The symptoms have improved.” The doctor responded, “That may be so, but the patient still needs further tests.”"
+    },
+    {
+      "id": "ss315-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "One director said, “The policy will save money.” Aisha replied, “Even if that is true, it would still be unfair to part-time staff.”",
+      "promptZh": "一名董事說：「這項政策可以節省金錢。」艾莎回答：「即使這是真的，它對兼職員工仍然不公平。」",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One director said, “The policy will save money.” Aisha replied, “That may be so, but it would still be unfair to part-time staff.”",
+      "answerZh": "一名董事說：「這項政策可以節省金錢。」艾莎回答：「話雖如此，但它對兼職員工仍然不公平。」",
+      "answerZhSource": "pdf",
+      "highlight": "One director said, “The policy will save money.” Aisha replied, “That may be so, but it would still be unfair to part-time staff.”"
+    },
+    {
+      "id": "ss315-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The author says the report is detailed. Perhaps it is; however, several figures have not been verified.",
+      "promptZh": "作者表示報告內容詳盡。它或許真的很詳盡；不過，部分數字尚未經過核實。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The author says the report is detailed; that may be so, but several figures have not been verified.",
+      "answerZh": "作者表示報告內容詳盡；話雖如此，部分數字尚未經過核實。",
+      "answerZhSource": "pdf",
+      "highlight": "The author says the report is detailed; that may be so, but several figures have not been verified."
+    },
+    {
+      "id": "ss315-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Officials say the bridge has reopened. They may be right, but heavy vehicles are still not allowed to cross.",
+      "promptZh": "官員表示大橋已經重開。他們可能說得對，但重型車輛仍然不得駛過。",
+      "promptZhSource": "pdf",
+      "starter": "Officials",
+      "answer": "Officials say the bridge has reopened. That may be so, but heavy vehicles are still not allowed to cross.",
+      "answerZh": "官員表示大橋已經重開。話雖如此，但重型車輛仍然不得駛過。",
+      "answerZhSource": "pdf",
+      "highlight": "Officials say the bridge has reopened. That may be so, but heavy vehicles are still not allowed to cross."
+    },
+    {
+      "id": "ss315-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The engineer said, “The equipment was repaired yesterday.” The inspector answered, “That could be true, but it has not yet passed the safety inspection.”",
+      "promptZh": "工程師說：「設備昨天已經修理好。」檢查員回答：「這可能是真的，但設備尚未通過安全檢查。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineer said, “The equipment was repaired yesterday.” The inspector answered, “That may be so, but it has not yet passed the safety inspection.”",
+      "answerZh": "工程師說：「設備昨天已經修理好。」檢查員回答：「話雖如此，但設備尚未通過安全檢查。」",
+      "answerZhSource": "pdf",
+      "highlight": "The engineer said, “The equipment was repaired yesterday.” The inspector answered, “That may be so, but it has not yet passed the safety inspection.”"
+    },
+    {
+      "id": "ss315-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Some councillors claim that the proposal could create jobs. Even if they are correct, there is no clear plan to protect local residents.",
+      "promptZh": "部分議員聲稱這項建議可以創造職位。即使他們說得對，目前仍然沒有清楚的計劃保障本區居民。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some councillors claim that the proposal could create jobs. That may be so, but there is no clear plan to protect local residents.",
+      "answerZh": "部分議員聲稱這項建議可以創造職位。話雖如此，但目前仍然沒有清楚的計劃保障本區居民。",
+      "answerZhSource": "pdf",
+      "highlight": "Some councillors claim that the proposal could create jobs. That may be so, but there is no clear plan to protect local residents."
+    },
+    {
+      "id": "ss315-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A visitor said, “Free entry makes the museum easy to visit.” The guide replied, “Perhaps, but visitors must book in advance.”",
+      "promptZh": "一名訪客說：「免費入場令參觀這間博物館變得很方便。」導遊回答：「或許吧，但訪客必須預先預約。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A visitor said, “Free entry makes the museum easy to visit.” The guide replied, “That may be so, but visitors must book in advance.”",
+      "answerZh": "一名訪客說：「免費入場令參觀這間博物館變得很方便。」導遊回答：「話雖如此，但訪客必須預先預約。」",
+      "answerZhSource": "pdf",
+      "highlight": "A visitor said, “Free entry makes the museum easy to visit.” The guide replied, “That may be so, but visitors must book in advance.”"
+    },
+    {
+      "id": "ss315-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The interviewer said, “The candidate has relevant experience.” The director replied, “I accept that, but she has never managed a team of this size.”",
+      "promptZh": "面試官說：「這名應徵者具有相關經驗。」主管回答：「我承認這一點，但她從未管理過這麼大的團隊。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The interviewer said, “The candidate has relevant experience.” The director replied, “That may be so, but she has never managed a team of this size.”",
+      "answerZh": "面試官說：「這名應徵者具有相關經驗。」主管回答：「話雖如此，但她從未管理過這麼大的團隊。」",
+      "answerZhSource": "pdf",
+      "highlight": "The interviewer said, “The candidate has relevant experience.” The director replied, “That may be so, but she has never managed a team of this size.”"
+    },
+    {
+      "id": "ss315-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The school says the new timetable benefits most students. This may be true; however, some evening learners cannot attend the earlier classes.",
+      "promptZh": "學校表示新時間表對大部分學生有利。這可能是真的；不過，部分夜間學生不能出席較早的課堂。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school says the new timetable benefits most students; that may be so, but some evening learners cannot attend the earlier classes.",
+      "answerZh": "學校表示新時間表對大部分學生有利；話雖如此，部分夜間學生不能出席較早的課堂。",
+      "answerZhSource": "pdf",
+      "highlight": "The school says the new timetable benefits most students; that may be so, but some evening learners cannot attend the earlier classes."
+    },
+    {
+      "id": "ss315-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The lawyer says the evidence points in one direction. Even if that is true, it is not strong enough to support a final judgement.",
+      "promptZh": "律師表示證據指向同一個方向。即使這是真的，證據仍不足以支持最終判斷。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lawyer says the evidence points in one direction. That may be so, but it is not strong enough to support a final judgement.",
+      "answerZh": "律師表示證據指向同一個方向。話雖如此，但證據仍不足以支持最終判斷。",
+      "answerZhSource": "pdf",
+      "highlight": "The lawyer says the evidence points in one direction. That may be so, but it is not strong enough to support a final judgement."
+    },
+    {
+      "id": "ss315-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The landlord said, “The flat has been newly decorated.” The tenant replied, “That may be true, but the heating system still does not work.”",
+      "promptZh": "業主說：「這個單位剛剛重新裝修。」租客回答：「這可能是真的，但暖氣系統仍然不能運作。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The landlord said, “The flat has been newly decorated.” The tenant replied, “That may be so, but the heating system still does not work.”",
+      "answerZh": "業主說：「這個單位剛剛重新裝修。」租客回答：「話雖如此，但暖氣系統仍然不能運作。」",
+      "answerZhSource": "pdf",
+      "highlight": "The landlord said, “The flat has been newly decorated.” The tenant replied, “That may be so, but the heating system still does not work.”"
+    },
+    {
+      "id": "ss315-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The project team says the work is already halfway complete. Even if that is true, continuing it could waste even more money.",
+      "promptZh": "項目團隊表示工作已經完成了一半。即使這是真的，繼續項目也可能浪費更多金錢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project team says the work is already halfway complete. That may be so, but continuing it could waste even more money.",
+      "answerZh": "項目團隊表示工作已經完成了一半。話雖如此，但繼續項目可能浪費更多金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "The project team says the work is already halfway complete. That may be so, but continuing it could waste even more money."
+    },
+    {
+      "id": "ss315-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Officials say it is difficult to change the rule. They may be right; however, unfair rules should still be reviewed.",
+      "promptZh": "官員表示這項規則很難改變。他們可能說得對；不過，不公平的規則仍然應該接受檢討。",
+      "promptZhSource": "pdf",
+      "starter": "Officials",
+      "answer": "Officials say it is difficult to change the rule; that may be so, but unfair rules should still be reviewed.",
+      "answerZh": "官員表示這項規則很難改變；話雖如此，不公平的規則仍然應該接受檢討。",
+      "answerZhSource": "pdf",
+      "highlight": "Officials say it is difficult to change the rule; that may be so, but unfair rules should still be reviewed."
+    },
+    {
+      "id": "ss315-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "A parent said, “Many students support the programme.” The principal replied, “I accept that, but the school cannot introduce it without trained staff.”",
+      "promptZh": "一名家長說：「很多學生都支持這個計劃。」校長回答：「我承認這一點，但學校沒有受過訓練的員工便不能推行計劃。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A parent said, “Many students support the programme.” The principal replied, “That may be so, but the school cannot introduce it without trained staff.”",
+      "answerZh": "一名家長說：「很多學生都支持這個計劃。」校長回答：「話雖如此，但學校沒有受過訓練的員工便不能推行計劃。」",
+      "answerZhSource": "pdf",
+      "highlight": "A parent said, “Many students support the programme.” The principal replied, “That may be so, but the school cannot introduce it without trained staff.”"
+    },
+    {
+      "id": "ss315-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The manufacturer says the medicine can reduce the pain. Even if that is true, it will not treat the cause of the illness.",
+      "promptZh": "製造商表示這種藥物可以減輕痛楚。即使這是真的，它也不能治療疾病的成因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manufacturer says the medicine can reduce the pain. That may be so, but it will not treat the cause of the illness.",
+      "answerZh": "製造商表示這種藥物可以減輕痛楚。話雖如此，但它不能治療疾病的成因。",
+      "answerZhSource": "pdf",
+      "highlight": "The manufacturer says the medicine can reduce the pain. That may be so, but it will not treat the cause of the illness."
+    },
+    {
+      "id": "ss315-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "A journalist said, “The figures show a large improvement.” The spokesperson replied, “Perhaps, but the public has not been given the full set of figures.”",
+      "promptZh": "一名記者說：「數據顯示情況已有大幅改善。」發言人回答：「或許吧，但公眾尚未取得完整的數據。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A journalist said, “The figures show a large improvement.” The spokesperson replied, “That may be so, but the public has not been given the full set of figures.”",
+      "answerZh": "一名記者說：「數據顯示情況已有大幅改善。」發言人回答：「話雖如此，但公眾尚未取得完整的數據。」",
+      "answerZhSource": "pdf",
+      "highlight": "A journalist said, “The figures show a large improvement.” The spokesperson replied, “That may be so, but the public has not been given the full set of figures.”"
+    },
+    {
+      "id": "ss315-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The guide says this route is shorter. That may be true, but it is much more dangerous at night.",
+      "promptZh": "導遊表示這條路線較短。這可能是真的，但它在晚上危險得多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide says this route is shorter; that may be so, but it is much more dangerous at night.",
+      "answerZh": "導遊表示這條路線較短；話雖如此，它在晚上危險得多。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide says this route is shorter; that may be so, but it is much more dangerous at night."
+    },
+    {
+      "id": "ss315-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The company says it has apologised. Even if that is true, the affected customers have not received compensation.",
+      "promptZh": "公司表示已經道歉。即使這是真的，受影響的顧客仍未收到賠償。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company says it has apologised. That may be so, but the affected customers have not received compensation.",
+      "answerZh": "公司表示已經道歉。話雖如此，但受影響的顧客仍未收到賠償。",
+      "answerZhSource": "pdf",
+      "highlight": "The company says it has apologised. That may be so, but the affected customers have not received compensation."
+    },
+    {
+      "id": "ss315-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "A committee member said, “The plan is popular.” The chairperson replied, “I accept that, but we must consider whether it is legal as well as popular.”",
+      "promptZh": "一名委員說：「這個計劃很受歡迎。」主席回答：「我承認這一點，但除了它是否受歡迎外，我們也必須考慮它是否合法。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A committee member said, “The plan is popular.” The chairperson replied, “That may be so, but we must consider whether it is legal as well as popular.”",
+      "answerZh": "一名委員說：「這個計劃很受歡迎。」主席回答：「話雖如此，但除了它是否受歡迎外，我們也必須考慮它是否合法。」",
+      "answerZhSource": "pdf",
+      "highlight": "A committee member said, “The plan is popular.” The chairperson replied, “That may be so, but we must consider whether it is legal as well as popular.”"
+    },
+    {
+      "id": "ss315-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The sales team says the technology is impressive. They may be right, but there is little evidence that it improves learning.",
+      "promptZh": "銷售團隊表示這項科技令人印象深刻。他們可能說得對，但幾乎沒有證據顯示它能改善學習。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sales team says the technology is impressive. That may be so, but there is little evidence that it improves learning.",
+      "answerZh": "銷售團隊表示這項科技令人印象深刻。話雖如此，但幾乎沒有證據顯示它能改善學習。",
+      "answerZhSource": "pdf",
+      "highlight": "The sales team says the technology is impressive. That may be so, but there is little evidence that it improves learning."
+    },
+    {
+      "id": "ss315-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The hospital says the emergency measures have reduced waiting times. Even if that is true, they depend on staff working unsustainable hours.",
+      "promptZh": "醫院表示緊急措施縮短了輪候時間。即使這是真的，這些措施仍然依賴員工長時間工作，而這種安排無法長期維持。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital says the emergency measures have reduced waiting times. That may be so, but they depend on staff working unsustainable hours.",
+      "answerZh": "醫院表示緊急措施縮短了輪候時間。話雖如此，但這些措施依賴員工長時間工作，而這種安排無法長期維持。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital says the emergency measures have reduced waiting times. That may be so, but they depend on staff working unsustainable hours."
+    },
+    {
+      "id": "ss315-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The developer claims that the building will create jobs. Perhaps it will; however, the environmental damage could be permanent.",
+      "promptZh": "發展商聲稱這座建築物將會創造職位。它或許會做到；不過，對環境造成的破壞可能是永久的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The developer claims that the building will create jobs; that may be so, but the environmental damage could be permanent.",
+      "answerZh": "發展商聲稱這座建築物將會創造職位；話雖如此，但對環境造成的破壞可能是永久的。",
+      "answerZhSource": "pdf",
+      "highlight": "The developer claims that the building will create jobs; that may be so, but the environmental damage could be permanent."
+    },
+    {
+      "id": "ss315-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "A board member said, “The merger will make the company larger.” The finance director replied, “That may be true, but greater size does not guarantee greater stability.”",
+      "promptZh": "一名董事會成員說：「合併會令公司規模擴大。」財務主管回答：「這可能是真的，但規模較大並不保證公司會更加穩定。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A board member said, “The merger will make the company larger.” The finance director replied, “That may be so, but greater size does not guarantee greater stability.”",
+      "answerZh": "一名董事會成員說：「合併會令公司規模擴大。」財務主管回答：「話雖如此，但規模較大並不保證公司會更加穩定。」",
+      "answerZhSource": "pdf",
+      "highlight": "A board member said, “The merger will make the company larger.” The finance director replied, “That may be so, but greater size does not guarantee greater stability.”"
+    },
+    {
+      "id": "ss315-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The researchers point out that the study was conducted by a respected university. I accept that, but the sample was too small for firm conclusions.",
+      "promptZh": "研究人員指出，這項研究由一間備受尊重的大學進行。我承認這一點，但研究樣本太小，無法得出可靠結論。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The researchers point out that the study was conducted by a respected university. That may be so, but the sample was too small for firm conclusions.",
+      "answerZh": "研究人員指出，這項研究由一間備受尊重的大學進行。話雖如此，但研究樣本太小，無法得出可靠結論。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers point out that the study was conducted by a respected university. That may be so, but the sample was too small for firm conclusions."
+    },
+    {
+      "id": "ss315-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Critics say the new law will be difficult to enforce. They may be right, but this does not mean the problem should be ignored.",
+      "promptZh": "批評者表示這項新法例將會很難執行。他們可能說得對，但這並不表示我們應該忽視問題。",
+      "promptZhSource": "pdf",
+      "starter": "Critics",
+      "answer": "Critics say the new law will be difficult to enforce. That may be so, but this does not mean the problem should be ignored.",
+      "answerZh": "批評者表示這項新法例將會很難執行。話雖如此，但這並不表示我們應該忽視問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Critics say the new law will be difficult to enforce. That may be so, but this does not mean the problem should be ignored."
+    },
+    {
+      "id": "ss315-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "A reporter said, “The policy is popular at the moment.” The minister replied, “That could be true, but temporary popularity is not the same as long-term public support.”",
+      "promptZh": "一名記者說：「這項政策目前很受歡迎。」部長回答：「這可能是真的，但短暫受歡迎並不等於得到長期的公眾支持。」",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A reporter said, “The policy is popular at the moment.” The minister replied, “That may be so, but temporary popularity is not the same as long-term public support.”",
+      "answerZh": "一名記者說：「這項政策目前很受歡迎。」部長回答：「話雖如此，但短暫受歡迎並不等於得到長期的公眾支持。」",
+      "answerZhSource": "pdf",
+      "highlight": "A reporter said, “The policy is popular at the moment.” The minister replied, “That may be so, but temporary popularity is not the same as long-term public support.”"
+    },
+    {
+      "id": "ss315-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The clinic says it has received more funding. This may be correct; however, there are still not enough qualified nurses to extend its opening hours.",
+      "promptZh": "診所表示已獲得更多撥款。這可能是正確的；不過，目前仍然沒有足夠合資格的護士延長服務時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The clinic says it has received more funding; that may be so, but there are still not enough qualified nurses to extend its opening hours.",
+      "answerZh": "診所表示已獲得更多撥款；話雖如此，目前仍然沒有足夠合資格的護士延長服務時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The clinic says it has received more funding; that may be so, but there are still not enough qualified nurses to extend its opening hours."
+    },
+    {
+      "id": "ss315-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The coach points out that the team met every target last year. I accept that, but past performance alone cannot prove that the current strategy is sound.",
+      "promptZh": "教練指出，球隊去年達成了所有目標。我承認這一點，但單憑過往表現並不能證明目前的策略是穩妥的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach points out that the team met every target last year. That may be so, but past performance alone cannot prove that the current strategy is sound.",
+      "answerZh": "教練指出，球隊去年達成了所有目標。話雖如此，但單憑過往表現並不能證明目前的策略是穩妥的。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach points out that the team met every target last year. That may be so, but past performance alone cannot prove that the current strategy is sound."
+    },
+    {
+      "id": "ss315-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The company says the system has prevented several minor errors. Even if that is true, it could still fail when the network is under heavy pressure.",
+      "promptZh": "公司表示這套系統防止了數個輕微錯誤。即使這是真的，當網絡承受沉重壓力時，系統仍然可能失效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company says the system has prevented several minor errors. That may be so, but it could still fail when the network is under heavy pressure.",
+      "answerZh": "公司表示這套系統防止了數個輕微錯誤。話雖如此，但當網絡承受沉重壓力時，系統仍然可能失效。",
+      "answerZhSource": "pdf",
+      "highlight": "The company says the system has prevented several minor errors. That may be so, but it could still fail when the network is under heavy pressure."
+    },
+    {
+      "id": "ss315-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Supporters say the proposal offers a quick solution. They may be right, but a decision of this importance should not be made without consulting the people most affected.",
+      "promptZh": "支持者表示這項建議提供了一個快速的解決方法。他們可能說得對，但如此重要的決定不應在沒有諮詢最受影響人士的情況下作出。",
+      "promptZhSource": "pdf",
+      "starter": "Supporters",
+      "answer": "Supporters say the proposal offers a quick solution. That may be so, but a decision of this importance should not be made without consulting the people most affected.",
+      "answerZh": "支持者表示這項建議提供了一個快速的解決方法。話雖如此，但如此重要的決定不應在沒有諮詢最受影響人士的情況下作出。",
+      "answerZhSource": "pdf",
+      "highlight": "Supporters say the proposal offers a quick solution. That may be so, but a decision of this importance should not be made without consulting the people most affected."
+    }
+  ]
+}

@@ -1,0 +1,1235 @@
+{
+  "id": "ss285",
+  "order": 285,
+  "slug": "do-you-happen-to-know",
+  "title": "「Do you happen to know …?」禮貌地詢問資料",
+  "titleZh": "「Do you happen to know …?」禮貌地詢問資料",
+  "titleEn": "Using “Do you happen to know …?”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 284 -「Do you happen to know …_」禮貌地詢問資料.pdf",
+    "pageCount": 26,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exercisePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "sha256": "0d24fcda9bfa16caadc45f23392f1494a5465c7296df6f8abd8066b341a5f658",
+    "sourceNumber": 284,
+    "systemOrder": 285,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 284 maps to ss285: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Do you happen to know + requested information?",
+  "formulas": [
+    {
+      "id": "ss285-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Do you happen to know + requested information?"
+    }
+  ],
+  "example": "Do you happen to know when the office closes?",
+  "exampleZh": "請問你是否知道辦公室甚麼時候關門？",
+  "examples": [
+    {
+      "id": "ss285-example-01",
+      "en": "Do you happen to know when the office closes?",
+      "zh": "請問你是否知道辦公室甚麼時候關門？",
+      "highlight": "Do you happen to know when the office closes?"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss285-rule-01",
+      "zh": "直接問句改成 Do you happen to know... 的間接問句後，內層子句要恢復陳述句語序，即主語在動詞之前。例如 where the station is 正確，where is the station 則不可直接放進間接問句。",
+      "en": "Use statement word order inside an indirect question Direct question: When does the office close? Indirect question: Do you happen to know when the office closes? Do you happen to know where the station is? Do you happen to know where is the station?",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss285-rule-02",
+      "zh": "詞語【Do, does】和 did 在直接問句中用來構成疑問詞序。改成間接問句後，通常要移除它們，並把主要動詞改為適當形式。",
+      "en": "Remove do, does or did from the embedded clause Direct question: How much does the ticket cost? Indirect question: Do you happen to know how much the ticket costs? Direct question: Why did the machine stop? Indirect question: Do you happen to know why the machine stopped?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss285-rule-03",
+      "zh": "在間接問句中，can、will、should、has 等本身帶有意思的助動詞要保留，但必須放在主語後面，使用陳述句語序。",
+      "en": "Keep auxiliaries that carry real meaning Direct question: Where can we buy a ticket? Indirect question: Do you happen to know where we can buy a ticket? Direct question: When will the meeting begin? Indirect question: Do you happen to know when the meeting will begin? Can, will, should, has",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss285-rule-04",
+      "zh": "把是非問句放進 Do you happen to know... 後面時，要用 if 或 whether 引入，並把內層問句改成陳述句語序。例如 whether the parcel has arrived 正確，不可把 has the parcel arrived 原樣放在 know 後面。",
+      "en": "Use if or whether for yes-or-no questions Direct question: Is the café open? Indirect question: Do you happen to know if the café is open? Direct question: Has the parcel arrived? Indirect question: Do you happen to know whether the parcel has arrived? Do you happen to know has the parcel arrived?",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss285-rule-05",
+      "zh": "詞語【Who】和 which button 在這些句子中本身就是主語，因此不需要改變詞序。",
+      "en": "Subject questions normally keep their original order Direct question: Who called earlier? Indirect question: Do you happen to know who called earlier? Direct question: Which button opens the menu? Indirect question: Do you happen to know which button opens the menu?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss285-rule-06",
+      "zh": "整句只需要在句末使用一個問號。",
+      "en": "Use only one question mark Do you happen to know when the office closes? Do you happen to know when does the office close??",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss285-rule-07",
+      "zh": "兩句都正確。第二句語氣較婉轉，因為說話者沒有假定對方一定知道答案。",
+      "en": "“Happen to” softens the question Compare: Do you know when the office closes? Do you happen to know when the office closes? Both are correct. The second question sounds more tentative because the speaker does not assume that the listener definitely knows the answer.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss285-benefit-01",
+      "zh": "這個句型不會假設對方必定知道答案，因此比直接追問更柔和，特別適合向陌生人、同事或服務人員詢問資料。第二句較像禮貌詢問，而不是要求對方立即提供答案。",
+      "en": "It makes a question sound less demanding Instead of assuming that the listener knows the answer, you politely ask whether they might know it. Compare: Tell me when the office closes. Do you happen to know when the office closes?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss285-benefit-02",
+      "zh": "同一個句型可以用來詢問姓名、地址、時間、原因、地點、選擇或是非問題。只要更換 know 後面的內容，便可以應付很多日常情境。",
+      "en": "It lets you ask for many different kinds of information The same frame can be followed by a name, address, time, reason, place, choice or yes-or-no question.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss285-benefit-03",
+      "zh": "你可以先使用 Excuse me、Before we leave 或 By the way 等表達，再提出主要問題，令說話內容更自然和更有組織。",
+      "en": "It helps you connect a polite opening with a detailed question You can begin with Excuse me, Before we leave, By the way or another suitable expression before asking the main question.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss285-benefit-04",
+      "zh": "學習者有時會直接問 Where is the station?。這句文法正確，但在某些情況下，加入禮貌的詢問框架會更加得體。",
+      "en": "It helps you avoid overly direct questions Learners sometimes ask strangers questions such as “Where is the station?” Although this is grammatically correct, a polite introductory frame may be more suitable in some situations.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss285-benefit-05",
+      "zh": "這個句型能幫助你掌握間接問句的詞序，而這種詞序也常見於電郵、會議、電話對話和正式查詢。",
+      "en": "It develops indirect-question word order Using this structure helps you practise forms such as: where the station is when the office closes why the train was delayed whether the shop is open",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 284 maps to ss285: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt as one polite question containing Do you happen to know …? Retain any",
+      "introductory wording and preserve the original meaning.",
+      "The target expression will not always appear at the beginning of the answer.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Do you happen to know …? 把每題改寫成一個禮貌問句。保留題目中的開首部分，並維持",
+      "原意。",
+      "目標表達不一定放在答案的開首。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss285-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Could you tell me when the office closes?",
+      "promptZh": "你可以告訴我辦公室甚麼時候關門嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you happen to know when the office closes?",
+      "answerZh": "請問你是否知道辦公室甚麼時候關門？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you happen to know when the office closes?"
+    },
+    {
+      "id": "ss285-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Where is the nearest bank? Perhaps you know.",
+      "promptZh": "最近的銀行在哪裏？也許你知道。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you happen to know where the nearest bank is?",
+      "answerZh": "請問你是否知道最近的銀行在哪裏？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you happen to know where the nearest bank is?"
+    },
+    {
+      "id": "ss285-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Do you know how much a day ticket costs, by any chance?",
+      "promptZh": "你是否剛好知道一日票的價錢？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you happen to know how much a day ticket costs?",
+      "answerZh": "請問你是否知道一日票的價錢？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you happen to know how much a day ticket costs?"
+    },
+    {
+      "id": "ss285-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Can you tell me whether the café is open on Sundays?",
+      "promptZh": "你可以告訴我這間咖啡店星期日是否營業嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you happen to know whether the café is open on Sundays?",
+      "answerZh": "請問你是否知道這間咖啡店星期日是否營業？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you happen to know whether the café is open on Sundays?"
+    },
+    {
+      "id": "ss285-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Perhaps you know the Wi-Fi password.",
+      "promptZh": "也許你知道 Wi-Fi 密碼。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you happen to know the Wi-Fi password?",
+      "answerZh": "請問你是否知道 Wi-Fi 密碼？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you happen to know the Wi-Fi password?"
+    },
+    {
+      "id": "ss285-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Excuse me. Which bus goes to the town centre?",
+      "promptZh": "不好意思，哪一班巴士前往市中心？",
+      "promptZhSource": "pdf",
+      "starter": "Excuse",
+      "answer": "Excuse me, do you happen to know which bus goes to the town centre?",
+      "answerZh": "不好意思，請問你是否知道哪一班巴士前往市中心？",
+      "answerZhSource": "pdf",
+      "highlight": "Excuse me, do you happen to know which bus goes to the town centre?"
+    },
+    {
+      "id": "ss285-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "By the way, can you tell me what time the film starts?",
+      "promptZh": "順帶一提，你可以告訴我電影甚麼時候開始嗎？",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the way, do you happen to know what time the film starts?",
+      "answerZh": "順帶一提，請問你是否知道電影甚麼時候開始？",
+      "answerZhSource": "pdf",
+      "highlight": "By the way, do you happen to know what time the film starts?"
+    },
+    {
+      "id": "ss285-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Before we leave, could you tell me where the toilets are?",
+      "promptZh": "在我們離開前，你可以告訴我洗手間在哪裏嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we leave, do you happen to know where the toilets are?",
+      "answerZh": "在我們離開前，請問你是否知道洗手間在哪裏？",
+      "answerZhSource": "pdf",
+      "highlight": "Before we leave, do you happen to know where the toilets are?"
+    },
+    {
+      "id": "ss285-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Since you work here, perhaps you know who manages the reception desk.",
+      "promptZh": "既然你在這裏工作，也許你知道誰負責接待處。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since you work here, do you happen to know who manages the reception desk?",
+      "answerZh": "既然你在這裏工作，請問你是否知道誰負責接待處？",
+      "answerZhSource": "pdf",
+      "highlight": "Since you work here, do you happen to know who manages the reception desk?"
+    },
+    {
+      "id": "ss285-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I forgot to ask: do you know whether the delivery has arrived?",
+      "promptZh": "我忘了問：你知道貨物是否已經送到嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I forgot to ask: do you happen to know whether the delivery has arrived?",
+      "answerZh": "我忘了問：請問你是否知道貨物已經送到？",
+      "answerZhSource": "pdf",
+      "highlight": "I forgot to ask: do you happen to know whether the delivery has arrived?"
+    },
+    {
+      "id": "ss285-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "May I ask whether you know the exact address of the community centre?",
+      "promptZh": "請問你是否知道社區中心的確實地址？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you happen to know the exact address of the community centre?",
+      "answerZh": "請問你是否知道社區中心的確實地址？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you happen to know the exact address of the community centre?"
+    },
+    {
+      "id": "ss285-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "I checked the website, but can you tell me how long the guided tour lasts?",
+      "promptZh": "我查看了網站，但你可以告訴我導賞團歷時多久嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I checked the website, but do you happen to know how long the guided tour lasts?",
+      "answerZh": "我查看了網站，但請問你是否知道導賞團歷時多久？",
+      "answerZhSource": "pdf",
+      "highlight": "I checked the website, but do you happen to know how long the guided tour lasts?"
+    },
+    {
+      "id": "ss285-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "One more question: which room are we using? Perhaps you know.",
+      "promptZh": "還有一個問題：我們將使用哪個房間？也許你知道。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more question: do you happen to know which room we are using?",
+      "answerZh": "還有一個問題：請問你是否知道我們將使用哪個房間？",
+      "answerZhSource": "pdf",
+      "highlight": "One more question: do you happen to know which room we are using?"
+    },
+    {
+      "id": "ss285-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "While we are waiting, can you tell me if there is a charging point nearby?",
+      "promptZh": "在我們等候期間，你可以告訴我附近是否有充電位置嗎？",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While we are waiting, do you happen to know if there is a charging point nearby?",
+      "answerZh": "在我們等候期間，請問你是否知道附近有沒有充電位置？",
+      "answerZhSource": "pdf",
+      "highlight": "While we are waiting, do you happen to know if there is a charging point nearby?"
+    },
+    {
+      "id": "ss285-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "You travel along this road every day. Why is it closed today?",
+      "promptZh": "你每天都經過這條路。它今天為甚麼封閉？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You travel along this road every day, so do you happen to know why the road is closed today?",
+      "answerZh": "你每天都經過這條路，所以請問你是否知道這條路今天為甚麼封閉？",
+      "answerZhSource": "pdf",
+      "highlight": "You travel along this road every day, so do you happen to know why the road is closed today?"
+    },
+    {
+      "id": "ss285-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Could you give me the phone number for the lost property desk, if you know it?",
+      "promptZh": "如果你知道的話，可以給我失物認領處的電話號碼嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you happen to know the phone number for the lost property desk?",
+      "answerZh": "請問你是否知道失物認領處的電話號碼？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you happen to know the phone number for the lost property desk?"
+    },
+    {
+      "id": "ss285-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Excuse me. Are visitors allowed to take photographs inside?",
+      "promptZh": "不好意思，訪客是否可以在裏面拍照？",
+      "promptZhSource": "pdf",
+      "starter": "Excuse",
+      "answer": "Excuse me, do you happen to know whether visitors are allowed to take photographs inside?",
+      "answerZh": "不好意思，請問你是否知道訪客可否在裏面拍照？",
+      "answerZhSource": "pdf",
+      "highlight": "Excuse me, do you happen to know whether visitors are allowed to take photographs inside?"
+    },
+    {
+      "id": "ss285-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before I make the booking, could you tell me how many seats are left?",
+      "promptZh": "在我訂位前，你可以告訴我還剩下多少個座位嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before I make the booking, do you happen to know how many seats are left?",
+      "answerZh": "在我訂位前，請問你是否知道還剩下多少個座位？",
+      "answerZhSource": "pdf",
+      "highlight": "Before I make the booking, do you happen to know how many seats are left?"
+    },
+    {
+      "id": "ss285-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "As you live nearby, perhaps you know where we can buy fresh bread.",
+      "promptZh": "既然你住在附近，也許你知道我們可以在哪裏買到新鮮麵包。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As you live nearby, do you happen to know where we can buy fresh bread?",
+      "answerZh": "既然你住在附近，請問你是否知道我們可以在哪裏買到新鮮麵包？",
+      "answerZhSource": "pdf",
+      "highlight": "As you live nearby, do you happen to know where we can buy fresh bread?"
+    },
+    {
+      "id": "ss285-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I checked the notice, but do you know which platform we should use, by any chance?",
+      "promptZh": "我查看了告示，但你是否剛好知道我們應該使用哪個月台？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I checked the notice, but do you happen to know which platform we should use?",
+      "answerZh": "我查看了告示，但請問你是否知道我們應該使用哪個月台？",
+      "answerZhSource": "pdf",
+      "highlight": "I checked the notice, but do you happen to know which platform we should use?"
+    },
+    {
+      "id": "ss285-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When was the building opened? Perhaps you know.",
+      "promptZh": "這座大樓甚麼時候啟用？也許你知道。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you happen to know when the building was opened?",
+      "answerZh": "請問你是否知道這座大樓甚麼時候啟用？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you happen to know when the building was opened?"
+    },
+    {
+      "id": "ss285-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Since you attended last year, can you tell me if children need tickets?",
+      "promptZh": "既然你去年曾經參加，你可以告訴我兒童是否需要門票嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since you attended last year, do you happen to know if children need tickets?",
+      "answerZh": "既然你去年曾經參加，請問你是否知道兒童是否需要門票？",
+      "answerZhSource": "pdf",
+      "highlight": "Since you attended last year, do you happen to know if children need tickets?"
+    },
+    {
+      "id": "ss285-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "One more thing: do you know whose umbrella this is, by any chance?",
+      "promptZh": "還有一件事：你是否剛好知道這是誰的雨傘？",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing: do you happen to know whose umbrella this is?",
+      "answerZh": "還有一件事：請問你是否知道這是誰的雨傘？",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing: do you happen to know whose umbrella this is?"
+    },
+    {
+      "id": "ss285-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The form is unclear, so could you tell me what information applicants must provide?",
+      "promptZh": "表格內容不清楚，所以你可以告訴我申請人必須提供甚麼資料嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The form is unclear, so do you happen to know what information applicants must provide?",
+      "answerZh": "表格內容不清楚，所以請問你是否知道申請人必須提供甚麼資料？",
+      "answerZhSource": "pdf",
+      "highlight": "The form is unclear, so do you happen to know what information applicants must provide?"
+    },
+    {
+      "id": "ss285-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Before we set off, can you tell me whether the weather warning has been lifted?",
+      "promptZh": "在我們出發前，你可以告訴我天氣警告是否已經取消嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we set off, do you happen to know whether the weather warning has been lifted?",
+      "answerZh": "在我們出發前，請問你是否知道天氣警告是否已經取消？",
+      "answerZhSource": "pdf",
+      "highlight": "Before we set off, do you happen to know whether the weather warning has been lifted?"
+    },
+    {
+      "id": "ss285-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "You spoke to the technician. Why did the printer stop working?",
+      "promptZh": "你曾經與技術員交談。打印機為甚麼停止運作？",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You spoke to the technician, so do you happen to know why the printer stopped working?",
+      "answerZh": "你曾經與技術員交談，所以請問你是否知道打印機為甚麼停止運作？",
+      "answerZhSource": "pdf",
+      "highlight": "You spoke to the technician, so do you happen to know why the printer stopped working?"
+    },
+    {
+      "id": "ss285-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Who designed the new logo? Can you tell me?",
+      "promptZh": "誰設計了新標誌？你可以告訴我嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you happen to know who designed the new logo?",
+      "answerZh": "請問你是否知道誰設計了新標誌？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you happen to know who designed the new logo?"
+    },
+    {
+      "id": "ss285-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I have looked everywhere, but can you tell me where the spare keys are kept?",
+      "promptZh": "我已經到處尋找，但你可以告訴我後備鑰匙存放在哪裏嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have looked everywhere, but do you happen to know where the spare keys are kept?",
+      "answerZh": "我已經到處尋找，但請問你是否知道後備鑰匙存放在哪裏？",
+      "answerZhSource": "pdf",
+      "highlight": "I have looked everywhere, but do you happen to know where the spare keys are kept?"
+    },
+    {
+      "id": "ss285-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Since you know the system, could you tell me how I can reset my password?",
+      "promptZh": "既然你熟悉這個系統，你可以告訴我如何重設密碼嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since you know the system, do you happen to know how I can reset my password?",
+      "answerZh": "既然你熟悉這個系統，請問你是否知道我可以如何重設密碼？",
+      "answerZhSource": "pdf",
+      "highlight": "Since you know the system, do you happen to know how I can reset my password?"
+    },
+    {
+      "id": "ss285-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "By the way, perhaps you know the date of the next staff meeting.",
+      "promptZh": "順帶一提，也許你知道下一次職員會議的日期。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the way, do you happen to know the date of the next staff meeting?",
+      "answerZh": "順帶一提，請問你是否知道下一次職員會議的日期？",
+      "answerZhSource": "pdf",
+      "highlight": "By the way, do you happen to know the date of the next staff meeting?"
+    },
+    {
+      "id": "ss285-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Before we order, can you tell me if the soup contains nuts?",
+      "promptZh": "在我們點餐前，你可以告訴我這款湯是否含有果仁嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we order, do you happen to know if the soup contains nuts?",
+      "answerZh": "在我們點餐前，請問你是否知道這款湯是否含有果仁？",
+      "answerZhSource": "pdf",
+      "highlight": "Before we order, do you happen to know if the soup contains nuts?"
+    },
+    {
+      "id": "ss285-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I was unable to find the rule, so can you tell me whether pets are allowed in the park?",
+      "promptZh": "我找不到相關規則，所以你可以告訴我公園是否准許寵物進入嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I was unable to find the rule, so do you happen to know whether pets are allowed in the park?",
+      "answerZh": "我找不到相關規則，所以請問你是否知道公園是否准許寵物進入？",
+      "answerZhSource": "pdf",
+      "highlight": "I was unable to find the rule, so do you happen to know whether pets are allowed in the park?"
+    },
+    {
+      "id": "ss285-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Since you were at the meeting, perhaps you know what decision the committee made.",
+      "promptZh": "既然你當時出席了會議，也許你知道委員會作出了甚麼決定。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since you were at the meeting, do you happen to know what decision the committee made?",
+      "answerZh": "既然你當時出席了會議，請問你是否知道委員會作出了甚麼決定？",
+      "answerZhSource": "pdf",
+      "highlight": "Since you were at the meeting, do you happen to know what decision the committee made?"
+    },
+    {
+      "id": "ss285-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Excuse me. How long has the doctor been away? Perhaps you know.",
+      "promptZh": "不好意思，醫生離開了多久？也許你知道。",
+      "promptZhSource": "pdf",
+      "starter": "Excuse",
+      "answer": "Excuse me, do you happen to know how long the doctor has been away?",
+      "answerZh": "不好意思，請問你是否知道醫生離開了多久？",
+      "answerZhSource": "pdf",
+      "highlight": "Excuse me, do you happen to know how long the doctor has been away?"
+    },
+    {
+      "id": "ss285-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 24
+      },
+      "prompt": "I checked my messages, but do you know who called earlier, by any chance?",
+      "promptZh": "我查看了訊息，但你是否剛好知道較早前是誰來電？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I checked my messages, but do you happen to know who called earlier?",
+      "answerZh": "我查看了訊息，但請問你是否知道較早前是誰來電？",
+      "answerZhSource": "pdf",
+      "highlight": "I checked my messages, but do you happen to know who called earlier?"
+    },
+    {
+      "id": "ss285-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Before I submit the form, can you tell me if I should attach a copy of my passport?",
+      "promptZh": "在我提交表格前，你可以告訴我是否應該附上護照副本嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before I submit the form, do you happen to know if I should attach a copy of my passport?",
+      "answerZh": "在我提交表格前，請問你是否知道我是否應該附上護照副本？",
+      "answerZhSource": "pdf",
+      "highlight": "Before I submit the form, do you happen to know if I should attach a copy of my passport?"
+    },
+    {
+      "id": "ss285-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "One more thing: why has the train been delayed? Perhaps you know.",
+      "promptZh": "還有一件事：火車為甚麼延誤？也許你知道。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more thing: do you happen to know why the train has been delayed?",
+      "answerZh": "還有一件事：請問你是否知道火車為甚麼延誤？",
+      "answerZhSource": "pdf",
+      "highlight": "One more thing: do you happen to know why the train has been delayed?"
+    },
+    {
+      "id": "ss285-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Since you have used the app, could you tell me which button opens the settings menu?",
+      "promptZh": "既然你使用過這個應用程式，你可以告訴我哪個按鈕可以開啟設定選單嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since you have used the app, do you happen to know which button opens the settings menu?",
+      "answerZh": "既然你使用過這個應用程式，請問你是否知道哪個按鈕可以開啟設定選單？",
+      "answerZhSource": "pdf",
+      "highlight": "Since you have used the app, do you happen to know which button opens the settings menu?"
+    },
+    {
+      "id": "ss285-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "By the way, perhaps you know the opening hours of the service desk.",
+      "promptZh": "順帶一提，也許你知道服務櫃位的開放時間。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the way, do you happen to know the opening hours of the service desk?",
+      "answerZh": "順帶一提，請問你是否知道服務櫃位的開放時間？",
+      "answerZhSource": "pdf",
+      "highlight": "By the way, do you happen to know the opening hours of the service desk?"
+    },
+    {
+      "id": "ss285-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "I cannot remember. When are the final results announced? Perhaps you know.",
+      "promptZh": "我記不起來。最終結果甚麼時候公布？也許你知道。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I cannot remember, so do you happen to know when the final results are announced?",
+      "answerZh": "我記不起來，所以請問你是否知道最終結果甚麼時候公布？",
+      "answerZhSource": "pdf",
+      "highlight": "I cannot remember, so do you happen to know when the final results are announced?"
+    },
+    {
+      "id": "ss285-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The council webpage is not clear, so can you tell me who residents should contact about broken streetlights?",
+      "promptZh": "區議會網頁的資料不清楚，所以你可以告訴我居民應該就損壞的街燈聯絡誰嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council webpage is not clear, so do you happen to know who residents should contact about broken streetlights?",
+      "answerZh": "區議會網頁的資料不清楚，所以請問你是否知道居民應該就損壞的街燈聯絡誰？",
+      "answerZhSource": "pdf",
+      "highlight": "The council webpage is not clear, so do you happen to know who residents should contact about broken streetlights?"
+    },
+    {
+      "id": "ss285-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Since you joined the project early, perhaps you know why the original deadline was changed.",
+      "promptZh": "既然你在項目早期已經加入，也許你知道原定期限為甚麼被更改。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since you joined the project early, do you happen to know why the original deadline was changed?",
+      "answerZh": "既然你在項目早期已經加入，請問你是否知道原定期限為甚麼被更改？",
+      "answerZhSource": "pdf",
+      "highlight": "Since you joined the project early, do you happen to know why the original deadline was changed?"
+    },
+    {
+      "id": "ss285-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Before we agree to the order, can you tell me whether the quoted price includes delivery and installation?",
+      "promptZh": "在我們同意訂單前，你可以告訴我報價是否包括送貨和安裝嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we agree to the order, do you happen to know whether the quoted price includes delivery and installation?",
+      "answerZh": "在我們同意訂單前，請問你是否知道報價是否包括送貨和安裝？",
+      "answerZhSource": "pdf",
+      "highlight": "Before we agree to the order, do you happen to know whether the quoted price includes delivery and installation?"
+    },
+    {
+      "id": "ss285-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "I have read the instructions twice, but do you know what happens after the account is verified?",
+      "promptZh": "我已經閱讀指示兩次，但你知道帳戶通過驗證後會發生甚麼事嗎？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have read the instructions twice, but do you happen to know what happens after the account is verified?",
+      "answerZh": "我已經閱讀指示兩次，但請問你是否知道帳戶通過驗證後會發生甚麼事？",
+      "answerZhSource": "pdf",
+      "highlight": "I have read the instructions twice, but do you happen to know what happens after the account is verified?"
+    },
+    {
+      "id": "ss285-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Excuse me. How many days will the refund take to reach my account? Perhaps you know.",
+      "promptZh": "不好意思，退款需要多少天才會存入我的戶口？也許你知道。",
+      "promptZhSource": "pdf",
+      "starter": "Excuse",
+      "answer": "Excuse me, do you happen to know how many days the refund will take to reach my account?",
+      "answerZh": "不好意思，請問你是否知道退款需要多少天才會存入我的戶口？",
+      "answerZhSource": "pdf",
+      "highlight": "Excuse me, do you happen to know how many days the refund will take to reach my account?"
+    },
+    {
+      "id": "ss285-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "As you have visited the venue before, could you tell me which entrance wheelchair users should use?",
+      "promptZh": "既然你以前到過這個場地，你可以告訴我輪椅使用者應該使用哪個入口嗎？",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As you have visited the venue before, do you happen to know which entrance wheelchair users should use?",
+      "answerZh": "既然你以前到過這個場地，請問你是否知道輪椅使用者應該使用哪個入口？",
+      "answerZhSource": "pdf",
+      "highlight": "As you have visited the venue before, do you happen to know which entrance wheelchair users should use?"
+    },
+    {
+      "id": "ss285-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "One more question: when did the maintenance team last inspect the lift? Perhaps you know.",
+      "promptZh": "還有一個問題：維修小組上一次在甚麼時候檢查升降機？也許你知道。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more question: do you happen to know when the maintenance team last inspected the lift?",
+      "answerZh": "還有一個問題：請問你是否知道維修小組上一次在甚麼時候檢查升降機？",
+      "answerZhSource": "pdf",
+      "highlight": "One more question: do you happen to know when the maintenance team last inspected the lift?"
+    },
+    {
+      "id": "ss285-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Since you handled the earlier case, can you tell me if the customer has already been contacted?",
+      "promptZh": "既然你處理了較早前的個案，你可以告訴我是否已經有人聯絡該名顧客嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since you handled the earlier case, do you happen to know if the customer has already been contacted?",
+      "answerZh": "既然你處理了較早前的個案，請問你是否知道是否已經有人聯絡該名顧客？",
+      "answerZhSource": "pdf",
+      "highlight": "Since you handled the earlier case, do you happen to know if the customer has already been contacted?"
+    },
+    {
+      "id": "ss285-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "I found an old timetable, but do you know which trains still run after midnight, by any chance?",
+      "promptZh": "我找到一份舊時間表，但你是否剛好知道哪些列車在午夜後仍然行駛？",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I found an old timetable, but do you happen to know which trains still run after midnight?",
+      "answerZh": "我找到一份舊時間表，但請問你是否知道哪些列車在午夜後仍然行駛？",
+      "answerZhSource": "pdf",
+      "highlight": "I found an old timetable, but do you happen to know which trains still run after midnight?"
+    },
+    {
+      "id": "ss285-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Before we approve the plan, could you tell me how the temporary closure will affect local shops?",
+      "promptZh": "在我們批准計劃前，你可以告訴我臨時關閉將如何影響本地店舖嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we approve the plan, do you happen to know how the temporary closure will affect local shops?",
+      "answerZh": "在我們批准計劃前，請問你是否知道臨時關閉將如何影響本地店舖？",
+      "answerZhSource": "pdf",
+      "highlight": "Before we approve the plan, do you happen to know how the temporary closure will affect local shops?"
+    }
+  ]
+}

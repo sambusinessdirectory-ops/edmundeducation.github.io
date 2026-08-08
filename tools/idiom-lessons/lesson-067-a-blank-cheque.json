@@ -1,0 +1,1378 @@
+{
+  "lesson": {
+    "id": "idiom-67",
+    "order": 67,
+    "slug": "a-blank-cheque",
+    "version": "1",
+    "title": "全權授權／不設限制",
+    "titleEn": "a blank cheque",
+    "titleZh": "全權授權／不設限制",
+    "source": {
+      "file": "Idiom 67 - 「A Blank Cheque」.pdf",
+      "pageCount": 29,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "exercisePdfPages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "answerKeyPdfPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a blank cheque",
+        "highlight": "a blank cheque"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The board gave the manager a blank cheque to run the project.",
+        "zh": "董事會讓經理全權管理這個項目。",
+        "highlight": "a blank cheque"
+      },
+      {
+        "en": "The manager was given a blank cheque to rebuild the department.",
+        "zh": "經理獲全權重整部門。",
+        "highlight": "a blank cheque"
+      }
+    ],
+    "meaning": {
+      "en": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+      "zh": "「a blank cheque」 表示給予某人非常廣泛、甚至不受限制的權力、許可或開支自由，讓對方毋須再次取得批准便可行事。",
+      "naturalZh": [
+        "「a blank cheque」 表示給予某人非常廣泛、甚至不受限制的權力、許可或開支自由，讓對方毋須再次取得批准便可行事。"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral to Formal",
+      "labelZh": "中性至正式",
+      "summaryEn": "workplace discussions; business communication; journalism; public affairs; discussions about contracts, budgets and authority; ordinary conversation about trust and responsibility.",
+      "summaryZh": "這個表達屬中性至略帶正式，常見於工作討論、商業溝通、新聞報道、公共事務，以及有關合約、 預算、權力、信任和責任的對話。",
+      "contextsEn": [
+        "workplace discussions",
+        "business communication",
+        "journalism",
+        "public affairs",
+        "discussions about contracts, budgets and authority",
+        "ordinary conversation about trust and responsibility",
+        "strong trust",
+        "concern",
+        "criticism",
+        "caution",
+        "disapproval of excessive power",
+        "a"
+      ],
+      "contextsZh": [],
+      "formalEn": "The expression is neutral to slightly formal. It is common in:",
+      "formalZh": "英式英語使用 cheque； 北美英語通常寫作 check。 本練習統一教授英式寫法 a blank cheque。"
+    },
+    "fixedVariable": {
+      "fixed": "a blank cheque",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + give + person or group + a blank cheque + to + verb",
+          "example": "The board gave the manager a blank cheque to run the project.",
+          "highlight": "a blank cheque"
+        },
+        {
+          "form": "Person or group + be given + a blank cheque + to + verb",
+          "example": "The manager was given a blank cheque to rebuild the department.",
+          "highlight": "a blank cheque"
+        },
+        {
+          "form": "Person or group + have + a blank cheque + to + verb",
+          "example": "The design team has a blank cheque to redesign the office.",
+          "highlight": "a blank cheque"
+        },
+        {
+          "form": "give or have + a blank cheque + for + noun phrase",
+          "example": "The team was given a blank cheque for the project.",
+          "highlight": "a blank cheque"
+        },
+        {
+          "form": "Subject + not give + person + a blank cheque",
+          "example": "The company did not give the manager a blank cheque.",
+          "highlight": "a blank cheque"
+        },
+        {
+          "form": "Something + be not + a blank cheque + for + person + to + verb",
+          "example": "The new rule is not a blank cheque for staff to ignore safety procedures.",
+          "highlight": "a blank cheque"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Giving Authority",
+        "titleZh": "句式一：給予權力",
+        "formula": "Subject + give + person or group + a blank cheque + to + verb",
+        "descriptionEn": "Source grammar frame: Subject + give + person or group + a blank cheque + to + verb.",
+        "descriptionZh": "原檔列出的句法框架：Subject + give + person or group + a blank cheque + to + verb。",
+        "examples": [
+          {
+            "en": "The board gave the manager a blank cheque to run the project.",
+            "zh": "董事會讓經理全權管理這個項目。",
+            "highlight": "a blank cheque"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Passive Form",
+        "titleZh": "句式二：被動形式",
+        "formula": "Person or group + be given + a blank cheque + to + verb",
+        "descriptionEn": "Source grammar frame: Person or group + be given + a blank cheque + to + verb.",
+        "descriptionZh": "原檔列出的句法框架：Person or group + be given + a blank cheque + to + verb。",
+        "examples": [
+          {
+            "en": "The manager was given a blank cheque to rebuild the department.",
+            "zh": "經理獲全權重整部門。",
+            "highlight": "a blank cheque"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Having Authority",
+        "titleZh": "句式三：擁有權力",
+        "formula": "Person or group + have + a blank cheque + to + verb",
+        "descriptionEn": "Source grammar frame: Person or group + have + a blank cheque + to + verb.",
+        "descriptionZh": "原檔列出的句法框架：Person or group + have + a blank cheque + to + verb。",
+        "examples": [
+          {
+            "en": "The design team has a blank cheque to redesign the office.",
+            "zh": "設計團隊獲全權重新設計辦公室。",
+            "highlight": "a blank cheque"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Naming the Area or Project",
+        "titleZh": "句式四：指出涉及的範圍或項目",
+        "formula": "give or have + a blank cheque + for + noun phrase",
+        "descriptionEn": "Source grammar frame: give or have + a blank cheque + for + noun phrase.",
+        "descriptionZh": "原檔列出的句法框架：give or have + a blank cheque + for + noun phrase。",
+        "examples": [
+          {
+            "en": "The team was given a blank cheque for the project.",
+            "zh": "團隊獲全權處理這個項目，所需開支不設上限。",
+            "highlight": "a blank cheque"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Refusing Unlimited Authority",
+        "titleZh": "句式五：否定無限制授權",
+        "formula": "Subject + not give + person + a blank cheque",
+        "descriptionEn": "Source grammar frame: Subject + not give + person + a blank cheque.",
+        "descriptionZh": "原檔列出的句法框架：Subject + not give + person + a blank cheque。",
+        "examples": [
+          {
+            "en": "The company did not give the manager a blank cheque.",
+            "zh": "公司並沒有給予經理不受限制的權力。",
+            "highlight": "a blank cheque"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“Not a Blank Cheque for Someone to...”",
+        "titleZh": "句式六：「並非讓某人可以任意……」",
+        "formula": "Something + be not + a blank cheque + for + person + to + verb",
+        "descriptionEn": "Source grammar frame: Something + be not + a blank cheque + for + person + to + verb.",
+        "descriptionZh": "原檔列出的句法框架：Something + be not + a blank cheque + for + person + to + verb。",
+        "examples": [
+          {
+            "en": "The new rule is not a blank cheque for staff to ignore safety procedures.",
+            "zh": "新規則並不代表員工可以任意無視安全程序。",
+            "highlight": "a blank cheque"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "把較長的解釋濃縮",
+        "en": "The manager has been given a blank cheque.",
+        "zh": "這個表達把「可以自行決定、開支不設上限、毋須再次取得批准」等意思濃縮成一個簡潔短語。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Shows the Extent of Trust",
+        "titleZh": "表達信任程度",
+        "en": "Giving someone a blank cheque may show that the person is highly trusted to act independently.",
+        "zh": "給某人「a blank cheque」可以表示對方獲得高度信任，可以自行判斷和行事。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Warn About Excessive Power",
+        "titleZh": "警告權力過大",
+        "en": "The expression can draw attention to the danger of giving someone authority without enough limits or checks.",
+        "zh": "這個表達可以指出，在欠缺限制或監管的情況下給予某人過多權力，可能帶來風險。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Distinguishes Limited and Unlimited Permission",
+        "titleZh": "區分有限與無限制許可",
+        "en": "The manager may choose the colours, but that is not a blank cheque to change the whole building.",
+        "zh": "經理可以選擇顏色，但這並不代表他可以任意改動整座建築物。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful in Professional and Public Discussion",
+        "titleZh": "適合專業及公共討論",
+        "en": "It provides a concise way to discuss budgets, contracts, management power, public rules and responsibility. However, the idiom is not automatically better than plain language. When exact limits matter, a direct explanation may be safer and clearer.",
+        "zh": "它可以簡潔地描述預算、合約、管理權力、公共規則和責任問題。 不過，慣用語並非一定比普通說法優勝。 當具體限制十分重要時，直接說明權限和金額通常會更加清晰。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Figurative Use Not Established in the Sources Consulted",
+      "statusZh": "逐漸形成；在本次查閱的資料中未能確認最早的比喻用法",
+      "history": [
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Because the amount was left open, the literal document naturally suggested unusually wide financial freedom and considerable trust. Speakers extended this image beyond banking and began using a blank cheque for authority or permission with few clear limits.",
+          "zh": "由於支票上的金額仍然空白，這種文件自然令人聯想到非常廣泛的開支自由和高度信任。 後來， 人們把這個畫面延伸至銀行以外的情境，用來表示缺乏明確限制的權力或許可。"
+        }
+      ],
+      "memoryEn": "No amount written means no clear financial limit; figuratively, a blank cheque means no clear limit on someone’s freedom or authority.",
+      "memoryZh": "沒有填寫金額，便沒有清楚的開支上限；在比喻用法中，「a blank cheque」就是某人的自由或權力沒有明確限制。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Complete Fixed Form",
+        "titleZh": "規則一：保留完整固定形式",
+        "en": "The board gave her blank cheque.",
+        "zh": "不可省略冠詞 a。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use It Only for Very Broad Freedom",
+        "titleZh": "規則二：只用於非常廣泛的自由或權力",
+        "en": "The manager may make every decision and spend whatever is necessary. The manager may spend up to $500 on office paper.",
+        "zh": "不適合： 第二個情況已有明確金額上限，並非真正的「a blank cheque」。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use “To + Verb” for the Permitted Action",
+        "titleZh": "規則三：使用 to+動詞說明獲准進行的行動",
+        "en": "Use “To + Verb” for the Permitted Action",
+        "zh": "使用 to+動詞說明獲准進行的行動",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use “For + Noun” for the Area or Project",
+        "titleZh": "規則四：使用 for+名詞指出範圍或項目",
+        "en": "Use “For + Noun” for the Area or Project",
+        "zh": "使用 for+名詞指出範圍或項目",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則五：保留時態及確定程度",
+        "en": "The law gave the department a blank cheque.",
+        "zh": "不可把「可能」改成已經發生的事實。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Negative Forms Are Important",
+        "titleZh": "規則六：注意否定形式",
+        "en": "A person may have some freedom without having unlimited freedom.",
+        "zh": "並非每項許可都等於「a blank cheque」。 某人可以擁有一定自主權，但仍須遵守預算、規則或審批程序。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Confuse Literal and Figurative Uses",
+        "titleZh": "規則七：不要混淆字面及比喻用法",
+        "en": "Literal: Figurative:",
+        "zh": "主管簽署了一張支票，但沒有填寫金額。 主管讓經理全權管理項目。",
+        "examples": [
+          {
+            "en": "The director gave the manager a blank cheque to run the project.",
+            "zh": "主管讓經理全權管理項目。",
+            "highlight": "a blank cheque"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Overuse It",
+        "titleZh": "規則八：不要過度使用",
+        "en": "If the permission is narrow, ordinary expressions such as permission, freedom, approval or a budget may be clearer.",
+        "zh": "只有在權力、許可或開支自由極為廣泛時，才應使用這個慣用語。 若權限有限，直接使用 permission、freedom、approval 或 budget 可能更準確。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Preserve the original actor, situation, tense, certainty, negative meaning and attitude. The first word of each model answer has been provided.",
+      "zh": "使用「a blank cheque」改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-67-q01",
+        "number": 1,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The company told Daniel to spend whatever was needed to repair the computer system, without asking for further approval.",
+        "promptZh": "公司告訴丹尼爾可按需要花費任何金額維修電腦系統，毋須再作申請。",
+        "starter": "The",
+        "answer": "The company gave Daniel a blank cheque to repair the computer system.",
+        "answerZh": "公司全權授權丹尼爾維修電腦系統，所需開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q02",
+        "number": 2,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The director allowed the design team to choose anything and spend as much as it needed on the new office.",
+        "promptZh": "主管准許設計團隊為新辦公室自行選擇一切，並按需要使用任何金額。",
+        "starter": "The",
+        "answer": "The director gave the design team a blank cheque to design the new office.",
+        "answerZh": "主管讓設計團隊全權設計新辦公室，所需開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q03",
+        "number": 3,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Chloe's parents trusted her completely. They told her that she could choose the hotel, flights and activities, whatever the cost.",
+        "promptZh": "克洛伊的父母完全信任她。他們告訴她，可以自行選擇酒店、航班和活動，不必考慮費用上限。",
+        "starter": "Chloe's",
+        "answer": "Chloe's parents gave her a blank cheque to plan the family holiday.",
+        "answerZh": "克洛伊的父母讓她全權籌劃家庭旅行，費用不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q04",
+        "number": 4,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The coach let the captain choose every part of the training plan without checking with him.",
+        "promptZh": "教練讓隊長自行決定訓練計劃的每個部分，毋須先與他確認。",
+        "starter": "The",
+        "answer": "The coach gave the captain a blank cheque to choose the training plan.",
+        "answerZh": "教練讓隊長全權決定訓練計劃。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q05",
+        "number": 5,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The charity told its local team to buy any emergency supplies that people needed.",
+        "promptZh": "慈善機構告訴當地團隊，可購買災民所需的任何緊急物資。",
+        "starter": "The",
+        "answer": "The charity gave its local team a blank cheque to buy emergency supplies.",
+        "answerZh": "慈善機構讓當地團隊全權購買緊急物資，所需開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q06",
+        "number": 6,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The restaurant owner allowed the chef to choose any ingredients and spend whatever was necessary on the festival menu.",
+        "promptZh": "餐廳東主准許廚師為節日餐牌選用任何食材，並按需要使用任何金額。",
+        "starter": "The",
+        "answer": "The restaurant owner gave the chef a blank cheque to create the festival menu.",
+        "answerZh": "餐廳東主讓廚師全權設計節日餐牌，所需開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q07",
+        "number": 7,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The head teacher let the drama club decide everything about the school show and did not set a spending limit.",
+        "promptZh": "校長讓話劇學會自行決定學校表演的一切安排，亦沒有設定開支上限。",
+        "starter": "The",
+        "answer": "The head teacher gave the drama club a blank cheque to organise the school show.",
+        "answerZh": "校長讓話劇學會全權籌辦學校表演，開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q08",
+        "number": 8,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The new manager could change any part of customer service and did not need the owner's permission.",
+        "promptZh": "新經理可以更改顧客服務的任何部分，毋須取得東主批准。",
+        "starter": "The",
+        "answer": "The new manager was given a blank cheque to improve customer service.",
+        "answerZh": "新經理獲全權改善顧客服務。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q09",
+        "number": 9,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The town team may use as much money and make as many changes as it thinks necessary to repair the community centre.",
+        "promptZh": "市鎮工作小組可按需要使用任何金額，並作出任何改動，以維修社區中心。",
+        "starter": "The",
+        "answer": "The town team has a blank cheque to repair the community centre.",
+        "answerZh": "市鎮工作小組獲全權維修社區中心，所需開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q10",
+        "number": 10,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Aisha may change the website in any way she thinks best. The board has not set a spending limit.",
+        "promptZh": "艾莎可以按自己認為最合適的方式改動網站。董事會沒有設定開支上限。",
+        "starter": "The",
+        "answer": "The board has given Aisha a blank cheque to redesign the website.",
+        "answerZh": "董事會已讓艾莎全權重新設計網站，所需開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q11",
+        "number": 11,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "At every music festival, the organiser lets the music team choose the full programme without asking for approval.",
+        "promptZh": "在每次音樂節中，主辦人都讓音樂團隊自行決定整個節目內容，毋須先取得批准。",
+        "starter": "At",
+        "answer": "At every music festival, the organiser gives the music team a blank cheque to choose the programme.",
+        "answerZh": "在每次音樂節中，主辦人都讓音樂團隊全權決定節目內容。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q12",
+        "number": 12,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The restaurant wanted a completely new menu. The new head chef could change everything and use whatever budget she considered necessary.",
+        "promptZh": "餐廳希望推出一份全新餐牌。新任總廚可以更改一切，並按自己認為有需要的金額使用預算。",
+        "starter": "The",
+        "answer": "The new head chef was given a blank cheque to redesign the menu.",
+        "answerZh": "新任總廚獲全權重新設計餐牌，開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q13",
+        "number": 13,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The board will allow Priya to make every major decision about the project without returning for approval.",
+        "promptZh": "董事會將准許普里亞自行作出項目的所有重大決定，毋須再次尋求批准。",
+        "starter": "The",
+        "answer": "The board will give Priya a blank cheque to lead the project.",
+        "answerZh": "董事會將讓普里亞全權領導這個項目。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q14",
+        "number": 14,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The owner may let the builder spend whatever is needed so that the house can be finished quickly.",
+        "promptZh": "東主可能會讓建築工人按需要使用任何金額，以便盡快完成房屋工程。",
+        "starter": "The",
+        "answer": "The owner may give the builder a blank cheque to finish the house quickly.",
+        "answerZh": "東主可能會讓建築工人全權處理開支，以盡快完成房屋工程。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q15",
+        "number": 15,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Oliver may need to buy several items. However, allowing him complete control over the spending could be risky.",
+        "promptZh": "奧利弗可能需要購買數件物品。不過，讓他完全控制開支可能會有風險。",
+        "starter": "Giving",
+        "answer": "Giving Oliver a blank cheque for the shopping could be risky.",
+        "answerZh": "讓奧利弗在購物開支方面不受限制，可能會有風險。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q16",
+        "number": 16,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The club required the coach to follow a fixed budget and ask before signing any new player.",
+        "promptZh": "球會要求教練遵守固定預算，並在簽入任何新球員前先作申請。",
+        "starter": "The",
+        "answer": "The club did not give the coach a blank cheque to sign new players.",
+        "answerZh": "球會並沒有讓教練全權簽入新球員。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q17",
+        "number": 17,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Jade may use the company card only for approved travel costs.",
+        "promptZh": "潔德只可使用公司信用卡支付已獲批准的交通費用。",
+        "starter": "Having",
+        "answer": "Having the company card does not mean that Jade has a blank cheque.",
+        "answerZh": "持有公司信用卡並不代表潔德可以不受限制地使用公司款項。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q18",
+        "number": 18,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Does the new manager need approval for every change? B: No. The directors have allowed her to make any change she thinks the department needs.",
+        "promptZh": "甲：新經理每作一項改動都需要批准嗎？ 乙：不用。董事已准許她作出任何她認為部門需要的改動。",
+        "starter": "No.",
+        "answer": "No. The directors have given the new manager a blank cheque to change how the department works.",
+        "answerZh": "不用。董事已讓新經理全權改變部門的運作方式。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q19",
+        "number": 19,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The research team may choose all its own methods. It may also spend whatever the project needs.",
+        "promptZh": "研究團隊可以自行選擇所有研究方法，亦可按項目需要使用任何金額。",
+        "starter": "The",
+        "answer": "The university has given the research team a blank cheque for the project.",
+        "answerZh": "大學讓研究團隊全權處理這個項目，所需開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q20",
+        "number": 20,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Why is Sam worried? The new director can make any decision and spend any amount without asking the board.",
+        "promptZh": "為甚麼森姆感到擔心？新任主管可以作出任何決定，並使用任何金額，毋須詢問董事會。",
+        "starter": "Sam",
+        "answer": "Sam is worried because the board has given the new director a blank cheque.",
+        "answerZh": "森姆感到擔心，因為董事會給予新任主管不受限制的權力和開支自由。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q21",
+        "number": 21,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Can I order any equipment I think the laboratory needs? B: Yes. The dean said you do not need to ask about the cost.",
+        "promptZh": "甲：我可以訂購任何我認為實驗室需要的設備嗎？ 乙：可以。院長說你毋須就費用作出申請。",
+        "starter": "Yes.",
+        "answer": "Yes. The dean has given you a blank cheque to equip the laboratory.",
+        "answerZh": "可以。院長已讓你全權為實驗室添置設備，所需開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q22",
+        "number": 22,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Why are the residents angry about the new rule? B: They think it allows the mayor to decide every part of the town's building plans alone.",
+        "promptZh": "甲：為甚麼居民對新規則感到憤怒？ 乙：他們認為新規則容許市長獨自決定市鎮建築規劃的每個部分。",
+        "starter": "They",
+        "answer": "They think the new rule gives the mayor a blank cheque to control local building plans.",
+        "answerZh": "他們認為新規則讓市長全權控制本地建築規劃。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q23",
+        "number": 23,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Rosa believes the contract allows the company to raise prices whenever it wishes.",
+        "promptZh": "羅莎認為合約容許公司隨時按自己的意思加價。",
+        "starter": "Rosa",
+        "answer": "Rosa believes the contract gives the company a blank cheque to raise prices.",
+        "answerZh": "羅莎認為合約讓公司可以不受限制地加價。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q24",
+        "number": 24,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: I thought the agent could act for us. B: Yes, but we did not allow him to accept any offer he liked.",
+        "promptZh": "甲：我以為代理人可以代表我們行事。 乙：可以，但我們沒有准許他隨意接受任何出價。",
+        "starter": "Yes,",
+        "answer": "Yes, but we did not give the agent a blank cheque to accept any offer.",
+        "answerZh": "可以，但我們沒有讓代理人全權接受任何出價。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q25",
+        "number": 25,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The parents asked the school to explain the spending rules. They did not want the head teacher to use the whole school fund without checks.",
+        "promptZh": "家長要求學校解釋開支規則。他們不希望校長在沒有監管的情況下使用整筆學校基金。",
+        "starter": "The",
+        "answer": "The parents did not want to give the head teacher a blank cheque to spend the school fund.",
+        "answerZh": "家長不希望讓校長全權動用學校基金。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q26",
+        "number": 26,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "If the council removes every spending limit, the project leader will be able to use any amount she wants on the park project.",
+        "promptZh": "如果市議會取消所有開支上限，項目主管便可以在公園項目中使用任何金額。",
+        "starter": "If",
+        "answer": "If the council removes every spending limit, it will give the project leader a blank cheque for the park project.",
+        "answerZh": "如果市議會取消所有開支上限，就等於讓項目主管全權處理公園項目的開支。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q27",
+        "number": 27,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The company says the emergency team may take any action it considers necessary during the storm.",
+        "promptZh": "公司表示，緊急應變小組可在風暴期間採取任何其認為有需要的行動。",
+        "starter": "The",
+        "answer": "The company has given the emergency team a blank cheque to deal with the storm.",
+        "answerZh": "公司已讓緊急應變小組全權處理風暴期間的情況。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q28",
+        "number": 28,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Can the designer change the whole brand without checking with us? B: That is what this agreement seems to allow.",
+        "promptZh": "甲：設計師可以在不與我們確認的情況下改動整個品牌嗎？ 乙：這份協議看來就是容許這樣做。",
+        "starter": "Yes.",
+        "answer": "Yes. The agreement seems to give the designer a blank cheque to change the brand.",
+        "answerZh": "是的。這份協議看來讓設計師可以全權改動品牌。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q29",
+        "number": 29,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "People claimed that the new law allowed the police to search any home for any reason. The judge said that was not true.",
+        "promptZh": "有人聲稱新法律容許警方以任何理由搜查任何住宅，但法官表示這並不正確。",
+        "starter": "The",
+        "answer": "The judge said the new law was not a blank cheque for the police to search homes.",
+        "answerZh": "法官表示，新法律並非讓警方可以不受限制地搜查住宅。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q30",
+        "number": 30,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Nora trusted her brother to plan the wedding and told him to spend whatever was needed.",
+        "promptZh": "諾拉信任弟弟籌劃婚禮，並告訴他可按需要使用任何金額。",
+        "starter": "Nora",
+        "answer": "Nora gave her brother a blank cheque to plan the wedding.",
+        "answerZh": "諾拉讓弟弟全權籌劃婚禮，所需開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q31",
+        "number": 31,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Although the manager may make small changes alone, she must ask the owner before spending more than the agreed amount.",
+        "promptZh": "雖然經理可以自行作出小改動，但如開支超出協定金額，她必須先詢問東主。",
+        "starter": "Although",
+        "answer": "Although the manager has some freedom, she does not have a blank cheque for shop expenses.",
+        "answerZh": "雖然經理有一定自主權，但她並不能不受限制地使用店舖款項。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q32",
+        "number": 32,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The board did not set a budget or any approval rules, so the project leader could spend whatever she wanted.",
+        "promptZh": "董事會沒有設定預算或任何審批規則，因此項目主管可以隨意使用任何金額。",
+        "starter": "The",
+        "answer": "The board gave the project leader a blank cheque for the project.",
+        "answerZh": "董事會讓項目主管全權處理這個項目，所需開支不設上限。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q33",
+        "number": 33,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The old manager needed permission for every purchase, but the new manager can buy anything she believes the team needs.",
+        "promptZh": "舊經理每次購物都需要批准，但新經理可以購買任何她認為團隊需要的東西。",
+        "starter": "Unlike",
+        "answer": "Unlike the old manager, the new manager has a blank cheque to buy what the team needs.",
+        "answerZh": "與舊經理不同，新經理可以全權購買團隊所需的物品。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q34",
+        "number": 34,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The policy lets one officer change the rules, choose the companies and decide the price. That is far too much power for one person.",
+        "promptZh": "這項政策容許一名人員更改規則、選擇公司和決定價格。這對一個人來說權力實在過大。",
+        "starter": "In",
+        "answer": "In practice, the policy gives one officer a blank cheque to run the whole buying process.",
+        "answerZh": "實際上，這項政策讓一名人員全權控制整個購買過程。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q35",
+        "number": 35,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Why should we add a spending limit? B: Without one, the events manager could order anything at any price.",
+        "promptZh": "甲：為甚麼我們應設定開支上限？ 乙：如果沒有上限，活動經理便可以按任何價格訂購任何東西。",
+        "starter": "We",
+        "answer": "We should add a spending limit; otherwise, we would be giving the events manager a blank cheque.",
+        "answerZh": "我們應設定開支上限；否則，就等於讓活動經理可以不受限制地動用款項。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q36",
+        "number": 36,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The newspaper warned that the emergency order could let ministers take any step they wished.",
+        "promptZh": "報章警告，這項緊急命令可能容許部長採取任何他們想採取的行動。",
+        "starter": "The",
+        "answer": "The newspaper warned that the emergency order could give ministers a blank cheque in dealing with the emergency.",
+        "answerZh": "報章警告，這項緊急命令可能會讓部長在處理緊急情況時擁有不受限制的權力。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q37",
+        "number": 37,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The owner let the contractor choose both the materials and the final price, giving him complete control over the cost of the work.",
+        "promptZh": "東主讓承建商同時選擇材料和決定最終價格，使他完全控制工程費用。",
+        "starter": "In",
+        "answer": "In effect, the owner gave the contractor a blank cheque for the work.",
+        "answerZh": "實際上，東主讓承建商全權處理這項工程及其開支。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q38",
+        "number": 38,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The charity needs to act quickly, but the donor still wants every large payment to be checked.",
+        "promptZh": "慈善機構需要迅速行動，但捐款人仍希望每筆大額付款都經過審核。",
+        "starter": "The",
+        "answer": "The donor wants quick action without giving the charity a blank cheque.",
+        "answerZh": "捐款人希望慈善機構迅速行動，但並沒有給予它不受限制的開支權。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q39",
+        "number": 39,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The team may choose the colour and music, but the client must approve the final design and cost.",
+        "promptZh": "團隊可以選擇顏色和音樂，但最終設計和費用必須由客戶批准。",
+        "starter": "The",
+        "answer": "The client has given the team freedom, but not a blank cheque for the event design.",
+        "answerZh": "客戶給予團隊一定自由，但並沒有讓他們全權決定活動設計及開支。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q40",
+        "number": 40,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: The director says I can rebuild the whole service in any way I think best. B: That is a huge amount of trust.",
+        "promptZh": "甲：主管說我可以按自己認為最合適的方式重整整項服務。 乙：這代表他對你有極大的信任。",
+        "starter": "It",
+        "answer": "It sounds as though the director trusts you enough to give you a blank cheque to rebuild the service.",
+        "answerZh": "聽起來，主管非常信任你，因此讓你全權重整這項服務。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q41",
+        "number": 41,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Hospital leaders told the emergency doctor to use any staff, rooms or supplies needed, without waiting for further permission.",
+        "promptZh": "醫院管理層告訴急症醫生，可使用任何所需的人手、房間或物資，毋須等待進一步批准。",
+        "starter": "Hospital",
+        "answer": "Hospital leaders gave the emergency doctor a blank cheque to manage the crisis.",
+        "answerZh": "醫院管理層讓急症醫生全權處理這場危機。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q42",
+        "number": 42,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The school said the new learning plan should be creative, but every change must stay within the agreed budget and rules.",
+        "promptZh": "學校表示新的學習計劃應具創意，但每項改動都必須符合已協定的預算和規則。",
+        "starter": "The",
+        "answer": "The school has encouraged creativity without giving the teaching team a blank cheque for the new learning plan.",
+        "answerZh": "學校鼓勵創意，但並沒有讓教學團隊全權處理新的學習計劃。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q43",
+        "number": 43,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The current draft removes the price limit and all checks. If it is approved, the company may charge whatever it wants.",
+        "promptZh": "目前的草擬合約取消了價格上限和所有監管。如果合約獲得批准，公司便可能可以隨意收取任何金額。",
+        "starter": "If",
+        "answer": "If approved in its present form, the final contract may give the company a blank cheque to set its prices.",
+        "answerZh": "如果按照現有形式獲得批准，最終合約可能會讓公司可以不受限制地設定價格。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q44",
+        "number": 44,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The owner told the manager, “Choose any method you think is best, and send me the bill afterwards.”",
+        "promptZh": "東主對經理說：「選擇任何你認為最合適的方法，之後把帳單交給我便可。」",
+        "starter": "The",
+        "answer": "The owner gave the manager a blank cheque for the work.",
+        "answerZh": "東主讓經理全權處理這項工作及其開支。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q45",
+        "number": 45,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The law does not state how much money the department may spend. It also does not require anyone else to approve its decisions.",
+        "promptZh": "法律沒有列明部門可以使用多少款項，亦沒有要求其他人批准其決定。",
+        "starter": "As",
+        "answer": "As written, the law gives the department a blank cheque to make spending decisions.",
+        "answerZh": "按照現有寫法，這項法律讓該部門可以不受限制地作出開支決定。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q46",
+        "number": 46,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: The coach can choose any player, offer any pay and change the whole team without asking us. B: Then the contract gives him far more power than we intended.",
+        "promptZh": "甲：教練可以選擇任何球員、提出任何薪酬，並在不詢問我們的情況下更換整支球隊。 乙：那麼，這份合約給他的權力遠超我們原先的打算。",
+        "starter": "Then",
+        "answer": "Then the contract gives the coach a blank cheque to rebuild the team.",
+        "answerZh": "那麼，這份合約等於讓教練全權重組球隊。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q47",
+        "number": 47,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The fund was meant to pay for urgent repairs, not to let the committee pay for any project it liked.",
+        "promptZh": "這筆基金原本用於支付緊急維修費用，並不是讓委員會隨意為任何項目付款。",
+        "starter": "The",
+        "answer": "The fund was not a blank cheque for the committee to pay for any project it liked.",
+        "answerZh": "這筆基金並非讓委員會可以隨意為任何項目付款。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q48",
+        "number": 48,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Some staff feared that the words “any action needed” could be understood as permission to ignore every normal rule.",
+        "promptZh": "部分員工擔心，「採取任何所需行動」這句話可能被理解為可以無視所有正常規則。",
+        "starter": "Some",
+        "answer": "Some staff feared that “any action needed” could be read as a blank cheque to ignore the normal rules.",
+        "answerZh": "部分員工擔心，「採取任何所需行動」可能被解讀為可以不受限制地無視正常規則。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q49",
+        "number": 49,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The director may choose the final design, but she cannot increase the price or change the building plan.",
+        "promptZh": "主管可以選擇最終設計，但她不能提高價格或更改建築計劃。",
+        "starter": "The",
+        "answer": "The director has the final design choice, but she does not have a blank cheque for the whole building project.",
+        "answerZh": "主管可以決定最終設計，但她並沒有權力隨意更改整個建築項目。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      },
+      {
+        "id": "idiom-67-q50",
+        "number": 50,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "At first, the family agreed that Noah could organise the move. Only later did they realise that they had allowed him to choose the company, the date and the cost without checking with anyone.",
+        "promptZh": "起初，家人同意由諾亞安排搬屋。後來他們才發現，自己容許他在毋須與任何人確認的情況下選擇搬運公司、日期和費用。",
+        "starter": "Only",
+        "answer": "Only later did the family realise that they had given Noah a blank cheque to organise the move.",
+        "answerZh": "家人後來才發現，他們原來已讓諾亞全權安排搬屋及相關開支。",
+        "targetForm": "a blank cheque",
+        "targetMeaning": "A blank cheque means extremely broad or unlimited permission, authority or financial freedom to do something without needing further approval.",
+        "highlight": "a blank cheque"
+      }
+    ]
+  }
+}

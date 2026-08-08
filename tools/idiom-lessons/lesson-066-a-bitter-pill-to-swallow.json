@@ -1,0 +1,1343 @@
+{
+  "lesson": {
+    "id": "idiom-66",
+    "order": 66,
+    "slug": "a-bitter-pill-to-swallow",
+    "version": "1",
+    "title": "難以下嚥的苦果／難接受的事實",
+    "titleEn": "a bitter pill (to swallow)",
+    "titleZh": "難以下嚥的苦果／難接受的事實",
+    "source": {
+      "file": "Idiom 66 - 「a bitter pill (to swallow)」.pdf",
+      "pageCount": 24,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "exercisePdfPages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "answerKeyPdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a bitter pill (to swallow)",
+        "highlight": "a bitter pill (to swallow)"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Losing the class election was a bitter pill for Owen to swallow.",
+        "zh": "在班會選舉中落敗，對奧雲而言是難以接受的苦果。",
+        "highlight": "a bitter pill"
+      }
+    ],
+    "meaning": {
+      "en": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+      "zh": "一件令人非常難受、失望或受挫，卻又不得不接受的事實、結果、決定或處境。",
+      "naturalZh": [
+        "一件令人非常難受、失望或受挫，卻又不得不接受的事實、結果、決定或處境。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "For this worksheet, treat the expression as neutral to slightly informal. It is suitable for conversation, interviews, journalism, workplace discussion and general writing. Its tone commonly conveys disappointment, reluctant acceptance, hurt pride, frustration or sympathy.",
+      "summaryZh": "本練習把這個表達視為中性至略帶口語色彩，適合用於日常對話、訪問、新聞、職場討論及一般文章。 它通常帶有失望、無奈接受、自尊受挫、沮喪或同情的語氣。",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "In highly formal academic, legal or technical writing, a plain expression such as difficult to accept, an unwelcome result or a serious setback may be clearer.",
+      "formalZh": "在非常正式的學術、法律或技術文章中，使用 difficult to accept、an unwelcome result 或 a serious setback 等直接說法，有時會更加清晰。"
+    },
+    "fixedVariable": {
+      "fixed": "a bitter pill (to swallow)",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Event / fact / decision + be + a bitter pill to swallow.",
+          "example": "Losing the class election was a bitter pill for Owen to swallow.",
+          "highlight": "a bitter pill"
+        },
+        {
+          "form": "Event / fact / decision + be + a bitter pill for + person / group + to swallow.",
+          "example": "Losing the class election was a bitter pill for Owen to swallow.",
+          "highlight": "a bitter pill"
+        },
+        {
+          "form": "It + be + a bitter pill to swallow.",
+          "example": "Losing the class election was a bitter pill for Owen to swallow.",
+          "highlight": "a bitter pill"
+        },
+        {
+          "form": "Event / fact / decision + modal + be + a bitter pill for + person / group + to swallow.",
+          "example": "Losing the class election was a bitter pill for Owen to swallow.",
+          "highlight": "a bitter pill"
+        },
+        {
+          "form": "Event / fact / decision + prove / remain + a bitter pill for + person / group + to swallow.",
+          "example": "Losing the class election was a bitter pill for Owen to swallow.",
+          "highlight": "a bitter pill"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Event / fact / decision + be + a bitter pill to swallow",
+        "titleZh": "句式一",
+        "formula": "Event / fact / decision + be + a bitter pill to swallow.",
+        "descriptionEn": "Source grammar frame: Event / fact / decision + be + a bitter pill to swallow.",
+        "descriptionZh": "原檔列出的句法框架：Event / fact / decision + be + a bitter pill to swallow。",
+        "examples": [
+          {
+            "en": "Losing the class election was a bitter pill for Owen to swallow.",
+            "zh": "在班會選舉中落敗，對奧雲而言是難以接受的苦果。",
+            "highlight": "a bitter pill"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Event / fact / decision + be + a bitter pill for + person / group + to swallow",
+        "titleZh": "句式二",
+        "formula": "Event / fact / decision + be + a bitter pill for + person / group + to swallow.",
+        "descriptionEn": "Source grammar frame: Event / fact / decision + be + a bitter pill for + person / group + to swallow.",
+        "descriptionZh": "原檔列出的句法框架：Event / fact / decision + be + a bitter pill for + person / group + to swallow。",
+        "examples": [
+          {
+            "en": "Losing the class election was a bitter pill for Owen to swallow.",
+            "zh": "在班會選舉中落敗，對奧雲而言是難以接受的苦果。",
+            "highlight": "a bitter pill"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It + be + a bitter pill to swallow",
+        "titleZh": "句式三",
+        "formula": "It + be + a bitter pill to swallow.",
+        "descriptionEn": "Source grammar frame: It + be + a bitter pill to swallow.",
+        "descriptionZh": "原檔列出的句法框架：It + be + a bitter pill to swallow。",
+        "examples": [
+          {
+            "en": "Losing the class election was a bitter pill for Owen to swallow.",
+            "zh": "在班會選舉中落敗，對奧雲而言是難以接受的苦果。",
+            "highlight": "a bitter pill"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The new rule could be a bitter pill for some members to swallow",
+        "titleZh": "句式四",
+        "formula": "Event / fact / decision + modal + be + a bitter pill for + person / group + to swallow.",
+        "descriptionEn": "Source grammar frame: Event / fact / decision + modal + be + a bitter pill for + person / group + to swallow.",
+        "descriptionZh": "原檔列出的句法框架：Event / fact / decision + modal + be + a bitter pill for + person / group + to swallow。",
+        "examples": [
+          {
+            "en": "Losing the class election was a bitter pill for Owen to swallow.",
+            "zh": "在班會選舉中落敗，對奧雲而言是難以接受的苦果。",
+            "highlight": "a bitter pill"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The loss proved a bitter pill for the team to swallow",
+        "titleZh": "句式五",
+        "formula": "Event / fact / decision + prove / remain + a bitter pill for + person / group + to swallow.",
+        "descriptionEn": "Source grammar frame: Event / fact / decision + prove / remain + a bitter pill for + person / group + to swallow.",
+        "descriptionZh": "原檔列出的句法框架：Event / fact / decision + prove / remain + a bitter pill for + person / group + to swallow。",
+        "examples": [
+          {
+            "en": "Losing the class election was a bitter pill for Owen to swallow.",
+            "zh": "在班會選舉中落敗，對奧雲而言是難以接受的苦果。",
+            "highlight": "a bitter pill"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It compresses a longer explanation",
+        "titleZh": "好處一",
+        "en": "It compresses a longer explanation. Instead of saying that a result was extremely disappointing and difficult to accept, the speaker can express the same central idea through one memorable phrase.",
+        "zh": "它能濃縮較長的解釋。 說話者毋須完整重複「這個結果令人非常失望，而且很難接受」，便可用一個固定表達傳達核心意思。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It expresses reluctant acceptance",
+        "titleZh": "好處二",
+        "en": "It expresses reluctant acceptance. The idiom shows that the speaker or affected person does not welcome the situation but recognises that it must be faced.",
+        "zh": "它能表達無奈接受。 這個慣用語顯示當事人並不歡迎這個處境，卻明白自己必須面對它。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It communicates emotional weight",
+        "titleZh": "好處三",
+        "en": "It communicates emotional weight. It can convey disappointment, hurt pride, frustration or sadness more clearly than a neutral phrase such as an unfortunate result.",
+        "zh": "它能表達事情的情感分量，比 an unfortunate result 這類中性說法更能顯示失望、自尊受挫、沮喪或難過。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It helps speakers show empathy",
+        "titleZh": "好處四",
+        "en": "It helps speakers show empathy. Saying that something is a bitter pill for another person to swallow acknowledges how difficult the experience may be for that person.",
+        "zh": "它有助說話者表達同理心。 說某件事是對方 a bitter pill to swallow，能承認那段經歷對對方而言確實很難受。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It works with different time and certainty frames",
+        "titleZh": "好處五",
+        "en": "It works with different time and certainty frames. The expression can describe a past result, a present difficulty, a future consequence or a possible outcome. This idiom is useful only when the situation genuinely involves an unpleasant reality that must be accepted. It is not automatically better than plain English.",
+        "zh": "它可以配合不同時間及確定程度，用來描述過去結果、現在困境、未來後果或可能出現的情況。 只有當語境真正涉及一項必須接受的不愉快現實時，這個慣用語才合適。 它並非在所有情況下都比直接表達更好。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "In John Dryden’s 1668 work Of Dramatic Poesie, difficult writing was compared to “a Pill to swallow”. This is an early documented example of the wider figurative image, although it does not yet contain the complete modern wording.",
+          "zh": "John Dryden 在1668年的 Of Dramatic Poesie 中，把難讀的文字比作「需要吞下的藥丸」。 這是較早有記錄的相關比喻畫面，但當時尚未出現完整的現代說法。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical idea is easy to extend: swallowing bitter medicine is unpleasant but sometimes unavoidable; similarly, accepting a defeat, rejection or painful fact may be emotionally unpleasant but unavoidable.",
+          "zh": "原檔說明了這個意思的演變。"
+        }
+      ],
+      "memoryEn": "A bitter pill hurts the mouth but still has to be swallowed; a bitter reality hurts emotionally but still has to be accepted.",
+      "memoryZh": "苦藥令人難受，卻仍要吞下；苦澀的現實令人痛苦，卻仍要接受。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the target form exact",
+        "titleZh": "規則一",
+        "en": "Keep the target form exact. a bitter pill for swallow a bitter pill for the team to swallow",
+        "zh": "必須準確保留目標形式。 本練習不接受：",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use it for acceptance, not merely difficulty",
+        "titleZh": "規則二：它的重點是「接受」，不只是「困難」",
+        "en": "Use it for acceptance, not merely difficulty. The situation should involve an unpleasant fact, result, decision or reality that someone must face or accept.",
+        "zh": "它的重點是「接受」，不只是「困難」。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "The idiom normally describes something emotionally significant",
+        "titleZh": "規則三：這個慣用語通常描述在情感上頗重要的事情",
+        "en": "The idiom normally describes something emotionally significant. A tiny delay or a mildly annoying task is usually not strong enough unless the context shows why it matters greatly.",
+        "zh": "這個慣用語通常描述在情感上頗重要的事情。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The subject is usually the unwelcome event or fact",
+        "titleZh": "規則四：主語通常是令人不快的事件或事實",
+        "en": "The subject is usually the unwelcome event or fact. Natural subjects include a rejection, a defeat, a closure, a decision, a loss, bad news or a painful realisation.",
+        "zh": "主語通常是令人不快的事件或事實。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Use for + person / group to name who must accept it",
+        "titleZh": "規則五：使用 for + 人/群體，指出誰必須接受這件事",
+        "en": "Use for + person / group to name who must accept it. The closure was a bitter pill for the staff to swallow.",
+        "zh": "使用 for + 人/群體，指出誰必須接受這件事。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve tense, time and certainty",
+        "titleZh": "規則六：保留原句的時態、時間及確定程度",
+        "en": "Preserve tense, time and certainty. If the source says may or could, do not change the answer into a completed fact.",
+        "zh": "保留原句的時態、時間及確定程度。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do not use the idiom literally for medicine",
+        "titleZh": "規則七：不要把本課慣用語當作真正藥丸的字面描述",
+        "en": "Do not use the idiom literally for medicine. The patient swallowed a bitter pill describes a real pill unless the wider context clearly establishes a figurative meaning. The patient swallowed a bitter pill",
+        "zh": "不要把本課慣用語當作真正藥丸的字面描述。 若沒有比喻語境，只是在描述病人吞下一粒苦味藥丸。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do not use it merely to mean “hard to believe”",
+        "titleZh": "規則八：不要把它純粹理解為「難以相信」",
+        "en": "Do not use it merely to mean “hard to believe”. The central idea is reluctant acceptance of something unpleasant, not simply doubt about whether it is true.",
+        "zh": "不要把它純粹理解為「難以相信」。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Related variants are natural English, but they are not this exercise’s target",
+        "titleZh": "規則九",
+        "en": "Related variants are natural English, but they are not this exercise’s target.",
+        "zh": "規則九",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a bitter pill (to swallow).",
+      "zh": "使用 a bitter pill (to swallow) 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-66-q01",
+        "number": 1,
+        "sourcePage": 7,
+        "sourcePages": [
+          7
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "Owen lost the class election and found the result very difficult to accept.",
+        "promptZh": "奧雲在班會選舉中落敗，覺得這個結果很難接受。",
+        "starter": "Losing",
+        "answer": "Losing the class election was a bitter pill for Owen to swallow.",
+        "answerZh": "在班會選舉中落敗，對奧雲而言是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q02",
+        "number": 2,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "The school trip was cancelled, and the students had to accept the disappointing news.",
+        "promptZh": "學校旅行被取消，學生不得不接受這個令人失望的消息。",
+        "starter": "The",
+        "answer": "The cancellation of the school trip was a bitter pill for the students to swallow.",
+        "answerZh": "學校旅行被取消，對學生而言是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q03",
+        "number": 3,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 17,
+        "answerSourcePages": [
+          17
+        ],
+        "prompt": "Chloe was not chosen for the school team, and she found the decision very hard to accept.",
+        "promptZh": "歌露兒未獲選加入校隊，她覺得這個決定很難接受。",
+        "starter": "Being",
+        "answer": "Being left out of the school team was a bitter pill for Chloe to swallow.",
+        "answerZh": "未獲選加入校隊，對歌露兒而言是難以接受的打擊。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q04",
+        "number": 4,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Ethan received a poor test result after studying hard, and he struggled to accept it.",
+        "promptZh": "伊頓努力溫習後，測驗成績仍然欠佳，他很難接受這個結果。",
+        "starter": "After",
+        "answer": "After all his hard work, the poor test result was a bitter pill for Ethan to swallow.",
+        "answerZh": "付出不少努力後，測驗成績仍然欠佳，對伊頓而言是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q05",
+        "number": 5,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "The shop refused to give the customer a refund, and she had no choice but to accept the decision.",
+        "promptZh": "店舖拒絕向顧客退款，而她別無選擇，只能接受這個決定。",
+        "starter": "For",
+        "answer": "For the customer, the shop’s refusal to give her a refund was a bitter pill to swallow.",
+        "answerZh": "對這名顧客而言，店舖拒絕向她退款是難以接受的結果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill to swallow"
+      },
+      {
+        "id": "idiom-66-q06",
+        "number": 6,
+        "sourcePage": 8,
+        "sourcePages": [
+          8
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "The runner led for most of the race but finished second. He found the result extremely disappointing.",
+        "promptZh": "那名跑手在大部分賽程中一直領先，最後卻只得第二名。他對這個結果極為失望。",
+        "starter": "Finishing",
+        "answer": "Finishing second after leading for most of the race was a bitter pill for the runner to swallow.",
+        "answerZh": "在大部分賽程中一直領先，最後卻只得第二名，對那名跑手而言是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q07",
+        "number": 7,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Local families were told that the neighbourhood library would close. They found the news very painful to accept.",
+        "promptZh": "區內家庭得知社區圖書館將會關閉，大家都覺得這個消息很難接受。",
+        "starter": "The",
+        "answer": "The news that the neighbourhood library would close was a bitter pill for local families to swallow.",
+        "answerZh": "社區圖書館將會關閉的消息，對區內家庭而言是難以接受的打擊。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q08",
+        "number": 8,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "The team had worked with the client for months, but the client chose another company. The team found the loss hard to accept.",
+        "promptZh": "團隊與客戶合作洽談了數月，但客戶最後選擇了另一間公司。團隊很難接受失去這名客戶。",
+        "starter": "Losing",
+        "answer": "Losing the client after months of work was a bitter pill for the team to swallow.",
+        "answerZh": "工作數月後仍失去這名客戶，對團隊而言是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q09",
+        "number": 9,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Priya’s company reduced her working hours, and she had to accept the unwelcome decision.",
+        "promptZh": "佩雅的公司削減了她的工作時數，而她不得不接受這個不受歡迎的決定。",
+        "starter": "For",
+        "answer": "For Priya, the decision to reduce her working hours was a bitter pill to swallow.",
+        "answerZh": "對佩雅而言，公司決定削減她的工作時數是難以接受的安排。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill to swallow"
+      },
+      {
+        "id": "idiom-66-q10",
+        "number": 10,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "Aaron had expected to win the prize, but another student received it. He found the disappointment hard to accept.",
+        "promptZh": "艾朗原本以為自己會得獎，但獎項最後由另一名學生獲得。他很難接受這份失望。",
+        "starter": "Watching",
+        "answer": "Watching another student receive the prize after he had expected to win was a bitter pill for Aaron to swallow.",
+        "answerZh": "原本以為自己會勝出，最後卻看着另一名學生得獎，對艾朗而言是難以接受的打擊。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q11",
+        "number": 11,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 18,
+        "answerSourcePages": [
+          18
+        ],
+        "prompt": "The club had not lost a match all season until yesterday. Its players found their first defeat difficult to accept.",
+        "promptZh": "球會整季一直未嘗敗績，直至昨天才首次落敗。球員很難接受這場敗仗。",
+        "starter": "For",
+        "answer": "For the players, the club’s first defeat of the season was a bitter pill to swallow.",
+        "answerZh": "對球員而言，球會今季首次落敗是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill to swallow"
+      },
+      {
+        "id": "idiom-66-q12",
+        "number": 12,
+        "sourcePage": 9,
+        "sourcePages": [
+          9
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Grace may have to take the course again next year. She would find that very difficult to accept.",
+        "promptZh": "姬絲明年可能要重讀這個課程。她會覺得這件事很難接受。",
+        "starter": "Having",
+        "answer": "Having to repeat the course would be a bitter pill for Grace to swallow.",
+        "answerZh": "要重讀這個課程，對姬絲而言會是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q13",
+        "number": 13,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The opening of the new sports centre has been delayed again, and local residents have found the repeated delay very disappointing.",
+        "promptZh": "新體育中心再次延遲啟用，區內居民對一再延誤感到十分失望。",
+        "starter": "Another",
+        "answer": "Another delay to the opening of the new sports centre has been a bitter pill for local residents to swallow.",
+        "answerZh": "新體育中心再次延遲啟用，對區內居民而言一直是難以接受的結果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q14",
+        "number": 14,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Jason applied for the exchange programme but was not chosen. He found the rejection very difficult to accept.",
+        "promptZh": "積臣申請參加交換生計劃，但未獲取錄。他很難接受這次落選。",
+        "starter": "Not",
+        "answer": "Not being chosen for the exchange programme was a bitter pill for Jason to swallow.",
+        "answerZh": "未獲選參加交換生計劃，對積臣而言是難以接受的打擊。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q15",
+        "number": 15,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "A: How did you feel when the coach left you out of the starting team? B: I found it very hard to accept, but I understand the coach’s decision.",
+        "promptZh": "甲：教練沒有把你列入正選陣容時，你有甚麼感受？ 乙：我很難接受，但我明白教練的決定。",
+        "starter": "It",
+        "answer": "It was a bitter pill to swallow, but I understand the coach’s decision.",
+        "answerZh": "這是一個難以接受的結果，但我明白教練的決定。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill to swallow"
+      },
+      {
+        "id": "idiom-66-q16",
+        "number": 16,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The club may introduce a higher membership fee. Many members could find the change difficult to accept.",
+        "promptZh": "會所可能會提高會費，許多會員或會覺得這項改變很難接受。",
+        "starter": "The",
+        "answer": "The higher membership fee could be a bitter pill for many members to swallow.",
+        "answerZh": "提高會費，對許多會員而言可能是難以接受的安排。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q17",
+        "number": 17,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The manager said that losing two experienced workers had been very difficult for the company to accept.",
+        "promptZh": "經理表示，失去兩名經驗豐富的員工，令公司很難接受。",
+        "starter": "The",
+        "answer": "The manager said that losing two experienced workers had been a bitter pill for the company to swallow.",
+        "answerZh": "經理表示，失去兩名經驗豐富的員工，對公司而言一直是難以接受的打擊。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q18",
+        "number": 18,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The family had run the café for thirty years, but they finally had to close it. Everyone found the decision painful.",
+        "promptZh": "這個家庭經營咖啡店三十年後，最終仍要把它關閉。所有人都對這個決定感到難受。",
+        "starter": "Closing",
+        "answer": "Closing the family café after thirty years was a bitter pill for everyone to swallow.",
+        "answerZh": "經營三十年後仍要關閉家庭咖啡店，對所有人而言都是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q19",
+        "number": 19,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Daniel discovered that he had blamed the wrong person. Accepting his own mistake was embarrassing and unpleasant.",
+        "promptZh": "丹尼爾發現自己怪錯了人。承認自己的錯誤令他既尷尬又難受。",
+        "starter": "Realising",
+        "answer": "Realising that he had blamed the wrong person was a bitter pill for Daniel to swallow.",
+        "answerZh": "意識到自己怪錯了人，對丹尼爾而言是難以接受的事實。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q20",
+        "number": 20,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The school cancelled the annual play, and the drama club found the decision very difficult to accept.",
+        "promptZh": "學校取消了年度話劇演出，戲劇學會很難接受這個決定。",
+        "starter": "The",
+        "answer": "The school’s decision to cancel the annual play was a bitter pill for the drama club to swallow.",
+        "answerZh": "學校決定取消年度話劇演出，對戲劇學會而言是難以接受的打擊。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q21",
+        "number": 21,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "A: I did not get a place on the art course. B: I know that is very hard to accept, but your work was still strong.",
+        "promptZh": "甲：我未能獲得藝術課程的學位。 乙：我知道這件事很難接受，但你的作品仍然很出色。",
+        "starter": "I",
+        "answer": "I know the rejection is a bitter pill to swallow, but your work was still strong.",
+        "answerZh": "我知道這次落選令人難以接受，但你的作品仍然很出色。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill to swallow"
+      },
+      {
+        "id": "idiom-66-q22",
+        "number": 22,
+        "sourcePage": 11,
+        "sourcePages": [
+          11,
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "A: Why is the class so upset? B: Our favourite teacher is leaving, and everyone is struggling to accept the news.",
+        "promptZh": "甲：為甚麼全班同學都這麼難過？ 乙：我們最喜歡的老師快要離開，大家都很難接受這個消息。",
+        "starter": "Our",
+        "answer": "Our favourite teacher’s departure is a bitter pill for the class to swallow.",
+        "answerZh": "我們最喜歡的老師快要離開，對全班而言是難以接受的消息。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q23",
+        "number": 23,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The captain said that the team had been leading until the final minutes. Giving away that lead was very difficult for the players to accept.",
+        "promptZh": "隊長表示，球隊一直領先至最後數分鐘。未能守住領先優勢，令球員很難接受。",
+        "starter": "According",
+        "answer": "According to the captain, losing their lead in the final minutes was a bitter pill for the team to swallow.",
+        "answerZh": "據隊長所說，在比賽最後數分鐘失去領先優勢，對球隊而言是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q24",
+        "number": 24,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The repair worker said that the computer could not be fixed. Its owner found that news very difficult to accept.",
+        "promptZh": "維修人員表示，這部電腦已無法修復。機主很難接受這個消息。",
+        "starter": "Learning",
+        "answer": "Learning that the computer could not be repaired was a bitter pill for its owner to swallow.",
+        "answerZh": "得知電腦無法修復，對機主而言是難以接受的消息。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q25",
+        "number": 25,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Marcus had insisted that his plan was best, but the results showed that the other plan worked better. He did not enjoy admitting this.",
+        "promptZh": "馬卡斯一直堅稱自己的計劃最好，但結果顯示另一個計劃成效更佳。他很不情願承認這一點。",
+        "starter": "Admitting",
+        "answer": "Admitting that the other plan was better was a bitter pill for Marcus to swallow.",
+        "answerZh": "承認另一個計劃更好，對馬卡斯而言是難以接受的事實。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q26",
+        "number": 26,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The new rule treats every player equally, but some players still find it unpleasant to accept.",
+        "promptZh": "新規則平等對待每名球員，但部分球員仍然覺得很難接受。",
+        "starter": "Although",
+        "answer": "Although the new rule is fair, it is still a bitter pill for some players to swallow.",
+        "answerZh": "雖然新規則公平，但對部分球員而言仍然是難以接受的安排。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q27",
+        "number": 27,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Sofia had looked forward to the final concert for months, but she became ill and had to miss it. She found that deeply disappointing.",
+        "promptZh": "蘇菲亞期待了最後一場音樂會數月，卻因生病而無法出席。她對此感到非常失望。",
+        "starter": "For",
+        "answer": "For Sofia, having to miss the final concert because she was ill was a bitter pill to swallow.",
+        "answerZh": "對蘇菲亞而言，因生病而無法出席最後一場音樂會，是難以接受的遺憾。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill to swallow"
+      },
+      {
+        "id": "idiom-66-q28",
+        "number": 28,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The town may lose its only bus route. If that happens, older residents will find the change very difficult to accept.",
+        "promptZh": "小鎮可能會失去唯一一條巴士路線。若真的發生，年長居民將會很難接受這項改變。",
+        "starter": "If",
+        "answer": "If the town loses its only bus route, that will be a bitter pill for older residents to swallow.",
+        "answerZh": "如果小鎮失去唯一一條巴士路線，對年長居民而言將會是難以接受的安排。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q29",
+        "number": 29,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The owners had spent years building the business, but falling sales forced them to close it. They found the ending painful to accept.",
+        "promptZh": "店主花了多年建立這盤生意，但銷售下跌迫使他們結業。他們很難接受這個結局。",
+        "starter": "After",
+        "answer": "After years of building the business, having to close it because of falling sales was a bitter pill for the owners to swallow.",
+        "answerZh": "花了多年建立這盤生意後，仍因銷售下跌而要結業，對店主而言是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q30",
+        "number": 30,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The team started the match very well, but it may still lose. Supporters could find that result extremely disappointing.",
+        "promptZh": "球隊開局表現很好，但最終仍可能落敗。支持者可能會對這個結果感到極為失望。",
+        "starter": "Especially",
+        "answer": "Especially after such a strong start, losing the match may be a bitter pill for supporters to swallow.",
+        "answerZh": "球隊有如此強勁的開局後，最終若然落敗，對支持者而言可能更難接受。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q31",
+        "number": 31,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Helen had worked very hard on her application, so the rejection felt especially difficult for her to accept.",
+        "promptZh": "海倫為申請付出了很多努力，因此這次被拒對她而言尤其難以接受。",
+        "starter": "The",
+        "answer": "The rejection of Helen’s application was a bitter pill for her to swallow, especially because she had worked so hard.",
+        "answerZh": "海倫的申請被拒，對她而言是難以接受的打擊，尤其因為她已付出了很多努力。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q32",
+        "number": 32,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The company offered its workers jobs in another office, but the closure of their own office was still difficult for them to accept.",
+        "promptZh": "公司向員工提供另一個辦公室的職位，但原有辦公室關閉仍令他們難以接受。",
+        "starter": "Despite",
+        "answer": "Despite the offer of jobs in another office, the closure of their own office remained a bitter pill for the staff to swallow.",
+        "answerZh": "儘管公司在另一個辦公室提供職位，原有辦公室關閉對員工而言仍然是難以接受的結果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q33",
+        "number": 33,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The trainees completed the full training course but were then told that no permanent jobs were available. They found the news very difficult to accept.",
+        "promptZh": "學員完成整個培訓課程後，卻被告知沒有長期職位空缺。他們很難接受這個消息。",
+        "starter": "Being",
+        "answer": "Being told that no permanent jobs were available after completing the training was a bitter pill for the trainees to swallow.",
+        "answerZh": "完成培訓後才被告知沒有長期職位空缺，對學員而言是難以接受的消息。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q34",
+        "number": 34,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The younger players trusted their coach, so they found the sudden change of coach difficult to accept.",
+        "promptZh": "年輕球員很信任原來的教練，因此他們很難接受突然更換教練。",
+        "starter": "Because",
+        "answer": "Because they had trusted their coach, the sudden change of coach was a bitter pill for the younger players to swallow.",
+        "answerZh": "由於年輕球員一直信任原來的教練，突然更換教練對他們而言是難以接受的改變。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q35",
+        "number": 35,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A broken drive destroyed the only copies of the family’s old photographs. Everyone found the loss deeply painful.",
+        "promptZh": "一個損壞的硬碟令家中舊照片的唯一副本全部遺失。所有人都對這次損失感到非常難受。",
+        "starter": "Losing",
+        "answer": "Losing the only copies of the family photographs because of a broken drive proved a bitter pill for everyone to swallow.",
+        "answerZh": "因硬碟損壞而失去家中照片的唯一副本，結果成為所有人難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q36",
+        "number": 36,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The director admitted that the actors had found the poor reviews very difficult to accept.",
+        "promptZh": "導演承認，演員很難接受那些負面評價。",
+        "starter": "According",
+        "answer": "According to the director, the poor reviews had been a bitter pill for the actors to swallow.",
+        "answerZh": "據導演所說，那些負面評價一直是演員難以接受的打擊。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q37",
+        "number": 37,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Customers have already waited a month. If the order is delayed again, they may find the news very difficult to accept.",
+        "promptZh": "顧客已經等了一個月。如果訂單再次延誤，他們可能會覺得這個消息很難接受。",
+        "starter": "A",
+        "answer": "A further delay to the order might be a bitter pill for customers to swallow after they have already waited a month.",
+        "answerZh": "顧客已經等了一個月，訂單再次延誤對他們而言可能是難以接受的消息。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q38",
+        "number": 38,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Are you still angry that the judges did not choose your design? B: It is difficult to accept, but they have made their choice.",
+        "promptZh": "甲：評審沒有選擇你的設計，你還在生氣嗎？ 乙：這件事很難接受，但他們已經作出選擇。",
+        "starter": "The",
+        "answer": "The judges’ decision not to choose my design is a bitter pill to swallow, but they have made their choice.",
+        "answerZh": "評審決定不選擇我的設計，這個結果令人難以接受，但他們已經作出選擇。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill to swallow"
+      },
+      {
+        "id": "idiom-66-q39",
+        "number": 39,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The home team had seemed certain to win, but it lost in the final seconds. The crowd found the final score very hard to accept.",
+        "promptZh": "主隊看來勝券在握，卻在最後數秒落敗。觀眾很難接受最終比數。",
+        "starter": "Losing",
+        "answer": "Losing in the final seconds was a bitter pill for the home crowd to swallow because victory had seemed certain.",
+        "answerZh": "由於主隊原本看來勝券在握，在最後數秒落敗，對主場觀眾而言是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q40",
+        "number": 40,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The club won the competition last year but was knocked out in the first round this year. Its members found the contrast difficult to accept.",
+        "promptZh": "球會去年贏得比賽，今年卻在第一圈出局。會員很難接受這個強烈反差。",
+        "starter": "Compared",
+        "answer": "Compared with last year’s success, losing in the first round this year was a bitter pill for the club to swallow.",
+        "answerZh": "與去年的成功相比，今年在第一圈落敗，對球會而言是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q41",
+        "number": 41,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The school announced that the hall would not reopen this term. The music groups found the news very difficult to accept.",
+        "promptZh": "學校宣布禮堂本學期不會重開。音樂團體很難接受這個消息。",
+        "starter": "The",
+        "answer": "The school announced that the hall would not reopen this term, a bitter pill for the music groups to swallow.",
+        "answerZh": "學校宣布禮堂本學期不會重開，這對音樂團體而言是難以接受的消息。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q42",
+        "number": 42,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The company explained clearly why it had to stop the project, but the staff still found the decision painful to accept.",
+        "promptZh": "公司清楚解釋了為何必須停止項目，但員工仍然很難接受這個決定。",
+        "starter": "Even",
+        "answer": "Even though the reasons were clear, the company’s decision to stop the project was a bitter pill for the staff to swallow.",
+        "answerZh": "即使原因清楚，公司停止項目的決定對員工而言仍然是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q43",
+        "number": 43,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: I cannot believe I have lost my place on the course. B: I know it is very hard to accept, but several people are still waiting for a place.",
+        "promptZh": "甲：我不敢相信自己失去了課程學位。 乙：我知道這件事很難接受，但仍有幾個人在等候學位。",
+        "starter": "I",
+        "answer": "I know that losing your place on the course is a bitter pill to swallow, but several people are still waiting for a place.",
+        "answerZh": "我知道失去課程學位令人難以接受，但仍有幾個人在等候學位。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill to swallow"
+      },
+      {
+        "id": "idiom-66-q44",
+        "number": 44,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The town is considering reducing weekend bus services. If the plan goes ahead, people who work at weekends may find it difficult to accept.",
+        "promptZh": "小鎮正考慮削減週末巴士服務。如果計劃落實，需要在週末上班的人可能會很難接受。",
+        "starter": "If",
+        "answer": "If it goes ahead, the proposed cut in weekend bus services could be a bitter pill for weekend workers to swallow.",
+        "answerZh": "如果計劃落實，削減週末巴士服務對週末上班的人而言可能是難以接受的安排。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q45",
+        "number": 45,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The organisers had prepared for months before learning that the event had been cancelled. They found the news extremely difficult to accept.",
+        "promptZh": "主辦者籌備了數月後，才得知活動被取消。他們極難接受這個消息。",
+        "starter": "After",
+        "answer": "After months of preparation, learning that the event had been cancelled was a bitter pill for the organisers to swallow.",
+        "answerZh": "籌備數月後才得知活動被取消，對主辦者而言是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q46",
+        "number": 46,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Noor received an apology for the unfair comment, but the comment still hurt her and remained difficult to accept.",
+        "promptZh": "努爾就那句不公平的說話收到道歉，但那番話仍然令她受傷，亦很難接受。",
+        "starter": "The",
+        "answer": "The fact that the unfair comment had been made was still a bitter pill for Noor to swallow, although the apology helped.",
+        "answerZh": "儘管道歉有幫助，那句不公平的說話曾經說出口，對努爾而言仍然是難以接受的傷害。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q47",
+        "number": 47,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Engineers are testing whether the old bridge can reopen. If they confirm that it cannot, the village will find the result very difficult to accept.",
+        "promptZh": "工程人員正在測試舊橋能否重開。如果證實不能重開，村民將會很難接受這個結果。",
+        "starter": "If",
+        "answer": "If the test confirms that the old bridge cannot reopen, that will be a bitter pill for the village to swallow.",
+        "answerZh": "如果測試證實舊橋不能重開，對整條村而言將會是難以接受的結果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q48",
+        "number": 48,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Mei accepted that the group would not use her best idea, although she continued to support the project.",
+        "promptZh": "美儀接受了小組不會採用她最好的構思，儘管她仍然繼續支持這個項目。",
+        "starter": "Accepting",
+        "answer": "Accepting that her best idea would not be used was a bitter pill for Mei to swallow, yet she continued to support the project.",
+        "answerZh": "接受自己最好的構思不會獲採用，對美儀而言是難以接受的事實，但她仍然繼續支持這個項目。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q49",
+        "number": 49,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The project team discovered that the copies of its files were incomplete. It found this very difficult to accept.",
+        "promptZh": "項目團隊發現檔案副本並不完整，對此感到很難接受。",
+        "starter": "Discovering",
+        "answer": "Discovering that the copied files were incomplete was a bitter pill for the project team to swallow.",
+        "answerZh": "發現已複製的檔案並不完整，對項目團隊而言是難以接受的事實。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      },
+      {
+        "id": "idiom-66-q50",
+        "number": 50,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The young athlete missed the final by one point. Even though there will be another chance next year, the result was still extremely difficult to accept.",
+        "promptZh": "那名年輕運動員以一分之差未能晉身決賽。即使明年還有機會，這個結果仍然極難接受。",
+        "starter": "Even",
+        "answer": "Even with another chance next year, missing out on a place in the final by one point was a bitter pill for the young athlete to swallow.",
+        "answerZh": "即使明年還有機會，以一分之差未能取得決賽席位，對那名年輕運動員而言仍是難以接受的苦果。",
+        "targetForm": "a bitter pill (to swallow)",
+        "targetMeaning": "Something very unpleasant, disappointing or painful that a person has little choice but to accept.",
+        "highlight": "a bitter pill"
+      }
+    ]
+  }
+}

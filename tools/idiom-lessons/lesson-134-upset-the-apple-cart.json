@@ -1,0 +1,1565 @@
+{
+  "lesson": {
+    "id": "idiom-134",
+    "order": 134,
+    "slug": "upset-the-apple-cart",
+    "version": "1",
+    "title": "打亂計劃／破壞局面",
+    "titleEn": "Upset the Apple Cart",
+    "titleZh": "打亂計劃／破壞局面",
+    "source": {
+      "file": "Idiom 134 - “Upset the Apple Cart”.pdf",
+      "pageCount": 34,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "exercisePdfPages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "answerKeyPdfPages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "Upset the Apple Cart",
+        "highlight": "Upset the Apple Cart"
+      }
+    ],
+    "examples": [
+      {
+        "en": "One careless message upset the apple cart.",
+        "zh": "一則不小心發出的訊息打亂了整個安排。",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "en": "A sudden change often upsets the apple cart.",
+        "zh": "突然作出的改動往往會打亂原有安排。",
+        "highlight": "upsets the apple cart"
+      }
+    ],
+    "meaning": {
+      "en": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+      "zh": "製造麻煩，令原定計劃、已有安排或穩定局面受到破壞",
+      "naturalZh": [
+        "製造麻煩，令原定計劃、已有安排或穩定局面受到破壞"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "concern; caution; criticism; frustration; resistance to change; recognition that a change may have wider effects.",
+      "summaryZh": "這個表達帶有鮮明的比喻色彩，適合日常對話、工作討論、新聞評論，以及談論計劃或制度的文章。",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace discussions",
+        "news and commentary",
+        "descriptions of plans and projects",
+        "warnings about unnecessary changes",
+        "discussions of established systems",
+        "concern",
+        "caution",
+        "criticism",
+        "frustration",
+        "resistance to change",
+        "recognition that a change may have wider effects"
+      ],
+      "contextsZh": [],
+      "formalEn": "The expression is vivid and generally neutral to informal.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "Upset the Apple Cart",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + upset(s) / upset + the apple cart.",
+          "example": "One careless message upset the apple cart.",
+          "highlight": "upset the apple cart"
+        },
+        {
+          "form": "Subject + may / might / can / could / will / would + upset the apple cart.",
+          "example": "The new rule may upset the apple cart.",
+          "highlight": "upset the apple cart"
+        },
+        {
+          "form": "Subject + verb + to upset the apple cart.",
+          "example": "Karen did not want to upset the apple cart.",
+          "highlight": "upset the apple cart"
+        },
+        {
+          "form": "Subject + avoid / risk / admit / end up + upsetting the apple cart.",
+          "example": "We should avoid upsetting the apple cart.",
+          "highlight": "upsetting the apple cart"
+        },
+        {
+          "form": "Upsetting the apple cart + verb",
+          "example": "Upsetting the apple cart is easy; repairing the damage is much harder.",
+          "highlight": "Upsetting the apple cart"
+        },
+        {
+          "form": "Don’t / Please don’t / Try not to + upset the apple cart.",
+          "example": "Don’t upset the apple cart now.",
+          "highlight": "upset the apple cart"
+        },
+        {
+          "form": "Subject + has / had + upset the apple cart.",
+          "example": "The announcement has upset the apple cart.",
+          "highlight": "upset the apple cart"
+        },
+        {
+          "form": "What upset the apple cart was + noun phrase.",
+          "example": "What upset the apple cart was the late change to the guest list.",
+          "highlight": "upset the apple cart"
+        },
+        {
+          "form": "With “By + V-ing”",
+          "example": "Daniel upset the apple cart by changing the plan.",
+          "highlight": "upset the apple cart"
+        },
+        {
+          "form": "Pattern 1–9 + optional method, time, place or condition.",
+          "example": "Daniel’s last-minute change upset the apple cart.",
+          "highlight": "upset the apple cart"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Ordinary Finite Verb Phrase",
+        "titleZh": "句式一：一般限定動詞形式",
+        "formula": "Subject + upset(s) / upset + the apple cart.",
+        "descriptionEn": "Source grammar frame: Subject + upset(s) / upset + the apple cart.",
+        "descriptionZh": "原檔列出的句法框架：Subject + upset(s) / upset + the apple cart。",
+        "examples": [
+          {
+            "en": "One careless message upset the apple cart.",
+            "zh": "一則不小心發出的訊息打亂了整個安排。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "A sudden change often upsets the apple cart.",
+            "zh": "突然作出的改動往往會打亂原有安排。",
+            "highlight": "upsets the apple cart"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "句式二：放在情態動詞之後",
+        "formula": "Subject + may / might / can / could / will / would + upset the apple cart.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / can / could / will / would + upset the apple cart.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / can / could / will / would + upset the apple cart。",
+        "examples": [
+          {
+            "en": "The new rule may upset the apple cart.",
+            "zh": "這項新規則可能會打亂現有安排。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "Changing the date could upset the apple cart.",
+            "zh": "更改日期可能會打亂整個計劃。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "One false message could have upset the apple cart.",
+            "zh": "一則虛假訊息本來可能會打亂整個安排。",
+            "highlight": "upset the apple cart"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “To”",
+        "titleZh": "句式三：放在不定式 to 之後",
+        "formula": "Subject + verb + to upset the apple cart.",
+        "descriptionEn": "Source grammar frame: Subject + verb + to upset the apple cart.",
+        "descriptionZh": "原檔列出的句法框架：Subject + verb + to upset the apple cart。",
+        "examples": [
+          {
+            "en": "Karen did not want to upset the apple cart.",
+            "zh": "不想打亂原有安排。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "He nearly managed to upset the apple cart.",
+            "zh": "他差點便打亂了整個計劃。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "No one intended to upset the apple cart.",
+            "zh": "沒有人打算打亂整個安排。",
+            "highlight": "upset the apple cart"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After a Gerund-Taking Verb or Preposition",
+        "titleZh": "句式四：放在需要動名詞的動詞或介詞之後",
+        "formula": "Subject + avoid / risk / admit / end up + upsetting the apple cart.",
+        "descriptionEn": "The new system ended up upsetting the apple cart.",
+        "descriptionZh": "新制度最後反而打亂了原有安排。",
+        "examples": [
+          {
+            "en": "We should avoid upsetting the apple cart.",
+            "zh": "我們應避免打亂原有安排。",
+            "highlight": "upsetting the apple cart"
+          },
+          {
+            "en": "His question risks upsetting the apple cart.",
+            "zh": "他的問題可能會打亂整個安排。",
+            "highlight": "upsetting the apple cart"
+          },
+          {
+            "en": "She admitted upsetting the apple cart.",
+            "zh": "她承認自己打亂了整個安排。",
+            "highlight": "upsetting the apple cart"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "As the Subject of a Sentence",
+        "titleZh": "句式五：作為句子主語",
+        "formula": "Upsetting the apple cart + verb",
+        "descriptionEn": "Upsetting the apple cart now would waste weeks of work.",
+        "descriptionZh": "現在打亂整個安排，會令數星期的工作白費。",
+        "examples": [
+          {
+            "en": "Upsetting the apple cart is easy; repairing the damage is much harder.",
+            "zh": "要打亂整個安排很容易，但要修補造成的問題便困難得多。",
+            "highlight": "Upsetting the apple cart"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Imperatives and Warnings",
+        "titleZh": "句式六：命令及警告",
+        "formula": "Don’t / Please don’t / Try not to + upset the apple cart.",
+        "descriptionEn": "Please don’t upset the apple cart by changing the schedule.",
+        "descriptionZh": "請不要更改時間表，以免打亂所有安排。",
+        "examples": [
+          {
+            "en": "Don’t upset the apple cart now.",
+            "zh": "現在不要打亂整個安排。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "Try not to upset the apple cart during the meeting.",
+            "zh": "會議期間要盡量避免打亂已達成的共識。",
+            "highlight": "upset the apple cart"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Perfect and Extended Verb Forms",
+        "titleZh": "句式七：完成式及延伸動詞形式",
+        "formula": "Subject + has / had + upset the apple cart.",
+        "descriptionEn": "The continuous form is possible when the disruption is developing or being repeated.",
+        "descriptionZh": "當破壞正在發展或反覆出現時，可以使用進行式。",
+        "examples": [
+          {
+            "en": "The announcement has upset the apple cart.",
+            "zh": "這項公布已經打亂了所有安排。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "The organiser admitted that she had upset the apple cart.",
+            "zh": "主辦人承認自己打亂了整個安排。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "The constant changes are upsetting the apple cart.",
+            "zh": "不斷作出的改動正在破壞原有安排。",
+            "highlight": "upsetting the apple cart"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Focused Clauses",
+        "titleZh": "句式八：焦點句式",
+        "formula": "What upset the apple cart was + noun phrase.",
+        "descriptionEn": "Source grammar frame: What upset the apple cart was + noun phrase.",
+        "descriptionZh": "原檔列出的句法框架：What upset the apple cart was + noun phrase。",
+        "examples": [
+          {
+            "en": "What upset the apple cart was the late change to the guest list.",
+            "zh": "打亂整個安排的，是臨時更改賓客名單。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "It was the unexpected room change that upset the apple cart.",
+            "zh": "正是突然更改房間，打亂了整個安排。",
+            "highlight": "upset the apple cart"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Optional Extensions",
+        "titleZh": "句式九：可選延伸部分",
+        "formula": "With “By + V-ing”",
+        "descriptionEn": "how the disruption happened; when it happened; where it happened; whose arrangements were affected; under what condition it might happen.",
+        "descriptionZh": "這些補充部分只是提供額外資料，並不是慣用語的固定部分。",
+        "examples": [
+          {
+            "en": "Daniel upset the apple cart by changing the plan.",
+            "zh": "更改計劃，打亂了所有安排。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "The manager upset the apple cart by announcing the decision too early.",
+            "zh": "經理過早公布決定，打亂了整個安排。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "Daniel upset the apple cart.",
+            "zh": "打亂了所有安排。",
+            "highlight": "upset the apple cart"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Pattern 1–9 + optional method, time, place or condition",
+        "titleZh": "句式十",
+        "formula": "Pattern 1–9 + optional method, time, place or condition.",
+        "descriptionEn": "Source grammar frame: Pattern 1–9 + optional method, time, place or condition.",
+        "descriptionZh": "原檔列出的句法框架：Pattern 1–9 + optional method, time, place or condition。",
+        "examples": [
+          {
+            "en": "Daniel’s last-minute change upset the apple cart.",
+            "zh": "Daniel 在最後一刻作出的改動打亂了整個計劃。",
+            "highlight": "upset the apple cart"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Connects One Change with Wider Problems",
+        "titleZh": "把一項改動與更廣泛的問題連繫起來",
+        "en": "The idiom shows that one action has affected a larger arrangement.",
+        "zh": "這個慣用語能說明一項改動不只是造成一個小問題，而是影響了整個安排。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Gives a Natural Warning",
+        "titleZh": "提供自然的警告方式",
+        "en": "It Gives a Natural Warning",
+        "zh": "提供自然的警告方式",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Describes Established Arrangements Clearly",
+        "titleZh": "清楚描述既有安排受到破壞",
+        "en": "It Describes Established Arrangements Clearly",
+        "zh": "清楚描述既有安排受到破壞",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Supports Different Attitudes",
+        "titleZh": "配合不同說話態度",
+        "en": "It Supports Different Attitudes",
+        "zh": "配合不同說話態度",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Provides Genuine Grammatical Variety",
+        "titleZh": "提供真正的文法變化",
+        "en": "It Provides Genuine Grammatical Variety",
+        "zh": "提供真正的文法變化",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Encourages Careful Thinking About Change",
+        "titleZh": "鼓勵學生思考改動的後果",
+        "en": "It Encourages Careful Thinking About Change",
+        "zh": "鼓勵學生思考改動的後果",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Early Written Use Documented; Exact Origin Uncertain",
+      "statusZh": "已有早期書面記錄；確切來源仍不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster dates the first known use of applecart in this figurative sense to 1788. An early example attributed to historian Jeremy Belknap used the related wording overset the apple-cart while describing how a last-minute amendment nearly disturbed an important political agreement. This is an early surviving record, not proof that Belknap invented the expression.",
+          "zh": "Merriam-Webster 把 applecart 這個比喻用法的最早已知記錄定於1788年。 歷史學家 Jeremy Belknap 的一個早期例子使用了相關形式 overset the apple-cart，描述一項臨時修訂如何差點破壞重要協議。 這只是目前可找到的早期書面記錄，並不證明 Belknap 創造了這個慣用語。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, upset the apple cart means to disturb a stable order or cause plans, systems or arrangements to go wrong.",
+          "zh": "今天，upset the apple cart 指擾亂穩定局面，或令原定計劃、制度及安排出現問題。"
+        }
+      ],
+      "memoryEn": "One push can scatter every apple; one careless change can disturb an entire plan.",
+      "memoryZh": "一下推撞可以令所有蘋果四散；一項不小心的改動也可以打亂整個計劃。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Definite Article “The”",
+        "titleZh": "規則一：保留定冠詞 the",
+        "en": "Keep the Definite Article “The”",
+        "zh": "保留定冠詞 the",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do Not Confuse the Idiom with Emotional “Upset”",
+        "titleZh": "規則二：不要與「令某人不開心」混淆",
+        "en": "The news upset Karen.",
+        "zh": "這個消息令 Karen 不開心。 這個消息打亂了原有安排。",
+        "examples": [
+          {
+            "en": "The news upset the apple cart.",
+            "zh": "這個消息打亂了原有安排。",
+            "highlight": "upset the apple cart"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "Distinguish Literal and Idiomatic Meanings",
+        "titleZh": "規則三：分辨字面及慣用意思",
+        "en": "The worker upset the apple cart, and the fruit fell onto the road.",
+        "zh": "工人弄翻了蘋果車，水果跌到路上。 工人突然作出的決定打亂了整個安排。",
+        "examples": [
+          {
+            "en": "The worker upset the apple cart, and the fruit fell onto the road.",
+            "zh": "工人弄翻了蘋果車，水果跌到路上。",
+            "highlight": "upset the apple cart"
+          },
+          {
+            "en": "The worker’s sudden decision upset the apple cart.",
+            "zh": "工人突然作出的決定打亂了整個安排。",
+            "highlight": "upset the apple cart"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則四：保留時態及確定程度",
+        "en": "Preserve Tense and Certainty",
+        "zh": "保留時態及確定程度",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The Source Must Establish a Real Arrangement",
+        "titleZh": "規則五：語境必須有真正的計劃或穩定局面",
+        "en": "The Source Must Establish a Real Arrangement",
+        "zh": "語境必須有真正的計劃或穩定局面",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Use It for Every Small Mistake",
+        "titleZh": "規則六：不要用來描述每一個小錯誤",
+        "en": "Do Not Use It for Every Small Mistake",
+        "zh": "不要用來描述每一個小錯誤",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“By + V-ing” Is Optional",
+        "titleZh": "規則七：by + V-ing 只是可選延伸",
+        "en": "“By + V-ing” Is Optional",
+        "zh": "by + V-ing 只是可選延伸",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Force Unnatural Noun or Adjective Forms",
+        "titleZh": "規則八：不要勉強製造不自然的名詞或形容詞形式",
+        "en": "Do Not Force Unnatural Noun or Adjective Forms",
+        "zh": "不要勉強製造不自然的名詞或形容詞形式",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Related Variants Are Not This Exercise’s Target",
+        "titleZh": "規則九：相關變體不是本練習的目標",
+        "en": "Related Variants Are Not This Exercise’s Target",
+        "zh": "相關變體不是本練習的目標",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "The first word of each canonical answer has been provided.",
+      "zh": "使用 upset the apple cart 的適當形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-134-q01",
+        "number": 1,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Daniel changed the agreed plan at the last minute, and all the arrangements stopped working.",
+        "promptZh": "Daniel 在最後一刻更改了已同意的計劃，令所有安排都被打亂。",
+        "starter": "Daniel’s",
+        "answer": "Daniel’s last-minute change upset the apple cart.",
+        "answerZh": "Daniel 在最後一刻作出的改動打亂了整個計劃。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q02",
+        "number": 2,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The new rule could create problems for a system that is working well.",
+        "promptZh": "這項新規則可能會令一套運作良好的制度出現問題。",
+        "starter": "The",
+        "answer": "The new rule could upset the apple cart.",
+        "answerZh": "這項新規則可能會打亂現有的穩定安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q03",
+        "number": 3,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Please do not change the schedule now, because everyone has already made their arrangements.",
+        "promptZh": "請不要現在更改時間表，因為所有人都已作好安排。",
+        "starter": "Please",
+        "answer": "Please don’t upset the apple cart by changing the schedule now.",
+        "answerZh": "請不要現在更改時間表，以免打亂所有人的安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q04",
+        "number": 4,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Karen kept quiet because she did not want to spoil the plan.",
+        "promptZh": "Karen 保持沉默，因為她不想破壞原定計劃。",
+        "starter": "Karen",
+        "answer": "Karen did not want to upset the apple cart.",
+        "answerZh": "Karen 不想打亂原定計劃。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q05",
+        "number": 5,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "One missing form caused trouble just before the class trip.",
+        "promptZh": "一份遺失的表格在班級旅行前夕造成了麻煩。",
+        "starter": "One",
+        "answer": "One missing form upset the apple cart just before the class trip.",
+        "answerZh": "一份遺失的表格在班級旅行前夕打亂了所有安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q06",
+        "number": 6,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "If the teams were changed now, the whole competition plan would be spoiled.",
+        "promptZh": "如果現在更改隊伍，整個比賽安排便會被打亂。",
+        "starter": "Changing",
+        "answer": "Changing the teams now would upset the apple cart.",
+        "answerZh": "現在更改隊伍會打亂整個比賽安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q07",
+        "number": 7,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The sudden rise in price ruined the group’s careful holiday plans.",
+        "promptZh": "價格突然上升，破壞了小組精心安排的假期計劃。",
+        "starter": "The",
+        "answer": "The sudden price rise upset the apple cart.",
+        "answerZh": "價格突然上升，打亂了整個計劃。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q08",
+        "number": 8,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Leo almost spoiled the dinner arrangements when he invited five extra guests.",
+        "promptZh": "Leo 邀請了五名額外賓客，差點打亂晚餐安排。",
+        "starter": "Leo",
+        "answer": "Leo nearly upset the apple cart by inviting five extra guests.",
+        "answerZh": "Leo 邀請了五名額外賓客，差點打亂整個晚餐安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q09",
+        "number": 9,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The plan is almost complete, so we should avoid making a change that causes everything to go wrong.",
+        "promptZh": "計劃已差不多完成，因此我們應避免作出令所有安排出錯的改動。",
+        "starter": "We",
+        "answer": "We should avoid upsetting the apple cart at this late stage.",
+        "answerZh": "到了這麼後期，我們應避免打亂整個計劃。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q10",
+        "number": 10,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The manager’s sudden decision caused confusion throughout the office.",
+        "promptZh": "經理突然作出的決定令整間辦公室陷入混亂。",
+        "starter": "The",
+        "answer": "The manager’s sudden decision upset the apple cart at the office.",
+        "answerZh": "經理突然作出的決定打亂了辦公室原有的安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q11",
+        "number": 11,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The team had agreed on every detail, but one late change spoiled the arrangement.",
+        "promptZh": "團隊已就所有細節達成共識，但一項臨時改動破壞了整個安排。",
+        "starter": "One",
+        "answer": "One late change upset the apple cart after the team had agreed on every detail.",
+        "answerZh": "團隊就所有細節達成共識後，一項臨時改動打亂了整個安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q12",
+        "number": 12,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Bad weather may cause serious problems for Saturday’s fair if it has to move indoors.",
+        "promptZh": "如果星期六的嘉年華需要移到室內，惡劣天氣可能會造成嚴重問題。",
+        "starter": "Bad",
+        "answer": "Bad weather may upset the apple cart if Saturday’s fair has to move indoors.",
+        "answerZh": "如果星期六的嘉年華需要移到室內，惡劣天氣可能會打亂所有安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q13",
+        "number": 13,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The team changed the design after it had been approved, and this has spoiled the production plan.",
+        "promptZh": "團隊在設計獲批准後作出改動，結果破壞了生產計劃。",
+        "starter": "The",
+        "answer": "The team has upset the apple cart by changing the design after approval.",
+        "answerZh": "團隊在設計獲批准後作出改動，打亂了整個生產計劃。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q14",
+        "number": 14,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Priya spoke carefully because she did not want to disturb the agreement during the meeting.",
+        "promptZh": "Priya 小心發言，因為她不想在會議期間破壞已達成的共識。",
+        "starter": "Priya",
+        "answer": "Priya was careful not to upset the apple cart during the meeting.",
+        "answerZh": "Priya 小心發言，以免在會議期間打亂已達成的共識。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q15",
+        "number": 15,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "His question may cause the voting plan to fail just before the decision is made.",
+        "promptZh": "他的問題可能會在作出決定前夕令投票安排出現問題。",
+        "starter": "His",
+        "answer": "His question risks upsetting the apple cart just before the vote.",
+        "answerZh": "他的問題可能會在投票前夕打亂整個安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q16",
+        "number": 16,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Do not disturb the present arrangement unless it is clearly failing.",
+        "promptZh": "除非現有安排明顯行不通，否則不要把它打亂。",
+        "starter": "Don’t",
+        "answer": "Don’t upset the apple cart unless the current plan is clearly failing.",
+        "answerZh": "除非現有計劃明顯行不通，否則不要打亂整個安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q17",
+        "number": 17,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Are you going to question the plan now? B: No. Everyone has already agreed, and I do not want to cause fresh trouble.",
+        "promptZh": "甲：你現在打算質疑這項計劃嗎？ 乙：不。所有人都已同意，我不想再製造新的麻煩。",
+        "starter": "No.",
+        "answer": "No. I don’t want to upset the apple cart now.",
+        "answerZh": "不。我現在不想打亂已達成的安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q18",
+        "number": 18,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Announcing the result too early could easily spoil all the careful preparations.",
+        "promptZh": "過早公布結果，很容易會破壞所有精心準備的安排。",
+        "starter": "It",
+        "answer": "It would be easy to upset the apple cart by announcing the result too early.",
+        "answerZh": "過早公布結果，很容易會打亂所有精心準備的安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q19",
+        "number": 19,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The school can introduce the change safely if it gives parents enough notice.",
+        "promptZh": "如果學校給予家長足夠通知，便可以在不打亂安排的情況下推行改動。",
+        "starter": "The",
+        "answer": "The school can make the change without upsetting the apple cart if it gives parents enough notice.",
+        "answerZh": "如果學校給予家長足夠通知，便可以在不打亂安排的情況下作出改動。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q20",
+        "number": 20,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Should we replace the team leader today? B: That might disturb the team before the final match.",
+        "promptZh": "甲：我們應該今天更換隊長嗎？ 乙：這可能會在決賽前打亂隊伍的狀態。",
+        "starter": "That",
+        "answer": "That could upset the apple cart before the final match.",
+        "answerZh": "這可能會在決賽前打亂隊伍原有的安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q21",
+        "number": 21,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The late change to the guest list was the thing that ruined the dinner arrangements.",
+        "promptZh": "臨時更改賓客名單，正是破壞晚餐安排的原因。",
+        "starter": "What",
+        "answer": "What upset the apple cart was the late change to the guest list.",
+        "answerZh": "打亂整個晚餐安排的，是臨時更改賓客名單。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q22",
+        "number": 22,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Shall I tell everyone that the room may change? B: Not yet. We do not know for certain, and the news might cause unnecessary confusion.",
+        "promptZh": "甲：我要告訴大家房間可能會更改嗎？ 乙：先不要。我們還未能確定，這個消息可能會造成不必要的混亂。",
+        "starter": "Not",
+        "answer": "Not yet. That might upset the apple cart before we know for sure.",
+        "answerZh": "先不要。在我們確定之前，這個消息可能會打亂所有安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q23",
+        "number": 23,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The director was accused of causing the plan to fail by changing it without warning.",
+        "promptZh": "董事被指在沒有預先通知的情況下更改計劃，令整個安排失敗。",
+        "starter": "The",
+        "answer": "The director was accused of upsetting the apple cart by changing the plan without warning.",
+        "answerZh": "董事被指在沒有預先通知的情況下更改計劃，打亂了整個安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q24",
+        "number": 24,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Why did everyone have to organise the event again? B: One careless message ruined the agreed arrangements.",
+        "promptZh": "甲：為甚麼所有人都要重新安排活動？ 乙：一則不小心發出的訊息破壞了已同意的安排。",
+        "starter": "One",
+        "answer": "One careless message upset the apple cart.",
+        "answerZh": "一則不小心發出的訊息打亂了整個安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q25",
+        "number": 25,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "If the group’s working plan were disturbed now, several weeks of work could be lost.",
+        "promptZh": "如果小組目前的工作計劃現在被打亂，數星期的工作成果可能會白費。",
+        "starter": "Upsetting",
+        "answer": "Upsetting the apple cart now could cost the group several weeks of work.",
+        "answerZh": "現在打亂整個工作安排，可能會令小組白費數星期的努力。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "Upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q26",
+        "number": 26,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Grace tried to improve the system while keeping the existing arrangements stable.",
+        "promptZh": "Grace 嘗試改善制度，同時避免打亂現有安排。",
+        "starter": "Grace",
+        "answer": "Grace tried to improve the system without upsetting the apple cart.",
+        "answerZh": "Grace 嘗試在不打亂現有安排的情況下改善制度。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q27",
+        "number": 27,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Can I question the new plan in front of everyone? B: You can, but do it carefully so that you do not spoil the agreement.",
+        "promptZh": "甲：我可以在所有人面前質疑新計劃嗎？ 乙：可以，但要小心處理，以免破壞已達成的共識。",
+        "starter": "You",
+        "answer": "You can, but try not to upset the apple cart.",
+        "answerZh": "你可以，但要盡量避免打亂已達成的共識。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q28",
+        "number": 28,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Every part of the plan depends on the next, so even a small delay could cause the whole arrangement to fail.",
+        "promptZh": "計劃的每個部分都互相依賴，因此即使只是輕微延誤，也可能令整個安排失敗。",
+        "starter": "Even",
+        "answer": "Even a small delay could upset the apple cart when every part of the plan depends on the next.",
+        "answerZh": "當計劃的每個部分都互相依賴時，即使只是輕微延誤，也可能打亂整個安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q29",
+        "number": 29,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The organiser admitted that changing the order of events had caused all the plans to go wrong.",
+        "promptZh": "主辦人承認，更改活動次序令所有計劃出了問題。",
+        "starter": "The",
+        "answer": "The organiser admitted that she had upset the apple cart by changing the order of events.",
+        "answerZh": "主辦人承認，她更改活動次序，打亂了所有安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q30",
+        "number": 30,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Why do you not want to invite another speaker? B: The programme is already full, and adding one now would spoil the arrangements.",
+        "promptZh": "甲：你為甚麼不想再邀請一名講者？ 乙：節目已經排滿，現在再加入一人會打亂所有安排。",
+        "starter": "Because",
+        "answer": "Because adding another speaker now would upset the apple cart.",
+        "answerZh": "因為現在再加入一名講者會打亂所有安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q31",
+        "number": 31,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The idea was sensible, but introducing it on the morning of the event caused the whole plan to go wrong.",
+        "promptZh": "這個想法本身很合理，但在活動當天早上才提出，令整個計劃出了問題。",
+        "starter": "Although",
+        "answer": "Although the idea was sensible, introducing it that morning upset the apple cart.",
+        "answerZh": "雖然這個想法本身很合理，但在當天早上才提出，打亂了整個計劃。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q32",
+        "number": 32,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "If we change the deadline again, the working plans of all three teams may be disturbed.",
+        "promptZh": "如果我們再次更改限期，三個團隊的工作安排都可能會被打亂。",
+        "starter": "If",
+        "answer": "If we move the deadline again, we may upset the apple cart for all three teams.",
+        "answerZh": "如果我們再次更改限期，便可能會打亂三個團隊的工作安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q33",
+        "number": 33,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Ben revealed the surprise too soon, and this ruined the birthday arrangements.",
+        "promptZh": "Ben 過早說出了驚喜，破壞了生日安排。",
+        "starter": "By",
+        "answer": "By revealing the surprise too soon, Ben upset the apple cart for the birthday party.",
+        "answerZh": "Ben 過早說出驚喜，打亂了整個生日安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q34",
+        "number": 34,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Why did everyone have to begin the report again? B: Some important information was missing, and the whole process was disturbed just before the report was finished.",
+        "promptZh": "甲：為甚麼所有人都要重新開始寫報告？ 乙：有些重要資料遺失了，在報告即將完成時打亂了整個過程。",
+        "starter": "The",
+        "answer": "The missing information upset the apple cart just before the report was finished.",
+        "answerZh": "遺失的資料在報告即將完成時打亂了整個過程。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q35",
+        "number": 35,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The new app was intended to help, but it caused serious trouble during the busiest week.",
+        "promptZh": "新的應用程式原本是為了提供幫助，卻在最繁忙的一星期造成嚴重問題。",
+        "starter": "The",
+        "answer": "The new app was meant to help, but it ended up upsetting the apple cart during the busiest week.",
+        "answerZh": "新的應用程式原本是為了提供幫助，結果卻在最繁忙的一星期打亂了所有安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q36",
+        "number": 36,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The manager corrected the mistake quietly and did not disturb the rest of the plan.",
+        "promptZh": "經理低調地改正錯誤，沒有打亂計劃的其他部分。",
+        "starter": "Without",
+        "answer": "Without upsetting the apple cart, the manager corrected the mistake quietly.",
+        "answerZh": "經理在不打亂其他安排的情況下，低調地改正了錯誤。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q37",
+        "number": 37,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The unexpected room change was the event that ruined the arrangements at the conference.",
+        "promptZh": "突然更改房間，正是打亂會議安排的事件。",
+        "starter": "It",
+        "answer": "It was the unexpected room change that upset the apple cart at the conference.",
+        "answerZh": "正是突然更改房間，打亂了會議的整個安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q38",
+        "number": 38,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The committee preferred to accept a small delay rather than cause the entire plan to fail.",
+        "promptZh": "委員會寧願接受輕微延誤，也不想令整個計劃失敗。",
+        "starter": "The",
+        "answer": "The committee would rather accept a small delay than upset the apple cart completely.",
+        "answerZh": "委員會寧願接受輕微延誤，也不願徹底打亂整個計劃。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q39",
+        "number": 39,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Whether the new rule will disturb the present arrangement depends on how soon it is introduced.",
+        "promptZh": "新規則會否打亂現有安排，取決於它何時推行。",
+        "starter": "Whether",
+        "answer": "Whether the new rule will upset the apple cart depends on how soon it is introduced.",
+        "answerZh": "新規則會否打亂現有安排，取決於它何時推行。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q40",
+        "number": 40,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The company first tested the new system with one small team, so the larger operation was not disturbed.",
+        "promptZh": "公司先讓一個小型團隊測試新制度，因此沒有打亂整體運作。",
+        "starter": "The",
+        "answer": "The company avoided upsetting the apple cart by testing the new system with one small team first.",
+        "answerZh": "公司先讓一個小型團隊測試新制度，避免打亂整體運作。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q41",
+        "number": 41,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The hospital must update its booking system while protecting the appointments that patients already have.",
+        "promptZh": "醫院必須更新預約系統，同時避免影響病人已有的預約。",
+        "starter": "The",
+        "answer": "The hospital must update its booking system without upsetting the apple cart for patients who already have appointments.",
+        "answerZh": "醫院必須在不打亂已有病人預約的情況下更新預約系統。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q42",
+        "number": 42,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "During the emergency, one false message might have caused the whole response plan to fail.",
+        "promptZh": "在緊急事件期間，一則虛假訊息本來可能會令整個應變計劃失敗。",
+        "starter": "A",
+        "answer": "A single false message could have upset the apple cart during the emergency.",
+        "answerZh": "在緊急事件期間，一則虛假訊息本來可能會打亂整個應變計劃。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q43",
+        "number": 43,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The town leaders do not want to disturb the housing arrangements while families are still moving into their new homes.",
+        "promptZh": "各家庭仍在搬入新居，因此鎮上主管不想打亂房屋安排。",
+        "starter": "The",
+        "answer": "The town leaders do not want to upset the apple cart while families are still moving into their new homes.",
+        "answerZh": "各家庭仍在搬入新居，因此鎮上主管不想打亂現有安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q44",
+        "number": 44,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The plan is not perfect, but changing every part at the same time would probably cause more trouble than it solves.",
+        "promptZh": "這項計劃並不完美，但同時更改所有部分，很可能會造成更多問題。",
+        "starter": "Even",
+        "answer": "Even if the plan is imperfect, changing every part at once would probably upset the apple cart.",
+        "answerZh": "即使計劃並不完美，同時更改所有部分也很可能會打亂整個安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q45",
+        "number": 45,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: Why has the school delayed the announcement? B: It does not want to disturb pupils’ study plans before the examinations.",
+        "promptZh": "甲：學校為甚麼延遲公布消息？ 乙：校方不想在考試前打亂學生的溫習安排。",
+        "starter": "It",
+        "answer": "It is trying to avoid upsetting the apple cart before the examinations.",
+        "answerZh": "校方正嘗試避免在考試前打亂學生的安排。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q46",
+        "number": 46,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The new rule itself may not cause trouble. The real problem may be that people have not received clear information.",
+        "promptZh": "新規則本身未必會造成問題，真正的問題可能是大家沒有收到清楚資訊。",
+        "starter": "What",
+        "answer": "What might upset the apple cart is not the new rule itself but the lack of clear information.",
+        "answerZh": "可能會打亂整個安排的，並不是新規則本身，而是缺乏清楚資訊。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q47",
+        "number": 47,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The organisers had nearly ruined the arrangements once before, so they checked every later change carefully.",
+        "promptZh": "主辦人以前曾差點破壞整個安排，因此他們其後小心檢查每項改動。",
+        "starter": "Having",
+        "answer": "Having nearly upset the apple cart once, the organisers checked every later change carefully.",
+        "answerZh": "主辦人曾經差點打亂整個安排，因此其後小心檢查每項改動。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q48",
+        "number": 48,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The report recommends repairing the weakest part first instead of replacing the entire system and causing widespread trouble.",
+        "promptZh": "報告建議先修正最弱的部分，而不是更換整套制度並造成廣泛混亂。",
+        "starter": "The",
+        "answer": "The report recommends fixing the weakest part first rather than upsetting the apple cart with a complete change.",
+        "answerZh": "報告建議先修正最弱的部分，而不是以全面改動打亂整個制度。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upsetting the apple cart"
+      },
+      {
+        "id": "idiom-134-q49",
+        "number": 49,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Nobody planned to cause trouble, but the sudden announcement forced every group to change its arrangements.",
+        "promptZh": "沒有人打算製造麻煩，但突然公布消息迫使每個小組更改安排。",
+        "starter": "No",
+        "answer": "No one intended to upset the apple cart, yet the sudden announcement forced every group to change its plans.",
+        "answerZh": "沒有人打算打亂安排，但突然公布消息迫使每個小組更改計劃。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      },
+      {
+        "id": "idiom-134-q50",
+        "number": 50,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Before we make a change that could disturb the whole system, we should be certain that the present system cannot be repaired.",
+        "promptZh": "在作出可能打亂整套制度的改動前，我們應先確定現有制度無法修復。",
+        "starter": "Before",
+        "answer": "Before we upset the apple cart, we should be certain that the present system cannot be repaired.",
+        "answerZh": "在打亂整套制度前，我們應先確定現有制度無法修復。",
+        "targetForm": "Upset the Apple Cart",
+        "targetMeaning": "to cause trouble by spoiling someone’s plans, arrangements or an established situation",
+        "highlight": "upset the apple cart"
+      }
+    ]
+  }
+}

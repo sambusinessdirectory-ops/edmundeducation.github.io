@@ -1,0 +1,1282 @@
+{
+  "id": "ss342",
+  "order": 342,
+  "slug": "the-time-has-come-to-verb",
+  "title": "「The time has come to + 動詞」",
+  "titleZh": "「The time has come to + 動詞」",
+  "titleEn": "Using “The time has come to + verb”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 340 -「The time has come to + 動詞」.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exercisePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "sha256": "64b6bf24f1b213f0daa079de94905fdd1cb82b3791462f80793babd5099e54c9",
+    "sourceNumber": 340,
+    "systemOrder": 342,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 340 maps to ss342: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "The time has come to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss342-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "The time has come to + base verb + other information"
+    }
+  ],
+  "example": "The time has come to reconsider the policy.",
+  "exampleZh": "是時候重新考慮這項政策了。",
+  "examples": [
+    {
+      "id": "ss342-example-01",
+      "en": "The time has come to reconsider the policy.",
+      "zh": "是時候重新考慮這項政策了。",
+      "highlight": "The time has come to reconsider the policy."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss342-rule-01",
+      "zh": "核心句型是：【The time has come to + base verb.】 是時候採取行動了。 是時候作出決定了。 是時候檢討規則了。 句中的 to + 動詞說明現在應該採取甚麼行動。",
+      "en": "The core expression is fixed The time has come to + base verb. The time has come to act. The time has come to make a decision. The time has come to review the rules.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-rule-02",
+      "zh": "在 The time has come to 後面，to 是不定詞標記，因此必須接動詞原形，例如 change；不可接 changed 或 changing。",
+      "en": "Use the base form after “to” The time has come to change the plan. The time has come to changed the plan. The time has come to changing the plan.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss342-rule-03",
+      "zh": "從文法上看，句子的主詞是 the time，但時間本身不會採取行動。這句並不是說 the time 會修橋，而是表示相關人士、政府部門、工程團隊或社區現在應該修橋。真正採取行動的人通常由上下文決定。",
+      "en": "The action is performed by an understood person or group The time has come to repair the bridge.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-rule-04",
+      "zh": "以下內容可以加入句子，但並不是固定句型的一部分：【after years of discussion；following the successful trial；in my view；perhaps；at last；finally；before the problem becomes worse；After years of discussion, the time has come to make a decision.】 經過多年討論，是時候作出決定了。 核心句型仍然是：【the time has come to make a decision】 只是提供背景。",
+      "en": "Introductory information is optional after years of discussion following the successful trial in my view perhaps at last finally before the problem becomes worse After years of discussion, the time has come to make a decision. the time has come to make a decision After years of discussion",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-rule-05",
+      "zh": "我認為是時候改變計劃了。 委員會同意是時候採取行動了。 報告總結認為，是時候更新系統了。 前面的字詞是外層句法，不屬於核心固定句型。",
+      "en": "The expression can appear inside a larger sentence After a thinking or reporting verb Subject + think / believe / agree / say + (that) + the time has come to + verb. I think the time has come to change the plan. The committee agrees that the time has come to act. The report concludes that the time has come to update the system. The words before the time has come are optional outer structures. They are not part of the fixed expression. the time has come",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-rule-06",
+      "zh": "是否已經到了更換舊設備的時候？ 我們是否應該改變一貫的做法了？ 問句形式比直接陳述較為開放，表示說話者希望先聽取意見。",
+      "en": "It can be used as a direct question Has the time come to + base verb? Has the time come to replace the old equipment? Has the time come to change our approach?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-rule-07",
+      "zh": "你認為我們是否應該搬遷了？ 本區居民是否認為應該限制交通了？ 這種結構常用於會議、討論、訪問及意見調查。",
+      "en": "It can appear inside another question Do you think the time has come to + base verb? Do you think the time has come to move? Do local residents feel the time has come to limit traffic?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-rule-08",
+      "zh": "小組必須考慮是否已經到了修改規則的時候。 問題是現在是否應該擴展服務。 詞語【whether】表示這件事仍有待考慮，尚未完全確定。",
+      "en": "It can follow “whether” Subject + consider / decide / ask + whether the time has come to + verb. The panel must consider whether the time has come to change the rules. The question is whether the time has come to expand the service.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-rule-09",
+      "zh": "現在尚未到公布結果的時候。 現在尚未到重開道路的時候。 這個否定形式表示現在仍然太早，適當時機尚未來到。不要混淆：【The time has not yet come to announce the result.】 現在仍未到公布結果的時候。 是時候不要公布結果了。 第二句的 not 是否定 announce，意思完全不同，而且通常不是最自然的表達方法。",
+      "en": "A limited negative form is possible The time has not yet come to + base verb. The time has not yet come to announce the result. The time has not yet come to reopen the road. The time has come not to announce the result.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-rule-10",
+      "zh": "終於是時候開始這個項目了。 現在是時候作出選擇了。 或許是時候嘗試另一種方法了。 這些副詞只用來增加態度、時間感或強調效果，並非固定句型的必要部分。",
+      "en": "Adverbs may be inserted, but they are optional Common optional adverbs include: finally now at last perhaps The time has finally come to begin the project. Now, the time has come to make a choice. Perhaps the time has come to try a different approach. The adverbs add attitude or emphasis. They are not compulsory parts of the expression.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-rule-11",
+      "zh": "在本練習中，其他表示「是時候」的近義句式雖然意思相關，但文法不同，因此不作目標答案。本課使用 The time has come to + 動詞原形。它可獨立成句，也可接在 think、believe 或 agree 後，或放在時間和背景短語之後；無論外層句框如何改變，核心結構都保持不變。",
+      "en": "Related expressions are not the target structure The following expressions have related meanings, but they are grammatically different: It is time to change the plan. It is high time we changed the plan. Now is the time to change the plan. The time has come for us to change the plan. The present exercise uses: The time has come to + base verb. A strong learner should recognise and produce the following patterns. Independent statement The time has come to + verb. The time has come to act. After a thinking or reporting verb Subject + think / believe / agree + the time has come to + verb. We believe the time has come to change the system. After an introductory phrase Introductory phrase + the time has come to + verb. After months of preparation, the time has come to begin.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss342-rule-11a",
+      "zh": "或許是時候尋求協助了。 現在是否應該重新考慮這項決定？ 你認為現在是否應該更換這部機器？ 我們必須考慮現在是否應該擴展。 現在尚未到作出公布的時候。",
+      "en": "With an attitude word Perhaps / At last / Finally, + the time has come to + verb. Perhaps the time has come to ask for help. Direct question Has the time come to + verb? Has the time come to reconsider the decision? Question with “Do you think” Do you think the time has come to + verb? Do you think the time has come to replace the machine? Embedded question with “whether” Subject + consider / ask + whether the time has come to + verb. We must consider whether the time has come to expand. Negative form The time has not yet come to + verb. The time has not yet come to make an announcement.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-rule-11b",
+      "zh": "是時候向公眾解釋這項決定了。 是時候在冬季前修理這座橋了。 後面的受詞、地點、時間及其他資料是句子內容，但不屬於固定表達本身。",
+      "en": "With information after the action The time has come to + verb + object / place / time / reason. The time has come to explain the decision to the public. The time has come to repair the bridge before winter. The additional information is optional. It does not form part of the fixed expression.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss342-benefit-01",
+      "zh": "這個句型可以清楚表示：等待、討論或拖延的階段已經結束，現在應該採取行動。是時候作出決定了。 讀者會立即明白，這項決定不能再無限期拖延。",
+      "en": "It clearly announces that action is now necessary The time has come to make a decision.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-benefit-02",
+      "zh": "普通的 should 可以提出建議：【We should update the system.】 我們應該更新系統。 目標表達【The time has come to】則能表達更強的時機感：【The time has come to update the system.】 是時候更新系統了。 第二句聽起來較堅定，適合用於演說、會議、報告、建議書及重要討論。",
+      "en": "It gives a statement more weight We should update the system. The time has come to The time has come to update the system.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-benefit-03",
+      "zh": "詞語【has come】是現在完成式，能把之前的等待、準備、問題或變化連接到現在。經過數月測試，是時候推出產品了。 這句讓讀者明白，現在的行動是之前一連串事情發展後的結果。",
+      "en": "It connects the past situation with the present decision After months of testing, the time has come to launch the product.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-benefit-04",
+      "zh": "你可以用較簡潔而有力的方式，表達「已經到了應該做某事的階段」。",
+      "en": "It can replace a longer explanation Instead of writing: We have reached a point at which we should reconsider the policy. You can write: The time has come to reconsider the policy.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-benefit-05",
+      "zh": "是時候修改規則了。 現在是否應該修改規則？ 因此，這個句型既可以用來表達立場，也可以用來開展討論。",
+      "en": "It works well in both statements and questions You can make a strong statement: The time has come to change the rules. You can also invite discussion: Has the time come to change the rules?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss342-benefit-06",
+      "zh": "你不需要每次都把句子寫成：【The time has come to...】 你也可以寫：【I believe the time has come to...；After several delays, the time has come to...；Perhaps the time has come to...；Do you think the time has come to...?；The question is whether the time has come to...】 這些變化能避免所有句子使用相同開頭，令說話及寫作更自然。",
+      "en": "It gives learners several useful sentence openings The time has come to... I believe the time has come to... After several delays, the time has come to... Perhaps the time has come to... Do you think the time has come to...? The question is whether the time has come to...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 340 maps to ss342: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the time has come to + base verb or one of the approved",
+      "question or negative forms.",
+      "Preserve the original meaning, attitude, subject, tense and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 the time has come to + 動詞原形，或本課所教的疑問及否定形式，改寫以下句子。",
+      "答案須保留原句的意思、態度、主詞、時態及重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss342-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is now the right time to clean the classroom noticeboard.",
+      "promptZh": "現在是清理課室壁報板的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The time has come to clean the classroom noticeboard.",
+      "answerZh": "是時候清理課室壁報板了。",
+      "answerZhSource": "pdf",
+      "highlight": "The time has come to clean the classroom noticeboard."
+    },
+    {
+      "id": "ss342-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In my opinion, we should replace the broken kettle now.",
+      "promptZh": "我認為我們現在應該更換壞掉的水煲。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I think the time has come to replace the broken kettle.",
+      "answerZh": "我認為是時候更換壞掉的水煲了。",
+      "answerZhSource": "pdf",
+      "highlight": "I think the time has come to replace the broken kettle."
+    },
+    {
+      "id": "ss342-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our class agrees that now is the right time to choose a new team captain.",
+      "promptZh": "我們全班都同意，現在是選出新隊長的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our class agrees that the time has come to choose a new team captain.",
+      "answerZh": "我們全班都同意，是時候選出新隊長了。",
+      "answerZhSource": "pdf",
+      "highlight": "Our class agrees that the time has come to choose a new team captain."
+    },
+    {
+      "id": "ss342-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It may now be sensible to book the train tickets.",
+      "promptZh": "現在預訂火車票或許是明智的做法。",
+      "promptZhSource": "pdf",
+      "starter": "Perhaps",
+      "answer": "Perhaps the time has come to book the train tickets.",
+      "answerZh": "或許是時候預訂火車票了。",
+      "answerZhSource": "pdf",
+      "highlight": "Perhaps the time has come to book the train tickets."
+    },
+    {
+      "id": "ss342-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We have delayed the discussion long enough. We should now discuss the problem openly.",
+      "promptZh": "我們已經把討論拖延得夠久了。現在應該公開討論這個問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The time has come to discuss the problem openly.",
+      "answerZh": "是時候公開討論這個問題了。",
+      "answerZhSource": "pdf",
+      "highlight": "The time has come to discuss the problem openly."
+    },
+    {
+      "id": "ss342-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school believes that now is the right time to update the timetable.",
+      "promptZh": "校方認為現在是更新時間表的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school believes the time has come to update the timetable.",
+      "answerZh": "校方認為是時候更新時間表了。",
+      "answerZhSource": "pdf",
+      "highlight": "The school believes the time has come to update the timetable."
+    },
+    {
+      "id": "ss342-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Is it now the right time to ask for help?",
+      "promptZh": "現在是否已經到了尋求協助的適當時候？",
+      "promptZhSource": "pdf",
+      "starter": "Has",
+      "answer": "Has the time come to ask for help?",
+      "answerZh": "是否已經到了尋求協助的時候？",
+      "answerZhSource": "pdf",
+      "highlight": "Has the time come to ask for help?"
+    },
+    {
+      "id": "ss342-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We have waited long enough, and we can finally open the community garden.",
+      "promptZh": "我們已經等了很久，現在終於可以開放社區花園。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At last, the time has come to open the community garden.",
+      "answerZh": "終於是時候開放社區花園了。",
+      "answerZhSource": "pdf",
+      "highlight": "At last, the time has come to open the community garden."
+    },
+    {
+      "id": "ss342-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We all agree that now is the right time to repair the playground.",
+      "promptZh": "我們都同意現在是修理遊樂場的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We all agree that the time has come to repair the playground.",
+      "answerZh": "我們都同意，是時候修理遊樂場了。",
+      "answerZhSource": "pdf",
+      "highlight": "We all agree that the time has come to repair the playground."
+    },
+    {
+      "id": "ss342-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Do you think we should leave for the airport now?",
+      "promptZh": "你認為我們現在應該出發前往機場嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you think the time has come to leave for the airport?",
+      "answerZh": "你認為我們是否應該出發前往機場了？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you think the time has come to leave for the airport?"
+    },
+    {
+      "id": "ss342-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Several customers have complained, and we now believe we should improve the service.",
+      "promptZh": "數名顧客作出投訴，而我們現在認為應該改善服務。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After several complaints, we believe the time has come to improve the service.",
+      "answerZh": "收到數項投訴後，我們認為是時候改善服務了。",
+      "answerZhSource": "pdf",
+      "highlight": "After several complaints, we believe the time has come to improve the service."
+    },
+    {
+      "id": "ss342-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager believes that now is the right time to change the shift system.",
+      "promptZh": "經理認為現在是改變輪班制度的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager believes the time has come to change the shift system.",
+      "answerZh": "經理認為是時候改變輪班制度了。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager believes the time has come to change the shift system."
+    },
+    {
+      "id": "ss342-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Do you think we should replace this computer now?",
+      "promptZh": "你認為我們現在應該更換這部電腦嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you think the time has come to replace this computer?",
+      "answerZh": "你認為我們是否應該更換這部電腦了？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you think the time has come to replace this computer?"
+    },
+    {
+      "id": "ss342-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We have reached a point at which we must stop wasting food.",
+      "promptZh": "我們已經到了必須停止浪費食物的階段。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The time has come to stop wasting food.",
+      "answerZh": "是時候停止浪費食物了。",
+      "answerZhSource": "pdf",
+      "highlight": "The time has come to stop wasting food."
+    },
+    {
+      "id": "ss342-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "It is still too early to announce the winner.",
+      "promptZh": "現在公布得獎者仍然太早。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The time has not yet come to announce the winner.",
+      "answerZh": "現在尚未到公布得獎者的時候。",
+      "answerZhSource": "pdf",
+      "highlight": "The time has not yet come to announce the winner."
+    },
+    {
+      "id": "ss342-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We have waited long enough, and we can now begin the performance.",
+      "promptZh": "我們已經等了夠久，現在可以開始表演。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At last, the time has come to begin the performance.",
+      "answerZh": "終於是時候開始表演了。",
+      "answerZhSource": "pdf",
+      "highlight": "At last, the time has come to begin the performance."
+    },
+    {
+      "id": "ss342-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Our teacher says that we should now practise without notes.",
+      "promptZh": "老師說我們現在應該在沒有筆記的情況下練習。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher says the time has come to practise without notes.",
+      "answerZh": "老師說是時候在沒有筆記的情況下練習了。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher says the time has come to practise without notes."
+    },
+    {
+      "id": "ss342-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The question is whether we should move to a larger office now.",
+      "promptZh": "問題是我們現在是否應該搬到較大的辦公室。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The question is whether the time has come to move to a larger office.",
+      "answerZh": "問題是我們是否已經到了應該搬到較大辦公室的時候。",
+      "answerZhSource": "pdf",
+      "highlight": "The question is whether the time has come to move to a larger office."
+    },
+    {
+      "id": "ss342-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Everyone can see that we must now fix the leaking roof.",
+      "promptZh": "每個人都看得出來，我們現在必須修理漏水的屋頂。",
+      "promptZhSource": "pdf",
+      "starter": "Everyone",
+      "answer": "Everyone can see that the time has come to fix the leaking roof.",
+      "answerZh": "每個人都看得出來，是時候修理漏水的屋頂了。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone can see that the time has come to fix the leaking roof."
+    },
+    {
+      "id": "ss342-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We must now decide which design to use before the order is placed.",
+      "promptZh": "我們現在必須在落單前決定採用哪個設計。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The time has come to decide which design to use before the order is placed.",
+      "answerZh": "是時候在落單前決定採用哪個設計了。",
+      "answerZhSource": "pdf",
+      "highlight": "The time has come to decide which design to use before the order is placed."
+    },
+    {
+      "id": "ss342-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The coach says that now is the right time to change our training plan.",
+      "promptZh": "教練表示現在是改變我們訓練計劃的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the coach, the time has come to change our training plan.",
+      "answerZh": "教練表示，是時候改變我們的訓練計劃了。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the coach, the time has come to change our training plan."
+    },
+    {
+      "id": "ss342-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The latest figures suggest that now is the right time to reduce unnecessary spending.",
+      "promptZh": "最新數字顯示，現在是減少不必要開支的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The latest figures suggest that the time has come to reduce unnecessary spending.",
+      "answerZh": "最新數字顯示，是時候減少不必要的開支了。",
+      "answerZhSource": "pdf",
+      "highlight": "The latest figures suggest that the time has come to reduce unnecessary spending."
+    },
+    {
+      "id": "ss342-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We must admit that now is the right time to revise the safety rules.",
+      "promptZh": "我們必須承認，現在是修訂安全規則的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We must admit that the time has come to revise the safety rules.",
+      "answerZh": "我們必須承認，是時候修訂安全規則了。",
+      "answerZhSource": "pdf",
+      "highlight": "We must admit that the time has come to revise the safety rules."
+    },
+    {
+      "id": "ss342-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Is now the right time to introduce electric buses on this route?",
+      "promptZh": "現在是否適合在這條路線引入電動巴士？",
+      "promptZhSource": "pdf",
+      "starter": "Has",
+      "answer": "Has the time come to introduce electric buses on this route?",
+      "answerZh": "是否已經到了在這條路線引入電動巴士的時候？",
+      "answerZhSource": "pdf",
+      "highlight": "Has the time come to introduce electric buses on this route?"
+    },
+    {
+      "id": "ss342-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "It is still too early to reopen the hiking trail.",
+      "promptZh": "現在重開這條遠足徑仍然太早。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The time has not yet come to reopen the hiking trail.",
+      "answerZh": "現在尚未到重開這條遠足徑的時候。",
+      "answerZhSource": "pdf",
+      "highlight": "The time has not yet come to reopen the hiking trail."
+    },
+    {
+      "id": "ss342-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The testing has continued for several months, and the new app is now ready to be launched.",
+      "promptZh": "測試已進行了數月，而這個新應用程式現在已經可以推出。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After months of testing, the time has come to launch the new app.",
+      "answerZh": "經過數月測試，是時候推出這個新應用程式了。",
+      "answerZhSource": "pdf",
+      "highlight": "After months of testing, the time has come to launch the new app."
+    },
+    {
+      "id": "ss342-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The committee agrees that now is the right time to remove the damaged trees.",
+      "promptZh": "委員會同意現在是移除受損樹木的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee agrees that the time has come to remove the damaged trees.",
+      "answerZh": "委員會同意，是時候移除受損樹木了。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee agrees that the time has come to remove the damaged trees."
+    },
+    {
+      "id": "ss342-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "In my opinion, now is the right time to give students more reading choices.",
+      "promptZh": "我認為現在是給學生更多閱讀選擇的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In my view, the time has come to give students more reading choices.",
+      "answerZh": "我認為，是時候給學生更多閱讀選擇了。",
+      "answerZhSource": "pdf",
+      "highlight": "In my view, the time has come to give students more reading choices."
+    },
+    {
+      "id": "ss342-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "No one can deny that the old market building now needs protection.",
+      "promptZh": "沒有人可以否認，這座舊街市建築現在需要保護。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one can deny that the time has come to protect the old market building.",
+      "answerZh": "沒有人可以否認，是時候保護這座舊街市建築了。",
+      "answerZhSource": "pdf",
+      "highlight": "No one can deny that the time has come to protect the old market building."
+    },
+    {
+      "id": "ss342-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We should explain the decision to the public now, before the rumours spread further.",
+      "promptZh": "我們現在應該向公眾解釋這項決定，以免謠言進一步傳播。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The time has come to explain the decision to the public before rumours spread further.",
+      "answerZh": "是時候在謠言進一步傳播前，向公眾解釋這項決定了。",
+      "answerZhSource": "pdf",
+      "highlight": "The time has come to explain the decision to the public before rumours spread further."
+    },
+    {
+      "id": "ss342-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The delays have continued for months, so we should now find another supplier.",
+      "promptZh": "延誤已持續數月，因此我們現在應該另找供應商。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the delays have continued for months, the time has come to find another supplier.",
+      "answerZh": "由於延誤已持續數月，是時候另找供應商了。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the delays have continued for months, the time has come to find another supplier."
+    },
+    {
+      "id": "ss342-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The report concludes that now is the right time to redesign the entrance.",
+      "promptZh": "報告總結認為，現在是重新設計入口的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report concludes that the time has come to redesign the entrance.",
+      "answerZh": "報告總結認為，是時候重新設計入口了。",
+      "answerZhSource": "pdf",
+      "highlight": "The report concludes that the time has come to redesign the entrance."
+    },
+    {
+      "id": "ss342-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Do local residents feel that now is the right time to limit traffic in the town centre?",
+      "promptZh": "本區居民是否認為，現在是限制市中心交通的適當時候？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do local residents feel the time has come to limit traffic in the town centre?",
+      "answerZh": "本區居民是否認為，是時候限制市中心的交通了？",
+      "answerZhSource": "pdf",
+      "highlight": "Do local residents feel the time has come to limit traffic in the town centre?"
+    },
+    {
+      "id": "ss342-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The museum is finally ready to welcome its first visitors this weekend.",
+      "promptZh": "博物館終於準備好在本週末迎接首批訪客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The time has finally come to welcome the first visitors to the museum this weekend.",
+      "answerZh": "終於是時候在本週末迎接博物館的首批訪客了。",
+      "answerZhSource": "pdf",
+      "highlight": "The time has finally come to welcome the first visitors to the museum this weekend."
+    },
+    {
+      "id": "ss342-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "It remains too early to publish the research findings.",
+      "promptZh": "現在發表研究結果仍然太早。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The time has not yet come to publish the research findings.",
+      "answerZh": "現在尚未到發表研究結果的時候。",
+      "answerZhSource": "pdf",
+      "highlight": "The time has not yet come to publish the research findings."
+    },
+    {
+      "id": "ss342-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The trial was successful, so the programme should now be extended to other schools.",
+      "promptZh": "試行計劃取得成功，因此現在應該把計劃擴展至其他學校。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following the successful trial, the time has come to extend the programme to other schools.",
+      "answerZh": "試行計劃成功後，是時候把計劃擴展至其他學校了。",
+      "answerZhSource": "pdf",
+      "highlight": "Following the successful trial, the time has come to extend the programme to other schools."
+    },
+    {
+      "id": "ss342-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The director has announced that now is the right time to combine the two departments.",
+      "promptZh": "主管宣布，現在是合併兩個部門的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The director has announced that the time has come to combine the two departments.",
+      "answerZh": "主管宣布，是時候合併兩個部門了。",
+      "answerZhSource": "pdf",
+      "highlight": "The director has announced that the time has come to combine the two departments."
+    },
+    {
+      "id": "ss342-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "It may now be sensible to question our usual approach.",
+      "promptZh": "現在或許應該質疑我們一貫的做法。",
+      "promptZhSource": "pdf",
+      "starter": "Perhaps",
+      "answer": "Perhaps the time has come to question our usual approach.",
+      "answerZh": "或許是時候質疑我們一貫的做法了。",
+      "answerZhSource": "pdf",
+      "highlight": "Perhaps the time has come to question our usual approach."
+    },
+    {
+      "id": "ss342-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The evidence indicates that online security should now be strengthened.",
+      "promptZh": "證據顯示，現在應該加強網絡保安。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence shows that the time has come to strengthen online security.",
+      "answerZh": "證據顯示，是時候加強網絡保安了。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence shows that the time has come to strengthen online security."
+    },
+    {
+      "id": "ss342-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Is now the right time to give employees more flexible working hours?",
+      "promptZh": "現在是否適合給予僱員更具彈性的工作時間？",
+      "promptZhSource": "pdf",
+      "starter": "Has",
+      "answer": "Has the time come to give employees more flexible working hours?",
+      "answerZh": "是否已經到了給予僱員更具彈性工作時間的時候？",
+      "answerZhSource": "pdf",
+      "highlight": "Has the time come to give employees more flexible working hours?"
+    },
+    {
+      "id": "ss342-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "After years of discussion, the council now believes it should restore the historic theatre.",
+      "promptZh": "經過多年討論，市議會現在認為應該修復這座歷史悠久的劇院。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After years of discussion, the council believes the time has come to restore the historic theatre.",
+      "answerZh": "經過多年討論，市議會認為是時候修復這座歷史悠久的劇院了。",
+      "answerZhSource": "pdf",
+      "highlight": "After years of discussion, the council believes the time has come to restore the historic theatre."
+    },
+    {
+      "id": "ss342-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "We have reached the stage at which we must decide how the town should prepare for extreme weather over the next decade.",
+      "promptZh": "我們已經到了必須決定本鎮在未來十年應如何應對極端天氣的階段。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The time has come to decide how the town should prepare for extreme weather over the next decade.",
+      "answerZh": "是時候決定本鎮在未來十年應如何應對極端天氣了。",
+      "answerZhSource": "pdf",
+      "highlight": "The time has come to decide how the town should prepare for extreme weather over the next decade."
+    },
+    {
+      "id": "ss342-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Many parents now feel that this is the right moment to review the amount of homework.",
+      "promptZh": "許多家長現在認為，是時候檢討家課的數量。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many parents now feel that the time has come to review the amount of homework.",
+      "answerZh": "許多家長現在認為，是時候檢討家課的數量了。",
+      "answerZhSource": "pdf",
+      "highlight": "Many parents now feel that the time has come to review the amount of homework."
+    },
+    {
+      "id": "ss342-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Although the change will be difficult, we believe that now is the right time to modernise the booking system.",
+      "promptZh": "雖然這項改變會有困難，但我們認為現在是把預訂系統現代化的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the change will be difficult, we believe the time has come to modernise the booking system.",
+      "answerZh": "雖然這項改變會有困難，但我們認為是時候把預訂系統現代化了。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the change will be difficult, we believe the time has come to modernise the booking system."
+    },
+    {
+      "id": "ss342-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "It is still too early to make a final promise to investors.",
+      "promptZh": "現在向投資者作出最終承諾仍然太早。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The time has not yet come to make a final promise to investors.",
+      "answerZh": "現在尚未到向投資者作出最終承諾的時候。",
+      "answerZhSource": "pdf",
+      "highlight": "The time has not yet come to make a final promise to investors."
+    },
+    {
+      "id": "ss342-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The panel must consider whether now is the right time to introduce stricter building standards.",
+      "promptZh": "小組必須考慮現在是否適合引入更嚴格的建築標準。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The panel must consider whether the time has come to introduce stricter building standards.",
+      "answerZh": "小組必須考慮是否已經到了引入更嚴格建築標準的時候。",
+      "answerZhSource": "pdf",
+      "highlight": "The panel must consider whether the time has come to introduce stricter building standards."
+    },
+    {
+      "id": "ss342-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Repeated failures have convinced the engineers that they should replace the entire network now.",
+      "promptZh": "多次故障使工程師相信，他們現在應該更換整個網絡。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In light of the repeated failures, the engineers agree that the time has come to replace the entire network.",
+      "answerZh": "鑑於多次故障，工程師同意是時候更換整個網絡了。",
+      "answerZhSource": "pdf",
+      "highlight": "In light of the repeated failures, the engineers agree that the time has come to replace the entire network."
+    },
+    {
+      "id": "ss342-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Do you agree that now is the right time to give local communities a greater voice?",
+      "promptZh": "你是否同意現在是讓本地社區擁有更大發言權的適當時候？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you agree that the time has come to give local communities a greater voice?",
+      "answerZh": "你是否同意，是時候讓本地社區擁有更大發言權了？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you agree that the time has come to give local communities a greater voice?"
+    },
+    {
+      "id": "ss342-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The chairperson concluded that now is the right time to turn the proposal into a practical plan.",
+      "promptZh": "主席總結認為，現在是把建議轉化為實際計劃的適當時候。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chairperson concluded that the time has come to turn the proposal into a practical plan.",
+      "answerZh": "主席總結認為，是時候把建議轉化為實際計劃了。",
+      "answerZhSource": "pdf",
+      "highlight": "The chairperson concluded that the time has come to turn the proposal into a practical plan."
+    },
+    {
+      "id": "ss342-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Public support is growing, so the long-delayed restoration project can finally begin.",
+      "promptZh": "公眾支持日漸增加，因此這個延誤已久的修復項目終於可以展開。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With public support growing, the time has finally come to begin the long-delayed restoration project.",
+      "answerZh": "隨着公眾支持日漸增加，終於是時候展開這個延誤已久的修復項目了。",
+      "answerZhSource": "pdf",
+      "highlight": "With public support growing, the time has finally come to begin the long-delayed restoration project."
+    }
+  ]
+}

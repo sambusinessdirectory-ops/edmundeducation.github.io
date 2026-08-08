@@ -1,0 +1,1632 @@
+{
+  "lesson": {
+    "id": "idiom-125",
+    "order": 125,
+    "slug": "eat-humble-pie",
+    "version": "1",
+    "title": "低頭認錯／承認失敗",
+    "titleEn": "eat humble pie",
+    "titleZh": "低頭認錯／承認失敗",
+    "source": {
+      "file": "Idiom 125 - “Eat Humble Pie”.pdf",
+      "pageCount": 39,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "exercisePdfPages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "answerKeyPdfPages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "eat humble pie",
+        "highlight": "eat humble pie"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Ethan ate humble pie after his prediction proved wrong.",
+        "zh": "伊森的預測被證明錯誤後，只好低頭認錯。",
+        "highlight": "ate humble pie"
+      },
+      {
+        "en": "She rarely eats humble pie, even when the facts are clear.",
+        "zh": "即使事實十分清楚，她也很少願意認錯。",
+        "highlight": "eats humble pie"
+      }
+    ],
+    "meaning": {
+      "en": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+      "zh": "承認自己錯了、接受自己已經落敗，或收回較早前的說法；這個過程通常令人尷尬，亦可能有損自尊。",
+      "naturalZh": [
+        "承認自己錯了、接受自己已經落敗，或收回較早前的說法",
+        "這個過程通常令人尷尬，亦可能有損自尊。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "Cambridge marks the expression as informal, while Collins describes the admission as especially embarrassing or humiliating.",
+      "summaryZh": "這個表達屬於非正式語域，適合用於：",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace discussion",
+        "interviews",
+        "news and sports writing",
+        "opinion pieces",
+        "friendly or mildly critical comments",
+        "I may have to eat humble pie",
+        "We might have to eat humble pie",
+        "Perhaps it is time to eat humble pie",
+        "He may yet have to eat humble pie"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "工作討論",
+        "訪問",
+        "新聞及體育文章",
+        "意見文章",
+        "朋友之間或語氣不太強烈的批評。"
+      ],
+      "formalEn": "In highly formal reports, expressions such as admit the error, withdraw the claim or acknowledge that the decision was mistaken may be safer.",
+      "formalZh": "這個表達屬於非正式語域，適合用於："
+    },
+    "fixedVariable": {
+      "fixed": "eat humble pie",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + eat(s) / ate + humble pie.",
+          "example": "Ethan ate humble pie after his prediction proved wrong.",
+          "highlight": "ate humble pie"
+        },
+        {
+          "form": "Subject + may / might / could / will / must + eat humble pie.",
+          "example": "The director may have to eat humble pie.",
+          "highlight": "eat humble pie"
+        },
+        {
+          "form": "Subject + have to / need to + eat humble pie.",
+          "example": "I had to eat humble pie after checking the receipt.",
+          "highlight": "eat humble pie"
+        },
+        {
+          "form": "Subject + has / have / had + eaten humble pie.",
+          "example": "Clara has already eaten humble pie over her prediction.",
+          "highlight": "eaten humble pie"
+        },
+        {
+          "form": "Eating humble pie + verb.",
+          "example": "Eating humble pie was difficult for Grace.",
+          "highlight": "Eating humble pie"
+        },
+        {
+          "form": "Subject + refuse / agree / prepare / be willing + to eat humble pie.",
+          "example": "The owner refused to eat humble pie.",
+          "highlight": "eat humble pie"
+        },
+        {
+          "form": "Event / evidence + make + person + eat humble pie.",
+          "example": "The new evidence made the guard eat humble pie.",
+          "highlight": "eat humble pie"
+        },
+        {
+          "form": "Will + subject + eat humble pie?",
+          "example": "Will you eat humble pie if the test proves you wrong?",
+          "highlight": "eat humble pie"
+        },
+        {
+          "form": "over + claim / prediction / decision",
+          "example": "The manager ate humble pie over his earlier prediction.",
+          "highlight": "ate humble pie"
+        },
+        {
+          "form": "eat humble pie",
+          "example": "After finding her notebook in her own bag, Nora ate humble pie over accusing Ethan.",
+          "highlight": "ate humble pie"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作為一般限定動詞短語",
+        "formula": "Subject + eat(s) / ate + humble pie.",
+        "descriptionEn": "The simple past ate is particularly common because speakers often use the idiom after a mistake or prediction has already been exposed.",
+        "descriptionZh": "由於這個慣用語經常用來描述錯誤或預測已經被揭穿的情況，因此過去式 ate 十分常見。",
+        "examples": [
+          {
+            "en": "Ethan ate humble pie after his prediction proved wrong.",
+            "zh": "伊森的預測被證明錯誤後，只好低頭認錯。",
+            "highlight": "ate humble pie"
+          },
+          {
+            "en": "She rarely eats humble pie, even when the facts are clear.",
+            "zh": "即使事實十分清楚，她也很少願意認錯。",
+            "highlight": "eats humble pie"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "配合情態動詞",
+        "formula": "Subject + may / might / could / will / must + eat humble pie.",
+        "descriptionEn": "After a modal verb, use the base form eat.",
+        "descriptionZh": "在情態動詞後，應使用原形 eat。",
+        "examples": [
+          {
+            "en": "The director may have to eat humble pie.",
+            "zh": "主管可能需要低頭認錯。",
+            "highlight": "eat humble pie"
+          },
+          {
+            "en": "The team might yet eat humble pie.",
+            "zh": "團隊最終可能仍要承認自己錯了。",
+            "highlight": "eat humble pie"
+          },
+          {
+            "en": "He will eat humble pie if the results prove him wrong.",
+            "zh": "如果結果證明他錯了，他便要低頭認錯。",
+            "highlight": "eat humble pie"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "With “Have To”, “Need To” or “Be Forced To”",
+        "titleZh": "句式三",
+        "formula": "Subject + have to / need to + eat humble pie.",
+        "descriptionEn": "These are common surrounding structures, but they are not part of the fixed idiom. Cambridge and Collins both provide examples using be forced to eat humble pie.",
+        "descriptionZh": "配合 have to、need to 或 be forced to 以上都是常見的外圍句式，但不是固定慣用語的一部分。",
+        "examples": [
+          {
+            "en": "I had to eat humble pie after checking the receipt.",
+            "zh": "我查看收據後，不得不承認自己錯了。",
+            "highlight": "eat humble pie"
+          },
+          {
+            "en": "You may need to eat humble pie.",
+            "zh": "你可能需要認錯。",
+            "highlight": "eat humble pie"
+          },
+          {
+            "en": "The coach was forced to eat humble pie.",
+            "zh": "教練被迫承認自己的判斷錯誤。",
+            "highlight": "eat humble pie"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "In Perfect and Progressive Forms",
+        "titleZh": "完成式及進行式",
+        "formula": "Subject + has / have / had + eaten humble pie.",
+        "descriptionEn": "The progressive form highlights that the embarrassing admission or withdrawal is happening now.",
+        "descriptionZh": "進行式突出認錯、道歉或收回說法的過程正在發生。",
+        "examples": [
+          {
+            "en": "Clara has already eaten humble pie over her prediction.",
+            "zh": "克拉拉已經為自己的預測認錯。",
+            "highlight": "eaten humble pie"
+          },
+          {
+            "en": "The editor is now eating humble pie over the false report.",
+            "zh": "編輯現正為錯誤報道低頭認錯。",
+            "highlight": "eating humble pie"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "As a Gerund Phrase",
+        "titleZh": "作為動名詞短語",
+        "formula": "Eating humble pie + verb.",
+        "descriptionEn": "The entire expression can function as the subject or object of a sentence.",
+        "descriptionZh": "整個表達可以作為句子的主語或賓語。",
+        "examples": [
+          {
+            "en": "Eating humble pie was difficult for Grace.",
+            "zh": "對格蕾絲而言，低頭認錯並不容易。",
+            "highlight": "Eating humble pie"
+          },
+          {
+            "en": "He left without eating humble pie.",
+            "zh": "他離開時仍沒有承認自己的錯誤。",
+            "highlight": "eating humble pie"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "After Another Verb",
+        "titleZh": "放在另一個動詞之後",
+        "formula": "Subject + refuse / agree / prepare / be willing + to eat humble pie.",
+        "descriptionEn": "The first verb adds information about willingness, refusal or readiness.",
+        "descriptionZh": "第一個動詞補充說明當事人是否願意、拒絕或準備認錯。",
+        "examples": [
+          {
+            "en": "The owner refused to eat humble pie.",
+            "zh": "店主拒絕認錯。",
+            "highlight": "eat humble pie"
+          },
+          {
+            "en": "The teachers were prepared to eat humble pie.",
+            "zh": "老師們願意承認自己的判斷錯誤。",
+            "highlight": "eat humble pie"
+          },
+          {
+            "en": "Will you be willing to eat humble pie?",
+            "zh": "你願意在被證明錯誤後認錯嗎？",
+            "highlight": "eat humble pie"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "In a Causative Structure",
+        "titleZh": "用於使役句式",
+        "formula": "Event / evidence + make + person + eat humble pie.",
+        "descriptionEn": "made him eat; forced him to eat",
+        "descriptionZh": "文法分別：",
+        "examples": [
+          {
+            "en": "The new evidence made the guard eat humble pie.",
+            "zh": "新證據令保安員不得不認錯。",
+            "highlight": "eat humble pie"
+          },
+          {
+            "en": "The original draft forced the teacher to eat humble pie.",
+            "zh": "原來的草稿迫使老師承認自己錯怪了學生。",
+            "highlight": "eat humble pie"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "In Questions and Conditions",
+        "titleZh": "用於疑問句及條件句",
+        "formula": "Will + subject + eat humble pie?",
+        "descriptionEn": "These structures are useful when the final result is not yet known.",
+        "descriptionZh": "當最終結果尚未確定時，這些句式尤其有用。",
+        "examples": [
+          {
+            "en": "Will you eat humble pie if the test proves you wrong?",
+            "zh": "如果測試證明你錯了，你會承認嗎？",
+            "highlight": "eat humble pie"
+          },
+          {
+            "en": "If the plan succeeds, the committee may have to eat humble pie.",
+            "zh": "如果計劃成功，委員會可能需要承認判斷錯誤。",
+            "highlight": "eat humble pie"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Optional Extensions",
+        "titleZh": "可選延伸部分",
+        "formula": "over + claim / prediction / decision",
+        "descriptionEn": "He ate humble pie in front of the whole team.",
+        "descriptionZh": "他在整個團隊面前低頭認錯。",
+        "examples": [
+          {
+            "en": "The manager ate humble pie over his earlier prediction.",
+            "zh": "經理為自己較早前的預測低頭認錯。",
+            "highlight": "ate humble pie"
+          },
+          {
+            "en": "The guard ate humble pie for accusing the wrong person.",
+            "zh": "保安員因為錯怪他人而認錯。",
+            "highlight": "ate humble pie"
+          },
+          {
+            "en": "She ate humble pie after the results appeared.",
+            "zh": "結果公布後，她只好認錯。",
+            "highlight": "ate humble pie"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Related Noun Uses",
+        "titleZh": "相關名詞用法",
+        "formula": "eat humble pie",
+        "descriptionEn": "Merriam-Webster treats humble pie as a figurative noun referring to humiliation involving submission, apology or withdrawal.",
+        "descriptionZh": "例如：",
+        "examples": [
+          {
+            "en": "After finding her notebook in her own bag, Nora ate humble pie over accusing Ethan.",
+            "zh": "諾拉在自己的袋內找到筆記簿後，只好為錯怪伊森而低頭認錯。",
+            "highlight": "ate humble pie"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Combines Admission and Embarrassment",
+        "titleZh": "同時表達認錯及尷尬",
+        "en": "The idiom packages both the admission and the loss of pride into one expression.",
+        "zh": "他為自己過分自信的預測低頭認錯。 這個慣用語把「認錯」及「有失面子」兩個意思集中在一個表達之中。",
+        "examples": [
+          {
+            "en": "He ate humble pie over his confident prediction.",
+            "zh": "他為自己過分自信的預測低頭認錯。",
+            "highlight": "ate humble pie"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Describes a Clear Change of Position",
+        "titleZh": "清楚描述立場逆轉",
+        "en": "confidence to embarrassment; accusation to withdrawal; criticism to acceptance; boasting to defeat; refusal to admission.",
+        "zh": "這個表達可以描述以下立場轉變：",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Makes Predictions More Expressive",
+        "titleZh": "令預測更具表達力",
+        "en": "The idiomatic version also suggests that the admission may be uncomfortable or embarrassing.",
+        "zh": "主管可能需要低頭認錯。 慣用語版本亦暗示認錯過程可能令人難堪。",
+        "examples": [
+          {
+            "en": "The director may have to eat humble pie.",
+            "zh": "主管可能需要低頭認錯。",
+            "highlight": "eat humble pie"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful in News and Sports Commentary",
+        "titleZh": "適合用於新聞及體育評論",
+        "en": "The idiom is often useful when a person or team has made a strong public prediction that later proves false.",
+        "zh": "當某人或團隊曾公開作出強烈預測，其後卻被證明錯誤時，這個表達尤其實用。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Allows Grammatical Variety",
+        "titleZh": "可以配合不同句法",
+        "en": "as a past action; after a modal; after have to or be forced to; in perfect or progressive forms; as a gerund; in questions; in conditional sentences; after causative verbs.",
+        "zh": "因此，學生可以在不同時態、句型及篇章位置中自然使用同一個表達。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Provides a Concise Alternative",
+        "titleZh": "把較長的解釋縮短",
+        "en": "The expression is useful, but it should not be used for every apology or mistake.",
+        "zh": "教練被迫為較早前的不公平批評低頭認錯。 這個表達十分實用，但並不適用於所有道歉或錯誤。",
+        "examples": [
+          {
+            "en": "The coach was forced to eat humble pie over his earlier criticism.",
+            "zh": "教練被迫為較早前的不公平批評低頭認錯。",
+            "highlight": "eat humble pie"
+          }
+        ]
+      }
+    ],
+    "origin": {
+      "statusEn": "Most Likely Development; Exact Figurative Origin Uncertain",
+      "statusZh": "最可能的演變；確切比喻來源仍未完全確定",
+      "history": [
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "Most Likely Development; Exact Figurative Origin Uncertain",
+          "zh": "最可能的演變； 確切比喻來源仍未完全確定"
+        },
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "The Original Food",
+          "zh": "原來的食物"
+        },
+        {
+          "titleEn": "History and Development",
+          "titleZh": "歷史及演變",
+          "en": "The expression is generally connected with the older term umble pie. Umbles were edible inner parts of an animal, particularly a deer, which could be baked inside a pie. The term umble pie is recorded from the seventeenth century.",
+          "zh": "這個表達一般被認為與較古老的 umble pie 有關。 Umbles 指動物可食用的內臟，尤其是鹿的內臟，這些材料可以用來製作餡餅。 Umble pie 在十七世紀已有文字記錄。"
+        }
+      ],
+      "memoryEn": "The expression moved from a lowly-sounding pie to the uncomfortable experience of lowering your pride and admitting that you were wrong.",
+      "memoryZh": "這個表達由一種帶有「低微」聯想的餡餅，逐漸演變成放下自尊、承認自己錯誤的難堪經歷。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “Humble Pie” Fixed",
+        "titleZh": "規則一：humble pie 必須保持不變",
+        "en": "No article is used before humble pie in the core idiom.",
+        "zh": "核心慣用語中的 humble pie 前面不使用冠詞。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Eat”, Not “Humble Pie”",
+        "titleZh": "規則二：只改變 eat，不改變 humble pie",
+        "en": "Change “Eat”, Not “Humble Pie”",
+        "zh": "只改變 eat，不改變 humble pie",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "There Must Be an Earlier Error or Defeat",
+        "titleZh": "規則三：必須先有錯誤或失敗",
+        "en": "The second situation does not establish that he made a mistaken claim or suffered an embarrassing reversal.",
+        "zh": "他曾自信地預測會輕易勝出，但球隊卻大敗，因此只好承認自己錯了。 第二個情境沒有表明他曾經作出錯誤說法，也沒有出現令人尷尬的立場逆轉。",
+        "examples": [
+          {
+            "en": "He had to eat humble pie.",
+            "zh": "他曾自信地預測會輕易勝出，但球隊卻大敗，因此只好承認自己錯了。",
+            "highlight": "eat humble pie"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Stronger Than an Ordinary Apology",
+        "titleZh": "規則四：語氣比一般道歉更強",
+        "en": "This is an ordinary apology. The speaker does not need to eat humble pie unless they had previously denied responsibility or wrongly blamed somebody else.",
+        "zh": "這只是一般道歉。 除非說話者較早前曾否認責任或錯怪別人，否則不需要使用 eat humble pie。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則五：保留時態及確定程度",
+        "en": "Do not turn may have to eat into ate unless the result is already known.",
+        "zh": "主管可能需要認錯。 主管已經認錯。 除非結果已經確定，否則不可把 may have to eat 改成 ate。",
+        "examples": [
+          {
+            "en": "The director may have to eat humble pie.",
+            "zh": "主管可能需要認錯。",
+            "highlight": "eat humble pie"
+          },
+          {
+            "en": "The director ate humble pie.",
+            "zh": "主管已經認錯。",
+            "highlight": "ate humble pie"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Keep the Correct Person as the Subject",
+        "titleZh": "規則六：主語必須是需要認錯的人",
+        "en": "The assistant was not the person whose claim was proved wrong.",
+        "zh": "經理不得不承認自己錯怪了助理。 助理並不是判斷錯誤的一方。",
+        "examples": [
+          {
+            "en": "The manager had to eat humble pie.",
+            "zh": "經理不得不承認自己錯怪了助理。",
+            "highlight": "eat humble pie"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Repeat the Idiom’s Meaning",
+        "titleZh": "規則七：不要重複慣用語已表達的意思",
+        "en": "The second clause merely explains the idiom again. The idiom should replace the longer explanation, not stand beside it.",
+        "zh": "第二個子句只是再次解釋慣用語的意思。 經理為較早前的指責低頭認錯。 慣用語應該取代原本較長的解釋，而不是與相同意思並列。",
+        "examples": [
+          {
+            "en": "The manager ate humble pie over his earlier accusation.",
+            "zh": "經理為較早前的指責低頭認錯。",
+            "highlight": "ate humble pie"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "“By + -ing” Is Optional",
+        "titleZh": "規則八：by + -ing 只是可選延伸",
+        "en": "by + -ing only explains how the admission was made.",
+        "zh": "只說明當事人以甚麼方式認錯。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Negative Forms Are Possible",
+        "titleZh": "規則九：可以使用否定形式",
+        "en": "Negative forms describe somebody refusing or failing to admit the error. They should appear only when the context clearly supports that meaning.",
+        "zh": "店主拒絕認錯。 她並沒有真正承認自己的錯誤。 否定形式表示某人拒絕或未能承認錯誤，語境必須清楚支持這個意思。",
+        "examples": [
+          {
+            "en": "She did not really eat humble pie.",
+            "zh": "她並沒有真正承認自己的錯誤。",
+            "highlight": "eat humble pie"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Avoid the Literal Meaning",
+        "titleZh": "規則十：避免字面意思",
+        "en": "He ate a pie at the café. The idiom does not describe eating real food.",
+        "zh": "他在咖啡店吃了一個餡餅。 他的預測被證明錯誤後，只好低頭認錯。 這個慣用語並不是指真正進食。",
+        "examples": [
+          {
+            "en": "He ate humble pie after his prediction proved wrong.",
+            "zh": "他的預測被證明錯誤後，只好低頭認錯。",
+            "highlight": "ate humble pie"
+          }
+        ]
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using an approved form of eat humble pie.",
+      "zh": "使用 eat humble pie 的適當形式改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-125-q01",
+        "number": 1,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Nora accused Ethan of taking her notebook. She later found it in her own bag.",
+        "promptZh": "諾拉指責伊森拿走她的筆記簿，其後卻在自己的袋內找到它。",
+        "starter": "After",
+        "answer": "After finding her notebook in her own bag, Nora ate humble pie over accusing Ethan.",
+        "answerZh": "諾拉在自己的袋內找到筆記簿後，只好為錯怪伊森而低頭認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "ate humble pie"
+      },
+      {
+        "id": "idiom-125-q02",
+        "number": 2,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Ethan confidently said his team would win easily, but it lost four–nil.",
+        "promptZh": "伊森自信地表示他的球隊會輕易勝出，但球隊最終以零比四落敗。",
+        "starter": "Ethan",
+        "answer": "Ethan had to eat humble pie after his confident prediction of an easy victory proved wrong.",
+        "answerZh": "伊森自信地預測球隊會輕易勝出，但預測落空後，只好低頭認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q03",
+        "number": 3,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The teacher accused Chloe of copying her essay. Chloe then showed the teacher an earlier dated draft.",
+        "promptZh": "老師指責克洛伊抄襲文章，但克洛伊其後出示了一份日期較早的草稿。",
+        "starter": "The",
+        "answer": "The original draft forced the teacher to eat humble pie over accusing Chloe of copying the essay.",
+        "answerZh": "原來的草稿迫使老師承認自己錯怪克洛伊抄襲文章。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q04",
+        "number": 4,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "I insisted that the shop had charged me too much. The receipt later showed that the amount was correct.",
+        "promptZh": "我堅稱商店多收了我的錢，但收據其後顯示金額正確。",
+        "starter": "I",
+        "answer": "I ended up eating humble pie after the receipt showed that the shop had charged me correctly.",
+        "answerZh": "收據顯示商店收取的金額正確後，我最終只好認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eating humble pie"
+      },
+      {
+        "id": "idiom-125-q05",
+        "number": 5,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The parents blamed their son for breaking the vase. A camera showed that the cat had knocked it over.",
+        "promptZh": "父母怪責兒子打破花瓶，但閉路電視顯示花瓶是被貓推倒的。",
+        "starter": "When",
+        "answer": "When the camera showed the cat knocking over the vase, the parents ate humble pie for blaming their son.",
+        "answerZh": "閉路電視顯示花瓶是被貓推倒後，父母只好為錯怪兒子而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "ate humble pie"
+      },
+      {
+        "id": "idiom-125-q06",
+        "number": 6,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The manager said the new system would never work. It worked exactly as the staff had promised.",
+        "promptZh": "經理表示新系統一定無法運作，但系統的表現完全符合員工的說法。",
+        "starter": "The",
+        "answer": "The manager had to eat humble pie when the new system worked exactly as the staff had promised.",
+        "answerZh": "新系統完全按照員工的說法正常運作後，經理不得不承認自己錯了。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q07",
+        "number": 7,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Oliver told everyone that the train left at nine o’clock. After checking again, he discovered that it left at half past eight and sent a correction.",
+        "promptZh": "奧利弗告訴大家火車在九時開出。他再次查看後，發現火車在八時半開出，於是發出更正。",
+        "starter": "Oliver",
+        "answer": "Oliver ate humble pie by sending everyone the correct train time after checking the timetable again.",
+        "answerZh": "奧利弗再次查看時間表後，向所有人發出正確的火車時間，以行動承認自己先前說錯了。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "ate humble pie"
+      },
+      {
+        "id": "idiom-125-q08",
+        "number": 8,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Leah laughed at Noah’s cake, saying it looked terrible. She then burnt her own cake.",
+        "promptZh": "莉雅取笑諾亞的蛋糕外表難看，但其後卻把自己的蛋糕焗焦了。",
+        "starter": "Leah",
+        "answer": "Leah was left eating humble pie after laughing at Noah’s cake and then burning her own.",
+        "answerZh": "莉雅取笑諾亞的蛋糕後，卻把自己的蛋糕焗焦，結果只好尷尬地認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eating humble pie"
+      },
+      {
+        "id": "idiom-125-q09",
+        "number": 9,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "We insisted that the road signs were wrong. We then realised that we had been reading the map upside down.",
+        "promptZh": "我們堅稱路牌有錯，其後才發現自己一直把地圖倒轉來看。",
+        "starter": "We",
+        "answer": "We had to eat humble pie when we realised that we had been reading the map upside down.",
+        "answerZh": "我們發現自己一直把地圖倒轉來看後，不得不承認是自己錯了。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q10",
+        "number": 10,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The coach publicly called the other team weak. That team then won the final.",
+        "promptZh": "教練公開表示另一支球隊實力很弱，但該隊其後贏得決賽。",
+        "starter": "After",
+        "answer": "After calling the other team weak, the coach was forced to eat humble pie when they won the final.",
+        "answerZh": "教練曾表示另一支球隊實力很弱；對方贏得決賽後，他被迫收回前言。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q11",
+        "number": 11,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The director says that sales have increased. Early figures suggest that they may actually have fallen, but the final figures will not arrive until tomorrow.",
+        "promptZh": "主管表示銷量有所增加。初步數字顯示銷量可能反而下降，但最終數字要到明天才會公布。",
+        "starter": "The",
+        "answer": "The director may have to eat humble pie if tomorrow’s figures prove her claim wrong.",
+        "answerZh": "如果明天的數字證明主管的說法有誤，她可能需要低頭認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q12",
+        "number": 12,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Clara said the library would never attract young people. After a youth event filled every seat, she accepted that her prediction had been wrong.",
+        "promptZh": "克拉拉表示圖書館永遠無法吸引年輕人。一次青年活動座無虛席後，她接受自己的預測有誤。",
+        "starter": "Clara",
+        "answer": "Clara has already eaten humble pie over saying that the library would never attract young people.",
+        "answerZh": "克拉拉已經為自己聲稱圖書館永遠無法吸引年輕人而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eaten humble pie"
+      },
+      {
+        "id": "idiom-125-q13",
+        "number": 13,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The editor published a confident but incorrect claim about the school. The school records have now proved the article wrong, and the editor is withdrawing it.",
+        "promptZh": "編輯刊登了一項自信但錯誤的學校報道。學校記錄現已證明文章有誤，而編輯正在撤回文章。",
+        "starter": "The",
+        "answer": "The editor is now eating humble pie over the article’s incorrect claim about the school.",
+        "answerZh": "編輯現正為文章中有關學校的錯誤說法低頭認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eating humble pie"
+      },
+      {
+        "id": "idiom-125-q14",
+        "number": 14,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Daniel strongly opposed the new bus route because he said it would increase delays. A trial of the route begins next week.",
+        "promptZh": "丹尼爾強烈反對新巴士路線，因為他表示新路線會增加延誤。路線將於下星期試行。",
+        "starter": "If",
+        "answer": "If the new bus route reduces delays, Daniel will have to eat humble pie over opposing it so strongly.",
+        "answerZh": "如果新巴士路線能減少延誤，丹尼爾便要為自己曾強烈反對而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q15",
+        "number": 15,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The group called Priya’s simple plan foolish. The plan has not been tested yet, and it may succeed.",
+        "promptZh": "小組認為普莉雅的簡單計劃十分愚蠢。計劃尚未經過測試，而且可能成功。",
+        "starter": "The",
+        "answer": "The group should be ready to eat humble pie if Priya’s simple plan succeeds.",
+        "answerZh": "如果普莉雅的簡單計劃成功，小組便應準備承認自己錯了。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q16",
+        "number": 16,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A: Do you still think Ava caused the mistake? B: No. The records show that I was wrong to blame her.",
+        "promptZh": "甲：你仍然認為是艾娃造成這個錯誤嗎？ 乙：不。記錄顯示我不應怪責她。",
+        "starter": "No.",
+        "answer": "No. I suppose I have to eat humble pie over blaming Ava.",
+        "answerZh": "不。我想我必須為錯怪艾娃而低頭認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q17",
+        "number": 17,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A reporter has publicly called the actor’s story false. A second witness is being interviewed and may confirm the actor’s story.",
+        "promptZh": "一名記者公開表示該演員的說法不實。另一名證人正在接受訪問，並可能證實演員的說法。",
+        "starter": "The",
+        "answer": "The reporter may yet have to eat humble pie if the second witness confirms the actor’s story.",
+        "answerZh": "如果第二名證人證實演員的說法，該名記者最終可能仍要認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q18",
+        "number": 18,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The kitchen records proved that the waiter had not caused the problem. Even so, the restaurant owner still would not admit that blaming him had been unfair.",
+        "promptZh": "廚房記錄證明問題並非由侍應造成。即使如此，餐廳店主仍不願承認自己錯怪了他。",
+        "starter": "Even",
+        "answer": "Even after the facts came out, the owner refused to eat humble pie over blaming the waiter.",
+        "answerZh": "即使事實已經公開，店主仍拒絕為錯怪侍應而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q19",
+        "number": 19,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Grace told everyone that her answer was certainly correct. The answer key proved her wrong, and she found the admission extremely difficult.",
+        "promptZh": "格蕾絲告訴所有人自己的答案一定正確。參考答案證明她錯了，而她覺得認錯十分困難。",
+        "starter": "Eating",
+        "answer": "Eating humble pie was difficult for Grace after she had told everyone that her answer was certainly correct.",
+        "answerZh": "格蕾絲曾告訴所有人自己的答案一定正確，因此其後要低頭認錯並不容易。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "Eating humble pie"
+      },
+      {
+        "id": "idiom-125-q20",
+        "number": 20,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A guard accused a visitor of entering a closed room. New entry records showed that the visitor had been somewhere else.",
+        "promptZh": "一名保安員指責訪客進入一個封閉房間。新的出入記錄顯示訪客當時身處另一地方。",
+        "starter": "The",
+        "answer": "The new evidence made the guard eat humble pie for accusing the wrong visitor.",
+        "answerZh": "新證據令保安員不得不為錯怪訪客而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q21",
+        "number": 21,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "You are certain that Owen deleted the file. The computer records are still being checked and may show that he did not delete it.",
+        "promptZh": "你肯定是歐文刪除了檔案。電腦記錄仍在檢查中，結果可能顯示檔案並非由他刪除。",
+        "starter": "You",
+        "answer": "You may need to eat humble pie if the computer records show that Owen did not delete the file.",
+        "answerZh": "如果電腦記錄顯示檔案並非由歐文刪除，你可能需要低頭認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q22",
+        "number": 22,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A customer claimed that a waiter had spoken rudely. A recording later showed that the waiter had remained polite throughout the conversation.",
+        "promptZh": "一名顧客聲稱侍應說話無禮，但錄音其後顯示侍應在整段對話中一直保持禮貌。",
+        "starter": "The",
+        "answer": "The customer ended up eating humble pie after the recording showed that the waiter had spoken politely.",
+        "answerZh": "錄音顯示侍應一直有禮貌後，該名顧客最終只好認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eating humble pie"
+      },
+      {
+        "id": "idiom-125-q23",
+        "number": 23,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Our father insisted that his shortcut was the best route. The whole family followed him and became lost.",
+        "promptZh": "爸爸堅稱他的捷徑是最佳路線。全家跟隨他後卻迷路了。",
+        "starter": "After",
+        "answer": "After getting lost on the route he had recommended, our father ate humble pie in front of the family.",
+        "answerZh": "爸爸帶全家在自己推薦的路線上迷路後，只好在家人面前低頭認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "ate humble pie"
+      },
+      {
+        "id": "idiom-125-q24",
+        "number": 24,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The head teacher predicted that nobody would attend the student event. Hundreds of people came.",
+        "promptZh": "校長預測沒有人會出席學生活動，但最終有數百人到場。",
+        "starter": "The",
+        "answer": "The event’s success made the head teacher eat humble pie over predicting that nobody would attend.",
+        "answerZh": "活動取得成功，令校長不得不為自己預測沒有人出席而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q25",
+        "number": 25,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Ravi called the new plan useless. When the results showed that it saved money, he began supporting it.",
+        "promptZh": "拉維認為新計劃毫無用處。結果顯示計劃能節省金錢後，他開始支持計劃。",
+        "starter": "Ravi",
+        "answer": "Ravi ate humble pie by supporting the money-saving plan he had earlier called useless.",
+        "answerZh": "拉維開始支持自己較早前稱為毫無用處的節省金錢計劃，以行動承認自己看錯了。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "ate humble pie"
+      },
+      {
+        "id": "idiom-125-q26",
+        "number": 26,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Marcus boasted to his friends that his favourite team could not lose. The team lost its next match.",
+        "promptZh": "馬庫斯向朋友吹噓自己支持的球隊不可能落敗，但球隊在下一場比賽輸了。",
+        "starter": "In",
+        "answer": "In front of his friends, Marcus was made to eat humble pie after the team he called unbeatable lost.",
+        "answerZh": "馬庫斯聲稱不可能落敗的球隊輸掉比賽後，他只好在朋友面前尷尬地認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q27",
+        "number": 27,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "An online writer claimed that a café was dirty. An official check found no problem, and the writer later posted a correction.",
+        "promptZh": "一名網上作者聲稱一間咖啡店不潔。正式檢查沒有發現問題，而作者其後刊登更正。",
+        "starter": "The",
+        "answer": "The writer later ate humble pie by posting a correction to the false café story.",
+        "answerZh": "該名作者其後刊登咖啡店錯誤報道的更正，以承認自己的說法有誤。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "ate humble pie"
+      },
+      {
+        "id": "idiom-125-q28",
+        "number": 28,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A reporter claimed that a singer had cancelled a show because she was lazy. A medical note later showed that she had been ill.",
+        "promptZh": "一名記者聲稱歌手因為懶惰而取消表演。醫生證明其後顯示她當時患病。",
+        "starter": "The",
+        "answer": "The medical note made the reporter eat humble pie over claiming that the singer had cancelled out of laziness.",
+        "answerZh": "醫生證明令記者不得不為自己聲稱歌手因懶惰而取消表演認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q29",
+        "number": 29,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A student insisted that the answer key was wrong. He checked his work again and discovered an error in his own calculation.",
+        "promptZh": "一名學生堅稱參考答案有誤。他再次檢查後，發現錯誤出現在自己的計算中。",
+        "starter": "The",
+        "answer": "The student could do nothing but eat humble pie when his own calculation, not the answer key, proved to be wrong.",
+        "answerZh": "發現錯誤出在自己的計算而非參考答案後，該名學生只好低頭認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q30",
+        "number": 30,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "You say that Priya’s idea cannot possibly work. The class is going to test it tomorrow.",
+        "promptZh": "你表示普莉雅的想法絕對不可能成功。全班將於明天測試這個想法。",
+        "starter": "Will",
+        "answer": "Will you be willing to eat humble pie if the test shows that Priya’s idea is correct?",
+        "answerZh": "如果測試顯示普莉雅的想法正確，你會願意承認自己錯了嗎？",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q31",
+        "number": 31,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The manager had dismissed the worker’s warning several times. The latest data finally proved that the worker had been right.",
+        "promptZh": "經理曾多次拒絕接受該員工的警告。最新數據最終證明員工是對的。",
+        "starter": "Although",
+        "answer": "Although the manager had dismissed the warning several times, he eventually ate humble pie when the data proved the worker right.",
+        "answerZh": "雖然經理曾多次拒絕接受警告，但數據證明員工正確後，他最終只好認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "ate humble pie"
+      },
+      {
+        "id": "idiom-125-q32",
+        "number": 32,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The hotel owner boasted that nobody ever complained about her hotel. Dozens of complaints then appeared online.",
+        "promptZh": "酒店東主吹噓從來沒有人投訴她的酒店，但其後網上出現了數十宗投訴。",
+        "starter": "Because",
+        "answer": "Because the hotel owner had boasted that nobody ever complained, she ended up eating humble pie when dozens of complaints appeared online.",
+        "answerZh": "酒店東主曾吹噓從來沒有人投訴，因此網上出現數十宗投訴後，她最終只好收回前言。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eating humble pie"
+      },
+      {
+        "id": "idiom-125-q33",
+        "number": 33,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The company rejected a cheaper material because it believed the material was too weak. A trial may show that it is just as strong as the expensive material.",
+        "promptZh": "公司認為較便宜的材料強度不足，因此拒絕使用。測試可能顯示它與昂貴材料同樣堅固。",
+        "starter": "If",
+        "answer": "If the trial shows that the cheaper material is just as strong, the company may have to eat humble pie over rejecting it.",
+        "answerZh": "如果測試顯示較便宜的材料同樣堅固，公司可能需要為拒絕使用它而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q34",
+        "number": 34,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The committee confidently claimed that the new class would fail. The class became the school’s most popular course.",
+        "promptZh": "委員會自信地聲稱新課程會失敗，但該課程其後成為學校最受歡迎的課程。",
+        "starter": "The",
+        "answer": "The results left the committee with no choice but to eat humble pie over its claim that the new class would fail.",
+        "answerZh": "結果令委員會別無選擇，只能為自己聲稱新課程會失敗而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q35",
+        "number": 35,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Jordan made an unfair complaint against the team. After the records proved the complaint wrong, he stopped making excuses and withdrew it.",
+        "promptZh": "喬丹對團隊作出不公平的投訴。記錄證明投訴有誤後，他不再找藉口，並撤回投訴。",
+        "starter": "Instead",
+        "answer": "Instead of making more excuses, Jordan finally ate humble pie by withdrawing his unfair complaint.",
+        "answerZh": "喬丹不再找藉口，最終撤回不公平的投訴，以承認自己錯了。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "ate humble pie"
+      },
+      {
+        "id": "idiom-125-q36",
+        "number": 36,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Sofia said Ken’s explanation could not be correct. However, she also said that the next test might support his explanation.",
+        "promptZh": "索菲亞表示肯的解釋不可能正確。不過，她亦承認下一次測試可能支持他的解釋。",
+        "starter": "Sofia",
+        "answer": "Sofia said she might have to eat humble pie if the next test supported Ken’s explanation.",
+        "answerZh": "索菲亞表示，如果下一次測試支持肯的解釋，她可能需要承認自己錯了。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q37",
+        "number": 37,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A guard accused a delivery driver of damaging a door. He withdrew the accusation only after clear video evidence showed that another vehicle had caused the damage.",
+        "promptZh": "一名保安員指責送貨司機損壞大門。清楚的錄影片段顯示損壞由另一輛車造成後，他才撤回指責。",
+        "starter": "It",
+        "answer": "It took clear video evidence to make the guard eat humble pie over accusing the delivery driver.",
+        "answerZh": "要有清楚的錄影片段，才令保安員為錯怪送貨司機而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q38",
+        "number": 38,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The coach blamed the referee for the defeat. He admitted that the decision was correct only after watching the replay.",
+        "promptZh": "教練把落敗怪在球證身上。他觀看重播後，才接受球證的判決正確。",
+        "starter": "Only",
+        "answer": "Only after watching the replay did the coach eat humble pie over blaming the referee.",
+        "answerZh": "教練觀看重播後，才為自己怪責球證而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q39",
+        "number": 39,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "She said sorry for the mistake, but she continued to insist that everybody else was responsible.",
+        "promptZh": "她為錯誤說了對不起，但仍然堅稱所有其他人都需要負責。",
+        "starter": "She",
+        "answer": "She did not really eat humble pie, because she apologised but continued to blame everyone else.",
+        "answerZh": "她並沒有真正認錯，因為她雖然道歉，卻繼續把責任推給所有其他人。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q40",
+        "number": 40,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The seller strongly insists that the product is completely safe. The official safety check has not yet been completed.",
+        "promptZh": "賣家堅稱產品完全安全，但正式安全檢查尚未完成。",
+        "starter": "Whether",
+        "answer": "Whether the seller will eat humble pie depends on what the safety check finds.",
+        "answerZh": "賣家是否需要低頭認錯，取決於安全檢查的結果。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q41",
+        "number": 41,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The town leader strongly criticised the new bus route and predicted that it would cause longer delays. Since its introduction, delays have fallen.",
+        "promptZh": "鎮上主管強烈批評新巴士路線，並預測它會造成更長延誤。新路線投入服務後，延誤反而有所減少。",
+        "starter": "Now",
+        "answer": "Now that the new bus route has reduced delays, the town leader may have to eat humble pie over his earlier criticism.",
+        "answerZh": "新巴士路線已減少延誤，因此鎮上主管可能需要為較早前的批評認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q42",
+        "number": 42,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The hospital director dismissed the new booking app as a waste of money. Waiting times became much shorter after the hospital began using it.",
+        "promptZh": "醫院主管認為新的預約應用程式浪費金錢。醫院開始使用後，輪候時間大幅縮短。",
+        "starter": "The",
+        "answer": "The shorter waiting times have made the hospital director eat humble pie over dismissing the booking app.",
+        "answerZh": "輪候時間縮短，令醫院主管不得不為自己否定預約應用程式而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q43",
+        "number": 43,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Several teachers predicted that an open-book quiz would be far too easy. The results showed that the scores were almost unchanged.",
+        "promptZh": "數名老師預測開卷測驗會過分容易，但結果顯示分數幾乎沒有改變。",
+        "starter": "After",
+        "answer": "After seeing that the open-book quiz was no easier, several teachers were prepared to eat humble pie over their prediction.",
+        "answerZh": "看到開卷測驗並沒有更容易後，數名老師願意為自己的預測認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q44",
+        "number": 44,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The office manager accused the staff of entering the figures incorrectly. A system report later showed that the computer had changed the figures automatically.",
+        "promptZh": "辦公室經理指責員工錯誤輸入數字。系統報告其後顯示，數字是由電腦自動更改的。",
+        "starter": "It",
+        "answer": "It was the system report that forced the office manager to eat humble pie for accusing the staff of entering the figures incorrectly.",
+        "answerZh": "正是系統報告迫使辦公室經理承認自己錯怪員工輸入錯誤數字。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q45",
+        "number": 45,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A judge publicly dismissed the students’ design as childish. The design later won the top prize.",
+        "promptZh": "一名評判公開批評學生的設計幼稚，但該設計其後贏得最高獎項。",
+        "starter": "After",
+        "answer": "After publicly dismissing the students’ design, the judge ate humble pie when it won the top prize.",
+        "answerZh": "評判曾公開否定學生的設計；設計贏得最高獎項後，他只好收回前言。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "ate humble pie"
+      },
+      {
+        "id": "idiom-125-q46",
+        "number": 46,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The company director ignored an engineer’s warning and said there was no safety problem. A second test may confirm the warning.",
+        "promptZh": "公司主管沒有理會工程師的警告，並表示不存在安全問題。第二次測試可能證實該項警告。",
+        "starter": "If",
+        "answer": "If the second test confirms the engineer’s warning, the company director will have to eat humble pie over ignoring it.",
+        "answerZh": "如果第二次測試證實工程師的警告，公司主管便要為自己沒有理會警告而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q47",
+        "number": 47,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: You said online lessons could never work for this class. B: Yes, but attendance is now higher than before.",
+        "promptZh": "甲：你曾表示網上課堂絕對不適合這個班別。 乙：是的，但現在的出席率比以前更高。",
+        "starter": "I",
+        "answer": "I suppose I may have to eat humble pie over what I said about online lessons.",
+        "answerZh": "我想我可能需要為自己較早前對網上課堂的說法認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q48",
+        "number": 48,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The manager accused the assistant of hiding an important email. The manager accepted that the accusation was wrong only after the missing email was found in his own folder.",
+        "promptZh": "經理指責助理隱藏一封重要電郵。直至在自己的資料夾內找到該電郵後，經理才接受自己的指責有誤。",
+        "starter": "Not",
+        "answer": "Not until the missing email was found did the manager eat humble pie over accusing the assistant of hiding it.",
+        "answerZh": "直至找到失蹤的電郵後，經理才為自己指責助理隱藏電郵而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      },
+      {
+        "id": "idiom-125-q49",
+        "number": 49,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A television presenter made a very confident claim in front of millions of viewers. When clear evidence proved the claim false, she had to withdraw it publicly.",
+        "promptZh": "一名電視節目主持人在數百萬觀眾面前作出十分自信的說法。清楚證據證明說法錯誤後，她不得不公開撤回。",
+        "starter": "Eating",
+        "answer": "Eating humble pie in public was the price the presenter paid for making such a confident but false claim.",
+        "answerZh": "公開低頭認錯，是主持人為作出如此自信但錯誤的說法所付出的代價。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "Eating humble pie"
+      },
+      {
+        "id": "idiom-125-q50",
+        "number": 50,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A committee criticised a volunteer’s simple garden plan and called it unrealistic. The project is now succeeding because the volunteer’s plan was used.",
+        "promptZh": "一個委員會批評義工提出的簡單花園計劃，並認為計劃不切實際。項目現因採用了義工的計劃而取得成功。",
+        "starter": "With",
+        "answer": "With the project now succeeding, the committee has little choice but to eat humble pie over its earlier criticism of the volunteer’s plan.",
+        "answerZh": "項目現已取得成功，委員會幾乎別無選擇，只能為較早前批評義工的計劃而認錯。",
+        "targetForm": "eat humble pie",
+        "targetMeaning": "To admit that you were wrong, accept that you have been defeated, or withdraw an earlier claim—usually in a way that feels embarrassing or damages your pride.",
+        "highlight": "eat humble pie"
+      }
+    ]
+  }
+}

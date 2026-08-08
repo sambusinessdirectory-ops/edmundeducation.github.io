@@ -1,0 +1,1539 @@
+{
+  "lesson": {
+    "id": "idiom-30",
+    "order": 30,
+    "slug": "the-lions-mouth",
+    "version": "1",
+    "title": "身陷險境／闖入虎口",
+    "titleEn": "The Lion’s Mouth",
+    "titleZh": "身陷險境／闖入虎口",
+    "source": {
+      "file": "Idiom 30 -「The Lion’s Mouth」.pdf",
+      "pageCount": 33,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "exercisePdfPages": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "answerKeyPdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "The Lion’s Mouth",
+        "highlight": "The Lion’s Mouth"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The witness was in the lion’s mouth.",
+        "zh": "那名證人正身陷險境。",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "en": "The villagers may still be in the lion’s mouth.",
+        "zh": "村民可能仍然身處危險之中。",
+        "highlight": "the lion’s mouth"
+      }
+    ],
+    "meaning": {
+      "en": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+      "zh": "指非常危險、充滿威脅或可能帶來嚴重後果的處境，尤其是某人明知有風險仍然走進去，或已經身陷其中。",
+      "naturalZh": [
+        "指非常危險、充滿威脅或可能帶來嚴重後果的處境，尤其是某人明知有風險仍然走進去，或已經身陷其中。"
+      ]
+    },
+    "register": {
+      "labelEn": "Formal",
+      "labelZh": "正式",
+      "summaryEn": "It may sound too dramatic for a routine problem or a very formal academic report.",
+      "summaryZh": "這個表達帶有比喻及較強烈的語氣，適合用於對話、敘事、新聞、演說、個人評論及生動的警告。",
+      "contextsEn": [
+        "conversation",
+        "storytelling",
+        "journalism",
+        "speeches",
+        "personal comments",
+        "vivid warnings",
+        "the",
+        "lion’s",
+        "mouth",
+        "the singular possessive form lion’s",
+        "the word order",
+        "lion’s"
+      ],
+      "contextsZh": [
+        "必須使用 the",
+        "必須有撇號及 s",
+        "使用單數",
+        "三個字的次序不可改變。"
+      ],
+      "formalEn": "It may sound too dramatic for a routine problem or a very formal academic report.",
+      "formalZh": "必須使用 the； lion’s 必須有撇號及 s； mouth 使用單數； 三個字的次序不可改變。"
+    },
+    "fixedVariable": {
+      "fixed": "The Lion’s Mouth",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + in the lion’s mouth.",
+          "example": "The witness was in the lion’s mouth.",
+          "highlight": "the lion’s mouth"
+        },
+        {
+          "form": "Subject + go / walk / step / head / move + into the lion’s mouth.",
+          "example": "The reporter walked into the lion’s mouth.",
+          "highlight": "the lion’s mouth"
+        },
+        {
+          "form": "Subject + put + possessive + head + in / into the lion’s mouth.",
+          "example": "The lawyer put her head into the lion’s mouth.",
+          "highlight": "the lion’s mouth"
+        },
+        {
+          "form": "Subject + put / lead / take / push + object + into / in the lion’s mouth.",
+          "example": "The false guide led the travellers into the lion’s mouth.",
+          "highlight": "the lion’s mouth"
+        },
+        {
+          "form": "Subject + stay / keep + out of the lion’s mouth.",
+          "example": "The driver stayed out of the lion’s mouth by turning back.",
+          "highlight": "the lion’s mouth"
+        },
+        {
+          "form": "Subject + escape / be rescued / be pulled / be saved + from / out of the lion’s mouth.",
+          "example": "The family escaped from the lion’s mouth.",
+          "highlight": "the lion’s mouth"
+        },
+        {
+          "form": "Subject + feel + like + the lion’s mouth.",
+          "example": "The closed room felt like the lion’s mouth.",
+          "highlight": "the lion’s mouth"
+        },
+        {
+          "form": "Before you put your head into the lion’s mouth, call the police.",
+          "example": "Although he knew the risk, Ben walked into the lion’s mouth.",
+          "highlight": "the lion’s mouth"
+        },
+        {
+          "form": "by + V-ing is an optional extension. It is not part of the fixed expression.",
+          "example": "The reporter put her head into the lion’s mouth by confronting the gang leader.",
+          "highlight": "the lion’s mouth"
+        },
+        {
+          "form": "Subject + may / might / could / will + enter the lion’s mouth pattern.",
+          "example": "You could be walking into the lion’s mouth.",
+          "highlight": "the lion’s mouth"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “be”",
+        "titleZh": "那名證人正身陷險境",
+        "formula": "Subject + be + in the lion’s mouth.",
+        "descriptionEn": "Use in when the person is already inside the dangerous situation.",
+        "descriptionZh": "那名證人正身陷險境。 當某人已經身處危險處境時，使用 in。",
+        "examples": [
+          {
+            "en": "The witness was in the lion’s mouth.",
+            "zh": "那名證人正身陷險境。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "The villagers may still be in the lion’s mouth.",
+            "zh": "村民可能仍然身處危險之中。",
+            "highlight": "the lion’s mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "With a movement verb",
+        "titleZh": "記者走進了極危險的處境",
+        "formula": "Subject + go / walk / step / head / move + into the lion’s mouth.",
+        "descriptionEn": "Use into when somebody moves from a safer position towards danger.",
+        "descriptionZh": "記者走進了極危險的處境。 當某人由較安全的狀態走向危險時，使用 into。",
+        "examples": [
+          {
+            "en": "The reporter walked into the lion’s mouth.",
+            "zh": "記者走進了極危險的處境。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "We may be heading into the lion’s mouth.",
+            "zh": "我們可能正走向危險。",
+            "highlight": "the lion’s mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "In the full established idiom",
+        "titleZh": "律師故意把自己置於危險處境",
+        "formula": "Subject + put + possessive + head + in / into the lion’s mouth.",
+        "descriptionEn": "Source grammar frame: Subject + put + possessive + head + in / into the lion’s mouth.",
+        "descriptionZh": "原檔列出的句法框架：Subject + put + possessive + head + in / into the lion’s mouth。",
+        "examples": [
+          {
+            "en": "The lawyer put her head into the lion’s mouth.",
+            "zh": "律師故意把自己置於危險處境。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "You are putting your head in the lion’s mouth.",
+            "zh": "你正在故意令自己身陷險境。",
+            "highlight": "the lion’s mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "With a causative verb",
+        "titleZh": "假導遊把旅客帶進了危險處境",
+        "formula": "Subject + put / lead / take / push + object + into / in the lion’s mouth.",
+        "descriptionEn": "Source grammar frame: Subject + put / lead / take / push + object + into / in the lion’s mouth.",
+        "descriptionZh": "原檔列出的句法框架：Subject + put / lead / take / push + object + into / in the lion’s mouth。",
+        "examples": [
+          {
+            "en": "The false guide led the travellers into the lion’s mouth.",
+            "zh": "假導遊把旅客帶進了危險處境。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "That careless decision put the whole team in the lion’s mouth.",
+            "zh": "那個草率決定令整個團隊陷入險境。",
+            "highlight": "the lion’s mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With avoidance",
+        "titleZh": "司機及時折返，避免走進危險",
+        "formula": "Subject + stay / keep + out of the lion’s mouth.",
+        "descriptionEn": "Source grammar frame: Subject + stay / keep + out of the lion’s mouth.",
+        "descriptionZh": "原檔列出的句法框架：Subject + stay / keep + out of the lion’s mouth。",
+        "examples": [
+          {
+            "en": "The driver stayed out of the lion’s mouth by turning back.",
+            "zh": "司機及時折返，避免走進危險。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "The warning kept several people out of the lion’s mouth.",
+            "zh": "這項警告令數人避過危險。",
+            "highlight": "the lion’s mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "With escape or rescue",
+        "titleZh": "這個家庭逃離了危險處境",
+        "formula": "Subject + escape / be rescued / be pulled / be saved + from / out of the lion’s mouth.",
+        "descriptionEn": "Source grammar frame: Subject + escape / be rescued / be pulled / be saved + from / out of the lion’s mouth.",
+        "descriptionZh": "原檔列出的句法框架：Subject + escape / be rescued / be pulled / be saved + from / out of the lion’s mouth。",
+        "examples": [
+          {
+            "en": "The family escaped from the lion’s mouth.",
+            "zh": "這個家庭逃離了危險處境。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "The firefighters pulled the child out of the lion’s mouth.",
+            "zh": "消防員把孩子從險境中救出。",
+            "highlight": "the lion’s mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After “feel like”",
+        "titleZh": "那個密閉房間令人感到危機四伏",
+        "formula": "Subject + feel + like + the lion’s mouth.",
+        "descriptionEn": "This is a broader metaphorical use. It compares a place directly with a place of extreme danger.",
+        "descriptionZh": "那個密閉房間令人感到危機四伏。 這是一種較自由的比喻用法，直接把某個地方比作極危險的處境。",
+        "examples": [
+          {
+            "en": "The closed room felt like the lion’s mouth.",
+            "zh": "那個密閉房間令人感到危機四伏。",
+            "highlight": "the lion’s mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "At different positions in the sentence",
+        "titleZh": "雖然本知道有風險，他仍然走進了險境",
+        "formula": "Before you put your head into the lion’s mouth, call the police.",
+        "descriptionEn": "Source grammar frame: Before you put your head into the lion’s mouth, call the police.",
+        "descriptionZh": "原檔列出的句法框架：Before you put your head into the lion’s mouth, call the police。",
+        "examples": [
+          {
+            "en": "Although he knew the risk, Ben walked into the lion’s mouth.",
+            "zh": "雖然本知道有風險，他仍然走進了險境。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "Ben walked into the lion’s mouth although he knew the risk.",
+            "zh": "本明知有風險，仍然走進了險境。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "Before you put your head into the lion’s mouth, call the police.",
+            "zh": "在你冒險行動前，先報警。",
+            "highlight": "the lion’s mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "With “by + V-ing”",
+        "titleZh": "記者直接質問黑幫頭目，故意把自己置於險境",
+        "formula": "by + V-ing is an optional extension. It is not part of the fixed expression.",
+        "descriptionEn": "Source grammar frame: by + V-ing is an optional extension. It is not part of the fixed expression.",
+        "descriptionZh": "原檔列出的句法框架：by + V-ing is an optional extension. It is not part of the fixed expression。",
+        "examples": [
+          {
+            "en": "The reporter put her head into the lion’s mouth by confronting the gang leader.",
+            "zh": "記者直接質問黑幫頭目，故意把自己置於險境。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "The reporter put her head into the lion’s mouth.",
+            "zh": "記者故意把自己置於險境。",
+            "highlight": "the lion’s mouth"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "With modal verbs",
+        "titleZh": "你可能正在走進危險處境",
+        "formula": "Subject + may / might / could / will + enter the lion’s mouth pattern.",
+        "descriptionEn": "Source grammar frame: Subject + may / might / could / will + enter the lion’s mouth pattern.",
+        "descriptionZh": "原檔列出的句法框架：Subject + may / might / could / will + enter the lion’s mouth pattern。",
+        "examples": [
+          {
+            "en": "You could be walking into the lion’s mouth.",
+            "zh": "你可能正在走進危險處境。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "The decision may put us in the lion’s mouth.",
+            "zh": "這個決定可能令我們身陷險境。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "The warning will keep them out of the lion’s mouth.",
+            "zh": "這項警告將令他們避過危險。",
+            "highlight": "the lion’s mouth"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It creates a vivid image of danger",
+        "titleZh": "生動表達危險",
+        "en": "It creates a vivid image of danger",
+        "zh": "生動表達危險",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It can emphasise deliberate risk",
+        "titleZh": "突出明知有風險仍然行動",
+        "en": "It can emphasise deliberate risk",
+        "zh": "突出明知有風險仍然行動",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It provides several natural grammar patterns",
+        "titleZh": "提供多種自然句式",
+        "en": "It provides several natural grammar patterns",
+        "zh": "提供多種自然句式",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It helps learners understand dramatic English",
+        "titleZh": "幫助理解較生動的英語",
+        "en": "It helps learners understand dramatic English",
+        "zh": "幫助理解較生動的英語",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Gradual Metaphorical Development",
+      "statusZh": "確切來源不明；逐漸形成的比喻用法",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Religious English has long used a lion’s mouth as an image of deadly danger and rescue, although this does not prove the origin of the modern idiom. Circus and sideshow performances later made the image literal. Early twentieth-century fiction describes performers placing their heads inside lions’ mouths. By 1949, a TIME article was already using put her head in the lion’s mouth figuratively to describe Eleanor Roosevelt taking a serious public risk.",
+          "zh": "宗教英語長久以來已使用「獅子之口」象徵致命危險及獲救，但這並不足以證明現代慣用語的確切來源。 其後，馬戲團及雜技表演把這個畫面變成真實動作。 二十世紀初的小說曾描寫表演者把頭放進獅子口中。 到了1949年，《時代》雜誌已用 put her head in the lion’s mouth 比喻 Eleanor Roosevelt 公開承受重大風險。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The physical act offered a natural metaphor: putting one’s head near a lion’s teeth means knowingly giving danger the chance to harm you. The exact first figurative use has not been firmly identified. Collins now records the full idiom as deliberately placing oneself in a dangerous or difficult situation.",
+          "zh": "這項真實動作自然形成了一個比喻：把頭放近獅子的牙齒，代表明知危險仍然讓自己暴露其中。 現時未能確定最早的比喻用法。 Collins 現在把完整表達解釋為故意令自己進入危險或困難處境。"
+        }
+      ],
+      "memoryEn": "A head inside a lion’s mouth has almost no protection; a person in the lion’s mouth has entered a situation where serious harm may follow.",
+      "memoryZh": "頭部一旦進入獅子口中，便幾乎沒有保護；身處 the lion’s mouth，便代表已進入可能帶來嚴重後果的處境。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use the exact target",
+        "titleZh": "規則一",
+        "en": "Use the exact target",
+        "zh": "規則一",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Do not confuse it with “the lion’s share”",
+        "titleZh": "規則二",
+        "en": "Do not confuse it with “the lion’s share”",
+        "zh": "規則二",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Distinguish “in” from “into”",
+        "titleZh": "她正身陷險境",
+        "en": "Distinguish “in” from “into”",
+        "zh": "她正身陷險境。 她正走進危險處境。",
+        "examples": [
+          {
+            "en": "She is in the lion’s mouth.",
+            "zh": "她正身陷險境。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "She is walking into the lion’s mouth.",
+            "zh": "她正走進危險處境。",
+            "highlight": "the lion’s mouth"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "The full idiom normally describes deliberate risk",
+        "titleZh": "這通常表示他明知有危險，仍然決定冒險",
+        "en": "This normally suggests that he knowingly took the risk.",
+        "zh": "這通常表示他明知有危險，仍然決定冒險。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Do not use it for a minor inconvenience",
+        "titleZh": "規則五",
+        "en": "Do not use it for a minor inconvenience",
+        "zh": "規則五",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Avoid accidental literal meanings",
+        "titleZh": "馴獸師把一枝木棒放進獅子的口中",
+        "en": "Avoid accidental literal meanings",
+        "zh": "馴獸師把一枝木棒放進獅子的口中。 馴獸師向危險的東主提出挑戰，故意把自己置於險境。",
+        "examples": [
+          {
+            "en": "The trainer placed a stick inside the lion’s mouth.",
+            "zh": "馴獸師把一枝木棒放進獅子的口中。",
+            "highlight": "the lion’s mouth"
+          },
+          {
+            "en": "The trainer put his head into the lion’s mouth by challenging the dangerous owner.",
+            "zh": "馴獸師向危險的東主提出挑戰，故意把自己置於險境。",
+            "highlight": "the lion’s mouth"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve tense and certainty",
+        "titleZh": "規則七",
+        "en": "Preserve tense and certainty",
+        "zh": "規則七",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Keep the danger serious enough",
+        "titleZh": "規則八",
+        "en": "Keep the danger serious enough",
+        "zh": "規則八",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using the lion’s mouth.",
+      "zh": "使用 the lion’s mouth 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-30-q01",
+        "number": 1,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Daniel knew that the manager was furious, but he still asked why the workers had not received their pay.",
+        "promptZh": "丹尼爾知道經理非常憤怒，但仍追問工人為何尚未收到工資。",
+        "starter": "Daniel",
+        "answer": "Daniel put his head into the lion’s mouth by asking the furious manager about the missing pay.",
+        "answerZh": "丹尼爾向憤怒的經理追問欠薪問題，明知有風險仍然把自己置於險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q02",
+        "number": 2,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The reporter questioned the dangerous gang leader alone and placed herself in serious danger.",
+        "promptZh": "記者獨自質問危險的黑幫頭目，令自己陷入嚴重危險。",
+        "starter": "The",
+        "answer": "The reporter walked into the lion’s mouth by questioning the dangerous gang leader alone.",
+        "answerZh": "記者獨自質問危險的黑幫頭目，令自己走進了嚴重險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q03",
+        "number": 3,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Both sides blamed Priya for the mistake, leaving her in a highly dangerous position.",
+        "promptZh": "雙方都把錯誤歸咎於普莉雅，令她陷入極危險的處境。",
+        "starter": "Priya",
+        "answer": "Priya was in the lion’s mouth when both sides blamed her for the mistake.",
+        "answerZh": "雙方都把錯誤歸咎於普莉雅，令她身陷極危險的處境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q04",
+        "number": 4,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Marcus entered the unsafe empty building alone, putting himself in serious danger.",
+        "promptZh": "馬庫斯獨自進入那座不安全的空置建築物，令自己身陷險境。",
+        "starter": "By",
+        "answer": "By entering the unsafe empty building alone, Marcus stepped into the lion’s mouth.",
+        "answerZh": "馬庫斯獨自進入那座不安全的空置建築物，走進了嚴重險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q05",
+        "number": 5,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The new worker accused the manager of lying in front of everyone, even though she could lose her job.",
+        "promptZh": "新員工在眾人面前指責經理說謊，儘管她可能因此失去工作。",
+        "starter": "The",
+        "answer": "The new worker put her head in the lion’s mouth by accusing the manager of lying in front of everyone.",
+        "answerZh": "新員工在眾人面前指責經理說謊，明知可能失去工作仍然冒險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q06",
+        "number": 6,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "We ignored the warning and chose to cross the flooded bridge at night.",
+        "promptZh": "我們沒有理會警告，選擇在晚上橫過被洪水淹浸的橋樑。",
+        "starter": "We",
+        "answer": "We headed into the lion’s mouth when we chose to cross the flooded bridge at night.",
+        "answerZh": "我們選擇在晚上橫過被洪水淹浸的橋樑，走進了危險處境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q07",
+        "number": 7,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Ethan went alone to collect money from a violent group, placing himself in great danger.",
+        "promptZh": "伊頓獨自向一個暴力團體追討金錢，令自己陷入極大危險。",
+        "starter": "Going",
+        "answer": "Going alone to collect money from the violent group put Ethan in the lion’s mouth.",
+        "answerZh": "伊頓獨自向暴力團體追討金錢，令自己身陷險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q08",
+        "number": 8,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Lucy knew the customer had threatened several workers, but she agreed to meet him alone.",
+        "promptZh": "露絲知道那名顧客曾威脅多名員工，但仍同意獨自與他會面。",
+        "starter": "Lucy",
+        "answer": "Lucy knew she was walking into the lion’s mouth when she agreed to meet the threatening customer alone.",
+        "answerZh": "露絲知道獨自與曾作出威脅的顧客會面，等於走進危險處境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q09",
+        "number": 9,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The driver refused to use the flooded road and therefore avoided a very dangerous situation.",
+        "promptZh": "司機拒絕使用被洪水淹浸的道路，因而避過了極危險的處境。",
+        "starter": "The",
+        "answer": "The driver stayed out of the lion’s mouth by refusing to use the flooded road.",
+        "answerZh": "司機拒絕使用被洪水淹浸的道路，因而避過了危險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q10",
+        "number": 10,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The firefighters rescued the child moments before the damaged roof fell.",
+        "promptZh": "消防員在受損的屋頂倒塌前一刻救出了孩子。",
+        "starter": "The",
+        "answer": "The firefighters pulled the child out of the lion’s mouth before the damaged roof fell.",
+        "answerZh": "消防員在受損屋頂倒塌前，把孩子從險境中救出。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q11",
+        "number": 11,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "At every team meeting, Oliver asks the difficult questions that everyone else avoids, although the boss dislikes them.",
+        "promptZh": "在每次團隊會議中，奧利華都會提出其他人迴避的尖銳問題，儘管老闆不喜歡這些問題。",
+        "starter": "Oliver",
+        "answer": "Oliver puts his head into the lion’s mouth at every team meeting by asking the difficult questions that everyone else avoids.",
+        "answerZh": "奧利華在每次團隊會議上都提出其他人迴避的尖銳問題，明知有風險仍然發言。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q12",
+        "number": 12,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The student may be placing herself in serious danger by accusing the popular coach without proof.",
+        "promptZh": "該學生在沒有證據的情況下指控受歡迎的教練，可能正令自己陷入嚴重危險。",
+        "starter": "The",
+        "answer": "The student may be putting her head in the lion’s mouth by accusing the popular coach without proof.",
+        "answerZh": "該學生在沒有證據下指控受歡迎的教練，可能正在令自己陷入嚴重危險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q13",
+        "number": 13,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: I want to accuse the whole group now. B: Doing that alone could place you in serious danger.",
+        "promptZh": "甲：我現在想指控整個團體。 乙：你獨自行動，可能會令自己陷入嚴重危險。",
+        "starter": "You",
+        "answer": "You could be walking into the lion’s mouth if you accuse the whole group alone.",
+        "answerZh": "如果你獨自指控整個團體，便可能正在走進危險處境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q14",
+        "number": 14,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The safety team closed the road before the storm and prevented us from entering a dangerous situation.",
+        "promptZh": "安全小組在暴風雨來臨前封閉道路，防止我們走進危險處境。",
+        "starter": "The",
+        "answer": "The safety team kept us out of the lion’s mouth by closing the road before the storm.",
+        "answerZh": "安全小組在暴風雨前封閉道路，令我們避過危險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q15",
+        "number": 15,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Tomorrow, the lawyer will face a powerful witness whose friends have threatened her.",
+        "promptZh": "明天，律師將會盤問一名有權勢的證人，而該證人的朋友曾威脅她。",
+        "starter": "Tomorrow",
+        "answer": "Tomorrow, the lawyer will step into the lion’s mouth when she questions the powerful witness whose friends threatened her.",
+        "answerZh": "明天，律師盤問那名朋友曾威脅她的有權勢證人時，將會走進險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q16",
+        "number": 16,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "If you share the secret online, dangerous people may begin targeting you.",
+        "promptZh": "如果你在網上公開這項秘密，危險人物可能會開始針對你。",
+        "starter": "By",
+        "answer": "By sharing the secret online, you could put your head into the lion’s mouth.",
+        "answerZh": "你如果在網上公開秘密，可能會令自己身陷嚴重危險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q17",
+        "number": 17,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The shop owner signed the deal before discovering that the men involved were dangerous.",
+        "promptZh": "店主簽署協議後，才發現參與其中的男子十分危險。",
+        "starter": "The",
+        "answer": "The shop owner had already stepped into the lion’s mouth by signing the deal before he discovered that the men were dangerous.",
+        "answerZh": "店主在發現那些男子十分危險前已簽署協議，令自己陷入險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q18",
+        "number": 18,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Will you enter the warehouse alone? B: No. The men inside have already threatened me.",
+        "promptZh": "甲：你會獨自進入貨倉嗎？ 乙：不會。裡面的人已經威脅過我。",
+        "starter": "I",
+        "answer": "I do not want to walk straight into the lion’s mouth by entering the warehouse alone.",
+        "answerZh": "我不想獨自進入貨倉，直接走進危險處境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q19",
+        "number": 19,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "An honest email can sometimes expose its writer to serious danger when powerful people want the truth hidden.",
+        "promptZh": "一封誠實的電郵有時會令作者陷入嚴重危險，尤其是有權勢的人希望隱瞞真相時。",
+        "starter": "One",
+        "answer": "One honest email can sometimes put its writer in the lion’s mouth when powerful people want the truth hidden.",
+        "answerZh": "當有權勢的人希望隱瞞真相時，一封誠實的電郵有時會令作者身陷險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q20",
+        "number": 20,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The guide warned that continuing through the forest after dark might take us into serious danger.",
+        "promptZh": "導遊警告，在天黑後繼續穿過森林，可能會令我們陷入嚴重危險。",
+        "starter": "The",
+        "answer": "The guide warned that we might be heading into the lion’s mouth if we continued through the forest after dark.",
+        "answerZh": "導遊警告，如果我們在天黑後繼續穿過森林，便可能正走向危險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q21",
+        "number": 21,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: The board members are furious about our mistake. B: I know, but somebody must go in and explain it to them.",
+        "promptZh": "甲：董事會成員對我們的錯誤非常憤怒。 乙：我知道，但必須有人進去向他們解釋。",
+        "starter": "I’ll",
+        "answer": "I’ll put my head into the lion’s mouth and explain our mistake to the furious board members.",
+        "answerZh": "我會冒險向憤怒的董事會成員解釋我們的錯誤。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q22",
+        "number": 22,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A popular group was attacking anyone who supported the new student. Chloe still defended him publicly.",
+        "promptZh": "一個受歡迎的團體正在攻擊所有支持新生的人，但高露仍公開為他辯護。",
+        "starter": "By",
+        "answer": "By publicly defending the new student, Chloe put her head into the lion’s mouth.",
+        "answerZh": "高露公開為新生辯護，明知有風險仍然把自己置於危險處境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q23",
+        "number": 23,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Adam’s friends repeatedly warned him that the deal was unsafe. Nevertheless, he signed it.",
+        "promptZh": "亞當的朋友多次警告他這項交易並不安全，但他仍然簽署了協議。",
+        "starter": "Despite",
+        "answer": "Despite his friends’ repeated warnings, Adam walked into the lion’s mouth by signing the unsafe deal.",
+        "answerZh": "儘管朋友多次警告，亞當仍簽署不安全的協議，走進了險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q24",
+        "number": 24,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The path ahead passes through an area where armed thieves are waiting. Taking it would place us in immediate danger.",
+        "promptZh": "前面的道路會經過有武裝賊人埋伏的地區。選擇該路線會令我們立即陷入危險。",
+        "starter": "Taking",
+        "answer": "Taking that path would lead us straight into the lion’s mouth.",
+        "answerZh": "選擇那條有武裝賊人埋伏的道路，會令我們直接陷入危險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q25",
+        "number": 25,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The nurse knew that senior staff might punish her, but she reported the serious mistakes.",
+        "promptZh": "護士知道高級職員可能會懲罰她，但她仍然報告了那些嚴重錯誤。",
+        "starter": "The",
+        "answer": "The nurse knew she was putting her head into the lion’s mouth by reporting the serious mistakes to senior staff.",
+        "answerZh": "護士知道向高級職員報告嚴重錯誤可能令自己受罰，但仍然決定冒險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q26",
+        "number": 26,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The frightened witness felt trapped and in serious danger inside the closed room.",
+        "promptZh": "受驚的證人身處密閉房間，感到被困並面對嚴重危險。",
+        "starter": "To",
+        "answer": "To the frightened witness, the closed room felt like the lion’s mouth.",
+        "answerZh": "對受驚的證人而言，那個密閉房間彷彿是一個危機四伏的地方。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q27",
+        "number": 27,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A violent group had surrounded the family’s home. The police took the family out through the back door.",
+        "promptZh": "一個暴力團體包圍了這個家庭的住所。警察經後門把他們帶走。",
+        "starter": "The",
+        "answer": "The police pulled the family out of the lion’s mouth by taking them through the back door.",
+        "answerZh": "警察經後門把這個家庭帶走，令他們逃離被暴力團體包圍的險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q28",
+        "number": 28,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The climbers turned back before the snowstorm arrived and avoided a very dangerous situation.",
+        "promptZh": "登山者在暴風雪來臨前折返，避過了極危險的處境。",
+        "starter": "By",
+        "answer": "By turning back before the snowstorm arrived, the climbers stayed out of the lion’s mouth.",
+        "answerZh": "登山者在暴風雪來臨前折返，因而避過了危險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q29",
+        "number": 29,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "An employee publicly questioned a senior director and placed his job in serious danger.",
+        "promptZh": "一名員工公開質疑高級董事，令自己的工作面臨嚴重危機。",
+        "starter": "The",
+        "answer": "The employee’s public challenge to the senior director put him in the lion’s mouth at work.",
+        "answerZh": "該員工公開質疑高級董事，令自己的工作陷入嚴重危機。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q30",
+        "number": 30,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Everyone says that meeting the owner alone is extremely risky. B: I still need to ask him for the money he owes us.",
+        "promptZh": "甲：所有人都說獨自與東主會面極為危險。 乙：我仍然需要向他追討欠我們的款項。",
+        "starter": "Then",
+        "answer": "Then you are choosing to put your head into the lion’s mouth by meeting the owner alone.",
+        "answerZh": "那麼，你選擇獨自與東主會面，便是在明知有風險下走進險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q31",
+        "number": 31,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Although Lena understood the danger, she faced the angry crowd alone and spoke first.",
+        "promptZh": "雖然蓮娜明白當中的危險，但她仍然獨自面對憤怒的人群並率先發言。",
+        "starter": "Although",
+        "answer": "Although Lena understood the danger, she stepped into the lion’s mouth by facing the angry crowd alone.",
+        "answerZh": "雖然蓮娜明白當中的危險，但她仍然獨自面對憤怒的人群，走進險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q32",
+        "number": 32,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The team ignored the warning and entered the damaged tunnel. They soon found themselves in serious danger.",
+        "promptZh": "團隊沒有理會警告，進入了受損的隧道。他們很快便發現自己身陷險境。",
+        "starter": "Because",
+        "answer": "Because the team ignored the warning and entered the damaged tunnel, they found themselves in the lion’s mouth.",
+        "answerZh": "團隊沒有理會警告並進入受損隧道，因此發現自己身陷險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q33",
+        "number": 33,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The meeting may become dangerous. Before entering, make sure that somebody knows where you are going.",
+        "promptZh": "會面可能會變得危險。進去前，確保有人知道你要前往哪裡。",
+        "starter": "Before",
+        "answer": "Before you put your head into the lion’s mouth, make sure somebody knows about the dangerous meeting.",
+        "answerZh": "在你冒險參與這次危險會面前，先確保有人知道此事。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q34",
+        "number": 34,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The journalist did not realise that asking about the missing money would place her in immediate danger.",
+        "promptZh": "記者沒有察覺，追問失蹤款項會令她立即陷入危險。",
+        "starter": "The",
+        "answer": "The journalist did not realise that asking about the missing money would take her straight into the lion’s mouth.",
+        "answerZh": "記者沒有察覺，追問失蹤款項會令她直接陷入危險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q35",
+        "number": 35,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Ravi plans to speak to the criminals without police support. If he does so, he will knowingly enter a dangerous situation.",
+        "promptZh": "拉維計劃在沒有警方支援下與罪犯交談。如果他這樣做，便會明知故犯地走進危險處境。",
+        "starter": "If",
+        "answer": "If Ravi speaks to the criminals without police support, he will be walking into the lion’s mouth.",
+        "answerZh": "如果拉維在沒有警方支援下與罪犯交談，便會明知故犯地走進危險處境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q36",
+        "number": 36,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Have you decided to report the cheating? B: Yes, although I may lose my place on the team.",
+        "promptZh": "甲：你決定舉報作弊事件了嗎？ 乙：是的，儘管我可能會失去隊中的位置。",
+        "starter": "I",
+        "answer": "I know I may be putting my head into the lion’s mouth, but I have to report the cheating.",
+        "answerZh": "我知道舉報作弊事件可能會令自己身陷險境，但我必須這樣做。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q37",
+        "number": 37,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The repair appeared simple at first, but it placed the workers in serious danger when the wall began to fall.",
+        "promptZh": "維修工作最初看似簡單，但牆壁開始倒塌時，工人便陷入了嚴重危險。",
+        "starter": "What",
+        "answer": "What looked like a simple repair led the workers into the lion’s mouth when the wall began to fall.",
+        "answerZh": "原本看似簡單的維修，在牆壁開始倒塌時令工人陷入嚴重危險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q38",
+        "number": 38,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The family had already escaped from a dangerous wildfire once. They therefore refused to return to the damaged valley.",
+        "promptZh": "這個家庭曾經從危險的山火中逃生，因此拒絕返回受災的山谷。",
+        "starter": "Having",
+        "answer": "Having escaped the lion’s mouth once, the family refused to return to the fire-damaged valley.",
+        "answerZh": "這個家庭曾從山火險境中逃生，因此拒絕返回受災山谷。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q39",
+        "number": 39,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "At first, the journey seemed safe. By sunset, rising water had surrounded our car.",
+        "promptZh": "旅程最初看似安全。到了日落時分，上升的洪水已包圍我們的汽車。",
+        "starter": "At",
+        "answer": "At first, the journey seemed safe; by sunset, however, we were in the lion’s mouth with water rising around the car.",
+        "answerZh": "旅程最初看似安全；然而到了日落時分，洪水在汽車四周上升，我們已經身陷險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q40",
+        "number": 40,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: The client has threatened every worker who disagreed with him. B: In that case, meeting him alone would be extremely dangerous.",
+        "promptZh": "甲：那名客戶曾威脅所有反對他的員工。 乙：既然如此，獨自與他會面便會極為危險。",
+        "starter": "Then",
+        "answer": "Then meeting the threatening client alone would be like putting your head into the lion’s mouth.",
+        "answerZh": "既然那名客戶曾威脅員工，獨自與他會面便等於故意把自己置於險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q41",
+        "number": 41,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The visitors believed that they were attending a real job interview. Only after the doors were locked did they understand the danger.",
+        "promptZh": "訪客以為自己正在參加真正的求職面試。直到門被鎖上後，他們才明白當中的危險。",
+        "starter": "Only",
+        "answer": "Only after the doors were locked did the visitors realise that they had walked into the lion’s mouth at the fake job interview.",
+        "answerZh": "直到門被鎖上後，訪客才發現自己在假求職面試中走進了險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q42",
+        "number": 42,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The speaker had forbidden questions about the missing money. The host knowingly asked one in front of the whole audience.",
+        "promptZh": "講者禁止任何人追問失蹤款項，但主持人明知有風險，仍在全場觀眾面前提出問題。",
+        "starter": "By",
+        "answer": "By asking the forbidden question in front of the whole audience, the host put his head into the lion’s mouth.",
+        "answerZh": "主持人在全場觀眾面前提出被禁止的問題，明知有風險仍然冒險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q43",
+        "number": 43,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The school cancelled the unsafe trip before the storm and prevented several pupils from entering serious danger.",
+        "promptZh": "學校在暴風雨來臨前取消了不安全的旅程，避免多名學生走進嚴重危險。",
+        "starter": "The",
+        "answer": "The school kept several pupils out of the lion’s mouth by cancelling the unsafe trip before the storm.",
+        "answerZh": "學校在暴風雨前取消不安全的旅程，令多名學生避過危險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q44",
+        "number": 44,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Aaron’s false friend arranged a meeting with a group of thieves and then disappeared. Aaron understood the danger only afterwards.",
+        "promptZh": "亞倫的假朋友安排他與一群賊人會面，之後便消失了。亞倫事後才明白當中的危險。",
+        "starter": "Not",
+        "answer": "Not until his false friend disappeared did Aaron realise that he had been led into the lion’s mouth at a meeting with thieves.",
+        "answerZh": "直到假朋友消失後，亞倫才發現自己被帶到與賊人會面的危險處境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q45",
+        "number": 45,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: The company wants you to blame the customer for its own mistake. B: I will refuse, even though that decision may place me in danger.",
+        "promptZh": "甲：公司希望你把自己的錯誤歸咎於顧客。 乙：我會拒絕，儘管這個決定可能令我陷入危險。",
+        "starter": "Refusing",
+        "answer": "Refusing to blame the customer may put me in the lion’s mouth, but lying would be worse.",
+        "answerZh": "拒絕把責任推卸給顧客可能令我陷入危險，但說謊會更加惡劣。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q46",
+        "number": 46,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The police may arrive soon, but the shopkeeper remains in serious danger while the angry crowd blocks the exit.",
+        "promptZh": "警察可能很快便會到達，但在憤怒人群堵塞出口期間，店主仍然身陷嚴重危險。",
+        "starter": "Even",
+        "answer": "Even if the police arrive soon, the shopkeeper is still in the lion’s mouth while the angry crowd blocks the exit.",
+        "answerZh": "即使警察很快到達，在憤怒人群堵塞出口期間，店主仍然身陷險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q47",
+        "number": 47,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The other team members were afraid to face the angry clients, so they tried to force one junior worker to do it alone.",
+        "promptZh": "其他團隊成員害怕面對憤怒的客戶，因此企圖強迫一名初級員工獨自處理。",
+        "starter": "No",
+        "answer": "No one should be pushed into the lion’s mouth simply because the rest of the team is afraid to face the angry clients.",
+        "answerZh": "不應只因其他團隊成員害怕面對憤怒的客戶，便強迫某個人獨自走進險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q48",
+        "number": 48,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The guard opened the back door and helped the workers escape from the burning shop. Without his action, they might still be in serious danger.",
+        "promptZh": "守衛打開後門，協助工人逃離正在燃燒的店舖。沒有他的行動，他們可能仍然身陷險境。",
+        "starter": "Had",
+        "answer": "Had the guard not opened the back door, the workers might still be in the lion’s mouth inside the burning shop.",
+        "answerZh": "如果守衛沒有打開後門，工人可能仍然被困在燃燒中的店舖，身陷險境。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q49",
+        "number": 49,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Two angry groups were about to fight over the mayor’s plan, but the mayor gave a speech that calmed both sides.",
+        "promptZh": "兩個憤怒的群體幾乎因市長的計劃發生衝突，但市長發表演說，令雙方冷靜下來。",
+        "starter": "The",
+        "answer": "The mayor’s speech saved her from the lion’s mouth by calming both angry groups.",
+        "answerZh": "市長的演說令兩個憤怒的群體冷靜下來，使她避過了嚴重危機。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      },
+      {
+        "id": "idiom-30-q50",
+        "number": 50,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Sofia knew that telling the truth about the dangerous company could harm her, but remaining silent would allow more people to suffer.",
+        "promptZh": "蘇菲亞知道揭露這間危險公司的真相可能會令自己受害，但保持沉默會令更多人受苦。",
+        "starter": "Knowing",
+        "answer": "Knowing that silence would hurt more people, Sofia deliberately put her head into the lion’s mouth by telling the truth about the dangerous company.",
+        "answerZh": "蘇菲亞知道沉默會令更多人受害，因此仍然揭露危險公司的真相，明知有風險也決定冒險。",
+        "targetForm": "The Lion’s Mouth",
+        "targetMeaning": "A highly dangerous, threatening or hostile situation, especially one that somebody knowingly enters or becomes trapped in.",
+        "highlight": "the lion’s mouth"
+      }
+    ]
+  }
+}

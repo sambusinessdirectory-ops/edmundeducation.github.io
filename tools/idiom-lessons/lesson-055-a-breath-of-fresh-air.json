@@ -1,0 +1,1454 @@
+{
+  "lesson": {
+    "id": "idiom-55",
+    "order": 55,
+    "slug": "a-breath-of-fresh-air",
+    "version": "1",
+    "title": "令人耳目一新／令人精神一振",
+    "titleEn": "a breath of fresh air",
+    "titleZh": "令人耳目一新／令人精神一振",
+    "source": {
+      "file": "Idiom 55 - 「A Breath of Fresh Air」.pdf",
+      "pageCount": 29,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "exercisePdfPages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "answerKeyPdfPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a breath of fresh air",
+        "highlight": "a breath of fresh air"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The new teacher is a breath of fresh air.",
+        "zh": "新老師令人耳目一新。",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "en": "The quiet hotel felt like a breath of fresh air after the noisy one.",
+        "zh": "住過嘈吵的酒店後，這間安靜的酒店令人感到耳目一新。",
+        "highlight": "a breath of fresh air"
+      }
+    ],
+    "meaning": {
+      "en": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+      "zh": "一個人物、想法、風格、體驗或轉變，因為比原有情況更新鮮、更有活力、更清晰或更正面，所以令人感到耳目一新、精神一振或帶來新氣象。",
+      "naturalZh": [
+        "令人耳目一新",
+        "令人精神一振",
+        "帶來新氣象",
+        "帶來令人欣喜的轉變",
+        "令人感到新鮮而愉快"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; workplace discussion; interviews; reviews; presentations; news and magazine writing; general descriptive writing.",
+      "summaryZh": "這個表達屬於中性至較口語的用法，帶有明顯的正面評價。",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace discussion",
+        "interviews",
+        "reviews",
+        "presentations",
+        "news and magazine writing",
+        "general descriptive writing",
+        "a person",
+        "an idea",
+        "an attitude",
+        "a teaching style",
+        "a design"
+      ],
+      "contextsZh": [],
+      "formalEn": "In highly formal academic, legal or technical writing, a more direct expression such as a welcome change may sometimes be more suitable.",
+      "formalZh": "這五個字必須按照原有次序使用。"
+    },
+    "fixedVariable": {
+      "fixed": "a breath of fresh air",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "X + be + a breath of fresh air.",
+          "example": "The new teacher is a breath of fresh air.",
+          "highlight": "a breath of fresh air"
+        },
+        {
+          "form": "X + feel / seem + like a breath of fresh air.",
+          "example": "The quiet hotel felt like a breath of fresh air after the noisy one.",
+          "highlight": "a breath of fresh air"
+        },
+        {
+          "form": "X + come + as a breath of fresh air.",
+          "example": "Her clear reply came as a breath of fresh air after several confusing messages.",
+          "highlight": "a breath of fresh air"
+        },
+        {
+          "form": "X + bring + a breath of fresh air + to + place / group / activity.",
+          "example": "The new coach has brought a breath of fresh air to the team.",
+          "highlight": "a breath of fresh air"
+        },
+        {
+          "form": "It + be + a breath of fresh air + to + verb.",
+          "example": "It was a breath of fresh air to hear such an honest answer.",
+          "highlight": "a breath of fresh air"
+        },
+        {
+          "form": "Subject + see / describe + X + as + a breath of fresh air.",
+          "example": "Many readers see her writing style as a breath of fresh air.",
+          "highlight": "a breath of fresh air"
+        },
+        {
+          "form": "What a breath of fresh air + subject + be!",
+          "example": "What a breath of fresh air his honest reply was!",
+          "highlight": "a breath of fresh air"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Form",
+        "titleZh": "句式一：基本形式",
+        "formula": "X + be + a breath of fresh air.",
+        "descriptionEn": "Source grammar frame: X + be + a breath of fresh air.",
+        "descriptionZh": "原檔列出的句法框架：X + be + a breath of fresh air。",
+        "examples": [
+          {
+            "en": "The new teacher is a breath of fresh air.",
+            "zh": "新老師令人耳目一新。",
+            "highlight": "a breath of fresh air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Describing an Experience",
+        "titleZh": "句式二：描述感受",
+        "formula": "X + feel / seem + like a breath of fresh air.",
+        "descriptionEn": "Source grammar frame: X + feel / seem + like a breath of fresh air.",
+        "descriptionZh": "原檔列出的句法框架：X + feel / seem + like a breath of fresh air。",
+        "examples": [
+          {
+            "en": "The quiet hotel felt like a breath of fresh air after the noisy one.",
+            "zh": "住過嘈吵的酒店後，這間安靜的酒店令人感到耳目一新。",
+            "highlight": "a breath of fresh air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Describing a Welcome Arrival",
+        "titleZh": "句式三：描述令人欣喜的出現",
+        "formula": "X + come + as a breath of fresh air.",
+        "descriptionEn": "Source grammar frame: X + come + as a breath of fresh air.",
+        "descriptionZh": "原檔列出的句法框架：X + come + as a breath of fresh air。",
+        "examples": [
+          {
+            "en": "Her clear reply came as a breath of fresh air after several confusing messages.",
+            "zh": "收到幾封令人混亂的訊息後，她清楚的回覆令人精神一振。",
+            "highlight": "a breath of fresh air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Describing an Effect on a Place or Group",
+        "titleZh": "句式四：描述對地方或團體帶來的影響",
+        "formula": "X + bring + a breath of fresh air + to + place / group / activity.",
+        "descriptionEn": "Source grammar frame: X + bring + a breath of fresh air + to + place / group / activity.",
+        "descriptionZh": "原檔列出的句法框架：X + bring + a breath of fresh air + to + place / group / activity。",
+        "examples": [
+          {
+            "en": "The new coach has brought a breath of fresh air to the team.",
+            "zh": "新教練為球隊帶來了新氣象。",
+            "highlight": "a breath of fresh air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Refreshing to Experience Something",
+        "titleZh": "句式五：說明某種體驗令人精神一振",
+        "formula": "It + be + a breath of fresh air + to + verb.",
+        "descriptionEn": "Source grammar frame: It + be + a breath of fresh air + to + verb.",
+        "descriptionZh": "原檔列出的句法框架：It + be + a breath of fresh air + to + verb。",
+        "examples": [
+          {
+            "en": "It was a breath of fresh air to hear such an honest answer.",
+            "zh": "聽到如此坦白的回答，令人精神一振。",
+            "highlight": "a breath of fresh air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Reporting an Evaluation",
+        "titleZh": "句式六：轉述評價",
+        "formula": "Subject + see / describe + X + as + a breath of fresh air.",
+        "descriptionEn": "Source grammar frame: Subject + see / describe + X + as + a breath of fresh air.",
+        "descriptionZh": "原檔列出的句法框架：Subject + see / describe + X + as + a breath of fresh air。",
+        "examples": [
+          {
+            "en": "Many readers see her writing style as a breath of fresh air.",
+            "zh": "很多讀者都認為她的文風令人耳目一新。",
+            "highlight": "a breath of fresh air"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Exclamatory Form",
+        "titleZh": "句式七：感嘆句",
+        "formula": "What a breath of fresh air + subject + be!",
+        "descriptionEn": "Source grammar frame: What a breath of fresh air + subject + be!.",
+        "descriptionZh": "原檔列出的句法框架：What a breath of fresh air + subject + be!。",
+        "examples": [
+          {
+            "en": "What a breath of fresh air his honest reply was!",
+            "zh": "他坦白的回答實在令人精神一振！",
+            "highlight": "a breath of fresh air"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses a Welcome Change Compactly",
+        "titleZh": "簡潔表達令人欣喜的轉變",
+        "en": "The new teacher’s style is a breath of fresh air.",
+        "zh": "這個慣用語可以把「與過往不同，而且這個轉變令人欣喜」的意思集中在一個短語之中。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Communicates Positive Attitude",
+        "titleZh": "表達正面態度",
+        "en": "The expression does not merely say that something is different. It shows that the speaker welcomes and appreciates the difference.",
+        "zh": "這個表達不只是說明某件事物與以前不同，還會顯示說話者欣賞和歡迎這個轉變。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Creates a Clear Past–Present Contrast",
+        "titleZh": "清楚對比過去和現在",
+        "en": "dull lessons; repetitive meetings; confusing messages; poor service; overly serious programmes; years of doing the same thing.",
+        "zh": "它可以清楚突出原有情況與新情況之間的正面反差。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Praise People, Ideas and Experiences",
+        "titleZh": "可用來稱讚不同類型的人物或事物",
+        "en": "a cheerful new colleague; an honest answer; a simple new design; a supportive teaching style; a calm interview; an enjoyable new programme.",
+        "zh": "它不只可以形容人物，也可以形容想法、回答、設計、服務、風格或體驗。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful in Conversation and Reviews",
+        "titleZh": "適合用於對話及評論",
+        "en": "The film was a breath of fresh air.",
+        "zh": "這個表達很適合用於討論新同事、新服務、新節目、新設計或其他令人欣喜的改變。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Helps Learners Understand Authentic English",
+        "titleZh": "幫助理解真實英語",
+        "en": "The expression commonly appears in conversations, interviews, reviews and general commentary. Learning it helps students understand the positive evaluation behind the words. However, an idiom is not automatically better than a plain expression. Use it only when the situation genuinely involves a welcome and pleasantly different change.",
+        "zh": "這個慣用語常見於對話、訪問、評論及一般報道。 掌握它有助學生理解說話者所表達的正面評價。 不過，慣用語並不一定比普通表達更好。 只有當語境確實涉及令人欣喜而耳目一新的轉變時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Idiomatic Use Uncertain",
+      "statusZh": "逐漸形成；確切首次慣用用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The literal wording is older than the figurative meaning. An 1850 issue of Harper’s used it literally when describing someone who had been unable to enjoy outdoor air for months. Reference works place the figurative sense—meaning a welcome new person, idea or change—in the mid-nineteenth century, although the exact first speaker or first use is not known.",
+          "zh": "這個短語的字面用法早於比喻用法。 1850年的 Harper’s 曾以字面意思使用這個短語，描述某人數月未能享受戶外空氣。 參考資料顯示，它在十九世紀中期已逐漸出現比喻用法，用來表示一個令人欣喜的新人物、想法或轉變； 不過，確切的第一位使用者及首次用法仍然不明。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Speakers transferred the refreshing physical effect of clean air to social situations. Just as fresh air can make a closed room feel better, a new person, idea or approach can make a dull or repetitive situation feel lively again.",
+          "zh": "說話者逐漸把新鮮空氣令人精神一振的身體感受，轉移到社交及日常情境之中。 正如清新空氣能改善封閉房間的感覺，一個新人物、想法或做法也可以令沉悶或重複的情況再次充滿活力。"
+        }
+      ],
+      "memoryEn": "Fresh air refreshes a closed room; a welcome new person or idea refreshes a tired situation.",
+      "memoryZh": "新鮮空氣令封閉房間煥然一新；令人欣喜的新人物或想法則令沉悶的情況出現新氣象。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use the Complete Fixed Expression",
+        "titleZh": "規則一：完整使用固定表達",
+        "en": "Use the Complete Fixed Expression",
+        "zh": "完整使用固定表達",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use Breath, Not Breathe",
+        "titleZh": "規則二：使用 breath，而不是 breathe",
+        "en": "Use Breath, Not Breathe",
+        "zh": "使用 breath，而不是 breathe",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Keep the Complement Singular",
+        "titleZh": "規則三：補語保持單數形式",
+        "en": "Keep the Complement Singular",
+        "zh": "補語保持單數形式",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Change Must Be Welcome",
+        "titleZh": "規則四：轉變必須令人欣喜",
+        "en": "The Change Must Be Welcome",
+        "zh": "轉變必須令人欣喜",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Establish What Makes It Different",
+        "titleZh": "規則五：清楚交代新舊對比",
+        "en": "Establish What Makes It Different",
+        "zh": "清楚交代新舊對比",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "New Does Not Automatically Mean Refreshing",
+        "titleZh": "規則六：新事物不一定令人耳目一新",
+        "en": "The change should also feel positive, welcome or pleasantly different.",
+        "zh": "不要因為某件事物是新的，便自動使用這個慣用語。 語境必須顯示這個轉變令人欣喜或感覺良好。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則七：保留時態及確定程度",
+        "en": "Preserve Tense and Certainty",
+        "zh": "保留時態及確定程度",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Distinguish the Idiomatic and Literal Meanings",
+        "titleZh": "規則八：分辨慣用意思及字面意思",
+        "en": "Distinguish the Idiomatic and Literal Meanings",
+        "zh": "我到外面呼吸一下新鮮空氣。 她坦白的回答令人精神一振。",
+        "examples": [
+          {
+            "en": "I went outside for a breath of fresh air.",
+            "zh": "我到外面呼吸一下新鮮空氣。",
+            "highlight": "a breath of fresh air"
+          },
+          {
+            "en": "Her honest reply was a breath of fresh air.",
+            "zh": "她坦白的回答令人精神一振。",
+            "highlight": "a breath of fresh air"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Use It with Suitable Subjects",
+        "titleZh": "規則九：配合合適的主語",
+        "en": "Use It with Suitable Subjects",
+        "zh": "配合合適的主語",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Translate It Word for Word",
+        "titleZh": "規則十：不要逐字翻譯",
+        "en": "In an idiomatic context, do not normally translate it as: Use a meaning-based translation such as:",
+        "zh": "一口新鮮空氣令人耳目一新； 帶來新氣象； 令人精神一振； 帶來可喜轉變。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Confuse It with Similar Expressions",
+        "titleZh": "規則十一：不要與相近表達混淆",
+        "en": "Do Not Confuse It with Similar Expressions",
+        "zh": "不要與相近表達混淆",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則十二：自然使用，不要過度使用",
+        "en": "The expression is useful when a clear, positive contrast exists. A plain expression such as new, different, enjoyable or a welcome change may be clearer when no strong contrast is needed.",
+        "zh": "這個慣用語適合用於存在明顯正面對比的情況。 如果不需要突出新舊反差，直接使用 new、 different、enjoyable 或 a welcome change 可能會更加清楚。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a breath of fresh air.",
+      "zh": "使用 a breath of fresh air 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-55-q01",
+        "number": 1,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "For months, the lessons were dull. The new teacher’s lively style feels pleasantly different.",
+        "promptZh": "過去數月，課堂十分沉悶。新老師生動的教學方式令人感到耳目一新。",
+        "starter": "The",
+        "answer": "The new teacher’s lively style is a breath of fresh air after months of dull lessons.",
+        "answerZh": "經過數月沉悶的課堂後，新老師生動的教學方式令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q02",
+        "number": 2,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The office is usually quiet and serious, but Ella’s cheerful attitude makes it feel more lively.",
+        "promptZh": "辦公室平日安靜而嚴肅，但艾拉開朗的態度令氣氛變得更有活力。",
+        "starter": "Ella’s",
+        "answer": "Ella’s cheerful attitude is a breath of fresh air in the quiet office.",
+        "answerZh": "艾拉開朗的態度為安靜的辦公室帶來一股新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q03",
+        "number": 3,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The old website was crowded and hard to use. This new simple design is a welcome change.",
+        "promptZh": "舊網站畫面擠迫，而且難以使用。這個簡單的新設計帶來了令人欣喜的轉變。",
+        "starter": "This",
+        "answer": "This simple website design is a breath of fresh air after the crowded old one.",
+        "answerZh": "與擠迫的舊設計相比，這個簡單的網站設計令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q04",
+        "number": 4,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "For weeks, people only gave excuses. Daniel finally answered honestly, and everyone welcomed the change.",
+        "promptZh": "幾個星期以來，大家只是不斷找藉口。丹尼爾終於坦白回答，大家都很欣賞這個轉變。",
+        "starter": "Daniel’s",
+        "answer": "Daniel’s honest reply was a breath of fresh air after weeks of excuses.",
+        "answerZh": "經過幾個星期的藉口後，丹尼爾坦白的回答令人精神一振。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q05",
+        "number": 5,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The café had offered almost the same food for years. Its new menu feels pleasantly different.",
+        "promptZh": "這間咖啡店多年來提供的食物幾乎沒有改變。新餐牌帶來了令人愉快的新鮮感。",
+        "starter": "The",
+        "answer": "The new café menu is a breath of fresh air after years of almost the same choices.",
+        "answerZh": "多年來選擇幾乎一成不變，這份新餐牌令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q06",
+        "number": 6,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The staff used to spend hours in meetings. The new shorter meetings are a welcome change for them.",
+        "promptZh": "員工以往要花幾個小時開會。現在較短的會議對他們來說是令人欣喜的轉變。",
+        "starter": "The",
+        "answer": "The shorter team meetings are a breath of fresh air for the busy staff.",
+        "answerZh": "對忙碌的員工來說，較短的團隊會議帶來了令人欣喜的新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q07",
+        "number": 7,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Most songs in the show were slow and similar. The young singer brought a lively new sound.",
+        "promptZh": "表演中的大部分歌曲都緩慢而相似。這位年輕歌手帶來了充滿活力的新聲音。",
+        "starter": "The",
+        "answer": "The young singer was a breath of fresh air in a show full of slow songs.",
+        "answerZh": "在一場充滿慢歌的表演中，這位年輕歌手令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q08",
+        "number": 8,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The other shop treated us poorly. This shop’s friendly service was a very welcome change.",
+        "promptZh": "另一間店的服務態度很差。這間店友善的服務帶來了非常令人欣喜的轉變。",
+        "starter": "The",
+        "answer": "The shop’s friendly service was a breath of fresh air after our poor experience elsewhere.",
+        "answerZh": "在其他店有過不愉快的經歷後，這間店友善的服務令人精神一振。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q09",
+        "number": 9,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "People in the building rarely spoke to one another. Our new neighbour organises simple meals that bring everyone together.",
+        "promptZh": "大廈裡的人很少互相交談。我們的新鄰居會安排簡單聚餐，把大家聚在一起。",
+        "starter": "Our",
+        "answer": "Our new neighbour is a breath of fresh air because she brings people together.",
+        "answerZh": "我們的新鄰居為大廈帶來新氣象，因為她把大家聚在一起。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q10",
+        "number": 10,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Many family games have difficult rules. This new one is simple, fun and pleasantly different.",
+        "promptZh": "很多家庭遊戲的規則都很複雜。這個新遊戲簡單、有趣，而且帶來令人愉快的新鮮感。",
+        "starter": "The",
+        "answer": "The new game is a breath of fresh air for families tired of complicated rules.",
+        "answerZh": "對厭倦複雜規則的家庭來說，這個新遊戲令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q11",
+        "number": 11,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The students were used to strict and serious art lessons. The new teacher’s relaxed classes felt like a welcome change.",
+        "promptZh": "學生已習慣嚴格而認真的美術課。新老師輕鬆的課堂令人感到是可喜的轉變。",
+        "starter": "The",
+        "answer": "The art teacher’s relaxed classes were a breath of fresh air for the students.",
+        "answerZh": "美術老師輕鬆的課堂令學生耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q12",
+        "number": 12,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Since the new manager joined, the team has felt more positive and open. Her style is a welcome change.",
+        "promptZh": "自從新經理加入後，團隊變得更積極和開放。她的作風帶來了令人欣喜的轉變。",
+        "starter": "The",
+        "answer": "The new manager has been a breath of fresh air since she joined the team.",
+        "answerZh": "新經理加入團隊後，一直為大家帶來新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q13",
+        "number": 13,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Many pupils are tired of the usual after-school activities. The weekend reading club will offer something new and enjoyable.",
+        "promptZh": "很多學生已厭倦平常的課外活動。週末讀書會將會提供新鮮而有趣的體驗。",
+        "starter": "The",
+        "answer": "The weekend reading club will be a breath of fresh air for pupils who want something different.",
+        "answerZh": "對想嘗試不同活動的學生來說，週末讀書會將會令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q14",
+        "number": 14,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Booking a bus ticket is often confusing. The new app may make it much simpler and feel like a welcome change.",
+        "promptZh": "預訂巴士車票往往令人混亂。新應用程式可能會令程序簡單得多，帶來令人欣喜的轉變。",
+        "starter": "The",
+        "answer": "The new bus app could be a breath of fresh air if it makes booking simpler.",
+        "answerZh": "如果新的巴士應用程式令預訂程序更簡單，它可能會帶來令人欣喜的新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q15",
+        "number": 15,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "We received several confusing emails. Then one clear message arrived, and it felt like a welcome change.",
+        "promptZh": "我們收到幾封令人混亂的電郵。後來收到一封清楚的訊息，感覺像是令人欣喜的轉變。",
+        "starter": "The",
+        "answer": "The clear message came as a breath of fresh air after several confusing emails.",
+        "answerZh": "收到幾封令人混亂的電郵後，這封清楚的訊息令人精神一振。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q16",
+        "number": 16,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The first hotel was large and noisy. The small family hotel felt pleasantly different.",
+        "promptZh": "第一間酒店又大又嘈吵。這間小型家庭酒店帶來了令人愉快的新鮮感。",
+        "starter": "The",
+        "answer": "The small family hotel felt like a breath of fresh air after the large, noisy one.",
+        "answerZh": "住過又大又嘈吵的酒店後，這間小型家庭酒店令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q17",
+        "number": 17,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Do you like the new team member’s ideas? B: Yes. They are practical and make our dull planning meetings more lively.",
+        "promptZh": "甲：你喜歡新隊員提出的想法嗎？ 乙：喜歡。這些想法很實際，令沉悶的規劃會議變得更有活力。",
+        "starter": "Yes",
+        "answer": "Yes. The new team member’s practical ideas are a breath of fresh air in our planning meetings.",
+        "answerZh": "喜歡。這位新隊員實際的想法為我們的規劃會議帶來新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q18",
+        "number": 18,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The other doctors used difficult words. Hearing this doctor explain everything simply was a very welcome change.",
+        "promptZh": "其他醫生用了很多艱深的字詞。聽到這位醫生以簡單語言解釋一切，是非常令人欣喜的轉變。",
+        "starter": "It",
+        "answer": "It was a breath of fresh air to hear the doctor explain everything in simple language.",
+        "answerZh": "聽到醫生以簡單語言解釋一切，令人精神一振。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q19",
+        "number": 19,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Most books on the topic feel cold and formal. Readers find this writer’s warm style pleasantly different.",
+        "promptZh": "這個題目的大部分書籍都顯得冷淡而正式。讀者認為這位作家溫暖的文風帶來令人愉快的新鮮感。",
+        "starter": "Many",
+        "answer": "Many readers see the writer’s warm style as a breath of fresh air.",
+        "answerZh": "很多讀者都認為這位作家溫暖的文風令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q20",
+        "number": 20,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The team has lost confidence under a very critical coach. The new coach’s kinder style may bring a welcome change.",
+        "promptZh": "在一位經常批評人的教練帶領下，球隊已失去信心。新教練較友善的作風可能會帶來可喜轉變。",
+        "starter": "The",
+        "answer": "The new coach’s kinder style may be a breath of fresh air for a team that has lost confidence.",
+        "answerZh": "對已失去信心的球隊來說，新教練較友善的作風可能會帶來令人欣喜的新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q21",
+        "number": 21,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Our family dinners often turn into arguments. B: Aunt May is coming this time. She always keeps the conversation positive.",
+        "promptZh": "甲：我們的家庭晚餐經常變成爭吵。 乙：May 姨姨今次會來。她總能令對話保持正面。",
+        "starter": "Aunt",
+        "answer": "Aunt May will be a breath of fresh air at the family dinner because she always keeps the conversation positive.",
+        "answerZh": "May 姨姨總能令對話保持正面，因此她會為這次家庭晚餐帶來新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q22",
+        "number": 22,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The restaurant has served almost the same meals for years. Its new vegetarian dishes are a welcome change.",
+        "promptZh": "這間餐廳多年來幾乎只供應相同的菜式。新推出的素食菜式帶來了令人欣喜的轉變。",
+        "starter": "The",
+        "answer": "The new vegetarian dishes are a breath of fresh air on a menu that has hardly changed for years.",
+        "answerZh": "這份餐牌多年來幾乎沒有改變，新推出的素食菜式令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q23",
+        "number": 23,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The first few customer-service workers hurried through our calls. The next worker listened patiently, which felt pleasantly different.",
+        "promptZh": "最初幾位客戶服務人員都匆忙完成通話。下一位職員耐心聆聽，感覺令人耳目一新。",
+        "starter": "The",
+        "answer": "The customer-service worker’s patient manner was a breath of fresh air after several rushed calls.",
+        "answerZh": "經過幾次匆忙的通話後，這位客戶服務人員耐心的態度令人精神一振。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q24",
+        "number": 24,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Our group has been quiet and serious all term. What do you think of the new student? B: She makes the group feel lively and new.",
+        "promptZh": "甲：我們的小組整個學期都很安靜和嚴肅。你覺得新同學怎樣？ 乙：她令小組變得有活力，帶來新鮮感。",
+        "starter": "I",
+        "answer": "I think the new student is a breath of fresh air in our group.",
+        "answerZh": "我認為這位新同學為我們的小組帶來了新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q25",
+        "number": 25,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Television debates had been angry all week. The calm interview felt like a welcome change.",
+        "promptZh": "電視辯論整個星期都充滿火藥味。這次平靜的訪問令人感到是可喜的轉變。",
+        "starter": "The",
+        "answer": "The calm interview was a breath of fresh air after a week of angry television debates.",
+        "answerZh": "經過一星期充滿火藥味的電視辯論後，這次平靜的訪問令人精神一振。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q26",
+        "number": 26,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Several ideas for the school event cost too much. The pupils then offered a simple plan that felt new and useful.",
+        "promptZh": "幾個學校活動的構思都太昂貴。學生後來提出一個簡單、新鮮而實用的計劃。",
+        "starter": "The",
+        "answer": "The pupils’ simple plan was a breath of fresh air after many ideas that cost too much.",
+        "answerZh": "在多個成本過高的構思之後，學生提出的簡單計劃令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q27",
+        "number": 27,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The family was worried after several unclear conversations. The nurse then explained everything warmly and clearly.",
+        "promptZh": "經過幾次不清楚的對話後，這家人十分擔心。護士其後親切而清楚地解釋一切。",
+        "starter": "The",
+        "answer": "The nurse’s warm explanation was a breath of fresh air for the worried family.",
+        "answerZh": "護士親切的解釋令憂心的家人精神一振。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q28",
+        "number": 28,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Yesterday’s tour was rushed and tiring. Was today’s guide any better? B: Yes. He was relaxed and gave us time to enjoy each place.",
+        "promptZh": "甲：昨天的行程又趕又累。今天的導遊有好一點嗎？ 乙：有。他很從容，也讓我們有時間欣賞每個地方。",
+        "starter": "Yes",
+        "answer": "Yes, our guide’s relaxed style was a breath of fresh air after yesterday’s rushed tour.",
+        "answerZh": "有。經過昨天匆忙的行程後，今天導遊從容的帶領方式令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q29",
+        "number": 29,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Most photo apps hide useful tools inside many menus. This new app makes the main tools easy to find, so it feels pleasantly different.",
+        "promptZh": "大部分相片應用程式都把實用工具藏在多層選單內。這個新程式讓主要工具容易找到，因此帶來令人愉快的新鮮感。",
+        "starter": "The",
+        "answer": "The new photo app feels like a breath of fresh air because its main tools are easy to find.",
+        "answerZh": "這個新的相片應用程式令人耳目一新，因為主要工具很容易找到。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q30",
+        "number": 30,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The old coach often shouted and blamed the players. The new coach encourages them and listens to their ideas.",
+        "promptZh": "舊教練經常大叫和責怪球員。新教練會鼓勵他們，也會聆聽他們的想法。",
+        "starter": "The",
+        "answer": "The new coach’s positive approach has brought a breath of fresh air to the team.",
+        "answerZh": "新教練正面的帶領方式為球隊帶來了新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q31",
+        "number": 31,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The room was formal and quiet, but Leo’s friendly introduction made everyone feel more relaxed.",
+        "promptZh": "房間裡的氣氛正式而安靜，但里奧友善的介紹令大家放鬆了一些。",
+        "starter": "Although",
+        "answer": "Although the room was formal and quiet, Leo’s friendly introduction was a breath of fresh air.",
+        "answerZh": "雖然房間裡的氣氛正式而安靜，但里奧友善的介紹令人精神一振。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q32",
+        "number": 32,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Every speaker had repeated the same points. Ava then suggested a new way to solve the problem, and everyone welcomed it.",
+        "promptZh": "每位發言者都重複相同的觀點。艾娃其後提出一個解決問題的新方法，大家都很歡迎。",
+        "starter": "Because",
+        "answer": "Because every speaker had repeated the same points, Ava’s new suggestion felt like a breath of fresh air.",
+        "answerZh": "由於每位發言者都重複相同的觀點，艾娃的新建議令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q33",
+        "number": 33,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "For years, the school timetable allowed very little choice. The new timetable gives teachers and pupils more choice, and they welcome the change.",
+        "promptZh": "多年來，學校時間表幾乎沒有提供選擇。新時間表讓老師和學生有更多選擇，大家都很歡迎這個轉變。",
+        "starter": "After",
+        "answer": "After years of having little choice, the new timetable has been a breath of fresh air for both teachers and pupils.",
+        "answerZh": "多年來選擇甚少，新時間表為老師和學生帶來了令人欣喜的新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q34",
+        "number": 34,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Why did everyone clap after Ryan spoke? B: After so many safe and careful replies, his honest answer felt wonderfully different.",
+        "promptZh": "甲：為甚麼賴恩發言後，大家都鼓掌？ 乙：在那麼多安全而小心的回答之後，他坦白的答案令人感到非常耳目一新。",
+        "starter": "What",
+        "answer": "What a breath of fresh air Ryan’s honest answer was after all the careful replies!",
+        "answerZh": "在一連串小心翼翼的回答之後，賴恩坦白的答案實在令人精神一振！",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q35",
+        "number": 35,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Since the new manager arrived, she has listened openly and answered questions directly. The staff all say her manner is a welcome change.",
+        "promptZh": "自從新經理上任後，她一直坦誠聆聽，並直接回答問題。員工都說她的作風帶來了可喜轉變。",
+        "starter": "The",
+        "answer": "The staff agree that the new manager’s open manner is a breath of fresh air.",
+        "answerZh": "員工都認為新經理開放坦誠的作風令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q36",
+        "number": 36,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The old programme was slow and serious. In contrast, the new host makes it lively and enjoyable.",
+        "promptZh": "舊節目節奏緩慢而嚴肅。相比之下，新主持令節目變得有活力和有趣。",
+        "starter": "The",
+        "answer": "The old programme was slow and serious, whereas the new host is a breath of fresh air.",
+        "answerZh": "舊節目節奏緩慢而嚴肅，而新主持則令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q37",
+        "number": 37,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "People have followed the same plan for years. The new plan has some problems, but it still feels like a welcome change.",
+        "promptZh": "大家多年來一直遵循相同計劃。新計劃雖然有一些問題，但仍然帶來令人欣喜的轉變。",
+        "starter": "The",
+        "answer": "The new plan is not perfect, but it is still a breath of fresh air after years of doing the same thing.",
+        "answerZh": "新計劃並不完美，但在多年來一直採用相同做法後，它仍然令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q38",
+        "number": 38,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The teacher now lets pupils choose some of the books and topics. This has made the reading lessons feel new and interesting again.",
+        "promptZh": "老師現在讓學生選擇部分書籍和題目。這令閱讀課再次變得新鮮有趣。",
+        "starter": "By",
+        "answer": "By letting pupils choose some books and topics, the teacher has brought a breath of fresh air to the reading lessons.",
+        "answerZh": "老師讓學生選擇部分書籍和題目，為閱讀課帶來了新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q39",
+        "number": 39,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The staff were used to long formal emails. The new manager now sends short, clear messages, which everyone welcomes.",
+        "promptZh": "員工已習慣冗長而正式的電郵。新經理現在發出簡短清楚的訊息，大家都很歡迎。",
+        "starter": "For",
+        "answer": "For staff used to long formal emails, the manager’s short, clear messages are a breath of fresh air.",
+        "answerZh": "對習慣冗長正式電郵的員工來說，經理簡短清楚的訊息令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q40",
+        "number": 40,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: I do not like the new meeting format because it feels too different. B: I do. Everyone now gets a chance to speak, and that is a welcome change.",
+        "promptZh": "甲：我不喜歡新的會議形式，因為它感覺太不一樣。 乙：我倒喜歡。現在每個人都有機會發言，這是令人欣喜的轉變。",
+        "starter": "Actually",
+        "answer": "Actually, I think the new format is a breath of fresh air because everyone gets a chance to speak.",
+        "answerZh": "其實，我認為新的形式帶來了新氣象，因為每個人都有機會發言。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q41",
+        "number": 41,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The library used to offer only quiet reading spaces. It now has weekend talks and simple activities, which visitors welcome.",
+        "promptZh": "圖書館以往只提供安靜的閱讀空間。現在增設週末講座和簡單活動，深受訪客歡迎。",
+        "starter": "The",
+        "answer": "The library’s weekend events are a breath of fresh air for visitors who want more than quiet reading.",
+        "answerZh": "對不只想安靜閱讀的訪客來說，圖書館的週末活動令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q42",
+        "number": 42,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The hotel restaurant had served heavy meals for years. The young cook introduced light, simple dishes that made the menu feel new.",
+        "promptZh": "酒店餐廳多年來一直供應較油膩的菜式。年輕廚師推出清淡簡單的菜式，令餐牌帶來新鮮感。",
+        "starter": "The",
+        "answer": "The young cook’s light, simple dishes have brought a breath of fresh air to the hotel restaurant.",
+        "answerZh": "年輕廚師清淡簡單的菜式為酒店餐廳帶來了新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q43",
+        "number": 43,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The community centre always chooses activities for families. A new plan may let families choose for themselves, which could be a welcome change.",
+        "promptZh": "社區中心一直替家庭選擇活動。一個新計劃可能會讓家庭自行選擇，這可能是令人欣喜的轉變。",
+        "starter": "If",
+        "answer": "If the new plan gives local families more choice, it could bring a breath of fresh air to the community centre.",
+        "answerZh": "如果新計劃讓本區家庭有更多選擇，它可能會為社區中心帶來令人欣喜的新氣象。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q44",
+        "number": 44,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The new presenter has begun asking clear, honest questions. If she continues, viewers think she may offer a welcome change.",
+        "promptZh": "新主持已開始提出清楚而坦率的問題。如果她繼續這樣做，觀眾認為她可能會帶來可喜轉變。",
+        "starter": "The",
+        "answer": "The new presenter may be a breath of fresh air if she keeps asking clear, honest questions.",
+        "answerZh": "如果新主持繼續提出清楚而坦率的問題，她可能會令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q45",
+        "number": 45,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "For years, the director sent only formal messages. His friendly weekly notes have been a welcome change for the staff.",
+        "promptZh": "多年來，主管只會發出正式訊息。他每星期發出的友善短訊為員工帶來了可喜轉變。",
+        "starter": "After",
+        "answer": "After years of formal messages, the director’s friendly weekly notes have been a breath of fresh air for the staff.",
+        "answerZh": "經過多年正式訊息後，主管每星期發出的友善短訊令員工精神一振。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q46",
+        "number": 46,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The club repeated the same activities for years. The new leader now asks members to design their own, which feels open and pleasantly different.",
+        "promptZh": "會所多年來重複相同活動。新負責人現在讓會員自行設計活動，做法開放而令人耳目一新。",
+        "starter": "The",
+        "answer": "The club leader’s open approach has been a breath of fresh air after years of repeating the same activities.",
+        "answerZh": "多年來一直重複相同活動後，會所負責人開放的做法令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q47",
+        "number": 47,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Was Lina’s answer really that different from the others? B: Yes. The others gave safe, prepared replies, but she honestly admitted what she did not know.",
+        "promptZh": "甲：Lina 的回答真的與其他人那麼不同嗎？ 乙：是的。其他人都給出安全而準備好的答案，但她坦白承認自己不知道甚麼。",
+        "starter": "Yes",
+        "answer": "Yes, Lina’s honest answer was a breath of fresh air after all the safe, prepared replies.",
+        "answerZh": "是的，在一連串安全而準備好的回答後，Lina 坦白的答案令人精神一振。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q48",
+        "number": 48,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Many action films are loud and difficult to follow. If this film keeps its simple story and natural acting, viewers may welcome it as something pleasantly different.",
+        "promptZh": "很多動作電影都很嘈吵，而且難以理解。如果這部電影保持簡單的故事和自然的演出，觀眾可能會歡迎這種令人愉快的不同風格。",
+        "starter": "If",
+        "answer": "If the film keeps its simple story and natural acting, it could be a breath of fresh air for viewers tired of noisy action films.",
+        "answerZh": "如果這部電影保持簡單的故事和自然的演出，對厭倦嘈吵動作電影的觀眾來說，它可能會令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q49",
+        "number": 49,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "For years, the teacher planned every lesson alone. Joining a supportive team felt new, positive and welcome.",
+        "promptZh": "多年來，這位老師一直獨自準備每一課。加入一個互相支持的團隊，令他感到新鮮、正面和欣喜。",
+        "starter": "Working",
+        "answer": "Working with a supportive team was a breath of fresh air after years of teaching alone.",
+        "answerZh": "獨自教學多年後，與一個互相支持的團隊合作令人精神一振。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      },
+      {
+        "id": "idiom-55-q50",
+        "number": 50,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Why did yesterday’s meeting feel so different? B: After years of very formal meetings, the young employee asked everyone for one practical idea and listened openly.",
+        "promptZh": "甲：為甚麼昨天的會議感覺那麼不同？ 乙：經過多年非常正式的會議後，那位年輕員工請每個人提出一個實際想法，並坦誠聆聽。",
+        "starter": "The",
+        "answer": "The young employee’s practical and open approach was a breath of fresh air after years of very formal meetings.",
+        "answerZh": "經過多年非常正式的會議後，這位年輕員工實際而開放的做法令人耳目一新。",
+        "targetForm": "a breath of fresh air",
+        "targetMeaning": "A person, idea, style, experience or change that is welcome because it is pleasantly new, different, lively, clear or positive compared with what came before.",
+        "highlight": "a breath of fresh air"
+      }
+    ]
+  }
+}

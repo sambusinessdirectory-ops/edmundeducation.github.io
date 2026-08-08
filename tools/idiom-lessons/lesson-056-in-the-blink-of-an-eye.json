@@ -1,0 +1,1363 @@
+{
+  "lesson": {
+    "id": "idiom-56",
+    "order": 56,
+    "slug": "in-the-blink-of-an-eye",
+    "version": "1",
+    "title": "一眨眼／轉眼間",
+    "titleEn": "in the blink of an eye",
+    "titleZh": "一眨眼／轉眼間",
+    "source": {
+      "file": "Idiom 56 - “In the Blink of an Eye”.pdf",
+      "pageCount": 27,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "exercisePdfPages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "answerKeyPdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "in the blink of an eye",
+        "highlight": "in the blink of an eye"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The bird disappeared in the blink of an eye.",
+        "zh": "小鳥一眨眼便消失了。",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "en": "In the blink of an eye, the empty street filled with people.",
+        "zh": "一眨眼之間，原本空蕩蕩的街道便擠滿人群。",
+        "highlight": "In the blink of an eye"
+      }
+    ],
+    "meaning": {
+      "en": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+      "zh": "某件事發生得極快，快得彷彿眨一次眼便已經完成、消失或發生改變。",
+      "naturalZh": [
+        "一眨眼",
+        "轉眼間",
+        "瞬間",
+        "眨眼之間",
+        "一下子"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "Teaching classification: neutral and expressive.",
+      "summaryZh": "教學語域分類：中性而帶有一定表達力。",
+      "contextsEn": [
+        "everyday conversation",
+        "stories and personal experiences",
+        "news-style and general writing",
+        "presentations",
+        "descriptions of sport, technology, danger or sudden change"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "故事及個人經歷",
+        "新聞式及一般文章",
+        "簡報",
+        "描述運動、科技、危險或突然轉變。"
+      ],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "它不是俚語，也不粗俗或幼稚。 不過，它帶有鮮明而稍具戲劇性的語氣。 在非常正式的技術、科學或法律文章中，使用準確的時間表達可能會更清楚。"
+    },
+    "fixedVariable": {
+      "fixed": "in the blink of an eye",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + verb + in the blink of an eye.",
+          "example": "The bird disappeared in the blink of an eye.",
+          "highlight": "in the blink of an eye"
+        },
+        {
+          "form": "In the blink of an eye, + complete clause.",
+          "example": "In the blink of an eye, the empty street filled with people.",
+          "highlight": "In the blink of an eye"
+        },
+        {
+          "form": "Subject + can / could / may / might / will + verb + in the blink of an eye.",
+          "example": "One mistake could change everything in the blink of an eye.",
+          "highlight": "in the blink of an eye"
+        },
+        {
+          "form": "Subject + cannot / will not + verb + in the blink of an eye.",
+          "example": "The damage cannot be repaired in the blink of an eye.",
+          "highlight": "in the blink of an eye"
+        },
+        {
+          "form": "Looking back, + period of time + seemed to pass + in the blink of an eye.",
+          "example": "Looking back, the holiday seemed to pass in the blink of an eye.",
+          "highlight": "in the blink of an eye"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Final Position",
+        "titleZh": "句式一：放在句尾",
+        "formula": "Subject + verb + in the blink of an eye.",
+        "descriptionEn": "The phrase normally modifies the action before it.",
+        "descriptionZh": "這個表達通常修飾前面的動作。",
+        "examples": [
+          {
+            "en": "The bird disappeared in the blink of an eye.",
+            "zh": "小鳥一眨眼便消失了。",
+            "highlight": "in the blink of an eye"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Initial Position",
+        "titleZh": "句式二：放在句首",
+        "formula": "In the blink of an eye, + complete clause.",
+        "descriptionEn": "Use a comma after the opening phrase.",
+        "descriptionZh": "放在句首時，應在慣用語後加上逗號。",
+        "examples": [
+          {
+            "en": "In the blink of an eye, the empty street filled with people.",
+            "zh": "一眨眼之間，原本空蕩蕩的街道便擠滿人群。",
+            "highlight": "In the blink of an eye"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "With a Modal Verb",
+        "titleZh": "句式三：配合情態動詞",
+        "formula": "Subject + can / could / may / might / will + verb + in the blink of an eye.",
+        "descriptionEn": "The modal verb must preserve the original degree of certainty.",
+        "descriptionZh": "情態動詞必須保留原句的確定程度。",
+        "examples": [
+          {
+            "en": "One mistake could change everything in the blink of an eye.",
+            "zh": "一個錯誤可能會在瞬間改變一切。",
+            "highlight": "in the blink of an eye"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Negative Form",
+        "titleZh": "句式四：否定形式",
+        "formula": "Subject + cannot / will not + verb + in the blink of an eye.",
+        "descriptionEn": "This means that the action requires time and cannot be completed immediately.",
+        "descriptionZh": "這表示相關行動需要時間，不可能立即完成。",
+        "examples": [
+          {
+            "en": "The damage cannot be repaired in the blink of an eye.",
+            "zh": "這些損壞不可能轉眼間便修好。",
+            "highlight": "in the blink of an eye"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Reflective Use",
+        "titleZh": "句式五：回顧式用法",
+        "formula": "Looking back, + period of time + seemed to pass + in the blink of an eye.",
+        "descriptionEn": "This is a subjective extension: the period did not literally last only a moment, but it felt surprisingly short.",
+        "descriptionZh": "這是一種主觀延伸用法：那段時間並非真的只有一瞬間，但回想起來感覺過得非常快。",
+        "examples": [
+          {
+            "en": "Looking back, the holiday seemed to pass in the blink of an eye.",
+            "zh": "回想起來，那次假期彷彿一眨眼便過去了。",
+            "highlight": "in the blink of an eye"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Emphasises Extreme Speed",
+        "titleZh": "強調極快速度",
+        "en": "The expression communicates more than ordinary speed. It suggests that the event was nearly instantaneous.",
+        "zh": "這個表達不只表示事情很快，還帶出事情幾乎在瞬間完成的感覺。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "濃縮較長的解釋",
+        "en": "The lights went out in the blink of an eye.",
+        "zh": "慣用語可以把「事情發生得太快，其他人來不及反應」濃縮成一個簡潔表達。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Creates a Clear Mental Picture",
+        "titleZh": "建立清晰畫面",
+        "en": "The image of a quick eye movement makes the speed easier to imagine and remember.",
+        "zh": "迅速眨眼的畫面，讓聽者更容易想像和記住事情發生的速度。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Adds Surprise or Urgency",
+        "titleZh": "增加驚訝或緊迫感",
+        "en": "This warns the listener that the present situation may not remain stable.",
+        "zh": "這句話提醒聽者，目前的情況可能會突然改變。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful in Storytelling",
+        "titleZh": "適合用於敘事",
+        "en": "The expression helps a speaker move rapidly from one situation to another. However, an idiom is not automatically better than a plain expression. Use it only when its strong emphasis genuinely suits the situation.",
+        "zh": "這個表達可以幫助說話者在故事中迅速帶出突然出現的動作或轉變。 不過，慣用語並非一定比普通表達更好。 只有當強調極快速度確實符合語境時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The exact first use of in the blink of an eye has not been firmly identified. It belongs to a much older family of expressions. In the twinkling of an eye is recorded from around 1300 and later became widely familiar through biblical wording such as 1 Corinthians 15:52. Printed examples of the modern blink form can be found by the late nineteenth century, but those examples should not be treated as proof of the very first use.",
+          "zh": "in the blink of an eye 的確切首次用法尚未能確認。 它屬於一組歷史較悠久的相關表達。 in the twinkling of an eye 約在十四世紀初已有記錄，其後亦透過《哥林多前書》15章52節等《聖經》文字而廣為人知。 現代 blink 形式在十九世紀後期已有印刷例子，但這些例子不能證明那就是最早的用法。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Twink, wink and blink all create the vivid picture of a movement lasting only a moment. Over time, the direct everyday word blink became a natural modern way to express extreme speed.",
+          "zh": "twink、wink 和 blink 都能帶出一個只維持片刻的眼部動作。 後來，較直接和日常的 blink 逐漸成為表達極快速度的自然現代說法。"
+        }
+      ],
+      "memoryEn": "Before you have time to blink, it is already done.",
+      "memoryZh": "你還未來得及眨眼，事情便已經完成。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Exact Fixed Form",
+        "titleZh": "規則一：必須保留完整固定形式",
+        "en": "Do not change either article.",
+        "zh": "不可把 the 或 an 改成其他冠詞。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Expresses a Strong Degree of Speed",
+        "titleZh": "規則二：它表示非常快的速度",
+        "en": "The idiom is stronger than simply saying quickly. Soon does not necessarily mean almost immediately.",
+        "zh": "這個慣用語的程度比一般的 quickly 更強。 並不一定表示事情在一瞬間發生。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Use It for Gradual Change",
+        "titleZh": "規則三：不要用於漸進式改變",
+        "en": "Normal tree growth is gradual.",
+        "zh": "一般樹木生長是逐漸發生的。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則四：保留時態及確定程度",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把一個可能性改成了已經發生的事實。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Use a Comma in Initial Position",
+        "titleZh": "規則五：放在句首時使用逗號",
+        "en": "Use a Comma in Initial Position",
+        "zh": "放在句首時使用逗號",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Distinguish Literal and Idiomatic Meanings",
+        "titleZh": "規則六：分辨字面意思及慣用意思",
+        "en": "She blinked her eyes. The exercise always tests the idiomatic meaning.",
+        "zh": "她眨了眨眼。 她一眨眼便消失了。 本練習只測試比喻用法。",
+        "examples": [
+          {
+            "en": "She disappeared in the blink of an eye.",
+            "zh": "她一眨眼便消失了。",
+            "highlight": "in the blink of an eye"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Longer Periods Require a Reflective Context",
+        "titleZh": "規則七：描述較長時間時需要回顧語境",
+        "en": "This means the year felt short in memory. Do not use this extension when precise timing is required.",
+        "zh": "這表示回想起來，那一年感覺過得很快。 如需要準確描述時間，便不應使用這種延伸用法。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則八：自然使用，不要過度使用",
+        "en": "The idiom is useful when extreme speed, suddenness or lack of reaction time is important. A plain word such as quickly or immediately may be clearer in ordinary factual sentences.",
+        "zh": "只有當極快速度、突然性或沒有時間反應是重要意思時，才適合使用這個慣用語。 在普通的事實陳述中，quickly 或 immediately 有時會更清楚。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using in the blink of an eye.",
+      "zh": "使用 in the blink of an eye 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-56-q01",
+        "number": 1,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The bird flew away so quickly that I hardly saw it leave.",
+        "promptZh": "小鳥飛走得非常快，我幾乎看不見牠離開。",
+        "starter": "The",
+        "answer": "The bird flew away in the blink of an eye.",
+        "answerZh": "小鳥一眨眼便飛走了。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q02",
+        "number": 2,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The children ate all the popcorn almost immediately.",
+        "promptZh": "孩子們幾乎立即吃光了所有爆谷。",
+        "starter": "The",
+        "answer": "The children ate all the popcorn in the blink of an eye.",
+        "answerZh": "孩子們轉眼間便吃光了所有爆谷。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q03",
+        "number": 3,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The bus passed us so fast that we could not read its number.",
+        "promptZh": "巴士駛過得太快，我們看不清車號。",
+        "starter": "The",
+        "answer": "The bus passed us in the blink of an eye.",
+        "answerZh": "巴士一眨眼便從我們身旁駛過。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q04",
+        "number": 4,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The room became dark immediately when the lights failed.",
+        "promptZh": "燈光故障時，房間立即變得漆黑。",
+        "starter": "The",
+        "answer": "The room became dark in the blink of an eye when the lights failed.",
+        "answerZh": "燈光故障時，房間瞬間變得漆黑。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q05",
+        "number": 5,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The dog ran through the open gate before anyone could stop it.",
+        "promptZh": "小狗在任何人來得及阻止前，便穿過打開的大門跑了出去。",
+        "starter": "The",
+        "answer": "The dog ran through the open gate in the blink of an eye.",
+        "answerZh": "小狗一眨眼便穿過打開的大門跑了出去。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q06",
+        "number": 6,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The small piece of butter melted in the hot pan almost at once.",
+        "promptZh": "一小塊牛油放在熱鑊中，幾乎立即便融化了。",
+        "starter": "The",
+        "answer": "The small piece of butter melted in the hot pan in the blink of an eye.",
+        "answerZh": "一小塊牛油在熱鑊中瞬間融化。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q07",
+        "number": 7,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The photo reached everyone in the group chat almost immediately.",
+        "promptZh": "相片幾乎立即傳到群組內每個人的手機上。",
+        "starter": "The",
+        "answer": "The photo reached everyone in the group chat in the blink of an eye.",
+        "answerZh": "相片一眨眼便傳到群組內每個人的手機上。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q08",
+        "number": 8,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The goalkeeper reacted so quickly that she caught the ball almost immediately.",
+        "promptZh": "守門員反應極快，幾乎立即便把皮球接住。",
+        "starter": "The",
+        "answer": "The goalkeeper caught the ball in the blink of an eye.",
+        "answerZh": "守門員瞬間接住了皮球。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q09",
+        "number": 9,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The lift doors closed almost as soon as we stepped out.",
+        "promptZh": "我們一踏出升降機，升降機門幾乎立即便關上。",
+        "starter": "The",
+        "answer": "The lift doors closed in the blink of an eye after we stepped out.",
+        "answerZh": "我們踏出升降機後，升降機門一眨眼便關上。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q10",
+        "number": 10,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The rainbow disappeared so quickly that Daniel could not take a picture.",
+        "promptZh": "彩虹消失得太快，丹尼爾未能拍照。",
+        "starter": "The",
+        "answer": "The rainbow disappeared in the blink of an eye.",
+        "answerZh": "彩虹一眨眼便消失了。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q11",
+        "number": 11,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The cat jumped from the ground to the top of the wall before I could follow its movement.",
+        "promptZh": "貓從地面跳上牆頂，快得我根本看不清牠的動作。",
+        "starter": "In",
+        "answer": "In the blink of an eye, the cat jumped from the ground to the top of the wall.",
+        "answerZh": "一眨眼之間，貓便從地面跳上牆頂。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "In the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q12",
+        "number": 12,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The shop assistant packed my order almost immediately after I paid.",
+        "promptZh": "我付款後，店員幾乎立即便包好我的訂單。",
+        "starter": "The",
+        "answer": "The shop assistant packed my order in the blink of an eye after I paid.",
+        "answerZh": "我付款後，店員轉眼間便替我包好訂單。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q13",
+        "number": 13,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Dark clouds covered the clear sky almost immediately.",
+        "promptZh": "烏雲幾乎立即遮蓋了原本晴朗的天空。",
+        "starter": "Dark",
+        "answer": "Dark clouds covered the clear sky in the blink of an eye.",
+        "answerZh": "烏雲瞬間遮蓋了原本晴朗的天空。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q14",
+        "number": 14,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "This new machine can sort a whole box of letters almost instantly.",
+        "promptZh": "這部新機器幾乎可以即時把整箱信件分類好。",
+        "starter": "This",
+        "answer": "This new machine can sort a whole box of letters in the blink of an eye.",
+        "answerZh": "這部新機器可以轉眼間把整箱信件分類好。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q15",
+        "number": 15,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "As soon as I pressed the button, the screen changed.",
+        "promptZh": "我一按下按鈕，畫面立即轉換。",
+        "starter": "The",
+        "answer": "The screen changed in the blink of an eye when I pressed the button.",
+        "answerZh": "我一按下按鈕，畫面便瞬間轉換。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q16",
+        "number": 16,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The nurse responded immediately when the alarm sounded.",
+        "promptZh": "警報響起時，護士立即作出反應。",
+        "starter": "The",
+        "answer": "The nurse responded in the blink of an eye when the alarm sounded.",
+        "answerZh": "警報響起時，護士瞬間作出反應。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q17",
+        "number": 17,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: Where did the little boy go? B: He hid behind his father before I could even point to him.",
+        "promptZh": "甲：那個小男孩去了哪裡？ 乙：我還未來得及指向他，他已躲到父親身後。",
+        "starter": "He",
+        "answer": "He hid behind his father in the blink of an eye.",
+        "answerZh": "那個小男孩轉眼間便躲到父親身後。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q18",
+        "number": 18,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: How did the room become dark so fast? B: The power went off almost immediately.",
+        "promptZh": "甲：房間怎會這麼快變黑？ 乙：電力幾乎立即中斷了。",
+        "starter": "The",
+        "answer": "The power went off in the blink of an eye.",
+        "answerZh": "電力在一瞬間中斷了。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q19",
+        "number": 19,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The cyclist turned the corner and disappeared before we could wave.",
+        "promptZh": "單車手轉過街角，在我們來得及揮手前已消失。",
+        "starter": "The",
+        "answer": "The cyclist turned the corner and disappeared in the blink of an eye.",
+        "answerZh": "單車手轉過街角後，眨眼間便消失了。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q20",
+        "number": 20,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A strong gust suddenly blew all the papers across the room.",
+        "promptZh": "一陣強風突然把所有紙張吹到房間各處。",
+        "starter": "A",
+        "answer": "A strong gust sent all the papers across the room in the blink of an eye.",
+        "answerZh": "一陣強風瞬間把所有紙張吹到房間各處。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q21",
+        "number": 21,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: We are leaving in one minute. Are you ready? B: I only need a moment.",
+        "promptZh": "甲：我們一分鐘後便要出發。你準備好了嗎？ 乙：我只需要一會兒。",
+        "starter": "I’ll",
+        "answer": "I’ll be ready in the blink of an eye.",
+        "answerZh": "我一眨眼便會準備好。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q22",
+        "number": 22,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Is the weather on this mountain always stable? B: No. It can change extremely quickly.",
+        "promptZh": "甲：這座山的天氣總是很穩定嗎？ 乙：不是，它可以非常迅速地改變。",
+        "starter": "No.",
+        "answer": "No. The weather on this mountain can change in the blink of an eye.",
+        "answerZh": "不是。這座山的天氣可以在轉眼間改變。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q23",
+        "number": 23,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "When ticket sales opened, every seat at the concert was sold almost immediately.",
+        "promptZh": "演唱會門票開售後，所有座位幾乎立即售罄。",
+        "starter": "The",
+        "answer": "The concert tickets sold out in the blink of an eye when sales opened.",
+        "answerZh": "演唱會門票開售後，一眨眼便售罄。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q24",
+        "number": 24,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The school bell rang, and children rushed into the empty playground almost immediately.",
+        "promptZh": "學校鐘聲一響，孩子們便幾乎立即衝進原本空蕩蕩的遊樂場。",
+        "starter": "In",
+        "answer": "In the blink of an eye, the empty playground filled with children after the school bell rang.",
+        "answerZh": "學校鐘聲響起後，原本空蕩蕩的遊樂場一眨眼便擠滿孩子。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "In the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q25",
+        "number": 25,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The baby stopped crying immediately when she saw her mother.",
+        "promptZh": "嬰兒看見母親後立即停止哭泣。",
+        "starter": "The",
+        "answer": "The baby stopped crying in the blink of an eye when she saw her mother.",
+        "answerZh": "嬰兒一看見母親，便瞬間停止哭泣。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q26",
+        "number": 26,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Did you see who took the last biscuit? B: No. It was there, and then it was suddenly gone.",
+        "promptZh": "甲：你有看到誰拿走最後一塊餅乾嗎？ 乙：沒有。它剛才還在，突然便不見了。",
+        "starter": "No.",
+        "answer": "No. The last biscuit disappeared in the blink of an eye.",
+        "answerZh": "沒有。最後一塊餅乾轉眼間便消失了。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q27",
+        "number": 27,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The photo appeared on the screen as soon as I tapped the icon.",
+        "promptZh": "我一按下圖示，相片便立即出現在畫面上。",
+        "starter": "The",
+        "answer": "The photo appeared on the screen in the blink of an eye after I tapped the icon.",
+        "answerZh": "我一按下圖示，相片便瞬間出現在畫面上。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q28",
+        "number": 28,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: We have a comfortable lead. Can we relax? B: No. If we stop trying, we could lose it very quickly.",
+        "promptZh": "甲：我們領先很多，可以放鬆一下嗎？ 乙：不可以。如果我們不再努力，可能很快便會失去領先優勢。",
+        "starter": "Our",
+        "answer": "Our comfortable lead could disappear in the blink of an eye if we stop trying.",
+        "answerZh": "如果我們不再努力，原本穩固的領先優勢可能轉眼間便會消失。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q29",
+        "number": 29,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "When the fire alarm rang, everyone left the hall almost immediately.",
+        "promptZh": "火警鐘響起時，所有人幾乎立即離開大堂。",
+        "starter": "The",
+        "answer": "The fire alarm sent everyone out of the hall in the blink of an eye.",
+        "answerZh": "火警鐘一響，所有人轉眼間便離開大堂。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q30",
+        "number": 30,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: The magician was holding a red scarf. How did it become blue? B: The change happened so fast that I did not see it.",
+        "promptZh": "甲：魔術師剛才拿著紅色絲巾，怎會變成藍色？ 乙：變化太快，我看不清楚。",
+        "starter": "The",
+        "answer": "The magician changed the red scarf into a blue one in the blink of an eye.",
+        "answerZh": "魔術師一眨眼便把紅色絲巾變成藍色。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q31",
+        "number": 31,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Although the road looked clear, a bicycle suddenly appeared before Ella could step forward.",
+        "promptZh": "雖然路面看來暢通，一輛單車卻在艾拉踏前之前突然出現。",
+        "starter": "Although",
+        "answer": "Although the road looked clear, a bicycle appeared in the blink of an eye before Ella could step forward.",
+        "answerZh": "雖然路面看來暢通，一輛單車卻在艾拉踏前之前瞬間出現。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q32",
+        "number": 32,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Nobody discussed the choice for long. Before anyone could object, the group had already decided.",
+        "promptZh": "沒有人花很長時間討論這個選擇。在任何人來得及反對前，小組已經作出決定。",
+        "starter": "The",
+        "answer": "The group made the decision in the blink of an eye before anyone could object.",
+        "answerZh": "在任何人來得及反對前，小組轉眼間便作出了決定。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q33",
+        "number": 33,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Because the app remembers your details, paying takes almost no time.",
+        "promptZh": "因為應用程式記住了你的資料，付款幾乎不用花時間。",
+        "starter": "Because",
+        "answer": "Because the app remembers your details, you can pay in the blink of an eye.",
+        "answerZh": "因為應用程式記住了你的資料，你可以一眨眼便完成付款。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q34",
+        "number": 34,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The conversation was friendly at first. Suddenly, one comment caused a serious argument.",
+        "promptZh": "對話起初很友善。突然，一句說話引發了嚴重爭吵。",
+        "starter": "In",
+        "answer": "In the blink of an eye, the friendly conversation turned into a serious argument because of one comment.",
+        "answerZh": "一眨眼之間，原本友善的對話因一句說話變成了激烈爭吵。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "In the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q35",
+        "number": 35,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The teacher gave one simple example, and the whole class understood the idea immediately.",
+        "promptZh": "老師舉出一個簡單例子，全班立即明白了這個概念。",
+        "starter": "The",
+        "answer": "The whole class understood the idea in the blink of an eye after the teacher gave one simple example.",
+        "answerZh": "老師舉出一個簡單例子後，全班瞬間明白了這個概念。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q36",
+        "number": 36,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "We waited an hour for the train. When it finally arrived, it stopped only briefly and left almost at once.",
+        "promptZh": "我們等了列車一小時。列車終於到站後，只停了很短時間便立即開走。",
+        "starter": "After",
+        "answer": "After an hour of waiting, the train stopped and left again in the blink of an eye.",
+        "answerZh": "等了一小時後，列車轉眼間便停站又再次開走了。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q37",
+        "number": 37,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A tiny spark touched the dry paper, and the flame spread across it almost immediately.",
+        "promptZh": "一點火花碰到乾紙，火焰幾乎立即蔓延整張紙。",
+        "starter": "The",
+        "answer": "The flame spread across the dry paper in the blink of an eye after a tiny spark touched it.",
+        "answerZh": "一點火花碰到乾紙後，火焰瞬間蔓延整張紙。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q38",
+        "number": 38,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Why did you not take a photo of the deer? B: It disappeared before I could unlock my phone.",
+        "promptZh": "甲：你為甚麼沒有拍下那隻鹿？ 乙：我還未解鎖手機，牠已經消失了。",
+        "starter": "The",
+        "answer": "The deer disappeared in the blink of an eye.",
+        "answerZh": "那隻鹿一眨眼便消失了。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q39",
+        "number": 39,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "We had a comfortable lead. After the other team scored twice, that lead was gone almost immediately.",
+        "promptZh": "我們原本大幅領先。對方球隊連進兩球後，領先優勢很快便消失。",
+        "starter": "Our",
+        "answer": "Our comfortable lead vanished in the blink of an eye after the other team scored twice.",
+        "answerZh": "對方球隊連進兩球後，我們原本穩固的領先優勢轉眼間便消失了。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q40",
+        "number": 40,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A file may take months to create, but one careless action can erase it almost instantly.",
+        "promptZh": "一個檔案可能需要數月才完成，但一個不小心的動作便可以幾乎立即把它刪除。",
+        "starter": "A",
+        "answer": "A file that took months to create can be erased in the blink of an eye by one careless action.",
+        "answerZh": "一個花了數月製作的檔案，可以因一個不小心的動作而在瞬間被刪除。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q41",
+        "number": 41,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Everyone was excited a moment ago, but a sudden announcement has now made them worried.",
+        "promptZh": "所有人剛才還十分興奮，但一項突如其來的公布現在令他們感到擔心。",
+        "starter": "A",
+        "answer": "A sudden announcement has changed everyone from excited to worried in the blink of an eye.",
+        "answerZh": "一項突如其來的公布在瞬間令所有人由興奮變成擔心。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q42",
+        "number": 42,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The guard looked away for only a second. During that moment, the boy slipped through the crowd.",
+        "promptZh": "警衞只移開視線一秒。就在那一刻，那個男孩穿過人群溜走了。",
+        "starter": "The",
+        "answer": "The boy slipped through the crowd in the blink of an eye while the guard looked away.",
+        "answerZh": "警衞移開視線時，那個男孩一眨眼便穿過人群溜走了。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q43",
+        "number": 43,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "One careless click can send a private photo to hundreds of people almost instantly.",
+        "promptZh": "只要不小心按一下，私人相片便可以幾乎立即傳給數百人。",
+        "starter": "One",
+        "answer": "One careless click can send a private photo to hundreds of people in the blink of an eye.",
+        "answerZh": "只要不小心按一下，私人相片便可以在瞬間傳給數百人。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q44",
+        "number": 44,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The damaged boat needs a lot of work. The rescue team warned the family that it could not be repaired immediately.",
+        "promptZh": "受損的小船需要大量維修。救援隊提醒該家庭，小船不可能立即修好。",
+        "starter": "The",
+        "answer": "The rescue team warned the family that the damaged boat could not be repaired in the blink of an eye.",
+        "answerZh": "救援隊提醒該家庭，受損的小船不可能轉眼間便修好。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q45",
+        "number": 45,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The stage was empty. Then the dancers rushed on, and it suddenly seemed full of life.",
+        "promptZh": "舞台原本空無一人。舞蹈員衝上台後，舞台突然充滿生氣。",
+        "starter": "In",
+        "answer": "In the blink of an eye, the empty stage came alive as the dancers rushed on.",
+        "answerZh": "舞蹈員衝上台時，原本空蕩蕩的舞台一眨眼便充滿生氣。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "In the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q46",
+        "number": 46,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The café was quiet. After a popular video appeared online, customers arrived almost immediately and filled every table.",
+        "promptZh": "咖啡店原本很冷清。一段熱門影片在網上出現後，顧客幾乎立即湧到，坐滿每張桌子。",
+        "starter": "After",
+        "answer": "After a popular video appeared online, the quiet café filled with customers in the blink of an eye.",
+        "answerZh": "一段熱門影片在網上出現後，原本冷清的咖啡店瞬間擠滿顧客。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q47",
+        "number": 47,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: We were winning comfortably a minute ago. B: Those two quick goals changed the whole game.",
+        "promptZh": "甲：一分鐘前我們還穩穩領先。 乙：那兩個快速入球徹底改變了整場比賽。",
+        "starter": "The",
+        "answer": "The whole game changed in the blink of an eye after those two quick goals.",
+        "answerZh": "那兩個快速入球令整場比賽在轉眼間徹底改變。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q48",
+        "number": 48,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The manager warned us that a small mistake could quickly become a serious problem.",
+        "promptZh": "經理警告我們，一個小錯誤可能很快變成嚴重問題。",
+        "starter": "The",
+        "answer": "The manager warned us that a small mistake could become a serious problem in the blink of an eye.",
+        "answerZh": "經理警告我們，一個小錯誤可以在瞬間變成嚴重問題。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q49",
+        "number": 49,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The head teacher raised her hand. Almost immediately, the noisy school hall became silent.",
+        "promptZh": "校長舉起手。幾乎立即，原本嘈吵的學校禮堂便安靜下來。",
+        "starter": "After",
+        "answer": "After the head teacher raised her hand, the noisy school hall became silent in the blink of an eye.",
+        "answerZh": "校長舉起手後，原本嘈吵的學校禮堂瞬間安靜下來。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      },
+      {
+        "id": "idiom-56-q50",
+        "number": 50,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Looking back at the school trip, Grace felt that the whole day had passed surprisingly quickly.",
+        "promptZh": "回想這次學校旅行時，格蕾絲覺得整天過得出奇地快。",
+        "starter": "Looking",
+        "answer": "Looking back, Grace felt that the whole day had passed in the blink of an eye.",
+        "answerZh": "回想起來，格蕾絲覺得整天一眨眼便過去了。",
+        "targetForm": "in the blink of an eye",
+        "targetMeaning": "Extremely quickly, or within such a short time that the action or change seems almost immediate.",
+        "highlight": "in the blink of an eye"
+      }
+    ]
+  }
+}

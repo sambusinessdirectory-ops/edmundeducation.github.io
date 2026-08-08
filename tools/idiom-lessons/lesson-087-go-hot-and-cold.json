@@ -1,0 +1,1652 @@
+{
+  "lesson": {
+    "id": "idiom-87",
+    "order": 87,
+    "slug": "go-hot-and-cold",
+    "version": "1",
+    "title": "突然感到害怕／頓時感到不安",
+    "titleEn": "go hot and cold",
+    "titleZh": "突然感到害怕／頓時感到不安",
+    "source": {
+      "file": "Idiom 87 - 「go hot and cold」.pdf",
+      "pageCount": 39,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "exercisePdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "answerKeyPdfPages": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "go hot and cold",
+        "highlight": "go hot and cold"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I went hot and cold.",
+        "zh": "我頓時感到非常害怕。",
+        "highlight": "went hot and cold"
+      },
+      {
+        "en": "She goes hot and cold whenever she remembers the accident.",
+        "zh": "她每次想起那宗意外，都會突然感到不安。",
+        "highlight": "goes hot and cold"
+      }
+    ],
+    "meaning": {
+      "en": "To experience a sudden strong feeling of fear, anxiety or worry.",
+      "zh": "突然感到一陣恐懼、不安或擔心；因為一件突如其來或令人害怕的事情而感到一陣發熱發冷。",
+      "naturalZh": [
+        "突然感到害怕",
+        "頓時感到不安",
+        "嚇得一陣冷一陣熱",
+        "嚇出一身冷汗",
+        "心裏突然一沉",
+        "突然感到非常緊張"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "conversation; personal stories; descriptions of frightening experiences; informal writing; interviews; fiction and narrative writing.",
+      "summaryZh": "這個表達屬於中性至非正式用語，尤其常見於日常對話、個人經歷、故事及對恐懼反應的描述。",
+      "contextsEn": [
+        "conversation",
+        "personal stories",
+        "descriptions of frightening experiences",
+        "informal writing",
+        "interviews",
+        "fiction and narrative writing"
+      ],
+      "contextsZh": [],
+      "formalEn": "It can sound vivid and personal. In a highly formal medical, legal or official report, expressions such as became extremely anxious or experienced sudden fear may sometimes be more suitable.",
+      "formalZh": "這個表達帶有生動及個人化的感覺。 在非常正式的醫療、法律或官方報告中，became extremely anxious 或 experienced sudden fear 有時較為適合。"
+    },
+    "fixedVariable": {
+      "fixed": "go hot and cold",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + go / goes / went + hot and cold.",
+          "example": "I went hot and cold.",
+          "highlight": "went hot and cold"
+        },
+        {
+          "form": "Subject + may / might / can / could / would + go hot and cold.",
+          "example": "You might go hot and cold when you hear what happened.",
+          "highlight": "go hot and cold"
+        },
+        {
+          "form": "Trigger + make / makes / made + person + go hot and cold.",
+          "example": "The message made me go hot and cold.",
+          "highlight": "go hot and cold"
+        },
+        {
+          "form": "Subject + feel / see / watch + person or reflexive pronoun + go / going hot and cold.",
+          "example": "I felt myself go hot and cold.",
+          "highlight": "go hot and cold"
+        },
+        {
+          "form": "When / whenever / as soon as / the moment + clause, subject + go / went hot and cold.",
+          "example": "When the door opened, I went hot and cold.",
+          "highlight": "went hot and cold"
+        },
+        {
+          "form": "At the thought / sight / sound of + noun or -ing, subject + go / went hot and cold.",
+          "example": "At the sight of smoke, the driver went hot and cold.",
+          "highlight": "went hot and cold"
+        },
+        {
+          "form": "On + hearing / seeing / reading / finding + object, subject + went hot and cold.",
+          "example": "On hearing the alarm, we went hot and cold.",
+          "highlight": "went hot and cold"
+        },
+        {
+          "form": "Noun phrase or that-clause + make + person + go hot and cold.",
+          "example": "The thought of the missing child made everyone go hot and cold.",
+          "highlight": "go hot and cold"
+        },
+        {
+          "form": "Subject + say / admit / explain / remember + that + subject + went hot and cold.",
+          "example": "Adam admitted that he went hot and cold when he saw the police car.",
+          "highlight": "went hot and cold"
+        },
+        {
+          "form": "What + make + person + go hot and cold + be...",
+          "example": "What made me go hot and cold was the thought that I had sent the email to everyone.",
+          "highlight": "go hot and cold"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "As an Ordinary Finite Verb Phrase",
+        "titleZh": "作為一般限定動詞短語",
+        "formula": "Subject + go / goes / went + hot and cold.",
+        "descriptionEn": "Went hot and cold is common because the idiom often describes one sudden past reaction. However, the past tense is not the only possible form.",
+        "descriptionZh": "由於這個表達經常描述過去某一刻的突然反應，所以 went hot and cold 十分常見，但並不是唯一可以使用的形式。",
+        "examples": [
+          {
+            "en": "I went hot and cold.",
+            "zh": "我頓時感到非常害怕。",
+            "highlight": "went hot and cold"
+          },
+          {
+            "en": "She goes hot and cold whenever she remembers the accident.",
+            "zh": "她每次想起那宗意外，都會突然感到不安。",
+            "highlight": "goes hot and cold"
+          },
+          {
+            "en": "They went hot and cold when they heard the scream.",
+            "zh": "他們聽到尖叫聲時，頓時感到害怕。",
+            "highlight": "went hot and cold"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "置於情態動詞之後",
+        "formula": "Subject + may / might / can / could / would + go hot and cold.",
+        "descriptionEn": "The modal verb expresses possibility, general ability or an imagined situation. It is not part of the idiom.",
+        "descriptionZh": "情態動詞用來表達可能性、一般情況或假設，並不是慣用語的固定部分。",
+        "examples": [
+          {
+            "en": "You might go hot and cold when you hear what happened.",
+            "zh": "你聽到事情經過時，可能會突然感到不安。",
+            "highlight": "go hot and cold"
+          },
+          {
+            "en": "Anyone could go hot and cold in that situation.",
+            "zh": "任何人在那種情況下都可能會突然感到害怕。",
+            "highlight": "go hot and cold"
+          },
+          {
+            "en": "I would go hot and cold if the police called me at midnight.",
+            "zh": "如果警方在半夜致電給我，我也會頓時感到不安。",
+            "highlight": "go hot and cold"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “Make”",
+        "titleZh": "置於 make 之後",
+        "formula": "Trigger + make / makes / made + person + go hot and cold.",
+        "descriptionEn": "Grammar Point",
+        "descriptionZh": "文法重點：",
+        "examples": [
+          {
+            "en": "The message made me go hot and cold.",
+            "zh": "這則訊息令我頓時感到非常不安。",
+            "highlight": "go hot and cold"
+          },
+          {
+            "en": "The sound of breaking glass made her go hot and cold.",
+            "zh": "玻璃碎裂的聲音令她頓時感到害怕。",
+            "highlight": "go hot and cold"
+          },
+          {
+            "en": "Nothing makes him go hot and cold like a late-night phone call.",
+            "zh": "沒有甚麼比深夜來電更容易令他感到不安。",
+            "highlight": "go hot and cold"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After a Perception Verb",
+        "titleZh": "置於感官動詞之後",
+        "formula": "Subject + feel / see / watch + person or reflexive pronoun + go / going hot and cold.",
+        "descriptionEn": "Go emphasises the complete change. Going presents the reaction as it develops.",
+        "descriptionZh": "較着重完整的突然變化； going 較着重反應正在出現的過程。",
+        "examples": [
+          {
+            "en": "I felt myself go hot and cold.",
+            "zh": "我感到自己突然一陣發熱發冷。",
+            "highlight": "go hot and cold"
+          },
+          {
+            "en": "I could feel myself going hot and cold.",
+            "zh": "我感覺到自己正一陣發熱發冷。",
+            "highlight": "going hot and cold"
+          },
+          {
+            "en": "We could see him go hot and cold when the manager mentioned the missing money.",
+            "zh": "經理提到失款時，我們看得出他頓時感到非常不安。",
+            "highlight": "go hot and cold"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "With a Time or Trigger Clause",
+        "titleZh": "配合時間或觸發情況子句",
+        "formula": "When / whenever / as soon as / the moment + clause, subject + go / went hot and cold.",
+        "descriptionEn": "These opening expressions identify the trigger. They are not fixed parts of the idiom.",
+        "descriptionZh": "這些開首表達只用來指出觸發恐懼的事情，並不是慣用語的固定部分。",
+        "examples": [
+          {
+            "en": "When the door opened, I went hot and cold.",
+            "zh": "門打開時，我頓時感到非常害怕。",
+            "highlight": "went hot and cold"
+          },
+          {
+            "en": "Whenever the doctor calls unexpectedly, he goes hot and cold.",
+            "zh": "每當醫生突然致電，他都會頓時感到不安。",
+            "highlight": "goes hot and cold"
+          },
+          {
+            "en": "The moment the lights went out, the children went hot and cold.",
+            "zh": "燈光熄滅的一刻，孩子們頓時感到害怕。",
+            "highlight": "went hot and cold"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "With a Prepositional Trigger",
+        "titleZh": "配合介詞觸發短語",
+        "formula": "At the thought / sight / sound of + noun or -ing, subject + go / went hot and cold.",
+        "descriptionEn": "Rachel went hot and cold at the thought of losing her passport.",
+        "descriptionZh": "瑞秋一想到可能遺失護照，便頓時感到不安。",
+        "examples": [
+          {
+            "en": "At the sight of smoke, the driver went hot and cold.",
+            "zh": "司機一看到煙便頓時感到害怕。",
+            "highlight": "went hot and cold"
+          },
+          {
+            "en": "At the sound of footsteps outside, I went hot and cold.",
+            "zh": "我聽到門外的腳步聲時，頓時感到非常不安。",
+            "highlight": "went hot and cold"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "With “On + -ing”",
+        "titleZh": "配合 on + -ing",
+        "formula": "On + hearing / seeing / reading / finding + object, subject + went hot and cold.",
+        "descriptionEn": "Source grammar frame: On + hearing / seeing / reading / finding + object, subject + went hot and cold.",
+        "descriptionZh": "原檔列出的句法框架：On + hearing / seeing / reading / finding + object, subject + went hot and cold。",
+        "examples": [
+          {
+            "en": "On hearing the alarm, we went hot and cold.",
+            "zh": "我們一聽到警報便頓時感到害怕。",
+            "highlight": "went hot and cold"
+          },
+          {
+            "en": "On seeing the empty bag, Daniel went hot and cold.",
+            "zh": "丹尼爾一看到空袋子便頓時感到不安。",
+            "highlight": "went hot and cold"
+          },
+          {
+            "en": "On reading the first line, she went hot and cold.",
+            "zh": "她一讀到第一行便突然感到害怕。",
+            "highlight": "went hot and cold"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "With an Event, Thought or Message as the Subject",
+        "titleZh": "以事件、想法或訊息作主語",
+        "formula": "Noun phrase or that-clause + make + person + go hot and cold.",
+        "descriptionEn": "The grammatical subject identifies the cause of the reaction.",
+        "descriptionZh": "句子的主語指出造成恐懼反應的原因。",
+        "examples": [
+          {
+            "en": "The thought of the missing child made everyone go hot and cold.",
+            "zh": "想到孩子失蹤，所有人都頓時感到害怕。",
+            "highlight": "go hot and cold"
+          },
+          {
+            "en": "The news that her dog was missing made Sophie go hot and cold.",
+            "zh": "愛犬失蹤的消息令蘇菲頓時感到非常不安。",
+            "highlight": "go hot and cold"
+          },
+          {
+            "en": "To think that I might have deleted the file makes me go hot and cold.",
+            "zh": "一想到自己可能刪除了檔案，我便感到非常害怕。",
+            "highlight": "go hot and cold"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "In Reported Speech",
+        "titleZh": "用於轉述說話",
+        "formula": "Subject + say / admit / explain / remember + that + subject + went hot and cold.",
+        "descriptionEn": "Source grammar frame: Subject + say / admit / explain / remember + that + subject + went hot and cold.",
+        "descriptionZh": "原檔列出的句法框架：Subject + say / admit / explain / remember + that + subject + went hot and cold。",
+        "examples": [
+          {
+            "en": "Adam admitted that he went hot and cold when he saw the police car.",
+            "zh": "亞當承認，看到警車時他頓時感到不安。",
+            "highlight": "went hot and cold"
+          },
+          {
+            "en": "She said that she had gone hot and cold when the doctor called.",
+            "zh": "她說醫生來電時，自己頓時感到非常不安。",
+            "highlight": "gone hot and cold"
+          },
+          {
+            "en": "I remember that I went hot and cold when the door moved.",
+            "zh": "我記得門移動時，自己頓時感到害怕。",
+            "highlight": "went hot and cold"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "In Cleft and Question Structures",
+        "titleZh": "用於強調句及疑問結構",
+        "formula": "What + make + person + go hot and cold + be...",
+        "descriptionEn": "The target expression remains unchanged inside these larger structures.",
+        "descriptionZh": "即使放進較複雜的句式，目標慣用語本身仍然不變。",
+        "examples": [
+          {
+            "en": "What made me go hot and cold was the thought that I had sent the email to everyone.",
+            "zh": "令我頓時感到害怕的，是我可能把電郵傳送給了所有人這個想法。",
+            "highlight": "go hot and cold"
+          },
+          {
+            "en": "It was the scream that made everyone go hot and cold.",
+            "zh": "正是那一下尖叫聲令所有人頓時感到害怕。",
+            "highlight": "go hot and cold"
+          },
+          {
+            "en": "What could make you go hot and cold?",
+            "zh": "甚麼事情可能會令你頓時感到害怕？",
+            "highlight": "go hot and cold"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses a Sudden Reaction Clearly",
+        "titleZh": "清楚表達突然反應",
+        "en": "The idiom packages a longer emotional description into one vivid expression.",
+        "zh": "我頓時感到非常害怕。 這個慣用語把較長的情緒描述濃縮成一個生動表達。",
+        "examples": [
+          {
+            "en": "I went hot and cold.",
+            "zh": "我頓時感到非常害怕。",
+            "highlight": "went hot and cold"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Connects an Event with an Emotional Effect",
+        "titleZh": "把事件與情緒後果連繫起來",
+        "en": "the trigger: the message; the person affected: me; the reaction: sudden fear.",
+        "zh": "這則訊息令我頓時感到不安。 句子清楚指出觸發事件、受影響的人以及突然出現的恐懼反應。",
+        "examples": [
+          {
+            "en": "The message made me go hot and cold.",
+            "zh": "這則訊息令我頓時感到不安。",
+            "highlight": "go hot and cold"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Makes Personal Stories More Vivid",
+        "titleZh": "令個人故事更生動",
+        "en": "I was worried.",
+        "zh": "門柄開始轉動時，我頓時感到非常害怕。 這個表達比單純說 I was worried 更能帶出那一刻的突然反應。",
+        "examples": [
+          {
+            "en": "When the handle began to move, I went hot and cold.",
+            "zh": "門柄開始轉動時，我頓時感到非常害怕。",
+            "highlight": "went hot and cold"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Describe Memory as Well as Immediate Fear",
+        "titleZh": "既可描述當下恐懼，也可描述回憶",
+        "en": "The original event may be over, but the memory can produce the same reaction.",
+        "zh": "我現在每次想起那宗意外，仍會突然感到不安。 事情可能已經過去，但回憶仍然可以引發同樣的反應。",
+        "examples": [
+          {
+            "en": "I still go hot and cold when I remember the accident.",
+            "zh": "我現在每次想起那宗意外，仍會突然感到不安。",
+            "highlight": "go hot and cold"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Supports Several Natural Grammar Patterns",
+        "titleZh": "可配合多種自然句法",
+        "en": "conditional structures.",
+        "zh": "這個慣用語可以自然放進多種不同句式，而不需要把所有答案寫成同一種格式。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Helps Students Understand Authentic British English",
+        "titleZh": "有助理解真實英式英語",
+        "en": "However, it is not automatically better than afraid, anxious or worried. Use it when the fear is sudden and vivid.",
+        "zh": "不過，它並不一定比 afraid、anxious 或 worried 更好。 只有當恐懼來得突然而且反應強烈時，才適合使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Probable Gradual Development",
+      "statusZh": "確切來源不明；很可能逐漸形成",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The authoritative learner dictionaries consulted explain the modern meaning but do not connect the exact expression with one confirmed historical event or one identifiable creator. It is therefore safer to treat it as a phrase that probably developed gradually from descriptions of bodily reactions to fear. This is a cautious linguistic inference rather than a proven origin story.",
+          "zh": "所查閱的權威學習詞典解釋了現代意思，但沒有把這個確切表達連繫到一件已證實的歷史事件或某一位可以確認的創作者。 因此，較穩妥的說法是：這個短語很可能由人們對恐懼時身體反應的描述逐漸形成。 這是一項審慎推論，而不是已證實的來源故事。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The words hot and cold originally describe opposite temperatures. In the idiom, they work together as an image of a sudden, uncomfortable change in the body caused by fear or worry.",
+          "zh": "hot 和 cold 原本描述相反的溫度。 在這個慣用語中，兩者結合成一個意象，表示恐懼或不安令身體突然產生不舒服的變化。"
+        }
+      ],
+      "memoryEn": "A frightening thought makes the body seem to change from hot to cold in an instant.",
+      "memoryZh": "一個可怕的念頭，彷彿令身體在一瞬間由熱變冷。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “Hot and Cold” Fixed",
+        "titleZh": "規則一：保持 hot and cold 不變",
+        "en": "The contrast between hot and cold forms one fixed image.",
+        "zh": "hot 與 cold 的對比構成一個固定意象。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Go” According to the Grammar",
+        "titleZh": "規則二：按句法改變 go",
+        "en": "Change “Go” According to the Grammar",
+        "zh": "按句法改變 go",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Confuse It with “Blow Hot and Cold”",
+        "titleZh": "規則三：不要與 blow hot and cold 混淆",
+        "en": "sudden fear or worry frequently change one’s opinion or attitude The company blew hot and cold about the plan for six months.",
+        "zh": "突然感到恐懼或不安反覆改變意見或態度公司在六個月內對該計劃的態度反覆不定。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Use It for a Sudden Reaction",
+        "titleZh": "規則四：用於突然出現的反應",
+        "en": "The idiom normally presents fear as a sudden reaction rather than a mild, continuous concern.",
+        "zh": "我看到空着的床時，頓時感到非常害怕。 這個慣用語通常形容突然出現的恐懼，而不是持續數月的輕微擔心。",
+        "examples": [
+          {
+            "en": "When I saw the empty bed, I went hot and cold.",
+            "zh": "我看到空着的床時，頓時感到非常害怕。",
+            "highlight": "went hot and cold"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "The Trigger Must Be Frightening or Worrying",
+        "titleZh": "規則五：觸發事件必須令人害怕或擔心",
+        "en": "a late-night phone call; a police officer saying your name; a missing child or pet; an unexpected hospital message; a strange noise; an emergency alarm; the thought that an important item is missing; suddenly realising that something has gone wrong.",
+        "zh": "適合的觸發情況包括深夜來電、警員叫出自己的名字、孩子或寵物失蹤、醫院突然來電、奇怪聲音、緊急警報，或突然察覺事情出錯。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Use It for Ordinary Temperature Changes",
+        "titleZh": "規則六：不要用來描述一般溫度變化",
+        "en": "The literal sentence describes water temperature and is not the target meaning.",
+        "zh": "花灑的水一時熱、一時冷。 我聽到有人嘗試開門時，頓時感到非常害怕。 第一句描述水溫，並不是本課教授的慣用意思。",
+        "examples": [
+          {
+            "en": "The shower water went hot and cold.",
+            "zh": "花灑的水一時熱、一時冷。",
+            "highlight": "went hot and cold"
+          },
+          {
+            "en": "I went hot and cold when I heard someone trying to open the door.",
+            "zh": "我聽到有人嘗試開門時，頓時感到非常害怕。",
+            "highlight": "went hot and cold"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "Use a Human or Feeling Subject",
+        "titleZh": "規則七：主語通常是能感受恐懼的人",
+        "en": "A group of people may be used as the subject when the members share the reaction.",
+        "zh": "當一群人同時產生這種反應時，也可以把群體作為主語。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Tense and Possibility",
+        "titleZh": "規則八：保留時態及可能性",
+        "en": "The incorrect answer changes a possible future reaction into a completed past event.",
+        "zh": "錯誤答案把未來可能出現的反應，改成了已經發生的過去事件。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Use the Bare Infinitive After “Make”",
+        "titleZh": "規則九：在 make 之後使用原形動詞",
+        "en": "Use the Bare Infinitive After “Make”",
+        "zh": "在 make 之後使用原形動詞",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Repeat the Same Meaning",
+        "titleZh": "規則十：不要重複相同意思",
+        "en": "Go hot and cold already communicates the sudden fearful reaction. The second part unnecessarily explains the idiom again.",
+        "zh": "已經包含突然感到恐懼的意思，不應在後面再次重複解釋。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "The Cause May Remain",
+        "titleZh": "規則十一：造成恐懼的原因可以保留",
+        "en": "The idiom replaces the fearful reaction, not the event that caused it. The reason remains because it is independent information.",
+        "zh": "這個慣用語取代的是恐懼反應，而不是造成恐懼的事件。 我以為錢包不見了，頓時感到非常不安。 原因屬於獨立資料，因此需要保留。",
+        "examples": [
+          {
+            "en": "I went hot and cold because I thought my wallet was missing.",
+            "zh": "我以為錢包不見了，頓時感到非常不安。",
+            "highlight": "went hot and cold"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則十二：自然使用，不要過度使用",
+        "en": "is tired; is slightly nervous; changes their mind; dislikes something; becomes angry.",
+        "zh": "只有當某人因意外、危險或令人擔心的事情而突然感到強烈恐懼或不安時，才適合使用這個表達。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using go hot and cold. Change go into the correct form where necessary.",
+      "zh": "使用 go hot and cold 改寫句子或完成回應。 請按主語、時態及語境改變 go 的形式。"
+    },
+    "questions": [
+      {
+        "id": "idiom-87-q01",
+        "number": 1,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "When the phone rang after midnight, I suddenly felt a strong wave of fear.",
+        "promptZh": "電話在半夜後響起時，我頓時感到非常害怕。",
+        "starter": "I",
+        "answer": "I went hot and cold when the phone rang after midnight.",
+        "answerZh": "電話在半夜後響起時，我頓時感到非常害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q02",
+        "number": 2,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The message from the hospital caused Nora to feel suddenly frightened.",
+        "promptZh": "醫院傳來的訊息令諾拉頓時感到害怕。",
+        "starter": "The",
+        "answer": "The message from the hospital made Nora go hot and cold.",
+        "answerZh": "醫院傳來的訊息令諾拉頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q03",
+        "number": 3,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Ben suddenly felt extremely worried when he thought that he might have lost his passport.",
+        "promptZh": "本想到自己可能遺失了護照時，頓時感到非常不安。",
+        "starter": "Ben",
+        "answer": "Ben went hot and cold at the thought of losing his passport.",
+        "answerZh": "本一想到可能遺失護照，便頓時感到非常不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q04",
+        "number": 4,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The sudden alarm caused all of us to feel a rush of fear.",
+        "promptZh": "突然響起的警報令我們所有人頓時感到害怕。",
+        "starter": "The",
+        "answer": "The sudden alarm made us go hot and cold.",
+        "answerZh": "突然響起的警報令我們頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q05",
+        "number": 5,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Olivia suddenly became anxious when the teacher asked to see her after class.",
+        "promptZh": "老師要求課後見奧利維亞時，她頓時感到非常不安。",
+        "starter": "Olivia",
+        "answer": "Olivia went hot and cold when the teacher asked to see her after class.",
+        "answerZh": "老師要求課後見奧利維亞時，她頓時感到非常不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q06",
+        "number": 6,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Whenever I hear footsteps outside my door at night, I suddenly become frightened.",
+        "promptZh": "每當我在晚上聽到門外有腳步聲，都會頓時感到害怕。",
+        "starter": "I",
+        "answer": "I go hot and cold whenever I hear footsteps outside my door at night.",
+        "answerZh": "每當我在晚上聽到門外有腳步聲，都會頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q07",
+        "number": 7,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The driver suddenly felt afraid when he saw smoke coming from the car.",
+        "promptZh": "司機看到汽車冒煙時，頓時感到害怕。",
+        "starter": "The",
+        "answer": "The sight of smoke made the driver go hot and cold.",
+        "answerZh": "看到汽車冒煙，令司機頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q08",
+        "number": 8,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "You might suddenly feel very worried if the bank called about a payment you did not make.",
+        "promptZh": "如果銀行致電查詢一筆並非由你支付的款項，你可能會頓時感到非常不安。",
+        "starter": "You",
+        "answer": "You might go hot and cold if the bank called about a payment you did not make.",
+        "answerZh": "如果銀行致電查詢一筆並非由你支付的款項，你可能會頓時感到非常不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q09",
+        "number": 9,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The thought that the child might be missing caused everyone to feel sudden fear.",
+        "promptZh": "想到孩子可能失蹤，所有人都頓時感到害怕。",
+        "starter": "The",
+        "answer": "The thought of the missing child made everyone go hot and cold.",
+        "answerZh": "想到孩子可能失蹤，令所有人頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q10",
+        "number": 10,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "When the lift stopped between two floors, we suddenly felt extremely anxious.",
+        "promptZh": "升降機停在兩層樓之間時，我們頓時感到非常不安。",
+        "starter": "When",
+        "answer": "When the lift stopped between two floors, we went hot and cold.",
+        "answerZh": "升降機停在兩層樓之間時，我們頓時感到非常不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q11",
+        "number": 11,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "As soon as the police officer said my name, I felt a sudden rush of fear.",
+        "promptZh": "警員一叫出我的名字，我便頓時感到害怕。",
+        "starter": "As",
+        "answer": "As soon as the police officer said my name, I went hot and cold.",
+        "answerZh": "警員一叫出我的名字，我便頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q12",
+        "number": 12,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A strange noise upstairs caused Leo to become suddenly frightened.",
+        "promptZh": "樓上的奇怪聲音令里奧頓時感到害怕。",
+        "starter": "The",
+        "answer": "The strange noise upstairs made Leo go hot and cold.",
+        "answerZh": "樓上的奇怪聲音令里奧頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q13",
+        "number": 13,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "While opening the email containing her examination result, she could feel a sudden fearful reaction developing inside her.",
+        "promptZh": "她打開載有考試成績的電郵時，感到自己正逐漸出現一陣恐懼反應。",
+        "starter": "She",
+        "answer": "She could feel herself going hot and cold as she opened the email containing her examination result.",
+        "answerZh": "她打開載有考試成績的電郵時，感到自己正一陣發熱發冷。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "going hot and cold"
+      },
+      {
+        "id": "idiom-87-q14",
+        "number": 14,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Since the doctor asked for more tests, he has experienced the same sudden fear several times.",
+        "promptZh": "自從醫生要求進行更多檢查後，他已經數次突然感到非常不安。",
+        "starter": "He",
+        "answer": "He has gone hot and cold several times since the doctor asked for more tests.",
+        "answerZh": "自從醫生要求進行更多檢查後，他已經數次突然感到非常不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "gone hot and cold"
+      },
+      {
+        "id": "idiom-87-q15",
+        "number": 15,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The possibility of missing the flight can cause Priya to feel suddenly anxious.",
+        "promptZh": "可能錯過航班這個想法，會令普里婭頓時感到非常不安。",
+        "starter": "The",
+        "answer": "The possibility of missing the flight can make Priya go hot and cold.",
+        "answerZh": "可能錯過航班這個想法，會令普里婭頓時感到非常不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q16",
+        "number": 16,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Nothing frightens me as suddenly as hearing my child cry out during the night.",
+        "promptZh": "沒有甚麼比半夜聽到孩子大叫更容易令我突然感到害怕。",
+        "starter": "Nothing",
+        "answer": "Nothing makes me go hot and cold like hearing my child cry out during the night.",
+        "answerZh": "沒有甚麼比半夜聽到孩子大叫更容易令我突然感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q17",
+        "number": 17,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "When Daniel saw that the bag was empty, he immediately felt a strong fear.",
+        "promptZh": "丹尼爾看到袋子是空的時，立即感到非常害怕。",
+        "starter": "On",
+        "answer": "On seeing the empty bag, Daniel went hot and cold.",
+        "answerZh": "丹尼爾一看到空袋子便頓時感到不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q18",
+        "number": 18,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The warning on the computer screen was enough to make Clara suddenly feel frightened.",
+        "promptZh": "電腦螢幕上的警告已足以令克拉拉頓時感到害怕。",
+        "starter": "The",
+        "answer": "The warning on the computer screen was enough to make Clara go hot and cold.",
+        "answerZh": "電腦螢幕上的警告已足以令克拉拉頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q19",
+        "number": 19,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "We had already felt a sudden wave of fear before we discovered that the alarm was only a test.",
+        "promptZh": "在發現警報只是測試前，我們已經頓時感到非常害怕。",
+        "starter": "We",
+        "answer": "We had already gone hot and cold before we discovered that the alarm was only a test.",
+        "answerZh": "在發現警報只是測試前，我們已經頓時感到非常害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "gone hot and cold"
+      },
+      {
+        "id": "idiom-87-q20",
+        "number": 20,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The news that her dog was missing caused Sophie to become suddenly anxious.",
+        "promptZh": "愛犬失蹤的消息令蘇菲頓時感到非常不安。",
+        "starter": "The",
+        "answer": "The news that her dog was missing made Sophie go hot and cold.",
+        "answerZh": "愛犬失蹤的消息令蘇菲頓時感到非常不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q21",
+        "number": 21,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: What happened when the head teacher called you into the office? B: I suddenly became very frightened because I thought I was in serious trouble.",
+        "promptZh": "甲：校長叫你進辦公室時，發生了甚麼事？ 乙：我以為自己闖了大禍，所以頓時感到非常害怕。",
+        "starter": "I",
+        "answer": "I went hot and cold because I thought I was in serious trouble.",
+        "answerZh": "我以為自己闖了大禍，所以頓時感到非常害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q22",
+        "number": 22,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: I heard breaking glass downstairs last night. B: Would a sound like that also make you suddenly feel afraid?",
+        "promptZh": "甲：昨晚我聽到樓下有玻璃碎裂的聲音。 乙：那種聲音也會令你頓時感到害怕嗎？",
+        "starter": "Could",
+        "answer": "Could the sound of breaking glass make you go hot and cold too?",
+        "answerZh": "玻璃碎裂的聲音也會令你頓時感到害怕嗎？",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q23",
+        "number": 23,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Adam admitted that he suddenly became frightened when he saw a police car outside his house.",
+        "promptZh": "亞當承認，他看到屋外有一輛警車時，頓時感到害怕。",
+        "starter": "Adam",
+        "answer": "Adam admitted that he went hot and cold when he saw the police car outside his house.",
+        "answerZh": "亞當承認，他看到屋外的警車時頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q24",
+        "number": 24,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The thing that suddenly frightened me was the thought that I had sent the private email to everyone.",
+        "promptZh": "令我頓時感到害怕的，是我可能把私人電郵傳送給了所有人這個想法。",
+        "starter": "What",
+        "answer": "What made me go hot and cold was the thought that I had sent the private email to everyone.",
+        "answerZh": "令我頓時感到害怕的，是我可能把私人電郵傳送給了所有人這個想法。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q25",
+        "number": 25,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Even now, remembering how close the car came to us gives me the same sudden feeling of fear.",
+        "promptZh": "即使到了現在，我想起那輛車曾經如此接近我們，仍會突然感到害怕。",
+        "starter": "I",
+        "answer": "I still go hot and cold when I remember how close the car came to us.",
+        "answerZh": "我現在每次想起那輛車曾經如此接近我們，仍會突然感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q26",
+        "number": 26,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Rachel suddenly became extremely anxious when she thought that she had left her passport on the train.",
+        "promptZh": "瑞秋想到自己可能把護照遺留在火車上時，頓時感到非常不安。",
+        "starter": "At",
+        "answer": "At the thought of leaving her passport on the train, Rachel went hot and cold.",
+        "answerZh": "瑞秋一想到可能把護照遺留在火車上，便頓時感到不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q27",
+        "number": 27,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "As soon as the lights went out, the children experienced a sudden feeling of fear.",
+        "promptZh": "燈光熄滅的一刻，孩子們頓時感到害怕。",
+        "starter": "The",
+        "answer": "The moment the lights went out, the children went hot and cold.",
+        "answerZh": "燈光熄滅的一刻，孩子們頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q28",
+        "number": 28,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "When the manager mentioned the missing money, we could see that Marcus suddenly became extremely anxious.",
+        "promptZh": "經理提到失款時，我們看得出馬庫斯頓時感到非常不安。",
+        "starter": "We",
+        "answer": "We could see Marcus go hot and cold when the manager mentioned the missing money.",
+        "answerZh": "經理提到失款時，我們看得出馬庫斯頓時感到非常不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q29",
+        "number": 29,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "As I realised that the door had been open all night, I felt a sudden fearful reaction pass through me.",
+        "promptZh": "當我察覺大門整晚都開着時，我感到自己頓時產生一陣恐懼。",
+        "starter": "I",
+        "answer": "I felt myself go hot and cold as I realised that the door had been open all night.",
+        "answerZh": "當我察覺大門整晚都開着時，我感到自己頓時一陣發熱發冷。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q30",
+        "number": 30,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The manager asked the new worker one quiet question. It immediately caused the worker to feel frightened.",
+        "promptZh": "經理平靜地問了新員工一條問題，令他立即感到害怕。",
+        "starter": "The",
+        "answer": "The manager’s quiet question made the new worker go hot and cold.",
+        "answerZh": "經理平靜的一條問題令新員工頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q31",
+        "number": 31,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Although the email contained only five words, it caused me to feel a sudden rush of fear.",
+        "promptZh": "雖然電郵只有五個字，但它令我頓時感到非常害怕。",
+        "starter": "Although",
+        "answer": "Although the email contained only five words, it made me go hot and cold.",
+        "answerZh": "雖然電郵只有五個字，但它令我頓時感到非常害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q32",
+        "number": 32,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Even now, remembering that fall causes Ava to feel suddenly frightened.",
+        "promptZh": "即使到了現在，想起那次跌倒仍會令艾娃頓時感到害怕。",
+        "starter": "Even",
+        "answer": "Even now, the memory of that fall makes Ava go hot and cold.",
+        "answerZh": "即使到了現在，那次跌倒的回憶仍會令艾娃頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q33",
+        "number": 33,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Before that night, the sound of a telephone had never caused me to experience such sudden fear.",
+        "promptZh": "在那個晚上前，電話聲從未令我產生過如此突然的恐懼。",
+        "starter": "Before",
+        "answer": "Before that night, I had never gone hot and cold at the sound of a telephone.",
+        "answerZh": "在那個晚上前，我從未因電話聲而突然感到如此害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "gone hot and cold"
+      },
+      {
+        "id": "idiom-87-q34",
+        "number": 34,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "I did not suddenly become frightened until I checked my bag and thought that my wallet was missing.",
+        "promptZh": "直至我檢查手袋並以為錢包不見了，我才頓時感到害怕。",
+        "starter": "Not",
+        "answer": "Not until I checked my bag did I go hot and cold at the thought that my wallet was missing.",
+        "answerZh": "直至檢查手袋並想到錢包可能不見了，我才頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q35",
+        "number": 35,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The child’s scream was the particular thing that caused everyone to feel sudden fear.",
+        "promptZh": "正是孩子的尖叫聲令所有人頓時感到害怕。",
+        "starter": "It",
+        "answer": "It was the child’s scream that made everyone go hot and cold.",
+        "answerZh": "正是孩子的尖叫聲令所有人頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q36",
+        "number": 36,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Whenever the fire alarm starts unexpectedly, Grace suddenly becomes frightened before remembering that it may be a safety drill.",
+        "promptZh": "每當火警鐘突然響起，格蕾絲都會先頓時感到害怕，然後才記起這可能只是安全演習。",
+        "starter": "Whenever",
+        "answer": "Whenever the fire alarm starts unexpectedly, Grace goes hot and cold before remembering that it may be a safety drill.",
+        "answerZh": "每當火警鐘突然響起，格蕾絲都會先頓時感到害怕，然後才記起這可能只是安全演習。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "goes hot and cold"
+      },
+      {
+        "id": "idiom-87-q37",
+        "number": 37,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "If we heard somebody trying to open the back door at midnight, all of us might suddenly feel afraid.",
+        "promptZh": "如果我們在半夜聽到有人嘗試打開後門，所有人都可能會頓時感到害怕。",
+        "starter": "We",
+        "answer": "We might all go hot and cold if we heard somebody trying to open the back door at midnight.",
+        "answerZh": "如果我們在半夜聽到有人嘗試打開後門，所有人都可能會頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q38",
+        "number": 38,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "When Ethan heard that his test results were ready, he suddenly became extremely anxious.",
+        "promptZh": "伊森聽到檢查結果已經準備好時，頓時感到非常不安。",
+        "starter": "Hearing",
+        "answer": "Hearing that his test results were ready made Ethan go hot and cold.",
+        "answerZh": "聽到檢查結果已經準備好，令伊森頓時感到非常不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q39",
+        "number": 39,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The thought that I might have deleted the only copy causes me to feel a sudden rush of fear.",
+        "promptZh": "想到自己可能刪除了唯一的副本，便令我頓時感到害怕。",
+        "starter": "To",
+        "answer": "To think that I might have deleted the only copy makes me go hot and cold.",
+        "answerZh": "一想到自己可能刪除了唯一的副本，我便頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q40",
+        "number": 40,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "When the nurse brought in the needle, the little boy appeared to become suddenly frightened.",
+        "promptZh": "護士拿着針進來時，小男孩似乎頓時感到害怕。",
+        "starter": "The",
+        "answer": "The little boy seemed to go hot and cold when the nurse brought in the needle.",
+        "answerZh": "護士拿着針進來時，小男孩似乎頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q41",
+        "number": 41,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The possibility that something was wrong with the plane was enough to cause the passengers to feel sudden fear.",
+        "promptZh": "飛機可能出現問題這個想法，已足以令乘客頓時感到害怕。",
+        "starter": "The",
+        "answer": "The possibility that something was wrong with the plane was enough to make the passengers go hot and cold.",
+        "answerZh": "飛機可能出現問題這個想法，已足以令乘客頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q42",
+        "number": 42,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Immediately after I opened the letter and read its first sentence, I felt a sudden rush of fear.",
+        "promptZh": "我打開信件並讀到第一句後，立即感到非常害怕。",
+        "starter": "No",
+        "answer": "No sooner had I opened the letter than I went hot and cold at the first sentence.",
+        "answerZh": "我一打開信件並讀到第一句，便頓時感到非常害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q43",
+        "number": 43,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Chloe did not know that the dog had escaped. Had she known, she would have become suddenly frightened.",
+        "promptZh": "克洛伊不知道小狗已經逃走；假如她知道，便會頓時感到非常害怕。",
+        "starter": "Had",
+        "answer": "Had Chloe known that the dog had escaped, she would have gone hot and cold.",
+        "answerZh": "假如克洛伊知道小狗已經逃走，她便會頓時感到非常害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "gone hot and cold"
+      },
+      {
+        "id": "idiom-87-q44",
+        "number": 44,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The shop owner suddenly became frightened while reading a report showing that somebody had been taking money.",
+        "promptZh": "店主閱讀一份顯示有人一直取走金錢的報告時，頓時感到害怕。",
+        "starter": "Reading",
+        "answer": "Reading the report made the shop owner go hot and cold because it showed that somebody had been taking money.",
+        "answerZh": "閱讀那份顯示有人一直取走金錢的報告，令店主頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q45",
+        "number": 45,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "While I waited for the door to open, I could feel a fearful physical reaction gradually developing.",
+        "promptZh": "我等待門打開時，感到一陣恐懼反應正在身體內逐漸出現。",
+        "starter": "As",
+        "answer": "As I waited for the door to open, I could feel myself going hot and cold.",
+        "answerZh": "我等待門打開時，感到自己正一陣發熱發冷。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "going hot and cold"
+      },
+      {
+        "id": "idiom-87-q46",
+        "number": 46,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Owen still experiences sudden fear when he thinks that he might have deleted the only copy.",
+        "promptZh": "奧雲一想到自己可能刪除了唯一的副本，現在仍會頓時感到害怕。",
+        "starter": "The",
+        "answer": "The thought that he might have deleted the only copy still makes Owen go hot and cold.",
+        "answerZh": "一想到自己可能刪除了唯一的副本，現在仍會令奧雲頓時感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q47",
+        "number": 47,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Very few things cause me to feel sudden fear as quickly as a late-night call from an unknown number.",
+        "promptZh": "很少事情會像陌生號碼的深夜來電一樣，令我如此迅速地感到害怕。",
+        "starter": "Few",
+        "answer": "Few things make me go hot and cold as quickly as a late-night call from an unknown number.",
+        "answerZh": "很少事情會像陌生號碼的深夜來電一樣，令我如此迅速地感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q48",
+        "number": 48,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "I suddenly felt frightened, not because the room was cold, but because I heard somebody whisper my name.",
+        "promptZh": "我頓時感到害怕，不是因為房間寒冷，而是因為我聽到有人低聲叫出我的名字。",
+        "starter": "I",
+        "answer": "I went hot and cold, not because the room was cold, but because I heard somebody whisper my name.",
+        "answerZh": "我頓時感到害怕，不是因為房間寒冷，而是因為我聽到有人低聲叫出我的名字。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "went hot and cold"
+      },
+      {
+        "id": "idiom-87-q49",
+        "number": 49,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Isabel did not suddenly become anxious until the train had left and she thought that her bag was still on the platform.",
+        "promptZh": "直至火車開出，而伊莎貝爾想到手袋可能仍在月台上，她才頓時感到不安。",
+        "starter": "Only",
+        "answer": "Only when the train had left did Isabel go hot and cold at the thought that her bag was still on the platform.",
+        "answerZh": "直至火車開出，而伊莎貝爾想到手袋可能仍在月台上，她才頓時感到不安。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "go hot and cold"
+      },
+      {
+        "id": "idiom-87-q50",
+        "number": 50,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Before the doctor explained that the shadow was harmless, Thomas had already experienced several sudden waves of fear.",
+        "promptZh": "在醫生解釋那個陰影沒有危險前，湯馬斯已經數次突然感到害怕。",
+        "starter": "By",
+        "answer": "By the time the doctor explained that the shadow was harmless, Thomas had already gone hot and cold several times.",
+        "answerZh": "在醫生解釋那個陰影沒有危險前，湯馬斯已經數次突然感到害怕。",
+        "targetForm": "go hot and cold",
+        "targetMeaning": "To experience a sudden strong feeling of fear, anxiety or worry.",
+        "highlight": "gone hot and cold"
+      }
+    ]
+  }
+}

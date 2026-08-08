@@ -695,10 +695,10 @@ After the preview is correct:
 node tools/generate-homework-resource-catalog.mjs
 ```
 
-The current unchanged baseline prints:
+The current catalogue baseline prints:
 
 ```text
-Wrote 1896 homework resources to homework-resource-catalog.mjs
+Wrote 3174 homework resources to homework-resource-catalog.mjs
 ```
 
 The expected number after a release is:
@@ -1390,6 +1390,10 @@ Counts before:
   fill-blanks:
   speaking:
   sentence-structure:
+  idiom:
+  proverb:
+  phrasal-verb:
+  writing-submission:
   total:
 
 Counts after:
@@ -1397,6 +1401,10 @@ Counts after:
   fill-blanks:
   speaking:
   sentence-structure:
+  idiom:
+  proverb:
+  phrasal-verb:
+  writing-submission:
   total:
 
 Expected delta:

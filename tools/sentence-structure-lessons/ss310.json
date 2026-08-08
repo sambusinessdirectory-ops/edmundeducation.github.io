@@ -1,0 +1,1233 @@
+{
+  "id": "ss310",
+  "order": 310,
+  "slug": "correct-me-if-i-am-wrong",
+  "title": "「Correct me if I am wrong」禮貌地確認資料或提出看法",
+  "titleZh": "「Correct me if I am wrong」禮貌地確認資料或提出看法",
+  "titleEn": "Using “Correct me if I am wrong”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 309 - 「Correct me if I am wrong」禮貌地確認資料或提出看法.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sha256": "98d9cdc2c72dd9d03775bffc38bfde5c0cb94cb4ccec013837c07ba2f9d4a01d",
+    "sourceNumber": 309,
+    "systemOrder": 310,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 309 maps to ss310: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Correct me if I am wrong about + noun / -ing, but + clause",
+  "formulas": [
+    {
+      "id": "ss310-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Correct me if I am wrong about + noun / -ing, but + clause"
+    }
+  ],
+  "example": "Correct me if I am wrong, but the lesson starts at nine.",
+  "exampleZh": "如果我記錯了，請糾正我，但課堂在九時開始。",
+  "examples": [
+    {
+      "id": "ss310-example-01",
+      "en": "Correct me if I am wrong, but the lesson starts at nine.",
+      "zh": "如果我記錯了，請糾正我，但課堂在九時開始。",
+      "highlight": "Correct me if I am wrong, but the lesson starts at nine."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss310-rule-01",
+      "zh": "完整固定表達是 Correct me if I am wrong。其中 me 是 correct 的受詞，am 是條件子句不可缺少的動詞，字詞次序亦要保持不變。省去 me 或 am 都會令句子結構不完整，因此改寫時必須保留整個慣用表達。",
+      "en": "The core expression is “correct me if I am wrong” The complete fixed core is: correct + me + if + I + am + wrong correct + me + if + I + am + wrong Do not omit me or am. Correct if I am wrong. Correct me if I wrong. Correct me if I am wrong.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss310-rule-02",
+      "zh": "因此，but + clause 用來帶出說話者的看法、疑問、修正或可能不同的意見，並不是固定核心表達的一部分。",
+      "en": "“But + clause” is a common extension The expression is already grammatically complete without but: Correct me if I am wrong. The following statement may be added afterwards: Correct me if I am wrong, but the total includes tax. Therefore, but + clause introduces the speaker’s belief, question, correction or possible disagreement. It is not part of the fixed core expression.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss310-rule-03",
+      "zh": "這個表達可以放在主句前、主句中間、主句後、冒號前或問題前，亦可以使用 about 指出可能出錯的資料。",
+      "en": "Do not place every example at the beginning The expression can appear: before the main statement inside the main statement after the main statement before a colon before a question with about + a particular detail.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss310-rule-04",
+      "zh": "表達 Correct me if I am wrong 可放在句首、句中或句尾，並要按位置使用合適標點：句中作插入語時前後加逗號，句尾前可加逗號，也可用破折號或冒號連接相關陳述。",
+      "en": "Use suitable punctuation At the beginning: Correct me if I am wrong, but the figure includes tax. In the middle: The figure, correct me if I am wrong, includes tax. At the end: The figure includes tax, but correct me if I am wrong. With a dash: The figure includes tax—correct me if I am wrong. With a colon: Correct me if I am wrong: the figure includes tax.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss310-rule-05",
+      "zh": "目標表達【Correct me if I am wrong】可以令糾正或不同意見聽起來較婉轉。不過，如果語氣不友善，它仍可能帶有諷刺或挑戰意味。",
+      "en": "The expression softens a statement but does not make it harmless Correct me if I am wrong can make a correction or disagreement sound less direct. However, an unfriendly tone may still make it sound sarcastic or challenging. Correct me if I am wrong Use it most naturally when: you are genuinely uncertain you are checking a fact you are recalling an agreement you are politely questioning another person’s information you are inviting clarification.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss310-rule-06",
+      "zh": "改寫必須保留原句的確定程度。若原句用 may be mistaken 和 appears to be missing表達不確定，加入 Correct me if I am wrong 後仍要保留 appears；不可擅自改成 is definitely missing，否則意思會變得過度肯定。",
+      "en": "Do not automatically change the original meaning A source sentence expressing uncertainty must remain uncertain. Source: I may be mistaken, but the payment appears to be missing. Suitable transformation: Correct me if I am wrong, but the payment appears to be missing. Do not change appears to be missing into is definitely missing.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss310-benefit-01",
+      "zh": "你不需要直接指出對方資料錯誤，而是先承認自己的理解也可能不準確，令確認資料的語氣較有禮貌。第二句表示說話者願意聽取對方解釋，較適合會議、課堂及工作場合。",
+      "en": "It helps you check information politely Instead of directly telling another person that their information is wrong, you first admit that your own understanding may be imperfect. Compare: The meeting is on Friday, not Thursday. Correct me if I am wrong, but the meeting is on Friday, not Thursday. The second version sounds more open to discussion.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss310-benefit-02",
+      "zh": "你可以對一個看法、決定或過往說法提出疑問，而不會一開始便顯得咄咄逼人。",
+      "en": "It softens disagreement You can question an idea, decision or previous statement without sounding immediately confrontational. Correct me if I am wrong, but didn’t we agree to test the system first?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss310-benefit-03",
+      "zh": "這個表達能讓對方知道，你是在說出目前的理解，而不是聲稱自己絕對正確。",
+      "en": "It shows honest uncertainty The expression tells the listener that you are giving your present understanding rather than claiming absolute certainty. This is useful when discussing: figures dates instructions agreements procedures reports previous conversations.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss310-benefit-04",
+      "zh": "聽者會明白，他們可以補充資料、作出解釋或糾正說話者。這能令討論更具合作性。",
+      "en": "It invites clarification The listener understands that they are welcome to explain, correct or add information. This can make discussions more cooperative.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss310-benefit-05",
+      "zh": "在說話時，你可以先使用這個固定框架，然後再加入想確認的內容，令回應更有條理。",
+      "en": "It gives you time to organise a careful response The phrase works as a ready-made speaking frame: Correct me if I am wrong, but __________. When speaking, you can use the frame first and then add the point that you want to confirm.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss310-benefit-06",
+      "zh": "這個表達不一定要放在句首。把它放在句中或句尾，可以增加句式變化，亦能避免學生只靠位置猜測答案。",
+      "en": "It creates sentence variety The expression does not always need to begin the sentence. Moving it to the middle or end allows you to vary the way your sentences are organised.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 309 maps to ss310: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using correct me if I am wrong.",
+      "Use a natural position for the target expression. It may appear at the beginning, in the middle or",
+      "at the end of the sentence.",
+      "Preserve the original meaning, uncertainty, tense, question form and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 correct me if I am wrong 改寫以下句子。",
+      "請把目標表達放在自然的位置。它可以出現在句首、句中或句尾。",
+      "答案須保留原句的意思、不確定語氣、時態、疑問形式及重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss310-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I may be mistaken, but I think the lesson starts at nine.",
+      "promptZh": "我可能記錯了，但我認為課堂在九時開始。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong, but the lesson starts at nine.",
+      "answerZh": "如果我記錯了，請糾正我，但課堂在九時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong, but the lesson starts at nine."
+    },
+    {
+      "id": "ss310-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As far as I know, the library closes at six. Please tell me if that is incorrect.",
+      "promptZh": "據我所知，圖書館在六時關門。如果資料不正確，請告訴我。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library closes at six, but correct me if I am wrong.",
+      "answerZh": "圖書館在六時關門，但如果我的資料有錯，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "The library closes at six, but correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I believe this bus goes to the town centre, although I may have the wrong information.",
+      "promptZh": "我相信這輛巴士前往市中心，但我的資料可能有錯。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong, but this bus goes to the town centre.",
+      "answerZh": "如果我的資料有錯，請糾正我，但這輛巴士前往市中心。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong, but this bus goes to the town centre."
+    },
+    {
+      "id": "ss310-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I think the blue form is for new students, but I am not completely certain.",
+      "promptZh": "我認為藍色表格是供新生使用的，但我並不完全肯定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue form, correct me if I am wrong, is for new students.",
+      "answerZh": "如果我理解錯了，請糾正我，但藍色表格是供新生使用的。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue form, correct me if I am wrong, is for new students."
+    },
+    {
+      "id": "ss310-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I may have remembered wrongly, but I think you ordered the vegetable soup.",
+      "promptZh": "我可能記錯了，但我認為你點了雜菜湯。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I’m wrong, but you ordered the vegetable soup.",
+      "answerZh": "如果我記錯了，請糾正我，但你點了雜菜湯。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I’m wrong, but you ordered the vegetable soup."
+    },
+    {
+      "id": "ss310-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "My understanding is that we need to bring our own towels. Please tell me if this is incorrect.",
+      "promptZh": "我的理解是我們需要自備毛巾。如果這並不正確，請告訴我。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to bring our own towels, but correct me if I am wrong.",
+      "answerZh": "我們需要自備毛巾，但如果我的理解有錯，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to bring our own towels, but correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I may have the wrong room number, but I think the class is in Room 204.",
+      "promptZh": "我可能記錯了房間號碼，但我認為課堂在204室上課。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong about the room number, but the class is in Room 204.",
+      "answerZh": "如果我記錯了房間號碼，請糾正我，但課堂在204室上課。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong about the room number, but the class is in Room 204."
+    },
+    {
+      "id": "ss310-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I believe the meeting is on Friday, not Thursday, although I may be mistaken.",
+      "promptZh": "我相信會議是在星期五而不是星期四舉行，但我可能記錯了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting is on Friday, not Thursday—correct me if I am wrong.",
+      "answerZh": "會議是在星期五而不是星期四舉行；如果我記錯了，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting is on Friday, not Thursday—correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Please tell me if my information is wrong: the shop opens at ten on Sundays.",
+      "promptZh": "如果我的資料有錯，請告訴我：商店逢星期日上午十時開門。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong: the shop opens at ten on Sundays.",
+      "answerZh": "如果我的資料有錯，請糾正我：商店逢星期日上午十時開門。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong: the shop opens at ten on Sundays."
+    },
+    {
+      "id": "ss310-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Am I mistaken, or did you say the test was next week?",
+      "promptZh": "我是否記錯了？你不是說測驗在下星期嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong, but didn’t you say the test was next week?",
+      "answerZh": "如果我記錯了，請糾正我，但你不是說測驗在下星期嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong, but didn’t you say the test was next week?"
+    },
+    {
+      "id": "ss310-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I think the red key opens the back door, although I am not certain.",
+      "promptZh": "我認為紅色鎖匙可以打開後門，但我並不肯定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The red key, correct me if I am wrong, opens the back door.",
+      "answerZh": "如果我記錯了，請糾正我，但紅色鎖匙可以打開後門。",
+      "answerZhSource": "pdf",
+      "highlight": "The red key, correct me if I am wrong, opens the back door."
+    },
+    {
+      "id": "ss310-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As I understand it, the price includes delivery. Please tell me if this is not the case.",
+      "promptZh": "按照我的理解，價錢包括送貨。如果並非如此，請告訴我。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong, but the price includes delivery.",
+      "answerZh": "如果我的理解有錯，請糾正我，但價錢包括送貨。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong, but the price includes delivery."
+    },
+    {
+      "id": "ss310-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I believe we are supposed to submit one copy each, but I may be wrong.",
+      "promptZh": "我相信我們每人應該提交一份，但我可能理解錯了。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We are supposed to submit one copy each, but correct me if I am wrong.",
+      "answerZh": "我們每人應該提交一份，但如果我理解錯了，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "We are supposed to submit one copy each, but correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I may have misunderstood the schedule, but I think lunch begins at half past twelve.",
+      "promptZh": "我可能誤解了時間表，但我認為午膳在十二時半開始。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong about the schedule, but lunch begins at half past twelve.",
+      "answerZh": "如果我誤解了時間表，請糾正我，但午膳在十二時半開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong about the schedule, but lunch begins at half past twelve."
+    },
+    {
+      "id": "ss310-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As far as I remember, the train stops at every station after Oxford, but I could be mistaken.",
+      "promptZh": "據我記憶，火車經過牛津後會在每個車站停車，但我可能記錯了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train, correct me if I am wrong, stops at every station after Oxford.",
+      "answerZh": "如果我記錯了，請糾正我，但火車經過牛津後會在每個車站停車。",
+      "answerZhSource": "pdf",
+      "highlight": "The train, correct me if I am wrong, stops at every station after Oxford."
+    },
+    {
+      "id": "ss310-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I may be mistaken, but I believe the manager approved this version yesterday.",
+      "promptZh": "我可能記錯了，但我相信經理昨天批准了這個版本。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please correct me if I am wrong, but the manager approved this version yesterday.",
+      "answerZh": "如果我記錯了，請糾正我，但經理昨天批准了這個版本。",
+      "answerZhSource": "pdf",
+      "highlight": "Please correct me if I am wrong, but the manager approved this version yesterday."
+    },
+    {
+      "id": "ss310-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "My understanding is that the café accepts card payments. Is that correct?",
+      "promptZh": "我的理解是這間咖啡店接受銀行卡付款。這是正確的嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café accepts card payments, but correct me if I am wrong.",
+      "answerZh": "這間咖啡店接受銀行卡付款，但如果我的理解有錯，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "The café accepts card payments, but correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Am I wrong, or have we already paid the deposit?",
+      "promptZh": "我是否記錯了？我們不是已經支付了訂金嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong, but haven’t we already paid the deposit?",
+      "answerZh": "如果我記錯了，請糾正我，但我們不是已經支付了訂金嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong, but haven’t we already paid the deposit?"
+    },
+    {
+      "id": "ss310-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As I understand it, the course lasts for eight weeks, though I may have misunderstood.",
+      "promptZh": "按照我的理解，課程為期八星期，但我可能理解錯了。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As I understand it—correct me if I am wrong—the course lasts for eight weeks.",
+      "answerZh": "按照我的理解，課程為期八星期；如果我理解錯了，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "As I understand it—correct me if I am wrong—the course lasts for eight weeks."
+    },
+    {
+      "id": "ss310-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Please tell me if this is incorrect: only staff members can enter this room.",
+      "promptZh": "如果這項資料有錯，請告訴我：只有職員可以進入這個房間。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong: only staff members can enter this room.",
+      "answerZh": "如果我的資料有錯，請糾正我：只有職員可以進入這個房間。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong: only staff members can enter this room."
+    },
+    {
+      "id": "ss310-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I may be wrong about the final figure, but I think it includes last year’s expenses.",
+      "promptZh": "我可能對最終數字的理解有錯，但我認為它包括去年的開支。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final figure, correct me if I am wrong, includes last year’s expenses.",
+      "answerZh": "如果我理解錯了，請糾正我，但最終數字包括去年的開支。",
+      "answerZhSource": "pdf",
+      "highlight": "The final figure, correct me if I am wrong, includes last year’s expenses."
+    },
+    {
+      "id": "ss310-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Unless I have misunderstood the announcement, the new policy applies to part-time staff as well.",
+      "promptZh": "除非我誤解了通告，否則新政策亦適用於兼職員工。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong, but the new policy applies to part-time staff as well.",
+      "answerZh": "如果我誤解了通告，請糾正我，但新政策亦適用於兼職員工。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong, but the new policy applies to part-time staff as well."
+    },
+    {
+      "id": "ss310-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I think we should contact the supplier first, although I could be wrong.",
+      "promptZh": "我認為我們應該先聯絡供應商，但我的看法可能有錯。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should contact the supplier first, but correct me if I am wrong.",
+      "answerZh": "我們應該先聯絡供應商，但如果我的看法有錯，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "We should contact the supplier first, but correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I may have misunderstood the booking details, but I think breakfast is included in the price.",
+      "promptZh": "我可能誤解了預訂資料，但我認為價錢包括早餐。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong about the booking, but breakfast is included in the price.",
+      "answerZh": "如果我誤解了預訂資料，請糾正我，但價錢包括早餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong about the booking, but breakfast is included in the price."
+    },
+    {
+      "id": "ss310-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I believe Chloe prepared the first draft, though I may have the wrong person.",
+      "promptZh": "我相信初稿由克洛伊準備，但我可能記錯了人物。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was Chloe, correct me if I am wrong, who prepared the first draft.",
+      "answerZh": "如果我記錯了人物，請糾正我，但準備初稿的是克洛伊。",
+      "answerZhSource": "pdf",
+      "highlight": "It was Chloe, correct me if I am wrong, who prepared the first draft."
+    },
+    {
+      "id": "ss310-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I may be mistaken, but was the equipment checked before the event?",
+      "promptZh": "我可能記錯了，但設備是否在活動前接受了檢查？",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong, but was the equipment checked before the event?",
+      "answerZh": "如果我記錯了，請糾正我，但設備是否在活動前接受了檢查？",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong, but was the equipment checked before the event?"
+    },
+    {
+      "id": "ss310-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As far as I can tell, the missing payment came from the April invoice, although I may be wrong.",
+      "promptZh": "據我判斷，遺失的款項來自四月份的發票，但我的判斷可能有錯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The missing payment came from the April invoice—correct me if I am wrong.",
+      "answerZh": "遺失的款項來自四月份的發票；如果我的判斷有錯，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "The missing payment came from the April invoice—correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I may be mistaken, but this paragraph seems to repeat the same point twice.",
+      "promptZh": "我可能理解錯了，但這一段似乎把同一個論點重複了兩次。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do correct me if I am wrong, but this paragraph seems to repeat the same point twice.",
+      "answerZh": "如果我理解錯了，務必糾正我，但這一段似乎把同一個論點重複了兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "Do correct me if I am wrong, but this paragraph seems to repeat the same point twice."
+    },
+    {
+      "id": "ss310-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "According to my understanding of the notes, the second stage begins after approval, but I may be wrong.",
+      "promptZh": "按照我對筆記的理解，第二階段在獲得批准後開始，但我可能理解錯了。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the notes—correct me if I am wrong—the second stage begins after approval.",
+      "answerZh": "按照筆記，如果我的理解有錯，請糾正我，但第二階段在獲得批准後開始。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the notes—correct me if I am wrong—the second stage begins after approval."
+    },
+    {
+      "id": "ss310-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Please tell me if I have misunderstood the system: it automatically saves a copy every five minutes.",
+      "promptZh": "如果我誤解了系統，請告訴我：系統每五分鐘會自動儲存一份副本。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong: the system automatically saves a copy every five minutes.",
+      "answerZh": "如果我誤解了系統，請糾正我：系統每五分鐘會自動儲存一份副本。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong: the system automatically saves a copy every five minutes."
+    },
+    {
+      "id": "ss310-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I believe the decision was made before the survey results arrived, but I may be mistaken.",
+      "promptZh": "我相信這項決定在調查結果送達前已經作出，但我可能記錯了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision, correct me if I am wrong, was made before the survey results arrived.",
+      "answerZh": "如果我記錯了，請糾正我，但這項決定在調查結果送達前已經作出。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision, correct me if I am wrong, was made before the survey results arrived."
+    },
+    {
+      "id": "ss310-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I may have misunderstood the figures, but they seem to show that sales rose in all three regions.",
+      "promptZh": "我可能誤解了這些數字，但它們似乎顯示三個地區的銷售額都有上升。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong about the figures, but sales rose in all three regions.",
+      "answerZh": "如果我誤解了這些數字，請糾正我，但三個地區的銷售額都有上升。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong about the figures, but sales rose in all three regions."
+    },
+    {
+      "id": "ss310-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "As I remember it, we agreed to test the new process for one month, although I may be wrong.",
+      "promptZh": "按照我的記憶，我們同意測試新流程一個月，但我可能記錯了。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We agreed to test the new process for one month, but correct me if I am wrong.",
+      "answerZh": "我們同意測試新流程一個月，但如果我記錯了，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "We agreed to test the new process for one month, but correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I may be mistaken, but shouldn’t the warning appear before the instructions?",
+      "promptZh": "我可能理解錯了，但警告不是應該放在指示之前嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong, but shouldn’t the warning appear before the instructions?",
+      "answerZh": "如果我理解錯了，請糾正我，但警告不是應該放在指示之前嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong, but shouldn’t the warning appear before the instructions?"
+    },
+    {
+      "id": "ss310-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I think the council plans to repair the bridge rather than replace it, but I am not certain.",
+      "promptZh": "我認為議會計劃維修大橋，而不是更換大橋，但我並不肯定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council plans to repair the bridge rather than replace it, but correct me if I am wrong.",
+      "answerZh": "議會計劃維修大橋而不是更換大橋，但如果我的理解有錯，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "The council plans to repair the bridge rather than replace it, but correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "As far as I remember, the original budget was £20,000, although I could be mistaken.",
+      "promptZh": "據我記憶，原有預算是二萬英鎊，但我可能記錯了。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As far as I remember—correct me if I am wrong—the original budget was £20,000.",
+      "answerZh": "據我記憶，原有預算是二萬英鎊；如果我記錯了，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "As far as I remember—correct me if I am wrong—the original budget was £20,000."
+    },
+    {
+      "id": "ss310-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Please tell me if my understanding is incorrect: the refund can take up to ten working days.",
+      "promptZh": "如果我的理解有錯，請告訴我：退款最多可能需要十個工作天。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please correct me if I am wrong: the refund can take up to ten working days.",
+      "answerZh": "如果我的理解有錯，請糾正我：退款最多可能需要十個工作天。",
+      "answerZhSource": "pdf",
+      "highlight": "Please correct me if I am wrong: the refund can take up to ten working days."
+    },
+    {
+      "id": "ss310-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I think the first paragraph explains why the project was delayed, but I may have misunderstood it.",
+      "promptZh": "我認為第一段解釋了項目延誤的原因，但我可能誤解了該段內容。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first paragraph, correct me if I am wrong, explains why the project was delayed.",
+      "answerZh": "如果我誤解了該段內容，請糾正我，但第一段解釋了項目延誤的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "The first paragraph, correct me if I am wrong, explains why the project was delayed."
+    },
+    {
+      "id": "ss310-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Unless I have missed an update, no one has confirmed the final venue yet.",
+      "promptZh": "除非我錯過了最新消息，否則仍然沒有人確認最終場地。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong, but no one has confirmed the final venue yet.",
+      "answerZh": "如果我錯過了最新消息，請糾正我，但仍然沒有人確認最終場地。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong, but no one has confirmed the final venue yet."
+    },
+    {
+      "id": "ss310-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I believe the document should be signed by both directors, although I may be mistaken.",
+      "promptZh": "我相信文件應該由兩名董事簽署，但我可能理解錯了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The document should be signed by both directors—correct me if I am wrong.",
+      "answerZh": "文件應該由兩名董事簽署；如果我的理解有錯，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "The document should be signed by both directors—correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I may have misunderstood the procedure, but I believe applicants must provide two references before the interview.",
+      "promptZh": "我可能誤解了程序，但我相信申請人必須在面試前提供兩名推薦人的資料。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong about the procedure, but applicants must provide two references before the interview.",
+      "answerZh": "如果我誤解了程序，請糾正我，但申請人必須在面試前提供兩名推薦人的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong about the procedure, but applicants must provide two references before the interview."
+    },
+    {
+      "id": "ss310-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "As I read it, the revised timetable gives each group an extra fifteen minutes, though I may be wrong.",
+      "promptZh": "按照我對修訂時間表的理解，每組會獲得額外十五分鐘，但我可能理解錯了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The revised timetable, correct me if I am wrong, gives each group an extra fifteen minutes.",
+      "answerZh": "如果我對修訂時間表的理解有錯，請糾正我，但每組會獲得額外十五分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The revised timetable, correct me if I am wrong, gives each group an extra fifteen minutes."
+    },
+    {
+      "id": "ss310-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I think we would need the landlord’s permission before changing the door, but please tell me if that is incorrect.",
+      "promptZh": "我認為我們在更換門之前需要得到業主批准，但如果這並不正確，請告訴我。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We would need the landlord’s permission before changing the door, but correct me if I am wrong.",
+      "answerZh": "我們在更換門之前需要得到業主批准，但如果我的理解有錯，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "We would need the landlord’s permission before changing the door, but correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I may be mistaken, but if the first test fails, the team will repeat it with a larger sample.",
+      "promptZh": "我可能理解錯了，但如果第一次測試失敗，團隊會使用較大的樣本再次進行測試。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong, but if the first test fails, the team will repeat it with a larger sample.",
+      "answerZh": "如果我理解錯了，請糾正我，但如果第一次測試失敗，團隊會使用較大的樣本再次進行測試。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong, but if the first test fails, the team will repeat it with a larger sample."
+    },
+    {
+      "id": "ss310-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I believe the finance department requested the additional documents, though I may have confused it with another department.",
+      "promptZh": "我相信額外文件是由財務部要求提供的，但我可能把它與另一個部門混淆了。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the finance department—correct me if I am wrong—that requested the additional documents.",
+      "answerZh": "如果我記錯了部門，請糾正我，但要求提供額外文件的是財務部。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the finance department—correct me if I am wrong—that requested the additional documents."
+    },
+    {
+      "id": "ss310-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "I may have misunderstood this point, but the contract does not appear to guarantee a fixed delivery date.",
+      "promptZh": "我可能誤解了這一點，但合約似乎沒有保證固定送貨日期。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please correct me if I am wrong about this point, but the contract does not appear to guarantee a fixed delivery date.",
+      "answerZh": "如果我誤解了這一點，請糾正我，但合約似乎沒有保證固定送貨日期。",
+      "answerZhSource": "pdf",
+      "highlight": "Please correct me if I am wrong about this point, but the contract does not appear to guarantee a fixed delivery date."
+    },
+    {
+      "id": "ss310-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "As far as I know, the service remains free for existing users. Please tell me if this is no longer true.",
+      "promptZh": "據我所知，現有用戶仍然可以免費使用這項服務。如果情況已經改變，請告訴我。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The service remains free for existing users, but correct me if I am wrong.",
+      "answerZh": "現有用戶仍然可以免費使用這項服務，但如果我的資料已經過時，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "The service remains free for existing users, but correct me if I am wrong."
+    },
+    {
+      "id": "ss310-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Am I mistaken, or was the purpose of the survey to identify the main safety concerns?",
+      "promptZh": "我是否理解錯了？這項調查的目的不是找出主要安全問題嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong, but wasn’t the purpose of the survey to identify the main safety concerns?",
+      "answerZh": "如果我理解錯了，請糾正我，但這項調查的目的不是找出主要安全問題嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong, but wasn’t the purpose of the survey to identify the main safety concerns?"
+    },
+    {
+      "id": "ss310-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "From what I understand, the proposal can proceed only after both committees approve it, although I may be wrong.",
+      "promptZh": "按照我的理解，建議只有在兩個委員會都批准後才能繼續進行，但我可能理解錯了。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From what I understand—correct me if I am wrong—the proposal can proceed only after both committees approve it.",
+      "answerZh": "按照我的理解，建議只有在兩個委員會都批准後才能繼續進行；如果我理解錯了，請糾正我。",
+      "answerZhSource": "pdf",
+      "highlight": "From what I understand—correct me if I am wrong—the proposal can proceed only after both committees approve it."
+    },
+    {
+      "id": "ss310-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Please tell me if I am mistaken: although the figures look better this quarter, total costs are still above the original forecast.",
+      "promptZh": "如果我的理解有錯，請告訴我：雖然本季度的數字有所改善，但總成本仍然高於原來的預測。",
+      "promptZhSource": "pdf",
+      "starter": "Correct",
+      "answer": "Correct me if I am wrong: although the figures look better this quarter, total costs are still above the original forecast.",
+      "answerZh": "如果我的理解有錯，請糾正我：雖然本季度的數字有所改善，但總成本仍然高於原來的預測。",
+      "answerZhSource": "pdf",
+      "highlight": "Correct me if I am wrong: although the figures look better this quarter, total costs are still above the original forecast."
+    }
+  ]
+}

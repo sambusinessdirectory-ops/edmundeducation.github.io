@@ -1,0 +1,1396 @@
+{
+  "lesson": {
+    "id": "idiom-39",
+    "order": 39,
+    "slug": "a-meeting-of-minds",
+    "version": "1",
+    "title": "思想契合／達成共識",
+    "titleEn": "a meeting of minds",
+    "titleZh": "思想契合／達成共識",
+    "source": {
+      "file": "Idiom 39 - “A Meeting of Minds”.pdf",
+      "pageCount": 28,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "exercisePdfPages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "answerKeyPdfPages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a meeting of minds",
+        "highlight": "a meeting of minds"
+      }
+    ],
+    "examples": [
+      {
+        "en": "There was a meeting of minds between the teacher and the parents about the new rule.",
+        "zh": "老師和家長就新規則達成了共識。",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "en": "The two designers had a meeting of minds on the main idea.",
+        "zh": "兩位設計師就主要想法意見一致。",
+        "highlight": "a meeting of minds"
+      }
+    ],
+    "meaning": {
+      "en": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+      "zh": "兩個或以上的人對某件事意見一致、想法相近，或彼此建立緊密的共同理解。",
+      "naturalZh": [
+        "兩個或以上的人對某件事意見一致、想法相近，或彼此建立緊密的共同理解。"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral to Formal",
+      "labelZh": "中性至正式",
+      "summaryEn": "school and workplace discussions; meetings and interviews; reports, articles and presentations; polite conversations about plans or decisions.",
+      "summaryZh": "這個表達的語氣一般屬於中性至略為正式，適合用於：",
+      "contextsEn": [
+        "school and workplace discussions",
+        "meetings and interviews",
+        "reports, articles and presentations",
+        "polite conversations about plans or decisions",
+        "a meeting of mind",
+        "a mind meeting",
+        "a meeting between minds",
+        "meetings of minds",
+        "a meeting of the minds"
+      ],
+      "contextsZh": [
+        "學校及工作討論",
+        "會議及訪問",
+        "報告、文章及簡報",
+        "有關計劃或決定的禮貌對話。"
+      ],
+      "formalEn": "The expression is generally neutral to slightly formal. It is natural in:",
+      "formalZh": "meeting of the minds 是一個獲認可的變體，尤其常見於美國法律用語。 不過，本練習的指定目標是 a meeting of minds，因此所有答案都必須使用這個形式。"
+    },
+    "fixedVariable": {
+      "fixed": "a meeting of minds",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "There + be + a meeting of minds + between A and B + on/about something.",
+          "example": "There was a meeting of minds between the teacher and the parents about the new rule.",
+          "highlight": "a meeting of minds"
+        },
+        {
+          "form": "People or groups + have + a meeting of minds + on/about something.",
+          "example": "The two designers had a meeting of minds on the main idea.",
+          "highlight": "a meeting of minds"
+        },
+        {
+          "form": "People or groups + come to + a meeting of minds + on/about something.",
+          "example": "The two teams came to a meeting of minds on the final plan.",
+          "highlight": "a meeting of minds"
+        },
+        {
+          "form": "People or groups + reach + a meeting of minds + on/about something.",
+          "example": "The manager and the customer reached a meeting of minds on the replacement.",
+          "highlight": "a meeting of minds"
+        },
+        {
+          "form": "Discussion, information or experience + lead to + a meeting of minds + between people.",
+          "example": "The discussion led to a meeting of minds between the two clubs.",
+          "highlight": "a meeting of minds"
+        },
+        {
+          "form": "Something + bring about + a meeting of minds + between people.",
+          "example": "The new information brought about a meeting of minds between the two sides.",
+          "highlight": "a meeting of minds"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "“There + Be” Structure",
+        "titleZh": "句式一：There + Be 結構",
+        "formula": "There + be + a meeting of minds + between A and B + on/about something.",
+        "descriptionEn": "Source grammar frame: There + be + a meeting of minds + between A and B + on/about something.",
+        "descriptionZh": "原檔列出的句法框架：There + be + a meeting of minds + between A and B + on/about something。",
+        "examples": [
+          {
+            "en": "There was a meeting of minds between the teacher and the parents about the new rule.",
+            "zh": "老師和家長就新規則達成了共識。",
+            "highlight": "a meeting of minds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "“Have” Structure",
+        "titleZh": "句式二：Have 結構",
+        "formula": "People or groups + have + a meeting of minds + on/about something.",
+        "descriptionEn": "Source grammar frame: People or groups + have + a meeting of minds + on/about something.",
+        "descriptionZh": "原檔列出的句法框架：People or groups + have + a meeting of minds + on/about something。",
+        "examples": [
+          {
+            "en": "The two designers had a meeting of minds on the main idea.",
+            "zh": "兩位設計師就主要想法意見一致。",
+            "highlight": "a meeting of minds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "“Come To” Structure",
+        "titleZh": "句式三：Come To 結構",
+        "formula": "People or groups + come to + a meeting of minds + on/about something.",
+        "descriptionEn": "Source grammar frame: People or groups + come to + a meeting of minds + on/about something.",
+        "descriptionZh": "原檔列出的句法框架：People or groups + come to + a meeting of minds + on/about something。",
+        "examples": [
+          {
+            "en": "The two teams came to a meeting of minds on the final plan.",
+            "zh": "兩個團隊就最終計劃達成了共識。",
+            "highlight": "a meeting of minds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "“Reach” Structure",
+        "titleZh": "句式四：Reach 結構",
+        "formula": "People or groups + reach + a meeting of minds + on/about something.",
+        "descriptionEn": "Source grammar frame: People or groups + reach + a meeting of minds + on/about something.",
+        "descriptionZh": "原檔列出的句法框架：People or groups + reach + a meeting of minds + on/about something。",
+        "examples": [
+          {
+            "en": "The manager and the customer reached a meeting of minds on the replacement.",
+            "zh": "經理和顧客就替換安排達成了共識。",
+            "highlight": "a meeting of minds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "“Lead To” Structure",
+        "titleZh": "句式五：Lead To 結構",
+        "formula": "Discussion, information or experience + lead to + a meeting of minds + between people.",
+        "descriptionEn": "Source grammar frame: Discussion, information or experience + lead to + a meeting of minds + between people.",
+        "descriptionZh": "原檔列出的句法框架：Discussion, information or experience + lead to + a meeting of minds + between people。",
+        "examples": [
+          {
+            "en": "The discussion led to a meeting of minds between the two clubs.",
+            "zh": "這次討論令兩個學會達成了共識。",
+            "highlight": "a meeting of minds"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“Bring About” Structure",
+        "titleZh": "句式六：Bring About 結構",
+        "formula": "Something + bring about + a meeting of minds + between people.",
+        "descriptionEn": "Source grammar frame: Something + bring about + a meeting of minds + between people.",
+        "descriptionZh": "原檔列出的句法框架：Something + bring about + a meeting of minds + between people。",
+        "examples": [
+          {
+            "en": "The new information brought about a meeting of minds between the two sides.",
+            "zh": "新資料令雙方達成了共識。",
+            "highlight": "a meeting of minds"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Summarises a Longer Development",
+        "titleZh": "把較長的發展過程濃縮起來",
+        "en": "The two teams came to a meeting of minds on the plan.",
+        "zh": "這個慣用語可以把「經過討論、彼此理解、最後達成一致」濃縮成較簡潔的表達。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Emphasises Shared Understanding",
+        "titleZh": "強調共同理解",
+        "en": "The expression can show more than a single agreed answer. It may suggest that people now understand one another’s ideas or goals.",
+        "zh": "這個表達不一定只表示雙方同意一個答案，還可以說明大家現在理解彼此的想法或目標。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful in Group Situations",
+        "titleZh": "適合團隊情境",
+        "en": "It Is Useful in Group Situations",
+        "zh": "適合團隊情境",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Describe an Intellectual Connection",
+        "titleZh": "可以形容思想上的契合",
+        "en": "It Can Describe an Intellectual Connection",
+        "zh": "兩位作家能夠接續彼此的想法，顯然十分有默契。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Provides a Neutral, Polished Alternative",
+        "titleZh": "提供中性而較完整的替代說法",
+        "en": "The expression gives speakers another way to describe meaningful agreement. However, it is not automatically better than agree. Use it only when the shared understanding is important enough to justify the expression.",
+        "zh": "這個表達讓說話者可以用另一種方式形容有意義的共識。 不過，它並非一定比 agree 更好。 只有當共同理解具有一定重要性時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The exact first spoken use is unknown. Merriam-Webster dates the first known use of meeting of minds in its agreement sense to 1883. This identifies an early known record, not the person who invented the expression.",
+          "zh": "確切的首次口語用法並不清楚。 Merriam-Webster 把 meeting of minds 表示「同意」的最早已知用法追溯至1883年。 這只是現時已知的早期記錄，並不代表有人能夠確認是誰創造了這個表達。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The image developed naturally: when ideas agree, separate minds appear to “meet”. A related form, meeting of the minds, is especially familiar in American contract law, where it refers to the parties agreeing to the same terms. However, this does not prove that legal language created the wider everyday expression.",
+          "zh": "這個意象自然地演變出比喻意思：當大家的想法一致時，不同的思想便彷彿「相遇」。 相關形式 meeting of the minds 在美國合約法中尤其常見，表示各方同意相同條款。 不過，這並不能證明日常使用的慣用語源自法律用語。"
+        }
+      ],
+      "memoryEn": "When the ideas come together, the minds “meet”.",
+      "memoryZh": "當大家的想法走到一起，不同的思想便「相遇」了。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "“Minds” Must Be Plural",
+        "titleZh": "規則一：Minds 必須使用複數",
+        "en": "The expression involves at least two different minds or viewpoints.",
+        "zh": "這個表達涉及至少兩個不同的思想或觀點，因此 minds 必須使用複數。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "The “Meeting” Is Figurative",
+        "titleZh": "規則二：Meeting 是比喻用法",
+        "en": "The expression is not limited to meaning that people entered the same room or attended an ordinary meeting. The teachers met in Room 3. The teachers agreed on the same plan.",
+        "zh": "這個表達並不只是指人們進入同一個房間或參加一般會議。 老師在三號室會面。 老師就同一個計劃達成共識。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "More Than One Person or Group Is Required",
+        "titleZh": "規則三：必須涉及多於一個人或群體",
+        "en": "Only Daniel supports the plan. One person’s opinion cannot form a meeting of minds.",
+        "zh": "只有丹尼爾支持這個計劃。 單獨一個人的意見不能構成 a meeting of minds。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "State the Topic Clearly",
+        "titleZh": "規則四：清楚指出共識的主題",
+        "en": "State the Topic Clearly",
+        "zh": "清楚指出共識的主題",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Use “Between” or “Among” Carefully",
+        "titleZh": "規則五：小心使用 Between 或 Among",
+        "en": "Use “Between” or “Among” Carefully",
+        "zh": "小心使用 Between 或 Among",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則六：保留時態及確定程度",
+        "en": "Do not change may reach into reached.",
+        "zh": "他們可能會達成共識。 他們已達成共識。 不要把 may reach 改成 reached，否則會把可能性變成已發生的事實。",
+        "examples": [
+          {
+            "en": "They may reach a meeting of minds.",
+            "zh": "他們可能會達成共識。",
+            "highlight": "a meeting of minds"
+          },
+          {
+            "en": "They reached a meeting of minds.",
+            "zh": "他們已達成共識。",
+            "highlight": "a meeting of minds"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "titleEn": "There Must Be Real Shared Understanding",
+        "titleZh": "規則七：必須真正存在共同理解",
+        "en": "Both sides remained polite, but they still disagreed on the main plan. There is no meeting of minds because the central disagreement remains.",
+        "zh": "雙方仍然保持禮貌，但對主要計劃依然意見不合。 由於主要分歧仍然存在，因此不能說雙方已達成共識。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Overuse It",
+        "titleZh": "規則八：不要過度使用",
+        "en": "We agreed to order tea.",
+        "zh": "我們同意點茶。 我們就點茶達成共識。",
+        "examples": [
+          {
+            "en": "We had a meeting of minds on ordering tea.",
+            "zh": "我們就點茶達成共識。",
+            "highlight": "a meeting of minds"
+          }
+        ]
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a meeting of minds.",
+      "zh": "使用 a meeting of minds 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-39-q01",
+        "number": 1,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The two class leaders agreed on how to divide the work.",
+        "promptZh": "兩名班長就如何分配工作達成一致。",
+        "starter": "The",
+        "answer": "The two class leaders had a meeting of minds on how to divide the work.",
+        "answerZh": "兩名班長就如何分配工作達成了共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q02",
+        "number": 2,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "After talking about the class trip, Ben and Grace chose the same plan.",
+        "promptZh": "本和格蕾絲討論班級旅行後，選擇了同一個計劃。",
+        "starter": "After",
+        "answer": "After talking about the class trip, Ben and Grace came to a meeting of minds on the plan.",
+        "answerZh": "本和格蕾絲討論班級旅行後，就相關計劃達成了共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q03",
+        "number": 3,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The teacher and the parents had the same view about the amount of homework.",
+        "promptZh": "老師和家長對功課量有相同看法。",
+        "starter": "There",
+        "answer": "There was a meeting of minds between the teacher and the parents about the amount of homework.",
+        "answerZh": "老師和家長就功課量意見一致。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q04",
+        "number": 4,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The shop owner and the customer agreed on how to replace the broken chair.",
+        "promptZh": "店主和顧客就如何更換損壞的椅子達成一致。",
+        "starter": "The",
+        "answer": "The shop owner and the customer reached a meeting of minds on how to replace the broken chair.",
+        "answerZh": "店主和顧客就如何更換損壞的椅子達成了共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q05",
+        "number": 5,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "After a short talk, the coach and the players agreed on the new training time.",
+        "promptZh": "經過簡短討論後，教練和球員就新的訓練時間達成一致。",
+        "starter": "After",
+        "answer": "After a short talk, the coach and the players had a meeting of minds on the new training time.",
+        "answerZh": "經過簡短討論後，教練和球員就新的訓練時間達成了共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q06",
+        "number": 6,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The two friends agreed on how to organise the birthday dinner for twenty guests.",
+        "promptZh": "兩位朋友就如何為二十位賓客安排生日晚餐達成一致。",
+        "starter": "The",
+        "answer": "The two friends came to a meeting of minds on how to organise the birthday dinner for twenty guests.",
+        "answerZh": "兩位朋友就如何為二十位賓客安排生日晚餐達成了共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q07",
+        "number": 7,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The school and the bus company agreed that a different bus stop would be safer.",
+        "promptZh": "學校和巴士公司都認為改用另一個巴士站會較安全。",
+        "starter": "There",
+        "answer": "There was a meeting of minds between the school and the bus company on using a safer bus stop.",
+        "answerZh": "學校和巴士公司就改用較安全的巴士站達成了共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q08",
+        "number": 8,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Everyone in the family agreed on how much money to save each month.",
+        "promptZh": "家中每個人都同意每月應儲蓄多少錢。",
+        "starter": "All",
+        "answer": "All the family members reached a meeting of minds on how much money to save each month.",
+        "answerZh": "所有家庭成員就每月應儲蓄多少錢達成了共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q09",
+        "number": 9,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The book club chose the same first book after everyone shared an opinion.",
+        "promptZh": "每個人分享意見後，讀書會選定了同一本書作為第一本讀物。",
+        "starter": "After",
+        "answer": "After everyone shared an opinion, the book club members had a meeting of minds on the first book to read.",
+        "answerZh": "每個人分享意見後，讀書會成員就第一本要閱讀的書達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q10",
+        "number": 10,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "By the end of the meeting, the manager and the workers agreed on the shop’s new opening hours.",
+        "promptZh": "會議結束時，經理和員工已就店舖的新營業時間達成一致。",
+        "starter": "By",
+        "answer": "By the end of the meeting, the manager and the workers had come to a meeting of minds on the shop’s new opening hours.",
+        "answerZh": "會議結束時，經理和員工已就店舖的新營業時間達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q11",
+        "number": 11,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "At every planning meeting, Chloe and Ryan agree on the main goal.",
+        "promptZh": "在每次規劃會議中，克洛伊和賴恩都對主要目標意見一致。",
+        "starter": "At",
+        "answer": "At every planning meeting, Chloe and Ryan have a meeting of minds on the main goal.",
+        "answerZh": "在每次規劃會議中，克洛伊和賴恩都對主要目標意見一致。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q12",
+        "number": 12,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The two teachers finally agreed on the new timetable yesterday.",
+        "promptZh": "兩位老師昨天終於就新時間表達成一致。",
+        "starter": "Yesterday",
+        "answer": "Yesterday, the two teachers finally came to a meeting of minds on the new timetable.",
+        "answerZh": "兩位老師昨天終於就新時間表達成了共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q13",
+        "number": 13,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The parents and the coach now agree about weekend training because of their second talk.",
+        "promptZh": "家長和教練經過第二次討論後，現在已就週末訓練達成一致。",
+        "starter": "The",
+        "answer": "The second talk has led to a meeting of minds between the parents and the coach on weekend training.",
+        "answerZh": "第二次討論令家長和教練就週末訓練達成了共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q14",
+        "number": 14,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Tomorrow’s discussion may help the two neighbours agree on the garden rules.",
+        "promptZh": "明天的討論可能有助兩位鄰居就花園規則達成一致。",
+        "starter": "Tomorrow’s",
+        "answer": "Tomorrow’s discussion may lead to a meeting of minds between the two neighbours on the garden rules.",
+        "answerZh": "明天的討論可能令兩位鄰居就花園規則達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q15",
+        "number": 15,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "If both sides listen carefully, they can agree on the delivery time.",
+        "promptZh": "如果雙方細心聆聽，他們便可以就送貨時間達成一致。",
+        "starter": "If",
+        "answer": "If both sides listen carefully, they can reach a meeting of minds on the delivery time.",
+        "answerZh": "如果雙方細心聆聽，他們便可以就送貨時間達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q16",
+        "number": 16,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The design team still does not agree on the main colour.",
+        "promptZh": "設計團隊仍未能就主要顏色達成一致。",
+        "starter": "The",
+        "answer": "The design team has not yet reached a meeting of minds on the main colour.",
+        "answerZh": "設計團隊尚未就主要顏色達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q17",
+        "number": 17,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: We still disagree about when to hold the school show. B: Then we need to talk again and agree on one date.",
+        "promptZh": "甲：我們仍未能就學校表演的日期達成一致。 乙：那麼我們需要再談一次，並選定同一個日期。",
+        "starter": "We",
+        "answer": "We still need to come to a meeting of minds on the date of the school show.",
+        "answerZh": "我們仍需要就學校表演的日期達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q18",
+        "number": 18,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Did the talk help the two clubs agree on how to share the room? B: Yes. They now have the same plan.",
+        "promptZh": "甲：這次討論有否幫助兩個學會就如何共用房間達成一致？ 乙：有。他們現在採用同一個計劃。",
+        "starter": "Yes",
+        "answer": "Yes. The talk led to a meeting of minds between the two clubs on how to share the room.",
+        "answerZh": "有。這次討論令兩個學會就如何共用房間達成了共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q19",
+        "number": 19,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The head teacher hopes the school and the parents will agree on the new lunch plan.",
+        "promptZh": "校長希望學校和家長能就新的午餐計劃達成一致。",
+        "starter": "The",
+        "answer": "The head teacher hopes there will be a meeting of minds between the school and the parents on the new lunch plan.",
+        "answerZh": "校長希望學校和家長能就新的午餐計劃達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q20",
+        "number": 20,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The two teams had already agreed on who would do each job before the project began.",
+        "promptZh": "項目開始前，兩個團隊已就每項工作由誰負責達成一致。",
+        "starter": "Before",
+        "answer": "Before the project began, the two teams had already come to a meeting of minds on who would do each job.",
+        "answerZh": "項目開始前，兩個團隊已就每項工作由誰負責達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q21",
+        "number": 21,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Does the teacher still want us to do the work in class? B: No. After reading our plan, she now agrees that we can work online.",
+        "promptZh": "甲：老師仍然希望我們在課堂上完成這項工作嗎？ 乙：不。她看過我們的計劃後，現在同意我們可以在網上完成。",
+        "starter": "Our",
+        "answer": "Our group and the teacher have now come to a meeting of minds on working online.",
+        "answerZh": "我們小組和老師現在已就網上完成工作達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q22",
+        "number": 22,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The two brothers wanted different things for the family shop, but they now support the same plan.",
+        "promptZh": "兩兄弟原本對家族店舖有不同想法，但現在都支持同一個計劃。",
+        "starter": "Although",
+        "answer": "Although they wanted different things at first, the two brothers have reached a meeting of minds on the plan for the family shop.",
+        "answerZh": "雖然兩兄弟最初有不同想法，但現在已就家族店舖的計劃達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q23",
+        "number": 23,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Sarah says the art club and the music club now understand each other and agree on how to use the hall.",
+        "promptZh": "莎拉表示，藝術學會和音樂學會現在彼此理解，並就如何使用禮堂達成一致。",
+        "starter": "Sarah",
+        "answer": "Sarah says there is now a meeting of minds between the art club and the music club on how to use the hall.",
+        "answerZh": "莎拉表示，藝術學會和音樂學會現在已就如何使用禮堂達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q24",
+        "number": 24,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The parents wanted quiet evenings, while the teenagers wanted time for music. They agreed that the music would stop at nine.",
+        "promptZh": "家長希望晚上保持安靜，而青少年則希望有時間播放音樂。雙方同意音樂在九時停止。",
+        "starter": "The",
+        "answer": "The parents and the teenagers came to a meeting of minds about stopping the music at nine.",
+        "answerZh": "家長和青少年就於九時停止音樂達成了共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q25",
+        "number": 25,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Do the manager and the customer still disagree about the late order? B: No. They have agreed that the shop will send it again tomorrow.",
+        "promptZh": "甲：經理和顧客仍就延誤的訂單意見不合嗎？ 乙：不。他們已同意店舖明天會重新寄出訂單。",
+        "starter": "No",
+        "answer": "No. The manager and the customer have reached a meeting of minds on solving the problem by sending the late order again tomorrow.",
+        "answerZh": "不。經理和顧客已達成共識，同意明天重新寄出延誤的訂單以解決問題。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q26",
+        "number": 26,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The school leaders and the students discussed the phone rule. In the end, both groups agreed that phones could be used at lunch.",
+        "promptZh": "學校主管和學生討論了手機規則。最後，雙方同意午膳時間可以使用手機。",
+        "starter": "The",
+        "answer": "The discussion brought about a meeting of minds between the school leaders and the students on using phones at lunch.",
+        "answerZh": "這次討論令學校主管和學生就午膳時間使用手機達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q27",
+        "number": 27,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "After reading the same safety report, the bus drivers and the school leaders agreed on a safer morning route.",
+        "promptZh": "閱讀同一份安全報告後，巴士司機和學校主管就一條較安全的早上路線達成一致。",
+        "starter": "The",
+        "answer": "The safety report led to a meeting of minds between the bus drivers and the school leaders on a safer morning route.",
+        "answerZh": "這份安全報告令巴士司機和學校主管就一條較安全的早上路線達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q28",
+        "number": 28,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "One more honest talk could help the two friends understand each other and agree about the holiday plan.",
+        "promptZh": "再進行一次坦誠的對話，可能有助兩位朋友彼此理解，並就假期計劃達成一致。",
+        "starter": "One",
+        "answer": "One more honest talk could lead to a meeting of minds between the two friends on the holiday plan.",
+        "answerZh": "再進行一次坦誠的對話，可能令兩位朋友就假期計劃達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q29",
+        "number": 29,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The two shop teams have spoken twice, but they still disagree about the price.",
+        "promptZh": "兩間店舖的團隊已討論兩次，但仍未能就價格達成一致。",
+        "starter": "The",
+        "answer": "The two shop teams have not yet reached a meeting of minds on the price.",
+        "answerZh": "兩間店舖的團隊尚未就價格達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q30",
+        "number": 30,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A shared map helped the hikers and the guides agree on which path to take.",
+        "promptZh": "一張共用地圖幫助遠足人士和導遊就應走哪條路達成一致。",
+        "starter": "The",
+        "answer": "The shared map brought about a meeting of minds between the hikers and the guides on which path to take.",
+        "answerZh": "這張共用地圖令遠足人士和導遊就應走哪條路達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q31",
+        "number": 31,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Although the two groups began with different ideas, their final talk helped them agree on the plan for the school fair.",
+        "promptZh": "雖然兩個小組最初有不同想法，但最後一次討論令他們就學校嘉年華計劃達成一致。",
+        "starter": "Although",
+        "answer": "Although the two groups began with different ideas, their final talk led to a meeting of minds between them on the plan for the school fair.",
+        "answerZh": "雖然兩個小組最初有不同想法，但最後一次討論令他們就學校嘉年華計劃達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q32",
+        "number": 32,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Because the manager and the workers read the same customer messages, they agreed that the shop should close later on Fridays.",
+        "promptZh": "經理和員工閱讀了相同的顧客訊息，因此同意店舖逢星期五應較遲關門。",
+        "starter": "Because",
+        "answer": "Because the manager and the workers read the same customer messages, they came to a meeting of minds on closing the shop later on Fridays.",
+        "answerZh": "由於經理和員工閱讀了相同的顧客訊息，他們就店舖逢星期五較遲關門達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q33",
+        "number": 33,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "By focusing on the children’s safety, the parents and teachers found that they supported the same new gate rule.",
+        "promptZh": "家長和老師把重點放在兒童安全上，因而發現大家都支持同一項新閘門規則。",
+        "starter": "By",
+        "answer": "By focusing on the children’s safety, the parents and teachers reached a meeting of minds on the new gate rule.",
+        "answerZh": "家長和老師把重點放在兒童安全上，並就新的閘門規則達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q34",
+        "number": 34,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The two teams need to agree on the final design before work on the website can begin.",
+        "promptZh": "兩個團隊需要先就最終設計達成一致，網站工作才可以開始。",
+        "starter": "The",
+        "answer": "The two teams need to come to a meeting of minds on the final design before work on the website can begin.",
+        "answerZh": "兩個團隊需要先就最終設計達成共識，網站工作才可以開始。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q35",
+        "number": 35,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "After comparing the costs, all four family members agreed and chose the train instead of flying.",
+        "promptZh": "比較費用後，四名家庭成員達成一致，決定乘火車而不坐飛機。",
+        "starter": "After",
+        "answer": "After comparing the costs, the four family members came to a meeting of minds on taking the train instead of flying.",
+        "answerZh": "比較費用後，四名家庭成員就乘火車而不坐飛機達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q36",
+        "number": 36,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: What about a forty-five-minute lesson with ten minutes of practice? B: That works for me. We finally agree.",
+        "promptZh": "甲：四十五分鐘的課堂，其中十分鐘用作練習，怎麼樣？ 乙：我接受。我們終於有共識了。",
+        "starter": "We",
+        "answer": "We have finally reached a meeting of minds on the lesson length and practice time.",
+        "answerZh": "我們終於就課堂長度和練習時間達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q37",
+        "number": 37,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The chairperson believes the two sides now share the same main aim, even though they disagree on a few small details.",
+        "promptZh": "主席認為雙方現在有相同的主要目標，儘管他們在少數細節上仍有分歧。",
+        "starter": "The",
+        "answer": "The chairperson believes there is a meeting of minds between the two sides on the main aim, despite a few small differences.",
+        "answerZh": "主席認為雙方就主要目標已有共識，儘管在少數細節上仍有分歧。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q38",
+        "number": 38,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Their ideas are becoming more similar, so next week’s talk may help them fully agree on the reading plan.",
+        "promptZh": "他們的想法愈來愈相近，因此下星期的討論可能令他們就閱讀計劃完全達成一致。",
+        "starter": "Because",
+        "answer": "Because their ideas are becoming more similar, next week’s talk may lead to a meeting of minds between them on the reading plan.",
+        "answerZh": "由於他們的想法愈來愈相近，下星期的討論可能令他們就閱讀計劃達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q39",
+        "number": 39,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The teacher and the parents disagree about the start time, but they both want the children to get enough sleep.",
+        "promptZh": "老師和家長對開始時間意見不一，但雙方都希望孩子有足夠睡眠。",
+        "starter": "There",
+        "answer": "There is a meeting of minds between the teacher and the parents on the need for enough sleep, although they disagree about the start time.",
+        "answerZh": "老師和家長都認同孩子需要有足夠睡眠，儘管他們對開始時間意見不一。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q40",
+        "number": 40,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The two clubs finally agreed on how to use the extra classroom after each side changed part of its plan.",
+        "promptZh": "兩個學會各自修改部分計劃後，終於就如何使用額外課室達成一致。",
+        "starter": "After",
+        "answer": "After each side changed part of its plan, there was finally a meeting of minds between the two clubs on how to use the extra classroom.",
+        "answerZh": "雙方各自修改部分計劃後，兩個學會終於就如何使用額外課室達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q41",
+        "number": 41,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The school wanted reusable lunch boxes, while the café owner worried about the cost. After hearing the pupils’ ideas, both sides accepted a plan to try the boxes for one month.",
+        "promptZh": "學校希望使用可重用的午餐盒，而咖啡店店主則擔心成本。聽取學生的想法後，雙方同意先試用一個月。",
+        "starter": "Although",
+        "answer": "Although the school wanted reusable lunch boxes and the café owner worried about the cost, they came to a meeting of minds on trying the boxes for one month after hearing the pupils’ ideas.",
+        "answerZh": "雖然學校希望使用可重用午餐盒，而咖啡店店主擔心成本，但雙方聽取學生的想法後，就試用一個月達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q42",
+        "number": 42,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The nurses wanted a quicker booking system, while older patients wanted clearer steps. They agreed to use a simple form with larger print.",
+        "promptZh": "護士希望預約系統更快捷，而年長病人則希望步驟更清楚。雙方同意使用一份採用較大字體的簡單表格。",
+        "starter": "Although",
+        "answer": "Although the nurses wanted a quicker system and the older patients wanted clearer steps, they reached a meeting of minds on using a simple booking form with larger print.",
+        "answerZh": "雖然護士希望系統更快捷，而年長病人希望步驟更清楚，但雙方就使用一份採用較大字體的簡單預約表格達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q43",
+        "number": 43,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Two small shops wanted to share one delivery bike, but they could not agree on the times. A new weekly timetable solved the problem.",
+        "promptZh": "兩間小店希望共用一輛送貨單車，但未能就使用時間達成一致。一份新的每週時間表解決了問題。",
+        "starter": "The",
+        "answer": "The new weekly timetable brought about a meeting of minds between the two shops on when to use the delivery bike.",
+        "answerZh": "新的每週時間表令兩間小店就何時使用送貨單車達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q44",
+        "number": 44,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The local centre asked families how to waste less food. Their answers showed that almost everyone supported serving smaller meals.",
+        "promptZh": "本地中心詢問各家庭如何減少浪費食物。他們的答案顯示，幾乎所有人都支持提供份量較小的餐點。",
+        "starter": "The",
+        "answer": "The answers showed that there was a meeting of minds among most of the families on serving smaller meals to waste less food.",
+        "answerZh": "這些答案顯示，大部分家庭都同意提供份量較小的餐點，以減少浪費食物。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q45",
+        "number": 45,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "One group wanted a thirty-minute meeting, while the other wanted an hour. Both accepted forty-five minutes.",
+        "promptZh": "一組希望會議只需三十分鐘，另一組則希望進行一小時。雙方都接受四十五分鐘。",
+        "starter": "Although",
+        "answer": "Although one group wanted thirty minutes and the other wanted an hour, they came to a meeting of minds on forty-five minutes.",
+        "answerZh": "雖然一組希望會議進行三十分鐘，另一組希望進行一小時，但雙方最終就四十五分鐘達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q46",
+        "number": 46,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Have the shop and the customer solved the problem with the broken table? B: Yes. Both have accepted a cheaper replacement that will arrive tomorrow.",
+        "promptZh": "甲：店舖和顧客已解決損壞桌子的問題嗎？ 乙：是。雙方已接受一張較便宜、明天送到的替換桌子。",
+        "starter": "Yes",
+        "answer": "Yes. The shop and the customer have come to a meeting of minds on a cheaper replacement that will arrive tomorrow.",
+        "answerZh": "是。店舖和顧客已就一張較便宜、明天送到的替換桌子達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q47",
+        "number": 47,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Transport workers wanted fewer stops, but passengers wanted an easier morning journey. Both groups agreed to remove only one stop that few people use.",
+        "promptZh": "運輸工作人員希望減少車站，但乘客希望早上的行程更方便。雙方同意只取消一個很少人使用的車站。",
+        "starter": "Although",
+        "answer": "Although the transport workers wanted fewer stops and the passengers wanted an easier journey, they reached a meeting of minds on removing only one rarely used stop from the morning route.",
+        "answerZh": "雖然運輸工作人員希望減少車站，而乘客希望行程更方便，但雙方就早上路線只取消一個很少人使用的車站達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q48",
+        "number": 48,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "If both clubs accept Friday afternoon, they may finally agree on when to use the sports hall.",
+        "promptZh": "如果兩個學會都接受星期五下午，他們便可能最終就何時使用體育館達成一致。",
+        "starter": "If",
+        "answer": "If both clubs accept Friday afternoon, there may finally be a meeting of minds between them on when to use the sports hall.",
+        "answerZh": "如果兩個學會都接受星期五下午，他們便可能最終就何時使用體育館達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q49",
+        "number": 49,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The two writers quickly completed each other’s ideas and chose the same three parts for their story.",
+        "promptZh": "兩位作家很快便能接續彼此的想法，並為故事選定相同的三個部分。",
+        "starter": "The",
+        "answer": "The way the two writers completed each other’s ideas showed that they had a meeting of minds on the three main parts of their story.",
+        "answerZh": "兩位作家能夠接續彼此的想法，顯示他們就故事的三個主要部分理念一致。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      },
+      {
+        "id": "idiom-39-q50",
+        "number": 50,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "At first, the teachers, parents and pupils wanted different things from the new reading room. After three open talks, all three groups accepted one plan.",
+        "promptZh": "起初，老師、家長和學生對新閱覽室有不同期望。經過三次公開討論後，三個群體都接受了同一個計劃。",
+        "starter": "Although",
+        "answer": "Although the teachers, parents and pupils wanted different things at first, they finally came to a meeting of minds on the plan for the new reading room after three open talks.",
+        "answerZh": "雖然老師、家長和學生最初有不同期望，但經過三次公開討論後，三方終於就新閱覽室的計劃達成共識。",
+        "targetForm": "a meeting of minds",
+        "targetMeaning": "A situation in which two or more people have the same opinions, share similar ideas or develop a close understanding about something.",
+        "highlight": "a meeting of minds"
+      }
+    ]
+  }
+}

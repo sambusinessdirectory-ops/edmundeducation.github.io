@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" role="img" aria-labelledby="title description">
+  <title id="title">Every Man Has His Price literal illustration</title>
+  <desc id="description">A thoughtful human silhouette stands beside a large price tag and scattered coins, presenting the proverb's cynical metaphor without suggesting that it is true.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4cf"/>
+      <stop offset="1" stop-color="#e8b765"/>
+    </linearGradient>
+    <linearGradient id="tag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b9452e"/>
+      <stop offset="1" stop-color="#762316"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#3d2217" flood-opacity=".28"/>
+    </filter>
+    <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="7" r="1.2" fill="#6f3d21" opacity=".12"/>
+      <circle cx="22" cy="19" r="1" fill="#6f3d21" opacity=".1"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1050" fill="url(#paper)"/>
+  <rect width="1400" height="1050" fill="url(#grain)"/>
+  <path d="M0 850 Q360 770 700 840 T1400 820 V1050 H0Z" fill="#8c4a25" opacity=".2"/>
+  <g filter="url(#shadow)">
+    <circle cx="460" cy="315" r="125" fill="#422820"/>
+    <path d="M250 900 Q267 560 460 506 Q653 560 670 900Z" fill="#422820"/>
+    <path d="M390 475 Q460 535 530 475 L562 592 Q460 665 358 592Z" fill="#f4dfad"/>
+    <path d="M374 292 Q420 245 468 251 Q523 258 551 315" fill="none" stroke="#f4dfad" stroke-width="18" stroke-linecap="round" opacity=".45"/>
+  </g>
+  <g transform="translate(690 170) rotate(7 280 330)" filter="url(#shadow)">
+    <path d="M92 25 H465 Q520 25 548 73 L655 260 Q677 300 656 340 L493 644 Q467 692 412 692 H92 Q34 692 34 634 V83 Q34 25 92 25Z" fill="url(#tag)" stroke="#5d1d13" stroke-width="10"/>
+    <circle cx="470" cy="170" r="48" fill="#ffeab6" stroke="#5d1d13" stroke-width="10"/>
+    <path d="M511 140 C620 75 722 77 796 118" fill="none" stroke="#3f271c" stroke-width="18" stroke-linecap="round"/>
+    <text x="342" y="395" text-anchor="middle" fill="#fff7da" font-family="Georgia, serif" font-size="176" font-weight="700">?</text>
+    <text x="342" y="520" text-anchor="middle" fill="#ffd383" font-family="Georgia, serif" font-size="54" font-weight="700" letter-spacing="5">PRICE</text>
+  </g>
+  <g fill="#d9a328" stroke="#71461d" stroke-width="8" filter="url(#shadow)">
+    <ellipse cx="228" cy="900" rx="86" ry="28"/>
+    <ellipse cx="228" cy="879" rx="86" ry="28"/>
+    <ellipse cx="760" cy="917" rx="72" ry="24"/>
+    <ellipse cx="1140" cy="835" rx="64" ry="23" transform="rotate(-18 1140 835)"/>
+  </g>
+  <path d="M705 780 Q760 715 820 772" fill="none" stroke="#f7e7b9" stroke-width="14" stroke-linecap="round" opacity=".9"/>
+</svg>

@@ -1,0 +1,1444 @@
+{
+  "lesson": {
+    "id": "idiom-38",
+    "order": 38,
+    "slug": "face-the-music",
+    "version": "1",
+    "title": "承擔後果／接受批評或處分",
+    "titleEn": "face the music",
+    "titleZh": "承擔後果／接受批評或處分",
+    "source": {
+      "file": "Idiom 38 - “Face the Music”.pdf",
+      "pageCount": 29,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "exercisePdfPages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "answerKeyPdfPages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "face the music",
+        "highlight": "face the music"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Alex has to face the music at school for breaking a classroom window.",
+        "zh": "Alex 打破課室窗戶，必須在學校承擔後果。",
+        "highlight": "face the music"
+      }
+    ],
+    "meaning": {
+      "en": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+      "zh": "為自己做過的錯事承擔後果，接受批評、責罵、處分或其他不愉快結果，而不是逃避責任。",
+      "naturalZh": [
+        "承擔後果",
+        "接受批評或處分",
+        "為自己的行為負責",
+        "面對應有的責任",
+        "不再逃避責任"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "In this exercise, face the music is treated as informal to neutral.",
+      "summaryZh": "本練習把 face the music 視為非正式至中性的表達。",
+      "contextsEn": [
+        "everyday conversation",
+        "school and workplace discussions",
+        "interviews",
+        "personal stories",
+        "general articles",
+        "advice between friends or colleagues"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "學校及工作場合的討論",
+        "訪問",
+        "個人故事",
+        "一般文章",
+        "朋友或同事之間的勸告。"
+      ],
+      "formalEn": "The expression often carries a serious, firm or critical tone. In highly formal legal, disciplinary or official writing, expressions such as accept responsibility, accept the consequences or be held responsible may be more suitable.",
+      "formalZh": "這個表達通常帶有認真、堅定或批評的語氣。 在非常正式的法律、紀律或官方文件中，使用 accept responsibility、accept the consequences 或 be held responsible 可能更合適。"
+    },
+    "fixedVariable": {
+      "fixed": "face the music",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + face the music + for + noun / verb-ing.",
+          "example": "Alex has to face the music at school for breaking a classroom window.",
+          "highlight": "face the music"
+        },
+        {
+          "form": "Subject + have / has / had to + face the music.",
+          "example": "Alex has to face the music at school for breaking a classroom window.",
+          "highlight": "face the music"
+        },
+        {
+          "form": "It is time for + person + to face the music.",
+          "example": "Alex has to face the music at school for breaking a classroom window.",
+          "highlight": "face the music"
+        },
+        {
+          "form": "Subject + be ready / prepared + to face the music.",
+          "example": "Alex has to face the music at school for breaking a classroom window.",
+          "highlight": "face the music"
+        },
+        {
+          "form": "Subject + avoid / refuse to avoid / stop avoiding + facing the music.",
+          "example": "Alex has to face the music at school for breaking a classroom window.",
+          "highlight": "face the music"
+        },
+        {
+          "form": "If + condition, subject + may / might / will + face the music.",
+          "example": "Alex has to face the music at school for breaking a classroom window.",
+          "highlight": "face the music"
+        },
+        {
+          "form": "Instead of / Rather than + avoiding action, subject + should face the music.",
+          "example": "Alex has to face the music at school for breaking a classroom window.",
+          "highlight": "face the music"
+        },
+        {
+          "form": "Person / event + force + object + to face the music.",
+          "example": "Alex has to face the music at school for breaking a classroom window.",
+          "highlight": "face the music"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Stating the Reason",
+        "titleZh": "句式一：說明原因",
+        "formula": "Subject + face the music + for + noun / verb-ing.",
+        "descriptionEn": "Bella must face the music for her lie.; Bella must face the music for lying to her parents.",
+        "descriptionZh": "主語 + face the music + for + 名詞/動詞-ing。",
+        "examples": [
+          {
+            "en": "Alex has to face the music at school for breaking a classroom window.",
+            "zh": "Alex 打破課室窗戶，必須在學校承擔後果。",
+            "highlight": "face the music"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Expressing Necessity",
+        "titleZh": "句式二：表示必須承擔後果",
+        "formula": "Subject + have / has / had to + face the music.",
+        "descriptionEn": "Source grammar frame: Subject + have / has / had to + face the music.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have / has / had to + face the music。",
+        "examples": [
+          {
+            "en": "Alex has to face the music at school for breaking a classroom window.",
+            "zh": "Alex 打破課室窗戶，必須在學校承擔後果。",
+            "highlight": "face the music"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Saying That the Time Has Come",
+        "titleZh": "句式三：表示不能再逃避",
+        "formula": "It is time for + person + to face the music.",
+        "descriptionEn": "Source grammar frame: It is time for + person + to face the music.",
+        "descriptionZh": "原檔列出的句法框架：It is time for + person + to face the music。",
+        "examples": [
+          {
+            "en": "Alex has to face the music at school for breaking a classroom window.",
+            "zh": "Alex 打破課室窗戶，必須在學校承擔後果。",
+            "highlight": "face the music"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Expressing Readiness",
+        "titleZh": "句式四：表示準備承擔後果",
+        "formula": "Subject + be ready / prepared + to face the music.",
+        "descriptionEn": "Source grammar frame: Subject + be ready / prepared + to face the music.",
+        "descriptionZh": "原檔列出的句法框架：Subject + be ready / prepared + to face the music。",
+        "examples": [
+          {
+            "en": "Alex has to face the music at school for breaking a classroom window.",
+            "zh": "Alex 打破課室窗戶，必須在學校承擔後果。",
+            "highlight": "face the music"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Describing Avoidance",
+        "titleZh": "句式五：說明逃避責任",
+        "formula": "Subject + avoid / refuse to avoid / stop avoiding + facing the music.",
+        "descriptionEn": "Source grammar frame: Subject + avoid / refuse to avoid / stop avoiding + facing the music.",
+        "descriptionZh": "原檔列出的句法框架：Subject + avoid / refuse to avoid / stop avoiding + facing the music。",
+        "examples": [
+          {
+            "en": "Alex has to face the music at school for breaking a classroom window.",
+            "zh": "Alex 打破課室窗戶，必須在學校承擔後果。",
+            "highlight": "face the music"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserving Possibility or Conditions",
+        "titleZh": "句式六：保留可能性或條件",
+        "formula": "If + condition, subject + may / might / will + face the music.",
+        "descriptionEn": "Source grammar frame: If + condition, subject + may / might / will + face the music.",
+        "descriptionZh": "原檔列出的句法框架：If + condition, subject + may / might / will + face the music。",
+        "examples": [
+          {
+            "en": "Alex has to face the music at school for breaking a classroom window.",
+            "zh": "Alex 打破課室窗戶，必須在學校承擔後果。",
+            "highlight": "face the music"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Contrasting Responsibility with Avoidance",
+        "titleZh": "句式七：把承擔責任與逃避作對比",
+        "formula": "Instead of / Rather than + avoiding action, subject + should face the music.",
+        "descriptionEn": "Source grammar frame: Instead of / Rather than + avoiding action, subject + should face the music.",
+        "descriptionZh": "原檔列出的句法框架：Instead of / Rather than + avoiding action, subject + should face the music。",
+        "examples": [
+          {
+            "en": "Alex has to face the music at school for breaking a classroom window.",
+            "zh": "Alex 打破課室窗戶，必須在學校承擔後果。",
+            "highlight": "face the music"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Being Forced to Accept the Consequences",
+        "titleZh": "句式八：被迫承擔後果",
+        "formula": "Person / event + force + object + to face the music.",
+        "descriptionEn": "Source grammar frame: Person / event + force + object + to face the music.",
+        "descriptionZh": "原檔列出的句法框架：Person / event + force + object + to face the music。",
+        "examples": [
+          {
+            "en": "Alex has to face the music at school for breaking a classroom window.",
+            "zh": "Alex 打破課室窗戶，必須在學校承擔後果。",
+            "highlight": "face the music"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Responsibility Clearly",
+        "titleZh": "清楚表達承擔責任",
+        "en": "The idiom shows that somebody is no longer avoiding the result of their actions.",
+        "zh": "這個慣用語表示某人不再逃避自己行為所帶來的結果。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "把較長的解釋縮短",
+        "en": "She must face the music for what she did.",
+        "zh": "這個慣用語可以把「接受批評、處分及責任」濃縮成一個簡潔表達。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful When Somebody Has Been Avoiding a Problem",
+        "titleZh": "適合說明某人一直逃避問題",
+        "en": "Sooner or later, he will have to face the music.",
+        "zh": "他遲早必須承擔後果。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Give Firm Advice",
+        "titleZh": "可以用來提出堅定勸告",
+        "en": "You should stop making excuses and face the music.",
+        "zh": "你應停止找藉口，承擔應有後果。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful in Stories and Conversations",
+        "titleZh": "適合用於故事及對話",
+        "en": "Writers and speakers can use it at the point when a character must finally accept responsibility.",
+        "zh": "說故事或對話時，可以在人物終於需要承擔責任的一刻使用這個慣用語。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is Not Automatically Better Than Plain English",
+        "titleZh": "並非一定比普通英文更好",
+        "en": "It Is Not Automatically Better Than Plain English",
+        "zh": "並非一定比普通英文更好",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Early American Evidence",
+      "statusZh": "確切來源不明；有早期美國用例",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The earliest currently identified printed example appeared in the New-Hampshire Statesman and State Journal on 2 August 1834. The writer demanded that another newspaper editor stop avoiding a serious question and accept responsibility. Other examples appeared in New Hampshire shortly afterwards, showing that the expression was already being used figuratively in the United States during the 1830s.",
+          "zh": "目前找到的最早印刷用例，出現在1834年8月2日的《New-Hampshire Statesman and State Journal》。 文中要求另一名報章編輯不要再逃避一項嚴重問題，並承擔責任。 其後不久，新罕布什爾州亦出現其他用例，顯示這個表達在十九世紀三十年代的美國已具有比喻意思。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Today, face the music means accepting criticism, punishment or responsibility for something one has done.",
+          "zh": "今天，face the music 表示為自己所做的事情承擔責任，接受批評、處分或其他後果。"
+        }
+      ],
+      "memoryEn": "Do not turn away from the unpleasant “music”; turn towards it and accept what follows.",
+      "memoryZh": "不要轉身逃避令人不快的「音樂」；要面對它，並接受隨之而來的後果。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep “the”",
+        "titleZh": "規則一：必須保留 the",
+        "en": "Keep “the”",
+        "zh": "必須保留 the",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change “Face”, Not “the Music”",
+        "titleZh": "規則二：只改變 face，不改變 the music",
+        "en": "Change “Face”, Not “the Music”",
+        "zh": "只改變 face，不改變 the music",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use “For + -ing” to Explain the Mistake",
+        "titleZh": "規則三：使用 for + -ing 說明錯誤行為",
+        "en": "Use “For + -ing” to Explain the Mistake",
+        "zh": "使用 for + -ing 說明錯誤行為",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Person Normally Has Some Responsibility",
+        "titleZh": "規則四：主語通常需要負有一定責任",
+        "en": "Daniel ignored the rules and now has to face the music. Daniel was hurt by a problem that he did not cause, so he must face the music.",
+        "zh": "無視規則，現在必須承擔後果。 如果 Daniel 完全沒有責任，使用 deal with the problem 或 face a difficult situation 通常會更自然。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The Consequences Must Be Unpleasant",
+        "titleZh": "規則五：後果通常是不愉快的",
+        "en": "The Consequences Must Be Unpleasant",
+        "zh": "後果通常是不愉快的",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Use It for Every Difficult Situation",
+        "titleZh": "規則六：不要把它用於所有困難情況",
+        "en": "Do Not Use It for Every Difficult Situation",
+        "zh": "不要把它用於所有困難情況",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Avoid the Literal Meaning",
+        "titleZh": "規則七：避免字面意思",
+        "en": "The singer faced the music stand. The singer lied about the result and later had to face the music.",
+        "zh": "歌手面向樂譜架。 歌手就結果說謊，後來必須承擔後果。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則八：保留時態及確定程度",
+        "en": "Preserve Tense and Certainty",
+        "zh": "保留時態及確定程度",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Explain the Idiom Again",
+        "titleZh": "規則九：使用慣用語後，不要重複解釋",
+        "en": "Do Not Explain the Idiom Again",
+        "zh": "使用慣用語後，不要重複解釋",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Avoid an Unnatural Passive Form",
+        "titleZh": "規則十：避免不自然的被動形式",
+        "en": "Avoid an Unnatural Passive Form",
+        "zh": "避免不自然的被動形式",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using face the music.",
+      "zh": "使用 face the music 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-38-q01",
+        "number": 1,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Alex broke a classroom window and now has to accept the school’s punishment.",
+        "promptZh": "Alex 打破了課室窗戶，現在必須接受校方處分。",
+        "starter": "Alex",
+        "answer": "Alex has to face the music at school for breaking a classroom window.",
+        "answerZh": "Alex 打破課室窗戶，必須在學校承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q02",
+        "number": 2,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Bella lied to her parents, so she must now accept their criticism.",
+        "promptZh": "Bella 向父母說謊，因此現在必須接受他們的批評。",
+        "starter": "Bella",
+        "answer": "Bella must face the music for lying to her parents.",
+        "answerZh": "Bella 因向父母說謊，必須承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q03",
+        "number": 3,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Ethan copied his homework. His teacher says he must accept the consequences.",
+        "promptZh": "Ethan 抄襲功課。老師說他必須承擔後果。",
+        "starter": "Ethan",
+        "answer": "Ethan must face the music at school for copying his homework.",
+        "answerZh": "Ethan 因抄襲功課，必須在學校接受處分。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q04",
+        "number": 4,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "I forgot to send the team’s work, so I now have to accept the blame.",
+        "promptZh": "我忘記提交團隊的工作，因此現在必須接受責備。",
+        "starter": "I",
+        "answer": "I have to face the music for forgetting to send the team’s work.",
+        "answerZh": "我因忘記提交團隊的工作，必須承擔責任。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q05",
+        "number": 5,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Olivia spent her brother’s money without asking. She now has to accept the consequences at home.",
+        "promptZh": "Olivia 未經同意花了兄弟的錢。她現在必須在家中承擔後果。",
+        "starter": "Olivia",
+        "answer": "Olivia has to face the music at home for spending her brother’s money without asking.",
+        "answerZh": "Olivia 未經同意花了兄弟的錢，必須在家中承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q06",
+        "number": 6,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The players ignored the coach’s rules, so they will be punished.",
+        "promptZh": "球員無視教練的規則，因此將會受到處罰。",
+        "starter": "The",
+        "answer": "The players will face the music for ignoring the coach’s rules.",
+        "answerZh": "球員因無視教練的規則而要承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q07",
+        "number": 7,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Noah sent his friend a rude message and now must accept his friend’s anger.",
+        "promptZh": "Noah 向朋友發出無禮訊息，現在必須面對朋友的怒氣。",
+        "starter": "Noah",
+        "answer": "Noah must face the music for sending his friend a rude message.",
+        "answerZh": "Noah 因向朋友發出無禮訊息，必須承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q08",
+        "number": 8,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "We left the room dirty after the party, so we have to accept the owner’s complaint.",
+        "promptZh": "我們在派對後把房間弄得很髒，因此必須接受房主的投訴。",
+        "starter": "We",
+        "answer": "We have to face the music for leaving the room dirty after the party.",
+        "answerZh": "我們因派對後把房間弄得很髒，必須承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q09",
+        "number": 9,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Grace lost the school key because she was careless and must now accept the consequences.",
+        "promptZh": "Grace 因粗心弄失學校鎖匙，現在必須承擔後果。",
+        "starter": "Grace",
+        "answer": "Grace must face the music for losing the school key.",
+        "answerZh": "Grace 因弄失學校鎖匙，必須承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q10",
+        "number": 10,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The shop manager changed the price unfairly and now has to accept the owner’s criticism.",
+        "promptZh": "店舖經理不公平地更改價格，現在必須接受店主的批評。",
+        "starter": "The",
+        "answer": "The shop manager must face the music for changing the price unfairly.",
+        "answerZh": "店舖經理因不公平地更改價格，必須承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q11",
+        "number": 11,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Whenever Leo makes a mistake, he accepts criticism instead of making excuses.",
+        "promptZh": "Leo 每次犯錯，都會接受批評，而不是找藉口。",
+        "starter": "Whenever",
+        "answer": "Whenever Leo makes a mistake, he faces the music instead of making excuses.",
+        "answerZh": "Leo 每次犯錯都會承擔後果，而不是找藉口。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "faces the music"
+      },
+      {
+        "id": "idiom-38-q12",
+        "number": 12,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Hannah damaged her friend’s bike, but she stayed and accepted her friend’s anger.",
+        "promptZh": "Hannah 弄壞了朋友的單車，但她留下來接受朋友的怒氣。",
+        "starter": "Hannah",
+        "answer": "Hannah stayed and faced the music for damaging her friend’s bike.",
+        "answerZh": "Hannah 損壞朋友的單車後留了下來，接受應有的責備。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "faced the music"
+      },
+      {
+        "id": "idiom-38-q13",
+        "number": 13,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The team has finally accepted the manager’s criticism for missing the deadline.",
+        "promptZh": "團隊終於因錯過限期而接受了經理的批評。",
+        "starter": "The",
+        "answer": "The team has finally faced the music for missing the deadline.",
+        "answerZh": "團隊終於因錯過限期而接受了經理的批評。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "faced the music"
+      },
+      {
+        "id": "idiom-38-q14",
+        "number": 14,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Tomorrow, my manager will see that I sent the wrong report, and I will have to accept the criticism.",
+        "promptZh": "明天，經理會發現我發錯了報告，我將要接受批評。",
+        "starter": "I",
+        "answer": "I will have to face the music tomorrow for sending the wrong report.",
+        "answerZh": "我因發錯報告，明天將要面對經理的批評。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q15",
+        "number": 15,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "If Daniel keeps missing practice, he may have to accept the coach’s punishment.",
+        "promptZh": "如果 Daniel 繼續缺席練習，他可能要接受教練的處罰。",
+        "starter": "If",
+        "answer": "If Daniel keeps missing practice, he may have to face the music.",
+        "answerZh": "如果 Daniel 繼續缺席練習，他可能要承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q16",
+        "number": 16,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Priya broke the computer, so she should accept responsibility instead of blaming others.",
+        "promptZh": "Priya 弄壞了電腦，因此她不應責怪別人，而應承擔責任。",
+        "starter": "Instead",
+        "answer": "Instead of blaming others, Priya should face the music for breaking the computer.",
+        "answerZh": "Priya 不應責怪別人，而應為弄壞電腦承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q17",
+        "number": 17,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Ryan has avoided telling the truth about the missing money, but he must accept the consequences now.",
+        "promptZh": "Ryan 一直避免交代失款的真相，但現在必須承擔後果。",
+        "starter": "It",
+        "answer": "It is time for Ryan to face the music for hiding the truth about the missing money.",
+        "answerZh": "Ryan 是時候為隱瞞失款的真相承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q18",
+        "number": 18,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "After weeks of hiding my mistake, I am now ready to accept my manager’s criticism.",
+        "promptZh": "隱瞞錯誤數星期後，我現在已準備好接受經理的批評。",
+        "starter": "After",
+        "answer": "After weeks of hiding my mistake, I am ready to face the music at work.",
+        "answerZh": "隱瞞錯誤數星期後，我已準備好在工作上承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q19",
+        "number": 19,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Sophie keeps refusing to accept the consequences of posting the false story.",
+        "promptZh": "Sophie 一直拒絕為發布虛假故事承擔後果。",
+        "starter": "Sophie",
+        "answer": "Sophie keeps refusing to face the music for posting the false story.",
+        "answerZh": "Sophie 一直拒絕為發布虛假故事承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q20",
+        "number": 20,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Who changed the booking without asking? B: I did, so I will accept the consequences.",
+        "promptZh": "甲：誰未經同意更改了預訂？ 乙：是我做的，所以我會承擔後果。",
+        "starter": "I",
+        "answer": "I did, so I’ll face the music for changing the booking without asking.",
+        "answerZh": "是我做的，所以我會為未經同意更改預訂承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q21",
+        "number": 21,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: Mum already knows that you broke the vase. B: I know. I will go home and accept the punishment.",
+        "promptZh": "甲：媽媽已經知道你打破了花瓶。 乙：我知道。我會回家接受處罰。",
+        "starter": "I",
+        "answer": "I know. I’ll go home and face the music for breaking the vase.",
+        "answerZh": "我知道。我會回家為打破花瓶承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q22",
+        "number": 22,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A: The manager has discovered that we sent the order late. B: Then we must accept the criticism.",
+        "promptZh": "甲：經理已經發現我們遲發了訂單。 乙：那麼，我們必須接受批評。",
+        "starter": "Then",
+        "answer": "Then we must face the music for sending the order late.",
+        "answerZh": "那麼，我們必須為遲發訂單承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q23",
+        "number": 23,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The coach says the captain should accept responsibility and criticism for the team’s rude behaviour.",
+        "promptZh": "教練說隊長應為球隊的無禮行為負責，並接受批評。",
+        "starter": "The",
+        "answer": "The coach says the captain should face the music for the team’s rude behaviour.",
+        "answerZh": "教練認為隊長應為球隊的無禮行為承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q24",
+        "number": 24,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Kevin deleted the file himself. He needs to accept the consequences instead of blaming the computer.",
+        "promptZh": "Kevin 自己刪除了檔案。他不應責怪電腦，而應承擔後果。",
+        "starter": "Kevin",
+        "answer": "Kevin needs to face the music for deleting the file instead of blaming the computer.",
+        "answerZh": "Kevin 應為刪除檔案承擔後果，而不是責怪電腦。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q25",
+        "number": 25,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "If the school learns that Lara changed the score, she will be punished.",
+        "promptZh": "如果學校發現 Lara 改動了分數，她便會受到處罰。",
+        "starter": "If",
+        "answer": "If the school learns that Lara changed the score, she will face the music.",
+        "answerZh": "如果學校發現 Lara 改動了分數，她便要承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q26",
+        "number": 26,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Why is Omar staying after class? He is accepting the teacher’s punishment for cheating.",
+        "promptZh": "Omar 為甚麼要留堂？他正在接受老師因他作弊而作出的處分。",
+        "starter": "Omar",
+        "answer": "Omar is staying after class to face the music for cheating.",
+        "answerZh": "Omar 留堂，是要為作弊接受處分。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q27",
+        "number": 27,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A check showed that Sam had used the company card for personal shopping, so he could no longer avoid the consequences.",
+        "promptZh": "一次檢查顯示 Sam 曾使用公司卡作私人購物，因此他再也無法逃避後果。",
+        "starter": "After",
+        "answer": "After the check showed that Sam had used the company card for personal shopping, he could not avoid facing the music.",
+        "answerZh": "檢查顯示 Sam 曾使用公司卡作私人購物後，他已無法逃避承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "facing the music"
+      },
+      {
+        "id": "idiom-38-q28",
+        "number": 28,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Nora says that apologising is enough. B: No. She still has to accept the consequences of sharing the secret.",
+        "promptZh": "甲：Nora 說道歉便足夠。 乙：不。她仍須為洩露秘密承擔後果。",
+        "starter": "No",
+        "answer": "No. Nora still has to face the music for sharing the secret.",
+        "answerZh": "不。Nora 仍須為洩露秘密承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q29",
+        "number": 29,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The parents believe the teenagers who damaged the park should accept the consequences.",
+        "promptZh": "家長認為破壞公園的青少年應承擔後果。",
+        "starter": "The",
+        "answer": "The parents believe the teenagers should face the music for damaging the park.",
+        "answerZh": "家長認為那些青少年應為破壞公園承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q30",
+        "number": 30,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Ava hid the customer’s email for two days, but she finally accepted the manager’s criticism.",
+        "promptZh": "Ava 把顧客的電郵隱瞞了兩天，但她最終接受了經理的批評。",
+        "starter": "Ava",
+        "answer": "Ava finally faced the music at work for hiding the customer’s email for two days.",
+        "answerZh": "Ava 因把顧客的電郵隱瞞了兩天，最終在工作上接受了批評。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "faced the music"
+      },
+      {
+        "id": "idiom-38-q31",
+        "number": 31,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Although Jay was afraid of his parents’ reaction, he went home to accept their criticism for failing the driving test.",
+        "promptZh": "雖然 Jay 害怕父母的反應，他仍回家接受他們因他未能通過駕駛考試而作出的批評。",
+        "starter": "Although",
+        "answer": "Although Jay was afraid of his parents’ reaction, he went home to face the music for failing the driving test.",
+        "answerZh": "雖然 Jay 害怕父母的反應，他仍回家為未能通過駕駛考試承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q32",
+        "number": 32,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Because the waiter ignored the customer’s clear order, he now has to accept the manager’s anger.",
+        "promptZh": "因為侍應無視顧客的明確要求，他現在必須接受經理的責備。",
+        "starter": "Because",
+        "answer": "Because the waiter ignored the customer’s clear order, he now has to face the music at work.",
+        "answerZh": "因為侍應無視顧客的明確要求，他現在必須在工作上承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q33",
+        "number": 33,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Before Chloe can return to the team, she must accept the coach’s criticism for missing practice.",
+        "promptZh": "Chloe 在重返球隊前，必須接受教練因她缺席練習而作出的批評。",
+        "starter": "Before",
+        "answer": "Before Chloe can return to the team, she must face the music for missing practice.",
+        "answerZh": "Chloe 在重返球隊前，必須為缺席練習接受教練的批評。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q34",
+        "number": 34,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Rather than make another excuse, I should accept the consequences of losing the keys.",
+        "promptZh": "與其再找藉口，我應為弄失鎖匙承擔後果。",
+        "starter": "Rather",
+        "answer": "Rather than make another excuse, I should face the music for losing the keys.",
+        "answerZh": "與其再找藉口，我應為弄失鎖匙承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q35",
+        "number": 35,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Victor keeps hiding the fact that he broke the office printer, but he will eventually have to accept the consequences.",
+        "promptZh": "Victor 一直隱瞞自己弄壞辦公室打印機，但最終仍須承擔後果。",
+        "starter": "Sooner",
+        "answer": "Sooner or later, Victor will have to face the music for breaking the office printer.",
+        "answerZh": "Victor 遲早要為弄壞辦公室打印機承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q36",
+        "number": 36,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Do you think one apology will solve everything? B: No. The students still need to accept punishment for making fun of their classmate.",
+        "promptZh": "甲：你認為道歉一次便可以解決一切嗎？ 乙：不。學生仍須為取笑同學接受處分。",
+        "starter": "No",
+        "answer": "No. The students still need to face the music for making fun of their classmate.",
+        "answerZh": "不。學生仍須為取笑同學承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q37",
+        "number": 37,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The wrong numbers in the report were Helen’s fault, so she accepted the team’s criticism at the meeting.",
+        "promptZh": "報告中的錯誤數字是 Helen 的責任，因此她在會議上接受了團隊的批評。",
+        "starter": "Because",
+        "answer": "Because the wrong numbers in the report were Helen’s fault, she faced the music at the meeting.",
+        "answerZh": "因為報告中的錯誤數字是 Helen 的責任，她在會議上接受了團隊的批評。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "faced the music"
+      },
+      {
+        "id": "idiom-38-q38",
+        "number": 38,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "For months, the company has avoided accepting the consequences of its poor service, but customers are still asking for answers.",
+        "promptZh": "幾個月來，公司一直逃避為服務欠佳承擔後果，但顧客仍在要求交代。",
+        "starter": "For",
+        "answer": "For months, the company has avoided facing the music for its poor service, but customers are still asking for answers.",
+        "answerZh": "幾個月來，公司一直逃避為服務欠佳承擔後果，但顧客仍在要求交代。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "facing the music"
+      },
+      {
+        "id": "idiom-38-q39",
+        "number": 39,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The driver may be punished if the camera proves that he crossed the red light.",
+        "promptZh": "如果攝影機證明司機衝紅燈，他可能會受到處罰。",
+        "starter": "If",
+        "answer": "If the camera proves that the driver crossed the red light, he may have to face the music.",
+        "answerZh": "如果攝影機證明司機衝紅燈，他可能要承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q40",
+        "number": 40,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The team’s messages show who shared the private photo, so those responsible will have to accept the consequences.",
+        "promptZh": "團隊的訊息顯示誰分享了私人相片，因此涉事者將要承擔後果。",
+        "starter": "The",
+        "answer": "The team’s messages show who shared the private photo, so those responsible will have to face the music.",
+        "answerZh": "團隊的訊息顯示誰分享了私人相片，因此涉事者將要承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q41",
+        "number": 41,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The head teacher says anyone who changed the exam marks must accept the school’s action.",
+        "promptZh": "校長表示，任何改動考試分數的人都必須接受校方處分。",
+        "starter": "The",
+        "answer": "The head teacher says anyone who changed the exam marks must face the music at school.",
+        "answerZh": "校長表示，任何改動考試分數的人都必須在學校承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q42",
+        "number": 42,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The hotel knew that the rooms were not ready but continued taking bookings. The manager now says the team must accept the consequences.",
+        "promptZh": "酒店知道客房尚未準備好，卻仍然接受預訂。經理現在說團隊必須承擔後果。",
+        "starter": "The",
+        "answer": "The manager says the hotel team must face the music for taking bookings when the rooms were not ready.",
+        "answerZh": "經理表示，酒店團隊必須為客房未準備好時仍接受預訂承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q43",
+        "number": 43,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The clinic worker sent the patient’s letter to the wrong person and now must accept the consequences.",
+        "promptZh": "診所職員把病人的信件寄給錯的人，現在必須承擔後果。",
+        "starter": "The",
+        "answer": "The clinic worker must face the music for sending the patient’s letter to the wrong person.",
+        "answerZh": "診所職員因把病人的信件寄給錯的人，必須承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q44",
+        "number": 44,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "After people discovered that the club had used its money to pay for a private meal, its leaders could no longer avoid responsibility.",
+        "promptZh": "人們發現社團使用款項支付私人聚餐後，負責人再也無法逃避責任。",
+        "starter": "After",
+        "answer": "After people discovered the private meal, the club leaders could no longer avoid facing the music for using the club’s money.",
+        "answerZh": "人們發現那次私人聚餐後，社團負責人再也無法逃避為使用社團款項承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "facing the music"
+      },
+      {
+        "id": "idiom-38-q45",
+        "number": 45,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Are you going to keep hiding the fact that you broke the camera? B: No. I will return it and accept the owner’s reaction.",
+        "promptZh": "甲：你還要繼續隱瞞弄壞相機的事嗎？ 乙：不。我會歸還相機，並接受物主的反應。",
+        "starter": "No",
+        "answer": "No. I’ll return the camera and face the music for breaking it.",
+        "answerZh": "不。我會歸還相機，並為弄壞它承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q46",
+        "number": 46,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The company may apologise now, but it will still have to accept the consequences if it refuses the refunds.",
+        "promptZh": "公司現在或會道歉，但如果拒絕退款，仍須承擔後果。",
+        "starter": "The",
+        "answer": "The company may apologise now, but it will still have to face the music if it refuses the refunds.",
+        "answerZh": "公司現在或會道歉，但如果拒絕退款，仍要承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q47",
+        "number": 47,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The captain went back to the coach and accepted criticism for leaving the match early.",
+        "promptZh": "隊長回去見教練，並接受因他提早離場而作出的批評。",
+        "starter": "By",
+        "answer": "By going back to the coach, the captain faced the music for leaving the match early.",
+        "answerZh": "隊長回去見教練，為提早離場承擔了後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "faced the music"
+      },
+      {
+        "id": "idiom-38-q48",
+        "number": 48,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The newspaper report made it impossible for the town leader to avoid the consequences of his false statement.",
+        "promptZh": "報章報道令鎮上主管無法再逃避為虛假聲明承擔後果。",
+        "starter": "The",
+        "answer": "The newspaper report forced the town leader to face the music for making the false statement.",
+        "answerZh": "報章報道迫使鎮上主管為作出虛假聲明承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q49",
+        "number": 49,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Even if Nina apologises to the customer, she must still accept the manager’s criticism for changing the order without permission.",
+        "promptZh": "即使 Nina 向顧客道歉，她仍須接受經理因她未經許可更改訂單而作出的批評。",
+        "starter": "Even",
+        "answer": "Even if Nina apologises to the customer, she must still face the music for changing the order without permission.",
+        "answerZh": "即使 Nina 向顧客道歉，她仍須為未經許可更改訂單承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      },
+      {
+        "id": "idiom-38-q50",
+        "number": 50,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: We deleted the old booking file, and the manager wants to know who did it. B: It was us. We should stop hiding and accept the consequences together.",
+        "promptZh": "甲：我們刪除了舊預訂檔案，經理想知道是誰做的。 乙：是我們做的。我們應停止隱瞞，一起承擔後果。",
+        "starter": "It",
+        "answer": "It was us. We should stop hiding and face the music together for deleting the old booking file.",
+        "answerZh": "是我們做的。我們應停止隱瞞，一起為刪除舊預訂檔案承擔後果。",
+        "targetForm": "face the music",
+        "targetMeaning": "To accept criticism, punishment or other unpleasant consequences for something you have done, instead of avoiding responsibility.",
+        "highlight": "face the music"
+      }
+    ]
+  }
+}

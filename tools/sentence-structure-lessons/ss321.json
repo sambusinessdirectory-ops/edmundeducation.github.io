@@ -1,0 +1,1236 @@
+{
+  "id": "ss321",
+  "order": 321,
+  "slug": "it-is-anyones-guess-wh-clause",
+  "title": "「It is anyone’s guess + wh-clause」表示「誰也說不準……」",
+  "titleZh": "「It is anyone’s guess + wh-clause」表示「誰也說不準……」",
+  "titleEn": "Using “It is anyone’s guess + wh-clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 319 -「It is anyone’s guess + wh-clause」表示「誰也說不準……」.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exercisePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "sha256": "fb4127aac7fae8102dc906e4fd03a56ab54cb97f3ac7187231cbcb7ad4844b13",
+    "sourceNumber": 319,
+    "systemOrder": 321,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 319 maps to ss321: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "be anyone’s guess",
+  "formulas": [
+    {
+      "id": "ss321-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "be anyone’s guess"
+    }
+  ],
+  "example": "It is anyone’s guess whether the agreement will survive.",
+  "exampleZh": "這項協議能否維持下去，誰也說不準。",
+  "examples": [
+    {
+      "id": "ss321-example-01",
+      "en": "It is anyone’s guess whether the agreement will survive.",
+      "zh": "這項協議能否維持下去，誰也說不準。",
+      "highlight": "It is anyone’s guess whether the agreement will survive."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss321-rule-01",
+      "zh": "使用陳述句語序目標表達【Wh-clause】是嵌入式疑問從句，從句內須使用陳述句語序，而不是一般問句語序。結果會是怎樣，誰也說不準。 客戶會選擇哪個設計，誰也說不準。 然而，如果 who 或 what 本身是從句主語，語序看起來可能與直接問句相同：【It is anyone’s guess who will win.】 誰會勝出，誰也說不準。",
+      "en": "Wh-clause The wh-clause is an embedded question. Do not use ordinary question word order inside it. Wh-clause It is anyone’s guess what the result will be. It is anyone’s guess what will the result be. Which design the client will choose is anyone’s guess. Which design will the client choose is anyone’s guess. However, when who or what is itself the subject, the word order may look the same as a direct question: It is anyone’s guess who will win.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss321-rule-02",
+      "zh": "整句是陳述句，不是問句接下來會發生甚麼事，誰也說不準。 這句是在陳述某件事無法確定，因此通常以句號結束，而不是問號。",
+      "en": "It is anyone’s guess what will happen next. The sentence makes a statement about uncertainty. It normally ends with a full stop, not a question mark.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss321-rule-03",
+      "zh": "不表示「任何人都猜得到」這個表達並不是指「任何人都能猜到」。它的意思是「沒有人能夠肯定答案」。",
+      "en": "“Anyone’s guess” The expression does not mean that the answer is easy to guess. It means that nobody knows the answer with certainty.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss321-rule-04",
+      "zh": "目標表達【“Anybody’s guess”】是可接受變體意思相同，但為保持本課答案一致，所有答案均使用 anyone’s guess。",
+      "en": "“Anybody’s guess” Anybody’s guess has the same meaning: It is anybody’s guess what will happen. However, this exercise consistently uses anyone’s guess. Anybody’s guess",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss321-rule-05",
+      "zh": "獨立使用方式不屬於本課主要答案這個慣用語可以獨立使用，但本課集中練習包含完整 wh-clause 的句式。",
+      "en": "The expression can stand alone: “What will happen now?” “That is anyone’s guess.” However, this exercise focuses on sentences that contain a complete wh-clause.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss321-rule-06",
+      "zh": "語氣和使用場合這個表達適合用於日常對話、評論、新聞寫作、議論文章及語氣較自然的作文。在非常正式的報告中，remains uncertain 或 cannot yet be determined 的語氣可能較中性。",
+      "en": "The expression is natural in conversation, commentary, news writing, opinion writing and less formal essays. In highly formal reports, remains uncertain or cannot yet be determined may be more neutral.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss321-benefit-01",
+      "zh": "能清楚而有力地表示無法確定與其只說 I do not know，這個句型能表示並非只有說話者不知道，而是任何人都無法提供可靠答案。我不知道這項協議能否維持下去。 這項協議能否維持下去，誰也說不準。 第一句只表示某一個人不知道；第二句則表示整個情況本身充滿不確定性。",
+      "en": "It expresses uncertainty clearly and strongly Instead of simply saying I do not know, this structure shows that nobody has a reliable answer. Compare: I do not know whether the agreement will survive. It is anyone’s guess whether the agreement will survive. The first sentence describes one person’s lack of knowledge. The second suggests that the whole situation is highly uncertain.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss321-benefit-02",
+      "zh": "能準確指出哪項資料不明目標表達【Wh-clause】可以準確指出未知的是人物、原因、時間、地點、選擇、結果、數量或所需時間。機器為甚麼停止運作，誰也說不準。 機器何時重新運作，誰也說不準。",
+      "en": "It lets you identify exactly what is unknown The wh-clause can identify an unknown: person reason time place choice result amount length of time. Wh-clause It is anyone’s guess why the machine stopped. It is anyone’s guess when it will start again.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss321-benefit-03",
+      "zh": "能避免重複使用“No one knows” 你不需要反覆使用 no one knows、nobody can say 或 we cannot predict，可以用 be 表達相同的核心意思。這樣可以令說話和寫作的句式更有變化。",
+      "en": "It gives you an alternative to “no one knows” Instead of repeatedly writing no one knows, nobody can say or we cannot predict, you can use be anyone’s guess. anyone’s guess This makes speaking and writing less repetitive.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss321-benefit-04",
+      "zh": "能靈活改變未知資料的位置你可以把未知資料放在慣用語後面，也可以把它移到句首，以突出該項資料。",
+      "en": "It allows two useful sentence positions You can place the unknown information after the expression: It is anyone’s guess how the story will end. You can also place it at the beginning: How the story will end is anyone’s guess.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss321-benefit-05",
+      "zh": "能成為實用的口語框架記住這個固定框架後，便可以代入不同疑問詞和資料，較流暢地表達無法確定的情況。",
+      "en": "It is a useful speaking frame Once you remember: It is anyone’s guess + wh-clause you can quickly build sentences without planning every word from the beginning.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss321-benefit-06",
+      "zh": "適合討論預測及尚未解決的事情這個句型適合討論未來事件、未解釋的問題、缺失資料、未確定的決定、未知原因及尚未得出結論的調查。",
+      "en": "It helps discuss predictions and unresolved situations The structure is useful when discussing: future events unexplained problems missing information uncertain decisions unknown causes investigations that have not reached a conclusion.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 319 maps to ss321: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using be anyone’s guess and a suitable wh-clause.",
+      "Preserve the original meaning, tense, modality and important details.",
+      "The position of anyone’s guess may vary. It may appear before the wh-clause, after the",
+      "wh-clause or inside a longer sentence.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 be anyone’s guess 及適當的 wh-clause 改寫以下句子。",
+      "答案須保留原句的意思、時態、情態及重要資料。",
+      "Anyone’s guess 的位置可以改變。它可以放在 wh-clause 前、wh-clause 後，或較長句子的中",
+      "間。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss321-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No one knows whether the agreement will survive.",
+      "promptZh": "沒有人知道這項協議能否維持下去。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess whether the agreement will survive.",
+      "answerZh": "這項協議能否維持下去，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess whether the agreement will survive."
+    },
+    {
+      "id": "ss321-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Nobody can say what will happen next.",
+      "promptZh": "沒有人說得準接下來會發生甚麼事。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess what will happen next.",
+      "answerZh": "接下來會發生甚麼事，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess what will happen next."
+    },
+    {
+      "id": "ss321-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We do not know when the train will arrive.",
+      "promptZh": "我們不知道火車何時到達。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the train will arrive is anyone’s guess.",
+      "answerZh": "火車何時到達，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "When the train will arrive is anyone’s guess."
+    },
+    {
+      "id": "ss321-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "No one knows where the missing key has gone.",
+      "promptZh": "沒有人知道那條不見了的鎖匙去了哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where the missing key has gone is anyone’s guess.",
+      "answerZh": "那條不見了的鎖匙去了哪裏，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Where the missing key has gone is anyone’s guess."
+    },
+    {
+      "id": "ss321-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "No one can explain why the screen suddenly went black.",
+      "promptZh": "沒有人能解釋螢幕為甚麼突然變黑。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why the screen suddenly went black is anyone’s guess.",
+      "answerZh": "螢幕為甚麼突然變黑，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Why the screen suddenly went black is anyone’s guess."
+    },
+    {
+      "id": "ss321-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We cannot tell who left the door open.",
+      "promptZh": "我們無法判斷是誰沒有把門關上。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess who left the door open.",
+      "answerZh": "是誰沒有把門關上，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess who left the door open."
+    },
+    {
+      "id": "ss321-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "No one knows which team will win.",
+      "promptZh": "沒有人知道哪支隊伍會勝出。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which team will win is anyone’s guess.",
+      "answerZh": "哪支隊伍會勝出，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Which team will win is anyone’s guess."
+    },
+    {
+      "id": "ss321-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Nobody can predict how the story will end.",
+      "promptZh": "沒有人能預測故事會如何結束。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess how the story will end.",
+      "answerZh": "故事會如何結束，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess how the story will end."
+    },
+    {
+      "id": "ss321-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We do not know how long the repair will take.",
+      "promptZh": "我們不知道維修需時多久。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How long the repair will take is anyone’s guess.",
+      "answerZh": "維修需時多久，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "How long the repair will take is anyone’s guess."
+    },
+    {
+      "id": "ss321-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It is impossible to say whether the shop will reopen tomorrow.",
+      "promptZh": "無法確定店舖明天會否重新營業。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess whether the shop will reopen tomorrow.",
+      "answerZh": "店舖明天會否重新營業，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess whether the shop will reopen tomorrow."
+    },
+    {
+      "id": "ss321-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "No one knows what caused the strange noise.",
+      "promptZh": "沒有人知道是甚麼造成那陣怪聲。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What caused the strange noise is anyone’s guess.",
+      "answerZh": "是甚麼造成那陣怪聲，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "What caused the strange noise is anyone’s guess."
+    },
+    {
+      "id": "ss321-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Experts cannot predict how much prices will rise.",
+      "promptZh": "專家無法預測價格會上升多少。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How much prices will rise is anyone’s guess.",
+      "answerZh": "價格會上升多少，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "How much prices will rise is anyone’s guess."
+    },
+    {
+      "id": "ss321-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "At present, no one can say when the new bridge will open.",
+      "promptZh": "目前，沒有人能說準新大橋何時開放。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At present, it is anyone’s guess when the new bridge will open.",
+      "answerZh": "目前，新大橋何時開放，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "At present, it is anyone’s guess when the new bridge will open."
+    },
+    {
+      "id": "ss321-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "It remains unclear why the meeting was cancelled.",
+      "promptZh": "會議為甚麼取消仍然不清楚。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is still anyone’s guess why the meeting was cancelled.",
+      "answerZh": "會議為甚麼取消，至今仍無人說得準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is still anyone’s guess why the meeting was cancelled."
+    },
+    {
+      "id": "ss321-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We cannot tell whether the weather will improve by the afternoon.",
+      "promptZh": "我們無法判斷天氣到下午時會否好轉。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the weather will improve by the afternoon is anyone’s guess.",
+      "answerZh": "天氣到下午時會否好轉，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the weather will improve by the afternoon is anyone’s guess."
+    },
+    {
+      "id": "ss321-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Nobody knows who will become the next captain.",
+      "promptZh": "沒有人知道誰會成為下一任隊長。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess who will become the next captain.",
+      "answerZh": "誰會成為下一任隊長，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess who will become the next captain."
+    },
+    {
+      "id": "ss321-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "No one can predict where the storm will move next.",
+      "promptZh": "沒有人能預測暴風雨接下來會移向哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where the storm will move next is anyone’s guess.",
+      "answerZh": "暴風雨接下來會移向哪裏，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Where the storm will move next is anyone’s guess."
+    },
+    {
+      "id": "ss321-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We have no idea how serious the damage is.",
+      "promptZh": "我們完全不知道損毀有多嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess how serious the damage is.",
+      "answerZh": "損毀有多嚴重，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess how serious the damage is."
+    },
+    {
+      "id": "ss321-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The doctors cannot yet say when the patient will be able to leave hospital.",
+      "promptZh": "醫生目前仍無法確定病人何時可以出院。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For now, it is anyone’s guess when the patient will be able to leave hospital.",
+      "answerZh": "目前，病人何時可以出院，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "For now, it is anyone’s guess when the patient will be able to leave hospital."
+    },
+    {
+      "id": "ss321-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Which design will the client choose? Nobody knows.",
+      "promptZh": "客戶會選擇哪個設計？沒有人知道。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which design the client will choose is anyone’s guess.",
+      "answerZh": "客戶會選擇哪個設計，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Which design the client will choose is anyone’s guess."
+    },
+    {
+      "id": "ss321-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "At that time, no one knew whether the rescue team would arrive before dark.",
+      "promptZh": "當時，沒有人知道救援隊能否在天黑前抵達。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At that time, it was anyone’s guess whether the rescue team would arrive before dark.",
+      "answerZh": "當時，救援隊能否在天黑前抵達，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "At that time, it was anyone’s guess whether the rescue team would arrive before dark."
+    },
+    {
+      "id": "ss321-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Nobody knew what had happened to the documents.",
+      "promptZh": "沒有人知道那些文件發生了甚麼事。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What had happened to the documents was anyone’s guess.",
+      "answerZh": "那些文件發生了甚麼事，當時誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "What had happened to the documents was anyone’s guess."
+    },
+    {
+      "id": "ss321-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Before the results came out, no one could tell who had won.",
+      "promptZh": "結果公布前，沒有人能判斷誰勝出了。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the results came out, it was anyone’s guess who had won.",
+      "answerZh": "結果公布前，誰勝出了仍無人說得準。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the results came out, it was anyone’s guess who had won."
+    },
+    {
+      "id": "ss321-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We still cannot explain why the machine keeps stopping.",
+      "promptZh": "我們仍無法解釋機器為甚麼不斷停止運作。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why the machine keeps stopping is still anyone’s guess.",
+      "answerZh": "機器為甚麼不斷停止運作，至今仍無人知道。",
+      "answerZhSource": "pdf",
+      "highlight": "Why the machine keeps stopping is still anyone’s guess."
+    },
+    {
+      "id": "ss321-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Experts are unsure how many homes will be affected by the new rule.",
+      "promptZh": "專家不確定有多少個家庭會受新規定影響。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess how many homes will be affected by the new rule.",
+      "answerZh": "會有多少個家庭受新規定影響，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess how many homes will be affected by the new rule."
+    },
+    {
+      "id": "ss321-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Nobody can say whether the repairs will cost more than expected.",
+      "promptZh": "沒有人能確定維修費會否超出預期。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the repairs will cost more than expected is anyone’s guess.",
+      "answerZh": "維修費會否超出預期，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the repairs will cost more than expected is anyone’s guess."
+    },
+    {
+      "id": "ss321-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The police do not know where the stolen bicycle has been taken.",
+      "promptZh": "警方不知道被盜的單車被帶到哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where the stolen bicycle has been taken is anyone’s guess.",
+      "answerZh": "被盜的單車被帶到哪裏，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Where the stolen bicycle has been taken is anyone’s guess."
+    },
+    {
+      "id": "ss321-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "There is no way to predict how soon the power will return.",
+      "promptZh": "無法預測電力還要多久才會恢復。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How soon the power will return is anyone’s guess.",
+      "answerZh": "電力還要多久才會恢復，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "How soon the power will return is anyone’s guess."
+    },
+    {
+      "id": "ss321-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The committee cannot predict what effect the change will have on staff.",
+      "promptZh": "委員會無法預測這項改變會對員工造成甚麼影響。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What effect the change will have on staff is anyone’s guess.",
+      "answerZh": "這項改變會對員工造成甚麼影響，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "What effect the change will have on staff is anyone’s guess."
+    },
+    {
+      "id": "ss321-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "As for the empty seat, no one knows who was supposed to sit there.",
+      "promptZh": "至於那個空座位，沒有人知道原本應該由誰坐。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As for the empty seat, it is anyone’s guess who was supposed to sit there.",
+      "answerZh": "至於那個空座位原本應該由誰坐，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "As for the empty seat, it is anyone’s guess who was supposed to sit there."
+    },
+    {
+      "id": "ss321-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Although the campaign has begun, no one can tell how successful it will be.",
+      "promptZh": "雖然宣傳活動已經展開，但沒有人能判斷它會有多成功。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the campaign has begun, it is anyone’s guess how successful it will be.",
+      "answerZh": "雖然宣傳活動已經展開，但它會有多成功，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the campaign has begun, it is anyone’s guess how successful it will be."
+    },
+    {
+      "id": "ss321-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "We can only speculate about why the data disappeared.",
+      "promptZh": "我們只能猜測資料為甚麼消失。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why the data disappeared is anyone’s guess.",
+      "answerZh": "資料為甚麼消失，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Why the data disappeared is anyone’s guess."
+    },
+    {
+      "id": "ss321-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "No one knows whether the witness will change her statement.",
+      "promptZh": "沒有人知道證人會否更改供詞。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess whether the witness will change her statement.",
+      "answerZh": "證人會否更改供詞，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess whether the witness will change her statement."
+    },
+    {
+      "id": "ss321-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "At this stage, nobody can say which proposal the board will support.",
+      "promptZh": "現階段，沒有人能說準董事會會支持哪項建議。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, it is anyone’s guess which proposal the board will support.",
+      "answerZh": "現階段，董事會會支持哪項建議，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, it is anyone’s guess which proposal the board will support."
+    },
+    {
+      "id": "ss321-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "We do not know how far the fire will spread.",
+      "promptZh": "我們不知道火勢會蔓延多遠。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How far the fire will spread is anyone’s guess.",
+      "answerZh": "火勢會蔓延多遠，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "How far the fire will spread is anyone’s guess."
+    },
+    {
+      "id": "ss321-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Even the organisers admit that they do not know when the final programme will be ready.",
+      "promptZh": "連主辦單位也承認，他們不知道最終節目表何時準備好。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even the organisers admit that it is anyone’s guess when the final programme will be ready.",
+      "answerZh": "連主辦單位也承認，最終節目表何時準備好，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Even the organisers admit that it is anyone’s guess when the final programme will be ready."
+    },
+    {
+      "id": "ss321-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The scientist admitted that no one knew what had produced the unusual result.",
+      "promptZh": "科學家承認，沒有人知道是甚麼造成那個不尋常的結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The scientist admitted that it was anyone’s guess what had produced the unusual result.",
+      "answerZh": "科學家承認，當時沒有人知道是甚麼造成那個不尋常的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The scientist admitted that it was anyone’s guess what had produced the unusual result."
+    },
+    {
+      "id": "ss321-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Why did the alarm sound? No one has been able to explain it.",
+      "promptZh": "警報為甚麼響起？一直沒有人能解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why the alarm sounded is anyone’s guess.",
+      "answerZh": "警報為甚麼響起，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Why the alarm sounded is anyone’s guess."
+    },
+    {
+      "id": "ss321-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "We cannot say whose account of the accident is accurate.",
+      "promptZh": "我們無法確定哪個人對這宗意外的說法才準確。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess whose account of the accident is accurate.",
+      "answerZh": "究竟哪一個人對這宗意外的說法準確，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess whose account of the accident is accurate."
+    },
+    {
+      "id": "ss321-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Despite several tests, doctors still do not know whether the treatment will work.",
+      "promptZh": "儘管進行了數次測試，醫生仍不知道治療是否有效。",
+      "promptZhSource": "pdf",
+      "starter": "Despite",
+      "answer": "Despite several tests, it is still anyone’s guess whether the treatment will work.",
+      "answerZh": "儘管進行了數次測試，治療是否有效仍無人說得準。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite several tests, it is still anyone’s guess whether the treatment will work."
+    },
+    {
+      "id": "ss321-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The company has released few details, so no one knows how the new service will operate.",
+      "promptZh": "公司只公布了少量細節，因此沒有人知道新服務會如何運作。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the company has released few details, it is anyone’s guess how the new service will operate.",
+      "answerZh": "由於公司只公布了少量細節，新服務會如何運作，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the company has released few details, it is anyone’s guess how the new service will operate."
+    },
+    {
+      "id": "ss321-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Even after reading the report, we cannot tell what the writer is actually recommending.",
+      "promptZh": "即使讀過報告，我們仍無法判斷作者實際上建議甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after reading the report, it is anyone’s guess what the writer is actually recommending.",
+      "answerZh": "即使讀過報告，作者實際上建議甚麼，仍然誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Even after reading the report, it is anyone’s guess what the writer is actually recommending."
+    },
+    {
+      "id": "ss321-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Whether the village will receive enough rain this year cannot be predicted.",
+      "promptZh": "這條村莊今年能否獲得足夠雨量，仍無法預測。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the village will receive enough rain this year is anyone’s guess.",
+      "answerZh": "這條村莊今年能否獲得足夠雨量，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the village will receive enough rain this year is anyone’s guess."
+    },
+    {
+      "id": "ss321-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "No one can say which of the two explanations is closer to the truth.",
+      "promptZh": "沒有人能確定兩個解釋中哪一個較接近真相。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess which of the two explanations is closer to the truth.",
+      "answerZh": "兩個解釋中哪一個較接近真相，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess which of the two explanations is closer to the truth."
+    },
+    {
+      "id": "ss321-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The judges may explain their decision tomorrow, but at present nobody knows how they reached it.",
+      "promptZh": "評判可能會在明天解釋決定，但目前沒有人知道他們如何作出這項決定。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the judges may explain their decision tomorrow, at present it is anyone’s guess how they reached it.",
+      "answerZh": "雖然評判可能會在明天解釋決定，但目前他們如何作出這項決定，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the judges may explain their decision tomorrow, at present it is anyone’s guess how they reached it."
+    },
+    {
+      "id": "ss321-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Journalists have asked repeatedly, but nobody can say why the minister changed his position so suddenly.",
+      "promptZh": "記者已經多次提問，但沒有人能說明部長為甚麼突然改變立場。",
+      "promptZhSource": "pdf",
+      "starter": "Journalists",
+      "answer": "Journalists have asked repeatedly, but why the minister changed his position so suddenly is anyone’s guess.",
+      "answerZh": "記者已經多次提問，但部長為甚麼突然改變立場，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Journalists have asked repeatedly, but why the minister changed his position so suddenly is anyone’s guess."
+    },
+    {
+      "id": "ss321-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "No one can predict whether the medicine will remain effective over many years.",
+      "promptZh": "沒有人能預測這種藥物能否多年保持效用。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is anyone’s guess whether the medicine will remain effective over many years.",
+      "answerZh": "這種藥物能否多年保持效用，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "It is anyone’s guess whether the medicine will remain effective over many years."
+    },
+    {
+      "id": "ss321-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The company refuses to publish the figures, so nobody knows how much money was lost.",
+      "promptZh": "公司拒絕公布數字，因此沒有人知道損失了多少金錢。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the company refuses to publish the figures, it is anyone’s guess how much money was lost.",
+      "answerZh": "由於公司拒絕公布數字，究竟損失了多少金錢，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "As the company refuses to publish the figures, it is anyone’s guess how much money was lost."
+    },
+    {
+      "id": "ss321-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Given the different descriptions from the witnesses, no one knows who actually entered the building first.",
+      "promptZh": "鑑於證人提供了不同描述，沒有人知道究竟是誰最先進入大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given the different descriptions from the witnesses, who actually entered the building first is anyone’s guess.",
+      "answerZh": "鑑於證人提供了不同描述，究竟是誰最先進入大樓，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Given the different descriptions from the witnesses, who actually entered the building first is anyone’s guess."
+    },
+    {
+      "id": "ss321-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Researchers agree that the climate is changing, but nobody can say exactly what conditions the region will face in fifty years.",
+      "promptZh": "研究人員同意氣候正在變化，但沒有人能說準該地區在五十年後會面對甚麼情況。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers agree that the climate is changing, but exactly what conditions the region will face in fifty years is anyone’s guess.",
+      "answerZh": "研究人員同意氣候正在變化，但該地區在五十年後究竟會面對甚麼情況，誰也說不準。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers agree that the climate is changing, but exactly what conditions the region will face in fifty years is anyone’s guess."
+    }
+  ]
+}

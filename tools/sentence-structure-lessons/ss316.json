@@ -1,0 +1,1267 @@
+{
+  "id": "ss316",
+  "order": 316,
+  "slug": "let-me-be-clear-clause",
+  "title": "「Let me be clear: + clause」",
+  "titleZh": "「Let me be clear: + clause」",
+  "titleEn": "Using “Let me be clear: + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 314 -「Let me be clear_ + clause」.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sha256": "0a3dc07198e331145e9bd843f1d62445f3934384928ebed73c44139b53498150",
+    "sourceNumber": 314,
+    "systemOrder": 316,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 314 maps to ss316: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "Let me be clear: + complete clause",
+  "formulas": [
+    {
+      "id": "ss316-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Let me be clear: + complete clause"
+    }
+  ],
+  "example": "Let me be clear: nobody is being asked to work without pay.",
+  "exampleZh": "讓我說清楚：沒有人被要求無薪工作。",
+  "examples": [
+    {
+      "id": "ss316-example-01",
+      "en": "Let me be clear: nobody is being asked to work without pay.",
+      "zh": "讓我說清楚：沒有人被要求無薪工作。",
+      "highlight": "Let me be clear: nobody is being asked to work without pay."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss316-rule-01",
+      "zh": "在 let 後面使用「受詞 + 動詞原形」，因此 me 之後直接接 be；不可在 be 前加 to，也不可把 be 改成現在分詞。",
+      "en": "Use the base form be after let The pattern is: let + object + base verb Therefore: Let me be clear. Let me to be clear. Let me being clear.",
+      "enSource": "pdf",
+      "zhSource": "editorial-translation"
+    },
+    {
+      "id": "ss316-rule-02",
+      "zh": "在 Let me be clear 中，me 是 let 的受詞，因此必須使用受格 me，不可改用主格 I。",
+      "en": "Use me, not I Let me be clear. Let I be clear. In this structure, me is the object of let.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss316-rule-03",
+      "zh": "冒號用來引出說話者希望清楚說明的完整內容。",
+      "en": "Place a colon after clear The colon introduces the exact statement that the speaker wants to make clear. Let me be clear: nobody will lose their job. Let me be clear, nobody will lose their job.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss316-rule-04",
+      "zh": "冒號後通常需要接一個有主詞和動詞的完整子句。",
+      "en": "A complete clause should follow the colon The words after the colon normally require their own subject and verb. Let me be clear: the policy applies to everyone. Let me be clear: applying to everyone.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss316-rule-05",
+      "zh": "這個表達的語氣比較堅定，常用於：糾正誤解；否定錯誤說法；說明重要規則；表明堅定立場；清楚作出承諾或警告。如果只是普通或不重要的補充說明，這個表達可能顯得語氣過重。",
+      "en": "The expression is firm and emphatic Speakers often use it when they want to: correct a misunderstanding reject a false claim state an important rule establish a firm position make a promise or warning unmistakable. It may sound too strong for an ordinary or unimportant clarification.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss316-rule-06",
+      "zh": "在核心句式前，Before we continue 等引導資料只交代說話的時間或情境，可以省略。Before we continue, let me be clear: nobody is being blamed. 與刪去引導語後的句子都文法完整，核心仍是 Let me be clear: + 完整子句。",
+      "en": "Introductory material is optional The following words add context, but the sentence is still grammatically complete without them: Before we continue, let me be clear: nobody is being blamed. Let me be clear: nobody is being blamed. Both sentences are complete. The first simply explains when or under what circumstances the statement is being made.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss316-rule-07",
+      "zh": "在澄清資料時，To be clear, + 子句通常較簡短中性；Let me be clear: + 子句則更具個人立場和力度，提醒聽者特別留意說話者的訊息。兩者都可說明會議九時開始，但語氣和溝通功能不同。",
+      "en": "Do not confuse it with To be clear To be clear, + clause is usually shorter and more neutral. To be clear, the meeting begins at nine. Let me be clear: + clause is more personal and forceful. It tells the audience to pay particular attention to the speaker’s position. Let me be clear: the meeting begins at nine.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss316-rule-08",
+      "zh": "在辨析兩個句式時，It is clear that + 子句表示某事看來明顯或確定，例如計劃顯然已失敗；Let me be clear: + 子句則引出說話者不希望別人誤解的聲明。前者判斷事實，後者澄清立場，兩者不可混用。",
+      "en": "Do not confuse it with It is clear that It is clear that + clause means that something appears obvious or certain. It is clear that the plan has failed. Let me be clear: + clause introduces a statement that the speaker does not want others to misunderstand. Let me be clear: I am not saying that the plan has failed.",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss316-rule-09",
+      "zh": "經理清楚表明，遲到是不能接受的。 經理說：「讓我說清楚：遲到是不能接受的。」",
+      "en": "Do not confuse it with make it clear that Make it clear that describes the act of communicating something clearly. The manager made it clear that lateness was unacceptable. Let me be clear: is the speaker’s actual introductory expression. The manager said, ‘Let me be clear: lateness is unacceptable.’",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss316-rule-10",
+      "zh": "本練習只訓練使用冒號的目標格式。",
+      "en": "Let me be clear that is grammatical but excluded here This sentence is grammatical: Let me be clear that nobody is being blamed. However, this exercise practises the colon pattern: Let me be clear: nobody is being blamed.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss316-benefit-01",
+      "zh": "這個表達能提醒聽者，接下來的說話尤其重要。你可以直接帶出重點，避免最重要的訊息埋沒在冗長的解釋之中。",
+      "en": "It tells listeners which point matters most This expression signals that the next statement is especially important. Instead of allowing the main point to become hidden inside a long explanation, you can introduce it directly.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss316-benefit-02",
+      "zh": "你可以在糾正傳聞、錯誤假設或含糊指示之前使用這個表達。",
+      "en": "It helps prevent misunderstanding You can use the expression before correcting a rumour, a wrong assumption or an unclear instruction. Some people believe the event has been cancelled. Let me be clear: the event is going ahead as planned.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss316-benefit-03",
+      "zh": "當你需要清楚表達規則、界線、承諾或決定時，這個句型十分實用。",
+      "en": "It helps you state a firm position The expression is useful when you need to communicate a rule, boundary, promise or decision without sounding uncertain. Let me be clear: personal attacks will not be accepted.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss316-benefit-04",
+      "zh": "這個表達就像一個清晰的路標，告訴聽者你將由背景資料轉入主要訊息。",
+      "en": "It organises spoken explanations The expression acts as a clear signpost. It tells listeners that you are moving from background information to your main message. This is especially helpful in: meetings presentations interviews debates formal discussions.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss316-benefit-05",
+      "zh": "這個句型能讓你避免反覆使用較長的表達，使說話和寫作更有變化。",
+      "en": "It gives you more sentence variety Instead of repeatedly saying: I want everyone to understand that... I need to make it clear that... There should be no misunderstanding that... you can sometimes use: Let me be clear:...",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss316-benefit-06",
+      "zh": "你可以在核心表達之前加入時間、條件、主題或引述部分，令句子結構更加靈活。",
+      "en": "It can be combined with different sentence openings You can place a time phrase, condition, topic phrase or reporting clause before the core expression. Before we vote, let me be clear: approving the plan does not approve every detail.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 314 maps to ss316: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each statement using the exact expression Let me be clear:.",
+      "Keep any introductory phrase, introductory clause or reporting information that is needed.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用固定表達 Let me be clear: 改寫以下句子。",
+      "保留答案所需的引入語、引入子句或引述資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss316-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I want everyone to understand that the lesson starts at nine.",
+      "promptZh": "我希望大家明白，課堂在九時開始。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me be clear: the lesson starts at nine.",
+      "answerZh": "讓我說清楚：課堂在九時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me be clear: the lesson starts at nine."
+    },
+    {
+      "id": "ss316-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "There should be no misunderstanding: nobody is being asked to work without pay.",
+      "promptZh": "大家不應有任何誤解：沒有人被要求無薪工作。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me be clear: nobody is being asked to work without pay.",
+      "answerZh": "讓我說清楚：沒有人被要求無薪工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me be clear: nobody is being asked to work without pay."
+    },
+    {
+      "id": "ss316-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I need to make one point clear: this rule applies to every student.",
+      "promptZh": "我需要說清楚一點：這項規則適用於每名學生。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me be clear: this rule applies to every student.",
+      "answerZh": "讓我說清楚：這項規則適用於每名學生。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me be clear: this rule applies to every student."
+    },
+    {
+      "id": "ss316-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Some people think I cancelled the trip. I want to state clearly that I did not.",
+      "promptZh": "有些人以為我取消了行程。我想清楚表明，我並沒有這樣做。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me be clear: I have not cancelled the trip.",
+      "answerZh": "讓我說清楚：我並沒有取消行程。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me be clear: I have not cancelled the trip."
+    },
+    {
+      "id": "ss316-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I want everyone to understand that you may ask questions at any time.",
+      "promptZh": "我希望大家明白，你們可以隨時發問。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me be clear: you may ask questions at any time.",
+      "answerZh": "讓我說清楚：你們可以隨時發問。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me be clear: you may ask questions at any time."
+    },
+    {
+      "id": "ss316-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "To be clear, the library will remain open during lunch.",
+      "promptZh": "說清楚一點，圖書館將在午膳時間繼續開放。",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "Let me be clear: the library will remain open during lunch.",
+      "answerZh": "讓我說清楚：圖書館將在午膳時間繼續開放。",
+      "answerZhSource": "pdf",
+      "highlight": "Let me be clear: the library will remain open during lunch."
+    },
+    {
+      "id": "ss316-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Before we continue, I want everyone to understand that we are discussing the plan, not blaming anyone.",
+      "promptZh": "在我們繼續之前，我希望大家明白，我們正在討論計劃，而不是責怪任何人。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we continue, let me be clear: we are discussing the plan, not blaming anyone.",
+      "answerZh": "在我們繼續之前，讓我說清楚：我們正在討論計劃，而不是責怪任何人。",
+      "answerZhSource": "pdf",
+      "highlight": "Before we continue, let me be clear: we are discussing the plan, not blaming anyone."
+    },
+    {
+      "id": "ss316-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Regarding the course fee, I need to make it clear that it includes all course materials.",
+      "promptZh": "關於課程費用，我需要說清楚，費用包括所有課程材料。",
+      "promptZhSource": "pdf",
+      "starter": "Regarding",
+      "answer": "Regarding the course fee, let me be clear: it includes all course materials.",
+      "answerZh": "關於課程費用，讓我說清楚：費用包括所有課程材料。",
+      "answerZhSource": "pdf",
+      "highlight": "Regarding the course fee, let me be clear: it includes all course materials."
+    },
+    {
+      "id": "ss316-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "On privacy, there should be no doubt that your personal information will remain private.",
+      "promptZh": "在私隱方面，大家不應懷疑你的個人資料會得到保密。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On privacy, let me be clear: your personal information will remain private.",
+      "answerZh": "在私隱方面，讓我說清楚：你的個人資料將會保密。",
+      "answerZhSource": "pdf",
+      "highlight": "On privacy, let me be clear: your personal information will remain private."
+    },
+    {
+      "id": "ss316-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "To avoid any confusion, I want to state clearly that the deadline is Friday, not Monday.",
+      "promptZh": "為免造成混亂，我想清楚表明，截止日期是星期五，而不是星期一。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To avoid any confusion, let me be clear: the deadline is Friday, not Monday.",
+      "answerZh": "為免造成混亂，讓我說清楚：截止日期是星期五，而不是星期一。",
+      "answerZhSource": "pdf",
+      "highlight": "To avoid any confusion, let me be clear: the deadline is Friday, not Monday."
+    },
+    {
+      "id": "ss316-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As we begin the meeting, I want everyone to understand that every opinion will be heard.",
+      "promptZh": "在會議開始之際，我希望大家明白，每個人的意見都會獲得聆聽。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As we begin the meeting, let me be clear: every opinion will be heard.",
+      "answerZh": "在會議開始之際，讓我說清楚：每個人的意見都會獲得聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "As we begin the meeting, let me be clear: every opinion will be heard."
+    },
+    {
+      "id": "ss316-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If anyone is still unsure, I want to make it clear that attendance is optional.",
+      "promptZh": "如果仍有人不肯定，我想說清楚，出席與否是自願的。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If anyone is still unsure, let me be clear: attendance is optional.",
+      "answerZh": "如果仍有人不肯定，讓我說清楚：出席與否是自願的。",
+      "answerZhSource": "pdf",
+      "highlight": "If anyone is still unsure, let me be clear: attendance is optional."
+    },
+    {
+      "id": "ss316-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "On the question of safety, everyone must understand that the equipment must be checked daily.",
+      "promptZh": "在安全問題上，所有人都必須明白，設備必須每日檢查。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the question of safety, let me be clear: the equipment must be checked daily.",
+      "answerZh": "在安全問題上，讓我說清楚：設備必須每日檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "On the question of safety, let me be clear: the equipment must be checked daily."
+    },
+    {
+      "id": "ss316-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Before rumours spread further, I need to state clearly that no jobs are being cut.",
+      "promptZh": "在傳聞進一步擴散之前，我需要清楚表明，公司並沒有削減職位。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before rumours spread further, let me be clear: no jobs are being cut.",
+      "answerZh": "在傳聞進一步擴散之前，讓我說清楚：公司並沒有削減職位。",
+      "answerZhSource": "pdf",
+      "highlight": "Before rumours spread further, let me be clear: no jobs are being cut."
+    },
+    {
+      "id": "ss316-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Whatever happens next, I want everyone to understand that the team will receive full support.",
+      "promptZh": "無論接下來發生甚麼事，我都希望大家明白，團隊將獲得全面支援。",
+      "promptZhSource": "pdf",
+      "starter": "Whatever",
+      "answer": "Whatever happens next, let me be clear: the team will receive full support.",
+      "answerZh": "無論接下來發生甚麼事，讓我說清楚：團隊將獲得全面支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever happens next, let me be clear: the team will receive full support."
+    },
+    {
+      "id": "ss316-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The coach said firmly, ‘Effort matters more than experience.’",
+      "promptZh": "教練堅定地說：「努力比經驗更重要。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach said, ‘Let me be clear: effort matters more than experience.’",
+      "answerZh": "教練說：「讓我說清楚：努力比經驗更重要。」",
+      "answerZhSource": "pdf",
+      "highlight": "The coach said, ‘Let me be clear: effort matters more than experience.’"
+    },
+    {
+      "id": "ss316-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In her reply, the director wrote firmly, ‘The company accepts responsibility.’",
+      "promptZh": "主管在回覆中堅定地寫道：「公司承擔責任。」",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In her reply, the director wrote, ‘Let me be clear: the company accepts responsibility.’",
+      "answerZh": "主管在回覆中寫道：「讓我說清楚：公司承擔責任。」",
+      "answerZhSource": "pdf",
+      "highlight": "In her reply, the director wrote, ‘Let me be clear: the company accepts responsibility.’"
+    },
+    {
+      "id": "ss316-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Asked about the delay, the organiser replied firmly, ‘All tickets will remain valid.’",
+      "promptZh": "被問及延誤時，主辦人堅定地回答：「所有門票仍然有效。」",
+      "promptZhSource": "pdf",
+      "starter": "Asked",
+      "answer": "Asked about the delay, the organiser replied, ‘Let me be clear: all tickets will remain valid.’",
+      "answerZh": "被問及延誤時，主辦人回答：「讓我說清楚：所有門票仍然有效。」",
+      "answerZhSource": "pdf",
+      "highlight": "Asked about the delay, the organiser replied, ‘Let me be clear: all tickets will remain valid.’"
+    },
+    {
+      "id": "ss316-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "‘This decision is final,’ the chairperson said firmly.",
+      "promptZh": "主席堅定地說：「這項決定是最終決定。」",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "‘Let me be clear: this decision is final,’ the chairperson said.",
+      "answerZh": "主席說：「讓我說清楚：這項決定是最終決定。」",
+      "answerZhSource": "pdf",
+      "highlight": "‘Let me be clear: this decision is final,’ the chairperson said.",
+      "acceptedAnswers": [
+        "Let me be clear: this decision is final, the chairperson said."
+      ]
+    },
+    {
+      "id": "ss316-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "During the interview, the scientist stressed, ‘The results are still preliminary.’",
+      "promptZh": "科學家在訪問期間強調：「這些結果仍屬初步結果。」",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the interview, the scientist said, ‘Let me be clear: the results are still preliminary.’",
+      "answerZh": "科學家在訪問期間說：「讓我說清楚：這些結果仍屬初步結果。」",
+      "answerZhSource": "pdf",
+      "highlight": "During the interview, the scientist said, ‘Let me be clear: the results are still preliminary.’"
+    },
+    {
+      "id": "ss316-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Regarding the payment, I want to make one point clear: it is a deposit, not a final charge.",
+      "promptZh": "關於這筆款項，我想說清楚一點：這是按金，而不是最終收費。",
+      "promptZhSource": "pdf",
+      "starter": "Regarding",
+      "answer": "Regarding the payment, let me be clear: it is a deposit, not a final charge.",
+      "answerZh": "關於這筆款項，讓我說清楚：這是按金，而不是最終收費。",
+      "answerZhSource": "pdf",
+      "highlight": "Regarding the payment, let me be clear: it is a deposit, not a final charge."
+    },
+    {
+      "id": "ss316-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before you sign, I want you to understand that you can cancel within seven days.",
+      "promptZh": "在你簽署之前，我想你明白，你可以在七日內取消。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before you sign, let me be clear: you can cancel within seven days.",
+      "answerZh": "在你簽署之前，讓我說清楚：你可以在七日內取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Before you sign, let me be clear: you can cancel within seven days."
+    },
+    {
+      "id": "ss316-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the proposal has advantages, I need to emphasise that it still carries serious risks.",
+      "promptZh": "雖然這項建議有其優點，但我需要強調，它仍然帶有嚴重風險。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the proposal has advantages, let me be clear: it still carries serious risks.",
+      "answerZh": "雖然這項建議有其優點，但讓我說清楚：它仍然帶有嚴重風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the proposal has advantages, let me be clear: it still carries serious risks."
+    },
+    {
+      "id": "ss316-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Because several versions are circulating, I want to make it clear that this is the only approved document.",
+      "promptZh": "由於現時流傳着數個版本，我想說清楚，這是唯一獲批准的文件。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because several versions are circulating, let me be clear: this is the only approved document.",
+      "answerZh": "由於現時流傳着數個版本，讓我說清楚：這是唯一獲批准的文件。",
+      "answerZhSource": "pdf",
+      "highlight": "Because several versions are circulating, let me be clear: this is the only approved document."
+    },
+    {
+      "id": "ss316-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the figures change, I want everyone to know that we will publish an updated report.",
+      "promptZh": "如果數字有變，我希望大家知道，我們將會發表更新報告。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the figures change, let me be clear: we will publish an updated report.",
+      "answerZh": "如果數字有變，讓我說清楚：我們將會發表更新報告。",
+      "answerZhSource": "pdf",
+      "highlight": "If the figures change, let me be clear: we will publish an updated report."
+    },
+    {
+      "id": "ss316-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Regarding the complaint, I must state clearly that it is being investigated independently.",
+      "promptZh": "關於這宗投訴，我必須清楚表明，事件正由獨立方面調查。",
+      "promptZhSource": "pdf",
+      "starter": "Regarding",
+      "answer": "Regarding the complaint, let me be clear: it is being investigated independently.",
+      "answerZh": "關於這宗投訴，讓我說清楚：事件正由獨立方面調查。",
+      "answerZhSource": "pdf",
+      "highlight": "Regarding the complaint, let me be clear: it is being investigated independently."
+    },
+    {
+      "id": "ss316-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "On this point, there should be no misunderstanding: there is no evidence that the data was altered.",
+      "promptZh": "在這一點上，不應有任何誤解：沒有證據顯示數據曾被改動。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On this point, let me be clear: there is no evidence that the data was altered.",
+      "answerZh": "在這一點上，讓我說清楚：沒有證據顯示數據曾被改動。",
+      "answerZhSource": "pdf",
+      "highlight": "On this point, let me be clear: there is no evidence that the data was altered."
+    },
+    {
+      "id": "ss316-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "At the start of the course, I want to make one expectation clear: progress requires regular practice.",
+      "promptZh": "在課程開始時，我想說清楚一項要求：進步需要定期練習。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the start of the course, let me be clear: progress requires regular practice.",
+      "answerZh": "在課程開始時，讓我說清楚：進步需要定期練習。",
+      "answerZhSource": "pdf",
+      "highlight": "At the start of the course, let me be clear: progress requires regular practice."
+    },
+    {
+      "id": "ss316-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "For the record, I want it clearly understood that I opposed the decision from the beginning.",
+      "promptZh": "為正式記錄在案，我希望大家清楚明白，我從一開始便反對這項決定。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the record, let me be clear: I opposed the decision from the beginning.",
+      "answerZh": "為正式記錄在案，讓我說清楚：我從一開始便反對這項決定。",
+      "answerZhSource": "pdf",
+      "highlight": "For the record, let me be clear: I opposed the decision from the beginning."
+    },
+    {
+      "id": "ss316-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In front of the whole team, the manager said firmly, ‘No one will be punished for reporting a problem.’",
+      "promptZh": "經理在整個團隊面前堅定地說：「沒有人會因舉報問題而受到懲罰。」",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In front of the whole team, the manager said, ‘Let me be clear: no one will be punished for reporting a problem.’",
+      "answerZh": "經理在整個團隊面前說：「讓我說清楚：沒有人會因舉報問題而受到懲罰。」",
+      "answerZhSource": "pdf",
+      "highlight": "In front of the whole team, the manager said, ‘Let me be clear: no one will be punished for reporting a problem.’"
+    },
+    {
+      "id": "ss316-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As your supervisor, I want to make this completely clear: I expect honesty, but I do not expect perfection.",
+      "promptZh": "作為你的主管，我想把這一點完全說清楚：我要求誠實，但不要求完美。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As your supervisor, let me be clear: I expect honesty, but I do not expect perfection.",
+      "answerZh": "作為你的主管，讓我說清楚：我要求誠實，但不要求完美。",
+      "answerZhSource": "pdf",
+      "highlight": "As your supervisor, let me be clear: I expect honesty, but I do not expect perfection."
+    },
+    {
+      "id": "ss316-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Before we discuss solutions, I need everyone to understand that the problem was not caused by one person.",
+      "promptZh": "在我們討論解決方法之前，我需要大家明白，問題並非由一個人造成。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we discuss solutions, let me be clear: the problem was not caused by one person.",
+      "answerZh": "在我們討論解決方法之前，讓我說清楚：問題並非由一個人造成。",
+      "answerZhSource": "pdf",
+      "highlight": "Before we discuss solutions, let me be clear: the problem was not caused by one person."
+    },
+    {
+      "id": "ss316-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If anyone feels unsafe, there must be no misunderstanding: the work must stop immediately.",
+      "promptZh": "如果任何人感到不安全，便不應有任何誤解：工作必須立即停止。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If anyone feels unsafe, let me be clear: the work must stop immediately.",
+      "answerZh": "如果任何人感到不安全，讓我說清楚：工作必須立即停止。",
+      "answerZhSource": "pdf",
+      "highlight": "If anyone feels unsafe, let me be clear: the work must stop immediately."
+    },
+    {
+      "id": "ss316-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "While the review is under way, I must emphasise that no conclusion has yet been reached.",
+      "promptZh": "在檢討進行期間，我必須強調，目前尚未得出任何結論。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While the review is under way, let me be clear: no conclusion has yet been reached.",
+      "answerZh": "在檢討進行期間，讓我說清楚：目前尚未得出任何結論。",
+      "answerZhSource": "pdf",
+      "highlight": "While the review is under way, let me be clear: no conclusion has yet been reached."
+    },
+    {
+      "id": "ss316-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "To address the main concern, I want to state clearly that the new system will not collect location data.",
+      "promptZh": "為回應主要疑慮，我想清楚表明，新系統不會收集位置資料。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To address the main concern, let me be clear: the new system will not collect location data.",
+      "answerZh": "為回應主要疑慮，讓我說清楚：新系統不會收集位置資料。",
+      "answerZhSource": "pdf",
+      "highlight": "To address the main concern, let me be clear: the new system will not collect location data."
+    },
+    {
+      "id": "ss316-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The principal opened the assembly with the firm statement, ‘Bullying will be taken seriously.’",
+      "promptZh": "校長在早會開始時堅定地表示：「校方會嚴肅處理欺凌行為。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The principal opened the assembly by saying, ‘Let me be clear: bullying will be taken seriously.’",
+      "answerZh": "校長在早會開始時說：「讓我說清楚：校方會嚴肅處理欺凌行為。」",
+      "answerZhSource": "pdf",
+      "highlight": "The principal opened the assembly by saying, ‘Let me be clear: bullying will be taken seriously.’"
+    },
+    {
+      "id": "ss316-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In the final paragraph, the lawyer wrote firmly, ‘Accepting this offer does not remove your legal rights.’",
+      "promptZh": "律師在最後一段堅定地寫道：「接受這項提議不會令你失去法律權利。」",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the final paragraph, the lawyer wrote, ‘Let me be clear: accepting this offer does not remove your legal rights.’",
+      "answerZh": "律師在最後一段寫道：「讓我說清楚：接受這項提議不會令你失去法律權利。」",
+      "answerZhSource": "pdf",
+      "highlight": "In the final paragraph, the lawyer wrote, ‘Let me be clear: accepting this offer does not remove your legal rights.’"
+    },
+    {
+      "id": "ss316-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When reporters questioned the figures, the minister answered firmly, ‘The full data will be released tomorrow.’",
+      "promptZh": "當記者質疑這些數字時，部長堅定地回答：「完整數據將於明日公布。」",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When reporters questioned the figures, the minister replied, ‘Let me be clear: the full data will be released tomorrow.’",
+      "answerZh": "當記者質疑這些數字時，部長回答：「讓我說清楚：完整數據將於明日公布。」",
+      "answerZhSource": "pdf",
+      "highlight": "When reporters questioned the figures, the minister replied, ‘Let me be clear: the full data will be released tomorrow.’"
+    },
+    {
+      "id": "ss316-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "‘We can change the method, but we cannot lower the safety standard,’ the engineer said firmly.",
+      "promptZh": "工程師堅定地說：「我們可以改變方法，但不能降低安全標準。」",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "‘Let me be clear: we can change the method, but we cannot lower the safety standard,’ the engineer said.",
+      "answerZh": "工程師說：「讓我說清楚：我們可以改變方法，但不能降低安全標準。」",
+      "answerZhSource": "pdf",
+      "highlight": "‘Let me be clear: we can change the method, but we cannot lower the safety standard,’ the engineer said.",
+      "acceptedAnswers": [
+        "Let me be clear: we can change the method, but we cannot lower the safety standard, the engineer said."
+      ]
+    },
+    {
+      "id": "ss316-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before ending the call, the adviser firmly told the client, ‘You are free to seek independent advice.’",
+      "promptZh": "在結束通話之前，顧問堅定地告訴客戶：「你可以自由尋求獨立意見。」",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before ending the call, the adviser said, ‘Let me be clear: you are free to seek independent advice.’",
+      "answerZh": "在結束通話之前，顧問說：「讓我說清楚：你可以自由尋求獨立意見。」",
+      "answerZhSource": "pdf",
+      "highlight": "Before ending the call, the adviser said, ‘Let me be clear: you are free to seek independent advice.’"
+    },
+    {
+      "id": "ss316-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Whatever the final outcome, I want it understood that the people who raised concerns acted responsibly.",
+      "promptZh": "無論最終結果如何，我希望大家明白，提出疑慮的人採取了負責任的行動。",
+      "promptZhSource": "pdf",
+      "starter": "Whatever",
+      "answer": "Whatever the final outcome, let me be clear: the people who raised concerns acted responsibly.",
+      "answerZh": "無論最終結果如何，讓我說清楚：提出疑慮的人採取了負責任的行動。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever the final outcome, let me be clear: the people who raised concerns acted responsibly."
+    },
+    {
+      "id": "ss316-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "To distinguish fact from speculation, I need to state clearly that the investigation has found no evidence of deliberate misconduct.",
+      "promptZh": "為了區分事實與猜測，我需要清楚表明，調查沒有發現任何蓄意不當行為的證據。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To distinguish fact from speculation, let me be clear: the investigation has found no evidence of deliberate misconduct.",
+      "answerZh": "為了區分事實與猜測，讓我說清楚：調查沒有發現任何蓄意不當行為的證據。",
+      "answerZhSource": "pdf",
+      "highlight": "To distinguish fact from speculation, let me be clear: the investigation has found no evidence of deliberate misconduct."
+    },
+    {
+      "id": "ss316-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "As negotiations continue, everyone should understand that neither side has agreed to the proposed timetable.",
+      "promptZh": "隨着談判繼續進行，大家應該明白，雙方都尚未同意建議中的時間表。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As negotiations continue, let me be clear: neither side has agreed to the proposed timetable.",
+      "answerZh": "隨着談判繼續進行，讓我說清楚：雙方都尚未同意建議中的時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "As negotiations continue, let me be clear: neither side has agreed to the proposed timetable."
+    },
+    {
+      "id": "ss316-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "In response to the public statement, the charity’s director firmly said, ‘Every donated dollar will be accounted for.’",
+      "promptZh": "慈善機構主管回應公開聲明時堅定地說：「每一元捐款都會有清楚交代。」",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In response to the public statement, the charity’s director said, ‘Let me be clear: every donated dollar will be accounted for.’",
+      "answerZh": "慈善機構主管回應公開聲明時說：「讓我說清楚：每一元捐款都會有清楚交代。」",
+      "answerZhSource": "pdf",
+      "highlight": "In response to the public statement, the charity’s director said, ‘Let me be clear: every donated dollar will be accounted for.’"
+    },
+    {
+      "id": "ss316-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Asked whether the policy might be relaxed, the regulator answered without ambiguity, ‘Exceptions will be considered only where the law allows them.’",
+      "promptZh": "被問及政策會否放寬時，監管機構毫不含糊地回答：「只有在法律容許的情況下，才會考慮例外安排。」",
+      "promptZhSource": "pdf",
+      "starter": "Asked",
+      "answer": "Asked whether the policy might be relaxed, the regulator replied, ‘Let me be clear: exceptions will be considered only where the law allows them.’",
+      "answerZh": "被問及政策會否放寬時，監管機構回答：「讓我說清楚：只有在法律容許的情況下，才會考慮例外安排。」",
+      "answerZhSource": "pdf",
+      "highlight": "Asked whether the policy might be relaxed, the regulator replied, ‘Let me be clear: exceptions will be considered only where the law allows them.’"
+    },
+    {
+      "id": "ss316-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "‘If the supplier misses the revised deadline, the contract may be terminated,’ the project director warned firmly.",
+      "promptZh": "項目主管堅定地警告：「如果供應商錯過修訂後的期限，合約可能會被終止。」",
+      "promptZhSource": "pdf",
+      "starter": "Let",
+      "answer": "‘Let me be clear: if the supplier misses the revised deadline, the contract may be terminated,’ the project director warned.",
+      "answerZh": "項目主管警告：「讓我說清楚：如果供應商錯過修訂後的期限，合約可能會被終止。」",
+      "answerZhSource": "pdf",
+      "highlight": "‘Let me be clear: if the supplier misses the revised deadline, the contract may be terminated,’ the project director warned.",
+      "acceptedAnswers": [
+        "Let me be clear: if the supplier misses the revised deadline, the contract may be terminated, the project director warned."
+      ]
+    },
+    {
+      "id": "ss316-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Before the board votes, I want to make one distinction clear: approving the budget does not mean approving every individual expense.",
+      "promptZh": "在董事會投票之前，我想清楚說明一項分別：批准預算並不等於批准每一項個別開支。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the board votes, let me be clear: approving the budget does not mean approving every individual expense.",
+      "answerZh": "在董事會投票之前，讓我說清楚：批准預算並不等於批准每一項個別開支。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the board votes, let me be clear: approving the budget does not mean approving every individual expense."
+    },
+    {
+      "id": "ss316-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "On behalf of the research team, I must stress that these findings show a possible link, not proof of cause and effect.",
+      "promptZh": "我代表研究團隊強調，這些研究結果顯示可能存在關聯，而不是證明因果關係。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On behalf of the research team, let me be clear: these findings show a possible link, not proof of cause and effect.",
+      "answerZh": "我代表研究團隊說清楚：這些研究結果顯示可能存在關聯，而不是證明因果關係。",
+      "answerZhSource": "pdf",
+      "highlight": "On behalf of the research team, let me be clear: these findings show a possible link, not proof of cause and effect."
+    },
+    {
+      "id": "ss316-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "To correct the impression created by the earlier email, I need to make it clear that staff may work remotely, but they are not required to do so.",
+      "promptZh": "為糾正較早前電郵所造成的印象，我需要說清楚，員工可以遙距工作，但並非必須這樣做。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To correct the impression created by the earlier email, let me be clear: staff may work remotely, but they are not required to do so.",
+      "answerZh": "為糾正較早前電郵所造成的印象，讓我說清楚：員工可以遙距工作，但並非必須這樣做。",
+      "answerZhSource": "pdf",
+      "highlight": "To correct the impression created by the earlier email, let me be clear: staff may work remotely, but they are not required to do so."
+    },
+    {
+      "id": "ss316-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "At the close of the hearing, the chairperson firmly said, ‘Criticism is welcome, personal attacks are not, and every speaker must follow the same rules.’",
+      "promptZh": "在聽證會結束時，主席堅定地說：「我們歡迎批評，但不接受人身攻擊，而且每名發言者都必須遵守相同規則。」",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the close of the hearing, the chairperson said, ‘Let me be clear: criticism is welcome, personal attacks are not, and every speaker must follow the same rules.’",
+      "answerZh": "在聽證會結束時，主席說：「讓我說清楚：我們歡迎批評，但不接受人身攻擊，而且每名發言者都必須遵守相同規則。」",
+      "answerZhSource": "pdf",
+      "highlight": "At the close of the hearing, the chairperson said, ‘Let me be clear: criticism is welcome, personal attacks are not, and every speaker must follow the same rules.’"
+    }
+  ]
+}

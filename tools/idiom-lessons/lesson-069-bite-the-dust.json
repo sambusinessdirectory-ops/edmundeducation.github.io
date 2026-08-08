@@ -1,0 +1,1489 @@
+{
+  "lesson": {
+    "id": "idiom-69",
+    "order": 69,
+    "slug": "bite-the-dust",
+    "version": "1",
+    "title": "失敗／以失敗告終",
+    "titleEn": "bite the dust",
+    "titleZh": "失敗／以失敗告終",
+    "source": {
+      "file": "Idiom 69 - “Bite the Dust”.pdf",
+      "pageCount": 42,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "exercisePdfPages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "answerKeyPdfPages": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "bite the dust",
+        "highlight": "bite the dust"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Our plan bit the dust.",
+        "zh": "我們的計劃失敗了。",
+        "highlight": "bit the dust"
+      },
+      {
+        "en": "Two proposals have bitten the dust.",
+        "zh": "已有兩項建議遭到否決。",
+        "highlight": "bitten the dust"
+      }
+    ],
+    "meaning": {
+      "en": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+      "zh": "失敗；遭到淘汰；停止運作；以失敗告終。",
+      "naturalZh": [
+        "失敗",
+        "以失敗告終"
+      ]
+    },
+    "register": {
+      "labelEn": "Formal Alternatives",
+      "labelZh": "正式替代說法",
+      "summaryEn": "語域及語氣 Bite the dust is an informal and vivid expression. It is common in conversation, journalism, sports commentary, entertainment and relaxed workplace discussion. It can carry a dramatic, humorous or slightly unsympathetic tone.",
+      "summaryZh": "Bite the dust 是一個非正式而且形象鮮明的表達。 它常見於日常對話、新聞報道、體育評論、娛樂內容及較輕鬆的工作討論。",
+      "contextsEn": [
+        "a failed plan",
+        "a rejected idea",
+        "a defeated team",
+        "an unsuccessful project",
+        "a closed business",
+        "a machine that has stopped working",
+        "a product that did not succeed",
+        "a family member",
+        "a friend",
+        "an accident victim",
+        "a patient",
+        "a war victim"
+      ],
+      "contextsZh": [
+        "戲劇性",
+        "幽默感",
+        "挫敗感",
+        "幸災樂禍",
+        "輕微不以為意的語氣。",
+        "失敗的計劃",
+        "被否決的想法",
+        "遭到淘汰的隊伍",
+        "未能成功的項目",
+        "倒閉的企業",
+        "停止運作的機器",
+        "未能取得成功的產品。"
+      ],
+      "formalEn": "Formal Alternatives",
+      "formalZh": "在正式報告或學術文章中，直接使用以上中性表達通常更加合適。"
+    },
+    "fixedVariable": {
+      "fixed": "bite the dust",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + bit the dust.",
+          "example": "Our plan bit the dust.",
+          "highlight": "bit the dust"
+        },
+        {
+          "form": "Subject + has / have bitten the dust.",
+          "example": "Two proposals have bitten the dust.",
+          "highlight": "bitten the dust"
+        },
+        {
+          "form": "Subject + will / may / might / could + bite the dust.",
+          "example": "The project may bite the dust.",
+          "highlight": "bite the dust"
+        },
+        {
+          "form": "Subject + bite / bites the dust.",
+          "example": "Cheap machines often bite the dust after a few months.",
+          "highlight": "bite the dust"
+        },
+        {
+          "form": "If + subject + bite / bites the dust, + consequence.",
+          "example": "If the old printer bites the dust, we will need a new one.",
+          "highlight": "bites the dust"
+        },
+        {
+          "form": "Subject + has / have not bitten the dust yet.",
+          "example": "None of the shops has bitten the dust yet.",
+          "highlight": "bitten the dust"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Simple Past",
+        "titleZh": "我們的計劃失敗了",
+        "formula": "Subject + bit the dust.",
+        "descriptionEn": "Source grammar frame: Subject + bit the dust.",
+        "descriptionZh": "原檔列出的句法框架：Subject + bit the dust。",
+        "examples": [
+          {
+            "en": "Our plan bit the dust.",
+            "zh": "我們的計劃失敗了。",
+            "highlight": "bit the dust"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Present Perfect",
+        "titleZh": "已有兩項建議遭到否決",
+        "formula": "Subject + has / have bitten the dust.",
+        "descriptionEn": "Source grammar frame: Subject + has / have bitten the dust.",
+        "descriptionZh": "原檔列出的句法框架：Subject + has / have bitten the dust。",
+        "examples": [
+          {
+            "en": "Two proposals have bitten the dust.",
+            "zh": "已有兩項建議遭到否決。",
+            "highlight": "bitten the dust"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Future or Modal",
+        "titleZh": "這個項目可能會失敗",
+        "formula": "Subject + will / may / might / could + bite the dust.",
+        "descriptionEn": "Source grammar frame: Subject + will / may / might / could + bite the dust.",
+        "descriptionZh": "原檔列出的句法框架：Subject + will / may / might / could + bite the dust。",
+        "examples": [
+          {
+            "en": "The project may bite the dust.",
+            "zh": "這個項目可能會失敗。",
+            "highlight": "bite the dust"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Present Simple",
+        "titleZh": "廉價機器往往在數月後便會壞掉",
+        "formula": "Subject + bite / bites the dust.",
+        "descriptionEn": "Source grammar frame: Subject + bite / bites the dust.",
+        "descriptionZh": "原檔列出的句法框架：Subject + bite / bites the dust。",
+        "examples": [
+          {
+            "en": "Cheap machines often bite the dust after a few months.",
+            "zh": "廉價機器往往在數月後便會壞掉。",
+            "highlight": "bite the dust"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Conditional",
+        "titleZh": "如果舊打印機壞掉，我們便需要一部新的",
+        "formula": "If + subject + bite / bites the dust, + consequence.",
+        "descriptionEn": "Source grammar frame: If + subject + bite / bites the dust, + consequence.",
+        "descriptionZh": "原檔列出的句法框架：If + subject + bite / bites the dust, + consequence。",
+        "examples": [
+          {
+            "en": "If the old printer bites the dust, we will need a new one.",
+            "zh": "如果舊打印機壞掉，我們便需要一部新的。",
+            "highlight": "bites the dust"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Negative Present Perfect",
+        "titleZh": "暫時仍未有任何一間商店倒閉",
+        "formula": "Subject + has / have not bitten the dust yet.",
+        "descriptionEn": "Source grammar frame: Subject + has / have not bitten the dust yet.",
+        "descriptionZh": "原檔列出的句法框架：Subject + has / have not bitten the dust yet。",
+        "examples": [
+          {
+            "en": "None of the shops has bitten the dust yet.",
+            "zh": "暫時仍未有任何一間商店倒閉。",
+            "highlight": "bitten the dust"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Describes Failure Compactly",
+        "titleZh": "簡潔表達失敗",
+        "en": "The plan bit the dust.",
+        "zh": "你可以用一個簡短的慣用語，取代「計劃無法繼續，最後未能成功」這段較長的解釋。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Creates a Strong Mental Image",
+        "titleZh": "建立鮮明畫面",
+        "en": "The image suggests that something has fallen so completely that it has reached the ground.",
+        "zh": "這個畫面令人想到某人或某事物完全倒下，甚至碰到地面的塵土，因此可以形象地表達徹底失敗。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Works with Different Subjects",
+        "titleZh": "可以配合不同主語",
+        "en": "a team; a business; a project; a machine; a device; a product. The exact Chinese translation should change according to the subject.",
+        "zh": "主語可以是計劃、想法、隊伍、企業、項目、機器、裝置或產品。 中文翻譯亦應按主語而調整，例如：",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Preserve Uncertainty",
+        "titleZh": "可以保留不確定程度",
+        "en": "The first sentence expresses possibility. The second reports a completed failure.",
+        "zh": "這個項目已經失敗。 第一句表示可能性； 第二句則表示失敗已經發生。",
+        "examples": [
+          {
+            "en": "The project has bitten the dust.",
+            "zh": "這個項目已經失敗。",
+            "highlight": "bitten the dust"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Adds Energy to Informal Storytelling",
+        "titleZh": "令非正式敘述更有力量",
+        "en": "The second sounds more vivid and dramatic, but it is also less formal.",
+        "zh": "第二句較為生動及有戲劇性，但語氣亦較不正式。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Develops Sensitivity and Register Control",
+        "titleZh": "培養語域及敏感度控制",
+        "en": "Students learn that a memorable idiom is not automatically suitable for every serious situation. Use the expression for informal descriptions of failure, defeat or breakdown. Avoid it when respectful language is required.",
+        "zh": "學生可以學習到：容易記住或形象鮮明的慣用語，並不代表適合用於所有嚴肅情境。 這個表達適合非正式描述失敗、落敗或機器損壞； 需要尊重及慎重語氣時，則應避免使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Well-Documented Early Use; Exact First Spoken Use Unknown",
+      "statusZh": "早期用法有較充分記錄；確切首次口語用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Merriam-Webster dates its earliest known use to 1578. A report associated with a sixteenth-century battle described fallen bodies as lying on the ground and “biting the dust”. The surviving record shows that the early expression referred to violent defeat or death, although the date of its very first spoken use cannot be known.",
+          "zh": "Merriam-Webster 把目前所知的最早用法追溯至1578年。 一份與十六世紀戰役有關的記述，以 「咬着塵土」的畫面形容倒在地上的人。 這項記錄顯示，早期意思與戰敗或死亡有關，但我們無法知道它最早在口語中出現的確切時間。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "losing a competition; having a plan rejected; seeing a project fail; watching a business close; seeing a machine stop working.",
+          "zh": "這個原本描述戰敗者倒地的畫面，其意思後來逐漸擴展至："
+        }
+      ],
+      "memoryEn": "When something falls all the way into the dust, it has been completely defeated or has completely failed.",
+      "memoryZh": "當某人或某事物徹底倒在塵土中，便可以聯想到它已完全落敗或失敗。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Fixed Words",
+        "titleZh": "規則一：保留固定字詞",
+        "en": "The article the must remain.",
+        "zh": "冠詞 the 不可刪除或改成 a。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use the Correct Irregular Verb Form",
+        "titleZh": "規則二：使用正確的不規則動詞形式",
+        "en": "Correct target: bite the dust. Incorrect target forms: The plan bited the dust; The plan has bit the dust; The plan has bited the dust.",
+        "zh": "使用正確的不規則動詞形式",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Preserve Tense",
+        "titleZh": "規則三：保留時態",
+        "en": "The plan will bite the dust yesterday.",
+        "zh": "時間副詞 yesterday 要配合過去式 bit。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve Modality and Certainty",
+        "titleZh": "規則四：保留情態及確定程度",
+        "en": "The incorrect answer changes a possibility into a completed fact.",
+        "zh": "錯誤答案把「可能會失敗」改成了「已經失敗」。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Let the Idiom Replace the Failure Meaning",
+        "titleZh": "規則五：讓慣用語取代失敗意思",
+        "en": "The second part repeats the meaning of the idiom. The reason remains, but the failure meaning appears only once.",
+        "zh": "不要在使用慣用語後，再以 failed completely 重複相同意思。 銀行拒絕貸款後，計劃便宣告失敗。 原因獲得保留，但失敗意思只表達一次。",
+        "examples": [
+          {
+            "en": "The plan bit the dust when the bank refused the loan.",
+            "zh": "銀行拒絕貸款後，計劃便宣告失敗。",
+            "highlight": "bit the dust"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "Preserve the Cause",
+        "titleZh": "規則六：保留失敗原因",
+        "en": "The weak answer removes the reason.",
+        "zh": "較弱的答案刪除了咖啡店失敗的原因。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Match the Subject with the Chinese Meaning",
+        "titleZh": "規則七：中文意思要配合主語",
+        "en": "Do not force one Chinese translation into every context.",
+        "zh": "隊伍遭到淘汰。 咖啡店倒閉了。 打印機報銷了。 計劃宣告失敗。 不要把同一個中文譯法機械地套用在所有情境中。",
+        "examples": [
+          {
+            "en": "The café bit the dust.",
+            "zh": "咖啡店倒閉了。",
+            "highlight": "bit the dust"
+          },
+          {
+            "en": "The printer bit the dust.",
+            "zh": "打印機報銷了。",
+            "highlight": "bit the dust"
+          },
+          {
+            "en": "The plan bit the dust.",
+            "zh": "計劃宣告失敗。",
+            "highlight": "bit the dust"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Use It Only for a Real or Expected Failure",
+        "titleZh": "規則八：只用於真正或預期的失敗",
+        "en": "The second sentence gives no evidence of failure.",
+        "zh": "項目的資金耗盡後便宣告失敗。 第二句只說明項目開始，沒有證據顯示它失敗。",
+        "examples": [
+          {
+            "en": "The project bit the dust when its money ran out.",
+            "zh": "項目的資金耗盡後便宣告失敗。",
+            "highlight": "bit the dust"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Do Not Confuse Failure with a Small Problem",
+        "titleZh": "規則九：不要把小問題當作徹底失敗",
+        "en": "A slow computer has not necessarily stopped working. The computer stopped working completely and could not be repaired.",
+        "zh": "電腦短暫變慢，並不表示它已經報銷。 電腦完全停止運作，而且無法修理。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Be Careful with Actual Death",
+        "titleZh": "規則十：小心處理真實死亡",
+        "en": "cold; humorous; disrespectful; violent; insensitive. The death meaning is not permitted in this exercise.",
+        "zh": "這個表達可以表示死亡，但可能顯得冷漠、幽默化、不尊重、暴力或缺乏同理心。 本練習不接受死亡意思。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Avoid Accidental Literal Meaning",
+        "titleZh": "規則十一：避免意外產生字面意思",
+        "en": "Only the second sentence contains the target idiom.",
+        "zh": "孩子把泥土放進口中，用牙齒咬着塵土。 孩子的玩具車跌下樓梯後便報銷了。 只有第二句使用了本課的目標慣用語。",
+        "examples": [
+          {
+            "en": "The child put some soil in his mouth and bit the dust between his teeth.",
+            "zh": "孩子把泥土放進口中，用牙齒咬着塵土。",
+            "highlight": "bit the dust"
+          },
+          {
+            "en": "The child’s toy car bit the dust after it fell down the stairs.",
+            "zh": "孩子的玩具車跌下樓梯後便報銷了。",
+            "highlight": "bit the dust"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Use It Everywhere",
+        "titleZh": "規則十二：不要在所有失敗情境中使用",
+        "en": "the document is highly formal; the topic is serious or sensitive; the precise type of failure matters; the reader may not understand informal idioms; a neutral tone is required.",
+        "zh": "在高度正式、嚴肅、敏感或需要準確說明失敗類型的情況下，直接使用 fail、close、stop working 或 be defeated 可能更加合適。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "fail, be defeated, stop working or come to an unsuccessful end",
+      "zh": "只使用本課目標意思："
+    },
+    "questions": [
+      {
+        "id": "idiom-69-q01",
+        "number": 1,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Our plan to hold the event in the school hall failed when water came through the roof.",
+        "promptZh": "學校禮堂漏水後，我們在禮堂舉行活動的計劃便失敗了。",
+        "starter": "Our",
+        "answer": "Our plan to hold the event in the school hall bit the dust when water came through the roof.",
+        "answerZh": "學校禮堂漏水後，我們在禮堂舉行活動的計劃便宣告失敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q02",
+        "number": 2,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The old printer stopped working this morning.",
+        "promptZh": "舊打印機今天早上停止運作。",
+        "starter": "The",
+        "answer": "The old printer bit the dust this morning.",
+        "answerZh": "舊打印機今天早上報銷了。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q03",
+        "number": 3,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Leo’s team was defeated in the first round.",
+        "promptZh": "里奧的隊伍在第一回合遭到淘汰。",
+        "starter": "Leo’s",
+        "answer": "Leo’s team bit the dust in the first round.",
+        "answerZh": "里奧的隊伍在第一回合遭到淘汰。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q04",
+        "number": 4,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The new café failed and closed after only three months.",
+        "promptZh": "那間新咖啡店開業僅三個月便倒閉了。",
+        "starter": "The",
+        "answer": "The new café bit the dust after only three months.",
+        "answerZh": "那間新咖啡店開業僅三個月便倒閉了。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q05",
+        "number": 5,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "My phone finally stopped working last night.",
+        "promptZh": "我的電話昨晚終於壞掉了。",
+        "starter": "My",
+        "answer": "My phone finally bit the dust last night.",
+        "answerZh": "我的電話昨晚終於壞掉了。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q06",
+        "number": 6,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Her idea went no further after the group rejected it at the meeting.",
+        "promptZh": "小組在會議上否決她的想法後，這個想法便沒有再繼續發展。",
+        "starter": "Her",
+        "answer": "Her idea bit the dust at the meeting because the group rejected it.",
+        "answerZh": "小組在會議上否決她的想法後，這個想法便宣告失敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q07",
+        "number": 7,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The plan for the school play failed because no hall was available.",
+        "promptZh": "由於沒有禮堂可供使用，學校話劇的計劃便失敗了。",
+        "starter": "The",
+        "answer": "The plan for the school play bit the dust because no hall was available.",
+        "answerZh": "由於沒有禮堂可供使用，學校話劇的計劃便告吹。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q08",
+        "number": 8,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Our robot stopped working during its first test.",
+        "promptZh": "我們的機械人在第一次測試期間停止運作。",
+        "starter": "Our",
+        "answer": "Our robot bit the dust during its first test.",
+        "answerZh": "我們的機械人在第一次測試期間便停止運作。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q09",
+        "number": 9,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The blue team was defeated in the semi-final.",
+        "promptZh": "藍隊在準決賽中遭到淘汰。",
+        "starter": "The",
+        "answer": "The blue team bit the dust in the semi-final.",
+        "answerZh": "藍隊在準決賽中遭到淘汰。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q10",
+        "number": 10,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The website stopped working during the online sale.",
+        "promptZh": "網站在網上減價活動期間停止運作。",
+        "starter": "The",
+        "answer": "The website bit the dust during the online sale.",
+        "answerZh": "網站在網上減價活動期間停止運作。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q11",
+        "number": 11,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "This cheap fan often stops working after only a few weeks of daily use.",
+        "promptZh": "這種廉價風扇每天使用的話，往往只過數星期便會壞掉。",
+        "starter": "This",
+        "answer": "This cheap fan often bites the dust after only a few weeks of daily use.",
+        "answerZh": "這種廉價風扇每天使用的話，往往只過數星期便會壞掉。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bites the dust"
+      },
+      {
+        "id": "idiom-69-q12",
+        "number": 12,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Two of our plans have already failed this month.",
+        "promptZh": "我們本月已有兩項計劃失敗。",
+        "starter": "Two",
+        "answer": "Two of our plans have already bitten the dust this month.",
+        "answerZh": "我們本月已有兩項計劃宣告失敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bitten the dust"
+      },
+      {
+        "id": "idiom-69-q13",
+        "number": 13,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The beach-party plan may fail if it rains all weekend.",
+        "promptZh": "如果整個週末都下雨，海灘派對計劃可能會失敗。",
+        "starter": "The",
+        "answer": "The beach-party plan may bite the dust if it rains all weekend.",
+        "answerZh": "如果整個週末都下雨，海灘派對計劃可能會告吹。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bite the dust"
+      },
+      {
+        "id": "idiom-69-q14",
+        "number": 14,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Our old bus will probably stop working completely soon.",
+        "promptZh": "我們的舊巴士很可能很快便會完全停止運作。",
+        "starter": "Our",
+        "answer": "Our old bus will probably bite the dust soon.",
+        "answerZh": "我們的舊巴士很可能很快便會完全報銷。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bite the dust"
+      },
+      {
+        "id": "idiom-69-q15",
+        "number": 15,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The new shop could fail without more customers.",
+        "promptZh": "如果沒有更多顧客，那間新店可能會倒閉。",
+        "starter": "The",
+        "answer": "The new shop could bite the dust without more customers.",
+        "answerZh": "如果沒有更多顧客，那間新店可能會倒閉。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bite the dust"
+      },
+      {
+        "id": "idiom-69-q16",
+        "number": 16,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "A: Is the printer working again? B: No. It stopped working this morning.",
+        "promptZh": "甲：打印機恢復運作了嗎？ 乙：沒有。它今天早上壞掉了。",
+        "starter": "No.",
+        "answer": "No. The printer bit the dust this morning.",
+        "answerZh": "沒有。打印機今天早上壞掉了。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q17",
+        "number": 17,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: Did our team reach the final? B: No. It lost in the semi-final.",
+        "promptZh": "甲：我們的隊伍打入決賽了嗎？ 乙：沒有。隊伍在準決賽中落敗。",
+        "starter": "No.",
+        "answer": "No. Our team bit the dust in the semi-final.",
+        "answerZh": "沒有。我們的隊伍在準決賽中落敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q18",
+        "number": 18,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The teacher thinks our proposal will fail because it costs too much.",
+        "promptZh": "老師認為我們的建議會失敗，因為所需費用太高。",
+        "starter": "The",
+        "answer": "The teacher thinks our proposal will bite the dust because it costs too much.",
+        "answerZh": "老師認為我們的建議會因所需費用太高而失敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bite the dust"
+      },
+      {
+        "id": "idiom-69-q19",
+        "number": 19,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "All the small shops in the street are still open.",
+        "promptZh": "街上的小店暫時仍然全部營業。",
+        "starter": "None",
+        "answer": "None of the small shops in the street has bitten the dust yet.",
+        "answerZh": "街上的小店暫時仍未有任何一間倒閉。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bitten the dust"
+      },
+      {
+        "id": "idiom-69-q20",
+        "number": 20,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "If this old battery stops working, we will need a new one.",
+        "promptZh": "如果這枚舊電池失效，我們便需要一枚新的。",
+        "starter": "If",
+        "answer": "If this old battery bites the dust, we will need a new one.",
+        "answerZh": "如果這枚舊電池失效，我們便需要一枚新的。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bites the dust"
+      },
+      {
+        "id": "idiom-69-q21",
+        "number": 21,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: What happened to our picnic plan? B: We cancelled it when the storm arrived.",
+        "promptZh": "甲：我們的野餐計劃怎麼了？ 乙：暴風雨來臨時，我們取消了計劃。",
+        "starter": "Our",
+        "answer": "Our picnic plan bit the dust when the storm arrived.",
+        "answerZh": "暴風雨來臨時，我們的野餐計劃便告吹。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q22",
+        "number": 22,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "A: Why are you borrowing your sister’s computer? B: My laptop stopped working yesterday.",
+        "promptZh": "甲：你為甚麼要借用姐姐的電腦？ 乙：我的手提電腦昨天壞掉了。",
+        "starter": "My",
+        "answer": "My laptop bit the dust yesterday, so I am borrowing my sister’s computer.",
+        "answerZh": "我的手提電腦昨天壞掉了，所以我正在借用姐姐的電腦。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q23",
+        "number": 23,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The team was defeated after its best player was injured.",
+        "promptZh": "隊中最出色的球員受傷後，球隊便落敗了。",
+        "starter": "The",
+        "answer": "The team bit the dust after its best player was injured.",
+        "answerZh": "隊中最出色的球員受傷後，球隊便落敗了。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q24",
+        "number": 24,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Their plan to open a market stall failed because the rent was too high.",
+        "promptZh": "由於租金太高，他們開設市集攤檔的計劃便失敗了。",
+        "starter": "Their",
+        "answer": "Their plan to open a market stall bit the dust because the rent was too high.",
+        "answerZh": "由於租金太高，他們開設市集攤檔的計劃便失敗了。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q25",
+        "number": 25,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The school-trip plan ended when the bus company cancelled the booking.",
+        "promptZh": "巴士公司取消預訂後，學校旅行計劃便告吹。",
+        "starter": "The",
+        "answer": "The school-trip plan bit the dust when the bus company cancelled the booking.",
+        "answerZh": "巴士公司取消預訂後，學校旅行計劃便告吹。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q26",
+        "number": 26,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "They repaired the old washing machine three times, but it finally stopped working completely.",
+        "promptZh": "他們曾三次修理那部舊洗衣機，但它最終仍完全停止運作。",
+        "starter": "The",
+        "answer": "The old washing machine finally bit the dust after being repaired three times.",
+        "answerZh": "那部舊洗衣機經過三次維修後，最終仍完全報銷。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q27",
+        "number": 27,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Our robot stopped moving in the first round after one of its wheels broke.",
+        "promptZh": "我們的機械人有一個輪子損壞後，便在第一回合停止移動。",
+        "starter": "Our",
+        "answer": "Our robot bit the dust in the first round after one of its wheels broke.",
+        "answerZh": "我們的機械人有一個輪子損壞後，便在第一回合停止運作。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q28",
+        "number": 28,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The café closed after six months because it had too few customers.",
+        "promptZh": "咖啡店因為顧客太少，開業六個月後便倒閉了。",
+        "starter": "The",
+        "answer": "The café bit the dust after six months because it had too few customers.",
+        "answerZh": "咖啡店因為顧客太少，開業六個月後便倒閉了。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q29",
+        "number": 29,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The cheaper plan was abandoned when the manager rejected it.",
+        "promptZh": "經理否決較便宜的方案後，這個方案便被放棄。",
+        "starter": "The",
+        "answer": "The cheaper plan bit the dust when the manager rejected it.",
+        "answerZh": "經理否決較便宜的方案後，這個方案便宣告失敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q30",
+        "number": 30,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "A: Does your camera still work after you dropped it? B: No. It stopped working completely.",
+        "promptZh": "甲：你的相機跌在地上後仍能運作嗎？ 乙：不能。它已經完全壞掉。",
+        "starter": "No.",
+        "answer": "No. My camera bit the dust after I dropped it.",
+        "answerZh": "不能。我的相機跌在地上後便報銷了。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q31",
+        "number": 31,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Although the team practised every day, it was defeated in its first match.",
+        "promptZh": "雖然球隊每天練習，但仍在第一場比賽中落敗。",
+        "starter": "Although",
+        "answer": "Although the team practised every day, it bit the dust in its first match.",
+        "answerZh": "雖然球隊每天練習，但仍在第一場比賽中落敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q32",
+        "number": 32,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Because no one signed up, the plan for the evening class failed before the class began.",
+        "promptZh": "由於沒有人報名，夜間課程的計劃在開課前便失敗了。",
+        "starter": "Because",
+        "answer": "Because no one signed up, the plan for the evening class bit the dust before the class began.",
+        "answerZh": "由於沒有人報名，夜間課程的計劃在開課前便宣告失敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q33",
+        "number": 33,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "If the shop does not find more customers, it may close before winter.",
+        "promptZh": "如果商店未能找到更多顧客，便可能在冬季前倒閉。",
+        "starter": "If",
+        "answer": "If the shop does not find more customers, it may bite the dust before winter.",
+        "answerZh": "如果商店未能找到更多顧客，便可能在冬季前倒閉。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bite the dust"
+      },
+      {
+        "id": "idiom-69-q34",
+        "number": 34,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "A: I thought the app project was going well. B: It was, but the project ended after the main designer left.",
+        "promptZh": "甲：我以為應用程式項目進展順利。 乙：本來是的，但主要設計師離開後，項目便結束了。",
+        "starter": "The",
+        "answer": "The app project bit the dust after the main designer left.",
+        "answerZh": "主要設計師離開後，應用程式項目便告吹。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q35",
+        "number": 35,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The school could not find enough money, so its radio project failed.",
+        "promptZh": "學校未能籌得足夠金錢，因此校園電台項目失敗了。",
+        "starter": "When",
+        "answer": "When the school could not find enough money, its radio project bit the dust.",
+        "answerZh": "學校未能籌得足夠金錢時，校園電台項目便宣告失敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q36",
+        "number": 36,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The newspaper reported that three small businesses had closed permanently that year.",
+        "promptZh": "報章報道，該年有三間小型企業永久結業。",
+        "starter": "The",
+        "answer": "The newspaper reported that three small businesses had bitten the dust that year.",
+        "answerZh": "報章報道，該年有三間小型企業倒閉。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bitten the dust"
+      },
+      {
+        "id": "idiom-69-q37",
+        "number": 37,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The old laptop has survived several repairs, but it may finally stop working this week.",
+        "promptZh": "那部舊手提電腦經過數次維修仍能運作，但本星期可能終於會壞掉。",
+        "starter": "Although",
+        "answer": "Although the old laptop has survived several repairs, it may finally bite the dust this week.",
+        "answerZh": "雖然那部舊手提電腦經過數次維修仍能運作，但本星期可能終於會報銷。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bite the dust"
+      },
+      {
+        "id": "idiom-69-q38",
+        "number": 38,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Their plan may fail unless they lower the price.",
+        "promptZh": "除非他們降低價格，否則計劃可能會失敗。",
+        "starter": "Unless",
+        "answer": "Unless they lower the price, their plan may bite the dust.",
+        "answerZh": "除非他們降低價格，否則計劃可能會失敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bite the dust"
+      },
+      {
+        "id": "idiom-69-q39",
+        "number": 39,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The outdoor plan failed, but the indoor plan continued.",
+        "promptZh": "戶外計劃失敗了，但室內計劃繼續進行。",
+        "starter": "The",
+        "answer": "The outdoor plan bit the dust, but the indoor plan continued.",
+        "answerZh": "戶外計劃失敗了，但室內計劃繼續進行。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q40",
+        "number": 40,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Two ideas had already been rejected before the final decision was announced.",
+        "promptZh": "最終決定公布前，已有兩個想法遭到否決。",
+        "starter": "By",
+        "answer": "By the time the final decision was announced, two ideas had already bitten the dust.",
+        "answerZh": "最終決定公布時，已有兩個想法遭到否決。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bitten the dust"
+      },
+      {
+        "id": "idiom-69-q41",
+        "number": 41,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The local centre’s plan for a weekend class failed because it could not find enough teachers.",
+        "promptZh": "本地中心因為未能找到足夠教師，週末課程計劃便失敗了。",
+        "starter": "The",
+        "answer": "The local centre’s plan for a weekend class bit the dust because it could not find enough teachers.",
+        "answerZh": "本地中心因為未能找到足夠教師，週末課程計劃便失敗了。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q42",
+        "number": 42,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "After years of problems, the hospital’s old booking system finally stopped working completely.",
+        "promptZh": "經過多年問題後，醫院的舊預約系統終於完全停止運作。",
+        "starter": "The",
+        "answer": "The old booking system at the hospital finally bit the dust after years of problems.",
+        "answerZh": "經過多年問題後，醫院的舊預約系統終於完全停止運作。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q43",
+        "number": 43,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Only three designs remain in the competition; all the others have been rejected.",
+        "promptZh": "比賽只剩下三個設計；其他設計全都已被淘汰。",
+        "starter": "All",
+        "answer": "All the other designs have bitten the dust, leaving only three in the competition.",
+        "answerZh": "其他設計全都已被淘汰，比賽只剩下三個設計。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bitten the dust"
+      },
+      {
+        "id": "idiom-69-q44",
+        "number": 44,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A: Do you think the new café will survive? B: Without more customers, it could close before the end of the year.",
+        "promptZh": "甲：你認為那間新咖啡店可以繼續經營嗎？ 乙：如果沒有更多顧客，它可能在年底前倒閉。",
+        "starter": "Without",
+        "answer": "Without more customers, the new café could bite the dust before the end of the year.",
+        "answerZh": "如果沒有更多顧客，那間新咖啡店可能在年底前倒閉。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bite the dust"
+      },
+      {
+        "id": "idiom-69-q45",
+        "number": 45,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The first model failed during testing, but the team built a second one.",
+        "promptZh": "第一個模型在測試期間失敗，但團隊製作了第二個模型。",
+        "starter": "Although",
+        "answer": "Although the first model bit the dust during testing, the team built a second one.",
+        "answerZh": "雖然第一個模型在測試期間失敗，但團隊製作了第二個模型。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q46",
+        "number": 46,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The plan for a night bus ended after the town leaders rejected it because it cost too much.",
+        "promptZh": "由於成本太高，鎮上主管否決了夜間巴士計劃，計劃亦因而告吹。",
+        "starter": "The",
+        "answer": "The night-bus plan bit the dust after the town leaders rejected it because it cost too much.",
+        "answerZh": "由於成本太高，鎮上主管否決了夜間巴士計劃，計劃亦因而告吹。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q47",
+        "number": 47,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The shop’s last payment machine had stopped working before the shop opened.",
+        "promptZh": "商店開門前，最後一部付款機已經壞掉。",
+        "starter": "By",
+        "answer": "By the time the shop opened, its last payment machine had bitten the dust.",
+        "answerZh": "商店開門時，最後一部付款機已經壞掉。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bitten the dust"
+      },
+      {
+        "id": "idiom-69-q48",
+        "number": 48,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The team might be defeated in the next round if its captain cannot play.",
+        "promptZh": "如果隊長無法作賽，球隊可能會在下一回合落敗。",
+        "starter": "Without",
+        "answer": "Without its captain, the team might bite the dust in the next round.",
+        "answerZh": "如果沒有隊長上場，球隊可能會在下一回合落敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bite the dust"
+      },
+      {
+        "id": "idiom-69-q49",
+        "number": 49,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The plan to open a second restaurant failed when the bank refused the loan.",
+        "promptZh": "銀行拒絕貸款後，開設第二間餐廳的計劃便失敗了。",
+        "starter": "The",
+        "answer": "The plan to open a second restaurant bit the dust when the bank refused the loan.",
+        "answerZh": "銀行拒絕貸款後，開設第二間餐廳的計劃便宣告失敗。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bit the dust"
+      },
+      {
+        "id": "idiom-69-q50",
+        "number": 50,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "A: My phone has stopped working, and the spare phone will not switch on either. Can we still record the event? B: Both phones have failed, so we will have to borrow one.",
+        "promptZh": "甲：我的電話壞了，後備電話亦無法開機。我們仍能拍攝活動嗎？ 乙：兩部電話都壞了，所以我們要借用一部電話。",
+        "starter": "Both",
+        "answer": "Both phones have bitten the dust, so we will have to borrow one to record the event.",
+        "answerZh": "兩部電話都壞了，所以我們要借用一部電話拍攝活動。",
+        "targetForm": "bite the dust",
+        "targetMeaning": "To fail, be defeated, stop working, or come to an unsuccessful end.",
+        "highlight": "bitten the dust"
+      }
+    ]
+  }
+}

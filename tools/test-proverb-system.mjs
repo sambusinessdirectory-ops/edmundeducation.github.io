@@ -57,8 +57,8 @@ test("portal exposes the complete eight-page Proverb flow and first-card bookmar
   assert.match(html, /data-system="proverbs"/);
   assert.match(html, /QUESTIONS DONE/i);
   assert.match(html, /TIME SPENT/i);
-  assert.match(html, /proverb-system-data\.js/);
-  assert.match(html, /proverb-system\.js/);
+  assert.match(html, /proverb-system-data\.js\?v=20260807-2/);
+  assert.match(html, /proverb-system\.js\?v=20260807-2/);
   assert.match(html, /proverb-system\.css/);
   assert.ok(choices.indexOf("data-open-bookmarks-card") < choices.indexOf("${cards}"));
   assert.match(app, /const LESSON_PAGES = 8/);
@@ -133,6 +133,22 @@ test("lesson validation enforces the stable multi-lesson data contract", () => {
   const incomplete = structuredClone(valid);
   incomplete.questions.pop();
   assert.equal(runInSandbox(source, "validLessonContract(lesson)", { lesson: incomplete }), false);
+});
+
+test("legacy and canonical illustration metadata preserve both bilingual captions", () => {
+  const source = [
+    functionSource("isPlainObject", "validLessonContract"),
+    functionSource("lessonIllustration", "lessonPageMeta")
+  ].join("\n");
+  const illustration = runInSandbox(source, "lessonIllustration(lesson)", {
+    lesson: {
+      image: "assets/proverb-system/example.svg",
+      imageCaptionZh: "中文圖片說明",
+      imageCaption: "English illustration caption."
+    }
+  });
+  assert.equal(illustration.captionZh, "中文圖片說明");
+  assert.equal(illustration.captionEn, "English illustration caption.");
 });
 
 test("lesson catalog accepts multiple lessons, removes duplicate IDs, and sorts by order", () => {
@@ -224,38 +240,80 @@ test("published Proverb data satisfies the frontend contract", { skip: !fs.exist
   vm.runInContext(fs.readFileSync(dataPath, "utf8"), context, { filename: "proverb-system-data.js" });
   const content = context.window.EDMUND_PROVERB_SYSTEM_DATA;
   assert.equal(content.system, "proverb");
-  assert.ok(Array.isArray(content.lessons) && content.lessons.length > 0);
+  assert.equal(content.lessonCount, 3);
+  assert.equal(content.questionCount, 150);
+  assert.ok(Array.isArray(content.lessons) && content.lessons.length === 3);
   assert.equal(new Set(content.lessons.map(({ id }) => id)).size, content.lessons.length);
   assert.doesNotMatch(JSON.stringify(content), /\[object Object\]|\/Users\/|[A-Z]:\\/);
 
-  for (const lesson of content.lessons) {
+  const expectedCounts = [
+    {
+      id: "proverb-01",
+      image: "assets/proverb-system/out-of-sight-out-of-mind.webp",
+      specificForms: 7,
+      benefits: 5,
+      rules: 10,
+      forms: 7
+    },
+    {
+      id: "proverb-02",
+      image: "assets/proverb-system/every-man-has-his-price.svg",
+      specificForms: 7,
+      benefits: 5,
+      rules: 8,
+      forms: 7
+    },
+    {
+      id: "proverb-03",
+      image: "assets/proverb-system/once-bitten-twice-shy.svg",
+      specificForms: 6,
+      benefits: 6,
+      rules: 12,
+      forms: 6
+    }
+  ];
+  for (const [lessonIndex, lesson] of content.lessons.entries()) {
+    const expected = expectedCounts[lessonIndex];
+    assert.equal(lesson.id, expected.id);
     assert.match(lesson.id, /^proverb-\d{2}$/);
     assert.ok(lesson.titleZh || lesson.title);
     assert.ok(lesson.titleEn || lesson.englishTitle);
     const image = lesson.illustration?.src || lesson.image;
+    assert.equal(image, expected.image);
     assert.ok(image && !path.isAbsolute(image));
     assert.ok(fs.existsSync(path.join(root, image)), `${lesson.id} artwork does not exist: ${image}`);
     assert.equal(lesson.questions.length, 50);
-    assert.equal(lesson.specificForms.length, 7);
+    assert.equal(lesson.specificForms.length, expected.specificForms);
+    const target = String(lesson.formulas?.[0]?.highlight || "").toLocaleLowerCase();
+    assert.ok(target);
     assert.ok(lesson.specificForms.every(({ formula, highlight }) => (
-      String(highlight || "").toLocaleLowerCase() === "out of sight, out of mind"
+      String(highlight || "").toLocaleLowerCase() === target
       && String(formula || "").toLocaleLowerCase().includes(String(highlight).toLocaleLowerCase())
     )));
-    assert.equal(lesson.benefits.length, 5);
-    assert.equal(lesson.rules.length, 10);
-    assert.ok(lesson.rules[9].examples.every(({ en, highlight }) => (
-      String(highlight || "").trim()
-      && String(en || "").toLocaleLowerCase().includes(String(highlight).toLocaleLowerCase())
+    assert.equal(lesson.benefits.length, expected.benefits);
+    assert.equal(lesson.rules.length, expected.rules);
+    assert.ok(lesson.rules.flatMap(({ examples = [] }) => examples).every(({ en, highlight }) => (
+      !String(highlight || "").trim()
+      || String(en || "").toLocaleLowerCase().includes(String(highlight).toLocaleLowerCase())
     )));
-    assert.equal(lesson.fixedVariable.forms.length, 7);
+    assert.equal(lesson.fixedVariable.forms.length, expected.forms);
     assert.ok(lesson.fixedVariable.forms.every(({ exampleZh }) => String(exampleZh || "").trim()));
     assert.equal(lesson.origin.history.some(({ titleEn }) => titleEn === "The Original Image"), false);
+    if (lesson.order > 1) {
+      assert.equal(lesson.sourceOmissions.length, 2);
+      assert.deepEqual(Array.from(lesson.sourceOmissions, ({ section }) => section), [
+        "Communicative Function · 溝通功能",
+        "The Original Image · 原來的畫面"
+      ]);
+      assert.equal(lesson.source.sha256.length, 64);
+    }
     lesson.questions.forEach((question, index) => {
       assert.equal(question.id, `${lesson.id}-q${String(index + 1).padStart(2, "0")}`);
       assert.equal(question.number, index + 1);
       assert.ok(question.promptZh && question.prompt);
       assert.ok(question.answerZh && question.answer && question.starter && question.highlight);
       assert.ok(question.answer.toLocaleLowerCase().includes(question.highlight.toLocaleLowerCase()));
+      assert.equal(question.highlight.toLocaleLowerCase(), target);
       if (question.acceptedAnswers !== undefined) assert.ok(Array.isArray(question.acceptedAnswers));
     });
   }

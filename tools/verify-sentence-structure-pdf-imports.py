@@ -57,7 +57,7 @@ def parse_args() -> argparse.Namespace:
         "--lesson-dir",
         type=Path,
         default=Path(__file__).resolve().parent / "sentence-structure-lessons",
-        help="Directory containing ss05.json through ss275.json.",
+        help="Directory containing ss05.json through ss345.json.",
     )
     parser.add_argument(
         "--first",
@@ -68,7 +68,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--last",
         type=int,
-        default=275,
+        default=345,
         help="Last lesson number to verify.",
     )
     return parser.parse_args()

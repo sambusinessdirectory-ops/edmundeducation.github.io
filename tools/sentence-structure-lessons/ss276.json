@@ -1,0 +1,1281 @@
+{
+  "id": "ss276",
+  "order": 276,
+  "slug": "in-terms-of-topic",
+  "title": "「In terms of + topic」表示「就……而言／在……方面」",
+  "titleZh": "「In terms of + topic」表示「就……而言／在……方面」",
+  "titleEn": "Using “In terms of + topic”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "sentence structure 275 - 「In terms of + topic」表示「就……而言／在……方面」.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "exercisePages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "answerPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "sha256": "ef4c022296a59ed55abb262f41c466c2f3fdab58901aae265e7fa95008364c42",
+    "sourceNumber": 275,
+    "systemOrder": 276,
+    "omissions": [
+      "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+      "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+      "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+      "Source number 275 maps to ss276: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+    ]
+  },
+  "formula": "in terms of + topic",
+  "formulas": [
+    {
+      "id": "ss276-formula-01",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "in terms of + topic"
+    }
+  ],
+  "example": "In terms of cost, the second option is better.",
+  "exampleZh": "就成本而言，第二個選擇較好。",
+  "examples": [
+    {
+      "id": "ss276-example-01",
+      "en": "In terms of cost, the second option is better.",
+      "zh": "就成本而言，第二個選擇較好。",
+      "highlight": "In terms of cost, the second option is better."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss276-rule-01",
+      "zh": "核心片語是 in terms of + topic 完整的核心片語是：【in terms of + topic】 例如：【in terms of cost；in terms of safety；in terms of quality；in terms of working hours；in terms of customer service】 詞語【better】並不是固定片語的一部分。以下兩句都正確：【In terms of cost, the second option is better.】 就成本而言，第二個選擇較好。 第二個選擇在成本方面較好。 兩句的核心片語都是 in terms of cost；片語在句中的位置不同，但意思基本相同。",
+      "en": "in terms of + topic in terms of cost in terms of safety in terms of quality in terms of working hours in terms of customer service In terms of cost, the second option is better. The second option is better in terms of cost.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-rule-02",
+      "zh": "目標表達【In terms of】可以放在句首就安全而言，這條小徑適合兒童使用。 片語放在句首時，通常要在 topic 後面加逗號。正確：【In terms of price, this model is more attractive.】 錯誤：【In terms of price this model is more attractive.】 在很短的句子中，有時可以省略逗號，但學習者使用逗號會較清楚和穩妥。",
+      "en": "In terms of Formula In terms of + topic, + complete clause. In terms of safety, this path is suitable for children. In terms of price, this model is more attractive. In terms of price this model is more attractive.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-rule-03",
+      "zh": "也可以放在句中或句尾這個型號在價格方面更具吸引力。 兩個計劃在成本方面有所不同。 就安全而言，哪一個選擇較好？ 句型並不是固定只能以 In terms of 開始。",
+      "en": "In terms of Formula Complete clause + in terms of + topic. This model is more attractive in terms of price. The two plans differ in terms of cost. Which option is better in terms of safety?",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-rule-04",
+      "zh": "在 in terms of 後面，topic 通常使用名詞或名詞片語，例如 cost、location、practical experience 或 public response。若要表達「有多昂貴」，應使用完整的疑問詞子句 how expensive it is，不可只接形容詞 expensive。",
+      "en": "Topic in terms of + noun / noun phrase in terms of cost in terms of location in terms of practical experience in terms of long-term value in terms of public response in terms of access to public transport in terms of expensive in terms of cost in terms of how expensive it is",
+      "enSource": "pdf",
+      "zhSource": "pdf-with-editorial-clarification"
+    },
+    {
+      "id": "ss276-rule-05",
+      "zh": "目標表達【V-ing】是可用的延伸形式，但不是固定片語的一部分當 topic 是一項活動或目標時，可以使用：【in terms of + V-ing；In terms of reducing waste, reusable containers are more effective.】 就減少廢物而言，可重用容器會更有效。 就增加回收量而言，這項政策十分成功。 這裏的核心仍然是：【in terms of + topic】 和 increasing recycling 只是充當 topic 的 V-ing 片語。不要使用：【in terms of to reduce waste】 應使用：【in terms of reducing waste】",
+      "en": "V-ing in terms of + V-ing In terms of reducing waste, reusable containers are more effective. The policy was successful in terms of increasing recycling. in terms of + topic reducing waste in terms of to reduce waste in terms of reducing waste",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-rule-06",
+      "zh": "也是較進階的延伸形式後面也可以接以 what、how、where 等開始的內容：【In terms of what students need, shorter lessons may be more suitable.】 就學生的需要而言，較短的課堂可能更合適。 就安裝速度而言，較小的系統更實際。 這些是較進階的 topic 形式，不是每一句都需要使用。",
+      "en": "Wh-clause In terms of In terms of what students need, shorter lessons may be more suitable. In terms of how quickly it can be installed, the smaller system is more practical.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-rule-07",
+      "zh": "必須使用複數正確：【in terms of cost】 錯誤：【in term of cost】 即使只談論一個方面，仍然使用複數形式 terms。",
+      "en": "Terms in terms of cost in term of cost",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-rule-08",
+      "zh": "不可以省略或改成其他介詞正確：【in terms of quality】 錯誤：【in terms quality】 錯誤：【in terms with quality】 錯誤：【in terms to quality】 固定介詞組合是：【in terms of】",
+      "en": "Of in terms of quality in terms quality in terms with quality in terms to quality in terms of",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-rule-09",
+      "zh": "常與比較和評估語言一起使用經常配合以下語言：形容詞和比較級這個課程在實際經驗方面較好。 比較或變化動詞兩份工作在工作時間方面有所不同。 醫院在等候時間方面已有改善。 這些形容詞和動詞是外圍的語法結構，並不是 in terms of 固定片語的一部分。",
+      "en": "In terms of better worse stronger weaker safer cheaper more useful more convenient more effective This course is better in terms of practical experience. differ vary compare improve perform change outperform The two jobs differ in terms of working hours. The hospital has improved in terms of waiting times.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-rule-10",
+      "zh": "可以一次提出多於一個方面產品按照價格、品質和耐用程度作出比較。 這項計劃在參與情況和公眾反應兩方面都很成功。 當 topic 包含兩項資料時，可以使用：【in terms of both X and Y】",
+      "en": "The products were compared in terms of price, quality and durability. The scheme was successful in terms of both participation and public response. in terms of both X and Y",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-rule-11",
+      "zh": "可以在一句中比較兩個不同方面報告在證據方面很有力，但在組織方面較弱。 這個結構特別適合說明一件事在某方面表現良好，但在另一個方面表現較差。",
+      "en": "The report was strong in terms of evidence but weak in terms of organisation.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-rule-12",
+      "zh": "目標表達【In terms of】不是普通的「關於」通常用來提出一個評估、比較或分析的方面。自然：【In terms of cost, the first plan is better.】 就成本而言，第一個計劃較好。 不太自然：【In terms of my weekend, I visited my grandmother.】 如果只是轉換一般話題，通常使用：【As for my weekend, I visited my grandmother.】 至於我的週末，我探望了祖母。 使用 in terms of 時，後面的 topic 通常應該是可以用來比較、衡量、分析或評價的方面。放在句首就地點而言，較小的酒店更方便。 放在句中或句尾較小的酒店在地點方面更方便。 配合形容詞或比較級新路線在交通情況方面比較安全。 配合比較或變化動詞兩個社區在公共交通的便利程度方面有所不同。 用於問句就實際經驗而言，哪一個課程較好？ 用於被動句產品按照價格和品質作出比較。",
+      "en": "In terms of In terms of In terms of cost, the first plan is better. In terms of my weekend, I visited my grandmother. As for my weekend, I visited my grandmother. In terms of + topic, + clause. In terms of location, the smaller hotel is more convenient. Clause + in terms of + topic. The smaller hotel is more convenient in terms of location. Subject + be + adjective / comparative + in terms of + topic. The new route is safer in terms of traffic. Subject + differ / vary / improve / perform / change + in terms of + topic. The two neighbourhoods vary in terms of access to public transport. Question + in terms of + topic? Which course is better in terms of practical experience? Subject + be + compared / judged / assessed + in terms of + topic. The products were compared in terms of price and quality.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-rule-12a",
+      "zh": "比較多個方面這項計劃在成本方面具吸引力，但在時間安排方面有困難。 可選延伸這些是 topic 的不同形式，不代表所有答案都必須使用 V-ing 或 wh-clause。",
+      "en": "Subject + be + adjective in terms of X but adjective in terms of The plan is attractive in terms of cost but difficult in terms of timing. in terms of + V-ing in terms of reducing waste in terms of helping new employees in terms of + wh-clause in terms of what students need in terms of how quickly it works",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss276-benefit-01",
+      "zh": "清楚指出正在討論哪一方面一件事可能在不同方面有不同優點。第一個選擇較便宜，但第二個選擇較安全。 使用 in terms of，可以清楚標示每個判斷的準則：【The first option is better in terms of cost, but the second is better in terms of safety.】 第一個選擇在成本方面較好，但第二個選擇在安全方面較好。 讀者不會誤以為其中一個選擇在所有方面都較好。",
+      "en": "The first option is cheaper, but the second option is safer. The first option is better in terms of cost, but the second is better in terms of safety.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-benefit-02",
+      "zh": "令比較更加公平和準確這個課程較好。 這個課程在實際經驗方面較好。 第二句說明課程只是在「實際經驗」這個準則上較好，並沒有過度聲稱它在所有方面都較好。",
+      "en": "Instead of simply saying: This course is better. You can say: This course is better in terms of practical experience.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-benefit-03",
+      "zh": "幫助組織較長的答案在作文、報告、簡報或討論中，你可以逐一分析不同方面：【In terms of cost, Plan A is better. In terms of safety, however, Plan B is stronger.】 就成本而言，計劃 A 較好；不過，就安全而言，計劃 B 更有優勢。 讀者可以清楚跟隨你的分析次序。",
+      "en": "In terms of cost, Plan A is better. In terms of safety, however, Plan B is stronger.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-benefit-04",
+      "zh": "避免反覆使用較長的說法比較：【When we consider the cost, the first option is better.】 考慮成本時，第一個選擇較好。 就成本而言，第一個選擇較好。 目標表達【In terms of】可以更直接地引入評估準則。",
+      "en": "When we consider the cost, the first option is better. In terms of cost, the first option is better. In terms of",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-benefit-05",
+      "zh": "可以靈活改變句子位置你可以把評估方面放在句首：【In terms of quality, this product is excellent.】 也可以把它放在後面：【This product is excellent in terms of quality.】 這可以增加句式變化，避免所有句子都以相同方式開始。",
+      "en": "In terms of quality, this product is excellent. This product is excellent in terms of quality.",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss276-benefit-06",
+      "zh": "適合真實的學習和工作場合這個句型常用於：比較產品評估計劃分析課程討論工作表現撰寫報告比較不同政策解釋優點和缺點回答需要多角度分析的問題它能幫助你把較模糊的意見改寫成較具體和有根據的判斷。",
+      "en": "This structure is useful in real study and workplace tasks: comparing products, evaluating plans, analysing courses, discussing performance, writing reports, comparing policies and explaining advantages and disadvantages. It turns a vague opinion into a specific, evidence-based judgement.",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Chinese and English teaching lines are separated into Chinese-primary and English-secondary fields; formula tokens embedded in source Chinese explanations are preserved.",
+    "A source card containing English teaching text only receives a reviewed, card-specific Traditional Chinese editorial translation; generic fallback text is rejected.",
+    "A source Chinese line that extracts as an orphaned label or example fragment is replaced with a reviewed, source-faithful Chinese clarification.",
+    "Source number 275 maps to ss276: an earlier source archive contains two distinct PDFs numbered 201, and this batch contains two distinct PDFs numbered 310; stable source-number/filename ordering preserves every published and supplied item."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using in terms of + topic without changing its meaning.",
+      "The expression may appear at the beginning, in the middle or at the end of the answer.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 in terms of + topic 改寫以下句子，並保持原意不變。",
+      "這個片語可以放在答案的句首、句中或句尾。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss276-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "When we consider cost, the second option is better.",
+      "promptZh": "考慮成本時，第二個選擇較好。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of cost, the second option is better.",
+      "answerZh": "就成本而言，第二個選擇較好。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of cost, the second option is better."
+    },
+    {
+      "id": "ss276-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The blue jacket is more comfortable than the black one.",
+      "promptZh": "藍色外套比黑色外套更舒適。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue jacket is better than the black one in terms of comfort.",
+      "answerZh": "就舒適度而言，藍色外套比黑色外套更好。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue jacket is better than the black one in terms of comfort."
+    },
+    {
+      "id": "ss276-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As for speed, the express train is the best choice.",
+      "promptZh": "至於速度，特快列車是最佳選擇。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of speed, the express train is the best choice.",
+      "answerZh": "就速度而言，特快列車是最佳選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of speed, the express train is the best choice."
+    },
+    {
+      "id": "ss276-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This phone has a longer battery life than the older model.",
+      "promptZh": "這部電話的電池續航時間比舊型號更長。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This phone performs better than the older model in terms of battery life.",
+      "answerZh": "就電池續航力而言，這部電話比舊型號表現更好。",
+      "answerZhSource": "pdf",
+      "highlight": "This phone performs better than the older model in terms of battery life."
+    },
+    {
+      "id": "ss276-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If distance is considered, the first flat is closer to the station.",
+      "promptZh": "如果考慮距離，第一個單位較接近車站。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of distance, the first flat is closer to the station.",
+      "answerZh": "就距離而言，第一個單位較接近車站。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of distance, the first flat is closer to the station."
+    },
+    {
+      "id": "ss276-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Which laptop offers the best value for money?",
+      "promptZh": "哪一部手提電腦最物有所值？",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which laptop is best in terms of value for money?",
+      "answerZh": "就性價比而言，哪一部手提電腦最好？",
+      "answerZhSource": "pdf",
+      "highlight": "Which laptop is best in terms of value for money?"
+    },
+    {
+      "id": "ss276-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The two bags are almost the same size.",
+      "promptZh": "兩個袋的大小幾乎相同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two bags are similar in terms of size.",
+      "answerZh": "就大小而言，兩個袋十分相似。",
+      "answerZhSource": "pdf",
+      "highlight": "The two bags are similar in terms of size."
+    },
+    {
+      "id": "ss276-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Regarding safety, this path is suitable for children.",
+      "promptZh": "在安全方面，這條小徑適合兒童使用。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of safety, this path is suitable for children.",
+      "answerZh": "就安全而言，這條小徑適合兒童使用。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of safety, this path is suitable for children."
+    },
+    {
+      "id": "ss276-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Our class had better attendance this month than last month.",
+      "promptZh": "本班今個月的出席情況比上個月好。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our class did better this month in terms of attendance.",
+      "answerZh": "就出席情況而言，本班今個月的表現較好。",
+      "answerZhSource": "pdf",
+      "highlight": "Our class did better this month in terms of attendance."
+    },
+    {
+      "id": "ss276-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The electric cooker takes less time to cook the rice.",
+      "promptZh": "電飯煲煮飯所需的時間較短。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The electric cooker performs better in terms of cooking time.",
+      "answerZh": "電飯煲在烹調時間方面表現較好。",
+      "answerZhSource": "pdf",
+      "highlight": "The electric cooker performs better in terms of cooking time."
+    },
+    {
+      "id": "ss276-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Where location is concerned, the smaller hotel is more convenient.",
+      "promptZh": "就地點而言，較小的酒店更方便。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of location, the smaller hotel is more convenient.",
+      "answerZh": "就地點而言，較小的酒店更方便。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of location, the smaller hotel is more convenient."
+    },
+    {
+      "id": "ss276-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The hotel became cleaner after the new manager arrived.",
+      "promptZh": "新經理上任後，酒店變得更清潔。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hotel improved in terms of cleanliness after the new manager arrived.",
+      "answerZh": "新經理上任後，酒店在清潔方面有所改善。",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel improved in terms of cleanliness after the new manager arrived."
+    },
+    {
+      "id": "ss276-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The main difference between these two jobs is their working hours.",
+      "promptZh": "這兩份工作的主要分別在於工作時間。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These two jobs differ mainly in terms of working hours.",
+      "answerZh": "這兩份工作主要在工作時間方面有所不同。",
+      "answerZhSource": "pdf",
+      "highlight": "These two jobs differ mainly in terms of working hours."
+    },
+    {
+      "id": "ss276-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Which course gives students more practical experience?",
+      "promptZh": "哪一個課程為學生提供更多實際經驗？",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which course is better in terms of practical experience?",
+      "answerZh": "就實際經驗而言，哪一個課程較好？",
+      "answerZhSource": "pdf",
+      "highlight": "Which course is better in terms of practical experience?"
+    },
+    {
+      "id": "ss276-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "There is less traffic on the new route, so it is safer.",
+      "promptZh": "新路線的車流較少，因此比較安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new route is safer in terms of traffic.",
+      "answerZh": "就交通情況而言，新路線比較安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The new route is safer in terms of traffic."
+    },
+    {
+      "id": "ss276-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "If storage space is important, the larger cupboard is more useful.",
+      "promptZh": "如果儲物空間很重要，較大的櫃會更實用。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of storage space, the larger cupboard is more useful.",
+      "answerZh": "就儲物空間而言，較大的櫃會更實用。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of storage space, the larger cupboard is more useful."
+    },
+    {
+      "id": "ss276-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The team communicated clearly throughout the project.",
+      "promptZh": "團隊在整個項目期間溝通清晰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team performed well in terms of communication throughout the project.",
+      "answerZh": "就溝通而言，團隊在整個項目期間表現良好。",
+      "answerZhSource": "pdf",
+      "highlight": "The team performed well in terms of communication throughout the project."
+    },
+    {
+      "id": "ss276-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "This course teaches more useful practical skills than the other one.",
+      "promptZh": "這個課程教授的實用技能比另一個課程更多。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This course is more useful than the other one in terms of practical skills.",
+      "answerZh": "就實用技能而言，這個課程比另一個課程更有用。",
+      "answerZhSource": "pdf",
+      "highlight": "This course is more useful than the other one in terms of practical skills."
+    },
+    {
+      "id": "ss276-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "As far as customer service is concerned, the local shop is excellent.",
+      "promptZh": "就顧客服務而言，這間本地商店十分出色。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of customer service, the local shop is excellent.",
+      "answerZh": "就顧客服務而言，這間本地商店十分出色。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of customer service, the local shop is excellent."
+    },
+    {
+      "id": "ss276-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The old and new designs have almost the same colour and shape.",
+      "promptZh": "新舊設計的顏色和形狀幾乎相同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old and new designs are alike in terms of colour and shape.",
+      "answerZh": "就顏色和形狀而言，新舊設計十分相似。",
+      "answerZhSource": "pdf",
+      "highlight": "The old and new designs are alike in terms of colour and shape."
+    },
+    {
+      "id": "ss276-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The project stayed within its budget, but it was completed later than planned.",
+      "promptZh": "項目沒有超出預算，但完成時間比原定計劃遲。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project performed well in terms of cost but poorly in terms of timing.",
+      "answerZh": "項目在成本方面表現良好，但在時間安排方面表現欠佳。",
+      "answerZhSource": "pdf",
+      "highlight": "The project performed well in terms of cost but poorly in terms of timing."
+    },
+    {
+      "id": "ss276-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When the aim is to reduce waste, reusable containers are more effective.",
+      "promptZh": "如果目標是減少廢物，可重用容器會更有效。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of reducing waste, reusable containers are more effective.",
+      "answerZh": "就減少廢物而言，可重用容器會更有效。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of reducing waste, reusable containers are more effective."
+    },
+    {
+      "id": "ss276-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The two neighbourhoods do not have the same level of access to public transport.",
+      "promptZh": "這兩個社區使用公共交通的便利程度並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two neighbourhoods vary in terms of access to public transport.",
+      "answerZh": "就公共交通的便利程度而言，這兩個社區有所不同。",
+      "answerZhSource": "pdf",
+      "highlight": "The two neighbourhoods vary in terms of access to public transport."
+    },
+    {
+      "id": "ss276-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "How has the new library become easier for people with disabilities to use?",
+      "promptZh": "新圖書館如何變得更方便殘疾人士使用？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How is the new library better in terms of accessibility?",
+      "answerZh": "就無障礙程度而言，新圖書館有何改善？",
+      "answerZhSource": "pdf",
+      "highlight": "How is the new library better in terms of accessibility?"
+    },
+    {
+      "id": "ss276-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The policy has successfully increased the amount of material being recycled.",
+      "promptZh": "這項政策成功增加了回收物料的數量。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy has been successful in terms of increasing recycling.",
+      "answerZh": "就增加回收量而言，這項政策十分成功。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy has been successful in terms of increasing recycling."
+    },
+    {
+      "id": "ss276-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If we consider what students need, shorter lessons may be more suitable.",
+      "promptZh": "如果考慮學生的需要，較短的課堂可能更合適。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of what students need, shorter lessons may be more suitable.",
+      "answerZh": "就學生的需要而言，較短的課堂可能更合適。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of what students need, shorter lessons may be more suitable."
+    },
+    {
+      "id": "ss276-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The report contained strong evidence, but its organisation was weak.",
+      "promptZh": "報告包含有力的證據，但組織欠佳。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report was strong in terms of evidence but weak in terms of organisation.",
+      "answerZh": "報告在證據方面很有力，但在組織方面較弱。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was strong in terms of evidence but weak in terms of organisation."
+    },
+    {
+      "id": "ss276-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The new timetable gives staff a better balance between work and personal life.",
+      "promptZh": "新時間表讓職員能更好地平衡工作與私人生活。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable is better for staff in terms of work-life balance.",
+      "answerZh": "就工作與生活的平衡而言，新時間表對職員較好。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable is better for staff in terms of work-life balance."
+    },
+    {
+      "id": "ss276-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "When long-term value is considered, repairing the machine is the wiser choice.",
+      "promptZh": "考慮長遠價值時，維修機器是較明智的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of long-term value, repairing the machine is the wiser choice.",
+      "answerZh": "就長遠價值而言，維修機器是較明智的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of long-term value, repairing the machine is the wiser choice."
+    },
+    {
+      "id": "ss276-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Patients now wait much less time at the hospital.",
+      "promptZh": "病人現在在醫院的等候時間大幅縮短。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital has improved considerably in terms of waiting times.",
+      "answerZh": "醫院在等候時間方面已有顯著改善。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital has improved considerably in terms of waiting times."
+    },
+    {
+      "id": "ss276-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The two candidates have equally strong experience.",
+      "promptZh": "兩名候選人的經驗同樣豐富。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two candidates are equally strong in terms of experience.",
+      "answerZh": "就經驗而言，兩名候選人實力相若。",
+      "answerZhSource": "pdf",
+      "highlight": "The two candidates are equally strong in terms of experience."
+    },
+    {
+      "id": "ss276-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If installation speed is considered, the smaller system is more practical.",
+      "promptZh": "如果考慮安裝速度，較小的系統更實際。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of how quickly it can be installed, the smaller system is more practical.",
+      "answerZh": "就安裝速度而言，較小的系統更實際。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of how quickly it can be installed, the smaller system is more practical."
+    },
+    {
+      "id": "ss276-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Users find the navigation in the new app easier.",
+      "promptZh": "使用者認為新應用程式的導覽更容易使用。",
+      "promptZhSource": "pdf",
+      "starter": "Users",
+      "answer": "Users find the new app easier to use in terms of navigation.",
+      "answerZh": "使用者認為新應用程式在導覽方面更容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Users find the new app easier to use in terms of navigation."
+    },
+    {
+      "id": "ss276-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Which school achieved the highest examination results?",
+      "promptZh": "哪一間學校取得最高的考試成績？",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which school performed best in terms of examination results?",
+      "answerZh": "就考試成績而言，哪一間學校表現最好？",
+      "answerZhSource": "pdf",
+      "highlight": "Which school performed best in terms of examination results?"
+    },
+    {
+      "id": "ss276-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The council’s plan is inexpensive, but the proposed schedule will be difficult to follow.",
+      "promptZh": "市議會的計劃成本不高，但建議的時間安排難以實行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council’s plan is attractive in terms of cost but difficult in terms of timing.",
+      "answerZh": "市議會的計劃在成本方面具吸引力，但在時間安排方面有困難。",
+      "answerZhSource": "pdf",
+      "highlight": "The council’s plan is attractive in terms of cost but difficult in terms of timing."
+    },
+    {
+      "id": "ss276-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "When we consider service for elderly residents, the mobile clinic is especially valuable.",
+      "promptZh": "考慮為年長居民提供的服務時，流動診所尤其有價值。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of serving elderly residents, the mobile clinic is especially valuable.",
+      "answerZh": "就服務年長居民而言，流動診所尤其有價值。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of serving elderly residents, the mobile clinic is especially valuable."
+    },
+    {
+      "id": "ss276-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The committee compared the products by examining their price, quality and durability.",
+      "promptZh": "委員會透過檢視產品的價格、品質和耐用程度來作出比較。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The products were compared in terms of price, quality and durability.",
+      "answerZh": "產品按照價格、品質和耐用程度作出比較。",
+      "answerZhSource": "pdf",
+      "highlight": "The products were compared in terms of price, quality and durability."
+    },
+    {
+      "id": "ss276-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The number of employees in the company has changed very little.",
+      "promptZh": "公司的僱員人數變化很小。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company has changed very little in terms of staff numbers.",
+      "answerZh": "公司在職員人數方面的變化很小。",
+      "answerZhSource": "pdf",
+      "highlight": "The company has changed very little in terms of staff numbers."
+    },
+    {
+      "id": "ss276-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The two speeches had different tones, although their content was similar.",
+      "promptZh": "兩篇演說的語氣不同，但內容相似。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two speeches differed in terms of tone rather than content.",
+      "answerZh": "兩篇演說的分別在於語氣，而不是內容。",
+      "answerZhSource": "pdf",
+      "highlight": "The two speeches differed in terms of tone rather than content."
+    },
+    {
+      "id": "ss276-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "For short journeys, cycling has less environmental impact than driving.",
+      "promptZh": "在短途旅程中，踏單車對環境的影響比駕車小。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of environmental impact, cycling is preferable to driving for short journeys.",
+      "answerZh": "就環境影響而言，短途旅程中踏單車比駕車更可取。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of environmental impact, cycling is preferable to driving for short journeys."
+    },
+    {
+      "id": "ss276-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The proposal can save money at first, but maintaining it later may be expensive.",
+      "promptZh": "這項建議起初可以節省金錢，但日後的維護費用可能很高。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal looks strong in terms of short-term savings but weaker in terms of long-term maintenance.",
+      "answerZh": "這項建議在短期節省方面看來很有優勢，但在長期維護方面較弱。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal looks strong in terms of short-term savings but weaker in terms of long-term maintenance."
+    },
+    {
+      "id": "ss276-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "How has the department changed the way it responds to enquiries?",
+      "promptZh": "部門回覆查詢的方式有何改變？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How has the department changed in terms of responding to enquiries?",
+      "answerZh": "就回覆查詢而言，部門有何改變？",
+      "answerZhSource": "pdf",
+      "highlight": "How has the department changed in terms of responding to enquiries?"
+    },
+    {
+      "id": "ss276-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "If we focus on what the community can realistically afford, the simpler plan is more suitable.",
+      "promptZh": "如果集中考慮社區實際負擔得起的方案，較簡單的計劃更合適。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of what the community can realistically afford, the simpler plan is more suitable.",
+      "answerZh": "就社區實際能夠負擔的程度而言，較簡單的計劃更合適。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of what the community can realistically afford, the simpler plan is more suitable."
+    },
+    {
+      "id": "ss276-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 19,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The scheme was judged successful because many people joined and the public responded positively.",
+      "promptZh": "由於參加人數眾多，而且公眾反應正面，這項計劃被評為成功。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The scheme was judged successful in terms of both participation and public response.",
+      "answerZh": "就參與情況和公眾反應兩方面而言，這項計劃被評為成功。",
+      "answerZhSource": "pdf",
+      "highlight": "The scheme was judged successful in terms of both participation and public response."
+    },
+    {
+      "id": "ss276-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "One department has become more productive, while the other has become less productive.",
+      "promptZh": "一個部門的生產力有所提升，另一個部門的生產力卻有所下降。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two departments have moved in opposite directions in terms of productivity.",
+      "answerZh": "就生產力而言，兩個部門朝相反方向發展。",
+      "answerZhSource": "pdf",
+      "highlight": "The two departments have moved in opposite directions in terms of productivity."
+    },
+    {
+      "id": "ss276-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The course requires a great deal of work, but it provides valuable practical experience.",
+      "promptZh": "這個課程的工作量很大，但能提供寶貴的實際經驗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course may be demanding in terms of workload, but it is rewarding in terms of practical experience.",
+      "answerZh": "這個課程在工作量方面可能要求很高，但在實際經驗方面很有價值。",
+      "answerZhSource": "pdf",
+      "highlight": "The course may be demanding in terms of workload, but it is rewarding in terms of practical experience."
+    },
+    {
+      "id": "ss276-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "When helping new employees settle in is considered, regular meetings are very useful.",
+      "promptZh": "考慮幫助新僱員適應工作時，定期會議十分有用。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of helping new employees settle in, regular meetings are very useful.",
+      "answerZh": "就幫助新僱員適應工作而言，定期會議十分有用。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of helping new employees settle in, regular meetings are very useful."
+    },
+    {
+      "id": "ss276-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The revised design is safer, easier for everyone to use and more energy-efficient than the original.",
+      "promptZh": "修訂後的設計比原本的設計更安全、更方便所有人使用，而且更節能。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The revised design outperforms the original in terms of safety, ease of use and energy efficiency.",
+      "answerZh": "修訂後的設計在安全、使用方便程度和能源效益方面勝過原本的設計。",
+      "answerZhSource": "pdf",
+      "highlight": "The revised design outperforms the original in terms of safety, ease of use and energy efficiency."
+    },
+    {
+      "id": "ss276-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Reliability is the most important consideration when choosing a supplier.",
+      "promptZh": "選擇供應商時，可靠程度是最重要的考慮因素。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters most in terms of choosing a supplier is reliability.",
+      "answerZh": "就選擇供應商而言，最重要的是可靠程度。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters most in terms of choosing a supplier is reliability."
+    },
+    {
+      "id": "ss276-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "No single option is clearly best when cost, speed and quality are all considered together.",
+      "promptZh": "當成本、速度和品質一併考慮時，沒有任何一個選擇明顯最好。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of the balance between cost, speed and quality, no single option is clearly best.",
+      "answerZh": "就成本、速度和品質之間的平衡而言，沒有任何一個選擇明顯最好。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of the balance between cost, speed and quality, no single option is clearly best."
+    }
+  ]
+}

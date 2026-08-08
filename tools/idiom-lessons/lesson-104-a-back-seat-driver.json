@@ -1,0 +1,1672 @@
+{
+  "lesson": {
+    "id": "idiom-104",
+    "order": 104,
+    "slug": "a-back-seat-driver",
+    "version": "1",
+    "title": "指手畫腳的乘客／愛管閒事者",
+    "titleEn": "a back-seat driver",
+    "titleZh": "指手畫腳的乘客／愛管閒事者",
+    "source": {
+      "file": "Idiom 104 - “A Back-Seat Driver”.pdf",
+      "pageCount": 35,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "exercisePdfPages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "answerKeyPdfPages": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "back-seat driver",
+        "highlight": "back-seat driver"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Leo is a back-seat driver whenever I drive.",
+        "zh": "每當我駕駛時，里奧都會在旁不斷指點。",
+        "highlight": "back-seat driver"
+      },
+      {
+        "en": "Her father was a back-seat driver throughout the journey.",
+        "zh": "她父親在整段旅程中都不斷從旁指點司機。",
+        "highlight": "back-seat driver"
+      }
+    ],
+    "meaning": {
+      "en": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+      "zh": "本練習包括的意思",
+      "naturalZh": [
+        "本練習包括的意思"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "interviews; general-interest articles; lightly humorous descriptions.",
+      "summaryZh": "這個表達屬於非正式用語，適合用於：",
+      "contextsEn": [
+        "everyday conversation",
+        "friendly complaints",
+        "personal stories",
+        "informal messages",
+        "interviews",
+        "general-interest articles",
+        "lightly humorous descriptions",
+        "their advice was not requested",
+        "they are interfering",
+        "they are making the responsible person uncomfortable",
+        "they want influence without accepting full responsibility",
+        "give too much advice"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "朋友之間的抱怨",
+        "個人故事",
+        "非正式訊息",
+        "訪問",
+        "一般文章",
+        "帶有輕微幽默感的描述。",
+        "對方的意見並非別人主動要求",
+        "對方正在干預",
+        "對方令真正負責的人感到不自在",
+        "對方想保留影響力，卻沒有承擔全部責任。",
+        "提供過多意見"
+      ],
+      "formalEn": "In a sensitive workplace conversation, these neutral alternatives may be safer:",
+      "formalZh": "日常對話； 朋友之間的抱怨； 個人故事； 非正式訊息； 訪問； 一般文章； 帶有輕微幽默感的描述。"
+    },
+    "fixedVariable": {
+      "fixed": "back-seat driver",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + be + a back-seat driver.",
+          "example": "Leo is a back-seat driver whenever I drive.",
+          "highlight": "back-seat driver"
+        },
+        {
+          "form": "Subject + become / turn into + a back-seat driver.",
+          "example": "Sophie has become a back-seat driver since she passed her driving test.",
+          "highlight": "back-seat driver"
+        },
+        {
+          "form": "Do not + be + a back-seat driver.",
+          "example": "Please do not be a back-seat driver while I am parking.",
+          "highlight": "back-seat driver"
+        },
+        {
+          "form": "Subject + call + person + a back-seat driver.",
+          "example": "Grace called her brother a back-seat driver after the journey.",
+          "highlight": "back-seat driver"
+        },
+        {
+          "form": "Subject + accuse + person + of being + a back-seat driver.",
+          "example": "I accused Noah of being a back-seat driver.",
+          "highlight": "back-seat driver"
+        },
+        {
+          "form": "Subject + act / behave / sound / seem / come across + like a back-seat driver.",
+          "example": "Aaron acts like a back-seat driver at every meeting.",
+          "highlight": "back-seat driver"
+        },
+        {
+          "form": "Subject + have / need / want / hate + a back-seat driver.",
+          "example": "I hate having a back-seat driver in the car.",
+          "highlight": "back-seat driver"
+        },
+        {
+          "form": "A back-seat driver + verb.",
+          "example": "A back-seat driver can make the person at the wheel nervous.",
+          "highlight": "back-seat driver"
+        },
+        {
+          "form": "Being a back-seat driver + verb.",
+          "example": "Being a back-seat driver may distract the person at the wheel.",
+          "highlight": "back-seat driver"
+        },
+        {
+          "form": "The last thing + subject + need + be + a back-seat driver.",
+          "example": "The last thing I need in heavy traffic is a back-seat driver.",
+          "highlight": "back-seat driver"
+        },
+        {
+          "form": "Subject + see / regard + person + as + a back-seat driver.",
+          "example": "Staff may see the founder as a back-seat driver.",
+          "highlight": "back-seat driver"
+        },
+        {
+          "form": "Although + clause, subject + be/act like + a back-seat driver.",
+          "example": "Although Clara wanted to help, she sounded like a back-seat driver.",
+          "highlight": "back-seat driver"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "After “Be”",
+        "titleZh": "句式一：放在 be 之後",
+        "formula": "Subject + be + a back-seat driver.",
+        "descriptionEn": "This is the most direct identifying pattern.",
+        "descriptionZh": "這是最直接指出某人具有這種特徵的句式。",
+        "examples": [
+          {
+            "en": "Leo is a back-seat driver whenever I drive.",
+            "zh": "每當我駕駛時，里奧都會在旁不斷指點。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "Her father was a back-seat driver throughout the journey.",
+            "zh": "她父親在整段旅程中都不斷從旁指點司機。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "The former manager may still be a back-seat driver.",
+            "zh": "前任經理可能仍然在幕後指手畫腳。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "After “Become” or “Turn Into”",
+        "titleZh": "句式二：放在 become 或 turn into 之後",
+        "formula": "Subject + become / turn into + a back-seat driver.",
+        "descriptionEn": "The phrase describes a change in behaviour.",
+        "descriptionZh": "這個句式表示某人的行為出現轉變。",
+        "examples": [
+          {
+            "en": "Sophie has become a back-seat driver since she passed her driving test.",
+            "zh": "蘇菲自從考獲駕駛執照後，便變得愛在旁指點司機。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "Once the journey began, Henry turned into a back-seat driver.",
+            "zh": "旅程一開始，亨利便變成一個不斷在旁指點司機的人。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Commands, Promises and Attempts",
+        "titleZh": "句式三：命令、承諾及嘗試",
+        "formula": "Do not + be + a back-seat driver.",
+        "descriptionEn": "This pattern is useful when asking somebody to stop interfering.",
+        "descriptionZh": "這個句式適合用來要求別人停止干預。",
+        "examples": [
+          {
+            "en": "Please do not be a back-seat driver while I am parking.",
+            "zh": "我泊車時，請不要在旁不斷指點。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "Oliver promised not to be a back-seat driver during the journey.",
+            "zh": "奧利弗答應在旅途中不會不停指點司機。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "“Call” or “Describe” Someone",
+        "titleZh": "句式四：使用 call 或 describe",
+        "formula": "Subject + call + person + a back-seat driver.",
+        "descriptionEn": "The noun phrase functions as a label given to another person.",
+        "descriptionZh": "這個名詞短語用來形容或標籤另一個人。",
+        "examples": [
+          {
+            "en": "Grace called her brother a back-seat driver after the journey.",
+            "zh": "旅程結束後，格蕾絲說弟弟總是在旁胡亂指點司機。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "The driver described Ryan as a back-seat driver.",
+            "zh": "司機形容賴恩是一個愛在旁指點司機的人。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "“Accuse” Someone of Being One",
+        "titleZh": "句式五：使用 accuse",
+        "formula": "Subject + accuse + person + of being + a back-seat driver.",
+        "descriptionEn": "Source grammar frame: Subject + accuse + person + of being + a back-seat driver.",
+        "descriptionZh": "原檔列出的句法框架：Subject + accuse + person + of being + a back-seat driver。",
+        "examples": [
+          {
+            "en": "I accused Noah of being a back-seat driver.",
+            "zh": "我指責諾亞總是在旁胡亂指點司機。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "The committee accused the former chairperson of being a back-seat driver.",
+            "zh": "委員會指責前主席仍然在幕後指手畫腳。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“Like” After Behaviour Verbs",
+        "titleZh": "句式六：在行為動詞後使用 like",
+        "formula": "Subject + act / behave / sound / seem / come across + like a back-seat driver.",
+        "descriptionEn": "These structures describe the impression created by someone’s behaviour.",
+        "descriptionZh": "這些句式形容某人的行為所造成的印象。",
+        "examples": [
+          {
+            "en": "Aaron acts like a back-seat driver at every meeting.",
+            "zh": "亞倫在每次會議上都像一個從旁指手畫腳的人。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "Clara came across as a back-seat driver.",
+            "zh": "克拉拉給人的感覺像一個愛在旁指揮的人。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "Alice sounded like a back-seat driver.",
+            "zh": "愛麗斯聽起來像一個不斷在旁指點司機的人。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "After “Have”, “Need”, “Want” or “Hate”",
+        "titleZh": "句式七",
+        "formula": "Subject + have / need / want / hate + a back-seat driver.",
+        "descriptionEn": "The expression functions as the object of the verb.",
+        "descriptionZh": "放在 have、need、want 或 hate 之後這個表達在句中擔任動詞的受詞。",
+        "examples": [
+          {
+            "en": "I hate having a back-seat driver in the car.",
+            "zh": "我討厭車內有人不斷在旁指點。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "The new team does not need a back-seat driver.",
+            "zh": "新團隊不需要有人在旁指手畫腳。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "Nobody wants a back-seat driver beside them on a busy road.",
+            "zh": "沒有人希望在繁忙道路上駕駛時，身旁有人不停指點。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "As the Subject",
+        "titleZh": "句式八：用作主語",
+        "formula": "A back-seat driver + verb.",
+        "descriptionEn": "The expression appears at the beginning and becomes the subject of the sentence.",
+        "descriptionZh": "這個表達放在句首，成為句子的主語。",
+        "examples": [
+          {
+            "en": "A back-seat driver can make the person at the wheel nervous.",
+            "zh": "有人在旁不斷指點，可能會令正在駕駛的人感到緊張。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "A back-seat driver can also weaken a new leader.",
+            "zh": "在旁指手畫腳的人也可能削弱新領袖的權威。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "“Being a Back-Seat Driver”",
+        "titleZh": "句式九",
+        "formula": "Being a back-seat driver + verb.",
+        "descriptionEn": "Being allows the noun phrase to appear after verbs and prepositions or to function as the subject.",
+        "descriptionZh": "使用 being a back-seat driver being 可以讓這個名詞短語放在動詞或介詞後，也可以讓整個結構擔任主語。",
+        "examples": [
+          {
+            "en": "Being a back-seat driver may distract the person at the wheel.",
+            "zh": "在旁不斷指點司機，可能會令正在駕駛的人分心。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "She denied being a back-seat driver.",
+            "zh": "她否認自己在幕後指手畫腳。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "He dislikes being called a back-seat driver.",
+            "zh": "他不喜歡別人說他愛在旁指手畫腳。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "“The Last Thing...” and “What...”",
+        "titleZh": "句式十：使用 the last thing 或 what",
+        "formula": "The last thing + subject + need + be + a back-seat driver.",
+        "descriptionEn": "These structures place the target expression near the end of the sentence rather than in the usual early position.",
+        "descriptionZh": "這些句式把目標表達放近句末，而不是反覆放在句子前半部分。",
+        "examples": [
+          {
+            "en": "The last thing I need in heavy traffic is a back-seat driver.",
+            "zh": "我在繁忙交通中最不需要的，就是有人在旁不斷指點。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "What annoys him most is having a back-seat driver beside him.",
+            "zh": "最令他煩厭的，是身旁有人不斷指點他駕駛。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "“See” or “Regard” Someone As One",
+        "titleZh": "句式十一：使用 see 或 regard",
+        "formula": "Subject + see / regard + person + as + a back-seat driver.",
+        "descriptionEn": "This is especially useful for the figurative meaning.",
+        "descriptionZh": "這個句式尤其適合比喻用法。",
+        "examples": [
+          {
+            "en": "Staff may see the founder as a back-seat driver.",
+            "zh": "員工可能會認為創辦人仍在幕後指手畫腳。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "The new manager regarded the former director as a back-seat driver.",
+            "zh": "新經理認為前任主管仍在幕後干預。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Contrast and Condition",
+        "titleZh": "句式十二：對比及條件",
+        "formula": "Although + clause, subject + be/act like + a back-seat driver.",
+        "descriptionEn": "The contrast or condition is outside the idiom and must remain when it carries important meaning.",
+        "descriptionZh": "對比或條件並不包含在慣用語本身之中； 如果它帶有重要意思，答案便必須保留。",
+        "examples": [
+          {
+            "en": "Although Clara wanted to help, she sounded like a back-seat driver.",
+            "zh": "雖然克拉拉想幫忙，但她聽起來像一個不斷指點司機的人。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "If you keep interrupting the driver, you will become a back-seat driver.",
+            "zh": "如果你繼續打斷司機，你便會變成一個愛在旁指點的人。",
+            "highlight": "back-seat driver"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Identifies Unwanted Advice Clearly",
+        "titleZh": "清楚指出意見並非對方所要求",
+        "en": "the advice was not requested; it is repeated; it may be annoying; the adviser is not the person in control.",
+        "zh": "這個表達不只是說某人提供意見。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "濃縮較長的解釋",
+        "en": "The idiom replaces the longer list of unwanted instructions.",
+        "zh": "每當我駕駛時，叔父總是在旁不停指點。 慣用語取代了較長的未經要求指示清單。",
+        "examples": [
+          {
+            "en": "My uncle is a back-seat driver whenever I drive.",
+            "zh": "每當我駕駛時，叔父總是在旁不停指點。",
+            "highlight": "back-seat driver"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Describes the Effect of Interference",
+        "titleZh": "形容干預所造成的影響",
+        "en": "nervous; annoyed; distracted; less confident; unable to concentrate.",
+        "zh": "有人不斷在旁指點，可能令真正的司機：",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Extends Naturally Beyond Driving",
+        "titleZh": "可以自然延伸至駕駛以外的情況",
+        "en": "without holding the main responsibility.",
+        "zh": "這個意象也可以形容一個沒有主要責任，卻試圖控制以下人士或事情的人：",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Helps Express a Boundary",
+        "titleZh": "幫助說話者訂立界線",
+        "en": "Stop talking.",
+        "zh": "我泊車時，請不要不停在旁指點。 這比單純說「不要說話」更加具體，因為它清楚指出問題是未經要求的駕駛指示。",
+        "examples": [
+          {
+            "en": "Please do not be a back-seat driver while I am parking.",
+            "zh": "我泊車時，請不要不停在旁指點。",
+            "highlight": "back-seat driver"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Distinguishes Help from Interference",
+        "titleZh": "區分協助和干預",
+        "en": "The driver asks, “Which road should I take?” and the passenger answers. The driver does not ask, but the passenger gives instructions at every junction. The expression is useful only when the advice is unwanted, excessive or controlling.",
+        "zh": "有幫助的情況： 在旁胡亂指點的情況： 只有當意見未經要求、過多或帶有控制意味時，這個表達才自然。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Early American Use Documented; Exact First Use Uncertain",
+      "statusZh": "較早期美國用法有記錄；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The expression developed in the United States as cars became increasingly common in the early twentieth century. Historical researchers have located clear negative motoring uses by the mid-1910s and a broad figurative use in 1921. Etymonline records the expression by 1923, while some modern dictionaries give the broader period 1925–30. These different dates concern the earliest examples located by different researchers; none proves the exact moment when people first began saying the expression.",
+          "zh": "這個表達在二十世紀初汽車逐漸普及的美國形成。 語言研究者找到的記錄顯示，最遲在一九一〇 年代中期，已有人以負面意思形容不斷指點司機的乘客； 到一九二一年，亦已有較廣泛的比喻用法。 Etymonline 記錄它在一九二三年已經出現，而部分現代字典則列出一九二五至一九三〇年這個較廣泛時期。 不同日期代表不同研究者找到的最早例子，並不能證明人們首次說出這個表達的確切時刻。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The passenger was not controlling the wheel, pedals or brakes, but behaved as though they were responsible for the journey. The same image was later applied to people who tried to direct managers, leaders or workers without holding the official responsibility.",
+          "zh": "乘客並沒有控制軚盤、腳踏或煞車，卻表現得像自己才是負責整段旅程的人。 後來，這個畫面亦被用來形容沒有正式責任，卻試圖指揮經理、領袖或工作人員的人。"
+        }
+      ],
+      "memoryEn": "The person is not holding the wheel, but still tries to direct the journey.",
+      "memoryZh": "這個人沒有握着軚盤，卻仍然試圖指揮整段旅程。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Hyphenated Target Exact",
+        "titleZh": "規則一：準確保留連字號形式",
+        "en": "Correct target: back-seat driver. Incorrect target forms: a back seat driver; a back-seated driver; a back-seat driving person; a back driver; a seat-back driver.",
+        "zh": "本練習的正確目標形式是： 不可任意刪除連字號、改變次序或加入其他字詞。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "“A Back-Seat Driver” Is a Noun Phrase",
+        "titleZh": "規則二：a back-seat driver 是名詞短語",
+        "en": "The expression needs an appropriate grammatical structure around it.",
+        "zh": "他總是在旁不斷指點司機。 這個表達必須配合適當的句法結構使用。",
+        "examples": [
+          {
+            "en": "He is a back-seat driver.",
+            "zh": "他總是在旁不斷指點司機。",
+            "highlight": "back-seat driver"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "Use “A”, Not “An”",
+        "titleZh": "規則三：使用 a，而不是 an",
+        "en": "Back begins with a consonant sound, so use a.",
+        "zh": "以輔音開首，因此應使用 a。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Optional Details Are Not Fixed",
+        "titleZh": "規則四：附加資料並非固定部分",
+        "en": "The expressions during long journeys and by commenting on every turn add information, but they are not part of the idiom.",
+        "zh": "during long journeys 和 by commenting on every turn 只是補充資料，並不屬於慣用語本身。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "The Advice Must Normally Be Unwanted",
+        "titleZh": "規則五：意見通常必須是未經要求的",
+        "en": "The passenger was a back-seat driver. The second passenger is simply providing requested help.",
+        "zh": "不適合： 第二個情況中的乘客只是在提供司機主動要求的協助。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "One Necessary Warning Is Not Enough",
+        "titleZh": "規則六：一次必要警告並不足夠",
+        "en": "This is one urgent safety warning. This is a continuing pattern of unwanted control.",
+        "zh": "通常屬於 a back-seat driver: 以下情況通常不是 a back-seat driver:",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "The Passenger Need Not Literally Sit in the Back",
+        "titleZh": "規則七：乘客不一定真的坐在後座",
+        "en": "Modern dictionaries define the person generally as a passenger, not only as someone physically sitting in the rear seat. The expression describes the behaviour rather than the exact seat occupied. A person in the front passenger seat can still be a back-seat driver.",
+        "zh": "現代字典一般把這個人定義為乘客，而不是只限於真正坐在後座的人。 這個表達重點在於行為， 而不是實際座位。 坐在前排乘客座位的人，仍然可以被稱為 a back-seat driver。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Preserve Tense, Time and Modality",
+        "titleZh": "規則八：保留時態、時間及情態",
+        "en": "That would turn a possibility into a completed fact.",
+        "zh": "不可把 may become 改成 became，否則會把可能性變成已完成的事實。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve the Literal or Figurative Setting",
+        "titleZh": "規則九：保留駕駛或比喻語境",
+        "en": "Do not remove the company, project, club or driving context when it is needed to understand the answer.",
+        "zh": "每當我駕駛時，叔父總是不斷在旁指點。 前任經理在自己曾經領導的公司中，仍然從旁指手畫腳。 如果公司、項目、組織或駕駛情境對理解答案十分重要，便不可把它刪除。",
+        "examples": [
+          {
+            "en": "My uncle is a back-seat driver whenever I drive.",
+            "zh": "每當我駕駛時，叔父總是不斷在旁指點。",
+            "highlight": "back-seat driver"
+          },
+          {
+            "en": "The former manager is a back-seat driver in the company he once led.",
+            "zh": "前任經理在自己曾經領導的公司中，仍然從旁指手畫腳。",
+            "highlight": "back-seat driver"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Repeat the Meaning",
+        "titleZh": "規則十：不要重複相同意思",
+        "en": "The second clause merely explains the idiom again. Leo is a back-seat driver whenever I drive, and he constantly gives me unwanted driving instructions. Leo is a back-seat driver whenever I drive. The source explains the unwanted instructions. The answer compresses them into the noun phrase.",
+        "zh": "較差： 第二個分句只是再次解釋慣用語的意思。 較佳： 原句負責解釋未經要求的指示； 答案以名詞短語把意思濃縮。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "“Back-Seat Driving” Is Related but Not the Target",
+        "titleZh": "規則十一",
+        "en": "a back-seat driver back-seat driving",
+        "zh": "back-seat driving 是相關形式，但並非本課目標相關名詞是： 不過，本練習的所有答案都必須使用：",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Use the Figurative Meaning Carefully",
+        "titleZh": "規則十二：小心使用比喻意思",
+        "en": "A former leader is not automatically a back-seat driver simply because they give one piece of requested advice.; no longer holds the main responsibility; repeatedly interferes; tries to influence or control the responsible person; gives advice that was not requested.",
+        "zh": "前任領袖不會只因提供一次別人主動要求的意見，便自動成為 a back-seat driver。 只有當對方符合以下情況時，比喻用法才自然：",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "The first word of each model answer has been provided.",
+      "zh": "使用以下表達改寫句子或完成回應："
+    },
+    "questions": [
+      {
+        "id": "idiom-104-q01",
+        "number": 1,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Whenever I drive, Leo repeatedly tells me when to slow down, turn and change lanes, although I never ask him for help.",
+        "promptZh": "每當我駕駛時，里奧都會反覆告訴我何時減速、轉彎和轉換行車線，雖然我從沒有請他幫忙。",
+        "starter": "Leo",
+        "answer": "Leo is a back-seat driver whenever I drive.",
+        "answerZh": "每當我駕駛時，里奧總會在旁不斷指點。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q02",
+        "number": 2,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "My aunt gives my uncle unwanted driving instructions during every family journey.",
+        "promptZh": "在每次家庭旅程中，姨姨都會向姨丈提供未經要求的駕駛指示。",
+        "starter": "My",
+        "answer": "My aunt becomes a back-seat driver on every family journey.",
+        "answerZh": "姨姨在每次家庭旅程中都會變成一個不斷指點司機的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q03",
+        "number": 3,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "I am trying to park. Please stop telling me exactly how to move the car.",
+        "promptZh": "我正在泊車。請不要再逐步告訴我應如何移動汽車。",
+        "starter": "Please",
+        "answer": "Please do not be a back-seat driver while I am parking.",
+        "answerZh": "我泊車時，請不要不斷在旁指點。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q04",
+        "number": 4,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "On a busy road, nobody wants a passenger beside them who repeatedly gives unwanted instructions.",
+        "promptZh": "在繁忙道路上，沒有人希望身旁的乘客反覆提供未經要求的指示。",
+        "starter": "Nobody",
+        "answer": "Nobody wants a back-seat driver beside them on a busy road.",
+        "answerZh": "沒有人希望在繁忙道路上駕駛時，身旁有人不停指點。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q05",
+        "number": 5,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "I dislike travelling with a passenger who constantly criticises the way I drive.",
+        "promptZh": "我不喜歡和一個不斷批評我駕駛方式的乘客一起乘車。",
+        "starter": "I",
+        "answer": "I hate having a back-seat driver in the car.",
+        "answerZh": "我討厭車內有人不斷在旁指點我駕駛。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q06",
+        "number": 6,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "During the whole journey, Grace’s brother kept telling her how to drive. Afterwards, she gave him a name for this annoying behaviour.",
+        "promptZh": "在整段旅程中，格蕾絲的弟弟一直告訴她應如何駕駛。之後，她用一個說法形容這種煩人的行為。",
+        "starter": "Grace",
+        "answer": "Grace called her brother a back-seat driver after their journey.",
+        "answerZh": "旅程結束後，格蕾絲說弟弟總是在旁胡亂指點司機。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q07",
+        "number": 7,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A passenger who continually interferes may make the person controlling the car feel nervous.",
+        "promptZh": "一名不斷干預的乘客可能令真正控制汽車的人感到緊張。",
+        "starter": "A",
+        "answer": "A back-seat driver can make the person at the wheel nervous.",
+        "answerZh": "有人不斷在旁指點，可能會令正在駕駛的人感到緊張。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q08",
+        "number": 8,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Heavy traffic already requires all my attention. I certainly do not need a passenger giving me constant instructions.",
+        "promptZh": "繁忙的交通已需要我全神貫注。我當然不需要一名乘客不斷向我發出指示。",
+        "starter": "The",
+        "answer": "The last thing I need in heavy traffic is a back-seat driver.",
+        "answerZh": "我在繁忙交通中最不需要的，就是有人不斷在旁指點。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q09",
+        "number": 9,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "During Eva’s first journey as the driver, Daniel continually criticised her speed and position on the road.",
+        "promptZh": "在伊娃首次駕駛的旅程中，丹尼爾不斷批評她的速度和道路位置。",
+        "starter": "Daniel",
+        "answer": "Daniel sounded like a back-seat driver throughout Eva’s first journey as the driver.",
+        "answerZh": "在伊娃首次駕駛的整段旅程中，丹尼爾聽起來像一個不斷在旁指點司機的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q10",
+        "number": 10,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Priya needs to concentrate on the road. Stop telling her how to control every part of the car.",
+        "promptZh": "普麗雅需要集中精神留意道路。不要再告訴她應如何控制汽車的每個部分。",
+        "starter": "Stop",
+        "answer": "Stop being a back-seat driver and let Priya concentrate.",
+        "answerZh": "不要再不斷指點司機，讓普麗雅集中精神。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q11",
+        "number": 11,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "On long journeys, his mother repeatedly tells him which lane to use and when to brake.",
+        "promptZh": "在長途旅程中，他的母親會反覆告訴他應使用哪條行車線和何時煞車。",
+        "starter": "His",
+        "answer": "His mother can be a back-seat driver on long journeys.",
+        "answerZh": "在長途旅程中，他的母親可能會變得愛在旁指點司機。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q12",
+        "number": 12,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Noah interrupted me five times during one short drive to tell me what I should do. I criticised him for this behaviour.",
+        "promptZh": "在一次短途駕駛中，諾亞五次打斷我，告訴我應該怎樣做。我批評了他的這種行為。",
+        "starter": "I",
+        "answer": "I accused Noah of being a back-seat driver after his fifth interruption.",
+        "answerZh": "諾亞第五次打斷我後，我指責他總是在旁胡亂指點。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q13",
+        "number": 13,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A passenger’s constant unwanted instructions may make the person at the wheel nervous.",
+        "promptZh": "乘客不斷提供未經要求的指示，可能會令正在駕駛的人感到緊張。",
+        "starter": "Being",
+        "answer": "Being a back-seat driver may make the person at the wheel nervous.",
+        "answerZh": "在旁不斷指點司機，可能會令正在駕駛的人感到緊張。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q14",
+        "number": 14,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Sophie did not previously interfere with other people’s driving. Since passing her test, however, she has begun giving constant advice.",
+        "promptZh": "蘇菲以前不會干預別人駕駛。不過，自從考獲駕駛執照後，她便開始不斷提供意見。",
+        "starter": "Sophie",
+        "answer": "Sophie has turned into a back-seat driver since she passed her driving test.",
+        "answerZh": "蘇菲自從考獲駕駛執照後，便變得愛在旁指點司機。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q15",
+        "number": 15,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "If you continue interrupting the driver with unwanted instructions, you will develop this annoying habit.",
+        "promptZh": "如果你繼續以未經要求的指示打斷司機，你便會養成這種煩人的習慣。",
+        "starter": "If",
+        "answer": "If you keep interrupting the driver, you will become a back-seat driver.",
+        "answerZh": "如果你繼續打斷司機，你便會變成一個愛在旁指點的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q16",
+        "number": 16,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: Why is Ben annoyed whenever you travel together? B: He believes I give him too many driving instructions.",
+        "promptZh": "甲：為甚麼你們每次一起乘車時，本都會感到煩躁？ 乙：他認為我向他提供太多駕駛指示。",
+        "starter": "He",
+        "answer": "He thinks I am being a back-seat driver whenever he drives.",
+        "answerZh": "他認為每當他駕駛時，我都在旁不斷指點。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q17",
+        "number": 17,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "It was our first journey through the city. We did not need an interfering passenger continually telling us which road to take.",
+        "promptZh": "那是我們首次駕車穿過市區。我們不需要一名不斷告訴我們應走哪條路的干預型乘客。",
+        "starter": "We",
+        "answer": "We did not need a back-seat driver during our first journey through the city.",
+        "answerZh": "我們首次駕車穿過市區時，不需要有人不斷在旁指點。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q18",
+        "number": 18,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Before the journey, Oliver agreed that he would not keep telling the driver what to do.",
+        "promptZh": "旅程開始前，奧利弗答應不會不斷告訴司機應該怎樣做。",
+        "starter": "Oliver",
+        "answer": "Oliver promised not to be a back-seat driver during the journey.",
+        "answerZh": "奧利弗答應在旅途中不會不停指點司機。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q19",
+        "number": 19,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "She may sincerely believe that she is helping. Nevertheless, her repeated comments are distracting the driver.",
+        "promptZh": "她可能真心相信自己正在幫忙。不過，她反覆作出的評論令司機分心。",
+        "starter": "She",
+        "answer": "She may not mean to be a back-seat driver, but she is distracting the driver.",
+        "answerZh": "她可能並非有意在旁不斷指點，但她正在令司機分心。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q20",
+        "number": 20,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "What annoys him most is sitting beside a passenger who continually interferes with his driving.",
+        "promptZh": "最令他煩厭的，是身旁坐着一名不斷干預他駕駛的乘客。",
+        "starter": "What",
+        "answer": "What annoys him most is having a back-seat driver beside him.",
+        "answerZh": "最令他煩厭的，是身旁有人不斷指點他駕駛。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q21",
+        "number": 21,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Clara intended to help, but her repeated comments made her appear interfering and controlling.",
+        "promptZh": "克拉拉原本想幫忙，但她反覆作出的評論令她顯得愛干預和控制別人。",
+        "starter": "Although",
+        "answer": "Although Clara was only trying to help, she came across as a back-seat driver.",
+        "answerZh": "雖然克拉拉只是想幫忙，但她給人的感覺像一個愛在旁指揮的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q22",
+        "number": 22,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Ethan quietly checked the map and waited until the driver asked for help instead of giving constant unwanted instructions.",
+        "promptZh": "伊森安靜地查看地圖，並等待司機主動求助，而沒有不斷提供未經要求的指示。",
+        "starter": "Rather",
+        "answer": "Rather than be a back-seat driver, Ethan checked the map quietly and spoke only when asked.",
+        "answerZh": "伊森沒有在旁胡亂指點，而是安靜地查看地圖，只在司機主動詢問時才說話。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q23",
+        "number": 23,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "After the journey, the driver said that Ryan had constantly interfered and told her how to drive.",
+        "promptZh": "旅程結束後，司機說賴恩一直干預並告訴她應如何駕駛。",
+        "starter": "The",
+        "answer": "The driver described Ryan as a back-seat driver after the journey.",
+        "answerZh": "旅程結束後，司機形容賴恩是一個愛在旁指點司機的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q24",
+        "number": 24,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The traffic light has turned red, and I need to warn you. However, I do not want one necessary warning to sound like unwanted driving advice.",
+        "promptZh": "交通燈已轉為紅色，我需要提醒你。不過，我不希望一次必要警告聽起來像未經要求的駕駛指示。",
+        "starter": "I",
+        "answer": "I do not want to sound like a back-seat driver, but the traffic light has turned red.",
+        "answerZh": "我不想聽起來像一個愛在旁指點司機的人，但交通燈已轉為紅色。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q25",
+        "number": 25,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The passenger kept interrupting the learner driver. The instructor warned that continuing this behaviour would give him an unpleasant label.",
+        "promptZh": "乘客不斷打斷學習駕駛的人。導師警告，如果他繼續這種行為，別人便會以一個負面說法形容他。",
+        "starter": "The",
+        "answer": "The instructor warned the passenger that constant interruptions could make him a back-seat driver.",
+        "answerZh": "導師警告乘客，反覆打斷司機可能會令他變成一個愛在旁指點的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q26",
+        "number": 26,
+        "sourcePage": 26,
+        "sourcePages": [
+          26,
+          27
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "After every family journey, Ava’s relatives say that she gives the driver too many unwanted instructions. She dislikes this description.",
+        "promptZh": "每次家庭旅程後，艾娃的親人都說她向司機提供太多未經要求的指示。她不喜歡這種形容。",
+        "starter": "Ava",
+        "answer": "Ava dislikes being called a back-seat driver after every family journey.",
+        "answerZh": "艾娃不喜歡每次家庭旅程後都被人說成愛在旁指點司機。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q27",
+        "number": 27,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Henry was calm before the car moved. Once the journey began, however, he started controlling every decision from the passenger seat.",
+        "promptZh": "汽車開動前，亨利十分冷靜。不過，旅程一開始，他便從乘客座位試圖控制每一個決定。",
+        "starter": "Once",
+        "answer": "Once the journey began, Henry quickly became a back-seat driver.",
+        "answerZh": "旅程一開始，亨利便很快變成一個不斷在旁指點司機的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q28",
+        "number": 28,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Ruby knows the route and has not asked for help, so there is no reason to keep telling her where to turn.",
+        "promptZh": "露比知道路線，而且沒有要求協助，因此沒有理由不斷告訴她應在哪裏轉彎。",
+        "starter": "There",
+        "answer": "There is no need to be a back-seat driver; Ruby knows the route.",
+        "answerZh": "沒有必要在旁不斷指點；露比知道路線。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q29",
+        "number": 29,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Oscar repeatedly criticised the driver during the journey. If he had remained quiet, nobody would have given him this label.",
+        "promptZh": "奧斯卡在旅途中反覆批評司機。如果他保持安靜，便沒有人會用這個說法形容他。",
+        "starter": "If",
+        "answer": "If Oscar had remained quiet, nobody would have called him a back-seat driver.",
+        "answerZh": "如果奧斯卡保持安靜，便沒有人會說他愛在旁指點司機。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q30",
+        "number": 30,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: Should I tell her which road to take? B: Speak only if she asks. Otherwise, your advice may seem unwanted and controlling.",
+        "promptZh": "甲：我應否告訴她應走哪條路？ 乙：只有她主動詢問時才說。否則，你的意見可能顯得未經要求和帶有控制意味。",
+        "starter": "Only",
+        "answer": "Only speak if she asks; otherwise, you may seem like a back-seat driver.",
+        "answerZh": "只有她主動詢問時才說；否則，你可能會顯得愛在旁胡亂指點。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q31",
+        "number": 31,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "James was sitting in the front passenger seat rather than the rear seat. However, he continually told the driver what to do.",
+        "promptZh": "詹姆斯坐在前排乘客座位，而不是後座。不過，他不斷告訴司機應該怎樣做。",
+        "starter": "Even",
+        "answer": "Even though James was sitting in the front passenger seat, he was still a back-seat driver.",
+        "answerZh": "雖然詹姆斯坐在前排乘客座位，他仍然是一個不斷在旁指點司機的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q32",
+        "number": 32,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Alice commented on every small movement the driver made, which created the impression that she was trying to control the journey.",
+        "promptZh": "愛麗斯評論司機的每一個小動作，令人覺得她正試圖控制整段旅程。",
+        "starter": "By",
+        "answer": "By commenting on every small movement, Alice made herself sound like a back-seat driver.",
+        "answerZh": "愛麗斯評論司機的每一個小動作，令自己聽起來像一個愛在旁指點司機的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q33",
+        "number": 33,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The car had only just moved away when Victor began correcting the driver’s every decision.",
+        "promptZh": "汽車剛剛開出，維克托便開始糾正司機的每一個決定。",
+        "starter": "As",
+        "answer": "As soon as the car moved off, Victor began behaving like a back-seat driver.",
+        "answerZh": "汽車一開出，維克托便開始表現得像一個不斷在旁指點司機的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q34",
+        "number": 34,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Chloe first made one useful comment. Soon, however, she was giving instructions about every turn and lane.",
+        "promptZh": "克洛伊起初只提出了一個有用意見。不過，她很快便開始對每個彎位和行車線作出指示。",
+        "starter": "What",
+        "answer": "What started as one helpful comment soon made Chloe look like a back-seat driver.",
+        "answerZh": "起初只是一個有用意見，但克洛伊很快便顯得像一個愛在旁指點司機的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q35",
+        "number": 35,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The driver prefers to stop the car and check the map himself rather than listen to a passenger giving constant unwanted advice.",
+        "promptZh": "司機寧願停車並親自查看地圖，也不願聽一名乘客不斷提供未經要求的意見。",
+        "starter": "The",
+        "answer": "The driver would rather stop and check the map than listen to a back-seat driver.",
+        "answerZh": "司機寧願停車查看地圖，也不願聽一個愛在旁指點的人說話。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q36",
+        "number": 36,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Liam had never driven on that road, so one helpful warning was welcome. Constant interference, however, was not welcome.",
+        "promptZh": "利亞姆從未在那條道路駕駛，因此一次有用的警告是受歡迎的。不過，不斷干預並不受歡迎。",
+        "starter": "Since",
+        "answer": "Since Liam was new to the road, one helpful warning was welcome, but having a back-seat driver was not.",
+        "answerZh": "由於利亞姆不熟悉那條道路，一次有用警告是受歡迎的，但有人不斷在旁指點便不受歡迎。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q37",
+        "number": 37,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The passenger may have believed he was helping, but he repeatedly tried to control the driver throughout the journey.",
+        "promptZh": "乘客可能相信自己正在幫忙，但他在整段旅程中反覆試圖控制司機。",
+        "starter": "The",
+        "answer": "The passenger may have thought he was helping, yet he behaved like a back-seat driver throughout the journey.",
+        "answerZh": "乘客可能以為自己正在幫忙，但他在整段旅程中都表現得像一個不斷在旁指點司機的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q38",
+        "number": 38,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Nina spoke only once because she saw a child step into the road. It was wrong to describe her as a constantly interfering passenger.",
+        "promptZh": "妮娜只說了一次，因為她看到一名小孩走出馬路。把她形容為不斷干預司機的乘客並不公平。",
+        "starter": "It",
+        "answer": "It was unfair to call Nina a back-seat driver because she spoke only when she saw real danger.",
+        "answerZh": "說妮娜愛在旁胡亂指點並不公平，因為她只在看到真正危險時才說話。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q39",
+        "number": 39,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Rosa’s father remained a calm passenger on quiet roads. Whenever the traffic became heavy, however, he began issuing constant instructions.",
+        "promptZh": "在寧靜道路上，露莎的父親是一名冷靜的乘客。不過，每當交通變得繁忙，他便開始不斷發出指示。",
+        "starter": "Whenever",
+        "answer": "Whenever the traffic became heavy, Rosa’s father changed from a calm passenger into a back-seat driver.",
+        "answerZh": "每當交通變得繁忙，露莎的父親便會由冷靜的乘客變成一個不斷在旁指點司機的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q40",
+        "number": 40,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The passenger gave one useful warning but then continued giving instructions. If he had stopped after the warning, he would not have appeared controlling.",
+        "promptZh": "乘客作出了一次有用警告，但其後繼續發出指示。如果他在警告後便停止，他不會顯得愛控制別人。",
+        "starter": "If",
+        "answer": "If the passenger had stopped after one warning, he would not have seemed like a back-seat driver.",
+        "answerZh": "如果乘客在一次警告後便停止，他便不會顯得愛在旁胡亂指點。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q41",
+        "number": 41,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The former manager no longer runs the company, but he still tries to control the new manager’s decisions from outside.",
+        "promptZh": "前任經理已不再管理公司，但他仍試圖從外部控制新經理的決定。",
+        "starter": "The",
+        "answer": "The former manager has become a back-seat driver in the company he once led.",
+        "answerZh": "前任經理在自己曾經領導的公司中，變成了一個仍然從旁指手畫腳的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q42",
+        "number": 42,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The former chairperson kept telling the new committee what to do. The committee formally criticised this interference.",
+        "promptZh": "前主席不斷告訴新委員會應該怎樣做。委員會正式批評這種干預行為。",
+        "starter": "The",
+        "answer": "The committee accused the former chairperson of being a back-seat driver.",
+        "answerZh": "委員會指責前主席仍然在幕後指手畫腳。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q43",
+        "number": 43,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Aaron no longer leads the club, but he still tries to direct every discussion and decision.",
+        "promptZh": "亞倫已不再領導組織，但他仍試圖指揮每次討論和決定。",
+        "starter": "Although",
+        "answer": "Although he no longer leads the club, Aaron acts like a back-seat driver at every meeting.",
+        "answerZh": "雖然亞倫已不再領導組織，但他在每次會議上都像一個從旁指手畫腳的人。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q44",
+        "number": 44,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "A person who has no responsibility but continually controls decisions can weaken a new leader.",
+        "promptZh": "一個沒有責任卻不斷控制決定的人，可能會削弱新領袖的權威。",
+        "starter": "A",
+        "answer": "A back-seat driver can weaken a new leader by trying to control decisions from outside.",
+        "answerZh": "一個從旁指手畫腳的人試圖從外部控制決定，可能會削弱新領袖的權威。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q45",
+        "number": 45,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The new team needs freedom to make its own decisions. It does not need somebody from the old management group directing it from outside.",
+        "promptZh": "新團隊需要自由作出自己的決定，不需要舊管理團隊的人從外部指揮。",
+        "starter": "The",
+        "answer": "The new team does not need a back-seat driver from the old management group.",
+        "answerZh": "新團隊不需要舊管理團隊的人在旁指手畫腳。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q46",
+        "number": 46,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Ella was not the project leader, but she continually interfered instead of allowing the new leader to work independently.",
+        "promptZh": "艾拉不是項目領袖，但她不斷干預，沒有讓新領袖獨立工作。",
+        "starter": "Being",
+        "answer": "Being a back-seat driver on the project stopped Ella from letting the new leader work independently.",
+        "answerZh": "艾拉在項目中不斷從旁干預，令她無法放手讓新領袖獨立工作。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q47",
+        "number": 47,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "She said that she was not trying to control the new manager. Nevertheless, she still wanted the final say on every change.",
+        "promptZh": "她說自己並非試圖控制新經理。不過，她仍希望對每項改動擁有最終決定權。",
+        "starter": "She",
+        "answer": "She denied being a back-seat driver, but she still wanted the final say on every change.",
+        "answerZh": "她否認自己在幕後指手畫腳，但仍希望對每項改動擁有最終決定權。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q48",
+        "number": 48,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The founder has left the company but may continue interfering in the new manager’s decisions. Staff may therefore give him this critical label.",
+        "promptZh": "創辦人已離開公司，但可能會繼續干預新經理的決定。因此，員工可能會以這個負面說法形容他。",
+        "starter": "If",
+        "answer": "If the founder continues interfering after leaving, staff may see him as a back-seat driver.",
+        "answerZh": "如果創辦人離開後仍繼續干預，員工可能會認為他仍在幕後指手畫腳。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q49",
+        "number": 49,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The retired coach gave advice only when the new coach asked for it. He deliberately avoided trying to control the team from outside.",
+        "promptZh": "退休教練只在新教練主動詢問時提供意見。他刻意避免從外部控制球隊。",
+        "starter": "Rather",
+        "answer": "Rather than become a back-seat driver, the retired coach offered advice only when asked.",
+        "answerZh": "退休教練沒有在旁指手畫腳，只在別人主動詢問時提供意見。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      },
+      {
+        "id": "idiom-104-q50",
+        "number": 50,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The new director was most worried that somebody outside the organisation would continually try to control her decisions.",
+        "promptZh": "新主管最擔心的是，組織外有人會不斷試圖控制她的決定。",
+        "starter": "What",
+        "answer": "What the new director feared most was a back-seat driver from outside the organisation.",
+        "answerZh": "新主管最擔心的是，組織外有人不斷從旁指手畫腳。",
+        "targetForm": "back-seat driver",
+        "targetMeaning": "Cambridge defines the expression as a passenger who keeps giving the driver advice that was not requested, and also records a figurative use involving continued influence over a company. Merriam-Webster similarly includes anyone who gives unwanted advice or tries to control something that another person is supposed to control. Collins marks both the driving and figurative senses as informal and disapproving.",
+        "highlight": "back-seat driver"
+      }
+    ]
+  }
+}

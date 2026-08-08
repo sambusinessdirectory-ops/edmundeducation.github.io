@@ -1,0 +1,1414 @@
+{
+  "lesson": {
+    "id": "idiom-27",
+    "order": 27,
+    "slug": "in-a-dogs-age",
+    "version": "1",
+    "title": "很久沒有／久未",
+    "titleEn": "in a dog’s age",
+    "titleZh": "很久沒有／久未",
+    "source": {
+      "file": "Idiom 27 -「in a dog’s age」.pdf",
+      "pageCount": 26,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "exercisePdfPages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "answerKeyPdfPages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "in a dog’s age",
+        "highlight": "in a dog’s age"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I haven’t visited that shop in a dog’s age.",
+        "zh": "我已經很久沒有到那間商店了。",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "en": "She hasn’t played tennis in a dog’s age.",
+        "zh": "她已經很久沒有打網球了。",
+        "highlight": "in a dog’s age"
+      }
+    ],
+    "meaning": {
+      "en": "used to say that an action, experience or situation has not happened for a very long time",
+      "zh": "很久沒有……；已有很長時間沒有……",
+      "naturalZh": [
+        "很久沒有……",
+        "已有很長時間沒有……"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal",
+      "labelZh": "非正式",
+      "summaryEn": "conversations between friends or relatives; personal messages; informal storytelling; friendly interviews; conversations about old memories or activities.",
+      "summaryZh": "在非常正式的報告、學術文章、法律文件及正式商業書信中，通常不宜使用。 這些場合使用 for a very long time 或 for many years 會較穩妥。",
+      "contextsEn": [
+        "conversations between friends or relatives",
+        "personal messages",
+        "informal storytelling",
+        "friendly interviews",
+        "conversations about old memories or activities",
+        "surprise",
+        "warmth",
+        "nostalgia",
+        "humour",
+        "mild complaint"
+      ],
+      "contextsZh": [
+        "朋友或親人之間的對話",
+        "私人訊息",
+        "輕鬆的故事敘述",
+        "友善的訪問",
+        "談論舊回憶或久未進行的活動。",
+        "驚訝",
+        "親切感",
+        "懷念",
+        "幽默",
+        "輕微抱怨。"
+      ],
+      "formalEn": "Avoid it in highly formal reports, academic essays, legal documents and formal business correspondence. In those settings, for a very long time or for many years is usually safer.",
+      "formalZh": "等相關形式並不是本練習指定的目標表達，因此不應在答案中使用。"
+    },
+    "fixedVariable": {
+      "fixed": "in a dog’s age",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + have not / has not + past participle + in a dog’s age.",
+          "example": "I haven’t visited that shop in a dog’s age.",
+          "highlight": "in a dog’s age"
+        },
+        {
+          "form": "Subject + had not + past participle + in a dog’s age.",
+          "example": "Before the reunion, I hadn’t seen my classmates in a dog’s age.",
+          "highlight": "in a dog’s age"
+        },
+        {
+          "form": "Subject + have not / has not + been + this / so + adjective + in a dog’s age.",
+          "example": "The garden hasn’t been this colourful in a dog’s age.",
+          "highlight": "in a dog’s age"
+        },
+        {
+          "form": "There has not been + noun + in a dog’s age.",
+          "example": "There hasn’t been a full family photo in a dog’s age.",
+          "highlight": "in a dog’s age"
+        },
+        {
+          "form": "No one + has + past participle + in a dog’s age.",
+          "example": "No one has cleaned this shelf in a dog’s age.",
+          "highlight": "in a dog’s age"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Present Perfect Negative",
+        "titleZh": "句式一：現在完成式否定句",
+        "formula": "Subject + have not / has not + past participle + in a dog’s age.",
+        "descriptionEn": "This is the most common and useful frame.",
+        "descriptionZh": "這是最常見和最實用的句式。",
+        "examples": [
+          {
+            "en": "I haven’t visited that shop in a dog’s age.",
+            "zh": "我已經很久沒有到那間商店了。",
+            "highlight": "in a dog’s age"
+          },
+          {
+            "en": "She hasn’t played tennis in a dog’s age.",
+            "zh": "她已經很久沒有打網球了。",
+            "highlight": "in a dog’s age"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Past Perfect Negative",
+        "titleZh": "句式二：過去完成式否定句",
+        "formula": "Subject + had not + past participle + in a dog’s age.",
+        "descriptionEn": "Use this when describing a long gap before another event in the past.",
+        "descriptionZh": "當句子描述另一件過去事件發生前的一段漫長時間時，可以使用這個句式。",
+        "examples": [
+          {
+            "en": "Before the reunion, I hadn’t seen my classmates in a dog’s age.",
+            "zh": "在同學聚會前，我已經很久沒有見那些同學了。",
+            "highlight": "in a dog’s age"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Comparing a Present State",
+        "titleZh": "句式三：比較現在的狀態",
+        "formula": "Subject + have not / has not + been + this / so + adjective + in a dog’s age.",
+        "descriptionEn": "Source grammar frame: Subject + have not / has not + been + this / so + adjective + in a dog’s age.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have not / has not + been + this / so + adjective + in a dog’s age。",
+        "examples": [
+          {
+            "en": "The garden hasn’t been this colourful in a dog’s age.",
+            "zh": "這個花園已經很久沒有像現在這麼色彩鮮艷了。",
+            "highlight": "in a dog’s age"
+          },
+          {
+            "en": "I haven’t felt so relaxed in a dog’s age.",
+            "zh": "我已經很久沒有感到這麼放鬆了。",
+            "highlight": "in a dog’s age"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "There Has Not Been",
+        "titleZh": "句式四：There has not been",
+        "formula": "There has not been + noun + in a dog’s age.",
+        "descriptionEn": "Source grammar frame: There has not been + noun + in a dog’s age.",
+        "descriptionZh": "原檔列出的句法框架：There has not been + noun + in a dog’s age。",
+        "examples": [
+          {
+            "en": "There hasn’t been a full family photo in a dog’s age.",
+            "zh": "我們已經很久沒有拍攝全家福了。",
+            "highlight": "in a dog’s age"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "No One Has",
+        "titleZh": "句式五：No one has",
+        "formula": "No one + has + past participle + in a dog’s age.",
+        "descriptionEn": "Source grammar frame: No one + has + past participle + in a dog’s age.",
+        "descriptionZh": "原檔列出的句法框架：No one + has + past participle + in a dog’s age。",
+        "examples": [
+          {
+            "en": "No one has cleaned this shelf in a dog’s age.",
+            "zh": "已經很久沒有人清潔這個架子了。",
+            "highlight": "in a dog’s age"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Emphasises an Exceptionally Long Gap",
+        "titleZh": "突出非常漫長的時間間隔",
+        "en": "The idiomatic version makes the separation feel especially long.",
+        "zh": "使用慣用語的版本更能強調雙方已經很久沒有見面。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Can Express Warm Surprise",
+        "titleZh": "表達親切的驚訝",
+        "en": "This can be a warm and lively greeting when old friends meet again.",
+        "zh": "我真的很久沒有見你了！ 舊朋友重逢時，這可以成為親切而生動的招呼語。",
+        "examples": [
+          {
+            "en": "I haven’t seen you in a dog’s age!",
+            "zh": "我真的很久沒有見你了！",
+            "highlight": "in a dog’s age"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "It Can Express Nostalgia",
+        "titleZh": "表達懷念",
+        "en": "The expression can show that the speaker remembers and misses an earlier activity.",
+        "zh": "我們已經很久沒有玩這個遊戲了。 這個表達可以顯示說話者記得並懷念以前的活動。",
+        "examples": [
+          {
+            "en": "We haven’t played this game in a dog’s age.",
+            "zh": "我們已經很久沒有玩這個遊戲了。",
+            "highlight": "in a dog’s age"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Makes Informal Stories More Vivid",
+        "titleZh": "令輕鬆敘述更生動",
+        "en": "The expression gives the sentence more personality than a plain time phrase.",
+        "zh": "我已經很久沒有笑得那麼厲害了。 相比普通的時間短語，這個表達能令句子更具個人語氣。",
+        "examples": [
+          {
+            "en": "I hadn’t laughed that hard in a dog’s age.",
+            "zh": "我已經很久沒有笑得那麼厲害了。",
+            "highlight": "in a dog’s age"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Helps Learners Understand American Conversation",
+        "titleZh": "幫助學生理解美式對話",
+        "en": "Learners may hear the expression in American films, television programmes, interviews and informal conversations. The idiom is useful, but it is not automatically better than for a long time. Use it when its informal and expressive tone suits the situation.",
+        "zh": "學生可能會在美國電影、電視節目、訪問及非正式對話中聽到這個表達。 這個慣用語十分實用，但不一定比 for a long time 更好。 只有當其非正式及富有感情的語氣適合當時情境時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Early American Use Documented",
+      "statusZh": "確切來源不明；早期美國用法已有記錄",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "dog’s age meaning “a long time” is an American expression recorded from the 1830s. Merriam-Webster gives 1833 as its first known use, while other dictionaries date the American expression generally to 1830–1840. e",
+          "zh": "表示「很長時間」，是一個在十九世紀三十年代已有記錄的美國表達。 Merriam-Webster 把目前所知的最早用法定於1833年，其他字典則一般把這個美國表達追溯至1830至1840年間。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The surviving records show when the expression was already being used, but they do not identify one confirmed creator or a proven reason that a dog became part of the image. The exact historical explanation should therefore be treated as uncertain rather than turned into a definite story. 這個表達在甚麼時期已有人使用,但未能確認創造它的人,也未能證實為甚麼當時 的人會採用狗隻作為意象。因此,我們應把確切歷史解釋視為不明,而不應把一個有趣的推測當 作事實。",
+          "zh": "意思如何形成"
+        }
+      ],
+      "memoryEn": "Imagine that the time since the last event feels as long as an entire lifetime.",
+      "memoryZh": "想像自從某件事上一次發生後，等待的時間長得像經過了完整一生。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Normally Use a Negative Perfect Form",
+        "titleZh": "規則一：通常配合完成式否定句",
+        "en": "The idiom normally describes something that has not happened during a long period.",
+        "zh": "這個慣用語通常表示某件事在一段漫長時間內一直沒有發生。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use “In”, Not an Extra “For”",
+        "titleZh": "規則二：使用 in，不要額外加入 for",
+        "en": "Use “In”, Not an Extra “For”",
+        "zh": "使用 in，不要額外加入 for",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Preserve the Time Reference",
+        "titleZh": "規則三：保留原句的時間關係",
+        "en": "Do not change a past situation into a present one without a reason.",
+        "zh": "不要無故把過去情境改成現在情境。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Does Not Give an Exact Length of Time",
+        "titleZh": "規則四：它不表示準確時間長度",
+        "en": "Correct target: in a dog’s age. Incorrect target forms: one year; seven years; the lifetime of a dog; any exact number of months or years.",
+        "zh": "in a dog’s age 表達的是說話者認為「非常漫長」的一段時間，而不是某個準確年數。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Use It for Repeatable Actions or Experiences",
+        "titleZh": "規則五：用於可以再次發生的行動或經歷",
+        "en": "Use It for Repeatable Actions or Experiences",
+        "zh": "用於可以再次發生的行動或經歷",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "The Expression Is Usually Placed Near the End",
+        "titleZh": "規則六：通常放在句子較後位置",
+        "en": "This placement makes the long time gap clear.",
+        "zh": "這種位置可以清楚突出漫長的時間間隔。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do Not Use It for a Short Gap Unless Clearly Joking",
+        "titleZh": "規則七：除非明顯說笑，否則不要用來形容短時間",
+        "en": "For this exercise, all questions use the genuine “very long time” meaning rather than exaggerated short periods.",
+        "zh": "本練習所有題目均使用真正的「很長時間」意思，而不是誇張地形容幾分鐘或幾小時。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Read It Literally",
+        "titleZh": "規則八：不要按字面理解",
+        "en": "The vet recorded the dog’s age.",
+        "zh": "獸醫記錄了狗隻的年齡。 我已經很久沒有來這個地方了。",
+        "examples": [
+          {
+            "en": "I haven’t visited this place in a dog’s age.",
+            "zh": "我已經很久沒有來這個地方了。",
+            "highlight": "in a dog’s age"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "titleEn": "Use It Naturally, Not Everywhere",
+        "titleZh": "規則九：只在合適語境中自然使用",
+        "en": "The expression is appropriate when the long gap is worth emphasising.",
+        "zh": "如果時間間隔並不重要，直接使用 recently、last week、for two months 或具體日期會更加清楚。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Add a Repeated Explanation",
+        "titleZh": "規則十：使用慣用語後不要重複解釋",
+        "en": "The idiom already communicates the long gap.",
+        "zh": "慣用語本身已經表達「很久沒有」，不需要在後面再次重複相同意思。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using the exact expression in a dog’s age.",
+      "zh": "使用指定慣用語 in a dog’s age 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-27-q01",
+        "number": 1,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "I last saw my cousins many years ago.",
+        "promptZh": "我上一次見表兄弟姊妹，已經是很多年前。",
+        "starter": "I",
+        "answer": "I haven’t seen my cousins in a dog’s age.",
+        "answerZh": "我已經很久沒有見表兄弟姊妹了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q02",
+        "number": 2,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "We used to eat at that little café, but our last visit was many years ago.",
+        "promptZh": "我們以前常到那間小咖啡店吃東西，但上一次到訪已經是很多年前。",
+        "starter": "We",
+        "answer": "We haven’t eaten at that little café in a dog’s age.",
+        "answerZh": "我們已經很久沒有到那間小咖啡店吃東西了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q03",
+        "number": 3,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Daniel played the piano when he was younger, but he has not played it for many years.",
+        "promptZh": "丹尼爾年輕時會彈鋼琴，但他已經多年沒有彈奏。",
+        "starter": "Daniel",
+        "answer": "Daniel hasn’t played the piano in a dog’s age.",
+        "answerZh": "丹尼爾已經很久沒有彈鋼琴了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q04",
+        "number": 4,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "I found this jacket at the back of my wardrobe. I last wore it years ago.",
+        "promptZh": "我在衣櫃後面找到這件外套。我上一次穿它已經是多年前。",
+        "starter": "I",
+        "answer": "I haven’t worn this jacket in a dog’s age.",
+        "answerZh": "我已經很久沒有穿這件外套了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q05",
+        "number": 5,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "My parents used to visit the night market regularly, but they have not gone there for years.",
+        "promptZh": "我父母以前經常逛夜市，但他們已經多年沒有去了。",
+        "starter": "My",
+        "answer": "My parents haven’t visited the night market in a dog’s age.",
+        "answerZh": "我父母已經很久沒有逛夜市了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q06",
+        "number": 6,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The class has not used the old art room for many years.",
+        "promptZh": "這個班已經多年沒有使用舊美術室。",
+        "starter": "The",
+        "answer": "The class hasn’t used the old art room in a dog’s age.",
+        "answerZh": "這個班已經很久沒有使用舊美術室了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q07",
+        "number": 7,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The last time I spoke to Grace was many years ago.",
+        "promptZh": "我上一次與格蕾絲交談，已經是很多年前。",
+        "starter": "I",
+        "answer": "I haven’t spoken to Grace in a dog’s age.",
+        "answerZh": "我已經很久沒有與格蕾絲交談了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q08",
+        "number": 8,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Our family last made dumplings together many years ago.",
+        "promptZh": "我們一家上一次一起包餃子，已經是很多年前。",
+        "starter": "Our",
+        "answer": "Our family hasn’t made dumplings together in a dog’s age.",
+        "answerZh": "我們一家已經很久沒有一起包餃子了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q09",
+        "number": 9,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Leo’s bicycle is covered in dust because he has not ridden it for years.",
+        "promptZh": "里奧的單車滿是灰塵，因為他已經多年沒有踏單車。",
+        "starter": "Leo",
+        "answer": "Leo hasn’t ridden his bicycle in a dog’s age.",
+        "answerZh": "里奧已經很久沒有踏單車了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q10",
+        "number": 10,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The last time we watched a film at the cinema was many years ago.",
+        "promptZh": "我們上一次到電影院看電影，已經是很多年前。",
+        "starter": "We",
+        "answer": "We haven’t watched a film at the cinema in a dog’s age.",
+        "answerZh": "我們已經很久沒有到電影院看電影了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q11",
+        "number": 11,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "Ava loves taking photographs, but she has not brought her camera on a trip for years.",
+        "promptZh": "艾娃喜歡拍照，但她已經多年沒有在旅行時帶相機。",
+        "starter": "Ava",
+        "answer": "Ava hasn’t brought her camera on a trip in a dog’s age.",
+        "answerZh": "艾娃已經很久沒有在旅行時帶相機了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q12",
+        "number": 12,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The neighbours last held a street party many years ago.",
+        "promptZh": "鄰居上一次舉行街坊聚會，已經是很多年前。",
+        "starter": "The",
+        "answer": "The neighbours haven’t held a street party in a dog’s age.",
+        "answerZh": "鄰居已經很久沒有舉行街坊聚會了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q13",
+        "number": 13,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The radio played an old song today. Before that, I had not heard it for many years.",
+        "promptZh": "收音機今天播放了一首舊歌。在此之前，我已經多年沒有聽過它。",
+        "starter": "Before",
+        "answer": "Before today, I hadn’t heard that song in a dog’s age.",
+        "answerZh": "在今天以前，我已經很久沒有聽過那首歌了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q14",
+        "number": 14,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "My brother used to cook dinner for us, but he has not done it for years.",
+        "promptZh": "我哥哥以前會為我們煮晚餐，但他已經多年沒有這樣做。",
+        "starter": "My",
+        "answer": "My brother hasn’t cooked dinner for us in a dog’s age.",
+        "answerZh": "我哥哥已經很久沒有為我們煮晚餐了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q15",
+        "number": 15,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "We last took the ferry to the island many years ago.",
+        "promptZh": "我們上一次乘渡輪到那個島，已經是很多年前。",
+        "starter": "We",
+        "answer": "We haven’t taken the ferry to the island in a dog’s age.",
+        "answerZh": "我們已經很久沒有乘渡輪到那個島了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q16",
+        "number": 16,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The teacher has not given us a spelling test for many years.",
+        "promptZh": "老師已經多年沒有給我們進行串字測驗。",
+        "starter": "The",
+        "answer": "The teacher hasn’t given us a spelling test in a dog’s age.",
+        "answerZh": "老師已經很久沒有給我們進行串字測驗了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q17",
+        "number": 17,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Your band’s last live performance was many years ago.",
+        "promptZh": "你的樂隊上一次現場演出，已經是很多年前。",
+        "starter": "Your",
+        "answer": "Your band hasn’t performed live in a dog’s age.",
+        "answerZh": "你的樂隊已經很久沒有現場演出了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q18",
+        "number": 18,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "This old printer has not worked properly for years.",
+        "promptZh": "這部舊打印機已經多年沒有正常運作。",
+        "starter": "This",
+        "answer": "This old printer hasn’t worked properly in a dog’s age.",
+        "answerZh": "這部舊打印機已經很久沒有正常運作了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q19",
+        "number": 19,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "I cannot remember the last time I had a quiet Saturday at home. It was years ago.",
+        "promptZh": "我已經不記得上一次在家中度過寧靜的星期六是甚麼時候。那已經是很多年前。",
+        "starter": "I",
+        "answer": "I haven’t had a quiet Saturday at home in a dog’s age.",
+        "answerZh": "我已經很久沒有在家中度過寧靜的星期六了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q20",
+        "number": 20,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The last photograph showing our whole family together was taken many years ago.",
+        "promptZh": "我們上一次拍攝所有家庭成員都在場的全家福，已經是很多年前。",
+        "starter": "There",
+        "answer": "There hasn’t been a photograph of our whole family in a dog’s age.",
+        "answerZh": "我們已經很久沒有拍攝所有家庭成員都在場的全家福了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q21",
+        "number": 21,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Are you excited to visit Blue Bay again? B: Yes. My last visit was many years ago.",
+        "promptZh": "甲：你再次到藍灣，是否感到興奮？ 乙：是的。我上一次到那裏已經是很多年前。",
+        "starter": "I",
+        "answer": "I haven’t been back to Blue Bay in a dog’s age.",
+        "answerZh": "我已經很久沒有再到藍灣了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q22",
+        "number": 22,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "We last had lunch together years ago. Let’s meet this Friday.",
+        "promptZh": "我們上一次一起吃午餐已經是多年前。這個星期五見面吧。",
+        "starter": "We",
+        "answer": "We haven’t had lunch together in a dog’s age, so let’s meet this Friday.",
+        "answerZh": "我們已經很久沒有一起吃午餐了，因此這個星期五見面吧。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q23",
+        "number": 23,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Nora stopped drawing many years ago, but she now wants to start again.",
+        "promptZh": "諾拉很多年前停止了畫畫，但她現在想重新開始。",
+        "starter": "Nora",
+        "answer": "Nora hasn’t drawn anything in a dog’s age, but she wants to start again.",
+        "answerZh": "諾拉已經很久沒有畫畫了，但她想重新開始。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q24",
+        "number": 24,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "I looked through my old photo albums today. Before today, I had not opened them for years.",
+        "promptZh": "我今天翻看了舊相簿。在今天以前，我已經多年沒有打開它們。",
+        "starter": "I",
+        "answer": "I hadn’t looked through my old photo albums in a dog’s age before today.",
+        "answerZh": "在今天以前，我已經很久沒有翻看舊相簿了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q25",
+        "number": 25,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Our team’s last victory in a home match was many seasons ago.",
+        "promptZh": "我們的球隊上一次在主場比賽勝出，已經是很多個球季以前。",
+        "starter": "Our",
+        "answer": "Our team hasn’t won a home match in a dog’s age.",
+        "answerZh": "我們的球隊已經很久沒有在主場比賽中勝出了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q26",
+        "number": 26,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "His name appeared on my phone today. I was surprised because he had not called me for years.",
+        "promptZh": "他的名字今天出現在我的電話上。我感到驚訝，因為他已經多年沒有致電給我。",
+        "starter": "He",
+        "answer": "He hadn’t called me in a dog’s age, so I was surprised to see his name on my phone.",
+        "answerZh": "他已經很久沒有致電給我，因此我在電話上看見他的名字時感到十分驚訝。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q27",
+        "number": 27,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "You used to visit our flat often, but your last visit was years ago. Come over this weekend.",
+        "promptZh": "你以前經常到我們的住所，但上一次到訪已經是多年前。這個週末過來吧。",
+        "starter": "You",
+        "answer": "You haven’t visited our flat in a dog’s age, so come over this weekend.",
+        "answerZh": "你已經很久沒有到我們的住所了，因此這個週末過來吧。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q28",
+        "number": 28,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "A: When did we last go dancing? B: I cannot remember. It was years ago.",
+        "promptZh": "甲：我們上一次去跳舞是甚麼時候？ 乙：我不記得了。那已經是多年前。",
+        "starter": "We",
+        "answer": "We haven’t gone dancing in a dog’s age, have we?",
+        "answerZh": "我們已經很久沒有去跳舞了，對吧？",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q29",
+        "number": 29,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The children have not played this board game for years, but they still remember the rules.",
+        "promptZh": "孩子們已經多年沒有玩這款桌上遊戲，但他們仍然記得規則。",
+        "starter": "The",
+        "answer": "The children haven’t played this board game in a dog’s age, but they still remember the rules.",
+        "answerZh": "孩子們已經很久沒有玩這款桌上遊戲了，但他們仍然記得規則。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q30",
+        "number": 30,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The school show made me laugh very hard. Before that, I had not laughed like that for years.",
+        "promptZh": "學校表演令我笑得很厲害。在此之前，我已經多年沒有笑成那樣。",
+        "starter": "I",
+        "answer": "I hadn’t laughed that hard in a dog’s age before the school show.",
+        "answerZh": "在學校表演以前，我已經很久沒有笑得那麼厲害了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q31",
+        "number": 31,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Although I pass the shop every day, I have not gone inside for years.",
+        "promptZh": "雖然我每天都會經過那間商店，但我已經多年沒有進去。",
+        "starter": "Although",
+        "answer": "Although I pass the shop every day, I haven’t gone inside in a dog’s age.",
+        "answerZh": "雖然我每天都會經過那間商店，但我已經很久沒有進去了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q32",
+        "number": 32,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Everyone became busy, and our last full class reunion was many years ago.",
+        "promptZh": "所有人都變得忙碌，而我們上一次全班聚會已經是很多年前。",
+        "starter": "Since",
+        "answer": "Since everyone became busy, we haven’t had a full class reunion in a dog’s age.",
+        "answerZh": "自從所有人都變得忙碌後，我們已經很久沒有舉行全班聚會了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q33",
+        "number": 33,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The quiet hotel gave me the best night’s sleep I had experienced for many years.",
+        "promptZh": "那間寧靜的酒店讓我得到多年來最好的一晚睡眠。",
+        "starter": "I",
+        "answer": "I hadn’t slept so well in a dog’s age until I stayed at the quiet hotel.",
+        "answerZh": "在那間寧靜的酒店住宿前，我已經很久沒有睡得那麼好了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q34",
+        "number": 34,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The spring rain has made the garden more colourful than it has been for many years.",
+        "promptZh": "春雨令花園變得比多年來任何時候都更加色彩鮮艷。",
+        "starter": "The",
+        "answer": "The garden hasn’t looked this colourful in a dog’s age, thanks to the spring rain.",
+        "answerZh": "多得春雨，花園已經很久沒有像現在這麼色彩鮮艷了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q35",
+        "number": 35,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The holiday only started yesterday, but I already feel more relaxed than I have felt for years.",
+        "promptZh": "假期昨天才開始，但我已經感到比多年來任何時候都更加放鬆。",
+        "starter": "I",
+        "answer": "I haven’t felt this relaxed in a dog’s age, even though the holiday only started yesterday.",
+        "answerZh": "雖然假期昨天才開始，但我已經很久沒有感到這麼放鬆了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q36",
+        "number": 36,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Look at the dust on the top shelf. It is clear that nobody has cleaned it for years.",
+        "promptZh": "看看最上層架子上的灰塵。很明顯，已經多年沒有人清潔它。",
+        "starter": "No",
+        "answer": "No one has cleaned the top shelf in a dog’s age.",
+        "answerZh": "已經很久沒有人清潔最上層的架子了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q37",
+        "number": 37,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The snow is unusually heavy. Older residents say that nothing like it has happened for many years.",
+        "promptZh": "這場雪異常地大。年長居民說，多年來都沒有出現過類似情況。",
+        "starter": "The",
+        "answer": "The town hasn’t seen snow like this in a dog’s age.",
+        "answerZh": "這個城鎮已經很久沒有遇上這麼大的雪了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q38",
+        "number": 38,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Today’s office lunch was very lively. Our lunch breaks have been quiet for years.",
+        "promptZh": "今天辦公室的午膳時間非常熱鬧。我們的午膳時間已經沉靜了很多年。",
+        "starter": "Our",
+        "answer": "Our office hasn’t had such a lively lunch break in a dog’s age.",
+        "answerZh": "我們的辦公室已經很久沒有如此熱鬧的午膳時間了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q39",
+        "number": 39,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "You told that funny story today. Before today, you had not told it for years, but I still remembered the ending.",
+        "promptZh": "你今天說了那個有趣的故事。在今天以前，你已經多年沒有說過它，但我仍然記得結局。",
+        "starter": "You",
+        "answer": "You hadn’t told that funny story in a dog’s age, but I still remembered the ending.",
+        "answerZh": "你已經很久沒有說那個有趣的故事，但我仍然記得結局。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q40",
+        "number": 40,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "I nearly forgot how to use coins because I have paid by phone for many years.",
+        "promptZh": "我幾乎忘記如何使用硬幣，因為我多年來一直用電話付款。",
+        "starter": "I",
+        "answer": "I haven’t used cash in a dog’s age because I usually pay by phone.",
+        "answerZh": "我已經很久沒有使用現金，因為我通常用電話付款。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q41",
+        "number": 41,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "Ken moved abroad. When he returned home last month, he saw his childhood friends for the first time in many years.",
+        "promptZh": "肯移居外國。他上個月回家時，多年來第一次見到兒時朋友。",
+        "starter": "After",
+        "answer": "After moving abroad, Ken hadn’t seen his childhood friends in a dog’s age before returning home last month.",
+        "answerZh": "肯移居外國後，直到上個月回家前，他已經很久沒有見兒時朋友了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q42",
+        "number": 42,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The staff say that the community centre is busier today than it has been for many years.",
+        "promptZh": "職員表示，社區中心今天比多年來任何時候都更加繁忙。",
+        "starter": "The",
+        "answer": "The community centre hasn’t been this busy in a dog’s age, according to the staff.",
+        "answerZh": "職員表示，社區中心已經很久沒有像今天這麼繁忙了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q43",
+        "number": 43,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A handwritten letter arrived today. We had not received one for years, so it felt special.",
+        "promptZh": "一封手寫信今天送到。我們已經多年沒有收到手寫信，因此感到十分特別。",
+        "starter": "We",
+        "answer": "We hadn’t received a handwritten letter in a dog’s age, so this one felt special.",
+        "answerZh": "我們已經很久沒有收到手寫信，因此這一封令人感到十分特別。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q44",
+        "number": 44,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The old theatre is completely full tonight for the first time in many years.",
+        "promptZh": "這間舊劇院今晚多年來首次完全滿座。",
+        "starter": "The",
+        "answer": "The old theatre hasn’t been this full in a dog’s age; tonight, every seat is taken.",
+        "answerZh": "這間舊劇院已經很久沒有像今晚這樣滿座；今晚每一個座位都有人。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q45",
+        "number": 45,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "At first, I felt nervous during the trip because I had not spoken French for many years.",
+        "promptZh": "旅程開始時，我感到緊張，因為我已經多年沒有說法語。",
+        "starter": "I",
+        "answer": "I hadn’t spoken French in a dog’s age, so I felt nervous at first.",
+        "answerZh": "我已經很久沒有說法語，因此起初感到緊張。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q46",
+        "number": 46,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The manager says that no guest has complained about the hotel lifts for many years.",
+        "promptZh": "經理表示，已經多年沒有住客投訴酒店的升降機。",
+        "starter": "The",
+        "answer": "The hotel hasn’t had a complaint about the lifts in a dog’s age, according to the manager.",
+        "answerZh": "經理表示，酒店已經很久沒有收到關於升降機的投訴。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q47",
+        "number": 47,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Why are you taking so many photographs? B: The harbour is much clearer today than it has been for years.",
+        "promptZh": "甲：你為甚麼拍攝這麼多照片？ 乙：海港今天比多年來任何時候都更加清晰。",
+        "starter": "I",
+        "answer": "I haven’t seen the harbour this clear in a dog’s age.",
+        "answerZh": "我已經很久沒有看見海港如此清晰了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q48",
+        "number": 48,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "My grandfather says that he cannot remember prices being this low at any time in recent years.",
+        "promptZh": "我祖父說，他不記得近年物價曾經這麼低。",
+        "starter": "Even",
+        "answer": "Even my grandfather says he hasn’t seen prices this low in a dog’s age.",
+        "answerZh": "連我祖父也說，他已經很久沒有見過這麼低的物價了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q49",
+        "number": 49,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Tonight, everyone is sitting at the same table. The last time our whole family ate together was years ago.",
+        "promptZh": "今晚，所有人都坐在同一張桌子旁。我們全家上一次一起吃飯已經是多年前。",
+        "starter": "We",
+        "answer": "We haven’t all sat around the same table in a dog’s age, which makes tonight feel important.",
+        "answerZh": "我們一家已經很久沒有一起圍坐在同一張桌子旁，因此今晚顯得格外重要。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      },
+      {
+        "id": "idiom-27-q50",
+        "number": 50,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "For years, our group only spoke through short online calls. Yesterday, we finally spent a whole day together.",
+        "promptZh": "多年來，我們的小組只透過短暫的網上通話交談。昨天，我們終於一起度過了整整一天。",
+        "starter": "After",
+        "answer": "After years of short online calls, we met in person and realised that we hadn’t spent a whole day together in a dog’s age.",
+        "answerZh": "經過多年短暫的網上通話後，我們終於親身見面，並發現大家已經很久沒有一起度過整整一天了。",
+        "targetForm": "in a dog’s age",
+        "targetMeaning": "used to say that an action, experience or situation has not happened for a very long time",
+        "highlight": "in a dog’s age"
+      }
+    ]
+  }
+}

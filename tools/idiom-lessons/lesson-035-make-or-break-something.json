@@ -1,0 +1,1394 @@
+{
+  "lesson": {
+    "id": "idiom-35",
+    "order": 35,
+    "slug": "make-or-break-something",
+    "version": "1",
+    "title": "成敗關鍵／決定成敗",
+    "titleEn": "make or break something",
+    "titleZh": "成敗關鍵／決定成敗",
+    "source": {
+      "file": "Idiom 35 -「Make or Break」.pdf",
+      "pageCount": 33,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "exercisePdfPages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "answerKeyPdfPages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "make or break something",
+        "highlight": "make or break something"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The final interview could make or break her application.",
+        "zh": "最後面試可能會決定她的申請成敗。",
+        "highlight": "make or break"
+      },
+      {
+        "en": "One small mistake will not make or break the whole project.",
+        "zh": "一個小錯誤不會決定整個項目的成敗。",
+        "highlight": "make or break"
+      }
+    ],
+    "meaning": {
+      "en": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+      "zh": "令某人、計劃、項目、生意、關係、機會或其他事情成功或失敗；決定其成敗。",
+      "naturalZh": [
+        "決定……成敗",
+        "成為……成敗的關鍵",
+        "足以成就或毀掉……",
+        "令……成功或失敗",
+        "對……的成敗起決定作用"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; school and workplace discussions; interviews; presentations; news and general writing; ordinary business communication.",
+      "summaryZh": "make or break 的語氣屬中性至略帶口語色彩，常見於日常對話、學校及工作討論、面試、簡報、 新聞及一般商業溝通。",
+      "contextsEn": [
+        "everyday conversation",
+        "school and workplace discussions",
+        "interviews",
+        "presentations",
+        "news and general writing",
+        "ordinary business communication",
+        "make and break",
+        "make then break",
+        "make or destroy",
+        "make and destroy",
+        "make something or break",
+        "make-or-break something as a verb"
+      ],
+      "contextsZh": [],
+      "formalEn": "In very formal academic, technical or legal writing, expressions such as determine the success of, decide the outcome of or be critical to may sometimes be more suitable.",
+      "formalZh": "這三個字必須按照以下次序使用："
+    },
+    "fixedVariable": {
+      "fixed": "make or break something",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + can / could / may / might / will + make or break + object.",
+          "example": "The final interview could make or break her application.",
+          "highlight": "make or break"
+        },
+        {
+          "form": "Subject + will not / may not + make or break + object.",
+          "example": "One small mistake will not make or break the whole project.",
+          "highlight": "make or break"
+        },
+        {
+          "form": "Although / Even though / Despite + supporting information, subject + may / could + make or",
+          "example": "Although the food is excellent, slow service could make or break the restaurant.",
+          "highlight": "make or break"
+        },
+        {
+          "form": "How / Whether / What + clause + may / can + make or break + object.",
+          "example": "How clearly you explain the idea may make or break the presentation.",
+          "highlight": "make or break"
+        },
+        {
+          "form": "What may make or break + object + is + decisive factor.",
+          "example": "What may make or break the event is the weather.",
+          "highlight": "make or break"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Modal Verb",
+        "titleZh": "最後面試可能會決定她的申請成敗",
+        "formula": "Subject + can / could / may / might / will + make or break + object.",
+        "descriptionEn": "Source grammar frame: Subject + can / could / may / might / will + make or break + object.",
+        "descriptionZh": "原檔列出的句法框架：Subject + can / could / may / might / will + make or break + object。",
+        "examples": [
+          {
+            "en": "The final interview could make or break her application.",
+            "zh": "最後面試可能會決定她的申請成敗。",
+            "highlight": "make or break"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Negative Form",
+        "titleZh": "一個小錯誤不會決定整個項目的成敗",
+        "formula": "Subject + will not / may not + make or break + object.",
+        "descriptionEn": "Source grammar frame: Subject + will not / may not + make or break + object.",
+        "descriptionZh": "原檔列出的句法框架：Subject + will not / may not + make or break + object。",
+        "examples": [
+          {
+            "en": "One small mistake will not make or break the whole project.",
+            "zh": "一個小錯誤不會決定整個項目的成敗。",
+            "highlight": "make or break"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Concession",
+        "titleZh": "雖然食物十分出色，但緩慢的服務可能會決定餐廳的成敗",
+        "formula": "Although / Even though / Despite + supporting information, subject + may / could + make or",
+        "descriptionEn": "Source grammar frame: Although / Even though / Despite + supporting information, subject + may / could + make or.",
+        "descriptionZh": "原檔列出的句法框架：Although / Even though / Despite + supporting information, subject + may / could + make or。",
+        "examples": [
+          {
+            "en": "Although the food is excellent, slow service could make or break the restaurant.",
+            "zh": "雖然食物十分出色，但緩慢的服務可能會決定餐廳的成敗。",
+            "highlight": "make or break"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Clause as Subject",
+        "titleZh": "你能否清楚解釋這個想法，可能會決定簡報的成敗",
+        "formula": "How / Whether / What + clause + may / can + make or break + object.",
+        "descriptionEn": "Source grammar frame: How / Whether / What + clause + may / can + make or break + object.",
+        "descriptionZh": "原檔列出的句法框架：How / Whether / What + clause + may / can + make or break + object。",
+        "examples": [
+          {
+            "en": "How clearly you explain the idea may make or break the presentation.",
+            "zh": "你能否清楚解釋這個想法，可能會決定簡報的成敗。",
+            "highlight": "make or break"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Decisive Factor",
+        "titleZh": "可能決定活動成敗的是天氣",
+        "formula": "What may make or break + object + is + decisive factor.",
+        "descriptionEn": "Source grammar frame: What may make or break + object + is + decisive factor.",
+        "descriptionZh": "原檔列出的句法框架：What may make or break + object + is + decisive factor。",
+        "examples": [
+          {
+            "en": "What may make or break the event is the weather.",
+            "zh": "可能決定活動成敗的是天氣。",
+            "highlight": "make or break"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Highlights a Decisive Factor",
+        "titleZh": "突出決定成敗的因素",
+        "en": "The final interview may make or break her chances of getting the job.",
+        "zh": "這個慣用語能直接突出某項因素對最終成敗具有決定性影響。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "濃縮較長的解釋",
+        "en": "The weather may make or break the outdoor event.",
+        "zh": "你可以使用較短的方式，同時保留「可能成功，也可能失敗」的完整意思。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Is Useful for Warnings",
+        "titleZh": "適合用來提出警告",
+        "en": "The expression shows that the listener should treat the situation seriously.",
+        "zh": "這個表達能提醒聽者認真處理相關情況。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Works Well with Modal Verbs",
+        "titleZh": "適合配合情態動詞",
+        "en": "may make or break; might make or break; will make or break; will not make or break",
+        "zh": "這些情態動詞可以準確表達能力、可能性、預測或否定判斷。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful in Many Real Situations",
+        "titleZh": "適用於多種真實情境",
+        "en": "jobs and interviews; businesses and customers; projects and teamwork; performances and competitions; friendships and trust; important choices and opportunities.",
+        "zh": "這個表達適用於工作、面試、生意、項目、比賽、人際關係及重要決定等多種情境。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Is Stronger Than “Affect”",
+        "titleZh": "語氣比 affect 更強",
+        "en": "Make or break means that the influence may be strong enough to determine success or failure.",
+        "zh": "只表示產生影響； make or break 則表示該影響可能足以決定成敗。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Gradual Development; Exact First Use Uncertain",
+      "statusZh": "逐漸形成；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "English had an older expression, make or mar, which communicated a similar contrast between success and ruin. Historical proverb records show that make or mar was used centuries before the modern wording. However, the exact process through which break replaced mar has not been firmly established, so the expression should not be connected to one dramatic invention story.",
+          "zh": "英語中較早已有 make or mar 這個表達，同樣用來對比成功與毀壞。 歷史諺語記錄顯示，make or mar 在現代說法出現前數百年已有人使用。 不過，break 如何取代 mar 的確切過程仍未能肯定， 因此不應把這個表達說成源自某一個戲劇性的事件。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The strong contrast naturally came to describe a person, action or decision capable of causing either success or failure. Merriam-Webster records the related hyphenated adjective make-or-break from 1919, although that date should not be treated as the invention date of every related use.",
+          "zh": "這種強烈對比逐漸用來形容足以令事情成功或失敗的人物、行動或決定。 Merriam-Webster 記錄了帶連字號的形容詞 make-or-break 在1919年的用法，但不應把該年份視為所有相關用法的創造年份。"
+        }
+      ],
+      "memoryEn": "One important factor may build success—or destroy the chance of it.",
+      "memoryZh": "一項重要因素可以成就成功，也可以摧毀成功的機會。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Use “Or”, Not “And”",
+        "titleZh": "規則一：使用 or，而不是 and",
+        "en": "The expression presents two opposite possible results: success or failure.",
+        "zh": "這個表達指出兩個相反的可能結果：成功或失敗。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "The Expression Normally Needs an Object",
+        "titleZh": "規則二：這個表達通常需要受詞",
+        "en": "The interview may make or break.",
+        "zh": "在本練習中，答案應清楚指出甚麼事情可能成功或失敗。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "The Factor Must Be Truly Important",
+        "titleZh": "規則三：相關因素必須真正重要",
+        "en": "The colour of his pen may make or break his application.",
+        "zh": "除非原句清楚表示某項因素可能決定最終結果，否則不應使用這個慣用語。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve Possibility and Certainty",
+        "titleZh": "規則四：保留可能性及確定程度",
+        "en": "The incorrect answer changes a possibility into a more certain prediction.",
+        "zh": "錯誤答案把「可能」改成較確定的預測。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Negative Forms Are Possible",
+        "titleZh": "規則五：可以使用否定形式",
+        "en": "This means the mistake is not important enough to determine the final result.",
+        "zh": "這表示該錯誤不足以決定最終結果。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Use Hyphens in the Verb Expression",
+        "titleZh": "規則六：動詞用法不使用連字號",
+        "en": "The adjective make-or-break is related, but it is not the target form practised in this exercise.",
+        "zh": "形容詞 make-or-break 與本課表達有關，但並不是本練習要求使用的目標形式。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Avoid Literal Interpretations",
+        "titleZh": "規則七：避免字面意思",
+        "en": "The factory can make the glass or break it.",
+        "zh": "這項決定可能會決定生意的成敗。 工廠可以製造玻璃，也可以把玻璃打破。",
+        "examples": [
+          {
+            "en": "The decision may make or break the business.",
+            "zh": "這項決定可能會決定生意的成敗。",
+            "highlight": "make or break"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Overuse the Expression",
+        "titleZh": "規則八：不要過度使用",
+        "en": "The final interview may make or break the application.",
+        "zh": "如果某項因素只有輕微影響，使用 affect、help 或 influence 會更加準確。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Keep the Target Words Together",
+        "titleZh": "規則九：目標字詞應連在一起",
+        "en": "Keep the Target Words Together",
+        "zh": "目標字詞應連在一起",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Use the Exact Target in This Exercise",
+        "titleZh": "規則十：本練習必須使用指定目標",
+        "en": "make or break",
+        "zh": "真實英語中可能會出現其他相關形式，但本練習的每個答案都必須包含：",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using make or break.",
+      "zh": "使用 make or break 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-35-q01",
+        "number": 1,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Customer service can decide whether a small shop succeeds or fails.",
+        "promptZh": "顧客服務可以決定一間小店成功還是失敗。",
+        "starter": "Customer",
+        "answer": "Customer service can make or break a small shop.",
+        "answerZh": "顧客服務可以決定一間小店的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q02",
+        "number": 2,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A strong opening can decide whether a presentation succeeds or fails.",
+        "promptZh": "一個有力的開場可以決定簡報成功還是失敗。",
+        "starter": "A",
+        "answer": "A strong opening can make or break a presentation.",
+        "answerZh": "一個有力的開場可以決定簡報的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q03",
+        "number": 3,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Trust can decide whether a friendship lasts or ends.",
+        "promptZh": "信任可以決定一段友誼能否維持下去。",
+        "starter": "Trust",
+        "answer": "Trust can make or break a friendship.",
+        "answerZh": "信任可以決定一段友誼的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q04",
+        "number": 4,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The weather may decide whether the outdoor concert succeeds or fails.",
+        "promptZh": "天氣可能會決定戶外音樂會成功還是失敗。",
+        "starter": "The",
+        "answer": "The weather may make or break the outdoor concert.",
+        "answerZh": "天氣可能會決定戶外音樂會的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q05",
+        "number": 5,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The final interview may decide whether Rosa gets the job or loses the opportunity.",
+        "promptZh": "最後面試可能會決定羅莎獲得工作，還是失去這個機會。",
+        "starter": "The",
+        "answer": "The final interview may make or break Rosa’s chances of getting the job.",
+        "answerZh": "最後面試可能會決定羅莎獲得工作的機會。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q06",
+        "number": 6,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "A clear plan can decide whether a group project succeeds or fails.",
+        "promptZh": "一個清晰的計劃可以決定小組項目成功還是失敗。",
+        "starter": "A",
+        "answer": "A clear plan can make or break a group project.",
+        "answerZh": "一個清晰的計劃可以決定小組項目的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q07",
+        "number": 7,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The ending can decide whether a story feels successful or disappointing.",
+        "promptZh": "結局可以決定一個故事令人感到成功還是失望。",
+        "starter": "The",
+        "answer": "The ending can make or break a story.",
+        "answerZh": "結局可以決定一個故事的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q08",
+        "number": 8,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The location can decide whether a new café succeeds or fails.",
+        "promptZh": "地點可以決定一間新咖啡店成功還是失敗。",
+        "starter": "The",
+        "answer": "The location can make or break a new café.",
+        "answerZh": "地點可以決定一間新咖啡店的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q09",
+        "number": 9,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Good teamwork can decide whether the school fair goes well or badly.",
+        "promptZh": "良好的團隊合作可以決定學校嘉年華舉行得順利還是失敗。",
+        "starter": "Good",
+        "answer": "Good teamwork can make or break the school fair.",
+        "answerZh": "良好的團隊合作可以決定學校嘉年華的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q10",
+        "number": 10,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The price could decide whether the customer accepts or refuses the deal.",
+        "promptZh": "價格可能會決定顧客接受還是拒絕這項交易。",
+        "starter": "The",
+        "answer": "The price could make or break the deal.",
+        "answerZh": "價格可能會決定這項交易的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q11",
+        "number": 11,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Many people like the product, but the first online reviews will decide whether it becomes successful or fails.",
+        "promptZh": "很多人喜歡這件產品，但第一批網上評論將會決定它成功還是失敗。",
+        "starter": "Although",
+        "answer": "Although many people like the product, the first online reviews will make or break it.",
+        "answerZh": "雖然很多人喜歡這件產品，但第一批網上評論將會決定它的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q12",
+        "number": 12,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Daniel has good grades. His final interview could decide whether the school accepts his application.",
+        "promptZh": "丹尼爾的成績很好，但最後面試可能會決定學校是否接納他的申請。",
+        "starter": "Although",
+        "answer": "Although Daniel has good grades, the final interview could make or break his application to the school.",
+        "answerZh": "雖然丹尼爾的成績很好，但最後面試可能會決定他的入學申請成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q13",
+        "number": 13,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The team has trained for months. Tomorrow’s match may decide whether it reaches the final.",
+        "promptZh": "球隊已訓練了數個月。明天的比賽可能會決定它能否晉身決賽。",
+        "starter": "Despite",
+        "answer": "Despite months of training, tomorrow’s match may make or break the team’s chances of reaching the final.",
+        "answerZh": "儘管球隊已訓練數個月，明天的比賽仍可能會決定它晉身決賽的機會。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q14",
+        "number": 14,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "One clear message may decide whether customers trust the new service or refuse to use it.",
+        "promptZh": "一個清晰的訊息可能會決定顧客信任這項新服務，還是拒絕使用它。",
+        "starter": "One",
+        "answer": "One clear message may make or break customers’ trust in the new service.",
+        "answerZh": "一個清晰的訊息可能會建立或破壞顧客對新服務的信任。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q15",
+        "number": 15,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The first week of practice can decide whether a new habit continues or stops.",
+        "promptZh": "第一星期的練習可以決定一個新習慣能否維持下去。",
+        "starter": "The",
+        "answer": "The first week of practice can make or break a new habit.",
+        "answerZh": "第一星期的練習可以決定一個新習慣能否建立並維持下去。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q16",
+        "number": 16,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: Is good food enough to make the new restaurant successful? B: It matters, but friendly service may decide whether the restaurant succeeds.",
+        "promptZh": "甲：美味的食物足以令新餐廳成功嗎？ 乙：食物很重要，但友善的服務可能會決定餐廳的成敗。",
+        "starter": "Friendly",
+        "answer": "Friendly service may make or break the new restaurant.",
+        "answerZh": "友善的服務可能會決定新餐廳的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q17",
+        "number": 17,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The school play already has good actors. However, the sound system could decide whether the show goes well or badly.",
+        "promptZh": "學校話劇已有出色的演員。不過，音響系統可能會決定演出成功還是失敗。",
+        "starter": "Even",
+        "answer": "Even with good actors, the sound system could make or break the school play.",
+        "answerZh": "即使已有出色的演員，音響系統仍可能會決定學校話劇的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q18",
+        "number": 18,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A single late delivery might decide whether we keep this new customer.",
+        "promptZh": "一次遲到的送貨可能會決定我們能否留住這位新顧客。",
+        "starter": "A",
+        "answer": "A single late delivery might make or break our chances of keeping this new customer.",
+        "answerZh": "一次遲到的送貨可能會決定我們能否留住這位新顧客。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q19",
+        "number": 19,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The final practice session will not decide the team’s whole season by itself.",
+        "promptZh": "最後一次練習不會單獨決定球隊整個球季的成敗。",
+        "starter": "The",
+        "answer": "The final practice session will not make or break the team’s whole season by itself.",
+        "answerZh": "最後一次練習不會單獨決定球隊整個球季的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q20",
+        "number": 20,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Whether the hotel is clean may decide whether guests return or never come back.",
+        "promptZh": "酒店是否清潔，可能會決定客人再次入住，還是永遠不再回來。",
+        "starter": "How",
+        "answer": "How clean the hotel is may make or break its chances of getting guests to return.",
+        "answerZh": "酒店是否清潔，可能會決定客人會否再次入住。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q21",
+        "number": 21,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Our class wants to win the science contest. B: Then the way we explain our idea will be extremely important. It could decide whether we win.",
+        "promptZh": "甲：我們班希望在科學比賽中獲勝。 乙：那麼，我們解釋想法的方式便極為重要，可能會決定我們能否勝出。",
+        "starter": "The",
+        "answer": "The way we explain our idea could make or break our chances of winning the science contest.",
+        "answerZh": "我們解釋想法的方式可能會決定我們在科學比賽中勝出的機會。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q22",
+        "number": 22,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The cake tastes good, but it looks untidy. In the cooking contest, its appearance may decide whether it wins.",
+        "promptZh": "蛋糕味道很好，但外觀不整齊。在烹飪比賽中，它的外觀可能會決定它能否勝出。",
+        "starter": "Although",
+        "answer": "Although the cake tastes good, its appearance may make or break its chances of winning the cooking contest.",
+        "answerZh": "雖然蛋糕味道很好，但它的外觀可能會決定它在烹飪比賽中勝出的機會。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q23",
+        "number": 23,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Why are you checking the first sentence again? B: Because readers may continue or stop reading because of it.",
+        "promptZh": "甲：你為甚麼再次檢查第一句？ 乙：因為讀者可能會因為這一句而繼續閱讀，或停止閱讀。",
+        "starter": "The",
+        "answer": "The first sentence can make or break the article.",
+        "answerZh": "第一句可以決定文章能否成功吸引讀者。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q24",
+        "number": 24,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: Why are you practising your greeting? B: Because those first few seconds may decide whether the customer forms a good or bad opinion of you.",
+        "promptZh": "甲：你為甚麼練習打招呼？ 乙：因為最初幾秒可能會決定顧客對你形成良好還是不好的印象。",
+        "starter": "Your",
+        "answer": "Your greeting can make or break the customer’s first impression of you.",
+        "answerZh": "你的招呼方式可以決定顧客對你的第一印象好壞。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q25",
+        "number": 25,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "A: We have only one day to tell people about the school sale. B: Then the poster could decide whether enough people come.",
+        "promptZh": "甲：我們只有一天時間通知大家學校義賣的消息。 乙：那麼，海報可能會決定是否有足夠的人前來。",
+        "starter": "The",
+        "answer": "The poster could make or break the school sale.",
+        "answerZh": "海報可能會決定學校義賣的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q26",
+        "number": 26,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The bus company is trying a new route. Whether the buses arrive on time in the first month may decide whether people continue using it.",
+        "promptZh": "巴士公司正在試行一條新路線。巴士在第一個月能否準時到達，可能會決定人們是否繼續乘搭。",
+        "starter": "Whether",
+        "answer": "Whether the buses arrive on time in the first month may make or break the new route.",
+        "answerZh": "巴士在第一個月能否準時到達，可能會決定新路線的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q27",
+        "number": 27,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Ben’s food is excellent, but his prices are very high. The prices may decide whether his small restaurant survives.",
+        "promptZh": "本的食物十分出色，但價格非常高。價格可能會決定他的小餐廳能否經營下去。",
+        "starter": "Although",
+        "answer": "Although Ben’s food is excellent, his prices may make or break his small restaurant.",
+        "answerZh": "雖然本的食物十分出色，但價格可能會決定他的小餐廳能否經營下去。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q28",
+        "number": 28,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: Why does the coach care so much about the first five minutes? B: Because a poor start may leave the team too far behind to win.",
+        "promptZh": "甲：教練為甚麼如此重視最初五分鐘？ 乙：因為開局太差可能會令球隊大幅落後，無法獲勝。",
+        "starter": "The",
+        "answer": "The first five minutes may make or break the team’s chances of winning the match.",
+        "answerZh": "最初五分鐘可能會決定球隊贏得比賽的機會。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q29",
+        "number": 29,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: We know what the video should say, but the first five seconds are weak. B: Viewers may leave before they hear the message.",
+        "promptZh": "甲：我們知道影片應該表達甚麼，但最初五秒很弱。 乙：觀眾可能在聽到訊息前便離開。",
+        "starter": "Even",
+        "answer": "Even if the message is good, the first five seconds could make or break the video.",
+        "answerZh": "即使影片的訊息很好，最初五秒仍可能會決定影片的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q30",
+        "number": 30,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The family can afford the flat, but the daily journey to work is very long. That journey may decide whether they rent it.",
+        "promptZh": "這個家庭負擔得起這個單位，但每天上班的路程很長。這段路程可能會決定他們是否租住該單位。",
+        "starter": "Although",
+        "answer": "Although the family can afford the flat, the daily journey to work may make or break its plan to rent it.",
+        "answerZh": "雖然這個家庭負擔得起該單位，但每天上班的路程可能會決定他們是否租住。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q31",
+        "number": 31,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Although the speaker knows the topic well, the opening could decide whether the audience listens with interest or loses attention.",
+        "promptZh": "雖然講者十分熟悉題目，但開場可能會決定觀眾有興趣地聆聽，還是失去注意力。",
+        "starter": "Although",
+        "answer": "Although the speaker knows the topic well, the opening could make or break the talk.",
+        "answerZh": "雖然講者十分熟悉題目，但開場可能會決定演講的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q32",
+        "number": 32,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The shop has little money left. Sales during the holiday week will decide whether the business stays open.",
+        "promptZh": "店舖所剩的資金不多。假期一星期的銷售額將會決定它能否繼續營業。",
+        "starter": "Because",
+        "answer": "Because the shop has little money left, holiday sales will make or break the business.",
+        "answerZh": "由於店舖所剩的資金不多，假期期間的銷售額將會決定生意的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q33",
+        "number": 33,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "If the team communicates clearly during the event, it may succeed. If not, small mistakes may lead to failure.",
+        "promptZh": "如果團隊在活動期間清楚溝通，便可能成功；否則，小錯誤可能會導致失敗。",
+        "starter": "Clear",
+        "answer": "Clear communication during the event may make or break the team’s performance.",
+        "answerZh": "活動期間的清晰溝通可能會決定團隊表現的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q34",
+        "number": 34,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The app works well, but users may leave if the first page is difficult to understand. The first page may therefore decide the app’s future.",
+        "promptZh": "這個應用程式運作良好，但如果首頁難以理解，用戶可能會離開。因此，首頁可能會決定這個應用程式的未來。",
+        "starter": "What",
+        "answer": "What may make or break the app is its first page, even though the rest works well.",
+        "answerZh": "即使其他部分運作良好，真正可能決定這個應用程式成敗的是它的首頁。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q35",
+        "number": 35,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A: We have chosen a good place for the picnic. B: But the weather could still decide whether everyone enjoys the picnic or wants to leave early.",
+        "promptZh": "甲：我們已為野餐選擇了一個好地方。 乙：但天氣仍可能會決定大家享受野餐，還是希望提早離開。",
+        "starter": "We",
+        "answer": "We have chosen a good place, but the weather could make or break the picnic.",
+        "answerZh": "我們已選擇了一個好地方，但天氣仍可能會決定野餐的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q36",
+        "number": 36,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The students have written a strong report. However, how clearly they answer the judges’ questions may decide whether they win.",
+        "promptZh": "學生已寫了一份出色的報告。不過，他們能否清楚回答評判的問題，可能會決定他們能否勝出。",
+        "starter": "The",
+        "answer": "The students have written a strong report, but their answers to the judges’ questions may make or break their chances of winning.",
+        "answerZh": "學生已寫了一份出色的報告，但他們回答評判問題的表現可能會決定他們勝出的機會。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q37",
+        "number": 37,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The new worker has the right skills, but how he handles the first difficult customer could decide whether the manager trusts him.",
+        "promptZh": "新員工具備所需技能，但他處理第一位棘手顧客的方式，可能會決定經理是否信任他。",
+        "starter": "Although",
+        "answer": "Although he has the right skills, the way the new worker handles the first difficult customer could make or break the manager’s trust in him.",
+        "answerZh": "雖然新員工具備所需技能，但他處理第一位棘手顧客的方式，可能會建立或破壞經理對他的信任。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q38",
+        "number": 38,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "A good idea alone is not enough. If the team misses the deadline, the project may fail; if it finishes on time, it may succeed.",
+        "promptZh": "只有一個好想法並不足夠。如果團隊錯過限期，項目可能會失敗；如果準時完成，項目便可能成功。",
+        "starter": "Even",
+        "answer": "Even with a good idea, meeting the deadline could make or break the project.",
+        "answerZh": "即使有一個好想法，能否在限期前完成工作仍可能會決定項目的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q39",
+        "number": 39,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "Before the singer performs, the organiser checks the microphone again because one sound problem could decide whether the show succeeds.",
+        "promptZh": "歌手演出前，主辦人再次檢查咪高峰，因為一個音響問題可能會決定演出的成敗。",
+        "starter": "The",
+        "answer": "The microphone could make or break the show, so the organiser checks it again before the singer performs.",
+        "answerZh": "咪高峰可能會決定演出的成敗，因此主辦人在歌手演出前再次檢查。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q40",
+        "number": 40,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The coach says the team does not need a perfect start because one early mistake alone will not decide the final result.",
+        "promptZh": "教練表示球隊不需要有完美的開局，因為單是一個早段錯誤不會決定最終結果。",
+        "starter": "The",
+        "answer": "The coach says that one early mistake alone will not make or break the match.",
+        "answerZh": "教練表示，單是一個早段錯誤不會決定整場比賽的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q41",
+        "number": 41,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A local bakery has many regular customers, but it is opening in a new area where nobody knows it. The first month may decide whether the new shop survives.",
+        "promptZh": "一間本地麵包店有很多熟客，但它正準備在一個沒有人認識其品牌的新地區開店。第一個月可能會決定新店能否經營下去。",
+        "starter": "Although",
+        "answer": "Although the bakery has regular customers elsewhere, the first month may make or break the new shop.",
+        "answerZh": "雖然麵包店在其他地區有熟客，但第一個月可能會決定新店的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q42",
+        "number": 42,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The school is choosing between two plans for its open day. The final choice may decide whether the event succeeds.",
+        "promptZh": "學校正在為開放日的兩個計劃作出選擇。最終選擇可能會決定活動的成敗。",
+        "starter": "The",
+        "answer": "The school’s final choice may make or break the open day.",
+        "answerZh": "學校的最終選擇可能會決定開放日的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q43",
+        "number": 43,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Why are you spending so much time on the email subject line? B: Because the customer may open or ignore the message because of those few words.",
+        "promptZh": "甲：你為甚麼花這麼多時間處理電郵主旨？ 乙：因為顧客可能會因為這幾個字而打開或忽略這封電郵。",
+        "starter": "The",
+        "answer": "The subject line could make or break the email.",
+        "answerZh": "電郵主旨可能會決定顧客是否打開這封電郵。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q44",
+        "number": 44,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The group already has enough money and helpers. What it still needs is a leader who can keep everyone working together; without that, the whole plan may fail.",
+        "promptZh": "小組已有足夠的資金和幫手。它仍然需要一位能令大家合作的領袖；否則，整個計劃可能會失敗。",
+        "starter": "Even",
+        "answer": "Even with enough money and helpers, the right leader could make or break the group’s plan.",
+        "answerZh": "即使已有足夠的資金和幫手，一位合適的領袖仍可能會決定小組計劃的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q45",
+        "number": 45,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "If the final test is clear and fair, students can show what they know. If it is confusing, their true ability may not be seen.",
+        "promptZh": "如果期末測驗清晰而公平，學生便能展示自己的知識。如果測驗令人困惑，他們的真正能力可能無法展現。",
+        "starter": "How",
+        "answer": "How clear and fair the final test is can make or break students’ chances of showing what they know.",
+        "answerZh": "期末測驗是否清晰而公平，可以決定學生能否展示自己的真正知識。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q46",
+        "number": 46,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The team lost its first two games, but it can still reach the final. Its next game may decide whether that hope remains alive.",
+        "promptZh": "球隊輸掉了最初兩場比賽，但仍有機會晉身決賽。下一場比賽可能會決定這個希望能否繼續存在。",
+        "starter": "Although",
+        "answer": "Although the team lost its first two games, the next game may make or break its chances of reaching the final.",
+        "answerZh": "雖然球隊輸掉了最初兩場比賽，但下一場比賽可能會決定它晉身決賽的機會。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q47",
+        "number": 47,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The new restaurant’s food is good and its prices are fair. However, many customers say they will not return if they have to wait too long.",
+        "promptZh": "新餐廳的食物很好，價格亦合理。不過，很多顧客表示，如果等候時間太長，他們便不會再次光顧。",
+        "starter": "Despite",
+        "answer": "Despite the good food and fair prices, how quickly customers are served could make or break the new restaurant.",
+        "answerZh": "儘管食物很好而且價格合理，服務顧客的速度仍可能會決定新餐廳的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q48",
+        "number": 48,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The actor is popular, but the new film is very different from her earlier work. Reviewers say this performance may decide whether people accept her in serious roles.",
+        "promptZh": "這位演員很受歡迎，但新電影與她以往的作品十分不同。評論者表示，這次演出可能會決定人們是否接受她飾演嚴肅角色。",
+        "starter": "Although",
+        "answer": "Although the actor is popular, this performance may make or break her chances of being accepted in serious roles.",
+        "answerZh": "雖然這位演員很受歡迎，但這次演出可能會決定人們是否接受她飾演嚴肅角色。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q49",
+        "number": 49,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "One small mistake in a long project should not decide the whole result if the team corrects it quickly.",
+        "promptZh": "如果團隊迅速改正，一個長期項目中的小錯誤不應決定整個項目的結果。",
+        "starter": "One",
+        "answer": "One small mistake should not make or break a long project if the team corrects it quickly.",
+        "answerZh": "如果團隊迅速改正，一個小錯誤不應決定整個長期項目的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      },
+      {
+        "id": "idiom-35-q50",
+        "number": 50,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: We have a good product, a fair price and enough stock. Is anything else important? B: Yes. If customers cannot understand why they need it, the launch may fail; if the message is clear, it may succeed.",
+        "promptZh": "甲：我們有優良的產品、合理的價格和足夠的存貨。還有其他重要因素嗎？ 乙：有。如果顧客不明白自己為甚麼需要這件產品，推出產品的行動可能會失敗；如果訊息清晰， 便可能成功。",
+        "starter": "Even",
+        "answer": "Even with a good product, a fair price and enough stock, a clear message to customers could make or break the launch.",
+        "answerZh": "即使已有優良的產品、合理的價格和足夠的存貨，清晰的顧客訊息仍可能會決定產品推出的成敗。",
+        "targetForm": "make or break something",
+        "targetMeaning": "To cause a person, plan, project, business, relationship, opportunity or other situation either to succeed or to fail.",
+        "highlight": "make or break"
+      }
+    ]
+  }
+}

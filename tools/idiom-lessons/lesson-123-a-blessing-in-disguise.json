@@ -1,0 +1,1624 @@
+{
+  "lesson": {
+    "id": "idiom-123",
+    "order": 123,
+    "slug": "a-blessing-in-disguise",
+    "version": "1",
+    "title": "因禍得福／塞翁失馬",
+    "titleEn": "a blessing in disguise",
+    "titleZh": "因禍得福／塞翁失馬",
+    "source": {
+      "file": "Idiom 123 - 「a blessing in disguise」.pdf",
+      "pageCount": 35,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "exercisePdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "answerKeyPdfPages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "a blessing in disguise",
+        "highlight": "a blessing in disguise"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Missing the first train was a blessing in disguise.",
+        "zh": "錯過第一班火車原來是因禍得福。",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "en": "The extra practice has been a blessing in disguise.",
+        "zh": "額外的練習原來帶來了意想不到的好處。",
+        "highlight": "a blessing in disguise"
+      }
+    ],
+    "meaning": {
+      "en": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+      "zh": "「a blessing in disguise」 表示某件事起初看似不幸、倒霉或令人失望，但後來卻帶來好結果或意想不到的好處。",
+      "naturalZh": [
+        "「a blessing in disguise」 表示某件事起初看似不幸、倒霉或令人失望，但後來卻帶來好結果或意想不到的好處。"
+      ]
+    },
+    "register": {
+      "labelEn": "Neutral",
+      "labelZh": "中性",
+      "summaryEn": "everyday conversation; personal stories; interviews; workplace discussions; presentations; newspaper and magazine writing; general essays.",
+      "summaryZh": "這個表達屬中性至略帶口語色彩，可自然用於日常對話、個人故事、訪問、工作討論、簡報、報章雜誌及一般文章。",
+      "contextsEn": [
+        "everyday conversation",
+        "personal stories",
+        "interviews",
+        "workplace discussions",
+        "presentations",
+        "newspaper and magazine writing",
+        "general essays"
+      ],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "在關係子句或同位語中使用目標表達"
+    },
+    "fixedVariable": {
+      "fixed": "a blessing in disguise",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Subject + is / was / has been / had been / will be + a blessing in disguise.",
+          "example": "Missing the first train was a blessing in disguise.",
+          "highlight": "a blessing in disguise"
+        },
+        {
+          "form": "turn out to be + a blessing in disguise",
+          "example": "Taking the wrong road turned out to be a blessing in disguise.",
+          "highlight": "a blessing in disguise"
+        },
+        {
+          "form": "end up being + a blessing in disguise",
+          "example": "The booking mistake ended up being a blessing in disguise.",
+          "highlight": "a blessing in disguise"
+        },
+        {
+          "form": "prove to be + a blessing in disguise",
+          "example": "The rejection proved to be a blessing in disguise.",
+          "highlight": "a blessing in disguise"
+        },
+        {
+          "form": "Subject + may / might / could + be + a blessing in disguise.",
+          "example": "The cancelled meeting may be a blessing in disguise.",
+          "highlight": "a blessing in disguise"
+        },
+        {
+          "form": "Subject + see / regard / describe + event + as + a blessing in disguise.",
+          "example": "She later saw the rejection as a blessing in disguise.",
+          "highlight": "a blessing in disguise"
+        },
+        {
+          "form": "Subject + consider / call + event + a blessing in disguise.",
+          "example": "The students considered the failed experiment a blessing in disguise.",
+          "highlight": "a blessing in disguise"
+        },
+        {
+          "form": "What seemed like X + be + a blessing in disguise",
+          "example": "What seemed like a disaster was a blessing in disguise.",
+          "highlight": "a blessing in disguise"
+        },
+        {
+          "form": "It + was / may be + a blessing in disguise + that + clause.",
+          "example": "It was a blessing in disguise that the problem appeared before the busy season.",
+          "highlight": "a blessing in disguise"
+        },
+        {
+          "form": "a blessing in disguise",
+          "example": "The delay, which proved to be a blessing in disguise, gave us more time.",
+          "highlight": "a blessing in disguise"
+        },
+        {
+          "form": "Looking back, + clause containing the target.",
+          "example": "Looking back, the change was a blessing in disguise.",
+          "highlight": "a blessing in disguise"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Subject + Be + a Blessing in Disguise",
+        "titleZh": "句式一",
+        "formula": "Subject + is / was / has been / had been / will be + a blessing in disguise.",
+        "descriptionEn": "This is the simplest and most common grammar frame.",
+        "descriptionZh": "主語 + be + a blessing in disguise 這是最簡單、最常見的句式。",
+        "examples": [
+          {
+            "en": "Missing the first train was a blessing in disguise.",
+            "zh": "錯過第一班火車原來是因禍得福。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "The extra practice has been a blessing in disguise.",
+            "zh": "額外的練習原來帶來了意想不到的好處。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "The change may be a blessing in disguise.",
+            "zh": "這項改變可能反而是好事。",
+            "highlight": "a blessing in disguise"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Turn Out to Be + a Blessing in Disguise",
+        "titleZh": "走錯路結果反而是因禍得福",
+        "formula": "turn out to be + a blessing in disguise",
+        "descriptionEn": "Turn out to be emphasises that the true positive result became clear later.",
+        "descriptionZh": "走錯路結果反而是因禍得福。 強調事情真正的正面結果到了後來才變得清楚。",
+        "examples": [
+          {
+            "en": "Taking the wrong road turned out to be a blessing in disguise.",
+            "zh": "走錯路結果反而是因禍得福。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "The smaller classroom may turn out to be a blessing in disguise.",
+            "zh": "較小的課室最終可能反而帶來好處。",
+            "highlight": "a blessing in disguise"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "End Up Being + a Blessing in Disguise",
+        "titleZh": "訂房錯誤最後反而帶來了好處",
+        "formula": "end up being + a blessing in disguise",
+        "descriptionEn": "ended up being ✓ ended up to be ✗",
+        "descriptionZh": "訂房錯誤最後反而帶來了好處。 在 end up 後面應使用 being，而不是 to be。",
+        "examples": [
+          {
+            "en": "The booking mistake ended up being a blessing in disguise.",
+            "zh": "訂房錯誤最後反而帶來了好處。",
+            "highlight": "a blessing in disguise"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Prove to Be + a Blessing in Disguise",
+        "titleZh": "這次拒絕結果反而是因禍得福",
+        "formula": "prove to be + a blessing in disguise",
+        "descriptionEn": "Prove to be suggests that later evidence shows the event’s real value.",
+        "descriptionZh": "這次拒絕結果反而是因禍得福。 prove to be 表示後來的證據顯示出這件事的真正好處。",
+        "examples": [
+          {
+            "en": "The rejection proved to be a blessing in disguise.",
+            "zh": "這次拒絕結果反而是因禍得福。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "The delay could prove to be a blessing in disguise.",
+            "zh": "這次延誤可能最終反而帶來好處。",
+            "highlight": "a blessing in disguise"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Modal + Be or Prove to Be",
+        "titleZh": "情態動詞 + be 或 prove to be",
+        "formula": "Subject + may / might / could + be + a blessing in disguise.",
+        "descriptionEn": "Use this structure when the positive result is possible but not yet certain.",
+        "descriptionZh": "當正面結果仍然只是一種可能，而尚未確定時，應使用這個句式。",
+        "examples": [
+          {
+            "en": "The cancelled meeting may be a blessing in disguise.",
+            "zh": "會議取消可能反而是好事。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "The refusal could prove to be a blessing in disguise.",
+            "zh": "這次拒絕最終可能反而帶來好處。",
+            "highlight": "a blessing in disguise"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "See or Regard Something as a Blessing in Disguise",
+        "titleZh": "把某事視為 a blessing in disguise",
+        "formula": "Subject + see / regard / describe + event + as + a blessing in disguise.",
+        "descriptionEn": "The word as is required after see, regard and describe in these patterns.",
+        "descriptionZh": "在這些句式中，see、regard 及 describe 後面需要使用 as。",
+        "examples": [
+          {
+            "en": "She later saw the rejection as a blessing in disguise.",
+            "zh": "她後來把這次拒絕視為因禍得福。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "The owner regarded the quiet week as a blessing in disguise.",
+            "zh": "店主把清靜的一星期視為因禍得福。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "The coach described the defeat as a blessing in disguise.",
+            "zh": "教練把這次落敗形容為因禍得福。",
+            "highlight": "a blessing in disguise"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Consider or Call Something a Blessing in Disguise",
+        "titleZh": "認為或稱某事為 a blessing in disguise",
+        "formula": "Subject + consider / call + event + a blessing in disguise.",
+        "descriptionEn": "considered it a blessing in disguise ✓ considered it as a blessing in disguise ✗",
+        "descriptionZh": "在這個句式中，consider 後面通常不使用 as。",
+        "examples": [
+          {
+            "en": "The students considered the failed experiment a blessing in disguise.",
+            "zh": "學生認為實驗失敗反而是因禍得福。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "Years later, he called the rejection a blessing in disguise.",
+            "zh": "多年後，他稱這次拒絕為因禍得福。",
+            "highlight": "a blessing in disguise"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "What Seemed Like X + Be + a Blessing in Disguise",
+        "titleZh": "看似一場災難的事情，其實是因禍得福",
+        "formula": "What seemed like X + be + a blessing in disguise",
+        "descriptionEn": "This pattern directly contrasts the first appearance with the later reality.",
+        "descriptionZh": "看似一場災難的事情，其實是因禍得福。 這個句式直接對比事情最初的表象與後來的真實結果。",
+        "examples": [
+          {
+            "en": "What seemed like a disaster was a blessing in disguise.",
+            "zh": "看似一場災難的事情，其實是因禍得福。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "What looked like bad luck turned out to be a blessing in disguise.",
+            "zh": "看似倒霉的事情，結果反而是好事。",
+            "highlight": "a blessing in disguise"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "It + Be + a Blessing in Disguise + That-Clause",
+        "titleZh": "子句",
+        "formula": "It + was / may be + a blessing in disguise + that + clause.",
+        "descriptionEn": "The that-clause identifies the event being evaluated.",
+        "descriptionZh": "子句指出被評價的事情。",
+        "examples": [
+          {
+            "en": "It was a blessing in disguise that the problem appeared before the busy season.",
+            "zh": "問題在繁忙季節前出現，反而是因禍得福。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "It may be a blessing in disguise that the decision has been delayed.",
+            "zh": "決定被延遲，可能反而是好事。",
+            "highlight": "a blessing in disguise"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "The Target inside a Relative Clause or Appositive",
+        "titleZh": "在關係子句或同位語中使用目標表達",
+        "formula": "a blessing in disguise",
+        "descriptionEn": "These patterns place the expression in the middle of the sentence rather than always at the end.",
+        "descriptionZh": "這些句式把目標慣用語放在句子中間，避免所有答案都把它放在相同位置。",
+        "examples": [
+          {
+            "en": "The delay, which proved to be a blessing in disguise, gave us more time.",
+            "zh": "這次延誤結果反而帶來好處，讓我們有更多時間。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "The storm damage—a blessing in disguise—brought the neighbours together.",
+            "zh": "暴風雨造成的損壞反而因禍得福，令鄰居走在一起。",
+            "highlight": "a blessing in disguise"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Fronted Evaluation",
+        "titleZh": "先加入回顧或評價短語",
+        "formula": "Looking back, + clause containing the target.",
+        "descriptionEn": "These openings show that the speaker’s understanding changed over time.",
+        "descriptionZh": "這些開首語表示說話者對事情的理解隨時間改變。",
+        "examples": [
+          {
+            "en": "Looking back, the change was a blessing in disguise.",
+            "zh": "回想起來，這項改變原來是因禍得福。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "Only later did we realise that the delay had been a blessing in disguise.",
+            "zh": "我們到了後來才明白，這次延誤原來是因禍得福。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "As it turned out, the cancelled flight was a blessing in disguise.",
+            "zh": "結果，航班取消反而是因禍得福。",
+            "highlight": "a blessing in disguise"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Creates a Clear Before-and-After Contrast",
+        "titleZh": "清楚對比最初印象與後來結果",
+        "en": "The expression shows that the speaker’s first judgement was incomplete.",
+        "zh": "這個表達說明說話者最初的判斷並不完整。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Compresses a Longer Explanation",
+        "titleZh": "濃縮較長的解釋",
+        "en": "It was a blessing in disguise.",
+        "zh": "這個慣用語可以把「事情起初看似不幸，但後來意外帶來好結果」濃縮成一個簡潔表達。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Helps Speakers Reflect on Past Events",
+        "titleZh": "協助說話者回顧往事",
+        "en": "The sentence shows that the speaker’s present understanding is different from the original reaction.",
+        "zh": "回想起來，失去那份工作原來是因禍得福。 這句話表示說話者現在的理解與當時的反應不同。",
+        "examples": [
+          {
+            "en": "Looking back, losing that job was a blessing in disguise.",
+            "zh": "回想起來，失去那份工作原來是因禍得福。",
+            "highlight": "a blessing in disguise"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Allows Cautious Optimism",
+        "titleZh": "表達審慎樂觀",
+        "en": "The speaker does not promise a good result but leaves open that possibility.",
+        "zh": "這次延誤可能反而是好事。 說話者並沒有保證一定會有好結果，只是保留這種可能性。",
+        "examples": [
+          {
+            "en": "This delay might be a blessing in disguise.",
+            "zh": "這次延誤可能反而是好事。",
+            "highlight": "a blessing in disguise"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Gives a Natural Way to Explain Unexpected Benefits",
+        "titleZh": "自然說明意想不到的好處",
+        "en": "a safer decision; a useful lesson; a stronger relationship; a better plan.",
+        "zh": "當一次不便帶來更好的機會、更多準備時間、重要發現、更安全的決定、實用教訓、更穩固的關係或更好的計劃時，這個表達十分有用。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Supports Different Grammar and Sentence Positions",
+        "titleZh": "支援不同句式及位置",
+        "en": "after be; after turn out to be; after prove to be; after a modal verb; after see or regard...as; after consider or call; inside a what-clause structure; inside a relative clause; near the beginning, middle or end of a sentence.",
+        "zh": "因此，學生可以在不同句式及篇章位置自然運用這個慣用語，而不必把所有答案寫成完全相同的結構。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Early Printed Use Documented; Exact First Use Uncertain",
+      "statusZh": "早期文字記錄可確認；確切首次用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "A commonly cited early printed appearance is connected with the English writer and clergyman James Hervey. His Reflections on a Flower-Garden was published in 1746, and phrase-history research identifies Hervey’s work as containing an early occurrence of the expression. However, the exact first spoken use remains uncertain, so the 1746 record should not automatically be described as the moment the idiom was invented.",
+          "zh": "一個經常被引用的早期文字記錄與英國作家及牧師 James Hervey 有關。 他的 Reflections on a Flower-Garden 於1746年出版，而短語歷史研究指出，Hervey 的作品包含這個表達的早期用例。 不過，它在口語中首次出現的確切時間仍不清楚，因此不應直接把1746年的記錄說成這個慣用語被創造的一刻。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The combination therefore describes a benefit hidden inside something that initially looks harmful or unfortunate.",
+          "zh": "這個表達結合兩個概念："
+        }
+      ],
+      "memoryEn": "The bad event is the disguise; the later benefit is the blessing hidden underneath.",
+      "memoryZh": "壞事只是外表上的偽裝；後來出現的好處，才是隱藏其中的 blessing。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "There Must Be an Initial Negative Appearance",
+        "titleZh": "規則一：事情起初必須看似負面",
+        "en": "bad; unlucky; disappointing; inconvenient; difficult; worrying.",
+        "zh": "事情起初應該看似不幸、倒霉、令人失望、不方便、困難或令人擔心。 第一場比賽落敗原來是因禍得福，因為它讓我們知道需要改善甚麼。 贏得第一場比賽本來已是明顯的好事，並沒有「壞事背後隱藏好處」的對比。",
+        "examples": [
+          {
+            "en": "Losing the first match was a blessing in disguise because it showed us what we needed to improve.",
+            "zh": "第一場比賽落敗原來是因禍得福，因為它讓我們知道需要改善甚麼。",
+            "highlight": "a blessing in disguise"
+          },
+          {
+            "en": "Winning the first match was a blessing in disguise because everyone was happy.",
+            "zh": "贏得第一場比賽本來已是明顯的好事，並沒有「壞事背後隱藏好處」的對比。",
+            "highlight": "a blessing in disguise"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "A Real Later Benefit Must Exist",
+        "titleZh": "規則二：後來必須出現真正好處",
+        "en": "The idiom cannot be used merely because a bad event has ended. Nothing explains what good result followed.",
+        "zh": "不能只因一件壞事已經結束，便使用這個慣用語。 句子沒有說明其後出現了甚麼好結果。 會議被取消，讓我們有時間修改報告。 這原來是因禍得福。",
+        "examples": [
+          {
+            "en": "The meeting was cancelled, which gave us time to correct the report. It was a blessing in disguise.",
+            "zh": "會議被取消，讓我們有時間修改報告。這原來是因禍得福。",
+            "highlight": "a blessing in disguise"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "titleEn": "Preserve Certainty",
+        "titleZh": "規則三：保留確定程度",
+        "en": "Do not change may or could into a definite was unless the source confirms the positive result.",
+        "zh": "如果原句只表示可能性，便不可把 may 或 could 改成表示確定事實的 was。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Keep the Article “A”",
+        "titleZh": "規則四：保留冠詞 a",
+        "en": "The noun blessing is singular and countable in this expression.",
+        "zh": "在這個表達中，blessing 是單數可數名詞，因此需要冠詞 a。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Keep “In Disguise” Together",
+        "titleZh": "規則五：in disguise 必須保持完整",
+        "en": "The preposition in is fixed.",
+        "zh": "介詞 in 是固定部分。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do Not Confuse “Turn Out” and “End Up”",
+        "titleZh": "規則六：不要混淆 turn out 與 end up",
+        "en": "Do Not Confuse “Turn Out” and “End Up”",
+        "zh": "不要混淆 turn out 與 end up",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Use “As” with the Correct Verbs",
+        "titleZh": "規則七：只在適當動詞後使用 as",
+        "en": "Use “As” with the Correct Verbs",
+        "zh": "只在適當動詞後使用 as",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Do Not Use It Too Early",
+        "titleZh": "規則八：不要過早使用",
+        "en": "Avoid presenting an uncertain benefit as a fact.",
+        "zh": "當好結果尚未出現時，應使用審慎語氣，不要把未確定的好處說成事實。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Avoid Insensitive Uses",
+        "titleZh": "規則九：避免不顧他人感受的用法",
+        "en": "It may sound insensitive to describe another person’s serious illness, loss or painful experience as a blessing in disguise, especially while the person is still suffering.",
+        "zh": "如果別人正在經歷嚴重疾病、損失或痛苦，便把對方的經歷稱為 a blessing in disguise，可能會顯得冷漠。",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Confuse It with a Generally Positive Event",
+        "titleZh": "規則十：不要用於本來已是好事的事情",
+        "en": "A promotion is normally good news. It is not automatically a blessing in disguise.",
+        "zh": "升職本來通常已是好消息，因此不一定符合這個慣用語的意思。 第一次未獲升職反而是因禍得福，因為這令她在別處找到更好的職位。",
+        "examples": [
+          {
+            "en": "Being refused the first promotion was a blessing in disguise because it led her to a better position elsewhere.",
+            "zh": "第一次未獲升職反而是因禍得福，因為這令她在別處找到更好的職位。",
+            "highlight": "a blessing in disguise"
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "titleEn": "Do Not Repeat the General Meaning Unnecessarily",
+        "titleZh": "規則十一：不要不必要地重複一般意思",
+        "en": "The explanation merely repeats the definition. The extension identifies the specific benefit.",
+        "zh": "解釋部分只是重複慣用語本身的意思。 延伸部分指出具體好處。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Related Expressions Are Not the Target",
+        "titleZh": "規則十二：相關表達並非本課目標",
+        "en": "Related Expressions Are Not the Target",
+        "zh": "相關表達並非本課目標",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using a blessing in disguise.",
+      "zh": "使用 a blessing in disguise 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-123-q01",
+        "number": 1,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Daniel failed his first driving test. The extra practice later made him a much safer driver.",
+        "promptZh": "丹尼爾第一次駕駛考試不合格。其後額外的練習令他成為一名安全得多的司機。",
+        "starter": "Failing",
+        "answer": "Failing his first driving test was a blessing in disguise because it made Daniel practise more and become a safer driver.",
+        "answerZh": "第一次駕駛考試不合格反而令丹尼爾因禍得福，因為這促使他多加練習，成為更安全的司機。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q02",
+        "number": 2,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Heavy rain forced the school to delay sports day. By the new date, an injured pupil had recovered and could take part.",
+        "promptZh": "大雨迫使學校延遲舉行陸運會。到了新日期，一名受傷的學生已經康復，可以參加。",
+        "starter": "The",
+        "answer": "The rain that delayed sports day was a blessing in disguise because it gave the injured pupil time to recover.",
+        "answerZh": "令陸運會延期的大雨原來是因禍得福，因為它讓受傷的學生有時間康復。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q03",
+        "number": 3,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "We took the wrong road and felt annoyed. However, it led us to a quicker route that we now use every week.",
+        "promptZh": "我們走錯了路，當時感到很煩惱。不過，這令我們發現一條更快捷的路線，現在每星期也會使用。",
+        "starter": "Taking",
+        "answer": "Taking the wrong road turned out to be a blessing in disguise because it helped us find a quicker route.",
+        "answerZh": "走錯路結果反而是因禍得福，因為這令我們找到一條更快捷的路線。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q04",
+        "number": 4,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The shop had sold out of the jacket Ava wanted. She later found the same jacket at another shop for a much lower price.",
+        "promptZh": "艾娃想買的外套在店內已經售罄。後來，她在另一間店以便宜得多的價格買到同一款外套。",
+        "starter": "Although",
+        "answer": "Although the sold-out jacket seemed disappointing at first, it was a blessing in disguise because Ava found it much cheaper elsewhere.",
+        "answerZh": "雖然外套售罄起初令人失望，但這原來是因禍得福，因為艾娃在別處以便宜得多的價格買到它。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q05",
+        "number": 5,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Leo was upset about his low test mark. It showed him exactly which topic he needed to study, and his next mark was much higher.",
+        "promptZh": "里奧因測驗分數低而感到不快。這讓他清楚知道需要溫習哪個課題，而他下一次的分數高了很多。",
+        "starter": "At",
+        "answer": "At first, Leo’s low mark felt like bad news, but it was a blessing in disguise because it showed him what to study.",
+        "answerZh": "起初，里奧的低分看似是壞消息，但它其實帶來了好處，因為這讓他知道應該溫習甚麼。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q06",
+        "number": 6,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Chloe’s phone broke, so she spent a week without social media. During that week, she slept better and felt less worried.",
+        "promptZh": "克洛伊的電話壞了，因此她有一星期沒有使用社交媒體。那一星期，她睡得更好，也沒有那麼憂慮。",
+        "starter": "Being",
+        "answer": "Being without her phone for a week turned out to be a blessing in disguise because Chloe slept better and felt less worried.",
+        "answerZh": "一星期沒有電話使用，結果反而令克洛伊因禍得福，因為她睡得更好，也沒有那麼憂慮。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q07",
+        "number": 7,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "We missed the early train. While waiting for the next one, we realised that we had left our passports at home.",
+        "promptZh": "我們錯過了早班火車。等待下一班車時，我們發現把護照留在家中。",
+        "starter": "Perhaps",
+        "answer": "Perhaps missing the early train was a blessing in disguise, since it gave us time to notice that our passports were at home.",
+        "answerZh": "也許錯過早班火車反而是因禍得福，因為這給了我們時間發現護照仍在家中。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q08",
+        "number": 8,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Rachel’s application for the first flat was refused. A week later, she found a larger flat with lower rent.",
+        "promptZh": "瑞秋申請第一個單位時被拒絕。一星期後，她找到一個更大而租金更低的單位。",
+        "starter": "The",
+        "answer": "The rejection of Rachel’s first flat application proved to be a blessing in disguise because she later found a larger and cheaper home.",
+        "answerZh": "申請第一個單位被拒絕結果反而是因禍得福，因為瑞秋後來找到一個更大而且更便宜的住所。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q09",
+        "number": 9,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The teacher moved Grace to another project group. She was unhappy at first, but her new partner helped her produce her best work.",
+        "promptZh": "老師把格蕾絲調到另一個專題小組。她起初很不高興，但新組員協助她完成了自己最出色的作品。",
+        "starter": "Looking",
+        "answer": "Looking back, the group change was a blessing in disguise because Grace worked extremely well with her new partner.",
+        "answerZh": "回想起來，調組原來是因禍得福，因為格蕾絲與新組員合作得非常好。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q10",
+        "number": 10,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Ethan could not get a place in the cooking class. He joined a photography class instead and discovered a talent he had never known about.",
+        "promptZh": "伊森無法取得烹飪班的名額。他改為參加攝影班，並發現自己一項從未察覺的才能。",
+        "starter": "Not",
+        "answer": "Not getting a place in the cooking class was a blessing in disguise because Ethan discovered his talent for photography.",
+        "answerZh": "無法參加烹飪班反而是因禍得福，因為伊森發現了自己的攝影才能。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q11",
+        "number": 11,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The client moved the meeting to the following week. The extra time allowed the team to improve its presentation.",
+        "promptZh": "客戶把會議改到下一星期舉行。額外的時間讓團隊改善簡報。",
+        "starter": "The",
+        "answer": "The postponed meeting turned out to be a blessing in disguise because the team had more time to improve its presentation.",
+        "answerZh": "會議延期結果反而帶來好處，因為團隊有更多時間改善簡報。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q12",
+        "number": 12,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The computer stopped working and everyone panicked. During the repair, the technician found a serious problem that could have destroyed all the files later.",
+        "promptZh": "電腦停止運作，所有人都很慌張。維修期間，技術員發現一個嚴重問題，這個問題日後可能會令所有檔案消失。",
+        "starter": "What",
+        "answer": "What seemed like a computer disaster was a blessing in disguise because the repair revealed a more serious problem in time.",
+        "answerZh": "看似一場電腦災難的事情，其實是因禍得福，因為維修及時揭示了一個更嚴重的問題。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q13",
+        "number": 13,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Oliver was not chosen for the football team. He joined the running club instead and discovered that he was an excellent long-distance runner.",
+        "promptZh": "奧利弗沒有入選足球隊。他改為加入跑步會，並發現自己是一名出色的長跑選手。",
+        "starter": "Being",
+        "answer": "Being left out of the football team proved to be a blessing in disguise because Oliver discovered his ability as a runner.",
+        "answerZh": "沒有入選足球隊結果反而是因禍得福，因為奧利弗發現了自己的跑步才能。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q14",
+        "number": 14,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "Rain forced the couple to hold their wedding in a smaller indoor room. They later felt that the smaller space may have made the celebration warmer and more personal.",
+        "promptZh": "大雨迫使這對新人在一個較小的室內場地舉行婚禮。他們後來認為，較小的空間可能令慶祝活動更溫馨、更親切。",
+        "starter": "The",
+        "answer": "The rain may have been a blessing in disguise because the smaller room made the wedding feel warmer and more personal.",
+        "answerZh": "這場雨可能反而帶來了好處，因為較小的場地令婚禮感覺更溫馨、更親切。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q15",
+        "number": 15,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The client has rejected the first design. The team now has a chance to correct several weak points before the final decision.",
+        "promptZh": "客戶拒絕了第一個設計。團隊現在有機會在最終決定前改善幾個不足之處。",
+        "starter": "The",
+        "answer": "The client’s rejection could prove to be a blessing in disguise if it helps the team produce a stronger final design.",
+        "answerZh": "如果客戶的拒絕能幫助團隊製作出更好的最終設計，這次拒絕可能反而是好事。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q16",
+        "number": 16,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 29,
+        "answerSourcePages": [
+          29
+        ],
+        "prompt": "The train was delayed for two hours. Grace later said that the delay gave her enough time to finish an important job application.",
+        "promptZh": "火車延誤了兩小時。格蕾絲後來表示，延誤令她有足夠時間完成一份重要的求職申請。",
+        "starter": "Grace",
+        "answer": "Grace later saw the train delay as a blessing in disguise because it gave her time to finish the application.",
+        "answerZh": "格蕾絲後來把火車延誤視為因禍得福，因為這讓她有時間完成申請。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q17",
+        "number": 17,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "Very few customers visited the new café during its first week. The quiet period allowed the staff to fix several service problems before the café became busy.",
+        "promptZh": "新咖啡店開業第一星期只有很少顧客。這段清閒時間讓員工在店舖繁忙前解決幾個服務問題。",
+        "starter": "The",
+        "answer": "The owner regarded the café’s quiet first week as a blessing in disguise because the staff could fix problems before it became busy.",
+        "answerZh": "店主把咖啡店開業首星期的清靜視為因禍得福，因為員工可以在繁忙前解決問題。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q18",
+        "number": 18,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A power cut happened during a quiet afternoon rather than during the busy evening. It showed that the emergency lights were not working, so they were repaired immediately.",
+        "promptZh": "停電在一個清靜的下午發生，而不是在繁忙的晚上。這顯示緊急照明系統無法運作，因此人們立即把它修好。",
+        "starter": "It",
+        "answer": "It was a blessing in disguise that the power cut happened during a quiet afternoon, because it revealed the broken emergency lights before the busy evening.",
+        "answerZh": "停電在清靜的下午發生反而是因禍得福，因為這讓人們在繁忙的晚上來臨前發現緊急照明系統已損壞。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q19",
+        "number": 19,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The hotel made a mistake and gave our room to another guest. To apologise, it moved us to a much better room at no extra cost.",
+        "promptZh": "酒店錯誤地把我們的房間給了另一名住客。為了道歉，酒店免費把我們安排到一間好得多的房間。",
+        "starter": "The",
+        "answer": "The hotel’s booking mistake ended up being a blessing in disguise because we received a much better room for free.",
+        "answerZh": "酒店的訂房錯誤最後反而令我們因禍得福，因為我們免費獲安排入住一間好得多的房間。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q20",
+        "number": 20,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The car would not start, which seemed very unlucky. At the garage, the mechanic found a dangerous brake problem before it caused an accident.",
+        "promptZh": "汽車無法開動，看來非常倒霉。到了車房，技工在煞車問題引致意外前發現了這個危險問題。",
+        "starter": "What",
+        "answer": "What first looked like bad luck proved to be a blessing in disguise because the mechanic found the dangerous brake problem early.",
+        "answerZh": "起初看似倒霉的事情結果反而是因禍得福，因為技工及早發現了危險的煞車問題。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q21",
+        "number": 21,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "A: I am still upset that the company did not offer me the job. B: Another company may offer you a position that suits you much better.",
+        "promptZh": "甲：公司沒有給我那份工作，我仍然很不開心。 乙：另一間公司可能會給你一個更適合你的職位。",
+        "starter": "You",
+        "answer": "You may later see the rejection as a blessing in disguise if it leads you to a job that suits you better.",
+        "answerZh": "如果這次拒絕令你找到更適合的工作，你日後可能會把它視為因禍得福。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q22",
+        "number": 22,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "The students lost the first version of their project. They had to rebuild it, but the new version was clearer and much better organised.",
+        "promptZh": "學生遺失了專題的第一個版本。他們必須重新製作，但新版本更加清晰，組織也好得多。",
+        "starter": "Losing",
+        "answer": "Losing the first version turned out to be a blessing in disguise because the students produced a clearer and better-organised project.",
+        "answerZh": "遺失第一個版本結果反而是因禍得福，因為學生製作出一份更清晰、組織更好的專題。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q23",
+        "number": 23,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 30,
+        "answerSourcePages": [
+          30
+        ],
+        "prompt": "One customer complained about being charged twice. The complaint helped the shop find a payment error before many other customers were affected.",
+        "promptZh": "一名顧客投訴被收取了兩次費用。這項投訴協助店舖在更多顧客受到影響前發現付款系統的錯誤。",
+        "starter": "The",
+        "answer": "The customer’s complaint was a blessing in disguise because it helped the shop find the payment error early.",
+        "answerZh": "顧客的投訴原來是因禍得福，因為這協助店舖及早發現付款錯誤。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q24",
+        "number": 24,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The usual bus route closed for repairs. Nina tried the train and discovered that it took fifteen minutes less.",
+        "promptZh": "平日使用的巴士路線因維修而暫停。妮娜嘗試乘搭火車，並發現所需時間少了十五分鐘。",
+        "starter": "The",
+        "answer": "The closed bus route proved to be a blessing in disguise because Nina discovered a faster way to travel.",
+        "answerZh": "巴士路線暫停結果反而是因禍得福，因為妮娜發現了一種更快捷的交通方法。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q25",
+        "number": 25,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The teachers thought the storm delay might have worked in the pupils’ favour. On the new date, the museum had opened an exciting new exhibition.",
+        "promptZh": "老師認為，暴風雨造成的延期可能對學生有利。到了新日期，博物館已開設一個令人興奮的新展覽。",
+        "starter": "The",
+        "answer": "The storm delay may have been a blessing in disguise because the pupils could see the museum’s new exhibition.",
+        "answerZh": "暴風雨造成的延期可能反而帶來好處，因為學生可以參觀博物館的新展覽。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q26",
+        "number": 26,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The teacher changed Rachel’s seat. Rachel disliked the change at first, but the pupil beside her became an excellent study partner.",
+        "promptZh": "老師更改了瑞秋的座位。瑞秋起初不喜歡這項改動，但坐在她旁邊的學生後來成為非常好的溫習伙伴。",
+        "starter": "Only",
+        "answer": "Only later did Rachel realise that the seat change had been a blessing in disguise because it gave her an excellent study partner.",
+        "answerZh": "瑞秋到後來才明白，轉換座位原來是因禍得福，因為這令她找到一名非常好的溫習伙伴。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q27",
+        "number": 27,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The family’s new flat seemed far too small. Moving into it made them give away many things they never used, and they found their simpler home easier to manage.",
+        "promptZh": "這個家庭的新單位看來實在太小。搬入後，他們把許多從不使用的物品送走，並發現較簡單的家居更容易整理。",
+        "starter": "What",
+        "answer": "What seemed like a serious lack of space turned out to be a blessing in disguise because the family created a simpler home.",
+        "answerZh": "看似嚴重的空間不足，結果反而是因禍得福，因為這個家庭建立了一個更簡約的家。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q28",
+        "number": 28,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The event lost part of its budget. The organisers created a simpler plan, and the visitors liked the new plan even more than the original one.",
+        "promptZh": "這項活動失去了部分預算。主辦者制訂了一個較簡單的計劃，而參加者甚至比原先的計劃更喜歡這個簡單方案。",
+        "starter": "The",
+        "answer": "The budget cut, which first seemed like a setback, was a blessing in disguise because it led to a simpler and more popular event.",
+        "answerZh": "預算削減起初看似一次挫折，但其實是因禍得福，因為它促成了一項更簡單、更受歡迎的活動。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q29",
+        "number": 29,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 31,
+        "answerSourcePages": [
+          31
+        ],
+        "prompt": "The café received the wrong kind of fruit. The chef used it to create a new dessert, which soon became the café’s best-selling item.",
+        "promptZh": "咖啡店收到錯誤種類的水果。廚師用它創作了一款新甜品，而這款甜品很快成為店內最暢銷的產品。",
+        "starter": "The",
+        "answer": "The delivery mistake ended up being a blessing in disguise because it led to the café’s best-selling dessert.",
+        "answerZh": "送貨錯誤最後反而是因禍得福，因為它促成了咖啡店最暢銷的甜品。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q30",
+        "number": 30,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A: Cancelling the holiday was so disappointing. B: Yes, but the money we saved paid for the urgent roof repair.",
+        "promptZh": "甲：取消旅行實在令人很失望。 乙：是的，但我們省下的錢支付了緊急維修屋頂的費用。",
+        "starter": "Maybe",
+        "answer": "Maybe the cancelled holiday was a blessing in disguise, since the saved money paid for the urgent roof repair.",
+        "answerZh": "也許取消旅行反而是因禍得福，因為省下的錢支付了緊急維修屋頂的費用。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q31",
+        "number": 31,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A runner was upset when a leg injury stopped her from competing. A doctor then found a deeper problem, and early treatment prevented a much worse injury.",
+        "promptZh": "一名跑手因腿傷而無法參賽，感到很不快。其後醫生發現一個更深層的問題，而及早治療避免了更嚴重的傷患。",
+        "starter": "Although",
+        "answer": "Although the leg injury was upsetting, it proved to be a blessing in disguise because it led to early treatment of a deeper problem.",
+        "answerZh": "雖然腿傷令人難受，但結果反而是因禍得福，因為這令一個更深層的問題得到及早治療。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q32",
+        "number": 32,
+        "sourcePage": 23,
+        "sourcePages": [
+          23
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Our landlord raised the rent, so we moved. The new flat was cheaper and much closer to work.",
+        "promptZh": "業主提高租金，因此我們搬屋。新單位租金較低，而且距離工作地點近得多。",
+        "starter": "Because",
+        "answer": "Because it led us to a cheaper home nearer work, the rent increase turned out to be a blessing in disguise.",
+        "answerZh": "因為租金上升令我們搬到一個更便宜、更接近工作地點的住所，所以這次加租結果反而是因禍得福。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q33",
+        "number": 33,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The team lost its first match badly. The defeat showed the coach a serious weakness, which the players fixed before the next competition.",
+        "promptZh": "球隊在第一場比賽中大敗。這次落敗讓教練看出一個嚴重弱點，而球員在下一項比賽前改善了這個問題。",
+        "starter": "The",
+        "answer": "The coach later described the first defeat as a blessing in disguise because it revealed the team’s weakness in time.",
+        "answerZh": "教練後來把第一次落敗形容為因禍得福，因為它及時揭示了球隊的弱點。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q34",
+        "number": 34,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "The school library closed for repairs. During the closure, pupils learnt to use its online books, and many continued reading them after the library reopened.",
+        "promptZh": "學校圖書館因維修而關閉。關閉期間，學生學會使用網上書籍，而圖書館重開後，很多人仍繼續閱讀這些書籍。",
+        "starter": "The",
+        "answer": "The temporary library closure was a blessing in disguise because it helped pupils discover the online book service.",
+        "answerZh": "圖書館暫時關閉原來是因禍得福，因為這令學生發現網上書籍服務。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q35",
+        "number": 35,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "A company sent the shop boxes that were smaller than the ones ordered. The shop discovered that the smaller boxes protected the products while using less material.",
+        "promptZh": "一間公司向店舖送來比訂購尺寸更小的箱子。店舖發現，較小的箱子既能保護產品，又能使用較少材料。",
+        "starter": "What",
+        "answer": "What appeared to be the wrong order turned out to be a blessing in disguise because the smaller boxes worked better and used less material.",
+        "answerZh": "看似送錯的訂單結果反而是因禍得福，因為較小的箱子效果更好，使用的材料也較少。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q36",
+        "number": 36,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 32,
+        "answerSourcePages": [
+          32
+        ],
+        "prompt": "Sarah was not chosen to lead the project. She used the extra time to complete a training course and later received a role that suited her better.",
+        "promptZh": "莎拉沒有獲選領導這個項目。她利用額外時間完成一個培訓課程，後來得到一個更適合她的職位。",
+        "starter": "Sarah",
+        "answer": "Sarah eventually came to see not being chosen to lead the project as a blessing in disguise because it gave her time to train for a better role.",
+        "answerZh": "莎拉最終把未獲選領導項目視為因禍得福，因為這讓她有時間接受培訓，為更合適的職位作準備。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q37",
+        "number": 37,
+        "sourcePage": 24,
+        "sourcePages": [
+          24
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A storm damaged the garden fence shared by several neighbours. They repaired it together and became close friends.",
+        "promptZh": "暴風雨損壞了幾戶鄰居共用的花園圍欄。他們一起修理圍欄，並成為好朋友。",
+        "starter": "The",
+        "answer": "The storm damage—a blessing in disguise—brought the neighbours together while they repaired the shared fence.",
+        "answerZh": "暴風雨造成的損壞反而因禍得福；鄰居一起修理共用圍欄時，彼此的關係變得更親近。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q38",
+        "number": 38,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The local shop stopped selling our favourite bread. We learnt to bake it ourselves, and our homemade version was healthier.",
+        "promptZh": "本地店舖停止出售我們最喜歡的麵包。我們學會自己烘焙，而自製版本更加健康。",
+        "starter": "At",
+        "answer": "At the time, the shop’s decision seemed disappointing; in the end, it was a blessing in disguise because we learnt to make healthier bread.",
+        "answerZh": "當時，店舖的決定看來令人失望；但最後它反而是因禍得福，因為我們學會製作更健康的麵包。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q39",
+        "number": 39,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "Oliver’s hospital appointment was postponed. At the later appointment, he met a doctor who had much more experience with his condition.",
+        "promptZh": "奧利弗的醫院預約被延期。在後來的預約中，他遇到一名對其病況更有經驗的醫生。",
+        "starter": "Had",
+        "answer": "Had the appointment not been postponed, Oliver would not have met the more experienced doctor; the delay was a blessing in disguise.",
+        "answerZh": "如果預約沒有延期，奧利弗便不會遇到那位更有經驗的醫生；這次延誤原來是因禍得福。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q40",
+        "number": 40,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "A: I am still upset that Saturday’s event was cancelled. B: The free weekend gave you enough time to finish the application before Monday.",
+        "promptZh": "甲：星期六的活動被取消，我仍然很不開心。 乙：這個空閒週末讓你有足夠時間在星期一前完成申請。",
+        "starter": "I",
+        "answer": "I know the cancellation felt disappointing, but it was a blessing in disguise because it gave you time to finish the application.",
+        "answerZh": "我知道活動取消令人失望，但它原來是因禍得福，因為這讓你有時間完成申請。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q41",
+        "number": 41,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The company delayed the launch of its new website. During the delay, the team found a security problem that could have affected every customer.",
+        "promptZh": "公司延遲推出新網站。延期期間，團隊發現一個可能影響所有顧客的保安問題。",
+        "starter": "Far",
+        "answer": "Far from being a complete disaster, the delayed website launch proved to be a blessing in disguise because the team found the security problem before release.",
+        "answerZh": "網站延期推出不但並非一場徹底的災難，結果更是因禍得福，因為團隊在推出前發現了保安問題。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q42",
+        "number": 42,
+        "sourcePage": 25,
+        "sourcePages": [
+          25
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The local centre lost the use of its large room. It moved to a smaller building with lower rent and easier access for older visitors.",
+        "promptZh": "本地中心無法再使用原來的大房間。中心搬到一座租金較低、長者更容易前往的較小建築物。",
+        "starter": "What",
+        "answer": "What the centre first viewed as a serious setback later became a blessing in disguise because the smaller building was cheaper and easier to reach.",
+        "answerZh": "中心最初視為嚴重挫折的事情，後來反而成為因禍得福，因為較小的建築物更便宜，也更容易前往。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q43",
+        "number": 43,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 33,
+        "answerSourcePages": [
+          33
+        ],
+        "prompt": "The students’ first science experiment failed. By studying the failure, they learnt how to design a much better second experiment.",
+        "promptZh": "學生第一次科學實驗失敗了。透過研究失敗原因，他們學會如何設計一個好得多的第二次實驗。",
+        "starter": "The",
+        "answer": "The students eventually considered the failed experiment a blessing in disguise because it taught them how to improve their design.",
+        "answerZh": "學生最終認為實驗失敗是因禍得福，因為這教懂他們如何改善設計。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q44",
+        "number": 44,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Our flight home was cancelled, so we had to stay one more day. That extra day allowed us to meet a local guide who showed us the best part of the trip.",
+        "promptZh": "我們回程的航班被取消，因此必須多留一天。額外的一天讓我們遇到一名本地導遊，而他帶我們遊覽了整個旅程中最精彩的地方。",
+        "starter": "As",
+        "answer": "As it turned out, the cancelled flight was a blessing in disguise because the extra day became the best part of our trip.",
+        "answerZh": "結果，航班取消反而是因禍得福，因為額外的一天成為我們旅程中最精彩的部分。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q45",
+        "number": 45,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The family dog ran away and was found at a nearby animal clinic. During a check, the vet discovered an illness early enough to treat it easily.",
+        "promptZh": "家中的狗走失了，後來在附近的動物診所被找到。檢查期間，獸醫及早發現了一種疾病，因此可以輕易治療。",
+        "starter": "The",
+        "answer": "The dog’s escape, frightening as it was, became a blessing in disguise because the animal clinic found its illness in time.",
+        "answerZh": "狗隻走失雖然令人害怕，但最後反而是因禍得福，因為動物診所及時發現了牠的疾病。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q46",
+        "number": 46,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Ben was refused a place on the university course he had chosen. During a year of work, he discovered a different career that he enjoyed far more.",
+        "promptZh": "本被心儀的大學課程拒絕取錄。工作一年期間，他發現了另一項自己更加喜歡的事業。",
+        "starter": "Years",
+        "answer": "Years later, Ben could honestly call the university rejection a blessing in disguise because it led him to a career he enjoyed more.",
+        "answerZh": "多年後，本可以真誠地把大學拒絕取錄稱為因禍得福，因為這令他找到一項更喜歡的事業。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q47",
+        "number": 47,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The company lost one large client, which was worrying at first. The free time allowed it to improve its service and attract several smaller clients.",
+        "promptZh": "公司失去了一名大客戶，起初令人擔心。空出的時間讓公司改善服務，並吸引數名較小的客戶。",
+        "starter": "The",
+        "answer": "The loss of the large client was not welcome, yet it ultimately proved to be a blessing in disguise because the company attracted several smaller clients and no longer depended on only one.",
+        "answerZh": "失去大客戶並不是一件令人高興的事，但最終卻因禍得福，因為公司吸引了數名較小的客戶，不再只依賴一名客戶。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q48",
+        "number": 48,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The main actor in the school play became ill on opening night. The pupil who took the actor’s place performed extremely well and gained new confidence.",
+        "promptZh": "學校話劇的主角在首演當晚生病。代替主角的學生表現非常出色，並建立了新的自信。",
+        "starter": "What",
+        "answer": "What looked like a crisis on opening night was a blessing in disguise because it gave the other pupil a chance to perform and gain confidence.",
+        "answerZh": "首演當晚看似一場危機的事情，原來是因禍得福，因為這讓另一名學生有機會表演並建立自信。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q49",
+        "number": 49,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "The seller chose another buyer, so the family could not purchase the house. After heavy rain, they learnt that the house had a serious flooding problem.",
+        "promptZh": "賣方選擇了另一名買家，因此這個家庭無法購買該房屋。大雨過後，他們得知該房屋有嚴重的水浸問題。",
+        "starter": "Only",
+        "answer": "Only after the heavy rain did the family understand that losing the house had been a blessing in disguise because it had a serious flooding problem.",
+        "answerZh": "這個家庭到了大雨過後才明白，未能買到該房屋原來是因禍得福，因為房屋有嚴重的水浸問題。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      },
+      {
+        "id": "idiom-123-q50",
+        "number": 50,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The project had to stop because an important permit was missing. During the pause, the team found a safer and cheaper design that it would otherwise have missed.",
+        "promptZh": "由於欠缺一份重要許可文件，項目被迫停止。暫停期間，團隊找到一個更安全、更便宜的設計； 如果項目沒有暫停，他們便不會發現這個設計。",
+        "starter": "Looking",
+        "answer": "Looking back, the forced pause was a blessing in disguise because it led the team to a safer and cheaper design.",
+        "answerZh": "回想起來，項目被迫暫停原來是因禍得福，因為這令團隊找到一個更安全、更便宜的設計。",
+        "targetForm": "a blessing in disguise",
+        "targetMeaning": "A blessing in disguise is something that seems bad, unlucky or disappointing at first but later produces a good result or unexpected advantage.",
+        "highlight": "a blessing in disguise"
+      }
+    ]
+  }
+}

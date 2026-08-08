@@ -1,0 +1,1388 @@
+{
+  "lesson": {
+    "id": "idiom-58",
+    "order": 58,
+    "slug": "give-up-the-ghost",
+    "version": "1",
+    "title": "停止運作／壽終正寢",
+    "titleEn": "give up the ghost",
+    "titleZh": "停止運作／壽終正寢",
+    "source": {
+      "file": "Idiom 58 - 「Give Up the Ghost」.pdf",
+      "pageCount": 25,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "exercisePdfPages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "answerKeyPdfPages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "give up the ghost",
+        "highlight": "give up the ghost"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The old radio gave up the ghost.",
+        "zh": "那部舊收音機完全壞掉了。",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "en": "The printer has given up the ghost.",
+        "zh": "打印機已經完全壞掉了。",
+        "highlight": "given up the ghost"
+      }
+    ],
+    "meaning": {
+      "en": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+      "zh": "當機器、裝置、零件或系統 give up the ghost，意思是它完全停止運作，通常是因為已經老化或變得不可靠。",
+      "naturalZh": [
+        "當機器、裝置、零件或系統 give up the ghost，意思是它完全停止運作，通常是因為已經老化或變得不可靠。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; personal messages; informal workplace conversations; stories and personal accounts; informal product comments.",
+      "summaryZh": "這個表達屬於非正式至中性語域。 用來形容機器時，通常帶有幽默或輕微誇張的語氣，適合用於日常對話、私人訊息、較輕鬆的工作交流、故事及非正式產品評論。",
+      "contextsEn": [
+        "everyday conversation",
+        "personal messages",
+        "informal workplace conversations",
+        "stories and personal accounts",
+        "informal product comments"
+      ],
+      "contextsZh": [],
+      "formalEn": "In a technical report, safety notice, formal complaint or repair record, stopped working, failed or malfunctioned may be clearer and more appropriate.",
+      "formalZh": "在技術報告、安全通告、正式投訴或維修紀錄中，使用 stopped working、failed 或 malfunctioned 通常會更清楚和合適。"
+    },
+    "fixedVariable": {
+      "fixed": "give up the ghost",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Machine/device/system + give(s)/gave + up the ghost.",
+          "example": "The old radio gave up the ghost.",
+          "highlight": "gave up the ghost"
+        },
+        {
+          "form": "Machine/device/system + has/had + given up the ghost.",
+          "example": "The printer has given up the ghost.",
+          "highlight": "given up the ghost"
+        },
+        {
+          "form": "Machine/device/system + may/might/could/will + give up the ghost.",
+          "example": "The old boiler may give up the ghost this winter.",
+          "highlight": "give up the ghost"
+        },
+        {
+          "form": "Machine/device/system + be + giving up the ghost.",
+          "example": "My phone is giving up the ghost.",
+          "highlight": "giving up the ghost"
+        },
+        {
+          "form": "Machine/device/system + has not + given up the ghost + yet.",
+          "example": "The printer has not given up the ghost yet.",
+          "highlight": "given up the ghost"
+        },
+        {
+          "form": "If/unless + machine/device/system + give(s) up the ghost, + result.",
+          "example": "If the pump gives up the ghost, the garden will not get any water.",
+          "highlight": "gives up the ghost"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic present or past form",
+        "titleZh": "句式一：基本現在式或過去式",
+        "formula": "Machine/device/system + give(s)/gave + up the ghost.",
+        "descriptionEn": "Source grammar frame: Machine/device/system + give(s)/gave + up the ghost.",
+        "descriptionZh": "原檔列出的句法框架：Machine/device/system + give(s)/gave + up the ghost。",
+        "examples": [
+          {
+            "en": "The old radio gave up the ghost.",
+            "zh": "那部舊收音機完全壞掉了。",
+            "highlight": "gave up the ghost"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Perfect form",
+        "titleZh": "句式二：完成式",
+        "formula": "Machine/device/system + has/had + given up the ghost.",
+        "descriptionEn": "Source grammar frame: Machine/device/system + has/had + given up the ghost.",
+        "descriptionZh": "原檔列出的句法框架：Machine/device/system + has/had + given up the ghost。",
+        "examples": [
+          {
+            "en": "The printer has given up the ghost.",
+            "zh": "打印機已經完全壞掉了。",
+            "highlight": "given up the ghost"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Modal or future form",
+        "titleZh": "句式三：情態動詞或將來式",
+        "formula": "Machine/device/system + may/might/could/will + give up the ghost.",
+        "descriptionEn": "Source grammar frame: Machine/device/system + may/might/could/will + give up the ghost.",
+        "descriptionZh": "原檔列出的句法框架：Machine/device/system + may/might/could/will + give up the ghost。",
+        "examples": [
+          {
+            "en": "The old boiler may give up the ghost this winter.",
+            "zh": "那部舊熱水爐今年冬天可能會完全壞掉。",
+            "highlight": "give up the ghost"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Gradual failure",
+        "titleZh": "句式四：逐漸失靈",
+        "formula": "Machine/device/system + be + giving up the ghost.",
+        "descriptionEn": "Source grammar frame: Machine/device/system + be + giving up the ghost.",
+        "descriptionZh": "原檔列出的句法框架：Machine/device/system + be + giving up the ghost。",
+        "examples": [
+          {
+            "en": "My phone is giving up the ghost.",
+            "zh": "我的電話看來正在逐漸壞掉。",
+            "highlight": "giving up the ghost"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Negative form",
+        "titleZh": "句式五：否定形式",
+        "formula": "Machine/device/system + has not + given up the ghost + yet.",
+        "descriptionEn": "Source grammar frame: Machine/device/system + has not + given up the ghost + yet.",
+        "descriptionZh": "原檔列出的句法框架：Machine/device/system + has not + given up the ghost + yet。",
+        "examples": [
+          {
+            "en": "The printer has not given up the ghost yet.",
+            "zh": "打印機還未完全壞掉。",
+            "highlight": "given up the ghost"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Conditional form",
+        "titleZh": "句式六：條件句",
+        "formula": "If/unless + machine/device/system + give(s) up the ghost, + result.",
+        "descriptionEn": "Source grammar frame: If/unless + machine/device/system + give(s) up the ghost, + result.",
+        "descriptionZh": "原檔列出的句法框架：If/unless + machine/device/system + give(s) up the ghost, + result。",
+        "examples": [
+          {
+            "en": "If the pump gives up the ghost, the garden will not get any water.",
+            "zh": "如果水泵完全壞掉，花園便不會有水。",
+            "highlight": "gives up the ghost"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It describes complete failure clearly",
+        "titleZh": "清楚表達完全故障",
+        "en": "The expression shows that a machine has not merely developed a small problem. It has stopped functioning.",
+        "zh": "這個表達表示機器並非只有輕微問題，而是已經停止運作。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It makes a description more vivid",
+        "titleZh": "令描述更加生動",
+        "en": "The second sentence creates the humorous image of the radio losing its final sign of life.",
+        "zh": "第二句把收音機形容成失去最後一點生命力，畫面更加生動。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It can add gentle humour",
+        "titleZh": "可以加入輕鬆幽默的語氣",
+        "en": "The wording can make an inconvenient situation sound slightly less serious.",
+        "zh": "我們的打印機偏偏在會議開始前五分鐘壞掉了。 這種說法可以為令人不便的情況加入一點輕鬆語氣。",
+        "examples": [
+          {
+            "en": "Our printer gave up the ghost five minutes before the meeting.",
+            "zh": "我們的打印機偏偏在會議開始前五分鐘壞掉了。",
+            "highlight": "gave up the ghost"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It is useful for old or unreliable equipment",
+        "titleZh": "適合描述老舊或不可靠設備",
+        "en": "The expression is especially natural when a machine has shown problems for some time before finally stopping.",
+        "zh": "當一部機器已經出現問題一段時間，最後完全停止運作時，這個表達尤其自然。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It supports different tenses and levels of certainty",
+        "titleZh": "可配合不同時態及確定程度",
+        "en": "It supports different tenses and levels of certainty",
+        "zh": "可配合不同時態及確定程度",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It provides a concise alternative",
+        "titleZh": "把較長的說明縮短",
+        "en": "The idiom is useful, but it is not automatically better than stopped working in every situation. Use it when its informal or humorous tone suits the context.",
+        "zh": "這個慣用語十分實用，但並非在所有情況下都比 stopped working 更好。 只有當非正式或幽默語氣適合當時情境時，才應使用。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Well Documented Development",
+      "statusZh": "有較充分記錄的意思演變",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The expression was well established in English Bible translation by the sixteenth century. Miles Coverdale’s 1535 Bible used the expression when describing a person’s death. However, this documented example should not be treated as proof that the expression was invented in 1535.",
+          "zh": "這個表達在十六世紀的英語《聖經》譯本中已經相當固定。 Miles Coverdale 的1535年《聖經》譯本曾用它描述一個人死亡。 不過，這項文字記錄並不代表這個表達是在1535年才被創造。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "During the nineteenth century, writers began applying the expression to things that could not literally die. An example from 1832 describes a non-living thing becoming completely useless. A broken machine was humorously imagined as having lost the “life” inside it.",
+          "zh": "到了十九世紀，作家開始把這個表達用於不可能真正死亡的事物。 1832年的一項文字記錄便以它形容一件沒有生命的東西完全失去作用。 人們幽默地把壞掉的機器想像成失去了內在的「生命」。"
+        }
+      ],
+      "memoryEn": "Imagine that the machine has lost its final sign of life and can no longer work.",
+      "memoryZh": "想像機器失去了最後一點生命跡象，從此不能再運作。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "The subject is the thing that stops working",
+        "titleZh": "規則一：主語是停止運作的物件",
+        "en": "Unless the repair worker died, this sentence does not describe the broken printer.",
+        "zh": "打印機壞掉了。 除非句子是指維修人員死亡，否則這句並不是在描述打印機故障。",
+        "examples": [
+          {
+            "en": "The printer gave up the ghost.",
+            "zh": "打印機壞掉了。",
+            "highlight": "gave up the ghost"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "Do not add an object",
+        "titleZh": "規則二：不要在慣用語後加入受詞",
+        "en": "Do not add an object",
+        "zh": "不要在慣用語後加入受詞",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Keep the fixed words unchanged",
+        "titleZh": "規則三：固定字詞不可改變",
+        "en": "Keep the fixed words unchanged",
+        "zh": "固定字詞不可改變",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Preserve tense and certainty",
+        "titleZh": "規則四：保留時態及確定程度",
+        "en": "Do not change may give into gave. That would turn a possibility into a completed event.",
+        "zh": "不要把 may give 改成 gave，否則會把一個可能性變成已發生的事實。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Use the progressive form for clear gradual failure",
+        "titleZh": "規則五：逐漸失靈時可使用進行式",
+        "en": "This suggests that the laptop is showing serious signs of failure and may stop working completely soon.",
+        "zh": "這表示手提電腦正出現嚴重故障跡象，可能很快便會完全停止運作。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "Do not use it for every small problem",
+        "titleZh": "規則六：不要用來形容所有小問題",
+        "en": "A small or temporary problem does not normally justify the idiom.",
+        "zh": "輕微或短暫的問題通常不足以使用這個慣用語。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Do not confuse it with ordinary give up",
+        "titleZh": "規則七：不要與普通的 give up 混淆",
+        "en": "give up give up the ghost",
+        "zh": "停止嘗試； 放棄完全停止運作； 徹底壞掉",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Avoid an accidental literal or death-related reading",
+        "titleZh": "規則八：避免意外產生死亡相關意思",
+        "en": "This exercise uses machines, devices, parts and systems as subjects so that the intended meaning remains clear.",
+        "zh": "本練習以機器、裝置、零件及系統作主語，確保學生清楚理解所教授的是「完全壞掉」的意思。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using give up the ghost.",
+      "zh": "使用 give up the ghost 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-58-q01",
+        "number": 1,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The old radio no longer works at all.",
+        "promptZh": "那部舊收音機已完全不能運作。",
+        "starter": "The",
+        "answer": "The old radio has given up the ghost.",
+        "answerZh": "那部舊收音機已經完全壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q02",
+        "number": 2,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "My desk fan stopped working completely this morning.",
+        "promptZh": "我的座枱風扇今天早上完全壞掉了。",
+        "starter": "My",
+        "answer": "My desk fan gave up the ghost this morning.",
+        "answerZh": "我的座枱風扇今天早上壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q03",
+        "number": 3,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "After months of problems, the washing machine has completely stopped working.",
+        "promptZh": "洗衣機出現問題多月後，現已完全停止運作。",
+        "starter": "The",
+        "answer": "The washing machine has finally given up the ghost after months of problems.",
+        "answerZh": "洗衣機出現問題多月後，終於完全壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q04",
+        "number": 4,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Our printer suddenly stopped working during the lesson.",
+        "promptZh": "我們的打印機在課堂期間突然停止運作。",
+        "starter": "Our",
+        "answer": "Our printer gave up the ghost during the lesson.",
+        "answerZh": "我們的打印機在課堂期間壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q05",
+        "number": 5,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The kitchen clock no longer moves or makes any sound.",
+        "promptZh": "廚房的時鐘已不再運行，也沒有發出任何聲音。",
+        "starter": "The",
+        "answer": "The kitchen clock has given up the ghost.",
+        "answerZh": "廚房的時鐘已經壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q06",
+        "number": 6,
+        "sourcePage": 10,
+        "sourcePages": [
+          10
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "Dad’s old camera stopped working while we were on holiday.",
+        "promptZh": "我們旅行期間，爸爸的舊相機壞掉了。",
+        "starter": "Dad’s",
+        "answer": "Dad’s old camera gave up the ghost while we were on holiday.",
+        "answerZh": "我們旅行期間，爸爸的舊相機壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q07",
+        "number": 7,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 19,
+        "answerSourcePages": [
+          19
+        ],
+        "prompt": "The lift stopped working again yesterday.",
+        "promptZh": "升降機昨天又壞掉了。",
+        "starter": "The",
+        "answer": "The lift gave up the ghost again yesterday.",
+        "answerZh": "升降機昨天又壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q08",
+        "number": 8,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "This phone is clearly failing. The screen goes dark, and the buttons often stop responding.",
+        "promptZh": "這部電話明顯正在失靈。屏幕經常變黑，按鍵亦常常沒有反應。",
+        "starter": "This",
+        "answer": "This phone is giving up the ghost.",
+        "answerZh": "這部電話看來正在逐漸壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "giving up the ghost"
+      },
+      {
+        "id": "idiom-58-q09",
+        "number": 9,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The ticket machine at the station has stopped working completely.",
+        "promptZh": "車站的售票機已完全停止運作。",
+        "starter": "The",
+        "answer": "The ticket machine at the station has given up the ghost.",
+        "answerZh": "車站的售票機已經完全壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q10",
+        "number": 10,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The café’s coffee machine stopped working before lunch.",
+        "promptZh": "咖啡店的咖啡機在午飯前壞掉了。",
+        "starter": "The",
+        "answer": "The café’s coffee machine gave up the ghost before lunch.",
+        "answerZh": "咖啡店的咖啡機在午飯前壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q11",
+        "number": 11,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "My laptop stopped working while I was finishing my homework.",
+        "promptZh": "我正在完成家課時，手提電腦突然壞掉了。",
+        "starter": "My",
+        "answer": "My laptop gave up the ghost while I was finishing my homework.",
+        "answerZh": "我正在完成家課時，手提電腦突然壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q12",
+        "number": 12,
+        "sourcePage": 11,
+        "sourcePages": [
+          11
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "When the repair worker arrived, the old fridge had already stopped working completely.",
+        "promptZh": "維修人員到達時，那部舊雪櫃早已完全停止運作。",
+        "starter": "The",
+        "answer": "The old fridge had given up the ghost before the repair worker arrived.",
+        "answerZh": "維修人員到達前，那部舊雪櫃早已完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q13",
+        "number": 13,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The school projector will not turn on. It may have stopped working completely.",
+        "promptZh": "學校的投影機無法開啟。它可能已經完全壞掉。",
+        "starter": "The",
+        "answer": "The school projector may have given up the ghost.",
+        "answerZh": "學校的投影機可能已經完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q14",
+        "number": 14,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "Our Wi-Fi router keeps cutting out, and I think it will stop working completely soon.",
+        "promptZh": "我們的 Wi-Fi 路由器經常斷線，我認為它很快便會完全停止運作。",
+        "starter": "Our",
+        "answer": "Our Wi-Fi router will probably give up the ghost soon.",
+        "answerZh": "我們的 Wi-Fi 路由器很可能很快便會完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "give up the ghost"
+      },
+      {
+        "id": "idiom-58-q15",
+        "number": 15,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 20,
+        "answerSourcePages": [
+          20
+        ],
+        "prompt": "The card reader still works sometimes, so it has not stopped working completely yet.",
+        "promptZh": "讀卡機有時仍能運作，所以它還未完全壞掉。",
+        "starter": "The",
+        "answer": "The card reader has not given up the ghost yet.",
+        "answerZh": "讀卡機還未完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q16",
+        "number": 16,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The air conditioning on the bus stopped working halfway through the journey.",
+        "promptZh": "巴士的冷氣在車程中途停止運作。",
+        "starter": "The",
+        "answer": "The bus’s air conditioning gave up the ghost halfway through the journey.",
+        "answerZh": "巴士的冷氣在車程中途壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q17",
+        "number": 17,
+        "sourcePage": 12,
+        "sourcePages": [
+          12
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: Why is the room so hot? B: The air conditioner no longer works.",
+        "promptZh": "甲：房間為甚麼這麼熱？ 乙：冷氣機已經不能運作。",
+        "starter": "The",
+        "answer": "The air conditioner has given up the ghost.",
+        "answerZh": "冷氣機已經完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q18",
+        "number": 18,
+        "sourcePage": 12,
+        "sourcePages": [
+          12,
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: Can we print the tickets here? B: No. This printer no longer works.",
+        "promptZh": "甲：我們可以在這裏打印門票嗎？ 乙：不可以。這部打印機已經不能運作。",
+        "starter": "No.",
+        "answer": "No. This printer has given up the ghost.",
+        "answerZh": "不可以。這部打印機已經完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q19",
+        "number": 19,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The battery in my watch worked for ten years, but it finally stopped today.",
+        "promptZh": "我手錶內的電池用了十年，但今天終於停止運作。",
+        "starter": "The",
+        "answer": "The battery in my watch finally gave up the ghost after ten years.",
+        "answerZh": "我手錶內的電池使用十年後，終於完全失效。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q20",
+        "number": 20,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The old microphone stopped working just before the show began.",
+        "promptZh": "那支舊咪高峰在表演開始前剛好壞掉了。",
+        "starter": "The",
+        "answer": "The old microphone gave up the ghost just before the show began.",
+        "answerZh": "那支舊咪高峰在表演開始前剛好壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q21",
+        "number": 21,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: Why did the music suddenly stop? B: I think the speaker has stopped working.",
+        "promptZh": "甲：音樂為甚麼突然停了？ 乙：我認為揚聲器已經壞掉。",
+        "starter": "I",
+        "answer": "I think the speaker has given up the ghost.",
+        "answerZh": "我認為揚聲器已經壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q22",
+        "number": 22,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "A: Is the rice ready? B: No. The rice cooker is not producing any heat.",
+        "promptZh": "甲：飯煮好了嗎？ 乙：還沒有。電飯煲完全沒有發熱。",
+        "starter": "No.",
+        "answer": "No. The rice cooker has given up the ghost.",
+        "answerZh": "還沒有。電飯煲已經完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q23",
+        "number": 23,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 21,
+        "answerSourcePages": [
+          21
+        ],
+        "prompt": "The shop assistant told us that the card machine had stopped working.",
+        "promptZh": "店員告訴我們，付款機已經停止運作。",
+        "starter": "The",
+        "answer": "The shop assistant said that the card machine had given up the ghost.",
+        "answerZh": "店員說付款機已經完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q24",
+        "number": 24,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Our car is making serious noises and may stop working completely very soon.",
+        "promptZh": "我們的汽車正在發出嚴重的異常聲音，可能很快便會完全壞掉。",
+        "starter": "Our",
+        "answer": "Our car may be about to give up the ghost.",
+        "answerZh": "我們的汽車可能很快便會完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "give up the ghost"
+      },
+      {
+        "id": "idiom-58-q25",
+        "number": 25,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The toy robot took one last slow step and then stopped working completely.",
+        "promptZh": "玩具機械人緩慢地踏出最後一步，然後完全停止運作。",
+        "starter": "The",
+        "answer": "The toy robot gave up the ghost after one last slow step.",
+        "answerZh": "玩具機械人緩慢地踏出最後一步後，便完全壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q26",
+        "number": 26,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "This charger no longer charges any device and seems completely broken.",
+        "promptZh": "這個充電器已不能為任何裝置充電，看來已經完全壞掉。",
+        "starter": "This",
+        "answer": "This charger seems to have given up the ghost.",
+        "answerZh": "這個充電器看來已經完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q27",
+        "number": 27,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "A: Shall I try the doorbell again? B: There is no point. It no longer works at all.",
+        "promptZh": "甲：我要再按一次門鐘嗎？ 乙：沒有用。它已經完全不能運作。",
+        "starter": "There",
+        "answer": "There is no point. The doorbell has given up the ghost.",
+        "answerZh": "沒有用。門鐘已經完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q28",
+        "number": 28,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The old photocopier stopped working, so the office borrowed another one.",
+        "promptZh": "那部舊影印機壞掉了，所以辦公室借用了另一部。",
+        "starter": "The",
+        "answer": "The old photocopier gave up the ghost, so the office borrowed another one.",
+        "answerZh": "那部舊影印機壞掉了，所以辦公室借用了另一部。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q29",
+        "number": 29,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The freezer had stopped working before anyone noticed, and all the ice cream had melted.",
+        "promptZh": "在有人發現前，冰櫃已經停止運作，所有雪糕都融化了。",
+        "starter": "The",
+        "answer": "The freezer had already given up the ghost, and all the ice cream had melted.",
+        "answerZh": "冰櫃早已壞掉，所有雪糕都融化了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q30",
+        "number": 30,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The screen barely works now; only one corner still lights up.",
+        "promptZh": "屏幕現在幾乎完全不能運作，只有一個角落仍然亮着。",
+        "starter": "The",
+        "answer": "The screen has almost given up the ghost; only one corner still lights up.",
+        "answerZh": "屏幕幾乎完全壞掉，只有一個角落仍然亮着。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q31",
+        "number": 31,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Although we changed the batteries twice, the remote control no longer works.",
+        "promptZh": "雖然我們更換了兩次電池，但遙控器仍然不能運作。",
+        "starter": "Although",
+        "answer": "Although we changed the batteries twice, the remote control has given up the ghost.",
+        "answerZh": "雖然我們更換了兩次電池，但遙控器仍然完全壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q32",
+        "number": 32,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The motor stopped working, so the boat could not leave the harbour.",
+        "promptZh": "摩打停止運作，所以船隻無法離開港口。",
+        "starter": "Because",
+        "answer": "Because the motor gave up the ghost, the boat could not leave the harbour.",
+        "answerZh": "因為摩打壞掉，船隻無法離開港口。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q33",
+        "number": 33,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The computer stopped working before I could save the last page.",
+        "promptZh": "我還未來得及儲存最後一頁，電腦便壞掉了。",
+        "starter": "The",
+        "answer": "The computer gave up the ghost before I could save the last page.",
+        "answerZh": "我還未來得及儲存最後一頁，電腦便壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q34",
+        "number": 34,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The hotel lift has stopped working, but guests can still use the stairs.",
+        "promptZh": "酒店的升降機已停止運作，但住客仍可使用樓梯。",
+        "starter": "The",
+        "answer": "The hotel lift has given up the ghost, but guests can still use the stairs.",
+        "answerZh": "酒店的升降機已經壞掉，但住客仍可使用樓梯。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q35",
+        "number": 35,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "If the water pump stops working, the garden will not get any water.",
+        "promptZh": "如果水泵停止運作，花園便不會有水。",
+        "starter": "If",
+        "answer": "If the water pump gives up the ghost, the garden will not get any water.",
+        "answerZh": "如果水泵完全壞掉，花園便不會有水。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gives up the ghost"
+      },
+      {
+        "id": "idiom-58-q36",
+        "number": 36,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The repair worker says that the old oven could stop working at any time.",
+        "promptZh": "維修人員說，那部舊焗爐隨時可能完全壞掉。",
+        "starter": "The",
+        "answer": "The old oven could give up the ghost at any time, according to the repair worker.",
+        "answerZh": "維修人員表示，那部舊焗爐隨時可能完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "give up the ghost"
+      },
+      {
+        "id": "idiom-58-q37",
+        "number": 37,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "When the meeting started, the video camera had already stopped working.",
+        "promptZh": "會議開始時，攝錄機早已停止運作。",
+        "starter": "By",
+        "answer": "By the time the meeting started, the video camera had given up the ghost.",
+        "answerZh": "會議開始時，攝錄機早已完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q38",
+        "number": 38,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The tablet had a full charge, but it stopped working within five minutes.",
+        "promptZh": "平板電腦已完全充電，但不到五分鐘便停止運作。",
+        "starter": "Even",
+        "answer": "Even after a full charge, the tablet gave up the ghost within five minutes.",
+        "answerZh": "即使已完全充電，平板電腦仍在五分鐘內壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q39",
+        "number": 39,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Some rooms are still cold, so the heating system seems to be slowly failing.",
+        "promptZh": "部分房間仍然很冷，因此暖氣系統似乎正在逐漸失靈。",
+        "starter": "The",
+        "answer": "The heating system seems to be giving up the ghost because some rooms are still cold.",
+        "answerZh": "由於部分房間仍然很冷，暖氣系統似乎正在逐漸壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "giving up the ghost"
+      },
+      {
+        "id": "idiom-58-q40",
+        "number": 40,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The vending machine’s screen is dark, and its buttons are stuck again. It appears to have stopped working completely.",
+        "promptZh": "售賣機的屏幕一片漆黑，按鈕又卡住了。它看來已經完全停止運作。",
+        "starter": "The",
+        "answer": "The vending machine has given up the ghost again, judging by its dark screen and stuck buttons.",
+        "answerZh": "從漆黑的屏幕和卡住的按鈕看來，售賣機似乎又完全壞掉了。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q41",
+        "number": 41,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: The lights in the hall keep going off. B: The control system may be failing.",
+        "promptZh": "甲：禮堂的燈不斷熄滅。 乙：控制系統可能正在失靈。",
+        "starter": "The",
+        "answer": "The control system may be giving up the ghost.",
+        "answerZh": "控制系統可能正在逐漸壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "giving up the ghost"
+      },
+      {
+        "id": "idiom-58-q42",
+        "number": 42,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The old school bell stopped working after serving the school for forty years.",
+        "promptZh": "那個舊校鐘為學校服務四十年後，終於停止運作。",
+        "starter": "The",
+        "answer": "The old school bell finally gave up the ghost after serving the school for forty years.",
+        "answerZh": "那個舊校鐘為學校服務四十年後，終於完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q43",
+        "number": 43,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The emergency light has a weak battery. It could stop working during a power cut unless we replace the battery soon.",
+        "promptZh": "緊急照明燈的電池十分微弱。如果我們不盡快更換電池，它可能會在停電時停止運作。",
+        "starter": "Unless",
+        "answer": "Unless we replace the battery soon, the emergency light could give up the ghost during a power cut.",
+        "answerZh": "除非我們盡快更換電池，否則緊急照明燈可能會在停電時完全失效。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "give up the ghost"
+      },
+      {
+        "id": "idiom-58-q44",
+        "number": 44,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The freezer no longer works, so the shop cannot keep its drinks cold.",
+        "promptZh": "冰櫃已經不能運作，所以店舖無法保持飲品冰冷。",
+        "starter": "The",
+        "answer": "The shop cannot keep its drinks cold because the freezer has given up the ghost.",
+        "answerZh": "由於冰櫃已經壞掉，店舖無法保持飲品冰冷。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q45",
+        "number": 45,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The engineer was testing the machine when it suddenly stopped working.",
+        "promptZh": "工程師測試機器期間，機器突然停止運作。",
+        "starter": "While",
+        "answer": "While the engineer was testing it, the machine suddenly gave up the ghost.",
+        "answerZh": "工程師測試機器期間，機器突然完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q46",
+        "number": 46,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "The printer still works, but it now stops after every two pages. It has not failed completely yet.",
+        "promptZh": "打印機仍能運作，但現在每打印兩頁便會停止。它還未完全壞掉。",
+        "starter": "The",
+        "answer": "The printer has not given up the ghost yet, but it now stops after every two pages.",
+        "answerZh": "打印機還未完全壞掉，但現在每打印兩頁便會停止。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "given up the ghost"
+      },
+      {
+        "id": "idiom-58-q47",
+        "number": 47,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Why are you ordering a new coffee maker? B: The old one is making strange sounds and may stop working any day.",
+        "promptZh": "甲：你為甚麼要訂購一部新的咖啡機？ 乙：舊咖啡機正在發出奇怪聲音，可能隨時會完全壞掉。",
+        "starter": "The",
+        "answer": "The old one looks as if it is about to give up the ghost.",
+        "answerZh": "舊咖啡機看來很快便會完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "give up the ghost"
+      },
+      {
+        "id": "idiom-58-q48",
+        "number": 48,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The washing machine made strange noises for a week and finally stopped working last night.",
+        "promptZh": "洗衣機發出奇怪聲音一星期後，昨晚終於停止運作。",
+        "starter": "After",
+        "answer": "After making strange noises for a week, the washing machine finally gave up the ghost last night.",
+        "answerZh": "洗衣機發出奇怪聲音一星期後，昨晚終於完全壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q49",
+        "number": 49,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The website’s old server stopped working during the busiest hour, so customers could not place orders.",
+        "promptZh": "網站的舊伺服器在最繁忙的時段停止運作，令顧客無法下單。",
+        "starter": "The",
+        "answer": "The website’s old server gave up the ghost during the busiest hour, so customers could not place orders.",
+        "answerZh": "網站的舊伺服器在最繁忙的時段壞掉，令顧客無法下單。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "gave up the ghost"
+      },
+      {
+        "id": "idiom-58-q50",
+        "number": 50,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The repair worker got the old heating unit running once more, but it may stop working again this winter.",
+        "promptZh": "維修人員令舊暖氣裝置再次運作，但它今年冬天可能會再次壞掉。",
+        "starter": "Although",
+        "answer": "Although the repair worker got the old heating unit running once more, it may give up the ghost again this winter.",
+        "answerZh": "雖然維修人員令舊暖氣裝置再次運作，但它今年冬天可能會再次壞掉。",
+        "targetForm": "give up the ghost",
+        "targetMeaning": "When a machine, device, part or system gives up the ghost, it stops working completely, often after it has become old or unreliable.",
+        "highlight": "give up the ghost"
+      }
+    ]
+  }
+}

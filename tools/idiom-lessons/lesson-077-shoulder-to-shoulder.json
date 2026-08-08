@@ -1,0 +1,1737 @@
+{
+  "lesson": {
+    "id": "idiom-77",
+    "order": 77,
+    "slug": "shoulder-to-shoulder",
+    "version": "1",
+    "title": "並肩合作／同心協力",
+    "titleEn": "Shoulder to Shoulder",
+    "titleZh": "並肩合作／同心協力",
+    "source": {
+      "file": "Idiom 77 - Target Expression_ Shoulder to Shoulder.pdf",
+      "pageCount": 41,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "exercisePdfPages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "answerKeyPdfPages": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "Shoulder to Shoulder",
+        "highlight": "Shoulder to Shoulder"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Ava and Ben worked shoulder to shoulder on the class poster.",
+        "zh": "艾娃和本並肩合作，製作班級海報。",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "en": "The passengers stood shoulder to shoulder on the crowded train.",
+        "zh": "乘客在擠迫的列車上肩並肩站着。",
+        "highlight": "shoulder to shoulder"
+      }
+    ],
+    "meaning": {
+      "en": "People work closely together, support one another or remain united.",
+      "zh": "人們緊密合作、互相支持或團結一致。",
+      "naturalZh": [
+        "人們緊密合作、互相支持或團結一致。"
+      ]
+    },
+    "register": {
+      "labelEn": "Source-Guided Register",
+      "labelZh": "按原檔語域使用",
+      "summaryEn": "Source-Guided Register",
+      "summaryZh": "按原檔語域使用",
+      "contextsEn": [],
+      "contextsZh": [],
+      "formalEn": "Use the idiom only in the contexts described in the source.",
+      "formalZh": "只在原檔說明的合適情境中使用這個慣用語。"
+    },
+    "fixedVariable": {
+      "fixed": "Shoulder to Shoulder",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "with + person",
+          "example": "Ava and Ben worked shoulder to shoulder on the class poster.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "Shoulder to Shoulder",
+          "example": "The passengers stood shoulder to shoulder on the crowded train.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "Subject + stand(s) / stood + shoulder to shoulder.",
+          "example": "The players stood shoulder to shoulder after the difficult match.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "Subject + work(s) / worked + shoulder to shoulder.",
+          "example": "The nurses worked shoulder to shoulder during the busy night.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "Subject + fight(s) / fought + shoulder to shoulder.",
+          "example": "The doctors fought shoulder to shoulder against the disease.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "stand / work / fight shoulder to shoulder + with + person or group",
+          "example": "I will stand shoulder to shoulder with my sister.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "stand / work / fight shoulder to shoulder + for + goal",
+          "example": "The parents worked shoulder to shoulder for a safer school.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "stand / work / fight shoulder to shoulder + against + problem",
+          "example": "The doctors stood shoulder to shoulder against the illness.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "Subject + can / could / should / must / will + stand or work + shoulder to shoulder.",
+          "example": "We should stand shoulder to shoulder during this difficult time.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "Subject + verb + to stand or work shoulder to shoulder.",
+          "example": "The two classes agreed to work shoulder to shoulder.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "Subject + have / has + stood or worked + shoulder to shoulder.",
+          "example": "The two teams have worked shoulder to shoulder since Monday.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "Shoulder to shoulder, + subject + verb.",
+          "example": "Shoulder to shoulder, the students painted the school wall.",
+          "highlight": "Shoulder to shoulder"
+        },
+        {
+          "form": "Standing / Working shoulder to shoulder, + subject + verb.",
+          "example": "Working shoulder to shoulder, the cooks prepared dinner for the guests.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "By + V-ing is only one optional extension.",
+          "example": "Ava and Ben worked shoulder to shoulder on the class poster.",
+          "highlight": "shoulder to shoulder"
+        },
+        {
+          "form": "shoulder-to-shoulder + noun",
+          "example": "Their shoulder-to-shoulder work helped reopen the kitchen.",
+          "highlight": "shoulder-to-shoulder"
+        },
+        {
+          "form": "1. Subject + stand(s) / stood shoulder to shoulder.",
+          "example": "Ava and Ben worked shoulder to shoulder on the class poster.",
+          "highlight": "shoulder to shoulder"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "The Fixed Expression",
+        "titleZh": "固定表達",
+        "formula": "with + person",
+        "descriptionEn": "Source grammar frame: with + person.",
+        "descriptionZh": "原檔列出的句法框架：with + person。",
+        "examples": [
+          {
+            "en": "Ava and Ben worked shoulder to shoulder on the class poster.",
+            "zh": "艾娃和本並肩合作，製作班級海報。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Core Meaning",
+        "titleZh": "核心意思",
+        "formula": "Shoulder to Shoulder",
+        "descriptionEn": "People work closely together, support one another or remain united.",
+        "descriptionZh": "人們緊密合作、互相支持或團結一致。",
+        "examples": [
+          {
+            "en": "The passengers stood shoulder to shoulder on the crowded train.",
+            "zh": "乘客在擠迫的列車上肩並肩站着。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "After “Stand”",
+        "titleZh": "接在 stand 之後",
+        "formula": "Subject + stand(s) / stood + shoulder to shoulder.",
+        "descriptionEn": "This is one of the most common figurative patterns. It often expresses unity, loyalty or strong support.",
+        "descriptionZh": "這是最常見的比喻句式之一，通常表示團結、忠誠或全力支持。",
+        "examples": [
+          {
+            "en": "The players stood shoulder to shoulder after the difficult match.",
+            "zh": "球員在艱難的比賽後仍然團結一致。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "We stand shoulder to shoulder during difficult times.",
+            "zh": "我們在困難時期並肩同行。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "The two families have stood shoulder to shoulder for many years.",
+            "zh": "兩個家庭多年來一直互相支持。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "After “Work”",
+        "titleZh": "接在 work 之後",
+        "formula": "Subject + work(s) / worked + shoulder to shoulder.",
+        "descriptionEn": "This pattern focuses on close cooperation.",
+        "descriptionZh": "這個句式重點表示緊密合作。",
+        "examples": [
+          {
+            "en": "The nurses worked shoulder to shoulder during the busy night.",
+            "zh": "護士在繁忙的晚上並肩工作。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "Local families are working shoulder to shoulder to improve the park.",
+            "zh": "本地家庭正並肩合作，改善公園。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "The two classes will work shoulder to shoulder on the school show.",
+            "zh": "兩個班別會並肩合作，籌備學校表演。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "After “Fight”",
+        "titleZh": "接在 fight 之後",
+        "formula": "Subject + fight(s) / fought + shoulder to shoulder.",
+        "descriptionEn": "Fight does not always refer to physical violence. It may mean making a strong shared effort against a problem.",
+        "descriptionZh": "不一定表示實際打鬥，也可以表示共同努力對抗問題。",
+        "examples": [
+          {
+            "en": "The doctors fought shoulder to shoulder against the disease.",
+            "zh": "醫生並肩對抗疾病。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "The neighbours fought shoulder to shoulder to save the old trees.",
+            "zh": "鄰居並肩努力，保護老樹。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "With “With + Person or Group”",
+        "titleZh": "配合 with + 人物或群體",
+        "formula": "stand / work / fight shoulder to shoulder + with + person or group",
+        "descriptionEn": "With whom?",
+        "descriptionZh": "人物回答：",
+        "examples": [
+          {
+            "en": "I will stand shoulder to shoulder with my sister.",
+            "zh": "我會全力支持我的姐姐。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "The school worked shoulder to shoulder with local families.",
+            "zh": "學校與本地家庭緊密合作。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "The players fought shoulder to shoulder with their coach.",
+            "zh": "球員與教練並肩努力。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "With “For + Goal”",
+        "titleZh": "配合 for + 目標",
+        "formula": "stand / work / fight shoulder to shoulder + for + goal",
+        "descriptionEn": "For what shared goal?",
+        "descriptionZh": "目標回答：",
+        "examples": [
+          {
+            "en": "The parents worked shoulder to shoulder for a safer school.",
+            "zh": "家長並肩合作，希望令學校更加安全。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "The workers stood shoulder to shoulder for fair treatment.",
+            "zh": "工人團結一致，爭取公平待遇。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "The two groups fought shoulder to shoulder for the future of the park.",
+            "zh": "兩個團體並肩努力，保護公園的未來。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 8,
+        "titleEn": "With “Against + Problem”",
+        "titleZh": "配合 against + 問題",
+        "formula": "stand / work / fight shoulder to shoulder + against + problem",
+        "descriptionEn": "The against phrase identifies the problem, danger or unfair situation that people face together.",
+        "descriptionZh": "短語指出人們共同面對的問題、危險或不公平情況。",
+        "examples": [
+          {
+            "en": "The doctors stood shoulder to shoulder against the illness.",
+            "zh": "醫生並肩對抗疾病。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "The residents worked shoulder to shoulder against food waste.",
+            "zh": "居民並肩合作，減少食物浪費。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "The students fought shoulder to shoulder against bullying.",
+            "zh": "學生團結一致，對抗欺凌。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 9,
+        "titleEn": "After a Modal Verb",
+        "titleZh": "接在情態動詞之後",
+        "formula": "Subject + can / could / should / must / will + stand or work + shoulder to shoulder.",
+        "descriptionEn": "The two teams could work shoulder to shoulder on the new plan.",
+        "descriptionZh": "兩個團隊可以並肩合作，推行新計劃。",
+        "examples": [
+          {
+            "en": "We should stand shoulder to shoulder during this difficult time.",
+            "zh": "我們應在這段困難時期團結一致。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "Local people must stand shoulder to shoulder to protect the park.",
+            "zh": "本地居民必須團結一致，保護公園。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 10,
+        "titleEn": "After “To”",
+        "titleZh": "接在 to 之後",
+        "formula": "Subject + verb + to stand or work shoulder to shoulder.",
+        "descriptionEn": "We need to work shoulder to shoulder to finish the job.",
+        "descriptionZh": "我們需要並肩合作，完成工作。",
+        "examples": [
+          {
+            "en": "The two classes agreed to work shoulder to shoulder.",
+            "zh": "兩個班別同意並肩合作。",
+            "highlight": "shoulder to shoulder"
+          },
+          {
+            "en": "The players promised to stand shoulder to shoulder with their coach.",
+            "zh": "球員承諾會全力支持教練。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 11,
+        "titleEn": "In Perfect and Continuous Forms",
+        "titleZh": "用於完成式及進行式",
+        "formula": "Subject + have / has + stood or worked + shoulder to shoulder.",
+        "descriptionEn": "Source grammar frame: Subject + have / has + stood or worked + shoulder to shoulder.",
+        "descriptionZh": "原檔列出的句法框架：Subject + have / has + stood or worked + shoulder to shoulder。",
+        "examples": [
+          {
+            "en": "The two teams have worked shoulder to shoulder since Monday.",
+            "zh": "兩個團隊自星期一起一直並肩合作。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 12,
+        "titleEn": "At the Beginning of a Sentence",
+        "titleZh": "放在句首",
+        "formula": "Shoulder to shoulder, + subject + verb.",
+        "descriptionEn": "This is a more expressive sentence opening. It places emphasis on unity before presenting the action.",
+        "descriptionZh": "這是一種較有感染力的句首寫法，先突出團結，再說明行動。",
+        "examples": [
+          {
+            "en": "Shoulder to shoulder, the students painted the school wall.",
+            "zh": "學生並肩合作，粉刷學校的牆。",
+            "highlight": "Shoulder to shoulder"
+          },
+          {
+            "en": "Shoulder to shoulder, the neighbours rebuilt the garden.",
+            "zh": "鄰居並肩合作，重建花園。",
+            "highlight": "Shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 13,
+        "titleEn": "In an “-ing” Phrase",
+        "titleZh": "用於 -ing 短語",
+        "formula": "Standing / Working shoulder to shoulder, + subject + verb.",
+        "descriptionEn": "Standing shoulder to shoulder, the players faced the difficult match.",
+        "descriptionZh": "球員團結一致，面對艱難的比賽。",
+        "examples": [
+          {
+            "en": "Working shoulder to shoulder, the cooks prepared dinner for the guests.",
+            "zh": "廚師並肩合作，為賓客準備晚餐。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 14,
+        "titleEn": "With “By + V-ing”",
+        "titleZh": "配合 by + V-ing",
+        "formula": "By + V-ing is only one optional extension.",
+        "descriptionEn": "How did the people work or stand shoulder to shoulder?",
+        "descriptionZh": "它回答：",
+        "examples": [
+          {
+            "en": "Ava and Ben worked shoulder to shoulder on the class poster.",
+            "zh": "艾娃和本並肩合作，製作班級海報。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 15,
+        "titleEn": "Before a Noun",
+        "titleZh": "放在名詞之前",
+        "formula": "shoulder-to-shoulder + noun",
+        "descriptionEn": "Source grammar frame: shoulder-to-shoulder + noun.",
+        "descriptionZh": "原檔列出的句法框架：shoulder-to-shoulder + noun。",
+        "examples": [
+          {
+            "en": "Their shoulder-to-shoulder work helped reopen the kitchen.",
+            "zh": "他們並肩合作，令廚房可以重新開放。",
+            "highlight": "shoulder-to-shoulder"
+          },
+          {
+            "en": "The event showed a strong shoulder-to-shoulder partnership.",
+            "zh": "這項活動展現了緊密合作的伙伴關係。",
+            "highlight": "shoulder-to-shoulder"
+          },
+          {
+            "en": "It was a shoulder-to-shoulder effort by the whole town.",
+            "zh": "這是全鎮上下並肩合作的成果。",
+            "highlight": "shoulder-to-shoulder"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 16,
+        "titleEn": "Best Core Grammar Bank",
+        "titleZh": "最重要句式庫",
+        "formula": "1. Subject + stand(s) / stood shoulder to shoulder.",
+        "descriptionEn": "Source grammar frame: 1. Subject + stand(s) / stood shoulder to shoulder.",
+        "descriptionZh": "原檔列出的句法框架：1. Subject + stand(s) / stood shoulder to shoulder。",
+        "examples": [
+          {
+            "en": "Ava and Ben worked shoulder to shoulder on the class poster.",
+            "zh": "艾娃和本並肩合作，製作班級海報。",
+            "highlight": "shoulder to shoulder"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Expresses Unity in a Compact Way",
+        "titleZh": "以簡潔方式表達團結",
+        "en": "The two groups stood shoulder to shoulder.",
+        "zh": "這個表達可以把「互相支持、保持團結、為共同目標緊密合作」等較長意思濃縮成較短的說法。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "It Shows Stronger Support Than “Work Together”",
+        "titleZh": "比 work together 表達更強的支持",
+        "en": "unity; loyalty; shared difficulty; full support; a common goal. Shoulder to shoulder",
+        "zh": "Work together 可能只表示一起完成工作。 Shoulder to shoulder 通常進一步表示：",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "It Is Useful for Support During Difficult Times",
+        "titleZh": "適合表達困難時期的支持",
+        "en": "a friend faces a problem; a team suffers a loss; a family needs help; a town faces danger; workers ask for fair treatment. We will stand shoulder to shoulder with the family.",
+        "zh": "例如： 我們會全力支持這個家庭。",
+        "examples": [
+          {
+            "en": "We will stand shoulder to shoulder with the family.",
+            "zh": "我們會全力支持這個家庭。",
+            "highlight": "shoulder to shoulder"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful for Teamwork and Shared Goals",
+        "titleZh": "適合表達團隊合作及共同目標",
+        "en": "It Is Useful for Teamwork and Shared Goals",
+        "zh": "適合表達團隊合作及共同目標",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "It Gives Students Several Natural Sentence Openings",
+        "titleZh": "提供多種自然句首",
+        "en": "It Gives Students Several Natural Sentence Openings",
+        "zh": "提供多種自然句首",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "It Can Emphasise Cooperation Without Repeating",
+        "titleZh": "避免重複使用 together",
+        "en": "“Together”",
+        "zh": "避免重複使用 together Students often overuse:",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Well-Documented General Origin; Exact First Figurative Use Uncertain",
+      "statusZh": "整體來源有較充分記錄；確切首次比喻用法不明",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "Historical records connect stand shoulder to shoulder with soldiers standing closely together in formation from the late sixteenth century. Etymonline dates this military use to the 1580s.",
+          "zh": "歷史記錄把 stand shoulder to shoulder 與十六世紀末士兵緊密列隊的情況連繫起來。 現有資料顯示，這種軍事用法至少在1580年代已經出現。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "Soldiers in a close line faced the same direction and depended on the people beside them. The physical picture therefore became a natural image of unity, cooperation and mutual support.",
+          "zh": "緊密列隊的士兵朝着相同方向，並依靠身旁的人。 這個實際畫面因此逐漸成為團結、合作及互相支持的象徵。"
+        }
+      ],
+      "memoryEn": "People whose shoulders form one line appear ready to face the same problem together.",
+      "memoryZh": "當人們肩並肩排成一線時，便像是準備共同面對同一個問題。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "The Fixed Expression Is Only Shoulder to",
+        "titleZh": "規則一",
+        "en": "Shoulder",
+        "zh": "固定表達只有 shoulder to shoulder 固定表達只有",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use the Singular Form “Shoulder” Twice",
+        "titleZh": "規則二：兩個 shoulder 都使用單數",
+        "en": "Use the Singular Form “Shoulder” Twice",
+        "zh": "兩個 shoulder 都使用單數",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Do Not Add an Article",
+        "titleZh": "規則三：不要加入冠詞",
+        "en": "Do Not Add an Article",
+        "zh": "不要加入冠詞",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Choose a Natural Main Verb",
+        "titleZh": "規則四：選擇自然的主要動詞",
+        "en": "Choose a Natural Main Verb",
+        "zh": "選擇自然的主要動詞",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Distinguish “Stand” from “Work”",
+        "titleZh": "規則五：分辨 stand 和 work",
+        "en": "Distinguish “Stand” from “Work”",
+        "zh": "分辨 stand 和 work",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "“With + Person” Is Optional",
+        "titleZh": "規則六：with + 人物是可選部分",
+        "en": "“With + Person” Is Optional",
+        "zh": "with + 人物是可選部分",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "“By + V-ing” Is Optional",
+        "titleZh": "規則七：by + V-ing 是可選部分",
+        "en": "“By + V-ing” Is Optional",
+        "zh": "by + V-ing 是可選部分",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Avoid Redundant “Together”",
+        "titleZh": "規則八：避免重複使用 together",
+        "en": "Avoid Redundant “Together”",
+        "zh": "避免重複使用 together",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Preserve Tense and Modal Meaning",
+        "titleZh": "規則九：保留時態及情態意思",
+        "en": "Preserve Tense and Modal Meaning",
+        "zh": "保留時態及情態意思",
+        "examples": []
+      },
+      {
+        "number": 10,
+        "titleEn": "Use Hyphens Only Before a Noun",
+        "titleZh": "規則十：只在名詞前使用連字號",
+        "en": "Use Hyphens Only Before a Noun",
+        "zh": "只在名詞前使用連字號",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "The Source Must Show Real Unity or",
+        "titleZh": "規則十一：原句必須真正表達團結或合作",
+        "en": "Cooperation",
+        "zh": "原句必須真正表達團結或合作 Suitable:",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Do Not Use It for Every Shared Activity",
+        "titleZh": "規則十二：並非所有共同活動都適用",
+        "en": "Do Not Use It for Every Shared Activity",
+        "zh": "並非所有共同活動都適用",
+        "examples": []
+      },
+      {
+        "number": 13,
+        "titleEn": "Do Not Repeat the Idiom’s Meaning",
+        "titleZh": "規則十三：不要重複慣用語已表達的意思",
+        "en": "Do Not Repeat the Idiom’s Meaning",
+        "zh": "不要重複慣用語已表達的意思",
+        "examples": []
+      },
+      {
+        "number": 14,
+        "titleEn": "Preserve the Context Anchor",
+        "titleZh": "規則十四：保留重要情境",
+        "en": "Preserve the Context Anchor",
+        "zh": "保留重要情境",
+        "examples": []
+      },
+      {
+        "number": 15,
+        "titleEn": "Translate by Meaning",
+        "titleZh": "規則十五：按意思翻譯",
+        "en": "Choose the translation that matches the context.",
+        "zh": "肩膀對肩膀 into every answer.",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "練習 Rewrite each sentence or complete each response using shoulder to shoulder.",
+      "zh": "使用 shoulder to shoulder 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-77-q01",
+        "number": 1,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "Ava and Ben worked closely together on the class poster.",
+        "promptZh": "艾娃和本緊密合作，製作班級海報。",
+        "starter": "Ava",
+        "answer": "Ava and Ben worked shoulder to shoulder on the class poster.",
+        "answerZh": "艾娃和本並肩合作，製作班級海報。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q02",
+        "number": 2,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 34,
+        "answerSourcePages": [
+          34
+        ],
+        "prompt": "During the difficult night shift, the nurses gave one another full support.",
+        "promptZh": "在艱難的夜班中，護士互相全力支持。",
+        "starter": "During",
+        "answer": "During the difficult night shift, the nurses stood shoulder to shoulder.",
+        "answerZh": "在艱難的夜班中，護士互相扶持。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q03",
+        "number": 3,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Our team stayed united during the final match.",
+        "promptZh": "我們的球隊在決賽中保持團結。",
+        "starter": "Our",
+        "answer": "Our team stood shoulder to shoulder during the final match.",
+        "answerZh": "我們的球隊在決賽中團結一致。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q04",
+        "number": 4,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The neighbours worked together closely to clean the park.",
+        "promptZh": "鄰居緊密合作，清潔公園。",
+        "starter": "The",
+        "answer": "The neighbours worked shoulder to shoulder to clean the park.",
+        "answerZh": "鄰居並肩合作，清潔公園。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q05",
+        "number": 5,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Emma gave her friend full support during a difficult week.",
+        "promptZh": "艾瑪在朋友度過艱難一週時全力支持她。",
+        "starter": "Emma",
+        "answer": "Emma stood shoulder to shoulder with her friend during the difficult week.",
+        "answerZh": "艾瑪在朋友度過艱難一週時全力支持她。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q06",
+        "number": 6,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "Parents and teachers worked closely together to help the children.",
+        "promptZh": "家長和老師緊密合作，幫助孩子。",
+        "starter": "Parents",
+        "answer": "Parents and teachers worked shoulder to shoulder to help the children.",
+        "answerZh": "家長和老師並肩合作，幫助孩子。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q07",
+        "number": 7,
+        "sourcePage": 26,
+        "sourcePages": [
+          26
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "I fully supported my brother when he opened his new shop.",
+        "promptZh": "弟弟開設新店時，我全力支持他。",
+        "starter": "I",
+        "answer": "I stood shoulder to shoulder with my brother when he opened his new shop.",
+        "answerZh": "弟弟開設新店時，我全力支持他。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q08",
+        "number": 8,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "The two classes worked as one to prepare the school show.",
+        "promptZh": "兩個班別團結合作，籌備學校表演。",
+        "starter": "To",
+        "answer": "To prepare the school show, the two classes worked shoulder to shoulder.",
+        "answerZh": "為了籌備學校表演，兩個班別並肩合作。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q09",
+        "number": 9,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "A: Will your group give us full support during the event? B: Yes, we will.",
+        "promptZh": "甲：你們的小組會在活動期間全力支持我們嗎？ 乙：會。",
+        "starter": "Yes.",
+        "answer": "Yes. We will stand shoulder to shoulder with you during the event.",
+        "answerZh": "會。我們會在活動期間全力支持你們。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q10",
+        "number": 10,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 35,
+        "answerSourcePages": [
+          35
+        ],
+        "prompt": "When the problem came up, the workers and the manager stayed united.",
+        "promptZh": "問題出現時，工人和經理保持團結。",
+        "starter": "When",
+        "answer": "When the problem came up, the workers and the manager stood shoulder to shoulder.",
+        "answerZh": "問題出現時，工人和經理團結一致。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q11",
+        "number": 11,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Every year, local shops work closely with the school to help families in need.",
+        "promptZh": "本地商店每年都與學校緊密合作，幫助有需要的家庭。",
+        "starter": "Every",
+        "answer": "Every year, local shops work shoulder to shoulder with the school to help families in need.",
+        "answerZh": "本地商店每年都與學校緊密合作，幫助有需要的家庭。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q12",
+        "number": 12,
+        "sourcePage": 27,
+        "sourcePages": [
+          27
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "We should remain united during this difficult time.",
+        "promptZh": "我們應在這段困難時期保持團結。",
+        "starter": "We",
+        "answer": "We should stand shoulder to shoulder during this difficult time.",
+        "answerZh": "我們應在這段困難時期團結一致。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q13",
+        "number": 13,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Since the project began, the two teams have worked closely together.",
+        "promptZh": "自項目開始以來，兩個團隊一直緊密合作。",
+        "starter": "Since",
+        "answer": "Since the project began, the two teams have worked shoulder to shoulder.",
+        "answerZh": "自項目開始以來，兩個團隊一直並肩合作。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q14",
+        "number": 14,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "At the health day, hospital staff and local helpers will work closely together.",
+        "promptZh": "在健康日，醫院員工和本地幫手會緊密合作。",
+        "starter": "At",
+        "answer": "At the health day, hospital staff and local helpers will work shoulder to shoulder.",
+        "answerZh": "在健康日，醫院員工和本地幫手會並肩合作。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q15",
+        "number": 15,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "The two groups agreed to work closely together on the town garden.",
+        "promptZh": "兩個小組同意緊密合作，改善鎮上的花園。",
+        "starter": "The",
+        "answer": "The two groups agreed to work shoulder to shoulder on the town garden.",
+        "answerZh": "兩個小組同意並肩合作，改善鎮上的花園。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q16",
+        "number": 16,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "After the loss, the players promised to give their coach full support.",
+        "promptZh": "比賽落敗後，球員承諾會全力支持教練。",
+        "starter": "After",
+        "answer": "After the loss, the players promised to stand shoulder to shoulder with their coach.",
+        "answerZh": "比賽落敗後，球員承諾會全力支持教練。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q17",
+        "number": 17,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Small shops could work closely with local schools to reduce food waste.",
+        "promptZh": "小商店可以與本地學校緊密合作，減少食物浪費。",
+        "starter": "Small",
+        "answer": "Small shops could work shoulder to shoulder with local schools to reduce food waste.",
+        "answerZh": "小商店可以與本地學校並肩合作，減少食物浪費。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q18",
+        "number": 18,
+        "sourcePage": 28,
+        "sourcePages": [
+          28
+        ],
+        "answerSourcePage": 36,
+        "answerSourcePages": [
+          36
+        ],
+        "prompt": "Do you think the two office teams can work as one on the new plan?",
+        "promptZh": "你認為兩個辦公室團隊可以在新計劃上團結合作嗎？",
+        "starter": "Can",
+        "answer": "Can the two office teams work shoulder to shoulder on the new plan?",
+        "answerZh": "兩個辦公室團隊可以在新計劃上並肩合作嗎？",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q19",
+        "number": 19,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Local volunteers are working closely with families to repair the playground.",
+        "promptZh": "本地義工正與家庭緊密合作，維修遊樂場。",
+        "starter": "Local",
+        "answer": "Local volunteers are working shoulder to shoulder with families to repair the playground.",
+        "answerZh": "本地義工正與家庭並肩合作，維修遊樂場。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q20",
+        "number": 20,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "Before outside help arrived, the residents had stayed united through the storm.",
+        "promptZh": "外來支援到達前，居民在暴風雨期間一直團結互助。",
+        "starter": "Before",
+        "answer": "Before outside help arrived, the residents had stood shoulder to shoulder through the storm.",
+        "answerZh": "外來支援到達前，居民在暴風雨期間一直團結互助。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q21",
+        "number": 21,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The students worked as one and painted the school wall before lunch.",
+        "promptZh": "學生團結合作，在午飯前粉刷了學校的牆。",
+        "starter": "Shoulder",
+        "answer": "Shoulder to shoulder, the students painted the school wall before lunch.",
+        "answerZh": "學生並肩合作，在午飯前粉刷了學校的牆。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "Shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q22",
+        "number": 22,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The parents fully supported the teachers while they planned the school trip.",
+        "promptZh": "家長在老師計劃學校旅行時全力支持他們。",
+        "starter": "Shoulder",
+        "answer": "Shoulder to shoulder with the teachers, the parents planned the school trip.",
+        "answerZh": "家長與老師並肩合作，計劃學校旅行。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "Shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q23",
+        "number": 23,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The cooks worked closely together and prepared dinner for one hundred guests.",
+        "promptZh": "廚師緊密合作，為一百名賓客準備晚餐。",
+        "starter": "Working",
+        "answer": "Working shoulder to shoulder, the cooks prepared dinner for one hundred guests.",
+        "answerZh": "廚師並肩合作，為一百名賓客準備晚餐。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q24",
+        "number": 24,
+        "sourcePage": 29,
+        "sourcePages": [
+          29
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The guide worked closely with local helpers to clear the walking path.",
+        "promptZh": "導遊與本地幫手緊密合作，清理行人小徑。",
+        "starter": "Working",
+        "answer": "Working shoulder to shoulder with local helpers, the guide cleared the walking path.",
+        "answerZh": "導遊與本地幫手並肩合作，清理行人小徑。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q25",
+        "number": 25,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "To help the families, the two groups chose to work as one.",
+        "promptZh": "為了幫助這些家庭，兩個小組選擇團結合作。",
+        "starter": "To",
+        "answer": "To help the families, the two groups chose to work shoulder to shoulder.",
+        "answerZh": "為了幫助這些家庭，兩個小組選擇並肩合作。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q26",
+        "number": 26,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 37,
+        "answerSourcePages": [
+          37
+        ],
+        "prompt": "The two friends continued to give one another full support through every problem.",
+        "promptZh": "兩位朋友在面對每個問題時都繼續全力支持對方。",
+        "starter": "Through",
+        "answer": "Through every problem, the two friends continued to stand shoulder to shoulder.",
+        "answerZh": "兩位朋友在面對每個問題時都繼續互相支持。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q27",
+        "number": 27,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The staff said that they were ready to give the new manager full support.",
+        "promptZh": "員工表示，他們已準備好全力支持新經理。",
+        "starter": "The",
+        "answer": "The staff were ready to stand shoulder to shoulder with the new manager.",
+        "answerZh": "員工已準備好全力支持新經理。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q28",
+        "number": 28,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "The coach said that the players had fully supported one another throughout the match.",
+        "promptZh": "教練表示，球員在整場比賽中一直互相全力支持。",
+        "starter": "The",
+        "answer": "The coach said that the players had stood shoulder to shoulder throughout the match.",
+        "answerZh": "教練表示，球員在整場比賽中一直團結互助。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q29",
+        "number": 29,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Will the neighbours work as one to save the old library?",
+        "promptZh": "鄰居會否團結合作，拯救舊圖書館？",
+        "starter": "Will",
+        "answer": "Will the neighbours stand shoulder to shoulder to save the old library?",
+        "answerZh": "鄰居會否團結合作，拯救舊圖書館？",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q30",
+        "number": 30,
+        "sourcePage": 30,
+        "sourcePages": [
+          30
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Give the family your full support during this difficult time.",
+        "promptZh": "在這段困難時期全力支持這個家庭。",
+        "starter": "Stand",
+        "answer": "Stand shoulder to shoulder with the family during this difficult time.",
+        "answerZh": "在這段困難時期全力支持這個家庭。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q31",
+        "number": 31,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Although they came from different schools, the students worked closely together on the science show.",
+        "promptZh": "雖然學生來自不同學校，但他們仍緊密合作，籌備科學表演。",
+        "starter": "Although",
+        "answer": "Although they came from different schools, the students worked shoulder to shoulder on the science show.",
+        "answerZh": "雖然學生來自不同學校，但他們仍並肩合作，籌備科學表演。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q32",
+        "number": 32,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "Because the town faced a serious flood, people stayed united to protect their homes.",
+        "promptZh": "因為小鎮面對嚴重水災，居民團結一致，保護家園。",
+        "starter": "Because",
+        "answer": "Because the town faced a serious flood, people stood shoulder to shoulder to protect their homes.",
+        "answerZh": "因為小鎮面對嚴重水災，居民團結一致，保護家園。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q33",
+        "number": 33,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "If parents and teachers give one another full support, the children will feel safer.",
+        "promptZh": "如果家長和老師互相全力支持，孩子便會感到更加安全。",
+        "starter": "If",
+        "answer": "If parents and teachers stand shoulder to shoulder, the children will feel safer.",
+        "answerZh": "如果家長和老師互相支持，孩子便會感到更加安全。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q34",
+        "number": 34,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 38,
+        "answerSourcePages": [
+          38
+        ],
+        "prompt": "When the shop lost power, the staff and customers worked together closely to move the food.",
+        "promptZh": "店舖停電時，員工和顧客緊密合作，把食物移走。",
+        "starter": "When",
+        "answer": "When the shop lost power, the staff and customers worked shoulder to shoulder to move the food.",
+        "answerZh": "店舖停電時，員工和顧客並肩合作，把食物移走。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q35",
+        "number": 35,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Whatever happens, we must remain united with our team.",
+        "promptZh": "無論發生甚麼事，我們都必須與團隊保持團結。",
+        "starter": "Whatever",
+        "answer": "Whatever happens, we must stand shoulder to shoulder with our team.",
+        "answerZh": "無論發生甚麼事，我們都必須與團隊保持團結。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q36",
+        "number": 36,
+        "sourcePage": 31,
+        "sourcePages": [
+          31
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The leader said, “We will give local families our full support during the repair work.”",
+        "promptZh": "領袖說：「我們會在維修工作期間全力支持本地家庭。」",
+        "starter": "We",
+        "answer": "“We will stand shoulder to shoulder with local families during the repair work,” the leader said.",
+        "answerZh": "領袖說：「我們會在維修工作期間全力支持本地家庭。」",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q37",
+        "number": 37,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The two groups finished the work on time because they worked closely together.",
+        "promptZh": "兩個小組緊密合作，因此準時完成工作。",
+        "starter": "By",
+        "answer": "By working shoulder to shoulder, the two groups finished the work on time.",
+        "answerZh": "兩個小組並肩合作，準時完成了工作。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q38",
+        "number": 38,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Their close work together helped the community kitchen reopen.",
+        "promptZh": "他們緊密合作，令社區廚房可以重新開放。",
+        "starter": "Their",
+        "answer": "Their shoulder-to-shoulder work helped the community kitchen reopen.",
+        "answerZh": "他們並肩合作，令社區廚房可以重新開放。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder-to-shoulder"
+      },
+      {
+        "id": "idiom-77-q39",
+        "number": 39,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "At the school sports day, the main message was that everyone should stay united.",
+        "promptZh": "在學校陸運會上，主要訊息是大家應保持團結。",
+        "starter": "At",
+        "answer": "At the school sports day, the message was simple: shoulder to shoulder.",
+        "answerZh": "在學校陸運會上，主要訊息十分簡單：團結一致。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q40",
+        "number": 40,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Working together in a united way gave the team the strength to continue.",
+        "promptZh": "團隊團結合作，因而有力量繼續下去。",
+        "starter": "Working",
+        "answer": "Working shoulder to shoulder gave the team the strength to continue.",
+        "answerZh": "並肩合作令團隊有力量繼續下去。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q41",
+        "number": 41,
+        "sourcePage": 32,
+        "sourcePages": [
+          32
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "Although the two shops usually compete, they worked closely together to help the town after the fire.",
+        "promptZh": "雖然兩間商店平日互相競爭，但火災後仍緊密合作，幫助小鎮。",
+        "starter": "Although",
+        "answer": "Although the two shops usually compete, they worked shoulder to shoulder to help the town after the fire.",
+        "answerZh": "雖然兩間商店平日互相競爭，但火災後仍並肩合作，幫助小鎮。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q42",
+        "number": 42,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 39,
+        "answerSourcePages": [
+          39
+        ],
+        "prompt": "The nurses who worked closely with the doctors cared for every patient.",
+        "promptZh": "與醫生緊密合作的護士照顧了每名病人。",
+        "starter": "The",
+        "answer": "The nurses who worked shoulder to shoulder with the doctors cared for every patient.",
+        "answerZh": "與醫生並肩合作的護士照顧了每名病人。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q43",
+        "number": 43,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "A: How did the school and the parents help the children after the storm? B: They worked closely together to reopen the classes.",
+        "promptZh": "甲：暴風雨後，學校和家長如何幫助孩子？ 乙：他們緊密合作，讓課堂重新開始。",
+        "starter": "They",
+        "answer": "They worked shoulder to shoulder to reopen the classes after the storm.",
+        "answerZh": "暴風雨後，他們並肩合作，讓課堂重新開始。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q44",
+        "number": 44,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The two groups may solve the problem if they work closely together.",
+        "promptZh": "如果兩個小組緊密合作，便可能解決問題。",
+        "starter": "The",
+        "answer": "The two groups may solve the problem if they work shoulder to shoulder.",
+        "answerZh": "如果兩個小組並肩合作，便可能解決問題。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q45",
+        "number": 45,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Without sharing information, the teams cannot truly work as one.",
+        "promptZh": "如果不分享資訊，團隊便無法真正團結合作。",
+        "starter": "Unless",
+        "answer": "Unless they share information, the teams cannot work shoulder to shoulder.",
+        "answerZh": "除非團隊分享資訊，否則便無法真正並肩合作。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q46",
+        "number": 46,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "For ten years, the centre staff have worked closely with parents to support young people.",
+        "promptZh": "十年來，中心員工一直與家長緊密合作，支援年輕人。",
+        "starter": "For",
+        "answer": "For ten years, the centre staff have worked shoulder to shoulder with parents to support young people.",
+        "answerZh": "十年來，中心員工一直與家長並肩合作，支援年輕人。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q47",
+        "number": 47,
+        "sourcePage": 33,
+        "sourcePages": [
+          33
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "The event was a clear example of a close partnership between the school and the town.",
+        "promptZh": "這項活動清楚展示了學校與小鎮之間的緊密合作關係。",
+        "starter": "The",
+        "answer": "The event showed a strong shoulder-to-shoulder partnership between the school and the town.",
+        "answerZh": "這項活動展現了學校與小鎮之間緊密合作的伙伴關係。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder-to-shoulder"
+      },
+      {
+        "id": "idiom-77-q48",
+        "number": 48,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Local doctors fully supported the teachers while they gave health lessons to families.",
+        "promptZh": "老師向家庭提供健康課堂時，本地醫生全力支持他們。",
+        "starter": "Shoulder",
+        "answer": "Shoulder to shoulder with the teachers, local doctors gave health lessons to families.",
+        "answerZh": "本地醫生與老師並肩合作，向家庭提供健康課堂。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "Shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q49",
+        "number": 49,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 40,
+        "answerSourcePages": [
+          40
+        ],
+        "prompt": "Since Monday, the neighbours have been working closely together to find the missing dog.",
+        "promptZh": "自星期一起，鄰居一直緊密合作，尋找失蹤的狗。",
+        "starter": "Since",
+        "answer": "Since Monday, the neighbours have been working shoulder to shoulder to find the missing dog.",
+        "answerZh": "自星期一起，鄰居一直並肩合作，尋找失蹤的狗。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      },
+      {
+        "id": "idiom-77-q50",
+        "number": 50,
+        "sourcePage": 34,
+        "sourcePages": [
+          34
+        ],
+        "answerSourcePage": 41,
+        "answerSourcePages": [
+          41
+        ],
+        "prompt": "The two sides had disagreed for months, but when the river rose, they worked closely together to build a wall.",
+        "promptZh": "雙方已爭論數月，但河水上漲時，他們仍緊密合作築起一道牆。",
+        "starter": "Although",
+        "answer": "Although they had disagreed for months, both sides worked shoulder to shoulder to build a wall when the river rose.",
+        "answerZh": "雖然雙方已爭論數月，但河水上漲時，他們仍並肩合作築起一道牆。",
+        "targetForm": "Shoulder to Shoulder",
+        "targetMeaning": "People work closely together, support one another or remain united.",
+        "highlight": "shoulder to shoulder"
+      }
+    ]
+  }
+}

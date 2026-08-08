@@ -1,0 +1,1493 @@
+{
+  "lesson": {
+    "id": "idiom-36",
+    "order": 36,
+    "slug": "big-fish",
+    "version": "1",
+    "title": "大人物／重要人物",
+    "titleEn": "big fish",
+    "titleZh": "大人物／重要人物",
+    "source": {
+      "file": "Idiom 36 -“BIG FISH”.pdf",
+      "pageCount": 28,
+      "contentPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "exercisePdfPages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "answerKeyPdfPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "omissions": [
+        "The owner-rejected communication-purpose block was intentionally omitted under the approved Idiom formatting contract.",
+        "The owner-rejected literal-picture block was intentionally omitted under the approved Idiom formatting contract.",
+        "Extended dictionary/source commentary after the concise Core Meaning was intentionally omitted."
+      ]
+    },
+    "formulas": [
+      {
+        "labelEn": "Core Idiom",
+        "labelZh": "核心慣用語",
+        "formula": "big fish",
+        "highlight": "big fish"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Mr Wong is a big fish in local education.",
+        "zh": "黃先生是本地教育界的大人物。",
+        "highlight": "big fish"
+      },
+      {
+        "en": "Rachel is a big fish at the company.",
+        "zh": "瑞秋是公司的重要人物。",
+        "highlight": "big fish"
+      }
+    ],
+    "meaning": {
+      "en": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+      "zh": "在一個團體、機構、公司、專業或行業中，具有重要地位、權力或影響力的大人物。",
+      "naturalZh": [
+        "在一個團體、機構、公司、專業或行業中，具有重要地位、權力或影響力的大人物。"
+      ]
+    },
+    "register": {
+      "labelEn": "Informal to Neutral",
+      "labelZh": "非正式至中性",
+      "summaryEn": "everyday conversation; workplace conversation; interviews; news reports and commentary; informal articles; stories and personal writing.",
+      "summaryZh": "這個表達本身並不粗俗，但可以按語境帶有欣賞、中性、幽默或批評的語氣。",
+      "contextsEn": [
+        "everyday conversation",
+        "workplace conversation",
+        "interviews",
+        "news reports and commentary",
+        "informal articles",
+        "stories and personal writing"
+      ],
+      "contextsZh": [
+        "日常對話",
+        "工作場合的對話",
+        "訪問",
+        "新聞報道及評論",
+        "較口語化的文章",
+        "故事及個人寫作。"
+      ],
+      "formalEn": "In highly formal academic, legal or official writing, important person, senior figure, influential leader or senior official may be more suitable.",
+      "formalZh": "在非常正式的學術、法律或官方文章中，使用 important person、senior figure、influential leader 或 senior official 可能更合適"
+    },
+    "fixedVariable": {
+      "fixed": "big fish",
+      "fixedEn": "Keep the fixed words and word order shown in the source expression.",
+      "fixedZh": "保留原檔目標表達中的固定字詞及字序。",
+      "variableEn": "Change only the verb form, possessive, tense or surrounding grammar permitted by the source patterns.",
+      "variableZh": "只按照原檔句式改變動詞形式、所有格、時態或前後文法。",
+      "forms": [
+        {
+          "form": "Person + be + a big fish + in/at + group, company or field.",
+          "example": "Mr Wong is a big fish in local education.",
+          "highlight": "big fish"
+        },
+        {
+          "form": "Person + become + a big fish + in/at...",
+          "example": "Sana has become a big fish in the art world.",
+          "highlight": "big fish"
+        },
+        {
+          "form": "Person + remain / seem to be + a big fish + in...",
+          "example": "Mr Ho remains a big fish in local radio.",
+          "highlight": "big fish"
+        },
+        {
+          "form": "People + be + big fish + in/from...",
+          "example": "The two guests are big fish in the film business.",
+          "highlight": "big fish"
+        },
+        {
+          "form": "describe / call / see / treat + someone + as + a big fish",
+          "example": "The newspaper described her as a big fish in local education.",
+          "highlight": "big fish"
+        },
+        {
+          "form": "Person + be + the big fish + in/at...",
+          "example": "Marcus is the big fish in the design team.",
+          "highlight": "big fish"
+        },
+        {
+          "form": "Person + be/become + one of the big fish + in...",
+          "example": "Imani has become one of the big fish in the city’s music scene.",
+          "highlight": "big fish"
+        }
+      ]
+    },
+    "specificForms": [
+      {
+        "number": 1,
+        "titleEn": "Basic Description",
+        "titleZh": "句式一：基本描述",
+        "formula": "Person + be + a big fish + in/at + group, company or field.",
+        "descriptionEn": "Source grammar frame: Person + be + a big fish + in/at + group, company or field.",
+        "descriptionZh": "原檔列出的句法框架：Person + be + a big fish + in/at + group, company or field。",
+        "examples": [
+          {
+            "en": "Mr Wong is a big fish in local education.",
+            "zh": "黃先生是本地教育界的大人物。",
+            "highlight": "big fish"
+          },
+          {
+            "en": "Rachel is a big fish at the company.",
+            "zh": "瑞秋是公司的重要人物。",
+            "highlight": "big fish"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Change of Status",
+        "titleZh": "句式二：地位的轉變",
+        "formula": "Person + become + a big fish + in/at...",
+        "descriptionEn": "Source grammar frame: Person + become + a big fish + in/at.",
+        "descriptionZh": "原檔列出的句法框架：Person + become + a big fish + in/at。",
+        "examples": [
+          {
+            "en": "Sana has become a big fish in the art world.",
+            "zh": "莎娜已成為藝術界的大人物。",
+            "highlight": "big fish"
+          },
+          {
+            "en": "Ethan may become a big fish in the club.",
+            "zh": "伊頓可能會成為會內的大人物。",
+            "highlight": "big fish"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Continued or Apparent Importance",
+        "titleZh": "句式三：持續或看來具有重要地位",
+        "formula": "Person + remain / seem to be + a big fish + in...",
+        "descriptionEn": "Source grammar frame: Person + remain / seem to be + a big fish + in.",
+        "descriptionZh": "原檔列出的句法框架：Person + remain / seem to be + a big fish + in。",
+        "examples": [
+          {
+            "en": "Mr Ho remains a big fish in local radio.",
+            "zh": "何先生仍是本地電台界的大人物。",
+            "highlight": "big fish"
+          },
+          {
+            "en": "The new director seems to be a big fish in the technology industry.",
+            "zh": "新任總監看來是科技業中的大人物。",
+            "highlight": "big fish"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 4,
+        "titleEn": "Plural Form",
+        "titleZh": "句式四：複數形式",
+        "formula": "People + be + big fish + in/from...",
+        "descriptionEn": "Source grammar frame: People + be + big fish + in/from.",
+        "descriptionZh": "原檔列出的句法框架：People + be + big fish + in/from。",
+        "examples": [
+          {
+            "en": "The two guests are big fish in the film business.",
+            "zh": "兩位嘉賓都是電影業中的大人物。",
+            "highlight": "big fish"
+          },
+          {
+            "en": "Several big fish from the music business attended the event.",
+            "zh": "數名來自音樂業的大人物出席了活動。",
+            "highlight": "big fish"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Describing or Viewing Someone",
+        "titleZh": "句式五：形容或視某人為大人物",
+        "formula": "describe / call / see / treat + someone + as + a big fish",
+        "descriptionEn": "Source grammar frame: describe / call / see / treat + someone + as + a big fish.",
+        "descriptionZh": "原檔列出的句法框架：describe / call / see / treat + someone + as + a big fish。",
+        "examples": [
+          {
+            "en": "The newspaper described her as a big fish in local education.",
+            "zh": "報章把她形容為本地教育界的大人物。",
+            "highlight": "big fish"
+          },
+          {
+            "en": "People now see him as a big fish in the company.",
+            "zh": "人們現在把他視為公司的大人物。",
+            "highlight": "big fish"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 6,
+        "titleEn": "One Main Powerful Person",
+        "titleZh": "句式六：一位最具影響力的人物",
+        "formula": "Person + be + the big fish + in/at...",
+        "descriptionEn": "Source grammar frame: Person + be + the big fish + in/at.",
+        "descriptionZh": "原檔列出的句法框架：Person + be + the big fish + in/at。",
+        "examples": [
+          {
+            "en": "Marcus is the big fish in the design team.",
+            "zh": "馬庫斯是設計團隊中最具影響力的大人物。",
+            "highlight": "big fish"
+          }
+        ],
+        "notes": []
+      },
+      {
+        "number": 7,
+        "titleEn": "One of Several Important People",
+        "titleZh": "句式七：多名大人物之一",
+        "formula": "Person + be/become + one of the big fish + in...",
+        "descriptionEn": "Source grammar frame: Person + be/become + one of the big fish + in.",
+        "descriptionZh": "原檔列出的句法框架：Person + be/become + one of the big fish + in。",
+        "examples": [
+          {
+            "en": "Imani has become one of the big fish in the city’s music scene.",
+            "zh": "伊瑪妮已成為市內音樂界的大人物之一。",
+            "highlight": "big fish"
+          }
+        ],
+        "notes": []
+      }
+    ],
+    "benefits": [
+      {
+        "number": 1,
+        "titleEn": "It Compresses a Longer Description",
+        "titleZh": "把較長的描述濃縮",
+        "en": "The idiom replaces a longer explanation of the person’s importance and influence.",
+        "zh": "陳先生是公司的大人物。 這個慣用語可以取代一段較長、用來說明人物地位及影響力的解釋。",
+        "examples": [
+          {
+            "en": "Mr Chan is a big fish in the company.",
+            "zh": "陳先生是公司的大人物。",
+            "highlight": "big fish"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "titleEn": "It Highlights Influence, Not Only a Job Title",
+        "titleZh": "突出影響力，而不只是職銜",
+        "en": "A person does not need to have the highest official title to be a big fish. The expression may describe someone whose advice, money, connections or decisions carry considerable weight.",
+        "zh": "一個人不一定要擁有最高職銜才可稱為 big fish。 這個表達也可以形容一名意見、財力、人脈或決定很有影響力的人。",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "It Shows the Power Structure Clearly",
+        "titleZh": "清楚顯示權力關係",
+        "en": "The expression helps the listener understand who matters most within a group.",
+        "zh": "這個表達可以讓聽者明白誰在團體中最具影響力。 所有人都等朴女士，因為她是會議上最具影響力的大人物。",
+        "examples": [
+          {
+            "en": "Everyone waited for Ms Park because she was the big fish at the meeting.",
+            "zh": "所有人都等朴女士，因為她是會議上最具影響力的大人物。",
+            "highlight": "big fish"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "titleEn": "It Can Describe One or Several Important People",
+        "titleZh": "可形容一名或多名重要人物",
+        "en": "The company invited several big fish from the film business.",
+        "zh": "這個表達可以配合單數或複數形式，形容一名或多名大人物。",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "It Is Useful for Explaining Attention or Respect",
+        "titleZh": "可解釋他人為何重視某人",
+        "en": "The expression quickly explains why a person receives special attention.",
+        "zh": "記者正在等候，因為一名大人物即將到場。 這個表達可以迅速說明某人為甚麼受到特別重視。",
+        "examples": [
+          {
+            "en": "The reporters were waiting because a big fish was coming.",
+            "zh": "記者正在等候，因為一名大人物即將到場。",
+            "highlight": "big fish"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "titleEn": "It Gives an Informal Alternative",
+        "titleZh": "提供較口語化的替代說法",
+        "en": "Big fish is a useful informal alternative to important person or influential figure. However, it is not automatically better in every situation.",
+        "zh": "big fish 是 important person 或 influential figure 的實用口語替代說法，但並非在任何情況下都一定更好。",
+        "examples": []
+      }
+    ],
+    "origin": {
+      "statusEn": "Exact Origin Unknown; Early Use Documented",
+      "statusZh": "確切來源不明；早期用法已有記錄",
+      "history": [
+        {
+          "titleEn": "The Historical Background",
+          "titleZh": "歷史背景",
+          "en": "The first person to use big fish figuratively is not known. A.Word.A.Day reports an earliest documented use in 1827, while an American Heritage idiom entry states that big fish had been slang for an important or influential person since the early 1800s. These records show that the expression existed in writing by that period; they do not necessarily identify its first spoken use.",
+          "zh": "我們不知道最先以比喻方式使用 big fish 的人是誰。 A.Word.A.Day 指出，目前找到的最早書面記錄可追溯至1827年； American Heritage 的慣用語資料則指出，big fish 自十九世紀初已用作表示重要或有影響力人物的俚語。 這些資料只能證明表達在當時已有書面記錄，不一定代表那是最早的口語用法。"
+        },
+        {
+          "titleEn": "How the Meaning Developed",
+          "titleZh": "意思如何演變",
+          "en": "The size difference between fish became a metaphor for differences in power and importance between people. The related expression a big fish in a small pond developed a more specific meaning: an important person within a limited or relatively unimportant setting. That longer expression is related, but it is not the target of this exercise.",
+          "zh": "魚之間的大小差異逐漸成為人物之間權力及重要程度差異的比喻。 相關表達 a big fish in a small pond 則具有更具體的意思，指一個只在較小或較不重要環境中具有重要地位的人。 這個較長的表達與 big fish 有關，但並不是本練習的目標。"
+        }
+      ],
+      "memoryEn": "A large fish stands out because of its size; a big fish stands out because of their power or influence.",
+      "memoryZh": "大魚因體型而格外顯眼；big fish 則因權力或影響力而格外重要。"
+    },
+    "rules": [
+      {
+        "number": 1,
+        "titleEn": "Keep the Exact Target Form",
+        "titleZh": "規則一：保持目標表達的準確形式",
+        "en": "big fishes large fish big fishing a fish big",
+        "zh": "在慣用意思中，不可隨意以近義詞取代固定字詞。",
+        "examples": []
+      },
+      {
+        "number": 2,
+        "titleEn": "Use “A” with One Non-Specific Person",
+        "titleZh": "規則二：形容一名非特指人物時使用 a",
+        "en": "Use “A” with One Non-Specific Person",
+        "zh": "形容一名非特指人物時使用 a",
+        "examples": []
+      },
+      {
+        "number": 3,
+        "titleEn": "Use “The” for One Particular Main Person",
+        "titleZh": "規則三：特指某一位主要人物時使用 the",
+        "en": "Marcus is the big fish in the team.",
+        "zh": "當語境已清楚指出唯一或最主要的人物時，可以使用 the big fish。",
+        "examples": []
+      },
+      {
+        "number": 4,
+        "titleEn": "The Plural Is “Big Fish”",
+        "titleZh": "規則四：複數形式是 big fish",
+        "en": "The Plural Is “Big Fish”",
+        "zh": "複數形式是 big fish",
+        "examples": []
+      },
+      {
+        "number": 5,
+        "titleEn": "Name the Relevant Group or Field",
+        "titleZh": "規則五：指出相關團體或行業",
+        "en": "Mr Wong is a big fish.",
+        "zh": "在完整的獨立答案中，通常應指出人物在哪一個團體、公司或行業中具有重要地位。",
+        "examples": []
+      },
+      {
+        "number": 6,
+        "titleEn": "The Person Must Have Real Importance or Influence",
+        "titleZh": "規則六：人物必須真正具有重要地位或影響力",
+        "en": "Being popular, friendly, rich or physically large does not automatically make someone a big fish. The context should show power, influence, status or control over important decisions.",
+        "zh": "一個人受歡迎、友善、富有或身材高大，並不自動表示他是 big fish。 語境應顯示人物擁有權力、影響力、地位或對重要決定的控制力。",
+        "examples": []
+      },
+      {
+        "number": 7,
+        "titleEn": "Preserve Tense and Certainty",
+        "titleZh": "規則七：保留時態及確定程度",
+        "en": "Do not change could become into is. That would turn a possibility into a present fact.",
+        "zh": "不要把 could become 改成 is，否則會把可能性變成目前的事實。",
+        "examples": []
+      },
+      {
+        "number": 8,
+        "titleEn": "Use the Correct Person",
+        "titleZh": "規則八：保留正確人物",
+        "en": "Helen’s manager is a big fish in the publishing business.",
+        "zh": "答案不可把影響力轉移到原句沒有提及的另一個人物。",
+        "examples": []
+      },
+      {
+        "number": 9,
+        "titleEn": "Avoid the Literal Meaning",
+        "titleZh": "規則九：避免字面意思",
+        "en": "Avoid the Literal Meaning",
+        "zh": "漁夫捕獲了一條大魚。 警方希望拘捕一名重要人物。",
+        "examples": [
+          {
+            "en": "The fisherman caught a big fish.",
+            "zh": "漁夫捕獲了一條大魚。",
+            "highlight": "big fish"
+          },
+          {
+            "en": "The police hoped to arrest a big fish.",
+            "zh": "警方希望拘捕一名重要人物。",
+            "highlight": "big fish"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "titleEn": "Do Not Confuse Related Expressions",
+        "titleZh": "規則十：不要混淆相關表達",
+        "en": "a big fish in a small pond have bigger fish to fry These are related expressions, but they are not interchangeable.",
+        "zh": "只在較小環境中有重要地位的人有更重要的事情要處理這些表達雖然有關，但意思不同，不能互相取代。",
+        "examples": []
+      },
+      {
+        "number": 11,
+        "titleEn": "Remember the Informal Register",
+        "titleZh": "規則十一：記住偏口語的語域",
+        "en": "She is an influential figure in the fashion industry.",
+        "zh": "在正式文件中，使用 influential figure 等表達可能更加合適。",
+        "examples": []
+      },
+      {
+        "number": 12,
+        "titleEn": "Use It Naturally, Not for Every Important Person",
+        "titleZh": "規則十二：自然使用，不要形容所有重要人物",
+        "en": "1. power; 2. influence; 3. high status; 4. control over decisions; 5. special attention from others.",
+        "zh": "只有當語境真正突出權力、影響力、地位或決策能力時，才應使用 big fish。",
+        "examples": []
+      }
+    ],
+    "instructions": {
+      "en": "Rewrite or respond to each item using big fish.",
+      "zh": "使用 big fish 改寫句子或完成回應。"
+    },
+    "questions": [
+      {
+        "id": "idiom-36-q01",
+        "number": 1,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Mr Chan can influence many decisions in the local business group.",
+        "promptZh": "陳先生能影響本地商界團體的許多決定。",
+        "starter": "Mr",
+        "answer": "Mr Chan is a big fish in the local business group.",
+        "answerZh": "陳先生是本地商界團體中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q02",
+        "number": 2,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Priya holds one of the most important positions in the hotel business.",
+        "promptZh": "普莉雅在酒店業擔任一個非常重要的職位。",
+        "starter": "Priya",
+        "answer": "Priya is a big fish in the hotel business.",
+        "answerZh": "普莉雅是酒店業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q03",
+        "number": 3,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Coach Lee has a lot of influence in local football.",
+        "promptZh": "李教練在本地足球界很有影響力。",
+        "starter": "Coach",
+        "answer": "Coach Lee is a big fish in local football.",
+        "answerZh": "李教練是本地足球界的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q04",
+        "number": 4,
+        "sourcePage": 13,
+        "sourcePages": [
+          13
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Ava’s aunt is an important and powerful person in the fashion business.",
+        "promptZh": "艾娃的姨母是時裝業中一位重要而有權勢的人物。",
+        "starter": "Ava’s",
+        "answer": "Ava’s aunt is a big fish in the fashion business.",
+        "answerZh": "艾娃的姨母是時裝業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q05",
+        "number": 5,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "Daniel helps make the most important decisions in the music company.",
+        "promptZh": "丹尼爾有份作出音樂公司最重要的決定。",
+        "starter": "Daniel",
+        "answer": "Daniel is a big fish in the music company.",
+        "answerZh": "丹尼爾是音樂公司的重要人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q06",
+        "number": 6,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 22,
+        "answerSourcePages": [
+          22
+        ],
+        "prompt": "The club chairperson can influence major decisions in the local community.",
+        "promptZh": "該會主席能影響本地社區的重大決定。",
+        "starter": "The",
+        "answer": "The club chairperson is a big fish in the local community.",
+        "answerZh": "該會主席是本地社區中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q07",
+        "number": 7,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Local school leaders often follow Ms Wong’s advice.",
+        "promptZh": "本地學校領袖經常聽取黃女士的意見。",
+        "starter": "Ms",
+        "answer": "Ms Wong is a big fish in local education.",
+        "answerZh": "黃女士是本地教育界的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q08",
+        "number": 8,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Omar owns several restaurants, and many other owners ask for his advice.",
+        "promptZh": "奧馬擁有數間餐廳，許多其他店主都會向他請教。",
+        "starter": "Omar",
+        "answer": "Omar is a big fish in the restaurant business.",
+        "answerZh": "奧馬是餐飲業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q09",
+        "number": 9,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Grace helps decide which new games her company will make.",
+        "promptZh": "格蕾絲有份決定公司會製作哪些新遊戲。",
+        "starter": "Grace",
+        "answer": "Grace is a big fish at the game company.",
+        "answerZh": "格蕾絲是那間遊戲公司的重要人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q10",
+        "number": 10,
+        "sourcePage": 14,
+        "sourcePages": [
+          14
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Airline leaders always listen carefully when Mr Patel speaks.",
+        "promptZh": "帕特爾先生發言時，航空公司高層總會仔細聆聽。",
+        "starter": "Mr",
+        "answer": "Mr Patel is a big fish in the airline business.",
+        "answerZh": "帕特爾先生是航空業的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q11",
+        "number": 11,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Before he retired, Mr Lau was one of the company’s most powerful people.",
+        "promptZh": "劉先生退休前，是公司中最有權力的人物之一。",
+        "starter": "Mr",
+        "answer": "Mr Lau was a big fish in the company before he retired.",
+        "answerZh": "劉先生退休前是公司的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q12",
+        "number": 12,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "Over the past five years, Sana has gained a very important position in the local art world.",
+        "promptZh": "過去五年，莎娜在本地藝術界取得了非常重要的地位。",
+        "starter": "Sana",
+        "answer": "Sana has become a big fish in the local art world.",
+        "answerZh": "莎娜已成為本地藝術界的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q13",
+        "number": 13,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "People expect Ethan to become one of the club’s most important leaders soon.",
+        "promptZh": "人們預期伊頓很快會成為會內最重要的領袖之一。",
+        "starter": "Ethan",
+        "answer": "Ethan is expected to become a big fish in the club soon.",
+        "answerZh": "人們預期伊頓很快會成為會內的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q14",
+        "number": 14,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 23,
+        "answerSourcePages": [
+          23
+        ],
+        "prompt": "The two guests are important and powerful people in the film business.",
+        "promptZh": "兩位嘉賓都是電影業中重要而有權勢的人物。",
+        "starter": "The",
+        "answer": "The two guests are big fish in the film business.",
+        "answerZh": "兩位嘉賓都是電影業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q15",
+        "number": 15,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Several important people from the food industry attended the event.",
+        "promptZh": "數名來自食品業的重要人物出席了活動。",
+        "starter": "Several",
+        "answer": "Several big fish from the food industry attended the event.",
+        "answerZh": "數名來自食品業的大人物出席了活動。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q16",
+        "number": 16,
+        "sourcePage": 15,
+        "sourcePages": [
+          15
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Nadia could one day become one of the most influential people in the company.",
+        "promptZh": "娜迪亞有一天可能會成為公司中最有影響力的人物之一。",
+        "starter": "Nadia",
+        "answer": "Nadia could become a big fish in the company one day.",
+        "answerZh": "娜迪亞有一天可能會成為公司的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q17",
+        "number": 17,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Ben does not yet have much power in the organisation.",
+        "promptZh": "本在該機構中仍未有很大權力。",
+        "starter": "Ben",
+        "answer": "Ben is not a big fish in the organisation yet.",
+        "answerZh": "本仍未是該機構中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q18",
+        "number": 18,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Mr Ho still has a lot of influence in local radio after many years.",
+        "promptZh": "多年後，何先生在本地電台界仍然很有影響力。",
+        "starter": "Mr",
+        "answer": "Mr Ho remains a big fish in local radio after all these years.",
+        "answerZh": "多年後，何先生仍是本地電台界的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q19",
+        "number": 19,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "Senior staff listen carefully to the new director, so she seems to be an important person in the technology industry.",
+        "promptZh": "高級職員都仔細聽取新任總監的意見，因此她看來是科技業中的重要人物。",
+        "starter": "The",
+        "answer": "The new director seems to be a big fish in the technology industry.",
+        "answerZh": "新任總監看來是科技業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q20",
+        "number": 20,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "These three shop owners are among the most powerful people in the city’s business community.",
+        "promptZh": "這三名店主是市內商界中最有權力的人物之一。",
+        "starter": "These",
+        "answer": "These three shop owners are big fish in the city’s business community.",
+        "answerZh": "這三名店主都是市內商界的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q21",
+        "number": 21,
+        "sourcePage": 16,
+        "sourcePages": [
+          16
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Who has the most influence in the design team? B: Marcus does.",
+        "promptZh": "甲：設計團隊中誰最有影響力？ 乙：馬庫斯。",
+        "starter": "Marcus",
+        "answer": "Marcus is the big fish in the design team.",
+        "answerZh": "馬庫斯是設計團隊中最具影響力的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q22",
+        "number": 22,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 24,
+        "answerSourcePages": [
+          24
+        ],
+        "prompt": "A: Do you know anyone important in the publishing business? B: Yes. Helen has a lot of power there.",
+        "promptZh": "甲：你認識出版業中的重要人物嗎？ 乙：認識。海倫在那個行業很有權力。",
+        "starter": "Helen",
+        "answer": "Helen is a big fish in the publishing business.",
+        "answerZh": "海倫是出版業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q23",
+        "number": 23,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Why are so many reporters waiting for Mr Rivera? B: He is one of the most powerful people in the airline business.",
+        "promptZh": "甲：為甚麼這麼多記者在等里維拉先生？ 乙：他是航空業中最有權力的人物之一。",
+        "starter": "Mr",
+        "answer": "Mr Rivera is a big fish in the airline business.",
+        "answerZh": "里維拉先生是航空業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q24",
+        "number": 24,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The festival invited several important people from the music business.",
+        "promptZh": "音樂節邀請了數名來自音樂業的重要人物。",
+        "starter": "The",
+        "answer": "The festival invited several big fish from the music business.",
+        "answerZh": "音樂節邀請了數名來自音樂業的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q25",
+        "number": 25,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The police did not want only the junior workers. They hoped to arrest an important leader.",
+        "promptZh": "警方並不只想拘捕基層人員。他們希望拘捕一名重要領袖。",
+        "starter": "The",
+        "answer": "The police hoped to arrest a big fish, not just the junior workers.",
+        "answerZh": "警方希望拘捕一名大人物，而不只是基層人員。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q26",
+        "number": 26,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The newspaper describes Ms Leung as one of the most influential people in local education.",
+        "promptZh": "報章形容梁女士是本地教育界最有影響力的人物之一。",
+        "starter": "The",
+        "answer": "The newspaper describes Ms Leung as a big fish in local education.",
+        "answerZh": "報章把梁女士形容為本地教育界的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q27",
+        "number": 27,
+        "sourcePage": 17,
+        "sourcePages": [
+          17
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "A: Is Noah important in the game company? B: Very. Even the senior managers ask for his advice.",
+        "promptZh": "甲：諾亞在遊戲公司中重要嗎？ 乙：非常重要。連高級經理也會向他請教。",
+        "starter": "Noah",
+        "answer": "Noah is a big fish in the game company.",
+        "answerZh": "諾亞是遊戲公司的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q28",
+        "number": 28,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "At the meeting, everyone waited for Ms Park to speak because her opinion mattered most.",
+        "promptZh": "在會議上，所有人都等朴女士發言，因為她的意見最具影響力。",
+        "starter": "Ms",
+        "answer": "Ms Park was the big fish at the meeting.",
+        "answerZh": "朴女士是會議上最有影響力的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q29",
+        "number": 29,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The young actor hopes to become one of the most important people in the film business.",
+        "promptZh": "這名年輕演員希望成為電影業中最重要的人物之一。",
+        "starter": "The",
+        "answer": "The young actor hopes to become a big fish in the film business.",
+        "answerZh": "這名年輕演員希望成為電影業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q30",
+        "number": 30,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 25,
+        "answerSourcePages": [
+          25
+        ],
+        "prompt": "The local paper called Mr Green an important and powerful person in the local food industry.",
+        "promptZh": "本地報章稱格林先生為本地食品業中一位重要而有權勢的人物。",
+        "starter": "The",
+        "answer": "The local paper called Mr Green a big fish in the local food industry.",
+        "answerZh": "本地報章稱格林先生為本地食品業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q31",
+        "number": 31,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Although Ravi has one of the most powerful positions in the bank, he speaks to new workers kindly.",
+        "promptZh": "雖然拉維在銀行擔任其中一個最有權力的職位，但他仍親切地與新員工交談。",
+        "starter": "Although",
+        "answer": "Although Ravi is a big fish in the bank, he speaks to new workers kindly.",
+        "answerZh": "雖然拉維是銀行中的大人物，但他仍親切地與新員工交談。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q32",
+        "number": 32,
+        "sourcePage": 18,
+        "sourcePages": [
+          18
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Lina is very important in local dance, so organisers often ask her to judge contests.",
+        "promptZh": "莉娜在本地舞蹈界十分重要，因此主辦人經常邀請她擔任比賽評判。",
+        "starter": "Because",
+        "answer": "Because Lina is a big fish in local dance, organisers often ask her to judge contests.",
+        "answerZh": "由於莉娜是本地舞蹈界的大人物，主辦人經常邀請她擔任比賽評判。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q33",
+        "number": 33,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Mr Kim once had great influence in the newspaper business, but he now lives quietly.",
+        "promptZh": "金先生以往在報業很有影響力，但他現在過着平靜的生活。",
+        "starter": "Mr",
+        "answer": "Mr Kim was once a big fish in the newspaper business, but he now lives quietly.",
+        "answerZh": "金先生曾是報業中的大人物，但他現在過着平靜的生活。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q34",
+        "number": 34,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "After the club chose a new leader, Marco no longer had much power there.",
+        "promptZh": "該會選出新領袖後，馬可在會內已不再有很大權力。",
+        "starter": "After",
+        "answer": "After the club chose a new leader, Marco was no longer a big fish there.",
+        "answerZh": "該會選出新領袖後，馬可已不再是會內的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q35",
+        "number": 35,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The company needs an important person from the online shopping world to lead the new team.",
+        "promptZh": "公司需要一名來自網購界的重要人物領導新團隊。",
+        "starter": "The",
+        "answer": "The company needs a big fish from the online shopping world to lead the new team.",
+        "answerZh": "公司需要一名來自網購界的大人物領導新團隊。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q36",
+        "number": 36,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "If Amir wins the club election, he could become one of its most powerful leaders.",
+        "promptZh": "如果阿米爾在會內選舉中勝出，他可能會成為最有權力的領袖之一。",
+        "starter": "If",
+        "answer": "If Amir wins the club election, he could become a big fish in the club.",
+        "answerZh": "如果阿米爾在會內選舉中勝出，他可能會成為會內的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q37",
+        "number": 37,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "The event is expected to attract important people from the film, music and fashion businesses.",
+        "promptZh": "預計活動會吸引來自電影、音樂及時裝業的重要人物。",
+        "starter": "The",
+        "answer": "The event is expected to attract big fish from the film, music and fashion businesses.",
+        "answerZh": "預計活動會吸引來自電影、音樂及時裝業的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q38",
+        "number": 38,
+        "sourcePage": 19,
+        "sourcePages": [
+          19
+        ],
+        "answerSourcePage": 26,
+        "answerSourcePages": [
+          26
+        ],
+        "prompt": "Mei may look quiet, but she has a lot of power in the local art community.",
+        "promptZh": "美怡看起來可能很安靜，但她在本地藝術界很有權力。",
+        "starter": "Mei",
+        "answer": "Mei may look quiet, but she is a big fish in the local art community.",
+        "answerZh": "美怡看起來可能很安靜，但她是本地藝術界的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q39",
+        "number": 39,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Being an important and powerful person in the company does not mean you can ignore the rules.",
+        "promptZh": "即使是公司中重要而有權勢的人物，也不代表可以無視規則。",
+        "starter": "Being",
+        "answer": "Being a big fish in the company does not mean you can ignore the rules.",
+        "answerZh": "即使是公司的大人物，也不代表可以無視規則。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q40",
+        "number": 40,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Mr Khan still has a lot of influence in the restaurant business, although he sold his main restaurant last year.",
+        "promptZh": "雖然卡恩先生去年賣掉了自己的主要餐廳，但他在餐飲業仍很有影響力。",
+        "starter": "Mr",
+        "answer": "Mr Khan is still a big fish in the restaurant business, although he sold his main restaurant last year.",
+        "answerZh": "雖然卡恩先生去年賣掉了自己的主要餐廳，但他仍是餐飲業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q41",
+        "number": 41,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Most visitors would not recognise Dr Lee, but hospital managers across the city know that she has great influence.",
+        "promptZh": "大多數訪客都不會認出李醫生，但全市的醫院管理人員都知道她很有影響力。",
+        "starter": "Most",
+        "answer": "Most visitors would not recognise Dr Lee, but she is a big fish in the city’s hospital system.",
+        "answerZh": "大多數訪客都不會認出李醫生，但她是全市醫療系統中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q42",
+        "number": 42,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The shop owners listened carefully because the speaker had a lot of influence in the local food industry.",
+        "promptZh": "店主們仔細聆聽，因為講者在本地食品業很有影響力。",
+        "starter": "The",
+        "answer": "The shop owners listened carefully because the speaker was a big fish in the local food industry.",
+        "answerZh": "店主們仔細聆聽，因為講者是本地食品業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q43",
+        "number": 43,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "After only three years, Imani is now one of the most important people in the city’s music scene.",
+        "promptZh": "只過了三年，伊瑪妮現在已是市內音樂界最重要的人物之一。",
+        "starter": "After",
+        "answer": "After only three years, Imani has become one of the big fish in the city’s music scene.",
+        "answerZh": "只過了三年，伊瑪妮已成為市內音樂界的大人物之一。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q44",
+        "number": 44,
+        "sourcePage": 20,
+        "sourcePages": [
+          20
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "The reporters were not interested in the assistants. They were waiting for the important person who controlled the deal.",
+        "promptZh": "記者對助理們沒有興趣。他們正在等候控制這宗交易的重要人物。",
+        "starter": "The",
+        "answer": "The reporters were waiting for the big fish behind the deal, not the assistants.",
+        "answerZh": "記者正在等候交易背後的大人物，而不是那些助理。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q45",
+        "number": 45,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "Even if the company loses one manager, several other powerful people can make the final decision.",
+        "promptZh": "即使公司失去一名經理，仍有數名其他有權勢的人可以作出最後決定。",
+        "starter": "Even",
+        "answer": "Even if the company loses one manager, several other big fish can make the final decision.",
+        "answerZh": "即使公司失去一名經理，仍有數名其他大人物可以作出最後決定。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q46",
+        "number": 46,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 27,
+        "answerSourcePages": [
+          27
+        ],
+        "prompt": "A: Why is the hall full tonight? B: An important person from the film business is giving a talk.",
+        "promptZh": "甲：今晚禮堂為甚麼坐滿了人？ 乙：一名來自電影業的重要人物會發表演講。",
+        "starter": "A",
+        "answer": "A big fish from the film business is giving a talk tonight.",
+        "answerZh": "今晚有一名來自電影業的大人物發表演講。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q47",
+        "number": 47,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "By the time Nora returns from London, she may hold one of the most important positions in the design world.",
+        "promptZh": "諾拉從倫敦回來時，可能已在設計界擔任其中一個最重要的職位。",
+        "starter": "By",
+        "answer": "By the time Nora returns from London, she may be a big fish in the design world.",
+        "answerZh": "諾拉從倫敦回來時，可能已成為設計界的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q48",
+        "number": 48,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "The club treated Mr Silva as if he were one of its most important people because he controlled how the money was used.",
+        "promptZh": "該會把席爾瓦先生當成最重要的人物之一，因為他控制資金的使用方式。",
+        "starter": "The",
+        "answer": "The club treated Mr Silva as a big fish because he controlled how the money was used.",
+        "answerZh": "該會把席爾瓦先生當作大人物，因為他控制資金的使用方式。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q49",
+        "number": 49,
+        "sourcePage": 21,
+        "sourcePages": [
+          21
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "Once the singer signed with the largest local company, people began to see her as an important person in the music business.",
+        "promptZh": "這名歌手與本地最大的公司簽約後，人們開始把她視為音樂業中的重要人物。",
+        "starter": "Once",
+        "answer": "Once the singer signed with the largest local company, people began to see her as a big fish in the music business.",
+        "answerZh": "這名歌手與本地最大的公司簽約後，人們開始把她視為音樂業中的大人物。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      },
+      {
+        "id": "idiom-36-q50",
+        "number": 50,
+        "sourcePage": 22,
+        "sourcePages": [
+          22
+        ],
+        "answerSourcePage": 28,
+        "answerSourcePages": [
+          28
+        ],
+        "prompt": "A: The company says one junior worker made the decision. B: I doubt it. Someone much more powerful probably made the decision.",
+        "promptZh": "甲：公司說是一名初級員工作出這個決定。 乙：我不相信。很可能是某個權力大得多的人作出的決定。",
+        "starter": "I",
+        "answer": "I doubt it. A big fish in the company probably made the decision.",
+        "answerZh": "我不相信。很可能是公司中的大人物作出這個決定。",
+        "targetForm": "big fish",
+        "targetMeaning": "An important or powerful person who has considerable influence within a group, organisation, company, profession or field.",
+        "highlight": "big fish"
+      }
+    ]
+  }
+}
