@@ -60,6 +60,10 @@ function compactText(value, limit = 180) {
   return String(value || "").replace(/\s+/g, " ").trim().slice(0, limit);
 }
 
+function straightApostrophes(value) {
+  return String(value || "").replaceAll("’", "'");
+}
+
 function numericMatch(value, patterns) {
   for (const pattern of patterns) {
     const match = String(value || "").match(pattern);
@@ -228,6 +232,56 @@ function writingSubmissionResources() {
   }];
 }
 
+async function readingAnalysisResources() {
+  const globals = await evaluateFiles([
+    "ielts-reading-analysis-index.js",
+    "ielts-reading-analysis-availability.js"
+  ]);
+  const index = globals.EDMUND_IELTS_READING_ANALYSIS_INDEX;
+  const availability = globals.EDMUND_IELTS_READING_ANALYSIS_AVAILABILITY;
+  const indexRecords = Object.values(index?.passages || {}).flat();
+  const indexById = new Map(indexRecords.map((record) => [String(record?.id || ""), record]));
+  const articles = Object.entries(availability?.articles || {});
+
+  if (!articles.length) throw new Error("IELTS Reading analysis availability index is empty");
+
+  return articles.map(([articleId, article]) => {
+    if (String(article?.id || "") !== articleId) {
+      throw new Error(`IELTS Reading analysis id mismatch: key=${articleId}, value=${article?.id || "missing"}`);
+    }
+    const catalogueIds = Array.isArray(article?.catalogueIds)
+      ? article.catalogueIds.map(String)
+      : article?.catalogueId
+        ? [String(article.catalogueId)]
+        : [];
+    if (!catalogueIds.length) {
+      throw new Error(`IELTS Reading analysis has no catalogue id: ${articleId}`);
+    }
+    const catalogueRecords = catalogueIds.map((catalogueId) => {
+      const record = indexById.get(catalogueId);
+      if (!record) throw new Error(`IELTS Reading analysis catalogue id is missing from the index: ${catalogueId}`);
+      if (Number(record.passage) !== Number(article.passage)) {
+        throw new Error(`IELTS Reading analysis passage mismatch for ${articleId}: ${catalogueId}`);
+      }
+      return record;
+    }).sort((left, right) => Number(left.sourceOrder || 0) - Number(right.sourceOrder || 0));
+    const normalizedTitles = new Set(catalogueRecords.map((record) => straightApostrophes(compactText(record.title))));
+    if (normalizedTitles.size !== 1) {
+      throw new Error(`IELTS Reading analysis aliases have different titles: ${articleId}`);
+    }
+    const primary = catalogueRecords[0];
+    const title = [...normalizedTitles][0];
+    return {
+      id: `reading-analysis:${articleId}`,
+      type: "reading-analysis",
+      ordinal: Number(primary.sourceOrder) || null,
+      label: `Answer Analysis - IELTS Reading - ${title}`,
+      detail: `IELTS Reading · Passage ${Number(article.passage)} · Answer Analysis`,
+      url: `ielts-reading-analysis.html?article=${encodeURIComponent(articleId)}`
+    };
+  });
+}
+
 async function speakingResources() {
   const files = await portalDataFiles("speaking-system.html", /^speaking-system(?:-.*)?-data\.js$/);
   const globals = await evaluateFiles(files);
@@ -315,6 +369,7 @@ const resources = [
   ...await flashcardResources(allFiles),
   ...await writingResources(),
   ...writingSubmissionResources(),
+  ...await readingAnalysisResources(),
   ...await speakingResources(),
   ...await sentenceResources(),
   ...await orderedLessonResources({

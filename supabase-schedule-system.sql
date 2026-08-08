@@ -2494,7 +2494,8 @@ begin
         'proverb',
         'phrasal-verb',
         'speaking',
-        'sentence-structure'
+        'sentence-structure',
+        'reading-analysis'
       ]::text[]) then
         v_types := pg_catalog.array_append(v_types, v_type);
       end if;
@@ -2576,7 +2577,8 @@ as $$
       (5, 'proverb'),
       (6, 'phrasal-verb'),
       (7, 'speaking'),
-      (8, 'sentence-structure')
+      (8, 'sentence-structure'),
+      (9, 'reading-analysis')
     ) as definition(sort_order, type_name)
     left join homework_type_counts type_count
       on type_count.type_name = definition.type_name

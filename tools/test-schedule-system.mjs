@@ -281,7 +281,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260808-1/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260809-1/);
 
 const metricCards = [...scheduleHtml.matchAll(/<article\s+class="metric-card(?:\s[^"]*)?"/g)];
 assert.equal(metricCards.length, 4, "schedule progress dashboard must contain exactly four metric cards");
@@ -422,10 +422,10 @@ assert.match(scheduleJs, /schedule_student_apply_entry_batch/);
 assert.match(scheduleJs, /schedule_admin_apply_entry_batch/);
 assert.match(scheduleJs, /window\.addEventListener\("beforeunload"/);
 assert.match(scheduleJs, /schedule-clipboard\.mjs\?v=20260727-1/);
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260808-1"/);
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260809-1"/);
 assert.match(scheduleJs, /homeworkCatalogPromise = import\(HOMEWORK_CATALOG_URL\)/);
 assert.doesNotMatch(scheduleJs, /^import\s+\{\s*HOMEWORK_RESOURCE_CATALOG\s*\}/m, "the large exercise catalogue must not block login or Supabase startup");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260803-2/);
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260809-1/);
 assert.match(scheduleJs, /schedule-mass-edit\.mjs\?v=20260803-1/);
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/);
 assert.match(scheduleJs, /function renderHomeworkTypeDashboard\(/);
@@ -667,7 +667,8 @@ for (const homeworkType of [
   "proverb",
   "phrasal-verb",
   "speaking",
-  "sentence-structure"
+  "sentence-structure",
+  "reading-analysis"
 ]) {
   assert.match(scheduleSql, new RegExp(`'${homeworkType.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&")}'`));
 }

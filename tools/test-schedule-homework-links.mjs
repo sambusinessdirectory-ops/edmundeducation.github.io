@@ -5,6 +5,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { promisify } from "node:util";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import vm from "node:vm";
 import { HOMEWORK_RESOURCE_CATALOG } from "../homework-resource-catalog.mjs";
 import {
   MAX_HOMEWORK_RESOURCES,
@@ -25,9 +26,21 @@ const toolsDirectory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(toolsDirectory, "..");
 const read = (file) => readFile(path.join(root, file), "utf8");
 
+const readingAnalysisContext = { window: {} };
+vm.createContext(readingAnalysisContext);
+for (const file of ["ielts-reading-analysis-index.js", "ielts-reading-analysis-availability.js"]) {
+  vm.runInContext(await read(file), readingAnalysisContext, { filename: file, timeout: 20_000 });
+}
+const readingAnalysisIndex = readingAnalysisContext.window.EDMUND_IELTS_READING_ANALYSIS_INDEX;
+const readingAnalysisAvailability = readingAnalysisContext.window.EDMUND_IELTS_READING_ANALYSIS_AVAILABILITY;
+const readingIndexById = new Map(
+  Object.values(readingAnalysisIndex.passages).flat().map((record) => [record.id, record])
+);
+const straightApostrophes = (value) => String(value || "").replaceAll("’", "'");
+
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3186, "the Homework/Schedule catalogue should include every current learning resource, all 142 August flashcard decks, and the 12 Civics Book 1 decks");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3343, "the Homework/Schedule catalogue should include every current learning resource and all 157 available IELTS Reading analyses");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -40,6 +53,7 @@ assert.equal((byType.idiom || []).length, 138, "all Idiom lessons should be inde
 assert.equal((byType.proverb || []).length, 3, "all Proverb lessons should be indexed");
 assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lessons should be indexed");
 assert.equal((byType["writing-submission"] || []).length, 1, "Writing Submission should be available as a homework type");
+assert.equal((byType["reading-analysis"] || []).length, 157, "all unique available IELTS Reading analyses should be indexed once");
 assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2"));
 assert.ok(ids.has("fill:model-essay-2-ielts-advantage-disadvantage"));
 assert.ok(ids.has("speaking:ielts-part-2-book-1-exercise-01"));
@@ -48,6 +62,55 @@ assert.ok(ids.has("idiom:idiom-138"));
 assert.ok(ids.has("proverb:proverb-03"));
 assert.ok(ids.has("phrasal-verb:phrasal-verb-329"));
 assert.ok(ids.has("writing-submission:portal"));
+assert.ok(ids.has("reading-analysis:mungo-man"));
+assert.ok(ids.has("reading-analysis:if-you-can-get-used-to-the-taste"));
+assert.ok(ids.has("reading-analysis:p1-082-graffiti"));
+
+const readingAnalysisResources = byType["reading-analysis"] || [];
+const expectedReadingArticleIds = Object.keys(readingAnalysisAvailability.articles).sort();
+assert.deepEqual(
+  readingAnalysisResources.map((resource) => resource.id.slice("reading-analysis:".length)).sort(),
+  expectedReadingArticleIds,
+  "Homework must contain exactly one resource for every routable IELTS Reading analysis article"
+);
+const mappedReadingCatalogueIds = new Set();
+for (const [articleId, article] of Object.entries(readingAnalysisAvailability.articles)) {
+  const catalogueIds = Array.isArray(article.catalogueIds) ? article.catalogueIds : [article.catalogueId];
+  const records = catalogueIds.map((catalogueId) => {
+    mappedReadingCatalogueIds.add(catalogueId);
+    const record = readingIndexById.get(catalogueId);
+    assert.ok(record, `reading analysis catalogue record should exist: ${catalogueId}`);
+    assert.equal(record.passage, article.passage, `reading analysis passage should match its catalogue record: ${articleId}`);
+    return record;
+  }).sort((left, right) => left.sourceOrder - right.sourceOrder);
+  const resource = readingAnalysisResources.find((item) => item.id === `reading-analysis:${articleId}`);
+  assert.ok(resource, `reading analysis Homework resource should exist: ${articleId}`);
+  assert.equal(
+    resource.label,
+    `Answer Analysis - IELTS Reading - ${straightApostrophes(records[0].title)}`,
+    `reading analysis Homework label should use the canonical passage name: ${articleId}`
+  );
+  assert.equal(
+    resource.url,
+    `ielts-reading-analysis.html?article=${encodeURIComponent(articleId)}`,
+    `reading analysis Homework link should open the exact available article: ${articleId}`
+  );
+  assert.equal(resource.ordinal, records[0].sourceOrder, `reading analysis should retain its first catalogue order: ${articleId}`);
+}
+assert.equal(mappedReadingCatalogueIds.size, 160, "157 unique analyses should cover all 160 currently available Passage 1 catalogue positions");
+for (const unavailableId of ["p1-033", "p1-053", "p1-066", "p1-164"]) {
+  assert.equal(mappedReadingCatalogueIds.has(unavailableId), false, `${unavailableId} must stay unavailable until analysis content exists`);
+}
+assert.equal(
+  readingAnalysisResources.find((resource) => resource.id === "reading-analysis:p1-088-its-dynamite")?.label,
+  "Answer Analysis - IELTS Reading - It's Dynamite",
+  "smart apostrophes in source titles must be normalized for reliable Homework search"
+);
+assert.equal(
+  readingAnalysisResources.filter((resource) => resource.id === "reading-analysis:p1-009-flight-of-the-honeybee").length,
+  1,
+  "catalogue aliases must not create duplicate Homework choices"
+);
 
 const civicsBookOneFlashcards = (byType.flashcards || []).filter((resource) =>
   resource.id.startsWith("flash:government/concept-vocabulary/book-1/")
@@ -298,6 +361,26 @@ assert.equal(normalizeHomeworkResource({
   label: "Wrong target",
   url: "idiom-system.html?lesson=idiom-01"
 }), null, "resource types must stay bound to their exact portal");
+assert.equal(normalizeHomeworkResource({
+  id: "reading-analysis:p1-082-graffiti",
+  type: "reading-analysis",
+  label: "Answer Analysis - IELTS Reading - GRAFFITI",
+  url: "ielts-reading-analysis.html?article=p1-082-graffiti"
+})?.url, "ielts-reading-analysis.html?article=p1-082-graffiti");
+for (const unsafeReadingUrl of [
+  "flashcards.html?article=p1-082-graffiti",
+  "ielts-reading-analysis.html",
+  "ielts-reading-analysis.html?article=p1-082-graffiti&student=someone",
+  "ielts-reading-analysis.html?article=p1-082-graffiti#q1",
+  "https://evil.example/ielts-reading-analysis.html?article=p1-082-graffiti"
+]) {
+  assert.equal(normalizeHomeworkResource({
+    id: "reading-analysis:p1-082-graffiti",
+    type: "reading-analysis",
+    label: "Answer Analysis - IELTS Reading - GRAFFITI",
+    url: unsafeReadingUrl
+  }), null, `unsafe IELTS Reading analysis URL must be rejected: ${unsafeReadingUrl}`);
+}
 
 const flashCompletion = homeworkAutocomplete("F", 1);
 assert.equal(flashCompletion.trigger, "Flash Cards");
@@ -308,6 +391,7 @@ assert.equal(homeworkAutocomplete("Review Id", 9).trigger, "Idiom");
 assert.equal(homeworkAutocomplete("Review Ph", 9).trigger, "Phrasal Verbs");
 assert.equal(homeworkAutocomplete("Review Pr", 9).trigger, "Proverb");
 assert.equal(homeworkAutocomplete("Choose Wr", 9).trigger, "Writing Submission");
+assert.equal(homeworkAutocomplete("Add An", 6).trigger, "Answer Analysis - IELTS Reading");
 const accepted = acceptHomeworkAutocomplete("Please finish Fi", 16, 16, homeworkAutocomplete("Please finish Fi", 16));
 assert.equal(accepted.value, "Please finish Fill in the blanks");
 assert.equal(fullHomeworkTriggerAtCursor(accepted.value, accepted.cursor).type, "fill-blanks");
@@ -344,6 +428,11 @@ assert.equal(
   "Writing Submission",
   "a label already beginning with its type must not receive a duplicate prefix"
 );
+assert.equal(
+  homeworkResourceDisplayTitle({ type: "reading-analysis", label: "Answer Analysis - IELTS Reading - Mungo Man" }),
+  "Answer Analysis - IELTS Reading - Mungo Man",
+  "a reading analysis label must not receive a duplicate taxonomy prefix"
+);
 
 const selected = HOMEWORK_RESOURCE_CATALOG.find((resource) => resource.id === "fill:model-essay-2-ielts-advantage-disadvantage");
 const stored = serializeScheduleMessage("Fill in the blanks", [selected]);
@@ -355,6 +444,10 @@ assert.equal(parsed.resources[0].url, "writing-practice.html?exercise=model-essa
 assert.doesNotMatch(parsed.text, /@edmund-homework/);
 assert.equal(parseScheduleMessage("普通舊安排").text, "普通舊安排", "legacy messages must stay unchanged");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "speaking", "Part 2 Book 1 Advertisements").total >= 1, true);
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "Mungo Man").items[0]?.id, "reading-analysis:mungo-man");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "ielts reading graffiti").items[0]?.id, "reading-analysis:p1-082-graffiti");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "it's dynamite").items[0]?.id, "reading-analysis:p1-088-its-dynamite");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "flight honeybee").total, 1, "shared analysis aliases should remain one searchable choice");
 assert.equal(
   filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "fill-blanks", "number households annual income 2015").items[0]?.id,
   "fill:model-essay-1-ielts-task1-bar-charts",
@@ -484,7 +577,8 @@ assert.match(scheduleHtml, /data-homework-autocomplete/);
 assert.match(scheduleHtml, /data-homework-picker-search/);
 assert.match(scheduleHtml, /data-homework-attachments/);
 assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources\)/);
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260808-1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260809-1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260809-1/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
 assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save must recheck the serialized database budget");

@@ -11,7 +11,8 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({ type: "proverb", trigger: "Proverb", label: "Proverb", color: "#94613c" }),
   Object.freeze({ type: "phrasal-verb", trigger: "Phrasal Verbs", label: "Phrasal Verbs", color: "#31966a" }),
   Object.freeze({ type: "speaking", trigger: "Speaking", label: "Speaking", color: "#2b9caf" }),
-  Object.freeze({ type: "sentence-structure", trigger: "Sentence Structure", label: "Sentence Structure", color: "#6e62c9" })
+  Object.freeze({ type: "sentence-structure", trigger: "Sentence Structure", label: "Sentence Structure", color: "#6e62c9" }),
+  Object.freeze({ type: "reading-analysis", trigger: "Answer Analysis - IELTS Reading", label: "Answer Analysis - IELTS Reading", color: "#8b5fbf" })
 ]);
 
 const TYPE_BY_NAME = new Map(HOMEWORK_RESOURCE_TYPES.map((item) => [item.type, item]));
@@ -23,7 +24,8 @@ const ALLOWED_PAGE_BY_TYPE = Object.freeze({
   proverb: "/proverb-system.html",
   "phrasal-verb": "/phrasal-verb-system.html",
   speaking: "/speaking-system.html",
-  "sentence-structure": "/sentence-structure.html"
+  "sentence-structure": "/sentence-structure.html",
+  "reading-analysis": "/ielts-reading-analysis.html"
 });
 const EXPECTED_PARAMETER_BY_PAGE = Object.freeze({
   "/flashcards.html": "deck",
@@ -33,7 +35,8 @@ const EXPECTED_PARAMETER_BY_PAGE = Object.freeze({
   "/proverb-system.html": "lesson",
   "/phrasal-verb-system.html": "lesson",
   "/speaking-system.html": "exercise",
-  "/sentence-structure.html": "lesson"
+  "/sentence-structure.html": "lesson",
+  "/ielts-reading-analysis.html": "article"
 });
 
 function encodeBase64Url(value) {
