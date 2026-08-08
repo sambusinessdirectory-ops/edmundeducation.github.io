@@ -174,12 +174,11 @@ assert.match(client, /String\(sectionIndex \+ 1\)/, "step numbers must follow ea
 assert.match(css, /\.analysis-step-number\s*\{/);
 assert.doesNotMatch(client, /record\.sourceOrder|\$\{\s*record\.sourceOrder\s*\}/, "source numbering leaked into UI renderer");
 
-assert.doesNotMatch(
-  examResources,
-  /href="ielts-reading-analysis\.html"/,
-  "the analysis link must appear only after Start Free",
+assert.equal(
+  (examResources.match(/href="ielts-reading-analysis\.html">Start Free<\/a>/g) || []).length,
+  1,
+  "the IELTS Start Free button should open the IELTS Reading analysis catalogue directly",
 );
-assert.match(examResources, /href="resources\.html">Start Free<\/a>/);
 assert.equal(
   (resources.match(/href="ielts-reading-analysis\.html"/g) || []).length,
   1,
