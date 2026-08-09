@@ -130,8 +130,8 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /common-expression-system-config\.js\?v=20260809-1/,
       /common-expression-system-data\.js\?v=20260809-1/,
       /common-expression-system\.js\?v=20260809-1/,
-      /shared-system-nav\.css\?v=20260809-1/,
-      /shared-system-nav\.js\?v=20260809-1/
+      /shared-system-nav\.css\?v=20260809-2/,
+      /shared-system-nav\.js\?v=20260809-2/
     ]) assert.match(html, contract, `${portal.file}: missing required portal asset or PWA contract`);
 
     const csp = html.match(/http-equiv=["']Content-Security-Policy["'] content="([^"]+)"/i)?.[1] || "";
