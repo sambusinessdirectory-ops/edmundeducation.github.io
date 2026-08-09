@@ -144,6 +144,9 @@ jobs:
           node tools/test-schedule-clipboard.mjs
           node tools/test-schedule-system.mjs
 
+      - name: Validate all six Common Expression portals, lessons and persistence contracts
+        run: node --test tools/test-common-expression-system.mjs
+
       - name: Validate PWA, shared portal navigation, mobile icons, and brand metadata
         run: |
           node tools/test-shared-system-nav.mjs

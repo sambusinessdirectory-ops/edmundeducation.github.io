@@ -1250,6 +1250,143 @@
       letter-spacing: .02em;
     }
 
+    .common-expression-card {
+      --expression-spine: #274c77;
+      --expression-paper: #f8fbff;
+      --expression-paper-end: #dceaf7;
+      --expression-ink: #17324f;
+      --expression-accent: #4f8fba;
+      --category-key-lip: color-mix(in srgb, var(--expression-spine) 82%, #101728);
+      --category-key-shadow: color-mix(in srgb, var(--expression-spine) 30%, transparent);
+      padding-left: clamp(58px, 4.3vw, 72px);
+      color: var(--expression-ink);
+      border-color: color-mix(in srgb, var(--expression-spine) 34%, #fff);
+      background:
+        linear-gradient(90deg, var(--expression-spine) 0 34px, rgba(255,255,255,.72) 35px 38px, transparent 39px),
+        repeating-linear-gradient(0deg, transparent 0 30px, color-mix(in srgb, var(--expression-accent) 15%, transparent) 31px 32px),
+        radial-gradient(circle at 84% 16%, color-mix(in srgb, var(--expression-accent) 22%, transparent), transparent 34%),
+        linear-gradient(135deg, var(--expression-paper) 0%, var(--expression-paper-end) 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,.88),
+        inset 0 -8px 0 color-mix(in srgb, var(--expression-spine) 12%, transparent),
+        inset 40px 0 0 color-mix(in srgb, var(--expression-spine) 10%, transparent),
+        0 8px 0 var(--category-key-lip),
+        0 22px 34px var(--category-key-shadow);
+      overflow: hidden;
+    }
+
+    .common-expression-card::before {
+      color: color-mix(in srgb, var(--expression-spine) 42%, transparent);
+      text-shadow: none;
+    }
+
+    .common-expression-card::after {
+      content: "“";
+      display: grid;
+      place-items: center;
+      top: clamp(17px, 1.35vw, 23px);
+      right: auto;
+      bottom: auto;
+      left: clamp(55px, 4.2vw, 70px);
+      width: clamp(43px, 3.3vw, 54px);
+      height: clamp(35px, 2.7vw, 45px);
+      border: 2px solid color-mix(in srgb, var(--expression-accent) 58%, #fff);
+      border-radius: 18px 18px 18px 5px;
+      color: var(--expression-paper);
+      background: var(--expression-accent);
+      box-shadow: 0 6px 13px color-mix(in srgb, var(--expression-spine) 22%, transparent);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(30px, 2.4vw, 40px);
+      line-height: 1;
+      opacity: .96;
+    }
+
+    .common-expression-card:hover,
+    .common-expression-card:focus-visible {
+      background:
+        linear-gradient(90deg, var(--expression-spine) 0 34px, rgba(255,255,255,.82) 35px 38px, transparent 39px),
+        repeating-linear-gradient(0deg, transparent 0 30px, color-mix(in srgb, var(--expression-accent) 21%, transparent) 31px 32px),
+        radial-gradient(circle at 84% 16%, color-mix(in srgb, var(--expression-accent) 30%, transparent), transparent 35%),
+        linear-gradient(135deg, #fff 0%, var(--expression-paper-end) 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,.94),
+        inset 0 -8px 0 color-mix(in srgb, var(--expression-spine) 14%, transparent),
+        inset 40px 0 0 color-mix(in srgb, var(--expression-spine) 12%, transparent),
+        0 12px 0 var(--category-key-lip),
+        0 30px 46px var(--category-key-shadow);
+    }
+
+    .common-expression-card:hover::after,
+    .common-expression-card:focus-visible::after {
+      transform: translateY(-2px) rotate(-3deg);
+    }
+
+    .common-expression-card .category-name {
+      z-index: 2;
+      margin-top: clamp(58px, 4.6vw, 76px);
+      color: var(--expression-ink);
+      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+      font-size: clamp(17px, 1.02vw, 21px);
+      line-height: 1.14;
+      letter-spacing: .005em;
+      text-shadow: 0 1px 0 rgba(255,255,255,.82);
+    }
+
+    .common-expression-card__title {
+      display: inline-block;
+      margin-bottom: 2px;
+      font-size: 1.08em;
+      letter-spacing: .015em;
+    }
+
+    .common-expression-speaking-card {
+      --expression-spine: #315f87;
+      --expression-paper: #f8fcff;
+      --expression-paper-end: #cfe5f4;
+      --expression-ink: #173b59;
+      --expression-accent: #4b9bc2;
+    }
+
+    .common-expression-written-card {
+      --expression-spine: #755739;
+      --expression-paper: #fffdf8;
+      --expression-paper-end: #eadcc7;
+      --expression-ink: #51371f;
+      --expression-accent: #b6814c;
+    }
+
+    .common-expression-rhetorical-speaking-card {
+      --expression-spine: #6b477b;
+      --expression-paper: #fdf9ff;
+      --expression-paper-end: #e5d4ed;
+      --expression-ink: #4d2c5e;
+      --expression-accent: #9d6fb0;
+    }
+
+    .common-expression-rhetorical-writing-card {
+      --expression-spine: #8a3f58;
+      --expression-paper: #fff9fb;
+      --expression-paper-end: #efd2dc;
+      --expression-ink: #632a40;
+      --expression-accent: #c26584;
+    }
+
+    .common-expression-professional-message-card {
+      --expression-spine: #3d6259;
+      --expression-paper: #f8fdfb;
+      --expression-paper-end: #cee2db;
+      --expression-ink: #254b42;
+      --expression-accent: #5c9b8b;
+    }
+
+    .common-expression-business-speaking-card {
+      --expression-spine: #344c76;
+      --expression-paper: #fafbff;
+      --expression-paper-end: #d1daee;
+      --expression-ink: #263b63;
+      --expression-accent: #597bb7;
+    }
+
     .student-progress-card {
       --category-key-lip: #0d3855;
       --category-key-shadow: rgba(8, 45, 68, .34);
@@ -2370,6 +2507,30 @@
             <i style="--progress-bar:91%;--progress-color:#f7d35c"></i>
           </span>
           <span class="category-name">(學生使用)<br>全面英文能力<br>發展進度表</span>
+        </a>
+
+        <a class="category common-expression-card common-expression-speaking-card" href="common-expression-speaking.html" aria-label="Common Expression 常用語 會話 Speaking">
+          <span class="category-name"><span class="common-expression-card__title">Common Expression</span><br>常用語<br>會話 Speaking</span>
+        </a>
+
+        <a class="category common-expression-card common-expression-written-card" href="common-expression-written.html" aria-label="Common Expression 常用語 專業寫作 Written">
+          <span class="category-name"><span class="common-expression-card__title">Common Expression</span><br>常用語<br>專業寫作 Written</span>
+        </a>
+
+        <a class="category common-expression-card common-expression-rhetorical-speaking-card" href="common-expression-rhetorical-speaking.html" aria-label="Common Expression 常用語 修辭會話 Rhetorical Speaking">
+          <span class="category-name"><span class="common-expression-card__title">Common Expression</span><br>常用語<br>修辭會話 Rhetorical Speaking</span>
+        </a>
+
+        <a class="category common-expression-card common-expression-rhetorical-writing-card" href="common-expression-rhetorical-writing.html" aria-label="Common Expression 常用語 修辭寫作 Rhetorical Writing">
+          <span class="category-name"><span class="common-expression-card__title">Common Expression</span><br>常用語<br>修辭寫作 Rhetorical Writing</span>
+        </a>
+
+        <a class="category common-expression-card common-expression-professional-message-card" href="common-expression-professional-message.html" aria-label="Common Expression 常用語 商業溝通 Professional Message">
+          <span class="category-name"><span class="common-expression-card__title">Common Expression</span><br>常用語<br>商業溝通 Professional Message</span>
+        </a>
+
+        <a class="category common-expression-card common-expression-business-speaking-card" href="common-expression-business-speaking.html" aria-label="Common Expression 常用語 商務會話 Business speaking">
+          <span class="category-name"><span class="common-expression-card__title">Common Expression</span><br>常用語<br>商務會話 Business speaking</span>
         </a>
 
       </div>

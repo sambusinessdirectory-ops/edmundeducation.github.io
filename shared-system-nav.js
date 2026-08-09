@@ -13,7 +13,13 @@
     { id: "proverbs", href: "proverb-system.html", zh: "(學生使用) 諺語", en: "學生使用系統" },
     { id: "phrasal-verbs", href: "phrasal-verb-system.html", zh: "Phrasal Verb 動詞片語", en: "學習系統" },
     { id: "schedule", href: "schedule-system.html", zh: "功課及溫習安排", en: "Study Schedule" },
-    { id: "downloads", href: "model-essay-downloads.html", zh: "教材下載區", en: "Downloads" }
+    { id: "downloads", href: "model-essay-downloads.html", zh: "教材下載區", en: "Downloads" },
+    { id: "common-expression-speaking", href: "common-expression-speaking.html", zh: "Common Expression 常用語", en: "會話 Speaking" },
+    { id: "common-expression-written", href: "common-expression-written.html", zh: "Common Expression 常用語", en: "專業寫作 Written" },
+    { id: "common-expression-rhetorical-speaking", href: "common-expression-rhetorical-speaking.html", zh: "Common Expression 常用語", en: "修辭會話 Rhetorical Speaking" },
+    { id: "common-expression-rhetorical-writing", href: "common-expression-rhetorical-writing.html", zh: "Common Expression 常用語", en: "修辭寫作 Rhetorical Writing" },
+    { id: "common-expression-professional-message", href: "common-expression-professional-message.html", zh: "Common Expression 常用語", en: "商業溝通 Professional Message" },
+    { id: "common-expression-business-speaking", href: "common-expression-business-speaking.html", zh: "Common Expression 常用語", en: "商務會話 Business Speaking" }
   ]);
 
   const SESSION_KEYS = Object.freeze({
@@ -25,6 +31,12 @@
     idioms: "edmund-idiom-system-session-v1",
     proverbs: "edmund-proverb-system-session-v1",
     "phrasal-verbs": "edmund-phrasal-verb-system-session-v1",
+    "common-expression-speaking": "edmund-common-expression-speaking-session-v1",
+    "common-expression-written": "edmund-common-expression-written-session-v1",
+    "common-expression-rhetorical-speaking": "edmund-common-expression-rhetorical-speaking-session-v1",
+    "common-expression-rhetorical-writing": "edmund-common-expression-rhetorical-writing-session-v1",
+    "common-expression-professional-message": "edmund-common-expression-professional-message-session-v1",
+    "common-expression-business-speaking": "edmund-common-expression-business-speaking-session-v1",
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession"
   });
@@ -116,6 +128,24 @@
           ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
           : null;
       },
+      "common-expression-speaking"() {
+        return commonExpressionSession("common-expression-speaking");
+      },
+      "common-expression-written"() {
+        return commonExpressionSession("common-expression-written");
+      },
+      "common-expression-rhetorical-speaking"() {
+        return commonExpressionSession("common-expression-rhetorical-speaking");
+      },
+      "common-expression-rhetorical-writing"() {
+        return commonExpressionSession("common-expression-rhetorical-writing");
+      },
+      "common-expression-professional-message"() {
+        return commonExpressionSession("common-expression-professional-message");
+      },
+      "common-expression-business-speaking"() {
+        return commonExpressionSession("common-expression-business-speaking");
+      },
       schedule() {
         const value = storageJson(storage, SESSION_KEYS.schedule);
         return value?.role === "student" && value.impersonatedByAdmin !== true && value.studentToken && value.name
@@ -130,11 +160,34 @@
       }
     };
 
+    function commonExpressionSession(systemId) {
+      const value = storageJson(storage, SESSION_KEYS[systemId]);
+      return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
+        ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
+        : null;
+    }
+
     const universal = storageJson(storage, UNIVERSAL_SESSION_KEY);
     if (universal?.role === "student" && universal.token && universal.name) return universal;
     const active = candidates[activeSystem]?.();
     if (active) return active;
-    return candidates.progress() || candidates.flashcards() || candidates["writing-submission"]() || candidates.speaking() || candidates.sentence() || candidates.idioms() || candidates.proverbs() || candidates["phrasal-verbs"]() || candidates.schedule() || candidates.downloads() || null;
+    return candidates.progress()
+      || candidates.flashcards()
+      || candidates["writing-submission"]()
+      || candidates.speaking()
+      || candidates.sentence()
+      || candidates.idioms()
+      || candidates.proverbs()
+      || candidates["phrasal-verbs"]()
+      || candidates.schedule()
+      || candidates.downloads()
+      || candidates["common-expression-speaking"]()
+      || candidates["common-expression-written"]()
+      || candidates["common-expression-rhetorical-speaking"]()
+      || candidates["common-expression-rhetorical-writing"]()
+      || candidates["common-expression-professional-message"]()
+      || candidates["common-expression-business-speaking"]()
+      || null;
   }
 
   function rememberStudentSession(value) {
@@ -234,6 +287,21 @@
       name: universal.name,
       role: "student"
     }, overwrite);
+    [
+      "common-expression-speaking",
+      "common-expression-written",
+      "common-expression-rhetorical-speaking",
+      "common-expression-rhetorical-writing",
+      "common-expression-professional-message",
+      "common-expression-business-speaking"
+    ].forEach(systemId => {
+      writeStudentSession(storage, SESSION_KEYS[systemId], {
+        token: universal.token,
+        id: universal.id,
+        name: universal.name,
+        role: "student"
+      }, overwrite);
+    });
     writeStudentSession(storage, SESSION_KEYS.schedule, {
       role: "student",
       id: universal.id,

@@ -9,6 +9,12 @@ const pathFromWebUrl = (value) => decodeURIComponent(value.split("?")[0].replace
 
 const htmlPages = [
   "about.html",
+  "common-expression-business-speaking.html",
+  "common-expression-professional-message.html",
+  "common-expression-rhetorical-speaking.html",
+  "common-expression-rhetorical-writing.html",
+  "common-expression-speaking.html",
+  "common-expression-written.html",
   "course.html",
   "cre.html",
   "daily-newsletter.html",
