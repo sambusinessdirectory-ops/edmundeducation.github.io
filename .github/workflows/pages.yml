@@ -147,6 +147,11 @@ jobs:
       - name: Validate all six Common Expression portals, lessons and persistence contracts
         run: node --test tools/test-common-expression-system.mjs
 
+      - name: Validate DSE Paper 3 portal, shared login and imported analysis data
+        run: |
+          node tools/test-dse-paper3-analysis-data.mjs
+          node tools/test-dse-paper3-analysis-portal.mjs
+
       - name: Validate PWA, shared portal navigation, mobile icons, and brand metadata
         run: |
           node tools/test-shared-system-nav.mjs

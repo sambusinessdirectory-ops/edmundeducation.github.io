@@ -1250,6 +1250,109 @@
       letter-spacing: .02em;
     }
 
+    .dse-paper3-analysis-card {
+      --category-key-lip: #23384a;
+      --category-key-shadow: rgba(24, 49, 69, .3);
+      color: #fffaf0;
+      border-color: rgba(221, 233, 238, .5);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.16), transparent 42%),
+        repeating-linear-gradient(0deg, transparent 0 27px, rgba(214, 228, 234, .09) 28px 29px),
+        radial-gradient(circle at 86% 20%, rgba(190, 156, 91, .2), transparent 35%),
+        linear-gradient(138deg, #182f43 0%, #31556d 58%, #536c79 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(240,248,250,.35),
+        inset 0 -9px 0 rgba(16,39,55,.32),
+        0 8px 0 var(--category-key-lip),
+        0 22px 34px var(--category-key-shadow);
+      overflow: hidden;
+    }
+
+    .dse-paper3-analysis-card::before {
+      color: rgba(246, 239, 216, .5);
+      text-shadow: 0 2px 0 rgba(10, 28, 40, .48);
+    }
+
+    .dse-paper3-analysis-card:hover,
+    .dse-paper3-analysis-card:focus-visible {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.2), transparent 42%),
+        repeating-linear-gradient(0deg, transparent 0 27px, rgba(214, 228, 234, .12) 28px 29px),
+        radial-gradient(circle at 86% 20%, rgba(204, 172, 108, .25), transparent 36%),
+        linear-gradient(138deg, #1d384f 0%, #39647e 58%, #607c89 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(240,248,250,.42),
+        inset 0 -9px 0 rgba(16,39,55,.3),
+        0 12px 0 var(--category-key-lip),
+        0 30px 46px var(--category-key-shadow);
+    }
+
+    .paper3-card-visual {
+      position: absolute;
+      top: clamp(18px, 1.35vw, 24px);
+      left: clamp(20px, 1.45vw, 27px);
+      z-index: 1;
+      display: grid;
+      align-content: start;
+      width: clamp(114px, 7.3vw, 140px);
+      min-height: clamp(54px, 3.8vw, 68px);
+      padding: 10px 13px 9px;
+      border: 1px solid rgba(98, 83, 53, .27);
+      border-radius: 5px 9px 8px 5px;
+      color: #263d4c;
+      background:
+        repeating-linear-gradient(0deg, transparent 0 12px, rgba(70, 92, 105, .13) 13px 14px),
+        linear-gradient(145deg, #fffdf6 0%, #e9e3d2 100%);
+      box-shadow:
+        -5px 5px 0 rgba(211, 220, 218, .72),
+        -10px 10px 0 rgba(25, 47, 62, .28),
+        0 10px 18px rgba(10, 27, 39, .22);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: clamp(10px, .64vw, 12px);
+      font-weight: 900;
+      letter-spacing: .12em;
+      line-height: 1.1;
+      transform: rotate(-1.5deg);
+      transition: transform .28s ease, box-shadow .28s ease;
+    }
+
+    .paper3-card-visual::before {
+      content: "";
+      position: absolute;
+      top: -8px;
+      left: 10px;
+      width: 45%;
+      height: 8px;
+      border-radius: 6px 6px 0 0;
+      background: #c8ad76;
+    }
+
+    .paper3-card-visual small {
+      margin-top: 17px;
+      color: #765b2d;
+      font-size: .78em;
+      letter-spacing: .08em;
+    }
+
+    .dse-paper3-analysis-card:hover .paper3-card-visual,
+    .dse-paper3-analysis-card:focus-visible .paper3-card-visual {
+      transform: translateY(-2px) rotate(0deg);
+      box-shadow:
+        -5px 6px 0 rgba(222, 229, 225, .78),
+        -10px 12px 0 rgba(25, 47, 62, .3),
+        0 13px 22px rgba(10, 27, 39, .26);
+    }
+
+    .dse-paper3-analysis-card .category-name {
+      z-index: 2;
+      color: #fffaf0;
+      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+      font-size: clamp(21px, 1.35vw, 28px);
+      line-height: 1.13;
+      letter-spacing: .015em;
+      text-shadow: 0 2px 0 rgba(10, 28, 40, .56), 0 7px 18px rgba(10, 28, 40, .35);
+    }
+
     .common-expression-card {
       --expression-spine: #274c77;
       --expression-paper: #f8fbff;
@@ -2496,6 +2599,11 @@
           <span class="phrasal-book-strap" aria-hidden="true"></span>
           <span class="phrasal-book-medallion" aria-hidden="true"></span>
           <span class="category-name">(學生使用)<br><span class="phrasal-card-title">Phrasal Verb</span><br>動詞片語<br>學習系統</span>
+        </a>
+
+        <a class="category dse-paper3-analysis-card" href="dse-paper3-analysis.html" aria-label="DSE 卷3 綜合能力分析">
+          <span class="paper3-card-visual" aria-hidden="true">PAPER 3<small>DATA FILE</small></span>
+          <span class="category-name">DSE 卷3<br>綜合能力分析</span>
         </a>
 
         <a class="category student-progress-card" href="student-progress.html" aria-label="(學生使用) 全面英文能力 發展進度表">

@@ -18,6 +18,7 @@ const htmlPages = [
   "course.html",
   "cre.html",
   "daily-newsletter.html",
+  "dse-paper3-analysis.html",
   "english-study.html",
   "exam-resources.html",
   "flashcards.html",

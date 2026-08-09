@@ -141,9 +141,29 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 26, "homepage must contain 26 numbered category cards after adding six Common Expression portals");
+assert.equal(homepageCards.length, 27, "homepage must contain 27 numbered category cards after adding DSE Paper 3 Analysis");
 const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
 assert.equal(homepageCardHrefs[13], "writing-submission.html", "Writing Submission must be numbered card 14 after Schedule");
+assert.deepEqual(
+  homepageCardHrefs.slice(18, 27),
+  [
+    "phrasal-verb-system.html",
+    "dse-paper3-analysis.html",
+    "student-progress.html",
+    "common-expression-speaking.html",
+    "common-expression-written.html",
+    "common-expression-rhetorical-speaking.html",
+    "common-expression-rhetorical-writing.html",
+    "common-expression-professional-message.html",
+    "common-expression-business-speaking.html"
+  ],
+  "cards 19-27 must keep DSE Paper 3 at 20 and shift all six Common Expression portals to 22-27"
+);
+assert.match(
+  homepage,
+  /class="category dse-paper3-analysis-card" href="dse-paper3-analysis\.html"[\s\S]*?<span class="category-name">DSE 卷3<br>綜合能力分析<\/span>/,
+  "DSE Paper 3 Analysis must use the requested two-line homepage title"
+);
 assert.match(homepage, /schedule-system-card/);
 assert.match(homepage, /href="schedule-system\.html"/);
 assert.match(homepage, /功課及溫習安排系統/);

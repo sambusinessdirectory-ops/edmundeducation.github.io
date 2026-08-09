@@ -12,6 +12,7 @@
     { id: "idioms", href: "idiom-system.html", zh: "英文慣用語", en: "Idiom Learning" },
     { id: "proverbs", href: "proverb-system.html", zh: "(學生使用) 諺語", en: "學生使用系統" },
     { id: "phrasal-verbs", href: "phrasal-verb-system.html", zh: "Phrasal Verb 動詞片語", en: "學習系統" },
+    { id: "dse-paper3-analysis", href: "dse-paper3-analysis.html", zh: "DSE 卷3 綜合能力分析", en: "Integrated Skills Analysis" },
     { id: "schedule", href: "schedule-system.html", zh: "功課及溫習安排", en: "Study Schedule" },
     { id: "downloads", href: "model-essay-downloads.html", zh: "教材下載區", en: "Downloads" },
     { id: "common-expression-speaking", href: "common-expression-speaking.html", zh: "Common Expression 常用語", en: "會話 Speaking" },
@@ -31,6 +32,7 @@
     idioms: "edmund-idiom-system-session-v1",
     proverbs: "edmund-proverb-system-session-v1",
     "phrasal-verbs": "edmund-phrasal-verb-system-session-v1",
+    "dse-paper3-analysis": "edmund-dse-paper3-analysis-session-v1",
     "common-expression-speaking": "edmund-common-expression-speaking-session-v1",
     "common-expression-written": "edmund-common-expression-written-session-v1",
     "common-expression-rhetorical-speaking": "edmund-common-expression-rhetorical-speaking-session-v1",
@@ -128,6 +130,12 @@
           ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
           : null;
       },
+      "dse-paper3-analysis"() {
+        const value = storageJson(storage, SESSION_KEYS["dse-paper3-analysis"]);
+        return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
+          ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
+          : null;
+      },
       "common-expression-speaking"() {
         return commonExpressionSession("common-expression-speaking");
       },
@@ -179,6 +187,7 @@
       || candidates.idioms()
       || candidates.proverbs()
       || candidates["phrasal-verbs"]()
+      || candidates["dse-paper3-analysis"]()
       || candidates.schedule()
       || candidates.downloads()
       || candidates["common-expression-speaking"]()
@@ -282,6 +291,12 @@
       role: "student"
     }, overwrite);
     writeStudentSession(storage, SESSION_KEYS["phrasal-verbs"], {
+      token: universal.token,
+      id: universal.id,
+      name: universal.name,
+      role: "student"
+    }, overwrite);
+    writeStudentSession(storage, SESSION_KEYS["dse-paper3-analysis"], {
       token: universal.token,
       id: universal.id,
       name: universal.name,

@@ -63,6 +63,7 @@ test("shared student login safely bridges every Flashcard-token portal", () => {
   assert.equal(read(sessionStorage, "edmund-idiom-system-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-proverb-system-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-phrasal-verb-system-session-v1").name, "Student One");
+  assert.equal(read(sessionStorage, "edmund-dse-paper3-analysis-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-common-expression-speaking-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-common-expression-written-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-common-expression-rhetorical-speaking-session-v1").name, "Student One");
@@ -131,6 +132,7 @@ test("student logout removes the universal and app-specific browser sessions", (
     "edmund-idiom-system-session-v1",
     "edmund-proverb-system-session-v1",
     "edmund-phrasal-verb-system-session-v1",
+    "edmund-dse-paper3-analysis-session-v1",
     "edmund-common-expression-speaking-session-v1",
     "edmund-common-expression-written-session-v1",
     "edmund-common-expression-rhetorical-speaking-session-v1",
@@ -154,6 +156,7 @@ test("student bridging and logout never overwrite active admin sessions", () => 
     "edmund-idiom-system-session-v1": { name: "Idiom Admin", role: "admin", token: "admin-idiom" },
     "edmund-proverb-system-session-v1": { name: "Proverb Admin", role: "admin", token: "admin-proverb" },
     "edmund-phrasal-verb-system-session-v1": { name: "Phrasal Verb Admin", role: "admin", token: "admin-phrasal" },
+    "edmund-dse-paper3-analysis-session-v1": { name: "Paper 3 Admin", role: "admin", token: "admin-paper3" },
     "edmund-schedule-session-v1": { name: "Schedule Admin", role: "admin", adminToken: "admin-schedule" },
     edmundModelEssayDownloadSession: { name: "Download Admin", role: "admin", adminToken: "admin-download" }
   };
@@ -172,7 +175,7 @@ test("student bridging and logout never overwrite active admin sessions", () => 
   assert.deepEqual(read(localStorage, "edmundWritingSession"), { name: "Writing Preview", role: "student", impersonatedByAdmin: true });
 });
 
-test("all seventeen student portals load the shared accessible switcher", () => {
+test("all eighteen student portals load the shared accessible switcher", () => {
   const pages = {
     "student-progress.html": "progress",
     "flashcards.html": "flashcards",
@@ -183,6 +186,7 @@ test("all seventeen student portals load the shared accessible switcher", () => 
     "idiom-system.html": "idioms",
     "proverb-system.html": "proverbs",
     "phrasal-verb-system.html": "phrasal-verbs",
+    "dse-paper3-analysis.html": "dse-paper3-analysis",
     "schedule-system.html": "schedule",
     "model-essay-downloads.html": "downloads",
     "common-expression-speaking.html": "common-expression-speaking",
@@ -195,7 +199,7 @@ test("all seventeen student portals load the shared accessible switcher", () => 
   Object.entries(pages).forEach(([file, system]) => {
     const html = fs.readFileSync(path.join(root, file), "utf8");
     assert.match(html, /shared-system-nav\.css/);
-    assert.match(html, /shared-system-nav\.js\?v=20260809-1/, `${file} must load the latest shared navigation release`);
+    assert.match(html, /shared-system-nav\.js\?v=20260809-2/, `${file} must load the latest shared navigation release`);
     assert.match(html, new RegExp(`data-edmund-system-switcher data-system="${system}"`));
     assert.match(html, /data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"/);
   });
@@ -213,6 +217,7 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
     "idiom-system.html",
     "proverb-system.html",
     "phrasal-verb-system.html",
+    "dse-paper3-analysis.html",
     "schedule-system.html",
     "model-essay-downloads.html",
     "common-expression-speaking.html",
@@ -231,6 +236,9 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
   const phrasalVerbSystem = api.systems.find(({ id }) => id === "phrasal-verbs");
   assert.equal(phrasalVerbSystem?.zh, "Phrasal Verb 動詞片語");
   assert.equal(phrasalVerbSystem?.en, "學習系統");
+  const paper3System = api.systems.find(({ id }) => id === "dse-paper3-analysis");
+  assert.equal(paper3System?.zh, "DSE 卷3 綜合能力分析");
+  assert.equal(paper3System?.en, "Integrated Skills Analysis");
   assert.match(scriptSource, /pointerenter/);
   assert.match(scriptSource, /event\.pointerType === "mouse"/);
   assert.match(scriptSource, /trigger\.addEventListener\("click"/);
@@ -244,8 +252,8 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
   assert.match(scriptSource, /aria-current="page"/);
   assert.doesNotMatch(scriptSource, /target=["']_blank/);
   assert.doesNotMatch(cssSource, /\.edmund-system-switcher:(?:hover|focus-within)\s+\.edmund-system-switcher__menu/, "closed click and Escape state must not be overridden by CSS focus/hover selectors");
-  assert.match(cssSource, /max-height:\s*min\(78vh,\s*690px\)/, "the seventeen-link menu must fit small screens");
-  assert.match(cssSource, /overflow-y:\s*auto/, "the seventeen-link menu must scroll when needed");
+  assert.match(cssSource, /max-height:\s*min\(78vh,\s*690px\)/, "the eighteen-link menu must fit small screens");
+  assert.match(cssSource, /overflow-y:\s*auto/, "the eighteen-link menu must scroll when needed");
 });
 
 test("Writing Practice exchanges the shared token without handling a password again", () => {
