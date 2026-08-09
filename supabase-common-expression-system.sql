@@ -429,9 +429,9 @@ begin
 end;
 $$;
 
--- This is the authoritative server-side catalogue.  Only reviewed, enabled
--- rows can receive progress or bookmarks.  The five backbone-only portals
--- intentionally have no lesson rows yet.
+-- This is the authoritative server-side catalogue. Only reviewed, enabled
+-- rows can receive progress or bookmarks. Keep this seed aligned with the
+-- reviewed browser catalogue before publishing new lessons.
 create table if not exists public.common_expression_catalogue_lessons (
   system_key text not null,
   lesson_id text not null,
@@ -460,7 +460,63 @@ insert into public.common_expression_catalogue_lessons (
 )
 values
   ('speaking', 'common-expression-01', 20, 1, true),
-  ('speaking', 'common-expression-02', 20, 1, true)
+  ('speaking', 'common-expression-02', 20, 1, true),
+  ('speaking', 'common-expression-03', 30, 1, true),
+  ('speaking', 'common-expression-04', 30, 1, true),
+  ('speaking', 'common-expression-05', 30, 1, true),
+  ('speaking', 'common-expression-06', 30, 1, true),
+  ('speaking', 'common-expression-07', 30, 1, true),
+  ('speaking', 'common-expression-08', 30, 1, true),
+  ('speaking', 'common-expression-09', 30, 1, true),
+  ('speaking', 'common-expression-10', 30, 1, true),
+  ('speaking', 'common-expression-11', 30, 1, true),
+  ('speaking', 'common-expression-12', 30, 1, true),
+  ('speaking', 'common-expression-13', 30, 1, true),
+  ('written', 'common-expression-01', 30, 1, true),
+  ('written', 'common-expression-02', 30, 1, true),
+  ('written', 'common-expression-03', 30, 1, true),
+  ('written', 'common-expression-04', 30, 1, true),
+  ('written', 'common-expression-05', 30, 1, true),
+  ('written', 'common-expression-06', 30, 1, true),
+  ('written', 'common-expression-07', 30, 1, true),
+  ('written', 'common-expression-08', 30, 1, true),
+  ('written', 'common-expression-09', 30, 1, true),
+  ('written', 'common-expression-10', 30, 1, true),
+  ('written', 'common-expression-11', 30, 1, true),
+  ('rhetorical-speaking', 'common-expression-01', 30, 1, true),
+  ('rhetorical-speaking', 'common-expression-02', 30, 1, true),
+  ('rhetorical-speaking', 'common-expression-03', 30, 1, true),
+  ('rhetorical-speaking', 'common-expression-04', 30, 1, true),
+  ('rhetorical-speaking', 'common-expression-05', 30, 1, true),
+  ('rhetorical-speaking', 'common-expression-06', 30, 1, true),
+  ('rhetorical-speaking', 'common-expression-07', 30, 1, true),
+  ('rhetorical-speaking', 'common-expression-08', 30, 1, true),
+  ('rhetorical-speaking', 'common-expression-09', 30, 1, true),
+  ('rhetorical-speaking', 'common-expression-10', 30, 1, true),
+  ('rhetorical-writing', 'common-expression-01', 30, 1, true),
+  ('rhetorical-writing', 'common-expression-02', 30, 1, true),
+  ('rhetorical-writing', 'common-expression-03', 30, 1, true),
+  ('rhetorical-writing', 'common-expression-04', 30, 1, true),
+  ('rhetorical-writing', 'common-expression-05', 30, 1, true),
+  ('rhetorical-writing', 'common-expression-06', 30, 1, true),
+  ('rhetorical-writing', 'common-expression-07', 30, 1, true),
+  ('rhetorical-writing', 'common-expression-08', 30, 1, true),
+  ('professional-message', 'common-expression-01', 30, 1, true),
+  ('professional-message', 'common-expression-02', 30, 1, true),
+  ('professional-message', 'common-expression-03', 30, 1, true),
+  ('professional-message', 'common-expression-04', 30, 1, true),
+  ('professional-message', 'common-expression-05', 30, 1, true),
+  ('professional-message', 'common-expression-06', 30, 1, true),
+  ('professional-message', 'common-expression-07', 30, 1, true),
+  ('professional-message', 'common-expression-08', 30, 1, true),
+  ('business-speaking', 'common-expression-01', 30, 1, true),
+  ('business-speaking', 'common-expression-02', 30, 1, true),
+  ('business-speaking', 'common-expression-03', 30, 1, true),
+  ('business-speaking', 'common-expression-04', 30, 1, true),
+  ('business-speaking', 'common-expression-05', 30, 1, true),
+  ('business-speaking', 'common-expression-06', 30, 1, true),
+  ('business-speaking', 'common-expression-07', 30, 1, true),
+  ('business-speaking', 'common-expression-08', 30, 1, true)
 on conflict (system_key, lesson_id) do update
 set question_count = excluded.question_count,
     content_version = excluded.content_version,

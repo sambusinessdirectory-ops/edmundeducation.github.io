@@ -54,12 +54,57 @@ const portals = [
   }
 ];
 
+const expectedCatalogueStats = {
+  speaking: { lessons: 13, questions: 370 },
+  written: { lessons: 11, questions: 330 },
+  "rhetorical-speaking": { lessons: 10, questions: 300 },
+  "rhetorical-writing": { lessons: 8, questions: 240 },
+  "professional-message": { lessons: 8, questions: 240 },
+  "business-speaking": { lessons: 8, questions: 240 }
+};
+
+const baseLessonKeys = new Set([
+  "speaking:common-expression-01",
+  "speaking:common-expression-02"
+]);
+
+function loadManifest() {
+  return JSON.parse(read("tools/common-expression-import-manifest.json"));
+}
+
 function loadCatalogue() {
   const window = {};
   vm.runInNewContext(read("common-expression-system-data.js"), { window }, {
     filename: "common-expression-system-data.js"
   });
+  vm.runInNewContext(read("common-expression-system-imported-data.js"), { window }, {
+    filename: "common-expression-system-imported-data.js"
+  });
   return window.EDMUND_COMMON_EXPRESSION_DATA;
+}
+
+function lessonKey(systemKey, lessonId) {
+  return `${systemKey}:${lessonId}`;
+}
+
+function assertNoCurlyApostrophes(value, path = "catalogue") {
+  if (typeof value === "string") {
+    // Source filenames preserve the exact uploaded name for provenance. All
+    // student-visible copy must follow the site's straight-apostrophe rule.
+    if (!path.endsWith(".source.file")) {
+      assert.equal(value.includes("’"), false, `${path}: curly apostrophe`);
+    }
+    return;
+  }
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => assertNoCurlyApostrophes(item, `${path}[${index}]`));
+    return;
+  }
+  if (value && typeof value === "object") {
+    for (const [key, item] of Object.entries(value)) {
+      assertNoCurlyApostrophes(item, `${path}.${key}`);
+    }
+  }
 }
 
 function javascriptFunctionSource(source, name) {
@@ -128,7 +173,8 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /src=["']\/pwa-register\.js["']/,
       /common-expression-system\.css\?v=20260809-1/,
       /common-expression-system-config\.js\?v=20260809-1/,
-      /common-expression-system-data\.js\?v=20260809-1/,
+      /common-expression-system-data\.js\?v=20260809-2/,
+      /common-expression-system-imported-data\.js\?v=20260809-2/,
       /common-expression-system\.js\?v=20260809-1/,
       /shared-system-nav\.css\?v=20260809-2/,
       /shared-system-nav\.js\?v=20260809-2/
@@ -144,15 +190,23 @@ test("all six Common Expression portals carry their identity, shared navigation 
     assert.match(html, /@supabase\/supabase-js@2\.110\.8/, `${portal.file}: Supabase client version must be pinned`);
     assert.match(html, /integrity=["']sha384-[^"']+["']/, `${portal.file}: CDN dependency needs SRI`);
     assert.match(html, /crossorigin=["']anonymous["']/, `${portal.file}: SRI request mode`);
+
+    const baseDataIndex = html.indexOf("common-expression-system-data.js?v=20260809-2");
+    const importedDataIndex = html.indexOf("common-expression-system-imported-data.js?v=20260809-2");
+    const engineIndex = html.indexOf("common-expression-system.js?v=20260809-1");
+    assert.ok(baseDataIndex < importedDataIndex, `${portal.file}: base catalogue must load before imported lessons`);
+    assert.ok(importedDataIndex < engineIndex, `${portal.file}: imported lessons must load before the module engine`);
   }
 });
 
-test("the shared catalogue exposes six systems, two reviewed Speaking lessons and five empty backbones", () => {
+test("the shared catalogue exposes the complete 58-lesson, 1,720-question library", () => {
   const catalogue = loadCatalogue();
   assert.ok(catalogue);
-  assert.match(String(catalogue.version), /^2026-08-09/);
+  assert.equal(String(catalogue.version), "2026-08-09.2");
   assert.deepEqual(Object.keys(catalogue.systems), portals.map(({ key }) => key));
 
+  let lessonTotal = 0;
+  let questionTotal = 0;
   for (const portal of portals) {
     const system = catalogue.systems[portal.key];
     assert.equal(system.key, portal.key);
@@ -163,43 +217,102 @@ test("the shared catalogue exposes six systems, two reviewed Speaking lessons an
     assert.ok(system.descriptionZh.length > 10);
     assert.ok(system.descriptionEn.length > 10);
     assert.ok(Array.isArray(system.lessons));
+    assert.equal(system.lessons.length, expectedCatalogueStats[portal.key].lessons, `${portal.key}: lesson count`);
+    const systemQuestionTotal = system.lessons.reduce((sum, lesson) => sum + lesson.questions.length, 0);
+    assert.equal(systemQuestionTotal, expectedCatalogueStats[portal.key].questions, `${portal.key}: question count`);
+    lessonTotal += system.lessons.length;
+    questionTotal += systemQuestionTotal;
   }
 
-  assert.equal(catalogue.systems.speaking.lessons.length, 2);
-  for (const portal of portals.slice(1)) {
-    assert.equal(catalogue.systems[portal.key].lessons.length, 0, `${portal.key} must remain a deliberate content-free backbone`);
-  }
+  assert.equal(lessonTotal, 58);
+  assert.equal(questionTotal, 1720);
 });
 
-test("Speaking contains both supplied PDF lessons and exactly 40 complete, uniquely identified exercises", () => {
-  const lessons = loadCatalogue().systems.speaking.lessons;
-  assert.deepEqual(Array.from(lessons, ({ id }) => id), ["common-expression-01", "common-expression-02"]);
-  assert.deepEqual(Array.from(lessons, ({ titleEn }) => titleEn), ["See you around", "That's good to hear"]);
-  assert.equal(lessons[0].source.file, "Common Expression 1 - See you around.pdf");
-  assert.equal(lessons[0].source.pageCount, 17);
-  assert.equal(lessons[1].source.file, "Common Expression 2 - “That’s good to hear.pdf");
-  assert.equal(lessons[1].source.pageCount, 35);
+test("all 56 manifest PDFs are represented exactly once and no unrequested lesson was imported", () => {
+  const manifest = loadManifest();
+  const catalogue = loadCatalogue();
+  assert.equal(manifest.length, 56);
+  assert.equal(new Set(manifest.map(({ file }) => file)).size, 56, "manifest source filenames must be unique");
 
-  const questions = lessons.flatMap((lesson) => lesson.questions.map((question) => ({ lesson, question })));
-  assert.equal(questions.length, 40);
-  assert.equal(new Set(questions.map(({ question }) => question.id)).size, 40, "question ids must be globally unique");
-  assert.deepEqual(Array.from(lessons, ({ questions }) => questions.length), [20, 20]);
-
-  for (const { lesson, question } of questions) {
-    assert.match(question.id, /^ce0[12]-q(?:0[1-9]|1\d|20)$/);
-    assert.ok(question.promptEn.trim(), `${question.id}: English prompt`);
-    assert.ok(question.promptZh.trim(), `${question.id}: Traditional Chinese prompt`);
-    assert.ok(question.answerEn.trim(), `${question.id}: English answer`);
-    assert.ok(question.answerZh.trim(), `${question.id}: Traditional Chinese answer`);
-    assert.ok(Array.isArray(question.acceptedAnswers) && question.acceptedAnswers.includes(question.answerEn), `${question.id}: canonical answer is accepted`);
-    assert.ok(lesson.examples.length >= 3, `${lesson.id}: worked examples`);
-    assert.ok(lesson.reminders.length >= 5, `${lesson.id}: usage safeguards`);
-    assert.ok(lesson.usageGroups.length >= 16, `${lesson.id}: structured usage coverage`);
+  const allLessons = [];
+  for (const portal of portals) {
+    for (const lesson of catalogue.systems[portal.key].lessons) {
+      allLessons.push({ systemKey: portal.key, lesson });
+    }
+  }
+  const sourceCounts = new Map();
+  for (const { lesson } of allLessons) {
+    sourceCounts.set(lesson.source.file, (sourceCounts.get(lesson.source.file) || 0) + 1);
   }
 
-  assert.equal(lessons[0].questions[0].answerEn, "It was nice talking to you. See you around.");
-  assert.equal(lessons[1].questions[0].answerEn, "A: I'm feeling much better today.\nB: That's good to hear.");
-  assert.equal(lessons[1].titleEn.includes("’"), false, "display titles use the site's ASCII-apostrophe convention");
+  for (const entry of manifest) {
+    assert.equal(sourceCounts.get(entry.file), 1, `${entry.file}: represented exactly once`);
+    const lessonId = `common-expression-${String(entry.idNumber).padStart(2, "0")}`;
+    const lesson = catalogue.systems[entry.systemKey]?.lessons.find((item) => item.id === lessonId);
+    assert.ok(lesson, `${entry.systemKey}/${lessonId}: manifest lesson exists`);
+    assert.equal(lesson.source.file, entry.file, `${entry.systemKey}/${lessonId}: source filename`);
+    assert.equal(lesson.source.originalLessonNumber, entry.sourceNumber, `${entry.systemKey}/${lessonId}: original source number`);
+    assert.equal(lesson.titleEn, entry.titleEn, `${entry.systemKey}/${lessonId}: English title`);
+    assert.equal(lesson.titleZh, entry.titleZh, `${entry.systemKey}/${lessonId}: Chinese title`);
+  }
+
+  const importedLessons = allLessons.filter(({ systemKey, lesson }) => !baseLessonKeys.has(lessonKey(systemKey, lesson.id)));
+  assert.equal(importedLessons.length, 56);
+  assert.equal(new Set(importedLessons.map(({ lesson }) => lesson.source.file)).size, 56);
+  assert.deepEqual(
+    importedLessons.map(({ lesson }) => lesson.source.file).sort(),
+    manifest.map(({ file }) => file).sort(),
+    "the generated catalogue must contain exactly the explicit manifest, not a broad Downloads glob"
+  );
+});
+
+test("lesson and exercise records are complete, correctly scoped and use straight apostrophes", () => {
+  const catalogue = loadCatalogue();
+
+  for (const portal of portals) {
+    const lessons = catalogue.systems[portal.key].lessons;
+    const lessonIds = Array.from(lessons, ({ id }) => id);
+    const slugs = Array.from(lessons, ({ slug }) => slug);
+    assert.equal(new Set(lessonIds).size, lessons.length, `${portal.key}: lesson ids unique within system`);
+    assert.equal(new Set(slugs).size, lessons.length, `${portal.key}: lesson slugs unique within system`);
+
+    const questionIds = [];
+    for (const lesson of lessons) {
+      const key = lessonKey(portal.key, lesson.id);
+      const imported = !baseLessonKeys.has(key);
+      assert.match(lesson.id, /^common-expression-(?:0[1-9]|[1-9]\d{1,3})$/, `${key}: canonical lesson id`);
+      assert.equal(lesson.questions.length, imported ? 30 : 20, `${key}: exercise count`);
+      assert.ok(lesson.source.pageCount > 0, `${key}: source page count`);
+      assert.ok(lesson.examples.length >= 3, `${key}: worked examples`);
+      assert.ok(lesson.reminders.length >= 5, `${key}: usage safeguards`);
+      assert.ok(lesson.usageGroups.length >= (imported ? 1 : 16), `${key}: structured usage coverage`);
+      assert.ok(lesson.summaryPoints.length > 0, `${key}: summary points`);
+
+      const lessonNumber = lesson.id.match(/common-expression-(\d+)$/)?.[1];
+      for (const question of lesson.questions) {
+        questionIds.push(question.id);
+        assert.match(question.id, new RegExp(`^ce${lessonNumber}-q(?:0[1-9]|[12]\\d|30)$`), `${portal.key}/${question.id}: lesson-scoped question id`);
+        assert.ok(question.promptEn.trim(), `${portal.key}/${question.id}: English prompt`);
+        assert.ok(question.promptZh.trim(), `${portal.key}/${question.id}: Traditional Chinese prompt`);
+        assert.ok(question.answerEn.trim(), `${portal.key}/${question.id}: English answer`);
+        assert.ok(question.answerZh.trim(), `${portal.key}/${question.id}: Traditional Chinese answer`);
+        assert.ok(Array.isArray(question.acceptedAnswers) && question.acceptedAnswers.includes(question.answerEn), `${portal.key}/${question.id}: canonical answer is accepted`);
+      }
+
+      assertNoCurlyApostrophes(lesson, `${portal.key}.${lesson.id}`);
+    }
+    assert.equal(new Set(questionIds).size, questionIds.length, `${portal.key}: question ids unique within system`);
+  }
+
+  const speaking = catalogue.systems.speaking.lessons;
+  assert.deepEqual(Array.from(speaking.slice(0, 2), ({ id }) => id), ["common-expression-01", "common-expression-02"]);
+  assert.deepEqual(Array.from(speaking.slice(0, 2), ({ titleEn }) => titleEn), ["See you around", "That's good to hear"]);
+  assert.equal(speaking[0].source.file, "Common Expression 1 - See you around.pdf");
+  assert.equal(speaking[0].source.pageCount, 17);
+  assert.equal(speaking[1].source.file, "Common Expression 2 - “That’s good to hear.pdf");
+  assert.equal(speaking[1].source.pageCount, 35);
+  assert.equal(speaking[0].questions[0].answerEn, "It was nice talking to you. See you around.");
+  assert.equal(speaking[1].questions[0].answerEn, "A: I'm feeling much better today.\nB: That's good to hear.");
 });
 
 test("the frontend uses the shared Flashcard login token and the three bounded Common Expression persistence RPCs", () => {
@@ -310,23 +423,49 @@ test("RFC3339 timestamps accept Supabase +00:00 offsets and are normalized befor
   assert.ok((stateNormalizer.match(/normalizeTimestamp\(/g) || []).length >= 3, "lesson, completion and per-answer timestamps must all be normalized");
 });
 
-test("the authoritative database catalogue seeds only the two reviewed Speaking lessons", () => {
+test("the authoritative database catalogue has exact lesson and question-count parity with all 58 lessons", () => {
   const sql = read("supabase-common-expression-system.sql");
   const lower = sql.toLowerCase();
+  const catalogue = loadCatalogue();
   assert.match(lower, /create table(?: if not exists)? public\.common_expression_catalogue_lessons/);
   assert.match(lower, /primary key\s*\(\s*system_key\s*,\s*lesson_id\s*\)/s);
   assert.ok((lower.match(/foreign key\s*\(\s*system_key\s*,\s*lesson_id\s*\)\s*references\s+public\.common_expression_catalogue_lessons/gs) || []).length >= 2, "states and bookmarks must both reference the authoritative catalogue");
 
-  const seedStatement = lower.match(/insert into public\.common_expression_catalogue_lessons\s*\([^;]+?values([\s\S]+?)(?:on conflict[^;]*)?;/)?.[1] || "";
-  assert.ok(seedStatement, "catalogue seed insert is required");
-  const seeded = [...seedStatement.matchAll(/\(\s*'([^']+)'\s*,\s*'([^']+)'\s*(?:,|\))/g)]
-    .map(([, systemKey, lessonId]) => `${systemKey}:${lessonId}`)
-    .sort();
-  assert.deepEqual(seeded, [
-    "speaking:common-expression-01",
-    "speaking:common-expression-02"
-  ]);
-  assert.doesNotMatch(seedStatement, /'written'|'rhetorical-speaking'|'rhetorical-writing'|'professional-message'|'business-speaking'/, "empty portal backbones must not acquire invented lessons");
+  const seedBlocks = [...lower.matchAll(
+    /insert into public\.common_expression_catalogue_lessons\s*\([\s\S]*?\)\s*values\s*([\s\S]*?)\s*on conflict\s*\(\s*system_key\s*,\s*lesson_id\s*\)[\s\S]*?;/g
+  )].map((match) => match[1]);
+  assert.ok(seedBlocks.length, "catalogue seed insert is required");
+  const seedRows = seedBlocks.flatMap((block) => [...block.matchAll(
+    /\(\s*'([^']+)'\s*,\s*'([^']+)'\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(true|false)\s*\)/g
+  )].map(([, systemKey, lessonId, questionCount, contentVersion, enabled]) => ({
+    systemKey,
+    lessonId,
+    questionCount: Number(questionCount),
+    contentVersion: Number(contentVersion),
+    enabled: enabled === "true"
+  })));
+
+  const expected = new Map();
+  for (const portal of portals) {
+    for (const lesson of catalogue.systems[portal.key].lessons) {
+      expected.set(lessonKey(portal.key, lesson.id), lesson.questions.length);
+    }
+  }
+  const actual = new Map();
+  for (const row of seedRows) {
+    const key = lessonKey(row.systemKey, row.lessonId);
+    assert.equal(actual.has(key), false, `${key}: duplicate SQL catalogue seed`);
+    assert.equal(row.enabled, true, `${key}: imported lesson must be enabled`);
+    assert.ok(row.contentVersion >= 1, `${key}: positive content version`);
+    actual.set(key, row.questionCount);
+  }
+
+  assert.equal(expected.size, 58);
+  assert.equal(actual.size, 58);
+  assert.deepEqual([...actual.keys()].sort(), [...expected.keys()].sort(), "SQL and browser catalogue lesson keys must match exactly");
+  for (const [key, questionCount] of expected) {
+    assert.equal(actual.get(key), questionCount, `${key}: SQL question_count matches the lesson data`);
+  }
 });
 
 test("stale local or multi-tab snapshots merge every answer by its own updatedAt timestamp", () => {
