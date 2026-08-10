@@ -6,10 +6,11 @@ import { readFile } from "node:fs/promises";
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
 
-const [recordedHtml, portalHtml, portalJs, frameGuardJs, portalConfig, sql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
+const [recordedHtml, portalHtml, portalJs, portalCss, frameGuardJs, portalConfig, sql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
   read("recorded.html"),
   read("video-class.html"),
   read("video-class.js"),
+  read("video-class.css"),
   read("video-class-frame-guard.js"),
   read("video-class-config.js"),
   read("supabase-video-class.sql"),
@@ -758,6 +759,8 @@ test("administrator UI exposes UUID/key controls and playback grants expire with
   assert.match(portalJs, /clear\.dataset\.action\s*=\s*"clear"/);
   assert.match(portalJs, /toggle\.disabled\s*=\s*!student\.videoKey/);
   assert.match(portalJs, /method:\s*"PATCH"[\s\S]{0,100}?body:\s*\{\s*enabled\s*\}/);
+  assert.match(portalCss, /\.entitlement-student-picker\s*\{[^}]*min-width:\s*0;[^}]*width:\s*min\(620px,\s*100%\)/i);
+  assert.match(portalCss, /\.entitlement-student-picker\s+>\s+span,\s*\.entitlement-student-picker\s+select\s*\{[^}]*min-width:\s*0;[^}]*max-width:\s*100%;[^}]*width:\s*100%;/i);
 
   assert.match(workerSource, /const\s+PLAYBACK_TOKEN_TTL_SECONDS\s*=\s*2\s*\*\s*60\s*\*\s*60\s*;/);
   assert.match(workerSource, /databaseExpiryMs\s*=\s*Date\.parse\(String\(row\.expires_at\s*\|\|\s*""\)\)/);

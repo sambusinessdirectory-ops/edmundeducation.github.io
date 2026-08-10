@@ -988,7 +988,9 @@ button:disabled { cursor: wait; opacity: 0.62; }
 .entitlements-panel { margin-top: 38px; }
 .entitlements-panel__heading h2 { margin: 0; font-family: var(--sans); font-size: clamp(30px, 4vw, 46px); }
 .entitlements-panel__heading p:last-child { color: #777880; }
-.entitlement-student-picker { width: min(620px, 100%); margin-top: 28px; display: grid; gap: 8px; color: #686970; font-family: var(--sans); font-size: 12px; font-weight: 900; }
+.entitlement-student-picker { min-width: 0; width: min(620px, 100%); margin-top: 28px; display: grid; gap: 8px; color: #686970; font-family: var(--sans); font-size: 12px; font-weight: 900; }
+.entitlement-student-picker > span,
+.entitlement-student-picker select { min-width: 0; max-width: 100%; width: 100%; }
 .entitlement-student-picker select { min-height: 50px; border: 1px solid #ddd9db; border-radius: 8px; padding: 0 14px; color: var(--ink); background: #fff; font-size: 14px; }
 .entitlements-form { max-width: 920px; margin-top: 26px; padding: 28px; border: 1px solid rgba(25, 25, 29, 0.08); border-radius: 8px; background: rgba(255, 255, 255, 0.94); box-shadow: 0 16px 42px rgba(52, 43, 48, 0.07); }
 .entitlements-form fieldset { margin: 0; border: 0; padding: 0; }
