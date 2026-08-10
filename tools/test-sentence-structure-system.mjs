@@ -1008,7 +1008,8 @@ test("lesson teaching cards remain source-specific rather than generic batch fil
 test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(html, /<html[^>]+lang="zh-Hant"/);
   assert.match(html, /data-login-form/);
-  assert.match(html, /同一個學生帳戶登入/);
+  assert.match(html, /請輸入您的學生帳戶資料/);
+  assert.doesNotMatch(html, /可以登入|同一個學生帳戶登入/);
   for (const view of ["login", "dashboard", "lesson", "bookmarks", "admin"]) {
     assert.match(html, new RegExp(`data-view="${view}"`));
   }
