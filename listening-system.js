@@ -162,7 +162,7 @@ async function handleLogin(event) {
   const password = String(form.get("password") || "");
   if (!username || !password) return setLoginStatus("請輸入用戶名稱及密碼。", "error");
   elements.loginButton.disabled = true;
-  setLoginStatus("正在核對共用學生帳戶…");
+  setLoginStatus("正在核對帳戶…");
   try {
     if (!await login(username, password)) throw new Error("用戶名稱或密碼不正確。");
     elements.loginForm.reset();
@@ -197,7 +197,7 @@ async function logout() {
   window.EdmundSystemNav?.forgetStudentSession();
   clearSession();
   try { await state.supabase?.auth.signOut(); } catch { /* Best effort for anonymous Auth. */ }
-  setConnection("可以登入", "online");
+  setConnection("已連線", "online");
   showView("login");
 }
 
@@ -272,7 +272,7 @@ async function loadAudioCatalogue() {
       const part = Number(raw?.part);
       const url = String(raw?.url || "");
       if (practice >= 1 && practice <= 20 && part >= 1 && part <= 4 && /^https:\/\//i.test(url)) {
-        state.tracks.set(`${practice}:${part}`, { practice, part, url, key: String(raw.key || ""), size: Number(raw.size || 0) });
+        state.tracks.set(`${practice}:${part}`, { practice, part, url });
       }
     }
     return payload;
@@ -283,10 +283,6 @@ async function loadAudioCatalogue() {
   return state.cataloguePromise;
 }
 
-function formatMegabytes(bytes) {
-  return bytes > 0 ? `${(bytes / 1048576).toFixed(1)} MB` : "MP3";
-}
-
 function renderTrackCards() {
   elements.trackGrid.innerHTML = [1, 2, 3, 4].map((part) => {
     const track = state.tracks.get(`${state.practice}:${part}`);
@@ -294,8 +290,8 @@ function renderTrackCards() {
     return `<article class="track-card${requested}" id="part-${part}" data-track-part="${part}">
       <div class="track-heading"><div><p class="eyebrow">RECORDING ${part}</p><h2>Part ${part}</h2></div><span>0${part}</span></div>
       ${track ? `<audio controls preload="metadata" data-audio-part="${part}" src="${escapeHtml(track.url)}">您的瀏覽器不支援音訊播放器。</audio>
-        <div class="speed-row"><label>播放速度<select data-speed-part="${part}">${SPEEDS.map((speed) => `<option value="${speed}"${speed === state.speed ? " selected" : ""}>${speed}×</option>`).join("")}</select></label><p>${escapeHtml(formatMegabytes(track.size))} · Cloudflare R2</p></div>`
-        : `<div class="track-unavailable"><strong>暫時未能找到 Part ${part} 錄音。</strong><br>系統已直接檢查 Cloudflare 資產目錄；請確認檔名同時包含 Practice ${state.practice} 和 Part ${part}。</div>`}
+        <div class="speed-row"><label>播放速度<select data-speed-part="${part}">${SPEEDS.map((speed) => `<option value="${speed}"${speed === state.speed ? " selected" : ""}>${speed}×</option>`).join("")}</select></label></div>`
+        : `<div class="track-unavailable"><strong>暫時未能找到 Part ${part} 錄音。</strong><br>請稍後再試，或通知老師檢查 Practice ${state.practice} 的 Part ${part}。</div>`}
     </article>`;
   }).join("");
   document.querySelectorAll("audio[data-audio-part]").forEach((audio) => {
@@ -316,19 +312,18 @@ async function openPractice(practice, part = 0, options = {}) {
   if (options.update !== false) updateRoute("ielts", state.practice, state.requestedPart);
   elements.practiceTitle.textContent = `Practice ${state.practice}`;
   elements.trackGrid.innerHTML = "";
-  setCatalogueStatus("正在連接 Cloudflare 錄音庫…");
+  setCatalogueStatus("正在載入錄音…");
   showView("practice");
   try {
-    const payload = await loadAudioCatalogue();
+    await loadAudioCatalogue();
     const available = [1, 2, 3, 4].filter((partNumber) => state.tracks.has(`${state.practice}:${partNumber}`)).length;
     renderTrackCards();
-    if (available === 4) setCatalogueStatus("四段錄音已連接 Cloudflare R2。", "ready");
+    if (available === 4) setCatalogueStatus("四段錄音已準備好。", "ready");
     else setCatalogueStatus(`已找到 ${available}/4 段錄音；缺少的 Part 已在下方清楚標示。`, "warning");
-    if (Array.isArray(payload?.unmapped) && payload.unmapped.length) console.info("Unmapped listening objects", payload.unmapped);
     if (state.requestedPart) window.setTimeout(() => document.querySelector(`[data-track-part="${state.requestedPart}"]`)?.scrollIntoView({ behavior: "smooth", block: "start" }), 120);
   } catch (error) {
     console.warn("Listening catalogue failed", error);
-    setCatalogueStatus(error?.message || "暫時未能連接 Cloudflare 錄音庫。", "error");
+    setCatalogueStatus(error?.message || "暫時未能載入錄音。", "error");
     renderTrackCards();
   }
 }
@@ -377,7 +372,7 @@ async function initialise() {
   setConnection("正在連接", "checking");
   try {
     await ensureSupabaseSession();
-    setConnection("可以登入", "online");
+    setConnection("已連線", "online");
   } catch (error) {
     console.warn("Listening Supabase initialization failed", error);
     setConnection("連線失敗", "error");

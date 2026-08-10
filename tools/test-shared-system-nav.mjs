@@ -202,10 +202,19 @@ test("all nineteen student portals load the shared accessible switcher", () => {
   Object.entries(pages).forEach(([file, system]) => {
     const html = fs.readFileSync(path.join(root, file), "utf8");
     assert.match(html, /shared-system-nav\.css/);
-    assert.match(html, /shared-system-nav\.js\?v=20260810-2/, `${file} must load the latest shared navigation release`);
+    assert.match(html, /shared-system-nav\.js\?v=20260810-3/, `${file} must load the latest shared navigation release`);
     assert.match(html, new RegExp(`data-edmund-system-switcher data-system="${system}"`));
     assert.match(html, /data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"/);
   });
+});
+
+test("every portal can create the shared password control before login and reveal it after login", () => {
+  assert.match(scriptSource, /const candidate = studentSessionCandidate\(\)/);
+  assert.match(scriptSource, /button\.hidden = !candidate/);
+  assert.match(scriptSource, /existing\.hidden = !candidate/);
+  assert.doesNotMatch(scriptSource, /if \(!studentSessionCandidate\(\) \|\| document\.querySelector/);
+  assert.match(scriptSource, /shared_student_change_password/);
+  assert.match(scriptSource, /更改用戶系統 Password/);
 });
 
 test("menu behavior covers hover, focus, Escape and click-outside", () => {

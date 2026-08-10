@@ -237,6 +237,7 @@
     } catch {
       // Writing Practice will also clear its own session during logout.
     }
+    ensurePasswordButton();
   }
 
   function bridgeStudentSession(candidate = studentSessionCandidate(), overwrite = false) {
@@ -536,7 +537,12 @@
   }
 
   function ensurePasswordButton() {
-    if (!studentSessionCandidate() || document.querySelector("[data-change-password], [data-edmund-change-password]")) return;
+    const candidate = studentSessionCandidate();
+    const existing = document.querySelector("[data-change-password], [data-edmund-change-password]");
+    if (existing) {
+      if (existing.matches("[data-edmund-change-password]")) existing.hidden = !candidate;
+      return existing;
+    }
     const actions = document.querySelector(".edmund-system-header__actions");
     if (!actions) return;
     const button = document.createElement("button");
@@ -544,6 +550,7 @@
     button.className = "edmund-system-password-button";
     button.dataset.edmundChangePassword = "";
     button.textContent = "更改用戶系統 Password";
+    button.hidden = !candidate;
     button.addEventListener("click", () => {
       const dialog = ensurePasswordDialog();
       const form = dialog.querySelector("[data-edmund-password-form]");
@@ -556,6 +563,7 @@
     });
     const logout = actions.querySelector("[data-logout], [data-action=logout]");
     actions.insertBefore(button, logout || null);
+    return button;
   }
 
   function initialise() {

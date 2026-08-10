@@ -304,7 +304,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260810-3/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260810-4/);
 
 const metricCards = [...scheduleHtml.matchAll(/<article\s+class="metric-card(?:\s[^"]*)?"/g)];
 assert.equal(metricCards.length, 4, "schedule progress dashboard must contain exactly four metric cards");

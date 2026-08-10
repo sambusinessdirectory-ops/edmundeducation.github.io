@@ -20,7 +20,7 @@ import {
   rebaseWritingGrammarIssuesAfterAppliedCorrection,
   remoteGrammarRetryDelayMs,
   writingGrammarReviewNotice
-} from "./writing-submission-ai.js?v=20260803-grammar-progress1";
+} from "./writing-submission-ai.js?v=20260810-drafts-admin2";
 import {
   emptyWritingTimer,
   expireWritingTimer,
@@ -32,6 +32,14 @@ import {
   timerInputSeconds,
   writingTimerRemaining
 } from "./writing-submission-timer.js?v=20260810-timer-export1";
+import {
+  emptyWritingStopwatch,
+  formatWritingStopwatch,
+  normalizeWritingStopwatch,
+  pauseWritingStopwatch,
+  resetWritingStopwatch,
+  startWritingStopwatch
+} from "./writing-submission-stopwatch.js?v=20260810-drafts-admin2";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -85,9 +93,15 @@ const elements = {
   writingTimerReset: document.querySelector("[data-writing-timer-reset]"),
   writingTimerRetry: document.querySelector("[data-writing-timer-retry]"),
   writingTimerStatus: document.querySelector("[data-writing-timer-status]"),
+  writingStopwatch: document.querySelector("[data-writing-stopwatch]"),
+  writingStopwatchDisplay: document.querySelector("[data-writing-stopwatch-display]"),
+  writingStopwatchStart: document.querySelector("[data-writing-stopwatch-start]"),
+  writingStopwatchPause: document.querySelector("[data-writing-stopwatch-pause]"),
+  writingStopwatchReset: document.querySelector("[data-writing-stopwatch-reset]"),
   draftState: document.querySelector("[data-draft-state]"),
   submissionStatus: document.querySelector("[data-submission-status]"),
   submitWriting: document.querySelector("[data-submit-writing]"),
+  saveProgress: document.querySelector("[data-save-progress]"),
   grammarList: document.querySelector("[data-grammar-list]"),
   issueCount: document.querySelector("[data-issue-count]"),
   grammarPanel: document.querySelector(".grammar-panel"),
@@ -108,7 +122,11 @@ const elements = {
   exportSelectedCount: document.querySelector("[data-export-selected-count]"),
   exportSelectedSubmissions: document.querySelector("[data-export-selected-submissions]"),
   exportAllSubmissions: document.querySelector("[data-export-all-submissions]"),
+  draftCount: document.querySelector("[data-draft-count]"),
+  draftList: document.querySelector("[data-draft-list]"),
+  refreshDrafts: document.querySelector("[data-refresh-drafts]"),
   refreshGrammarLog: document.querySelector("[data-refresh-grammar-log]"),
+  exportGrammarLog: document.querySelector("[data-export-grammar-log]"),
   uniqueRuleCount: document.querySelector("[data-unique-rule-count]"),
   totalIssueCount: document.querySelector("[data-total-issue-count]"),
   grammarSummaryList: document.querySelector("[data-grammar-summary-list]"),
@@ -116,6 +134,10 @@ const elements = {
   adminCount: document.querySelector("[data-admin-count]"),
   adminList: document.querySelector("[data-admin-list]"),
   adminDetail: document.querySelector("[data-admin-detail]"),
+  adminStudentCount: document.querySelector("[data-admin-student-count]"),
+  adminStudentList: document.querySelector("[data-admin-student-list]"),
+  adminGrammarCount: document.querySelector("[data-admin-grammar-count]"),
+  adminGrammarList: document.querySelector("[data-admin-grammar-list]"),
   refreshAdminReview: document.querySelector("[data-refresh-admin-review]"),
   adminReviewCount: document.querySelector("[data-admin-review-count]"),
   adminReviewList: document.querySelector("[data-admin-review-list]"),
@@ -164,6 +186,8 @@ const state = {
   writingClockTimer: null,
   selectedTopicResource: null,
   writingTimer: emptyWritingTimer(),
+  writingStopwatch: emptyWritingStopwatch(),
+  writingImageZoom: 1,
   writingTimerPanelOpen: false,
   writingTimerClock: null,
   timerAutoSubmitLock: false,
@@ -173,12 +197,16 @@ const state = {
   manualRecheckTimer: null,
   toastTimer: null,
   submissions: [],
+  drafts: [],
   selectedExportSubmissionIds: new Set(),
   exportInFlight: false,
   writingProgress: [],
   selectedSubmissionId: "",
   grammarProblems: [],
   adminSubmissions: [],
+  adminStudents: [],
+  selectedAdminStudentId: "",
+  adminGrammarProblems: [],
   selectedAdminSubmissionId: "",
   adminExplanationReviews: [],
   adminExplanationReviewPage: 0,
@@ -429,14 +457,20 @@ function clearSession() {
   state.pendingOccurrences.clear();
   state.reportedFingerprints.clear();
   state.submissions = [];
+  state.drafts = [];
   state.writingProgress = [];
   state.grammarProblems = [];
   state.adminSubmissions = [];
+  state.adminStudents = [];
+  state.selectedAdminStudentId = "";
+  state.adminGrammarProblems = [];
   state.adminExplanationReviews = [];
   state.adminExplanationReviewPage = 0;
   state.adminExplanationReviewHasMore = false;
   state.selectedTopicResource = null;
   state.writingTimer = emptyWritingTimer();
+  state.writingStopwatch = emptyWritingStopwatch();
+  state.writingImageZoom = 1;
   state.writingTimerPanelOpen = false;
   state.timerAutoSubmitLock = false;
   state.submissionPromise = null;
@@ -447,6 +481,7 @@ function clearSession() {
   state.writingClockLastAt = 0;
   state.lastWritingActivityAt = 0;
   syncWritingTimerUi();
+  syncWritingStopwatchUi();
   syncSubmissionExportControls();
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Storage may be unavailable. */ }
 }
@@ -638,18 +673,35 @@ function renderSelectedTopicPreview() {
   }
   const head = createElement("div", "selected-topic-preview-head");
   head.append(createElement("strong", "", resource.label));
+  const controls = createElement("div", "selected-topic-preview-controls");
+  const zoomLabel = createElement("label", "selected-topic-zoom");
+  zoomLabel.append(createElement("span", "", "圖片大小"));
+  const zoom = document.createElement("select");
+  zoom.dataset.topicImageZoom = "true";
+  for (const value of [0.5, 1, 2, 3, 4, 5, 7]) {
+    const option = document.createElement("option");
+    option.value = String(value);
+    option.textContent = `${value}×`;
+    option.selected = value === state.writingImageZoom;
+    zoom.append(option);
+  }
+  zoomLabel.append(zoom);
   const remove = createElement("button", "", "移除附圖");
   remove.type = "button";
   remove.dataset.removeTopicPreview = "true";
-  head.append(remove);
+  controls.append(zoomLabel, remove);
+  head.append(controls);
   const images = createElement("div", "selected-topic-images");
   for (const image of resource.questionImages) {
+    const viewport = createElement("div", "selected-topic-image-viewport");
     const node = document.createElement("img");
     node.src = image.src;
     node.alt = image.alt;
     node.loading = "lazy";
     node.decoding = "async";
-    images.append(node);
+    node.style.width = `${Math.round(340 * state.writingImageZoom)}px`;
+    viewport.append(node);
+    images.append(viewport);
   }
   elements.selectedTopicPreview.replaceChildren(head, images);
   elements.selectedTopicPreview.hidden = false;
@@ -767,6 +819,10 @@ function readDraft() {
         ? submissionDurationSeconds
         : null,
       writingTimer: normalizeWritingTimer(value.writingTimer),
+      writingStopwatch: normalizeWritingStopwatch(value.writingStopwatch),
+      writingImageZoom: [0.5, 1, 2, 3, 4, 5, 7].includes(Number(value.writingImageZoom))
+        ? Number(value.writingImageZoom)
+        : 1,
       selectedTopicResource: normalizeWritingTopicResource(value.selectedTopicResource)
     };
   } catch {
@@ -786,6 +842,8 @@ function persistDraft() {
       durationSeconds: Math.round(state.draftDurationSeconds),
       submissionDurationSeconds: state.submissionDurationSeconds,
       writingTimer: normalizeWritingTimer(state.writingTimer),
+      writingStopwatch: normalizeWritingStopwatch(state.writingStopwatch),
+      writingImageZoom: state.writingImageZoom,
       selectedTopicResource: state.selectedTopicResource,
       savedAt: new Date().toISOString()
     }));
@@ -938,15 +996,53 @@ function handleWritingTimerExpiry() {
 }
 
 function tickWritingTimer() {
-  if (state.writingTimer.status !== "running") return;
-  const remaining = writingTimerRemaining(state.writingTimer);
-  if (remaining <= 0) {
-    handleWritingTimerExpiry();
-    return;
+  if (state.writingTimer.status === "running") {
+    const remaining = writingTimerRemaining(state.writingTimer);
+    if (remaining <= 0) {
+      handleWritingTimerExpiry();
+    } else {
+      state.writingTimer.remainingSeconds = remaining;
+      elements.writingTimerDisplay.textContent = formatWritingTimer(remaining);
+      elements.writingTimerToggleDisplay.textContent = formatWritingTimer(remaining);
+    }
   }
-  state.writingTimer.remainingSeconds = remaining;
-  elements.writingTimerDisplay.textContent = formatWritingTimer(remaining);
-  elements.writingTimerToggleDisplay.textContent = formatWritingTimer(remaining);
+  tickWritingStopwatch();
+}
+
+function syncWritingStopwatchUi() {
+  if (!elements.writingStopwatch) return;
+  state.writingStopwatch = normalizeWritingStopwatch(state.writingStopwatch);
+  const running = state.writingStopwatch.status === "running";
+  const idle = state.writingStopwatch.status === "idle";
+  elements.writingStopwatch.dataset.status = state.writingStopwatch.status;
+  elements.writingStopwatchDisplay.textContent = formatWritingStopwatch(state.writingStopwatch);
+  elements.writingStopwatchStart.textContent = state.writingStopwatch.status === "paused" ? "繼續" : running ? "計時中" : "開始";
+  elements.writingStopwatchStart.disabled = running;
+  elements.writingStopwatchPause.disabled = !running;
+  elements.writingStopwatchReset.disabled = idle;
+}
+
+function tickWritingStopwatch() {
+  if (state.writingStopwatch.status !== "running") return;
+  elements.writingStopwatchDisplay.textContent = formatWritingStopwatch(state.writingStopwatch);
+}
+
+function handleWritingStopwatchStart() {
+  state.writingStopwatch = startWritingStopwatch(state.writingStopwatch);
+  persistDraft();
+  syncWritingStopwatchUi();
+}
+
+function handleWritingStopwatchPause() {
+  state.writingStopwatch = pauseWritingStopwatch(state.writingStopwatch);
+  persistDraft();
+  syncWritingStopwatchUi();
+}
+
+function handleWritingStopwatchReset() {
+  state.writingStopwatch = resetWritingStopwatch();
+  persistDraft();
+  syncWritingStopwatchUi();
 }
 
 function startWritingTimerClock() {
@@ -1064,6 +1160,8 @@ function startNewDraft({ preserveView = false } = {}) {
   state.draftDurationSeconds = 0;
   state.submissionDurationSeconds = null;
   state.writingTimer = emptyWritingTimer();
+  state.writingStopwatch = emptyWritingStopwatch();
+  state.writingImageZoom = 1;
   state.timerAutoSubmitLock = false;
   state.writingClockLastAt = Date.now();
   state.lastWritingActivityAt = Date.now();
@@ -1080,6 +1178,7 @@ function startNewDraft({ preserveView = false } = {}) {
   updateEditorMetrics();
   setWritingTimerInputs(40 * 60);
   syncWritingTimerUi();
+  syncWritingStopwatchUi();
   persistDraft();
   if (!preserveView) showView("workspace");
   window.setTimeout(() => elements.topicInput.focus(), 0);
@@ -1098,6 +1197,8 @@ function restoreDraft() {
   state.draftDurationSeconds = draft?.durationSeconds || 0;
   state.submissionDurationSeconds = draft?.submissionDurationSeconds ?? null;
   state.writingTimer = normalizeWritingTimer(draft?.writingTimer);
+  state.writingStopwatch = normalizeWritingStopwatch(draft?.writingStopwatch);
+  state.writingImageZoom = draft?.writingImageZoom || 1;
   state.timerAutoSubmitLock = false;
   state.writingClockLastAt = Date.now();
   state.lastWritingActivityAt = Date.now();
@@ -1111,6 +1212,7 @@ function restoreDraft() {
   if (state.writingTimer.durationSeconds) setWritingTimerInputs(state.writingTimer.durationSeconds);
   else setWritingTimerInputs(40 * 60);
   syncWritingTimerUi();
+  syncWritingStopwatchUi();
   renderGrammarIssues();
   persistDraft();
   const completedSegments = completedWritingSegments(elements.writingInput.value);
@@ -1966,7 +2068,7 @@ function grammarEmptyContent() {
 function grammarIssueSourceLabel(issue) {
   if (issue.reviewRequired) return "需老師覆核";
   if (issue.engine?.name === "edmund-approved-grammar-corpus") return "Edmund Sir 已審核文法庫";
-  if (issue.engine?.name === "cloudflare-workers-ai") return "Edmund 文法偵測";
+  if (issue.engine?.name === "edmund-advanced-grammar") return "Edmund 文法偵測";
   if (issue.engine?.name === "edmund-esl-basics") return "Edmund 本機規則";
   if (issue.engine?.name === "harper.js") return "Harper 額外校對";
   return "文法偵測";
@@ -2422,6 +2524,161 @@ function renderSubmissionList() {
   syncSubmissionExportControls();
 }
 
+function normalizeServerDraft(value) {
+  const draft = value && typeof value === "object" ? value : {};
+  return {
+    id: String(draft.id || ""),
+    topic: String(draft.topic || ""),
+    answer: String(draft.answer || ""),
+    answerPreview: String(draft.answerPreview || ""),
+    wordCount: Number(draft.wordCount || 0),
+    durationSeconds: Math.max(0, Number(draft.durationSeconds || 0)),
+    imageZoom: [0.5, 1, 2, 3, 4, 5, 7].includes(Number(draft.imageZoom)) ? Number(draft.imageZoom) : 1,
+    topicResource: normalizeWritingTopicResource(draft.topicResource),
+    countdown: normalizeWritingTimer(draft.countdown),
+    stopwatch: normalizeWritingStopwatch(draft.stopwatch),
+    createdAt: String(draft.createdAt || ""),
+    updatedAt: String(draft.updatedAt || "")
+  };
+}
+
+function currentServerDraftPayload() {
+  accrueWritingTime();
+  return {
+    topic: elements.topicInput.value,
+    answer: elements.writingInput.value,
+    topicResource: normalizeWritingTopicResource(state.selectedTopicResource),
+    imageZoom: state.writingImageZoom,
+    countdown: normalizeWritingTimer(state.writingTimer),
+    stopwatch: normalizeWritingStopwatch(state.writingStopwatch),
+    durationSeconds: Math.max(0, Math.min(31536000, Math.round(state.draftDurationSeconds)))
+  };
+}
+
+async function saveCurrentProgress() {
+  if (state.user?.role !== "student" || !UUID_RE.test(state.documentId)) return;
+  const payload = currentServerDraftPayload();
+  if (!payload.topic.trim() && !payload.answer.trim()) {
+    setStatus(elements.submissionStatus, "請先輸入寫作題目或文章內容。", "error");
+    return;
+  }
+  elements.saveProgress.disabled = true;
+  setStatus(elements.submissionStatus, "正在安全儲存未完成草稿……");
+  persistDraft();
+  try {
+    const response = await apiJson(`/v1/drafts/${encodeURIComponent(state.documentId)}`, {
+      method: "PUT",
+      body: JSON.stringify(payload)
+    });
+    const draft = normalizeServerDraft(response?.draft || response);
+    if (!UUID_RE.test(draft.id)) throw new Error("草稿服務回應無效。");
+    const index = state.drafts.findIndex(item => item.id === draft.id);
+    if (index >= 0) state.drafts[index] = draft;
+    else state.drafts.unshift(draft);
+    elements.draftState.textContent = "已儲存草稿";
+    setStatus(elements.submissionStatus, "目前進度已儲存；可稍後在「我的文章」繼續。", "success");
+    showToast("目前寫作進度已儲存。", "success");
+  } catch (error) {
+    console.warn("Writing draft save failed", error);
+    setStatus(elements.submissionStatus, error.message || "暫時未能儲存草稿。", "error");
+  } finally {
+    elements.saveProgress.disabled = false;
+  }
+}
+
+function renderDraftList() {
+  elements.draftCount.textContent = String(state.drafts.length);
+  if (!state.drafts.length) {
+    elements.draftList.replaceChildren(emptyState("尚未有已儲存的未完成草稿。"));
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  for (const draft of state.drafts) {
+    const row = createElement("article", "draft-row");
+    const copy = createElement("div", "draft-row-copy");
+    copy.append(
+      createElement("strong", "", draft.topic.trim() || "未命名草稿"),
+      createElement("span", "", `${formatSubmissionDate(draft.updatedAt)} · ${draft.wordCount} words · ${formatCompactDuration(draft.durationSeconds)}`),
+      createElement("p", "", draft.answerPreview || "（尚未輸入文章內容）")
+    );
+    const actions = createElement("div", "draft-row-actions");
+    const resume = createElement("button", "small-button", "繼續寫作");
+    resume.type = "button";
+    resume.dataset.resumeDraft = draft.id;
+    const remove = createElement("button", "small-button draft-delete-button", "刪除草稿");
+    remove.type = "button";
+    remove.dataset.deleteDraft = draft.id;
+    actions.append(resume, remove);
+    row.append(copy, actions);
+    fragment.append(row);
+  }
+  elements.draftList.replaceChildren(fragment);
+}
+
+async function loadDrafts() {
+  elements.draftList.replaceChildren(loadingState("正在載入未完成草稿……"));
+  const payload = await apiJson("/v1/drafts?page=1&pageSize=100");
+  state.drafts = Array.isArray(payload?.drafts)
+    ? payload.drafts.map(normalizeServerDraft).filter(item => UUID_RE.test(item.id))
+    : [];
+  renderDraftList();
+}
+
+function loadDraftIntoWorkspace(draft) {
+  window.clearTimeout(state.manualRecheckTimer);
+  state.manualRecheckTimer = null;
+  state.checkGeneration += 1;
+  cancelRemoteGrammarChecks();
+  state.checkQueue = Promise.resolve();
+  state.pendingChecks = 0;
+  state.documentId = draft.id;
+  state.draftDurationSeconds = draft.durationSeconds;
+  state.submissionDurationSeconds = null;
+  state.writingTimer = normalizeWritingTimer(draft.countdown);
+  state.writingStopwatch = normalizeWritingStopwatch(draft.stopwatch);
+  state.writingImageZoom = draft.imageZoom;
+  state.timerAutoSubmitLock = false;
+  state.previousWriting = draft.answer;
+  state.activeIssues = [];
+  state.appliedCorrections = [];
+  state.dismissedIssueIds.clear();
+  elements.topicInput.value = draft.topic;
+  elements.writingInput.value = draft.answer;
+  state.selectedTopicResource = draft.topicResource;
+  renderSelectedTopicPreview();
+  updateEditorMetrics();
+  if (state.writingTimer.durationSeconds) setWritingTimerInputs(state.writingTimer.durationSeconds);
+  else setWritingTimerInputs(40 * 60);
+  syncWritingTimerUi();
+  syncWritingStopwatchUi();
+  renderGrammarIssues();
+  persistDraft();
+  showView("workspace");
+  const completedSegments = completedWritingSegments(draft.answer);
+  if (state.grammarDetectionEnabled && completedSegments.length) {
+    enqueueSegmentsForCheck(completedSegments, { remote: false });
+  }
+  window.setTimeout(() => elements.writingInput.focus(), 0);
+}
+
+async function resumeServerDraft(id) {
+  if (!UUID_RE.test(String(id || ""))) return;
+  const payload = await apiJson(`/v1/drafts/${encodeURIComponent(id)}`);
+  const draft = normalizeServerDraft(payload?.draft || payload);
+  if (!UUID_RE.test(draft.id)) throw new Error("未能載入草稿。");
+  loadDraftIntoWorkspace(draft);
+}
+
+async function deleteServerDraft(id) {
+  if (!UUID_RE.test(String(id || ""))) return;
+  const draft = state.drafts.find(item => item.id === id);
+  if (!window.confirm(`確定要刪除「${draft?.topic || "這份未完成草稿"}」嗎？刪除後不能復原。`)) return;
+  await apiJson(`/v1/drafts/${encodeURIComponent(id)}`, { method: "DELETE" });
+  state.drafts = state.drafts.filter(item => item.id !== id);
+  renderDraftList();
+  showToast("未完成草稿已刪除。", "success");
+}
+
 function renderSubmissionDetail(submission, container = elements.submissionDetail, admin = false) {
   const header = createElement("header", "submission-detail-head");
   header.append(createElement("h2", "", submission.topic));
@@ -2478,7 +2735,7 @@ async function openSubmission(id) {
 
 async function openSubmissions() {
   showView("submissions");
-  await Promise.all([loadSubmissions(), loadWritingProgress()]);
+  await Promise.all([loadSubmissions(), loadWritingProgress(), loadDrafts()]);
 }
 
 async function openGrammarSourceSubmission(id) {
@@ -2803,13 +3060,114 @@ async function openGrammarLog() {
   renderGrammarSummary();
 }
 
+async function fetchAllGrammarOccurrencesForRule(ruleId) {
+  const occurrences = [];
+  for (let page = 1; page <= 10000; page += 1) {
+    const query = new URLSearchParams({ ruleId, page: String(page), pageSize: "100" });
+    const payload = await apiJson(`/v1/grammar-problem-occurrences?${query}`);
+    const rows = Array.isArray(payload?.grammarOccurrences)
+      ? payload.grammarOccurrences.map(normalizeGrammarOccurrence)
+      : [];
+    occurrences.push(...rows);
+    if (!payload?.hasMore) return occurrences;
+  }
+  throw new Error("文法記錄超出目前可匯出的頁數上限。");
+}
+
+function grammarExportHtml(problems) {
+  const generatedAt = new Intl.DateTimeFormat("zh-HK", {
+    dateStyle: "long",
+    timeStyle: "short",
+    timeZone: "Asia/Hong_Kong"
+  }).format(new Date());
+  const sections = problems.map((problem, index) => {
+    const instances = problem.occurrences.map((occurrence, occurrenceIndex) => `
+      <article class="instance">
+        <h3>實例 ${occurrenceIndex + 1}</h3>
+        <p><strong>原句</strong>${escapePrintHtml(occurrence.sentenceText || "（沒有原句）")}</p>
+        <p><strong>建議修正</strong>${escapePrintHtml(occurrence.correctedSentence || occurrence.suggestedText || "（沒有建議）")}</p>
+        <p><strong>解釋</strong>${escapePrintHtml(occurrence.message || "（沒有解釋）")}</p>
+        <small>${escapePrintHtml(formatSubmissionDate(occurrence.detectedAt))}${occurrence.sourceTopic ? ` · ${escapePrintHtml(occurrence.sourceTopic)}` : ""}</small>
+      </article>`).join("");
+    return `<section class="problem">
+      <header><p>GRAMMAR CATEGORY ${index + 1}</p><h2>${escapePrintHtml(problem.title)}</h2><div><span>規則：${escapePrintHtml(problem.ruleId)}</span><span>${problem.count} 次</span></div></header>
+      ${instances || "<p>沒有可顯示的完整實例。</p>"}
+    </section>`;
+  }).join("");
+  return `<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EdmundEducation－我的文法問題</title>
+  <style>*{box-sizing:border-box}body{margin:0;color:#242342;background:#eee;font-family:Georgia,"Times New Roman","Noto Serif TC",serif}.toolbar{position:sticky;top:0;z-index:5;padding:12px 18px;display:flex;justify-content:space-between;align-items:center;gap:14px;color:#fff;background:#272757;font-family:system-ui,sans-serif}.toolbar p{margin:0;font-size:13px}.toolbar button{border:0;border-radius:999px;padding:10px 16px;color:#272757;background:#fff;font-weight:800}main{width:min(920px,calc(100% - 28px));margin:26px auto}.cover,.problem{margin-bottom:24px;padding:38px 42px;background:#fff;box-shadow:0 12px 38px rgba(20,20,50,.11)}.cover h1{margin:0 0 8px;font-size:34px}.cover p{color:#66637c}.problem{break-before:page}.problem header{padding-bottom:16px;border-bottom:2px solid #f0dfd1}.problem header>p{margin:0 0 7px;color:#bd571b;font:800 11px system-ui,sans-serif;letter-spacing:.13em}.problem h2{margin:0 0 10px}.problem header div{display:flex;flex-wrap:wrap;gap:8px 16px;color:#66637c;font:12px system-ui,sans-serif}.instance{margin-top:20px;padding:18px;border:1px solid #ddd7e4;border-radius:14px;break-inside:avoid}.instance h3{margin:0 0 12px;color:#bd571b;font-size:15px}.instance p{margin:9px 0;line-height:1.65;white-space:pre-wrap}.instance strong{display:block;margin-bottom:3px;color:#66637c;font:800 10px system-ui,sans-serif;letter-spacing:.08em}.instance small{color:#777;font:11px system-ui,sans-serif}@media(max-width:600px){.cover,.problem{padding:26px 20px}}@media print{@page{size:A4;margin:15mm}.toolbar{display:none!important}body{background:#fff}main{width:auto;margin:0}.cover,.problem{padding:0;box-shadow:none}.cover{break-after:page}}</style></head><body>
+  <div class="toolbar"><p>${problems.length} 種文法問題 · ${escapePrintHtml(generatedAt)}</p><button type="button" id="print-grammar">列印／儲存為 PDF</button></div>
+  <main><section class="cover"><h1>我的文法問題總覽</h1><p>包括所有文法問題種類及每次偵測實例。</p></section>${sections}</main></body></html>`;
+}
+
+async function exportGrammarProblems() {
+  if (state.user?.role !== "student") return;
+  const printWindow = window.open("", "_blank");
+  if (!printWindow) {
+    showToast("瀏覽器已封鎖匯出視窗；請允許彈出式視窗後再試。", "error");
+    return;
+  }
+  try { printWindow.opener = null; } catch { /* Read-only in some browsers. */ }
+  printWindow.document.write("<!doctype html><meta charset=\"utf-8\"><body style=\"font-family:system-ui;padding:32px\">正在整理所有文法問題實例……</body>");
+  printWindow.document.close();
+  try {
+    if (!state.grammarProblems.length) await openGrammarLog();
+    const results = await mapWithConcurrency(
+      state.grammarProblems,
+      async problem => ({ ...problem, occurrences: await fetchAllGrammarOccurrencesForRule(problem.ruleId) }),
+      3
+    );
+    const problems = results.filter(item => item.status === "fulfilled").map(item => item.value);
+    if (!problems.length) throw new Error("尚未有可匯出的文法問題記錄。");
+    printWindow.document.open();
+    printWindow.document.write(grammarExportHtml(problems));
+    printWindow.document.close();
+    printWindow.document.querySelector("#print-grammar")?.addEventListener("click", () => printWindow.print());
+    window.setTimeout(() => { try { printWindow.focus(); printWindow.print(); } catch { /* Visible button remains. */ } }, 350);
+  } catch (error) {
+    printWindow.document.open();
+    printWindow.document.write(`<!doctype html><meta charset="utf-8"><body style="font-family:system-ui;padding:32px"><h1>暫時未能匯出文法問題</h1><p>${escapePrintHtml(error.message || "請稍後再試。")}</p></body>`);
+    printWindow.document.close();
+  }
+}
+
 function filteredAdminSubmissions() {
   const query = String(elements.adminSearch.value || "").trim().toLocaleLowerCase();
   if (!query) return state.adminSubmissions;
   return state.adminSubmissions.filter((item) => (
-    item.studentName.toLocaleLowerCase().includes(query)
-    || item.topic.toLocaleLowerCase().includes(query)
+    item.topic.toLocaleLowerCase().includes(query)
+    || item.studentName.toLocaleLowerCase().includes(query)
   ));
+}
+
+function filteredAdminStudents() {
+  const query = String(elements.adminSearch.value || "").trim().toLocaleLowerCase();
+  if (!query) return state.adminStudents;
+  return state.adminStudents.filter(student => student.name.toLocaleLowerCase().includes(query));
+}
+
+function renderAdminStudents() {
+  const students = filteredAdminStudents();
+  elements.adminStudentCount.textContent = String(students.length);
+  if (!students.length) {
+    elements.adminStudentList.replaceChildren(emptyState("找不到符合名稱的學生帳戶。"));
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  for (const student of students) {
+    const button = createElement("button", "admin-student-row");
+    button.type = "button";
+    button.dataset.adminStudentId = student.id;
+    button.setAttribute("aria-current", String(student.id === state.selectedAdminStudentId));
+    const copy = createElement("span");
+    copy.append(
+      createElement("strong", "", student.name),
+      createElement("small", "", `${student.submissionCount} 篇文章 · ${student.grammarOccurrenceCount} 次文法問題`)
+    );
+    button.append(copy, createElement("em", "", "查看"));
+    fragment.append(button);
+  }
+  elements.adminStudentList.replaceChildren(fragment);
 }
 
 function renderAdminSubmissions() {
@@ -2849,11 +3207,188 @@ async function openAdminSubmission(id) {
   }
 }
 
+function renderAdminGrammarProblems() {
+  const total = state.adminGrammarProblems.reduce((sum, problem) => sum + problem.count, 0);
+  elements.adminGrammarCount.textContent = String(total);
+  if (!state.selectedAdminStudentId) {
+    elements.adminGrammarList.replaceChildren(emptyState("請先選擇學生帳戶。"));
+    return;
+  }
+  if (!state.adminGrammarProblems.length) {
+    elements.adminGrammarList.replaceChildren(emptyState("這位學生尚未有文法問題記錄。"));
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  state.adminGrammarProblems.forEach((problem, index) => {
+    const details = createElement("details", "admin-grammar-problem");
+    details.dataset.adminGrammarProblemIndex = String(index);
+    details.open = problem.open;
+    const summary = createElement("summary");
+    const copy = createElement("span");
+    copy.append(
+      createElement("strong", "", problem.title),
+      createElement("small", "", `${problem.ruleId} · ${problem.count} 次`)
+    );
+    const remove = createElement("button", "admin-grammar-delete-category", "刪除整個分類");
+    remove.type = "button";
+    remove.dataset.adminDeleteGrammarCategory = String(index);
+    summary.append(copy, remove);
+    const occurrences = createElement("div", "admin-grammar-occurrences");
+    occurrences.dataset.adminGrammarOccurrences = String(index);
+    details.append(summary, occurrences);
+    fragment.append(details);
+  });
+  elements.adminGrammarList.replaceChildren(fragment);
+  state.adminGrammarProblems.forEach((problem, index) => {
+    if (problem.open) renderAdminGrammarOccurrences(problem, index);
+  });
+}
+
+function renderAdminGrammarOccurrences(problem, index) {
+  const container = elements.adminGrammarList.querySelector(`[data-admin-grammar-occurrences="${index}"]`);
+  if (!container) return;
+  if (problem.occurrencesLoading && !problem.occurrences.length) {
+    container.replaceChildren(loadingState("正在載入完整實例……"));
+    return;
+  }
+  if (!problem.occurrences.length) {
+    container.replaceChildren(emptyState("沒有可顯示的完整實例。"));
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  for (const occurrence of problem.occurrences) {
+    const wrapper = createElement("article", "admin-grammar-occurrence");
+    wrapper.append(createGrammarHistoryCard(occurrence, { admin: true }));
+    const remove = createElement("button", "admin-grammar-delete-occurrence", "刪除這次偵測實例");
+    remove.type = "button";
+    remove.dataset.adminDeleteGrammarOccurrence = occurrence.id;
+    remove.dataset.adminGrammarProblemIndex = String(index);
+    wrapper.append(remove);
+    fragment.append(wrapper);
+  }
+  if (problem.occurrenceHasMore) {
+    const more = createElement("button", "secondary-button grammar-history-more", "顯示更多實例");
+    more.type = "button";
+    more.dataset.loadAdminGrammarProblem = String(index);
+    fragment.append(more);
+  }
+  container.replaceChildren(fragment);
+}
+
+async function loadAdminGrammarProblemOccurrences(index, { reset = false } = {}) {
+  const problem = state.adminGrammarProblems[index];
+  if (!problem || problem.occurrencesLoading || !state.selectedAdminStudentId) return;
+  problem.occurrencesLoading = true;
+  if (reset) {
+    problem.occurrences = [];
+    problem.occurrencePage = 0;
+    problem.occurrenceHasMore = false;
+  }
+  renderAdminGrammarOccurrences(problem, index);
+  try {
+    const page = problem.occurrencePage + 1;
+    const query = new URLSearchParams({
+      studentId: state.selectedAdminStudentId,
+      ruleId: problem.ruleId,
+      page: String(page),
+      pageSize: "25"
+    });
+    const payload = await apiJson(`/v1/admin/grammar-problem-occurrences?${query}`);
+    const next = Array.isArray(payload?.grammarOccurrences)
+      ? payload.grammarOccurrences.map(normalizeGrammarOccurrence)
+      : [];
+    const known = new Set(problem.occurrences.map(item => item.id));
+    problem.occurrences.push(...next.filter(item => item.id && !known.has(item.id)));
+    problem.occurrencePage = page;
+    problem.occurrenceHasMore = Boolean(payload?.hasMore);
+    problem.occurrencesLoaded = true;
+  } finally {
+    problem.occurrencesLoading = false;
+    renderAdminGrammarOccurrences(problem, index);
+  }
+}
+
+async function selectAdminStudent(id) {
+  if (!UUID_RE.test(String(id || ""))) return;
+  state.selectedAdminStudentId = String(id);
+  state.selectedAdminSubmissionId = "";
+  renderAdminStudents();
+  elements.adminList.replaceChildren(loadingState("正在載入學生文章……"));
+  elements.adminGrammarList.replaceChildren(loadingState("正在載入文法問題……"));
+  elements.adminDetail.replaceChildren(emptyState("請選擇一篇學生文章，或在文法問題中查看實例。"));
+  const submissionPath = `/v1/admin/submissions?studentId=${encodeURIComponent(id)}`;
+  const grammarPath = `/v1/admin/grammar-problems?studentId=${encodeURIComponent(id)}`;
+  const [submissions, grammarPayload] = await Promise.all([
+    fetchAllSubmissionPages(submissionPath, { maximumPages: 100 }),
+    apiJson(grammarPath)
+  ]);
+  if (state.selectedAdminStudentId !== id) return;
+  state.adminSubmissions = submissions;
+  state.adminGrammarProblems = Array.isArray(grammarPayload?.grammarProblems)
+    ? grammarPayload.grammarProblems.map(normalizeGrammarProblem)
+    : [];
+  renderAdminSubmissions();
+  renderAdminGrammarProblems();
+}
+
+async function deleteAdminGrammarOccurrence(occurrenceId, index) {
+  const problem = state.adminGrammarProblems[index];
+  const occurrence = problem?.occurrences.find(item => item.id === occurrenceId);
+  if (!problem || !occurrence || !state.selectedAdminStudentId) return;
+  const student = state.adminStudents.find(item => item.id === state.selectedAdminStudentId);
+  if (!window.confirm(`確定要刪除 ${student?.name || "這位學生"} 的這次「${problem.title}」偵測實例嗎？\n\n原句：${occurrence.sentenceText}\n\n刪除後不能復原。`)) return;
+  await apiJson(`/v1/admin/grammar-occurrences/${encodeURIComponent(occurrenceId)}`, {
+    method: "DELETE",
+    body: JSON.stringify({ studentId: state.selectedAdminStudentId, confirmation: "DELETE" })
+  });
+  problem.occurrences = problem.occurrences.filter(item => item.id !== occurrenceId);
+  problem.count = Math.max(0, problem.count - 1);
+  if (!problem.count) state.adminGrammarProblems.splice(index, 1);
+  renderAdminGrammarProblems();
+  showToast("文法偵測實例已刪除。", "success");
+}
+
+async function deleteAdminGrammarCategory(index) {
+  const problem = state.adminGrammarProblems[index];
+  if (!problem || !state.selectedAdminStudentId) return;
+  const student = state.adminStudents.find(item => item.id === state.selectedAdminStudentId);
+  if (!window.confirm(`確定要刪除 ${student?.name || "這位學生"} 的整個「${problem.title}」分類及全部 ${problem.count} 次實例嗎？\n\n刪除後不能復原。`)) return;
+  await apiJson("/v1/admin/grammar-problem-category", {
+    method: "DELETE",
+    body: JSON.stringify({
+      studentId: state.selectedAdminStudentId,
+      ruleId: problem.ruleId,
+      confirmation: "DELETE"
+    })
+  });
+  state.adminGrammarProblems.splice(index, 1);
+  renderAdminGrammarProblems();
+  showToast("整個文法問題分類已刪除。", "success");
+}
+
 async function openAdminDashboard() {
   showView("admin");
-  elements.adminList.replaceChildren(loadingState("正在載入學生文章…"));
-  state.adminSubmissions = await fetchAllSubmissionPages("/v1/admin/submissions", { maximumPages: 100 });
-  renderAdminSubmissions();
+  elements.adminStudentList.replaceChildren(loadingState("正在載入學生帳戶……"));
+  const payload = await apiJson("/v1/admin/students");
+  state.adminStudents = Array.isArray(payload?.students)
+    ? payload.students.map(student => ({
+      id: String(student.id || ""),
+      name: String(student.name || ""),
+      submissionCount: Number(student.submissionCount || 0),
+      grammarOccurrenceCount: Number(student.grammarOccurrenceCount || 0),
+      grammarRuleCount: Number(student.grammarRuleCount || 0),
+      lastSubmissionAt: student.lastSubmissionAt ? String(student.lastSubmissionAt) : ""
+    })).filter(student => UUID_RE.test(student.id)).sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }))
+    : [];
+  renderAdminStudents();
+  const selected = state.adminStudents.some(student => student.id === state.selectedAdminStudentId)
+    ? state.selectedAdminStudentId
+    : state.adminStudents[0]?.id;
+  if (selected) await selectAdminStudent(selected);
+  else {
+    elements.adminList.replaceChildren(emptyState("尚未有學生帳戶。"));
+    elements.adminGrammarList.replaceChildren(emptyState("尚未有學生帳戶。"));
+  }
 }
 
 async function openAdminGrammarSourceSubmission(id) {
@@ -2977,7 +3512,7 @@ async function logout() {
   clearSession();
   try { await state.supabase?.auth.signOut(); } catch { /* Ignore anonymous auth cleanup failures. */ }
   setStatus(elements.loginStatus, "");
-  setConnection("可以登入", "online");
+  setConnection("已連線", "online");
   showView("login");
 }
 
@@ -2998,8 +3533,10 @@ function bindEvents() {
   elements.adminReviewButton.addEventListener("click", () => openAdminExplanationReview().catch(handleViewError));
   elements.newWriting.addEventListener("click", () => startNewDraft());
   elements.refreshSubmissions.addEventListener("click", () => loadSubmissions().catch(handleViewError));
+  elements.refreshDrafts.addEventListener("click", () => loadDrafts().catch(handleViewError));
   elements.refreshWritingProgress.addEventListener("click", () => loadWritingProgress().catch(handleViewError));
   elements.refreshGrammarLog.addEventListener("click", () => openGrammarLog().catch(handleViewError));
+  elements.exportGrammarLog.addEventListener("click", () => exportGrammarProblems().catch(handleViewError));
   elements.refreshAdminReview.addEventListener("click", () => openAdminExplanationReview().catch(handleViewError));
   elements.adminReviewMore.addEventListener("click", () => loadAdminExplanationReviews().catch(handleViewError));
   elements.writingForm.addEventListener("submit", submitWriting);
@@ -3009,6 +3546,10 @@ function bindEvents() {
   elements.writingTimerReset.addEventListener("click", handleWritingTimerReset);
   elements.writingTimerRetry.addEventListener("click", () => attemptTimerForceSubmission({ retry: true }));
   elements.writingTimerForce.addEventListener("change", handleWritingTimerForceChange);
+  elements.writingStopwatchStart.addEventListener("click", handleWritingStopwatchStart);
+  elements.writingStopwatchPause.addEventListener("click", handleWritingStopwatchPause);
+  elements.writingStopwatchReset.addEventListener("click", handleWritingStopwatchReset);
+  elements.saveProgress.addEventListener("click", () => saveCurrentProgress());
   elements.exportSelectAll.addEventListener("change", () => {
     state.selectedExportSubmissionIds.clear();
     if (elements.exportSelectAll.checked) {
@@ -3049,16 +3590,30 @@ function bindEvents() {
   elements.writingInput.addEventListener("input", handleWritingInput);
   elements.writingInput.addEventListener("focus", markWritingActivity);
   elements.topicInput.addEventListener("focus", markWritingActivity);
-  elements.adminSearch.addEventListener("input", renderAdminSubmissions);
+  elements.adminSearch.addEventListener("input", () => {
+    renderAdminStudents();
+    renderAdminSubmissions();
+  });
   document.addEventListener("toggle", (event) => {
     const details = event.target.closest?.("[data-grammar-problem-index]");
-    if (!details) return;
-    const index = Number(details.dataset.grammarProblemIndex);
-    const problem = state.grammarProblems[index];
-    if (!problem) return;
-    problem.open = details.open;
-    if (details.open && !problem.occurrencesLoaded) {
-      loadGrammarProblemOccurrences(index, { reset: true }).catch(handleViewError);
+    if (details) {
+      const index = Number(details.dataset.grammarProblemIndex);
+      const problem = state.grammarProblems[index];
+      if (problem) {
+        problem.open = details.open;
+        if (details.open && !problem.occurrencesLoaded) {
+          loadGrammarProblemOccurrences(index, { reset: true }).catch(handleViewError);
+        }
+      }
+    }
+    const adminDetails = event.target.closest?.("[data-admin-grammar-problem-index]");
+    if (!adminDetails) return;
+    const adminIndex = Number(adminDetails.dataset.adminGrammarProblemIndex);
+    const adminProblem = state.adminGrammarProblems[adminIndex];
+    if (!adminProblem) return;
+    adminProblem.open = adminDetails.open;
+    if (adminDetails.open && !adminProblem.occurrencesLoaded) {
+      loadAdminGrammarProblemOccurrences(adminIndex, { reset: true }).catch(handleViewError);
     }
   }, true);
   document.addEventListener("click", (event) => {
@@ -3080,6 +3635,12 @@ function bindEvents() {
       scheduleDraftSave();
       return;
     }
+    const resumeDraft = event.target.closest("[data-resume-draft]");
+    if (resumeDraft) return resumeServerDraft(resumeDraft.dataset.resumeDraft).catch(handleViewError);
+    const deleteDraft = event.target.closest("[data-delete-draft]");
+    if (deleteDraft) return deleteServerDraft(deleteDraft.dataset.deleteDraft).catch(handleViewError);
+    const adminStudent = event.target.closest("[data-admin-student-id]");
+    if (adminStudent) return selectAdminStudent(adminStudent.dataset.adminStudentId).catch(handleViewError);
     const adminSubmission = event.target.closest("[data-admin-submission-id]");
     if (adminSubmission) return openAdminSubmission(adminSubmission.dataset.adminSubmissionId);
     const moreGrammar = event.target.closest("[data-load-grammar-problem]");
@@ -3094,6 +3655,32 @@ function bindEvents() {
     if (adminGrammarSource) {
       return openAdminGrammarSourceSubmission(adminGrammarSource.dataset.adminGrammarSourceSubmission).catch(handleViewError);
     }
+    const loadAdminGrammar = event.target.closest("[data-load-admin-grammar-problem]");
+    if (loadAdminGrammar) {
+      return loadAdminGrammarProblemOccurrences(Number(loadAdminGrammar.dataset.loadAdminGrammarProblem)).catch(handleViewError);
+    }
+    const deleteAdminOccurrence = event.target.closest("[data-admin-delete-grammar-occurrence]");
+    if (deleteAdminOccurrence) {
+      return deleteAdminGrammarOccurrence(
+        deleteAdminOccurrence.dataset.adminDeleteGrammarOccurrence,
+        Number(deleteAdminOccurrence.dataset.adminGrammarProblemIndex)
+      ).catch(handleViewError);
+    }
+    const deleteAdminCategory = event.target.closest("[data-admin-delete-grammar-category]");
+    if (deleteAdminCategory) {
+      event.preventDefault();
+      event.stopPropagation();
+      return deleteAdminGrammarCategory(Number(deleteAdminCategory.dataset.adminDeleteGrammarCategory)).catch(handleViewError);
+    }
+  });
+  document.addEventListener("change", (event) => {
+    const zoom = event.target.closest("[data-topic-image-zoom]");
+    if (!zoom) return;
+    const value = Number(zoom.value);
+    if (![0.5, 1, 2, 3, 4, 5, 7].includes(value)) return;
+    state.writingImageZoom = value;
+    renderSelectedTopicPreview();
+    scheduleDraftSave();
   });
   window.addEventListener("pagehide", () => {
     accrueWritingTime();
@@ -3105,7 +3692,10 @@ function bindEvents() {
   document.addEventListener("visibilitychange", () => {
     accrueWritingTime();
     state.writingClockLastAt = Date.now();
-    if (document.visibilityState === "visible") tickWritingTimer();
+    if (document.visibilityState === "visible") {
+      tickWritingTimer();
+      syncWritingStopwatchUi();
+    }
     if (document.visibilityState === "visible" && state.currentView === "workspace") markWritingActivity();
   });
   window.addEventListener("online", () => {
@@ -3124,7 +3714,7 @@ async function checkHealth() {
   try {
     const response = await fetch(`${workerBaseUrl()}/v1/health`, { credentials: "omit" });
     if (!response.ok) throw new Error("Health unavailable");
-    setConnection("可以登入", "online");
+    setConnection("已連線", "online");
   } catch {
     setConnection("服務連接中", "checking");
   }
@@ -3136,6 +3726,7 @@ async function initialise() {
   startWritingTimerClock();
   setWritingTimerInputs(40 * 60);
   syncWritingTimerUi();
+  syncWritingStopwatchUi();
   syncSubmissionExportControls();
   syncGrammarDetectionControls();
   updateEditorMetrics();

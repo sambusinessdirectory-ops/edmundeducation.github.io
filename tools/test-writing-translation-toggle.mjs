@@ -239,7 +239,12 @@ function createHarness(applicationSource, dataFiles) {
   };
   window.EDMUND_IELTS_WRITING_ADVANTAGE_2_30_EXERCISES[baseExercise.id] = baseExercise;
 
-  const injectedSource = applicationSource.replace(/\n    init\(\);\s*$/, `
+  const injectedSource = applicationSource
+    .replace(
+      "const supabaseClient = window.supabase?.createClient",
+      "let supabaseClient = window.supabase?.createClient",
+    )
+    .replace(/\n    init\(\);\s*$/, `
     window.__EDMUND_WRITING_TRANSLATION_TEST__ = {
       installExercise(exercise) {
         writingExercises[exercise.id] = exercise;
@@ -350,6 +355,15 @@ function createHarness(applicationSource, dataFiles) {
       progressResults: () => [...writingPracticeResults],
       attemptOutbox: () => [...writingAttemptOutbox],
       setAttemptOutbox(results) { writingAttemptOutbox = normalizeWritingPracticeResults(results); },
+      configureAttemptSync({ user, token, client }) {
+        currentUser = { ...user, role: "student", sessionToken: token };
+        studentSessionToken = token;
+        supabaseClient = client;
+        writingAttemptSyncChain = Promise.resolve();
+      },
+      syncAttempts: () => retryWritingAttemptOutbox(),
+      waitForAttemptSync: () => writingAttemptSyncChain,
+      submitRound: () => submitPracticeRound(),
       attemptOutboxCapacity: () => MAX_WRITING_ATTEMPT_OUTBOX,
       boundedAttemptCache: results => boundedWritingAttemptCache(results),
       normalizeDeleteRequests: value => normalizeWritingAttemptDeleteRequests(value),
@@ -370,7 +384,7 @@ function createHarness(applicationSource, dataFiles) {
       setAudioRate: rate => setEssayAudioRate(rate),
       setupEvents: () => setupEvents()
     };
-  `);
+    `);
   assert.notEqual(injectedSource, applicationSource, "test hooks should replace init() without running the application");
 
   const context = {
@@ -1601,5 +1615,59 @@ assert.equal(resetDashboardState.range, "month", "Switching accounts should rest
 assert.equal(resetDashboardState.day, "", "Switching accounts should close the prior account's day drilldown");
 assert.equal(resetDashboardState.open, false, "Switching accounts should collapse the prior account's all-attempt log");
 assert.equal(resetDashboardState.visibleCount, 25, "Switching accounts should reset attempt-log pagination");
+
+hooks.resetPersonalState();
+const syncedStudent = { id: "22222222-2222-4222-8222-222222222222", name: "Synced Student" };
+const syncedToken = "33333333-3333-4333-8333-333333333333";
+const attemptRpcCalls = [];
+let rejectNextAttemptAppend = true;
+hooks.configureAttemptSync({
+  user: syncedStudent,
+  token: syncedToken,
+  client: {
+    auth: {
+      async getSession() {
+        return { data: { session: { user: { id: "anonymous-test-user" } } }, error: null };
+      }
+    },
+    async rpc(name, args) {
+      attemptRpcCalls.push({ name, args });
+      if (name === "writing_student_append_attempt") {
+        if (rejectNextAttemptAppend) {
+          rejectNextAttemptAppend = false;
+          return { data: null, error: new Error("temporary network failure") };
+        }
+        return { data: "inserted", error: null };
+      }
+      if (name === "writing_student_upsert_state") return { data: true, error: null };
+      throw new Error(`Unexpected Writing RPC in completion regression: ${name}`);
+    }
+  }
+});
+const completedRoundExercise = fixtureExercise();
+hooks.installExercise(completedRoundExercise);
+hooks.startMode("blank", "standard");
+const completedRoundMarkup = hooks.renderRound();
+const completedBlankId = completedRoundMarkup.match(/data-answer-id="([^"]+)"/)?.[1] || "";
+assert.ok(completedBlankId, "The completed-round fixture must expose its answer field");
+harness.setTrackedAnswerInputs([{
+  value: ANSWER_SENTINEL,
+  getAttribute(name) { return name === "data-answer-id" ? completedBlankId : ""; }
+}]);
+hooks.submitRound();
+await hooks.waitForAttemptSync();
+let appendCalls = attemptRpcCalls.filter(({ name }) => name === "writing_student_append_attempt");
+assert.equal(appendCalls.length, 1, "Submitting a completed Writing round must call the canonical append RPC");
+assert.equal(appendCalls[0].args.p_token, syncedToken, "The append must use the active Writing student session");
+assert.equal(appendCalls[0].args.p_attempt.total, 1);
+assert.equal(appendCalls[0].args.p_attempt.correct, 1);
+assert.ok(appendCalls[0].args.p_attempt.durationMs >= 0, "The canonical append must include measured duration");
+assert.equal(hooks.attemptOutbox().length, 1, "A failed append must leave the completed round in the durable browser outbox");
+await hooks.syncAttempts();
+await hooks.waitForAttemptSync();
+appendCalls = attemptRpcCalls.filter(({ name }) => name === "writing_student_append_attempt");
+assert.equal(appendCalls.length, 2, "A later reconnect retry must append the previously queued canonical attempt");
+assert.equal(hooks.attemptOutbox().length, 0, "Only a confirmed append may acknowledge and clear the durable outbox row");
+assert.match(html, /window\.addEventListener\("online",[\s\S]*?retryWritingAttemptOutbox/, "Pending Writing attempts must retry when connectivity returns");
 
 console.log(`Writing tests passed: safe translation, protected audio tails, speed control, continuation, ${checkedListeningConfigurations} corpus configurations, progress dashboard and attempt log.`);

@@ -79,7 +79,7 @@ function objectKey(url) {
 function listeningTrackNumbers(key) {
   if (!key.startsWith(IELTS_LISTENING_PREFIX) || !key.toLowerCase().endsWith(".mp3")) return null;
   const filename = key.slice(IELTS_LISTENING_PREFIX.length);
-  // The existing R2 inventory names each set "Listening N", while the portal
+  // The existing private audio inventory names each set "Listening N", while the portal
   // presents it to students as "Practice N". Accept both stable catalogue
   // labels without renaming or duplicating any uploaded audio object.
   const practice = filename.match(/(?:^|[^a-z])(?:practice|listening)[\s_.-]*0*(\d{1,2})(?:[^0-9]|$)/i);
@@ -118,13 +118,7 @@ async function listeningCatalogue(request, env) {
       if (object.key.toLowerCase().endsWith(".mp3")) unmapped.push(object.key);
       continue;
     }
-    mapped.push({
-      ...numbers,
-      key: object.key,
-      size: Number(object.size || 0),
-      uploaded: object.uploaded instanceof Date ? object.uploaded.toISOString() : String(object.uploaded || ""),
-      url: `${origin}/${encodedObjectPath(object.key)}`
-    });
+    mapped.push({ ...numbers, key: object.key, url: `${origin}/${encodedObjectPath(object.key)}` });
   }
   mapped.sort((left, right) => left.practice - right.practice || left.part - right.part || left.key.localeCompare(right.key));
 
@@ -147,13 +141,12 @@ async function listeningCatalogue(request, env) {
     }
   }
   return jsonResponse({
-    prefix: IELTS_LISTENING_PREFIX,
     expectedTracks: 80,
     complete: unique.length === 80 && missing.length === 0 && duplicates.length === 0,
-    tracks: unique,
+    tracks: unique.map(({ practice, part, url }) => ({ practice, part, url })),
     missing,
-    duplicates,
-    unmapped
+    duplicateCount: duplicates.length,
+    unmappedCount: unmapped.length
   }, 200, "public, max-age=300, stale-while-revalidate=3600");
 }
 

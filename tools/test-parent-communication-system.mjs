@@ -61,6 +61,12 @@ assert.match(progressJs, /const sourceNavigation = PARENT_MODE[\s\S]*?<span clas
 assert.match(scheduleHtml, /開設學生帳戶/);
 assert.match(scheduleHtml, /開設家長帳戶/);
 assert.match(scheduleHtml, /家長帳戶與子女指派/);
+assert.match(scheduleHtml, /data-parent-search/);
+assert.match(scheduleHtml, /data-parent-student-search/);
+assert.match(scheduleHtml, /\.parent-tag\s*\{[^}]*writing-mode:\s*horizontal-tb/s);
+assert.match(scheduleHtml, /\.parent-tag\s*\{[^}]*white-space:\s*nowrap/s);
+assert.match(scheduleJs, /\.sort\(compareNames\)/);
+assert.match(scheduleJs, /parentAssignmentDrafts/);
 assert.match(scheduleHtml, /data-batch-progress[^>]*>標記進行中/);
 assert.match(scheduleHtml, /data-batch-previous-incomplete[^>]*>標記上週未完成/);
 assert.match(scheduleJs, /schedule_admin_upsert_student_account/);

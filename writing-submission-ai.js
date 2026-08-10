@@ -2,7 +2,7 @@ export const WRITING_GRAMMAR_ENGINE_IDS = Object.freeze({
   corpus: "edmund-approved-grammar-corpus",
   local: "edmund-esl-basics",
   harper: "harper.js",
-  ai: "cloudflare-workers-ai"
+  ai: "edmund-advanced-grammar"
 });
 
 export const REMOTE_GRAMMAR_FAILURE_KINDS = Object.freeze({
@@ -16,7 +16,7 @@ export const REMOTE_GRAMMAR_FAILURE_KINDS = Object.freeze({
 });
 
 export const REMOTE_GRAMMAR_MAX_AUTOMATIC_RETRIES = 1;
-// This is the user's end-to-end browser deadline. The Worker and Workers AI
+// This is the user's end-to-end browser deadline. The private grammar service
 // provider may still return a classified failure before this deadline.
 export const REMOTE_GRAMMAR_REQUEST_TIMEOUT_MS = 300_000;
 const REMOTE_GRAMMAR_DEFAULT_RETRY_DELAY_MS = 750;

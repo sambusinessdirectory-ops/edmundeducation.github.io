@@ -55,6 +55,10 @@ function progressSnapshot(studentId = STUDENT_ID) {
         activityDays: [{ date: "2026-08-03", questions: 3 }],
         timeDays: [{ date: "2026-08-03", totalMs: 120000 }]
       },
+      writingPractice: {
+        activityDays: [{ date: "2026-08-03", questions: 7, attempts: 2 }],
+        timeDays: [{ date: "2026-08-03", totalMs: 185000 }]
+      },
       writingSubmission: {
         activityDays: [{ date: "2026-08-03", articles: 1, totalMs: 60000 }],
         timeDays: [{ date: "2026-08-03", totalMs: 60000 }]
@@ -177,7 +181,9 @@ test("student progress returns the one transactional snapshot without changing i
     environment()
   );
   assert.equal(response.status, 200);
-  assert.deepEqual(await response.json(), { snapshot: expected });
+  const body = await response.json();
+  assert.deepEqual(body, { snapshot: expected });
+  assert.deepEqual(body.snapshot.sources.writingPractice, expected.sources.writingPractice, "the Worker must not zero or remap canonical Writing Practice rows");
   assert.deepEqual(calls, [
     { name: "student_progress_student_me", body: { p_token: STUDENT_TOKEN } },
     { name: "student_progress_student_snapshot", body: { p_token: STUDENT_TOKEN } }

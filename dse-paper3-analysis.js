@@ -464,7 +464,7 @@ async function handleLogin(event) {
   const password = String(form.get("password") || "");
   if (!username || !password) return setLoginStatus("請輸入用戶名稱及密碼。", "error");
   elements.loginButton.disabled = true;
-  setLoginStatus("正在核對共用學生帳戶…");
+  setLoginStatus("正在核對帳戶…");
   setConnection("正在連接", "checking");
   try {
     if (!await loginStudent(username, password)) throw new Error("用戶名稱或密碼不正確。");
@@ -489,7 +489,7 @@ async function logout() {
   clearOwnSession();
   try { await state.supabase?.auth.signOut(); } catch { /* Anonymous Auth cleanup is best-effort. */ }
   showView("login");
-  setConnection("可以登入", "online");
+  setConnection("已連線", "online");
   setLoginStatus();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -589,7 +589,7 @@ async function initialise() {
       resetToYears({ announce: false });
       return;
     }
-    setConnection("可以登入", "online");
+    setConnection("已連線", "online");
   } catch (error) {
     console.warn("DSE Paper 3 session restore failed", error);
     setLoginStatus(error.message || "登入時段未能恢復，請重新登入。", "error");

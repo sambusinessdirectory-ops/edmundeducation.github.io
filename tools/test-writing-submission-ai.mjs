@@ -35,10 +35,8 @@ assert.equal(
 );
 
 const AI_ENGINE = Object.freeze({
-  name: "cloudflare-workers-ai",
-  version: "2026-07-31.1",
-  model: "@cf/meta/llama-3.1-8b-instruct-fast",
-  execution: "cloudflare-worker"
+  name: "edmund-advanced-grammar",
+  version: "2026-07-31.1"
 });
 const LOCAL_ENGINE = Object.freeze({
   name: "edmund-esl-basics",
@@ -52,8 +50,7 @@ const HARPER_ENGINE = Object.freeze({
 });
 const CORPUS_ENGINE = Object.freeze({
   name: "edmund-approved-grammar-corpus",
-  version: "2026-08-02.2",
-  execution: "cloudflare-worker"
+  version: "2026-08-02.2"
 });
 
 const cancelledFailure = adapter.classifyRemoteGrammarFailure({ name: "AbortError" });
@@ -130,7 +127,7 @@ assert.deepEqual(
     backoffMs: 60 * 60 * 1000,
     globalStatus: "quota_exhausted"
   },
-  "the explicit Workers AI daily-quota contract receives its own one-hour in-page cooldown"
+  "the explicit upstream daily-quota contract receives its own one-hour in-page cooldown"
 );
 
 assert.deepEqual(
@@ -442,9 +439,9 @@ assert.deepEqual(tommyIssues.map((issue) => [issue.start, issue.end]), [
   [19, 26]
 ]);
 assert.deepEqual(tommyIssues.map((issue) => issue.engineId), [
-  "cloudflare-workers-ai",
-  "cloudflare-workers-ai",
-  "cloudflare-workers-ai"
+  "edmund-advanced-grammar",
+  "edmund-advanced-grammar",
+  "edmund-advanced-grammar"
 ]);
 assert.equal(tommyIssues[0].categoryId, "subject_verb_agreement");
 assert.equal(tommyIssues[0].title, "主語與動詞一致");
@@ -564,7 +561,7 @@ assert.deepEqual(
   merged.map((issue) => [issue.start, issue.engineId, issue.originalText, issue.suggestedText]),
   [
     [6, "edmund-esl-basics", "need", "needs"],
-    [11, "cloudflare-workers-ai", "book", "a book"],
+    [11, "edmund-advanced-grammar", "book", "a book"],
     [19, "harper.js", "reading", "read"]
   ],
   "local ESL wins first, Harper wins second, and only non-overlapping AI remains"
@@ -793,7 +790,7 @@ const correctionHistory = [{
   before: "read",
   after: "reads",
   categoryId: "subject_verb_agreement",
-  engineId: "cloudflare-workers-ai"
+  engineId: "edmund-advanced-grammar"
 }];
 const inverseContext = { generation: 4, documentId: "document-loop" };
 const inverseSegment = { start: 0, text: inverseSentence };
@@ -873,7 +870,7 @@ const repeatedGoHistory = [{
   before: "go",
   after: "to go",
   categoryId: "infinitive_or_gerund",
-  engineId: "cloudflare-workers-ai"
+  engineId: "edmund-advanced-grammar"
 }];
 const repeatedGoIssue = {
   ...inverseIssue,
@@ -984,7 +981,7 @@ assert.equal(
       absoluteEnd: 20,
       before: "feel",
       after: "felt",
-      engineId: "cloudflare-workers-ai"
+      engineId: "edmund-advanced-grammar"
     }]
   ),
   true,
@@ -1008,7 +1005,7 @@ assert.equal(
       absoluteEnd: 23,
       before: "read",
       after: "reads",
-      engineId: "cloudflare-workers-ai"
+      engineId: "edmund-advanced-grammar"
     }]
   ),
   false,
@@ -1032,7 +1029,7 @@ assert.equal(
       absoluteEnd: 9,
       before: "read",
       after: "reads",
-      engineId: "cloudflare-workers-ai"
+      engineId: "edmund-advanced-grammar"
     }]
   ),
   true,
@@ -1056,7 +1053,7 @@ assert.equal(
       absoluteEnd: 5,
       before: "a  lot",
       after: "a lot",
-      engineId: "cloudflare-workers-ai"
+      engineId: "edmund-advanced-grammar"
     }]
   ),
   true,

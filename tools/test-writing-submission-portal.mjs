@@ -82,7 +82,7 @@ test("word count handles repeated whitespace", () => {
 
 test("grammar occurrence identities dedupe a rescan but preserve two same-rule cards", () => {
   const base = {
-    engineIdentity: "cloudflare-workers-ai@2",
+    engineIdentity: "edmund-advanced-grammar@2",
     documentId: "11111111-1111-4111-8111-111111111111",
     ruleId: "EdmundAI:verb_form_and_tense",
     segmentOrdinal: 1,
@@ -128,7 +128,8 @@ test("grammar history and article archives follow the deployed API contract", ()
   assert.match(script, /payload\?\.grammarProblems/);
   assert.match(script, /payload\?\.grammarOccurrences/);
   assert.match(script, /fetchAllSubmissionPages\("\/v1\/submissions"\)/);
-  assert.match(script, /fetchAllSubmissionPages\("\/v1\/admin\/submissions"/);
+  assert.match(script, /const submissionPath = `\/v1\/admin\/submissions\?studentId=/);
+  assert.match(script, /fetchAllSubmissionPages\(submissionPath, \{ maximumPages: 100 \}\)/);
   assert.match(script, /localStorage\.setItem\(key, JSON\.stringify\(values\)\)/);
   assert.match(script, /flushGrammarOccurrences\(\)\.catch/);
   assert.match(script, /checkGeneration/);
@@ -145,10 +146,10 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260810-timer-export1/);
-  assert.match(html, /writing-submission\.js\?v=20260810-timer-export1/);
+  assert.match(html, /writing-submission\.css\?v=20260810-drafts-admin2/);
+  assert.match(html, /writing-submission\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
-  assert.match(script, /writing-submission-ai\.js\?v=20260803-grammar-progress1/);
+  assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
   assert.match(eslRules, /writing-submission-esl-rules-core\.js\?v=20260802-grammar3/);
   assert.match(harper, /writing-submission-esl-rules\.js\?v=20260803-grammar6/);
@@ -187,6 +188,15 @@ test("countdown and student-owned composition exports are fully wired", () => {
   assert.doesNotMatch(script, /\/v1\/admin\/submissions\/\$\{encodeURIComponent\(normalizedId\)\}/);
   assert.match(css, /\.writing-timer-panel/);
   assert.match(css, /\.submission-export-toolbar/);
+});
+
+test("stopwatch, countdown and image zoom keep independent reset state", () => {
+  const timerReset = script.match(/function handleWritingTimerReset\(\) \{[\s\S]*?\n\}/)?.[0] || "";
+  const newDraft = script.match(/function startNewDraft\([^)]*\) \{[\s\S]*?\n\}/)?.[0] || "";
+  assert.match(timerReset, /state\.writingTimer = emptyWritingTimer\(\)/);
+  assert.doesNotMatch(timerReset, /writingStopwatch|writingImageZoom/);
+  assert.match(newDraft, /state\.writingStopwatch = emptyWritingStopwatch\(\)/);
+  assert.match(newDraft, /state\.writingImageZoom = 1/);
 });
 
 test("writing preferences, topic selection, timing, progress and recoverable deletion are wired", () => {
@@ -240,7 +250,8 @@ test("completed sentences use the authenticated AI endpoint without sending the 
   assert.match(script, /mergeWritingGrammarIssues/);
   assert.match(script, /normalizeWritingAiResponse/);
   assert.match(aiAdapter, /EdmundAI:\$\{categoryId\}/);
-  assert.match(aiAdapter, /cloudflare-workers-ai/);
+  assert.match(aiAdapter, /edmund-advanced-grammar/);
+  assert.doesNotMatch(aiAdapter, /cloudflare|workers[ -]?ai|@cf\//i);
 });
 
 test("an incomplete AI review preserves local findings without pretending the service is offline", () => {

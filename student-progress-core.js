@@ -6,7 +6,8 @@ export const STUDENT_PROGRESS_RANGES = Object.freeze([
   { id: "half-year", label: "Half a Year" },
   { id: "ytd", label: "Year to Date" },
   { id: "year", label: "1 Year" },
-  { id: "all", label: "All Time" }
+  { id: "all", label: "All Time" },
+  { id: "custom", label: "自訂日期" }
 ]);
 
 export const STUDENT_PROGRESS_SOURCES = Object.freeze([
@@ -179,37 +180,71 @@ export function localDayKey(value) {
   if (typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value)) return value;
   const date = value instanceof Date ? value : new Date(value);
   if (!Number.isFinite(date.getTime())) return "";
-  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: STUDENT_PROGRESS_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(date);
+  const part = (type) => parts.find((item) => item.type === type)?.value || "";
+  return `${part("year")}-${part("month")}-${part("day")}`;
 }
 
 export function dateFromDayKey(value) {
   const match = String(value || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
   if (!match) return null;
-  const date = new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
-  return localDayKey(date) === value ? date : null;
+  const date = new Date(Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3]), 12));
+  return date.getUTCFullYear() === Number(match[1])
+    && date.getUTCMonth() === Number(match[2]) - 1
+    && date.getUTCDate() === Number(match[3]) ? date : null;
 }
 
 export function addLocalDays(value, amount) {
   const date = value instanceof Date ? new Date(value) : dateFromDayKey(value);
   if (!date) return null;
-  date.setDate(date.getDate() + Number(amount || 0));
+  date.setUTCDate(date.getUTCDate() + Number(amount || 0));
   return date;
 }
 
-function rangeStart(rangeKey, availableDayKeys, nowValue) {
-  const range = RANGE_IDS.has(rangeKey) ? rangeKey : "month";
-  const now = nowValue instanceof Date ? new Date(nowValue) : new Date(nowValue || Date.now());
-  const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  if (range === "week") return addLocalDays(end, -6);
-  if (range === "month") return addLocalDays(end, -29);
-  if (range === "half-year") return addLocalDays(end, -181);
-  if (range === "ytd") return new Date(end.getFullYear(), 0, 1);
-  if (range === "year") return addLocalDays(end, -364);
-  if (range === "all") {
-    const dates = availableDayKeys.map(dateFromDayKey).filter(Boolean).filter((date) => date <= end);
-    if (dates.length) return new Date(Math.min(...dates.map((date) => date.getTime())));
+export function resolveProgressRange(rangeValue, availableDayKeys = [], nowValue = new Date()) {
+  const todayKey = localDayKey(nowValue || Date.now());
+  if (!dateFromDayKey(todayKey)) throw new RangeError("Invalid current date");
+  const requestedId = typeof rangeValue === "object" && rangeValue
+    ? String(rangeValue.id || "")
+    : String(rangeValue || "");
+  const range = RANGE_IDS.has(requestedId) ? requestedId : "month";
+  if (range === "custom") {
+    const startKey = String(rangeValue?.start || "");
+    const requestedEndKey = String(rangeValue?.end || "");
+    if (!dateFromDayKey(startKey) || !dateFromDayKey(requestedEndKey)) {
+      throw new RangeError("Custom range requires valid start and end dates");
+    }
+    if (startKey > requestedEndKey) throw new RangeError("Custom range start must not follow its end");
+    if (requestedEndKey > todayKey) throw new RangeError("Custom range cannot end after today in Hong Kong");
+    return { id: range, startKey, endKey: requestedEndKey, todayKey };
   }
-  return addLocalDays(end, -29);
+  const endDate = dateFromDayKey(todayKey);
+  let startDate = addLocalDays(endDate, -29);
+  if (range === "week") startDate = addLocalDays(endDate, -6);
+  if (range === "half-year") startDate = addLocalDays(endDate, -181);
+  if (range === "ytd") startDate = dateFromDayKey(`${todayKey.slice(0, 4)}-01-01`);
+  if (range === "year") startDate = addLocalDays(endDate, -364);
+  if (range === "all") {
+    const valid = availableDayKeys
+      .map((key) => localDayKey(key))
+      .filter((key) => dateFromDayKey(key) && key <= todayKey)
+      .sort();
+    if (valid.length) startDate = dateFromDayKey(valid[0]);
+  }
+  return { id: range, startKey: localDayKey(startDate), endKey: todayKey, todayKey };
+}
+
+function dayKeysBetween(startKey, endKey) {
+  const keys = [];
+  for (let cursor = dateFromDayKey(startKey); cursor && localDayKey(cursor) <= endKey; cursor = addLocalDays(cursor, 1)) {
+    keys.push(localDayKey(cursor));
+  }
+  return keys;
 }
 
 function positiveNumber(value) {
@@ -252,22 +287,20 @@ export function buildMasterTimeSeries(snapshotValue, rangeKey = "month", nowValu
   const snapshot = normalizeProgressSnapshot(snapshotValue);
   const rowsBySource = new Map();
   const availableKeys = [];
-  const now = nowValue instanceof Date ? new Date(nowValue) : new Date(nowValue || Date.now());
-  const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const todayKey = localDayKey(nowValue || Date.now());
 
   for (const definition of STUDENT_PROGRESS_SOURCES) {
     const byDay = new Map();
     for (const row of sourceTimeRows(snapshot, definition.id)) {
       const key = localDayKey(row?.date);
-      const date = dateFromDayKey(key);
-      if (!date || date > end) continue;
+      if (!dateFromDayKey(key) || key > todayKey) continue;
       byDay.set(key, (byDay.get(key) || 0) + positiveNumber(row.totalMs));
       availableKeys.push(key);
     }
     rowsBySource.set(definition.id, byDay);
   }
 
-  const start = rangeStart(rangeKey, availableKeys, now);
+  const range = resolveProgressRange(rangeKey, availableKeys, nowValue);
   const cumulative = {};
   const allTimeBySystem = {};
   for (const definition of STUDENT_PROGRESS_SOURCES) {
@@ -275,18 +308,16 @@ export function buildMasterTimeSeries(snapshotValue, rangeKey = "month", nowValu
     let before = 0;
     let allTime = 0;
     for (const [key, totalMs] of byDay) {
-      const date = dateFromDayKey(key);
       allTime += totalMs;
-      if (date < start) before += totalMs;
+      if (key < range.startKey) before += totalMs;
     }
     cumulative[definition.id] = before;
     allTimeBySystem[definition.id] = allTime;
   }
 
   const points = [];
-  for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
-    const date = new Date(cursor);
-    const key = localDayKey(date);
+  for (const key of dayKeysBetween(range.startKey, range.endKey)) {
+    const date = dateFromDayKey(key);
     const systems = {};
     const cumulativeSystems = {};
     let totalMs = 0;
@@ -315,14 +346,12 @@ export function buildActivitySeries(snapshotValue, sourceId, rangeKey = "month",
   const definition = STUDENT_PROGRESS_SOURCES.find((source) => source.id === sourceId);
   if (!definition) return { points: [], totals: {}, allTimeTotals: {}, primaryTotal: 0 };
   const rows = snapshot.sources[sourceId]?.activityDays || [];
-  const now = nowValue instanceof Date ? new Date(nowValue) : new Date(nowValue || Date.now());
-  const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const todayKey = localDayKey(nowValue || Date.now());
   const byDay = new Map();
   const availableKeys = [];
   for (const row of rows) {
     const key = localDayKey(row?.date);
-    const date = dateFromDayKey(key);
-    if (!date || date > end) continue;
+    if (!dateFromDayKey(key) || key > todayKey) continue;
     const values = byDay.get(key) || {};
     for (const series of definition.activitySeries) {
       values[series.key] = positiveNumber(values[series.key]) + positiveNumber(row[series.key]);
@@ -330,21 +359,19 @@ export function buildActivitySeries(snapshotValue, sourceId, rangeKey = "month",
     byDay.set(key, values);
     availableKeys.push(key);
   }
-  const start = rangeStart(rangeKey, availableKeys, now);
+  const range = resolveProgressRange(rangeKey, availableKeys, nowValue);
   const allTimeTotals = Object.fromEntries(definition.activitySeries.map(({ key }) => [key, 0]));
   const cumulativeBefore = Object.fromEntries(definition.activitySeries.map(({ key }) => [key, 0]));
   for (const [key, values] of byDay) {
-    const date = dateFromDayKey(key);
     for (const series of definition.activitySeries) {
       allTimeTotals[series.key] += positiveNumber(values[series.key]);
-      if (date < start) cumulativeBefore[series.key] += positiveNumber(values[series.key]);
+      if (key < range.startKey) cumulativeBefore[series.key] += positiveNumber(values[series.key]);
     }
   }
   const points = [];
   const cumulative = { ...cumulativeBefore };
-  for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
-    const date = new Date(cursor);
-    const key = localDayKey(date);
+  for (const key of dayKeysBetween(range.startKey, range.endKey)) {
+    const date = dateFromDayKey(key);
     const values = byDay.get(key) || {};
     const point = { date, key };
     for (const series of definition.activitySeries) {
@@ -370,29 +397,25 @@ export function buildActivitySeries(snapshotValue, sourceId, rangeKey = "month",
 export function buildSourceTimeSeries(snapshotValue, sourceId, rangeKey = "month", nowValue = new Date()) {
   const snapshot = normalizeProgressSnapshot(snapshotValue);
   const rows = snapshot.sources[sourceId]?.timeDays || [];
-  const now = nowValue instanceof Date ? new Date(nowValue) : new Date(nowValue || Date.now());
-  const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const todayKey = localDayKey(nowValue || Date.now());
   const byDay = new Map();
   const availableKeys = [];
   for (const row of rows) {
     const key = localDayKey(row?.date);
-    const date = dateFromDayKey(key);
-    if (!date || date > end) continue;
+    if (!dateFromDayKey(key) || key > todayKey) continue;
     byDay.set(key, (byDay.get(key) || 0) + positiveNumber(row.totalMs));
     availableKeys.push(key);
   }
-  const start = rangeStart(rangeKey, availableKeys, now);
+  const range = resolveProgressRange(rangeKey, availableKeys, nowValue);
   let cumulativeMs = 0;
   let allTimeMs = 0;
   for (const [key, totalMs] of byDay) {
-    const date = dateFromDayKey(key);
     allTimeMs += totalMs;
-    if (date < start) cumulativeMs += totalMs;
+    if (key < range.startKey) cumulativeMs += totalMs;
   }
   const points = [];
-  for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
-    const date = new Date(cursor);
-    const key = localDayKey(date);
+  for (const key of dayKeysBetween(range.startKey, range.endKey)) {
+    const date = dateFromDayKey(key);
     const totalMs = byDay.get(key) || 0;
     cumulativeMs += totalMs;
     points.push({ date, key, totalMs, cumulativeMs });
@@ -406,19 +429,17 @@ export function buildSourceTimeSeries(snapshotValue, sourceId, rangeKey = "month
 
 export function buildWritingAverageSeries(snapshotValue, rangeKey = "month", nowValue = new Date()) {
   const snapshot = normalizeProgressSnapshot(snapshotValue);
-  const now = nowValue instanceof Date ? new Date(nowValue) : new Date(nowValue || Date.now());
-  const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const todayKey = localDayKey(nowValue || Date.now());
   const rows = (snapshot.sources.writingSubmission?.activityDays || []).filter((row) => {
-    const date = dateFromDayKey(localDayKey(row?.date));
-    return date && date <= end;
+    const key = localDayKey(row?.date);
+    return dateFromDayKey(key) && key <= todayKey;
   });
   const availableKeys = rows.map((row) => localDayKey(row?.date)).filter(Boolean);
-  const start = rangeStart(rangeKey, availableKeys, now);
+  const range = resolveProgressRange(rangeKey, availableKeys, nowValue);
   const byDay = new Map(rows.map((row) => [localDayKey(row?.date), row]));
   const points = [];
-  for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
-    const date = new Date(cursor);
-    const key = localDayKey(date);
+  for (const key of dayKeysBetween(range.startKey, range.endKey)) {
+    const date = dateFromDayKey(key);
     const row = byDay.get(key) || {};
     const articles = positiveNumber(row.articles);
     const totalMs = positiveNumber(row.totalMs);

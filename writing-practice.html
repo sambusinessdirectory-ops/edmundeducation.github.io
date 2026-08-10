@@ -3189,7 +3189,7 @@
     }
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-2">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-3">
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -3448,7 +3448,7 @@
   <script src="writing-practice-hkpf-compositions-data.js?v=20260715-1"></script>
   <script src="writing-progression-data.js?v=20260727-1"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
-  <script src="shared-system-nav.js?v=20260810-2"></script>
+  <script src="shared-system-nav.js?v=20260810-3"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -6501,6 +6501,17 @@ Device: concession 讓步
           return false;
         });
       return writingAttemptSyncChain;
+    }
+
+    function retryWritingAttemptOutbox() {
+      const accountKey = writingStateAccountKey();
+      if (!accountKey || !writingStateContext()) return Promise.resolve(false);
+      const localState = getWritingLocalAccountState(accountKey);
+      const hasPendingWork = writingAttemptOutbox.length
+        || writingAttemptDeleteRequests.length
+        || localState.attemptOutbox.length
+        || localState.attemptDeleteRequests.length;
+      return hasPendingWork ? queueWritingAttemptSync() : Promise.resolve(true);
     }
 
     function resetWritingPersonalState() {
@@ -12475,8 +12486,19 @@ Device: concession 讓步
       });
 
       window.addEventListener("pagehide", stopAudioForPageInterruption);
+      window.addEventListener("online", () => {
+        retryWritingAttemptOutbox().catch(error => {
+          console.warn("Could not retry Writing attempt outbox after reconnecting:", error);
+        });
+      });
       document.addEventListener("visibilitychange", () => {
-        if (document.visibilityState === "hidden") stopAudioForPageInterruption();
+        if (document.visibilityState === "hidden") {
+          stopAudioForPageInterruption();
+          return;
+        }
+        retryWritingAttemptOutbox().catch(error => {
+          console.warn("Could not retry Writing attempt outbox after returning to the page:", error);
+        });
       });
     }
 

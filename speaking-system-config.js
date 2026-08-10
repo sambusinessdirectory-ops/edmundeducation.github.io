@@ -2,7 +2,7 @@
   "use strict";
 
   /*
-   * Set workerBaseUrl after the Cloudflare Worker is deployed, for example:
+   * Set workerBaseUrl after the private API service is deployed, for example:
    *   workerBaseUrl: "https://speaking-api.example.workers.dev"
    * If a custom API hostname is used instead of *.workers.dev, add that exact
    * HTTPS origin to `connect-src` in speaking-system.html's CSP.

@@ -19,8 +19,8 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-2">
-  <link rel="stylesheet" href="student-progress.css?v=20260810-1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-3">
+  <link rel="stylesheet" href="student-progress.css?v=20260810-3">
 </head>
 <body data-progress-portal="parent">
   <a class="skip-link" href="#parent-communication-main">跳至主要內容</a>
@@ -87,7 +87,16 @@
 
       <section class="progress-toolbar progress-panel" aria-label="統計範圍">
         <div><p class="eyebrow">DATE RANGE</p><h2>選擇統計時段</h2><p>所有圖表會同步更新；可逐項展開或收起。</p></div>
-        <div class="range-buttons" data-range-buttons></div>
+        <div class="range-control-panel">
+          <div class="range-buttons" data-range-buttons></div>
+          <form class="custom-range-form" data-custom-range-form hidden>
+            <label><span>開始日期</span><input type="date" data-custom-range-start required></label>
+            <span class="custom-range-separator" aria-hidden="true">至</span>
+            <label><span>結束日期</span><input type="date" data-custom-range-end required></label>
+            <button type="submit">套用日期</button>
+            <p data-custom-range-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
       </section>
       <p class="dashboard-status" data-dashboard-status role="status" aria-live="polite"></p>
 
@@ -130,6 +139,6 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="student-progress-config.js"></script>
-  <script type="module" src="student-progress.js?v=20260810-1"></script>
+  <script type="module" src="student-progress.js?v=20260810-3"></script>
 </body>
 </html>

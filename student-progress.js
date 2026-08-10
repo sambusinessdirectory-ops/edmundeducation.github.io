@@ -1,14 +1,17 @@
 import {
   STUDENT_PROGRESS_RANGES,
   STUDENT_PROGRESS_SOURCES,
+  addLocalDays,
   buildActivitySeries,
   buildMasterTimeSeries,
   buildSourceTimeSeries,
   buildWritingAverageSeries,
   formatProgressDuration,
+  localDayKey,
   niceProgressMaximum,
   normalizeProgressSnapshot,
-  progressPolyline
+  progressPolyline,
+  resolveProgressRange
 } from "./student-progress-core.js";
 
 const CONFIG = window.EDMUND_STUDENT_PROGRESS_CONFIG || {};
@@ -37,6 +40,10 @@ const elements = {
   dashboardGroups: document.querySelector("[data-dashboard-groups]"),
   sourceGroups: document.querySelector("[data-source-groups]"),
   rangeButtons: document.querySelector("[data-range-buttons]"),
+  customRangeForm: document.querySelector("[data-custom-range-form]"),
+  customRangeStart: document.querySelector("[data-custom-range-start]"),
+  customRangeEnd: document.querySelector("[data-custom-range-end]"),
+  customRangeStatus: document.querySelector("[data-custom-range-status]"),
   masterTotal: document.querySelector("[data-master-total]"),
   masterSummary: document.querySelector("[data-master-summary]"),
   generatedAt: document.querySelector("[data-generated-at]"),
@@ -48,6 +55,14 @@ const elements = {
   masterDailyLegend: document.querySelector("[data-master-daily-legend]"),
   adminPicker: document.querySelector("[data-admin-picker]"),
   adminStudentSelect: document.querySelector("[data-admin-student-select]"),
+  scheduleSnapshot: document.querySelector("[data-schedule-snapshot]"),
+  scheduleSummary: document.querySelector("[data-schedule-summary]"),
+  scheduleWeekLabel: document.querySelector("[data-schedule-week-label]"),
+  scheduleStatus: document.querySelector("[data-schedule-status]"),
+  scheduleGrid: document.querySelector("[data-schedule-week-grid]"),
+  schedulePrevious: document.querySelector("[data-schedule-previous]"),
+  scheduleCurrent: document.querySelector("[data-schedule-current]"),
+  scheduleNext: document.querySelector("[data-schedule-next]"),
   passwordDialog: document.querySelector("[data-password-dialog]"),
   passwordForm: document.querySelector("[data-password-form]"),
   passwordCurrent: document.querySelector("[data-password-current]"),
@@ -62,10 +77,13 @@ const state = {
   user: null,
   authToken: "",
   range: "month",
+  customRange: { start: "", end: "" },
   snapshot: null,
   adminStudents: [],
   selectedAdminStudentId: "",
   requestRevision: 0,
+  scheduleRevision: 0,
+  scheduleWeekStart: "",
   toastTimer: 0
 };
 
@@ -76,6 +94,30 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function activeRangeValue() {
+  return state.range === "custom"
+    ? { id: "custom", start: state.customRange.start, end: state.customRange.end }
+    : state.range;
+}
+
+function currentHongKongWeekStart() {
+  const todayKey = localDayKey(new Date());
+  const today = new Date(`${todayKey}T12:00:00Z`);
+  const mondayOffset = (today.getUTCDay() + 6) % 7;
+  return localDayKey(addLocalDays(today, -mondayOffset));
+}
+
+function formatDayLabel(dayKey, options = {}) {
+  const date = new Date(`${dayKey}T12:00:00Z`);
+  if (!Number.isFinite(date.getTime())) return dayKey;
+  return new Intl.DateTimeFormat("zh-HK", {
+    timeZone: "Asia/Hong_Kong",
+    month: "numeric",
+    day: "numeric",
+    ...options
+  }).format(date);
 }
 
 function setStatus(element, message = "", status = "") {
@@ -218,13 +260,16 @@ function saveSession() {
 
 function clearSession() {
   state.requestRevision += 1;
+  state.scheduleRevision += 1;
   state.user = null;
   state.authToken = "";
   state.snapshot = null;
   state.adminStudents = [];
   state.selectedAdminStudentId = "";
+  state.scheduleWeekStart = "";
   elements.adminPicker.hidden = true;
   elements.dashboardGroups.hidden = true;
+  if (elements.scheduleSnapshot) elements.scheduleSnapshot.hidden = true;
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Best effort. */ }
 }
 
@@ -328,6 +373,7 @@ function formatDateTime(value) {
   const date = new Date(value);
   if (!Number.isFinite(date.getTime())) return "尚未更新";
   return new Intl.DateTimeFormat("zh-HK", {
+    timeZone: "Asia/Hong_Kong",
     year: "numeric", month: "short", day: "numeric", hour: "2-digit", minute: "2-digit"
   }).format(date);
 }
@@ -409,6 +455,15 @@ function renderRangeButtons() {
   elements.rangeButtons.innerHTML = STUDENT_PROGRESS_RANGES.map((range) => `
     <button type="button" data-range="${escapeHtml(range.id)}" aria-pressed="${range.id === state.range}">${escapeHtml(range.label)}</button>
   `).join("");
+  if (!elements.customRangeForm) return;
+  const todayKey = localDayKey(new Date());
+  if (!state.customRange.end) state.customRange.end = todayKey;
+  if (!state.customRange.start) state.customRange.start = localDayKey(addLocalDays(todayKey, -29));
+  elements.customRangeStart.max = todayKey;
+  elements.customRangeEnd.max = todayKey;
+  elements.customRangeStart.value = state.customRange.start;
+  elements.customRangeEnd.value = state.customRange.end;
+  elements.customRangeForm.hidden = state.range !== "custom";
 }
 
 function sourceGroupHtml(source, index) {
@@ -478,7 +533,7 @@ function buildDashboardShell() {
 }
 
 function renderMaster(snapshot) {
-  const master = buildMasterTimeSeries(snapshot, state.range);
+  const master = buildMasterTimeSeries(snapshot, activeRangeValue());
   elements.masterTotal.textContent = formatProgressDuration(master.allTimeTotalMs);
   elements.masterSummary.textContent = formatProgressDuration(master.allTimeTotalMs, { compact: true });
   elements.masterCumulativeTotal.textContent = formatProgressDuration(master.allTimeTotalMs);
@@ -516,8 +571,9 @@ function renderMaster(snapshot) {
 function renderSource(snapshot, definition) {
   const group = elements.sourceGroups.querySelector(`[data-source-group="${definition.id}"]`);
   if (!group) return;
-  const activity = buildActivitySeries(snapshot, definition.id, state.range);
-  const time = buildSourceTimeSeries(snapshot, definition.id, state.range);
+  const range = activeRangeValue();
+  const activity = buildActivitySeries(snapshot, definition.id, range);
+  const time = buildSourceTimeSeries(snapshot, definition.id, range);
   const activityTotal = activity.allTimeTotals[definition.primaryMetric] || 0;
   const activityPeriodTotal = activity.totals[definition.primaryMetric] || 0;
   group.querySelector("[data-source-summary]").textContent = `${compactNumber(activityTotal)} ${definition.activityUnit} · ${formatProgressDuration(time.allTimeMs, { compact: true })}`;
@@ -542,7 +598,7 @@ function renderSource(snapshot, definition) {
     yTitle: "每日時間"
   });
   if (definition.id === "writingSubmission") {
-    const average = buildWritingAverageSeries(snapshot, state.range);
+    const average = buildWritingAverageSeries(snapshot, range);
     group.querySelector("[data-source-average-total]").textContent = formatProgressDuration(average.allTimeAverageMs);
     renderLineChart(group.querySelector("[data-source-average-chart]"), {
       points: average.points,
@@ -550,6 +606,91 @@ function renderSource(snapshot, definition) {
       time: true,
       yTitle: "每篇平均時間"
     });
+  }
+}
+
+const SCHEDULE_FIRST_WEEK = "2025-12-29";
+const SCHEDULE_LAST_WEEK = "2050-12-26";
+const SCHEDULE_DAY_NAMES = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"];
+
+function scheduleIsOwnStudentView(snapshot = state.snapshot) {
+  return !PARENT_MODE
+    && state.user?.role === "student"
+    && Boolean(state.user.id)
+    && String(snapshot?.student?.id || "") === String(state.user.id);
+}
+
+function scheduleDurationLabel(value) {
+  const minutes = Math.max(0, Math.round(Number(value || 0)));
+  if (!minutes) return "";
+  const hours = Math.floor(minutes / 60);
+  const remainder = minutes % 60;
+  if (!hours) return `${minutes} 分鐘`;
+  return remainder ? `${hours} 小時 ${remainder} 分鐘` : `${hours} 小時`;
+}
+
+function scheduleEntryState(entry) {
+  if (entry?.isCompleted) return { key: "completed", label: "已完成" };
+  if (entry?.isInProgress) return { key: "in-progress", label: "進行中" };
+  if (entry?.isPreviousIncomplete) return { key: "previous", label: "上週未完成" };
+  return { key: "pending", label: "未完成" };
+}
+
+function renderScheduleWeek(payload = {}) {
+  if (!elements.scheduleGrid) return;
+  const weekStart = String(payload.weekStart || state.scheduleWeekStart || "");
+  const entries = Array.isArray(payload.entries) ? payload.entries : [];
+  const weekEnd = localDayKey(addLocalDays(weekStart, 6));
+  elements.scheduleWeekLabel.textContent = `${formatDayLabel(weekStart, { year: "numeric" })} — ${formatDayLabel(weekEnd, { year: "numeric" })}`;
+  elements.scheduleSummary.textContent = `${entries.length} 項安排`;
+  elements.schedulePrevious.disabled = weekStart <= SCHEDULE_FIRST_WEEK;
+  elements.scheduleNext.disabled = weekStart >= SCHEDULE_LAST_WEEK;
+  elements.scheduleGrid.innerHTML = Array.from({ length: 7 }, (_, index) => {
+    const dayKey = localDayKey(addLocalDays(weekStart, index));
+    const dayEntries = entries
+      .filter((entry) => String(entry?.scheduleDate || "") === dayKey && String(entry?.message || "").trim())
+      .sort((a, b) => Number(a.slotIndex || 0) - Number(b.slotIndex || 0));
+    const tasks = dayEntries.length ? dayEntries.map((entry) => {
+      const status = scheduleEntryState(entry);
+      const duration = scheduleDurationLabel(entry.estimatedMinutes);
+      const source = entry.source === "teacher" ? "老師安排" : "學生安排";
+      return `<article class="schedule-task" data-source="${entry.source === "teacher" ? "teacher" : "student"}" data-state="${status.key}">
+        <strong>${escapeHtml(entry.message)}</strong>
+        <span class="schedule-task-meta"><span>Slot ${String(Number(entry.slotIndex || 0)).padStart(2, "0")}</span><span>${source}</span><span>${status.label}</span>${duration ? `<span>預計 ${escapeHtml(duration)}</span>` : ""}</span>
+      </article>`;
+    }).join("") : `<p class="schedule-empty-day">本日未有已儲存安排。</p>`;
+    return `<section class="schedule-day"><header><strong>${SCHEDULE_DAY_NAMES[index]}</strong><small>${escapeHtml(formatDayLabel(dayKey))}</small></header><div class="schedule-day-list">${tasks}</div></section>`;
+  }).join("");
+}
+
+async function loadScheduleWeek({ announce = false } = {}) {
+  if (!elements.scheduleSnapshot || !scheduleIsOwnStudentView()) {
+    if (elements.scheduleSnapshot) elements.scheduleSnapshot.hidden = true;
+    return;
+  }
+  if (!state.scheduleWeekStart) state.scheduleWeekStart = currentHongKongWeekStart();
+  const revision = ++state.scheduleRevision;
+  elements.scheduleSnapshot.hidden = false;
+  elements.scheduleGrid.innerHTML = "";
+  setStatus(elements.scheduleStatus, "正在讀取本週功課…");
+  try {
+    const client = await ensureSupabaseSession();
+    const { data, error } = await client.rpc("schedule_student_get_week", {
+      p_token: state.authToken,
+      p_week_start: state.scheduleWeekStart
+    });
+    if (error) throw error;
+    if (revision !== state.scheduleRevision || !scheduleIsOwnStudentView()) return;
+    if (!data || typeof data !== "object" || String(data.weekStart || "") !== state.scheduleWeekStart) {
+      throw new Error("未能讀取這一週的功課安排。");
+    }
+    renderScheduleWeek(data);
+    setStatus(elements.scheduleStatus, "");
+    if (announce) showToast("本週功課快照已更新。");
+  } catch (error) {
+    if (revision !== state.scheduleRevision) return;
+    console.warn("Student Progress schedule snapshot failed", error);
+    setStatus(elements.scheduleStatus, error.message || "暫時未能讀取功課安排。", "error");
   }
 }
 
@@ -566,6 +707,10 @@ function renderDashboard() {
       ? `現正查看 ${snapshot.student.name} 的全面英文能力發展進度；家長帳戶不能進入其練習內容。`
     : `${snapshot.student.name}，以下數據直接來自各個學習系統的正式紀錄。`;
   elements.dashboardGroups.hidden = false;
+  if (!scheduleIsOwnStudentView(snapshot)) {
+    state.scheduleRevision += 1;
+    if (elements.scheduleSnapshot) elements.scheduleSnapshot.hidden = true;
+  }
   setStatus(elements.dashboardStatus, "");
 }
 
@@ -593,6 +738,7 @@ async function loadSnapshot({ announce = false } = {}) {
     if (!payload?.snapshot?.student?.id) throw new Error("未能讀取完整進度資料。");
     state.snapshot = payload.snapshot;
     renderDashboard();
+    if (scheduleIsOwnStudentView(payload.snapshot)) await loadScheduleWeek();
     setConnection("已同步", "online");
     if (announce) showToast("所有進度已更新。");
   } catch (error) {
@@ -689,7 +835,7 @@ async function logout() {
   clearSession();
   try { await state.supabase?.auth.signOut(); } catch { /* Anonymous auth cleanup is best effort. */ }
   setStatus(elements.loginStatus, "");
-  setConnection("可以登入", "online");
+  setConnection("已連線", "online");
   showView("login");
 }
 
@@ -759,7 +905,37 @@ function bindEvents() {
     const button = event.target.closest("[data-range]");
     if (!button || !STUDENT_PROGRESS_RANGES.some((range) => range.id === button.dataset.range)) return;
     state.range = button.dataset.range;
+    setStatus(elements.customRangeStatus, "");
     renderDashboard();
+  });
+  elements.customRangeForm?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const candidate = {
+      id: "custom",
+      start: elements.customRangeStart?.value || "",
+      end: elements.customRangeEnd?.value || ""
+    };
+    try {
+      resolveProgressRange(candidate, [], new Date());
+      state.customRange = { start: candidate.start, end: candidate.end };
+      state.range = "custom";
+      setStatus(elements.customRangeStatus, "");
+      renderDashboard();
+    } catch {
+      setStatus(elements.customRangeStatus, "請選擇有效日期；開始日期不可遲於結束日期，結束日期亦不可超過香港今天。", "error");
+    }
+  });
+  const changeScheduleWeek = async (amount) => {
+    const next = localDayKey(addLocalDays(state.scheduleWeekStart || currentHongKongWeekStart(), amount));
+    if (next < SCHEDULE_FIRST_WEEK || next > SCHEDULE_LAST_WEEK) return;
+    state.scheduleWeekStart = next;
+    await loadScheduleWeek();
+  };
+  elements.schedulePrevious?.addEventListener("click", () => changeScheduleWeek(-7));
+  elements.scheduleNext?.addEventListener("click", () => changeScheduleWeek(7));
+  elements.scheduleCurrent?.addEventListener("click", async () => {
+    state.scheduleWeekStart = currentHongKongWeekStart();
+    await loadScheduleWeek();
   });
   elements.adminStudentSelect.addEventListener("change", async () => {
     state.selectedAdminStudentId = elements.adminStudentSelect.value;
@@ -771,7 +947,7 @@ async function checkHealth() {
   try {
     const response = await fetch(`${workerBaseUrl()}/v1/health`, { credentials: "omit" });
     if (!response.ok) throw new Error("Health unavailable");
-    setConnection("可以登入", "online");
+    setConnection("已連線", "online");
   } catch {
     setConnection("服務連接中", "checking");
   }

@@ -177,6 +177,8 @@ const elements = {
   createParentStatus: document.querySelector("[data-create-parent-status]"),
   parentList: document.querySelector("[data-parent-list]"),
   parentCount: document.querySelector("[data-parent-count]"),
+  parentSearch: document.querySelector("[data-parent-search]"),
+  parentStudentSearch: document.querySelector("[data-parent-student-search]"),
   parentAdminStatus: document.querySelector("[data-parent-admin-status]"),
   studentSortButtons: [...document.querySelectorAll("[data-student-sort-mode]")],
   studentStatusFilter: document.querySelector("[data-student-status-filter]"),
@@ -290,6 +292,7 @@ const state = {
   selectedStudent: null,
   adminStudents: [],
   adminParents: [],
+  parentAssignmentDrafts: new Map(),
   studentSortMode: "asc",
   studentOrder: [],
   studentStatusFilter: "active",
@@ -2219,7 +2222,7 @@ async function logout() {
   }
   setStatus(elements.loginStatus, "");
   showView("login");
-  setConnection("可以登入", "online");
+  setConnection("已連線", "online");
 }
 
 function openPasswordDialog() {
@@ -2375,6 +2378,7 @@ async function openAdminPanel() {
       : "asc";
     state.studentOrder = Array.isArray(preferences?.student_order) ? preferences.student_order : [];
     state.adminParents = Array.isArray(parentRows) ? parentRows : [];
+    state.parentAssignmentDrafts.clear();
     renderStudentList();
     renderParentList();
     const activeCount = state.adminStudents.filter(isStudentActive).length;
@@ -2423,12 +2427,15 @@ function renderStudentList() {
     copy.className = "student-card-copy";
     const name = document.createElement("strong");
     name.textContent = student.name;
-    const note = document.createElement("span");
-    note.textContent = active ? "共用學生帳戶" : `已停用：${formatAdminDateTime(student.deleted_at)}`;
     const badge = document.createElement("span");
     badge.className = `student-status-badge${active ? "" : " inactive"}`;
     badge.textContent = active ? "使用中" : "已停用";
-    copy.append(name, badge, note);
+    copy.append(name, badge);
+    if (!active) {
+      const note = document.createElement("span");
+      note.textContent = `已停用：${formatAdminDateTime(student.deleted_at)}`;
+      copy.append(note);
+    }
 
     const actions = document.createElement("div");
     actions.className = "student-card-actions";
@@ -2450,30 +2457,37 @@ function renderStudentList() {
       down.setAttribute("aria-label", `把 ${student.name} 向下移`);
       down.textContent = "↓";
       orderButtons.append(up, down);
-      actions.append(orderButtons);
+      copy.append(orderButtons);
     }
+    const open = document.createElement("button");
+    open.type = "button";
+    open.className = "student-open-button student-card-action";
+    open.textContent = "查看日程";
+    open.setAttribute("aria-label", `查看 ${student.name} 的日程`);
+    if (active) open.dataset.studentId = student.id;
+    else {
+      open.disabled = true;
+      open.title = "帳戶已停用";
+    }
+    actions.append(open);
     const profile = document.createElement("button");
     profile.type = "button";
     profile.className = "student-card-action";
     profile.dataset.studentProfile = student.id;
     profile.textContent = "Profile／權限";
     actions.append(profile);
-    if (active) {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "student-open-button";
-      button.dataset.studentId = student.id;
-      button.textContent = "查看日程";
-      button.setAttribute("aria-label", `查看 ${student.name} 的日程`);
-      actions.append(button);
-    }
     const reset = document.createElement("button");
     reset.type = "button";
     reset.className = "student-card-action";
     reset.dataset.resetStudentPassword = student.id;
     reset.dataset.accountName = student.name;
     reset.textContent = "重設密碼";
-    if (active) actions.append(reset);
+    if (!active) {
+      delete reset.dataset.resetStudentPassword;
+      reset.disabled = true;
+      reset.title = "重新啟用帳戶後才可重設密碼";
+    }
+    actions.append(reset);
     const lifecycle = document.createElement("button");
     lifecycle.type = "button";
     lifecycle.className = active ? "student-card-action danger" : "student-card-action";
@@ -2486,6 +2500,18 @@ function renderStudentList() {
       lifecycle.textContent = "重新啟用";
     }
     actions.append(lifecycle);
+    const permanentDelete = document.createElement("button");
+    permanentDelete.type = "button";
+    permanentDelete.className = "student-card-action danger";
+    permanentDelete.textContent = "永久刪除帳戶";
+    if (active) {
+      permanentDelete.disabled = true;
+      permanentDelete.title = "基於安全理由，必須先停用帳戶";
+    } else {
+      permanentDelete.dataset.permanentDeleteStudent = student.id;
+      permanentDelete.dataset.accountName = student.name;
+    }
+    actions.append(permanentDelete);
     card.append(copy, actions);
     elements.studentList.append(card);
   }
@@ -2727,8 +2753,8 @@ function openStudentProfile(studentId) {
   state.studentAuditTotal = 0;
   elements.studentProfileTitle.textContent = student.name;
   elements.studentProfileStatus.textContent = isStudentActive(student)
-    ? "共用學生帳戶 · 使用中"
-    : `共用學生帳戶 · 已於 ${formatAdminDateTime(student.deleted_at)} 停用`;
+    ? "學生帳戶 · 使用中"
+    : `學生帳戶 · 已於 ${formatAdminDateTime(student.deleted_at)} 停用`;
   renderStudentProfileFacts(student);
   renderStudentAccessControls(student);
   renderStudentProfileActions(student);
@@ -2859,7 +2885,19 @@ async function permanentlyDeleteStudent(event) {
 
 function renderParentList() {
   elements.parentList.replaceChildren();
-  elements.parentCount.textContent = `${state.adminParents.length} 個家長`;
+  const parentQuery = String(elements.parentSearch?.value || "").trim().toLocaleLowerCase();
+  const studentQuery = String(elements.parentStudentSearch?.value || "").trim().toLocaleLowerCase();
+  const compareNames = (left, right) => String(left?.name || "").localeCompare(String(right?.name || ""), "zh-Hant", { sensitivity: "base", numeric: true });
+  const parents = [...state.adminParents]
+    .sort(compareNames)
+    .filter((parent) => !parentQuery || String(parent.name || "").toLocaleLowerCase().includes(parentQuery));
+  const assignableStudents = state.adminStudents
+    .filter(isStudentActive)
+    .sort(compareNames)
+    .filter((student) => !studentQuery || String(student.name || "").toLocaleLowerCase().includes(studentQuery));
+  elements.parentCount.textContent = parentQuery
+    ? `${parents.length} / ${state.adminParents.length} 個家長`
+    : `${state.adminParents.length} 個家長`;
   if (!state.adminParents.length) {
     const empty = document.createElement("p");
     empty.className = "empty-state";
@@ -2867,9 +2905,17 @@ function renderParentList() {
     elements.parentList.append(empty);
     return;
   }
+  if (!parents.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-state";
+    empty.textContent = "找不到符合的家長。";
+    elements.parentList.append(empty);
+    return;
+  }
 
-  for (const parent of state.adminParents) {
-    const assigned = new Set(Array.isArray(parent.assigned_student_ids) ? parent.assigned_student_ids : []);
+  for (const parent of parents) {
+    const assigned = state.parentAssignmentDrafts.get(parent.id)
+      || new Set(Array.isArray(parent.assigned_student_ids) ? parent.assigned_student_ids : []);
     const card = document.createElement("article");
     card.className = "student-card parent-card";
     card.style.setProperty("--parent-colour", parent.tag_colour || "#7c3aed");
@@ -2887,7 +2933,7 @@ function renderParentList() {
     const assignments = document.createElement("div");
     assignments.className = "parent-assignments";
     assignments.setAttribute("aria-label", `指派 ${parent.name} 可查看的學生`);
-    state.adminStudents.filter(isStudentActive).forEach((student) => {
+    assignableStudents.forEach((student) => {
       const label = document.createElement("label");
       const checkbox = document.createElement("input");
       checkbox.type = "checkbox";
@@ -2897,7 +2943,8 @@ function renderParentList() {
       label.append(checkbox, document.createTextNode(student.name));
       assignments.append(label);
     });
-    if (!state.adminStudents.length) assignments.textContent = "尚未有可指派的學生帳戶。";
+    if (!state.adminStudents.some(isStudentActive)) assignments.textContent = "尚未有可指派的學生帳戶。";
+    else if (!assignableStudents.length) assignments.textContent = "找不到符合的學生。";
 
     const actions = document.createElement("div");
     actions.className = "parent-card-actions";
@@ -3024,7 +3071,11 @@ async function resetManagedAccountPassword(event) {
 async function saveParentAssignments(parentId) {
   const card = elements.parentList.querySelector(`[data-parent-id="${CSS.escape(parentId)}"]`);
   if (!card || state.currentUser?.role !== "admin") return;
-  const studentIds = [...card.querySelectorAll("[data-parent-student]:checked")].map((input) => input.value);
+  const assigned = state.parentAssignmentDrafts.get(parentId)
+    || new Set(Array.isArray(state.adminParents.find((item) => item.id === parentId)?.assigned_student_ids)
+      ? state.adminParents.find((item) => item.id === parentId).assigned_student_ids
+      : []);
+  const studentIds = [...assigned];
   try {
     await callRpc("schedule_admin_assign_parent_students", {
       p_admin_token: state.currentUser.adminToken,
@@ -3033,6 +3084,7 @@ async function saveParentAssignments(parentId) {
     });
     const parent = state.adminParents.find((item) => item.id === parentId);
     if (parent) parent.assigned_student_ids = studentIds;
+    state.parentAssignmentDrafts.delete(parentId);
     showToast(`已儲存 ${studentIds.length} 個子女指派。`, "success");
   } catch (error) {
     setStatus(elements.parentAdminStatus, error.message || "未能儲存子女指派。", "error");
@@ -4584,6 +4636,8 @@ elements.adminPasswordForm?.addEventListener("submit", resetManagedAccountPasswo
 elements.closeAdminPassword?.addEventListener("click", () => elements.adminPasswordDialog.close());
 elements.adminStudentsButton.addEventListener("click", openAdminPanel);
 elements.studentSearch.addEventListener("input", renderStudentList);
+elements.parentSearch?.addEventListener("input", renderParentList);
+elements.parentStudentSearch?.addEventListener("input", renderParentList);
 elements.studentSortButtons.forEach((button) => {
   button.addEventListener("click", () => setStudentSortMode(button.dataset.studentSortMode));
 });
@@ -4618,7 +4672,12 @@ elements.studentList.addEventListener("click", (event) => {
     return;
   }
   const reactivate = event.target.closest("[data-reactivate-student]");
-  if (reactivate) reactivateStudentAccount(reactivate.dataset.reactivateStudent, reactivate.dataset.accountName);
+  if (reactivate) {
+    reactivateStudentAccount(reactivate.dataset.reactivateStudent, reactivate.dataset.accountName);
+    return;
+  }
+  const permanentlyDelete = event.target.closest("[data-permanent-delete-student]");
+  if (permanentlyDelete) openPermanentDeleteDialog(permanentlyDelete.dataset.permanentDeleteStudent);
 });
 elements.studentList.addEventListener("dragstart", (event) => {
   const card = event.target.closest("[data-student-order-id]");
@@ -4715,6 +4774,17 @@ elements.parentList?.addEventListener("click", (event) => {
   }
   const remove = event.target.closest("[data-delete-parent]");
   if (remove) deleteParentAccount(remove.dataset.deleteParent, remove.dataset.accountName);
+});
+elements.parentList?.addEventListener("change", (event) => {
+  const checkbox = event.target.closest("[data-parent-student]");
+  const card = checkbox?.closest("[data-parent-id]");
+  if (!checkbox || !card) return;
+  const parent = state.adminParents.find((item) => item.id === card.dataset.parentId);
+  const assigned = state.parentAssignmentDrafts.get(card.dataset.parentId)
+    || new Set(Array.isArray(parent?.assigned_student_ids) ? parent.assigned_student_ids : []);
+  if (checkbox.checked) assigned.add(checkbox.value);
+  else assigned.delete(checkbox.value);
+  state.parentAssignmentDrafts.set(card.dataset.parentId, assigned);
 });
 
 elements.passwordToggle.addEventListener("click", () => {

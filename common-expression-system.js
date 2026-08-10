@@ -307,7 +307,7 @@ function renderAppShell() {
             <div>
               <p class="eyebrow">STUDENT LOGIN</p>
               <h2 id="common-expression-login-title">登入學習系統</h2>
-              <p>使用 Flashcard、寫作練習、Speaking、功課系統或教材下載區的同一個學生帳戶登入。</p>
+              <p>請輸入您的學生帳戶資料。</p>
             </div>
           </div>
           <form class="login-form" data-login-form novalidate>
@@ -316,7 +316,7 @@ function renderAppShell() {
             <p class="form-status" data-login-status role="status" aria-live="polite"></p>
             <button class="primary-button login-button" type="submit" data-login-button>登入並開始學習</button>
           </form>
-          <p class="account-note">學生帳戶由 EdmundEducation 統一管理；本頁不會建立另一組密碼。</p>
+          <p class="account-note">請輸入您的學生帳戶資料。</p>
         </section>
       </div>
     </section>
@@ -335,7 +335,7 @@ function renderAppShell() {
         </div>
       </section>
       <section class="dashboard-toolbar glass-panel">
-        <p>每個課題包括雙語概念、完整用法、重要規則及改寫練習；記錄會跟隨您的共用學生帳戶。</p>
+        <p>每個課題包括雙語概念、完整用法、重要規則及改寫練習；記錄會跟隨您的學生帳戶。</p>
         <div class="dashboard-toolbar-actions"><button class="secondary-button" type="button" data-open-bookmarks>☆ 我的書簽</button><button class="secondary-button" type="button" data-toggle-progress aria-expanded="false">查看練習進展</button></div>
       </section>
       <section class="common-progress-panel glass-panel" data-progress-panel hidden>
@@ -657,7 +657,7 @@ async function handleLogin(event) {
   const password = String(form.get("password") || "");
   if (!username || !password) return setFormStatus("請輸入用戶名稱及密碼。", "error");
   elements.loginButton.disabled = true;
-  setFormStatus("正在核對共用學生帳戶…");
+  setFormStatus("正在核對帳戶…");
   try {
     if (!await studentLogin(username, password)) throw new Error("用戶名稱或密碼不正確。");
     elements.loginForm.reset();
@@ -697,7 +697,7 @@ async function logout() {
   window.EdmundSystemNav?.forgetStudentSession();
   clearSession();
   try { await state.supabase?.auth.signOut(); } catch { /* Anonymous Auth cleanup is best-effort. */ }
-  setConnection("可以登入", "online");
+  setConnection("已連線", "online");
   showView("login");
 }
 
@@ -1295,7 +1295,7 @@ async function initialise() {
   setConnection("正在連接", "checking");
   try {
     await ensureSupabaseSession();
-    setConnection("可以登入", "online");
+    setConnection("已連線", "online");
   } catch (error) {
     console.warn("Common Expression Supabase initialization failed", error);
     setConnection("連線失敗", "error");

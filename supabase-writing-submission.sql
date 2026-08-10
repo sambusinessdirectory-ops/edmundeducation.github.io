@@ -3,7 +3,7 @@
 --
 -- Flashcard remains the only student credential store. Apply the shared
 -- Flashcard account migrations before this file. The browser never receives
--- table privileges; a narrowly scoped Cloudflare Worker invokes only the
+-- table privileges; a narrowly scoped private API service invokes only the
 -- service-role RPCs granted at the end of this migration.
 
 begin;

@@ -555,7 +555,7 @@ async function logout() {
   clearSession();
   try { await state.supabase?.auth.signOut(); } catch { /* Ignore anonymous auth cleanup failures. */ }
   setStatus(elements.loginStatus, "");
-  setConnection("可以登入", "online");
+  setConnection("已連線", "online");
   showView("login");
 }
 
@@ -2538,7 +2538,7 @@ async function openAdminStudent(studentId) {
     elements.adminDetail.innerHTML = `<section class="admin-profile">
       <p class="eyebrow">STUDENT PROGRESS</p>
       <h2>${escapeHtml(student.name)}</h2>
-      <p>共用 EdmundEducation 學生帳戶</p>
+      <p>學生帳戶</p>
       <div class="admin-metrics">
         <div class="admin-metric"><strong>${escapeHtml(attemptTotal)}</strong><span>練習次數</span></div>
         <div class="admin-metric"><strong>${escapeHtml(completedTotal)}</strong><span>完成次數</span></div>
@@ -2698,7 +2698,7 @@ async function checkHealth() {
   try {
     const response = await fetch(`${workerBaseUrl()}/v1/health`, { credentials: "omit" });
     if (!response.ok) throw new Error("Health unavailable");
-    setConnection("可以登入", "online");
+    setConnection("已連線", "online");
   } catch {
     setConnection("服務連接中", "checking");
   }

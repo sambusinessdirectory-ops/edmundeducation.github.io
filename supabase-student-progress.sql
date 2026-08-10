@@ -41,6 +41,14 @@ begin
 end;
 $$;
 
+-- A Writing Practice profile name is a logical account key used only when an
+-- older profile predates the shared UUID. Prevent case/spacing variants from
+-- producing ambiguous dashboard ownership in future.
+create unique index if not exists writing_student_accounts_name_normalized_idx
+  on public.writing_student_accounts (
+    pg_catalog.lower(pg_catalog.btrim(name))
+  );
+
 create table if not exists public.student_progress_admin_accounts (
   id uuid primary key default gen_random_uuid(),
   name text not null,
@@ -513,10 +521,11 @@ flash_time_days as (
   group by 1
 ),
 writing_account as (
-  select account.id
+  select distinct account.id
   from public.writing_student_accounts account
-  join student_profile student on student.name = account.name
-  limit 1
+  cross join student_profile student
+  where account.id = student.id
+     or pg_catalog.lower(pg_catalog.btrim(account.name)) = pg_catalog.lower(pg_catalog.btrim(student.name))
 ),
 writing_practice_activity_days as (
   select

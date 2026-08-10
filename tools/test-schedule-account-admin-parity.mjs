@@ -186,5 +186,12 @@ assertOneOf(
   "the browser must reject permanent deletion before the RPC when the typed name does not match"
 );
 assert.match(scheduleHtml, /單向加密儲存[\s\S]{0,180}(?:不能顯示舊密碼|不(?:會|可)顯示)/i, "admin UI must clearly state that stored passwords cannot be viewed");
+assert.match(scheduleHtml, /\.student-grid\s*\{[^}]*grid-template-columns:\s*minmax\(0,\s*1fr\)/s, "student accounts must use one full-width card per row");
+const studentRenderer = scheduleJs.match(/function renderStudentList\(\)[\s\S]*?\n\}\n\nasync function refreshStudentAccountState/)?.[0] || "";
+assert.ok(studentRenderer.indexOf('open.textContent = "查看日程"') < studentRenderer.indexOf('profile.textContent = "Profile／權限"'));
+assert.ok(studentRenderer.indexOf('profile.textContent = "Profile／權限"') < studentRenderer.indexOf('reset.textContent = "重設密碼"'));
+assert.ok(studentRenderer.indexOf('reset.textContent = "重設密碼"') < studentRenderer.indexOf('lifecycle.textContent = "停用帳戶"'));
+assert.ok(studentRenderer.indexOf('lifecycle.textContent = "停用帳戶"') < studentRenderer.indexOf('permanentDelete.textContent = "永久刪除帳戶"'));
+assert.doesNotMatch(studentRenderer, /共用學生帳戶/);
 
 console.log("Schedule account-admin parity verified: secure access, lifecycle, ordering, audit pagination and typed permanent deletion.");

@@ -331,10 +331,17 @@ assert(
   "Listening filenames were not mapped to the right practice and part"
 );
 assert(listeningCatalogue.missing.length === 78, "Listening missing-track count is wrong");
-assert(
-  JSON.stringify(listeningCatalogue.unmapped) === JSON.stringify(["IELTS Listening - Recordings/README.mp3"]),
-  "Unmapped listening object was not reported"
-);
+assert(listeningCatalogue.unmappedCount === 1, "Unmapped listening-object count is wrong");
+assert(listeningCatalogue.duplicateCount === 0, "Listening duplicate count is wrong");
+assert(!Object.hasOwn(listeningCatalogue, "prefix"), "Public catalogue exposed the storage prefix");
+assert(!Object.hasOwn(listeningCatalogue, "unmapped"), "Public catalogue exposed unmapped storage keys");
+assert(!Object.hasOwn(listeningCatalogue, "duplicates"), "Public catalogue exposed duplicate storage keys");
+for (const track of listeningCatalogue.tracks) {
+  assert(
+    JSON.stringify(Object.keys(track).sort()) === JSON.stringify(["part", "practice", "url"]),
+    "Public track leaked storage metadata"
+  );
+}
 assert(
   /IELTS%20Listening%20-%20Recordings\/IELTS%20Practice%201%20-%20Part%201\.mp3$/.test(listeningCatalogue.tracks[0].url),
   "Listening URL was not safely encoded"

@@ -391,7 +391,7 @@
 
     .student-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      grid-template-columns: minmax(0, 1fr);
       gap: 14px;
     }
 
@@ -401,9 +401,9 @@
       border-radius: 18px;
       padding: 20px;
       background: rgba(255, 255, 255, .7);
-      display: flex;
+      display: grid;
+      grid-template-columns: minmax(180px, 1fr) minmax(210px, 320px);
       align-items: center;
-      justify-content: space-between;
       gap: 14px;
     }
 
@@ -423,9 +423,10 @@
     .account-create-form .primary-button { width: auto; min-height: 43px; padding: 10px 15px; }
     .account-security-note { margin: 12px 0 0; border-left: 4px solid #397d50; padding: 9px 11px; color: #315540; background: #edf8f0; font-size: 12px; line-height: 1.55; }
     .student-card { align-items: stretch; }
-    .student-card-copy { align-self: center; min-width: 0; }
-    .student-card-actions { display: flex; align-items: center; justify-content: flex-end; gap: 7px; flex-wrap: wrap; }
-    .student-card-action { border: 1px solid rgba(109,60,34,.22); border-radius: 11px; padding: 8px 10px; color: var(--amber-dark); background: #fff; cursor: pointer; font-weight: 820; }
+    .student-card-copy { align-self: start; min-width: 0; }
+    .student-card-actions { display: grid; grid-template-columns: minmax(0, 1fr); align-items: stretch; gap: 7px; width: 100%; }
+    .student-card-action { width: 100%; border: 1px solid rgba(109,60,34,.22); border-radius: 11px; padding: 10px 12px; color: var(--amber-dark); background: #fff; cursor: pointer; font-weight: 820; text-align: center; }
+    .student-card-action:disabled { cursor: not-allowed; opacity: .5; }
     .student-card-action.danger { color: #922f2b; border-color: rgba(175,67,62,.28); background: #fff1f0; }
     .student-admin-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
     .student-sort-controls { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
@@ -438,7 +439,7 @@
     .student-card-copy { display: grid; gap: 5px; }
     .student-status-badge { display: inline-flex !important; width: fit-content; border-radius: 999px; padding: 4px 8px; color: #23754b !important; background: #e8f7ee; font-size: 11px !important; font-weight: 900; }
     .student-status-badge.inactive { color: #933832 !important; background: #fce8e6; }
-    .student-order-buttons { display: inline-flex; gap: 4px; }
+    .student-order-buttons { display: inline-flex; gap: 4px; justify-self: end; }
     .student-order-button { width: 34px; height: 34px; border: 1px solid rgba(109,60,34,.2); border-radius: 9px; color: #604131; background: #fff; cursor: pointer; font-weight: 900; }
     .student-profile-card { width: min(1120px, calc(100vw - 28px)); max-height: min(900px, calc(100vh - 28px)); overflow: auto; }
     .student-profile-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
@@ -470,12 +471,15 @@
     .parent-list-panel { margin-top: 22px; }
     .parent-list-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
     .parent-list-heading h2 { margin: 0; }
-    .parent-card { --parent-colour: #7c3aed; display: grid; gap: 12px; border-left: 7px solid var(--parent-colour); }
-    .parent-identity { display: flex; align-items: center; gap: 9px; }
-    .parent-tag { border-radius: 999px; padding: 4px 8px; color: #fff !important; background: var(--parent-colour); font-size: 11px !important; font-weight: 900; }
+    .parent-card { --parent-colour: #7c3aed; display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; border-left: 7px solid var(--parent-colour); }
+    .parent-identity { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+    .parent-tag { display: inline-flex; flex: 0 0 auto; align-items: center; white-space: nowrap; writing-mode: horizontal-tb; word-break: keep-all; line-height: 1.2; border-radius: 999px; padding: 4px 8px; color: #fff !important; background: var(--parent-colour); font-size: 11px !important; font-weight: 900; }
     .parent-assignments { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 7px; border-radius: 13px; padding: 10px; background: rgba(245,241,235,.8); }
     .parent-assignments label { display: flex; align-items: center; gap: 6px; color: #4c3b34; font-size: 12px; }
     .parent-card-actions { display: flex; justify-content: flex-end; gap: 7px; flex-wrap: wrap; }
+    .parent-search-tools { display: grid; grid-template-columns: repeat(2, minmax(180px, 1fr)); gap: 10px; margin-bottom: 14px; }
+    .parent-search-tools label { display: grid; gap: 5px; color: #5d4c43; font-size: 12px; font-weight: 820; }
+    .parent-search-tools input { min-height: 42px; border: 1px solid rgba(109,60,34,.2); border-radius: 12px; padding: 9px 12px; background: #fff; font: inherit; }
     .password-dialog-card { width: min(520px, calc(100vw - 28px)); }
     .password-dialog-card .field-control { position: relative; }
     .selection-action-button.progress { color: #745104; border-color: rgba(183,132,13,.35); background: #fff3bf; }
@@ -1234,6 +1238,7 @@
       .countdown-grid { grid-template-columns: 1fr; }
       .student-access-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .student-profile-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .student-card { grid-template-columns: minmax(0, 1fr); }
     }
 
     @media (max-width: 680px) {
@@ -1250,6 +1255,7 @@
       .planner-motif { top: 22px; right: 18px; width: 66px; }
       .admin-hero { align-items: stretch; flex-direction: column; }
       .student-search { max-width: none; }
+      .parent-search-tools { grid-template-columns: 1fr; }
       .week-navigation { grid-template-columns: 42px minmax(0, 1fr) 42px; gap: 7px; }
       .icon-button { width: 42px; height: 42px; }
       .calendar-panel.glass-card { padding: 8px; }
@@ -1311,7 +1317,7 @@
       .print-footer { margin-top: 3mm; color: #555; font-size: 7pt; text-align: right; }
     }
   </style>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-2">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-3">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要內容</a>
@@ -1386,7 +1392,7 @@
       <div class="account-admin-layout">
         <section class="account-admin-card glass-card" aria-labelledby="student-account-heading">
           <h2 id="student-account-heading">開設學生帳戶</h2>
-          <p>此處建立的學生可使用同一帳戶登入 Flashcard、寫作、下載及其他學生系統。</p>
+          <p>在此開設及管理學生帳戶、系統權限與帳戶狀態。</p>
           <form class="account-create-form" data-create-student-form>
             <label>學生名稱<input name="studentName" maxlength="100" autocomplete="off" required></label>
             <label>首次密碼<input name="studentPassword" type="password" minlength="8" maxlength="200" autocomplete="new-password" required></label>
@@ -1433,6 +1439,10 @@
       </div>
       <div class="student-list-panel parent-list-panel glass-card">
         <div class="parent-list-heading"><h2>家長帳戶與子女指派</h2><span data-parent-count></span></div>
+        <div class="parent-search-tools">
+          <label>搜尋家長名稱<input type="search" data-parent-search placeholder="輸入家長名稱" autocomplete="off"></label>
+          <label>搜尋子女名稱<input type="search" data-parent-student-search placeholder="輸入學生名稱" autocomplete="off"></label>
+        </div>
         <div class="student-grid" data-parent-list>
           <p class="empty-state">正在載入家長帳戶…</p>
         </div>
@@ -1743,7 +1753,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script src="shared-system-nav.js?v=20260810-2"></script>
-  <script type="module" src="schedule-system.js?v=20260810-3"></script>
+  <script src="shared-system-nav.js?v=20260810-3"></script>
+  <script type="module" src="schedule-system.js?v=20260810-4"></script>
 </body>
 </html>

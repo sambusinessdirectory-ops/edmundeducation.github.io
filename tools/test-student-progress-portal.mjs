@@ -21,6 +21,12 @@ test("portal has the requested identity, shared login, and expanded dashboard hi
   assert.match(html, /data-master-cumulative-chart/);
   assert.match(html, /data-master-daily-chart/);
   assert.match(html, /data-admin-student-select/);
+  assert.match(html, /data-custom-range-start/);
+  assert.match(html, /data-custom-range-end/);
+  assert.match(html, /data-schedule-snapshot/);
+  assert.match(html, /<span class="group-index">16<\/span>/);
+  assert.match(html, /data-schedule-previous/);
+  assert.match(html, /data-schedule-next/);
   assert.match(html, /shared-system-nav\.js\?v=/);
   assert.match(config, /adminUsername:\s*"Sam Admin Dashboard"/);
   assert.match(config, /studentLoginRpc:\s*"flashcard_student_login"/);
@@ -35,6 +41,11 @@ test("portal has the requested identity, shared login, and expanded dashboard hi
   assert.match(script, /data-source-activity-all/);
   assert.match(script, /data-source-time-period/);
   assert.match(script, /data-source-time-all/);
+  assert.match(script, /schedule_student_get_week/);
+  assert.match(script, /p_token:\s*state\.authToken/);
+  assert.match(script, /scheduleIsOwnStudentView/);
+  assert.match(script, /state\.user\?\.role === "student"/);
+  assert.doesNotMatch(script, /schedule_(?:student|admin)_(?:upsert|delete|set_capacity|batch)/, "the progress snapshot must remain read-only");
 });
 
 test("core declares all fourteen source systems in the requested order", async () => {
@@ -80,6 +91,11 @@ test("database snapshot reads canonical tables and deduplicates retries by quest
   assert.match(sql, /state\.key = 'edmundFlashcardAttempts'/);
   assert.match(sql, /detail\.detail_count >= greatest\(attempt\.answered_count, attempt\.aggregate_green \+ attempt\.aggregate_red\)/);
   assert.match(sql, /attempt\.attempt -> 'durationMs'/);
+  const writingAccountCte = sql.match(/writing_account as \(([\s\S]*?)\n\),\n\s*writing_practice_activity_days as/)?.[1] || "";
+  assert.ok(writingAccountCte, "Writing Practice account bridge CTE must exist");
+  assert.match(writingAccountCte, /lower\(pg_catalog\.btrim\(account\.name\)\)\s*=\s*pg_catalog\.lower\(pg_catalog\.btrim\(student\.name\)\)/);
+  assert.doesNotMatch(writingAccountCte, /limit\s+1/i, "all normalized matching Writing profiles must contribute their real attempt rows");
+  assert.match(sql, /create unique index if not exists writing_student_accounts_name_normalized_idx[\s\S]*?lower\(pg_catalog\.btrim\(name\)\)/, "normalized Writing profile names must remain unambiguous");
   assert.match(sql, /attempt -> 'totalCards'/);
   assert.match(sql, /summary\.duration_ms > 0\s+and summary\.total_cards > 0/, "Flashcard time must use the native duration-and-card filter");
   const submissionCte = sql.match(/writing_submission_days as \(([\s\S]*?)\n\),\n\s*sources_json as/)?.[1] || "";

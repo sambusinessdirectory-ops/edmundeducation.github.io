@@ -9,6 +9,7 @@ import {
   buildSourceTimeSeries,
   buildWritingAverageSeries,
   formatProgressDuration,
+  localDayKey,
   normalizeProgressSnapshot
 } from "../student-progress-core.js";
 
@@ -134,6 +135,20 @@ test("source activity and time totals preserve canonical source metrics", () => 
   assert.equal(speakingTime.allTimeMs, 5 * hour);
 });
 
+test("canonical Writing Practice attempt rows feed both progress dashboards", () => {
+  const snapshot = fixture();
+  snapshot.sources.writingPractice = {
+    activityDays: [{ date: "2026-07-28", questions: 7, attempts: 2 }],
+    timeDays: [{ date: "2026-07-28", totalMs: 185000 }]
+  };
+  const activity = buildActivitySeries(snapshot, "writingPractice", "week", "2026-07-28T04:00:00.000Z");
+  const time = buildSourceTimeSeries(snapshot, "writingPractice", "week", "2026-07-28T04:00:00.000Z");
+  assert.deepEqual(activity.allTimeTotals, { questions: 7, attempts: 2 });
+  assert.equal(time.allTimeMs, 185000);
+  const master = buildMasterTimeSeries(snapshot, "week", "2026-07-28T04:00:00.000Z");
+  assert.equal(master.points.find(({ key }) => key === "2026-07-28").systems.writingPractice, 185000);
+});
+
 test("selected-period and all-time source totals come from one snapshot without label drift", () => {
   const snapshot = fixture();
   snapshot.sources.sentenceStructure.activityDays.unshift({ date: "2025-01-01", questions: 7 });
@@ -158,4 +173,24 @@ test("malformed payloads normalize to safe empty sources", () => {
   assert.equal(Object.keys(normalized.sources).length, 14);
   assert.deepEqual(normalized.sources.flashcards, { activityDays: [], timeDays: [] });
   assert.equal(formatProgressDuration(3661000), "1 小時 01 分 01 秒");
+});
+
+test("Hong Kong day boundaries and inclusive custom date ranges are deterministic", () => {
+  assert.equal(localDayKey("2026-07-27T15:59:59.000Z"), "2026-07-27");
+  assert.equal(localDayKey("2026-07-27T16:00:00.000Z"), "2026-07-28");
+  const snapshot = fixture();
+  snapshot.sources.flashcards.activityDays = [
+    { date: "2026-07-26", total: 1, green: 1, red: 0 },
+    { date: "2026-07-27", total: 2, green: 2, red: 0 },
+    { date: "2026-07-28", total: 3, green: 3, red: 0 }
+  ];
+  const custom = { id: "custom", start: "2026-07-27", end: "2026-07-28" };
+  const series = buildActivitySeries(snapshot, "flashcards", custom, "2026-07-28T04:00:00.000Z");
+  assert.deepEqual(series.points.map(({ key }) => key), ["2026-07-27", "2026-07-28"]);
+  assert.equal(series.totals.total, 5, "both custom-range boundary dates are included");
+  assert.equal(series.allTimeTotals.total, 6, "all-time totals remain independent of the selected custom start date");
+  assert.throws(
+    () => buildActivitySeries(snapshot, "flashcards", { id: "custom", start: "2026-07-29", end: "2026-07-28" }, "2026-07-28T04:00:00.000Z"),
+    /start must not follow/
+  );
 });

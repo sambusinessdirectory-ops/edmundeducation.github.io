@@ -20,8 +20,8 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260810-timer-export1">
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-2">
+  <link rel="stylesheet" href="writing-submission.css?v=20260810-drafts-admin2">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-3">
 </head>
 <body>
   <a class="skip-link" href="#writing-submission-main">跳至主要內容</a>
@@ -95,7 +95,7 @@
             <p class="form-status" data-login-status role="status" aria-live="polite"></p>
             <button class="primary-button login-button" type="submit" data-login-button>登入並開始寫作</button>
           </form>
-          <p class="account-note">學生帳戶由 EdmundEducation 統一管理；本頁不會建立另一組密碼。</p>
+          <p class="account-note">請輸入您的學生帳戶資料。</p>
         </section>
       </div>
     </section>
@@ -146,6 +146,15 @@
                   <span>Timer 計時器</span>
                   <strong data-writing-timer-toggle-display>00:00:00</strong>
                 </button>
+                <div class="writing-stopwatch" data-writing-stopwatch data-status="idle" aria-label="寫作秒錶">
+                  <span aria-hidden="true">◷</span>
+                  <span class="writing-stopwatch-copy"><small>Stopwatch 秒錶</small><strong data-writing-stopwatch-display>00:00:00</strong></span>
+                  <div class="writing-stopwatch-actions">
+                    <button type="button" data-writing-stopwatch-start>開始</button>
+                    <button type="button" data-writing-stopwatch-pause disabled>暫停</button>
+                    <button type="button" data-writing-stopwatch-reset disabled>重設</button>
+                  </div>
+                </div>
                 <div class="editor-metrics" aria-live="polite">
                   <strong data-word-count>0</strong>
                   <span>words</span>
@@ -189,7 +198,10 @@
               <p>完成一句後才檢查：系統不會在您仍然構思或輸入句子時打斷您。</p>
             </div>
             <p class="form-status submission-status" data-submission-status role="status" aria-live="polite"></p>
-            <button class="primary-button submit-writing-button" type="submit" data-submit-writing>提交文章</button>
+            <div class="writing-save-actions">
+              <button class="secondary-button save-writing-button" type="button" data-save-progress>Save current progress · 儲存目前進度</button>
+              <button class="primary-button submit-writing-button" type="submit" data-submit-writing>提交文章</button>
+            </div>
           </section>
 
           <aside class="grammar-panel glass-panel" aria-labelledby="grammar-panel-title">
@@ -249,6 +261,14 @@
           </details>
         </div>
       </section>
+      <details class="draft-archive-panel glass-panel" open>
+        <summary><span><strong>未完成草稿</strong><small>已安全儲存、可稍後繼續</small></span><em data-draft-count>0</em></summary>
+        <div class="draft-archive-head">
+          <p>草稿與已提交文章分開保存；提交成功後，同一文件編號的草稿會自動移除。</p>
+          <button class="small-button" type="button" data-refresh-drafts>重新整理草稿</button>
+        </div>
+        <div class="draft-list" data-draft-list></div>
+      </details>
       <div class="archive-layout">
         <section class="archive-list-panel glass-panel">
           <div class="section-heading">
@@ -278,7 +298,10 @@
           <h1>我的文法問題記錄</h1>
           <p>即使您已套用建議，系統仍會保留曾經出現過的文法問題種類，幫助您日後針對性溫習。</p>
         </div>
-        <button class="small-button" type="button" data-refresh-grammar-log>重新整理</button>
+        <div class="utility-hero-actions">
+          <button class="small-button" type="button" data-export-grammar-log>匯出全部文法問題 PDF</button>
+          <button class="small-button" type="button" data-refresh-grammar-log>重新整理</button>
+        </div>
       </section>
       <section class="grammar-summary-panel glass-panel">
         <div class="grammar-summary-metrics">
@@ -294,17 +317,27 @@
         <div>
           <p class="eyebrow">ADMIN WRITING ARCHIVE</p>
           <h1>學生文章</h1>
-          <p>查看學生使用共用 EdmundEducation 帳戶提交的文章。</p>
+          <p>選擇學生後，查看其文章及已偵測的文法問題。</p>
         </div>
         <label class="admin-search"><span>搜尋學生或題目</span><input type="search" data-admin-search placeholder="輸入學生名稱或題目"></label>
       </section>
-      <div class="archive-layout">
-        <section class="archive-list-panel glass-panel">
-          <div class="section-heading"><div><p class="eyebrow">STUDENT SUBMISSIONS</p><h2>提交記錄</h2></div><span class="count-badge" data-admin-count>0</span></div>
-          <div class="submission-list" data-admin-list></div>
+      <div class="admin-student-layout">
+        <section class="admin-student-panel glass-panel">
+          <div class="section-heading"><div><p class="eyebrow">STUDENT ACCOUNTS</p><h2>學生帳戶</h2></div><span class="count-badge" data-admin-student-count>0</span></div>
+          <div class="admin-student-list" data-admin-student-list></div>
+        </section>
+        <section class="admin-student-records">
+          <section class="archive-list-panel glass-panel">
+            <div class="section-heading"><div><p class="eyebrow">STUDENT SUBMISSIONS</p><h2>提交記錄</h2></div><span class="count-badge" data-admin-count>0</span></div>
+            <div class="submission-list" data-admin-list></div>
+          </section>
+          <section class="admin-grammar-panel glass-panel">
+            <div class="section-heading"><div><p class="eyebrow">GRAMMAR HISTORY</p><h2>文法問題</h2></div><span class="count-badge" data-admin-grammar-count>0</span></div>
+            <div class="admin-grammar-list" data-admin-grammar-list></div>
+          </section>
         </section>
         <article class="submission-detail glass-panel" data-admin-detail>
-          <div class="utility-empty"><span aria-hidden="true">→</span><h2>選擇一篇學生文章</h2><p>完整題目和文章會在這裡顯示。</p></div>
+          <div class="utility-empty"><span aria-hidden="true">→</span><h2>選擇學生</h2><p>學生文章和文法問題會在這裡顯示。</p></div>
         </article>
       </div>
     </section>
@@ -349,7 +382,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="writing-submission-config.js"></script>
-  <script src="shared-system-nav.js?v=20260810-2"></script>
-  <script type="module" src="writing-submission.js?v=20260810-timer-export1"></script>
+  <script src="shared-system-nav.js?v=20260810-3"></script>
+  <script type="module" src="writing-submission.js?v=20260810-drafts-admin2"></script>
 </body>
 </html>

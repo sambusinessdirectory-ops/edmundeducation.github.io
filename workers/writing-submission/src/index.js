@@ -1,7 +1,5 @@
 import {
   GRAMMAR_AI_ENGINE,
-  GRAMMAR_AI_MODEL,
-  GRAMMAR_AI_REPAIR_MODEL,
   GRAMMAR_AI_VERSION,
   GRAMMAR_AI_FAILURE_KINDS,
   classifyGrammarAiFailure,
@@ -23,6 +21,7 @@ const TEXT_CONTROL_RE = /[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/;
 const MAX_LOGIN_BODY_BYTES = 4096;
 const MAX_GRAMMAR_CHECK_BODY_BYTES = 12 * 1024;
 const MAX_SUBMISSION_BODY_BYTES = 512 * 1024;
+const MAX_DRAFT_BODY_BYTES = 512 * 1024;
 const MAX_ISSUE_BATCH_BODY_BYTES = 512 * 1024;
 const MAX_TOPIC_CHARACTERS = 4000;
 const MAX_TOPIC_BYTES = 16000;
@@ -33,6 +32,7 @@ const MAX_OCCURRENCES_PER_DOCUMENT_RESPONSE = 2000;
 const MAX_GRAMMAR_HISTORY_PAGE_SIZE = 100;
 const MAX_PAGE_SIZE = 100;
 const MAX_ADMIN_PAGE_SIZE = 100;
+const WRITING_IMAGE_ZOOM_TENTHS = new Set([5, 10, 20, 30, 40, 50, 70]);
 const decoder = new TextDecoder("utf-8", { fatal: true });
 const encoder = new TextEncoder();
 
@@ -95,14 +95,11 @@ async function route(request, env) {
         },
         grammarAi: {
           configured: grammarAiConfigured(env),
-          version: GRAMMAR_AI_VERSION,
-          model: GRAMMAR_AI_MODEL,
-          repairModel: GRAMMAR_AI_REPAIR_MODEL
+          version: GRAMMAR_AI_VERSION
         },
         grammarCorpus: {
           version: GRAMMAR_CORPUS_VERSION,
-          approvedSentenceCount: GRAMMAR_CORPUS_SIZE,
-          execution: "worker-bundled"
+          approvedSentenceCount: GRAMMAR_CORPUS_SIZE
         }
       },
       configured ? 200 : 503,
@@ -144,6 +141,19 @@ async function route(request, env) {
   if (url.pathname === "/v1/submissions" && request.method === "GET") {
     return listSubmissions(request, env, url);
   }
+  if (url.pathname === "/v1/drafts" && request.method === "GET") {
+    return listDrafts(request, env, url);
+  }
+  const draftMatch = url.pathname.match(/^\/v1\/drafts\/([0-9a-f-]{36})$/i);
+  if (draftMatch && request.method === "GET") {
+    return getDraft(request, env, draftMatch[1]);
+  }
+  if (draftMatch && request.method === "PUT") {
+    return putDraft(request, env, draftMatch[1]);
+  }
+  if (draftMatch && request.method === "DELETE") {
+    return deleteDraft(request, env, draftMatch[1]);
+  }
   const submissionMatch = url.pathname.match(/^\/v1\/submissions\/([0-9a-f-]{36})$/i);
   if (submissionMatch && request.method === "GET") {
     return getSubmission(request, env, submissionMatch[1]);
@@ -171,6 +181,19 @@ async function route(request, env) {
   if (url.pathname === "/v1/admin/submissions" && request.method === "GET") {
     return listAdminSubmissions(request, env, url);
   }
+  if (url.pathname === "/v1/admin/grammar-problems" && request.method === "GET") {
+    return listAdminGrammarProblems(request, env, url);
+  }
+  if (url.pathname === "/v1/admin/grammar-problem-occurrences" && request.method === "GET") {
+    return listAdminGrammarProblemOccurrences(request, env, url);
+  }
+  const adminOccurrenceMatch = url.pathname.match(/^\/v1\/admin\/grammar-occurrences\/([0-9a-f-]{36})$/i);
+  if (adminOccurrenceMatch && request.method === "DELETE") {
+    return deleteAdminGrammarOccurrence(request, env, adminOccurrenceMatch[1]);
+  }
+  if (url.pathname === "/v1/admin/grammar-problem-category" && request.method === "DELETE") {
+    return deleteAdminGrammarProblemCategory(request, env);
+  }
   if (url.pathname === "/v1/admin/explanation-review" && request.method === "GET") {
     return listAdminExplanationReview(request, env, url);
   }
@@ -197,6 +220,24 @@ function safeErrorMessage(error) {
   const name = String(error.name || "Error").slice(0, 80);
   const message = String(error.message || "").slice(0, 300);
   return `${name}: ${message}`;
+}
+
+function publicGrammarEngine(value, fallbackName = "edmund-advanced-grammar") {
+  const source = value && typeof value === "object" && !Array.isArray(value) ? value : {};
+  const internalName = String(source.name || "");
+  const name = internalName === "edmund-approved-grammar-corpus"
+    ? "edmund-approved-grammar-corpus"
+    : fallbackName;
+  const engine = { name };
+  if (source.version) engine.version = String(source.version).slice(0, 80);
+  return engine;
+}
+
+function publicGrammarIssues(values, fallbackName) {
+  return Array.isArray(values) ? values.map(issue => ({
+    ...issue,
+    engine: publicGrammarEngine(issue?.engine, fallbackName)
+  })) : [];
 }
 
 function securityHeaders() {
@@ -513,14 +554,15 @@ async function grammarCheck(request, env) {
 
   const approvedReview = lookupApprovedExactCorrection(sentence);
   if (approvedReview) {
+    const engine = publicGrammarEngine(approvedReview.engine, "edmund-approved-grammar-corpus");
     return json({
-      engine: approvedReview.engine,
+      engine,
       corpus: {
         version: approvedReview.corpusVersion,
         paragraphId: approvedReview.paragraphId,
         sentenceId: approvedReview.sentenceId
       },
-      issues: approvedReview.issues
+      issues: publicGrammarIssues(approvedReview.issues, engine.name)
     }, 200, request, env);
   }
 
@@ -584,7 +626,8 @@ async function grammarCheck(request, env) {
     );
   }
 
-  return json({ engine: GRAMMAR_AI_ENGINE, issues }, 200, request, env);
+  const engine = publicGrammarEngine(GRAMMAR_AI_ENGINE);
+  return json({ engine, issues: publicGrammarIssues(issues, engine.name) }, 200, request, env);
 }
 
 async function adminLogin(request, env) {
@@ -782,6 +825,233 @@ function normalizeSubmissionPayload(payload) {
   return { topic, answer, wordCount: words, durationSeconds };
 }
 
+function normalizeOptionalWritingText(value, label, maxCharacters, maxBytes) {
+  if (typeof value !== "string") {
+    throw new HttpError(400, "INVALID_DRAFT", `${label} must be text`);
+  }
+  const normalized = value.replace(/\r\n?/g, "\n");
+  if (
+    normalized.length > maxCharacters
+    || utf8Length(normalized) > maxBytes
+    || TEXT_CONTROL_RE.test(normalized)
+  ) {
+    throw new HttpError(400, "INVALID_DRAFT", `${label} is invalid`);
+  }
+  return normalized;
+}
+
+function boundedDraftString(value, label, maximumCharacters, { allowEmpty = false } = {}) {
+  if (typeof value !== "string") {
+    throw new HttpError(400, "INVALID_DRAFT", `${label} must be text`);
+  }
+  const normalized = value.replace(/\r\n?/g, "\n");
+  if (
+    (!allowEmpty && !normalized.trim())
+    || normalized.length > maximumCharacters
+    || utf8Length(normalized) > maximumCharacters * 4
+    || TEXT_CONTROL_RE.test(normalized)
+  ) {
+    throw new HttpError(400, "INVALID_DRAFT", `${label} is invalid`);
+  }
+  return normalized;
+}
+
+function safeWritingPromptImage(value) {
+  const source = String(value || "").trim();
+  if (
+    !source
+    || source.length > 500
+    || source.includes("://")
+    || source.startsWith("//")
+    || source.includes("\\")
+    || source.startsWith("data:")
+    || CONTROL_RE.test(source)
+  ) return "";
+  return source.startsWith("/")
+    || source.startsWith("./")
+    || /^[a-z0-9][a-z0-9_./%()' -]*$/i.test(source)
+    ? source
+    : "";
+}
+
+function normalizeDraftTopicResource(value) {
+  if (value === null) return null;
+  const allowed = new Set([
+    "id", "type", "label", "detail", "sectionKey", "questionPrompt", "questionImages"
+  ]);
+  if (!hasOnlyKeys(value, allowed)) {
+    throw new HttpError(400, "INVALID_DRAFT", "topicResource has an invalid shape");
+  }
+  const id = boundedDraftString(value.id, "topicResource.id", 240);
+  const type = boundedDraftString(value.type, "topicResource.type", 30);
+  const label = boundedDraftString(value.label, "topicResource.label", 500);
+  if (type !== "fill-blanks") {
+    throw new HttpError(400, "INVALID_DRAFT", "topicResource.type is invalid");
+  }
+  const detail = boundedDraftString(
+    value.detail === undefined ? "Writing Practice" : value.detail,
+    "topicResource.detail",
+    300,
+    { allowEmpty: true }
+  );
+  const sectionKey = boundedDraftString(
+    value.sectionKey === undefined ? "" : value.sectionKey,
+    "topicResource.sectionKey",
+    100,
+    { allowEmpty: true }
+  );
+  if (!Array.isArray(value.questionPrompt) || value.questionPrompt.length > 30) {
+    throw new HttpError(400, "INVALID_DRAFT", "topicResource.questionPrompt is invalid");
+  }
+  const questionPrompt = value.questionPrompt.map((line, index) => boundedDraftString(
+    line,
+    `topicResource.questionPrompt[${index}]`,
+    4000,
+    { allowEmpty: true }
+  ));
+  if (!Array.isArray(value.questionImages) || value.questionImages.length > 8) {
+    throw new HttpError(400, "INVALID_DRAFT", "topicResource.questionImages is invalid");
+  }
+  const questionImages = value.questionImages.map((image, index) => {
+    if (!hasExactKeys(image, ["src", "alt"])) {
+      throw new HttpError(400, "INVALID_DRAFT", `topicResource.questionImages[${index}] is invalid`);
+    }
+    const src = safeWritingPromptImage(image.src);
+    if (!src) {
+      throw new HttpError(400, "INVALID_DRAFT", `topicResource.questionImages[${index}].src is invalid`);
+    }
+    return {
+      src,
+      alt: boundedDraftString(
+        image.alt,
+        `topicResource.questionImages[${index}].alt`,
+        300,
+        { allowEmpty: true }
+      )
+    };
+  });
+  return { id, type, label, detail, sectionKey, questionPrompt, questionImages };
+}
+
+function normalizeDraftCountdown(value) {
+  const allowed = new Set([
+    "status", "durationSeconds", "remainingSeconds", "endsAt", "forceSubmit",
+    "autoSubmitAttemptedAt", "autoSubmitError"
+  ]);
+  if (!hasOnlyKeys(value, allowed)) {
+    throw new HttpError(400, "INVALID_DRAFT", "countdown has an invalid shape");
+  }
+  const status = String(value.status || "");
+  if (!new Set(["idle", "running", "paused", "expired"]).has(status)) {
+    throw new HttpError(400, "INVALID_DRAFT", "countdown.status is invalid");
+  }
+  const integer = (candidate, maximum, label) => {
+    const parsed = Number(candidate);
+    if (!Number.isSafeInteger(parsed) || parsed < 0 || parsed > maximum) {
+      throw new HttpError(400, "INVALID_DRAFT", `${label} is invalid`);
+    }
+    return parsed;
+  };
+  return {
+    status,
+    durationSeconds: integer(value.durationSeconds, 43200, "countdown.durationSeconds"),
+    remainingSeconds: integer(value.remainingSeconds, 43200, "countdown.remainingSeconds"),
+    endsAt: integer(value.endsAt, 9007199254740991, "countdown.endsAt"),
+    forceSubmit: value.forceSubmit === true,
+    autoSubmitAttemptedAt: integer(
+      value.autoSubmitAttemptedAt,
+      9007199254740991,
+      "countdown.autoSubmitAttemptedAt"
+    ),
+    autoSubmitError: boundedDraftString(
+      value.autoSubmitError,
+      "countdown.autoSubmitError",
+      300,
+      { allowEmpty: true }
+    )
+  };
+}
+
+function normalizeDraftStopwatch(value) {
+  if (!hasExactKeys(value, ["status", "accumulatedMilliseconds", "startedAt"])) {
+    throw new HttpError(400, "INVALID_DRAFT", "stopwatch has an invalid shape");
+  }
+  const status = String(value.status || "");
+  if (!new Set(["idle", "running", "paused"]).has(status)) {
+    throw new HttpError(400, "INVALID_DRAFT", "stopwatch.status is invalid");
+  }
+  const accumulatedMilliseconds = Number(value.accumulatedMilliseconds);
+  const startedAt = Number(value.startedAt);
+  if (
+    !Number.isSafeInteger(accumulatedMilliseconds)
+    || accumulatedMilliseconds < 0
+    || accumulatedMilliseconds > 31536000000
+    || !Number.isSafeInteger(startedAt)
+    || startedAt < 0
+  ) {
+    throw new HttpError(400, "INVALID_DRAFT", "stopwatch timing is invalid");
+  }
+  return { status, accumulatedMilliseconds, startedAt };
+}
+
+function normalizeDraftPayload(payload) {
+  const keys = [
+    "topic", "answer", "topicResource", "imageZoom", "countdown", "stopwatch",
+    "durationSeconds"
+  ];
+  if (!hasExactKeys(payload, keys)) {
+    throw new HttpError(400, "INVALID_DRAFT", "Draft payload has an invalid shape");
+  }
+  const topic = normalizeOptionalWritingText(payload.topic, "topic", MAX_TOPIC_CHARACTERS, MAX_TOPIC_BYTES);
+  const answer = normalizeOptionalWritingText(payload.answer, "answer", MAX_ANSWER_CHARACTERS, MAX_ANSWER_BYTES);
+  if (!topic.trim() && !answer.trim()) {
+    throw new HttpError(400, "INVALID_DRAFT", "A draft needs a topic or writing content");
+  }
+  const imageZoomTenths = Math.round(Number(payload.imageZoom) * 10);
+  if (!Number.isFinite(Number(payload.imageZoom)) || !WRITING_IMAGE_ZOOM_TENTHS.has(imageZoomTenths)) {
+    throw new HttpError(400, "INVALID_DRAFT", "imageZoom is invalid");
+  }
+  const durationSeconds = Number(payload.durationSeconds);
+  if (!Number.isSafeInteger(durationSeconds) || durationSeconds < 0 || durationSeconds > 31536000) {
+    throw new HttpError(400, "INVALID_DRAFT", "durationSeconds is invalid");
+  }
+  return {
+    topic,
+    answer,
+    topicResource: normalizeDraftTopicResource(payload.topicResource),
+    imageZoomTenths,
+    countdown: normalizeDraftCountdown(payload.countdown),
+    stopwatch: normalizeDraftStopwatch(payload.stopwatch),
+    durationSeconds
+  };
+}
+
+function draftResponse(row) {
+  const response = {
+    id: String(row.id || ""),
+    topic: String(row.topic || ""),
+    answerPreview: String(row.answer_preview || ""),
+    wordCount: Number(row.word_count || 0),
+    durationSeconds: Number(row.duration_seconds || 0),
+    imageZoom: Number(row.image_zoom_tenths || 10) / 10,
+    createdAt: String(row.created_at || ""),
+    updatedAt: String(row.updated_at || "")
+  };
+  if (Object.prototype.hasOwnProperty.call(row, "answer")) response.answer = String(row.answer || "");
+  if (Object.prototype.hasOwnProperty.call(row, "topic_resource")) {
+    response.topicResource = row.topic_resource && typeof row.topic_resource === "object"
+      ? row.topic_resource
+      : null;
+  }
+  if (Object.prototype.hasOwnProperty.call(row, "countdown_state")) {
+    response.countdown = row.countdown_state;
+  }
+  if (Object.prototype.hasOwnProperty.call(row, "stopwatch_state")) {
+    response.stopwatch = row.stopwatch_state;
+  }
+  return response;
+}
+
 function submissionResponse(row) {
   const response = {
     id: String(row.id || ""),
@@ -855,6 +1125,85 @@ async function listSubmissions(request, env, url) {
   }, 200, request, env);
 }
 
+async function listDrafts(request, env, url) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const { page, pageSize, offset } = pageParameters(url, MAX_PAGE_SIZE);
+  const rows = await rpc(env, "writing_submission_list_drafts", {
+    p_student_id: student.id,
+    p_limit: pageSize + 1,
+    p_offset: offset
+  });
+  if (!Array.isArray(rows)) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Draft history returned an invalid response");
+  }
+  const hasMore = rows.length > pageSize;
+  return json({
+    drafts: rows.slice(0, pageSize).map(draftResponse),
+    page,
+    pageSize,
+    hasMore
+  }, 200, request, env);
+}
+
+async function getDraft(request, env, draftId) {
+  if (!UUID_RE.test(draftId)) throw new HttpError(404, "DRAFT_NOT_FOUND", "Draft not found");
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const row = singleRow(await rpc(env, "writing_submission_get_draft", {
+    p_student_id: student.id,
+    p_id: draftId.toLowerCase()
+  }));
+  if (!row) throw new HttpError(404, "DRAFT_NOT_FOUND", "Draft not found");
+  return json({ draft: draftResponse(row) }, 200, request, env);
+}
+
+async function putDraft(request, env, draftId) {
+  if (!UUID_RE.test(draftId)) throw new HttpError(404, "DRAFT_NOT_FOUND", "Draft not found");
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-draft:${student.id}`,
+    "Draft saving is temporarily unavailable",
+    "TOO_MANY_DRAFT_WRITES",
+    "Too many draft updates; please wait and try again"
+  );
+  const payload = normalizeDraftPayload(await readLimitedJson(request, MAX_DRAFT_BODY_BYTES));
+  const row = singleRow(await rpc(env, "writing_submission_save_draft", {
+    p_id: draftId.toLowerCase(),
+    p_student_id: student.id,
+    p_topic: payload.topic,
+    p_answer: payload.answer,
+    p_topic_resource: payload.topicResource,
+    p_image_zoom_tenths: payload.imageZoomTenths,
+    p_countdown_state: payload.countdown,
+    p_stopwatch_state: payload.stopwatch,
+    p_duration_seconds: payload.durationSeconds
+  }));
+  if (!row) throw new HttpError(409, "DRAFT_NOT_SAVED", "Draft could not be saved");
+  return json({ draft: draftResponse(row) }, 200, request, env);
+}
+
+async function deleteDraft(request, env, draftId) {
+  if (!UUID_RE.test(draftId)) throw new HttpError(404, "DRAFT_NOT_FOUND", "Draft not found");
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-draft-delete:${student.id}`,
+    "Draft deletion is temporarily unavailable",
+    "TOO_MANY_DRAFT_WRITES",
+    "Too many draft updates; please wait and try again"
+  );
+  const deleted = Number(await rpc(env, "writing_submission_delete_draft", {
+    p_student_id: student.id,
+    p_id: draftId.toLowerCase()
+  }));
+  if (deleted !== 1) throw new HttpError(404, "DRAFT_NOT_FOUND", "Draft not found");
+  return emptyResponse(204, request, env);
+}
+
 async function getSubmission(request, env, submissionId) {
   if (!UUID_RE.test(submissionId)) {
     throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
@@ -897,7 +1246,7 @@ async function putSubmission(request, env, submissionId) {
   const payload = normalizeSubmissionPayload(
     await readLimitedJson(request, MAX_SUBMISSION_BODY_BYTES)
   );
-  const row = singleRow(await rpc(env, "writing_submission_submit_v2", {
+  const row = singleRow(await rpc(env, "writing_submission_submit_v3", {
     p_id: submissionId.toLowerCase(),
     p_student_id: student.id,
     p_topic: payload.topic,
@@ -1224,6 +1573,128 @@ async function listAdminStudents(request, env) {
       lastSubmissionAt: row.last_submission_at ? String(row.last_submission_at) : null
     }))
   }, 200, request, env);
+}
+
+function adminStudentParameter(url) {
+  const studentId = String(url.searchParams.get("studentId") || "").toLowerCase();
+  if (!UUID_RE.test(studentId)) {
+    throw new HttpError(400, "INVALID_STUDENT", "studentId is invalid");
+  }
+  return studentId;
+}
+
+async function listAdminGrammarProblems(request, env, url) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  const studentId = adminStudentParameter(url);
+  const rows = await rpc(env, "writing_submission_admin_problem_summary", {
+    p_admin_token: admin.token,
+    p_student_id: studentId
+  });
+  if (!Array.isArray(rows)) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Admin grammar summary returned an invalid response");
+  }
+  return json({
+    grammarProblems: rows.map(row => ({
+      ruleId: String(row.rule_id || ""),
+      title: String(row.title || ""),
+      occurrenceCount: Number(row.occurrence_count || 0),
+      firstSeenAt: String(row.first_seen_at || ""),
+      lastSeenAt: String(row.last_seen_at || "")
+    }))
+  }, 200, request, env);
+}
+
+async function listAdminGrammarProblemOccurrences(request, env, url) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  const studentId = adminStudentParameter(url);
+  const ruleId = grammarRuleParameter(url);
+  const { page, pageSize, offset } = pageParameters(url, MAX_GRAMMAR_HISTORY_PAGE_SIZE);
+  const rows = await rpc(env, "writing_submission_admin_problem_occurrences", {
+    p_admin_token: admin.token,
+    p_student_id: studentId,
+    p_rule_id: ruleId,
+    p_limit: pageSize + 1,
+    p_offset: offset
+  });
+  if (!Array.isArray(rows)) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Admin grammar history returned an invalid response");
+  }
+  const hasMore = rows.length > pageSize;
+  return json({
+    grammarOccurrences: rows.slice(0, pageSize).map(occurrenceResponse),
+    page,
+    pageSize,
+    hasMore
+  }, 200, request, env);
+}
+
+function normalizeAdminDeletePayload(payload, expectedKeys) {
+  if (!hasExactKeys(payload, expectedKeys) || payload.confirmation !== "DELETE") {
+    throw new HttpError(400, "DELETE_CONFIRMATION_REQUIRED", "Explicit deletion confirmation is required");
+  }
+  const studentId = String(payload.studentId || "").toLowerCase();
+  if (!UUID_RE.test(studentId)) {
+    throw new HttpError(400, "INVALID_STUDENT", "studentId is invalid");
+  }
+  return studentId;
+}
+
+async function deleteAdminGrammarOccurrence(request, env, occurrenceId) {
+  if (!UUID_RE.test(occurrenceId)) {
+    throw new HttpError(404, "GRAMMAR_OCCURRENCE_NOT_FOUND", "Grammar occurrence not found");
+  }
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-admin-grammar-delete:${admin.id}`,
+    "Grammar deletion is temporarily unavailable",
+    "TOO_MANY_ADMIN_WRITES",
+    "Too many administrator updates; please wait and try again"
+  );
+  const payload = await readLimitedJson(request, MAX_LOGIN_BODY_BYTES);
+  const studentId = normalizeAdminDeletePayload(payload, ["studentId", "confirmation"]);
+  const deleted = Number(await rpc(env, "writing_submission_admin_delete_occurrence", {
+    p_admin_token: admin.token,
+    p_student_id: studentId,
+    p_occurrence_id: occurrenceId.toLowerCase()
+  }));
+  if (deleted !== 1) {
+    throw new HttpError(404, "GRAMMAR_OCCURRENCE_NOT_FOUND", "Grammar occurrence not found");
+  }
+  return emptyResponse(204, request, env);
+}
+
+async function deleteAdminGrammarProblemCategory(request, env) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-admin-grammar-delete:${admin.id}`,
+    "Grammar deletion is temporarily unavailable",
+    "TOO_MANY_ADMIN_WRITES",
+    "Too many administrator updates; please wait and try again"
+  );
+  const payload = await readLimitedJson(request, MAX_LOGIN_BODY_BYTES);
+  const studentId = normalizeAdminDeletePayload(
+    payload,
+    ["studentId", "ruleId", "confirmation"]
+  );
+  const ruleId = String(payload.ruleId || "");
+  if (!ruleId || ruleId.length > 120 || utf8Length(ruleId) > 480 || CONTROL_RE.test(ruleId)) {
+    throw new HttpError(400, "INVALID_GRAMMAR_RULE", "ruleId is invalid");
+  }
+  const deleted = Number(await rpc(env, "writing_submission_admin_delete_problem_category", {
+    p_admin_token: admin.token,
+    p_student_id: studentId,
+    p_rule_id: ruleId
+  }));
+  if (deleted < 1) {
+    throw new HttpError(404, "GRAMMAR_PROBLEM_NOT_FOUND", "Grammar problem category not found");
+  }
+  return json({ deletedCount: deleted }, 200, request, env);
 }
 
 async function listAdminSubmissions(request, env, url) {
