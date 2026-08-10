@@ -60,6 +60,7 @@ const htmlPages = [
   "synonyms-system.html",
   "thematic-vocabulary-system.html",
   "translation-skills-system.html",
+  "video-class.html",
   "vs.html",
   "writing-practice.html",
   "writing-submission.html"

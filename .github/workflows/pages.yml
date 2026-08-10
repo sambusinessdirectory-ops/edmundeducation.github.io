@@ -170,6 +170,9 @@ jobs:
           node --test tools/test-apostrophe-normalizer.mjs
           node tools/test-pwa-and-brand-metadata.mjs
 
+      - name: Validate Video Class portal, permissions, and protected range delivery
+        run: node tools/test-video-class.mjs
+
       - name: Validate Writing Submission portal and self-hosted grammar engine
         run: |
           node grammar-corpus/validate-and-generate.mjs

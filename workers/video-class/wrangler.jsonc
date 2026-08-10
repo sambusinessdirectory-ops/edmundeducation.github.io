@@ -1,0 +1,37 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "edmund-video-class",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-10",
+  "workers_dev": true,
+  "preview_urls": false,
+  "r2_buckets": [
+    {
+      "binding": "VIDEO_CLASSES",
+      "bucket_name": "edmund-video-classes-private"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "STUDENT_LOGIN_RATE_LIMITER",
+      "namespace_id": "914072027",
+      "simple": {
+        "limit": 10,
+        "period": 60
+      }
+    },
+    {
+      "name": "ADMIN_LOGIN_RATE_LIMITER",
+      "namespace_id": "914072028",
+      "simple": {
+        "limit": 5,
+        "period": 60
+      }
+    }
+  ],
+  "vars": {
+    "ALLOWED_ORIGIN": "https://edmundeducation.com",
+    "SUPABASE_URL": "https://ookkxzgpdclzrrhfmvqx.supabase.co",
+    "SUPABASE_ANON_KEY": "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x"
+  }
+}
