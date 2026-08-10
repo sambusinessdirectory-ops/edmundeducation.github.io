@@ -20,8 +20,8 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260803-grammar-history1">
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
+  <link rel="stylesheet" href="writing-submission.css?v=20260810-timer-export1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-2">
 </head>
 <body>
   <a class="skip-link" href="#writing-submission-main">跳至主要內容</a>
@@ -140,11 +140,46 @@
                 <p class="eyebrow">WRITING AREA</p>
                 <h2>文章內容</h2>
               </div>
-              <div class="editor-metrics" aria-live="polite">
-                <strong data-word-count>0</strong>
-                <span>words</span>
+              <div class="editor-heading-tools">
+                <button class="writing-timer-toggle" type="button" data-writing-timer-toggle aria-expanded="false" aria-controls="writing-timer-panel">
+                  <span aria-hidden="true">⏱</span>
+                  <span>Timer 計時器</span>
+                  <strong data-writing-timer-toggle-display>00:00:00</strong>
+                </button>
+                <div class="editor-metrics" aria-live="polite">
+                  <strong data-word-count>0</strong>
+                  <span>words</span>
+                </div>
               </div>
             </div>
+            <section class="writing-timer-panel" id="writing-timer-panel" data-writing-timer-panel hidden aria-labelledby="writing-timer-title">
+              <div class="writing-timer-head">
+                <div>
+                  <p class="eyebrow">COUNTDOWN TIMER</p>
+                  <h3 id="writing-timer-title">寫作倒數計時器</h3>
+                </div>
+                <strong class="writing-timer-display" data-writing-timer-display aria-live="off">00:00:00</strong>
+              </div>
+              <div class="writing-timer-settings">
+                <fieldset class="writing-timer-duration">
+                  <legend>設定時間</legend>
+                  <label><span>小時</span><input type="number" min="0" max="12" step="1" inputmode="numeric" value="0" data-writing-timer-hours></label>
+                  <label><span>分鐘</span><input type="number" min="0" max="59" step="1" inputmode="numeric" value="40" data-writing-timer-minutes></label>
+                  <label><span>秒</span><input type="number" min="0" max="59" step="1" inputmode="numeric" value="0" data-writing-timer-seconds></label>
+                </fieldset>
+                <label class="writing-timer-force-option">
+                  <input type="checkbox" data-writing-timer-force>
+                  <span><strong>時間到自動提交</strong><small>可選；倒數完結時以同一文件編號安全提交，避免重複文章。</small></span>
+                </label>
+              </div>
+              <div class="writing-timer-actions">
+                <button class="small-button writing-timer-primary" type="button" data-writing-timer-start>開始倒數</button>
+                <button class="small-button" type="button" data-writing-timer-pause disabled>暫停</button>
+                <button class="small-button" type="button" data-writing-timer-reset disabled>重設</button>
+                <button class="small-button writing-timer-retry" type="button" data-writing-timer-retry hidden>重試自動提交</button>
+              </div>
+              <p class="writing-timer-status" data-writing-timer-status role="status" aria-live="polite">尚未開始倒數。</p>
+            </section>
             <label class="writing-field writing-field-main">
               <span class="sr-only">文章內容</span>
               <textarea data-writing-input rows="15" maxlength="100000" spellcheck="true" placeholder="請在這裡開始寫作。文法偵測只會在您輸入句號（.）或分號（;）完成一句後開始。"></textarea>
@@ -219,6 +254,14 @@
           <div class="section-heading">
             <div><p class="eyebrow">SUBMISSIONS</p><h2>提交記錄</h2></div>
             <button class="small-button" type="button" data-refresh-submissions>重新整理</button>
+          </div>
+          <div class="submission-export-toolbar" data-submission-export-toolbar>
+            <label class="submission-select-all"><input type="checkbox" data-export-select-all><span>全選全部文章</span></label>
+            <span class="submission-export-count" data-export-selected-count>已選 0 篇</span>
+            <div class="submission-export-actions">
+              <button class="small-button" type="button" data-export-selected-submissions disabled>匯出已選</button>
+              <button class="small-button" type="button" data-export-all-submissions>匯出全部</button>
+            </div>
           </div>
           <div class="submission-list" data-submission-list></div>
         </section>
@@ -306,7 +349,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="writing-submission-config.js"></script>
-  <script src="shared-system-nav.js?v=20260809-2"></script>
-  <script type="module" src="writing-submission.js?v=20260803-grammar-history1"></script>
+  <script src="shared-system-nav.js?v=20260810-2"></script>
+  <script type="module" src="writing-submission.js?v=20260810-timer-export1"></script>
 </body>
 </html>

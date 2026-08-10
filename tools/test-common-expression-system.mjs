@@ -110,7 +110,17 @@ function assertNoCurlyApostrophes(value, path = "catalogue") {
 function javascriptFunctionSource(source, name) {
   const start = source.indexOf(`function ${name}(`);
   assert.notEqual(start, -1, `missing named helper function ${name}`);
-  const brace = source.indexOf("{", start);
+  const parameters = source.indexOf("(", start);
+  let parameterDepth = 0;
+  let parameterEnd = -1;
+  for (let index = parameters; index < source.length; index += 1) {
+    if (source[index] === "(") parameterDepth += 1;
+    if (source[index] === ")") {
+      parameterDepth -= 1;
+      if (parameterDepth === 0) { parameterEnd = index; break; }
+    }
+  }
+  const brace = source.indexOf("{", parameterEnd);
   assert.notEqual(brace, -1, `${name}: missing function body`);
   let depth = 0;
   let quote = "";
@@ -171,13 +181,13 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /name=["']apple-mobile-web-app-capable["'] content=["']yes["']/,
       /href=["']\/pwa-ui\.css["']/,
       /src=["']\/pwa-register\.js["']/,
-      /common-expression-system\.css\?v=20260809-1/,
+      /common-expression-system\.css\?v=20260810-1/,
       /common-expression-system-config\.js\?v=20260809-1/,
       /common-expression-system-data\.js\?v=20260809-2/,
       /common-expression-system-imported-data\.js\?v=20260809-2/,
-      /common-expression-system\.js\?v=20260809-1/,
-      /shared-system-nav\.css\?v=20260809-2/,
-      /shared-system-nav\.js\?v=20260809-2/
+      /common-expression-system\.js\?v=20260810-1/,
+      /shared-system-nav\.css\?v=20260810-2/,
+      /shared-system-nav\.js\?v=20260810-2/
     ]) assert.match(html, contract, `${portal.file}: missing required portal asset or PWA contract`);
 
     const csp = html.match(/http-equiv=["']Content-Security-Policy["'] content="([^"]+)"/i)?.[1] || "";
@@ -193,7 +203,7 @@ test("all six Common Expression portals carry their identity, shared navigation 
 
     const baseDataIndex = html.indexOf("common-expression-system-data.js?v=20260809-2");
     const importedDataIndex = html.indexOf("common-expression-system-imported-data.js?v=20260809-2");
-    const engineIndex = html.indexOf("common-expression-system.js?v=20260809-1");
+    const engineIndex = html.indexOf("common-expression-system.js?v=20260810-1");
     assert.ok(baseDataIndex < importedDataIndex, `${portal.file}: base catalogue must load before imported lessons`);
     assert.ok(importedDataIndex < engineIndex, `${portal.file}: imported lessons must load before the module engine`);
   }
@@ -337,6 +347,43 @@ test("the frontend uses the shared Flashcard login token and the three bounded C
   assert.doesNotMatch(engine, /service_role|SUPABASE_SERVICE|secret[_-]?key/i, "browser code must never contain a server secret");
 });
 
+test("all Common Expression interfaces use the requested two-line title and one-page partial/all submission", () => {
+  const engine = read("common-expression-system.js");
+  assert.match(engine, /Common Expression<br><span[^>]*>常用語\$\{escapeHtml\(SYSTEM\.titleZh\)\} \$\{escapeHtml\(SYSTEM\.titleEn\)\}/, "title must break after Common Expression and keep the section on line two");
+  assert.match(engine, /data-question-list/);
+  assert.match(engine, /lesson\.questions\.map\(\(question, index\)/, "all 20/30 questions render from the complete lesson array");
+  assert.doesNotMatch(engine, /questionIndex/, "the legacy one-question pager must be removed");
+  assert.match(engine, /data-save-drafts/);
+  assert.match(engine, /data-submit-partial/);
+  assert.match(engine, /data-submit-all/);
+  const submit = javascriptFunctionSource(engine, "submitAnswers");
+  assert.match(submit, /targets/);
+  assert.match(submit, /acceptedAnswers/);
+  assert.match(submit, /persistLessonState\s*\(\s*lesson\.id/);
+  assert.match(submit, /addLocalQuestionCompletion/);
+  assert.match(javascriptFunctionSource(engine, "updateDraftsFromFields"), /checkedAnswer/, "edited drafts must not display feedback for an older answer");
+});
+
+test("the Common Expression dashboard has persistent question and time charts plus a full-dashboard link", () => {
+  const engine = read("common-expression-system.js");
+  assert.match(engine, /data-toggle-progress/);
+  assert.match(engine, /data-question-chart/);
+  assert.match(engine, /data-time-chart/);
+  assert.match(engine, /student-progress\.html/);
+  assert.match(engine, /PROGRESS_PANEL_PREFERENCE_KEY/);
+  assert.match(engine, /CUMULATIVE_PROGRESS_PREFERENCE_KEY/);
+  assert.match(engine, /localStorage\.setItem\(userPreferenceKey/);
+  assert.match(engine, /\["week", "Week"\]/);
+  assert.match(engine, /\["month", "Month"\]/);
+  assert.match(engine, /\["half-year", "Half a Year"\]/);
+  assert.match(engine, /\["ytd", "Year to Date"\]/);
+  assert.match(engine, /\["year", "1 Year"\]/);
+  assert.match(engine, /\["all", "All Time"\]/);
+  assert.match(javascriptFunctionSource(engine, "progressChartSvg"), /data-common-\$\{type\}-day/);
+  assert.match(javascriptFunctionSource(engine, "renderProgressDashboard"), /questionProgressSeries/);
+  assert.match(javascriptFunctionSource(engine, "renderProgressDashboard"), /timeProgressSeries/);
+});
+
 test("the homepage exposes the requested six three-line portal cards", () => {
   const homepage = read("index.html");
   const expectations = [
@@ -370,9 +417,13 @@ test("the Supabase migration isolates per-student data behind closed, token-deri
 
   assert.match(lower, /create table(?: if not exists)? public\.common_expression_lesson_states/);
   assert.match(lower, /create table(?: if not exists)? public\.common_expression_bookmarks/);
+  assert.match(lower, /create table(?: if not exists)? public\.common_expression_question_completions/);
+  assert.match(lower, /create table(?: if not exists)? public\.common_expression_time_activity_days/);
   assert.match(lower, /alter table public\.common_expression_lesson_states enable row level security/);
   assert.match(lower, /alter table public\.common_expression_bookmarks enable row level security/);
-  for (const table of ["common_expression_lesson_states", "common_expression_bookmarks"]) {
+  assert.match(lower, /alter table public\.common_expression_question_completions enable row level security/);
+  assert.match(lower, /alter table public\.common_expression_time_activity_days enable row level security/);
+  for (const table of ["common_expression_lesson_states", "common_expression_bookmarks", "common_expression_question_completions", "common_expression_time_activity_days"]) {
     assert.match(lower, new RegExp(`revoke all on (?:table )?public\\.${table}[\\s\\S]{0,120}?from public, anon, authenticated`));
   }
 
@@ -394,7 +445,22 @@ test("the Supabase migration isolates per-student data behind closed, token-deri
   assert.match(lower, /octet_length\(p_state::text\)|length\(p_state::text\)/, "state payload size must be bounded");
   assert.match(lower, /p_duration_ms\s*(?:<|between)/, "duration input must be bounded");
   assert.match(lower, /p_lesson_id[^;]{0,220}(?:~|length|char_length)/s, "lesson ids must be validated before persistence");
-  assert.doesNotMatch(lower, /grant\s+(?:all|select|insert|update|delete)[^;]+common_expression_(?:lesson_states|bookmarks)[^;]+to\s+(?:anon|authenticated)/, "clients only receive RPC execution, never direct table access");
+  assert.doesNotMatch(lower, /grant\s+(?:all|select|insert|update|delete)[^;]+common_expression_(?:lesson_states|bookmarks|question_completions|time_activity_days)[^;]+to\s+(?:anon|authenticated)/, "clients only receive RPC execution, never direct table access");
+  const snapshot = sqlFunctionSource(sql, "common_expression_student_snapshot");
+  assert.match(snapshot, /questionActivity/);
+  assert.match(snapshot, /timeActivity/);
+  const save = sqlFunctionSource(sql, "common_expression_save_lesson_state");
+  assert.match(save, /pg_advisory_xact_lock/, "concurrent first saves need a lesson-scoped lock");
+  assert.match(save, /v_duration_delta_ms/);
+  assert.match(save, /common_expression_question_completions/);
+  assert.match(save, /common_expression_time_activity_days/);
+  assert.match(save, /Asia\/Hong_Kong/);
+  assert.match(save, /answer\.value\s*->\s*'attempts'/, "first checked submissions count exactly once, matching the established learning dashboards");
+  assert.doesNotMatch(save, /answer\.value\s*->>\s*'correct'\)\s*::boolean/, "a submitted answer awaiting correction must not disappear from question activity");
+  assert.match(lower, /checkedanswer/, "draft answers retain the last submitted text without weakening validation");
+  const lessonMatcher = sqlFunctionSource(sql, "_common_expression_state_matches_lesson");
+  assert.match(lessonMatcher, /v_expected_question_prefix/);
+  assert.match(lessonMatcher, /v_question_id\s+not like\s+v_expected_question_prefix/, "a handcrafted question id must belong to the selected lesson");
 });
 
 test("RFC3339 timestamps accept Supabase +00:00 offsets and are normalized before comparison", () => {
@@ -497,7 +563,7 @@ test("dirty local lesson states survive failures and retry on recovery, pagehide
   assert.match(snapshotRecovery, /dirtyLessonIds/);
   assert.match(snapshotRecovery, /retryDirtyLessonStates\s*\(/, "recovered dirty states must retry automatically");
 
-  const answerHandler = javascriptFunctionSource(engine, "checkAnswer");
+  const answerHandler = javascriptFunctionSource(engine, "submitAnswers");
   assert.match(answerHandler, /markLessonDirty\s*\(\s*lesson\.id/);
   assert.ok(answerHandler.indexOf("markLessonDirty") < answerHandler.indexOf("persistLessonState"), "mark dirty before attempting the network save");
   const persistence = javascriptFunctionSource(engine, "persistLessonState");

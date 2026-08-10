@@ -145,8 +145,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260803-grammar-history1/);
-  assert.match(html, /writing-submission\.js\?v=20260803-grammar-history1/);
+  assert.match(html, /writing-submission\.css\?v=20260810-timer-export1/);
+  assert.match(html, /writing-submission\.js\?v=20260810-timer-export1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260803-grammar-progress1/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -169,6 +169,24 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /script-src 'self' 'wasm-unsafe-eval' https:\/\/cdn\.jsdelivr\.net/);
   assert.match(html, /worker-src 'self' blob:/);
   assert.doesNotMatch(script, /(?:unpkg|esm\.sh|cdn\.jsdelivr)\./i);
+});
+
+test("countdown and student-owned composition exports are fully wired", () => {
+  assert.match(html, /data-writing-timer-toggle/);
+  assert.match(html, /data-writing-timer-force/);
+  assert.match(html, /時間到自動提交/);
+  assert.match(html, /data-export-selected-submissions/);
+  assert.match(html, /data-export-all-submissions/);
+  assert.match(script, /writingTimer:\s*normalizeWritingTimer\(value\.writingTimer\)/);
+  assert.match(script, /submissionPromise/);
+  assert.match(script, /submitCurrentWriting\(\{ source: "timer" \}\)/);
+  assert.match(script, /method:\s*"PUT"/);
+  assert.match(script, /\/v1\/submissions\/\$\{encodeURIComponent\(normalizedId\)\}/);
+  assert.match(script, /exportStudentSubmissions\(state\.submissions\.map/);
+  assert.match(script, /列印／儲存為 PDF/);
+  assert.doesNotMatch(script, /\/v1\/admin\/submissions\/\$\{encodeURIComponent\(normalizedId\)\}/);
+  assert.match(css, /\.writing-timer-panel/);
+  assert.match(css, /\.submission-export-toolbar/);
 });
 
 test("writing preferences, topic selection, timing, progress and recoverable deletion are wired", () => {

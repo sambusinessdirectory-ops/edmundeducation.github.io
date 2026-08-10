@@ -1812,6 +1812,122 @@
       text-shadow: 0 2px 0 rgba(28,20,78,0.26), 0 9px 18px rgba(28,20,78,0.26);
     }
 
+    .parent-communication-card {
+      --category-key-lip: #805d91;
+      --category-key-shadow: rgba(76, 48, 94, .28);
+      color: #402c50;
+      border-color: rgba(128, 93, 145, .36);
+      background:
+        radial-gradient(circle at 20% 22%, rgba(255,255,255,.86) 0 25px, transparent 26px),
+        radial-gradient(circle at 80% 22%, rgba(255,255,255,.86) 0 25px, transparent 26px),
+        linear-gradient(135deg, #f8e8ff 0%, #edd8f5 50%, #d8e8ff 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,.86),
+        inset 0 -8px 0 rgba(99,72,118,.12),
+        0 8px 0 #805d91,
+        0 22px 34px rgba(76,48,94,.22);
+    }
+
+    .parent-communication-card::before {
+      color: rgba(64,44,80,.30);
+      text-shadow: none;
+    }
+
+    .parent-communication-card::after {
+      content: "↔";
+      display: grid;
+      place-items: center;
+      right: 50%;
+      bottom: clamp(19px, 1.4vw, 25px);
+      width: clamp(38px, 2.7vw, 48px);
+      height: clamp(38px, 2.7vw, 48px);
+      border: 2px solid rgba(64,44,80,.22);
+      border-radius: 50%;
+      color: #67487a;
+      background: rgba(255,255,255,.72);
+      box-shadow: 0 8px 18px rgba(76,48,94,.16);
+      font-size: clamp(20px, 1.4vw, 26px);
+      font-weight: 900;
+      transform: translateX(50%);
+      opacity: 1;
+    }
+
+    .parent-communication-card:hover,
+    .parent-communication-card:focus-visible {
+      background:
+        radial-gradient(circle at 20% 22%, rgba(255,255,255,.94) 0 25px, transparent 26px),
+        radial-gradient(circle at 80% 22%, rgba(255,255,255,.94) 0 25px, transparent 26px),
+        linear-gradient(135deg, #f5ddff 0%, #e7ccf2 50%, #cee1ff 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,.92),
+        inset 0 -8px 0 rgba(99,72,118,.14),
+        0 12px 0 #805d91,
+        0 30px 46px rgba(76,48,94,.29);
+    }
+
+    .parent-communication-card .category-name {
+      margin-top: clamp(38px, 3vw, 50px);
+      color: #402c50;
+      font-size: clamp(20px, 1.2vw, 25px);
+      line-height: 1.1;
+      text-shadow: 0 1px 0 rgba(255,255,255,.72);
+    }
+
+    .listening-system-card {
+      --category-key-lip: #125e69;
+      --category-key-shadow: rgba(10, 74, 84, .30);
+      color: #effeff;
+      border-color: rgba(220,255,255,.52);
+      background:
+        repeating-radial-gradient(ellipse at 79% 48%, transparent 0 9px, rgba(255,255,255,.16) 10px 12px, transparent 13px 21px),
+        radial-gradient(circle at 20% 18%, rgba(255,255,255,.30), transparent 34%),
+        linear-gradient(135deg, #123d68 0%, #127b80 52%, #45b8a7 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,.58),
+        inset 0 -9px 0 rgba(5,55,65,.22),
+        0 8px 0 #125e69,
+        0 22px 34px rgba(10,74,84,.25);
+    }
+
+    .listening-system-card::before { color: rgba(255,255,255,.48); }
+
+    .listening-system-card::after {
+      content: "♪";
+      display: grid;
+      place-items: center;
+      right: clamp(20px, 1.6vw, 28px);
+      bottom: clamp(20px, 1.6vw, 28px);
+      width: clamp(46px, 3.3vw, 60px);
+      height: clamp(46px, 3.3vw, 60px);
+      border: 3px solid rgba(255,255,255,.80);
+      border-radius: 50%;
+      color: #effeff;
+      background: rgba(7,59,80,.28);
+      box-shadow: 0 0 0 7px rgba(255,255,255,.10), 0 12px 24px rgba(6,48,58,.24);
+      font-size: clamp(27px, 2vw, 38px);
+      opacity: 1;
+    }
+
+    .listening-system-card:hover,
+    .listening-system-card:focus-visible {
+      background:
+        repeating-radial-gradient(ellipse at 79% 48%, transparent 0 9px, rgba(255,255,255,.21) 10px 12px, transparent 13px 21px),
+        radial-gradient(circle at 20% 18%, rgba(255,255,255,.36), transparent 34%),
+        linear-gradient(135deg, #10365d 0%, #0f7076 52%, #39aa9a 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,.64),
+        inset 0 -9px 0 rgba(5,55,65,.24),
+        0 12px 0 #125e69,
+        0 30px 46px rgba(10,74,84,.32);
+    }
+
+    .listening-system-card .category-name {
+      max-width: 78%;
+      font-size: clamp(21px, 1.24vw, 27px);
+      line-height: 1.1;
+      text-shadow: 0 2px 0 rgba(5,55,65,.34), 0 9px 18px rgba(5,55,65,.26);
+    }
+
     .model-essay-card .category-name {
       font-size: clamp(24px, 1.38vw, 29px);
       line-height: 1.08;
@@ -2538,8 +2654,8 @@
           <span class="category-name">IELTS (雅思),<br>DSE 英文文憑試,<br>CRE 公務員英考<br>備試資源站！</span>
         </a>
 
-        <a class="category flashcard-card" href="flashcards.html">
-          <span class="category-name">學生 Flashcard<br>學習卡系統</span>
+        <a class="category schedule-system-card" href="schedule-system.html" aria-label="(學生使用) 功課及溫習安排系統">
+          <span class="category-name"><span class="schedule-card-first-line">(學生使用) 功課及溫習</span><br>安排系統</span>
         </a>
 
         <a class="category writing-system-card" href="writing-practice.html">
@@ -2550,8 +2666,12 @@
           <span class="category-name">學生使用<br>DSE / IELTS<br>教材及範文<br>下載區</span>
         </a>
 
-        <a class="category schedule-system-card" href="schedule-system.html" aria-label="(學生使用) 功課及溫習安排系統">
-          <span class="category-name"><span class="schedule-card-first-line">(學生使用) 功課及溫習</span><br>安排系統</span>
+        <a class="category flashcard-card" href="flashcards.html">
+          <span class="category-name">學生 Flashcard<br>學習卡系統</span>
+        </a>
+
+        <a class="category parent-communication-card" href="parent-communication.html" aria-label="(家長使用) 家長溝通系統">
+          <span class="category-name">(家長使用)<br>家長溝通系統</span>
         </a>
 
         <a class="category writing-submission-card" href="writing-submission.html" aria-label="(學生使用) Edmund Sir Writing 交文系統">
@@ -2563,6 +2683,10 @@
 
         <a class="category speaking-system-card" href="speaking-system.html" aria-label="(學生使用) Speaking 說話練習系統">
           <span class="category-name">(學生使用)<br>Speaking 說話練習系統</span>
+        </a>
+
+        <a class="category listening-system-card" href="listening-system.html" aria-label="(學生使用) 英語聆聽系統">
+          <span class="category-name">(學生使用)<br>英語聆聽系統</span>
         </a>
 
         <a class="category sentence-structure-card" href="sentence-structure.html" aria-label="(學生使用) 句子結構 Sentence Structure 學習系統">

@@ -8,6 +8,7 @@
     { id: "writing", href: "writing-practice.html", zh: "英文寫作練習", en: "Writing Practice" },
     { id: "writing-submission", href: "writing-submission.html", zh: "Edmund Sir Writing 交文", en: "Writing Submission" },
     { id: "speaking", href: "speaking-system.html", zh: "Speaking 說話練習", en: "Speaking System" },
+    { id: "listening", href: "listening-system.html", zh: "英語聆聽系統", en: "Listening System" },
     { id: "sentence", href: "sentence-structure.html", zh: "句子結構", en: "Sentence Structure" },
     { id: "idioms", href: "idiom-system.html", zh: "英文慣用語", en: "Idiom Learning" },
     { id: "proverbs", href: "proverb-system.html", zh: "(學生使用) 諺語", en: "學生使用系統" },
@@ -28,6 +29,7 @@
     flashcards: "edmundFlashcardSession",
     "writing-submission": "edmund-writing-submission-session-v1",
     speaking: "edmundSpeakingSessionV1",
+    listening: "edmund-listening-session-v1",
     sentence: "edmund-sentence-structure-session-v1",
     idioms: "edmund-idiom-system-session-v1",
     proverbs: "edmund-proverb-system-session-v1",
@@ -102,6 +104,12 @@
       },
       speaking() {
         const value = storageJson(storage, SESSION_KEYS.speaking);
+        return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
+          ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
+          : null;
+      },
+      listening() {
+        const value = storageJson(storage, SESSION_KEYS.listening);
         return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
           ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
           : null;
@@ -183,6 +191,7 @@
       || candidates.flashcards()
       || candidates["writing-submission"]()
       || candidates.speaking()
+      || candidates.listening()
       || candidates.sentence()
       || candidates.idioms()
       || candidates.proverbs()
@@ -212,6 +221,7 @@
     };
     writeStorageJson(storage, UNIVERSAL_SESSION_KEY, normalized, true);
     bridgeStudentSession(normalized, true);
+    ensurePasswordButton();
     return true;
   }
 
@@ -267,6 +277,12 @@
       role: "student"
     }, overwrite);
     writeStudentSession(storage, SESSION_KEYS.speaking, {
+      token: universal.token,
+      id: universal.id,
+      name: universal.name,
+      role: "student"
+    }, overwrite);
+    writeStudentSession(storage, SESSION_KEYS.listening, {
       token: universal.token,
       id: universal.id,
       name: universal.name,
@@ -412,8 +428,139 @@
     });
   }
 
+  let passwordClient = null;
+
+  function passwordDialogMarkup() {
+    return `<dialog class="edmund-password-dialog" data-edmund-password-dialog aria-labelledby="edmund-password-title">
+      <form class="edmund-password-dialog__card" data-edmund-password-form novalidate>
+        <div class="edmund-password-dialog__heading">
+          <p>ACCOUNT SECURITY</p>
+          <h2 id="edmund-password-title">更改用戶系統 Password</h2>
+          <span>密碼會以單向加密方式儲存；任何管理員都不能查看目前密碼。</span>
+        </div>
+        <label><span>目前密碼</span><input name="currentPassword" type="password" autocomplete="current-password" maxlength="200" required></label>
+        <label><span>新密碼（最少 8 個字元）</span><input name="newPassword" type="password" autocomplete="new-password" minlength="8" maxlength="200" required></label>
+        <label><span>再次輸入新密碼</span><input name="confirmPassword" type="password" autocomplete="new-password" minlength="8" maxlength="200" required></label>
+        <p class="edmund-password-dialog__status" data-edmund-password-status role="status" aria-live="polite"></p>
+        <div class="edmund-password-dialog__actions">
+          <button type="button" data-edmund-password-cancel>取消</button>
+          <button type="submit" data-edmund-password-submit>儲存新密碼</button>
+        </div>
+      </form>
+    </dialog>`;
+  }
+
+  function ensurePasswordSupabase() {
+    if (passwordClient) return passwordClient;
+    const configuration = window.EDMUND_SUPABASE || {};
+    if (!window.supabase?.createClient || !configuration.url || !configuration.anonKey) {
+      throw new Error("密碼服務暫時未能載入，請重新整理頁面。");
+    }
+    passwordClient = window.supabase.createClient(configuration.url, configuration.anonKey, {
+      auth: {
+        persistSession: false,
+        autoRefreshToken: true,
+        detectSessionInUrl: false
+      }
+    });
+    return passwordClient;
+  }
+
+  async function ensurePasswordSupabaseSession() {
+    const client = ensurePasswordSupabase();
+    const current = await client.auth.getSession();
+    if (current.error) throw current.error;
+    if (current.data?.session?.user?.id) return client;
+    const signIn = await client.auth.signInAnonymously();
+    if (signIn.error) throw signIn.error;
+    if (!signIn.data?.session?.user?.id) throw new Error("未能建立安全連線。");
+    return client;
+  }
+
+  function ensurePasswordDialog() {
+    let dialog = document.querySelector("[data-edmund-password-dialog]");
+    if (dialog) return dialog;
+    document.body.insertAdjacentHTML("beforeend", passwordDialogMarkup());
+    dialog = document.querySelector("[data-edmund-password-dialog]");
+    const form = dialog.querySelector("[data-edmund-password-form]");
+    const status = dialog.querySelector("[data-edmund-password-status]");
+    dialog.querySelector("[data-edmund-password-cancel]").addEventListener("click", () => dialog.close());
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const candidate = studentSessionCandidate();
+      const data = new FormData(form);
+      const currentPassword = String(data.get("currentPassword") || "");
+      const newPassword = String(data.get("newPassword") || "");
+      const confirmation = String(data.get("confirmPassword") || "");
+      if (!candidate?.token) {
+        status.textContent = "登入已失效，請重新登入。";
+        status.dataset.state = "error";
+        return;
+      }
+      if (!currentPassword || newPassword.length < 8 || newPassword !== confirmation) {
+        status.textContent = "請輸入目前密碼；新密碼最少 8 個字元，而且兩次輸入必須相同。";
+        status.dataset.state = "error";
+        return;
+      }
+      const submit = dialog.querySelector("[data-edmund-password-submit]");
+      submit.disabled = true;
+      status.textContent = "正在安全地更新密碼…";
+      status.dataset.state = "";
+      try {
+        const client = await ensurePasswordSupabaseSession();
+        const { data: rows, error } = await client.rpc("shared_student_change_password", {
+          p_token: candidate.token,
+          p_current_password: currentPassword,
+          p_new_password: newPassword
+        });
+        if (error) throw error;
+        const next = Array.isArray(rows) ? rows[0] : null;
+        if (!next?.session_token || !next?.name) throw new Error("未能建立更新後的登入。");
+        rememberStudentSession({
+          token: next.session_token,
+          id: next.id || candidate.id,
+          name: next.name,
+          role: "student"
+        });
+        status.textContent = "密碼已更新；其他裝置的舊登入已失效。頁面即將重新載入。";
+        status.dataset.state = "success";
+        window.setTimeout(() => window.location.reload(), 900);
+      } catch (error) {
+        console.warn("Shared student password change failed", error);
+        status.textContent = String(error?.message || "未能更新密碼，請再試一次。");
+        status.dataset.state = "error";
+        submit.disabled = false;
+      }
+    });
+    return dialog;
+  }
+
+  function ensurePasswordButton() {
+    if (!studentSessionCandidate() || document.querySelector("[data-change-password], [data-edmund-change-password]")) return;
+    const actions = document.querySelector(".edmund-system-header__actions");
+    if (!actions) return;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "edmund-system-password-button";
+    button.dataset.edmundChangePassword = "";
+    button.textContent = "更改用戶系統 Password";
+    button.addEventListener("click", () => {
+      const dialog = ensurePasswordDialog();
+      const form = dialog.querySelector("[data-edmund-password-form]");
+      form.reset();
+      const status = dialog.querySelector("[data-edmund-password-status]");
+      status.textContent = "";
+      status.dataset.state = "";
+      dialog.showModal();
+      window.setTimeout(() => form.elements.currentPassword.focus(), 0);
+    });
+    const logout = actions.querySelector("[data-logout], [data-action=logout]");
+    actions.insertBefore(button, logout || null);
+  }
+
   function initialise() {
     bridgeStudentSession(studentSessionCandidate(), true);
+    ensurePasswordButton();
     const switchers = [...document.querySelectorAll("[data-edmund-system-switcher]")];
     switchers.forEach(enhanceSwitcher);
 

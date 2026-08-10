@@ -232,6 +232,28 @@ function writingSubmissionResources() {
   }];
 }
 
+async function dseWritingPartADownloadResources() {
+  const globals = await evaluateFiles(["dse-writing-part-a-downloads.js"]);
+  const items = Array.isArray(globals.EDMUND_DSE_WRITING_PART_A_DOWNLOADS)
+    ? globals.EDMUND_DSE_WRITING_PART_A_DOWNLOADS
+    : [];
+  if (!items.length) throw new Error("DSE Writing Part A download catalogue is empty");
+  return items.map((item) => {
+    const year = Number(item?.year || item?.number || 0);
+    if (!Number.isSafeInteger(year) || year < 2012 || year > 2100 || !item?.id) {
+      throw new Error(`Invalid DSE Writing Part A download item: ${JSON.stringify(item)}`);
+    }
+    return {
+      id: `download:dse-writing-part-a:${item.id}`,
+      type: "model-essay-download",
+      ordinal: year,
+      label: `DSE Writing Part A Download - ${year} 5** Model Answer`,
+      detail: `DSE Writing Part A · ${year} · PDF Model Answer`,
+      url: `model-essay-downloads.html?catalog=dse-writing-part-a&item=${encodeURIComponent(item.id)}`
+    };
+  });
+}
+
 async function readingAnalysisResources() {
   const globals = await evaluateFiles([
     "ielts-reading-analysis-index.js",
@@ -335,6 +357,81 @@ async function sentenceResources() {
   });
 }
 
+async function commonExpressionResources() {
+  const globals = await evaluateFiles([
+    "common-expression-system-data.js",
+    "common-expression-system-imported-data.js"
+  ]);
+  const systems = Object.values(globals.EDMUND_COMMON_EXPRESSION_DATA?.systems || {});
+  if (!systems.length) throw new Error("Common Expression system catalogue is empty");
+
+  return systems.flatMap((system) => {
+    const lessons = Array.isArray(system?.lessons) ? system.lessons : [];
+    return lessons.map((lesson, index) => {
+      const ordinal = index + 1;
+      if (Number(lesson?.order) !== ordinal || !lesson?.id) {
+        throw new Error(`Common Expression lesson order mismatch: ${system?.key || "unknown"} #${ordinal}`);
+      }
+      return {
+        id: `common-expression:${system.key}:${lesson.id}`,
+        type: "common-expression",
+        ordinal,
+        label: `Common Expression - ${compactText(system.titleZh)} ${compactText(system.titleEn)} - #${ordinal} · ${compactText(lesson.titleEn || lesson.titleZh)}`,
+        detail: `${compactText(system.titleZh)} ${compactText(system.titleEn)} · ${compactText(lesson.titleZh || lesson.titleEn, 120)}`,
+        url: `${system.href}?lesson=${encodeURIComponent(lesson.id)}`
+      };
+    });
+  });
+}
+
+async function listeningResources() {
+  const globals = await evaluateFiles(["listening-system-catalog.js"]);
+  const practices = Array.isArray(globals.EDMUND_LISTENING_CATALOG?.practices)
+    ? globals.EDMUND_LISTENING_CATALOG.practices
+    : [];
+  if (practices.length !== 20) throw new Error(`IELTS Listening catalogue should contain 20 practices, found ${practices.length}`);
+
+  return practices.flatMap((practice, practiceIndex) => {
+    const practiceNumber = practiceIndex + 1;
+    if (Number(practice?.practice) !== practiceNumber || !Array.isArray(practice?.parts) || practice.parts.length !== 4) {
+      throw new Error(`Invalid IELTS Listening Practice ${practiceNumber} catalogue record`);
+    }
+    return practice.parts.map((part, partIndex) => {
+      const partNumber = partIndex + 1;
+      if (Number(part?.part) !== partNumber || !part?.id) {
+        throw new Error(`Invalid IELTS Listening Practice ${practiceNumber} Part ${partNumber} catalogue record`);
+      }
+      return {
+        id: `listening:${part.id}`,
+        type: "listening",
+        ordinal: practiceNumber,
+        label: `IELTS Listening Practice ${practiceNumber} - Part ${partNumber}`,
+        detail: `IELTS Listening · Practice ${practiceNumber} · Part ${partNumber}`,
+        url: `listening-system.html?section=ielts&practice=${practiceNumber}&part=${partNumber}`
+      };
+    });
+  });
+}
+
+async function registeredProviderResources(allFiles) {
+  const files = allFiles.filter((file) => /(?:^|-)homework-resources\.js$/i.test(file)).sort();
+  const resources = [];
+  for (const file of files) {
+    const globals = await evaluateFiles([file]);
+    const provided = globals.EDMUND_HOMEWORK_RESOURCES;
+    if (!Array.isArray(provided)) {
+      throw new Error(`${file} must assign an array to window.EDMUND_HOMEWORK_RESOURCES`);
+    }
+    for (const resource of provided) {
+      if (!resource?.id || !resource?.type || !resource?.label || !resource?.url) {
+        throw new Error(`${file} contains an incomplete homework resource`);
+      }
+      resources.push({ ...resource });
+    }
+  }
+  return resources;
+}
+
 async function orderedLessonResources({ file, globalName, type, idPrefix, systemLabel, page }) {
   const globals = await evaluateFiles([file]);
   const data = globals[globalName];
@@ -369,9 +466,12 @@ const resources = [
   ...await flashcardResources(allFiles),
   ...await writingResources(),
   ...writingSubmissionResources(),
+  ...await dseWritingPartADownloadResources(),
   ...await readingAnalysisResources(),
   ...await speakingResources(),
   ...await sentenceResources(),
+  ...await commonExpressionResources(),
+  ...await listeningResources(),
   ...await orderedLessonResources({
     file: "idiom-system-data.js",
     globalName: "EDMUND_IDIOM_SYSTEM_DATA",
@@ -395,7 +495,8 @@ const resources = [
     idPrefix: "phrasal-verb",
     systemLabel: "Phrasal Verb",
     page: "phrasal-verb-system.html"
-  })
+  }),
+  ...await registeredProviderResources(allFiles)
 ]
   .sort((left, right) => left.type.localeCompare(right.type) || left.label.localeCompare(right.label, "en", { numeric: true }));
 

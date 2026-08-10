@@ -230,6 +230,10 @@ async function route(request, env, ctx) {
     return exportRecordings(request, env, ctx);
   }
 
+  if (url.pathname === "/v1/recordings/quota" && request.method === "GET") {
+    return getRecordingQuota(request, env);
+  }
+
   if (url.pathname === "/v1/recordings" && request.method === "POST") {
     return uploadRecording(request, env);
   }
@@ -1895,6 +1899,28 @@ async function uploadRecording(request, env) {
   );
   response.headers.set("Location", new URL(`/v1/recordings/${attemptId}`, request.url).toString());
   return response;
+}
+
+async function getRecordingQuota(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const value = rpcObject(await rpc(env, "speaking_get_recording_usage", {
+    p_student_id: student.id
+  }));
+  if (!value) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Recording quota service returned an invalid response");
+  }
+  if (value.ok !== true) {
+    if (value.code === "STUDENT_NOT_FOUND") {
+      throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+    }
+    throw new HttpError(502, "RECORDING_QUOTA_UNAVAILABLE", "Recording quota is temporarily unavailable");
+  }
+  return json({
+    usage: value.usage || { fileCount: 0, storageBytes: 0 },
+    quota: value.quota || { maxFiles: 500, maxBytes: 200 * 1024 * 1024 },
+    canRecord: value.canRecord === true
+  }, 200, request, env);
 }
 
 async function enforceRecordingAccess(env, studentId, upload) {

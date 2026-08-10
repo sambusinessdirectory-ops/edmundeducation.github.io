@@ -6,8 +6,10 @@ import flashcardExpansionPackIndex from "./flashcard-pack-index-flashcard-expans
 const AUDIO_PREFIXES = [
   "assets/speaking-system/audio/edmund-neural/part1/",
   "assets/speaking-system/audio/edmund-neural/part3/",
-  "assets/speaking-system/audio/edmund-neural/exam/"
+  "assets/speaking-system/audio/edmund-neural/exam/",
+  "IELTS Listening - Recordings/"
 ];
+const IELTS_LISTENING_PREFIX = "IELTS Listening - Recordings/";
 const IMMUTABLE_CACHE = "public, max-age=31536000, immutable";
 const FLASHCARD_PACK_INDEXES = [
   flashcardPackIndex,
@@ -24,6 +26,19 @@ function responseHeaders() {
     "Content-Type": "audio/mpeg",
     "Cross-Origin-Resource-Policy": "cross-origin",
     "X-Content-Type-Options": "nosniff"
+  });
+}
+
+function jsonResponse(value, status = 200, cacheControl = "no-store") {
+  return new Response(JSON.stringify(value), {
+    status,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Cache-Control": cacheControl,
+      "Content-Type": "application/json; charset=utf-8",
+      "Cross-Origin-Resource-Policy": "cross-origin",
+      "X-Content-Type-Options": "nosniff"
+    }
   });
 }
 
@@ -59,6 +74,87 @@ function objectKey(url) {
     return "";
   }
   return key;
+}
+
+function listeningTrackNumbers(key) {
+  if (!key.startsWith(IELTS_LISTENING_PREFIX) || !key.toLowerCase().endsWith(".mp3")) return null;
+  const filename = key.slice(IELTS_LISTENING_PREFIX.length);
+  // The existing R2 inventory names each set "Listening N", while the portal
+  // presents it to students as "Practice N". Accept both stable catalogue
+  // labels without renaming or duplicating any uploaded audio object.
+  const practice = filename.match(/(?:^|[^a-z])(?:practice|listening)[\s_.-]*0*(\d{1,2})(?:[^0-9]|$)/i);
+  const part = filename.match(/(?:^|[^a-z])part[\s_.-]*0*([1-4])(?:[^0-9]|$)/i);
+  if (!practice || !part) return null;
+  const practiceNumber = Number(practice[1]);
+  const partNumber = Number(part[1]);
+  if (!Number.isInteger(practiceNumber) || practiceNumber < 1 || practiceNumber > 20) return null;
+  return { practice: practiceNumber, part: partNumber };
+}
+
+function encodedObjectPath(key) {
+  return key.split("/").map(segment => encodeURIComponent(segment)).join("/");
+}
+
+async function listeningCatalogue(request, env) {
+  const origin = new URL(request.url).origin;
+  const objects = [];
+  let cursor;
+  for (let page = 0; page < 20; page += 1) {
+    const result = await env.EDMUND_ASSETS.list({
+      prefix: IELTS_LISTENING_PREFIX,
+      limit: 1000,
+      ...(cursor ? { cursor } : {})
+    });
+    objects.push(...result.objects);
+    if (!result.truncated || !result.cursor) break;
+    cursor = result.cursor;
+  }
+
+  const mapped = [];
+  const unmapped = [];
+  for (const object of objects) {
+    const numbers = listeningTrackNumbers(object.key);
+    if (!numbers) {
+      if (object.key.toLowerCase().endsWith(".mp3")) unmapped.push(object.key);
+      continue;
+    }
+    mapped.push({
+      ...numbers,
+      key: object.key,
+      size: Number(object.size || 0),
+      uploaded: object.uploaded instanceof Date ? object.uploaded.toISOString() : String(object.uploaded || ""),
+      url: `${origin}/${encodedObjectPath(object.key)}`
+    });
+  }
+  mapped.sort((left, right) => left.practice - right.practice || left.part - right.part || left.key.localeCompare(right.key));
+
+  const unique = [];
+  const duplicates = [];
+  const seen = new Map();
+  for (const track of mapped) {
+    const slot = `${track.practice}:${track.part}`;
+    if (seen.has(slot)) {
+      duplicates.push({ slot, keys: [seen.get(slot).key, track.key] });
+      continue;
+    }
+    seen.set(slot, track);
+    unique.push(track);
+  }
+  const missing = [];
+  for (let practice = 1; practice <= 20; practice += 1) {
+    for (let part = 1; part <= 4; part += 1) {
+      if (!seen.has(`${practice}:${part}`)) missing.push({ practice, part });
+    }
+  }
+  return jsonResponse({
+    prefix: IELTS_LISTENING_PREFIX,
+    expectedTracks: 80,
+    complete: unique.length === 80 && missing.length === 0 && duplicates.length === 0,
+    tracks: unique,
+    missing,
+    duplicates,
+    unmapped
+  }, 200, "public, max-age=300, stale-while-revalidate=3600");
 }
 
 function flashcardPackEntry(url) {
@@ -188,8 +284,11 @@ export default {
     }
 
     const url = new URL(request.url);
+    if (url.pathname === "/v1/listening/catalog") {
+      return listeningCatalogue(request, env);
+    }
     if (url.pathname === "/" || url.pathname === "/health") {
-      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["part1", "part3", "exam", "flashcards"] }), {
+      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["part1", "part3", "exam", "flashcards", "ielts-listening"] }), {
         headers: {
           "Cache-Control": "no-store",
           "Content-Type": "application/json; charset=utf-8",

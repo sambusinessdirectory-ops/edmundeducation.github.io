@@ -313,6 +313,7 @@ button { color: inherit; }
   align-items: end;
   padding: clamp(28px, 4.5vw, 60px);
 }
+.common-expression-title-secondary { color: var(--accent-dark); }
 
 .dashboard-metrics { display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-end; }
 .metric-card {
@@ -335,6 +336,81 @@ button { color: inherit; }
   padding: 17px 20px;
 }
 .dashboard-toolbar p { margin: 0; color: var(--muted); font: 600 0.92rem/1.5 ui-sans-serif, system-ui, sans-serif; }
+.dashboard-toolbar-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.common-progress-panel {
+  display: grid;
+  gap: 18px;
+  margin: 0 0 22px;
+  padding: clamp(22px, 3vw, 38px);
+  scroll-margin-top: 92px;
+}
+.common-progress-heading,
+.common-progress-card-heading,
+.common-progress-day-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+.common-progress-heading h2 { margin: 0; font-size: clamp(2rem, 3vw, 3.4rem); }
+.common-progress-heading p,
+.common-progress-card-heading p { margin: 7px 0 0; color: var(--muted); font: 600 .9rem/1.55 ui-sans-serif, system-ui, sans-serif; }
+.common-progress-full-link { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
+.common-progress-card {
+  padding: clamp(18px, 2.8vw, 30px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, .76);
+}
+.common-progress-card h3 { margin: 0; font-size: 1.55rem; }
+.common-progress-range { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 14px; }
+.common-progress-range button {
+  min-height: 38px;
+  padding: 8px 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: #fff;
+  cursor: pointer;
+  font: 800 .78rem/1 ui-sans-serif, system-ui, sans-serif;
+}
+.common-progress-range button[aria-pressed="true"] { color: #fff; border-color: var(--accent); background: var(--accent); }
+.common-cumulative-toggle[aria-pressed="true"] { color: #6b21a8; border-color: #d8b4fe; background: #faf5ff; }
+.common-progress-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-bottom: 14px; }
+.common-progress-stats span { padding: 14px; border-radius: 14px; color: var(--muted); background: var(--paper-soft); font: 750 .76rem/1.35 ui-sans-serif, system-ui, sans-serif; }
+.common-progress-stats strong { display: block; margin-bottom: 3px; color: var(--ink); font: 900 1.35rem/1.15 Georgia, serif; }
+.common-chart-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,255,255,.68); }
+.common-progress-chart { display: block; width: 100%; min-width: 720px; height: auto; }
+.common-chart-background { fill: rgba(255,255,255,.62); }
+.common-chart-grid { stroke: rgba(23,40,75,.14); stroke-width: 1; }
+.common-chart-axis { stroke: rgba(23,40,75,.22); stroke-width: 1.4; }
+.common-chart-axis-label { fill: #68728a; font: 800 13px ui-sans-serif, system-ui, sans-serif; }
+.common-chart-title { fill: var(--ink); font: 900 13px ui-sans-serif, system-ui, sans-serif; }
+.common-chart-empty { fill: #68728a; font: 900 19px ui-sans-serif, system-ui, sans-serif; }
+.common-chart-daily-line,
+.common-chart-cumulative-line { fill: none; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.common-chart-question-line { stroke: #315fb3; }
+.common-chart-time-line { stroke: #e7782f; }
+.common-chart-cumulative-line { stroke: #7e22ce; }
+.common-chart-dot { fill: #315fb3; }
+.common-chart-cumulative-dot { fill: #7e22ce; }
+.common-chart-hit { fill: transparent; cursor: pointer; }
+.common-chart-tooltip { opacity: 0; pointer-events: none; transition: opacity .16s ease; }
+.common-chart-tooltip line { stroke: rgba(23,40,75,.28); stroke-dasharray: 4 5; }
+.common-chart-tooltip rect { fill: #17213a; opacity: .95; }
+.common-chart-tooltip text { fill: #fff; font: 850 11px ui-sans-serif, system-ui, sans-serif; }
+.common-chart-tooltip text:last-child { fill: #dce6fa; font-size: 10px; }
+.common-chart-hover:hover .common-chart-tooltip,
+.common-chart-hover:focus .common-chart-tooltip,
+.common-chart-hover:focus-visible .common-chart-tooltip { opacity: 1; }
+.common-progress-day-panel { margin-top: 14px; padding: 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper-soft); }
+.common-progress-day-heading h4 { margin: 7px 0; }
+.common-progress-day-row { display: grid; grid-template-columns: minmax(180px, .7fr) minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 12px 0; border-top: 1px solid var(--line); }
+.common-progress-day-row span { color: var(--muted); font: 600 .84rem/1.45 ui-sans-serif, system-ui, sans-serif; }
+.common-progress-day-row em { color: var(--accent-dark); font-style: normal; font-weight: 800; }
+.common-progress-day-row em.is-correct { color: var(--success); }
+.common-progress-day-row em.is-time { color: var(--accent-dark); }
 
 .lesson-grid {
   display: grid;
@@ -452,12 +528,20 @@ button { color: inherit; }
 .exercise-progress { display: flex; align-items: center; gap: 14px; margin-top: 20px; }
 .exercise-progress .progress-track { height: 12px; }
 .exercise-progress strong { white-space: nowrap; }
-.question-card { padding: clamp(24px, 4vw, 48px); }
+.question-list { display: grid; gap: 18px; }
+.question-card { padding: clamp(24px, 4vw, 48px); scroll-margin-top: 92px; }
+.question-card.is-correct { border-color: rgba(25, 134, 93, .32); background: rgba(239, 251, 245, .97); }
 .question-meta { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
 .question-number { color: var(--accent); font: 800 0.82rem/1 ui-sans-serif, system-ui, sans-serif; letter-spacing: 0.12em; }
 .prompt-en { margin: 28px 0 10px; font-size: clamp(1.45rem, 2.4vw, 2.45rem); line-height: 1.45; white-space: pre-line; }
 .prompt-zh { margin: 0 0 24px; color: var(--muted); font: 500 0.95rem/1.7 ui-sans-serif, system-ui, sans-serif; white-space: pre-line; }
 .answer-field { min-height: 150px; padding: 18px; resize: vertical; font-size: 1.15rem; line-height: 1.55; }
+.answer-field[readonly] { color: #176b4d; border-color: rgba(25,134,93,.25); background: #f1fbf6; }
+.question-inline-actions { display: flex; justify-content: flex-end; margin-top: 7px; }
+.question-inline-actions button:disabled { cursor: default; opacity: .42; }
+.exercise-submit-bar { position: sticky; z-index: 25; bottom: 12px; display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 18px 20px; }
+.exercise-submit-bar p { margin: 4px 0 0; color: var(--muted); font: 600 .82rem/1.45 ui-sans-serif, system-ui, sans-serif; }
+.exercise-submit-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 9px; }
 .question-actions { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
 .question-actions-right { display: flex; gap: 10px; flex-wrap: wrap; }
 .feedback-panel { margin-top: 20px; padding: 20px; border: 1px solid var(--line); border-radius: 16px; }
@@ -499,6 +583,7 @@ button { color: inherit; }
   .lesson-tabs { top: 76px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .content-intro,
   .bilingual-list { grid-template-columns: 1fr; }
+  .common-progress-heading { align-items: stretch; flex-direction: column; }
 }
 
 @media (max-width: 720px) {
@@ -524,6 +609,13 @@ button { color: inherit; }
   .dashboard-metrics { justify-content: stretch; }
   .metric-card { flex: 1 1 120px; text-align: left; }
   .dashboard-toolbar { display: flex; }
+  .dashboard-toolbar-actions,
+  .common-progress-card-heading,
+  .exercise-submit-bar { align-items: stretch; flex-direction: column; }
+  .common-progress-stats { grid-template-columns: 1fr; }
+  .common-progress-day-row { grid-template-columns: 1fr; gap: 5px; }
+  .exercise-submit-actions { display: grid; grid-template-columns: 1fr; }
+  .exercise-submit-actions button { width: 100%; }
   .lesson-tabs { position: static; grid-template-columns: 1fr 1fr; }
   .example-transform { grid-template-columns: 1fr; }
   .example-arrow { transform: rotate(90deg); justify-self: center; }
@@ -540,6 +632,7 @@ button { color: inherit; }
   .lesson-tabs,
   .header-actions,
   .question-actions,
+  .exercise-submit-bar,
   .toast { display: none !important; }
   .app-shell { width: 100%; padding: 0; }
   .glass-panel,

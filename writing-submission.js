@@ -21,6 +21,17 @@ import {
   remoteGrammarRetryDelayMs,
   writingGrammarReviewNotice
 } from "./writing-submission-ai.js?v=20260803-grammar-progress1";
+import {
+  emptyWritingTimer,
+  expireWritingTimer,
+  formatWritingTimer,
+  normalizeWritingTimer,
+  pauseWritingTimer,
+  resumeWritingTimer,
+  startWritingTimer,
+  timerInputSeconds,
+  writingTimerRemaining
+} from "./writing-submission-timer.js?v=20260810-timer-export1";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -61,6 +72,19 @@ const elements = {
   selectedTopicPreview: document.querySelector("[data-selected-topic-preview]"),
   writingInput: document.querySelector("[data-writing-input]"),
   wordCount: document.querySelector("[data-word-count]"),
+  writingTimerToggle: document.querySelector("[data-writing-timer-toggle]"),
+  writingTimerToggleDisplay: document.querySelector("[data-writing-timer-toggle-display]"),
+  writingTimerPanel: document.querySelector("[data-writing-timer-panel]"),
+  writingTimerDisplay: document.querySelector("[data-writing-timer-display]"),
+  writingTimerHours: document.querySelector("[data-writing-timer-hours]"),
+  writingTimerMinutes: document.querySelector("[data-writing-timer-minutes]"),
+  writingTimerSeconds: document.querySelector("[data-writing-timer-seconds]"),
+  writingTimerForce: document.querySelector("[data-writing-timer-force]"),
+  writingTimerStart: document.querySelector("[data-writing-timer-start]"),
+  writingTimerPause: document.querySelector("[data-writing-timer-pause]"),
+  writingTimerReset: document.querySelector("[data-writing-timer-reset]"),
+  writingTimerRetry: document.querySelector("[data-writing-timer-retry]"),
+  writingTimerStatus: document.querySelector("[data-writing-timer-status]"),
   draftState: document.querySelector("[data-draft-state]"),
   submissionStatus: document.querySelector("[data-submission-status]"),
   submitWriting: document.querySelector("[data-submit-writing]"),
@@ -80,6 +104,10 @@ const elements = {
   writingAverageChart: document.querySelector("[data-writing-average-chart]"),
   submissionList: document.querySelector("[data-submission-list]"),
   submissionDetail: document.querySelector("[data-submission-detail]"),
+  exportSelectAll: document.querySelector("[data-export-select-all]"),
+  exportSelectedCount: document.querySelector("[data-export-selected-count]"),
+  exportSelectedSubmissions: document.querySelector("[data-export-selected-submissions]"),
+  exportAllSubmissions: document.querySelector("[data-export-all-submissions]"),
   refreshGrammarLog: document.querySelector("[data-refresh-grammar-log]"),
   uniqueRuleCount: document.querySelector("[data-unique-rule-count]"),
   totalIssueCount: document.querySelector("[data-total-issue-count]"),
@@ -135,11 +163,18 @@ const state = {
   lastWritingActivityAt: 0,
   writingClockTimer: null,
   selectedTopicResource: null,
+  writingTimer: emptyWritingTimer(),
+  writingTimerPanelOpen: false,
+  writingTimerClock: null,
+  timerAutoSubmitLock: false,
+  submissionPromise: null,
   topicCatalog: [],
   topicCatalogPromise: null,
   manualRecheckTimer: null,
   toastTimer: null,
   submissions: [],
+  selectedExportSubmissionIds: new Set(),
+  exportInFlight: false,
   writingProgress: [],
   selectedSubmissionId: "",
   grammarProblems: [],
@@ -401,10 +436,18 @@ function clearSession() {
   state.adminExplanationReviewPage = 0;
   state.adminExplanationReviewHasMore = false;
   state.selectedTopicResource = null;
+  state.writingTimer = emptyWritingTimer();
+  state.writingTimerPanelOpen = false;
+  state.timerAutoSubmitLock = false;
+  state.submissionPromise = null;
+  state.selectedExportSubmissionIds.clear();
+  state.exportInFlight = false;
   state.draftDurationSeconds = 0;
   state.submissionDurationSeconds = null;
   state.writingClockLastAt = 0;
   state.lastWritingActivityAt = 0;
+  syncWritingTimerUi();
+  syncSubmissionExportControls();
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Storage may be unavailable. */ }
 }
 
@@ -723,6 +766,7 @@ function readDraft() {
         && submissionDurationSeconds <= 31536000
         ? submissionDurationSeconds
         : null,
+      writingTimer: normalizeWritingTimer(value.writingTimer),
       selectedTopicResource: normalizeWritingTopicResource(value.selectedTopicResource)
     };
   } catch {
@@ -741,6 +785,7 @@ function persistDraft() {
       answer: elements.writingInput.value,
       durationSeconds: Math.round(state.draftDurationSeconds),
       submissionDurationSeconds: state.submissionDurationSeconds,
+      writingTimer: normalizeWritingTimer(state.writingTimer),
       selectedTopicResource: state.selectedTopicResource,
       savedAt: new Date().toISOString()
     }));
@@ -814,6 +859,199 @@ function updateEditorMetrics() {
   autosizeTextarea(elements.writingInput, 480);
 }
 
+function setWritingTimerInputs(durationSeconds) {
+  const seconds = Math.max(0, Math.round(Number(durationSeconds || 0)));
+  elements.writingTimerHours.value = String(Math.floor(seconds / 3600));
+  elements.writingTimerMinutes.value = String(Math.floor((seconds % 3600) / 60));
+  elements.writingTimerSeconds.value = String(seconds % 60);
+}
+
+function writingTimerStatusText(timer) {
+  if (timer.status === "running") {
+    return timer.forceSubmit
+      ? "倒數進行中；時間到後會自動提交目前文章。"
+      : "倒數進行中；時間到後只會提示，不會自動提交。";
+  }
+  if (timer.status === "paused") return "倒數已暫停；按「繼續倒數」即可恢復。";
+  if (timer.status === "expired") {
+    if (state.timerAutoSubmitLock || state.submissionPromise) return "時間已到，正在安全提交文章……";
+    if (timer.autoSubmitError) return timer.autoSubmitError;
+    if (timer.forceSubmit && timer.autoSubmitAttemptedAt) return "上次自動提交的結果未能確認；如文章仍在，請按「重試自動提交」。";
+    return timer.forceSubmit ? "時間已到，正準備自動提交。" : "時間已到；文章不會自動提交。";
+  }
+  return "尚未開始倒數。";
+}
+
+function syncWritingTimerUi() {
+  if (!elements.writingTimerPanel) return;
+  const previousStatus = state.writingTimer.status;
+  const timer = normalizeWritingTimer(state.writingTimer);
+  state.writingTimer = timer;
+  const remaining = writingTimerRemaining(timer);
+  const display = formatWritingTimer(remaining);
+  elements.writingTimerPanel.hidden = !state.writingTimerPanelOpen;
+  elements.writingTimerToggle.setAttribute("aria-expanded", String(state.writingTimerPanelOpen));
+  elements.writingTimerPanel.dataset.status = timer.status;
+  elements.writingTimerDisplay.textContent = display;
+  elements.writingTimerToggleDisplay.textContent = display;
+  elements.writingTimerForce.checked = timer.forceSubmit;
+  elements.writingTimerForce.disabled = state.timerAutoSubmitLock || Boolean(state.submissionPromise);
+  elements.writingTimerStart.textContent = timer.status === "paused"
+    ? "繼續倒數"
+    : timer.status === "expired"
+      ? "重新開始"
+      : timer.status === "running"
+        ? "倒數中"
+        : "開始倒數";
+  elements.writingTimerStart.disabled = timer.status === "running" || Boolean(state.submissionPromise);
+  elements.writingTimerPause.disabled = timer.status !== "running" || Boolean(state.submissionPromise);
+  elements.writingTimerReset.disabled = timer.status === "idle" || Boolean(state.submissionPromise);
+  elements.writingTimerRetry.hidden = !(
+    timer.status === "expired"
+    && timer.forceSubmit
+    && !state.timerAutoSubmitLock
+    && (timer.autoSubmitError || timer.autoSubmitAttemptedAt)
+  );
+  elements.writingTimerRetry.disabled = state.timerAutoSubmitLock || Boolean(state.submissionPromise);
+  const durationLocked = timer.status !== "idle";
+  elements.writingTimerHours.disabled = durationLocked;
+  elements.writingTimerMinutes.disabled = durationLocked;
+  elements.writingTimerSeconds.disabled = durationLocked;
+  elements.writingTimerStatus.textContent = writingTimerStatusText(timer);
+  if (previousStatus === "running" && timer.status === "expired") {
+    persistDraft();
+    if (timer.forceSubmit) window.setTimeout(() => attemptTimerForceSubmission(), 0);
+    else showToast("寫作時間已到。", "error");
+  }
+}
+
+function handleWritingTimerExpiry() {
+  if (state.writingTimer.status === "expired") return;
+  state.writingTimer = expireWritingTimer(state.writingTimer);
+  persistDraft();
+  syncWritingTimerUi();
+  if (state.writingTimer.forceSubmit) {
+    window.setTimeout(() => attemptTimerForceSubmission(), 0);
+  } else {
+    showToast("寫作時間已到。", "error");
+  }
+}
+
+function tickWritingTimer() {
+  if (state.writingTimer.status !== "running") return;
+  const remaining = writingTimerRemaining(state.writingTimer);
+  if (remaining <= 0) {
+    handleWritingTimerExpiry();
+    return;
+  }
+  state.writingTimer.remainingSeconds = remaining;
+  elements.writingTimerDisplay.textContent = formatWritingTimer(remaining);
+  elements.writingTimerToggleDisplay.textContent = formatWritingTimer(remaining);
+}
+
+function startWritingTimerClock() {
+  if (state.writingTimerClock) return;
+  state.writingTimerClock = window.setInterval(tickWritingTimer, 250);
+}
+
+function openWritingTimerPanel(open = !state.writingTimerPanelOpen) {
+  state.writingTimerPanelOpen = Boolean(open);
+  syncWritingTimerUi();
+  if (state.writingTimerPanelOpen) {
+    window.setTimeout(() => elements.writingTimerPanel.scrollIntoView({ block: "nearest", behavior: "smooth" }), 0);
+  }
+}
+
+function handleWritingTimerStart() {
+  try {
+    state.writingTimer = state.writingTimer.status === "paused"
+      ? resumeWritingTimer(state.writingTimer)
+      : startWritingTimer(
+        timerInputSeconds(
+          elements.writingTimerHours.value,
+          elements.writingTimerMinutes.value,
+          elements.writingTimerSeconds.value
+        ),
+        elements.writingTimerForce.checked
+      );
+    state.writingTimer.autoSubmitAttemptedAt = 0;
+    state.writingTimer.autoSubmitError = "";
+    persistDraft();
+    syncWritingTimerUi();
+  } catch {
+    elements.writingTimerStatus.textContent = "請設定最少 1 秒的倒數時間。";
+    elements.writingTimerSeconds.focus();
+  }
+}
+
+function handleWritingTimerPause() {
+  state.writingTimer = pauseWritingTimer(state.writingTimer);
+  persistDraft();
+  syncWritingTimerUi();
+}
+
+function handleWritingTimerReset() {
+  state.writingTimer = emptyWritingTimer();
+  state.timerAutoSubmitLock = false;
+  setWritingTimerInputs(40 * 60);
+  persistDraft();
+  syncWritingTimerUi();
+}
+
+function handleWritingTimerForceChange() {
+  state.writingTimer.forceSubmit = elements.writingTimerForce.checked;
+  state.writingTimer.autoSubmitError = "";
+  state.writingTimer.autoSubmitAttemptedAt = 0;
+  persistDraft();
+  syncWritingTimerUi();
+  if (state.writingTimer.status === "expired" && state.writingTimer.forceSubmit) {
+    attemptTimerForceSubmission();
+  }
+}
+
+async function attemptTimerForceSubmission({ retry = false } = {}) {
+  if (
+    state.user?.role !== "student"
+    || state.writingTimer.status !== "expired"
+    || !state.writingTimer.forceSubmit
+    || state.timerAutoSubmitLock
+    || state.submissionPromise
+  ) return false;
+  if (state.writingTimer.autoSubmitAttemptedAt && !retry) {
+    syncWritingTimerUi();
+    return false;
+  }
+  if (!navigator.onLine) {
+    state.writingTimer.autoSubmitError = "時間已到，但目前沒有網絡。文章草稿仍安全保留；連線後可重試自動提交。";
+    persistDraft();
+    syncWritingTimerUi();
+    return false;
+  }
+  if (!elements.topicInput.value.trim() || !elements.writingInput.value.trim()) {
+    state.writingTimer.autoSubmitError = "時間已到，但寫作題目或文章內容仍未填寫，因此未能自動提交。補充內容後請按「重試自動提交」。";
+    persistDraft();
+    syncWritingTimerUi();
+    return false;
+  }
+  state.timerAutoSubmitLock = true;
+  state.writingTimer.autoSubmitAttemptedAt = Date.now();
+  state.writingTimer.autoSubmitError = "";
+  persistDraft();
+  syncWritingTimerUi();
+  try {
+    await submitCurrentWriting({ source: "timer" });
+    return true;
+  } catch (error) {
+    state.writingTimer.autoSubmitError = `時間已到，但自動提交未成功：${error.message || "請稍後重試。"}`;
+    persistDraft();
+    syncWritingTimerUi();
+    return false;
+  } finally {
+    state.timerAutoSubmitLock = false;
+    syncWritingTimerUi();
+  }
+}
+
 function startNewDraft({ preserveView = false } = {}) {
   window.clearTimeout(state.manualRecheckTimer);
   state.manualRecheckTimer = null;
@@ -825,6 +1063,8 @@ function startNewDraft({ preserveView = false } = {}) {
   state.documentId = newDocumentId();
   state.draftDurationSeconds = 0;
   state.submissionDurationSeconds = null;
+  state.writingTimer = emptyWritingTimer();
+  state.timerAutoSubmitLock = false;
   state.writingClockLastAt = Date.now();
   state.lastWritingActivityAt = Date.now();
   state.previousWriting = "";
@@ -838,6 +1078,8 @@ function startNewDraft({ preserveView = false } = {}) {
   setStatus(elements.submissionStatus, "");
   renderGrammarIssues();
   updateEditorMetrics();
+  setWritingTimerInputs(40 * 60);
+  syncWritingTimerUi();
   persistDraft();
   if (!preserveView) showView("workspace");
   window.setTimeout(() => elements.topicInput.focus(), 0);
@@ -855,6 +1097,8 @@ function restoreDraft() {
   state.documentId = draft?.documentId || newDocumentId();
   state.draftDurationSeconds = draft?.durationSeconds || 0;
   state.submissionDurationSeconds = draft?.submissionDurationSeconds ?? null;
+  state.writingTimer = normalizeWritingTimer(draft?.writingTimer);
+  state.timerAutoSubmitLock = false;
   state.writingClockLastAt = Date.now();
   state.lastWritingActivityAt = Date.now();
   state.appliedCorrections = [];
@@ -864,11 +1108,21 @@ function restoreDraft() {
   renderSelectedTopicPreview();
   state.previousWriting = elements.writingInput.value;
   updateEditorMetrics();
+  if (state.writingTimer.durationSeconds) setWritingTimerInputs(state.writingTimer.durationSeconds);
+  else setWritingTimerInputs(40 * 60);
+  syncWritingTimerUi();
   renderGrammarIssues();
   persistDraft();
   const completedSegments = completedWritingSegments(elements.writingInput.value);
   if (state.grammarDetectionEnabled && completedSegments.length) {
     enqueueSegmentsForCheck(completedSegments, { remote: false });
+  }
+  if (
+    state.writingTimer.status === "expired"
+    && state.writingTimer.forceSubmit
+    && !state.writingTimer.autoSubmitAttemptedAt
+  ) {
+    window.setTimeout(() => attemptTimerForceSubmission(), 0);
   }
 }
 
@@ -1994,13 +2248,165 @@ async function fetchAllSubmissionPages(path, { pageSize = 100, maximumPages = 20
   return submissions;
 }
 
+function syncSubmissionExportControls() {
+  if (!elements.exportSelectAll) return;
+  const availableIds = new Set(state.submissions.map(item => item.id));
+  for (const id of state.selectedExportSubmissionIds) {
+    if (!availableIds.has(id)) state.selectedExportSubmissionIds.delete(id);
+  }
+  const selectedCount = state.selectedExportSubmissionIds.size;
+  elements.exportSelectedCount.textContent = `已選 ${selectedCount} 篇`;
+  elements.exportSelectAll.checked = Boolean(state.submissions.length && selectedCount === state.submissions.length);
+  elements.exportSelectAll.indeterminate = selectedCount > 0 && selectedCount < state.submissions.length;
+  elements.exportSelectAll.disabled = state.exportInFlight || !state.submissions.length;
+  elements.exportSelectedSubmissions.disabled = state.exportInFlight || selectedCount < 1;
+  elements.exportAllSubmissions.disabled = state.exportInFlight || !state.submissions.length;
+}
+
+function escapePrintHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, character => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;"
+  })[character]);
+}
+
+async function fetchOwnSubmissionDetail(id) {
+  const normalizedId = String(id || "");
+  if (!UUID_RE.test(normalizedId) || !state.submissions.some(item => item.id === normalizedId)) {
+    throw new Error("文章不屬於目前登入帳戶。");
+  }
+  const payload = await apiJson(`/v1/submissions/${encodeURIComponent(normalizedId)}`);
+  return normalizeSubmission(payload?.submission || payload);
+}
+
+async function mapWithConcurrency(values, mapper, concurrency = 4) {
+  const results = new Array(values.length);
+  let cursor = 0;
+  const workers = Array.from({ length: Math.min(concurrency, values.length) }, async () => {
+    while (cursor < values.length) {
+      const index = cursor;
+      cursor += 1;
+      try {
+        results[index] = { status: "fulfilled", value: await mapper(values[index], index) };
+      } catch (reason) {
+        results[index] = { status: "rejected", reason };
+      }
+    }
+  });
+  await Promise.all(workers);
+  return results;
+}
+
+function writingExportHtml(submissions, { failedCount = 0 } = {}) {
+  const generatedAt = new Intl.DateTimeFormat("zh-HK", {
+    dateStyle: "long",
+    timeStyle: "short",
+    timeZone: "Asia/Hong_Kong"
+  }).format(new Date());
+  const articles = submissions.map((submission, index) => `
+    <article class="composition">
+      <header>
+        <p class="sequence">ARTICLE ${index + 1} / ${submissions.length}</p>
+        <h1>我的文章 ${index + 1}</h1>
+        <div class="meta">
+          <span>${escapePrintHtml(formatSubmissionDate(submission.submittedAt))}</span>
+          <span>${escapePrintHtml(`${submission.wordCount} words`)}</span>
+          <span>${escapePrintHtml(`寫作用時：${formatCompactDuration(submission.durationSeconds)}`)}</span>
+        </div>
+      </header>
+      <section class="topic"><strong>寫作題目</strong><p>${escapePrintHtml(submission.topic)}</p></section>
+      <section class="answer"><strong>文章內容</strong><div>${escapePrintHtml(submission.answer || "（文章內容為空）")}</div></section>
+    </article>`).join("");
+  return `<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EdmundEducation－我的文章</title>
+<style>
+  *{box-sizing:border-box} body{margin:0;color:#242342;background:#eee;font-family:Georgia,"Times New Roman","Noto Serif TC",serif}
+  .print-toolbar{position:sticky;top:0;z-index:5;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;color:#fff;background:#272757;font-family:system-ui,sans-serif}
+  .print-toolbar p{margin:0;font-size:13px}.print-toolbar button{border:0;border-radius:999px;padding:10px 16px;color:#272757;background:#fff;cursor:pointer;font-weight:800}
+  main{width:min(900px,calc(100% - 28px));margin:26px auto}.composition{margin:0 0 28px;padding:44px 48px;background:#fff;box-shadow:0 12px 38px rgba(20,20,50,.12);break-after:page}
+  .composition:last-child{break-after:auto}.sequence{margin:0 0 8px;color:#bd571b;font:800 11px system-ui,sans-serif;letter-spacing:.13em}
+  h1{margin:0 0 14px;font-size:27px;line-height:1.35}.meta{display:flex;flex-wrap:wrap;gap:7px 14px;color:#66637c;font:12px system-ui,sans-serif}
+  section{margin-top:26px}.topic{border-left:5px solid #e87b2c;padding:14px 18px;background:#fff6e8}.topic strong,.answer>strong{display:block;margin-bottom:8px;color:#bd571b;font:800 11px system-ui,sans-serif;letter-spacing:.08em}
+  .topic p{margin:0;font-size:16px;line-height:1.65;white-space:pre-wrap}.answer div{font-size:17px;line-height:1.85;white-space:pre-wrap;overflow-wrap:anywhere}
+  @media(max-width:600px){.composition{padding:27px 22px}h1{font-size:22px}}
+  @media print{@page{size:A4;margin:16mm}.print-toolbar{display:none!important}body{background:#fff}main{width:auto;margin:0}.composition{margin:0;padding:0;box-shadow:none}.composition header{padding-bottom:12px;border-bottom:1px solid #ddd}}
+</style></head><body>
+<div class="print-toolbar"><p>已準備 ${submissions.length} 篇文章${failedCount ? `；${failedCount} 篇未能載入` : ""} · ${escapePrintHtml(generatedAt)}</p><button type="button" id="print-compositions">列印／儲存為 PDF</button></div>
+<main>${articles}</main></body></html>`;
+}
+
+async function exportStudentSubmissions(ids) {
+  if (state.user?.role !== "student" || state.exportInFlight) return;
+  const availableIds = new Set(state.submissions.map(item => item.id));
+  const requestedIds = [...new Set(ids.map(id => String(id || "")))]
+    .filter(id => UUID_RE.test(id) && availableIds.has(id));
+  if (!requestedIds.length) {
+    showToast("請先選擇最少一篇文章。", "error");
+    return;
+  }
+  const printWindow = window.open("", "_blank");
+  if (!printWindow) {
+    showToast("瀏覽器已封鎖匯出視窗；請允許彈出式視窗後再試。", "error");
+    return;
+  }
+  try { printWindow.opener = null; } catch { /* Some browsers make opener read-only. */ }
+  printWindow.document.open();
+  printWindow.document.write("<!doctype html><html lang=\"zh-Hant\"><meta charset=\"utf-8\"><title>正在準備文章</title><body style=\"font-family:system-ui;padding:32px\">正在安全載入您的文章……</body></html>");
+  printWindow.document.close();
+  state.exportInFlight = true;
+  syncSubmissionExportControls();
+  try {
+    const results = await mapWithConcurrency(requestedIds, fetchOwnSubmissionDetail, 4);
+    const submissions = results.filter(result => result.status === "fulfilled").map(result => result.value);
+    const failedCount = results.length - submissions.length;
+    if (!submissions.length) throw new Error("未能載入所選文章。");
+    if (printWindow.closed) throw new Error("匯出視窗已關閉。");
+    printWindow.document.open();
+    printWindow.document.write(writingExportHtml(submissions, { failedCount }));
+    printWindow.document.close();
+    const printButton = printWindow.document.querySelector("#print-compositions");
+    printButton?.addEventListener("click", () => printWindow.print());
+    window.setTimeout(() => {
+      try { printWindow.focus(); printWindow.print(); } catch { /* The visible print button remains available. */ }
+    }, 350);
+    showToast(failedCount
+      ? `已準備 ${submissions.length} 篇文章；${failedCount} 篇暫時未能載入。`
+      : `已準備 ${submissions.length} 篇文章供列印或儲存 PDF。`, failedCount ? "error" : "success");
+  } catch (error) {
+    console.warn("Writing submission export failed", error);
+    if (!printWindow.closed) {
+      printWindow.document.open();
+      printWindow.document.write(`<!doctype html><meta charset="utf-8"><body style="font-family:system-ui;padding:32px"><h1>暫時未能匯出文章</h1><p>${escapePrintHtml(error.message || "請稍後再試。")}</p></body>`);
+      printWindow.document.close();
+    }
+    showToast(error.message || "暫時未能匯出文章。", "error");
+  } finally {
+    state.exportInFlight = false;
+    syncSubmissionExportControls();
+  }
+}
+
 function renderSubmissionList() {
   if (!state.submissions.length) {
     elements.submissionList.replaceChildren(emptyState("尚未有已提交文章。"));
+    syncSubmissionExportControls();
     return;
   }
   const fragment = document.createDocumentFragment();
   for (const submission of state.submissions) {
+    const row = createElement("article", "submission-list-item");
+    if (state.selectedSubmissionId === submission.id) row.classList.add("is-current");
+    const selection = createElement("label", "submission-export-checkbox");
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.dataset.exportSubmissionId = submission.id;
+    checkbox.checked = state.selectedExportSubmissionIds.has(submission.id);
+    const selectionLabel = createElement("span", "sr-only", `選取文章：${submission.topic}`);
+    selection.append(checkbox, selectionLabel);
     const button = createElement("button", "submission-row");
     button.type = "button";
     button.dataset.submissionId = submission.id;
@@ -2009,9 +2415,11 @@ function renderSubmissionList() {
       createElement("strong", "", submission.topic),
       createElement("span", "", `${formatSubmissionDate(submission.submittedAt)} · ${submission.wordCount} words · ${formatCompactDuration(submission.durationSeconds)}`)
     );
-    fragment.append(button);
+    row.append(selection, button);
+    fragment.append(row);
   }
   elements.submissionList.replaceChildren(fragment);
+  syncSubmissionExportControls();
 }
 
 function renderSubmissionDetail(submission, container = elements.submissionDetail, admin = false) {
@@ -2029,10 +2437,13 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   header.append(meta);
   if (!admin) {
     const actions = createElement("div", "submission-detail-actions");
+    const exportButton = createElement("button", "export-submission-button", "匯出這篇文章");
+    exportButton.type = "button";
+    exportButton.dataset.exportSubmission = submission.id;
     const remove = createElement("button", "delete-submission-button", "刪除這篇文章");
     remove.type = "button";
     remove.dataset.deleteSubmission = submission.id;
-    actions.append(remove);
+    actions.append(exportButton, remove);
     header.append(actions);
   }
   const content = createElement("div", "submission-content", submission.answer || "（文章內容為空）");
@@ -2042,6 +2453,10 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
 async function loadSubmissions({ selectId = "" } = {}) {
   elements.submissionList.replaceChildren(loadingState("正在載入文章…"));
   state.submissions = await fetchAllSubmissionPages("/v1/submissions");
+  const availableIds = new Set(state.submissions.map(item => item.id));
+  for (const id of state.selectedExportSubmissionIds) {
+    if (!availableIds.has(id)) state.selectedExportSubmissionIds.delete(id);
+  }
   renderSubmissionList();
   if (selectId) await openSubmission(selectId);
 }
@@ -2079,6 +2494,7 @@ async function deleteStudentSubmission(id) {
   if (!confirmed) return;
   try {
     await apiJson(`/v1/submissions/${encodeURIComponent(id)}`, { method: "DELETE" });
+    state.selectedExportSubmissionIds.delete(id);
     state.selectedSubmissionId = "";
     elements.submissionDetail.replaceChildren(emptyState("文章已從您的個人列表刪除；管理員仍可查看保存記錄。"));
     await Promise.all([loadSubmissions(), loadWritingProgress()]);
@@ -2089,15 +2505,12 @@ async function deleteStudentSubmission(id) {
   }
 }
 
-async function submitWriting(event) {
-  event.preventDefault();
-  accrueWritingTime();
+async function submitCurrentWriting({ source = "manual" } = {}) {
+  if (state.submissionPromise) return state.submissionPromise;
   const topic = elements.topicInput.value.trim();
   const answer = elements.writingInput.value.trim();
-  if (!topic || !answer) {
-    setStatus(elements.submissionStatus, "請先輸入寫作題目及文章內容。", "error");
-    return;
-  }
+  if (!topic || !answer) throw new Error("請先輸入寫作題目及文章內容。");
+  accrueWritingTime();
   if (!UUID_RE.test(state.documentId)) state.documentId = newDocumentId();
   const submittedDocumentId = state.documentId;
   if (!Number.isSafeInteger(state.submissionDurationSeconds)) {
@@ -2105,15 +2518,22 @@ async function submitWriting(event) {
     persistDraft();
   }
   const submittedDurationSeconds = state.submissionDurationSeconds;
-  elements.submitWriting.disabled = true;
-  setStatus(elements.submissionStatus, "正在安全保存文章…");
-  try {
-    await state.checkQueue;
+  const submissionTask = (async () => {
+    if (source === "timer") {
+      setStatus(elements.submissionStatus, "時間已到，正在自動提交文章…");
+      await Promise.race([
+        state.checkQueue,
+        new Promise((resolve) => window.setTimeout(resolve, 2000))
+      ]);
+    } else {
+      setStatus(elements.submissionStatus, "正在安全保存文章…");
+      await state.checkQueue;
+    }
     const remoteChecks = [...state.remoteGrammarPromises];
     if (remoteChecks.length) {
       await Promise.race([
         Promise.allSettled(remoteChecks),
-        new Promise((resolve) => window.setTimeout(resolve, 1500))
+        new Promise((resolve) => window.setTimeout(resolve, source === "timer" ? 900 : 1500))
       ]);
     }
     const payload = await apiJson(`/v1/submissions/${encodeURIComponent(submittedDocumentId)}`, {
@@ -2127,8 +2547,8 @@ async function submitWriting(event) {
     const saved = normalizeSubmission(payload?.submission || payload);
     const submittedId = saved.id || submittedDocumentId;
     clearStoredDraft();
-    setStatus(elements.submissionStatus, "文章已提交及保存。", "success");
-    showToast("文章已成功提交。", "success");
+    setStatus(elements.submissionStatus, source === "timer" ? "時間已到；文章已自動提交及保存。" : "文章已提交及保存。", "success");
+    showToast(source === "timer" ? "時間已到，文章已自動提交。" : "文章已成功提交。", "success");
     flushGrammarOccurrences().catch((error) => {
       console.warn("Grammar history will retry after submission", error);
       scheduleOccurrenceFlush();
@@ -2136,11 +2556,34 @@ async function submitWriting(event) {
     startNewDraft({ preserveView: true });
     await openSubmissions();
     await openSubmission(submittedId);
+    return submittedId;
+  })();
+  state.submissionPromise = submissionTask;
+  elements.submitWriting.disabled = true;
+  syncWritingTimerUi();
+  try {
+    return await submissionTask;
+  } finally {
+    state.submissionPromise = null;
+    elements.submitWriting.disabled = false;
+    syncWritingTimerUi();
+    if (
+      state.writingTimer.status === "expired"
+      && state.writingTimer.forceSubmit
+      && !state.writingTimer.autoSubmitAttemptedAt
+    ) {
+      window.setTimeout(() => attemptTimerForceSubmission(), 0);
+    }
+  }
+}
+
+async function submitWriting(event) {
+  event.preventDefault();
+  try {
+    await submitCurrentWriting({ source: "manual" });
   } catch (error) {
     console.warn("Writing submission failed", error);
     setStatus(elements.submissionStatus, error.message || "未能保存文章，請再試一次。", "error");
-  } finally {
-    elements.submitWriting.disabled = false;
   }
 }
 
@@ -2560,6 +3003,37 @@ function bindEvents() {
   elements.refreshAdminReview.addEventListener("click", () => openAdminExplanationReview().catch(handleViewError));
   elements.adminReviewMore.addEventListener("click", () => loadAdminExplanationReviews().catch(handleViewError));
   elements.writingForm.addEventListener("submit", submitWriting);
+  elements.writingTimerToggle.addEventListener("click", () => openWritingTimerPanel());
+  elements.writingTimerStart.addEventListener("click", handleWritingTimerStart);
+  elements.writingTimerPause.addEventListener("click", handleWritingTimerPause);
+  elements.writingTimerReset.addEventListener("click", handleWritingTimerReset);
+  elements.writingTimerRetry.addEventListener("click", () => attemptTimerForceSubmission({ retry: true }));
+  elements.writingTimerForce.addEventListener("change", handleWritingTimerForceChange);
+  elements.exportSelectAll.addEventListener("change", () => {
+    state.selectedExportSubmissionIds.clear();
+    if (elements.exportSelectAll.checked) {
+      for (const submission of state.submissions) state.selectedExportSubmissionIds.add(submission.id);
+    }
+    renderSubmissionList();
+  });
+  elements.exportSelectedSubmissions.addEventListener("click", () => {
+    const ids = state.submissions
+      .map(submission => submission.id)
+      .filter(id => state.selectedExportSubmissionIds.has(id));
+    exportStudentSubmissions(ids);
+  });
+  elements.exportAllSubmissions.addEventListener("click", () => {
+    exportStudentSubmissions(state.submissions.map(submission => submission.id));
+  });
+  elements.submissionList.addEventListener("change", (event) => {
+    const checkbox = event.target.closest("[data-export-submission-id]");
+    if (!checkbox) return;
+    const id = String(checkbox.dataset.exportSubmissionId || "");
+    if (!UUID_RE.test(id)) return;
+    if (checkbox.checked) state.selectedExportSubmissionIds.add(id);
+    else state.selectedExportSubmissionIds.delete(id);
+    syncSubmissionExportControls();
+  });
   elements.topicInput.addEventListener("input", () => {
     markWritingActivity();
     updateEditorMetrics();
@@ -2596,6 +3070,8 @@ function bindEvents() {
     if (submission) return openSubmission(submission.dataset.submissionId);
     const deleteSubmission = event.target.closest("[data-delete-submission]");
     if (deleteSubmission) return deleteStudentSubmission(deleteSubmission.dataset.deleteSubmission);
+    const exportSubmission = event.target.closest("[data-export-submission]");
+    if (exportSubmission) return exportStudentSubmissions([exportSubmission.dataset.exportSubmission]);
     const writingTopic = event.target.closest("[data-select-writing-topic]");
     if (writingTopic) return selectWritingTopic(writingTopic.dataset.selectWritingTopic);
     if (event.target.closest("[data-remove-topic-preview]")) {
@@ -2629,7 +3105,13 @@ function bindEvents() {
   document.addEventListener("visibilitychange", () => {
     accrueWritingTime();
     state.writingClockLastAt = Date.now();
+    if (document.visibilityState === "visible") tickWritingTimer();
     if (document.visibilityState === "visible" && state.currentView === "workspace") markWritingActivity();
+  });
+  window.addEventListener("online", () => {
+    if (state.writingTimer.status === "expired" && state.writingTimer.forceSubmit && state.writingTimer.autoSubmitError) {
+      attemptTimerForceSubmission({ retry: true });
+    }
   });
 }
 
@@ -2651,6 +3133,10 @@ async function checkHealth() {
 async function initialise() {
   bindEvents();
   startWritingClock();
+  startWritingTimerClock();
+  setWritingTimerInputs(40 * 60);
+  syncWritingTimerUi();
+  syncSubmissionExportControls();
   syncGrammarDetectionControls();
   updateEditorMetrics();
   renderGrammarIssues();

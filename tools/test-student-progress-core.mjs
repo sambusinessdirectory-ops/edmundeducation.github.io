@@ -21,6 +21,12 @@ const sourceHours = {
   phrasalVerbs: 1,
   idioms: 2,
   proverbs: 1,
+  commonExpressionSpeaking: 0,
+  commonExpressionWritten: 0,
+  commonExpressionRhetoricalSpeaking: 0,
+  commonExpressionRhetoricalWriting: 0,
+  commonExpressionProfessionalMessage: 0,
+  commonExpressionBusinessSpeaking: 0,
   writingSubmission: 0
 };
 
@@ -55,6 +61,12 @@ test("source order matches the requested portal priority", () => {
     "phrasalVerbs",
     "idioms",
     "proverbs",
+    "commonExpressionSpeaking",
+    "commonExpressionWritten",
+    "commonExpressionRhetoricalSpeaking",
+    "commonExpressionRhetoricalWriting",
+    "commonExpressionProfessionalMessage",
+    "commonExpressionBusinessSpeaking",
     "writingSubmission"
   ]);
 });
@@ -72,12 +84,43 @@ test("the supplied seven-system example totals exactly 18 hours on one date", ()
   assert.equal(master.allTimeTotalMs, 19 * hour);
 });
 
-test("Writing Submission joins the master total as the eighth source", () => {
+test("Writing Submission joins the master total with all fourteen sources", () => {
   const master = buildMasterTimeSeries(fixture(), "week", new Date(2026, 6, 28, 12));
   const point = master.points.find(({ key }) => key === "2026-07-28");
   assert.equal(point.systems.writingSubmission, 90 * 60 * 1000);
   assert.equal(point.totalMs, 19.5 * hour);
   assert.equal(master.allTimeTotalMs, 20.5 * hour);
+});
+
+test("all six Common Expression systems contribute independent activity and time series", () => {
+  const snapshot = fixture();
+  const sourceIds = [
+    "commonExpressionSpeaking",
+    "commonExpressionWritten",
+    "commonExpressionRhetoricalSpeaking",
+    "commonExpressionRhetoricalWriting",
+    "commonExpressionProfessionalMessage",
+    "commonExpressionBusinessSpeaking"
+  ];
+  sourceIds.forEach((sourceId, index) => {
+    snapshot.sources[sourceId] = {
+      activityDays: [{ date: "2026-07-28", questions: index + 1 }],
+      timeDays: [{ date: "2026-07-28", totalMs: (index + 1) * 10 * 60 * 1000 }]
+    };
+  });
+
+  sourceIds.forEach((sourceId, index) => {
+    const activity = buildActivitySeries(snapshot, sourceId, "week", new Date(2026, 6, 28, 12));
+    const time = buildSourceTimeSeries(snapshot, sourceId, "week", new Date(2026, 6, 28, 12));
+    assert.equal(activity.primaryTotal, index + 1, `${sourceId} question total`);
+    assert.equal(time.allTimeMs, (index + 1) * 10 * 60 * 1000, `${sourceId} time total`);
+  });
+
+  const master = buildMasterTimeSeries(snapshot, "week", new Date(2026, 6, 28, 12));
+  const point = master.points.find(({ key }) => key === "2026-07-28");
+  assert.equal(point.systems.commonExpressionSpeaking, 10 * 60 * 1000);
+  assert.equal(point.systems.commonExpressionBusinessSpeaking, 60 * 60 * 1000);
+  assert.equal(point.totalMs, 23 * hour, "six Common Expression time totals join the existing 19.5 hours");
 });
 
 test("source activity and time totals preserve canonical source metrics", () => {
@@ -112,7 +155,7 @@ test("Writing Submission average is total composition time divided by articles",
 test("malformed payloads normalize to safe empty sources", () => {
   const normalized = normalizeProgressSnapshot({ student: { name: "A" }, sources: { flashcards: null } });
   assert.equal(normalized.student.name, "A");
-  assert.equal(Object.keys(normalized.sources).length, 8);
+  assert.equal(Object.keys(normalized.sources).length, 14);
   assert.deepEqual(normalized.sources.flashcards, { activityDays: [], timeDays: [] });
   assert.equal(formatProgressDuration(3661000), "1 小時 01 分 01 秒");
 });

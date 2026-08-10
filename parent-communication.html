@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 家長溝通系統，讓獲授權家長查看子女的全面英文能力發展進度。">
+  <meta name="theme-color" content="#123a63">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>家長溝通系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/parent-communication.html">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <script defer src="/pwa-register.js"></script>
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-2">
+  <link rel="stylesheet" href="student-progress.css?v=20260810-1">
+</head>
+<body data-progress-portal="parent">
+  <a class="skip-link" href="#parent-communication-main">跳至主要內容</a>
+
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner">
+      <a class="parent-brand" href="index.html" aria-label="返回 EdmundEducation 主頁">
+        <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+        <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Parent Communication Portal</small></span>
+      </a>
+      <div class="edmund-system-header__actions progress-header-actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <button class="header-button" type="button" data-refresh hidden>更新數據</button>
+        <button class="header-button" type="button" data-change-password hidden>更改用戶系統 Password</button>
+        <a class="header-button" href="index.html">返回主頁</a>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="parent-communication-main" class="progress-app-shell">
+    <section class="progress-view" data-view="login">
+      <div class="login-layout">
+        <article class="login-hero progress-panel">
+          <div class="hero-chart" aria-hidden="true">
+            <span style="--bar:42%"></span><span style="--bar:61%"></span><span style="--bar:53%"></span>
+            <span style="--bar:76%"></span><span style="--bar:68%"></span><span style="--bar:91%"></span>
+          </div>
+          <p class="eyebrow">EDMUND PARENT COMMUNICATION</p>
+          <div class="hero-copy">
+            <p class="student-label">(家長使用)</p>
+            <h1>家長溝通系統</h1>
+            <p>集中查看已由 Edmund Sir 指派給您的子女帳戶之全面英文能力發展進度。</p>
+          </div>
+        </article>
+
+        <section class="login-panel progress-panel" aria-labelledby="parent-login-title">
+          <div class="login-heading">
+            <span class="section-number">01</span>
+            <div><p class="eyebrow">PARENT LOGIN</p><h2 id="parent-login-title">家長帳戶登入</h2><p>請使用由 Edmund Sir 建立的家長帳戶。</p></div>
+          </div>
+          <form class="login-form" data-login-form novalidate>
+            <label class="field"><span>用戶名稱</span><input id="student-progress-username" name="username" type="text" autocomplete="username" maxlength="100" required placeholder="輸入家長用戶名稱"></label>
+            <label class="field"><span>密碼</span><span class="password-field"><input id="student-progress-password" name="password" type="password" autocomplete="current-password" maxlength="200" required placeholder="輸入密碼"><button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button></span></label>
+            <p class="form-status" data-login-status role="status" aria-live="polite"></p>
+            <button class="primary-button" type="submit" data-login-button>登入並查看子女進度</button>
+          </form>
+          <p class="account-note">家長帳戶只可讀取獲授權學生的進度摘要，不能開啟或操作任何學生練習。</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="progress-view" data-view="dashboard" hidden>
+      <section class="dashboard-hero progress-panel">
+        <div><p class="eyebrow">PARENT VIEW · READ ONLY</p><h1>全面英文能力發展進度表</h1><p data-dashboard-welcome>只顯示由管理員明確指派的學生進度。</p></div>
+        <div class="dashboard-total-time"><span>全部系統累積時間</span><strong data-master-total>0 秒</strong><small data-generated-at>尚未更新</small></div>
+      </section>
+
+      <section class="admin-picker progress-panel" data-admin-picker hidden aria-labelledby="parent-student-heading">
+        <div><p class="eyebrow">ASSIGNED CHILDREN</p><h2 id="parent-student-heading">選擇子女</h2></div>
+        <label><span>已獲授權學生帳戶</span><select data-admin-student-select aria-label="選擇子女"></select></label>
+      </section>
+
+      <section class="progress-toolbar progress-panel" aria-label="統計範圍">
+        <div><p class="eyebrow">DATE RANGE</p><h2>選擇統計時段</h2><p>所有圖表會同步更新；可逐項展開或收起。</p></div>
+        <div class="range-buttons" data-range-buttons></div>
+      </section>
+      <p class="dashboard-status" data-dashboard-status role="status" aria-live="polite"></p>
+
+      <div class="dashboard-groups" data-dashboard-groups hidden>
+        <details class="dashboard-group master-group" open data-dashboard-group="master">
+          <summary><span class="group-index">01</span><span><strong>最重要總覽</strong><small>Master time dashboards</small></span><span class="summary-value" data-master-summary>0 秒</span></summary>
+          <div class="group-body master-chart-grid">
+            <article class="chart-card chart-card-wide">
+              <div class="chart-heading"><div><p class="eyebrow">MASTER CUMULATIVE TIME</p><h3>所有系統累積學習時間</h3></div><strong data-master-cumulative-total>0 秒</strong></div>
+              <p class="chart-description">粗線顯示全部系統總和；彩色線顯示各系統截至當日的累積時間。</p>
+              <div class="chart-scroll"><svg class="progress-chart" data-master-cumulative-chart viewBox="0 0 960 350" role="img" aria-label="所有學習系統累積時間圖表"></svg></div>
+              <div class="chart-legend" data-master-cumulative-legend></div>
+            </article>
+            <article class="chart-card chart-card-wide">
+              <div class="chart-heading"><div><p class="eyebrow">MASTER DAILY TIME</p><h3>每日所有系統學習時間</h3></div><strong data-master-daily-total>0 秒</strong></div>
+              <p class="chart-description">同一日期的彩色線代表各系統；粗線是該日所有系統時間總和。</p>
+              <div class="chart-scroll"><svg class="progress-chart" data-master-daily-chart viewBox="0 0 960 350" role="img" aria-label="所有學習系統每日時間圖表"></svg></div>
+              <div class="chart-legend" data-master-daily-legend></div>
+            </article>
+          </div>
+        </details>
+        <div data-source-groups></div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="progress-password-dialog" data-password-dialog aria-labelledby="parent-password-title">
+    <form class="login-form" data-password-form novalidate>
+      <div class="login-heading"><span class="section-number">PW</span><div><p class="eyebrow">ACCOUNT SECURITY</p><h2 id="parent-password-title">更改密碼</h2></div></div>
+      <label class="field"><span>目前密碼</span><input data-password-current type="password" autocomplete="current-password" maxlength="200" required></label>
+      <label class="field"><span>新密碼（最少 8 個字元）</span><input data-password-new type="password" autocomplete="new-password" minlength="8" maxlength="200" required></label>
+      <label class="field"><span>再次輸入新密碼</span><input data-password-confirm type="password" autocomplete="new-password" minlength="8" maxlength="200" required></label>
+      <p class="form-status" data-password-status role="status" aria-live="polite"></p>
+      <div class="dialog-actions"><button class="header-button" type="button" data-password-close>取消</button><button class="primary-button" type="submit">儲存新密碼</button></div>
+    </form>
+  </dialog>
+
+  <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script src="schedule-system-config.js"></script>
+  <script src="student-progress-config.js"></script>
+  <script type="module" src="student-progress.js?v=20260810-1"></script>
+</body>
+</html>

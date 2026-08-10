@@ -10,6 +10,16 @@ if (!SYSTEM) throw new Error(`Unknown Common Expression system: ${SYSTEM_KEY || 
 
 const SESSION_KEY = `edmund-common-expression-${SYSTEM_KEY}-session-v1`;
 const LOCAL_STATE_KEY = `edmund-common-expression-${SYSTEM_KEY}-local-v1`;
+const PROGRESS_PANEL_PREFERENCE_KEY = `edmund-common-expression-${SYSTEM_KEY}-progress-panel-v1`;
+const CUMULATIVE_PROGRESS_PREFERENCE_KEY = `edmund-common-expression-${SYSTEM_KEY}-cumulative-progress-v1`;
+const PROGRESS_RANGES = Object.freeze([
+  ["week", "Week"],
+  ["month", "Month"],
+  ["half-year", "Half a Year"],
+  ["ytd", "Year to Date"],
+  ["year", "1 Year"],
+  ["all", "All Time"]
+]);
 const TABS = Object.freeze([
   ["examples", "例句轉換", "Examples"],
   ["benefits", "學習好處", "Benefits"],
@@ -25,12 +35,20 @@ const state = {
   currentView: "login",
   lessonId: "",
   lessonTab: "examples",
-  questionIndex: 0,
   states: new Map(),
   dirtyLessonIds: new Set(),
   bookmarks: new Set(),
+  questionActivity: [],
+  timeActivity: [],
+  progressPanelExpanded: false,
+  progressRange: "month",
+  timeProgressRange: "month",
+  showCumulativeProgress: false,
+  selectedProgressDay: "",
+  selectedTimeProgressDay: "",
   lessonClockStartedAt: 0,
   saveQueue: Promise.resolve(),
+  draftTimer: 0,
   toastTimer: 0
 };
 
@@ -90,6 +108,7 @@ function normalizeLessonState(row) {
     if (!source || typeof source !== "object") continue;
     answers[question.id] = {
       answer: String(source.answer || "").slice(0, 6000),
+      checkedAnswer: String(source.checkedAnswer ?? (Number(source.attempts) > 0 ? source.answer : "")).slice(0, 6000),
       correct: source.correct === true,
       attempts: Math.max(0, Math.min(100, Number(source.attempts) || 0)),
       updatedAt: normalizeTimestamp(source.updatedAt)
@@ -102,6 +121,36 @@ function normalizeLessonState(row) {
     completedAt: normalizeTimestamp(row?.completed_at || raw.completedAt),
     updatedAt: normalizeTimestamp(row?.updated_at || raw.updatedAt)
   };
+}
+
+function normalizeQuestionActivity(rows) {
+  const unique = new Map();
+  for (const raw of Array.isArray(rows) ? rows : []) {
+    const lessonId = String(raw?.lessonId || raw?.lesson_id || "");
+    const questionId = String(raw?.questionId || raw?.question_id || "");
+    const completedAt = normalizeTimestamp(raw?.completedAt || raw?.completed_at);
+    if (!getLesson(lessonId)?.questions.some((question) => question.id === questionId) || !completedAt) continue;
+    const key = `${lessonId}\u0000${questionId}`;
+    const existing = unique.get(key);
+    if (!existing || timestampValue(completedAt) < timestampValue(existing.completedAt)) {
+      unique.set(key, { lessonId, questionId, completedAt });
+    }
+  }
+  return [...unique.values()].sort((a, b) => timestampValue(a.completedAt) - timestampValue(b.completedAt));
+}
+
+function normalizeTimeActivity(rows) {
+  const unique = new Map();
+  for (const raw of Array.isArray(rows) ? rows : []) {
+    const lessonId = String(raw?.lessonId || raw?.lesson_id || "");
+    const date = String(raw?.date || raw?.activity_date || "");
+    const durationMs = Math.max(0, Number(raw?.durationMs ?? raw?.duration_ms) || 0);
+    if (!getLesson(lessonId) || !/^\d{4}-\d{2}-\d{2}$/.test(date) || !durationMs) continue;
+    const key = `${lessonId}\u0000${date}`;
+    const existing = unique.get(key);
+    unique.set(key, { lessonId, date, durationMs: Math.max(durationMs, Number(existing?.durationMs || 0)) });
+  }
+  return [...unique.values()].sort((a, b) => a.date.localeCompare(b.date) || a.lessonId.localeCompare(b.lessonId));
 }
 
 function mergeLessonStates(server, local) {
@@ -170,16 +219,62 @@ function formatDuration(durationMs) {
   return `${minutes} 分 ${String(seconds % 60).padStart(2, "0")} 秒`;
 }
 
-function pauseClock() {
+function localDayKey(value = new Date()) {
+  const date = value instanceof Date ? value : new Date(value);
+  if (!Number.isFinite(date.getTime())) return "";
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Hong_Kong",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(date);
+  const valueFor = (type) => parts.find((part) => part.type === type)?.value || "";
+  return `${valueFor("year")}-${valueFor("month")}-${valueFor("day")}`;
+}
+
+function dateFromDayKey(key) {
+  const match = String(key || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  return match ? new Date(Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3]), 12)) : new Date(NaN);
+}
+
+function shiftDay(key, amount) {
+  const date = dateFromDayKey(key);
+  date.setUTCDate(date.getUTCDate() + amount);
+  return date.toISOString().slice(0, 10);
+}
+
+function addLocalTimeActivity(lessonId, durationMs, date = localDayKey()) {
+  const amount = Math.max(0, Math.round(Number(durationMs) || 0));
+  if (!amount || !getLesson(lessonId) || !date) return;
+  const row = state.timeActivity.find((item) => item.lessonId === lessonId && item.date === date);
+  if (row) row.durationMs += amount;
+  else state.timeActivity.push({ lessonId, date, durationMs: amount });
+  state.timeActivity = normalizeTimeActivity(state.timeActivity);
+}
+
+function addLocalQuestionCompletion(lessonId, questionId, completedAt = new Date().toISOString()) {
+  if (state.questionActivity.some((row) => row.lessonId === lessonId && row.questionId === questionId)) return;
+  state.questionActivity = normalizeQuestionActivity([
+    ...state.questionActivity,
+    { lessonId, questionId, completedAt }
+  ]);
+}
+
+function captureClockElapsed({ restart = false } = {}) {
   if (!state.lessonClockStartedAt || !state.lessonId) return;
+  const elapsed = Math.max(0, Math.round(performance.now() - state.lessonClockStartedAt));
   const record = lessonState(state.lessonId);
-  const nextDuration = currentDurationMs(state.lessonId);
-  if (nextDuration > record.durationMs) {
-    record.durationMs = nextDuration;
+  if (elapsed > 0) {
+    record.durationMs += elapsed;
     record.updatedAt = new Date().toISOString();
+    addLocalTimeActivity(state.lessonId, elapsed);
     markLessonDirty(state.lessonId);
   }
-  state.lessonClockStartedAt = 0;
+  state.lessonClockStartedAt = restart ? performance.now() : 0;
+}
+
+function pauseClock() {
+  captureClockElapsed();
 }
 
 function startClock() {
@@ -191,7 +286,7 @@ function renderAppShell() {
   const description = `${SYSTEM.descriptionZh} ${SYSTEM.descriptionEn}`;
   document.querySelector('meta[name="description"]')?.setAttribute("content", description);
 
-  document.querySelector("[data-system-title-small]").textContent = `${SYSTEM.titleEn} System`;
+  document.querySelector("[data-system-title-small]").innerHTML = `Common Expression<br>常用語${escapeHtml(SYSTEM.titleZh)} ${escapeHtml(SYSTEM.titleEn)}`;
   document.querySelector("[data-edmund-system-switcher]").dataset.system = SYSTEM.navId;
 
   const app = document.querySelector("[data-common-expression-app]");
@@ -202,7 +297,7 @@ function renderAppShell() {
           <div class="hero-copy">
             <p class="eyebrow">${escapeHtml(SYSTEM.eyebrow)}</p>
             <p class="student-label">(學生使用)</p>
-            <h1>Common Expression<br><span>常用語</span><br>${escapeHtml(SYSTEM.titleZh)} <span>${escapeHtml(SYSTEM.titleEn)}</span></h1>
+            <h1>Common Expression<br><span>常用語${escapeHtml(SYSTEM.titleZh)} ${escapeHtml(SYSTEM.titleEn)}</span></h1>
             <p>${escapeHtml(SYSTEM.descriptionZh)}<br>${escapeHtml(SYSTEM.descriptionEn)}</p>
           </div>
         </article>
@@ -230,7 +325,7 @@ function renderAppShell() {
       <section class="dashboard-hero glass-panel">
         <div>
           <p class="eyebrow">${escapeHtml(SYSTEM.eyebrow)}</p>
-          <h1>Common Expression 常用語<br>${escapeHtml(SYSTEM.titleZh)} ${escapeHtml(SYSTEM.titleEn)}</h1>
+          <h1>Common Expression<br><span class="common-expression-title-secondary">常用語${escapeHtml(SYSTEM.titleZh)} ${escapeHtml(SYSTEM.titleEn)}</span></h1>
           <p data-dashboard-welcome></p>
         </div>
         <div class="dashboard-metrics">
@@ -241,7 +336,24 @@ function renderAppShell() {
       </section>
       <section class="dashboard-toolbar glass-panel">
         <p>每個課題包括雙語概念、完整用法、重要規則及改寫練習；記錄會跟隨您的共用學生帳戶。</p>
-        <button class="secondary-button" type="button" data-open-bookmarks>☆ 我的書簽</button>
+        <div class="dashboard-toolbar-actions"><button class="secondary-button" type="button" data-open-bookmarks>☆ 我的書簽</button><button class="secondary-button" type="button" data-toggle-progress aria-expanded="false">查看練習進展</button></div>
+      </section>
+      <section class="common-progress-panel glass-panel" data-progress-panel hidden>
+        <div class="common-progress-heading"><div><p class="eyebrow">LEARNING PROGRESS</p><h2>練習進展</h2><p>查看每日完成題數及練習時間。按圖表上的日期可查看當日詳情。</p></div><a class="secondary-button common-progress-full-link" href="student-progress.html">全面英文能力發展進度表 →</a></div>
+        <article class="common-progress-card">
+          <div class="common-progress-card-heading"><div><h3>每日完成題數</h3><p>Questions completed by date</p></div><button class="secondary-button common-cumulative-toggle" type="button" data-toggle-cumulative aria-pressed="false">顯示累積總數</button></div>
+          <div class="common-progress-range" data-question-range-buttons></div>
+          <div class="common-progress-stats"><span><strong data-question-period-total>0</strong>本時段完成</span><span><strong data-question-all-total>0</strong>累計完成</span><span><strong data-question-active-days>0</strong>活躍日數</span></div>
+          <div class="common-chart-scroll"><svg class="common-progress-chart" data-question-chart viewBox="0 0 900 320" role="img" aria-label="每日完成題數圖表"></svg></div>
+          <div class="common-progress-day-panel" data-question-day-panel hidden><div class="common-progress-day-heading"><h4 data-question-day-title></h4><button class="text-button" type="button" data-close-question-day>關閉</button></div><div data-question-day-list></div></div>
+        </article>
+        <article class="common-progress-card">
+          <div class="common-progress-card-heading"><div><h3>每日練習時間</h3><p>Time spent by date</p></div></div>
+          <div class="common-progress-range" data-time-range-buttons></div>
+          <div class="common-progress-stats"><span><strong data-time-period-total>0 分 00 秒</strong>本時段時間</span><span><strong data-time-all-total>0 分 00 秒</strong>累計時間</span><span><strong data-time-active-days>0</strong>活躍日數</span></div>
+          <div class="common-chart-scroll"><svg class="common-progress-chart" data-time-chart viewBox="0 0 900 320" role="img" aria-label="每日練習時間圖表"></svg></div>
+          <div class="common-progress-day-panel" data-time-day-panel hidden><div class="common-progress-day-heading"><h4 data-time-day-title></h4><button class="text-button" type="button" data-close-time-day>關閉</button></div><div data-time-day-list></div></div>
+        </article>
       </section>
       <div class="lesson-grid" data-lesson-grid></div>
     </section>
@@ -265,7 +377,8 @@ function renderAppShell() {
           <div class="exercise-heading-top"><div><p class="eyebrow">COMMON EXPRESSION PRACTICE</p><h1 data-exercise-title></h1><p data-exercise-instruction></p></div><button class="secondary-button" type="button" data-back-lesson>返回課題內容</button></div>
           <div class="exercise-progress"><div class="progress-track"><i data-exercise-progress-bar></i></div><strong data-exercise-progress-label></strong></div>
         </section>
-        <section class="question-card glass-panel" data-question-card></section>
+        <section class="question-list" data-question-list></section>
+        <section class="exercise-submit-bar glass-panel"><div><strong data-exercise-draft-status>答案會先保存在此裝置</strong><p>您可提交已填寫的答案，或完成全部題目後一次提交。</p></div><div class="exercise-submit-actions"><button class="secondary-button" type="button" data-save-drafts>儲存草稿</button><button class="secondary-button" type="button" data-submit-partial>提交已填答案</button><button class="primary-button" type="button" data-submit-all>提交全部答案</button></div></section>
       </div>
     </section>
 
@@ -293,6 +406,25 @@ const elements = {
   lessonCount: document.querySelector("[data-lesson-count]"),
   questionTotal: document.querySelector("[data-question-total]"),
   timeTotal: document.querySelector("[data-time-total]"),
+  progressPanel: document.querySelector("[data-progress-panel]"),
+  progressToggle: document.querySelector("[data-toggle-progress]"),
+  questionRangeButtons: document.querySelector("[data-question-range-buttons]"),
+  timeRangeButtons: document.querySelector("[data-time-range-buttons]"),
+  cumulativeToggle: document.querySelector("[data-toggle-cumulative]"),
+  questionChart: document.querySelector("[data-question-chart]"),
+  timeChart: document.querySelector("[data-time-chart]"),
+  questionPeriodTotal: document.querySelector("[data-question-period-total]"),
+  questionAllTotal: document.querySelector("[data-question-all-total]"),
+  questionActiveDays: document.querySelector("[data-question-active-days]"),
+  timePeriodTotal: document.querySelector("[data-time-period-total]"),
+  timeAllTotal: document.querySelector("[data-time-all-total]"),
+  timeActiveDays: document.querySelector("[data-time-active-days]"),
+  questionDayPanel: document.querySelector("[data-question-day-panel]"),
+  questionDayTitle: document.querySelector("[data-question-day-title]"),
+  questionDayList: document.querySelector("[data-question-day-list]"),
+  timeDayPanel: document.querySelector("[data-time-day-panel]"),
+  timeDayTitle: document.querySelector("[data-time-day-title]"),
+  timeDayList: document.querySelector("[data-time-day-list]"),
   lessonGrid: document.querySelector("[data-lesson-grid]"),
   lessonKicker: document.querySelector("[data-lesson-kicker]"),
   lessonTitle: document.querySelector("[data-lesson-title]"),
@@ -305,7 +437,8 @@ const elements = {
   exerciseInstruction: document.querySelector("[data-exercise-instruction]"),
   exerciseProgressBar: document.querySelector("[data-exercise-progress-bar]"),
   exerciseProgressLabel: document.querySelector("[data-exercise-progress-label]"),
-  questionCard: document.querySelector("[data-question-card]"),
+  questionList: document.querySelector("[data-question-list]"),
+  exerciseDraftStatus: document.querySelector("[data-exercise-draft-status]"),
   bookmarkList: document.querySelector("[data-bookmark-list]"),
   toast: document.querySelector("[data-toast]")
 };
@@ -328,7 +461,11 @@ function showToast(message) {
 }
 
 function showView(viewName, { scroll = true } = {}) {
-  if (state.currentView === "exercise" && viewName !== "exercise") pauseClock();
+  if (state.currentView === "exercise" && viewName !== "exercise") {
+    window.clearTimeout(state.draftTimer);
+    updateDraftsFromFields();
+    pauseClock();
+  }
   state.currentView = viewName;
   for (const view of elements.views) view.hidden = view.dataset.view !== viewName;
   const loggedIn = Boolean(state.user && state.token);
@@ -387,11 +524,31 @@ function clearSession() {
   state.states.clear();
   state.dirtyLessonIds.clear();
   state.bookmarks.clear();
+  state.questionActivity = [];
+  state.timeActivity = [];
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Ignore unavailable storage. */ }
 }
 
 function localSnapshotKey() {
   return `${LOCAL_STATE_KEY}:${state.user?.id || state.user?.name || "unknown"}`;
+}
+
+function userPreferenceKey(baseKey) {
+  return `${baseKey}:${state.user?.id || state.user?.name || "unknown"}`;
+}
+
+function loadProgressPreferences() {
+  try {
+    state.progressPanelExpanded = localStorage.getItem(userPreferenceKey(PROGRESS_PANEL_PREFERENCE_KEY)) === "true";
+    state.showCumulativeProgress = localStorage.getItem(userPreferenceKey(CUMULATIVE_PROGRESS_PREFERENCE_KEY)) === "true";
+  } catch {
+    state.progressPanelExpanded = false;
+    state.showCumulativeProgress = false;
+  }
+}
+
+function saveProgressPreference(baseKey, value) {
+  try { localStorage.setItem(userPreferenceKey(baseKey), String(Boolean(value))); } catch { /* Optional UI preference. */ }
 }
 
 function writeLocalSnapshot() {
@@ -401,6 +558,8 @@ function writeLocalSnapshot() {
       states: [...state.states.values()],
       dirtyLessonIds: [...state.dirtyLessonIds],
       bookmarks: [...state.bookmarks],
+      questionActivity: state.questionActivity,
+      timeActivity: state.timeActivity,
       savedAt: new Date().toISOString()
     }));
   } catch { /* Server persistence remains authoritative. */ }
@@ -424,6 +583,8 @@ function applySnapshot(payload) {
   state.states.clear();
   state.dirtyLessonIds.clear();
   state.bookmarks.clear();
+  state.questionActivity = normalizeQuestionActivity(payload?.questionActivity || payload?.question_activity);
+  state.timeActivity = normalizeTimeActivity(payload?.timeActivity || payload?.time_activity);
   for (const row of Array.isArray(payload?.states) ? payload.states : []) {
     const normalized = normalizeLessonState(row);
     if (normalized) state.states.set(normalized.lessonId, normalized);
@@ -432,6 +593,14 @@ function applySnapshot(payload) {
     if (getLesson(String(lessonId))) state.bookmarks.add(String(lessonId));
   }
   const local = readLocalSnapshot();
+  state.questionActivity = normalizeQuestionActivity([
+    ...state.questionActivity,
+    ...(Array.isArray(local?.questionActivity) ? local.questionActivity : [])
+  ]);
+  state.timeActivity = normalizeTimeActivity([
+    ...state.timeActivity,
+    ...(Array.isArray(local?.timeActivity) ? local.timeActivity : [])
+  ]);
   const recoveredDirtyIds = new Set(Array.isArray(local?.dirtyLessonIds) ? local.dirtyLessonIds : []);
   for (const row of Array.isArray(local?.states) ? local.states : []) {
     const normalized = normalizeLessonState({ lesson_id: row.lessonId, state: row, duration_ms: row.durationMs });
@@ -442,6 +611,19 @@ function applySnapshot(payload) {
     }
     state.states.set(normalized.lessonId, mergeLessonStates(server, normalized));
   }
+  for (const record of state.states.values()) {
+    for (const [questionId, answer] of Object.entries(record.answers || {})) {
+      if (Number(answer.attempts || 0) > 0 && !state.questionActivity.some((row) => row.lessonId === record.lessonId && row.questionId === questionId)) {
+        addLocalQuestionCompletion(record.lessonId, questionId, answer.updatedAt || record.updatedAt || new Date().toISOString());
+      }
+    }
+    if (record.durationMs > 0 && !state.timeActivity.some((row) => row.lessonId === record.lessonId)) {
+      state.timeActivity = normalizeTimeActivity([
+        ...state.timeActivity,
+        { lessonId: record.lessonId, date: localDayKey(record.updatedAt || new Date()), durationMs: record.durationMs }
+      ]);
+    }
+  }
   if (state.dirtyLessonIds.size) retryDirtyLessonStates().catch((error) => console.warn("Common Expression recovery sync failed", error));
 }
 
@@ -450,6 +632,7 @@ async function loadSnapshot(token = state.token) {
   if (!payload?.student?.id || !payload?.student?.name) throw new Error("登入時段已失效，請重新登入。");
   state.user = { id: String(payload.student.id), name: String(payload.student.name), role: "student" };
   state.token = String(token);
+  loadProgressPreferences();
   applySnapshot(payload);
   saveSession();
   writeLocalSnapshot();
@@ -518,6 +701,155 @@ async function logout() {
   showView("login");
 }
 
+function rangeStartKey(rangeKey, datedRows) {
+  const today = localDayKey();
+  if (rangeKey === "week") return shiftDay(today, -6);
+  if (rangeKey === "month") return shiftDay(today, -29);
+  if (rangeKey === "half-year") return shiftDay(today, -181);
+  if (rangeKey === "year") return shiftDay(today, -364);
+  if (rangeKey === "ytd") return `${today.slice(0, 4)}-01-01`;
+  const earliest = datedRows.map((row) => row.date).filter(Boolean).sort()[0];
+  return rangeKey === "all" && earliest ? earliest : shiftDay(today, -6);
+}
+
+function dayKeysBetween(start, end) {
+  const keys = [];
+  for (let key = start; key <= end && keys.length < 3700; key = shiftDay(key, 1)) keys.push(key);
+  return keys;
+}
+
+function questionProgressSeries(rangeKey = state.progressRange) {
+  const rows = state.questionActivity.map((row) => ({ ...row, date: localDayKey(row.completedAt) })).filter((row) => row.date);
+  const today = localDayKey();
+  const start = rangeStartKey(rangeKey, rows);
+  const buckets = new Map();
+  let before = 0;
+  for (const row of rows) {
+    if (row.date < start) before += 1;
+    else if (row.date <= today) buckets.set(row.date, (buckets.get(row.date) || 0) + 1);
+  }
+  let cumulative = before;
+  const points = dayKeysBetween(start, today).map((date) => {
+    const total = buckets.get(date) || 0;
+    cumulative += total;
+    return { date, total, cumulative };
+  });
+  return {
+    rows,
+    points,
+    periodTotal: points.reduce((sum, point) => sum + point.total, 0),
+    allTotal: rows.filter((row) => row.date <= today).length,
+    activeDays: points.filter((point) => point.total > 0).length
+  };
+}
+
+function timeProgressSeries(rangeKey = state.timeProgressRange) {
+  const rows = state.timeActivity.map((row) => ({ ...row, date: String(row.date || "") })).filter((row) => row.date);
+  const today = localDayKey();
+  const start = rangeStartKey(rangeKey, rows);
+  const buckets = new Map();
+  for (const row of rows) {
+    if (row.date >= start && row.date <= today) buckets.set(row.date, (buckets.get(row.date) || 0) + row.durationMs);
+  }
+  const points = dayKeysBetween(start, today).map((date) => ({ date, total: buckets.get(date) || 0 }));
+  return {
+    rows,
+    points,
+    periodTotal: points.reduce((sum, point) => sum + point.total, 0),
+    allTotal: rows.filter((row) => row.date <= today).reduce((sum, row) => sum + row.durationMs, 0),
+    activeDays: points.filter((point) => point.total > 0).length
+  };
+}
+
+function compactChartDate(key) {
+  const date = dateFromDayKey(key);
+  return Number.isFinite(date.getTime())
+    ? date.toLocaleDateString("en-HK", { timeZone: "UTC", month: "short", day: "numeric" })
+    : key;
+}
+
+function progressChartSvg(series, { type = "question", cumulative = false } = {}) {
+  const width = 900;
+  const height = 320;
+  const edge = { left: 62, right: 28, top: 30, bottom: 54 };
+  const chartWidth = width - edge.left - edge.right;
+  const chartHeight = height - edge.top - edge.bottom;
+  const dailyValue = (point) => type === "time" ? point.total / 60000 : point.total;
+  const maximum = Math.max(5, ...series.points.flatMap((point) => [dailyValue(point), ...(cumulative ? [point.cumulative || 0] : [])]));
+  const yMax = Math.max(5, Math.ceil(maximum / 5) * 5);
+  const xFor = (index) => edge.left + (chartWidth * index / Math.max(series.points.length - 1, 1));
+  const yFor = (value) => edge.top + chartHeight - chartHeight * value / yMax;
+  const dailyCoordinates = series.points.map((point, index) => ({ point, x: xFor(index), y: yFor(dailyValue(point)) }));
+  const cumulativeCoordinates = cumulative ? series.points.map((point, index) => ({ point, x: xFor(index), y: yFor(point.cumulative || 0) })) : [];
+  const polyline = (rows) => rows.map(({ x, y }) => `${x.toFixed(2)},${y.toFixed(2)}`).join(" ");
+  const gridValues = [...new Set([0, Math.round(yMax / 2), yMax])];
+  const grid = gridValues.map((value) => `<line x1="${edge.left}" y1="${yFor(value)}" x2="${width - edge.right}" y2="${yFor(value)}" class="common-chart-grid"/><text x="${edge.left - 12}" y="${yFor(value) + 4}" text-anchor="end" class="common-chart-axis-label">${value}</text>`).join("");
+  const labelIndexes = series.points.length ? [...new Set([0, Math.floor((series.points.length - 1) / 2), series.points.length - 1])] : [];
+  const labels = labelIndexes.map((index) => `<text x="${xFor(index)}" y="${height - 18}" text-anchor="middle" class="common-chart-axis-label">${escapeHtml(compactChartDate(series.points[index].date))}</text>`).join("");
+  const hoverRows = dailyCoordinates.map(({ point, x, y }) => {
+    const valueLabel = type === "time" ? formatDuration(point.total) : `${point.total} 題`;
+    const attrs = point.total > 0 ? `tabindex="0" role="button" data-common-${type}-day="${point.date}" aria-label="${point.date}，${escapeHtml(valueLabel)}"` : 'aria-hidden="true"';
+    const boxX = Math.min(Math.max(x - 72, edge.left), width - edge.right - 144);
+    const boxY = Math.max(edge.top + 4, y - 55);
+    return `<g class="common-chart-hover" ${attrs}><circle class="common-chart-hit" cx="${x}" cy="${y}" r="16"/><circle class="common-chart-dot" cx="${x}" cy="${y}" r="4.5"/><g class="common-chart-tooltip"><line x1="${x}" y1="${edge.top}" x2="${x}" y2="${height - edge.bottom}"/><rect x="${boxX}" y="${boxY}" width="144" height="42" rx="8"/><text x="${boxX + 10}" y="${boxY + 17}">${escapeHtml(valueLabel)}</text><text x="${boxX + 10}" y="${boxY + 32}">${point.date}</text></g></g>`;
+  }).join("");
+  const cumulativeRows = cumulativeCoordinates.map(({ point, x, y }) => `<circle class="common-chart-cumulative-dot" cx="${x}" cy="${y}" r="3.5"><title>${escapeHtml(point.date)}：累積 ${escapeHtml(point.cumulative)} 題</title></circle>`).join("");
+  const emptyLabel = series.periodTotal ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" class="common-chart-empty">這個時段暫時未有紀錄</text>`;
+  return `<rect width="${width}" height="${height}" class="common-chart-background"/>${grid}<line x1="${edge.left}" y1="${edge.top}" x2="${edge.left}" y2="${height - edge.bottom}" class="common-chart-axis"/><line x1="${edge.left}" y1="${height - edge.bottom}" x2="${width - edge.right}" y2="${height - edge.bottom}" class="common-chart-axis"/><polyline class="common-chart-daily-line common-chart-${type}-line" points="${polyline(dailyCoordinates)}"/>${cumulative ? `<polyline class="common-chart-cumulative-line" points="${polyline(cumulativeCoordinates)}"/>${cumulativeRows}` : ""}${hoverRows}${labels}<text x="${edge.left}" y="20" class="common-chart-title">${type === "time" ? "分鐘" : "完成題數"}</text>${emptyLabel}`;
+}
+
+function progressRangeButtons(selected, attribute) {
+  return PROGRESS_RANGES.map(([key, label]) => `<button type="button" data-${attribute}="${key}" aria-pressed="${selected === key}">${label}</button>`).join("");
+}
+
+function renderQuestionDayPanel() {
+  const date = state.selectedProgressDay;
+  elements.questionDayPanel.hidden = !date;
+  if (!date) return;
+  const rows = state.questionActivity.filter((row) => localDayKey(row.completedAt) === date);
+  elements.questionDayTitle.textContent = `${date} 完成題目（${rows.length} 題）`;
+  elements.questionDayList.innerHTML = rows.length ? rows.map((row) => {
+    const lesson = getLesson(row.lessonId);
+    const question = lesson?.questions.find((item) => item.id === row.questionId);
+    const number = Math.max(1, lesson?.questions.findIndex((item) => item.id === row.questionId) + 1);
+    const correct = lessonState(row.lessonId).answers[row.questionId]?.correct === true;
+    return `<div class="common-progress-day-row"><strong>${escapeHtml(lesson?.titleEn || row.lessonId)} · Question ${number}</strong><span>${escapeHtml(question?.promptEn || row.questionId)}</span><em class="${correct ? "is-correct" : ""}">${correct ? "答對" : "待改正"}</em></div>`;
+  }).join("") : `<p>這一天暫時未有完成題目。</p>`;
+}
+
+function renderTimeDayPanel() {
+  const date = state.selectedTimeProgressDay;
+  elements.timeDayPanel.hidden = !date;
+  if (!date) return;
+  const rows = state.timeActivity.filter((row) => row.date === date);
+  const total = rows.reduce((sum, row) => sum + row.durationMs, 0);
+  elements.timeDayTitle.textContent = `${date} 練習時間（${formatDuration(total)}）`;
+  elements.timeDayList.innerHTML = rows.length ? rows.map((row) => `<div class="common-progress-day-row"><strong>${escapeHtml(getLesson(row.lessonId)?.titleEn || row.lessonId)}</strong><span>${escapeHtml(getLesson(row.lessonId)?.titleZh || "Common Expression 練習")}</span><em class="is-time">${escapeHtml(formatDuration(row.durationMs))}</em></div>`).join("") : `<p>這一天暫時未有練習時間紀錄。</p>`;
+}
+
+function renderProgressDashboard() {
+  elements.progressPanel.hidden = !state.progressPanelExpanded;
+  elements.progressToggle.textContent = state.progressPanelExpanded ? "收起練習進展" : "查看練習進展";
+  elements.progressToggle.setAttribute("aria-expanded", String(state.progressPanelExpanded));
+  elements.cumulativeToggle.textContent = state.showCumulativeProgress ? "隱藏累積總數" : "顯示累積總數";
+  elements.cumulativeToggle.setAttribute("aria-pressed", String(state.showCumulativeProgress));
+  elements.questionRangeButtons.innerHTML = progressRangeButtons(state.progressRange, "question-progress-range");
+  elements.timeRangeButtons.innerHTML = progressRangeButtons(state.timeProgressRange, "time-progress-range");
+  if (!state.progressPanelExpanded) return;
+  const questions = questionProgressSeries();
+  const time = timeProgressSeries();
+  elements.questionPeriodTotal.textContent = String(questions.periodTotal);
+  elements.questionAllTotal.textContent = String(questions.allTotal);
+  elements.questionActiveDays.textContent = String(questions.activeDays);
+  elements.timePeriodTotal.textContent = formatDuration(time.periodTotal);
+  elements.timeAllTotal.textContent = formatDuration(time.allTotal);
+  elements.timeActiveDays.textContent = String(time.activeDays);
+  elements.questionChart.innerHTML = progressChartSvg(questions, { type: "question", cumulative: state.showCumulativeProgress });
+  elements.timeChart.innerHTML = progressChartSvg(time, { type: "time" });
+  renderQuestionDayPanel();
+  renderTimeDayPanel();
+}
+
 function renderDashboard() {
   const questionCount = totalCompletedQuestions();
   const duration = SYSTEM.lessons.reduce((sum, lesson) => sum + currentDurationMs(lesson.id), 0);
@@ -525,6 +857,7 @@ function renderDashboard() {
   elements.lessonCount.textContent = String(SYSTEM.lessons.length);
   elements.questionTotal.textContent = String(questionCount);
   elements.timeTotal.textContent = formatDuration(duration);
+  renderProgressDashboard();
   if (!SYSTEM.lessons.length) {
     elements.lessonGrid.innerHTML = `<article class="empty-library"><div class="empty-library-inner"><span class="empty-library-mark" aria-hidden="true">✦</span><p class="eyebrow">REVIEWED CONTENT LIBRARY</p><h2>${escapeHtml(SYSTEM.titleZh)}課題庫骨架已完成</h2><p>目前尚未加入課題。新教材完成內容整理及審核後，會使用同一個學習、書簽及 Supabase 進度架構在此顯示。</p></div></article>`;
     return;
@@ -610,80 +943,151 @@ function openLesson(lessonId, tab = state.lessonTab || "examples") {
   showView("lesson");
 }
 
-function firstIncompleteIndex(lesson) {
-  const answers = lessonState(lesson.id).answers;
-  const index = lesson.questions.findIndex((question) => answers[question.id]?.correct !== true);
-  return index < 0 ? 0 : index;
-}
-
-function openExercise(index = null) {
+function openExercise() {
   const lesson = getLesson(state.lessonId);
   if (!lesson) return;
-  state.questionIndex = Math.max(0, Math.min(lesson.questions.length - 1, index ?? firstIncompleteIndex(lesson)));
   elements.exerciseTitle.textContent = `${lesson.titleEn} · 句子練習`;
   elements.exerciseInstruction.textContent = lesson.exerciseInstructionZh;
-  renderQuestion();
+  renderQuestionList();
   showView("exercise");
   startClock();
 }
 
-function renderQuestion() {
+function answerHasCurrentFeedback(saved) {
+  if (!saved?.attempts) return false;
+  if (saved.correct) return true;
+  return normalizeAnswer(saved.answer) === normalizeAnswer(saved.checkedAnswer);
+}
+
+function feedbackMarkup(correct, question, answer) {
+  return `<div class="feedback-panel" data-state="${correct ? "correct" : "incorrect"}">${correct
+    ? `<h3>✓ 答案正確</h3><p>您已保留原句意思，並自然使用本課目標表達。</p>`
+    : `<h3>請再留意目標句式</h3><p>您的答案：${escapeHtml(answer || "（未輸入）")}</p><p class="answer-key">參考答案：${escapeHtml(question.answerEn)}</p><p>${escapeHtml(question.answerZh)}</p>`}</div>`;
+}
+
+function renderQuestionList({ preserveScroll = false } = {}) {
   const lesson = getLesson(state.lessonId);
-  const question = lesson?.questions[state.questionIndex];
-  if (!lesson || !question) return;
-  const saved = lessonState(lesson.id).answers[question.id] || {};
+  if (!lesson) return;
+  const scrollPosition = preserveScroll ? window.scrollY : null;
   const complete = completedCount(lesson.id);
   const percent = Math.round((complete / lesson.questions.length) * 100);
   elements.exerciseProgressBar.style.setProperty("--progress", `${percent}%`);
   elements.exerciseProgressLabel.textContent = `${complete} / ${lesson.questions.length} 已完成`;
-  elements.questionCard.innerHTML = `<div class="question-meta"><span class="question-number">QUESTION ${String(state.questionIndex + 1).padStart(2, "0")} / ${lesson.questions.length}</span><button class="star-button" type="button" data-question-lesson-bookmark aria-pressed="${state.bookmarks.has(lesson.id)}" aria-label="收藏本課題">${state.bookmarks.has(lesson.id) ? "★" : "☆"}</button></div><p class="prompt-en">${escapeHtml(question.promptEn)}</p><p class="prompt-zh">${escapeHtml(question.promptZh)}</p><label class="field"><span>您的改寫答案</span><textarea class="answer-field" data-answer-field spellcheck="true" autocomplete="off" placeholder="輸入完整的改寫句子或對話…">${escapeHtml(saved.answer || "")}</textarea></label><div class="question-actions"><button class="secondary-button" type="button" data-prev-question ${state.questionIndex === 0 ? "disabled" : ""}>← 上一題</button><div class="question-actions-right"><button class="text-button" type="button" data-clear-answer>清除答案</button><button class="primary-button" type="button" data-check-answer>檢查答案</button><button class="secondary-button" type="button" data-next-question>${state.questionIndex === lesson.questions.length - 1 ? "返回課題" : "下一題 →"}</button></div></div><div class="feedback-panel" data-feedback hidden></div>`;
-  if (saved.attempts) renderFeedback(saved.correct, question, saved.answer);
+  elements.questionList.innerHTML = lesson.questions.map((question, index) => {
+    const saved = lessonState(lesson.id).answers[question.id] || {};
+    const feedback = answerHasCurrentFeedback(saved) ? feedbackMarkup(saved.correct, question, saved.checkedAnswer || saved.answer) : "";
+    return `<article class="question-card glass-panel${saved.correct ? " is-correct" : ""}" data-question-id="${escapeHtml(question.id)}"><div class="question-meta"><span class="question-number">QUESTION ${String(index + 1).padStart(2, "0")} / ${lesson.questions.length}</span>${index === 0 ? `<button class="star-button" type="button" data-question-lesson-bookmark aria-pressed="${state.bookmarks.has(lesson.id)}" aria-label="收藏本課題">${state.bookmarks.has(lesson.id) ? "★" : "☆"}</button>` : ""}</div><p class="prompt-en">${escapeHtml(question.promptEn)}</p><p class="prompt-zh">${escapeHtml(question.promptZh)}</p><label class="field"><span>您的改寫答案${saved.correct ? " · 已完成" : ""}</span><textarea class="answer-field" data-answer-field data-question-id="${escapeHtml(question.id)}" spellcheck="true" autocomplete="off" ${saved.correct ? "readonly" : ""} placeholder="輸入完整的改寫句子或對話…">${escapeHtml(saved.answer || "")}</textarea></label><div class="question-inline-actions"><button class="text-button" type="button" data-clear-answer="${escapeHtml(question.id)}" ${saved.correct ? "disabled" : ""}>清除答案</button></div>${feedback}</article>`;
+  }).join("");
+  elements.exerciseDraftStatus.textContent = state.dirtyLessonIds.has(lesson.id) ? "有尚未同步的答案" : "答案已同步";
+  if (scrollPosition !== null) requestAnimationFrame(() => window.scrollTo({ top: scrollPosition }));
 }
 
-function renderFeedback(correct, question, answer) {
-  const panel = elements.questionCard.querySelector("[data-feedback]");
-  if (!panel) return;
-  panel.hidden = false;
-  panel.dataset.state = correct ? "correct" : "incorrect";
-  panel.innerHTML = correct
-    ? `<h3>✓ 答案正確</h3><p>您已保留原句意思，並自然使用本課目標表達。</p>`
-    : `<h3>請再留意目標句式</h3><p>您的答案：${escapeHtml(answer || "（未輸入）")}</p><p class="answer-key">參考答案：${escapeHtml(question.answerEn)}</p><p>${escapeHtml(question.answerZh)}</p>`;
+function updateDraftsFromFields() {
+  const lesson = getLesson(state.lessonId);
+  if (!lesson) return 0;
+  const record = lessonState(lesson.id);
+  let changes = 0;
+  const now = new Date().toISOString();
+  for (const field of elements.questionList.querySelectorAll("[data-answer-field]")) {
+    const questionId = field.dataset.questionId;
+    const answer = String(field.value || "").slice(0, 6000);
+    const existing = record.answers[questionId] || {};
+    if (answer === String(existing.answer || "")) continue;
+    record.answers[questionId] = {
+      answer,
+      checkedAnswer: String(existing.checkedAnswer || ""),
+      correct: false,
+      attempts: Math.max(0, Number(existing.attempts || 0)),
+      updatedAt: now
+    };
+    changes += 1;
+  }
+  if (changes) {
+    record.updatedAt = now;
+    record.completedAt = isLessonComplete(lesson) ? record.completedAt : "";
+    markLessonDirty(lesson.id);
+    writeLocalSnapshot();
+    elements.exerciseDraftStatus.textContent = "草稿已保存在此裝置，尚待雲端同步";
+  }
+  return changes;
+}
+
+async function saveDrafts() {
+  const lesson = getLesson(state.lessonId);
+  if (!lesson) return;
+  updateDraftsFromFields();
+  captureClockElapsed({ restart: true });
+  try {
+    await persistLessonState(lesson.id);
+    elements.exerciseDraftStatus.textContent = "草稿已同步至 Supabase";
+    showToast("草稿及練習時間已儲存。");
+  } catch (error) {
+    console.warn("Common Expression draft save failed", error);
+    showToast("草稿已保留在此裝置；雲端同步稍後重試。");
+  }
+}
+
+async function submitAnswers({ all = false } = {}) {
+  const lesson = getLesson(state.lessonId);
+  if (!lesson) return;
+  updateDraftsFromFields();
+  const record = lessonState(lesson.id);
+  if (all) {
+    const firstBlank = lesson.questions.find((question) => record.answers[question.id]?.correct !== true && !String(record.answers[question.id]?.answer || "").trim());
+    if (firstBlank) {
+      elements.questionList.querySelector(`[data-answer-field][data-question-id="${CSS.escape(firstBlank.id)}"]`)?.focus();
+      showToast("提交全部答案前，請先完成所有未答題目。");
+      return;
+    }
+  }
+  const now = new Date().toISOString();
+  const targets = lesson.questions.filter((question) => {
+    const saved = record.answers[question.id];
+    if (!String(saved?.answer || "").trim() || saved?.correct) return false;
+    return !saved.attempts || normalizeAnswer(saved.answer) !== normalizeAnswer(saved.checkedAnswer);
+  });
+  if (!targets.length) {
+    showToast(all && isLessonComplete(lesson) ? "本課全部答案已完成。" : "未有新的已填答案需要提交。");
+    return;
+  }
+  let correctCount = 0;
+  for (const question of targets) {
+    const existing = record.answers[question.id];
+    const answer = String(existing.answer || "").trim();
+    const correct = question.acceptedAnswers.some((expected) => normalizeAnswer(expected) === normalizeAnswer(answer));
+    record.answers[question.id] = {
+      answer,
+      checkedAnswer: answer,
+      correct,
+      attempts: Math.min(100, Number(existing.attempts || 0) + 1),
+      updatedAt: now
+    };
+    addLocalQuestionCompletion(lesson.id, question.id, now);
+    if (correct) correctCount += 1;
+  }
+  record.updatedAt = now;
+  if (isLessonComplete(lesson) && !record.completedAt) record.completedAt = new Date().toISOString();
+  captureClockElapsed({ restart: true });
+  markLessonDirty(lesson.id);
+  writeLocalSnapshot();
+  renderQuestionList({ preserveScroll: true });
+  try {
+    await persistLessonState(lesson.id);
+    showToast(`已提交 ${targets.length} 題；其中 ${correctCount} 題正確，進度已儲存。`);
+  } catch (error) {
+    console.warn("Common Expression state save failed", error);
+    showToast("提交結果已保留在此裝置；雲端同步稍後重試。");
+  }
 }
 
 async function checkAnswer() {
-  const lesson = getLesson(state.lessonId);
-  const question = lesson?.questions[state.questionIndex];
-  const field = elements.questionCard.querySelector("[data-answer-field]");
-  if (!lesson || !question || !field) return;
-  const answer = String(field.value || "").trim();
-  if (!answer) return showToast("請先輸入答案。");
-  const correct = question.acceptedAnswers.some((expected) => normalizeAnswer(expected) === normalizeAnswer(answer));
-  const record = lessonState(lesson.id);
-  const existing = record.answers[question.id] || {};
-  record.answers[question.id] = { answer, correct, attempts: Math.min(100, Number(existing.attempts || 0) + 1), updatedAt: new Date().toISOString() };
-  record.updatedAt = new Date().toISOString();
-  if (isLessonComplete(lesson) && !record.completedAt) record.completedAt = new Date().toISOString();
-  markLessonDirty(lesson.id);
-  writeLocalSnapshot();
-  renderFeedback(correct, question, answer);
-  elements.exerciseProgressLabel.textContent = `${completedCount(lesson.id)} / ${lesson.questions.length} 已完成`;
-  elements.exerciseProgressBar.style.setProperty("--progress", `${Math.round((completedCount(lesson.id) / lesson.questions.length) * 100)}%`);
-  try {
-    await persistLessonState(lesson.id);
-    showToast(correct ? "答案正確，進度已儲存。" : "已儲存這次嘗試；請參考答案再練習。");
-  } catch (error) {
-    console.warn("Common Expression state save failed", error);
-    showToast("答案已保留在此裝置；雲端同步稍後重試。");
-  }
+  return submitAnswers({ all: false });
 }
 
 function persistLessonState(lessonId) {
   const record = lessonState(lessonId);
   const clockIsRunning = state.lessonId === lessonId && Boolean(state.lessonClockStartedAt);
-  if (clockIsRunning) {
-    record.durationMs = currentDurationMs(lessonId);
-    state.lessonClockStartedAt = performance.now();
-  }
+  if (clockIsRunning) captureClockElapsed({ restart: true });
   markLessonDirty(lessonId);
   writeLocalSnapshot();
   const snapshot = JSON.parse(JSON.stringify(record));
@@ -725,6 +1129,10 @@ async function retryDirtyLessonStates() {
 }
 
 async function flushCurrentState() {
+  if (state.currentView === "exercise") {
+    window.clearTimeout(state.draftTimer);
+    updateDraftsFromFields();
+  }
   pauseClock();
   if (!state.lessonId || !state.user || !state.token) return;
   return persistLessonState(state.lessonId);
@@ -738,7 +1146,7 @@ async function toggleBookmark(lessonId) {
   writeLocalSnapshot();
   if (state.currentView === "dashboard") renderDashboard();
   else if (state.currentView === "lesson") renderLessonHeader(lesson);
-  else if (state.currentView === "exercise") renderQuestion();
+  else if (state.currentView === "exercise") renderQuestionList({ preserveScroll: true });
   try {
     const payload = await rpc(String(CONFIG.setBookmarkRpc), { p_token: state.token, p_system_key: SYSTEM_KEY, p_lesson_id: lessonId, p_bookmarked: shouldBookmark });
     if (payload?.bookmarked === true) state.bookmarks.add(lessonId);
@@ -765,6 +1173,20 @@ function openBookmarks() {
 }
 
 document.addEventListener("click", (event) => {
+  const questionDay = event.target.closest("[data-common-question-day]")?.dataset.commonQuestionDay;
+  if (questionDay) {
+    state.selectedProgressDay = questionDay;
+    renderQuestionDayPanel();
+    elements.questionDayPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    return;
+  }
+  const timeDay = event.target.closest("[data-common-time-day]")?.dataset.commonTimeDay;
+  if (timeDay) {
+    state.selectedTimeProgressDay = timeDay;
+    renderTimeDayPanel();
+    elements.timeDayPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    return;
+  }
   const target = event.target.closest("button");
   if (!target) return;
   if (target.matches("[data-password-toggle]")) {
@@ -774,12 +1196,37 @@ document.addEventListener("click", (event) => {
     target.textContent = show ? "隱藏" : "顯示";
     target.setAttribute("aria-pressed", String(show));
   } else if (target.matches("[data-dashboard-button], [data-back-dashboard], [data-bookmarks-back]")) {
-    retryDirtyLessonStates().catch((error) => console.warn("Common Expression navigation sync failed", error));
+    flushCurrentState()
+      .then(() => retryDirtyLessonStates())
+      .catch((error) => console.warn("Common Expression navigation sync failed", error));
     openDashboard();
   } else if (target.matches("[data-logout]")) {
     logout();
   } else if (target.matches("[data-open-bookmarks]")) {
     openBookmarks();
+  } else if (target.matches("[data-toggle-progress]")) {
+    state.progressPanelExpanded = !state.progressPanelExpanded;
+    saveProgressPreference(PROGRESS_PANEL_PREFERENCE_KEY, state.progressPanelExpanded);
+    renderProgressDashboard();
+    if (state.progressPanelExpanded) elements.progressPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+  } else if (target.dataset.questionProgressRange) {
+    state.progressRange = PROGRESS_RANGES.some(([key]) => key === target.dataset.questionProgressRange) ? target.dataset.questionProgressRange : "month";
+    state.selectedProgressDay = "";
+    renderProgressDashboard();
+  } else if (target.dataset.timeProgressRange) {
+    state.timeProgressRange = PROGRESS_RANGES.some(([key]) => key === target.dataset.timeProgressRange) ? target.dataset.timeProgressRange : "month";
+    state.selectedTimeProgressDay = "";
+    renderProgressDashboard();
+  } else if (target.matches("[data-toggle-cumulative]")) {
+    state.showCumulativeProgress = !state.showCumulativeProgress;
+    saveProgressPreference(CUMULATIVE_PROGRESS_PREFERENCE_KEY, state.showCumulativeProgress);
+    renderProgressDashboard();
+  } else if (target.matches("[data-close-question-day]")) {
+    state.selectedProgressDay = "";
+    renderQuestionDayPanel();
+  } else if (target.matches("[data-close-time-day]")) {
+    state.selectedTimeProgressDay = "";
+    renderTimeDayPanel();
   } else if (target.dataset.openLesson) {
     openLesson(target.dataset.openLesson);
   } else if (target.dataset.toggleBookmark) {
@@ -793,31 +1240,48 @@ document.addEventListener("click", (event) => {
   } else if (target.matches("[data-start-exercise]")) {
     openExercise();
   } else if (target.matches("[data-back-lesson]")) {
-    flushCurrentState().catch(() => undefined);
+    flushCurrentState().then(() => retryDirtyLessonStates()).catch(() => undefined);
     openLesson(state.lessonId, "summary");
-  } else if (target.matches("[data-check-answer]")) {
+  } else if (target.matches("[data-save-drafts]")) {
+    saveDrafts();
+  } else if (target.matches("[data-submit-partial]")) {
     checkAnswer();
-  } else if (target.matches("[data-clear-answer]")) {
-    const field = elements.questionCard.querySelector("[data-answer-field]");
-    if (field) { field.value = ""; field.focus(); }
-  } else if (target.matches("[data-prev-question]")) {
-    state.questionIndex = Math.max(0, state.questionIndex - 1);
-    renderQuestion();
-  } else if (target.matches("[data-next-question]")) {
-    const lesson = getLesson(state.lessonId);
-    if (state.questionIndex >= lesson.questions.length - 1) openLesson(state.lessonId, "summary");
-    else { state.questionIndex += 1; renderQuestion(); }
+  } else if (target.matches("[data-submit-all]")) {
+    submitAnswers({ all: true });
+  } else if (target.dataset.clearAnswer) {
+    const field = elements.questionList.querySelector(`[data-answer-field][data-question-id="${CSS.escape(target.dataset.clearAnswer)}"]`);
+    if (field) {
+      field.value = "";
+      updateDraftsFromFields();
+      field.focus();
+    }
   }
+});
+
+document.addEventListener("input", (event) => {
+  if (!event.target.matches("[data-answer-field]") || state.currentView !== "exercise") return;
+  window.clearTimeout(state.draftTimer);
+  state.draftTimer = window.setTimeout(() => updateDraftsFromFields(), 180);
+});
+
+document.addEventListener("keydown", (event) => {
+  if (!(["Enter", " "].includes(event.key))) return;
+  const interactive = event.target.closest("[data-common-question-day], [data-common-time-day]");
+  if (!interactive) return;
+  event.preventDefault();
+  interactive.dispatchEvent(new MouseEvent("click", { bubbles: true }));
 });
 
 elements.loginForm.addEventListener("submit", handleLogin);
 window.addEventListener("pagehide", () => {
+  if (state.currentView === "exercise") updateDraftsFromFields();
   pauseClock();
   writeLocalSnapshot();
   retryDirtyLessonStates().catch(() => undefined);
 });
 document.addEventListener("visibilitychange", () => {
   if (document.hidden) {
+    if (state.currentView === "exercise") updateDraftsFromFields();
     pauseClock();
     writeLocalSnapshot();
     retryDirtyLessonStates().catch(() => undefined);

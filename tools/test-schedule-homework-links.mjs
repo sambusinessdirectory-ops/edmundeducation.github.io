@@ -40,7 +40,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3343, "the Homework/Schedule catalogue should include every current learning resource and all 157 available IELTS Reading analyses");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3495, "the Homework/Schedule catalogue should include every current learning resource, Common Expression lesson and IELTS Listening part");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -54,6 +54,9 @@ assert.equal((byType.proverb || []).length, 3, "all Proverb lessons should be in
 assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lessons should be indexed");
 assert.equal((byType["writing-submission"] || []).length, 1, "Writing Submission should be available as a homework type");
 assert.equal((byType["reading-analysis"] || []).length, 157, "all unique available IELTS Reading analyses should be indexed once");
+assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing Part A model-answer downloads should be indexed");
+assert.equal((byType["common-expression"] || []).length, 58, "all six Common Expression catalogues should be indexed");
+assert.equal((byType.listening || []).length, 80, "all 20 IELTS Listening practices and four parts should be indexed");
 assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2"));
 assert.ok(ids.has("fill:model-essay-2-ielts-advantage-disadvantage"));
 assert.ok(ids.has("speaking:ielts-part-2-book-1-exercise-01"));
@@ -65,6 +68,10 @@ assert.ok(ids.has("writing-submission:portal"));
 assert.ok(ids.has("reading-analysis:mungo-man"));
 assert.ok(ids.has("reading-analysis:if-you-can-get-used-to-the-taste"));
 assert.ok(ids.has("reading-analysis:p1-082-graffiti"));
+assert.ok(ids.has("common-expression:speaking:common-expression-01"));
+assert.ok(ids.has("common-expression:written:common-expression-11"));
+assert.ok(ids.has("listening:ielts-listening-practice-20-part-4"));
+assert.ok([...ids].some((id) => id.startsWith("download:dse-writing-part-a:")));
 
 const readingAnalysisResources = byType["reading-analysis"] || [];
 const expectedReadingArticleIds = Object.keys(readingAnalysisAvailability.articles).sort();
@@ -367,6 +374,32 @@ assert.equal(normalizeHomeworkResource({
   label: "Answer Analysis - IELTS Reading - GRAFFITI",
   url: "ielts-reading-analysis.html?article=p1-082-graffiti"
 })?.url, "ielts-reading-analysis.html?article=p1-082-graffiti");
+assert.equal(normalizeHomeworkResource({
+  id: "common-expression:speaking:common-expression-01",
+  type: "common-expression",
+  label: "Common Expression - 會話 Speaking - #1 · See you around",
+  url: "common-expression-speaking.html?lesson=common-expression-01"
+})?.url, "common-expression-speaking.html?lesson=common-expression-01");
+assert.equal(normalizeHomeworkResource({
+  id: "listening:ielts-listening-practice-20-part-4",
+  type: "listening",
+  label: "IELTS Listening Practice 20 - Part 4",
+  url: "listening-system.html?section=ielts&practice=20&part=4"
+})?.url, "listening-system.html?section=ielts&practice=20&part=4");
+for (const unsafeListeningUrl of [
+  "listening-system.html?section=ielts&practice=0&part=1",
+  "listening-system.html?section=ielts&practice=1&part=5",
+  "listening-system.html?section=dse&practice=1&part=1",
+  "listening-system.html?section=ielts&practice=1&part=1&student=someone",
+  "https://evil.example/listening-system.html?section=ielts&practice=1&part=1"
+]) {
+  assert.equal(normalizeHomeworkResource({
+    id: "listening:ielts-listening-practice-1-part-1",
+    type: "listening",
+    label: "IELTS Listening Practice 1 - Part 1",
+    url: unsafeListeningUrl
+  }), null, `unsafe IELTS Listening URL must be rejected: ${unsafeListeningUrl}`);
+}
 for (const unsafeReadingUrl of [
   "flashcards.html?article=p1-082-graffiti",
   "ielts-reading-analysis.html",
@@ -392,6 +425,8 @@ assert.equal(homeworkAutocomplete("Review Ph", 9).trigger, "Phrasal Verbs");
 assert.equal(homeworkAutocomplete("Review Pr", 9).trigger, "Proverb");
 assert.equal(homeworkAutocomplete("Choose Wr", 9).trigger, "Writing Submission");
 assert.equal(homeworkAutocomplete("Add An", 6).trigger, "Answer Analysis - IELTS Reading");
+assert.equal(homeworkAutocomplete("Add Co", 6).trigger, "Common Expression");
+assert.equal(homeworkAutocomplete("Add IELTS L", 11).trigger, "IELTS Listening");
 const accepted = acceptHomeworkAutocomplete("Please finish Fi", 16, 16, homeworkAutocomplete("Please finish Fi", 16));
 assert.equal(accepted.value, "Please finish Fill in the blanks");
 assert.equal(fullHomeworkTriggerAtCursor(accepted.value, accepted.cursor).type, "fill-blanks");
@@ -448,6 +483,8 @@ assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysi
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "ielts reading graffiti").items[0]?.id, "reading-analysis:p1-082-graffiti");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "it's dynamite").items[0]?.id, "reading-analysis:p1-088-its-dynamite");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "flight honeybee").total, 1, "shared analysis aliases should remain one searchable choice");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "common-expression", "See you around").items[0]?.id, "common-expression:speaking:common-expression-01");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "listening", "20 Part 4").items[0]?.id, "listening:ielts-listening-practice-20-part-4");
 assert.equal(
   filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "fill-blanks", "number households annual income 2015").items[0]?.id,
   "fill:model-essay-1-ielts-task1-bar-charts",

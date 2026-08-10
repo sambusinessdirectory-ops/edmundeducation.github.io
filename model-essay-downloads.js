@@ -425,7 +425,39 @@
   }
 
   function openRequestedEssay() {
-    if (state.requestedEssayOpened || !essayPortals || state.currentUser?.role !== "student") return false;
+    if (state.requestedEssayOpened || state.currentUser?.role !== "student") return false;
+    const requested = new URLSearchParams(window.location.search);
+    const requestedCatalogKey = String(requested.get("catalog") || "").trim();
+    const requestedItemId = String(requested.get("item") || "").trim();
+    if (requestedCatalogKey || requestedItemId) {
+      const requestedCatalog = catalogs[requestedCatalogKey];
+      const requestedItem = requestedCatalog?.items?.find(item => String(item.id) === requestedItemId);
+      state.requestedEssayOpened = true;
+      if (!requestedCatalog || !requestedItem) {
+        showToast("找不到這一份教材。", "error");
+        return false;
+      }
+      const accessKey = requestedCatalog.section || requestedCatalog.parentView || "ielts";
+      if (state.currentUser?.access?.[accessKey] !== true) {
+        showToast(`您的帳戶尚未開放 ${accessKey === "dse" ? "DSE" : "IELTS"} 教材下載權限。`, "error");
+        return false;
+      }
+      activateCatalog(requestedCatalogKey);
+      if (document.body.dataset.currentView !== "catalog") return false;
+      state.filter = requestedCatalog.filters?.some(filter => filter.key === requestedItem.category)
+        ? requestedItem.category
+        : "all";
+      state.query = "";
+      state.sort = requestedCatalog.initialSort;
+      const rows = filteredEssays();
+      const index = rows.findIndex(item => item.id === requestedItem.id);
+      state.page = index >= 0 ? Math.floor(index / PAGE_SIZE) + 1 : 1;
+      renderCatalog();
+      const row = catalogList?.querySelector(`[data-essay-row="${CSS.escape(requestedItem.id)}"]`);
+      openDetailModal(requestedItem, row || null);
+      return true;
+    }
+    if (!essayPortals) return false;
     const essayKey = essayPortals.requestedKey();
     if (!essayKey) return false;
     if (state.currentUser?.access?.ielts !== true) {

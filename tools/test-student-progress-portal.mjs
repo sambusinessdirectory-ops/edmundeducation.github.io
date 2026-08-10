@@ -37,11 +37,15 @@ test("portal has the requested identity, shared login, and expanded dashboard hi
   assert.match(script, /data-source-time-all/);
 });
 
-test("core declares all eight source systems in the requested order", async () => {
+test("core declares all fourteen source systems in the requested order", async () => {
   const core = await read("student-progress-core.js");
   const expected = [
     "flashcards", "writingPractice", "sentenceStructure", "speaking",
-    "phrasalVerbs", "idioms", "proverbs", "writingSubmission"
+    "phrasalVerbs", "idioms", "proverbs",
+    "commonExpressionSpeaking", "commonExpressionWritten",
+    "commonExpressionRhetoricalSpeaking", "commonExpressionRhetoricalWriting",
+    "commonExpressionProfessionalMessage", "commonExpressionBusinessSpeaking",
+    "writingSubmission"
   ];
   let previous = -1;
   for (const id of expected) {
@@ -64,6 +68,8 @@ test("database snapshot reads canonical tables and deduplicates retries by quest
     "phrasal_verb_system_attempts",
     "idiom_system_attempts",
     "proverb_system_attempts",
+    "common_expression_question_completions",
+    "common_expression_time_activity_days",
     "writing_submissions"
   ]) assert.match(sql, new RegExp(`public\\.${table}`), table);
   assert.match(sql, /language sql\s+stable\s+security definer[\s\S]*?with\s+student_profile as/);
@@ -82,6 +88,30 @@ test("database snapshot reads canonical tables and deduplicates retries by quest
   assert.match(submissionCte, /duration_seconds::bigint \* 1000/);
   assert.match(sql, /'timeZone', 'Asia\/Hong_Kong'/);
   assert.doesNotMatch(sql, /pg_catalog\.(?:coalesce|greatest|least|nullif)\(/, "SQL special expressions cannot be schema-qualified");
+});
+
+test("database snapshot keeps all six Common Expression dashboards separate", async () => {
+  const sql = await read("supabase-student-progress.sql");
+  const sourceMappings = [
+    ["commonExpressionSpeaking", "speaking"],
+    ["commonExpressionWritten", "written"],
+    ["commonExpressionRhetoricalSpeaking", "rhetorical-speaking"],
+    ["commonExpressionRhetoricalWriting", "rhetorical-writing"],
+    ["commonExpressionProfessionalMessage", "professional-message"],
+    ["commonExpressionBusinessSpeaking", "business-speaking"]
+  ];
+
+  assert.match(sql, /common_expression_activity_days as \([\s\S]*?completion\.completed_at at time zone 'Asia\/Hong_Kong'/);
+  assert.match(sql, /from public\.common_expression_question_completions completion/);
+  assert.match(sql, /group by completion\.system_key, 2/);
+  assert.match(sql, /common_expression_time_days as \([\s\S]*?from public\.common_expression_time_activity_days activity/);
+  assert.match(sql, /sum\(activity\.duration_ms\)::bigint as total_ms/);
+  assert.match(sql, /group by activity\.system_key, activity\.activity_date/);
+
+  for (const [sourceId, systemKey] of sourceMappings) {
+    assert.match(sql, new RegExp(`'${sourceId}', pg_catalog\\.jsonb_build_object\\(`));
+    assert.match(sql, new RegExp(`day\\.system_key = '${systemKey}'`));
+  }
 });
 
 test("progress administrator is provisioned only with a private cost-12 hash", async () => {

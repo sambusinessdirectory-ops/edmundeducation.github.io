@@ -4,9 +4,13 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
 
-const root = resolve(process.argv[2] || dirname(fileURLToPath(import.meta.url)));
+const root = resolve(
+  process.argv[2] || dirname(dirname(fileURLToPath(import.meta.url)))
+);
 const dataPath = resolve(root, "writing-practice-dse-part-a-data.js");
 const htmlPath = resolve(root, "writing-practice.html");
+const homeworkCatalogPath = resolve(root, "homework-resource-catalog.mjs");
+const downloadsScriptPath = resolve(root, "model-essay-downloads.js");
 const expected = new Map([
   ["dse-writing-2012-part-a", [30, 45, 75, 57]],
   ["dse-writing-2013-part-a", [32, 45, 75, 63]],
@@ -143,6 +147,24 @@ for (const [id, counts] of expected) {
 const html = readFileSync(htmlPath, "utf8");
 assert.match(html, /writing-practice-dse-part-a-data\.js\?v=/);
 for (const id of expected.keys()) assert.ok(html.includes(id), `route missing ${id}`);
+
+const homeworkCatalog = readFileSync(homeworkCatalogPath, "utf8");
+assert.equal(
+  (homeworkCatalog.match(/"id": "download:dse-writing-part-a:/g) || []).length,
+  14,
+  "Homework catalogue must itemize one DSE Writing Part A PDF for every year from 2012 to 2025"
+);
+for (let year = 2012; year <= 2025; year += 1) {
+  assert.ok(
+    homeworkCatalog.includes(`DSE Writing Part A Download - ${year}`),
+    `Homework catalogue missing the ${year} DSE Writing Part A download`
+  );
+}
+const downloadsScript = readFileSync(downloadsScriptPath, "utf8");
+assert.match(downloadsScript, /requested\.get\("catalog"\)/);
+assert.match(downloadsScript, /requestedCatalog = catalogs\[requestedCatalogKey\]/);
+assert.match(downloadsScript, /state\.currentUser\?\.access\?\.\[accessKey\]/);
+assert.match(downloadsScript, /openDetailModal\(requestedItem, row \|\| null\)/);
 
 if (process.argv.includes("--audio")) {
   const audioWindow = loadWindowScript(resolve(root, "writing-audio-manifest.js"));

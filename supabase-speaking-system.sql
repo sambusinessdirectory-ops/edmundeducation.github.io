@@ -71,7 +71,7 @@ create index if not exists speaking_admin_sessions_expires_idx
 create table if not exists public.speaking_system_settings (
   singleton boolean primary key default true,
   max_recordings_per_student integer not null default 500,
-  max_storage_bytes_per_student bigint not null default 1073741824,
+  max_storage_bytes_per_student bigint not null default 209715200,
   updated_at timestamptz not null default now(),
   check (singleton),
   check (max_recordings_per_student between 1 and 5000),
@@ -83,8 +83,10 @@ insert into public.speaking_system_settings (
   max_recordings_per_student,
   max_storage_bytes_per_student
 )
-values (true, 500, 1073741824)
-on conflict (singleton) do nothing;
+values (true, 500, 209715200)
+on conflict (singleton) do update
+set max_storage_bytes_per_student = excluded.max_storage_bytes_per_student,
+    updated_at = now();
 
 -- The object name is deterministic and server-generated:
 -- students/<canonical-student-uuid>/<attempt-uuid>.mp3
@@ -1933,6 +1935,59 @@ begin
 end;
 $$;
 
+-- Return the same authoritative usage and limits used by the reservation RPC.
+-- The browser never reads quota tables directly; the authenticated Worker calls
+-- this function before opening the microphone so a full account is stopped
+-- before another recording is made.
+create or replace function public.speaking_get_recording_usage(
+  p_student_id uuid
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_settings public.speaking_system_settings%rowtype;
+  v_file_count integer;
+  v_total_bytes bigint;
+begin
+  if not exists (
+    select 1
+    from public.flashcard_students student
+    where student.id = p_student_id
+      and student.deleted_at is null
+  ) then
+    return jsonb_build_object('ok', false, 'code', 'STUDENT_NOT_FOUND');
+  end if;
+
+  select settings.*
+  into strict v_settings
+  from public.speaking_system_settings settings
+  where settings.singleton;
+
+  select count(*)::integer, coalesce(sum(attempt.size_bytes), 0)::bigint
+  into v_file_count, v_total_bytes
+  from public.speaking_recording_attempts attempt
+  where attempt.student_id = p_student_id;
+
+  return jsonb_build_object(
+    'ok', true,
+    'usage', jsonb_build_object(
+      'fileCount', v_file_count,
+      'storageBytes', v_total_bytes
+    ),
+    'quota', jsonb_build_object(
+      'maxFiles', v_settings.max_recordings_per_student,
+      'maxBytes', v_settings.max_storage_bytes_per_student
+    ),
+    'canRecord',
+      v_file_count < v_settings.max_recordings_per_student
+      and v_total_bytes < v_settings.max_storage_bytes_per_student
+  );
+end;
+$$;
+
 revoke all on function public.speaking_admin_login(text, text)
   from public, anon, authenticated;
 revoke all on function public.speaking_admin_me(uuid)
@@ -1940,6 +1995,8 @@ revoke all on function public.speaking_admin_me(uuid)
 revoke all on function public.speaking_admin_logout(uuid)
   from public, anon, authenticated;
 revoke all on function public.speaking_student_profile(uuid)
+  from public, anon, authenticated;
+revoke all on function public.speaking_get_recording_usage(uuid)
   from public, anon, authenticated;
 revoke all on function public.speaking_reserve_recording_attempt(
   uuid, uuid, text, text, text, text, integer, integer, text,
@@ -1980,6 +2037,8 @@ grant execute on function public.speaking_admin_me(uuid)
 grant execute on function public.speaking_admin_logout(uuid)
   to service_role;
 grant execute on function public.speaking_student_profile(uuid)
+  to service_role;
+grant execute on function public.speaking_get_recording_usage(uuid)
   to service_role;
 grant execute on function public.speaking_reserve_recording_attempt(
   uuid, uuid, text, text, text, text, integer, integer, text,

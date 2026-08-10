@@ -13,7 +13,11 @@ import {
 
 const CONFIG = window.EDMUND_STUDENT_PROGRESS_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
-const SESSION_KEY = "edmund-student-progress-session-v1";
+const SCHEDULE_CONFIG = window.EDMUND_SCHEDULE_CONFIG || {};
+const PARENT_MODE = document.body?.dataset.progressPortal === "parent";
+const SESSION_KEY = PARENT_MODE
+  ? "edmund-parent-communication-session-v1"
+  : "edmund-student-progress-session-v1";
 
 const elements = {
   views: [...document.querySelectorAll("[data-view]")],
@@ -21,6 +25,7 @@ const elements = {
   userPill: document.querySelector("[data-user-pill]"),
   refresh: document.querySelector("[data-refresh]"),
   logout: document.querySelector("[data-logout]"),
+  changePassword: document.querySelector("[data-change-password]"),
   loginForm: document.querySelector("[data-login-form]"),
   loginButton: document.querySelector("[data-login-button]"),
   loginStatus: document.querySelector("[data-login-status]"),
@@ -43,6 +48,12 @@ const elements = {
   masterDailyLegend: document.querySelector("[data-master-daily-legend]"),
   adminPicker: document.querySelector("[data-admin-picker]"),
   adminStudentSelect: document.querySelector("[data-admin-student-select]"),
+  passwordDialog: document.querySelector("[data-password-dialog]"),
+  passwordForm: document.querySelector("[data-password-form]"),
+  passwordCurrent: document.querySelector("[data-password-current]"),
+  passwordNew: document.querySelector("[data-password-new]"),
+  passwordConfirm: document.querySelector("[data-password-confirm]"),
+  passwordStatus: document.querySelector("[data-password-status]"),
   toast: document.querySelector("[data-toast]")
 };
 
@@ -92,9 +103,12 @@ function showView(name) {
   elements.userPill.hidden = !loggedIn;
   elements.refresh.hidden = !loggedIn || name !== "dashboard";
   elements.logout.hidden = !loggedIn;
+  if (elements.changePassword) elements.changePassword.hidden = !loggedIn || !PARENT_MODE;
   if (loggedIn) {
     elements.userPill.textContent = state.user.role === "admin"
       ? `${state.user.name} · 管理員`
+      : state.user.role === "parent"
+        ? `${state.user.name} · 家長`
       : state.user.name;
   }
   if (name === "login") elements.dashboardGroups.hidden = true;
@@ -102,7 +116,7 @@ function showView(name) {
 }
 
 function workerBaseUrl() {
-  const value = String(CONFIG.workerBaseUrl || "").trim().replace(/\/+$/, "");
+  const value = String(PARENT_MODE ? SCHEDULE_CONFIG.workerBaseUrl : CONFIG.workerBaseUrl || "").trim().replace(/\/+$/, "");
   if (!value.startsWith("https://")) throw new Error("進度服務尚未完成設定。");
   return value;
 }
@@ -242,6 +256,26 @@ async function adminLogin(username, password) {
   };
 }
 
+async function parentRpc(functionName, args = {}) {
+  const client = await ensureSupabaseSession();
+  const { data, error } = await client.rpc(functionName, args);
+  if (error) throw error;
+  return data;
+}
+
+async function parentLogin(username, password) {
+  const payload = await apiJson("/v1/parent/login", {
+    method: "POST",
+    body: JSON.stringify({ name: username, password })
+  }, false);
+  const parent = payload?.parent;
+  if (!parent?.parent_token) return null;
+  return {
+    token: String(parent.parent_token),
+    user: { id: String(parent.parent_id || ""), name: String(parent.name || username), role: "parent" }
+  };
+}
+
 function sharedStudentSession() {
   const shared = window.EdmundSystemNav?.getStudentSession?.();
   return shared?.role === "student" && shared.token && shared.name ? shared : null;
@@ -249,17 +283,26 @@ function sharedStudentSession() {
 
 async function restoreSession() {
   const stored = readStoredSession();
-  const candidate = stored?.token && ["student", "admin"].includes(stored.role)
+  const allowedRoles = PARENT_MODE ? ["parent"] : ["student", "admin"];
+  const candidate = stored?.token && allowedRoles.includes(stored.role)
     ? stored
-    : sharedStudentSession();
+    : PARENT_MODE ? null : sharedStudentSession();
   if (!candidate?.token) return false;
   state.authToken = String(candidate.token);
   state.user = {
     id: String(candidate.id || ""),
     name: String(candidate.name || ""),
-    role: candidate.role === "admin" ? "admin" : "student"
+    role: PARENT_MODE ? "parent" : candidate.role === "admin" ? "admin" : "student"
   };
   try {
+    if (PARENT_MODE) {
+      const rows = await parentRpc("parent_communication_me", { p_parent_token: state.authToken });
+      const profile = Array.isArray(rows) ? rows[0] : null;
+      if (!profile?.id || !profile?.name) throw new Error("Invalid parent profile");
+      state.user = { id: String(profile.id), name: String(profile.name), role: "parent" };
+      saveSession();
+      return true;
+    }
     const payload = await apiJson(state.user.role === "admin" ? "/v1/admin/me" : "/v1/student/me");
     const profile = state.user.role === "admin" ? payload?.admin : payload?.student;
     if (!profile?.id || !profile?.name) throw new Error("Invalid profile");
@@ -388,6 +431,9 @@ function sourceGroupHtml(source, index) {
       <div class="chart-scroll"><svg class="progress-chart" data-source-average-chart viewBox="0 0 960 350" role="img" aria-label="每篇文章平均寫作時間圖表"></svg></div>
       <div class="chart-legend"><span class="legend-item"><i class="legend-dot" style="--legend-color:${source.color}"></i>每日平均時間</span></div>
     </article>` : "";
+  const sourceNavigation = PARENT_MODE
+    ? `<span class="system-link" aria-disabled="true">家長帳戶只可查看進度</span>`
+    : `<a class="system-link" href="${escapeHtml(source.href)}">前往 ${escapeHtml(source.labelZh)} →</a>`;
   return `
     <details class="dashboard-group source-group" open data-source-group="${escapeHtml(source.id)}" style="--source-color:${escapeHtml(source.color)}">
       <summary>
@@ -421,7 +467,7 @@ function sourceGroupHtml(source, index) {
           <div class="chart-legend"><span class="legend-item"><i class="legend-dot" style="--legend-color:${escapeHtml(source.color)}"></i>每日學習時間</span></div>
         </article>
         ${writingAverage}
-        <a class="system-link" href="${escapeHtml(source.href)}">前往 ${escapeHtml(source.labelZh)} →</a>
+        ${sourceNavigation}
       </div>
     </details>`;
 }
@@ -516,6 +562,8 @@ function renderDashboard() {
   elements.generatedAt.textContent = `更新：${formatDateTime(snapshot.generatedAt)}`;
   elements.dashboardWelcome.textContent = state.user?.role === "admin"
     ? `現正查看 ${snapshot.student.name} 的全部學習紀錄。`
+    : state.user?.role === "parent"
+      ? `現正查看 ${snapshot.student.name} 的全面英文能力發展進度；家長帳戶不能進入其練習內容。`
     : `${snapshot.student.name}，以下數據直接來自各個學習系統的正式紀錄。`;
   elements.dashboardGroups.hidden = false;
   setStatus(elements.dashboardStatus, "");
@@ -533,10 +581,14 @@ async function loadSnapshot({ announce = false } = {}) {
   elements.dashboardGroups.hidden = true;
   setStatus(elements.dashboardStatus, "正在同步所有學習系統的最新紀錄…");
   try {
-    const path = state.user.role === "admin"
-      ? `/v1/admin/students/${encodeURIComponent(state.selectedAdminStudentId)}/progress`
-      : "/v1/progress";
-    const payload = await apiJson(path);
+    const payload = state.user.role === "parent"
+      ? await parentRpc("parent_communication_snapshot", {
+          p_parent_token: state.authToken,
+          p_student_id: state.selectedAdminStudentId
+        }).then((rows) => ({ snapshot: Array.isArray(rows) ? rows[0]?.snapshot : null }))
+      : await apiJson(state.user.role === "admin"
+        ? `/v1/admin/students/${encodeURIComponent(state.selectedAdminStudentId)}/progress`
+        : "/v1/progress");
     if (revision !== state.requestRevision) return;
     if (!payload?.snapshot?.student?.id) throw new Error("未能讀取完整進度資料。");
     state.snapshot = payload.snapshot;
@@ -553,15 +605,19 @@ async function loadSnapshot({ announce = false } = {}) {
 
 async function openDashboard() {
   showView("dashboard");
-  if (state.user.role === "admin") {
+  if (state.user.role === "admin" || state.user.role === "parent") {
     setStatus(elements.dashboardStatus, "正在讀取學生名單…");
-    const payload = await apiJson("/v1/admin/students");
+    const payload = state.user.role === "parent"
+      ? { students: await parentRpc("parent_communication_students", { p_parent_token: state.authToken }) }
+      : await apiJson("/v1/admin/students");
     state.adminStudents = Array.isArray(payload?.students) ? payload.students.map((student) => ({
       id: String(student.id || ""), name: String(student.name || "")
     })).filter((student) => student.id && student.name) : [];
     if (!state.adminStudents.length) {
       renderAdminStudents();
-      setStatus(elements.dashboardStatus, "暫時沒有學生帳戶。", "error");
+      setStatus(elements.dashboardStatus, state.user.role === "parent"
+        ? "此家長帳戶尚未獲指派任何學生，請聯絡 Edmund Sir。"
+        : "暫時沒有學生帳戶。", "error");
       return;
     }
     if (!state.adminStudents.some((student) => student.id === state.selectedAdminStudentId)) {
@@ -585,12 +641,15 @@ async function handleLogin(event) {
   elements.loginButton.disabled = true;
   setStatus(elements.loginStatus, "正在核對帳戶…");
   try {
-    const isAdmin = username.toLocaleLowerCase() === String(CONFIG.adminUsername || "").toLocaleLowerCase();
-    const result = isAdmin ? await adminLogin(username, password) : await studentLogin(username, password);
+    const isAdmin = !PARENT_MODE
+      && username.toLocaleLowerCase() === String(CONFIG.adminUsername || "").toLocaleLowerCase();
+    const result = PARENT_MODE
+      ? await parentLogin(username, password)
+      : isAdmin ? await adminLogin(username, password) : await studentLogin(username, password);
     if (!result) throw new Error("用戶名稱或密碼不正確。");
     state.authToken = result.token;
     state.user = result.user;
-    if (!isAdmin) {
+    if (!PARENT_MODE && !isAdmin) {
       window.EdmundSystemNav?.rememberStudentSession({
         token: result.token,
         id: result.user.id,
@@ -603,7 +662,11 @@ async function handleLogin(event) {
     setStatus(elements.loginStatus, "");
     setConnection("已安全連接", "online");
     await openDashboard();
-    showToast(state.user.role === "admin" ? "管理員登入成功。" : `你好，${state.user.name}！`);
+    showToast(state.user.role === "admin"
+      ? "管理員登入成功。"
+      : state.user.role === "parent"
+        ? `歡迎，${state.user.name}。`
+        : `你好，${state.user.name}！`);
   } catch (error) {
     console.warn("Student Progress login failed", error);
     setStatus(elements.loginStatus, error.message || "登入失敗，請再試一次。", "error");
@@ -617,6 +680,9 @@ async function logout() {
   if (role === "student") window.EdmundSystemNav?.forgetStudentSession();
   try {
     if (role === "admin" && state.authToken) await apiJson("/v1/admin/logout", { method: "POST" });
+    if (role === "parent" && state.authToken) {
+      await parentRpc("parent_communication_logout", { p_parent_token: state.authToken });
+    }
   } catch (error) {
     console.warn("Student Progress logout cleanup failed", error);
   }
@@ -625,6 +691,51 @@ async function logout() {
   setStatus(elements.loginStatus, "");
   setConnection("可以登入", "online");
   showView("login");
+}
+
+function openParentPasswordDialog() {
+  if (!PARENT_MODE || !elements.passwordDialog || !state.authToken) return;
+  elements.passwordForm?.reset();
+  setStatus(elements.passwordStatus, "");
+  elements.passwordDialog.showModal();
+  window.setTimeout(() => elements.passwordCurrent?.focus(), 0);
+}
+
+async function changeParentPassword(event) {
+  event.preventDefault();
+  const currentPassword = elements.passwordCurrent?.value || "";
+  const newPassword = elements.passwordNew?.value || "";
+  const confirmation = elements.passwordConfirm?.value || "";
+  if (newPassword.length < 8) {
+    setStatus(elements.passwordStatus, "新密碼最少需要 8 個字元。", "error");
+    return;
+  }
+  if (newPassword !== confirmation) {
+    setStatus(elements.passwordStatus, "兩次輸入的新密碼不相同。", "error");
+    return;
+  }
+  const submit = elements.passwordForm?.querySelector('[type="submit"]');
+  if (submit) submit.disabled = true;
+  setStatus(elements.passwordStatus, "正在安全更新密碼…");
+  try {
+    const rows = await parentRpc("parent_communication_change_password", {
+      p_parent_token: state.authToken,
+      p_current_password: currentPassword,
+      p_new_password: newPassword
+    });
+    const row = Array.isArray(rows) ? rows[0] : null;
+    if (!row?.parent_token) throw new Error("未能更新登入憑證。");
+    state.authToken = String(row.parent_token);
+    state.user = { ...state.user, name: String(row.name || state.user.name) };
+    saveSession();
+    elements.passwordDialog.close();
+    showToast("密碼已更改；其他登入時段已安全登出。");
+  } catch (error) {
+    console.warn("Parent password change failed", error);
+    setStatus(elements.passwordStatus, error.message || "未能更改密碼，請再試一次。", "error");
+  } finally {
+    if (submit) submit.disabled = false;
+  }
 }
 
 function bindEvents() {
@@ -637,6 +748,12 @@ function bindEvents() {
     elements.passwordToggle.setAttribute("aria-label", visible ? "顯示密碼" : "隱藏密碼");
   });
   elements.logout.addEventListener("click", logout);
+  elements.changePassword?.addEventListener("click", openParentPasswordDialog);
+  elements.passwordForm?.addEventListener("submit", changeParentPassword);
+  elements.passwordDialog?.addEventListener("click", (event) => {
+    const closeButton = event.target.closest("[data-password-close]");
+    if (closeButton) elements.passwordDialog.close();
+  });
   elements.refresh.addEventListener("click", () => loadSnapshot({ announce: true }));
   elements.rangeButtons.addEventListener("click", (event) => {
     const button = event.target.closest("[data-range]");

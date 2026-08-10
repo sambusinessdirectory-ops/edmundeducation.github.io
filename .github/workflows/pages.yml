@@ -127,6 +127,9 @@ jobs:
           node tools/test-edmund-audio-worker.mjs
           node tools/verify-flashcard-audio-flashcard-expansion.mjs --require-complete
 
+      - name: Validate Listening portal, 80-track catalogue and playback speeds
+        run: node tools/test-listening-system.mjs
+
       - name: Validate IELTS Writing Task 1 flashcards and female voice
         run: |
           node tools/test-ielts-writing-task1-flashcards.mjs
@@ -139,10 +142,18 @@ jobs:
           node tools/test-essay-portal-links.mjs
           node tools/test-writing-translation-toggle.mjs
 
+      - name: Validate DSE Writing Part A resources and sticky listening controls
+        run: |
+          node tools/test-dse-writing-part-a.mjs
+          node --test tools/test-writing-practice-listening-sticky.mjs
+
       - name: Validate Schedule System and Mass Edit clipboard
         run: |
           node tools/test-schedule-clipboard.mjs
           node tools/test-schedule-system.mjs
+          node tools/test-schedule-worker.mjs
+          node tools/test-parent-communication-system.mjs
+          node tools/test-schedule-account-admin-parity.mjs
 
       - name: Validate all six Common Expression portals, lessons and persistence contracts
         run: node --test tools/test-common-expression-system.mjs
@@ -175,6 +186,7 @@ jobs:
           node tools/test-writing-submission-generalized-rules.mjs
           node tools/test-writing-submission-harper-vendor.mjs
           node tools/test-writing-submission-harper.mjs
+          node --test tools/test-writing-submission-timer.mjs
 
       - name: Prepare site files
         run: |

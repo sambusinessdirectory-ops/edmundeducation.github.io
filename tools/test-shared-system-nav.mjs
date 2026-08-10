@@ -58,6 +58,7 @@ test("shared student login safely bridges every Flashcard-token portal", () => {
 
   assert.equal(read(sessionStorage, "edmund-student-progress-session-v1").token, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmundSpeakingSessionV1").token, "11111111-1111-4111-8111-111111111111");
+  assert.equal(read(sessionStorage, "edmund-listening-session-v1").token, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmund-writing-submission-session-v1").token, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmund-sentence-structure-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-idiom-system-session-v1").name, "Student One");
@@ -128,6 +129,7 @@ test("student logout removes the universal and app-specific browser sessions", (
     "edmundFlashcardSession",
     "edmund-writing-submission-session-v1",
     "edmundSpeakingSessionV1",
+    "edmund-listening-session-v1",
     "edmund-sentence-structure-session-v1",
     "edmund-idiom-system-session-v1",
     "edmund-proverb-system-session-v1",
@@ -175,13 +177,14 @@ test("student bridging and logout never overwrite active admin sessions", () => 
   assert.deepEqual(read(localStorage, "edmundWritingSession"), { name: "Writing Preview", role: "student", impersonatedByAdmin: true });
 });
 
-test("all eighteen student portals load the shared accessible switcher", () => {
+test("all nineteen student portals load the shared accessible switcher", () => {
   const pages = {
     "student-progress.html": "progress",
     "flashcards.html": "flashcards",
     "writing-practice.html": "writing",
     "writing-submission.html": "writing-submission",
     "speaking-system.html": "speaking",
+    "listening-system.html": "listening",
     "sentence-structure.html": "sentence",
     "idiom-system.html": "idioms",
     "proverb-system.html": "proverbs",
@@ -199,7 +202,7 @@ test("all eighteen student portals load the shared accessible switcher", () => {
   Object.entries(pages).forEach(([file, system]) => {
     const html = fs.readFileSync(path.join(root, file), "utf8");
     assert.match(html, /shared-system-nav\.css/);
-    assert.match(html, /shared-system-nav\.js\?v=20260809-2/, `${file} must load the latest shared navigation release`);
+    assert.match(html, /shared-system-nav\.js\?v=20260810-2/, `${file} must load the latest shared navigation release`);
     assert.match(html, new RegExp(`data-edmund-system-switcher data-system="${system}"`));
     assert.match(html, /data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"/);
   });
@@ -213,6 +216,7 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
     "writing-practice.html",
     "writing-submission.html",
     "speaking-system.html",
+    "listening-system.html",
     "sentence-structure.html",
     "idiom-system.html",
     "proverb-system.html",
@@ -252,8 +256,8 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
   assert.match(scriptSource, /aria-current="page"/);
   assert.doesNotMatch(scriptSource, /target=["']_blank/);
   assert.doesNotMatch(cssSource, /\.edmund-system-switcher:(?:hover|focus-within)\s+\.edmund-system-switcher__menu/, "closed click and Escape state must not be overridden by CSS focus/hover selectors");
-  assert.match(cssSource, /max-height:\s*min\(78vh,\s*690px\)/, "the eighteen-link menu must fit small screens");
-  assert.match(cssSource, /overflow-y:\s*auto/, "the eighteen-link menu must scroll when needed");
+  assert.match(cssSource, /max-height:\s*min\(78vh,\s*690px\)/, "the nineteen-link menu must fit small screens");
+  assert.match(cssSource, /overflow-y:\s*auto/, "the nineteen-link menu must scroll when needed");
 });
 
 test("Writing Practice exchanges the shared token without handling a password again", () => {

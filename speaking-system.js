@@ -141,6 +141,8 @@
     recordingTimer: 0,
     recordingDeadlineTimer: 0,
     recordingGeneration: 0,
+    recordingQuotaChecking: false,
+    recordingQuota: null,
     recordingPermissionPending: false,
     recordingProcessing: false,
     recordedMp3: null,
@@ -4984,12 +4986,13 @@
     const recorderState = state.mediaRecorder?.state || "inactive";
     const examRecording = Boolean(currentRecordingContext()?.isExam);
     const examMutationBusy = examRecording && (state.examSaving || state.examSkipSaving);
-    const busy = Boolean(state.recordingTransition || state.recordingPermissionPending || state.recordingProcessing || examMutationBusy);
+    const busy = Boolean(state.recordingTransition || state.recordingQuotaChecking || state.recordingPermissionPending || state.recordingProcessing || examMutationBusy);
     button.disabled = busy;
     button.classList.toggle("is-recording", recorderState === "recording");
     button.classList.toggle("is-paused", recorderState === "paused");
     if (examRecording && state.examSkipSaving) button.textContent = "正在跳過題目…";
     else if (examRecording && state.examSaving) button.textContent = "正在安全上載…";
+    else if (state.recordingQuotaChecking) button.textContent = "正在檢查錄音容量…";
     else if (state.recordingPermissionPending) button.textContent = "正在連接咪高峰…";
     else if (state.recordingProcessing) button.textContent = "正在製作 MP3…";
     else if (state.recordingTransition === "pausing") button.textContent = "正在暫停…";
@@ -5007,6 +5010,48 @@
       finish.disabled = busy;
     }
     syncExamBypassControls();
+  }
+
+  function recordingQuotaFullMessage(payload) {
+    const usage = payload?.usage || {};
+    const quota = payload?.quota || {};
+    const usedBytes = Math.max(0, Number(usage.storageBytes || 0));
+    const maxBytes = Math.max(0, Number(quota.maxBytes || 200 * 1024 * 1024));
+    const fileCount = Math.max(0, Number(usage.fileCount || 0));
+    const maxFiles = Math.max(0, Number(quota.maxFiles || 500));
+    if (maxFiles && fileCount >= maxFiles) {
+      return `您的錄音數量已達上限（${fileCount}/${maxFiles}）。請先在「我的錄音」匯出並刪除舊錄音，才可繼續錄音。`;
+    }
+    return `您的錄音儲存空間已滿（${formatBytes(usedBytes)} / ${formatBytes(maxBytes)}）。請先在「我的錄音」匯出並刪除舊錄音，才可繼續錄音。`;
+  }
+
+  async function preflightRecordingQuota() {
+    if (state.user?.role === "admin") return true;
+    const endpoint = CONFIG.endpoints?.recordingQuota || "/v1/recordings/quota";
+    state.recordingQuotaChecking = true;
+    syncRecorderControls();
+    recordingStatus("正在檢查 200 MB 錄音儲存空間…");
+    try {
+      const payload = await apiJson(endpoint, { method: "GET" });
+      state.recordingQuota = payload;
+      if (payload?.canRecord !== true) {
+        const message = recordingQuotaFullMessage(payload);
+        recordingStatus(message);
+        toast(message, "error");
+        return false;
+      }
+      return true;
+    } catch (error) {
+      const message = error?.code === "STUDENT_STORAGE_QUOTA_REACHED" || error?.code === "STUDENT_FILE_QUOTA_REACHED"
+        ? "您的錄音儲存空間已滿。請先在「我的錄音」匯出並刪除舊錄音，才可繼續錄音。"
+        : "暫時未能確認錄音儲存空間，因此未有啟動咪高峰。請稍後再試。";
+      recordingStatus(message);
+      toast(message, "error");
+      return false;
+    } finally {
+      state.recordingQuotaChecking = false;
+      syncRecorderControls();
+    }
   }
 
   async function startRecording() {
@@ -5028,6 +5073,8 @@
       syncRecorderControls();
       return;
     }
+    if (!(await preflightRecordingQuota())) return;
+    if (!state.user || currentRecordingContext()?.key !== requestedContext.key) return;
     stopModelAudio();
     finishExamSpeechNow();
     discardRecording(false);
@@ -5456,6 +5503,9 @@
       if (context.isExam) context.item.uploadAttempted = true;
       const response = await apiJson(endpoint, { method: "POST", body: form });
       if (!state.user || currentRecordingContext()?.key !== contextKey) return false;
+      state.recordingQuota = response?.usage || response?.quota
+        ? { usage: response?.usage || {}, quota: response?.quota || {}, canRecord: true }
+        : state.recordingQuota;
       state.recordingSaved = true;
       if (context.isExam) markExamItemSaved(context, response?.recording);
       autoAdvancePart2 = Boolean(context.isExam && context.item.part === 2 && context.item.kind !== "intro" && state.examSession?.naturalExchange);
@@ -5470,7 +5520,9 @@
       console.warn("Recording upload failed:", error);
       const unavailable = error?.code === "RECORDING_SERVICE_UNREACHABLE"
         || /(?:load failed|failed to fetch|networkerror|error code:\s*1042)/i.test(String(error?.message || ""));
-      const message = error?.code === "RECORDING_UPLOAD_IN_PROGRESS"
+      const message = error?.code === "STUDENT_STORAGE_QUOTA_REACHED" || error?.code === "STUDENT_FILE_QUOTA_REACHED"
+        ? "您的 200 MB 錄音儲存空間已滿。請先在「我的錄音」匯出並刪除舊錄音，才可繼續儲存新錄音。"
+        : error?.code === "RECORDING_UPLOAD_IN_PROGRESS"
         ? "本題前一次上載仍在處理中，請稍後按「重新檢查並儲存本題」。若 10 分鐘後仍未完成，請聯絡管理員整理錄音狀態。"
         : unavailable
         ? "未能連接錄音儲存服務。這次錄音仍保留在此頁；請先按「下載這次 MP3」備份，再稍後重新儲存。"

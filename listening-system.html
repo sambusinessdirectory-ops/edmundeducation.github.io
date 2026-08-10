@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 英語聆聽系統：DSE Paper 3 Part A 及 IELTS Listening 練習">
+  <meta name="theme-color" content="#123a55">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-neural-audio.edmundeducation.workers.dev; media-src 'self' blob: https://edmund-neural-audio.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'">
+  <title>英語聆聽系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/listening-system.html">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <script defer src="/pwa-register.js"></script>
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-2">
+  <link rel="stylesheet" href="listening-system.css?v=20260810-1">
+</head>
+<body>
+  <a class="skip-link" href="#listening-main">跳至主要內容</a>
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="listening">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small data-system-title-small>英語聆聽系統<br>Listening System</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="header-actions edmund-system-header__actions">
+        <span class="connection-pill" data-connection data-state="checking">正在連接</span>
+        <span class="user-pill" data-user hidden></span>
+        <button class="header-button" type="button" data-home hidden>學習首頁</button>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+  <main id="listening-main" class="listening-shell">
+    <section class="view" data-view="login">
+      <div class="login-grid">
+        <article class="login-hero panel">
+          <p class="eyebrow">EDMUND LISTENING LAB</p>
+          <p class="student-label">(學生使用)</p>
+          <h1>英語聆聽系統</h1>
+          <p>DSE Paper 3 Part A 與 IELTS Listening 練習。按照自己的節奏，清楚聽見每一個細節。</p>
+          <div class="sound-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </article>
+        <section class="login-panel panel" aria-labelledby="listening-login-title">
+          <p class="eyebrow">SHARED STUDENT LOGIN</p>
+          <h2 id="listening-login-title">登入聆聽系統</h2>
+          <p>使用 Flashcard、寫作練習、Speaking、功課系統或教材下載區的同一個學生帳戶。</p>
+          <form data-login-form novalidate>
+            <label><span>用戶名稱</span><input name="username" autocomplete="username" maxlength="100" required></label>
+            <label><span>密碼</span><span class="password-field"><input name="password" type="password" autocomplete="current-password" maxlength="200" required><button type="button" data-password-toggle aria-pressed="false">顯示</button></span></label>
+            <p class="form-status" data-login-status role="status" aria-live="polite"></p>
+            <button class="primary-button" type="submit" data-login-button>登入並開始練習</button>
+          </form>
+        </section>
+      </div>
+    </section>
+
+    <section class="view" data-view="dashboard" hidden>
+      <section class="dashboard-hero panel">
+        <div><p class="eyebrow">LISTENING PRACTICE</p><h1>英語聆聽系統</h1><p data-welcome></p></div>
+        <div class="headphone-mark" aria-hidden="true">◖🎧◗</div>
+      </section>
+      <section class="system-grid">
+        <button class="system-card dse" type="button" data-open-section="dse"><span>01</span><strong>DSE Paper 3 Part A 聆聽</strong><small>香港中學文憑試綜合能力聆聽練習</small></button>
+        <button class="system-card ielts" type="button" data-open-section="ielts"><span>02</span><strong>IELTS 聆聽</strong><small>Practice 1–20 · Part 1–4</small></button>
+      </section>
+    </section>
+
+    <section class="view" data-view="dse" hidden>
+      <section class="section-heading panel"><div><p class="eyebrow">DSE LISTENING</p><h1>DSE Paper 3 Part A 聆聽</h1></div><button class="secondary-button" type="button" data-home>返回選擇</button></section>
+      <div class="empty-state panel"><span aria-hidden="true">🎧</span><h2>目前未有可播放錄音</h2><p>此分區已建立；加入 DSE Part A 錄音後，系統會在這裡列出。</p></div>
+    </section>
+
+    <section class="view" data-view="ielts" hidden>
+      <section class="section-heading panel"><div><p class="eyebrow">IELTS LISTENING</p><h1>選擇 Practice</h1><p>每套練習包括 Part 1、2、3、4 四段錄音。</p></div><div class="heading-actions"><label class="sort-control">排列<select data-sort><option value="asc">Practice 1 → 20</option><option value="desc">Practice 20 → 1</option></select></label><button class="secondary-button" type="button" data-home>返回選擇</button></div></section>
+      <div class="practice-grid" data-practice-grid></div>
+    </section>
+
+    <section class="view" data-view="practice" hidden>
+      <section class="section-heading panel"><div><p class="eyebrow">IELTS LISTENING</p><h1 data-practice-title>Practice</h1><p>選擇播放速度後，使用播放器練習。切換速度不會重設目前位置。</p></div><button class="secondary-button" type="button" data-back-ielts>返回 Practice 列表</button></section>
+      <div class="catalogue-status panel" data-catalogue-status role="status" aria-live="polite">正在連接 Cloudflare 錄音庫…</div>
+      <div class="track-grid" data-track-grid></div>
+    </section>
+  </main>
+  <div class="toast" data-toast hidden role="status" aria-live="polite"></div>
+  <noscript><p>請啟用 JavaScript 使用英語聆聽系統。</p></noscript>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="listening-system-catalog.js?v=20260810-1"></script>
+  <script src="shared-system-nav.js?v=20260810-2"></script>
+  <script type="module" src="listening-system.js?v=20260810-1"></script>
+</body>
+</html>

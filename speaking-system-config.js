@@ -27,6 +27,7 @@
       studentMe: "/v1/student/me",
       examAttempts: "/v1/exam-attempts",
       recordings: "/v1/recordings",
+      recordingQuota: "/v1/recordings/quota",
       recordingFileSuffix: "",
       recordingsZip: "/v1/recordings/export",
       ...existingEndpoints
@@ -39,6 +40,7 @@
       studentMe: "/v1/student/me",
       examAttempts: "/v1/exam-attempts",
       recordings: "/v1/recordings",
+      recordingQuota: "/v1/recordings/quota",
       recordingFileSuffix: "",
       recordingsZip: "/v1/recordings/export",
       ...existingEndpoints

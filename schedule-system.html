@@ -411,6 +411,76 @@
     .student-card span { color: var(--muted); font-size: 13px; }
     .student-open-button { padding: 10px 14px; color: #fff; background: var(--amber-dark); white-space: nowrap; }
 
+    .account-admin-layout { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-bottom: 22px; }
+    .account-admin-card { border: 1px solid var(--line); border-radius: 20px; padding: 20px; background: rgba(255,255,255,.76); }
+    .account-admin-card h2 { margin: 0 0 6px; font-size: 22px; }
+    .account-admin-card > p { margin: 0 0 14px; color: var(--muted); font-size: 13px; line-height: 1.55; }
+    .account-create-form { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; align-items: end; gap: 10px; }
+    .account-create-form.parent-form { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 62px auto; }
+    .account-create-form label { display: grid; gap: 6px; color: #5f4b41; font-size: 12px; font-weight: 850; }
+    .account-create-form input { width: 100%; min-height: 43px; border: 1px solid rgba(80,53,39,.22); border-radius: 12px; padding: 10px 12px; background: #fff; font: inherit; }
+    .account-create-form input[type="color"] { padding: 4px; cursor: pointer; }
+    .account-create-form .primary-button { width: auto; min-height: 43px; padding: 10px 15px; }
+    .account-security-note { margin: 12px 0 0; border-left: 4px solid #397d50; padding: 9px 11px; color: #315540; background: #edf8f0; font-size: 12px; line-height: 1.55; }
+    .student-card { align-items: stretch; }
+    .student-card-copy { align-self: center; min-width: 0; }
+    .student-card-actions { display: flex; align-items: center; justify-content: flex-end; gap: 7px; flex-wrap: wrap; }
+    .student-card-action { border: 1px solid rgba(109,60,34,.22); border-radius: 11px; padding: 8px 10px; color: var(--amber-dark); background: #fff; cursor: pointer; font-weight: 820; }
+    .student-card-action.danger { color: #922f2b; border-color: rgba(175,67,62,.28); background: #fff1f0; }
+    .student-admin-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+    .student-sort-controls { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+    .student-sort-button { border: 1px solid rgba(109,60,34,.2); border-radius: 999px; padding: 8px 12px; color: #604131; background: #fff; font: inherit; font-size: 12px; font-weight: 850; cursor: pointer; }
+    .student-sort-button[aria-pressed="true"] { color: #fff; border-color: var(--amber-dark); background: var(--amber-dark); }
+    .inactive-student-toggle { display: inline-flex; align-items: center; gap: 7px; color: #5d4c43; font-size: 12px; font-weight: 820; }
+    .student-card.is-inactive { border-style: dashed; background: rgba(245,241,235,.8); opacity: .92; }
+    .student-card.is-dragging { opacity: .42; }
+    .student-card.is-drop-target { outline: 3px solid rgba(71,148,197,.42); }
+    .student-card-copy { display: grid; gap: 5px; }
+    .student-status-badge { display: inline-flex !important; width: fit-content; border-radius: 999px; padding: 4px 8px; color: #23754b !important; background: #e8f7ee; font-size: 11px !important; font-weight: 900; }
+    .student-status-badge.inactive { color: #933832 !important; background: #fce8e6; }
+    .student-order-buttons { display: inline-flex; gap: 4px; }
+    .student-order-button { width: 34px; height: 34px; border: 1px solid rgba(109,60,34,.2); border-radius: 9px; color: #604131; background: #fff; cursor: pointer; font-weight: 900; }
+    .student-profile-card { width: min(1120px, calc(100vw - 28px)); max-height: min(900px, calc(100vh - 28px)); overflow: auto; }
+    .student-profile-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
+    .student-profile-heading h2 { margin: 0; }
+    .student-profile-facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 16px 0; }
+    .student-profile-fact { border-radius: 13px; padding: 11px; background: #f6f1e9; }
+    .student-profile-fact strong, .student-profile-fact span { display: block; }
+    .student-profile-fact strong { margin-bottom: 4px; color: #7b5b49; font-size: 11px; text-transform: uppercase; }
+    .student-profile-fact span { color: #34271f; font-size: 13px; overflow-wrap: anywhere; }
+    .profile-section-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 20px 0 10px; }
+    .profile-section-heading h3 { margin: 0; }
+    .access-bulk-actions { display: flex; gap: 7px; flex-wrap: wrap; }
+    .student-access-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; }
+    .student-access-item { border: 1px solid rgba(109,60,34,.16); border-radius: 13px; padding: 10px; background: #fff; }
+    .student-access-main { display: flex; align-items: center; justify-content: space-between; gap: 8px; color: #362a23; font-size: 13px; font-weight: 850; }
+    .student-access-children { display: grid; gap: 5px; margin-top: 8px; padding-top: 8px; border-top: 1px solid rgba(109,60,34,.12); }
+    .student-access-child { display: flex; align-items: center; justify-content: space-between; gap: 8px; color: #66564d; font-size: 12px; }
+    .student-access-grid input { width: 18px; height: 18px; accent-color: #2d8050; }
+    .student-audit-list { display: grid; gap: 8px; min-height: 70px; }
+    .student-audit-row { display: grid; grid-template-columns: minmax(150px,.65fr) minmax(0,1.6fr) minmax(145px,.7fr); gap: 10px; border-radius: 12px; padding: 10px 12px; background: #f7f4ef; font-size: 12px; }
+    .student-audit-row strong { color: #523a2d; }
+    .student-audit-row small { color: var(--muted); overflow-wrap: anywhere; }
+    .student-audit-pagination { display: flex; align-items: center; justify-content: flex-end; gap: 8px; margin-top: 10px; }
+    .student-profile-actions { display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap; margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--line); }
+    .permanent-delete-card { width: min(640px, calc(100vw - 28px)); }
+    .deletion-impact { display: grid; gap: 7px; max-height: 230px; overflow: auto; border-radius: 13px; padding: 12px; background: #fff2ef; color: #6f2c28; font-size: 13px; }
+    .danger-confirmation { display: flex; align-items: flex-start; gap: 8px; color: #702f2b; font-size: 13px; font-weight: 800; }
+    .danger-confirmation input { margin-top: 3px; }
+    .parent-list-panel { margin-top: 22px; }
+    .parent-list-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+    .parent-list-heading h2 { margin: 0; }
+    .parent-card { --parent-colour: #7c3aed; display: grid; gap: 12px; border-left: 7px solid var(--parent-colour); }
+    .parent-identity { display: flex; align-items: center; gap: 9px; }
+    .parent-tag { border-radius: 999px; padding: 4px 8px; color: #fff !important; background: var(--parent-colour); font-size: 11px !important; font-weight: 900; }
+    .parent-assignments { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 7px; border-radius: 13px; padding: 10px; background: rgba(245,241,235,.8); }
+    .parent-assignments label { display: flex; align-items: center; gap: 6px; color: #4c3b34; font-size: 12px; }
+    .parent-card-actions { display: flex; justify-content: flex-end; gap: 7px; flex-wrap: wrap; }
+    .password-dialog-card { width: min(520px, calc(100vw - 28px)); }
+    .password-dialog-card .field-control { position: relative; }
+    .selection-action-button.progress { color: #745104; border-color: rgba(183,132,13,.35); background: #fff3bf; }
+    .selection-action-button.previous { color: #8b302e; border-color: rgba(175,67,62,.3); background: #fce4e2; }
+
     .calendar-toolbar {
       margin-bottom: 18px;
       display: grid;
@@ -1157,9 +1227,13 @@
       .schedule-login-hero { width: min(70%, 560px); height: 310px; }
       .planner-motif { width: 88px; top: 34px; right: 34px; }
       .calendar-toolbar { grid-template-columns: 1fr; }
+      .account-admin-layout { grid-template-columns: 1fr; }
+      .account-create-form, .account-create-form.parent-form { grid-template-columns: 1fr; }
       .viewing-student, .toolbar-actions { text-align: center; justify-content: center; }
       .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .countdown-grid { grid-template-columns: 1fr; }
+      .student-access-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .student-profile-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
 
     @media (max-width: 680px) {
@@ -1198,6 +1272,9 @@
       .study-main .study-result { grid-column: 1 / -1; }
       .study-breakdown label { grid-template-columns: 1fr 80px auto; }
       .study-part-result { grid-column: 1 / -1; }
+      .student-access-grid, .student-profile-facts { grid-template-columns: 1fr; }
+      .student-audit-row { grid-template-columns: 1fr; }
+      .student-admin-toolbar, .student-profile-heading { align-items: stretch; flex-direction: column; }
     }
 
     @media (max-width: 520px) {
@@ -1234,7 +1311,7 @@
       .print-footer { margin-top: 3mm; color: #555; font-size: 7pt; text-align: right; }
     }
   </style>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-2">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要內容</a>
@@ -1254,6 +1331,7 @@
       <div class="header-actions edmund-system-header__actions">
         <span class="connection-pill" data-connection-status data-state="connecting">正在連接</span>
         <span class="user-pill" data-user-pill hidden></span>
+        <button class="header-button" type="button" data-change-password hidden>更改用戶系統 Password</button>
         <button class="header-button" type="button" data-admin-students hidden>學生清單</button>
         <button class="header-button" type="button" data-logout hidden>登出</button>
       </div>
@@ -1305,11 +1383,60 @@
         </div>
         <input class="student-search" type="search" data-student-search placeholder="搜尋學生名稱" aria-label="搜尋學生名稱">
       </div>
+      <div class="account-admin-layout">
+        <section class="account-admin-card glass-card" aria-labelledby="student-account-heading">
+          <h2 id="student-account-heading">開設學生帳戶</h2>
+          <p>此處建立的學生可使用同一帳戶登入 Flashcard、寫作、下載及其他學生系統。</p>
+          <form class="account-create-form" data-create-student-form>
+            <label>學生名稱<input name="studentName" maxlength="100" autocomplete="off" required></label>
+            <label>首次密碼<input name="studentPassword" type="password" minlength="8" maxlength="200" autocomplete="new-password" required></label>
+            <button class="primary-button" type="submit">開設帳戶</button>
+          </form>
+          <p class="account-security-note">密碼只會在建立／重設當刻由您輸入。系統以單向加密儲存，之後不能顯示舊密碼；管理員可隨時重設新密碼。</p>
+          <p class="form-status" data-create-student-status role="status" aria-live="polite"></p>
+        </section>
+        <section class="account-admin-card glass-card" aria-labelledby="parent-account-heading">
+          <h2 id="parent-account-heading">開設家長帳戶</h2>
+          <p>家長帳戶有獨立標籤及顏色，只能查看獲指派子女的全面進度表。</p>
+          <form class="account-create-form parent-form" data-create-parent-form>
+            <label>家長名稱<input name="parentName" maxlength="100" autocomplete="off" required></label>
+            <label>首次密碼<input name="parentPassword" type="password" minlength="8" maxlength="200" autocomplete="new-password" required></label>
+            <label>標籤顏色<input name="parentColour" type="color" value="#7c3aed" required></label>
+            <button class="primary-button" type="submit">開設家長</button>
+          </form>
+          <p class="account-security-note">家長憑證不屬於學生帳戶，因此不能登入任何學習系統或取得子女的登入權限。</p>
+          <p class="form-status" data-create-parent-status role="status" aria-live="polite"></p>
+        </section>
+      </div>
       <div class="student-list-panel glass-card">
+        <div class="student-admin-toolbar">
+          <div class="parent-list-heading"><h2>學生帳戶</h2><span data-student-count></span></div>
+          <div class="student-sort-controls" aria-label="學生排序">
+            <span>排序：</span>
+            <button class="student-sort-button" type="button" data-student-sort-mode="asc" aria-pressed="true">A → Z</button>
+            <button class="student-sort-button" type="button" data-student-sort-mode="desc" aria-pressed="false">Z → A</button>
+            <button class="student-sort-button" type="button" data-student-sort-mode="custom" aria-pressed="false">自訂次序</button>
+            <label class="inactive-student-toggle">帳戶狀態
+              <select data-student-status-filter aria-label="篩選學生帳戶狀態">
+                <option value="active">使用中帳戶</option>
+                <option value="inactive">已停用帳戶</option>
+                <option value="all">全部學生帳戶</option>
+              </select>
+            </label>
+            <span class="inactive-student-toggle">自訂排序可拖放，或使用上移／下移按鈕。</span>
+          </div>
+        </div>
         <div class="student-grid" data-student-list>
           <p class="empty-state">正在載入學生帳戶…</p>
         </div>
         <p class="calendar-status" data-admin-status role="status" aria-live="polite"></p>
+      </div>
+      <div class="student-list-panel parent-list-panel glass-card">
+        <div class="parent-list-heading"><h2>家長帳戶與子女指派</h2><span data-parent-count></span></div>
+        <div class="student-grid" data-parent-list>
+          <p class="empty-state">正在載入家長帳戶…</p>
+        </div>
+        <p class="calendar-status" data-parent-admin-status role="status" aria-live="polite"></p>
       </div>
     </section>
 
@@ -1356,6 +1483,8 @@
           <strong data-selection-count aria-live="polite">已選 0 項</strong>
           <div class="selection-action-buttons">
             <button class="selection-action-button" type="button" data-batch-complete>標記已完成</button>
+            <button class="selection-action-button progress" type="button" data-batch-progress>標記進行中</button>
+            <button class="selection-action-button previous" type="button" data-batch-previous-incomplete>標記上週未完成</button>
             <button class="selection-action-button" type="button" data-move-selected>移動所選</button>
             <button class="selection-action-button danger" type="button" data-batch-delete>刪除所選</button>
             <button class="selection-action-button" type="button" data-cancel-selection>取消選擇</button>
@@ -1500,6 +1629,103 @@
     </div>
   </dialog>
 
+  <dialog data-password-dialog aria-labelledby="password-dialog-title">
+    <form class="dialog-card password-dialog-card" data-password-form>
+      <h2 id="password-dialog-title">更改用戶系統 Password</h2>
+      <p class="dialog-meta">更改後，其他裝置的舊登入會立即失效。新密碼最少 8 個字元。</p>
+      <div class="field" data-current-password-field>
+        <label for="system-current-password">目前密碼</label>
+        <input id="system-current-password" name="currentPassword" type="password" maxlength="200" autocomplete="current-password" required>
+      </div>
+      <div class="field">
+        <label for="system-new-password">新密碼</label>
+        <input id="system-new-password" name="newPassword" type="password" minlength="8" maxlength="200" autocomplete="new-password" required>
+      </div>
+      <div class="field">
+        <label for="system-confirm-password">再次輸入新密碼</label>
+        <input id="system-confirm-password" name="confirmPassword" type="password" minlength="8" maxlength="200" autocomplete="new-password" required>
+      </div>
+      <p class="form-status" data-password-status role="status" aria-live="polite"></p>
+      <div class="dialog-actions">
+        <button class="secondary-button" type="button" data-close-password>取消</button>
+        <button class="primary-button" type="submit">更新密碼</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog data-admin-password-dialog aria-labelledby="admin-password-dialog-title">
+    <form class="dialog-card password-dialog-card" data-admin-password-form>
+      <h2 id="admin-password-dialog-title">重設帳戶密碼</h2>
+      <p class="dialog-meta" data-admin-password-target></p>
+      <input type="hidden" name="accountId">
+      <input type="hidden" name="accountType">
+      <div class="field">
+        <label for="admin-new-account-password">新密碼</label>
+        <input id="admin-new-account-password" name="newPassword" type="password" minlength="8" maxlength="200" autocomplete="new-password" required>
+      </div>
+      <div class="field">
+        <label for="admin-confirm-account-password">再次輸入新密碼</label>
+        <input id="admin-confirm-account-password" name="confirmPassword" type="password" minlength="8" maxlength="200" autocomplete="new-password" required>
+      </div>
+      <p class="form-status" data-admin-password-status role="status" aria-live="polite"></p>
+      <div class="dialog-actions">
+        <button class="secondary-button" type="button" data-close-admin-password>取消</button>
+        <button class="primary-button" type="submit">確定重設</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog data-student-profile-dialog aria-labelledby="student-profile-dialog-title">
+    <section class="dialog-card student-profile-card">
+      <div class="student-profile-heading">
+        <div>
+          <p class="eyebrow">STUDENT ACCOUNT PROFILE</p>
+          <h2 id="student-profile-dialog-title" data-student-profile-title>學生帳戶</h2>
+          <p class="dialog-meta" data-student-profile-status></p>
+        </div>
+        <button class="secondary-button" type="button" data-close-student-profile>關閉</button>
+      </div>
+      <div class="student-profile-facts" data-student-profile-facts></div>
+      <div class="profile-section-heading">
+        <h3>Access Control 使用權限</h3>
+        <div class="access-bulk-actions">
+          <button class="secondary-button" type="button" data-set-student-access="true">全部開啟</button>
+          <button class="secondary-button" type="button" data-set-student-access="false">全部關閉</button>
+        </div>
+      </div>
+      <p class="account-security-note">權限與 Flashcard 管理員使用相同鍵值；儲存後會即時套用到學生共用帳戶。</p>
+      <div class="student-access-grid" data-student-access-grid></div>
+      <div class="profile-section-heading">
+        <h3>帳戶及密碼操作紀錄</h3>
+        <span data-student-audit-summary></span>
+      </div>
+      <div class="student-audit-list" data-student-audit-list><p>正在載入紀錄…</p></div>
+      <div class="student-audit-pagination">
+        <button class="secondary-button" type="button" data-student-audit-previous>上一頁</button>
+        <button class="secondary-button" type="button" data-student-audit-next>下一頁</button>
+      </div>
+      <div class="student-profile-actions" data-student-profile-actions></div>
+    </section>
+  </dialog>
+
+  <dialog data-permanent-delete-dialog aria-labelledby="permanent-delete-dialog-title">
+    <form class="dialog-card permanent-delete-card" data-permanent-delete-form>
+      <h2 id="permanent-delete-dialog-title">永久刪除學生帳戶</h2>
+      <p class="dialog-meta" data-permanent-delete-target></p>
+      <div class="deletion-impact" data-permanent-delete-impact>正在計算相關資料…</div>
+      <div class="field">
+        <label for="permanent-delete-name">輸入完整學生名稱以確認</label>
+        <input id="permanent-delete-name" name="typedName" maxlength="100" autocomplete="off" required>
+      </div>
+      <label class="danger-confirmation"><input type="checkbox" name="understood" required> 我明白此操作不可復原；學習紀錄及所有相關資料可能會一併刪除。</label>
+      <p class="form-status" data-permanent-delete-status role="status" aria-live="polite"></p>
+      <div class="dialog-actions">
+        <button class="secondary-button" type="button" data-close-permanent-delete>取消</button>
+        <button class="student-card-action danger" type="submit">永久刪除</button>
+      </div>
+    </form>
+  </dialog>
+
   <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
 
   <section class="print-sheet" data-print-sheet aria-hidden="true">
@@ -1517,7 +1743,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script src="shared-system-nav.js?v=20260809-2"></script>
-  <script type="module" src="schedule-system.js?v=20260809-1"></script>
+  <script src="shared-system-nav.js?v=20260810-2"></script>
+  <script type="module" src="schedule-system.js?v=20260810-3"></script>
 </body>
 </html>

@@ -12,31 +12,52 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({ type: "phrasal-verb", trigger: "Phrasal Verbs", label: "Phrasal Verbs", color: "#31966a" }),
   Object.freeze({ type: "speaking", trigger: "Speaking", label: "Speaking", color: "#2b9caf" }),
   Object.freeze({ type: "sentence-structure", trigger: "Sentence Structure", label: "Sentence Structure", color: "#6e62c9" }),
-  Object.freeze({ type: "reading-analysis", trigger: "Answer Analysis - IELTS Reading", label: "Answer Analysis - IELTS Reading", color: "#8b5fbf" })
+  Object.freeze({ type: "reading-analysis", trigger: "Answer Analysis - IELTS Reading", label: "Answer Analysis - IELTS Reading", color: "#8b5fbf" }),
+  Object.freeze({ type: "model-essay-download", trigger: "DSE Writing Part A Download", label: "DSE Writing Part A Download", color: "#d08b3e" }),
+  Object.freeze({ type: "common-expression", trigger: "Common Expression", label: "Common Expression", color: "#7b65c8" }),
+  Object.freeze({ type: "listening", trigger: "IELTS Listening", label: "IELTS Listening", color: "#218e9b" })
 ]);
 
 const TYPE_BY_NAME = new Map(HOMEWORK_RESOURCE_TYPES.map((item) => [item.type, item]));
-const ALLOWED_PAGE_BY_TYPE = Object.freeze({
-  flashcards: "/flashcards.html",
-  "fill-blanks": "/writing-practice.html",
-  "writing-submission": "/writing-submission.html",
-  idiom: "/idiom-system.html",
-  proverb: "/proverb-system.html",
-  "phrasal-verb": "/phrasal-verb-system.html",
-  speaking: "/speaking-system.html",
-  "sentence-structure": "/sentence-structure.html",
-  "reading-analysis": "/ielts-reading-analysis.html"
+const ALLOWED_PAGES_BY_TYPE = Object.freeze({
+  flashcards: Object.freeze(["/flashcards.html"]),
+  "fill-blanks": Object.freeze(["/writing-practice.html"]),
+  "writing-submission": Object.freeze(["/writing-submission.html"]),
+  idiom: Object.freeze(["/idiom-system.html"]),
+  proverb: Object.freeze(["/proverb-system.html"]),
+  "phrasal-verb": Object.freeze(["/phrasal-verb-system.html"]),
+  speaking: Object.freeze(["/speaking-system.html"]),
+  "sentence-structure": Object.freeze(["/sentence-structure.html"]),
+  "reading-analysis": Object.freeze(["/ielts-reading-analysis.html"]),
+  "model-essay-download": Object.freeze(["/model-essay-downloads.html"]),
+  "common-expression": Object.freeze([
+    "/common-expression-speaking.html",
+    "/common-expression-written.html",
+    "/common-expression-rhetorical-speaking.html",
+    "/common-expression-rhetorical-writing.html",
+    "/common-expression-professional-message.html",
+    "/common-expression-business-speaking.html"
+  ]),
+  listening: Object.freeze(["/listening-system.html"])
 });
-const EXPECTED_PARAMETER_BY_PAGE = Object.freeze({
-  "/flashcards.html": "deck",
-  "/writing-practice.html": "exercise",
-  "/writing-submission.html": null,
-  "/idiom-system.html": "lesson",
-  "/proverb-system.html": "lesson",
-  "/phrasal-verb-system.html": "lesson",
-  "/speaking-system.html": "exercise",
-  "/sentence-structure.html": "lesson",
-  "/ielts-reading-analysis.html": "article"
+const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
+  "/flashcards.html": Object.freeze(["deck"]),
+  "/writing-practice.html": Object.freeze(["exercise"]),
+  "/writing-submission.html": Object.freeze([]),
+  "/idiom-system.html": Object.freeze(["lesson"]),
+  "/proverb-system.html": Object.freeze(["lesson"]),
+  "/phrasal-verb-system.html": Object.freeze(["lesson"]),
+  "/speaking-system.html": Object.freeze(["exercise"]),
+  "/sentence-structure.html": Object.freeze(["lesson"]),
+  "/ielts-reading-analysis.html": Object.freeze(["article"]),
+  "/model-essay-downloads.html": Object.freeze(["catalog", "item"]),
+  "/common-expression-speaking.html": Object.freeze(["lesson"]),
+  "/common-expression-written.html": Object.freeze(["lesson"]),
+  "/common-expression-rhetorical-speaking.html": Object.freeze(["lesson"]),
+  "/common-expression-rhetorical-writing.html": Object.freeze(["lesson"]),
+  "/common-expression-professional-message.html": Object.freeze(["lesson"]),
+  "/common-expression-business-speaking.html": Object.freeze(["lesson"]),
+  "/listening-system.html": Object.freeze(["section", "practice", "part"])
 });
 
 function encodeBase64Url(value) {
@@ -65,13 +86,15 @@ export function normalizeHomeworkResource(value) {
       ? "fill"
       : type === "sentence-structure"
         ? "sentence"
+        : type === "model-essay-download"
+          ? "download"
         : type;
   if (!id || !label || !id.startsWith(`${idPrefix}:`)) return null;
 
   const url = normalizeHomeworkHref(value.url);
   if (!url) return null;
   const parsed = new URL(url, "https://edmundeducation.com/");
-  if (parsed.pathname !== ALLOWED_PAGE_BY_TYPE[type]) return null;
+  if (!ALLOWED_PAGES_BY_TYPE[type]?.includes(parsed.pathname)) return null;
   return Object.freeze({ id, type, label, url });
 }
 
@@ -83,14 +106,27 @@ export function normalizeHomeworkHref(value) {
     return null;
   }
   if (parsed.origin !== "https://edmundeducation.com" || parsed.username || parsed.password || parsed.hash) return null;
-  if (!Object.hasOwn(EXPECTED_PARAMETER_BY_PAGE, parsed.pathname)) return null;
-  const expectedParameter = EXPECTED_PARAMETER_BY_PAGE[parsed.pathname];
-  if (expectedParameter === null) {
-    return parsed.search ? null : parsed.pathname.slice(1);
+  if (!Object.hasOwn(EXPECTED_PARAMETERS_BY_PAGE, parsed.pathname)) return null;
+  const expectedParameters = EXPECTED_PARAMETERS_BY_PAGE[parsed.pathname];
+  const actualParameters = [...parsed.searchParams.keys()];
+  if (actualParameters.length !== expectedParameters.length) return null;
+  if (expectedParameters.some((key) => !parsed.searchParams.get(key))) return null;
+  if (actualParameters.some((key) => !expectedParameters.includes(key))) return null;
+  if (parsed.pathname === "/model-essay-downloads.html") {
+    if (parsed.searchParams.get("catalog") !== "dse-writing-part-a") return null;
   }
-  if (!parsed.search) return null;
-  if (!parsed.searchParams.get(expectedParameter) || [...parsed.searchParams.keys()].some((key) => key !== expectedParameter)) return null;
-  return `${parsed.pathname.slice(1)}?${parsed.searchParams.toString()}`;
+  if (parsed.pathname.startsWith("/common-expression-")) {
+    if (!/^common-expression-\d+$/i.test(parsed.searchParams.get("lesson") || "")) return null;
+  }
+  if (parsed.pathname === "/listening-system.html") {
+    const practice = Number(parsed.searchParams.get("practice"));
+    const part = Number(parsed.searchParams.get("part"));
+    if (parsed.searchParams.get("section") !== "ielts") return null;
+    if (!Number.isSafeInteger(practice) || practice < 1 || practice > 20) return null;
+    if (!Number.isSafeInteger(part) || part < 1 || part > 4) return null;
+  }
+  const query = parsed.searchParams.toString();
+  return `${parsed.pathname.slice(1)}${query ? `?${query}` : ""}`;
 }
 
 function cleanVisibleMessage(value) {

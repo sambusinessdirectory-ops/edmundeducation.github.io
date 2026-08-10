@@ -7,6 +7,8 @@
 -- The underlying tables have RLS enabled, no permissive policies, and no
 -- Data API grants.
 
+begin;
+
 do $$
 begin
   if pg_catalog.to_regclass('public.flashcard_students') is null then
@@ -212,7 +214,13 @@ begin
     if exists (
       select 1
       from pg_catalog.jsonb_object_keys(v_answer) as item(key)
-      where item.key not in ('answer', 'correct', 'attempts', 'updatedAt')
+      where item.key not in (
+        'answer',
+        'checkedAnswer',
+        'correct',
+        'attempts',
+        'updatedAt'
+      )
     ) then
       return false;
     end if;
@@ -223,6 +231,13 @@ begin
       or not (v_answer ? 'updatedAt')
       or pg_catalog.jsonb_typeof(v_answer -> 'answer') <> 'string'
       or pg_catalog.char_length(v_answer ->> 'answer') > 6000
+      or (
+        v_answer ? 'checkedAnswer'
+        and (
+          pg_catalog.jsonb_typeof(v_answer -> 'checkedAnswer') <> 'string'
+          or pg_catalog.char_length(v_answer ->> 'checkedAnswer') > 6000
+        )
+      )
       or pg_catalog.jsonb_typeof(v_answer -> 'correct') <> 'boolean'
       or pg_catalog.jsonb_typeof(v_answer -> 'attempts') <> 'number'
       or pg_catalog.jsonb_typeof(v_answer -> 'updatedAt') <> 'string'
@@ -266,6 +281,7 @@ declare
   v_answer_count integer;
   v_question_id text;
   v_question_number_text text;
+  v_expected_question_prefix text;
 begin
   if p_question_count is null
     or p_question_count not between 1 and 100
@@ -283,6 +299,14 @@ begin
     return false;
   end if;
 
+  -- Question ids are repeated across the six systems, but must still belong
+  -- to the selected lesson number (for example common-expression-03 uses
+  -- ce03-q01 ... ce03-q30).  This prevents a handcrafted client payload from
+  -- recording a completion under a fabricated or different lesson prefix.
+  v_expected_question_prefix := 'ce'
+    || pg_catalog.substring(p_lesson_id, '([0-9]{2,4})$')
+    || '-q';
+
   for v_question_id in
     select item.key
     from pg_catalog.jsonb_object_keys(p_state -> 'answers') as item(key)
@@ -292,7 +316,8 @@ begin
       '-q([0-9]{2,3})$'
     );
 
-    if v_question_number_text is null
+    if v_question_id not like v_expected_question_prefix || '%'
+      or v_question_number_text is null
       or v_question_number_text !~ '^[0-9]+$'
       or v_question_number_text::integer not between 1 and p_question_count
     then
@@ -561,6 +586,62 @@ create table if not exists public.common_expression_bookmarks (
     check (public._common_expression_lesson_id_valid(lesson_id))
 );
 
+-- One authoritative first submission per student/question.  This matches the
+-- Sentence Structure / Idiom / Proverb dashboards: a checked answer appears
+-- once even when it still needs correction.  The server records the day only
+-- after the bounded lesson-state validator has accepted the submission;
+-- browser timestamps never determine live activity dates.
+create table if not exists public.common_expression_question_completions (
+  student_id uuid not null
+    references public.flashcard_students(id) on delete cascade,
+  system_key text not null,
+  lesson_id text not null,
+  question_id text not null,
+  completed_at timestamptz not null default now(),
+  primary key (student_id, system_key, lesson_id, question_id),
+  foreign key (system_key, lesson_id)
+    references public.common_expression_catalogue_lessons (system_key, lesson_id)
+    on update cascade
+    on delete restrict,
+  constraint common_expression_question_completions_system_key_check
+    check (public._common_expression_system_key_valid(system_key)),
+  constraint common_expression_question_completions_lesson_id_check
+    check (public._common_expression_lesson_id_valid(lesson_id)),
+  constraint common_expression_question_completions_question_id_check
+    check (question_id ~ '^ce[0-9]{2,4}-q(0[1-9]|[1-9][0-9]{1,2})$')
+);
+
+-- Time is stored as one aggregate per lesson and Hong Kong calendar day.
+-- The save RPC adds only the positive delta beyond the server's previous
+-- lesson duration, so retries cannot count the same elapsed time twice.
+create table if not exists public.common_expression_time_activity_days (
+  student_id uuid not null
+    references public.flashcard_students(id) on delete cascade,
+  system_key text not null,
+  lesson_id text not null,
+  activity_date date not null,
+  duration_ms bigint not null default 0,
+  updated_at timestamptz not null default now(),
+  primary key (student_id, system_key, lesson_id, activity_date),
+  foreign key (system_key, lesson_id)
+    references public.common_expression_catalogue_lessons (system_key, lesson_id)
+    on update cascade
+    on delete restrict,
+  constraint common_expression_time_activity_days_system_key_check
+    check (public._common_expression_system_key_valid(system_key)),
+  constraint common_expression_time_activity_days_lesson_id_check
+    check (public._common_expression_lesson_id_valid(lesson_id)),
+  constraint common_expression_time_activity_days_duration_check
+    check (duration_ms between 0 and 31536000000)
+);
+
+create index if not exists common_expression_question_completions_student_day_idx
+  on public.common_expression_question_completions
+  (student_id, system_key, completed_at);
+create index if not exists common_expression_time_activity_days_student_day_idx
+  on public.common_expression_time_activity_days
+  (student_id, system_key, activity_date);
+
 -- Upgrade an already-applied first version without failing on legacy rows.
 -- NOT VALID still enforces the FK for every new write.  Validation succeeds
 -- immediately on a clean/new install; a warning identifies legacy fabricated
@@ -648,6 +729,8 @@ $$;
 alter table public.common_expression_catalogue_lessons enable row level security;
 alter table public.common_expression_lesson_states enable row level security;
 alter table public.common_expression_bookmarks enable row level security;
+alter table public.common_expression_question_completions enable row level security;
+alter table public.common_expression_time_activity_days enable row level security;
 
 -- There are intentionally no permissive policies.  All student ownership is
 -- enforced by the three narrowly scoped RPCs below.
@@ -657,6 +740,80 @@ revoke all on table public.common_expression_lesson_states
   from public, anon, authenticated, service_role;
 revoke all on table public.common_expression_bookmarks
   from public, anon, authenticated, service_role;
+revoke all on table public.common_expression_question_completions
+  from public, anon, authenticated, service_role;
+revoke all on table public.common_expression_time_activity_days
+  from public, anon, authenticated, service_role;
+
+-- Upgrade existing progress into the two activity feeds.  The statements are
+-- idempotent, use validated lesson/question identifiers, and never overwrite
+-- an earlier authoritative completion time.
+insert into public.common_expression_question_completions (
+  student_id,
+  system_key,
+  lesson_id,
+  question_id,
+  completed_at
+)
+select
+  lesson_state.student_id,
+  lesson_state.system_key,
+  lesson_state.lesson_id,
+  answer.key,
+  coalesce(
+    public._common_expression_rfc3339_timestamp(answer.value ->> 'updatedAt'),
+    lesson_state.updated_at
+  )
+from public.common_expression_lesson_states lesson_state
+cross join lateral pg_catalog.jsonb_each(lesson_state.state -> 'answers')
+  as answer(key, value)
+join public.common_expression_catalogue_lessons catalogue_lesson
+  on catalogue_lesson.system_key = lesson_state.system_key
+  and catalogue_lesson.lesson_id = lesson_state.lesson_id
+  and catalogue_lesson.is_enabled
+where pg_catalog.jsonb_typeof(answer.value -> 'attempts') = 'number'
+  and (answer.value ->> 'attempts')::integer > 0
+  and public._common_expression_state_matches_lesson(
+    lesson_state.lesson_id,
+    pg_catalog.jsonb_build_object('answers', pg_catalog.jsonb_build_object(answer.key, answer.value)),
+    catalogue_lesson.question_count
+  )
+on conflict (student_id, system_key, lesson_id, question_id) do update
+set completed_at = least(
+  public.common_expression_question_completions.completed_at,
+  excluded.completed_at
+);
+
+insert into public.common_expression_time_activity_days (
+  student_id,
+  system_key,
+  lesson_id,
+  activity_date,
+  duration_ms,
+  updated_at
+)
+select
+  lesson_state.student_id,
+  lesson_state.system_key,
+  lesson_state.lesson_id,
+  (lesson_state.updated_at at time zone 'Asia/Hong_Kong')::date,
+  lesson_state.duration_ms,
+  lesson_state.updated_at
+from public.common_expression_lesson_states lesson_state
+join public.common_expression_catalogue_lessons catalogue_lesson
+  on catalogue_lesson.system_key = lesson_state.system_key
+  and catalogue_lesson.lesson_id = lesson_state.lesson_id
+  and catalogue_lesson.is_enabled
+where lesson_state.duration_ms > 0
+on conflict (student_id, system_key, lesson_id, activity_date) do update
+set duration_ms = greatest(
+      public.common_expression_time_activity_days.duration_ms,
+      excluded.duration_ms
+    ),
+    updated_at = greatest(
+      public.common_expression_time_activity_days.updated_at,
+      excluded.updated_at
+    );
 
 create or replace function public.common_expression_student_snapshot(
   p_token uuid,
@@ -673,6 +830,8 @@ declare
   v_student_name text;
   v_states jsonb;
   v_bookmarks jsonb;
+  v_question_activity jsonb;
+  v_time_activity jsonb;
 begin
   v_student_id := public.flashcard_session_student_id(p_token);
 
@@ -732,6 +891,46 @@ begin
   where bookmark.student_id = v_student_id
     and bookmark.system_key = p_system_key;
 
+  select coalesce(
+    pg_catalog.jsonb_agg(
+      pg_catalog.jsonb_build_object(
+        'lessonId', completion.lesson_id,
+        'questionId', completion.question_id,
+        'completedAt', completion.completed_at
+      )
+      order by completion.completed_at, completion.lesson_id, completion.question_id
+    ),
+    '[]'::jsonb
+  )
+  into v_question_activity
+  from public.common_expression_question_completions completion
+  join public.common_expression_catalogue_lessons catalogue_lesson
+    on catalogue_lesson.system_key = completion.system_key
+    and catalogue_lesson.lesson_id = completion.lesson_id
+    and catalogue_lesson.is_enabled
+  where completion.student_id = v_student_id
+    and completion.system_key = p_system_key;
+
+  select coalesce(
+    pg_catalog.jsonb_agg(
+      pg_catalog.jsonb_build_object(
+        'lessonId', activity.lesson_id,
+        'date', activity.activity_date,
+        'durationMs', activity.duration_ms
+      )
+      order by activity.activity_date, activity.lesson_id
+    ),
+    '[]'::jsonb
+  )
+  into v_time_activity
+  from public.common_expression_time_activity_days activity
+  join public.common_expression_catalogue_lessons catalogue_lesson
+    on catalogue_lesson.system_key = activity.system_key
+    and catalogue_lesson.lesson_id = activity.lesson_id
+    and catalogue_lesson.is_enabled
+  where activity.student_id = v_student_id
+    and activity.system_key = p_system_key;
+
   return pg_catalog.jsonb_build_object(
     'student', pg_catalog.jsonb_build_object(
       'id', v_student_id,
@@ -739,7 +938,9 @@ begin
     ),
     'system_key', p_system_key,
     'states', v_states,
-    'bookmarks', v_bookmarks
+    'bookmarks', v_bookmarks,
+    'questionActivity', v_question_activity,
+    'timeActivity', v_time_activity
   );
 end;
 $$;
@@ -761,6 +962,8 @@ declare
   v_now timestamptz := pg_catalog.clock_timestamp();
   v_completed_at timestamptz;
   v_question_count integer;
+  v_previous_duration_ms bigint := 0;
+  v_duration_delta_ms bigint := 0;
   v_saved public.common_expression_lesson_states%rowtype;
 begin
   v_student_id := public.flashcard_session_student_id(p_token);
@@ -810,6 +1013,26 @@ begin
     v_completed_at := v_now;
   end if;
 
+  -- A lesson-scoped transaction lock also serialises the first insert, when
+  -- no lesson-state row exists yet. This keeps duration deltas idempotent
+  -- across retries and concurrent tabs.
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(
+      v_student_id::text || ':' || p_system_key || ':' || p_lesson_id,
+      0
+    )
+  );
+
+  select lesson_state.duration_ms
+  into v_previous_duration_ms
+  from public.common_expression_lesson_states lesson_state
+  where lesson_state.student_id = v_student_id
+    and lesson_state.system_key = p_system_key
+    and lesson_state.lesson_id = p_lesson_id
+  for update;
+
+  v_previous_duration_ms := coalesce(v_previous_duration_ms, 0);
+
   insert into public.common_expression_lesson_states (
     student_id,
     system_key,
@@ -857,6 +1080,53 @@ begin
     updated_at = v_now
   returning * into v_saved;
 
+  v_duration_delta_ms := greatest(
+    v_saved.duration_ms - v_previous_duration_ms,
+    0
+  );
+
+  insert into public.common_expression_question_completions (
+    student_id,
+    system_key,
+    lesson_id,
+    question_id,
+    completed_at
+  )
+  select
+    v_student_id,
+    p_system_key,
+    p_lesson_id,
+    answer.key,
+    v_now
+  from pg_catalog.jsonb_each(v_saved.state -> 'answers')
+    as answer(key, value)
+  where pg_catalog.jsonb_typeof(answer.value -> 'attempts') = 'number'
+    and (answer.value ->> 'attempts')::integer > 0
+  on conflict (student_id, system_key, lesson_id, question_id) do nothing;
+
+  if v_duration_delta_ms > 0 then
+    insert into public.common_expression_time_activity_days (
+      student_id,
+      system_key,
+      lesson_id,
+      activity_date,
+      duration_ms,
+      updated_at
+    )
+    values (
+      v_student_id,
+      p_system_key,
+      p_lesson_id,
+      (v_now at time zone 'Asia/Hong_Kong')::date,
+      v_duration_delta_ms,
+      v_now
+    )
+    on conflict (student_id, system_key, lesson_id, activity_date) do update
+    set duration_ms = public.common_expression_time_activity_days.duration_ms
+        + excluded.duration_ms,
+        updated_at = v_now;
+  end if;
+
   return pg_catalog.jsonb_build_object(
     'state_row', pg_catalog.jsonb_build_object(
       'lesson_id', v_saved.lesson_id,
@@ -864,6 +1134,17 @@ begin
       'duration_ms', v_saved.duration_ms,
       'completed_at', v_saved.completed_at,
       'updated_at', v_saved.updated_at
+    ),
+    'activity_recorded', pg_catalog.jsonb_build_object(
+      'lesson_question_completions', (
+        select count(*)
+        from public.common_expression_question_completions completion
+        where completion.student_id = v_student_id
+          and completion.system_key = p_system_key
+          and completion.lesson_id = p_lesson_id
+      ),
+      'duration_delta_ms', v_duration_delta_ms,
+      'activity_date', (v_now at time zone 'Asia/Hong_Kong')::date
     )
   );
 end;
@@ -981,3 +1262,7 @@ grant execute on function public.common_expression_set_bookmark(
   text,
   boolean
 ) to authenticated;
+
+notify pgrst, 'reload schema';
+
+commit;

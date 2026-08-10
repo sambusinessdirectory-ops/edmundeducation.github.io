@@ -177,6 +177,17 @@ const packFixtures = new Map(
 const getCalls = [];
 const env = {
   EDMUND_ASSETS: {
+    async list({ prefix }) {
+      assert(prefix === "IELTS Listening - Recordings/", "Listening list used the wrong R2 prefix");
+      return {
+        truncated: false,
+        objects: [
+          { key: `${prefix}IELTS Practice 1 - Part 1.mp3`, size: 12345, uploaded: new Date("2026-08-10T01:00:00Z") },
+          { key: `${prefix}Listening 01 Part 2.mp3`, size: 23456, uploaded: new Date("2026-08-10T01:01:00Z") },
+          { key: `${prefix}README.mp3`, size: 99, uploaded: new Date("2026-08-10T01:02:00Z") }
+        ]
+      };
+    },
     async head(key) {
       const fixture = packFixtures.get(key);
       return fixture ? { size: fixture.pack.size } : null;
@@ -308,6 +319,26 @@ if (!flashcardExpansion.meta.r2UploadComplete) {
 const healthResponse = await worker.fetch(new Request(`${publicHost}/health`), env);
 const health = await healthResponse.json();
 assert(healthResponse.status === 200 && health.products.includes("flashcards"), "Health omits flashcards");
+assert(health.products.includes("ielts-listening"), "Health omits IELTS listening");
+
+const listeningResponse = await worker.fetch(new Request(`${publicHost}/v1/listening/catalog`), env);
+assert(listeningResponse.status === 200, "IELTS listening catalogue did not respond");
+const listeningCatalogue = await listeningResponse.json();
+assert(listeningCatalogue.expectedTracks === 80, "Listening catalogue expected-track count changed");
+assert(listeningCatalogue.complete === false, "Incomplete listening fixture was marked complete");
+assert(
+  JSON.stringify(listeningCatalogue.tracks.map(track => [track.practice, track.part])) === JSON.stringify([[1, 1], [1, 2]]),
+  "Listening filenames were not mapped to the right practice and part"
+);
+assert(listeningCatalogue.missing.length === 78, "Listening missing-track count is wrong");
+assert(
+  JSON.stringify(listeningCatalogue.unmapped) === JSON.stringify(["IELTS Listening - Recordings/README.mp3"]),
+  "Unmapped listening object was not reported"
+);
+assert(
+  /IELTS%20Listening%20-%20Recordings\/IELTS%20Practice%201%20-%20Part%201\.mp3$/.test(listeningCatalogue.tracks[0].url),
+  "Listening URL was not safely encoded"
+);
 
 console.log(JSON.stringify({
   indexes: indexes.map(({ file, value }) => ({
@@ -324,4 +355,5 @@ console.log(JSON.stringify({
   invalidRangeStatus: invalidRange.status,
   conditionalStatus: conditional.status,
   health,
+  listeningCatalogue,
 }, null, 2));

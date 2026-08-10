@@ -67,6 +67,77 @@ const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
 const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260809-1";
+const STUDENT_ACCOUNT_PAGE_SIZE = 100;
+const STUDENT_AUDIT_PAGE_SIZE = 10;
+const STUDENT_ACCESS_SECTIONS = [
+  { key: "dse", label: "DSE", group: "考試範疇" },
+  { key: "ielts", label: "IELTS", group: "考試範疇" },
+  { key: "toeic", label: "TOEIC", group: "考試範疇" },
+  { key: "toefl", label: "TOEFL", group: "考試範疇" },
+  { key: "sat", label: "SAT", group: "考試範疇" },
+  { key: "cre", label: "CRE", group: "考試範疇" },
+  { key: "ap-english", label: "AP English 考試", group: "考試範疇" },
+  { key: "ib", label: "IB 課程／國際學校", group: "考試範疇" },
+  { key: "cambridge", label: "Cambridge IGCSE", group: "考試範疇" },
+  { key: "pte", label: "Pearson Test of English (PTE)", group: "考試範疇" },
+  { key: "government", label: "政府機構", group: "考試範疇" },
+  { key: "student-custom", label: "自製 Flashcards", group: "考試範疇" },
+  { key: "custom-setup", label: "客製 Setup", group: "考試範疇" },
+  { key: "sentence-structure", label: "句子結構 Sentence Structure", group: "考試範疇" },
+  { key: "error-identification", label: "錯句剖析 Error Identification", group: "考試範疇" },
+  { key: "business-english", label: "商務英語 Business English", group: "考試範疇" },
+  { key: "spelling-exercise", label: "Spelling Exercise 串字練習", group: "考試範疇" },
+  { key: "irregular-verbs", label: "Irregular Verbs 不規則動詞", group: "考試範疇" },
+  { key: "logic-exercise", label: "Logic Exercise 邏輯訓練", group: "考試範疇" },
+  { key: "exam-skills", label: "Exam Skills 考試技巧", group: "考試範疇" },
+  { key: "spaced-repetition", label: "間隔重複記憶法 Spaced Repetition", group: "考試範疇" },
+  { key: "daily-english", label: "日常英語", group: "學習資源" },
+  { key: "conversational-english", label: "對話英語 Conversational English", group: "學習資源" },
+  { key: "bookmarks", label: "書簽 My Private Bookmarks", group: "學習資源" },
+  { key: "pop-songs", label: "英文流行曲", group: "學習資源" },
+  { key: "news-analysis", label: "新聞分析", group: "學習資源" },
+  { key: "power-words", label: "Power Words", group: "學習資源" },
+  { key: "idioms", label: "Idioms", group: "學習資源" },
+  { key: "phrasal-verbs", label: "Phrasal Verbs", group: "學習資源" },
+  { key: "synonyms", label: "Synonyms 同義詞", group: "學習資源" },
+  { key: "movie-lines", label: "Movie Lines 電影對白分析", group: "學習資源" },
+  { key: "speech", label: "Speech 偉人英文演講分析", group: "學習資源" },
+  { key: "ted-talk", label: "TED Talk 公開演講分析", group: "學習資源" },
+  { key: "poem", label: "Poem 英文詩句分析", group: "學習資源" }
+];
+const STUDENT_ACCESS_CHILDREN = {
+  dse: [
+    { key: "dse-reading", label: "Reading" },
+    { key: "dse-writing", label: "Writing" },
+    { key: "dse-paper3", label: "Paper 3" },
+    { key: "dse-speaking", label: "Speaking" }
+  ],
+  ielts: [
+    { key: "ielts-reading", label: "Reading" },
+    { key: "ielts-writing", label: "Writing" },
+    { key: "ielts-listening", label: "Listening" },
+    { key: "ielts-speaking", label: "Speaking" }
+  ],
+  government: [
+    { key: "government-concept-vocabulary", label: "概念詞彙" },
+    { key: "government-hkfsd", label: "HKFSD" },
+    { key: "government-hkpf", label: "HKPF" },
+    { key: "government-csd", label: "CSD" },
+    { key: "government-c-and-ed", label: "C&ED" },
+    { key: "government-immd", label: "ImmD" }
+  ],
+  synonyms: [
+    { key: "synonyms/noun", label: "Noun" },
+    { key: "synonyms/verb", label: "Verb" },
+    { key: "synonyms/adjectives", label: "Adjectives" },
+    { key: "synonyms/adverbs", label: "Adverbs" }
+  ],
+  "spaced-repetition": [
+    { key: "spaced-repetition-days|3", label: "3 日後重溫" },
+    { key: "spaced-repetition-days|7", label: "7 日後重溫" },
+    { key: "spaced-repetition-days|14", label: "14 日後重溫" }
+  ]
+};
 const WEEKDAY_MASCOTS = [
   "assets/schedule/weekdays/monday-walking-to-school.webp",
   "assets/schedule/weekdays/tuesday-basketball.webp",
@@ -87,6 +158,7 @@ const elements = {
   views: [...document.querySelectorAll("[data-view]")],
   connection: document.querySelector("[data-connection-status]"),
   userPill: document.querySelector("[data-user-pill]"),
+  changePassword: document.querySelector("[data-change-password]"),
   logout: document.querySelector("[data-logout]"),
   adminStudentsButton: document.querySelector("[data-admin-students]"),
   loginForm: document.querySelector("[data-login-form]"),
@@ -97,7 +169,34 @@ const elements = {
   password: document.querySelector("#schedule-password"),
   studentSearch: document.querySelector("[data-student-search]"),
   studentList: document.querySelector("[data-student-list]"),
+  studentCount: document.querySelector("[data-student-count]"),
   adminStatus: document.querySelector("[data-admin-status]"),
+  createStudentForm: document.querySelector("[data-create-student-form]"),
+  createStudentStatus: document.querySelector("[data-create-student-status]"),
+  createParentForm: document.querySelector("[data-create-parent-form]"),
+  createParentStatus: document.querySelector("[data-create-parent-status]"),
+  parentList: document.querySelector("[data-parent-list]"),
+  parentCount: document.querySelector("[data-parent-count]"),
+  parentAdminStatus: document.querySelector("[data-parent-admin-status]"),
+  studentSortButtons: [...document.querySelectorAll("[data-student-sort-mode]")],
+  studentStatusFilter: document.querySelector("[data-student-status-filter]"),
+  studentProfileDialog: document.querySelector("[data-student-profile-dialog]"),
+  studentProfileTitle: document.querySelector("[data-student-profile-title]"),
+  studentProfileStatus: document.querySelector("[data-student-profile-status]"),
+  studentProfileFacts: document.querySelector("[data-student-profile-facts]"),
+  studentAccessGrid: document.querySelector("[data-student-access-grid]"),
+  studentAuditList: document.querySelector("[data-student-audit-list]"),
+  studentAuditSummary: document.querySelector("[data-student-audit-summary]"),
+  studentAuditPrevious: document.querySelector("[data-student-audit-previous]"),
+  studentAuditNext: document.querySelector("[data-student-audit-next]"),
+  studentProfileActions: document.querySelector("[data-student-profile-actions]"),
+  closeStudentProfile: document.querySelector("[data-close-student-profile]"),
+  permanentDeleteDialog: document.querySelector("[data-permanent-delete-dialog]"),
+  permanentDeleteForm: document.querySelector("[data-permanent-delete-form]"),
+  permanentDeleteTarget: document.querySelector("[data-permanent-delete-target]"),
+  permanentDeleteImpact: document.querySelector("[data-permanent-delete-impact]"),
+  permanentDeleteStatus: document.querySelector("[data-permanent-delete-status]"),
+  closePermanentDelete: document.querySelector("[data-close-permanent-delete]"),
   viewingLabel: document.querySelector("[data-viewing-label]"),
   viewingStudent: document.querySelector("[data-viewing-student]"),
   weekRange: document.querySelector("[data-week-range]"),
@@ -112,6 +211,8 @@ const elements = {
   selectionActions: document.querySelector("[data-selection-actions]"),
   selectionCount: document.querySelector("[data-selection-count]"),
   batchComplete: document.querySelector("[data-batch-complete]"),
+  batchProgress: document.querySelector("[data-batch-progress]"),
+  batchPreviousIncomplete: document.querySelector("[data-batch-previous-incomplete]"),
   moveSelected: document.querySelector("[data-move-selected]"),
   batchDelete: document.querySelector("[data-batch-delete]"),
   cancelSelection: document.querySelector("[data-cancel-selection]"),
@@ -168,6 +269,15 @@ const elements = {
   deleteDialog: document.querySelector("[data-delete-dialog]"),
   cancelDelete: document.querySelector("[data-cancel-delete]"),
   confirmDelete: document.querySelector("[data-confirm-delete]"),
+  passwordDialog: document.querySelector("[data-password-dialog]"),
+  passwordForm: document.querySelector("[data-password-form]"),
+  passwordStatus: document.querySelector("[data-password-status]"),
+  closePassword: document.querySelector("[data-close-password]"),
+  adminPasswordDialog: document.querySelector("[data-admin-password-dialog]"),
+  adminPasswordForm: document.querySelector("[data-admin-password-form]"),
+  adminPasswordTarget: document.querySelector("[data-admin-password-target]"),
+  adminPasswordStatus: document.querySelector("[data-admin-password-status]"),
+  closeAdminPassword: document.querySelector("[data-close-admin-password]"),
   toast: document.querySelector("[data-toast]"),
   printSheet: document.querySelector("[data-print-sheet]"),
   printRange: document.querySelector("[data-print-range]"),
@@ -179,6 +289,16 @@ const state = {
   currentUser: null,
   selectedStudent: null,
   adminStudents: [],
+  adminParents: [],
+  studentSortMode: "asc",
+  studentOrder: [],
+  studentStatusFilter: "active",
+  draggingStudentId: null,
+  selectedStudentProfileId: null,
+  studentAuditRows: [],
+  studentAuditPage: 1,
+  studentAuditTotal: 0,
+  permanentDeleteSnapshot: null,
   weekStart: defaultWeekStart(),
   weekPayload: emptyWeekPayload(),
   editing: null,
@@ -474,6 +594,7 @@ function showView(name) {
   for (const view of elements.views) view.hidden = view.dataset.view !== name;
   const loggedIn = Boolean(state.currentUser);
   elements.userPill.hidden = !loggedIn;
+  elements.changePassword.hidden = !loggedIn;
   elements.logout.hidden = !loggedIn;
   elements.adminStudentsButton.hidden = !(
     state.currentUser?.role === "admin" && name === "calendar"
@@ -1198,6 +1319,14 @@ function updateSelectionControls() {
   elements.batchComplete.textContent = entries.length && entries.every((entry) => entry.isCompleted)
     ? "取消完成"
     : "標記完成";
+  elements.batchProgress.disabled = state.mutationInFlight || moving || entries.length === 0;
+  elements.batchProgress.textContent = entries.length && entries.every((entry) => entry.isInProgress)
+    ? "取消進行中"
+    : "標記進行中";
+  elements.batchPreviousIncomplete.disabled = state.mutationInFlight || moving || entries.length === 0;
+  elements.batchPreviousIncomplete.textContent = entries.length && entries.every((entry) => entry.isPreviousIncomplete)
+    ? "取消上週未完成"
+    : "標記上週未完成";
   elements.moveSelected.disabled = state.mutationInFlight || moving || entries.length !== 1 || !canMoveEntry(entries[0]);
   elements.moveSelected.textContent = moving ? "請選擇空白格" : "移動所選";
   elements.batchDelete.disabled = state.mutationInFlight || moving || entries.length === 0 || protectedCount > 0;
@@ -2067,6 +2196,7 @@ async function logout() {
   state.currentUser = null;
   state.selectedStudent = null;
   state.adminStudents = [];
+  state.adminParents = [];
   clearRenderedSchedule();
   sessionStorage.removeItem(SESSION_KEY);
 
@@ -2092,6 +2222,134 @@ async function logout() {
   setConnection("可以登入", "online");
 }
 
+function openPasswordDialog() {
+  if (!state.currentUser) return;
+  elements.passwordForm.reset();
+  setStatus(elements.passwordStatus, "");
+  elements.passwordDialog.showModal();
+  window.setTimeout(() => elements.passwordForm.elements.currentPassword.focus(), 0);
+}
+
+async function changeCurrentUserPassword(event) {
+  event.preventDefault();
+  if (!state.currentUser) return;
+  const data = new FormData(elements.passwordForm);
+  const currentPassword = String(data.get("currentPassword") || "");
+  const newPassword = String(data.get("newPassword") || "");
+  const confirmation = String(data.get("confirmPassword") || "");
+  if (!currentPassword || newPassword.length < 8 || newPassword !== confirmation) {
+    setStatus(elements.passwordStatus, "請輸入目前密碼；新密碼最少 8 個字元，而且兩次輸入必須相同。", "error");
+    return;
+  }
+  const submit = elements.passwordForm.querySelector("button[type=submit]");
+  submit.disabled = true;
+  setStatus(elements.passwordStatus, "正在安全地更新密碼…");
+  try {
+    if (state.currentUser.role === "admin") {
+      const rows = await callRpc("schedule_admin_change_own_password", {
+        p_admin_token: state.currentUser.adminToken,
+        p_current_password: currentPassword,
+        p_new_password: newPassword
+      });
+      const next = Array.isArray(rows) ? rows[0] : null;
+      if (!next?.admin_token) throw new Error("未能建立更新後的管理員登入。");
+      state.currentUser.adminToken = next.admin_token;
+      state.currentUser.expiresAt = next.expires_at;
+    } else {
+      const rows = await callRpc("shared_student_change_password", {
+        p_token: state.currentUser.studentToken,
+        p_current_password: currentPassword,
+        p_new_password: newPassword
+      });
+      const next = Array.isArray(rows) ? rows[0] : null;
+      if (!next?.session_token) throw new Error("未能建立更新後的學生登入。");
+      state.currentUser.studentToken = next.session_token;
+      state.currentUser.id = next.id;
+      state.currentUser.name = next.name;
+      window.EdmundSystemNav?.rememberStudentSession({
+        token: next.session_token,
+        id: next.id,
+        name: next.name,
+        role: "student"
+      });
+    }
+    saveSession();
+    elements.passwordDialog.close();
+    showToast("密碼已更新；其他裝置的舊登入已失效。", "success");
+  } catch (error) {
+    setStatus(elements.passwordStatus, error.message || "未能更新密碼。", "error");
+  } finally {
+    submit.disabled = false;
+  }
+}
+
+function allStudentAccessKeys() {
+  return [
+    ...STUDENT_ACCESS_SECTIONS.map((section) => section.key),
+    ...Object.values(STUDENT_ACCESS_CHILDREN).flat().map((child) => child.key)
+  ];
+}
+
+function defaultStudentAccess() {
+  const enabledByDefault = new Set(["student-custom", "conversational-english", "bookmarks"]);
+  const access = Object.fromEntries(
+    STUDENT_ACCESS_SECTIONS.map((section) => [section.key, enabledByDefault.has(section.key)])
+  );
+  Object.values(STUDENT_ACCESS_CHILDREN).flat().forEach((child) => {
+    access[child.key] = true;
+  });
+  return access;
+}
+
+function normalizeStudentAccess(value) {
+  const source = value && typeof value === "object" && !Array.isArray(value) ? value : {};
+  const normalized = defaultStudentAccess();
+  allStudentAccessKeys().forEach((key) => {
+    if (Object.hasOwn(source, key)) normalized[key] = source[key] === true;
+  });
+  return normalized;
+}
+
+function formatAdminDateTime(value) {
+  if (!value) return "—";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "—";
+  return date.toLocaleString("zh-HK", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit"
+  });
+}
+
+function isStudentActive(student) {
+  return student?.is_active !== false && !student?.deleted_at;
+}
+
+async function loadAllStudentAccounts() {
+  const rows = [];
+  let offset = 0;
+  let total = Infinity;
+  while (offset < total) {
+    const page = await callRpc("schedule_admin_list_student_accounts", {
+      p_admin_token: state.currentUser.adminToken,
+      p_status: "all",
+      p_limit: STUDENT_ACCOUNT_PAGE_SIZE,
+      p_offset: offset
+    });
+    const items = Array.isArray(page) ? page : [];
+    rows.push(...items);
+    total = Number(items[0]?.total_count ?? rows.length);
+    if (!items.length || items.length < STUDENT_ACCOUNT_PAGE_SIZE) break;
+    offset += items.length;
+  }
+  return rows.map((student) => ({
+    ...student,
+    access: normalizeStudentAccess(student.access)
+  }));
+}
+
 async function openAdminPanel() {
   if (state.currentUser?.role !== "admin") return;
   if (!guardMassEditNavigation()) return;
@@ -2099,16 +2357,33 @@ async function openAdminPanel() {
   state.selectedStudent = null;
   showView("admin");
   setStatus(elements.adminStatus, "正在載入學生帳戶…");
+  setStatus(elements.parentAdminStatus, "正在載入家長帳戶…");
   try {
-    const rows = await callRpc("schedule_admin_list_students", {
-      p_admin_token: state.currentUser.adminToken
-    });
-    state.adminStudents = Array.isArray(rows) ? rows : [];
+    const [studentRows, preferenceRows, parentRows] = await Promise.all([
+      loadAllStudentAccounts(),
+      callRpc("schedule_admin_get_student_list_preferences", {
+        p_admin_token: state.currentUser.adminToken
+      }),
+      callRpc("schedule_admin_list_parents", {
+        p_admin_token: state.currentUser.adminToken
+      })
+    ]);
+    state.adminStudents = Array.isArray(studentRows) ? studentRows : [];
+    const preferences = Array.isArray(preferenceRows) ? preferenceRows[0] : preferenceRows;
+    state.studentSortMode = ["asc", "desc", "custom"].includes(preferences?.sort_mode)
+      ? preferences.sort_mode
+      : "asc";
+    state.studentOrder = Array.isArray(preferences?.student_order) ? preferences.student_order : [];
+    state.adminParents = Array.isArray(parentRows) ? parentRows : [];
     renderStudentList();
-    setStatus(elements.adminStatus, `已載入 ${state.adminStudents.length} 個學生帳戶。`);
+    renderParentList();
+    const activeCount = state.adminStudents.filter(isStudentActive).length;
+    setStatus(elements.adminStatus, `已載入 ${activeCount} 個使用中及 ${state.adminStudents.length - activeCount} 個已停用學生帳戶。`);
+    setStatus(elements.parentAdminStatus, `已載入 ${state.adminParents.length} 個家長帳戶。`);
   } catch (error) {
     console.warn("Admin student list failed", error);
     setStatus(elements.adminStatus, "未能載入學生帳戶，請重新登入。", "error");
+    setStatus(elements.parentAdminStatus, "未能載入家長帳戶；請確認已套用家長系統資料庫更新。", "error");
     if (isExpiredSessionError(error)) await logout();
   }
 }
@@ -2116,9 +2391,19 @@ async function openAdminPanel() {
 function renderStudentList() {
   const query = elements.studentSearch.value.trim().toLocaleLowerCase();
   const students = state.adminStudents.filter((student) => (
-    !query || String(student.name || "").toLocaleLowerCase().includes(query)
+    (state.studentStatusFilter === "all"
+      || (state.studentStatusFilter === "active" && isStudentActive(student))
+      || (state.studentStatusFilter === "inactive" && !isStudentActive(student)))
+      && (!query || String(student.name || "").toLocaleLowerCase().includes(query))
   ));
+  const activeCount = state.adminStudents.filter(isStudentActive).length;
+  const inactiveCount = state.adminStudents.length - activeCount;
   elements.studentList.replaceChildren();
+  elements.studentCount.textContent = `${students.length} 項 · 使用中 ${activeCount} · 已停用 ${inactiveCount}`;
+  elements.studentSortButtons.forEach((button) => {
+    button.setAttribute("aria-pressed", String(button.dataset.studentSortMode === state.studentSortMode));
+  });
+  if (elements.studentStatusFilter) elements.studentStatusFilter.value = state.studentStatusFilter;
 
   if (!students.length) {
     const empty = document.createElement("p");
@@ -2129,23 +2414,658 @@ function renderStudentList() {
   }
 
   for (const student of students) {
+    const active = isStudentActive(student);
     const card = document.createElement("article");
-    card.className = "student-card";
+    card.className = `student-card${active ? "" : " is-inactive"}`;
+    card.dataset.studentOrderId = student.id;
+    card.draggable = active && state.studentSortMode === "custom" && !query;
     const copy = document.createElement("div");
+    copy.className = "student-card-copy";
     const name = document.createElement("strong");
     name.textContent = student.name;
     const note = document.createElement("span");
-    note.textContent = "共用學生帳戶";
-    copy.append(name, note);
+    note.textContent = active ? "共用學生帳戶" : `已停用：${formatAdminDateTime(student.deleted_at)}`;
+    const badge = document.createElement("span");
+    badge.className = `student-status-badge${active ? "" : " inactive"}`;
+    badge.textContent = active ? "使用中" : "已停用";
+    copy.append(name, badge, note);
 
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "student-open-button";
-    button.dataset.studentId = student.id;
-    button.textContent = "查看日程";
-    button.setAttribute("aria-label", `查看 ${student.name} 的日程`);
-    card.append(copy, button);
+    const actions = document.createElement("div");
+    actions.className = "student-card-actions";
+    if (active && state.studentSortMode === "custom") {
+      const orderButtons = document.createElement("span");
+      orderButtons.className = "student-order-buttons";
+      const up = document.createElement("button");
+      up.type = "button";
+      up.className = "student-order-button";
+      up.dataset.moveStudentOrder = "up";
+      up.dataset.orderStudentId = student.id;
+      up.setAttribute("aria-label", `把 ${student.name} 向上移`);
+      up.textContent = "↑";
+      const down = document.createElement("button");
+      down.type = "button";
+      down.className = "student-order-button";
+      down.dataset.moveStudentOrder = "down";
+      down.dataset.orderStudentId = student.id;
+      down.setAttribute("aria-label", `把 ${student.name} 向下移`);
+      down.textContent = "↓";
+      orderButtons.append(up, down);
+      actions.append(orderButtons);
+    }
+    const profile = document.createElement("button");
+    profile.type = "button";
+    profile.className = "student-card-action";
+    profile.dataset.studentProfile = student.id;
+    profile.textContent = "Profile／權限";
+    actions.append(profile);
+    if (active) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "student-open-button";
+      button.dataset.studentId = student.id;
+      button.textContent = "查看日程";
+      button.setAttribute("aria-label", `查看 ${student.name} 的日程`);
+      actions.append(button);
+    }
+    const reset = document.createElement("button");
+    reset.type = "button";
+    reset.className = "student-card-action";
+    reset.dataset.resetStudentPassword = student.id;
+    reset.dataset.accountName = student.name;
+    reset.textContent = "重設密碼";
+    if (active) actions.append(reset);
+    const lifecycle = document.createElement("button");
+    lifecycle.type = "button";
+    lifecycle.className = active ? "student-card-action danger" : "student-card-action";
+    lifecycle.dataset.accountName = student.name;
+    if (active) {
+      lifecycle.dataset.deactivateStudent = student.id;
+      lifecycle.textContent = "停用帳戶";
+    } else {
+      lifecycle.dataset.reactivateStudent = student.id;
+      lifecycle.textContent = "重新啟用";
+    }
+    actions.append(lifecycle);
+    card.append(copy, actions);
     elements.studentList.append(card);
+  }
+}
+
+async function refreshStudentAccountState() {
+  const [students, preferenceRows] = await Promise.all([
+    loadAllStudentAccounts(),
+    callRpc("schedule_admin_get_student_list_preferences", {
+      p_admin_token: state.currentUser.adminToken
+    })
+  ]);
+  state.adminStudents = students;
+  const preferences = Array.isArray(preferenceRows) ? preferenceRows[0] : preferenceRows;
+  state.studentSortMode = ["asc", "desc", "custom"].includes(preferences?.sort_mode)
+    ? preferences.sort_mode
+    : "asc";
+  state.studentOrder = Array.isArray(preferences?.student_order) ? preferences.student_order : [];
+  renderStudentList();
+  renderParentList();
+}
+
+async function setStudentSortMode(sortMode) {
+  if (!["asc", "desc", "custom"].includes(sortMode) || state.currentUser?.role !== "admin") return;
+  elements.studentSortButtons.forEach((button) => { button.disabled = true; });
+  try {
+    await callRpc("schedule_admin_set_student_sort_mode", {
+      p_admin_token: state.currentUser.adminToken,
+      p_sort_mode: sortMode
+    });
+    await refreshStudentAccountState();
+    showToast(sortMode === "custom" ? "已切換至自訂排序；可拖放或使用箭嘴移動。" : "學生排序已更新。", "success");
+  } catch (error) {
+    setStatus(elements.adminStatus, error.message || "未能更新學生排序。", "error");
+  } finally {
+    elements.studentSortButtons.forEach((button) => { button.disabled = false; });
+  }
+}
+
+function activeStudentOrder() {
+  return state.adminStudents.filter(isStudentActive).map((student) => student.id);
+}
+
+async function saveStudentOrder(studentIds) {
+  if (state.currentUser?.role !== "admin") return;
+  try {
+    await callRpc("schedule_admin_reorder_students", {
+      p_admin_token: state.currentUser.adminToken,
+      p_student_ids: studentIds
+    });
+    await refreshStudentAccountState();
+    showToast("自訂學生次序已儲存。", "success");
+  } catch (error) {
+    setStatus(elements.adminStatus, error.message || "未能儲存自訂次序。", "error");
+  }
+}
+
+function moveStudentOrder(studentId, direction) {
+  if (state.studentSortMode !== "custom") return;
+  const ids = activeStudentOrder();
+  const index = ids.indexOf(studentId);
+  const target = direction === "up" ? index - 1 : index + 1;
+  if (index < 0 || target < 0 || target >= ids.length) return;
+  [ids[index], ids[target]] = [ids[target], ids[index]];
+  saveStudentOrder(ids);
+}
+
+function selectedStudentProfile() {
+  return state.adminStudents.find((student) => student.id === state.selectedStudentProfileId) || null;
+}
+
+function renderStudentProfileFacts(student) {
+  const facts = [
+    ["狀態", isStudentActive(student) ? "使用中" : "已停用"],
+    ["建立日期", formatAdminDateTime(student.created_at)],
+    ["最近登入", formatAdminDateTime(student.last_session_at)],
+    ["最近更改密碼", formatAdminDateTime(student.last_password_change_at)]
+  ];
+  elements.studentProfileFacts.replaceChildren();
+  facts.forEach(([label, value]) => {
+    const item = document.createElement("div");
+    item.className = "student-profile-fact";
+    const heading = document.createElement("strong");
+    heading.textContent = label;
+    const content = document.createElement("span");
+    content.textContent = value;
+    item.append(heading, content);
+    elements.studentProfileFacts.append(item);
+  });
+}
+
+function renderStudentAccessControls(student) {
+  elements.studentAccessGrid.replaceChildren();
+  const fragment = document.createDocumentFragment();
+  STUDENT_ACCESS_SECTIONS.forEach((section) => {
+    const item = document.createElement("section");
+    item.className = "student-access-item";
+    const label = document.createElement("label");
+    label.className = "student-access-main";
+    const copy = document.createElement("span");
+    copy.textContent = section.label;
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.checked = student.access?.[section.key] === true;
+    checkbox.dataset.studentAccessKey = section.key;
+    checkbox.setAttribute("aria-label", `${section.label} 使用權限`);
+    label.append(copy, checkbox);
+    item.append(label);
+    const children = STUDENT_ACCESS_CHILDREN[section.key] || [];
+    if (children.length) {
+      const childList = document.createElement("div");
+      childList.className = "student-access-children";
+      children.forEach((child) => {
+        const childLabel = document.createElement("label");
+        childLabel.className = "student-access-child";
+        const childCheckbox = document.createElement("input");
+        childCheckbox.type = "checkbox";
+        childCheckbox.checked = student.access?.[child.key] !== false;
+        childCheckbox.dataset.studentAccessKey = child.key;
+        childLabel.append(document.createTextNode(child.label), childCheckbox);
+        childList.append(childLabel);
+      });
+      item.append(childList);
+    }
+    fragment.append(item);
+  });
+  elements.studentAccessGrid.append(fragment);
+}
+
+function renderStudentProfileActions(student) {
+  elements.studentProfileActions.replaceChildren();
+  const reset = document.createElement("button");
+  reset.type = "button";
+  reset.className = "student-card-action";
+  reset.dataset.profileResetPassword = student.id;
+  reset.textContent = "重設密碼";
+  if (isStudentActive(student)) {
+    elements.studentProfileActions.append(reset);
+    const deactivate = document.createElement("button");
+    deactivate.type = "button";
+    deactivate.className = "student-card-action danger";
+    deactivate.dataset.profileDeactivateStudent = student.id;
+    deactivate.textContent = "停用帳戶";
+    elements.studentProfileActions.append(deactivate);
+  } else {
+    const reactivate = document.createElement("button");
+    reactivate.type = "button";
+    reactivate.className = "student-card-action";
+    reactivate.dataset.profileReactivateStudent = student.id;
+    reactivate.textContent = "重新啟用";
+    const permanentlyDelete = document.createElement("button");
+    permanentlyDelete.type = "button";
+    permanentlyDelete.className = "student-card-action danger";
+    permanentlyDelete.dataset.profilePermanentDeleteStudent = student.id;
+    permanentlyDelete.textContent = "永久刪除…";
+    elements.studentProfileActions.append(reactivate, permanentlyDelete);
+  }
+}
+
+function auditEventLabel(eventType) {
+  const labels = {
+    created: "建立帳戶",
+    account_created: "建立帳戶",
+    password_reset: "管理員重設密碼",
+    password_changed: "學生／管理員更改密碼",
+    deactivated: "停用帳戶",
+    account_deactivated: "停用帳戶",
+    reactivated: "重新啟用帳戶",
+    account_reactivated: "重新啟用帳戶",
+    access_changed: "更新使用權限",
+    sort_order_changed: "更新自訂次序",
+    permanently_deleted: "永久刪除帳戶",
+    permanent_delete: "永久刪除帳戶"
+  };
+  return labels[eventType] || String(eventType || "帳戶操作");
+}
+
+function renderStudentAudit() {
+  elements.studentAuditList.replaceChildren();
+  const totalPages = Math.max(1, Math.ceil(state.studentAuditTotal / STUDENT_AUDIT_PAGE_SIZE));
+  elements.studentAuditSummary.textContent = `第 ${state.studentAuditPage} / ${totalPages} 頁 · 共 ${state.studentAuditTotal} 項`;
+  elements.studentAuditPrevious.disabled = state.studentAuditPage <= 1;
+  elements.studentAuditNext.disabled = state.studentAuditPage >= totalPages;
+  if (!state.studentAuditRows.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-state";
+    empty.textContent = "尚未有帳戶操作紀錄。";
+    elements.studentAuditList.append(empty);
+    return;
+  }
+  state.studentAuditRows.forEach((event) => {
+    const row = document.createElement("article");
+    row.className = "student-audit-row";
+    const type = document.createElement("strong");
+    type.textContent = auditEventLabel(event.event_type);
+    const details = document.createElement("small");
+    const metadata = event.metadata && typeof event.metadata === "object" ? event.metadata : {};
+    const safeMetadata = Object.entries(metadata).filter(([key]) => !/(?:password|hash|token|secret|credential)/i.test(key));
+    details.textContent = safeMetadata.length
+      ? safeMetadata.map(([key, value]) => `${key}: ${String(value)}`).join(" · ")
+      : "沒有附加資料";
+    const time = document.createElement("small");
+    time.textContent = `${formatAdminDateTime(event.occurred_at)}\n${event.actor_label || "管理員"}`;
+    row.append(type, details, time);
+    elements.studentAuditList.append(row);
+  });
+}
+
+async function loadStudentAudit(page = 1) {
+  const student = selectedStudentProfile();
+  if (!student) return;
+  state.studentAuditPage = Math.max(1, Number(page) || 1);
+  elements.studentAuditList.innerHTML = "<p>正在載入紀錄…</p>";
+  try {
+    const rows = await callRpc("schedule_admin_get_student_account_audit", {
+      p_admin_token: state.currentUser.adminToken,
+      p_student_id: student.id,
+      p_limit: STUDENT_AUDIT_PAGE_SIZE,
+      p_offset: (state.studentAuditPage - 1) * STUDENT_AUDIT_PAGE_SIZE
+    });
+    state.studentAuditRows = Array.isArray(rows) ? rows : [];
+    state.studentAuditTotal = Number(state.studentAuditRows[0]?.total_count || 0);
+    renderStudentAudit();
+  } catch (error) {
+    elements.studentAuditList.replaceChildren();
+    const message = document.createElement("p");
+    message.className = "empty-state";
+    message.textContent = error.message || "未能載入帳戶操作紀錄。";
+    elements.studentAuditList.append(message);
+  }
+}
+
+function openStudentProfile(studentId) {
+  const student = state.adminStudents.find((item) => item.id === studentId);
+  if (!student || state.currentUser?.role !== "admin") return;
+  state.selectedStudentProfileId = student.id;
+  state.studentAuditPage = 1;
+  state.studentAuditRows = [];
+  state.studentAuditTotal = 0;
+  elements.studentProfileTitle.textContent = student.name;
+  elements.studentProfileStatus.textContent = isStudentActive(student)
+    ? "共用學生帳戶 · 使用中"
+    : `共用學生帳戶 · 已於 ${formatAdminDateTime(student.deleted_at)} 停用`;
+  renderStudentProfileFacts(student);
+  renderStudentAccessControls(student);
+  renderStudentProfileActions(student);
+  elements.studentProfileDialog.showModal();
+  loadStudentAudit(1);
+}
+
+async function saveSelectedStudentAccess(nextAccess) {
+  const student = selectedStudentProfile();
+  if (!student || state.currentUser?.role !== "admin") return;
+  [...elements.studentAccessGrid.querySelectorAll("input")].forEach((input) => { input.disabled = true; });
+  try {
+    const rows = await callRpc("schedule_admin_set_student_access", {
+      p_admin_token: state.currentUser.adminToken,
+      p_student_id: student.id,
+      p_access: nextAccess,
+      p_expected_updated_at: student.updated_at || null
+    });
+    const updated = Array.isArray(rows) ? rows[0] : rows;
+    if (!updated?.id) throw new Error("未能讀取更新後的帳戶資料。");
+    Object.assign(student, updated, { access: normalizeStudentAccess(updated.access) });
+    renderStudentAccessControls(student);
+    renderStudentProfileFacts(student);
+    renderStudentList();
+    await loadStudentAudit(1);
+    showToast("學生使用權限已更新。", "success");
+  } catch (error) {
+    renderStudentAccessControls(student);
+    setStatus(elements.studentProfileStatus, error.message || "未能更新學生使用權限。", "error");
+  }
+}
+
+async function reactivateStudentAccount(studentId, name) {
+  const student = state.adminStudents.find((item) => item.id === studentId);
+  if (!student || isStudentActive(student)) return;
+  if (!window.confirm(`確定要重新啟用學生帳戶「${name}」嗎？\n原有密碼、權限及學習紀錄會保留。`)) return;
+  try {
+    await callRpc("schedule_admin_reactivate_student", {
+      p_admin_token: state.currentUser.adminToken,
+      p_student_id: studentId,
+      p_expected_deleted_at: student.deleted_at
+    });
+    elements.studentProfileDialog?.close();
+    showToast(`已重新啟用 ${name}。`, "success");
+    await openAdminPanel();
+  } catch (error) {
+    setStatus(elements.adminStatus, error.message || "未能重新啟用學生帳戶。", "error");
+  }
+}
+
+function renderDeletionImpact(impact) {
+  elements.permanentDeleteImpact.replaceChildren();
+  const total = document.createElement("strong");
+  total.textContent = `將處理 ${Number(impact.dependency_total || 0)} 項相關資料；保留 ${Number(impact.retained_audit_count || 0)} 項匿名稽核紀錄。`;
+  elements.permanentDeleteImpact.append(total);
+  const counts = impact.dependency_counts && typeof impact.dependency_counts === "object"
+    ? impact.dependency_counts
+    : {};
+  Object.entries(counts).forEach(([key, value]) => {
+    const row = document.createElement("span");
+    const detail = value && typeof value === "object" ? value : { rowCount: value };
+    row.textContent = `${detail.table || key}: ${Number(detail.rowCount || 0)} 項 · ${detail.onDelete || "UNKNOWN"}`;
+    elements.permanentDeleteImpact.append(row);
+  });
+}
+
+async function openPermanentDeleteDialog(studentId) {
+  const student = state.adminStudents.find((item) => item.id === studentId);
+  if (!student || isStudentActive(student)) return;
+  elements.permanentDeleteForm.reset();
+  state.permanentDeleteSnapshot = null;
+  elements.permanentDeleteTarget.textContent = `帳戶：${student.name}。必須先停用，並核對即時資料影響後才可永久刪除。`;
+  elements.permanentDeleteImpact.textContent = "正在計算相關資料…";
+  setStatus(elements.permanentDeleteStatus, "");
+  elements.permanentDeleteDialog.showModal();
+  try {
+    const rows = await callRpc("schedule_admin_get_student_deletion_impact", {
+      p_admin_token: state.currentUser.adminToken,
+      p_student_id: student.id
+    });
+    const impact = Array.isArray(rows) ? rows[0] : rows;
+    if (!impact?.id || impact.is_active) throw new Error("帳戶狀態已改變，請重新載入學生清單。");
+    state.permanentDeleteSnapshot = impact;
+    renderDeletionImpact(impact);
+  } catch (error) {
+    setStatus(elements.permanentDeleteStatus, error.message || "未能計算刪除影響；永久刪除已鎖定。", "error");
+  }
+}
+
+async function permanentlyDeleteStudent(event) {
+  event.preventDefault();
+  const impact = state.permanentDeleteSnapshot;
+  if (!impact || state.currentUser?.role !== "admin") {
+    setStatus(elements.permanentDeleteStatus, "未有有效的刪除影響快照，請關閉後重試。", "error");
+    return;
+  }
+  const data = new FormData(elements.permanentDeleteForm);
+  const typedName = String(data.get("typedName") || "");
+  const studentName = impact.name;
+  if (typedName !== studentName || data.get("understood") !== "on") {
+    setStatus(elements.permanentDeleteStatus, "請完整輸入學生名稱，並勾選不可復原確認。", "error");
+    return;
+  }
+  if (!window.confirm(`最後確認：永久刪除「${impact.name}」及相關資料？\n此操作不可復原。`)) return;
+  const submit = elements.permanentDeleteForm.querySelector("button[type=submit]");
+  submit.disabled = true;
+  setStatus(elements.permanentDeleteStatus, "正在再次核對資料並永久刪除…");
+  try {
+    await callRpc("schedule_admin_permanently_delete_student", {
+      p_admin_token: state.currentUser.adminToken,
+      p_student_id: impact.id,
+      p_typed_name: typedName,
+      p_expected_updated_at: impact.updated_at,
+      p_expected_dependency_counts: impact.dependency_counts || {},
+      p_expected_audit_count: Number(impact.retained_audit_count || 0)
+    });
+    state.permanentDeleteSnapshot = null;
+    elements.permanentDeleteDialog.close();
+    elements.studentProfileDialog?.close();
+    showToast(`已永久刪除 ${impact.name}；匿名稽核紀錄獲保留。`, "success");
+    await openAdminPanel();
+  } catch (error) {
+    setStatus(elements.permanentDeleteStatus, error.message || "資料在確認後已改變，未有執行永久刪除。請關閉後重試。", "error");
+  } finally {
+    submit.disabled = false;
+  }
+}
+
+function renderParentList() {
+  elements.parentList.replaceChildren();
+  elements.parentCount.textContent = `${state.adminParents.length} 個家長`;
+  if (!state.adminParents.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-state";
+    empty.textContent = "尚未有家長帳戶。";
+    elements.parentList.append(empty);
+    return;
+  }
+
+  for (const parent of state.adminParents) {
+    const assigned = new Set(Array.isArray(parent.assigned_student_ids) ? parent.assigned_student_ids : []);
+    const card = document.createElement("article");
+    card.className = "student-card parent-card";
+    card.style.setProperty("--parent-colour", parent.tag_colour || "#7c3aed");
+    card.dataset.parentId = parent.id;
+
+    const identity = document.createElement("div");
+    identity.className = "parent-identity";
+    const name = document.createElement("strong");
+    name.textContent = parent.name;
+    const tag = document.createElement("span");
+    tag.className = "parent-tag";
+    tag.textContent = "家長帳戶";
+    identity.append(name, tag);
+
+    const assignments = document.createElement("div");
+    assignments.className = "parent-assignments";
+    assignments.setAttribute("aria-label", `指派 ${parent.name} 可查看的學生`);
+    state.adminStudents.filter(isStudentActive).forEach((student) => {
+      const label = document.createElement("label");
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.value = student.id;
+      checkbox.checked = assigned.has(student.id);
+      checkbox.dataset.parentStudent = student.id;
+      label.append(checkbox, document.createTextNode(student.name));
+      assignments.append(label);
+    });
+    if (!state.adminStudents.length) assignments.textContent = "尚未有可指派的學生帳戶。";
+
+    const actions = document.createElement("div");
+    actions.className = "parent-card-actions";
+    const save = document.createElement("button");
+    save.type = "button";
+    save.className = "student-card-action";
+    save.dataset.saveParentAssignments = parent.id;
+    save.textContent = "儲存子女指派";
+    const reset = document.createElement("button");
+    reset.type = "button";
+    reset.className = "student-card-action";
+    reset.dataset.resetParentPassword = parent.id;
+    reset.dataset.accountName = parent.name;
+    reset.textContent = "重設密碼";
+    const remove = document.createElement("button");
+    remove.type = "button";
+    remove.className = "student-card-action danger";
+    remove.dataset.deleteParent = parent.id;
+    remove.dataset.accountName = parent.name;
+    remove.textContent = "刪除家長";
+    actions.append(save, reset, remove);
+    card.append(identity, assignments, actions);
+    elements.parentList.append(card);
+  }
+}
+
+async function createStudentAccount(event) {
+  event.preventDefault();
+  if (state.currentUser?.role !== "admin" || state.mutationInFlight) return;
+  const data = new FormData(elements.createStudentForm);
+  const name = String(data.get("studentName") || "").trim();
+  const password = String(data.get("studentPassword") || "");
+  if (!name || password.length < 8) {
+    setStatus(elements.createStudentStatus, "請輸入學生名稱及最少 8 個字元的首次密碼。", "error");
+    return;
+  }
+  setStatus(elements.createStudentStatus, "正在開設學生帳戶…");
+  elements.createStudentForm.querySelector("button[type=submit]").disabled = true;
+  try {
+    await callRpc("schedule_admin_upsert_student_account", {
+      p_admin_token: state.currentUser.adminToken,
+      p_student_name: name,
+      p_student_password: password,
+      p_access: defaultStudentAccess()
+    });
+    elements.createStudentForm.reset();
+    setStatus(elements.createStudentStatus, `已開設 ${name}；請安全地把首次密碼交給學生。`);
+    await openAdminPanel();
+  } catch (error) {
+    setStatus(elements.createStudentStatus, error.message || "未能開設學生帳戶。", "error");
+  } finally {
+    elements.createStudentForm.querySelector("button[type=submit]").disabled = false;
+  }
+}
+
+async function createParentAccount(event) {
+  event.preventDefault();
+  if (state.currentUser?.role !== "admin" || state.mutationInFlight) return;
+  const data = new FormData(elements.createParentForm);
+  const name = String(data.get("parentName") || "").trim();
+  const password = String(data.get("parentPassword") || "");
+  const colour = String(data.get("parentColour") || "#7c3aed");
+  if (!name || password.length < 8) {
+    setStatus(elements.createParentStatus, "請輸入家長名稱及最少 8 個字元的首次密碼。", "error");
+    return;
+  }
+  setStatus(elements.createParentStatus, "正在開設家長帳戶…");
+  elements.createParentForm.querySelector("button[type=submit]").disabled = true;
+  try {
+    await callRpc("schedule_admin_upsert_parent", {
+      p_admin_token: state.currentUser.adminToken,
+      p_parent_name: name,
+      p_parent_password: password,
+      p_tag_colour: colour
+    });
+    elements.createParentForm.reset();
+    elements.createParentForm.elements.parentColour.value = "#7c3aed";
+    setStatus(elements.createParentStatus, `已開設 ${name}；下一步請在下方指派子女帳戶。`);
+    await openAdminPanel();
+  } catch (error) {
+    setStatus(elements.createParentStatus, error.message || "未能開設家長帳戶。", "error");
+  } finally {
+    elements.createParentForm.querySelector("button[type=submit]").disabled = false;
+  }
+}
+
+function openAdminPasswordDialog(type, id, name) {
+  elements.adminPasswordForm.reset();
+  elements.adminPasswordForm.elements.accountType.value = type;
+  elements.adminPasswordForm.elements.accountId.value = id;
+  elements.adminPasswordTarget.textContent = `帳戶：${name}。舊密碼基於安全理由不可讀取；請設定一個新密碼。`;
+  setStatus(elements.adminPasswordStatus, "");
+  elements.adminPasswordDialog.showModal();
+}
+
+async function resetManagedAccountPassword(event) {
+  event.preventDefault();
+  if (state.currentUser?.role !== "admin") return;
+  const data = new FormData(elements.adminPasswordForm);
+  const password = String(data.get("newPassword") || "");
+  if (password.length < 8 || password !== String(data.get("confirmPassword") || "")) {
+    setStatus(elements.adminPasswordStatus, "新密碼最少 8 個字元，而且兩次輸入必須相同。", "error");
+    return;
+  }
+  const type = String(data.get("accountType") || "");
+  const rpc = type === "parent" ? "schedule_admin_reset_parent_password" : "schedule_admin_reset_student_password";
+  const idKey = type === "parent" ? "p_parent_id" : "p_student_id";
+  try {
+    await callRpc(rpc, {
+      p_admin_token: state.currentUser.adminToken,
+      [idKey]: String(data.get("accountId") || ""),
+      p_new_password: password
+    });
+    elements.adminPasswordDialog.close();
+    showToast("密碼已重設；該帳戶的舊登入已失效。", "success");
+    if (type === "student" && state.selectedStudentProfileId === String(data.get("accountId") || "")) {
+      await loadStudentAudit(1);
+    }
+  } catch (error) {
+    setStatus(elements.adminPasswordStatus, error.message || "未能重設密碼。", "error");
+  }
+}
+
+async function saveParentAssignments(parentId) {
+  const card = elements.parentList.querySelector(`[data-parent-id="${CSS.escape(parentId)}"]`);
+  if (!card || state.currentUser?.role !== "admin") return;
+  const studentIds = [...card.querySelectorAll("[data-parent-student]:checked")].map((input) => input.value);
+  try {
+    await callRpc("schedule_admin_assign_parent_students", {
+      p_admin_token: state.currentUser.adminToken,
+      p_parent_id: parentId,
+      p_student_ids: studentIds
+    });
+    const parent = state.adminParents.find((item) => item.id === parentId);
+    if (parent) parent.assigned_student_ids = studentIds;
+    showToast(`已儲存 ${studentIds.length} 個子女指派。`, "success");
+  } catch (error) {
+    setStatus(elements.parentAdminStatus, error.message || "未能儲存子女指派。", "error");
+  }
+}
+
+async function deactivateStudentAccount(studentId, name) {
+  if (!window.confirm(`確定要停用學生帳戶「${name}」嗎？\n學習紀錄會保留，但帳戶將不能登入。`)) return;
+  try {
+    await callRpc("schedule_admin_deactivate_student", {
+      p_admin_token: state.currentUser.adminToken,
+      p_student_id: studentId
+    });
+    state.studentStatusFilter = "inactive";
+    elements.studentProfileDialog?.close();
+    showToast(`已停用 ${name}。`, "success");
+    await openAdminPanel();
+  } catch (error) {
+    setStatus(elements.adminStatus, error.message || "未能停用學生帳戶。", "error");
+  }
+}
+
+async function deleteParentAccount(parentId, name) {
+  if (!window.confirm(`確定要刪除家長帳戶「${name}」嗎？\n所有子女指派及家長登入會一併移除。`)) return;
+  try {
+    await callRpc("schedule_admin_delete_parent", {
+      p_admin_token: state.currentUser.adminToken,
+      p_parent_id: parentId
+    });
+    showToast(`已刪除家長帳戶 ${name}。`, "success");
+    await openAdminPanel();
+  } catch (error) {
+    setStatus(elements.parentAdminStatus, error.message || "未能刪除家長帳戶。", "error");
   }
 }
 
@@ -2611,33 +3531,45 @@ function batchItems(entries) {
 }
 
 async function batchSetCompletion() {
+  return batchSetExclusiveStatus("completed");
+}
+
+async function batchSetExclusiveStatus(targetStatus) {
   if (state.massEditMode) return;
   const entries = selectedEntries();
   if (!entries.length || state.mutationInFlight) return;
-  const completed = entries.some((entry) => !entry.isCompleted);
+  const definitions = {
+    completed: { property: "isCompleted", label: "已完成" },
+    in_progress: { property: "isInProgress", label: "進行中" },
+    previous_incomplete: { property: "isPreviousIncomplete", label: "上週未完成" }
+  };
+  const definition = definitions[targetStatus];
+  if (!definition) return;
+  const { property, label } = definition;
+  const active = !entries.every((entry) => entry[property] === true);
+  const nextStatus = active ? targetStatus : "none";
   setMutationInFlight(true);
-  setStatus(elements.calendarStatus, completed ? "正在標記所選安排為完成…" : "正在取消所選安排的完成標記…");
+  setStatus(elements.calendarStatus, active ? `正在標記所選安排為${label}…` : `正在取消所選安排的${label}標記…`);
   try {
-    const common = {
-      p_items: batchItems(entries),
-      p_completed: completed
-    };
+    const common = { p_items: batchItems(entries), p_status: nextStatus };
     if (state.currentUser.role === "admin") {
-      await callRpc("schedule_admin_batch_set_entries_completed", {
+      await callRpc("schedule_admin_batch_set_entries_status", {
         ...common,
         p_admin_token: state.currentUser.adminToken,
         p_student_id: activeStudent().id
       });
     } else {
-      await callRpc("schedule_student_batch_set_entries_completed", {
+      await callRpc("schedule_student_batch_set_entries_status", {
         ...common,
         p_token: state.currentUser.studentToken
       });
     }
-    showToast(completed ? `已完成 ${entries.length} 項安排。` : `已取消 ${entries.length} 項安排的完成標記。`);
+    showToast(active
+      ? `已把 ${entries.length} 項安排標記為${label}。`
+      : `已取消 ${entries.length} 項安排的${label}標記。`, "success");
     await loadWeek();
   } catch (error) {
-    console.warn("Schedule batch completion failed", error);
+    console.warn("Schedule batch status update failed", error);
     if (isConcurrencyError(error)) {
       showToast("部分安排已在另一個頁面更新；日程已重新載入。", "error");
       await loadWeek();
@@ -3643,11 +4575,146 @@ function handleSchedulePaste(event) {
 
 elements.loginForm.addEventListener("submit", login);
 elements.logout.addEventListener("click", logout);
+elements.changePassword?.addEventListener("click", openPasswordDialog);
+elements.passwordForm?.addEventListener("submit", changeCurrentUserPassword);
+elements.closePassword?.addEventListener("click", () => elements.passwordDialog.close());
+elements.createStudentForm?.addEventListener("submit", createStudentAccount);
+elements.createParentForm?.addEventListener("submit", createParentAccount);
+elements.adminPasswordForm?.addEventListener("submit", resetManagedAccountPassword);
+elements.closeAdminPassword?.addEventListener("click", () => elements.adminPasswordDialog.close());
 elements.adminStudentsButton.addEventListener("click", openAdminPanel);
 elements.studentSearch.addEventListener("input", renderStudentList);
+elements.studentSortButtons.forEach((button) => {
+  button.addEventListener("click", () => setStudentSortMode(button.dataset.studentSortMode));
+});
+elements.studentStatusFilter?.addEventListener("change", () => {
+  state.studentStatusFilter = elements.studentStatusFilter.value;
+  renderStudentList();
+});
 elements.studentList.addEventListener("click", (event) => {
+  const order = event.target.closest("[data-move-student-order]");
+  if (order) {
+    moveStudentOrder(order.dataset.orderStudentId, order.dataset.moveStudentOrder);
+    return;
+  }
+  const profile = event.target.closest("[data-student-profile]");
+  if (profile) {
+    openStudentProfile(profile.dataset.studentProfile);
+    return;
+  }
   const button = event.target.closest("[data-student-id]");
-  if (button) openStudentSchedule(button.dataset.studentId);
+  if (button) {
+    openStudentSchedule(button.dataset.studentId);
+    return;
+  }
+  const reset = event.target.closest("[data-reset-student-password]");
+  if (reset) {
+    openAdminPasswordDialog("student", reset.dataset.resetStudentPassword, reset.dataset.accountName);
+    return;
+  }
+  const deactivate = event.target.closest("[data-deactivate-student]");
+  if (deactivate) {
+    deactivateStudentAccount(deactivate.dataset.deactivateStudent, deactivate.dataset.accountName);
+    return;
+  }
+  const reactivate = event.target.closest("[data-reactivate-student]");
+  if (reactivate) reactivateStudentAccount(reactivate.dataset.reactivateStudent, reactivate.dataset.accountName);
+});
+elements.studentList.addEventListener("dragstart", (event) => {
+  const card = event.target.closest("[data-student-order-id]");
+  if (!card?.draggable || state.studentSortMode !== "custom") {
+    event.preventDefault();
+    return;
+  }
+  state.draggingStudentId = card.dataset.studentOrderId;
+  card.classList.add("is-dragging");
+  event.dataTransfer.effectAllowed = "move";
+  event.dataTransfer.setData("text/plain", state.draggingStudentId);
+});
+elements.studentList.addEventListener("dragover", (event) => {
+  const target = event.target.closest("[data-student-order-id]");
+  if (!state.draggingStudentId || !target || !isStudentActive(state.adminStudents.find((student) => student.id === target.dataset.studentOrderId))) return;
+  event.preventDefault();
+  event.dataTransfer.dropEffect = "move";
+  elements.studentList.querySelectorAll(".is-drop-target").forEach((card) => card.classList.remove("is-drop-target"));
+  target.classList.add("is-drop-target");
+});
+elements.studentList.addEventListener("drop", (event) => {
+  const target = event.target.closest("[data-student-order-id]");
+  const sourceId = state.draggingStudentId;
+  if (!sourceId || !target) return;
+  event.preventDefault();
+  const targetId = target.dataset.studentOrderId;
+  const ids = activeStudentOrder();
+  const sourceIndex = ids.indexOf(sourceId);
+  const targetIndex = ids.indexOf(targetId);
+  if (sourceIndex >= 0 && targetIndex >= 0 && sourceIndex !== targetIndex) {
+    ids.splice(sourceIndex, 1);
+    ids.splice(targetIndex, 0, sourceId);
+    saveStudentOrder(ids);
+  }
+});
+elements.studentList.addEventListener("dragend", () => {
+  state.draggingStudentId = null;
+  elements.studentList.querySelectorAll(".is-dragging,.is-drop-target").forEach((card) => {
+    card.classList.remove("is-dragging", "is-drop-target");
+  });
+});
+elements.closeStudentProfile?.addEventListener("click", () => elements.studentProfileDialog.close());
+elements.studentAccessGrid?.addEventListener("change", (event) => {
+  const checkbox = event.target.closest("[data-student-access-key]");
+  const student = selectedStudentProfile();
+  if (!checkbox || !student) return;
+  saveSelectedStudentAccess({ ...student.access, [checkbox.dataset.studentAccessKey]: checkbox.checked });
+});
+elements.studentProfileDialog?.addEventListener("click", (event) => {
+  const setAll = event.target.closest("[data-set-student-access]");
+  if (setAll) {
+    const enabled = setAll.dataset.setStudentAccess === "true";
+    saveSelectedStudentAccess(Object.fromEntries(allStudentAccessKeys().map((key) => [key, enabled])));
+    return;
+  }
+  const reset = event.target.closest("[data-profile-reset-password]");
+  if (reset) {
+    const student = selectedStudentProfile();
+    if (student) openAdminPasswordDialog("student", student.id, student.name);
+    return;
+  }
+  const deactivate = event.target.closest("[data-profile-deactivate-student]");
+  if (deactivate) {
+    const student = selectedStudentProfile();
+    if (student) deactivateStudentAccount(student.id, student.name);
+    return;
+  }
+  const reactivate = event.target.closest("[data-profile-reactivate-student]");
+  if (reactivate) {
+    const student = selectedStudentProfile();
+    if (student) reactivateStudentAccount(student.id, student.name);
+    return;
+  }
+  const permanentlyDelete = event.target.closest("[data-profile-permanent-delete-student]");
+  if (permanentlyDelete) openPermanentDeleteDialog(permanentlyDelete.dataset.profilePermanentDeleteStudent);
+});
+elements.studentAuditPrevious?.addEventListener("click", () => loadStudentAudit(state.studentAuditPage - 1));
+elements.studentAuditNext?.addEventListener("click", () => loadStudentAudit(state.studentAuditPage + 1));
+elements.permanentDeleteForm?.addEventListener("submit", permanentlyDeleteStudent);
+elements.closePermanentDelete?.addEventListener("click", () => {
+  state.permanentDeleteSnapshot = null;
+  elements.permanentDeleteDialog.close();
+});
+elements.parentList?.addEventListener("click", (event) => {
+  const save = event.target.closest("[data-save-parent-assignments]");
+  if (save) {
+    saveParentAssignments(save.dataset.saveParentAssignments);
+    return;
+  }
+  const reset = event.target.closest("[data-reset-parent-password]");
+  if (reset) {
+    openAdminPasswordDialog("parent", reset.dataset.resetParentPassword, reset.dataset.accountName);
+    return;
+  }
+  const remove = event.target.closest("[data-delete-parent]");
+  if (remove) deleteParentAccount(remove.dataset.deleteParent, remove.dataset.accountName);
 });
 
 elements.passwordToggle.addEventListener("click", () => {
@@ -4058,6 +5125,8 @@ elements.copyClipboardSelection?.addEventListener("click", copyClipboardSelectio
 elements.pasteClipboardSelection?.addEventListener("click", pasteScheduleClipboardFromButton);
 elements.clearClipboardSelection?.addEventListener("click", () => clearClipboardSelection({ deactivate: false }));
 elements.batchComplete?.addEventListener("click", batchSetCompletion);
+elements.batchProgress?.addEventListener("click", () => batchSetExclusiveStatus("in_progress"));
+elements.batchPreviousIncomplete?.addEventListener("click", () => batchSetExclusiveStatus("previous_incomplete"));
 elements.moveSelected?.addEventListener("click", beginMoveSelected);
 elements.batchDelete?.addEventListener("click", batchDeleteEntries);
 elements.cancelSelection?.addEventListener("click", cancelSelectionMode);

@@ -2727,6 +2727,10 @@
     }
 
     .practice-listening-panel {
+      position: -webkit-sticky;
+      position: sticky;
+      top: var(--writing-listening-sticky-top, 84px);
+      z-index: 420;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -2735,8 +2739,11 @@
       border: 1px solid rgba(5,150,105,0.20);
       border-radius: 18px;
       padding: 13px 14px;
-      background: linear-gradient(135deg, rgba(236,253,245,0.94), rgba(239,246,255,0.92));
-      box-shadow: 0 12px 28px rgba(5,150,105,0.08);
+      background: linear-gradient(135deg, rgba(236,253,245,0.985), rgba(239,246,255,0.98));
+      box-shadow: 0 12px 28px rgba(5,150,105,0.12), 0 2px 0 rgba(255,255,255,0.76) inset;
+      backdrop-filter: blur(18px) saturate(1.08);
+      -webkit-backdrop-filter: blur(18px) saturate(1.08);
+      scroll-margin-top: calc(var(--writing-listening-sticky-top, 84px) + 12px);
     }
 
     .practice-listening-copy {
@@ -3155,11 +3162,16 @@
 
       .practice-listening-panel {
         align-items: stretch;
+        max-height: calc(100dvh - var(--writing-listening-sticky-top, 148px) - 10px);
+        padding: 10px;
+        gap: 9px;
+        overflow-y: auto;
       }
 
       .practice-listening-panel .essay-rate-selector {
         width: 100%;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(6, minmax(58px, 1fr));
+        overflow-x: auto;
       }
 
       .practice-listening-navigation {
@@ -3177,7 +3189,7 @@
     }
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-2">
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -3436,7 +3448,7 @@
   <script src="writing-practice-hkpf-compositions-data.js?v=20260715-1"></script>
   <script src="writing-progression-data.js?v=20260727-1"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
-  <script src="shared-system-nav.js?v=20260809-2"></script>
+  <script src="shared-system-nav.js?v=20260810-2"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -12472,6 +12484,17 @@ Device: concession 讓步
       prepareWritingExercises();
       setupCustomCursor();
       setupEvents();
+      const syncListeningStickyTop = () => {
+        const header = document.querySelector(".edmund-system-header");
+        const height = Math.max(0, Math.ceil(header?.getBoundingClientRect?.().height || 0));
+        document.documentElement.style.setProperty("--writing-listening-sticky-top", `${height + 8}px`);
+      };
+      syncListeningStickyTop();
+      window.addEventListener("resize", syncListeningStickyTop, { passive: true });
+      if ("ResizeObserver" in window) {
+        const header = document.querySelector(".edmund-system-header");
+        if (header) new ResizeObserver(syncListeningStickyTop).observe(header);
+      }
       let restored = restoreSession();
       const shared = window.EdmundSystemNav?.getStudentSession?.();
       if (restored && !restoredWritingStudentMatches(shared)) {

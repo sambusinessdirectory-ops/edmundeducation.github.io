@@ -141,11 +141,14 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 27, "homepage must contain 27 numbered category cards after adding DSE Paper 3 Analysis");
+assert.equal(homepageCards.length, 29, "homepage must contain 29 numbered category cards after adding Parent Communication and Listening");
 const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
-assert.equal(homepageCardHrefs[13], "writing-submission.html", "Writing Submission must be numbered card 14 after Schedule");
+assert.equal(homepageCardHrefs[9], "schedule-system.html", "Schedule must be numbered card 10");
+assert.equal(homepageCardHrefs[12], "flashcards.html", "Flashcards must be numbered card 13");
+assert.equal(homepageCardHrefs[13], "parent-communication.html", "Parent Communication must be numbered card 14");
+assert.equal(homepageCardHrefs[16], "listening-system.html", "Listening must be numbered card 17");
 assert.deepEqual(
-  homepageCardHrefs.slice(18, 27),
+  homepageCardHrefs.slice(20, 29),
   [
     "phrasal-verb-system.html",
     "dse-paper3-analysis.html",
@@ -157,7 +160,7 @@ assert.deepEqual(
     "common-expression-professional-message.html",
     "common-expression-business-speaking.html"
   ],
-  "cards 19-27 must keep DSE Paper 3 at 20 and shift all six Common Expression portals to 22-27"
+  "cards 21-29 must keep Phrasal Verbs, DSE Paper 3, Student Progress and the six Common Expression portals in order"
 );
 assert.match(
   homepage,
@@ -301,7 +304,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260809-1/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260810-3/);
 
 const metricCards = [...scheduleHtml.matchAll(/<article\s+class="metric-card(?:\s[^"]*)?"/g)];
 assert.equal(metricCards.length, 4, "schedule progress dashboard must contain exactly four metric cards");

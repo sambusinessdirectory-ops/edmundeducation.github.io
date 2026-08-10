@@ -127,6 +127,47 @@ test("upload accepts one MP3 frame of encoder padding beyond the 300-second cont
   assert.equal(parsed.durationMs, 300016);
 });
 
+test("student quota preflight exposes the authoritative 200 MB allowance", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("profile");
+      return jsonResponse([{ id: studentId, name: "Student", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_get_recording_usage")) {
+      calls.push("quota");
+      assert.deepEqual(JSON.parse(String(options.body)), { p_student_id: studentId });
+      return jsonResponse({
+        ok: true,
+        usage: { fileCount: 42, storageBytes: 200 * 1024 * 1024 },
+        quota: { maxFiles: 500, maxBytes: 200 * 1024 * 1024 },
+        canRecord: false
+      });
+    }
+    assert.fail(`Unexpected upstream request: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+  try {
+    const response = await worker.default.fetch(
+      authorizedRequest("/v1/recordings/quota", studentToken),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 200);
+    assert.deepEqual(await response.json(), {
+      usage: { fileCount: 42, storageBytes: 200 * 1024 * 1024 },
+      quota: { maxFiles: 500, maxBytes: 200 * 1024 * 1024 },
+      canRecord: false
+    });
+    assert.deepEqual(calls, ["profile", "quota"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
 test("MP3 inspection accepts a small valid ID3v2 tag and bounded zero padding", () => {
   const audio = repeatFrame(40);
   const tagged = prependId3(audio, 32);
@@ -1565,6 +1606,9 @@ test("ZIP32 metadata has exact lengths and signatures", () => {
 test("database migration keeps quota and lifecycle mutations behind locked RPCs", async () => {
   const sql = await readFile(new URL("../../../supabase-speaking-system.sql", import.meta.url), "utf8");
   assert.match(sql, /create table if not exists public\.speaking_system_settings/i);
+  assert.match(sql, /max_storage_bytes_per_student bigint not null default 209715200/i);
+  assert.match(sql, /create or replace function public\.speaking_get_recording_usage/i);
+  assert.match(sql, /grant execute on function public\.speaking_get_recording_usage\(uuid\)\s+to service_role/i);
   assert.match(sql, /pg_advisory_xact_lock\s*\(/i);
   assert.match(sql, /storage_state in \('uploading', 'ready', 'deleting'\)/i);
   assert.match(sql, /create or replace function public\.speaking_reserve_recording_attempt/i);

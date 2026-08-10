@@ -22,6 +22,8 @@ begin
     or to_regclass('public.phrasal_verb_system_attempts') is null
     or to_regclass('public.idiom_system_attempts') is null
     or to_regclass('public.proverb_system_attempts') is null
+    or to_regclass('public.common_expression_question_completions') is null
+    or to_regclass('public.common_expression_time_activity_days') is null
     or to_regclass('public.writing_submissions') is null
   then
     raise exception 'Apply every source-system migration before supabase-student-progress.sql';
@@ -370,7 +372,7 @@ end;
 $$;
 
 -- One SQL statement builds the complete portal payload. PostgreSQL therefore
--- evaluates all eight systems against one MVCC snapshot.
+-- evaluates all fourteen systems against one MVCC snapshot.
 create or replace function public._student_progress_snapshot(p_student_id uuid)
 returns jsonb
 language sql
@@ -641,6 +643,41 @@ speaking_time_days as (
     and attempt.duration_ms > 0
   group by 1
 ),
+common_expression_activity_days as (
+  select
+    completion.system_key,
+    (completion.completed_at at time zone 'Asia/Hong_Kong')::date as activity_date,
+    pg_catalog.count(*)::bigint as questions
+  from public.common_expression_question_completions completion
+  where completion.student_id = p_student_id
+    and completion.system_key in (
+      'speaking',
+      'written',
+      'rhetorical-speaking',
+      'rhetorical-writing',
+      'professional-message',
+      'business-speaking'
+    )
+  group by completion.system_key, 2
+),
+common_expression_time_days as (
+  select
+    activity.system_key,
+    activity.activity_date,
+    pg_catalog.sum(activity.duration_ms)::bigint as total_ms
+  from public.common_expression_time_activity_days activity
+  where activity.student_id = p_student_id
+    and activity.duration_ms > 0
+    and activity.system_key in (
+      'speaking',
+      'written',
+      'rhetorical-speaking',
+      'rhetorical-writing',
+      'professional-message',
+      'business-speaking'
+    )
+  group by activity.system_key, activity.activity_date
+),
 -- Deliberately do not filter deleted_at: student deletion hides an article
 -- from the archive but must not rewrite historical progress or timing.
 writing_submission_days as (
@@ -718,6 +755,54 @@ sources_json as (
       'timeDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
         'date', day.activity_date, 'totalMs', day.total_ms) order by day.activity_date)
         from learning_time_days day where day.system_id = 'proverbs'), '[]'::jsonb)
+    ),
+    'commonExpressionSpeaking', pg_catalog.jsonb_build_object(
+      'activityDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'questions', day.questions) order by day.activity_date)
+        from common_expression_activity_days day where day.system_key = 'speaking'), '[]'::jsonb),
+      'timeDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'totalMs', day.total_ms) order by day.activity_date)
+        from common_expression_time_days day where day.system_key = 'speaking'), '[]'::jsonb)
+    ),
+    'commonExpressionWritten', pg_catalog.jsonb_build_object(
+      'activityDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'questions', day.questions) order by day.activity_date)
+        from common_expression_activity_days day where day.system_key = 'written'), '[]'::jsonb),
+      'timeDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'totalMs', day.total_ms) order by day.activity_date)
+        from common_expression_time_days day where day.system_key = 'written'), '[]'::jsonb)
+    ),
+    'commonExpressionRhetoricalSpeaking', pg_catalog.jsonb_build_object(
+      'activityDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'questions', day.questions) order by day.activity_date)
+        from common_expression_activity_days day where day.system_key = 'rhetorical-speaking'), '[]'::jsonb),
+      'timeDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'totalMs', day.total_ms) order by day.activity_date)
+        from common_expression_time_days day where day.system_key = 'rhetorical-speaking'), '[]'::jsonb)
+    ),
+    'commonExpressionRhetoricalWriting', pg_catalog.jsonb_build_object(
+      'activityDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'questions', day.questions) order by day.activity_date)
+        from common_expression_activity_days day where day.system_key = 'rhetorical-writing'), '[]'::jsonb),
+      'timeDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'totalMs', day.total_ms) order by day.activity_date)
+        from common_expression_time_days day where day.system_key = 'rhetorical-writing'), '[]'::jsonb)
+    ),
+    'commonExpressionProfessionalMessage', pg_catalog.jsonb_build_object(
+      'activityDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'questions', day.questions) order by day.activity_date)
+        from common_expression_activity_days day where day.system_key = 'professional-message'), '[]'::jsonb),
+      'timeDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'totalMs', day.total_ms) order by day.activity_date)
+        from common_expression_time_days day where day.system_key = 'professional-message'), '[]'::jsonb)
+    ),
+    'commonExpressionBusinessSpeaking', pg_catalog.jsonb_build_object(
+      'activityDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'questions', day.questions) order by day.activity_date)
+        from common_expression_activity_days day where day.system_key = 'business-speaking'), '[]'::jsonb),
+      'timeDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date, 'totalMs', day.total_ms) order by day.activity_date)
+        from common_expression_time_days day where day.system_key = 'business-speaking'), '[]'::jsonb)
     ),
     'writingSubmission', pg_catalog.jsonb_build_object(
       'activityDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(

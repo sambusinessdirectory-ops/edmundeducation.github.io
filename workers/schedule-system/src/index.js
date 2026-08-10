@@ -25,7 +25,19 @@ async function route(request, env) {
   }
 
   if (url.pathname === "/v1/admin/login" && request.method === "POST") {
-    return adminLogin(request, env);
+    return credentialLogin(request, env, {
+      actorPrefix: "schedule-admin",
+      rpcName: "schedule_admin_login",
+      responseKey: "admin"
+    });
+  }
+
+  if (url.pathname === "/v1/parent/login" && request.method === "POST") {
+    return credentialLogin(request, env, {
+      actorPrefix: "schedule-parent",
+      rpcName: "parent_communication_login",
+      responseKey: "parent"
+    });
   }
 
   return json({ error: "Not found" }, 404, request, env);
@@ -84,7 +96,7 @@ async function readLimitedText(request, maxBytes) {
   return new TextDecoder().decode(bytes);
 }
 
-async function adminLogin(request, env) {
+async function credentialLogin(request, env, { actorPrefix, rpcName, responseKey }) {
   const origin = request.headers.get("Origin") || "";
   if (!isAllowedOrigin(origin, env)) {
     return json({ error: "Origin not allowed" }, 403, request, env);
@@ -94,7 +106,7 @@ async function adminLogin(request, env) {
   }
 
   const actor = request.headers.get("CF-Connecting-IP") || "missing-client-ip";
-  const limit = await env.ADMIN_LOGIN_RATE_LIMITER.limit({ key: `schedule-admin:${actor}` });
+  const limit = await env.ADMIN_LOGIN_RATE_LIMITER.limit({ key: `${actorPrefix}:${actor}` });
   if (!limit.success) {
     return json({ error: "Too many login attempts" }, 429, request, env);
   }
@@ -109,13 +121,13 @@ async function adminLogin(request, env) {
     return json({ error: "Invalid login request" }, 400, request, env);
   }
 
-  const name = String(payload?.name || "").trim();
+  const name = String(payload?.name || payload?.username || "").trim();
   const password = String(payload?.password || "");
   if (!name || name.length > 100 || !password || password.length > 200) {
     return json({ error: "Invalid login request" }, 400, request, env);
   }
 
-  const endpoint = `${String(env.SUPABASE_URL || "").replace(/\/+$/, "")}/rest/v1/rpc/schedule_admin_login`;
+  const endpoint = `${String(env.SUPABASE_URL || "").replace(/\/+$/, "")}/rest/v1/rpc/${rpcName}`;
   if (!endpoint.startsWith("https://") || !env.SUPABASE_ANON_KEY) {
     return json({ error: "Admin login is not configured" }, 503, request, env);
   }
@@ -137,8 +149,8 @@ async function adminLogin(request, env) {
       return json({ error: "Admin login is temporarily unavailable" }, 502, request, env);
     }
     const rows = await response.json();
-    const admin = Array.isArray(rows) && rows.length ? rows[0] : null;
-    return json({ admin }, 200, request, env);
+    const account = Array.isArray(rows) && rows.length ? rows[0] : null;
+    return json({ [responseKey]: account }, 200, request, env);
   } catch (error) {
     return json({ error: "Admin login is temporarily unavailable" }, 502, request, env);
   }

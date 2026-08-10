@@ -95,6 +95,72 @@ export const STUDENT_PROGRESS_SOURCES = Object.freeze([
     activitySeries: [{ key: "questions", label: "完成題目", color: "#a16207" }]
   },
   {
+    id: "commonExpressionSpeaking",
+    labelZh: "常用語會話",
+    labelEn: "Common Expression Speaking",
+    href: "common-expression-speaking.html",
+    color: "#0891b2",
+    activityTitle: "完成常用語會話題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#0891b2" }]
+  },
+  {
+    id: "commonExpressionWritten",
+    labelZh: "常用語專業寫作",
+    labelEn: "Common Expression Written",
+    href: "common-expression-written.html",
+    color: "#4f46e5",
+    activityTitle: "完成常用語專業寫作題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#4f46e5" }]
+  },
+  {
+    id: "commonExpressionRhetoricalSpeaking",
+    labelZh: "常用語修辭會話",
+    labelEn: "Common Expression Rhetorical Speaking",
+    href: "common-expression-rhetorical-speaking.html",
+    color: "#9333ea",
+    activityTitle: "完成常用語修辭會話題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#9333ea" }]
+  },
+  {
+    id: "commonExpressionRhetoricalWriting",
+    labelZh: "常用語修辭寫作",
+    labelEn: "Common Expression Rhetorical Writing",
+    href: "common-expression-rhetorical-writing.html",
+    color: "#c026d3",
+    activityTitle: "完成常用語修辭寫作題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#c026d3" }]
+  },
+  {
+    id: "commonExpressionProfessionalMessage",
+    labelZh: "常用語商業溝通",
+    labelEn: "Common Expression Professional Message",
+    href: "common-expression-professional-message.html",
+    color: "#ea580c",
+    activityTitle: "完成常用語商業溝通題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#ea580c" }]
+  },
+  {
+    id: "commonExpressionBusinessSpeaking",
+    labelZh: "常用語商務會話",
+    labelEn: "Common Expression Business Speaking",
+    href: "common-expression-business-speaking.html",
+    color: "#0f766e",
+    activityTitle: "完成常用語商務會話題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#0f766e" }]
+  },
+  {
     id: "writingSubmission",
     labelZh: "Edmund Sir Writing 交文",
     labelEn: "Writing Submission",

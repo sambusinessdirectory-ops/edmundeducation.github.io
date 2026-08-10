@@ -44,6 +44,46 @@
   flex-wrap: wrap;
 }
 
+.edmund-system-password-button {
+  min-height: 38px;
+  padding: 8px 13px;
+  border: 1px solid rgba(26, 75, 111, .17);
+  border-radius: 999px;
+  color: #153b59;
+  background: rgba(255, 255, 255, .88);
+  font: 800 12px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+  cursor: pointer;
+}
+
+.edmund-system-password-button:hover,
+.edmund-system-password-button:focus-visible { background: #e8f2fb; }
+
+.edmund-password-dialog {
+  width: min(520px, calc(100% - 28px));
+  max-height: calc(100dvh - 28px);
+  padding: 0;
+  border: 0;
+  border-radius: 24px;
+  color: #102a43;
+  background: white;
+  box-shadow: 0 28px 85px rgba(12, 42, 68, .3);
+}
+
+.edmund-password-dialog::backdrop { background: rgba(8, 29, 47, .58); backdrop-filter: blur(5px); }
+.edmund-password-dialog__card { padding: clamp(24px, 5vw, 40px); display: grid; gap: 16px; }
+.edmund-password-dialog__heading p { margin: 0 0 7px; color: #276588; font-size: 11px; font-weight: 900; letter-spacing: .15em; }
+.edmund-password-dialog__heading h2 { margin: 0; font-family: Georgia, "Noto Serif TC", serif; font-size: clamp(25px, 5vw, 36px); }
+.edmund-password-dialog__heading span { display: block; margin-top: 8px; color: #63748a; font-size: 13px; line-height: 1.6; }
+.edmund-password-dialog__card label { display: grid; gap: 7px; color: #153b59; font-size: 13px; font-weight: 800; }
+.edmund-password-dialog__card input { width: 100%; min-height: 48px; padding: 10px 13px; border: 1px solid rgba(26, 75, 111, .22); border-radius: 12px; color: #102a43; background: #fbfdff; font: inherit; }
+.edmund-password-dialog__status { min-height: 22px; margin: 0; color: #4f6476; font-size: 13px; font-weight: 700; }
+.edmund-password-dialog__status[data-state="error"] { color: #b42318; }
+.edmund-password-dialog__status[data-state="success"] { color: #087443; }
+.edmund-password-dialog__actions { display: flex; justify-content: flex-end; gap: 10px; }
+.edmund-password-dialog__actions button { min-height: 43px; padding: 9px 16px; border: 1px solid rgba(26, 75, 111, .18); border-radius: 999px; color: #153b59; background: #edf4fa; font: inherit; font-size: 13px; font-weight: 800; line-height: 1.2; cursor: pointer; }
+.edmund-password-dialog__actions button[type="submit"] { color: white; border-color: #155f94; background: #155f94; }
+.edmund-password-dialog__actions button:disabled { cursor: wait; opacity: .62; }
+
 .edmund-system-switcher {
   position: relative;
   z-index: 3;
