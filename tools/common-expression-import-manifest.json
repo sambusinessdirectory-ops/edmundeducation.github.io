@@ -1,63 +1,1362 @@
 [
-  { "systemKey": "speaking", "idNumber": 3, "sourceNumber": 3, "file": "Common Expression 3 - What a shame.pdf", "titleEn": "What a shame", "titleZh": "真可惜" },
-  { "systemKey": "speaking", "idNumber": 4, "sourceNumber": 4, "file": "Common Expression 4 - That’s too bad.pdf", "titleEn": "That's too bad", "titleZh": "那太可惜了" },
-  { "systemKey": "speaking", "idNumber": 5, "sourceNumber": 5, "file": "Common Expression 5 - Go ahead.pdf", "titleEn": "Go ahead", "titleZh": "請繼續／請便" },
-  { "systemKey": "speaking", "idNumber": 6, "sourceNumber": 6, "file": "Common Expression 6- That makes sense.pdf", "titleEn": "That makes sense", "titleZh": "有道理／這樣就說得通" },
-  { "systemKey": "speaking", "idNumber": 7, "sourceNumber": 7, "file": "Common Expression 7 - Make yourself at home.pdf", "titleEn": "Make yourself at home", "titleZh": "請隨便／當自己家" },
-  { "systemKey": "speaking", "idNumber": 8, "sourceNumber": 8, "file": "Common Expression 8 - Oh, I see.pdf", "titleEn": "Oh, I see", "titleZh": "噢，我明白了" },
-  { "systemKey": "speaking", "idNumber": 9, "sourceNumber": 9, "file": "Common Expression 9 - I have no idea.pdf", "titleEn": "I have no idea", "titleZh": "我完全不知道" },
-  { "systemKey": "speaking", "idNumber": 10, "sourceNumber": 10, "file": "Common Expression 10 - I’ll get back to you.pdf", "titleEn": "I'll get back to you", "titleZh": "我稍後回覆您" },
-  { "systemKey": "speaking", "idNumber": 11, "sourceNumber": 10, "file": "Common Expression 10 - Never mind.pdf", "titleEn": "Never mind", "titleZh": "不要緊／算了吧" },
-  { "systemKey": "speaking", "idNumber": 12, "sourceNumber": 11, "file": "Common Expression 11 - Forget it.pdf", "titleEn": "Forget it", "titleZh": "算了吧／別提了" },
-  { "systemKey": "speaking", "idNumber": 13, "sourceNumber": 11, "file": "Common Expression 11 - Keep in touch.pdf", "titleEn": "Keep in touch", "titleZh": "保持聯絡" },
-
-  { "systemKey": "written", "idNumber": 1, "sourceNumber": 1, "file": "Written Expression 1 - “It is important to note that.pdf", "titleEn": "It is important to note that...", "titleZh": "需要注意的是……" },
-  { "systemKey": "written", "idNumber": 2, "sourceNumber": 2, "file": "Written expression 2 - “It is worth noting that.pdf", "titleEn": "It is worth noting that...", "titleZh": "值得注意的是……" },
-  { "systemKey": "written", "idNumber": 3, "sourceNumber": 3, "file": "Written expression 3 - “Generally speaking, .pdf", "titleEn": "Generally speaking, ...", "titleZh": "一般而言……" },
-  { "systemKey": "written", "idNumber": 4, "sourceNumber": 4, "file": "Written expression 4 - “In most cases, .pdf", "titleEn": "In most cases, ...", "titleZh": "在大多數情況下……" },
-  { "systemKey": "written", "idNumber": 5, "sourceNumber": 5, "file": "Written expression 5 - “In many cases, .pdf", "titleEn": "In many cases, ...", "titleZh": "在很多情況下……" },
-  { "systemKey": "written", "idNumber": 6, "sourceNumber": 6, "file": "Written expression 6 - “To some extent, .pdf", "titleEn": "To some extent, ...", "titleZh": "在某程度上……" },
-  { "systemKey": "written", "idNumber": 7, "sourceNumber": 7, "file": "Written expression 7 - “More specifically, .pdf", "titleEn": "More specifically, ...", "titleZh": "更具體而言……" },
-  { "systemKey": "written", "idNumber": 8, "sourceNumber": 8, "file": "Written expression 8 - “To put it simply, .pdf", "titleEn": "To put it simply, ...", "titleZh": "簡單來說……" },
-  { "systemKey": "written", "idNumber": 9, "sourceNumber": 9, "file": "Written expression 9 - “By comparison, .pdf", "titleEn": "By comparison, ...", "titleZh": "相比之下……" },
-  { "systemKey": "written", "idNumber": 10, "sourceNumber": 10, "file": "Written expression 10 - “In contrast, .pdf", "titleEn": "In contrast, ...", "titleZh": "相反／相比之下……" },
-  { "systemKey": "written", "idNumber": 11, "sourceNumber": 11, "file": "Written expression 11 - “On the other hand, .pdf", "titleEn": "On the other hand, ...", "titleZh": "另一方面……" },
-
-  { "systemKey": "rhetorical-speaking", "idNumber": 1, "sourceNumber": 1, "file": "Rhetorical Speaking Common Expression 1 - Here's the thing.pdf", "titleEn": "Here's the thing", "titleZh": "關鍵是／事情是這樣的" },
-  { "systemKey": "rhetorical-speaking", "idNumber": 2, "sourceNumber": 2, "file": "Rhetorical Speaking Common Expression 2 - Here's the Problem.pdf", "titleEn": "Here's the problem", "titleZh": "問題就在這裡" },
-  { "systemKey": "rhetorical-speaking", "idNumber": 3, "sourceNumber": 3, "file": "Rhetorical Speaking Common Expression 3 - Here's the Question.pdf", "titleEn": "Here's the question", "titleZh": "問題是……" },
-  { "systemKey": "rhetorical-speaking", "idNumber": 4, "sourceNumber": 4, "file": "Rhetorical Speaking Common Expression 4 - Here's what I mean.pdf", "titleEn": "Here's what I mean", "titleZh": "我的意思是……" },
-  { "systemKey": "rhetorical-speaking", "idNumber": 5, "sourceNumber": 5, "file": "Rhetorical Speaking Common Expression 5 - Here's how I see it.pdf", "titleEn": "Here's how I see it", "titleZh": "我的看法是……" },
-  { "systemKey": "rhetorical-speaking", "idNumber": 6, "sourceNumber": 6, "file": "Rhetorical Speaking Common Expression 6 - The Thing Is.pdf", "titleEn": "The thing is, ...", "titleZh": "問題是／重點是……" },
-  { "systemKey": "rhetorical-speaking", "idNumber": 7, "sourceNumber": 7, "file": "Rhetorical Speaking Common Expression 7 - The problem is, .....pdf", "titleEn": "The problem is, ...", "titleZh": "問題是……" },
-  { "systemKey": "rhetorical-speaking", "idNumber": 8, "sourceNumber": 8, "file": "Rhetorical Speaking Common Expression 8 - What I’m getting at is....pdf", "titleEn": "What I'm getting at is...", "titleZh": "我想表達的是……" },
-  { "systemKey": "rhetorical-speaking", "idNumber": 9, "sourceNumber": 9, "file": "Rhetorical Speaking Common Expression 9 - The point is, ....pdf", "titleEn": "The point is, ...", "titleZh": "重點是……" },
-  { "systemKey": "rhetorical-speaking", "idNumber": 10, "sourceNumber": 10, "file": "Rhetorical Speaking Common Expression 10 - At the end of the day, it comes down to....pdf", "titleEn": "At the end of the day, it comes down to...", "titleZh": "歸根究柢，關鍵在於……" },
-
-  { "systemKey": "rhetorical-writing", "idNumber": 1, "sourceNumber": 1, "file": "Rhetorical Writing Common Expression 1 - We need to..., we need to..., and we need to....pdf", "titleEn": "We need to..., we need to..., and we need to...", "titleZh": "以重複句式強調三項必要行動" },
-  { "systemKey": "rhetorical-writing", "idNumber": 2, "sourceNumber": 2, "file": "Rhetorical Writing Common Expression 2 - X can..., Y can..., or Z can... .pdf", "titleEn": "X can..., Y can..., or Z can...", "titleZh": "以平行句式列出三種可能" },
-  { "systemKey": "rhetorical-writing", "idNumber": 3, "sourceNumber": 3, "file": "Rhetorical Writing Common Expression 3 - X affects..., Y affects..., and Z affects... .pdf", "titleEn": "X affects..., Y affects..., and Z affects...", "titleZh": "以平行句式說明三方面影響" },
-  { "systemKey": "rhetorical-writing", "idNumber": 4, "sourceNumber": 4, "file": "Rhetorical Writing Common Expression 4 - Some..., some..., and some... .pdf", "titleEn": "Some..., some..., and some...", "titleZh": "以重複結構分類三組情況" },
-  { "systemKey": "rhetorical-writing", "idNumber": 5, "sourceNumber": 5, "file": "Rhetorical Writing Common Expression 5 - For some,..... - For others, .....pdf", "titleEn": "For some,... For others,...", "titleZh": "對照不同群體的觀點或經驗" },
-  { "systemKey": "rhetorical-writing", "idNumber": 6, "sourceNumber": 6, "file": "Rhetorical Writing Common Expression 6 - To.... is to.pdf", "titleEn": "To... is to...", "titleZh": "以平行不定詞建立修辭等式" },
-  { "systemKey": "rhetorical-writing", "idNumber": 7, "sourceNumber": 7, "file": "Rhetorical Writing Common Expression 7 - To understand... is to understand... .pdf", "titleEn": "To understand... is to understand...", "titleZh": "以重複 understand 建立層次" },
-  { "systemKey": "rhetorical-writing", "idNumber": 8, "sourceNumber": 8, "file": "Rhetorical Writing Common Expression 8 - To ignore .... is to ignore .....pdf", "titleEn": "To ignore... is to ignore...", "titleZh": "以重複 ignore 強調後果" },
-
-  { "systemKey": "professional-message", "idNumber": 1, "sourceNumber": 1, "file": "Professional Communication Common Expression 1 - Absolutely .pdf", "titleEn": "Absolutely", "titleZh": "當然可以／完全同意" },
-  { "systemKey": "professional-message", "idNumber": 2, "sourceNumber": 2, "file": "Professional Communication Common Expression 2 - Certainly.pdf", "titleEn": "Certainly", "titleZh": "當然可以" },
-  { "systemKey": "professional-message", "idNumber": 3, "sourceNumber": 3, "file": "Professional Communication Common Expression 3 - Of course.pdf", "titleEn": "Of course", "titleZh": "當然" },
-  { "systemKey": "professional-message", "idNumber": 4, "sourceNumber": 4, "file": "Professional Communication Common Expression 4 - Happy to.pdf", "titleEn": "Happy to", "titleZh": "很樂意" },
-  { "systemKey": "professional-message", "idNumber": 5, "sourceNumber": 5, "file": "Professional Communication Common Expression 5 - No problem at all.pdf", "titleEn": "No problem at all", "titleZh": "完全沒問題" },
-  { "systemKey": "professional-message", "idNumber": 6, "sourceNumber": 6, "file": "Professional Communication Common Expression 6 - Consider it done.pdf", "titleEn": "Consider it done", "titleZh": "交給我，當作已完成" },
-  { "systemKey": "professional-message", "idNumber": 7, "sourceNumber": 7, "file": "Professional Communication Common Expression 7 - Leave it with me.pdf", "titleEn": "Leave it with me", "titleZh": "交給我處理" },
-  { "systemKey": "professional-message", "idNumber": 8, "sourceNumber": 8, "file": "Professional Communication Common Expression 8 - I’m on it.pdf", "titleEn": "I'm on it", "titleZh": "我正在處理" },
-
-  { "systemKey": "business-speaking", "idNumber": 1, "sourceNumber": 1, "file": "Business _ Commercial Speaking Common Expression 1 - “I was hoping for something a little higher.pdf", "titleEn": "I was hoping for something a little higher", "titleZh": "我原本期望可以再高一點" },
-  { "systemKey": "business-speaking", "idNumber": 2, "sourceNumber": 2, "file": "Business _ Commercial Speaking Common Expression 2 - “Is there any flexibility on that.pdf", "titleEn": "Is there any flexibility on that?", "titleZh": "這方面有沒有調整空間？" },
-  { "systemKey": "business-speaking", "idNumber": 3, "sourceNumber": 3, "file": "Business _ Commercial Speaking Common Expression 3 - “It’s been a long time coming.pdf", "titleEn": "It's been a long time coming", "titleZh": "這件事醞釀已久" },
-  { "systemKey": "business-speaking", "idNumber": 4, "sourceNumber": 4, "file": "Business _ Commercial Speaking Common Expression 4 - “I’m looking forward to taking on more responsibility.pdf", "titleEn": "I'm looking forward to taking on more responsibility", "titleZh": "我期待承擔更多責任" },
-  { "systemKey": "business-speaking", "idNumber": 5, "sourceNumber": 5, "file": "Business _ Commercial Speaking Common Expression 5 - “I think it’s time for me to move on.pdf", "titleEn": "I think it's time for me to move on", "titleZh": "我想是時候開展下一階段" },
-  { "systemKey": "business-speaking", "idNumber": 6, "sourceNumber": 6, "file": "Business _ Commercial Speaking Common Expression 6 - “It wasn’t an easy decision.pdf", "titleEn": "It wasn't an easy decision", "titleZh": "這不是一個容易的決定" },
-  { "systemKey": "business-speaking", "idNumber": 7, "sourceNumber": 7, "file": "Business _ Commercial Speaking Common Expression 7 - “I feel like it’s the right time for a change.pdf", "titleEn": "I feel like it's the right time for a change", "titleZh": "我覺得現在是作出改變的合適時機" },
-  { "systemKey": "business-speaking", "idNumber": 8, "sourceNumber": 8, "file": "Business _ Commercial Speaking Common Expression 8 - “It’s been great working with you.pdf", "titleEn": "It's been great working with you", "titleZh": "很高興曾經與您共事" }
+  {
+    "systemKey": "speaking",
+    "idNumber": 3,
+    "sourceNumber": 3,
+    "file": "Common Expression 3 - What a shame.pdf",
+    "titleEn": "What a shame",
+    "titleZh": "真可惜"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 4,
+    "sourceNumber": 4,
+    "file": "Common Expression 4 - That’s too bad.pdf",
+    "titleEn": "That's too bad",
+    "titleZh": "那太可惜了"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 5,
+    "sourceNumber": 5,
+    "file": "Common Expression 5 - Go ahead.pdf",
+    "titleEn": "Go ahead",
+    "titleZh": "請繼續／請便"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 6,
+    "sourceNumber": 6,
+    "file": "Common Expression 6- That makes sense.pdf",
+    "titleEn": "That makes sense",
+    "titleZh": "有道理／這樣就說得通"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 7,
+    "sourceNumber": 7,
+    "file": "Common Expression 7 - Make yourself at home.pdf",
+    "titleEn": "Make yourself at home",
+    "titleZh": "請隨便／當自己家"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 8,
+    "sourceNumber": 8,
+    "file": "Common Expression 8 - Oh, I see.pdf",
+    "titleEn": "Oh, I see",
+    "titleZh": "噢，我明白了"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 9,
+    "sourceNumber": 9,
+    "file": "Common Expression 9 - I have no idea.pdf",
+    "titleEn": "I have no idea",
+    "titleZh": "我完全不知道"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 10,
+    "sourceNumber": 10,
+    "file": "Common Expression 10 - I’ll get back to you.pdf",
+    "titleEn": "I'll get back to you",
+    "titleZh": "我稍後回覆您"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 11,
+    "sourceNumber": 10,
+    "file": "Common Expression 10 - Never mind.pdf",
+    "titleEn": "Never mind",
+    "titleZh": "不要緊／算了吧"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 12,
+    "sourceNumber": 11,
+    "file": "Common Expression 11 - Forget it.pdf",
+    "titleEn": "Forget it",
+    "titleZh": "算了吧／別提了"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 13,
+    "sourceNumber": 11,
+    "file": "Common Expression 11 - Keep in touch.pdf",
+    "titleEn": "Keep in touch",
+    "titleZh": "保持聯絡"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 1,
+    "sourceNumber": 1,
+    "file": "Written Expression 1 - “It is important to note that.pdf",
+    "titleEn": "It is important to note that...",
+    "titleZh": "需要注意的是……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 2,
+    "sourceNumber": 2,
+    "file": "Written expression 2 - “It is worth noting that.pdf",
+    "titleEn": "It is worth noting that...",
+    "titleZh": "值得注意的是……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 3,
+    "sourceNumber": 3,
+    "file": "Written expression 3 - “Generally speaking, .pdf",
+    "titleEn": "Generally speaking, ...",
+    "titleZh": "一般而言……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 4,
+    "sourceNumber": 4,
+    "file": "Written expression 4 - “In most cases, .pdf",
+    "titleEn": "In most cases, ...",
+    "titleZh": "在大多數情況下……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 5,
+    "sourceNumber": 5,
+    "file": "Written expression 5 - “In many cases, .pdf",
+    "titleEn": "In many cases, ...",
+    "titleZh": "在很多情況下……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 6,
+    "sourceNumber": 6,
+    "file": "Written expression 6 - “To some extent, .pdf",
+    "titleEn": "To some extent, ...",
+    "titleZh": "在某程度上……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 7,
+    "sourceNumber": 7,
+    "file": "Written expression 7 - “More specifically, .pdf",
+    "titleEn": "More specifically, ...",
+    "titleZh": "更具體而言……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 8,
+    "sourceNumber": 8,
+    "file": "Written expression 8 - “To put it simply, .pdf",
+    "titleEn": "To put it simply, ...",
+    "titleZh": "簡單來說……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 9,
+    "sourceNumber": 9,
+    "file": "Written expression 9 - “By comparison, .pdf",
+    "titleEn": "By comparison, ...",
+    "titleZh": "相比之下……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 10,
+    "sourceNumber": 10,
+    "file": "Written expression 10 - “In contrast, .pdf",
+    "titleEn": "In contrast, ...",
+    "titleZh": "相反／相比之下……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 11,
+    "sourceNumber": 11,
+    "file": "Written expression 11 - “On the other hand, .pdf",
+    "titleEn": "On the other hand, ...",
+    "titleZh": "另一方面……"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 1,
+    "sourceNumber": 1,
+    "file": "Rhetorical Speaking Common Expression 1 - Here's the thing.pdf",
+    "titleEn": "Here's the thing",
+    "titleZh": "關鍵是／事情是這樣的"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 2,
+    "sourceNumber": 2,
+    "file": "Rhetorical Speaking Common Expression 2 - Here's the Problem.pdf",
+    "titleEn": "Here's the problem",
+    "titleZh": "問題就在這裡"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 3,
+    "sourceNumber": 3,
+    "file": "Rhetorical Speaking Common Expression 3 - Here's the Question.pdf",
+    "titleEn": "Here's the question",
+    "titleZh": "問題是……"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 4,
+    "sourceNumber": 4,
+    "file": "Rhetorical Speaking Common Expression 4 - Here's what I mean.pdf",
+    "titleEn": "Here's what I mean",
+    "titleZh": "我的意思是……"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 5,
+    "sourceNumber": 5,
+    "file": "Rhetorical Speaking Common Expression 5 - Here's how I see it.pdf",
+    "titleEn": "Here's how I see it",
+    "titleZh": "我的看法是……"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 6,
+    "sourceNumber": 6,
+    "file": "Rhetorical Speaking Common Expression 6 - The Thing Is.pdf",
+    "titleEn": "The thing is, ...",
+    "titleZh": "問題是／重點是……"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 7,
+    "sourceNumber": 7,
+    "file": "Rhetorical Speaking Common Expression 7 - The problem is, .....pdf",
+    "titleEn": "The problem is, ...",
+    "titleZh": "問題是……"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 8,
+    "sourceNumber": 8,
+    "file": "Rhetorical Speaking Common Expression 8 - What I’m getting at is....pdf",
+    "titleEn": "What I'm getting at is...",
+    "titleZh": "我想表達的是……"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 9,
+    "sourceNumber": 9,
+    "file": "Rhetorical Speaking Common Expression 9 - The point is, ....pdf",
+    "titleEn": "The point is, ...",
+    "titleZh": "重點是……"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 10,
+    "sourceNumber": 10,
+    "file": "Rhetorical Speaking Common Expression 10 - At the end of the day, it comes down to....pdf",
+    "titleEn": "At the end of the day, it comes down to...",
+    "titleZh": "歸根究柢，關鍵在於……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 1,
+    "sourceNumber": 1,
+    "file": "Rhetorical Writing Common Expression 1 - We need to..., we need to..., and we need to....pdf",
+    "titleEn": "We need to..., we need to..., and we need to...",
+    "titleZh": "以重複句式強調三項必要行動"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 2,
+    "sourceNumber": 2,
+    "file": "Rhetorical Writing Common Expression 2 - X can..., Y can..., or Z can... .pdf",
+    "titleEn": "X can..., Y can..., or Z can...",
+    "titleZh": "以平行句式列出三種可能"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 3,
+    "sourceNumber": 3,
+    "file": "Rhetorical Writing Common Expression 3 - X affects..., Y affects..., and Z affects... .pdf",
+    "titleEn": "X affects..., Y affects..., and Z affects...",
+    "titleZh": "以平行句式說明三方面影響"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 4,
+    "sourceNumber": 4,
+    "file": "Rhetorical Writing Common Expression 4 - Some..., some..., and some... .pdf",
+    "titleEn": "Some..., some..., and some...",
+    "titleZh": "以重複結構分類三組情況"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 5,
+    "sourceNumber": 5,
+    "file": "Rhetorical Writing Common Expression 5 - For some,..... - For others, .....pdf",
+    "titleEn": "For some,... For others,...",
+    "titleZh": "對照不同群體的觀點或經驗"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 6,
+    "sourceNumber": 6,
+    "file": "Rhetorical Writing Common Expression 6 - To.... is to.pdf",
+    "titleEn": "To... is to...",
+    "titleZh": "以平行不定詞建立修辭等式"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 7,
+    "sourceNumber": 7,
+    "file": "Rhetorical Writing Common Expression 7 - To understand... is to understand... .pdf",
+    "titleEn": "To understand... is to understand...",
+    "titleZh": "以重複 understand 建立層次"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 8,
+    "sourceNumber": 8,
+    "file": "Rhetorical Writing Common Expression 8 - To ignore .... is to ignore .....pdf",
+    "titleEn": "To ignore... is to ignore...",
+    "titleZh": "以重複 ignore 強調後果"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 1,
+    "sourceNumber": 1,
+    "file": "Professional Communication Common Expression 1 - Absolutely .pdf",
+    "titleEn": "Absolutely",
+    "titleZh": "當然可以／完全同意"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 2,
+    "sourceNumber": 2,
+    "file": "Professional Communication Common Expression 2 - Certainly.pdf",
+    "titleEn": "Certainly",
+    "titleZh": "當然可以"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 3,
+    "sourceNumber": 3,
+    "file": "Professional Communication Common Expression 3 - Of course.pdf",
+    "titleEn": "Of course",
+    "titleZh": "當然"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 4,
+    "sourceNumber": 4,
+    "file": "Professional Communication Common Expression 4 - Happy to.pdf",
+    "titleEn": "Happy to",
+    "titleZh": "很樂意"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 5,
+    "sourceNumber": 5,
+    "file": "Professional Communication Common Expression 5 - No problem at all.pdf",
+    "titleEn": "No problem at all",
+    "titleZh": "完全沒問題"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 6,
+    "sourceNumber": 6,
+    "file": "Professional Communication Common Expression 6 - Consider it done.pdf",
+    "titleEn": "Consider it done",
+    "titleZh": "交給我，當作已完成"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 7,
+    "sourceNumber": 7,
+    "file": "Professional Communication Common Expression 7 - Leave it with me.pdf",
+    "titleEn": "Leave it with me",
+    "titleZh": "交給我處理"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 8,
+    "sourceNumber": 8,
+    "file": "Professional Communication Common Expression 8 - I’m on it.pdf",
+    "titleEn": "I'm on it",
+    "titleZh": "我正在處理"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 1,
+    "sourceNumber": 1,
+    "file": "Business _ Commercial Speaking Common Expression 1 - “I was hoping for something a little higher.pdf",
+    "titleEn": "I was hoping for something a little higher",
+    "titleZh": "我原本期望可以再高一點"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 2,
+    "sourceNumber": 2,
+    "file": "Business _ Commercial Speaking Common Expression 2 - “Is there any flexibility on that.pdf",
+    "titleEn": "Is there any flexibility on that?",
+    "titleZh": "這方面有沒有調整空間？"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 3,
+    "sourceNumber": 3,
+    "file": "Business _ Commercial Speaking Common Expression 3 - “It’s been a long time coming.pdf",
+    "titleEn": "It's been a long time coming",
+    "titleZh": "這件事醞釀已久"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 4,
+    "sourceNumber": 4,
+    "file": "Business _ Commercial Speaking Common Expression 4 - “I’m looking forward to taking on more responsibility.pdf",
+    "titleEn": "I'm looking forward to taking on more responsibility",
+    "titleZh": "我期待承擔更多責任"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 5,
+    "sourceNumber": 5,
+    "file": "Business _ Commercial Speaking Common Expression 5 - “I think it’s time for me to move on.pdf",
+    "titleEn": "I think it's time for me to move on",
+    "titleZh": "我想是時候開展下一階段"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 6,
+    "sourceNumber": 6,
+    "file": "Business _ Commercial Speaking Common Expression 6 - “It wasn’t an easy decision.pdf",
+    "titleEn": "It wasn't an easy decision",
+    "titleZh": "這不是一個容易的決定"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 7,
+    "sourceNumber": 7,
+    "file": "Business _ Commercial Speaking Common Expression 7 - “I feel like it’s the right time for a change.pdf",
+    "titleEn": "I feel like it's the right time for a change",
+    "titleZh": "我覺得現在是作出改變的合適時機"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 8,
+    "sourceNumber": 8,
+    "file": "Business _ Commercial Speaking Common Expression 8 - “It’s been great working with you.pdf",
+    "titleEn": "It's been great working with you",
+    "titleZh": "很高興曾經與您共事"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 14,
+    "sourceNumber": 11,
+    "file": "Common Expression 11 - Give me a second .pdf",
+    "titleEn": "Give me a second",
+    "titleZh": "等我一下"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 15,
+    "sourceNumber": 12,
+    "file": "Common Expression 12 - Not necessarily.pdf",
+    "titleEn": "Not necessarily",
+    "titleZh": "不一定"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 16,
+    "sourceNumber": 13,
+    "file": "Common Expression 13 - Fair enough.pdf",
+    "titleEn": "Fair enough",
+    "titleZh": "有道理／可以接受"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 17,
+    "sourceNumber": 14,
+    "file": "Common Expression 14 - I see what you mean.pdf",
+    "titleEn": "I see what you mean",
+    "titleZh": "我明白你的意思"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 18,
+    "sourceNumber": 15,
+    "file": "Common Expression 15 - I’m not so sure about that.pdf",
+    "titleEn": "I'm not so sure about that",
+    "titleZh": "我不太確定是否同意"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 19,
+    "sourceNumber": 16,
+    "file": "Common Expression 16 - Whenever you’re ready.pdf",
+    "titleEn": "Whenever you're ready",
+    "titleZh": "您準備好就可以"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 20,
+    "sourceNumber": 17,
+    "file": "Common Expression 17 - I’m glad it worked out.pdf",
+    "titleEn": "I'm glad it worked out",
+    "titleZh": "很高興事情順利解決"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 21,
+    "sourceNumber": 18,
+    "file": "Common Expression 18 - That means a lot (to me).pdf",
+    "titleEn": "That means a lot (to me)",
+    "titleZh": "這對我意義重大"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 22,
+    "sourceNumber": 19,
+    "file": "Common Expression 19 - I’m glad you brought that up.pdf",
+    "titleEn": "I'm glad you brought that up",
+    "titleZh": "很高興您提出這一點"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 23,
+    "sourceNumber": 20,
+    "file": "Common Expression 20 - Thanks for letting me know.pdf",
+    "titleEn": "Thanks for letting me know",
+    "titleZh": "謝謝您告訴我"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 24,
+    "sourceNumber": 21,
+    "file": "Common Expression 21 - Just a heads-up, .pdf",
+    "titleEn": "Just a heads-up, ...",
+    "titleZh": "先提醒您一下……"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 25,
+    "sourceNumber": 22,
+    "file": "Common Expression 22 - I’m having second thoughts.pdf",
+    "titleEn": "I'm having second thoughts",
+    "titleZh": "我開始重新考慮"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 26,
+    "sourceNumber": 23,
+    "file": "Common Expression 23 - Help yourself.pdf",
+    "titleEn": "Help yourself",
+    "titleZh": "請自便"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 27,
+    "sourceNumber": 24,
+    "file": "Common Expression 24 - After you.pdf",
+    "titleEn": "After you",
+    "titleZh": "您先請"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 28,
+    "sourceNumber": 25,
+    "file": "Common Expression 25 - Speaking of which, .pdf",
+    "titleEn": "Speaking of which, ...",
+    "titleZh": "說到這件事……"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 29,
+    "sourceNumber": 26,
+    "file": "Common Expression 26 - Sorry, I didn’t catch that.pdf",
+    "titleEn": "Sorry, I didn't catch that",
+    "titleZh": "抱歉，我沒有聽清楚"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 30,
+    "sourceNumber": 27,
+    "file": "Common Expressions 27 - I’m a big fan of.pdf",
+    "titleEn": "I'm a big fan of...",
+    "titleZh": "我很喜歡……"
+  },
+  {
+    "systemKey": "speaking",
+    "idNumber": 31,
+    "sourceNumber": 28,
+    "file": "Common Expressions 28 I’m really into.pdf",
+    "titleEn": "I'm really into...",
+    "titleZh": "我非常喜歡／投入於……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 12,
+    "sourceNumber": 12,
+    "file": "Written expression 12 - “This may be due to.pdf",
+    "titleEn": "This may be due to...",
+    "titleZh": "這可能是由於……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 13,
+    "sourceNumber": 13,
+    "file": "Written expression 13 - “This can be attributed to.pdf",
+    "titleEn": "This can be attributed to...",
+    "titleZh": "這可歸因於……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 14,
+    "sourceNumber": 14,
+    "file": "Written expression 14 - “One possible explanation is that.pdf",
+    "titleEn": "One possible explanation is that...",
+    "titleZh": "一個可能的解釋是……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 15,
+    "sourceNumber": 15,
+    "file": "Written expression 15 - “Another factor to consider is.pdf",
+    "titleEn": "Another factor to consider is...",
+    "titleZh": "另一個需要考慮的因素是……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 16,
+    "sourceNumber": 16,
+    "file": "Written Expression 16 - “One possible solution is to.pdf",
+    "titleEn": "One possible solution is to...",
+    "titleZh": "一個可行的解決方法是……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 17,
+    "sourceNumber": 17,
+    "file": "Written Expression 17 - “One way to address this issue is to.pdf",
+    "titleEn": "One way to address this issue is to...",
+    "titleZh": "處理這個問題的一個方法是……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 18,
+    "sourceNumber": 18,
+    "file": "Written Expression 18 - “Steps should be taken to.pdf",
+    "titleEn": "Steps should be taken to...",
+    "titleZh": "應採取措施……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 19,
+    "sourceNumber": 19,
+    "file": "Written Expression 19 - “More should be done to.pdf",
+    "titleEn": "More should be done to...",
+    "titleZh": "應採取更多行動……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 20,
+    "sourceNumber": 20,
+    "file": "Written Expression 20 - “It may be necessary to.pdf",
+    "titleEn": "It may be necessary to...",
+    "titleZh": "可能有必要……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 21,
+    "sourceNumber": 21,
+    "file": "Written Expression 21 - “It would be beneficial to.pdf",
+    "titleEn": "It would be beneficial to...",
+    "titleZh": "……將會帶來益處"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 22,
+    "sourceNumber": 22,
+    "file": "Written Expression 22 - “Consideration should be given to.pdf",
+    "titleEn": "Consideration should be given to...",
+    "titleZh": "應考慮……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 23,
+    "sourceNumber": 23,
+    "file": "Written Expression 23 - “Priority should be given to.pdf",
+    "titleEn": "Priority should be given to...",
+    "titleZh": "應優先……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 24,
+    "sourceNumber": 24,
+    "file": "Written Expression 24 - “Particular attention should be paid to.pdf",
+    "titleEn": "Particular attention should be paid to...",
+    "titleZh": "應特別注意……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 25,
+    "sourceNumber": 25,
+    "file": "Written Expression 25 - “The aim is to.pdf",
+    "titleEn": "The aim is to...",
+    "titleZh": "目的是……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 26,
+    "sourceNumber": 26,
+    "file": "Written Expression 26 - “This could encourage.pdf",
+    "titleEn": "This could encourage...",
+    "titleZh": "這可以鼓勵……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 27,
+    "sourceNumber": 27,
+    "file": "Written Expression 27 - “This would allow.pdf",
+    "titleEn": "This would allow...",
+    "titleZh": "這將容許……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 28,
+    "sourceNumber": 28,
+    "file": "Written Expression 28 - “This would help to.pdf",
+    "titleEn": "This would help to...",
+    "titleZh": "這將有助於……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 29,
+    "sourceNumber": 29,
+    "file": "Written Expression 29 -“It is clear that.pdf",
+    "titleEn": "It is clear that...",
+    "titleZh": "顯然……"
+  },
+  {
+    "systemKey": "written",
+    "idNumber": 30,
+    "sourceNumber": 30,
+    "file": "Written Expression 30 - “It appears that.pdf",
+    "titleEn": "It appears that...",
+    "titleZh": "看來……"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 11,
+    "sourceNumber": 11,
+    "file": "Rhetorical Speaking Common Expression 11 - The Way I see it.pdf",
+    "titleEn": "The way I see it, ...",
+    "titleZh": "依我看來……"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 12,
+    "sourceNumber": 12,
+    "file": "Rhetorical Speaking Common Expression 12 - From where I’m standing, ....pdf",
+    "titleEn": "From where I'm standing, ...",
+    "titleZh": "從我的立場來看……"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 13,
+    "sourceNumber": 13,
+    "file": "Rhetorical Speaking Common Expression 13 - That's the problem.pdf",
+    "titleEn": "That's the problem",
+    "titleZh": "這就是問題所在"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 14,
+    "sourceNumber": 14,
+    "file": "Rhetorical Speaking Common Expression 14 - That's the point.pdf",
+    "titleEn": "That's the point",
+    "titleZh": "這就是重點"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 15,
+    "sourceNumber": 15,
+    "file": "Rhetorical Speaking Common Expression 15 - That's the difference.pdf",
+    "titleEn": "That's the difference",
+    "titleZh": "這就是分別"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 16,
+    "sourceNumber": 16,
+    "file": "Rhetorical Speaking Common Expression 16 - That's the key.pdf",
+    "titleEn": "That's the key",
+    "titleZh": "這就是關鍵"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 17,
+    "sourceNumber": 17,
+    "file": "Rhetorical Speaking Common Expression 17 - That's the catch.pdf",
+    "titleEn": "That's the catch",
+    "titleZh": "這就是難處"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 18,
+    "sourceNumber": 18,
+    "file": "Rhetorical Speaking Common Expression 18 - That's where it gets complicated.pdf",
+    "titleEn": "That's where it gets complicated",
+    "titleZh": "事情就是在這裡變得複雜"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 19,
+    "sourceNumber": 19,
+    "file": "Rhetorical Speaking Common Expression 19 - and that matters.pdf",
+    "titleEn": "...and that matters",
+    "titleZh": "……而這一點很重要"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 20,
+    "sourceNumber": 20,
+    "file": "Rhetorical Speaking Common Expression 20 - Maybe. Maybe not..pdf",
+    "titleEn": "Maybe. Maybe not.",
+    "titleZh": "也許是，也許不是"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 21,
+    "sourceNumber": 21,
+    "file": "Rhetorical Speaking Common Expression 21 - In theory, yes.pdf",
+    "titleEn": "In theory, yes",
+    "titleZh": "理論上，是的"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 22,
+    "sourceNumber": 22,
+    "file": "Rhetorical Speaking Common Expression 22 - In practice_ Not so much. .pdf",
+    "titleEn": "In practice? Not so much.",
+    "titleZh": "實際上則未必"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 23,
+    "sourceNumber": 23,
+    "file": "Rhetorical Speaking Common Expression 23 - Easier said than done. .pdf",
+    "titleEn": "Easier said than done",
+    "titleZh": "說易行難"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 24,
+    "sourceNumber": 24,
+    "file": "Rhetorical Speaking Common Expression 24 - Simple idea. Difficult reality..pdf",
+    "titleEn": "Simple idea. Difficult reality.",
+    "titleZh": "概念簡單，現實困難"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 25,
+    "sourceNumber": 25,
+    "file": "Rhetorical Speaking Common Expression 25 - That’s the tricky part..pdf",
+    "titleEn": "That's the tricky part",
+    "titleZh": "這就是棘手之處"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 26,
+    "sourceNumber": 26,
+    "file": "Rhetorical Speaking Common Expression 26 - Good idea. Wrong timing.pdf",
+    "titleEn": "Good idea. Wrong timing.",
+    "titleZh": "好主意，但時機不對"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 27,
+    "sourceNumber": 27,
+    "file": "Rhetorical Speaking Common Expression 27 - Same Problem. Different Context.pdf",
+    "titleEn": "Same problem. Different context.",
+    "titleZh": "同一問題，不同情境"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 28,
+    "sourceNumber": 28,
+    "file": "Rhetorical Speaking Common Expression 28 - Why Should That Be The Case_ .pdf",
+    "titleEn": "Why should that be the case?",
+    "titleZh": "為甚麼會是這樣？"
+  },
+  {
+    "systemKey": "rhetorical-speaking",
+    "idNumber": 29,
+    "sourceNumber": 29,
+    "file": "Rhetorical Speaking Series 29 - Why would we _ you _ X assume that_ .pdf",
+    "titleEn": "Why would we / you / X assume that?",
+    "titleZh": "我們／您／X 為甚麼會作此假設？"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 9,
+    "sourceNumber": 9,
+    "file": "Rhetorical Writing Common Expression 9 - If X wants..., X _ it _ they must....pdf",
+    "titleEn": "If X wants..., X / it / they must...",
+    "titleZh": "如果 X 想……，就必須……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 10,
+    "sourceNumber": 10,
+    "file": "Rhetorical Writing Common Expression 10 - If X fails to..., X _ it _ they risk(s)....pdf",
+    "titleEn": "If X fails to..., X / it / they risk(s)...",
+    "titleZh": "如果 X 未能……，便有可能……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 11,
+    "sourceNumber": 11,
+    "file": "Rhetorical Writing Common Expression 11 - The more..., the more....pdf",
+    "titleEn": "The more..., the more...",
+    "titleZh": "越……，越……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 12,
+    "sourceNumber": 12,
+    "file": "Rhetorical Writing Common Expression 12 - Whether..., whether..., or whether....pdf",
+    "titleEn": "Whether..., whether..., or whether...",
+    "titleZh": "無論……、……還是……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 13,
+    "sourceNumber": 13,
+    "file": "Rhetorical Writing Common Expression 13 - In X, in Y, and in Z,... .pdf",
+    "titleEn": "In X, in Y, and in Z, ...",
+    "titleZh": "在 X、Y 和 Z 中……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 14,
+    "sourceNumber": 14,
+    "file": "Rhetorical Writing Common Expression 14 - We see it in..., we see it in..., and we see it in....pdf",
+    "titleEn": "We see it in..., we see it in..., and we see it in...",
+    "titleZh": "我們在……、……和……中都可看見"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 15,
+    "sourceNumber": 15,
+    "file": "Rhetorical Writing Common Expression 15 - X requires..., demands..., and ultimately depends on....pdf",
+    "titleEn": "X requires..., demands..., and ultimately depends on...",
+    "titleZh": "X 需要……、要求……，最終取決於……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 16,
+    "sourceNumber": 16,
+    "file": "Rhetorical Writing Common Expression 16 - To..., to..., and to... .pdf",
+    "titleEn": "To..., to..., and to...",
+    "titleZh": "以三組不定詞建立平行結構"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 17,
+    "sourceNumber": 17,
+    "file": "Rhetorical Writing Common Expression 17 - Not..., not..., but....pdf",
+    "titleEn": "Not..., not..., but...",
+    "titleZh": "不是……，不是……，而是……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 18,
+    "sourceNumber": 18,
+    "file": "Rhetorical Writing Common Expression 18 - Can we really afford to ignore..._.pdf",
+    "titleEn": "Can we really afford to ignore...?",
+    "titleZh": "我們真的承受得起忽視……的代價嗎？"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 19,
+    "sourceNumber": 19,
+    "file": "Rhetorical Writing Common Expression 19 - Is that necessarily a bad thing_.pdf",
+    "titleEn": "Is that necessarily a bad thing?",
+    "titleZh": "那就一定是壞事嗎？"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 20,
+    "sourceNumber": 20,
+    "file": "Rhetorical Writing Common Expression 20 - If not now, when_.pdf",
+    "titleEn": "If not now, when?",
+    "titleZh": "如果不是現在，更待何時？"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 21,
+    "sourceNumber": 21,
+    "file": "Rhetorical Writing Common Expression 21 - What does this mean in practice_ It means....pdf",
+    "titleEn": "What does this mean in practice? It means...",
+    "titleZh": "這在實際上意味著甚麼？這意味著……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 22,
+    "sourceNumber": 22,
+    "file": "Rhetorical Writing Common Expression 22 - What, then, should be done_.pdf",
+    "titleEn": "What, then, should be done?",
+    "titleZh": "那麼，應該怎樣做？"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 23,
+    "sourceNumber": 23,
+    "file": "Rhetorical Writing Common Expression 23 - What explains this difference_ One answer is....pdf",
+    "titleEn": "What explains this difference? One answer is...",
+    "titleZh": "如何解釋這個差異？其中一個答案是……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 24,
+    "sourceNumber": 24,
+    "file": "Rhetorical Writing Common Expression 24 - Can this be achieved_ Yes, but only if....pdf",
+    "titleEn": "Can this be achieved? Yes, but only if...",
+    "titleZh": "能否做到？可以，但前提是……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 25,
+    "sourceNumber": 25,
+    "file": "Rhetorical Writing Common Expression 25 - It is not a question of..., but of....pdf",
+    "titleEn": "It is not a question of..., but of...",
+    "titleZh": "問題不在於……，而在於……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 26,
+    "sourceNumber": 26,
+    "file": "Rhetorical Writing Common Expression 26 - The issue is not whether..., but how....pdf",
+    "titleEn": "The issue is not whether..., but how...",
+    "titleZh": "問題不在於是否……，而在於如何……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 27,
+    "sourceNumber": 27,
+    "file": "Rhetorical Writing Common Expression 27 - It is easy to...; it is much harder to....pdf",
+    "titleEn": "It is easy to...; it is much harder to...",
+    "titleZh": "……很容易；真正困難的是……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 28,
+    "sourceNumber": 28,
+    "file": "Rhetorical Writing Common Expression 28 - What appears to be... may actually be... .pdf",
+    "titleEn": "What appears to be... may actually be...",
+    "titleZh": "看似……的事物，實際上可能……"
+  },
+  {
+    "systemKey": "rhetorical-writing",
+    "idNumber": 29,
+    "sourceNumber": 29,
+    "file": "Rhetorical Writing Common Expression 29 - One may gain..., but lose... .pdf",
+    "titleEn": "One may gain..., but lose...",
+    "titleZh": "人可能得到……，卻失去……"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 9,
+    "sourceNumber": 9,
+    "file": "Professional Communication Common Expression 9 - I’ll sort it.pdf",
+    "titleEn": "I'll sort it",
+    "titleZh": "我會處理"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 10,
+    "sourceNumber": 10,
+    "file": "Professional Communication Common Expression 10 - I’ll take care of it.pdf",
+    "titleEn": "I'll take care of it",
+    "titleZh": "我會處理好"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 11,
+    "sourceNumber": 11,
+    "file": "Professional Communication Common Expression 11 - I’ll handle it from here.pdf",
+    "titleEn": "I'll handle it from here",
+    "titleZh": "接下來由我處理"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 12,
+    "sourceNumber": 12,
+    "file": "Professional Communication Common Expression 12 - I’ve got this.pdf",
+    "titleEn": "I've got this",
+    "titleZh": "這件事我來處理"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 13,
+    "sourceNumber": 13,
+    "file": "Professional Communication Common Expression 13 - All sorted.pdf",
+    "titleEn": "All sorted",
+    "titleZh": "全部處理好了"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 14,
+    "sourceNumber": 14,
+    "file": "Professional Communication Common Expression 14 - That’s sorted now.pdf",
+    "titleEn": "That's sorted now",
+    "titleZh": "那件事現在已處理好"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 15,
+    "sourceNumber": 15,
+    "file": "Professional Communication Common Expression 15 - We’re good to go.pdf",
+    "titleEn": "We're good to go",
+    "titleZh": "我們可以開始了"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 16,
+    "sourceNumber": 16,
+    "file": "Professional Communication Common Expression 16 - All set on my side.pdf",
+    "titleEn": "All set on my side",
+    "titleZh": "我這邊已準備妥當"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 17,
+    "sourceNumber": 17,
+    "file": "Professional Communication Common Expression 17 - Everything’s in place..pdf",
+    "titleEn": "Everything's in place",
+    "titleZh": "一切準備就緒"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 18,
+    "sourceNumber": 18,
+    "file": "Professional Communication Common Expression 18 - We’re all set.pdf",
+    "titleEn": "We're all set",
+    "titleZh": "我們都準備好了"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 19,
+    "sourceNumber": 19,
+    "file": "Professional Communication Common Expression 19 - That’s been taken care of.pdf",
+    "titleEn": "That's been taken care of",
+    "titleZh": "那件事已處理妥當"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 20,
+    "sourceNumber": 20,
+    "file": "Professional Communication Common Expression 20 - I’ve got it covered.pdf",
+    "titleEn": "I've got it covered",
+    "titleZh": "我已安排妥當"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 21,
+    "sourceNumber": 21,
+    "file": "Professional Communication Common Expression 21 - Will do.pdf",
+    "titleEn": "Will do",
+    "titleZh": "我會辦妥"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 22,
+    "sourceNumber": 22,
+    "file": "Professional Communication Common Expression 22 - Looks good to me.pdf",
+    "titleEn": "Looks good to me",
+    "titleZh": "我看沒有問題"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 23,
+    "sourceNumber": 23,
+    "file": "Professional Communication Common Expression 23 - Works perfectly.pdf",
+    "titleEn": "Works perfectly",
+    "titleZh": "完全可行"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 24,
+    "sourceNumber": 24,
+    "file": "Professional Communication Common Expression 24 - That’ll work.pdf",
+    "titleEn": "That'll work",
+    "titleZh": "這樣可行"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 25,
+    "sourceNumber": 25,
+    "file": "Professional Communication Common Expression 25 - That’s doable.pdf",
+    "titleEn": "That's doable",
+    "titleZh": "這做得到"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 26,
+    "sourceNumber": 26,
+    "file": "Professional Communication Common Expression 26 - That can be arranged.pdf",
+    "titleEn": "That can be arranged",
+    "titleZh": "這可以安排"
+  },
+  {
+    "systemKey": "professional-message",
+    "idNumber": 27,
+    "sourceNumber": 27,
+    "file": "Professional Communication Common Expression 27 - We can make that work..pdf",
+    "titleEn": "We can make that work",
+    "titleZh": "我們可以配合"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 9,
+    "sourceNumber": 9,
+    "file": "Business _ Commercial Speaking Common Expression 9 - “Thanks for everything.pdf",
+    "titleEn": "Thanks for everything",
+    "titleZh": "感謝您一直以來的一切"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 10,
+    "sourceNumber": 10,
+    "file": "Business _ Commercial Speaking Common Expression 10 - “I’ve really enjoyed being part of the team.pdf",
+    "titleEn": "I've really enjoyed being part of the team",
+    "titleZh": "很高興能成為團隊一員"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 11,
+    "sourceNumber": 11,
+    "file": "Business _ Commercial Speaking Common Expression 11 - “I’m taking some time to figure out what I want to do next.pdf",
+    "titleEn": "I'm taking some time to figure out what I want to do next",
+    "titleZh": "我正花點時間思考下一步"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 12,
+    "sourceNumber": 12,
+    "file": "Business _ Commercial Speaking Common Expression 12 - “I’m keeping my options open.pdf",
+    "titleEn": "I'm keeping my options open",
+    "titleZh": "我暫時保留不同選擇"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 13,
+    "sourceNumber": 13,
+    "file": "Business _ Commercial Speaking Common Expression 13 - “I’ve sent out a few applications.pdf",
+    "titleEn": "I've sent out a few applications",
+    "titleZh": "我已投了幾份申請"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 14,
+    "sourceNumber": 14,
+    "file": "Business _ Commercial Speaking Common Expression 14 - “I’m waiting to hear back.pdf",
+    "titleEn": "I'm waiting to hear back",
+    "titleZh": "我正等待回覆"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 15,
+    "sourceNumber": 15,
+    "file": "Business _ Commercial Speaking Common Expression 15 - “I’ll keep looking.pdf",
+    "titleEn": "I'll keep looking",
+    "titleZh": "我會繼續尋找"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 16,
+    "sourceNumber": 16,
+    "file": "Business _ Commercial Speaking Common Expression 16 - “I think I’m ready for more.”.pdf",
+    "titleEn": "I think I'm ready for more",
+    "titleZh": "我想我已準備好迎接更多"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 17,
+    "sourceNumber": 17,
+    "file": "Business _ Commercial Speaking Common Expression 17 - “Things have been pretty busy lately.pdf",
+    "titleEn": "Things have been pretty busy lately",
+    "titleZh": "最近工作相當忙碌"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 18,
+    "sourceNumber": 18,
+    "file": "Business _ Commercial Speaking Common Expression 18 - “It’s been a hectic few weeks.pdf",
+    "titleEn": "It's been a hectic few weeks",
+    "titleZh": "過去幾星期非常忙碌"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 19,
+    "sourceNumber": 19,
+    "file": "Business _ Commercial Speaking Common Expression 19 - “We’ve got a lot going on.pdf",
+    "titleEn": "We've got a lot going on",
+    "titleZh": "我們手上有很多事情"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 20,
+    "sourceNumber": 20,
+    "file": "Business _ Commercial Speaking Common Expression 20 - “There’s a lot to get through.pdf",
+    "titleEn": "There's a lot to get through",
+    "titleZh": "還有很多事情要處理"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 21,
+    "sourceNumber": 21,
+    "file": "Business _ Commercial Speaking Common Expression 21 - “We’re getting there.pdf",
+    "titleEn": "We're getting there",
+    "titleZh": "我們正逐步接近目標"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 22,
+    "sourceNumber": 22,
+    "file": "Business _ Commercial Speaking Common Expression 22 - “We’re making good progress.pdf",
+    "titleEn": "We're making good progress",
+    "titleZh": "我們進展良好"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 23,
+    "sourceNumber": 23,
+    "file": "Business _ Commercial Speaking Common Expression 23 - “We’re heading in the right direction.pdf",
+    "titleEn": "We're heading in the right direction",
+    "titleZh": "我們正朝正確方向前進"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 24,
+    "sourceNumber": 24,
+    "file": "Business _ Commercial Speaking Common Expression 24 - “We’ve still got a long way to go.pdf",
+    "titleEn": "We've still got a long way to go",
+    "titleZh": "我們還有很長的路要走"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 25,
+    "sourceNumber": 25,
+    "file": "Business _ Commercial Speaking Common Expression 25 - “There’s still plenty of work to do.pdf",
+    "titleEn": "There's still plenty of work to do",
+    "titleZh": "還有很多工作要做"
+  },
+  {
+    "systemKey": "business-speaking",
+    "idNumber": 26,
+    "sourceNumber": 26,
+    "file": "Business _ Commercial Speaking Common Expression 26 -“It’s starting to come together.pdf",
+    "titleEn": "It's starting to come together",
+    "titleZh": "事情開始成形／順利整合"
+  }
 ]

@@ -3,6 +3,7 @@
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
+import vm from "node:vm";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -415,8 +416,44 @@ function buildLesson(entry) {
   };
 }
 
+function existingImportedLessonsBySourceFile() {
+  if (!fs.existsSync(outputPath)) return new Map();
+  const window = {};
+  vm.runInNewContext(fs.readFileSync(path.join(root, "common-expression-system-data.js"), "utf8"), { window }, {
+    filename: "common-expression-system-data.js"
+  });
+  vm.runInNewContext(fs.readFileSync(outputPath, "utf8"), { window }, {
+    filename: "common-expression-system-imported-data.js"
+  });
+  const lessons = new Map();
+  for (const system of Object.values(window.EDMUND_COMMON_EXPRESSION_DATA?.systems || {})) {
+    for (const lesson of system.lessons || []) {
+      const file = lesson?.source?.file;
+      if (!file || file === "Common Expression 1 - See you around.pdf" || file === "Common Expression 2 - “That’s good to hear.pdf") continue;
+      if (lessons.has(file)) throw new Error(`Existing generated catalogue contains duplicate source file: ${file}`);
+      lessons.set(file, JSON.parse(JSON.stringify(lesson)));
+    }
+  }
+  return lessons;
+}
+
+function buildOrReuseLesson(entry, existingByFile) {
+  const filePath = path.join(downloadsDirectory, entry.file);
+  if (fs.existsSync(filePath)) return buildLesson(entry);
+  const lesson = existingByFile.get(entry.file);
+  if (!lesson) throw new Error(`Missing requested PDF and generated review record: ${filePath}`);
+  const expectedId = `common-expression-${String(entry.idNumber).padStart(2, "0")}`;
+  if (lesson.id !== expectedId || lesson.order !== entry.idNumber) {
+    throw new Error(`${entry.file}: preserved lesson identity does not match manifest (${lesson.id}/${lesson.order})`);
+  }
+  if (lesson.titleEn !== entry.titleEn || lesson.titleZh !== entry.titleZh) {
+    throw new Error(`${entry.file}: preserved lesson title does not match manifest`);
+  }
+  return lesson;
+}
+
 function validateManifest(entries) {
-  if (entries.length !== 56) throw new Error(`Expected 56 explicitly requested PDFs, found ${entries.length}`);
+  if (entries.length !== 170) throw new Error(`Expected 170 explicitly requested PDFs, found ${entries.length}`);
   const files = new Set();
   const ids = new Set();
   for (const entry of entries) {
@@ -450,8 +487,9 @@ function validateLessons(bySystem) {
 }
 
 validateManifest(manifest);
+const existingByFile = existingImportedLessonsBySourceFile();
 const imported = Object.fromEntries(Object.keys(systemDetails).map((key) => [key, []]));
-for (const entry of manifest) imported[entry.systemKey].push(buildLesson(entry));
+for (const entry of manifest) imported[entry.systemKey].push(buildOrReuseLesson(entry, existingByFile));
 for (const lessons of Object.values(imported)) lessons.sort((left, right) => left.order - right.order);
 validateLessons(imported);
 

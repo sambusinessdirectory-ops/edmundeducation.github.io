@@ -65,6 +65,174 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "common-expression-rhetorical-writing.html?lesson=common-expression-08"
   },
   {
+    "id": "common-expression:rhetorical-writing:common-expression-09",
+    "type": "common-expression",
+    "ordinal": 9,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #9 · If X wants..., X / it / they must...",
+    "detail": "修辭寫作 Rhetorical Writing · 如果 X 想……，就必須……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-09"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-10",
+    "type": "common-expression",
+    "ordinal": 10,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #10 · If X fails to..., X / it / they risk(s)...",
+    "detail": "修辭寫作 Rhetorical Writing · 如果 X 未能……，便有可能……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-10"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-11",
+    "type": "common-expression",
+    "ordinal": 11,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #11 · The more..., the more...",
+    "detail": "修辭寫作 Rhetorical Writing · 越……，越……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-11"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-12",
+    "type": "common-expression",
+    "ordinal": 12,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #12 · Whether..., whether..., or whether...",
+    "detail": "修辭寫作 Rhetorical Writing · 無論……、……還是……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-12"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-13",
+    "type": "common-expression",
+    "ordinal": 13,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #13 · In X, in Y, and in Z, ...",
+    "detail": "修辭寫作 Rhetorical Writing · 在 X、Y 和 Z 中……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-13"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-14",
+    "type": "common-expression",
+    "ordinal": 14,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #14 · We see it in..., we see it in..., and we see it in...",
+    "detail": "修辭寫作 Rhetorical Writing · 我們在……、……和……中都可看見",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-14"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-15",
+    "type": "common-expression",
+    "ordinal": 15,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #15 · X requires..., demands..., and ultimately depends on...",
+    "detail": "修辭寫作 Rhetorical Writing · X 需要……、要求……，最終取決於……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-15"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-16",
+    "type": "common-expression",
+    "ordinal": 16,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #16 · To..., to..., and to...",
+    "detail": "修辭寫作 Rhetorical Writing · 以三組不定詞建立平行結構",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-16"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-17",
+    "type": "common-expression",
+    "ordinal": 17,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #17 · Not..., not..., but...",
+    "detail": "修辭寫作 Rhetorical Writing · 不是……，不是……，而是……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-17"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-18",
+    "type": "common-expression",
+    "ordinal": 18,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #18 · Can we really afford to ignore...?",
+    "detail": "修辭寫作 Rhetorical Writing · 我們真的承受得起忽視……的代價嗎？",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-18"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-19",
+    "type": "common-expression",
+    "ordinal": 19,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #19 · Is that necessarily a bad thing?",
+    "detail": "修辭寫作 Rhetorical Writing · 那就一定是壞事嗎？",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-19"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-20",
+    "type": "common-expression",
+    "ordinal": 20,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #20 · If not now, when?",
+    "detail": "修辭寫作 Rhetorical Writing · 如果不是現在，更待何時？",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-20"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-21",
+    "type": "common-expression",
+    "ordinal": 21,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #21 · What does this mean in practice? It means...",
+    "detail": "修辭寫作 Rhetorical Writing · 這在實際上意味著甚麼？這意味著……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-21"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-22",
+    "type": "common-expression",
+    "ordinal": 22,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #22 · What, then, should be done?",
+    "detail": "修辭寫作 Rhetorical Writing · 那麼，應該怎樣做？",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-22"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-23",
+    "type": "common-expression",
+    "ordinal": 23,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #23 · What explains this difference? One answer is...",
+    "detail": "修辭寫作 Rhetorical Writing · 如何解釋這個差異？其中一個答案是……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-23"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-24",
+    "type": "common-expression",
+    "ordinal": 24,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #24 · Can this be achieved? Yes, but only if...",
+    "detail": "修辭寫作 Rhetorical Writing · 能否做到？可以，但前提是……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-24"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-25",
+    "type": "common-expression",
+    "ordinal": 25,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #25 · It is not a question of..., but of...",
+    "detail": "修辭寫作 Rhetorical Writing · 問題不在於……，而在於……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-25"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-26",
+    "type": "common-expression",
+    "ordinal": 26,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #26 · The issue is not whether..., but how...",
+    "detail": "修辭寫作 Rhetorical Writing · 問題不在於是否……，而在於如何……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-26"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-27",
+    "type": "common-expression",
+    "ordinal": 27,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #27 · It is easy to...; it is much harder to...",
+    "detail": "修辭寫作 Rhetorical Writing · ……很容易；真正困難的是……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-27"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-28",
+    "type": "common-expression",
+    "ordinal": 28,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #28 · What appears to be... may actually be...",
+    "detail": "修辭寫作 Rhetorical Writing · 看似……的事物，實際上可能……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-28"
+  },
+  {
+    "id": "common-expression:rhetorical-writing:common-expression-29",
+    "type": "common-expression",
+    "ordinal": 29,
+    "label": "Common Expression - 修辭寫作 Rhetorical Writing - #29 · One may gain..., but lose...",
+    "detail": "修辭寫作 Rhetorical Writing · 人可能得到……，卻失去……",
+    "url": "common-expression-rhetorical-writing.html?lesson=common-expression-29"
+  },
+  {
     "id": "common-expression:rhetorical-speaking:common-expression-01",
     "type": "common-expression",
     "ordinal": 1,
@@ -145,6 +313,158 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-10"
   },
   {
+    "id": "common-expression:rhetorical-speaking:common-expression-11",
+    "type": "common-expression",
+    "ordinal": 11,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #11 · The way I see it, ...",
+    "detail": "修辭會話 Rhetorical Speaking · 依我看來……",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-11"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-12",
+    "type": "common-expression",
+    "ordinal": 12,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #12 · From where I'm standing, ...",
+    "detail": "修辭會話 Rhetorical Speaking · 從我的立場來看……",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-12"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-13",
+    "type": "common-expression",
+    "ordinal": 13,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #13 · That's the problem",
+    "detail": "修辭會話 Rhetorical Speaking · 這就是問題所在",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-13"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-14",
+    "type": "common-expression",
+    "ordinal": 14,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #14 · That's the point",
+    "detail": "修辭會話 Rhetorical Speaking · 這就是重點",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-14"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-15",
+    "type": "common-expression",
+    "ordinal": 15,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #15 · That's the difference",
+    "detail": "修辭會話 Rhetorical Speaking · 這就是分別",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-15"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-16",
+    "type": "common-expression",
+    "ordinal": 16,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #16 · That's the key",
+    "detail": "修辭會話 Rhetorical Speaking · 這就是關鍵",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-16"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-17",
+    "type": "common-expression",
+    "ordinal": 17,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #17 · That's the catch",
+    "detail": "修辭會話 Rhetorical Speaking · 這就是難處",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-17"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-18",
+    "type": "common-expression",
+    "ordinal": 18,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #18 · That's where it gets complicated",
+    "detail": "修辭會話 Rhetorical Speaking · 事情就是在這裡變得複雜",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-18"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-19",
+    "type": "common-expression",
+    "ordinal": 19,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #19 · ...and that matters",
+    "detail": "修辭會話 Rhetorical Speaking · ……而這一點很重要",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-19"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-20",
+    "type": "common-expression",
+    "ordinal": 20,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #20 · Maybe. Maybe not.",
+    "detail": "修辭會話 Rhetorical Speaking · 也許是，也許不是",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-20"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-21",
+    "type": "common-expression",
+    "ordinal": 21,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #21 · In theory, yes",
+    "detail": "修辭會話 Rhetorical Speaking · 理論上，是的",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-21"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-22",
+    "type": "common-expression",
+    "ordinal": 22,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #22 · In practice? Not so much.",
+    "detail": "修辭會話 Rhetorical Speaking · 實際上則未必",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-22"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-23",
+    "type": "common-expression",
+    "ordinal": 23,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #23 · Easier said than done",
+    "detail": "修辭會話 Rhetorical Speaking · 說易行難",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-23"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-24",
+    "type": "common-expression",
+    "ordinal": 24,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #24 · Simple idea. Difficult reality.",
+    "detail": "修辭會話 Rhetorical Speaking · 概念簡單，現實困難",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-24"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-25",
+    "type": "common-expression",
+    "ordinal": 25,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #25 · That's the tricky part",
+    "detail": "修辭會話 Rhetorical Speaking · 這就是棘手之處",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-25"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-26",
+    "type": "common-expression",
+    "ordinal": 26,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #26 · Good idea. Wrong timing.",
+    "detail": "修辭會話 Rhetorical Speaking · 好主意，但時機不對",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-26"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-27",
+    "type": "common-expression",
+    "ordinal": 27,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #27 · Same problem. Different context.",
+    "detail": "修辭會話 Rhetorical Speaking · 同一問題，不同情境",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-27"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-28",
+    "type": "common-expression",
+    "ordinal": 28,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #28 · Why should that be the case?",
+    "detail": "修辭會話 Rhetorical Speaking · 為甚麼會是這樣？",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-28"
+  },
+  {
+    "id": "common-expression:rhetorical-speaking:common-expression-29",
+    "type": "common-expression",
+    "ordinal": 29,
+    "label": "Common Expression - 修辭會話 Rhetorical Speaking - #29 · Why would we / you / X assume that?",
+    "detail": "修辭會話 Rhetorical Speaking · 我們／您／X 為甚麼會作此假設？",
+    "url": "common-expression-rhetorical-speaking.html?lesson=common-expression-29"
+  },
+  {
     "id": "common-expression:business-speaking:common-expression-01",
     "type": "common-expression",
     "ordinal": 1,
@@ -209,6 +529,150 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "common-expression-business-speaking.html?lesson=common-expression-08"
   },
   {
+    "id": "common-expression:business-speaking:common-expression-09",
+    "type": "common-expression",
+    "ordinal": 9,
+    "label": "Common Expression - 商務會話 Business Speaking - #9 · Thanks for everything",
+    "detail": "商務會話 Business Speaking · 感謝您一直以來的一切",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-09"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-10",
+    "type": "common-expression",
+    "ordinal": 10,
+    "label": "Common Expression - 商務會話 Business Speaking - #10 · I've really enjoyed being part of the team",
+    "detail": "商務會話 Business Speaking · 很高興能成為團隊一員",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-10"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-11",
+    "type": "common-expression",
+    "ordinal": 11,
+    "label": "Common Expression - 商務會話 Business Speaking - #11 · I'm taking some time to figure out what I want to do next",
+    "detail": "商務會話 Business Speaking · 我正花點時間思考下一步",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-11"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-12",
+    "type": "common-expression",
+    "ordinal": 12,
+    "label": "Common Expression - 商務會話 Business Speaking - #12 · I'm keeping my options open",
+    "detail": "商務會話 Business Speaking · 我暫時保留不同選擇",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-12"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-13",
+    "type": "common-expression",
+    "ordinal": 13,
+    "label": "Common Expression - 商務會話 Business Speaking - #13 · I've sent out a few applications",
+    "detail": "商務會話 Business Speaking · 我已投了幾份申請",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-13"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-14",
+    "type": "common-expression",
+    "ordinal": 14,
+    "label": "Common Expression - 商務會話 Business Speaking - #14 · I'm waiting to hear back",
+    "detail": "商務會話 Business Speaking · 我正等待回覆",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-14"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-15",
+    "type": "common-expression",
+    "ordinal": 15,
+    "label": "Common Expression - 商務會話 Business Speaking - #15 · I'll keep looking",
+    "detail": "商務會話 Business Speaking · 我會繼續尋找",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-15"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-16",
+    "type": "common-expression",
+    "ordinal": 16,
+    "label": "Common Expression - 商務會話 Business Speaking - #16 · I think I'm ready for more",
+    "detail": "商務會話 Business Speaking · 我想我已準備好迎接更多",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-16"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-17",
+    "type": "common-expression",
+    "ordinal": 17,
+    "label": "Common Expression - 商務會話 Business Speaking - #17 · Things have been pretty busy lately",
+    "detail": "商務會話 Business Speaking · 最近工作相當忙碌",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-17"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-18",
+    "type": "common-expression",
+    "ordinal": 18,
+    "label": "Common Expression - 商務會話 Business Speaking - #18 · It's been a hectic few weeks",
+    "detail": "商務會話 Business Speaking · 過去幾星期非常忙碌",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-18"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-19",
+    "type": "common-expression",
+    "ordinal": 19,
+    "label": "Common Expression - 商務會話 Business Speaking - #19 · We've got a lot going on",
+    "detail": "商務會話 Business Speaking · 我們手上有很多事情",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-19"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-20",
+    "type": "common-expression",
+    "ordinal": 20,
+    "label": "Common Expression - 商務會話 Business Speaking - #20 · There's a lot to get through",
+    "detail": "商務會話 Business Speaking · 還有很多事情要處理",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-20"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-21",
+    "type": "common-expression",
+    "ordinal": 21,
+    "label": "Common Expression - 商務會話 Business Speaking - #21 · We're getting there",
+    "detail": "商務會話 Business Speaking · 我們正逐步接近目標",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-21"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-22",
+    "type": "common-expression",
+    "ordinal": 22,
+    "label": "Common Expression - 商務會話 Business Speaking - #22 · We're making good progress",
+    "detail": "商務會話 Business Speaking · 我們進展良好",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-22"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-23",
+    "type": "common-expression",
+    "ordinal": 23,
+    "label": "Common Expression - 商務會話 Business Speaking - #23 · We're heading in the right direction",
+    "detail": "商務會話 Business Speaking · 我們正朝正確方向前進",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-23"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-24",
+    "type": "common-expression",
+    "ordinal": 24,
+    "label": "Common Expression - 商務會話 Business Speaking - #24 · We've still got a long way to go",
+    "detail": "商務會話 Business Speaking · 我們還有很長的路要走",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-24"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-25",
+    "type": "common-expression",
+    "ordinal": 25,
+    "label": "Common Expression - 商務會話 Business Speaking - #25 · There's still plenty of work to do",
+    "detail": "商務會話 Business Speaking · 還有很多工作要做",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-25"
+  },
+  {
+    "id": "common-expression:business-speaking:common-expression-26",
+    "type": "common-expression",
+    "ordinal": 26,
+    "label": "Common Expression - 商務會話 Business Speaking - #26 · It's starting to come together",
+    "detail": "商務會話 Business Speaking · 事情開始成形／順利整合",
+    "url": "common-expression-business-speaking.html?lesson=common-expression-26"
+  },
+  {
     "id": "common-expression:professional-message:common-expression-01",
     "type": "common-expression",
     "ordinal": 1,
@@ -271,6 +735,158 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Common Expression - 商業溝通 Professional Message - #8 · I'm on it",
     "detail": "商業溝通 Professional Message · 我正在處理",
     "url": "common-expression-professional-message.html?lesson=common-expression-08"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-09",
+    "type": "common-expression",
+    "ordinal": 9,
+    "label": "Common Expression - 商業溝通 Professional Message - #9 · I'll sort it",
+    "detail": "商業溝通 Professional Message · 我會處理",
+    "url": "common-expression-professional-message.html?lesson=common-expression-09"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-10",
+    "type": "common-expression",
+    "ordinal": 10,
+    "label": "Common Expression - 商業溝通 Professional Message - #10 · I'll take care of it",
+    "detail": "商業溝通 Professional Message · 我會處理好",
+    "url": "common-expression-professional-message.html?lesson=common-expression-10"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-11",
+    "type": "common-expression",
+    "ordinal": 11,
+    "label": "Common Expression - 商業溝通 Professional Message - #11 · I'll handle it from here",
+    "detail": "商業溝通 Professional Message · 接下來由我處理",
+    "url": "common-expression-professional-message.html?lesson=common-expression-11"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-12",
+    "type": "common-expression",
+    "ordinal": 12,
+    "label": "Common Expression - 商業溝通 Professional Message - #12 · I've got this",
+    "detail": "商業溝通 Professional Message · 這件事我來處理",
+    "url": "common-expression-professional-message.html?lesson=common-expression-12"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-13",
+    "type": "common-expression",
+    "ordinal": 13,
+    "label": "Common Expression - 商業溝通 Professional Message - #13 · All sorted",
+    "detail": "商業溝通 Professional Message · 全部處理好了",
+    "url": "common-expression-professional-message.html?lesson=common-expression-13"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-14",
+    "type": "common-expression",
+    "ordinal": 14,
+    "label": "Common Expression - 商業溝通 Professional Message - #14 · That's sorted now",
+    "detail": "商業溝通 Professional Message · 那件事現在已處理好",
+    "url": "common-expression-professional-message.html?lesson=common-expression-14"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-15",
+    "type": "common-expression",
+    "ordinal": 15,
+    "label": "Common Expression - 商業溝通 Professional Message - #15 · We're good to go",
+    "detail": "商業溝通 Professional Message · 我們可以開始了",
+    "url": "common-expression-professional-message.html?lesson=common-expression-15"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-16",
+    "type": "common-expression",
+    "ordinal": 16,
+    "label": "Common Expression - 商業溝通 Professional Message - #16 · All set on my side",
+    "detail": "商業溝通 Professional Message · 我這邊已準備妥當",
+    "url": "common-expression-professional-message.html?lesson=common-expression-16"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-17",
+    "type": "common-expression",
+    "ordinal": 17,
+    "label": "Common Expression - 商業溝通 Professional Message - #17 · Everything's in place",
+    "detail": "商業溝通 Professional Message · 一切準備就緒",
+    "url": "common-expression-professional-message.html?lesson=common-expression-17"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-18",
+    "type": "common-expression",
+    "ordinal": 18,
+    "label": "Common Expression - 商業溝通 Professional Message - #18 · We're all set",
+    "detail": "商業溝通 Professional Message · 我們都準備好了",
+    "url": "common-expression-professional-message.html?lesson=common-expression-18"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-19",
+    "type": "common-expression",
+    "ordinal": 19,
+    "label": "Common Expression - 商業溝通 Professional Message - #19 · That's been taken care of",
+    "detail": "商業溝通 Professional Message · 那件事已處理妥當",
+    "url": "common-expression-professional-message.html?lesson=common-expression-19"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-20",
+    "type": "common-expression",
+    "ordinal": 20,
+    "label": "Common Expression - 商業溝通 Professional Message - #20 · I've got it covered",
+    "detail": "商業溝通 Professional Message · 我已安排妥當",
+    "url": "common-expression-professional-message.html?lesson=common-expression-20"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-21",
+    "type": "common-expression",
+    "ordinal": 21,
+    "label": "Common Expression - 商業溝通 Professional Message - #21 · Will do",
+    "detail": "商業溝通 Professional Message · 我會辦妥",
+    "url": "common-expression-professional-message.html?lesson=common-expression-21"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-22",
+    "type": "common-expression",
+    "ordinal": 22,
+    "label": "Common Expression - 商業溝通 Professional Message - #22 · Looks good to me",
+    "detail": "商業溝通 Professional Message · 我看沒有問題",
+    "url": "common-expression-professional-message.html?lesson=common-expression-22"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-23",
+    "type": "common-expression",
+    "ordinal": 23,
+    "label": "Common Expression - 商業溝通 Professional Message - #23 · Works perfectly",
+    "detail": "商業溝通 Professional Message · 完全可行",
+    "url": "common-expression-professional-message.html?lesson=common-expression-23"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-24",
+    "type": "common-expression",
+    "ordinal": 24,
+    "label": "Common Expression - 商業溝通 Professional Message - #24 · That'll work",
+    "detail": "商業溝通 Professional Message · 這樣可行",
+    "url": "common-expression-professional-message.html?lesson=common-expression-24"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-25",
+    "type": "common-expression",
+    "ordinal": 25,
+    "label": "Common Expression - 商業溝通 Professional Message - #25 · That's doable",
+    "detail": "商業溝通 Professional Message · 這做得到",
+    "url": "common-expression-professional-message.html?lesson=common-expression-25"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-26",
+    "type": "common-expression",
+    "ordinal": 26,
+    "label": "Common Expression - 商業溝通 Professional Message - #26 · That can be arranged",
+    "detail": "商業溝通 Professional Message · 這可以安排",
+    "url": "common-expression-professional-message.html?lesson=common-expression-26"
+  },
+  {
+    "id": "common-expression:professional-message:common-expression-27",
+    "type": "common-expression",
+    "ordinal": 27,
+    "label": "Common Expression - 商業溝通 Professional Message - #27 · We can make that work",
+    "detail": "商業溝通 Professional Message · 我們可以配合",
+    "url": "common-expression-professional-message.html?lesson=common-expression-27"
   },
   {
     "id": "common-expression:written:common-expression-01",
@@ -359,6 +975,158 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Common Expression - 專業寫作 Written - #11 · On the other hand, ...",
     "detail": "專業寫作 Written · 另一方面……",
     "url": "common-expression-written.html?lesson=common-expression-11"
+  },
+  {
+    "id": "common-expression:written:common-expression-12",
+    "type": "common-expression",
+    "ordinal": 12,
+    "label": "Common Expression - 專業寫作 Written - #12 · This may be due to...",
+    "detail": "專業寫作 Written · 這可能是由於……",
+    "url": "common-expression-written.html?lesson=common-expression-12"
+  },
+  {
+    "id": "common-expression:written:common-expression-13",
+    "type": "common-expression",
+    "ordinal": 13,
+    "label": "Common Expression - 專業寫作 Written - #13 · This can be attributed to...",
+    "detail": "專業寫作 Written · 這可歸因於……",
+    "url": "common-expression-written.html?lesson=common-expression-13"
+  },
+  {
+    "id": "common-expression:written:common-expression-14",
+    "type": "common-expression",
+    "ordinal": 14,
+    "label": "Common Expression - 專業寫作 Written - #14 · One possible explanation is that...",
+    "detail": "專業寫作 Written · 一個可能的解釋是……",
+    "url": "common-expression-written.html?lesson=common-expression-14"
+  },
+  {
+    "id": "common-expression:written:common-expression-15",
+    "type": "common-expression",
+    "ordinal": 15,
+    "label": "Common Expression - 專業寫作 Written - #15 · Another factor to consider is...",
+    "detail": "專業寫作 Written · 另一個需要考慮的因素是……",
+    "url": "common-expression-written.html?lesson=common-expression-15"
+  },
+  {
+    "id": "common-expression:written:common-expression-16",
+    "type": "common-expression",
+    "ordinal": 16,
+    "label": "Common Expression - 專業寫作 Written - #16 · One possible solution is to...",
+    "detail": "專業寫作 Written · 一個可行的解決方法是……",
+    "url": "common-expression-written.html?lesson=common-expression-16"
+  },
+  {
+    "id": "common-expression:written:common-expression-17",
+    "type": "common-expression",
+    "ordinal": 17,
+    "label": "Common Expression - 專業寫作 Written - #17 · One way to address this issue is to...",
+    "detail": "專業寫作 Written · 處理這個問題的一個方法是……",
+    "url": "common-expression-written.html?lesson=common-expression-17"
+  },
+  {
+    "id": "common-expression:written:common-expression-18",
+    "type": "common-expression",
+    "ordinal": 18,
+    "label": "Common Expression - 專業寫作 Written - #18 · Steps should be taken to...",
+    "detail": "專業寫作 Written · 應採取措施……",
+    "url": "common-expression-written.html?lesson=common-expression-18"
+  },
+  {
+    "id": "common-expression:written:common-expression-19",
+    "type": "common-expression",
+    "ordinal": 19,
+    "label": "Common Expression - 專業寫作 Written - #19 · More should be done to...",
+    "detail": "專業寫作 Written · 應採取更多行動……",
+    "url": "common-expression-written.html?lesson=common-expression-19"
+  },
+  {
+    "id": "common-expression:written:common-expression-20",
+    "type": "common-expression",
+    "ordinal": 20,
+    "label": "Common Expression - 專業寫作 Written - #20 · It may be necessary to...",
+    "detail": "專業寫作 Written · 可能有必要……",
+    "url": "common-expression-written.html?lesson=common-expression-20"
+  },
+  {
+    "id": "common-expression:written:common-expression-21",
+    "type": "common-expression",
+    "ordinal": 21,
+    "label": "Common Expression - 專業寫作 Written - #21 · It would be beneficial to...",
+    "detail": "專業寫作 Written · ……將會帶來益處",
+    "url": "common-expression-written.html?lesson=common-expression-21"
+  },
+  {
+    "id": "common-expression:written:common-expression-22",
+    "type": "common-expression",
+    "ordinal": 22,
+    "label": "Common Expression - 專業寫作 Written - #22 · Consideration should be given to...",
+    "detail": "專業寫作 Written · 應考慮……",
+    "url": "common-expression-written.html?lesson=common-expression-22"
+  },
+  {
+    "id": "common-expression:written:common-expression-23",
+    "type": "common-expression",
+    "ordinal": 23,
+    "label": "Common Expression - 專業寫作 Written - #23 · Priority should be given to...",
+    "detail": "專業寫作 Written · 應優先……",
+    "url": "common-expression-written.html?lesson=common-expression-23"
+  },
+  {
+    "id": "common-expression:written:common-expression-24",
+    "type": "common-expression",
+    "ordinal": 24,
+    "label": "Common Expression - 專業寫作 Written - #24 · Particular attention should be paid to...",
+    "detail": "專業寫作 Written · 應特別注意……",
+    "url": "common-expression-written.html?lesson=common-expression-24"
+  },
+  {
+    "id": "common-expression:written:common-expression-25",
+    "type": "common-expression",
+    "ordinal": 25,
+    "label": "Common Expression - 專業寫作 Written - #25 · The aim is to...",
+    "detail": "專業寫作 Written · 目的是……",
+    "url": "common-expression-written.html?lesson=common-expression-25"
+  },
+  {
+    "id": "common-expression:written:common-expression-26",
+    "type": "common-expression",
+    "ordinal": 26,
+    "label": "Common Expression - 專業寫作 Written - #26 · This could encourage...",
+    "detail": "專業寫作 Written · 這可以鼓勵……",
+    "url": "common-expression-written.html?lesson=common-expression-26"
+  },
+  {
+    "id": "common-expression:written:common-expression-27",
+    "type": "common-expression",
+    "ordinal": 27,
+    "label": "Common Expression - 專業寫作 Written - #27 · This would allow...",
+    "detail": "專業寫作 Written · 這將容許……",
+    "url": "common-expression-written.html?lesson=common-expression-27"
+  },
+  {
+    "id": "common-expression:written:common-expression-28",
+    "type": "common-expression",
+    "ordinal": 28,
+    "label": "Common Expression - 專業寫作 Written - #28 · This would help to...",
+    "detail": "專業寫作 Written · 這將有助於……",
+    "url": "common-expression-written.html?lesson=common-expression-28"
+  },
+  {
+    "id": "common-expression:written:common-expression-29",
+    "type": "common-expression",
+    "ordinal": 29,
+    "label": "Common Expression - 專業寫作 Written - #29 · It is clear that...",
+    "detail": "專業寫作 Written · 顯然……",
+    "url": "common-expression-written.html?lesson=common-expression-29"
+  },
+  {
+    "id": "common-expression:written:common-expression-30",
+    "type": "common-expression",
+    "ordinal": 30,
+    "label": "Common Expression - 專業寫作 Written - #30 · It appears that...",
+    "detail": "專業寫作 Written · 看來……",
+    "url": "common-expression-written.html?lesson=common-expression-30"
   },
   {
     "id": "common-expression:speaking:common-expression-01",
@@ -463,6 +1231,150 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Common Expression - 會話 Speaking - #13 · Keep in touch",
     "detail": "會話 Speaking · 保持聯絡",
     "url": "common-expression-speaking.html?lesson=common-expression-13"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-14",
+    "type": "common-expression",
+    "ordinal": 14,
+    "label": "Common Expression - 會話 Speaking - #14 · Give me a second",
+    "detail": "會話 Speaking · 等我一下",
+    "url": "common-expression-speaking.html?lesson=common-expression-14"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-15",
+    "type": "common-expression",
+    "ordinal": 15,
+    "label": "Common Expression - 會話 Speaking - #15 · Not necessarily",
+    "detail": "會話 Speaking · 不一定",
+    "url": "common-expression-speaking.html?lesson=common-expression-15"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-16",
+    "type": "common-expression",
+    "ordinal": 16,
+    "label": "Common Expression - 會話 Speaking - #16 · Fair enough",
+    "detail": "會話 Speaking · 有道理／可以接受",
+    "url": "common-expression-speaking.html?lesson=common-expression-16"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-17",
+    "type": "common-expression",
+    "ordinal": 17,
+    "label": "Common Expression - 會話 Speaking - #17 · I see what you mean",
+    "detail": "會話 Speaking · 我明白你的意思",
+    "url": "common-expression-speaking.html?lesson=common-expression-17"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-18",
+    "type": "common-expression",
+    "ordinal": 18,
+    "label": "Common Expression - 會話 Speaking - #18 · I'm not so sure about that",
+    "detail": "會話 Speaking · 我不太確定是否同意",
+    "url": "common-expression-speaking.html?lesson=common-expression-18"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-19",
+    "type": "common-expression",
+    "ordinal": 19,
+    "label": "Common Expression - 會話 Speaking - #19 · Whenever you're ready",
+    "detail": "會話 Speaking · 您準備好就可以",
+    "url": "common-expression-speaking.html?lesson=common-expression-19"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-20",
+    "type": "common-expression",
+    "ordinal": 20,
+    "label": "Common Expression - 會話 Speaking - #20 · I'm glad it worked out",
+    "detail": "會話 Speaking · 很高興事情順利解決",
+    "url": "common-expression-speaking.html?lesson=common-expression-20"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-21",
+    "type": "common-expression",
+    "ordinal": 21,
+    "label": "Common Expression - 會話 Speaking - #21 · That means a lot (to me)",
+    "detail": "會話 Speaking · 這對我意義重大",
+    "url": "common-expression-speaking.html?lesson=common-expression-21"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-22",
+    "type": "common-expression",
+    "ordinal": 22,
+    "label": "Common Expression - 會話 Speaking - #22 · I'm glad you brought that up",
+    "detail": "會話 Speaking · 很高興您提出這一點",
+    "url": "common-expression-speaking.html?lesson=common-expression-22"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-23",
+    "type": "common-expression",
+    "ordinal": 23,
+    "label": "Common Expression - 會話 Speaking - #23 · Thanks for letting me know",
+    "detail": "會話 Speaking · 謝謝您告訴我",
+    "url": "common-expression-speaking.html?lesson=common-expression-23"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-24",
+    "type": "common-expression",
+    "ordinal": 24,
+    "label": "Common Expression - 會話 Speaking - #24 · Just a heads-up, ...",
+    "detail": "會話 Speaking · 先提醒您一下……",
+    "url": "common-expression-speaking.html?lesson=common-expression-24"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-25",
+    "type": "common-expression",
+    "ordinal": 25,
+    "label": "Common Expression - 會話 Speaking - #25 · I'm having second thoughts",
+    "detail": "會話 Speaking · 我開始重新考慮",
+    "url": "common-expression-speaking.html?lesson=common-expression-25"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-26",
+    "type": "common-expression",
+    "ordinal": 26,
+    "label": "Common Expression - 會話 Speaking - #26 · Help yourself",
+    "detail": "會話 Speaking · 請自便",
+    "url": "common-expression-speaking.html?lesson=common-expression-26"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-27",
+    "type": "common-expression",
+    "ordinal": 27,
+    "label": "Common Expression - 會話 Speaking - #27 · After you",
+    "detail": "會話 Speaking · 您先請",
+    "url": "common-expression-speaking.html?lesson=common-expression-27"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-28",
+    "type": "common-expression",
+    "ordinal": 28,
+    "label": "Common Expression - 會話 Speaking - #28 · Speaking of which, ...",
+    "detail": "會話 Speaking · 說到這件事……",
+    "url": "common-expression-speaking.html?lesson=common-expression-28"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-29",
+    "type": "common-expression",
+    "ordinal": 29,
+    "label": "Common Expression - 會話 Speaking - #29 · Sorry, I didn't catch that",
+    "detail": "會話 Speaking · 抱歉，我沒有聽清楚",
+    "url": "common-expression-speaking.html?lesson=common-expression-29"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-30",
+    "type": "common-expression",
+    "ordinal": 30,
+    "label": "Common Expression - 會話 Speaking - #30 · I'm a big fan of...",
+    "detail": "會話 Speaking · 我很喜歡……",
+    "url": "common-expression-speaking.html?lesson=common-expression-30"
+  },
+  {
+    "id": "common-expression:speaking:common-expression-31",
+    "type": "common-expression",
+    "ordinal": 31,
+    "label": "Common Expression - 會話 Speaking - #31 · I'm really into...",
+    "detail": "會話 Speaking · 我非常喜歡／投入於……",
+    "url": "common-expression-speaking.html?lesson=common-expression-31"
   },
   {
     "id": "fill:dse-writing-2025-part-a",

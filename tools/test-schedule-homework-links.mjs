@@ -40,7 +40,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3513, "the Homework/Schedule catalogue should include every current learning resource, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3627, "the Homework/Schedule catalogue should include every current learning resource, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -55,7 +55,7 @@ assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lesso
 assert.equal((byType["writing-submission"] || []).length, 1, "Writing Submission should be available as a homework type");
 assert.equal((byType["reading-analysis"] || []).length, 157, "all unique available IELTS Reading analyses should be indexed once");
 assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing Part A model-answer downloads should be indexed");
-assert.equal((byType["common-expression"] || []).length, 58, "all six Common Expression catalogues should be indexed");
+assert.equal((byType["common-expression"] || []).length, 172, "all six Common Expression catalogues should be indexed");
 assert.equal((byType.listening || []).length, 80, "all 20 IELTS Listening practices and four parts should be indexed");
 assert.equal((byType["learning-portal"] || []).length, 18, "all new learning portals should be available for Homework/Schedule linking");
 assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2"));
@@ -71,6 +71,12 @@ assert.ok(ids.has("reading-analysis:if-you-can-get-used-to-the-taste"));
 assert.ok(ids.has("reading-analysis:p1-082-graffiti"));
 assert.ok(ids.has("common-expression:speaking:common-expression-01"));
 assert.ok(ids.has("common-expression:written:common-expression-11"));
+assert.ok(ids.has("common-expression:speaking:common-expression-31"), "latest Speaking lesson should be linkable from Homework");
+assert.ok(ids.has("common-expression:written:common-expression-30"), "latest Written lesson should be linkable from Homework");
+assert.ok(ids.has("common-expression:rhetorical-speaking:common-expression-29"), "latest Rhetorical Speaking lesson should be linkable from Homework");
+assert.ok(ids.has("common-expression:rhetorical-writing:common-expression-29"), "latest Rhetorical Writing lesson should be linkable from Homework");
+assert.ok(ids.has("common-expression:professional-message:common-expression-27"), "latest Professional Message lesson should be linkable from Homework");
+assert.ok(ids.has("common-expression:business-speaking:common-expression-26"), "latest Business Speaking lesson should be linkable from Homework");
 assert.ok(ids.has("listening:ielts-listening-practice-20-part-4"));
 assert.ok(ids.has("learning-portal:quotes"));
 assert.ok(ids.has("learning-portal:english-joke-collection"));

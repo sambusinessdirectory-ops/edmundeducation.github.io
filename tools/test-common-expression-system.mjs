@@ -55,12 +55,12 @@ const portals = [
 ];
 
 const expectedCatalogueStats = {
-  speaking: { lessons: 13, questions: 370 },
-  written: { lessons: 11, questions: 330 },
-  "rhetorical-speaking": { lessons: 10, questions: 300 },
-  "rhetorical-writing": { lessons: 8, questions: 240 },
-  "professional-message": { lessons: 8, questions: 240 },
-  "business-speaking": { lessons: 8, questions: 240 }
+  speaking: { lessons: 31, questions: 910 },
+  written: { lessons: 30, questions: 900 },
+  "rhetorical-speaking": { lessons: 29, questions: 870 },
+  "rhetorical-writing": { lessons: 29, questions: 870 },
+  "professional-message": { lessons: 27, questions: 810 },
+  "business-speaking": { lessons: 26, questions: 780 }
 };
 
 const baseLessonKeys = new Set([
@@ -183,8 +183,8 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /src=["']\/pwa-register\.js["']/,
       /common-expression-system\.css\?v=20260810-1/,
       /common-expression-system-config\.js\?v=20260809-1/,
-      /common-expression-system-data\.js\?v=20260809-2/,
-      /common-expression-system-imported-data\.js\?v=20260809-2/,
+      /common-expression-system-data\.js\?v=20260811-1/,
+      /common-expression-system-imported-data\.js\?v=20260811-1/,
       /common-expression-system\.js\?v=20260810-2/,
       /shared-system-nav\.css\?v=20260810-3/,
       /shared-system-nav\.js\?v=20260810-5/
@@ -201,18 +201,18 @@ test("all six Common Expression portals carry their identity, shared navigation 
     assert.match(html, /integrity=["']sha384-[^"']+["']/, `${portal.file}: CDN dependency needs SRI`);
     assert.match(html, /crossorigin=["']anonymous["']/, `${portal.file}: SRI request mode`);
 
-    const baseDataIndex = html.indexOf("common-expression-system-data.js?v=20260809-2");
-    const importedDataIndex = html.indexOf("common-expression-system-imported-data.js?v=20260809-2");
+    const baseDataIndex = html.indexOf("common-expression-system-data.js?v=20260811-1");
+    const importedDataIndex = html.indexOf("common-expression-system-imported-data.js?v=20260811-1");
     const engineIndex = html.indexOf("common-expression-system.js?v=20260810-2");
     assert.ok(baseDataIndex < importedDataIndex, `${portal.file}: base catalogue must load before imported lessons`);
     assert.ok(importedDataIndex < engineIndex, `${portal.file}: imported lessons must load before the module engine`);
   }
 });
 
-test("the shared catalogue exposes the complete 58-lesson, 1,720-question library", () => {
+test("the shared catalogue exposes the complete 172-lesson, 5,140-question library", () => {
   const catalogue = loadCatalogue();
   assert.ok(catalogue);
-  assert.equal(String(catalogue.version), "2026-08-09.2");
+  assert.equal(String(catalogue.version), "2026-08-11.1");
   assert.deepEqual(Object.keys(catalogue.systems), portals.map(({ key }) => key));
 
   let lessonTotal = 0;
@@ -234,15 +234,15 @@ test("the shared catalogue exposes the complete 58-lesson, 1,720-question librar
     questionTotal += systemQuestionTotal;
   }
 
-  assert.equal(lessonTotal, 58);
-  assert.equal(questionTotal, 1720);
+  assert.equal(lessonTotal, 172);
+  assert.equal(questionTotal, 5140);
 });
 
-test("all 56 manifest PDFs are represented exactly once and no unrequested lesson was imported", () => {
+test("all 170 manifest PDFs are represented exactly once and no unrequested lesson was imported", () => {
   const manifest = loadManifest();
   const catalogue = loadCatalogue();
-  assert.equal(manifest.length, 56);
-  assert.equal(new Set(manifest.map(({ file }) => file)).size, 56, "manifest source filenames must be unique");
+  assert.equal(manifest.length, 170);
+  assert.equal(new Set(manifest.map(({ file }) => file)).size, 170, "manifest source filenames must be unique");
 
   const allLessons = [];
   for (const portal of portals) {
@@ -267,8 +267,8 @@ test("all 56 manifest PDFs are represented exactly once and no unrequested lesso
   }
 
   const importedLessons = allLessons.filter(({ systemKey, lesson }) => !baseLessonKeys.has(lessonKey(systemKey, lesson.id)));
-  assert.equal(importedLessons.length, 56);
-  assert.equal(new Set(importedLessons.map(({ lesson }) => lesson.source.file)).size, 56);
+  assert.equal(importedLessons.length, 170);
+  assert.equal(new Set(importedLessons.map(({ lesson }) => lesson.source.file)).size, 170);
   assert.deepEqual(
     importedLessons.map(({ lesson }) => lesson.source.file).sort(),
     manifest.map(({ file }) => file).sort(),
@@ -489,7 +489,7 @@ test("RFC3339 timestamps accept Supabase +00:00 offsets and are normalized befor
   assert.ok((stateNormalizer.match(/normalizeTimestamp\(/g) || []).length >= 3, "lesson, completion and per-answer timestamps must all be normalized");
 });
 
-test("the authoritative database catalogue has exact lesson and question-count parity with all 58 lessons", () => {
+test("the authoritative database catalogue has exact lesson and question-count parity with all 172 lessons", () => {
   const sql = read("supabase-common-expression-system.sql");
   const lower = sql.toLowerCase();
   const catalogue = loadCatalogue();
@@ -526,8 +526,8 @@ test("the authoritative database catalogue has exact lesson and question-count p
     actual.set(key, row.questionCount);
   }
 
-  assert.equal(expected.size, 58);
-  assert.equal(actual.size, 58);
+  assert.equal(expected.size, 172);
+  assert.equal(actual.size, 172);
   assert.deepEqual([...actual.keys()].sort(), [...expected.keys()].sort(), "SQL and browser catalogue lesson keys must match exactly");
   for (const [key, questionCount] of expected) {
     assert.equal(actual.get(key), questionCount, `${key}: SQL question_count matches the lesson data`);

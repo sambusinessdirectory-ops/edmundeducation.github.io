@@ -296,7 +296,7 @@
   systems.speaking.lessons = [seeYouAround, thatsGoodToHear];
 
   window.EDMUND_COMMON_EXPRESSION_DATA = Object.freeze({
-    version: "2026-08-09.2",
+    version: "2026-08-11.1",
     systems: Object.freeze(systems)
   });
 })();
