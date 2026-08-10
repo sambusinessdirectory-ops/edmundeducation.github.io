@@ -40,6 +40,26 @@ function sqlFunctionBlock(name) {
   return block;
 }
 
+function sqlTableBlock(name) {
+  const expression = new RegExp(
+    `create\\s+table\\s+if\\s+not\\s+exists\\s+public\\.${escapeRegExp(name)}\\s*\\([\\s\\S]*?\\n\\);`,
+    "i"
+  );
+  const block = sql.match(expression)?.[0] || "";
+  assert.ok(block, `missing SQL table ${name}`);
+  return block;
+}
+
+async function withMockedFetch(mock, run) {
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = mock;
+  try {
+    return await run();
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+}
+
 function assertWorkerRoute(pathSource, methodSource) {
   assert.ok(
     workerSource.includes(`url.pathname === "${pathSource}"`) && workerSource.includes(`request.method === "${methodSource}"`),
@@ -147,6 +167,11 @@ test("video keys are manually controlled after a one-time current-student backfi
     /enabled\s*=\s*public\.video_class_student_access\.enabled/i
   );
   assert.match(
+    sqlFunctionBlock("video_class_admin_issue_key"),
+    /on\s+conflict\s+on\s+constraint\s+video_class_student_access_pkey\s+do\s+update/i,
+    "RETURNS TABLE output names must not make the key upsert conflict target ambiguous"
+  );
+  assert.match(
     sql,
     /insert\s+into\s+public\.video_class_student_access\s*\(student_id,\s*video_key,\s*enabled\)\s*select\s+student\.id,\s*public\._video_class_next_key\(\),\s*true\s*from\s+public\.flashcard_students\s+student\s*where\s+student\.deleted_at\s+is\s+null\s*on\s+conflict\s*\(student_id\)\s+do\s+nothing;/i,
     "active students at rollout must receive an idempotent initial key"
@@ -161,11 +186,333 @@ test("video keys are manually controlled after a one-time current-student backfi
   assert.match(portalHtml, /新學生不會自動獲發 Video Class Key/);
 });
 
+test("the canonical eight-course catalogue and DSE pilot mapping stay stable", () => {
+  const expectedCourses = [
+    ["dse", "DSE 中學文憑試", 10],
+    ["ielts", "IELTS 國際英文課程", 20],
+    ["toefl", "TOEFL 託福", 30],
+    ["toeic", "TOEIC 多益", 40],
+    ["pte", "Pearson Test of English (PTE)", 50],
+    ["igcse", "IGCSE", 60],
+    ["sat", "SAT", 70],
+    ["ib", "IB 課程", 80]
+  ];
+
+  const courseTable = sqlTableBlock("video_class_courses");
+  assert.match(courseTable, /code\s+text\s+primary\s+key/i);
+  assert.match(courseTable, /title\s+text\s+not\s+null/i);
+  assert.match(courseTable, /sort_order\s+integer\s+not\s+null/i);
+  assert.match(courseTable, /published\s+boolean\s+not\s+null/i);
+
+  const courseSeed = sql.match(
+    /insert\s+into\s+public\.video_class_courses\s*\(code,\s*title,\s*sort_order,\s*published\)\s*values([\s\S]*?)on\s+conflict\s*\(code\)/i
+  )?.[1] || "";
+  const seededCourses = Array.from(
+    courseSeed.matchAll(/\(\s*'([^']+)',\s*'([^']+)',\s*(\d+),\s*true\s*\)/g),
+    match => [match[1], match[2], Number(match[3])]
+  );
+  assert.deepEqual(seededCourses, expectedCourses, "database catalogue order/title/code is an API contract");
+
+  const browserCatalogue = portalJs.match(/const\s+COURSE_CATALOG\s*=\s*Object\.freeze\(\[([\s\S]*?)\]\);/)?.[1] || "";
+  const browserCourses = Array.from(
+    browserCatalogue.matchAll(/\{\s*id:\s*"([^"]+)",\s*slug:\s*"[^"]+",\s*title:\s*"([^"]+)"/g),
+    match => [match[1], match[2]]
+  );
+  assert.deepEqual(browserCourses, expectedCourses.map(([code, title]) => [code, title]));
+
+  const lessonTable = sqlTableBlock("video_class_lessons");
+  assert.match(lessonTable, /course_code\s+text\s+not\s+null\s+references\s+public\.video_class_courses\(code\)/i);
+  const pilot = sql.match(
+    /insert\s+into\s+public\.video_class_lessons\s*\([\s\S]*?\)\s*values\s*\([\s\S]*?'bourree'[\s\S]*?\)\s*on\s+conflict\s*\(slug\)\s+do\s+nothing;/i
+  )?.[0] || "";
+  assert.match(pilot, /slug,\s*title,\s*description,\s*course_code,\s*course_label,\s*object_key/i);
+  assert.match(pilot, /'bourree',[\s\S]*?'dse',[\s\S]*?'lessons\/bourree\.mp4'/i);
+
+  assert.match(
+    sql,
+    /values\s*\('dse-current-keyed-students'\)\s*on\s+conflict\s*\(rollout_key\)\s+do\s+nothing;[\s\S]*?if\s+found\s+then[\s\S]*?insert\s+into\s+public\.video_class_student_courses\s*\(\s*student_id,\s*course_code,\s*enabled\s*\)[\s\S]*?select\s+access\.student_id,\s*'dse',\s*true\s+from\s+public\.video_class_student_access\s+access[\s\S]*?on\s+conflict\s*\(student_id,\s*course_code\)\s+do\s+nothing;/i,
+    "current key holders must receive DSE exactly once"
+  );
+  assert.doesNotMatch(
+    sqlFunctionBlock("video_class_admin_issue_key"),
+    /video_class_student_courses/i,
+    "issuing a future key must not silently assign a course"
+  );
+  assert.doesNotMatch(
+    sql,
+    /create\s+trigger[\s\S]{0,250}?after\s+insert[\s\S]{0,250}?on\s+public\.(?:flashcard_students|video_class_student_access)/i,
+    "future students and keys need explicit administrator course assignment"
+  );
+});
+
+test("course entitlements are per student and required for listing, playback, and progress", () => {
+  const entitlementTable = sqlTableBlock("video_class_student_courses");
+  assert.match(entitlementTable, /student_id\s+uuid\s+not\s+null\s+references\s+public\.flashcard_students\(id\)/i);
+  assert.match(entitlementTable, /course_code\s+text\s+not\s+null\s+references\s+public\.video_class_courses\(code\)/i);
+  assert.match(entitlementTable, /primary\s+key\s*\(student_id,\s*course_code\)/i);
+
+  const roster = sqlFunctionBlock("video_class_admin_list_students");
+  assert.match(roster, /array_agg\(student_course\.course_code\s+order\s+by\s+course\.sort_order/i);
+  assert.match(roster, /where\s+student_course\.student_id\s*=\s*student\.id\s+and\s+student_course\.enabled\s*=\s*true/i);
+
+  const adminCourseUpdate = sqlFunctionBlock("video_class_admin_set_course_access");
+  assert.match(adminCourseUpdate, /on\s+conflict\s+on\s+constraint\s+video_class_student_courses_pkey\s+do\s+update/i);
+  assert.match(adminCourseUpdate, /where\s+access\.student_id\s*=\s*p_student_id\s+and\s+access\.course_code\s*=\s*p_course_code/i);
+  assert.doesNotMatch(
+    sqlFunctionBlock("video_class_admin_clear_key"),
+    /video_class_student_courses/i,
+    "course assignments are deliberately independent from the global video key"
+  );
+
+  const listCourses = sqlFunctionBlock("video_class_student_list_courses");
+  assert.match(listCourses, /where\s+access\.student_id\s*=\s*v_student_id\s+and\s+access\.enabled\s*=\s*true/i);
+  assert.match(listCourses, /course\.published\s*=\s*true/i);
+
+  const listLessons = sqlFunctionBlock("video_class_student_list_lessons");
+  assert.match(listLessons, /join\s+public\.video_class_student_courses\s+access/i);
+  assert.match(listLessons, /access\.student_id\s*=\s*v_student_id/i);
+  assert.match(listLessons, /access\.course_code\s*=\s*lesson\.course_code/i);
+  assert.match(listLessons, /access\.enabled\s*=\s*true/i);
+  assert.match(
+    workerSource,
+    /async\s+function\s+listLessons[\s\S]*?Promise\.all\(\[[\s\S]*?video_class_student_list_courses[\s\S]*?video_class_student_list_lessons[\s\S]*?courses:\s*courseRows\.map\(mapCourse\)[\s\S]*?lessons:\s*lessonRows\.map\(mapLesson\)/,
+    "the lesson response must preserve entitled courses that currently contain zero lessons"
+  );
+  assert.match(portalJs, /const\s+returnedCourses\s*=\s*Array\.isArray\(value\?\.courses\)/);
+
+  for (const name of ["video_class_create_playback", "video_class_authorize_playback", "video_class_record_progress"]) {
+    const block = sqlFunctionBlock(name);
+    assert.match(block, /join\s+public\.video_class_student_courses\s+course_access/i, `${name}: course entitlement join`);
+    assert.match(block, /course_access\.student_id\s*=/i, `${name}: student ownership`);
+    assert.match(block, /course_access\.course_code\s*=\s*lesson\.course_code/i, `${name}: lesson/course mapping`);
+    assert.match(block, /course_access\.enabled\s*=\s*true/i, `${name}: live enablement`);
+  }
+  assert.match(
+    sqlFunctionBlock("video_class_record_progress"),
+    /on\s+conflict\s+on\s+constraint\s+video_class_progress_pkey\s+do\s+update/i
+  );
+
+  const courseRevocation = sqlFunctionBlock("video_class_revoke_playbacks_on_course_change");
+  assert.match(courseRevocation, /update\s+public\.video_class_playback_sessions\s+playback\s+set\s+revoked_at/i);
+  assert.match(courseRevocation, /playback\.student_id\s*=\s*v_student_id/i);
+  assert.match(courseRevocation, /lesson\.course_code\s*=\s*v_course_code/i);
+  assert.match(
+    sql,
+    /create\s+trigger\s+video_class_course_access_revoke_playbacks\s+after\s+update\s+of\s+student_id,\s*course_code,\s*enabled\s+or\s+delete\s+on\s+public\.video_class_student_courses/i
+  );
+});
+
+test("bookmarks and notes are isolated by student, entitlement checked, and safely bounded", () => {
+  const bookmarkTable = sqlTableBlock("video_class_bookmarks");
+  const noteTable = sqlTableBlock("video_class_notes");
+  for (const table of [bookmarkTable, noteTable]) {
+    assert.match(table, /student_id\s+uuid\s+not\s+null\s+references\s+public\.flashcard_students\(id\)/i);
+    assert.match(table, /lesson_id\s+uuid\s+not\s+null\s+references\s+public\.video_class_lessons\(id\)/i);
+    assert.match(table, /primary\s+key\s*\(student_id,\s*lesson_id\)/i);
+  }
+  assert.match(noteTable, /note\s+text\s+not\s+null\s+check\s*\(length\(note\)\s+between\s+1\s+and\s+5000\)/i);
+
+  const bookmark = sqlFunctionBlock("video_class_student_toggle_bookmark");
+  assert.doesNotMatch(bookmark, /p_student_id\s+uuid/i, "the browser cannot select another student");
+  assert.match(bookmark, /v_student_id\s*:=\s*public\._video_class_student_id\(p_student_token\)/i);
+  assert.match(bookmark, /join\s+public\.video_class_student_courses\s+access[\s\S]*?access\.student_id\s*=\s*v_student_id[\s\S]*?access\.enabled\s*=\s*true/i);
+  assert.match(bookmark, /insert\s+into\s+public\.video_class_bookmarks\s*\(student_id,\s*lesson_id\)\s*values\s*\(v_student_id,\s*p_lesson_id\)/i);
+  assert.match(bookmark, /on\s+conflict\s+on\s+constraint\s+video_class_bookmarks_pkey\s+do\s+nothing/i);
+  assert.match(bookmark, /delete\s+from\s+public\.video_class_bookmarks\s+bookmark\s+where\s+bookmark\.student_id\s*=\s*v_student_id\s+and\s+bookmark\.lesson_id\s*=\s*p_lesson_id/i);
+
+  const note = sqlFunctionBlock("video_class_student_save_note");
+  assert.doesNotMatch(note, /p_student_id\s+uuid/i, "the browser cannot select another student's note row");
+  assert.match(note, /v_student_id\s*:=\s*public\._video_class_student_id\(p_student_token\)/i);
+  assert.match(note, /length\(p_note\)\s*>\s*5000/i);
+  assert.match(note, /join\s+public\.video_class_student_courses\s+access[\s\S]*?access\.student_id\s*=\s*v_student_id[\s\S]*?access\.enabled\s*=\s*true/i);
+  assert.match(note, /delete\s+from\s+public\.video_class_notes\s+saved_note\s+where\s+saved_note\.student_id\s*=\s*v_student_id\s+and\s+saved_note\.lesson_id\s*=\s*p_lesson_id/i);
+  assert.match(note, /on\s+conflict\s+on\s+constraint\s+video_class_notes_pkey\s+do\s+update/i);
+
+  const listLessons = sqlFunctionBlock("video_class_student_list_lessons");
+  assert.match(listLessons, /left\s+join\s+public\.video_class_bookmarks\s+bookmark\s+on\s+bookmark\.lesson_id\s*=\s*lesson\.id\s+and\s+bookmark\.student_id\s*=\s*v_student_id/i);
+  assert.match(listLessons, /left\s+join\s+public\.video_class_notes\s+note\s+on\s+note\.lesson_id\s*=\s*lesson\.id\s+and\s+note\.student_id\s*=\s*v_student_id/i);
+
+  assert.match(portalHtml, /data-student-route="bookmarks"/);
+  assert.match(portalHtml, /data-student-route="notes"/);
+  assert.match(portalHtml, /<textarea[^>]*data-note-content[^>]*maxlength="5000"/i);
+  assert.match(portalJs, /body:\s*\{\s*bookmarked\s*\}/);
+  assert.match(portalJs, /body:\s*\{\s*note:\s*text\s*\}/);
+  assert.match(portalJs, /content\.textContent\s*=\s*lesson\.note/, "saved note text must not be injected as HTML");
+  assert.match(portalJs, /elements\.printNotes\?\.addEventListener\("click",\s*\(\)\s*=>\s*window\.print\(\)\)/);
+  assert.match(workerSource, /if\s*\(note\.length\s*>\s*5000\)\s*throw\s+new\s+HttpError\(400,\s*"Note is too long"\)/);
+});
+
+test("watermark preference is administered, granted, rendered, and revokes stale playback", () => {
+  const accessTable = sqlTableBlock("video_class_student_access");
+  assert.match(accessTable, /watermark_enabled\s+boolean\s+not\s+null\s+default\s+true/i);
+
+  const adminWatermark = sqlFunctionBlock("video_class_admin_set_watermark");
+  assert.match(adminWatermark, /set\s+watermark_enabled\s*=\s*p_enabled/i);
+  assert.match(adminWatermark, /where\s+access\.student_id\s*=\s*p_student_id/i);
+  assert.match(adminWatermark, /case\s+when\s+p_enabled\s+then\s+'enable_watermark'\s+else\s+'disable_watermark'/i);
+
+  const revoke = sqlFunctionBlock("video_class_revoke_playbacks_on_access_change");
+  assert.match(revoke, /old\.watermark_enabled\s+is\s+distinct\s+from\s+new\.watermark_enabled/i);
+  assert.match(revoke, /set\s+revoked_at\s*=\s*coalesce\(playback\.revoked_at,\s*now\(\)\)/i);
+  assert.match(
+    sql,
+    /create\s+trigger\s+video_class_access_revoke_playbacks\s+after\s+update\s+of\s+video_key,\s*enabled,\s*watermark_enabled\s+or\s+delete/i
+  );
+
+  const grant = sqlFunctionBlock("video_class_create_playback");
+  assert.match(grant, /watermark_enabled\s+boolean/i);
+  assert.match(grant, /access\.watermark_enabled/i);
+  assert.match(grant, /v_watermark_enabled/);
+  assert.match(workerSource, /const\s+watermarkEnabled\s*=\s*row\.watermark_enabled\s*!==\s*false/);
+  assert.match(workerSource, /enabled:\s*watermarkEnabled/);
+  assert.match(workerSource, /videoKey:\s*watermarkEnabled\s*\?\s*String\(row\.video_key\s*\|\|\s*""\)\s*:\s*""/);
+  assert.match(workerSource, /sessionCode:\s*watermarkEnabled\s*\?\s*sessionCode\s*:\s*""/);
+
+  assert.match(portalHtml, /data-disable-watermarks/);
+  assert.match(portalJs, /watermarkEnabled:\s*!watermarksDisabled/);
+  assert.match(portalJs, /elements\.watermarkLayer\.hidden\s*=\s*!enabled/);
+  assert.match(portalJs, /if\s*\(!enabled\)\s*\{[\s\S]{0,260}?watermarkMain\.textContent\s*=\s*""/);
+  assert.match(portalJs, /\/watermark`,\s*\{\s*method:\s*"PATCH"[\s\S]{0,180}?body:\s*\{\s*enabled:\s*watermarkEnabled\s*\}/);
+});
+
+test("Worker learning/admin mutations use bearer-derived ownership without touching a real database", async () => {
+  const originalFetch = globalThis.fetch;
+  const studentToken = "11111111-1111-4111-8111-111111111111";
+  const adminToken = "22222222-2222-4222-8222-222222222222";
+  const lessonId = "33333333-3333-4333-8333-333333333333";
+  const studentId = "44444444-4444-4444-8444-444444444444";
+  const serviceSecret = "test-only-service-secret-".padEnd(48, "x");
+  const allowedOrigin = "https://edmundeducation.com";
+  const env = {
+    ALLOWED_ORIGIN: allowedOrigin,
+    SUPABASE_URL: "https://database.invalid",
+    SUPABASE_ANON_KEY: "test-publishable-key",
+    VIDEO_CLASS_SERVICE_SECRET: serviceSecret
+  };
+  const calls = [];
+
+  const responseRows = (name, body) => {
+    switch (name) {
+      case "video_class_student_me":
+        return [{ student_id: studentId, name: "Test Student", video_key: "EDU-TEST-ONLY-0001", expires_at: "2099-01-01T00:00:00Z" }];
+      case "video_class_admin_me":
+        return [{ admin_id: adminToken, name: "Test Admin", expires_at: "2099-01-01T00:00:00Z" }];
+      case "video_class_student_toggle_bookmark":
+        return [{ lesson_id: body.p_lesson_id, bookmarked: body.p_bookmarked, updated_at: "2099-01-01T00:00:00Z" }];
+      case "video_class_student_save_note":
+        return [{ lesson_id: body.p_lesson_id, note: body.p_note || null, updated_at: "2099-01-01T00:00:00Z" }];
+      case "video_class_admin_set_course_access":
+        return [{ student_id: body.p_student_id, course_code: body.p_course_code, enabled: body.p_enabled, updated_at: "2099-01-01T00:00:00Z" }];
+      case "video_class_admin_set_watermark":
+        return [{ student_id: body.p_student_id, watermark_enabled: body.p_enabled, updated_at: "2099-01-01T00:00:00Z" }];
+      default:
+        return { unexpectedRpc: name };
+    }
+  };
+
+  const mockedFetch = async (input, init = {}) => {
+    const url = new URL(typeof input === "string" ? input : input.url);
+    const name = decodeURIComponent(url.pathname.split("/").at(-1));
+    const body = JSON.parse(String(init.body || "{}"));
+    calls.push({ name, body, method: init.method, headers: init.headers });
+    return new Response(JSON.stringify(responseRows(name, body)), {
+      status: 200,
+      headers: { "Content-Type": "application/json" }
+    });
+  };
+
+  const makeRequest = (path, method, token, body) => new Request(`https://worker.invalid${path}`, {
+    method,
+    headers: {
+      Origin: allowedOrigin,
+      Authorization: `Bearer ${token}`,
+      ...(body === undefined ? {} : { "Content-Type": "application/json" })
+    },
+    body: body === undefined ? undefined : JSON.stringify(body)
+  });
+
+  await withMockedFetch(mockedFetch, async () => {
+    const bookmarkResponse = await worker.fetch(
+      makeRequest(`/v1/lessons/${lessonId}/bookmark`, "PATCH", studentToken, { bookmarked: true }),
+      env,
+      {}
+    );
+    assert.equal(bookmarkResponse.status, 200);
+    assert.equal((await bookmarkResponse.json()).bookmark.bookmarked, true);
+
+    const noteResponse = await worker.fetch(
+      makeRequest(`/v1/lessons/${lessonId}/note`, "PUT", studentToken, { note: "student-owned note" }),
+      env,
+      {}
+    );
+    assert.equal(noteResponse.status, 200);
+    assert.equal((await noteResponse.json()).note.text, "student-owned note");
+
+    const courseResponse = await worker.fetch(
+      makeRequest(`/v1/admin/students/${studentId}/courses/dse`, "PATCH", adminToken, { enabled: true }),
+      env,
+      {}
+    );
+    assert.equal(courseResponse.status, 200);
+    assert.equal((await courseResponse.json()).courseAccess.courseCode, "dse");
+
+    const watermarkResponse = await worker.fetch(
+      makeRequest(`/v1/admin/students/${studentId}/watermark`, "PATCH", adminToken, { enabled: false }),
+      env,
+      {}
+    );
+    assert.equal(watermarkResponse.status, 200);
+    assert.equal((await watermarkResponse.json()).watermarkEnabled, false);
+
+    const callsBeforeRejectedNote = calls.length;
+    const oversizedResponse = await worker.fetch(
+      makeRequest(`/v1/lessons/${lessonId}/note`, "PUT", studentToken, { note: "n".repeat(5001) }),
+      env,
+      {}
+    );
+    assert.equal(oversizedResponse.status, 400);
+    assert.equal(calls.length, callsBeforeRejectedNote, "an oversized note must be rejected before any Supabase RPC");
+  });
+
+  assert.equal(globalThis.fetch, originalFetch, "the fetch mock must always be cleaned up");
+  assert.ok(calls.length > 0);
+  assert.ok(calls.every(call => call.method === "POST"));
+  assert.ok(calls.every(call => call.body.p_service_secret === serviceSecret));
+  assert.ok(calls.every(call => call.headers.apikey === env.SUPABASE_ANON_KEY));
+  assert.ok(calls.every(call => !Object.hasOwn(call.body, "p_student_id") || call.name.startsWith("video_class_admin_")));
+
+  const bookmarkCall = calls.find(call => call.name === "video_class_student_toggle_bookmark");
+  assert.deepEqual(
+    { token: bookmarkCall?.body.p_student_token, lesson: bookmarkCall?.body.p_lesson_id, bookmarked: bookmarkCall?.body.p_bookmarked },
+    { token: studentToken, lesson: lessonId, bookmarked: true }
+  );
+  assert.equal(Object.hasOwn(bookmarkCall.body, "p_student_id"), false);
+
+  const noteCall = calls.find(call => call.name === "video_class_student_save_note");
+  assert.deepEqual(
+    { token: noteCall?.body.p_student_token, lesson: noteCall?.body.p_lesson_id, note: noteCall?.body.p_note },
+    { token: studentToken, lesson: lessonId, note: "student-owned note" }
+  );
+  assert.equal(Object.hasOwn(noteCall.body, "p_student_id"), false);
+
+  const courseCall = calls.find(call => call.name === "video_class_admin_set_course_access");
+  assert.deepEqual(
+    { admin: courseCall?.body.p_admin_token, student: courseCall?.body.p_student_id, course: courseCall?.body.p_course_code, enabled: courseCall?.body.p_enabled },
+    { admin: adminToken, student: studentId, course: "dse", enabled: true }
+  );
+
+  const watermarkCall = calls.find(call => call.name === "video_class_admin_set_watermark");
+  assert.deepEqual(
+    { admin: watermarkCall?.body.p_admin_token, student: watermarkCall?.body.p_student_id, enabled: watermarkCall?.body.p_enabled },
+    { admin: adminToken, student: studentId, enabled: false }
+  );
+});
+
 test("database access is RLS-protected, revoked, and Worker-secret gated", () => {
   const tables = new Set(
     Array.from(sql.matchAll(/create\s+table\s+if\s+not\s+exists\s+public\.(video_class_[a-z0-9_]+)/gi), match => match[1])
   );
-  assert.ok(tables.size >= 9, "expected the complete video-class data model");
+  assert.ok(tables.size >= 14, "expected the complete course, entitlement, learning-state, and playback data model");
   for (const table of tables) {
     const name = escapeRegExp(table);
     assert.match(sql, new RegExp(`alter\\s+table\\s+public\\.${name}\\s+enable\\s+row\\s+level\\s+security;`, "i"), `${table}: RLS`);
@@ -203,10 +550,16 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_admin_me",
     "video_class_admin_logout",
     "video_class_admin_list_students",
+    "video_class_admin_list_courses",
     "video_class_admin_issue_key",
     "video_class_admin_clear_key",
     "video_class_admin_set_enabled",
+    "video_class_admin_set_course_access",
+    "video_class_admin_set_watermark",
+    "video_class_student_list_courses",
     "video_class_student_list_lessons",
+    "video_class_student_toggle_bookmark",
+    "video_class_student_save_note",
     "video_class_create_playback",
     "video_class_authorize_playback",
     "video_class_record_progress"
@@ -232,11 +585,17 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
   assertWorkerRoute("/v1/admin/login", "POST");
   assertWorkerRoute("/v1/admin/session", "GET");
   assertWorkerRoute("/v1/admin/students", "GET");
+  assertWorkerRoute("/v1/admin/courses", "GET");
+  assertWorkerRoute("/v1/courses", "GET");
   assertWorkerRoute("/v1/lessons", "GET");
   assertWorkerRoute("/v1/playback/grant", "POST");
   assertWorkerRoute("/v1/playback/heartbeat", "POST");
   assert.match(workerSource, /\^\\\/v1\\\/admin\\\/students\\\/\(\[\^\/\]\+\)\\\/key\$/);
   assert.match(workerSource, /\^\\\/v1\\\/admin\\\/students\\\/\(\[\^\/\]\+\)\\\/access\$/);
+  assert.match(workerSource, /\^\\\/v1\\\/admin\\\/students\\\/\(\[\^\/\]\+\)\\\/courses\\\/\(\[\^\/\]\+\)\$/);
+  assert.match(workerSource, /\^\\\/v1\\\/admin\\\/students\\\/\(\[\^\/\]\+\)\\\/watermark\$/);
+  assert.match(workerSource, /\^\\\/v1\\\/lessons\\\/\(\[\^\/\]\+\)\\\/bookmark\$/);
+  assert.match(workerSource, /\^\\\/v1\\\/lessons\\\/\(\[\^\/\]\+\)\\\/note\$/);
   assert.match(workerSource, /\^\\\/v1\\\/video\\\/\(\[\^\/\]\+\)\$/);
 
   for (const clientContract of [
@@ -247,8 +606,13 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     /apiRequest\("\/v1\/playback\/grant"/,
     /apiRequest\("\/v1\/playback\/heartbeat"/,
     /apiRequest\("\/v1\/admin\/students"/,
+    /apiRequest\("\/v1\/admin\/courses"/,
     /`\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/key`/,
     /`\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/access`/,
+    /`\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/courses\/\$\{encodeURIComponent\(course\.id\)\}`/,
+    /`\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/watermark`/,
+    /`\/v1\/lessons\/\$\{encodeURIComponent\(lesson\.id\)\}\/bookmark`/,
+    /`\/v1\/lessons\/\$\{encodeURIComponent\(lesson\.id\)\}\/note`/,
     /`\$\{apiBase\}\/v1\/video\/\$\{encodeURIComponent\(lesson\.slug\s*\|\|\s*lesson\.id\)\}\?token=/
   ]) assert.match(portalJs, clientContract);
 });

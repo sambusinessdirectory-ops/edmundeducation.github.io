@@ -19,7 +19,9 @@ and coarse network.
 - Every full, ranged, and HEAD video request calls
   `video_class_authorize_playback` before R2 is read. Disabling a student,
   rotating/clearing a key, unpublishing a lesson, revoking a session, or expiry
-  therefore takes effect even if an old signed URL still exists.
+  therefore takes effect even if an old signed URL still exists. Course access
+  is also checked on listing, grant, media authorization, and progress writes.
+  Course removal and either watermark-toggle direction revoke active playback.
 - The R2 key is never returned in the API response. Media responses use
   `Cache-Control: private, no-store`, strict origin CORS, `inline` disposition,
   and single-range handling (`200`, `206`, or `416`).
@@ -85,11 +87,17 @@ All routes except health and preflight require the exact
 | `POST` | `/v1/admin/login` | Administrator login; `{ "username", "password" }` |
 | `GET` | `/v1/admin/session` | Validate an administrator session |
 | `DELETE` | `/v1/admin/session` | Revoke an administrator session (`POST` fallback supported) |
-| `GET` | `/v1/admin/students` | Roster with UUID, key, enabled state, and timestamps |
+| `GET` | `/v1/admin/students` | Roster with UUID, key, enabled courses, watermark state, and timestamps |
+| `GET` | `/v1/admin/courses` | The complete eight-course administration catalogue |
 | `POST` | `/v1/admin/students/:id/key` | Issue/retain a key; `{ "rotate": false }`, or rotate with `true` |
 | `DELETE` | `/v1/admin/students/:id/key` | Clear the key and entitlement |
 | `PATCH` | `/v1/admin/students/:id/access` | Enable/disable an issued key; `{ "enabled": true }` |
-| `GET` | `/v1/lessons` | Published lessons plus the student's saved progress |
+| `PATCH` | `/v1/admin/students/:id/courses/:code` | Independently grant/revoke one course; `{ "enabled": true }` |
+| `PATCH` | `/v1/admin/students/:id/watermark` | Toggle that student's playback watermark; `{ "enabled": true }` |
+| `GET` | `/v1/courses` | Assigned courses, including courses that currently have no lessons |
+| `GET` | `/v1/lessons` | Assigned courses and entitled lessons with progress, bookmark, and note state |
+| `PATCH` | `/v1/lessons/:id/bookmark` | Set lesson bookmark state; `{ "bookmarked": true }` |
+| `PUT`, `PATCH`, `DELETE` | `/v1/lessons/:id/note` | Save up to 5,000 characters, or delete the per-lesson note |
 | `POST` | `/v1/playback/grant` | Create playback from `{ "lessonId" }` or `{ "lessonSlug" }` |
 | `POST` | `/v1/playback/heartbeat` | Save position using playback ID, position, duration, and event |
 | `GET`, `HEAD` | `/v1/video/:slug?token=...` | Authorized R2 media, including single byte ranges |
@@ -137,6 +145,10 @@ video_class_admin_list_students(
   p_service_secret text, p_admin_token uuid
 )
 
+video_class_admin_list_courses(
+  p_service_secret text, p_admin_token uuid
+)
+
 video_class_admin_issue_key(
   p_service_secret text, p_admin_token uuid,
   p_student_id uuid, p_rotate boolean
@@ -151,8 +163,32 @@ video_class_admin_set_enabled(
   p_student_id uuid, p_enabled boolean
 )
 
+video_class_admin_set_course_access(
+  p_service_secret text, p_admin_token uuid,
+  p_student_id uuid, p_course_code text, p_enabled boolean
+)
+
+video_class_admin_set_watermark(
+  p_service_secret text, p_admin_token uuid,
+  p_student_id uuid, p_enabled boolean
+)
+
+video_class_student_list_courses(
+  p_service_secret text, p_student_token uuid
+)
+
 video_class_student_list_lessons(
   p_service_secret text, p_student_token uuid
+)
+
+video_class_student_toggle_bookmark(
+  p_service_secret text, p_student_token uuid,
+  p_lesson_id uuid, p_bookmarked boolean
+)
+
+video_class_student_save_note(
+  p_service_secret text, p_student_token uuid,
+  p_lesson_id uuid, p_note text
 )
 
 video_class_create_playback(
@@ -173,6 +209,7 @@ video_class_record_progress(
 
 The login functions return their raw UUID once; later requests send that UUID
 back to the Worker while Supabase compares only its SHA-256 digest. The
-authorization RPC must continue to join the live student, entitlement, student
-session, playback, and published-lesson rows. Do not replace it with a one-time
-grant check in Worker memory.
+authorization RPC must continue to join the live student, global key access,
+course entitlement, student session, playback, published course, and
+published-lesson rows. Do not replace it with a one-time grant check in Worker
+memory.

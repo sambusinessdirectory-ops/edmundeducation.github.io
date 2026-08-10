@@ -5,6 +5,17 @@
   const apiBase = String(configuration.apiBase || "").replace(/\/+$/, "");
   const requestTimeoutMs = Number(configuration.requestTimeoutMs) || 20000;
   const heartbeatIntervalMs = Math.max(10000, Number(configuration.heartbeatIntervalMs) || 15000);
+  const STUDENT_INACTIVITY_MS = 30 * 60 * 1000;
+  const COURSE_CATALOG = Object.freeze([
+    { id: "dse", slug: "dse", title: "DSE 中學文憑試", description: "香港中學文憑試英文課程" },
+    { id: "ielts", slug: "ielts", title: "IELTS 國際英文課程", description: "IELTS 應試技巧及英語能力訓練" },
+    { id: "toefl", slug: "toefl", title: "TOEFL 託福", description: "TOEFL 國際英語能力考試課程" },
+    { id: "toeic", slug: "toeic", title: "TOEIC 多益", description: "TOEIC 職場英語及考試訓練" },
+    { id: "pte", slug: "pte", title: "Pearson Test of English (PTE)", description: "PTE Academic 電腦化英語考試課程" },
+    { id: "igcse", slug: "igcse", title: "IGCSE", description: "IGCSE 英文課程及考試準備" },
+    { id: "sat", slug: "sat", title: "SAT", description: "SAT Reading and Writing 應試課程" },
+    { id: "ib", slug: "ib", title: "IB 課程", description: "IB English 課程及評核準備" }
+  ]);
   const STORAGE_KEYS = Object.freeze({
     student: "edmund-video-class-student-session-v1",
     admin: "edmund-video-class-admin-session-v1",
@@ -23,10 +34,29 @@
     universalName: document.querySelector("[data-universal-name]"),
     useUniversal: document.querySelector("[data-use-universal-session]"),
     toast: document.querySelector("[data-toast]"),
+    studentNav: document.querySelector("[data-student-nav]"),
+    studentRoutes: Array.from(document.querySelectorAll("[data-student-route]")),
+    studentPages: Array.from(document.querySelectorAll("[data-student-page]")),
     studentGreeting: document.querySelector("[data-student-greeting]"),
     studentKey: document.querySelector("[data-student-key]"),
+    coursesState: document.querySelector("[data-courses-state]"),
+    courseList: document.querySelector("[data-course-list]"),
+    selectedCourseTitle: document.querySelector("[data-selected-course-title]"),
+    selectedCourseDescription: document.querySelector("[data-selected-course-description]"),
     lessonsState: document.querySelector("[data-lessons-state]"),
     lessonList: document.querySelector("[data-lesson-list]"),
+    bookmarksState: document.querySelector("[data-bookmarks-state]"),
+    bookmarkList: document.querySelector("[data-bookmark-list]"),
+    notesState: document.querySelector("[data-notes-state]"),
+    notesList: document.querySelector("[data-notes-list]"),
+    printNotes: document.querySelector("[data-print-notes]"),
+    noteDialog: document.querySelector("[data-note-dialog]"),
+    noteForm: document.querySelector("[data-note-form]"),
+    noteLessonTitle: document.querySelector("[data-note-lesson-title]"),
+    noteContent: document.querySelector("[data-note-content]"),
+    noteCount: document.querySelector("[data-note-count]"),
+    noteStatus: document.querySelector("[data-note-status]"),
+    openNote: document.querySelector("[data-open-note]"),
     refreshLessons: document.querySelector("[data-refresh-lessons]"),
     playerSection: document.querySelector("[data-player-section]"),
     player: document.querySelector("[data-player]"),
@@ -47,6 +77,11 @@
     playerError: document.querySelector("[data-player-error]"),
     watermarkMain: document.querySelector("[data-watermark-main]"),
     watermarkRepeats: Array.from(document.querySelectorAll("[data-watermark-repeat]")),
+    watermarkLayer: document.querySelector("[data-watermark-layer]"),
+    companyWatermarkCorner: document.querySelector("[data-company-watermark-corner]"),
+    companyWatermarkBottom: document.querySelector("[data-company-watermark-bottom]"),
+    adminPanelTabs: Array.from(document.querySelectorAll("[data-admin-panel-tab]")),
+    adminPanels: Array.from(document.querySelectorAll("[data-admin-panel]")),
     refreshStudents: document.querySelector("[data-refresh-students]"),
     studentsState: document.querySelector("[data-students-state]"),
     studentTable: document.querySelector("[data-student-table]"),
@@ -56,7 +91,13 @@
     resultCount: document.querySelector("[data-result-count]"),
     statTotal: document.querySelector("[data-stat-total]"),
     statKeyed: document.querySelector("[data-stat-keyed]"),
-    statEnabled: document.querySelector("[data-stat-enabled]")
+    statEnabled: document.querySelector("[data-stat-enabled]"),
+    entitlementStudent: document.querySelector("[data-entitlement-student]"),
+    entitlementsState: document.querySelector("[data-entitlements-state]"),
+    entitlementsForm: document.querySelector("[data-entitlements-form]"),
+    entitlementCourseList: document.querySelector("[data-entitlement-course-list]"),
+    disableWatermarks: document.querySelector("[data-disable-watermarks]"),
+    entitlementsFormStatus: document.querySelector("[data-entitlements-form-status]")
   };
 
   const state = {
@@ -64,16 +105,26 @@
     studentSession: null,
     adminSession: null,
     universalSession: null,
+    courses: COURSE_CATALOG.map(course => ({ ...course, entitled: false, lessonCount: 0 })),
+    adminCourses: COURSE_CATALOG.map((course, index) => ({ ...course, order: index + 1 })),
     lessons: [],
     students: [],
+    selectedCourseId: "",
+    noteLesson: null,
+    selectedEntitlementStudentId: "",
     activeLesson: null,
     playback: null,
     heartbeatTimer: 0,
     watermarkTimer: 0,
     watermarkClock: 0,
+    companyWatermarkTimer: 0,
+    companyWatermarkHideTimer: 0,
+    companyWatermarkCornerIndex: 0,
+    inactivityTimer: 0,
     controlsTimer: 0,
     toastTimer: 0,
     heartbeatInFlight: false,
+    isLoggingOut: false,
     seeking: false
   };
 
@@ -207,11 +258,14 @@
 
   function normalizedProfile(value, role) {
     const profile = value && typeof value === "object" ? value : {};
+    const courseCodes = Array.isArray(profile.courseCodes || profile.course_codes) ? (profile.courseCodes || profile.course_codes) : [];
     return {
       id: String(profile.id || profile.studentId || profile.student_id || ""),
       name: String(profile.name || profile.username || profile.displayName || profile.display_name || (role === "admin" ? "管理員" : "學生")),
       videoKey: String(profile.videoKey || profile.video_key || ""),
       enabled: profile.enabled !== false && profile.accessEnabled !== false && profile.access_enabled !== false,
+      courseCodes: courseCodes.map(String),
+      watermarkEnabled: profile.watermarkEnabled !== false && profile.watermark_enabled !== false && profile.disableAllWatermarks !== true && profile.disable_all_watermarks !== true,
       role
     };
   }
@@ -255,6 +309,7 @@
     elements.signedInUser.textContent = role === "admin" ? `管理員 · ${profile.name}` : profile.name;
     elements.signedInUser.hidden = false;
     elements.logout.hidden = false;
+    if (elements.studentNav) elements.studentNav.hidden = role !== "student";
   }
 
   function clearHeaderIdentity() {
@@ -262,6 +317,7 @@
     elements.signedInUser.hidden = true;
     elements.signedInUser.textContent = "";
     elements.logout.hidden = true;
+    if (elements.studentNav) elements.studentNav.hidden = true;
   }
 
   function rememberSharedStudentSession(session) {
@@ -384,24 +440,83 @@
 
   async function enterStudentPortal(session) {
     state.studentSession = session;
+    state.selectedCourseId = "";
+    state.noteLesson = null;
+    state.lessons = [];
+    state.courses = COURSE_CATALOG.map(course => ({ ...course, entitled: false, lessonCount: 0 }));
     setHeaderIdentity("student", session.profile);
     elements.studentGreeting.textContent = session.profile.name || "你好";
     elements.studentKey.textContent = session.profile.videoKey || "尚未派發";
     showView("student");
+    resetStudentInactivity();
     await loadLessons();
+    showStudentPage("courses");
+    resetStudentInactivity();
   }
 
   async function enterAdminPortal(session) {
     state.adminSession = session;
+    state.selectedEntitlementStudentId = "";
+    state.students = [];
     setHeaderIdentity("admin", session.profile);
     showView("admin");
+    showAdminPanel("students");
     await loadStudents();
+    await loadAdminCourses();
   }
 
-  async function logout() {
+  function suspendStudentInactivity() {
+    window.clearTimeout(state.inactivityTimer);
+    state.inactivityTimer = 0;
+  }
+
+  function resetStudentInactivity() {
+    if (state.role !== "student" || !state.studentSession?.token || state.isLoggingOut) return;
+    suspendStudentInactivity();
+    if (state.playback && !elements.video.paused && !elements.video.ended) return;
+    state.inactivityTimer = window.setTimeout(() => {
+      if (state.role === "student" && (elements.video.paused || elements.video.ended)) void logout({ automatic: true });
+    }, STUDENT_INACTIVITY_MS);
+  }
+
+  function showStudentPage(name) {
+    if (!elements.studentPages.some(page => page.dataset.studentPage === name)) return;
+    if (name === "library" && !state.courses.some(course => course.id === state.selectedCourseId && course.entitled)) {
+      const firstCourse = state.courses.find(course => course.entitled);
+      if (!firstCourse) name = "courses";
+      else {
+        state.selectedCourseId = firstCourse.id;
+        elements.selectedCourseTitle.textContent = firstCourse.title;
+        elements.selectedCourseDescription.textContent = firstCourse.description;
+      }
+    }
+    if (name !== "library" && state.activeLesson) closePlayer({ saveProgress: true });
+    elements.studentPages.forEach(page => { page.hidden = page.dataset.studentPage !== name; });
+    elements.studentRoutes.forEach(button => {
+      if (button.dataset.studentRoute === name) button.setAttribute("aria-current", "page");
+      else button.removeAttribute("aria-current");
+    });
+    if (name === "courses") renderCourses();
+    if (name === "library") renderLessons();
+    if (name === "bookmarks") renderBookmarks();
+    if (name === "notes") renderNotes();
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }
+
+  function showAdminPanel(name) {
+    elements.adminPanels.forEach(panel => { panel.hidden = panel.dataset.adminPanel !== name; });
+    elements.adminPanelTabs.forEach(button => {
+      if (button.dataset.adminPanelTab === name) button.setAttribute("aria-current", "page");
+      else button.removeAttribute("aria-current");
+    });
+  }
+
+  async function logout({ automatic = false } = {}) {
     const role = state.role;
     const session = role === "student" ? state.studentSession : state.adminSession;
     if (!role || !session) return;
+    state.isLoggingOut = true;
+    suspendStudentInactivity();
     elements.logout.disabled = true;
     if (role === "student") closePlayer({ saveProgress: true });
     try {
@@ -422,11 +537,13 @@
     showView("login");
     refreshUniversalSessionOffer();
     elements.logout.disabled = false;
-    showToast("你已安全登出。", "success");
+    state.isLoggingOut = false;
+    showToast(automatic ? "因 30 分鐘沒有操作，你已自動登出。" : "你已安全登出。", "success");
   }
 
   function handleExpiredSession(role) {
     if (state.role !== role) return;
+    suspendStudentInactivity();
     if (role === "student") closePlayer({ saveProgress: false });
     clearSession(role);
     clearHeaderIdentity();
@@ -470,6 +587,8 @@
   function normalizeLesson(value, index) {
     const lesson = value && typeof value === "object" ? value : {};
     const progress = lesson.progress && typeof lesson.progress === "object" ? lesson.progress : {};
+    const course = lesson.course && typeof lesson.course === "object" ? lesson.course : {};
+    const noteValue = lesson.note && typeof lesson.note === "object" ? (lesson.note.text ?? lesson.note.note ?? lesson.note.content ?? "") : (lesson.note ?? lesson.noteText ?? lesson.note_text ?? "");
     const durationSeconds = Number(lesson.durationSeconds || lesson.duration_seconds || 0);
     const positionSeconds = Number(progress.positionSeconds || progress.position_seconds || lesson.positionSeconds || lesson.position_seconds || lesson.resumeAt || lesson.resume_at || 0);
     const completed = progress.completed === true || lesson.completed === true;
@@ -483,8 +602,29 @@
       positionSeconds,
       completed,
       progressPercent: completed ? 100 : calculated,
-      posterUrl: safeMediaUrl(lesson.posterUrl || lesson.poster_url || ""),
-      order: Number(lesson.order || lesson.position || index + 1)
+      posterUrl: safeMediaUrl(lesson.posterUrl || lesson.poster_url || lesson.thumbnailUrl || lesson.thumbnail_url || ""),
+      order: Number(lesson.order || lesson.position || index + 1),
+      courseId: String(lesson.courseCode || lesson.course_code || lesson.courseId || lesson.course_id || course.code || course.id || "dse").toLowerCase(),
+      courseTitle: String(lesson.courseTitle || lesson.course_title || course.title || ""),
+      bookmarked: lesson.bookmarked === true || lesson.isBookmarked === true || lesson.is_bookmarked === true,
+      note: String(noteValue || ""),
+      noteUpdatedAt: String(lesson.noteUpdatedAt || lesson.note_updated_at || (typeof lesson.note === "object" ? (lesson.note.updatedAt || lesson.note.updated_at || "") : ""))
+    };
+  }
+
+  function normalizeCourse(value) {
+    const course = value && typeof value === "object" ? value : {};
+    const id = String(course.code || course.courseCode || course.course_code || course.slug || course.id || "").toLowerCase();
+    const fallback = COURSE_CATALOG.find(item => item.id === id);
+    const explicitEntitlement = course.entitled ?? course.enabled ?? course.hasAccess ?? course.has_access ?? course.accessEnabled ?? course.access_enabled;
+    return {
+      id,
+      slug: id,
+      title: String(course.title || course.name || fallback?.title || id.toUpperCase()),
+      description: String(course.description || fallback?.description || "錄影班課程"),
+      lessonCount: Number(course.lessonCount || course.lesson_count || 0),
+      entitled: explicitEntitlement === undefined ? true : explicitEntitlement === true,
+      order: Number(course.sortOrder || course.sort_order || (COURSE_CATALOG.findIndex(item => item.id === id) + 1) || 999)
     };
   }
 
@@ -492,6 +632,8 @@
     if (!value) return "";
     try {
       const parsed = new URL(String(value), apiBase || window.location.origin);
+      const apiOrigin = new URL(apiBase).origin;
+      if (parsed.origin !== apiOrigin) return "";
       if (parsed.protocol !== "https:" && !(parsed.protocol === "http:" && ["localhost", "127.0.0.1"].includes(parsed.hostname))) return "";
       return parsed.href;
     } catch {
@@ -502,29 +644,87 @@
   async function loadLessons() {
     if (!state.studentSession?.token) return;
     elements.lessonList.hidden = true;
+    elements.courseList.hidden = true;
     showInlineState(elements.lessonsState, "正在載入你的課堂⋯");
+    showInlineState(elements.coursesState, "正在載入你的課程⋯");
     try {
       const payload = await apiRequest("/v1/lessons", { token: state.studentSession.token });
       const value = unwrap(payload);
       const rows = Array.isArray(value) ? value : (value?.lessons || value?.items || []);
       state.lessons = rows.map(normalizeLesson).sort((a, b) => a.order - b.order || a.title.localeCompare(b.title, "zh-Hant"));
+      const returnedCourses = Array.isArray(value?.courses) ? value.courses.map(normalizeCourse) : [];
+      const byId = new Map(returnedCourses.map(course => [course.id, course]));
+      const profileCodes = new Set((state.studentSession.profile.courseCodes || []).map(code => String(code).toLowerCase()));
+      state.courses = COURSE_CATALOG.map((catalogCourse, index) => {
+        const returned = byId.get(catalogCourse.id);
+        const lessonCount = state.lessons.filter(lesson => lesson.courseId === catalogCourse.id).length;
+        return {
+          ...catalogCourse,
+          ...(returned || {}),
+          order: index + 1,
+          lessonCount: returned?.lessonCount || lessonCount,
+          entitled: returned ? returned.entitled : (profileCodes.has(catalogCourse.id) || lessonCount > 0)
+        };
+      });
+      renderCourses();
       renderLessons();
+      renderBookmarks();
+      renderNotes();
     } catch (error) {
       if (error.status === 401) return handleExpiredSession("student");
       elements.lessonList.hidden = true;
       showInlineState(elements.lessonsState, error.message, "error", loadLessons);
+      showInlineState(elements.coursesState, error.message, "error", loadLessons);
     }
+  }
+
+  function renderCourses() {
+    if (!elements.courseList) return;
+    elements.courseList.replaceChildren();
+    state.courses.forEach((course, index) => {
+      const article = document.createElement("article");
+      article.className = `course-card${course.entitled ? "" : " course-card--locked"}`;
+      const ordinal = document.createElement("span");
+      ordinal.className = "course-card__number";
+      ordinal.textContent = String(index + 1).padStart(2, "0");
+      const status = document.createElement("span");
+      status.className = "course-card__status";
+      status.textContent = course.entitled ? `${course.lessonCount} 節課堂` : "尚未開放";
+      const title = document.createElement("h2");
+      title.textContent = course.title;
+      const description = document.createElement("p");
+      description.textContent = course.description;
+      const button = document.createElement("button");
+      button.type = "button";
+      button.disabled = !course.entitled;
+      button.textContent = course.entitled ? "進入課程 →" : "未獲授權";
+      button.addEventListener("click", () => selectCourse(course.id));
+      article.append(ordinal, status, title, description, button);
+      elements.courseList.append(article);
+    });
+    elements.coursesState.hidden = true;
+    elements.courseList.hidden = false;
+  }
+
+  function selectCourse(courseId) {
+    const course = state.courses.find(item => item.id === courseId && item.entitled);
+    if (!course) return;
+    state.selectedCourseId = course.id;
+    elements.selectedCourseTitle.textContent = course.title;
+    elements.selectedCourseDescription.textContent = course.description;
+    showStudentPage("library");
   }
 
   function renderLessons() {
     elements.lessonList.replaceChildren();
-    if (!state.lessons.length) {
+    const lessons = state.selectedCourseId ? state.lessons.filter(lesson => lesson.courseId === state.selectedCourseId) : [];
+    if (!lessons.length) {
       elements.lessonList.hidden = true;
-      showInlineState(elements.lessonsState, "你的帳戶目前未有已發布課堂。新課堂上架後會在這裡顯示。", "empty");
+      showInlineState(elements.lessonsState, state.selectedCourseId ? "這個課程目前未有已發布課堂。新課堂上架後會在這裡顯示。" : "請先從課程總覽選擇一個課程。", "empty");
       return;
     }
 
-    state.lessons.forEach((lesson, index) => elements.lessonList.append(createLessonCard(lesson, index)));
+    lessons.forEach((lesson, index) => elements.lessonList.append(createLessonCard(lesson, index)));
     elements.lessonsState.hidden = true;
     elements.lessonList.hidden = false;
   }
@@ -576,13 +776,173 @@
     track.append(fill);
     progress.append(progressMeta, track);
 
+    const actions = document.createElement("div");
+    actions.className = "lesson-card__actions";
     const button = document.createElement("button");
     button.type = "button";
     button.textContent = lesson.completed ? "再次觀看 →" : lesson.progressPercent ? "繼續播放 →" : "開始播放 →";
-    button.addEventListener("click", () => startPlayback(lesson));
-    body.append(kicker, title, description, progress, button);
+    button.addEventListener("click", () => openLesson(lesson));
+    const bookmark = document.createElement("button");
+    bookmark.type = "button";
+    bookmark.className = `bookmark-button${lesson.bookmarked ? " is-bookmarked" : ""}`;
+    bookmark.setAttribute("aria-pressed", String(lesson.bookmarked));
+    bookmark.setAttribute("aria-label", `${lesson.bookmarked ? "移除" : "加入"}${lesson.title}書籤`);
+    bookmark.textContent = lesson.bookmarked ? "★ 已收藏" : "☆ 加入書籤";
+    bookmark.addEventListener("click", () => void toggleBookmark(lesson, bookmark));
+    actions.append(button, bookmark);
+    body.append(kicker, title, description, progress, actions);
     article.append(art, body);
     return article;
+  }
+
+  function openLesson(lesson) {
+    const course = state.courses.find(item => item.id === lesson.courseId);
+    state.selectedCourseId = lesson.courseId;
+    if (course) {
+      elements.selectedCourseTitle.textContent = course.title;
+      elements.selectedCourseDescription.textContent = course.description;
+    }
+    showStudentPage("library");
+    void startPlayback(lesson);
+  }
+
+  async function toggleBookmark(lesson, button) {
+    if (!state.studentSession?.token || !lesson.id) return;
+    const bookmarked = !lesson.bookmarked;
+    button.disabled = true;
+    try {
+      await apiRequest(`/v1/lessons/${encodeURIComponent(lesson.id)}/bookmark`, {
+        method: "PATCH",
+        token: state.studentSession.token,
+        body: { bookmarked }
+      });
+      lesson.bookmarked = bookmarked;
+      renderLessons();
+      renderBookmarks();
+      showToast(bookmarked ? "已加入我的書籤。" : "已從書籤移除。", "success");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("student");
+      showToast(error.message, "error");
+      button.disabled = false;
+    }
+  }
+
+  function renderBookmarks() {
+    if (!elements.bookmarkList) return;
+    const lessons = state.lessons.filter(lesson => lesson.bookmarked);
+    elements.bookmarkList.replaceChildren();
+    if (!lessons.length) {
+      elements.bookmarkList.hidden = true;
+      showInlineState(elements.bookmarksState, "你尚未收藏任何課堂。按課堂卡上的「加入書籤」即可收藏。", "empty");
+      return;
+    }
+    lessons.forEach((lesson, index) => elements.bookmarkList.append(createLessonCard(lesson, index)));
+    elements.bookmarksState.hidden = true;
+    elements.bookmarkList.hidden = false;
+  }
+
+  function updateNoteCount() {
+    if (!elements.noteCount || !elements.noteContent) return;
+    elements.noteCount.textContent = `${elements.noteContent.value.length.toLocaleString("en-US")} / 5,000`;
+  }
+
+  function openNoteDialog(lesson) {
+    if (!lesson || !elements.noteDialog) return;
+    state.noteLesson = lesson;
+    elements.noteLessonTitle.textContent = lesson.title;
+    elements.noteContent.value = lesson.note || "";
+    elements.noteStatus.textContent = "";
+    updateNoteCount();
+    if (typeof elements.noteDialog.showModal === "function") elements.noteDialog.showModal();
+    else elements.noteDialog.setAttribute("open", "");
+    window.setTimeout(() => elements.noteContent.focus(), 0);
+  }
+
+  function closeNoteDialog() {
+    state.noteLesson = null;
+    if (typeof elements.noteDialog?.close === "function") elements.noteDialog.close();
+    else elements.noteDialog?.removeAttribute("open");
+  }
+
+  async function saveLessonNote() {
+    const lesson = state.noteLesson;
+    if (!lesson?.id || !state.studentSession?.token) return;
+    const text = elements.noteContent.value.trim();
+    elements.noteStatus.textContent = "正在儲存⋯";
+    elements.noteStatus.dataset.state = "success";
+    elements.noteContent.disabled = true;
+    const saveButton = elements.noteForm.querySelector("[data-save-note]");
+    if (saveButton) saveButton.disabled = true;
+    try {
+      const payload = await apiRequest(`/v1/lessons/${encodeURIComponent(lesson.id)}/note`, {
+        method: "PUT",
+        token: state.studentSession.token,
+        body: { note: text }
+      });
+      const value = unwrap(payload) || {};
+      const returnedNote = value.note && typeof value.note === "object" ? (value.note.text ?? value.note.note ?? value.note.content) : (value.text ?? value.note);
+      lesson.note = String(returnedNote ?? text);
+      lesson.noteUpdatedAt = String(value.updatedAt || value.updated_at || value.note?.updatedAt || value.note?.updated_at || new Date().toISOString());
+      renderNotes();
+      closeNoteDialog();
+      showToast(text ? "筆記已儲存。" : "筆記已清除。", "success");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("student");
+      elements.noteStatus.textContent = error.message;
+      elements.noteStatus.dataset.state = "error";
+    } finally {
+      elements.noteContent.disabled = false;
+      if (saveButton) saveButton.disabled = false;
+    }
+  }
+
+  function renderNotes() {
+    if (!elements.notesList) return;
+    const lessons = state.lessons.filter(lesson => lesson.note.trim());
+    elements.notesList.replaceChildren();
+    if (!lessons.length) {
+      elements.notesList.hidden = true;
+      showInlineState(elements.notesState, "你尚未儲存任何筆記。播放課堂後，可在安全提示下方開啟「我的筆記」。", "empty");
+      return;
+    }
+    lessons.forEach(lesson => {
+      const article = document.createElement("article");
+      article.className = "note-card";
+      const heading = document.createElement("div");
+      heading.className = "note-card__heading";
+      const titleWrap = document.createElement("div");
+      const course = state.courses.find(item => item.id === lesson.courseId);
+      const courseName = document.createElement("span");
+      courseName.textContent = course?.title || lesson.courseTitle || "錄影班課堂";
+      const title = document.createElement("h2");
+      title.textContent = lesson.title;
+      titleWrap.append(courseName, title);
+      const updated = document.createElement("time");
+      if (lesson.noteUpdatedAt) {
+        updated.dateTime = lesson.noteUpdatedAt;
+        const parsed = new Date(lesson.noteUpdatedAt);
+        updated.textContent = Number.isNaN(parsed.getTime()) ? "已儲存" : `更新：${parsed.toLocaleString("zh-HK", { dateStyle: "medium", timeStyle: "short" })}`;
+      } else updated.textContent = "已儲存";
+      heading.append(titleWrap, updated);
+      const content = document.createElement("p");
+      content.className = "note-card__content";
+      content.textContent = lesson.note;
+      const actions = document.createElement("div");
+      actions.className = "note-card__actions";
+      const edit = document.createElement("button");
+      edit.type = "button";
+      edit.textContent = "編輯筆記";
+      edit.addEventListener("click", () => openNoteDialog(lesson));
+      const watch = document.createElement("button");
+      watch.type = "button";
+      watch.textContent = "前往課堂 →";
+      watch.addEventListener("click", () => openLesson(lesson));
+      actions.append(edit, watch);
+      article.append(heading, content, actions);
+      elements.notesList.append(article);
+    });
+    elements.notesState.hidden = true;
+    elements.notesList.hidden = false;
   }
 
   function extractPlaybackGrant(payload, lesson) {
@@ -596,6 +956,7 @@
     const videoUrl = safePlaybackUrl(suppliedUrl || fallbackUrl);
     if (!videoUrl) throw new ApiError("安全播放連結無效，請重新載入課堂。", 0, "INVALID_PLAYBACK_URL");
     const watermark = grant.watermark && typeof grant.watermark === "object" ? grant.watermark : {};
+    const watermarksDisabled = watermark.disabled === true || watermark.disableAll === true || watermark.disable_all === true || grant.disableAllWatermarks === true || grant.disable_all_watermarks === true || grant.watermarksDisabled === true || grant.watermarks_disabled === true || grant.trustedStudent === true || grant.trusted_student === true;
     return {
       playbackToken,
       sessionId,
@@ -603,7 +964,8 @@
       expiresAt: String(grant.expiresAt || grant.expires_at || ""),
       resumeAt: lesson.completed ? 0 : Number(grant.resumeAt || grant.resume_at || grant.positionSeconds || grant.position_seconds || lesson.positionSeconds || 0),
       videoKey: String(watermark.videoKey || watermark.video_key || grant.videoKey || grant.video_key || state.studentSession?.profile?.videoKey || "已驗證學生"),
-      sessionCode: String(watermark.sessionCode || watermark.session_code || grant.sessionCode || grant.session_code || sessionId.slice(-10)).toUpperCase()
+      sessionCode: String(watermark.sessionCode || watermark.session_code || grant.sessionCode || grant.session_code || sessionId.slice(-10)).toUpperCase(),
+      watermarkEnabled: !watermarksDisabled && watermark.enabled !== false && grant.watermarkEnabled !== false && grant.watermark_enabled !== false && state.studentSession?.profile?.watermarkEnabled !== false
     };
   }
 
@@ -658,8 +1020,14 @@
   }
 
   function configureWatermark() {
-    window.clearInterval(state.watermarkTimer);
-    window.clearInterval(state.watermarkClock);
+    clearWatermarkTimers();
+    const enabled = state.playback?.watermarkEnabled !== false;
+    elements.watermarkLayer.hidden = !enabled;
+    if (!enabled) {
+      elements.watermarkMain.textContent = "";
+      elements.watermarkRepeats.forEach(item => { item.textContent = ""; });
+      return;
+    }
     const updateText = () => {
       if (!state.playback) return;
       const timestamp = new Intl.DateTimeFormat("zh-HK", {
@@ -679,6 +1047,36 @@
     moveWatermark();
     state.watermarkClock = window.setInterval(updateText, 1000);
     state.watermarkTimer = window.setInterval(moveWatermark, 23000);
+    showCompanyWatermarks();
+    state.companyWatermarkTimer = window.setInterval(showCompanyWatermarks, 30000);
+  }
+
+  function clearWatermarkTimers() {
+    window.clearInterval(state.watermarkTimer);
+    window.clearInterval(state.watermarkClock);
+    window.clearInterval(state.companyWatermarkTimer);
+    window.clearTimeout(state.companyWatermarkHideTimer);
+    state.watermarkTimer = 0;
+    state.watermarkClock = 0;
+    state.companyWatermarkTimer = 0;
+    state.companyWatermarkHideTimer = 0;
+    elements.companyWatermarkCorner?.classList.remove("is-visible");
+    elements.companyWatermarkBottom?.classList.remove("is-visible");
+  }
+
+  function showCompanyWatermarks() {
+    if (!state.playback || state.playback.watermarkEnabled === false) return;
+    const positions = ["top-left", "top-right", "bottom-right", "bottom-left"];
+    const position = positions[state.companyWatermarkCornerIndex % positions.length];
+    state.companyWatermarkCornerIndex += 1;
+    elements.companyWatermarkCorner.dataset.position = position;
+    elements.companyWatermarkCorner.classList.add("is-visible");
+    elements.companyWatermarkBottom.classList.add("is-visible");
+    window.clearTimeout(state.companyWatermarkHideTimer);
+    state.companyWatermarkHideTimer = window.setTimeout(() => {
+      elements.companyWatermarkCorner?.classList.remove("is-visible");
+      elements.companyWatermarkBottom?.classList.remove("is-visible");
+    }, 5000);
   }
 
   function randomBetween(min, max) {
@@ -727,12 +1125,9 @@
   function closePlayer({ saveProgress = true, hideSection = true } = {}) {
     if (saveProgress && state.playback) void sendHeartbeat("close", true);
     window.clearInterval(state.heartbeatTimer);
-    window.clearInterval(state.watermarkTimer);
-    window.clearInterval(state.watermarkClock);
+    clearWatermarkTimers();
     window.clearTimeout(state.controlsTimer);
     state.heartbeatTimer = 0;
-    state.watermarkTimer = 0;
-    state.watermarkClock = 0;
     state.controlsTimer = 0;
     if (elements.video) {
       elements.video.pause();
@@ -741,12 +1136,14 @@
     }
     state.playback = null;
     state.activeLesson = null;
+    elements.watermarkLayer.hidden = false;
     elements.player.removeAttribute("data-controls-hidden");
     elements.playerError.hidden = true;
     if (hideSection) {
       elements.playerSection.hidden = true;
       if (state.role === "student") void loadLessons();
     }
+    resetStudentInactivity();
   }
 
   function updatePlayerControls() {
@@ -846,6 +1243,7 @@
     elements.video.addEventListener("durationchange", updatePlayerControls);
     elements.video.addEventListener("play", () => {
       updatePlayButtons();
+      suspendStudentInactivity();
       beginHeartbeat();
       void sendHeartbeat("play");
       showControlsTemporarily();
@@ -855,11 +1253,13 @@
       window.clearInterval(state.heartbeatTimer);
       elements.player.dataset.controlsHidden = "false";
       if (state.playback && !elements.video.ended) void sendHeartbeat("pause");
+      resetStudentInactivity();
     });
     elements.video.addEventListener("ended", () => {
       updatePlayButtons();
       window.clearInterval(state.heartbeatTimer);
       void sendHeartbeat("ended");
+      resetStudentInactivity();
       showToast("課堂播放完畢，進度已儲存。", "success");
     });
     elements.video.addEventListener("volumechange", updateMuteControl);
@@ -909,11 +1309,14 @@
   function normalizeStudent(value) {
     const student = value && typeof value === "object" ? value : {};
     const videoKey = String(student.videoKey || student.video_key || "");
+    const courseCodes = Array.isArray(student.courseCodes || student.course_codes) ? (student.courseCodes || student.course_codes) : [];
     return {
       id: String(student.id || student.studentId || student.student_id || ""),
       name: String(student.name || student.username || "未命名學生"),
       videoKey,
       enabled: Boolean(videoKey) && (student.enabled === true || student.accessEnabled === true || student.access_enabled === true),
+      courseCodes: courseCodes.map(code => String(code).toLowerCase()),
+      watermarkEnabled: student.watermarkEnabled !== false && student.watermark_enabled !== false,
       createdAt: String(student.createdAt || student.created_at || "")
     };
   }
@@ -931,11 +1334,120 @@
       state.students = rows.map(normalizeStudent).sort((a, b) => a.name.localeCompare(b.name, "zh-Hant", { numeric: true }));
       renderStudentSummary();
       renderStudents();
+      renderEntitlementStudentOptions();
+      if (state.selectedEntitlementStudentId) showEntitlementEditor(state.selectedEntitlementStudentId);
     } catch (error) {
       if (error.status === 401) return handleExpiredSession("admin");
       showInlineState(elements.studentsState, error.message, "error", loadStudents);
     } finally {
       if (elements.refreshStudents) elements.refreshStudents.disabled = false;
+    }
+  }
+
+  async function loadAdminCourses() {
+    if (!state.adminSession?.token) return;
+    showInlineState(elements.entitlementsState, "正在載入課程設定⋯");
+    try {
+      const payload = await apiRequest("/v1/admin/courses", { token: state.adminSession.token });
+      const value = unwrap(payload);
+      const rows = Array.isArray(value) ? value : (value?.courses || value?.items || []);
+      const returned = new Map(rows.map(normalizeCourse).map(course => [course.id, course]));
+      state.adminCourses = COURSE_CATALOG.map((course, index) => ({ ...course, ...(returned.get(course.id) || {}), order: index + 1 }));
+      if (state.selectedEntitlementStudentId) showEntitlementEditor(state.selectedEntitlementStudentId);
+      else showInlineState(elements.entitlementsState, "請先選擇一位學生。", "empty");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("admin");
+      showInlineState(elements.entitlementsState, error.message, "error", loadAdminCourses);
+    }
+  }
+
+  function renderEntitlementStudentOptions() {
+    if (!elements.entitlementStudent) return;
+    const selectedId = state.selectedEntitlementStudentId;
+    elements.entitlementStudent.replaceChildren(new Option("請選擇學生", ""));
+    state.students.forEach(student => elements.entitlementStudent.append(new Option(`${student.name} · ${student.videoKey || "未有 Key"}`, student.id)));
+    if (state.students.some(student => student.id === selectedId)) elements.entitlementStudent.value = selectedId;
+    else {
+      state.selectedEntitlementStudentId = "";
+      elements.entitlementsForm.hidden = true;
+    }
+  }
+
+  function showEntitlementEditor(studentId) {
+    const student = state.students.find(item => item.id === studentId);
+    state.selectedEntitlementStudentId = student?.id || "";
+    if (!student) {
+      elements.entitlementsForm.hidden = true;
+      showInlineState(elements.entitlementsState, "請先選擇一位學生。", "empty");
+      return;
+    }
+    elements.entitlementCourseList.replaceChildren();
+    const enabled = new Set(student.courseCodes);
+    state.adminCourses.forEach(course => {
+      const label = document.createElement("label");
+      label.className = "entitlement-course-option";
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.name = "courseCodes";
+      input.value = course.id;
+      input.checked = enabled.has(course.id);
+      const text = document.createElement("span");
+      const title = document.createElement("strong");
+      title.textContent = course.title;
+      const description = document.createElement("small");
+      description.textContent = course.description;
+      text.append(title, description);
+      label.append(input, text);
+      elements.entitlementCourseList.append(label);
+    });
+    elements.disableWatermarks.checked = !student.watermarkEnabled;
+    elements.disableWatermarks.disabled = !student.videoKey;
+    elements.entitlementsFormStatus.textContent = "";
+    elements.entitlementsState.hidden = true;
+    elements.entitlementsForm.hidden = false;
+  }
+
+  async function saveStudentEntitlements() {
+    const student = state.students.find(item => item.id === state.selectedEntitlementStudentId);
+    if (!student || !state.adminSession?.token) return;
+    const desiredCodes = new Set(Array.from(elements.entitlementCourseList.querySelectorAll("input[name='courseCodes']:checked"), input => input.value));
+    const currentCodes = new Set(student.courseCodes);
+    const watermarkEnabled = !elements.disableWatermarks.checked;
+    const operations = state.adminCourses
+      .filter(course => desiredCodes.has(course.id) !== currentCodes.has(course.id))
+      .map(course => apiRequest(`/v1/admin/students/${encodeURIComponent(student.id)}/courses/${encodeURIComponent(course.id)}`, {
+        method: "PATCH",
+        token: state.adminSession.token,
+        body: { enabled: desiredCodes.has(course.id) }
+      }));
+    if (watermarkEnabled !== student.watermarkEnabled) {
+      operations.push(apiRequest(`/v1/admin/students/${encodeURIComponent(student.id)}/watermark`, {
+        method: "PATCH",
+        token: state.adminSession.token,
+        body: { enabled: watermarkEnabled }
+      }));
+    }
+    if (!operations.length) {
+      elements.entitlementsFormStatus.textContent = "設定沒有變更。";
+      elements.entitlementsFormStatus.dataset.state = "success";
+      return;
+    }
+    elements.entitlementsForm.querySelectorAll("input, button").forEach(control => { control.disabled = true; });
+    elements.entitlementsFormStatus.textContent = "正在儲存課程權限⋯";
+    elements.entitlementsFormStatus.dataset.state = "success";
+    try {
+      await Promise.all(operations);
+      student.courseCodes = Array.from(desiredCodes);
+      student.watermarkEnabled = watermarkEnabled;
+      elements.entitlementsFormStatus.textContent = "設定已儲存。";
+      showToast(`已更新 ${student.name} 的課程及水印設定。`, "success");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("admin");
+      elements.entitlementsFormStatus.textContent = `${error.message} 請重新載入學生資料確認已套用的設定。`;
+      elements.entitlementsFormStatus.dataset.state = "error";
+    } finally {
+      elements.entitlementsForm.querySelectorAll("input, button").forEach(control => { control.disabled = false; });
+      elements.disableWatermarks.disabled = !student.videoKey;
     }
   }
 
@@ -1035,6 +1547,18 @@
     issue.textContent = student.videoKey ? "更換 Key" : "派發 Key";
     issue.addEventListener("click", () => changeStudentKey(student, student.videoKey ? "rotate" : "issue", row));
     actions.append(issue);
+    const courses = document.createElement("button");
+    courses.type = "button";
+    courses.dataset.action = "courses";
+    courses.textContent = "課程權限";
+    courses.addEventListener("click", () => {
+      showAdminPanel("entitlements");
+      elements.entitlementStudent.value = student.id;
+      showEntitlementEditor(student.id);
+      elements.entitlementStudent.focus();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    actions.append(courses);
     if (student.videoKey) {
       const clear = document.createElement("button");
       clear.type = "button";
@@ -1142,8 +1666,31 @@
     elements.refreshStudents?.addEventListener("click", () => void loadStudents());
     elements.studentSearch?.addEventListener("input", renderStudents);
     elements.keyFilter?.addEventListener("change", renderStudents);
+    elements.studentRoutes.forEach(button => button.addEventListener("click", () => showStudentPage(button.dataset.studentRoute)));
+    elements.openNote?.addEventListener("click", () => openNoteDialog(state.activeLesson));
+    document.querySelectorAll("[data-close-note]").forEach(button => button.addEventListener("click", closeNoteDialog));
+    elements.noteDialog?.addEventListener("close", () => { state.noteLesson = null; });
+    elements.noteContent?.addEventListener("input", updateNoteCount);
+    elements.noteForm?.addEventListener("submit", event => {
+      event.preventDefault();
+      void saveLessonNote();
+    });
+    elements.printNotes?.addEventListener("click", () => window.print());
+    elements.adminPanelTabs.forEach(button => button.addEventListener("click", () => showAdminPanel(button.dataset.adminPanelTab)));
+    elements.entitlementStudent?.addEventListener("change", () => showEntitlementEditor(elements.entitlementStudent.value));
+    elements.entitlementsForm?.addEventListener("submit", event => {
+      event.preventDefault();
+      void saveStudentEntitlements();
+    });
+    const markStudentActivity = () => resetStudentInactivity();
+    document.addEventListener("pointerdown", markStudentActivity, { passive: true });
+    document.addEventListener("keydown", markStudentActivity);
+    document.addEventListener("touchstart", markStudentActivity, { passive: true });
+    document.addEventListener("wheel", markStudentActivity, { passive: true });
+    window.addEventListener("scroll", markStudentActivity, { passive: true });
     document.addEventListener("visibilitychange", () => {
       if (document.visibilityState === "hidden" && state.playback) void sendHeartbeat("hidden", true);
+      if (document.visibilityState === "visible") resetStudentInactivity();
     });
     window.addEventListener("pagehide", () => {
       if (state.playback) void sendHeartbeat("pagehide", true);

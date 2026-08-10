@@ -7,6 +7,7 @@ const PLAYBACK_TOKEN_TTL_SECONDS = 2 * 60 * 60;
 const MAX_JSON_BYTES = 16 * 1024;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const SLUG_RE = /^[a-z0-9](?:[a-z0-9-]{0,78}[a-z0-9])?$/;
+const COURSE_CODE_RE = /^[a-z0-9](?:[a-z0-9-]{0,62}[a-z0-9])?$/;
 const HEARTBEAT_EVENTS = new Set(["play", "pause", "progress", "heartbeat", "seek", "ended", "close", "hidden", "pagehide"]);
 
 class HttpError extends Error {
@@ -81,6 +82,9 @@ async function route(request, env, ctx) {
   if (url.pathname === "/v1/admin/students" && request.method === "GET") {
     return adminListStudents(request, env, url);
   }
+  if (url.pathname === "/v1/admin/courses" && request.method === "GET") {
+    return adminListCourses(request, env);
+  }
 
   const studentKeyMatch = url.pathname.match(/^\/v1\/admin\/students\/([^/]+)\/key$/);
   if (studentKeyMatch && (request.method === "POST" || request.method === "DELETE")) {
@@ -92,8 +96,36 @@ async function route(request, env, ctx) {
     return adminChangeStudentAccess(request, env, decodePathSegment(studentAccessMatch[1]));
   }
 
+  const studentCourseMatch = url.pathname.match(/^\/v1\/admin\/students\/([^/]+)\/courses\/([^/]+)$/);
+  if (studentCourseMatch && request.method === "PATCH") {
+    return adminChangeStudentCourseAccess(
+      request,
+      env,
+      decodePathSegment(studentCourseMatch[1]),
+      decodePathSegment(studentCourseMatch[2])
+    );
+  }
+
+  const studentWatermarkMatch = url.pathname.match(/^\/v1\/admin\/students\/([^/]+)\/watermark$/);
+  if (studentWatermarkMatch && request.method === "PATCH") {
+    return adminChangeStudentWatermark(request, env, decodePathSegment(studentWatermarkMatch[1]));
+  }
+
+  if (url.pathname === "/v1/courses" && request.method === "GET") {
+    return listCourses(request, env);
+  }
   if (url.pathname === "/v1/lessons" && request.method === "GET") {
     return listLessons(request, env);
+  }
+
+  const lessonBookmarkMatch = url.pathname.match(/^\/v1\/lessons\/([^/]+)\/bookmark$/);
+  if (lessonBookmarkMatch && request.method === "PATCH") {
+    return changeLessonBookmark(request, env, decodePathSegment(lessonBookmarkMatch[1]));
+  }
+
+  const lessonNoteMatch = url.pathname.match(/^\/v1\/lessons\/([^/]+)\/note$/);
+  if (lessonNoteMatch && ["PUT", "PATCH", "DELETE"].includes(request.method)) {
+    return saveLessonNote(request, env, decodePathSegment(lessonNoteMatch[1]), request.method === "DELETE");
   }
   if (url.pathname === "/v1/playback/grant" && request.method === "POST") {
     return grantPlayback(request, env, url);
@@ -242,6 +274,16 @@ async function adminListStudents(request, env, url) {
   }, 200);
 }
 
+async function adminListCourses(request, env) {
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const rows = await serviceRpc(env, "video_class_admin_list_courses", {
+    p_admin_token: token
+  });
+  if (!Array.isArray(rows)) throw new HttpError(502, "Course catalogue could not be loaded");
+  return json(request, env, { courses: rows.map(mapCourse) }, 200);
+}
+
 async function adminChangeStudentKey(request, env, studentId, clear) {
   if (!UUID_RE.test(studentId)) throw new HttpError(400, "Invalid student ID");
   const token = requireBearerToken(request);
@@ -291,6 +333,45 @@ async function adminChangeStudentAccess(request, env, studentId) {
   return json(request, env, { student: mapRosterStudent(row) }, 200);
 }
 
+async function adminChangeStudentCourseAccess(request, env, studentId, courseCode) {
+  if (!UUID_RE.test(studentId)) throw new HttpError(400, "Invalid student ID");
+  if (!COURSE_CODE_RE.test(courseCode)) throw new HttpError(400, "Invalid course code");
+  const body = await readJson(request, 4096);
+  if (typeof body.enabled !== "boolean") throw new HttpError(400, "Enabled must be true or false");
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const rows = await serviceRpc(env, "video_class_admin_set_course_access", {
+    p_admin_token: token,
+    p_student_id: studentId,
+    p_course_code: courseCode,
+    p_enabled: body.enabled
+  });
+  const row = firstRow(rows);
+  if (!row) throw new HttpError(404, "Student or course was not found");
+  return json(request, env, { courseAccess: mapCourseAccess(row) }, 200);
+}
+
+async function adminChangeStudentWatermark(request, env, studentId) {
+  if (!UUID_RE.test(studentId)) throw new HttpError(400, "Invalid student ID");
+  const body = await readJson(request, 4096);
+  const enabled = typeof body.enabled === "boolean" ? body.enabled : body.watermarkEnabled;
+  if (typeof enabled !== "boolean") throw new HttpError(400, "Enabled must be true or false");
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const rows = await serviceRpc(env, "video_class_admin_set_watermark", {
+    p_admin_token: token,
+    p_student_id: studentId,
+    p_enabled: enabled
+  });
+  const row = firstRow(rows);
+  if (!row) throw new HttpError(404, "Issue a video key before changing watermark settings");
+  return json(request, env, {
+    studentId: row.student_id || studentId,
+    watermarkEnabled: row.watermark_enabled === true,
+    updatedAt: row.updated_at || null
+  }, 200);
+}
+
 async function assertAdminSession(env, token) {
   const rows = await serviceRpc(env, "video_class_admin_me", {
     p_admin_token: token
@@ -305,14 +386,80 @@ async function assertStudentSession(env, token) {
   if (!firstRow(rows)) throw new HttpError(401, "Student session is invalid or expired");
 }
 
+async function listCourses(request, env) {
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  const rows = await serviceRpc(env, "video_class_student_list_courses", {
+    p_student_token: token
+  });
+  if (!Array.isArray(rows)) throw new HttpError(502, "Course catalogue could not be loaded");
+  return json(request, env, { courses: rows.map(mapCourse) }, 200);
+}
+
 async function listLessons(request, env) {
   const token = requireBearerToken(request);
   await assertStudentSession(env, token);
-  const rows = await serviceRpc(env, "video_class_student_list_lessons", {
-    p_student_token: token
+  const [courseRows, lessonRows] = await Promise.all([
+    serviceRpc(env, "video_class_student_list_courses", { p_student_token: token }),
+    serviceRpc(env, "video_class_student_list_lessons", { p_student_token: token })
+  ]);
+  if (!Array.isArray(courseRows) || !Array.isArray(lessonRows)) {
+    throw new HttpError(502, "Lesson library could not be loaded");
+  }
+  return json(request, env, {
+    courses: courseRows.map(mapCourse),
+    lessons: lessonRows.map(mapLesson)
+  }, 200);
+}
+
+async function changeLessonBookmark(request, env, lessonId) {
+  if (!UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
+  const body = await readJson(request, 4096);
+  const bookmarked = typeof body.bookmarked === "boolean" ? body.bookmarked : body.enabled;
+  if (typeof bookmarked !== "boolean") throw new HttpError(400, "Bookmarked must be true or false");
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  const rows = await serviceRpc(env, "video_class_student_toggle_bookmark", {
+    p_student_token: token,
+    p_lesson_id: lessonId,
+    p_bookmarked: bookmarked
   });
-  if (!Array.isArray(rows)) throw new HttpError(502, "Lesson library could not be loaded");
-  return json(request, env, { lessons: rows.map(mapLesson) }, 200);
+  const row = firstRow(rows);
+  if (!row) throw new HttpError(403, "This lesson is not available for this account");
+  return json(request, env, {
+    bookmark: {
+      lessonId: row.lesson_id || lessonId,
+      bookmarked: row.bookmarked === true,
+      updatedAt: row.updated_at || null
+    }
+  }, 200);
+}
+
+async function saveLessonNote(request, env, lessonId, remove) {
+  if (!UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
+  let note = "";
+  if (!remove) {
+    const body = await readJson(request, 8192);
+    if (typeof body.note !== "string") throw new HttpError(400, "Note must be text");
+    note = body.note;
+    if (note.length > 5000) throw new HttpError(400, "Note is too long");
+  }
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  const rows = await serviceRpc(env, "video_class_student_save_note", {
+    p_student_token: token,
+    p_lesson_id: lessonId,
+    p_note: note
+  });
+  const row = firstRow(rows);
+  if (!row) throw new HttpError(403, "This lesson is not available for this account");
+  return json(request, env, {
+    note: {
+      lessonId: row.lesson_id || lessonId,
+      text: row.note == null ? "" : String(row.note),
+      updatedAt: row.updated_at || null
+    }
+  }, 200);
 }
 
 async function grantPlayback(request, env, requestUrl) {
@@ -373,6 +520,7 @@ async function grantPlayback(request, env, requestUrl) {
   }, env.VIDEO_CLASS_SIGNING_KEY);
   const videoUrl = `${requestUrl.origin}/v1/video/${encodeURIComponent(slug)}?token=${encodeURIComponent(token)}`;
   const sessionCode = playbackId.replaceAll("-", "").slice(0, 8).toUpperCase();
+  const watermarkEnabled = row.watermark_enabled !== false;
 
   return json(request, env, {
     playbackId,
@@ -387,8 +535,9 @@ async function grantPlayback(request, env, requestUrl) {
     resumeAt: finiteNonNegative(row.resume_seconds, 0),
     resumeAtSeconds: finiteNonNegative(row.resume_seconds, 0),
     watermark: {
-      videoKey: String(row.video_key || ""),
-      sessionCode
+      enabled: watermarkEnabled,
+      videoKey: watermarkEnabled ? String(row.video_key || "") : "",
+      sessionCode: watermarkEnabled ? sessionCode : ""
     }
   }, 200);
 }
@@ -751,7 +900,7 @@ async function readJson(request, maxBytes = MAX_JSON_BYTES) {
 function corsHeaders(origin, env) {
   const headers = new Headers({
     "Access-Control-Allow-Headers": "Authorization, Content-Type, Range",
-    "Access-Control-Allow-Methods": "GET, HEAD, POST, PATCH, DELETE, OPTIONS",
+    "Access-Control-Allow-Methods": "GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS",
     "Access-Control-Expose-Headers": "Accept-Ranges, Content-Length, Content-Range, ETag, Last-Modified",
     "Access-Control-Max-Age": "600",
     "Vary": "Origin"
@@ -819,11 +968,16 @@ function mapAdmin(row) {
 
 function mapRosterStudent(row) {
   const createdAt = row.account_created_at || row.student_created_at || row.created_at || null;
+  const courseCodes = Array.isArray(row.course_codes)
+    ? row.course_codes.filter(code => COURSE_CODE_RE.test(String(code))).map(String)
+    : [];
   return {
     id: row.student_id || row.id || null,
     name: row.student_name || row.name || "",
     videoKey: row.video_key || null,
     enabled: row.access_enabled === true || row.enabled === true,
+    watermarkEnabled: row.watermark_enabled !== false,
+    courseCodes,
     keyCreatedAt: row.key_created_at || null,
     keyUpdatedAt: row.key_updated_at || row.updated_at || null,
     lastVideoLoginAt: row.last_video_login_at || null,
@@ -832,20 +986,48 @@ function mapRosterStudent(row) {
   };
 }
 
+function mapCourse(row) {
+  return {
+    code: row.course_code || row.code || "",
+    title: row.course_title || row.title || "",
+    sortOrder: Number.isFinite(Number(row.sort_order)) ? Number(row.sort_order) : 0,
+    published: row.published !== false,
+    lessonCount: Number.isFinite(Number(row.lesson_count)) ? Number(row.lesson_count) : 0
+  };
+}
+
+function mapCourseAccess(row) {
+  return {
+    studentId: row.student_id || null,
+    courseCode: row.course_code || "",
+    enabled: row.enabled === true,
+    updatedAt: row.updated_at || null
+  };
+}
+
 function mapLesson(row) {
+  const courseCode = row.course_code || "";
+  const courseTitle = row.course_title || "";
   return {
     id: row.lesson_id || row.id || null,
     slug: row.slug || "",
     title: row.title || "",
     description: row.description || "",
+    courseCode,
+    courseTitle,
+    courseSortOrder: Number.isFinite(Number(row.course_sort_order)) ? Number(row.course_sort_order) : 0,
+    course: { code: courseCode, title: courseTitle },
     moduleTitle: row.course_label || row.module_title || "",
     position: Number.isFinite(Number(row.sort_order ?? row.position)) ? Number(row.sort_order ?? row.position) : 0,
     durationSeconds: nullablePositiveNumber(row.duration_seconds),
     thumbnailUrl: row.thumbnail_url || null,
+    bookmarked: row.bookmarked === true,
+    note: row.note == null ? "" : String(row.note),
+    noteUpdatedAt: row.note_updated_at || null,
     progress: {
       positionSeconds: finiteNonNegative(row.resume_seconds ?? row.progress_seconds, 0),
       completed: Boolean(row.completed_at) || row.completed === true,
-      updatedAt: row.completed_at || row.progress_updated_at || null
+      updatedAt: row.progress_updated_at || row.completed_at || null
     }
   };
 }
