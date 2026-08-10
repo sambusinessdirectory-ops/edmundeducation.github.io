@@ -278,6 +278,7 @@ button:disabled { cursor: wait; opacity: 0.62; }
   font-family: var(--sans);
   font-size: 13px;
   font-weight: 800;
+  white-space: nowrap;
   transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
 }
 
