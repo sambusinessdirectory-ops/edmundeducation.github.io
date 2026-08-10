@@ -41,10 +41,11 @@ assert.match(accountSql, /Current password is incorrect or the session has expir
 assert.match(accountSql, /delete from public\.flashcard_student_sessions[\s\S]*insert into public\.flashcard_student_sessions/);
 assert.match(accountSql, /schedule_admin_change_own_password[\s\S]*delete from public\.schedule_admin_sessions[\s\S]*insert into public\.schedule_admin_sessions/);
 assert.match(accountSql, /A student account with this name already exists/);
-assert.match(accountSql, /p_status not in \('none', 'completed', 'in_progress', 'previous_incomplete'\)/);
+assert.match(accountSql, /p_status not in \('none', 'completed', 'in_progress', 'more_than_half_completed', 'previous_incomplete'\)/);
 assert.match(accountSql, /for update of entry/);
 assert.match(accountSql, /is_in_progress = p_status = 'in_progress'/);
 assert.match(accountSql, /is_previous_incomplete = p_status = 'previous_incomplete'/);
+assert.match(accountSql, /is_more_than_half_completed = p_status = 'more_than_half_completed'/);
 
 assert.match(parentHtml, /data-progress-portal="parent"/);
 assert.match(parentHtml, /家長溝通系統/);
