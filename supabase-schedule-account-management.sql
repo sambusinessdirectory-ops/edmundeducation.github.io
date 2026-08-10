@@ -349,7 +349,7 @@ declare
   v_row record;
 begin
   perform public._schedule_lock_student_mutations(p_student_id);
-  if p_status not in ('none', 'completed', 'in_progress', 'previous_incomplete')
+  if p_status not in ('none', 'completed', 'in_progress', 'more_than_half_completed', 'previous_incomplete')
     or p_actor_source not in ('student', 'admin')
     or (p_actor_source = 'student' and p_admin_id is not null)
     or (p_actor_source = 'admin' and p_admin_id is null)
@@ -415,6 +415,7 @@ begin
   update public.schedule_entries entry
   set is_completed = p_status = 'completed',
       is_in_progress = p_status = 'in_progress',
+      is_more_than_half_completed = p_status = 'more_than_half_completed',
       is_previous_incomplete = p_status = 'previous_incomplete',
       completed_at = case when p_status = 'completed' then pg_catalog.clock_timestamp() else null end,
       completion_source = case when p_status = 'completed' then p_actor_source else null end,
@@ -424,9 +425,10 @@ begin
   where entry.student_id = p_student_id
     and entry.id = requested.entry_id
     and entry.updated_at = requested.expected_updated_at
-    and (entry.is_completed, entry.is_in_progress, entry.is_previous_incomplete)
+    and (entry.is_completed, entry.is_in_progress, entry.is_more_than_half_completed, entry.is_previous_incomplete)
       is distinct from (
-        p_status = 'completed', p_status = 'in_progress', p_status = 'previous_incomplete'
+        p_status = 'completed', p_status = 'in_progress', p_status = 'more_than_half_completed',
+        p_status = 'previous_incomplete'
       );
   get diagnostics v_changed_count = row_count;
 
@@ -434,6 +436,7 @@ begin
     'id', entry.id,
     'isCompleted', entry.is_completed,
     'isInProgress', entry.is_in_progress,
+    'isMoreThanHalfCompleted', entry.is_more_than_half_completed,
     'isPreviousIncomplete', entry.is_previous_incomplete,
     'completedAt', entry.completed_at,
     'updatedAt', entry.updated_at

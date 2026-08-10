@@ -39,7 +39,8 @@
     { id: "leisurely-reading", href: "leisurely-reading.html", zh: "英文導讀系統", en: "Leisurely Reading" },
     { id: "english-humour-speaking", href: "english-humour-speaking.html", zh: "英文幽默會話系統", en: "English Humour / Speaking" },
     { id: "english-humour-writing", href: "english-humour-writing.html", zh: "英文幽默寫作系統", en: "English Humour / Speaking" },
-    { id: "english-joke-collection", href: "english-joke-collection.html", zh: "英文笑話收集站", en: "English Joke / Collection" }
+    { id: "english-joke-collection", href: "english-joke-collection.html", zh: "英文笑話收集站", en: "English Joke / Collection" },
+    { id: "argument-learning", href: "argument-learning-system.html", zh: "論證 / 論據 / 論點 學習系統", en: "Argument learning" }
   ]);
 
   const SESSION_KEYS = Object.freeze({
@@ -77,6 +78,7 @@
     "english-humour-speaking": "edmund-learning-portal-english-humour-speaking-session-v1",
     "english-humour-writing": "edmund-learning-portal-english-humour-writing-session-v1",
     "english-joke-collection": "edmund-learning-portal-english-joke-collection-session-v1",
+    "argument-learning": "edmund-learning-portal-argument-learning-session-v1",
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession"
   });
@@ -85,7 +87,7 @@
     "quotes", "grammar", "collocation", "irregular-verb", "thematic-vocabulary", "part-of-speech",
     "synonyms", "error-identifier", "learning-roadmap", "spelling", "reading-logic", "translation-skills",
     "business-school", "complex-questions", "leisurely-reading", "english-humour-speaking",
-    "english-humour-writing", "english-joke-collection"
+    "english-humour-writing", "english-joke-collection", "argument-learning"
   ]);
 
   function storageJson(storage, key) {

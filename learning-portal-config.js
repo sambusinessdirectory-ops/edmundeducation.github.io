@@ -19,7 +19,8 @@
     { ordinal: 44, id: "leisurely-reading", href: "leisurely-reading.html", lines: ["Leisurely Reading", "英文導讀系統"], dashboard: false, hue: 118 },
     { ordinal: 45, id: "english-humour-speaking", href: "english-humour-speaking.html", lines: ["English Humour", "Speaking", "英文幽默會話系統"], dashboard: true, hue: 52 },
     { ordinal: 46, id: "english-humour-writing", href: "english-humour-writing.html", lines: ["English Humour", "Speaking", "英文幽默寫作系統"], dashboard: true, hue: 332 },
-    { ordinal: 47, id: "english-joke-collection", href: "english-joke-collection.html", lines: ["English Joke", "Collection", "英文笑話收集站"], dashboard: false, hue: 202 }
+    { ordinal: 47, id: "english-joke-collection", href: "english-joke-collection.html", lines: ["English Joke", "Collection", "英文笑話收集站"], dashboard: false, hue: 202 },
+    { ordinal: 48, id: "argument-learning", href: "argument-learning-system.html", lines: ["Argument learning", "論證 / 論據 / 論點 學習系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 268 }
   ].map((portal) => Object.freeze({
     ...portal,
     titleEn: portal.lines[0],
@@ -28,12 +29,14 @@
   }));
 
   window.EDMUND_LEARNING_PORTALS = Object.freeze(portals);
-  window.EDMUND_HOMEWORK_RESOURCES = Object.freeze(portals.map((portal) => Object.freeze({
+  window.EDMUND_HOMEWORK_RESOURCES = Object.freeze(portals
+    .filter((portal) => portal.homework !== false)
+    .map((portal) => Object.freeze({
     id: `learning-portal:${portal.id}`,
     type: "learning-portal",
     ordinal: portal.ordinal,
     label: portal.lines.join(" / "),
     detail: `學生學習系統 · ${portal.lines.slice(1).join(" / ")}`,
     url: portal.href
-  })));
+    })));
 })();

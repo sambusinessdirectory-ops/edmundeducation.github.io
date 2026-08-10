@@ -40,6 +40,11 @@ import {
   resetWritingStopwatch,
   startWritingStopwatch
 } from "./writing-submission-stopwatch.js?v=20260810-drafts-admin2";
+import {
+  canonicalAccessibleWritingTopic,
+  normalizeWritingTopicAccess,
+  writingTopicAccessAllows
+} from "./writing-submission-topic-access.js?v=20260810-topic-access1";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -47,10 +52,12 @@ const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const TOPIC_CATALOG_VERSION = "20260807-phrasal1";
+const TOPIC_REFERENCE_VERSION = "20260810-1";
 const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
 const HARPER_VERSION = "2.7.0";
 const ESL_RULESET_VERSION = "2.0.0";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+const essayPortals = window.EDMUND_ESSAY_PORTALS || null;
 
 const elements = {
   views: [...document.querySelectorAll("[data-view]")],
@@ -78,6 +85,7 @@ const elements = {
   topicPickerSearch: document.querySelector("[data-topic-picker-search]"),
   topicPickerResults: document.querySelector("[data-topic-picker-results]"),
   selectedTopicPreview: document.querySelector("[data-selected-topic-preview]"),
+  topicReferenceArea: document.querySelector("[data-topic-reference-area]"),
   writingInput: document.querySelector("[data-writing-input]"),
   wordCount: document.querySelector("[data-word-count]"),
   writingTimerToggle: document.querySelector("[data-writing-timer-toggle]"),
@@ -149,7 +157,8 @@ const state = {
   supabase: null,
   user: null,
   authToken: "",
-  studentAccess: {},
+  studentAccess: Object.create(null),
+  studentAccessReady: false,
   currentView: "login",
   grammarDetectionEnabled: true,
   preferenceSavePromise: null,
@@ -194,6 +203,9 @@ const state = {
   submissionPromise: null,
   topicCatalog: [],
   topicCatalogPromise: null,
+  topicReferenceCatalog: null,
+  topicReferencePromise: null,
+  topicReferenceImportAttempt: 0,
   manualRecheckTimer: null,
   toastTimer: null,
   submissions: [],
@@ -449,7 +461,8 @@ function clearSession() {
   state.pendingChecks = 0;
   state.user = null;
   state.authToken = "";
-  state.studentAccess = {};
+  state.studentAccess = Object.create(null);
+  state.studentAccessReady = false;
   state.grammarDetectionEnabled = true;
   state.activeIssues = [];
   state.appliedCorrections = [];
@@ -495,9 +508,11 @@ async function studentLogin(username, password) {
   if (error) throw error;
   const row = Array.isArray(data) ? data[0] : null;
   if (!row?.session_token) return null;
+  const access = normalizeWritingTopicAccess(row.access);
+  if (!access) throw new Error("暫時未能核對寫作題目權限，請稍後再試。");
   return {
     token: String(row.session_token),
-    access: row.access && typeof row.access === "object" && !Array.isArray(row.access) ? row.access : undefined,
+    access,
     user: {
       id: String(row.id || ""),
       name: String(row.name || username),
@@ -532,13 +547,21 @@ async function validateRestoredSession() {
     name: String(saved.name || ""),
     role: saved.role
   };
-  state.studentAccess = saved.role === "student" && saved.access && typeof saved.access === "object"
-    ? saved.access
-    : {};
+  // Browser storage is identity continuity only. Permissions may have changed
+  // since the previous page/session and are restored from the canonical
+  // database-backed profile below.
+  state.studentAccess = Object.create(null);
+  state.studentAccessReady = false;
   try {
     const payload = await apiJson(saved.role === "admin" ? "/v1/admin/me" : "/v1/student/me");
     const profile = saved.role === "admin" ? payload?.admin : payload?.student;
     if (!profile?.id || !profile?.name) throw new Error("Invalid restored profile");
+    if (saved.role === "student") {
+      const access = normalizeWritingTopicAccess(profile.access);
+      if (!access) throw new Error("Invalid restored topic access");
+      state.studentAccess = access;
+      state.studentAccessReady = true;
+    }
     state.user = { id: String(profile.id), name: String(profile.name), role: saved.role };
     saveSession();
     if (saved.role === "student") {
@@ -640,7 +663,263 @@ function writingTopicSearchTokens(value) {
 }
 
 function canAccessWritingTopic(resource) {
-  return !resource.sectionKey || state.studentAccess?.[resource.sectionKey] !== false;
+  return writingTopicAccessAllows(
+    resource,
+    state.studentAccess,
+    state.studentAccessReady
+  );
+}
+
+function canonicalWritingTopicResource(resource = state.selectedTopicResource) {
+  return canonicalAccessibleWritingTopic(
+    state.topicCatalog,
+    resource,
+    state.studentAccess,
+    state.studentAccessReady
+  );
+}
+
+async function resolvePersistedWritingTopicResource(resource) {
+  const normalized = normalizeWritingTopicResource(resource);
+  if (!normalized?.id) return null;
+  try {
+    await loadWritingTopicCatalog();
+  } catch (error) {
+    console.warn("Writing topic permission catalogue failed", error);
+    return null;
+  }
+  return canonicalWritingTopicResource(normalized);
+}
+
+function writingExerciseIdFromTopicResource(resource) {
+  const id = String(resource?.id || "");
+  return id.startsWith("fill:") ? id.slice(5) : "";
+}
+
+function selectedTopicReferenceRoute(resource = state.selectedTopicResource) {
+  const canonical = canonicalWritingTopicResource(resource);
+  if (!canonical || !essayPortals) return null;
+  const exerciseId = writingExerciseIdFromTopicResource(canonical);
+  const essayKey = essayPortals.fromWritingExerciseId(exerciseId);
+  if (!exerciseId || !essayKey || !essayPortals.hasWritingPractice(essayKey)) return null;
+  const hasFlashcards = essayPortals.hasFlashcards(essayKey);
+  return {
+    exerciseId,
+    essayKey,
+    hasFlashcards,
+    flashcardsHref: hasFlashcards ? essayPortals.href("flashcards", essayKey) : "",
+    writingHref: essayPortals.href("writing", essayKey)
+  };
+}
+
+function topicReferenceLinkRow(label, href, kind) {
+  const row = createElement("p", "topic-reference-link-row");
+  row.append(createElement("span", "", label));
+  const link = createElement("a", "topic-reference-clip", "📎");
+  link.href = href;
+  link.dataset.topicReferenceLink = kind;
+  link.setAttribute("aria-label", kind === "flashcards"
+    ? "前往相關 Flash Card"
+    : "前往相關 Fill In The Blanks 練習");
+  link.title = link.getAttribute("aria-label");
+  row.append(link);
+  return row;
+}
+
+function topicReferenceDetails(kind, label, exerciseId) {
+  const details = createElement("details", "topic-reference-details");
+  details.dataset.topicReferenceKind = kind;
+  details.dataset.topicReferenceExercise = exerciseId;
+  const summary = createElement("summary", "topic-reference-summary");
+  summary.append(
+    createElement("span", "topic-reference-book", "Open Book"),
+    createElement("strong", "", label),
+    createElement("span", "topic-reference-chevron", "+")
+  );
+  const content = createElement("div", "topic-reference-content");
+  content.dataset.topicReferenceContent = kind;
+  content.setAttribute("aria-live", "polite");
+  details.append(summary, content);
+  return details;
+}
+
+function renderSelectedTopicReferences() {
+  if (!elements.topicReferenceArea) return;
+  const route = selectedTopicReferenceRoute();
+  elements.topicReferenceArea.replaceChildren();
+  elements.topicReferenceArea.hidden = true;
+  if (!route) return;
+
+  const links = createElement("div", "topic-reference-links");
+  if (route.flashcardsHref) {
+    links.append(topicReferenceLinkRow(
+      "重溫 Flash Card 請按這裡：",
+      route.flashcardsHref,
+      "flashcards"
+    ));
+  }
+  if (route.writingHref) {
+    links.append(topicReferenceLinkRow(
+      "重溫 Fill In The Blanks 請按這裡：",
+      route.writingHref,
+      "writing"
+    ));
+  }
+
+  const disclosures = createElement("div", "topic-reference-disclosures");
+  disclosures.append(topicReferenceDetails(
+    "model-essay",
+    "展開以 Open Book 參考 Edmund 範文 Model Essay",
+    route.exerciseId
+  ));
+  if (route.hasFlashcards) {
+    disclosures.append(topicReferenceDetails(
+      "vocabulary",
+      "展開以 Open Book 參考 Edmund 主題性生字 Thematic Vocabulary",
+      route.exerciseId
+    ));
+  }
+  elements.topicReferenceArea.append(links, disclosures);
+  elements.topicReferenceArea.hidden = false;
+}
+
+async function loadTopicReferenceCatalog({ retry = false } = {}) {
+  if (state.topicReferenceCatalog && !retry) return state.topicReferenceCatalog;
+  if (retry) {
+    state.topicReferenceCatalog = null;
+    state.topicReferencePromise = null;
+    state.topicReferenceImportAttempt += 1;
+  }
+  if (!state.topicReferencePromise) {
+    const retryKey = state.topicReferenceImportAttempt
+      ? `&retry=${state.topicReferenceImportAttempt}`
+      : "";
+    state.topicReferencePromise = import(
+      `./writing-submission-reference-data.mjs?v=${TOPIC_REFERENCE_VERSION}${retryKey}`
+    )
+      .then((module) => {
+        const catalog = module.WRITING_SUBMISSION_REFERENCE_DATA;
+        if (!catalog || typeof catalog !== "object" || Array.isArray(catalog)) {
+          throw new Error("Writing reference catalogue is invalid");
+        }
+        state.topicReferenceCatalog = catalog;
+        return catalog;
+      })
+      .catch((error) => {
+        state.topicReferencePromise = null;
+        throw error;
+      });
+  }
+  return state.topicReferencePromise;
+}
+
+function topicReferenceError(content) {
+  const error = createElement("div", "topic-reference-error");
+  error.append(createElement("p", "", "暫時未能載入參考內容。您仍可使用上方連結前往相關練習。"));
+  const retry = createElement("button", "small-button topic-reference-retry", "重新載入");
+  retry.type = "button";
+  retry.dataset.topicReferenceRetry = "true";
+  error.append(retry);
+  content.replaceChildren(error);
+}
+
+function renderModelEssayReference(content, reference) {
+  const paragraphs = Array.isArray(reference?.paragraphs) ? reference.paragraphs : [];
+  if (!paragraphs.length) throw new Error("Model essay reference is empty");
+  const hasChinese = paragraphs.some((paragraph) => String(paragraph?.chinese || "").trim());
+  const toolbar = createElement("div", "topic-reference-toolbar");
+  toolbar.append(createElement("strong", "", "Edmund 範文 Model Essay"));
+  const toggle = createElement("label", "topic-reference-translation-toggle");
+  const checkbox = document.createElement("input");
+  checkbox.type = "checkbox";
+  checkbox.dataset.topicReferenceTranslationToggle = "true";
+  checkbox.disabled = !hasChinese;
+  toggle.append(checkbox, createElement("span", "", "中文翻譯"));
+  toolbar.append(toggle);
+
+  const essay = createElement("div", "topic-reference-model-essay");
+  for (const [index, paragraph] of paragraphs.entries()) {
+    const card = createElement("article", "topic-reference-paragraph");
+    card.append(
+      createElement("h4", "", paragraph?.label || `Paragraph ${index + 1}`),
+      createElement("p", "topic-reference-english", paragraph?.english || "")
+    );
+    if (paragraph?.chinese) {
+      const chinese = createElement("p", "topic-reference-chinese", paragraph.chinese);
+      chinese.dataset.topicReferenceChinese = "true";
+      chinese.hidden = true;
+      card.append(chinese);
+    }
+    essay.append(card);
+  }
+  content.replaceChildren(toolbar, essay);
+}
+
+function renderVocabularyReference(content, reference) {
+  const vocabulary = Array.isArray(reference?.vocabulary) ? reference.vocabulary : [];
+  if (!vocabulary.length) throw new Error("Thematic vocabulary reference is empty");
+  const head = createElement("div", "topic-reference-vocabulary-head");
+  head.append(
+    createElement("strong", "", "Edmund 主題性生字 Thematic Vocabulary"),
+    createElement("span", "", `${vocabulary.length} 組`)
+  );
+  const scroller = createElement("div", "topic-reference-table-scroll");
+  const table = createElement("table", "topic-reference-table");
+  const caption = createElement("caption", "sr-only", "Thematic Vocabulary English and Chinese glossary");
+  const tableHead = document.createElement("thead");
+  const headingRow = document.createElement("tr");
+  headingRow.append(
+    createElement("th", "", "English"),
+    createElement("th", "", "中文翻譯")
+  );
+  tableHead.append(headingRow);
+  const tableBody = document.createElement("tbody");
+  for (const row of vocabulary) {
+    const tableRow = document.createElement("tr");
+    tableRow.append(
+      createElement("td", "", row?.english || ""),
+      createElement("td", "", row?.chinese || "")
+    );
+    tableBody.append(tableRow);
+  }
+  table.append(caption, tableHead, tableBody);
+  scroller.append(table);
+  content.replaceChildren(head, scroller);
+}
+
+async function loadTopicReferenceDetails(details, { retry = false } = {}) {
+  if (!details?.open || details.dataset.topicReferenceLoaded === "true" && !retry) return;
+  const route = selectedTopicReferenceRoute();
+  if (!route || details.dataset.topicReferenceExercise !== route.exerciseId) return;
+  const content = details.querySelector("[data-topic-reference-content]");
+  if (!content) return;
+  content.replaceChildren(loadingState("正在載入 Edmund 參考內容…"));
+  try {
+    const catalog = await loadTopicReferenceCatalog({ retry });
+    const currentRoute = selectedTopicReferenceRoute();
+    if (
+      !details.isConnected
+      || !currentRoute
+      || currentRoute.exerciseId !== route.exerciseId
+      || details.dataset.topicReferenceExercise !== currentRoute.exerciseId
+    ) return;
+    const reference = catalog[route.exerciseId];
+    if (!reference || reference.essayKey !== route.essayKey) {
+      throw new Error(`Writing reference is missing for ${route.exerciseId}`);
+    }
+    if (details.dataset.topicReferenceKind === "model-essay") {
+      renderModelEssayReference(content, reference);
+    } else if (details.dataset.topicReferenceKind === "vocabulary") {
+      renderVocabularyReference(content, reference);
+    } else {
+      throw new Error("Unknown writing reference type");
+    }
+    details.dataset.topicReferenceLoaded = "true";
+  } catch (error) {
+    console.warn("Writing topic reference failed", error);
+    details.dataset.topicReferenceLoaded = "false";
+    if (details.isConnected) topicReferenceError(content);
+  }
 }
 
 async function loadWritingTopicCatalog() {
@@ -651,10 +930,16 @@ async function loadWritingTopicCatalog() {
         const source = Array.isArray(module.HOMEWORK_RESOURCE_CATALOG)
           ? module.HOMEWORK_RESOURCE_CATALOG
           : [];
-        state.topicCatalog = source
+        const catalog = source
           .filter(resource => resource?.type === "fill-blanks")
           .map(normalizeWritingTopicResource)
           .filter(Boolean);
+        const ids = new Set();
+        for (const resource of catalog) {
+          if (ids.has(resource.id)) throw new Error(`Duplicate writing topic resource: ${resource.id}`);
+          ids.add(resource.id);
+        }
+        state.topicCatalog = catalog;
         return state.topicCatalog;
       })
       .finally(() => { state.topicCatalogPromise = null; });
@@ -663,12 +948,13 @@ async function loadWritingTopicCatalog() {
 }
 
 function renderSelectedTopicPreview() {
-  const resource = normalizeWritingTopicResource(state.selectedTopicResource);
+  const resource = canonicalWritingTopicResource(state.selectedTopicResource);
   state.selectedTopicResource = resource;
   if (!elements.selectedTopicPreview) return;
   if (!resource?.questionImages.length) {
     elements.selectedTopicPreview.hidden = true;
     elements.selectedTopicPreview.replaceChildren();
+    renderSelectedTopicReferences();
     return;
   }
   const head = createElement("div", "selected-topic-preview-head");
@@ -705,6 +991,7 @@ function renderSelectedTopicPreview() {
   }
   elements.selectedTopicPreview.replaceChildren(head, images);
   elements.selectedTopicPreview.hidden = false;
+  renderSelectedTopicReferences();
 }
 
 function writingTopicResultHaystack(resource) {
@@ -783,7 +1070,7 @@ function closeWritingTopicPicker() {
 }
 
 function selectWritingTopic(resourceId) {
-  const resource = state.topicCatalog.find(item => item.id === resourceId && canAccessWritingTopic(item));
+  const resource = canonicalWritingTopicResource(resourceId);
   if (!resource) return;
   const topic = resource.questionPrompt.length
     ? resource.questionPrompt.join("\n\n")
@@ -844,7 +1131,7 @@ function persistDraft() {
       writingTimer: normalizeWritingTimer(state.writingTimer),
       writingStopwatch: normalizeWritingStopwatch(state.writingStopwatch),
       writingImageZoom: state.writingImageZoom,
-      selectedTopicResource: state.selectedTopicResource,
+      selectedTopicResource: canonicalWritingTopicResource(state.selectedTopicResource),
       savedAt: new Date().toISOString()
     }));
   } catch {
@@ -1184,7 +1471,7 @@ function startNewDraft({ preserveView = false } = {}) {
   window.setTimeout(() => elements.topicInput.focus(), 0);
 }
 
-function restoreDraft() {
+async function restoreDraft() {
   window.clearTimeout(state.manualRecheckTimer);
   state.manualRecheckTimer = null;
   state.checkGeneration += 1;
@@ -1193,6 +1480,9 @@ function restoreDraft() {
   state.pendingChecks = 0;
   restoreIssueQueue();
   const draft = readDraft();
+  const selectedTopicResource = await resolvePersistedWritingTopicResource(
+    draft?.selectedTopicResource
+  );
   state.documentId = draft?.documentId || newDocumentId();
   state.draftDurationSeconds = draft?.durationSeconds || 0;
   state.submissionDurationSeconds = draft?.submissionDurationSeconds ?? null;
@@ -1205,7 +1495,7 @@ function restoreDraft() {
   state.appliedCorrections = [];
   elements.topicInput.value = draft?.topic || "";
   elements.writingInput.value = draft?.answer || "";
-  state.selectedTopicResource = draft?.selectedTopicResource || null;
+  state.selectedTopicResource = selectedTopicResource;
   renderSelectedTopicPreview();
   state.previousWriting = elements.writingInput.value;
   updateEditorMetrics();
@@ -2547,7 +2837,7 @@ function currentServerDraftPayload() {
   return {
     topic: elements.topicInput.value,
     answer: elements.writingInput.value,
-    topicResource: normalizeWritingTopicResource(state.selectedTopicResource),
+    topicResource: canonicalWritingTopicResource(state.selectedTopicResource),
     imageZoom: state.writingImageZoom,
     countdown: normalizeWritingTimer(state.writingTimer),
     stopwatch: normalizeWritingStopwatch(state.writingStopwatch),
@@ -2624,7 +2914,8 @@ async function loadDrafts() {
   renderDraftList();
 }
 
-function loadDraftIntoWorkspace(draft) {
+async function loadDraftIntoWorkspace(draft) {
+  const selectedTopicResource = await resolvePersistedWritingTopicResource(draft.topicResource);
   window.clearTimeout(state.manualRecheckTimer);
   state.manualRecheckTimer = null;
   state.checkGeneration += 1;
@@ -2644,7 +2935,7 @@ function loadDraftIntoWorkspace(draft) {
   state.dismissedIssueIds.clear();
   elements.topicInput.value = draft.topic;
   elements.writingInput.value = draft.answer;
-  state.selectedTopicResource = draft.topicResource;
+  state.selectedTopicResource = selectedTopicResource;
   renderSelectedTopicPreview();
   updateEditorMetrics();
   if (state.writingTimer.durationSeconds) setWritingTimerInputs(state.writingTimer.durationSeconds);
@@ -2666,7 +2957,7 @@ async function resumeServerDraft(id) {
   const payload = await apiJson(`/v1/drafts/${encodeURIComponent(id)}`);
   const draft = normalizeServerDraft(payload?.draft || payload);
   if (!UUID_RE.test(draft.id)) throw new Error("未能載入草稿。");
-  loadDraftIntoWorkspace(draft);
+  await loadDraftIntoWorkspace(draft);
 }
 
 async function deleteServerDraft(id) {
@@ -3464,9 +3755,8 @@ async function handleLogin(event) {
     if (!result) throw new Error("用戶名稱或密碼不正確。");
     state.authToken = result.token;
     state.user = result.user;
-    state.studentAccess = !isAdmin && result.access && typeof result.access === "object"
-      ? result.access
-      : {};
+    state.studentAccess = !isAdmin ? result.access : Object.create(null);
+    state.studentAccessReady = !isAdmin;
     if (!isAdmin) {
       window.EdmundSystemNav?.rememberStudentSession({
         token: result.token,
@@ -3485,7 +3775,7 @@ async function handleLogin(event) {
       showToast("管理員登入成功。", "success");
     } else {
       await loadWritingPreferences();
-      restoreDraft();
+      await restoreDraft();
       elements.workspaceWelcome.textContent = `您好，${state.user.name}！先輸入寫作題目，再專心完成文章。`;
       showView("workspace");
       if (state.grammarDetectionEnabled) prepareGrammarChecker();
@@ -3595,6 +3885,12 @@ function bindEvents() {
     renderAdminSubmissions();
   });
   document.addEventListener("toggle", (event) => {
+    const topicReference = event.target.closest?.("[data-topic-reference-kind]");
+    if (topicReference?.open) {
+      loadTopicReferenceDetails(topicReference).catch((error) => {
+        console.warn("Writing topic reference toggle failed", error);
+      });
+    }
     const details = event.target.closest?.("[data-grammar-problem-index]");
     if (details) {
       const index = Number(details.dataset.grammarProblemIndex);
@@ -3617,6 +3913,12 @@ function bindEvents() {
     }
   }, true);
   document.addEventListener("click", (event) => {
+    const topicReferenceRetry = event.target.closest("[data-topic-reference-retry]");
+    if (topicReferenceRetry) {
+      const details = topicReferenceRetry.closest("[data-topic-reference-kind]");
+      if (details) loadTopicReferenceDetails(details, { retry: true }).catch(handleViewError);
+      return;
+    }
     const apply = event.target.closest("[data-apply-issue]");
     if (apply) return applyGrammarIssue(apply.dataset.applyIssue);
     const dismiss = event.target.closest("[data-dismiss-issue]");
@@ -3674,6 +3976,14 @@ function bindEvents() {
     }
   });
   document.addEventListener("change", (event) => {
+    const translationToggle = event.target.closest("[data-topic-reference-translation-toggle]");
+    if (translationToggle) {
+      const content = translationToggle.closest("[data-topic-reference-content]");
+      content?.querySelectorAll("[data-topic-reference-chinese]").forEach((paragraph) => {
+        paragraph.hidden = !translationToggle.checked;
+      });
+      return;
+    }
     const zoom = event.target.closest("[data-topic-image-zoom]");
     if (!zoom) return;
     const value = Number(zoom.value);
@@ -3742,7 +4052,7 @@ async function initialise() {
     await openAdminDashboard();
   } else {
     await loadWritingPreferences();
-    restoreDraft();
+    await restoreDraft();
     elements.workspaceWelcome.textContent = `您好，${state.user.name}！先輸入寫作題目，再專心完成文章。`;
     showView("workspace");
     if (state.grammarDetectionEnabled) prepareGrammarChecker();

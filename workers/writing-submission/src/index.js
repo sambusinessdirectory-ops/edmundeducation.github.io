@@ -497,6 +497,7 @@ async function authenticateStudent(request, env) {
     id: String(row.id).toLowerCase(),
     name: String(row.name || ""),
     expiresAt: String(row.session_expires_at || ""),
+    access: normalizeStudentAccess(row.access),
     token
   };
 }
@@ -694,8 +695,22 @@ async function adminLogout(request, env) {
 async function studentMe(request, env) {
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  if (!student.access) {
+    throw new HttpError(
+      502,
+      "INVALID_UPSTREAM_RESPONSE",
+      "Student topic permissions returned an invalid response"
+    );
+  }
   return json(
-    { student: { id: student.id, name: student.name, expiresAt: student.expiresAt } },
+    {
+      student: {
+        id: student.id,
+        name: student.name,
+        expiresAt: student.expiresAt,
+        access: student.access
+      }
+    },
     200,
     request,
     env
@@ -752,6 +767,26 @@ function isPlainObject(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return false;
   const prototype = Object.getPrototypeOf(value);
   return prototype === Object.prototype || prototype === null;
+}
+
+function normalizeStudentAccess(value) {
+  if (!isPlainObject(value)) return null;
+  const normalized = {};
+  for (const [rawKey, allowed] of Object.entries(value)) {
+    const key = String(rawKey || "");
+    // This reserved Flashcard metadata field is display-only. Exclude it from
+    // the authorization map while keeping every real permission boolean-only.
+    if (key === "__adminMessage") continue;
+    if (
+      !key
+      || key.length > 100
+      || key.trim() !== key
+      || CONTROL_RE.test(key)
+      || typeof allowed !== "boolean"
+    ) return null;
+    normalized[key] = allowed;
+  }
+  return normalized;
 }
 
 function hasExactKeys(value, expected) {

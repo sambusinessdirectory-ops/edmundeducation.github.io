@@ -27,7 +27,8 @@ const entries = [
     message: "Sentence Structure 3",
     estimatedMinutes: null,
     source: "student",
-    isInProgress: true
+    isInProgress: false,
+    isMoreThanHalfCompleted: true
   }
 ];
 
@@ -52,7 +53,7 @@ assert.deepEqual(payload.items, [
   }
 ]);
 const payloadText = JSON.stringify(payload);
-assert.doesNotMatch(payloadText, /monday-2|friday-7|updatedAt|isCompleted|isInProgress|"source"/);
+assert.doesNotMatch(payloadText, /monday-2|friday-7|updatedAt|isCompleted|isInProgress|isMoreThanHalfCompleted|"source"/);
 
 const serialized = serializeScheduleClipboard(payload, { now });
 assert.ok(serialized.startsWith(SCHEDULE_CLIPBOARD_PREFIX));

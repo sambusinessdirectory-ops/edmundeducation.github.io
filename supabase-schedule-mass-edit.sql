@@ -29,6 +29,7 @@ declare
   v_has_status boolean;
   v_is_completed boolean;
   v_is_in_progress boolean;
+  v_is_more_than_half_completed boolean;
   v_is_previous_incomplete boolean;
   v_preserve_completion_metadata boolean;
   v_result jsonb;
@@ -76,7 +77,7 @@ begin
     from pg_catalog.jsonb_array_elements(p_changes)
   loop
     if pg_catalog.jsonb_typeof(v_item) <> 'object'
-      or (select count(*) from pg_catalog.jsonb_object_keys(v_item)) not between 6 and 10
+      or (select count(*) from pg_catalog.jsonb_object_keys(v_item)) not between 6 and 11
       or exists (
         select 1
         from pg_catalog.jsonb_object_keys(v_item) as key_row(key_name)
@@ -90,6 +91,7 @@ begin
           'source',
           'isCompleted',
           'isInProgress',
+          'isMoreThanHalfCompleted',
           'isPreviousIncomplete'
         )
       )
@@ -105,11 +107,13 @@ begin
         (
           not (v_item ? 'isCompleted')
           and not (v_item ? 'isInProgress')
+          and not (v_item ? 'isMoreThanHalfCompleted')
           and not (v_item ? 'isPreviousIncomplete')
         )
         or (
           v_item ? 'isCompleted'
           and v_item ? 'isInProgress'
+          and v_item ? 'isMoreThanHalfCompleted'
           and v_item ? 'isPreviousIncomplete'
         )
       )
@@ -168,10 +172,12 @@ begin
           and (
             pg_catalog.jsonb_typeof(v_item -> 'isCompleted') <> 'boolean'
             or pg_catalog.jsonb_typeof(v_item -> 'isInProgress') <> 'boolean'
+            or pg_catalog.jsonb_typeof(v_item -> 'isMoreThanHalfCompleted') <> 'boolean'
             or pg_catalog.jsonb_typeof(v_item -> 'isPreviousIncomplete') <> 'boolean'
             or (
               (v_item ->> 'isCompleted')::boolean::integer
               + (v_item ->> 'isInProgress')::boolean::integer
+              + (v_item ->> 'isMoreThanHalfCompleted')::boolean::integer
               + (v_item ->> 'isPreviousIncomplete')::boolean::integer
             ) > 1
           )
@@ -184,6 +190,7 @@ begin
       or (v_has_status and (
         pg_catalog.jsonb_typeof(v_item -> 'isCompleted') <> 'null'
         or pg_catalog.jsonb_typeof(v_item -> 'isInProgress') <> 'null'
+        or pg_catalog.jsonb_typeof(v_item -> 'isMoreThanHalfCompleted') <> 'null'
         or pg_catalog.jsonb_typeof(v_item -> 'isPreviousIncomplete') <> 'null'
       ))
       or v_expected_updated_at is null
@@ -276,6 +283,7 @@ begin
       if v_has_status then
         v_is_completed := (v_item ->> 'isCompleted')::boolean;
         v_is_in_progress := (v_item ->> 'isInProgress')::boolean;
+        v_is_more_than_half_completed := (v_item ->> 'isMoreThanHalfCompleted')::boolean;
         v_is_previous_incomplete := (v_item ->> 'isPreviousIncomplete')::boolean;
         v_preserve_completion_metadata := v_is_completed
           and v_existing.id is not null
@@ -298,6 +306,7 @@ begin
         update public.schedule_entries entry
         set is_completed = v_is_completed,
             is_in_progress = v_is_in_progress,
+            is_more_than_half_completed = v_is_more_than_half_completed,
             is_previous_incomplete = v_is_previous_incomplete,
             completed_at = case
               when v_is_completed and v_preserve_completion_metadata then coalesce(v_existing.completed_at, now())

@@ -13,6 +13,54 @@ explicitly granted by `../../supabase-writing-submission.sql`.
 
 ## Secure bootstrap
 
+### Existing-installation topic-access upgrade (required)
+
+An existing Writing Submission installation must use the incremental
+`../../supabase-writing-submission-topic-access.sql` migration before the
+matching Worker or browser assets are released. Use this exact rollout order:
+
+1. Apply `../../supabase-writing-submission-topic-access.sql` in a private
+   Supabase SQL session.
+2. Verify that `writing_submission_student_profile(uuid)` has the new
+   four-column result (`id`, `name`, `session_expires_at`, `access`) and that
+   only `service_role` can execute it:
+
+   ```sql
+   select
+     pg_get_function_result(
+       'public.writing_submission_student_profile(uuid)'::regprocedure
+     ) as result_type,
+     has_function_privilege(
+       'service_role',
+       'public.writing_submission_student_profile(uuid)',
+       'EXECUTE'
+     ) as service_role_can_execute,
+     has_function_privilege(
+       'anon',
+       'public.writing_submission_student_profile(uuid)',
+       'EXECUTE'
+     ) as anon_can_execute,
+     has_function_privilege(
+       'authenticated',
+       'public.writing_submission_student_profile(uuid)',
+       'EXECUTE'
+     ) as authenticated_can_execute;
+   ```
+
+   The result type must list all four columns, with `access jsonb` last.
+   `service_role_can_execute` must be `true`; both browser-role values must be
+   `false`.
+3. Deploy this Writing Submission Worker.
+4. Publish the matching static Pages/site assets.
+
+Do not use `../../supabase-writing-submission.sql` as an in-place upgrade for
+an existing database. That core bootstrap file now declares a four-column
+table return type, while existing installations have the earlier three-column
+function. PostgreSQL does not allow `CREATE OR REPLACE FUNCTION` to change a
+function's table return type. The incremental topic-access migration performs
+the required drop and recreation atomically inside a transaction and restores
+the service-role-only ACL.
+
 ### 1. Apply the migration
 
 Apply the repository's shared Flashcard-account migrations first. Then run
@@ -126,7 +174,9 @@ returned by this Worker's admin login.
 
 ### Sessions
 
-- `GET /v1/student/me`
+- `GET /v1/student/me` — restores the canonical student identity and current
+  Writing Practice section-access map. Browser/session-storage permissions are
+  never accepted as authorization.
 - `POST /v1/admin/login` with `{ "username", "password" }`
 - `GET /v1/admin/me`
 - `POST /v1/admin/logout`

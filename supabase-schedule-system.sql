@@ -167,6 +167,8 @@ alter table public.schedule_entries
 alter table public.schedule_entries
   add column if not exists is_in_progress boolean not null default false;
 alter table public.schedule_entries
+  add column if not exists is_more_than_half_completed boolean not null default false;
+alter table public.schedule_entries
   add column if not exists is_previous_incomplete boolean not null default false;
 alter table public.schedule_entries
   add column if not exists estimated_minutes integer;
@@ -225,7 +227,12 @@ begin
     drop constraint if exists schedule_entries_progress_state_check;
   alter table public.schedule_entries
     add constraint schedule_entries_progress_state_check check (
-      (is_completed::integer + is_in_progress::integer + is_previous_incomplete::integer) <= 1
+      (
+        is_completed::integer
+        + is_in_progress::integer
+        + is_more_than_half_completed::integer
+        + is_previous_incomplete::integer
+      ) <= 1
     );
 
   if not exists (
@@ -668,8 +675,12 @@ begin
       estimated_minutes = p_estimated_minutes,
       is_completed = v_entry.is_completed,
       is_in_progress = case when v_entry.is_completed then false else v_entry.is_in_progress end,
-      is_previous_incomplete = case
+      is_more_than_half_completed = case
         when v_entry.is_completed or v_entry.is_in_progress then false
+        else v_entry.is_more_than_half_completed
+      end,
+      is_previous_incomplete = case
+        when v_entry.is_completed or v_entry.is_in_progress or v_entry.is_more_than_half_completed then false
         else v_entry.is_previous_incomplete
       end,
       completed_at = v_entry.completed_at,
@@ -688,6 +699,7 @@ begin
     'source', v_entry.source,
     'isCompleted', v_entry.is_completed,
     'isInProgress', v_entry.is_in_progress,
+    'isMoreThanHalfCompleted', v_entry.is_more_than_half_completed,
     'isPreviousIncomplete', v_entry.is_previous_incomplete,
     'estimatedMinutes', v_entry.estimated_minutes,
     'spanGroupId', v_entry.span_group_id,
@@ -780,6 +792,7 @@ begin
   update public.schedule_entries entry
   set is_in_progress = p_in_progress,
       is_completed = case when p_in_progress then false else entry.is_completed end,
+      is_more_than_half_completed = case when p_in_progress then false else entry.is_more_than_half_completed end,
       is_previous_incomplete = case when p_in_progress then false else entry.is_previous_incomplete end,
       completed_at = case when p_in_progress then null else entry.completed_at end,
       completion_source = case when p_in_progress then null else entry.completion_source end,
@@ -793,6 +806,7 @@ begin
     'id', v_entry.id,
     'isInProgress', v_entry.is_in_progress,
     'isCompleted', v_entry.is_completed,
+    'isMoreThanHalfCompleted', v_entry.is_more_than_half_completed,
     'isPreviousIncomplete', v_entry.is_previous_incomplete,
     'updatedAt', v_entry.updated_at
   );
@@ -859,6 +873,9 @@ begin
   set is_previous_incomplete = p_previous_incomplete,
       is_completed = case when p_previous_incomplete then false else entry.is_completed end,
       is_in_progress = case when p_previous_incomplete then false else entry.is_in_progress end,
+      is_more_than_half_completed = case
+        when p_previous_incomplete then false else entry.is_more_than_half_completed
+      end,
       completed_at = case when p_previous_incomplete then null else entry.completed_at end,
       completion_source = case when p_previous_incomplete then null else entry.completion_source end,
       completed_by_admin = case when p_previous_incomplete then null else entry.completed_by_admin end,
@@ -871,6 +888,7 @@ begin
     'id', v_entry.id,
     'isPreviousIncomplete', v_entry.is_previous_incomplete,
     'isInProgress', v_entry.is_in_progress,
+    'isMoreThanHalfCompleted', v_entry.is_more_than_half_completed,
     'isCompleted', v_entry.is_completed,
     'updatedAt', v_entry.updated_at
   );
@@ -1196,6 +1214,7 @@ begin
   update public.schedule_entries entry
   set is_completed = p_completed,
       is_in_progress = case when p_completed then false else entry.is_in_progress end,
+      is_more_than_half_completed = case when p_completed then false else entry.is_more_than_half_completed end,
       is_previous_incomplete = case when p_completed then false else entry.is_previous_incomplete end,
       completed_at = case when p_completed then now() else null end,
       completion_source = case when p_completed then p_actor_source else null end,
@@ -1226,6 +1245,9 @@ begin
     'message', v_entry.message,
     'source', v_entry.source,
     'isCompleted', v_entry.is_completed,
+    'isInProgress', v_entry.is_in_progress,
+    'isMoreThanHalfCompleted', v_entry.is_more_than_half_completed,
+    'isPreviousIncomplete', v_entry.is_previous_incomplete,
     'completedAt', v_entry.completed_at,
     'completionSource', v_entry.completion_source,
     'updatedAt', v_entry.updated_at
@@ -1472,6 +1494,9 @@ begin
   update public.schedule_entries schedule_entry
   set is_completed = p_completed,
       is_in_progress = case when p_completed then false else schedule_entry.is_in_progress end,
+      is_more_than_half_completed = case
+        when p_completed then false else schedule_entry.is_more_than_half_completed
+      end,
       is_previous_incomplete = case when p_completed then false else schedule_entry.is_previous_incomplete end,
       completed_at = case when p_completed then now() else null end,
       completion_source = case when p_completed then p_actor_source else null end,
@@ -1497,6 +1522,9 @@ begin
         'message', schedule_entry.message,
         'source', schedule_entry.source,
         'isCompleted', schedule_entry.is_completed,
+        'isInProgress', schedule_entry.is_in_progress,
+        'isMoreThanHalfCompleted', schedule_entry.is_more_than_half_completed,
+        'isPreviousIncomplete', schedule_entry.is_previous_incomplete,
         'completedAt', schedule_entry.completed_at,
         'completionSource', schedule_entry.completion_source,
         'updatedAt', schedule_entry.updated_at
@@ -2611,6 +2639,7 @@ as $$
           'source', entry.source,
           'isCompleted', entry.is_completed,
           'isInProgress', entry.is_in_progress,
+          'isMoreThanHalfCompleted', entry.is_more_than_half_completed,
           'isPreviousIncomplete', entry.is_previous_incomplete,
           'estimatedMinutes', entry.estimated_minutes,
           'spanGroupId', entry.span_group_id,
@@ -2767,13 +2796,15 @@ begin
 
   insert into public.schedule_entries (
     student_id, schedule_date, slot_index, message, source, created_by_admin,
-    is_completed, is_in_progress, is_previous_incomplete, estimated_minutes, completed_at,
+    is_completed, is_in_progress, is_more_than_half_completed, is_previous_incomplete,
+    estimated_minutes, completed_at,
     completion_source, completed_by_admin, span_group_id
   )
   select
     p_student_id, day.schedule_date::date, v_common_slot,
     v_entry.message, v_entry.source, v_entry.created_by_admin,
-    v_entry.is_completed, v_entry.is_in_progress, v_entry.is_previous_incomplete, v_entry.estimated_minutes,
+    v_entry.is_completed, v_entry.is_in_progress, v_entry.is_more_than_half_completed,
+    v_entry.is_previous_incomplete, v_entry.estimated_minutes,
     v_entry.completed_at, v_entry.completion_source, v_entry.completed_by_admin, v_group_id
   from pg_catalog.generate_series(v_start::timestamp, v_end::timestamp, interval '1 day') day(schedule_date)
   where not exists (
@@ -2919,12 +2950,14 @@ begin
   if v_target.id is not null then
     insert into public.schedule_entries (
       id, student_id, schedule_date, slot_index, message, source, created_by_admin,
-      is_completed, is_in_progress, is_previous_incomplete, estimated_minutes, span_group_id,
+      is_completed, is_in_progress, is_more_than_half_completed, is_previous_incomplete,
+      estimated_minutes, span_group_id,
       completed_at, completion_source, completed_by_admin, created_at, updated_at
     ) values (
       v_target.id, v_target.student_id, p_source_date, p_source_slot_index,
       v_target.message, v_target.source, v_target.created_by_admin,
-      v_target.is_completed, v_target.is_in_progress, v_target.is_previous_incomplete, v_target.estimated_minutes, null,
+      v_target.is_completed, v_target.is_in_progress, v_target.is_more_than_half_completed,
+      v_target.is_previous_incomplete, v_target.estimated_minutes, null,
       v_target.completed_at, v_target.completion_source, v_target.completed_by_admin,
       v_target.created_at, now()
     );
@@ -2939,6 +2972,7 @@ begin
     'source', v_source.source,
     'isCompleted', v_source.is_completed,
     'isInProgress', v_source.is_in_progress,
+    'isMoreThanHalfCompleted', v_source.is_more_than_half_completed,
     'isPreviousIncomplete', v_source.is_previous_incomplete,
     'estimatedMinutes', v_source.estimated_minutes,
     'swapped', v_target.id is not null,
@@ -3358,6 +3392,7 @@ declare
   v_has_status boolean;
   v_is_completed boolean;
   v_is_in_progress boolean;
+  v_is_more_than_half_completed boolean;
   v_is_previous_incomplete boolean;
   v_preserve_completion_metadata boolean;
   v_result jsonb;
@@ -3405,7 +3440,7 @@ begin
     from pg_catalog.jsonb_array_elements(p_changes)
   loop
     if pg_catalog.jsonb_typeof(v_item) <> 'object'
-      or (select count(*) from pg_catalog.jsonb_object_keys(v_item)) not between 6 and 10
+      or (select count(*) from pg_catalog.jsonb_object_keys(v_item)) not between 6 and 11
       or exists (
         select 1
         from pg_catalog.jsonb_object_keys(v_item) as key_row(key_name)
@@ -3419,6 +3454,7 @@ begin
           'source',
           'isCompleted',
           'isInProgress',
+          'isMoreThanHalfCompleted',
           'isPreviousIncomplete'
         )
       )
@@ -3434,11 +3470,13 @@ begin
         (
           not (v_item ? 'isCompleted')
           and not (v_item ? 'isInProgress')
+          and not (v_item ? 'isMoreThanHalfCompleted')
           and not (v_item ? 'isPreviousIncomplete')
         )
         or (
           v_item ? 'isCompleted'
           and v_item ? 'isInProgress'
+          and v_item ? 'isMoreThanHalfCompleted'
           and v_item ? 'isPreviousIncomplete'
         )
       )
@@ -3497,10 +3535,12 @@ begin
           and (
             pg_catalog.jsonb_typeof(v_item -> 'isCompleted') <> 'boolean'
             or pg_catalog.jsonb_typeof(v_item -> 'isInProgress') <> 'boolean'
+            or pg_catalog.jsonb_typeof(v_item -> 'isMoreThanHalfCompleted') <> 'boolean'
             or pg_catalog.jsonb_typeof(v_item -> 'isPreviousIncomplete') <> 'boolean'
             or (
               (v_item ->> 'isCompleted')::boolean::integer
               + (v_item ->> 'isInProgress')::boolean::integer
+              + (v_item ->> 'isMoreThanHalfCompleted')::boolean::integer
               + (v_item ->> 'isPreviousIncomplete')::boolean::integer
             ) > 1
           )
@@ -3513,6 +3553,7 @@ begin
       or (v_has_status and (
         pg_catalog.jsonb_typeof(v_item -> 'isCompleted') <> 'null'
         or pg_catalog.jsonb_typeof(v_item -> 'isInProgress') <> 'null'
+        or pg_catalog.jsonb_typeof(v_item -> 'isMoreThanHalfCompleted') <> 'null'
         or pg_catalog.jsonb_typeof(v_item -> 'isPreviousIncomplete') <> 'null'
       ))
       or v_expected_updated_at is null
@@ -3605,6 +3646,7 @@ begin
       if v_has_status then
         v_is_completed := (v_item ->> 'isCompleted')::boolean;
         v_is_in_progress := (v_item ->> 'isInProgress')::boolean;
+        v_is_more_than_half_completed := (v_item ->> 'isMoreThanHalfCompleted')::boolean;
         v_is_previous_incomplete := (v_item ->> 'isPreviousIncomplete')::boolean;
         v_preserve_completion_metadata := v_is_completed
           and v_existing.id is not null
@@ -3627,6 +3669,7 @@ begin
         update public.schedule_entries entry
         set is_completed = v_is_completed,
             is_in_progress = v_is_in_progress,
+            is_more_than_half_completed = v_is_more_than_half_completed,
             is_previous_incomplete = v_is_previous_incomplete,
             completed_at = case
               when v_is_completed and v_preserve_completion_metadata then coalesce(v_existing.completed_at, now())

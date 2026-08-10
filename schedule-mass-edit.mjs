@@ -65,6 +65,7 @@ export function planScheduleGroupShift({
   if (selected.some((entry) => (
     Number(entry.isCompleted === true)
     + Number(entry.isInProgress === true)
+    + Number(entry.isMoreThanHalfCompleted === true)
     + Number(entry.isPreviousIncomplete === true)
   ) > 1)) {
     throw new ScheduleGroupShiftError("status", "所選安排的狀態資料不一致，請重新載入後再試。");
@@ -114,6 +115,7 @@ export function planScheduleGroupShift({
         : entry.source,
       isCompleted: entry.isCompleted === true,
       isInProgress: entry.isInProgress === true,
+      isMoreThanHalfCompleted: entry.isMoreThanHalfCompleted === true,
       isPreviousIncomplete: entry.isPreviousIncomplete === true
     });
   }

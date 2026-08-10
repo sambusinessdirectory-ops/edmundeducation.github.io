@@ -102,6 +102,61 @@ begin
     raise exception 'Batch completion changed an unexpected number of rows: %', v_result;
   end if;
 
+  -- The champagne status is a fourth, mutually exclusive state and uses the
+  -- same atomic multi-select endpoint as the existing status tags.
+  v_result := public._schedule_batch_set_entry_status(
+    v_student_id,
+    pg_catalog.jsonb_build_array(
+      pg_catalog.jsonb_build_object(
+        'entry_id', v_student_b,
+        'expected_updated_at', v_student_b_updated
+      )
+    ),
+    'more_than_half_completed',
+    'student',
+    null
+  );
+  if (v_result ->> 'changedCount')::integer <> 1 then
+    raise exception 'More-than-half status changed an unexpected number of rows: %', v_result;
+  end if;
+  if not exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.id = v_student_b
+      and entry.is_more_than_half_completed
+      and not entry.is_completed
+      and not entry.is_in_progress
+      and not entry.is_previous_incomplete
+  ) then
+    raise exception 'More-than-half status was not stored as an exclusive state';
+  end if;
+  select entry.updated_at into v_student_b_updated
+  from public.schedule_entries entry where entry.id = v_student_b;
+
+  begin
+    perform public._schedule_batch_set_entry_status(
+      v_student_id,
+      pg_catalog.jsonb_build_array(
+        pg_catalog.jsonb_build_object(
+          'entry_id', v_student_b,
+          'expected_updated_at', v_student_b_updated - interval '1 second'
+        )
+      ),
+      'none',
+      'student',
+      null
+    );
+    raise exception 'Expected a stale more-than-half status failure';
+  exception when sqlstate '40001' then
+    null;
+  end;
+  if not exists (
+    select 1 from public.schedule_entries entry
+    where entry.id = v_student_b and entry.is_more_than_half_completed
+  ) then
+    raise exception 'Stale status update was not rolled back atomically';
+  end if;
+
   select entry.updated_at into v_student_a_updated
   from public.schedule_entries entry where entry.id = v_student_a;
   select entry.updated_at into v_teacher_updated

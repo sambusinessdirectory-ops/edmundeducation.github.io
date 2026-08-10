@@ -34,6 +34,10 @@ const draftsAdminMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-drafts-admin.sql"),
   "utf8"
 );
+const topicAccessMigration = fs.readFileSync(
+  path.join(root, "supabase-writing-submission-topic-access.sql"),
+  "utf8"
+);
 
 test("writing grammar checks begin only after newly completed full stops or semicolons", () => {
   assert.deepEqual(newlyCompletedWritingSegments("", "I am still writing"), []);
@@ -158,8 +162,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260810-drafts-admin2/);
-  assert.match(html, /writing-submission\.js\?v=20260810-drafts-admin2/);
+  assert.match(html, /writing-submission\.css\?v=20260810-open-book1/);
+  assert.match(html, /writing-submission\.js\?v=20260810-topic-access1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -229,6 +233,47 @@ test("writing preferences, topic selection, timing, progress and recoverable del
   assert.match(css, /\.submission-progress-grid/);
   assert.match(css, /\.grammar-toggle input:checked/);
   assert.match(css, /\.topic-picker-dialog/);
+});
+
+test("registered writing topics expose guarded Open Book references without fuzzy question matching", () => {
+  assert.match(html, /data-topic-reference-area/);
+  assert.match(html, /essay-portal-links\.js\?v=20260730-1/);
+  assert.match(script, /function writingExerciseIdFromTopicResource\(resource\)/);
+  assert.match(script, /writing-submission-topic-access\.js\?v=20260810-topic-access1/);
+  assert.match(script, /state\.studentAccessReady/);
+  assert.match(script, /normalizeWritingTopicAccess\(profile\.access\)/);
+  assert.match(script, /canonicalAccessibleWritingTopic\(/);
+  assert.match(script, /await loadWritingTopicCatalog\(\)/);
+  assert.match(script, /await restoreDraft\(\)/);
+  assert.match(script, /topicResource:\s*canonicalWritingTopicResource\(state\.selectedTopicResource\)/);
+  assert.doesNotMatch(script, /state\.studentAccess\?\.\[resource\.sectionKey\]\s*!==\s*false/);
+  assert.doesNotMatch(script, /state\.studentAccess\s*=\s*saved\.access/);
+  assert.match(script, /id\.startsWith\("fill:"\) \? id\.slice\(5\) : ""/);
+  assert.match(script, /essayPortals\.fromWritingExerciseId\(exerciseId\)/);
+  assert.match(script, /const canonical = canonicalWritingTopicResource\(resource\)/);
+  assert.match(script, /essayPortals\.hasFlashcards\(essayKey\)/);
+  assert.match(script, /essayPortals\.href\("flashcards", essayKey\)/);
+  assert.match(script, /essayPortals\.href\("writing", essayKey\)/);
+  assert.match(script, /重溫 Flash Card 請按這裡：/);
+  assert.match(script, /重溫 Fill In The Blanks 請按這裡：/);
+  assert.match(script, /展開以 Open Book 參考 Edmund 範文 Model Essay/);
+  assert.match(script, /展開以 Open Book 參考 Edmund 主題性生字 Thematic Vocabulary/);
+  assert.match(script, /writing-submission-reference-data\.mjs\?v=/);
+  assert.match(script, /dataset\.topicReferenceRetry/);
+  assert.match(script, /暫時未能載入參考內容/);
+  assert.match(script, /dataset\.topicReferenceTranslationToggle/);
+  assert.match(script, /"中文翻譯"/);
+  assert.match(script, /row\?\.english/);
+  assert.match(script, /row\?\.chinese/);
+  assert.doesNotMatch(script, /fromWritingExerciseId\([^)]*topicInput/);
+  assert.match(css, /\.topic-reference-details/);
+  assert.match(css, /\.topic-reference-table-scroll[^}]*overflow-x:\s*auto/s);
+  assert.match(topicAccessMigration, /returns table \(id uuid, name text, session_expires_at timestamptz, access jsonb\)/i);
+  assert.match(topicAccessMigration, /jsonb_typeof\(student\.access\) = 'object'/i);
+  assert.match(topicAccessMigration, /student\.access\s*-\s*'__adminMessage'\s+as access/i);
+  assert.match(topicAccessMigration, /access_entry\.key <> '__adminMessage'[\s\S]*?jsonb_typeof\(access_entry\.value\) <> 'boolean'/i);
+  assert.match(topicAccessMigration, /revoke all on function public\.writing_submission_student_profile\(uuid\)[\s\S]*?from public, anon, authenticated, service_role/i);
+  assert.match(topicAccessMigration, /grant execute on function public\.writing_submission_student_profile\(uuid\) to service_role/i);
 });
 
 test("detailed grammar history and the admin explanation-review queue are private and linked", () => {

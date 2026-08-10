@@ -75,11 +75,17 @@ function rpcRequest(input, init = {}) {
   };
 }
 
-function studentProfile() {
+function studentProfile(overrides = {}) {
   return [{
     id: STUDENT_ID,
     name: "Test Student",
-    session_expires_at: "2026-08-30T00:00:00.000Z"
+    session_expires_at: "2026-08-30T00:00:00.000Z",
+    access: {
+      "dse-writing": true,
+      "government-writing": true,
+      "ielts-writing": false
+    },
+    ...overrides
   }];
 }
 
@@ -552,7 +558,85 @@ test("missing grammar AI bindings do not disable existing writing service routes
     { headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` } }
   ), env);
   assert.equal(response.status, 200);
-  assert.equal((await response.json()).student.id, STUDENT_ID);
+  const body = await response.json();
+  assert.equal(body.student.id, STUDENT_ID);
+  assert.deepEqual(body.student.access, {
+    "dse-writing": true,
+    "government-writing": true,
+    "ielts-writing": false
+  });
+});
+
+test("student profile permissions fail closed when Supabase returns malformed access", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") {
+      return jsonResponse(studentProfile({ access: { "ielts-writing": "false" } }));
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    "https://worker.example/v1/student/me",
+    { headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` } }
+  ), environment());
+  assert.equal(response.status, 502);
+  assert.equal((await response.json()).code, "INVALID_UPSTREAM_RESPONSE");
+});
+
+test("student profile ignores reserved admin-message metadata but validates real permissions", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") {
+      return jsonResponse(studentProfile({
+        access: {
+          __adminMessage: "Please revise the assigned vocabulary first.",
+          "dse-writing": true,
+          "ielts-writing": false
+        }
+      }));
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    "https://worker.example/v1/student/me",
+    { headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` } }
+  ), environment());
+  assert.equal(response.status, 200);
+  assert.deepEqual((await response.json()).student.access, {
+    "dse-writing": true,
+    "ielts-writing": false
+  });
+});
+
+test("student profile rejects non-reserved string metadata in the permission map", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") {
+      return jsonResponse(studentProfile({
+        access: {
+          __adminMessage: "Known metadata",
+          __unexpectedMetadata: "must fail closed",
+          "ielts-writing": true
+        }
+      }));
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    "https://worker.example/v1/student/me",
+    { headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` } }
+  ), environment());
+  assert.equal(response.status, 502);
+  assert.equal((await response.json()).code, "INVALID_UPSTREAM_RESPONSE");
 });
 
 test("an exact teacher-approved corpus sentence works without AI or an extra Supabase lookup", async t => {

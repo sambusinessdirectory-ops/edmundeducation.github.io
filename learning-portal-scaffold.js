@@ -91,6 +91,7 @@
   function renderScaffold() {
     document.documentElement.style.setProperty("--portal-hue", String(portal.hue));
     root.dataset.portalDashboard = String(portal.dashboard);
+    root.dataset.portalBlankAfterLogin = String(portal.blankAfterLogin === true);
     root.innerHTML = `<section class="learning-portal-view learning-portal-login" data-view="login">
       <div class="learning-portal-login__layout">
         <article class="learning-portal-hero panel">
@@ -125,6 +126,10 @@
         <div><p class="eyebrow">LEARNING CONTENT</p><h2 id="${portal.id}-content-heading">學習內容</h2><p>這裡暫時未有學習內容。新增的課題會按次序顯示在這裡。</p></div>
       </section>
     </section>`;
+    if (portal.blankAfterLogin) {
+      const dashboard = root.querySelector('[data-view="dashboard"]');
+      dashboard?.replaceChildren();
+    }
   }
 
   renderScaffold();
@@ -164,7 +169,7 @@
     elements.logout.hidden = !signedIn;
     if (signedIn) {
       elements.user.textContent = `${state.user.name} · 學生`;
-      elements.welcome.textContent = `${state.user.name}，歡迎回來。`;
+      if (elements.welcome) elements.welcome.textContent = `${state.user.name}，歡迎回來。`;
     }
     window.scrollTo({ top: 0, behavior: "smooth" });
   }

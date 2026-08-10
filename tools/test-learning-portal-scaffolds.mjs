@@ -26,7 +26,8 @@ const expected = [
   [44, "leisurely-reading", "leisurely-reading.html", ["Leisurely Reading", "英文導讀系統"], false],
   [45, "english-humour-speaking", "english-humour-speaking.html", ["English Humour", "Speaking", "英文幽默會話系統"], true],
   [46, "english-humour-writing", "english-humour-writing.html", ["English Humour", "Speaking", "英文幽默寫作系統"], true],
-  [47, "english-joke-collection", "english-joke-collection.html", ["English Joke", "Collection", "英文笑話收集站"], false]
+  [47, "english-joke-collection", "english-joke-collection.html", ["English Joke", "Collection", "英文笑話收集站"], false],
+  [48, "argument-learning", "argument-learning-system.html", ["Argument learning", "論證 / 論據 / 論點 學習系統"], false]
 ];
 
 const configSource = await read("learning-portal-config.js");
@@ -39,21 +40,43 @@ const portals = Array.from(context.window.EDMUND_LEARNING_PORTALS, (portal) => (
   href: portal.href,
   lines: Array.from(portal.lines),
   dashboard: portal.dashboard,
-  sessionKey: portal.sessionKey
+  sessionKey: portal.sessionKey,
+  blankAfterLogin: portal.blankAfterLogin === true,
+  homework: portal.homework !== false
 }));
 
 assert.deepEqual(portals.map(({ ordinal, id, href, lines, dashboard }) => [ordinal, id, href, lines, dashboard]), expected);
-assert.deepEqual(portals.filter(({ dashboard }) => !dashboard).map(({ ordinal }) => ordinal), [38, 44, 47]);
-assert.equal(new Set(portals.map(({ href }) => href)).size, 18, "every portal URL must be stable and unique");
+assert.deepEqual(portals.filter(({ dashboard }) => !dashboard).map(({ ordinal }) => ordinal), [38, 44, 47, 48]);
+assert.deepEqual(portals.filter(({ blankAfterLogin }) => blankAfterLogin).map(({ ordinal }) => ordinal), [48]);
+assert.deepEqual(portals.filter(({ homework }) => !homework).map(({ ordinal }) => ordinal), [48]);
+assert.equal(new Set(portals.map(({ href }) => href)).size, 19, "every portal URL must be stable and unique");
 
 const home = await read("index.html");
 const homepageCards = [...home.matchAll(/<a class="category learning-portal-card"[^>]*href="([^"]+)"[^>]*>[\s\S]*?<span class="category-name">([\s\S]*?)<\/span>\s*<\/a>/g)];
-assert.equal(homepageCards.length, 18, "homepage should append exactly 18 learning portal cards");
+assert.equal(homepageCards.length, 19, "homepage should append exactly 19 learning portal cards");
 assert.deepEqual(homepageCards.map((match) => match[1]), expected.map(([, , href]) => href));
 assert.deepEqual(homepageCards.map((match) => match[2].trim()), expected.map(([, , , lines]) => lines.join("<br>")));
 const allCardStarts = [...home.matchAll(/<a class="category(?:\s|\")/g)].map((match) => match.index);
-assert.equal(allCardStarts.length, 47, "homepage card counter should finish at 47");
+assert.equal(allCardStarts.length, 48, "homepage card counter should finish at 48");
 homepageCards.forEach((match, index) => assert.equal(allCardStarts.indexOf(match.index) + 1, index + 30));
+
+const videoSetsSource = home.match(/const videoSets = (\{[\s\S]*?\n    \});/)?.[1] || "";
+assert.ok(videoSetsSource, "homepage videoSets configuration should remain readable by the regression test");
+const videoSets = vm.runInNewContext(`(${videoSetsSource})`);
+assert.equal(Object.keys(videoSets).length, 33, "homepage should retain every configured video set");
+assert.match(home, /--video-opacity:\s*0\.342;/, "fallback video opacity should be 90% of 0.38");
+for (const [name, appearance] of Object.entries(videoSets)) {
+  const baseline = name === "hongKong"
+    ? { opacity: 0.38, cover: "rgba(245,245,247,0.50)" }
+    : name === "horse"
+      ? { opacity: 0.48, cover: "rgba(245,245,247,0.38)" }
+      : name === "reading"
+        ? { opacity: 0.52, cover: "rgba(245,245,247,0.34)" }
+        : { opacity: 0.80, cover: "rgba(245,245,247,0.20)" };
+  const expectedOpacity = String(Number((baseline.opacity * 0.9).toFixed(3)));
+  assert.equal(appearance.opacity, expectedOpacity, `${name} opacity should be exactly 90% of its previous tier`);
+  assert.equal(appearance.cover, baseline.cover, `${name} cover alpha should remain unchanged`);
+}
 
 for (const portal of portals) {
   const html = await read(portal.href);
@@ -72,6 +95,7 @@ assert.match(runtime, /flashcard_student_session_profile/);
 assert.match(runtime, /EdmundSystemNav\?\.rememberStudentSession/);
 assert.match(runtime, /EdmundSystemNav\?\.getStudentSession/);
 assert.match(runtime, /if \(!portal\.dashboard\) return ""/);
+assert.match(runtime, /if \(portal\.blankAfterLogin\)/);
 assert.match(runtime, /ACTIVITY BY DATE/);
 assert.match(runtime, /TIME SPENT BY DATE/);
 assert.match(runtime, /data-progress-toggle/);
@@ -83,7 +107,7 @@ assert.doesNotMatch(studentProgressHtml, /learning-portal-config\.js|learning-po
 
 const homework = HOMEWORK_RESOURCE_CATALOG.filter(({ type }) => type === "learning-portal");
 assert.equal(homework.length, 18);
-for (const [ordinal, id, href, lines] of expected) {
+for (const [ordinal, id, href, lines] of expected.filter(([, id]) => id !== "argument-learning")) {
   const resource = homework.find((item) => item.id === `learning-portal:${id}`);
   assert.equal(resource?.ordinal, ordinal);
   assert.equal(resource?.label, lines.join(" / "));
@@ -95,8 +119,9 @@ for (const [ordinal, id, href, lines] of expected) {
     url: href
   }));
 }
+assert.equal(homework.some((item) => item.id === "learning-portal:argument-learning"), false);
 
 const sitemap = await read("sitemap.xml");
 for (const portal of portals) assert.ok(sitemap.includes(`https://edmundeducation.com/${portal.href}`));
 
-console.log("Learning portal scaffold checks passed (18 portals, homepage positions 30–47, shared login, dashboards, PWA, sitemap and Homework catalogue).");
+console.log("Learning portal scaffold checks passed (19 portals, homepage positions 30–48, shared login, dashboards, PWA, sitemap and Homework catalogue).");

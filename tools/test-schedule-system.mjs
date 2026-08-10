@@ -44,6 +44,8 @@ const [
   scheduleJs,
   scheduleSql,
   massEditSql,
+  accountManagementSql,
+  moreThanHalfMigrationSql,
   databaseSmokeTest,
   worker
 ] = await Promise.all([
@@ -53,6 +55,8 @@ const [
   read("schedule-system.js"),
   read("supabase-schedule-system.sql"),
   read("supabase-schedule-mass-edit.sql"),
+  read("supabase-schedule-account-management.sql"),
+  read("supabase-schedule-more-than-half-completed.sql"),
   read("tools/test-schedule-batch-database.sql"),
   read("workers/schedule-system/src/index.js")
 ]);
@@ -188,7 +192,7 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 47, "homepage must contain all 47 numbered category cards after adding the learning portal backbones");
+assert.equal(homepageCards.length, 48, "homepage must contain all 48 numbered category cards after adding the learning portal backbones");
 const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
 assert.equal(homepageCardHrefs[9], "schedule-system.html", "Schedule must be numbered card 10");
 assert.equal(homepageCardHrefs[12], "flashcards.html", "Flashcards must be numbered card 13");
@@ -314,6 +318,8 @@ assert.match(scheduleHtml, />增加 5 個倒數鐘</);
 assert.match(scheduleHtml, />減少 5 個倒數鐘</);
 assert.match(scheduleHtml, /按住 Shift 再拖到相鄰日期即可延伸/);
 assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.is-in-progress/);
+assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.is-more-than-half-completed/);
+assert.match(scheduleHtml, /\.more-than-half-completed-badge\s*\{[^}]*#f7e7ce/i);
 assert.match(scheduleHtml, /\.schedule-slot\.is-touch-action/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-span-project/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-span-project\.span-start\s*\{[^}]*width:\s*var\(--span-project-width/s);
@@ -326,6 +332,8 @@ assert.match(scheduleHtml, /data-toggle-selection[^>]*aria-pressed="false"/);
 assert.match(scheduleHtml, />選取多項</);
 assert.match(scheduleHtml, /data-selection-actions/);
 assert.match(scheduleHtml, /data-batch-complete/);
+assert.match(scheduleHtml, /data-batch-more-than-half-completed/);
+assert.match(scheduleHtml, />標記已完成超過一半</);
 assert.match(scheduleHtml, /data-move-selected/);
 assert.match(scheduleHtml, /data-batch-delete/);
 assert.match(scheduleHtml, /data-cancel-selection/);
@@ -335,6 +343,7 @@ assert.match(scheduleHtml, /\.day-mascot\b/);
 assert.match(scheduleHtml, /\.unused-day-note\s*\{[^}]*white-space:\s*pre-line/s);
 assert.match(scheduleHtml, /\.print-entry-admin\s*\{[^}]*#f4dfc2/i);
 assert.match(scheduleHtml, /\.print-entry-student\s*\{[^}]*#dfe9ff/i);
+assert.match(scheduleHtml, /\.print-entry-more-than-half-completed\s*\{[^}]*#f7e7ce/i);
 assert.match(scheduleHtml, /data-toggle-countdown-collapse|countdown-collapse-toggle/);
 assert.match(scheduleHtml, /data-toggle-mass-edit[^>]*aria-pressed="false"/);
 assert.match(scheduleHtml, />批量編輯（Mass Edit）</);
@@ -351,7 +360,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260810-5/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260810-6/);
 assert.match(scheduleHtml, /data-copy-week-link/);
 assert.match(scheduleHtml, /\[data-student-list\]\s*\{[^}]*grid-template-columns:\s*repeat\(3,\s*minmax\(0,\s*1fr\)\)/s);
 assert.match(scheduleHtml, /@media\s*\(max-width:\s*980px\)[\s\S]*?\[data-student-list\]\s*\{[^}]*repeat\(2,/s);
@@ -374,6 +383,9 @@ assert.match(scheduleJs, /window\.print\(\)/);
 assert.match(scheduleJs, /flashcard_student_login/);
 assert.match(scheduleJs, /schedule_admin_get_week/);
 assert.match(scheduleJs, /schedule_student_upsert_entry/);
+assert.match(scheduleJs, /more_than_half_completed:\s*\{\s*property:\s*"isMoreThanHalfCompleted"/);
+assert.match(scheduleJs, /toggleEntryMoreThanHalfCompleted/);
+assert.match(scheduleJs, /print-entry-more-than-half-completed/);
 assert.match(scheduleJs, /p_expected_updated_at/);
 assert.match(scheduleJs, /restoreCalendarFocus/);
 assert.match(scheduleJs, /state\.tableHidden/);
@@ -708,6 +720,7 @@ assert.match(scheduleSql, /expected_updated_at/);
 assert.match(scheduleSql, /order by schedule_entry\.id[\s\S]*?for update/);
 assert.match(scheduleSql, /Target slot is occupied/);
 assert.match(scheduleSql, /is_in_progress boolean not null default false/);
+assert.match(scheduleSql, /is_more_than_half_completed boolean not null default false/);
 assert.match(scheduleSql, /is_previous_incomplete boolean not null default false/);
 assert.match(scheduleSql, /estimated_minutes integer/);
 assert.match(scheduleSql, /span_group_id uuid/);
@@ -734,6 +747,7 @@ assert.match(scheduleSql, /'countdowns'/);
 assert.match(scheduleSql, /'estimatedMinutes'/);
 assert.match(scheduleSql, /'spanGroupId'/);
 assert.match(scheduleSql, /'isInProgress'/);
+assert.match(scheduleSql, /'isMoreThanHalfCompleted'/);
 assert.match(scheduleSql, /'isPreviousIncomplete'/);
 assert.match(scheduleJs, /prepareMassEditWeekNavigation\(\)/);
 assert.match(scheduleJs, /Mass Edit 保持開啟/);
@@ -780,6 +794,8 @@ assert.match(massEditSql, /perform public\._schedule_lock_student_mutations\(p_s
 assert.match(massEditSql, /pg_catalog\.jsonb_array_length\(p_changes\) not between 1 and 700/);
 assert.match(massEditSql, /Mass Edit contains duplicate schedule slots/);
 assert.match(massEditSql, /isPreviousIncomplete/);
+assert.match(massEditSql, /isMoreThanHalfCompleted/);
+assert.match(massEditSql, /is_more_than_half_completed = v_is_more_than_half_completed/);
 assert.match(massEditSql, /is_previous_incomplete = v_is_previous_incomplete/);
 assert.match(massEditSql, /using errcode = '40001'/);
 assert.match(massEditSql, /v_effective_source := coalesce\(v_requested_source, v_existing\.source\)/);
@@ -798,6 +814,20 @@ assert.match(
   massEditSql,
   /grant execute on function public\.schedule_admin_apply_entry_batch\(uuid, uuid, date, jsonb\)\s+to authenticated/
 );
+
+assert.match(accountManagementSql, /more_than_half_completed/);
+assert.match(accountManagementSql, /is_more_than_half_completed = p_status = 'more_than_half_completed'/);
+assert.match(accountManagementSql, /'isMoreThanHalfCompleted',\s*entry\.is_more_than_half_completed/);
+assert.match(moreThanHalfMigrationSql, /^begin;/m);
+assert.match(moreThanHalfMigrationSql, /^commit;/m);
+assert.match(moreThanHalfMigrationSql, /add column if not exists is_more_than_half_completed boolean not null default false/);
+assert.match(moreThanHalfMigrationSql, /schedule_entries_exclusive_status_before_update/);
+assert.match(moreThanHalfMigrationSql, /schedule_entries_inherit_span_status_before_insert/);
+assert.match(moreThanHalfMigrationSql, /create or replace function public\._schedule_week_payload\b/);
+assert.match(moreThanHalfMigrationSql, /create or replace function public\._schedule_move_entry\b/);
+assert.match(moreThanHalfMigrationSql, /create or replace function public\._schedule_apply_entry_batch\b/);
+assert.match(moreThanHalfMigrationSql, /create or replace function public\._schedule_batch_set_entry_status\b/);
+assert.match(moreThanHalfMigrationSql, /notify pgrst, 'reload schema'/);
 assert.match(databaseSmokeTest, /^begin;/m);
 assert.match(databaseSmokeTest, /^rollback;/m);
 assert.match(databaseSmokeTest, /_schedule_batch_set_entries_completed/);

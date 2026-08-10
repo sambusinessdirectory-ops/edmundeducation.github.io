@@ -221,6 +221,7 @@ const elements = {
   selectionCount: document.querySelector("[data-selection-count]"),
   batchComplete: document.querySelector("[data-batch-complete]"),
   batchProgress: document.querySelector("[data-batch-progress]"),
+  batchMoreThanHalfCompleted: document.querySelector("[data-batch-more-than-half-completed]"),
   batchPreviousIncomplete: document.querySelector("[data-batch-previous-incomplete]"),
   moveSelected: document.querySelector("[data-move-selected]"),
   batchDelete: document.querySelector("[data-batch-delete]"),
@@ -273,6 +274,7 @@ const elements = {
   deleteEntry: document.querySelector("[data-delete-entry]"),
   toggleComplete: document.querySelector("[data-toggle-complete]"),
   toggleProgress: document.querySelector("[data-toggle-progress]"),
+  toggleMoreThanHalfCompleted: document.querySelector("[data-toggle-more-than-half-completed]"),
   togglePreviousIncomplete: document.querySelector("[data-toggle-previous-incomplete]"),
   saveEntry: document.querySelector("[data-save-entry]"),
   deleteDialog: document.querySelector("[data-delete-dialog]"),
@@ -859,6 +861,7 @@ function stageScheduleClipboardPaste(payload) {
       source,
       isCompleted: false,
       isInProgress: false,
+      isMoreThanHalfCompleted: false,
       isPreviousIncomplete: false
     });
   }
@@ -946,6 +949,7 @@ function stageMassEditGroupShift(plan) {
         source: target.source,
         isCompleted: target.isCompleted,
         isInProgress: target.isInProgress,
+        isMoreThanHalfCompleted: target.isMoreThanHalfCompleted,
         isPreviousIncomplete: target.isPreviousIncomplete
       });
     } else if (source && originalEntry) {
@@ -960,6 +964,7 @@ function stageMassEditGroupShift(plan) {
         source: originalEntry.source,
         isCompleted: null,
         isInProgress: null,
+        isMoreThanHalfCompleted: null,
         isPreviousIncomplete: null
       });
     } else if (source) {
@@ -1032,6 +1037,7 @@ function rebuildMassEditPreview() {
           source: change.source,
           isCompleted: Boolean(change.isCompleted),
           isInProgress: Boolean(change.isInProgress),
+          isMoreThanHalfCompleted: Boolean(change.isMoreThanHalfCompleted),
           isPreviousIncomplete: Boolean(change.isPreviousIncomplete),
           massEditDraft: true
         };
@@ -1046,6 +1052,7 @@ function rebuildMassEditPreview() {
         source: change.source,
         isCompleted: Boolean(change.isCompleted),
         isInProgress: Boolean(change.isInProgress),
+        isMoreThanHalfCompleted: Boolean(change.isMoreThanHalfCompleted),
         isPreviousIncomplete: Boolean(change.isPreviousIncomplete),
         spanGroupId: null,
         updatedAt: null,
@@ -1197,6 +1204,10 @@ function clearRenderedSchedule() {
   elements.toggleProgress.dataset.inProgress = "false";
   elements.toggleProgress.setAttribute("aria-pressed", "false");
   elements.toggleProgress.textContent = "標記進行中";
+  elements.toggleMoreThanHalfCompleted.hidden = true;
+  elements.toggleMoreThanHalfCompleted.dataset.moreThanHalfCompleted = "false";
+  elements.toggleMoreThanHalfCompleted.setAttribute("aria-pressed", "false");
+  elements.toggleMoreThanHalfCompleted.textContent = "標記已完成超過一半";
   elements.togglePreviousIncomplete.hidden = true;
   elements.togglePreviousIncomplete.dataset.previousIncomplete = "false";
   elements.togglePreviousIncomplete.setAttribute("aria-pressed", "false");
@@ -1333,6 +1344,10 @@ function updateSelectionControls() {
   elements.batchProgress.textContent = entries.length && entries.every((entry) => entry.isInProgress)
     ? "取消進行中"
     : "標記進行中";
+  elements.batchMoreThanHalfCompleted.disabled = state.mutationInFlight || moving || entries.length === 0;
+  elements.batchMoreThanHalfCompleted.textContent = entries.length && entries.every((entry) => entry.isMoreThanHalfCompleted)
+    ? "取消已完成超過一半"
+    : "標記已完成超過一半";
   elements.batchPreviousIncomplete.disabled = state.mutationInFlight || moving || entries.length === 0;
   elements.batchPreviousIncomplete.textContent = entries.length && entries.every((entry) => entry.isPreviousIncomplete)
     ? "取消上週未完成"
@@ -3253,7 +3268,9 @@ async function loadWeek(focusTarget = null) {
         ? payload.entries.map((entry) => ({
           ...entry,
           estimatedMinutes: Number(entry.estimatedMinutes) || null,
+          isCompleted: entry.isCompleted === true,
           isInProgress: entry.isInProgress === true,
+          isMoreThanHalfCompleted: entry.isMoreThanHalfCompleted === true,
           isPreviousIncomplete: entry.isPreviousIncomplete === true,
           spanGroupId: entry.spanGroupId || null
           }))
@@ -3479,7 +3496,7 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
   button.dataset.slotIndex = String(slotIndex);
   button.setAttribute(
     "aria-label",
-    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${parsedEntry.text}${parsedEntry.resources.length ? `，附有 ${parsedEntry.resources.length} 個功課連結` : ""}${entry.isCompleted ? "，已完成" : entry.isInProgress ? "，進行中" : ""}${entry.isPreviousIncomplete ? "，之前功課未完成" : ""}` : "，新增安排"}`
+    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${parsedEntry.text}${parsedEntry.resources.length ? `，附有 ${parsedEntry.resources.length} 個功課連結` : ""}${entry.isCompleted ? "，已完成" : entry.isMoreThanHalfCompleted ? "，已完成超過一半" : entry.isInProgress ? "，進行中" : ""}${entry.isPreviousIncomplete ? "，之前功課未完成" : ""}` : "，新增安排"}`
   );
 
   const topLine = document.createElement("span");
@@ -3500,6 +3517,12 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
     progress.className = "progress-badge";
     progress.textContent = "進行中";
     topLine.append(progress);
+  } else if (entry?.isMoreThanHalfCompleted) {
+    button.classList.add("is-more-than-half-completed");
+    const moreThanHalfCompleted = document.createElement("span");
+    moreThanHalfCompleted.className = "more-than-half-completed-badge";
+    moreThanHalfCompleted.textContent = "已完成超過一半";
+    topLine.append(moreThanHalfCompleted);
   }
   if (entry?.isPreviousIncomplete) {
     button.classList.add("is-previous-incomplete");
@@ -3665,6 +3688,7 @@ async function batchSetExclusiveStatus(targetStatus) {
   const definitions = {
     completed: { property: "isCompleted", label: "已完成" },
     in_progress: { property: "isInProgress", label: "進行中" },
+    more_than_half_completed: { property: "isMoreThanHalfCompleted", label: "已完成超過一半" },
     previous_incomplete: { property: "isPreviousIncomplete", label: "上週未完成" }
   };
   const definition = definitions[targetStatus];
@@ -3901,6 +3925,12 @@ function queueMassEditUpsert(message, estimatedMinutes, statusPatch = {}) {
   const key = massEditChangeKey(date, slotIndex, originalEntry);
   let isCompleted = Boolean(statusPatch.isCompleted ?? entry?.isCompleted ?? originalEntry?.isCompleted ?? false);
   let isInProgress = Boolean(statusPatch.isInProgress ?? entry?.isInProgress ?? originalEntry?.isInProgress ?? false);
+  let isMoreThanHalfCompleted = Boolean(
+    statusPatch.isMoreThanHalfCompleted
+    ?? entry?.isMoreThanHalfCompleted
+    ?? originalEntry?.isMoreThanHalfCompleted
+    ?? false
+  );
   let isPreviousIncomplete = Boolean(
     statusPatch.isPreviousIncomplete
     ?? entry?.isPreviousIncomplete
@@ -3909,19 +3939,27 @@ function queueMassEditUpsert(message, estimatedMinutes, statusPatch = {}) {
   );
   if (statusPatch.isCompleted === true) {
     isInProgress = false;
+    isMoreThanHalfCompleted = false;
     isPreviousIncomplete = false;
   } else if (statusPatch.isInProgress === true) {
     isCompleted = false;
+    isMoreThanHalfCompleted = false;
+    isPreviousIncomplete = false;
+  } else if (statusPatch.isMoreThanHalfCompleted === true) {
+    isCompleted = false;
+    isInProgress = false;
     isPreviousIncomplete = false;
   } else if (statusPatch.isPreviousIncomplete === true) {
     isCompleted = false;
     isInProgress = false;
+    isMoreThanHalfCompleted = false;
   }
   const unchanged = Boolean(originalEntry)
     && originalEntry.message === message
     && (Number(originalEntry.estimatedMinutes) || null) === estimatedMinutes
     && originalEntry.isCompleted === isCompleted
     && originalEntry.isInProgress === isInProgress
+    && originalEntry.isMoreThanHalfCompleted === isMoreThanHalfCompleted
     && originalEntry.isPreviousIncomplete === isPreviousIncomplete;
 
   if (unchanged) {
@@ -3938,6 +3976,7 @@ function queueMassEditUpsert(message, estimatedMinutes, statusPatch = {}) {
       source,
       isCompleted,
       isInProgress,
+      isMoreThanHalfCompleted,
       isPreviousIncomplete
     });
   }
@@ -3965,6 +4004,7 @@ function queueMassEditDelete() {
       source: originalEntry.source,
       isCompleted: null,
       isInProgress: null,
+      isMoreThanHalfCompleted: null,
       isPreviousIncomplete: null
     });
   }
@@ -3986,6 +4026,7 @@ async function saveMassEdit() {
     source: change.source,
     isCompleted: change.isCompleted,
     isInProgress: change.isInProgress,
+    isMoreThanHalfCompleted: change.isMoreThanHalfCompleted,
     isPreviousIncomplete: change.isPreviousIncomplete
   }));
   const owner = `${state.currentUser?.role || ""}:${student.id}:${state.weekStart}`;
@@ -4068,6 +4109,12 @@ function openEntryDialog(date, slotIndex) {
   elements.toggleProgress.dataset.inProgress = String(Boolean(entry?.isInProgress));
   elements.toggleProgress.setAttribute("aria-pressed", String(Boolean(entry?.isInProgress)));
   elements.toggleProgress.textContent = entry?.isInProgress ? "取消進行中" : "標記進行中";
+  elements.toggleMoreThanHalfCompleted.hidden = !entry || (state.massEditMode && protectedTeacherEntry);
+  elements.toggleMoreThanHalfCompleted.dataset.moreThanHalfCompleted = String(Boolean(entry?.isMoreThanHalfCompleted));
+  elements.toggleMoreThanHalfCompleted.setAttribute("aria-pressed", String(Boolean(entry?.isMoreThanHalfCompleted)));
+  elements.toggleMoreThanHalfCompleted.textContent = entry?.isMoreThanHalfCompleted
+    ? "取消已完成超過一半"
+    : "標記已完成超過一半";
   elements.togglePreviousIncomplete.hidden = !entry || (state.massEditMode && protectedTeacherEntry);
   elements.togglePreviousIncomplete.dataset.previousIncomplete = String(Boolean(entry?.isPreviousIncomplete));
   elements.togglePreviousIncomplete.setAttribute("aria-pressed", String(Boolean(entry?.isPreviousIncomplete)));
@@ -4365,6 +4412,67 @@ async function toggleEntryPreviousIncomplete() {
   }
 }
 
+async function toggleEntryMoreThanHalfCompleted() {
+  if (!state.editing?.entry) return;
+  const entry = state.editing.entry;
+  const moreThanHalfCompleted = !Boolean(entry.isMoreThanHalfCompleted);
+  const focusTarget = { date: state.editing.date, slotIndex: state.editing.slotIndex };
+
+  if (state.massEditMode) {
+    queueMassEditUpsert(entry.message, Number(entry.estimatedMinutes) || null, {
+      isMoreThanHalfCompleted: moreThanHalfCompleted
+    });
+    elements.entryDialog.close();
+    showToast(moreThanHalfCompleted
+      ? "已暫存「已完成超過一半」標記；尚未上傳至雲端。"
+      : "已暫存取消「已完成超過一半」標記；尚未上傳至雲端。");
+    restoreCalendarFocus(focusTarget);
+    return;
+  }
+
+  elements.toggleMoreThanHalfCompleted.disabled = true;
+  setStatus(elements.entryStatus, moreThanHalfCompleted
+    ? "正在標記為已完成超過一半…"
+    : "正在取消已完成超過一半標記…");
+  try {
+    const memberIds = spanMemberIds(entry);
+    const affectedEntries = state.weekPayload.entries.filter((candidate) => memberIds.has(candidate.id));
+    const common = {
+      p_items: batchItems(affectedEntries),
+      p_status: moreThanHalfCompleted ? "more_than_half_completed" : "none"
+    };
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_batch_set_entries_status", {
+        ...common,
+        p_admin_token: state.currentUser.adminToken,
+        p_student_id: activeStudent().id
+      });
+    } else {
+      await callRpc("schedule_student_batch_set_entries_status", {
+        ...common,
+        p_token: state.currentUser.studentToken
+      });
+    }
+    elements.entryDialog.close();
+    showToast(moreThanHalfCompleted
+      ? "這項安排已標記為已完成超過一半。"
+      : "已取消已完成超過一半標記。");
+    await loadWeek(focusTarget);
+  } catch (error) {
+    console.warn("Schedule more-than-half-completed update failed", error);
+    if (isConcurrencyError(error)) {
+      elements.entryDialog.close();
+      showToast("這一格已在另一個頁面更新；日程已重新載入。", "error");
+      await loadWeek(focusTarget);
+      return;
+    }
+    setStatus(elements.entryStatus, error.message || "未能更新已完成超過一半標記，請再試一次。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    elements.toggleMoreThanHalfCompleted.disabled = false;
+  }
+}
+
 async function changeCapacity(date, delta, button) {
   if (state.mutationInFlight || state.massEditMode || ![5, -5].includes(delta)) return;
   button.disabled = true;
@@ -4487,12 +4595,13 @@ function preparePrintSheet() {
         card.className = `print-entry-card ${entry.source === "admin" ? "print-entry-admin" : "print-entry-student"}`;
         if (entry.isCompleted) card.classList.add("print-entry-completed");
         if (entry.isInProgress) card.classList.add("print-entry-progress");
+        if (entry.isMoreThanHalfCompleted) card.classList.add("print-entry-more-than-half-completed");
         const label = document.createElement("span");
         label.className = "print-slot-label";
         label.textContent = `第 ${entry.slotIndex} 格`;
         const source = document.createElement("span");
         source.className = "print-source";
-        source.textContent = `${entry.source === "admin" ? "老師安排" : "學生安排"}${entry.isCompleted ? " · 已完成" : entry.isInProgress ? " · 進行中" : ""}${entry.isPreviousIncomplete ? " · 之前功課未完成" : ""}`;
+        source.textContent = `${entry.source === "admin" ? "老師安排" : "學生安排"}${entry.isCompleted ? " · 已完成" : entry.isMoreThanHalfCompleted ? " · 已完成超過一半" : entry.isInProgress ? " · 進行中" : ""}${entry.isPreviousIncomplete ? " · 之前功課未完成" : ""}`;
         const message = document.createElement("p");
         message.textContent = `${parsedEntry.text}${parsedEntry.resources.length ? `\n功課連結：${parsedEntry.resources.map((resource) => resource.label).join("、")}` : ""}${entry.estimatedMinutes ? `\n預計需時：${formatEstimatedMinutes(entry.estimatedMinutes)}` : ""}`;
         card.append(label, source, message);
@@ -5237,6 +5346,7 @@ elements.closeEntry.addEventListener("click", () => elements.entryDialog.close()
 elements.deleteEntry.addEventListener("click", () => elements.deleteDialog.showModal());
 elements.toggleComplete.addEventListener("click", toggleEntryCompletion);
 elements.toggleProgress.addEventListener("click", toggleEntryProgress);
+elements.toggleMoreThanHalfCompleted.addEventListener("click", toggleEntryMoreThanHalfCompleted);
 elements.togglePreviousIncomplete.addEventListener("click", toggleEntryPreviousIncomplete);
 elements.cancelDelete.addEventListener("click", () => elements.deleteDialog.close());
 elements.confirmDelete.addEventListener("click", deleteEntry);
@@ -5269,6 +5379,7 @@ elements.pasteClipboardSelection?.addEventListener("click", pasteScheduleClipboa
 elements.clearClipboardSelection?.addEventListener("click", () => clearClipboardSelection({ deactivate: false }));
 elements.batchComplete?.addEventListener("click", batchSetCompletion);
 elements.batchProgress?.addEventListener("click", () => batchSetExclusiveStatus("in_progress"));
+elements.batchMoreThanHalfCompleted?.addEventListener("click", () => batchSetExclusiveStatus("more_than_half_completed"));
 elements.batchPreviousIncomplete?.addEventListener("click", () => batchSetExclusiveStatus("previous_incomplete"));
 elements.moveSelected?.addEventListener("click", beginMoveSelected);
 elements.batchDelete?.addEventListener("click", batchDeleteEntries);

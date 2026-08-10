@@ -487,6 +487,7 @@
     .password-dialog-card { width: min(520px, calc(100vw - 28px)); }
     .password-dialog-card .field-control { position: relative; }
     .selection-action-button.progress { color: #745104; border-color: rgba(183,132,13,.35); background: #fff3bf; }
+    .selection-action-button.more-than-half { color: #624817; border-color: #d6b36a; background: #f7e7ce; }
     .selection-action-button.previous { color: #8b302e; border-color: rgba(175,67,62,.3); background: #fce4e2; }
 
     .calendar-toolbar {
@@ -842,6 +843,12 @@
       box-shadow: inset 0 0 0 1px rgba(183, 132, 13, .1);
     }
 
+    .schedule-slot.has-entry.is-more-than-half-completed {
+      border-color: #d6b36a;
+      background: linear-gradient(145deg, rgba(255, 252, 244, .98), rgba(247, 231, 206, .96));
+      box-shadow: inset 0 0 0 1px rgba(98, 72, 23, .1);
+    }
+
     .schedule-slot.is-touch-action {
       border-color: #4ebcf0 !important;
       outline: 4px solid rgba(78, 188, 240, .7) !important;
@@ -962,9 +969,10 @@
 
     .slot-topline { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 5px; }
     .slot-number { display: block; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .08em; }
-    .completion-badge, .progress-badge, .previous-incomplete-badge, .span-badge, .draft-badge { border-radius: 999px; padding: 2px 7px; font-size: 10px; font-weight: 900; letter-spacing: .04em; }
+    .completion-badge, .progress-badge, .more-than-half-completed-badge, .previous-incomplete-badge, .span-badge, .draft-badge { border-radius: 999px; padding: 2px 7px; font-size: 10px; font-weight: 900; letter-spacing: .04em; }
     .completion-badge { color: #1d6d3a; background: rgba(220, 245, 226, .96); }
     .progress-badge { color: #745104; background: rgba(255, 237, 159, .98); }
+    .more-than-half-completed-badge { color: #624817; background: #f7e7ce; }
     .previous-incomplete-badge { color: #8b302e; background: rgba(252, 218, 216, .98); }
     .span-badge { color: #1a6487; background: rgba(218, 244, 255, .98); }
     .draft-badge { color: #5d467d; background: rgba(237, 225, 255, .98); }
@@ -1132,6 +1140,8 @@
     .complete-button[data-completed="true"] { color: #fff; background: #397d50; }
     .progress-button { min-height: 42px; border: 1px solid rgba(183, 132, 13, .35); border-radius: 14px; padding: 10px 14px; color: #745104; background: #fff3bf; cursor: pointer; font-weight: 850; }
     .progress-button[data-in-progress="true"] { color: #fff; background: #ba8618; }
+    .more-than-half-completed-button { min-height: 42px; border: 1px solid #d6b36a; border-radius: 14px; padding: 10px 14px; color: #624817; background: #f7e7ce; cursor: pointer; font-weight: 850; }
+    .more-than-half-completed-button[data-more-than-half-completed="true"] { color: #fff; background: #a77b2c; }
     .previous-incomplete-button { min-height: 42px; border: 1px solid rgba(175, 67, 62, .3); border-radius: 14px; padding: 10px 14px; color: #8b302e; background: #fce4e2; cursor: pointer; font-weight: 850; }
     .previous-incomplete-button[data-previous-incomplete="true"] { color: #fff; background: #b85d58; }
 
@@ -1317,6 +1327,7 @@
       .print-entry-student { border-color: #91a9dc; background: #dfe9ff !important; }
       .print-entry-completed { border-color: #397d50 !important; box-shadow: inset 0 0 0 .35mm #397d50; }
       .print-entry-progress { border-color: #b78014 !important; background: #fff0b8 !important; box-shadow: inset 0 0 0 .35mm #b78014; }
+      .print-entry-more-than-half-completed { border-color: #d6b36a !important; background: #f7e7ce !important; box-shadow: inset 0 0 0 .35mm #a77b2c; }
       .print-empty-day { margin: 0; padding: 4mm 1.5mm; color: #777; text-align: center; font-size: 7pt; line-height: 1.45; }
       .print-slot-label { display: block; margin-bottom: .7mm; color: #666; font-size: 6.5pt; }
       .print-source { display: block; margin-bottom: .8mm; font-weight: 800; font-size: 6.5pt; }
@@ -1501,6 +1512,7 @@
           <div class="selection-action-buttons">
             <button class="selection-action-button" type="button" data-batch-complete>標記已完成</button>
             <button class="selection-action-button progress" type="button" data-batch-progress>標記進行中</button>
+            <button class="selection-action-button more-than-half" type="button" data-batch-more-than-half-completed>標記已完成超過一半</button>
             <button class="selection-action-button previous" type="button" data-batch-previous-incomplete>標記上週未完成</button>
             <button class="selection-action-button" type="button" data-move-selected>移動所選</button>
             <button class="selection-action-button danger" type="button" data-batch-delete>刪除所選</button>
@@ -1628,6 +1640,7 @@
         <button class="danger-button" type="button" data-delete-entry hidden>刪除</button>
         <button class="previous-incomplete-button" type="button" data-toggle-previous-incomplete hidden data-previous-incomplete="false" aria-pressed="false">標記之前功課未完成</button>
         <button class="progress-button" type="button" data-toggle-progress hidden data-in-progress="false" aria-pressed="false">標記進行中</button>
+        <button class="more-than-half-completed-button" type="button" data-toggle-more-than-half-completed hidden data-more-than-half-completed="false" aria-pressed="false">標記已完成超過一半</button>
         <button class="complete-button" type="button" data-toggle-complete hidden data-completed="false" aria-pressed="false">標記完成</button>
         <button class="secondary-button" type="button" data-close-entry>取消</button>
         <button class="primary-button" type="submit" data-save-entry>儲存</button>
@@ -1760,7 +1773,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script src="shared-system-nav.js?v=20260810-3"></script>
-  <script type="module" src="schedule-system.js?v=20260810-5"></script>
+  <script src="shared-system-nav.js?v=20260810-5"></script>
+  <script type="module" src="schedule-system.js?v=20260810-6"></script>
 </body>
 </html>

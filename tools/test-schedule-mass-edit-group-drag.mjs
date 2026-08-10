@@ -15,6 +15,7 @@ const entries = [
     source: "student",
     isCompleted: true,
     isInProgress: false,
+    isMoreThanHalfCompleted: false,
     isPreviousIncomplete: false,
     estimatedMinutes: 30,
     spanGroupId: null
@@ -27,6 +28,7 @@ const entries = [
     source: "student",
     isCompleted: false,
     isInProgress: true,
+    isMoreThanHalfCompleted: false,
     isPreviousIncomplete: false,
     estimatedMinutes: 45,
     spanGroupId: null
@@ -49,9 +51,33 @@ assert.deepEqual(
   "group drag should preserve every relative day and slot position"
 );
 assert.deepEqual(
-  shifted.items.map((item) => [item.isCompleted, item.isInProgress, item.isPreviousIncomplete]),
-  [[true, false, false], [false, true, false]],
-  "all three status tags must survive the staged group operation"
+  shifted.items.map((item) => [
+    item.isCompleted,
+    item.isInProgress,
+    item.isMoreThanHalfCompleted,
+    item.isPreviousIncomplete
+  ]),
+  [[true, false, false, false], [false, true, false, false]],
+  "all four status tags must survive the staged group operation"
+);
+
+const moreThanHalfShift = planScheduleGroupShift({
+  entries: [{
+    ...entries[0],
+    id: "more-than-half",
+    isCompleted: false,
+    isMoreThanHalfCompleted: true
+  }],
+  selectedEntryIds: ["more-than-half"],
+  anchorEntryId: "more-than-half",
+  targetDate: "2026-08-05",
+  weekStart: "2026-08-03",
+  capacities
+});
+assert.equal(
+  moreThanHalfShift.items[0].isMoreThanHalfCompleted,
+  true,
+  "the champagne more-than-half tag must survive a group shift"
 );
 
 const previousIncompleteShift = planScheduleGroupShift({
@@ -154,4 +180,4 @@ assert.throws(
   (error) => error instanceof ScheduleGroupShiftError && error.code === "protected"
 );
 
-console.log("Schedule Mass Edit group-drag checks passed: relative shift, no overwrite, boundaries, ownership and all statuses.");
+console.log("Schedule Mass Edit group-drag checks passed: relative shift, no overwrite, boundaries, ownership and all four statuses.");
