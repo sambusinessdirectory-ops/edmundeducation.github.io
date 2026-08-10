@@ -15,7 +15,8 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({ type: "reading-analysis", trigger: "Answer Analysis - IELTS Reading", label: "Answer Analysis - IELTS Reading", color: "#8b5fbf" }),
   Object.freeze({ type: "model-essay-download", trigger: "DSE Writing Part A Download", label: "DSE Writing Part A Download", color: "#d08b3e" }),
   Object.freeze({ type: "common-expression", trigger: "Common Expression", label: "Common Expression", color: "#7b65c8" }),
-  Object.freeze({ type: "listening", trigger: "IELTS Listening", label: "IELTS Listening", color: "#218e9b" })
+  Object.freeze({ type: "listening", trigger: "IELTS Listening", label: "IELTS Listening", color: "#218e9b" }),
+  Object.freeze({ type: "learning-portal", trigger: "Learning Portal", label: "Learning Portal", color: "#356f9f" })
 ]);
 
 const TYPE_BY_NAME = new Map(HOMEWORK_RESOURCE_TYPES.map((item) => [item.type, item]));
@@ -38,7 +39,27 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
     "/common-expression-professional-message.html",
     "/common-expression-business-speaking.html"
   ]),
-  listening: Object.freeze(["/listening-system.html"])
+  listening: Object.freeze(["/listening-system.html"]),
+  "learning-portal": Object.freeze([
+    "/quotes-system.html",
+    "/grammar-system.html",
+    "/collocation-system.html",
+    "/irregular-verb-system.html",
+    "/thematic-vocabulary-system.html",
+    "/part-of-speech-system.html",
+    "/synonyms-system.html",
+    "/error-identifier-system.html",
+    "/learning-roadmap.html",
+    "/spelling-system.html",
+    "/reading-logic-system.html",
+    "/translation-skills-system.html",
+    "/business-school-system.html",
+    "/complex-questions-system.html",
+    "/leisurely-reading.html",
+    "/english-humour-speaking.html",
+    "/english-humour-writing.html",
+    "/english-joke-collection.html"
+  ])
 });
 const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/flashcards.html": Object.freeze(["deck"]),
@@ -57,7 +78,25 @@ const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/common-expression-rhetorical-writing.html": Object.freeze(["lesson"]),
   "/common-expression-professional-message.html": Object.freeze(["lesson"]),
   "/common-expression-business-speaking.html": Object.freeze(["lesson"]),
-  "/listening-system.html": Object.freeze(["section", "practice", "part"])
+  "/listening-system.html": Object.freeze(["section", "practice", "part"]),
+  "/quotes-system.html": Object.freeze([]),
+  "/grammar-system.html": Object.freeze([]),
+  "/collocation-system.html": Object.freeze([]),
+  "/irregular-verb-system.html": Object.freeze([]),
+  "/thematic-vocabulary-system.html": Object.freeze([]),
+  "/part-of-speech-system.html": Object.freeze([]),
+  "/synonyms-system.html": Object.freeze([]),
+  "/error-identifier-system.html": Object.freeze([]),
+  "/learning-roadmap.html": Object.freeze([]),
+  "/spelling-system.html": Object.freeze([]),
+  "/reading-logic-system.html": Object.freeze([]),
+  "/translation-skills-system.html": Object.freeze([]),
+  "/business-school-system.html": Object.freeze([]),
+  "/complex-questions-system.html": Object.freeze([]),
+  "/leisurely-reading.html": Object.freeze([]),
+  "/english-humour-speaking.html": Object.freeze([]),
+  "/english-humour-writing.html": Object.freeze([]),
+  "/english-joke-collection.html": Object.freeze([])
 });
 
 function encodeBase64Url(value) {

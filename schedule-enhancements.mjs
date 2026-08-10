@@ -1,4 +1,6 @@
 const DAY_MS = 86_400_000;
+const MINUTE_MS = 60_000;
+const HONG_KONG_UTC_OFFSET_MS = 8 * 60 * 60 * 1000;
 
 export const COUNTDOWN_INITIAL_CAPACITY = 6;
 export const COUNTDOWN_BATCH_SIZE = 5;
@@ -7,8 +9,52 @@ export const COUNTDOWN_MAX_CAPACITY = 101;
 function parseDateOnly(value) {
   const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(value || ""));
   if (!match) return null;
-  const date = new Date(Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3])));
-  return Number.isNaN(date.getTime()) ? null : date;
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  const date = new Date(Date.UTC(year, month - 1, day));
+  if (
+    Number.isNaN(date.getTime())
+    || date.getUTCFullYear() !== year
+    || date.getUTCMonth() !== month - 1
+    || date.getUTCDate() !== day
+  ) return null;
+  return date;
+}
+
+function emptyCountdownBreakdown() {
+  return { days: 0, months: 0, monthWeeks: 0, weeks: 0, weekDays: 0, hours: 0, hourMinutes: 0, minutes: 0 };
+}
+
+function remainingHongKongMilliseconds(endValue, nowValue = new Date()) {
+  const end = parseDateOnly(endValue);
+  const now = nowValue instanceof Date ? nowValue : new Date(nowValue);
+  if (!end || Number.isNaN(now.getTime())) return 0;
+
+  // A date-only deadline represents the end of that calendar day in Hong Kong.
+  const endOfDayHongKong = end.getTime() + DAY_MS - HONG_KONG_UTC_OFFSET_MS - 1;
+  return Math.max(0, endOfDayHongKong - now.getTime());
+}
+
+function countdownBreakdownFromMilliseconds(milliseconds) {
+  const safeMilliseconds = Math.max(0, Number(milliseconds) || 0);
+  const minutes = Math.floor(safeMilliseconds / MINUTE_MS);
+  const days = Math.floor(safeMilliseconds / DAY_MS);
+  const months = Math.floor(days / 30);
+  const monthWeeks = Math.floor((days % 30) / 7);
+  const weeks = Math.floor(days / 7);
+  const weekDays = days % 7;
+  const hours = Math.floor(minutes / 60);
+  return {
+    days,
+    months,
+    monthWeeks,
+    weeks,
+    weekDays,
+    hours,
+    hourMinutes: minutes % 60,
+    minutes
+  };
 }
 
 export function formatEstimatedMinutes(value) {
@@ -97,7 +143,7 @@ export function countdownBreakdown(startValue, endValue) {
   const start = parseDateOnly(startValue);
   const end = parseDateOnly(endValue);
   if (!start || !end || end < start) {
-    return { days: 0, months: 0, monthWeeks: 0, weeks: 0, weekDays: 0, hours: 0, hourMinutes: 0, minutes: 0 };
+    return emptyCountdownBreakdown();
   }
 
   const days = Math.floor((end.getTime() - start.getTime()) / DAY_MS);
@@ -119,9 +165,19 @@ export function countdownBreakdown(startValue, endValue) {
   };
 }
 
+export function countdownBreakdownFromHongKongNow(endValue, nowValue = new Date()) {
+  return countdownBreakdownFromMilliseconds(remainingHongKongMilliseconds(endValue, nowValue));
+}
+
 export function studyHoursBefore(startValue, endValue, dailyHours) {
   const { days } = countdownBreakdown(startValue, endValue);
   const hours = Math.max(0, Number(dailyHours) || 0) * days;
+  return Math.round(hours * 100) / 100;
+}
+
+export function studyHoursFromHongKongNow(endValue, dailyHours, nowValue = new Date()) {
+  const durationInDays = remainingHongKongMilliseconds(endValue, nowValue) / DAY_MS;
+  const hours = Math.max(0, Number(dailyHours) || 0) * durationInDays;
   return Math.round(hours * 100) / 100;
 }
 

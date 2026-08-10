@@ -1,5 +1,6 @@
 export const SCHEDULE_MIN_DATE = "2026-01-01";
 export const SCHEDULE_MAX_DATE = "2050-12-31";
+export const HONG_KONG_TIME_ZONE = "Asia/Hong_Kong";
 export const WEEKDAY_LABELS = [
   "星期一",
   "星期二",
@@ -29,6 +30,18 @@ export function toISODate(date) {
   const month = String(date.getMonth() + 1).padStart(2, "0");
   const day = String(date.getDate()).padStart(2, "0");
   return `${year}-${month}-${day}`;
+}
+
+export function hongKongDayKey(value = new Date()) {
+  const instant = value instanceof Date ? value : new Date(value);
+  if (Number.isNaN(instant.getTime())) throw new Error("Invalid instant");
+  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-CA", {
+    timeZone: HONG_KONG_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(instant).map((part) => [part.type, part.value]));
+  return `${parts.year}-${parts.month}-${parts.day}`;
 }
 
 export function addDays(date, amount) {
@@ -107,5 +120,5 @@ export function formatWeekRange(weekStart, locale = "zh-HK") {
 }
 
 export function defaultWeekStart(today = new Date()) {
-  return toISODate(weekStartFor(today));
+  return toISODate(weekStartFor(parseISODate(hongKongDayKey(today))));
 }

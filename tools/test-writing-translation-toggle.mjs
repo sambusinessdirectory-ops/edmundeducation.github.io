@@ -1510,8 +1510,19 @@ assert.match(html, /writing_student_append_attempt/, "Writing attempts should ap
 assert.match(html, /writing_student_list_attempts/, "Writing history should load through a paginated dedicated RPC");
 assert.match(html, /writing_student_delete_attempts_by_exercise/, "Exercise resets should delete dedicated attempt rows");
 assert.match(html, /p_reset_at:\s*resetAtIso/, "Exercise reset RPC calls should carry the client action time");
+assert.match(html, /確定要重設這組練習的所有紀錄嗎/, "Bulk exercise resets must require explicit confirmation before deleting history");
 assert.match(writingAttemptsSql, /state\.key\s*=\s*'writing-attempts-v1'/, "The dedicated attempt migration should import the legacy Supabase state key");
 assert.match(writingAttemptsSql, /writing_student_append_attempt\([\s\S]*?returns text/i, "The student append RPC should report inserted, existing, or ignored_reset");
+assert.match(
+  writingAttemptsSql,
+  /on conflict on constraint writing_practice_attempts_pkey do nothing/i,
+  "Attempt appends must use an unambiguous named conflict target inside RETURNS TABLE PL/pgSQL"
+);
+assert.doesNotMatch(
+  writingAttemptsSql,
+  /create or replace function public\._writing_practice_append_attempt[\s\S]*?on conflict\s*\(student_id,\s*attempt_id\)\s*do nothing/i,
+  "The append function must not confuse its attempt_id output variable with the table column"
+);
 assert.match(html, /writeStatus\s*===\s*"ignored_reset"/, "The client should remove an attempt from memory when a reset barrier intentionally rejects it");
 assert.match(writingAttemptsSql, /attempt_row\.created_at\s*<=\s*p_reset_at/, "Exercise resets should only delete attempts at or before the client reset time");
 assert.doesNotMatch(writingAttemptsSql, /v_existing\.attempt\s*<>\s*p_attempt/, "A compact client retry should not conflict with the richer JSON imported from legacy state");

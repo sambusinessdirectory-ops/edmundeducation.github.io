@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260810-3">
-  <link rel="stylesheet" href="student-progress.css?v=20260810-3">
+  <link rel="stylesheet" href="student-progress.css?v=20260810-4">
 </head>
 <body data-progress-portal="parent">
   <a class="skip-link" href="#parent-communication-main">跳至主要內容</a>
@@ -96,6 +96,10 @@
             <button type="submit">套用日期</button>
             <p data-custom-range-status role="status" aria-live="polite"></p>
           </form>
+          <div class="progress-export-entry">
+            <button type="button" data-progress-export-open>匯出完整進度 PDF</button>
+            <small>預設包括總覽及所有系統；每個系統獨立一頁。</small>
+          </div>
         </div>
       </section>
       <p class="dashboard-status" data-dashboard-status role="status" aria-live="polite"></p>
@@ -123,6 +127,17 @@
     </section>
   </main>
 
+  <dialog class="progress-export-dialog" data-progress-export-dialog aria-labelledby="parent-progress-export-title">
+    <section>
+      <header><div><p class="eyebrow">PDF PROGRESS REPORT</p><h2 id="parent-progress-export-title">選擇 PDF 報告內容</h2><p>報告會沿用目前子女及統計時段，並為每個已選系統建立獨立頁面。</p></div><button type="button" data-progress-export-close aria-label="關閉">×</button></header>
+      <div class="progress-export-actions"><button type="button" data-progress-export-select-all>全部選擇</button><button type="button" data-progress-export-clear>清除選擇</button></div>
+      <div class="progress-export-list" data-progress-export-list></div>
+      <p class="progress-export-page-count" data-progress-export-page-count></p>
+      <p class="form-status" data-progress-export-status role="status" aria-live="polite"></p>
+      <footer><button class="header-button" type="button" data-progress-export-close>取消</button><button class="header-button" type="button" data-progress-export-save>儲存系統選擇</button><button class="primary-button" type="button" data-progress-export-now>建立／列印 PDF</button></footer>
+    </section>
+  </dialog>
+
   <dialog class="progress-password-dialog" data-password-dialog aria-labelledby="parent-password-title">
     <form class="login-form" data-password-form novalidate>
       <div class="login-heading"><span class="section-number">PW</span><div><p class="eyebrow">ACCOUNT SECURITY</p><h2 id="parent-password-title">更改密碼</h2></div></div>
@@ -139,6 +154,6 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="student-progress-config.js"></script>
-  <script type="module" src="student-progress.js?v=20260810-3"></script>
+  <script type="module" src="student-progress.js?v=20260810-4"></script>
 </body>
 </html>

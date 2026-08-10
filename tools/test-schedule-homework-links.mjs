@@ -40,7 +40,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3495, "the Homework/Schedule catalogue should include every current learning resource, Common Expression lesson and IELTS Listening part");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3513, "the Homework/Schedule catalogue should include every current learning resource, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -57,6 +57,7 @@ assert.equal((byType["reading-analysis"] || []).length, 157, "all unique availab
 assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing Part A model-answer downloads should be indexed");
 assert.equal((byType["common-expression"] || []).length, 58, "all six Common Expression catalogues should be indexed");
 assert.equal((byType.listening || []).length, 80, "all 20 IELTS Listening practices and four parts should be indexed");
+assert.equal((byType["learning-portal"] || []).length, 18, "all new learning portals should be available for Homework/Schedule linking");
 assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2"));
 assert.ok(ids.has("fill:model-essay-2-ielts-advantage-disadvantage"));
 assert.ok(ids.has("speaking:ielts-part-2-book-1-exercise-01"));
@@ -71,6 +72,8 @@ assert.ok(ids.has("reading-analysis:p1-082-graffiti"));
 assert.ok(ids.has("common-expression:speaking:common-expression-01"));
 assert.ok(ids.has("common-expression:written:common-expression-11"));
 assert.ok(ids.has("listening:ielts-listening-practice-20-part-4"));
+assert.ok(ids.has("learning-portal:quotes"));
+assert.ok(ids.has("learning-portal:english-joke-collection"));
 assert.ok([...ids].some((id) => id.startsWith("download:dse-writing-part-a:")));
 
 const readingAnalysisResources = byType["reading-analysis"] || [];

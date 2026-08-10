@@ -27,6 +27,9 @@ test("portal has the requested identity, shared login, and expanded dashboard hi
   assert.match(html, /<span class="group-index">16<\/span>/);
   assert.match(html, /data-schedule-previous/);
   assert.match(html, /data-schedule-next/);
+  assert.match(html, /data-progress-export-open/);
+  assert.match(html, /data-progress-export-dialog/);
+  assert.match(html, /建立／列印 PDF/);
   assert.match(html, /shared-system-nav\.js\?v=/);
   assert.match(config, /adminUsername:\s*"Sam Admin Dashboard"/);
   assert.match(config, /studentLoginRpc:\s*"flashcard_student_login"/);
@@ -45,7 +48,30 @@ test("portal has the requested identity, shared login, and expanded dashboard hi
   assert.match(script, /p_token:\s*state\.authToken/);
   assert.match(script, /scheduleIsOwnStudentView/);
   assert.match(script, /state\.user\?\.role === "student"/);
+  assert.match(script, /buildStudentProgressPrintDocument/);
+  assert.match(script, /progressExportPreferenceKey/);
+  assert.match(script, /window\.localStorage\.setItem/);
   assert.doesNotMatch(script, /schedule_(?:student|admin)_(?:upsert|delete|set_capacity|batch)/, "the progress snapshot must remain read-only");
+});
+
+test("student and parent portals share the complete-progress PDF chooser", async () => {
+  const [studentHtml, parentHtml, exportScript] = await Promise.all([
+    read("student-progress.html"),
+    read("parent-communication.html"),
+    read("student-progress-export.js")
+  ]);
+  for (const html of [studentHtml, parentHtml]) {
+    assert.match(html, /匯出完整進度 PDF/);
+    assert.match(html, /data-progress-export-list/);
+    assert.match(html, /data-progress-export-select-all/);
+    assert.match(html, /data-progress-export-save/);
+    assert.match(html, /每個系統獨立一頁/);
+  }
+  assert.match(exportScript, /const pageTotal = definitions\.length \+ 1/);
+  assert.match(exportScript, /break-after:page/);
+  assert.match(exportScript, /buildMasterTimeSeries/);
+  assert.match(exportScript, /buildActivitySeries/);
+  assert.match(exportScript, /buildSourceTimeSeries/);
 });
 
 test("core declares all fourteen source systems in the requested order", async () => {

@@ -411,7 +411,10 @@ begin
     p_attempt,
     v_created_at
   )
-  on conflict (student_id, attempt_id) do nothing
+  -- `attempt_id` is also an output column of this RETURNS TABLE function.
+  -- Target the named key so PL/pgSQL cannot confuse that output variable with
+  -- the table column and reject every append before it reaches storage.
+  on conflict on constraint writing_practice_attempts_pkey do nothing
   returning true into v_inserted;
 
   select attempt_row.*

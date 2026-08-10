@@ -7,6 +7,7 @@ import {
   firstWeekStart,
   formatDayDate,
   formatWeekRange,
+  hongKongDayKey,
   isDateInScheduleRange,
   lastWeekStart,
   parseISODate,
@@ -17,14 +18,19 @@ import {
   COUNTDOWN_BATCH_SIZE,
   COUNTDOWN_INITIAL_CAPACITY,
   COUNTDOWN_MAX_CAPACITY,
-  countdownBreakdown,
+  countdownBreakdownFromHongKongNow,
   formatEstimatedMinutes,
   isAdjacentSpanTarget,
   planCountdownCapacityChange,
   spanBounds,
   spanLaneLayout,
-  studyHoursBefore
-} from "./schedule-enhancements.mjs?v=20260726-2";
+  studyHoursFromHongKongNow
+} from "./schedule-enhancements.mjs?v=20260810-3";
+import {
+  buildScheduleWeekUrl,
+  scheduleWeekShareMessage,
+  scheduleWeekStartFromUrl
+} from "./schedule-share.mjs?v=20260810-1";
 import {
   HOMEWORK_RESOURCE_TYPES,
   MAX_HOMEWORK_RESOURCES,
@@ -205,6 +211,7 @@ const elements = {
   previousWeek: document.querySelector("[data-previous-week]"),
   nextWeek: document.querySelector("[data-next-week]"),
   currentWeek: document.querySelector("[data-current-week]"),
+  copyWeekLink: document.querySelector("[data-copy-week-link]"),
   exportPdf: document.querySelector("[data-export-pdf]"),
   toggleTable: document.querySelector("[data-toggle-table]"),
   toggleUnused: document.querySelector("[data-toggle-unused]"),
@@ -302,7 +309,7 @@ const state = {
   studentAuditPage: 1,
   studentAuditTotal: 0,
   permanentDeleteSnapshot: null,
-  weekStart: defaultWeekStart(),
+  weekStart: scheduleWeekStartFromUrl(window.location.href, defaultWeekStart()),
   weekPayload: emptyWeekPayload(),
   editing: null,
   weekRequestId: 0,
@@ -1513,7 +1520,72 @@ function renderHomeworkTypeDashboard(rawCounts = {}) {
 }
 
 function todayISO() {
-  return toISODate(new Date());
+  return hongKongDayKey();
+}
+
+function displayedWeekUrl() {
+  return buildScheduleWeekUrl(window.location.href, state.weekStart);
+}
+
+function syncDisplayedWeekUrl() {
+  try {
+    const url = displayedWeekUrl();
+    if (url !== window.location.href) window.history.replaceState(null, "", url);
+  } catch {
+    // A URL-sync failure must never stop a student from opening the timetable.
+  }
+}
+
+async function copyTextWithFallback(text) {
+  if (window.isSecureContext && navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return "clipboard";
+    } catch {
+      // Continue to the selection-based fallback below.
+    }
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.readOnly = true;
+  textarea.setAttribute("aria-hidden", "true");
+  Object.assign(textarea.style, {
+    position: "fixed",
+    left: "-9999px",
+    top: "0",
+    opacity: "0"
+  });
+  document.body.append(textarea);
+  textarea.select();
+  textarea.setSelectionRange(0, text.length);
+  let copied = false;
+  try {
+    copied = document.execCommand("copy");
+  } catch {
+    copied = false;
+  } finally {
+    textarea.remove();
+  }
+  if (copied) return "fallback";
+
+  window.prompt("請複製以下訊息：", text);
+  return "manual";
+}
+
+async function copyDisplayedWeekLink() {
+  try {
+    const message = scheduleWeekShareMessage(displayedWeekUrl());
+    const method = await copyTextWithFallback(message);
+    showToast(method === "manual" ? "已顯示本週訊息，請手動複製。" : "已複製本週功課連結。", "success");
+  } catch {
+    showToast("暫時未能建立本週連結，請重新整理後再試。", "error");
+  }
+}
+
+function refreshCountdownCards() {
+  if (!elements.countdownGrid || document.hidden) return;
+  elements.countdownGrid.querySelectorAll("[data-countdown-position]").forEach(updateCountdownCard);
 }
 
 function countdownByPosition(position) {
@@ -1822,10 +1894,10 @@ function createCountdownCard(position, countdown, draft = null) {
 }
 
 function updateCountdownCard(card) {
-  const start = card.querySelector("[data-countdown-start]").value;
   const end = card.querySelector("[data-countdown-end]").value;
   const title = card.querySelector("[data-countdown-title]").value.trim() || "此事件";
-  const detail = countdownBreakdown(start, end);
+  const now = new Date();
+  const detail = countdownBreakdownFromHongKongNow(end, now);
   card.querySelector("[data-countdown-days]").textContent = `${detail.days} 日剩餘`;
   card.querySelector('[data-countdown-breakdown="months"]').textContent = `${detail.months} 個月 ${detail.monthWeeks} 星期`;
   card.querySelector('[data-countdown-breakdown="weeks"]').textContent = `${detail.weeks} 星期 ${detail.weekDays} 日`;
@@ -1839,11 +1911,11 @@ function updateCountdownCard(card) {
       .reduce((sum, input) => sum + (Number(input.value) || 0), 0);
     daily.value = String(Math.round(total * 100) / 100);
   }
-  const studyHours = studyHoursBefore(start, end, daily.value);
+  const studyHours = studyHoursFromHongKongNow(end, daily.value, now);
   card.querySelector("[data-countdown-study-result]").textContent = `小時，每天累計可在「${title}」前溫習 ${studyHours.toLocaleString()} 小時`;
   breakdown.querySelectorAll("[data-countdown-part]").forEach((input) => {
     const partResult = breakdown.querySelector(`[data-countdown-part-result="${input.dataset.countdownPart}"]`);
-    partResult.textContent = `可在「${title}」前溫習 ${studyHoursBefore(start, end, input.value).toLocaleString()} 小時`;
+    partResult.textContent = `可在「${title}」前溫習 ${studyHoursFromHongKongNow(end, input.value, now).toLocaleString()} 小時`;
   });
 }
 
@@ -2173,7 +2245,6 @@ async function login(event) {
     });
     clearRenderedSchedule();
     state.selectedStudent = { id: student.id, name: student.name };
-    state.weekStart = defaultWeekStart();
     saveSession();
     elements.loginForm.reset();
     showView("calendar");
@@ -3141,6 +3212,7 @@ function activeStudent() {
 async function loadWeek(focusTarget = null) {
   const student = activeStudent();
   if (!student) return;
+  syncDisplayedWeekUrl();
   captureCountdownDrafts();
   resetSelectionMode();
   const requestedWeek = state.weekStart;
@@ -3268,7 +3340,7 @@ function renderWeek() {
   updateCalendarHeading();
   const entries = entryMap();
   const dates = weekDates(state.weekStart);
-  const today = toISODate(new Date());
+  const today = hongKongDayKey();
   const hideUnusedNow = unusedSlotsAreHidden();
   const spanLayout = spanLaneLayout(state.weekPayload.entries, dates);
   const spanEntriesByCell = new Map(state.weekPayload.entries
@@ -5179,6 +5251,7 @@ elements.currentWeek.addEventListener("click", async () => {
   state.weekStart = current;
   await loadWeek();
 });
+elements.copyWeekLink?.addEventListener("click", copyDisplayedWeekLink);
 elements.exportPdf.addEventListener("click", exportPdf);
 elements.toggleTable.addEventListener("click", toggleTableVisibility);
 elements.toggleUnused.addEventListener("click", toggleUnusedSlots);
@@ -5278,5 +5351,10 @@ async function initialize() {
     setStatus(elements.loginStatus, "未能連接登入服務，請檢查網絡後重新整理。", "error");
   }
 }
+
+window.setInterval(refreshCountdownCards, 60_000);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) refreshCountdownCards();
+});
 
 initialize();

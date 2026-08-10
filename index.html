@@ -1933,6 +1933,74 @@
       line-height: 1.08;
     }
 
+    .learning-portal-card {
+      --category-key-lip: hsl(var(--portal-card-hue) 48% 28%);
+      --category-key-shadow: hsl(var(--portal-card-hue) 46% 22% / .3);
+      color: #f8fbff;
+      border-color: rgba(255,255,255,.46);
+      background:
+        linear-gradient(120deg, rgba(255,255,255,.21), transparent 42%),
+        radial-gradient(circle at 18% 18%, hsl(calc(var(--portal-card-hue) + 45) 82% 76% / .54), transparent 34%),
+        repeating-linear-gradient(135deg, rgba(255,255,255,.045) 0 2px, transparent 2px 11px),
+        linear-gradient(138deg, hsl(var(--portal-card-hue) 60% 51%), hsl(var(--portal-card-hue) 57% 28%));
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,.58),
+        inset 0 -9px 0 rgba(8,20,38,.2),
+        0 8px 0 var(--category-key-lip),
+        0 22px 34px var(--category-key-shadow);
+      overflow: hidden;
+    }
+
+    .learning-portal-card::before {
+      color: rgba(255,255,255,.5);
+      text-shadow: 0 2px 0 rgba(5,18,36,.3);
+    }
+
+    .learning-portal-card::after {
+      content: "A · Z";
+      right: clamp(18px, 1.5vw, 25px);
+      bottom: clamp(18px, 1.5vw, 25px);
+      width: clamp(54px, 4vw, 70px);
+      height: clamp(54px, 4vw, 70px);
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255,255,255,.38);
+      border-radius: 18px;
+      color: rgba(255,255,255,.79);
+      background: rgba(6,24,45,.16);
+      box-shadow: 0 12px 24px rgba(5,18,36,.16), inset 0 1px rgba(255,255,255,.24);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(13px, 1vw, 17px);
+      font-weight: 900;
+      opacity: 1;
+      transform: rotate(-4deg);
+    }
+
+    .learning-portal-card:hover,
+    .learning-portal-card:focus-visible {
+      background:
+        linear-gradient(120deg, rgba(255,255,255,.26), transparent 42%),
+        radial-gradient(circle at 18% 18%, hsl(calc(var(--portal-card-hue) + 45) 82% 78% / .63), transparent 35%),
+        repeating-linear-gradient(135deg, rgba(255,255,255,.06) 0 2px, transparent 2px 11px),
+        linear-gradient(138deg, hsl(var(--portal-card-hue) 64% 55%), hsl(var(--portal-card-hue) 60% 31%));
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,.64),
+        inset 0 -9px 0 rgba(8,20,38,.2),
+        0 12px 0 var(--category-key-lip),
+        0 30px 46px var(--category-key-shadow);
+    }
+
+    .learning-portal-card .category-name {
+      max-width: 82%;
+      margin-top: clamp(44px, 3.7vw, 62px);
+      color: #f8fbff;
+      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+      font-size: clamp(18px, 1.08vw, 23px);
+      line-height: 1.1;
+      letter-spacing: .005em;
+      text-shadow: 0 2px 0 rgba(6,20,40,.33), 0 8px 18px rgba(6,20,40,.3);
+    }
+
     .schedule-card-first-line { white-space: nowrap; }
 
     .category-name {
@@ -2763,6 +2831,78 @@
 
         <a class="category common-expression-card common-expression-business-speaking-card" href="common-expression-business-speaking.html" aria-label="Common Expression 常用語 商務會話 Business speaking">
           <span class="category-name"><span class="common-expression-card__title">Common Expression</span><br>常用語<br>商務會話 Business speaking</span>
+        </a>
+
+        <a class="category learning-portal-card" href="quotes-system.html" aria-label="Quotes 名人英文語錄 學習系統" style="--portal-card-hue:24">
+          <span class="category-name">Quotes<br>名人英文語錄<br>學習系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="grammar-system.html" aria-label="Grammar 英文語法學習" style="--portal-card-hue:215">
+          <span class="category-name">Grammar<br>英文語法學習</span>
+        </a>
+
+        <a class="category learning-portal-card" href="collocation-system.html" aria-label="Collocation 英文配詞 學習系統" style="--portal-card-hue:162">
+          <span class="category-name">Collocation<br>英文配詞<br>學習系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="irregular-verb-system.html" aria-label="Irregular Verb 不規則動詞 學習系統" style="--portal-card-hue:348">
+          <span class="category-name">Irregular Verb<br>不規則動詞<br>學習系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="thematic-vocabulary-system.html" aria-label="Thematic Vocabulary 主題性生字記錄大全" style="--portal-card-hue:278">
+          <span class="category-name">Thematic Vocabulary<br>主題性生字記錄大全</span>
+        </a>
+
+        <a class="category learning-portal-card" href="part-of-speech-system.html" aria-label="Part Of Speech (POS) 詞性練習系統" style="--portal-card-hue:42">
+          <span class="category-name">Part Of Speech (POS)<br>詞性練習系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="synonyms-system.html" aria-label="Synonyms 同義詞 學習系統" style="--portal-card-hue:188">
+          <span class="category-name">Synonyms<br>同義詞<br>學習系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="error-identifier-system.html" aria-label="Error Identifier 錯因分析系統" style="--portal-card-hue:4">
+          <span class="category-name">Error Identifier<br>錯因分析系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="learning-roadmap.html" aria-label="Learning Roadmap 英文學習路線圖" style="--portal-card-hue:228">
+          <span class="category-name">Learning Roadmap<br>英文學習路線圖</span>
+        </a>
+
+        <a class="category learning-portal-card" href="spelling-system.html" aria-label="Spelling 拼寫 練習系統" style="--portal-card-hue:142">
+          <span class="category-name">Spelling<br>拼寫<br>練習系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="reading-logic-system.html" aria-label="Reading Logic 閱讀理解 題型邏輯" style="--portal-card-hue:258">
+          <span class="category-name">Reading Logic<br>閱讀理解<br>題型邏輯</span>
+        </a>
+
+        <a class="category learning-portal-card" href="translation-skills-system.html" aria-label="Translation Skills 閱讀理解 英譯中能力學習" style="--portal-card-hue:194">
+          <span class="category-name">Translation Skills<br>閱讀理解<br>英譯中能力學習</span>
+        </a>
+
+        <a class="category learning-portal-card" href="business-school-system.html" aria-label="Business School 商學院英文訓練系統" style="--portal-card-hue:38">
+          <span class="category-name">Business School<br>商學院英文訓練系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="complex-questions-system.html" aria-label="Complex Questions 英文複雜問句" style="--portal-card-hue:316">
+          <span class="category-name">Complex Questions<br>英文複雜問句</span>
+        </a>
+
+        <a class="category learning-portal-card" href="leisurely-reading.html" aria-label="Leisurely Reading 英文導讀系統" style="--portal-card-hue:118">
+          <span class="category-name">Leisurely Reading<br>英文導讀系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="english-humour-speaking.html" aria-label="English Humour Speaking 英文幽默會話系統" style="--portal-card-hue:52">
+          <span class="category-name">English Humour<br>Speaking<br>英文幽默會話系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="english-humour-writing.html" aria-label="English Humour Speaking 英文幽默寫作系統" style="--portal-card-hue:332">
+          <span class="category-name">English Humour<br>Speaking<br>英文幽默寫作系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="english-joke-collection.html" aria-label="English Joke Collection 英文笑話收集站" style="--portal-card-hue:202">
+          <span class="category-name">English Joke<br>Collection<br>英文笑話收集站</span>
         </a>
 
       </div>

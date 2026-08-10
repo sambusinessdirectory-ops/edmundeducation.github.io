@@ -21,7 +21,25 @@
     { id: "common-expression-rhetorical-speaking", href: "common-expression-rhetorical-speaking.html", zh: "Common Expression 常用語", en: "修辭會話 Rhetorical Speaking" },
     { id: "common-expression-rhetorical-writing", href: "common-expression-rhetorical-writing.html", zh: "Common Expression 常用語", en: "修辭寫作 Rhetorical Writing" },
     { id: "common-expression-professional-message", href: "common-expression-professional-message.html", zh: "Common Expression 常用語", en: "商業溝通 Professional Message" },
-    { id: "common-expression-business-speaking", href: "common-expression-business-speaking.html", zh: "Common Expression 常用語", en: "商務會話 Business Speaking" }
+    { id: "common-expression-business-speaking", href: "common-expression-business-speaking.html", zh: "Common Expression 常用語", en: "商務會話 Business Speaking" },
+    { id: "quotes", href: "quotes-system.html", zh: "名人英文語錄", en: "Quotes / 學習系統" },
+    { id: "grammar", href: "grammar-system.html", zh: "英文語法學習", en: "Grammar" },
+    { id: "collocation", href: "collocation-system.html", zh: "英文配詞", en: "Collocation / 學習系統" },
+    { id: "irregular-verb", href: "irregular-verb-system.html", zh: "不規則動詞", en: "Irregular Verb / 學習系統" },
+    { id: "thematic-vocabulary", href: "thematic-vocabulary-system.html", zh: "主題性生字記錄大全", en: "Thematic Vocabulary" },
+    { id: "part-of-speech", href: "part-of-speech-system.html", zh: "詞性練習系統", en: "Part Of Speech (POS)" },
+    { id: "synonyms", href: "synonyms-system.html", zh: "同義詞", en: "Synonyms / 學習系統" },
+    { id: "error-identifier", href: "error-identifier-system.html", zh: "錯因分析系統", en: "Error Identifier" },
+    { id: "learning-roadmap", href: "learning-roadmap.html", zh: "英文學習路線圖", en: "Learning Roadmap" },
+    { id: "spelling", href: "spelling-system.html", zh: "拼寫 / 練習系統", en: "Spelling" },
+    { id: "reading-logic", href: "reading-logic-system.html", zh: "閱讀理解 / 題型邏輯", en: "Reading Logic" },
+    { id: "translation-skills", href: "translation-skills-system.html", zh: "閱讀理解 / 英譯中能力學習", en: "Translation Skills" },
+    { id: "business-school", href: "business-school-system.html", zh: "商學院英文訓練系統", en: "Business School" },
+    { id: "complex-questions", href: "complex-questions-system.html", zh: "英文複雜問句", en: "Complex Questions" },
+    { id: "leisurely-reading", href: "leisurely-reading.html", zh: "英文導讀系統", en: "Leisurely Reading" },
+    { id: "english-humour-speaking", href: "english-humour-speaking.html", zh: "英文幽默會話系統", en: "English Humour / Speaking" },
+    { id: "english-humour-writing", href: "english-humour-writing.html", zh: "英文幽默寫作系統", en: "English Humour / Speaking" },
+    { id: "english-joke-collection", href: "english-joke-collection.html", zh: "英文笑話收集站", en: "English Joke / Collection" }
   ]);
 
   const SESSION_KEYS = Object.freeze({
@@ -41,9 +59,34 @@
     "common-expression-rhetorical-writing": "edmund-common-expression-rhetorical-writing-session-v1",
     "common-expression-professional-message": "edmund-common-expression-professional-message-session-v1",
     "common-expression-business-speaking": "edmund-common-expression-business-speaking-session-v1",
+    quotes: "edmund-learning-portal-quotes-session-v1",
+    grammar: "edmund-learning-portal-grammar-session-v1",
+    collocation: "edmund-learning-portal-collocation-session-v1",
+    "irregular-verb": "edmund-learning-portal-irregular-verb-session-v1",
+    "thematic-vocabulary": "edmund-learning-portal-thematic-vocabulary-session-v1",
+    "part-of-speech": "edmund-learning-portal-part-of-speech-session-v1",
+    synonyms: "edmund-learning-portal-synonyms-session-v1",
+    "error-identifier": "edmund-learning-portal-error-identifier-session-v1",
+    "learning-roadmap": "edmund-learning-portal-learning-roadmap-session-v1",
+    spelling: "edmund-learning-portal-spelling-session-v1",
+    "reading-logic": "edmund-learning-portal-reading-logic-session-v1",
+    "translation-skills": "edmund-learning-portal-translation-skills-session-v1",
+    "business-school": "edmund-learning-portal-business-school-session-v1",
+    "complex-questions": "edmund-learning-portal-complex-questions-session-v1",
+    "leisurely-reading": "edmund-learning-portal-leisurely-reading-session-v1",
+    "english-humour-speaking": "edmund-learning-portal-english-humour-speaking-session-v1",
+    "english-humour-writing": "edmund-learning-portal-english-humour-writing-session-v1",
+    "english-joke-collection": "edmund-learning-portal-english-joke-collection-session-v1",
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession"
   });
+
+  const LEARNING_PORTAL_IDS = Object.freeze([
+    "quotes", "grammar", "collocation", "irregular-verb", "thematic-vocabulary", "part-of-speech",
+    "synonyms", "error-identifier", "learning-roadmap", "spelling", "reading-logic", "translation-skills",
+    "business-school", "complex-questions", "leisurely-reading", "english-humour-speaking",
+    "english-humour-writing", "english-joke-collection"
+  ]);
 
   function storageJson(storage, key) {
     try {
@@ -176,6 +219,10 @@
       }
     };
 
+    LEARNING_PORTAL_IDS.forEach(systemId => {
+      candidates[systemId] = () => commonExpressionSession(systemId);
+    });
+
     function commonExpressionSession(systemId) {
       const value = storageJson(storage, SESSION_KEYS[systemId]);
       return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
@@ -205,6 +252,7 @@
       || candidates["common-expression-rhetorical-writing"]()
       || candidates["common-expression-professional-message"]()
       || candidates["common-expression-business-speaking"]()
+      || LEARNING_PORTAL_IDS.map(systemId => candidates[systemId]()).find(Boolean)
       || null;
   }
 
@@ -327,6 +375,14 @@
       "common-expression-professional-message",
       "common-expression-business-speaking"
     ].forEach(systemId => {
+      writeStudentSession(storage, SESSION_KEYS[systemId], {
+        token: universal.token,
+        id: universal.id,
+        name: universal.name,
+        role: "student"
+      }, overwrite);
+    });
+    LEARNING_PORTAL_IDS.forEach(systemId => {
       writeStudentSession(storage, SESSION_KEYS[systemId], {
         token: universal.token,
         id: universal.id,

@@ -413,6 +413,15 @@ async function listeningResources() {
   });
 }
 
+async function learningPortalResources() {
+  const globals = await evaluateFiles(["learning-portal-config.js"]);
+  const resources = globals.EDMUND_HOMEWORK_RESOURCES;
+  if (!Array.isArray(resources) || resources.length !== 18) {
+    throw new Error(`Learning portal catalogue should contain 18 portals, found ${resources?.length || 0}`);
+  }
+  return resources.map((resource) => ({ ...resource }));
+}
+
 async function registeredProviderResources(allFiles) {
   const files = allFiles.filter((file) => /(?:^|-)homework-resources\.js$/i.test(file)).sort();
   const resources = [];
@@ -472,6 +481,7 @@ const resources = [
   ...await sentenceResources(),
   ...await commonExpressionResources(),
   ...await listeningResources(),
+  ...await learningPortalResources(),
   ...await orderedLessonResources({
     file: "idiom-system-data.js",
     globalName: "EDMUND_IDIOM_SYSTEM_DATA",

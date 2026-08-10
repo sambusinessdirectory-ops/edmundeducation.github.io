@@ -16699,6 +16699,150 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "idiom-system.html?lesson=idiom-138"
   },
   {
+    "id": "learning-portal:business-school",
+    "type": "learning-portal",
+    "ordinal": 42,
+    "label": "Business School / 商學院英文訓練系統",
+    "detail": "學生學習系統 · 商學院英文訓練系統",
+    "url": "business-school-system.html"
+  },
+  {
+    "id": "learning-portal:collocation",
+    "type": "learning-portal",
+    "ordinal": 32,
+    "label": "Collocation / 英文配詞 / 學習系統",
+    "detail": "學生學習系統 · 英文配詞 / 學習系統",
+    "url": "collocation-system.html"
+  },
+  {
+    "id": "learning-portal:complex-questions",
+    "type": "learning-portal",
+    "ordinal": 43,
+    "label": "Complex Questions / 英文複雜問句",
+    "detail": "學生學習系統 · 英文複雜問句",
+    "url": "complex-questions-system.html"
+  },
+  {
+    "id": "learning-portal:english-humour-writing",
+    "type": "learning-portal",
+    "ordinal": 46,
+    "label": "English Humour / Speaking / 英文幽默寫作系統",
+    "detail": "學生學習系統 · Speaking / 英文幽默寫作系統",
+    "url": "english-humour-writing.html"
+  },
+  {
+    "id": "learning-portal:english-humour-speaking",
+    "type": "learning-portal",
+    "ordinal": 45,
+    "label": "English Humour / Speaking / 英文幽默會話系統",
+    "detail": "學生學習系統 · Speaking / 英文幽默會話系統",
+    "url": "english-humour-speaking.html"
+  },
+  {
+    "id": "learning-portal:english-joke-collection",
+    "type": "learning-portal",
+    "ordinal": 47,
+    "label": "English Joke / Collection / 英文笑話收集站",
+    "detail": "學生學習系統 · Collection / 英文笑話收集站",
+    "url": "english-joke-collection.html"
+  },
+  {
+    "id": "learning-portal:error-identifier",
+    "type": "learning-portal",
+    "ordinal": 37,
+    "label": "Error Identifier / 錯因分析系統",
+    "detail": "學生學習系統 · 錯因分析系統",
+    "url": "error-identifier-system.html"
+  },
+  {
+    "id": "learning-portal:grammar",
+    "type": "learning-portal",
+    "ordinal": 31,
+    "label": "Grammar / 英文語法學習",
+    "detail": "學生學習系統 · 英文語法學習",
+    "url": "grammar-system.html"
+  },
+  {
+    "id": "learning-portal:irregular-verb",
+    "type": "learning-portal",
+    "ordinal": 33,
+    "label": "Irregular Verb / 不規則動詞 / 學習系統",
+    "detail": "學生學習系統 · 不規則動詞 / 學習系統",
+    "url": "irregular-verb-system.html"
+  },
+  {
+    "id": "learning-portal:learning-roadmap",
+    "type": "learning-portal",
+    "ordinal": 38,
+    "label": "Learning Roadmap / 英文學習路線圖",
+    "detail": "學生學習系統 · 英文學習路線圖",
+    "url": "learning-roadmap.html"
+  },
+  {
+    "id": "learning-portal:leisurely-reading",
+    "type": "learning-portal",
+    "ordinal": 44,
+    "label": "Leisurely Reading / 英文導讀系統",
+    "detail": "學生學習系統 · 英文導讀系統",
+    "url": "leisurely-reading.html"
+  },
+  {
+    "id": "learning-portal:part-of-speech",
+    "type": "learning-portal",
+    "ordinal": 35,
+    "label": "Part Of Speech (POS) / 詞性練習系統",
+    "detail": "學生學習系統 · 詞性練習系統",
+    "url": "part-of-speech-system.html"
+  },
+  {
+    "id": "learning-portal:quotes",
+    "type": "learning-portal",
+    "ordinal": 30,
+    "label": "Quotes / 名人英文語錄 / 學習系統",
+    "detail": "學生學習系統 · 名人英文語錄 / 學習系統",
+    "url": "quotes-system.html"
+  },
+  {
+    "id": "learning-portal:reading-logic",
+    "type": "learning-portal",
+    "ordinal": 40,
+    "label": "Reading Logic / 閱讀理解 / 題型邏輯",
+    "detail": "學生學習系統 · 閱讀理解 / 題型邏輯",
+    "url": "reading-logic-system.html"
+  },
+  {
+    "id": "learning-portal:spelling",
+    "type": "learning-portal",
+    "ordinal": 39,
+    "label": "Spelling / 拼寫 / 練習系統",
+    "detail": "學生學習系統 · 拼寫 / 練習系統",
+    "url": "spelling-system.html"
+  },
+  {
+    "id": "learning-portal:synonyms",
+    "type": "learning-portal",
+    "ordinal": 36,
+    "label": "Synonyms / 同義詞 / 學習系統",
+    "detail": "學生學習系統 · 同義詞 / 學習系統",
+    "url": "synonyms-system.html"
+  },
+  {
+    "id": "learning-portal:thematic-vocabulary",
+    "type": "learning-portal",
+    "ordinal": 34,
+    "label": "Thematic Vocabulary / 主題性生字記錄大全",
+    "detail": "學生學習系統 · 主題性生字記錄大全",
+    "url": "thematic-vocabulary-system.html"
+  },
+  {
+    "id": "learning-portal:translation-skills",
+    "type": "learning-portal",
+    "ordinal": 41,
+    "label": "Translation Skills / 閱讀理解 / 英譯中能力學習",
+    "detail": "學生學習系統 · 閱讀理解 / 英譯中能力學習",
+    "url": "translation-skills-system.html"
+  },
+  {
     "id": "listening:ielts-listening-practice-1-part-1",
     "type": "listening",
     "ordinal": 1,

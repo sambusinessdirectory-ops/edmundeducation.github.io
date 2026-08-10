@@ -12233,6 +12233,11 @@ Device: concession 讓步
             .split(",")
             .map(item => item.trim())
             .filter(Boolean);
+          if (!exerciseIds.length) return;
+          const confirmed = window.confirm(
+            `確定要重設這組練習的所有紀錄嗎？\n\n這會清除 ${exerciseIds.length} 個練習的現有進度，而且不能復原。`
+          );
+          if (!confirmed) return;
           clearPracticeResultsForExerciseIds(exerciseIds);
           renderExerciseView();
           return;

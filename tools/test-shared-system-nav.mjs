@@ -71,6 +71,8 @@ test("shared student login safely bridges every Flashcard-token portal", () => {
   assert.equal(read(sessionStorage, "edmund-common-expression-rhetorical-writing-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-common-expression-professional-message-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-common-expression-business-speaking-session-v1").name, "Student One");
+  assert.equal(read(sessionStorage, "edmund-learning-portal-quotes-session-v1").name, "Student One");
+  assert.equal(read(sessionStorage, "edmund-learning-portal-english-joke-collection-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-schedule-session-v1").studentToken, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmundModelEssayDownloadSession").sessionToken, "11111111-1111-4111-8111-111111111111");
   assert.equal(sessionStorage.getItem("edmundFlashcardSession"), null);
@@ -177,7 +179,7 @@ test("student bridging and logout never overwrite active admin sessions", () => 
   assert.deepEqual(read(localStorage, "edmundWritingSession"), { name: "Writing Preview", role: "student", impersonatedByAdmin: true });
 });
 
-test("all nineteen student portals load the shared accessible switcher", () => {
+test("all established student portals load the shared accessible switcher", () => {
   const pages = {
     "student-progress.html": "progress",
     "flashcards.html": "flashcards",
@@ -238,7 +240,25 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
     "common-expression-rhetorical-speaking.html",
     "common-expression-rhetorical-writing.html",
     "common-expression-professional-message.html",
-    "common-expression-business-speaking.html"
+    "common-expression-business-speaking.html",
+    "quotes-system.html",
+    "grammar-system.html",
+    "collocation-system.html",
+    "irregular-verb-system.html",
+    "thematic-vocabulary-system.html",
+    "part-of-speech-system.html",
+    "synonyms-system.html",
+    "error-identifier-system.html",
+    "learning-roadmap.html",
+    "spelling-system.html",
+    "reading-logic-system.html",
+    "translation-skills-system.html",
+    "business-school-system.html",
+    "complex-questions-system.html",
+    "leisurely-reading.html",
+    "english-humour-speaking.html",
+    "english-humour-writing.html",
+    "english-joke-collection.html"
   ]);
   const progressSystem = api.systems.find(({ id }) => id === "progress");
   assert.equal(progressSystem?.zh, "全面英文能力發展進度表");

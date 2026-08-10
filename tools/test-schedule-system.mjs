@@ -4,7 +4,9 @@ import {
   SCHEDULE_MAX_DATE,
   SCHEDULE_MIN_DATE,
   addDays,
+  defaultWeekStart,
   firstWeekStart,
+  hongKongDayKey,
   isDateInScheduleRange,
   isWeekStartInScheduleRange,
   lastWeekStart,
@@ -17,13 +19,20 @@ import {
   COUNTDOWN_INITIAL_CAPACITY,
   COUNTDOWN_MAX_CAPACITY,
   countdownBreakdown,
+  countdownBreakdownFromHongKongNow,
   formatEstimatedMinutes,
   isAdjacentSpanTarget,
   planCountdownCapacityChange,
   spanBounds,
   spanLaneLayout,
-  studyHoursBefore
+  studyHoursBefore,
+  studyHoursFromHongKongNow
 } from "../schedule-enhancements.mjs";
+import {
+  buildScheduleWeekUrl,
+  scheduleWeekShareMessage,
+  scheduleWeekStartFromUrl
+} from "../schedule-share.mjs";
 
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
@@ -55,6 +64,9 @@ assert.ok(isWeekStartInScheduleRange(toISODate(firstWeekStart())));
 assert.ok(isWeekStartInScheduleRange(toISODate(lastWeekStart())));
 assert.equal(parseISODate(toISODate(firstWeekStart())).getDay(), 1);
 assert.equal(parseISODate(toISODate(lastWeekStart())).getDay(), 1);
+assert.equal(hongKongDayKey("2026-08-09T15:59:59Z"), "2026-08-09");
+assert.equal(hongKongDayKey("2026-08-09T16:00:00Z"), "2026-08-10");
+assert.equal(defaultWeekStart(new Date("2026-08-09T16:00:00Z")), "2026-08-10");
 
 let cursor = parseISODate(SCHEDULE_MIN_DATE);
 const finalDate = parseISODate(SCHEDULE_MAX_DATE);
@@ -110,6 +122,41 @@ assert.deepEqual(countdownBreakdown("2026-07-26", "2026-08-25"), {
 });
 assert.equal(studyHoursBefore("2026-07-26", "2026-08-25", 1.5), 45);
 assert.equal(countdownBreakdown("2026-08-25", "2026-07-26").days, 0);
+assert.equal(countdownBreakdown("2026-02-01", "2026-02-31").days, 0, "impossible dates must not be normalized silently");
+assert.deepEqual(
+  countdownBreakdownFromHongKongNow("2026-08-11", "2026-08-10T15:30:00Z"),
+  {
+    days: 1, months: 0, monthWeeks: 0, weeks: 0, weekDays: 1,
+    hours: 24, hourMinutes: 29, minutes: 1469
+  },
+  "the countdown must use the current instant and the end of the selected Hong Kong date"
+);
+assert.deepEqual(
+  countdownBreakdownFromHongKongNow("2026-08-11", "2026-08-10T16:30:00Z"),
+  {
+    days: 0, months: 0, monthWeeks: 0, weeks: 0, weekDays: 0,
+    hours: 23, hourMinutes: 29, minutes: 1409
+  },
+  "remaining time must roll over at Hong Kong midnight"
+);
+assert.equal(studyHoursFromHongKongNow("2026-08-11", 2, "2026-08-10T15:30:00Z"), 2.04);
+assert.equal(studyHoursFromHongKongNow("2026-08-10", 2, "2026-08-10T16:00:00Z"), 0);
+
+const firstShareWeek = toISODate(firstWeekStart());
+const lastShareWeek = toISODate(lastWeekStart());
+assert.equal(scheduleWeekStartFromUrl(`https://edmundeducation.com/schedule-system.html?week=${firstShareWeek}`, "2026-08-10"), firstShareWeek);
+assert.equal(scheduleWeekStartFromUrl(`https://edmundeducation.com/schedule-system.html?week=${lastShareWeek}`, "2026-08-10"), lastShareWeek);
+assert.equal(scheduleWeekStartFromUrl("https://edmundeducation.com/schedule-system.html?week=2026-08-11", "2026-08-10"), "2026-08-10");
+assert.equal(scheduleWeekStartFromUrl("https://edmundeducation.com/schedule-system.html?week=2026-08-10&week=2026-08-17", "2026-08-10"), "2026-08-10");
+assert.equal(
+  buildScheduleWeekUrl("https://name:password@edmundeducation.com/schedule-system.html?token=secret&student=abc#private", "2026-08-10"),
+  "https://edmundeducation.com/schedule-system.html?week=2026-08-10",
+  "shared links must contain only the selected week"
+);
+assert.equal(
+  scheduleWeekShareMessage("https://edmundeducation.com/schedule-system.html?week=2026-08-10"),
+  "Edmund 提醒：\n已安排本週功課，請努力溫習！ 😬💪🏻\nhttps://edmundeducation.com/schedule-system.html?week=2026-08-10"
+);
 assert.deepEqual(planCountdownCapacityChange(6, 5), {
   allowed: true,
   reason: "ok",
@@ -141,7 +188,7 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 29, "homepage must contain 29 numbered category cards after adding Parent Communication and Listening");
+assert.equal(homepageCards.length, 47, "homepage must contain all 47 numbered category cards after adding the learning portal backbones");
 const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
 assert.equal(homepageCardHrefs[9], "schedule-system.html", "Schedule must be numbered card 10");
 assert.equal(homepageCardHrefs[12], "flashcards.html", "Flashcards must be numbered card 13");
@@ -304,7 +351,11 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260810-4/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260810-5/);
+assert.match(scheduleHtml, /data-copy-week-link/);
+assert.match(scheduleHtml, /\[data-student-list\]\s*\{[^}]*grid-template-columns:\s*repeat\(3,\s*minmax\(0,\s*1fr\)\)/s);
+assert.match(scheduleHtml, /@media\s*\(max-width:\s*980px\)[\s\S]*?\[data-student-list\]\s*\{[^}]*repeat\(2,/s);
+assert.match(scheduleHtml, /@media\s*\(max-width:\s*680px\)[\s\S]*?\[data-student-list\]\s*\{[^}]*minmax\(0,\s*1fr\)/s);
 
 const metricCards = [...scheduleHtml.matchAll(/<article\s+class="metric-card(?:\s[^"]*)?"/g)];
 assert.equal(metricCards.length, 4, "schedule progress dashboard must contain exactly four metric cards");
@@ -408,6 +459,15 @@ assert.match(scheduleJs, /schedule_admin_set_entry_in_progress/);
 assert.match(scheduleJs, /p_estimated_minutes/);
 assert.match(scheduleJs, /function renderCountdowns\(/);
 assert.match(scheduleJs, /function updateCountdownCard\(/);
+assert.match(scheduleJs, /countdownBreakdownFromHongKongNow\(end, now\)/);
+assert.match(scheduleJs, /studyHoursFromHongKongNow\(end, daily\.value, now\)/);
+assert.doesNotMatch(
+  scheduleJs.match(/function updateCountdownCard\([^)]*\)\s*\{([\s\S]*?)\n\}/)?.[1] || "",
+  /data-countdown-start|studyHoursBefore|countdownBreakdown\(start/,
+  "live countdown and study projections must not use the saved original start date"
+);
+assert.match(scheduleJs, /window\.setInterval\(refreshCountdownCards,\s*60_000\)/);
+assert.match(scheduleJs, /document\.addEventListener\("visibilitychange"/);
 assert.match(scheduleJs, /start\.min\s*=\s*SCHEDULE_MIN_DATE/);
 assert.match(scheduleJs, /start\.max\s*=\s*SCHEDULE_MAX_DATE/);
 assert.match(scheduleJs, /end\.min\s*=\s*SCHEDULE_MIN_DATE/);
@@ -470,6 +530,12 @@ assert.match(scheduleJs, /shortcut === "v" && readStoredScheduleClipboardPayload
 assert.match(scheduleJs, /if \(state\.scheduleClipboardPayload\) return state\.scheduleClipboardPayload/, "marquee control updates must reuse the parsed payload rather than repeatedly parsing session storage");
 assert.match(scheduleHtml, /@supabase\/supabase-js@2\.110\.8\/dist\/umd\/supabase\.js/, "Schedule must use a pinned, cacheable Supabase client build");
 assert.match(scheduleJs, /let supabaseAuthPromise = null/);
+assert.match(scheduleJs, /scheduleWeekStartFromUrl\(window\.location\.href, defaultWeekStart\(\)\)/);
+assert.match(scheduleJs, /function syncDisplayedWeekUrl\(/);
+assert.match(scheduleJs, /scheduleWeekShareMessage\(displayedWeekUrl\(\)\)/);
+assert.match(scheduleJs, /navigator\.clipboard\?\.writeText/);
+assert.match(scheduleJs, /document\.execCommand\("copy"\)/);
+assert.match(scheduleJs, /window\.prompt\("請複製以下訊息：", text\)/);
 assert.match(scheduleJs, /if \(!supabaseAuthPromise\)[\s\S]*?supabaseAuthPromise = \(async \(\) =>/, "Supabase anonymous authentication must be shared instead of repeated before every RPC");
 const restoreSessionBody = scheduleJs.match(/async function restoreSession\(\)\s*\{([\s\S]*?)\n\}\n\nasync function login/)?.[1] || "";
 assert.doesNotMatch(restoreSessionBody, /schedule_admin_me|schedule_student_profile/, "restoring a saved session must let the first useful list\/week RPC validate the token instead of making a duplicate validation request");

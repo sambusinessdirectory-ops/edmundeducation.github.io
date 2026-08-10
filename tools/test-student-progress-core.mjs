@@ -12,6 +12,11 @@ import {
   localDayKey,
   normalizeProgressSnapshot
 } from "../student-progress-core.js";
+import {
+  buildStudentProgressPrintDocument,
+  normalizeProgressExportSelection,
+  progressExportPreferenceKey
+} from "../student-progress-export.js";
 
 const hour = 60 * 60 * 1000;
 const sourceHours = {
@@ -193,4 +198,33 @@ test("Hong Kong day boundaries and inclusive custom date ranges are deterministi
     () => buildActivitySeries(snapshot, "flashcards", { id: "custom", start: "2026-07-29", end: "2026-07-28" }, "2026-07-28T04:00:00.000Z"),
     /start must not follow/
   );
+});
+
+test("PDF export defaults to one overview plus one standalone page per connected system", () => {
+  const html = buildStudentProgressPrintDocument({
+    snapshot: fixture(),
+    range: { id: "custom", start: "2026-07-27", end: "2026-07-28" },
+    selectedSourceIds: normalizeProgressExportSelection(undefined),
+    viewerLabel: "Test Student"
+  });
+  assert.equal((html.match(/class="print-page(?:\s|\")/g) || []).length, 15);
+  assert.match(html, /第 1 \/ 15 頁/);
+  assert.match(html, /第 15 \/ 15 頁/);
+  assert.match(html, /2026-07-27 至 2026-07-28/);
+  assert.match(html, /全面英文能力發展進度表/);
+  for (const source of STUDENT_PROGRESS_SOURCES) assert.match(html, new RegExp(source.labelEn));
+});
+
+test("PDF export keeps a saved subset ordered and scoped to its viewer", () => {
+  const html = buildStudentProgressPrintDocument({
+    snapshot: fixture(),
+    range: "week",
+    selectedSourceIds: ["writingSubmission", "flashcards", "invalid", "flashcards"]
+  });
+  assert.equal((html.match(/class="print-page(?:\s|\")/g) || []).length, 3);
+  assert.match(html, /Flashcard System/);
+  assert.match(html, /Writing Submission/);
+  assert.doesNotMatch(html, /Sentence Structure/);
+  assert.deepEqual(normalizeProgressExportSelection(["flashcards", "invalid", "flashcards"]), ["flashcards"]);
+  assert.equal(progressExportPreferenceKey({ role: "parent", viewerId: "Parent 01" }), "edmund-student-progress-export-v1:parent:parent01");
 });

@@ -166,6 +166,7 @@ jobs:
       - name: Validate PWA, shared portal navigation, mobile icons, and brand metadata
         run: |
           node tools/test-shared-system-nav.mjs
+          node tools/test-learning-portal-scaffolds.mjs
           node --test tools/test-apostrophe-normalizer.mjs
           node tools/test-pwa-and-brand-metadata.mjs
 

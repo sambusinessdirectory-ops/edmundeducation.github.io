@@ -136,7 +136,11 @@ begin
     p_id, p_student_id, p_topic, p_answer, p_topic_resource, p_image_zoom_tenths,
     p_countdown_state, p_stopwatch_state, p_duration_seconds, now()
   )
-  on conflict (id) do update
+  -- The function returns a column named `id`, so `on conflict (id)` is
+  -- ambiguous inside PL/pgSQL (it can resolve to either the output variable
+  -- or the table column). Naming the primary-key constraint keeps the upsert
+  -- unambiguous and stable if output-column names are retained.
+  on conflict on constraint writing_submission_drafts_pkey do update
   set topic = excluded.topic,
       answer = excluded.answer,
       topic_resource = excluded.topic_resource,

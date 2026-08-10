@@ -13,6 +13,11 @@ import {
   progressPolyline,
   resolveProgressRange
 } from "./student-progress-core.js";
+import {
+  buildStudentProgressPrintDocument,
+  normalizeProgressExportSelection,
+  progressExportPreferenceKey
+} from "./student-progress-export.js";
 
 const CONFIG = window.EDMUND_STUDENT_PROGRESS_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -44,6 +49,15 @@ const elements = {
   customRangeStart: document.querySelector("[data-custom-range-start]"),
   customRangeEnd: document.querySelector("[data-custom-range-end]"),
   customRangeStatus: document.querySelector("[data-custom-range-status]"),
+  exportOpen: document.querySelector("[data-progress-export-open]"),
+  exportDialog: document.querySelector("[data-progress-export-dialog]"),
+  exportList: document.querySelector("[data-progress-export-list]"),
+  exportPageCount: document.querySelector("[data-progress-export-page-count]"),
+  exportStatus: document.querySelector("[data-progress-export-status]"),
+  exportSelectAll: document.querySelector("[data-progress-export-select-all]"),
+  exportClear: document.querySelector("[data-progress-export-clear]"),
+  exportSave: document.querySelector("[data-progress-export-save]"),
+  exportNow: document.querySelector("[data-progress-export-now]"),
   masterTotal: document.querySelector("[data-master-total]"),
   masterSummary: document.querySelector("[data-master-summary]"),
   generatedAt: document.querySelector("[data-generated-at]"),
@@ -84,6 +98,7 @@ const state = {
   requestRevision: 0,
   scheduleRevision: 0,
   scheduleWeekStart: "",
+  exportSelection: normalizeProgressExportSelection(undefined),
   toastTimer: 0
 };
 
@@ -464,6 +479,111 @@ function renderRangeButtons() {
   elements.customRangeStart.value = state.customRange.start;
   elements.customRangeEnd.value = state.customRange.end;
   elements.customRangeForm.hidden = state.range !== "custom";
+}
+
+function exportPreferenceKey() {
+  return progressExportPreferenceKey({
+    role: state.user?.role || (PARENT_MODE ? "parent" : "student"),
+    viewerId: state.user?.id || state.user?.name || "anonymous"
+  });
+}
+
+function checkedExportSourceIds() {
+  if (!elements.exportList) return [];
+  return [...elements.exportList.querySelectorAll('input[type="checkbox"]:checked')].map((input) => input.value);
+}
+
+function updateExportPageCount() {
+  const selected = checkedExportSourceIds();
+  if (elements.exportPageCount) {
+    elements.exportPageCount.textContent = selected.length
+      ? `將輸出 ${selected.length + 1} 頁（1 頁總覽 + ${selected.length} 個系統）`
+      : "請最少選擇一個系統。";
+    elements.exportPageCount.dataset.state = selected.length ? "ready" : "error";
+  }
+  if (elements.exportNow) elements.exportNow.disabled = !selected.length;
+}
+
+function renderExportSelection() {
+  if (!elements.exportList) return;
+  const selected = new Set(state.exportSelection);
+  elements.exportList.innerHTML = STUDENT_PROGRESS_SOURCES.map((source) => `
+    <label class="progress-export-option" style="--source-color:${escapeHtml(source.color)}">
+      <input type="checkbox" value="${escapeHtml(source.id)}"${selected.has(source.id) ? " checked" : ""}>
+      <span><strong>${escapeHtml(source.labelZh)}</strong><small>${escapeHtml(source.labelEn)}</small></span>
+    </label>
+  `).join("");
+  updateExportPageCount();
+}
+
+function loadExportPreference() {
+  try {
+    const stored = JSON.parse(window.localStorage.getItem(exportPreferenceKey()) || "null");
+    state.exportSelection = normalizeProgressExportSelection(stored);
+  } catch {
+    state.exportSelection = normalizeProgressExportSelection(undefined);
+  }
+}
+
+function saveExportPreference({ announce = true } = {}) {
+  const selected = normalizeProgressExportSelection(checkedExportSourceIds(), { defaultAll: false });
+  if (!selected.length) {
+    setStatus(elements.exportStatus, "請最少選擇一個系統。", "error");
+    return false;
+  }
+  state.exportSelection = selected;
+  try {
+    window.localStorage.setItem(exportPreferenceKey(), JSON.stringify(selected));
+  } catch {
+    setStatus(elements.exportStatus, "瀏覽器未能儲存偏好，但仍可立即匯出。", "warning");
+    return true;
+  }
+  setStatus(elements.exportStatus, announce ? "已儲存這個帳戶的 PDF 系統選擇。" : "", "success");
+  return true;
+}
+
+function openExportDialog() {
+  if (!state.snapshot || !elements.exportDialog) return;
+  loadExportPreference();
+  renderExportSelection();
+  setStatus(elements.exportStatus, "");
+  if (typeof elements.exportDialog.showModal === "function") elements.exportDialog.showModal();
+  else elements.exportDialog.setAttribute("open", "");
+}
+
+function closeExportDialog() {
+  if (!elements.exportDialog) return;
+  if (typeof elements.exportDialog.close === "function") elements.exportDialog.close();
+  else elements.exportDialog.removeAttribute("open");
+}
+
+function exportProgressPdf() {
+  if (!state.snapshot || !saveExportPreference({ announce: false })) return;
+  const printWindow = window.open("", "_blank");
+  if (!printWindow) {
+    setStatus(elements.exportStatus, "瀏覽器阻擋了列印視窗；請允許此網站開啟彈出式視窗。", "error");
+    return;
+  }
+  try {
+    try { printWindow.opener = null; } catch { /* Browser security policy may already isolate it. */ }
+    const documentHtml = buildStudentProgressPrintDocument({
+      snapshot: state.snapshot,
+      range: activeRangeValue(),
+      selectedSourceIds: state.exportSelection,
+      viewerLabel: `${state.user?.name || ""}${state.user?.role === "parent" ? "（家長）" : ""}`
+    });
+    printWindow.document.open();
+    printWindow.document.write(documentHtml);
+    printWindow.document.close();
+    closeExportDialog();
+    window.setTimeout(() => {
+      printWindow.focus();
+      printWindow.print();
+    }, 350);
+  } catch (error) {
+    printWindow.close();
+    setStatus(elements.exportStatus, error.message || "未能建立 PDF 列印文件。", "error");
+  }
 }
 
 function sourceGroupHtml(source, index) {
@@ -924,6 +1044,21 @@ function bindEvents() {
     } catch {
       setStatus(elements.customRangeStatus, "請選擇有效日期；開始日期不可遲於結束日期，結束日期亦不可超過香港今天。", "error");
     }
+  });
+  elements.exportOpen?.addEventListener("click", openExportDialog);
+  elements.exportList?.addEventListener("change", updateExportPageCount);
+  elements.exportSelectAll?.addEventListener("click", () => {
+    elements.exportList?.querySelectorAll('input[type="checkbox"]').forEach((input) => { input.checked = true; });
+    updateExportPageCount();
+  });
+  elements.exportClear?.addEventListener("click", () => {
+    elements.exportList?.querySelectorAll('input[type="checkbox"]').forEach((input) => { input.checked = false; });
+    updateExportPageCount();
+  });
+  elements.exportSave?.addEventListener("click", () => saveExportPreference());
+  elements.exportNow?.addEventListener("click", exportProgressPdf);
+  elements.exportDialog?.addEventListener("click", (event) => {
+    if (event.target.closest("[data-progress-export-close]")) closeExportDialog();
   });
   const changeScheduleWeek = async (amount) => {
     const next = localDayKey(addLocalDays(state.scheduleWeekStart || currentHongKongWeekStart(), amount));

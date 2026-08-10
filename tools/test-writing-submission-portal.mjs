@@ -30,6 +30,10 @@ const grammarHistoryMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-grammar-history.sql"),
   "utf8"
 );
+const draftsAdminMigration = fs.readFileSync(
+  path.join(root, "supabase-writing-submission-drafts-admin.sql"),
+  "utf8"
+);
 
 test("writing grammar checks begin only after newly completed full stops or semicolons", () => {
   assert.deepEqual(newlyCompletedWritingSegments("", "I am still writing"), []);
@@ -133,6 +137,14 @@ test("grammar history and article archives follow the deployed API contract", ()
   assert.match(script, /localStorage\.setItem\(key, JSON\.stringify\(values\)\)/);
   assert.match(script, /flushGrammarOccurrences\(\)\.catch/);
   assert.match(script, /checkGeneration/);
+});
+
+test("draft upserts use an unambiguous primary-key conflict target", () => {
+  assert.match(
+    draftsAdminMigration,
+    /on conflict on constraint writing_submission_drafts_pkey do update/i
+  );
+  assert.doesNotMatch(draftsAdminMigration, /on conflict\s*\(id\)\s*do update/i);
 });
 
 test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", () => {
