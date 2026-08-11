@@ -3135,7 +3135,7 @@
       state.mobileTapSide = "";
       void togglePlayback();
       showControlsTemporarily();
-    }, 300);
+    }, 360);
   }
 
   function showControlsTemporarily() {

@@ -1114,6 +1114,7 @@ test("YouTube-style seeking, sequence navigation, and student analytics remain a
   assert.match(portalHtml, /data-previous-video[^>]*disabled/);
   assert.match(portalHtml, /data-next-video[^>]*disabled/);
   assert.match(portalJs, /now\s*-\s*state\.mobileTapAt\s*<=\s*340/);
+  assert.match(portalJs, /state\.mobileTapTimer\s*=\s*window\.setTimeout\([\s\S]{0,260}?,\s*360\)/);
   assert.match(portalJs, /seekBy\(side\s*===\s*"backward"\s*\?\s*-5\s*:\s*5\)/);
   assert.match(portalJs, /event\.key\s*!==\s*"ArrowLeft"[\s\S]{0,80}?event\.key\s*!==\s*"ArrowRight"/);
   assert.match(portalJs, /seekBy\(event\.key\s*===\s*"ArrowLeft"\s*\?\s*-5\s*:\s*5\)/);
