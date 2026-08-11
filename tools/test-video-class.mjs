@@ -834,6 +834,8 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_admin_list_courses",
     "video_class_admin_list_lessons",
     "video_class_admin_list_feedback",
+    "video_class_admin_match_r2_objects",
+    "video_class_admin_publish_r2_object",
     "video_class_admin_issue_key",
     "video_class_admin_clear_key",
     "video_class_admin_set_enabled",
@@ -843,6 +845,7 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_student_list_courses",
     "video_class_student_list_lessons",
     "video_class_student_library",
+    "video_class_student_analytics",
     "video_class_student_toggle_bookmark",
     "video_class_student_save_note",
     "video_class_student_create_playlist",
@@ -881,8 +884,12 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
   assertWorkerRoute("/v1/admin/students", "GET");
   assertWorkerRoute("/v1/admin/courses", "GET");
   assertWorkerRoute("/v1/admin/feedback", "GET");
+  assertWorkerRoute("/v1/admin/r2/objects", "GET");
+  assertWorkerRoute("/v1/admin/r2/uploads", "POST");
+  assertWorkerRoute("/v1/admin/r2/publish", "POST");
   assertWorkerRoute("/v1/courses", "GET");
   assertWorkerRoute("/v1/lessons", "GET");
+  assertWorkerRoute("/v1/analytics", "GET");
   assertWorkerRoute("/v1/playback/grant", "POST");
   assertWorkerRoute("/v1/playback/heartbeat", "POST");
   assert.match(workerSource, /\^\\\/v1\\\/admin\\\/students\\\/\(\[\^\/\]\+\)\\\/key\$/);
@@ -1099,6 +1106,180 @@ test("clips, keyboard playback, ratings, and playlist bulk tools follow the requ
   assert.match(portalHtml, /data-playlist-remove-selected/);
   assert.match(portalJs, /playlistProgressSummary\(lessons\)/);
   assert.match(portalJs, /Promise\.all\(lessonIds\.map[\s\S]{0,220}?method:\s*"DELETE"/);
+});
+
+test("YouTube-style seeking, sequence navigation, and student analytics remain account-scoped", () => {
+  assert.match(portalHtml, /data-mobile-seek-zone="backward"/);
+  assert.match(portalHtml, /data-mobile-seek-zone="forward"/);
+  assert.match(portalHtml, /data-previous-video[^>]*disabled/);
+  assert.match(portalHtml, /data-next-video[^>]*disabled/);
+  assert.match(portalJs, /now\s*-\s*state\.mobileTapAt\s*<=\s*340/);
+  assert.match(portalJs, /seekBy\(side\s*===\s*"backward"\s*\?\s*-5\s*:\s*5\)/);
+  assert.match(portalJs, /event\.key\s*!==\s*"ArrowLeft"[\s\S]{0,80}?event\.key\s*!==\s*"ArrowRight"/);
+  assert.match(portalJs, /seekBy\(event\.key\s*===\s*"ArrowLeft"\s*\?\s*-5\s*:\s*5\)/);
+  assert.match(portalJs, /playbackSequenceType\s*=\s*"playlist"/);
+  assert.match(portalJs, /playbackSequenceType\s*=\s*"course"/);
+  assert.match(portalJs, /navigatePlaybackSequence\(-1\)/);
+  assert.match(portalJs, /navigatePlaybackSequence\(1\)/);
+
+  const libraryStart = portalHtml.indexOf('data-student-page="library"');
+  const dashboardStart = portalHtml.indexOf('data-learning-dashboard="library"', libraryStart);
+  const courseLibraryStart = portalHtml.indexOf("COURSE LIBRARY", libraryStart);
+  assert.ok(libraryStart >= 0 && dashboardStart > libraryStart && courseLibraryStart > dashboardStart, "dashboard must precede the course library");
+  assert.match(portalHtml, /data-student-route="progress">學習進度記錄/);
+  assert.match(portalHtml, /data-export-watch-history/);
+  assert.match(portalHtml, /data-unfinished-lessons/);
+  assert.match(portalHtml, /data-watch-history-list/);
+  assert.match(portalJs, /apiRequest\("\/v1\/analytics"/);
+  assert.match(portalJs, /resetDashboardExpansion\(\)/);
+  assert.match(portalJs, /type:\s*"text\/csv;charset=utf-8"/);
+
+  const progressTable = sqlTableBlock("video_class_progress");
+  assert.match(progressTable, /total_watched_seconds\s+numeric\(14,2\)\s+not\s+null\s+default\s+0/i);
+  const daily = sqlTableBlock("video_class_daily_progress");
+  assert.match(daily, /activity_date\s+date\s+not\s+null/i);
+  assert.match(daily, /primary\s+key\s*\(student_id,\s*lesson_id,\s*activity_date\)/i);
+  const analytics = sqlFunctionBlock("video_class_student_analytics");
+  assert.match(analytics, /_video_class_student_id\(p_student_token\)/i);
+  assert.match(analytics, /video_class_daily_progress/i);
+  assert.match(analytics, /'unfinished'/i);
+  assert.match(analytics, /'history'/i);
+  const record = sqlFunctionBlock("video_class_record_progress");
+  assert.match(record, /video_class_daily_progress/i);
+  assert.match(record, /total_watched_seconds/i);
+
+  const adminLessons = sqlFunctionBlock("video_class_admin_list_lessons");
+  assert.match(adminLessons, /'total_view_count'/i);
+  assert.match(portalHtml, /<th\s+scope="col">總觀看次數<\/th>/);
+  assert.match(portalJs, /totalViewCount:\s*Math\.max/);
+});
+
+test("private R2 inventory, multipart upload, and publishing stay admin-gated", () => {
+  assert.match(portalHtml, /data-admin-panel-tab="r2"/);
+  assert.match(portalHtml, /data-r2-upload-form/);
+  assert.match(portalHtml, /data-r2-publish-form/);
+  assert.match(portalHtml, /上載完成後仍不會自動給學生觀看/);
+  assert.match(portalJs, /apiRequest\("\/v1\/admin\/r2\/uploads"/);
+  assert.match(portalJs, /"X-Video-Upload-Token":\s*upload\.uploadToken/);
+  assert.match(portalJs, /rawBody:\s*chunk/);
+  assert.match(portalJs, /Promise\.all\(Array\.from\(\{\s*length:\s*Math\.min\(3,\s*partCount\)/);
+  assert.match(portalJs, /apiRequest\("\/v1\/admin\/r2\/publish"/);
+
+  assert.match(workerSource, /env\.VIDEO_CLASSES|requireVideoBucket\(env\)/);
+  assert.match(workerSource, /bucket\.list\(\{[\s\S]{0,220}?include:\s*\["httpMetadata",\s*"customMetadata"\]/);
+  assert.match(workerSource, /bucket\.createMultipartUpload\(key/);
+  assert.match(workerSource, /resumeMultipartUpload\(state\.key,\s*state\.uid\)\s*\.uploadPart/);
+  assert.match(workerSource, /resumeMultipartUpload\(state\.key,\s*state\.uid\)\s*\.complete/);
+  assert.match(workerSource, /resumeMultipartUpload\(state\.key,\s*state\.uid\)\.abort/);
+  assert.match(workerSource, /ADMIN_UPLOAD_PREFIX\s*=\s*"admin-uploads\/videos\/"/);
+  assert.match(workerSource, /aud:\s*"admin-r2-upload"/);
+  assert.match(workerSource, /X-Video-Upload-Token/);
+  assert.match(workerSource, /headVideoObject\(bucket,\s*objectKey\)/);
+
+  const matcher = sqlFunctionBlock("video_class_admin_match_r2_objects");
+  assert.match(matcher, /_video_class_admin_id\(p_admin_token\)/i);
+  assert.match(matcher, /cardinality\(p_object_keys\)\s*>\s*500/i);
+  const publisher = sqlFunctionBlock("video_class_admin_publish_r2_object");
+  assert.match(publisher, /_video_class_admin_id\(p_admin_token\)/i);
+  assert.match(publisher, /_video_class_valid_object_key\(p_object_key\)/i);
+  assert.match(publisher, /insert\s+into\s+public\.video_class_lessons/i);
+  assert.match(publisher, /'publish_lesson'/i);
+  assert.doesNotMatch(sqlFunctionBlock("video_class_admin_list_lessons"), /'object_key'/i);
+});
+
+test("admin R2 inventory and upload initialization work through authenticated Worker bindings", async () => {
+  const allowedOrigin = "https://edmundeducation.com";
+  const adminToken = "44444444-4444-4444-8444-444444444444";
+  const adminId = "55555555-5555-4555-8555-555555555555";
+  const lessonId = "66666666-6666-4666-8666-666666666666";
+  const calls = [];
+  const env = {
+    ALLOWED_ORIGIN: allowedOrigin,
+    SUPABASE_URL: "https://database.invalid",
+    SUPABASE_ANON_KEY: "test-publishable-key",
+    VIDEO_CLASS_SERVICE_SECRET: "r2-test-service-secret-".padEnd(48, "s"),
+    VIDEO_CLASS_SIGNING_KEY: "r2-test-signing-key-".padEnd(48, "k"),
+    VIDEO_CLASSES: {
+      head: async () => null,
+      resumeMultipartUpload: () => ({
+        uploadPart: async () => ({ partNumber: 1, etag: "etag" }),
+        complete: async () => ({}),
+        abort: async () => {}
+      }),
+      list: async options => {
+        calls.push({ kind: "list", options });
+        return {
+          objects: [{
+            key: "admin-uploads/videos/example.mp4",
+            size: 1234567,
+            uploaded: new Date("2026-08-11T01:02:03Z"),
+            etag: "r2-etag",
+            httpMetadata: { contentType: "video/mp4" },
+            customMetadata: { originalFilename: "Example.mp4", durationSeconds: "75" }
+          }],
+          truncated: false
+        };
+      },
+      createMultipartUpload: async (key, options) => {
+        calls.push({ kind: "create", key, options });
+        return { key, uploadId: "valid-upload-id-123456", abort: async () => {} };
+      }
+    }
+  };
+
+  await withMockedFetch(async (input, init = {}) => {
+    const url = new URL(typeof input === "string" ? input : input.url);
+    const parameters = JSON.parse(String(init.body || "{}"));
+    calls.push({ kind: "rpc", name: url.pathname.split("/").at(-1), parameters });
+    if (url.pathname.endsWith("/video_class_admin_me")) {
+      return new Response(JSON.stringify([{ admin_id: adminId, name: "Admin" }]), { status: 200, headers: { "Content-Type": "application/json" } });
+    }
+    if (url.pathname.endsWith("/video_class_admin_match_r2_objects")) {
+      return new Response(JSON.stringify({ matches: [{
+        object_key: "admin-uploads/videos/example.mp4",
+        lesson_id: lessonId,
+        lesson_slug: "example",
+        lesson_title: "Example lesson",
+        published: true,
+        is_private: false,
+        is_source: true,
+        rendition_quality_codes: ["max"],
+        is_thumbnail: false
+      }] }), { status: 200, headers: { "Content-Type": "application/json" } });
+    }
+    throw new Error(`Unexpected RPC ${url.pathname}`);
+  }, async () => {
+    const inventoryResponse = await worker.fetch(new Request("https://worker.invalid/v1/admin/r2/objects?limit=10", {
+      headers: { Origin: allowedOrigin, Authorization: `Bearer ${adminToken}` }
+    }), env, {});
+    assert.equal(inventoryResponse.status, 200);
+    const inventory = await inventoryResponse.json();
+    assert.equal(inventory.items.length, 1);
+    assert.equal(inventory.items[0].key, "admin-uploads/videos/example.mp4");
+    assert.equal(inventory.items[0].published, true);
+    assert.equal(inventory.items[0].lessonId, lessonId);
+    assert.deepEqual(calls.find(call => call.kind === "list")?.options.include, ["httpMetadata", "customMetadata"]);
+
+    const sizeBytes = 15 * 1024 * 1024;
+    const uploadResponse = await worker.fetch(new Request("https://worker.invalid/v1/admin/r2/uploads", {
+      method: "POST",
+      headers: {
+        Origin: allowedOrigin,
+        Authorization: `Bearer ${adminToken}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ fileName: "New Lesson.mp4", sizeBytes, durationSeconds: 125 })
+    }), env, {});
+    assert.equal(uploadResponse.status, 201);
+    const upload = (await uploadResponse.json()).upload;
+    assert.equal(upload.partSize, 10 * 1024 * 1024);
+    assert.equal(upload.partCount, 2);
+    assert.match(upload.key, /^admin-uploads\/videos\//);
+    assert.ok(upload.uploadToken.startsWith("u1."));
+    const created = calls.find(call => call.kind === "create");
+    assert.equal(created.options.customMetadata.durationSeconds, "125");
+    assert.equal(created.options.customMetadata.originalFilename, "New Lesson.mp4");
+  });
 });
 
 test("lesson privacy is database-enforced and administered without exposing R2 keys", () => {

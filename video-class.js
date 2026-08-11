@@ -62,6 +62,21 @@
     bookmarkList: document.querySelector("[data-bookmark-list]"),
     notesState: document.querySelector("[data-notes-state]"),
     notesList: document.querySelector("[data-notes-list]"),
+    analyticsDashboards: Array.from(document.querySelectorAll("[data-learning-dashboard]")),
+    dashboardToggles: Array.from(document.querySelectorAll("[data-dashboard-toggle]")),
+    dashboardBodies: Array.from(document.querySelectorAll("[data-dashboard-body]")),
+    analyticsStates: Array.from(document.querySelectorAll("[data-analytics-state]")),
+    dashboardContents: Array.from(document.querySelectorAll("[data-dashboard-content]")),
+    dailyWatchCharts: Array.from(document.querySelectorAll("[data-daily-watch-chart]")),
+    totalWatchMinutes: Array.from(document.querySelectorAll("[data-total-watch-minutes]")),
+    totalLessonsWatched: Array.from(document.querySelectorAll("[data-total-lessons-watched]")),
+    exportWatchHistory: document.querySelector("[data-export-watch-history]"),
+    unfinishedState: document.querySelector("[data-unfinished-state]"),
+    unfinishedLessons: document.querySelector("[data-unfinished-lessons]"),
+    unfinishedCount: document.querySelector("[data-unfinished-count]"),
+    historyState: document.querySelector("[data-history-state]"),
+    watchHistoryList: document.querySelector("[data-watch-history-list]"),
+    historyCount: document.querySelector("[data-history-count]"),
     playlistsState: document.querySelector("[data-playlists-state]"),
     playlistList: document.querySelector("[data-playlist-list]"),
     playlistDetail: document.querySelector("[data-playlist-detail]"),
@@ -108,7 +123,9 @@
     feedbackForm: document.querySelector("[data-feedback-form]"),
     feedbackRatings: Array.from(document.querySelectorAll("[data-feedback-rating]")),
     feedbackStatus: document.querySelector("[data-feedback-status]"),
+    previousVideo: document.querySelector("[data-previous-video]"),
     playToggle: document.querySelector("[data-play-toggle]"),
+    nextVideo: document.querySelector("[data-next-video]"),
     muteToggle: document.querySelector("[data-mute-toggle]"),
     seek: document.querySelector("[data-seek]"),
     seekMarkers: document.querySelector("[data-seek-markers]"),
@@ -132,6 +149,8 @@
     closePlayer: document.querySelector("[data-close-player]"),
     playerViewCount: document.querySelector("[data-player-view-count]"),
     playerError: document.querySelector("[data-player-error]"),
+    mobileSeekZones: Array.from(document.querySelectorAll("[data-mobile-seek-zone]")),
+    seekFeedback: document.querySelector("[data-seek-feedback]"),
     watermarkMain: document.querySelector("[data-watermark-main]"),
     watermarkRepeats: Array.from(document.querySelectorAll("[data-watermark-repeat]")),
     watermarkLayer: document.querySelector("[data-watermark-layer]"),
@@ -167,6 +186,31 @@
     adminLessonsState: document.querySelector("[data-admin-lessons-state]"),
     adminLessonsTable: document.querySelector("[data-admin-lessons-table]"),
     adminLessonsRows: document.querySelector("[data-admin-lessons-rows]"),
+    r2Refresh: document.querySelector("[data-r2-refresh]"),
+    r2Search: document.querySelector("[data-r2-search]"),
+    r2State: document.querySelector("[data-r2-state]"),
+    r2List: document.querySelector("[data-r2-list]"),
+    r2LoadMore: document.querySelector("[data-r2-load-more]"),
+    r2UploadForm: document.querySelector("[data-r2-upload-form]"),
+    r2UploadFile: document.querySelector("[data-r2-upload-file]"),
+    r2UploadMeta: document.querySelector("[data-r2-upload-meta]"),
+    r2UploadStart: document.querySelector("[data-r2-upload-start]"),
+    r2UploadCancel: document.querySelector("[data-r2-upload-cancel]"),
+    r2UploadProgress: document.querySelector("[data-r2-upload-progress]"),
+    r2UploadProgressLabel: document.querySelector("[data-r2-upload-progress-label]"),
+    r2UploadProgressPercent: document.querySelector("[data-r2-upload-progress-percent]"),
+    r2UploadProgressBar: document.querySelector("[data-r2-upload-progress-bar]"),
+    r2UploadStatus: document.querySelector("[data-r2-upload-status]"),
+    r2PublishDialog: document.querySelector("[data-r2-publish-dialog]"),
+    r2PublishForm: document.querySelector("[data-r2-publish-form]"),
+    r2PublishObject: document.querySelector("[data-r2-publish-object]"),
+    r2PublishTitle: document.querySelector("[data-r2-publish-title]"),
+    r2PublishCourse: document.querySelector("[data-r2-publish-course]"),
+    r2PublishDescription: document.querySelector("[data-r2-publish-description]"),
+    r2PublishDuration: document.querySelector("[data-r2-publish-duration]"),
+    r2PublishTags: document.querySelector("[data-r2-publish-tags]"),
+    r2PublishStatus: document.querySelector("[data-r2-publish-status]"),
+    r2PublishSubmit: document.querySelector("[data-r2-publish-submit]"),
     availableStudentsRefresh: document.querySelector("[data-available-students-refresh]"),
     availableStudentsSearch: document.querySelector("[data-available-students-search]"),
     availableStudentsState: document.querySelector("[data-available-students-state]"),
@@ -181,11 +225,28 @@
     courses: COURSE_CATALOG.map(course => ({ ...course, entitled: false, lessonCount: 0 })),
     adminCourses: COURSE_CATALOG.map((course, index) => ({ ...course, order: index + 1 })),
     lessons: [],
+    analytics: {
+      summary: { totalWatchedSeconds: 0, totalLessonsWatched: 0 },
+      daily: [],
+      unfinished: [],
+      history: []
+    },
+    analyticsLoaded: false,
+    analyticsGeneration: 0,
+    dashboardExpanded: { library: true, progress: true },
     playlists: [],
     officialPlaylists: [],
     students: [],
     adminFeedback: [],
     adminLessons: [],
+    adminR2Items: [],
+    adminR2Cursor: "",
+    adminR2Truncated: false,
+    adminR2Query: "",
+    adminR2SearchTimer: 0,
+    adminR2FileDuration: 0,
+    adminR2Upload: null,
+    adminR2PublishItem: null,
     selectedCourseId: "",
     selectedPlaylistId: "",
     playlistSelectionMode: false,
@@ -198,6 +259,9 @@
     lessonLoadGeneration: 0,
     selectedEntitlementStudentId: "",
     activeLesson: null,
+    playbackSequenceLessonIds: [],
+    playbackSequenceType: "course",
+    playbackSequencePlaylistId: "",
     playback: null,
     playbackRate: readPlaybackRate(),
     qualitySwitch: null,
@@ -216,6 +280,10 @@
     companyWatermarkCornerIndex: 0,
     inactivityTimer: 0,
     controlsTimer: 0,
+    mobileTapTimer: 0,
+    mobileTapSide: "",
+    mobileTapAt: 0,
+    seekFeedbackTimer: 0,
     toastTimer: 0,
     heartbeatInFlight: false,
     isLoggingOut: false,
@@ -298,17 +366,26 @@
 
   async function apiRequest(path, options = {}) {
     if (!isApiConfigurationSafe()) throw new ApiError("錄影班服務尚未完成設定。", 0, "API_NOT_CONFIGURED");
+    if (options.body !== undefined && options.rawBody !== undefined) throw new ApiError("要求內容格式無效。", 0, "INVALID_REQUEST_BODY");
     const controller = new AbortController();
+    const abortFromExternalSignal = () => controller.abort(options.signal?.reason);
+    if (options.signal?.aborted) abortFromExternalSignal();
+    else options.signal?.addEventListener("abort", abortFromExternalSignal, { once: true });
     const timeout = window.setTimeout(() => controller.abort(), options.timeoutMs || requestTimeoutMs);
     const headers = new Headers({ Accept: "application/json" });
     if (options.token) headers.set("Authorization", `Bearer ${options.token}`);
     if (options.body !== undefined) headers.set("Content-Type", "application/json");
+    if (options.headers && typeof options.headers === "object") {
+      new Headers(options.headers).forEach((value, name) => headers.set(name, value));
+    }
 
     try {
       const response = await fetch(`${apiBase}${path}`, {
         method: options.method || "GET",
         headers,
-        body: options.body === undefined ? undefined : JSON.stringify(options.body),
+        body: options.rawBody !== undefined
+          ? options.rawBody
+          : (options.body === undefined ? undefined : JSON.stringify(options.body)),
         cache: "no-store",
         credentials: "omit",
         referrerPolicy: "no-referrer",
@@ -346,6 +423,7 @@
       throw new ApiError("未能連接錄影班服務，請檢查網絡後再試。", 0, "NETWORK_ERROR");
     } finally {
       window.clearTimeout(timeout);
+      options.signal?.removeEventListener("abort", abortFromExternalSignal);
     }
   }
 
@@ -438,7 +516,14 @@
       state.playlists = [];
       state.officialPlaylists = [];
     }
-    else state.adminSession = null;
+    else {
+      state.adminR2Upload?.controller?.abort();
+      window.clearTimeout(state.adminR2SearchTimer);
+      state.adminR2SearchTimer = 0;
+      state.adminR2Upload = null;
+      state.adminR2PublishItem = null;
+      state.adminSession = null;
+    }
     if (readStorage(STORAGE_KEYS.lastRole) === role) removeStorage(STORAGE_KEYS.lastRole);
   }
 
@@ -906,13 +991,25 @@
     state.selectedCourseId = "";
     state.noteLesson = null;
     state.lessons = [];
+    state.analytics = {
+      summary: { totalWatchedSeconds: 0, totalLessonsWatched: 0 },
+      daily: [],
+      unfinished: [],
+      history: []
+    };
+    state.analyticsLoaded = false;
+    state.playbackSequenceLessonIds = [];
+    state.playbackSequenceType = "course";
+    state.playbackSequencePlaylistId = "";
     state.courses = COURSE_CATALOG.map(course => ({ ...course, entitled: false, lessonCount: 0 }));
+    resetDashboardExpansion();
     setHeaderIdentity("student", session.profile);
     elements.studentGreeting.textContent = session.profile.name || "你好";
     elements.studentKey.textContent = session.profile.videoKey || "尚未派發";
     showView("student");
     resetStudentInactivity();
     await loadLessons();
+    void loadAnalytics();
     showStudentPage("courses");
     resetStudentInactivity();
   }
@@ -922,6 +1019,14 @@
     state.selectedEntitlementStudentId = "";
     state.students = [];
     state.adminLessons = [];
+    state.adminR2Items = [];
+    state.adminR2Cursor = "";
+    state.adminR2Truncated = false;
+    state.adminR2Query = "";
+    state.adminR2SearchTimer = 0;
+    state.adminR2FileDuration = 0;
+    state.adminR2Upload = null;
+    state.adminR2PublishItem = null;
     setHeaderIdentity("admin", session.profile);
     showView("admin");
     showAdminPanel("students");
@@ -965,6 +1070,12 @@
     if (name === "bookmarks") renderBookmarks();
     if (name === "playlists") renderPlaylists();
     if (name === "notes") renderNotes();
+    if (name === "progress") {
+      if (state.analyticsLoaded) {
+        renderAnalyticsDashboards();
+        renderAnalyticsProgress();
+      }
+    }
     window.scrollTo({ top: 0, behavior: "auto" });
   }
 
@@ -976,6 +1087,7 @@
     });
     if (name === "feedback") void loadAdminFeedback();
     if (name === "lessons") void loadAdminLessons();
+    if (name === "r2") void loadAdminR2Objects();
     if (name === "add-student") renderAvailableStudents();
   }
 
@@ -1178,6 +1290,302 @@
     };
   }
 
+  function normalizeAnalyticsLesson(value, index = 0) {
+    const item = value && typeof value === "object" ? value : {};
+    const lesson = item.lesson && typeof item.lesson === "object" ? item.lesson : item;
+    const progress = item.progress && typeof item.progress === "object" ? item.progress : item;
+    const durationSeconds = Math.max(0, Number(item.durationSeconds ?? item.duration_seconds ?? lesson.durationSeconds ?? lesson.duration_seconds ?? 0) || 0);
+    const positionSeconds = Math.max(0, Number(item.positionSeconds ?? item.position_seconds ?? progress.positionSeconds ?? progress.position_seconds ?? 0) || 0);
+    const completed = item.completed === true || progress.completed === true;
+    const explicitPercent = Number(item.progressPercent ?? item.progress_percent ?? progress.progressPercent ?? progress.progress_percent);
+    const progressPercent = completed
+      ? 100
+      : Number.isFinite(explicitPercent)
+        ? Math.min(100, Math.max(0, Math.round(explicitPercent)))
+        : durationSeconds > 0
+          ? Math.min(100, Math.max(0, Math.round((positionSeconds / durationSeconds) * 100)))
+          : 0;
+    return {
+      id: String(item.lessonId || item.lesson_id || lesson.id || lesson.lessonId || lesson.lesson_id || ""),
+      title: String(item.title || lesson.title || lesson.name || `課堂 ${index + 1}`),
+      description: String(item.description || lesson.description || lesson.summary || ""),
+      courseId: String(item.courseCode || item.course_code || item.courseId || item.course_id || lesson.courseCode || lesson.course_code || lesson.courseId || lesson.course_id || "dse").toLowerCase(),
+      courseTitle: String(item.courseTitle || item.course_title || lesson.courseTitle || lesson.course_title || ""),
+      durationSeconds,
+      positionSeconds,
+      watchedSeconds: Math.max(0, Number(item.watchedSeconds ?? item.watched_seconds ?? progress.watchedSeconds ?? progress.watched_seconds ?? positionSeconds) || 0),
+      completed,
+      progressPercent,
+      viewCount: Math.max(0, Number(item.viewCount ?? item.view_count ?? progress.viewCount ?? progress.view_count ?? 0) || 0),
+      lastWatchedAt: String(item.lastWatchedAt || item.last_watched_at || item.lastViewedAt || item.last_viewed_at || item.updatedAt || item.updated_at || progress.lastWatchedAt || progress.last_watched_at || progress.lastViewedAt || progress.last_viewed_at || progress.updatedAt || progress.updated_at || ""),
+      isPrivate: item.isPrivate === true || item.is_private === true || lesson.isPrivate === true || lesson.is_private === true
+    };
+  }
+
+  function normalizeAnalytics(value) {
+    const analytics = value && typeof value === "object" ? value : {};
+    const summary = analytics.summary && typeof analytics.summary === "object" ? analytics.summary : {};
+    const rawDaily = analytics.daily || analytics.dailyCounts || analytics.daily_counts;
+    const dailyRows = Array.isArray(rawDaily) ? rawDaily : [];
+    const daily = dailyRows.map(item => ({
+      date: String(item?.date || item?.watchDate || item?.watch_date || ""),
+      videosWatched: Math.max(0, Number(item?.videosWatched ?? item?.videos_watched ?? item?.lessonCount ?? item?.lesson_count ?? 0) || 0),
+      watchedSeconds: Math.max(0, Number(item?.watchedSeconds ?? item?.watched_seconds ?? 0) || 0)
+    })).filter(item => item.date).sort((a, b) => a.date.localeCompare(b.date));
+    const unfinishedRows = Array.isArray(analytics.unfinished) ? analytics.unfinished : [];
+    const historyRows = Array.isArray(analytics.history) ? analytics.history : [];
+    const unfinished = unfinishedRows.map(normalizeAnalyticsLesson).filter(item => item.id && !item.completed);
+    const history = historyRows.map(normalizeAnalyticsLesson).filter(item => item.id).sort((a, b) => Date.parse(b.lastWatchedAt || 0) - Date.parse(a.lastWatchedAt || 0));
+    const inferredSeconds = daily.reduce((total, item) => total + item.watchedSeconds, 0);
+    const inferredLessons = new Set(history.map(item => item.id)).size;
+    return {
+      summary: {
+        totalWatchedSeconds: Math.max(0, Number(summary.totalWatchedSeconds ?? summary.total_watched_seconds ?? inferredSeconds) || 0),
+        totalLessonsWatched: Math.max(0, Number(summary.totalLessonsWatched ?? summary.total_lessons_watched ?? summary.watchedVideoCount ?? summary.watched_video_count ?? inferredLessons) || 0)
+      },
+      daily,
+      unfinished,
+      history
+    };
+  }
+
+  function formatWatchMinutes(seconds) {
+    const minutes = Math.max(0, Number(seconds) || 0) / 60;
+    if (minutes > 0 && minutes < 1) return "<1";
+    if (minutes < 10 && !Number.isInteger(minutes)) return minutes.toFixed(1);
+    return Math.round(minutes).toLocaleString("zh-HK");
+  }
+
+  function formatWatchDate(value, { includeTime = false } = {}) {
+    const raw = String(value || "");
+    if (!raw) return "日期未記錄";
+    const date = /^\d{4}-\d{2}-\d{2}$/.test(raw) ? new Date(`${raw}T00:00:00`) : new Date(raw);
+    if (Number.isNaN(date.getTime())) return raw;
+    return new Intl.DateTimeFormat("zh-HK", includeTime
+      ? { year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }
+      : { month: "2-digit", day: "2-digit" }
+    ).format(date);
+  }
+
+  function setDashboardExpanded(scope, expanded) {
+    if (!Object.prototype.hasOwnProperty.call(state.dashboardExpanded, scope)) return;
+    state.dashboardExpanded[scope] = expanded;
+    const toggle = elements.dashboardToggles.find(item => item.dataset.dashboardToggle === scope);
+    const body = elements.dashboardBodies.find(item => item.dataset.dashboardBody === scope);
+    if (toggle) {
+      toggle.setAttribute("aria-expanded", String(expanded));
+      const label = toggle.querySelector("[data-dashboard-toggle-label]");
+      if (label) label.textContent = expanded ? "收合" : "展開";
+    }
+    if (body) body.hidden = !expanded;
+  }
+
+  function resetDashboardExpansion() {
+    state.dashboardExpanded = { library: true, progress: true };
+    Object.entries(state.dashboardExpanded).forEach(([scope, expanded]) => setDashboardExpanded(scope, expanded));
+  }
+
+  function renderDailyWatchChart(chart, rows) {
+    chart.replaceChildren();
+    const recentRows = rows.slice(-7);
+    if (!recentRows.length) {
+      const empty = document.createElement("p");
+      empty.className = "daily-watch-chart__empty";
+      empty.textContent = "開始觀看課堂後，日期記錄會顯示在這裡。";
+      chart.append(empty);
+      return;
+    }
+    const maximum = Math.max(1, ...recentRows.map(item => item.videosWatched));
+    recentRows.forEach(item => {
+      const row = document.createElement("div");
+      row.className = "daily-watch-row";
+      const date = document.createElement("time");
+      date.dateTime = item.date;
+      date.textContent = formatWatchDate(item.date);
+      const track = document.createElement("span");
+      track.className = "daily-watch-row__track";
+      const fill = document.createElement("span");
+      fill.style.setProperty("--daily-width", `${Math.max(4, (item.videosWatched / maximum) * 100)}%`);
+      track.append(fill);
+      const value = document.createElement("strong");
+      value.textContent = `${item.videosWatched} 部`;
+      row.title = `${formatWatchDate(item.date)}：觀看 ${item.videosWatched} 部影片，共 ${formatWatchMinutes(item.watchedSeconds)} 分鐘`;
+      row.append(date, track, value);
+      chart.append(row);
+    });
+  }
+
+  function renderAnalyticsDashboards() {
+    elements.dailyWatchCharts.forEach(chart => renderDailyWatchChart(chart, state.analytics.daily));
+    elements.totalWatchMinutes.forEach(element => { element.textContent = formatWatchMinutes(state.analytics.summary.totalWatchedSeconds); });
+    elements.totalLessonsWatched.forEach(element => { element.textContent = state.analytics.summary.totalLessonsWatched.toLocaleString("zh-HK"); });
+    elements.analyticsStates.forEach(element => { element.hidden = true; });
+    elements.dashboardContents.forEach(element => { element.hidden = false; });
+  }
+
+  function analyticsCourseLabel(item) {
+    return item.courseTitle || state.courses.find(course => course.id === item.courseId)?.title || item.courseId.toUpperCase();
+  }
+
+  function openAnalyticsLesson(item) {
+    const lesson = state.lessons.find(candidate => candidate.id === item.id) || normalizeLesson({
+      id: item.id,
+      title: item.title,
+      description: item.description,
+      courseCode: item.courseId,
+      courseTitle: item.courseTitle,
+      durationSeconds: item.durationSeconds,
+      positionSeconds: item.positionSeconds,
+      completed: item.completed,
+      isPrivate: item.isPrivate,
+      viewCount: item.viewCount
+    }, 0);
+    openLesson(lesson, { type: "course" });
+  }
+
+  function renderAnalyticsProgress() {
+    const unfinished = state.analytics.unfinished;
+    elements.unfinishedCount.textContent = `${unfinished.length} 部待完成`;
+    elements.unfinishedLessons.replaceChildren();
+    if (!unfinished.length) {
+      elements.unfinishedLessons.hidden = true;
+      showInlineState(elements.unfinishedState, "目前沒有未完成影片。完成新課堂後，觀看記錄仍會保留在下方。", "empty");
+    } else {
+      unfinished.forEach(item => {
+        const article = document.createElement("article");
+        article.className = "unfinished-card";
+        const progress = document.createElement("div");
+        progress.className = "unfinished-card__progress";
+        progress.style.setProperty("--progress", `${item.progressPercent}%`);
+        const percent = document.createElement("strong");
+        percent.textContent = `${item.progressPercent}%`;
+        progress.append(percent);
+        const body = document.createElement("div");
+        body.className = "unfinished-card__body";
+        const course = document.createElement("span");
+        course.textContent = analyticsCourseLabel(item);
+        const title = document.createElement("h3");
+        title.textContent = item.title;
+        const position = document.createElement("p");
+        position.textContent = `${formatDuration(item.positionSeconds)} / ${item.durationSeconds ? formatDuration(item.durationSeconds) : "—"}`;
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = item.isPrivate ? "影片為私人" : "繼續播放 →";
+        button.addEventListener("click", () => openAnalyticsLesson(item));
+        body.append(course, title, position, button);
+        article.append(progress, body);
+        elements.unfinishedLessons.append(article);
+      });
+      elements.unfinishedState.hidden = true;
+      elements.unfinishedLessons.hidden = false;
+    }
+
+    const history = state.analytics.history;
+    elements.historyCount.textContent = `${history.length} 項記錄`;
+    elements.watchHistoryList.replaceChildren();
+    if (!history.length) {
+      elements.watchHistoryList.hidden = true;
+      showInlineState(elements.historyState, "你尚未有觀看記錄。選擇一堂影片開始學習吧。", "empty");
+    } else {
+      history.forEach(item => {
+        const row = document.createElement("li");
+        row.className = "watch-history-item";
+        const date = document.createElement("time");
+        date.dateTime = item.lastWatchedAt;
+        date.textContent = formatWatchDate(item.lastWatchedAt, { includeTime: true });
+        const lesson = document.createElement("div");
+        lesson.className = "watch-history-item__lesson";
+        const title = document.createElement("strong");
+        title.textContent = item.title;
+        const course = document.createElement("small");
+        course.textContent = `${analyticsCourseLabel(item)} · 累積 ${formatWatchMinutes(item.watchedSeconds)} 分鐘`;
+        lesson.append(title, course);
+        const progress = document.createElement("div");
+        progress.className = "watch-history-item__progress";
+        const meta = document.createElement("span");
+        const status = document.createElement("span");
+        status.textContent = item.completed ? "已完成" : "觀看進度";
+        const percent = document.createElement("strong");
+        percent.textContent = `${item.progressPercent}%`;
+        meta.append(status, percent);
+        const track = document.createElement("div");
+        track.className = "watch-history-item__track";
+        const fill = document.createElement("span");
+        fill.style.setProperty("--progress", `${item.progressPercent}%`);
+        track.append(fill);
+        progress.append(meta, track);
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = item.isPrivate ? "查看狀態" : item.completed ? "再次觀看 →" : "繼續播放 →";
+        button.addEventListener("click", () => openAnalyticsLesson(item));
+        row.append(date, lesson, progress, button);
+        elements.watchHistoryList.append(row);
+      });
+      elements.historyState.hidden = true;
+      elements.watchHistoryList.hidden = false;
+    }
+    elements.exportWatchHistory.disabled = history.length === 0;
+  }
+
+  async function loadAnalytics() {
+    if (!state.studentSession?.token) return;
+    const token = state.studentSession.token;
+    const generation = ++state.analyticsGeneration;
+    state.analyticsLoaded = false;
+    elements.analyticsStates.forEach(element => showInlineState(element, "正在整理你的學習記錄⋯"));
+    elements.dashboardContents.forEach(element => { element.hidden = true; });
+    showInlineState(elements.unfinishedState, "正在載入未完成影片⋯");
+    showInlineState(elements.historyState, "正在載入觀看記錄⋯");
+    try {
+      const payload = await apiRequest("/v1/analytics", { token });
+      if (generation !== state.analyticsGeneration || token !== state.studentSession?.token) return;
+      state.analytics = normalizeAnalytics(unwrap(payload));
+      state.analyticsLoaded = true;
+      renderAnalyticsDashboards();
+      renderAnalyticsProgress();
+    } catch (error) {
+      if (generation !== state.analyticsGeneration || token !== state.studentSession?.token) return;
+      if (error.status === 401) return handleExpiredSession("student");
+      state.analyticsLoaded = false;
+      elements.analyticsStates.forEach(element => showInlineState(element, error.message, "error", loadAnalytics));
+      showInlineState(elements.unfinishedState, error.message, "error", loadAnalytics);
+      showInlineState(elements.historyState, error.message, "error", loadAnalytics);
+      elements.unfinishedLessons.hidden = true;
+      elements.watchHistoryList.hidden = true;
+      elements.exportWatchHistory.disabled = true;
+    }
+  }
+
+  function csvCell(value) {
+    let text = String(value ?? "");
+    if (/^[=+\-@]/.test(text)) text = `'${text}`;
+    return `"${text.replace(/"/g, '""')}"`;
+  }
+
+  function exportWatchHistoryCsv() {
+    if (!state.analytics.history.length) return;
+    const headings = ["觀看日期", "課程", "影片標題", "觀看進度 (%)", "累積觀看分鐘", "目前位置", "影片長度", "狀態"];
+    const rows = state.analytics.history.map(item => [
+      formatWatchDate(item.lastWatchedAt, { includeTime: true }),
+      analyticsCourseLabel(item),
+      item.title,
+      item.progressPercent,
+      (item.watchedSeconds / 60).toFixed(2),
+      formatDuration(item.positionSeconds),
+      item.durationSeconds ? formatDuration(item.durationSeconds) : "",
+      item.completed ? "已完成" : "未完成"
+    ]);
+    const csv = `\ufeff${[headings, ...rows].map(row => row.map(csvCell).join(",")).join("\r\n")}`;
+    const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `EdmundEducation-觀看記錄-${new Date().toISOString().slice(0, 10)}.csv`;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
   function safeMediaUrl(value) {
     if (!value) return "";
     try {
@@ -1372,7 +1780,7 @@
     ].join(" "));
   }
 
-  function createLessonCard(lesson, index, { playlistSelection = false } = {}) {
+  function createLessonCard(lesson, index, { playlistSelection = false, playbackContext = null } = {}) {
     const article = document.createElement("article");
     article.className = `lesson-card${lesson.isPrivate ? " is-private" : ""}${playlistSelection ? " is-selectable" : ""}`;
     article.dataset.private = String(lesson.isPrivate);
@@ -1474,7 +1882,7 @@
     const button = document.createElement("button");
     button.type = "button";
     button.textContent = lesson.isPrivate ? "影片為私人 →" : lesson.completed ? "再次觀看 →" : lesson.progressPercent ? "繼續播放 →" : "開始播放 →";
-    button.addEventListener("click", () => openLesson(lesson));
+    button.addEventListener("click", () => openLesson(lesson, playbackContext));
     const bookmark = document.createElement("button");
     bookmark.type = "button";
     bookmark.className = `bookmark-button${lesson.bookmarked ? " is-bookmarked" : ""}`;
@@ -1499,13 +1907,37 @@
     return article;
   }
 
-  function openLesson(lesson) {
+  function configurePlaybackSequence(lesson, context = null) {
+    const playlist = context?.type === "playlist"
+      ? state.playlists.find(item => item.id === context.playlistId)
+      : null;
+    const playlistIds = playlist?.lessonIds.filter(id => state.lessons.some(candidate => candidate.id === id)) || [];
+    if (playlist && playlistIds.includes(lesson.id)) {
+      state.playbackSequenceLessonIds = playlistIds;
+      state.playbackSequenceType = "playlist";
+      state.playbackSequencePlaylistId = playlist.id;
+    } else {
+      state.playbackSequenceLessonIds = state.lessons.filter(item => item.courseId === lesson.courseId).map(item => item.id);
+      state.playbackSequenceType = "course";
+      state.playbackSequencePlaylistId = "";
+    }
+    if (!state.playbackSequenceLessonIds.includes(lesson.id)) state.playbackSequenceLessonIds.push(lesson.id);
+    updateSequenceControls();
+  }
+
+  function updateSelectedCourseForLesson(lesson) {
     const course = state.courses.find(item => item.id === lesson.courseId);
     state.selectedCourseId = lesson.courseId;
     if (course) {
       elements.selectedCourseTitle.textContent = course.title;
       elements.selectedCourseDescription.textContent = course.description;
     }
+  }
+
+  function openLesson(lesson, context = null) {
+    if (state.activeLesson && !closeNoteDialog(false, { restoreFocus: false })) return;
+    configurePlaybackSequence(lesson, context);
+    updateSelectedCourseForLesson(lesson);
     showStudentPage("library");
     void startPlayback(lesson);
   }
@@ -1626,7 +2058,10 @@
       elements.playlistLessonList.hidden = true;
       showInlineState(elements.playlistLessonsState, "這個播放列表目前未有影片。你可從課堂卡按「＋ 加入播放列表」加入。", "empty");
     } else {
-      lessons.forEach((lesson, index) => elements.playlistLessonList.append(createLessonCard(lesson, index, { playlistSelection: state.playlistSelectionMode })));
+      lessons.forEach((lesson, index) => elements.playlistLessonList.append(createLessonCard(lesson, index, {
+        playlistSelection: state.playlistSelectionMode,
+        playbackContext: { type: "playlist", playlistId: selected.id }
+      })));
       elements.playlistLessonsState.hidden = true;
       elements.playlistLessonList.hidden = false;
     }
@@ -2326,7 +2761,7 @@
 
   async function startPlayback(lesson) {
     if (!state.studentSession?.token || !lesson?.id) return;
-    if (!closePlayer({ saveProgress: true, hideSection: false })) return;
+    if (!closePlayer({ saveProgress: true, hideSection: false, preservePlaybackSequence: true })) return;
     state.activeLesson = lesson;
     state.qualitySwitch = null;
     elements.playerTitle.textContent = lesson.title;
@@ -2335,6 +2770,7 @@
     elements.playerSection.hidden = false;
     elements.playerError.hidden = true;
     elements.playerError.classList.remove("private-video-message");
+    elements.player.removeAttribute("data-playback-ready");
     resetPlayerPlaceholder();
     elements.playerControls.hidden = true;
     elements.centrePlay.hidden = true;
@@ -2342,6 +2778,7 @@
     elements.player.removeAttribute("data-ended");
     configureFeedbackForm(lesson);
     renderClips();
+    updateSequenceControls();
     elements.playerSection.scrollIntoView({ behavior: "smooth", block: "start" });
 
     if (lesson.isPrivate) {
@@ -2370,6 +2807,7 @@
   }
 
   function showPlayerError(message, { privateVideo = false } = {}) {
+    elements.player.removeAttribute("data-playback-ready");
     if (privateVideo) {
       const icon = document.createElement("span");
       icon.setAttribute("aria-hidden", "true");
@@ -2513,13 +2951,13 @@
     }
   }
 
-  function closePlayer({ saveProgress = true, hideSection = true, confirmUnsavedNote = true } = {}) {
+  function closePlayer({ saveProgress = true, hideSection = true, confirmUnsavedNote = true, preservePlaybackSequence = false } = {}) {
     if (confirmUnsavedNote) {
       if (!closeNoteDialog(false, { restoreFocus: false })) return false;
     } else {
       closeNoteDialog(true, { restoreFocus: false });
     }
-    if (saveProgress && state.playback) void sendHeartbeat("close", true);
+    const progressSave = saveProgress && state.playback ? sendHeartbeat("close", true) : null;
     flushScheduledFeedbackSave();
     window.clearInterval(state.heartbeatTimer);
     clearWatermarkTimers();
@@ -2547,16 +2985,69 @@
     }
     state.playback = null;
     state.activeLesson = null;
+    elements.player.removeAttribute("data-playback-ready");
+    window.clearTimeout(state.mobileTapTimer);
+    window.clearTimeout(state.seekFeedbackTimer);
+    state.mobileTapTimer = 0;
+    state.mobileTapAt = 0;
+    state.mobileTapSide = "";
+    elements.seekFeedback?.classList.remove("is-visible");
+    if (!preservePlaybackSequence) {
+      state.playbackSequenceLessonIds = [];
+      state.playbackSequenceType = "course";
+      state.playbackSequencePlaylistId = "";
+    }
+    updateSequenceControls();
     elements.watermarkLayer.hidden = false;
     elements.player.removeAttribute("data-controls-hidden");
     elements.playerError.hidden = true;
     elements.playerError.classList.remove("private-video-message");
     if (hideSection) {
       elements.playerSection.hidden = true;
-      if (state.role === "student") void loadLessons();
+      if (state.role === "student" && saveProgress && !state.isLoggingOut) {
+        void loadLessons();
+        if (progressSave) void Promise.resolve(progressSave).finally(() => loadAnalytics());
+        else void loadAnalytics();
+      }
     }
     resetStudentInactivity();
     return true;
+  }
+
+  function updateSequenceControls() {
+    if (!elements.previousVideo || !elements.nextVideo) return;
+    const activeId = state.activeLesson?.id || "";
+    const index = state.playbackSequenceLessonIds.indexOf(activeId);
+    const previousLesson = index > 0 ? state.lessons.find(lesson => lesson.id === state.playbackSequenceLessonIds[index - 1]) : null;
+    const nextLesson = index >= 0 && index < state.playbackSequenceLessonIds.length - 1
+      ? state.lessons.find(lesson => lesson.id === state.playbackSequenceLessonIds[index + 1])
+      : null;
+    const busy = elements.player?.dataset.navigationBusy === "true";
+    elements.previousVideo.disabled = busy || !previousLesson;
+    elements.nextVideo.disabled = busy || !nextLesson;
+    elements.previousVideo.setAttribute("aria-label", previousLesson ? `上一部影片：${previousLesson.title}` : "已是第一部影片");
+    elements.nextVideo.setAttribute("aria-label", nextLesson ? `下一部影片：${nextLesson.title}` : "已是最後一部影片");
+    elements.previousVideo.title = previousLesson ? `上一部：${previousLesson.title}` : "已是第一部影片";
+    elements.nextVideo.title = nextLesson ? `下一部：${nextLesson.title}` : "已是最後一部影片";
+  }
+
+  async function navigatePlaybackSequence(offset) {
+    if (!state.activeLesson || elements.player?.dataset.navigationBusy === "true") return;
+    const currentIndex = state.playbackSequenceLessonIds.indexOf(state.activeLesson.id);
+    const lessonId = state.playbackSequenceLessonIds[currentIndex + offset];
+    const lesson = state.lessons.find(item => item.id === lessonId);
+    if (!lesson) return;
+    if (!closeNoteDialog(false, { restoreFocus: false })) return;
+    elements.player.dataset.navigationBusy = "true";
+    updateSequenceControls();
+    try {
+      updateSelectedCourseForLesson(lesson);
+      renderLessons();
+      await startPlayback(lesson);
+    } finally {
+      delete elements.player.dataset.navigationBusy;
+      updateSequenceControls();
+    }
   }
 
   function updatePlayerControls() {
@@ -2593,6 +3084,60 @@
     }
   }
 
+  function showSeekFeedback(seconds) {
+    if (!elements.seekFeedback) return;
+    window.clearTimeout(state.seekFeedbackTimer);
+    const backward = seconds < 0;
+    elements.seekFeedback.dataset.direction = backward ? "backward" : "forward";
+    elements.seekFeedback.textContent = backward ? "↶ 5 秒" : "5 秒 ↷";
+    elements.seekFeedback.classList.remove("is-visible");
+    window.requestAnimationFrame(() => elements.seekFeedback?.classList.add("is-visible"));
+    state.seekFeedbackTimer = window.setTimeout(() => elements.seekFeedback?.classList.remove("is-visible"), 650);
+  }
+
+  function seekBy(seconds) {
+    if (!state.playback || elements.playerPlaceholder.hidden === false) return;
+    const current = Number.isFinite(elements.video.currentTime) ? elements.video.currentTime : 0;
+    const duration = Number.isFinite(elements.video.duration) && elements.video.duration > 0 ? elements.video.duration : Infinity;
+    elements.video.currentTime = Math.max(0, Math.min(duration, current + seconds));
+    updatePlayerControls();
+    showSeekFeedback(seconds);
+    showControlsTemporarily();
+  }
+
+  function handleMobileSeekPointer(event) {
+    if (!state.playback || elements.playerPlaceholder.hidden === false) return;
+    event.preventDefault();
+    event.stopPropagation();
+    const side = event.currentTarget.dataset.mobileSeekZone;
+    if (event.pointerType === "mouse") {
+      void togglePlayback();
+      showControlsTemporarily();
+      return;
+    }
+    if (!['touch', 'pen'].includes(event.pointerType)) return;
+    const now = window.performance.now();
+    const isDoubleTap = state.mobileTapSide === side && now - state.mobileTapAt <= 340;
+    if (isDoubleTap) {
+      window.clearTimeout(state.mobileTapTimer);
+      state.mobileTapTimer = 0;
+      state.mobileTapAt = 0;
+      state.mobileTapSide = "";
+      seekBy(side === "backward" ? -5 : 5);
+      return;
+    }
+    window.clearTimeout(state.mobileTapTimer);
+    state.mobileTapSide = side;
+    state.mobileTapAt = now;
+    state.mobileTapTimer = window.setTimeout(() => {
+      state.mobileTapTimer = 0;
+      state.mobileTapAt = 0;
+      state.mobileTapSide = "";
+      void togglePlayback();
+      showControlsTemporarily();
+    }, 300);
+  }
+
   function showControlsTemporarily() {
     elements.player.dataset.controlsHidden = "false";
     window.clearTimeout(state.controlsTimer);
@@ -2619,12 +3164,6 @@
     if (key === "k") {
       event.preventDefault();
       void togglePlayback();
-    } else if (key === "arrowleft") {
-      event.preventDefault();
-      elements.video.currentTime = Math.max(0, elements.video.currentTime - 10);
-    } else if (key === "arrowright") {
-      event.preventDefault();
-      elements.video.currentTime = Math.min(elements.video.duration || Infinity, elements.video.currentTime + 10);
     } else if (key === "m") {
       elements.video.muted = !elements.video.muted;
       updateMuteControl();
@@ -2636,16 +3175,24 @@
   }
 
   function handlePlaybackSpacebar(event) {
-    if (event.code !== "Space" || event.repeat || !state.playback || elements.playerSection.hidden) return;
+    if (event.code !== "Space" && event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+    const isSpace = event.code === "Space";
+    const isArrow = event.key === "ArrowLeft" || event.key === "ArrowRight";
+    if ((!isSpace && !isArrow) || !state.playback || elements.playerSection.hidden) return;
+    if (isSpace && event.repeat) return;
+    if (event.metaKey || event.ctrlKey || event.altKey) return;
     if (!elements.endedOverlay.hidden || !elements.clipEditor.hidden) return;
     const target = event.target instanceof Element ? event.target : null;
-    if (target?.matches("input, textarea, select, [contenteditable='true']") || target?.closest("[contenteditable='true']")) return;
-    const inPlayerWorkspace = !target || target === document.body || target === elements.player || target === elements.video || elements.playerWorkspace?.contains(target);
-    if (!inPlayerWorkspace) return;
+    if (target?.matches("input, textarea, select, button, a[href], [contenteditable='true']")
+      || target?.closest("input, textarea, select, button, a[href], [contenteditable='true'], dialog[open], [role='dialog']:not([hidden])")) return;
     event.preventDefault();
     event.stopPropagation();
-    void togglePlayback();
-    showControlsTemporarily();
+    if (isSpace) {
+      void togglePlayback();
+      showControlsTemporarily();
+    } else {
+      seekBy(event.key === "ArrowLeft" ? -5 : 5);
+    }
   }
 
   function trapOverlayFocus(event, container) {
@@ -2695,6 +3242,7 @@
       }
       elements.playerPlaceholder.hidden = true;
       elements.playerControls.hidden = false;
+      elements.player.dataset.playbackReady = "true";
       elements.centrePlay.hidden = true;
       if (!qualitySwitch && elements.notePanel.hidden) elements.player.focus({ preventScroll: true });
       updatePlayerControls();
@@ -2749,8 +3297,14 @@
     });
     elements.player.addEventListener("keydown", handlePlayerKeydown);
     elements.video.addEventListener("click", () => void togglePlayback());
+    elements.mobileSeekZones.forEach(zone => {
+      zone.addEventListener("pointerup", handleMobileSeekPointer);
+      zone.addEventListener("click", event => event.preventDefault());
+    });
     elements.centrePlay.addEventListener("click", () => void togglePlayback());
+    elements.previousVideo?.addEventListener("click", () => void navigatePlaybackSequence(-1));
     elements.playToggle.addEventListener("click", () => void togglePlayback());
+    elements.nextVideo?.addEventListener("click", () => void navigatePlaybackSequence(1));
     elements.fullscreen.addEventListener("click", () => void toggleFullscreen());
     elements.muteToggle.addEventListener("click", () => {
       elements.video.muted = !elements.video.muted;
@@ -2861,6 +3415,7 @@
       const rows = Array.isArray(value) ? value : (value?.courses || value?.items || []);
       const returned = new Map(rows.map(normalizeCourse).map(course => [course.id, course]));
       state.adminCourses = COURSE_CATALOG.map((course, index) => ({ ...course, ...(returned.get(course.id) || {}), order: index + 1 }));
+      populateR2CourseOptions(elements.r2PublishCourse?.value || "");
       if (state.selectedEntitlementStudentId) showEntitlementEditor(state.selectedEntitlementStudentId);
       else showInlineState(elements.entitlementsState, "請先選擇一位學生。", "empty");
     } catch (error) {
@@ -3304,6 +3859,7 @@
       published: lesson.published !== false,
       isPrivate: lesson.isPrivate === true || lesson.is_private === true,
       hasThumbnail: lesson.hasThumbnail === true || lesson.has_thumbnail === true,
+      totalViewCount: Math.max(0, Number(lesson.totalViewCount ?? lesson.total_view_count ?? lesson.viewCount ?? lesson.view_count ?? 0) || 0),
       renditions,
       createdAt: String(lesson.createdAt || lesson.created_at || ""),
       updatedAt: String(lesson.updatedAt || lesson.updated_at || "")
@@ -3358,6 +3914,10 @@
 
       const duration = document.createElement("td");
       duration.textContent = lesson.durationSeconds ? formatDuration(lesson.durationSeconds) : "—";
+      const views = document.createElement("td");
+      views.className = "admin-lesson-view-count";
+      views.textContent = lesson.totalViewCount.toLocaleString("zh-HK");
+      views.title = `所有學生合共觀看 ${lesson.totalViewCount.toLocaleString("zh-HK")} 次`;
       const statusCell = document.createElement("td");
       const status = document.createElement("span");
       status.className = `lesson-privacy-status${lesson.isPrivate ? " is-private" : ""}`;
@@ -3371,7 +3931,7 @@
       toggle.textContent = lesson.isPrivate ? "恢復觀看" : "設為私人";
       toggle.addEventListener("click", () => void setAdminLessonPrivacy(lesson, !lesson.isPrivate, toggle));
       actionCell.append(toggle);
-      row.append(thumbnailCell, titleCell, duration, statusCell, actionCell);
+      row.append(thumbnailCell, titleCell, duration, views, statusCell, actionCell);
       elements.adminLessonsRows.append(row);
     });
     elements.adminLessonsState.hidden = true;
@@ -3397,6 +3957,410 @@
       if (error.status === 401) return handleExpiredSession("admin");
       button.disabled = false;
       showToast(error.message, "error");
+    }
+  }
+
+  function formatByteSize(bytes) {
+    const amount = Math.max(0, Number(bytes) || 0);
+    if (amount < 1024) return `${Math.round(amount)} B`;
+    const units = ["KB", "MB", "GB", "TB"];
+    let value = amount / 1024;
+    let index = 0;
+    while (value >= 1024 && index < units.length - 1) {
+      value /= 1024;
+      index += 1;
+    }
+    return `${value >= 100 ? value.toFixed(0) : value >= 10 ? value.toFixed(1) : value.toFixed(2)} ${units[index]}`;
+  }
+
+  function r2ObjectFileName(item) {
+    const custom = item?.customMetadata && typeof item.customMetadata === "object" ? item.customMetadata : {};
+    const original = String(custom.originalFilename || custom.originalFileName || custom.original_filename || custom.fileName || custom.file_name || "").trim();
+    if (original) return original;
+    const pieces = String(item?.key || "").split("/");
+    return pieces.at(-1) || String(item?.key || "未命名影片");
+  }
+
+  function normalizeAdminR2Object(value) {
+    const item = value && typeof value === "object" ? value : {};
+    const customMetadata = item.customMetadata && typeof item.customMetadata === "object"
+      ? item.customMetadata
+      : (item.custom_metadata && typeof item.custom_metadata === "object" ? item.custom_metadata : {});
+    const httpMetadata = item.httpMetadata && typeof item.httpMetadata === "object"
+      ? item.httpMetadata
+      : (item.http_metadata && typeof item.http_metadata === "object" ? item.http_metadata : {});
+    const durationSeconds = Number(item.durationSeconds ?? item.duration_seconds ?? customMetadata.durationSeconds ?? customMetadata.duration_seconds ?? 0);
+    return {
+      key: String(item.key || item.objectKey || item.object_key || ""),
+      size: Math.max(0, Number(item.size || item.byteLength || item.byte_length || 0)),
+      uploaded: String(item.uploaded || item.uploadedAt || item.uploaded_at || ""),
+      etag: String(item.etag || ""),
+      contentType: String(item.contentType || item.content_type || httpMetadata.contentType || httpMetadata.content_type || "video/mp4"),
+      customMetadata,
+      httpMetadata,
+      durationSeconds: Number.isFinite(durationSeconds) && durationSeconds > 0 ? Math.round(durationSeconds) : 0,
+      assigned: item.assigned === true || item.published === true,
+      published: item.published === true,
+      lessonId: String(item.lessonId || item.lesson_id || ""),
+      lessonSlug: String(item.lessonSlug || item.lesson_slug || ""),
+      lessonTitle: String(item.lessonTitle || item.lesson_title || ""),
+      isPrivate: item.isPrivate === true || item.is_private === true,
+      isSource: item.isSource === true || item.is_source === true,
+      isThumbnail: item.isThumbnail === true || item.is_thumbnail === true,
+      renditionQualityCodes: Array.isArray(item.renditionQualityCodes || item.rendition_quality_codes)
+        ? (item.renditionQualityCodes || item.rendition_quality_codes).map(String)
+        : []
+    };
+  }
+
+  async function loadAdminR2Objects({ append = false } = {}) {
+    if (!state.adminSession?.token || !elements.r2State || !elements.r2List) return;
+    if (!append) {
+      state.adminR2Items = [];
+      state.adminR2Cursor = "";
+      elements.r2List.hidden = true;
+      showInlineState(elements.r2State, "正在讀取私人 R2 影片庫⋯");
+    }
+    if (elements.r2Refresh) elements.r2Refresh.disabled = true;
+    if (elements.r2LoadMore) elements.r2LoadMore.disabled = true;
+    try {
+      const parameters = new URLSearchParams({ limit: "50" });
+      const query = String(elements.r2Search?.value || state.adminR2Query || "").trim();
+      state.adminR2Query = query;
+      if (query) parameters.set("q", query);
+      if (append && state.adminR2Cursor) parameters.set("cursor", state.adminR2Cursor);
+      const payload = await apiRequest(`/v1/admin/r2/objects?${parameters}`, { token: state.adminSession.token, timeoutMs: 45000 });
+      const value = unwrap(payload) || {};
+      const rows = Array.isArray(value) ? value : (value.items || value.objects || []);
+      const normalized = rows.map(normalizeAdminR2Object).filter(item => item.key);
+      const byKey = new Map((append ? state.adminR2Items : []).map(item => [item.key, item]));
+      normalized.forEach(item => byKey.set(item.key, item));
+      state.adminR2Items = [...byKey.values()];
+      state.adminR2Cursor = String(value.cursor || value.nextCursor || value.next_cursor || "");
+      state.adminR2Truncated = value.truncated === true && Boolean(state.adminR2Cursor);
+      renderAdminR2Objects();
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("admin");
+      showInlineState(elements.r2State, error.message, "error", () => loadAdminR2Objects({ append: false }));
+    } finally {
+      if (elements.r2Refresh) elements.r2Refresh.disabled = false;
+      if (elements.r2LoadMore) elements.r2LoadMore.disabled = false;
+    }
+  }
+
+  function renderAdminR2Objects() {
+    if (!elements.r2List || !elements.r2State || !elements.r2LoadMore) return;
+    elements.r2List.replaceChildren();
+    if (!state.adminR2Items.length) {
+      elements.r2List.hidden = true;
+      elements.r2LoadMore.hidden = !state.adminR2Truncated;
+      showInlineState(elements.r2State, state.adminR2Query ? "沒有符合搜尋條件的 R2 影片。" : "私人 R2 Bucket 目前沒有可發佈的影片。", "empty");
+      return;
+    }
+    state.adminR2Items.forEach(item => {
+      const card = document.createElement("article");
+      card.className = "r2-object-card";
+      card.setAttribute("role", "listitem");
+      const details = document.createElement("div");
+      details.className = "r2-object-card__details";
+      const heading = document.createElement("div");
+      heading.className = "r2-object-card__heading";
+      const name = document.createElement("strong");
+      name.textContent = r2ObjectFileName(item);
+      const badge = document.createElement("span");
+      badge.className = `r2-object-card__badge${item.assigned ? " is-published" : ""}`;
+      badge.textContent = item.assigned ? (item.published ? (item.isPrivate ? "已發佈 · 私人" : "已發佈") : "已建立課堂") : "未發佈";
+      heading.append(name, badge);
+      const path = document.createElement("small");
+      path.className = "r2-object-card__path";
+      path.textContent = item.key;
+      const meta = document.createElement("div");
+      meta.className = "r2-object-card__meta";
+      const uploaded = item.uploaded ? new Date(item.uploaded).toLocaleString("zh-HK") : "上載時間不詳";
+      [formatByteSize(item.size), item.contentType, uploaded, item.durationSeconds ? formatDuration(item.durationSeconds) : "未有片長資料"]
+        .forEach(value => {
+          const span = document.createElement("span");
+          span.textContent = value;
+          meta.append(span);
+        });
+      if (item.lessonTitle) {
+        const lesson = document.createElement("span");
+        lesson.textContent = `課堂：${item.lessonTitle}`;
+        meta.append(lesson);
+      }
+      details.append(heading, path, meta);
+      const actions = document.createElement("div");
+      actions.className = "r2-object-card__actions";
+      const publish = document.createElement("button");
+      publish.type = "button";
+      publish.disabled = item.assigned;
+      publish.textContent = item.assigned ? "已建立課堂" : "填寫資料並發佈";
+      publish.addEventListener("click", () => openR2PublishDialog(item));
+      actions.append(publish);
+      card.append(details, actions);
+      elements.r2List.append(card);
+    });
+    elements.r2State.hidden = true;
+    elements.r2List.hidden = false;
+    elements.r2LoadMore.hidden = !state.adminR2Truncated;
+  }
+
+  async function readLocalVideoDuration(file) {
+    if (!(file instanceof File) || !file.size) return 0;
+    const objectUrl = URL.createObjectURL(file);
+    try {
+      return await new Promise(resolve => {
+        const video = document.createElement("video");
+        let settled = false;
+        const finish = value => {
+          if (settled) return;
+          settled = true;
+          window.clearTimeout(timer);
+          video.removeAttribute("src");
+          video.load();
+          resolve(Number.isFinite(value) && value > 0 ? Math.round(value) : 0);
+        };
+        const timer = window.setTimeout(() => finish(0), 12000);
+        video.preload = "metadata";
+        video.onloadedmetadata = () => finish(video.duration);
+        video.onerror = () => finish(0);
+        video.src = objectUrl;
+      });
+    } finally {
+      URL.revokeObjectURL(objectUrl);
+    }
+  }
+
+  async function inspectR2UploadFile() {
+    const file = elements.r2UploadFile?.files?.[0];
+    state.adminR2FileDuration = 0;
+    if (!file || !elements.r2UploadMeta) {
+      if (elements.r2UploadMeta) elements.r2UploadMeta.hidden = true;
+      return;
+    }
+    elements.r2UploadMeta.hidden = false;
+    elements.r2UploadMeta.textContent = `${file.name} · ${formatByteSize(file.size)} · 正在讀取片長⋯`;
+    const duration = await readLocalVideoDuration(file);
+    if (elements.r2UploadFile?.files?.[0] !== file) return;
+    state.adminR2FileDuration = duration;
+    elements.r2UploadMeta.textContent = `${file.name} · ${formatByteSize(file.size)} · ${duration ? `片長 ${formatDuration(duration)}` : "未能自動讀取片長（發佈時可手動填寫）"}`;
+  }
+
+  function setR2UploadProgress(completedBytes, totalBytes, label) {
+    const percent = totalBytes ? Math.min(100, Math.round((completedBytes / totalBytes) * 100)) : 0;
+    if (elements.r2UploadProgress) elements.r2UploadProgress.hidden = false;
+    if (elements.r2UploadProgressLabel) elements.r2UploadProgressLabel.textContent = label;
+    if (elements.r2UploadProgressPercent) elements.r2UploadProgressPercent.textContent = `${percent}%`;
+    if (elements.r2UploadProgressBar) {
+      elements.r2UploadProgressBar.value = percent;
+      elements.r2UploadProgressBar.textContent = `${percent}%`;
+    }
+  }
+
+  async function abortAdminR2Multipart(upload) {
+    if (!upload?.uploadId || !upload?.uploadToken || !state.adminSession?.token) return;
+    try {
+      await apiRequest(`/v1/admin/r2/uploads/${encodeURIComponent(upload.uploadId)}`, {
+        method: "DELETE",
+        token: state.adminSession.token,
+        headers: { "X-Video-Upload-Token": upload.uploadToken },
+        timeoutMs: 30000
+      });
+    } catch { /* R2 also expires unfinished multipart uploads automatically. */ }
+  }
+
+  async function cancelAdminR2Upload() {
+    const upload = state.adminR2Upload;
+    if (!upload) return;
+    upload.cancelled = true;
+    upload.controller.abort();
+    if (elements.r2UploadStatus) {
+      elements.r2UploadStatus.dataset.state = "";
+      elements.r2UploadStatus.textContent = "正在取消上載⋯";
+    }
+    await abortAdminR2Multipart(upload);
+  }
+
+  async function startAdminR2Upload() {
+    const file = elements.r2UploadFile?.files?.[0];
+    if (!state.adminSession?.token || !file || state.adminR2Upload) return;
+    const controller = new AbortController();
+    const upload = { controller, cancelled: false, uploadId: "", uploadToken: "", key: "" };
+    state.adminR2Upload = upload;
+    elements.r2UploadStart.disabled = true;
+    elements.r2UploadFile.disabled = true;
+    elements.r2UploadCancel.hidden = false;
+    if (elements.r2UploadStatus) {
+      elements.r2UploadStatus.dataset.state = "";
+      elements.r2UploadStatus.textContent = "正在建立私人 R2 上載⋯";
+    }
+    setR2UploadProgress(0, file.size, "準備分段上載⋯");
+    try {
+      const initPayload = await apiRequest("/v1/admin/r2/uploads", {
+        method: "POST",
+        token: state.adminSession.token,
+        body: {
+          fileName: file.name,
+          sizeBytes: file.size,
+          contentType: file.type || undefined,
+          durationSeconds: state.adminR2FileDuration || undefined
+        },
+        timeoutMs: 45000,
+        signal: controller.signal
+      });
+      const init = unwrap(initPayload)?.upload || unwrap(initPayload) || {};
+      upload.uploadId = String(init.uploadId || init.upload_id || "");
+      upload.uploadToken = String(init.uploadToken || init.upload_token || "");
+      upload.key = String(init.key || init.objectKey || init.object_key || "");
+      const partSize = Math.max(5 * 1024 * 1024, Number(init.partSize || init.part_size || 0));
+      const partCount = Number(init.partCount || init.part_count || Math.ceil(file.size / partSize));
+      if (!upload.uploadId || !upload.uploadToken || !upload.key || !Number.isInteger(partCount) || partCount < 1) {
+        throw new ApiError("R2 沒有傳回有效的分段上載資料。", 0, "INVALID_UPLOAD_SESSION");
+      }
+      const parts = new Array(partCount);
+      let nextPart = 0;
+      let completedBytes = 0;
+      const uploadWorker = async () => {
+        while (nextPart < partCount && !upload.cancelled) {
+          const index = nextPart;
+          nextPart += 1;
+          const partNumber = index + 1;
+          const start = index * partSize;
+          const chunk = file.slice(start, Math.min(file.size, start + partSize));
+          const payload = await apiRequest(`/v1/admin/r2/uploads/${encodeURIComponent(upload.uploadId)}/parts/${partNumber}`, {
+            method: "PUT",
+            token: state.adminSession.token,
+            headers: {
+              "Content-Type": "application/octet-stream",
+              "X-Video-Upload-Token": upload.uploadToken
+            },
+            rawBody: chunk,
+            timeoutMs: 20 * 60 * 1000,
+            signal: controller.signal
+          });
+          const part = unwrap(payload)?.part || unwrap(payload) || {};
+          const etag = String(part.etag || "");
+          if (!etag) throw new ApiError(`第 ${partNumber} 部分沒有有效 ETag。`, 0, "INVALID_UPLOAD_PART");
+          parts[index] = { partNumber, etag };
+          completedBytes += chunk.size;
+          setR2UploadProgress(completedBytes, file.size, `已上載 ${partNumber} / ${partCount} 部分`);
+        }
+      };
+      await Promise.all(Array.from({ length: Math.min(3, partCount) }, () => uploadWorker()));
+      if (upload.cancelled) throw new ApiError("上載已取消。", 0, "UPLOAD_CANCELLED");
+      setR2UploadProgress(file.size, file.size, "正在完成及核對 R2 影片⋯");
+      const completedPayload = await apiRequest(`/v1/admin/r2/uploads/${encodeURIComponent(upload.uploadId)}/complete`, {
+        method: "POST",
+        token: state.adminSession.token,
+        headers: { "X-Video-Upload-Token": upload.uploadToken },
+        body: { uploadToken: upload.uploadToken, parts },
+        timeoutMs: 2 * 60 * 1000,
+        signal: controller.signal
+      });
+      const object = normalizeAdminR2Object({ ...(unwrap(completedPayload)?.object || unwrap(completedPayload) || {}), key: upload.key, durationSeconds: state.adminR2FileDuration });
+      if (elements.r2UploadStatus) {
+        elements.r2UploadStatus.dataset.state = "success";
+        elements.r2UploadStatus.textContent = "影片已安全上載到私人 R2。現在可以填寫資料並發佈。";
+      }
+      showToast("影片已上載到私人 R2；尚未向學生發佈。", "success");
+      await loadAdminR2Objects();
+      const listed = state.adminR2Items.find(item => item.key === upload.key);
+      openR2PublishDialog(listed || { ...object, key: upload.key, size: file.size, contentType: file.type, customMetadata: { originalFileName: file.name }, published: false });
+      elements.r2UploadForm.reset();
+      if (elements.r2UploadMeta) elements.r2UploadMeta.hidden = true;
+    } catch (error) {
+      if (!upload.cancelled) await abortAdminR2Multipart(upload);
+      if (error.status === 401) return handleExpiredSession("admin");
+      if (elements.r2UploadStatus) {
+        elements.r2UploadStatus.dataset.state = upload.cancelled ? "" : "error";
+        elements.r2UploadStatus.textContent = upload.cancelled ? "上載已取消，未完成的 R2 分段已清理。" : error.message;
+      }
+    } finally {
+      if (state.adminR2Upload === upload) state.adminR2Upload = null;
+      elements.r2UploadStart.disabled = false;
+      elements.r2UploadFile.disabled = false;
+      elements.r2UploadCancel.hidden = true;
+    }
+  }
+
+  function populateR2CourseOptions(selectedCode = "") {
+    if (!elements.r2PublishCourse) return;
+    elements.r2PublishCourse.replaceChildren(new Option("請選擇課程", ""));
+    state.adminCourses.filter(course => course.published !== false).forEach(course => {
+      elements.r2PublishCourse.append(new Option(course.title || course.id.toUpperCase(), course.id));
+    });
+    if (selectedCode && state.adminCourses.some(course => course.id === selectedCode)) elements.r2PublishCourse.value = selectedCode;
+  }
+
+  function openR2PublishDialog(item) {
+    if (!item?.key || item.assigned || !elements.r2PublishDialog) return;
+    state.adminR2PublishItem = item;
+    const fileName = r2ObjectFileName(item);
+    const suggestedTitle = fileName.replace(/\.[^.]+$/, "").replace(/[_-]+/g, " ").trim();
+    elements.r2PublishObject.textContent = item.key;
+    elements.r2PublishTitle.value = suggestedTitle;
+    elements.r2PublishDescription.value = "";
+    elements.r2PublishDuration.value = item.durationSeconds || "";
+    elements.r2PublishTags.value = "";
+    elements.r2PublishStatus.textContent = "";
+    elements.r2PublishStatus.dataset.state = "";
+    populateR2CourseOptions(state.adminCourses.find(course => course.id === "dse")?.id || "");
+    if (typeof elements.r2PublishDialog.showModal === "function") elements.r2PublishDialog.showModal();
+    else elements.r2PublishDialog.setAttribute("open", "");
+    window.setTimeout(() => elements.r2PublishTitle.focus({ preventScroll: true }), 0);
+  }
+
+  function closeR2PublishDialog() {
+    state.adminR2PublishItem = null;
+    if (!elements.r2PublishDialog) return;
+    if (elements.r2PublishDialog.open && typeof elements.r2PublishDialog.close === "function") elements.r2PublishDialog.close();
+    else elements.r2PublishDialog.removeAttribute("open");
+  }
+
+  async function publishAdminR2Object() {
+    const item = state.adminR2PublishItem;
+    if (!state.adminSession?.token || !item?.key) return;
+    const title = elements.r2PublishTitle.value.trim();
+    const courseCode = elements.r2PublishCourse.value;
+    const durationSeconds = Math.round(Number(elements.r2PublishDuration.value));
+    if (!title || !courseCode || !Number.isFinite(durationSeconds) || durationSeconds < 1 || durationSeconds > 86400) {
+      elements.r2PublishStatus.dataset.state = "error";
+      elements.r2PublishStatus.textContent = "請填寫影片標題、課程及正確片長。";
+      return;
+    }
+    const tags = [...new Set(elements.r2PublishTags.value.split(/[,，\n]/).map(value => value.trim()).filter(Boolean))].slice(0, 20);
+    const course = state.adminCourses.find(value => value.id === courseCode);
+    const nextOrder = state.adminLessons.reduce((maximum, lesson) => Math.max(maximum, Number(lesson.order) || 0), 0) + 10;
+    elements.r2PublishSubmit.disabled = true;
+    elements.r2PublishStatus.dataset.state = "";
+    elements.r2PublishStatus.textContent = "正在建立課堂及核對私人 R2 影片⋯";
+    try {
+      await apiRequest("/v1/admin/r2/publish", {
+        method: "POST",
+        token: state.adminSession.token,
+        body: {
+          objectKey: item.key,
+          title,
+          description: elements.r2PublishDescription.value.trim(),
+          courseCode,
+          courseLabel: course?.title || "錄影班",
+          durationSeconds,
+          sortOrder: nextOrder,
+          tags
+        },
+        timeoutMs: 60000
+      });
+      item.assigned = true;
+      item.published = true;
+      closeR2PublishDialog();
+      showToast(`「${title}」已發佈到錄影班。`, "success");
+      await Promise.all([loadAdminR2Objects(), loadAdminLessons()]);
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("admin");
+      elements.r2PublishStatus.dataset.state = "error";
+      elements.r2PublishStatus.textContent = error.message;
+    } finally {
+      elements.r2PublishSubmit.disabled = false;
     }
   }
 
@@ -3508,6 +4472,11 @@
     elements.studentSearch?.addEventListener("input", renderStudents);
     elements.keyFilter?.addEventListener("change", renderStudents);
     elements.studentRoutes.forEach(button => button.addEventListener("click", () => showStudentPage(button.dataset.studentRoute)));
+    elements.dashboardToggles.forEach(button => button.addEventListener("click", () => {
+      const scope = button.dataset.dashboardToggle;
+      setDashboardExpanded(scope, !state.dashboardExpanded[scope]);
+    }));
+    elements.exportWatchHistory?.addEventListener("click", exportWatchHistoryCsv);
     elements.lessonSearch?.addEventListener("input", () => {
       state.libraryQuery = elements.lessonSearch.value;
       elements.clearLessonSearch.hidden = !state.libraryQuery;
@@ -3558,6 +4527,27 @@
     elements.feedbackSearch?.addEventListener("input", renderAdminFeedback);
     elements.feedbackCourseFilter?.addEventListener("change", renderAdminFeedback);
     elements.adminLessonsRefresh?.addEventListener("click", () => void loadAdminLessons());
+    elements.r2Refresh?.addEventListener("click", () => void loadAdminR2Objects());
+    elements.r2LoadMore?.addEventListener("click", () => void loadAdminR2Objects({ append: true }));
+    elements.r2Search?.addEventListener("input", () => {
+      window.clearTimeout(state.adminR2SearchTimer);
+      state.adminR2SearchTimer = window.setTimeout(() => void loadAdminR2Objects(), 280);
+    });
+    elements.r2UploadFile?.addEventListener("change", () => void inspectR2UploadFile());
+    elements.r2UploadForm?.addEventListener("submit", event => {
+      event.preventDefault();
+      void startAdminR2Upload();
+    });
+    elements.r2UploadCancel?.addEventListener("click", () => void cancelAdminR2Upload());
+    elements.r2PublishForm?.addEventListener("submit", event => {
+      event.preventDefault();
+      void publishAdminR2Object();
+    });
+    document.querySelectorAll("[data-close-r2-publish]").forEach(button => button.addEventListener("click", closeR2PublishDialog));
+    elements.r2PublishDialog?.addEventListener("cancel", event => {
+      event.preventDefault();
+      closeR2PublishDialog();
+    });
     elements.availableStudentsRefresh?.addEventListener("click", () => void loadStudents());
     elements.availableStudentsSearch?.addEventListener("input", renderAvailableStudents);
     elements.entitlementStudent?.addEventListener("change", () => showEntitlementEditor(elements.entitlementStudent.value));

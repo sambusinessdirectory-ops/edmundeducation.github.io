@@ -2,9 +2,11 @@
 
 This Worker is the only public path to the private video bucket. It reuses the
 existing Flashcard student credentials through narrow Supabase RPCs, keeps
-administrator credentials and R2 object keys out of the website, and returns
-short-lived playback URLs that are usable only from the approved site, browser,
-and coarse network.
+administrator credentials and R2 object keys out of all student responses, and
+returns short-lived playback URLs that are usable only from the approved site,
+browser, and coarse network. The authenticated administrator inventory is the
+one intentional API surface that returns private keys so an administrator can
+select and publish an existing object; it never returns a public R2 URL.
 
 ## Security boundary
 
@@ -23,12 +25,19 @@ and coarse network.
   therefore takes effect even if an old signed URL still exists. Course access
   is also checked on listing, grant, media authorization, and progress writes.
   Course removal and either watermark-toggle direction revoke active playback.
-- The R2 key is never returned in the API response. Media responses use
-  `Cache-Control: private, no-store`, strict origin CORS, `inline` disposition,
-  and single-range handling (`200`, `206`, or `416`).
+- R2 keys are never returned to students. They appear only in authenticated
+  administrator inventory/upload responses. Media responses use `Cache-Control:
+  private, no-store`, strict origin CORS, `inline` disposition, and single-range
+  handling (`200`, `206`, or `416`).
 - Private lessons remain visible as labelled catalogue entries when returned by
   the database, but the Worker returns HTTP `403` before creating playback and
   the database independently enforces the same restriction.
+- Browser uploads use authenticated R2 multipart operations under
+  `admin-uploads/videos/`. The Worker chooses an exact 10 MiB part size, signs
+  the upload ID/key/size/part count, checks the live admin session on every
+  create, part, complete, and abort request, and streams each part without
+  buffering it. Incomplete uploads expire automatically in R2; this API never
+  deletes completed R2 objects.
 - Student and administrator logins have independent Cloudflare rate-limit
   bindings: 10 student requests and 5 administrator requests per public IP per
   minute. These limits count successful and unsuccessful requests.
@@ -119,6 +128,12 @@ All routes except health and preflight require the exact
 | `GET` | `/v1/admin/courses` | The complete nine-course administration catalogue |
 | `GET` | `/v1/admin/lessons` | Safe lesson inventory with course, duration, privacy, publication, tags, and rendition metadata; never R2 keys |
 | `PATCH` | `/v1/admin/lessons/:lessonId/privacy` | Mark or unmark a lesson as private; `{ "private": true }` |
+| `GET` | `/v1/admin/r2/objects` | Admin-only private-R2 video inventory; supports `prefix`, `q`, `cursor`, and `limit` (1–100) |
+| `POST` | `/v1/admin/r2/uploads` | Initialize a private multipart upload; `{ "fileName", "sizeBytes", "contentType"?, "durationSeconds"? }` |
+| `PUT` | `/v1/admin/r2/uploads/:uploadId/parts/:partNumber` | Stream one exact-size binary part with bearer auth and `X-Video-Upload-Token` |
+| `POST` | `/v1/admin/r2/uploads/:uploadId/complete` | Complete with `{ "uploadToken"?, "parts": [{ "partNumber", "etag" }] }` (token header also accepted) |
+| `DELETE` | `/v1/admin/r2/uploads/:uploadId` | Abort an incomplete upload using bearer auth and `X-Video-Upload-Token` |
+| `POST` | `/v1/admin/r2/publish` | HEAD-validate selected private objects and publish safe lesson metadata through Supabase |
 | `GET` | `/v1/admin/feedback` | Per-student lesson ratings for the administrator |
 | `POST` | `/v1/admin/students/:id/key` | Issue/retain a key; `{ "rotate": false }`, or rotate with `true` |
 | `DELETE` | `/v1/admin/students/:id/key` | Clear the key and entitlement |
@@ -127,6 +142,7 @@ All routes except health and preflight require the exact
 | `PATCH` | `/v1/admin/students/:id/watermark` | Toggle that student's playback watermark; `{ "enabled": true }` |
 | `GET` | `/v1/courses` | Assigned courses, including courses that currently have no lessons |
 | `GET` | `/v1/lessons` | Entitled library with progress, thumbnails, tags, playlists, clips, ratings, and renditions |
+| `GET` | `/v1/analytics` | Student summary, daily viewing counts, unfinished lessons, and watch history |
 | `GET` | `/v1/lessons/:id/thumbnail` | Authorized private-R2 lesson poster |
 | `PATCH` | `/v1/lessons/:id/bookmark` | Set lesson bookmark state; `{ "bookmarked": true }` |
 | `PUT`, `PATCH`, `DELETE` | `/v1/lessons/:id/note` | Save up to 5,000 characters, or delete the per-lesson note |
@@ -143,6 +159,38 @@ All routes except health and preflight require the exact
 The grant response exposes `playbackToken`, `playbackSessionId`, `videoUrl`,
 safe rendition labels/URLs, `defaultQuality`, `expiresAt`, `resumeAt`, and
 watermark data. It deliberately omits every R2 key.
+
+The upload initializer accepts only MP4, MOV, M4V, or WebM names, a byte length
+up to 50 GiB, and an optional duration from 1 to 86,400 seconds. It returns
+`{ upload: { uploadId, key, uploadToken, partSize, partCount, maxParts,
+durationSeconds, expiresAt } }`; it never returns a public URL. The browser must
+upload exactly `partSize` bytes for every non-final part and the exact remaining
+bytes for the final part. Completion returns private object metadata only.
+
+Publishing accepts:
+
+```json
+{
+  "objectKey": "private/source.mp4",
+  "title": "Lesson title",
+  "description": "",
+  "courseCode": "dse",
+  "durationSeconds": 1800,
+  "tags": ["Grammar"],
+  "slug": "optional-slug",
+  "courseLabel": "錄影班",
+  "sortOrder": 0,
+  "renditions": [
+    { "objectKey": "private/720p.mp4", "qualityCode": "720p" }
+  ],
+  "thumbnail": { "objectKey": "private/poster.jpg" }
+}
+```
+
+`description`, `tags`, `slug`, `courseLabel`, `sortOrder`, `renditions`, and
+`thumbnail` are optional. A missing slug is derived deterministically, and a
+missing duration may use upload custom metadata. The Worker derives every byte
+length and content type from R2 HEAD metadata rather than trusting the browser.
 
 Adaptive login errors use a structured `error` object. `challengeRequired`
 tells the browser to reveal Turnstile; `retryAfterSeconds` drives the cooldown
@@ -207,6 +255,19 @@ video_class_admin_set_lesson_private(
   p_lesson_id uuid, p_is_private boolean
 )
 
+video_class_admin_match_r2_objects(
+  p_service_secret text, p_admin_token uuid,
+  p_object_keys text[]
+)
+
+video_class_admin_publish_r2_object(
+  p_service_secret text, p_admin_token uuid,
+  p_object_key text, p_slug text, p_title text, p_description text,
+  p_course_code text, p_course_label text, p_duration_seconds integer,
+  p_sort_order integer, p_content_type text, p_byte_length bigint,
+  p_tags jsonb, p_renditions jsonb, p_thumbnail jsonb
+)
+
 video_class_admin_issue_key(
   p_service_secret text, p_admin_token uuid,
   p_student_id uuid, p_rotate boolean
@@ -236,6 +297,10 @@ video_class_student_list_courses(
 )
 
 video_class_student_list_lessons(
+  p_service_secret text, p_student_token uuid
+)
+
+video_class_student_analytics(
   p_service_secret text, p_student_token uuid
 )
 

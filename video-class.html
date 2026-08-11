@@ -22,7 +22,7 @@
   <style>.frame-guard body{display:none!important}</style>
   <script src="video-class-frame-guard.js?v=20260810-1"></script>
   <link rel="stylesheet" href="/pwa-ui.css">
-  <link rel="stylesheet" href="video-class.css?v=20260811-6">
+  <link rel="stylesheet" href="video-class.css?v=20260811-8">
   <script defer src="/pwa-register.js"></script>
 </head>
 
@@ -52,6 +52,7 @@
       <button type="button" data-student-route="bookmarks">我的書籤</button>
       <button type="button" data-student-route="playlists">我的播放列表</button>
       <button type="button" data-student-route="notes">全部筆記</button>
+      <button type="button" data-student-route="progress">學習進度記錄</button>
     </nav>
   </header>
 
@@ -185,6 +186,36 @@
           </div>
         </div>
 
+        <section class="learning-dashboard" data-learning-dashboard="library" aria-labelledby="library-dashboard-title">
+          <div class="learning-dashboard__heading">
+            <div>
+              <p class="section-kicker">LEARNING DASHBOARD</p>
+              <h2 id="library-dashboard-title">我的學習概覽</h2>
+              <p>以觀看日期及累積時間，快速掌握你的溫習節奏。</p>
+            </div>
+            <button class="dashboard-collapse-button" type="button" data-dashboard-toggle="library" aria-expanded="true" aria-controls="library-dashboard-body">
+              <span data-dashboard-toggle-label>收合</span><span aria-hidden="true" data-dashboard-toggle-icon>↑</span>
+            </button>
+          </div>
+          <div class="learning-dashboard__body" id="library-dashboard-body" data-dashboard-body="library">
+            <div class="analytics-state" data-analytics-state="library" role="status" aria-live="polite">
+              <span class="spinner" aria-hidden="true"></span><p>正在整理你的學習記錄⋯</p>
+            </div>
+            <div class="learning-dashboard__grid" data-dashboard-content="library" hidden>
+              <article class="analytics-card analytics-card--daily">
+                <div class="analytics-card__heading"><span>01</span><div><p>VIDEOS BY DATE</p><h3>每日觀看影片</h3></div></div>
+                <div class="daily-watch-chart" data-daily-watch-chart="library" aria-label="按日期觀看影片數量"></div>
+              </article>
+              <article class="analytics-card analytics-card--total">
+                <div class="analytics-card__heading"><span>02</span><div><p>TOTAL WATCH TIME</p><h3>累積觀看時間</h3></div></div>
+                <strong class="analytics-total" data-total-watch-minutes="library">0</strong>
+                <span class="analytics-total__unit">分鐘</span>
+                <p><strong data-total-lessons-watched="library">0</strong> 部影片曾觀看</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
         <div class="dashboard-toolbar">
           <div>
             <p class="section-kicker">COURSE LIBRARY</p>
@@ -235,6 +266,11 @@
 
             <div class="protected-player" data-player tabindex="0" aria-label="課堂影片播放器">
             <video data-video crossorigin="anonymous" playsinline preload="metadata" controlslist="nodownload noremoteplayback" disablepictureinpicture disableremoteplayback></video>
+            <div class="mobile-seek-zones" data-mobile-seek-zones aria-hidden="true">
+              <span data-mobile-seek-zone="backward"></span>
+              <span data-mobile-seek-zone="forward"></span>
+            </div>
+            <div class="seek-feedback" data-seek-feedback role="status" aria-live="polite" aria-atomic="true"></div>
             <div class="player-placeholder" data-player-placeholder>
               <span class="spinner" aria-hidden="true"></span>
               <strong>正在準備安全播放⋯</strong>
@@ -338,7 +374,9 @@
                 <span class="player-time" data-duration>0:00</span>
               </div>
               <div class="player-controls__actions">
+                <button type="button" data-previous-video aria-label="上一部影片" disabled><span aria-hidden="true">⏮</span><span class="control-label">上一部</span></button>
                 <button type="button" data-play-toggle aria-label="播放影片"><span aria-hidden="true">▶</span></button>
+                <button type="button" data-next-video aria-label="下一部影片" disabled><span aria-hidden="true">⏭</span><span class="control-label">下一部</span></button>
                 <button type="button" data-pin-clip aria-label="在影片進度列選擇精彩片段位置" aria-pressed="false"><span aria-hidden="true">⌖</span><span class="control-label">片段</span></button>
                 <button type="button" data-open-feedback aria-label="為這堂影片評分"><span aria-hidden="true">☆</span><span class="control-label">評分</span></button>
                 <button type="button" data-mute-toggle aria-label="靜音"><span aria-hidden="true">聲音</span></button>
@@ -447,6 +485,61 @@
         <div class="notes-list" data-notes-list hidden></div>
       </section>
 
+      <section class="student-page progress-page" data-student-page="progress" hidden>
+        <div class="student-page-heading progress-page-heading">
+          <div><p class="eyebrow">LEARNING PROGRESS</p><h1>學習進度記錄</h1><p>重溫你的學習節奏、未完成課堂及完整觀看記錄。</p></div>
+          <button class="primary-button primary-button--compact" type="button" data-export-watch-history disabled>下載觀看記錄 CSV</button>
+        </div>
+
+        <section class="learning-dashboard learning-dashboard--progress" data-learning-dashboard="progress" aria-labelledby="progress-dashboard-title">
+          <div class="learning-dashboard__heading">
+            <div>
+              <p class="section-kicker">LEARNING DASHBOARD</p>
+              <h2 id="progress-dashboard-title">我的學習概覽</h2>
+              <p>你的累積觀看情況會在播放進度同步後更新。</p>
+            </div>
+            <button class="dashboard-collapse-button" type="button" data-dashboard-toggle="progress" aria-expanded="true" aria-controls="progress-dashboard-body">
+              <span data-dashboard-toggle-label>收合</span><span aria-hidden="true" data-dashboard-toggle-icon>↑</span>
+            </button>
+          </div>
+          <div class="learning-dashboard__body" id="progress-dashboard-body" data-dashboard-body="progress">
+            <div class="analytics-state" data-analytics-state="progress" role="status" aria-live="polite">
+              <span class="spinner" aria-hidden="true"></span><p>正在整理你的學習記錄⋯</p>
+            </div>
+            <div class="learning-dashboard__grid" data-dashboard-content="progress" hidden>
+              <article class="analytics-card analytics-card--daily">
+                <div class="analytics-card__heading"><span>01</span><div><p>VIDEOS BY DATE</p><h3>每日觀看影片</h3></div></div>
+                <div class="daily-watch-chart" data-daily-watch-chart="progress" aria-label="按日期觀看影片數量"></div>
+              </article>
+              <article class="analytics-card analytics-card--total">
+                <div class="analytics-card__heading"><span>02</span><div><p>TOTAL WATCH TIME</p><h3>累積觀看時間</h3></div></div>
+                <strong class="analytics-total" data-total-watch-minutes="progress">0</strong>
+                <span class="analytics-total__unit">分鐘</span>
+                <p><strong data-total-lessons-watched="progress">0</strong> 部影片曾觀看</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="progress-section" aria-labelledby="unfinished-lessons-title">
+          <div class="progress-section__heading">
+            <div><p class="section-kicker">CONTINUE LEARNING</p><h2 id="unfinished-lessons-title">未完成影片</h2></div>
+            <p data-unfinished-count>0 部待完成</p>
+          </div>
+          <div class="analytics-state analytics-state--compact" data-unfinished-state role="status" aria-live="polite"><p>正在載入未完成影片⋯</p></div>
+          <div class="unfinished-lessons" data-unfinished-lessons hidden></div>
+        </section>
+
+        <section class="progress-section progress-section--history" aria-labelledby="watch-history-title">
+          <div class="progress-section__heading">
+            <div><p class="section-kicker">WATCH HISTORY</p><h2 id="watch-history-title">完整觀看記錄</h2></div>
+            <p data-history-count>0 項記錄</p>
+          </div>
+          <div class="analytics-state analytics-state--compact" data-history-state role="status" aria-live="polite"><p>正在載入觀看記錄⋯</p></div>
+          <ol class="watch-history-list" data-watch-history-list hidden></ol>
+        </section>
+      </section>
+
       <dialog class="playlist-dialog" data-playlist-dialog aria-labelledby="playlist-dialog-title">
         <form data-playlist-chooser-form>
           <div class="playlist-dialog__heading">
@@ -488,6 +581,7 @@
         <button type="button" data-admin-panel-tab="entitlements">學生課程權限</button>
         <button type="button" data-admin-panel-tab="feedback">影片評分</button>
         <button type="button" data-admin-panel-tab="lessons">所有影片</button>
+        <button type="button" data-admin-panel-tab="r2">R2 影片庫</button>
         <button type="button" data-admin-panel-tab="add-student">新增學生</button>
       </nav>
 
@@ -605,6 +699,7 @@
                 <th scope="col">縮圖</th>
                 <th scope="col">影片／課程</th>
                 <th scope="col">片長</th>
+                <th scope="col">總觀看次數</th>
                 <th scope="col">目前狀態</th>
                 <th scope="col"><span class="visually-hidden">操作</span></th>
               </tr>
@@ -612,6 +707,72 @@
             <tbody data-admin-lessons-rows></tbody>
           </table>
         </div>
+      </section>
+
+      <section class="admin-r2-panel" data-admin-panel="r2" hidden>
+        <div class="admin-section-heading">
+          <div>
+            <p class="section-kicker">PRIVATE R2 VIDEO LIBRARY</p>
+            <h2>R2 影片庫及發佈</h2>
+            <p>查看私人 R2 Bucket 內的影片，或直接從此頁上載。上載完成後仍不會自動給學生觀看；請填寫課堂資料並按「發佈」。</p>
+          </div>
+          <button class="icon-button" type="button" data-r2-refresh><span aria-hidden="true">↻</span>重新整理</button>
+        </div>
+
+        <form class="r2-upload-card" data-r2-upload-form>
+          <div class="r2-upload-card__copy">
+            <span class="r2-upload-card__icon" aria-hidden="true">↑</span>
+            <div><strong>上載新影片到私人 R2</strong><small>支援 MP4、MOV、M4V、WebM；大型影片會自動分段安全上載。</small></div>
+          </div>
+          <label class="r2-file-picker">
+            <span>選擇影片</span>
+            <input type="file" accept="video/mp4,video/quicktime,video/x-m4v,video/webm,.mp4,.mov,.m4v,.webm" data-r2-upload-file required>
+          </label>
+          <div class="r2-upload-meta" data-r2-upload-meta hidden></div>
+          <div class="r2-upload-actions">
+            <button class="primary-button primary-button--compact" type="submit" data-r2-upload-start>開始上載</button>
+            <button class="quiet-button" type="button" data-r2-upload-cancel hidden>取消上載</button>
+          </div>
+          <div class="r2-upload-progress" data-r2-upload-progress hidden>
+            <div><span data-r2-upload-progress-label>準備上載⋯</span><strong data-r2-upload-progress-percent>0%</strong></div>
+            <progress max="100" value="0" data-r2-upload-progress-bar>0%</progress>
+          </div>
+          <p class="form-status" data-r2-upload-status role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="r2-library-controls">
+          <label class="student-search">
+            <span class="visually-hidden">搜尋 R2 影片</span>
+            <span aria-hidden="true">⌕</span>
+            <input type="search" data-r2-search placeholder="搜尋檔案名稱或 R2 路徑" autocomplete="off">
+          </label>
+          <span class="r2-security-note"><span aria-hidden="true">◆</span> 所有檔案保持私人，只有管理員可看見路徑。</span>
+        </div>
+        <div class="inline-state" data-r2-state role="status" aria-live="polite"><p>正在讀取 R2 影片庫⋯</p></div>
+        <div class="r2-object-list" data-r2-list role="list" hidden></div>
+        <button class="quiet-button r2-load-more" type="button" data-r2-load-more hidden>載入更多影片</button>
+
+        <dialog class="playlist-dialog r2-publish-dialog" data-r2-publish-dialog>
+          <form class="playlist-dialog__card r2-publish-form" method="dialog" data-r2-publish-form>
+            <div class="playlist-dialog__heading">
+              <div><p class="section-kicker">PUBLISH A LESSON</p><h2>發佈 R2 影片</h2></div>
+              <button class="dialog-close" type="button" data-close-r2-publish aria-label="關閉發佈視窗">×</button>
+            </div>
+            <p class="r2-publish-object" data-r2-publish-object></p>
+            <div class="r2-publish-fields">
+              <label><span>影片標題</span><input type="text" maxlength="200" data-r2-publish-title required></label>
+              <label><span>所屬課程</span><select data-r2-publish-course required><option value="">請選擇課程</option></select></label>
+              <label class="r2-publish-fields__wide"><span>影片描述</span><textarea maxlength="2000" rows="4" data-r2-publish-description placeholder="向學生簡介課堂內容"></textarea></label>
+              <label><span>片長（秒）</span><input type="number" min="1" max="86400" step="1" inputmode="numeric" data-r2-publish-duration required></label>
+              <label><span>標籤</span><input type="text" maxlength="500" data-r2-publish-tags placeholder="例如：Writing, Paper 2, DSE"></label>
+            </div>
+            <p class="form-status" data-r2-publish-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions">
+              <button class="quiet-button" type="button" data-close-r2-publish>取消</button>
+              <button class="primary-button primary-button--compact" type="submit" data-r2-publish-submit>發佈給學生</button>
+            </div>
+          </form>
+        </dialog>
       </section>
 
       <section class="available-students-panel" data-admin-panel="add-student" hidden>
@@ -639,6 +800,6 @@
 
   <script defer src="video-class-config.js?v=20260811-2"></script>
   <script defer src="shared-system-nav.js?v=20260810-5"></script>
-  <script defer src="video-class.js?v=20260811-6"></script>
+  <script defer src="video-class.js?v=20260811-8"></script>
 </body>
 </html>

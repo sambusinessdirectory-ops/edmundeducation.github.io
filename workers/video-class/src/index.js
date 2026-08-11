@@ -5,6 +5,13 @@ const SERVICE_NAME = "edmund-video-class";
 const DEFAULT_ALLOWED_ORIGIN = "https://edmundeducation.com";
 const PLAYBACK_TOKEN_TTL_SECONDS = 2 * 60 * 60;
 const MAX_JSON_BYTES = 16 * 1024;
+const ADMIN_UPLOAD_TOKEN_TTL_SECONDS = 6 * 24 * 60 * 60;
+const ADMIN_UPLOAD_PREFIX = "admin-uploads/videos/";
+const ADMIN_UPLOAD_PART_BYTES = 10 * 1024 * 1024;
+const ADMIN_UPLOAD_MAX_BYTES = 50 * 1024 * 1024 * 1024;
+const ADMIN_UPLOAD_MAX_PARTS = 10000;
+const ADMIN_UPLOAD_COMPLETE_MAX_JSON_BYTES = 2 * 1024 * 1024;
+const ADMIN_R2_LIST_MAX_ITEMS = 100;
 const TURNSTILE_SITEVERIFY_URL = "https://challenges.cloudflare.com/turnstile/v0/siteverify";
 const TURNSTILE_TOKEN_MAX_LENGTH = 2048;
 const TURNSTILE_TIMEOUT_MS = 8000;
@@ -15,6 +22,21 @@ const QUALITY_CODE_RE = /^(?:480p|720p|1080p|max)$/;
 const HEARTBEAT_EVENTS = new Set(["play", "pause", "progress", "heartbeat", "seek", "ended", "close", "hidden", "pagehide"]);
 const MAX_PLAYLIST_NAME_LENGTH = 80;
 const MAX_CLIP_TITLE_LENGTH = 120;
+const ADMIN_UPLOAD_ID_RE = /^[A-Za-z0-9._~-]{8,512}$/;
+const ADMIN_UPLOAD_TOKEN_MAX_LENGTH = 4096;
+const VIDEO_UPLOAD_TYPES = Object.freeze({
+  ".mp4": "video/mp4",
+  ".mov": "video/quicktime",
+  ".m4v": "video/x-m4v",
+  ".webm": "video/webm"
+});
+const IMAGE_UPLOAD_TYPES = Object.freeze({
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".png": "image/png",
+  ".webp": "image/webp",
+  ".avif": "image/avif"
+});
 
 class HttpError extends Error {
   constructor(status, publicMessage, options = {}) {
@@ -107,6 +129,15 @@ async function route(request, env, ctx) {
   if (url.pathname === "/v1/admin/lessons" && request.method === "GET") {
     return adminListLessons(request, env);
   }
+  if (url.pathname === "/v1/admin/r2/objects" && request.method === "GET") {
+    return adminListR2Objects(request, env, url);
+  }
+  if (url.pathname === "/v1/admin/r2/uploads" && request.method === "POST") {
+    return adminCreateR2Upload(request, env);
+  }
+  if (url.pathname === "/v1/admin/r2/publish" && request.method === "POST") {
+    return adminPublishR2Object(request, env);
+  }
   if (url.pathname === "/v1/admin/feedback" && request.method === "GET") {
     return adminListFeedback(request, env);
   }
@@ -114,6 +145,26 @@ async function route(request, env, ctx) {
   const adminLessonPrivacyMatch = url.pathname.match(/^\/v1\/admin\/lessons\/([^/]+)\/privacy$/);
   if (adminLessonPrivacyMatch && request.method === "PATCH") {
     return adminChangeLessonPrivacy(request, env, decodePathSegment(adminLessonPrivacyMatch[1]));
+  }
+
+  const adminUploadPartMatch = url.pathname.match(/^\/v1\/admin\/r2\/uploads\/([^/]+)\/parts\/([^/]+)$/);
+  if (adminUploadPartMatch && request.method === "PUT") {
+    return adminUploadR2Part(
+      request,
+      env,
+      decodePathSegment(adminUploadPartMatch[1]),
+      decodePathSegment(adminUploadPartMatch[2])
+    );
+  }
+
+  const adminCompleteUploadMatch = url.pathname.match(/^\/v1\/admin\/r2\/uploads\/([^/]+)\/complete$/);
+  if (adminCompleteUploadMatch && request.method === "POST") {
+    return adminCompleteR2Upload(request, env, decodePathSegment(adminCompleteUploadMatch[1]));
+  }
+
+  const adminAbortUploadMatch = url.pathname.match(/^\/v1\/admin\/r2\/uploads\/([^/]+)$/);
+  if (adminAbortUploadMatch && request.method === "DELETE") {
+    return adminAbortR2Upload(request, env, decodePathSegment(adminAbortUploadMatch[1]));
   }
 
   const studentKeyMatch = url.pathname.match(/^\/v1\/admin\/students\/([^/]+)\/key$/);
@@ -146,6 +197,9 @@ async function route(request, env, ctx) {
   }
   if (url.pathname === "/v1/lessons" && request.method === "GET") {
     return listLessons(request, env);
+  }
+  if (url.pathname === "/v1/analytics" && request.method === "GET") {
+    return studentAnalytics(request, env);
   }
 
   if (url.pathname === "/v1/playlists" && request.method === "POST") {
@@ -465,6 +519,284 @@ async function adminChangeLessonPrivacy(request, env, lessonId) {
   }, 200);
 }
 
+async function adminListR2Objects(request, env, url) {
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const bucket = requireVideoBucket(env);
+  const prefix = normalizeR2ListPrefix(url.searchParams.get("prefix") || "");
+  const query = String(url.searchParams.get("q") || "").normalize("NFKC").trim().toLocaleLowerCase();
+  if (query.length > 100) throw new HttpError(400, "R2 search is too long");
+  const cursor = normalizeR2Cursor(url.searchParams.get("cursor") || "");
+  const limit = normalizeR2ListLimit(url.searchParams.get("limit"));
+
+  let page;
+  try {
+    page = await bucket.list({
+      prefix,
+      cursor: cursor || undefined,
+      limit,
+      include: ["httpMetadata", "customMetadata"]
+    });
+  } catch {
+    throw new HttpError(503, "Private video inventory is temporarily unavailable");
+  }
+
+  const listedObjects = Array.isArray(page?.objects) ? page.objects : [];
+  const objects = listedObjects.filter(object => {
+    if (!isVideoObjectKey(object?.key)) return false;
+    if (!query) return true;
+    const originalName = String(object?.customMetadata?.originalFilename || "");
+    return `${object.key}\n${originalName}`.normalize("NFKC").toLocaleLowerCase().includes(query);
+  });
+  const objectKeys = objects.map(object => String(object.key));
+  let matches = [];
+  if (objectKeys.length) {
+    const result = await serviceRpc(env, "video_class_admin_match_r2_objects", {
+      p_admin_token: token,
+      p_object_keys: objectKeys
+    });
+    const value = Array.isArray(result) ? (firstRow(result) || {}) : (result || {});
+    if (!value || typeof value !== "object" || !Array.isArray(value.matches)) {
+      throw new HttpError(502, "R2 publication status could not be loaded");
+    }
+    matches = value.matches;
+  }
+  const matchByKey = new Map();
+  for (const match of matches) {
+    const key = String(match?.object_key || "");
+    if (key && objectKeys.includes(key) && !matchByKey.has(key)) matchByKey.set(key, match);
+  }
+
+  const truncated = page?.truncated === true;
+  const nextCursor = truncated && typeof page.cursor === "string" && page.cursor ? page.cursor : null;
+  if (truncated && !nextCursor) throw new HttpError(502, "R2 pagination cursor is missing");
+  return json(request, env, {
+    items: objects.map(object => mapAdminR2Object(object, matchByKey.get(String(object.key)))),
+    cursor: nextCursor,
+    truncated
+  }, 200);
+}
+
+async function adminCreateR2Upload(request, env) {
+  requireSigningKey(env);
+  const token = requireBearerToken(request);
+  const admin = await assertAdminSession(env, token);
+  const adminId = requireAdminId(admin);
+  const body = await readJson(request, 8192);
+  const fileName = normalizeUploadFileName(body.fileName ?? body.filename ?? body.name);
+  const sizeBytes = normalizeUploadSize(body.sizeBytes ?? body.size);
+  const durationSeconds = optionalLessonDuration(body.durationSeconds ?? body.duration_seconds);
+  const contentType = videoContentTypeForKey(fileName, body.contentType ?? body.content_type, true);
+  const partSize = ADMIN_UPLOAD_PART_BYTES;
+  const partCount = Math.ceil(sizeBytes / partSize);
+  if (partCount < 1 || partCount > ADMIN_UPLOAD_MAX_PARTS) {
+    throw new HttpError(400, "Video requires too many upload parts");
+  }
+  const key = createAdminUploadKey(fileName);
+  const bucket = requireVideoBucket(env);
+  let multipartUpload;
+  try {
+    multipartUpload = await bucket.createMultipartUpload(key, {
+      httpMetadata: { contentType, contentDisposition: "inline" },
+      customMetadata: {
+        uploadSource: "admin-browser",
+        originalFilename: fileName,
+        ...(durationSeconds == null ? {} : { durationSeconds: String(durationSeconds) })
+      }
+    });
+  } catch {
+    throw new HttpError(503, "Private video upload could not be started");
+  }
+  const uploadId = String(multipartUpload?.uploadId || "");
+  if (!ADMIN_UPLOAD_ID_RE.test(uploadId) || String(multipartUpload?.key || "") !== key) {
+    try { await multipartUpload?.abort?.(); } catch { /* R2 expires incomplete uploads automatically. */ }
+    throw new HttpError(502, "Private video upload returned invalid state");
+  }
+  const now = Math.floor(Date.now() / 1000);
+  const expiresAtSeconds = now + ADMIN_UPLOAD_TOKEN_TTL_SECONDS;
+  const uploadToken = await signAdminUploadToken({
+    v: 1,
+    aud: "admin-r2-upload",
+    sub: adminId,
+    uid: uploadId,
+    key,
+    size: sizeBytes,
+    partSize,
+    partCount,
+    contentType,
+    iat: now,
+    exp: expiresAtSeconds
+  }, env.VIDEO_CLASS_SIGNING_KEY);
+  return json(request, env, {
+    upload: {
+      uploadId,
+      key,
+      uploadToken,
+      partSize,
+      partCount,
+      maxParts: ADMIN_UPLOAD_MAX_PARTS,
+      durationSeconds,
+      expiresAt: new Date(expiresAtSeconds * 1000).toISOString()
+    }
+  }, 201);
+}
+
+async function adminUploadR2Part(request, env, uploadId, partNumberValue) {
+  requireSigningKey(env);
+  if (!ADMIN_UPLOAD_ID_RE.test(uploadId)) throw new HttpError(400, "Invalid upload ID");
+  if (!/^\d{1,5}$/.test(partNumberValue)) throw new HttpError(400, "Invalid upload part number");
+  const partNumber = Number(partNumberValue);
+  const token = requireBearerToken(request);
+  const admin = await assertAdminSession(env, token);
+  const state = await requireAdminUploadState(request, env, requireAdminId(admin), uploadId);
+  if (!Number.isInteger(partNumber) || partNumber < 1 || partNumber > state.partCount) {
+    throw new HttpError(400, "Invalid upload part number");
+  }
+  if (!request.body) throw new HttpError(400, "Upload part is required");
+  const declaredLength = String(request.headers.get("Content-Length") || "");
+  if (!/^\d+$/.test(declaredLength)) throw new HttpError(411, "Upload part Content-Length is required");
+  const contentLength = Number(declaredLength);
+  const expectedLength = partNumber === state.partCount
+    ? state.size - state.partSize * (state.partCount - 1)
+    : state.partSize;
+  if (!Number.isSafeInteger(contentLength) || contentLength !== expectedLength) {
+    throw new HttpError(400, `Upload part must be exactly ${expectedLength} bytes`);
+  }
+  const contentEncoding = String(request.headers.get("Content-Encoding") || "identity").toLowerCase();
+  if (contentEncoding !== "identity") throw new HttpError(415, "Upload parts must not be content-encoded");
+  const contentType = String(request.headers.get("Content-Type") || "application/octet-stream")
+    .split(";", 1)[0].trim().toLowerCase();
+  if (!["application/octet-stream", state.contentType].includes(contentType)) {
+    throw new HttpError(415, "Upload part content type is invalid");
+  }
+
+  let uploadedPart;
+  try {
+    uploadedPart = await requireVideoBucket(env)
+      .resumeMultipartUpload(state.key, state.uid)
+      .uploadPart(partNumber, request.body);
+  } catch {
+    throw new HttpError(409, "Multipart upload is no longer active");
+  }
+  const etag = String(uploadedPart?.etag || "");
+  if (!isSafePartEtag(etag) || Number(uploadedPart?.partNumber) !== partNumber) {
+    throw new HttpError(502, "R2 returned invalid upload-part metadata");
+  }
+  return json(request, env, { part: { partNumber, etag } }, 200);
+}
+
+async function adminCompleteR2Upload(request, env, uploadId) {
+  requireSigningKey(env);
+  if (!ADMIN_UPLOAD_ID_RE.test(uploadId)) throw new HttpError(400, "Invalid upload ID");
+  const token = requireBearerToken(request);
+  const admin = await assertAdminSession(env, token);
+  const body = await readJson(request, ADMIN_UPLOAD_COMPLETE_MAX_JSON_BYTES);
+  const state = await requireAdminUploadState(request, env, requireAdminId(admin), uploadId, body.uploadToken);
+  const parts = normalizeCompletedUploadParts(body.parts, state.partCount);
+  let object;
+  try {
+    object = await requireVideoBucket(env)
+      .resumeMultipartUpload(state.key, state.uid)
+      .complete(parts);
+  } catch {
+    throw new HttpError(409, "Multipart upload could not be completed");
+  }
+  if (!object || String(object.key || "") !== state.key || Number(object.size) !== state.size) {
+    throw new HttpError(502, "Completed R2 object metadata is invalid");
+  }
+  return json(request, env, { object: mapAdminR2Object(object, null) }, 201);
+}
+
+async function adminAbortR2Upload(request, env, uploadId) {
+  requireSigningKey(env);
+  if (!ADMIN_UPLOAD_ID_RE.test(uploadId)) throw new HttpError(400, "Invalid upload ID");
+  const token = requireBearerToken(request);
+  const admin = await assertAdminSession(env, token);
+  const state = await requireAdminUploadState(request, env, requireAdminId(admin), uploadId);
+  try {
+    await requireVideoBucket(env).resumeMultipartUpload(state.key, state.uid).abort();
+  } catch {
+    throw new HttpError(409, "Multipart upload is no longer active");
+  }
+  return new Response(null, { status: 204, headers: responseHeaders(request, env) });
+}
+
+async function adminPublishR2Object(request, env) {
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const body = await readJson(request, 64 * 1024);
+  const objectKey = normalizePrivateObjectKey(body.objectKey ?? body.object_key);
+  const title = normalizeBoundedText(body.title, "Lesson title", 1, 160, true);
+  const description = normalizeBoundedText(body.description ?? "", "Lesson description", 0, 2000, false);
+  const courseCode = String(body.courseCode ?? body.course_code ?? "").trim().toLowerCase();
+  if (!COURSE_CODE_RE.test(courseCode)) throw new HttpError(400, "Invalid course code");
+  const courseLabel = normalizeBoundedText(body.courseLabel ?? body.course_label ?? "錄影班", "Course label", 1, 120, true);
+  const sortOrder = normalizeBoundedInteger(body.sortOrder ?? body.sort_order ?? 0, "Sort order", -1000000, 1000000);
+  const tags = normalizePublishTags(body.tags);
+  const renditionRequests = normalizePublishRenditionRequests(body.renditions);
+  const thumbnailRequest = normalizePublishThumbnailRequest(body.thumbnail);
+  const requestedKeys = [objectKey, ...renditionRequests.map(item => item.objectKey)];
+  if (thumbnailRequest) requestedKeys.push(thumbnailRequest.objectKey);
+  if (new Set(requestedKeys).size !== requestedKeys.length) {
+    throw new HttpError(400, "Each R2 object can be assigned only once");
+  }
+
+  const bucket = requireVideoBucket(env);
+  const [source, ...relatedObjects] = await Promise.all([
+    headVideoObject(bucket, objectKey),
+    ...renditionRequests.map(item => headVideoObject(bucket, item.objectKey)),
+    ...(thumbnailRequest ? [headImageObject(bucket, thumbnailRequest.objectKey)] : [])
+  ]);
+  const suppliedDuration = body.durationSeconds ?? body.duration_seconds;
+  const metadataDuration = suppliedDuration == null || suppliedDuration === ""
+    ? optionalLessonDuration(source.customMetadata?.durationSeconds)
+    : null;
+  const durationSeconds = requiredLessonDuration(
+    suppliedDuration == null || suppliedDuration === "" ? metadataDuration : suppliedDuration
+  );
+  const slug = body.slug == null || String(body.slug).trim() === ""
+    ? await deriveLessonSlug(title, objectKey)
+    : normalizeLessonSlug(body.slug);
+  const renditionObjects = relatedObjects.slice(0, renditionRequests.length);
+  const thumbnailObject = thumbnailRequest ? relatedObjects[relatedObjects.length - 1] : null;
+  const renditions = renditionRequests.map((item, index) => ({
+    quality_code: item.qualityCode,
+    display_label: item.displayLabel,
+    object_key: item.objectKey,
+    content_type: renditionObjects[index].contentType,
+    height_pixels: item.heightPixels,
+    byte_length: renditionObjects[index].size,
+    sort_order: item.sortOrder
+  }));
+  const thumbnail = thumbnailRequest ? {
+    object_key: thumbnailRequest.objectKey,
+    content_type: thumbnailObject.contentType,
+    byte_length: thumbnailObject.size
+  } : null;
+
+  const result = await serviceRpc(env, "video_class_admin_publish_r2_object", {
+    p_admin_token: token,
+    p_object_key: objectKey,
+    p_slug: slug,
+    p_title: title,
+    p_description: description,
+    p_course_code: courseCode,
+    p_course_label: courseLabel,
+    p_duration_seconds: durationSeconds,
+    p_sort_order: sortOrder,
+    p_content_type: source.contentType,
+    p_byte_length: source.size,
+    p_tags: tags,
+    p_renditions: renditions,
+    p_thumbnail: thumbnail
+  });
+  const lesson = firstRow(result);
+  if (!lesson || !UUID_RE.test(String(lesson.lesson_id || ""))) {
+    throw new HttpError(502, "Published lesson response is invalid");
+  }
+  return json(request, env, { lesson: mapAdminLesson(lesson) }, 201);
+}
+
 async function adminListFeedback(request, env) {
   const token = requireBearerToken(request);
   await assertAdminSession(env, token);
@@ -571,7 +903,9 @@ async function assertAdminSession(env, token) {
   const rows = await serviceRpc(env, "video_class_admin_me", {
     p_admin_token: token
   });
-  if (!firstRow(rows)) throw new HttpError(401, "Administrator session is invalid or expired");
+  const row = firstRow(rows);
+  if (!row) throw new HttpError(401, "Administrator session is invalid or expired");
+  return row;
 }
 
 async function assertStudentSession(env, token) {
@@ -611,6 +945,19 @@ async function listLessons(request, env) {
       ? (library.officialPlaylists || library.official_playlists)
       : []).map(mapOfficialPlaylist)
   }, 200);
+}
+
+async function studentAnalytics(request, env) {
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  const result = await serviceRpc(env, "video_class_student_analytics", {
+    p_student_token: token
+  });
+  const value = Array.isArray(result) ? firstRow(result) : result;
+  if (!value || typeof value !== "object") {
+    throw new HttpError(502, "Learning analytics could not be loaded");
+  }
+  return json(request, env, mapStudentAnalytics(value), 200);
 }
 
 async function createPlaylist(request, env) {
@@ -1324,7 +1671,7 @@ async function readJson(request, maxBytes = MAX_JSON_BYTES) {
 
 function corsHeaders(origin, env) {
   const headers = new Headers({
-    "Access-Control-Allow-Headers": "Authorization, Content-Type, Range",
+    "Access-Control-Allow-Headers": "Authorization, Content-Type, Range, X-Video-Upload-Token",
     "Access-Control-Allow-Methods": "GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS",
     "Access-Control-Expose-Headers": "Accept-Ranges, Content-Length, Content-Range, ETag, Last-Modified, Retry-After",
     "Access-Control-Max-Age": "600",
@@ -1430,6 +1777,388 @@ function mapCourseAccess(row) {
   };
 }
 
+function requireVideoBucket(env) {
+  const bucket = env.VIDEO_CLASSES || env.VIDEO_BUCKET;
+  if (!bucket?.list || !bucket?.head || !bucket?.createMultipartUpload || !bucket?.resumeMultipartUpload) {
+    throw new HttpError(503, "Private video storage is not configured");
+  }
+  return bucket;
+}
+
+function normalizeR2ListPrefix(value) {
+  const prefix = String(value || "");
+  if (prefix.length > 512 || prefix.startsWith("/") || /[\u0000-\u001f\u007f]/.test(prefix)) {
+    throw new HttpError(400, "Invalid R2 prefix");
+  }
+  if (prefix.split("/").some(segment => segment === "." || segment === "..")) {
+    throw new HttpError(400, "Invalid R2 prefix");
+  }
+  return prefix;
+}
+
+function normalizeR2Cursor(value) {
+  const cursor = String(value || "");
+  if (cursor.length > 4096 || /[\u0000-\u001f\u007f]/.test(cursor)) {
+    throw new HttpError(400, "Invalid R2 cursor");
+  }
+  return cursor;
+}
+
+function normalizeR2ListLimit(value) {
+  if (value == null || value === "") return 50;
+  if (!/^\d{1,3}$/.test(String(value))) throw new HttpError(400, "Invalid R2 page size");
+  const limit = Number(value);
+  if (!Number.isInteger(limit) || limit < 1 || limit > ADMIN_R2_LIST_MAX_ITEMS) {
+    throw new HttpError(400, `R2 page size must be 1 to ${ADMIN_R2_LIST_MAX_ITEMS}`);
+  }
+  return limit;
+}
+
+function objectKeyExtension(value) {
+  const key = String(value || "");
+  const match = /(?:^|\/)[^/]*(\.[A-Za-z0-9]+)$/.exec(key);
+  return match ? match[1].toLowerCase() : "";
+}
+
+function isVideoObjectKey(value) {
+  return Object.prototype.hasOwnProperty.call(VIDEO_UPLOAD_TYPES, objectKeyExtension(value));
+}
+
+function normalizeR2HttpMetadata(value) {
+  const metadata = value && typeof value === "object" ? value : {};
+  const cacheExpiry = metadata.cacheExpiry instanceof Date
+    ? metadata.cacheExpiry.toISOString()
+    : (metadata.cacheExpiry && Number.isFinite(Date.parse(String(metadata.cacheExpiry)))
+      ? new Date(String(metadata.cacheExpiry)).toISOString()
+      : null);
+  return {
+    contentType: String(metadata.contentType || "").slice(0, 160) || null,
+    contentLanguage: String(metadata.contentLanguage || "").slice(0, 160) || null,
+    contentDisposition: String(metadata.contentDisposition || "").slice(0, 500) || null,
+    contentEncoding: String(metadata.contentEncoding || "").slice(0, 160) || null,
+    cacheControl: String(metadata.cacheControl || "").slice(0, 500) || null,
+    cacheExpiry
+  };
+}
+
+function normalizeR2CustomMetadata(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return {};
+  const result = {};
+  for (const [rawKey, rawValue] of Object.entries(value).slice(0, 64)) {
+    const key = String(rawKey).slice(0, 128);
+    if (!key || /[\u0000-\u001f\u007f]/.test(key)) continue;
+    result[key] = String(rawValue ?? "").slice(0, 2048);
+  }
+  return result;
+}
+
+function mapAdminR2Object(object, match) {
+  const key = String(object?.key || "");
+  const httpMetadata = normalizeR2HttpMetadata(object?.httpMetadata);
+  const customMetadata = normalizeR2CustomMetadata(object?.customMetadata);
+  const uploadedValue = object?.uploaded instanceof Date ? object.uploaded : new Date(String(object?.uploaded || ""));
+  const uploaded = Number.isNaN(uploadedValue.getTime()) ? null : uploadedValue.toISOString();
+  const assigned = Boolean(match && typeof match === "object");
+  const published = assigned && match.published === true;
+  const lessonId = assigned && UUID_RE.test(String(match.lesson_id || "")) ? String(match.lesson_id) : null;
+  const qualityCodes = Array.isArray(match?.rendition_quality_codes)
+    ? match.rendition_quality_codes.filter(code => QUALITY_CODE_RE.test(String(code))).map(String)
+    : [];
+  return {
+    key,
+    size: Number.isSafeInteger(Number(object?.size)) && Number(object.size) >= 0 ? Number(object.size) : null,
+    uploaded,
+    etag: String(object?.etag || "").slice(0, 256) || null,
+    httpEtag: String(object?.httpEtag || "").slice(0, 260) || null,
+    contentType: httpMetadata.contentType || VIDEO_UPLOAD_TYPES[objectKeyExtension(key)] || null,
+    httpMetadata,
+    customMetadata,
+    assigned,
+    published,
+    lessonId,
+    lessonSlug: assigned ? String(match.lesson_slug || "").slice(0, 160) : "",
+    lessonTitle: assigned ? String(match.lesson_title || "").slice(0, 160) : "",
+    isPrivate: assigned && match.is_private === true,
+    isSource: assigned && match.is_source === true,
+    renditionQualityCodes: qualityCodes,
+    isThumbnail: assigned && match.is_thumbnail === true
+  };
+}
+
+function requireAdminId(row) {
+  const adminId = String(row?.admin_id || row?.id || "");
+  if (!UUID_RE.test(adminId)) throw new HttpError(502, "Administrator identity is invalid");
+  return adminId;
+}
+
+function normalizeUploadFileName(value) {
+  if (typeof value !== "string") throw new HttpError(400, "Video file name is required");
+  const fileName = value.normalize("NFKC").trim();
+  if (!fileName || fileName.length > 180 || /[\\/\u0000-\u001f\u007f]/.test(fileName)) {
+    throw new HttpError(400, "Invalid video file name");
+  }
+  if (!isVideoObjectKey(fileName)) throw new HttpError(415, "Video must be MP4, MOV, M4V, or WebM");
+  return fileName;
+}
+
+function normalizeUploadSize(value) {
+  const size = Number(value);
+  if (!Number.isSafeInteger(size) || size < 1 || size > ADMIN_UPLOAD_MAX_BYTES) {
+    throw new HttpError(400, "Video size is invalid or exceeds 50 GiB");
+  }
+  return size;
+}
+
+function optionalLessonDuration(value) {
+  if (value == null || value === "") return null;
+  const duration = Number(value);
+  if (!Number.isInteger(duration) || duration < 1 || duration > 86400) {
+    throw new HttpError(400, "Duration must be 1 to 86,400 seconds");
+  }
+  return duration;
+}
+
+function requiredLessonDuration(value) {
+  const duration = optionalLessonDuration(value);
+  if (duration == null) throw new HttpError(400, "Lesson duration is required");
+  return duration;
+}
+
+function videoContentTypeForKey(key, declaredValue, strict) {
+  const extension = objectKeyExtension(key);
+  const expected = VIDEO_UPLOAD_TYPES[extension];
+  if (!expected) throw new HttpError(415, "Video must be MP4, MOV, M4V, or WebM");
+  const declared = String(declaredValue || "").split(";", 1)[0].trim().toLowerCase();
+  if (!declared || declared === "application/octet-stream") return expected;
+  const allowed = extension === ".m4v"
+    ? new Set(["video/x-m4v", "video/mp4"])
+    : (extension === ".mov" ? new Set(["video/quicktime", "video/mov"]) : new Set([expected]));
+  if (!allowed.has(declared)) {
+    if (!strict && /^video\/[a-z0-9][a-z0-9.+-]*$/.test(declared)) return declared;
+    throw new HttpError(415, "Video content type does not match its file extension");
+  }
+  return declared;
+}
+
+function createAdminUploadKey(fileName) {
+  const extension = objectKeyExtension(fileName);
+  const stem = fileName.slice(0, -extension.length).normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^A-Za-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .toLowerCase()
+    .slice(0, 80) || "video";
+  const randomBytes = crypto.getRandomValues(new Uint8Array(12));
+  const random = [...randomBytes].map(byte => byte.toString(16).padStart(2, "0")).join("");
+  return `${ADMIN_UPLOAD_PREFIX}${Date.now().toString(36)}-${random}-${stem}${extension}`;
+}
+
+async function signAdminUploadToken(payload, secret) {
+  const encodedPayload = base64UrlEncode(encoder.encode(JSON.stringify(payload)));
+  const signingInput = `u1.${encodedPayload}`;
+  const key = await hmacKey(secret, ["sign"]);
+  const signature = await crypto.subtle.sign("HMAC", key, encoder.encode(signingInput));
+  return `${signingInput}.${base64UrlEncode(new Uint8Array(signature))}`;
+}
+
+async function verifyAdminUploadToken(value, secret) {
+  const parts = String(value || "").split(".");
+  if (parts.length !== 3 || parts[0] !== "u1") return null;
+  try {
+    const signingInput = `${parts[0]}.${parts[1]}`;
+    const key = await hmacKey(secret, ["verify"]);
+    const valid = await crypto.subtle.verify("HMAC", key, base64UrlDecode(parts[2]), encoder.encode(signingInput));
+    if (!valid) return null;
+    const payload = JSON.parse(decoder.decode(base64UrlDecode(parts[1])));
+    const now = Math.floor(Date.now() / 1000);
+    if (payload?.v !== 1 || payload?.aud !== "admin-r2-upload" || !UUID_RE.test(String(payload.sub || ""))) return null;
+    if (!ADMIN_UPLOAD_ID_RE.test(String(payload.uid || ""))) return null;
+    const objectKey = normalizePrivateObjectKey(payload.key);
+    if (!objectKey.startsWith(ADMIN_UPLOAD_PREFIX) || !isVideoObjectKey(objectKey)) return null;
+    if (!Number.isSafeInteger(payload.size) || payload.size < 1 || payload.size > ADMIN_UPLOAD_MAX_BYTES) return null;
+    if (payload.partSize !== ADMIN_UPLOAD_PART_BYTES) return null;
+    if (!Number.isInteger(payload.partCount) || payload.partCount !== Math.ceil(payload.size / payload.partSize)
+      || payload.partCount < 1 || payload.partCount > ADMIN_UPLOAD_MAX_PARTS) return null;
+    const contentType = videoContentTypeForKey(objectKey, payload.contentType, true);
+    if (!Number.isInteger(payload.iat) || !Number.isInteger(payload.exp)
+      || payload.iat > now + 60 || payload.exp <= now
+      || payload.exp - payload.iat > ADMIN_UPLOAD_TOKEN_TTL_SECONDS + 60) return null;
+    return { ...payload, key: objectKey, contentType };
+  } catch {
+    return null;
+  }
+}
+
+async function requireAdminUploadState(request, env, adminId, uploadId, bodyToken = "") {
+  const headerToken = String(request.headers.get("X-Video-Upload-Token") || "").trim();
+  const fallbackToken = String(bodyToken || "").trim();
+  if (headerToken && fallbackToken && headerToken !== fallbackToken) {
+    throw new HttpError(400, "Conflicting upload authorization");
+  }
+  const uploadToken = headerToken || fallbackToken;
+  if (!uploadToken || uploadToken.length > ADMIN_UPLOAD_TOKEN_MAX_LENGTH) {
+    throw new HttpError(401, "Upload authorization is required");
+  }
+  const state = await verifyAdminUploadToken(uploadToken, env.VIDEO_CLASS_SIGNING_KEY);
+  if (!state || state.sub !== adminId || state.uid !== uploadId) {
+    throw new HttpError(401, "Upload authorization is invalid or expired");
+  }
+  return state;
+}
+
+function isSafePartEtag(value) {
+  const etag = String(value || "");
+  return etag.length >= 1 && etag.length <= 256 && /^[\x21-\x7e]+$/.test(etag);
+}
+
+function normalizeCompletedUploadParts(value, expectedCount) {
+  if (!Array.isArray(value) || value.length !== expectedCount || expectedCount > ADMIN_UPLOAD_MAX_PARTS) {
+    throw new HttpError(400, `Exactly ${expectedCount} uploaded parts are required`);
+  }
+  const parts = value.map(item => {
+    const partNumber = Number(item?.partNumber ?? item?.part_number);
+    const etag = String(item?.etag || "");
+    if (!Number.isInteger(partNumber) || partNumber < 1 || partNumber > expectedCount || !isSafePartEtag(etag)) {
+      throw new HttpError(400, "Uploaded part metadata is invalid");
+    }
+    return { partNumber, etag };
+  }).sort((left, right) => left.partNumber - right.partNumber);
+  if (parts.some((part, index) => part.partNumber !== index + 1)) {
+    throw new HttpError(400, "Uploaded parts must be unique and complete");
+  }
+  return parts;
+}
+
+function normalizePrivateObjectKey(value) {
+  if (typeof value !== "string") throw new HttpError(400, "R2 object key is required");
+  const key = value.normalize("NFC");
+  if (!key || key.length > 900 || key !== key.trim() || key.startsWith("/") || key.endsWith("/")
+    || /[\u0000-\u001f\u007f]/.test(key)
+    || key.split("/").some(segment => segment === "." || segment === "..")) {
+    throw new HttpError(400, "Invalid R2 object key");
+  }
+  return key;
+}
+
+function normalizeBoundedText(value, label, minimum, maximum, trim) {
+  if (typeof value !== "string") throw new HttpError(400, `${label} must be text`);
+  const text = value.normalize("NFKC");
+  const normalized = trim ? text.trim() : text;
+  if (normalized.length < minimum || normalized.length > maximum) {
+    throw new HttpError(400, `${label} must be ${minimum} to ${maximum} characters`);
+  }
+  return normalized;
+}
+
+function normalizeBoundedInteger(value, label, minimum, maximum) {
+  const number = Number(value);
+  if (!Number.isInteger(number) || number < minimum || number > maximum) {
+    throw new HttpError(400, `${label} is invalid`);
+  }
+  return number;
+}
+
+function normalizePublishTags(value) {
+  if (value == null) return [];
+  if (!Array.isArray(value) || value.length > 30) throw new HttpError(400, "Tags must contain at most 30 entries");
+  return value.map(item => {
+    if (typeof item === "string") return normalizeBoundedText(item, "Tag label", 1, 80, true);
+    if (!item || typeof item !== "object" || Array.isArray(item)) throw new HttpError(400, "Each tag must be text or an object");
+    const label = normalizeBoundedText(item.label, "Tag label", 1, 80, true);
+    const slug = item.slug == null || String(item.slug).trim() === "" ? "" : normalizeLessonSlug(item.slug);
+    if (slug.length > 80) throw new HttpError(400, "Tag slug is too long");
+    return slug ? { slug, label } : { label };
+  });
+}
+
+function normalizePublishRenditionRequests(value) {
+  if (value == null) return [];
+  if (!Array.isArray(value) || value.length > 3) throw new HttpError(400, "Up to three alternate renditions are allowed");
+  const seenQualities = new Set();
+  return value.map(item => {
+    if (!item || typeof item !== "object" || Array.isArray(item)) throw new HttpError(400, "Each rendition must be an object");
+    const objectKey = normalizePrivateObjectKey(item.objectKey ?? item.object_key);
+    const qualityCode = String(item.qualityCode ?? item.quality_code ?? "").trim().toLowerCase();
+    if (!["480p", "720p", "1080p"].includes(qualityCode) || seenQualities.has(qualityCode)) {
+      throw new HttpError(400, "Rendition qualities must be unique 480p, 720p, or 1080p values");
+    }
+    seenQualities.add(qualityCode);
+    const defaultHeight = Number.parseInt(qualityCode, 10);
+    const heightPixels = normalizeBoundedInteger(item.heightPixels ?? item.height_pixels ?? defaultHeight, "Rendition height", 1, 16384);
+    const displayLabel = normalizeBoundedText(
+      item.displayLabel ?? item.display_label ?? qualityCode,
+      "Rendition label",
+      1,
+      40,
+      true
+    );
+    const sortOrder = normalizeBoundedInteger(item.sortOrder ?? item.sort_order ?? defaultHeight, "Rendition sort order", -1000000, 1000000);
+    return { objectKey, qualityCode, heightPixels, displayLabel, sortOrder };
+  });
+}
+
+function normalizePublishThumbnailRequest(value) {
+  if (value == null || value === "") return null;
+  const objectKey = typeof value === "string"
+    ? normalizePrivateObjectKey(value)
+    : normalizePrivateObjectKey(value?.objectKey ?? value?.object_key);
+  return { objectKey };
+}
+
+async function headPrivateR2Object(bucket, key) {
+  let object;
+  try {
+    object = await bucket.head(key);
+  } catch {
+    throw new HttpError(503, "Private R2 object metadata is temporarily unavailable");
+  }
+  if (!object) throw new HttpError(404, "Selected R2 object was not found");
+  const size = Number(object.size);
+  if (!Number.isSafeInteger(size) || size < 1 || size > 10 * 1024 * 1024 * 1024 * 1024) {
+    throw new HttpError(400, "Selected R2 object size is invalid");
+  }
+  return { object, size, customMetadata: normalizeR2CustomMetadata(object.customMetadata) };
+}
+
+async function headVideoObject(bucket, key) {
+  const metadata = await headPrivateR2Object(bucket, key);
+  return {
+    ...metadata,
+    contentType: videoContentTypeForKey(key, metadata.object.httpMetadata?.contentType, true)
+  };
+}
+
+async function headImageObject(bucket, key) {
+  const metadata = await headPrivateR2Object(bucket, key);
+  const extension = objectKeyExtension(key);
+  const expected = IMAGE_UPLOAD_TYPES[extension];
+  if (!expected) throw new HttpError(415, "Thumbnail must be JPEG, PNG, WebP, or AVIF");
+  const declared = String(metadata.object.httpMetadata?.contentType || "").split(";", 1)[0].trim().toLowerCase();
+  if (declared && declared !== "application/octet-stream" && declared !== expected) {
+    throw new HttpError(415, "Thumbnail content type does not match its file extension");
+  }
+  return { ...metadata, contentType: declared && declared !== "application/octet-stream" ? declared : expected };
+}
+
+function normalizeLessonSlug(value) {
+  const slug = String(value || "").normalize("NFKC").trim().toLowerCase();
+  if (!SLUG_RE.test(slug)) throw new HttpError(400, "Lesson slug is invalid");
+  return slug;
+}
+
+async function deriveLessonSlug(title, objectKey) {
+  const base = String(title).normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^A-Za-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .toLowerCase()
+    .slice(0, 58) || "lesson";
+  const digest = await crypto.subtle.digest("SHA-256", encoder.encode(objectKey));
+  const suffix = [...new Uint8Array(digest)].slice(0, 8)
+    .map(byte => byte.toString(16).padStart(2, "0")).join("");
+  return `${base}-${suffix}`;
+}
+
 function mapAdminLesson(row) {
   const value = row && typeof row === "object" ? row : {};
   const courseCode = String(value.course_code || value.courseCode || "");
@@ -1444,6 +2173,7 @@ function mapAdminLesson(row) {
       : []);
   const renditions = renditionRows.map(mapRenditionMetadata).filter(rendition => rendition.qualityCode);
   const isPrivate = isPrivateLesson(value);
+  const totalViewCount = finiteNonNegative(value.total_view_count ?? value.totalViewCount ?? value.view_count ?? value.viewCount, 0);
   return {
     id: UUID_RE.test(String(value.lesson_id || value.id || "")) ? String(value.lesson_id || value.id) : null,
     slug: String(value.slug || ""),
@@ -1465,6 +2195,8 @@ function mapAdminLesson(row) {
     tags,
     tagLabels: tags.map(tag => tag.label),
     renditions,
+    totalViewCount,
+    viewCount: totalViewCount,
     createdAt: value.created_at || value.createdAt || null,
     updatedAt: value.updated_at || value.updatedAt || null
   };
@@ -1473,6 +2205,93 @@ function mapAdminLesson(row) {
 function isPrivateLesson(row) {
   const value = row && typeof row === "object" ? row : {};
   return value.is_private === true || value.isPrivate === true || value.private === true;
+}
+
+function mapStudentAnalytics(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const rawSummary = value.summary && typeof value.summary === "object" ? value.summary : {};
+  const totalWatchedSeconds = finiteNonNegative(
+    rawSummary.total_watched_seconds ?? rawSummary.totalWatchedSeconds ?? value.total_watched_seconds,
+    0
+  );
+  const watchedVideoCount = finiteNonNegative(
+    rawSummary.watched_video_count ?? rawSummary.total_lessons_watched ?? rawSummary.totalLessonsWatched ?? value.watched_video_count,
+    0
+  );
+  const dailyRows = Array.isArray(value.daily_counts || value.dailyCounts || value.daily)
+    ? (value.daily_counts || value.dailyCounts || value.daily)
+    : [];
+  const unfinishedRows = Array.isArray(value.unfinished) ? value.unfinished : [];
+  const historyRows = Array.isArray(value.history) ? value.history : [];
+  return {
+    generatedAt: safeAnalyticsTimestamp(value.generated_at || value.generatedAt),
+    timezone: String(value.timezone || "Asia/Hong_Kong").slice(0, 80),
+    summary: {
+      totalWatchedSeconds,
+      totalLessonsWatched: watchedVideoCount,
+      watchedVideoCount,
+      completedVideoCount: finiteNonNegative(rawSummary.completed_video_count ?? rawSummary.completedVideoCount, 0),
+      unfinishedVideoCount: finiteNonNegative(rawSummary.unfinished_video_count ?? rawSummary.unfinishedVideoCount, 0),
+      totalViewCount: finiteNonNegative(rawSummary.total_view_count ?? rawSummary.totalViewCount, 0),
+      totalWatchedMinutes: finiteNonNegative(rawSummary.total_watched_minutes ?? rawSummary.totalWatchedMinutes, totalWatchedSeconds / 60),
+      firstActivityAt: safeAnalyticsTimestamp(rawSummary.first_activity_at ?? rawSummary.firstActivityAt),
+      lastActivityAt: safeAnalyticsTimestamp(rawSummary.last_activity_at ?? rawSummary.lastActivityAt)
+    },
+    daily: dailyRows.slice(0, 1000).map(mapAnalyticsDailyRow).filter(item => item.date),
+    unfinished: unfinishedRows.slice(0, 2000).map(item => mapAnalyticsLesson(item, false)).filter(item => item.id),
+    history: historyRows.slice(0, 5000).map(item => mapAnalyticsLesson(item, null)).filter(item => item.id)
+  };
+}
+
+function mapAnalyticsDailyRow(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const date = String(value.date || value.activity_date || value.watch_date || "");
+  return {
+    date: /^\d{4}-\d{2}-\d{2}$/.test(date) ? date : "",
+    videosWatched: finiteNonNegative(value.videos_watched ?? value.videosWatched ?? value.lesson_count, 0),
+    viewCount: finiteNonNegative(value.view_count ?? value.viewCount, 0),
+    watchedSeconds: finiteNonNegative(value.watched_seconds ?? value.watchedSeconds, 0),
+    watchedMinutes: finiteNonNegative(value.watched_minutes ?? value.watchedMinutes, 0)
+  };
+}
+
+function mapAnalyticsLesson(row, completedDefault) {
+  const value = row && typeof row === "object" ? row : {};
+  const id = String(value.lesson_id || value.lessonId || value.id || "");
+  const completed = completedDefault == null
+    ? value.completed === true || Boolean(value.completed_at || value.completedAt)
+    : completedDefault;
+  const progressPercent = Math.min(100, finiteNonNegative(value.progress_percent ?? value.progressPercent, completed ? 100 : 0));
+  const lastWatchedAt = safeAnalyticsTimestamp(
+    value.last_viewed_at ?? value.lastViewedAt ?? value.last_watched_at ?? value.lastWatchedAt ?? value.updated_at
+  );
+  return {
+    id: UUID_RE.test(id) ? id : "",
+    lessonId: UUID_RE.test(id) ? id : "",
+    slug: SLUG_RE.test(String(value.slug || "")) ? String(value.slug) : "",
+    title: String(value.title || "").slice(0, 160),
+    courseCode: String(value.course_code || value.courseCode || "").slice(0, 64),
+    courseTitle: String(value.course_title || value.courseTitle || "").slice(0, 160),
+    courseLabel: String(value.course_label || value.courseLabel || "").slice(0, 120),
+    durationSeconds: finiteNonNegative(value.duration_seconds ?? value.durationSeconds, 0),
+    positionSeconds: finiteNonNegative(value.position_seconds ?? value.positionSeconds, 0),
+    watchedSeconds: finiteNonNegative(value.watched_seconds ?? value.watchedSeconds, 0),
+    watchedMinutes: finiteNonNegative(value.watched_minutes ?? value.watchedMinutes, 0),
+    progressPercent,
+    completed,
+    completedAt: safeAnalyticsTimestamp(value.completed_at ?? value.completedAt),
+    viewCount: finiteNonNegative(value.view_count ?? value.viewCount, 0),
+    isPrivate: isPrivateLesson(value),
+    firstWatchedAt: safeAnalyticsTimestamp(value.first_viewed_at ?? value.firstViewedAt),
+    lastWatchedAt,
+    updatedAt: safeAnalyticsTimestamp(value.updated_at ?? value.updatedAt)
+  };
+}
+
+function safeAnalyticsTimestamp(value) {
+  if (value == null || value === "") return null;
+  const timestamp = Date.parse(String(value));
+  return Number.isFinite(timestamp) ? new Date(timestamp).toISOString() : null;
 }
 
 function mapLesson(row) {
@@ -1585,7 +2404,9 @@ function mapRenditionMetadata(row) {
     qualityCode: QUALITY_CODE_RE.test(qualityCode) ? qualityCode : "",
     label: String(value.display_label || value.label || qualityCode).slice(0, 40),
     height: nullablePositiveInteger(value.height_pixels ?? value.height),
-    isDefault: value.is_default === true || value.isDefault === true
+    byteLength: nullablePositiveInteger(value.byte_length ?? value.byteLength),
+    isDefault: value.is_default === true || value.isDefault === true,
+    enabled: value.enabled !== false
   };
 }
 

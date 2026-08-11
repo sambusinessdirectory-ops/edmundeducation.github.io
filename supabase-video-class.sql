@@ -525,6 +525,8 @@ create table if not exists public.video_class_progress (
   lesson_id uuid not null references public.video_class_lessons(id) on delete cascade,
   position_seconds numeric(10,2) not null default 0 check (position_seconds >= 0),
   duration_seconds numeric(10,2) check (duration_seconds is null or duration_seconds > 0),
+  total_watched_seconds numeric(14,2) not null default 0
+    check (total_watched_seconds >= 0),
   completed_at timestamptz,
   view_count bigint not null default 0,
   first_viewed_at timestamptz,
@@ -536,7 +538,16 @@ create table if not exists public.video_class_progress (
 alter table public.video_class_progress
   add column if not exists view_count bigint not null default 0,
   add column if not exists first_viewed_at timestamptz,
-  add column if not exists last_viewed_at timestamptz;
+  add column if not exists last_viewed_at timestamptz,
+  add column if not exists total_watched_seconds numeric(14,2) not null default 0;
+
+update public.video_class_progress
+set total_watched_seconds = 0
+where total_watched_seconds is null;
+
+alter table public.video_class_progress
+  alter column total_watched_seconds set default 0,
+  alter column total_watched_seconds set not null;
 
 do $$
 begin
@@ -549,6 +560,17 @@ begin
     alter table public.video_class_progress
       add constraint video_class_progress_view_count_check check (view_count >= 0);
   end if;
+
+  if not exists (
+    select 1
+    from pg_catalog.pg_constraint constraint_record
+    where constraint_record.conrelid = 'public.video_class_progress'::regclass
+      and constraint_record.conname = 'video_class_progress_total_watched_seconds_check'
+  ) then
+    alter table public.video_class_progress
+      add constraint video_class_progress_total_watched_seconds_check
+      check (total_watched_seconds >= 0);
+  end if;
 end;
 $$;
 
@@ -558,6 +580,73 @@ create index if not exists video_class_progress_lesson_views_idx
   on public.video_class_progress (lesson_id, last_viewed_at desc, student_id)
   where view_count > 0;
 
+-- Daily aggregates preserve chart history without retaining a high-volume raw
+-- heartbeat/event log. Lesson-level watch history remains in video_class_progress.
+create table if not exists public.video_class_daily_progress (
+  student_id uuid not null references public.flashcard_students(id) on delete cascade,
+  lesson_id uuid not null references public.video_class_lessons(id) on delete cascade,
+  activity_date date not null,
+  watched_seconds numeric(14,2) not null default 0 check (watched_seconds >= 0),
+  view_count bigint not null default 0 check (view_count >= 0),
+  first_activity_at timestamptz not null default now(),
+  last_activity_at timestamptz not null default now(),
+  primary key (student_id, lesson_id, activity_date),
+  check (last_activity_at >= first_activity_at)
+);
+
+create index if not exists video_class_daily_progress_student_date_idx
+  on public.video_class_daily_progress (student_id, activity_date desc, lesson_id);
+create index if not exists video_class_daily_progress_lesson_date_idx
+  on public.video_class_daily_progress (lesson_id, activity_date desc, student_id);
+
+-- Seed the new aggregates once from the best historical information available.
+-- Existing progress stores one row per lesson, so the seed is attributed to
+-- that row's latest activity date; future heartbeats retain exact daily totals.
+do $$
+begin
+  insert into public.video_class_rollouts (rollout_key)
+  values ('daily-analytics-progress-backfill-v1')
+  on conflict (rollout_key) do nothing;
+
+  if found then
+    update public.video_class_progress progress
+    set total_watched_seconds = greatest(
+      progress.total_watched_seconds,
+      least(
+        progress.position_seconds,
+        coalesce(progress.duration_seconds, progress.position_seconds)
+      )
+    )
+    where progress.position_seconds > 0;
+
+    insert into public.video_class_daily_progress (
+      student_id, lesson_id, activity_date, watched_seconds, view_count,
+      first_activity_at, last_activity_at
+    )
+    select
+      progress.student_id,
+      progress.lesson_id,
+      (
+        coalesce(
+          progress.last_viewed_at,
+          progress.updated_at,
+          progress.first_viewed_at,
+          now()
+        ) at time zone 'Asia/Hong_Kong'
+      )::date,
+      progress.total_watched_seconds,
+      progress.view_count,
+      coalesce(progress.first_viewed_at, progress.updated_at, now()),
+      coalesce(progress.last_viewed_at, progress.updated_at, now())
+    from public.video_class_progress progress
+    where progress.position_seconds > 0
+       or progress.view_count > 0
+       or progress.total_watched_seconds > 0
+    on conflict (student_id, lesson_id, activity_date) do nothing;
+  end if;
+end;
+$$;
+
 create table if not exists public.video_class_admin_audit_events (
   id bigint generated always as identity primary key,
   admin_id uuid references public.video_class_admin_accounts(id) on delete set null,
@@ -565,7 +654,7 @@ create table if not exists public.video_class_admin_audit_events (
   action text not null check (action in (
     'issue_key', 'rotate_key', 'clear_key', 'enable_access', 'disable_access',
     'enable_course', 'disable_course', 'enable_watermark', 'disable_watermark',
-    'private_lesson', 'unprivate_lesson'
+    'private_lesson', 'unprivate_lesson', 'publish_lesson'
   )),
   detail jsonb not null default '{}'::jsonb check (jsonb_typeof(detail) = 'object'),
   created_at timestamptz not null default now()
@@ -590,7 +679,7 @@ begin
     check (action in (
       'issue_key', 'rotate_key', 'clear_key', 'enable_access', 'disable_access',
       'enable_course', 'disable_course', 'enable_watermark', 'disable_watermark',
-      'private_lesson', 'unprivate_lesson'
+      'private_lesson', 'unprivate_lesson', 'publish_lesson'
     ));
 end;
 $$;
@@ -626,6 +715,7 @@ alter table public.video_class_bookmarks enable row level security;
 alter table public.video_class_notes enable row level security;
 alter table public.video_class_playback_sessions enable row level security;
 alter table public.video_class_progress enable row level security;
+alter table public.video_class_daily_progress enable row level security;
 alter table public.video_class_admin_audit_events enable row level security;
 
 revoke all on table public.video_class_admin_accounts from public, anon, authenticated;
@@ -652,6 +742,7 @@ revoke all on table public.video_class_bookmarks from public, anon, authenticate
 revoke all on table public.video_class_notes from public, anon, authenticated;
 revoke all on table public.video_class_playback_sessions from public, anon, authenticated;
 revoke all on table public.video_class_progress from public, anon, authenticated;
+revoke all on table public.video_class_daily_progress from public, anon, authenticated;
 revoke all on table public.video_class_admin_audit_events from public, anon, authenticated;
 
 create or replace function public.video_class_touch_updated_at()
@@ -1854,6 +1945,11 @@ begin
         'sort_order', lesson.sort_order,
         'published', lesson.published,
         'is_private', lesson.is_private,
+        'total_view_count', coalesce((
+          select sum(progress.view_count)::bigint
+          from public.video_class_progress progress
+          where progress.lesson_id = lesson.id
+        ), 0::bigint),
         'has_thumbnail', exists (
           select 1
           from public.video_class_lesson_thumbnails thumbnail
@@ -1974,6 +2070,718 @@ begin
     'is_private', v_lesson.is_private,
     'updated_at', v_lesson.updated_at
   );
+end;
+$$;
+
+create or replace function public._video_class_valid_object_key(p_object_key text)
+returns boolean
+language sql
+immutable
+set search_path = ''
+as $$
+  select p_object_key is not null
+    and length(p_object_key) between 1 and 900
+    and p_object_key = btrim(p_object_key)
+    and left(p_object_key, 1) <> '/'
+    and right(p_object_key, 1) <> '/'
+    and p_object_key !~ '[[:cntrl:]]'
+    and p_object_key !~ '(^|/)\.{1,2}(/|$)';
+$$;
+
+revoke all on function public._video_class_valid_object_key(text)
+  from public, anon, authenticated;
+
+-- The Worker first inventories and HEAD-validates the private R2 object. This
+-- transaction then publishes only validated metadata and never returns a key.
+-- Repeating the same request for an already-created lesson is safe and returns
+-- the same public metadata rather than creating a duplicate lesson.
+create or replace function public.video_class_admin_publish_r2_object(
+  p_service_secret text,
+  p_admin_token uuid,
+  p_object_key text,
+  p_slug text,
+  p_title text,
+  p_description text,
+  p_course_code text,
+  p_course_label text,
+  p_duration_seconds integer,
+  p_sort_order integer,
+  p_content_type text,
+  p_byte_length bigint,
+  p_tags jsonb default '[]'::jsonb,
+  p_renditions jsonb default '[]'::jsonb,
+  p_thumbnail jsonb default null
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_admin_id uuid;
+  v_lesson public.video_class_lessons%rowtype;
+  v_existing_lesson public.video_class_lessons%rowtype;
+  v_result jsonb;
+  v_object_key text;
+  v_title text := btrim(coalesce(p_title, ''));
+  v_description text := coalesce(p_description, '');
+  v_course_label text := btrim(coalesce(p_course_label, ''));
+  v_content_type text := lower(btrim(coalesce(p_content_type, '')));
+  v_tag jsonb;
+  v_tag_label text;
+  v_tag_slug text;
+  v_rendition jsonb;
+  v_quality_code text;
+  v_display_label text;
+  v_rendition_key text;
+  v_rendition_content_type text;
+  v_height_pixels integer;
+  v_rendition_byte_length bigint;
+  v_rendition_sort_order integer;
+  v_thumbnail_key text;
+  v_thumbnail_content_type text;
+  v_thumbnail_byte_length bigint;
+  v_requested_key_count integer;
+  v_distinct_key_count integer;
+  v_created boolean := false;
+begin
+  if not public._video_class_worker_ok(p_service_secret) then
+    raise exception 'Worker authorization failed';
+  end if;
+
+  v_admin_id := public._video_class_admin_id(p_admin_token);
+  if v_admin_id is null then
+    raise exception 'Invalid or expired admin session';
+  end if;
+
+  if not public._video_class_valid_object_key(p_object_key)
+    or p_slug is null
+    or p_slug !~ '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+    or length(p_slug) > 160
+    or length(v_title) not between 1 and 160
+    or length(v_description) > 2000
+    or p_course_code is null
+    or p_course_code !~ '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+    or length(p_course_code) > 64
+    or length(v_course_label) not between 1 and 120
+    or p_duration_seconds is null
+    or p_duration_seconds not between 1 and 86400
+    or p_sort_order is null
+    or p_sort_order not between -1000000 and 1000000
+    or v_content_type !~ '^video/[a-z0-9][a-z0-9.+-]*$'
+    or p_byte_length is null
+    or p_byte_length <= 0
+    or p_byte_length > 10995116277760
+  then
+    raise exception 'Invalid lesson metadata';
+  end if;
+
+  if not exists (
+    select 1
+    from public.video_class_courses course
+    where course.code = p_course_code
+  ) then
+    raise exception 'Course not found';
+  end if;
+
+  if p_tags is null then
+    p_tags := '[]'::jsonb;
+  end if;
+  if jsonb_typeof(p_tags) <> 'array' or jsonb_array_length(p_tags) > 30 then
+    raise exception 'Tags must be an array containing at most 30 entries';
+  end if;
+
+  for v_tag in select value from jsonb_array_elements(p_tags)
+  loop
+    if jsonb_typeof(v_tag) = 'string' then
+      v_tag_label := btrim(v_tag #>> '{}');
+      v_tag_slug := lower(regexp_replace(v_tag_label, '[^A-Za-z0-9]+', '-', 'g'));
+      v_tag_slug := regexp_replace(v_tag_slug, '(^-+|-+$)', '', 'g');
+    elsif jsonb_typeof(v_tag) = 'object' then
+      v_tag_label := btrim(coalesce(v_tag ->> 'label', ''));
+      v_tag_slug := lower(btrim(coalesce(v_tag ->> 'slug', '')));
+      if length(v_tag_slug) = 0 then
+        v_tag_slug := lower(regexp_replace(v_tag_label, '[^A-Za-z0-9]+', '-', 'g'));
+        v_tag_slug := regexp_replace(v_tag_slug, '(^-+|-+$)', '', 'g');
+      end if;
+    else
+      raise exception 'Each tag must be a label or an object';
+    end if;
+
+    if length(v_tag_slug) = 0 and length(v_tag_label) > 0 then
+      v_tag_slug := 'tag-' || substr(
+        encode(extensions.digest(lower(v_tag_label), 'sha256'), 'hex'),
+        1,
+        16
+      );
+    end if;
+
+    if length(v_tag_label) not between 1 and 80
+      or length(v_tag_slug) > 80
+      or v_tag_slug !~ '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+    then
+      raise exception 'Invalid tag metadata';
+    end if;
+  end loop;
+
+  if p_renditions is null then
+    p_renditions := '[]'::jsonb;
+  end if;
+  if jsonb_typeof(p_renditions) <> 'array'
+    or jsonb_array_length(p_renditions) > 3
+  then
+    raise exception 'Renditions must be an array containing at most 3 alternatives';
+  end if;
+
+  for v_rendition in select value from jsonb_array_elements(p_renditions)
+  loop
+    if jsonb_typeof(v_rendition) <> 'object' then
+      raise exception 'Each rendition must be an object';
+    end if;
+
+    v_quality_code := lower(btrim(coalesce(v_rendition ->> 'quality_code', '')));
+    v_display_label := btrim(coalesce(v_rendition ->> 'display_label', ''));
+    v_rendition_key := v_rendition ->> 'object_key';
+    v_rendition_content_type := lower(btrim(coalesce(
+      v_rendition ->> 'content_type',
+      'video/mp4'
+    )));
+
+    if v_quality_code not in ('480p', '720p', '1080p')
+      or length(v_display_label) not between 1 and 40
+      or not public._video_class_valid_object_key(v_rendition_key)
+      or v_rendition_content_type !~ '^video/[a-z0-9][a-z0-9.+-]*$'
+      or coalesce(v_rendition ->> 'height_pixels', '') !~ '^[0-9]{1,5}$'
+      or coalesce(v_rendition ->> 'byte_length', '') !~ '^[0-9]{1,14}$'
+      or coalesce(v_rendition ->> 'sort_order', '0') !~ '^-?[0-9]{1,7}$'
+    then
+      raise exception 'Invalid rendition metadata';
+    end if;
+
+    v_height_pixels := (v_rendition ->> 'height_pixels')::integer;
+    v_rendition_byte_length := (v_rendition ->> 'byte_length')::bigint;
+    v_rendition_sort_order := coalesce((v_rendition ->> 'sort_order')::integer, 0);
+
+    if v_height_pixels not between 1 and 16384
+      or v_rendition_byte_length <= 0
+      or v_rendition_byte_length > 10995116277760
+      or v_rendition_sort_order not between -1000000 and 1000000
+    then
+      raise exception 'Invalid rendition limits';
+    end if;
+  end loop;
+
+  if p_thumbnail is not null and jsonb_typeof(p_thumbnail) <> 'null' then
+    if jsonb_typeof(p_thumbnail) <> 'object' then
+      raise exception 'Thumbnail metadata must be an object';
+    end if;
+
+    v_thumbnail_key := p_thumbnail ->> 'object_key';
+    v_thumbnail_content_type := lower(btrim(coalesce(p_thumbnail ->> 'content_type', '')));
+    if not public._video_class_valid_object_key(v_thumbnail_key)
+      or v_thumbnail_content_type not in (
+        'image/jpeg', 'image/png', 'image/webp', 'image/avif'
+      )
+      or coalesce(p_thumbnail ->> 'byte_length', '') !~ '^[0-9]{1,14}$'
+    then
+      raise exception 'Invalid thumbnail metadata';
+    end if;
+    v_thumbnail_byte_length := (p_thumbnail ->> 'byte_length')::bigint;
+    if v_thumbnail_byte_length <= 0 or v_thumbnail_byte_length > 10995116277760 then
+      raise exception 'Invalid thumbnail size';
+    end if;
+  else
+    v_thumbnail_key := null;
+    v_thumbnail_content_type := null;
+    v_thumbnail_byte_length := null;
+  end if;
+
+  select count(*), count(distinct requested.object_key)
+  into v_requested_key_count, v_distinct_key_count
+  from (
+    select p_object_key as object_key
+    union all
+    select rendition ->> 'object_key'
+    from jsonb_array_elements(p_renditions) rendition
+    union all
+    select v_thumbnail_key
+    where v_thumbnail_key is not null
+  ) requested;
+
+  if v_requested_key_count <> v_distinct_key_count then
+    raise exception 'Each R2 object can be assigned only once in a publish request';
+  end if;
+
+  -- Serialize all publications that touch the same set of R2 object keys. The
+  -- deterministic order avoids deadlocks between concurrent admin requests.
+  for v_object_key in
+    select distinct requested.object_key
+    from (
+      select p_object_key as object_key
+      union all
+      select rendition ->> 'object_key'
+      from jsonb_array_elements(p_renditions) rendition
+      union all
+      select v_thumbnail_key
+      where v_thumbnail_key is not null
+    ) requested
+    order by requested.object_key
+  loop
+    perform pg_catalog.pg_advisory_xact_lock(
+      pg_catalog.hashtextextended(v_object_key, 5194)
+    );
+  end loop;
+
+  select lesson.*
+  into v_existing_lesson
+  from public.video_class_lessons lesson
+  where lesson.object_key = p_object_key
+  for update;
+
+  if found then
+    if v_existing_lesson.slug is distinct from p_slug
+      or v_existing_lesson.title is distinct from v_title
+      or v_existing_lesson.description is distinct from v_description
+      or v_existing_lesson.course_code is distinct from p_course_code
+      or v_existing_lesson.course_label is distinct from v_course_label
+      or v_existing_lesson.duration_seconds is distinct from p_duration_seconds
+      or v_existing_lesson.sort_order is distinct from p_sort_order
+    then
+      raise exception 'R2 object is already published with different lesson metadata';
+    end if;
+    v_lesson := v_existing_lesson;
+  else
+    if exists (
+      select 1
+      from public.video_class_lessons lesson
+      where lesson.slug = p_slug
+    ) then
+      raise exception 'Lesson slug is already in use';
+    end if;
+
+    if exists (
+      select 1
+      from (
+        select p_object_key as object_key
+        union all
+        select rendition ->> 'object_key'
+        from jsonb_array_elements(p_renditions) rendition
+        union all
+        select v_thumbnail_key
+        where v_thumbnail_key is not null
+      ) requested
+      where exists (
+        select 1 from public.video_class_lessons lesson
+        where lesson.object_key = requested.object_key
+      )
+         or exists (
+        select 1 from public.video_class_lesson_renditions rendition
+        where rendition.object_key = requested.object_key
+      )
+         or exists (
+        select 1 from public.video_class_lesson_thumbnails thumbnail
+        where thumbnail.object_key = requested.object_key
+      )
+    ) then
+      raise exception 'An R2 object is already assigned to video class content';
+    end if;
+
+    insert into public.video_class_lessons (
+      slug, title, description, course_code, course_label, object_key,
+      duration_seconds, sort_order, published, is_private, created_by
+    )
+    values (
+      p_slug, v_title, v_description, p_course_code, v_course_label, p_object_key,
+      p_duration_seconds, p_sort_order, true, false, v_admin_id
+    )
+    returning * into v_lesson;
+    v_created := true;
+  end if;
+
+  if exists (
+    select 1
+    from public.video_class_lesson_renditions rendition
+    where rendition.lesson_id = v_lesson.id
+      and rendition.quality_code = 'max'
+      and rendition.object_key is distinct from p_object_key
+  ) then
+    raise exception 'Existing maximum rendition uses a different R2 object';
+  end if;
+
+  update public.video_class_lesson_renditions rendition
+  set is_default = false,
+      updated_at = now()
+  where rendition.lesson_id = v_lesson.id
+    and rendition.quality_code <> 'max'
+    and rendition.is_default = true;
+
+  insert into public.video_class_lesson_renditions as rendition (
+    lesson_id, quality_code, display_label, object_key, content_type,
+    byte_length, sort_order, is_default, enabled, created_by
+  )
+  values (
+    v_lesson.id, 'max', '最高畫質', p_object_key, v_content_type,
+    p_byte_length, 1000, true, true, v_admin_id
+  )
+  on conflict (lesson_id, quality_code) do update
+  set display_label = excluded.display_label,
+      content_type = excluded.content_type,
+      byte_length = excluded.byte_length,
+      is_default = true,
+      enabled = true,
+      updated_at = now();
+
+  for v_rendition in select value from jsonb_array_elements(p_renditions)
+  loop
+    v_quality_code := lower(btrim(v_rendition ->> 'quality_code'));
+    v_display_label := btrim(v_rendition ->> 'display_label');
+    v_rendition_key := v_rendition ->> 'object_key';
+    v_rendition_content_type := lower(btrim(coalesce(
+      v_rendition ->> 'content_type',
+      'video/mp4'
+    )));
+    v_height_pixels := (v_rendition ->> 'height_pixels')::integer;
+    v_rendition_byte_length := (v_rendition ->> 'byte_length')::bigint;
+    v_rendition_sort_order := coalesce((v_rendition ->> 'sort_order')::integer, 0);
+
+    if exists (
+      select 1
+      from public.video_class_lesson_renditions rendition
+      where rendition.lesson_id = v_lesson.id
+        and rendition.quality_code = v_quality_code
+        and rendition.object_key is distinct from v_rendition_key
+    ) or exists (
+      select 1
+      from public.video_class_lessons lesson
+      where lesson.object_key = v_rendition_key
+        and lesson.id <> v_lesson.id
+    ) or exists (
+      select 1
+      from public.video_class_lesson_renditions rendition
+      where rendition.object_key = v_rendition_key
+        and (
+          rendition.lesson_id <> v_lesson.id
+          or rendition.quality_code <> v_quality_code
+        )
+    ) or exists (
+      select 1
+      from public.video_class_lesson_thumbnails thumbnail
+      where thumbnail.object_key = v_rendition_key
+    ) then
+      raise exception 'Rendition R2 object or quality is already assigned';
+    end if;
+
+    insert into public.video_class_lesson_renditions as rendition (
+      lesson_id, quality_code, display_label, height_pixels, object_key,
+      content_type, byte_length, sort_order, is_default, enabled, created_by
+    )
+    values (
+      v_lesson.id, v_quality_code, v_display_label, v_height_pixels,
+      v_rendition_key, v_rendition_content_type, v_rendition_byte_length,
+      v_rendition_sort_order, false, true, v_admin_id
+    )
+    on conflict (lesson_id, quality_code) do update
+    set display_label = excluded.display_label,
+        height_pixels = excluded.height_pixels,
+        content_type = excluded.content_type,
+        byte_length = excluded.byte_length,
+        sort_order = excluded.sort_order,
+        enabled = true,
+        updated_at = now();
+  end loop;
+
+  if v_thumbnail_key is not null then
+    if exists (
+      select 1
+      from public.video_class_lesson_thumbnails thumbnail
+      where thumbnail.lesson_id = v_lesson.id
+        and thumbnail.object_key is distinct from v_thumbnail_key
+    ) or exists (
+      select 1
+      from public.video_class_lessons lesson
+      where lesson.object_key = v_thumbnail_key
+    ) or exists (
+      select 1
+      from public.video_class_lesson_renditions rendition
+      where rendition.object_key = v_thumbnail_key
+    ) or exists (
+      select 1
+      from public.video_class_lesson_thumbnails thumbnail
+      where thumbnail.object_key = v_thumbnail_key
+        and thumbnail.lesson_id <> v_lesson.id
+    ) then
+      raise exception 'Thumbnail R2 object is already assigned';
+    end if;
+
+    insert into public.video_class_lesson_thumbnails as thumbnail (
+      lesson_id, object_key, content_type, byte_length, enabled, created_by
+    )
+    values (
+      v_lesson.id, v_thumbnail_key, v_thumbnail_content_type,
+      v_thumbnail_byte_length, true, v_admin_id
+    )
+    on conflict (lesson_id) do update
+    set content_type = excluded.content_type,
+        byte_length = excluded.byte_length,
+        enabled = true,
+        updated_at = now();
+  end if;
+
+  for v_tag in select value from jsonb_array_elements(p_tags)
+  loop
+    if jsonb_typeof(v_tag) = 'string' then
+      v_tag_label := btrim(v_tag #>> '{}');
+      v_tag_slug := lower(regexp_replace(v_tag_label, '[^A-Za-z0-9]+', '-', 'g'));
+      v_tag_slug := regexp_replace(v_tag_slug, '(^-+|-+$)', '', 'g');
+    else
+      v_tag_label := btrim(v_tag ->> 'label');
+      v_tag_slug := lower(btrim(coalesce(v_tag ->> 'slug', '')));
+      if length(v_tag_slug) = 0 then
+        v_tag_slug := lower(regexp_replace(v_tag_label, '[^A-Za-z0-9]+', '-', 'g'));
+        v_tag_slug := regexp_replace(v_tag_slug, '(^-+|-+$)', '', 'g');
+      end if;
+    end if;
+    if length(v_tag_slug) = 0 then
+      v_tag_slug := 'tag-' || substr(
+        encode(extensions.digest(lower(v_tag_label), 'sha256'), 'hex'),
+        1,
+        16
+      );
+    end if;
+
+    insert into public.video_class_tags as tag (
+      slug, label, published, created_by
+    )
+    values (v_tag_slug, v_tag_label, true, v_admin_id)
+    on conflict (slug) do update
+    set label = excluded.label,
+        published = true,
+        updated_at = case
+          when tag.label is distinct from excluded.label
+            or tag.published is distinct from true
+          then now()
+          else tag.updated_at
+        end;
+
+    insert into public.video_class_lesson_tags (
+      lesson_id, tag_id, created_by
+    )
+    select v_lesson.id, tag.id, v_admin_id
+    from public.video_class_tags tag
+    where tag.slug = v_tag_slug
+    on conflict (lesson_id, tag_id) do nothing;
+  end loop;
+
+  if v_created then
+    insert into public.video_class_admin_audit_events (
+      admin_id, action, detail
+    )
+    values (
+      v_admin_id,
+      'publish_lesson',
+      jsonb_build_object(
+        'lesson_id', v_lesson.id,
+        'lesson_slug', v_lesson.slug,
+        'lesson_title', v_lesson.title,
+        'course_code', v_lesson.course_code,
+        'source_object_sha256', encode(
+          extensions.digest(p_object_key, 'sha256'),
+          'hex'
+        ),
+        'source_content_type', v_content_type,
+        'source_byte_length', p_byte_length,
+        'tag_count', jsonb_array_length(p_tags),
+        'alternate_rendition_count', jsonb_array_length(p_renditions),
+        'has_thumbnail', v_thumbnail_key is not null
+      )
+    );
+  end if;
+
+  select jsonb_build_object(
+    'lesson_id', lesson.id,
+    'slug', lesson.slug,
+    'title', lesson.title,
+    'description', lesson.description,
+    'course_code', lesson.course_code,
+    'course_title', course.title,
+    'course_label', lesson.course_label,
+    'duration_seconds', lesson.duration_seconds,
+    'sort_order', lesson.sort_order,
+    'published', lesson.published,
+    'is_private', lesson.is_private,
+    'has_thumbnail', exists (
+      select 1
+      from public.video_class_lesson_thumbnails thumbnail
+      where thumbnail.lesson_id = lesson.id
+        and thumbnail.enabled = true
+    ),
+    'tags', coalesce((
+      select jsonb_agg(
+        jsonb_build_object('slug', tag.slug, 'label', tag.label)
+        order by tag.sort_order, tag.slug
+      )
+      from public.video_class_lesson_tags lesson_tag
+      join public.video_class_tags tag on tag.id = lesson_tag.tag_id
+      where lesson_tag.lesson_id = lesson.id
+    ), '[]'::jsonb),
+    'renditions', coalesce((
+      select jsonb_agg(
+        jsonb_build_object(
+          'quality_code', rendition.quality_code,
+          'display_label', rendition.display_label,
+          'height_pixels', rendition.height_pixels,
+          'byte_length', rendition.byte_length,
+          'is_default', rendition.is_default,
+          'enabled', rendition.enabled
+        )
+        order by rendition.sort_order, rendition.height_pixels nulls last,
+          rendition.quality_code
+      )
+      from public.video_class_lesson_renditions rendition
+      where rendition.lesson_id = lesson.id
+    ), '[]'::jsonb),
+    'total_view_count', coalesce((
+      select sum(progress.view_count)::bigint
+      from public.video_class_progress progress
+      where progress.lesson_id = lesson.id
+    ), 0::bigint),
+    'created_at', lesson.created_at,
+    'updated_at', lesson.updated_at
+  )
+  into v_result
+  from public.video_class_lessons lesson
+  join public.video_class_courses course on course.code = lesson.course_code
+  where lesson.id = v_lesson.id;
+
+  return v_result;
+exception
+  when unique_violation then
+    raise exception 'Lesson metadata conflicts with an existing R2 object, slug, or quality';
+end;
+$$;
+
+-- The Worker already exposes object keys in its admin-only R2 inventory. This
+-- bounded matcher lets that endpoint annotate which listed keys are published,
+-- without adding object keys to the normal lesson administration response.
+create or replace function public.video_class_admin_match_r2_objects(
+  p_service_secret text,
+  p_admin_token uuid,
+  p_object_keys text[]
+)
+returns jsonb
+language plpgsql
+stable
+security definer
+set search_path = ''
+as $$
+declare
+  v_result jsonb;
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or public._video_class_admin_id(p_admin_token) is null
+  then
+    raise exception 'Invalid or expired admin session';
+  end if;
+
+  if p_object_keys is null or cardinality(p_object_keys) = 0 then
+    return jsonb_build_object('matches', '[]'::jsonb);
+  end if;
+  if cardinality(p_object_keys) > 500
+    or exists (
+      select 1
+      from unnest(p_object_keys) requested(object_key)
+      where not public._video_class_valid_object_key(requested.object_key)
+    )
+  then
+    raise exception 'Invalid R2 inventory match request';
+  end if;
+
+  with assignments as (
+    select
+      lesson.object_key,
+      lesson.id as lesson_id,
+      lesson.slug,
+      lesson.title,
+      lesson.published,
+      lesson.is_private,
+      true as is_source,
+      null::text as rendition_quality_code,
+      false as is_thumbnail
+    from public.video_class_lessons lesson
+    where lesson.object_key = any(p_object_keys)
+    union all
+    select
+      rendition.object_key,
+      lesson.id,
+      lesson.slug,
+      lesson.title,
+      lesson.published,
+      lesson.is_private,
+      false,
+      rendition.quality_code,
+      false
+    from public.video_class_lesson_renditions rendition
+    join public.video_class_lessons lesson on lesson.id = rendition.lesson_id
+    where rendition.object_key = any(p_object_keys)
+    union all
+    select
+      thumbnail.object_key,
+      lesson.id,
+      lesson.slug,
+      lesson.title,
+      lesson.published,
+      lesson.is_private,
+      false,
+      null::text,
+      true
+    from public.video_class_lesson_thumbnails thumbnail
+    join public.video_class_lessons lesson on lesson.id = thumbnail.lesson_id
+    where thumbnail.object_key = any(p_object_keys)
+  ),
+  grouped as (
+    select
+      assignment.object_key,
+      assignment.lesson_id,
+      assignment.slug,
+      assignment.title,
+      assignment.published,
+      assignment.is_private,
+      bool_or(assignment.is_source) as is_source,
+      coalesce(
+        array_agg(assignment.rendition_quality_code order by assignment.rendition_quality_code)
+          filter (where assignment.rendition_quality_code is not null),
+        array[]::text[]
+      ) as rendition_quality_codes,
+      bool_or(assignment.is_thumbnail) as is_thumbnail
+    from assignments assignment
+    group by
+      assignment.object_key,
+      assignment.lesson_id,
+      assignment.slug,
+      assignment.title,
+      assignment.published,
+      assignment.is_private
+  )
+  select jsonb_build_object(
+    'matches', coalesce(jsonb_agg(
+      jsonb_build_object(
+        'object_key', grouped.object_key,
+        'lesson_id', grouped.lesson_id,
+        'lesson_slug', grouped.slug,
+        'lesson_title', grouped.title,
+        'published', grouped.published,
+        'is_private', grouped.is_private,
+        'is_source', grouped.is_source,
+        'rendition_quality_codes', grouped.rendition_quality_codes,
+        'is_thumbnail', grouped.is_thumbnail
+      )
+      order by grouped.object_key, grouped.lesson_id
+    ), '[]'::jsonb)
+  )
+  into v_result
+  from grouped;
+
+  return v_result;
 end;
 $$;
 
@@ -2693,6 +3501,244 @@ begin
   into v_library;
 
   return v_library;
+end;
+$$;
+
+create or replace function public.video_class_student_analytics(
+  p_service_secret text,
+  p_student_token uuid
+)
+returns jsonb
+language plpgsql
+stable
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid;
+  v_result jsonb;
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_student_token is null
+  then
+    return null;
+  end if;
+
+  v_student_id := public._video_class_student_id(p_student_token);
+  if v_student_id is null then
+    return null;
+  end if;
+
+  with entitled_lessons as materialized (
+    select
+      lesson.id,
+      lesson.slug,
+      lesson.title,
+      lesson.course_code,
+      course.title as course_title,
+      course.sort_order as course_sort_order,
+      lesson.course_label,
+      lesson.duration_seconds as catalog_duration_seconds,
+      lesson.sort_order,
+      lesson.is_private,
+      lesson.created_at
+    from public.video_class_lessons lesson
+    join public.video_class_courses course
+      on course.code = lesson.course_code
+     and course.published = true
+    join public.video_class_student_courses access
+      on access.student_id = v_student_id
+     and access.course_code = lesson.course_code
+     and access.enabled = true
+    where lesson.published = true
+  ),
+  history_rows as materialized (
+    select
+      lesson.id as lesson_id,
+      lesson.slug,
+      lesson.title,
+      lesson.course_code,
+      lesson.course_title,
+      lesson.course_sort_order,
+      lesson.course_label,
+      lesson.sort_order,
+      lesson.is_private,
+      coalesce(progress.duration_seconds, lesson.catalog_duration_seconds::numeric)
+        as duration_seconds,
+      progress.position_seconds,
+      progress.total_watched_seconds as watched_seconds,
+      progress.view_count,
+      progress.first_viewed_at,
+      coalesce(progress.last_viewed_at, progress.updated_at) as last_viewed_at,
+      progress.updated_at,
+      progress.completed_at,
+      (
+        progress.completed_at is not null
+        or (
+          coalesce(progress.duration_seconds, lesson.catalog_duration_seconds::numeric) > 0
+          and progress.position_seconds
+            / coalesce(progress.duration_seconds, lesson.catalog_duration_seconds::numeric) >= 0.92
+        )
+      ) as completed,
+      case
+        when coalesce(progress.duration_seconds, lesson.catalog_duration_seconds::numeric) > 0
+        then least(
+          100::numeric,
+          round(
+            progress.position_seconds
+              / coalesce(progress.duration_seconds, lesson.catalog_duration_seconds::numeric)
+              * 100,
+            1
+          )
+        )
+        else 0::numeric
+      end as progress_percent
+    from public.video_class_progress progress
+    join entitled_lessons lesson on lesson.id = progress.lesson_id
+    where progress.student_id = v_student_id
+      and (
+        progress.position_seconds > 0
+        or progress.total_watched_seconds > 0
+        or progress.view_count > 0
+        or progress.first_viewed_at is not null
+        or progress.last_viewed_at is not null
+      )
+  )
+  select jsonb_build_object(
+    'generated_at', now(),
+    'timezone', 'Asia/Hong_Kong',
+    'summary', jsonb_build_object(
+      'watched_video_count', (
+        select count(*)::integer from history_rows
+      ),
+      'completed_video_count', (
+        select count(*)::integer from history_rows history where history.completed
+      ),
+      'unfinished_video_count', (
+        select count(*)::integer
+        from history_rows history
+        where not history.completed and history.position_seconds > 0
+      ),
+      'total_view_count', coalesce((
+        select sum(history.view_count)::bigint from history_rows history
+      ), 0::bigint),
+      'total_watched_seconds', coalesce((
+        select round(sum(history.watched_seconds), 2) from history_rows history
+      ), 0::numeric),
+      'total_watched_minutes', coalesce((
+        select round(sum(history.watched_seconds) / 60, 2) from history_rows history
+      ), 0::numeric),
+      'first_activity_at', (
+        select min(history.first_viewed_at) from history_rows history
+      ),
+      'last_activity_at', (
+        select max(history.last_viewed_at) from history_rows history
+      )
+    ),
+    'daily_counts', coalesce((
+      select jsonb_agg(
+        jsonb_build_object(
+          'date', daily_state.activity_date,
+          'videos_watched', daily_state.videos_watched,
+          'view_count', daily_state.view_count,
+          'watched_seconds', daily_state.watched_seconds,
+          'watched_minutes', round(daily_state.watched_seconds / 60, 2)
+        )
+        order by daily_state.activity_date
+      )
+      from (
+        select
+          daily.activity_date,
+          count(distinct daily.lesson_id)::integer as videos_watched,
+          sum(daily.view_count)::bigint as view_count,
+          round(sum(daily.watched_seconds), 2) as watched_seconds
+        from public.video_class_daily_progress daily
+        join entitled_lessons lesson on lesson.id = daily.lesson_id
+        where daily.student_id = v_student_id
+          and (daily.watched_seconds > 0 or daily.view_count > 0)
+        group by daily.activity_date
+      ) daily_state
+    ), '[]'::jsonb),
+    'unfinished', coalesce((
+      select jsonb_agg(
+        jsonb_build_object(
+          'lesson_id', history.lesson_id,
+          'slug', history.slug,
+          'title', history.title,
+          'course_code', history.course_code,
+          'course_title', history.course_title,
+          'course_label', history.course_label,
+          'duration_seconds', history.duration_seconds,
+          'position_seconds', history.position_seconds,
+          'watched_seconds', history.watched_seconds,
+          'progress_percent', history.progress_percent,
+          'view_count', history.view_count,
+          'is_private', history.is_private,
+          'last_viewed_at', history.last_viewed_at
+        )
+        order by history.last_viewed_at desc nulls last,
+          history.course_sort_order, history.sort_order, history.lesson_id
+      )
+      from history_rows history
+      where not history.completed
+        and history.position_seconds > 0
+    ), '[]'::jsonb),
+    'history', coalesce((
+      select jsonb_agg(
+        jsonb_build_object(
+          'lesson_id', history.lesson_id,
+          'slug', history.slug,
+          'title', history.title,
+          'course_code', history.course_code,
+          'course_title', history.course_title,
+          'course_label', history.course_label,
+          'duration_seconds', history.duration_seconds,
+          'position_seconds', history.position_seconds,
+          'watched_seconds', history.watched_seconds,
+          'watched_minutes', round(history.watched_seconds / 60, 2),
+          'progress_percent', history.progress_percent,
+          'completed', history.completed,
+          'completed_at', history.completed_at,
+          'view_count', history.view_count,
+          'is_private', history.is_private,
+          'first_viewed_at', history.first_viewed_at,
+          'last_viewed_at', history.last_viewed_at,
+          'updated_at', history.updated_at
+        )
+        order by history.last_viewed_at desc nulls last,
+          history.course_sort_order, history.sort_order, history.lesson_id
+      )
+      from history_rows history
+    ), '[]'::jsonb),
+    'csv_rows', coalesce((
+      select jsonb_agg(
+        jsonb_build_object(
+          'last_viewed_date', (
+            history.last_viewed_at at time zone 'Asia/Hong_Kong'
+          )::date,
+          'course_code', history.course_code,
+          'course_title', history.course_title,
+          'video_title', history.title,
+          'lesson_slug', history.slug,
+          'progress_percent', history.progress_percent,
+          'position_seconds', history.position_seconds,
+          'duration_seconds', history.duration_seconds,
+          'watched_seconds', history.watched_seconds,
+          'watched_minutes', round(history.watched_seconds / 60, 2),
+          'view_count', history.view_count,
+          'status', case when history.completed then 'completed' else 'unfinished' end,
+          'first_viewed_at', history.first_viewed_at,
+          'last_viewed_at', history.last_viewed_at
+        )
+        order by history.last_viewed_at desc nulls last,
+          history.course_sort_order, history.sort_order, history.lesson_id
+      )
+      from history_rows history
+    ), '[]'::jsonb)
+  )
+  into v_result;
+
+  return v_result;
 end;
 $$;
 
@@ -3543,6 +4589,14 @@ declare
   v_lesson_id uuid;
   v_completed_at timestamptz;
   v_view_counted_at timestamptz;
+  v_previous_position_seconds numeric;
+  v_previous_seen_at timestamptz;
+  v_now timestamptz;
+  v_elapsed_seconds numeric;
+  v_watched_increment numeric(14,2) := 0;
+  v_new_view boolean := false;
+  v_has_activity boolean := false;
+  v_activity_date date;
   v_should_count boolean;
 begin
   if not public._video_class_worker_ok(p_service_secret)
@@ -3559,8 +4613,18 @@ begin
     return false;
   end if;
 
-  select playback.student_id, playback.lesson_id, playback.view_counted_at
-  into v_student_id, v_lesson_id, v_view_counted_at
+  select
+    playback.student_id,
+    playback.lesson_id,
+    playback.view_counted_at,
+    playback.last_position_seconds,
+    playback.last_seen_at
+  into
+    v_student_id,
+    v_lesson_id,
+    v_view_counted_at,
+    v_previous_position_seconds,
+    v_previous_seen_at
   from public.video_class_playback_sessions playback
   join public.video_class_student_sessions session
     on session.token_hash = playback.student_session_hash
@@ -3591,43 +4655,98 @@ begin
     return false;
   end if;
 
+  v_now := clock_timestamp();
+  v_elapsed_seconds := greatest(
+    0::numeric,
+    extract(epoch from (v_now - coalesce(v_previous_seen_at, v_now)))::numeric
+  );
+
+  -- Position deltas are bounded by elapsed wall time and the 2x speed limit.
+  -- This records genuine viewing while preventing a forward seek from being
+  -- counted as minutes watched. A small tolerance absorbs timer/network drift.
+  v_watched_increment := round(greatest(
+    0::numeric,
+    least(
+      p_position_seconds - coalesce(v_previous_position_seconds, p_position_seconds),
+      v_elapsed_seconds * 2.25 + 2,
+      45::numeric
+    )
+  ), 2);
+
   v_completed_at := case
-    when p_duration_seconds >= 10 and p_position_seconds / p_duration_seconds >= 0.92 then now()
+    when p_duration_seconds >= 10 and p_position_seconds / p_duration_seconds >= 0.92 then v_now
     else null
   end;
 
   v_should_count := p_position_seconds >= 3
     or p_position_seconds / p_duration_seconds >= 0.10;
+  v_new_view := v_should_count and v_view_counted_at is null;
+  v_has_activity := v_watched_increment > 0 or v_new_view;
+  v_activity_date := (v_now at time zone 'Asia/Hong_Kong')::date;
 
-  -- The progress row is created before its persistent view counter changes.
   -- The locked playback row and view_counted_at marker make retries and racing
-  -- heartbeats contribute at most one view for this playback session.
+  -- heartbeats contribute at most one view for this playback session, while
+  -- the progress and daily aggregates update atomically in this transaction.
   insert into public.video_class_progress (
-    student_id, lesson_id, position_seconds, duration_seconds, completed_at, updated_at
+    student_id, lesson_id, position_seconds, duration_seconds,
+    total_watched_seconds, completed_at, view_count,
+    first_viewed_at, last_viewed_at, updated_at
   )
   values (
-    v_student_id, v_lesson_id, p_position_seconds, p_duration_seconds, v_completed_at, now()
+    v_student_id,
+    v_lesson_id,
+    p_position_seconds,
+    p_duration_seconds,
+    v_watched_increment,
+    v_completed_at,
+    case when v_new_view then 1 else 0 end,
+    case when v_has_activity then v_now else null end,
+    case when v_has_activity then v_now else null end,
+    v_now
   )
   on conflict on constraint video_class_progress_pkey do update
   set position_seconds = excluded.position_seconds,
       duration_seconds = excluded.duration_seconds,
+      total_watched_seconds = public.video_class_progress.total_watched_seconds
+        + excluded.total_watched_seconds,
       completed_at = coalesce(public.video_class_progress.completed_at, excluded.completed_at),
-      updated_at = now();
+      view_count = public.video_class_progress.view_count + excluded.view_count,
+      first_viewed_at = coalesce(
+        public.video_class_progress.first_viewed_at,
+        excluded.first_viewed_at
+      ),
+      last_viewed_at = case
+        when excluded.last_viewed_at is not null then excluded.last_viewed_at
+        else public.video_class_progress.last_viewed_at
+      end,
+      updated_at = v_now;
 
-  if v_should_count and v_view_counted_at is null then
-    update public.video_class_progress progress
-    set view_count = progress.view_count + 1,
-        first_viewed_at = coalesce(progress.first_viewed_at, now()),
-        last_viewed_at = now()
-    where progress.student_id = v_student_id
-      and progress.lesson_id = v_lesson_id;
+  if v_has_activity then
+    insert into public.video_class_daily_progress as daily (
+      student_id, lesson_id, activity_date, watched_seconds, view_count,
+      first_activity_at, last_activity_at
+    )
+    values (
+      v_student_id,
+      v_lesson_id,
+      v_activity_date,
+      v_watched_increment,
+      case when v_new_view then 1 else 0 end,
+      v_now,
+      v_now
+    )
+    on conflict (student_id, lesson_id, activity_date) do update
+    set watched_seconds = daily.watched_seconds + excluded.watched_seconds,
+        view_count = daily.view_count + excluded.view_count,
+        first_activity_at = least(daily.first_activity_at, excluded.first_activity_at),
+        last_activity_at = greatest(daily.last_activity_at, excluded.last_activity_at);
   end if;
 
   update public.video_class_playback_sessions playback
-  set last_seen_at = now(),
+  set last_seen_at = v_now,
       last_position_seconds = p_position_seconds,
       view_counted_at = case
-        when v_should_count and playback.view_counted_at is null then now()
+        when v_new_view then v_now
         else playback.view_counted_at
       end
   where playback.id = p_playback_id;
@@ -3837,6 +4956,12 @@ revoke all on function public.video_class_admin_list_students(text, uuid) from p
 revoke all on function public.video_class_admin_list_courses(text, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_admin_list_lessons(text, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_admin_set_lesson_private(text, uuid, uuid, boolean) from public, anon, authenticated;
+revoke all on function public.video_class_admin_publish_r2_object(
+  text, uuid, text, text, text, text, text, text, integer, integer,
+  text, bigint, jsonb, jsonb, jsonb
+) from public, anon, authenticated;
+revoke all on function public.video_class_admin_match_r2_objects(text, uuid, text[])
+  from public, anon, authenticated;
 revoke all on function public.video_class_admin_issue_key(text, uuid, uuid, boolean) from public, anon, authenticated;
 revoke all on function public.video_class_admin_clear_key(text, uuid, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_admin_set_enabled(text, uuid, uuid, boolean) from public, anon, authenticated;
@@ -3847,6 +4972,7 @@ revoke all on function public.video_class_student_list_lessons(text, uuid) from 
 revoke all on function public.video_class_student_toggle_bookmark(text, uuid, uuid, boolean) from public, anon, authenticated;
 revoke all on function public.video_class_student_save_note(text, uuid, uuid, text) from public, anon, authenticated;
 revoke all on function public.video_class_student_library(text, uuid) from public, anon, authenticated;
+revoke all on function public.video_class_student_analytics(text, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_student_create_playlist(text, uuid, text) from public, anon, authenticated;
 revoke all on function public.video_class_student_rename_playlist(text, uuid, uuid, text) from public, anon, authenticated;
 revoke all on function public.video_class_student_delete_playlist(text, uuid, uuid) from public, anon, authenticated;
@@ -3875,6 +5001,11 @@ grant execute on function public.video_class_admin_list_students(text, uuid) to 
 grant execute on function public.video_class_admin_list_courses(text, uuid) to anon;
 grant execute on function public.video_class_admin_list_lessons(text, uuid) to anon;
 grant execute on function public.video_class_admin_set_lesson_private(text, uuid, uuid, boolean) to anon;
+grant execute on function public.video_class_admin_publish_r2_object(
+  text, uuid, text, text, text, text, text, text, integer, integer,
+  text, bigint, jsonb, jsonb, jsonb
+) to anon;
+grant execute on function public.video_class_admin_match_r2_objects(text, uuid, text[]) to anon;
 grant execute on function public.video_class_admin_issue_key(text, uuid, uuid, boolean) to anon;
 grant execute on function public.video_class_admin_clear_key(text, uuid, uuid) to anon;
 grant execute on function public.video_class_admin_set_enabled(text, uuid, uuid, boolean) to anon;
@@ -3885,6 +5016,7 @@ grant execute on function public.video_class_student_list_lessons(text, uuid) to
 grant execute on function public.video_class_student_toggle_bookmark(text, uuid, uuid, boolean) to anon;
 grant execute on function public.video_class_student_save_note(text, uuid, uuid, text) to anon;
 grant execute on function public.video_class_student_library(text, uuid) to anon;
+grant execute on function public.video_class_student_analytics(text, uuid) to anon;
 grant execute on function public.video_class_student_create_playlist(text, uuid, text) to anon;
 grant execute on function public.video_class_student_rename_playlist(text, uuid, uuid, text) to anon;
 grant execute on function public.video_class_student_delete_playlist(text, uuid, uuid) to anon;
