@@ -163,7 +163,7 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
   assert.match(html, /writing-submission\.css\?v=20260810-open-book1/);
-  assert.match(html, /writing-submission\.js\?v=20260811-references1/);
+  assert.match(html, /writing-submission\.js\?v=20260811-references2/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -239,6 +239,8 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(html, /data-topic-reference-area/);
   assert.match(html, /essay-portal-links\.js\?v=20260730-1/);
   assert.match(script, /function writingExerciseIdFromTopicResource\(resource\)/);
+  assert.match(script, /const exerciseId = writingExerciseIdFromTopicResource\(\{ id \}\)/);
+  assert.match(script, /url:\s*`writing-practice\.html\?exercise=\$\{encodeURIComponent\(exerciseId\)\}`/);
   assert.match(script, /writing-submission-topic-access\.js\?v=20260810-topic-access1/);
   assert.match(script, /state\.studentAccessReady/);
   assert.match(script, /normalizeWritingTopicAccess\(profile\.access\)/);
@@ -253,14 +255,18 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /const canonical = canonicalWritingTopicResource\(resource\)/);
   assert.match(script, /essayPortals\.hasFlashcards\(essayKey\)/);
   assert.match(script, /essayPortals\.href\("flashcards", essayKey\)/);
-  assert.match(script, /writingHref:\s*canonical\.url/);
+  assert.match(script, /const writingHref = `writing-practice\.html\?exercise=\$\{encodeURIComponent\(exerciseId\)\}`/);
+  assert.match(script, /writingHref\s*\n\s*}/);
+  assert.doesNotMatch(script, /writingHref:\s*canonical\.url/);
   assert.match(script, /dse\/writing\/part-a\/\$\{dsePartAMatch\[1\]\}/);
+  assert.match(script, /government\/hkpf\/writing-composition\/composition-\$\{hkpfCompositionMatch\[1\]\}/);
   assert.match(script, /flashcards\.html\?deck=\$\{encodeURIComponent\(flashDeckId\)\}/);
   assert.match(script, /重溫 Flash Card 請按這裡：/);
   assert.match(script, /重溫 Fill In The Blanks 請按這裡：/);
   assert.match(script, /展開以 Open Book 參考 Edmund 範文 Model Essay/);
   assert.match(script, /展開以 Open Book 參考 Edmund 主題性生字 Thematic Vocabulary/);
   assert.match(script, /writing-submission-reference-data\.mjs\?v=/);
+  assert.match(script, /TOPIC_REFERENCE_VERSION\s*=\s*"20260811-2"/);
   assert.match(script, /reference\.exerciseId !== route\.exerciseId/);
   assert.match(script, /reference\.writingHref !== route\.writingHref/);
   assert.match(script, /reference\.flashDeckId !== route\.flashDeckId/);

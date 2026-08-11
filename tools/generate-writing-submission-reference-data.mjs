@@ -34,6 +34,17 @@ function cleanText(value) {
   return String(value || "").replace(/\s+/g, " ").trim();
 }
 
+function sentenceText(sentence) {
+  return cleanText((Array.isArray(sentence?.parts) ? sentence.parts : [])
+    .map((part) => {
+      if (part && typeof part === "object" && !Array.isArray(part)) {
+        return part.answer;
+      }
+      return part;
+    })
+    .join(""));
+}
+
 // Mirrors the text normalization used by getDeckCards() before Flash Cards
 // builds its existing English / Chinese PDF list.
 function normalizeCardText(value) {
@@ -45,6 +56,34 @@ function normalizeCardText(value) {
 }
 
 function compactEssay(exercise) {
+  const translationSections = Array.isArray(exercise?.translationSections)
+    ? exercise.translationSections
+    : [];
+  if (translationSections.length) {
+    return translationSections.map((section, sectionIndex) => {
+      const items = Array.isArray(section?.items) ? section.items : [];
+      if (!items.length) {
+        throw new Error(
+          `Empty translation section for ${exercise?.id || "unknown exercise"}: `
+          + `${section?.title || sectionIndex + 1}`
+        );
+      }
+      const english = cleanText(items.map((item) => item?.english).join(" "));
+      const chinese = cleanText(items.map((item) => item?.chinese).join(" "));
+      if (!english || !chinese) {
+        throw new Error(
+          `Incomplete translation section for ${exercise?.id || "unknown exercise"}: `
+          + `${section?.title || sectionIndex + 1}`
+        );
+      }
+      return {
+        label: cleanText(section?.title || section?.subtitle || `Section ${sectionIndex + 1}`),
+        english,
+        chinese
+      };
+    });
+  }
+
   const translations = Array.isArray(exercise?.translation) ? exercise.translation : [];
   const paragraphs = Array.isArray(exercise?.paragraphs) ? exercise.paragraphs : [];
   if (translations.length && translations.length !== paragraphs.length) {
@@ -56,11 +95,33 @@ function compactEssay(exercise) {
   return paragraphs.map((paragraph, index) => ({
     label: cleanText(paragraph?.label || `Paragraph ${index + 1}`),
     english: cleanText((Array.isArray(paragraph?.sentences) ? paragraph.sentences : [])
-      .map((sentence) => (Array.isArray(sentence?.parts) ? sentence.parts : []).map(cleanText).join(""))
+      .map(sentenceText)
       .filter(Boolean)
       .join(" ")),
     chinese: cleanText(translations[index] || "")
   }));
+}
+
+function compactBuiltInThematicVocabulary(exercise) {
+  const sections = Array.isArray(exercise?.learningContent?.thematicVocabulary)
+    ? exercise.learningContent.thematicVocabulary
+    : [];
+  const vocabulary = [];
+  const seen = new Set();
+  for (const section of sections) {
+    for (const block of String(section?.text || "").split(/\n\s*\n/)) {
+      const firstLine = block.split("\n").map(cleanText).find(Boolean) || "";
+      const match = /^(.+?)\s*=\s*(.+)$/.exec(firstLine);
+      if (!match) continue;
+      const english = normalizeCardText(match[1]);
+      const chinese = normalizeCardText(match[2]);
+      const identity = english.toLocaleLowerCase("en");
+      if (!english || !chinese || seen.has(identity)) continue;
+      seen.add(identity);
+      vocabulary.push({ english, chinese });
+    }
+  }
+  return vocabulary;
 }
 
 const writingHtml = await readFile(path.join(root, "writing-practice.html"), "utf8");
@@ -97,7 +158,7 @@ vm.runInContext(
 );
 const flashcardFiles = [...new Set(localScriptSources(
   flashcardsHtml,
-  /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a)-data\.js$/
+  /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-dse-practical-writing|flashcards-hkpf)-data\.js$/
 ))];
 await evaluateFiles(flashcardFiles, flashcardContext);
 const flashcardSeed = flashcardContext.window.EDMUND_FLASHCARD_SEED || {};
@@ -105,7 +166,11 @@ const flashcardSeed = flashcardContext.window.EDMUND_FLASHCARD_SEED || {};
 function flashDeckIdForWritingExercise(exerciseId, essayKey) {
   if (essayKey) return essayPortals.flashDeckId(essayKey);
   const dsePartAMatch = /^dse-writing-(20(?:1[2-9]|2[0-5]))-part-a(?:-argument-(?:for|against))?$/i.exec(exerciseId);
-  return dsePartAMatch ? `dse/writing/part-a/${dsePartAMatch[1]}` : "";
+  if (dsePartAMatch) return `dse/writing/part-a/${dsePartAMatch[1]}`;
+  const hkpfCompositionMatch = /^hkpf-civic-composition-([4-6])$/i.exec(exerciseId);
+  return hkpfCompositionMatch
+    ? `government/hkpf/writing-composition/composition-${hkpfCompositionMatch[1]}`
+    : "";
 }
 
 const referenceEntries = [];
@@ -116,23 +181,26 @@ for (const [exerciseId, exercise] of [...writingExercises].sort(([left], [right]
   }
   const flashDeckId = flashDeckIdForWritingExercise(exerciseId, essayKey);
   const flashcards = Array.isArray(flashcardSeed[flashDeckId]) ? flashcardSeed[flashDeckId] : [];
-  const vocabulary = flashcards
+  const flashcardVocabulary = flashcards
     .map((card) => ({
       english: normalizeCardText(card?.front || card?.term),
       chinese: normalizeCardText(card?.meaning || card?.back)
     }))
     .filter((card) => card.english);
+  const vocabulary = flashcardVocabulary.length
+    ? flashcardVocabulary
+    : compactBuiltInThematicVocabulary(exercise);
   const expectsFlashcards = essayKey
     ? essayPortals.hasFlashcards(essayKey)
     : Boolean(flashDeckId);
-  if (expectsFlashcards !== Boolean(vocabulary.length)) {
+  if (expectsFlashcards !== Boolean(flashcardVocabulary.length)) {
     throw new Error(`Flash Cards availability mismatch for ${exerciseId} (${essayKey})`);
   }
   referenceEntries.push([exerciseId, {
     exerciseId,
     essayKey,
     writingHref: `writing-practice.html?exercise=${encodeURIComponent(exerciseId)}`,
-    flashDeckId: vocabulary.length ? flashDeckId : "",
+    flashDeckId: flashcardVocabulary.length ? flashDeckId : "",
     paragraphs: compactEssay(exercise),
     vocabulary
   }]);

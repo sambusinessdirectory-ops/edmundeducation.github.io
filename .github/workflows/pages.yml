@@ -205,6 +205,7 @@ jobs:
           node tools/test-writing-submission-harper.mjs
           node --test tools/test-writing-submission-timer.mjs
           node --test tools/test-writing-submission-reference-data.mjs
+          node --test tools/test-writing-portal-crosslinks.mjs
 
       - name: Prepare site files
         run: |

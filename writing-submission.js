@@ -52,7 +52,7 @@ const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const TOPIC_CATALOG_VERSION = "20260807-phrasal1";
-const TOPIC_REFERENCE_VERSION = "20260811-1";
+const TOPIC_REFERENCE_VERSION = "20260811-2";
 const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
 const HARPER_VERSION = "2.7.0";
 const ESL_RULESET_VERSION = "2.0.0";
@@ -622,7 +622,8 @@ function normalizeWritingTopicResource(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return null;
   const id = String(value.id || "").slice(0, 240);
   const label = String(value.label || "").trim().slice(0, 500);
-  if (!id || !label || (value.type && value.type !== "fill-blanks")) return null;
+  const exerciseId = writingExerciseIdFromTopicResource({ id });
+  if (!id || !label || !exerciseId || (value.type && value.type !== "fill-blanks")) return null;
   const questionPrompt = (Array.isArray(value.questionPrompt) ? value.questionPrompt : [])
     .map(line => String(line || "").trim().slice(0, 4000))
     .filter(Boolean)
@@ -643,6 +644,10 @@ function normalizeWritingTopicResource(value) {
     type: "fill-blanks",
     label,
     detail: String(value.detail || "Writing Practice").slice(0, 300),
+    // Build this from the canonical exercise id instead of trusting a saved
+    // resource URL. Apart from keeping restored drafts safe, the expandable
+    // reference catalogue uses this exact route as its integrity check.
+    url: `writing-practice.html?exercise=${encodeURIComponent(exerciseId)}`,
     sectionKey: String(value.sectionKey || "").slice(0, 100),
     questionPrompt,
     questionImages
@@ -704,12 +709,16 @@ function selectedTopicReferenceRoute(resource = state.selectedTopicResource) {
   const essayKey = essayPortals?.fromWritingExerciseId(exerciseId) || "";
   if (essayKey && !essayPortals.hasWritingPractice(essayKey)) return null;
   const dsePartAMatch = /^dse-writing-(20(?:1[2-9]|2[0-5]))-part-a(?:-argument-(?:for|against))?$/i.exec(exerciseId);
+  const hkpfCompositionMatch = /^hkpf-civic-composition-([4-6])$/i.exec(exerciseId);
   const flashDeckId = essayKey && essayPortals.hasFlashcards(essayKey)
     ? essayPortals.flashDeckId(essayKey)
     : dsePartAMatch
       ? `dse/writing/part-a/${dsePartAMatch[1]}`
-      : "";
+      : hkpfCompositionMatch
+        ? `government/hkpf/writing-composition/composition-${hkpfCompositionMatch[1]}`
+        : "";
   const hasFlashcards = Boolean(flashDeckId);
+  const writingHref = `writing-practice.html?exercise=${encodeURIComponent(exerciseId)}`;
   return {
     exerciseId,
     essayKey,
@@ -720,7 +729,7 @@ function selectedTopicReferenceRoute(resource = state.selectedTopicResource) {
       : hasFlashcards
         ? `flashcards.html?deck=${encodeURIComponent(flashDeckId)}`
         : "",
-    writingHref: canonical.url
+    writingHref
   };
 }
 
