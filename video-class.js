@@ -445,8 +445,7 @@
       };
       const loaded = () => {
         if (script) script.dataset.edmundTurnstileLoaded = "true";
-        if (typeof window.turnstile?.ready === "function") window.turnstile.ready(resolveApi);
-        else resolveApi();
+        resolveApi();
       };
       const failed = () => {
         if (settled) return;
