@@ -24,6 +24,7 @@
   const EXAM_RISING_INFLECTION_TAIL_SECONDS = 0.7;
   const EXAM_AUDIO_MAX_BYTES = 2 * 1024 * 1024;
   const EXAM_AUDIO_CACHE_LIMIT = 16;
+  const PAGE_RECORDING_HISTORY_LIMIT = 20;
   const EXAM_FIXED_AUDIO_KEYS = new Map([
     ["Okay, let's begin.", "fixed:opening-begin-v2"],
     ["Could you tell me your full name please?", "fixed:opening-full-name"],
@@ -150,6 +151,8 @@
     recordedDurationMs: 0,
     recordingSaved: false,
     recordingContextKey: "",
+    pageRecordings: [],
+    pageRecordingContextKey: "",
     examSession: null,
     examPhaseTimer: 0,
     examElapsedTimer: 0,
@@ -709,6 +712,7 @@
     stopModelAudio();
     clearExamSession();
     cancelRecorder();
+    clearPageRecordingHistory();
     cleanupAttemptAudio();
     dom.loginView.hidden = false;
     dom.portalView.hidden = true;
@@ -879,7 +883,10 @@
     cancelExamSpeech();
     cleanupPart1Reveal();
     cleanupAttemptAudio();
-    if (!routesEqual(route, state.route)) cancelRecorder();
+    if (!routesEqual(route, state.route)) {
+      cancelRecorder();
+      clearPageRecordingHistory();
+    }
     if (abandoningExam) clearExamSession();
 
     if (options.reset) {
@@ -3862,6 +3869,68 @@
     return Math.min(300, Math.max(30, Number(CONFIG.maxRecordingSeconds || 300)));
   }
 
+  function clearPageRecordingHistory() {
+    state.pageRecordings.forEach(recording => {
+      if (recording.objectUrl) URL.revokeObjectURL(recording.objectUrl);
+    });
+    state.pageRecordings = [];
+    state.pageRecordingContextKey = "";
+  }
+
+  function renderPageRecordingHistory() {
+    const list = document.querySelector("[data-page-recording-list]");
+    const count = document.querySelector("[data-page-recording-count]");
+    if (!list || !count) return;
+    count.textContent = `${state.pageRecordings.length} 段`;
+    if (!state.pageRecordings.length) {
+      list.innerHTML = '<p class="page-recording-empty">可在同一練習連續錄音；每段成功儲存後會列在這裡。</p>';
+      return;
+    }
+    list.innerHTML = state.pageRecordings.map((recording, index) => `
+      <article class="page-recording-item">
+        <div class="page-recording-meta">
+          <strong>錄音 ${state.pageRecordings.length - index}</strong>
+          <span>${escapeHtml(formatDuration(recording.durationMs))} · ${escapeHtml(recording.savedAtLabel)}</span>
+        </div>
+        <audio controls preload="metadata" src="${escapeHtml(recording.objectUrl)}">你的瀏覽器不支援音訊預覽。</audio>
+        <button class="secondary-button" type="button" data-download-page-recording="${escapeHtml(recording.id)}">下載 MP3</button>
+      </article>
+    `).join("");
+  }
+
+  function archiveSavedPageRecording(recording, context) {
+    if (!state.recordedMp3 || !state.recordedMp3Url || !context || context.isExam) return 0;
+    if (state.pageRecordingContextKey && state.pageRecordingContextKey !== context.key) clearPageRecordingHistory();
+    state.pageRecordingContextKey = context.key;
+    const suppliedSavedAt = recording?.createdAt ? new Date(recording.createdAt) : new Date();
+    const savedAt = Number.isFinite(suppliedSavedAt.getTime()) ? suppliedSavedAt : new Date();
+    const stored = {
+      id: String(recording?.id || `page-${Date.now()}-${Math.random().toString(36).slice(2)}`),
+      blob: state.recordedMp3,
+      objectUrl: state.recordedMp3Url,
+      durationMs: state.recordedDurationMs,
+      filename: String(recording?.originalFilename || ""),
+      savedAtLabel: new Intl.DateTimeFormat("zh-HK", { hour: "2-digit", minute: "2-digit", hour12: false })
+        .format(savedAt)
+    };
+    state.pageRecordings.unshift(stored);
+    while (state.pageRecordings.length > PAGE_RECORDING_HISTORY_LIMIT) {
+      const removed = state.pageRecordings.pop();
+      if (removed?.objectUrl) URL.revokeObjectURL(removed.objectUrl);
+    }
+    state.recordedMp3 = null;
+    state.recordedMp3Url = "";
+    state.recordedDurationMs = 0;
+    state.recordingSaved = false;
+    const preview = document.querySelector("[data-recording-preview]");
+    if (preview) {
+      preview.hidden = true;
+      preview.innerHTML = "";
+    }
+    renderPageRecordingHistory();
+    return state.pageRecordings.length;
+  }
+
   function renderRecorderCard(exercise) {
     if (state.user?.role === "admin") {
       return `
@@ -3872,7 +3941,7 @@
       `;
     }
     return `
-      <section class="recorder-card" aria-labelledby="recording-heading">
+      <section class="recorder-card" aria-labelledby="recording-heading" data-recorder-card>
         <div>
           <h2 id="recording-heading">輪到你練習</h2>
           <p>允許瀏覽器使用咪高峰，完成後會在你的裝置上轉換成真正的單聲道 MP3，再安全儲存。</p>
@@ -3883,6 +3952,12 @@
           <button class="secondary-button finish-recording-button" type="button" data-finish-recording hidden>■ 完成並製作 MP3</button>
         </div>
         <div class="recording-preview" data-recording-preview hidden></div>
+        <section class="page-recording-history" aria-label="本次開啟頁面的已儲存錄音">
+          <header><h3>本頁錄音</h3><span data-page-recording-count>0 段</span></header>
+          <div class="page-recording-list" data-page-recording-list>
+            <p class="page-recording-empty">可在同一練習連續錄音；每段成功儲存後會列在這裡。</p>
+          </div>
+        </section>
       </section>
     `;
   }
@@ -4137,6 +4212,7 @@
         </section>
 
         ${renderPart1AudioPanel(entry)}
+        ${renderRecorderCard(exercise)}
 
         <section class="part1-dialogue-stage" aria-labelledby="part1-dialogue-heading">
           <header class="part1-dialogue-heading">
@@ -4150,12 +4226,11 @@
             )).join("")}
           </ol>
         </section>
-
-        ${renderRecorderCard(exercise)}
       </article>
     `;
     setupPart1Reveal();
     syncAudioControls();
+    renderPageRecordingHistory();
   }
 
   function renderPart3Model(model, index, matcher, entry) {
@@ -4225,6 +4300,7 @@
         </section>
 
         ${renderAudioPanel(entry, exercise)}
+        ${renderRecorderCard(exercise)}
 
         <section class="part3-response-section" aria-labelledby="part3-response-heading">
           <div class="part3-response-heading">
@@ -4236,8 +4312,6 @@
           </div>
         </section>
 
-        ${renderRecorderCard(exercise)}
-
         <nav class="part3-exercise-nav" aria-label="Part 3 題目導覽">
           <button class="secondary-button" type="button" data-part3-previous ${previous ? "" : "disabled"}>← 上一題</button>
           <button class="secondary-button" type="button" data-part3-book>返回 Book ${exercise.book}</button>
@@ -4246,6 +4320,7 @@
       </article>
     `;
     syncAudioControls();
+    renderPageRecordingHistory();
   }
 
   function focusRoutedQuestion() {
@@ -4304,6 +4379,7 @@
         </section>
 
         ${renderAudioPanel(entry, exercise)}
+        ${renderRecorderCard(exercise)}
 
         <div class="response-grid" aria-label="Band 9 四部分示範答案">
           ${exercise.responses.slice(0, 4).map((response, index) => `
@@ -4316,11 +4392,10 @@
             </section>
           `).join("")}
         </div>
-
-        ${renderRecorderCard(exercise)}
       </article>
     `;
     syncAudioControls();
+    renderPageRecordingHistory();
     focusRoutedQuestion();
   }
 
@@ -5004,7 +5079,8 @@
     else if (recorderState === "recording" && state.recordingPauseSupported) button.textContent = "❚❚ 暫停錄音";
     else if (recorderState === "recording") button.textContent = "■ 完成錄音";
     else if (examRecording) button.textContent = state.recordedMp3 ? "● 重新回答" : "● 開始回答";
-    else button.textContent = state.recordedMp3 ? "● 重新錄音" : "● 開始錄音";
+    else if (state.recordedMp3) button.textContent = "● 重新錄音";
+    else button.textContent = state.pageRecordings.length ? "＋ 再錄一段" : "● 開始錄音";
     if (finish) {
       finish.hidden = examRecording || !state.recordingPauseSupported || !["recording", "paused"].includes(recorderState);
       finish.disabled = busy;
@@ -5362,7 +5438,7 @@
     ` : `
       <audio controls preload="metadata" src="${escapeHtml(state.recordedMp3Url)}">你的瀏覽器不支援音訊預覽。</audio>
       <div class="recorder-actions">
-        <button class="primary-button" type="button" data-save-recording>save the attempt</button>
+        <button class="primary-button" type="button" data-save-recording>儲存這段錄音</button>
         <button class="secondary-button" type="button" data-download-current>下載這次 MP3</button>
         <button class="danger-button" type="button" data-discard-recording>捨棄並重錄</button>
       </div>
@@ -5509,6 +5585,13 @@
       state.recordingSaved = true;
       if (context.isExam) markExamItemSaved(context, response?.recording);
       autoAdvancePart2 = Boolean(context.isExam && context.item.part === 2 && context.item.kind !== "intro" && state.examSession?.naturalExchange);
+      if (!context.isExam) {
+        const savedCount = archiveSavedPageRecording(response?.recording, context);
+        recordingStatus(`第 ${savedCount} 段錄音已儲存；可按「再錄一段」繼續。`, false);
+        resetRecordButton("＋ 再錄一段");
+        toast("錄音已安全儲存，可繼續錄製下一段。", "info");
+        return true;
+      }
       recordingStatus(context.isExam ? "本題已儲存，可以前往下一題。" : "已儲存！可在「我的錄音」隨時取回。", false);
       if (button) {
         button.textContent = context.isExam ? "✓ 本題已儲存" : "✓ 已儲存";
@@ -6701,6 +6784,17 @@
         return;
       }
 
+      const pageRecordingDownload = event.target.closest("[data-download-page-recording]");
+      if (pageRecordingDownload) {
+        const recording = state.pageRecordings.find(item => item.id === pageRecordingDownload.dataset.downloadPageRecording);
+        if (recording?.blob) {
+          const context = currentRecordingContext();
+          const fallback = `${safeFilePart(state.user?.name, "student")}-${safeFilePart(context?.title, "speaking-attempt")}-${safeFilePart(recording.id, "recording")}.mp3`;
+          downloadBlob(recording.blob, recording.filename || fallback);
+        }
+        return;
+      }
+
       if (event.target.closest("[data-save-recording]")) {
         saveRecording();
         return;
@@ -6887,6 +6981,7 @@
       cancelExamSpeech();
       cleanupPart1Reveal();
       cancelRecorder();
+      clearPageRecordingHistory();
       cleanupAttemptAudio();
     });
 

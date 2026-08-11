@@ -41,7 +41,7 @@ function fixture() {
   for (const source of STUDENT_PROGRESS_SOURCES) {
     sources[source.id] = {
       activityDays: [],
-      timeDays: [{ date: "2026-07-28", totalMs: sourceHours[source.id] * hour }]
+      timeDays: [{ date: "2026-07-28", totalMs: (sourceHours[source.id] || 0) * hour }]
     };
   }
   sources.flashcards.timeDays.unshift({ date: "2026-07-27", totalMs: hour });
@@ -73,7 +73,22 @@ test("source order matches the requested portal priority", () => {
     "commonExpressionRhetoricalWriting",
     "commonExpressionProfessionalMessage",
     "commonExpressionBusinessSpeaking",
-    "writingSubmission"
+    "writingSubmission",
+    "quotes",
+    "grammar",
+    "collocation",
+    "irregularVerb",
+    "thematicVocabulary",
+    "partOfSpeech",
+    "synonyms",
+    "errorIdentifier",
+    "spelling",
+    "readingLogic",
+    "translationSkills",
+    "businessSchool",
+    "complexQuestions",
+    "englishHumourSpeaking",
+    "englishHumourWriting"
   ]);
 });
 
@@ -90,7 +105,7 @@ test("the supplied seven-system example totals exactly 18 hours on one date", ()
   assert.equal(master.allTimeTotalMs, 19 * hour);
 });
 
-test("Writing Submission joins the master total with all fourteen sources", () => {
+test("Writing Submission joins the master total with every registered source", () => {
   const master = buildMasterTimeSeries(fixture(), "week", new Date(2026, 6, 28, 12));
   const point = master.points.find(({ key }) => key === "2026-07-28");
   assert.equal(point.systems.writingSubmission, 90 * 60 * 1000);
@@ -175,7 +190,7 @@ test("Writing Submission average is total composition time divided by articles",
 test("malformed payloads normalize to safe empty sources", () => {
   const normalized = normalizeProgressSnapshot({ student: { name: "A" }, sources: { flashcards: null } });
   assert.equal(normalized.student.name, "A");
-  assert.equal(Object.keys(normalized.sources).length, 14);
+  assert.equal(Object.keys(normalized.sources).length, STUDENT_PROGRESS_SOURCES.length);
   assert.deepEqual(normalized.sources.flashcards, { activityDays: [], timeDays: [] });
   assert.equal(formatProgressDuration(3661000), "1 小時 01 分 01 秒");
 });
@@ -207,12 +222,15 @@ test("PDF export defaults to one overview plus one standalone page per connected
     selectedSourceIds: normalizeProgressExportSelection(undefined),
     viewerLabel: "Test Student"
   });
-  assert.equal((html.match(/class="print-page(?:\s|\")/g) || []).length, 15);
-  assert.match(html, /第 1 \/ 15 頁/);
-  assert.match(html, /第 15 \/ 15 頁/);
+  const pageTotal = STUDENT_PROGRESS_SOURCES.length + 1;
+  assert.equal((html.match(/class="print-page(?:\s|\")/g) || []).length, pageTotal);
+  assert.match(html, new RegExp(`第 1 \\/ ${pageTotal} 頁`));
+  assert.match(html, new RegExp(`第 ${pageTotal} \\/ ${pageTotal} 頁`));
   assert.match(html, /2026-07-27 至 2026-07-28/);
   assert.match(html, /全面英文能力發展進度表/);
-  for (const source of STUDENT_PROGRESS_SOURCES) assert.match(html, new RegExp(source.labelEn));
+  for (const source of STUDENT_PROGRESS_SOURCES) {
+    assert.ok(html.includes(source.labelEn), `${source.labelEn} must receive a standalone PDF page`);
+  }
 });
 
 test("PDF export keeps a saved subset ordered and scoped to its viewer", () => {

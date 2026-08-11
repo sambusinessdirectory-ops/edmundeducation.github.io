@@ -153,10 +153,18 @@ jobs:
       - name: Validate Schedule System and Mass Edit clipboard
         run: |
           node tools/test-schedule-clipboard.mjs
+          node tools/test-schedule-quote-encouragement.mjs
           node tools/test-schedule-system.mjs
           node tools/test-schedule-worker.mjs
           node tools/test-parent-communication-system.mjs
           node tools/test-schedule-account-admin-parity.mjs
+
+      - name: Validate Speaking sticky recorder, repeated recordings and private storage
+        run: |
+          node tools/test-speaking-recorder-workflow.mjs
+          node tools/test-speaking-progress-dashboard.mjs
+          node tools/test-speaking-exam-mode.mjs
+          npm test --prefix workers/speaking-system
 
       - name: Validate all six Common Expression portals, lessons and persistence contracts
         run: node --test tools/test-common-expression-system.mjs
@@ -174,7 +182,9 @@ jobs:
           node tools/test-pwa-and-brand-metadata.mjs
 
       - name: Validate Video Class portal, permissions, and protected range delivery
-        run: node tools/test-video-class.mjs
+        run: |
+          node tools/test-video-class.mjs
+          node tools/test-homepage-video-opacity.mjs
 
       - name: Validate Writing Submission portal and self-hosted grammar engine
         run: |
@@ -194,6 +204,7 @@ jobs:
           node tools/test-writing-submission-harper-vendor.mjs
           node tools/test-writing-submission-harper.mjs
           node --test tools/test-writing-submission-timer.mjs
+          node --test tools/test-writing-submission-reference-data.mjs
 
       - name: Prepare site files
         run: |

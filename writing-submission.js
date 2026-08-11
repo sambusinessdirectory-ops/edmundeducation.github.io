@@ -52,7 +52,7 @@ const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const TOPIC_CATALOG_VERSION = "20260807-phrasal1";
-const TOPIC_REFERENCE_VERSION = "20260810-1";
+const TOPIC_REFERENCE_VERSION = "20260811-1";
 const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
 const HARPER_VERSION = "2.7.0";
 const ESL_RULESET_VERSION = "2.0.0";
@@ -698,17 +698,29 @@ function writingExerciseIdFromTopicResource(resource) {
 
 function selectedTopicReferenceRoute(resource = state.selectedTopicResource) {
   const canonical = canonicalWritingTopicResource(resource);
-  if (!canonical || !essayPortals) return null;
+  if (!canonical) return null;
   const exerciseId = writingExerciseIdFromTopicResource(canonical);
-  const essayKey = essayPortals.fromWritingExerciseId(exerciseId);
-  if (!exerciseId || !essayKey || !essayPortals.hasWritingPractice(essayKey)) return null;
-  const hasFlashcards = essayPortals.hasFlashcards(essayKey);
+  if (!exerciseId) return null;
+  const essayKey = essayPortals?.fromWritingExerciseId(exerciseId) || "";
+  if (essayKey && !essayPortals.hasWritingPractice(essayKey)) return null;
+  const dsePartAMatch = /^dse-writing-(20(?:1[2-9]|2[0-5]))-part-a(?:-argument-(?:for|against))?$/i.exec(exerciseId);
+  const flashDeckId = essayKey && essayPortals.hasFlashcards(essayKey)
+    ? essayPortals.flashDeckId(essayKey)
+    : dsePartAMatch
+      ? `dse/writing/part-a/${dsePartAMatch[1]}`
+      : "";
+  const hasFlashcards = Boolean(flashDeckId);
   return {
     exerciseId,
     essayKey,
+    flashDeckId,
     hasFlashcards,
-    flashcardsHref: hasFlashcards ? essayPortals.href("flashcards", essayKey) : "",
-    writingHref: essayPortals.href("writing", essayKey)
+    flashcardsHref: essayKey && hasFlashcards
+      ? essayPortals.href("flashcards", essayKey)
+      : hasFlashcards
+        ? `flashcards.html?deck=${encodeURIComponent(flashDeckId)}`
+        : "",
+    writingHref: canonical.url
   };
 }
 
@@ -904,7 +916,13 @@ async function loadTopicReferenceDetails(details, { retry = false } = {}) {
       || details.dataset.topicReferenceExercise !== currentRoute.exerciseId
     ) return;
     const reference = catalog[route.exerciseId];
-    if (!reference || reference.essayKey !== route.essayKey) {
+    if (
+      !reference
+      || reference.exerciseId !== route.exerciseId
+      || reference.essayKey !== route.essayKey
+      || reference.writingHref !== route.writingHref
+      || reference.flashDeckId !== route.flashDeckId
+    ) {
       throw new Error(`Writing reference is missing for ${route.exerciseId}`);
     }
     if (details.dataset.topicReferenceKind === "model-essay") {

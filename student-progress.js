@@ -18,6 +18,7 @@ import {
   normalizeProgressExportSelection,
   progressExportPreferenceKey
 } from "./student-progress-export.js";
+import { parseScheduleMessage } from "./schedule-homework-links.mjs";
 
 const CONFIG = window.EDMUND_STUDENT_PROGRESS_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -732,6 +733,16 @@ function renderSource(snapshot, definition) {
 const SCHEDULE_FIRST_WEEK = "2025-12-29";
 const SCHEDULE_LAST_WEEK = "2050-12-26";
 const SCHEDULE_DAY_NAMES = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"];
+const SCHEDULE_RESOURCE_MARKER = /\[\[@edmund-homework:v1:[A-Za-z0-9_-]+\]\]/g;
+const SCHEDULE_DAY_MASCOTS = [
+  "assets/schedule/weekdays/monday-walking-to-school.webp",
+  "assets/schedule/weekdays/tuesday-basketball.webp",
+  "assets/schedule/weekdays/wednesday-piano.webp",
+  "assets/schedule/weekdays/thursday-reading.webp",
+  "assets/schedule/weekdays/friday-pizza.webp",
+  "assets/schedule/weekdays/saturday-sleeping.webp",
+  "assets/schedule/weekdays/sunday-side-sleeping.webp"
+];
 
 function scheduleIsOwnStudentView(snapshot = state.snapshot) {
   return !PARENT_MODE
@@ -747,6 +758,13 @@ function scheduleDurationLabel(value) {
   const remainder = minutes % 60;
   if (!hours) return `${minutes} 分鐘`;
   return remainder ? `${hours} 小時 ${remainder} 分鐘` : `${hours} 小時`;
+}
+
+function scheduleSnapshotMessage(value) {
+  return parseScheduleMessage(value).text
+    .replace(SCHEDULE_RESOURCE_MARKER, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
 function scheduleEntryState(entry) {
@@ -768,18 +786,19 @@ function renderScheduleWeek(payload = {}) {
   elements.scheduleGrid.innerHTML = Array.from({ length: 7 }, (_, index) => {
     const dayKey = localDayKey(addLocalDays(weekStart, index));
     const dayEntries = entries
-      .filter((entry) => String(entry?.scheduleDate || "") === dayKey && String(entry?.message || "").trim())
+      .map((entry) => ({ ...entry, visibleMessage: scheduleSnapshotMessage(entry?.message) }))
+      .filter((entry) => String(entry?.scheduleDate || "") === dayKey && entry.visibleMessage)
       .sort((a, b) => Number(a.slotIndex || 0) - Number(b.slotIndex || 0));
     const tasks = dayEntries.length ? dayEntries.map((entry) => {
       const status = scheduleEntryState(entry);
       const duration = scheduleDurationLabel(entry.estimatedMinutes);
       const source = entry.source === "teacher" ? "老師安排" : "學生安排";
       return `<article class="schedule-task" data-source="${entry.source === "teacher" ? "teacher" : "student"}" data-state="${status.key}">
-        <strong>${escapeHtml(entry.message)}</strong>
+        <strong>${escapeHtml(entry.visibleMessage)}</strong>
         <span class="schedule-task-meta"><span>Slot ${String(Number(entry.slotIndex || 0)).padStart(2, "0")}</span><span>${source}</span><span>${status.label}</span>${duration ? `<span>預計 ${escapeHtml(duration)}</span>` : ""}</span>
       </article>`;
     }).join("") : `<p class="schedule-empty-day">本日未有已儲存安排。</p>`;
-    return `<section class="schedule-day"><header><strong>${SCHEDULE_DAY_NAMES[index]}</strong><small>${escapeHtml(formatDayLabel(dayKey))}</small></header><div class="schedule-day-list">${tasks}</div></section>`;
+    return `<section class="schedule-day"><header><img class="schedule-day-mascot" src="${SCHEDULE_DAY_MASCOTS[index]}" alt="" loading="lazy"><strong>${SCHEDULE_DAY_NAMES[index]}</strong><small>${escapeHtml(formatDayLabel(dayKey))}</small></header><div class="schedule-day-list">${tasks}</div></section>`;
   }).join("");
 }
 

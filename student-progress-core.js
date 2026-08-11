@@ -171,6 +171,171 @@ export const STUDENT_PROGRESS_SOURCES = Object.freeze([
     activityUnit: "篇文章",
     primaryMetric: "articles",
     activitySeries: [{ key: "articles", label: "完成文章", color: "#be123c" }]
+  },
+  {
+    id: "quotes",
+    labelZh: "名人英文語錄",
+    labelEn: "Quotes Learning System",
+    href: "quotes-system.html",
+    color: "#c05621",
+    activityTitle: "完成名人語錄題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#c05621" }]
+  },
+  {
+    id: "grammar",
+    labelZh: "英文語法學習",
+    labelEn: "Grammar Learning System",
+    href: "grammar-system.html",
+    color: "#2563a6",
+    activityTitle: "完成英文語法題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#2563a6" }]
+  },
+  {
+    id: "collocation",
+    labelZh: "英文配詞",
+    labelEn: "Collocation Learning System",
+    href: "collocation-system.html",
+    color: "#16856d",
+    activityTitle: "完成英文配詞題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#16856d" }]
+  },
+  {
+    id: "irregularVerb",
+    labelZh: "不規則動詞",
+    labelEn: "Irregular Verb Learning System",
+    href: "irregular-verb-system.html",
+    color: "#c23b64",
+    activityTitle: "完成不規則動詞題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#c23b64" }]
+  },
+  {
+    id: "thematicVocabulary",
+    labelZh: "主題性生字記錄大全",
+    labelEn: "Thematic Vocabulary",
+    href: "thematic-vocabulary-system.html",
+    color: "#7c3fb3",
+    activityTitle: "完成主題性生字題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#7c3fb3" }]
+  },
+  {
+    id: "partOfSpeech",
+    labelZh: "詞性練習",
+    labelEn: "Part Of Speech (POS)",
+    href: "part-of-speech-system.html",
+    color: "#ae7a12",
+    activityTitle: "完成詞性練習題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#ae7a12" }]
+  },
+  {
+    id: "synonyms",
+    labelZh: "同義詞",
+    labelEn: "Synonyms Learning System",
+    href: "synonyms-system.html",
+    color: "#17859a",
+    activityTitle: "完成同義詞題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#17859a" }]
+  },
+  {
+    id: "errorIdentifier",
+    labelZh: "錯因分析",
+    labelEn: "Error Identifier",
+    href: "error-identifier-system.html",
+    color: "#c33c2d",
+    activityTitle: "完成錯因分析題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#c33c2d" }]
+  },
+  {
+    id: "spelling",
+    labelZh: "拼寫練習",
+    labelEn: "Spelling Practice",
+    href: "spelling-system.html",
+    color: "#25844e",
+    activityTitle: "完成拼寫題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#25844e" }]
+  },
+  {
+    id: "readingLogic",
+    labelZh: "閱讀理解題型邏輯",
+    labelEn: "Reading Logic",
+    href: "reading-logic-system.html",
+    color: "#6546b7",
+    activityTitle: "完成閱讀邏輯題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#6546b7" }]
+  },
+  {
+    id: "translationSkills",
+    labelZh: "英譯中能力學習",
+    labelEn: "Translation Skills",
+    href: "translation-skills-system.html",
+    color: "#167b94",
+    activityTitle: "完成英譯中題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#167b94" }]
+  },
+  {
+    id: "businessSchool",
+    labelZh: "商學院英文訓練",
+    labelEn: "Business School",
+    href: "business-school-system.html",
+    color: "#a76b13",
+    activityTitle: "完成商學院英文題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#a76b13" }]
+  },
+  {
+    id: "complexQuestions",
+    labelZh: "英文複雜問句",
+    labelEn: "Complex Questions",
+    href: "complex-questions-system.html",
+    color: "#a3378f",
+    activityTitle: "完成複雜問句題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#a3378f" }]
+  },
+  {
+    id: "englishHumourSpeaking",
+    labelZh: "英文幽默會話",
+    labelEn: "English Humour Speaking",
+    href: "english-humour-speaking.html",
+    color: "#9b771b",
+    activityTitle: "完成英文幽默會話題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#9b771b" }]
+  },
+  {
+    id: "englishHumourWriting",
+    labelZh: "英文幽默寫作",
+    labelEn: "English Humour Writing",
+    href: "english-humour-writing.html",
+    color: "#b72f78",
+    activityTitle: "完成英文幽默寫作題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#b72f78" }]
   }
 ]);
 

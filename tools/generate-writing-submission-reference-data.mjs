@@ -47,7 +47,7 @@ function normalizeCardText(value) {
 function compactEssay(exercise) {
   const translations = Array.isArray(exercise?.translation) ? exercise.translation : [];
   const paragraphs = Array.isArray(exercise?.paragraphs) ? exercise.paragraphs : [];
-  if (translations.length !== paragraphs.length) {
+  if (translations.length && translations.length !== paragraphs.length) {
     throw new Error(
       `Translation/paragraph mismatch for ${exercise?.id || "unknown exercise"}: `
       + `${translations.length}/${paragraphs.length}`
@@ -59,7 +59,7 @@ function compactEssay(exercise) {
       .map((sentence) => (Array.isArray(sentence?.parts) ? sentence.parts : []).map(cleanText).join(""))
       .filter(Boolean)
       .join(" ")),
-    chinese: cleanText(translations[index])
+    chinese: cleanText(translations[index] || "")
   }));
 }
 
@@ -97,16 +97,24 @@ vm.runInContext(
 );
 const flashcardFiles = [...new Set(localScriptSources(
   flashcardsHtml,
-  /^flashcards-ielts-writing(?:-.*)?-data\.js$/
+  /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a)-data\.js$/
 ))];
 await evaluateFiles(flashcardFiles, flashcardContext);
 const flashcardSeed = flashcardContext.window.EDMUND_FLASHCARD_SEED || {};
 
+function flashDeckIdForWritingExercise(exerciseId, essayKey) {
+  if (essayKey) return essayPortals.flashDeckId(essayKey);
+  const dsePartAMatch = /^dse-writing-(20(?:1[2-9]|2[0-5]))-part-a(?:-argument-(?:for|against))?$/i.exec(exerciseId);
+  return dsePartAMatch ? `dse/writing/part-a/${dsePartAMatch[1]}` : "";
+}
+
 const referenceEntries = [];
 for (const [exerciseId, exercise] of [...writingExercises].sort(([left], [right]) => left.localeCompare(right, "en", { numeric: true }))) {
   const essayKey = essayPortals.fromWritingExerciseId(exerciseId);
-  if (!essayKey || !essayPortals.hasWritingPractice(essayKey)) continue;
-  const flashDeckId = essayPortals.flashDeckId(essayKey);
+  if (essayKey && !essayPortals.hasWritingPractice(essayKey)) {
+    throw new Error(`Writing Practice route mismatch for ${exerciseId} (${essayKey})`);
+  }
+  const flashDeckId = flashDeckIdForWritingExercise(exerciseId, essayKey);
   const flashcards = Array.isArray(flashcardSeed[flashDeckId]) ? flashcardSeed[flashDeckId] : [];
   const vocabulary = flashcards
     .map((card) => ({
@@ -114,11 +122,17 @@ for (const [exerciseId, exercise] of [...writingExercises].sort(([left], [right]
       chinese: normalizeCardText(card?.meaning || card?.back)
     }))
     .filter((card) => card.english);
-  if (essayPortals.hasFlashcards(essayKey) !== Boolean(vocabulary.length)) {
+  const expectsFlashcards = essayKey
+    ? essayPortals.hasFlashcards(essayKey)
+    : Boolean(flashDeckId);
+  if (expectsFlashcards !== Boolean(vocabulary.length)) {
     throw new Error(`Flash Cards availability mismatch for ${exerciseId} (${essayKey})`);
   }
   referenceEntries.push([exerciseId, {
+    exerciseId,
     essayKey,
+    writingHref: `writing-practice.html?exercise=${encodeURIComponent(exerciseId)}`,
+    flashDeckId: vocabulary.length ? flashDeckId : "",
     paragraphs: compactEssay(exercise),
     vocabulary
   }]);

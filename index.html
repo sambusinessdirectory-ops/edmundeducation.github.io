@@ -3447,6 +3447,8 @@
     let currentVideoIndex = 0;
     let videosAreEnabled = false;
     let backgroundVideoLoadToken = 0;
+    const MAX_BACKGROUND_VIDEO_OPACITY = 0.432;
+    const MIN_BACKGROUND_VIDEO_COVER_ALPHA = 0.38;
 
     function shouldUseLightweightVideoMode() {
       const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
@@ -3474,9 +3476,27 @@
       return true;
     }
 
+    function normaliseVideoCover(cover) {
+      const match = String(cover || "").match(/^rgba\(\s*245\s*,\s*245\s*,\s*247\s*,\s*([\d.]+)\s*\)$/i);
+      const suppliedAlpha = match ? Number(match[1]) : 0.5;
+      const safeAlpha = Math.max(
+        MIN_BACKGROUND_VIDEO_COVER_ALPHA,
+        Math.min(1, Number.isFinite(suppliedAlpha) ? suppliedAlpha : 0.5)
+      );
+      return `rgba(245,245,247,${safeAlpha.toFixed(2)})`;
+    }
+
     function setVideoStrength(set) {
-      document.documentElement.style.setProperty("--video-opacity", set.opacity);
-      document.documentElement.style.setProperty("--video-cover", set.cover);
+      // A number of legacy sets use 0.72. Applying that value only after the
+      // video loads caused a visible opacity jump. Keep every loaded video at
+      // the subdued horse-video tier and retain enough cover for legibility.
+      const suppliedOpacity = Number(set?.opacity);
+      const safeOpacity = Math.min(
+        MAX_BACKGROUND_VIDEO_OPACITY,
+        Math.max(0, Number.isFinite(suppliedOpacity) ? suppliedOpacity : 0.342)
+      );
+      document.documentElement.style.setProperty("--video-opacity", String(safeOpacity));
+      document.documentElement.style.setProperty("--video-cover", normaliseVideoCover(set?.cover));
     }
 
     function playBackgroundSource(src) {

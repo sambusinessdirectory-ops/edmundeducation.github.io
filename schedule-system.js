@@ -14,6 +14,7 @@ import {
   toISODate,
   weekDates
 } from "./schedule-calendar.mjs";
+import { quoteForHongKongDay } from "./schedule-quotes.mjs?v=20260811-1";
 import {
   COUNTDOWN_BATCH_SIZE,
   COUNTDOWN_INITIAL_CAPACITY,
@@ -216,6 +217,18 @@ const elements = {
   toggleTable: document.querySelector("[data-toggle-table]"),
   toggleUnused: document.querySelector("[data-toggle-unused]"),
   toggleMascots: document.querySelector("[data-toggle-mascots]"),
+  toggleDailyQuote: document.querySelector("[data-toggle-daily-quote]"),
+  toggleEncouragement: document.querySelector("[data-toggle-encouragement]"),
+  dailyQuote: document.querySelector("[data-daily-quote]"),
+  quoteEnglish: document.querySelector("[data-quote-english]"),
+  quoteEnglishAttribution: document.querySelector("[data-quote-english-attribution]"),
+  quoteChinese: document.querySelector("[data-quote-chinese]"),
+  quoteChineseAttribution: document.querySelector("[data-quote-chinese-attribution]"),
+  weeklyEncouragement: document.querySelector("[data-weekly-encouragement]"),
+  encouragementMessage: document.querySelector("[data-encouragement-message]"),
+  saveEncouragement: document.querySelector("[data-save-encouragement]"),
+  useLastEncouragement: document.querySelector("[data-use-last-encouragement]"),
+  encouragementStatus: document.querySelector("[data-encouragement-status]"),
   toggleSelection: document.querySelector("[data-toggle-selection]"),
   selectionActions: document.querySelector("[data-selection-actions]"),
   selectionCount: document.querySelector("[data-selection-count]"),
@@ -319,6 +332,10 @@ const state = {
   tableHidden: readDisplayPreference(TABLE_HIDDEN_KEY),
   hideUnused: false,
   hideMascots: false,
+  hideDailyQuote: false,
+  hideEncouragement: false,
+  encouragementBusy: false,
+  encouragementRequestId: 0,
   showUnusedTemporarily: false,
   selectionMode: false,
   selectedEntryIds: new Set(),
@@ -353,6 +370,7 @@ const state = {
 let homeworkResourceCatalog = null;
 let homeworkCatalogPromise = null;
 let supabaseAuthPromise = null;
+let dailyQuoteRefreshTimer = null;
 
 function ensureHomeworkCatalog() {
   if (homeworkResourceCatalog) return Promise.resolve(homeworkResourceCatalog);
@@ -383,7 +401,13 @@ function emptyWeekPayload() {
       homeworkTypeCounts: Object.fromEntries(HOMEWORK_RESOURCE_TYPES.map((definition) => [definition.type, 0]))
     },
     countdownCapacity: MIN_COUNTDOWNS,
-    countdowns: []
+    countdowns: [],
+    encouragement: {
+      message: "",
+      updatedAt: null,
+      previousMessage: "",
+      canUsePrevious: false
+    }
   };
 }
 
@@ -616,8 +640,38 @@ function showView(name) {
       ? `${state.currentUser.name} · 管理員`
       : state.currentUser.name;
   }
-  if (name === "calendar") applyDisplayPreferences();
+  if (name === "calendar") {
+    applyDisplayPreferences();
+    renderDailyQuote();
+  } else {
+    window.clearTimeout(dailyQuoteRefreshTimer);
+    dailyQuoteRefreshTimer = null;
+  }
   window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function nextHongKongMidnightTimestamp(now = new Date()) {
+  const [year, month, day] = hongKongDayKey(now).split("-").map(Number);
+  return Date.UTC(year, month - 1, day + 1) - (8 * 60 * 60 * 1000);
+}
+
+function scheduleDailyQuoteRefresh() {
+  window.clearTimeout(dailyQuoteRefreshTimer);
+  const now = new Date();
+  const delay = Math.max(1000, nextHongKongMidnightTimestamp(now) - now.getTime() + 250);
+  dailyQuoteRefreshTimer = window.setTimeout(() => renderDailyQuote(), delay);
+}
+
+function renderDailyQuote() {
+  if (!elements.dailyQuote) return;
+  const dayKey = hongKongDayKey();
+  const quote = quoteForHongKongDay(dayKey);
+  elements.dailyQuote.dataset.quoteDay = dayKey;
+  elements.quoteEnglish.textContent = quote?.englishQuote || "今日語錄暫時未能載入。";
+  elements.quoteEnglishAttribution.textContent = quote ? `— ${quote.englishAttribution}` : "";
+  elements.quoteChinese.textContent = quote?.chineseQuote || "";
+  elements.quoteChineseAttribution.textContent = quote ? `—— ${quote.chineseAttribution}` : "";
+  scheduleDailyQuoteRefresh();
 }
 
 function cloneScheduleEntries(entries = []) {
@@ -1172,6 +1226,10 @@ function clearRenderedSchedule() {
   state.weekPayload = emptyWeekPayload();
   state.hideUnused = false;
   state.hideMascots = false;
+  state.hideDailyQuote = false;
+  state.hideEncouragement = false;
+  state.encouragementBusy = false;
+  state.encouragementRequestId += 1;
   state.showUnusedTemporarily = false;
   state.editing = null;
   clearLongPress();
@@ -1214,6 +1272,7 @@ function clearRenderedSchedule() {
   elements.togglePreviousIncomplete.textContent = "標記之前功課未完成";
   elements.countdownGrid?.replaceChildren();
   setStatus(elements.countdownStatus, "");
+  renderEncouragementFromPayload();
   setMetricsUnavailable();
   applyDisplayPreferences();
   setStatus(elements.entryStatus, "");
@@ -1232,6 +1291,13 @@ function applyDisplayPreferences() {
   elements.toggleMascots.textContent = state.hideMascots ? "顯示吉祥物" : "隱藏吉祥物";
   elements.toggleMascots.setAttribute("aria-pressed", String(state.hideMascots));
   elements.weekGrid.classList.toggle("mascots-hidden", state.hideMascots);
+  elements.dailyQuote.hidden = state.hideDailyQuote;
+  elements.toggleDailyQuote.textContent = state.hideDailyQuote ? "顯示名人語錄" : "隱藏名人語錄";
+  elements.toggleDailyQuote.setAttribute("aria-pressed", String(state.hideDailyQuote));
+  elements.weeklyEncouragement.hidden = state.hideEncouragement;
+  elements.toggleEncouragement.textContent = state.hideEncouragement ? "顯示打氣說話" : "隱藏打氣說話";
+  elements.toggleEncouragement.setAttribute("aria-pressed", String(state.hideEncouragement));
+  updateEncouragementControls();
   updateSelectionControls();
   updateMassEditControls();
 }
@@ -1243,8 +1309,17 @@ function unusedSlotsAreHidden() {
 function normalizeDisplayPreferences(value) {
   return {
     hideUnused: value?.hideUnused === true,
-    hideMascots: value?.hideMascots === true
+    hideMascots: value?.hideMascots === true,
+    hideDailyQuote: value?.hideDailyQuote === true,
+    hideEncouragement: value?.hideEncouragement === true
   };
+}
+
+function restoreDisplayPreferences(preferences) {
+  state.hideUnused = preferences.hideUnused;
+  state.hideMascots = preferences.hideMascots;
+  state.hideDailyQuote = preferences.hideDailyQuote;
+  state.hideEncouragement = preferences.hideEncouragement;
 }
 
 function displayPreferenceOwner() {
@@ -1257,8 +1332,7 @@ function displayPreferenceOwner() {
 
 function applySavedDisplayPreferences(value) {
   const preferences = normalizeDisplayPreferences(value);
-  state.hideUnused = preferences.hideUnused;
-  state.hideMascots = preferences.hideMascots;
+  restoreDisplayPreferences(preferences);
   applyDisplayPreferences();
 }
 
@@ -1318,6 +1392,8 @@ function resetSelectionMode() {
 
 function updateSelectionControls() {
   if (!elements.toggleSelection) return;
+  elements.toggleDailyQuote.disabled = state.mutationInFlight;
+  elements.toggleEncouragement.disabled = state.mutationInFlight;
   if (state.massEditMode) {
     elements.selectionActions.hidden = true;
     elements.toggleSelection.setAttribute("aria-pressed", String(state.clipboardSelectionMode));
@@ -1368,6 +1444,8 @@ function setMutationInFlight(busy) {
   state.mutationInFlight = Boolean(busy);
   elements.toggleUnused.disabled = busy;
   elements.toggleMascots.disabled = busy;
+  elements.toggleDailyQuote.disabled = busy;
+  elements.toggleEncouragement.disabled = busy;
   elements.toggleSelection.disabled = busy;
   updateSelectionControls();
   updateMassEditControls();
@@ -1420,8 +1498,7 @@ async function toggleUnusedSlots() {
   } catch (error) {
     if (!isCurrentRequest()) return;
     console.warn("Schedule display preference save failed", error);
-    state.hideUnused = previous.hideUnused;
-    state.hideMascots = previous.hideMascots;
+    restoreDisplayPreferences(previous);
     state.showUnusedTemporarily = false;
     applyDisplayPreferences();
     renderWeek();
@@ -1453,14 +1530,155 @@ async function toggleMascots() {
   } catch (error) {
     if (!isCurrentRequest()) return;
     console.warn("Schedule mascot preference save failed", error);
-    state.hideUnused = previous.hideUnused;
-    state.hideMascots = previous.hideMascots;
+    restoreDisplayPreferences(previous);
     applyDisplayPreferences();
     setStatus(elements.calendarStatus, error.message || "未能儲存吉祥物設定。", "error");
     if (isExpiredSessionError(error)) await logout();
   } finally {
     if (isCurrentRequest()) setMutationInFlight(false);
   }
+}
+
+async function toggleStoredPanelPreference({ stateKey, patchKey, hiddenLabel, visibleLabel }) {
+  if (state.mutationInFlight || !activeStudent()) return;
+  const owner = displayPreferenceOwner();
+  const requestId = state.displayPreferenceRequestId + 1;
+  state.displayPreferenceRequestId = requestId;
+  const isCurrentRequest = () => (
+    state.displayPreferenceRequestId === requestId && displayPreferenceOwner() === owner
+  );
+  const previous = normalizeDisplayPreferences(state);
+  const next = !state[stateKey];
+  state[stateKey] = next;
+  applyDisplayPreferences();
+  setMutationInFlight(true);
+  try {
+    const saved = await saveDisplayPreferences({ [patchKey]: next });
+    if (!isCurrentRequest()) return;
+    applySavedDisplayPreferences(saved);
+    showToast(next ? hiddenLabel : visibleLabel);
+  } catch (error) {
+    if (!isCurrentRequest()) return;
+    console.warn("Schedule panel preference save failed", error);
+    restoreDisplayPreferences(previous);
+    applyDisplayPreferences();
+    setStatus(elements.calendarStatus, error.message || "未能儲存顯示設定。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    if (isCurrentRequest()) setMutationInFlight(false);
+  }
+}
+
+function toggleDailyQuoteVisibility() {
+  return toggleStoredPanelPreference({
+    stateKey: "hideDailyQuote",
+    patchKey: "hideDailyQuote",
+    hiddenLabel: "已隱藏每日名人語錄。",
+    visibleLabel: "已顯示每日名人語錄。"
+  });
+}
+
+function toggleEncouragementVisibility() {
+  return toggleStoredPanelPreference({
+    stateKey: "hideEncouragement",
+    patchKey: "hideEncouragement",
+    hiddenLabel: "已隱藏本週打氣說話。",
+    visibleLabel: "已顯示本週打氣說話。"
+  });
+}
+
+function normalizeEncouragement(value) {
+  return {
+    message: typeof value?.message === "string" ? value.message : "",
+    updatedAt: value?.updatedAt || null,
+    previousMessage: typeof value?.previousMessage === "string" ? value.previousMessage : "",
+    canUsePrevious: value?.canUsePrevious === true
+  };
+}
+
+function updateEncouragementControls() {
+  if (!elements.encouragementMessage) return;
+  const encouragement = normalizeEncouragement(state.weekPayload?.encouragement);
+  const unavailable = !activeStudent() || state.encouragementBusy;
+  elements.encouragementMessage.disabled = unavailable;
+  elements.saveEncouragement.disabled = unavailable;
+  elements.useLastEncouragement.disabled = unavailable;
+  elements.useLastEncouragement.hidden = !encouragement.canUsePrevious || Boolean(encouragement.message);
+}
+
+function renderEncouragementFromPayload(statusText = "", status = "") {
+  if (!elements.encouragementMessage) return;
+  const encouragement = normalizeEncouragement(state.weekPayload?.encouragement);
+  elements.encouragementMessage.value = encouragement.message;
+  setStatus(elements.encouragementStatus, statusText, status);
+  updateEncouragementControls();
+}
+
+async function mutateEncouragement(action, message = "") {
+  const student = activeStudent();
+  if (!student || !state.currentUser || state.encouragementBusy) return;
+  const owner = displayPreferenceOwner();
+  const requestedWeek = state.weekStart;
+  const requestId = state.encouragementRequestId + 1;
+  state.encouragementRequestId = requestId;
+  const isCurrentRequest = () => (
+    state.encouragementRequestId === requestId
+    && state.weekStart === requestedWeek
+    && displayPreferenceOwner() === owner
+  );
+
+  state.encouragementBusy = true;
+  updateEncouragementControls();
+  setStatus(elements.encouragementStatus, action === "carry" ? "正在沿用上星期的說話…" : "正在儲存…");
+  try {
+    let result;
+    if (state.currentUser.role === "admin") {
+      result = await callRpc(
+        action === "carry" ? "schedule_admin_use_previous_encouragement" : "schedule_admin_save_encouragement",
+        {
+          p_admin_token: state.currentUser.adminToken,
+          p_student_id: student.id,
+          p_week_start: requestedWeek,
+          ...(action === "save" ? { p_message: message } : {})
+        }
+      );
+    } else {
+      result = await callRpc(
+        action === "carry" ? "schedule_student_use_previous_encouragement" : "schedule_student_save_encouragement",
+        {
+          p_token: state.currentUser.studentToken,
+          p_week_start: requestedWeek,
+          ...(action === "save" ? { p_message: message } : {})
+        }
+      );
+    }
+    if (!isCurrentRequest()) return;
+    state.weekPayload.encouragement = normalizeEncouragement(result);
+    const savedMessage = state.weekPayload.encouragement.message;
+    renderEncouragementFromPayload(
+      savedMessage ? (action === "carry" ? "已沿用上星期的打氣說話。" : "已儲存本星期的打氣說話。") : "已清除本星期的打氣說話。",
+      "success"
+    );
+  } catch (error) {
+    if (!isCurrentRequest()) return;
+    console.warn("Schedule encouragement save failed", error);
+    setStatus(elements.encouragementStatus, error.message || "未能儲存打氣說話。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    if (isCurrentRequest()) {
+      state.encouragementBusy = false;
+      updateEncouragementControls();
+    }
+  }
+}
+
+function saveWeeklyEncouragement() {
+  const message = String(elements.encouragementMessage.value || "").trim();
+  return mutateEncouragement("save", message);
+}
+
+function usePreviousWeekEncouragement() {
+  return mutateEncouragement("carry");
 }
 
 function renderMetrics() {
@@ -3235,6 +3453,7 @@ async function loadWeek(focusTarget = null) {
   state.weekRequestId = requestId;
   state.weekPayload = emptyWeekPayload();
   elements.weekGrid.replaceChildren();
+  renderEncouragementFromPayload("正在載入本星期的打氣說話…");
   setMetricsUnavailable();
   elements.exportPdf.disabled = true;
   setStatus(elements.calendarStatus, "正在載入本星期安排…");
@@ -3243,16 +3462,29 @@ async function loadWeek(focusTarget = null) {
   updateCalendarHeading();
 
   try {
-    const payload = state.currentUser.role === "admin"
-      ? await callRpc("schedule_admin_get_week", {
-          p_admin_token: state.currentUser.adminToken,
-          p_student_id: student.id,
-          p_week_start: requestedWeek
-        })
-      : await callRpc("schedule_student_get_week", {
-          p_token: state.currentUser.studentToken,
-          p_week_start: requestedWeek
-        });
+    const [payload, encouragementPayload] = state.currentUser.role === "admin"
+      ? await Promise.all([
+          callRpc("schedule_admin_get_week", {
+            p_admin_token: state.currentUser.adminToken,
+            p_student_id: student.id,
+            p_week_start: requestedWeek
+          }),
+          callRpc("schedule_admin_get_encouragement", {
+            p_admin_token: state.currentUser.adminToken,
+            p_student_id: student.id,
+            p_week_start: requestedWeek
+          })
+        ])
+      : await Promise.all([
+          callRpc("schedule_student_get_week", {
+            p_token: state.currentUser.studentToken,
+            p_week_start: requestedWeek
+          }),
+          callRpc("schedule_student_get_encouragement", {
+            p_token: state.currentUser.studentToken,
+            p_week_start: requestedWeek
+          })
+        ]);
 
     if (requestId !== state.weekRequestId || requestedWeek !== state.weekStart) return;
     if (!payload || typeof payload !== "object") {
@@ -3288,7 +3520,8 @@ async function loadWeek(focusTarget = null) {
           }
         : emptyWeekPayload().metrics,
       countdownCapacity: Math.max(MIN_COUNTDOWNS, Math.min(MAX_COUNTDOWNS, Number(payload.countdownCapacity) || MIN_COUNTDOWNS)),
-      countdowns: Array.isArray(payload.countdowns) ? payload.countdowns : []
+      countdowns: Array.isArray(payload.countdowns) ? payload.countdowns : [],
+      encouragement: normalizeEncouragement(encouragementPayload)
     };
     if (state.massEditMode) {
       state.massEditOriginalEntries = cloneScheduleEntries(state.weekPayload.entries);
@@ -3298,6 +3531,7 @@ async function loadWeek(focusTarget = null) {
       setStatus(elements.massEditStatus, "Mass Edit 保持開啟：目前顯示的星期可直接批量編輯。");
     }
     renderWeek();
+    renderEncouragementFromPayload();
     renderMetrics();
     renderCountdowns();
     restoreCalendarFocus(focusTarget);
@@ -3307,6 +3541,7 @@ async function loadWeek(focusTarget = null) {
     if (requestId !== state.weekRequestId) return;
     console.warn("Schedule week load failed", error);
     setStatus(elements.calendarStatus, error.message || "未能載入本星期安排。", "error");
+    setStatus(elements.encouragementStatus, "未能載入本星期的打氣說話。", "error");
     if (isExpiredSessionError(error)) await logout();
   } finally {
     if (requestId === state.weekRequestId) {
@@ -5366,6 +5601,10 @@ elements.exportPdf.addEventListener("click", exportPdf);
 elements.toggleTable.addEventListener("click", toggleTableVisibility);
 elements.toggleUnused.addEventListener("click", toggleUnusedSlots);
 elements.toggleMascots.addEventListener("click", toggleMascots);
+elements.toggleDailyQuote.addEventListener("click", toggleDailyQuoteVisibility);
+elements.toggleEncouragement.addEventListener("click", toggleEncouragementVisibility);
+elements.saveEncouragement.addEventListener("click", saveWeeklyEncouragement);
+elements.useLastEncouragement.addEventListener("click", usePreviousWeekEncouragement);
 elements.toggleSelection?.addEventListener("click", () => {
   if (state.massEditMode) toggleClipboardSelectionMode();
   else toggleSelectionMode();

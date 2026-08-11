@@ -24,7 +24,7 @@ test("portal has the requested identity, shared login, and expanded dashboard hi
   assert.match(html, /data-custom-range-start/);
   assert.match(html, /data-custom-range-end/);
   assert.match(html, /data-schedule-snapshot/);
-  assert.match(html, /<span class="group-index">16<\/span>/);
+  assert.match(html, /<span class="group-index">31<\/span>/);
   assert.match(html, /data-schedule-previous/);
   assert.match(html, /data-schedule-next/);
   assert.match(html, /data-progress-export-open/);
@@ -45,6 +45,9 @@ test("portal has the requested identity, shared login, and expanded dashboard hi
   assert.match(script, /data-source-time-period/);
   assert.match(script, /data-source-time-all/);
   assert.match(script, /schedule_student_get_week/);
+  assert.match(script, /parseScheduleMessage\(value\)\.text/);
+  assert.match(script, /SCHEDULE_RESOURCE_MARKER/);
+  assert.match(script, /schedule-day-mascot/);
   assert.match(script, /p_token:\s*state\.authToken/);
   assert.match(script, /scheduleIsOwnStudentView/);
   assert.match(script, /state\.user\?\.role === "student"/);
@@ -74,7 +77,7 @@ test("student and parent portals share the complete-progress PDF chooser", async
   assert.match(exportScript, /buildSourceTimeSeries/);
 });
 
-test("core declares all fourteen source systems in the requested order", async () => {
+test("core declares every dashboard source system in portal order", async () => {
   const core = await read("student-progress-core.js");
   const expected = [
     "flashcards", "writingPractice", "sentenceStructure", "speaking",
@@ -82,7 +85,11 @@ test("core declares all fourteen source systems in the requested order", async (
     "commonExpressionSpeaking", "commonExpressionWritten",
     "commonExpressionRhetoricalSpeaking", "commonExpressionRhetoricalWriting",
     "commonExpressionProfessionalMessage", "commonExpressionBusinessSpeaking",
-    "writingSubmission"
+    "writingSubmission", "quotes", "grammar", "collocation",
+    "irregularVerb", "thematicVocabulary", "partOfSpeech", "synonyms",
+    "errorIdentifier", "spelling", "readingLogic", "translationSkills",
+    "businessSchool", "complexQuestions", "englishHumourSpeaking",
+    "englishHumourWriting"
   ];
   let previous = -1;
   for (const id of expected) {
@@ -107,7 +114,8 @@ test("database snapshot reads canonical tables and deduplicates retries by quest
     "proverb_system_attempts",
     "common_expression_question_completions",
     "common_expression_time_activity_days",
-    "writing_submissions"
+    "writing_submissions",
+    "learning_portal_progress_events"
   ]) assert.match(sql, new RegExp(`public\\.${table}`), table);
   assert.match(sql, /language sql\s+stable\s+security definer[\s\S]*?with\s+student_profile as/);
   assert.match(sql, /group by event\.system_id, event\.lesson_id, event\.question_id/);
@@ -129,6 +137,7 @@ test("database snapshot reads canonical tables and deduplicates retries by quest
   assert.doesNotMatch(submissionCte, /deleted_at/, "soft-deleted articles must remain in historical progress");
   assert.match(submissionCte, /duration_seconds::bigint \* 1000/);
   assert.match(sql, /'timeZone', 'Asia\/Hong_Kong'/);
+  assert.match(sql, /_student_progress_learning_portal_source/);
   assert.doesNotMatch(sql, /pg_catalog\.(?:coalesce|greatest|least|nullif)\(/, "SQL special expressions cannot be schema-qualified");
 });
 
@@ -193,7 +202,7 @@ test("SQL migration has complete transaction and function delimiters", async () 
   assert.match(sql, /^-- EdmundEducation unified student progress portal/);
   assert.match(sql, /\nbegin;[\s\S]*\ncommit;\s*$/);
   assert.equal((sql.match(/\$\$/g) || []).length % 2, 0, "dollar-quoted functions must be balanced");
-  assert.equal((sql.match(/create or replace function/g) || []).length, 13);
+  assert.equal((sql.match(/create or replace function/g) || []).length, 14);
 });
 
 test("ISO round submission time wins across the Hong Kong midnight boundary", async () => {

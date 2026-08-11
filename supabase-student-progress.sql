@@ -49,6 +49,43 @@ create unique index if not exists writing_student_accounts_name_normalized_idx
     pg_catalog.lower(pg_catalog.btrim(name))
   );
 
+-- Canonical progress events for the newer learning-portal family. The portals
+-- currently have no exercises, so this table is empty on first release; future
+-- content can record a stable event key without changing the unified dashboard
+-- schema or creating a second copy of its progress data.
+create table if not exists public.learning_portal_progress_events (
+  id uuid primary key default gen_random_uuid(),
+  student_id uuid not null
+    references public.flashcard_students(id) on delete cascade,
+  system_key text not null,
+  event_key text not null,
+  activity_count integer not null default 0,
+  duration_ms bigint not null default 0,
+  occurred_at timestamptz not null default now(),
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  check (system_key in (
+    'quotes', 'grammar', 'collocation', 'irregular-verb',
+    'thematic-vocabulary', 'part-of-speech', 'synonyms',
+    'error-identifier', 'spelling', 'reading-logic',
+    'translation-skills', 'business-school', 'complex-questions',
+    'english-humour-speaking', 'english-humour-writing'
+  )),
+  check (event_key = pg_catalog.btrim(event_key)),
+  check (pg_catalog.char_length(event_key) between 1 and 240),
+  check (event_key !~ '[[:cntrl:]]'),
+  check (activity_count between 0 and 100000),
+  check (duration_ms between 0 and 86400000),
+  unique (student_id, system_key, event_key)
+);
+
+create index if not exists learning_portal_progress_student_system_date_idx
+  on public.learning_portal_progress_events (student_id, system_key, occurred_at);
+
+alter table public.learning_portal_progress_events enable row level security;
+revoke all on table public.learning_portal_progress_events
+  from public, anon, authenticated, service_role;
+
 create table if not exists public.student_progress_admin_accounts (
   id uuid primary key default gen_random_uuid(),
   name text not null,
@@ -379,8 +416,54 @@ exception
 end;
 $$;
 
+create or replace function public._student_progress_learning_portal_source(
+  p_student_id uuid,
+  p_system_key text
+)
+returns jsonb
+language sql
+stable
+security definer
+set search_path = ''
+as $$
+  select pg_catalog.jsonb_build_object(
+    'activityDays', coalesce((
+      select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date,
+        'questions', day.questions
+      ) order by day.activity_date)
+      from (
+        select
+          (event.occurred_at at time zone 'Asia/Hong_Kong')::date as activity_date,
+          pg_catalog.sum(event.activity_count)::bigint as questions
+        from public.learning_portal_progress_events event
+        where event.student_id = p_student_id
+          and event.system_key = p_system_key
+          and event.activity_count > 0
+        group by 1
+      ) day
+    ), '[]'::jsonb),
+    'timeDays', coalesce((
+      select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
+        'date', day.activity_date,
+        'totalMs', day.total_ms
+      ) order by day.activity_date)
+      from (
+        select
+          (event.occurred_at at time zone 'Asia/Hong_Kong')::date as activity_date,
+          pg_catalog.sum(event.duration_ms)::bigint as total_ms
+        from public.learning_portal_progress_events event
+        where event.student_id = p_student_id
+          and event.system_key = p_system_key
+          and event.duration_ms > 0
+        group by 1
+      ) day
+    ), '[]'::jsonb)
+  );
+$$;
+
 -- One SQL statement builds the complete portal payload. PostgreSQL therefore
--- evaluates all fourteen systems against one MVCC snapshot.
+-- evaluates all dashboard systems against one MVCC snapshot.
 create or replace function public._student_progress_snapshot(p_student_id uuid)
 returns jsonb
 language sql
@@ -820,7 +903,22 @@ sources_json as (
       'timeDays', coalesce((select pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
         'date', day.activity_date, 'totalMs', day.total_ms
       ) order by day.activity_date) from writing_submission_days day where day.total_ms > 0), '[]'::jsonb)
-    )
+    ),
+    'quotes', public._student_progress_learning_portal_source(p_student_id, 'quotes'),
+    'grammar', public._student_progress_learning_portal_source(p_student_id, 'grammar'),
+    'collocation', public._student_progress_learning_portal_source(p_student_id, 'collocation'),
+    'irregularVerb', public._student_progress_learning_portal_source(p_student_id, 'irregular-verb'),
+    'thematicVocabulary', public._student_progress_learning_portal_source(p_student_id, 'thematic-vocabulary'),
+    'partOfSpeech', public._student_progress_learning_portal_source(p_student_id, 'part-of-speech'),
+    'synonyms', public._student_progress_learning_portal_source(p_student_id, 'synonyms'),
+    'errorIdentifier', public._student_progress_learning_portal_source(p_student_id, 'error-identifier'),
+    'spelling', public._student_progress_learning_portal_source(p_student_id, 'spelling'),
+    'readingLogic', public._student_progress_learning_portal_source(p_student_id, 'reading-logic'),
+    'translationSkills', public._student_progress_learning_portal_source(p_student_id, 'translation-skills'),
+    'businessSchool', public._student_progress_learning_portal_source(p_student_id, 'business-school'),
+    'complexQuestions', public._student_progress_learning_portal_source(p_student_id, 'complex-questions'),
+    'englishHumourSpeaking', public._student_progress_learning_portal_source(p_student_id, 'english-humour-speaking'),
+    'englishHumourWriting', public._student_progress_learning_portal_source(p_student_id, 'english-humour-writing')
   ) as value
 )
 select pg_catalog.jsonb_build_object(
@@ -875,6 +973,8 @@ revoke all on function public._student_progress_admin_id(uuid)
 revoke all on function public._student_progress_json_number(jsonb)
   from public, anon, authenticated, service_role;
 revoke all on function public._student_progress_json_timestamptz(jsonb)
+  from public, anon, authenticated, service_role;
+revoke all on function public._student_progress_learning_portal_source(uuid, text)
   from public, anon, authenticated, service_role;
 revoke all on function public._student_progress_snapshot(uuid)
   from public, anon, authenticated, service_role;
