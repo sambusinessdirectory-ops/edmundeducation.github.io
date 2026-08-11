@@ -14,9 +14,6 @@ import tempfile
 import zlib
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
-
-
 R2_PREFIX = "IELTS Listening - Practice Papers"
 EXPECTED_PRACTICES = set(range(1, 21))
 FILENAME_PATTERN = re.compile(
@@ -182,6 +179,15 @@ def main() -> None:
     parser.add_argument("--site-root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--workers", type=int, default=6)
     args = parser.parse_args()
+
+    global Image, ImageDraw, ImageFont
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except ModuleNotFoundError as exc:
+        raise SystemExit(
+            "Pillow is required to build Listening thumbnails. Install it with "
+            "`python3 -m pip install -r tools/requirements-ielts-listening-downloads.txt`."
+        ) from exc
 
     source = args.source.expanduser().resolve()
     site_root = args.site_root.expanduser().resolve()

@@ -52,6 +52,15 @@ IELTS Task 1 with `tools/build-ielts-task1-download-catalog.py`,
 Task 2 with `tools/build-model-essay-catalog.py`, IELTS Speaking with
 `tools/build-ielts-speaking-download-catalog.py`, and IELTS Listening with
 `tools/build-ielts-listening-download-catalog.py` whenever PDFs change.
+The Listening builder requires Poppler (`pdfinfo` and `pdftoppm`), `cwebp`,
+and the pinned Python imaging dependency. Install the Python dependency before
+regenerating the catalogue and thumbnails:
+
+```bash
+python3 -m pip install -r tools/requirements-ielts-listening-downloads.txt
+python3 tools/build-ielts-listening-download-catalog.py "/path/to/IELTS Listening PDFs"
+```
+
 The Task 1 builder requires all three local batches plus the two retained legacy
 variants because it generates one combined 62-file catalogue while preserving
 each batch's exact R2 prefix:
