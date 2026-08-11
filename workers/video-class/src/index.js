@@ -5,17 +5,23 @@ const SERVICE_NAME = "edmund-video-class";
 const DEFAULT_ALLOWED_ORIGIN = "https://edmundeducation.com";
 const PLAYBACK_TOKEN_TTL_SECONDS = 2 * 60 * 60;
 const MAX_JSON_BYTES = 16 * 1024;
+const TURNSTILE_SITEVERIFY_URL = "https://challenges.cloudflare.com/turnstile/v0/siteverify";
+const TURNSTILE_TOKEN_MAX_LENGTH = 2048;
+const TURNSTILE_TIMEOUT_MS = 8000;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const SLUG_RE = /^[a-z0-9](?:[a-z0-9-]{0,78}[a-z0-9])?$/;
 const COURSE_CODE_RE = /^[a-z0-9](?:[a-z0-9-]{0,62}[a-z0-9])?$/;
 const HEARTBEAT_EVENTS = new Set(["play", "pause", "progress", "heartbeat", "seek", "ended", "close", "hidden", "pagehide"]);
 
 class HttpError extends Error {
-  constructor(status, publicMessage) {
+  constructor(status, publicMessage, options = {}) {
     super(publicMessage);
     this.name = "HttpError";
     this.status = status;
     this.publicMessage = publicMessage;
+    this.code = String(options.code || "");
+    this.challengeRequired = options.challengeRequired === true;
+    this.retryAfter = nullablePositiveInteger(options.retryAfter);
   }
 }
 
@@ -26,7 +32,17 @@ export default {
     } catch (error) {
       if (error instanceof HttpError) {
         if (error.status >= 500) console.error(`${SERVICE_NAME}: ${error.publicMessage}`);
-        const response = json(request, env, { error: error.publicMessage }, error.status);
+        const body = error.code
+          ? {
+              error: {
+                code: error.code,
+                message: error.publicMessage,
+                challengeRequired: error.challengeRequired,
+                retryAfterSeconds: error.retryAfter || 0
+              }
+            }
+          : { error: error.publicMessage };
+        const response = json(request, env, body, error.status);
         if (error.retryAfter) response.headers.set("Retry-After", String(error.retryAfter));
         return response;
       }
@@ -147,16 +163,31 @@ async function studentLogin(request, env) {
   const body = await readJson(request, 4096);
   const name = String(body.name || body.username || "").trim();
   const password = String(body.password || "");
+  const turnstileToken = String(body.turnstileToken || body.turnstile_token || "").trim();
   if (!name || name.length > 100 || !password || password.length > 200) {
     throw new HttpError(400, "Invalid login request");
+  }
+  if (turnstileToken.length > TURNSTILE_TOKEN_MAX_LENGTH) {
+    throw new HttpError(400, "Invalid login request");
+  }
+
+  const turnstileVerified = turnstileToken
+    ? await validateTurnstile(request, env, turnstileToken, "student_login")
+    : false;
+  if (turnstileToken && !turnstileVerified) {
+    throw new HttpError(403, "Security verification is invalid or expired", {
+      code: "TURNSTILE_INVALID",
+      challengeRequired: true
+    });
   }
 
   const rows = await serviceRpc(env, "video_class_student_login", {
     p_name: name,
-    p_password: password
+    p_password: password,
+    p_turnstile_verified: turnstileVerified
   });
   const row = firstRow(rows);
-  if (!row) throw new HttpError(401, "Incorrect login or video class access is not enabled");
+  assertLoginOutcome(row, { role: "student", turnstileToken, turnstileVerified });
   const token = String(row.video_token || "");
   if (!UUID_RE.test(token)) throw new HttpError(502, "Student session could not be created");
 
@@ -215,16 +246,31 @@ async function adminLogin(request, env) {
   const body = await readJson(request, 4096);
   const name = String(body.name || body.username || "").trim();
   const password = String(body.password || "");
+  const turnstileToken = String(body.turnstileToken || body.turnstile_token || "").trim();
   if (!name || name.length > 100 || !password || password.length > 200) {
     throw new HttpError(400, "Invalid login request");
+  }
+  if (turnstileToken.length > TURNSTILE_TOKEN_MAX_LENGTH) {
+    throw new HttpError(400, "Invalid login request");
+  }
+
+  const turnstileVerified = turnstileToken
+    ? await validateTurnstile(request, env, turnstileToken, "admin_login")
+    : false;
+  if (turnstileToken && !turnstileVerified) {
+    throw new HttpError(403, "Security verification is invalid or expired", {
+      code: "TURNSTILE_INVALID",
+      challengeRequired: true
+    });
   }
 
   const rows = await serviceRpc(env, "video_class_admin_login", {
     p_name: name,
-    p_password: password
+    p_password: password,
+    p_turnstile_verified: turnstileVerified
   });
   const row = firstRow(rows);
-  if (!row) throw new HttpError(401, "Incorrect administrator login");
+  assertLoginOutcome(row, { role: "admin", turnstileToken, turnstileVerified });
   const token = String(row.admin_token || "");
   if (!UUID_RE.test(token)) throw new HttpError(502, "Administrator session could not be created");
 
@@ -233,6 +279,41 @@ async function adminLogin(request, env) {
     expiresAt: row.expires_at || null,
     admin: mapAdmin(row)
   }, 200);
+}
+
+function assertLoginOutcome(row, options) {
+  if (!row || typeof row !== "object") {
+    throw new HttpError(502, "Login protection returned an invalid response");
+  }
+
+  const outcome = String(row.outcome || "");
+  if (outcome === "success") return;
+
+  const challengeRequired = row.challenge_required === true;
+  if (outcome === "blocked") {
+    const retryAfter = Math.min(900, nullablePositiveInteger(row.retry_after_seconds) || 1);
+    throw new HttpError(429, "Login temporarily delayed; please try again shortly", {
+      code: "LOGIN_DELAYED",
+      challengeRequired: true,
+      retryAfter
+    });
+  }
+
+  if (outcome === "challenge_required") {
+    throw new HttpError(403, "Security verification is required", {
+      code: options.turnstileToken && !options.turnstileVerified ? "TURNSTILE_INVALID" : "TURNSTILE_REQUIRED",
+      challengeRequired: true
+    });
+  }
+
+  if (outcome === "invalid") {
+    throw new HttpError(401, options.role === "admin" ? "Incorrect administrator login" : "Incorrect login or video class access is not enabled", {
+      code: "INVALID_CREDENTIALS",
+      challengeRequired
+    });
+  }
+
+  throw new HttpError(502, "Login protection returned an invalid response");
 }
 
 async function adminSession(request, env) {
@@ -856,10 +937,71 @@ async function enforceRateLimit(request, env, bindingName, namespace, retrySecon
     throw new HttpError(503, "Login protection is temporarily unavailable");
   }
   if (!result.success) {
-    const error = new HttpError(429, "Too many login attempts; please try again shortly");
-    error.retryAfter = retrySeconds;
-    throw error;
+    throw new HttpError(429, "Too many login attempts; please try again shortly", {
+      code: "IP_RATE_LIMITED",
+      retryAfter: retrySeconds
+    });
   }
+}
+
+async function validateTurnstile(request, env, token, expectedAction) {
+  const secret = String(env.VIDEO_CLASS_TURNSTILE_SECRET || "");
+  if (secret.length < 20) {
+    throw new HttpError(503, "Security verification is not configured", {
+      code: "TURNSTILE_UNAVAILABLE",
+      challengeRequired: true
+    });
+  }
+
+  let expectedHostname;
+  try {
+    expectedHostname = new URL(String(env.ALLOWED_ORIGIN || DEFAULT_ALLOWED_ORIGIN)).hostname.toLowerCase();
+  } catch {
+    throw new HttpError(503, "Security verification is not configured", {
+      code: "TURNSTILE_UNAVAILABLE",
+      challengeRequired: true
+    });
+  }
+
+  const body = new URLSearchParams({ secret, response: token });
+  const remoteIp = String(request.headers.get("CF-Connecting-IP") || "").trim();
+  if (remoteIp) body.set("remoteip", remoteIp);
+
+  let response;
+  try {
+    response = await fetch(TURNSTILE_SITEVERIFY_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body,
+      signal: AbortSignal.timeout(TURNSTILE_TIMEOUT_MS)
+    });
+  } catch {
+    throw new HttpError(503, "Security verification is temporarily unavailable", {
+      code: "TURNSTILE_UNAVAILABLE",
+      challengeRequired: true
+    });
+  }
+
+  if (!response.ok) {
+    throw new HttpError(503, "Security verification is temporarily unavailable", {
+      code: "TURNSTILE_UNAVAILABLE",
+      challengeRequired: true
+    });
+  }
+
+  let result;
+  try {
+    result = await response.json();
+  } catch {
+    throw new HttpError(503, "Security verification returned an invalid response", {
+      code: "TURNSTILE_UNAVAILABLE",
+      challengeRequired: true
+    });
+  }
+
+  return result?.success === true
+    && String(result.hostname || "").toLowerCase() === expectedHostname
+    && String(result.action || "") === expectedAction;
 }
 
 async function readJson(request, maxBytes = MAX_JSON_BYTES) {
@@ -901,7 +1043,7 @@ function corsHeaders(origin, env) {
   const headers = new Headers({
     "Access-Control-Allow-Headers": "Authorization, Content-Type, Range",
     "Access-Control-Allow-Methods": "GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS",
-    "Access-Control-Expose-Headers": "Accept-Ranges, Content-Length, Content-Range, ETag, Last-Modified",
+    "Access-Control-Expose-Headers": "Accept-Ranges, Content-Length, Content-Range, ETag, Last-Modified, Retry-After",
     "Access-Control-Max-Age": "600",
     "Vary": "Origin"
   });

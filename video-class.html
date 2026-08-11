@@ -2,7 +2,7 @@
 <html lang="zh-Hant" class="frame-guard">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://edmund-video-class.edmundeducation.workers.dev; media-src https://edmund-video-class.edmundeducation.workers.dev; frame-src 'none'; worker-src 'self'; manifest-src 'self'; form-action 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://edmund-video-class.edmundeducation.workers.dev https://challenges.cloudflare.com; media-src https://edmund-video-class.edmundeducation.workers.dev; frame-src https://challenges.cloudflare.com; worker-src 'self'; manifest-src 'self'; form-action 'self'">
   <title>Edmund Sir 錄影班學習平台 | EdmundEducation</title>
   <meta name="description" content="EdmundEducation 錄影班學生學習平台。">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -22,7 +22,7 @@
   <style>.frame-guard body{display:none!important}</style>
   <script src="video-class-frame-guard.js?v=20260810-1"></script>
   <link rel="stylesheet" href="/pwa-ui.css">
-  <link rel="stylesheet" href="video-class.css?v=20260811-1">
+  <link rel="stylesheet" href="video-class.css?v=20260811-2">
   <script defer src="/pwa-register.js"></script>
 </head>
 
@@ -102,6 +102,13 @@
                 <button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button>
               </span>
             </div>
+            <fieldset class="login-challenge" data-turnstile-challenge="student" hidden>
+              <legend tabindex="-1">安全驗證</legend>
+              <p>登入失敗次數較多，請完成以下驗證後再試。</p>
+              <div class="turnstile-widget" data-turnstile-widget="student"></div>
+              <p class="turnstile-status" data-turnstile-status="student" role="status" aria-live="polite" aria-atomic="true"></p>
+              <button class="turnstile-retry" type="button" data-turnstile-retry="student" hidden>重新載入安全驗證</button>
+            </fieldset>
             <p class="form-status" data-form-status="student" role="status" aria-live="polite"></p>
             <button class="primary-button" type="submit" data-login-submit="student">
               <span>進入我的課堂</span><span aria-hidden="true">→</span>
@@ -123,6 +130,13 @@
                 <button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button>
               </span>
             </div>
+            <fieldset class="login-challenge" data-turnstile-challenge="admin" hidden>
+              <legend tabindex="-1">安全驗證</legend>
+              <p>登入失敗次數較多，請完成以下驗證後再試。</p>
+              <div class="turnstile-widget" data-turnstile-widget="admin"></div>
+              <p class="turnstile-status" data-turnstile-status="admin" role="status" aria-live="polite" aria-atomic="true"></p>
+              <button class="turnstile-retry" type="button" data-turnstile-retry="admin" hidden>重新載入安全驗證</button>
+            </fieldset>
             <p class="form-status" data-form-status="admin" role="status" aria-live="polite"></p>
             <button class="primary-button" type="submit" data-login-submit="admin">
               <span>進入管理面板</span><span aria-hidden="true">→</span>
@@ -364,8 +378,8 @@
   <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
   <noscript><p class="noscript-message">請啟用 JavaScript 使用錄影班學習平台。</p></noscript>
 
-  <script defer src="video-class-config.js?v=20260810-1"></script>
+  <script defer src="video-class-config.js?v=20260811-2"></script>
   <script defer src="shared-system-nav.js?v=20260810-5"></script>
-  <script defer src="video-class.js?v=20260811-1"></script>
+  <script defer src="video-class.js?v=20260811-2"></script>
 </body>
 </html>

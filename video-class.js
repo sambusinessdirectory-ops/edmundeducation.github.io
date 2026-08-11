@@ -3,6 +3,8 @@
 
   const configuration = window.EDMUND_VIDEO_CLASS || {};
   const apiBase = String(configuration.apiBase || "").replace(/\/+$/, "");
+  const turnstileSiteKey = String(configuration.turnstileSiteKey || "").trim();
+  const TURNSTILE_SCRIPT_URL = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
   const requestTimeoutMs = Number(configuration.requestTimeoutMs) || 20000;
   const heartbeatIntervalMs = Math.max(10000, Number(configuration.heartbeatIntervalMs) || 15000);
   const STUDENT_INACTIVITY_MS = 30 * 60 * 1000;
@@ -30,6 +32,10 @@
     roleTabs: Array.from(document.querySelectorAll("[data-role-tab]")),
     loginPanels: Array.from(document.querySelectorAll("[data-login-panel]")),
     loginForms: Array.from(document.querySelectorAll("[data-login-form]")),
+    turnstileChallenges: Array.from(document.querySelectorAll("[data-turnstile-challenge]")),
+    turnstileWidgets: Array.from(document.querySelectorAll("[data-turnstile-widget]")),
+    turnstileStatuses: Array.from(document.querySelectorAll("[data-turnstile-status]")),
+    turnstileRetries: Array.from(document.querySelectorAll("[data-turnstile-retry]")),
     universalSession: document.querySelector("[data-universal-session]"),
     universalName: document.querySelector("[data-universal-name]"),
     useUniversal: document.querySelector("[data-use-universal-session]"),
@@ -125,15 +131,25 @@
     toastTimer: 0,
     heartbeatInFlight: false,
     isLoggingOut: false,
-    seeking: false
+    seeking: false,
+    turnstile: {
+      student: { required: false, token: "", widgetId: null, identifier: "", cooldownUntil: 0, cooldownTimer: 0, rendering: false, generation: 0 },
+      admin: { required: false, token: "", widgetId: null, identifier: "", cooldownUntil: 0, cooldownTimer: 0, rendering: false, generation: 0 }
+    }
   };
 
+  let turnstileScriptPromise = null;
+
   class ApiError extends Error {
-    constructor(message, status = 0, code = "") {
+    constructor(message, status = 0, code = "", options = {}) {
       super(message);
       this.name = "ApiError";
       this.status = status;
       this.code = code;
+      this.challengeRequired = options.challengeRequired === true;
+      this.retryAfterSeconds = Number.isFinite(Number(options.retryAfterSeconds))
+        ? Math.max(0, Math.ceil(Number(options.retryAfterSeconds)))
+        : 0;
     }
   }
 
@@ -205,8 +221,21 @@
       }
       setConnection("online", "服務已連接");
       if (!response.ok) {
-        const code = String(payload?.error?.code || payload?.code || "");
-        throw new ApiError(getErrorMessage(payload, response.status === 401 ? "登入已失效，請重新登入。" : "服務暫時未能完成要求。"), response.status, code);
+        const nestedError = payload?.error && typeof payload.error === "object" ? payload.error : {};
+        const code = String(nestedError.code || payload?.code || "");
+        const headerRetryAfter = Number(response.headers.get("Retry-After") || 0);
+        const payloadRetryAfter = Number(nestedError.retryAfterSeconds || payload?.retryAfterSeconds || 0);
+        throw new ApiError(
+          getErrorMessage(payload, response.status === 401 ? "登入已失效，請重新登入。" : "服務暫時未能完成要求。"),
+          response.status,
+          code,
+          {
+            challengeRequired: nestedError.challengeRequired === true || payload?.challengeRequired === true,
+            retryAfterSeconds: Number.isFinite(payloadRetryAfter) && payloadRetryAfter > 0
+              ? payloadRetryAfter
+              : headerRetryAfter
+          }
+        );
       }
       return payload;
     } catch (error) {
@@ -251,9 +280,11 @@
     Array.from(form.elements).forEach(control => { control.disabled = busy; });
     form.setAttribute("aria-busy", String(busy));
     const submit = form.querySelector("[data-login-submit]");
-    if (!submit) return;
-    const label = submit.querySelector("span:first-child");
-    if (label) label.textContent = busy ? "正在驗證⋯" : (form.dataset.loginForm === "admin" ? "進入管理面板" : "進入我的課堂");
+    if (submit) {
+      const label = submit.querySelector("span:first-child");
+      if (label) label.textContent = busy ? "正在驗證⋯" : (form.dataset.loginForm === "admin" ? "進入管理面板" : "進入我的課堂");
+    }
+    updateLoginSubmitState(form.dataset.loginForm);
   }
 
   function normalizedProfile(value, role) {
@@ -339,6 +370,7 @@
     });
     elements.loginPanels.forEach(panel => { panel.hidden = panel.dataset.loginPanel !== role; });
     setFormStatus(role, "");
+    if (state.turnstile[role]?.required && !isTurnstileCooldownActive(role)) void renderTurnstile(role);
   }
 
   function refreshUniversalSessionOffer() {
@@ -348,6 +380,290 @@
     if (!elements.universalSession) return;
     elements.universalSession.hidden = !state.universalSession;
     if (state.universalSession) elements.universalName.textContent = state.universalSession.name || "已登入學生";
+  }
+
+  function normalizeLoginIdentifier(value) {
+    return String(value || "").trim().toLocaleLowerCase();
+  }
+
+  function getTurnstileElements(role) {
+    return {
+      form: elements.loginForms.find(item => item.dataset.loginForm === role),
+      challenge: elements.turnstileChallenges.find(item => item.dataset.turnstileChallenge === role),
+      widget: elements.turnstileWidgets.find(item => item.dataset.turnstileWidget === role),
+      status: elements.turnstileStatuses.find(item => item.dataset.turnstileStatus === role),
+      retry: elements.turnstileRetries.find(item => item.dataset.turnstileRetry === role)
+    };
+  }
+
+  function setTurnstileStatus(role, message, type = "") {
+    const { status } = getTurnstileElements(role);
+    if (!status) return;
+    status.textContent = message;
+    if (type) status.dataset.state = type;
+    else delete status.dataset.state;
+  }
+
+  function isTurnstileCooldownActive(role) {
+    return Number(state.turnstile[role]?.cooldownUntil || 0) > Date.now();
+  }
+
+  function updateLoginSubmitState(role) {
+    const turnstile = state.turnstile[role];
+    const { form } = getTurnstileElements(role);
+    const submit = form?.querySelector("[data-login-submit]");
+    if (!turnstile || !form || !submit) return;
+    const busy = form.getAttribute("aria-busy") === "true";
+    submit.disabled = busy
+      || isTurnstileCooldownActive(role)
+      || (turnstile.required && !turnstile.token);
+  }
+
+  function loadTurnstileScript() {
+    if (window.turnstile?.render) return Promise.resolve(window.turnstile);
+    if (!turnstileSiteKey) return Promise.reject(new Error("Turnstile site key is missing"));
+    if (turnstileScriptPromise) return turnstileScriptPromise;
+
+    turnstileScriptPromise = new Promise((resolve, reject) => {
+      let script = document.querySelector("script[data-edmund-turnstile]");
+      let settled = false;
+      let timeoutId = 0;
+      const cleanup = () => {
+        window.clearTimeout(timeoutId);
+        script?.removeEventListener("load", loaded);
+        script?.removeEventListener("error", failed);
+      };
+      const resolveApi = () => {
+        if (settled) return;
+        if (!window.turnstile?.render) {
+          failed();
+          return;
+        }
+        settled = true;
+        cleanup();
+        resolve(window.turnstile);
+      };
+      const loaded = () => {
+        if (script) script.dataset.edmundTurnstileLoaded = "true";
+        if (typeof window.turnstile?.ready === "function") window.turnstile.ready(resolveApi);
+        else resolveApi();
+      };
+      const failed = () => {
+        if (settled) return;
+        settled = true;
+        cleanup();
+        script?.remove();
+        turnstileScriptPromise = null;
+        reject(new Error("Turnstile script failed to load"));
+      };
+
+      if (script?.dataset.edmundTurnstileLoaded === "true" && !window.turnstile?.render) {
+        script.remove();
+        script = null;
+      }
+      if (script) {
+        script.addEventListener("load", loaded, { once: true });
+        script.addEventListener("error", failed, { once: true });
+        timeoutId = window.setTimeout(failed, 12000);
+        return;
+      }
+
+      script = document.createElement("script");
+      script.src = TURNSTILE_SCRIPT_URL;
+      script.async = true;
+      script.defer = true;
+      script.dataset.edmundTurnstile = "true";
+      script.addEventListener("load", loaded, { once: true });
+      script.addEventListener("error", failed, { once: true });
+      timeoutId = window.setTimeout(failed, 12000);
+      document.head.append(script);
+    });
+
+    return turnstileScriptPromise;
+  }
+
+  function destroyTurnstileWidget(role) {
+    const turnstile = state.turnstile[role];
+    const { widget } = getTurnstileElements(role);
+    turnstile.generation += 1;
+    turnstile.token = "";
+    if (turnstile.widgetId !== null && window.turnstile?.remove) {
+      try { window.turnstile.remove(turnstile.widgetId); } catch { /* Widget may already be gone. */ }
+    }
+    turnstile.widgetId = null;
+    turnstile.rendering = false;
+    widget?.replaceChildren();
+  }
+
+  async function renderTurnstile(role, replaceExisting = false) {
+    const turnstile = state.turnstile[role];
+    const { form, challenge, widget, retry } = getTurnstileElements(role);
+    if (!turnstile?.required || !challenge || !widget || isTurnstileCooldownActive(role)) return;
+    if (form?.closest("[data-login-panel]")?.hidden) return;
+    if (turnstile.rendering) return;
+    if (turnstile.widgetId !== null && !replaceExisting) return;
+
+    if (replaceExisting) destroyTurnstileWidget(role);
+    const generation = turnstile.generation + 1;
+    turnstile.generation = generation;
+    turnstile.rendering = true;
+    challenge.hidden = false;
+    if (retry) retry.hidden = true;
+    setTurnstileStatus(role, "正在載入安全驗證⋯");
+
+    try {
+      const api = await loadTurnstileScript();
+      if (turnstile.generation !== generation
+        || !turnstile.required
+        || isTurnstileCooldownActive(role)
+        || form?.closest("[data-login-panel]")?.hidden) return;
+      const size = widget.clientWidth < 300 ? "compact" : "flexible";
+      turnstile.widgetId = api.render(widget, {
+        sitekey: turnstileSiteKey,
+        action: role === "admin" ? "admin_login" : "student_login",
+        appearance: "interaction-only",
+        theme: "auto",
+        language: "auto",
+        size,
+        tabindex: 0,
+        retry: "auto",
+        "refresh-expired": "auto",
+        "response-field": false,
+        callback(token) {
+          if (turnstile.generation !== generation) return;
+          turnstile.token = String(token || "");
+          if (retry) retry.hidden = true;
+          setTurnstileStatus(role, "安全驗證完成，現在可以再次登入。", "success");
+          updateLoginSubmitState(role);
+        },
+        "expired-callback"() {
+          if (turnstile.generation !== generation) return;
+          turnstile.token = "";
+          setTurnstileStatus(role, "安全驗證已過期，請重新完成驗證。", "error");
+          if (retry) retry.hidden = false;
+          updateLoginSubmitState(role);
+        },
+        "timeout-callback"() {
+          if (turnstile.generation !== generation) return;
+          turnstile.token = "";
+          setTurnstileStatus(role, "安全驗證逾時，請重新完成驗證。", "error");
+          if (retry) retry.hidden = false;
+          updateLoginSubmitState(role);
+        },
+        "error-callback"() {
+          if (turnstile.generation !== generation) return;
+          turnstile.token = "";
+          setTurnstileStatus(role, "暫時無法完成安全驗證，請重試。", "error");
+          if (retry) retry.hidden = false;
+          updateLoginSubmitState(role);
+        },
+        "unsupported-callback"() {
+          if (turnstile.generation !== generation) return;
+          turnstile.token = "";
+          setTurnstileStatus(role, "此瀏覽器未能使用安全驗證，請更新瀏覽器或改用其他瀏覽器。", "error");
+          if (retry) retry.hidden = false;
+          updateLoginSubmitState(role);
+        }
+      });
+    } catch {
+      if (turnstile.generation !== generation) return;
+      setTurnstileStatus(role, "暫時無法載入安全驗證。請檢查網絡或內容攔截器後重試。", "error");
+      if (retry) retry.hidden = false;
+    } finally {
+      if (turnstile.generation === generation) {
+        turnstile.rendering = false;
+        updateLoginSubmitState(role);
+      }
+    }
+  }
+
+  function requireTurnstile(role, username, moveFocus = false) {
+    const turnstile = state.turnstile[role];
+    const { challenge } = getTurnstileElements(role);
+    if (!turnstile || !challenge) return;
+    const wasRequired = turnstile.required;
+    turnstile.required = true;
+    turnstile.identifier = normalizeLoginIdentifier(username);
+    challenge.hidden = false;
+    if (moveFocus && !wasRequired) challenge.querySelector("legend")?.focus();
+    updateLoginSubmitState(role);
+    void renderTurnstile(role);
+  }
+
+  function clearTurnstile(role) {
+    const turnstile = state.turnstile[role];
+    const { challenge, status, retry } = getTurnstileElements(role);
+    if (!turnstile) return;
+    window.clearInterval(turnstile.cooldownTimer);
+    turnstile.cooldownTimer = 0;
+    turnstile.cooldownUntil = 0;
+    turnstile.required = false;
+    turnstile.identifier = "";
+    destroyTurnstileWidget(role);
+    if (challenge) challenge.hidden = true;
+    if (retry) retry.hidden = true;
+    status?.setAttribute("aria-live", "polite");
+    document.querySelector(`[data-form-status="${role}"]`)?.setAttribute("aria-live", "polite");
+    setTurnstileStatus(role, "");
+    updateLoginSubmitState(role);
+  }
+
+  function formatCooldown(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const remainder = String(seconds % 60).padStart(2, "0");
+    return `${minutes}:${remainder}`;
+  }
+
+  function startLoginCooldown(role, username, seconds, challengeRequired = false) {
+    const turnstile = state.turnstile[role];
+    const { challenge, status, retry } = getTurnstileElements(role);
+    if (!turnstile || !challenge) return;
+    window.clearInterval(turnstile.cooldownTimer);
+    turnstile.required = turnstile.required || challengeRequired;
+    turnstile.identifier = turnstile.required ? normalizeLoginIdentifier(username) : "";
+    turnstile.cooldownUntil = Date.now() + Math.max(1, seconds) * 1000;
+    challenge.hidden = !turnstile.required;
+    if (retry) retry.hidden = true;
+    if (turnstile.required) destroyTurnstileWidget(role);
+
+    const formStatus = document.querySelector(`[data-form-status="${role}"]`);
+    const countdownTarget = turnstile.required ? status : formStatus;
+    countdownTarget?.setAttribute("aria-live", "off");
+
+    const tick = () => {
+      const remaining = Math.max(0, Math.ceil((turnstile.cooldownUntil - Date.now()) / 1000));
+      if (remaining > 0) {
+        if (turnstile.required) {
+          setTurnstileStatus(role, `登入暫停，請在 ${formatCooldown(remaining)} 後再試。`, "error");
+        } else if (formStatus) {
+          formStatus.textContent = `登入請求過多，請在 ${formatCooldown(remaining)} 後再試。`;
+          formStatus.dataset.state = "error";
+        }
+        updateLoginSubmitState(role);
+        return;
+      }
+      window.clearInterval(turnstile.cooldownTimer);
+      turnstile.cooldownTimer = 0;
+      turnstile.cooldownUntil = 0;
+      countdownTarget?.setAttribute("aria-live", "polite");
+      if (turnstile.required) {
+        setTurnstileStatus(role, "暫停已結束，請重新完成安全驗證。", "success");
+      } else {
+        setFormStatus(role, "暫停已結束，現在可以重新登入。", "success");
+      }
+      updateLoginSubmitState(role);
+      if (turnstile.required) void renderTurnstile(role, true);
+    };
+
+    tick();
+    turnstile.cooldownTimer = window.setInterval(tick, 1000);
+  }
+
+  function resetTurnstileAfterAttempt(role) {
+    const turnstile = state.turnstile[role];
+    if (!turnstile?.required || isTurnstileCooldownActive(role)) return;
+    destroyTurnstileWidget(role);
+    void renderTurnstile(role, true);
   }
 
   async function handleLogin(form) {
@@ -361,15 +677,40 @@
       return;
     }
 
+    const existingTurnstile = state.turnstile[role];
+    if (existingTurnstile.required
+      && existingTurnstile.identifier
+      && existingTurnstile.identifier !== normalizeLoginIdentifier(username)) {
+      clearTurnstile(role);
+    }
+
+    const loginProtection = state.turnstile[role];
+    if (isTurnstileCooldownActive(role)) {
+      setFormStatus(role, "為保護帳戶，登入暫時停用；倒數完成後可再試。");
+      return;
+    }
+    if (loginProtection.required && !loginProtection.token) {
+      requireTurnstile(role, username, true);
+      setFormStatus(role, "請先完成安全驗證。", "error");
+      return;
+    }
+
+    const turnstileToken = loginProtection.required ? loginProtection.token : "";
+    if (turnstileToken) {
+      loginProtection.token = "";
+      updateLoginSubmitState(role);
+    }
+
     setFormBusy(form, true);
     setFormStatus(role, "正在安全地驗證帳戶⋯", "success");
     try {
       const payload = await apiRequest(`/v1/${role}/login`, {
         method: "POST",
-        body: { username, password }
+        body: turnstileToken ? { username, password, turnstileToken } : { username, password }
       });
       const session = extractSession(payload, role);
       saveSession(role, session);
+      clearTurnstile(role);
       form.reset();
       if (role === "student") {
         rememberSharedStudentSession(session);
@@ -378,7 +719,19 @@
         await enterAdminPortal(session);
       }
     } catch (error) {
-      const message = error.status === 401 ? "用戶名稱或密碼不正確。" : error.message;
+      if (error.challengeRequired) requireTurnstile(role, username, true);
+      if (error.status === 429 && error.retryAfterSeconds > 0) {
+        startLoginCooldown(role, username, error.retryAfterSeconds, error.challengeRequired);
+      } else if (turnstileToken) {
+        resetTurnstileAfterAttempt(role);
+      }
+
+      let message = error.message;
+      if (error.status === 401) message = "用戶名稱或密碼不正確。";
+      else if (["TURNSTILE_REQUIRED", "TURNSTILE_INVALID"].includes(error.code)) message = "請完成安全驗證後再登入。";
+      else if (error.code === "LOGIN_DELAYED") message = "為保護帳戶，登入已暫停一段短時間。";
+      else if (error.code === "IP_RATE_LIMITED") message = "此網絡的登入請求過多，請稍後再試。";
+      else if (error.code === "TURNSTILE_UNAVAILABLE") message = "安全驗證服務暫時未能連接，請稍後重試。";
       setFormStatus(role, message);
     } finally {
       setFormBusy(form, false);
@@ -397,6 +750,7 @@
       });
       const session = extractSession(payload, "student");
       saveSession("student", session);
+      clearTurnstile("student");
       await enterStudentPortal(session);
     } catch (error) {
       setFormStatus("student", error.status === 403 ? "你的帳戶尚未獲錄影班權限，請聯絡 Edmund Sir。" : error.message);
@@ -1646,6 +2000,25 @@
       event.preventDefault();
       void handleLogin(form);
     }));
+    elements.loginForms.forEach(form => {
+      const role = form.dataset.loginForm;
+      form.querySelector("[name='username']")?.addEventListener("input", event => {
+        const turnstile = state.turnstile[role];
+        if (turnstile.identifier
+          && turnstile.identifier !== normalizeLoginIdentifier(event.currentTarget.value)) {
+          clearTurnstile(role);
+          setFormStatus(role, "");
+        }
+      });
+    });
+    elements.turnstileRetries.forEach(button => {
+      button.addEventListener("click", () => {
+        const role = button.dataset.turnstileRetry;
+        button.hidden = true;
+        destroyTurnstileWidget(role);
+        void renderTurnstile(role, true);
+      });
+    });
     document.querySelectorAll("[data-password-toggle]").forEach(button => {
       button.addEventListener("click", () => {
         const input = button.closest(".password-field")?.querySelector("input");

@@ -26,8 +26,17 @@ and coarse network.
   `Cache-Control: private, no-store`, strict origin CORS, `inline` disposition,
   and single-range handling (`200`, `206`, or `416`).
 - Student and administrator logins have independent Cloudflare rate-limit
-  bindings. All database RPCs additionally require a high-entropy Worker-only
-  service secret.
+  bindings: 10 student requests and 5 administrator requests per public IP per
+  minute. These limits count successful and unsuccessful requests.
+- Supabase also tracks failed logins by HMAC-protected normalized account name,
+  independently for students and administrators. Failures 1–2 allow a normal
+  retry; after failure 3, Cloudflare Turnstile is required; failures 5, 7, and
+  10 start cooldowns of 1, 5, and 15 minutes respectively. The counter is
+  capped at 10 and is deleted after a successful login or reset after 30 quiet
+  minutes. It never stores the raw account name, password, attempted password,
+  IP address, or Turnstile token.
+- All database RPCs additionally require a high-entropy Worker-only service
+  secret. Only the Worker can tell the login RPC that Turnstile was verified.
 
 These controls deter casual sharing and make leaked links short-lived. No web
 player can prevent screen recording or a determined authorized viewer from
@@ -44,22 +53,30 @@ the accountability layer for that remaining risk.
 - exact allowed origin `https://edmundeducation.com`
 - the Supabase URL and public/publishable API key
 
-Set two independent secrets from this directory. Use at least 48 random
+Create a Managed Cloudflare Turnstile widget restricted to
+`edmundeducation.com`, with pre-clearance disabled. Put its public site key in
+`video-class-config.js`; never put the widget secret in the browser or Git.
+
+Set three independent secrets from this directory. Use at least 48 random
 characters for the service secret and at least 32 for the signing key:
 
 ```bash
 npm ci
 npm exec wrangler secret put VIDEO_CLASS_SERVICE_SECRET
 npm exec wrangler secret put VIDEO_CLASS_SIGNING_KEY
+npm exec wrangler secret put VIDEO_CLASS_TURNSTILE_SECRET
 ```
 
 Store only `digest(<exact VIDEO_CLASS_SERVICE_SECRET>, 'sha256')` in
-`video_class_worker_secrets`. The signing key belongs only in the Worker. Never
-commit either plaintext secret or the administrator password.
+`video_class_worker_secrets`. The signing and Turnstile keys belong only in the
+Worker. Never commit plaintext secrets or the administrator password. Local
+`.dev.vars` files must remain ignored.
 
 Before deployment:
 
-1. Apply `supabase-video-class.sql`.
+1. Apply `supabase-video-class.sql`. For an existing deployment, create the new
+   four-argument login overloads before updating the Worker; remove the legacy
+   three-argument overloads only after the Worker is live.
 2. Provision the administrator password as a bcrypt hash in
    `video_class_admin_accounts`; type the password through a private prompt or
    parameterized command, not in a committed SQL file or shell history.
@@ -67,9 +84,12 @@ Before deployment:
    `video_class_worker_secrets` using the exact value supplied to Wrangler.
 4. Create `edmund-video-classes-private`, copy the pilot to
    `lessons/bourree.mp4`, and set its HTTP content type to `video/mp4`.
-5. Run `npm ci`, `npm run check`, then `npm run deploy` using the committed lockfile.
-6. Configure the website with the resulting HTTPS Worker origin and test login,
-   resume, seeking, revocation, key rotation, and logout in Firefox and Safari.
+5. Create the Turnstile widget, set its public site key in the website, and put
+   its secret into `VIDEO_CLASS_TURNSTILE_SECRET`.
+6. Run `npm ci`, `npm run check`, then `npm run deploy` using the committed lockfile.
+7. Configure the website with the resulting HTTPS Worker origin and test login,
+   challenge, cooldown, reset, resume, seeking, revocation, key rotation, and
+   logout in Firefox and Safari.
 
 ## HTTP API
 
@@ -80,11 +100,11 @@ All routes except health and preflight require the exact
 | Method | Route | Purpose |
 | --- | --- | --- |
 | `GET` | `/v1/health` | Liveness response; no credentials or configuration details |
-| `POST` | `/v1/student/login` | Existing student login; `{ "username", "password" }` (also accepts `name`) |
+| `POST` | `/v1/student/login` | Existing student login; `{ "username", "password", "turnstileToken"? }` (also accepts `name`) |
 | `POST` | `/v1/student/exchange` | Exchange an existing Flashcard session; `{ "token" }` |
 | `GET` | `/v1/student/session` | Validate the current video-class session and live entitlement |
 | `DELETE` | `/v1/student/session` | Revoke the current session (`POST` is accepted as a logout fallback) |
-| `POST` | `/v1/admin/login` | Administrator login; `{ "username", "password" }` |
+| `POST` | `/v1/admin/login` | Administrator login; `{ "username", "password", "turnstileToken"? }` |
 | `GET` | `/v1/admin/session` | Validate an administrator session |
 | `DELETE` | `/v1/admin/session` | Revoke an administrator session (`POST` fallback supported) |
 | `GET` | `/v1/admin/students` | Roster with UUID, key, enabled courses, watermark state, and timestamps |
@@ -105,6 +125,14 @@ All routes except health and preflight require the exact
 The grant response exposes `playbackToken`, `playbackSessionId`, `videoUrl`,
 `expiresAt`, `resumeAt`, and watermark data. It deliberately omits the R2 key.
 
+Adaptive login errors use a structured `error` object. `challengeRequired`
+tells the browser to reveal Turnstile; `retryAfterSeconds` drives the cooldown
+countdown. Cooldowns return HTTP `429` and the same value in the standard
+`Retry-After` header. The Worker verifies every submitted token with
+Cloudflare Siteverify and requires the exact production hostname and the exact
+`student_login` or `admin_login` action. Tokens are single-use and are never
+logged.
+
 ## Supabase RPC contract
 
 The Worker calls these exact functions. They are all `SECURITY DEFINER`, have an
@@ -114,7 +142,8 @@ secret hash.
 
 ```sql
 video_class_student_login(
-  p_service_secret text, p_name text, p_password text
+  p_service_secret text, p_name text, p_password text,
+  p_turnstile_verified boolean
 )
 
 video_class_student_exchange(
@@ -130,7 +159,8 @@ video_class_student_logout(
 )
 
 video_class_admin_login(
-  p_service_secret text, p_name text, p_password text
+  p_service_secret text, p_name text, p_password text,
+  p_turnstile_verified boolean
 )
 
 video_class_admin_me(

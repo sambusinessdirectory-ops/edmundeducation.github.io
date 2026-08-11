@@ -67,6 +67,23 @@ create table if not exists public.video_class_worker_secrets (
   updated_at timestamptz not null default now()
 );
 
+-- Cross-IP login protection is keyed by an HMAC of the normalized login name.
+-- Raw usernames, passwords, Turnstile tokens, and IP addresses are never stored.
+create table if not exists public.video_class_login_attempts (
+  realm text not null check (realm in ('student', 'admin')),
+  identifier_hash bytea not null check (octet_length(identifier_hash) = 32),
+  failure_count smallint not null default 0 check (failure_count between 0 and 10),
+  last_failed_at timestamptz,
+  blocked_until timestamptz,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  primary key (realm, identifier_hash),
+  check (failure_count = 0 or last_failed_at is not null)
+);
+
+create index if not exists video_class_login_attempts_updated_idx
+  on public.video_class_login_attempts (updated_at);
+
 -- A durable marker makes the launch entitlement rollout genuinely one-time,
 -- even if this schema file is applied again after more students sign up.
 create table if not exists public.video_class_rollouts (
@@ -333,6 +350,7 @@ create index if not exists video_class_admin_audit_admin_idx
 alter table public.video_class_admin_accounts enable row level security;
 alter table public.video_class_admin_sessions enable row level security;
 alter table public.video_class_worker_secrets enable row level security;
+alter table public.video_class_login_attempts enable row level security;
 alter table public.video_class_rollouts enable row level security;
 alter table public.video_class_courses enable row level security;
 alter table public.video_class_student_access enable row level security;
@@ -348,6 +366,7 @@ alter table public.video_class_admin_audit_events enable row level security;
 revoke all on table public.video_class_admin_accounts from public, anon, authenticated;
 revoke all on table public.video_class_admin_sessions from public, anon, authenticated;
 revoke all on table public.video_class_worker_secrets from public, anon, authenticated;
+revoke all on table public.video_class_login_attempts from public, anon, authenticated;
 revoke all on table public.video_class_rollouts from public, anon, authenticated;
 revoke all on table public.video_class_courses from public, anon, authenticated;
 revoke all on table public.video_class_student_access from public, anon, authenticated;
@@ -553,6 +572,47 @@ $$;
 
 revoke all on function public._video_class_worker_ok(text) from public, anon, authenticated;
 
+create or replace function public._video_class_login_identifier_hash(
+  p_service_secret text,
+  p_realm text,
+  p_name text
+)
+returns bytea
+language sql
+immutable
+set search_path = ''
+as $$
+  select extensions.hmac(
+    pg_catalog.convert_to(p_realm, 'UTF8')
+      || pg_catalog.decode('00', 'hex')
+      || pg_catalog.convert_to(pg_catalog.lower(pg_catalog.btrim(p_name)), 'UTF8'),
+    pg_catalog.convert_to(p_service_secret, 'UTF8')
+      || pg_catalog.decode('00', 'hex')
+      || pg_catalog.convert_to('edmund-video-class-login-v1', 'UTF8'),
+    'sha256'
+  );
+$$;
+
+revoke all on function public._video_class_login_identifier_hash(text, text, text)
+  from public, anon, authenticated;
+
+create or replace function public._video_class_login_delay_seconds(p_failure_count integer)
+returns integer
+language sql
+immutable
+set search_path = ''
+as $$
+  select case
+    when p_failure_count >= 10 then 900
+    when p_failure_count >= 7 then 300
+    when p_failure_count >= 5 then 60
+    else 0
+  end;
+$$;
+
+revoke all on function public._video_class_login_delay_seconds(integer)
+  from public, anon, authenticated;
+
 create or replace function public._video_class_admin_id(p_admin_token uuid)
 returns uuid
 language sql
@@ -616,12 +676,18 @@ $$;
 
 revoke all on function public._video_class_next_key() from public, anon, authenticated;
 
+drop function if exists public.video_class_student_login(text, text, text);
+
 create or replace function public.video_class_student_login(
   p_service_secret text,
   p_name text,
-  p_password text
+  p_password text,
+  p_turnstile_verified boolean
 )
 returns table (
+  outcome text,
+  challenge_required boolean,
+  retry_after_seconds integer,
   video_token uuid,
   flashcard_token uuid,
   student_id uuid,
@@ -634,9 +700,17 @@ security definer
 set search_path = ''
 as $$
 declare
+  v_identifier_hash bytea;
+  v_failure_count smallint;
+  v_last_failed_at timestamptz;
+  v_blocked_until timestamptz;
+  v_delay_seconds integer;
   v_student_id uuid;
   v_student_name text;
+  v_password_hash text;
   v_video_key text;
+  v_account_enabled boolean := false;
+  v_password_matches boolean := false;
   v_video_token uuid := gen_random_uuid();
   v_flashcard_token uuid;
   v_now timestamptz := clock_timestamp();
@@ -651,20 +725,138 @@ begin
     return;
   end if;
 
-  select student.id, student.name, access.video_key
-  into v_student_id, v_student_name, v_video_key
+  v_identifier_hash := public._video_class_login_identifier_hash(
+    p_service_secret,
+    'student',
+    p_name
+  );
+
+  -- Keep random-name attacks from growing this private table forever while
+  -- bounding cleanup work performed by any one login request.
+  with stale as (
+    select attempt.realm, attempt.identifier_hash
+    from public.video_class_login_attempts attempt
+    where attempt.updated_at < v_now - interval '24 hours'
+    order by attempt.updated_at, attempt.realm, attempt.identifier_hash
+    for update skip locked
+    limit 100
+  )
+  delete from public.video_class_login_attempts attempt
+  using stale
+  where attempt.realm = stale.realm
+    and attempt.identifier_hash = stale.identifier_hash;
+
+  -- A successful concurrent login may delete the row between INSERT ... DO
+  -- NOTHING and SELECT. Repeat until this transaction owns a locked row so a
+  -- failure can never disappear through that race.
+  loop
+    insert into public.video_class_login_attempts (
+      realm, identifier_hash, failure_count, created_at, updated_at
+    )
+    values ('student', v_identifier_hash, 0, v_now, v_now)
+    on conflict (realm, identifier_hash) do nothing;
+
+    select attempt.failure_count, attempt.last_failed_at, attempt.blocked_until
+    into v_failure_count, v_last_failed_at, v_blocked_until
+    from public.video_class_login_attempts attempt
+    where attempt.realm = 'student'
+      and attempt.identifier_hash = v_identifier_hash
+    for update;
+    exit when found;
+  end loop;
+
+  v_now := clock_timestamp();
+  v_expires_at := v_now + interval '8 hours';
+
+  if v_last_failed_at is not null
+    and v_last_failed_at <= v_now - interval '30 minutes'
+  then
+    update public.video_class_login_attempts attempt
+    set failure_count = 0,
+        last_failed_at = null,
+        blocked_until = null,
+        updated_at = v_now
+    where attempt.realm = 'student'
+      and attempt.identifier_hash = v_identifier_hash;
+    v_failure_count := 0;
+    v_last_failed_at := null;
+    v_blocked_until := null;
+  end if;
+
+  if v_blocked_until is not null and v_blocked_until > v_now then
+    outcome := 'blocked';
+    challenge_required := true;
+    retry_after_seconds := greatest(
+      1,
+      ceil(extract(epoch from (v_blocked_until - v_now)))::integer
+    );
+    return next;
+    return;
+  end if;
+
+  if v_failure_count >= 3 and p_turnstile_verified is not true then
+    outcome := 'challenge_required';
+    challenge_required := true;
+    retry_after_seconds := 0;
+    return next;
+    return;
+  end if;
+
+  select
+    student.id,
+    student.name,
+    student.password_hash,
+    access.video_key,
+    student.deleted_at is null and coalesce(access.enabled, false)
+  into
+    v_student_id,
+    v_student_name,
+    v_password_hash,
+    v_video_key,
+    v_account_enabled
   from public.flashcard_students student
-  join public.video_class_student_access access on access.student_id = student.id
+  left join public.video_class_student_access access on access.student_id = student.id
   where lower(student.name) = lower(trim(p_name))
-    and student.deleted_at is null
-    and access.enabled = true
-    and student.password_hash = extensions.crypt(p_password, student.password_hash)
   limit 1
   for no key update of student;
 
-  if not found then
+  if found then
+    v_password_matches := v_password_hash = extensions.crypt(p_password, v_password_hash);
+  else
+    -- Match the cost of a real bcrypt check so challenge timing does not reveal
+    -- whether the normalized username exists.
+    perform extensions.crypt(p_password, extensions.gen_salt('bf', 10));
+  end if;
+
+  if v_student_id is null or not v_account_enabled or not v_password_matches then
+    v_now := clock_timestamp();
+    v_failure_count := least(10, v_failure_count + 1)::smallint;
+    v_delay_seconds := public._video_class_login_delay_seconds(v_failure_count);
+
+    update public.video_class_login_attempts attempt
+    set failure_count = v_failure_count,
+        last_failed_at = v_now,
+        blocked_until = case
+          when v_delay_seconds > 0 then v_now + (v_delay_seconds * interval '1 second')
+          else null
+        end,
+        updated_at = v_now
+    where attempt.realm = 'student'
+      and attempt.identifier_hash = v_identifier_hash;
+
+    outcome := case when v_delay_seconds > 0 then 'blocked' else 'invalid' end;
+    challenge_required := v_failure_count >= 3;
+    retry_after_seconds := v_delay_seconds;
+    return next;
     return;
   end if;
+
+  v_now := clock_timestamp();
+  v_expires_at := v_now + interval '8 hours';
+
+  delete from public.video_class_login_attempts attempt
+  where attempt.realm = 'student'
+    and attempt.identifier_hash = v_identifier_hash;
 
   delete from public.video_class_student_sessions session
   where session.expires_at <= v_now;
@@ -683,8 +875,16 @@ begin
     v_expires_at
   );
 
-  return query
-  select v_video_token, v_flashcard_token, v_student_id, v_student_name, v_video_key, v_expires_at;
+  outcome := 'success';
+  challenge_required := false;
+  retry_after_seconds := 0;
+  video_token := v_video_token;
+  flashcard_token := v_flashcard_token;
+  student_id := v_student_id;
+  name := v_student_name;
+  video_key := v_video_key;
+  expires_at := v_expires_at;
+  return next;
 end;
 $$;
 
@@ -834,18 +1034,34 @@ begin
 end;
 $$;
 
+drop function if exists public.video_class_admin_login(text, text, text);
+
 create or replace function public.video_class_admin_login(
   p_service_secret text,
   p_name text,
-  p_password text
+  p_password text,
+  p_turnstile_verified boolean
 )
-returns table (admin_token uuid, name text, expires_at timestamptz)
+returns table (
+  outcome text,
+  challenge_required boolean,
+  retry_after_seconds integer,
+  admin_token uuid,
+  name text,
+  expires_at timestamptz
+)
 language plpgsql
 security definer
 set search_path = ''
 as $$
 declare
+  v_identifier_hash bytea;
+  v_failure_count smallint;
+  v_last_failed_at timestamptz;
+  v_blocked_until timestamptz;
+  v_delay_seconds integer;
   v_admin public.video_class_admin_accounts%rowtype;
+  v_password_matches boolean := false;
   v_token uuid := gen_random_uuid();
   v_now timestamptz := clock_timestamp();
   v_expires_at timestamptz := v_now + interval '8 hours';
@@ -859,17 +1075,120 @@ begin
     return;
   end if;
 
+  v_identifier_hash := public._video_class_login_identifier_hash(
+    p_service_secret,
+    'admin',
+    p_name
+  );
+
+  with stale as (
+    select attempt.realm, attempt.identifier_hash
+    from public.video_class_login_attempts attempt
+    where attempt.updated_at < v_now - interval '24 hours'
+    order by attempt.updated_at, attempt.realm, attempt.identifier_hash
+    for update skip locked
+    limit 100
+  )
+  delete from public.video_class_login_attempts attempt
+  using stale
+  where attempt.realm = stale.realm
+    and attempt.identifier_hash = stale.identifier_hash;
+
+  loop
+    insert into public.video_class_login_attempts (
+      realm, identifier_hash, failure_count, created_at, updated_at
+    )
+    values ('admin', v_identifier_hash, 0, v_now, v_now)
+    on conflict (realm, identifier_hash) do nothing;
+
+    select attempt.failure_count, attempt.last_failed_at, attempt.blocked_until
+    into v_failure_count, v_last_failed_at, v_blocked_until
+    from public.video_class_login_attempts attempt
+    where attempt.realm = 'admin'
+      and attempt.identifier_hash = v_identifier_hash
+    for update;
+    exit when found;
+  end loop;
+
+  v_now := clock_timestamp();
+  v_expires_at := v_now + interval '8 hours';
+
+  if v_last_failed_at is not null
+    and v_last_failed_at <= v_now - interval '30 minutes'
+  then
+    update public.video_class_login_attempts attempt
+    set failure_count = 0,
+        last_failed_at = null,
+        blocked_until = null,
+        updated_at = v_now
+    where attempt.realm = 'admin'
+      and attempt.identifier_hash = v_identifier_hash;
+    v_failure_count := 0;
+    v_last_failed_at := null;
+    v_blocked_until := null;
+  end if;
+
+  if v_blocked_until is not null and v_blocked_until > v_now then
+    outcome := 'blocked';
+    challenge_required := true;
+    retry_after_seconds := greatest(
+      1,
+      ceil(extract(epoch from (v_blocked_until - v_now)))::integer
+    );
+    return next;
+    return;
+  end if;
+
+  if v_failure_count >= 3 and p_turnstile_verified is not true then
+    outcome := 'challenge_required';
+    challenge_required := true;
+    retry_after_seconds := 0;
+    return next;
+    return;
+  end if;
+
   select admin.*
   into v_admin
   from public.video_class_admin_accounts admin
   where lower(trim(admin.name)) = lower(trim(p_name))
-    and admin.password_hash = extensions.crypt(p_password, admin.password_hash)
   limit 1
   for no key update of admin;
 
-  if not found then
+  if found then
+    v_password_matches := v_admin.password_hash = extensions.crypt(p_password, v_admin.password_hash);
+  else
+    perform extensions.crypt(p_password, extensions.gen_salt('bf', 10));
+  end if;
+
+  if v_admin.id is null or not v_password_matches then
+    v_now := clock_timestamp();
+    v_failure_count := least(10, v_failure_count + 1)::smallint;
+    v_delay_seconds := public._video_class_login_delay_seconds(v_failure_count);
+
+    update public.video_class_login_attempts attempt
+    set failure_count = v_failure_count,
+        last_failed_at = v_now,
+        blocked_until = case
+          when v_delay_seconds > 0 then v_now + (v_delay_seconds * interval '1 second')
+          else null
+        end,
+        updated_at = v_now
+    where attempt.realm = 'admin'
+      and attempt.identifier_hash = v_identifier_hash;
+
+    outcome := case when v_delay_seconds > 0 then 'blocked' else 'invalid' end;
+    challenge_required := v_failure_count >= 3;
+    retry_after_seconds := v_delay_seconds;
+    return next;
     return;
   end if;
+
+  v_now := clock_timestamp();
+  v_expires_at := v_now + interval '8 hours';
+
+  delete from public.video_class_login_attempts attempt
+  where attempt.realm = 'admin'
+    and attempt.identifier_hash = v_identifier_hash;
 
   delete from public.video_class_admin_sessions session
   where session.expires_at <= v_now;
@@ -877,7 +1196,13 @@ begin
   insert into public.video_class_admin_sessions (token_hash, admin_id, expires_at)
   values (extensions.digest(v_token::text, 'sha256'), v_admin.id, v_expires_at);
 
-  return query select v_token, v_admin.name, v_expires_at;
+  outcome := 'success';
+  challenge_required := false;
+  retry_after_seconds := 0;
+  admin_token := v_token;
+  name := v_admin.name;
+  expires_at := v_expires_at;
+  return next;
 end;
 $$;
 
@@ -1868,11 +2193,11 @@ values (
 )
 on conflict (slug) do nothing;
 
-revoke all on function public.video_class_student_login(text, text, text) from public, anon, authenticated;
+revoke all on function public.video_class_student_login(text, text, text, boolean) from public, anon, authenticated;
 revoke all on function public.video_class_student_exchange(text, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_student_me(text, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_student_logout(text, uuid) from public, anon, authenticated;
-revoke all on function public.video_class_admin_login(text, text, text) from public, anon, authenticated;
+revoke all on function public.video_class_admin_login(text, text, text, boolean) from public, anon, authenticated;
 revoke all on function public.video_class_admin_me(text, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_admin_logout(text, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_admin_list_students(text, uuid) from public, anon, authenticated;
@@ -1892,11 +2217,11 @@ revoke all on function public.video_class_record_progress(text, uuid, uuid, nume
 
 -- PostgREST sees only narrow functions. Every function is additionally gated by
 -- a high-entropy secret held by the Cloudflare Worker, never by the browser.
-grant execute on function public.video_class_student_login(text, text, text) to anon;
+grant execute on function public.video_class_student_login(text, text, text, boolean) to anon;
 grant execute on function public.video_class_student_exchange(text, uuid) to anon;
 grant execute on function public.video_class_student_me(text, uuid) to anon;
 grant execute on function public.video_class_student_logout(text, uuid) to anon;
-grant execute on function public.video_class_admin_login(text, text, text) to anon;
+grant execute on function public.video_class_admin_login(text, text, text, boolean) to anon;
 grant execute on function public.video_class_admin_me(text, uuid) to anon;
 grant execute on function public.video_class_admin_logout(text, uuid) to anon;
 grant execute on function public.video_class_admin_list_students(text, uuid) to anon;

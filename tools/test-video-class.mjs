@@ -111,7 +111,7 @@ test("student login reuses the established account and supports shared-session e
 
   const login = sqlFunctionBlock("video_class_student_login");
   assert.match(login, /from\s+public\.flashcard_students\s+student/i);
-  assert.match(login, /student\.password_hash\s*=\s*extensions\.crypt\(p_password,\s*student\.password_hash\)/i);
+  assert.match(login, /v_password_hash\s*=\s*extensions\.crypt\(p_password,\s*v_password_hash\)/i);
   assert.match(login, /for\s+no\s+key\s+update\s+of\s+student/i);
   assert.match(login, /insert\s+into\s+public\.flashcard_student_sessions\s*\(student_id,\s*expires_at\)/i);
 
@@ -130,6 +130,279 @@ test("student login reuses the established account and supports shared-session e
   assert.match(portalJs, /apiRequest\("\/v1\/student\/exchange"/);
   assert.match(workerSource, /url\.pathname === "\/v1\/student\/exchange"/);
   assert.match(workerSource, /serviceRpc\(env,\s*"video_class_student_exchange"/);
+});
+
+test("adaptive login protection tracks accounts without weakening the existing IP limits", () => {
+  const attempts = sqlTableBlock("video_class_login_attempts");
+  assert.match(attempts, /realm\s+text\s+not\s+null\s+check\s*\(realm\s+in\s*\('student',\s*'admin'\)\)/i);
+  assert.match(attempts, /identifier_hash\s+bytea\s+not\s+null\s+check\s*\(octet_length\(identifier_hash\)\s*=\s*32\)/i);
+  assert.match(attempts, /failure_count\s+smallint\s+not\s+null\s+default\s+0\s+check\s*\(failure_count\s+between\s+0\s+and\s+10\)/i);
+  assert.match(attempts, /primary\s+key\s*\(realm,\s*identifier_hash\)/i);
+  assert.doesNotMatch(attempts, /\b(?:username|password|turnstile|ip_address|remote_ip)\b/i);
+  assert.match(sql, /create\s+index\s+if\s+not\s+exists\s+video_class_login_attempts_updated_idx\s+on\s+public\.video_class_login_attempts\s*\(updated_at\)/i);
+  assert.match(sql, /alter\s+table\s+public\.video_class_login_attempts\s+enable\s+row\s+level\s+security/i);
+  assert.match(sql, /revoke\s+all\s+on\s+table\s+public\.video_class_login_attempts\s+from\s+public,\s*anon,\s*authenticated/i);
+
+  const identifierHash = sqlFunctionBlock("_video_class_login_identifier_hash");
+  assert.match(identifierHash, /extensions\.hmac\s*\(/i);
+  assert.match(identifierHash, /convert_to\(p_realm,\s*'UTF8'\)[\s\S]*?decode\('00',\s*'hex'\)[\s\S]*?convert_to\(pg_catalog\.lower\(pg_catalog\.btrim\(p_name\)\),\s*'UTF8'\)/i);
+  assert.match(identifierHash, /convert_to\(p_service_secret,\s*'UTF8'\)[\s\S]*?decode\('00',\s*'hex'\)[\s\S]*?convert_to\('edmund-video-class-login-v1',\s*'UTF8'\)/i);
+  assert.match(identifierHash, /'sha256'/i);
+
+  const delay = sqlFunctionBlock("_video_class_login_delay_seconds");
+  assert.match(delay, /when\s+p_failure_count\s*>=\s*10\s+then\s+900/i);
+  assert.match(delay, /when\s+p_failure_count\s*>=\s*7\s+then\s+300/i);
+  assert.match(delay, /when\s+p_failure_count\s*>=\s*5\s+then\s+60/i);
+
+  for (const [functionName, realm] of [
+    ["video_class_student_login", "student"],
+    ["video_class_admin_login", "admin"]
+  ]) {
+    const login = sqlFunctionBlock(functionName);
+    assert.match(login, /p_turnstile_verified\s+boolean/i);
+    assert.match(login, new RegExp(`_video_class_login_identifier_hash\\(\\s*p_service_secret,\\s*'${realm}',\\s*p_name`, "i"));
+    assert.match(login, /insert\s+into\s+public\.video_class_login_attempts[\s\S]*?on\s+conflict\s*\(realm,\s*identifier_hash\)\s+do\s+nothing/i);
+    assert.match(login, /from\s+public\.video_class_login_attempts\s+attempt[\s\S]*?for\s+update/i);
+    assert.match(login, /for\s+update\s+skip\s+locked/i);
+    assert.match(login, /loop[\s\S]*?on\s+conflict[\s\S]*?for\s+update;[\s\S]*?exit\s+when\s+found;[\s\S]*?end\s+loop/i);
+    assert.match(login, /end\s+loop;\s*v_now\s*:=\s*clock_timestamp\(\)/i);
+    assert.match(login, /v_last_failed_at\s*<=\s*v_now\s*-\s*interval\s*'30 minutes'/i);
+    assert.match(login, /if\s+v_blocked_until\s+is\s+not\s+null\s+and\s+v_blocked_until\s*>\s*v_now\s+then[\s\S]*?outcome\s*:=\s*'blocked'/i);
+    assert.match(login, /if\s+v_failure_count\s*>=\s*3\s+and\s+p_turnstile_verified\s+is\s+not\s+true\s+then[\s\S]*?outcome\s*:=\s*'challenge_required'/i);
+    assert.match(login, /least\(10,\s*v_failure_count\s*\+\s*1\)/i);
+    assert.match(login, /_video_class_login_delay_seconds\(v_failure_count\)/i);
+    assert.match(login, /extensions\.crypt\(p_password,\s*extensions\.gen_salt\('bf',\s*10\)\)/i);
+    assert.match(login, new RegExp(`delete\\s+from\\s+public\\.video_class_login_attempts\\s+attempt\\s+where\\s+attempt\\.realm\\s*=\\s*'${realm}'[\\s\\S]*?(?:insert\\s+into\\s+public\\.(?:flashcard_student_sessions|video_class_admin_sessions))`, "i"));
+  }
+
+  const studentLimit = wrangler.ratelimits.find(item => item.name === "STUDENT_LOGIN_RATE_LIMITER");
+  const adminLimit = wrangler.ratelimits.find(item => item.name === "ADMIN_LOGIN_RATE_LIMITER");
+  assert.deepEqual(studentLimit?.simple, { limit: 10, period: 60 });
+  assert.deepEqual(adminLimit?.simple, { limit: 5, period: 60 });
+  assert.match(workerSource, /async\s+function\s+studentLogin[\s\S]*?await\s+enforceRateLimit[\s\S]*?await\s+readJson[\s\S]*?await\s+validateTurnstile[\s\S]*?serviceRpc/i);
+  assert.match(workerSource, /async\s+function\s+adminLogin[\s\S]*?await\s+enforceRateLimit[\s\S]*?await\s+readJson[\s\S]*?await\s+validateTurnstile[\s\S]*?serviceRpc/i);
+
+  const challenges = portalHtml.match(/<fieldset\b[^>]*data-turnstile-challenge="(?:student|admin)"[^>]*hidden[^>]*>/gi) || [];
+  assert.equal(challenges.length, 2, "student and admin challenges must both begin hidden");
+  assert.match(portalConfig, /turnstileSiteKey\s*:\s*"0x[0-9A-Za-z_-]{20,}"/);
+  assert.doesNotMatch(portalConfig, /1x00000000000000000000AA|2x00000000000000000000AB|3x00000000000000000000FF/);
+  assert.doesNotMatch(portalConfig, /turnstileSecret|secretKey/i);
+  assert.match(portalJs, /error\.challengeRequired/);
+  assert.doesNotMatch(portalJs, /failureCount\s*\+\+|failedAttempts\s*\+\+/i, "the browser must not own the account counter");
+  assert.match(portalJs, /loginProtection\.token\s*=\s*""/);
+  assert.match(portalJs, /resetTurnstileAfterAttempt\(role\)/);
+  assert.match(portalJs, /formatCooldown\(remaining\)/);
+  assert.match(portalJs, /turnstile\.required\s*=\s*turnstile\.required\s*\|\|\s*challengeRequired/);
+  assert.match(portalJs, /startLoginCooldown\(role,\s*username,\s*error\.retryAfterSeconds,\s*error\.challengeRequired\)/);
+  assert.match(portalJs, /turnstile\.generation\s*!==\s*generation/);
+  assert.match(workerSource, /Access-Control-Expose-Headers[^\n]*Retry-After/);
+});
+
+test("Worker validates adaptive Turnstile challenges and returns enforceable cooldowns", async () => {
+  const allowedOrigin = "https://edmundeducation.com";
+  const serviceSecret = "login-test-service-secret-".padEnd(48, "s");
+  const turnstileSecret = "login-test-turnstile-secret";
+  const studentId = "11111111-1111-4111-8111-111111111111";
+  const studentToken = "22222222-2222-4222-8222-222222222222";
+  const flashcardToken = "33333333-3333-4333-8333-333333333333";
+  const adminToken = "44444444-4444-4444-8444-444444444444";
+
+  const makeEnv = (limitLog = []) => ({
+    ALLOWED_ORIGIN: allowedOrigin,
+    SUPABASE_URL: "https://database.invalid",
+    SUPABASE_ANON_KEY: "test-publishable-key",
+    VIDEO_CLASS_SERVICE_SECRET: serviceSecret,
+    VIDEO_CLASS_TURNSTILE_SECRET: turnstileSecret,
+    STUDENT_LOGIN_RATE_LIMITER: {
+      limit: async ({ key }) => {
+        limitLog.push({ kind: "limit", key });
+        return { success: true };
+      }
+    },
+    ADMIN_LOGIN_RATE_LIMITER: {
+      limit: async ({ key }) => {
+        limitLog.push({ kind: "limit", key });
+        return { success: true };
+      }
+    }
+  });
+
+  const makeLoginRequest = (role, turnstileToken = "") => new Request(`https://worker.invalid/v1/${role}/login`, {
+    method: "POST",
+    headers: {
+      Origin: allowedOrigin,
+      "Content-Type": "application/json",
+      "CF-Connecting-IP": "203.0.113.19"
+    },
+    body: JSON.stringify({
+      username: role === "admin" ? "Test Admin" : "Test Student",
+      password: "wrong-or-right-test-password",
+      ...(turnstileToken ? { turnstileToken } : {})
+    })
+  });
+
+  for (const role of ["student", "admin"]) {
+    const action = `${role}_login`;
+    const calls = [];
+    const env = makeEnv(calls);
+    const mockedFetch = async (input, init = {}) => {
+      const url = new URL(typeof input === "string" ? input : input.url);
+      if (url.hostname === "challenges.cloudflare.com") {
+        calls.push({ kind: "turnstile", body: new URLSearchParams(String(init.body || "")) });
+        return new Response(JSON.stringify({ success: true, hostname: "edmundeducation.com", action }), {
+          status: 200,
+          headers: { "Content-Type": "application/json" }
+        });
+      }
+      const parameters = JSON.parse(String(init.body || "{}"));
+      calls.push({ kind: "rpc", parameters, url: url.href });
+      const row = role === "student"
+        ? {
+            outcome: "success",
+            challenge_required: false,
+            retry_after_seconds: 0,
+            video_token: studentToken,
+            flashcard_token: flashcardToken,
+            student_id: studentId,
+            name: "Test Student",
+            video_key: "EDU-TEST-0001",
+            expires_at: "2099-01-01T00:00:00Z"
+          }
+        : {
+            outcome: "success",
+            challenge_required: false,
+            retry_after_seconds: 0,
+            admin_token: adminToken,
+            name: "Test Admin",
+            expires_at: "2099-01-01T00:00:00Z"
+          };
+      return new Response(JSON.stringify([row]), {
+        status: 200,
+        headers: { "Content-Type": "application/json" }
+      });
+    };
+
+    await withMockedFetch(mockedFetch, async () => {
+      const response = await worker.fetch(makeLoginRequest(role, `${role}-valid-token`), env, {});
+      assert.equal(response.status, 200);
+    });
+
+    assert.deepEqual(calls.map(call => call.kind), ["limit", "turnstile", "rpc"]);
+    assert.match(calls[0].key, new RegExp(`^${role}-login:203\\.0\\.113\\.19$`));
+    assert.equal(calls[1].body.get("secret"), turnstileSecret);
+    assert.equal(calls[1].body.get("response"), `${role}-valid-token`);
+    assert.equal(calls[1].body.get("remoteip"), "203.0.113.19");
+    assert.equal(calls[2].parameters.p_service_secret, serviceSecret);
+    assert.equal(calls[2].parameters.p_turnstile_verified, true);
+    assert.match(calls[2].url, new RegExp(`/rpc/video_class_${role}_login$`));
+  }
+
+  {
+    let rpcCalled = false;
+    const env = makeEnv();
+    const mockedFetch = async (input, init = {}) => {
+      const url = new URL(typeof input === "string" ? input : input.url);
+      if (url.hostname === "challenges.cloudflare.com") {
+        return new Response(JSON.stringify({
+          success: true,
+          hostname: "copied-site.example",
+          action: "admin_login"
+        }), { status: 200, headers: { "Content-Type": "application/json" } });
+      }
+      rpcCalled = true;
+      return new Response("unexpected database call", { status: 500 });
+    };
+    await withMockedFetch(mockedFetch, async () => {
+      const response = await worker.fetch(makeLoginRequest("student", "wrong-host-token"), env, {});
+      const payload = await response.json();
+      assert.equal(response.status, 403);
+      assert.equal(payload.error.code, "TURNSTILE_INVALID");
+      assert.equal(payload.error.challengeRequired, true);
+    });
+    assert.equal(rpcCalled, false, "hostname/action mismatches must fail closed before password checking");
+  }
+
+  {
+    const env = makeEnv();
+    await withMockedFetch(async (input, init = {}) => {
+      const url = new URL(typeof input === "string" ? input : input.url);
+      assert.notEqual(url.hostname, "challenges.cloudflare.com", "missing tokens must not call Siteverify");
+      const parameters = JSON.parse(String(init.body || "{}"));
+      assert.equal(parameters.p_turnstile_verified, false);
+      return new Response(JSON.stringify([{
+        outcome: "challenge_required",
+        challenge_required: true,
+        retry_after_seconds: 0
+      }]), { status: 200, headers: { "Content-Type": "application/json" } });
+    }, async () => {
+      const response = await worker.fetch(makeLoginRequest("admin"), env, {});
+      const payload = await response.json();
+      assert.equal(response.status, 403);
+      assert.equal(payload.error.code, "TURNSTILE_REQUIRED");
+      assert.equal(payload.error.challengeRequired, true);
+    });
+  }
+
+  {
+    let fetchCount = 0;
+    const env = makeEnv();
+    const mockedFetch = async (input, init = {}) => {
+      fetchCount += 1;
+      const parameters = JSON.parse(String(init.body || "{}"));
+      assert.equal(parameters.p_turnstile_verified, false);
+      return new Response(JSON.stringify([{
+        outcome: "blocked",
+        challenge_required: true,
+        retry_after_seconds: 300
+      }]), { status: 200, headers: { "Content-Type": "application/json" } });
+    };
+    await withMockedFetch(mockedFetch, async () => {
+      const response = await worker.fetch(makeLoginRequest("student"), env, {});
+      const payload = await response.json();
+      assert.equal(response.status, 429);
+      assert.equal(response.headers.get("Retry-After"), "300");
+      assert.match(response.headers.get("Access-Control-Expose-Headers") || "", /Retry-After/);
+      assert.equal(payload.error.code, "LOGIN_DELAYED");
+      assert.equal(payload.error.retryAfterSeconds, 300);
+      assert.equal(payload.error.challengeRequired, true);
+    });
+    assert.equal(fetchCount, 1, "a blocked account without a token must skip Siteverify and call only Supabase");
+  }
+
+  {
+    let fetchCount = 0;
+    const env = makeEnv();
+    env.STUDENT_LOGIN_RATE_LIMITER.limit = async () => ({ success: false });
+    await withMockedFetch(async () => {
+      fetchCount += 1;
+      throw new Error("rate-limited requests must never reach Siteverify or Supabase");
+    }, async () => {
+      const response = await worker.fetch(makeLoginRequest("student", "unused-token"), env, {});
+      const payload = await response.json();
+      assert.equal(response.status, 429);
+      assert.equal(response.headers.get("Retry-After"), "60");
+      assert.equal(payload.error.code, "IP_RATE_LIMITED");
+      assert.equal(payload.error.challengeRequired, false);
+    });
+    assert.equal(fetchCount, 0);
+  }
+
+  {
+    let rpcCalled = false;
+    const env = makeEnv();
+    await withMockedFetch(async input => {
+      const url = new URL(typeof input === "string" ? input : input.url);
+      if (url.hostname !== "challenges.cloudflare.com") rpcCalled = true;
+      return new Response("upstream unavailable", { status: 503 });
+    }, async () => {
+      const response = await worker.fetch(makeLoginRequest("admin", "temporary-token"), env, {});
+      const payload = await response.json();
+      assert.equal(response.status, 503);
+      assert.equal(payload.error.code, "TURNSTILE_UNAVAILABLE");
+      assert.equal(payload.error.challengeRequired, true);
+    });
+    assert.equal(rpcCalled, false, "Siteverify failure must fail closed before password checking");
+  }
 });
 
 test("video keys are manually controlled after a one-time current-student backfill", () => {
@@ -738,8 +1011,10 @@ test("portal clickjacking guard, CSP, and Worker deployment are reproducible", (
   const csp = portalHtml.match(/<meta\s+http-equiv="Content-Security-Policy"\s+content="([^"]+)">/i)?.[1] || "";
   assert.match(csp, /default-src 'self'/);
   assert.match(csp, /object-src 'none'/);
-  assert.match(csp, /frame-src 'none'/);
-  assert.match(csp, /connect-src 'self' https:\/\/edmund-video-class\.edmundeducation\.workers\.dev/);
+  assert.match(csp, /script-src 'self' https:\/\/challenges\.cloudflare\.com/);
+  assert.match(csp, /frame-src https:\/\/challenges\.cloudflare\.com/);
+  assert.match(csp, /connect-src 'self' https:\/\/edmund-video-class\.edmundeducation\.workers\.dev https:\/\/challenges\.cloudflare\.com/);
+  assert.doesNotMatch(csp, /(?:script-src|frame-src)[^;]*\*/);
   assert.match(csp, /media-src https:\/\/edmund-video-class\.edmundeducation\.workers\.dev/);
 
   assert.match(workerPackage.devDependencies.wrangler, /^\d+\.\d+\.\d+$/, "Wrangler must be pinned exactly");

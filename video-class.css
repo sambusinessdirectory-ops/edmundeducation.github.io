@@ -513,6 +513,69 @@ button:disabled { cursor: wait; opacity: 0.62; }
   font-weight: 900;
 }
 
+.login-challenge {
+  min-width: 0;
+  margin: 0;
+  border: 1px solid #eadfe3;
+  border-radius: 13px;
+  padding: 15px;
+  background: #fffafb;
+}
+
+.login-challenge legend {
+  border-radius: 6px;
+  padding: 0 5px;
+  color: #4c4d52;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.login-challenge legend:focus-visible {
+  outline: 3px solid rgba(247, 47, 117, 0.22);
+  outline-offset: 3px;
+}
+
+.login-challenge > p:first-of-type {
+  margin: 0 0 12px;
+  color: #77787f;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.turnstile-widget {
+  min-width: 0;
+  display: grid;
+  justify-items: center;
+}
+
+.turnstile-status {
+  min-height: 18px;
+  margin: 9px 0 0;
+  color: #77787f;
+  font-family: var(--sans);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.turnstile-status[data-state="success"] { color: var(--green); }
+.turnstile-status[data-state="error"] { color: #b02d46; }
+
+.turnstile-retry {
+  min-height: 38px;
+  margin-top: 8px;
+  border: 1px solid #dedadc;
+  border-radius: 999px;
+  padding: 0 14px;
+  color: #5f6067;
+  background: #fff;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.turnstile-retry:hover:not(:disabled) { border-color: var(--pink); color: var(--pink); }
+
 .form-status {
   min-height: 20px;
   margin: -5px 0 -3px;
