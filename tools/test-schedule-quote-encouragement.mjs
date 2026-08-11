@@ -56,6 +56,11 @@ assert.match(html, /\.daily-quote-panel\s*\{[^}]*font-family:\s*"Times New Roman
 assert.match(html, /\.daily-quote-language\s*\{[^}]*grid-template-columns:/s);
 assert.match(html, /\.daily-quote-text\s*\{[^}]*text-align:\s*left/s);
 assert.match(html, /\.daily-quote-attribution\s*\{[^}]*text-align:\s*right/s);
+assert.match(html, /\.weekly-reflection-panels\s*\{[^}]*align-items:\s*start[^}]*width:\s*min\(100%,\s*1280px\)/s);
+assert.match(html, /\.daily-quote-panel,\s*\.weekly-encouragement-panel\s*\{[^}]*background:\s*#4a5568/s);
+assert.match(html, /\.daily-quote-text\s*\{[^}]*color:\s*#ffc04c/s);
+assert.match(html, /\.weekly-encouragement-panel h2\s*\{[^}]*color:\s*#ffc04c/s);
+assert.match(html, /\.weekly-encouragement-panel textarea\s*\{[^}]*min-height:\s*72px/s);
 assert.match(html, /data-encouragement-message[^>]*maxlength="600"/);
 assert.match(html, /data-use-last-encouragement hidden>沿用上週</);
 assert.match(html, /\.schedule-slot\.has-entry\.is-more-than-half-completed\s*\{[^}]*#dfa900[^}]*255,\s*224,\s*88/s);

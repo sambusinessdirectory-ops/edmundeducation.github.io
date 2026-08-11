@@ -540,20 +540,21 @@
 
     .weekly-reflection-panels {
       display: grid;
-      grid-template-columns: minmax(0, 1.35fr) minmax(320px, .65fr);
-      gap: 16px;
-      margin: 0 0 18px;
+      grid-template-columns: minmax(0, 1.45fr) minmax(310px, .75fr);
+      align-items: start;
+      width: min(100%, 1280px);
+      gap: 14px;
+      margin: 0 auto 14px;
     }
 
     .daily-quote-panel,
     .weekly-encouragement-panel {
       min-width: 0;
-      border: 1px solid rgba(100, 72, 48, .18);
-      border-radius: 24px;
-      padding: clamp(20px, 2.7vw, 34px);
-      background: rgba(255, 252, 245, .9);
-      box-shadow: 0 14px 34px rgba(56, 37, 24, .09);
-      backdrop-filter: blur(13px);
+      border: 1px solid rgba(255, 179, 71, .38);
+      border-radius: 20px;
+      padding: clamp(17px, 1.7vw, 22px);
+      background: #4a5568;
+      box-shadow: 0 12px 28px rgba(35, 43, 56, .18);
     }
 
     .daily-quote-panel {
@@ -565,10 +566,10 @@
     .daily-quote-panel::after {
       content: "“";
       position: absolute;
-      right: 24px;
-      bottom: -50px;
-      color: rgba(164, 112, 53, .08);
-      font-size: 190px;
+      right: 18px;
+      bottom: -38px;
+      color: rgba(255, 179, 71, .1);
+      font-size: 145px;
       line-height: 1;
       pointer-events: none;
     }
@@ -576,8 +577,8 @@
     .reflection-kicker {
       position: relative;
       z-index: 1;
-      margin: 0 0 14px;
-      color: #906331;
+      margin: 0 0 9px;
+      color: #ffc04c;
       font-family: Georgia, "Times New Roman", serif;
       font-size: 11px;
       font-weight: 850;
@@ -591,67 +592,67 @@
       width: min(100%, 940px);
       margin: 0 auto;
       display: grid;
-      gap: 18px;
+      gap: 12px;
     }
 
     .daily-quote-language {
       display: grid;
-      grid-template-columns: minmax(0, 1.35fr) minmax(210px, .65fr);
+      grid-template-columns: minmax(0, 1.45fr) minmax(190px, .55fr);
       align-items: end;
-      gap: 20px;
+      gap: 14px;
     }
 
     .daily-quote-language + .daily-quote-language {
-      border-top: 1px solid rgba(133, 94, 55, .14);
-      padding-top: 17px;
+      border-top: 1px solid rgba(255, 179, 71, .24);
+      padding-top: 12px;
     }
 
     .daily-quote-text {
       margin: 0;
-      color: #2e241e;
-      font-size: clamp(21px, 2.1vw, 31px);
+      color: #ffc04c;
+      font-size: clamp(20px, 1.8vw, 27px);
       font-weight: 650;
-      line-height: 1.42;
+      line-height: 1.32;
       text-align: left;
     }
 
     .daily-quote-attribution {
       margin: 0;
-      color: #6b594e;
-      font-size: clamp(14px, 1.15vw, 17px);
+      color: #ffc878;
+      font-size: clamp(13px, 1vw, 16px);
       font-style: italic;
-      line-height: 1.45;
+      line-height: 1.35;
       text-align: right;
     }
 
     .weekly-encouragement-panel {
       display: grid;
       align-content: start;
-      gap: 11px;
+      gap: 7px;
     }
 
     .weekly-encouragement-panel h2 {
       margin: 0;
-      color: #4b3326;
-      font-size: clamp(22px, 2vw, 29px);
+      color: #ffc04c;
+      font-size: clamp(21px, 1.7vw, 26px);
     }
 
-    .weekly-encouragement-panel > p {
+    .weekly-encouragement-panel > p:not(.reflection-kicker):not(.encouragement-status) {
       margin: 0;
-      color: var(--muted);
+      color: #ffc878;
       font-size: 13px;
-      line-height: 1.55;
+      line-height: 1.4;
     }
 
     .weekly-encouragement-panel textarea {
       width: 100%;
-      min-height: 112px;
+      min-height: 72px;
       resize: vertical;
-      border: 1px solid rgba(112, 73, 45, .22);
-      border-radius: 15px;
-      padding: 13px 14px;
-      color: var(--ink);
-      background: rgba(255, 255, 255, .9);
+      border: 1px solid rgba(255, 179, 71, .55);
+      border-radius: 13px;
+      padding: 10px 12px;
+      color: #334155;
+      background: rgba(255, 252, 245, .96);
       font: inherit;
       font-size: 15px;
       line-height: 1.55;
@@ -664,22 +665,23 @@
     }
 
     .encouragement-actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-    .encouragement-actions .secondary-button { min-height: 39px; }
+    .encouragement-actions .secondary-button { min-height: 35px; }
     .encouragement-save-button {
-      min-height: 39px;
+      min-height: 35px;
       border: 0;
       border-radius: 12px;
       padding: 9px 15px;
-      color: #fff;
-      background: linear-gradient(135deg, #9b5e31, #c07b42);
+      color: #34404f;
+      background: #ffc04c;
       cursor: pointer;
       font: inherit;
       font-size: 13px;
       font-weight: 850;
     }
 
-    .encouragement-status { min-height: 19px; margin: 0; color: #5d4d43; font-size: 12px; }
-    .encouragement-status[data-state="error"] { color: var(--danger); }
+    .encouragement-status { margin: 0; color: #ffc04c; font-size: 12px; }
+    .encouragement-status:empty { display: none; }
+    .encouragement-status[data-state="error"] { color: #ff9a9a; }
 
     .legend {
       margin: 0 0 12px;
