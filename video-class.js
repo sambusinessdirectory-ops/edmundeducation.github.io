@@ -564,6 +564,9 @@
           updateLoginSubmitState(role);
         }
       });
+      if (turnstile.generation === generation && !turnstile.token) {
+        setTurnstileStatus(role, "請完成安全驗證。", "");
+      }
     } catch {
       if (turnstile.generation !== generation) return;
       setTurnstileStatus(role, "暫時無法載入安全驗證。請檢查網絡或內容攔截器後重試。", "error");

@@ -196,6 +196,7 @@ test("adaptive login protection tracks accounts without weakening the existing I
   assert.match(portalJs, /startLoginCooldown\(role,\s*username,\s*error\.retryAfterSeconds,\s*error\.challengeRequired\)/);
   assert.match(portalJs, /turnstile\.generation\s*!==\s*generation/);
   assert.doesNotMatch(portalJs, /turnstile\?*\.ready\s*\(/, "the dynamic loader must render only after its load event");
+  assert.match(portalJs, /setTurnstileStatus\(role,\s*"請完成安全驗證。",\s*""\)/);
   assert.match(workerSource, /Access-Control-Expose-Headers[^\n]*Retry-After/);
 });
 
