@@ -832,12 +832,14 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_admin_logout",
     "video_class_admin_list_students",
     "video_class_admin_list_courses",
+    "video_class_admin_list_lessons",
     "video_class_admin_list_feedback",
     "video_class_admin_issue_key",
     "video_class_admin_clear_key",
     "video_class_admin_set_enabled",
     "video_class_admin_set_course_access",
     "video_class_admin_set_watermark",
+    "video_class_admin_set_lesson_private",
     "video_class_student_list_courses",
     "video_class_student_list_lessons",
     "video_class_student_library",
@@ -1068,6 +1070,86 @@ test("the protected player watermarks video and disables casual extraction paths
   assert.match(portalJs, /if\s*\(parsed\.origin\s*!==\s*apiOrigin\)\s*return\s+""/);
   assert.match(portalJs, /elements\.player\.requestFullscreen\(\)/, "fullscreen must keep the overlay inside the fullscreen element");
   assert.match(portalJs, /resumeAt:\s*lesson\.completed\s*\?\s*0\s*:/, "completed lessons must restart from the beginning");
+});
+
+test("clips, keyboard playback, ratings, and playlist bulk tools follow the requested learning flow", () => {
+  const workspaceStart = portalHtml.indexOf('<div class="player-workspace"');
+  const workspaceEnd = portalHtml.indexOf('<div class="player-notice">', workspaceStart);
+  const workspace = portalHtml.slice(workspaceStart, workspaceEnd);
+  const rail = workspace.indexOf('data-clip-rail');
+  const player = workspace.indexOf('data-player tabindex');
+  assert.ok(workspaceStart >= 0 && rail >= 0 && player > rail, "clip rail must be a sibling before the protected player");
+  assert.match(portalCss, /\.player-workspace\s*\{[^}]*display:\s*flex/i);
+  assert.match(portalCss, /\.seek-marker::before\s*\{/);
+  assert.match(portalCss, /\.seek-marker::after\s*\{/);
+  assert.match(portalCss, /cursor:\s*url\("data:image\/svg\+xml/);
+  assert.match(portalJs, /className\s*=\s*"clip-item__delete"/);
+  assert.match(portalJs, /\/v1\/clips\/[\s\S]{0,180}?method:\s*"DELETE"/);
+  assert.match(portalJs, /item\.classList\.add\("is-actions-visible"\)/);
+
+  assert.match(portalJs, /event\.code\s*!==\s*"Space"/);
+  assert.match(portalJs, /document\.addEventListener\("keydown",\s*handlePlaybackSpacebar,\s*true\)/);
+  assert.match(portalJs, /elements\.centrePlay\.hidden\s*=\s*true/);
+  assert.doesNotMatch(portalJs, /elements\.centrePlay\.hidden\s*=\s*!paused/);
+
+  assert.match(portalJs, /selectedCount\s*===\s*3[\s\S]{0,80}?saveLessonFeedback/);
+  assert.match(portalJs, /setTimeout\(\(\)\s*=>\s*\{[\s\S]{0,120}?saveLessonFeedback\(\);[\s\S]{0,40}?\},\s*2000\)/);
+  assert.match(portalHtml, /data-playlist-summary/);
+  assert.match(portalHtml, /data-playlist-select-toggle/);
+  assert.match(portalHtml, /data-playlist-remove-selected/);
+  assert.match(portalJs, /playlistProgressSummary\(lessons\)/);
+  assert.match(portalJs, /Promise\.all\(lessonIds\.map[\s\S]{0,220}?method:\s*"DELETE"/);
+});
+
+test("lesson privacy is database-enforced and administered without exposing R2 keys", () => {
+  const lessonsTable = sqlTableBlock("video_class_lessons");
+  assert.match(lessonsTable, /is_private\s+boolean\s+not\s+null\s+default\s+false/i);
+
+  const library = sqlFunctionBlock("video_class_student_library");
+  assert.match(library, /'is_private',\s*lesson\.is_private/i);
+  assert.doesNotMatch(library, /where\s+lesson\.published\s*=\s*true\s+and\s+lesson\.is_private\s*=\s*false/i, "private lessons remain visible in the library");
+
+  for (const name of [
+    "video_class_authorize_thumbnail",
+    "video_class_playback_list_renditions",
+    "video_class_create_playback",
+    "video_class_authorize_playback",
+    "video_class_record_progress"
+  ]) assert.match(sqlFunctionBlock(name), /lesson\.is_private\s*=\s*false/i, `${name} must deny private lessons`);
+
+  const list = sqlFunctionBlock("video_class_admin_list_lessons");
+  assert.match(list, /_video_class_worker_ok\(p_service_secret\)/i);
+  assert.match(list, /_video_class_admin_id\(p_admin_token\)/i);
+  assert.doesNotMatch(list, /'object_key'/i);
+  const setter = sqlFunctionBlock("video_class_admin_set_lesson_private");
+  assert.match(setter, /set\s+is_private\s*=\s*p_is_private/i);
+  assert.match(setter, /update\s+public\.video_class_playback_sessions[\s\S]*?set\s+revoked_at/i);
+  assert.match(setter, /video_class_admin_audit_events/i);
+
+  assert.match(workerSource, /url\.pathname\s*===\s*"\/v1\/admin\/lessons"/);
+  assert.match(workerSource, /adminLessonPrivacyMatch[\s\S]{0,180}?request\.method\s*===\s*"PATCH"/);
+  assert.match(workerSource, /p_is_private:\s*body\.private/);
+  assert.match(workerSource, /This video is private and cannot be played/);
+  assert.match(portalJs, /lesson\.isPrivate\s*\?\s*"影片為私人/);
+  assert.match(portalJs, /body:\s*\{\s*private:\s*isPrivate\s*\}/);
+});
+
+test("admin exports complete feedback and activates students through random server-side keys", () => {
+  for (const heading of ["Student name", "UUID", "Video class key", "Video title", "Rate 1", "Rate 2", "Rate 3", "Update time", "Exported date"]) {
+    assert.ok(portalJs.includes(`"${heading}"`), `CSV must include ${heading}`);
+  }
+  assert.match(portalJs, /item\.pictureQuality\s*\?\?\s*""/);
+  assert.match(portalJs, /item\.explanationQuality\s*\?\?\s*""/);
+  assert.match(portalJs, /item\.audioQuality\s*\?\?\s*""/);
+  assert.match(portalJs, /type:\s*"text\/csv;charset=utf-8"/);
+  assert.match(portalJs, /videoKey:\s*String\(row\.videoKey\s*\|\|\s*row\.video_key/);
+  assert.match(sqlFunctionBlock("video_class_admin_list_feedback"), /'video_key',\s*student_access\.video_key/i);
+
+  assert.match(portalHtml, /data-admin-panel-tab="lessons"/);
+  assert.match(portalHtml, /data-admin-panel-tab="add-student"/);
+  assert.match(portalJs, /state\.students\.filter\(student\s*=>\s*!student\.videoKey\)/);
+  assert.match(portalJs, /activateVideoStudent[\s\S]*?body:\s*\{\s*rotate:\s*false\s*\}/);
+  assert.match(sqlFunctionBlock("video_class_admin_issue_key"), /_video_class_next_key\(\)/i);
 });
 
 test("portal clickjacking guard, CSP, and Worker deployment are reproducible", () => {

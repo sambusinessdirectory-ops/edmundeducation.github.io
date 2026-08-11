@@ -67,8 +67,11 @@
     playlistDetail: document.querySelector("[data-playlist-detail]"),
     playlistTitle: document.querySelector("[data-playlist-title]"),
     playlistDescription: document.querySelector("[data-playlist-description]"),
+    playlistSummary: document.querySelector("[data-playlist-summary]"),
     playlistLessonsState: document.querySelector("[data-playlist-lessons-state]"),
     playlistLessonList: document.querySelector("[data-playlist-lesson-list]"),
+    playlistSelectToggle: document.querySelector("[data-playlist-select-toggle]"),
+    playlistRemoveSelected: document.querySelector("[data-playlist-remove-selected]"),
     createPlaylist: document.querySelector("[data-create-playlist]"),
     deletePlaylist: document.querySelector("[data-delete-playlist]"),
     playlistDialog: document.querySelector("[data-playlist-dialog]"),
@@ -90,6 +93,7 @@
     noteToggleIcon: document.querySelector("[data-note-toggle-icon]"),
     refreshLessons: document.querySelector("[data-refresh-lessons]"),
     playerSection: document.querySelector("[data-player-section]"),
+    playerWorkspace: document.querySelector("[data-player-workspace]"),
     player: document.querySelector("[data-player]"),
     video: document.querySelector("[data-video]"),
     playerTitle: document.querySelector("[data-player-title]"),
@@ -157,7 +161,16 @@
     adminFeedbackState: document.querySelector("[data-feedback-state]"),
     adminFeedbackTable: document.querySelector("[data-feedback-table]"),
     feedbackRows: document.querySelector("[data-feedback-rows]"),
-    feedbackResultCount: document.querySelector("[data-feedback-result-count]")
+    feedbackResultCount: document.querySelector("[data-feedback-result-count]"),
+    exportFeedback: document.querySelector("[data-export-feedback]"),
+    adminLessonsRefresh: document.querySelector("[data-admin-lessons-refresh]"),
+    adminLessonsState: document.querySelector("[data-admin-lessons-state]"),
+    adminLessonsTable: document.querySelector("[data-admin-lessons-table]"),
+    adminLessonsRows: document.querySelector("[data-admin-lessons-rows]"),
+    availableStudentsRefresh: document.querySelector("[data-available-students-refresh]"),
+    availableStudentsSearch: document.querySelector("[data-available-students-search]"),
+    availableStudentsState: document.querySelector("[data-available-students-state]"),
+    availableStudentsList: document.querySelector("[data-available-students-list]")
   };
 
   const state = {
@@ -172,8 +185,12 @@
     officialPlaylists: [],
     students: [],
     adminFeedback: [],
+    adminLessons: [],
     selectedCourseId: "",
     selectedPlaylistId: "",
+    playlistSelectionMode: false,
+    playlistSelectionPlaylistId: "",
+    playlistSelectedLessonIds: new Set(),
     playlistLesson: null,
     libraryQuery: "",
     noteLesson: null,
@@ -188,6 +205,7 @@
     clipPosition: null,
     clipWasPlaying: false,
     feedbackSaveGeneration: 0,
+    feedbackSaveTimer: 0,
     feedbackWasPlaying: false,
     feedbackReturnFocus: null,
     heartbeatTimer: 0,
@@ -903,6 +921,7 @@
     state.adminSession = session;
     state.selectedEntitlementStudentId = "";
     state.students = [];
+    state.adminLessons = [];
     setHeaderIdentity("admin", session.profile);
     showView("admin");
     showAdminPanel("students");
@@ -956,6 +975,8 @@
       else button.removeAttribute("aria-current");
     });
     if (name === "feedback") void loadAdminFeedback();
+    if (name === "lessons") void loadAdminLessons();
+    if (name === "add-student") renderAvailableStudents();
   }
 
   async function logout({ automatic = false } = {}) {
@@ -1063,6 +1084,7 @@
       progressPercent: completed ? 100 : calculated,
       posterUrl: safeMediaUrl(lesson.posterUrl || lesson.poster_url || lesson.thumbnailUrl || lesson.thumbnail_url || ""),
       hasThumbnail: lesson.hasThumbnail === true || lesson.has_thumbnail === true,
+      isPrivate: lesson.isPrivate === true || lesson.is_private === true,
       order: Number(lesson.order || lesson.position || index + 1),
       courseId: String(lesson.courseCode || lesson.course_code || lesson.courseId || lesson.course_id || course.code || course.id || "dse").toLowerCase(),
       courseTitle: String(lesson.courseTitle || lesson.course_title || course.title || ""),
@@ -1235,7 +1257,7 @@
   async function loadLessonThumbnails(token, generation) {
     if (!token || token !== state.studentSession?.token || generation !== state.lessonLoadGeneration) return;
     revokeThumbnailUrls();
-    const lessons = state.lessons.filter(lesson => lesson.hasThumbnail && lesson.id);
+    const lessons = state.lessons.filter(lesson => lesson.hasThumbnail && !lesson.isPrivate && lesson.id);
     await Promise.all(lessons.map(async lesson => {
       try {
         const response = await fetch(`${apiBase}/v1/lessons/${encodeURIComponent(lesson.id)}/thumbnail`, {
@@ -1350,14 +1372,34 @@
     ].join(" "));
   }
 
-  function createLessonCard(lesson, index) {
+  function createLessonCard(lesson, index, { playlistSelection = false } = {}) {
     const article = document.createElement("article");
-    article.className = "lesson-card";
+    article.className = `lesson-card${lesson.isPrivate ? " is-private" : ""}${playlistSelection ? " is-selectable" : ""}`;
+    article.dataset.private = String(lesson.isPrivate);
     article.dataset.lessonId = lesson.id;
 
+    let selection = null;
+    if (playlistSelection) {
+      selection = document.createElement("label");
+      selection.className = "playlist-lesson-select";
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.value = lesson.id;
+      checkbox.checked = state.playlistSelectedLessonIds.has(lesson.id);
+      checkbox.setAttribute("aria-label", `選取 ${lesson.title}`);
+      checkbox.addEventListener("change", () => {
+        if (checkbox.checked) state.playlistSelectedLessonIds.add(lesson.id);
+        else state.playlistSelectedLessonIds.delete(lesson.id);
+        article.classList.toggle("is-selected", checkbox.checked);
+        updatePlaylistSelectionControls();
+      });
+      selection.append(checkbox);
+      article.classList.toggle("is-selected", checkbox.checked);
+    }
+
     const art = document.createElement("div");
-    art.className = "lesson-art";
-    if (lesson.posterUrl) {
+    art.className = `lesson-art${lesson.isPrivate ? " lesson-art--private" : ""}`;
+    if (lesson.posterUrl && !lesson.isPrivate) {
       const image = document.createElement("img");
       image.src = lesson.posterUrl;
       image.alt = "";
@@ -1368,7 +1410,7 @@
     const number = document.createElement("span");
     number.className = "lesson-number";
     number.textContent = String(index + 1).padStart(2, "0");
-    number.hidden = Boolean(lesson.posterUrl);
+    number.hidden = Boolean(lesson.posterUrl) && !lesson.isPrivate;
     const image = art.querySelector("img");
     image?.addEventListener("error", () => {
       image.remove();
@@ -1378,6 +1420,12 @@
     duration.className = "lesson-duration";
     duration.textContent = lesson.durationSeconds ? formatDuration(lesson.durationSeconds) : "錄影課堂";
     art.append(number, duration);
+    if (lesson.isPrivate) {
+      const privateLabel = document.createElement("span");
+      privateLabel.className = "lesson-private-badge";
+      privateLabel.textContent = "私人影片";
+      art.append(privateLabel);
+    }
 
     const body = document.createElement("div");
     body.className = "lesson-card__body";
@@ -1425,7 +1473,7 @@
     actions.className = "lesson-card__actions";
     const button = document.createElement("button");
     button.type = "button";
-    button.textContent = lesson.completed ? "再次觀看 →" : lesson.progressPercent ? "繼續播放 →" : "開始播放 →";
+    button.textContent = lesson.isPrivate ? "影片為私人 →" : lesson.completed ? "再次觀看 →" : lesson.progressPercent ? "繼續播放 →" : "開始播放 →";
     button.addEventListener("click", () => openLesson(lesson));
     const bookmark = document.createElement("button");
     bookmark.type = "button";
@@ -1446,6 +1494,7 @@
     if (lesson.tags.length) body.append(tags);
     if (playlistNames.length) body.append(playlistMeta);
     body.append(progress, actions);
+    if (selection) article.append(selection);
     article.append(art, body);
     return article;
   }
@@ -1496,16 +1545,46 @@
     elements.bookmarkList.hidden = false;
   }
 
+  function resetPlaylistSelection({ keepMode = false } = {}) {
+    state.playlistSelectedLessonIds.clear();
+    state.playlistSelectionPlaylistId = state.selectedPlaylistId;
+    if (!keepMode) state.playlistSelectionMode = false;
+  }
+
+  function updatePlaylistSelectionControls() {
+    if (!elements.playlistSelectToggle || !elements.playlistRemoveSelected) return;
+    const selectedCount = state.playlistSelectedLessonIds.size;
+    elements.playlistSelectToggle.setAttribute("aria-pressed", String(state.playlistSelectionMode));
+    elements.playlistSelectToggle.textContent = state.playlistSelectionMode ? "完成選取" : "選取多項";
+    elements.playlistRemoveSelected.hidden = !state.playlistSelectionMode;
+    elements.playlistRemoveSelected.disabled = selectedCount === 0;
+    elements.playlistRemoveSelected.textContent = selectedCount ? `移除已選影片（${selectedCount}）` : "移除已選影片";
+  }
+
+  function playlistProgressSummary(lessons) {
+    const totalSeconds = lessons.reduce((sum, lesson) => sum + Math.max(0, lesson.durationSeconds || 0), 0);
+    const watchedSeconds = lessons.reduce((sum, lesson) => {
+      const duration = Math.max(0, lesson.durationSeconds || 0);
+      if (!duration) return sum;
+      return sum + (lesson.completed ? duration : Math.min(duration, Math.max(0, lesson.positionSeconds || 0)));
+    }, 0);
+    const percent = totalSeconds ? Math.min(100, Math.round((watchedSeconds / totalSeconds) * 100)) : 0;
+    return { totalSeconds, watchedSeconds, percent };
+  }
+
   function renderPlaylists() {
     if (!elements.playlistList || !elements.playlistsState) return;
     elements.playlistList.replaceChildren();
     if (!state.playlists.length) {
+      resetPlaylistSelection();
+      updatePlaylistSelectionControls();
       elements.playlistList.hidden = true;
       elements.playlistDetail.hidden = true;
       showInlineState(elements.playlistsState, "你尚未建立播放列表。按「建立播放列表」開始整理自己的溫習次序。", "empty");
       return;
     }
     if (!state.playlists.some(playlist => playlist.id === state.selectedPlaylistId)) state.selectedPlaylistId = state.playlists[0].id;
+    if (state.playlistSelectionPlaylistId !== state.selectedPlaylistId) resetPlaylistSelection();
     state.playlists.forEach(playlist => {
       const button = document.createElement("button");
       button.type = "button";
@@ -1520,6 +1599,7 @@
       button.append(name, count);
       button.addEventListener("click", () => {
         state.selectedPlaylistId = playlist.id;
+        resetPlaylistSelection();
         renderPlaylists();
         elements.playlistList.querySelector(`[data-playlist-id="${playlist.id}"]`)?.focus({ preventScroll: true });
       });
@@ -1534,14 +1614,19 @@
       return;
     }
     elements.playlistTitle.textContent = selected.name;
-    elements.playlistDescription.textContent = `${selected.lessonIds.length} 部課堂影片`;
     const lessons = selected.lessonIds.map(id => state.lessons.find(lesson => lesson.id === id)).filter(Boolean);
+    elements.playlistDescription.textContent = `${lessons.length} 部課堂影片`;
+    const summary = playlistProgressSummary(lessons);
+    if (elements.playlistSummary) {
+      elements.playlistSummary.textContent = `共 ${lessons.length} 部影片 · 總長度 ${formatDuration(summary.totalSeconds)} · 已觀看 ${formatDuration(summary.watchedSeconds)}（${summary.percent}%）`;
+    }
+    updatePlaylistSelectionControls();
     elements.playlistLessonList.replaceChildren();
     if (!lessons.length) {
       elements.playlistLessonList.hidden = true;
       showInlineState(elements.playlistLessonsState, "這個播放列表目前未有影片。你可從課堂卡按「＋ 加入播放列表」加入。", "empty");
     } else {
-      lessons.forEach((lesson, index) => elements.playlistLessonList.append(createLessonCard(lesson, index)));
+      lessons.forEach((lesson, index) => elements.playlistLessonList.append(createLessonCard(lesson, index, { playlistSelection: state.playlistSelectionMode })));
       elements.playlistLessonsState.hidden = true;
       elements.playlistLessonList.hidden = false;
     }
@@ -1680,6 +1765,36 @@
       showToast(error.message, "error");
     } finally {
       elements.deletePlaylist.disabled = false;
+    }
+  }
+
+  async function removeSelectedPlaylistLessons() {
+    const playlist = state.playlists.find(item => item.id === state.selectedPlaylistId);
+    const lessonIds = Array.from(state.playlistSelectedLessonIds).filter(id => playlist?.lessonIds.includes(id));
+    if (!playlist || !lessonIds.length || !state.studentSession?.token) return;
+    if (!window.confirm(`確定從「${playlist.name}」移除已選取的 ${lessonIds.length} 部影片？影片及觀看進度不會被刪除。`)) return;
+    elements.playlistRemoveSelected.disabled = true;
+    elements.playlistSelectToggle.disabled = true;
+    try {
+      await Promise.all(lessonIds.map(lessonId => apiRequest(`/v1/playlists/${encodeURIComponent(playlist.id)}/lessons/${encodeURIComponent(lessonId)}`, {
+        method: "DELETE",
+        token: state.studentSession.token
+      })));
+      const removed = new Set(lessonIds);
+      playlist.lessonIds = playlist.lessonIds.filter(id => !removed.has(id));
+      state.lessons.forEach(lesson => {
+        if (removed.has(lesson.id)) lesson.playlistIds = lesson.playlistIds.filter(id => id !== playlist.id);
+      });
+      resetPlaylistSelection();
+      renderLessons();
+      renderBookmarks();
+      renderPlaylists();
+      showToast(`已從播放列表移除 ${lessonIds.length} 部影片。`, "success");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("student");
+      showToast(`${error.message} 請重新載入播放列表確認結果。`, "error");
+      elements.playlistRemoveSelected.disabled = false;
+      elements.playlistSelectToggle.disabled = false;
     }
   }
 
@@ -1933,8 +2048,29 @@
       time.className = "clip-item__time";
       time.textContent = formatDuration(clip.positionSeconds);
       button.append(title, time);
-      button.addEventListener("click", () => seekToClip(clip));
-      item.append(button);
+      button.addEventListener("pointerdown", event => { item.dataset.pointerType = event.pointerType || ""; });
+      button.addEventListener("click", event => {
+        const touchLike = item.dataset.pointerType === "touch" || item.dataset.pointerType === "pen";
+        if (touchLike && !item.classList.contains("is-actions-visible")) {
+          event.preventDefault();
+          elements.clipList.querySelectorAll("li.is-actions-visible").forEach(row => {
+            if (row !== item) row.classList.remove("is-actions-visible");
+          });
+          item.classList.add("is-actions-visible");
+          return;
+        }
+        seekToClip(clip);
+      });
+      const remove = document.createElement("button");
+      remove.type = "button";
+      remove.className = "clip-item__delete";
+      remove.textContent = "刪除";
+      remove.setAttribute("aria-label", `刪除 ${label}`);
+      remove.addEventListener("click", event => {
+        event.stopPropagation();
+        void deleteClip(clip, remove);
+      });
+      item.append(button, remove);
       elements.clipList.append(item);
 
       if (duration > 0) {
@@ -1957,8 +2093,29 @@
     if (!state.playback || !Number.isFinite(clip?.positionSeconds)) return;
     elements.video.currentTime = Math.min(Math.max(0, clip.positionSeconds), elements.video.duration || clip.positionSeconds);
     updatePlayerControls();
-    setClipRailOpen(false);
     void elements.video.play().catch(() => showToast("已跳到精彩片段，按播放繼續。"));
+  }
+
+  async function deleteClip(clip, button) {
+    const lesson = state.activeLesson;
+    if (!clip?.id || !lesson?.id || !state.studentSession?.token) return;
+    const label = clip.title ? `精彩回顧：${clip.title}` : `Clip ${clip.clipNumber || ""}`.trim();
+    if (!window.confirm(`確定刪除「${label}」？`)) return;
+    button.disabled = true;
+    try {
+      await apiRequest(`/v1/clips/${encodeURIComponent(clip.id)}`, {
+        method: "DELETE",
+        token: state.studentSession.token
+      });
+      if (state.activeLesson?.id !== lesson.id) return;
+      lesson.clips = lesson.clips.filter(item => item.id !== clip.id);
+      renderClips();
+      showToast("精彩片段已刪除。", "success");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("student");
+      button.disabled = false;
+      showToast(error.message, "error");
+    }
   }
 
   function beginClipCreation() {
@@ -1969,6 +2126,7 @@
     }
     state.clipWasPlaying = !elements.video.paused && !elements.video.ended;
     state.clipMode = true;
+    elements.player.dataset.clipMode = "true";
     state.clipPosition = null;
     elements.video.pause();
     elements.pinClip.setAttribute("aria-pressed", "true");
@@ -1983,6 +2141,7 @@
     const maximum = Number.isFinite(elements.video.duration) ? elements.video.duration : 86400;
     state.clipPosition = Math.min(Math.max(0, Number(positionSeconds) || 0), maximum);
     state.clipMode = false;
+    elements.player.removeAttribute("data-clip-mode");
     elements.pinClip.setAttribute("aria-pressed", "false");
     elements.pinClip.setAttribute("aria-label", "在影片進度列選擇精彩片段位置");
     elements.clipSelectedTime.textContent = formatDuration(state.clipPosition);
@@ -2002,6 +2161,7 @@
     const shouldResume = resume && state.clipWasPlaying && state.playback;
     const editorWasOpen = elements.clipEditor && !elements.clipEditor.hidden;
     state.clipMode = false;
+    elements.player?.removeAttribute("data-clip-mode");
     state.clipPosition = null;
     state.clipWasPlaying = false;
     elements.pinClip?.setAttribute("aria-pressed", "false");
@@ -2042,6 +2202,8 @@
   }
 
   function configureFeedbackForm(lesson) {
+    window.clearTimeout(state.feedbackSaveTimer);
+    state.feedbackSaveTimer = 0;
     const feedback = lesson?.feedback || {};
     const values = {
       videoQuality: feedback.pictureQuality,
@@ -2068,6 +2230,31 @@
     };
   }
 
+  function scheduleLessonFeedbackSave() {
+    window.clearTimeout(state.feedbackSaveTimer);
+    state.feedbackSaveTimer = 0;
+    const values = currentFeedbackValues();
+    const selectedCount = Object.values(values).filter(value => value != null).length;
+    if (!selectedCount) return;
+    if (selectedCount === 3) {
+      void saveLessonFeedback();
+      return;
+    }
+    elements.feedbackStatus.textContent = "等待其餘評分；如沒有再選擇，將於 2 秒後儲存⋯";
+    elements.feedbackStatus.dataset.state = "";
+    state.feedbackSaveTimer = window.setTimeout(() => {
+      state.feedbackSaveTimer = 0;
+      void saveLessonFeedback();
+    }, 2000);
+  }
+
+  function flushScheduledFeedbackSave() {
+    if (!state.feedbackSaveTimer) return;
+    window.clearTimeout(state.feedbackSaveTimer);
+    state.feedbackSaveTimer = 0;
+    void saveLessonFeedback();
+  }
+
   function showFeedbackOverlay({ pause = true } = {}) {
     if (!state.activeLesson || !state.playback) return;
     state.feedbackReturnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : elements.openFeedback;
@@ -2083,6 +2270,7 @@
   }
 
   function closeFeedbackOverlay({ resume = true, restoreFocus = true } = {}) {
+    flushScheduledFeedbackSave();
     const shouldResume = resume && state.feedbackWasPlaying && state.playback;
     const returnFocus = state.feedbackReturnFocus;
     state.feedbackWasPlaying = false;
@@ -2099,6 +2287,8 @@
   }
 
   async function saveLessonFeedback() {
+    window.clearTimeout(state.feedbackSaveTimer);
+    state.feedbackSaveTimer = 0;
     const lesson = state.activeLesson;
     if (!lesson?.id || !state.studentSession?.token) return;
     const values = currentFeedbackValues();
@@ -2144,7 +2334,8 @@
     elements.playerViewCount.textContent = `觀看次數：${lesson.viewCount.toLocaleString("zh-HK")}`;
     elements.playerSection.hidden = false;
     elements.playerError.hidden = true;
-    elements.playerPlaceholder.hidden = false;
+    elements.playerError.classList.remove("private-video-message");
+    resetPlayerPlaceholder();
     elements.playerControls.hidden = true;
     elements.centrePlay.hidden = true;
     elements.endedOverlay.hidden = true;
@@ -2152,6 +2343,11 @@
     configureFeedbackForm(lesson);
     renderClips();
     elements.playerSection.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    if (lesson.isPrivate) {
+      showPlayerError("影片目前為私人。", { privateVideo: true });
+      return;
+    }
 
     try {
       const payload = await apiRequest("/v1/playback/grant", {
@@ -2168,16 +2364,40 @@
       elements.video.load();
     } catch (error) {
       if (error.status === 401) return handleExpiredSession("student");
-      showPlayerError(error.status === 403 ? "你的帳戶目前未能播放這個課堂，請聯絡 Edmund Sir。" : error.message);
+      const privateVideo = error.code === "LESSON_PRIVATE" || /private|私人/i.test(error.message || "");
+      showPlayerError(privateVideo ? "影片目前為私人。" : error.status === 403 ? "你的帳戶目前未能播放這個課堂，請聯絡 Edmund Sir。" : error.message, { privateVideo });
     }
   }
 
-  function showPlayerError(message) {
-    elements.playerPlaceholder.hidden = true;
+  function showPlayerError(message, { privateVideo = false } = {}) {
+    if (privateVideo) {
+      const icon = document.createElement("span");
+      icon.setAttribute("aria-hidden", "true");
+      icon.textContent = "🔒";
+      const title = document.createElement("strong");
+      title.textContent = "影片目前為私人。";
+      elements.playerPlaceholder.replaceChildren(icon, title);
+      elements.playerPlaceholder.setAttribute("role", "alert");
+      elements.playerPlaceholder.hidden = false;
+    } else {
+      elements.playerPlaceholder.hidden = true;
+    }
     elements.playerControls.hidden = true;
     elements.centrePlay.hidden = true;
     elements.playerError.textContent = message;
+    elements.playerError.classList.toggle("private-video-message", privateVideo);
     elements.playerError.hidden = false;
+  }
+
+  function resetPlayerPlaceholder() {
+    const spinner = document.createElement("span");
+    spinner.className = "spinner";
+    spinner.setAttribute("aria-hidden", "true");
+    const title = document.createElement("strong");
+    title.textContent = "正在準備安全播放⋯";
+    elements.playerPlaceholder.replaceChildren(spinner, title);
+    elements.playerPlaceholder.removeAttribute("role");
+    elements.playerPlaceholder.hidden = false;
   }
 
   function configureWatermark() {
@@ -2300,6 +2520,7 @@
       closeNoteDialog(true, { restoreFocus: false });
     }
     if (saveProgress && state.playback) void sendHeartbeat("close", true);
+    flushScheduledFeedbackSave();
     window.clearInterval(state.heartbeatTimer);
     clearWatermarkTimers();
     window.clearTimeout(state.controlsTimer);
@@ -2329,6 +2550,7 @@
     elements.watermarkLayer.hidden = false;
     elements.player.removeAttribute("data-controls-hidden");
     elements.playerError.hidden = true;
+    elements.playerError.classList.remove("private-video-message");
     if (hideSection) {
       elements.playerSection.hidden = true;
       if (state.role === "student") void loadLessons();
@@ -2358,7 +2580,7 @@
     const paused = elements.video.paused;
     elements.playToggle.querySelector("span").textContent = paused ? "▶" : "❚❚";
     elements.playToggle.setAttribute("aria-label", paused ? "播放影片" : "暫停影片");
-    elements.centrePlay.hidden = !paused || elements.playerPlaceholder.hidden === false || !elements.endedOverlay.hidden;
+    elements.centrePlay.hidden = true;
   }
 
   async function togglePlayback() {
@@ -2394,7 +2616,7 @@
   function handlePlayerKeydown(event) {
     if (!state.playback || ["INPUT", "BUTTON", "SELECT", "TEXTAREA"].includes(event.target.tagName)) return;
     const key = event.key.toLowerCase();
-    if ([" ", "k"].includes(key)) {
+    if (key === "k") {
       event.preventDefault();
       void togglePlayback();
     } else if (key === "arrowleft") {
@@ -2410,6 +2632,19 @@
       event.preventDefault();
       void toggleFullscreen();
     }
+    showControlsTemporarily();
+  }
+
+  function handlePlaybackSpacebar(event) {
+    if (event.code !== "Space" || event.repeat || !state.playback || elements.playerSection.hidden) return;
+    if (!elements.endedOverlay.hidden || !elements.clipEditor.hidden) return;
+    const target = event.target instanceof Element ? event.target : null;
+    if (target?.matches("input, textarea, select, [contenteditable='true']") || target?.closest("[contenteditable='true']")) return;
+    const inPlayerWorkspace = !target || target === document.body || target === elements.player || target === elements.video || elements.playerWorkspace?.contains(target);
+    if (!inPlayerWorkspace) return;
+    event.preventDefault();
+    event.stopPropagation();
+    void togglePlayback();
     showControlsTemporarily();
   }
 
@@ -2460,7 +2695,7 @@
       }
       elements.playerPlaceholder.hidden = true;
       elements.playerControls.hidden = false;
-      elements.centrePlay.hidden = false;
+      elements.centrePlay.hidden = true;
       if (!qualitySwitch && elements.notePanel.hidden) elements.player.focus({ preventScroll: true });
       updatePlayerControls();
       renderClips();
@@ -2548,7 +2783,7 @@
     document.querySelector("[data-cancel-clip]")?.addEventListener("click", () => cancelClipCreation({ resume: true }));
     elements.clipRailToggle?.addEventListener("click", () => setClipRailOpen(elements.clipRailToggle.getAttribute("aria-expanded") !== "true"));
     document.querySelector("[data-clip-rail-close]")?.addEventListener("click", () => setClipRailOpen(false));
-    elements.feedbackRatings.forEach(input => input.addEventListener("change", () => void saveLessonFeedback()));
+    elements.feedbackRatings.forEach(input => input.addEventListener("change", scheduleLessonFeedbackSave));
     elements.openFeedback?.addEventListener("click", () => showFeedbackOverlay({ pause: true }));
     elements.closeFeedback?.addEventListener("click", () => closeFeedbackOverlay({ resume: true }));
     elements.endedOverlay?.addEventListener("keydown", event => {
@@ -2606,6 +2841,7 @@
       state.students = rows.map(normalizeStudent).sort((a, b) => a.name.localeCompare(b.name, "zh-Hant", { numeric: true }));
       renderStudentSummary();
       renderStudents();
+      renderAvailableStudents();
       renderEntitlementStudentOptions();
       if (state.selectedEntitlementStudentId) showEntitlementEditor(state.selectedEntitlementStudentId);
     } catch (error) {
@@ -2637,7 +2873,7 @@
     if (!elements.entitlementStudent) return;
     const selectedId = state.selectedEntitlementStudentId;
     elements.entitlementStudent.replaceChildren(new Option("請選擇學生", ""));
-    state.students.forEach(student => elements.entitlementStudent.append(new Option(`${student.name} · ${student.videoKey || "未有 Key"}`, student.id)));
+    state.students.filter(student => student.videoKey).forEach(student => elements.entitlementStudent.append(new Option(`${student.name} · ${student.videoKey}`, student.id)));
     if (state.students.some(student => student.id === selectedId)) elements.entitlementStudent.value = selectedId;
     else {
       state.selectedEntitlementStudentId = "";
@@ -2732,7 +2968,7 @@
   function filteredStudents() {
     const query = String(elements.studentSearch?.value || "").trim().toLocaleLowerCase("zh-Hant");
     const filter = String(elements.keyFilter?.value || "all");
-    return state.students.filter(student => {
+    return state.students.filter(student => student.videoKey).filter(student => {
       const haystack = `${student.name} ${student.id} ${student.videoKey}`.toLocaleLowerCase("zh-Hant");
       if (query && !haystack.includes(query)) return false;
       if (filter === "missing" && student.videoKey) return false;
@@ -2745,17 +2981,18 @@
 
   function renderStudents() {
     const students = filteredStudents();
+    const activatedStudents = state.students.filter(student => student.videoKey);
     elements.studentRows.replaceChildren();
     elements.studentsState.hidden = true;
     elements.studentTable.hidden = false;
     elements.resultCount.hidden = false;
-    elements.resultCount.textContent = `顯示 ${students.length} / ${state.students.length} 位學生`;
+    elements.resultCount.textContent = `顯示 ${students.length} / ${activatedStudents.length} 位已啟用學生`;
 
     if (!students.length) {
       const row = document.createElement("tr");
       const cell = document.createElement("td");
       cell.colSpan = 5;
-      cell.textContent = state.students.length ? "沒有符合搜尋條件的學生。" : "目前未有學生帳戶。";
+      cell.textContent = activatedStudents.length ? "沒有符合搜尋條件的學生。" : "目前未有已啟用的錄影班學生。請到「新增學生」啟用帳戶。";
       cell.style.padding = "42px";
       cell.style.textAlign = "center";
       cell.style.color = "#85868d";
@@ -2906,6 +3143,7 @@
     return {
       studentId: String(row.studentId || row.student_id || ""),
       studentName: String(row.studentName || row.student_name || "未命名學生"),
+      videoKey: String(row.videoKey || row.video_key || ""),
       lessonId: String(row.lessonId || row.lesson_id || ""),
       lessonTitle: String(row.lessonTitle || row.lesson_title || "未命名課堂"),
       courseCode: String(row.courseCode || row.course_code || "").toLowerCase(),
@@ -3010,6 +3248,208 @@
     });
   }
 
+  function csvCell(value) {
+    let content = String(value ?? "");
+    if (/^[=+\-@]/.test(content)) content = `'${content}`;
+    return `"${content.replace(/"/g, '""')}"`;
+  }
+
+  function exportAdminFeedbackCsv() {
+    if (!state.adminFeedback.length) {
+      showToast("目前沒有可匯出的影片評分。", "error");
+      return;
+    }
+    const exportedAt = new Date().toISOString();
+    const headers = ["Student name", "UUID", "Video class key", "Video title", "Rate 1", "Rate 2", "Rate 3", "Update time", "Exported date"];
+    const lines = [headers.map(csvCell).join(",")];
+    state.adminFeedback.forEach(item => {
+      const updated = new Date(item.updatedAt);
+      lines.push([
+        item.studentName,
+        item.studentId,
+        item.videoKey,
+        item.lessonTitle,
+        item.pictureQuality ?? "",
+        item.explanationQuality ?? "",
+        item.audioQuality ?? "",
+        Number.isNaN(updated.getTime()) ? item.updatedAt : updated.toISOString(),
+        exportedAt
+      ].map(csvCell).join(","));
+    });
+    const blob = new Blob(["\ufeff", lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `video-class-feedback-${exportedAt.slice(0, 10)}.csv`;
+    link.hidden = true;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+    showToast(`已匯出 ${state.adminFeedback.length} 份評分。`, "success");
+  }
+
+  function normalizeAdminLesson(value, index) {
+    const lesson = value && typeof value === "object" ? value : {};
+    const renditions = (Array.isArray(lesson.renditions) ? lesson.renditions : []).map(normalizeRendition).filter(item => item.qualityCode);
+    return {
+      id: String(lesson.id || lesson.lessonId || lesson.lesson_id || ""),
+      slug: String(lesson.slug || ""),
+      title: String(lesson.title || lesson.name || `課堂 ${index + 1}`),
+      description: String(lesson.description || ""),
+      courseCode: String(lesson.courseCode || lesson.course_code || "").toLowerCase(),
+      courseTitle: String(lesson.courseTitle || lesson.course_title || lesson.courseLabel || lesson.course_label || ""),
+      durationSeconds: Math.max(0, Number(lesson.durationSeconds || lesson.duration_seconds || 0)),
+      order: Number(lesson.sortOrder || lesson.sort_order || lesson.order || index + 1),
+      published: lesson.published !== false,
+      isPrivate: lesson.isPrivate === true || lesson.is_private === true,
+      hasThumbnail: lesson.hasThumbnail === true || lesson.has_thumbnail === true,
+      renditions,
+      createdAt: String(lesson.createdAt || lesson.created_at || ""),
+      updatedAt: String(lesson.updatedAt || lesson.updated_at || "")
+    };
+  }
+
+  async function loadAdminLessons() {
+    if (!state.adminSession?.token || !elements.adminLessonsState) return;
+    elements.adminLessonsTable.hidden = true;
+    showInlineState(elements.adminLessonsState, "正在載入影片名單⋯");
+    if (elements.adminLessonsRefresh) elements.adminLessonsRefresh.disabled = true;
+    try {
+      const payload = await apiRequest("/v1/admin/lessons", { token: state.adminSession.token });
+      const value = unwrap(payload);
+      const rows = Array.isArray(value) ? value : (value?.lessons || value?.items || []);
+      state.adminLessons = rows.map(normalizeAdminLesson).filter(lesson => lesson.id).sort((a, b) => a.order - b.order || a.title.localeCompare(b.title, "zh-Hant"));
+      renderAdminLessons();
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("admin");
+      showInlineState(elements.adminLessonsState, error.message, "error", loadAdminLessons);
+    } finally {
+      if (elements.adminLessonsRefresh) elements.adminLessonsRefresh.disabled = false;
+    }
+  }
+
+  function renderAdminLessons() {
+    if (!elements.adminLessonsRows || !elements.adminLessonsState || !elements.adminLessonsTable) return;
+    elements.adminLessonsRows.replaceChildren();
+    if (!state.adminLessons.length) {
+      elements.adminLessonsTable.hidden = true;
+      showInlineState(elements.adminLessonsState, "目前未有錄影班影片。", "empty");
+      return;
+    }
+    state.adminLessons.forEach(lesson => {
+      const row = document.createElement("tr");
+      row.dataset.lessonId = lesson.id;
+      const thumbnailCell = document.createElement("td");
+      const thumbnail = document.createElement("div");
+      thumbnail.className = `admin-lesson-thumbnail${lesson.isPrivate ? " is-private" : ""}`;
+      thumbnail.textContent = lesson.hasThumbnail ? "THUMBNAIL" : "VIDEO";
+      thumbnailCell.append(thumbnail);
+
+      const titleCell = document.createElement("td");
+      const titleWrap = document.createElement("span");
+      titleWrap.className = "student-name";
+      const title = document.createElement("strong");
+      title.textContent = lesson.title;
+      const course = document.createElement("small");
+      course.textContent = lesson.courseTitle || state.adminCourses.find(item => item.id === lesson.courseCode)?.title || lesson.courseCode.toUpperCase() || "未分類";
+      titleWrap.append(title, course);
+      titleCell.append(titleWrap);
+
+      const duration = document.createElement("td");
+      duration.textContent = lesson.durationSeconds ? formatDuration(lesson.durationSeconds) : "—";
+      const statusCell = document.createElement("td");
+      const status = document.createElement("span");
+      status.className = `lesson-privacy-status${lesson.isPrivate ? " is-private" : ""}`;
+      status.textContent = lesson.isPrivate ? "私人" : lesson.published ? "可觀看" : "未發布";
+      statusCell.append(status);
+      const actionCell = document.createElement("td");
+      const toggle = document.createElement("button");
+      toggle.type = "button";
+      toggle.className = "privacy-toggle-button";
+      toggle.setAttribute("aria-pressed", String(lesson.isPrivate));
+      toggle.textContent = lesson.isPrivate ? "恢復觀看" : "設為私人";
+      toggle.addEventListener("click", () => void setAdminLessonPrivacy(lesson, !lesson.isPrivate, toggle));
+      actionCell.append(toggle);
+      row.append(thumbnailCell, titleCell, duration, statusCell, actionCell);
+      elements.adminLessonsRows.append(row);
+    });
+    elements.adminLessonsState.hidden = true;
+    elements.adminLessonsTable.hidden = false;
+  }
+
+  async function setAdminLessonPrivacy(lesson, isPrivate, button) {
+    if (!state.adminSession?.token || !lesson?.id) return;
+    if (isPrivate && !window.confirm(`確定把「${lesson.title}」設為私人？正在播放的授權會立即失效。`)) return;
+    button.disabled = true;
+    try {
+      const payload = await apiRequest(`/v1/admin/lessons/${encodeURIComponent(lesson.id)}/privacy`, {
+        method: "PATCH",
+        token: state.adminSession.token,
+        body: { private: isPrivate }
+      });
+      const value = unwrap(payload)?.lesson || unwrap(payload) || {};
+      lesson.isPrivate = value.isPrivate === true || value.is_private === true || isPrivate;
+      lesson.updatedAt = String(value.updatedAt || value.updated_at || lesson.updatedAt);
+      renderAdminLessons();
+      showToast(isPrivate ? "影片已設為私人；R2 檔案仍然保留。" : "影片已恢復給獲授權學生觀看。", "success");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("admin");
+      button.disabled = false;
+      showToast(error.message, "error");
+    }
+  }
+
+  function renderAvailableStudents() {
+    if (!elements.availableStudentsList || !elements.availableStudentsState) return;
+    const query = normalizeSearchText(elements.availableStudentsSearch?.value || "");
+    const available = state.students.filter(student => !student.videoKey).filter(student => !query || normalizeSearchText(`${student.name} ${student.id}`).includes(query));
+    elements.availableStudentsList.replaceChildren();
+    if (!available.length) {
+      elements.availableStudentsList.hidden = true;
+      showInlineState(elements.availableStudentsState, query ? "沒有符合搜尋條件的未啟用學生。" : "所有現有學生都已啟用錄影班，或目前未有學生帳戶。", "empty");
+      return;
+    }
+    available.forEach(student => {
+      const card = document.createElement("article");
+      card.className = "available-student-card";
+      const details = document.createElement("div");
+      const name = document.createElement("strong");
+      name.textContent = student.name;
+      const id = document.createElement("small");
+      id.textContent = student.id;
+      details.append(name, id);
+      const activate = document.createElement("button");
+      activate.type = "button";
+      activate.textContent = "產生 Key 並啟用";
+      activate.addEventListener("click", () => void activateVideoStudent(student, activate));
+      card.append(details, activate);
+      elements.availableStudentsList.append(card);
+    });
+    elements.availableStudentsState.hidden = true;
+    elements.availableStudentsList.hidden = false;
+  }
+
+  async function activateVideoStudent(student, button) {
+    if (!state.adminSession?.token || !student?.id) return;
+    button.disabled = true;
+    button.textContent = "正在啟用⋯";
+    try {
+      await apiRequest(`/v1/admin/students/${encodeURIComponent(student.id)}/key`, {
+        method: "POST",
+        token: state.adminSession.token,
+        body: { rotate: false }
+      });
+      showToast(`已為 ${student.name} 產生隨機 Key 並啟用錄影班。`, "success");
+      await loadStudents();
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("admin");
+      button.disabled = false;
+      button.textContent = "產生 Key 並啟用";
+      showToast(error.message, "error");
+    }
+  }
+
   function bindLoginEvents() {
     elements.roleTabs.forEach((tab, index) => {
       tab.addEventListener("click", () => selectRoleTab(tab.dataset.roleTab));
@@ -3104,10 +3544,22 @@
       closePlaylistDialog();
     });
     elements.deletePlaylist?.addEventListener("click", () => void deleteSelectedPlaylist());
+    elements.playlistSelectToggle?.addEventListener("click", () => {
+      state.playlistSelectionMode = !state.playlistSelectionMode;
+      state.playlistSelectionPlaylistId = state.selectedPlaylistId;
+      state.playlistSelectedLessonIds.clear();
+      renderPlaylists();
+      elements.playlistSelectToggle.focus({ preventScroll: true });
+    });
+    elements.playlistRemoveSelected?.addEventListener("click", () => void removeSelectedPlaylistLessons());
     elements.adminPanelTabs.forEach(button => button.addEventListener("click", () => showAdminPanel(button.dataset.adminPanelTab)));
     elements.refreshFeedback?.addEventListener("click", () => void loadAdminFeedback());
+    elements.exportFeedback?.addEventListener("click", exportAdminFeedbackCsv);
     elements.feedbackSearch?.addEventListener("input", renderAdminFeedback);
     elements.feedbackCourseFilter?.addEventListener("change", renderAdminFeedback);
+    elements.adminLessonsRefresh?.addEventListener("click", () => void loadAdminLessons());
+    elements.availableStudentsRefresh?.addEventListener("click", () => void loadStudents());
+    elements.availableStudentsSearch?.addEventListener("input", renderAvailableStudents);
     elements.entitlementStudent?.addEventListener("change", () => showEntitlementEditor(elements.entitlementStudent.value));
     elements.entitlementsForm?.addEventListener("submit", event => {
       event.preventDefault();
@@ -3115,6 +3567,7 @@
     });
     const markStudentActivity = () => resetStudentInactivity();
     document.addEventListener("pointerdown", markStudentActivity, { passive: true });
+    document.addEventListener("keydown", handlePlaybackSpacebar, true);
     document.addEventListener("keydown", markStudentActivity);
     document.addEventListener("touchstart", markStudentActivity, { passive: true });
     document.addEventListener("wheel", markStudentActivity, { passive: true });

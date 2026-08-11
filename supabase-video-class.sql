@@ -213,6 +213,7 @@ create table if not exists public.video_class_lessons (
   duration_seconds integer check (duration_seconds is null or duration_seconds between 1 and 86400),
   sort_order integer not null default 0,
   published boolean not null default false,
+  is_private boolean not null default false,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   created_by uuid references public.video_class_admin_accounts(id) on delete set null
@@ -220,6 +221,17 @@ create table if not exists public.video_class_lessons (
 
 alter table public.video_class_lessons
   add column if not exists course_code text;
+
+alter table public.video_class_lessons
+  add column if not exists is_private boolean not null default false;
+
+update public.video_class_lessons
+set is_private = false
+where is_private is null;
+
+alter table public.video_class_lessons
+  alter column is_private set default false,
+  alter column is_private set not null;
 
 update public.video_class_lessons
 set course_code = 'dse'
@@ -552,7 +564,8 @@ create table if not exists public.video_class_admin_audit_events (
   student_id uuid references public.flashcard_students(id) on delete set null,
   action text not null check (action in (
     'issue_key', 'rotate_key', 'clear_key', 'enable_access', 'disable_access',
-    'enable_course', 'disable_course', 'enable_watermark', 'disable_watermark'
+    'enable_course', 'disable_course', 'enable_watermark', 'disable_watermark',
+    'private_lesson', 'unprivate_lesson'
   )),
   detail jsonb not null default '{}'::jsonb check (jsonb_typeof(detail) = 'object'),
   created_at timestamptz not null default now()
@@ -576,7 +589,8 @@ begin
     add constraint video_class_admin_audit_events_action_check
     check (action in (
       'issue_key', 'rotate_key', 'clear_key', 'enable_access', 'disable_access',
-      'enable_course', 'disable_course', 'enable_watermark', 'disable_watermark'
+      'enable_course', 'disable_course', 'enable_watermark', 'disable_watermark',
+      'private_lesson', 'unprivate_lesson'
     ));
 end;
 $$;
@@ -1807,6 +1821,162 @@ begin
 end;
 $$;
 
+create or replace function public.video_class_admin_list_lessons(
+  p_service_secret text,
+  p_admin_token uuid
+)
+returns jsonb
+language plpgsql
+stable
+security definer
+set search_path = ''
+as $$
+declare
+  v_result jsonb;
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or public._video_class_admin_id(p_admin_token) is null
+  then
+    raise exception 'Invalid or expired admin session';
+  end if;
+
+  select jsonb_build_object(
+    'lessons', coalesce(jsonb_agg(
+      jsonb_build_object(
+        'lesson_id', lesson.id,
+        'slug', lesson.slug,
+        'title', lesson.title,
+        'description', lesson.description,
+        'course_code', lesson.course_code,
+        'course_title', course.title,
+        'course_label', lesson.course_label,
+        'duration_seconds', lesson.duration_seconds,
+        'sort_order', lesson.sort_order,
+        'published', lesson.published,
+        'is_private', lesson.is_private,
+        'has_thumbnail', exists (
+          select 1
+          from public.video_class_lesson_thumbnails thumbnail
+          where thumbnail.lesson_id = lesson.id
+            and thumbnail.enabled = true
+        ),
+        'tags', coalesce((
+          select jsonb_agg(
+            jsonb_build_object('slug', tag.slug, 'label', tag.label)
+            order by tag.sort_order, tag.slug
+          )
+          from public.video_class_lesson_tags lesson_tag
+          join public.video_class_tags tag on tag.id = lesson_tag.tag_id
+          where lesson_tag.lesson_id = lesson.id
+        ), '[]'::jsonb),
+        'renditions', coalesce((
+          select jsonb_agg(
+            jsonb_build_object(
+              'quality_code', rendition.quality_code,
+              'display_label', rendition.display_label,
+              'height_pixels', rendition.height_pixels,
+              'byte_length', rendition.byte_length,
+              'is_default', rendition.is_default,
+              'enabled', rendition.enabled
+            )
+            order by rendition.sort_order, rendition.height_pixels nulls last,
+              rendition.quality_code
+          )
+          from public.video_class_lesson_renditions rendition
+          where rendition.lesson_id = lesson.id
+        ), '[]'::jsonb),
+        'created_at', lesson.created_at,
+        'updated_at', lesson.updated_at
+      )
+      order by course.sort_order, lesson.sort_order, lesson.created_at, lesson.id
+    ), '[]'::jsonb)
+  )
+  into v_result
+  from public.video_class_lessons lesson
+  join public.video_class_courses course on course.code = lesson.course_code;
+
+  return v_result;
+end;
+$$;
+
+create or replace function public.video_class_admin_set_lesson_private(
+  p_service_secret text,
+  p_admin_token uuid,
+  p_lesson_id uuid,
+  p_is_private boolean
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_admin_id uuid;
+  v_lesson public.video_class_lessons%rowtype;
+  v_previous_private boolean;
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_lesson_id is null
+    or p_is_private is null
+  then
+    raise exception 'Invalid lesson privacy update';
+  end if;
+
+  v_admin_id := public._video_class_admin_id(p_admin_token);
+  if v_admin_id is null then
+    raise exception 'Invalid or expired admin session';
+  end if;
+
+  select lesson.*
+  into v_lesson
+  from public.video_class_lessons lesson
+  where lesson.id = p_lesson_id
+  for update;
+
+  if not found then
+    raise exception 'Lesson not found';
+  end if;
+
+  v_previous_private := v_lesson.is_private;
+
+  update public.video_class_lessons lesson
+  set is_private = p_is_private
+  where lesson.id = p_lesson_id
+  returning lesson.* into v_lesson;
+
+  if p_is_private then
+    update public.video_class_playback_sessions playback
+    set revoked_at = coalesce(playback.revoked_at, now())
+    where playback.lesson_id = p_lesson_id
+      and playback.revoked_at is null
+      and playback.expires_at > now();
+  end if;
+
+  insert into public.video_class_admin_audit_events (
+    admin_id, action, detail
+  )
+  values (
+    v_admin_id,
+    case when p_is_private then 'private_lesson' else 'unprivate_lesson' end,
+    jsonb_build_object(
+      'lesson_id', v_lesson.id,
+      'lesson_slug', v_lesson.slug,
+      'lesson_title', v_lesson.title,
+      'previous_is_private', v_previous_private,
+      'is_private', v_lesson.is_private
+    )
+  );
+
+  return jsonb_build_object(
+    'lesson_id', v_lesson.id,
+    'slug', v_lesson.slug,
+    'title', v_lesson.title,
+    'is_private', v_lesson.is_private,
+    'updated_at', v_lesson.updated_at
+  );
+end;
+$$;
+
 create or replace function public.video_class_admin_issue_key(
   p_service_secret text,
   p_admin_token uuid,
@@ -2134,6 +2304,7 @@ returns table (
   course_label text,
   duration_seconds integer,
   sort_order integer,
+  is_private boolean,
   resume_seconds numeric,
   completed_at timestamptz,
   progress_updated_at timestamptz,
@@ -2171,6 +2342,7 @@ begin
     lesson.course_label,
     lesson.duration_seconds,
     lesson.sort_order,
+    lesson.is_private,
     coalesce(progress.position_seconds, 0),
     progress.completed_at,
     progress.updated_at,
@@ -2351,6 +2523,7 @@ begin
       lesson.course_label,
       lesson.duration_seconds,
       lesson.sort_order,
+      lesson.is_private,
       lesson.created_at
     from public.video_class_lessons lesson
     join public.video_class_courses course
@@ -2376,6 +2549,7 @@ begin
           'course_label', lesson.course_label,
           'duration_seconds', lesson.duration_seconds,
           'sort_order', lesson.sort_order,
+          'is_private', lesson.is_private,
           'resume_seconds', coalesce(progress.position_seconds, 0),
           'completed_at', progress.completed_at,
           'progress_updated_at', progress.updated_at,
@@ -2919,7 +3093,9 @@ begin
       select jsonb_agg(
         jsonb_build_object(
           'student_id', feedback.student_id,
+          'student_uuid', feedback.student_id,
           'student_name', student.name,
+          'video_key', student_access.video_key,
           'lesson_id', feedback.lesson_id,
           'lesson_title', lesson.title,
           'course_code', lesson.course_code,
@@ -2934,6 +3110,8 @@ begin
       )
       from public.video_class_lesson_feedback feedback
       join public.flashcard_students student on student.id = feedback.student_id
+      left join public.video_class_student_access student_access
+        on student_access.student_id = feedback.student_id
       join public.video_class_lessons lesson on lesson.id = feedback.lesson_id
     ), '[]'::jsonb),
     'summary', (
@@ -2991,6 +3169,7 @@ begin
   join public.video_class_lessons lesson
     on lesson.id = thumbnail.lesson_id
    and lesson.published = true
+   and lesson.is_private = false
   join public.video_class_courses course
     on course.code = lesson.course_code
    and course.published = true
@@ -3046,6 +3225,7 @@ begin
   join public.video_class_lessons lesson
     on lesson.id = playback.lesson_id
    and lesson.published = true
+   and lesson.is_private = false
   join public.video_class_courses course
     on course.code = lesson.course_code
    and course.published = true
@@ -3119,6 +3299,7 @@ begin
   join public.video_class_lessons lesson
     on lesson.id = playback.lesson_id
    and lesson.published = true
+   and lesson.is_private = false
   join public.video_class_courses course
     on course.code = lesson.course_code
    and course.published = true
@@ -3244,8 +3425,9 @@ begin
     and course_access.enabled = true
   where lesson.slug = p_lesson_slug
     and lesson.published = true
+    and lesson.is_private = false
   limit 1
-  for no key update of course_access;
+  for no key update of lesson, course_access;
 
   if not found then
     return;
@@ -3331,6 +3513,7 @@ begin
     and playback.student_id = p_student_id
     and lesson.slug = p_lesson_slug
     and lesson.published = true
+    and lesson.is_private = false
     and student.deleted_at is null
     and access.enabled = true
     and course_access.enabled = true
@@ -3399,6 +3582,7 @@ begin
     and student.deleted_at is null
     and access.enabled = true
     and lesson.published = true
+    and lesson.is_private = false
     and access.video_key = playback.video_key_snapshot
   limit 1
   for update of playback;
@@ -3651,6 +3835,8 @@ revoke all on function public.video_class_admin_me(text, uuid) from public, anon
 revoke all on function public.video_class_admin_logout(text, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_admin_list_students(text, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_admin_list_courses(text, uuid) from public, anon, authenticated;
+revoke all on function public.video_class_admin_list_lessons(text, uuid) from public, anon, authenticated;
+revoke all on function public.video_class_admin_set_lesson_private(text, uuid, uuid, boolean) from public, anon, authenticated;
 revoke all on function public.video_class_admin_issue_key(text, uuid, uuid, boolean) from public, anon, authenticated;
 revoke all on function public.video_class_admin_clear_key(text, uuid, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_admin_set_enabled(text, uuid, uuid, boolean) from public, anon, authenticated;
@@ -3687,6 +3873,8 @@ grant execute on function public.video_class_admin_me(text, uuid) to anon;
 grant execute on function public.video_class_admin_logout(text, uuid) to anon;
 grant execute on function public.video_class_admin_list_students(text, uuid) to anon;
 grant execute on function public.video_class_admin_list_courses(text, uuid) to anon;
+grant execute on function public.video_class_admin_list_lessons(text, uuid) to anon;
+grant execute on function public.video_class_admin_set_lesson_private(text, uuid, uuid, boolean) to anon;
 grant execute on function public.video_class_admin_issue_key(text, uuid, uuid, boolean) to anon;
 grant execute on function public.video_class_admin_clear_key(text, uuid, uuid) to anon;
 grant execute on function public.video_class_admin_set_enabled(text, uuid, uuid, boolean) to anon;

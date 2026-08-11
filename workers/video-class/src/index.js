@@ -104,8 +104,16 @@ async function route(request, env, ctx) {
   if (url.pathname === "/v1/admin/courses" && request.method === "GET") {
     return adminListCourses(request, env);
   }
+  if (url.pathname === "/v1/admin/lessons" && request.method === "GET") {
+    return adminListLessons(request, env);
+  }
   if (url.pathname === "/v1/admin/feedback" && request.method === "GET") {
     return adminListFeedback(request, env);
+  }
+
+  const adminLessonPrivacyMatch = url.pathname.match(/^\/v1\/admin\/lessons\/([^/]+)\/privacy$/);
+  if (adminLessonPrivacyMatch && request.method === "PATCH") {
+    return adminChangeLessonPrivacy(request, env, decodePathSegment(adminLessonPrivacyMatch[1]));
   }
 
   const studentKeyMatch = url.pathname.match(/^\/v1\/admin\/students\/([^/]+)\/key$/);
@@ -416,6 +424,45 @@ async function adminListCourses(request, env) {
   });
   if (!Array.isArray(rows)) throw new HttpError(502, "Course catalogue could not be loaded");
   return json(request, env, { courses: rows.map(mapCourse) }, 200);
+}
+
+async function adminListLessons(request, env) {
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const result = await serviceRpc(env, "video_class_admin_list_lessons", {
+    p_admin_token: token
+  });
+  const value = Array.isArray(result) ? (firstRow(result) || {}) : (result || {});
+  if (!value || typeof value !== "object" || !Array.isArray(value.lessons)) {
+    throw new HttpError(502, "Lesson inventory could not be loaded");
+  }
+  return json(request, env, { lessons: value.lessons.map(mapAdminLesson) }, 200);
+}
+
+async function adminChangeLessonPrivacy(request, env, lessonId) {
+  if (!UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
+  const body = await readJson(request, 4096);
+  if (typeof body.private !== "boolean") throw new HttpError(400, "Private must be true or false");
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const result = await serviceRpc(env, "video_class_admin_set_lesson_private", {
+    p_admin_token: token,
+    p_lesson_id: lessonId,
+    p_is_private: body.private
+  });
+  const row = firstRow(result);
+  if (!row || !UUID_RE.test(String(row.lesson_id || ""))) {
+    throw new HttpError(404, "Lesson was not found");
+  }
+  const isPrivate = isPrivateLesson(row);
+  return json(request, env, {
+    lesson: {
+      id: String(row.lesson_id),
+      private: isPrivate,
+      isPrivate,
+      updatedAt: row.updated_at || null
+    }
+  }, 200);
 }
 
 async function adminListFeedback(request, env) {
@@ -777,6 +824,9 @@ async function grantPlayback(request, env, requestUrl) {
     const selected = Array.isArray(lessons)
       ? lessons.find(lesson => String(lesson.lesson_id || "") === lessonId)
       : null;
+    if (selected && isPrivateLesson(selected)) {
+      throw new HttpError(403, "This video is private and cannot be played");
+    }
     lessonSlug = String(selected?.slug || "");
   }
   if (!SLUG_RE.test(lessonSlug)) throw new HttpError(400, "Invalid lesson");
@@ -1380,6 +1430,51 @@ function mapCourseAccess(row) {
   };
 }
 
+function mapAdminLesson(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const courseCode = String(value.course_code || value.courseCode || "");
+  const courseTitle = String(value.course_title || value.courseTitle || "");
+  const courseLabel = String(value.course_label || value.courseLabel || "");
+  const durationSeconds = nullablePositiveNumber(value.duration_seconds ?? value.durationSeconds ?? value.duration);
+  const tags = Array.isArray(value.tags) ? value.tags.map(mapTag).filter(tag => tag.label) : [];
+  const renditionRows = Array.isArray(value.renditions)
+    ? value.renditions
+    : (Array.isArray(value.rendition_metadata || value.renditionMetadata)
+      ? (value.rendition_metadata || value.renditionMetadata)
+      : []);
+  const renditions = renditionRows.map(mapRenditionMetadata).filter(rendition => rendition.qualityCode);
+  const isPrivate = isPrivateLesson(value);
+  return {
+    id: UUID_RE.test(String(value.lesson_id || value.id || "")) ? String(value.lesson_id || value.id) : null,
+    slug: String(value.slug || ""),
+    title: String(value.title || ""),
+    description: String(value.description || ""),
+    courseCode,
+    courseTitle,
+    courseLabel,
+    course: { code: courseCode, title: courseTitle, label: courseLabel },
+    durationSeconds,
+    duration: durationSeconds,
+    private: isPrivate,
+    isPrivate,
+    published: value.published === true,
+    sortOrder: Number.isFinite(Number(value.sort_order ?? value.sortOrder))
+      ? Number(value.sort_order ?? value.sortOrder)
+      : 0,
+    hasThumbnail: value.has_thumbnail === true || value.hasThumbnail === true,
+    tags,
+    tagLabels: tags.map(tag => tag.label),
+    renditions,
+    createdAt: value.created_at || value.createdAt || null,
+    updatedAt: value.updated_at || value.updatedAt || null
+  };
+}
+
+function isPrivateLesson(row) {
+  const value = row && typeof row === "object" ? row : {};
+  return value.is_private === true || value.isPrivate === true || value.private === true;
+}
+
 function mapLesson(row) {
   const courseCode = row.course_code || "";
   const courseTitle = row.course_title || "";
@@ -1394,6 +1489,7 @@ function mapLesson(row) {
   const officialPlaylistNames = Array.isArray(row.official_playlist_names || row.officialPlaylistNames)
     ? (row.official_playlist_names || row.officialPlaylistNames).map(value => String(value).slice(0, 160))
     : [];
+  const isPrivate = isPrivateLesson(row);
   return {
     id: row.lesson_id || row.id || null,
     slug: row.slug || "",
@@ -1406,6 +1502,8 @@ function mapLesson(row) {
     moduleTitle: row.course_label || row.module_title || "",
     position: Number.isFinite(Number(row.sort_order ?? row.position)) ? Number(row.sort_order ?? row.position) : 0,
     durationSeconds: nullablePositiveNumber(row.duration_seconds),
+    private: isPrivate,
+    isPrivate,
     thumbnailUrl: row.thumbnail_url || null,
     hasThumbnail: row.has_thumbnail === true || row.hasThumbnail === true,
     tags,
@@ -1504,8 +1602,12 @@ function mapLessonFeedback(row) {
 
 function mapFeedbackRecord(row) {
   const value = row && typeof row === "object" ? row : {};
+  const studentId = String(value.student_id || value.studentId || value.student_uuid || value.studentUuid || "");
+  const studentUuid = String(value.student_uuid || value.studentUuid || value.student_id || value.studentId || "");
   return {
-    studentId: String(value.student_id || value.studentId || ""),
+    studentId,
+    studentUuid,
+    videoKey: value.video_key || value.videoKey || null,
     studentName: String(value.student_name || value.studentName || ""),
     lessonId: String(value.lesson_id || value.lessonId || ""),
     lessonTitle: String(value.lesson_title || value.lessonTitle || ""),

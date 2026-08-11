@@ -26,6 +26,9 @@ and coarse network.
 - The R2 key is never returned in the API response. Media responses use
   `Cache-Control: private, no-store`, strict origin CORS, `inline` disposition,
   and single-range handling (`200`, `206`, or `416`).
+- Private lessons remain visible as labelled catalogue entries when returned by
+  the database, but the Worker returns HTTP `403` before creating playback and
+  the database independently enforces the same restriction.
 - Student and administrator logins have independent Cloudflare rate-limit
   bindings: 10 student requests and 5 administrator requests per public IP per
   minute. These limits count successful and unsuccessful requests.
@@ -114,6 +117,8 @@ All routes except health and preflight require the exact
 | `DELETE` | `/v1/admin/session` | Revoke an administrator session (`POST` fallback supported) |
 | `GET` | `/v1/admin/students` | Roster with UUID, key, enabled courses, watermark state, and timestamps |
 | `GET` | `/v1/admin/courses` | The complete nine-course administration catalogue |
+| `GET` | `/v1/admin/lessons` | Safe lesson inventory with course, duration, privacy, publication, tags, and rendition metadata; never R2 keys |
+| `PATCH` | `/v1/admin/lessons/:lessonId/privacy` | Mark or unmark a lesson as private; `{ "private": true }` |
 | `GET` | `/v1/admin/feedback` | Per-student lesson ratings for the administrator |
 | `POST` | `/v1/admin/students/:id/key` | Issue/retain a key; `{ "rotate": false }`, or rotate with `true` |
 | `DELETE` | `/v1/admin/students/:id/key` | Clear the key and entitlement |
@@ -191,6 +196,15 @@ video_class_admin_list_students(
 
 video_class_admin_list_courses(
   p_service_secret text, p_admin_token uuid
+)
+
+video_class_admin_list_lessons(
+  p_service_secret text, p_admin_token uuid
+)
+
+video_class_admin_set_lesson_private(
+  p_service_secret text, p_admin_token uuid,
+  p_lesson_id uuid, p_is_private boolean
 )
 
 video_class_admin_issue_key(
