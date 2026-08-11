@@ -540,7 +540,7 @@
 
     .weekly-reflection-panels {
       display: grid;
-      grid-template-columns: minmax(0, 1.45fr) minmax(310px, .75fr);
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       align-items: start;
       width: min(100%, 1280px);
       gap: 14px;
@@ -610,10 +610,17 @@
     .daily-quote-text {
       margin: 0;
       color: #ffc04c;
-      font-size: clamp(20px, 1.8vw, 27px);
       font-weight: 650;
       line-height: 1.32;
       text-align: left;
+    }
+
+    .daily-quote-language[lang="en"] .daily-quote-text {
+      font-size: clamp(24px, 2.05vw, 31px);
+    }
+
+    .daily-quote-language[lang="zh-Hant"] .daily-quote-text {
+      font-size: clamp(17px, 1.35vw, 21px);
     }
 
     .daily-quote-attribution {
@@ -1660,9 +1667,7 @@
         </section>
 
         <section class="weekly-encouragement-panel" id="schedule-weekly-encouragement" data-weekly-encouragement aria-labelledby="weekly-encouragement-title">
-          <p class="reflection-kicker">A NOTE TO MYSELF · 本週自我鼓勵</p>
           <h2 id="weekly-encouragement-title">給自己的打氣說話</h2>
-          <p>這段說話只會儲存在目前學生帳戶的這一星期。</p>
           <textarea data-encouragement-message maxlength="600" placeholder="寫一句給本星期的自己…" aria-label="給自己的打氣說話"></textarea>
           <div class="encouragement-actions">
             <button class="encouragement-save-button" type="button" data-save-encouragement>儲存本週打氣說話</button>
