@@ -35,12 +35,103 @@ assert.ok(part3.indexOf("${renderRecorderCard(exercise)}") < part3.indexOf('<sec
 const standard = sourceBetween("function renderExercise(", "function currentAudioContext(");
 assert.ok(standard.indexOf("${renderRecorderCard(exercise)}") < standard.indexOf('<div class="response-grid"'), "standard recorder should be reachable before the model-answer grid");
 
-assert.match(css, /\.recorder-card \{[\s\S]*?position: sticky;[\s\S]*?bottom: max\(12px, env\(safe-area-inset-bottom\)\);[\s\S]*?max-height: min\(76vh, 680px\);[\s\S]*?overflow: auto;/);
+const baseRecorderCss = css.match(/\.recorder-card \{([\s\S]*?)\n\}/)?.[1] || "";
+assert.ok(baseRecorderCss, "base recorder styles must remain available");
+assert.doesNotMatch(baseRecorderCss, /position:\s*sticky/, "the Speaking recorder must not use sticky positioning");
+assert.match(css, /\.recorder-card-anchor \{[\s\S]*?display: block;[\s\S]*?height: 0;[\s\S]*?pointer-events: none;/, "the dock sentinel must remain measurable before scrolling");
+assert.match(css, /\.recorder-card\.is-floating \{[\s\S]*?position: fixed;[\s\S]*?right: max\(18px, env\(safe-area-inset-right\)\);[\s\S]*?bottom: calc\(var\(--recorder-floating-bottom, 12px\) \+ env\(safe-area-inset-bottom\)\);[\s\S]*?max-height: min\(70vh, 620px\);/);
+assert.match(css, /\.exercise-view\.has-floating-recorder \{[\s\S]*?padding-bottom: var\(--floating-recorder-reserve, 0\)/, "floating controls must reserve scroll room instead of permanently hiding the final content");
 assert.match(css, /\.page-recording-list \{[\s\S]*?max-height: 260px;[\s\S]*?overflow: auto;/);
-assert.match(css, /@media \(max-width: 820px\) \{[\s\S]*?\.recorder-card \{[\s\S]*?bottom: max\(7px, env\(safe-area-inset-bottom\)\);[\s\S]*?max-height: min\(72vh, 580px\);/);
+assert.match(css, /@media \(max-width: 820px\) \{[\s\S]*?\.recorder-card\.is-floating \{[\s\S]*?right: max\(7px, env\(safe-area-inset-right\)\);[\s\S]*?max-height: min\(72vh, 580px\);/);
+assert.match(source, /function setupFloatingRecorder\(\)[\s\S]*?window\.addEventListener\("scroll", state\.floatingRecorderScrollHandler, \{ passive: true \}\);/);
+assert.match(source, /function updateFloatingRecorder\(\)[\s\S]*?const shouldFloat = anchorRect\.top < safeTop && exerciseRect\.bottom > safeTop \+ 96;/);
+assert.match(source, /const requiredBottom = Math\.max\(safeBottom, viewportHeight - exercise\.getBoundingClientRect\(\)\.bottom \+ 12\);/, "the floating recorder must move upward at the exercise boundary");
+assert.match(source, /typeof ResizeObserver === "function"/, "the floating dock must remeasure previews and recording state changes");
+assert.match(source, /function stopFloatingRecorderListeners\(\)[\s\S]*?removeEventListener\("scroll", state\.floatingRecorderScrollHandler\)/, "floating listeners must be cleaned up during navigation and page exit");
+
+const makeClassList = () => {
+  const values = new Set();
+  return {
+    add: (...names) => names.forEach(name => values.add(name)),
+    remove: (...names) => names.forEach(name => values.delete(name)),
+    contains: name => values.has(name)
+  };
+};
+const makeStyle = () => {
+  const values = new Map();
+  return {
+    setProperty: (name, value) => values.set(name, value),
+    removeProperty: name => values.delete(name),
+    getPropertyValue: name => values.get(name) || "",
+    set height(value) { values.set("height", value); },
+    get height() { return values.get("height") || ""; }
+  };
+};
+let anchorTop = 160;
+let exerciseBottom = 1200;
+const exerciseMock = {
+  classList: makeClassList(),
+  style: makeStyle(),
+  getBoundingClientRect: () => ({ bottom: exerciseBottom })
+};
+const cardMock = {
+  classList: makeClassList(),
+  style: makeStyle(),
+  closest: selector => selector === ".exercise-view" ? exerciseMock : null,
+  getBoundingClientRect: () => ({ height: cardMock.classList.contains("is-floating") ? 220 : 300 })
+};
+const placeholderMock = {
+  classList: makeClassList(),
+  style: makeStyle(),
+  getBoundingClientRect: () => ({ top: anchorTop }),
+  remove() {}
+};
+const floatingState = {
+  route: { view: "exercise" },
+  floatingRecorderFrame: 1,
+  floatingRecorderPlaceholder: placeholderMock,
+  floatingRecorderScrollHandler: null,
+  floatingRecorderResizeHandler: null,
+  floatingRecorderResizeObserver: null
+};
+const floatingWindow = {
+  innerHeight: 800,
+  removeEventListener() {},
+  addEventListener() {}
+};
+const floatingDocument = {
+  documentElement: { clientHeight: 800 },
+  querySelector: selector => selector === "[data-recorder-card]"
+    ? cardMock
+    : selector === "[data-site-header]"
+      ? { getBoundingClientRect: () => ({ bottom: 90 }) }
+      : null
+};
+const floatingHelpers = Function(
+  "state", "window", "document", "cancelAnimationFrame", "requestAnimationFrame", "ResizeObserver",
+  `${sourceBetween("function stopFloatingRecorderListeners(", "function renderPageRecordingHistory(")}; return { updateFloatingRecorder };`
+)(floatingState, floatingWindow, floatingDocument, () => {}, () => 1, undefined);
+
+floatingHelpers.updateFloatingRecorder();
+assert.equal(cardMock.classList.contains("is-floating"), false, "the recorder must remain docked before users scroll past it");
+
+anchorTop = -20;
+floatingHelpers.updateFloatingRecorder();
+assert.equal(cardMock.classList.contains("is-floating"), true, "the recorder must float after its natural anchor leaves the viewport");
+assert.equal(placeholderMock.classList.contains("is-reserving"), true, "floating must preserve the card's natural document space");
+assert.equal(cardMock.style.getPropertyValue("--recorder-floating-bottom"), "12px");
+
+exerciseBottom = 500;
+floatingHelpers.updateFloatingRecorder();
+assert.equal(cardMock.style.getPropertyValue("--recorder-floating-bottom"), "312px", "the floating recorder must move up before reaching the exercise boundary");
+
+anchorTop = 160;
+floatingHelpers.updateFloatingRecorder();
+assert.equal(cardMock.classList.contains("is-floating"), false, "the recorder must return to its natural position when users scroll back up");
+assert.equal(exerciseMock.classList.contains("has-floating-recorder"), false);
 
 assert.match(sql, /Ordinary non-exam practice is repeatable/, "ordinary practice recordings must remain repeatable in the database");
 assert.match(worker, /const attemptId = crypto\.randomUUID\(\)/, "each ordinary upload must receive its own recording ID");
 assert.match(worker, /rpc\(env, "speaking_reserve_recording_attempt"/, "uploads must retain the atomic quota reservation");
 
-console.log("Speaking sticky multi-recording workflow checks passed.");
+console.log("Speaking dynamic floating multi-recording workflow checks passed.");

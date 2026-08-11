@@ -153,6 +153,11 @@
     recordingContextKey: "",
     pageRecordings: [],
     pageRecordingContextKey: "",
+    floatingRecorderFrame: 0,
+    floatingRecorderPlaceholder: null,
+    floatingRecorderScrollHandler: null,
+    floatingRecorderResizeHandler: null,
+    floatingRecorderResizeObserver: null,
     examSession: null,
     examPhaseTimer: 0,
     examElapsedTimer: 0,
@@ -711,6 +716,7 @@
   function showLogin() {
     stopModelAudio();
     clearExamSession();
+    cleanupFloatingRecorder();
     cancelRecorder();
     clearPageRecordingHistory();
     cleanupAttemptAudio();
@@ -884,6 +890,7 @@
     cleanupPart1Reveal();
     cleanupAttemptAudio();
     if (!routesEqual(route, state.route)) {
+      cleanupFloatingRecorder();
       cancelRecorder();
       clearPageRecordingHistory();
     }
@@ -3877,6 +3884,96 @@
     state.pageRecordingContextKey = "";
   }
 
+  function stopFloatingRecorderListeners() {
+    if (state.floatingRecorderFrame) cancelAnimationFrame(state.floatingRecorderFrame);
+    state.floatingRecorderFrame = 0;
+    if (state.floatingRecorderScrollHandler) window.removeEventListener("scroll", state.floatingRecorderScrollHandler);
+    if (state.floatingRecorderResizeHandler) window.removeEventListener("resize", state.floatingRecorderResizeHandler);
+    state.floatingRecorderResizeObserver?.disconnect();
+    state.floatingRecorderScrollHandler = null;
+    state.floatingRecorderResizeHandler = null;
+    state.floatingRecorderResizeObserver = null;
+  }
+
+  function cleanupFloatingRecorder() {
+    stopFloatingRecorderListeners();
+    const card = document.querySelector("[data-recorder-card]");
+    const exercise = card?.closest(".exercise-view");
+    card?.classList.remove("is-floating");
+    card?.style.removeProperty("--recorder-floating-bottom");
+    exercise?.classList.remove("has-floating-recorder");
+    exercise?.style.removeProperty("--floating-recorder-reserve");
+    state.floatingRecorderPlaceholder?.remove();
+    state.floatingRecorderPlaceholder = null;
+  }
+
+  function updateFloatingRecorder() {
+    state.floatingRecorderFrame = 0;
+    const card = document.querySelector("[data-recorder-card]");
+    const placeholder = state.floatingRecorderPlaceholder;
+    const exercise = card?.closest(".exercise-view");
+    if (!card || !placeholder || !exercise || state.route.view !== "exercise") {
+      cleanupFloatingRecorder();
+      return;
+    }
+
+    const viewportHeight = Math.max(320, window.innerHeight || document.documentElement.clientHeight || 0);
+    const headerBottom = Math.max(0, document.querySelector("[data-site-header]")?.getBoundingClientRect().bottom || 0);
+    const safeTop = Math.min(viewportHeight - 160, Math.max(12, headerBottom + 12));
+    const anchorRect = placeholder.getBoundingClientRect();
+    const exerciseRect = exercise.getBoundingClientRect();
+    const shouldFloat = anchorRect.top < safeTop && exerciseRect.bottom > safeTop + 96;
+
+    if (!shouldFloat) {
+      card.classList.remove("is-floating");
+      card.style.removeProperty("--recorder-floating-bottom");
+      placeholder.classList.remove("is-reserving");
+      placeholder.style.removeProperty("height");
+      exercise.classList.remove("has-floating-recorder");
+      exercise.style.removeProperty("--floating-recorder-reserve");
+      return;
+    }
+
+    if (!card.classList.contains("is-floating")) {
+      placeholder.style.height = `${Math.ceil(card.getBoundingClientRect().height)}px`;
+      placeholder.classList.add("is-reserving");
+      card.classList.add("is-floating");
+    }
+
+    const floatingHeight = Math.min(viewportHeight - safeTop - 18, Math.ceil(card.getBoundingClientRect().height));
+    const safeBottom = 12;
+    const requiredBottom = Math.max(safeBottom, viewportHeight - exercise.getBoundingClientRect().bottom + 12);
+    const maximumBottom = Math.max(safeBottom, viewportHeight - safeTop - floatingHeight - 10);
+    card.style.setProperty("--recorder-floating-bottom", `${Math.min(requiredBottom, maximumBottom)}px`);
+    exercise.classList.add("has-floating-recorder");
+    exercise.style.setProperty("--floating-recorder-reserve", `${Math.min(viewportHeight * 0.55, floatingHeight + 28)}px`);
+  }
+
+  function queueFloatingRecorderUpdate() {
+    if (state.floatingRecorderFrame) return;
+    state.floatingRecorderFrame = requestAnimationFrame(updateFloatingRecorder);
+  }
+
+  function setupFloatingRecorder() {
+    cleanupFloatingRecorder();
+    const card = document.querySelector("[data-recorder-card]");
+    if (!card || state.route.view !== "exercise") return;
+    const placeholder = document.createElement("div");
+    placeholder.className = "recorder-card-anchor";
+    placeholder.setAttribute("aria-hidden", "true");
+    card.before(placeholder);
+    state.floatingRecorderPlaceholder = placeholder;
+    state.floatingRecorderScrollHandler = queueFloatingRecorderUpdate;
+    state.floatingRecorderResizeHandler = queueFloatingRecorderUpdate;
+    window.addEventListener("scroll", state.floatingRecorderScrollHandler, { passive: true });
+    window.addEventListener("resize", state.floatingRecorderResizeHandler, { passive: true });
+    if (typeof ResizeObserver === "function") {
+      state.floatingRecorderResizeObserver = new ResizeObserver(queueFloatingRecorderUpdate);
+      state.floatingRecorderResizeObserver.observe(card);
+    }
+    queueFloatingRecorderUpdate();
+  }
+
   function renderPageRecordingHistory() {
     const list = document.querySelector("[data-page-recording-list]");
     const count = document.querySelector("[data-page-recording-count]");
@@ -4231,6 +4328,7 @@
     setupPart1Reveal();
     syncAudioControls();
     renderPageRecordingHistory();
+    setupFloatingRecorder();
   }
 
   function renderPart3Model(model, index, matcher, entry) {
@@ -4321,6 +4419,7 @@
     `;
     syncAudioControls();
     renderPageRecordingHistory();
+    setupFloatingRecorder();
   }
 
   function focusRoutedQuestion() {
@@ -4396,6 +4495,7 @@
     `;
     syncAudioControls();
     renderPageRecordingHistory();
+    setupFloatingRecorder();
     focusRoutedQuestion();
   }
 
@@ -6980,6 +7080,7 @@
       clearExamElapsedTimer();
       cancelExamSpeech();
       cleanupPart1Reveal();
+      cleanupFloatingRecorder();
       cancelRecorder();
       clearPageRecordingHistory();
       cleanupAttemptAudio();

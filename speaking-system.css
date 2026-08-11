@@ -2715,22 +2715,83 @@ button:disabled {
 }
 
 .recorder-card {
-  position: sticky;
-  bottom: max(12px, env(safe-area-inset-bottom));
-  z-index: 24;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: 24px;
-  max-height: min(76vh, 680px);
-  overflow: auto;
-  overscroll-behavior: contain;
   padding: clamp(24px, 3vw, 38px);
   border-color: rgba(201, 97, 79, .18);
   background:
     radial-gradient(circle at 95% 0, rgba(242, 158, 128, .17), transparent 19rem),
     var(--paper);
   box-shadow: 0 22px 55px rgba(28, 56, 72, .2);
+}
+
+.recorder-card-anchor {
+  display: block;
+  width: 100%;
+  height: 0;
+  pointer-events: none;
+}
+
+.recorder-card-anchor.is-reserving {
+  width: 100%;
+}
+
+.exercise-view.has-floating-recorder {
+  padding-bottom: var(--floating-recorder-reserve, 0);
+}
+
+.recorder-card.is-floating {
+  position: fixed;
+  right: max(18px, env(safe-area-inset-right));
+  bottom: calc(var(--recorder-floating-bottom, 12px) + env(safe-area-inset-bottom));
+  z-index: 45;
+  width: min(470px, calc(100vw - 36px - env(safe-area-inset-left) - env(safe-area-inset-right)));
+  max-height: min(70vh, 620px);
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 13px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 17px;
+  background:
+    radial-gradient(circle at 95% 0, rgba(242, 158, 128, .15), transparent 13rem),
+    rgba(255, 253, 249, .98);
+  box-shadow: 0 24px 64px rgba(20, 43, 57, .3);
+  animation: recorder-float-in .18s ease-out;
+}
+
+.recorder-card.is-floating > div:first-child > p,
+.recorder-card.is-floating .page-recording-history {
+  display: none;
+}
+
+.recorder-card.is-floating h2 {
+  font-size: 23px;
+}
+
+.recorder-card.is-floating .recording-status {
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+.recorder-card.is-floating .recording-preview {
+  padding-top: 12px;
+}
+
+.recorder-card.is-floating .recording-preview audio {
+  margin-bottom: 9px;
+}
+
+.recorder-card.is-floating .save-note {
+  display: none;
+}
+
+@keyframes recorder-float-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
 }
 
 .recorder-card h2 {
@@ -3313,8 +3374,9 @@ button:disabled {
     justify-self: stretch;
   }
 
-  .recorder-card {
-    bottom: max(7px, env(safe-area-inset-bottom));
+  .recorder-card.is-floating {
+    right: max(7px, env(safe-area-inset-right));
+    width: calc(100vw - 14px - env(safe-area-inset-left) - env(safe-area-inset-right));
     gap: 12px;
     max-height: min(72vh, 580px);
     padding: 16px;
@@ -3323,15 +3385,15 @@ button:disabled {
       rgba(255, 253, 249, .97);
   }
 
-  .recorder-card h2 {
+  .recorder-card.is-floating h2 {
     font-size: 23px;
   }
 
-  .recorder-card > div:first-child > p {
+  .recorder-card.is-floating > div:first-child > p {
     display: none;
   }
 
-  .recording-status {
+  .recorder-card.is-floating .recording-status {
     margin-top: 7px;
   }
 
@@ -4570,6 +4632,7 @@ button:disabled {
   .breadcrumbs,
   .audio-panel,
   .recorder-card,
+  .recorder-card-anchor,
   .part1-animation-toggle,
   .part1-message-audio,
   .part3-reading-guide,
@@ -4577,6 +4640,10 @@ button:disabled {
   .part3-exercise-nav,
   .toast-region {
     display: none !important;
+  }
+
+  .exercise-view.has-floating-recorder {
+    padding-bottom: 0 !important;
   }
 
   body {
