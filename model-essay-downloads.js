@@ -14,6 +14,9 @@
   const readingFiles = Array.isArray(window.EDMUND_IELTS_READING_DOWNLOADS)
     ? window.EDMUND_IELTS_READING_DOWNLOADS
     : [];
+  const listeningFiles = Array.isArray(window.EDMUND_IELTS_LISTENING_DOWNLOADS)
+    ? window.EDMUND_IELTS_LISTENING_DOWNLOADS
+    : [];
   const dseWritingPartAFiles = Array.isArray(window.EDMUND_DSE_WRITING_PART_A_DOWNLOADS)
     ? window.EDMUND_DSE_WRITING_PART_A_DOWNLOADS
     : [];
@@ -22,6 +25,7 @@
   const task2Meta = window.EDMUND_MODEL_ESSAY_META || {};
   const speakingMeta = window.EDMUND_IELTS_SPEAKING_META || {};
   const readingMeta = window.EDMUND_IELTS_READING_META || {};
+  const listeningMeta = window.EDMUND_IELTS_LISTENING_META || {};
   const dseWritingPartAMeta = window.EDMUND_DSE_WRITING_PART_A_META || {};
   const supabaseConfig = window.EDMUND_SUPABASE || {};
   const essayPortals = window.EDMUND_ESSAY_PORTALS || null;
@@ -58,6 +62,7 @@
   ];
 
   const readingFilters = [{ key: "all", label: "全部" }];
+  const listeningFilters = [{ key: "all", label: "全部練習" }];
   const dseWritingFilters = [{ key: "all", label: "全部年份" }];
   const readingItems = passage => readingFiles.filter(item => item.passage === passage);
   const readingCatalogMeta = passage => {
@@ -251,6 +256,32 @@
       selectedZipPrefix: "Edmund-IELTS-Reading-Passage-3-Selected",
       kicker: item => `PRACTICE ${item.number} · PASSAGE ${item.passage}`,
       detailFallback: "IELTS Reading Passage 3 練習 PDF。"
+    }),
+    listening: Object.freeze({
+      key: "listening",
+      isListening: true,
+      items: listeningFiles,
+      meta: listeningMeta,
+      filters: listeningFilters,
+      initialSort: "number-asc",
+      endpointPrefix: "/listening",
+      breadcrumb: "IELTS 聆聽 Practice",
+      eyebrow: "IELTS LISTENING · PRACTICE 1-20",
+      titleHtml: "IELTS Listening Practice<br>聆聽練習下載庫",
+      totalUnit: "份 PDF 聆聽練習",
+      itemNoun: "聆聽練習",
+      filterLabel: "IELTS Listening 練習篩選",
+      searchLabel: "搜尋 Listening Practice 編號或檔案名稱",
+      searchPlaceholder: "搜尋 Practice 編號，例如 10...",
+      categorySortLabel: "按 Practice 編號分類",
+      emptyTitle: "找不到符合條件的 IELTS Listening 練習",
+      emptyCopy: "請嘗試另一個 Practice 編號或關鍵字。",
+      allTitle: "確定下載全部 IELTS Listening 練習？",
+      allCopy: "系統會把 20 份 IELTS Listening 練習整理成一個 ZIP 檔案。",
+      allZipName: "Edmund-IELTS-Listening-Practice-1-20.zip",
+      selectedZipPrefix: "Edmund-IELTS-Listening-Selected",
+      kicker: item => `LISTENING PRACTICE ${item.number}`,
+      detailFallback: "IELTS Listening 聆聽練習 PDF。"
     })
   });
 
@@ -264,12 +295,13 @@
     ...task1Essays,
     ...task2Essays,
     ...speakingFiles,
-    ...readingFiles
+    ...readingFiles,
+    ...listeningFiles
   ].map(item => [item.id, item]));
 
   const exams = [
     { key: "dse", label: "DSE", subline: "英文文憑試教材", contentAvailable: true, featured: true },
-    { key: "ielts", label: "IELTS", subline: "雅思寫作及口試教材", contentAvailable: true, featured: true },
+    { key: "ielts", label: "IELTS", subline: "雅思寫作、口試、閱讀及聆聽教材", contentAvailable: true, featured: true },
     { key: "toeic", label: "TOEIC", subline: "職場英語寫作範文", contentAvailable: false },
     { key: "toefl", label: "TOEFL", subline: "托福寫作範文", contentAvailable: false },
     { key: "pte", label: "PTE", subline: "培生英語寫作範文", contentAvailable: false },
@@ -361,6 +393,12 @@
         tags: []
       };
     }
+    if (activeCatalog.isListening) {
+      return {
+        question: `IELTS Listening Practice ${essay?.number} · 聆聽練習 PDF。`,
+        tags: []
+      };
+    }
     if (state.catalogKey === "speaking") {
       return {
         question: `IELTS Speaking Part ${essay?.part} · Book ${essay?.book}，Band 9 sample PDF。`,
@@ -377,7 +415,7 @@
   }
 
   function itemDisplayTitle(item) {
-    return (activeCatalog.isReading || activeCatalog.isDseWritingPartA) && item?.title
+    return (activeCatalog.isReading || activeCatalog.isListening || activeCatalog.isDseWritingPartA) && item?.title
       ? item.title
       : item?.filename || "PDF";
   }
@@ -903,7 +941,7 @@
             ${essay.problem ? '<span class="problem-badge">需留意</span>' : ""}
           </div>
           <button class="essay-title-button" type="button" data-open-detail-id="${escapeHtml(essay.id)}">${escapeHtml(itemDisplayTitle(essay))}</button>
-          <div class="essay-detail">${activeCatalog.isReading ? `Practice ${essay.number} · ` : ""}PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}</div>
+          <div class="essay-detail">${activeCatalog.isReading || activeCatalog.isListening ? `Practice ${essay.number} · ` : ""}PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}</div>
           ${["task1", "task2"].includes(activeCatalog.key) ? `<div class="essay-portal-actions">${essayPortalLinksHtml(essay)}</div>` : ""}
         </div>
         <div class="essay-category">
@@ -1161,6 +1199,7 @@
     const isTask1 = event.task === "task-1";
     const isSpeaking = event.task === "speaking";
     const isReading = String(event.task || "").startsWith("reading-passage-");
+    const isListening = event.task === "listening";
     const isDseWritingPartA = event.section === "dse" && event.task === "writing-part-a";
     if (event.event_type === "all_bundle") {
       const label = isDseWritingPartA
@@ -1171,6 +1210,8 @@
         ? "All IELTS Speaking bundle"
         : isReading
           ? `All IELTS Reading Passage ${String(event.task).slice(-1)} bundle`
+        : isListening
+          ? "All IELTS Listening Practice bundle"
           : "All Task 2 essay bundle";
       return `<strong>${label}</strong>`;
     }
@@ -1188,6 +1229,8 @@
         ? "Speaking 教材"
         : isReading
           ? "閱讀練習"
+        : isListening
+          ? "聆聽練習"
           : "範文";
     return `<details><summary>${names.length} 份已選${noun}</summary><ul>${items}</ul></details>`;
   }

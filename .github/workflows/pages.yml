@@ -130,6 +130,9 @@ jobs:
       - name: Validate Listening portal, 80-track catalogue and playback speeds
         run: node tools/test-listening-system.mjs
 
+      - name: Validate IELTS Listening Practice download catalogue and thumbnails
+        run: node tools/test-ielts-listening-download-catalog.mjs
+
       - name: Validate IELTS Writing Task 1 flashcards and female voice
         run: |
           node tools/test-ielts-writing-task1-flashcards.mjs

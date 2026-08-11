@@ -1,7 +1,7 @@
 # Edmund model-essay download Worker
 
 This Worker exposes the private `edmund-model-essays-private` R2 bucket and the
-`DSE Writing Part A/`, `IELTS Writing Task 1/`, `IELTS Speaking All Parts/`, and `IELTS Reading/` prefixes in the `edmund-assets`
+`DSE Writing Part A/`, `IELTS Writing Task 1/`, `IELTS Speaking All Parts/`, `IELTS Reading/`, and `IELTS Listening - Practice Papers/` prefixes in the `edmund-assets`
 R2 bucket through `edmund-model-essay-downloads.edmundeducation.workers.dev`.
 It validates the Flashcard student session,
 rate-limits and proxies the admin password check, forces single PDFs to download,
@@ -36,10 +36,10 @@ Deployment notes:
 5. Deploy with Wrangler 4.36.0 or later so the configured admin-login rate
    limiting binding is available: `npx wrangler@latest deploy`.
 6. Test the Worker URL, login, one PDF, 11 selected PDFs, and download-all for
-   DSE Writing Part A, IELTS Task 1, Task 2, IELTS Speaking, and each IELTS Reading passage, plus the matching
+   DSE Writing Part A, IELTS Task 1, Task 2, IELTS Speaking, IELTS Listening, and each IELTS Reading passage, plus the matching
    admin audit rows.
-7. Keep the Task 2 bucket private. The existing IELTS Task 1, Speaking, and
-   Reading objects may remain on the public `r2.dev` domain, but
+7. Keep the Task 2 bucket private. The existing IELTS Task 1, Speaking,
+   Reading, and Listening objects may remain on the public `r2.dev` domain, but
    the portal deliberately routes downloads through this Worker to force
    attachment downloads, build ZIPs, apply the shared IELTS permission, and
    record audit events. These public collections use the existing
@@ -49,8 +49,9 @@ The browser sends only catalog IDs to the ZIP endpoints. The Worker-owned
 catalogs fix each ID to one exact R2 key, size, CRC-32 value, and archive name.
 Regenerate DSE Writing Part A with `tools/build-dse-writing-part-a-download-catalog.py`,
 IELTS Task 1 with `tools/build-ielts-task1-download-catalog.py`,
-Task 2 with `tools/build-model-essay-catalog.py`, and IELTS Speaking
-with `tools/build-ielts-speaking-download-catalog.py` whenever PDFs change.
+Task 2 with `tools/build-model-essay-catalog.py`, IELTS Speaking with
+`tools/build-ielts-speaking-download-catalog.py`, and IELTS Listening with
+`tools/build-ielts-listening-download-catalog.py` whenever PDFs change.
 The Task 1 builder requires all three local batches plus the two retained legacy
 variants because it generates one combined 62-file catalogue while preserving
 each batch's exact R2 prefix:
@@ -73,6 +74,11 @@ archives cannot cross passage boundaries:
 - `/v1/reading/passage-1/files/:id` and `/v1/reading/passage-1/zip`
 - `/v1/reading/passage-2/files/:id` and `/v1/reading/passage-2/zip`
 - `/v1/reading/passage-3/files/:id` and `/v1/reading/passage-3/zip`
+
+IELTS Listening downloads use:
+
+- `/v1/listening/files/:id`
+- `/v1/listening/zip`
 
 DSE Writing Part A downloads use:
 
